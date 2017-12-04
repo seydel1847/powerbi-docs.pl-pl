@@ -1,0 +1,17 @@
+- name: Dokumentacja
+  href: /
+  topicHref: /
+  items:
+    - name: Power BI
+      tocHref: /power-bi/
+      topicHref: /power-bi/
+      items:
+        - name: Deweloper
+          tocHref: /power-bi/developer/
+          topicHref: /power-bi/developer/
+        - name: Uczenie z przewodnikiem
+          tocHref: /power-bi/guided-learning/
+          topicHref: /power-bi/guided-learning/
+        - name: Serwer raportów
+          tocHref: /power-bi/report-server/
+          topicHref: /power-bi/report-server/
