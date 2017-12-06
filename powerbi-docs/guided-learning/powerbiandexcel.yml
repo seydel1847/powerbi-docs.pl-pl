@@ -1,0 +1,60 @@
+documentType: Tutorial
+title: "Usługa Power BI i program Excel"
+metadata:
+  title: "Usługa Power BI i program Excel | Microsoft Power BI"
+  description: "Korzystaj z programu Excel razem z usługą Power BI i twórz zaawansowane, połączone raporty oraz wizualizacje."
+  audience: Business User
+  level: Beginner
+  nextTutorialHref: publishingandsharing
+  nextTutorialTitle: "Publikowanie i udostępnianie"
+  displayType: one-column
+  author: davidiseminger
+  manager: kfile
+  ms.service: powerbi
+  ms.topic: get-started-article
+  ms.date: 10/27/2017
+  ms.author: davidi
+items:
+- durationInMinutes: 1
+  content: "Korzystaj z programu Excel razem z usługą Power BI i twórz zaawansowane, połączone raporty oraz wizualizacje.\n"
+  ms.openlocfilehash: 2d734b12d3ff197addff0a0cf39b1f399d70e3a6
+  ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+  ms.translationtype: HT
+  ms.contentlocale: pl-PL
+  ms.lasthandoff: 11/15/2017
+- title: "Wprowadzenie do korzystania z danych programu Excel w usłudze Power BI"
+  durationInMinutes: 2
+  content: >
+    > [!Video https://www.youtube.com/embed/TWVqSlkjVPw?rel=0]
+
+
+    [!INCLUDE [](includes/5-1-intro-excel-data.md)]
+- title: "Przekazywanie danych programu Excel do usługi Power BI"
+  durationInMinutes: 4
+  content: >
+    > [!Video https://www.youtube.com/embed/8-z6QoaNL3A?rel=0]
+
+
+    [!INCLUDE [](includes/5-2-upload-excel.md)]
+- title: "Importowanie dodatków Power View i Power Pivot do usługi Power BI"
+  durationInMinutes: 4
+  content: >
+    > [!Video https://www.youtube.com/embed/nVkpj0tB4Yk?rel=0]
+
+
+    [!INCLUDE [](includes/5-3-import-powerpivot-powerview.md)]
+- title: "Łączenie usługi OneDrive dla Firm z usługą Power BI"
+  durationInMinutes: 8
+  content: >
+    > [!Video https://www.youtube.com/embed/WK7OZF-hVZA?rel=0]
+
+
+    [!INCLUDE [](includes/5-4-connect-onedrive-for-business.md)]
+- title: "Program Excel w usłudze Power BI — podsumowanie"
+  durationInMinutes: 2
+  content: >
+    > [!Video https://www.youtube.com/embed/HNhK9XMuyO4?rel=0]
+
+
+    [!INCLUDE [](includes/5-8-excel-data-summary.md)]
+- content: "Ukończono sekcję **Usługa Power BI i program Excel** kursu Nauka z przewodnikiem dotyczącego usługi Microsoft Power BI.\0"

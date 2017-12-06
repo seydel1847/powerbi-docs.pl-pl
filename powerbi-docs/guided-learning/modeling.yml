@@ -1,0 +1,74 @@
+documentType: Tutorial
+title: Modelowanie
+metadata:
+  title: Modelowanie | Microsoft Power BI
+  description: "Nawiąż połączenie z wieloma źródłami danych, a następnie połącz je, korzystając ze sposobów tworzenia unikatowego modelu danych, który odpowiada Twoim potrzebom."
+  audience: Business User
+  level: Beginner
+  nextTutorialHref: visualizations
+  nextTutorialTitle: Wizualizacje
+  displayType: one-column
+  author: davidiseminger
+  manager: kfile
+  ms.service: powerbi
+  ms.topic: get-started-article
+  ms.date: 10/27/2017
+  ms.author: davidi
+items:
+- durationInMinutes: 1
+  content: "Nawiąż połączenie z wieloma źródłami danych, a następnie połącz je, korzystając ze sposobów tworzenia unikatowego modelu danych, który odpowiada Twoim potrzebom.\n"
+  ms.openlocfilehash: 6486ec39aa624f4387c6006637b9b77e47fe0c2a
+  ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+  ms.translationtype: HT
+  ms.contentlocale: pl-PL
+  ms.lasthandoff: 11/15/2017
+- title: Wprowadzenie do modelowania danych
+  durationInMinutes: 3
+  content: >
+    > [!Video https://www.youtube.com/embed/VM1K15aEnm4?rel=0]
+
+
+    [!INCLUDE [](includes/2-1-intro-modeling-data.md)]
+- title: "Jak zarządzać relacjami danych"
+  durationInMinutes: 9
+  content: >
+    > [!Video https://www.youtube.com/embed/MqNX5olPGGI?rel=0]
+
+
+    [!INCLUDE [](includes/2-2-manage-data-relationships.md)]
+- title: Tworzenie kolumn obliczeniowych
+  durationInMinutes: 9
+  content: >
+    > [!Video https://www.youtube.com/embed/GarBXef0Vew?rel=0]
+
+
+    [!INCLUDE [](includes/2-3-create-calculated-columns.md)]
+- title: Optymalizowanie modeli danych
+  durationInMinutes: 8
+  content: >
+    > [!Video https://www.youtube.com/embed/tDcrfnjjlgk?rel=0]
+
+
+    [!INCLUDE [](includes/2-4-optimize-data-models.md)]
+- title: Tworzenie miar obliczeniowych
+  durationInMinutes: 14
+  content: >
+    > [!Video https://www.youtube.com/embed/yn2bXVQJLx8?rel=0]
+
+
+    [!INCLUDE [](includes/2-5-create-calculated-measures.md)]
+- title: Tworzenie tabel obliczeniowych
+  durationInMinutes: 4
+  content: >
+    > [!Video https://www.youtube.com/embed/aKX1E3krl4I?rel=0]
+
+
+    [!INCLUDE [](includes/2-6-create-calculated-tables.md)]
+- title: Eksplorowanie danych czasowych
+  durationInMinutes: 6
+  content: >
+    > [!Video https://www.youtube.com/embed/MNAaHw4PxzE?rel=0]
+
+
+    [!INCLUDE [](includes/2-6a-explore-time-based-data.md)]
+- content: "Ukończono sekcję **Modelowanie** kursu Nauka z przewodnikiem dotyczącego usługi Microsoft Power BI.\0"
