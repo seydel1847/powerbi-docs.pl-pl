@@ -252,8 +252,6 @@
           href: service-insight-types.md
         - name: Optymalizacja danych pod kątem szybkiego wglądu w szczegółowe dane usługi Power BI
           href: service-insights-optimize.md
-        - name: Wyświetlanie kafelka pulpitu nawigacyjnego w trybie pełnoekranowym (tryb TV)
-          href: service-tile-fullscreen-mode.md
         - name: Polecane pulpity nawigacyjne w usłudze Power BI
           href: service-dashboard-featured.md
         - name: Tworzenie widoku pulpitu nawigacyjnego dla telefonu
