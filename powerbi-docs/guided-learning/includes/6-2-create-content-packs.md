@@ -1,4 +1,4 @@
-W czasie tej lekcji utworzymy *pakiet zawartości* z artefaktami, które istnieją już w usłudze Power BI, a następnie udostępnimy go współpracownikom.
+W czasie tej lekcji utworzymy *pakiet zawartości* z artefaktami, które istnieją już w usłudze Power BI, a następnie udostępnimy go współpracownikom. 
 
 W oknie **Mój obszar roboczy** mam pulpit nawigacyjny, a poniżej raport i zestaw danych. Chcę udostępnić je osobom w mojej organizacji jako pakiet do ponownego wykorzystania.
 
