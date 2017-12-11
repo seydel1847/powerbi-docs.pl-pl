@@ -1,3 +1,4 @@
+### YamlMime:YamlDocument
 documentType: Tutorial
 title: Modelowanie
 metadata:
@@ -12,16 +13,16 @@ metadata:
   manager: kfile
   ms.service: powerbi
   ms.topic: get-started-article
-  ms.date: 10/27/2017
+  ms.date: 12/05/2017
   ms.author: davidi
-items:
-- durationInMinutes: 1
-  content: "Nawiąż połączenie z wieloma źródłami danych, a następnie połącz je, korzystając ze sposobów tworzenia unikatowego modelu danych, który odpowiada Twoim potrzebom.\n"
-  ms.openlocfilehash: 6486ec39aa624f4387c6006637b9b77e47fe0c2a
-  ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+  ms.openlocfilehash: 760a683fd4267f2dc1fc3e59783770ad4904dcfb
+  ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
   ms.translationtype: HT
   ms.contentlocale: pl-PL
-  ms.lasthandoff: 11/15/2017
+  ms.lasthandoff: 12/06/2017
+items:
+- durationInMinutes: 1
+  content: "Dzięki możliwościom **modelowania** dostępnym w usłudze **Power BI** możesz nawiązać połączenie z wieloma źródłami danych, a następnie połączyć je, korzystając ze sposobów tworzenia unikatowego modelu danych, który odpowiada Twoim potrzebom.\n"
 - title: Wprowadzenie do modelowania danych
   durationInMinutes: 3
   content: >
@@ -71,4 +72,4 @@ items:
 
 
     [!INCLUDE [](includes/2-6a-explore-time-based-data.md)]
-- content: "Ukończono sekcję **Modelowanie** kursu Nauka z przewodnikiem dotyczącego usługi Microsoft Power BI.\0"
+- content: "Dobrze Ci idzie. Kontynuuj naukę o usłudze Power BI! Ukończono sekcję **Modelowanie** kursu Nauka z przewodnikiem dotyczącego usługi Microsoft Power BI. Kolejna sekcja dotyczy wizualizacji.\0"

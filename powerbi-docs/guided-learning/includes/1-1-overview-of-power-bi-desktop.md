@@ -7,7 +7,7 @@ Jak zawsze w tym kursie, nauka podąża tą samą drogą co przepływ pracy w us
 ## <a name="an-overview-of-power-bi-desktop"></a>Przegląd programu Power BI Desktop
 Program Power BI Desktop to narzędzie umożliwiające łączenie się z danymi, ich czyszczenie i wizualizowanie. Za pomocą programu Power BI Desktop możesz połączyć się z danymi, a następnie modelować je i wizualizować na różne sposoby. Najczęściej użytkownicy pracujący w projektach z zakresu analizy biznesowej spędzają większość czasu na pracy w programie Power BI Desktop.
 
-Program Power BI Desktop możesz pobrać [z Internetu](http://go.microsoft.com/fwlink/?LinkID=521662) lub z usługi Power BI. Po prostu wybierz przycisk strzałki w dół w prawym górnym rogu usługi Power BI, a następnie wybierz program Power BI Desktop.
+Program Power BI Desktop można pobrać [z Internetu](http://go.microsoft.com/fwlink/?LinkID=521662). Można również zainstalować program **Power BI Desktop** jako aplikację ze [**Sklepu Windows**](http://aka.ms/pbidesktopstore) lub pobrać go z usługi Power BI. Aby pobrać program **Power BI Desktop** w usłudze, wystarczy wybrać przycisk strzałki w dół w prawym górnym rogu usługi Power BI, a następnie wybrać program Power BI Desktop.
 
 ![](media/1-1-overview-of-power-bi-desktop/1-1_1.png)
 

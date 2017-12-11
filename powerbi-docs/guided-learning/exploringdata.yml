@@ -1,3 +1,4 @@
+### YamlMime:YamlDocument
 documentType: Tutorial
 title: Eksplorowanie danych
 metadata:
@@ -12,16 +13,16 @@ metadata:
   manager: kfile
   ms.service: powerbi
   ms.topic: get-started-article
-  ms.date: 10/27/2017
+  ms.date: 12/05/2017
   ms.author: davidi
-items:
-- durationInMinutes: 1
-  content: "Dowiedz się, jak znaleźć i połączyć dane w usłudze Power BI, a następnie korzystać z nich.\n"
-  ms.openlocfilehash: 04fc3f0a47ab4194031b6e2bb65eacc0ac89d5f5
-  ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+  ms.openlocfilehash: 67e0b44ff76a8e32de0e6f460afe1fb45954dbb7
+  ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
   ms.translationtype: HT
   ms.contentlocale: pl-PL
-  ms.lasthandoff: 11/15/2017
+  ms.lasthandoff: 12/06/2017
+items:
+- durationInMinutes: 1
+  content: "Zapraszamy do samouczka **Eksplorowanie danych**. Dowiesz się z niego, jak znaleźć i połączyć dane w usłudze Power BI, a następnie korzystać z nich.\n"
 - title: "Wprowadzenie do usługi Power BI"
   durationInMinutes: 2
   content: >
@@ -92,4 +93,4 @@ items:
 
 
     [!INCLUDE [](includes/4-6-install-configure-personal-gateway.md)]
-- content: "Ukończono sekcję **Eksplorowanie danych** przewodnika Nauka krok po kroku dla usługi Microsoft Power BI.\0"
+- content: "Sekcja **Eksplorowanie danych** kursu Nauka z przewodnikiem przygotowała Cię do pracy ze wszystkimi typami danych. Z następnego samouczka dowiesz się, jak używać typowego źródła danych — programu Excel.\0"

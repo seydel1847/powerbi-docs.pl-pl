@@ -1,3 +1,4 @@
+### YamlMime:YamlDocument
 documentType: Tutorial
 title: "Wprowadzenie do języka DAX"
 metadata:
@@ -10,16 +11,16 @@ metadata:
   manager: kfile
   ms.service: powerbi
   ms.topic: get-started-article
-  ms.date: 10/27/2017
+  ms.date: 12/05/2017
   ms.author: davidi
+  ms.openlocfilehash: 375f4144016121171f9e7449f2d664efe7cf3aa1
+  ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+  ms.translationtype: HT
+  ms.contentlocale: pl-PL
+  ms.lasthandoff: 12/06/2017
 items:
 - durationInMinutes: 1
   content: "Dowiedz się od doświadczonego eksperta, jak tworzyć kod w języku DAX i z nim pracować.\n"
-  ms.openlocfilehash: 5723e4a56974ab25eb43f3130755f6bccb71214c
-  ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
-  ms.translationtype: HT
-  ms.contentlocale: pl-PL
-  ms.lasthandoff: 11/15/2017
 - title: "Wprowadzenie do języka DAX"
   durationInMinutes: 9
   content: >
@@ -62,4 +63,4 @@ items:
 
 
     [!INCLUDE [](includes/7-6-dax-tables-and-filtering.md)]
-- content: "Ukończono sekcję **Wprowadzenie do języka DAX** kursu Nauka z przewodnikiem dotyczącego usługi Microsoft Power BI.\0"
+- content: "Ukończono sekcję **Wprowadzenie do języka DAX** kursu Nauka z przewodnikiem dotyczącego usługi Power BI. Co za podróż! Jeśli wykonano zadania z samouczków w polecanej kolejności, wszystkie sekcje **Nauki z przewodnikiem** zostały ukończone. Świetnie! Teraz zacznij używać usługi **Power BI** do tworzenia atrakcyjnych raportów i pulpitów nawigacyjnych pasujących do Twojej sytuacji.\0"
