@@ -784,8 +784,8 @@
           href: desktop-inline-hierarchy-labels.md
         - name: Używanie fragmentatora zakresu liczbowego
           href: desktop-slicer-numeric-range.md
-        - name: Używanie fragmentatora daty względnej
-          href: desktop-slicer-filter-date-range.md
+        - name: Tworzenie fragmentatora dynamicznego z możliwością zmiany rozmiaru
+          href: power-bi-slicer-filter-responsive.md
         - name: Tworzenie niestandardowych kart odpowiedzi usługi Power BI dla Cortany
           href: service-cortana-answer-cards.md
         - name: Zabezpieczenia na poziomie wiersza
