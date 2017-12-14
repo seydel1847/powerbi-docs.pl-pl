@@ -1,0 +1,95 @@
+---
+title: "Eksportowanie raportów z usługi Power BI do programu PowerPoint (wersja zapoznawcza)"
+description: "Dowiedz się, jak wyeksportować raport usługi Power BI do programu PowerPoint."
+services: powerbi
+documentationcenter: 
+author: davidiseminger
+manager: kfile
+backup: 
+editor: 
+tags: 
+qualityfocus: complete
+qualitydate: 
+ms.service: powerbi
+ms.devlang: NA
+ms.topic: article
+ms.tgt_pltfrm: NA
+ms.workload: powerbi
+ms.date: 07/21/2017
+ms.author: davidi
+ms.openlocfilehash: 879d142cba4af026cc23188173a380340b4c245b
+ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.translationtype: HT
+ms.contentlocale: pl-PL
+ms.lasthandoff: 11/15/2017
+---
+# <a name="export-reports-from-power-bi-to-powerpoint-preview"></a>Eksportowanie raportów z usługi Power BI do programu PowerPoint (wersja zapoznawcza)
+Usługa Power BI umożliwia teraz publikowanie raportów w programie **Microsoft PowerPoint** oraz łatwe tworzenie pokazu slajdów na podstawie raportu usługi Power BI. Podczas **eksportowania do programu PowerPoint** zachodzą następujące zmiany:
+
+* Każda strona w raporcie usługi Power BI staje się pojedynczym slajdem w programie PowerPoint
+* Każda wizualizacja w raporcie usługi Power BI jest eksportowana jako obraz o wysokiej rozdzielczości w programie PowerPoint
+* Pola tekstowe w raporcie usługi Power BI stają się edytowalnymi polami tekstowymi w programie PowerPoint
+* W programie PowerPoint jest tworzony link prowadzący do raportu usługi Power BI
+
+Eksportowanie **raportu usługi Power BI** do programu **PowerPoint** jest łatwe. Wystarczy wykonać kroki opisane w następnej sekcji.
+
+## <a name="how-to-export-your-power-bi-report-to-powerpoint"></a>Jak wyeksportować raport usługi Power BI do programu PowerPoint
+W usłudze Power BI wybierz sekcję **Raporty** w okienku nawigacji po lewej stronie, aby ją rozwinąć, a następnie wybierz odpowiedni raport, aby wyświetlić go na kanwie. Raport możesz także wybrać w sekcji **Mój obszar roboczy** lub **Ulubione**, jeśli znajduje się on w którejś z tych lokalizacji.
+
+![](media/service-publish-to-powerpoint/powerbi_to_powerpoint_0.png)
+
+Gdy raport, który chcesz wyeksportować do programu PowerPoint, zostanie wyświetlany na kanwie, wybierz pozycję **Plik > Eksportuj do programu PowerPoint (wersja zapoznawcza)** na pasku menu w usłudze Power BI, jak pokazano na poniższej ilustracji.
+
+![](media/service-publish-to-powerpoint/powerbi_to_powerpoint_1.png)
+
+W prawym górnym rogu okna przeglądarki usługi Power BI zostanie wyświetlony transparent powiadomienia z informacją, że raport jest eksportowany do programu PowerPoint. Może to potrwać kilka minut. Podczas eksportowania raportu możesz kontynuować pracę w usłudze Power BI.
+
+![](media/service-publish-to-powerpoint/powerbi_to_powerpoint_2.png)
+
+Po zakończeniu na transparencie powiadomienia zostanie wyświetlona informacja, że usługa Power BI zakończyła proces eksportowania.
+
+![](media/service-publish-to-powerpoint/powerbi_to_powerpoint_3.png)
+
+Plik będzie dostępny w miejscu, gdzie przeglądarka wyświetla pobrane pliki. Na poniższej ilustracji widać transparent pobierania wzdłuż dolnej części okna przeglądarki.
+
+![](media/service-publish-to-powerpoint/powerbi_to_powerpoint_4.png)
+
+To wszystko. Teraz możesz pobrać ten plik, otworzyć go za pomocą programu PowerPoint, a następnie modyfikować go i ulepszać, tak jak każdą inną prezentację programu PowerPoint.
+
+## <a name="checking-out-your-exported-powerpoint-file"></a>Sprawdzanie wyeksportowanego pliku programu PowerPoint
+Po otworzeniu pliku programu PowerPoint wyeksportowanego przez usługę Power BI znajdziesz w nim kilka fajnych i przydatnych elementów. Przyjrzyj się poniższej ilustracji, a następnie zapoznaj się z ponumerowanymi elementami poniżej, opisującymi niektóre z tych użytecznych funkcji.
+
+![](media/service-publish-to-powerpoint/powerbi_to_powerpoint_5.png)
+
+1. Pierwsza strona pokazu slajdów zawiera nazwę raportu oraz link umożliwiający **wyświetlenie w usłudze Power BI** raportu, na którym oparto ten pokaz slajdów.
+2. Widoczne są także pewne przydatne informacje dotyczące raportu, takie jak *ostatnie odświeżanie danych*, na których oparty jest wyeksportowany raport, oraz data i godzina *pobrania*, czyli data i godzina wyeksportowania raportu usługi Power BI do pliku programu PowerPoint.
+3. Każda strona raportu jest osobnym slajdem, jak pokazano w okienku nawigacji po lewej stronie.
+
+Gdy przejdziesz do pojedynczego slajdu, zauważysz, że każda wizualizacja jest teraz niezależnym obrazem (jak wspomniano wcześniej). Dzięki temu możesz skopiować wybrany obraz i wkleić go do innego slajdu lub w innym dowolnym miejscu.
+
+![](media/service-publish-to-powerpoint/powerbi_to_powerpoint_6.png)
+
+To, co teraz zrobisz z pokazem slajdów programu PowerPoint, lub z dowolnym obrazem o wysokiej rozdzielczości, zależy wyłącznie od Ciebie!
+
+## <a name="limitations"></a>Ograniczenia
+Pracując z funkcją **Eksportuj do programu PowerPoint**, należy wziąć pod uwagę kilka zagadnień i ograniczeń.
+
+* **Wizualizacje języka R** nie są obecnie obsługiwane. Każda taka wizualizacja jest eksportowana do programu PowerPoint jako pusty obraz z komunikatem o błędzie informującym, że wizualizacja nie jest obsługiwana.
+* **Wizualizacje niestandardowe**, które posiadają **certyfikat**, są obsługiwane. Aby uzyskać więcej informacji na temat certyfikowanych wizualizacji niestandardowych, w tym jak uzyskać certyfikat dla wizualizacji niestandardowej, zobacz [Certyfikowanie wizualizacji niestandardowej](power-bi-custom-visuals-certified.md). Wizualizacje niestandardowe, które nie mają certyfikatu, nie są obsługiwane i są eksportowane do programu PowerPoint jako puste obrazy z komunikatem o błędzie informującym, że wizualizacja nie jest obsługiwana.
+* **Certyfikowane wizualizacje niestandardowe** są obsługiwane. Certyfikowana wizualizacja niestandardowa została zatwierdzona do używania z usługą Power BI, spełnia określone wymagania dotyczące kodu i przeszła restrykcyjne testy bezpieczeństwa. Możesz [dowiedzieć się więcej o **certyfikowanych wizualizacjach niestandardowych**](power-bi-custom-visuals-certified.md).
+* Obecnie nie można eksportować raportów zawierających więcej niż 15 stron.
+* Proces eksportowania raportu do programu PowerPoint może potrwać kilka minut, dlatego prosimy o cierpliwość. Czynniki, które mogą mieć wpływ na czas eksportowania, obejmują strukturę raportu oraz bieżące obciążenie usługi Power BI.
+* Jeśli element menu **Eksportuj do programu PowerPoint (wersja zapoznawcza)** nie jest dostępny w usłudze Power BI, prawdopodobnie administrator dzierżawy wyłączył tę funkcję. Aby uzyskać więcej informacji, skontaktuj się z administratorem dzierżawy.
+* Obrazy tła zostaną przycięte do obszaru ograniczającego wykres. Zdecydowanie zalecamy, aby usunąć obrazy tła przed rozpoczęciem eksportowania do programu PowerPoint.
+* **Interakcyjność podczas sesji**, taka jak wyróżnianie i filtrowanie, przechodzenie do szczegółów i inne funkcje, nie jest na razie obsługiwana podczas eksportowania do programu PowerPoint. Wyeksportowany plik programu PowerPoint pokazuje oryginalne wizualizacje tak, jak zostały zapisane w raporcie.
+* Strony w programie PowerPoint są zawsze tworzone w standardowym rozmiarze 9:16, niezależnie od oryginalnych wymiarów i rozmiarów stron w raporcie usługi Power BI.
+* Raporty, które są własnością użytkownika spoza Twojej domeny dzierżawy usługi Power BI (na przykład raporty należące do osoby spoza organizacji i udostępnione Tobie), nie mogą być publikowane w programie PowerPoint.
+* Jeśli udostępniasz pulpit nawigacyjny osobie spoza organizacji (czyli użytkownikowi, który nie należy do Twojej dzierżawy usługi Power BI), ta osoba nie będzie mogła wyeksportować raportów skojarzonych z udostępnionym pulpitem nawigacyjnym do programu PowerPoint. Jeśli na przykład jesteś użytkownikiem aaron@contoso.com, możesz udostępnić pulpit nawigacyjny użytkownikowi david@cohowinery.com. Ale użytkownik david@cohowinery.com nie może wyeksportować skojarzonych raportów do programu PowerPoint.
+
+## <a name="next-steps"></a>Następne kroki
+[Analizowanie w programie Excel](service-analyze-in-excel.md)
+
+[Dane programu Excel w usłudze Power BI](service-excel-workbook-files.md)
+
+[Certyfikowanie wizualizacji niestandardowej](power-bi-custom-visuals-certified.md)
+
