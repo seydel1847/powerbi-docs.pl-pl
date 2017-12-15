@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 04b9a745d3969ab42c2a02c9b3cc28a65cd4d69c
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: de6b2912cd98c2f334f923ad0271f2155c264dc9
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="getting-started-with-color-formatting-and-axis-properties"></a>Wprowadzenie do formatowania za pomocą kolorów i właściwości osi
 W **usłudze Power BI** można zmienić kolor serii danych, punktów danych, a nawet tła wizualizacji. Można również zmienić sposób wyświetlania osi x i y, zyskując pełną kontrolę nad wyglądem pulpitów nawigacyjnych i raportów.

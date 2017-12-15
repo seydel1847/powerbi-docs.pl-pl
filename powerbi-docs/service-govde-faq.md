@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 07/28/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 9a2f191dcf88d3506ab0724c0916064b31fbf3f0
-ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
+ms.openlocfilehash: 79e334a9a890fefd00a53e66fc6f070151587d2f
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/23/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="frequently-asked-questions-for-power-bi-for-germany-cloud-customers"></a>Często zadawane pytania dotyczące usługi Power BI dla klientów usługi Germany Cloud
 **Usługa Power BI** jest dostępna w wersji przeznaczonej dla klientów z obszaru Unii Europejskiej/Europejskiego Porozumienia o Wolnym Handlu (EFTA). Wersja ta jest często nazywana Microsoft Cloud Deutschland (MCD). Wersja **usługi Power BI** omówiona w tym artykule jest przeznaczona dla klientów z obszaru Unii Europejskiej/EFTA. Jest to osobna usługa, inna od komercyjnej wersji **usługi Power BI** oraz od usług Power BI przeznaczonych dla jednostek administracji państwowej.
@@ -78,6 +78,6 @@ Zestaw poniższych pytań i odpowiedzi zawiera ważne informacje dotyczące usł
 Przy użyciu usługi Power BI można wykonywać różnorodne zadania. Aby uzyskać więcej informacji i instrukcji, w tym na temat rejestrowania się w usłudze, zobacz następujące zasoby:
 
 * [Power BI — nauka krok po kroku](guided-learning/gettingstarted.yml#step-1)
-* [Wprowadzenie do usługi Power BI](service-get-started.md)
+* [[Wprowadzenie do usługi Power BI](service-get-started.md)](service-get-started.md)
 * [Wprowadzenie do programu Power BI Desktop](desktop-getting-started.md)
 

@@ -15,18 +15,17 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 12/05/2017
 ms.author: maggies
-ms.openlocfilehash: 61d74fb9c25abb0cbc5135795d5567016f88b0c0
-ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
+ms.openlocfilehash: 1fc6e666753ae45931604a1113f340115ec18269
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/23/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Często zadawane pytania dotyczące usługi Power BI
 * Jeśli masz inne pytania, [zadaj je społeczności usługi Power BI](http://community.powerbi.com/).
 * Nadal masz problem? Odwiedź [stronę pomocy technicznej usługi Power BI](https://powerbi.microsoft.com/support/).
-* Lub kliknij ikonę **Skontaktuj się ze mną** ![](media/service-frequently-asked-questions/power-bi-contact-me-icon.png) w prawym dolnym rogu tego okna przeglądarki.
 
 ## <a name="what-is-microsoft-power-bi"></a>Czym jest usługa Microsoft Power BI?
 [Power BI](https://powerbi.microsoft.com/) to oparta na chmurze usługa analizy biznesowej, która umożliwia wszystkim użytkownikom szybsze, wydajniejsze i bardziej zrozumiałe tworzenie wizualizacji i analizowanie danych. Łączy ona użytkowników z szerokim zakresem danych za pośrednictwem łatwych w użyciu pulpitów nawigacyjnych, interakcyjnych raportów i atrakcyjnych wizualizacji, które ożywiają dane.
@@ -156,5 +155,4 @@ Podobnie jak wiele innych usług i programów firmy Microsoft, usługa Power BI 
 ## <a name="next-steps"></a>Następne kroki
 * Masz więcej pytań? [Zadaj pytanie społeczności usługi Power BI](http://community.powerbi.com/)
 * Nadal masz problem? Odwiedź [stronę pomocy technicznej usługi Power BI](https://powerbi.microsoft.com/support/)
-* Lub kliknij ikonę **Skontaktuj się ze mną** ![](media/service-frequently-asked-questions/power-bi-contact-me-icon.png) w prawym dolnym rogu tego okna przeglądarki.
 

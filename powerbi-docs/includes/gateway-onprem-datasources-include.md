@@ -1,7 +1,6 @@
 ## <a name="list-of-available-data-source-types"></a>Lista dostępnych typów źródeł danych
 | **Źródło danych** | **Połączenie na żywo/zapytanie bezpośrednie** | **Odświeżanie ręczne skonfigurowane przez użytkownika lub odświeżanie zaplanowane** |
 | --- | --- | --- | --- |
-| Amazon Redshift |Tak |Tak |
 | Dane tabelaryczne usługi Analysis Services |Tak |Tak |
 | Dane wielowymiarowe usługi Analysis Services |Tak |Tak |
 | Plik |Nie |Tak |

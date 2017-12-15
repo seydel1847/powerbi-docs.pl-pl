@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/27/2017
+ms.date: 12/06/2017
 ms.author: mihart
-ms.openlocfilehash: f505b27043e357b5cf1c01a0779634a948905dfc
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: d8dc99fec9851dc6f5d3786d2fc1d615e4ee22b4
+ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="printing-from-power-bi-service"></a>Drukowanie z usługi Power BI
 Wydrukuj cały pulpit nawigacyjny, kafelek pulpitu nawigacyjnego, stronę raportu lub element wizualny raportu z usługi Power BI. Raporty można drukować tylko po jednej stronie naraz — nie można wydrukować od razu całego raportu.
@@ -54,7 +54,7 @@ Zobacz, jak Amanda drukuje ze swojego pulpitu nawigacyjnego i raportu. Następni
 1. [Otwórz kafelek w trybie koncentracji uwagi](service-focus-mode.md), wybierając wielokropek i ikonę koncentracji uwagi![](media/service-print/power-bi-focus-icon.png).
    
     ![](media/service-print/menu-options.png)
-2. Otwórz kafelek w [trybie pełnoekranowym](service-tile-fullscreen-mode.md), wybierając ikonę pełnego ekranu ![](media/service-print/power-bi-full-screen-icon.png) w górnym pasku nawigacyjnym.
+2. Otwórz kafelek w [trybie pełnoekranowym](service-fullscreen-mode.md), wybierając ikonę pełnego ekranu ![](media/service-print/power-bi-full-screen-icon.png) w górnym pasku nawigacyjnym.
 3. Umieść kursor myszy nad kafelkiem, aby wyświetlić menu opcji.
    
     ![](media/service-print/menu-options-new.png)
