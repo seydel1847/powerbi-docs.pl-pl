@@ -4,13 +4,13 @@ Udało Ci się! **Gratulacje!** Kurs **Nauka z przewodnikiem** dotyczący usług
 
 Jest to ostatnia sekcja (i końcowy temat, chyba że chcesz nauczyć się języka DAX) w tym kursie, więc jeśli zostały kolejno przerobione wszystkie te sekcje, poświęć chwilę, aby poklepać się po plecach. Dobra robota! Teraz dobrze znasz te wszystkie **ważne pojęcia**:
 
-* [Czym jest usługa Power BI](0-0-what-is-power-bi.md)
-* [Bloki konstrukcyjne](0-0b-building-blocks-power-bi.md) usługi Power BI
-* [Pobieranie](1-2-connect-to-data-sources-in-power-bi-desktop.md) i [modelowanie](2-1-intro-modeling-data.md) danych
-* [Wizualizacje](3-1-intro-visualizations.md)
-* [Eksplorowanie danych](4-0-intro-power-bi-service.md) w usłudze Power BI
-* Używanie [programu Excel i usługi Power BI](5-1-intro-excel-data.md) razem
-* [Publikowanie i udostępnianie](6-0-intro-content-packs-groups.md) swojej pracy
+* [Czym jest usługa Power BI](../gettingstarted.yml#step-1)
+* [Bloki konstrukcyjne](../gettingstarted.yml#step-3) usługi Power BI
+* [Pobieranie](../gettingdata.yml#step-3) i [modelowanie](../modeling.yml#step-1) danych
+* [Wizualizacje](../visualizations.yml#step-1)
+* [Eksplorowanie danych](../exploringdata.yml#step-1) w usłudze Power BI
+* Używanie [programu Excel i usługi Power BI](../powerbiandexcel.yml#step-1) razem
+* [Publikowanie i udostępnianie](../publishingandsharing.yml#step-1) swojej pracy
 
 To dużo wiedzy, a teraz, gdy masz już to wszystko w głowie, możesz zacząć z niej korzystać! Oto kilka **linków do plików do pobrania** oraz **połączenia przeglądarki z usługą Power BI**:
 

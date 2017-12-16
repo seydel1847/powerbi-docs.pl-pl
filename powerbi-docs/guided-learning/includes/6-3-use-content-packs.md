@@ -32,5 +32,5 @@ Ale jeśli chcę, mogę edytować pulpit nawigacyjny, raport, a nawet zestaw dan
 
 Tak więc pakiety zawartości to prosty sposób na ponowne wykorzystanie zawartości utworzonej przez inne osoby w Twojej organizacji.
 
-Przejdźmy do następnej lekcji: [Tworzenie pakietu zawartości w usłudze Power BI](6-4-update-content-pack.md).
+Przejdźmy do kolejnej lekcji!
 
