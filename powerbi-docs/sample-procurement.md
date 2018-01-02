@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 12/04/2017
 ms.author: mihart
-ms.openlocfilehash: 576ddfbbf52a2738dd32597479ffd03d554a5256
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 957e7c05907f1fc75eddeb271c664f898203e591
+ms.sourcegitcommit: 7248b5e449b2495d6baef385470d18edfacec457
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>Próbka danych do analizy zakupów dla usługi Power BI: krótki przewodnik
 Ten pulpit nawigacyjny oparty na próbce branżowej oraz źródłowy raport zapewniają analizę wydatków firmy produkcyjnej na dostawców według kategorii i lokalizacji. W przykładzie zbadamy następujące obszary:
@@ -36,7 +36,7 @@ Te przykładowe dane stanowią części serii ilustrującej, w jaki sposób moż
 
 Chcesz z nich skorzystać? W [usłudze Power BI](https://powerbi.com) przejdź do pozycji **Pobierz dane > Przykłady > Przykład Procurement Analysis > Połącz**, aby uzyskać własną kopię przykładowych danych.
 
-Możliwe jest również [pobranie samego zestawu danych (skoroszyt programu Excel) omawianego w tym przykładzie](http://go.microsoft.com/fwlink/?LinkId=529784).
+[!Note] Możesz też [pobrać sam zestaw danych (skoroszyt programu Excel)](http://go.microsoft.com/fwlink/?LinkId=529784) omawiany w tym przykładzie. Skoroszyt zawiera arkusze programu Power View, które można wyświetlać i modyfikować. Aby wyświetlić nieprzetworzone dane, wybierz pozycje **Power Pivot > Zarządzaj**.
 
 ## <a name="spending-trends"></a>Trendy wydatków
 Najpierw przyjrzyjmy się trendom w zakresie wydatków z podziałem na kategorie i lokalizacje.  

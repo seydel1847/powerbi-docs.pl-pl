@@ -15,21 +15,21 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 12/06/2017
 ms.author: mihart
-ms.openlocfilehash: f6c1b564bfab99deb35c919de4eb0c365d62c8e5
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: ebf10d6045bc1d0d0c260dffa7fbc68cfbc4528b
+ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="it-spend-analysis-sample-for-power-bi-take-a-tour"></a>Przykład IT Spend Analysis dla usługi Power BI: krótki przewodnik
 [Pakiet zawartości](service-organizational-content-pack-introduction.md) IT Spend Analysis (pulpit nawigacyjny, raport i zestaw danych) służy do analizy planowanych i rzeczywistych kosztów działu IT. To porównanie pomaga nam zrozumieć, jak dobrze firma zaplanowała rok, i zbadać obszary wykazujące duże odchylenia od planu. Firma w tym przykładzie przechodzi przez roczny cykl planowania, a następnie co kwartał wydaje nowe najnowsze oszacowanie, aby pomóc w analizowaniu zmian w wydatkach na zasoby informatyczne w roku obrachunkowym.
 
 Te przykładowe dane stanowią części serii ilustrującej, w jaki sposób można wykorzystać usługę Power BI w pracy z danymi biznesowymi, raportami i pulpitami nawigacyjnymi. Są to prawdziwe dane pochodzące z firmy obviEnce (<http://obvience.com/>) przedstawione w sposób anonimowy.
 
-* [Pobierz pakiet zawartości IT Spend Analysis](sample-tutorial-connect-to-the-samples.md)
-* [Pobierz tylko zestaw danych (skoroszyt programu Excel) omawiany w tym przykładzie](http://go.microsoft.com/fwlink/?LinkId=529783).
+>[!Note] 
+Możesz [pobrać sam zestaw danych (skoroszyt programu Excel) dla tego przykładu](http://go.microsoft.com/fwlink/?LinkId=529783). Skoroszyt zawiera arkusze programu Power View, które można wyświetlać i modyfikować. Aby wyświetlić nieprzetworzone dane, wybierz pozycje **Power Pivot > Zarządzaj**.
 
 ![](media/sample-it-spend/it1.png)
 

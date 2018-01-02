@@ -1,0 +1,2 @@
+Udostępniliśmy nowe, udoskonalone metody nawigacji i korzystania z zawartości w usłudze Power BI, a obecnie trwają prace związane z aktualizacją całej naszej dokumentacji z uwzględnieniem tych zmian.
+Informacje i zrzuty ekranu na tej stronie mogą nie odpowiadać informacjom wyświetlanym na ekranie. Aby uzyskać więcej informacji, zobacz temat [Nawigowanie w usłudze Power BI](../service-the-new-power-bi-experience.md).</font>

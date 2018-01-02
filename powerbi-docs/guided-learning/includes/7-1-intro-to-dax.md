@@ -5,7 +5,7 @@ Rozwinięcie skrótu **DAX** to **Data Analysis Expressions** i jest to nazwa j�
 ## <a name="dax-and-this-guided-learning-video-series"></a>Język DAX i ta seria filmów wideo Nauka z przewodnikiem
 Celem tej sekcji **Nauka z przewodnikiem** jest nauczenie Cię podstaw i zasad języka DAX — jak myśleć o języku DAX, o tym, jak on działa, i o najbardziej przydatnych funkcjach objaśnionych (i opartych na wiedzy zdobytej na podstawie dużego doświadczenia) przez znanego eksperta z zakresu języka DAX, [Alberta Ferrariego](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit).
 
-![](media/7-1-intro-to-dax/intro_dax_6_alberto_ferrari.png)
+![Zdjęcie Alberta Ferrariego](media/7-1-intro-to-dax/intro_dax_6_alberto_ferrari.png)
 
 Filmy wideo w tej sekcji **Nauka z przewodnikiem** dotyczącej języka **DAX** nauczą Cię podstaw języka DAX z perspektywy sposobu działania języka formuł DAX. Jest to przydatne podczas tworzenia formuł języka DAX od podstaw, ale jest również bardzo przydatne dla zrozumienia, jak usługa Power BI tworzy te formuły języka DAX w miarę tworzenia przez Ciebie zapytań w **Edytorze zapytań**.
 

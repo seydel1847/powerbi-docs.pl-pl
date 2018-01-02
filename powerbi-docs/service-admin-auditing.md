@@ -15,15 +15,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/02/2017
+ms.date: 11/28/2017
 ms.author: asaxton
-ms.openlocfilehash: a17bd787a37b7e26ac0b01ab5fc595b835e50b58
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 49df0d0a44ceae3e36f45f6523f39a0b5bb1b6a0
+ms.sourcegitcommit: 7742f952c20695dfb475f74965c0065b02c01521
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/29/2017
 ---
 # <a name="using-auditing-within-your-organization"></a>Korzystanie z inspekcji w ramach organizacji
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zj4kA39jV_4?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 Dowiedz się, jak za pomocą inspekcji w usłudze Power BI możesz monitorować i badać wykonywane akcje. Skorzystaj z Centrum zabezpieczeń i zgodności lub programu PowerShell.
@@ -34,45 +35,43 @@ Dane inspekcji możesz filtrować według zakresu dat, użytkownika, pulpitu naw
 
 > [!NOTE]
 > Funkcja inspekcji w usłudze Power BI jest dostępna w wersji zapoznawczej we wszystkich obszarach danych.
-> 
-> 
 
 ## <a name="enabling-auditing-functionality-in-the-power-bi-admin-portal"></a>Włączanie funkcji inspekcji w portalu administracyjnym usługi Power BI
+
 Aby pracować z raportami, należy włączyć funkcję inspekcji dla swojej organizacji. Można to zrobić za pomocą ustawień dzierżawy w portalu administracyjnym.
 
 1. Wybierz **ikonę koła zębatego** w prawym górnym rogu.
+
 2. Wybierz polecenie **Portal administracyjny**.
    
    ![](media/service-admin-auditing/powerbi-admin.png)
+
 3. Wybierz pozycję **Ustawienia dzierżawy**.
    
    ![](media/service-admin-auditing/powerbi-admin-tenant-settings.png)
+
 4. Włącz opcję **Twórz dzienniki inspekcji na potrzeby wewnętrznych inspekcji działań i sprawdzania zgodności**.
+
 5. Wybierz pozycję **Zastosuj**.
 
 Usługa Power BI rozpocznie rejestrowanie działań wykonywanych przez użytkowników w tej usłudze. Dzienniki będą widoczne w Centrum zabezpieczeń i zgodności usługi O365 w ciągu maksymalnie 48 godzin. Aby uzyskać więcej informacji na temat rejestrowanych działań, zobacz [Lista działań objętych inspekcją w usłudze Power BI](#list-of-activities-audited-by-power-bi).
 
-## <a name="licensing-requirements"></a>Wymagania dotyczące licencjonowania
-Inspekcja jest funkcją usługi Power BI Pro, a zdarzenia inspekcji są dostępne tylko dla użytkowników usługi Power BI Pro.  Użytkownicy z licencją usługi Power BI (wersja bezpłatna) będą wyświetlani jako **Użytkownik wersji bezpłatnych**.
-
-Aby uzyskać więcej informacji dotyczących uzyskiwania licencji usługi Power BI Pro i przypisywania ich użytkownikom w Twojej organizacji, zobacz [Zakup usługi Power BI Pro](service-admin-purchasing-power-bi-pro.md).
-
-Aby uzyskać więcej informacji na temat ograniczania rejestracji użytkownikom wersji bezpłatnych, zobacz [Włączanie lub wyłączanie rejestracji indywidualnego użytkownika w usłudze Azure Active Directory](service-admin-service-free-in-your-organization.md#enable-or-disable-individual-user-sign-up-in-azure-active-directory).
-
 > [!NOTE]
 > Aby włączyć inspekcję dla usługi Power BI w dzierżawie, wymagana jest w niej co najmniej jedna licencja skrzynki pocztowej programu Exchange.
-> 
-> 
 
 ## <a name="accessing-your-audit-logs"></a>Uzyskiwanie dostępu do dzienników inspekcji
+
 Aby przeprowadzić inspekcję dzienników usługi Power BI, odwiedź Centrum zabezpieczeń i zgodności usługi O365.
 
 1. Wybierz **ikonę koła zębatego** w prawym górnym rogu.
+
 2. Wybierz polecenie **Portal administracyjny**.
    
    ![](media/service-admin-auditing/powerbi-admin.png)
+
 3. Wybierz pozycję **Dzienniki inspekcji**.
-4. Wybierz opcję **Przejdź do Centrum administracyjnego usługi O365**.
+4. 
+5. Wybierz opcję **Przejdź do Centrum administracyjnego usługi O365**.
    
    ![](media/service-admin-auditing/audit-log-o365-admin-center.png)
 
@@ -80,43 +79,43 @@ Ewentualnie możesz przejść do obszaru [Office 365 | Zabezpieczenia i zgodnoś
 
 > [!NOTE]
 > Aby zapewnić dostęp do dziennika inspekcji kontom bez uprawnień administratora, musisz przypisać uprawnienia w centrum administracyjnym usługi Exchange Online. Na przykład można przypisać użytkownika do istniejącej grupy ról, takiej jak Zarządzanie organizacją, lub utworzyć nową grupę ról z rolą Dzienniki inspekcji. Aby uzyskać więcej informacji, zobacz [Uprawnienia w usłudze Exchange Online](https://technet.microsoft.com/library/jj200692\(v=exchg.150\).aspx).
-> 
-> 
 
 ## <a name="search-only-power-bi-activities"></a>Wyszukiwanie tylko działań usługi Power BI
+
 Aby ograniczyć wyniki tylko do działań usługi Power BI, wykonaj następujące czynności.
 
 1. Na stronie **Wyszukiwanie w dzienniku inspekcji** wybierz listę rozwijaną dla opcji **Działania** w obszarze **Wyszukiwanie**.
+
 2. Wybierz pozycję **Działania usługi Power BI**.
    
    ![](media/service-admin-auditing/audit-log-search-filter-by-powerbi.png)
+
 3. Wybierz dowolne miejsce poza obszarem wyboru, aby go zamknąć.
 
 Wyszukiwania będą teraz filtrowane tak, aby zawierały tylko działania usługi Power BI.
 
 ## <a name="search-the-audit-logs-by-date"></a>Przeszukiwanie dzienników inspekcji według daty
+
 Dzienniki można przeszukiwać na podstawie zakresu dat przy użyciu pól „Data rozpoczęcia” i „Data zakończenia”. Domyślnie wybrane jest siedem ostatnich dni. Data i godzina są prezentowane w formacie Uniwersalnego czasu koordynowanego (UTC). Maksymalny zakres dat wynosi 90 dni. Jeśli wybrany zakres dat jest większy niż 90 dni, zostanie wyświetlony błąd.
 
 > [!NOTE]
 > W przypadku użycia maksymalnego zakresu dat (90 dni) dla daty rozpoczęcia wybierz bieżącą godzinę. W przeciwnym razie zostanie wyświetlony błąd informujący o tym, że data rozpoczęcia jest wcześniejsza niż data zakończenia. Jeśli inspekcja została włączona w ciągu ostatnich 90 dni, maksymalny zakres dat nie może się rozpoczynać przed datą włączenia inspekcji.
-> 
-> 
 
 ![](media/service-admin-auditing/search-audit-log-by-date.png)
 
 ## <a name="search-the-audit-logs-by-users"></a>Przeszukiwanie dzienników inspekcji według użytkowników
+
 Wyszukać możesz wpisy dziennika inspekcji dotyczące działań wykonanych przez konkretnych użytkowników. W tym celu wprowadź co najmniej jedną nazwę użytkownika w polu „Użytkownicy”.  Jest to nazwa użytkownika używana do logowania się w usłudze Power BI. Wygląda jak adres e-mail.
 Pozostaw to pole puste, aby zwrócić wpisy dla wszystkich użytkowników (i kont usług) w Twojej organizacji.
 
 ![](media/service-admin-auditing/search-audit-log-by-user.png)
 
 ## <a name="viewing-search-results"></a>Wyświetlanie wyników wyszukiwania
+
 Po naciśnięciu przycisku Szukaj wyniki wyszukiwania zostaną załadowane, a po kilku chwilach zostaną wyświetlone w obszarze Wyniki. Po zakończeniu wyszukiwania zostanie wyświetlona liczba wyników. 
 
 > [!NOTE]
 > Maksymalna liczba wyświetlanych zdarzeń to 1000. Jeśli więcej niż 1000 zdarzeń spełnia kryteria wyszukiwania, zostanie wyświetlonych 1000 najnowszych zdarzeń.
-> 
-> 
 
 Wyniki zawierają następujące informacje dotyczące każdego zdarzenia zwróconego przez wyszukiwanie.
 
@@ -131,57 +130,39 @@ Wyniki zawierają następujące informacje dotyczące każdego zdarzenia zwróco
 
 > [!NOTE]
 > Wybierz nagłówek kolumny w obszarze Wyniki, aby posortować wyniki. Wyniki można sortować w kolejności od A do Z lub od Z do A. Kliknięcie nagłówka Data umożliwia posortowanie wyników od najstarszego do najnowszego lub od najnowszego do najstarszego.
-> 
-> 
 
 ## <a name="view-the-details-for-an-event"></a>Wyświetlanie szczegółów zdarzenia
+
 Więcej informacji o zdarzeniu można wyświetlić, wybierając rekord zdarzenia na liście wyników wyszukiwania. Zostanie wyświetlona strona szczegółów zawierająca szczegółowe właściwości rekordu zdarzenia. Wyświetlane właściwości zależą od usługi Office 365, w której wystąpiło zdarzenie. Aby wyświetlić dodatkowe szczegóły, wybierz opcję **Więcej informacji**.
 
 Poniższa tabela zawiera szczegółowe informacje na temat danych, które mogą zostać wyświetlone.
 
-| **Parametr** | **Opis** |
-| --- | --- |
-| Id |Unikatowy identyfikator rekordu inspekcji. |
-| RecordType |Typ operacji wskazywanej przez rekord. Zobacz tabelę AuditLogRecordType, aby uzyskać szczegółowe informacje dotyczące typów rekordów dziennika inspekcji. |
-| CreationTime |Data i godzina wykonania działania przez użytkownika w Uniwersalnym czasie koordynowanym (UTC). |
-| Operation |Nazwa działania użytkownika lub administratora. |
-| OrganizationId |Identyfikator GUID usługi Office 365 Twojej organizacji, w której wystąpiło zdarzenie. |
-| UserType |Typ użytkownika, który wykonał operację. Zobacz tabelę Typ użytkownika, aby uzyskać szczegóły na temat typów użytkowników. |
-| UserKey |Unikatowy identyfikator użytkownika, który wykonał działanie, w usłudze Passport. |
-| ResultStatus |Wskazuje, czy akcja (określona we właściwości Operation) zakończyła się powodzeniem. Możliwe wartości to Succeeded, PartiallySucceded i Failed. |
-| ObjectId |W przypadku działania programu SharePoint i usługi OneDrive dla Firm jest to pełna nazwa ścieżki pliku lub folderu, do którego użytkownik uzyskał dostęp. |
-| UserId |Główna nazwa użytkownika (UPN, User Principal Name), który wykonał akcję (określoną we właściwości Operation) powodującą zarejestrowanie rekordu, na przykład my_name@my_domain_name. Pamiętaj, że rekordy działań wykonywanych przez konta systemowe (takie jak SHAREPOINT\system lub NT AUTHORITY\SYSTEM) są również uwzględniane. |
-| ClientIp |Adres IP urządzenia, które było używane podczas zarejestrowania działania. Adres IP jest wyświetlany w formacie IPv4 lub IPv6. |
-
-Poniższa tabela zawiera szczegóły dotyczące zdarzeń, które można napotkać.
-
-| **Zdarzenie** | **Opis** | **Dodatkowe szczegóły** |
+| **Parametr lub zdarzenie** | **Opis** | **Dodatkowe szczegóły** |
 | --- | --- | --- |
-| Pobranie raportu usługi Power BI |To działanie jest rejestrowane za każdym razem, gdy raport zostanie pobrany |Nazwa raportu, Nazwa zestawu danych |
-| Utworzenie raportu |To działanie jest rejestrowane za każdym razem, gdy zostanie utworzony nowy raport. |Nazwa raportu, Nazwa zestawu danych |
-| Edytowanie raportu |To działanie jest rejestrowane za każdym razem, gdy raport zostanie edytowany. |Nazwa raportu, Nazwa zestawu danych |
-| Utworzenie zestawu danych |To działanie jest rejestrowane za każdym razem, gdy zestaw danych zostanie utworzony. |Nazwa zestawu danych, DataConnectivityMode |
-| Usunięcie zestawu danych |To działanie jest rejestrowane za każdym razem, gdy zestaw danych zostanie usunięty. |Nazwa zestawu danych, DataConnectivityMode |
-| Utworzenie aplikacji Power BI |To działanie jest rejestrowane za każdym razem, gdy aplikacja Power BI zostanie utworzona |Nazwa aplikacji, Uprawnienia, Nazwa obszaru roboczego |
-| Zainstalowanie aplikacji Power BI |To działanie jest rejestrowane za każdym razem, gdy aplikacja Power BI zostanie zainstalowana |Nazwa aplikacji |
-| Zaktualizowanie aplikacji Power BI |To działanie jest rejestrowane za każdym razem, gdy aplikacja Power BI zostanie zaktualizowana |Nazwa aplikacji, Uprawnienia, Nazwa obszaru roboczego |
-| Rozpoczęcie korzystania z rozszerzonej wersji próbnej usługi Power BI |To działanie jest rejestrowane za każdym razem, gdy użytkownik zaakceptuje rozszerzoną wersję próbną usługi Pro, która obowiązuje do 31 maja 2018 r. | |
-| Przeanalizowanie zestawu danych usługi Power BI |To działanie jest rejestrowane za każdym razem, gdy zestaw danych usługi Power BI zostanie przeanalizowany w programie Excel. | |
-| Utworzenie bramy usługi Power BI |To działanie jest rejestrowane za każdym razem, gdy zostanie utworzona nowa brama. |Nazwa bramy, Typ bramy |
-| Usunięcie bramy usługi Power BI |To działanie jest rejestrowane za każdym razem, gdy brama zostanie usunięta. |Nazwa bramy, Typ bramy |
-| Dodanie źródła danych do bramy usługi Power BI |To działanie jest rejestrowane za każdym razem, gdy źródło danych zostanie dodane do bramy |Nazwa bramy, Typ bramy, Nazwa źródła danych, Typ źródła danych |
-| Usunięcie źródła danych z bramy usługi Power BI |To działanie jest rejestrowane za każdym razem, gdy źródło danych zostanie usunięte z bramy |Nazwa bramy, Typ bramy, Nazwa źródła danych, Typ źródła danych |
-| Zmiana administratorów bramy usługi Power BI |To działanie jest rejestrowane za każdym razem, gdy administratorzy bramy ulegną zmianie (zostaną dodani lub usunięci) |Nazwa bramy, Dodani użytkownicy, Usunięci użytkownicy |
-| Zmiana użytkowników źródła danych bramy usługi Power BI |To działanie jest rejestrowane za każdym razem, gdy użytkownicy bramy ulegną zmianie (zostaną dodani lub usunięci) |Nazwa bramy, Dodani użytkownicy, Usunięci użytkownicy |
-| SetScheduledRefresh |To działanie jest rejestrowane za każdym razem, gdy zostanie zaplanowane nowe odświeżenie zestawu danych |Nazwa zestawu danych, Częstotliwość odświeżania (w minutach) |
+| Pobranie raportu usługi Power BI |To działanie jest rejestrowane za każdym razem, gdy pobierany jest raport. |Nazwa raportu, Nazwa zestawu danych |
+| Utworzenie raportu |To działanie jest rejestrowane za każdym razem, gdy tworzony jest nowy raport. |Nazwa raportu, Nazwa zestawu danych |
+| Edytowanie raportu |To działanie jest rejestrowane za każdym razem, gdy edytowany jest raport. |Nazwa raportu, Nazwa zestawu danych |
+| Utworzenie zestawu danych |To działanie jest rejestrowane za każdym razem, gdy tworzony jest zestaw danych. |Nazwa zestawu danych, DataConnectivityMode |
+| Usunięcie zestawu danych |To działanie jest rejestrowane za każdym razem, gdy usuwany jest zestaw danych. |Nazwa zestawu danych, DataConnectivityMode |
+| Utworzenie aplikacji Power BI |To działanie jest rejestrowane za każdym razem, gdy jest tworzona aplikacja Power BI. |Nazwa aplikacji, Uprawnienia, Nazwa obszaru roboczego |
+| Zainstalowanie aplikacji Power BI |To działanie jest rejestrowane za każdym razem, gdy instalowana jest aplikacja Power BI. |Nazwa aplikacji |
+| Zaktualizowanie aplikacji Power BI |To działanie jest rejestrowane za każdym razem, gdy aktualizowana jest aplikacja Power BI. |Nazwa aplikacji, Uprawnienia, Nazwa obszaru roboczego |
+| Rozpoczęcie korzystania z rozszerzonej wersji próbnej usługi Power BI |To działanie jest rejestrowane za każdym razem, gdy użytkownik akceptuje rozszerzoną wersję próbną usługi Pro, która obowiązuje do 31 maja 2018 r. | |
+| Przeanalizowanie zestawu danych usługi Power BI |To działanie jest rejestrowane za każdym razem, gdy zestaw danych usługi Power BI jest analizowany w programie Excel. | |
+| Utworzenie bramy usługi Power BI |To działanie jest rejestrowane za każdym razem, gdy jest tworzona nowa brama. |Nazwa bramy, Typ bramy |
+| Usunięcie bramy usługi Power BI |To działanie jest rejestrowane za każdym razem, gdy usuwana jest brama. |Nazwa bramy, Typ bramy |
+| Dodanie źródła danych do bramy usługi Power BI |To działanie jest rejestrowane za każdym razem, gdy źródło danych jest dodawane do bramy. |Nazwa bramy, Typ bramy, Nazwa źródła danych, Typ źródła danych |
+| Usunięcie źródła danych z bramy usługi Power BI |To działanie jest rejestrowane za każdym razem, gdy źródło danych jest usuwane z bramy. |Nazwa bramy, Typ bramy, Nazwa źródła danych, Typ źródła danych |
+| Zmiana administratorów bramy usługi Power BI |To działanie jest rejestrowane za każdym razem, gdy administratorzy bramy ulegają zmianie (są dodawani lub usuwani). |Nazwa bramy, Dodani użytkownicy, Usunięci użytkownicy |
+| Zmiana użytkowników źródła danych bramy usługi Power BI |To działanie jest rejestrowane za każdym razem, gdy użytkownicy bramy ulegają zmianie (są dodawani lub usuwani). |Nazwa bramy, Dodani użytkownicy, Usunięci użytkownicy |
+| SetScheduledRefresh |To działanie jest rejestrowane za każdym razem, gdy jest planowane nowe odświeżenie zestawu danych. |Nazwa zestawu danych, Częstotliwość odświeżania (w minutach) |
 
 ## <a name="using-powershell-to-search"></a>Wyszukiwanie za pomocą programu PowerShell
+
 Za pomocą programu PowerShell można uzyskiwać dostęp do dzienników inspekcji na podstawie identyfikatora logowania. Odbywa się to przez uzyskanie dostępu do usługi Exchange Online. Oto przykład polecenia umożliwiającego ściągnięcie wpisów dziennika inspekcji usługi Power BI.
 
 > [!NOTE]
 > Aby móc używać polecenia New-PSSession, Twoje konto musi mieć przypisaną licencję usługi Exchange Online i musisz mieć dostęp do dziennika inspekcji swojej dzierżawy.
-> 
-> 
 
 ```
 Set-ExecutionPolicy RemoteSigned
@@ -201,19 +182,23 @@ Aby uzyskać więcej informacji na temat parametrów i użycia polecenia Search-
 Aby zapoznać się z przykładem użycia programu PowerShell do przeszukania dziennika inspekcji, a następnie przypisania licencji usługi Power BI Pro na podstawie wpisów, zobacz [Używanie dziennika inspekcji usługi Power BI i programu PowerShell w celu przypisywania licencji usługi Power BI Pro](https://powerbi.microsoft.com/blog/using-power-bi-audit-log-and-powershell-to-assign-power-bi-pro-licenses/).
 
 ## <a name="export-the-power-bi-audit-log"></a>Eksportowanie dziennika inspekcji usługi Power BI
+
 Dziennik inspekcji usługi Power BI można wyeksportować do pliku csv.
 
 1. Wybierz pozycję **Eksportuj wyniki**.
+
 2. Wybierz opcję **Zapisz załadowane wyniki** lub **Pobierz wszystkie wyniki**.
    
    ![](media/service-admin-auditing/export-auditing-results.png)
 
 ## <a name="record-and-user-types"></a>Typy rekordów i użytkowników
+
 Częścią wpisu dziennika inspekcji są parametry RecordType i UserType. Wszystkie wpisy usługi Power BI będą mieć parametr RecordType o wartości 20.
 
 Aby uzyskać pełną listę, zobacz [Szczegółowe właściwości w dzienniku inspekcji usługi Office 365](https://support.office.com/article/Detailed-properties-in-the-Office-365-audit-log-ce004100-9e7f-443e-942b-9b04098fcfc3)
 
 ## <a name="list-of-activities-audited-by-power-bi"></a>Lista działań poddawanych inspekcji przez usługę Power BI
+
 | Działanie | Opis | Dodatkowe szczegóły |
 | --- | --- | --- |
 | CreateDashboard |To działanie jest rejestrowane za każdym razem, gdy zostanie utworzony nowy pulpit nawigacyjny. |— Nazwa pulpitu nawigacyjnego. |
@@ -237,6 +222,7 @@ Aby uzyskać pełną listę, zobacz [Szczegółowe właściwości w dzienniku in
 | OptInForProTrial |To zdarzenie jest rejestrowane, gdy użytkownik wybierze opcję wypróbowania usługi Power BI Pro w ramach usługi. |— Adres e-mail |
 
 ## <a name="next-steps"></a>Następne kroki
+
 [Portal administracyjny usługi Power BI](service-admin-portal.md)  
 [Power BI Premium — co to jest?](service-premium.md)  
 [Zakup usługi Power BI Pro](service-admin-purchasing-power-bi-pro.md)  
@@ -246,4 +232,3 @@ Aby uzyskać pełną listę, zobacz [Szczegółowe właściwości w dzienniku in
 [Szczegółowe właściwości w dzienniku inspekcji usługi Office 365](https://support.office.com/article/Detailed-properties-in-the-Office-365-audit-log-ce004100-9e7f-443e-942b-9b04098fcfc3)  
 
 Masz więcej pytań? [Zadaj pytanie społeczności usługi Power BI](http://community.powerbi.com/)
-

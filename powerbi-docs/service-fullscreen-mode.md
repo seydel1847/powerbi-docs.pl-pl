@@ -1,6 +1,6 @@
 ---
-title: "Wyświetlanie pulpitów nawigacyjnych, kafelków pulpitu nawigacyjnego i stron raportu w trybie pełnoekranowym"
-description: "Wyświetlanie pulpitów nawigacyjnych, kafelków pulpitu nawigacyjnego i stron raportu w trybie pełnoekranowym, nazywanym też *trybem TV*."
+title: "Wyświetlanie pulpitów nawigacyjnych, kafelków pulpitu nawigacyjnego, stron raportu i wizualizacji raportu w trybie pełnoekranowym"
+description: "Wyświetlanie pulpitów nawigacyjnych, kafelków pulpitu nawigacyjnego, stron raportu i wizualizacji raportu w trybie pełnoekranowym, nazywanym też *trybem TV*."
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/09/2017
+ms.date: 12/06/2017
 ms.author: mihart
-ms.openlocfilehash: 87fbe780991969f5fe3e9a31af58e54015d13678
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: a8d1a49a341b98778a6ad08c823397f420b2475e
+ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="full-screen-mode-in-power-bi"></a>Tryb pełnoekranowy w usłudze Power BI
 ## <a name="what-is-full-screen-mode"></a>Co to jest tryb pełnoekranowy?
@@ -46,7 +46,7 @@ Obejrzyj, jak Amanda otwiera swój pulpit nawigacyjny i porusza się po nim w tr
 <iframe width="560" height="315" src="https://www.youtube.com/embed/c31gZkyvC54" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="dashboards-and-report-pages-in-full-screen-mode"></a>Pulpity nawigacyjne i strony raportów w trybie pełnoekranowym
-1. Na pasku menu usługi Power BI nad pulpitem nawigacyjnym lub raportem wybierz ikonę **Pełnoekranowy** ![ikonę pełnego ekranu ](media/service-fullscreen-mode/power-bi-full-screen-icon.png). Twoja kanwa pulpitu nawigacyjnego lub strona raportu wypełnia cały ekran. W poniższym przykładzie przedstawiono pulpit nawigacyjny.
+1. Na pasku menu usługi Power BI nad pulpitem nawigacyjnym lub raportem wybierz ikonę **Pełnoekranowy** ![ikona pełnego ekranu ](media/service-fullscreen-mode/power-bi-full-screen-icon.png). Twoja kanwa pulpitu nawigacyjnego lub strona raportu wypełnia cały ekran. W poniższym przykładzie przedstawiono pulpit nawigacyjny.
    
       ![Pulpit nawigacyjny wyświetlający pełny ekran](media/service-fullscreen-mode/power-bi-dash-full-screen.png)
 2. W trybie pełnoekranowym masz kilka opcji menu.  Aby ujawnić menu, po prostu przesuń mysz lub kursor. 
@@ -89,7 +89,7 @@ Obejrzyj, jak Amanda otwiera swój pulpit nawigacyjny i porusza się po nim w tr
 
 ## <a name="next-steps"></a>Następne kroki
 [Pulpity nawigacyjne w usłudze Power BI](service-dashboards.md)  
-[Tryb koncentracji uwagi dla pulpitów nawigacyjnych i kafelków pulpitu nawigacyjnego](service-focus-mode.md)    
+[Tryb koncentracji uwagi](service-focus-mode.md)    
 
 Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
 

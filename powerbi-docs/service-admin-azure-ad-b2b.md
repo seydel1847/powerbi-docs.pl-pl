@@ -15,19 +15,22 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/14/2017
+ms.date: 12/07/2017
 ms.author: asaxton
-ms.openlocfilehash: 5dabaa09923203c31572b413f8674b76028b7483
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 147ec28e64cf271843fcffdd14abe005345170e0
+ms.sourcegitcommit: 7248b5e449b2495d6baef385470d18edfacec457
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Dystrybucja zawartości usługi Power BI do zewnętrznych użytkowników (gości) przy użyciu usługi Azure AD B2B
 
 Usługa Power BI integruje się z usługą Azure Active Directory Business-to-business (Azure AD B2B), aby zapewnić bezpieczny sposób dystrybucji zawartości usługi Power BI do użytkowników (gości) spoza organizacji, przy jednoczesnym zachowaniu kontroli nad danymi wewnętrznymi.
 
 > [!VIDEO https://www.youtube.com/embed/xxQWEQ1NnlY]
+
+> [!NOTE]
+> Ta funkcja nie jest obecnie dostępna w aplikacjach mobilnych Power BI. Na urządzeniu przenośnym zawartość usługi Power BI udostępnianą za pośrednictwem usługi Azure AD B2B można wyświetlać w przeglądarce. 
 
 ## <a name="invite-guest-users"></a>Zapraszanie gości
 
@@ -93,6 +96,12 @@ Przypisanie licencji Power BI Pro do użytkownika gościa w ramach dzierżawy um
 Gość ma już licencję Power BI Pro przypisaną w ramach swojej dzierżawy.
 
 ![Użytkownik gość używa własnej licencji](media/service-admin-azure-ad-b2b/license-approach3.png)
+
+## <a name="limitations"></a>Ograniczenia
+
+* Zewnętrzni goście B2B są ograniczeni tylko do korzystania z zawartości. Zewnętrzni goście B2B mogą wyświetlać aplikacje, pulpity nawigacyjne i raporty, eksportować dane oraz tworzyć subskrypcje e-mail dla pulpitów nawigacyjnych i raportów. Nie mogą uzyskiwać dostępu do obszarów roboczych ani publikować własnej zawartości.
+* Ta funkcja nie jest obecnie dostępna w aplikacjach mobilnych Power BI. Na urządzeniu przenośnym zawartość usługi Power BI udostępnianą za pośrednictwem usługi Azure AD B2B można wyświetlać w przeglądarce.
+* Stosowanie użytkowników-gości z usługą Power BI nie jest obsługiwane w suwerennych chmurach (dla instytucji rządowych).
 
 ## <a name="next-steps"></a>Następne kroki
 

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 12/05/2017
 ms.author: mihart
-ms.openlocfilehash: ecd984ab23c4480b2e615635a8d2f337e2a9a50f
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: 7ff8ba4557c829551b97e51f411269e3ba8fbdea
+ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="sales-and-marketing-sample-for-power-bi-take-a-tour"></a>Próbka danych dotyczących sprzedaży i marketingu dla usługi Power BI: krótki przewodnik
 **Próbka danych dotyczących sprzedaży i marketingu** zawiera pulpit nawigacyjny i raport fikcyjnej firmy produkcyjnej o nazwie VanArsdel Ltd. Ten pulpit nawigacyjny został utworzony przez dyrektora ds. marketingu w firmie VanArsdel, aby śledzić udział w rynku, wolumen produktów, sprzedaż i wskaźniki nastrojów klientów branży i swojej firmy.
@@ -30,7 +30,7 @@ Firma VanArsdel ma dużą konkurencję, ale jest liderem rynku w swojej branży.
 
 Te przykładowe dane stanowią części serii ilustrującej, w jaki sposób można wykorzystać usługę Power BI w pracy z danymi biznesowymi, raportami i pulpitami nawigacyjnymi. Są to prawdziwe dane pochodzące z firmy obviEnce (www.obvience.com) przedstawione w sposób anonimowy.
 
-Możesz również [pobrać sam zestaw danych (skoroszyt programu Excel) omawiany w tym przykładzie](http://go.microsoft.com/fwlink/?LinkId=529785).
+[!Note] Możesz również [pobrać sam zestaw danych (skoroszyt programu Excel) omawiany w tym przykładzie](http://go.microsoft.com/fwlink/?LinkId=529785). Skoroszyt zawiera arkusze programu Power View, które można wyświetlać i modyfikować. Aby wyświetlić nieprzetworzone dane, wybierz pozycje **Power Pivot > Zarządzaj**.
 
 ![](media/sample-sales-and-marketing/sales1.png)
 

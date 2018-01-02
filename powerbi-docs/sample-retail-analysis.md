@@ -15,19 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/27/2017
+ms.date: 12/04/2017
 ms.author: mihart
-ms.openlocfilehash: cfd085913ea1ef2cf08942ca4570f98eba34a3d4
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: 09e245e625c9e0859f93837e56b564218e327926
+ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Próbka analizy handlu detalicznego dla usługi Power BI: krótki przewodnik
 
 Ten przykładowy pulpit nawigacyjny dla branży i raport będący jego podstawą przedstawiają analizę danych sprzedaży detalicznej towarów w wielu sklepach i regionach. Metryki dotyczą porównania tegorocznej i ubiegłorocznej wydajności w następujących obszarach: sprzedaż, liczba jednostek, marża brutto i odchylenia, a także analizy nowych sklepów. Są to prawdziwe dane pochodzące z firmy obviEnce ([www.obvience.com](http://www.obvience.com)) przedstawione w sposób anonimowy.
 
-Możesz również [pobrać sam zestaw danych (skoroszyt programu Excel) omawiany w tym przykładzie](http://go.microsoft.com/fwlink/?LinkId=529778).
+[!Note] Możesz również [pobrać sam zestaw danych (skoroszyt programu Excel) omawiany w tym przykładzie](http://go.microsoft.com/fwlink/?LinkId=529778). Skoroszyt zawiera arkusze programu Power View, które można wyświetlać i modyfikować.  Aby wyświetlić nieprzetworzone dane, wybierz pozycje **Power Pivot > Zarządzaj**. 
 
 ![](media/sample-retail-analysis/retail1.png)
 

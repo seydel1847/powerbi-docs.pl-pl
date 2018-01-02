@@ -1,5 +1,5 @@
 ---
-title: "Zawartość usługi Power BI Pro — co to jest?"
+title: "Power BI Premium — co to jest?"
 description: "Usługa Power BI Premium została opracowana z myślą o pojemności dla organizacji lub zespołu, aby zapewniać jeszcze bardziej niezawodną wydajność i większe woluminy danych — bez potrzeby kupowania licencji użytkowników."
 services: powerbi
 documentationcenter: 
@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/10/2017
+ms.date: 12/05/2017
 ms.author: asaxton
-ms.openlocfilehash: 816f1151b6f49ace8151f1c26aee18a8c746ff08
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 7c1536693490252029d51ddc619eaa7266095403
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="power-bi-premium---what-is-it"></a>Power BI Premium — co to jest?
 Usługa Power BI Premium zapewnia zasoby dedykowane do uruchamiania usługi Power BI dla organizacji lub zespołu, zapewniając jeszcze bardziej niezawodną wydajność i większe woluminy danych. Ponadto usługa Premium umożliwia szeroką dystrybucję zawartości bez potrzeby zakupu licencji dla użytkowników, którzy mają ją wyświetlać.
@@ -69,9 +69,13 @@ Usługa Power BI Premium jest dostępna z konfiguracjami węzłów z różnymi p
 
 * Węzły P mogą być używane do wdrożeń osadzonych lub usługi
 * Węzły EM mogą być używane wyłącznie do wdrożeń osadzonych
+* EM1 i EM2 
+* Linki w tej tabeli działają prawidłowo wyłącznie dla użytkowników, którzy są administratorami globalnymi usługi Office 365 — inni zobaczą błąd 404. 
 
 | Węzeł pojemności | Całkowita liczba rdzeni<br/>*(Wewnętrzna baza danych + fronton)* | Rdzenie wewnętrznej bazy danych | Rdzenie frontonu | Limity zapytania bezpośredniego/połączenia na żywo | Maksymalne renderowanie strony w godzinie szczytu | Dostępność |
 | --- | --- | --- | --- | --- | --- | --- |
+| [EM1 (z miesiąca na miesiąc)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |1 rdzeń wirtualny |0,5 rdzenia, 2,5 GB pamięci RAM |0,5 rdzenia |3,75 na sekundę |150–300 |Dostępne |
+| [EM2 (z miesiąca na miesiąc)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |2 rdzenie wirtualne |1 rdzeń, 5 GB pamięci RAM |1 rdzeń |7,5 na sekundę |301–600 |Dostępne |
 | [EM3 (z miesiąca na miesiąc)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |4 rdzenie wirtualne |2 rdzenie, 10 GB pamięci RAM |2 rdzenie | |601-1,200 |Dostępne |
 | [P1](https://portal.office.com/SubscriptionDetails?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1&adminportal=1) |8 rdzeni wirtualnych |4 rdzenie, 25 GB pamięci RAM |4 rdzenie |30 na sekundę |1,201-2,400 |Dostępne (opcja [z miesiąca na miesiąc](https://portal.office.com/SubscriptionDetails?OfferId=E4C8EDD3-74A1-4D42-A738-C647972FBE81&adminportal=1) jest również dostępna) |
 | [P2](https://portal.office.com/SubscriptionDetails?OfferId=062F2AA7-B4BC-4B0E-980F-2072102D8605&adminportal=1) |16 rdzeni wirtualnych |8 rdzeni, 50 GB pamięci RAM |8 rdzeni |60 na sekundę |2,401-4,800 |Dostępne |

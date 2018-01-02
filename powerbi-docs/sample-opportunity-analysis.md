@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/29/2017
+ms.date: 12/04/2017
 ms.author: mihart
-ms.openlocfilehash: c51984aed112b62143ab132672b331cd0f97c7a1
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 878738eb3f588c461b687451062a1641479e77ed
+ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="opportunity-analysis-sample-for-power-bi-take-a-tour"></a>Próbka danych do analizy szans biznesowych dla usługi Power BI: krótki przewodnik
 **Próbka danych do śledzenia szans biznesowych** zawiera pulpit nawigacyjny (oraz skojarzony raport) dotyczący firmy zajmującej się oprogramowaniem, która posiada 2 kanały sprzedaży: *bezpośredni* i *partnerski*. Kierownik ds. sprzedaży utworzył ten pulpit nawigacyjny, aby śledzić szanse biznesowe i przychody z podziałem na region, rozmiar transakcji i kanał.
@@ -38,7 +38,8 @@ Kierownik ds. sprzedaży bazuje na dwóch wskaźnikach przychodów:
 
 Te przykładowe dane stanowią części serii ilustrującej, w jaki sposób można wykorzystać usługę Power BI w pracy z danymi biznesowymi, raportami i pulpitami nawigacyjnymi. Są to prawdziwe dane pochodzące z firmy obviEnce ([www.obvience.com](http://www.obvience.com/)) przedstawione w sposób anonimowy.
 
-Można również [pobrać sam zestaw danych (skoroszyt programu Excel) omawiany w tym przykładzie](http://go.microsoft.com/fwlink/?LinkId=529782).  
+>[!Note] 
+Możesz również [pobrać sam zestaw danych (skoroszyt programu Excel) omawiany w tym przykładzie](http://go.microsoft.com/fwlink/?LinkId=529782). Skoroszyt zawiera arkusze programu Power View, które można wyświetlać i modyfikować.  Aby wyświetlić nieprzetworzone dane, wybierz pozycje **Power Pivot > Zarządzaj**. 
 
 ![](media/sample-opportunity-analysis/opportunity1.png)
 

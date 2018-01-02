@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/17/2017
-ms.author: jaimeta
-ms.openlocfilehash: e56976943e58aba8c9ef36c576a16ab5eba4c796
-ms.sourcegitcommit: 7d4ad2ba92a932d7cc6637348e0774be6623559e
+ms.date: 12/11/2017
+ms.author: tankas
+ms.openlocfilehash: ced415662c2dc39b6491cb79d121f3cd77719fe4
+ms.sourcegitcommit: be55922d7f43f458aea0160ec8fdfb1a0b5a0c00
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/18/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Dziennik zmian w Serwerze raportów usługi Power BI
 
@@ -32,6 +32,10 @@ Aby uzyskać szczegółowe informacje o nowych funkcjach, zobacz [Co nowego w Se
 ## <a name="october-2017"></a>Październik 2017
 
 - **Serwer raportów usługi Power BI**
+    - *Wersja 1.1.6551.5155 (kompilacja 14.0.600.438), data wydania: 11 grudnia 2017 r.*
+        - Poprawki błędów
+            - Nie można zapisać danych po odświeżeniu dla niektórych raportów w programie Power BI Desktop.
+
     - *Wersja 1.1.6530.30789 (kompilacja 14.0.600.437), data wydania: 17 listopada 2017 r.*
         - Poprawki błędów
             - Poprawka dotycząca scenariuszy uwierzytelniania podstawowego 

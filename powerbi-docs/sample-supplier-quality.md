@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 12/06/2017
 ms.author: mihart
-ms.openlocfilehash: 190d3d256a28deaac2555847d49d61af2263d5a7
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 5be71c2cbe4acf36b0b315b30ddf5d65108882be
+ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="supplier-quality-analysis-sample-for-power-bi-take-a-tour"></a>Próbka danych do analizy jakości dostawców dla usługi Power BI: krótki przewodnik
 Ten branżowy przykład pulpitu nawigacyjnego i źródłowego raportu skupia się na jednym z typowych wyzwań łańcucha dostaw — analizie jakości dostawcy.
@@ -33,8 +33,9 @@ W tej analizie główną rolę odgrywają dwie podstawowe metryki: łączna licz
 Te przykładowe dane stanowią części serii ilustrującej, w jaki sposób możesz wykorzystać usługę Power BI w pracy z danymi biznesowymi, raportami i pulpitami nawigacyjnymi.
 Są to prawdziwe dane pochodzące z firmy obviEnce ([www.obvience.com](http://www.obvience.com/)) przedstawione w sposób anonimowy.
 
-Możesz również [pobrać sam zestaw danych (skoroszyt programu Excel) omawiany w tym przykładzie](http://go.microsoft.com/fwlink/?LinkId=529779). 
-
+> [!NOTE] 
+Możesz również [pobrać sam zestaw danych (skoroszyt programu Excel) omawiany w tym przykładzie](http://go.microsoft.com/fwlink/?LinkId=529779). Skoroszyt zawiera arkusze programu Power View, które można wyświetlać i modyfikować. Aby wyświetlić nieprzetworzone dane, wybierz pozycje **Power Pivot > Zarządzaj**.
+ 
 ![](media/sample-supplier-quality/supplier1.png)
 
 ## <a name="downtime-caused-by-defective-materials"></a>Przestoje spowodowane wadliwymi materiałami

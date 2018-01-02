@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/27/2017
+ms.date: 12/07/2017
 ms.author: maikelson
-ms.openlocfilehash: 57b1f5dd0e62ce6119201059b01d81294c8d826c
-ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
+ms.openlocfilehash: 7b4f69bc65836d59448ef034f5d655f87d89248e
+ms.sourcegitcommit: b780b7108fd9b52398b8377b52836f0e0fedc96e
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/27/2017
+ms.lasthandoff: 12/09/2017
 ---
 # <a name="power-bi-webinars"></a>Power BI — seminaria internetowe
 
@@ -41,14 +41,11 @@ Zacznij od tych popularnych seminariów internetowych na żądanie
 
 - [Co nowego i interesującego w kwestii serwera raportów usługi Power BI — listopad 2017](https://info.microsoft.com/whats-new-powerbi-report-server.html?Is=Website)
 
-
 ## <a name="upcoming-webinars"></a>Nadchodzące seminaria internetowe
 
 Zarejestruj się, aby uzyskać informacje od ekspertów w zakresie usługi Power BI i wziąć udział w sesjach pytań i odpowiedzi na żywo
 
 >[Weź udział w nadchodzących seminariach internetowych społeczności usługi Power BI](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/bd-p/VideoTipsTricks?filter=webinars&featured=yes&Is=Website)
-
-- [Manufacturers: Your industry is going through a digital transformation - Maintain leadership by leveraging analytics to maximize profitability -12/05/17](https://info.microsoft.com/digital-transformation-in-manufacturing.html?Is=Website) (Producenci: Twoja branża przechodzi proces cyfrowej transformacji — utrzymaj pozycję lidera i zwiększ rentowność dzięki zastosowaniu rozwiązania do analizy — 05.12.2017)
 
 - [Improving Profitability in Healthcare - 12/12/17](https://info.microsoft.com/improving-profitability-in-healthcare.html?Is=Website) (Poprawa rentowności w służbie zdrowia — 12.12.2017)
 
@@ -60,6 +57,8 @@ Oglądaj nagrane sesje w dowolnym momencie
 
 - [How to Implement a Successful Data Governance Strategy That Makes Your Organization More Secure](https://info.microsoft.com/powerbi-data-governance-strategy-ondemand.html?Is=Website) (Jak wdrożyć skuteczną strategię zarządzania danymi, która zwiększy bezpieczeństwo organizacji)
 
+- [Zmienianie raportu z dobrego w ŚWIETNY](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Power-BI-Transforming-A-Report-From-Good-to-GREAT/m-p/315119?Is=Website)
+
 - [Ask a Partner: Developing Custom Visuals for Power BI](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Ask-a-Partner-Developing-Custom-Visuals-for-Power-BI/m-p/150368?Is=Website) (Pytania do partnera: tworzenie niestandardowych wizualizacji dla usługi Power BI)
 
 - [How Microsoft does Power BI](https://info.microsoft.com/US-PowerBI-WBNR-FY17-11Nov-29-BIATMIcrosoft274828_01Registration-ForminBody.html?Is=Website) (W jaki sposób firma Microsoft zarządza usługą Power BI)
@@ -67,6 +66,8 @@ Oglądaj nagrane sesje w dowolnym momencie
 - [Applied Intelligence for Sales & Service](https://info.microsoft.com/applied-intelligence-for-sales-service.html?Is=Website) (Zastosowanie analizy w sprzedaży i usługach)
 
 - [Power BI security deep dive](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-23-2017-Power-BI-security-deep-dive-by-Kasper-de-Jonge/m-p/161476?Is=Website) (Szczegółowe informacje o zabezpieczeniach w usłudze Power BI)
+
+- [Manufacturers: Your industry is going through a digital transformation - Maintain leadership by leveraging analytics to maximize profitability](https://info.microsoft.com/digital-transformation-in-manufacturing.html?Is=Website) (Producenci: Twoja branża przechodzi proces cyfrowej transformacji — utrzymaj pozycję lidera i zwiększ rentowność dzięki zastosowaniu rozwiązania do analizy)
 
 ## <a name="see-also"></a>Zobacz także
 

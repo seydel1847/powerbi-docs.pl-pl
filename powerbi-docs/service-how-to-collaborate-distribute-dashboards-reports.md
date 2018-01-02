@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/14/2017
+ms.date: 12/05/2017
 ms.author: maggies
-ms.openlocfilehash: 1ee8cc60d5c18cb09915029088824ade89d2b39f
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: a77c9a9816ef47ae4b342b2cd3a08b18c90f70de
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="how-should-i-collaborate-and-share-dashboards-and-reports-in-power-bi"></a>Jak współpracować nad pulpitami nawigacyjnymi i raportami oraz udostępniać je w usłudze Power BI?
 Tworzysz pulpity nawigacyjne i raporty. Być może pracujesz również nad nimi ze swoimi współpracownikami. A potem chcesz, aby inni mieli do nich dostęp. Jaki jest najlepszy sposób, aby je rozpowszechnić?
@@ -54,7 +54,7 @@ Załóżmy, że chcesz rozpowszechnić swój pulpit nawigacyjny wśród szerokie
 
 ![Ikona publikowania aplikacji](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-app-publish-600.png)
 
-W usłudze Power BI ([https://powerbi.com](https://powerbi.com)) aplikacje można łatwo znaleźć i zainstalować. Możesz wysłać swoim użytkownikom biznesowym bezpośredni link do aplikacji lub mogą oni ją wyszukać w usłudze AppSource. Jeśli administrator usługi Power BI nada Ci odpowiednie uprawnienia, możesz automatycznie zainstalować aplikację na kontach usługi Power BI swoich współpracowników. Przeczytaj więcej na temat [publikowania aplikacji](service-create-distribute-apps.md#publish-your-app). 
+W usłudze Power BI ([https://powerbi.com](https://powerbi.com)) aplikacje można łatwo znaleźć i zainstalować. Możesz wysłać swoim użytkownikom biznesowym bezpośredni link do aplikacji lub mogą oni ją wyszukać w usłudze AppSource. Przeczytaj więcej na temat [publikowania aplikacji](service-create-distribute-apps.md#publish-your-app). 
 
 Po zainstalowaniu aplikacji użytkownicy mogą wyświetlać ją w przeglądarce lub na urządzeniach przenośnych.
 

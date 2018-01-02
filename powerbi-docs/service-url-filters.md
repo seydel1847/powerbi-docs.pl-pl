@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/25/2017
+ms.date: 12/4/2017
 ms.author: mihart
-ms.openlocfilehash: 6858f85cb08c493f7a73dc888a4bb21f66c5f217
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 80a5a668056d1a3f3f2b53600e80f399be4a5e08
+ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Filtrowanie raportu za pomocą parametrów ciągu zapytania w adresie URL
 Po otwarciu raportu w usłudze Power BI każda strona raportu ma własny unikatowy adres URL. Aby wykonać filtrowanie takiej strony raportu, możesz użyć okienka Filtr na kanwie raportów.  Możesz też dodać parametry ciągu zapytania do adresu URL. Być może masz raport, który chcesz pokazać współpracownikom, ale najpierw planujesz go wstępnie przefiltrować. Jeden ze sposobów polega na tym, aby rozpocząć od domyślnego adresu URL raportu, dodać do niego parametry filtru, a następnie po prostu wysłać cały adres URL swoim współpracownikom za pośrednictwem poczty e-mail.
@@ -107,7 +107,7 @@ W niektórych przypadkach może okazać się to przydatne. Na przykład, gdy chc
 ## <a name="limitations-and-troubleshooting"></a>Ograniczenia i rozwiązywanie problemów
 Używając parametrów ciągu zapytania, należy pamiętać o kilku rzeczach.
 
-* Filtrowanie ciągu zapytania nie działa z adresami URL [publikowania w Internecie](service-publish-to-web.md).
+* Filtrowanie ciągu zapytania nie działa z adresami URL [publikowania w Internecie](service-publish-to-web.md) ani usługą Power BI Embedded.   
 * Typ pola musi być ciągiem.
 * Nazwy tabeli i pola nie mogą zawierać spacji.
 

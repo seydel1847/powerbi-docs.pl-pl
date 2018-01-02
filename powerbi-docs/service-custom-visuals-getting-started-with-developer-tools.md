@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/05/2017
+ms.date: 11/30/2017
 ms.author: asaxton
-ms.openlocfilehash: e84c5045906cb91f028f0c33b5af8164871d8882
-ms.sourcegitcommit: 12236d08c27c7ee3fabb7ef9d767e9dee693f8aa
+ms.openlocfilehash: bdba3cb9a7dc64dbf71a48a7ae2223e74c302b70
+ms.sourcegitcommit: 0f6db65997db604e8e9afc9334cb65bb7344d0dc
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/21/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="use-developer-tools-to-create-custom-visuals"></a>Tworzenie niestandardowych wizualizacji przy użyciu narzędzi deweloperskich
 Niestandardowe wizualizacje umożliwiają dostosowanie wizualizacji do potrzeb użytkowników i do projektu aplikacji. Dowiedz się, jak utworzyć niestandardową wizualizację dla usługi Power BI przy użyciu narzędzi deweloperskich.
@@ -347,8 +347,8 @@ Dowiedz się więcej na temat języka [Less](http://lesscss.org/).
 ## <a name="debugging"></a>Debugowanie
 Aby uzyskać wskazówki dotyczące debugowania wizualizacji niestandardowej, zobacz [przewodnik po debugowaniu](https://github.com/Microsoft/PowerBI-visuals/blob/master/tools/debugging.md).
 
-## <a name="submit-your-visual-to-the-office-store"></a>Przesyłanie wizualizacji do Sklepu Office
-Wizualizacja może być dostępna w Sklepie Office. Aby uzyskać więcej informacji na temat tego procesu, zobacz artykuł [Publikowanie wizualizacji niestandardowych w Sklepie Office](developer/office-store.md).
+## <a name="submit-your-visual-to-appsource"></a>Przesyłanie własnej wizualizacji do usługi AppSource
+Własną wizualizację można udostępnić do użytku innym, przesyłając ją do usługi AppSource. Aby uzyskać więcej informacji na temat tego procesu, zobacz [Publish custom visuals to AppSource](developer/office-store.md) (Publikowanie wizualizacji niestandardowych w usłudze AppSource).
 
 ## <a name="troubleshooting"></a>Rozwiązywanie problemów
 **Nie znaleziono polecenia Pbiviz (i podobne błędy)**

@@ -1,6 +1,6 @@
 ---
-title: "Optymalizacja danych pod kątem szybkiego wglądu w szczegółowe dane w usłudze Power BI"
-description: "Optymalizacja danych pod kątem szybkiego wglądu w szczegółowe dane w usłudze Power BI. Jeśli usługa Power BI nie znajduje szczegółowych informacji w Twoich danych, możesz zrobić kilka rzeczy, aby rozwiązać ten problem"
+title: "Optymalizacja danych pod kątem szybkiego wglądu w szczegółowe dane usługi Power BI"
+description: "Optymalizacja danych pod kątem szybkiego wglądu w szczegółowe dane usługi Power BI. Jeśli usługa Power BI nie znajduje szczegółowych informacji w Twoich danych, możesz zrobić kilka rzeczy, aby rozwiązać ten problem"
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/02/2017
+ms.date: 12/06/2017
 ms.author: mihart
-ms.openlocfilehash: 61901d0055c22540ec2f10bedbbb8cf641d606e9
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 263d85a9db996bd7979c29b9c8919fc63f97b1d0
+ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="optimize-your-data-for-power-bi-quick-insights"></a>Optymalizacja danych pod kątem szybkiego wglądu w szczegółowe dane w usłudze Power BI
 Czy chcesz poprawić wyniki szybkiego wglądu w szczegółowe dane?  Jeśli jesteś właścicielem zestawu danych, wypróbuj poniższe metody:

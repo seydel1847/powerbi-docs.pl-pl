@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/14/2017
+ms.date: 12/11/2017
 ms.author: maggies
-ms.openlocfilehash: 0b50568e49df8e2594519028b90d5d833d17c6b7
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: 276f663b8454ef0938222576cec13fcfb073e2cf
+ms.sourcegitcommit: bb577045145b2e6e5807622a53cefa2d46574618
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="share-your-power-bi-dashboards-with-coworkers-and-others"></a>Udostępnianie pulpitów nawigacyjnych usługi Power BI współpracownikom i innym osobom
 *Udostępnianie* to świetna metoda na zapewnienie kilku osobom dostępu do Twojego pulpitu nawigacyjnego i raportów. Usługa Power BI zapewnia [kilka sposobów współpracy i rozpowszechniania pulpitów nawigacyjnych](service-how-to-collaborate-distribute-dashboards-reports.md). Udostępnianie to jedna z tych metod.
@@ -91,6 +91,8 @@ Tylko właściciel pulpitu nawigacyjnego może włączyć i wyłączyć możliwo
    * **Odczyt**, aby uniemożliwić danej osobie udostępnianie tej zawartości innym.
    * **Usuń dostęp**, aby uniemożliwić danej osobie wyświetlenie pulpitu nawigacyjnego.
 
+4. W oknie dialogowym **Usuń dostęp** zdecyduj, czy chcesz też usunąć dostęp do powiązanej zawartości, takiej jak raporty i zestawy danych. Jeśli usuwasz elementy z ikoną ostrzeżenia ![Ikona ostrzeżenia usługi Power BI](media/service-share-dashboards/power-bi-warning-icon.png), najlepiej jest usunąć powiązaną zawartość, ponieważ nie będzie ona wyświetlana poprawnie.
+
 ## <a name="share-a-dashboard-with-people-outside-your-organization"></a>Udostępnianie pulpitu nawigacyjnego osobom spoza organizacji
 Jeśli udostępnisz pulpit nawigacyjny osobom spoza organizacji, otrzymają one wiadomość e-mail z linkiem do udostępnionego pulpitu nawigacyjnego. Aby wyświetlić pulpit nawigacyjny, muszą się one zalogować do usługi Power BI. Jeśli dana osoba nie ma licencji na usługę Power BI Pro, może utworzyć konto w tej usłudze po kliknięciu linku.
 
@@ -115,6 +117,33 @@ Ważne kwestie dotyczące udostępniania pulpitów nawigacyjnych:
 * Współpracownicy, którzy mają adres e-mail w tej samej domenie co Ty, oraz współpracownicy, którzy korzystają z innej domeny, ale zarejestrowanej w ramach tej samej dzierżawy, mogą udostępniać pulpit nawigacyjny innym osobom. Załóżmy na przykład, że domeny contoso.com i contoso2.com są zarejestrowane w ramach tej samej dzierżawy. Jeśli Twój adres e-mail to konrads@contoso.com, wówczas zarówno posiadacz adresu ravali@contoso.com, jak i adresu gustav@contoso2.com może udostępniać pulpit nawigacyjny, o ile dostał od Ciebie uprawnienia do udostępniania.
 * Jeśli Twoi współpracownicy mają już dostęp do określonego pulpitu nawigacyjnego, możesz wysłać bezpośredni link do niego, kopiując adres URL dostępny podczas korzystania z tego pulpitu nawigacyjnego. Na przykład: `https://powerbi.com/dashboards/g12466b5-a452-4e55-8634-xxxxxxxxxxxx`
 * Analogicznie, jeśli Twoi współpracownicy mają już dostęp do określonego pulpitu nawigacyjnego, możesz [wysłać bezpośredni link do jego raportu źródłowego](service-share-reports.md). 
+
+## <a name="troubleshoot-sharing"></a>Rozwiązywanie problemów z udostępnianiem
+
+### <a name="my-dashboard-recipients-see-a-lock-icon-in-a-tile-or-a-permission-required-message"></a>Odbiorcy mojego pulpitu nawigacyjnego widzą ikonę blokady na kafelku albo komunikat „Wymagane uprawnienie”
+
+Jeśli osoby, którym udostępniasz pulpit nawigacyjny, widzą na nim zablokowany kafelek albo komunikat „Wymagane uprawnienie” przy próbie wyświetlenia raportu, musisz udzielić im uprawnienia do bazowego zestawu danych. Oto jak to zrobić.
+
+1. Przejdź na kartę **Zestawy danych** na liście zawartości.
+
+1. Wybierz wielokropek (**...**) obok zestawu danych > **Zarządzaj uprawnieniami**.
+
+    ![Zarządzanie uprawnieniami](media/service-share-dashboards/power-bi-sharing-manage-permissions.png)
+
+3. Wybierz pozycję **Dodaj użytkownika**.
+
+    ![Wybieranie pozycji Dodaj użytkownika](media/service-share-dashboards/power-bi-share-dataset-add-user.png)
+
+1. Wprowadź pełne adresy e-mail osób, grup dystrybucyjnych lub grup zabezpieczeń. Zawartości nie można udostępniać dynamicznym listom dystrybucyjnym.
+
+    ![Dodawanie adresów e-mail](media/service-share-dashboards/power-bi-add-user-dataset.png)
+
+5. Wybierz pozycję **Dodaj**.
+
+### <a name="i-cant-share-a-dashboard"></a>Nie mogę udostępnić pulpitu nawigacyjnego
+
+Aby udostępnić pulpit nawigacyjny, musisz mieć uprawnienie do udostępniania dalej jego bazowej zawartości — wszystkich powiązanych raportów i zestawów danych. Jeśli zobaczysz komunikat z informacją, że nie możesz udostępnić zawartości, poproś autora raportu o uprawnienie do udostępniania dalej tych raportów i zestawów danych.
+
 
 ## <a name="next-steps"></a>Następne kroki
 * Chcesz przesłać opinię? Jeśli masz sugestie, przejdź do [witryny społeczności usługi Power BI](https://community.powerbi.com/).

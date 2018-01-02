@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 12/04/2017
 ms.author: mihart
-ms.openlocfilehash: ef064c636880db5d1b6c6106fe742972a7ed3a3c
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 0bb540a4c27729999bbb1780a7d5a203d67d3a7c
+ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="human-resources-sample-for-power-bi-take-a-tour"></a>Próbka danych dotyczących kadr dla usługi Power BI: krótki przewodnik
 Dział kadr ma ten sam model raportowania w różnych firmach, nawet wtedy, gdy różnią się one branżą lub wielkością. W tym przykładzie analizujemy nowych pracowników, zatrudnionych pracowników i pracowników, którzy odeszli, w celu wykrycia wszelkich trendów w strategii zatrudniania. Naszymi głównymi celami jest zrozumienie:
@@ -36,7 +36,7 @@ Te przykładowe dane stanowią części serii ilustrującej, w jaki sposób moż
 
 Chcesz z nich skorzystać? W [usłudze Power BI](https://powerbi.com) przejdź do pozycji **Pobierz dane > Przykłady > Przykład Human Resources > Połącz**, aby pobrać własną kopię przykładowych danych.
 
-Możesz też [pobrać sam zestaw danych (skoroszyt programu Excel)](http://go.microsoft.com/fwlink/?LinkId=529780) omawiany w tym przykładzie.
+Możesz też [pobrać sam zestaw danych (skoroszyt programu Excel)](http://go.microsoft.com/fwlink/?LinkId=529780) omawiany w tym przykładzie. Skoroszyt zawiera arkusze programu Power View, które można wyświetlać i modyfikować. Aby wyświetlić nieprzetworzone dane, wybierz pozycje **Power Pivot > Zarządzaj**.
 
 ## <a name="new-hires"></a>Nowi pracownicy
 Zajmijmy się najpierw badaniem nowych pracowników.

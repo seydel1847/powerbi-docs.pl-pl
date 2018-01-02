@@ -16,16 +16,20 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/26/2017
+ms.date: 11/21/2017
 ms.author: mihart
-ms.openlocfilehash: cfba13cca4152825e81d4be0f46a9cd26a48d157
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 8faa60dee8c1785d5560ac34c5eb50288488e893
+ms.sourcegitcommit: 910258a5ad8b6861e81ae02c57286db221c37375
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/02/2017
 ---
 # <a name="subscribe-to-a-power-bi-report-or-dashboard"></a>Subskrybowanie raportu lub pulpitu nawigacyjnego usługi Power BI
-Nigdy nie było łatwiej być na czasie w przypadku najważniejszych pulpitów nawigacyjnych i raportów. Subskrybuj strony raportów i pulpity nawigacyjne, które są najważniejsze dla Ciebie, a usługa Power BI wyśle wiadomość e-mail z migawką do Twojej skrzynki odbiorczej. Poinformuj usługę Power BI jak często chcesz otrzymywać wiadomości e-mail: od raz dziennie do raz w tygodniu
+Nigdy nie było łatwiej być na czasie w przypadku najważniejszych pulpitów nawigacyjnych i raportów. Subskrybuj strony raportów i pulpity nawigacyjne, które są najważniejsze dla Ciebie, a usługa Power BI wyśle wiadomość e-mail z migawką do Twojej skrzynki odbiorczej. Poinformuj usługę Power BI, jak często chcesz otrzymywać wiadomości e-mail: od raz dziennie do raz w tygodniu. W wiadomościach e-mail i migawkach będzie używany język określony w ustawieniach usługi Power BI. Jeśli w ustawieniach nie będzie zdefiniowanego żadnego języka, usługa Power BI użyje języka używanej przeglądarki.
+
+Aby zobaczyć preferencję języka, wybierz ikonę z kołem zębatym ![](media/service-report-subscribe/power-bi-settings-icon.png) **> Ustawienia > Ogólne > Język**.
+
+![](media/service-report-subscribe/power-bi-language.png)
 
 > [!NOTE]
 > Subskrypcje można tworzyć tylko w usłudze Power BI. Po otrzymaniu wiadomości e-mail będzie ona zawierała link „przejdź do raportu/pulpitu nawigacyjnego”. Na urządzeniach przenośnych z zainstalowanymi aplikacjami usługi Power BI zaznaczenie tego linku powoduje uruchomienie aplikacji (w przeciwieństwie do domyślnej akcji otwierania raportu lub pulpitu nawigacyjnego w witrynie internetowej usługi Power BI).
