@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: davidi
-ms.openlocfilehash: a5542e7a4c0b1d5014a6fce0042c07fec7398ab4
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: e60ff6d06e4ac0cddf398ccfc1d30e4d97e0773c
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi-preview"></a>Używanie zakładek w celu udostępniania szczegółowych informacji i tworzenia historii w usłudze Power BI (wersja zapoznawcza)
 Przy użyciu **zakładek** w usłudze Power BI możesz przechwycić obecnie skonfigurowany widok strony raportu, wraz z filtrowaniem stanu wizualizacji, aby później powrócić do tego stanu poprzez wybranie zapisanej zakładki. 
@@ -153,6 +153,7 @@ W tej wersji zapoznawczej funkcji **zakładek** występują pewne ograniczenia i
 * Jeśli dodasz wizualizację na stronie raportu po utworzeniu zakładki, wizualizacja zostanie wyświetlona w stanie domyślnym. Oznacza to również, że w przypadku wprowadzenia fragmentatora do strony, w której poprzednio utworzono zakładki, fragmentator będzie zachowywać się zgodnie ze stanem domyślnym.
 * Przenoszenie wizualizacji po utworzeniu zakładki zostanie odzwierciedlone w zakładce. 
 * *Musisz* mieć co najmniej jedną zakładkę w raporcie podczas publikowania go w **usłudze Power BI**, aby zakładki były dostępne w usłudze. Jest to wymaganie dotyczące każdego publikowanego raportu.
+* Ponieważ zakładki są obecnie funkcją w wersji zapoznawczej, nie są jeszcze dostępne w programie [**Power BI Desktop dla serwera raportów**](report-server/quickstart-create-powerbi-report.md).
 
 ## <a name="next-steps"></a>Następne kroki
 Aby uzyskać więcej informacji o podobnych funkcjach lub interakcji z zakładkami, sprawdź następujące artykuły:

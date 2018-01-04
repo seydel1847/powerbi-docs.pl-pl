@@ -1,6 +1,6 @@
 ---
-title: Publikowanie wizualizacji niestandardowych w Sklepie Office
-description: "Dowiedz się, jak publikować swoje wizualizacje niestandardowe w Sklepie Office do użytku przez inne osoby."
+title: "Publikowanie wizualizacji niestandardowych w usłudze AppSource"
+description: "Dowiedz się, jak publikować swoje wizualizacje niestandardowe w usłudze AppSource do użytku przez inne osoby."
 services: powerbi
 documentationcenter: 
 author: guyinacube
@@ -15,22 +15,22 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/20/2017
+ms.date: 12/5/2017
 ms.author: asaxton
-ms.openlocfilehash: 13456711e6c3bdce4554df7b7fbc0e4e9943987a
-ms.sourcegitcommit: 12236d08c27c7ee3fabb7ef9d767e9dee693f8aa
+ms.openlocfilehash: 0d3608d30fdf689c2121e65c5c4cafb861c88c2e
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/21/2017
+ms.lasthandoff: 12/06/2017
 ---
-# <a name="publish-custom-visuals-to-the-office-store"></a>Publikowanie wizualizacji niestandardowych w Sklepie Office
-Dowiedz się, jak publikować swoje wizualizacje niestandardowe w Sklepie Office do użytku przez inne osoby.
+# <a name="publish-custom-visuals-to-appsource"></a>Publikowanie wizualizacji niestandardowych w usłudze AppSource
+Dowiedz się, jak publikować swoje wizualizacje niestandardowe w usłudze AppSource do użytku przez inne osoby. pakiet office
 
-Po utworzeniu wizualizacji niestandardowej możesz opublikować ją w Sklepie Office do użytku przez inne osoby. Wymaga to pewnych przygotowań. Więcej informacji na temat tworzenia wizualizacji niestandardowych można znaleźć w artykule [Tworzenie niestandardowych wizualizacji przy użyciu narzędzi deweloperskich](../service-custom-visuals-getting-started-with-developer-tools.md).
+Po utworzeniu wizualizacji niestandardowej możesz opublikować ją w usłudze AppSource do użytku przez inne osoby. Wymaga to pewnych przygotowań. Więcej informacji na temat tworzenia wizualizacji niestandardowych można znaleźć w artykule [Tworzenie niestandardowych wizualizacji przy użyciu narzędzi deweloperskich](../service-custom-visuals-getting-started-with-developer-tools.md).
 
-![](media/office-store/powerbi-custom-visual-store.png)
+![](media/office-store/AppSource_01.jpg)
 
-Co to jest Sklep Office? Krótko mówiąc, to jest miejsce, gdzie można znaleźć aplikacje (dodatki) dla oprogramowania Office 365. [Sklep Office](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) łączy miliony użytkowników usługi Office 365 z rozwiązaniami, które pomagają im pracować wydajniej, bardziej wnikliwie lub ładniej niż wcześniej.
+Co to jest usługa AppSource? Krótko mówiąc, jest to miejsce, gdzie można znaleźć dodatki i aplikacje SaaS dla produktów i usług firmy Microsoft. Usługa [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) łączy miliony użytkowników usług Office 365, Dynamics 365, Cortana Intelligence i innych z rozwiązaniami, które pomagają im pracować wydajniej, bardziej wnikliwie lub ładniej niż wcześniej.
 
 ## <a name="preparing-to-submit-your-custom-visual"></a>Przygotowywanie wizualizacji niestandardowej do przesłania
 Po zakończeniu kodowania i testowania wizualizacji niestandardowej oraz spakowaniu jej w plik pbiviz należy przygotować także następujące elementy.
@@ -53,18 +53,18 @@ Proces przesyłania zaczyna się od przesłania wiadomości e-mail do zespołu d
 Do wiadomości dołącz plik pbiviz oraz przykładowy raport w pliku pbix. Zespół usługi Power BI odpowie, przesyłając instrukcje oraz plik XML pakietu aplikacji do przesłania. Ten pakiet aplikacji XML jest wymagany w celu przesłania wizualizacji za pośrednictwem centrum deweloperów Office.
 
 > [!NOTE]
-> W celu podniesienia jakości oraz upewnienia się, że nie powodują problemów z istniejącymi raportami, aktualizacje istniejących wizualizacji docierają do środowiska produkcyjnego 2 tygodnie po zatwierdzeniu w sklepie.
+> W celu podniesienia jakości oraz upewnienia się, że nie powodują problemów z istniejącymi raportami, aktualizacje istniejących wizualizacji docierają do środowiska produkcyjnego dwa tygodnie po zatwierdzeniu w sklepie.
 > 
 > 
 
-## <a name="submitting-to-the-office-store"></a>Przesyłanie do Sklepu Office
-Po otrzymaniu pliku XML pakietu aplikacji od zespołu usługi Power BI przejdź do [Centrum deweloperów Office](https://sellerdashboard.microsoft.com/Application/Summary), aby przesłać wizualizację do Sklepu Office.
+## <a name="submitting-to-appsource"></a>Przesyłanie do usługi AppSource
+Po otrzymaniu pliku XML pakietu aplikacji od zespołu usługi Power BI przejdź do [Centrum deweloperów](https://sellerdashboard.microsoft.com/Application/Summary), aby przesłać wizualizację do usługi AppSource.
 
 > [!NOTE]
 > Logowanie do [Centrum deweloperów Office](https://dev.office.com/) wymaga prawidłowego konta dewelopera Office. Konto dewelopera Office musi być Kontem Microsoft (Live ID, np. hotmail.com lub outlook.com).
 > 
 > [!IMPORTANT]
-> Przed przesłaniem wizualizacji do Sklepu Office należy przesłać wiadomość e-mail z plikiem pbiviz i plikiem pbix do zespołu usługi Power BI. Umożliwia to zespołowi usługi Power BI przesłanie plików na publiczny serwer udziałów. W przeciwnym wypadku Sklep Office nie będzie w stanie pobrać plików. Pliki należy przesyłać wraz z każdą nową wizualizacją, aktualizacją istniejącej wizualizacji oraz poprawkami odrzuconych propozycji dla Sklepu Office.
+> Przed przesłaniem wizualizacji do usługi AppSource należy wysłać wiadomość e-mail z plikiem pbiviz i plikiem pbix do zespołu usługi Power BI. Umożliwi to zespołowi usługi Power BI przekazanie plików na publiczny serwer udziałów. W przeciwnym wypadku sklep nie będzie w stanie pobrać plików. Pliki należy wysyłać wraz z każdą nową wizualizacją, aktualizacją istniejącej wizualizacji oraz poprawkami odrzuconych propozycji.
 > 
 > 
 

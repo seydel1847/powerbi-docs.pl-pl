@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/09/2017
+ms.date: 11/30/2017
 ms.author: asaxton
-ms.openlocfilehash: 1ab1590146f8b9714a27735cd556dd0203ecc6bf
-ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
+ms.openlocfilehash: c10ca76ac96090ff1facbdd28210b680392aae8d
+ms.sourcegitcommit: 0f6db65997db604e8e9afc9334cb65bb7344d0dc
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/23/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="use-row-level-security-with-power-bi-embedded-content"></a>Używanie zabezpieczeń na poziomie wiersza w osadzonej zawartości usługi Power BI
 Zabezpieczenia na poziomie wiersza (RLS) mogą być używane do ograniczania dostępu użytkowników do danych w raporcie lub zestawie danych, dzięki czemu wielu różnych użytkowników może używać tego samego raportu, przy czym każdy z nich będzie widzieć inne dane. Z zabezpieczeń RSL można skorzystać podczas osadzania raportów z usługi Power BI.
@@ -145,7 +145,7 @@ Role można przekazać wraz z tożsamością w tokenie osadzania. Jeśli żadna 
 * Usługa Power nie będzie stosować ustawień zabezpieczeń na poziomie wiersza do administratorów lub członków z uprawnieniami do edycji podczas podawania tożsamości wraz z tokenem osadzania, ale będzie stosować je wobec danych.
 * Przekazywanie informacji o tożsamości podczas wywoływania metody GenerateToken jest obsługiwane wyłącznie w przypadku odczytu/zapisu raportu. Obsługa innych zasobów zostanie dodana później.
 * Połączenia na żywo usług Analysis Services są obsługiwane w przypadku serwerów lokalnych.
-* Połączenia na żywo z usługami Azure Analysis Services nie są obsługiwane.
+* Połączenia na żywo usług Azure Analysis Services obsługują filtrowanie według ról, ale nie dynamicznie według nazwy użytkownika.
 * Jeśli źródłowy zestaw danych nie wymaga zabezpieczeń RSL, żądanie GenerateToken **nie** może zawierać efektywnej tożsamości.
 * Jeśli źródłowy zestaw danych jest modelem w chmurze (modelem w pamięci podręcznej lub zapytaniem bezpośrednim), efektywna tożsamość musi zawierać co najmniej jedną rolę. W przeciwnym razie nie nastąpi przypisanie roli.
 * Na liście tożsamości można podać tylko jedną tożsamość. Używamy listy, aby umożliwić w przyszłości stosowanie tokenów o wielu tożsamościach w przypadku osadzania pulpitu nawigacyjnego.

@@ -15,16 +15,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 12/08/2017
 ms.author: maggies
-ms.openlocfilehash: 7a32885efb0813cc430f37952ca4fc9c5e435121
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 0dd906bc1b165793e9ff91f64324eeb8e1d1266c
+ms.sourcegitcommit: b780b7108fd9b52398b8377b52836f0e0fedc96e
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/09/2017
 ---
 # <a name="create-reports-optimized-for-the-power-bi-phone-apps"></a>Tworzenie raportów zoptymalizowanych pod kątem aplikacji Power BI na telefony
-Podczas [tworzenia raportu w programie Power BI Desktop](desktop-report-view.md) można ulepszyć korzystanie z niego w aplikacjach mobilnych na telefony przez utworzenie wersji raportu przystosowanej specjalnie do telefonów. Zmieniając rozmieszczenie i rozmiar — chociaż może nie wszystkich — wizualizacji, można przystosować raport do telefonu i zoptymalizować sposób używania go. Ponadto można [utworzyć *elastyczne* wizualizacje](desktop-create-responsive-visuals.md), które dostosowują swój rozmiar, gdy są wyświetlane na telefonie. Oprócz tego po dodaniu filtrów do raportu na telefonie iPhone filtry te będą automatycznie wyświetlane w raporcie na telefon. Czytelnicy raportu mogą je widzieć i filtrować raport za ich pomocą.
+Podczas [tworzenia raportu w programie Power BI Desktop](desktop-report-view.md) można ulepszyć korzystanie z niego w aplikacjach mobilnych na telefony przez utworzenie wersji raportu przystosowanej specjalnie do telefonów. Zmieniając rozmieszczenie i rozmiar — chociaż może nie wszystkich — wizualizacji, można przystosować raport do telefonu i zoptymalizować sposób używania go. Ponadto można tworzyć [*dynamiczne* wizualizacje](#optimize-a-visual-for-any-size) i [dynamiczne fragmentatory](#enhance-slicers-to-to-work-well-in-phone-reports), które dostosowują swój rozmiar, gdy są wyświetlane w telefonie. Oprócz tego po dodaniu filtrów do raportu filtry te będą automatycznie wyświetlane w raporcie na telefon. Czytelnicy raportu mogą je widzieć i filtrować raport za ich pomocą.
 
 ![Zoptymalizowany raport na telefonie](media/desktop-create-phone-report/07-power-bi-phone-report-portrait.png)
 
@@ -56,7 +56,7 @@ Po [utworzeniu raportu w programie Power BI Desktop](desktop-report-view.md) mo�
    ![Zmiana rozmiaru wizualizacji](media/desktop-create-phone-report/03_resizing_a_viz_to_grid.gif)
 
 ## <a name="optimize-a-visual-for-any-size"></a>Optymalizacja wizualizacji pod kątem dowolnej wielkości
-Można ustawić wizualizację na pulpicie nawigacyjnym lub w raporcie na opcję *Elastyczna*, aby zmieniała się dynamicznie i wyświetlała maksymalną ilość danych i szczegółowych informacji niezależnie od rozmiaru ekranu.
+Można ustawić wizualizację na pulpicie nawigacyjnym lub w raporcie na opcję *Elastyczna*, aby zmieniała się dynamicznie i wyświetlała maksymalną ilość danych i szczegółowych informacji niezależnie od rozmiaru ekranu. 
 
 Gdy wizualizacja zmienia rozmiar, usługa Power BI nadaje priorytet widokowi danych, na przykład usuwając dopełnienia i automatycznie przenosząc legendę na górę wizualizacji, tak aby wizualizacja dostarczała odpowiednią ilość informacji, nawet gdy się zmniejszy.
 
@@ -82,10 +82,14 @@ Włączenie lub wyłączenie elastyczności każdej wizualizacji zależy od uży
 Fragmentatory oferują filtrowanie danych raportu na kanwie. Podczas projektowania fragmentatorów w zwykłym trybie tworzenia raportów można zmodyfikować niektóre ustawienia fragmentatorów, aby były bardziej użyteczne w raportach na telefon:
 
 * Zdecyduj, czy czytelnicy raportu mogą wybierać tylko jeden czy więcej niż jeden element.
-* Ustaw fragmentator w pionie lub poziomie. 
 * Umieść ramkę wokół fragmentatora, aby ułatwić przeglądanie raportu.
+* Ustaw fragmentator w pionie, w poziomie lub jako *dynamiczny*. 
 
-Przeczytaj więcej na temat [tworzenia fragmentatorów w usłudze Power BI](guided-learning/visualizations.yml#step-4).
+Jeśli ustawisz fragmentator jako dynamiczny, zmiana jego kształtu i rozmiaru będzie powodować wyświetlanie większej lub mniejszej liczby opcji. Fragmentator może być długi, krótki, szeroki lub wąski. Jeśli odpowiednio go zmniejszysz, stanie się jedynie ikoną filtru na stronie raportu. 
+
+![Dynamiczny fragmentator usługi Power BI](media/desktop-create-phone-report/power-bi-slicer-2-rows.png)
+
+Przeczytaj więcej na temat [tworzenia fragmentatorów dynamicznych](power-bi-slicer-filter-responsive.md).
 
 ## <a name="publish-a-phone-report"></a>Publikowanie raportu na telefon
 * Aby opublikować raport w wersji na telefon, można [opublikować główny raport z programu Power BI Desktop do usługi Power BI](desktop-upload-desktop-files.md), a wersja na telefon zostanie opublikowana w tym samym czasie.

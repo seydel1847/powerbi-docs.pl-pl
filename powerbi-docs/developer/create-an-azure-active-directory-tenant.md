@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/09/2017
-ms.author: asaxton
-ms.openlocfilehash: 3e48f08237767a4c0cc5e1a8ddfc70a9087fbc1c
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.date: 11/30/2017
+ms.author: mihart
+ms.openlocfilehash: 22d939dbd0a582611f2f4e90e2306456376e211b
+ms.sourcegitcommit: 910258a5ad8b6861e81ae02c57286db221c37375
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/02/2017
 ---
 # <a name="create-an-azure-active-directory-tenant-to-use-with-power-bi"></a>Tworzenie dzierżawy usługi Azure Active Directory do użycia z usługą Power BI
 Dowiedz się, jak utworzyć nową dzierżawę usługi Azure Active Directory (Azure AD) do użycia z Twoją niestandardową aplikacją za pomocą interfejsów API REST usługi Power BI.
@@ -33,7 +33,7 @@ Jeśli masz już dzierżawę usługi Azure AD, możesz zdefiniować aplikację i
 Być może Twoja organizacja ma już dzierżawę usługi Azure AD, którą możesz wykorzystać w swojej aplikacji. W swojej aplikacji możesz korzystać z tej dzierżawy lub utworzyć nową dzierżawę specjalnie przystosowaną do potrzeb swojej aplikacji. W tym artykule pokazano, jak utworzyć nową dzierżawę.
 
 ## <a name="create-an-azure-active-directory-tenant"></a>Tworzenie dzierżawy usługi Azure Active Directory
-Aby zintegrować usługę Power BI z Twoją niestandardową aplikacją, musisz zdefiniować aplikację w usłudze Azure AD. W tym celu potrzebujesz katalogu w usłudze Azure AD. To jest Twoja dzierżawa. Jeśli Twoja organizacja nie ma jeszcze dzierżawy, ponieważ nie korzysta z usługi Power BI ani z usługi Office 365, musisz ją utworzyć. Utworzenie dzierżawy może też okazać się konieczne, jeśli nie chcesz łączyć swojej aplikacji z dzierżawą organizacji. Dzięki temu wszystkie elementy pozostaną oddzielne.
+Aby zintegrować usługę Power BI z Twoją niestandardową aplikacją, musisz zdefiniować aplikację w usłudze Azure AD. W tym celu potrzebujesz katalogu w usłudze Azure AD. To jest Twoja dzierżawa. Jeśli Twoja organizacja nie ma jeszcze dzierżawy, ponieważ nie korzysta z usługi Power BI ani z usługi Office 365, [musisz ją utworzyć](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant). Utworzenie dzierżawy może też okazać się konieczne, jeśli nie chcesz łączyć swojej aplikacji z dzierżawą organizacji. Dzięki temu wszystkie elementy pozostaną oddzielne.
 
 Możesz też utworzyć dzierżawę do celów testowych.
 

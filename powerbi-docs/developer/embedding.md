@@ -15,24 +15,26 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/05/2017
-ms.author: asaxton
-ms.openlocfilehash: 36eb4231b6b3d3278d571722bde731051ffdf05e
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.date: 11/30/17
+ms.author: mihart
+ms.openlocfilehash: 38860e6535f44e8831c62c045e7c5d0e130c35aa
+ms.sourcegitcommit: 910258a5ad8b6861e81ae02c57286db221c37375
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/02/2017
 ---
 # <a name="embedding-with-power-bi"></a>Osadzanie przy użyciu usługi Power BI
 Usługa Power BI oferuje interfejsy API do osadzania Twoich pulpitów nawigacyjnych i raportów w aplikacjach. Interfejsy API usługi Power BI oferują spójny zestaw funkcji oraz dostęp do najnowszych elementów usługi Power BI — takich jak pulpity nawigacyjne, bramy i obszary robocze aplikacji — podczas osadzania zawartości.
 
 ## <a name="a-single-api"></a>Pojedynczy interfejs API
-Istnieją dwa główne scenariusze osadzania zawartości usługi Power BI. Osadzanie dla swojej organizacji i osadzanie dla swoich klientów. Interfejs API REST usługi Power BI umożliwia oba scenariusze. Pozwala Ci to osadzać pulpity nawigacyjne i raporty w swojej niestandardowej aplikacji przy użyciu tego samego interfejsu API, aby obsłużyć swoją organizację lub klientów. Możesz wykorzystać wszystkie zalety języka JavaScript i interfejsów API REST do swoich potrzeb osadzania.
+Istnieją dwa główne scenariusze osadzania zawartości usługi Power BI.  Osadzanie dla użytkowników w organizacji (mających licencję usługi Power BI) i osadzanie dla użytkowników i klientów bez konieczności posiadania licencji usługi Power BI. Interfejs API REST usługi Power BI umożliwia oba scenariusze. 
+
+W przypadku klientów i użytkowników bez licencji usługi Power BI można osadzać pulpity nawigacyjne i raporty w swojej niestandardowej aplikacji przy użyciu tego samego interfejsu API, aby obsłużyć swoją organizację lub klientów. Klienci widzą dane zarządzane przez aplikację. A użytkownicy usługi Power BI w organizacji będą mieć dodatkowe opcje wyświetlania *własnych danych* bezpośrednio w usłudze Power BI lub w kontekście osadzonej aplikacji. Możesz wykorzystać wszystkie zalety języka JavaScript i interfejsów API REST do swoich potrzeb osadzania.
 
 Aby zobaczyć przykład działania osadzania, zobacz [Przykład osadzania przy użyciu języka JavaScript](https://microsoft.github.io/PowerBI-JavaScript/demo/).
 
 ## <a name="embedding-for-your-organization"></a>Osadzanie dla swojej organizacji
-Osadzanie dla swojej organizacji umożliwia rozszerzanie usługi Power BI. Wymaga to, aby użytkownik końcowy Twojej aplikacji zalogował się w usłudze Power BI, gdy chcesz wyświetlić swoją zawartość. Gdy ktoś w Twojej organizacji się zaloguje, będzie miał dostęp tylko do pulpitów nawigacyjnych i raportów, które zostały mu udostępnione w usłudze Power BI. 
+Osadzanie dla swojej organizacji umożliwia rozszerzanie usługi Power BI. Wymaga to, aby użytkownicy Twojej aplikacji zalogowali się w usłudze Power BI, gdy będą chcieli wyświetlić swoją zawartość. Gdy ktoś w Twojej organizacji się zaloguje, będzie miał dostęp tylko do pulpitów nawigacyjnych i raportów, których jest właścicielem lub które zostały mu udostępnione w usłudze Power BI. 
 
 *Do przykładów osadzania dla swojej organizacji należą wewnętrzne aplikacje internetowe, składnik Web Part usługi SharePoint Online i integracja aplikacji Microsoft Teams.*
 
@@ -45,7 +47,7 @@ W przypadku osadzania dla swojej organizacji zobacz poniższe tematy:
 Podczas osadzania dla użytkowników usługi możliwości samoobsługi, takie jak edytowanie, zapisywanie i inne, są dostępne za pośrednictwem [interfejsu API języka JavaScript](https://github.com/Microsoft/PowerBI-JavaScript).
 
 ## <a name="embedding-for-your-customers"></a>Osadzanie dla swoich klientów
-Osadzanie dla swoich klientów zapewnia możliwość osadzenia pulpitów nawigacyjnych i raportów u użytkowników, którzy nie mają konta w usłudze Power BI. Twoi klienci nie muszą nic wiedzieć o usłudze Power BI. Wymagane jest przynajmniej jedno konto usługi Power BI Pro. Konto usługi Power BI Pro będzie działać jako konto główne dla Twojej aplikacji. Myśl o tym, jak o koncie serwera proxy. Konto Power BI Pro umożliwia też generowanie osadzonych tokenów zapewniających dostęp do pulpitów nawigacyjnych i raportów w ramach usługi Power BI. 
+Osadzanie dla swoich klientów zapewnia możliwość osadzenia pulpitów nawigacyjnych i raportów u użytkowników, którzy nie mają konta w usłudze Power BI. Twoi klienci nie muszą nic wiedzieć o usłudze Power BI. Do utworzenia aplikacji osadzonej jest potrzebne co najmniej jedno konto usługi Power BI Pro. Konto usługi Power BI Pro działa jako konto główne dla Twojej aplikacji. Myśl o tym, jak o koncie serwera proxy. Konto Power BI Pro umożliwia też generowanie osadzonych tokenów zapewniających dostęp do pulpitów nawigacyjnych i raportów w ramach usługi Power BI. Należą one do Twojej usługi i są przez nią zarządzane. 
 
 *Przykładem osadzania dla swoich klientów jest aplikacja niezależnego dostawcy oprogramowania sprzedawana innym firmom.*
 

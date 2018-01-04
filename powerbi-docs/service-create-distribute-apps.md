@@ -14,13 +14,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/13/2017
+ms.date: 12/11/2017
 ms.author: maggies
-ms.openlocfilehash: 58af226f6c3d93fffc805e23fcf1bda0d055058d
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 27ead0a3104693aff4a6fc3c2641c207ad44dc09
+ms.sourcegitcommit: bb577045145b2e6e5807622a53cefa2d46574618
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="create-and-publish-apps-with-dashboards-and-reports-in-power-bi"></a>Tworzenie i publikowanie aplikacji z pulpitami nawigacyjnymi i raportami w usłudze Power BI
 
@@ -32,7 +32,7 @@ Aby sprawnie działać, użytkownicy biznesowi często potrzebują wielu pulpit�
 
 Dzięki aplikacjom usługi Power BI, dostępnym teraz w wersji zapoznawczej, możesz tworzyć kolekcje pulpitów nawigacyjnych i raportów i udostępniać te aplikacje całej organizacji lub konkretnym osobom lub grupom. Z perspektywy administratora lub autora raportu aplikacje ułatwiają zarządzanie uprawnieniami do kolekcji pulpitów nawigacyjnych.
 
-Użytkownicy biznesowi mogą uzyskać te aplikacje na kilka różnych sposobów. Jeśli administrator usługi Power BI przyzna Ci odpowiednie uprawnienia, możesz automatycznie instalować je na kontach usługi Power BI swoich współpracowników. Jeśli nie, mogą oni zainstalować aplikacje z witryny Microsoft AppSource lub otrzymać bezpośredni link. Mogą łatwo odnaleźć Twoją zawartość lub do niej wrócić, ponieważ wszystko znajduje się w jednym miejscu. Mogą automatycznie uzyskiwać aktualizacje, a Ty możesz kontrolować, jak często dane są odświeżane. Dowiedz się więcej na temat [aplikacji dla użytkowników biznesowych](service-install-use-apps.md).
+Użytkownicy biznesowi instalują te aplikacje z usługi Microsoft AppSource lub możesz im wysłać bezpośredni link. Mogą łatwo odnaleźć Twoją zawartość lub do niej wrócić, ponieważ wszystko znajduje się w jednym miejscu. Mogą automatycznie uzyskiwać aktualizacje, a Ty możesz kontrolować, jak często dane są odświeżane. Dowiedz się więcej na temat [aplikacji dla użytkowników biznesowych](service-install-use-apps.md).
 
 ### <a name="apps-and-organizational-content-packs"></a>Aplikacje i pakiety zawartości organizacji
 Aplikacje są kolejnym etapem ewolucji pakietów zawartości organizacji. Jeśli masz już pakiety zawartości organizacji, będą one nadal działały równolegle z aplikacjami.
@@ -119,15 +119,13 @@ Jeśli pulpity nawigacyjne i raporty w obszarze roboczym aplikacji są gotowe, m
    
      ![Zawartość aplikacji](media/service-create-distribute-apps/power-bi-apps-content.png)
 
-4. Na końcu w obszarze **Dostęp** możesz zdecydować, kto ma mieć dostęp do aplikacji: wszyscy w Twojej organizacji, konkretne osoby, czy osoby z listy dystrybucyjnej e-mail. Jeśli masz odpowiednie uprawnienia, możesz zdecydować się na zainstalowanie aplikacji automatycznie dla odbiorców.
-   
-     ![Dostęp do aplikacji](media/service-create-distribute-apps/power-bi-apps-access.png)
+4. Na końcu w obszarze **Dostęp** możesz zdecydować, kto ma mieć dostęp do aplikacji: wszyscy w Twojej organizacji, konkretne osoby, czy grupy zabezpieczeń usługi Active Directory. 
 
 5. Po wybraniu opcji **Zakończ** wyświetlony zostanie komunikat potwierdzający gotowość do publikacji. W oknie dialogowym potwierdzającym powodzenie możesz skopiować adres URL, który jest bezpośrednim linkiem do tej aplikacji, i wysłać go do osób, którym udostępniono aplikację.
    
      ![Zakończenie publikowania aplikacji](media/service-create-distribute-apps/power-bi-apps-success.png)
 
-Użytkownicy biznesowi, którym udostępniono aplikację, mogą ją odnaleźć na kilka różnych sposobów. Po pierwsze, jeśli została zainstalowana automatycznie, pojawia się w obszarze Aplikacje na koncie usługi Power BI użytkownika.  Możesz wysłać im bezpośredni link do aplikacji. Mogą oni również wyszukać ją w witrynie Microsoft AppSource, gdzie wyświetlane są wszystkie aplikacje, do których mają dostęp. Następnie zawsze po wybraniu pozycji Aplikacje zobaczą tę aplikację na liście.
+Użytkownicy biznesowi, którym udostępniono aplikację, mogą ją odnaleźć na dwa różne sposoby. Możesz wysłać im bezpośredni link do aplikacji. Mogą oni również wyszukać ją w witrynie Microsoft AppSource, gdzie wyświetlane są wszystkie aplikacje, do których mają dostęp. Następnie zawsze po wybraniu pozycji Aplikacje zobaczą tę aplikację na liście.
 
 Dowiedz się więcej na temat [aplikacji dla użytkowników biznesowych](service-install-use-apps.md).
 

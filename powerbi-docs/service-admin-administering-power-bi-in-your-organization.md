@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/05/2017
+ms.date: 11/28/2017
 ms.author: asaxton
-ms.openlocfilehash: 3ee74e9a7f2f174b37e582089e0d9a1d6c433831
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 180e80ee327342b26849aa63a3910337737ac9ad
+ms.sourcegitcommit: 7742f952c20695dfb475f74965c0065b02c01521
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/29/2017
 ---
 # <a name="administering-power-bi-in-your-organization"></a>Administrowanie usługą Power BI w organizacji
 Usługa Microsoft Power BI umożliwia użytkownikom wizualizowanie danych, udostępnianie odkryć i współpracowanie przy użyciu nowych, intuicyjnych metod. Aby dowiedzieć się więcej, zobacz [Wprowadzenie do usługi Power BI](service-get-started.md).
@@ -60,6 +60,7 @@ Aby uzyskać więcej informacji o roli administratora usługi Power BI, zobacz [
 * [Czy istnieją dodatkowe rzeczy, na które należy się przygotować?](#are-there-any-additional-things-i-should-be-prepared-for)
 * [Czy jest to bezpłatne? Czy zostanie naliczona opłata za te licencje?](#is-this-free-will-i-be-charged-for-these-licenses)
 * [Gdzie znajduje się moja dzierżawa usługi Power BI?](#where-is-my-power-bi-tenant-located)
+* [Co to jest umowa SLA (umowa dotycząca poziomu usług) usługi Power BI?](#what-is-the-power-bi-sla)
 
 **Zabezpieczenia w usłudze Power BI**
 
@@ -255,6 +256,9 @@ Licencje **Power BI (wersja bezpłatna)** dotyczą bezpłatnej wersji usługi Po
 
 ### <a name="where-is-my-power-bi-tenant-located"></a>Gdzie znajduje się moja dzierżawa usługi Power BI?
 Aby dowiedzieć się, gdzie znajduje się dzierżawa usługi Power BI, czyli gdzie mieści się tak zwany region danych, zobacz [Gdzie znajduje się moja dzierżawa usługi Power BI?](service-admin-where-is-my-tenant-located.md)
+
+### <a name="what-is-the-power-bi-sla"></a>Co to jest umowa SLA usługi Power BI?
+Aby uzyskać informacje na temat umowy SLA (umowy dotyczącej poziomu usług) usługi Power BI, zapoznaj się z artykułem dotyczącym [postanowień licencyjnych i dokumentacji](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=37) w sekcji **Licencjonowanie** witryny internetowej licencjonowania firmy Microsoft.
 
 ## <a name="security-in-power-bi"></a>Zabezpieczenia w usłudze Power BI
 ### <a name="does-power-bi-meet-national-regional-and-industry-specific-compliance-requirements"></a>Czy usługa Power BI spełnia krajowe, regionalne i branżowe wymagania dotyczące zgodności?
