@@ -15,18 +15,18 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 12/15/2017
 ms.author: maggies
-ms.openlocfilehash: 589a77624169e9fb59999109668439c5f729c5f5
-ms.sourcegitcommit: 7248b5e449b2495d6baef385470d18edfacec457
+ms.openlocfilehash: c1c38d9d98c92963534081049cdcc6a557313639
+ms.sourcegitcommit: ea247cb3cfc1cac076d4b076c1ad8e2fc37e15a1
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 12/19/2017
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Instalowanie programu Power BI Desktop zoptymalizowanego pod kątem serwera raportów usługi Power BI
 Dowiedz się, jak zainstalować program Power BI Desktop zoptymalizowany pod kątem serwera raportów usługi Power BI.
 
-Aby utworzyć raporty usługi Power BI dla serwera raportów usługi Power BI, musisz pobrać i zainstalować program Power BI Desktop zoptymalizowany pod kątem serwera raportów usługi Power BI. Ta wersja jest inna niż wersja programu Power BI Desktop używana z usługą Power BI. Na przykład wersja programu Power BI Desktop dla usługi Power BI obejmuje funkcje w wersji zapoznawczej, które są dostępne w wersji serwera raportów usługi Power BI po wydaniu. Użycie tej wersji zapewnia, że serwer raportów może współdziałać ze znaną wersją raportów i modelu. 
+Aby utworzyć raporty usługi Power BI dla serwera raportów usługi Power BI, musisz pobrać i zainstalować program Power BI Desktop zoptymalizowany pod kątem serwera raportów usługi Power BI. Ta wersja jest inna niż wersja programu Power BI Desktop używana z usługą Power BI. Na przykład wersja programu Power BI Desktop dla usługi Power BI zawiera funkcje wersji zapoznawczej, które nie są dostępne na serwerze raportów usługi Power BI przed ich premierą. Użycie tej wersji zapewnia, że serwer raportów może współdziałać ze znaną wersją raportów i modelu. 
 
 > [!NOTE]
 > Programy Power BI Desktop i Power BI Desktop zoptymalizowany pod kątem serwera raportów usługi Power BI można zainstalować obok siebie na tym samym komputerze.
@@ -69,6 +69,36 @@ Jeśli na komputerze z już istniejącym programem Power BI Desktop zainstalowan
 Zawsze możesz najpierw otworzyć wersję programu Power BI Desktop, której chcesz używać. Następnie możesz za pomocą tego programu Power BI Desktop otworzyć właściwy plik.
 
 Edytowanie raportu usługi Power BI z poziomu serwera raportów usługi Power BI lub utworzenie nowego raportu usługi Power BI z poziomu portalu internetowego zawsze spowoduje otwarcie właściwej wersji programu Power BI Desktop.
+
+## <a name="considerations-and-limitations"></a>Istotne zagadnienia i ograniczenia
+Raporty na serwerze raportów usługi Power BI oraz w usłudze Power BI (http://powerbi.com) działają prawie dokładnie tak samo, ale różnią się pod względem kilku funkcji.
+
+### <a name="in-a-browser"></a>W przeglądarce
+W raportach na serwerze raportów usługi Power BI obsługiwane są wszystkie wizualizacje, w tym:
+
+* Wizualizacje niestandardowe
+
+W raportach na serwerze raportów usługi Power BI nie są obsługiwane:
+
+* Wizualizacje języka R
+* Mapy ArcGIS
+* Linki do stron nadrzędnych
+* Funkcje programu Power BI Desktop w wersji zapoznawczej
+
+### <a name="in-the-power-bi-mobile-apps"></a>W aplikacjach mobilnych Power BI
+W raportach na serwerze raportów usługi Power BI obsługiwane są wszystkie funkcje podstawowe w [aplikacjach mobilnych Power BI](../mobile-apps-for-mobile-devices.md), w tym:
+
+* [Układ raportu na telefonie](../desktop-create-phone-report.md): można zoptymalizować raport dla aplikacji mobilnych Power BI. Na telefonie komórkowym zoptymalizowane raporty mają specjalną ikonę, ![ikonę układu raportu na telefonie](media/quickstart-create-powerbi-report/power-bi-rs-mobile-optimized-icon.png), i układ.
+  
+    ![Raport zoptymalizowany pod kątem telefonów](media/quickstart-create-powerbi-report/power-bi-rs-mobile-optimized-report.png)
+
+Następujące funkcje w aplikacjach mobilnych Power BI nie są obsługiwane w raportach na serwerze raportów usługi Power BI:
+
+* Wizualizacje języka R
+* Mapy ArcGIS
+* Wizualizacje niestandardowe
+* Linki do stron nadrzędnych
+* Filtrowanie geograficzne ani kody kreskowe
 
 ## <a name="next-steps"></a>Następne kroki
 Program Power BI Desktop został już zainstalowany, więc możesz przystąpić do tworzenia raportów usługi Power BI.

@@ -15,16 +15,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/30/2017
+ms.date: 12/21/2017
 ms.author: asaxton
-ms.openlocfilehash: c10ca76ac96090ff1facbdd28210b680392aae8d
-ms.sourcegitcommit: 0f6db65997db604e8e9afc9334cb65bb7344d0dc
+ms.openlocfilehash: 491be8983967b1a5dce6579411f194117602b00c
+ms.sourcegitcommit: 70e9239e375ae03744fb9bc122d5fc029fb83469
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/22/2017
 ---
 # <a name="use-row-level-security-with-power-bi-embedded-content"></a>Używanie zabezpieczeń na poziomie wiersza w osadzonej zawartości usługi Power BI
-Zabezpieczenia na poziomie wiersza (RLS) mogą być używane do ograniczania dostępu użytkowników do danych w raporcie lub zestawie danych, dzięki czemu wielu różnych użytkowników może używać tego samego raportu, przy czym każdy z nich będzie widzieć inne dane. Z zabezpieczeń RSL można skorzystać podczas osadzania raportów z usługi Power BI.
+Zabezpieczenia na poziomie wiersza (kontrola dostępu) mogą służyć do ograniczania dostępu użytkowników do danych w ramach pulpitów nawigacyjnych, kafelków, raportów i zestawów danych. Wielu różnych użytkowników może pracować z tymi samymi artefaktami, widząc różne dane. Funkcja osadzania obsługuje zabezpieczenia na poziomie wiersza.
 
 Jeśli osadzasz zawartość dla użytkowników innych niż użytkownicy usługi Power BI (aplikacja jest właścicielem danych), co jest typowe w przypadku niezależnych dostawców oprogramowania, ten artykuł jest dla Ciebie. Musisz skonfigurować token osadzania do konta dla użytkownika i roli. Czytaj dalej, aby dowiedzieć się, jak to zrobić.
 
@@ -34,7 +34,7 @@ Jeśli osadzasz zawartość dla użytkowników usługi Power BI (użytkownik jes
 
 Aby móc korzystać z zabezpieczeń RLS, ważne jest zrozumienie trzech głównych pojęć: użytkowników, ról i reguł. Przyjrzyjmy się im bliżej:
 
-**Użytkownicy** — są to faktyczni użytkownicy końcowi wyświetlający raporty. W usłudze Power BI Embedded użytkownicy są identyfikowani przy użyciu właściwości nazwy użytkownika w tokenie osadzania.
+**Użytkownicy** — użytkownicy końcowi wyświetlający artefakt (pulpit nawigacyjny, kafelek, raport lub zestaw danych). W usłudze Power BI Embedded użytkownicy są identyfikowani przy użyciu właściwości nazwy użytkownika w tokenie osadzania.
 
 **Role** — użytkownicy należą do ról. Rola to kontener reguł. Może mieć nazwę podobną do następujących: *Menedżer sprzedaży* lub *Przedstawiciel handlowy*. Możesz utworzyć role w programie Power BI Desktop. Aby uzyskać więcej informacji, zobacz [Zabezpieczenia na poziomie wiersza w programie Power BI Desktop](../desktop-rls.md).
 
@@ -85,11 +85,11 @@ Teraz po skonfigurowaniu ról programu Power BI Desktop należy wykonać pewne o
 
 Użytkownicy są uwierzytelniani i autoryzowani przez aplikację, a tokeny osadzania są używane do udzielania użytkownikom dostępu do konkretnego raportu usługi Power BI Embedded. Usługa Power BI Embedded nie ma żadnych konkretnych informacji o tym, kim jest użytkownik. Aby zabezpieczenia na poziomie wiersza mogły zadziałać, musisz przekazać dodatkowy kontekst w ramach tokenu osadzania w formie tożsamości. Wykonuje się to przy użyciu interfejsu API [GenerateToken](https://msdn.microsoft.com/library/mt784614.aspx).
 
-Interfejs API [GenerateToken](https://msdn.microsoft.com/library/mt784614.aspx) akceptuje listę tożsamości ze wskazaniem odpowiednich zestawów danych. Obecnie można podać tylko jedną tożsamość. Obsługa wielu zestawów danych w przypadku osadzania pulpitu nawigacyjnego zostanie dodana w przyszłości. Aby zabezpieczenia na poziomie wiersza mogły zadziałać, musisz przekazać następujące informacje jako część tożsamości.
+Interfejs API [GenerateToken](https://msdn.microsoft.com/library/mt784614.aspx) akceptuje listę tożsamości ze wskazaniem odpowiednich zestawów danych. Aby zabezpieczenia na poziomie wiersza mogły zadziałać, musisz przekazać następujące informacje jako część tożsamości.
 
 * **Nazwa użytkownika (obowiązkowe)** — jest to ciąg, którego można użyć do zidentyfikowania użytkownika podczas stosowania reguł zabezpieczeń na poziomie wiersza. Można wymienić na liście tylko jednego użytkownika.
 * **Role (obowiązkowe)** — ciąg zawierający role do wybrania podczas stosowania reguł zabezpieczeń na poziomie wiersza. W przypadku przekazywania więcej niż jednej roli należy je przekazywać jako tablicę ciągów.
-* **Zestaw danych (obowiązkowe)** — zestaw danych, który ma zastosowanie wobec osadzanego raportu. Na liście zestawów danych można podać tylko jeden zestaw danych. Obsługa wielu zestawów danych w przypadku osadzania pulpitu nawigacyjnego zostanie dodana w przyszłości.
+* **Zestaw danych (obowiązkowe)** — zestaw danych, który ma zastosowanie do osadzanego artefaktu. 
 
 Możesz utworzyć token osadzania przy użyciu metody **GenerateTokenInGroup** w obszarze **PowerBIClient.Reports**. Obecnie obsługiwane są wyłącznie raporty.
 
@@ -125,7 +125,7 @@ W przypadku wywoływania interfejsu API REST zaktualizowany interfejs API będzi
 }
 ```
 
-Teraz po zebraniu wszystkich elementów, gdy ktoś zaloguje się do aplikacji w celu wyświetlenia tego raportu, będzie w stanie zobaczyć tylko te dane, do których ma dostęp — zgodnie z ustawieniami zabezpieczeń na poziomie wiersza.
+Teraz po zebraniu wszystkich elementów, gdy ktoś zaloguje się do aplikacji w celu wyświetlenia tego artefaktu, będzie w stanie zobaczyć tylko te dane, do których ma dostęp — zgodnie z ustawieniami zabezpieczeń na poziomie wiersza.
 
 ## <a name="working-with-analysis-services-live-connections"></a>Praca z połączeniami na żywo usług Analysis Services
 Zabezpieczeń na poziomie wiersza można użyć z połączeniami na żywo usług Analysis Services w przypadku serwerów lokalnych. Istnieje kilka podstawowych koncepcji, które należy zrozumieć w przypadku stosowania tego typu połączenia.
@@ -143,12 +143,11 @@ Role można przekazać wraz z tożsamością w tokenie osadzania. Jeśli żadna 
 ## <a name="considerations-and-limitations"></a>Istotne zagadnienia i ograniczenia
 * Przypisywanie użytkowników do ról w usłudze Power BI nie wpływa na zabezpieczenia na poziomie wiersza podczas używania tokenu osadzania.
 * Usługa Power nie będzie stosować ustawień zabezpieczeń na poziomie wiersza do administratorów lub członków z uprawnieniami do edycji podczas podawania tożsamości wraz z tokenem osadzania, ale będzie stosować je wobec danych.
-* Przekazywanie informacji o tożsamości podczas wywoływania metody GenerateToken jest obsługiwane wyłącznie w przypadku odczytu/zapisu raportu. Obsługa innych zasobów zostanie dodana później.
 * Połączenia na żywo usług Analysis Services są obsługiwane w przypadku serwerów lokalnych.
 * Połączenia na żywo usług Azure Analysis Services obsługują filtrowanie według ról, ale nie dynamicznie według nazwy użytkownika.
-* Jeśli źródłowy zestaw danych nie wymaga zabezpieczeń RSL, żądanie GenerateToken **nie** może zawierać efektywnej tożsamości.
-* Jeśli źródłowy zestaw danych jest modelem w chmurze (modelem w pamięci podręcznej lub zapytaniem bezpośrednim), efektywna tożsamość musi zawierać co najmniej jedną rolę. W przeciwnym razie nie nastąpi przypisanie roli.
-* Na liście tożsamości można podać tylko jedną tożsamość. Używamy listy, aby umożliwić w przyszłości stosowanie tokenów o wielu tożsamościach w przypadku osadzania pulpitu nawigacyjnego.
+* Jeśli źródłowy zestaw danych nie wymaga zabezpieczeń RLS, żądanie GenerateToken **nie** może zawierać efektywnej tożsamości.
+* Jeśli źródłowy zestaw danych jest modelem w chmurze (modelem w pamięci podręcznej lub zapytaniem bezpośrednim), efektywna tożsamość musi zawierać co najmniej jedną rolę. W przeciwnym razie rola nie zostanie przypisana.
+* Lista tożsamości może zawierać wiele tokenów tożsamości na potrzeby osadzania pulpitu nawigacyjnego. Dla wszystkich innych artefaktów lista zawiera jedną tożsamość.
 
 Masz więcej pytań? [Zadaj pytanie społeczności usługi Power BI](https://community.powerbi.com/)
 
