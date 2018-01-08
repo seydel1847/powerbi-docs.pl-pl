@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/15/2017
+ms.date: 12/21/2017
 ms.author: mihart
-ms.openlocfilehash: 54de712e0743801b3e8c565ca997bbc56e254c69
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 1dc6ecab1b3504b658cd41a378a4c0f5e3c65187
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="interact-with-a-report-in-reading-view-in-power-bi"></a>Interakcje z raportem w widoku do czytania w usłudze Power BI
 ## <a name="reading-view"></a>Widok do czytania
@@ -32,7 +32,7 @@ Widok do czytania to przyjemny i bezpieczny sposób zabawy i poznawania swoich d
 ## <a name="cross-highlight-the-related-visualizations-on-a-page"></a>Krzyżowe zaznaczanie powiązanych wizualizacji na stronie
 Wizualizacje na pojedynczej stronie raportu są wszystkie „połączone” ze sobą.  Oznacza to, że w przypadku wybrania przynajmniej jednej wartości w jednej wizualizacji inne wizualizacje, które używają tej samej wartości, ulegną zmianie na podstawie tego wyboru.
 
-![](media/service-interact-with-a-report-in-reading-view/pagefilter3b.gif)
+![krzyżowe zaznaczanie](media/service-interact-with-a-report-in-reading-view/pagefilter3b.gif)
 
 > [!NOTE]
 > Aby wybrać więcej niż jeden element wizualizacji, przytrzymaj naciśnięty klawisz CTRL.
@@ -40,45 +40,45 @@ Wizualizacje na pojedynczej stronie raportu są wszystkie „połączone” ze s
 > 
 
 ## <a name="hover-over-visual-elements-to-see-the-details"></a>Umieszczanie kursora nad elementami wizualnymi, aby wyświetlić szczegóły
-![](media/service-interact-with-a-report-in-reading-view/amarillachart.png)
+![umieszczanie kursora na elementach w celu wyświetlania szczegółów](media/service-interact-with-a-report-in-reading-view/amarillachart.png)
 
 ## <a name="sort-the-data-in-a-visualization"></a>Sortowanie danych w wizualizacji
 Wybierz wielokropek (...), aby otworzyć pozycję **Sortuj według**. Wybierz strzałkę listy rozwijanej, aby wybrać pole, według którego ma się odbywać sortowanie, lub wybierz ikonę AZ, aby się przełączać między kolejnością rosnącą lub malejącą. 
 
-![](media/service-interact-with-a-report-in-reading-view/pbi_changechartsort.gif) 
+![sortowanie wykresu](media/service-interact-with-a-report-in-reading-view/pbi_changechartsort.gif) 
 
 ## <a name="interact-with-filters"></a>Interakcja z filtrami
 Jeśli autor raportu dodał filtry do strony w raporcie, możesz wchodzić z nimi w interakcje w widoku do czytania. Wprowadzone zmiany nie zostaną zapisane z raportem.
 
 1. Wybierz ikonę filtra w prawym górnym rogu.
    
-   ![](media/service-interact-with-a-report-in-reading-view/filters.png)  
+   ![wybieranie ikony filtra](media/service-interact-with-a-report-in-reading-view/filters.png)  
 2. Zobaczysz wszystkie filtry, które zostały zastosowane do wybranego elementu wizualnego (filtry poziomu elementu wizualnego), do całej strony raportu (filtry poziomu strony) i do całego raportu (filtry poziomu raportu).
    
-   ![](media/service-interact-with-a-report-in-reading-view/power-bi-reading-filters.png)
+   ![typy filtrów raportów](media/service-interact-with-a-report-in-reading-view/power-bi-reading-filters.png)
 3. Umieść kursor nad filtrem i rozwiń go, wybierając strzałkę w dół.
    
-   ![](media/service-interact-with-a-report-in-reading-view/power-bi-expan-filter.png)
+   ![rozszerzanie filtra](media/service-interact-with-a-report-in-reading-view/power-bi-expan-filter.png)
 4. Wprowadź zmiany do filtrów i zobacz ich wpływ na elementy wizualne.  
    
    * W tym przykładzie mamy filtr poziomu strony dla **sieci**. Zmień go na **Fashions Direct** zamiast **Lindseys**, usuwając znacznik wyboru z jednego i dodając go do drugiego.
      
-     ![](media/service-interact-with-a-report-in-reading-view/power-bi-filter-chain.png)
+     ![zmiana filtra poziomu strony](media/service-interact-with-a-report-in-reading-view/power-bi-filter-chain.png)
    * Lub całkowicie usuń filtrowanie **sieci**, wybierając ikonę gumki ![](media/service-interact-with-a-report-in-reading-view/power-bi-eraser-icon.png) lub wybierając obie sieci sklepów.
    * Wybierz filtr poziomu strony **Okręg** i przejdź do **zaawansowanego filtrowania**. Przefiltruj, aby pokazać tylko okręgi rozpoczynające się od **FD** i niezawierające liczby 4.
      
-     ![](media/service-interact-with-a-report-in-reading-view/power-bi-advanced-filter.png)
+     ![filtrowanie zaawansowane](media/service-interact-with-a-report-in-reading-view/power-bi-advanced-filter.png)
 
 Aby uzyskać więcej informacji, zobacz [Dodawanie filtra do raportu](power-bi-report-add-filter.md) i [Informacje o filtrach i zaznaczaniu w raportach](power-bi-reports-filters-and-highlighting.md).
 
 ## <a name="zoom-in-on-individual-visuals"></a>Powiększanie poszczególnych elementów wizualnych
 Umieść kursor na elemencie wizualnym i wybierz ikonę **trybu koncentracji uwagi** ![](media/service-interact-with-a-report-in-reading-view/pbi_popouticon.jpg). Po wyświetleniu wizualizacji w trybie koncentracji uwagi rozszerza on ją tak, aby wypełniła całą kanwę raportu, jak pokazano poniżej.
 
-![](media/service-interact-with-a-report-in-reading-view/powerbi-focus-mode.png)
+![Tryb koncentracji uwagi](media/service-interact-with-a-report-in-reading-view/powerbi-focus-mode.png)
 
 Aby wyświetlić tę samą wizualizację bez przeszkadzającego paska menu, okienka filtra i innych elementów — wybierz ikonę **Pełny ekran** z najwyższego paska menu ![](media/service-interact-with-a-report-in-reading-view/power-bi-focus-icon.png).
 
-![](media/service-interact-with-a-report-in-reading-view/power-bi-full-screen.png)
+![tryb pełnoekranowy](media/service-interact-with-a-report-in-reading-view/power-bi-full-screen.png)
 
 Aby dowiedzieć się więcej, zobacz [Tryb koncentracji uwagi dla raportów](service-focus-mode.md) i [Tryb pełnoekranowy dla raportów](service-fullscreen-mode.md)
 
@@ -89,14 +89,33 @@ Raporty są wyświetlane na wielu różnych urządzeniach mających różne rozm
 * Dopasuj do szerokości: skalowanie zawartości tak, aby dopasować się do szerokości strony
 * Rozmiar rzeczywisty: wyświetla zawartość w pełnym rozmiarze  
 
-![](media/service-interact-with-a-report-in-reading-view/power-bi-view.png)
+    ![menu Widok raportu](media/service-interact-with-a-report-in-reading-view/power-bi-view.png)
 
   W widoku do czytania wybrana opcja wyświetlania jest tymczasowa — nie jest zapisywana, gdy zamkniesz raport.
 
   Aby dowiedzieć się więcej, zobacz [Samouczek: Zmienianie ustawień wyświetlania w raporcie](power-bi-change-report-display-settings.md).
 
+##  <a name="open-the-selection-pane"></a>Otwieranie okienka **Wybór**
+Łatwo przechodź między wizualizacjami na stronie raportu. Wybierz kolejno pozycje **Widok > Okienko wyboru > Wł.**, aby otworzyć okienko wyboru.
+
+![okienko wyboru raportu](media/service-interact-with-a-report-in-reading-view/power-bi-selection-pane.png)
+
+Aby dowiedzieć się więcej, zobacz okienko wyboru raportu.
+
+##    <a name="miscellaneous-other-interactions"></a>Różne inne interakcje
+Istnieje wiele sposobów interakcji z raportem w widoku do czytania. Wybierz link poniżej, aby dowiedzieć się więcej.
+
+- [Wyświetlanie metryk użycia raportu](service-usage-metrics.md)
+- [Wyświetlanie powiązanych pulpitów nawigacyjnych, raportów i zestawów danych](service-related-content.md)
+- [Subskrybowanie stron raportu](service-report-subscribe.md)
+- [Analizowanie w programie Excel](service-analyze-in-excel.md)
+- [Generowanie kodu QR](service-create-qr-code-for-report.md)
+- [Przypinanie aktywnej strony do pulpitu nawigacyjnego](service-dashboard-pin-live-tile-from-report.md)
+- [Wyświetlanie komunikatów w centrum powiadomień](service-notification-center.md)
+- [Przypinanie wizualizacji do pulpitu nawigacyjnego](service-dashboard-pin-tile-from-report.md)
+
 ## <a name="next-steps"></a>Następne kroki
-[Raporty w usłudze Power BI](service-reports.md)
+Powrót do: [Widok do czytania i widok do edycji w usłudze Power BI](service-reading-view-and-editing-view.md)
 
 [Otwieranie widoku do edycji](service-reading-view-and-editing-view.md)
 

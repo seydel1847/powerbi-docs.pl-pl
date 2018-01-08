@@ -1,6 +1,6 @@
 ---
-title: "Ustawienia wyświetlania strony w raporcie usługi Power BI"
-description: "Ustawienia wyświetlania strony w raporcie usługi Power BI"
+title: "Ustawienia wyświetlania i widoku strony dla raportu"
+description: "Ustawienia wyświetlania i widoku strony dla raportu"
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/27/2017
+ms.date: 12/24/2017
 ms.author: mihart
-ms.openlocfilehash: 1dd9c77d0af4c3f606f195c3f4199f774292d668
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 650e02ea7d6f31fce9e5a0a458c41d6daa3fa9e1
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="page-display-settings-in-a-power-bi-report"></a>Ustawienia wyświetlania strony w raporcie usługi Power BI
 Rozumiemy, że zachowanie doskonałej zgodności Twojego układ raportu piksel w piksel ma krytyczne znaczenie. Czasami może to stanowić wyzwanie, ponieważ Ty i Twoi współpracownicy wyświetlacie te raporty na ekranach o różnych współczynnikach proporcji i rozmiarach. 
@@ -32,21 +32,43 @@ Domyślny widok wyświetlany jest **dopasowany do strony** a domyślny rozmiar w
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5tg-OXzxe2g" frameborder="0" allowfullscreen></iframe>
 
 
-## <a name="page-view-settings"></a>Ustawienia widoku strony
-![](media/power-bi-report-display-settings/power-bi-change-page-view-new.png)
+## <a name="where-to-find-page-view-settings-in-power-bi-service-and-power-bi-desktop"></a>Gdzie znaleźć ustawienia Widok strony w usłudze Power BI i w programie Power BI Desktop?
+Ustawienia Widok strony są dostępne zarówno w usłudze Power BI, jak i w programie Power BI Desktop, ale interfejs jest nieco inny. W dwóch poniższych sekcjach opisano, gdzie znaleźć ustawienia widoku w narzędziach usługi Power BI.
 
-Ustawienia *widoku strony* kontrolują wyświetlanie strony raportu względem okna przeglądarki.  Wybierz spośród opcji:
+### <a name="in-power-bi-desktop"></a>W programie Power BI Desktop
+W widoku Raport wybierz kartę **Widok**, aby otworzyć ustawienia Widok strony, a także ustawienia układu telefonu.
+
+  ![Okienko Wybór](media/power-bi-report-display-settings/power-bi-desktop-view-settings.png)
+
+### <a name="in-power-bi-service-apppowerbicom"></a>W usłudze Power BI (app.powerbi.com)
+W usłudze Power BI otwórz raport i wybierz pozycję **Widok** z górnego paska menu po lewej stronie.
+
+![](media/power-bi-report-display-settings/power-bi-change-page-view.png)
+
+Ustawienia widoku strony są dostępne zarówno w pozycji [Widok do czytania](service-interact-with-a-report-in-reading-view.md) i [Widok do edycji](service-interact-with-a-report-in-editing-view.md). W widoku do edycji właściciel raportu może przypisać ustawienia widoku strony do poszczególnych stron raportu i te ustawienia są zapisywane wraz z raportem. Gdy współpracownicy otworzą ten raport w widoku do czytania, zobaczą strony raportu wyświetlane przy użyciu ustawień właściciela.  W widoku do czytania współpracownicy mogą zmienić *niektóre* ustawienia Widok strony, ale zmiany nie są zapisywane podczas zamykania raportu.
+
+##    <a name="page-view-settings"></a>Ustawienia Widok strony
+Pierwszy zestaw ustawień *Widok strony* kontroluje wyświetlanie strony raportu względem okna przeglądarki.  Wybierz spośród opcji:
 
 * **Dopasuj do strony** (domyślna): zawartość jest skalowana tak, aby najlepiej dopasować się do strony
 * **Dopasuj do szerokości**: zawartość jest skalowana tak, aby najlepiej dopasować się do szerokości strony
 * **Rzeczywisty rozmiar**: zawartość jest wyświetlana w pełnym rozmiarze
 
-Ustawienia widoku strony są dostępne zarówno w pozycji [Widok do czytania](service-interact-with-a-report-in-reading-view.md) i [Widok do edycji](service-interact-with-a-report-in-editing-view.md). W widoku do edycji właściciel raportu może przypisać ustawienie widoku strony do poszczególnych stron raportu i te ustawienia są zapisywane wraz z raportem. Gdy współpracownik otworzy ten raport w widoku do czytania, zobaczy strony raportu wyświetlane przy użyciu ustawień właściciela.  Jednak podczas pracy z raportem w widoku do czytania użytkownik może czasowo zmienić ustawienia widoku strony.  Gdy użytkownik opuści raport, ustawienie widoku strony powróci do wartości, które zostały określone przez właściciela raportu.
+Drugi zestaw ustawień *Widok strony* kontroluje pozycjonowanie obiektów na kanwie raportu
+
+* **Pokaż linie siatki**: włącz linie siatki, aby ułatwić pozycjonowanie obiektów na kanwie raportu
+* **Przyciągnij do siatki**: w połączeniu z opcją **Pokaż linie siatki** umożliwia dokładne ustawienie pozycji obiektów i wyrównanie ich na kanwie raportu 
+* **Blokuj obiekty**: zablokuj wszystkie obiekty na kanwie, aby nie można było ich przenosić ani zmieniać ich rozmiaru
+* **Okienko Wybór**: okienko Wybór zawiera listę wszystkich obiektów na kanwie i umożliwia określenie, czy dany obiekt ma być widoczny, czy ukryty
+
+    ![Okienko Wybór](media/power-bi-report-display-settings/power-bi-selection-pane.png)
+
+
 
 ## <a name="page-size-settings"></a>Ustawienia rozmiaru strony
 ![](media/power-bi-report-display-settings/power-bi--page-size.png)
 
-Ustawienie *Rozmiar strony* kontroluje współczynnik proporcji ekranu i rzeczywisty rozmiar (w pikselach).  Ustawienia rozmiaru strony są dostępne tylko w widoku do edycji.
+Ustawienia *Rozmiar strony* są dostępne tylko dla właścicieli raportów. W usłudze Power BI (app.powerbi.com) oznacza to możliwość otworzenia raportu w [widoku do edycji](service-reading-view-and-editing-view.md). Te ustawienia kontrolują współczynnik proporcji ekranu i rzeczywisty rozmiar (w pikselach) kanwy raportu.   
 
 * Proporcje 4:3
 * Proporcje 16:9 (ustawienie domyślne)
@@ -55,7 +77,7 @@ Ustawienie *Rozmiar strony* kontroluje współczynnik proporcji ekranu i rzeczyw
 * Niestandardowe (wysokość i szerokość w pikselach)
 
 ## <a name="next-steps"></a>Następne kroki
-[Ustawienia wyświetlania strony w raporcie usługi Power BI](power-bi-change-report-display-settings.md).
+[Dowiedz się, jak korzystać z ustawień Widok strony i Rozmiar strony w swoich raportach usługi Power BI](power-bi-change-report-display-settings.md).
 
 Przeczytaj więcej na temat [raportów w usłudze Power BI](service-reports.md)
 

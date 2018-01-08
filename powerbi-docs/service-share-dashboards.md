@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/11/2017
+ms.date: 12/18/2017
 ms.author: maggies
-ms.openlocfilehash: 276f663b8454ef0938222576cec13fcfb073e2cf
-ms.sourcegitcommit: bb577045145b2e6e5807622a53cefa2d46574618
+ms.openlocfilehash: 4cc7f12eb4964c67ae9f91cfcb51eac77d690555
+ms.sourcegitcommit: ea247cb3cfc1cac076d4b076c1ad8e2fc37e15a1
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 12/19/2017
 ---
 # <a name="share-your-power-bi-dashboards-with-coworkers-and-others"></a>Udostępnianie pulpitów nawigacyjnych usługi Power BI współpracownikom i innym osobom
 *Udostępnianie* to świetna metoda na zapewnienie kilku osobom dostępu do Twojego pulpitu nawigacyjnego i raportów. Usługa Power BI zapewnia [kilka sposobów współpracy i rozpowszechniania pulpitów nawigacyjnych](service-how-to-collaborate-distribute-dashboards-reports.md). Udostępnianie to jedna z tych metod.
@@ -122,7 +122,11 @@ Ważne kwestie dotyczące udostępniania pulpitów nawigacyjnych:
 
 ### <a name="my-dashboard-recipients-see-a-lock-icon-in-a-tile-or-a-permission-required-message"></a>Odbiorcy mojego pulpitu nawigacyjnego widzą ikonę blokady na kafelku albo komunikat „Wymagane uprawnienie”
 
-Jeśli osoby, którym udostępniasz pulpit nawigacyjny, widzą na nim zablokowany kafelek albo komunikat „Wymagane uprawnienie” przy próbie wyświetlenia raportu, musisz udzielić im uprawnienia do bazowego zestawu danych. Oto jak to zrobić.
+Osoby, którym udostępniasz pulpit nawigacyjny, mogą widzieć na nim zablokowany kafelek albo komunikat „Wymagane uprawnienie” przy próbie wyświetlenia raportu.
+
+![Zablokowany kafelek usługi Power BI](media/service-share-dashboards/power-bi-locked_tile_small.png)
+
+Jeśli tak, musisz udzielić im uprawnienia do bazowego zestawu danych. Oto jak to zrobić.
 
 1. Przejdź na kartę **Zestawy danych** na liście zawartości.
 

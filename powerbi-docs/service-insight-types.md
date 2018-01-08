@@ -1,6 +1,6 @@
 ---
-title: "Typy szybkiego wglądu w szczegółowe dane obsługiwane przez usługę Power BI"
-description: "Szybki wgląd w szczegółowe dane przy użyciu usługi Power BI."
+title: "Typy wglądu w szczegółowe dane obsługiwane przez usługę Power BI"
+description: "Szybki wgląd w szczegółowe dane i wyświetlanie szczegółowych danych przy użyciu usługi Power BI."
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -15,21 +15,21 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/03/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 13f5614cf121b17d8ae4dff9653f5789372f7f49
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 53e5e67da9bacd9fc9dcbb770747823647aa3a3c
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
-# <a name="types-of-quick-insights-supported-by-power-bi"></a>Typy szybkiego wglądu w szczegółowe dane obsługiwane przez usługę Power BI
-## <a name="how-does-quick-insights-work"></a>Jak działa szybki wgląd w szczegółowe dane?
+# <a name="types-of-insights-supported-by-power-bi"></a>Typy wglądu w szczegółowe dane obsługiwane przez usługę Power BI
+## <a name="how-does-insights-work"></a>Jak działa wgląd w szczegółowe dane?
 Usługa Power BI szybko wyszukuje różne podzbiory zestawu danych, stosując zestaw zaawansowanych algorytmów w celu odnajdywania potencjalnie interesujących szczegółowych informacji. Usługa Power BI skanuje zestaw danych jak najszerzej w wyznaczonym czasie.
 
-Szybki wgląd w szczegółowe dane można uruchomić w odniesieniu do zestawu danych lub kafelka (powiązane szczegółowe informacje).   
+Wgląd w szczegółowe dane można uruchomić dla kafelka pulpitu nawigacyjnego lub zestawu danych.   
 
-## <a name="what-types-of-quick-insights-can-we-find"></a>Jakie rodzaje szybkiego wglądu w szczegółowe dane możemy znaleźć?
+## <a name="what-types-of-insights-can-we-find"></a>Jakie rodzaje wglądu w szczegółowe dane możemy znaleźć?
 Oto niektóre z używanych przez nas algorytmów:
 
 ## <a name="category-outliers-topbottom"></a>Elementy spoza kategorii (odstające w górę/w dół)
@@ -78,9 +78,9 @@ Dla danych w szeregu czasowym wykrywa określone daty lub godziny z wartościami
 ![](media/service-insight-types/pbi_auto_insight_types_time_series_outliers.png)
 
 ## <a name="next-steps"></a>Następne kroki
-[Szybki wgląd w szczegółowe dane w usłudze Power BI](service-insights.md)
+[Wgląd w szczegółowe dane w usłudze Power BI](service-insights.md)
 
-Jeśli jesteś właścicielem zestawu danych, [zoptymalizuj go pod kątem szybkiego wglądu w szczegółowe dane](service-insights-optimize.md)
+Jeśli jesteś właścicielem zestawu danych, [zoptymalizuj go pod kątem wglądu w szczegółowe dane](service-insights-optimize.md)
 
 Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
 

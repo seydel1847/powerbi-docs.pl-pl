@@ -16,15 +16,15 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/08/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: f87f13c71d60a8edc831a1fd9cc7d0a1d5656634
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 81ea6b32c6f61299c410325a432c521d8b402549
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
-# <a name="featured-dashboards-in-power-bi"></a>Proponowane pulpity nawigacyjne w usłudze Power BI
+# <a name="featured-dashboards-in-power-bi-service"></a>Proponowane pulpity nawigacyjne w usłudze Power BI
 ## <a name="create-a-featured-dashboard"></a>Tworzenie proponowanego pulpitu nawigacyjnego
 Wiele osób odwiedza jeden pulpit nawigacyjny częściej niż inne.  Może to być pulpit nawigacyjny używany do prowadzenia firmy lub zawierający agregację kafelków z wielu różnych pulpitów nawigacyjnych i raportów.
 
@@ -32,13 +32,14 @@ Wiele osób odwiedza jeden pulpit nawigacyjny częściej niż inne.  Może to by
 
 Jeśli pulpit nawigacyjny zostanie wybrany jako *proponowany*, będzie on wyświetlany po każdym uruchomieniu usługi Power BI.  
 
-> **UWAGA**: Możesz również wybrać kilka pulpitów nawigacyjnych i ustawić je jako *ulubione*. Zobacz [Ulubione pulpity nawigacyjne](service-dashboard-favorite.md).
-> 
-> 
+Możesz również wybrać kilka pulpitów nawigacyjnych i ustawić je jako *ulubione*. Zobacz [Ulubione pulpity nawigacyjne](service-dashboard-favorite.md).
+
+> [!NOTE] 
+>Ten temat dotyczy usługi Power BI, a nie programu Power BI Desktop.
 
 Jeśli proponowany pulpit nawigacyjny nie został jeszcze ustawiony, usługa Power BI otworzy ostatnio używany pulpit nawigacyjny.  
 
-### <a name="to-set-a-dashboard-as-featured"></a>Aby ustawić pulpit nawigacyjny jako **Proponowany**
+### <a name="to-set-a-dashboard-as-featured"></a>Aby ustawić pulpit nawigacyjny jako **proponowany**
 Zobacz, jak Amanda tworzy proponowany pulpit nawigacyjny, a następnie wykonaj instrukcje poniżej filmu wideo, aby wypróbować tę funkcję samodzielnie.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/G26dr2PsEpk" frameborder="0" allowfullscreen></iframe>
@@ -70,6 +71,8 @@ Jeśli żaden pulpit nawigacyjny nie ma być ustawiony jako proponowany, możesz
 2. Na górnym pasku menu wybierz opcję **Wyłącz proponowany**.
    
     ![](media/service-dashboard-featured/power-bi-unfeature.png)
+
+Teraz w usłudze Power BI będzie otwierany ostatnio używany pulpit nawigacyjny.  
 
 ## <a name="next-steps"></a>Następne kroki
 [Dodawanie pulpitu nawigacyjnego do ulubionych](service-dashboard-favorite.md)

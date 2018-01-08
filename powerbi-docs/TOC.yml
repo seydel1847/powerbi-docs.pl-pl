@@ -252,9 +252,9 @@
           href: service-insights.md
         - name: Typy szybkiego wglądu w szczegółowe dane obsługiwane przez usługę Power BI
           href: service-insight-types.md
-        - name: Optymalizacja danych pod kątem szybkiego wglądu w szczegółowe dane usługi Power BI
+        - name: Optymalizacja danych pod kątem szybkiego wglądu w szczegółowe dane w usłudze Power BI
           href: service-insights-optimize.md
-        - name: Polecane pulpity nawigacyjne w usłudze Power BI
+        - name: Proponowane pulpity nawigacyjne w usłudze Power BI
           href: service-dashboard-featured.md
         - name: Tworzenie widoku pulpitu nawigacyjnego dla telefonu
           href: service-create-dashboard-mobile-phone-view.md
@@ -454,11 +454,9 @@
           href: power-bi-visualization-treemaps.md
         - name: 'Samouczek: wykresy kaskadowe w usłudze Power BI'
           href: power-bi-visualization-waterfall-charts.md
-        - name: Tworzenie kafelka z dużą liczbą dla pulpitu nawigacyjnego usługi Power BI przez zadanie pytania
-          href: power-bi-visualization-big-number.md
-        - name: Tworzenie kafelka z dużą liczbą za pomocą raportu usługi Power BI
-          href: power-bi-visualization-big-number-report.md
-        - name: Tworzenie zaawansowanych analiz i wizualizacji przy użyciu skryptów R w usłudze Power BI
+        - name: 'Samouczek: karty (kafelki z dużą liczbą) w usłudze Power BI'
+          href: power-bi-visualization-card.md
+        - name: Tworzenie zaawansowanych analiz i wizualizacji przy użyciu skryptów języka R w usłudze Power BI
           href: service-r-visuals.md
     - name: Dane z plików
       items:
@@ -614,7 +612,7 @@
           href: service-refresh-xero-credentials.md
 - name: Power BI Desktop
   items:
-    - name: Wprowadzenie
+    - name: Rozpoczęcie
       items:
         - name: Uzyskiwanie programu Power BI Desktop
           href: desktop-get-the-desktop.md
@@ -938,6 +936,8 @@
           href: developer/integrate-report.md
         - name: Integrowanie zawartości w aplikacji (dane należą do aplikacji)
           href: developer/embed-sample-for-customers.md
+        - name: Osadzanie układów niestandardowych w aplikacji
+          href: developer/embedded-custom-layout.md
         - name: Tworzenie dzierżawy usługi Azure Active Directory
           href: developer/create-an-azure-active-directory-tenant.md
         - name: Rejestrowanie aplikacji
@@ -1006,8 +1006,6 @@
           href: 'https://go.microsoft.com/fwlink/?linkid=848277'
     - name: Zasoby
       items:
-        - name: Apiary
-          href: 'https://go.microsoft.com/fwlink/?linkid=848278'
         - name: Pokaz osadzony JavaScript
           href: 'https://go.microsoft.com/fwlink/?linkid=848279'
         - name: Próbki danych
@@ -1020,7 +1018,7 @@
   items:
     - name: Omówienie
       items:
-        - name: Wprowadzenie
+        - name: Rozpoczęcie
           href: report-server/get-started.md
         - name: Co nowego
           href: report-server/whats-new.md
@@ -1050,9 +1048,11 @@
           href: 'https://go.microsoft.com/fwlink/?linkid=849021'
         - name: Obsługiwane źródła danych
           href: report-server/data-sources.md
-        - name: Łączenie się ze źródłami danych
+        - name: Połączyć się ze źródłami danych
           href: report-server/connect-data-sources.md
-        - name: Konfigurowanie zaplanowanego odświeżania
+        - name: 'Uzyskiwanie dostępu do udostępnionych zestawów danych jako źródeł danych usługi OData '
+          href: report-server/access-dataset-odata.md
+        - name: Konfigurowanie odświeżania zaplanowanego
           href: report-server/configure-scheduled-refresh.md
         - name: Dodawanie komentarzy do raportu
           href: report-server/add-comments.md

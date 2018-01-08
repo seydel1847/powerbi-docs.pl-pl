@@ -15,15 +15,18 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 12/18/2017
 ms.author: maggies
-ms.openlocfilehash: e12b14a73ba63d64d39f296db602e57ceedc5523
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 3d6c3f59611a515ea6a2188457cc80c31a7693ce
+ms.sourcegitcommit: ea247cb3cfc1cac076d4b076c1ad8e2fc37e15a1
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/19/2017
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Języki i kraje/regiony obsługiwane w usłudze Power BI
+
+Ten artykuł zawiera listy języków i krajów/regionów obsługiwanych w usłudze Power BI, programie Power BI Desktop i dokumentacji usługi Power BI.
+
 ## <a name="countries-and-regions-where-power-bi-is-available"></a>Kraje i regiony, w których usługa Power BI jest dostępna
 Aby uzyskać listę krajów i regionów, w których usługa Power BI jest dostępna, zobacz [listę międzynarodowej dostępności](https://products.office.com/business/international-availability). 
 
@@ -75,7 +78,7 @@ Usługa Power BI (w przeglądarce) jest dostępna w następujących 42 językach
 * Ukraiński — українська
 * Wietnamski — Tiếng Việt
 
-## <a name="whats-translated"></a>Tłumaczone elementy
+### <a name="whats-translated"></a>Tłumaczone elementy
 Menu, przyciski, komunikaty i inne elementy środowiska są tłumaczone na Twój język, dzięki czemu łatwiejsze jest nawigowanie w usłudze Power BI i interakcja z nią.
 
 Obecnie kilka funkcji jest dostępnych tylko w języku angielskim:
@@ -85,22 +88,22 @@ Obecnie kilka funkcji jest dostępnych tylko w języku angielskim:
 
 Śledź aktualności, ponieważ pracujemy nad udostępnieniem dodatkowych funkcji w innych językach. 
 
-## <a name="choose-your-language-in-the-power-bi-service"></a>Wybieranie języka w usłudze Power BI
+### <a name="choose-your-language-in-the-power-bi-service"></a>Wybieranie języka w usłudze Power BI
 1. W usłudze Power BI wybierz ikonę **Ustawienia** ![Ikona Ustawienia](media/supported-languages-countries-regions/pbi_settings_icon.png) > **Ustawienia**.
 2. Na karcie **Ogólne** wybierz pozycję **Język**.
 3. Wybierz swój język, a następnie wybierz przycisk **Zastosuj**.
 
-## <a name="choose-your-language-in-the-browser"></a>Wybieranie języka w przeglądarce
+### <a name="choose-your-language-in-the-browser"></a>Wybieranie języka w przeglądarce
 Usługa Power BI wykrywa język na podstawie preferencji językowych na komputerze. Sposób uzyskiwania dostępu do tych preferencji i ich zmiany może się różnić w zależności od używanego systemu operacyjnego i przeglądarki. Poniżej przedstawiono sposób uzyskania dostępu do tych preferencji z poziomu przeglądarek Internet Explorer i Google Chrome.
 
-### <a name="internet-explorer-version-11"></a>Internet Explorer (wersja 11)
+#### <a name="internet-explorer-version-11"></a>Internet Explorer (wersja 11)
 1. Kliknij przycisk **Narzędzia** w prawym górnym rogu okna przeglądarki:
    
    ![Przycisk Narzędzia w przeglądarce Internet Explorer](media/supported-languages-countries-regions/languages1.png)
 2. Kliknij polecenie **Opcje internetowe**.
 3. W oknie dialogowym Opcje internetowe na karcie Ogólne w obszarze Wygląd kliknij przycisk **Języki**.
 
-### <a name="google-chrome-version-42"></a>Google Chrome (wersja 42)
+#### <a name="google-chrome-version-42"></a>Google Chrome (wersja 42)
 1. Kliknij przycisk menu w prawym górnym rogu okna przeglądarki:
    
    ![Przycisk menu przeglądarki Chrome](media/supported-languages-countries-regions/languages2.png)
@@ -144,7 +147,7 @@ Język wybrany dla programu Power BI Desktop wpływa na format wyświetlania lic
 
 Aby zmienić język w programie Power BI Desktop, wróć do strony pobierania i pobierz program w innym języku.
 
-### <a name="choose-the-locale-to-be-used-when-importing-data-into-power-bi-desktop"></a>Wybieranie ustawień regionalnych, które będą używane podczas importowania danych do programu Power BI Desktop
+### <a name="choose-the-locale-for-importing-data-into-power-bi-desktop"></a>Wybieranie ustawień regionalnych na potrzeby importowania danych do programu Power BI Desktop
 Niezależnie od tego, czy program Power BI Desktop zostanie pobrany, czy zainstalowany ze Sklepu Windows, dla konkretnego raportu możesz wybrać ustawienia regionalne inne niż ustawienia regionalne w używanej wersji programu Power BI Desktop. Spowoduje to zmianę sposobu interpretowania danych importowanych ze źródła danych. W ten sposób możesz na przykład określić, czy data „3/4/2017” ma zostać zinterpretowana jako 3 kwietnia, czy 4 marca. 
 
 1. W programie Power BI Desktop wybierz opcję **Plik** > **Opcje i ustawienia** > **Opcje**.
@@ -153,6 +156,22 @@ Niezależnie od tego, czy program Power BI Desktop zostanie pobrany, czy zainsta
    
    ![Okno dialogowe Opcje programu Power BI Desktop](media/supported-languages-countries-regions/pbi_supptdlangs_locale.png)
 4. Wybierz przycisk **OK**.
+
+### <a name="choose-the-language-for-the-model-in-power-bi-desktop"></a>Wybieranie języka modelu w programie Power BI Desktop
+
+Oprócz ustawienia języka aplikacji Power BI Desktop można również ustawić język modelu. Język modelu dotyczy głównie dwóch elementów:
+
+- Sposób porównywania i sortowania ciągów. Na przykład ponieważ w języku tureckim są używane dwie litery i, w zależności od sortowania bazy danych obydwie mogą znaleźć się w innej pozycji podczas sortowania. 
+- Język, którego program Power BI Desktop używa podczas tworzenia ukrytych tabel dat na podstawie pól dat. Na przykład pola są nazywane Month/Monat/Mois itd.
+
+Poniżej przedstawiono sposób ustawiania języka modelu.
+
+1. W programie Power BI Desktop wybierz opcję **Plik** > **Opcje i ustawienia** > **Opcje**.
+2. W obszarze **Globalne** wybierz pozycję **Ustawienia regionalne**.
+3. W polu **Język modelu** wybierz inny język. 
+
+    ![Ustawianie języka modelu w programie Power BI Desktop](media/supported-languages-countries-regions/power-bi-supported-model-languages.png)
+
 
 ## <a name="languages-for-the-help-documentation"></a>Języki dokumentacji pomocy
 Zlokalizowana pomoc jest dostępna w następujących 10 językach: 

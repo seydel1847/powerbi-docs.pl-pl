@@ -15,20 +15,20 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 12/18/2017
 ms.author: maggies
-ms.openlocfilehash: 99fceab5904deaa510edd213c349dcfb2e38ac28
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 5bbd2f09187e9fac16f6cc4b9ac3ff59a888ed7f
+ms.sourcegitcommit: ea247cb3cfc1cac076d4b076c1ad8e2fc37e15a1
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/19/2017
 ---
 # <a name="view-on-premises-report-server-reports-and-kpis-in-the-power-bi-mobile-apps"></a>Wyświetlanie lokalnych raportów serwera raportów i wskaźników KPI w aplikacjach mobilnych usługi Power BI
 Dotyczy:
 
-| ![Urządzenie iPhone](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/iphone-logo-50-px.png) | ![Urządzenie iPad](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/ipad-logo-50-px.png) | ![Telefon z systemem Android](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/android-phone-logo-50-px.png) | ![Tablet z systemem Android](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/android-tablet-logo-50-px.png) |
+| ![Telefon iPhone](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/iphone-logo-50-px.png) | ![Tablet iPad](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/ipad-logo-50-px.png) | ![Telefon z systemem Android](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/android-phone-logo-50-px.png) | ![Tablet z systemem Android](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/android-tablet-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |
-| Urządzenia iPhone |Urządzenia iPad |Telefony z systemem Android |Tablety z systemem Android |
+| Telefony iPhone |Urządzenia iPad |Telefony z systemem Android |Tablety z systemem Android |
 
 Aplikacje mobilne usługi Power BI zapewniają mobilny dostęp na żywo z obsługą dotykową do lokalnych informacji biznesowych na serwerze raportów usługi Power BI i w usługach SQL Server 2016 Reporting Services (SSRS). 
 
@@ -63,7 +63,14 @@ W aplikacjach mobilnych usługi Power Bi możesz wyświetlić lokalne raporty us
 3. Naciśnij pozycję **Połącz z serwerem**.
    
     ![Połącz z serwerem](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-android-server-sign-in.png)
-4. Wprowadź adres serwera oraz swoją nazwę użytkownika i hasło. Do adresu serwera użyj następującego formatu:
+
+     Aplikacja mobilna musi w jakiś sposób uzyskiwać dostęp do serwera. Istnieje kilka sposobów wykonania tej czynności:
+
+    - Najprostszy sposób to umieszczenie jej w tej samej sieci/korzystanie z sieci VPN.
+    - Istnieje możliwość nawiązania połączenia spoza organizacji za pomocą serwera proxy aplikacji internetowej. Więcej informacji można znaleźć w temacie [Łączenie się z usługami Reporting Services za pomocą protokołu OAuth](mobile-oauth-ssrs.md). 
+    - Otwórz połączenie (port) w zaporze.
+
+1. Wprowadź adres serwera oraz swoją nazwę użytkownika i hasło. Do adresu serwera użyj następującego formatu:
    
      `http://<servername>/reports`
    
@@ -71,10 +78,7 @@ W aplikacjach mobilnych usługi Power Bi możesz wyświetlić lokalne raporty us
    
      `https://<servername>/reports`
    
-   > [!NOTE]
-   > Wpisz **http** lub **https** przed parametrami połączenia.
-   > 
-   > 
+   Wpisz **http** lub **https** przed parametrami połączenia.
    
     ![Okno dialogowe łączenia z serwerem](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ios-connect-to-server-dialog.png)
 5. (Opcjonalnie) W obszarze **Opcje zaawansowane** możesz, jeśli chcesz, nadać serwerowi przyjazną nazwę.
@@ -100,7 +104,7 @@ Wskaźniki KPI i raporty można oznaczyć jako ulubione w portalu internetowym, 
 
 * Naciśnij pozycję **Ulubione**.
   
-   ![Ulubione w lewym okienku nawigacji](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ipad-faves-pbi-report-server.png)
+   ![Ulubione w lewym okienku nawigacji](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ipad-faves-pbi-report-server-update.png)
   
    Twoje ulubione wskaźniki KPI i raporty z portalu internetowego znajdują się już wszystkie na tej stronie wraz z pulpitami nawigacyjnymi usługi Power BI w usłudze Power BI:
   

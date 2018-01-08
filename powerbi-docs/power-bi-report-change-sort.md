@@ -15,20 +15,20 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/08/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 37161fab1e19e6ce00eb0f02c96b6e5cbdd60f18
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 13da4602306b1218baee81909d37897524f6dfc9
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Zmienianie sposobu sortowania wykresu w raporcie usługi Power BI
-W usłudze Power BI wykresy można sortować alfabetycznie według nazw kategorii na wykresie lub według wartości liczbowych poszczególnych kategorii. Na przykład ten wykres jest posortowany według nazw sklepów.
+W raporcie usługi Power BI większość wizualizacji można sortować alfabetycznie według nazw kategorii na wykresie lub według wartości liczbowych poszczególnych kategorii. Na przykład ten wykres jest posortowany według nazw sklepów.
 
 ![](media/power-bi-report-change-sort/pbi_chartsortcategory.png)
 
-Zamiast tego można łatwo posortować go od największej do najmniejszej wartości sprzedaży na metr kwadratowy.
+W zamian można prosto zmienić sortowanie z kategorii (nazwa sklepu) na wartość (sprzedaż na metr kw.).
 
 1. Wybierz wielokropek (...), a następnie wybierz pozycję **Sort by Sales Per Sq Ft** (Sortuj według sprzedaży na metr kw.).
 2. Jeśli to konieczne, wybierz ikonę sortowania ![](media/power-bi-report-change-sort/sorticon.png), aby zmienić sposób sortowania na **Malejąco**.

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/08/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: d39fd80b834afc37fb1db43a083f9037a3b83ef1
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 33954aab1d6e79efc985f3e0d3c4d026f529b691
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="rename-almost-anything-in-power-bi-service"></a>Zmienianie nazwy prawie wszystkiego w usłudze Power BI
 Ten artykuł nauczy Cię, jak zmienić nazwę pulpitu nawigacyjnego, raportu, strony raportu, skoroszytu, zestawu danych, aplikacji i obszaru roboczego w usłudze Power BI.
@@ -40,7 +40,7 @@ Ten artykuł nauczy Cię, jak zmienić nazwę pulpitu nawigacyjnego, raportu, st
 | Zawartość w pozycji **Udostępnione dla mnie** |Nie |Nie |
 
 ## <a name="rename-a-dashboard-report-or-workbook"></a>Zmienianie nazwy pulpitu nawigacyjnego, raportu lub skoroszytu
-1. Rozpocznij w obszarze roboczym i wybierz kartę **Pulpity nawigacyjne**, **Raporty** lub **Skoroszyty**. Umieść kursor nad elementem, którego nazwę chcesz zmienić, i wybierz ikonę koła zębatego ![](media/service-rename/powerbi-cog-icon.png).
+1. Rozpocznij w obszarze roboczym i wybierz kartę **Pulpity nawigacyjne**, **Raporty** lub **Skoroszyty**. Umieść kursor nad elementem, którego nazwę chcesz zmienić, i wybierz ikonę koła zębatego ![](media/service-rename/powerbi-cog-icon.png). Jeśli ikona koła zębatego nie jest widoczna, nie masz uprawnień do zmiany nazwy.
    
    ![](media/service-rename/power-bi-workspace-dashboards.png)
 2. Na stronie Ustawienia wpisz nową nazwę, a następnie wybierz pozycję **Zapisz**.
@@ -67,7 +67,7 @@ Ten artykuł nauczy Cię, jak zmienić nazwę pulpitu nawigacyjnego, raportu, st
 Każdy użytkownik z uprawnieniami administratora może zmienić nazwę obszaru roboczego aplikacji.
 
 1. Rozpocznij w obszarze roboczym, którego nazwę chcesz zmienić.
-2. W prawym górnym rogu wybierz wielokropek (...), a następnie wybierz pozycję **Edytuj obszar roboczy**.  
+2. W prawym górnym rogu wybierz wielokropek (...), a następnie wybierz pozycję **Edytuj obszar roboczy**. Jeśli nie widzisz tej opcji, nie masz uprawnień do zmiany nazwy tego obszaru roboczego. 
    
     ![](media/service-rename/power-bi-edit-workspace.png)
 3. Wpisz nową nazwę obszaru roboczego i wybierz pozycję **Zapisz**.

@@ -1,5 +1,5 @@
 ---
-title: "Przypinanie kafelka do pulpitu nawigacyjnego usługi Power BI z narzędzia pytań i odpowiedzi"
+title: "Przypinanie kafelka do pulpitu nawigacyjnego z narzędzia pytań i odpowiedzi"
 description: "Dokumentacja dotycząca sposobu przypinania kafelka do pulpitu nawigacyjnego usługi Power BI z pola pytania narzędzia pytań i odpowiedzi"
 services: powerbi
 documentationcenter: 
@@ -15,19 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/09/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: f37c0f9e433f1ac8c6bb8f7f3fa4b513fb4b4652
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 8a876c5a05fcdadff1a874148f5d56465bcc8c62
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="pin-a-tile-to-a-dashboard-from-qa"></a>Przypinanie kafelka do pulpitu nawigacyjnego z narzędzia pytań i odpowiedzi
 ## <a name="how-to-pin-a-tile-from-qa"></a>Przypinanie kafelka z narzędzia pytań i odpowiedzi
 Narzędzie pytań i odpowiedzi to narzędzie raportowania ad hoc usługi Power BI. Chcesz znaleźć określone dane szczegółowe? Zadaj pytanie dotyczące danych i odbierz odpowiedź w postaci wizualizacji.
 
-> **UWAGA**: Aby z tego skorzystać, otwórz pozycję [Próbka analizy handlu detalicznego](sample-retail-analysis.md).
+Pytania i odpowiedzi są dostępne na pulpitach nawigacyjnych i w raportach. W tym artykule otworzymy pytania i odpowiedzi z pulpitu nawigacyjnego. Pulpity nawigacyjne są dostępne w usłudze Power BI, ale nie w programie Power BI Desktop. Aby z tego skorzystać, otwórz [pulpit nawigacyjny przykładu Retail Analysis](sample-retail-analysis.md).
 > 
 > 
 
@@ -40,8 +40,10 @@ Narzędzie pytań i odpowiedzi to narzędzie raportowania ad hoc usługi Power B
    w polu pytania pojawiają się sugestie.
 4. Aby dodać wykres do pulpitu nawigacyjnego jako kafelek, wybierz pinezkę ![](media/service-dashboard-pin-tile-from-q-and-a/pbi_pintile.png) po prawej górnej stronie kanwy.
 5. Przypnij kafelek do istniejącego lub nowego pulpitu nawigacyjnego. 
-   
-   * Istniejący pulpit nawigacyjny: z listy rozwijanej wybierz nazwę pulpitu nawigacyjnego. Twój wybór będzie ograniczony tylko do tych pulpitów nawigacyjnych wewnątrz bieżącego obszaru roboczego.
+
+   ![](media/service-dashboard-pin-tile-from-q-and-a/power-bi-pin-to-dashboard.png)
+
+   * Istniejący pulpit nawigacyjny: z listy rozwijanej wybierz nazwę pulpitu nawigacyjnego. Twój wybór będzie ograniczony tylko do pulpitów nawigacyjnych wewnątrz bieżącego obszaru roboczego.
    * Nowy pulpit nawigacyjny: wpisz nazwę nowego pulpitu nawigacyjnego a zostanie ona dodana do Twojego bieżącego obszaru roboczego.
 6. Wybierz pozycję **Przypnij**.
    

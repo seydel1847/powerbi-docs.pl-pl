@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/27/2017
+ms.date: 12/23/2017
 ms.author: mihart
-ms.openlocfilehash: 231bf7febb19583414d976cc612d06c2caa1e246
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 91c185a082cebc6a9196e0e86898fe366363f8c2
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="funnel-charts-tutorial"></a>Wykresy lejkowe (samouczek)
 Wykres lejkowy pozwala na graficzne przedstawienie procesu liniowego o sekwencyjnie połączonych etapach. Za przykład może posłużyć wykres lejkowy sprzedaży, który śledzi zachowania klientów na poszczególnych etapach: Potencjalny klient \> Kwalifikowany potencjalny klient \> Prawdopodobny klient \> Umowa \> Finalizacja.  Już na pierwszy rzut oka kształt lejka wskazuje na kondycję śledzonego procesu.
@@ -59,15 +59,15 @@ Obejrzyj ten film wideo, aby dowiedzieć się, jak Will tworzy wykres lejkowy pr
 
 Teraz utwórz własny wykres lejkowy, który pokazuje liczbę szans sprzedaży dla każdego z etapów sprzedaży.
 
-W poniższych instrukcjach jest używany przykład Opportunity Analysis. Aby móc wykonać te instrukcje, [pobierz przykład](sample-datasets.md), zaloguj się w usłudze Power BI, a następnie wybierz pozycję **Pobierz dane \> Przykłady \> Opportunity Analysis Sample \> Połącz**.
+W poniższych instrukcjach jest używany przykład Opportunity Analysis. Aby je wykonać, [pobierz przykład](sample-datasets.md) dla usługi Power BI (app.powerbi.com) lub dla programu Power BI Desktop.   
 
-1. Rozpocznij od [pustej strony raportu](power-bi-report-add-page.md) w [widoku do edycji](service-interact-with-a-report-in-editing-view.md) i wybierz pole **SalesStage** \> **Sales Stage**.  
+1. Rozpocznij od [pustej strony raportu](power-bi-report-add-page.md) i wybierz pole **SalesStage** \> **Sales Stage**. Jeśli używasz usługi Power BI, upewnij się, że raport jest otwarty w [widoku do edycji](service-interact-with-a-report-in-editing-view.md).
    
     ![](media/power-bi-visualization-funnel-charts/funnelselectfield_new.png)
 2. [Przekonwertuj wykres](power-bi-report-change-visualization-type.md) na wykres lejkowy. Zwróć uwagę, że pole **Sales Stage** znajduje się w obszarze **Grupa**. 
 3. W okienku **Pola** wybierz pozycję **Fact** \> **Opportunity Count**.
    
-    ![](media/power-bi-visualization-funnel-charts/funnelfinal_new.png)
+    ![](media/power-bi-visualization-funnel-charts/power-bi-funnel.png)
 4. Umieszczenie wskaźnika na pasku spowoduje wyświetlenie szeregu informacji.
    
    * Nazwa etapu
@@ -90,14 +90,13 @@ Wyróżnianie paska na wykresie lejkowym powoduje filtrowanie krzyżowe innych w
 2. Aby ustawić preferencje dotyczące wyróżniania krzyżowego wizualizacji i ich filtrowania krzyżowego, zobacz [Interakcje wizualne w usłudze Power BI](service-reports-visual-interactions.md)
 
 ## <a name="create-a-funnel-chart-in-qa"></a>Tworzenie wykresu lejkowego w aparacie Pytania i odpowiedzi
-Wyróżnij pulpit nawigacyjny, który ma przypiętą co najmniej jedną wizualizację z zestawu danych „Opportunity Tracking”.  Po wpisaniu pytania w aparacie Pytania i odpowiedzi usługa Power BI wyszukuje odpowiedzi we wszystkich zestawach danych, które są skojarzone z wybranym pulpitem nawigacyjnym, czyli mają do niego przypięte kafelki. Aby uzyskać więcej informacji, zobacz [Power BI — podstawowe pojęcia](service-basic-concepts.md).
+Otwórz pulpit nawigacyjny przykładu Opportunity Analysis lub dowolny inny pulpit nawigacyjny, który ma przypiętą co najmniej jedną wizualizację z zestawu danych przykładu Opportunity Analysis.  Po wpisaniu pytania w aparacie Pytania i odpowiedzi usługa Power BI wyszukuje odpowiedzi we wszystkich zestawach danych, które są skojarzone z wybranym pulpitem nawigacyjnym, czyli mają do niego przypięte kafelki. Aby uzyskać więcej informacji, zobacz [Power BI — podstawowe pojęcia](service-basic-concepts.md).
 
-1. Wyróżnij pulpit nawigacyjny, który ma co najmniej jeden kafelek przypięty ze zbioru danych Opportunity Tracking.
-2. Zacznij wpisywać pytanie w polu pytań aparatu Pytania i odpowiedzi.
+1. Na pulpicie nawigacyjnym przykładu Opportunity Analysis rozpocznij wpisywanie pytania w polu funkcji Pytania i odpowiedzi.
    
    ![](media/power-bi-visualization-funnel-charts/funnelfromqna_new.png)
    
-   Pamiętaj o dodaniu wyrażenia „as funnel” (jako lejek), aby usługa Power BI mogła ustalić, jakiego typu wizualizacji chcesz użyć.
+2. Pamiętaj o dodaniu wyrażenia „as funnel” (jako lejek), aby usługa Power BI mogła ustalić, jakiego typu wizualizacji chcesz użyć.
 
 ## <a name="next-steps"></a>Następne kroki
 [Typy wizualizacji w usłudze Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)

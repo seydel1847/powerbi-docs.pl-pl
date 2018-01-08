@@ -15,19 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/05/2017
+ms.date: 12/24/2017
 ms.author: mihart
-ms.openlocfilehash: 3f78d19a5a28f096279a4fe25881ae26ffbae3cc
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 44a825e548ae55fa0ce13ba6eed57b860be6fe8f
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="qa-in-power-bi"></a>Pytania i odpowiedzi w usłudze Power BI
 Czasem najszybszym sposobem uzyskania odpowiedzi na podstawie danych jest zadanie pytania przy użyciu języka naturalnego. Na przykład „what were total sales last year” (ile wynosiła łączna sprzedaż w zeszłym roku).  Pytania i odpowiedzi pozwalają eksplorować dane, korzystając z intuicyjnych możliwości języka naturalnego, oraz uzyskiwać odpowiedzi w formie wykresów i schematów. Funkcja Pytania i odpowiedzi różni się od wyszukiwarki — Pytania i odpowiedzi zwraca tylko wyniki dotyczące danych w usłudze Power BI.
 
 > [!NOTE]
-> Funkcja Pytania i odpowiedzi jest również dostępna w [aplikacji Microsoft Power BI dla systemu iOS na urządzeniach iPad, iPhone i iPod Touch](mobile-apps-ios-qna.md).
+> Funkcja Pytania i odpowiedzi jest również dostępna w [aplikacji Microsoft Power BI dla systemu iOS na urządzeniach iPad, iPhone i iPod Touch](mobile-apps-ios-qna.md) oraz w programie [Power BI Desktop](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#QandA).
 > 
 > 
 
@@ -51,11 +51,6 @@ Zadanie pytania to dopiero początek.  Pobaw się, przeglądając dane, poprawia
 [Samouczek: używanie funkcji Pytania i odpowiedzi usługi Power BI z przykładowymi danymi sprzedaży detalicznej](power-bi-visualization-introduction-to-q-and-a.md): korzystanie z funkcji Pytania i odpowiedzi w ramach samouczka dotyczącego realistycznej branży.
 
 [Dbanie o poprawne współdziałanie danych z funkcją Pytania i odpowiedzi](service-prepare-data-for-q-and-a.md): jeśli jesteś osobą odpowiedzialną za tworzenie zestawów danych i modeli danych,  ten temat jest dla Ciebie.
-
-## <a name="next-steps"></a>Następne kroki
-[Power BI — podstawowe pojęcia](service-basic-concepts.md)
-
-[Wprowadzenie do usługi Power BI](service-get-started.md)
 
 Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
 

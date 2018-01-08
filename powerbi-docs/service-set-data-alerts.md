@@ -16,16 +16,20 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/06/2017
+ms.date: 12/21/2017
 ms.author: mihart
-ms.openlocfilehash: cfbd7d124784b15b432921554c8ac5bbe321846c
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 2a4134e1a06933927bd2c5453cd8e7a79394c384
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="data-alerts-in-power-bi-service"></a>Alerty dotyczące danych w usłudze Power BI
-Ustaw alerty, aby otrzymywać powiadomienia, gdy zmiany dotyczące danych w pulpitach nawigacyjnych przekroczą ustalone progi. Alerty można ustawić tylko dla kafelków przypiętych z poziomu wizualizacji raportu i tylko dla mierników, kluczowych wskaźników wydajności i kart. Alerty można ustawić dla wizualizacji utworzonych na podstawie zestawów danych przesyłania strumieniowego, które zostały przypięte z poziomu raportu do pulpitu nawigacyjnego, ale nie można ich ustawić dla kafelków przesyłania strumieniowego utworzonych bezpośrednio na pulpicie nawigacyjnym przy użyciu pozycji **Dodaj kafelek** > **Niestandardowe dane przesyłane strumieniowo**. Tylko Ty możesz zobaczyć ustawione przez siebie alerty, nawet jeśli udostępniasz pulpit nawigacyjny. Alerty dotyczące danych są w pełni zsynchronizowane między platformami. Możesz je ustawiać i wyświetlać [w aplikacjach mobilnych Power BI](mobile-set-data-alerts-in-the-mobile-apps.md) i w usłudze Power BI. Nie są dostępne w programie Power BI Desktop. Alerty można nawet [zautomatyzować i zintegrować z usługą Microsoft Flow](https://flow.microsoft.com) - [spróbuj to zrobić samodzielnie](service-flow-integration.md).
+Ustaw alerty, aby otrzymywać powiadomienia, gdy zmiany dotyczące danych w pulpitach nawigacyjnych przekroczą ustalone progi. 
+
+Alerty można ustawić tylko dla kafelków przypiętych z poziomu wizualizacji raportu oraz tylko dla mierników, kluczowych wskaźników wydajności i kart. Alerty można ustawić dla wizualizacji utworzonych na podstawie zestawów danych przesyłania strumieniowego, które zostały przypięte z poziomu raportu do pulpitu nawigacyjnego, ale nie można ich ustawić dla kafelków przesyłania strumieniowego utworzonych bezpośrednio na pulpicie nawigacyjnym przy użyciu pozycji **Dodaj kafelek** > **Niestandardowe dane przesyłane strumieniowo**. 
+
+Tylko Ty możesz zobaczyć ustawione przez siebie alerty, nawet jeśli udostępniasz pulpit nawigacyjny. Alerty dotyczące danych są w pełni zsynchronizowane między platformami. Możesz je ustawiać i wyświetlać [w aplikacjach mobilnych Power BI](mobile-set-data-alerts-in-the-mobile-apps.md) i w usłudze Power BI. Nie są dostępne w programie Power BI Desktop. Alerty można nawet [zautomatyzować i zintegrować z usługą Microsoft Flow](https://flow.microsoft.com) - [spróbuj to zrobić samodzielnie](service-flow-integration.md).
 
 ![](media/service-set-data-alerts/powerbi-alert-types-new.png)
 
@@ -46,13 +50,12 @@ W tym przykładzie użyto kafelku karty z pulpitu nawigacyjnego przykładu Retai
    ![](media/service-set-data-alerts/powerbi-card.png)
 2. Wybierz ikonę dzwonka ![](media/service-set-data-alerts/power-bi-bell-icon.png), aby dodać jeden lub więcej alertów dla pozycji **Total stores**.
    
-   ![](media/service-set-data-alerts/powerbi-set-alert.png)
-3. Na początek upewnij się, że suwak jest w pozycji **Włączony** i nadaj tytuł alertowi. Tytuły ułatwiają rozpoznawanie alertów.
+1. Na początek wybierz opcję **+ Dodaj regułę alertów**, upewnij się, że suwak jest w pozycji **Włączony** i nadaj tytuł alertowi. Tytuły ułatwiają rozpoznawanie alertów.
    
    ![](media/service-set-data-alerts/powerbi-alert-title.png)
 4. Przewiń w dół, a następnie wprowadź szczegóły alertu.  W tym przykładzie utworzymy alert, który raz dziennie będzie powiadamiał, jeśli łączna liczba sklepów przekroczy wartość 100. Alerty zostaną wyświetlone w centrum powiadomień. Poza tym usługa Power BI wyśle wiadomość e-mail.
    
-   ![](media/service-set-data-alerts/powerbi-set-alert-details.png)
+   ![](media/service-set-data-alerts/power-bi-set-alert-details.png)
 5. Wybierz pozycję **Zapisz**.
 
 ## <a name="receiving-alerts"></a>Otrzymywanie alertów
@@ -76,7 +79,7 @@ Następnie usługa Power BI wysyła alert do centrum powiadomień i, opcjonalnie
    > 
 
 ## <a name="managing-alerts"></a>Zarządzanie alertami
-Istnieją trzy sposoby zarządzania alertami: z poziomu kafelka pulpitu nawigacyjnego, z poziomu menu ustawień usługi Power BI, a także z poziomu pojedynczych kafelków w [aplikacji mobilnej usługi Power BI na telefonie iPhone](mobile-set-data-alerts-in-the-mobile-apps.md) lub [aplikacji mobilnej usługi Power BI dla systemu Windows 10](mobile-set-data-alerts-in-the-mobile-apps.md).
+Istnieje wiele sposobów zarządzania alertami: z poziomu kafelka pulpitu nawigacyjnego, z poziomu menu ustawień usługi Power BI oraz z poziomu pojedynczego kafelka w [aplikacji mobilnej usługi Power BI na telefonie iPhone](mobile-set-data-alerts-in-the-mobile-apps.md) lub [aplikacji mobilnej usługi Power BI dla systemu Windows 10](mobile-set-data-alerts-in-the-mobile-apps.md).
 
 ### <a name="from-the-tile-itself"></a>Z poziomu kafelka
 1. Jeśli chcesz zmienić lub usunąć alert dla danego kafelka, otwórz ponownie okno **Zarządzanie alertami**, wybierając ikonę dzwonka ![](media/service-set-data-alerts/power-bi-bell-icon.png). Zostaną wyświetlone wszystkie alerty ustawione dla danego kafelka.

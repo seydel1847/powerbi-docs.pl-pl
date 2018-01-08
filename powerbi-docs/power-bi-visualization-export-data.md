@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/02/2017
+ms.date: 11/19/2017
 ms.author: mihart
-ms.openlocfilehash: fb40b2576176b772c841cea3347909aaf34af375
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 2e5f72b0eb2507f8d2c7df7fc8a57817bb6ce79f
+ms.sourcegitcommit: a658b1c936e382f46a19eeb9cc26016cd7b1d756
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/20/2017
 ---
 # <a name="export-data-from-visualizations"></a>Eksportowanie danych z wizualizacji
 Jeśli chcesz zobaczyć dane, które zostały użyte do utworzenia wizualizacji, możesz [wyświetlić te dane w usłudze Power BI](service-reports-show-data.md) lub wyeksportować je do programu Excel w formie pliku xlsx lub csv.   
@@ -84,7 +84,7 @@ Aby skorzystać z tej metody, otwórz[raport próbnych danych dotyczących anali
    ![](media/power-bi-visualization-export-data/power-bi-export-data8.png)
 
 ## <a name="limitations-and-considerations"></a>Ograniczenia i istotne zagadnienia
-* Maksymalna liczba wierszy, które można eksportować z programu **Power BI Desktop** do pliku csv to 30 000.
+* Maksymalna liczba wierszy, które można eksportować z programu **Power BI Desktop** i **usługi Power BI** do pliku csv to 30 000.
 * Maksymalna liczba wierszy, które można eksportować do formatu xlsx w **usłudze Power BI** to 150 000 dla użytkowników wersji Pro oraz 30 000 dla użytkowników wersji bezpłatnej.
 * W przypadku używania zapytania bezpośredniego maksymalna ilość danych, które można wyeksportować, to 16 MB. Może to spowodować wyeksportowanie mniejszej liczby wierszy, zwłaszcza wtedy, gdy istnieje wiele kolumn, dane są trudne do skompresowania lub zachodzą inne czynniki zwiększające rozmiar plików i zmniejszające liczbę eksportowanych wierszy.
 * Usługa Power BI obsługuje eksportowanie tylko w przypadku wizualizacji korzystających z podstawowych agregacji. Eksportowanie nie jest dostępne w przypadku wizualizacji używających miar modelu lub raportu.

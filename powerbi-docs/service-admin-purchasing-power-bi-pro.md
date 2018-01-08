@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 06/30/2017
 ms.author: asaxton
-ms.openlocfilehash: 83f143427ce74f593ea6e8d99f8a6b127ee4488d
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: cf0eeaa16e7dc3576cb774cb7bb7dfef9c4486d0
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="purchasing-power-bi-pro"></a>Zakup usługi Power BI Pro
 Usługa Power BI Pro jest przeznaczona dla użytkowników, którzy publikują raporty, udostępniają pulpity nawigacyjne, współpracują w obszarach roboczych oraz wykonują inne powiązane działania, na przykład:
@@ -118,6 +118,11 @@ W obszarze **Rozliczenia** > **Subskrypcje** będzie widoczna pozycja **Power BI
 Podczas pracy w usłudze możesz sprawdzić, czy masz konto Pro, przechodząc do ikony **koła zębatego** i wybierając pozycję **Zarządzaj magazynem osobistym**.
 
 ![](media/service-admin-purchasing-power-bi-pro/powerbi-pro3.png)
+
+## <a name="grace-period"></a>Okres prolongaty
+Po wygaśnięciu licencji usługi Power BI Pro następuje 30-dniowy okres prolongaty. 
+
+Usługa Power BI Pro ma taki sam cykl życia subskrypcji jak usługa Office 365. Aby uzyskać więcej informacji, zobacz [Co się stanie z moimi danymi i z moim dostępem po zakończeniu subskrypcji usługi Office 365 dla firm?](https://support.office.com/en-us/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3)
 
 ## <a name="next-steps"></a>Następne kroki
 [Rejestracja samoobsługowa w usłudze Power BI](service-self-service-signup-for-power-bi.md)  

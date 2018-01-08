@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/05/2017
+ms.date: 12/24/2017
 ms.author: mihart
-ms.openlocfilehash: d29008365ab7df8f0bcd8297bfd5dc2f41c0e3a4
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 4b8a606cd110c13a615be88d49f04e68b3f2cbe6
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>Tworzenie proponowanych pytań dla funkcji pytań i odpowiedzi w usłudze Power BI
 Jeśli jesteś właścicielem zestawu danych, możesz dodać własne proponowane pytania do tego zestawu danych.  Funkcja pytań i odpowiedzi w usłudze Power BI wyświetli te pytania współpracownikom korzystającym z Twojego zestawu danych.  Proponowane pytania dostarczają współpracownikom pomysłów dotyczących typów pytań, jakie mogą zadać na temat zestawu danych. Proponowane pytania, jakie dodasz, zależą od Ciebie — dodaj często zadawane pytania lub takie, na które można udzielić ciekawej odpowiedzi, albo pytania, które ciężko sformułować.
@@ -32,13 +32,13 @@ Obejrzyj klip wideo, w którym Will dodaje proponowane pytania do funkcji pytań
 <iframe width="560" height="315" src="https://www.youtube.com/embed/E1mIAyEXuF4" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> Proponowane pytania w funkcji pytań i odpowiedzi są również dostępne w [aplikacji Microsoft Power BI dla systemu iOS na urządzeniach iPad, iPhone i iPod Touch](mobile-apps-ios-qna.md).
+> Proponowanych pytań w funkcji Pytania i odpowiedzi można używać w [aplikacji Microsoft Power BI dla systemu iOS na urządzeniach iPad, iPhone i iPod Touch](mobile-apps-ios-qna.md), a także w wersji zapoznawczej funkcji Pytania i odpowiedzi w programie Power BI Desktop. Natomiast tworzenie pytań jest możliwe tylko w usłudze Power BI (app.powerbi.com).
 > 
 > 
 
 W tym artykule wykorzystano [przykład Retail Analysis Sales](sample-datasets.md).
 
-1. Wybierz pole pytania funkcji pytań i odpowiedzi.   Zwróć uwagę, że funkcja pytań i odpowiedzi pomaga przez wyświetlanie listy warunków, które pojawiają się w zestawie danych.
+1. Na pulpicie nawigacyjnym wybierz pole pytania funkcji Pytania i odpowiedzi.   Zwróć uwagę, że funkcja pytań i odpowiedzi pomaga przez wyświetlanie listy warunków, które pojawiają się w zestawie danych.
 2. Aby dodać pytanie do tej listy, wybierz ikonę koła zębatego w prawym górnym rogu usługi Power BI.  
    ![](media/service-q-and-a-create-featured-questions/pbi_gearicon2.jpg)
 3. Wybierz kolejno pozycje **Ustawienia** &gt; **Zestawy danych** &gt; **Przykład Retail Analysis** &gt; **Proponowane pytania funkcji pytań i odpowiedzi**.  

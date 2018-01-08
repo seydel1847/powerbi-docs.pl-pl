@@ -11,13 +11,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/30/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 6c096cfb76a1d8697cef3d157efcda41e57a1510
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: b18157f28dcaf2e9b130bdc3bd5547312e45a4f9
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="enable-cortana-to-access-power-bi-reports-and-their-underlying-datasets"></a>Włączanie Cortany, aby uzyskać dostęp do raportów usługi Power BI (i ich źródłowych zestawów danych)
 Znasz już [Wprowadzenie do Cortany i usługi Power BI](service-cortana-intro.md) (jeśli jeszcze tego nie znasz, może warto w pierwszej kolejności to przeczytać, a dopiero potem wrócić). A teraz chcesz wypróbować jej możliwości samodzielnie.  Zanim będzie można zadawać Cortanie pytania języka naturalnego i znajdować odpowiedzi w danych przechowywanych w ***raportach*** usługi Power BI, trzeba będzie spełnić kilka wymagań. W szczególności należy wykonać następujące czynności.
@@ -47,11 +47,10 @@ Musisz zalogować się do usługi Power BI (nie do programu Power BI Desktop) i 
 2. Zestawem danych skojarzonym z tym raportem jest **Sprzedaż firmy Contoso**.
    
     ![Zestaw danych sprzedaży firmy Contoso](media/service-cortana-enable/power-bi-identify-dataset.png)
-3. W prawym górnym rogu usługi Power BI, wybierz ikonę koła zębatego i wybierz pozycję **Ustawienia**.
+3. Po prawej stronie nazwy zestawu danych wybierz pozycję **wielokropek (...) > Ustawienia**.  
    
-    ![Wybierz Ustawienia](media/service-cortana-enable/power-bi-cortana-settings.png)
-4. Wybierz kartę **Zestawy danych** i wybierz zestaw danych, aby udostępnić go Cortanie na liście z lewej strony.
-5. Wybierz pozycję **Pytania i odpowiedzi i Cortana** > **Zezwalaj Cortanie na dostęp do tego zestawu danych** > **Zastosuj**.
+    ![Wybierz Ustawienia](media/service-cortana-enable/power-bi-settings-cortana.png)
+4. Wybierz pozycję **Pytania i odpowiedzi i Cortana** > **Zezwalaj Cortanie na dostęp do tego zestawu danych** > **Zastosuj**.
    
    ![Cortana uzyskuje dostęp do zestawu danych](media/service-cortana-enable/power-bi-cortana-enable-new.png)
    
@@ -67,16 +66,19 @@ Musisz zalogować się do usługi Power BI (nie do programu Power BI Desktop) i 
 ## <a name="add-your-power-bi-credentials-to-windows"></a>Dodawanie poświadczeń usługi Power BI do systemu Windows
 Musisz mieć uruchomiony system Windows 10 w wersji 1511 lub nowszej.
 
-1. Określ, która wersja systemu Windows 10 jest uruchomiona. Otwórz pozycje **Ustawienia** > **System** > **Informacje o**.
-   
+1. Określ, która wersja systemu Windows 10 jest uruchomiona. Otwórz pozycję **Ustawienia**.
+    ![Otwieranie ustawień systemu Windows](media/service-cortana-enable/power-bi-cortana-windows.png)
+
+    Następnie wybierz pozycję **System > Informacje**. W dolnej części ekranu zobaczysz pozycje **Specyfikacja systemu Windows > Wersja**
+
    * Jeśli masz system Windows 10 w wersji od 1511 (aktualizacja systemu Windows z 10 listopada 2015 r.) do 1607, dodaj swoje konto służbowe i konto Microsoft (wykonaj kroki 2 i 3 poniżej).
    * Jeśli masz system Windows 10 w wersji 1607 (aktualizacja systemu Windows z 10 lipca 2016 r.) lub nowszej, dodaj konto służbowe (wykonaj tylko krok 2 poniżej).
-2. Dodaj swoje konto służbowe dla Cortany.
+1. Dodaj swoje konto służbowe dla Cortany.
    
    * Otwórz pozycje **Ustawienia** > **Konta**.
      
        ![Ustawienia — Konta](media/service-cortana-enable/power-bi-windows-accounts.png)
-   * Przewiń do dołu i wybierz pozycję **Dodaj konto służbowe**.
+   * Przewiń do dołu i wybierz pozycję **Dodaj konto służbowe**. Lub na stronie **Konta** wybierz pozycję **Uzyskaj dostęp do miejsca pracy lub nauki > Połącz**.
      
      ![Dodawanie konta służbowego](media/service-cortana-enable/power-bi-add-work-account2.png)
 

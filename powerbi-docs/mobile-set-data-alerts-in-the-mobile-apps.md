@@ -1,6 +1,6 @@
 ---
 title: "Ustawianie alertów danych w aplikacjach mobilnych Power BI"
-description: "Dowiedz się, jak ustawić alerty w aplikacjach mobilnych Power BI i w usłudze Power BI, aby otrzymywać powiadomienia, gdy zmiany dotyczące danych na pulpicie nawigacyjnym przekroczą skonfigurowane progi."
+description: "Dowiedz się, jak ustawić alerty dotyczące danych w aplikacjach mobilnych Power BI, aby otrzymywać powiadomienia, gdy zmiany dotyczące danych na pulpicie nawigacyjnym przekroczą skonfigurowane limity."
 services: powerbi
 documentationcenter: 
 author: maggiesMSFT
@@ -15,22 +15,24 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 12/18/2017
 ms.author: maggies
-ms.openlocfilehash: 822285a38e08f173ff8cae69c8e7e8ad94957692
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: c6406a6d1ad4269352ce8421b91f4304fd35c78f
+ms.sourcegitcommit: ea247cb3cfc1cac076d4b076c1ad8e2fc37e15a1
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/19/2017
 ---
 # <a name="set-data-alerts-in-the-power-bi-mobile-apps"></a>Ustawianie alertów danych w aplikacjach mobilnych Power BI
 Dotyczy:
 
 | ![Telefon iPhone](media/mobile-set-data-alerts-in-the-mobile-apps/iphone-logo-50-px.png) | ![Tablet iPad](media/mobile-set-data-alerts-in-the-mobile-apps/ipad-logo-50-px.png) | ![Telefon z systemem Android](media/mobile-set-data-alerts-in-the-mobile-apps/android-phone-logo-50-px.png) | ![Tablet z systemem Android](media/mobile-set-data-alerts-in-the-mobile-apps/android-tablet-logo-50-px.png) | ![Tablet z systemem Android](media/mobile-set-data-alerts-in-the-mobile-apps/win-10-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |:--- |
-| Telefony iPhone |Tablety iPad |Telefony z systemem Android |Tablety z systemem Android |Urządzenia z systemem Windows 10 |
+| Telefony iPhone |Urządzenia iPad |Telefony z systemem Android |Tablety z systemem Android |Urządzenia z systemem Windows 10 |
 
-Możesz ustawić alerty w aplikacjach mobilnych Power BI i w usłudze Power BI, aby otrzymywać powiadomienia, gdy zmiany dotyczące danych na pulpicie nawigacyjnym przekroczą skonfigurowane progi. Alerty działają w przypadku kafelków prezentujących pojedyncze liczby, takich jak karty i mierniki, ale nie w przypadku danych przesyłanych strumieniowo. Alerty dotyczące danych można ustawić na urządzeniu przenośnym i wyświetlać je w usłudze Power BI oraz na odwrót. Tylko Ty możesz zobaczyć ustawione przez siebie alerty dotyczące danych, nawet jeśli udostępnisz pulpit nawigacyjny lub migawkę kafelka.
+Możesz ustawić alerty na pulpitach nawigacyjnych w aplikacjach mobilnych usługi Power BI i w usłudze Power BI. Alerty powiadamiają Cię, gdy zmiany dotyczące danych w kafelku przekroczą ustalone limity. Alerty działają w przypadku kafelków prezentujących pojedyncze liczby, takich jak karty i mierniki, ale nie w przypadku danych przesyłanych strumieniowo. Alerty dotyczące danych można ustawić na urządzeniu przenośnym i wyświetlać je w usłudze Power BI oraz na odwrót. Tylko Ty możesz zobaczyć ustawione przez siebie alerty dotyczące danych, nawet jeśli udostępnisz pulpit nawigacyjny lub migawkę kafelka.
+
+Alerty na kafelkach możesz ustawić, jeśli masz licencję usługi Power BI Pro lub bezpłatną licencję usługi Power BI, a udostępniony pulpit nawigacyjny działa z pojemnością warstwy Premium. 
 
 > [!WARNING]
 > Powiadomienia o alertach oparte na danych dostarczają informacji o danych. Jeśli urządzenie zostanie skradzione, zalecamy przejście do usługi Power BI i wyłączenie wszystkich reguł alertów opartych na danych. 

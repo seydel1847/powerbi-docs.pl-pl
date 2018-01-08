@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/05/2017
+ms.date: 12/19/2017
 ms.author: asaxton
-ms.openlocfilehash: 8527ffb7d9e16bcf55216bc6e0bcd60feec12e16
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 0b2e0208814fdd68ef7c6f0bcc1cf6ffa1fe42da
+ms.sourcegitcommit: a658b1c936e382f46a19eeb9cc26016cd7b1d756
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/20/2017
 ---
 # <a name="integrate-a-tile-into-an-app-user-owns-data"></a>Integrowanie kafelka z aplikacją (dane należą do użytkownika)
 Dowiedz się, jak integrować lub osadzać kafelek w aplikacji internetowej przy użyciu wywołań interfejsu API REST wraz z interfejsem API języka JavaScript usługi Power BI podczas osadzania dla organizacji.
@@ -236,9 +236,11 @@ https://app.powerbi.com/embed?dashboardId={dashboard_id}&tileId={tile_id}&groupI
 ```
 
 ## <a name="next-steps"></a>Następne kroki
-Przykładowa aplikacja jest dostępna w witrynie GitHub do przeglądu. Aby uzyskać więcej informacji, zobacz [integrate-tile-web-app](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-tile-web-app).
+[Osadzanie kafelka](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Tile-Embed) w witrynie typu Wiki środowiska Power BI-JavaScript
 
-Aby uzyskać więcej informacji dotyczących interfejsu API języka JavaScript, zobacz [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript) (Interfejs API języka JavaScript usługi Power BI).
+[Interfejs API JavaScript usługi Power BI](https://github.com/Microsoft/PowerBI-JavaScript).
+
+Przykład [integrate-tile-web-app](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-tile-web-app) w witrynie GitHub.
 
 Masz więcej pytań? [Zadaj pytanie społeczności usługi Power BI](http://community.powerbi.com/)
 

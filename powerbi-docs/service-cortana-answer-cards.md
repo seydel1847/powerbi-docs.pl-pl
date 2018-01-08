@@ -15,20 +15,20 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/29/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 2abaa2ae00b353af46c267083f879cbf9536b397
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 79e10c7d47eb5105e0c3e79bd3451315eae6d27e
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="use-power-bi-service-or-power-bi-desktop-to-create-a-custom-answer-page-for-cortana"></a>Tworzenie niestandardowej strony odpowiedzi dla Cortany przy użyciu usługi Power BI lub programu Power BI Desktop
 Korzystaj z pełnego zestawu funkcji usługi Power BI, aby tworzyć specjalne strony raportu, nazywane *stronami odpowiedzi Cortany* (a czasami „kartami odpowiedzi Cortany”), przeznaczone specjalnie do odpowiadania na pytania Cortany.
 
 ![](media/service-cortana-answer-cards/power-bi-cortana.png)
 
-> [!NOTE]
+> [!IMPORTANT]
 > Jeśli sprawdzasz wersję zapoznawczą Cortany i **pulpitu nawigacyjnego** usługi Power BI, możesz pominąć resztę tego artykułu. Nie ma wymagań dotyczących instalacji dla Cortany, aby mogła wyszukiwać pulpity nawigacyjne usługi Power BI.
 > 
 > 
@@ -63,7 +63,7 @@ Dostępne są 4 dokumenty, które przeprowadzą Cię przez proces konfigurowania
    > Aby zwiększyć dokładność wyników, unikaj używania wyrazów, które są także nazwami kolumn.
    > 
    > 
-6. Opcjonalnie, jeśli raport zawiera filtry na poziomie strony, możesz ustawić opcję **Wymagaj wybrania jednej pozycji**. Cortana wyświetli ten raport jako odpowiedź tylko wtedy, gdy jeden, i tylko jeden, z elementów filtru zostanie określony w pytaniu.
+6. Opcjonalnie, jeśli raport zawiera filtry na poziomie strony, przydatne może być ustawienie opcji **Wymagaj wybrania jednej pozycji**. Cortana wyświetli ten raport jako odpowiedź tylko wtedy, gdy jeden, i tylko jeden, z elementów filtru zostanie określony w pytaniu. Opcję **Wymagaj wybrania jednej pozycji** można znaleźć u dołu okienka **Filtry**.
    
    > [!NOTE]
    > Nie trzeba ustawiać opcji **Wymagaj wybrania jednej pozycji**, aby poprosić Cortanę o wyświetlenie raportu z filtrami na poziomie strony.  Na przykład pytanie „pokaż sprzedaż dla Charlotte Lindseys” spowoduje wyświetlenie strony odpowiedzi niezależnie od ustawienia Wymagaj wybrania jednej pozycji.

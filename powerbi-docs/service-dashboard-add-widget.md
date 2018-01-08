@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/31/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 20760bec773c6f1d2a3cbbfaefd0651b97cbe601
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 3aa70a6382164cb8284e1a5f61ae73f66e54d2f3
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="add-image-text-video-and-more-to-your-dashboard"></a>Dodawanie obrazu, tekstu, wideo itd. do pulpitu nawigacyjnego
 <iframe width="560" height="315" src="https://www.youtube.com/embed/e2PD8m1Q0vU" frameborder="0" allowfullscreen></iframe>
@@ -42,7 +42,7 @@ Kontrolka **Dodawanie kafelka** umożliwia bezpośrednie dodanie obrazu, pola te
 Załóżmy, że chcesz umieścić logo swojej firmy na swoim pulpicie nawigacyjnym lub jakiś inny obraz. Musisz zapisać plik obrazu w trybie online i połączyć się z nim. Upewnij się, że specjalne poświadczenia nie są wymagane do uzyskania dostępu do pliku obrazu. Na przykład usługa OneDrive i program SharePoint wymagają uwierzytelniania, dzięki czemu obrazy tam przechowywane nie mogą zostać dodane do pulpitu nawigacyjnego w ten sposób.  
 
 1. Wybierz pozycje **Obraz** > **Dalej**.
-2. Dodawanie informacji o obrazie do okienka **Szczegóły kafelka**.
+2. Dodaj informacje o obrazie w oknie **Dodawanie kafelka obrazu**.
    
     ![](media/service-dashboard-add-widget/pbi-widget-add-image-new.png)
    
@@ -56,16 +56,16 @@ Załóżmy, że chcesz umieścić logo swojej firmy na swoim pulpicie nawigacyjn
 ## <a name="add-a-text-box-or-dashboard-heading"></a>Dodawanie pola tekstowego lub nagłówka pulpitu nawigacyjnego
 1. Wybierz pozycje **Pole tekstowe > Dalej**.
    
-    ![](media/service-dashboard-add-widget/power-bi-add-text-box-new.png)
-   
    > **UWAGA**: Aby dodać nagłówek pulpitu nawigacyjnego, wpisz swój nagłówek w polu tekstowym i zwiększ czcionki.
-   > 
    > 
 2. Formatowanie pola tekstowego:
    
    * aby wyświetlić tytuł powyżej pola tekstowego, wybierz pozycję **Wyświetl tytuł i podtytuł** oraz wpisz tytuł lub podtytuł.
    * wprowadź i sformatuj zawartość pola tekstowego.  
-   * Opcjonalnie ustaw niestandardowy link dla tytułu.  Jednak w tym przykładzie dodano hiperlink w samym polu tekstowym, więc pozostaw pole **Ustaw link niestandardowy** niezaznaczone.
+   * Opcjonalnie ustaw niestandardowy link dla tytułu. Link niestandardowy może prowadzić do witryny zewnętrznej lub pulpitu nawigacyjnego albo raportu w obszarze roboczym. Jednak w tym przykładzie dodano hiperlinki w samym polu tekstowym, więc pole **Ustaw link niestandardowy** pozostanie niezaznaczone.
+
+     ![](media/service-dashboard-add-widget/power-bi-add-textbox.png)
+   
 3. Wybierz pozycję **Zastosuj**.  Na pulpicie nawigacyjnym zmień rozmiar i przenieś pole tekstowe odpowiednio do potrzeb.
    
    ![](media/service-dashboard-add-widget/pbi-widget-text-added-new.png)
@@ -74,7 +74,7 @@ Załóżmy, że chcesz umieścić logo swojej firmy na swoim pulpicie nawigacyjn
 Po dodaniu kafelka wideo serwisu YouTube lub Vimeo do pulpitu nawigacyjnego odtwarzanie wideo odbywa się bezpośrednio na pulpicie nawigacyjnym.
 
 1. Wybierz pozycje **Wideo > Dalej**.
-2. Dodaj informacje o wideo do okienka **Szczegóły kafelka**.
+2. Dodaj informacje o filmie wideo w okienku **Dodawanie kafelka wideo**.
    
     ![](media/service-dashboard-add-widget/power-bi-add-video-new.png)
    
@@ -100,7 +100,7 @@ Wklej lub wpisz dowolną zawartość HTML.  Usługa Power BI doda ją, jako kafe
    
    * aby wyświetlić tytuł powyżej kafelka, wybierz pozycję *Wyświetl tytuł i podtytuł* oraz wpisz tytuł lub podtytuł.
    * wprowadź kod osadzania. W tym przykładzie kopiujemy i wklejamy kanał informacyjny usługi Twitter.
-   * Wybierz pozycję **Zastosuj**.  Na pulpicie nawigacyjnym zmień rozmiar i przenieś kafelek treści internetowej odpowiednio do potrzeb.
+3. Wybierz pozycję **Zastosuj**.  Na pulpicie nawigacyjnym zmień rozmiar i przenieś kafelek treści internetowej odpowiednio do potrzeb.
      
       ![](media/service-dashboard-add-widget/pbi-widget-code-added-new.png)
 
@@ -157,5 +157,5 @@ Aby wprowadzić zmiany na kafelku...
 ## <a name="next-steps"></a>Następne kroki
 [Kafelki pulpitu nawigacyjnego](service-dashboard-tiles.md)
 
-Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/).
+Masz więcej pytań? [Odwiedź Społeczność usługi Power BI](http://community.powerbi.com/).
 

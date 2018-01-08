@@ -1,6 +1,6 @@
 ---
 title: Dodawanie hiperlinku do pola tekstowego w raporcie
-description: "Dodawanie hiperlinku do pola tekstowego w usłudze Power BI"
+description: "Dodawanie hiperlinku do pola tekstowego w usłudze Power BI i programie Desktop"
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -16,16 +16,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/08/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 846e6625345bbecb2611615f929f0b55338830e2
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 9533985238fa9fb40bbab4e9ddd459aaaaffc135
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="add-a-hyperlink-to-a-text-box-in-a-report"></a>Dodawanie hiperlinku do pola tekstowego w raporcie
-Pola tekstowe mogą być dodawane do raportów, przypinane do pulpitów nawigacyjnych z raportów i dodawane bezpośrednio do pulpitów nawigacyjnych. Hiperlinki można dodać do pola tekstowego, niezależnie od tego, gdzie się ono znajduje. **W tym temacie omówiono pola tekstowe w raportach.**
+Pola tekstowe mogą być dodawane do raportów, przypinane do pulpitów nawigacyjnych z raportów i dodawane bezpośrednio do pulpitów nawigacyjnych. Hiperlinki można dodać do pola tekstowego, niezależnie od tego, gdzie się ono znajduje. **W tym temacie omówiono pola tekstowe w raportach w usłudze Power BI (nie w programie Power BI Desktop).**
 
 > **UWAGA**: Aby uzyskać informacje o hiperlinkach w tabelach i macierzach usługi Power BI, zobacz [Hiperlinki w tabelach](power-bi-hyperlinks-in-tables.md). Informacje na temat dodawania pól tekstowych z **pulpitu nawigacyjnego**, zobacz [Dodawanie kafelka bezpośrednio z pulpitu nawigacyjnego](service-dashboard-add-widget.md). 
 > 
@@ -47,7 +47,7 @@ Pola tekstowe mogą być dodawane do raportów, przypinane do pulpitów nawigacy
    
    ![](media/service-add-hyperlink-to-text-box/power-bi-test-link.png)
    
-   * W polu tekstowym wybierz hiperlink, aby wyświetlić adres URL
+   * Umieść kursor w dowolnym miejscu wyróżnionego tekstu, aby wyświetlić adres URL.  
      
       ![](media/service-add-hyperlink-to-text-box/power-bi-hyperlink-edit.png)
    * Wybierz adres URL, aby otworzyć stronę w nowym oknie przeglądarki.

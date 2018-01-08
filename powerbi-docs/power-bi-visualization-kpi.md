@@ -1,6 +1,6 @@
 ---
 title: "Wizualizacje kluczowych wskaźników wydajności (samouczek)"
-description: "tworzenie kluczowych wskaźników wydajności w usłudze power bi"
+description: "tworzenie kluczowego wskaźnika wydajności w usłudze Power BI i programie Power BI Desktop"
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/09/2017
+ms.date: 12/21/2017
 ms.author: mihart
-ms.openlocfilehash: 23b322c9fbc4c203a5b20aa45bb41c2cb6cb7f0f
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: f0efc9e18c5d23c6e52768b4c8e30233ff433356
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="kpi-visuals-tutorial"></a>Wizualizacje kluczowych wskaźników wydajności (samouczek)
 Kluczowy wskaźnik wydajności (KPI) to wizualna podpowiedź przedstawiająca postęp w realizacji mierzalnego celu. Więcej informacji na temat kluczowych wskaźników wydajności można uzyskać w witrynie [Microsoft Developer Network](https://msdn.microsoft.com/library/hh272050).
@@ -48,22 +48,26 @@ Możesz też obejrzeć klip wideo, w którym pokażemy Ci, jak utworzyć pojedyn
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xmja6EpqaO0?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
-1. Wybierz pozycję **Sales > Total Units This Year** (Sprzedaż > Całkowita liczba jednostek w bieżącym roku).  To będzie wskaźnik.
-2. Dodaj pozycję **Time > Month** (Czas > Miesiąc).  To będzie reprezentacja trendu.
-3. WAŻNE: Posortuj wykres według **miesięcy**. Po przekształceniu wizualizacji w kluczowy wskaźnik wydajności opcja sortowania będzie niedostępna.
-4. Przekształć wizualizację w kluczowy wskaźnik wydajności, wybierając ikonę kluczowego wskaźnika wydajności w okienku Wizualizacje.
+1. Otwórz raport w [widoku do edycji](service-reading-view-and-editing-view.md) i [dodaj nową stronę](power-bi-report-add-page.md).    
+2. Wybierz pozycję **Sales > Total Units This Year** (Sprzedaż > Całkowita liczba jednostek w bieżącym roku).  To będzie wskaźnik.
+3. Dodaj pozycję **Time > Month** (Czas > Miesiąc).  To będzie reprezentacja trendu.
+4. WAŻNE: Posortuj wykres według **miesięcy**. Po przekształceniu wizualizacji w kluczowy wskaźnik wydajności opcja sortowania będzie niedostępna.
+
+    ![](media/power-bi-visualization-kpi/power-bi-sort-by-month.png)
+5. Przekształć wizualizację w kluczowy wskaźnik wydajności, wybierając ikonę kluczowego wskaźnika wydajności w okienku Wizualizacje.
    
     ![](media/power-bi-visualization-kpi/power-bi-kpi-icon.png)
-5. Dodaj cel. Dodaj wartość sprzedaży z ostatniego roku jako cel. Przeciągnij pozycję **Total Units Last Year** (Całkowita liczba jednostek w ostatnim roku) do pola **Cele do osiągnięcia**.
+6. Dodaj cel. Dodaj wartość sprzedaży z ostatniego roku jako cel. Przeciągnij pozycję **Total Units Last Year** (Całkowita liczba jednostek w ostatnim roku) do pola **Cele do osiągnięcia**.
    
     ![](media/power-bi-visualization-kpi/power-bi-kpi.png)
-6. Opcjonalnie sformatuj kluczowy wskaźnik wydajności, wybierając ikonę wałka do malowania w celu otwarcia okienka Formatowanie.
+7. Opcjonalnie sformatuj kluczowy wskaźnik wydajności, wybierając ikonę wałka do malowania w celu otwarcia okienka Formatowanie.
    
    * **Wskaźnik** — steruje jednostkami wyświetlania wskaźnika i liczbą miejsc dziesiętnych.
    * **Oś trendu** — jeśli zostanie ustawiona na wartość **Wł.**, oś trendu jest wyświetlana jako tło wizualizacji kluczowego wskaźnika wydajności.  
    * **Cele** — jeśli zostanie ustawiona na wartość **Wł.**, wizualizacja wyświetla cel i odległość od celu w postaci wartości procentowej.
-   * **Stan** — niektóre kluczowe wskaźniki wydajności są postrzegane jako *lepsze* dla wyższych wartości, a niektóre jako *lepsze* dla niższych wartości. Na przykład dochody i czas oczekiwania. Zwykle wyższa wartość dochodów jest lepsza niż wyższa wartość czasu oczekiwania, która przeważnie jest uznawana za gorszą. Ten przełącznik umożliwia wybranie zachowania kluczowego wskaźnika wydajności. Wartością domyślną wyboru stanu jest **wyższa wartość jest lepsza**.
-7. Po odpowiednim skonfigurowaniu kluczowego wskaźnika wydajności [przypnij go do pulpitu nawigacyjnego](service-dashboard-pin-tile-from-report.md).
+   * **Kodowanie kolorami > Kierunek** — niektóre kluczowe wskaźniki wydajności są postrzegane jako *lepsze* dla wyższych wartości, a niektóre jako *lepsze* dla niższych wartości. Na przykład zarobki w porównaniu do czasu oczekiwania. Zwykle wyższa wartość dochodów jest lepsza niż wyższa wartość czasu oczekiwania. Wybierz pozycję **high is better** (wyższa wartość jest lepsza) i opcjonalnie zmień ustawienia kolorów.
+
+1. Po odpowiednim skonfigurowaniu kluczowego wskaźnika wydajności [przypnij go do pulpitu nawigacyjnego](service-dashboard-pin-tile-from-report.md).
 
 Kluczowe wskaźniki wydajności są również dostępne na urządzeniach przenośnych, dzięki czemu możesz na bieżąco śledzić stan swojej firmy.
 

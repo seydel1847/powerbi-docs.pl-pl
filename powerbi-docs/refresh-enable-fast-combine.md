@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 11f233321f9be1db5afccad02edbe33900a555ca
-ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
+ms.openlocfilehash: 1e68f7df5214e038df8bcd1584acb815c0af98bf
+ms.sourcegitcommit: 70e9239e375ae03744fb9bc122d5fc029fb83469
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/23/2017
+ms.lasthandoff: 12/22/2017
 ---
 # <a name="disable-privacy-setting-in-power-bi-gateway---personal"></a>Wyłączanie ustawień prywatności w bramie Power BI Gateway — Personal
 > [!NOTE]
@@ -59,7 +59,8 @@ Aby włączyć funkcję szybkiego łączenia dla bramy osobistej, wykonaj nastę
     Jeśli nie jesteś administratorem, będzie to następująca lokalizacja.
    
     <pre><code>C:\Users\[username]\AppData\Local\Power BI Personal Gateway\1.0\Configurator\Connector</code></pre>
-2. Dodaj element **&lt;EnableFastCombine&gt;** z wartością „true” do pliku konfiguracyjnego. Dodanie tego elementu spowoduje włączenie funkcji **szybkiego łączenia**.
+    
+2. Dodaj element **&lt;EnableFastCombine&gt;** z wartością „true” do pliku konfiguracji. Dodanie tego elementu spowoduje włączenie funkcji **szybkiego łączenia**.
    
    <pre><code>&lt;EnableFastCombine&gt;true&lt;/EnableFastCombine&gt;</code></pre>
    
@@ -77,7 +78,8 @@ Aby włączyć funkcję szybkiego łączenia dla bramy osobistej, wykonaj nastę
     Jeśli nie jesteś administratorem, będzie to następująca lokalizacja.
    
     <pre><code>C:\Users\[username]\AppData\Local\Power BI Personal Gateway\1.0\Configurator\Connector</code></pre>
-2.Usuń element **&lt;EnableFastCombine&gt;** z pliku konfiguracyjnego. Usunięcie tego elementu spowoduje wyłączenie funkcji **szybkiego łączenia**.
+
+2. Usuń element **&lt;EnableFastCombine&gt;** z pliku konfiguracji. Usunięcie tego elementu spowoduje wyłączenie funkcji **szybkiego łączenia**.
 3. Zamknij i ponownie uruchom ekran konfiguracji bramy.
 4. Stan informujący, że funkcja **szybkiego łączenia** jest włączona, nie będzie już wyświetlany.
 

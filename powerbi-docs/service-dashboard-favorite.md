@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/08/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 9dc9cb883e1d62c282501e628f52c13267d830b6
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 4c4c31f6289f6b3d12b619b7c6c297d861177fbf
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="favorite-dashboards-in-the-power-bi-service"></a>Ulubione pulpity nawigacyjne w usłudze Power BI
 Po ustawieniu pulpitu nawigacyjnego jako *ulubionego* można uzyskiwać do niego dostęp we wszystkich obszarach roboczych.  Ulubione to zwykle elementy odwiedzane najczęściej.
@@ -32,7 +32,7 @@ Po ustawieniu pulpitu nawigacyjnego jako *ulubionego* można uzyskiwać do niego
 > 
 > 
 
-Możesz również wybrać pojedynczy pulpit nawigacyjny jako [Proponowany pulpit nawigacyjny](service-dashboard-featured.md) w usłudze Power BI.
+Możesz również wybrać pojedynczy pulpit nawigacyjny jako [proponowany pulpit nawigacyjny](service-dashboard-featured.md) w usłudze Power BI.
 
 ## <a name="add-a-dashboard-as-a-favorite"></a>Dodawanie pulpitu jako *ulubionego*
 Obejrzyj, jak Amanda dodaje ulubione do swojego obszaru roboczego, a następnie wykonaj szczegółowe instrukcje wyświetlane poniżej filmu wideo, aby przećwiczyć tę procedurę samodzielnie.
@@ -50,7 +50,7 @@ Obejrzyj, jak Amanda dodaje ulubione do swojego obszaru roboczego, a następnie 
    ![](media/service-dashboard-favorite/power-bi-dashboard-favorite.png)
 
 ## <a name="working-with-favorites"></a>Praca z *ulubionymi*
-1. Aby wyświetlić pięć najnowszych ulubionych w dowolnym obszarze roboczym, kliknij strzałkę po prawej stronie przycisku **Ulubione**.  W tym miejscu można wybrać ulubiony pulpit nawigacyjny, aby go otworzyć. Wyświetlana jest lista zawierająca tylko pięć najnowszych ulubionych (w porządku alfabetycznym). Jeśli masz więcej niż pięć ulubionych, wybierz pozycję **Pokaż wszystkie**, aby otworzyć ekran Ulubione (patrz pkt. 2 poniżej). 
+1. Aby uzyskać dostęp do ulubionych, w dowolnym obszarze roboczym kliknij strzałkę po prawej stronie przycisku **Ulubione**.  W tym miejscu można wybrać ulubiony pulpit nawigacyjny, aby go otworzyć. Wyświetlana jest lista zawierająca tylko pięć elementów ulubionych (w porządku alfabetycznym). Jeśli masz więcej niż pięć ulubionych, wybierz pozycję **Pokaż wszystkie**, aby otworzyć ekran Ulubione (zobacz pkt 2 poniżej). 
    
    ![](media/service-dashboard-favorite/power-bi-favorite-flyout-new.png)
 2. Aby wyświetlić **wszystkie** pulpity nawigacyjne, które zostały dodane jako ulubione, w lewym okienku nawigacyjnym wybierz pozycję **Ulubione** lub ikonę Ulubione ![](media/service-dashboard-favorite/power-bi-favorites-icon.png).  
@@ -60,7 +60,7 @@ Obejrzyj, jak Amanda dodaje ulubione do swojego obszaru roboczego, a następnie 
    W tym miejscu możesz wybrać pulpit nawigacyjny, aby go otworzyć, lub udostępnić pulpit nawigacyjny współpracownikom.
 
 ## <a name="unfavorite-a-dashboard"></a>Usuwanie pulpitu nawigacyjnego z ulubionych
-Nie korzystasz już tak często z pulpitu nawigacyjnego?  Możesz usunąć go z ulubionych. Usunięcie pulpitu nawigacyjnego z ulubionych spowoduje jego usunięcie z ulubionych, ale nie z usługi Power BI.
+Nie korzystasz już tak często z pulpitu nawigacyjnego?  Możesz usunąć go z ulubionych. Usunięcie pulpitu nawigacyjnego z ulubionych spowoduje jego usunięcie z listy ulubionych, ale nie z usługi Power BI.
 
 1. W lewym okienku nawigacji wybierz pozycję **Ulubione**, aby otworzyć ekran **Ulubione**.
    

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/05/2017
 ms.author: maggies
-ms.openlocfilehash: 1fc6e666753ae45931604a1113f340115ec18269
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: c82b5c302511d5c82ae0048b8dce4f227f6fc5b1
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Często zadawane pytania dotyczące usługi Power BI
 * Jeśli masz inne pytania, [zadaj je społeczności usługi Power BI](http://community.powerbi.com/).
@@ -125,7 +125,7 @@ Dostępne są następujące zasoby ułatwiające rozpoczęcie pracy:
 * Klipy wideo dotyczące rozpoczęcia pracy na naszym [kanale YouTube](https://www.youtube.com/user/mspowerbi)
 * Artykuł [[Wprowadzenie do usługi Power BI](service-get-started.md)](service-get-started.md)
 * [Dołącz do naszej społeczności](https://community.powerbi.com/) i zadawaj pytania
-* Aby uzyskać więcej sugestii, zobacz [10 porad dotyczących uzyskiwania pomocy](service-tips-for-finding-help.md).
+* Aby uzyskać więcej sugestii, zobacz [10 porad dotyczących uzyskiwania pomocy](service-tips-for-finding-help.md)
 
 ## <a name="what-browsers-does-power-bi-support"></a>Jakie przeglądarki obsługuje usługa Power BI?
 Oto pełna lista [obsługiwanych przeglądarek dla usługi Power BI](service-browser-support.md).
@@ -137,6 +137,11 @@ Oto pełna lista [regionów i języków obsługiwanych przez usługę Power BI](
 Licencje usługi Power BI Pro można kupić bezpośrednio lub porozmawiać z przedstawicielem w witrynie [www.powerbi.com](http://www.powerbi.com).
 
 Można również znaleźć [partnera firmy Microsoft](https://partner.microsoft.com/), który pomoże w zaimplementowaniu usługi Power BI.
+
+## <a name="what-happens-if-my-power-bi-pro-license-expires"></a>Co się stanie, jeśli moja licencja usługi Power BI Pro wygaśnie?
+Po wygaśnięciu licencji usługi Power BI Pro następuje 30-dniowy okres prolongaty.
+
+Usługa Power BI Pro ma taki sam cykl życia subskrypcji jak usługa Office 365. Aby uzyskać więcej informacji, zobacz [Co się stanie z moimi danymi i z moim dostępem po zakończeniu subskrypcji usługi Office 365 dla firm?](https://support.office.com/en-us/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3)
 
 ## <a name="does-power-bi-meet-national-regional-and-industry-specific-compliance-requirements"></a>Czy usługa Power BI spełnia krajowe, regionalne i branżowe wymagania dotyczące zgodności?
 Dowiedz się więcej na temat zgodności usługi Power BI na stronie [Centrum zaufania firmy Microsoft](http://go.microsoft.com/fwlink/?LinkId=785324).

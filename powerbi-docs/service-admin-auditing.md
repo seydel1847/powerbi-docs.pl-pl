@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/28/2017
+ms.date: 12/12/2017
 ms.author: asaxton
-ms.openlocfilehash: 49df0d0a44ceae3e36f45f6523f39a0b5bb1b6a0
-ms.sourcegitcommit: 7742f952c20695dfb475f74965c0065b02c01521
+ms.openlocfilehash: c4c62ab5c24b7abe2760535da0a6cf69982c7174
+ms.sourcegitcommit: 2bd3c16fd300e41c6e3de29a24543491c1d53354
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/29/2017
+ms.lasthandoff: 12/14/2017
 ---
 # <a name="using-auditing-within-your-organization"></a>Korzystanie z inspekcji w ramach organizacji
 
@@ -35,6 +35,16 @@ Dane inspekcji możesz filtrować według zakresu dat, użytkownika, pulpitu naw
 
 > [!NOTE]
 > Funkcja inspekcji w usłudze Power BI jest dostępna w wersji zapoznawczej we wszystkich obszarach danych.
+
+## <a name="requirements"></a>Wymagania
+Aby uzyskać dostęp do dzienników inspekcji, musisz spełnić następujące wymagania:
+
+- Aby uzyskać dostęp do sekcji inspekcji w Centrum zabezpieczeń i zgodności usługi Office 365, musisz mieć licencję usługi Exchange Online (uwzględnioną w subskrypcjach E3 i E5 usługi Office 365 Enterprise).
+- Musisz być administratorem globalnym lub mieć rolę administratora programu Exchange, która zapewnia dostęp do dziennika inspekcji. 
+
+  Role administratora programu Exchange są kontrolowane za pośrednictwem Centrum administracyjnego programu Exchange. Aby uzyskać więcej informacji, zobacz [Uprawnienia w usłudze Exchange Online](https://technet.microsoft.com/library/jj200692(v=exchg.150).aspx).
+
+- Jeśli masz dostęp do dziennika inspekcji, ale nie jesteś administratorem globalnym ani administratorem usługi Power BI, nie będziesz mieć dostępu do portalu administracyjnego usługi Power BI. W takim przypadku musisz uzyskać bezpośredni link do Centrum zabezpieczeń i zgodności usługi Office 365.
 
 ## <a name="enabling-auditing-functionality-in-the-power-bi-admin-portal"></a>Włączanie funkcji inspekcji w portalu administracyjnym usługi Power BI
 
@@ -70,8 +80,8 @@ Aby przeprowadzić inspekcję dzienników usługi Power BI, odwiedź Centrum zab
    ![](media/service-admin-auditing/powerbi-admin.png)
 
 3. Wybierz pozycję **Dzienniki inspekcji**.
-4. 
-5. Wybierz opcję **Przejdź do Centrum administracyjnego usługi O365**.
+ 
+4. Wybierz opcję **Przejdź do Centrum administracyjnego usługi O365**.
    
    ![](media/service-admin-auditing/audit-log-o365-admin-center.png)
 

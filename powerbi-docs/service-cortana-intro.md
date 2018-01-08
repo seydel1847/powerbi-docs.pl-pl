@@ -11,13 +11,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/25/2017
+ms.date: 12/13/2017
 ms.author: mihart
-ms.openlocfilehash: 458c6663697f8c968915c54dba1c80be422c0f80
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: d64ab6b9a94171c99eb0956efce89f59b5174d41
+ms.sourcegitcommit: 2bd3c16fd300e41c6e3de29a24543491c1d53354
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/14/2017
 ---
 # <a name="quickly-find-and-view-your-power-bi-data-using-cortana-for-power-bi"></a>Szybko znajduj i wyświetlaj dane usługi Power BI za pomocą Cortany dla usługi Power BI
 Cortana zapewnia błyskawiczne odpowiedzi na ważne pytania biznesowe na wszystkich Twoich urządzeniach z systemem Windows 10. Dzięki integracji z usługą Power BI Cortana może pobierać kluczowe informacje bezpośrednio z pulpitów nawigacyjnych i raportów usługi Power BI. Potrzebny jest tylko system Windows 10 w wersji z listopada 2015 r. lub nowszej, Cortana, usługa Power BI i dostęp do co najmniej jednego zestawu danych.
@@ -85,13 +85,19 @@ Po zadaniu pytania w Cortanie usługa Power BI udziela odpowiedzi, korzystając 
      ![](media/service-cortana-intro/power-bi-cortana-searchbox.png)
 2. Gdy Cortana będzie gotowa, zadaj pytanie głosowo lub wpisz je w pasku wyszukiwania Cortany. Cortana wyświetli dostępne wyniki. Jeśli istnieje pulpit nawigacyjny usługi Power BI zgodny z pytaniem, zostanie on wyświetlony w obszarze **Najlepsze dopasowanie** lub **Power BI**.
    
-     ![Wyszukiwanie Cortany znajduje pulpit nawigacyjny usługi Power BI](media/service-cortana-intro/power-bi-cortana-searching2.png "Cortana znajduje pulpit nawigacyjny usługi Power BI")
+     ![Wyszukiwanie Cortany znajduje pulpit nawigacyjny usługi Power BI](media/service-cortana-intro/power-bi-cortana-search-hr.png "Cortana znajduje pulpit nawigacyjny usługi Power BI")
    
    > [!NOTE]
    > Obecnie obsługiwany jest tylko język angielski.
    > 
    > 
-3. Otwórz pulpit nawigacyjny w usłudze Power BI, wybierając jego nazwę. 
+3. Wybierz pulpit nawigacyjny, aby otworzyć go w Cortanie.
+
+    ![Wybieranie pulpitu nawigacyjnego usługi Power BI](media/service-cortana-intro/power-bi-cortana-dashboard.png "Wybieranie pulpitu nawigacyjnego usługi Power BI")
+
+    Układ można zmienić, [edytując *widok dla telefonu* na pulpicie nawigacyjnym](service-create-dashboard-mobile-phone-view.md). 
+
+1. Z poziomu Cortany można również korzystać z opcji otwierania pulpitu nawigacyjnego w usłudze Power BI lub usłudze Power BI dla urządzeń przenośnych. Otwórz pulpit nawigacyjny w usłudze Power BI, wybierając pozycję **Otwórz w Internecie**. 
    
    ![Otwieranie pulpitu nawigacyjnego z poziomu Cortany](media/service-cortana-intro/power-bi-dashboard-opens.png "Otwieranie pulpitu nawigacyjnego z poziomu Cortany")   
 4. Teraz za pomocą Cortany wyszukajmy raport. Musimy znać [raport, który ma stronę z kartą odpowiedzi Cortany](service-cortana-answer-cards.md). W tym przykładzie raport o nazwie „Cortana-New-Stores” (Cortana — nowe sklepy) ma stronę karty odpowiedzi Cortany o nazwie „cortana stores” (cortana — sklepy).  

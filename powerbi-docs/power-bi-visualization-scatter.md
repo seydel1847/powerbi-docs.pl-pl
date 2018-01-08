@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/27/2017
+ms.date: 12/23/2017
 ms.author: mihart
-ms.openlocfilehash: c1801db4135d6d97a940e593de37ca2886194b53
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 17073390cf19b742730712a8d39a353c7d541cd6
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="scatter-charts-and-bubble-charts-in-power-bi-tutorial"></a>Wykresy punktowe i bąbelkowe w usłudze Power BI (samouczek)
 Wykres punktowy zawsze ma dwie osie wartości: jeden zestaw danych liczbowych jest wyświetlany wzdłuż osi poziomej, a drugi wzdłuż osi pionowej. Na wykresie kreślone są punkty występujące na przecięciu wartości liczbowych x i y, co zapewnia połączenie tych par wartości w pojedynczych punktach danych. Te punkty danych mogą być rozproszone równomiernie lub nierównomiernie wzdłuż osi poziomej, w zależności od danych.
@@ -47,25 +47,30 @@ Na wykresie bąbelkowym zamiast punktów danych używane są bąbelki. *Rozmiar*
 * Są używane ćwiartki.
 
 ## <a name="create-a-scatter-chart"></a>Tworzenie wykresu punktowego
+Obejrzyj ten film wideo, aby zobaczyć, jak Will tworzy wykres punktowy, a następnie wykonaj poniższe kroki w celu utworzenia własnego wykresu.
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PVcfPoVE3Ys?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
-1. Otwórz przykład Retail Analysis w [widoku do edycji](service-interact-with-a-report-in-editing-view.md) i [dodaj nową stronę raportu](power-bi-report-add-page.md).
-2. W okienku Pola wybierz pozycję **Sales** > **Sales Per Sq Ft** i **Sales** > **Total Sales Variance %**.
-3. W okienku Pola wybierz pozycję **District > District**.
+
+W poniższych instrukcjach używane są przykładowe dane dotyczące analizy handlu detalicznego. Aby je wykonać, [pobierz przykład](sample-datasets.md) dla usługi Power BI (app.powerbi.com) lub dla programu Power BI Desktop.   
+
+1. Rozpocznij od [pustej strony raportu](power-bi-report-add-page.md) i wybierz pola **Sales** \> **Sales Per Sq Ft** oraz **Sales** > **Total Sales Variance %**. Jeśli używasz usługi Power BI, upewnij się, że raport jest otwarty w [widoku do edycji](service-interact-with-a-report-in-editing-view.md).
+ 
+2. W okienku Pola wybierz pozycję **District > District**.
    
-    ![](media/power-bi-visualization-scatter/pbi_scatter_chart_pre_convert.png)
+    ![](media/power-bi-visualization-scatter/power-bi-bar-chart.png)
 4. Przekonwertuj na wykres punktowy. W okienku wizualizacji wybierz ikonę wykresu punktowego.
    ![](media/power-bi-visualization-scatter/pbi_scatter_chart_icon.png).
 5. Przeciągnij pole **District** z obszaru **Szczegóły** do obszaru **Legenda**.
    
-    ![](media/power-bi-visualization-scatter/pbi_scatter_chart_new.png)
+    ![](media/power-bi-visualization-scatter/power-bi-scatter.png)
 
 W efekcie powstał wykres punktowy, który przedstawia wartości Total Sales Variance % wzdłuż osi Y i Sales Per Square Feet wzdłuż osi X.  Kolory punktów danych reprezentują poszczególne regiony.  Teraz dodamy trzeci wymiar.
 
 ## <a name="create-a-bubble-chart"></a>Tworzenie wykresu bąbelkowego
 1. Z okienka Pola przeciągnij pozycję **Sales** > **This Year Sales** > **Value** do obszaru **Rozmiar**. 
    
-   ![](media/power-bi-visualization-scatter/pbi_scatter_chart_size.png)
+   ![](media/power-bi-visualization-scatter/power-bi-bubble.png)
 2. Umieść kursor nad bąbelkiem.  Rozmiar bąbelka odzwierciedla wielkość wartości **This Year Sales**.
    
     ![](media/power-bi-visualization-scatter/pbi_scatter_chart_hover.png)
