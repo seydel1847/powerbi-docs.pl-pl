@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/01/2017
 ms.author: sirsu
-ms.openlocfilehash: 4cf430880ade8bafb345fef3f5d7fec228cb6272
-ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
+ms.openlocfilehash: 8b03eb9659d4f2c984200db16daa6de017e73de7
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Co nowego w usłudze Power BI
 Na tej stronie możesz dowiedzieć się o znanych problemach i ostatnio udostępnionych funkcjach **usługi Power BI**. Powiązane nowości są dostępne w następujących artykułach:
@@ -589,10 +589,6 @@ Zapoznaj się z [blogiem](http://blogs.msdn.com/b/powerbi/archive/2015/10/06/pow
 
 * Uzyskaj szybki wgląd w dane konta usługi QuickBooks Online przy użyciu naszego [pakietu zawartości](http://blogs.msdn.com/b/powerbi/archive/2015/05/28/get-quick-insights-into-your-quickbooks-online-account-data.aspx). Dodatkowe informacje o nawiązaniu połączenia i rozpoczęciu pracy zawiera [dokumentacja](service-connect-to-quickbooks-online.md) pakietu zawartości usługi QuickBooks Online dla usługi Power BI.
 
-**19 maja 2015**
-
-* Dzięki tej aktualizacji można nawiązać połączenie z [usługą Twilio za pomocą naszego pakietu zawartości](service-connect-to-twilio.md)
-* Interfejs API usługi Power BI ma nowe funkcje! Teraz możesz [wyświetlić wszystkie tabele](http://docs.powerbi.apiary.io/#reference/datasets/tables-collection/list-all-tables) i [zaktualizować istniejący schemat tabeli](http://docs.powerbi.apiary.io/#reference/datasets/table/update-an-existing-tables-schema)
 
 **13 maja 2015**
 

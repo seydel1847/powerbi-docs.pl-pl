@@ -17,16 +17,16 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/10/2017
 ms.author: asaxton
-ms.openlocfilehash: f0ca594b6f87ab2e186909f10a8ba4b7e1bce062
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: a9dd782931904ada208b68ccbceeb7e1c0d95ec6
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="step-4-get-a-dataset-to-add-rows-into-a-power-bi-table"></a>Krok 4. Umożliwienie zestawowi danych dodawania wierszy do tabeli usługi Power BI
 Ten artykuł jest częścią przewodnika krok po kroku dotyczącego [wypychania danych do zestawu danych](walkthrough-push-data.md).
 
-W **kroku 3.** procedury wypychania danych do zestawu danych, [Tworzenie zestawu danych w usłudze Power BI](walkthrough-push-data-create-dataset.md), nastąpiło wywołanie operacji [Utwórz zestaw danych](https://msdn.microsoft.com/library/mt203562.aspx) w celu utworzenia zestawu danych w usłudze Power BI. W tym kroku uzyskasz identyfikator zestawu danych za pomocą operacji [Pobierz zestawy danych](https://msdn.microsoft.com/library/mt203567.aspx) i pakietu Newtonsoft.Json. Identyfikator zestawu danych umożliwi dodanie wierszy do zestawu danych w kroku 4. Przykłady korzystania z interfejsu API REST usługi Power BI można znaleźć w artykule [Power BI REST API](http://docs.powerbi.apiary.io/) (Interfejs API REST usługi Power BI) w witrynie APIARY.
+W **kroku 3.** procedury wypychania danych do zestawu danych, [Tworzenie zestawu danych w usłudze Power BI](walkthrough-push-data-create-dataset.md), nastąpiło wywołanie operacji [Utwórz zestaw danych](https://msdn.microsoft.com/library/mt203562.aspx) w celu utworzenia zestawu danych w usłudze Power BI. W tym kroku uzyskasz identyfikator zestawu danych za pomocą operacji [Pobierz zestawy danych](https://msdn.microsoft.com/library/mt203567.aspx) i pakietu Newtonsoft.Json. Identyfikator zestawu danych umożliwi dodanie wierszy do zestawu danych w kroku 4. 
 
 Wypychanie danych do zestawu danych usługi Power BI wymaga odwoływania się do tabeli w zestawie danych. Aby odwołać się do tabeli w zestawie danych, należy najpierw uzyskać **identyfikator zestawu danych**. **Identyfikator zestawu danych** można uzyskać przy użyciu operacji [Pobierz zestaw danych](https://msdn.microsoft.com/library/mt203567.aspx). Operacja **Pobierz zestaw danych** zwraca ciąg JSON zawierający listę wszystkich zestawów danych w usłudze Power BI. Jest to zalecany sposób deserializacji ciągu JSON za pomocą pakietu [Newtonsoft.Json](http://www.newtonsoft.com/json).
 
@@ -278,7 +278,6 @@ Poniżej znajduje się [kompletna lista kodu](#code).
 [Wypychanie danych do usługi Power BI](walkthrough-push-data.md)  
 [Omówienie interfejsu API REST usługi Power BI](overview-of-power-bi-rest-api.md)  
 [Dokumentacja interfejsu API REST usługi Power BI](https://msdn.microsoft.com/library/mt147898.aspx)  
-[Power BI REST API (Interfejs API REST usługi Power BI) w witrynie APIARY](http://docs.powerbi.apiary.io/)  
 
 Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
 

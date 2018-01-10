@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/01/2017
-ms.author: asaxton
-ms.openlocfilehash: b9aff56a964a2a8c91d614a427ad77810680176f
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.author: maghan
+ms.openlocfilehash: d6daa5625037729df6aa7908a43c0e068efbfb8b
+ms.sourcegitcommit: eec6b47970bf69ed30638d1a20051f961ba792f2
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/06/2018
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>Wymagania sprzętowe i programowe dotyczące instalowania serwera raportów usługi Power BI
 Ten artykuł zawiera minimalne wymagania dotyczące sprzętu i oprogramowania, które trzeba spełnić, aby zainstalować i uruchomić serwer raportów usługi Power BI.
@@ -69,7 +69,7 @@ W przypadku wystąpień tabelarycznych lub wielowymiarowych można używać poł
 
 | **Wersja serwera** | **Wymagana jednostka SKU** |
 | --- | --- |
-| 2012 SP1 CU4 lub nowszy |Jednostka SKU w wersji Business Intelligence i Enterprise |
+| 2012 SP1 CU4 lub nowsza |Jednostka SKU w wersji Business Intelligence i Enterprise |
 | 2014 |Jednostka SKU w wersji Business Intelligence i Enterprise |
 | 2016 lub nowszy |Jednostka SKU w wersji Standard lub nowsza |
 

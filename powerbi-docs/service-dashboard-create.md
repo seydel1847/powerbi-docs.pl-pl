@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 05/09/2017
 ms.author: mihart
-ms.openlocfilehash: dac5628756898a20fe139447bc2d165ba804320c
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 67cc9508d71fa29303d09e8901294a2d6b7f8a56
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>Tworzenie pulpitu nawigacyjnego usługi Power BI z raportu
 Po zapoznaniu się z tematem [Pulpity nawigacyjne w usłudze Power BI](service-dashboards.md) możesz teraz utworzyć własny raport. Istnieje wiele sposobów, aby utworzyć pulpit nawigacyjny — z raportu, od podstaw, z zestawu danych, duplikując istniejący pulpit nawigacyjny itp.  W tym temacie i filmie wideo pokazano, jak utworzyć nowy pulpit nawigacyjny, przypinając wizualizacje z istniejącego raportu.
@@ -64,7 +64,7 @@ Zaimportujemy jeden z przykładowych zestawów danych usługi Power BI i użyjem
 1. Pozostając w tym samym obszarze roboczym, wybierz kartę **Raporty**. Zostanie wyświetlony nowo zaimportowany raport oznaczony żółtą gwiazdką. Wybierz nazwę raportu, aby go otworzyć.
    
     ![](media/service-dashboard-create/power-bi-reports.png)
-2. Raport zostanie otworzony w [widoku do czytania](service-interact-with-a-report-in-reading-view.md). Zwróć uwagę na dwie karty u dołu: Discount Analysis i Spend Overview. Każda karta reprezentuje stronę raportu.
+2. Raport zostanie otworzony w [widoku do czytania](service-reading-view-and-editing-view.md). Zwróć uwagę na dwie karty u dołu: Discount Analysis i Spend Overview. Każda karta reprezentuje stronę raportu.
    
     ![](media/service-dashboard-create/power-bi-reading-view.png)
 3. Umieść kursor nad wizualizacją, aby wyświetlić dostępne opcje. Aby dodać wizualizację do pulpitu nawigacyjnego, wybierz ikonę przypinania ![](media/service-dashboard-create/power-bi-pin-icon.png).

@@ -16,11 +16,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/05/2017
 ms.author: maggies
-ms.openlocfilehash: 87fd7f9b881c6af482cc3a644e77b0a95ea1743c
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: 604aed25b4702525cfbecde9c6fe18ded8c41994
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Instalowanie i używanie aplikacji z pulpitami nawigacyjnymi i raportami w usłudze Power BI
 W usłudze Power BI *aplikacje* łączą ze sobą w jednym miejscu wszystkie powiązane pulpity nawigacyjne i raporty. Osoby w organizacji mogą tworzyć i rozpowszechniać aplikacje z kluczowymi informacjami biznesowymi. [Usługi zewnętrzne](service-connect-to-services.md), których być może już używasz, takie jak Google Analytics i Microsoft Dynamics CRM, także oferują aplikacje usługi Power BI. 
@@ -63,7 +63,7 @@ Możesz także znajdować i instalować aplikacje, do których masz dostęp, za 
 3. Wybierz pozycję **Pobierz teraz**, aby dodać wybraną aplikację do swojej strony Aplikacje. 
 
 ## <a name="interact-with-the-dashboards-and-reports-in-the-app"></a>Korzystanie z pulpitów nawigacyjnych i raportów w aplikacji
-Teraz możesz eksplorować dane w pulpitach nawigacyjnych i raportach w aplikacji. Masz dostęp do wszystkich standardowych interakcji usługi Power BI, takich jak filtrowanie, wyróżnianie, sortowanie i przechodzenie do szczegółów. Przeczytaj informacje o [interakcjach z raportami w usłudze Power BI](service-interact-with-a-report-in-reading-view.md). 
+Teraz możesz eksplorować dane w pulpitach nawigacyjnych i raportach w aplikacji. Masz dostęp do wszystkich standardowych interakcji usługi Power BI, takich jak filtrowanie, wyróżnianie, sortowanie i przechodzenie do szczegółów. Przeczytaj informacje o [interakcjach z raportami w usłudze Power BI](service-reading-view-and-editing-view.md). 
 
 Nie możesz zapisywać wprowadzonych zmian, ale zawsze możesz [wyeksportować dane do programu Excel ](power-bi-visualization-export-data.md) z tabeli lub innego elementu wizualnego w raporcie.
 

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 07/20/2017
 ms.author: asaxton
-ms.openlocfilehash: a10cd93a06d14e3e66fd9cce480dc0ec99e67aeb
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: c5dfbbf5150dbf8ddb4388ac64f6c313eedd578e
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="what-can-developers-do-with-power-bi"></a>Co deweloperzy mogą robić z usługą Power BI?
 Usługa Power BI oferuje szeroką gamę opcji dla deweloperów. Obejmuje to różne możliwości: od osadzania po wizualizacje niestandardowe i przesyłanie strumieniowe zestawów danych.
@@ -51,7 +51,6 @@ Aby uzyskać więcej informacji, zobacz [Wypychanie danych do pulpitu nawigacyjn
 [Publikowanie wizualizacji niestandardowych w Sklepie Office](office-store.md)  
 [Repozytorium Git wizualizacji usługi Power BI](https://github.com/Microsoft/PowerBI-visuals)  
 [Przykład osadzania przy użyciu języka JavaScript](https://microsoft.github.io/PowerBI-JavaScript/demo/)  
-[Interfejs API usługi Power BI w witrynie Apiary](http://docs.powerbi.apiary.io/#)  
 [Oficjalny dokument na temat usługi Power BI Premium](https://aka.ms/pbipremiumwhitepaper)  
 Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
 

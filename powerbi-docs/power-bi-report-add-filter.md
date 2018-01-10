@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: d409633129c6c203e897d76c0acf043bf09ea29d
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: bd358b8e986313ba665326de0ff2722e0113554d
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="add-a-filter-to-a-power-bi-report-in-editing-view"></a>Dodawanie filtru do raportu usługi Power BI (w widoku do edycji)
 > [!TIP]
@@ -30,13 +30,13 @@ ms.lasthandoff: 11/13/2017
 > 
 
 ## <a name="what-is-the-difference-between-report-filters-in-editing-view-versus-reading-view"></a>Różnica między filtrami raportu w widoku do edycji i w widoku do czytania
-Istnieją dwa tryby interakcji z raportami: [Widok do czytania](service-interact-with-a-report-in-reading-view.md) i [Widok do edycji](service-interact-with-a-report-in-editing-view.md).  Dostępne możliwości filtrowania zależą od trybu, w którym pracujesz.
+Istnieją dwa tryby interakcji z raportami: [Widok do czytania](service-reading-view-and-editing-view.md) i [Widok do edycji](service-interact-with-a-report-in-editing-view.md).  Dostępne możliwości filtrowania zależą od trybu, w którym pracujesz.
 
 * Widok do edycji umożliwia dodawanie filtrów raportu, strony i wizualizacji. Podczas zapisywania raportu filtry zostają zapisane razem z nim. Osoby wyświetlające raport w widoku do czytania mogą wchodzić w interakcje z filtrami, które zostały dodane, ale nie mogą zapisywać swoich zmian.
 * Widok do czytania pozwala na wchodzenie w interakcje ze wszystkimi istniejącymi w raporcie filtrami wizualnymi, filtrami raportu i filtrami stron, ale nie jest możliwe zapisanie dokonanych zmian filtrów.
 
 > [!NOTE]
-> W tym artykule opisano sposób tworzenia filtrów w **widoku do edycji** raportu.  Aby uzyskać więcej informacji o filtrach w widoku do czytania, zobacz [Interakcja z filtrami w widoku do czytania raportu](service-interact-with-a-report-in-reading-view.md).
+> W tym artykule opisano sposób tworzenia filtrów w **widoku do edycji** raportu.  Aby uzyskać więcej informacji o filtrach w widoku do czytania, zobacz [Interakcja z filtrami w widoku do czytania raportu](service-reading-view-and-editing-view.md).
 > 
 > 
 
@@ -146,7 +146,7 @@ Jeśli nie widzisz okienka Pola, upewnij się, że jesteś w [widoku do edycji](
 
   [Filtry i wyróżnianie w raportach](power-bi-reports-filters-and-highlighting.md)
 
-[Interakcja z filtrami i wyróżnianie w widoku do czytania raportu](service-interact-with-a-report-in-reading-view.md)
+[Interakcja z filtrami i wyróżnianie w widoku do czytania raportu](service-reading-view-and-editing-view.md)
 
 [Zmiana sposobu wzajemnego filtrowania i wyróżniania krzyżowego wizualizacji raportu](service-reports-visual-interactions.md)
 

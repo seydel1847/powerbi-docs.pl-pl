@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/10/2017
+ms.date: 01/05/2017
 ms.author: asaxton
-ms.openlocfilehash: e62b08614a38502fb79f48f369013d32fd538659
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: aba135a0a790025f732379ecb07157f1150d999c
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>Wypychanie danych do zestawu danych usługi Power BI
 Interfejs API usługi Power BI umożliwia wypychanie danych do zestawu danych usługi Power BI. Załóżmy na przykład, że chcesz rozszerzyć istniejący przepływ pracy firmy, tak aby wypychał kluczowe dane do zestawu danych. W tym konkretnym przypadku chcesz wypchnąć zestaw danych działu sprzedaży i marketingu, w którym znajduje się tabela produktów, do zestawu danych.
@@ -38,7 +38,7 @@ Aby rozpocząć wypychanie danych do zestawu danych, musisz mieć konto usługi 
 Następna sekcja zawiera ogólne omówienie operacji interfejsu API usługi Power BI wykonywanych w celu wypychania danych.
 
 ## <a name="power-bi-api-operations-to-push-data"></a>Operacje interfejsu API usługi Power BI umożliwiające wypychanie danych
-Dzięki interfejsowi API REST usługi Power BI możesz wypychać źródła danych do usługi Power BI. Gdy aplikacja doda wiersze do zestawu danych, kafelki na pulpicie nawigacyjnym są automatycznie aktualizowane nowymi danymi. Aby wypchnąć dane, należy wykonać operacje [Utwórz zestaw danych](https://msdn.microsoft.com/library/mt203562.aspx) oraz [Dodaj wiersze](https://msdn.microsoft.com/library/mt203561.aspx). Aby odnaleźć zestaw danych, należy wykonać operację [Pobierz zestawy danych](https://msdn.microsoft.com/library/mt203567.aspx). W przypadku każdej z tych operacji możesz wprowadzić identyfikator grupy, aby pracować z grupą. Użyj operacji [Pobierz grupy](https://msdn.microsoft.com/library/mt243842.aspx), aby wyświetlić listę identyfikatorów grup. Przykłady korzystania z interfejsu API REST usługi Power BI można znaleźć w artykule [Power BI REST API](http://docs.powerbi.apiary.io/) (Interfejs API REST usługi Power BI) w witrynie APIARY.
+Dzięki interfejsowi API REST usługi Power BI możesz wypychać źródła danych do usługi Power BI. Gdy aplikacja doda wiersze do zestawu danych, kafelki na pulpicie nawigacyjnym są automatycznie aktualizowane nowymi danymi. Aby wypchnąć dane, należy wykonać operacje [Utwórz zestaw danych](https://msdn.microsoft.com/library/mt203562.aspx) oraz [Dodaj wiersze](https://msdn.microsoft.com/library/mt203561.aspx). Aby odnaleźć zestaw danych, należy wykonać operację [Pobierz zestawy danych](https://msdn.microsoft.com/library/mt203567.aspx). W przypadku każdej z tych operacji możesz wprowadzić identyfikator grupy, aby pracować z grupą. Użyj operacji [Pobierz grupy](https://msdn.microsoft.com/library/mt243842.aspx), aby wyświetlić listę identyfikatorów grup.
 
 Operacje procesu wypychania danych do zestawu danych:
 
@@ -126,6 +126,5 @@ Aby rozpocząć wypychanie danych do zestawu danych, zobacz [Krok 1. Rejestrowan
 [Pobieranie grup](https://msdn.microsoft.com/library/mt243842.aspx)  
 [JSON: Wprowadzenie](http://json.org/)  
 [Omówienie interfejsu API REST usługi Power BI](overview-of-power-bi-rest-api.md)  
-[Power BI REST API (Interfejs API REST usługi Power BI) w witrynie APIARY](http://docs.powerbi.apiary.io/)  
 Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
 

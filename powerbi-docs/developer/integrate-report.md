@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/05/2017
 ms.author: asaxton
-ms.openlocfilehash: 4dd18fba5b5e3da0f8973a77166551086cc3f3cf
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 8285cbbc2d8dee653863cad50036da58362c32d1
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="integrate-a-report-into-an-app-for-your-organization"></a>Integrowanie raportu z aplikacją dla organizacji
 Dowiedz się, jak integrować lub osadzać raport w aplikacji internetowej przy użyciu wywołań interfejsu API REST wraz z interfejsem API języka JavaScript usługi Power BI podczas osadzania dla organizacji.
@@ -54,7 +54,7 @@ W aplikacji należy najpierw uzyskać **token dostępu** z usługi Azure AD, aby
 Aby uzyskać raport usługi **Power BI**, należy użyć operacji [uzyskiwania raportów](https://msdn.microsoft.com/library/mt634543.aspx) zwracającej listę raportów usługi **Power BI**. Z listy raportów można uzyskać identyfikator raportu.
 
 ### <a name="get-reports-using-an-access-token"></a>Uzyskiwanie raportów przy użyciu tokenu dostępu
-Możesz użyć **tokenu dostępu** pobranego w [kroku 2.](#step-2-get-an-access-token-from-azure-ad), wywołując operację [uzyskiwania raportów](https://msdn.microsoft.com/library/mt634543.aspx). Operacja [uzyskiwania raportów](https://msdn.microsoft.com/library/mt634543.aspx) zwraca listę raportów. Z tej listy raportów można uzyskać pojedynczy raport. Poniżej przedstawiono całą metodę języka C# umożliwiającą uzyskanie raportu. Przykłady korzystania z interfejsu API REST usługi Power BI można znaleźć w artykule [Power BI REST API](http://docs.powerbi.apiary.io/) (Interfejs API REST usługi Power BI) w witrynie APIARY.
+Możesz użyć **tokenu dostępu** pobranego w [kroku 2.](#step-2-get-an-access-token-from-azure-ad), wywołując operację [uzyskiwania raportów](https://msdn.microsoft.com/library/mt634543.aspx). Operacja [uzyskiwania raportów](https://msdn.microsoft.com/library/mt634543.aspx) zwraca listę raportów. Z tej listy raportów można uzyskać pojedynczy raport. Poniżej przedstawiono całą metodę języka C# umożliwiającą uzyskanie raportu. 
 
 Aby wykonać wywołanie interfejsu API REST, należy użyć nagłówka *Authorization* w formacie *Bearer {token dostępu}*.
 

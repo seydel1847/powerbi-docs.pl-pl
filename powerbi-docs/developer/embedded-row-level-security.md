@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/21/2017
 ms.author: asaxton
-ms.openlocfilehash: 491be8983967b1a5dce6579411f194117602b00c
-ms.sourcegitcommit: 70e9239e375ae03744fb9bc122d5fc029fb83469
+ms.openlocfilehash: ffaf4439f48b23dcff8e965b5bea1aeaf19afcc0
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/22/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="use-row-level-security-with-power-bi-embedded-content"></a>Używanie zabezpieczeń na poziomie wiersza w osadzonej zawartości usługi Power BI
 Zabezpieczenia na poziomie wiersza (kontrola dostępu) mogą służyć do ograniczania dostępu użytkowników do danych w ramach pulpitów nawigacyjnych, kafelków, raportów i zestawów danych. Wielu różnych użytkowników może pracować z tymi samymi artefaktami, widząc różne dane. Funkcja osadzania obsługuje zabezpieczenia na poziomie wiersza.
@@ -91,7 +91,7 @@ Interfejs API [GenerateToken](https://msdn.microsoft.com/library/mt784614.aspx) 
 * **Role (obowiązkowe)** — ciąg zawierający role do wybrania podczas stosowania reguł zabezpieczeń na poziomie wiersza. W przypadku przekazywania więcej niż jednej roli należy je przekazywać jako tablicę ciągów.
 * **Zestaw danych (obowiązkowe)** — zestaw danych, który ma zastosowanie do osadzanego artefaktu. 
 
-Możesz utworzyć token osadzania przy użyciu metody **GenerateTokenInGroup** w obszarze **PowerBIClient.Reports**. Obecnie obsługiwane są wyłącznie raporty.
+Możesz utworzyć token osadzania przy użyciu metody **GenerateTokenInGroup** w obszarze **PowerBIClient.Reports**. 
 
 Przykładowo możesz zmienić przykład [PowerBIEmbedded_AppOwnsData](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data). *Wiersz 76 i 77 pliku Home\HomeController.cs* można zaktualizować z:
 
@@ -145,7 +145,7 @@ Role można przekazać wraz z tożsamością w tokenie osadzania. Jeśli żadna 
 * Usługa Power nie będzie stosować ustawień zabezpieczeń na poziomie wiersza do administratorów lub członków z uprawnieniami do edycji podczas podawania tożsamości wraz z tokenem osadzania, ale będzie stosować je wobec danych.
 * Połączenia na żywo usług Analysis Services są obsługiwane w przypadku serwerów lokalnych.
 * Połączenia na żywo usług Azure Analysis Services obsługują filtrowanie według ról, ale nie dynamicznie według nazwy użytkownika.
-* Jeśli źródłowy zestaw danych nie wymaga zabezpieczeń RLS, żądanie GenerateToken **nie** może zawierać efektywnej tożsamości.
+* Jeśli źródłowy zestaw danych nie wymaga zabezpieczeń RSL, żądanie GenerateToken **nie** może zawierać efektywnej tożsamości.
 * Jeśli źródłowy zestaw danych jest modelem w chmurze (modelem w pamięci podręcznej lub zapytaniem bezpośrednim), efektywna tożsamość musi zawierać co najmniej jedną rolę. W przeciwnym razie rola nie zostanie przypisana.
 * Lista tożsamości może zawierać wiele tokenów tożsamości na potrzeby osadzania pulpitu nawigacyjnego. Dla wszystkich innych artefaktów lista zawiera jedną tożsamość.
 

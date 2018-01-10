@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/27/2017
+ms.date: 01/04/2018
 ms.author: mihart
-ms.openlocfilehash: 83d569c071d70576856ff301c8e0967ef607d512
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: a1f424229a05b7f4b5507100287719f8d4cac005
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="arcgis-maps-in-power-bi-service-and-power-bi-desktop-by-esri"></a>Mapy ArcGIS firmy Esri w usłudze Power BI i programie Power BI Desktop
 Niniejszy samouczek został napisany, uwzględniając punkt widzenia osoby tworzącej mapę ArcGIS. Jeśli twórca udostępni mapę ArcGIS współpracownikom, mogą oni wyświetlać mapę i wchodzić w interakcję z nią, ale nie mogą zapisywać zmian. Aby dowiedzieć się więcej na temat wyświetlania mapy ArcGIS, zobacz [Wchodzenie w interakcje z mapami ArcGIS](power-bi-visualizations-arcgis.md).
@@ -33,8 +33,7 @@ Kombinacja map ArcGIS i usługi Power BI przenosi tworzenie map na zupełnie now
 
 > [!TIP]
 > GIS (ang. Geographic Information Science) to inaczej system informacji geograficznej.
-> 
-> 
+
 
 W poniższym przykładzie użyto ciemnoszarej kanwy, aby pokazać sprzedaż regionalną w formie mapy cieplnej w zestawieniu z demograficzną warstwą prezentującą medianę dochodu rozporządzalnego w 2016 r. Jak zobaczysz później, korzystanie z map ArcGIS oferuje praktycznie nieograniczone możliwości w zakresie zaawansowanego tworzenia map, dane demograficzne oraz jeszcze bardziej atrakcyjne wizualizacje map, co pozwala lepiej prezentować dane historyczne.
 

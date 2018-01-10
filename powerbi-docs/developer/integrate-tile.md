@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/19/2017
 ms.author: asaxton
-ms.openlocfilehash: 0b2e0208814fdd68ef7c6f0bcc1cf6ffa1fe42da
-ms.sourcegitcommit: a658b1c936e382f46a19eeb9cc26016cd7b1d756
+ms.openlocfilehash: 70ffefa9845f8440205460ee0083f8dc334b7c81
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="integrate-a-tile-into-an-app-user-owns-data"></a>Integrowanie kafelka z aplikacją (dane należą do użytkownika)
 Dowiedz się, jak integrować lub osadzać kafelek w aplikacji internetowej przy użyciu wywołań interfejsu API REST wraz z interfejsem API języka JavaScript usługi Power BI podczas osadzania dla organizacji.
@@ -56,7 +56,7 @@ Aby uzyskać kafelek usługi **Power BI**, należy użyć operacji [uzyskiwania 
 Zanim będzie można uzyskać kafelek, należy pobrać identyfikator pulpitu nawigacyjnego. Aby uzyskać informacje dotyczące pobierania pulpitu nawigacyjnego, zobacz [Integrowanie pulpitu nawigacyjnego w aplikacji (dane należą do użytkownika)](integrate-dashboard.md).
 
 ### <a name="get-tiles-using-an-access-token"></a>Uzyskiwanie kafelków przy użyciu tokenu dostępu
-Możesz użyć **tokenu dostępu** pobranego w [kroku 2.](#step-2-get-an-access-token-from-azure-ad), wywołując operację [uzyskiwania kafelków](https://msdn.microsoft.com/library/mt465741.aspx). Operacja [uzyskiwania kafelków](https://msdn.microsoft.com/library/mt465741.aspx) zwraca listę kafelków. Z tej listy kafelków można uzyskać pojedynczy kafelek. Poniżej przedstawiono całą metodę języka C# umożliwiającą uzyskanie kafelka. Przykłady korzystania z interfejsu API REST usługi Power BI można znaleźć w artykule [Power BI REST API](http://docs.powerbi.apiary.io/) (Interfejs API REST usługi Power BI) w witrynie APIARY.
+Możesz użyć **tokenu dostępu** pobranego w [kroku 2.](#step-2-get-an-access-token-from-azure-ad), wywołując operację [uzyskiwania kafelków](https://msdn.microsoft.com/library/mt465741.aspx). Operacja [uzyskiwania kafelków](https://msdn.microsoft.com/library/mt465741.aspx) zwraca listę kafelków. Z tej listy kafelków można uzyskać pojedynczy kafelek. Poniżej przedstawiono całą metodę języka C# umożliwiającą uzyskanie kafelka. 
 
 Aby wykonać wywołanie interfejsu API REST, należy użyć nagłówka *Authorization* w formacie *Bearer {token dostępu}*.
 

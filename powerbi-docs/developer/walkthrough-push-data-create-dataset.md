@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/10/2017
 ms.author: asaxton
-ms.openlocfilehash: b45a6f76a710bc158d0d1763ca10f2125164952a
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 92409e447bf9bc32b83c22650d5b41aef6bb4414
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="step-3-create-a-dataset-in-power-bi"></a>Krok 3. Tworzenie zestawu danych w usłudze Power BI
 Ten artykuł jest częścią przewodnika krok po kroku dotyczącego [wypychania danych do zestawu danych](walkthrough-push-data.md).
@@ -32,7 +32,7 @@ Aby wywołać zasób interfejsu REST, należy użyć adresu URL umożliwiająceg
 
 Na potrzeby uwierzytelniania operacji w interfejsie REST usługi Power BI do nagłówka żądania dodaj token uzyskany w ramach procedury [Uzyskiwanie tokenu dostępu do uwierzytelniania](walkthrough-push-data-get-token.md):
 
-Wywołanie operacji [Utwórz zestaw danych](https://msdn.microsoft.com/library/mt203562.aspx) powoduje utworzenie nowego zestawu danych. Przykłady korzystania z interfejsu API REST usługi Power BI można znaleźć w artykule [Power BI REST API](http://docs.powerbi.apiary.io/) (Interfejs API REST usługi Power BI) w witrynie APIARY.
+Wywołanie operacji [Utwórz zestaw danych](https://msdn.microsoft.com/library/mt203562.aspx) powoduje utworzenie nowego zestawu danych. 
 
 ![](media/walkthrough-push-data-create-dataset/powerbi-developer-create-dataset.png)
 
@@ -239,7 +239,6 @@ Poniżej znajduje się [kompletna lista kodu](#code).
 [Wypychanie danych do pulpitu nawigacyjnego usługi Power BI](walkthrough-push-data.md)  
 [Omówienie interfejsu API REST usługi Power BI](overview-of-power-bi-rest-api.md)  
 [Dokumentacja interfejsu API REST usługi Power BI](https://msdn.microsoft.com/library/mt147898.aspx)  
-[Power BI REST API (Interfejs API REST usługi Power BI) w witrynie APIARY](http://docs.powerbi.apiary.io/)  
 
 Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
 

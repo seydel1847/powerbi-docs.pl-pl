@@ -5,7 +5,7 @@ services: powerbi
 documentationcenter: 
 author: parthsha
 manager: kfile
-backup: asaxton
+backup: maghan
 editor: 
 tags: 
 qualityfocus: no
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/01/2017
 ms.author: pashah
-ms.openlocfilehash: 74fea41f3aa77d00292a62f62bf5554442ffac33
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: e36e0720ce55fb3c231a25791ded81d113c74929
+ms.sourcegitcommit: eec6b47970bf69ed30638d1a20051f961ba792f2
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/06/2018
 ---
 # <a name="capacity-planning-guidance-for-power-bi-report-server"></a>Wskazówki dotyczące planowania wydajności serwera raportów usługi Power BI
 Serwer raportów usługi Power BI to samoobsługowe rozwiązanie z zakresu analizy biznesowej i raportowania dla przedsiębiorstw. Rozwiązanie to może być wdrażane przez klienta w siedzibie firmy, za zaporą. Serwer ten stanowi połączenie interaktywnych funkcji raportów znanych z programu Power BI Desktop oraz lokalnej platformy serwera znanej z usług SQL Server Reporting Services. Firmy coraz intensywniej korzystają z funkcji analiz i raportów, przez co trudno jest określić budżet na infrastrukturę sprzętową i licencje na oprogramowanie wymagane do skalowania bazy użytkowników w przedsiębiorstwie. Ten dokument zawiera wskazówki dotyczące planowania wydajności serwera raportów usługi Power BI przez udostępnianie wyników licznych testów obciążenia wykonywanych na serwerze raportów przy różnych obciążeniach. Mimo że raporty, zapytania i wzorce użycia stosowane w organizacji mogą być różne, wyniki przedstawione w tym dokumencie, wykonane testy oraz szczegółowy opis sposobu ich przeprowadzenia służą za punkt odniesienia dla każdego, kto zaczyna planowanie wdrażania serwera raportów usługi Power BI.

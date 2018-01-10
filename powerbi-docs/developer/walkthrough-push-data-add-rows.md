@@ -17,16 +17,16 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/10/2017
 ms.author: asaxton
-ms.openlocfilehash: d9fa2984eecfac026cf01a47d73ec6c5950e02d3
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 02c0ac505f542d9c4a346ae7aee72533789d5599
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="step-5-add-rows-to-a-power-bi-table"></a>Krok 5. Dodawanie wierszy do tabeli usługi Power BI
 Ten artykuł jest częścią przewodnika krok po kroku dotyczącego [wypychania danych do zestawu danych](walkthrough-push-data.md).
 
-W **kroku 4** wypychania danych do zestawu danych, [Umożliwienie zestawowi danych dodawania wierszy do tabeli usługi Power BI](walkthrough-push-data-get-datasets.md), użyto operacji [Pobierz zestawy danych](https://msdn.microsoft.com/library/mt203567.aspx) i pliku Newtonsoft.Json w celu pobrania identyfikatora zestawu danych. W tym kroku użyjesz identyfikatora zestawu danych z operacją [Dodaj wiersze](https://msdn.microsoft.com/library/mt203561.aspx), aby dodać wiersze do zestawu danych **usługi Power BI**. Przykłady korzystania z interfejsu API REST usługi Power BI można znaleźć w artykule [Power BI REST API](http://docs.powerbi.apiary.io/) (Interfejs API REST usługi Power BI) w witrynie APIARY.
+W **kroku 4** wypychania danych do zestawu danych, [Umożliwienie zestawowi danych dodawania wierszy do tabeli usługi Power BI](walkthrough-push-data-get-datasets.md), użyto operacji [Pobierz zestawy danych](https://msdn.microsoft.com/library/mt203567.aspx) i pliku Newtonsoft.Json w celu pobrania identyfikatora zestawu danych. W tym kroku użyjesz identyfikatora zestawu danych z operacją [Dodaj wiersze](https://msdn.microsoft.com/library/mt203561.aspx), aby dodać wiersze do zestawu danych **usługi Power BI**. 
 
 W przypadku wywołania operacji [Dodaj wiersze](https://msdn.microsoft.com/library/mt203561.aspx) następuje dodanie wierszy do zestawu danych.
 
@@ -319,6 +319,5 @@ Poniżej znajduje się [kompletna lista kodu](#code).
 [Wypychanie danych do pulpitu nawigacyjnego usługi Power BI](walkthrough-push-data.md)  
 [Omówienie interfejsu API REST usługi Power BI](overview-of-power-bi-rest-api.md)  
 [Dokumentacja interfejsu API REST usługi Power BI](https://msdn.microsoft.com/library/mt147898.aspx)  
-[Power BI REST API (Interfejs API REST usługi Power BI) w witrynie APIARY](http://docs.powerbi.apiary.io/)  
 Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
 

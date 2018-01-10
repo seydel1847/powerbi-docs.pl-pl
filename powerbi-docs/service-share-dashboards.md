@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/18/2017
+ms.date: 01/08/2018
 ms.author: maggies
-ms.openlocfilehash: 4cc7f12eb4964c67ae9f91cfcb51eac77d690555
-ms.sourcegitcommit: ea247cb3cfc1cac076d4b076c1ad8e2fc37e15a1
+ms.openlocfilehash: d0fbe2ca891096cf8b1ae2145260c3341c451658
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/19/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="share-your-power-bi-dashboards-with-coworkers-and-others"></a>Udostępnianie pulpitów nawigacyjnych usługi Power BI współpracownikom i innym osobom
 *Udostępnianie* to świetna metoda na zapewnienie kilku osobom dostępu do Twojego pulpitu nawigacyjnego i raportów. Usługa Power BI zapewnia [kilka sposobów współpracy i rozpowszechniania pulpitów nawigacyjnych](service-how-to-collaborate-distribute-dashboards-reports.md). Udostępnianie to jedna z tych metod.
@@ -110,7 +110,7 @@ Jeśli wyślesz link z aplikacji mobilnej Power BI do osoby spoza organizacji, a
 Ważne kwestie dotyczące udostępniania pulpitów nawigacyjnych:
 
 * Ogólnie rzecz biorąc, zarówno Ty, jak i Twoi współpracownicy widzicie na pulpicie nawigacyjnym te same dane. Jeśli zatem masz uprawnienia do wyświetlania większej ilości danych niż oni, współpracownicy będą mogli zobaczyć wszystkie te dane na Twoim pulpicie nawigacyjnym. Jeśli jednak do zestawu danych wyświetlanych na pulpicie nawigacyjnym zastosowano [zabezpieczenia na poziomie wiersza](service-admin-rls.md), wówczas dane dostępne dla poszczególnych użytkowników zależą od ich poświadczeń.
-* Każda osoba, której udostępniasz swój pulpit nawigacyjny, może go wyświetlać i korzystać z raportów za pomocą [widoku do czytania](service-report-open-in-reading-view.md). Nie może jednak tworzyć raportów ani zapisywać zmian w istniejących raportach.
+* Każda osoba, której udostępniasz swój pulpit nawigacyjny, może go wyświetlać i korzystać z raportów za pomocą [widoku do czytania](service-reading-view-and-editing-view.md). Nie może jednak tworzyć raportów ani zapisywać zmian w istniejących raportach.
 * Nikt nie może wyświetlić ani pobrać zestawu danych.
 * Każdy może ręcznie [odświeżyć dane pulpitu nawigacyjnego](refresh-data.md).
 * Jeśli korzystasz z usługi Office 365 do obsługi poczty e-mail, możesz udostępnić pulpit nawigacyjny członkom grupy dystrybucyjnej, wprowadzając adres e-mail skojarzony z daną grupą.

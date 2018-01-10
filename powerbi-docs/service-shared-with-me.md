@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/27/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 68e1fdfe5fd86b247d05c5d93d9e6b724a8b07ba
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 63497e7d517bed8aeba8abefcc4e48c628e06252
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="display-the-power-bi-dashboards-that-have-been-shared-with-me"></a>Wyświetlanie pulpitów nawigacyjnych usługi Power BI, które zostały mi udostępnione
 ## <a name="shared-with-me"></a>Udostępnione dla mnie
@@ -34,7 +34,7 @@ Obejrzyj, jak Amanda wyjaśnia zawartość listy **Udostępnione mi** i pokazuje
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/G26dr2PsEpk" frameborder="0" allowfullscreen></iframe>
 
-Będziesz mieć wiele opcji interakcji z pulpitem nawigacyjnym i raportami źródłowymi w zależności od uprawnień, które udostępnił Ci właściciel. Obejmują one możliwość tworzenia kopii pulpitu nawigacyjnego, otwieranie raportu [w widoku czytania](service-interact-with-a-report-in-reading-view.md) i ponownie udostępnianie innym współpracownikom.
+Będziesz mieć wiele opcji interakcji z pulpitem nawigacyjnym i raportami źródłowymi w zależności od uprawnień, które udostępnił Ci właściciel. Obejmują one możliwość tworzenia kopii pulpitu nawigacyjnego, otwieranie raportu [w widoku czytania](service-reading-view-and-editing-view.md) i ponownie udostępnianie innym współpracownikom.
 
 ## <a name="actions-available-from-the-shared-with-me-screen"></a>Akcje dostępne z ekranu **Udostępnione mi**
 * Wybierz ikonę gwiazdki, aby [ustawić pulpit nawigacyjny jako ulubiony](service-dashboard-favorite.md).

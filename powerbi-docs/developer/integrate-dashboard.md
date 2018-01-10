@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/05/2017
 ms.author: asaxton
-ms.openlocfilehash: f3968fd9fb89e868754bb6025a23fdbd028a3965
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: fdcefb11187e92063f239967cf4d245347f54683
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="integrate-a-dashboard-into-an-app-for-your-organization"></a>Integrowanie pulpitu nawigacyjnego z aplikacją dla organizacji
 Dowiedz się, jak integrować lub osadzać pulpit nawigacyjny w aplikacji internetowej przy użyciu wywołań interfejsu API REST wraz z interfejsem API języka JavaScript usługi Power BI podczas osadzania dla organizacji.
@@ -56,7 +56,7 @@ Aby uzyskać pulpit nawigacyjny usługi **Power BI**, należy użyć operacji [u
 ![](media/integrate-dashboard/powerbi-embed-dashboard-get-dashboards.png)
 
 ### <a name="get-dashboards-using-an-access-token"></a>Uzyskiwanie pulpitów nawigacyjnych przy użyciu tokenu dostępu
-Możesz użyć **tokenu dostępu** pobranego w [kroku 2.](#step-2-get-an-access-token-from-azure-ad), wywołując operację [uzyskiwania pulpitów nawigacyjnych](https://msdn.microsoft.com/library/mt465739.aspx). Operacja [uzyskiwania pulpitów nawigacyjnych](https://msdn.microsoft.com/library/mt465739.aspx) zwraca listę pulpitów nawigacyjnych. Z listy pulpitów nawigacyjnych możesz uzyskać wybrany pulpit nawigacyjny. Poniżej przedstawiono całą metodę języka C# umożliwiającą uzyskanie pulpitu nawigacyjnego. Przykłady korzystania z interfejsu API REST usługi Power BI można znaleźć w artykule [Power BI REST API](http://docs.powerbi.apiary.io/) (Interfejs API REST usługi Power BI) w witrynie APIARY.
+Możesz użyć **tokenu dostępu** pobranego w [kroku 2.](#step-2-get-an-access-token-from-azure-ad), wywołując operację [uzyskiwania pulpitów nawigacyjnych](https://msdn.microsoft.com/library/mt465739.aspx). Operacja [uzyskiwania pulpitów nawigacyjnych](https://msdn.microsoft.com/library/mt465739.aspx) zwraca listę pulpitów nawigacyjnych. Z listy pulpitów nawigacyjnych możesz uzyskać wybrany pulpit nawigacyjny. Poniżej przedstawiono całą metodę języka C# umożliwiającą uzyskanie pulpitu nawigacyjnego. 
 
 Aby wykonać wywołanie interfejsu API REST, należy użyć nagłówka *Authorization* w formacie *Bearer {token dostępu}*.
 
