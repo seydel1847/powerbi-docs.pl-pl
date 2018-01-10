@@ -348,16 +348,12 @@
           href: power-bi-how-to-report-filter.md
         - name: Analizowanie w programie Excel
           href: service-analyze-in-excel.md
-        - name: Zmienianie sposobu interakcji z wizualizacjami w raporcie
+        - name: Zmienianie sposobu interakcji elementów wizualnych w raporcie
           href: service-reports-visual-interactions.md
-        - name: Otwieranie raportu usługi Power BI w widoku do czytania
-          href: service-report-open-in-reading-view.md
-        - name: Przechodzenie z widoku do czytania do widoku do edycji w usłudze Power BI
+        - name: Otwieranie raportu usługi Power BI w widoku do czytania lub do edycji
           href: service-reading-view-and-editing-view.md
         - name: Interakcje z raportem w widoku do edycji w usłudze Power BI
           href: service-interact-with-a-report-in-editing-view.md
-        - name: Interakcje z raportem w widoku do czytania w usłudze Power BI
-          href: service-interact-with-a-report-in-reading-view.md
         - name: Porady i wskazówki dotyczące tworzenia raportów w usłudze Power BI
           href: power-bi-reports-tips-and-tricks-for-creating.md
         - name: Okienko analizy
