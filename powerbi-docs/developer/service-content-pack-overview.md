@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/09/2017
-ms.author: asaxton
-ms.openlocfilehash: 4a8ea2acfcfe41192b82addfe52dbe67a0df8088
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.date: 01/04/2018
+ms.author: maghan
+ms.openlocfilehash: 1eaa549bf42c17cd2bd857efd4d50b991e862ea0
+ms.sourcegitcommit: 25489cf87c31fc107a5337fa1dd36506897c4bbb
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="overview-of-the-power-bi-service-content-pack-program"></a>Omówienie programu pakietu zawartości usługi Power BI
 Pakiet zawartości to zbiór gotowej do użycia zawartości, która umożliwia użytkownikom natychmiastowy wgląd w szczegółowe informacje na podstawie źródła. Pakiet zawartości zazwyczaj skupia się na konkretnym scenariuszu biznesowym, zapewniając szczegółowe informacje o roli, domenie lub przepływie pracy.
@@ -49,6 +49,7 @@ Aby utworzyć i przesłać pakiet zawartości do publikacji w usłudze Power BI 
 * Masz aplikację SaaS używaną przez użytkowników biznesowych.
 * Twoja aplikacja SaaS ma dane użytkowników, które można wizualizować w usłudze Power BI.
 * Twoja aplikacja SaaS ma interfejs API, który jest dostępny za pośrednictwem publicznej sieci Internet. Idealnie interfejs API jest interfejsem REST API lub źródłem danych OData. Pakiety zawartości usługi Power BI obsługują wiele typów uwierzytelniania, takich jak uwierzytelnianie podstawowe, OAuth 2.0 i klucz interfejsu API. 
+* Twoja aplikacja SaaS została zatwierdzona do publikowania pakietu zawartości. Prześlij żądanie na adres pbiservicesapps@microsoft.com. Przeanalizujemy każde z nich pod kątem istotności i oczekiwanego użycia. 
 * Podpisana umowa z partnerem. Tę czynność wykonuje się w [kroku przesyłania](template-content-pack-testing.md#submission).
 
 Sprawdź sekcję [tworzenia](template-content-pack-authoring.md), aby uzyskać więcej szczegółów o wymaganiach technicznych.

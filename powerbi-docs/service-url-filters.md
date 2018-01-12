@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/4/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 80a5a668056d1a3f3f2b53600e80f399be4a5e08
-ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
+ms.openlocfilehash: 8a818c26a6f9afd134133464b972091faaad093d
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Filtrowanie raportu za pomocą parametrów ciągu zapytania w adresie URL
 Po otwarciu raportu w usłudze Power BI każda strona raportu ma własny unikatowy adres URL. Aby wykonać filtrowanie takiej strony raportu, możesz użyć okienka Filtr na kanwie raportów.  Możesz też dodać parametry ciągu zapytania do adresu URL. Być może masz raport, który chcesz pokazać współpracownikom, ale najpierw planujesz go wstępnie przefiltrować. Jeden ze sposobów polega na tym, aby rozpocząć od domyślnego adresu URL raportu, dodać do niego parametry filtru, a następnie po prostu wysłać cały adres URL swoim współpracownikom za pośrednictwem poczty e-mail.
@@ -41,7 +41,7 @@ URL?filter=***Tabela***/***Pole*** eq '***wartość***'
 * W nazwach **tabeli** i **pola** wielkość liter jest uwzględniana, w przypadku **wartości** wielkość liter nie jest istotna.
 * Pola ukryte w widoku raportu mogą być nadal filtrowane.
 * **Wartość** musi być ujęta w apostrofy.
-* Typ pola musi być ciągiem.
+* Typ pola musi być liczbą lub ciągiem
 * Nazwy tabeli i pola nie mogą zawierać spacji.
 
 Jeśli nadal masz jakieś wątpliwości, czytaj dalej, aby uzyskać bardziej szczegółowe informacje.  
@@ -108,7 +108,7 @@ W niektórych przypadkach może okazać się to przydatne. Na przykład, gdy chc
 Używając parametrów ciągu zapytania, należy pamiętać o kilku rzeczach.
 
 * Filtrowanie ciągu zapytania nie działa z adresami URL [publikowania w Internecie](service-publish-to-web.md) ani usługą Power BI Embedded.   
-* Typ pola musi być ciągiem.
+* Typ pola musi być liczbą lub ciągiem.
 * Nazwy tabeli i pola nie mogą zawierać spacji.
 
 ## <a name="next-steps"></a>Następne kroki

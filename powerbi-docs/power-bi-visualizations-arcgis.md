@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/23/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 511f01494410215451d9f77ff637c7cfce8e89b3
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 6d2c14de83fcea1e9067fd3868b7559c3becce14
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="interacting-with-arcgis-maps-in-power-bi"></a>Interakcje z mapami ArcGIS w usłudze Power BI
 Ten temat przedstawia perspektywę osoby *korzystającej* z mapy ArcGIS w usłudze Power BI, programie Desktop lub aplikacji mobilnej. Jeśli twórca mapy ArcGIS udostępni Ci ją, możesz z niej korzystać na wiele sposobów.  Aby dowiedzieć się więcej na temat tworzenia mapy ArcGIS, zobacz [ArcGIS maps by esri tutorial (Samouczek Mapy ArcGIS firmy Esri)](power-bi-visualization-arcgis.md).
@@ -62,7 +62,7 @@ Komponent ArcGIS Maps for Power BI udostępnia trzy tryby wybierania. Maksymalni
 <br/>
 
 ## <a name="interacting-with-an-arcgis-map"></a>Interakcja z mapą ArcGIS
-Dostępne funkcje zależą od tego, czy jest się *twórcą* (osobą, która stworzyła mapę) czy *użytkownikiem* (któremu ktoś inny udostępnił mapę ArcGIS). Jeśli korzystasz z mapy ArcGIS jako użytkownik (w [widoku do czytania](service-interact-with-a-report-in-reading-view.md)), możesz wykonywać następujące akcje.
+Dostępne funkcje zależą od tego, czy jest się *twórcą* (osobą, która stworzyła mapę) czy *użytkownikiem* (któremu ktoś inny udostępnił mapę ArcGIS). Jeśli korzystasz z mapy ArcGIS jako użytkownik (w [widoku do czytania](service-reading-view-and-editing-view.md)), możesz wykonywać następujące akcje.
 
 * Podobnie jak w przypadku innych typów wizualizacji, mapy można [przypinać do pulpitów nawigacyjnych](service-dashboard-pin-tile-from-report.md) oraz wyświetlać w [trybie koncentracji uwagi](service-focus-mode.md) i [na pełnym ekranie](service-fullscreen-mode.md). Można też [wyświetlać](service-reports-show-data.md) i/lub [eksportować ich dane źródłowe](power-bi-visualization-export-data.md).    
 * Rozwiń okienko **Filtry**, aby eksplorować mapy przy użyciu filtrów. Po zamknięciu raportu zastosowane filtry nie są zapisywane.    

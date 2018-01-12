@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/29/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 57960c3ca46e48f399e0492192c10cba2cfa7ea9
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 0f81b0fa87af5af281b40224bac3b5815461cb9e
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="about-filters-and-highlighting-in-power-bi-reports"></a>Informacje o filtrach i wyróżnianiu w raportach usługi Power BI
 ***Filtry*** usuwają wszystkie dane oprócz tych, na których chcesz skupić uwagę.  ***Wyróżnianie*** nie jest filtrowaniem, ponieważ nie usuwa danych, a jedynie wyróżnia pewien podzbiór widocznych danych; niewyróżnione dane pozostają widoczne, ale są przygaszone.
@@ -30,7 +30,7 @@ Istnieje wiele różnych sposobów filtrowania i wyróżniania raportów w usłu
 
 * Wprowadzenie do filtrów i wyróżniania (artykuł, który aktualnie czytasz)
 * Dostępne sposoby [tworzenia i używania filtrów oraz wyróżniania w widoku do edycji/raportach, których jesteś właścicielem](power-bi-report-add-filter.md). Posiadając uprawnienia do edytowania raportu, można tworzyć, modyfikować i usuwać filtry oraz wyróżnienia w raportach.
-* Dostępne sposoby [używania filtrów oraz wyróżniania w raporcie udostępnionym lub w widoku do czytania raportu](service-interact-with-a-report-in-reading-view.md). Dostępne możliwości są bardziej ograniczone, usługa Power BI wciąż udostępnia jednak szeroką gamę opcji filtrowania i wyróżniania.  
+* Dostępne sposoby [używania filtrów oraz wyróżniania w raporcie udostępnionym lub w widoku do czytania raportu](service-reading-view-and-editing-view.md). Dostępne możliwości są bardziej ograniczone, usługa Power BI wciąż udostępnia jednak szeroką gamę opcji filtrowania i wyróżniania.  
 * [Szczegółowy przewodnik dotyczący kontrolek filtrowania i wyróżniania dostępnych w widoku do edycji](power-bi-how-to-report-filter.md), w tym dokładny przegląd typów filtrów (np. daty i godziny, numeryczne, tekstowe) i różnica między opcjami podstawowymi i zaawansowanymi.
 * Skoro już wiesz, jak wygląda domyślne działanie filtrów i wyróżniania, [dowiedz się, jak zmienić sposób wzajemnego filtrowania i wyróżniania dla wizualizacji na stronie](service-reports-visual-interactions.md)
 
@@ -50,9 +50,9 @@ Filtry i wyróżnianie może być stosowane za pomocą okienka **Filtry** lub pr
 > 
 
 ## <a name="filters-in-reading-view-versus-editing-view"></a>Filtry w widoku do czytania a filtry w widoku do edycji
-Istnieją dwa tryby interakcji z raportami: [Widok do czytania](service-interact-with-a-report-in-reading-view.md) i [Widok do edycji](service-interact-with-a-report-in-editing-view.md).  Dostępne możliwości filtrowania zależą od trybu, w którym pracujesz.
+Istnieją dwa tryby interakcji z raportami: [Widok do czytania i Widok do edycji](service-reading-view-and-editing-view.md).  Dostępne możliwości filtrowania zależą od trybu, w którym pracujesz.
 
-* Widok do edycji umożliwia dodawanie raportu, strony i filtrów wizualnych. Podczas zapisywania raportu filtry zostają zapisane razem z nim. Osoby wyświetlające raport w widoku do czytania mogą wchodzić w interakcje z filtrami, które zostały dodane, ale nie mogą zapisywać swoich zmian.
+* Widok do edycji umożliwia dodawanie filtrów raportu, strony i wizualizacji. Podczas zapisywania raportu filtry zostają zapisane razem z nim. Osoby wyświetlające raport w widoku do czytania mogą wchodzić w interakcje z filtrami, które zostały dodane, ale nie mogą zapisywać swoich zmian.
 * Widok do czytania pozwala na wchodzenie w interakcje z wszystkimi istniejącymi w raporcie stronami i filtrami wizualnymi, ale nie jest możliwe zapisanie dokonanych zmian filtrów.
 
 ### <a name="the-filters-pane-in-reading-view"></a>Okienko filtrów w widoku do czytania
@@ -66,7 +66,7 @@ Aby sprawdzić, czy istnieją filtry na poziomie wizualizacji, wybierz wizualiza
 
 ![](media/power-bi-reports-filters-and-highlighting/power-bi-filter-visual-level.png)
 
-W widoku do czytania przeglądaj dane, modyfikując istniejące filtry. Dowiedz się, jak to zrobić, z artykułu [Interakcja z filtrami w widoku do czytania](service-interact-with-a-report-in-reading-view.md)
+W widoku do czytania przeglądaj dane, modyfikując istniejące filtry. Dowiedz się, jak to zrobić, z artykułu [Interakcja z filtrami w widoku do czytania](service-reading-view-and-editing-view.md)
 
 ### <a name="the-filters-pane-in-editing-view"></a>Okienko filtrów w widoku do edycji
 Jeśli masz uprawnienia właściciela do raportu i otworzysz go w widoku do edycji, zobaczysz, że **Filtry** to tylko jedno z dostępnych okienek do edycji.
@@ -83,7 +83,7 @@ Wybierz pole na kanwie raportu, aby przefiltrować i wyróżnić pozostałą cz�
 ![](media/power-bi-reports-filters-and-highlighting/power-bi-adhoc-filter.gif)
 
 ## <a name="next-steps"></a>Następne kroki
-[Interakcja z filtrami i wyróżnianie (w widoku do czytania)](service-interact-with-a-report-in-reading-view.md)
+[Interakcja z filtrami i wyróżnianie (w widoku do czytania)](service-reading-view-and-editing-view.md)
 
 [Dodawanie filtru do raportu (w widoku do edycji)](power-bi-report-add-filter.md)
 

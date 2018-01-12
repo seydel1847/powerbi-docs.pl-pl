@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: mihart
-ms.openlocfilehash: fb498f2b3320b96958467a9db851f119dba20ce7
-ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
+ms.openlocfilehash: 01e4f19cc1a3a57179be37cf0f36adf15ac47fdc
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="automatically-generate-data-insights-with-power-bi"></a>Automatyczne generowanie wglądu w szczegółowe dane przy użyciu usługi Power BI
 Masz nowy zestaw danych i nie bardzo wiesz, gdzie zacząć?  Musisz szybko utworzyć pulpit nawigacyjny?  Chcesz wyszukać szczegółowe informacje, które mogły zostać pominięte?
@@ -71,7 +71,7 @@ Teraz Twoja kolej. Poznaj funkcję wglądu w szczegółowe dane za pomocą [pró
     ![](media/service-insights/power-bi-insight-focus.png)
 3. W trybie koncentracji uwagi możesz wykonywać następujące czynności:
    
-   * [filtrować](service-interact-with-a-report-in-reading-view.md) wizualizacje.  Aby wyświetlić filtry, w prawym górnym rogu wybierz strzałkę, aby rozwinąć okienko Filtry.
+   * Filtrowanie wizualizacji.  Aby wyświetlić filtry, w prawym górnym rogu wybierz strzałkę, aby rozwinąć okienko Filtry.
      
         ![](media/service-insights/power-bi-insights-filter-new.png)
    * Przypnij kartę wglądu do pulpitu nawigacyjnego, wybierając ikonę pinezki ![](media/service-insights/power-bi-pin-icon.png) lub pozycję **Przypnij wizualizację**.

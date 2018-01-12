@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/21/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 8faa60dee8c1785d5560ac34c5eb50288488e893
-ms.sourcegitcommit: 910258a5ad8b6861e81ae02c57286db221c37375
+ms.openlocfilehash: 66e75d638595113b2df67650896a407ae5d13e88
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/02/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="subscribe-to-a-power-bi-report-or-dashboard"></a>Subskrybowanie raportu lub pulpitu nawigacyjnego usługi Power BI
 Nigdy nie było łatwiej być na czasie w przypadku najważniejszych pulpitów nawigacyjnych i raportów. Subskrybuj strony raportów i pulpity nawigacyjne, które są najważniejsze dla Ciebie, a usługa Power BI wyśle wiadomość e-mail z migawką do Twojej skrzynki odbiorczej. Poinformuj usługę Power BI, jak często chcesz otrzymywać wiadomości e-mail: od raz dziennie do raz w tygodniu. W wiadomościach e-mail i migawkach będzie używany język określony w ustawieniach usługi Power BI. Jeśli w ustawieniach nie będzie zdefiniowanego żadnego języka, usługa Power BI użyje języka używanej przeglądarki.
@@ -65,7 +65,7 @@ Oglądaj, jak Sirui konfiguruje subskrypcję e-mail dla raportu. Następnie post
    ![](media/service-report-subscribe/power-bi-view-related-screen.png)
 
 ## <a name="subscribe-to-a-report-page"></a>Subskrybowanie strony raportu
-1. Wyświetl raport w [Widoku do odczytu](service-report-open-in-reading-view.md).
+1. Wyświetl raport w [Widoku do odczytu](service-reading-view-and-editing-view.md).
 2. Z górnego menu wybierz pozycję **Subskrybuj**.
    
    ![](media/service-report-subscribe/power-bi-subscribe-icon.png)
@@ -109,6 +109,7 @@ Subskrypcje zostaną zakończone po wygaśnięciu licencji wersji Pro, po usuni�
 
 ## <a name="considerations-and-troubleshooting"></a>Zagadnienia i rozwiązywanie problemów
 * Obecnie subskrypcja jest niedostępna dla pulpitów nawigacyjnych i raportów, które pochodzą z pakietów zawartości lub aplikacji usługi Power BI. Ale istnieje obejście... wykonaj kopię raportu/pulpitu nawigacyjnego i zamiast tego dodaj subskrypcje do tej wersji.
+* Subskrypcje stron raportów są związane z nazwą danej strony raportu. Jeśli zasubskrybujesz stronę raportu, a następnie zmienisz jej nazwę, trzeba będzie ponownie utworzyć subskrypcję
 * Dla subskrypcji wiadomości e-mail dla zestawów danych połączenia na żywo otrzymasz wiadomości e-mail tylko po zmianie danych. Jeśli więc nastąpi odświeżanie bez żadnej zmiany danych, usługa Power BI nie wyśle wiadomości e-mail.
 * Subskrypcje e-mail nie obsługują większości [niestandardowych elementów wizualnych](power-bi-custom-visuals.md).  Jedynym wyjątkiem są te niestandardowe elementy wizualne, które zostały [certyfikowane](power-bi-custom-visuals-certified.md).  
 * Subskrypcje wiadomości e-mail są wysyłane wraz z domyślnymi stanami filtru i fragmentatora raportu. Wszelkie zmiany w wartościach domyślnych wprowadzone przed rozpoczęciem subskrypcji nie będą uwzględniane w wiadomości e-mail.    

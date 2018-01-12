@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/27/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 4610523d7c18246394974083c948b7bc018b4da1
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 692bcad734c2c011fc81fedf9fb8870d518cab06
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="view-related-content-in-power-bi-service"></a>Wyświetlanie powiązanej zawartości w usłudze Power BI
 Okienko **Powiązana zawartość** wyświetla sposób połączenia między różnymi zawartościami usługi Power BI — pulpitami nawigacyjnymi, raportami i zestawami danych.  Co więcej z tego okienka możesz wykonywać typowe zadania, np. odświeżanie, zmienianie nazw, generowanie szczegółowych informacji i wiele innych. Wybierz powiązany raport lub pulpit nawigacyjny, a zostanie on otworzony w obszarze roboczym usługi Power BI.   
@@ -74,7 +74,7 @@ W obszarze roboczym wybierz kartę **Raporty**, a następnie wybierz ikonę **Wy
 <br>
 **Metoda 2**
 
-Otwórz raport w [Widoku odczytu](service-interact-with-a-report-in-reading-view.md) i wybierz opcję ![](media/service-related-content/power-bi-view-related-new.png) z górnego menu.
+Otwórz raport w [Widoku do czytania](service-reading-view-and-editing-view.md) i wybierz opcję ![](media/service-related-content/power-bi-view-related-new.png) z górnego menu.
 
 Zostanie otwarte okienko **Powiązana zawartość**. Przedstawia ono skojarzony zestaw danych oraz wszystkie pulpity nawigacyjne, które mają przypięty co najmniej jeden kafelek z tego raportu. W przypadku tego raportu istnieją wizualizacje przypięte do dwóch różnych pulpitów nawigacyjnych.
 
@@ -97,7 +97,7 @@ W tym miejscu możesz podjąć bezpośrednie działanie wobec powiązanej zawart
 
 ## <a name="limitations-and-troubleshooting"></a>Ograniczenia i rozwiązywanie problemów
 * Jeśli Twoja przeglądarka nie ma wystarczającej ilości miejsca, nie zobaczysz opcji **Wyświetl powiązane**, ale nadal będzie wyświetlana ikona ![](media/service-related-content/power-bi-view-related-icon-new.png). Wybierz ikonę, aby otworzyć okienko **Powiązana zawartość**.
-* Aby otworzyć okienko Powiązana zawartość dla raportu, musisz pracować w [Widoku odczytu](service-interact-with-a-report-in-reading-view.md).
+* Aby otworzyć okienko Powiązana zawartość dla raportu, musisz pracować w [Widoku odczytu](service-reading-view-and-editing-view.md).
 * Zawartość powiązana nie jest dostępna w aplikacji Power BI Desktop.
 * Funkcja powiązanej zawartości nie działa w przypadku strumieniowych zestawów danych.
 

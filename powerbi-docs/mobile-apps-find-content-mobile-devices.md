@@ -1,6 +1,6 @@
 ---
 title: "Odnajdowanie pulpitów nawigacyjnych, raportów i aplikacji w aplikacjach mobilnych usługi Power BI"
-description: "Dowiedz się, gdzie znaleźć pulpity nawigacyjne i raporty w aplikacjach mobilnych usługi Power BI w zależności od ich pochodzenia."
+description: "Dowiedz się, gdzie znaleźć pulpity nawigacyjne, raporty i aplikacje w aplikacjach mobilnych usługi Power BI w zależności od ich pochodzenia."
 services: powerbi
 documentationcenter: 
 author: maggiesMSFT
@@ -15,20 +15,20 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 01/04/2018
 ms.author: maggies
-ms.openlocfilehash: 6dca860e4711d85b4b53c31c91ba4cba20bbe6e7
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: d63ef5ad9ee59901917fb9bf9c28358c9aa542e8
+ms.sourcegitcommit: 25489cf87c31fc107a5337fa1dd36506897c4bbb
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="find-your-dashboards-reports-and-apps-in-the-power-bi-mobile-apps"></a>Odnajdowanie pulpitów nawigacyjnych, raportów i aplikacji w aplikacjach mobilnych usługi Power BI
 Dotyczy:
 
 | ![Telefon iPhone](media/mobile-apps-find-content-mobile-devices/iphone-logo-50-px.png) | ![Tablet iPad](media/mobile-apps-find-content-mobile-devices/ipad-logo-50-px.png) | ![Telefon z systemem Android](media/mobile-apps-find-content-mobile-devices/android-phone-logo-50-px.png) | ![Tablet z systemem Android](media/mobile-apps-find-content-mobile-devices/android-tablet-logo-50-px.png) | ![Urządzenia z systemem Windows 10](media/mobile-apps-find-content-mobile-devices/win-10-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |:--- |
-| Telefony iPhone |Tablety iPad |Telefony z systemem Android |Tablety z systemem Android |Urządzenia z systemem Windows 10 |
+| Telefony iPhone |Urządzenia iPad |Telefony z systemem Android |Tablety z systemem Android |Urządzenia z systemem Windows 10 |
 
 W aplikacjach mobilnych Power BI pulpity nawigacyjne, raporty i aplikacje są przechowywane w różnych miejscach w zależności od ich pochodzenia. W tym artykule opisano, gdzie znajdują się poszczególne elementy. Możesz również [wyszukać dowolny element](mobile-apps-find-content-mobile-devices.md#search) znajdujący się w usłudze Power BI. 
 
@@ -49,7 +49,7 @@ Możesz mieć połączenia z lokalnymi serwerami raportów usługi Power BI lub 
 ## <a name="3-apps"></a>3. Aplikacje
 Aplikacja to kolekcja pulpitów nawigacyjnych i raportów utworzona przez organizację w celu udostępnienia najważniejszych metryk i podejmowania szybszych i łatwiejszych decyzji w oparciu o dane. W usłudze Power BI ([https://powerbi.com](https://powerbi.com)) aplikacje można łatwo znaleźć i zainstalować. Po ich zainstalowaniu można wyświetlać je na dowolnym urządzeniu. 
 
-![Nowa nawigacja w usłudze Power BI](media/mobile-apps-find-content-mobile-devices/power-bi-mobile-apps.png)
+![Nowa nawigacja w usłudze Power BI](media/mobile-apps-find-content-mobile-devices/power-bi-apps-mobile-apps.png)
 
 Dzięki aplikacjom można automatycznie otrzymywać aktualizacje wprowadzane przez ich autora, a autor może kontrolować, jak często planowane jest odświeżanie danych. Nie trzeba samodzielnie dbać o aktualność danych.
 

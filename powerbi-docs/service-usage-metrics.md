@@ -18,17 +18,17 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/27/2017
 ms.author: mihart
-ms.openlocfilehash: 0fca4788c29f42390a286509acd0675292fc6684
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 04709b76b8e3e464b5384fa2bf137cd79b0749a7
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="usage-metrics-for-dashboards-and-reports"></a>Metryki użycia pulpitów nawigacyjnych i raportów
 Jeśli tworzysz pulpity nawigacyjne i raporty, metryki użycia pomogą Ci określić ich oddziaływanie. Uruchamiając metryki użycia pulpitów nawigacyjnych lub raportów, możesz dowiedzieć się, w jaki sposób są one używane w organizacji: jaka zawartość jest używana, przez kogo i w jakim celu.  
 
 > [!NOTE]
-> Metryki użycia rejestrują użycie również w przypadku osadzenia pulpitów nawigacyjnych i raportów, ale nie w przypadku użycia funkcji [publikowania w Internecie](service-publish-to-web.md)
+> Metryki użycia będą śledzić użycie raportów osadzonych w usłudze SharePoint Online. Będą one również śledzić osadzanie pulpitów nawigacyjnych i raportów za pośrednictwem zarówno przepływu „użytkownik jest właścicielem poświadczeń”, jak i „aplikacja jest właścicielem poświadczeń”. Metryki użycia nie będą śledzić użycia osadzania raportów za pomocą polecenia [Publikuj w sieci Web](service-publish-to-web.md).
 > 
 > 
 

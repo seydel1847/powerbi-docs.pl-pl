@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/29/2017
 ms.author: mihart
-ms.openlocfilehash: 3710b8136a5f8f00d78047d9468dce0d6e68377f
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: da3d4359fab37d1c5ee5f9d214cc5dba0fa9b680
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>Zapoznaj się z przewodnikiem dotyczącym okienka filtrów raportu
 Ten artykuł szczegółowo opisuje okienko Filtry raportu. To okienko jest widoczne w widoku do edycji i widoku do czytania raportów usługi Power BI.
@@ -29,7 +29,7 @@ Ten artykuł szczegółowo opisuje okienko Filtry raportu. To okienko jest widoc
 Istnieje wiele sposobów, aby filtrować dane w usłudze Power BI i zalecamy zapoznać się najpierw z artykułem [Informacje o filtrach i wyróżnianiu](power-bi-reports-filters-and-highlighting.md).
 
 ## <a name="working-with-filters"></a>Praca z filtrami
-Raporty można otwierać w [widoku do edycji](service-interact-with-a-report-in-editing-view.md) lub [widoku do czytania](service-interact-with-a-report-in-reading-view.md). W widoku do edycji właściciel raportu może [dodawać filtry do raportu](power-bi-report-add-filter.md). Te filtry są zapisywane razem z raportem. Osoby wyświetlające raport w widoku do czytania mogą wchodzić w interakcje z filtrami, nie mogą jednak zapisywać zmian filtrów w raporcie.
+Raporty można otwierać w [widoku do edycji lub widoku do czytania](service-reading-view-and-editing-view.md). W widoku do edycji właściciel raportu może [dodawać filtry do raportu](power-bi-report-add-filter.md). Te filtry są zapisywane razem z raportem. Osoby wyświetlające raport w widoku do czytania mogą wchodzić w interakcje z filtrami, nie mogą jednak zapisywać zmian filtrów w raporcie.
 
 ## <a name="filters-in-reading-view"></a>Filtry w widoku do czytania
 Po otwarciu raportu w widoku do czytania okienko Filtry będzie wyświetlane wzdłuż prawej strony kanwy raportu. Jeśli okienko nie jest widoczne, wybierz strzałkę w prawym górnym rogu, aby je rozwinąć.
@@ -122,7 +122,7 @@ Jeśli wartości pól reprezentują datę lub godzinę, przy użyciu filtrów da
 
 ## <a name="next-steps"></a>Następne kroki
 [Filtry i wyróżnianie w raportach](power-bi-reports-filters-and-highlighting.md)  
-[Interakcja z filtrami i wyróżnianie w widoku do czytania raportu](service-interact-with-a-report-in-reading-view.md)  
+[Interakcja z filtrami i wyróżnianie w widoku do czytania raportu](service-reading-view-and-editing-view.md)  
 [Tworzenie filtrów w widoku do edycji](power-bi-report-add-filter.md)  
 [Zmiana sposobu wzajemnego filtrowania i wyróżniania krzyżowego wizualizacji raportu](service-reports-visual-interactions.md)
 

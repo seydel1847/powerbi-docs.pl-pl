@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/18/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 83c63ee2bed5ae7674223cf2fc3f9241308926e9
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 22dc1c9b703b500625a5aed23b6187fd3f616dde
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="drill-down-in-a-visualization-in-power-bi"></a>Przechodzenie do szczegółów w wizualizacji w usłudze Power BI
 ## <a name="drill-down-requires-a-hierarchy"></a>Przechodzenie do szczegółów wymaga hierarchii
@@ -54,7 +54,7 @@ Istnieją dwa różne sposoby przechodzenia do szczegółów (lub zwijania szcze
 ## <a name="method-1-for-drill-down"></a>Przechodzenie do szczegółów — metoda 1
 Ta metoda wykorzystuje ikony przechodzenia do szczegółów wyświetlane w rogach na górze wizualizacji.
 
-1. W usłudze Power BI otwórz raport w [widoku do czytania](service-report-open-in-reading-view.md) lub [widoku do edycji](service-reading-view-and-editing-view.md). Przechodzenie do szczegółów wymaga wizualizacji z hierarchią. 
+1. W usłudze Power BI otwórz raport w [widoku do czytania lub widoku do edycji](service-reading-view-and-editing-view.md). Przechodzenie do szczegółów wymaga wizualizacji z hierarchią. 
    
    Hierarchia została pokazana w animacji poniżej.  Wizualizacja zawiera hierarchię, w skład której wchodzi terytorium, miasto, kod pocztowy i nazwa miejscowości. Każde terytorium posiada co najmniej jedno miasto, każde miasto co najmniej jeden kod pocztowy itd. Domyślnie wizualizacja wyświetla tylko dane terytorium, ponieważ pozycja *Territory* wyświetlana jest na początku listy.
    
@@ -75,7 +75,7 @@ Ta metoda wykorzystuje ikony przechodzenia do szczegółów wyświetlane w rogac
 ## <a name="method-2-for-drill-down"></a>Przechodzenie do szczegółów — metoda 2
 Ta metoda wykorzystuje listę rozwijaną **Eksploruj** w górnym menu usługi Power BI.
 
-1. W usłudze Power BI otwórz raport w [widoku do czytania](service-report-open-in-reading-view.md) lub [widoku do edycji](service-reading-view-and-editing-view.md). Przechodzenie do szczegółów wymaga wizualizacji z hierarchią. 
+1. W usłudze Power BI otwórz raport w [widoku do czytania lub widoku do edycji](service-reading-view-and-editing-view.md). Przechodzenie do szczegółów wymaga wizualizacji z hierarchią. 
    
    Hierarchia została pokazana na obrazku poniżej.  Wizualizacja zawiera hierarchię, w skład której wchodzi terytorium, miasto, kod pocztowy i nazwa miejscowości. Każde terytorium posiada co najmniej jedno miasto, każde miasto co najmniej jeden kod pocztowy itd. Domyślnie wizualizacja wyświetla tylko dane terytorium, ponieważ pozycja *Territory* wyświetlana jest na początku listy.
    

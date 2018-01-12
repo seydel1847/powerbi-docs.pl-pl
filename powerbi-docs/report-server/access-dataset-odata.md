@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/01/2017
-ms.author: asaxton
-ms.openlocfilehash: f31d37b6fe9c0e4695719b9bbaa13a2c8deabc75
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.date: 01/05/2018
+ms.author: maghan
+ms.openlocfilehash: c3a9cbd22f2304d19ae876962d0bf798fbd41183
+ms.sourcegitcommit: eec6b47970bf69ed30638d1a20051f961ba792f2
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/06/2018
 ---
 # <a name="accessing-shared-datasets-as-odata-feeds-in-power-bi-report-server"></a>Uzyskiwanie dostępu do udostępnionych zestawów danych jako źródeł danych usługi OData na serwerze raportów usługi Power BI
 Możesz uzyskać dostęp do udostępnionych zestawów danych z programu Power BI Desktop ze źródłem danych usługi OData.
@@ -38,7 +38,7 @@ Możesz uzyskać dostęp do udostępnionych zestawów danych z programu Power BI
 
 Pamiętaj, aby użyć pozycji **Opcje zaawansowane**, aby można było włączyć otwarty typ kolumny i odpowiednio sformatować kolumny w dodatku Power Query, aby zaspokoić swoje potrzeby.
 
-Przeczytaj więcej na temat [nawiązywania połączenia z polami usługi OData w programie Power BI Desktop](../desktop-connect-odata.md).
+Przeczytaj więcej na temat [nawiązywania połączenia ze źródłami danych usługi OData w programie Power BI Desktop](../desktop-connect-odata.md).
 
 Masz więcej pytań? [Zadaj pytanie społeczności usługi Power BI](https://community.powerbi.com/)
 

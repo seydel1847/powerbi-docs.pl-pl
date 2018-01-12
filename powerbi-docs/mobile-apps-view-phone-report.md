@@ -15,16 +15,23 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 01/04/2018
 ms.author: maggies
-ms.openlocfilehash: f3e02da2c0e793f3eb334c39852f5cd23534ad3f
-ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
+ms.openlocfilehash: 4f3441e2f933ee8964fc77e3166aeede97bcfba9
+ms.sourcegitcommit: 25489cf87c31fc107a5337fa1dd36506897c4bbb
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>Wyświetlanie raportów usługi Power BI zoptymalizowanych pod kątem telefonu
-Podczas tworzenia raportu usługi Power BI w programie Power BI Desktop możesz również utworzyć wersję tego [raportu zoptymalizowaną pod kątem wyświetlania w aplikacji Power BI na telefonie](desktop-create-phone-report.md).
+
+Dotyczy:
+
+| ![Telefon iPhone](media/mobile-apps-view-phone-report/ios-logo-40-px.png) | ![Telefon z systemem Android](media/mobile-apps-view-phone-report/android-logo-40-px.png) |
+|:--- |:--- |
+| Telefony iPhone |Telefony z systemem Android |
+
+Podczas tworzenia raportu usługi Power BI w programie Power BI Desktop możesz również [utworzyć wersję tego raportu zoptymalizowaną pod kątem wyświetlania](desktop-create-phone-report.md) w aplikacji Power BI na telefonie.
 
 W takim przypadku po otwarciu raportu usługi Power BI na telefonie usługa wykrywa, czy raport został zoptymalizowany pod kątem korzystania z niego na telefonie, i automatycznie otwiera zoptymalizowany raport w widoku pionowym.
 

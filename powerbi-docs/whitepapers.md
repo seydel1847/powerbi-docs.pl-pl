@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/14/2017
+ms.date: 01/05/2018
 ms.author: asaxton
-ms.openlocfilehash: a4ceeda4d56853df42da8e5c644b3946878a89f0
-ms.sourcegitcommit: 2bd3c16fd300e41c6e3de29a24543491c1d53354
+ms.openlocfilehash: 893f9a9b539b2facd62f74f8ecaebe42a4e7fcaa
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="whitepapers-for-power-bi"></a>Oficjalne dokumenty dla usługi Power BI
 
@@ -41,5 +41,6 @@ Oficjalne dokumenty pozwalają zapoznać się dokładniej z tematami dotyczącym
 | [Zabezpieczenia](service-admin-power-bi-security.md) |Zawiera szczegółowy opis zabezpieczeń w usłudze Power BI. |
 | [Zabezpieczanie tabelarycznego semantycznego modelu analizy biznesowej](http://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) |W tym dokumencie przedstawiono model zabezpieczeń semantycznego modelu analizy biznesowej i usługi Power BI. Dowiesz się, jak tworzyć role, implementować dynamiczne zabezpieczenia, konfigurować ustawienia personifikacji, zarządzać rolami i wybierać metody nawiązywania połączeń z modelami, które działają w ramach danego kontekstu zabezpieczeń sieciowych. |
 | [Wskazówki dotyczące planowania wydajności serwera raportów usługi Power BI](report-server/capacity-planning.md) |Ten dokument zawiera wskazówki dotyczące planowania wydajności serwera raportów usługi Power BI przez udostępnianie wyników licznych testów obciążenia wykonywanych na serwerze raportów przy różnych obciążeniach. |
-|[Planowanie i wdrażanie usługi Power BI Premium](https://aka.ms/Premium-Capacity-Planning-Deployment) | Oficjalny dokument techniczny dotyczący najlepszych rozwiązań i wytycznych związanych z planowaniem i wdrażaniem usługi Power BI Premium oraz obsługą jej operacji. 
+| [Planowanie i wdrażanie usługi Power BI Premium](https://aka.ms/Premium-Capacity-Planning-Deployment)| Ten dokument zawiera wskazówki i najlepsze rozwiązania dotyczące planowania i wdrażania pojemności Premium dla dokładnie zdefiniowanych obciążeń.|
+
 Masz więcej pytań? [Zadaj pytanie społeczności usługi Power BI](http://community.powerbi.com/)

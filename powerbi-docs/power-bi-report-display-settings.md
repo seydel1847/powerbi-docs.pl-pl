@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/24/2017
 ms.author: mihart
-ms.openlocfilehash: 650e02ea7d6f31fce9e5a0a458c41d6daa3fa9e1
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+ms.openlocfilehash: 57c441c489bf71db4b45bdfb96821b3cc2dcdec3
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="page-display-settings-in-a-power-bi-report"></a>Ustawienia wyświetlania strony w raporcie usługi Power BI
 Rozumiemy, że zachowanie doskonałej zgodności Twojego układ raportu piksel w piksel ma krytyczne znaczenie. Czasami może to stanowić wyzwanie, ponieważ Ty i Twoi współpracownicy wyświetlacie te raporty na ekranach o różnych współczynnikach proporcji i rozmiarach. 
@@ -45,7 +45,7 @@ W usłudze Power BI otwórz raport i wybierz pozycję **Widok** z górnego paska
 
 ![](media/power-bi-report-display-settings/power-bi-change-page-view.png)
 
-Ustawienia widoku strony są dostępne zarówno w pozycji [Widok do czytania](service-interact-with-a-report-in-reading-view.md) i [Widok do edycji](service-interact-with-a-report-in-editing-view.md). W widoku do edycji właściciel raportu może przypisać ustawienia widoku strony do poszczególnych stron raportu i te ustawienia są zapisywane wraz z raportem. Gdy współpracownicy otworzą ten raport w widoku do czytania, zobaczą strony raportu wyświetlane przy użyciu ustawień właściciela.  W widoku do czytania współpracownicy mogą zmienić *niektóre* ustawienia Widok strony, ale zmiany nie są zapisywane podczas zamykania raportu.
+Ustawienia widoku strony są dostępne w [widoku do czytania i w widoku do edycji](service-reading-view-and-editing-view.md). W widoku do edycji właściciel raportu może przypisać ustawienia widoku strony do poszczególnych stron raportu i te ustawienia są zapisywane wraz z raportem. Gdy współpracownicy otworzą ten raport w widoku do czytania, zobaczą strony raportu wyświetlane przy użyciu ustawień właściciela.  W widoku do czytania współpracownicy mogą zmienić *niektóre* ustawienia Widok strony, ale zmiany nie są zapisywane podczas zamykania raportu.
 
 ##    <a name="page-view-settings"></a>Ustawienia Widok strony
 Pierwszy zestaw ustawień *Widok strony* kontroluje wyświetlanie strony raportu względem okna przeglądarki.  Wybierz spośród opcji:

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 01/04/2018
 ms.author: maggies
-ms.openlocfilehash: b96ea3b0de070bee292b1d59a5abd9b0739a656a
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: b2df6825232f51a53bada3676faf598d6bc5d70b
+ms.sourcegitcommit: 25489cf87c31fc107a5337fa1dd36506897c4bbb
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Co nowego w aplikacjach mobilnych dla usługi Power BI
 Powiązane nowości są dostępne w następujących artykułach:
@@ -30,24 +30,50 @@ Powiązane nowości są dostępne w następujących artykułach:
 * [Co nowego w programie Power BI Desktop](desktop-latest-update.md)  
 * [Co nowego w usłudze Power BI](service-whats-new.md)  
 
-## <a name="september-2017"></a>Wrzesień 2017
-### <a name="filters-for-phone-reports-in-iphones"></a>Filtry w raportach na telefony iPhone
+## <a name="december-2017"></a>Grudzień 2017
+### <a name="improved-permission-management"></a>Ulepszone zarządzanie uprawnieniami
+
+Wprowadziliśmy pewne zmiany, które umożliwiają bardziej precyzyjne zarządzanie uprawnieniami użytkowników dotyczącymi zestawów danych, pulpitów nawigacyjnych i raportów.
+
+### <a name="auto-installed-apps"></a>Aplikacje zainstalowane automatycznie
+
+Niektórych aplikacji w usłudze Power BI nie trzeba w ogóle instalować. Twórcy aplikacji usługi Power BI w organizacji mogą utworzyć *aplikacje* zawierające kolekcję pulpitów nawigacyjnych i raportów. Następnie mogą opublikować te aplikacje i skonfigurować ich automatyczną instalację w usłudze Power BI i w aplikacjach mobilnych usługi Power BI. Jeśli aplikacja ma zostać dla Ciebie zainstalowana, będzie widoczna automatycznie w menu **Aplikacje**:
+
+![Aplikacje w aplikacji mobilnej Power BI](media/mobile-apps-find-content-mobile-devices/power-bi-apps-mobile-apps.png)
+
+## <a name="november-2017"></a>Listopad 2017
+### <a name="iphone-x-optimization"></a>Optymalizacja pod kątem telefonu iPhone X
+
+Zoptymalizowaliśmy układ aplikacji dla telefonu iPhone X, aby można było łatwo eksplorować dane na każdym urządzeniu.
+
+## <a name="october-2017"></a>Październik 2017
+### <a name="filters-for-phone-reports-in-android"></a>Filtry w raportach w systemie Android
+
+Jeśli utworzony w programie Power BI Desktop raport ze stronami zoptymalizowanymi pod kątem wyświetlania na telefonie zawiera filtry, można teraz je zastosować w raporcie na urządzeniu z systemem Android. Dowiedz się więcej na temat filtrów w raportach usługi Power BI przeznaczonych na urządzenia z systemem Android.
+
+### <a name="show-data-in-reports"></a>Pokazywanie danych w raportach
+
+Widok wizualizacji w raportach można teraz przełączyć na widok tabeli, aby wyświetlić liczby stojące za danymi. Aby uzyskać dostęp do tej funkcji, naciśnij pozycję „Pokaż dane” w menu wizualizacji w raporcie lub naciśnij nową ikonę w rozszerzonym menu akcji wizualizacji.
+
+## <a name="previous-months"></a>Poprzednie miesiące
+
+### <a name="september-2017"></a>Wrzesień 2017
+#### <a name="filters-for-phone-reports-in-iphones"></a>Filtry w raportach na telefony iPhone
 Jeśli utworzony w programie Power BI Desktop raport ze stronami zoptymalizowanymi pod kątem wyświetlania na telefonie zawiera filtry, można teraz je zastosować w raporcie na telefonie iPhone. Dowiedz się więcej na temat [filtrów w raportach usługi Power BI przeznaczonych na telefony iPhone](https://powerbi.microsoft.com/blog/filters-coming-for-phone-reports-on-ios/).
 
-## <a name="august-2017"></a>Sierpień 2017
-### <a name="ios-proxy-settings-support"></a>Obsługa ustawień serwera proxy w systemie iOS
+### <a name="august-2017"></a>Sierpień 2017
+#### <a name="ios-proxy-settings-support"></a>Obsługa ustawień serwera proxy w systemie iOS
 Teraz można konfigurować ustawienia serwera proxy w aplikacji mobilnej Power BI dla systemu iOS. Oznacza to, że usługa Power BI współdziała z połączeniami VPN na urządzeniach przenośnych, co pozwala większemu gronu użytkowników i organizacji bezpiecznie korzystać z funkcji mobilnych usługi Power BI.
 
-## <a name="july-2017"></a>Lipiec 2017
+### <a name="july-2017"></a>Lipiec 2017
 Przeczytaj [podsumowanie funkcji aplikacji mobilnych z lipca 2017 r.](https://powerbi.microsoft.com/blog/power-bi-service-and-mobile-july-feature-summary/#ios-preview)
 
-### <a name="ios-devices"></a>Urządzenia z systemem iOS
+#### <a name="ios-devices"></a>Urządzenia z systemem iOS
 **Nowe środowisko pytań i odpowiedzi w systemie iOS (wersja zapoznawcza)** Oprócz otrzymywania odpowiedzi na pytania, można teraz używać języka naturalnego, aby uzyskiwać wgląd w szczegółowe dane w zakresie. Nawet jeśli nie do końca wiesz, czego szukasz, funkcja pytań i odpowiedzi proaktywnie udostępnia istotne, szczegółowe informacje na podstawie danych. Nowe środowisko pytań i odpowiedzi, opracowane we współpracy z działem badań firmy Microsoft, korzysta z zaawansowanych technologii. Zapoznaj się z samouczkiem [Zadawanie pytań dotyczących danych w aplikacjach mobilnych dla systemu iOS](mobile-apps-ios-qna.md).
 
 ### <a name="responsive-visuals"></a>Elastyczne wizualizacje
 **Elastyczne wizualizacje w raportach na telefony i na pulpitach nawigacyjnych** Wizualizację na pulpicie nawigacyjnym lub w raporcie można ustawić na opcję *Elastyczna*, aby zmieniała się dynamicznie i wyświetlała maksymalną ilość danych i szczegółowych informacji niezależnie od rozmiaru ekranu. Zobacz [blog o elastycznych wizualizacjach](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#responsiveVisuals).
 
-## <a name="previous-months"></a>Poprzednie miesiące
 ### <a name="june-2107"></a>Czerwiec 2017
 #### <a name="all-devices"></a>Wszystkie urządzenia
 **Ustawianie aplikacji jako ulubionych** Pulpit nawigacyjny można już dodać do Ulubionych. Niedawno [dodano aplikacje do usługi Power BI](service-install-use-apps.md) i teraz można też dodawać aplikacje do Ulubionych. 
