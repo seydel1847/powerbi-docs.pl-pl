@@ -12,7 +12,7 @@
           href: service-free-vs-pro.md
         - name: Źródła danych dla usługi Power BI
           href: service-get-data.md
-        - name: Nowe środowisko nawigacji usługi Power BI
+        - name: Korzystanie z usługi Power BI — środowisko nawigacji
           href: service-the-new-power-bi-experience.md
         - name: 10 porad dotyczących uzyskiwania pomocy
           href: service-tips-for-finding-help.md
@@ -68,7 +68,7 @@
           href: sample-retail-analysis.md
     - name: Typowe zadania
       items:
-        - name: Ulubione pulpity nawigacyjne w usłudze Power BI
+        - name: 'Ulubione pulpity nawigacyjne, raporty i aplikacje w usłudze Power BI'
           href: service-dashboard-favorite.md
         - name: 'Drukowanie pulpitu nawigacyjnego, drukowanie kafelka pulpitu nawigacyjnego, drukowanie strony raportu'
           href: service-print.md
@@ -780,7 +780,7 @@
           href: desktop-add-custom-column.md
         - name: Tworzenie elastycznych wizualizacji w usłudze Power BI
           href: desktop-create-responsive-visuals.md
-        - name: Używanie etykiet hierarchii wbudowanych w programie Power BI Desktop (wersja zapoznawcza)
+        - name: Używanie wbudowanych etykiet hierarchii w programie Power BI Desktop (wersja zapoznawcza)
           href: desktop-inline-hierarchy-labels.md
         - name: Używanie fragmentatora zakresu liczbowego
           href: desktop-slicer-numeric-range.md
