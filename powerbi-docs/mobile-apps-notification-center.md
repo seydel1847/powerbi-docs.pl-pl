@@ -15,20 +15,20 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 07/17/2017
+ms.date: 01/16/2018
 ms.author: maggies
-ms.openlocfilehash: 855d72b46e37938727e5a60bbae5652c0f557708
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 218e7054a195db15f3b8b7c890723be7f0638d0c
+ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="get-notifications-in-the-power-bi-mobile-apps"></a>Uzyskiwanie powiadomień w aplikacjach mobilnych Power BI
 Dotyczy:
 
-| ![Urządzenie iPhone](media/mobile-apps-notification-center/iphone-logo-50-px.png) | ![Urządzenie iPad](media/mobile-apps-notification-center/ipad-logo-50-px.png) | ![Telefon z systemem Android](media/mobile-apps-notification-center/android-phone-logo-50-px.png) | ![Tablet z systemem Android](media/mobile-apps-notification-center/android-tablet-logo-50-px.png) | ![Windows 10](media/mobile-apps-notification-center/win-10-logo-50-px.png) |
+| ![Telefon iPhone](media/mobile-apps-notification-center/iphone-logo-50-px.png) | ![Tablet iPad](media/mobile-apps-notification-center/ipad-logo-50-px.png) | ![Telefon z systemem Android](media/mobile-apps-notification-center/android-phone-logo-50-px.png) | ![Tablet z systemem Android](media/mobile-apps-notification-center/android-tablet-logo-50-px.png) | ![Windows 10](media/mobile-apps-notification-center/win-10-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |:--- |
-| Urządzenia iPhone |Urządzenia iPad |Telefony z systemem Android |Tablety z systemem Android |Urządzenia z systemem Windows 10 |
+| Telefony iPhone |Urządzenia iPad |Telefony z systemem Android |Tablety z systemem Android |Urządzenia z systemem Windows 10 |
 
 Powiadomienia dostarczają informacje dotyczące środowiska usługi Power BI bezpośrednio do użytkownika, w usłudze Power BI lub na urządzeniu przenośnym. Po otwarciu obszaru powiadomień zostanie wyświetlony sekwencyjny kanał komunikatów dotyczących [ustawionych alertów](mobile-set-data-alerts-in-the-mobile-apps.md), nowych udostępnionych pulpitów nawigacyjnych, zmian obszaru roboczego grupy, informacji na temat zdarzeń i spotkań związanych z usługą Power BI i innych.
 

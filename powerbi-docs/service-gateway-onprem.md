@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 11/27/2017
+ms.date: 01/10/2018
 ms.author: davidi
-ms.openlocfilehash: 4693349715e7a38ae936318e9a8750e0b2f3fab0
-ms.sourcegitcommit: 7742f952c20695dfb475f74965c0065b02c01521
+ms.openlocfilehash: 0e0ad501ed809fc1f7cd8cc66d7f5d13badf7d15
+ms.sourcegitcommit: afd6e9e6f8b192b26486cd04d2cbc9de046911b3
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/29/2017
+ms.lasthandoff: 01/11/2018
 ---
 # <a name="on-premises-data-gateway"></a>Lokalna brama danych
 Lokalna brama danych działa jak most, zapewniając szybki i bezpieczny transfer danych między lokalnymi danymi (danymi, które nie są w chmurze) a usługami Power BI, Microsoft Flow, Logic Apps i PowerApps.
@@ -41,9 +41,9 @@ W przypadku wystąpień tabelarycznych lub wielowymiarowych można używać poł
 
 | **Wersja serwera** | **Wymagana jednostka SKU** |
 | --- | --- |
-| 2012 SP1 CU4 lub nowszy |Jednostka SKU w wersji Business Intelligence i Enterprise |
+| 2012 SP1 CU4 lub nowsza |Jednostka SKU w wersji Business Intelligence i Enterprise |
 | 2014 |Jednostka SKU w wersji Business Intelligence i Enterprise |
-| 2016 |Jednostka SKU w wersji Standard lub nowsza |
+| 2016 |Jednostka SKU w wersji Standard lub wyższej |
 
 * Formatowanie na poziomie komórki i funkcje tłumaczenia nie są obsługiwane.
 * Akcje i nazwane zestawy nie są widoczne w usłudze Power BI, ale można łączyć się z wielowymiarowymi modułami zawierającymi akcje lub nazwane zestawy i tworzyć wizualizacje oraz raporty.
@@ -97,7 +97,7 @@ Jeśli sądzisz, że problemy z bramą dotyczą serwera proxy, zobacz [Konfiguro
 
 ## <a name="next-steps"></a>Następne kroki
 [Zarządzanie źródłami danych — Analysis Services](service-gateway-enterprise-manage-ssas.md)  
-[Zarządzanie źródłami danych — SAP HANA](service-gateway-enterprise-manage-sap.md)  
+[Zarządzanie źródłem danych — SAP HANA](service-gateway-enterprise-manage-sap.md)  
 [Zarządzanie źródłami danych — SQL Server](service-gateway-enterprise-manage-sql.md)  
 [Zarządzanie źródłami danych — Oracle](service-gateway-onprem-manage-oracle.md)  
 [Zarządzanie źródłami danych — importowanie/zaplanowane odświeżanie](service-gateway-enterprise-manage-scheduled-refresh.md)  
