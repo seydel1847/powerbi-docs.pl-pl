@@ -1,6 +1,6 @@
 ---
-title: "Wyświetlanie pulpitów nawigacyjnych w aplikacjach mobilnych usługi Power BI"
-description: "Utwórz pulpity nawigacyjne w usłudze Power BI lub połącz się z nimi. Następnie wyświetl je w aplikacjach mobilnych usługi Power BI."
+title: "Wyświetlanie pulpitów nawigacyjnych i raportów w aplikacjach mobilnych usługi Power BI"
+description: "Utwórz pulpity nawigacyjne i raporty w usłudze Power BI lub połącz się z nimi. Następnie wyświetl je w aplikacjach mobilnych usługi Power BI."
 services: powerbi
 documentationcenter: 
 author: maggiesMSFT
@@ -15,15 +15,15 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 07/18/2017
+ms.date: 01/16/2018
 ms.author: maggies
-ms.openlocfilehash: 07a514f5d5c5046f8046bb231aef941f201a829b
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: e91b9745663ad88d388b410feb83ac8dfdc791b6
+ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/17/2018
 ---
-# <a name="view-your-dashboards-in-the-power-bi-mobile-apps"></a>Wyświetlanie pulpitów nawigacyjnych w aplikacjach mobilnych usługi Power BI
+# <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Wyświetlanie pulpitów nawigacyjnych i raportów w aplikacjach mobilnych usługi Power BI
 Dotyczy:
 
 | ![Telefon iPhone](media/mobile-apps-view-dashboard/iphone-logo-50-px.png) | ![Tablet iPad](media/mobile-apps-view-dashboard/ipad-logo-50-px.png) | ![Telefon z systemem Android](media/mobile-apps-view-dashboard/android-phone-logo-50-px.png) | ![Tablet z systemem Android](media/mobile-apps-view-dashboard/android-tablet-logo-50-px.png) | ![Urządzenia z systemem Windows 10](media/mobile-apps-view-dashboard/win-10-logo-50-px.png) |
@@ -35,10 +35,10 @@ Pulpity nawigacyjne to portal zapewniający dostęp do operacji i procesów maj�
 ## <a name="create-dashboards-in-the-power-bi-service-httpspowerbicom"></a>Tworzenie pulpitów nawigacyjnych w usłudze Power BI (https://powerbi.com)
 **Pulpity nawigacyjne nie są tworzone w aplikacjach mobilnych.** 
 
-Aby wyświetlić pulpit nawigacyjny na swoim urządzeniu przenośnym, musisz go utworzyć lub połączyć się z nim w przeglądarce internetowej. 
+Aby wyświetlić pulpity nawigacyjne i raporty na swoim urządzeniu przenośnym, musisz je utworzyć lub połączyć się z nimi w przeglądarce internetowej. 
 
 1. Przejdź do usługi Power BI ([https://powerbi.com](https://www.powerbi.com)) i [zarejestruj się w niej, aby utworzyć konto](service-self-service-signup-for-power-bi.md).
-2. [Utwórz własne pulpity nawigacyjne usługi Power BI](service-dashboard-create.md) lub połącz się z istniejącymi [pakietami zawartości dla różnych usług](service-connect-to-services.md).
+2. [Utwórz własne pulpity nawigacyjne usługi Power BI i raport](service-get-started.md) lub połącz się z istniejącymi [aplikacjami usługi Power BI](service-connect-to-services.md) dla różnych usług, takich jak [Microsoft Dynamics CRM](service-connect-to-microsoft-dynamics-crm.md) i [Adobe Analyics](service-connect-to-adobe-analytics.md).
 
 Oto pulpit nawigacyjny w usłudze Power BI:
 

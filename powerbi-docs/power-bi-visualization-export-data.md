@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/19/2017
+ms.date: 01/10/2018
 ms.author: mihart
-ms.openlocfilehash: 2e5f72b0eb2507f8d2c7df7fc8a57817bb6ce79f
-ms.sourcegitcommit: a658b1c936e382f46a19eeb9cc26016cd7b1d756
+ms.openlocfilehash: 1df7eb485ac9b9de1007cc2fccbf8141ee4fdcc1
+ms.sourcegitcommit: afd6e9e6f8b192b26486cd04d2cbc9de046911b3
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/11/2018
 ---
 # <a name="export-data-from-visualizations"></a>Eksportowanie danych z wizualizacji
 Jeśli chcesz zobaczyć dane, które zostały użyte do utworzenia wizualizacji, możesz [wyświetlić te dane w usłudze Power BI](service-reports-show-data.md) lub wyeksportować je do programu Excel w formie pliku xlsx lub csv.   
@@ -46,7 +46,7 @@ Zobacz, jak Will eksportuje dane z jednej z wizualizacji w swoim raporcie, zapis
 ## <a name="from-a-visualization-in-a-report"></a>Z wizualizacji w raporcie
 Aby skorzystać z tej metody, otwórz[raport próbnych danych dotyczących analizy zakupów](sample-procurement.md) w [Widoku edycji](service-reading-view-and-editing-view.md). [Dodaj nową pustą stronę raportu](power-bi-report-add-page.md). Następnie wykonaj kroki opisane poniżej, aby dodać agregację i filtr na poziomie wizualizacji.
 
-1. Utwórz nowy wykres kolumnowy.  W okienku Pola wybierz opcję **Lokalizacja > Miasto** i **Faktura > Procent rabatu**.   
+1. Utwórz nowy wykres kolumnowy.  W okienku Pola wybierz opcję **Lokalizacja > Miasto** i **Faktura > Procent rabatu**.  Może się okazać konieczne przeniesienie pozycji **Procent rabatu** na listę Wartość. 
    
     ![](media/power-bi-visualization-export-data/power-bi-export-data3.png)
 2. Zmień agregację dla opcji **Procent rabatu** z **Liczba** na **Średnia**. Na liście Wartość wybierz strzałkę po prawej stronie pozycji **Procent rabatu** (pozycja może być nazwana **Wartość liczbowa procentu rabatu**), a następnie wybierz opcję **Średnia**.

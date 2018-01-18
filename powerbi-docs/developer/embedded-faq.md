@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/27/2017
+ms.date: 01/15/2018
 ms.author: asaxton
-ms.openlocfilehash: 5f884c9c45627ee3c129daca77e38d17f1223909
-ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
+ms.openlocfilehash: aa4401a6c913d38e471f83b88fec351308d25870
+ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/27/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Często zadawane pytania dotyczące usługi Power BI Embedded
 
@@ -56,6 +56,10 @@ Firma Microsoft zaleca przedsiębiorstwom zakup usługi Power BI Premium, czyli 
 
 W niektórych przypadkach niezależny dostawca oprogramowania (działający zazwyczaj na dużą skalę) zechce użyć jednostki SKU P, aby skorzystać z dodatkowych korzyści wstępnie spakowanej usługi Power BI w swojej organizacji oraz mieć możliwość osadzania aplikacji. Z kolei inne przedsiębiorstwa mogą być zainteresowane wyłącznie tworzeniem aplikacji biznesowych i osadzaniem w nich analizy, ale bez korzystania ze wstępnie spakowanej usługi Power BI, w takim przypadku mogą zdecydować się na użycie jednostek SKU A na platformie Azure.
 
+### <a name="how-many-embed-tokens-can-i-create"></a>Ile mogę utworzyć tokenów osadzania?
+
+Tokeny osadzania z licencją PRO są przeznaczone do celów projektowania i testowania programowania, więc liczba tokenów osadzania, które może wygenerować konto główne usługi Power BI, jest ograniczona. Aby umożliwić osadzanie w środowisku produkcyjnym, musisz [kupić pojemność](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical). Nie ma żadnego ograniczenia liczby generowanych tokenów osadzania, gdy zostanie kupiona pojemność.
+
 ### <a name="when-will-power-bi-embedded-be-available-in-azure"></a>Kiedy usługa Power BI Embedded będzie dostępna na platformie Azure?
 
 Usługa Power BI Embedded jest teraz dostępna.
@@ -70,7 +74,7 @@ Usługa Power BI Embedded to zestaw interfejsów API udostępnionych deweloperom
 
 Poniżej przedstawiono skróconą listę różnych funkcji, których można używać z poszczególnymi jednostkami SKU.
 
-|Funkcja  |Power BI Embedded<br>(jednostki SKU A) |Pojemność usługi Power BI Premium<br>(jednostki SKU EM)  |
+|Promowanie  |Power BI Embedded<br>(jednostki SKU A) |Pojemność usługi Power BI Premium<br>(jednostki SKU EM)  |
 |---------|---------|---------|
 |Osadzanie artefaktów z obszarów roboczych aplikacji Power BI     |Pojemność platformy Azure |Pojemność usługi Office 365 |
 |Korzystanie z raportów wymaga licencji usługi Power BI |Nie  |Tak |
@@ -87,6 +91,12 @@ Poniżej przedstawiono skróconą listę różnych funkcji, których można uży
 |Rozliczanie |Godzinowe |Miesięczne |Miesięczne |
 |Zobowiązanie  |Brak zobowiązania |Roczne  |Miesięczne lub roczne |
 |Rozróżnienie produktów |Pełna elastyczność, która umożliwia skalowanie w górę i w dół oraz wstrzymywanie i wznawianie zasobów w witrynie Azure Portal lub za pośrednictwem interfejsu API  |Może służyć do osadzania zawartości w usługach SharePoint Online i Microsoft Teams |Pozwala przeprowadzać osadzanie w aplikacjach, używając jednocześnie usługi Power BI w ramach tej samej pojemności |
+
+### <a name="what-are-the-prerequisites-to-create-a-pbie-capacity-in-azure"></a>Jakie są wymagania wstępne dotyczące tworzenia pojemności PBIE na platformie Azure?
+
+- Musisz zalogować się do swojego katalogu organizacyjnego (konta MSA nie są obsługiwane).
+- Musisz mieć dzierżawę usługi Power BI, tj. co najmniej jeden użytkownik w Twoim katalogu musi być zarejestrowany w usłudze Power BI. 
+- Musisz mieć subskrypcję platformy Azure w katalogu organizacyjnym.
 
 ### <a name="how-can-i-monitor-capacity-consumption"></a>Jak można monitorować poziom zużycia pojemności?
 
@@ -130,7 +140,7 @@ Usługa Power BI Embedded będzie rozliczana co godzinę.
 
 ### <a name="how-does-the-usage-of-power-bi-embedded-show-up-on-my-bill"></a>Jak użycie usługi Power BI Embedded jest rozliczane na rachunku?
 
-W przypadku usługi Power BI Embedded stosowana jest stała, przewidywalna stawka godzinowa zależna od typu wdrażanych węzłów.
+W przypadku usługi Power BI Embedded stosowana jest stała, przewidywalna stawka godzinowa zależna od typu wdrażanych węzłów. Należy pamiętać, że tak długo, jak zasób jest aktywny, opłaty będą naliczane nawet wtedy, gdy nie będzie on używany. Aby zatrzymać naliczanie opłat, musisz aktywnie wstrzymać zasób. Wstrzymywanie można przeprowadzić za pośrednictwem platformy Azure lub za pośrednictwem interfejsów API ARM.
 
 ### <a name="what-happens-if-i-already-purchased-power-bi-premium-and-now-i-want-some-of-the-benefits-of-power-bi-embedded-in-azure"></a>Co się stanie, jeśli po zakupie usługi Power BI Premium zechcę skorzystać z niektórych zalet usługi Power BI Embedded na platformie Azure?
 

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/19/2017
+ms.date: 01/11/2018
 ms.author: asaxton
-ms.openlocfilehash: 76435200df843acc4ba60ebab09633aa8f5c258d
-ms.sourcegitcommit: a658b1c936e382f46a19eeb9cc26016cd7b1d756
+ms.openlocfilehash: e614273c21dd5c222816700f0d42888e661ba1e0
+ms.sourcegitcommit: e623f8e5f715bd40a049b6448ca57b80de998cb4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/13/2018
 ---
 # <a name="embed-your-power-bi-dashboards-reports-and-tiles"></a>Osadzanie pulpitów nawigacyjnych, raportów i kafelków usługi Power BI
 
@@ -138,6 +138,9 @@ W przypadku osadzania dla swoich klientów należy wykonać następujące dział
 * Jeśli korzystasz z oddzielnej dzierżawy na potrzeby programowania, musisz upewnić się, że obszary robocze aplikacji oraz pulpity nawigacyjne i raporty są dostępne w środowisku produkcyjnym. Upewnij się, że utworzono aplikację w usłudze Azure AD dla dzierżawy produkcyjnej i przypisano odpowiednie uprawnienia aplikacji, zgodnie z instrukcjami w kroku 1.
 * Kup pojemność odpowiednią do potrzeb. Poniższa tabela pomaga w określeniu, których jednostek SKU pojemności usługi Power BI Embedded możesz potrzebować. Więcej informacji można znaleźć w [oficjalnym dokumencie dotyczącym planowania pojemności na potrzeby osadzonej analizy](https://aka.ms/pbiewhitepaper). Gdy wszystko będzie gotowe do zakupu, możesz dokonać zakupu w witrynie [Microsoft Azure Portal](https://portal.azure.com). Aby uzyskać więcej informacji na temat tworzenia pojemności osadzonej usługi Power BI Embedded, zobacz artykuł [Create Power BI Embedded capacity in the Azure portal](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity) (Tworzenie pojemności osadzonej usługi Power BI Embedded w witrynie Azure Portal).
 
+> [!IMPORTANT]
+> Ponieważ tokeny osadzania są przeznaczone tylko do celów testowania programowania, liczba tokenów osadzania, które może wygenerować konto główne usługi Power BI, jest ograniczona. Dla scenariuszy osadzania w środowisku produkcyjnym [należy kupić pojemność](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical). Nie ma żadnego ograniczenia generowania tokenów osadzania, gdy zostanie kupiona pojemność.
+
 | Węzeł pojemności | Całkowita liczba rdzeni<br/>*(Wewnętrzna baza danych + fronton)* | Rdzenie wewnętrznej bazy danych | Rdzenie frontonu | Limity zapytania bezpośredniego/połączenia na żywo | Maksymalne renderowanie strony w godzinie szczytu |
 | --- | --- | --- | --- | --- | --- |
 | A1 |1 rdzeń wirtualny |0,5 rdzenia, 3 GB pamięci RAM |0,5 rdzenia | 5 na sekundę |1–300 |
@@ -152,6 +155,8 @@ W przypadku osadzania dla swoich klientów należy wykonać następujące dział
     ![Przypisywanie obszaru roboczego aplikacji do pojemności](media/embedding-content/powerbi-embedded-premium-capacity.png)
 
 * Wdróż zaktualizowaną aplikację w środowisku produkcyjnym i rozpocznij osadzanie pulpitów nawigacyjnych i raportów usługi Power BI.
+
+
 
 ## <a name="admin-settings"></a>Ustawienia administratora
 

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/21/2017
+ms.date: 01/10/2018
 ms.author: davidi
-ms.openlocfilehash: c00281d6b9e8a75df3b08cf1f99d0c9357129816
-ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
+ms.openlocfilehash: a90926d14289ff0a904f29b7b43f70aa2cbc3130
+ms.sourcegitcommit: afd6e9e6f8b192b26486cd04d2cbc9de046911b3
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/27/2017
+ms.lasthandoff: 01/11/2018
 ---
 # <a name="use-kerberos-for-sso-single-sign-on-from-power-bi-to-on-premises-data-sources"></a>Używanie protokołu Kerberos na potrzeby logowania jednokrotnego (SSO) z usługi Power BI do lokalnych źródeł danych
 Możesz uzyskać bezproblemową łączność przy użyciu funkcji logowania jednokrotnego, aby umożliwić aktualizowanie raportów i pulpitów nawigacyjnych usługi Power BI na podstawie lokalnych danych, konfigurując lokalną bramę danych przy użyciu protokołu Kerberos. Lokalna brama danych ułatwia logowanie jednokrotne przez użycie zapytania bezpośredniego do połączenia z lokalnymi źródłami danych.
@@ -63,11 +63,15 @@ Dodatkowe informacje dotyczące omawianych kroków:
 
 
 > [!NOTE]
-> Aby włączyć logowanie jednokrotne dla źródła danych SAP HANA, należy zastosować następujące dwie poprawki konfiguracji SAP specyficzne dla platformy HANA:
->    1. Uaktualnij serwer SAP HANA przy użyciu poprawki programu SAP HANA 122.13 wydanej przez firmę SAP pod koniec października 2017 r. 
+> Aby włączyć logowanie jednokrotne dla źródła danych SAP HANA, należy zapewnić, że następujące konfiguracje specyficzne dla platformy HANA są spełnione dla programu SAP:
+>    1. Upewnij się, że na serwerze SAP HANA jest uruchomiona wersja 2.00.022* lub nowsza. 
 >    2. Na maszynie bramy zainstaluj najnowszy sterownik HANA ODBC firmy SAP.  Minimalna wymagana wersja to HANA ODBC 2.00.020.00 z sierpnia 2017 r.
+>
+> Przydać się mogą poniższe linki do poprawek i uaktualnień programu SAP. Pamiętaj, że musisz się zalogować do następujących zasobów przy użyciu konta pomocy technicznej SAP i że firma SAP może zmienić lub zaktualizować te linki.
 > 
-
+> * [HANA 2 SPS 01 wer. 012.03](https://launchpad.support.sap.com/#/notes/2557386) 
+> * [HANA 2 SPS 02 wer. 22](https://launchpad.support.sap.com/#/notes/2547324) 
+> * [HANA 1 SP 12 wer. 122.13](https://launchpad.support.sap.com/#/notes/2528439)
 
 
 ## <a name="errors-from-an-insufficient-kerberos-configuration"></a>Błędy wynikające z niewłaściwej konfiguracji protokołu Kerberos

@@ -14,13 +14,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/11/2017
+ms.date: 01/16/2018
 ms.author: maggies
-ms.openlocfilehash: 27ead0a3104693aff4a6fc3c2641c207ad44dc09
-ms.sourcegitcommit: bb577045145b2e6e5807622a53cefa2d46574618
+ms.openlocfilehash: 89c376451199aec0a6f464f3298df44d468f37d2
+ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="create-and-publish-apps-with-dashboards-and-reports-in-power-bi"></a>Tworzenie i publikowanie aplikacji z pulpitami nawigacyjnymi i raportami w usłudze Power BI
 
@@ -53,12 +53,7 @@ Będąc twórcą aplikacji, potrzebujesz licencji usługi Power BI Pro. Użytkow
 
 Możesz dodawać współpracowników do tych obszarów jako członków lub administratorów. Wszyscy członkowie i administratorzy obszarów roboczych aplikacji muszą mieć licencje usługi Power BI Pro. W obszarze roboczym możecie wspólnie pracować nad pulpitami nawigacyjnymi, raportami i innymi artykułami, które mają zostać rozpowszechnione wśród większej liczby osób lub nawet w całej organizacji. 
 
-Kiedy zawartość jest gotowa, możesz opublikować aplikację. Możesz przesłać bezpośredni link większej grupie odbiorców. Mogą oni również znaleźć Twoją aplikację na karcie Aplikacje, przechodząc do pozycji **Pobierz i odkryj więcej aplikacji w usłudze AppSource**. Te osoby nie mogą zmodyfikować zawartości aplikacji, ale mogą jej używać w usłudze Power Bu lub jednej z aplikacji mobilnych i samodzielnie filtrować, wyróżniać i sortować dane. 
-
-### <a name="how-are-app-workspaces-different-from-group-workspaces"></a>Czym obszary robocze aplikacji różnią się od obszarów roboczych grupy?
-Wszystkie istniejące obszary robocze grupy mogą pełnić rolę obszarów roboczych aplikacji i można z nich publikować aplikacje. Oto jedna z różnic pomiędzy obszarami roboczymi aplikacji a obszarami roboczymi grupy: obszar roboczy aplikacji jest tworzony jako miejsce do tworzenia i przechowywania konkretnej aplikacji. Istnieje bezpośredni związek pomiędzy aplikacją a zawartością obszaru roboczego aplikacji. Wszystko, co znajduje się w obszarze roboczym aplikacji, znajdzie się również w aplikacji po jej opublikowaniu. 
-
-Teraz rozumiesz już, czym są aplikacje i obszary robocze aplikacji. Przejdźmy więc do tworzenia i publikowania aplikacji. 
+Gdy zawartość jest gotowa, możesz wybrać, które pulpity nawigacyjne i raporty chcesz opublikować, a następnie opublikować aplikację. Możesz przesłać bezpośredni link większej grupie odbiorców. Mogą oni również znaleźć Twoją aplikację na karcie Aplikacje, przechodząc do pozycji **Pobierz i odkryj więcej aplikacji w usłudze AppSource**. Te osoby nie mogą zmodyfikować zawartości aplikacji, ale mogą jej używać w usłudze Power Bu lub jednej z aplikacji mobilnych i samodzielnie filtrować, wyróżniać i sortować dane. 
 
 ## <a name="create-an-app-workspace"></a>Tworzenie obszaru roboczego aplikacji
 [!INCLUDE [powerbi-service-create-app-workspace](./includes/powerbi-service-create-app-workspace.md)]

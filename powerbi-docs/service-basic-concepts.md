@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 01/10/2018
 ms.author: mihart
-ms.openlocfilehash: bebd31bbdbd2a571d565c6939199eedd7ecdb049
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+ms.openlocfilehash: be245be7c8f83cb363e93a5d2bc452418f436e37
+ms.sourcegitcommit: afd6e9e6f8b192b26486cd04d2cbc9de046911b3
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 01/11/2018
 ---
 # <a name="power-bi---basic-concepts-for-power-bi-service"></a>Power BI — podstawowe pojęcia dotyczące usługi Power BI
 
@@ -238,8 +238,9 @@ Ten obszar ekranu zawiera dodatkowe opcje interakcji z zawartością (w tym przy
 
 ## <a name="next-steps"></a>Następne kroki
 [Wprowadzenie do usługi Power BI](service-get-started.md)  
-[Power BI — wideo](videos.md)  
+[Navigation: Getting around in Power BI service](service-the-new-power-bi-experience.md)
+[Power BI videos](videos.md) (Nawigacja: Poruszanie się po usłudze Power BI) (Power BI — wideo)  
 [Edytor raportu — krótki przewodnik](service-the-report-editor-take-a-tour.md)
 
-Masz więcej pytań? [Zadaj pytanie społeczności usługi Power BI](http://community.powerbi.com/)
+Więcej pytań? [Zadaj pytanie społeczności usługi Power BI](http://community.powerbi.com/)
 

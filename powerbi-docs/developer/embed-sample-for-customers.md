@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/05/2017
+ms.date: 01/11/2018
 ms.author: asaxton
-ms.openlocfilehash: 8c703b93e87ad32ab3f730979292b85a86fd53c0
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 86d7a7fae9437bca3c116fb12ccf439339c1f0c0
+ms.sourcegitcommit: e623f8e5f715bd40a049b6448ca57b80de998cb4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/13/2018
 ---
 # <a name="embed-a-power-bi-dashboard-tile-or-report-into-your-application"></a>Osadzanie pulpitu nawigacyjnego, kafelka lub raportu usługi Power BI w aplikacji
 Dowiedz się, jak integrować lub osadzać pulpit nawigacyjny, kafelek albo raport w aplikacji internetowej przy użyciu zestawu .NET SDK usługi Power BI wraz z interfejsem API języka JavaScript programu Power BI podczas osadzania dla klientów. Jest to zwykle scenariusz niezależnego dostawcy oprogramowania.
@@ -125,6 +125,9 @@ Report report = reports.Value.FirstOrDefault();
 ### <a name="create-the-embed-token"></a>Tworzenie tokenu osadzania
 Należy wygenerować token osadzania, którego można używać z poziomu interfejsu API języka JavaScript. Token osadzania będzie specyficzny dla osadzanego elementu. Oznacza to, że za każdym razem, gdy osadzasz fragment zawartości usługi Power BI, musisz utworzyć dla niego nowy token. Aby uzyskać więcej informacji, łącznie z tym, którego parametru **accessLevel** używać, zobacz [GenerateToken API (Interfejs API generowania tokenu)](https://msdn.microsoft.com/library/mt784614.aspx).
 
+> [!IMPORTANT]
+> Ponieważ tokeny osadzania są przeznaczone tylko do celów testowania podczas programowania, liczba tokenów osadzania, które może wygenerować konto główne usługi Power BI, jest ograniczona. Dla scenariuszy osadzania w środowisku produkcyjnym [należy kupić pojemność](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical). Nie ma żadnego ograniczenia generowania tokenów osadzania, gdy zostanie kupiona pojemność.
+
 Próbka jest dostępna w klasie **Controllers\HomeController.cs** [próbki osadzania dla organizacji](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data).
 
 Założono, że utworzono klasę **EmbedConfig** i **TileEmbedConfig**. Próbka jest dostępna w klasach **Models\EmbedConfig.cs** i **Models\TileEmbedConfig.cs**.
@@ -186,6 +189,8 @@ var embedConfig = new EmbedConfig()
     Id = report.Id
 };
 ```
+
+
 
 ## <a name="step-4---load-an-item-using-javascript"></a>Krok 4. Ładowanie elementu przy użyciu języka JavaScript
 Języka JavaScript można użyć do załadowania pulpitu nawigacyjnego do elementu div na stronie internetowej. W próbce użyto modelu EmbedConfig/TileEmbedConfig wraz z widokami dla pulpitu nawigacyjnego, kafelka lub raportu. Aby uzyskać pełną próbkę użycia interfejsu API języka JavaScript, można użyć [próbki usługi Microsoft Power BI Embedded](https://microsoft.github.io/PowerBI-JavaScript/demo).

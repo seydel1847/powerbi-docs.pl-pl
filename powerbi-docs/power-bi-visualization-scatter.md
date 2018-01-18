@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/23/2017
 ms.author: mihart
-ms.openlocfilehash: 17073390cf19b742730712a8d39a353c7d541cd6
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+ms.openlocfilehash: 44c248d1a99a10c69b3fb7c78e68320fdc5cd2b2
+ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="scatter-charts-and-bubble-charts-in-power-bi-tutorial"></a>Wykresy punktowe i bąbelkowe w usłudze Power BI (samouczek)
 Wykres punktowy zawsze ma dwie osie wartości: jeden zestaw danych liczbowych jest wyświetlany wzdłuż osi poziomej, a drugi wzdłuż osi pionowej. Na wykresie kreślone są punkty występujące na przecięciu wartości liczbowych x i y, co zapewnia połączenie tych par wartości w pojedynczych punktach danych. Te punkty danych mogą być rozproszone równomiernie lub nierównomiernie wzdłuż osi poziomej, w zależności od danych.
@@ -75,6 +75,14 @@ W efekcie powstał wykres punktowy, który przedstawia wartości Total Sales Var
    
     ![](media/power-bi-visualization-scatter/pbi_scatter_chart_hover.png)
 3. Opcjonalnie można [sformatować kolory, etykiety, tytuły, tło i inne elementy wizualizacji](service-getting-started-with-color-formatting-and-axis-properties.md).
+
+## <a name="accessibility"></a>Ułatwienia dostępu
+
+Możesz ułatwić dostęp do wykresu punktowego lub wykresu bąbelkowego osobom niepełnosprawnym przy użyciu *Znaczników*. 
+
+Aby wybrać kształt znacznika, wybierz sekcję **Format** w okienku **Wizualizacje**, rozwiń sekcję **Kształty**, a następnie wybierz kształt znacznika.
+
+![Kształt znacznika](media/power-bi-visualization-scatter/pbi_scatter_marker.png)
 
 ## <a name="considerations-and-troubleshooting"></a>Istotne zagadnienia i rozwiązywanie problemów
 ### <a name="your-scatter-chart-has-only-one-data-point"></a>**Wykres punktowy ma tylko jeden punkt danych**

@@ -66,7 +66,7 @@ W przyszłości możesz ponownie uruchomić *usługę bramy systemu Windows* z p
 ![](./media/gateway-onprem-accounts-ports-more/gw-onprem_02.png)
 
 ## <a name="support-for-tls-1112"></a>Obsługa protokołu TLS 1.1/1.2
-Począwszy od aktualizacji z sierpnia 2017 roku, lokalna brama danych domyślnie używa protokołu Transport Layer Security (TLS) 1.1 lub 1.2 w celu komunikowania się z usługą **Power BI**. Poprzednie wersje lokalnej bramy danych domyślnie używają protokołu TLS 1.0. 15 stycznia 2018 r. zakończy się obsługa protokołu TLS 1.0, w tym możliwość interakcji bramy z **usługą Power BI** przy użyciu protokołu TLS 1.0. Dlatego do tego czasu należy uaktualnić instalacje lokalnej bramy danych do wersji z sierpnia 2017 roku (lub nowszej), aby zapewnić dalsze działanie bram.
+Począwszy od aktualizacji z sierpnia 2017 roku, lokalna brama danych domyślnie używa protokołu Transport Layer Security (TLS) 1.1 lub 1.2 w celu komunikowania się z usługą **Power BI**. Poprzednie wersje lokalnej bramy danych domyślnie używają protokołu TLS 1.0. 15 marca 2018 r. zakończy się obsługa protokołu TLS 1.0, w tym możliwość interakcji bramy z **usługą Power BI** przy użyciu protokołu TLS 1.0. Dlatego do tego czasu należy uaktualnić instalacje lokalnej bramy danych do wersji z sierpnia 2017 roku (lub nowszej), aby zapewnić dalsze działanie bram.
 
 Warto pamiętać, że do 1 listopada protokół TLS 1.0 będzie w dalszym ciągu obsługiwany przez lokalną bramę danych i używany przez nią jako mechanizm rezerwowy. Aby upewnić się, że cały ruch w bramie używa protokołu TLS 1.1 lub 1.2 (i zapobiec używaniu protokołu TLS 1.0), należy dodać lub zmodyfikować następujące klucze rejestru na maszynie, na której działa usługa bramy:
 

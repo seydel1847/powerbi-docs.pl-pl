@@ -15,18 +15,18 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 01/16/2018
 ms.author: davidi
-ms.openlocfilehash: 70cb015b0f5c4aa952c33c6dd94da5292f9678d7
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: 258962cbc9ea60b31676a1bcfb10f7906c6e0f74
+ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Mapowania kształtów w programie Power BI Desktop (wersja zapoznawcza)
 Program Power BI Desktop umożliwia utworzenie wizualizacji **Mapowanie kształtów**, która pozwala wyświetlić porównania względne regionów na mapie za pomocą różnych kolorów. W przeciwieństwie do wizualizacji **Mapa** wizualizacja **Mapowanie kształtów** nie umożliwia wyświetlenia dokładnych lokalizacji geograficznych punktów danych. Służy ona głównie do pokazywania porównań względnych regionów na mapie przy użyciu różnych kolorów.
 
-Wizualizacje **Mapowanie kształtów** są oparte na mapach ESRI/TopoJSON, które są bardzo przydatne, ponieważ pozwalają korzystać z niestandardowych, własnoręcznie utworzonych planów, na przykład map geograficznych, schematów rozmieszczenia siedzeń lub rozkładów pomieszczeń. Możliwość używania niestandardowych map nie jest dostępna w wersji zapoznawczej wizualizacji **Mapowanie kształtów**. Niestandardowe mapy zostaną włączone w jej pełnej wersji, której wydanie jest spodziewane przy następnej miesięcznej aktualizacji programu Power BI Desktop.
+Wizualizacje **Mapowanie kształtów** są oparte na mapach ESRI/TopoJSON, które są bardzo przydatne, ponieważ pozwalają korzystać z niestandardowych, własnoręcznie utworzonych planów, na przykład map geograficznych, schematów rozmieszczenia siedzeń lub rozkładów pomieszczeń. Możliwość korzystania z niestandardowych map jest niedostępna w tej wersji zapoznawczej **Mapowania kształtów**.
 
 ## <a name="creating-shape-maps"></a>Tworzenie mapowań kształtów
 Kontrolkę **Mapowanie kształtów** można przetestować na mapach dostarczanych z wersją zapoznawczą. Można też użyć własnej mapy, która spełnia wymagania opisane w sekcji **Używanie niestandardowych map**.
@@ -95,8 +95,9 @@ Możesz dodać nową kolumnę, po prostu wpisując jej nazwę (w pustej kolumnie
 Jest kilka kwestii i wymagań, które dotyczą wersji zapoznawczej wizualizacji **Mapowanie kształtów**:
 
 * Wizualizacja **Mapowanie kształtów** jest dostępna w wersji zapoznawczej i musi zostać włączona w programie Power BI Desktop. Aby włączyć **Mapowanie kształtów**, wybierz pozycję **Plik > Opcje i ustawienia > Opcje > Funkcje wersji zapoznawczej**, a następnie zaznacz pole wyboru **Mapowanie kształtów**.
-* Aktualnie należy również ustawić zasobnik **Wartości**, aby klasyfikacja **Legenda** działała poprawnie. Zamierzamy usprawnić to działanie w końcowej wersji wizualizacji **Mapowanie kształtów**.
-* W interfejsie użytkownika pełnej wersji wizualizacji **Mapowanie kształtów** będą wyświetlane klucze mapowania aktualnie wybranej mapy. W przypadku korzystania z wersji zapoznawczej klucze mapowania regionów można znaleźć w tabelach w sekcji **Klucze regionów** tego artykułu.
+* Aktualnie należy również ustawić zasobnik **Wartości**, aby klasyfikacja **Legenda** działała poprawnie
+* W interfejsie użytkownika ostatecznej wersji **Mapowanie kształtów** będą wyświetlane klucze mapowania aktualnie wybranej mapy (nie ma ustalonej daty ostatecznego wydania i **Mapowanie kształtów** jest nadal w wersji zapoznawczej). W przypadku korzystania z tej wersji zapoznawczej klucze mapowania regionów można znaleźć w tabelach w sekcji **Klucze regionów** tego artykułu.
+* Wizualizacja **Mapowanie kształtów** wykreśli maksymalnie 1000 punktów danych.
 
 ## <a name="region-keys"></a>Klucze regionów
 Aby przetestować wizualizację **Mapowanie kształtów** w wersji zapoznawczej, skorzystaj z następujących **kluczy regionów**.
