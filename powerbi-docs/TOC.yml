@@ -266,26 +266,36 @@
           href: service-data-classification.md
     - name: Zadawanie pytań dotyczących danych
       items:
-        - name: Pytania i odpowiedzi w usłudze Power BI
-          href: service-q-and-a.md
-        - name: Jak używać funkcji pytań i odpowiedzi w usłudze Power BI
-          href: service-how-to-q-and-a.md
-        - name: 'Samouczek: wprowadzenie do funkcji pytań i odpowiedzi w usłudze Power BI'
-          href: power-bi-visualization-introduction-to-q-and-a.md
-        - name: Używanie funkcji pytań i odpowiedzi z danymi bramy Power BI Gateway — Enterprise (wersja zapoznawcza)
-          href: service-q-and-a-direct-query.md
-        - name: Dbanie o poprawne współdziałanie danych z funkcją pytań i odpowiedzi w usłudze Power BI
-          href: service-prepare-data-for-q-and-a.md
-        - name: Wprowadzenie do Cortany dla usługi Power BI
-          href: service-cortana-intro.md
-        - name: Włączanie Cortany dla usługi Power BI
-          href: service-cortana-enable.md
-        - name: Tworzenie polecanych pytań dla funkcji pytań i odpowiedzi w usłudze Power BI
-          href: service-q-and-a-create-featured-questions.md
-        - name: Porady i wskazówki dotyczące zadawania pytań za pomocą funkcji pytań i odpowiedzi w usłudze Power BI
-          href: service-q-and-a-tips.md
-        - name: Rozwiązywanie problemów z Cortaną
-          href: service-cortana-troubleshoot.md
+        - name: Omówienie
+          items:
+            - name: Pytania i odpowiedzi w usłudze Power BI
+              href: power-bi-q-and-a.md
+            - name: Wprowadzenie do Cortany dla usługi Power BI
+              href: service-cortana-intro.md
+        - name: Szybki start
+          items:
+            - name: Wprowadzenie do pytań i odpowiedzi usługi Power BI
+              href: power-bi-visualization-introduction-to-q-and-a.md
+        - name: Samouczki
+          items:
+            - name: Funkcja pytań i odpowiedzi umożliwia tworzenie wizualizacji i konstruowanie raportów
+              href: power-bi-tutorial-q-and-a.md
+        - name: Instrukcje
+          items:
+            - name: Używanie funkcji pytań i odpowiedzi z danymi bramy Power BI Gateway — Enterprise (wersja zapoznawcza)
+              href: service-q-and-a-direct-query.md
+            - name: Dbanie o poprawne współdziałanie danych z funkcją pytań i odpowiedzi w usłudze Power BI
+              href: service-prepare-data-for-q-and-a.md
+            - name: Włączanie Cortany dla usługi Power BI
+              href: service-cortana-enable.md
+            - name: Tworzenie proponowanych pytań dla funkcji pytań i odpowiedzi w usłudze Power BI
+              href: service-q-and-a-create-featured-questions.md
+        - name: Zasoby
+          items:
+            - name: Porady i wskazówki dotyczące zadawania pytań za pomocą funkcji Pytania i odpowiedzi w usłudze Power BI
+              href: service-q-and-a-tips.md
+            - name: Rozwiązywanie problemów z Cortaną
+              href: service-cortana-troubleshoot.md
     - name: Udostępnianie wyników pracy
       items:
         - name: Jak współpracować nad pulpitami nawigacyjnymi i raportami oraz je udostępniać?
