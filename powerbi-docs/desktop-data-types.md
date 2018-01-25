@@ -126,7 +126,7 @@ Jeśli na przykład data jest używana w operacji odejmowania razem z jakimkolwi
 
 **Mnożenie (*)**
 
-| Operator (*) | LICZBA CAŁKOWITA | WALUTA | LICZBA RZECZYWISTA | Data/godzina |
+| Operator (\*) | LICZBA CAŁKOWITA | WALUTA | LICZBA RZECZYWISTA | Data/godzina |
 | --- | --- | --- | --- | --- |
 | LICZBA CAŁKOWITA |LICZBA CAŁKOWITA |WALUTA |LICZBA RZECZYWISTA |LICZBA CAŁKOWITA |
 | WALUTA |WALUTA |LICZBA RZECZYWISTA |WALUTA |WALUTA |
