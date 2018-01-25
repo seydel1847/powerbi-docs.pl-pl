@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: 976ca32f0c43f6d8412f9468dc9f61ab9768fa4c
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 92b069bded7fc6a22480d8190c1b8d0f53f959e4
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-mandrill-with-power-bi"></a>Łączenie się z pakietem zawartości Mandrill przy użyciu usługi Power BI
 Pakiet zawartości usługi Power BI pobiera dane z konta usługi Mandrill oraz generuje pulpit nawigacyjny, zestaw raportów i zestaw danych, aby umożliwić eksplorowanie danych. Analizy usługi Mandrill pozwalają szybko uzyskać szczegółowe informacje dotyczące kampanii marketingowych lub biuletynu. Dane będą odświeżane codziennie, zapewniając aktualność monitorowanych danych.
@@ -47,7 +47,7 @@ Połącz się z [pakietem zawartości Mandrill dla usługi Power BI.](http://app
 
 **Co teraz?**
 
-* Spróbuj [zadać pytanie w polu Pytania i odpowiedzi](service-q-and-a.md) w górnej części pulpitu nawigacyjnego
+* Spróbuj [zadać pytanie w polu funkcji Pytania i odpowiedzi](power-bi-q-and-a.md) w górnej części pulpitu nawigacyjnego
 * [Zmień kafelki](service-dashboard-edit-tile.md) na pulpicie nawigacyjnym.
 * [Wybierz kafelek](service-dashboard-tiles.md), aby otworzyć raport źródłowy.
 * Zestaw danych zostanie ustawiony na codzienne odświeżanie, ale możesz zmienić harmonogram odświeżania lub spróbować odświeżyć go na żądanie przy użyciu opcji **Odśwież teraz**

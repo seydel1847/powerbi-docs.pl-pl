@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: 39c3fd776e3aed821c7c10c1e905d7400ca64efd
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 9e19246d6caa8111ab4e61b5dc8fd6207ea1099e
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-microsoft-azure-enterprise-with-power-bi"></a>Łączenie się z usługą Microsoft Azure Enterprise za pomocą usługi Power BI
 Eksploruj i monitoruj dane aplikacji Microsoft Azure Enterprise w usłudze Power BI przy użyciu pakietu zawartości Power BI. Dane będą odświeżane automatycznie raz dziennie.
@@ -41,16 +41,16 @@ Połącz się z [pakietem zawartości Microsoft Azure Enterprise](https://app.po
 4. Podaj adres URL środowiska platformy Azure, liczbę miesięcy, dla której chcesz zaimportować dane, oraz numer rejestracji w usłudze Azure Enterprise. Adres URL środowiska platformy Azure to `https://ea.azure.com` lub `https://ea.windowsazure.cn`. Poniżej znajdują się szczegółowe informacje dotyczące [wyszukiwania tych parametrów](#FindingParams).
    
     ![](media/service-connect-to-azure-enterprise/params.png)
-5. Podaj klucz dostępu do nawiązania połączenia. Klucz rejestracji można znaleźć w witrynie Azure EA Portal.
+5. Podaj klucz dostępu w celu nawiązania połączenia. Klucz rejestracji można znaleźć w witrynie Azure EA Portal.
    
     ![](media/service-connect-to-azure-enterprise/creds.png)
-6. Proces importowania rozpocznie się automatycznie. Po zakończeniu tego procesu w okienku nawigacji zostaną wyświetlone nowy pulpit nawigacyjny, raport i model. Wybierz pulpit nawigacyjny, aby wyświetlić zaimportowane dane.
+6. Proces importowania rozpocznie się automatycznie. Po zakończeniu nowy pulpit nawigacyjny, raport i model zostaną wyświetlone w okienku nawigacji. Wybierz pulpit nawigacyjny, aby wyświetlić zaimportowane dane.
    
    ![](media/service-connect-to-azure-enterprise/dashboard.png)
 
 **Co teraz?**
 
-* Spróbuj [zadać pytanie w polu Pytania i odpowiedzi](service-q-and-a.md) w górnej części pulpitu nawigacyjnego
+* Spróbuj [zadać pytanie w polu funkcji Pytania i odpowiedzi](power-bi-q-and-a.md) w górnej części pulpitu nawigacyjnego
 * [Zmień kafelki](service-dashboard-edit-tile.md) na pulpicie nawigacyjnym.
 * [Wybierz kafelek](service-dashboard-tiles.md), aby otworzyć raport źródłowy.
 * Zestaw danych zostanie ustawiony na codzienne odświeżanie, ale możesz zmienić harmonogram odświeżania lub spróbować odświeżyć go na żądanie przy użyciu opcji **Odśwież teraz**
@@ -59,7 +59,7 @@ Połącz się z [pakietem zawartości Microsoft Azure Enterprise](https://app.po
 Pakiet zawartości Azure Enterprise obejmuje miesięczne dane raportowania dotyczące zakresu miesięcy, które są podawane podczas przepływu połączenia. Zakres to okno ruchome, więc uwzględnione daty będą aktualizowane podczas odświeżania zestawu danych.
 
 ## <a name="system-requirements"></a>Wymagania systemowe
-Pakiet zawartości wymaga dostępu do funkcji usługi Enterprise w witrynie Azure Portal.
+Pakiet zawartości wymaga dostępu do funkcji Enterprise w witrynie Azure Portal.
 
 <a name="FindingParams"></a>
 
@@ -74,7 +74,7 @@ Raportowanie w usłudze Power BI jest dostępne dla klientów pośrednich, partn
 
 **Liczba miesięcy**
 
-* Musi to być wartość z zakresu od 1 do 36, reprezentująca liczbę miesięcy danych (od dzisiaj), które chcesz zaimportować.
+* Musi to być wartość z zakresu od 1 do 36 reprezentująca liczbę miesięcy danych (od bieżącego dnia), które chcesz zaimportować.
 
 **Numer rejestracji**
 

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: e9fda17bd9560ac564cb6b3ae6c34b986a6bc2aa
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+ms.openlocfilehash: 6948f0e333ba1136f6fda8fa0f62b146cefdd710
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="reading-view-and-editing-view-in-power-bi-service-reports"></a>Widok do czytania i widok do edycji w raportach usługi Power BI
 W usłudze Power BI (nie w programie Power BI Desktop) są dostępne dwa tryby wyświetlania raportów i korzystania z nich: widok do czytania i widok do edycji. Widok do czytania jest dostępny dla wszystkich osób, a w szczególności jest przeznaczony dla *użytkowników* danych, natomiast widok do edycji jest dostępny tylko dla *twórców* i właścicieli raportu. 
@@ -56,7 +56,7 @@ Ten wykres nie zawiera wszystkich funkcji raportu usługi Power BI! Zawiera on l
 | [Opcje **widoku** raportu](power-bi-report-display-settings.md) | Tak, z pewnymi wyjątkami. | Tak, wszystkie, w tym linie siatki, przyciąganie i blokowanie. |
 | [Tworzenie harmonogramu odświeżania](refresh-data.md) | Nie  | Tak |
 | [Subskrybowanie raportu](service-report-subscribe.md) | Tak | Nie |
-| [Pytania i odpowiedzi — zadawanie pytań w raportach](service-q-and-a.md) | Nie  | Tak |
+| [Pytania i odpowiedzi — zadawanie pytań w raportach](power-bi-q-and-a.md) | Nie  | Tak |
 | [Wyświetlanie metryk użycia](service-usage-metrics.md) | Tak, na kanwie raportu | Tak, na liście raportu (widok zawartości) |
 | [Wyświetlanie powiązanych](service-related-content.md) | Tak, na kanwie raportu | Tak, na liście raportu (widok zawartości) |
 | [Zapisywanie raportu](service-report-save.md) | Tak, ale wyłącznie przy użyciu polecenia **Zapisz jako**. | Tak |
@@ -100,5 +100,5 @@ Pamiętaj, że tylko twórcy i właściciele raportu będą mogli otworzyć rapo
 ### <a name="next-steps"></a>Następne kroki
 Istnieje wiele sposobów na korzystanie z raportu w widoku do czytania, dzielenie i grupowanie danych w celu uzyskania szczegółowych informacji i odpowiedzi na pytania.  Następny temat, [Interakcje z raportem w widoku do czytania](service-interact-with-a-report-in-editing-view.md), zawiera szczegółowy opis niektórych z tych metod.    
 Wróć do [raportów w usłudze Power BI](service-reports.md)    
-Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/) 
+Więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/) 
 

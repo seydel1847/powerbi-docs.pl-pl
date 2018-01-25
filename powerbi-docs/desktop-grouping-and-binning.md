@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 01/19/2018
 ms.author: davidi
-ms.openlocfilehash: 801adc4ddb22536e46273d2639b4a1f0b9496cca
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 6d398a7594cfde65d878cbd317a2669b945da9e6
+ms.sourcegitcommit: a973bc6adc88507932e7e1535a74208e3842f5c4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/20/2018
 ---
 # <a name="use-grouping-and-binning-in-power-bi-desktop"></a>Używanie grupowania i kwantowania w programie Power BI Desktop
 Podczas tworzenia wizualizacji w programie **Power BI Desktop** dane są agregowane we fragmenty (czyli **grupy**) na podstawie wartości znalezionych w danych bazowych. W większości przypadków taka organizacja jest wystarczająca, ale mogą wystąpić sytuacje, kiedy zajdzie potrzeba doprecyzowania sposobu prezentowania tych fragmentów. Można na przykład umieścić trzy kategorie produktów w jednej większej kategorii (jednej *grupie*). Dane dotyczące sprzedaży można podzielić na pojemniki o rozmiarach 1 000 000 dolarów zamiast wynikającego z równego podziału rozmiaru 923 983 dolarów.
@@ -69,7 +69,7 @@ Po wybraniu przycisku **OK** w okienku **Pola** pojawi się nowe pole z oznaczen
 
 ![](media/desktop-grouping-and-binning/grouping-binning_7.png)
 
-Aby zobaczyć **kwantowanie** w działaniu, obejrzyj ten [klip wideo](https://youtu.be/UXEYSvgvMaQ?t=12m17s).
+Aby zobaczyć **kwantowanie** w działaniu, obejrzyj ten [klip wideo](https://www.youtube.com/watch?v=BRvdZSfO0DY).
 
 Zadaniem **grupowania** i **kwantowania** jest zapewnienie, że wizualizacje w Twoich raportach wyświetlają dane zgodnie z Twoimi oczekiwaniami.
 

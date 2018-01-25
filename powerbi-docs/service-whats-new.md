@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/01/2017
 ms.author: sirsu
-ms.openlocfilehash: 8b03eb9659d4f2c984200db16daa6de017e73de7
-ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
+ms.openlocfilehash: 87233cfe4290546478899d81d7a39714c75963eb
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/05/2018
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Co nowego w usłudze Power BI
 Na tej stronie możesz dowiedzieć się o znanych problemach i ostatnio udostępnionych funkcjach **usługi Power BI**. Powiązane nowości są dostępne w następujących artykułach:
@@ -470,7 +470,7 @@ Odwiedź nasz [blog](http://blogs.msdn.com/b/powerbi/archive/2015/10/13/power-bi
 
 **6 października 2015**
 
-* Za pomocą funkcji pytań i odpowiedzi usługi Power BI możesz eksplorować dane za pomocą prostych, intuicyjnych zapytań oraz otrzymywać odpowiedzi w postaci interaktywnych wykresów i grafów. W tej wersji dodaliśmy opcję ułatwiającą rozpoczęcie pracy z funkcją pytań i odpowiedzi usługi Power BI — nawet jeśli nie wiesz nic o danych. Aby jej użyć, [przejdź do dowolnego pulpitu nawigacyjnego, a następnie kliknij link „Jak pytać” obok pola pytania funkcji pytań i odpowiedzi](service-how-to-q-and-a.md). Usługa Power BI przedstawia pewną liczbę podpowiedzi na podstawie podanych danych.
+* Za pomocą funkcji pytań i odpowiedzi usługi Power BI możesz eksplorować dane za pomocą prostych, intuicyjnych zapytań oraz otrzymywać odpowiedzi w postaci interaktywnych wykresów i grafów. W tej wersji dodaliśmy opcję ułatwiającą rozpoczęcie pracy z funkcją pytań i odpowiedzi usługi Power BI — nawet jeśli nie wiesz nic o danych. Aby jej użyć, [przejdź do dowolnego pulpitu nawigacyjnego, a następnie kliknij link „Jak pytać” obok pola pytania funkcji pytań i odpowiedzi](power-bi-tutorial-q-and-a.md). Usługa Power BI przedstawia pewną liczbę podpowiedzi na podstawie podanych danych.
 * Dwa tygodnie temu wprowadziliśmy obsługę wstawiania kształtów na kanwę raportu w programie Power BI Desktop. W tym tygodniu mamy przyjemność poinformować, że teraz możesz dodawać kształty na kanwie raportów podczas tworzenia i/lub edytowania raportów w aplikacji internetowej usługi Power BI.
 * Dodaliśmy opcję wyłączenia powiadomienia za pomocą wiadomości e-mail o udostępnieniu pulpitu nawigacyjnego. Po prostu usuń zaznaczenie pola wyboru „Wyślij powiadomienie e-mail do adresatów” w oknie dialogowym udostępniania usługi Power BI. Zostanie wyświetlony adres URL — skopiuj go i udostępnij znajomym, udzielić im dostępu do pulpitu nawigacyjnego.
 * System Microsoft Dynamics NAV to rozwiązanie do zarządzania biznesowego dla małych i średnich organizacji. Oferuje on firmom klientów pełne rozwiązanie, które zapewnia większą kontrolę nad procesami finansowymi i biznesowymi. Pakiety zawartości usługi Power BI udostępniają gotowe do użycia raporty dla użytkowników systemu Dynamics NAV, takie jak sprzedaż i zysk, potok szans, zyskowność i inne. Te metryki są zorganizowane na pulpicie nawigacyjnym, który można całkowicie dostosować, co pozwala na łatwe nawiązanie połączenia i natychmiastowe rozpoczęcie eksplorowania danych.

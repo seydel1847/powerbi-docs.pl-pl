@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: 27749be1cb344ad731af2b2747dfee4bc24fab08
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: efb0bde571926d2e3e671aeca36ac148d1dd6710
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-alpine-metrics-sales-predictions-with-power-bi"></a>Łączenie się z usługą Alpine Metrics Sales Predictions za pomocą usługi Power BI
 Firma Alpine Metrics oferuje nowoczesną predykcyjną optymalizację procesów sprzedaży w chmurze oraz na żądanie dla dużych i małych organizacji handlowych. Pakiet zawartości usługi Alpine Metrics Sales Predictions dla usługi Power BI obejmuje takie metryki jak potencjalna i przewidywana sprzedaż i ryzyko, dzięki czemu masz lepszy wgląd w przyszłość firmy. 
@@ -43,13 +43,13 @@ Połącz się z [pakietem zawartości Alpine Metrics Sales Predictions](https://
     ![](media/service-connect-to-alpine-metrics/creds.png)
    
     ![](media/service-connect-to-alpine-metrics/creds2.png)
-5. Po nawiązaniu połączenia automatycznie zostanie załadowany pulpit nawigacyjny, raport i zestaw danych. Po zakończeniu kafelki zostaną zaktualizowane o dane pochodzące z konta.
+5. Po nawiązaniu połączenia automatycznie zostanie załadowany pulpit nawigacyjny, raport i zestaw danych. Po zakończeniu kafelki zostaną zaktualizowane przy użyciu danych pochodzących z konta.
    
     ![](media/service-connect-to-alpine-metrics/dashboard.png)
 
 **Co teraz?**
 
-* Spróbuj [zadać pytanie w polu Pytania i odpowiedzi](service-q-and-a.md) w górnej części pulpitu nawigacyjnego
+* Spróbuj [zadać pytanie w polu funkcji Pytania i odpowiedzi](power-bi-q-and-a.md) w górnej części pulpitu nawigacyjnego
 * [Zmień kafelki](service-dashboard-edit-tile.md) na pulpicie nawigacyjnym.
 * [Wybierz kafelek](service-dashboard-tiles.md), aby otworzyć raport źródłowy.
 * Zestaw danych zostanie ustawiony na codzienne odświeżanie, ale możesz zmienić harmonogram odświeżania lub spróbować odświeżyć go na żądanie przy użyciu opcji **Odśwież teraz**

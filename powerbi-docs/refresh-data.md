@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 01/19/2018
 ms.author: davidi
-ms.openlocfilehash: 053afc2c085a045c3fe0c8ce70a541d132966640
-ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
+ms.openlocfilehash: 647b042d10768f4ecbb3083384efa9000202a11f
+ms.sourcegitcommit: a973bc6adc88507932e7e1535a74208e3842f5c4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/23/2017
+ms.lasthandoff: 01/20/2018
 ---
 # <a name="data-refresh-in-power-bi"></a>Odświeżanie danych w usłudze Power BI
 Pewność, że używane dane są zawsze aktualne, ma często zasadnicze znaczenie dla podejmowania właściwych decyzji. Prawdopodobnie znasz już funkcję pobierania danych w usłudze Power BI, która służy do nawiązania połączenia i przekazania danych. Wiesz także, jak tworzyć raporty i pulpity nawigacyjne. Teraz chcesz mieć pewność, że Twoje dane są naprawdę najnowsze i najlepsze.
@@ -112,7 +112,7 @@ Przechowywanie plików w usłudze OneDrive lub SharePoint Online i nawiązywanie
 | Polecenie Pobierz dane (na wstążce) umożliwia nawiązanie połączenia z danymi z dowolnego źródła danych online na liście i odpytywanie ich. |Nie |Tak |Nie (zobacz poniżej) |
 | Polecenie Pobierz dane umożliwia nawiązanie połączenia z bazą danych usług Analysis Services i eksplorowanie jej na żywo. |Tak |Nie |Tak |
 | Polecenie Pobierz dane umożliwia nawiązanie połączenia z obsługiwanym lokalnym źródłem danych zapytań bezpośrednich i eksplorowanie go. |Tak |Nie |Tak |
-| Polecenie Pobierz dane umożliwia nawiązanie połączenia z usługami Azure SQL Database, Azure SQL Data Warehouse i Azure HDInsight Spark oraz odpytywania ich. |Tak (co godzinę) |Nie |Nie |
+| Polecenie Pobierz dane umożliwia nawiązanie połączenia z usługami Azure SQL Database, Azure SQL Data Warehouse i Azure HDInsight Spark oraz odpytywania ich. |Tak |Tak |Nie |
 | Polecenie Pobierz dane umożliwia nawiązanie połączenia z dowolnym lokalnym źródłem danych na liście, z wyjątkiem pliku usługi Hadoop (HDFS) i programu Microsoft Exchange, oraz odpytywanie go. |Nie |Tak |Tak |
 
 > [!NOTE]

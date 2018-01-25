@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: ecbcccfbbece8255494c78220a81de62b3ddcc40
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 295d8dbd24c9ae6bce84cb76f6a5e23e7474b893
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-circuit-id-with-power-bi"></a>Łączenie się z pakietem zawartości Circuit ID przy użyciu usługi Power BI
 Analizowanie danych komunikacyjnych z usługi Circuit ID jest bardzo proste dzięki wykorzystaniu usługi Power BI. Usługa Power BI pobiera dane, a następnie tworzy domyślny pulpit nawigacyjny i powiązane raporty w oparciu o te dane. Po utworzeniu połączenia można eksplorować dane i dostosowywać pulpit nawigacyjny do własnych potrzeb. Dane są automatycznie odświeżane codziennie.
@@ -47,7 +47,7 @@ Połącz się z [pakietem zawartości Circuit ID](https://app.powerbi.com/getdat
 
 **Co teraz?**
 
-* Spróbuj [zadać pytanie w polu Pytania i odpowiedzi](service-q-and-a.md) w górnej części pulpitu nawigacyjnego
+* Spróbuj [zadać pytanie w polu funkcji Pytania i odpowiedzi](power-bi-q-and-a.md) w górnej części pulpitu nawigacyjnego
 * [Zmień kafelki](service-dashboard-edit-tile.md) na pulpicie nawigacyjnym.
 * [Wybierz kafelek](service-dashboard-tiles.md), aby otworzyć raport źródłowy.
 * Zestaw danych zostanie ustawiony na codzienne odświeżanie, ale możesz zmienić harmonogram odświeżania lub spróbować odświeżyć go na żądanie przy użyciu opcji **Odśwież teraz**
