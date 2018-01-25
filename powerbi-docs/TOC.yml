@@ -308,9 +308,9 @@
           href: service-organizational-content-pack-introduction.md
         - name: Tworzenie i publikowanie organizacyjnego pakietu zawartości (samouczek)
           href: service-organizational-content-pack-create-and-publish.md
-        - name: Udostępnianie pulpitu nawigacyjnego współpracownikom i innym osobom
+        - name: Udostępnianie pulpitów nawigacyjnych i raportów
           href: service-share-dashboards.md
-        - name: Udostępnianie raportu współpracownikom
+        - name: Udostępnianie przefiltrowanego raportu
           href: service-share-reports.md
         - name: Publikowanie w sieci Web z usługi Power BI
           href: service-publish-to-web.md
