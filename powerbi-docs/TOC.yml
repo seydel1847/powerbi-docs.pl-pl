@@ -922,8 +922,6 @@
           href: mobile-pin-dashboard-start-screen-windows-10-phone-app.md
         - name: Wyświetlanie usługi Power BI w trybie prezentacji na urządzeniu Surface Hub
           href: mobile-windows-10-app-presentation-mode.md
-        - name: Udostępnianie kafelka z aplikacji mobilnej Power BI dla systemu Windows 10
-          href: mobile-share-tile-windows-10-phone-app.md
 - name: Deweloper usługi Power BI
   items:
     - name: Omówienie
