@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/23/2017
 ms.author: mihart
-ms.openlocfilehash: 44c248d1a99a10c69b3fb7c78e68320fdc5cd2b2
-ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
+ms.openlocfilehash: 2d8ed3c30d289646504071daca098df1f41f6aab
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="scatter-charts-and-bubble-charts-in-power-bi-tutorial"></a>Wykresy punktowe i bąbelkowe w usłudze Power BI (samouczek)
 Wykres punktowy zawsze ma dwie osie wartości: jeden zestaw danych liczbowych jest wyświetlany wzdłuż osi poziomej, a drugi wzdłuż osi pionowej. Na wykresie kreślone są punkty występujące na przecięciu wartości liczbowych x i y, co zapewnia połączenie tych par wartości w pojedynczych punktach danych. Te punkty danych mogą być rozproszone równomiernie lub nierównomiernie wzdłuż osi poziomej, w zależności od danych.
@@ -30,6 +30,8 @@ Wykres punktowy zawsze ma dwie osie wartości: jeden zestaw danych liczbowych je
 Na wykresie bąbelkowym zamiast punktów danych używane są bąbelki. *Rozmiar* bąbelka reprezentuje dodatkowy wymiar danych.
 
 ![](media/power-bi-visualization-scatter/power-bi-bubble-chart.png)
+
+Liczbę punktów danych można ustawić  
 
 ## <a name="when-to-use-a-scatter-chart-or-bubble-chart"></a>Kiedy używać wykresu punktowego i wykresu bąbelkowego
 ### <a name="scatter-charts-are-a-great-choice"></a>Wykresy punktowe są doskonałym wyborem w następujących przypadkach:
@@ -39,7 +41,7 @@ Na wykresie bąbelkowym zamiast punktów danych używane są bąbelki. *Rozmiar*
 * Trzeba zmienić oś poziomą na skalę logarytmiczną.
 * Przedstawianie danych arkusza obejmujących pary lub pogrupowane zestawy wartości. Wykres punktowy pozwala niezależnie dopasowywać skale osi, aby uwidocznić dodatkowe informacje o pogrupowanych wartościach.
 * Wyświetlanie wzorców w dużych zestawach danych, na przykład za pomocą trendów liniowych i nieliniowych, grup i wartości odstających.
-* Porównywanie dużej liczby punktów danych bez uwzględniania czasu. Im więcej danych na wykresie punktowym, tym lepsze porównanie.
+* Porównywanie dużej liczby punktów danych bez względu na czas.  Im więcej danych uwzględnionych na wykresie punktowym, tym lepsze porównania możesz uzyskać.
 
 ### <a name="bubble-charts-are-a-great-choice"></a>Wykresy bąbelkowe są doskonałym wyborem w następujących przypadkach:
 * Dane zawierają 3 serie danych, a każda z nich zawiera zestaw wartości.
@@ -76,13 +78,20 @@ W efekcie powstał wykres punktowy, który przedstawia wartości Total Sales Var
     ![](media/power-bi-visualization-scatter/pbi_scatter_chart_hover.png)
 3. Opcjonalnie można [sformatować kolory, etykiety, tytuły, tło i inne elementy wizualizacji](service-getting-started-with-color-formatting-and-axis-properties.md).
 
-## <a name="accessibility"></a>Ułatwienia dostępu
+   Możesz również zmienić kształt znacznika na romb, trójkąt lub kwadrat:
 
-Możesz ułatwić dostęp do wykresu punktowego lub wykresu bąbelkowego osobom niepełnosprawnym przy użyciu *Znaczników*. 
+   ![Znacznik kwadratowy](media/power-bi-visualization-scatter/pbi_scatter_chart_hover_square.png)
 
-Aby wybrać kształt znacznika, wybierz sekcję **Format** w okienku **Wizualizacje**, rozwiń sekcję **Kształty**, a następnie wybierz kształt znacznika.
+4. Opcjonalnie, aby ustawić liczbę punktów danych do wyświetlenia na wykresie bąbelkowym, w sekcji **Format** okienka **Wizualizacje** rozwiń kartę **Ogólne** i dostosuj pozycję **Ilość danych**. Wartość domyślna to 3500. 
+ 
+    ![Ilość danych](media/power-bi-visualization-scatter/pbi_scatter_data_volume.png) 
 
-![Kształt znacznika](media/power-bi-visualization-scatter/pbi_scatter_marker.png)
+   > [!NOTE]
+   > Ponieważ większa liczba punktów danych może oznaczać dłuższy czas ładowania, jeśli wybierzesz publikację raportów z ograniczeniami na wyższym końcu skali, pamiętaj o przetestowaniu raportów w Internecie oraz mobilnych w celu zapewnienia, że wydajność jest zgodna z oczekiwaniami użytkowników.
+
+5.   Opcjonalnie, aby wybrać kształt znacznika, rozwiń kartę **Kształty**, a następnie wybierz kształt znacznika.
+
+      ![Kształt znacznika](media/power-bi-visualization-scatter/pbi_scatter_marker.png)
 
 ## <a name="considerations-and-troubleshooting"></a>Istotne zagadnienia i rozwiązywanie problemów
 ### <a name="your-scatter-chart-has-only-one-data-point"></a>**Wykres punktowy ma tylko jeden punkt danych**

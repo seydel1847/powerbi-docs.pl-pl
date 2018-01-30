@@ -1,5 +1,5 @@
 ---
-title: "Używanie funkcji pytań i odpowiedzi z połączeniami na żywo"
+title: "Używanie funkcji Pytania i odpowiedzi z połączeniami na żywo"
 description: "Dokumentacja korzystania z zapytań w języku naturalnym w funkcji pytań i odpowiedzi usługi Power BI za pomocą połączeń na żywo z danymi usług Analysis Services i lokalnej bramy danych."
 services: powerbi
 documentationcenter: 
@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 01/18/2018
 ms.author: mihart
-ms.openlocfilehash: 453a2a9dd4ea5e41d404d3e81cebbff7c35f1b6c
-ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
+ms.openlocfilehash: 49e0b976fcee8c18edc14f80df2786e5ebf3fedc
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/23/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="enable-qa-for-live-connections"></a>Włączanie funkcji pytań i odpowiedzi dla połączeń na żywo
 ## <a name="what-is-on-premises-data-gateway--what-is-a-live-connection"></a>Co to jest lokalna brama danych?  Co to jest połączenie na żywo?
@@ -39,7 +39,7 @@ Ponieważ funkcja pytań i odpowiedzi usługi Power BI używa wartości tekstowy
 Aby uzyskać więcej informacji, zobacz:
 
 * Co to jest [lokalna brama danych](service-gateway-onprem.md)?
-* [Wprowadzenie do funkcji pytań i odpowiedzi w usłudze Power BI](service-q-and-a.md)
+* [Wprowadzenie do funkcji pytań i odpowiedzi w usłudze Power BI](power-bi-q-and-a.md)
 
 ## <a name="enable-qa"></a>Włączanie funkcji pytań i odpowiedzi
 Po skonfigurowaniu bramy danych nawiąż połączenie z danymi w usłudze Power BI.  Utwórz pulpit nawigacyjny za pomocą danych lokalnych lub przekaż plik pbix, który używa danych lokalnych.  Dane lokalne możesz także już mieć w pulpitach nawigacyjnych, raportach i zestawach danych, które zostały Tobie udostępnione.
@@ -55,22 +55,20 @@ Po skonfigurowaniu bramy danych nawiąż połączenie z danymi w usłudze Power 
     ![](media/service-q-and-a-direct-query/power-bi-q-and-a-directquery.png)
 
 ## <a name="what-data-is-cached-and-how-is-privacy-protected"></a>Jakie dane są buforowane i jak jest chroniona prywatność?
-Po włączeniu funkcji pytań i odpowiedzi dla danych lokalnych podzbiór danych jest buforowany w usłudze. W ten sposób zapewnia się odpowiednią wydajność funkcji pytań i odpowiedzi. Wartości dłuższe niż 24 znaki nie są buforowane. Pamięć podręczna zostanie usunięta w kilka godzin po usunięciu zestawu danych lub wyłączeniu funkcji pytań i odpowiedzi przez usunięcie zaznaczenia pola wyboru **Włącz funkcję pytań i odpowiedzi dla tego zestawu danych**.
+Po włączeniu funkcji pytań i odpowiedzi dla danych lokalnych podzbiór danych jest buforowany w usłudze. W ten sposób zapewnia się odpowiednią wydajność funkcji pytań i odpowiedzi. Usługa Power BI wyklucza z buforowania wartości dłuższe niż 24 znaki. Pamięć podręczna zostanie usunięta w kilka godzin po usunięciu zestawu danych lub wyłączeniu funkcji pytań i odpowiedzi przez usunięcie zaznaczenia pola wyboru **Włącz funkcję pytań i odpowiedzi dla tego zestawu danych**.
 
 ## <a name="considerations-and-troubleshooting"></a>Zagadnienia i rozwiązywanie problemów
 Wersja zapoznawcza tej funkcji ma kilka ograniczeń:
 
-* Początkowo funkcja jest dostępna tylko dla tabelarycznych źródeł danych usług SQL Server 2016 Analysis Services. Funkcja jest zoptymalizowana pod kątem pracy z danymi tabelarycznymi. Część funkcjonalności jest dostępna dla źródeł danych wielowymiarowych, lecz wielowymiarowość nie jest jeszcze w pełni obsługiwana przez funkcję pytań i odpowiedzi. Dodatkowe źródła danych obsługiwane przez lokalną bramę danych zostaną udostępnione w ramach publicznej wersji zapoznawczej.
+* Początkowo funkcja jest dostępna tylko dla tabelarycznych źródeł danych usług SQL Server 2016 Analysis Services. Funkcja jest zoptymalizowana pod kątem pracy z danymi tabelarycznymi. Część funkcjonalności jest dostępna dla źródeł danych wielowymiarowych, lecz wielowymiarowość nie jest jeszcze w pełni obsługiwana przez funkcję pytań i odpowiedzi. W przyszłości będą wprowadzane dodatkowe źródła danych obsługiwane przez lokalną bramę danych.
 * Pełna obsługa zabezpieczeń na poziomie wiersza zdefiniowanych w usługach SQL Server Analysis Services nie jest początkowo dostępna w publicznej wersji zapoznawczej. W ramach zadawania pytań za pomocą funkcji pytań i odpowiedzi, autouzupełnianie może podczas wpisywania pokazywać ciągi, do których użytkownik nie ma dostępu. Jednak zabezpieczenia na poziomie wiersza zdefiniowane w modelu są uwzględniane w przypadku raportów i wizualizacji wykresów, dzięki czemu bazowe dane liczbowe nie są ujawniane. Opcje kontrolowania tego zachowania zostaną wydane w nadchodzących aktualizacjach.
 * Połączenia na żywo są obsługiwane tylko dla lokalnej bramy danych. W związku z tym nie można ich użyć dla bramy osobistej.
 
 ## <a name="next-steps"></a>Następne kroki
 [Lokalna brama danych](service-gateway-onprem.md)  
-[Zarządzanie źródłami danych — usługi Analysis Services](service-gateway-enterprise-manage-ssas.md)  
-[Szybki wgląd w szczegółowe dane w usłudze Power BI](service-insights.md)  
-[Optymalizacja danych pod kątem szybkiego wglądu w szczegółowe dane usługi Power BI](service-insights-optimize.md)  
+[Zarządzanie źródłem danych — Analysis Services](service-gateway-enterprise-manage-ssas.md)  
 [Power BI — podstawowe pojęcia](service-basic-concepts.md)  
-[Pulpity nawigacyjne w usłudze Power BI](service-dashboards.md)  
+[Omówienie funkcji Pytania i odpowiedzi usługi Power BI](power-bi-q-and-a.md)  
 
-Masz więcej pytań? [Zadaj pytanie społeczności usługi Power BI](http://community.powerbi.com/)
+Więcej pytań? [Zadaj pytanie społeczności usługi Power BI](http://community.powerbi.com/)
 

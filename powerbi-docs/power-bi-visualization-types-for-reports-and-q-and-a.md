@@ -15,19 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/24/2017
+ms.date: 01/19/2018
 ms.author: mihart
-ms.openlocfilehash: 5e4788e57bd1836d3d5db10dfb86e2c71c00c34f
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+ms.openlocfilehash: 7d9869c16b88cb410073644bdae94173b9cea023
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="visualization-types-in-power-bi"></a>Typy wizualizacji w usłudze Power BI
 ## <a name="power-bi-visualizations"></a>Wizualizacje usługi Power BI
 Będziemy dodawać nowe wizualizacje, cierpliwości!
 
-Zajrzyj również do [Sklepu Office](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals), w którym znajdziesz rosnącą listę niestandardowych wizualizacji, które można pobrać do użycia we własnych pulpitach nawigacyjnych i raportach. Jesteś osobą kreatywną? [Dowiedz się, jak tworzyć i dodawać własne wizualizacje do witryny społeczności](developer/office-store.md).  
+Zapoznaj się z usługą [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals), gdzie znajdziesz rosnącą listę [wizualizacji niestandardowych](power-bi-custom-visuals.md), które można pobrać do użycia we własnych pulpitach nawigacyjnych i raportach. Jesteś osobą kreatywną? [Dowiedz się, jak tworzyć i dodawać własne wizualizacje do tej witryny społeczności](developer/office-store.md).  
 
 ## <a name="list-of-visualizations-available-in-power-bi"></a>Lista wizualizacji dostępnych w usłudze Power BI
 Wszystkie te wizualizacje można dodać do raportów usługi Power BI, określić w funkcji pytań i odpowiedzi, a także przypiąć do pulpitów nawigacyjnych.

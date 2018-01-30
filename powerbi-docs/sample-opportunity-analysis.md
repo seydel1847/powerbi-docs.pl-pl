@@ -15,16 +15,18 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/04/2017
+ms.date: 01/20/2018
 ms.author: mihart
-ms.openlocfilehash: 878738eb3f588c461b687451062a1641479e77ed
-ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
+ms.openlocfilehash: 8ee889246c7ceae82195faa62232a987a541b076
+ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="opportunity-analysis-sample-for-power-bi-take-a-tour"></a>Próbka danych do analizy szans biznesowych dla usługi Power BI: krótki przewodnik
-**Próbka danych do śledzenia szans biznesowych** zawiera pulpit nawigacyjny (oraz skojarzony raport) dotyczący firmy zajmującej się oprogramowaniem, która posiada 2 kanały sprzedaży: *bezpośredni* i *partnerski*. Kierownik ds. sprzedaży utworzył ten pulpit nawigacyjny, aby śledzić szanse biznesowe i przychody z podziałem na region, rozmiar transakcji i kanał.
+
+## <a name="overview-of-the-opportunity-analysis-sample"></a>Omówienie przykładu Opportunity Analysis
+**Przykład Opportunity Analysis** zawiera pulpit nawigacyjny (oraz skojarzony raport) dotyczący firmy zajmującej się oprogramowaniem, która posiada 2 kanały sprzedaży: *bezpośredni* i *partnerski*. Kierownik ds. sprzedaży utworzył ten pulpit nawigacyjny, aby śledzić szanse biznesowe i przychody z podziałem na region, rozmiar transakcji i kanał.
 
 Kierownik ds. sprzedaży bazuje na dwóch wskaźnikach przychodów:
 
@@ -36,23 +38,51 @@ Kierownik ds. sprzedaży bazuje na dwóch wskaźnikach przychodów:
   * Oferta — 60%  
   * Finalizacja — 80%
 
+  ![](media/sample-opportunity-analysis/opportunity1.png)
+
 Te przykładowe dane stanowią części serii ilustrującej, w jaki sposób można wykorzystać usługę Power BI w pracy z danymi biznesowymi, raportami i pulpitami nawigacyjnymi. Są to prawdziwe dane pochodzące z firmy obviEnce ([www.obvience.com](http://www.obvience.com/)) przedstawione w sposób anonimowy.
 
->[!Note] 
-Możesz również [pobrać sam zestaw danych (skoroszyt programu Excel) omawiany w tym przykładzie](http://go.microsoft.com/fwlink/?LinkId=529782). Skoroszyt zawiera arkusze programu Power View, które można wyświetlać i modyfikować.  Aby wyświetlić nieprzetworzone dane, wybierz pozycje **Power Pivot > Zarządzaj**. 
+## <a name="prerequisites"></a>Wymagania wstępne
 
-![](media/sample-opportunity-analysis/opportunity1.png)
+ Zanim będzie można używać przykładu, musisz go najpierw pobrać jako pakiet zawartości, plik pbix lub skoroszyt programu Excel.
+
+### <a name="get-the-content-pack-for-this-sample"></a>Pobieranie pakietu zawartości dla tego przykładu
+
+1. Otwórz usługę Power BI (app.powerbi.com) i zaloguj się.
+2. W lewym dolnym rogu wybierz opcję **Pobierz dane**.
+   
+    ![](media/sample-datasets/power-bi-get-data.png)
+3. Na wyświetlonej stronie Pobieranie danych wybierz ikonę **Przykłady**.
+   
+   ![](media/sample-datasets/power-bi-samples-icon.png)
+4. Wybierz pozycję **Przykład Opportunity Analysis**, a następnie wybierz polecenie **Połącz**.  
+  
+   ![Pobierz dane](media/sample-opportunity-analysis/opportunity-connect.png)
+   
+5. Usługa Power BI zaimportuje pakiet zawartości i doda nowy pulpit nawigacyjny, raport oraz zestaw danych do bieżącego obszaru roboczego. Nowa zawartość jest oznaczona żółtą gwiazdką. 
+   
+   ![Gwiazdka](media/sample-opportunity-analysis/opportunity-asterisk.png)
+  
+### <a name="get-the-pbix-file-for-this-sample"></a>Pobieranie pliku pbix dla tego przykładu
+
+Alternatywnie przykład możesz pobrać jako plik pbix, który został zaprojektowany do użycia w programie Power BI Desktop. 
+
+ * [Przykład Opportunity Analysis](http://download.microsoft.com/download/9/1/5/915ABCFA-7125-4D85-A7BD-05645BD95BD8/Opportunity%20Analysis%20Sample%20PBIX.pbix)
+
+### <a name="get-the-excel-workbook-for-this-sample"></a>Pobieranie skoroszytu programu Excel dla tego przykładu
+Możesz też [pobrać sam zestaw danych (skoroszyt programu Excel)](http://go.microsoft.com/fwlink/?LinkId=529782) omawiany w tym przykładzie. Skoroszyt zawiera arkusze programu Power View, które można wyświetlać i modyfikować. Aby wyświetlić nieprzetworzone dane, wybierz pozycje **Power Pivot > Zarządzaj**.
+
 
 ## <a name="what-is-our-dashboard-telling-us"></a>O czym informuje nas pulpit nawigacyjny?
 Nasz kierownik ds. sprzedaży utworzył pulpit nawigacyjny, aby śledzić najważniejsze metryki. W przypadku zauważenia czegoś interesującego może wybrać kafelek, aby bliżej przyjrzeć się tym danym.
 
 1. Przychód firmy wynosi 2 mld USD, zaś przychód uwzględniany 461 mln USD.
 2. Liczba szans biznesowych i przychód układają się w podobny wzorzec lejka, z malejącymi wartościami całkowitymi na każdym kolejnym etapie.
-3. Większość szans biznesowych jest dostępnych w regionie wschodnim. 
+3. Większość szans biznesowych jest dostępnych w regionie wschodnim.
 4. Duże szanse biznesowe generują większy przychód niż szanse średnie i małe.
-5. Duże transakcje partnerskie generują wyższe przychody: średnio 8 mln USD w porównaniu do 6 mln USD dla sprzedaży bezpośredniej. 
+5. Duże transakcje partnerskie generują wyższe przychody: średnio 8 mln USD w porównaniu do 6 mln USD dla sprzedaży bezpośredniej.
 
-Ponieważ nakład pracy związany z zawarciem transakcji jest taki sam, niezależnie od tego, czy transakcja jest uznawana za dużą, średnią, czy małą, firma powinna bliżej przyjrzeć się danym, aby dowiedzieć się więcej na temat dużych szans biznesowych. 
+Ponieważ nakład pracy związany z zawarciem transakcji jest taki sam, niezależnie od tego, czy transakcja jest uznawana za dużą, średnią, czy małą, firma powinna bliżej przyjrzeć się danym, aby dowiedzieć się więcej na temat dużych szans biznesowych.
 
 Wybierz kafelek **Liczba szans biznesowych według kryterium partnerskiego i etapu sprzedaży**, aby otworzyć stronę 1 raportu.  
 ![](media/sample-opportunity-analysis/opportunity2.png)
@@ -63,8 +93,8 @@ Wybierz kafelek **Liczba szans biznesowych według kryterium partnerskiego i eta
 
 * Wschód jest najważniejszym regionem pod względem liczby szans biznesowych.  
 * Na wykresie kołowym wybierz kolejno każdy region, aby filtrować strony. W każdym z regionów partnerzy odpowiadają za znacznie większą liczbę dużych szans biznesowych.   
-* Wykres kolumnowy liczby szans biznesowych według kryterium partnerskiego i rozmiaru szansy jasno pokazuje, że większość dużych szans biznesowych jest generowanych przez partnerów, a więcej małych i średnich szans biznesowych to szanse niegenerowane przez partnerów. 
-* Wybierz poszczególne etapy sprzedaży na wykresie słupkowym w lewym dolnym rogu, aby wyświetlić różnice w liczbach dla poszczególnych regionów i zwróć uwagę, że choć region wschodni jest największym regionem pod względem liczb, to w etapach Rozwiązanie, Oferta oraz Finalizacja wszystkie 3 regiony mają porównywalne wartości liczbowe. Oznacza to, że procentowo więcej transakcji dochodzi do skutku w regionie centralnym i zachodnim. 
+* Wykres kolumnowy liczby szans biznesowych według kryterium partnerskiego i rozmiaru szansy jasno pokazuje, że większość dużych szans biznesowych jest generowanych przez partnerów, a więcej małych i średnich szans biznesowych to szanse niegenerowane przez partnerów.
+* Wybierz poszczególne etapy sprzedaży na wykresie słupkowym w lewym dolnym rogu, aby wyświetlić różnice w liczbach dla poszczególnych regionów i zwróć uwagę, że choć region wschodni jest największym regionem pod względem liczb, to w etapach Rozwiązanie, Oferta oraz Finalizacja wszystkie 3 regiony mają porównywalne wartości liczbowe. Oznacza to, że procentowo więcej transakcji dochodzi do skutku w regionie centralnym i zachodnim.
 
 ### <a name="page-2-of-our-report-is-titled-revenue-overview"></a>Strona 2 naszego raportu ma tytuł „Omówienie przychodów”.
 Na stronie tej zastosowano podobne spojrzenie na dane jednak z perspektywy przychodów zamiast liczby szans.  
@@ -82,8 +112,8 @@ Nasi partnerzy wyraźnie lepiej radzą sobie ze sprzedażą produktów klientom.
 Ta strona analizuje podobne dane, ale z podziałem na region i etap.  
 ![](media/sample-opportunity-analysis/opportunity5.png)
 
-* Filtrowanie według regionu wschodniego (wybierz pozycję **Wschód** na wykresie kołowym) pokazuje, że szanse biznesowe we wschodnim regionie dzielą się niemal równo na te generowane przez partnerów i bezpośrednio. 
-* Duże szanse biznesowe występują najczęściej w regionie centralnym, małe w regionie wschodnim, a średnie najczęściej w regionie zachodnim. 
+* Filtrowanie według regionu wschodniego (wybierz pozycję **Wschód** na wykresie kołowym) pokazuje, że szanse biznesowe we wschodnim regionie dzielą się niemal równo na te generowane przez partnerów i bezpośrednio.
+* Duże szanse biznesowe występują najczęściej w regionie centralnym, małe w regionie wschodnim, a średnie najczęściej w regionie zachodnim.
 
 ### <a name="page-4-of-our-report-is-titled-upcoming-opportunities"></a>Strona 4 raportu nosi nazwę „Nadchodzące szanse biznesowe”
 Ponownie spoglądamy na podobne czynniki, jednak tym razem z perspektywy daty/czasu.  
@@ -101,4 +131,3 @@ Pracując na danych w tym środowisku, nie musisz się niczego obawiać. Zawsze 
 Mamy nadzieję, że dzięki temu przewodnikowi wiesz już, że pytania i odpowiedzi, raporty oraz pulpity nawigacyjne usługi Power BI mogą okazać się niezastąpione w uzyskiwaniu szczegółowych informacji pod kątem śledzenia szans biznesowych. Teraz Twoja kolej. Połącz się ze swoimi danymi. Usługa Power BI umożliwia nawiązanie połączenia z różnymi źródłami danych. Dowiedz się więcej o [rozpoczynaniu pracy z usługą Power BI](service-get-started.md).
 
 [Pobierz przykłady](sample-datasets.md)  
-

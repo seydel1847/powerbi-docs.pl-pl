@@ -15,23 +15,53 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 01/20/2018
 ms.author: mihart
-ms.openlocfilehash: ebf10d6045bc1d0d0c260dffa7fbc68cfbc4528b
-ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
+ms.openlocfilehash: 40bb1c80b1dcc9625bdb3f47ec98b51a7be114fd
+ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="it-spend-analysis-sample-for-power-bi-take-a-tour"></a>Przykład IT Spend Analysis dla usługi Power BI: krótki przewodnik
+
+## <a name="overview-of-the-it-spend-analysis-sample"></a>Omówienie przykładu IT Spend Analysis
 [Pakiet zawartości](service-organizational-content-pack-introduction.md) IT Spend Analysis (pulpit nawigacyjny, raport i zestaw danych) służy do analizy planowanych i rzeczywistych kosztów działu IT. To porównanie pomaga nam zrozumieć, jak dobrze firma zaplanowała rok, i zbadać obszary wykazujące duże odchylenia od planu. Firma w tym przykładzie przechodzi przez roczny cykl planowania, a następnie co kwartał wydaje nowe najnowsze oszacowanie, aby pomóc w analizowaniu zmian w wydatkach na zasoby informatyczne w roku obrachunkowym.
+
+![](media/sample-it-spend/it1.png)
 
 Te przykładowe dane stanowią części serii ilustrującej, w jaki sposób można wykorzystać usługę Power BI w pracy z danymi biznesowymi, raportami i pulpitami nawigacyjnymi. Są to prawdziwe dane pochodzące z firmy obviEnce (<http://obvience.com/>) przedstawione w sposób anonimowy.
 
->[!Note] 
-Możesz [pobrać sam zestaw danych (skoroszyt programu Excel) dla tego przykładu](http://go.microsoft.com/fwlink/?LinkId=529783). Skoroszyt zawiera arkusze programu Power View, które można wyświetlać i modyfikować. Aby wyświetlić nieprzetworzone dane, wybierz pozycje **Power Pivot > Zarządzaj**.
+## <a name="prerequisites"></a>Wymagania wstępne
 
-![](media/sample-it-spend/it1.png)
+ Zanim będzie można używać przykładu, musisz go najpierw pobrać jako pakiet zawartości, plik pbix lub skoroszyt programu Excel.
+
+### <a name="get-the-content-pack-for-this-sample"></a>Pobieranie pakietu zawartości dla tego przykładu
+
+1. Otwórz usługę Power BI (app.powerbi.com) i zaloguj się.
+2. W lewym dolnym rogu wybierz opcję **Pobierz dane**.
+   
+    ![](media/sample-datasets/power-bi-get-data.png)
+3. Na wyświetlonej stronie Pobieranie danych wybierz ikonę **Przykłady**.
+   
+   ![](media/sample-datasets/power-bi-samples-icon.png)
+4. Wybierz pozycję **Przykład IT Spend Analysis**, a następnie wybierz polecenie **Połącz**.  
+  
+   ![Pobierz dane](media/sample-it-spend/it-connect.png)
+   
+5. Usługa Power BI zaimportuje pakiet zawartości i doda nowy pulpit nawigacyjny, raport oraz zestaw danych do bieżącego obszaru roboczego. Nowa zawartość jest oznaczona żółtą gwiazdką. 
+   
+   ![Gwiazdka](media/sample-it-spend/it-asterisk.png)
+  
+### <a name="get-the-pbix-file-for-this-sample"></a>Pobieranie pliku pbix dla tego przykładu
+
+Alternatywnie przykład możesz pobrać jako plik pbix, który został zaprojektowany do użycia w programie Power BI Desktop. 
+
+ * [Przykład IT Spend Analysis](http://download.microsoft.com/download/E/9/8/E98CEB6D-CEBB-41CF-BA2B-1A1D61B27D87/IT%20Spend%20Analysis%20Sample%20PBIX.pbix)
+
+### <a name="get-the-excel-workbook-for-this-sample"></a>Pobieranie skoroszytu programu Excel dla tego przykładu
+Możesz też [pobrać sam zestaw danych (skoroszyt programu Excel)](http://go.microsoft.com/fwlink/?LinkId=529783) omawiany w tym przykładzie. Skoroszyt zawiera arkusze programu Power View, które można wyświetlać i modyfikować. Aby wyświetlić nieprzetworzone dane, wybierz pozycje **Power Pivot > Zarządzaj**.
+
 
 ## <a name="the-it-spend-analysis-sample-dashboard"></a>Przykładowy pulpit nawigacyjny z zestawu IT Spend Analysis
 Dwa kafelki z liczbami na pulpicie nawigacyjnym, **Var Plan %** (Wariancja względem planu %) oraz **Variance Latest Estimate % Quarter 3** (Wariancja względem najnowszych danych szacunkowych % dotyczących 3. kwartału), zapewniają przegląd rzeczywistych wydatków w odniesieniu do najnowszych danych szacunkowych dla kwartału (LE3 = Latest Estimate Quarter 3). Ogólnie plan został przekroczony o 6%. Zbadajmy przyczynę tej wariancji — kiedy, gdzie i w jakiej kategorii miała miejsce?
@@ -43,19 +73,19 @@ Wybranie kafelka pulpitu nawigacyjnego **Var Plan % by Sales Region** (Wariancja
 
 Wyciąganie wniosków wyłącznie na podstawie tego wykresu może być mylące. Musimy przyjrzeć się rzeczywistym wartościom w dolarach, aby umieścić dane w odpowiednim kontekście.
 
-1. Wybierz pozycje **Aus i NZ** na wykresie Var Plan % by Sales Region (Wariancja względem planu % wg regionu sprzedaży) i przyjrzyj się wykresowi Var Plan by IT Area (Wariancja względem planu wg obszaru zasobów informatycznych). 
-   
+1. Wybierz pozycje **Aus i NZ** na wykresie Var Plan % by Sales Region (Wariancja względem planu % wg regionu sprzedaży) i przyjrzyj się wykresowi Var Plan by IT Area (Wariancja względem planu wg obszaru zasobów informatycznych).
+
    ![](media/sample-it-spend/it3.png)
 2. Teraz wybierz pozycję **USA**. Teraz już wiesz, że Australia stanowi niewielką część całkowitych wydatków w porównaniu ze Stanami Zjednoczonymi.
-   
+
     Zawęziliśmy analizę do Stanów Zjednoczonych. Co dalej? Sprawdźmy, która kategoria w Stanach Zjednoczonych powoduje wariancję.
 
 ## <a name="ask-questions-of-the-data"></a>Zadawanie pytań dotyczących danych
 1. Wybierz opcję **Przykład IT Spend Analysis** na górnym pasku nawigacyjnym, aby powrócić do pulpitu nawigacyjnego.
 2. W polu pytania wpisz „show IT areas, var plan % and var le3 % bar chart” (pokaż wykres słupkowy dla obszarów zasobów informatycznych, wariancji względem planu % i wariancji względem najnowszych danych szacunkowych % w 3. kwartale).
-   
-   ![](media/sample-it-spend/it4.png) 
-   
+
+   ![](media/sample-it-spend/it4.png)
+
    W pierwszym obszarze zasobów informatycznych, **Infrastructure** (Infrastruktura), procent zmienił się znacząco między wariancją względem początkowego planu i wariancją względem najnowszych danych szacunkowych.
 
 ## <a name="ytd-spend-by-cost-elements-page"></a>Strona „YTD Spend by Cost Elements” (Wydatki wg elementów kosztów od początku roku)
@@ -67,14 +97,14 @@ Obszar Infrastruktura wyróżnia się ogromną dodatnią wariancją względem pl
 
 1. Kliknij ten kafelek, aby przejść do strony “YTD Spend by Cost Elements” (Wydatki wg elementów kosztów od początku roku) w przykładowym raporcie analizy wydatków na zasoby informatyczne.
 2. Kliknij pasek **Infrastructure** (Infrastruktura) na wykresie „Var Plan % and Var LE3 % by IT Area” (Wariancja względem planu % i wariancja względem najnowszych danych szacunkowych % dla 3. kwartału) w lewym dolnym rogu i przyjrzyj się wariancji względem planu na wykresie „Var Plan % by Sales Region” (Wariancja względem planu % wg regionu sprzedaży) po lewej stronie.
-   
+
     ![](media/sample-it-spend/it6.png)
 3. Kliknij nazwy poszczególnych grup elementów kosztów we fragmentatorze, aby znaleźć element kosztów o największej wariancji.
 4. Wybierz pozycję **Other** (Inne), kliknij pozycję **Infrastructure** (Infrastruktura) w obszarze IT Area (Obszar zasobów informatycznych) i kliknij obszary podrzędne we fragmentatorze IT Sub Area (Obszar podrzędny zasobów informatycznych), aby znaleźć obszar podrzędny o największej wariancji.  
-   
+
    Widoczna jest ogromna wariancja w obszarze **Networking** (Sieć).
-   
-   Najwyraźniej firma zdecydowała się zapewnić pracownikom usługi telefoniczne jako świadczenie, ale to działanie nie było planowane. 
+
+   Najwyraźniej firma zdecydowała się zapewnić pracownikom usługi telefoniczne jako świadczenie, ale to działanie nie było planowane.
 
 ## <a name="plan-variance-analysis-page"></a>Strona „Plan Variance Analysis” (Analiza wariancji względem planu)
 Nadal w raporcie kliknij kartę „Plan Variance Analysis” (Analiza wariancji względem planu) w dolnej części raportu, aby przejść do strony 3 raportu.
@@ -97,4 +127,3 @@ Pracując na danych w tym środowisku, nie musisz się niczego obawiać. Zawsze 
 
 ## <a name="next-steps-connect-to-your-data"></a>Następne kroki: łączenie z danymi
 Mamy nadzieję, że dzięki temu przewodnikowi wiesz już, że pulpity nawigacyjne usługi Power BI, aparat Pytania i odpowiedzi oraz raporty mogą okazać się niezastąpione w uzyskiwaniu informacji o danych dotyczących wydatków na zasoby informatyczne. Teraz Twoja kolej — połącz się ze swoimi danymi. Usługa Power BI umożliwia nawiązanie połączenia z różnymi źródłami danych. Dowiedz się więcej o [rozpoczynaniu pracy z usługą Power BI](service-get-started.md).
-

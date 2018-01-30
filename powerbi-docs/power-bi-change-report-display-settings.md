@@ -15,27 +15,32 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/25/2017
+ms.date: 01/21/2018
 ms.author: mihart
-ms.openlocfilehash: a5cc05e26012f88e889612788d4479a370063d4f
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: b154aec7c65b09743484f8f51ae88f9317f651a0
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="change-the-size-of-a-report-page-tutorial"></a>Zmiana rozmiaru strony raportu (samouczek)
-W [poprzednim artykule i filmie wideo](power-bi-report-display-settings.md) omówiliśmy dwa różne sposoby kontrolowania wyświetlania strony w raportach usługi Power BI: **Widok** i **Rozmiar strony**. Teraz je wypróbujemy.
+W [poprzednim artykule i filmie wideo](power-bi-report-display-settings.md) omówiliśmy dwa różne sposoby kontrolowania wyświetlania strony w raportach usługi Power BI: **Widok** i **Rozmiar strony**. Pozycje Widok strony i Rozmiar strony są dostępne zarówno w usłudze Power BI, jak i w programie Power BI Desktop, a ich wygląd i funkcje są prawie takie same. W tym samouczku używamy usługi Power BI. 
+
+### <a name="prerequisites"></a>Wymagania wstępne
+- Usługa Power BI   
+- [Raport dla przykładu Retail Analysis](samples-retail-analysis.md)
 
 ## <a name="first-lets-change-the-page-view-setting"></a>Po pierwsze zmienimy ustawienie Widok strony
-1. Otwórz raport w widoku odczytu lub edycji. W tym przykładzie użyto strony „Nowe sklepy” [próbnych danych dotyczących analizy handlu detalicznego](sample-retail-analysis.md).  Strona ta jest wyświetlana przy użyciu ustawienia **Dopasuj do strony**.  W tym przypadku opcja Dopasuj do strony wyświetla stronę raportu bez pasków przewijania, ale niektóre szczegóły i tytuły są zbyt małe, żeby dało się je odczytać.
+
+1. Otwórz raport w widoku do czytania lub widoku do edycji i wybierz kartę raportu **New Stores**. Domyślnie ta strona raportu jest wyświetlana przy użyciu ustawienia **Dopasuj do strony**.  W tym przypadku opcja Dopasuj do strony wyświetla stronę raportu bez pasków przewijania, ale niektóre szczegóły i tytuły są zbyt małe, żeby dało się je odczytać.
    
    ![](media/power-bi-change-report-display-settings/pbi_fit_to_page.png)
 2. Upewnij się, że na kanwie nie wybrano żadnych wizualizacji. Wybierz opcję **Widok** i przejrzyj opcje wyświetlania.
 
-* Widok odczytu będzie następujący.
+    * Widok odczytu będzie następujący.
   
      ![](media/power-bi-change-report-display-settings/power-bi-page-view-menu-new.png)
-* Widok edycji będzie następujący.
+    * Widok edycji będzie następujący.
   
     ![](media/power-bi-change-report-display-settings/power-bi-view-editing-view.png)
 
@@ -51,26 +56,31 @@ W [poprzednim artykule i filmie wideo](power-bi-report-display-settings.md) omó
    Teraz strona wygląda lepiej. Mamy paski przewijania, ale też łatwiej odczytać szczegóły.
 
 ## <a name="change-the-default-view-for-a-report-page"></a>Zmiana domyślnego widoku strony raportu
-Wszystkie raporty usługi Power BI domyślnie wyświetlane są w widoku **Dopasuj do strony**. Co zrobić, jeśli chcesz, aby ta strona raportu zawsze była otwierana w widoku **Rozmiar rzeczywisty**?
+Jeśli jesteś *twórcą* raportu, możesz zmienić domyślny widok stron raportu. Po udostępnieniu raportu innym osobom strony raportu zostaną otwarte w ustawionym widoku. *Użytkownicy* raportu będą mogli zmienić widok, ale nie będą mogli zapisać swoich zmian, wychodząc z raportu.
 
 1. Na stronie **Nowe sklepy** raportu przełącz się z powrotem na widok **Rozmiar rzeczywisty**.
    
    ![](media/power-bi-change-report-display-settings/power-bi-actual-size.png)
-2. Zapisz raport pod inną nazwą, wybierając opcję **Plik > Zapisz jako**. Masz teraz dwie kopie tego raportu; raport oryginalny, **Nowe sklepy** nadal będzie otwierany w widoku domyślnym, ale w przypadku nowego raportu będzie stosowany widok **Rozmiar rzeczywisty**. Sprawdźmy to.
+
+2. Na stronie raportu **District Monthly Sales** ustaw widok na **Dopasuj do szerokości**.
+
+3. Na stronie raportu **Overview** pozostaw domyślne ustawienie widoku.
+
+4. Teraz zapisz raport, wybierając pozycję **Plik > Zapisz**. Przy następnym otwarciu tego raportu strony będą wyświetlane przy użyciu nowych ustawień widoku. Sprawdźmy to.
    
-   ![](media/power-bi-change-report-display-settings/power-bi-save-as.png)
+   ![](media/power-bi-change-report-display-settings/power-bi-save.png)
 3. Wybierz nazwę bieżącego obszaru roboczego z górnego paska nawigacyjnego, aby powrócić do tego obszaru roboczego.  
    
    ![](media/power-bi-change-report-display-settings/power-bi-my-workspace.png)
-4. Wybierz kartę **Raporty** i wybierz nowy utworzony raport (będzie oznaczony żółtą gwiazdką).
+4. Wybierz kartę **Raporty** i wybierz ten sam raport (przykład Retail Analysis).
    
     ![](media/power-bi-change-report-display-settings/power-bi-new-report2.png)
-5. Raport zostanie otwarty w widoku **Rozmiar rzeczywisty**.
+5. Otwórz każdą stronę raportu, aby zobaczyć nowe ustawienia.
    
-   ![](media/power-bi-change-report-display-settings/power-bi-actal-size2.png)
+   ![](media/power-bi-change-report-display-settings/power-bi-page-view.gif)
 
 ## <a name="now-lets-explore-the-page-size-setting"></a>Teraz przyjrzymy się ustawieniom *rozmiaru strony*
-Ustawienia rozmiaru strony są dostępne tylko w [Widoku edycji](service-interact-with-a-report-in-editing-view.md). Aby otworzyć raport w widoku edycji, musisz mieć uprawnienia właściciela raportu. W przypadku połączenia z dowolnym z naszych [przykładów](sample-datasets.md) będziesz mieć uprawnienia właściciela do tych raportów.
+Ustawienia rozmiaru strony są dostępne tylko w [Widoku do edycji](service-interact-with-a-report-in-editing-view.md), więc musisz mieć uprawnienia do edycji raportu (*twórcy*), aby zmienić ustawienia rozmiaru strony. W przypadku połączenia z dowolnym z naszych [przykładów](sample-datasets.md) będziesz mieć uprawnienia *twórcy* do tych raportów.
 
 1. Otwórz stronę „Sprzedaż miesięczna regionu” [próbnych danych dotyczących analizy handlu detalicznego](sample-retail-analysis.md) w widoku edycji.
 2. Upewnij się, że na kanwie nie wybrano żadnych wizualizacji.  W okienku **Wizualizacje** wybierz ikonę wałka do malowania ![](media/power-bi-change-report-display-settings/power-bi-paintroller.png).
@@ -80,18 +90,15 @@ Ustawienia rozmiaru strony są dostępne tylko w [Widoku edycji](service-interac
 4. Wybierz opcję **Letter**.  Na białej części kanwy pozostanie tylko zawartość mieszcząca się w obszarze 816 × 1056 pikseli (rozmiar Letter).
    
    ![](media/power-bi-change-report-display-settings/power-bi-letter-new.png)
-5. Jeśli zmienimy **Widok** na opcję „Dopasuj do szerokości”, nasza kanwa będzie wyświetlać tylko zawartość strony mieszczącą się w rozmiarze Letter.
-   
-   ![](media/power-bi-change-report-display-settings/power-bi-fit-to-width-new.png)
-6. Wybierz współczynnik **Rozmiar strony** **16:9**.
+5. Wybierz współczynnik **Rozmiar strony** **16:9**.
    
    ![](media/power-bi-change-report-display-settings/power-bi-16-to-9-new.png)
    
    Strona raportu będzie wyświetlana przy użyciu współczynnika 16 (szerokość) do 9 (wysokość). Aby wyświetlić faktyczny rozmiar w pikselach, przyjrzyj się wyszarzonym polom Szerokość i Wysokość (1280 × 720). Jest dużo wolnego miejsca wokół kanwy raportu, ponieważ wcześniej ustawiliśmy **Widok** na opcję „Dopasuj do szerokości”.
 7. Kontynuuj eksplorowanie opcji **Rozmiar strony**.
 
-## <a name="using-page-view-and-page-size-together"></a>Używanie połączonych opcji Widok i Rozmiar strony
-Użyj opcji Widok i Rozmiar strony w połączeniu, aby utworzyć raport, który będzie wyglądał doskonale po osadzeniu w innej aplikacji.
+## <a name="use-page-view-and-page-size-together"></a>Używanie opcji widoku i rozmiaru strony jednocześnie
+Użyj opcji widoku i rozmiaru strony razem, aby utworzyć raport, który będzie wyglądał doskonale po udostępnieniu współpracownikom lub osadzeniu w innej aplikacji.
 
 W tym ćwiczeniu utworzysz stronę raportu, która będzie wyświetlana w aplikacji z dostępnym miejscem 500 pikseli (szerokość) na 750 pikseli (wysokość).
 
@@ -113,7 +120,5 @@ W poprzednim kroku zobaczyliśmy, że nasza strona raportu była wyświetlana w 
 
 Powrót do [Ustawienia wyświetlania strony w raporcie usługi Power BI](power-bi-report-display-settings.md)
 
-Przeczytaj więcej na temat [raportów w usłudze Power BI](service-reports.md)
-
-Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
+Więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
 

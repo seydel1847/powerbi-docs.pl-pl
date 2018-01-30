@@ -1,5 +1,5 @@
 ---
-title: "Wykresy w postaci mierników promieniowych w usłudze Power BI (samouczek)"
+title: "Samouczek: wykresy w postaci mierników promieniowych w usłudze Power BI"
 description: "Samouczek: wykresy w postaci mierników promieniowych w usłudze Power BI"
 services: powerbi
 documentationcenter: 
@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/27/2017
+ms.date: 01/21/2018
 ms.author: mihart
-ms.openlocfilehash: 7299b95cb3dd1fab4edce1764c69e1b2657ef547
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 354bfc01231f0f11aabd533bf29f987dec7c9771
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="radial-gauge-charts-in-power-bi-tutorial"></a>Wykresy w postaci mierników promieniowych w usłudze Power BI (samouczek)
 Wykres miernika promieniowego ma okrągły łuk i wyświetla jedną wartość, która mierzy postępy w kierunku celu/kluczowego wskaźnika wydajności.  Cel, lub wartość docelowa, jest reprezentowany przez linię (wskazówkę). Postęp w kierunku celu jest reprezentowany przez cieniowanie.  Wartość reprezentująca postęp jest wyświetlana w pogrubieniu wewnątrz łuku. Wszystkie możliwe wartości są równomiernie rozmieszczone na łuku, od wartości minimalnej (najbardziej po lewej) do wartości maksymalnej (najbardziej po prawej).
@@ -39,17 +39,25 @@ Mierniki promieniowe sprawdzają się doskonale w następujących przypadkach:
 * Pokazywanie kondycji jednej miary.
 * Wyświetlanie informacji, które można szybko przeskanować i zrozumieć.
 
+### <a name="prerequisites"></a>Wymagania wstępne
+ - Usługa Power BI lub program Power BI Desktop
+ - Przykładowy skoroszyt programu Excel z danymi finansowymi: [pobierz przykład bezpośrednio](http://go.microsoft.com/fwlink/?LinkID=521962).
+
 ## <a name="create-a-basic-radial-gauge"></a>Tworzenie podstawowego miernika promieniowego
-W poniższych instrukcjach użyto przykładowych danych finansowych. Aby kontynuować, [pobierz przykład](http://go.microsoft.com/fwlink/?LinkID=521962) na komputer, zaloguj się w usłudze Power BI i wybierz opcję **Pobierz dane \> Pliki \> Plik lokalny > Otwórz**. 
+Poniższe instrukcje korzystają z usługi Power BI. Aby móc samodzielnie wykonać instrukcje, zaloguj się do usługi Power BI, a następnie otwórz plik przykładu Financial programu Excel.  
 
 Możesz też obejrzeć klip wideo, w którym pokażemy Ci, jak utworzyć pojedyncze wizualizacje metryk: mierniki, karty i kluczowe wskaźniki wydajności.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xmja6EpqaO0?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
-### <a name="step-1-open-the-financial-sample-excel-file"></a>Krok 1. Otwórz plik programu Excel z przykładem Financial.
-1. [Pobierz przykładowy plik programu Excel o nazwie Financial](sample-financial-download.md).
-2. Otwórz plik w usłudze Power BI, wybierając opcję **Pobierz dane \> Pliki** i przechodząc do lokalizacji, w której zapisano plik. Wybierz pozycję **Import**. Przykład Financial zostanie dodany do obszaru roboczego jako zestaw danych.
-3. Wybierz **przykład Financial**, aby otworzyć go w trybie eksplorowania.
+### <a name="step-1-open-the-financial-sample-excel-file"></a>Krok 1. Otwórz plik programu Excel z przykładem Financial
+1. [Pobierz przykładowy plik programu Excel o nazwie Financial](sample-financial-download.md), jeśli jeszcze nie zostało to zrobione. Należy zapamiętać, gdzie został on zapisany.
+
+2. Otwórz plik w ***usłudze Power BI***, wybierając opcję **Pobierz dane \> Pliki** i przechodząc do lokalizacji, w której zapisano plik. Wybierz pozycję **Import**. Przykład Financial zostanie dodany do obszaru roboczego jako zestaw danych.
+
+3. Z listy zawartości **Zestaw danych** wybierz pozycję **Przykład Financial**, aby otworzyć go w trybie eksplorowania.
+
+    ![](media/power-bi-visualization-radial-gauge-charts/power-bi-dataset.png)
 
 ### <a name="step-2-create-a-gauge-to-track-gross-sales"></a>Krok 2. Utwórz miernik do śledzenia sprzedaży brutto
 1. W okienku **Pola** wybierz opcję **Sprzedaż brutto**.

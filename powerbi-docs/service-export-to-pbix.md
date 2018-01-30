@@ -1,5 +1,5 @@
 ---
-title: "Eksportowanie raportu z usługi Power BI do wersji Desktop (wersja zapoznawcza)"
+title: "Jak wyeksportować raport z usługi Power BI do programu Power BI Desktop (wersja zapoznawcza)"
 description: "Pobieranie raportu z usługi Power BI do pliku programu Power BI Desktop"
 services: powerbi
 documentationcenter: 
@@ -15,16 +15,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/27/2017
+ms.date: 01/20/2018
 ms.author: mihart
-ms.openlocfilehash: 30975e9192633043aed7e4196820ef34044b8fcb
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 259007c76b7b53ba0ea55a28fbdd189469383364
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="export-a-report-from-power-bi-service-to-desktop-preview"></a>Eksportowanie raportu z usługi Power BI do wersji Desktop (wersja zapoznawcza)
-W programie Power BI Desktop możesz wyeksportować (inaczej mówiąc *pobrać*) raport do usługi Power BI, zapisując raport i wybierając pozycję **Publikuj**. Możesz też wyeksportować w drugim kierunku i pobrać raport z usługi Power BI na pulpit. Rozszerzenie pliku dla plików eksportowanych w dowolnym kierunku to *pbix*.
+W programie Power BI Desktop możesz wyeksportować (inaczej mówiąc *pobrać*) raport do usługi Power BI, zapisując raport i wybierając pozycję **Publikuj**. Możesz też wyeksportować w drugim kierunku i pobrać raport z usługi Power BI na pulpit. Rozszerzenie dla plików eksportowanych w dowolnym kierunku to *pbix*.
 
 Istnieje kilka ograniczeń i zagadnień, które należy wziąć pod uwagę i które zostały omówione w dalszej części tego artykułu.
 
@@ -45,16 +45,17 @@ Aby pobrać plik pbix, wykonaj następujące kroki:
     ![](media/service-export-to-pbix/power-bi-save-pbix.png)
    
     Masz teraz możliwość otwarcia pliku pbix w usłudze Power BI (app.powerbi.com) albo w programie Power BI Desktop.     
-4. Aby natychmiast otworzyć raport na pulpicie, wybierz pozycję **Otwórz**.  Jeśli jeszcze nie zostało to zrobione, [zainstaluj program Power BI Desktop](desktop-get-the-desktop.md).
+4. Aby natychmiast otworzyć raport na pulpicie, wybierz pozycję **Otwórz**. Aby zapisać plik w określonej lokalizacji, wybierz pozycję **Zapisz > Zapisz jako**. Jeśli jeszcze nie zostało to zrobione, [zainstaluj program Power BI Desktop](desktop-get-the-desktop.md).
    
     Po otwarciu raportu na pulpicie możesz zobaczyć komunikat ostrzegawczy informujący o tym, że niektóre funkcje dostępne w raporcie usługi Power BI mogą nie być dostępne na pulpicie.
    
     ![](media/service-export-to-pbix/power-bi-export-to-pbix_2.png)
-5. Aby otworzyć raport w usłudze Power BI, wybierz pozycję **Zapisz**, a następnie użyj pozycji **Pobierz dane**, aby przejść do lokalizacji, gdzie został zapisany plik pbix.
-   
-    ![](media/service-export-to-pbix/power-bi-get-data.png)
 
-## <a name="considerations-and-troubleshooting"></a>Zagadnienia i rozwiązywanie problemów
+5. Edytor raportów w programie Power BI Desktop wygląda bardzo podobnie do edytora raportów w usłudze Power BI.  
+   
+    ![](media/service-export-to-pbix/power-bi-desktop.png)
+
+## <a name="considerations-and-troubleshooting"></a>Istotne zagadnienia i rozwiązywanie problemów
 Istnieje kilka istotnych kwestii i ograniczeń związanych z pobieraniem (eksportowaniem) pliku *pbix* z usługi Power BI.
 
 * Aby pobrać plik, musisz mieć dostęp do edycji do raportu

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 01/19/2018
 ms.author: davidi
-ms.openlocfilehash: 733e24f44c63b8887c3c8b00999f7cea22581a86
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 743f9dc0a96c2816693695f4ca2878aba09873df
+ms.sourcegitcommit: a973bc6adc88507932e7e1535a74208e3842f5c4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/20/2018
 ---
 # <a name="power-bi-desktop-privacy-levels"></a>Poziomy prywatności programu Power BI Desktop
 W programie **Power BI Desktop** poziomy prywatności służą do określania poziomu izolacji, który definiuje stopień odizolowania jednego źródła danych od innych źródeł danych. Restrykcyjny poziom izolacji blokuje wymienianie informacji między źródłami danych, ale może spowodować ograniczenie funkcjonalności i obniżenie wydajności.
@@ -69,6 +69,10 @@ Aby skonfigurować poziom prywatności źródła danych, wybierz źródło danyc
 
 > **Uwaga dotycząca zabezpieczeń:** włączenie ustawienia **Poziomy prywatności** przez wybór wartości **Ignorowanie poziomów prywatności i potencjalne poprawianie wydajności** w oknie dialogowym **Poziomy prywatności** może spowodować narażenie poufnych dane na dostęp nieautoryzowanych osób. Nie należy włączać ustawienia **Poziomy prywatności**, dopóki nie masz pewności, czy źródło danych nie zawiera poufnych dane.
 > 
+> 
+
+> [!CAUTION]
+> Pozycja **Ignorowanie poziomów prywatności i potencjalne poprawianie wydajności** nie działa w usłudze Power BI. W związku z tym raporty programu Power BI Desktop, dla których włączono to ustawienie i które zostaną następnie opublikowane w usłudze Power BI, *nie* odzwierciedlają tego zachowania, gdy są używane w usłudze.
 > 
 
 **Konfigurowanie poziomów prywatności**

@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/10/2018
+ms.date: 01/20/2018
 ms.author: mihart
-ms.openlocfilehash: 1df7eb485ac9b9de1007cc2fccbf8141ee4fdcc1
-ms.sourcegitcommit: afd6e9e6f8b192b26486cd04d2cbc9de046911b3
+ms.openlocfilehash: 8567326cb685a03fd1af618aad5310234677ab6d
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/11/2018
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="export-data-from-visualizations"></a>Eksportowanie danych z wizualizacji
 Jeśli chcesz zobaczyć dane, które zostały użyte do utworzenia wizualizacji, możesz [wyświetlić te dane w usłudze Power BI](service-reports-show-data.md) lub wyeksportować je do programu Excel w formie pliku xlsx lub csv.   
@@ -74,8 +74,7 @@ Aby skorzystać z tej metody, otwórz[raport próbnych danych dotyczących anali
    
    >[!WARNING]
    >Eksportowanie danych bazowych umożliwia użytkownikom wyświetlenie wszystkich szczegółowych danych — każdej kolumny w danych. Administratorzy usługi Power BI mogą wyłączyć tę funkcję w organizacji. Jeśli jesteś właścicielem zestawu danych, możesz ustawić zastrzeżone kolumny na „ukryte”, aby nie były wyświetlane na liście pól w programie Power BI Desktop lub usłudze Power BI.
-   > 
-   > 
+   
    
    **Dane bazowe**: wybierz tę opcję, jeśli wizualizacja zawiera agregację i chcesz zobaczyć wszystkie szczegóły dotyczące danych bazowych. Zasadniczo opcja *Dane bazowe* usuwa agregację. Po wybraniu opcji **Eksportuj** dane zostaną wyeksportowane do pliku xlsx, a przeglądarka wyświetli monit o zapisanie pliku. Po zapisaniu otwórz plik w programie Excel.
    
@@ -85,7 +84,9 @@ Aby skorzystać z tej metody, otwórz[raport próbnych danych dotyczących anali
 
 ## <a name="limitations-and-considerations"></a>Ograniczenia i istotne zagadnienia
 * Maksymalna liczba wierszy, które można eksportować z programu **Power BI Desktop** i **usługi Power BI** do pliku csv to 30 000.
-* Maksymalna liczba wierszy, które można eksportować do formatu xlsx w **usłudze Power BI** to 150 000 dla użytkowników wersji Pro oraz 30 000 dla użytkowników wersji bezpłatnej.
+* Maksymalna liczba wierszy, które można wyeksportować w formacie xlsx, wynosi 150 000.
+* Eksportowanie przy użyciu *danych bazowych* nie będzie działać, jeśli źródłem danych jest aktywne połączenie usług Analysis Services oraz wersja jest starsza niż 2016 i tabele w modelu nie mają unikatowego klucza.  
+* Eksportowanie przy użyciu *danych bazowych* nie będzie działać, jeśli pozycja *Pokaż elementy bez danych* jest włączona dla eksportowanej wizualizacji.
 * W przypadku używania zapytania bezpośredniego maksymalna ilość danych, które można wyeksportować, to 16 MB. Może to spowodować wyeksportowanie mniejszej liczby wierszy, zwłaszcza wtedy, gdy istnieje wiele kolumn, dane są trudne do skompresowania lub zachodzą inne czynniki zwiększające rozmiar plików i zmniejszające liczbę eksportowanych wierszy.
 * Usługa Power BI obsługuje eksportowanie tylko w przypadku wizualizacji korzystających z podstawowych agregacji. Eksportowanie nie jest dostępne w przypadku wizualizacji używających miar modelu lub raportu.
 * Wizualizacje niestandardowe oraz wizualizacje języka R nie są obecnie obsługiwane.

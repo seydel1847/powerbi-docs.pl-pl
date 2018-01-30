@@ -15,19 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 01/22/2018
 ms.author: davidi
-ms.openlocfilehash: ec5d5de3d29ccbe857f6fd40320353c357e6539e
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: 6b2002348ae7e8ef2bb2e112eb8be967d0c68545
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint-preview"></a>Eksportowanie raportów z usługi Power BI do programu PowerPoint (wersja zapoznawcza)
 Usługa Power BI umożliwia teraz publikowanie raportów w programie **Microsoft PowerPoint** oraz łatwe tworzenie pokazu slajdów na podstawie raportu usługi Power BI. Podczas **eksportowania do programu PowerPoint** zachodzą następujące zmiany:
 
 * Każda strona w raporcie usługi Power BI staje się pojedynczym slajdem w programie PowerPoint
-* Każda wizualizacja w raporcie usługi Power BI jest eksportowana jako obraz o wysokiej rozdzielczości w programie PowerPoint
+* Każda strona w raporcie usługi Power BI jest eksportowana jako jeden obraz o wysokiej rozdzielczości w programie PowerPoint
 * Pola tekstowe w raporcie usługi Power BI stają się edytowalnymi polami tekstowymi w programie PowerPoint
 * W programie PowerPoint jest tworzony link prowadzący do raportu usługi Power BI
 
@@ -65,7 +65,11 @@ Po otworzeniu pliku programu PowerPoint wyeksportowanego przez usługę Power BI
 2. Widoczne są także pewne przydatne informacje dotyczące raportu, takie jak *ostatnie odświeżanie danych*, na których oparty jest wyeksportowany raport, oraz data i godzina *pobrania*, czyli data i godzina wyeksportowania raportu usługi Power BI do pliku programu PowerPoint.
 3. Każda strona raportu jest osobnym slajdem, jak pokazano w okienku nawigacji po lewej stronie.
 
-Gdy przejdziesz do pojedynczego slajdu, zauważysz, że każda wizualizacja jest teraz niezależnym obrazem (jak wspomniano wcześniej). Dzięki temu możesz skopiować wybrany obraz i wkleić go do innego slajdu lub w innym dowolnym miejscu.
+Gdy przejdziesz do pojedynczego slajdu, zauważysz, że każda strona raportu jest niezależnym obrazem.
+
+>[!NOTE]
+> Zastosowanie jednej wizualizacji dla każdej strony raportu to nowe zachowanie. Poprzednie zachowanie, które udostępniało niezależny obraz dla każdej wizualizacji, nie jest już zaimplementowane. 
+ 
 
 ![](media/service-publish-to-powerpoint/powerbi_to_powerpoint_6.png)
 
@@ -85,6 +89,7 @@ Pracując z funkcją **Eksportuj do programu PowerPoint**, należy wziąć pod u
 * Strony w programie PowerPoint są zawsze tworzone w standardowym rozmiarze 9:16, niezależnie od oryginalnych wymiarów i rozmiarów stron w raporcie usługi Power BI.
 * Raporty, które są własnością użytkownika spoza Twojej domeny dzierżawy usługi Power BI (na przykład raporty należące do osoby spoza organizacji i udostępnione Tobie), nie mogą być publikowane w programie PowerPoint.
 * Jeśli udostępniasz pulpit nawigacyjny osobie spoza organizacji (czyli użytkownikowi, który nie należy do Twojej dzierżawy usługi Power BI), ta osoba nie będzie mogła wyeksportować raportów skojarzonych z udostępnionym pulpitem nawigacyjnym do programu PowerPoint. Jeśli na przykład jesteś użytkownikiem aaron@contoso.com, możesz udostępnić pulpit nawigacyjny użytkownikowi david@cohowinery.com. Ale użytkownik david@cohowinery.com nie może wyeksportować skojarzonych raportów do programu PowerPoint.
+* Jak wspomniano wcześniej, każda strona raportu jest eksportowana jako jeden obraz w pliku programu PowerPoint. 
 
 ## <a name="next-steps"></a>Następne kroki
 [Analizowanie w programie Excel](service-analyze-in-excel.md)

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 01/23/2018
 ms.author: davidi
-ms.openlocfilehash: 78bac79fc440f0a4efe19947ca7a6e9c53866b0a
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: 2832849d887795c2af0750f01e929045f75c12fe
+ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="power-bi-for-us-government-customers"></a>Usługa Power BI dla klientów rządowych w Stanach Zjednoczonych
 **Usługa Power BI** oferuje wersję dostępną dla klientów rządowych w Stanach Zjednoczonych w ramach subskrypcji **Office 365 US Government Community**. Wersja **usługi Power BI** omówiona w tym artykule jest przeznaczona wyłącznie dla klientów rządowych USA — jest to osobna usługa, która jest inna niż komercyjna wersja **usługi Power BI**.
@@ -45,11 +45,24 @@ Następujące funkcje są dostępne dla klientów **usługi Power BI US Governme
 * Szyfrowanie wszystkich danych w usługach Azure SQL i Blob Storage na potrzeby usługi Power BI
 * Nawiązywanie połączenia z usługami za pomocą [pakietów zawartości](service-connect-to-services.md)
 
+## <a name="connectivity-between-government-and-public-azure-cloud-services"></a>Łączność między rządowymi i publicznymi usługami Azure Cloud Services 
+
+Platforma Azure jest rozproszona w ramach wielu chmur. Domyślnie dzierżawy mogą otwierać reguły zapory na potrzeby wystąpienia specyficznego dla chmury, ale połączenia sieciowe między chmurami są inne i wymagają otwarcia określonych reguł zapory na potrzeby komunikacji między usługami. Jeśli jesteś klientem usługi Power BI i w chmurze publicznej masz istniejące wystąpienia SQL, do których chcesz uzyskiwać dostęp, musisz otworzyć określone reguły zapory w bazie danych SQL dla przestrzeni adresów IP chmury platformy Azure Government w przypadku następujących centrów danych:
+
+* USGov Iowa
+* USGov Wirginia
+* USGov Teksas
+* USGov Arizona
+
+W chmurze publicznej przestrzenie adresów IP są dostępne, ale w przypadku chmury dla instytucji rządowych należy otworzyć bilet pomocy technicznej platformy Azure i poprosić o podanie zakresów adresów IP dla powyższych centrów danych. 
+
+
 ## <a name="limitations-of-power-bi-us-government"></a>Ograniczenia dotyczące usługi Power BI US Government
 Niektóre funkcje dostępne w komercyjnej wersji **usługi Power BI** *nie* są dostępne w **usłudze Power BI** w wersji US Government. Zespół usługi Power BI stale pracuje nad udostępnieniem tych funkcji klientom rządowym w Stanach Zjednoczonych, a niniejszy artykuł zostanie zaktualizowany, gdy funkcje zostaną udostępnione.
 
 * **Usługa Power BI US Government** jest dostępna tylko w ramach licencji **Pro**. Wszelkie odwołania do licencji usługi Power BI (bezpłatnej) w portalu administratora (lub jako użytkownika) są uruchamiane w chmurze komercyjnej usługi Power BI.
 * **Inspekcja** — funkcja inspekcji nie jest dostępna za pośrednictwem portalu zabezpieczeń i zgodności usługi Office 365.
+* **Zawartość usługi Power BI w Cortanie** — wyniki usługi Power BI nie będą widoczne w wynikach wyszukiwania Cortany. Obejmuje to wyniki dla zawartości usługi Power BI (pulpity nawigacyjne, raporty, aplikacje) oraz wyniki, które zawierają zoptymalizowane pod kątem Cortany strony raportów dla określonych słów kluczowych.
 
 Jeśli do kont zostaną przypisane bezpłatne licencje **usługi Power BI**, takie konta działają w wersji komercyjnej **usługi Power BI** i nie są częścią oferty **usługi Power BI US Government**. W przypadku bezpłatnych kont mogą wystąpić następujące problemy:
 

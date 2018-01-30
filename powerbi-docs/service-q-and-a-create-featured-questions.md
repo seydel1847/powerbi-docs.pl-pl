@@ -1,5 +1,5 @@
 ---
-title: "Tworzenie proponowanych pytań dla funkcji pytań i odpowiedzi w usłudze Power BI"
+title: "Jak utworzyć proponowane pytania dla funkcji Pytania i odpowiedzi w usłudze Power BI"
 description: "Dokumentacja dotycząca sposobu tworzenia proponowanych pytań dla funkcji pytań i odpowiedzi w usłudze Power BI"
 services: powerbi
 documentationcenter: 
@@ -16,16 +16,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/24/2017
+ms.date: 01/18/2018
 ms.author: mihart
-ms.openlocfilehash: 4b8a606cd110c13a615be88d49f04e68b3f2cbe6
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+ms.openlocfilehash: e6a83796afe6afab02ec463d3dd2074d1fdc529a
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>Tworzenie proponowanych pytań dla funkcji pytań i odpowiedzi w usłudze Power BI
-Jeśli jesteś właścicielem zestawu danych, możesz dodać własne proponowane pytania do tego zestawu danych.  Funkcja pytań i odpowiedzi w usłudze Power BI wyświetli te pytania współpracownikom korzystającym z Twojego zestawu danych.  Proponowane pytania dostarczają współpracownikom pomysłów dotyczących typów pytań, jakie mogą zadać na temat zestawu danych. Proponowane pytania, jakie dodasz, zależą od Ciebie — dodaj często zadawane pytania lub takie, na które można udzielić ciekawej odpowiedzi, albo pytania, które ciężko sformułować.
+Jeśli jesteś właścicielem zestawu danych, możesz dodać własne proponowane pytania do tego zestawu danych.  Funkcja Pytania i odpowiedzi w usłudze Power BI wyświetli te pytania współpracownikom używającym Twojego zestawu danych (*korzystającym z niego*).  Proponowane pytania dostarczają współpracownikom pomysłów dotyczących typów pytań, jakie mogą zadać na temat zestawu danych. Proponowane pytania, jakie dodasz, zależą od Ciebie — dodaj często zadawane pytania lub takie, na które można udzielić ciekawej odpowiedzi, albo pytania, które ciężko sformułować.
 
 Obejrzyj klip wideo, w którym Will dodaje proponowane pytania do funkcji pytań i odpowiedzi w usłudze Power BI, a następnie używa ich do eksplorowania jego zestawu danych. Następnie postępuj zgodnie ze szczegółowymi instrukcjami poniżej wideo, aby wypróbować to samodzielnie.
 
@@ -33,7 +33,6 @@ Obejrzyj klip wideo, w którym Will dodaje proponowane pytania do funkcji pytań
 
 > [!NOTE]
 > Proponowanych pytań w funkcji Pytania i odpowiedzi można używać w [aplikacji Microsoft Power BI dla systemu iOS na urządzeniach iPad, iPhone i iPod Touch](mobile-apps-ios-qna.md), a także w wersji zapoznawczej funkcji Pytania i odpowiedzi w programie Power BI Desktop. Natomiast tworzenie pytań jest możliwe tylko w usłudze Power BI (app.powerbi.com).
-> 
 > 
 
 W tym artykule wykorzystano [przykład Retail Analysis Sales](sample-datasets.md).
@@ -54,7 +53,7 @@ W tym artykule wykorzystano [przykład Retail Analysis Sales](sample-datasets.md
    ![](media/service-q-and-a-create-featured-questions/power-bi-filled-map.png)
 
 ### <a name="next-steps"></a>Następne kroki
-[Pytania i odpowiedzi w usłudze Power BI](service-q-and-a.md)  
+[Pytania i odpowiedzi w usłudze Power BI](power-bi-q-and-a.md)  
 [Samouczek: wprowadzenie do funkcji pytań i odpowiedzi w usłudze Power BI](power-bi-visualization-introduction-to-q-and-a.md)  
 [Power BI — podstawowe pojęcia](service-basic-concepts.md)  
 Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/29/2017
+ms.date: 01/18/2018
 ms.author: mihart
-ms.openlocfilehash: 2b5568020d3d99788d4fe2288fbc468d82d4e2bf
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 5087e69190372fe7303fb46254885f7a7a456f70
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="what-sample-data-is-available-to-use-with-power-bi"></a>Jakie przykładowe dane są dostępne do użycia w usłudze Power BI?
 Załóżmy, że jesteś nowym użytkownikiem usługi Power BI i chcesz ją wypróbować, ale nie masz żadnych danych.  A może masz zestaw danych, ale ponieważ nie rozumiesz (jeszcze) jak działa usługa Power BI, martwisz się, że możesz w jakiś sposób uszkodzić swój zestaw danych?

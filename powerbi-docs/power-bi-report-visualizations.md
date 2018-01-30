@@ -1,6 +1,6 @@
 ---
-title: "Wizualizacje w usłudze Power BI"
-description: "Dokumentacja dotycząca wizualizacji w usłudze Microsoft Power BI."
+title: "Omówienie wizualizacji raportów w usłudze Power BI i programie Power BI Desktop"
+description: "Omówienie wizualizacji raportów w usłudze Microsoft Power BI."
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -16,16 +16,24 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/05/2017
+ms.date: 01/21/2018
 ms.author: mihart
-ms.openlocfilehash: 7b23ec8bf284de5419db98c326b206e205e253ec
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: bb9244268a0a68f7b15877ae7ff567fe35cb2a1a
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/23/2018
 ---
-# <a name="visualizations-in-power-bi"></a>Wizualizacje w usłudze Power BI
-Wizualizacje danych (w skrócie wizualizacje) umożliwiają interakcję z danymi w celu znalezienia interesujących informacji biznesowych. Twórz i modyfikuj wizualizacje w raportach, a następnie przypinaj je do pulpitów nawigacyjnych.   
+# <a name="visualizations-in-power-bi-reports"></a>Wizualizacje w raportach usługi Power BI
+Wizualizacje prezentują szczegółowe informacje, które zostały odnalezione w danych. Raport usługi Power BI może zawierać jedną stronę z pojedynczą wizualizacją lub wiele stron pełnych różnych wizualizacji. W usłudze Power BI wizualizacje można [przypinać z raportów do pulpitów nawigacyjnych](service-dashboard-pin-tile-from-report.md). 
+
+Ważne jest rozróżnienie między *twórcami* raportów i ich *użytkownikami*. Jeśli jesteś osobą tworzącą lub modyfikującą raport, jesteś jego twórcą.  Twórcy mają uprawnienia do edycji raportu i jego podstawowego zestawu danych. W programie Power BI Desktop oznacza to, że można otwierać zestaw danych w widoku Dane i tworzyć wizualizacje w widoku Raport. W usłudze Power BI oznacza to, że można otwierać zestaw danych lub raport w edytorze raportów w [widoku do edycji](service-reading-view-and-editing-view.md). Jeśli raport lub pulpit nawigacyjny [został Ci udostępniony](service-shared-with-me.md), jesteś **użytkownikiem** raportu. W takiej sytuacji możesz wyświetlać raport i jego wizualizacje oraz wchodzić z nimi w interakcje, ale nie możesz zapisywać zmian.
+
+Wiele różnych typów wizualizacji jest dostępnych bezpośrednio w okienku WIZUALIZACJE usługi Power BI. 
+
+![](media/power-bi-report-visualizations/power-bi-visualizations.png)
+
+Jeśli chcesz mieć jeszcze większy wybór, odwiedź [witrynę społeczności usługi Microsoft AppSource](https://appsource.microsoft.com), aby znaleźć i pobrać [wizualizacje niestandardowe](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals&page=1) udostępnione przez firmę Microsoft i społeczność.    
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SYk_gWrtKvM?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
@@ -36,13 +44,13 @@ Wizualizacje danych (w skrócie wizualizacje) umożliwiają interakcję z danymi
 [Utwórz wizualizacje](power-bi-report-add-visualizations-i.md) na stronach raportów. Przejrzyj [listę dostępnych wizualizacji i samouczków dotyczących wizualizacji.](power-bi-visualization-types-for-reports-and-q-and-a.md) 
 
 ## <a name="upload-a-custom-visualization-and-use-it-in-power-bi"></a>Przekazywanie niestandardowych wizualizacji i używanie ich w usłudze Power BI
-Dodaj niestandardową wizualizację utworzoną samodzielnie lub znalezioną w [Sklepie Office](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals). Jesteś osobą kreatywną? Przejrzyj nasze zasoby kodu źródłowego i użyj naszych narzędzi deweloperskich w celu utworzenia nowego typu wizualizacji i [udostępnienia go społeczności](http://visuals.powerbi.com).
+Dodaj wizualizację niestandardową utworzoną samodzielnie lub znalezioną w [witrynie społeczności usługi Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals). Jesteś osobą kreatywną? Przejrzyj nasze zasoby kodu źródłowego i użyj naszych [narzędzi programistycznych](service-custom-visuals-getting-started-with-developer-tools.md) w celu utworzenia nowego typu wizualizacji i [udostępnienia go społeczności](developer/office-store.md)
 
 ## <a name="change-the-visualization-type"></a>Zmienianie typu wizualizacji
 Spróbuj [zmienić typ wizualizacji](power-bi-report-change-visualization-type.md), aby zobaczyć, który z nich najlepiej przedstawia Twoje dane.
 
 ## <a name="pin-the-visualization"></a>Przypinanie wizualizacji
-Po odpowiednim skonfigurowaniu wizualizacji możesz [przypiąć ją do pulpitu nawigacyjnego](service-dashboard-pin-tile-from-report.md) jako kafelek. Jeśli zmienisz wizualizację w raporcie po jej przypięciu, kafelek na pulpicie nawigacyjnym nie ulegnie zmianie.
+W usłudze Power BI po odpowiednim skonfigurowaniu wizualizacji możesz [przypiąć ją do pulpitu nawigacyjnego](service-dashboard-pin-tile-from-report.md) jako kafelek. Jeśli zmienisz wizualizację używaną w raporcie po jej przypięciu, kafelek na pulpicie nawigacyjnym nie zmieni się — jeśli był to wykres liniowy, nadal będzie to wykres liniowy nawet wtedy, gdy w raporcie został zmieniony w wykres pierścieniowy.
 
 ## <a name="next-steps"></a>Następne kroki
 [Typy wizualizacji w usłudze Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)

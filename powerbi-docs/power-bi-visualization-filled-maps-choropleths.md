@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 01/19/2018
 ms.author: mihart
-ms.openlocfilehash: 08b01048823d928d5c07fd4ad86764bc13921a31
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 2c15cf503a7c66a3b89e45cc338ee5174e5f24e7
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="filled-maps-choropleths-in-power-bi-tutorial"></a>Kartogramy w usłudze Power BI (samouczek)
 Kartogram używa cieniowania lub barwienia, lub wzorców do wyświetlania, jak wartość różni się w części lokalizacji geograficznej lub regionu.  Szybko wyświetlaj te względne różnice za pomocą cieniowania tych zakresów od jasnych (rzadsze/mniejsze) do ciemnych (częstsze/większe).    
@@ -31,6 +31,11 @@ Kartogram używa cieniowania lub barwienia, lub wzorców do wyświetlania, jak w
 
 ## <a name="what-is-sent-to-bing"></a>Co jest wysyłane do usługi Bing
 Usługa Power BI integruje się z usługą Bing w celu zapewnienia domyślnych współrzędnych mapy (w procesie zwanym kodowaniem geograficznym). Podczas tworzenia wizualizacji mapy w usłudze Power BI lub programie Power BI Desktop dane w zasobnikach **Lokalizacja**, **Szerokość geograficzna** i **Długość geograficzna** (które są używane do tworzenia tej wizualizacji) są wysyłane do usługi Bing.
+
+Użytkownik lub administrator może być zmuszony do aktualizacji zapory, aby umożliwić dostęp do adresów URL używanych przez usługę Bing do geokodowania.  Te adresy URL to:
+* https://dev.virtualearth.net/REST/V1/Locations
+* https://platform.bing.com/geo/spatial/v1/public/Geodata
+* https://www.bing.com/api/maps/mapcontrol
 
 Aby uzyskać więcej informacji o danych wysyłanych do usługi Bing i wskazówkach dotyczących zwiększenia sukcesu kodowania geograficznego, zobacz [Porady i wskazówki dotyczące wizualizacji map](power-bi-map-tips-and-tricks.md).
 

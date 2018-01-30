@@ -15,24 +15,54 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/05/2017
+ms.date: 01/21/2018
 ms.author: mihart
-ms.openlocfilehash: 7ff8ba4557c829551b97e51f411269e3ba8fbdea
-ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
+ms.openlocfilehash: 473236553513c41e30cb4d48f03f8fc27fd4d647
+ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="sales-and-marketing-sample-for-power-bi-take-a-tour"></a>Próbka danych dotyczących sprzedaży i marketingu dla usługi Power BI: krótki przewodnik
+
+## <a name="overview-of-the-sales-and-marketing-sample"></a>Omówienie przykładu Sales and Marketing
 **Próbka danych dotyczących sprzedaży i marketingu** zawiera pulpit nawigacyjny i raport fikcyjnej firmy produkcyjnej o nazwie VanArsdel Ltd. Ten pulpit nawigacyjny został utworzony przez dyrektora ds. marketingu w firmie VanArsdel, aby śledzić udział w rynku, wolumen produktów, sprzedaż i wskaźniki nastrojów klientów branży i swojej firmy.
 
 Firma VanArsdel ma dużą konkurencję, ale jest liderem rynku w swojej branży. Dyrektor ds. marketingu chce zwiększyć udział w rynku i odkryć możliwości wzrostu. Z jakiegoś powodu udział w rynku firmy VanArsdel zaczął maleć, ze znaczącym spadkiem w czerwcu.
 
 Te przykładowe dane stanowią części serii ilustrującej, w jaki sposób można wykorzystać usługę Power BI w pracy z danymi biznesowymi, raportami i pulpitami nawigacyjnymi. Są to prawdziwe dane pochodzące z firmy obviEnce (www.obvience.com) przedstawione w sposób anonimowy.
 
-[!Note] Możesz również [pobrać sam zestaw danych (skoroszyt programu Excel) omawiany w tym przykładzie](http://go.microsoft.com/fwlink/?LinkId=529785). Skoroszyt zawiera arkusze programu Power View, które można wyświetlać i modyfikować. Aby wyświetlić nieprzetworzone dane, wybierz pozycje **Power Pivot > Zarządzaj**.
-
 ![](media/sample-sales-and-marketing/sales1.png)
+
+## <a name="prerequisites"></a>Wymagania wstępne
+
+ Zanim będzie można używać przykładu, musisz go najpierw pobrać jako pakiet zawartości, plik pbix lub skoroszyt programu Excel.
+
+### <a name="get-the-content-pack-for-this-sample"></a>Pobieranie pakietu zawartości dla tego przykładu
+
+1. Otwórz usługę Power BI (app.powerbi.com) i zaloguj się.
+2. W lewym dolnym rogu wybierz opcję **Pobierz dane**.
+   
+    ![](media/sample-datasets/power-bi-get-data.png)
+3. Na wyświetlonej stronie Pobieranie danych wybierz ikonę **Przykłady**.
+   
+   ![](media/sample-datasets/power-bi-samples-icon.png)
+4. Wybierz pozycję **Przykład Sales and Marketing**, a następnie wybierz polecenie **Połącz**.  
+  
+   ![Przykład Sales and Marketing](media/sample-sales-and-marketing/sales9.png)
+   
+5. Usługa Power BI zaimportuje pakiet zawartości i doda nowy pulpit nawigacyjny, raport oraz zestaw danych do bieżącego obszaru roboczego. Nowa zawartość jest oznaczona żółtą gwiazdką. 
+   
+   ![Gwiazdka](media/sample-sales-and-marketing/sales10.png)
+  
+### <a name="get-the-pbix-file-for-this-sample"></a>Pobieranie pliku pbix dla tego przykładu
+
+Alternatywnie przykład możesz pobrać jako plik pbix, który został zaprojektowany do użycia w programie Power BI Desktop. 
+
+ * [Przykład Sales and Marketing](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix)
+
+### <a name="get-the-excel-workbook-for-this-sample"></a>Pobieranie skoroszytu programu Excel dla tego przykładu
+Możesz też [pobrać sam zestaw danych (skoroszyt programu Excel)](http://go.microsoft.com/fwlink/?LinkId=529785) omawiany w tym przykładzie. Skoroszyt zawiera arkusze programu Power View, które można wyświetlać i modyfikować. Aby wyświetlić nieprzetworzone dane, wybierz pozycje **Power Pivot > Zarządzaj**.
 
 ## <a name="what-is-our-dashboard-telling-us"></a>O czym informuje nas pulpit nawigacyjny?
 Zacznijmy od pulpitu nawigacyjnego i przyjrzyjmy się kafelkom, które dyrektor wybrał do przypięcia. Widzimy informacje o udziale w rynku, sprzedaży i nastrojach. Widzimy także dane według regionu, czasu i konkurencji.
@@ -48,21 +78,21 @@ Zacznijmy od pulpitu nawigacyjnego i przyjrzyjmy się kafelkom, które dyrektor 
 #### <a name="which-segments-drive-our-sales-does-it-match-the-industry-trend"></a>Jakie segmenty napędzają naszą sprzedaż? Czy jest to zgodne z trendem branżowym?
 1. Wybierz kafelek „Total Units Overall by Segment” (Łączna ogólna liczba jednostek według segmentu), aby otworzyć funkcję pytań i odpowiedzi.
 2. Wpisz **dla VanArsdel** na końcu istniejącego zapytania. Funkcja Pytania i odpowiedzi interpretuje pytanie i wyświetla zaktualizowany wykres z odpowiedzią. Nasz wolumen produktów pochodzi z segmentów Convenience i Moderation.
-   
+
    ![](media/sample-sales-and-marketing/sales2.png)
 3. Nasz udział w kategoriach **Moderation** i **Convenience** jest bardzo duży — to są segmenty, w których konkurujemy.
 4. Przejdź z powrotem do pulpitu nawigacyjnego, wybierając nazwę pulpitu nawigacyjnego na górnym pasku nawigacyjnym (linki do stron nadrzędnych).
 
 #### <a name="what-does-total-unit-market-share-look-like-for-category-versus-region"></a>Jak wygląda udział w rynku łącznej liczby jednostek dla kategorii (a jak dla regionu)?
-1. Zwróć uwagę na kafelek „Total Units YTD by Manufacturer, Region” (Łączna liczba jednostek OPR według producenta, region). Zastanawiasz się, jak wygląda udział w rynku łącznej liczby jednostek według kategorii? 
-   
+1. Zwróć uwagę na kafelek „Total Units YTD by Manufacturer, Region” (Łączna liczba jednostek OPR według producenta, region). Zastanawiasz się, jak wygląda udział w rynku łącznej liczby jednostek według kategorii?
+
    ![](media/sample-sales-and-marketing/sales3.png)
 2. W polu pytania, w górnej części pulpitu nawigacyjnego, wpisz pytanie **łączna liczba jednostek według producenta i kategorii 2014 jako mapa drzewa**. Zwróć uwagę na to, jak aktualizowana jest wizualizacja podczas wpisywania pytania.
    ![](media/sample-sales-and-marketing/totalunitsbymanufacturerandcategoryfor2014asatreemap-new.png)
 3. Aby porównać wyniki, przypnij wykres do pulpitu nawigacyjnego. Bardzo interesujące: w roku 2014 firma VanArsdel sprzedawała tylko produkty należące do kategorii **Urban**.
 4. Przejdź z powrotem do pulpitu nawigacyjnego.
 
-Pulpity nawigacyjne są również punktem wejścia do raportów.  Jeśli kafelek został utworzony na podstawie raportu źródłowego, kliknięcie tego kafelka spowoduje otwarcie raportu. 
+Pulpity nawigacyjne są również punktem wejścia do raportów.  Jeśli kafelek został utworzony na podstawie raportu źródłowego, kliknięcie tego kafelka spowoduje otwarcie raportu.
 
 Na naszym pulpicie nawigacyjnym wiersz R12M (kroczące 12 miesięcy) pokazuje, że nasz udział w rynku już nie rośnie w czasie, a nawet nieco spada. I dlaczego mamy duży spadek udziału w rynku w czerwcu? Aby zbadać to dokładniej, kliknij tę wizualizację, aby otworzyć raport źródłowy.
 
@@ -72,7 +102,7 @@ Na naszym pulpicie nawigacyjnym wiersz R12M (kroczące 12 miesięcy) pokazuje, �
 
 1. Spójrz na wykres kolumnowy „Total Units by Month and isVanArsdel” (Suma jednostek wg miesięcy i isVanArsdel) u dołu. Czarna kolumna reprezentuje VanArsdel (nasze produkty), a zielona — naszą konkurencję. Spadek w czerwcu 2014, jaki odnotowała firma VanArsdel, nie wystąpił u naszej konkurencji.
 2. Wykres słupkowy „Total Category Volume by Segment” (Łączny wolumen dla kategorii według segmentu) w środku po prawej stronie jest filtrowany w celu wyświetlania dwóch najważniejszych segmentów dla firmy VanArsdel. Zobaczmy, jak ten filtr został utworzony:  
-   
+
    a.  Rozwiń okienko Filtry po prawej stronie.  
    b.  Kliknij, aby wybrać wizualizację.  
    c.  W obszarze Filtry na poziomie wizualizacji zwróć uwagę, że **Segment** jest filtrowany w celu uwzględnienia tylko segmentów **Convenience** i **Moderation**.  
@@ -112,4 +142,3 @@ Pracując na danych w tym środowisku, nie musisz się niczego obawiać. Zawsze 
 
 ## <a name="next-steps-connect-to-your-data"></a>Następne kroki: łączenie z danymi
 Mamy nadzieję, że dzięki temu przewodnikowi wiesz już, że Pytania i odpowiedzi, raporty oraz pulpity nawigacyjne usługi Power BI mogą zapewnić szczegółowy wgląd w dane dotyczące sprzedaży i działań marketingowych. Teraz Twoja kolej. Połącz się ze swoimi danymi. Usługa Power BI umożliwia nawiązanie połączenia z różnymi źródłami danych. Dowiedz się więcej o [rozpoczynaniu pracy z usługą Power BI](service-get-started.md).  
-

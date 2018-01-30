@@ -15,17 +15,52 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/27/2017
+ms.date: 1/17/2018
 ms.author: asaxton
-ms.openlocfilehash: f6ffc56f524da84e865d17981faddef58534c785
-ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
+ms.openlocfilehash: b9917b515971d16cb54a09deff1202c382eb7ef0
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/27/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="troubleshooting-your-embedded-application"></a>Rozwiązywanie problemów z aplikacją osadzoną
 
 W tym artykule omówiono niektóre typowe problemy, które można napotkać podczas osadzania zawartości z usługi Power BI.
+
+## <a name="tools-for-troubleshooting"></a>Narzędzia do rozwiązywania problemów
+
+### <a name="fiddler-trace"></a>Śledzenie za pomocą narzędzia Fiddler
+
+[Fiddler](http://www.telerik.com/fiddler) to bezpłatne narzędzie firmy Telerik, które monitoruje ruch HTTP.  Dzięki niemu ruch przychodzący i wychodzący można sprawdzać za pomocą interfejsów API usługi Power BI z komputera klienckiego. W ten sposób można ujawnić błędy i inne istotne informacje.
+
+![Śledzenie za pomocą narzędzia Fiddler](../includes/media/gateway-onprem-tshoot-tools-include/fiddler.png)
+
+### <a name="f12-in-browser-for-front-end-debugging"></a>Narzędzia uruchamiane klawiszem F12 w przeglądarce na potrzeby debugowania na poziomie frontonu
+
+Naciśnięcie klawisza F12 spowoduje uruchomienie okna dewelopera w przeglądarce. Dzięki niemu można zapoznać się z ruchem sieciowym i innymi informacjami.
+
+![Debugowanie przeglądarki po naciśnięciu klawisza F12](media/embedded-troubleshoot/browser-f12.png)
+
+### <a name="extracting-error-details-from-power-bi-response"></a>Wyodrębnianie szczegółów błędu z odpowiedzi usługi Power BI
+
+Następujący fragment kodu przedstawia sposób wyodrębniania szczegółów błędu z wyjątku HTTP:
+
+```
+public static string GetExceptionText(this HttpOperationException exc)
+{
+    var errorText = string.Format("Request: {0}\r\nStatus: {1} ({2})\r\nResponse: {3}",
+    exc.Request.Content, exc.Response.StatusCode, (int)exc.Response.StatusCode, exc.Response.Content);
+    if (exc.Response.Headers.ContainsKey("RequestId"))
+    {
+        var requestId = exc.Response.Headers["RequestId"].FirstOrDefault();
+        errorText += string.Format("\r\nRequestId: {0}", requestId);
+    }
+
+    return errorText;
+}
+```
+Zalecamy rejestrowanie identyfikatorów żądań (i szczegółów błędów na potrzeby rozwiązywania problemów).
+Podaj identyfikator żądania podczas kontaktowania się z pomocą techniczną firmy Microsoft.
 
 ## <a name="app-registration"></a>Rejestrowanie aplikacji
 
@@ -105,19 +140,6 @@ Jeśli użytkownik nie widzi raportu lub pulpitu nawigacyjnego, należy upewnić
 
 Otwórz plik w programie Power BI Desktop lub w witrynie powerbi.com i sprawdź, czy wydajność pozwala wykluczyć problemy z aplikacją lub osadzaniem interfejsów API.
 
-## <a name="tools-for-troubleshooting"></a>Narzędzia do rozwiązywania problemów
-
-### <a name="fiddler-trace"></a>Śledzenie za pomocą narzędzia Fiddler
-
-[Fiddler](http://www.telerik.com/fiddler) to bezpłatne narzędzie firmy Telerik, które monitoruje ruch HTTP.  Dzięki niemu ruch przychodzący i wychodzący można sprawdzać za pomocą interfejsów API usługi Power BI z komputera klienckiego. W ten sposób można ujawnić błędy i inne istotne informacje.
-
-![Śledzenie za pomocą narzędzia Fiddler](../includes/media/gateway-onprem-tshoot-tools-include/fiddler.png)
-
-### <a name="f12-in-browser-for-front-end-debugging"></a>Narzędzia uruchamiane klawiszem F12 w przeglądarce na potrzeby debugowania na poziomie frontonu
-
-Naciśnięcie klawisza F12 spowoduje uruchomienie okna dewelopera w przeglądarce. Dzięki niemu można zapoznać się z ruchem sieciowym i innymi informacjami.
-
-![Debugowanie przeglądarki po naciśnięciu klawisza F12](media/embedded-troubleshoot/browser-f12.png)
 
 Aby uzyskać odpowiedzi na często zadawane pytania, zobacz [Power BI Embedded — często zadawane pytania](embedded-faq.md).
 

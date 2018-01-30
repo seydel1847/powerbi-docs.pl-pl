@@ -1,6 +1,6 @@
 ---
-title: "Wprowadzenie do funkcji pytań i odpowiedzi w usłudze Power BI (samouczek)"
-description: "Samouczek: wprowadzenie do funkcji pytań i odpowiedzi w usłudze Power BI przy użyciu przykładu analizy detalicznej"
+title: "Szybki start — wprowadzenie do funkcji pytań i odpowiedzi w usłudze Power BI"
+description: "Szybki start: wprowadzenie do funkcji pytań i odpowiedzi w usłudze Power BI przy użyciu przykładu Retail Analysis"
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -15,17 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/25/2017
+ms.date: 01/16/2018
 ms.author: mihart
-ms.openlocfilehash: 2038fb5bd4a21235c3026c8506ae30b8c3e287e4
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: d63c6479ed5f0bb9e882900fc5a653f08ad6a823
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/19/2018
 ---
-# <a name="get-started-with-power-bi-qa-tutorial"></a>Wprowadzenie do funkcji pytań i odpowiedzi w usłudze Power BI (samouczek)
-## <a name="tutorial-use-power-bi-qa-with-the-retail-analysis-sample"></a>Samouczek: używanie funkcji pytań i odpowiedzi usługi Power BI na przykładzie analizy detalicznej
-Czasem najszybszym sposobem uzyskania odpowiedzi na podstawie danych jest zadanie pytania przy użyciu języka naturalnego.  W ramach tego samouczka rozpatrzymy 2 różne sposoby tworzenia tej samej wizualizacji: wbudowanie jej do raportu i zadanie pytania za pomocą funkcji pytań i odpowiedzi.  
+# <a name="get-started-with-power-bi-qa-quickstart"></a>Wprowadzenie do funkcji pytań i odpowiedzi w usłudze Power BI (szybki start)
+## <a name="use-power-bi-qa-with-the-retail-analysis-sample"></a>Używanie funkcji pytań i odpowiedzi usługi Power BI z przykładem Retail Analysis
+Czasem najszybszym sposobem uzyskania odpowiedzi na podstawie danych jest zadanie pytania przy użyciu języka naturalnego.  W ramach tego podręcznika Szybki start rozpatrzymy 2 różne sposoby tworzenia tej samej wizualizacji: po pierwsze, wbudowanie jej do raportu i, po drugie, zadanie pytania za pomocą funkcji pytań i odpowiedzi. Użyjemy usługi Power BI, ale proces jest niemal identyczny w przypadku używania programu Power BI Desktop.
+
+Aby z niego skorzystać, musisz użyć raportu, który możesz edytować, dlatego użyjemy jednego z przykładów dostępnych w usłudze Power BI.
 
 ## <a name="method-1-using-the-report-editor"></a>Metoda 1: przy użyciu edytora raportu
 1. W obszarze roboczym usługi Power BI wybierz pozycję **Pobierz dane** \> **Przykłady** \> **Przykład analizy detalicznej** > **Połącz**.
@@ -61,13 +63,9 @@ A może spróbujemy utworzyć ten sam wykres liniowy za pomocą funkcji pytań i
 4. Aby przypiąć wykres do swojego pulpitu nawigacyjnego, wybierz ikonę pinezki ![](media/power-bi-visualization-introduction-to-q-and-a/pinnooutline.png).
 
 ## <a name="next-steps"></a>Następne kroki
-[Jakiego rodzaju pytania mogę zadawać funkcji pytań i odpowiedzi?](service-q-and-a.md)
-
-[Pytania i odpowiedzi w usłudze Power BI](service-q-and-a.md)
+[Pytania i odpowiedzi w usłudze Power BI](power-bi-q-and-a.md)
 
 [Dbanie o poprawne współdziałanie danych z funkcją pytań i odpowiedzi w usłudze Power BI](service-prepare-data-for-q-and-a.md)
 
-[Przygotowanie skoroszytu dla funkcji pytań i odpowiedzi](service-prepare-data-for-q-and-a.md)
-
-Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
+Więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
 

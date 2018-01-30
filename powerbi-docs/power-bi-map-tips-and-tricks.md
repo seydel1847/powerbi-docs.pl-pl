@@ -16,18 +16,23 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/24/2017
+ms.date: 01/18/2018
 ms.author: mihart
-ms.openlocfilehash: 5ab075ede78ad5c08858878d6652e9b102a87fca
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+ms.openlocfilehash: 553e3c417f79d6d1c5a45737ad370d74f72177ca
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Porady i wskazówki dotyczące wizualizacji z mapami w usłudze Power BI
-Usługa Power BI integruje się z usługą Mapy Bing w celu zapewnienia domyślnych współrzędnych mapy (w procesie zwanym kodowaniem geograficznym), co pozwala na tworzenie map. Wspólnie używają algorytmów do zidentyfikowania poprawnej lokalizacji, ale czasami jest to tylko najbardziej prawdopodobna odpowiedź. Jeśli usługa Power BI nie może utworzyć wizualizacji z mapą samodzielnie, korzysta z usługi Mapy Bing.  
+Usługa Power BI integruje się z usługą Mapy Bing w celu zapewnienia domyślnych współrzędnych mapy (w procesie zwanym kodowaniem geograficznym), co pozwala na tworzenie map. Wspólnie używają algorytmów do zidentyfikowania poprawnej lokalizacji, ale czasami jest to tylko najbardziej prawdopodobna odpowiedź. Jeśli usługa Power BI nie może utworzyć wizualizacji z mapą samodzielnie, korzysta z usługi Mapy Bing. 
 
-Aby zwiększyć prawdopodobieństwo poprawnego kodowania geograficznego, użyj następujących wskazówek. Pierwszy zestaw porad jest przydatny, jeśli masz dostęp do zestawu danych. Drugi zestaw porad to działania, które można wykonać w usłudze Power BI, jeśli nie masz dostępu do zestawu danych.
+Użytkownik lub administrator może być zmuszony do aktualizacji zapory, aby umożliwić dostęp do adresów URL używanych przez usługę Bing do geokodowania.  Te adresy URL to:
+* https://dev.virtualearth.net/REST/V1/Locations
+* https://platform.bing.com/geo/spatial/v1/public/Geodata
+* https://www.bing.com/api/maps/mapcontrol
+
+Aby zwiększyć prawdopodobieństwo poprawnego kodowania geograficznego, użyj następujących wskazówek. Pierwszy zestaw porad jest przydatny, jeśli masz dostęp do zestawu danych. Drugi zestaw porad to działania, które można wykonać w usłudze Power BI, jeśli nie masz dostępu do zestawu danych. Ostateczny zestaw jest listą adresów URL
 
 ## <a name="what-is-sent-to-bing-maps"></a>Co jest wysyłane do usługi Mapy Bing?
 Usługa Power BI i program Power BI Desktop przesyłają do usługi Bing dane geograficzne wymagane do utworzenia wizualizacji z mapą. Mogą to być dane w zasobnikach **Lokalizacja**, **Szerokość geograficzna** i **Długość geograficzna** oraz pola geograficzne w dowolnym zasobniku filtrów: **Poziom raportu**, **Poziom strony** i **Poziom wizualny**. Wysyłane dane różnią się w zależności od typu mapy. Aby dowiedzieć się więcej, zobacz [Mapy usługi Bing — prywatność](https://go.microsoft.com/fwlink/?LinkID=248686).
