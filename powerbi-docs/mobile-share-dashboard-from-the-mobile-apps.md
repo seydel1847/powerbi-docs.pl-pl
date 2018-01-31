@@ -15,20 +15,20 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/14/2017
+ms.date: 01/29/2018
 ms.author: maggies
-ms.openlocfilehash: abaeaab7b033cf528a8e7a3bda1a30633adb63b1
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 69e4c9b02a3df65cff93e772b5024d6920aec1a2
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="share-a-dashboard-from-the-power-bi-mobile-apps"></a>Udostępnianie pulpitu nawigacyjnego z aplikacji mobilnych Power BI
 Dotyczy:
 
 | ![Telefon iPhone](media/mobile-share-dashboard-from-the-mobile-apps/iphone-logo-50-px.png) | ![Tablet iPad](media/mobile-share-dashboard-from-the-mobile-apps/ipad-logo-50-px.png) | ![Telefon z systemem Android](media/mobile-share-dashboard-from-the-mobile-apps/android-phone-logo-50-px.png) | ![Tablet z systemem Android](media/mobile-share-dashboard-from-the-mobile-apps/android-tablet-logo-50-px.png) | ![Windows 10](media/mobile-share-dashboard-from-the-mobile-apps/win-10-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |:--- |
-| Telefony iPhone |Tablety iPad |Telefony z systemem Android |Tablety z systemem Android |Urządzenia z systemem Windows 10 |
+| Telefony iPhone |Urządzenia iPad |Telefony z systemem Android |Tablety z systemem Android |Urządzenia z systemem Windows 10 |
 
 Jeśli posiadasz [licencję na usługę Power BI Pro](service-free-vs-pro.md), możesz zaprosić współpracowników do wyświetlenia Twoich pulpitów nawigacyjnych, udostępniając im linki z aplikacji mobilnych usługi Power BI. Osoby, którym udostępniasz pulpity nawigacyjne, muszą mieć adres e-mail w tej samej domenie co Ty i także posiadać licencję na usługę Power BI Pro lub zawartość musi być zapisana w [pojemności Premium](service-premium.md).
 

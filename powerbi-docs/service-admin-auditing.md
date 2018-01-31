@@ -3,7 +3,7 @@ title: Korzystanie z inspekcji w ramach organizacji
 description: "Dowiedz się, jak za pomocą inspekcji w usłudze Power BI możesz monitorować i badać wykonywane akcje. Skorzystaj z Centrum zabezpieczeń i zgodności lub programu PowerShell."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/12/2017
-ms.author: asaxton
-ms.openlocfilehash: c4c62ab5c24b7abe2760535da0a6cf69982c7174
-ms.sourcegitcommit: 2bd3c16fd300e41c6e3de29a24543491c1d53354
+ms.author: maghan
+ms.openlocfilehash: 4aca31605b0627929951c34dfb74aa736c89a04f
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="using-auditing-within-your-organization"></a>Korzystanie z inspekcji w ramach organizacji
 
@@ -151,7 +151,7 @@ Poniższa tabela zawiera szczegółowe informacje na temat danych, które mogą 
 | --- | --- | --- |
 | Pobranie raportu usługi Power BI |To działanie jest rejestrowane za każdym razem, gdy pobierany jest raport. |Nazwa raportu, Nazwa zestawu danych |
 | Utworzenie raportu |To działanie jest rejestrowane za każdym razem, gdy tworzony jest nowy raport. |Nazwa raportu, Nazwa zestawu danych |
-| Edytowanie raportu |To działanie jest rejestrowane za każdym razem, gdy edytowany jest raport. |Nazwa raportu, Nazwa zestawu danych |
+| Edytuj raport |To działanie jest rejestrowane za każdym razem, gdy edytowany jest raport. |Nazwa raportu, Nazwa zestawu danych |
 | Utworzenie zestawu danych |To działanie jest rejestrowane za każdym razem, gdy tworzony jest zestaw danych. |Nazwa zestawu danych, DataConnectivityMode |
 | Usunięcie zestawu danych |To działanie jest rejestrowane za każdym razem, gdy usuwany jest zestaw danych. |Nazwa zestawu danych, DataConnectivityMode |
 | Utworzenie aplikacji Power BI |To działanie jest rejestrowane za każdym razem, gdy jest tworzona aplikacja Power BI. |Nazwa aplikacji, Uprawnienia, Nazwa obszaru roboczego |

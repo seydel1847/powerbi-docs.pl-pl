@@ -3,7 +3,7 @@ title: "Usługa Power BI (wersja bezpłatna) w organizacji"
 description: "W tym artykule przedstawiono analizę opcji usługi Power BI (wersja bezpłatna) z punktu widzenia organizacji. Jeśli jesteś administratorem dzierżawy, dowiesz się, jak zarządzać bezpłatnymi rejestracjami."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 09/05/2017
-ms.author: asaxton
-ms.openlocfilehash: 5cdb3c17b1a65fd2a8b55918feaf58dd12fc1a2f
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.author: maghan
+ms.openlocfilehash: ec039ab195e2112654ac7f3057d54ecb60c21058
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="power-bi-free-in-your-organization"></a>Usługa Power BI (wersja bezpłatna) w organizacji
 Zostanie przedstawiony sposób użycia oferty usługi Power BI (wersja bezpłatna) w organizacji. Organizacja oznacza dzierżawę oraz możliwość zarządzania użytkownikami i usługami w tej dzierżawie. Jako administrator możesz kontrolować przypisania licencji i umożliwić użytkownikom indywidualne rejestrowanie się. Omówimy licencję usługi Power BI (wersja bezpłatna) oraz możliwość kontrolowania indywidualnego rejestrowania się.

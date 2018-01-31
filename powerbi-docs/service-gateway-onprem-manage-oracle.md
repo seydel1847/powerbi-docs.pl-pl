@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 10/05/2017
+ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: 820bd1fabbb2770b938160420ac0e5bf97ece703
-ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
+ms.openlocfilehash: fee1179f5a42c70721324e21f1ce87e4ae9ad132
+ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/27/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="manage-your-data-source---oracle"></a>Zarządzanie źródłami danych — Oracle
 Po zainstalowaniu lokalnej bramy danych musisz dodać źródła danych, które mogą być używane z tą bramą. W tym artykule opisano sposób pracy z bramami i źródłami danych. Źródła danych Oracle można użyć na potrzeby zaplanowanego odświeżania lub zapytania bezpośredniego.
@@ -80,10 +80,10 @@ Aby dodać bramę, po prostu [pobierz](https://go.microsoft.com/fwlink/?LinkId=6
 > 
 
 ## <a name="remove-a-gateway"></a>Usuwanie bramy
-Usunięcie bramy spowoduje również usunięcie wszystkich źródeł danych należących do tej bramy.  Spowoduje to również uszkodzenie wszystkich pulpitów nawigacyjnych i raportów, które są zależne od tych źródeł danych.
+Usunięcie bramy spowoduje także usunięcie wszystkich źródeł danych w ramach tej bramy.  Spowoduje to również uszkodzenie wszystkich pulpitów nawigacyjnych i raportów, które są zależne od tych źródeł danych.
 
 1. Wybierz ikonę koła zębatego ![](media/service-gateway-onprem-manage-oracle/pbi_gearicon.png) w prawym górnym rogu, a następnie wybierz pozycję **Zarządzaj bramami**.
-2. Wybierz pozycję Brama > **Usuń**.
+2. Wybierz pozycję Brama, a następnie pozycję **Usuń**
    
    ![](media/service-gateway-onprem-manage-oracle/datasourcesettings7.png)
 

@@ -3,7 +3,7 @@ title: "Integrowanie kafelka usługi Power BI z aplikacją dla organizacji"
 description: "Przewodnik po integrowaniu kafelka z aplikacją — przykładowy kod"
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/19/2017
-ms.author: asaxton
-ms.openlocfilehash: 70ffefa9845f8440205460ee0083f8dc334b7c81
-ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
+ms.author: maghan
+ms.openlocfilehash: fd33908f907ffac6cbff765e01e4a4321d399ca8
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/05/2018
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="integrate-a-tile-into-an-app-user-owns-data"></a>Integrowanie kafelka z aplikacją (dane należą do użytkownika)
 Dowiedz się, jak integrować lub osadzać kafelek w aplikacji internetowej przy użyciu wywołań interfejsu API REST wraz z interfejsem API języka JavaScript usługi Power BI podczas osadzania dla organizacji.
@@ -242,5 +242,5 @@ https://app.powerbi.com/embed?dashboardId={dashboard_id}&tileId={tile_id}&groupI
 
 Przykład [integrate-tile-web-app](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-tile-web-app) w witrynie GitHub.
 
-Masz więcej pytań? [Zadaj pytanie społeczności usługi Power BI](http://community.powerbi.com/)
+Więcej pytań? [Zadaj pytanie społeczności usługi Power BI](http://community.powerbi.com/)
 

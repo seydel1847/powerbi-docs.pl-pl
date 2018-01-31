@@ -3,7 +3,7 @@ title: "Oficjalne dokumenty dla usługi Power BI"
 description: "Oficjalne dokumenty pozwalają zapoznać się dokładniej z tematami dotyczącymi usługi Power BI."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/05/2018
-ms.author: asaxton
-ms.openlocfilehash: 893f9a9b539b2facd62f74f8ecaebe42a4e7fcaa
-ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
+ms.author: maghan
+ms.openlocfilehash: ac3f2b52374df0ea9a153a97548e40420388181d
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/05/2018
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="whitepapers-for-power-bi"></a>Oficjalne dokumenty dla usługi Power BI
 
@@ -43,4 +43,4 @@ Oficjalne dokumenty pozwalają zapoznać się dokładniej z tematami dotyczącym
 | [Wskazówki dotyczące planowania wydajności serwera raportów usługi Power BI](report-server/capacity-planning.md) |Ten dokument zawiera wskazówki dotyczące planowania wydajności serwera raportów usługi Power BI przez udostępnianie wyników licznych testów obciążenia wykonywanych na serwerze raportów przy różnych obciążeniach. |
 | [Planowanie i wdrażanie usługi Power BI Premium](https://aka.ms/Premium-Capacity-Planning-Deployment)| Ten dokument zawiera wskazówki i najlepsze rozwiązania dotyczące planowania i wdrażania pojemności Premium dla dokładnie zdefiniowanych obciążeń.|
 
-Masz więcej pytań? [Zadaj pytanie społeczności usługi Power BI](http://community.powerbi.com/)
+Więcej pytań? [Zadaj pytanie społeczności usługi Power BI](http://community.powerbi.com/)

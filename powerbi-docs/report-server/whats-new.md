@@ -3,7 +3,7 @@ title: "Co nowego w serwerze raportów usługi Power BI"
 description: "Dowiedz się, co nowego w serwerze raportów usługi Power BI. Obejmuje to obszary najważniejszych funkcji i jest aktualizowane w miarę, jak są wydawane nowe elementy."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/31/2017
 ms.author: maghan
-ms.openlocfilehash: 433581f77cfeaa002cffeecd927ba8751fc46617
-ms.sourcegitcommit: eec6b47970bf69ed30638d1a20051f961ba792f2
+ms.openlocfilehash: 2ac4efa4e1eff5099fa3732b0fa753b04941979e
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/06/2018
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Co nowego w serwerze raportów usługi Power BI
 Dowiedz się, co nowego w serwerze raportów usługi Power BI. Obejmuje to obszary najważniejszych funkcji i jest aktualizowane w miarę, jak są wydawane nowe elementy.
