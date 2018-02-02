@@ -192,7 +192,7 @@ Po wybraniu elementu na liście możesz zmienić kolejność przy użyciu **ikon
 
 ![](media/service-gateway-enterprise-manage-ssas/gateway-enterprise-map-user-names-entry-selected.png)
 
-### <a name="using-wildcard-"></a>Używanie symbolu wieloznacznego (*)
+### <a name="using-wildcard-"></a>Używanie symbolu wieloznacznego (\*)
 W swoim ciągu **Zastąp (oryginalna nazwa)** możesz użyć symbolu wieloznacznego. Może on być używany tylko samodzielnie, a nie jako część jakiegokolwiek innego ciągu. Pozwoli to na pobranie wszystkich użytkowników, a następnie przekazanie pojedynczej wartości do źródła danych. Jest to przydatne, gdy chcesz, aby wszyscy użytkownicy w Twojej organizacji używali tej samej nazwy użytkownika w środowisku lokalnym.
 
 ### <a name="test-a-mapping-rule"></a>Testowanie reguły mapowania
