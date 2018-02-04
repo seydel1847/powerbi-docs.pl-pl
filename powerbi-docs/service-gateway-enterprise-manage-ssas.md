@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 10/05/2017
+ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: 58cfc6feb510dc9dc335b473b40ee4a7f341ee10
-ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
+ms.openlocfilehash: 02012b531ba43ec5f17e47f2b273b75ef8b2d9ec
+ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/27/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="manage-your-data-source---analysis-services"></a>Zarządzanie źródłami danych — Analysis Services
 Po zainstalowaniu lokalnej bramy danych musisz dodać źródła danych, które mogą być używane z tą bramą. W tym artykule opisano sposób pracy z bramami i źródłami danych. Do zaplanowanego odświeżania lub połączeń na żywo możesz użyć źródła danych usług Analysis Services.
@@ -49,7 +49,7 @@ W przypadku wystąpień tabelarycznych lub wielowymiarowych można używać poł
 Aby dodać bramę, po prostu [pobierz](https://go.microsoft.com/fwlink/?LinkId=698861) i zainstaluj ją na serwerze w swoim środowisku. Po zainstalowaniu bramy zostanie ona wyświetlona na liście bram w obszarze **Zarządzanie bramami**.
 
 > [!NOTE]
-> Obszar **Zarządzanie bramami** nie zostanie wyświetlony, dopóki użytkownik nie będzie administratorem co najmniej jednej bramy. Może to nastąpić przez dodanie jako administratora lub zainstalowanie i skonfigurowanie bramy.
+> Obszar **Zarządzanie bramami** nie zostanie wyświetlony, dopóki użytkownik nie będzie administratorem co najmniej jednej bramy. Może to nastąpić po dodaniu użytkownika jako administratora lub przez zainstalowanie i skonfigurowanie bramy.
 > 
 > 
 
@@ -216,7 +216,7 @@ Aby usunąć źródło danych, przejdź do obszaru Źródło danych, a następni
 ![](media/service-gateway-enterprise-manage-ssas/datasourcesettings6.png)
 
 ## <a name="manage-administrators"></a>Zarządzanie administratorami
-Na karcie Administratorzy dla bramy możesz dodawać i usuwać użytkowników (lub grupy zabezpieczeń), którzy mogą administrować bramą.
+Na karcie Administratorzy bramy możesz dodawać i usuwać użytkowników (lub grupy zabezpieczeń), którzy mogą administrować bramą.
 
 ![](media/service-gateway-enterprise-manage-ssas/datasourcesettings8.png)
 
@@ -245,7 +245,7 @@ Dotyczy to zarówno połączeń na żywo, jak i zaplanowanego odświeżania.
 ### <a name="using-the-data-source-with-live-connections"></a>Używanie źródeł danych z połączeniami na żywo
 Musisz się upewnić, że nazwy serwera i bazy danych są takie same w programie Power BI Desktop i źródle danych skonfigurowanym dla bramy. Musisz również sprawdzić, czy użytkownik znajduje się na liście na karcie **Użytkownicy** źródła danych, aby opublikować zestawy danych połączenia na żywo. Wybór na potrzeby połączenia na żywo ma miejsce w programie Power BI Desktop, gdy pierwszy raz importujesz dane.
 
-Gdy opublikujesz z poziomu programu Power BI Desktop lub za pomocą funkcji **Pobierz dane** raporty powinny zostać uruchomione. Możliwe jest, że po utworzeniu źródła danych w ramach bramy, połączenie będzie mogło zostać użyte dopiero po kilku minutach.
+Gdy opublikujesz z poziomu programu Power BI Desktop lub za pomocą funkcji **Pobierz dane** raporty powinny zostać uruchomione. Po utworzeniu źródła danych w obrębie bramy może upłynąć kilka minut, zanim będzie można używać połączenia.
 
 ### <a name="using-the-data-source-with-scheduled-refresh"></a>Używanie źródła danych z zaplanowanym odświeżaniem
 Jeśli znajdujesz się na liście na karcie **Użytkownicy** źródła danych skonfigurowanego w obrębie bramy, a nazwy serwera i bazy danych są zgodne, brama zostanie wyświetlona jako opcja, która może zostać użyta z zaplanowanym odświeżaniem.
