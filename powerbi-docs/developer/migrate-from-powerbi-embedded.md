@@ -3,7 +3,7 @@ title: "Jak migrować zawartość kolekcji obszarów roboczych usługi Power BI 
 description: "Dowiedz się, jak przeprowadzić migrację z usługi Power BI Embedded do usługi Power BI i uzyskać korzyści związane z osadzaniem zawartości w aplikacjach."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 07/21/2017
-ms.author: asaxton
-ms.openlocfilehash: 430f1d1a49e510bac66c448b2dceaad1f2537073
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.date: 08/24/2018
+ms.author: maghan
+ms.openlocfilehash: 59d395d11839903108f811ff4a6022ea04cadc8f
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="how-to-migrate-power-bi-embedded-workspace-collection-content-to-power-bi"></a>Jak migrować zawartość kolekcji obszarów roboczych usługi Power BI Embedded do usługi Power BI
 Dowiedz się, jak przeprowadzić migrację z usługi Power BI Embedded do usługi Power BI i uzyskać korzyści związane z osadzaniem zawartości w aplikacjach.
@@ -174,14 +174,11 @@ Użytkownicy zarządzani w aplikacji będą mapowani na poświadczenia *główne
 Gdy wszystko będzie gotowe do przejścia do zastosowania produkcyjnego, należy wykonać następujące czynności.
 
 * Jeśli korzystasz z oddzielnej dzierżawy na potrzeby programowania, należy upewnić się, że obszary robocze aplikacji oraz pulpity nawigacyjne i raporty są dostępne w środowisku produkcyjnym. Należy także upewnić się, że utworzono aplikację w usłudze Azure AD dla dzierżawy produkcyjnej i przypisano odpowiednie uprawnienia aplikacji, zgodnie z instrukcjami w kroku 1.
-* Kup pojemność odpowiednią do potrzeb. Aby łatwiej określić swoje potrzeby, możesz skorzystać z [oficjalnego dokumentu dotyczącego planowania pojemności na potrzeby osadzonej analizy](https://aka.ms/pbiewhitepaper). Gdy wszystko będzie gotowe do zakupu, możesz dokonać zakupu w [centrum administracyjnym usługi Office 365](https://portal.office.com/adminportal/home#/catalog).
-  
-  > [INFORMACJE DOTYCZĄCE PLATFORMY AZURE] Aby uzyskać informacje o sposobie zakupu usługi Power BI Premium, zobacz [Jak kupić usługę Power BI Premium](../service-admin-premium-purchase.md).
-  > 
-  > 
+* Kup pojemność odpowiednią do potrzeb. Aby lepiej zrozumieć, jaka wielkość i typ pojemności są Ci potrzebne, zobacz [oficjalny dokument dotyczący planowania pojemności na potrzeby osadzonej analizy](https://aka.ms/pbiewhitepaper). [Zakupu pojemności](https://portal.azure.com/#create/Microsoft.PowerBIDedicated) możesz dokonać na platformie Azure.
 * Edytuj obszar roboczy aplikacji i przypisz go do pojemności Premium w obszarze Zaawansowane.
-  
+ 
     ![](media/migrate-from-powerbi-embedded/powerbi-embedded-premium-capacity.png)
+    
 * Wdróż zaktualizowaną aplikację w środowisku produkcyjnym i rozpocznij osadzanie raportów z usługi Power BI.
 
 ## <a name="after-migration"></a>Po migracji

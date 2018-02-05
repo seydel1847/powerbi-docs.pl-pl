@@ -15,18 +15,18 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/21/2017
+ms.date: 01/25/2018
 ms.author: maggies
-ms.openlocfilehash: 278b421114363ab5fea4591e39a20089501b9724
-ms.sourcegitcommit: 47ea78f58ad37a751171d01327c3381eca3a960e
+ms.openlocfilehash: f06793bc6620e27ab5937a0043e9dc6a94119110
+ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/22/2017
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="pin-a-dashboard-to-your-windows-10-start-screen-from-the-power-bi-mobile-app"></a>Przypinanie pulpitu nawigacyjnego do ekranu startowego systemu Windows 10 przy użyciu aplikacji mobilnej Power BI
-Aplikacja mobilna Power BI dla systemu Windows 10 umożliwia przypinanie pulpitów nawigacyjnych do ekranu startowego systemu Windows. Powstają w ten sposób *dynamiczne kafelki* umożliwiające szybkie zapoznanie się z najważniejszymi metrykami. Po naciśnięciu kafelka na ekranie startowym odpowiedni pulpit nawigacyjny zostanie otwarty w aplikacji mobilnej Power BI dla systemu Windows 10.
+Aplikacja mobilna Power BI dla systemu Windows 10 umożliwia przypinanie pulpitów nawigacyjnych do ekranu startowego systemu Windows. Staną się one *dynamicznymi kafelkami*. Po naciśnięciu kafelka na ekranie startowym odpowiedni pulpit nawigacyjny zostanie otwarty w aplikacji mobilnej Power BI dla systemu Windows 10.
 
-![Dynamiczny kafelek w systemie Windows](media/mobile-pin-dashboard-start-screen-windows-10-phone-app/pbi_win10_livetile.gif)
+![Dynamiczny kafelek w systemie Windows](media/mobile-pin-dashboard-start-screen-windows-10-phone-app/power-bi-windows-10-pin-start-screen.png)
 
 ## <a name="pin-a-dashboard-to-your-start-screen-as-a-live-tile"></a>Przypinanie pulpitu nawigacyjnego do ekranu startowego jako dynamicznego kafelka
 1. Otwórz pulpit nawigacyjny.

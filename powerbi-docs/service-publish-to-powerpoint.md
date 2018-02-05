@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/22/2018
 ms.author: davidi
-ms.openlocfilehash: 6b2002348ae7e8ef2bb2e112eb8be967d0c68545
-ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
+ms.openlocfilehash: 4ca79e960bc0370789ee735ba6b5391cbb8b110f
+ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint-preview"></a>Eksportowanie raportów z usługi Power BI do programu PowerPoint (wersja zapoznawcza)
 Usługa Power BI umożliwia teraz publikowanie raportów w programie **Microsoft PowerPoint** oraz łatwe tworzenie pokazu slajdów na podstawie raportu usługi Power BI. Podczas **eksportowania do programu PowerPoint** zachodzą następujące zmiany:
@@ -89,7 +89,9 @@ Pracując z funkcją **Eksportuj do programu PowerPoint**, należy wziąć pod u
 * Strony w programie PowerPoint są zawsze tworzone w standardowym rozmiarze 9:16, niezależnie od oryginalnych wymiarów i rozmiarów stron w raporcie usługi Power BI.
 * Raporty, które są własnością użytkownika spoza Twojej domeny dzierżawy usługi Power BI (na przykład raporty należące do osoby spoza organizacji i udostępnione Tobie), nie mogą być publikowane w programie PowerPoint.
 * Jeśli udostępniasz pulpit nawigacyjny osobie spoza organizacji (czyli użytkownikowi, który nie należy do Twojej dzierżawy usługi Power BI), ta osoba nie będzie mogła wyeksportować raportów skojarzonych z udostępnionym pulpitem nawigacyjnym do programu PowerPoint. Jeśli na przykład jesteś użytkownikiem aaron@contoso.com, możesz udostępnić pulpit nawigacyjny użytkownikowi david@cohowinery.com. Ale użytkownik david@cohowinery.com nie może wyeksportować skojarzonych raportów do programu PowerPoint.
-* Jak wspomniano wcześniej, każda strona raportu jest eksportowana jako jeden obraz w pliku programu PowerPoint. 
+* Jak wspomniano wcześniej, każda strona raportu jest eksportowana jako jeden obraz w pliku programu PowerPoint.
+* Usługa Power BI używa ustawień języka użytkownika usługi Power BI jako języka eksportu do programu PowerPoint. Aby zobaczyć preferencję języka, wybierz ikonę z kołem zębatym ![](media/service-report-subscribe/power-bi-settings-icon.png) **> Ustawienia > Ogólne > Język**.
+* Czas **Pobrano** na slajdzie okładki wyeksportowanego pliku programu PowerPoint jest ustawiony na strefę czasową komputera obowiązującą w czasie eksportu.
 
 ## <a name="next-steps"></a>Następne kroki
 [Analizowanie w programie Excel](service-analyze-in-excel.md)

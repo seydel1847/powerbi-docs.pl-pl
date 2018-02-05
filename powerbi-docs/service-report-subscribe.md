@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 66e75d638595113b2df67650896a407ae5d13e88
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+ms.openlocfilehash: fc697437ff9f5fb6b8dd49f6513c728d1b8ddfeb
+ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="subscribe-to-a-power-bi-report-or-dashboard"></a>Subskrybowanie raportu lub pulpitu nawigacyjnego usługi Power BI
 Nigdy nie było łatwiej być na czasie w przypadku najważniejszych pulpitów nawigacyjnych i raportów. Subskrybuj strony raportów i pulpity nawigacyjne, które są najważniejsze dla Ciebie, a usługa Power BI wyśle wiadomość e-mail z migawką do Twojej skrzynki odbiorczej. Poinformuj usługę Power BI, jak często chcesz otrzymywać wiadomości e-mail: od raz dziennie do raz w tygodniu. W wiadomościach e-mail i migawkach będzie używany język określony w ustawieniach usługi Power BI. Jeśli w ustawieniach nie będzie zdefiniowanego żadnego języka, usługa Power BI użyje języka używanej przeglądarki.
@@ -119,6 +119,7 @@ Subskrypcje zostaną zakończone po wygaśnięciu licencji wersji Pro, po usuni�
 * Subskrypcje mogą zakończyć się niepowodzeniem dla pulpitów nawigacyjnych i raportów z wyjątkowo dużymi obrazami, co wynika z ograniczeń rozmiarów wiadomości e-mail.    
 * Usługa Power BI automatycznie wstrzymuje odświeżanie zestawów danych skojarzonych z pulpitami nawigacyjnymi i raportami, które nie były odwiedzane przez więcej niż 2 miesiące.  Jeśli jednak dodasz subskrypcję do pulpitu nawigacyjnego lub raportu, nie zostanie ona wstrzymana nawet wtedy, gdy nie jest odwiedzany.    
 * Jeśli nie otrzymujesz wiadomości e-mail subskrypcji, upewnij się, że Twoja główna nazwa użytkownika (UPN) umożliwia odbieranie wiadomości e-mail. [Zespół usługi Power BI pracuje nad ograniczeniem tego wymagania](https://community.powerbi.com/t5/Issues/No-Mail-from-Cloud-Service/idc-p/205918#M10163), więc uzbrój się w cierpliwość. 
+* Wysłane raporty i pulpity nawigacyjne korzystają z ustawień językowych użytkownika usługi Power BI. Językiem domyślnym jest język angielski. Aby zobaczyć preferencję języka, wybierz ikonę z kołem zębatym ![](media/service-report-subscribe/power-bi-settings-icon.png) **> Ustawienia > Ogólne > Język**.
 
 ## <a name="next-steps"></a>Następne kroki
 * Masz więcej pytań? [Zadaj pytanie społeczności usługi Power BI](http://community.powerbi.com/)    

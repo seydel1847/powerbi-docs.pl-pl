@@ -1,5 +1,5 @@
 ---
-title: 'Tworzenie nowego raportu z zestawu danych '
+title: "Samouczek — tworzenie nowego raportu z zestawu danych "
 description: "Tworzenie nowego raportu usługi Power BI na podstawie zestawu danych."
 services: powerbi
 documentationcenter: 
@@ -15,20 +15,22 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 01/24/2018
 ms.author: mihart
-ms.openlocfilehash: f4afb1eaa1b3012fdbdb0eff35e9eff695cc32e4
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 7405f2c5663c071d58253f2103c9c7d778ea8299
+ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="create-a-new-power-bi-report-by-importing-a-dataset"></a>Tworzenie nowego raportu usługi Power BI przez zaimportowanie zestawu danych
 Po zapoznaniu się z tematem [Raporty w usłudze Power BI](service-reports.md) możesz teraz utworzyć własny raport. Istnieje wiele sposobów tworzenia raportów. W tym artykule zaczniemy od utworzenia podstawowego raportu na podstawie zestawu danych programu Excel. Kiedy zapoznasz się z podstawami tworzenia raportów, możesz przejść do bardziej zaawansowanych tematów dostępnych w sekcji **Następne kroki** u dołu strony.  
 
 > **PORADA**: aby utworzyć raport przez skopiowanie istniejącego raportu, zobacz [Kopiowanie raportu](power-bi-report-copy.md).
 > 
-> 
+### <a name="prerequisites"></a>Wymagania wstępne
+- Usługa Power BI (w celu tworzenia raportów za pomocą programu Power BI Desktop zobacz [widok raportu w programie Desktop](desktop-report-view.md))   
+- Zestaw danych Próbka analizy handlu detalicznego
 
 ## <a name="import-the-dataset"></a>Importowanie zestawu danych
 W przypadku tej metody tworzenia raportu punktem wyjścia jest zestaw danych i pusta kanwa raportu. Na użytek tej procedury [pobierz przykładowy zestaw danych programu Excel noszący nazwę Retail Analysis](http://go.microsoft.com/fwlink/?LinkId=529778) i zapisz go na swoim koncie w usłudze OneDrive dla Firm (opcja preferowana) lub lokalnie.
@@ -36,7 +38,7 @@ W przypadku tej metody tworzenia raportu punktem wyjścia jest zestaw danych i p
 1. Utworzymy raport w obszarze roboczym usługi Power BI, więc wybierz istniejący obszar roboczy lub utwórz nowy.
    
    ![](media/service-report-create-new/power-bi-workspaces2.png)
-2. Wybierz pozycję **Pobierz dane** znajdującą się z lewej strony paska nawigacyjnego na dole.
+2. W dolnej części lewego okienka nawigacji wybierz opcję **Pobierz dane**.
    
    ![](media/service-report-create-new/power-bi-get-data3.png)
 3. Wybierz pozycję **Pliki** i przejdź do miejsca, w którym został zapisany przykładowy zestaw danych Retail Analysis.
@@ -83,7 +85,7 @@ Nasz dyrektor ma jeszcze kilka dodatkowych pytań. Chce wiedzieć, jak tegoroczn
 4. Wybierz pozycję **Time** > **Period**, aby dodać ją do obszaru **Oś**.
    
     ![](media/service-report-create-new/power-bi-report-step5.png)
-5. Aby posortować wizualizację, wybierz wielokropek i wybierz polecenie **Sortuj według: Okres**.
+5. Aby posortować wizualizacje według okresu, wybierz wielokropek, a następnie polecenie **Sortuj według okresu**.
 6. Teraz dodajmy fragmentator. Wybierz puste miejsce na kanwie, a następnie wybierz szablon fragmentatora ![](media/service-report-create-new/power-bi-slicer-icon.png). Spowoduje to dodanie pustego fragmentatora do kanwy.
    
     ![](media/service-report-create-new/power-bi-report-step6.png)    
@@ -93,12 +95,11 @@ Nasz dyrektor ma jeszcze kilka dodatkowych pytań. Chce wiedzieć, jak tegoroczn
 8. Za pomocą fragmentatora poszukaj wzorców i danych szczegółowych według okręgu.
    
    ![](media/service-report-create-new/power-bi-slicer-video2.gif)  
-9. Opcjonalnie można kontynuować dodawanie wizualizacji.
+
+Kontynuuj przeglądanie danych i dodawanie wizualizacji. Po znalezieniu szczególnie interesujących danych szczegółowych [przypnij je do pulpitu nawigacyjnego](service-dashboard-pin-tile-from-report.md).
 
 ## <a name="next-steps"></a>Następne kroki
-* [Tworzenie kopii raportu](power-bi-report-copy.md)
-* [Zapisywanie raportu](service-report-save.md)    
 * [Dodawanie nowej strony do raportu](power-bi-report-add-page.md)  
-* Dowiedz się, jak [przypinać wizualizacje do pulpitu nawigacyjnego](service-dashboard-pin-tile-from-report.md)    
+* Dowiedz się, jak [przypinać wizualizacje do pulpitu nawigacyjnego](service-dashboard-pin-tile-from-report.md)   
 * Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
 

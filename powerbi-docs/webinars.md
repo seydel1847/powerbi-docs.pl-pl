@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/07/2017
+ms.date: 01/24/2018
 ms.author: maikelson
-ms.openlocfilehash: 7b4f69bc65836d59448ef034f5d655f87d89248e
-ms.sourcegitcommit: 85302d577895e779466df55aa02e5785ab2e3138
+ms.openlocfilehash: 91a629699c782914ec542a2b7a668cf25e47ec27
+ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/18/2017
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="power-bi-webinars"></a>Power BI — seminaria internetowe
 
@@ -47,13 +47,15 @@ Zarejestruj się, aby uzyskać informacje od ekspertów w zakresie usługi Power
 
 >[Weź udział w nadchodzących seminariach internetowych społeczności usługi Power BI](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/bd-p/VideoTipsTricks?filter=webinars&featured=yes&Is=Website)
 
-- [Improving Profitability in Healthcare - 12/12/17](https://info.microsoft.com/improving-profitability-in-healthcare.html?Is=Website) (Poprawa rentowności w służbie zdrowia — 12.12.2017)
+Nie ma jeszcze zaplanowanych seminariów internetowych. Wróć tu za jakiś czas, aby znaleźć więcej nowych wydarzeń.
 
 ## <a name="on-demand-webinars"></a>Seminaria internetowe na żądanie
 
 Oglądaj nagrane sesje w dowolnym momencie
 
 >[Przeglądaj bibliotekę seminariów internetowych na żądanie dotyczących usługi Power BI, aby uzyskać odpowiedzi od naszej społeczności ekspertów](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/bd-p/VideoTipsTricks?filter=webinars&featured=yes&Is=Website)
+
+- [Improving Profitability in Healthcare](https://info.microsoft.com/improving-profitability-in-healthcare.html?Is=Website) (Poprawa rentowności opieki zdrowotnej)
 
 - [How to Implement a Successful Data Governance Strategy That Makes Your Organization More Secure](https://info.microsoft.com/powerbi-data-governance-strategy-ondemand.html?Is=Website) (Jak wdrożyć skuteczną strategię zarządzania danymi, która zwiększy bezpieczeństwo organizacji)
 

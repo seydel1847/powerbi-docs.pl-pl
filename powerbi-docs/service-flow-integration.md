@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/30/2017
+ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: efab2e6be1d376a0da70c13bb66144ba34afa58c
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: edae145e8eef6dfe7a2c4cea3a7f467f6f7961a9
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="microsoft-flow-and-power-bi"></a>Microsoft Flow i Power BI
 
@@ -35,7 +35,9 @@ Zobacz, jak Sirui tworzy przepływ, który po wyzwoleniu alertu usługi Power BI
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YhmNstC39Mw" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="create-a-flow-that-is-triggered-by-a-power-bi-data-alert"></a>Tworzenie przepływu wyzwalanego przez alert dotyczący danych w usłudze Power BI
-Ten samouczek przedstawia tworzenie dwóch różnych przepływów: na podstawie szablonu i od podstaw. Aby kontynuować, [utwórz alert dotyczący danych w usłudze Power BI](service-set-data-alerts.md) i [załóż bezpłatne konto w usłudze Microsoft Flow](https://flow.microsoft.com/en-us/#home-signup).
+
+### <a name="prerequisites"></a>Wymagania wstępne
+Ten samouczek przedstawia tworzenie dwóch różnych przepływów: na podstawie szablonu i od podstaw. Aby kontynuować, [utwórz alert dotyczący danych w usłudze Power BI](service-set-data-alerts.md), utwórz konto usługi Slack i [załóż bezpłatne konto w usłudze Microsoft Flow](https://flow.microsoft.com/en-us/#home-signup).
 
 ## <a name="create-a-flow-that-uses-power-bi---from-a-template"></a>Tworzenie przepływu korzystającego z usługi Power BI na podstawie szablonu
 W tym zadaniu za pomocą szablonu utworzymy prosty przepływ, który jest wyzwalany przez alert dotyczący danych w usłudze Power BI (powiadomienie).
@@ -47,39 +49,40 @@ W tym zadaniu za pomocą szablonu utworzymy prosty przepływ, który jest wyzwal
 3. Wybierz pozycję **Utwórz z szablonu**.
    
     ![](media/service-flow-integration/power-bi-template.png)
-4. Znajdź szablony usługi Power BI przy użyciu pola wyszukiwania i wybierz pozycję **Opublikuj wiadomość na kanale Slack, gdy zostanie wyzwolony alert dotyczący danych w usłudze Power BI**.
+4. Znajdź szablony usługi Power BI przy użyciu pola wyszukiwania i wybierz pozycję **Wyślij wiadomość e-mail do wybranych odbiorców po wyzwoleniu alertu danych dotyczących danych usługi Power BI > Kontynuuj**.
    
-    ![](media/service-flow-integration/power-bi-template2.png)
-5. Wybierz pozycję **Użyj tego szablonu**.
-   
-   ![](media/service-flow-integration/power-bi-use-template.png)
-6. Jeśli zostanie wyświetlony monit, połącz się z usługami Slack i Power BI, wybierając pozycję **Zaloguj się** i postępując zgodnie z instrukcjami. Pojawienie się zielonego znacznika wyboru oznacza, że logowanie przebiegło pomyślnie.  Po upewnieniu się, że połączenia działają, wybierz pozycję **Kontynuuj**.
-   
-   ![](media/service-flow-integration/power-bi-flow-signin.png)
+    ![](media/service-flow-integration/power-bi-flow-alert.png)
+
 
 ### <a name="build-the-flow"></a>Tworzenie przepływu
-Ten szablon zawiera jeden wyzwalacz (alert usługi Power BI dotyczący danych o nowych medalach olimpijskich zdobytych przez Irlandię) i jedną akcję (opublikowanie wiadomości w usłudze Slack). Po wybraniu pola usługa Flow wyświetla zawartość dynamiczną, która można dodać.  W tym przykładzie dołączymy wartość i adres URL kafelka do treści wiadomości.
+Ten szablon zawiera jeden wyzwalacz (alert usługi Power BI dotyczący danych o nowych medalach olimpijskich zdobytych przez Irlandię) i jedną akcję (wysłanie wiadomości e-mail). Po wybraniu pola usługa Flow wyświetla zawartość dynamiczną, która można dodać.  W tym przykładzie dołączymy wartość i adres URL kafelka do treści wiadomości.
 
-![](media/service-flow-integration/power-bi-flow-template.png)
+![](media/service-flow-integration/power-bi-template1.png)
 
 1. Z listy rozwijanej wyzwalacza wybierz alert dotyczący danych w usłudze Power BI. Wybierz pozycję **New medal for Ireland**. Aby dowiedzieć się, jak utworzyć alert, zobacz [Alerty dotyczące danych w usłudze Power BI](service-set-data-alerts.md).
    
    ![](media/service-flow-integration/power-bi-trigger-flow.png)
-2. Aby opublikować zawartość w usłudze Slack, wprowadź nazwę kanału i tekst wiadomość (możesz również wybrać domyślną wiadomość utworzoną przez usługę Flow). Zwróć uwagę na zawartość dynamiczną, którą dołączyliśmy w polu tekstowym wiadomości.
+2. Wprowadź co najmniej jeden prawidłowy adres e-mail, a następnie wybierz opcję **Edytuj** (pokazana poniżej) lub **Dodaj zawartość dynamiczną**. 
    
-   > [!NOTE]
-   > Dodaj znak „@” na początku nazwy kanału.  Na przykład jeśli nazwa kanału usługi Slack to „channelA”, w usłudze Flow wpisz „@channelA”.
-   > 
-   > 
-   
-   ![](media/service-flow-integration/power-bi-flow-slacker.png)
-3. Gdy wszystko będzie gotowe, wybierz pozycję **Utwórz przepływ** lub **Zapisz przepływ**.  Przepływ zostanie utworzony i oceniony.  Usługa Flow poinformuje Cię w przypadku znalezienia błędów.
-4. Jeśli pojawią się błędy, wybierz pozycję **Edytuj przepływ**, aby rozwiązać problemy. W przeciwnym razie wybierz pozycję **Gotowe**, aby uruchomić nowy przepływ.
+   ![](media/service-flow-integration/power-bi-flow-email.png)
+
+3. Przepływ tworzy tytuł i komunikat, który można zachować lub zmodyfikować. Wszystkie wartości ustawione podczas tworzenia alertu w usłudze Power BI są dostępne do użycia — po prostu umieść kursor w miejscu, a następnie wybierz w obszarze wyróżnionym na szaro. 
+
+   ![](media/service-flow-integration/power-bi-flow-email-default.png)
+
+1.  Na przykład, jeśli utworzono tytuł alertu w usłudze Power BI o treści **Zdobyliśmy kolejny medal**, można wybrać opcję **Tytuł alertu**, aby ten tekst dodać do pola Temat wiadomości e-mail.
+
+    ![](media/service-flow-integration/power-bi-flow-message.png)
+
+    Możesz zaakceptować domyślną treść wiadomości e-mail lub utworzyć własną. Powyższy przykład obejmuje kilka zmian wiadomości.
+
+1. Gdy wszystko będzie gotowe, wybierz pozycję **Utwórz przepływ** lub **Zapisz przepływ**.  Przepływ zostanie utworzony i oceniony.  Usługa Flow poinformuje Cię w przypadku znalezienia błędów.
+2. Jeśli pojawią się błędy, wybierz pozycję **Edytuj przepływ**, aby rozwiązać problemy. W przeciwnym razie wybierz pozycję **Gotowe**, aby uruchomić nowy przepływ.
    
    ![](media/service-flow-integration/power-bi-flow-running.png)
-5. Otwórz konto usługi Slack, aby zobaczyć komunikat.  
+5. Po wyzwoleniu alertu dotyczącego danych wiadomości e-mail zostaną wysłane na wskazane przez Ciebie adresy.  
    
-   ![](media/service-flow-integration/power-bi-slack-message.png)
+   ![](media/service-flow-integration/power-bi-flow-email2.png)
 
 ## <a name="create-a-flow-that-uses-power-bi---from-scratch-blank"></a>Tworzenie przepływu korzystającego z usługi Power BI od podstaw (pustego)
 W tym zadaniu utworzymy od podstaw prosty przepływ, który jest wyzwalany przez alert dotyczący danych w usłudze Power BI (powiadomienie).
@@ -88,12 +91,12 @@ W tym zadaniu utworzymy od podstaw prosty przepływ, który jest wyzwalany przez
 2. Wybierz pozycję **Moje przepływy** > **Utwórz z pustego**.
    
    ![](media/service-flow-integration/power-bi-my-flows.png)
-3. Znajdź wyzwalacz usługi Power BI przy użyciu pola wyszukiwania i wybierz pozycję **Wyzwól przepływ za pomocą alertu opartego na danych usługi Power BI**.
+3. Znajdź wyzwalacz usługi Power BI przy użyciu pola wyszukiwania i wybierz pozycję **Power BI - when a data driven alert is triggered** (Power BI — gdy alert sterowany danymi jest wyzwalany).
 
 ### <a name="build-your-flow"></a>Tworzenie przepływu
 1. Z listy rozwijanej wybierz nazwę alertu.  Aby dowiedzieć się, jak utworzyć alert, zobacz [Alerty dotyczące danych w usłudze Power BI](service-set-data-alerts.md).
    
-    ![](media/service-flow-integration/power-bi-totalstores.png)
+    ![](media/service-flow-integration/power-bi-totalstores2.png)
 2. Wybierz pozycję **Nowy krok** > **Dodaj akcję**.
    
    ![](media/service-flow-integration/power-bi-new-step.png)

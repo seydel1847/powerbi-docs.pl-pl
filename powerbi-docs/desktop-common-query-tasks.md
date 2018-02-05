@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 06abac9ceba037769f9720dfbc4f0b32d5486686
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: ef2e89ba2bac451ce0230829bbf4aa0b60713899
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="common-query-tasks-in-power-bi-desktop"></a>Typowe zadania dotyczące zapytań w programie Power BI Desktop
 Podczas pracy w oknie **Edytora zapytań** programu Power BI Desktop dostępnych jest kilka przydatnych, typowych zadań. W tym dokumencie przedstawiono te zadania i podano linki umożliwiające uzyskanie dodatkowych informacji. 
@@ -69,7 +69,7 @@ Inne połączenia z danymi działają podobnie. Jeśli do nawiązania połączen
 Aby uzyskać szczegółowe instrukcje dotyczące łączenia się z danymi w programie Power BI Desktop, zobacz [Łączenie się z danymi w programie Power BI Desktop](https://powerbi.uservoice.com/knowledgebase/articles/471635).
 
 ## <a name="shape-and-combine-data"></a>Kształtowanie i łączenie danych
-Edytor zapytań pozwala łatwo kształtować i łączyć dane. W tej sekcji podano kilka przykładów dotyczących kształtowania danych. Aby uzyskać wyczerpujący opis kształtowania i łączenia danych, zobacz [Kształtowanie i łączenie danych w programie Power BI Desktop](https://powerbi.uservoice.com/knowledgebase/articles/471644).
+Edytor zapytań pozwala łatwo kształtować i łączyć dane. W tej sekcji podano kilka przykładów dotyczących kształtowania danych. Bardziej wyczerpujący opis kształtowania i łączenia danych można znaleźć w temacie **[Kształtowanie i łączenie danych w programie Power BI Desktop](https://powerbi.uservoice.com/knowledgebase/articles/471644)**.
 
 W poprzedniej sekcji nawiązaliśmy połączenie z dwoma zestawami danych — skoroszytem programu Excel i zasobem internetowym. Po załadowaniu zestawów do Edytora zapytań i wybraniu zapytania ze strony internetowej (z listy dostępnych zapytań w okienku **Zapytania** po lewej stronie okna Edytora zapytań) widać następującą zawartość.
 

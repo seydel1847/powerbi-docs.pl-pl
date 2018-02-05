@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 01/25/2018
 ms.author: maggies
-ms.openlocfilehash: 3e0e06f36bfd229cf482428aa983e7211dbf897c
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: e824c1e582b8ed3cf0953b59b790e90271a6d38c
+ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-an-iphone-or-ipod-touch"></a>Wprowadzenie do aplikacji mobilnej Power BI na telefonie iPhone lub urządzeniu iPod Touch
 Aplikacja Microsoft Power BI dla systemu iOS na telefonie iPhone lub urządzeniu iPod Touch obejmuje mobilne środowisko usługi Power BI, serwer raportów usługi Power BI oraz usługi Reporting Services. Możesz wyświetlać firmowe pulpity nawigacyjne i korzystać z nich lokalnie i w chmurze, niezależnie od tego, gdzie się znajdujesz, dzięki dostępowi mobilnemu na żywo, z obsługą dotykową. Przeglądaj dane w pulpitach nawigacyjnych i udostępniaj je współpracownikom w wiadomościach e-mail lub SMS. I zapewnij aktualność najświeższych danych w Twoim urządzeniu [Apple Watch](mobile-apple-watch.md).  
@@ -41,7 +41,7 @@ Zobacz, [co nowego w aplikacjach mobilnych usługi Power BI](mobile-whats-new-in
 [Pobierz aplikację dla systemu iOS](http://go.microsoft.com/fwlink/?LinkId=522062 "Pobierz aplikację na telefon iPhone") ze sklepu Apple App Store na swój telefon iPhone lub urządzenie iPod Touch.
 
 > [!NOTE]
-> Aplikację usługi Power BI dla systemu iOS możesz uruchomić na telefonie iPhone 5 lub nowszym z systemem iOS 9.0 lub nowszym. Można również uruchomić ją na urządzeniu iPod Touch z systemem iOS 9.0 lub nowszym.
+> Aplikację Power BI dla systemu iOS można uruchomić na telefonie iPhone 5 lub nowszym z zainstalowanym systemem iOS 10 lub nowszym. Można ją również uruchomić na urządzeniu iPod Touch z zainstalowanym systemem iOS 10 lub nowszym.
 > 
 > 
 

@@ -15,16 +15,21 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 01/23/2018
 ms.author: mihart
-ms.openlocfilehash: 2b3f25c772a049d10bc03941db677c67c844da8b
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 40d6ee1f1448856b444201532caffd4b8c904c85
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="part-2-add-visualizations-to-a-power-bi-report-tutorial"></a>Część 2, dodawanie wizualizacji do raportu usługi Power BI (samouczek)
 W [części 1](power-bi-report-add-visualizations-ii.md) utworzono podstawową wizualizację przez zaznaczenie pól wyboru obok nazw pól.  W części 2 dowiesz się, jak używać metody przeciągania i upuszczania oraz jak w pełni korzystać z okienek **Pola** i **Wizualizacje** na potrzeby tworzenia i modyfikowania wizualizacji.
+
+### <a name="prerequisites"></a>Wymagania wstępne
+- [Część 1](power-bi-report-add-visualizations-ii.md)
+- Usługa Power BI — wizualizacje można dodać do raportów za pomocą usługi Power BI lub programu Power BI Desktop. W tym samouczku wykorzystywana jest usługa Power BI. 
+- Przykład Retail Analysis
 
 ## <a name="create-a-new-visualization"></a>Tworzenie nowej wizualizacji
 W tym samouczku skorzystamy z naszego zestawu danych Retail Analysis i utworzymy kilka kluczowych wizualizacji.
@@ -64,7 +69,6 @@ W tym samouczku skorzystamy z naszego zestawu danych Retail Analysis i utworzymy
 ## <a name="next-steps"></a>Następne kroki
 * Aby uzyskać więcej informacji na temat okienka Pola, zobacz [The report editor... take a tour](service-the-report-editor-take-a-tour.md) (Edytor raportów — przewodnik).   
 * Aby dowiedzieć się, jak filtrować i wyróżniać wizualizacje, zobacz [Filtry i wyróżnianie w raportach usługi Power BI](power-bi-reports-filters-and-highlighting.md).  
-* Aby dowiedzieć się więcej o używaniu i zmienianiu wartości zagregowanych, zobacz [Agregowanie w raportach](service-aggregates.md).  
 * Więcej informacji o [wizualizacjach w raportach usługi Power BI](power-bi-report-visualizations.md).  
-* Masz więcej pytań? [Odwiedź Społeczność usługi Power BI](http://community.powerbi.com/).
+* Więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
 

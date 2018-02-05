@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/20/2018
+ms.date: 01/24/2018
 ms.author: mihart
-ms.openlocfilehash: 259007c76b7b53ba0ea55a28fbdd189469383364
-ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
+ms.openlocfilehash: 7c0bd2f342385f71fd91bb81a284ef41deb46169
+ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="export-a-report-from-power-bi-service-to-desktop-preview"></a>Eksportowanie raportu z usługi Power BI do wersji Desktop (wersja zapoznawcza)
 W programie Power BI Desktop możesz wyeksportować (inaczej mówiąc *pobrać*) raport do usługi Power BI, zapisując raport i wybierając pozycję **Publikuj**. Możesz też wyeksportować w drugim kierunku i pobrać raport z usługi Power BI na pulpit. Rozszerzenie dla plików eksportowanych w dowolnym kierunku to *pbix*.
@@ -37,7 +37,7 @@ Aby pobrać plik pbix, wykonaj następujące kroki:
 2. Na pasku menu wybierz pozycje **Plik > Pobierz raport**.
    
    > [!NOTE]
-   > Raport musiał zostać [utworzony za pomocą programu Power BI Desktop](guided-learning/publishingandsharing.yml#step-2) po 23 listopada 2016 r. — lub zaktualizowany po tej dacie — aby można było pobrać raport. Jeśli nie, opcja menu *Pobierz raport* w usłudze Power BI będzie szara.
+   > Można pobrać jedynie raporty [utworzone za pomocą programu Power BI Desktop](guided-learning/publishingandsharing.yml#step-2) po 23 listopada 2016 r. — i zaktualizowane po tej dacie. Jeśli nie, opcja menu *Pobierz raport* w usłudze Power BI będzie szara.
    > 
    > 
 3. Gdy plik pbix jest tworzony, transparent stanu pokazuje postęp operacji. Gdy plik jest gotowy, zostanie wyświetlone pytanie o to, czy otworzyć, czy też zapisać plik pbix. Nazwa pliku odpowiada tytułowi raportu.
@@ -59,7 +59,7 @@ Aby pobrać plik pbix, wykonaj następujące kroki:
 Istnieje kilka istotnych kwestii i ograniczeń związanych z pobieraniem (eksportowaniem) pliku *pbix* z usługi Power BI.
 
 * Aby pobrać plik, musisz mieć dostęp do edycji do raportu
-* Raport musi pochodzić z programu **Power BI Desktop** i zostać *opublikowany* do **usługi Power BI** lub plik pbix musi zostać *przekazany* do usługi.
+* Raport musiał zostać utworzony za pomocą programu **Power BI Desktop** i *opublikowany* w **usłudze Power BI** lub do usługi musiał zostać *przekazany* plik PBIX.
 * Raporty muszą być opublikowane lub zaktualizowane po 23 listopada 2016 r. Raportów opublikowanych przed tą datą nie można pobrać.
 * Ta funkcja nie będzie działać z raportami początkowo utworzonymi w **usłudze Power BI** łącznie z pakietami zawartości.
 * Podczas otwierania pobranych plików należy zawsze używać najnowszej wersji programu **Power BI Desktop**. Pobrane pliki *pbix* mogą nie zostać otwarte w innej niż bieżąca wersji programu **Power BI Desktop**.

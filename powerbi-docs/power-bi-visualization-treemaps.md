@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 01/23/2018
 ms.author: mihart
-ms.openlocfilehash: 5e5bc8eaa4e710e6564ee6f1d3ea1bfcf7f28127
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 7a76cc071a114a7bbd4ccc8ade61ff10b7b2e4c5
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="treemaps-in-power-bi-tutorial"></a>Mapy drzewa w usłudze Power BI (samouczek)
 Mapy drzewa prezentują dane hierarchiczne w formie zestawu zagnieżdżonych prostokątów.  Każdy poziom hierarchii jest przedstawiany jako kolorowy prostokąt (często określany jako „gałąź”) zawierający inne prostokąty („liście”).  Obszar wewnątrz każdego prostokąta jest przydzielany na podstawie mierzonych wartości ilościowych, przy czym prostokąty ułożone są według ich rozmiaru, od lewego górnego rogu (największy) do prawego dolnego rogu (najmniejszy).
@@ -41,20 +41,25 @@ Mapy drzewa są doskonałym wyborem:
 * do pokazania atrybutów z użyciem kodowania kolorami i rozmiarami.
 * do odnajdywania schematów, odstających wartości, najważniejszych elementów oraz wyjątków.
 
+### <a name="prerequisites"></a>Wymagania wstępne
+ - Usługa Power BI lub program Power BI Desktop
+ - Przykład Retail Analysis
+
 ## <a name="create-a-basic-treemap"></a>Tworzenie podstawowej mapy drzewa
 Czy chcesz najpierw obejrzeć, jak ktoś inny tworzy mapę drzewa?  Przewiń film wideo do 2:10, aby zobaczyć, jak Amanda tworzy mapę drzewa.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
-Możesz również utworzyć własną mapę drzewa. W poniższych instrukcjach używane są przykładowe dane dotyczące analizy handlu detalicznego. Aby śledzić instrukcje, [pobierz te przykładowe dane](sample-datasets.md), zaloguj się do usługi Power BI i wybierz pozycję **Pobierz dane \> Skoroszyt programu Excel \> Połącz \> Retail Analysis Sample**. **xlsx**.
+Możesz również utworzyć własną mapę drzewa. W poniższych instrukcjach używane są przykładowe dane dotyczące analizy handlu detalicznego. Aby można było wykonać te instrukcje, zaloguj się w usłudze Power BI (nie w programie Desktop) i wybierz opcję **Pobierz dane \> Przykłady \> Próbka analizy handlu detalicznego \> Połącz \> Przejdź do pulpitu nawigacyjnego**. Tworzenie wizualizacji w raporcie wymaga uprawnień do edytowania zestawu danych i raportu. Na szczęście przykłady usługi Power BI można edytować. Jeśli jednak ktoś udostępni Ci raport, nie będziesz mieć możliwości dodawania nowych wizualizacji.
 
-1. W [widoku do edycji](service-interact-with-a-report-in-editing-view.md) wybierz miarę **Sales** > **Last Years Sales**.   
-   ![](media/power-bi-visualization-treemaps/treemapfirstvalue_new.png)
-2. Przekonwertuj wykres na mapę drzewa.  
-   ![](media/power-bi-visualization-treemaps/treemapconvertto_new.png)
-3. Przeciągnij pozycję **Item** > **Category** do obszaru **Grupa**. Usługa Power BI tworzy mapę drzewa, na której rozmiar prostokątów uwzględnia całkowitą sprzedaż, a kolor oznacza kategorię.  W ten sposób utworzyliśmy hierarchię, która prezentuje wizualnie względną wielkość całkowitej sprzedaży według kategorii.  Kategoria **Mens** ma najwyższą sprzedaż, zaś kategoria **Hosiery** najniższą.
-   ![](media/power-bi-visualization-treemaps/treemapcomplete_new.png)
-4. Przeciągnij pozycję **Store** > **Chain** do obszaru **Szczegóły**, aby dokończyć mapę drzewa. Teraz możesz porównać sprzedaż z ostatniego roku według kategorii i sieci.   
+1. Wybierz kafelek „Total stores”, aby otworzyć przykładowy raport analizy handlu detalicznego.    
+2. Otwórz [Widok do edycji](service-interact-with-a-report-in-editing-view.md) i wybierz miarę **Sales** > **Last Years Sales**.   
+   ![](media/power-bi-visualization-treemaps/treemapfirstvalue_new.png)   
+3. Przekonwertuj wykres na mapę drzewa.  
+   ![](media/power-bi-visualization-treemaps/treemapconvertto_new.png)   
+4. Przeciągnij pozycję **Item** > **Category** do obszaru **Grupa**. Usługa Power BI tworzy mapę drzewa, na której rozmiar prostokątów odzwierciedla całkowitą sprzedaż, a kolor oznacza kategorię.  W ten sposób utworzyliśmy hierarchię, która prezentuje wizualnie względną wielkość całkowitej sprzedaży według kategorii.  Kategoria **Mens** ma najwyższą sprzedaż, zaś kategoria **Hosiery** najniższą.   
+   ![](media/power-bi-visualization-treemaps/treemapcomplete_new.png)   
+5. Przeciągnij pozycję **Store** > **Chain** do obszaru **Szczegóły**, aby dokończyć mapę drzewa. Teraz możesz porównać sprzedaż z ostatniego roku według kategorii i sieci.   
    ![](media/power-bi-visualization-treemaps/treemap_addgroup_new.png)
    
    > [!NOTE]
@@ -73,17 +78,15 @@ Wyróżnienie elementu Category lub Details na mapie drzewa spowoduje wyróżnie
 
 1. Na mapie drzewa zaznacz element Category lub Chain w ramach wartości Category.  Spowoduje to wyróżnienie krzyżowe innych wizualizacji na stronie. Wybierając na przykład pozycję **050-Shoes**, wyświetlimy informacje, że sprzedaż butów w zeszłym roku wyniosła 3 640 471 USD, z czego 2 174 185 USD w ramach sieci Fashions Direct.  
    ![](media/power-bi-visualization-treemaps/treemaphiliting.png)
-2. Na wykresie kołowym **sprzedaży za ostatni rok według sieci** wybierz wycinek **Fashions Direct**.  
-   ![](media/power-bi-visualization-treemaps/treemapnoowl.gif)
+
+2. Na wykresie kołowym **Last Year Sales by Chain** wybierz wycinek **Fashions Direct**.  
+   ![](media/power-bi-visualization-treemaps/treemapnoowl.gif)    
+
 3. Aby zarządzać sposobem, w jaki odbywa się wzajemne wyróżnianie krzyżowe i filtrowanie krzyżowe dla wykresów, zobacz [Interakcje wizualizacji w raporcie usługi Power BI](service-reports-visual-interactions.md)
 
 ## <a name="next-steps"></a>Następne kroki
-[Raporty w usłudze Power BI](service-reports.md)  
-[Dodawanie wizualizacji do raportu](power-bi-report-add-visualizations-i.md)  
-[Typy wizualizacji w usłudze Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
-[ Przypinanie wizualizacji do pulpitu nawigacyjnego](service-dashboard-pin-tile-from-report.md)  
+[Przypinanie wizualizacji do pulpitu nawigacyjnego](service-dashboard-pin-tile-from-report.md)  
 [Power BI — podstawowe pojęcia](service-basic-concepts.md)  
-[Wypróbuj bezpłatnie!](https://powerbi.com/)
 
 Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)  
 

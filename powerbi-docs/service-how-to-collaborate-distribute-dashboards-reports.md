@@ -1,11 +1,11 @@
 ---
-title: "Jak współpracować nad pulpitami nawigacyjnymi i raportami oraz udostępniać je w usłudze Power BI?"
+title: "Jak można współpracować i udostępniać w usłudze Power BI?"
 description: "W usłudze Power BI można współpracować nad pulpitami nawigacyjnymi, raportami i kafelkami oraz udostępniać je na kilka różnych sposobów. Każdy sposób ma swoje zalety."
 services: powerbi
 documentationcenter: 
 author: maggiesMSFT
 manager: kfile
-backup: ajayan
+backup: lukaszp
 editor: 
 tags: 
 qualityfocus: monitoring
@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/05/2017
+ms.date: 01/24/18
 ms.author: maggies
-ms.openlocfilehash: a77c9a9816ef47ae4b342b2cd3a08b18c90f70de
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: 032d07616464dcda8cc4cc38b1440936e5393a98
+ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="how-should-i-collaborate-and-share-dashboards-and-reports-in-power-bi"></a>Jak współpracować nad pulpitami nawigacyjnymi i raportami oraz udostępniać je w usłudze Power BI?
 Tworzysz pulpity nawigacyjne i raporty. Być może pracujesz również nad nimi ze swoimi współpracownikami. A potem chcesz, aby inni mieli do nich dostęp. Jaki jest najlepszy sposób, aby je rozpowszechnić?
@@ -34,7 +34,7 @@ W tym artykule porównamy następujące opcje współpracy i udostępniania w us
 * Publikowanie w Internecie, gdzie każda osoba może je wyświetlać i z nich korzystać.
 * Drukowanie. 
 
-Niezależnie od wybranej opcji, aby udostępnić pulpit nawigacyjny, trzeba mieć [licencję usługi Power BI Pro](service-free-vs-pro.md) lub zawartość musi znajdować się w [pojemności Premium](service-premium.md). Wymagania licencyjne różnią się dla współpracowników, którzy wyświetlają Twoje pulpity nawigacyjne, w zależności od wybranej opcji. Poniższe sekcje zawierają bardziej szczegółowe informacje. Masz jakieś sugestie? Zespół zajmujący się usługą Power BI chętnie zapozna się z Twoją opinią. Aby ją przekazać, przejdź do [witryny społeczności usługi Power BI](https://community.powerbi.com/).
+Niezależnie od wybranej opcji, aby udostępnić pulpit nawigacyjny, trzeba mieć [licencję usługi Power BI Pro](service-free-vs-pro.md) lub zawartość musi znajdować się w [pojemności Premium](service-premium.md). Wymagania licencyjne różnią się dla współpracowników, którzy wyświetlają Twoje pulpity nawigacyjne, w zależności od wybranej opcji. Poniższe sekcje zawierają bardziej szczegółowe informacje. 
 
 ![Aplikacje w usłudze Power BI](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-apps-home-blog.png)
 
@@ -54,7 +54,7 @@ Załóżmy, że chcesz rozpowszechnić swój pulpit nawigacyjny wśród szerokie
 
 ![Ikona publikowania aplikacji](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-app-publish-600.png)
 
-W usłudze Power BI ([https://powerbi.com](https://powerbi.com)) aplikacje można łatwo znaleźć i zainstalować. Możesz wysłać swoim użytkownikom biznesowym bezpośredni link do aplikacji lub mogą oni ją wyszukać w usłudze AppSource. Przeczytaj więcej na temat [publikowania aplikacji](service-create-distribute-apps.md#publish-your-app). 
+W usłudze Power BI ([https://powerbi.com](https://powerbi.com)) aplikacje można łatwo znaleźć i zainstalować. Możesz wysłać swoim użytkownikom biznesowym bezpośredni link do aplikacji lub mogą oni ją wyszukać w usłudze AppSource. Jeśli administrator usługi Power BI nada Ci odpowiednie uprawnienia, możesz automatycznie zainstalować aplikację na kontach usługi Power BI swoich współpracowników. Przeczytaj więcej na temat [publikowania aplikacji](service-create-distribute-apps.md#publish-your-app). 
 
 Po zainstalowaniu aplikacji użytkownicy mogą wyświetlać ją w przeglądarce lub na urządzeniach przenośnych.
 
@@ -69,9 +69,7 @@ Aby udostępnić swoją zawartość, potrzebujesz licencji usługi Power BI Pro,
 
 Możesz także udostępniać osobom spoza organizacji. Te osoby mogą wyświetlać pulpit nawigacyjny oraz korzystać z niego, ale nie mogą go udostępniać. 
 
-Więcej informacji o [udostępnianiu pulpitu nawigacyjnego](service-share-dashboards.md) z usługi Power BI.
-
-Możesz również [udostępnić bezpośredni link do raportu](service-share-reports.md) i pominąć pulpit nawigacyjny. Do linku możesz dodać filtr, aby adresaci widzieli widok filtrowany raportu.
+Więcej informacji o [udostępnianiu pulpitów nawigacyjnych i raportów](service-share-dashboards.md) z usługi Power BI. Możesz również dodać filtr do linku i [udostępnić widok filtrowany raportu](service-share-reports.md).
 
 ## <a name="annotate-and-share-from-the-power-bi-mobile-apps"></a>Dodawanie adnotacji i udostępnianie z aplikacji mobilnych usługi Power BI
 W aplikacjach mobilnych usługi Power BI dla systemów iOS i Android można dodawać adnotacje do kafelków, raportów i wizualizacji, a następnie udostępniać je innym osobom za pośrednictwem poczty e-mail. 
@@ -94,5 +92,5 @@ Z poziomu usługi Power BI możesz wydrukować lub zapisać w formacie PDF (lub 
 * Chcesz przesłać opinię? Jeśli masz sugestie, przejdź do [witryny społeczności usługi Power BI](https://community.powerbi.com/).
 * [Udostępnianie pulpitów nawigacyjnych współpracownikom i innym osobom](service-share-dashboards.md)
 * [Tworzenie i publikowanie aplikacji w usłudze Power BI](service-create-distribute-apps.md)
-* Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/).
+* Masz więcej pytań? [Odwiedź Społeczność usługi Power BI](http://community.powerbi.com/).
 

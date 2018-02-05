@@ -1,5 +1,5 @@
 ---
-title: "Próbka danych dotyczących zyskowności klientów dla usługi Power BI: krótki przewodnik"
+title: "Samouczek — próbka danych dotyczących zyskowności klientów dla usługi Power BI: krótki przewodnik"
 description: "Próbka danych dotyczących zyskowności klientów dla usługi Power BI: krótki przewodnik"
 services: powerbi
 documentationcenter: 
@@ -17,20 +17,23 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: 82e909962a0ed1db50f2ba3729988fd7aacadc80
-ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
+ms.openlocfilehash: 1e53fd4b22710909e300a61b4c03aae01cff8973
+ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Próbka danych dotyczących zyskowności klientów dla usługi Power BI: krótki przewodnik
-Pakiet zawartości „Customer Profitability Sample” zawiera pulpit nawigacyjny, raport i zestaw danych dotyczące firmy produkującej materiały marketingowe. Ten pulpit nawigacyjny został utworzony przez dyrektora finansowego w celu wyświetlenia kluczowych metryk dotyczących pięciu menedżerów jednostki biznesowej (dyrektorów), produktów, klientów i marży brutto. W skrócie dyrektor może zobaczyć czynniki, które wpływają na zyskowność.
 
-Te przykładowe dane stanowią części serii ilustrującej, w jaki sposób można wykorzystać usługę Power BI w pracy z danymi biznesowymi, raportami i pulpitami nawigacyjnymi. Są to prawdziwe dane pochodzące z firmy obviEnce ([www.obvience.com](http://www.obvience.com/)) przedstawione w sposób anonimowy.
+## <a name="overview-of-the-customer-profitability-sample"></a>Omówienie przykładu Próbka zyskowności klientów
+Pakiet zawartości „Customer Profitability Sample” zawiera pulpit nawigacyjny, raport i zestaw danych dotyczące firmy produkującej materiały marketingowe. Ten pulpit nawigacyjny został utworzony przez dyrektora finansowego w celu wyświetlenia kluczowych metryk dotyczących pięciu menedżerów jednostki biznesowej (dyrektorów), produktów, klientów i marży brutto (GM). W skrócie dyrektor może zobaczyć czynniki, które wpływają na zyskowność.
+
+<<<<<<< HEAD ![](media/sample-customer-profitability/power-bi-dash.png)
+
+Te przykładowe dane stanowią części serii ilustrującej, w jaki sposób można wykorzystać usługę Power BI w pracy z danymi biznesowymi, raportami i pulpitami nawigacyjnymi. Są to prawdziwe dane pochodzące z firmy obviEnce ([www.obvience.com](http://www.obvience.com/)) przedstawione w sposób anonimowy. Dane są dostępne w różnych formatach: zawartości pakietu/aplikacji, skoroszytu programu Excel lub pliku PBIX programu Power BI Desktop. Zobacz temat [Przykładowe zestawy danych](sample-datasets.md).
 
 ## <a name="prerequisites"></a>Wymagania wstępne
-
-Zanim będzie można używać przykładu, musisz go najpierw pobrać jako pakiet zawartości, plik pbix lub skoroszyt programu Excel.
+Chcesz z niego skorzystać? Ten samouczek korzysta z usługi Power BI i pakietu zawartości „Próbka zyskowności klientów”.  Ponieważ sposoby pracy z raportami są podobne, można to samo wykonać również przy użyciu programu Power BI Desktop i przykładowego pliku PBIX. Instrukcje dotyczące nawiązywania połączenia z pakietem zawartości i plikiem PBIX są podane poniżej.
 
 ### <a name="get-the-content-pack-for-this-sample"></a>Pobieranie pakietu zawartości dla tego przykładu
 
@@ -50,13 +53,19 @@ Zanim będzie można używać przykładu, musisz go najpierw pobrać jako pakiet
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>Pobieranie pliku pbix dla tego przykładu
 
-Alternatywnie przykład możesz pobrać jako plik pbix, który został zaprojektowany do użycia w programie Power BI Desktop. 
-
-- [Przykład Customer Profitability](http://download.microsoft.com/download/6/A/9/6A93FD6E-CBA5-40BD-B42E-4DCAE8CDD059/Customer Profitability Sample PBIX.pbix)
+Alternatywnie przykład możesz pobrać jako plik pbix, który został zaprojektowany do użycia w programie Power BI Desktop. [Próbka zyskowności klientów] (<http://download.microsoft.com/download/6/A/9/6A93FD6E-CBA5-40BD-B42E-4DCAE8CDD059/Customer>> Profitability Sample PBIX.pbix)
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Pobieranie skoroszytu programu Excel dla tego przykładu
 
-Alternatywnie dla tego przykładu możesz również pobrać sam [zestaw danych (skoroszyt programu Excel)](http://go.microsoft.com/fwlink/?LinkId=529781). Skoroszyt zawiera arkusze programu Power View, które można wyświetlać i modyfikować. Aby wyświetlić nieprzetworzone dane, wybierz pozycje **Power Pivot > Zarządzaj**.
+<a name="if-you-want-to-dig-into-the-datasource-for-this-sample-its-also-available-as-an-excel-workbookhttpgomicrosoftcomfwlinklinkid529781-the-workbook-contains-power-view-sheets-that-you-can-view-and-modify-to-see-the-raw-data-select-power-pivot--manage"></a>Jeśli chcesz dokładniej zbadać źródło danych dla tego przykładu, jest on również dostępny jako [(skoroszyt programu Excel)](http://go.microsoft.com/fwlink/?LinkId=529781). Skoroszyt zawiera arkusze programu Power View, które można wyświetlać i modyfikować. Aby wyświetlić nieprzetworzone dane, wybierz pozycje **Power Pivot > Zarządzaj**.
+=======
+
+Te przykładowe dane stanowią części serii ilustrującej, w jaki sposób można wykorzystać usługę Power BI w pracy z danymi biznesowymi, raportami i pulpitami nawigacyjnymi. Są to prawdziwe dane pochodzące z firmy obviEnce ([www.obvience.com](http://www.obvience.com/)) przedstawione w sposób anonimowy. Dane są dostępne w różnych formatach: zawartości pakietu/aplikacji, skoroszytu programu Excel lub pliku PBIX programu Power BI Desktop. Zobacz temat [Przykładowe zestawy danych](sample-datasets.md).
+
+### <a name="prerequisites"></a>Wymagania wstępne
+Chcesz z niego skorzystać? W [usłudze Power BI](https://powerbi.com) przejdź do pozycji **Pobierz dane > Przykłady > Rentowność klienta > Połącz**, aby pobrać własną kopię przykładowych danych.
+>>>>>>> def2c8e086d65b6a3fb92247175730746226ae3e
+
 
 ## <a name="what-is-our-dashboard-telling-us"></a>O czym informuje nas pulpit nawigacyjny?
 
@@ -65,26 +74,64 @@ W obszarze **Mój obszar roboczy** znajdź pulpit nawigacyjny dla przykładu Cus
 ![Pulpit nawigacyjny dla przykładu Customer Profitability](media/sample-customer-profitability/power-bi-dash.png)
 
 ### <a name="company-wide-dashboard-tiles"></a>Kafelki pulpitu nawigacyjnego dla całej firmy
-Te kafelki zapewniają dyrektorowi finansowemu wgląd w ważne metryki wysokiego poziomu dotyczące firmy.  W przypadku zauważenia czegoś interesującego może wybrać kafelek, aby bliżej przyjrzeć się tym danym.
+1. Otwórz pulpit nawigacyjny w usłudze Power BI. Kafelki pulpitu nawigacyjnego zapewniają dyrektorowi finansowemu wgląd w ważne metryki wysokiego poziomu dotyczące firmy.  W przypadku zauważenia czegoś interesującego może wybrać kafelek, aby bliżej przyjrzeć się tym danym.
 
-1. Marża brutto w naszej firmie wynosi 42,5%.
-2. Mamy 80 klientów.
-3. Sprzedajemy 5 różnych produktów.
-4. Najniższa procentowa wariancja przychodu do budżetu nastąpiła w lutym, a najwyższa w marcu.
-5. Większość zysków pochodzi z regionów Wschód i Północ. Marża brutto nigdy nie przekroczyła budżetu, wskaźniki ER-0 i MA-0 wymagają dalszego badania.
-6. Całkowity przychód w roku jest zbliżony do budżetu.
+2. Przejrzyj kafelki po lewej stronie pulpitu nawigacyjnego.
+
+    ![](media/sample-customer-profitability/power-bi-manager.png)
+
+- Marża brutto w naszej firmie wynosi 42,5%.
+- Mamy 80 klientów.
+- Sprzedajemy 5 różnych produktów.
+- Najniższa procentowa wariancja przychodu do budżetu nastąpiła w lutym, a najwyższa w marcu.
+- Większość zysków pochodzi z regionów Wschód i Północ. Marża brutto nigdy nie przekroczyła budżetu, wskaźniki ER-0 i MA-0 wymagają dalszego badania.
+- Całkowity przychód w roku jest zbliżony do budżetu.
+
 
 ### <a name="manager-specific-dashboard-tiles"></a>Kafelki pulpitu nawigacyjnego dotyczące konkretnego menedżera
-Te kafelki zapewniają kartę wyników zespołu. Dyrektor finansowy musi śledzić swoich menedżerów, a te kafelki zapewniają szczegółowy wgląd w zyski — przy użyciu wartości procentowej marży brutto (GM%). Jeśli trend wskaźnika GM% jest nieoczekiwany dla któregoś z menedżerów, dyrektor może zbadać tę sprawę dokładniej.
+Kafelki po prawej stronie pulpitu nawigacyjnego zapewniają dostęp do karty wyników zespołu. Dyrektor finansowy musi śledzić swoich menedżerów, a te kafelki zapewniają szczegółowy wgląd w zyski — przy użyciu wartości procentowej marży brutto (GM%). Jeśli trend wskaźnika GM% jest nieoczekiwany dla któregoś z menedżerów, dyrektor może zbadać tę sprawę dokładniej.
 
-Wskaźnik GM% Annelie jest najniższy, chociaż widzimy stabilny wzrost od marca. Z drugiej strony Valery doświadczyła znacznego spadku w zakresie wskaźnika GM%. U Andrew rok wyglądał na zmienny. Kliknij dowolny z kafelków dotyczących konkretnego menedżera, aby otworzyć źródłowy raport. Raport ma trzy strony i otworzy się na stronie „Analiza marży w branży”.
+![](media/sample-customer-profitability/power-bi-manager2.png)
 
-## <a name="explore-the-pages-in-the-report"></a>Przeglądanie stron w raporcie
-Raport zawiera 3 strony:
+- Wszyscy przedstawiciele kadry kierowniczej, oprócz Carlosa, przekroczyli już sprzedaż docelową. Ale rzeczywista sprzedaż Carlosa jest najwyższa. 
+- Wskaźnik GM% Annelie jest najniższy, chociaż widzimy stabilny wzrost od marca.
+- Z drugiej strony Valery doświadczyła znacznego spadku w zakresie wskaźnika GM%. 
+- U Andrew rok wyglądał na zmienny. 
 
-* Strona „Wyniki zespołu” skupia się na wydajności pięciu menedżerów oraz ich „księgach działalności biznesowej”.
-* Strona „Analiza marży w branży” umożliwia analizowanie zyskowności w porównaniu do trendów w całej branży.
-* Strona „Wyniki dyrektora” zapewnia wgląd w informacje dotyczące wszystkich menedżerów sformatowane pod kątem wyświetlania w Cortanie.
+## <a name="explore-the-dashboards-underlying-data"></a>Eksplorowanie danych pulpitu nawigacyjnego
+Ten pulpit nawigacyjny zawiera kafelki, z linkami do raportu i skoroszytu programu Excel. 
+
+### <a name="open-the-excel-online-data-source"></a>Otwórz źródło danych programu Excel Online
+Dwa kafelki na tym pulpicie nawigacyjnym „Target vs Actual” i „Year Over Year Revenue Growth” zostały przypięte ze skoroszytu programu Excel. Dlatego po wybraniu jednego z tych kafelków usługa Power BI otwiera źródło danych — w tym przypadku Excel Online.
+
+![](media/sample-customer-profitability/power-bi-excel-online.png)
+
+1. Wybierz jeden z kafelków przypiętych z programu Excel. W ramach usługi Power BI zostanie otwarty program Excel Online.
+2. Zwróć uwagę, że skoroszyt zawiera 3 karty z danymi. Otwórz kartę „Revenue”.
+3. Sprawdźmy, dlaczego Carlos nie osiągnął jeszcze swojego docelowego poziomu sprzedaży.  
+    a. Za pomocą suwaka „Executive” wybierz pozycję **Carlos Grilo**.   
+    b. Z pierwszej tabeli przestawnej wynika, że przychody ze sprzedaży głównego produktu Carlosa, Primus, spadły o 152% w ciągu ostatniego roku. Wykres rok do roku pokazuje z kolei, że przez większość miesięcy jest on poniżej budżetu.  
+
+    ![](media/sample-customer-profitability/power-bi-pivotchart.png)
+
+    ![](media/sample-customer-profitability/power-bi-carlos.png)
+
+4. Kontynuuj eksplorowanie i jeśli znajdziesz coś interesującego, wybierz opcję **Przypnij** ![](media/sample-customer-profitability/power-bi-excel-pin.png) w prawym górnym rogu, aby [przypiąć to do pulpitu nawigacyjnego](service-dashboard-pin-tile-from-excel.md).
+
+5. Aby powrócić do pulpitu nawigacyjnego, użyj klawisza powrotu w przeglądarce. 
+
+### <a name="open-the-underlying-power-bi-report"></a>Otwórz bazowy raport usługi Power BI
+Większość kafelków na pulpicie nawigacyjnym przykładu dotyczącego zyskowności klienta została przypięta z bazowego raportu Próbka zyskowności klientów. 
+
+1. Wybierz jeden z tych kafelków, aby otworzyć raport w widoku do czytania. 
+
+2. Raport zawiera 3 strony. Każda karta w dolnej części raportu reprezentuje jedną stronę. 
+
+    ![](media/sample-customer-profitability/power-bi-report-tabs.png)
+
+    * Strona „Wyniki zespołu” skupia się na wydajności pięciu menedżerów oraz ich „księgach działalności biznesowej”.
+    * Strona „Analiza marży w branży” umożliwia analizowanie zyskowności w porównaniu do trendów w całej branży.
+    * Strona „Wyniki dyrektora” zapewnia wgląd w informacje dotyczące wszystkich menedżerów sformatowane pod kątem wyświetlania w Cortanie.
 
 ### <a name="team-scorecard-page"></a>Strona wyników zespołu
 ![](media/sample-customer-profitability/customer2.png)
@@ -126,21 +173,23 @@ Ta strona jest sformatowana jako karta odpowiedzi Cortany. Aby dowiedzieć się 
 ## <a name="dig-into-the-data-by-asking-questions-with-qa"></a>Szczegółowe badanie danych poprzez zadawanie pytań w funkcji pytań i odpowiedzi
 Dla celów naszej analizy warto określić, która branża generuje największe przychody dla Valery. Użyjmy funkcji pytań i odpowiedzi.
 
-1. Wybierz opcję **Power BI** w górnym pasku nawigacyjnym, aby powrócić do pulpitu nawigacyjnego.
-2. Wybierz pole pytania funkcji pytań i odpowiedzi w górnej części pulpitu nawigacyjnego.
-   
-    ![](media/sample-customer-profitability/customer4.png)
+1. Otwórz raport w widoku do edycji, wybierając pozycję **Edytuj raport**. Edytowanie widoku jest dostępne tylko w sytuacji, gdy jesteś „właścicielem” raportu; jest to czasami określane jako tryb **twórcy**. Jeśli jednak ten raport został Ci udostępniony, nie będziesz mieć możliwości otwarcia go w widoku do edycji.
+
+2.  Z górnego paska menu wybierz opcję **Zadaj pytanie**, aby otworzyć okno pytań i odpowiedzi.
+
+    ![](media/sample-customer-profitability/power-bi-ask-question.png)
+
 3. Wpisz **total revenue by industry for Valery** (całkowity przychód Valery w kontekście branży). Zwróć uwagę na to, jak aktualizowana jest wizualizacja podczas wpisywania pytania.
    
-    ![](media/sample-customer-profitability/customer5.png)
+    ![](media/sample-customer-profitability/power-bi-qna.png)
    
    Dystrybucja jest obszarem zapewniającym największe przychody Valery.
 
 ### <a name="dig-deeper-by-adding-filters"></a>Głębsza analiza przy użyciu filtrów
 Przyjrzyjmy się branży *Dystrybucja*.  
 
-1. Wróć do pulpitu nawigacyjnego i wybierz wykres warstwowy z trendem marży brutto Andrew. Spowoduje to otworzenie raportu na stronie „Analiza marży w branży”.
-2. Bez zaznaczania żadnych wizualizacji na stronie raportu rozwiń okienko filtru po prawej stronie. Okienko Filtry powinno wyświetlać tylko Filtry na poziomie strony.  
+1. Otwórz stronę raportu „Industry Margin Analysis”.
+2. Bez zaznaczania żadnych wizualizacji na stronie raportu rozwiń okienko filtru po prawej stronie (jeśli nie zostało jeszcze rozwinięte). Okienko Filtry powinno wyświetlać tylko Filtry na poziomie strony.  
    
    ![](media/sample-customer-profitability/power-bi-filters.png)
 3. Zlokalizuj filtr **Branża** i wybierz strzałkę, aby rozwinąć listę. Dodajmy filtr strony do branży Dystrybucja. Najpierw usuń wszystkie wybory, usuwając zaznaczenie pola wyboru **Zaznacz wszystko**. Następnie wybierz opcję **Dystrybucja.**  
@@ -148,11 +197,11 @@ Przyjrzyjmy się branży *Dystrybucja*.
    ![](media/sample-customer-profitability/customer7.png)
 4. Wykres warstwowy „Marża brutto według miesiąca i dyrektora” informuje nas, że tylko Valery i Tina miały klientów w tej branży oraz że Valery pracowała w tej branży tylko od czerwca do listopada.   
 5. Wybierz pozycję **Tina**, a następnie **Valery** w legendzie wykresu warstwowego „Marża brutto według miesiąca i dyrektora”. Zauważ, że fragment Tiny „Całkowity przychód według produktu” jest bardzo mały w porównaniu do wskaźnika Valery. 
-6. Aby zobaczyć faktyczne przychody, wróć do pulpitu nawigacyjnego i użyj funkcji pytań i odpowiedzi, aby zadać pytanie **total revenue for distribution by scenario by executive** (całkowity przychód dla dystrybucji względem scenariusza i dyrektora).  
+6. Aby zobaczyć faktyczne przychody, użyj funkcji pytań i odpowiedzi, aby zadać pytanie o **całkowity przychód dla dystrybucji względem scenariusza**.  
    
-   ![](media/sample-customer-profitability/customer8.png)
+     ![](media/sample-customer-profitability/power-bi-qna2.png)
 
-Możemy podobnie zbadać inne branże, a nawet dodać klientów do naszych elementów wizualnych, aby zrozumieć przyczyny wydajności Valery.
+    Możemy podobnie zbadać inne branże, a nawet dodać klientów do naszych elementów wizualnych, aby zrozumieć przyczyny wydajności Valery.
 
 Pracując na danych w tym środowisku, nie musisz się niczego obawiać. Zawsze możesz zrezygnować z zapisania wprowadzonych zmian. Jeśli jednak je zapiszesz, możesz przejść do obszaru **Pobieranie danych** i pobrać nową kopię zestawu danych użytego w tym przykładzie.
 

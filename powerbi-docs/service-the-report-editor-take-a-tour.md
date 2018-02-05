@@ -1,5 +1,5 @@
 ---
-title: "Edytor raportu: krótki przewodnik"
+title: "Szybki start – Edytor raportu: krótki przewodnik"
 description: "Edytor raportu: krótki przewodnik."
 services: powerbi
 documentationcenter: 
@@ -16,20 +16,26 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/30/2017
+ms.date: 01/23/2018
 ms.author: mihart
-ms.openlocfilehash: e5ee6db22fe0fa7fd1e61ebbfb7dbee9d3458159
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 8ecee2c5de9959937b5afa56cdf5b3679c5b9a5e
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="the-report-editortake-a-tour"></a>Edytor raportu: krótki przewodnik
+## <a name="editing-reports-in-power-bi-service-and-power-bi-desktop"></a>Edytowanie raportów w usłudze Power BI i programie Power BI Desktop
 Edytor raportu w usłudze Power BI i edytor raportu w programie Power BI Desktop są bardzo podobne. Film pokazuje edytor raportu w programie Power BI Desktop, a ten artykuł przedstawia edytor raportu w usłudze Power BI. 
+
+## <a name="the-difference-between-report-creators-and-report-consumers"></a>Różnica między *twórcami* a *użytkownikami* raportów
+Możliwość tworzenia i edytowania raportu jest ograniczona do właścicieli raportów (określanych mianem *twórców*). Jeśli *używasz* raportu, który został Ci udostępniony, nadal możesz otwierać i interakcyjnie korzystać z raportu w usłudze Power BI w tylko w [widoku do czytania](service-reading-view-and-editing-view.md), ale nie masz dostępu do wszystkich niezawodnych i zaawansowanych funkcji zarezerwowanych dla twórcy raportu.  
+
+Aby dowiedzieć się więcej na temat widoku do czytania raportu, zobacz temat [Widok do czytania i widok do edycji w usłudze Power BI](service-reading-view-and-editing-view.md) 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
-W usłudze Power BI *edytor raportu* jest dostępny tylko w [widoku do edycji](service-reading-view-and-editing-view.md). Aby otworzyć raport w widoku do edycji, musisz być właścicielem raportu.
+W usłudze Power BI *edytor raportu* jest dostępny tylko w [widoku do edycji](service-reading-view-and-editing-view.md). Aby otworzyć raport w widoku do edycji, musisz być właścicielem lub twórcą raportu.
 
 Edytor raportu usługi Power BI składa się z 3 sekcji:  
 
@@ -87,7 +93,9 @@ Za pomocą okienka analizy w usłudze Power BI możesz dodać linie odwołania d
 
 - - -
 ## <a name="the-filters-pane"></a>Okienko Filtry
-Wyświetlaj, ustawiaj i modyfikuj stronę, raport, przeglądanie szczegółowe i filtry poziomu wizualnego.
+Okienko Filtry służy do wyświetlania, ustawiania i modyfikowania trwałych filtrów odnoszących się do raportów na poziomie strony, raportu, przeglądania szczegółowego i wizualizacji. Tak, możesz zastosować filtrowanie w trybie ad hoc stron raportu i elementów wizualnych, wybierając elementy wizualne lub korzystając z takich narzędzi, jak fragmentatory, ale w przypadku korzystania z okienka Filtry stan filtrów jest zapisywany razem z raportem. 
+
+Okienko Filtry ma inną zaawansowaną funkcję – możliwość filtrowania za pomocą pola ***, które nie jest jeszcze używane w jednym z elementów wizualnych w raporcie***. Wyjaśnienie jest następujące. Po utworzeniu strony raportu usługa Power BI automatycznie dodaje wszystkie pola używane w Twojej wizualizacji do obszaru filtrów na poziomie elementu wizualnego okienka Filtry.  Jeśli jednak chcesz ustawić element wizualny, stronę, przeglądanie szczegółowe lub filtr raportu przy użyciu pola, które nie jest aktualnie używane w wizualizacji, wystarczy przeciągnąć je do jednego z zasobników filtrów.   
 
 ![](media/service-the-report-editor-take-a-tour/power-bi-formatting-pane.png)
 
@@ -110,7 +118,7 @@ W okienku pól są wyświetlane tabele i pola, które istnieją w Twoich danych 
    Każde pole obliczeniowe ma własną ustaloną formułę. Nie możesz zmienić obliczenia, jeśli, na przykład, jest to suma, pozostanie sumą. Aby uzyskać więcej informacji, przeczytaj [Opis miar](desktop-measures.md)
 * ![](media/service-the-report-editor-take-a-tour/icon.png) **Unikatowe pola**  
    Pola z tą ikoną zostały zaimportowane z programu Excel i są ustawione na pokazywanie wszystkich wartości, nawet jeśli mają one duplikaty. Na przykład Twoje dane mogą mieć dwa rekordy dla osób o nazwisku „Jan Kowalski” i każdy z nich będzie traktowany jako unikatowy — nie zostaną one zsumowane.  
-*  **![](media/service-the-report-editor-take-a-tour/pbi_geo_icon.png)Pola geograficzne**  
+* **![](media/service-the-report-editor-take-a-tour/pbi_geo_icon.png)Pola geograficzne**  
    Pola lokalizacji mogą służyć do tworzenia wizualizacji map. 
 * **![](media/service-the-report-editor-take-a-tour/power-bi-hierarchy-icon.png) Hierarchia**  
    Wybierz strzałkę, aby ujawnić pola, które tworzą hierarchię. 
@@ -125,11 +133,7 @@ Kanwa raportu jest miejscem, gdzie jest wyświetlana Twoja praca. Gdy używasz o
 ## <a name="next-steps"></a>Następne kroki:
 [Tworzenie raportu](service-report-create-new.md)
 
-[Edytowanie raportu](service-interact-with-a-report-in-editing-view.md)
-
-Przeczytaj więcej na temat [raportów w usłudze Power BI](service-reports.md)
-
-[Wprowadzenie do usługi Power BI](service-get-started.md)
+Dowiedz się więcej na temat raportów w [usłudze Power BI](service-reports.md), [programie Power BI Desktop](desktop-report-view.md) i [aplikacji Power BI dla urządzeń przenośnych](mobile-apps-view-phone-report.md).
 
 [Power BI — podstawowe pojęcia](service-basic-concepts.md)
 

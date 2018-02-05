@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: 424e96c5315bd41fc79999555097602f629a1285
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 52ad27e0f809ed5c3cf4ae22f0d536f88cae0f0c
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="customize-visualization-titles-legends-and-backgrounds-tutorial"></a>Dostosowywanie tytułów, legend i tła wizualizacji (samouczek)
 W tym samouczku poznasz kilka sposobów dostosowywania wizualizacji.   Istnieje wiele opcji dostosowywania wizualizacji. Najlepiej zapoznać się z nimi, eksplorując okienko Formatowanie (wybierz ikonę wałka do malowania).  Aby ułatwić rozpoczęcie pracy, w tym artykule przedstawiono, jak dostosować tytuł, legendę i tło wizualizacji.  
@@ -33,9 +33,12 @@ Zobacz, jak Amanda dostosowuje wizualizacje swojego raportu (przewiń film wideo
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
+### <a name="prerequisites"></a>Wymagania wstępne
+- Usługa Power BI lub program Power BI Desktop
+- Przykład Retail Analysis
 
 ## <a name="customize-visualization-titles-in-reports"></a>Dostosowywanie tytułów wizualizacji w raportach
-W tym celu zaloguj się do witryny app.powerbi i otwórz raport [Przykład Retail Analysis](sample-datasets.md) w [widoku do edycji](service-interact-with-a-report-in-editing-view.md).
+Aby to zrealizować, zaloguj się do usługi Power BI (app.powerbi.com) i [otwórz Próbkę analizy handlu detalicznego](sample-datasets.md) w [widoku do edycji](service-interact-with-a-report-in-editing-view.md).
 
 > [!NOTE]
 > Wizualizacja przypięta do pulpitu nawigacyjnego staje się kafelkiem pulpitu nawigacyjnego.  Kafelki także można dostosowywać, [podając nowe tytuły, podtytuły i hiperlinki oraz zmieniając rozmiar](service-dashboard-edit-tile.md).
@@ -120,7 +123,6 @@ Przy zaznaczonym wykresie kolumnowym rozwiń opcje tła.
 | wykres kaskadowy |tak |tak |tak |
 
 ## <a name="next-steps"></a>Następne kroki
-Więcej informacji o [wizualizacjach w raportach usługi Power BI](power-bi-report-visualizations.md)  
 [Dostosowywanie osi X i osi Y](power-bi-visualization-customize-x-axis-and-y-axis.md)  
 [Dostosowywanie kolorów i właściwości osi](service-getting-started-with-color-formatting-and-axis-properties.md)  
 [Power BI — podstawowe pojęcia](service-basic-concepts.md)  

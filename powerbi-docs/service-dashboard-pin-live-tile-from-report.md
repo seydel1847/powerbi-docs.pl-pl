@@ -16,16 +16,18 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: ee8e7541db7f40a5d01607c6551ee734eb9f3d5b
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 8174a3043d544191032ec65e3b9a1710547b18ab
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="pin-an-entire-report-page-as-a-live-tile-to-a-power-bi-dashboard"></a>Przypinanie całej strony raportu do pulpitu nawigacyjnego usługi Power BI jako dynamicznego kafelka
-Innym sposobem dodania nowego [kafelka pulpitu nawigacyjnego](service-dashboard-tiles.md) jest przypięcie całej strony raportu.  Jest to prosty sposób na jednoczesne przypięcie więcej niż jednej wizualizacji.  Ponadto po przypięciu całej strony kafelki są *dynamiczne*. Możesz wchodzić z nimi w interakcje bezpośrednio na pulpicie nawigacyjnym. Zmiany wprowadzone w dowolnej wizualizacji w edytorze raportów, takie jak dodanie filtru lub zmiana pól używanych na wykresie, również są odzwierciedlane na kafelku pulpitu nawigacyjnego.  
+Innym sposobem dodania nowego [kafelka pulpitu nawigacyjnego](service-dashboard-tiles.md) jest przypięcie całej strony raportu. Jest to prosty sposób na jednoczesne przypięcie więcej niż jednej wizualizacji.  Ponadto po przypięciu całej strony kafelki są *dynamiczne*. Możesz wchodzić z nimi w interakcje bezpośrednio na pulpicie nawigacyjnym. Zmiany wprowadzone w dowolnej wizualizacji w edytorze raportów, takie jak dodanie filtru lub zmiana pól używanych na wykresie, również są odzwierciedlane na kafelku pulpitu nawigacyjnego.  
+
+Możliwość przypinania dynamicznych kafelków z raportów do pulpitów nawigacyjnych jest dostępna tylko w usłudze Power BI (app.powerbi.com).
 
 > [!NOTE]
 > Nie możesz przypinać kafelków z raportów, które zostały Ci udostępnione.

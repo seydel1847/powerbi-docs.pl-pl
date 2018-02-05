@@ -1,27 +1,7 @@
----
-title: "Kształtowanie i łączenie danych w programie Power BI Desktop"
-description: "Kształtowanie i łączenie danych w programie Power BI Desktop"
-services: powerbi
-documentationcenter: 
-author: davidiseminger
-manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
-ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 12/06/2017
-ms.author: davidi
-ms.openlocfilehash: bb4f910f0ac6240ed2dab987a7076b3f996b86fe
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
-ms.translationtype: HT
-ms.contentlocale: pl-PL
-ms.lasthandoff: 12/06/2017
+-- title: Kształtowanie i łączenie danych w programie Power BI Desktop description: Kształtowanie i łączenie danych w programie Power BI Desktop services: powerbi documentationcenter: '' author: davidiseminger manager: kfile backup: '' editor: '' tags: '' qualityfocus: no qualitydate: ''
+
+ms.service: powerbi ms.devlang: NA ms.topic: article ms.tgt_pltfrm: NA ms.workload: powerbi ms.date: 01/30/2018 ms.author: davidi
+
 ---
 # <a name="shape-and-combine-data-in-power-bi-desktop"></a>Kształtowanie i łączenie danych w programie Power BI Desktop
 Program **Power BI Desktop** umożliwia nawiązywanie połączeń z wieloma typami źródeł danych, a następnie kształtowanie tych danych w celu spełnienia konkretnych potrzeb. *Kształtowanie* danych oznacza przekształcanie danych, np. zmienianie nazw kolumn lub tabel, zmienianie tekstu na liczby, usuwanie wierszy, ustawianie pierwszego wiersza jako nagłówków i tak dalej. *Łączenie* danych oznacza nawiązywanie połączenia z co najmniej dwoma źródłami danych, kształtowanie danych zgodnie z potrzebami, a następnie konsolidowanie ich do postaci jednego użytecznego zapytania.

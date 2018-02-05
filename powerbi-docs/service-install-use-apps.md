@@ -14,13 +14,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/05/2017
+ms.date: 01/24/2018
 ms.author: maggies
-ms.openlocfilehash: 604aed25b4702525cfbecde9c6fe18ded8c41994
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+ms.openlocfilehash: a833961bd2f9ad3af77c6d90a95c0e5b1c307d1a
+ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Instalowanie i używanie aplikacji z pulpitami nawigacyjnymi i raportami w usłudze Power BI
 W usłudze Power BI *aplikacje* łączą ze sobą w jednym miejscu wszystkie powiązane pulpity nawigacyjne i raporty. Osoby w organizacji mogą tworzyć i rozpowszechniać aplikacje z kluczowymi informacjami biznesowymi. [Usługi zewnętrzne](service-connect-to-services.md), których być może już używasz, takie jak Google Analytics i Microsoft Dynamics CRM, także oferują aplikacje usługi Power BI. 
@@ -31,10 +31,10 @@ Aplikacje można łatwo znaleźć i zainstalować w usłudze Power BI ([https://
 
 Kiedy autor aplikacji udostępnia aktualizację, zmiany są automatycznie widoczne w aplikacji. Autor ustala również harmonogram odświeżania danych, dzięki czemu nie musisz się martwić o zachowywanie ich aktualności. 
 
-Chcesz utworzyć aplikację? Zobacz [Tworzenie i publikowanie aplikacji w usłudze Power BI](service-create-distribute-apps.md), aby uzyskać więcej informacji.
+Chcesz utworzyć aplikację? Aby uzyskać więcej informacji, zobacz temat [Tworzenie i publikowanie aplikacji w usłudze Power BI](service-create-distribute-apps.md).
 
 ## <a name="get-a-new-app"></a>Pobieranie nowej aplikacji
-Aplikacje można uzyskać na dwa sposoby. Autor aplikacji może wysłać Ci bezpośredni link do aplikacji. Możesz też wyszukać aplikację w usłudze AppSource, gdzie są widoczne wszystkie aplikacje, do których masz dostęp. W usłudze Power BI na urządzeniu przenośnym aplikacje można instalować tylko za pomocą linku bezpośredniego, a nie z usługi AppSource. 
+Aplikacje można uzyskać na kilka różnych sposobów. Autor aplikacji może automatycznie zainstalować aplikację na Twoim koncie usługi Power BI lub może wysłać Ci bezpośredni link do aplikacji. Możesz też wyszukać aplikację w usłudze AppSource, gdzie są widoczne wszystkie aplikacje, do których masz dostęp. W usłudze Power BI na urządzeniu przenośnym aplikacje można instalować tylko za pomocą linku bezpośredniego, a nie z usługi AppSource. Jeśli autor aplikacji zainstaluje ją automatycznie, zobaczysz ją na swojej liście aplikacji.
 
 ### <a name="install-an-app-from-a-direct-link"></a>Instalowanie aplikacji z linku bezpośredniego
 Najprostszym sposobem samodzielnego zainstalowania nowej aplikacji jest otrzymanie linku bezpośredniego od autora aplikacji. Usługa Power BI tworzy link instalacyjny, który autor może wysłać użytkownikom.

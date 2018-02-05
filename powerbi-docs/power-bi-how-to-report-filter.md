@@ -1,6 +1,6 @@
 ---
-title: "Zapoznaj się z przewodnikiem dotyczącym okienka filtrów usługi Power BI"
-description: "Jak używać filtrów raportu"
+title: "Omówienie okienka Filtry usługi Power BI"
+description: "Omówienie okienka Filtry raportu w usłudze Power BI i na pulpicie nawigacyjnym usługi Power BI"
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -15,16 +15,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/29/2017
+ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: da3d4359fab37d1c5ee5f9d214cc5dba0fa9b680
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+ms.openlocfilehash: 14aa2a2813484c3af814332736906c2aae0e0230
+ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>Zapoznaj się z przewodnikiem dotyczącym okienka filtrów raportu
-Ten artykuł szczegółowo opisuje okienko Filtry raportu. To okienko jest widoczne w widoku do edycji i widoku do czytania raportów usługi Power BI.
+Ten artykuł szczegółowo opisuje okienko Filtry raportu. Okienko zostanie wyświetlone w [widoku do edycji i widoku do czytania usługi Power BI](service-reading-view-and-editing-view.md) oraz [widoku raportu w programie Power BI Desktop](desktop-report-view.md).
 
 Istnieje wiele sposobów, aby filtrować dane w usłudze Power BI i zalecamy zapoznać się najpierw z artykułem [Informacje o filtrach i wyróżnianiu](power-bi-reports-filters-and-highlighting.md).
 
@@ -57,7 +57,7 @@ Każda osoba wyświetlająca ten raport może wchodzić w interakcje z tymi filt
 ## <a name="filters-in-editing-view"></a>Filtry w widoku do edycji
 Po otwarciu raportu w widoku do edycji okienko Filtry będzie wyświetlane wzdłuż prawej strony kanwy raportu w dolnej części okienka **Wizualizacja**. Jeśli okienko nie jest widoczne, wybierz strzałkę w prawym górnym rogu, aby je rozwinąć.
 
-![](media/power-bi-how-to-report-filter/power-bi-all-filters.png).  
+![](media/power-bi-how-to-report-filter/power-bi-all-filters.png)  
 
 Jeśli na kanwie nie wybrano wizualizacji, okienko Filtry będzie zawierać tylko filtry dotyczące całej strony raportu lub całego raportu, a także filtry przeglądania szczegółowego (jeśli zostały ustawione). W poniższym przykładzie nie została wybrana wizualizacja, nie ma także filtrów na poziomie strony ani filtrów przeglądania szczegółowego, za to widoczny jest filtr na poziomie raportu.  
 
@@ -75,9 +75,9 @@ Aby wyświetlić opcje dla konkretnego filtru, wybierz strzałkę w dół obok j
  W zaawansowanym lub podstawowym trybie filtrowania wybierz ikonę gumki ![](media/power-bi-how-to-report-filter/pbi_erasericon.jpg), aby zresetować filtr. 
 
 ## <a name="add-a-filter"></a>Dodawanie filtru
-* W widoku do edycji dodaj filtr do wizualizacji, strony, przeglądania szczegółowego lub raportu, zaznaczając pole w okienku Pola i przeciągając je do odpowiedniego obszaru filtrów, gdzie wyświetlone zostaną słowa **Przeciągnij pola tutaj**. Po dodaniu pola jako filtru dostosuj go za pomocą kontrolek Filtrowanie podstawowe i Filtrowanie zaawansowane (opisanych poniżej).
+* W widoku do edycji dodaj filtr do wizualizacji, strony, przeglądania szczegółowego lub raportu, zaznaczając pole w okienku Pola i przeciągając je do odpowiedniego obszaru filtrów, gdzie widać słowa **Przeciągnij pola tutaj**. Po dodaniu pola jako filtru dostosuj go za pomocą kontrolek Filtrowanie podstawowe i Filtrowanie zaawansowane (opisanych poniżej).
 
-Przeciągnięcie nowego pola do obszaru Filtry na poziomie wizualizacji nie powoduje dodania tego pola do wizualizacji, pozwala jednak filtrować wizualizację za pomocą tego nowego pola. W poniższym przykładzie pole **Chain** zostało dodane jako nowy filtr do wizualizacji. Zwróć uwagę, że samo dodanie pola **Chain** jako filtru nie zmienia wizualizacji, dopóki nie użyjesz kontrolek Filtrowanie podstawowe i Filtrowanie zaawansowane.
+- **Przeciągnięcie nowego pola do obszaru Filtry na poziomie wizualizacji nie powoduje dodania tego pola do wizualizacji**, pozwala jednak filtrować wizualizację za pomocą tego nowego pola. W poniższym przykładzie pole **Chain** zostało dodane jako nowy filtr do wizualizacji. Zwróć uwagę, że samo dodanie pola **Chain** jako filtru nie zmienia wizualizacji, dopóki nie użyjesz kontrolek Filtrowanie podstawowe i Filtrowanie zaawansowane.
 
     ![](media/power-bi-how-to-report-filter/power-bi-visual-filter.gif)
 

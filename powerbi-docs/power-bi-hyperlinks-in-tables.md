@@ -1,5 +1,5 @@
 ---
-title: Hiperlinki w tabelach
+title: "Jak dodać hiperlink do tabeli"
 description: Hiperlinki w tabelach
 services: powerbi
 documentationcenter: 
@@ -15,16 +15,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/30/2017
+ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: e399553b9a31adb79bed73977409d5d88140ad88
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: a5a38934ab684691921c480a02024376a4655b8b
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="hyperlinks-in-tables"></a>Hiperlinki w tabelach
-W tym temacie opisano, jak tworzyć hiperlinki, używając programu Power BI Desktop. Po utworzeniu hiperlinków użyj programu Power BI Desktop lub usługi Power BI, aby dodać je do macierzy i tabel raportu. 
+W tym temacie opisano, jak tworzyć hiperlinki, używając programu Power BI Desktop. Po utworzeniu hiperlinków można je dodawać do tabel i macierzy raportu za pomocą programu Desktop lub usługi Power BI. 
 
 ![](media/power-bi-hyperlinks-in-tables/hyperlinkedtable.png)
 
@@ -84,6 +84,11 @@ Innym sposobem, aby dodać hiperlinki do tabel i macierzy usługi Power BI, jest
 7. Utwórz wizualizację tabeli, która zawiera pole adresu URL.
    
    ![](media/power-bi-hyperlinks-in-tables/hyperlinksintables.gif)
+
+## <a name="considerations-and-troubleshooting"></a>Istotne zagadnienia i rozwiązywanie problemów
+Pytanie: czy można użyć niestandardowego adresu URL jako hiperlinku w tabeli lub macierzy?    
+Odpowiedź: nie. Można użyć ikony łącza. Jeśli potrzebujesz niestandardowego tekstu dla hiperlinków, a Twoja lista adresów URL jest krótka, rozważ użycie pola tekstowego.
+
 
 ## <a name="next-steps"></a>Następne kroki
 [Wizualizacje w raportach usługi Power BI](power-bi-report-visualizations.md)

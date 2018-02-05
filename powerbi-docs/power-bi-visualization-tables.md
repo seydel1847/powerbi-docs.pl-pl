@@ -1,6 +1,6 @@
 ---
-title: "Wizualizacje tabel w raportach i na pulpitach nawigacyjnych usługi Power BI (samouczek)"
-description: "Porady dotyczące pracy z wizualizacjami tabel w raportach i na pulpitach nawigacyjnych usługi Power BI, w tym informacje o sposobie zmieniania szerokości kolumn."
+title: "Samouczek - wizualizacje tabel w raportach i na pulpitach nawigacyjnych usługi Power BI (samouczek)"
+description: "Samouczek wprowadzający do pracy z wizualizacjami tabel w raportach i na pulpitach nawigacyjnych usługi Power BI, w tym informujący o sposobie zmieniania szerokości kolumn."
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/27/2017
+ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: e4a2e162ca193af756e7182fb118bc7e72d38d28
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 4785df6bbc14bf0da4500a9cffdcd47381e412f4
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="working-with-tables-in-power-bi-reports-and-dashboards-tutorial"></a>Praca z tabelami w raportach i na pulpitach nawigacyjnych usługi Power BI (samouczek)
 Tabela to siatka zawierająca powiązane dane w postaci logicznej serii wierszy i kolumn. Może również zawierać nagłówki i wiersze sum. Tabele dobrze się sprawdzają w przypadku porównań ilościowych, gdy analizuje się wiele wartości z jednej kategorii. Na przykład ta tabela zawiera 5 różnych miar dla **kategorii**.
@@ -40,11 +40,16 @@ Tabele są doskonałym wyborem do następujących celów:
 > Jeśli tabela zawiera zbyt wiele wartości, warto rozważyć przekonwertowanie jej na macierz i (lub) zastosowanie funkcji przechodzenia do szczegółów.
 > 
 > 
+## <a name="prerequisites"></a>Wymagania wstępne
+ - Usługa Power BI lub program Power BI Desktop
+ - Przykład Retail Analysis
+
 
 ## <a name="create-a-table"></a>Tworzenie tabeli
-Aby móc wykonywać te instrukcje, zaloguj się w usłudze Power BI, a następnie wybierz pozycję **Pobierz dane > Przykłady > Retail Analysis Sample**. Utworzymy tabelę przedstawioną powyżej, aby wyświetlić wartości sprzedaży według kategorii produktów.
+Utworzymy tabelę przedstawioną powyżej, aby wyświetlić wartości sprzedaży według kategorii produktów. Aby można było wykonać te instrukcje, zaloguj się w usłudze Power BI, wybierz pozycję **Pobierz dane \> Przykłady \> Próbka analizy handlu detalicznego > Połącz**, a następnie wybierz pozycję **Przejdź do pulpitu nawigacyjnego. Tworzenie wizualizacji wymaga uprawnień do edytowania zestawu danych i raportu. Na szczęście przykłady usługi Power BI można w całości edytować. W przypadku, gdy raport został udostępniony, nie będzie można utworzyć żadnych wizualizacji w raportach.
 
-1. W obszarze **Mój obszar roboczy** wybierz kartę Zestawy danych i przewiń w dół do zestawu danych próbki danych do analizy handlu detalicznego.  Wybierz ikonę **Utwórz raport**.
+1. W lewym okienku nawigacji wybierz opcję **Obszary robocze > Mój obszar roboczy**.    
+2. Wybierz kartę Zestawy danych i przewiń w dół do dodanego przez Ciebie zestawu danych Próbka analizy handlu detalicznego.  Wybierz ikonę **Utwórz raport**.
    
     ![](media/power-bi-visualization-tables/power-bi-create-report.png)
 2. W edytorze raportu wybierz pozycję **Item (Element)** > **Category (Kategoria)**.  Usługa Power BI automatycznie tworzy tabelę, która zawiera wszystkie kategorie.
@@ -115,5 +120,5 @@ Czasami usługa Power BI obcina nagłówek kolumny w raporcie i na pulpicie nawi
 
 ![](media/power-bi-visualization-tables/resizetable.gif)
 
-Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
+Więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
 

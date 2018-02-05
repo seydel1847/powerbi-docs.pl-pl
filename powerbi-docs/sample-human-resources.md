@@ -17,8 +17,8 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: 19795cc3dd04fbba8db9c154631751f7dbe6a2ef
-ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
+ms.openlocfilehash: 1c9be142c7d72950052b152cf7db1aaee54fe453
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: pl-PL
 ms.lasthandoff: 01/24/2018
@@ -34,7 +34,7 @@ Dział kadr ma ten sam model raportowania w różnych firmach, nawet wtedy, gdy 
 
 ![](media/sample-human-resources/hr1.png)
 
-Te przykładowe dane stanowią części serii ilustrującej, w jaki sposób możesz wykorzystać usługę Power BI w pracy z danymi biznesowymi, raportami i pulpitami nawigacyjnymi. Są to prawdziwe dane pochodzące z firmy obviEnce ([www.obvience.com](http://www.obvience.com/)) przedstawione w sposób anonimowy.
+Te przykładowe dane stanowią części serii ilustrującej, w jaki sposób możesz wykorzystać usługę Power BI w pracy z danymi biznesowymi, raportami i pulpitami nawigacyjnymi. Są to prawdziwe dane pochodzące z firmy obviEnce ([www.obvience.com](http://www.obvience.com/)) przedstawione w sposób anonimowy. Dane są dostępne w różnych formatach: zawartości pakietu/aplikacji, skoroszytu programu Excel lub pliku PBIX programu Power BI Desktop. Aby dowiedzieć się więcej, zobacz [Przykładowe zestawy danych](sample-datasets.md).
 
 ## <a name="prerequisites"></a>Wymagania wstępne
 

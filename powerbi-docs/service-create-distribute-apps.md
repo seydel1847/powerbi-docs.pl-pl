@@ -14,13 +14,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/16/2018
+ms.date: 01/24/2018
 ms.author: maggies
-ms.openlocfilehash: 89c376451199aec0a6f464f3298df44d468f37d2
-ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
+ms.openlocfilehash: fadeaedbcc61626b7f1265ac44480c55a60f4fe0
+ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="create-and-publish-apps-with-dashboards-and-reports-in-power-bi"></a>Tworzenie i publikowanie aplikacji z pulpitami nawigacyjnymi i raportami w usłudze Power BI
 
@@ -32,7 +32,13 @@ Aby sprawnie działać, użytkownicy biznesowi często potrzebują wielu pulpit�
 
 Dzięki aplikacjom usługi Power BI, dostępnym teraz w wersji zapoznawczej, możesz tworzyć kolekcje pulpitów nawigacyjnych i raportów i udostępniać te aplikacje całej organizacji lub konkretnym osobom lub grupom. Z perspektywy administratora lub autora raportu aplikacje ułatwiają zarządzanie uprawnieniami do kolekcji pulpitów nawigacyjnych.
 
-Użytkownicy biznesowi instalują te aplikacje z usługi Microsoft AppSource lub możesz im wysłać bezpośredni link. Mogą łatwo odnaleźć Twoją zawartość lub do niej wrócić, ponieważ wszystko znajduje się w jednym miejscu. Mogą automatycznie uzyskiwać aktualizacje, a Ty możesz kontrolować, jak często dane są odświeżane. Dowiedz się więcej na temat [aplikacji dla użytkowników biznesowych](service-install-use-apps.md).
+Użytkownicy biznesowi mogą uzyskać te aplikacje na kilka różnych sposobów. Jeśli administrator usługi Power BI przyzna Ci odpowiednie uprawnienia, możesz automatycznie instalować je na kontach usługi Power BI swoich współpracowników. Jeśli nie, mogą oni zainstalować aplikacje z witryny Microsoft AppSource lub otrzymać bezpośredni link. Mogą łatwo odnaleźć Twoją zawartość lub do niej wrócić, ponieważ wszystko znajduje się w jednym miejscu. Mogą automatycznie uzyskiwać aktualizacje, a Ty możesz kontrolować, jak często dane są odświeżane. Dowiedz się więcej na temat [aplikacji dla użytkowników biznesowych](service-install-use-apps.md).
+
+### <a name="licenses-for-apps"></a>Licencje na aplikacje
+Będąc twórcą aplikacji, potrzebujesz licencji usługi Power BI Pro. Użytkownicy aplikacji mają dwie opcje.
+
+* Opcja 1. Wszyscy użytkownicy biznesowi potrzebują licencji usługi **Power BI Pro**, aby móc wyświetlać Twoją aplikację. 
+* Opcja 2. Użytkownicy wersji bezpłatnej w Twojej organizacji mogą wyświetlać zawartość aplikacji, jeśli Twoja aplikacja jest przechowywana w pojemności usługi Power BI Premium. Przeczytaj artykuł [Co to jest usługa Power BI Premium?](service-premium.md), aby zapoznać się ze szczegółowymi informacjami.
 
 ### <a name="apps-and-organizational-content-packs"></a>Aplikacje i pakiety zawartości organizacji
 Aplikacje są kolejnym etapem ewolucji pakietów zawartości organizacji. Jeśli masz już pakiety zawartości organizacji, będą one nadal działały równolegle z aplikacjami.
@@ -41,12 +47,6 @@ Wiesz już, czym są aplikacje, przejdźmy więc do *obszarów roboczych aplikac
 
 ## <a name="video-apps-and-app-workspaces"></a>Film wideo: aplikacje i obszary robocze aplikacji
 <iframe width="640" height="360" src="https://www.youtube.com/embed/Ey5pyrr7Lk8?showinfo=0" frameborder="0" allowfullscreen></iframe>
-
-## <a name="licenses-for-apps"></a>Licencje na aplikacje
-Będąc twórcą aplikacji, potrzebujesz licencji usługi Power BI Pro. Użytkownicy aplikacji mają dwie opcje.
-
-* Opcja 1. Wszyscy użytkownicy biznesowi potrzebują licencji usługi **Power BI Pro**, aby móc wyświetlać Twoją aplikację. 
-* Opcja 2. Użytkownicy wersji bezpłatnej w Twojej organizacji mogą wyświetlać zawartość aplikacji, jeśli Twoja aplikacja jest przechowywana w pojemności usługi Power BI Premium. Przeczytaj artykuł [Co to jest usługa Power BI Premium?](service-premium.md), aby zapoznać się ze szczegółowymi informacjami.
 
 ## <a name="app-workspaces"></a>Obszary robocze aplikacji
 *Obszar roboczy aplikacji* to miejsce, w którym są tworzone aplikacje — a więc zanim utworzysz aplikację, musisz utworzyć obszar roboczy aplikacji. Jeśli masz już doświadczenie w pracy w obszarze roboczym grupy w usłudze Power BI, obszary robocze aplikacji nie będą niczym nowym. Są one kolejnym etapem ewolucji obszarów roboczych grupy — obszarów tymczasowych i kontenerów zawartości w aplikacji. 
@@ -106,21 +106,23 @@ Jeśli pulpity nawigacyjne i raporty w obszarze roboczym aplikacji są gotowe, m
    
      ![Publikowanie aplikacji](media/service-create-distribute-apps/power-bi-apps-publish-button.png)
 
-2. Najpierw w obszarze **Szczegóły** uzupełnij pole z opisem, aby umożliwić odnalezienie aplikacji. Możesz ją spersonalizować, ustawiając kolor tła.
+2. W obszarze **Szczegóły** wypełnij pole z opisem, aby ułatwić odnalezienie aplikacji. Możesz ją spersonalizować, ustawiając kolor tła.
    
      ![Szczegóły aplikacji](media/service-create-distribute-apps/power-bi-apps-details.png)
 
-3. Następnie w obszarze **Zawartość** wyświetlona zostanie ta zawartość, która zostanie opublikowana jako część aplikacji, czyli wszystko, co zaznaczono w tym obszarze roboczym. Możesz również skonfigurować stronę docelową aplikacji — pulpit nawigacyjny lub raport, który zostanie wyświetlony natychmiast po przejściu do Twojej aplikacji. Możesz wybrać opcję **Brak**. Wtedy użytkownicy przejdą do listy całej zawartości w aplikacji. 
+3. W obszarze **Zawartość** możesz zobaczyć treść, która zostanie opublikowana jako część aplikacji, czyli wszystko, co zostało przez Ciebie zaznaczone w tym obszarze roboczym. Możesz również skonfigurować stronę docelową aplikacji — pulpit nawigacyjny lub raport, który zostanie wyświetlony natychmiast po przejściu do Twojej aplikacji. Możesz wybrać opcję **Brak**. Wtedy użytkownicy przejdą do listy całej zawartości w aplikacji. 
    
      ![Zawartość aplikacji](media/service-create-distribute-apps/power-bi-apps-content.png)
 
-4. Na końcu w obszarze **Dostęp** możesz zdecydować, kto ma mieć dostęp do aplikacji: wszyscy w Twojej organizacji, konkretne osoby, czy grupy zabezpieczeń usługi Active Directory. 
+4. W obszarze **Dostęp** możesz zdecydować, kto ma dostęp do aplikacji: wszyscy w Twojej organizacji, określone osoby, czy grupy zabezpieczeń usługi Active Directory. Jeśli masz odpowiednie uprawnienia, możesz zdecydować się na zainstalowanie aplikacji automatycznie dla odbiorców.
+
+    ![Dostęp do aplikacji](media/service-create-distribute-apps/power-bi-apps-access.png)
 
 5. Po wybraniu opcji **Zakończ** wyświetlony zostanie komunikat potwierdzający gotowość do publikacji. W oknie dialogowym potwierdzającym powodzenie możesz skopiować adres URL, który jest bezpośrednim linkiem do tej aplikacji, i wysłać go do osób, którym udostępniono aplikację.
    
      ![Zakończenie publikowania aplikacji](media/service-create-distribute-apps/power-bi-apps-success.png)
 
-Użytkownicy biznesowi, którym udostępniono aplikację, mogą ją odnaleźć na dwa różne sposoby. Możesz wysłać im bezpośredni link do aplikacji. Mogą oni również wyszukać ją w witrynie Microsoft AppSource, gdzie wyświetlane są wszystkie aplikacje, do których mają dostęp. Następnie zawsze po wybraniu pozycji Aplikacje zobaczą tę aplikację na liście.
+Użytkownicy biznesowi, którym udostępniono aplikację, mogą ją odnaleźć na kilka różnych sposobów. Jeśli można zainstalować ją automatycznie, pojawi się w obszarze Aplikacje na ich kontach usługi Power BI. Możesz wysłać im bezpośredni link do aplikacji. Mogą oni również wyszukać ją w witrynie Microsoft AppSource, gdzie wyświetlane są wszystkie aplikacje, do których mają dostęp. Niezależnie od sposobu jej uzyskania, zawsze po wybraniu pozycji Aplikacje zobaczą tę aplikację swojej liście.
 
 Dowiedz się więcej na temat [aplikacji dla użytkowników biznesowych](service-install-use-apps.md).
 
@@ -137,6 +139,7 @@ Po opublikowaniu aplikacji możesz chcieć ją zmienić lub zaktualizować. Łat
 1. Wróć do listy zawartości obszaru roboczego aplikacji i wybierz opcję **Zaktualizuj aplikację**.
    
      ![Przycisk aktualizowania aplikacji](media/service-create-distribute-apps/power-bi-app-update-button.png)
+
 4. Jeśli chcesz, możesz zaktualizować obszary **Szczegóły**, **Zawartość** i **Dostęp**, a następnie wybrać opcję **Zaktualizuj aplikację**.
    
      ![Przycisk aktualizowania aplikacji](media/service-create-distribute-apps/power-bi-app-update-complete.png)
@@ -167,7 +170,9 @@ Aplikacje są kolejnym etapem ewolucji i uproszczeniem pakietów zawartości. Is
 * Z czasem planujemy wycofać pakiety zawartości organizacji, więc zalecamy od teraz tworzenie aplikacji.  
 
 ### <a name="what-about-read-only-members-in-groups"></a>Co z członkami grup z prawami tylko do odczytu?
-W grupach możesz dodawać członków z prawami tylko do odczytu, którzy mogą tylko wyświetlać zawartość. Głównym problemem w tym podejściu jest to, że nie można dodawać grup zabezpieczeń jako członków. Dzięki aplikacjom możesz opublikować wersję obszaru roboczego aplikacji tylko do odczytu dla większych grup odbiorców, w tym dla grup zabezpieczeń. Możesz wypróbować zmiany w pulpitach nawigacyjnych i raportach w aplikacji, nie wpływając na użytkowników końcowych. Zalecamy używanie aplikacji w ten sposób w przyszłości. W dłuższej perspektywie planujemy wycofanie członkostwa z uprawnieniami tylko do odczytu z obszarów roboczych.  
+W grupach można dodać członków z prawami tylko do odczytu, którzy mogą jedynie wyświetlać zawartość. Głównym problemem w tym podejściu jest to, że nie można dodawać grup zabezpieczeń jako członków. 
+
+Dzięki aplikacjom możesz opublikować wersję obszaru roboczego aplikacji tylko do odczytu dla większych grup odbiorców, w tym dla grup zabezpieczeń. Możesz wypróbować zmiany w pulpitach nawigacyjnych i raportach w aplikacji, nie wpływając na użytkowników końcowych. Zalecamy używanie aplikacji w ten sposób w przyszłości. W dłuższej perspektywie planujemy wycofanie członkostwa z uprawnieniami tylko do odczytu z obszarów roboczych.  
 
 ## <a name="next-steps"></a>Następne kroki
 * [Instalowanie i używanie aplikacji w usłudze Power BI](service-install-use-apps.md)
