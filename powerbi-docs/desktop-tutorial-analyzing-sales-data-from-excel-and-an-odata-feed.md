@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: 03c5afae78e1688cadfdef9c0a96ca9f24247e12
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 0723b3a7155626f875044fa813a522ef6d4923df
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="tutorial-analyzing-sales-data-from-excel-and-an-odata-feed"></a>Samouczek: analizowanie danych sprzedaży z programu Excel i źródła danych OData
 Program **Power BI Desktop** pozwala nawiązywać połączenia z różnego rodzaju źródłami danych, a następnie łączyć i kształtować je w sposób zapewniający uzyskanie interesujących i atrakcyjnych analiz danych oraz wizualizacji. Z tego samouczka dowiesz się, jak łączyć dane z dwóch źródeł danych. 
@@ -140,7 +140,7 @@ Oblicz sumę wiersza dla każdego wiersza tabeli **Order\_Details**:
 
 ### <a name="step-5-set-the-datatype-of-the-linetotal-field"></a>Krok 5. Ustawianie typu danych pola LineTotal
 1. Kliknij prawym przyciskiem myszy kolumnę **LineTotal**.
-2. Wybierz pozycję **Zmień typ** i wybierz pozycję **Liczba dziesiętna.
+2. Wybierz pozycję **Zmień typ** i wybierz opcję **Liczba dziesiętna**.
    
    ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/9.png)
 
@@ -179,7 +179,7 @@ W tym zadaniu potwierdzimy fakt istnienia relacji w programie Power BI Desktop m
 3. Po załadowaniu danych wybierz przycisk **Zarządzaj relacjami** na karcie **Narzędzia główne** wstążki.
    
    ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_5.png)
-4. Naciśnij przycisk **Nowa…** button
+4. Wybierz  przycisk **Nowa...**
    
    ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_6.png)
 5. Podczas próby utworzenia relacji zostanie wyświetlona informacja, że relacja ta już istnieje! Jak widać w oknie dialogowym **Tworzenie relacji** (po zacieniowaniu kolumn), pola **ProductsID** obu zapytań mają już ustaloną relację.
@@ -229,6 +229,5 @@ Po wykonaniu wszystkich kroków otrzymasz raport sprzedaży, który łączy dane
 * [Obejrzyj filmy wideo dotyczące programu Power BI Desktop](http://go.microsoft.com/fwlink/?LinkID=519322)
 * [Odwiedź forum usługi Power BI](http://go.microsoft.com/fwlink/?LinkID=519326)
 * [Przeczytaj blog poświęcony usłudze Power BI](http://go.microsoft.com/fwlink/?LinkID=519327)
-
 
 
