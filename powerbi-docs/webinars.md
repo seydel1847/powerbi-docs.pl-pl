@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 01/30/2018
 ms.author: maikelson
-ms.openlocfilehash: 91a629699c782914ec542a2b7a668cf25e47ec27
-ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
+ms.openlocfilehash: 21bd243f56b077c3dfbeaeffd5db108670029937
+ms.sourcegitcommit: 7bf22bb1136fdb0f962422e16e837187f090827c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/29/2018
+ms.lasthandoff: 02/01/2018
 ---
 # <a name="power-bi-webinars"></a>Power BI — seminaria internetowe
 
@@ -31,45 +31,87 @@ Zarejestruj się, aby wziąć udział w seminariach internetowych lub obejrzyj n
 
 Zacznij od tych popularnych seminariów internetowych na żądanie
 
-- [Wprowadzenie do usługi Power BI](https://info.microsoft.com/getting-started-with-power-bi-ondemand.html?Is=Website)
+**Wprowadzenie do usługi Power BI**
+<br>Autor: Miguel Martinez
+<br>[Zarejestruj się i obejrzyj teraz](https://info.microsoft.com/getting-started-with-power-bi-ondemand.html?Is=Website)
 
-- [Better Together: 5 Benefits Excel Users Will Get From Using Power BI](https://info.microsoft.com/excel-powerbi-better-together.html?Is=Website) (Razem lepiej: 5 korzyści dla użytkowników programu Excel korzystających z usługi Power BI)
+**Simply Compelling – Seven Tips to Better Visualization Design** (Po prostu eleganckie — siedem porad dotyczących projektowania lepszych wizualizacji)
+<br>Autor: Miranda Li
+<br>[Obejrzyj teraz](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Simply-Compelling-Seven-Tips-to-Better-Visualization-Design/m-p/173401?Is=Website)
 
-- [How to Design Visually Stunning Power BI Reports](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-3-17-Webinar-How-to-Design-Visually-Stunning-Power-BI-Reports/m-p/168204?Is=Website) (Projektowanie wizualnie olśniewających raportów usługi Power BI)
+**Better Together: 5 Benefits Excel Users Will Get From Using Power BI** (Razem lepiej: 5 korzyści dla użytkowników programu Excel korzystających z usługi Power BI)
+<br>Autorzy: Carlos Otero i Miguel Martinez
+<br>[Zarejestruj się i obejrzyj teraz](https://info.microsoft.com/excel-powerbi-better-together.html?Is=Website)
 
-- [Accelerating modern BI adoption with Power BI Premium](https://info.microsoft.com/powerbi-premium-webinar-ondemand.html?Is=Website) (Przyspieszanie adaptacji nowoczesnej analizy biznesowej w usłudze Power BI Premium)
-
-- [Co nowego i interesującego w kwestii serwera raportów usługi Power BI — listopad 2017](https://info.microsoft.com/whats-new-powerbi-report-server.html?Is=Website)
+>[Przeglądaj bibliotekę seminariów internetowych na żądanie dotyczących usługi Power BI, aby uzyskać odpowiedzi od naszej społeczności ekspertów](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/bd-p/VideoTipsTricks?filter=webinars&featured=yes&Is=Website)
 
 ## <a name="upcoming-webinars"></a>Nadchodzące seminaria internetowe
 
 Zarejestruj się, aby uzyskać informacje od ekspertów w zakresie usługi Power BI i wziąć udział w sesjach pytań i odpowiedzi na żywo
 
->[Weź udział w nadchodzących seminariach internetowych społeczności usługi Power BI](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/bd-p/VideoTipsTricks?filter=webinars&featured=yes&Is=Website)
+**Learn to Navigate Your Way Through a Power BI Dashboard in 20 Minutes** (Naucz się nawigować po pulpicie nawigacyjnym usługi Power BI w ciągu 20 minut)
+<br>Autor: Miguel Martinez
+<br>*21 lutego, 10:00 PST, 13:00 EST*
 
-Nie ma jeszcze zaplanowanych seminariów internetowych. Wróć tu za jakiś czas, aby znaleźć więcej nowych wydarzeń.
+Zdarzyło Ci się kiedykolwiek otworzyć pulpit nawigacyjny usługi Power BI i utknąć w miejscu?  Jak nawigować po takim pulpicie, aby znaleźć właściwe dane? Ograniczasz korzystanie z filtrów i fragmentatorów, aby „czegoś nie zepsuć”?  Nie obawiaj się — dołącz do nas i dowiedz się, jak nawigować po pulpicie nawigacyjnym usługi Power BI. Przeprowadzimy Cię przez typowe funkcje używane przez innych menedżerów, aby umożliwić Ci dotarcie do szukanych danych, gdy tylko będą Ci potrzebne.
+
+[Zarejestruj się, aby obejrzeć 21 lutego](https://info.microsoft.com/powerbi-dashboard-in-20-min.html?Is=Website)
+
+>[Weź udział w nadchodzących seminariach internetowych społeczności usługi Power BI](https://powerbi.microsoft.com/en-us/blog/tag/community-webinar?Is=Website)
 
 ## <a name="on-demand-webinars"></a>Seminaria internetowe na żądanie
 
 Oglądaj nagrane sesje w dowolnym momencie
 
->[Przeglądaj bibliotekę seminariów internetowych na żądanie dotyczących usługi Power BI, aby uzyskać odpowiedzi od naszej społeczności ekspertów](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/bd-p/VideoTipsTricks?filter=webinars&featured=yes&Is=Website)
+### <a name="getting-started"></a>Wprowadzenie
 
-- [Improving Profitability in Healthcare](https://info.microsoft.com/improving-profitability-in-healthcare.html?Is=Website) (Poprawa rentowności opieki zdrowotnej)
+**How to Design Visually Stunning Power BI Reports** (Projektowanie wizualnie olśniewających raportów usługi Power BI)
+<br>Autor: Charles Sterling
+<br>[Obejrzyj teraz](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-3-17-Webinar-How-to-Design-Visually-Stunning-Power-BI-Reports/m-p/168204?Is=Website)
 
-- [How to Implement a Successful Data Governance Strategy That Makes Your Organization More Secure](https://info.microsoft.com/powerbi-data-governance-strategy-ondemand.html?Is=Website) (Jak wdrożyć skuteczną strategię zarządzania danymi, która zwiększy bezpieczeństwo organizacji)
+**Zmienianie raportu z dobrego w ŚWIETNY**
+<br>Autor: Reid Havens
+<br>[Obejrzyj teraz](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Power-BI-Transforming-A-Report-From-Good-to-GREAT/m-p/315119?Is=Website)
 
-- [Zmienianie raportu z dobrego w ŚWIETNY](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Power-BI-Transforming-A-Report-From-Good-to-GREAT/m-p/315119?Is=Website)
+### <a name="partners"></a>Partnerzy ###
 
-- [Ask a Partner: Developing Custom Visuals for Power BI](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Ask-a-Partner-Developing-Custom-Visuals-for-Power-BI/m-p/150368?Is=Website) (Pytania do partnera: tworzenie niestandardowych wizualizacji dla usługi Power BI)
+**Improving Profitability in Healthcare** (Poprawa rentowności opieki zdrowotnej)
+<br>Autorzy: Stephen Cracknell i Stuart Macanliss (US Medical IT)
+<br>[Zarejestruj się i obejrzyj teraz](https://info.microsoft.com/improving-profitability-in-healthcare.html?Is=Website)
 
-- [How Microsoft does Power BI](https://info.microsoft.com/US-PowerBI-WBNR-FY17-11Nov-29-BIATMIcrosoft274828_01Registration-ForminBody.html?Is=Website) (W jaki sposób firma Microsoft zarządza usługą Power BI)
+**Applied Intelligence for Sales & Service** (Zastosowanie analizy w sprzedaży i usługach)
+<br>Autor: Ed Bobrin (Avanade)
+<br>[Zarejestruj się i obejrzyj teraz](https://info.microsoft.com/applied-intelligence-for-sales-service.html?Is=Website)
 
-- [Applied Intelligence for Sales & Service](https://info.microsoft.com/applied-intelligence-for-sales-service.html?Is=Website) (Zastosowanie analizy w sprzedaży i usługach)
+**Manufacturers: Your industry is going through a digital transformation - Maintain leadership by leveraging analytics to maximize profitability** (Producenci: Twoja branża przechodzi proces cyfrowej transformacji — utrzymaj pozycję lidera i zwiększ rentowność dzięki zastosowaniu rozwiązania do analizy)
+<br>Autorzy: Jon Thompson (Blue Margin) i Jim Pastor (Elgin Fastener Group)
+<br>[Zarejestruj się i obejrzyj teraz](https://info.microsoft.com/digital-transformation-in-manufacturing.html?Is=Website)
 
-- [Power BI security deep dive](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-23-2017-Power-BI-security-deep-dive-by-Kasper-de-Jonge/m-p/161476?Is=Website) (Szczegółowe informacje o zabezpieczeniach w usłudze Power BI)
+### <a name="advanced-topics"></a>Tematy zaawansowane ###
 
-- [Manufacturers: Your industry is going through a digital transformation - Maintain leadership by leveraging analytics to maximize profitability](https://info.microsoft.com/digital-transformation-in-manufacturing.html?Is=Website) (Producenci: Twoja branża przechodzi proces cyfrowej transformacji — utrzymaj pozycję lidera i zwiększ rentowność dzięki zastosowaniu rozwiązania do analizy)
+**How to Implement a Successful Data Governance Strategy That Makes Your Organization More Secure** (Jak wdrożyć skuteczną strategię zarządzania danymi, która zwiększy bezpieczeństwo organizacji)
+<br>Autor: Ajay Anandan
+<br>[Zarejestruj się i obejrzyj teraz](https://info.microsoft.com/powerbi-data-governance-strategy-ondemand.html?Is=Website)
+
+**Power BI security deep dive** (Szczegółowe informacje o zabezpieczeniach w usłudze Power BI)
+<br>Autor Kasper de Jonge
+<br>[Obejrzyj teraz](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-23-2017-Power-BI-security-deep-dive-by-Kasper-de-Jonge/m-p/161476?Is=Website)
+
+**Accelerating modern BI adoption with Power BI Premium** (Przyspieszanie adaptacji nowoczesnej analizy biznesowej w usłudze Power BI Premium)
+<br>Autorzy: Sirui Sun i Miguel Martinez
+<br>[Zarejestruj się i obejrzyj teraz](https://info.microsoft.com/powerbi-premium-webinar-ondemand.html?Is=Website)
+
+**Ask a Partner: Developing Custom Visuals for Power BI** (Pytania do partnera: tworzenie niestandardowych wizualizacji dla usługi Power BI)
+<br>Autor: Ted Pattison
+<br>[Obejrzyj teraz](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Ask-a-Partner-Developing-Custom-Visuals-for-Power-BI/m-p/150368?Is=Website)
+
+**Co nowego i interesującego w kwestii serwera raportów usługi Power BI**
+<br>Autorzy: Riccardo Muti, Chris Finlan i Chinmay Joshi
+<br>[Zarejestruj się i obejrzyj teraz](https://info.microsoft.com/whats-new-powerbi-report-server.html?Is=Website)
+
+**How Microsoft does Power BI** (W jaki sposób firma Microsoft zarządza usługą Power BI)
+<br>Autor: Kirkland Barrett
+<br>[Zarejestruj się i obejrzyj teraz](https://info.microsoft.com/US-PowerBI-WBNR-FY17-11Nov-29-BIATMIcrosoft274828_01Registration-ForminBody.html?Is=Website)
 
 ## <a name="see-also"></a>Zobacz także
 

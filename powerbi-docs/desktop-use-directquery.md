@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/25/2017
+ms.date: 12/25/2017
 ms.author: davidi
-ms.openlocfilehash: 268c06569199bc00b28918b46a142942c9e03ba6
-ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
+ms.openlocfilehash: d3643ae398c037c375c8e67360794047a6f66ed7
+ms.sourcegitcommit: 7bf22bb1136fdb0f962422e16e837187f090827c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/23/2017
+ms.lasthandoff: 02/01/2018
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>Używanie zapytania bezpośredniego w programie Power BI Desktop
 Program **Power BI Desktop** zawsze umożliwia importowanie kopii danych do programu **Power BI Desktop** po połączeniu ze źródłem danych. W przypadku niektórych źródeł danych dostępne jest inne rozwiązanie: połączenie bezpośrednio ze źródłem danych przy użyciu **zapytania bezpośredniego**.
@@ -61,7 +61,7 @@ Obecnie istnieje kilka ograniczeń związanych z korzystaniem z **zapytania bezp
 * Domyślnie wyrażenia języka DAX dozwolone w miarach są ograniczone. Zapoznaj się z akapitem po liście wypunktowanej, aby uzyskać więcej informacji.
 * W przypadku korzystania z **zapytania bezpośredniego** liczba zwracanych wierszy danych jest ograniczona do 1 miliona. Nie ma to wpływu na agregacje lub obliczenia używane do tworzenia zestawów danych zwracanych przy użyciu **zapytania bezpośredniego** — dotyczy tylko zwracanych wierszy. Możesz na przykład zagregować 10 milionów wierszy przy użyciu zapytania korzystającego ze źródła danych i dokładnie zwrócić wyniki agregacji do usługi Power BI przy użyciu **zapytania bezpośredniego**, o ile dane zwrócone do usługi Power BI obejmują mniej niż 1 milion wierszy. Jeśli liczba wierszy do zwrócenia przez **zapytanie bezpośrednie** przekracza 1 milion, usługa Power BI zwróci błąd.
 
-Aby zagwarantować, że zapytania wysyłane do bazowego źródła danych mają akceptowalną wydajność, na miary domyślnie nałożone są ograniczenia. Użytkownicy zaawansowani mogą zdecydować się na obejście tego ograniczenia, wybierając kolejno pozycje **Plik > Opcje**, a następnie **Ustawienia > Opcje i ustawienia > Zapytanie bezpośrednie** i zaznaczając opcję *Zezwalaj na nieograniczone miary w trybie zapytania bezpośredniego*.* Gdy ta opcja jest zaznaczona, można użyć dowolnego wyrażenia języka DAX prawidłowego dla miary. Użytkownicy muszą być jednak świadomi, że niektóre wyrażenia, które dobrze działają po zaimportowaniu danych, mogą znacznie spowalniać zapytania do źródła danych zaplecza w trybie zapytania bezpośredniego.
+Aby zagwarantować, że zapytania wysyłane do bazowego źródła danych mają akceptowalną wydajność, na miary domyślnie nałożone są ograniczenia. Użytkownicy zaawansowani mogą zdecydować się na obejście tego ograniczenia, wybierając pozycję **Plik > Opcje**, a następnie **Ustawienia > Opcje i ustawienia > Zapytanie bezpośrednie** i zaznaczając opcję *Zezwalaj na nieograniczone miary w trybie zapytania bezpośredniego*. Gdy ta opcja jest zaznaczona, można użyć dowolnego wyrażenia języka DAX prawidłowego dla miary. Użytkownicy muszą być jednak świadomi, że niektóre wyrażenia, które dobrze działają po zaimportowaniu danych, mogą znacznie spowalniać zapytania do źródła danych zaplecza w trybie zapytania bezpośredniego.
 
 ## <a name="important-considerations-when-using-directquery"></a>Istotne zagadnienia dotyczące korzystania z zapytania bezpośredniego
 Podczas używania **zapytania bezpośredniego** należy wziąć pod uwagę trzy następujące kwestie:
