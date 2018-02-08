@@ -47,8 +47,7 @@ Obejrzyj, jak Will tworzy wykres kombi przy użyciu przykładu sprzedaży i mark
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lnv66cTZ5ho?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
-<a name="create">
-</a> Aby utworzyć własny wykres kombi, zaloguj się w usłudze Power BI, a następnie wybierz pozycję **Pobierz dane \> Przykłady \> Przykład Retail Analysis > Połącz > Przejdź do pulpitu nawigacyjnego**.
+<a name="create"></a> Aby utworzyć własny wykres kombi, zaloguj się w usłudze Power BI, a następnie wybierz pozycję **Pobierz dane \> Przykłady \> Przykład Retail Analysis > Połącz > Przejdź do pulpitu nawigacyjnego**.
 
 1. Na pulpicie nawigacyjnym „Przykład analizy detalicznej” wybierz kafelek **Magazyny razem**, aby otworzyć raport „Przykład analizy detalicznej”.
 2. Wybierz pozycję **Edytuj raport**, aby otworzyć raport w widoku do edycji.
