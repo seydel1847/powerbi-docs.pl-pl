@@ -130,7 +130,7 @@ Buforowane zestawy danych to pliki PBIX zawierające zaimportowane dane, a nie p
 2. Wywołaj interfejs API pobierania pliku PBIX z obszaru roboczego w usłudze PaaS.
 3. Zapisz plik PBIX.
 4. Wywołaj importowanie pliku do obszaru roboczego w usłudze SaaS.
-5. Zaktualizuj parametry połączenia, wywołując polecenie POST https://api.powerbi.com/v1.0/myorg/datasets/{identyfikator_zestawu_danych}/Default.SetAllConnections
+5. Zaktualizuj parametry połączenia, wywołując polecenie POST  https://api.powerbi.com/v1.0/myorg/datasets/{identyfikator_zestawu_danych}/Default.SetAllConnections
 6. Pobierz identyfikator bramy i identyfikator źródła danych, wywołując polecenie GET https://api.powerbi.com/v1.0/myorg/datasets/{identyfikator_zestawu_danych}/Default.GetBoundGatewayDataSources
 7. Zaktualizuj poświadczenia użytkownika, wywołując polecenie PATCH https://api.powerbi.com/v1.0/myorg/gateways/{identyfikator_bramy}/datasources/{identyfikator_źródła_danych}
 
