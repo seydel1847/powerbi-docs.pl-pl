@@ -398,6 +398,8 @@
           href: power-bi-visualization-best-practices.md
         - name: Wizualizacje niestandardowe w usłudze Power BI
           href: power-bi-custom-visuals.md
+        - name: Niestandardowe elementy wizualne dostępne dla organizacji w usłudze Power BI
+          href: power-bi-custom-visuals-organization.md
         - name: 'Samouczek: część 1, dodawanie wizualizacji do raportu usługi Power BI'
           href: power-bi-report-add-visualizations-i.md
         - name: 'Samouczek: część 2, dodawanie wizualizacji do raportu usługi Power BI'
@@ -730,6 +732,8 @@
       items:
         - name: Widok danych w programie Power BI Desktop
           href: desktop-data-view.md
+        - name: Tabele dat w programie Power BI Desktop
+          href: desktop-date-tables.md
         - name: Widok relacji w programie Power BI Desktop
           href: desktop-relationship-view.md
         - name: Tworzenie relacji i zarządzanie nimi w programie Power BI Desktop
@@ -758,8 +762,12 @@
           href: desktop-qna-in-reports.md
         - name: Okienko analizy w programie Power BI Desktop
           href: desktop-analytics-pane.md
+        - name: Wybór wielokrotny w usłudze Power BI
+          href: desktop-multi-select.md
         - name: Używanie szczegółowych informacji w programie Power BI Desktop
           href: desktop-insights.md
+        - name: Fragmentatory w programie Power BI Desktop
+          href: desktop-slicers.md
         - name: Zakładki w usłudze Power BI
           href: desktop-bookmarks.md
         - name: Używanie motywów raportów
