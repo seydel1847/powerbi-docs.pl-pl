@@ -128,8 +128,6 @@
           href: service-connect-to-azure-consumption-insights.md
         - name: Azure Search
           href: service-connect-to-azure-search.md
-        - name: Centrum zabezpieczeń platformy Azure
-          href: service-connect-to-azure-security-center.md
         - name: Bing
           href: service-connect-to-bing.md
         - name: Identyfikator obwodu
@@ -980,8 +978,6 @@
       items:
         - name: Tworzenie wizualizacji niestandardowej przy użyciu narzędzi deweloperskich
           href: service-custom-visuals-getting-started-with-developer-tools.md
-        - name: Przegląd wizualizacji niestandardowych pod kątem zabezpieczeń i prywatności
-          href: service-custom-visuals-review-for-security-and-privacy.md
         - name: Certyfikowanie wizualizacji niestandardowej
           href: power-bi-custom-visuals-certified.md
     - name: Wypychanie danych do pulpitu nawigacyjnego
