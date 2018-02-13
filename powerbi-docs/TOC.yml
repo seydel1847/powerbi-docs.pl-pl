@@ -852,51 +852,51 @@
       items:
         - name: Aplikacje Power BI dla urządzeń przenośnych
           href: mobile-apps-for-mobile-devices.md
-        - name: Znajdowanie pulpitów nawigacyjnych i raportów na urządzeniu przenośnym
+        - name: 'Znajdowanie pulpitów nawigacyjnych, raportów i aplikacji na urządzeniu przenośnym'
           href: mobile-apps-find-content-mobile-devices.md
-        - name: Co nowego w aplikacjach mobilnych dla usługi Power BI
+        - name: Co nowego w aplikacjach mobilnych
           href: mobile-whats-new-in-the-mobile-apps.md
     - name: Wszystkie aplikacje mobilne
       items:
         - name: Aplikacje Power BI dla systemu iOS
           href: mobile-ios-ipad-iphone-apps.md
-        - name: Wyświetlanie lokalnych raportów i kluczowych wskaźników wydajności w aplikacjach mobilnych Power BI
+        - name: Wyświetlanie lokalnych raportów i kluczowych wskaźników wydajności w aplikacjach mobilnych
           href: mobile-app-ssrs-kpis-mobile-on-premises-reports.md
-        - name: Pulpity nawigacyjne dla aplikacji mobilnych Power BI
+        - name: Pulpity nawigacyjne w aplikacjach mobilnych
           href: mobile-apps-view-dashboard.md
-        - name: Raporty w aplikacjach mobilnych Power BI
+        - name: Raporty w aplikacjach mobilnych
           href: mobile-reports-in-the-mobile-apps.md
         - name: Interakcje z kafelkami w aplikacjach mobilnych
           href: mobile-tiles-in-the-mobile-apps.md
         - name: Udostępnianie pulpitu nawigacyjnego z aplikacji mobilnych Power BI
           href: mobile-share-dashboard-from-the-mobile-apps.md
-        - name: Elementy ulubione w aplikacjach mobilnych Power BI
+        - name: Ulubione w aplikacjach mobilnych
           href: mobile-apps-favorites.md
-        - name: Pobieranie danych usługi Power BI ze środowisk rzeczywistych za pomocą aplikacji mobilnych
+        - name: Pobieranie danych rzeczywistych za pomocą aplikacji mobilnych
           href: mobile-apps-data-in-real-world-context.md
-        - name: Skanowanie kodu QR aplikacji Power BI na telefonie
+        - name: Skanowanie kodu QR na telefonie
           href: mobile-apps-qr-code.md
-        - name: Uzyskiwanie powiadomień w aplikacjach mobilnych Power BI
+        - name: Uzyskiwanie powiadomień w aplikacjach mobilnych
           href: mobile-apps-notification-center.md
-        - name: 'Adnotowanie i udostępnianie kafelka, raportu lub wizualizacji w aplikacjach mobilnych'
+        - name: Dodawanie adnotacji i udostępnianie w aplikacjach mobilnych
           href: mobile-annotate-and-share-a-tile-from-the-mobile-apps.md
-        - name: Ustawianie alertów danych w aplikacjach mobilnych Power BI
+        - name: Ustawianie alertów danych w aplikacjach mobilnych
           href: mobile-set-data-alerts-in-the-mobile-apps.md
-        - name: Filtrowanie raportu według lokalizacji w aplikacjach mobilnych Power BI
+        - name: Filtrowanie raportu według lokalizacji w aplikacjach mobilnych
           href: mobile-apps-geographic-filtering.md
         - name: Zadawanie pytań dotyczących danych w aplikacjach mobilnych dla systemu iOS (samouczek)
           href: mobile-apps-ios-qna.md
         - name: Tworzenie linku bezpośredniego prowadzącego do określonej lokalizacji
           href: mobile-apps-deep-link-specific-location.md
-        - name: Wyświetlanie danych w trybie offline w aplikacjach mobilnych Power BI
+        - name: Wyświetlanie danych w trybie offline w aplikacjach mobilnych
           href: mobile-apps-offline-data.md
-        - name: Wyświetlanie i interakcje z raportami usługi Power BI zoptymalizowanymi pod kątem telefonu
+        - name: Wyświetlanie raportów zoptymalizowanych pod kątem telefonu i interakcje z nimi
           href: mobile-apps-view-phone-report.md
         - name: Konfigurowanie aplikacji mobilnych za pomocą usługi Intune
           href: service-admin-mobile-intune.md
         - name: Łączenie się z usługami Reporting Services za pomocą protokołu OAuth
           href: mobile-oauth-ssrs.md
-        - name: Obsługiwane języki w aplikacjach mobilnych Power BI
+        - name: Obsługiwane języki w aplikacjach mobilnych
           href: mobile-apps-supported-languages.md
     - name: Aplikacja dla tabletu iPad (Power BI dla systemu iOS)
       items:
@@ -908,7 +908,7 @@
           href: mobile-iphone-app-get-started.md
         - name: Aplikacja Power BI dla zegarka Apple Watch
           href: mobile-apple-watch.md
-        - name: Skanowanie kodu kreskowego z aplikacji Power BI na telefonie iPhone
+        - name: Skanowanie kodu kreskowego z aplikacji mobilnej na telefonie iPhone
           href: mobile-apps-scan-barcode-iphone.md
     - name: Aplikacja Power BI dla telefonów z systemem Android
       items:
@@ -924,7 +924,7 @@
       items:
         - name: Wprowadzenie do aplikacji mobilnej Power BI dla systemu Windows 10
           href: mobile-windows-10-phone-app-get-started.md
-        - name: Wyświetlanie raportów i kluczowych wskaźników wydajności usług Reporting Services dla urządzeń przenośnych w aplikacji mobilnej Power BI dla systemu Windows 10
+        - name: Wyświetlanie raportów i kluczowych wskaźników wydajności usług Reporting Services dla urządzeń przenośnych w aplikacji mobilnej dla systemu Windows 10
           href: mobile-app-windows-10-ssrs-kpis-mobile-reports.md
         - name: Przypinanie kafelka lub pulpitu nawigacyjnego usługi Power BI do ekranu startowego
           href: mobile-pin-dashboard-start-screen-windows-10-phone-app.md
