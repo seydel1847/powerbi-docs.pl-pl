@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 02/06/2018
 ms.author: davidi
-ms.openlocfilehash: 1e68f7df5214e038df8bcd1584acb815c0af98bf
-ms.sourcegitcommit: 70e9239e375ae03744fb9bc122d5fc029fb83469
+ms.openlocfilehash: 5d754dbdd5d52e7a5b123755015e656d9fb2cea2
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/22/2017
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="disable-privacy-setting-in-power-bi-gateway---personal"></a>Wyłączanie ustawień prywatności w bramie Power BI Gateway — Personal
 > [!NOTE]
@@ -45,7 +45,7 @@ Aby obejść ten błąd, można włączyć funkcję **szybkiego łączenia**. Fu
 > 
 
 ## <a name="what-is-fast-combine"></a>Co to jest szybkie łączenie?
-Aby dowiedzieć się więcej na temat poziomów prywatności i funkcji szybkiego łączenia, zapoznaj się z artykułem [Poziomy prywatności](https://support.office.com/en-us/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540). Domyślnie ustawiony jest poziom prywatności Prywatne, co może skutkować pojawieniem się błędu omówionego powyżej. Dzieje się tak, ponieważ ustawienie Prywatne izoluje źródło danych od innych źródeł. Przykładem sytuacji, w której może być to problemem, jest zapytanie sparametryzowane otrzymujące dane wejściowe z innego źródła danych.
+Aby dowiedzieć się więcej na temat poziomów prywatności i funkcji szybkiego łączenia, zapoznaj się z artykułem [Poziomy prywatności](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540). Domyślnie ustawiony jest poziom prywatności Prywatne, co może skutkować pojawieniem się błędu omówionego powyżej. Dzieje się tak, ponieważ ustawienie Prywatne izoluje źródło danych od innych źródeł. Przykładem sytuacji, w której może być to problemem, jest zapytanie sparametryzowane otrzymujące dane wejściowe z innego źródła danych.
 
 Włączenie funkcji szybkiego łączenia spowoduje zignorowanie ustawienia Prywatne i umożliwi wykonanie zapytania.
 
@@ -85,7 +85,7 @@ Aby włączyć funkcję szybkiego łączenia dla bramy osobistej, wykonaj nastę
 
 ## <a name="next-steps"></a>Następne kroki
 [Lokalna brama danych (tryb osobisty) —nowa wersja bramy osobistej](service-gateway-personal-mode.md)
-[Poziomy prywatności](https://support.office.com/en-us/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)  
+[Poziomy prywatności](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)  
 [Typowe zadania dotyczące zapytań w programie Power BI Desktop](desktop-common-query-tasks.md)  
-Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
+Więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
 

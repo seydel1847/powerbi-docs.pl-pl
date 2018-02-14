@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/19/2017
 ms.author: maghan
-ms.openlocfilehash: 99b6391dc48772e21dd64038699a3365225167eb
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 78be1a631a167a3b32ecb7d884a3428dc6a362b0
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>Osadzanie za pomocą składnika Web Part raportu w usłudze SharePoint Online
 
@@ -98,12 +98,6 @@ Ewentualnie możesz udzielić użytkownikom dostępu do raportu, wykonując nast
 
 2. Udostępnij pulpit nawigacyjny użytkownikom, którzy potrzebują dostępu do raportu. Aby uzyskać więcej informacji, zobacz [Udostępnianie pulpitu nawigacyjnego współpracownikom i innym osobom](service-share-dashboards.md).
 
-## <a name="allowing-free-users-access-to-reports"></a>Zezwalanie użytkownikom wersji bezpłatnej na dostęp do raportów
-
-Użytkownicy wersji bezpłatnej mogą wyświetlać raporty osadzone za pomocą składnika Web Part usługi Power BI dla usługi SharePoint Online. Dostęp użytkowników wersji bezpłatnej jest udzielany w taki sam sposób jak w przypadku użytkowników wersji Pro, zgodnie z opisem w sekcji [Udzielanie dostępu do raportów](#granting-access-to-reports) powyżej. Obszar roboczy, w którym znajduje się raport, musi również być wspierany przez pojemność usługi Power BI Premium. 
-
-Jeśli na przykład masz raport w obszarze roboczym aplikacji, musisz przypisać obszar roboczy aplikacji do pojemności usługi Power BI Premium. Użytkowników wersji bezpłatnej należy również dodać do listy członków tego obszaru roboczego aplikacji.
-
 ## <a name="web-part-settings"></a>Ustawienia składnika Web Part
 
 Poniżej znajduje się opis ustawień, które można dostosować dla składnika Web Part usługi Power BI dla usługi SharePoint Online.
@@ -160,5 +154,5 @@ Należy skontaktować się z właścicielem strony usługi SharePoint Online, ab
 [Udostępnianie pulpitu nawigacyjnego współpracownikom i innym osobom](service-share-dashboards.md)  
 [Power BI Premium — co to jest?](service-premium.md)  
 
-Masz więcej pytań? [Zadaj pytanie społeczności usługi Power BI](http://community.powerbi.com/)
+Masz więcej pytań? [Zadaj pytanie społeczności usługi Power BI](http://community.powerbi.com/) 
 

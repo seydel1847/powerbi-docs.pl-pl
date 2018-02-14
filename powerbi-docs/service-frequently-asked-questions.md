@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/05/2017
+ms.date: 02/06/2018
 ms.author: maggies
-ms.openlocfilehash: c82b5c302511d5c82ae0048b8dce4f227f6fc5b1
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+ms.openlocfilehash: 53d367d0dc76b338659283215855f4b55a2679fd
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Często zadawane pytania dotyczące usługi Power BI
 * Jeśli masz inne pytania, [zadaj je społeczności usługi Power BI](http://community.powerbi.com/).
@@ -141,7 +141,7 @@ Można również znaleźć [partnera firmy Microsoft](https://partner.microsoft.
 ## <a name="what-happens-if-my-power-bi-pro-license-expires"></a>Co się stanie, jeśli moja licencja usługi Power BI Pro wygaśnie?
 Po wygaśnięciu licencji usługi Power BI Pro następuje 30-dniowy okres prolongaty.
 
-Usługa Power BI Pro ma taki sam cykl życia subskrypcji jak usługa Office 365. Aby uzyskać więcej informacji, zobacz [Co się stanie z moimi danymi i z moim dostępem po zakończeniu subskrypcji usługi Office 365 dla firm?](https://support.office.com/en-us/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3)
+Usługa Power BI Pro ma taki sam cykl życia subskrypcji jak usługa Office 365. Aby uzyskać więcej informacji, zobacz [Co się stanie z moimi danymi i z moim dostępem po zakończeniu subskrypcji usługi Office 365 dla firm?](https://support.office.com/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3)
 
 ## <a name="does-power-bi-meet-national-regional-and-industry-specific-compliance-requirements"></a>Czy usługa Power BI spełnia krajowe, regionalne i branżowe wymagania dotyczące zgodności?
 Dowiedz się więcej na temat zgodności usługi Power BI na stronie [Centrum zaufania firmy Microsoft](http://go.microsoft.com/fwlink/?LinkId=785324).

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/16/2017
+ms.date: 02/06/2018
 ms.author: yshoukry
-ms.openlocfilehash: 9a00183a81e549f873fab53807072b1beeaec7c2
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.openlocfilehash: e71b8d16407dccd559037cfe0aecd8079f62175e
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="connect-to-azure-audit-logs-with-power-bi"></a>Łączenie się z dziennikami inspekcji platformy Azure za pomocą usługi Power BI
 Pakiet zawartości dzienników inspekcji platformy Azure pozwala analizować i wizualizować informacje przechowywane w dziennikach inspekcji. Usługa Power BI pobiera dane, tworzy gotowy do użycia pulpit nawigacyjny i raporty w oparciu o dane.
@@ -59,7 +59,7 @@ Połącz się z [pakietem zawartości dzienników inspekcji platformy Azure](htt
 * Zestaw danych zostanie ustawiony na codzienne odświeżanie, ale możesz zmienić harmonogram odświeżania lub spróbować odświeżyć go na żądanie przy użyciu opcji **Odśwież teraz**
 
 ## <a name="system-requirements"></a>Wymagania systemowe
-Pakiet zawartości dzienników inspekcji platformy Azure wymaga dostępu do dzienników inspekcji w witrynie Azure Portal. Więcej szczegółów można znaleźć [tutaj](https://azure.microsoft.com/en-us/documentation/articles/insights-debugging-with-events/).
+Pakiet zawartości dzienników inspekcji platformy Azure wymaga dostępu do dzienników inspekcji w witrynie Azure Portal. Więcej szczegółów można znaleźć [tutaj](https://azure.microsoft.com/documentation/articles/insights-debugging-with-events/).
 
 <a name="FindingParams"></a>
 

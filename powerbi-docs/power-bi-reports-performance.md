@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/12/2017
 ms.author: v-mamcge
-ms.openlocfilehash: 251503064cca2c0365df74ed0c21b296fb30a7a8
-ms.sourcegitcommit: 1791b8f10332c680a1552d5361a6e01b75091385
+ms.openlocfilehash: 99267fa0ffa1910f9dab920f939082aadb55d6aa
+ms.sourcegitcommit: ad9bd4e52471b1179f46f847960d5ed79c0c0761
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 02/11/2018
 ---
 # <a name="power-bi-performance-best-practices"></a>Wydajność usługi Power BI — najlepsze rozwiązania 
 Ten artykuł zawiera wskazówki dotyczące tworzenia szybkich i niezawodnych raportów w usłudze Power BI.  
@@ -142,7 +142,7 @@ Opóźnienie sieci może wpłynąć na wydajność raportu, zwiększając czas w
 
 Narzędzia takie jak [Azure Speed Test](http://azurespeedtest.azurewebsites.net/) mogą wskazać wielkość opóźnienia sieci między klientem a regionem platformy Azure. Ogólnie rzecz biorąc, w celu zminimalizowania wpływu opóźnienia sieci staraj się, aby źródła danych, bramy i klaster usługi Power BI znajdowały się jak najbliżej siebie. Jeśli opóźnienie sieci jest problemem, możesz spróbować umiejscowić bramy i źródła danych bliżej klastra usługi Power BI, umieszczając je na maszynach wirtualnych. 
 
-Aby dodatkowo poprawić opóźnienie sieci, rozważ użycie usługi [Azure ExpressRoute](https://azure.microsoft.com/en-us/services/expressroute/), która może utworzyć szybsze, bardziej niezawodne połączenia sieciowe między Twoimi klientami a centrami danych platformy Azure. 
+Aby dodatkowo poprawić opóźnienie sieci, rozważ użycie usługi [Azure ExpressRoute](https://azure.microsoft.com/services/expressroute/), która może utworzyć szybsze, bardziej niezawodne połączenia sieciowe między Twoimi klientami a centrami danych platformy Azure. 
 
 ## <a name="next-steps"></a>Następne kroki
 - [Planowanie wdrożenia usługi Power BI Enterprise](https://aka.ms/pbienterprisedeploy) — wszechstronne wskazówki dotyczące wielkoskalowych wdrożeń usługi Power BI 

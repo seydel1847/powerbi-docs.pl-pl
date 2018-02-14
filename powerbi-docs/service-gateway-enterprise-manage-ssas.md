@@ -17,11 +17,11 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: 02012b531ba43ec5f17e47f2b273b75ef8b2d9ec
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.openlocfilehash: 72445988ff4080b7c24f09f797f2038b957631ef
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="manage-your-data-source---analysis-services"></a>Zarządzanie źródłami danych — Analysis Services
 Po zainstalowaniu lokalnej bramy danych musisz dodać źródła danych, które mogą być używane z tą bramą. W tym artykule opisano sposób pracy z bramami i źródłami danych. Do zaplanowanego odświeżania lub połączeń na żywo możesz użyć źródła danych usług Analysis Services.
@@ -89,17 +89,6 @@ Po wprowadzeniu wszystkich wymaganych informacji możesz kliknąć pozycję **Do
 Dla źródła danych można skonfigurować poziom prywatności. Służy on do określania sposobu łączenia danych. Jest to używane tylko w przypadku zaplanowanego odświeżania. Nie ma zastosowania do połączeń na żywo. [Dowiedz się więcej](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)
 
 ![](media/service-gateway-enterprise-manage-ssas/datasourcesettings9.png)
-
-## <a name="get-data-experience-for-analysis-services-in-power-bi-site"></a>Środowisko „Pobierz dane” dla usług Analysis Services w witrynie usługi Power BI
-Unikatowa opcja w przypadku usług Analysis Services to możliwość pobrania danych bezpośrednio w usłudze Power BI. Połączenie na żywo ze źródłem danych usług Analysis Services skonfigurowanym w ramach bramy możesz nawiązać bez konieczności używania programu Power BI Desktop. Twoje konto musi być wymienione na karcie **Użytkownicy** dla źródła danych w obszarze bramy, aby pojawiło się na liście. Aby połączyć się ze źródłem danych, należy wykonać następujące czynności.
-
-1. W usłudze Power BI wybierz pozycję **Pobierz dane**.
-2. Wybierz pozycję **Bazy danych**.
-3. Wybierz pozycję **SQL Server Analysis Services** > **Połącz**.
-4. Wybierz źródło danych z listy. Tutaj będą wymienione wszelkie źródła danych usług Analysis Services, do których masz dostęp.
-5. Wybierz model, z którym chcesz nawiązać połączenie. Następnie wybierz pozycję **Połącz**.
-
-Zobaczysz wyświetlony zestaw danych z nazwą serwera. Następnie możesz wybrać ten zestaw danych i rozpocząć tworzenie w nim raportów. Będzie on pracować z danymi na żywo.
 
 ## <a name="usernames-with-analysis-services"></a>Nazwy użytkowników na poziomie usług Analysis Services
 Za każdym razem, gdy użytkownik wchodzi w interakcję z raportem połączonym z usługami Analysis Services, obowiązująca nazwa użytkownika jest przekazywana do bramy, a następnie do lokalnego serwera usług Analysis Services. Adres e-mail używany do logowania w usłudze Power BI będzie przekazywany do usług Analysis Services jako obowiązująca nazwa użytkownika. Te informacje są przekazywane we właściwości [EffectiveUserName](https://msdn.microsoft.com/library/dn140245.aspx#bkmk_auth) połączenia. Ten adres e-mail powinien być zgodny ze zdefiniowaną nazwą UPN w domenie lokalnej usługi Active Directory. Nazwa UPN jest właściwością konta usługi Active Directory. To konto systemu Windows musi być obecne w roli usługi Analysis Services. Logowanie nie powiedzie się, jeśli w usłudze Active Directory nie zostanie znalezione dopasowanie. [Dowiedz się więcej](https://msdn.microsoft.com/library/ms677605.aspx)
