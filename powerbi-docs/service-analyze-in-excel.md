@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: c09e3502a607661cbe90ff068220c51c9196734e
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 262245dab44ae904b51d6cb1449082171631dc09
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="analyze-in-excel"></a>Analizowanie w programie Excel
 Czasami może zaistnieć potrzeba wyświetlenia i obsługi zestawu danych z usługi Power BI w programie Excel. Jest to możliwe dzięki funkcji **Analizuj w programie Excel**. Funkcja ta pozwala także korzystać z opcji tabeli przestawnej, wykresu i fragmentatora w programie Excel (w zależności od zestawu danych istniejącego w usłudze Power BI).
@@ -32,6 +32,7 @@ Aby można było korzystać z funkcji **Analizuj w programie Excel**, trzeba spe
 * Funkcja **Analizuj w programie Excel** jest obsługiwana w programie Microsoft Excel 2010 z dodatkiem SP1 i jego nowszych wersjach.
 * Tabele przestawne programu Excel nie obsługują agregacji metodą przeciągania i upuszczania pól liczbowych. Zestaw danych w usłudze Power BI *musi mieć wstępnie zdefiniowane miary*.
 * W niektórych organizacjach mogą istnieć reguły zasad grupy uniemożliwiające zainstalowanie w programie Excel wymaganych aktualizacji funkcji **Analizuj w programie Excel**. Jeśli nie możesz zainstalować aktualizacji, skontaktuj się z administratorem.
+* **Analizowanie w programie Excel** wymaga licencji na wersję Pro. Aby dowiedzieć się więcej o różnicach w działaniu wersji bezpłatnej i wersji Pro, zobacz temat [Usługa Power BI — wersja bezpłatna a wersja Pro](service-free-vs-pro.md). 
 
 ## <a name="how-does-it-work"></a>Jak to działa?
 Wybranie pozycji **Analizuj w programie Excel** z menu z wielokropkiem (...) skojarzonego z odpowiednim zestawem danych lub raportem w usłudze **Power BI** powoduje utworzenie w usłudze Power BI pliku ODC i pobranie go z przeglądarki na komputer.

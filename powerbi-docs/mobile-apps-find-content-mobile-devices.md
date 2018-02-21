@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/04/2018
+ms.date: 02/06/2018
 ms.author: maggies
-ms.openlocfilehash: d63ef5ad9ee59901917fb9bf9c28358c9aa542e8
-ms.sourcegitcommit: 25489cf87c31fc107a5337fa1dd36506897c4bbb
+ms.openlocfilehash: 23a3fc38b1cf284f79b3515b25ec0396b79fb267
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/05/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="find-your-dashboards-reports-and-apps-in-the-power-bi-mobile-apps"></a>Odnajdowanie pulpitów nawigacyjnych, raportów i aplikacji w aplikacjach mobilnych usługi Power BI
 Dotyczy:
@@ -41,7 +41,11 @@ W aplikacjach mobilnych Power BI pulpity nawigacyjne, raporty i aplikacje są pr
 5. [Obszary robocze](mobile-apps-find-content-mobile-devices.md#5-workspaces)
 
 ## <a name="1-favorites"></a>1. Ulubione
-Tu możesz zbierać pulpity nawigacyjne i aplikacje, które wyświetlasz najczęściej, oznaczając je jako ulubione. Dowiedz się więcej na temat [ulubionych w aplikacjach mobilnych Power BI](mobile-apps-favorites.md).
+Tu możesz gromadzić najczęściej wyświetlane pulpity nawigacyjne, raporty i aplikacje, oznaczając je jako ulubione. 
+
+![Ulubione w aplikacjach mobilnych usługi Power BI](media/mobile-apps-find-content-mobile-devices/power-bi-android-favorites-reports.png)
+
+Dowiedz się więcej na temat [ulubionych w aplikacjach mobilnych Power BI](mobile-apps-favorites.md).
 
 ## <a name="2-report-servers"></a>2. Serwery raportów
 Możesz mieć połączenia z lokalnymi serwerami raportów usługi Power BI lub serwerami usług SQL Server Reporting Services. W takim przypadku wyświetlane są tutaj wskaźniki KPI i raporty usługi Power BI oraz raporty z podziałem na strony na serwerze. Jeśli dowolny z tych elementów został oznaczony jako ulubiony na serwerze, również pojawi się na liście Ulubione. Dowiedz się więcej na temat [wyświetlania lokalnych wskaźników KPI oraz raportów w aplikacjach mobilnych usługi Power BI](mobile-app-ssrs-kpis-mobile-on-premises-reports.md).
@@ -65,9 +69,9 @@ W aplikacjach mobilnych usługi Power BI można wyświetlać wszystkie aplikacje
 Z usługi Power BI możesz również przejść do witryny Microsoft AppSource, aby wyszukać inne aplikacje. Nie jest to możliwe z aplikacji mobilnych Power BI. 
 
 ## <a name="4-shared-with-me"></a>4. Udostępnione dla mnie
-W tym obszarze znajdują się pulpity nawigacyjne, które zostały Ci udostępnione przez współpracowników. Można je filtrować według właściciela pulpitu nawigacyjnego lub wyszukać elementy. Często używaną zawartość można dodać do ulubionych bezpośrednio z widoku **Udostępnione dla mnie**, stukając ikonę wielokropka (...).
+W tym obszarze znajdują się pulpity nawigacyjne i raporty, które zostały Ci udostępnione przez współpracowników. Można je filtrować według właściciela lub wyszukać w nich elementy. Często używaną zawartość można dodać do ulubionych bezpośrednio z widoku **Udostępnione dla mnie**, stukając ikonę wielokropka (**...**).
 
-![Nowa nawigacja w usłudze Power BI](media/mobile-apps-find-content-mobile-devices/power-bi-mobile-shared-with-me-fave.png)
+![Power BI: Udostępnione dla mnie](media/mobile-apps-find-content-mobile-devices/power-bi-android-shared-fave.png)
 
 ## <a name="5-workspaces"></a>5. Obszary robocze
 Są nazywane również *obszarami roboczymi aplikacji* i stanowią środowisko przejściowe w usłudze Power BI ([https://powerbi.com](https://powerbi.com)), w którym można wspólnie z innymi osobami tworzyć kolekcje pulpitów nawigacyjnych i raportów. Następnie można udostępnić taką kolekcję jako *aplikację*. 

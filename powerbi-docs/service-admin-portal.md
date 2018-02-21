@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/02/2018
+ms.date: 02/06/2018
 ms.author: maghan
-ms.openlocfilehash: 36f2b591f53e7d9e930048cdedde114348466147
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 7e19e37bf024ec30db58057de54e3039ed7b80b2
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="power-bi-admin-portal"></a>Portal administracyjny usługi Power BI
 
@@ -40,7 +40,7 @@ Twoje konto musi być oznaczone jako **Administrator globalny**, w usłudze Offi
 
 ![](media/service-admin-portal/powerbi-admin-settings.png)
 
-W portalu znajduje się pięć kart. Zostały one opisane poniżej.
+W portalu znajduje się sześć kart. Zostały one opisane poniżej.
 
 * [Metryki użycia](#usage-metrics)
 * [Użytkownicy](#users)
@@ -48,6 +48,7 @@ W portalu znajduje się pięć kart. Zostały one opisane poniżej.
 * [Ustawienia dzierżawy](#tenant-settings)
 * [Ustawienia — wersja Premium](#premium-settings)
 * [Kody osadzania](#embed-codes)
+* [Organization visuals](#Organization-visuals) (Wizualizacje organizacji)
 
 ![](media/service-admin-portal/powerbi-admin-landing-page.png)
 
@@ -269,6 +270,46 @@ Aby uzyskać więcej informacji o zarządzaniu ustawieniami wersji Premium, zoba
 
 Jako administrator możesz wyświetlać kody osadzania, które są generowane dla dzierżawy. Do dyspozycji masz akcje wyświetlenia raportu i usunięcia kodu osadzania w celu odwołania go.
 
+## <a name="organization-visuals"></a>Organization visuals (Wizualizacje organizacji)
+
+Karta wizualizacji organizacji umożliwia wdrażanie niestandardowych wizualizacji oraz zarządzanie nimi w ramach organizacji. Pozwala łatwo implementować własne wizualizacje niestandardowe w organizacji, tak aby autorzy raportów mogli je w prosty sposób odnajdować i importować bezpośrednio z programu Power BI Desktop do swoich raportów.
+ 
+Na stronie znajdują się wszystkie wizualizacje niestandardowe, które są aktualnie zaimplementowane w repozytorium organizacji.
+ 
+![](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-01.png)
+
+### <a name="add-a-new-custom-visual"></a>Dodawanie nowej wizualizacji niestandardowej
+
+Aby dodać nową wizualizację niestandardową do listy, wybierz pozycję **Importuj niestandardową wizualizację**.
+
+![](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-02.png)
+
+> [!WARNING]
+> Wizualizacja niestandardowa może zawierać kod zagrażający bezpieczeństwu lub prywatności. Przed jej wdrożeniem w repozytorium pochodzenia upewnij się, że autor i źródło wizualizacji niestandardowej należą do zaufanych.
+> 
+
+Wypełnij pola:
+ 
+* Wybierz plik pbiviz (wymagane): wybierz plik wizualizacji niestandardowej do przekazania. Obsługiwane są tylko wersjonowane niestandardowe wizualizacje interfejsu API (przeczytaj tutaj, co to oznacza).
+Przed przekazaniem wizualizacji niestandardowej należy ją sprawdzić pod kątem zabezpieczeń i prywatności, aby zapewnić jej zgodność ze standardami organizacji. Przeczytaj więcej o zabezpieczeniach wizualizacji niestandardowych.
+ 
+* Nazwij swoją wizualizację niestandardową (wymagane): nadaj wizualizacji krótki tytuł, by użytkownicy programu Power BI Desktop mogli łatwo poznać jej zastosowanie
+ 
+* Ikona (wymagane): plik ikony, który będzie wyświetlany w interfejsie użytkownika programu Power BI Desktop.
+ 
+* Opis: krótki opis wizualizacji zapewniający użytkownikowi więcej informacji i kontekst
+ 
+Wybierz opcję „Zastosuj”, aby zainicjować żądanie przekazania. Jeśli operacja zostanie wykonana pomyślnie, na liście pojawi się nowy element. Jeśli operacja zakończy się niepowodzeniem, zostanie wyświetlony odpowiedni komunikat o błędzie.
+ 
+### <a name="delete-a-custom-visual-from-the-list"></a>Usuwanie wizualizacji niestandardowej z listy
+
+Wybierz ikonę kosza, aby trwale usunąć wizualizację z repozytorium.
+Ważne: usunięcie elementu jest nieodwracalne. Usunięcie wizualizacji spowoduje zakończenie renderowania w istniejących raportach. Nawet w przypadku ponownego przekazania tej samej wizualizacji nie zastąpi ona poprzedniej, która została usunięta. Użytkownicy będą musieli ponownie zaimportować nową wizualizację i zastąpić wystąpienie w raportach.
+ 
+### <a name="how-to-update-a-visual"></a>Jak zaktualizować wizualizację
+
+Jeśli chcesz zaktualizować wizualizację w repozytorium, ponieważ pojawiła się jej nowa wersja (np. zawierająca poprawki, nowe funkcje itp.), przekaż nowy plik (bez zmiany identyfikatora Visual ID) jako nową pozycję na liście. Pamiętaj o podaniu prawidłowych informacji w polach tytułu i opisu (np. "My Visual v2.0"). Następnym razem, gdy użytkownicy przejdą do repozytorium organizacji z programu Power BI Desktop, będą mogli zaimportować nową wersję, która wyświetli monit o zastąpienie bieżącej wersji zawartej w raporcie.
+ 
 ## <a name="next-steps"></a>Następne kroki
 
 [Opis roli administratora usługi Power BI](service-admin-role.md)  

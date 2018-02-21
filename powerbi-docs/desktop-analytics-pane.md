@@ -15,26 +15,24 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: add95532f645c143aea0f58200f9e3b1467320d0
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 02498ff745a2e06a49ed6064a4f7eefebff305f8
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="using-the-analytics-pane-in-power-bi-desktop"></a>Użycie okienka analizy w programie Power BI Desktop
-Za pomocą okienka **Analiza** w programie **Power BI Desktop** możesz dodać do wizualizacji dynamiczne *linie odwołania* i skoncentrować się na ważnych trendach lub szczegółowych informacjach. Okienko **Analiza** znajduje się w obszarze **Wizualizacje** programu Power BI Desktop, począwszy od wersji z sierpnia 2016 r. (wersja 2.37.4464.321 lub nowsza), jak przedstawiono poniżej.
+Za pomocą okienka **Analiza** w programie **Power BI Desktop** możesz dodać do wizualizacji dynamiczne *linie odwołania* i skoncentrować się na ważnych trendach lub szczegółowych informacjach. Okienko **Analiza** znajduje się w obszarze **Wizualizacje** programu Power BI Desktop.
 
 ![](media/desktop-analytics-pane/analytics-pane_1.png)
 
 > [!NOTE]
 > Okienko **Analiza** jest wyświetlane tylko po wybraniu wizualizacji na kanwie programu Power BI Desktop.
-> 
-> 
 
-## <a name="enable-forecasting-preview"></a>Włącz prognozowanie (wersja zapoznawcza)
-Ponadto od programu **Power BI Desktop** w wersji z września 2016 r. (wersja 2.39.4526.362 lub nowsza) możesz przeprowadzić *prognozowanie* z poziomu okienka **Analiza**. Należy włączyć tę funkcję w wersji zapoznawczej, przechodząc do pozycji **Plik > Opcje i ustawienia > Opcje**, a następnie wybierając pozycję **Funkcje w wersji zapoznawczej** z okienka po lewej stronie. Zaznacz pole wyboru obok pozycji **Prognozowanie**, aby włączyć funkcję, jak pokazano na poniższej ilustracji. Aby zmiany zaczęły obowiązywać, należy ponownie uruchomić program **Power BI Desktop**.
+## <a name="search-within-the-analytics-pane"></a>Wyszukiwanie w okienku Analiza
+W wersji programu **Power BI Desktop** z lutego 2018 r. (wersji 2.55.5010.201 lub nowszej) można przeprowadzać wyszukiwanie w okienku **Analiza**, które stanowi podsekcję okienka **Wizualizacje**. Jak pokazano na ilustracji poniżej, pole wyszukiwania jest wyświetlane po wybraniu okienka **Analiza**.
 
 ![](media/desktop-analytics-pane/analytics-pane_1b.png)
 

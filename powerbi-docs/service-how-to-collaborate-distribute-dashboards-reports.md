@@ -1,6 +1,6 @@
 ---
 title: "Jak można współpracować i udostępniać w usłudze Power BI?"
-description: "W usłudze Power BI można współpracować nad pulpitami nawigacyjnymi, raportami i kafelkami oraz udostępniać je na kilka różnych sposobów. Każdy sposób ma swoje zalety."
+description: "W usłudze Power BI można na różne sposoby współpracować za pośrednictwem pulpitów nawigacyjnych, raportów, kafelków i aplikacji oraz je udostępniać. Każdy sposób ma swoje zalety."
 services: powerbi
 documentationcenter: 
 author: maggiesMSFT
@@ -15,15 +15,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/18
+ms.date: 02/09/2018
 ms.author: maggies
-ms.openlocfilehash: 032d07616464dcda8cc4cc38b1440936e5393a98
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.openlocfilehash: 31d862fd2086c0e1bdc98f3e6d84fcc1d2c094de
+ms.sourcegitcommit: ad9bd4e52471b1179f46f847960d5ed79c0c0761
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/11/2018
 ---
-# <a name="how-should-i-collaborate-and-share-dashboards-and-reports-in-power-bi"></a>Jak współpracować nad pulpitami nawigacyjnymi i raportami oraz udostępniać je w usłudze Power BI?
+# <a name="how-should-i-collaborate-and-share-in-power-bi"></a>Jak można współpracować i udostępniać w usłudze Power BI?
+
 Tworzysz pulpity nawigacyjne i raporty. Być może pracujesz również nad nimi ze swoimi współpracownikami. A potem chcesz, aby inni mieli do nich dostęp. Jaki jest najlepszy sposób, aby je rozpowszechnić?
 
 W tym artykule porównamy następujące opcje współpracy i udostępniania w usłudze Power BI: 

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: 0d6d66016663ed0e12d8f3da854ec1e9f7da7eae
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.openlocfilehash: ceccf00879d3ac17f907f5dce296bb03bb0227d2
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="using-directquery-in-power-bi"></a>Używanie zapytania bezpośredniego w usłudze Power BI
 Możesz połączyć się z szeroką gamą różnych źródeł danych, korzystając z programu **Power BI Desktop** lub **usługi Power BI**, i te połączenia z danymi możesz wykonywać w różny sposób. Możesz albo *zaimportować* dane do usługi Power BI, co jest najczęściej używanym sposobem pobierania danych, lub możesz połączyć się bezpośrednio z danymi w ich oryginalnym repozytorium źródłowym, co jest nazywane **zapytaniem bezpośrednim**. W tym artykule zostało opisane **zapytanie bezpośrednie** i jego możliwości, łącznie z następującymi tematami:
@@ -269,14 +269,21 @@ Podczas definiowania modelu należy wziąć pod uwagę poniższe:
 ### <a name="report-design-guidance"></a>Wskazówki dotyczące projektowania raportu
 Podczas tworzenia raportu za pomocą połączenia zapytania bezpośredniego należy stosować się do poniższych wskazówek:
 
+* **Rozważ użycie opcji redukcji zapytania:** usługa Power BI zapewnia w raporcie opcje wysyłania mniejszej liczby zapytań oraz wyłączenia niektórych interakcji, które mogłyby spowodować pogorszenie środowiska pracy w przypadku, gdy wykonanie wynikowych zapytań zajmuje dużo czasu. Aby uzyskać dostęp do tych opcji w programie **Power BI Desktop**, wybierz kolejno pozycje **Plik > Opcje i Ustawienia > Opcje** oraz **Redukcja zapytania**. 
+
+   ![](media/desktop-directquery-about/directquery-about_03b.png)
+
+    Zaznaczenie pól wyboru w obszarze **Redukcja zapytania** umożliwia wyłączenie krzyżowego wyróżniania w całym raporcie. Można również wyświetlić przycisk *Zastosuj* dla wybranych opcji fragmentatorów i/lub filtrów, co umożliwia wybranie wielu opcji fragmentatorów i filtrów przed ich zastosowaniem. Zapytania zostaną wysłane dopiero po wybraniu przycisku **Zastosuj** na fragmentatorze. Wybrane opcje zostaną następnie użyte do filtrowania danych.
+
+    Te opcje będą stosowane w raporcie podczas pracy w programie **Power BI Desktop**, a także podczas korzystania z niego w **usłudze Power BI**.
+
 * **Najpierw zastosuj filtry:** zawsze stosuj wszelkie stosowne filtry na początku tworzenia wizualizacji. Na przykład zamiast przeciągania kolumn TotalSalesAmount i ProductName, a następnie filtrowania według konkretnego roku, zastosuj filtr według roku na samym początku. Jest tak, ponieważ każdy krok w procesie tworzenia wizualizacji będzie wysyłać zapytanie i chociaż jest możliwe późniejsze wprowadzenie innej zmiany przed ukończeniem pierwszego zapytania, nadal pozostawia to niepotrzebne obciążenie w bazowym źródle. Wczesne zastosowanie filtrów najczęściej powoduje, że te pośrednie zapytania są mniej kosztowne. Ponadto niezastosowanie filtrów odpowiednio wcześniej może spowodować przekroczenie powyższego ograniczenia liczby wierszy do 1 miliona.
 * **Ogranicz liczbę wizualizacji na stronie:** gdy strona jest otwierana (lub nastąpiła zamiana pewnego fragmentatora na poziomie strony lub filtra), wówczas są odświeżane wszystkie wizualizacje na stronie. Istnieje też ograniczenie liczby zapytań, które są wysyłane równolegle, dlatego w miarę zwiększania liczby wizualizacji niektóre z nich zostaną odświeżone szeregowo, wydłużając czas niezbędny do odświeżenia całej strony. Z tego powodu zaleca się ograniczenie liczby wizualizacji na jednej stronie i zamiast tego użycie większej liczby prostszych stron.
 * **Rozważ wyłączenie interakcji między wizualizacjami:** domyślnie wizualizacje na stronie raportu mogą służyć do krzyżowego filtrowania i wyróżniania innych wizualizacji na stronie. Na przykład po wybraniu „1999” na wykresie kołowym, wykres kolumnowy zostanie krzyżowo wyróżniony, aby pokazać sprzedaż według kategorii dla „1999”.                                                                  
   
   ![](media/desktop-directquery-about/directquery-about_04.png)
   
-  Jednak ta interakcja może być kontrolowana zgodnie z opisem [w tym artykule](service-reports-visual-interactions.md). W zapytaniu bezpośrednim takie filtrowanie i wyróżnianie krzyżowe wymaga wysłania zapytania do bazowego źródła. Interakcję należy zatem wyłączyć, jeżeli czas potrzebny na reakcję na wybory użytkowników byłby nieuzasadnienie długi.
-* **Rozważ udostępnienie samego raportu:** istnieją różne sposoby udostępniania zawartości po opublikowaniu w **usłudze Power BI**. W przypadku zapytania bezpośredniego zaleca się rozważenie udostępnienia tylko ukończonego raportu, a nie zezwolenie innym użytkownikom na tworzenie nowych raportów (i potencjalnie napotkanie problemów z wydajnością dla konkretnej wizualizacji, którą tworzą).
+  W zapytaniu bezpośrednim takie filtrowanie i wyróżnianie krzyżowe wymaga wysłania zapytania do bazowego źródła. Z tego względu interakcję należy wyłączyć, jeżeli czas reakcji na wybory użytkowników byłby zbyt długi. Interakcję można wyłączyć dla całego raportu (jak opisano powyżej w części *Opcje redukcji zapytania*) lub w indywidualnym przypadku, zgodnie z opisem [w tym artykule](service-reports-visual-interactions.md).
 
 Oprócz powyższej listy sugestii należy pamiętać, że każda z poniższych możliwości raportowania może spowodować problemy z wydajnością:
 
@@ -294,6 +301,8 @@ Oprócz powyższej listy sugestii należy pamiętać, że każda z poniższych m
 * **Mediana:** ogólnie rzecz biorąc, wszelkie agregacje (Sum, Count Distinct itd.) są wypychane do bazowego źródła. Jednak nie jest to spełnione dla mediany, ponieważ ta wartość zagregowana nie jest zwykle obsługiwana przez bazowe źródło. W takich przypadkach szczegółowe dane są pobierane z bazowego źródła i mediana jest obliczana na podstawie zwracanych wyników. Jest to uzasadnione, gdy mediana ma być obliczana dla stosunkowo małej liczby wyników, ale problemy z wydajnością (lub niepowodzenia zapytań z powodu ograniczenie liczby wierszy do 1 mln) wystąpią, jeśli kardynalność jest duża.  Na przykład mediana populacji kraju może mieć uzasadnienie, ale mediana ceny sprzedaży już raczej nie.
 * **Zaawansowane filtry tekstowe („zawiera” i podobne):** podczas filtrowania według kolumny tekstowej zaawansowane filtrowanie dopuszcza takie filtry, jak „zawiera” i „zaczyna się od” itd. Te filtry na pewno mogą spowodować pogorszenie wydajności dla niektórych źródeł danych. W szczególności domyślny filtr „zawiera” nie powinien być używany, jeśli tym, co naprawdę potrzebne, jest dokładna zgodność („równy” lub „nierówny”). Mimo że wyniki mogą być takie same, w zależności od rzeczywistych danych, wydajność może się znacząco różnić z powodu używania indeksów.
 * **Fragmentatory wielokrotnego wyboru:** domyślnie fragmentatory zezwalają tylko na pojedynczy wybór. Dopuszczenie filtrów wielokrotnego wyboru może spowodować pewne problemy z wydajnością, ponieważ gdy użytkownik wybierze zestaw elementów we fragmentatorze (na przykład dziesięć produktów, którymi jest zainteresowany), wówczas każdy nowy wybór spowoduje wysłanie zapytań do źródła zaplecza. O ile użytkownik może wybrać następny element przed zakończeniem zapytania, powoduje to dodatkowe obciążenie bazowego źródła.
+
+* **Należy rozważyć wyłączenie sum na wizualizacjach:** domyślnie w tabelach i matrycach są wyświetlane sumy i sumy częściowe. W wielu przypadkach aby uzyskać wartości dla takich sum, należy wysłać oddzielne zapytania do bazowego źródła. Dotyczy to każdego użycia agregacji *DistinctCount* oraz wszystkich przypadków wykonywania zapytania bezpośredniego za pośrednictwem oprogramowania SAP BW lub SAP HANA. Takie sumy należy wyłączyć (przy użyciu okienka **Format**), jeśli nie są wymagane. 
 
 ### <a name="diagnosing-performance-issues"></a>Diagnozowanie problemów z wydajnością
 W tej sekcji opisano sposób diagnozowania problemów z wydajnością lub sposób uzyskania bardziej szczegółowych informacji umożliwiających optymalizację raportów.

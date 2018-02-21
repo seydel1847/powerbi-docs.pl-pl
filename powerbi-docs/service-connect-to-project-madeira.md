@@ -3,7 +3,7 @@ title: "Łączenie się z projektem Project Madeira przy użyciu usługi Power B
 description: "Projekt Project Madeira dla usługi Power BI"
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: bf65b900f315f74c5ca81980e6371d92923cb97d
-ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
+ms.author: sarinas
+ms.openlocfilehash: b75ea1028694a9dab32073ce70180e61798d7d28
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-project-madeira-with-power-bi"></a>Łączenie się z projektem Project Madeira przy użyciu usługi Power BI
 Pobieranie szczegółowych informacji o danych projektu Project Madeira przy użyciu usługi Power BI i pakietu zawartości projektu Project Madeira jest łatwe. Usługa Power BI pobiera dane, zarówno dotyczące sprzedaży, jak i finansowe, a następnie tworzy gotowe pulpity nawigacyjne i raporty na podstawie tych danych.
@@ -47,7 +47,7 @@ Połącz się z [pakietem zawartości Project Madeira Analytics](https://app.pow
     >[!NOTE]
     >W projekcie Project Madeira musisz być superużytkownikiem.
    
-    ![](media/service-connect-to-project-madeira/creds.png)
+   ![](media/service-connect-to-project-madeira/creds.png)
 6. Po nawiązaniu połączenia automatycznie zostanie załadowany pulpit nawigacyjny, raport i zestaw danych. Po zakończeniu kafelki zostaną zaktualizowane przy użyciu danych pochodzących z konta.  
    
     ![](media/service-connect-to-project-madeira/dashboard.png)
@@ -95,12 +95,14 @@ Po wybraniu przycisku OK klucz zostanie utworzony i będzie można skopiować go
 ## <a name="troubleshooting"></a>Rozwiązywanie problemów
 Pulpit nawigacyjny usługi Power BI korzysta z opublikowanych usług internetowych wymienionych powyżej i pokazuje dane z firmy pokazowej lub własnej firmy, jeśli importujesz dane z bieżącego rozwiązania finansowego. Jednak jeśli coś pójdzie nie tak, w tej sekcji znajdziesz obejścia wielu typowych problemów.
 
-**„Walidacja parametru nie powiodła się. Upewnij się, że wszystkie parametry są prawidłowe”. **Jeśli po wprowadzeniu adresu URL projektu Project Madeira zostanie wyświetlony ten komunikat o błędzie, upewnij się, że są spełnione następujące wymagania:  
+**„Walidacja parametru nie powiodła się, upewnij się, że wszystkie parametry są prawidłowe”**
 
-    - Adres URL jest zgodny ze wzorem https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('*CRONUS%20US*').  
-    - Usuń wszelki tekst po nazwie firmy w nawiasie.  
-    - Upewnij się, że na końcu adresu URL nie znajduje się ukośnik.  
-    - Upewnij się, że adres URL korzysta z bezpiecznego połączenia. Adres URL rozpoczynający się od https oznacza bezpieczne połączenie.  
+Jeśli po wprowadzeniu adresu URL projektu Project Madeira zostanie wyświetlony ten komunikat o błędzie, upewnij się, że spełnione zostały następujące wymagania:  
+
+   - Adres URL jest zgodny ze wzorem https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('*CRONUS%20US*').  
+   - Usuń wszelki tekst po nazwie firmy w nawiasie.  
+   - Upewnij się, że na końcu adresu URL nie znajduje się ukośnik.  
+   - Upewnij się, że adres URL korzysta z bezpiecznego połączenia. Adres URL rozpoczynający się od https oznacza bezpieczne połączenie.  
 
 **„Logowanie nie powiodło się”** Jeśli podczas logowania do pulpitu nawigacyjnego przy użyciu poświadczeń projektu Project Madeira pojawi się komunikat „Logowanie nie powiodło się”, może być to spowodowane przez jeden z następujących problemów:  
 

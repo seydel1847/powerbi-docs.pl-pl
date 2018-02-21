@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: ff29fa49cc3ad1a57ae0d09596b6e0d086b4d349
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.openlocfilehash: 0056fe1d5a2881f1415fe5889ab563a27bb8648d
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="use-the-matrix-visual-in-power-bi-desktop"></a>Używanie wizualizacji Macierz w programie Power BI Desktop
 Wizualizacja **Macierz** pozwala tworzyć wizualizacje macierzy (czasami określane jako *tabele*) w raportach programu **Power BI Desktop**, a także umożliwia wyróżnianie krzyżowe elementów w macierzy oraz w innych wizualizacjach. Ponadto możesz zaznaczać do wyróżnienia krzyżowego wiersze, kolumny, a nawet pojedyncze komórki. Aby jeszcze skuteczniej wykorzystać miejsce, wizualizacja macierzy obsługuje układ schodkowy.
@@ -34,6 +34,19 @@ Z macierzą jest skojarzonych wiele funkcji. Omówimy je w kolejnych sekcjach te
 > Od wersji programu **Power BI Desktop** z lipca 2017 wizualizacja macierzy i tabeli odzwierciedla stylizację (w tym kolorystykę) zastosowanego **motywu raportu**. Te kolory mogą różnić się od oczekiwanych w wizualizacji macierzy. Możesz je zmienić w konfiguracji **motywu raport**. Aby uzyskać więcej informacji o motywach, zobacz [**Korzystanie z motywów raportów w programie Power BI Desktop**](desktop-report-themes.md).
 > 
 > 
+
+## <a name="understanding-how-power-bi-calculates-totals"></a>W jaki sposób usługa Power BI oblicza sumy
+
+Zanim przejdziemy do sposobu używania wizualizacji **Macierz**, ważne jest, aby zrozumieć, jak usługa Power BI oblicza sumy i sumy częściowe w tabelach i macierzach. W przypadku wierszy sum i sum częściowych miara jest obliczana z uwzględnieniem wszystkich wierszy danych podstawowych — *nie* jest to jedynie proste dodanie wartości w widocznych lub wyświetlanych wierszach. To oznacza, że w wierszu sumy można uzyskać wartości różniące się od oczekiwanych. 
+
+Zobacz następujące wizualizacje **Macierz**. 
+
+![](media/desktop-matrix-visual/matrix-visual_3.png)
+
+W tym przykładzie każdy wiersz w wizualizacji **Macierz** najdalej z prawej strony zawiera *kwotę* dla każdej kombinacji sprzedawca/data. Ze względu na to, że sprzedawca jest wyświetlany w odniesieniu do wielu dat, liczby mogą wystąpić więcej niż raz. Dlatego dokładna suma z danych podstawowych i proste dodanie widocznych wartości nie są równoważne. Jest to typowy wzorzec, gdy sumowana wartość znajduje się po stronie „jeden” w relacji jeden do wielu.
+
+Przeglądając sumy i sumy częściowe należy pamiętać, że wartości te są oparte na danych podstawowych, a nie wyłącznie na wartościach, które są widoczne. 
+
 
 ## <a name="using-drill-down-with-the-matrix-visual"></a>Przechodzenie do szczegółów w wizualizacji macierzy
 Wizualizacja **Macierz** oferuje wiele interesujących, niedostępnych wcześniej sposobów przechodzenia do szczegółów. Obejmuje to między innymi przechodzenie do szczegółów w wierszach, kolumnach, a nawet sekcjach i komórkach. Przyjrzyjmy się, jak to działa.
@@ -144,16 +157,12 @@ Niezależnie od wybranej metody wynik będzie taki sam. Wybranie opcji *Kontrolk
 
 ![](media/desktop-matrix-visual/matrix-visual_19.png)
 
-## <a name="limitations-and-considerations"></a>Ograniczenia i istotne zagadnienia
-W tej wersji wizualizacji **Macierz** występują pewne ograniczenia i zagadnienia, które trzeba mieć na uwadze.
+## <a name="next-steps"></a>Następne kroki
 
-* Do przechodzenia między poziomami szczegółów kolumn służy menu kontekstowe. Obecnie wygląd wizualizacji w żaden sposób nie wskazuje, że można przechodzić do szczegółów grup wierszy lub kolumn.
-* Rozwinąć można tylko wszystkie elementy danego poziomu naraz. Nie można rozwijać pojedynczych kategorii.
-* Po kliknięciu nagłówka kolumny prawym przyciskiem myszy może być widoczne polecenie **Zobacz rekordy**, ale ta funkcja nie działa.
-* Obecnie nie ma wiersza *Suma końcowa*.
-* Wyłączenie wiersza sum częściowych w układzie schodkowym nie ma żadnego skutku.
-* Nagłówki kolumn mogą być przycięte, jeśli tekst grup wewnętrznych jest krótszy niż grupy zewnętrznej.
-* Zmiana wcięcia układu schodkowego nie powinna spowodować wcięcia grupy najbardziej zewnętrznego wiersza.
+Może zainteresują Cię również następujące artykuły:
 
-Chętnie dowiemy się, co myślisz. Obecnie prowadzimy **ankietę** na temat tej wizualizacji **Macierz**. Zachęcamy do poświęcenia kilku minut i [wypełnienia ankiety](https://www.instant.ly/s/PYXT1).
+* [Używanie linii siatki i przyciągania do siatki w raportach programu Power BI Desktop](desktop-gridlines-snap-to-grid.md)
+* [Źródła danych w programie Power BI Desktop](desktop-data-sources.md)
+* [Typy danych w programie Power BI Desktop](desktop-data-types.md)
 
+ 

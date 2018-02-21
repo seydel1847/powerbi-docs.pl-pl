@@ -1,5 +1,5 @@
 ---
-title: "Używanie Szybkich miar w celu łatwego wykonywania typowych i zaawansowanych obliczeń w usłudze Power BI (wersja zapoznawcza)"
+title: "Łatwe wykonywanie typowych i zaawansowanych obliczeń w usłudze Power BI przy użyciu szybkich miar"
 description: "Szybkie miary zapewniają gotowe do użycia formuły języka DAX, dzięki którym można szybko wykonywać typowe obliczenia"
 services: powerbi
 documentationcenter: 
@@ -15,23 +15,24 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: d0fc21c19a574f096c46c26331df3114e8c46c31
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.openlocfilehash: ce971f980bf1796bfef8439b1ea260190fb678df
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
-# <a name="use-quick-measures-to-easily-perform-common-and-powerful-calculations-preview"></a>Używanie Szybkich miar w celu łatwego wykonywania typowych i zaawansowanych obliczeń (wersja zapoznawcza)
-Począwszy od wersji programu **Power BI Desktop** z kwietnia 2017 r., możesz używać **Szybkich miar**, aby łatwo i szybko wykonywać typowe, zaawansowane obliczenia. **Szybka miara** uruchamia zestaw poleceń języka DAX w tle (nie musisz pisać formuł DAX — są już gotowe) w oparciu o dane wprowadzone w oknie dialogowym, a następnie przedstawia wyniki do użycia w raporcie. Ponadto możesz zobaczyć formuły DAX wykonywane przez Szybką miarę i szybko zrozumieć lub rozszerzyć swoją wiedzę o języku DAX.
+# <a name="use-quick-measures-to-easily-perform-common-and-powerful-calculations"></a>Łatwe wykonywanie typowych i zaawansowanych obliczeń przy użyciu szybkich miar
+**Szybkie miary** umożliwiają łatwe i szybkie wykonywania typowych i zaawansowanych obliczeń. **Szybka miara** uruchamia zestaw poleceń języka DAX w tle (nie musisz pisać formuł DAX — są już gotowe) w oparciu o dane wprowadzone w oknie dialogowym, a następnie przedstawia wyniki do użycia w raporcie. Ponadto możesz zobaczyć formuły DAX wykonywane przez Szybką miarę i szybko zrozumieć lub rozszerzyć swoją wiedzę o języku DAX.
 
 ![](media/desktop-quick-measures/quick-measures_01.png)
 
 **Szybkie miary** tworzy się poprzez kliknięcie prawym przyciskiem myszy pola na liście **Pola** oraz wybranie opcji **Szybkie miary** z wyświetlonego menu. Możesz też kliknąć prawym przyciskiem myszy dowolną wartość w okienku **Wartości** istniejącej wizualizacji (np. pole *Wartości* w wizualizacji *Wykres słupkowy*). Istnieje wiele dostępnych kategorii obliczeń oraz sposobów dostosowywania obliczeń do potrzeb.
 
-### <a name="enable-the-quick-measures-preview"></a>Włączanie Szybkich miar — wersja zapoznawcza
-Możesz wypróbować nową funkcję **Szybkie miary**, począwszy od programu **Power BI Desktop** w wersji z **kwietnia 2017 r.** Aby włączyć tę funkcję w wersji zapoznawczej, wybierz pozycję **Plik > Opcje i ustawienia > Opcje > Funkcje wersji zapoznawczej**, a następnie zaznacz pole wyboru obok pozycji **Szybkie miary**. Po zaznaczeniu należy uruchomić ponownie program Power BI Desktop.
+### <a name="quick-measures-now-generally-available"></a>Szybkie miary teraz ogólnie dostępne
+
+W wersji programu **Power BI Desktop** z lutego 2018 r. szybkie miary są ogólnie dostępne (nie występują już w wersji zapoznawczej). Jeśli używasz wcześniejszej wersji programu **Power BI Desktop**, możesz wypróbować funkcję **Szybkie miary** w wersji programu **Power BI Desktop** z **kwietnia 2017 r.** lub nowszej, wybierając kolejno opcje **Plik > Opcje i ustawienia > Opcje > Funkcje wersji zapoznawczej**, a następnie zaznaczając pole wyboru obok pozycji **Szybkie miary**.
 
 ![](media/desktop-quick-measures/quick-measures_02b.png)
 
@@ -56,17 +57,17 @@ W przypadku wybrania z menu rozwijanego zobaczysz długą listę dostępnych **S
 
 Istnieje pięć oddzielnych grup typów obliczeń Szybkich miar. Każda grupa zawiera kolekcję obliczeń. Te grupy i obliczenia są następujące:
 
-* **Agregacja w kategorii**
+* **Agreguj na kategorię**
   * Średnia w kategorii
   * Wariancja w kategorii
   * Maksimum w kategorii
   * Minimum w kategorii
   * Średnia ważona według kategorii
-* **Filtry i linie bazowe**
-  * Filtrowana miara
+* **Filtry**
+  * Filtrowana wartość
   * Różnica w porównaniu z linią bazową
-  * Różnica procentowa w porównaniu z linią bazową
-  * Sumy z nowych kategorii
+  * Różnica procentowa od odfiltrowanej wartości
+  * Sprzedaż dla nowych kategorii
 * **Analiza czasu**
   * Ten rok łącznie
   * Ten kwartał łącznie
@@ -85,6 +86,7 @@ Istnieje pięć oddzielnych grup typów obliczeń Szybkich miar. Każda grupa za
   * Mnożenie
   * Dzielenie
   * Różnica procentowa
+  * Współczynnik korelacji
 * **Tekst**
   * Ocena w gwiazdkach
   * Powiązana lista wartości
@@ -136,7 +138,7 @@ Jest to swego rodzaju szybki nauczyciel, który natychmiast reaguje na Twoje pyt
 Jeśli uzyskasz odpowiednie miary, możesz zmienić ich nazwy wedle potrzeb, używając tego samego menu dostępnego po kliknięciu prawym przyciskiem.
 
 ## <a name="limitations-and-considerations"></a>Ograniczenia i istotne zagadnienia
-W tej wersji zapoznawczej funkcji **Szybkie miary** występują pewne ograniczenia i zagadnienia, które trzeba mieć na uwadze.
+Należy pamiętać o kilku ograniczeniach i zagadnieniach.
 
 * **Szybkie miary** są dostępne tylko wtedy, gdy możesz zmodyfikować model; czyli nie są dostępne w przypadku pracy z zapytaniem bezpośrednim lub stosowania większości połączeń na żywo (jak wyjaśniono wcześniej, połączenia na żywo z usługami SSAS są obsługiwane).
 * Miara dodana do listy **Pola** może być używana w dowolnej wizualizacji w raporcie.
@@ -152,8 +154,6 @@ Począwszy od aktualizacji programu **Power BI Desktop** z października 2017 r
 
 ### <a name="additional-information-and-examples"></a>Dodatkowe informacje i przykłady
 Zamierzamy przedstawiać przykłady i wytyczne dotyczące wszystkich obliczeń **Szybkich miar**, więc wróć wkrótce do tego artykułu, aby uzyskać aktualne informacje.
-
-Jako że jest to funkcja **wersji zapoznawczej**, jesteśmy szczególnie zainteresowani opiniami i pomysłami użytkowników.
 
 Masz pomysł na **Szybką miarę**, która nie została jeszcze udostępniona? Świetnie. Sprawdź [tę stronę](https://go.microsoft.com/fwlink/?linkid=842906) i prześlij swoje pomysły (oraz formułę DAX) dotyczące **Szybkiej miary**, którą chcesz zobaczyć w programie **Power BI Desktop**. Rozważymy dodanie jej do listy **Szybkie miary** w przyszłych wersjach.
 

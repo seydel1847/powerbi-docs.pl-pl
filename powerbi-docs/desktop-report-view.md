@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: 3715f2b877073357975af76495f955ff204cbc73
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 5ae0ef1ec5b13699f3ae5c502d29529841a7a726
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="report-view-in-power-bi-desktop"></a>Widok raportu w programie Power BI Desktop
 Jeśli masz doświadczenie w pracy z usługą Power BI, to wiesz jak łatwo jest tworzyć raporty udostępniające dynamiczne perspektywy i szczegółowe informacje dotyczące danych. Usługa Power BI zawiera także inne zaawansowane funkcje w ramach programu Power BI Desktop. Za pomocą programu Power BI Desktop możesz tworzyć zaawansowane zapytania, łączyć dane z wielu źródeł, tworzyć relacje między tabelami i wykonywać wiele innych działań.
@@ -62,6 +62,24 @@ Aby usunąć stronę, kliknij przycisk **X** na karcie strony w dolnej części 
 
 > [!NOTE]
 > Do pulpitu nawigacyjnego nie można przypinać raportów ani wizualizacji z programu Power BI Desktop. Aby to zrobić, należy [przeprowadzić publikowanie z programu Power BI Desktop](desktop-upload-desktop-files.md) w witrynie usługi Power BI.
-> 
-> 
+
+## <a name="hide-report-pages"></a>Ukrywanie stron raportu
+
+Po utworzeniu raportu można również ukrywać jego strony. Może to być przydatne, jeśli musisz utworzyć podstawowe dane lub wizualizacje w raporcie, ale nie chcesz, by te strony były widoczne dla innych osób, np. w przypadku tworzenia tabel lub wizualizacji pomocniczych używanych na innych stronach raportu. Istnieje wiele innych powodów, dla których możesz utworzyć stronę raportu, a następnie ukryć ją w raporcie, który chcesz opublikować. 
+
+Stronę raportu można ukryć w prosty sposób. Wystarczy kliknąć prawym przyciskiem myszy kartę strony raportu, a następnie wybrać przycisk **Ukryj** z wyświetlonego menu.
+
+![](media/desktop-report-view/report-view_05.png)
+
+Ukrywając stronę raportu, należy pamiętać o kilku kwestiach:
+
+* W programie **Power BI Desktop** można wyświetlić widok ukrytego raportu, nawet jeśli tytuł strony jest wygaszony. Na poniższej ilustracji strona 4 jest ukryta.
+
+    ![](media/desktop-report-view/report-view_06.png)
+
+* Ukrytej strony raportu *nie można* wyświetlić w **usłudze Power BI**.
+
+* Ukrywanie strony raportu *nie* jest środkiem bezpieczeństwa. Użytkownicy mogą nadal uzyskiwać dostęp do strony, a jej zawartość pozostaje dostępna za pomocą drążenia wskroś i innych metod.
+
+* Gdy strona jest ukryta, w trybie widoku nie są wyświetlane żadne strzałki nawigacji.
 

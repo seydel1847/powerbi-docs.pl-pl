@@ -14,13 +14,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 02/06/2018
 ms.author: maggies
-ms.openlocfilehash: fadeaedbcc61626b7f1265ac44480c55a60f4fe0
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.openlocfilehash: 23c52f7eb66e4e7b0683a2392f0fc60ad76ea243
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="create-and-publish-apps-with-dashboards-and-reports-in-power-bi"></a>Tworzenie i publikowanie aplikacji z pulpitami nawigacyjnymi i raportami w usłudze Power BI
 
@@ -64,6 +64,8 @@ Dodawanie zawartości jest podobne do dodawania zawartości w oknie Mój obszar 
 
 * [Łączenie się z usługami](service-connect-to-services.md) takimi jak Microsoft Dynamics CRM, Salesforce i Google Analytics.
 * [Pobieranie danych z plików](service-get-data-from-files.md) takich jak pliki programu Excel, pliki CSV lub pliki programu Power BI Desktop (PBIX).
+
+Po wyświetleniu zawartości w obszarze roboczym aplikacji właściciel jest wyświetlany jako nazwa obszaru roboczego aplikacji.
 
 ## <a name="add-an-image-to-your-app-optional"></a>Dodawanie obrazu do aplikacji (opcjonalnie)
 Usługa Power BI domyślnie tworzy niewielki kolorowy okrąg dla aplikacji, zawierający inicjały jej nazwy. Istnieje jednak możliwość dostosowania przez dodanie obrazu. Aby dodać obraz, potrzebujesz licencji usługi Exchange Online.

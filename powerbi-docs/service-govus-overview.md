@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/23/2018
+ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: 2832849d887795c2af0750f01e929045f75c12fe
-ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
+ms.openlocfilehash: 2d82817b5dc29cf9764b5b3645c0409f1bfd80a8
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="power-bi-for-us-government-customers"></a>Usługa Power BI dla klientów rządowych w Stanach Zjednoczonych
 **Usługa Power BI** oferuje wersję dostępną dla klientów rządowych w Stanach Zjednoczonych w ramach subskrypcji **Office 365 US Government Community**. Wersja **usługi Power BI** omówiona w tym artykule jest przeznaczona wyłącznie dla klientów rządowych USA — jest to osobna usługa, która jest inna niż komercyjna wersja **usługi Power BI**.
@@ -63,6 +63,7 @@ Niektóre funkcje dostępne w komercyjnej wersji **usługi Power BI** *nie* są 
 * **Usługa Power BI US Government** jest dostępna tylko w ramach licencji **Pro**. Wszelkie odwołania do licencji usługi Power BI (bezpłatnej) w portalu administratora (lub jako użytkownika) są uruchamiane w chmurze komercyjnej usługi Power BI.
 * **Inspekcja** — funkcja inspekcji nie jest dostępna za pośrednictwem portalu zabezpieczeń i zgodności usługi Office 365.
 * **Zawartość usługi Power BI w Cortanie** — wyniki usługi Power BI nie będą widoczne w wynikach wyszukiwania Cortany. Obejmuje to wyniki dla zawartości usługi Power BI (pulpity nawigacyjne, raporty, aplikacje) oraz wyniki, które zawierają zoptymalizowane pod kątem Cortany strony raportów dla określonych słów kluczowych.
+* **Udostępnianie użytkownikom zewnętrznym** — udostępnianie jest dozwolone tylko w ramach dzierżawy usługi Power BI. Nie można udostępniać użytkownikom spoza dzierżawy usługi Power BI.
 
 Jeśli do kont zostaną przypisane bezpłatne licencje **usługi Power BI**, takie konta działają w wersji komercyjnej **usługi Power BI** i nie są częścią oferty **usługi Power BI US Government**. W przypadku bezpłatnych kont mogą wystąpić następujące problemy:
 

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: 10557146b0b640450779049a30dd8f394686f57a
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.openlocfilehash: 8abb327181af031df508f0629cbc09053a9a7927
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="directquery-and-sap-business-warehouse-bw"></a>Zapytanie bezpośrednie i system SAP Business Warehouse (BW)
 Dzięki **zapytaniu bezpośredniemu** można połączyć się bezpośrednio ze źródłami danych systemu **SAP Business Warehouse (BW)**. Ponieważ system SAP BW jest źródłem danych OLAP (wielowymiarowym), korzystanie z zapytania bezpośredniego dla źródeł danych SAP BW różni się istotnie od korzystania z niego dla źródeł relacyjnych, takich jak program SQL Server. Te różnice można podsumować w następujący sposób:
@@ -74,13 +74,9 @@ Poniższa tabela zawiera listę wszystkich funkcji systemu SAP BW, które nie s�
 | Atrybuty |W usłudze Power BI nie można uzyskać dostępu do atrybutów cechy. |
 | Ustawienia języka użytkownika końcowego |Ustawienia regionalne używane do nawiązania połączenia z systemem SAP BW stanowią część szczegółów połączenia i nie odzwierciedlają ustawień regionalnych końcowego użytkownika raportu. |
 | Zmienne tekstowe |W systemie SAP BW nazwy pól mogą zawierać symbole zastępcze dla zmiennych (na przykład „Wartości rzeczywiste $YEAR$”), które będą następnie zastępowane przez wybraną wartość. Na przykład jeśli dla zmiennej wybrano rok 2016, odpowiednie pole jest wyświetlane jako „Wartości rzeczywiste 2016” w narzędziach BEX. <br/> <br/> Nazwa kolumny w usłudze Power BI nie zmieni się w zależności od wartości zmiennej, a w związku z tym zostanie wyświetlona jako „Wartości rzeczywiste $YEAR$”.  Nazwę kolumny można jednak zmienić w usłudze Power BI. |
+| Zmienne wyjściowe klienta | Zmienne wyjściowe klienta nie są ujawniane w publicznym interfejsie API, w związku z czym nie są obsługiwane przez usługę Power BI. |
+| Charakterystyczne struktury | Wszelkie charakterystyczne struktury w podstawowym źródle SAP BW spowodują ujawnienie zwiększonej ilości miar w usłudze Power BI. Na przykład w przypadku dwóch miar Sales i Costs oraz charakterystycznej struktury obejmującej miary Budget i Actual zostaną ujawnione cztery miary: Sales.Budget, Sales.Actual, Costs.Budget, Costs.Actual. |
 
-## <a name="limitations-and-considerations"></a>Ograniczenia i istotne zagadnienia
-W poniższej tabeli wymieniono ograniczenia wersji beta łącznika systemu SAP BW.
-
-| Ograniczenie | Opis |
-| --- | --- |
-| Brak odświeżania |Przycisk Odśwież jest wyłączony i nie można odświeżyć wizualizacji/metadanych. |
 
 ## <a name="next-steps"></a>Następne kroki
 Aby uzyskać więcej informacji na temat zapytania bezpośredniego, zapoznaj się z następującymi zasobami:

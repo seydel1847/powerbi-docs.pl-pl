@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/16/2018
+ms.date: 02/09/2018
 ms.author: maggies
-ms.openlocfilehash: 9ed87e17d617e7492287f3f0d0c54da1c21b3a53
-ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
+ms.openlocfilehash: 3ce4aa6117f5c3267f821af765d6b70fcb7eacd9
+ms.sourcegitcommit: ad9bd4e52471b1179f46f847960d5ed79c0c0761
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 02/11/2018
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Co nowego w aplikacjach mobilnych dla usługi Power BI
 Powiązane nowości są dostępne w następujących artykułach:
@@ -29,6 +29,24 @@ Powiązane nowości są dostępne w następujących artykułach:
 * [Blog zespołu usługi Power BI dotyczący aplikacji mobilnych](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Co nowego w programie Power BI Desktop](desktop-latest-update.md)  
 * [Co nowego w usłudze Power BI](service-whats-new.md)  
+
+## <a name="january-2018"></a>Styczeń 2018
+
+### <a name="report-favorites"></a>Ulubione raporty
+
+Oznacz raporty jako ulubione, aby były widoczne na stronie **Ulubione**. Dowiedz się więcej na temat [ulubionych w aplikacjach mobilnych Power BI](mobile-apps-favorites.md).
+
+### <a name="view-shared-reports"></a>Wyświetlanie udostępnionych raportów
+
+Teraz, gdy ktoś udostępnia Ci raport, zostaje on wyświetlony na stronie **Udostępnione dla mnie** wraz z pulpitami nawigacyjnymi.
+
+### <a name="improved-hyperlink-support"></a>Ulepszona obsługa hiperlinków
+
+Naciskając linki w wizualizacjach niestandardowych, można teraz otwierać je w przeglądarce dla urządzeń przenośnych.
+
+### <a name="intune-integration-android"></a>Integracja usługi Intune (system Android)
+
+Obsługa dostępu warunkowego przy użyciu zarządzania urządzeniami przenośnymi w usłudze Intune.
 
 ## <a name="december-2017"></a>Grudzień 2017
 

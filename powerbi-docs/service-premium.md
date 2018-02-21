@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/05/2017
+ms.date: 02/05/2018
 ms.author: maghan
-ms.openlocfilehash: eb2072b0beadf3f6f2cf702f35f56441bc38c7ff
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: b2e41884ca799ca07223a4b5444e39b38aa2102a
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="power-bi-premium---what-is-it"></a>Power BI Premium — co to jest?
 Usługa Power BI Premium zapewnia zasoby dedykowane do uruchamiania usługi Power BI dla organizacji lub zespołu, zapewniając jeszcze bardziej niezawodną wydajność i większe woluminy danych. Ponadto usługa Premium umożliwia szeroką dystrybucję zawartości bez potrzeby zakupu licencji dla użytkowników, którzy mają ją wyświetlać.
@@ -46,7 +46,7 @@ Istnieją dwa typy pojemności w usłudze Power BI. Pojemność udostępniona or
 | Osadzone interfejsy API i kontrolki |![](media/service-premium/not-available.png "Niedostępne") |![](media/service-premium/available.png "Dostępne")<sup>2</sup> |
 | **Publikowanie raportów usługi Power BI lokalnie** |![](media/service-premium/not-available.png "Niedostępne") |![](media/service-premium/available.png "Dostępne") |
 
-*<sup>1</sup> Zużycie użytkownika bezpłatnego w aplikacjach obejmuje wyświetlanie zawartości w Internecie i na urządzeniach przenośnych, używanie funkcji pytań i odpowiedzi, szybkiego wglądu, Cortany, eksportowania do formatu CSV, programu Excel i PowerPoint*   
+*<sup>1</sup> Zużycie użytkownika bezpłatnego w aplikacjach obejmuje wyświetlanie zawartości w Internecie i na urządzeniach przenośnych, używanie funkcji pytań i odpowiedzi, szybkiego wglądu, Cortany, eksportowania do formatu CSV, programu Excel i PowerPoint. Wersja Pro jest wymagana w przypadku innych działań, które nie zostały wymienione, np. tworzenia raportów dotyczących udostępnionych zestawów danych i analiz w programie Excel. Więcej informacji na temat funkcji można znaleźć w temacie [Usługa Power BI — wersja bezpłatna a wersja Pro](service-free-vs-pro.md).*  
 *<sup>2</sup> Przyszłe usprawnienia do wdrożenia w usłudze Power BI Premium po ogólnym udostępnieniu.*
 
 ### <a name="premium-capacity"></a>Pojemność Premium

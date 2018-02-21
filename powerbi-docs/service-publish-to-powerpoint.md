@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/22/2018
 ms.author: davidi
-ms.openlocfilehash: 4ca79e960bc0370789ee735ba6b5391cbb8b110f
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.openlocfilehash: 5ebfa2f54c26c0b4c3321120558e1cccb8bce146
+ms.sourcegitcommit: ed49510adee96042c02d6bdadbfcf8a2e566fbf8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/13/2018
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint-preview"></a>Eksportowanie raportów z usługi Power BI do programu PowerPoint (wersja zapoznawcza)
 Usługa Power BI umożliwia teraz publikowanie raportów w programie **Microsoft PowerPoint** oraz łatwe tworzenie pokazu slajdów na podstawie raportu usługi Power BI. Podczas **eksportowania do programu PowerPoint** zachodzą następujące zmiany:
@@ -64,6 +64,8 @@ Po otworzeniu pliku programu PowerPoint wyeksportowanego przez usługę Power BI
 1. Pierwsza strona pokazu slajdów zawiera nazwę raportu oraz link umożliwiający **wyświetlenie w usłudze Power BI** raportu, na którym oparto ten pokaz slajdów.
 2. Widoczne są także pewne przydatne informacje dotyczące raportu, takie jak *ostatnie odświeżanie danych*, na których oparty jest wyeksportowany raport, oraz data i godzina *pobrania*, czyli data i godzina wyeksportowania raportu usługi Power BI do pliku programu PowerPoint.
 3. Każda strona raportu jest osobnym slajdem, jak pokazano w okienku nawigacji po lewej stronie.
+4. Opublikowany raport jest renderowany w języku zgodnym z ustawieniami usługi Power BI lub ustawieniami regionalnymi przeglądarki. Aby zobaczyć preferencję języka, wybierz ikonę z kołem zębatym ![](media/service-report-subscribe/power-bi-settings-icon.png) **> Ustawienia > Ogólne > Język**. Informacje dotyczące ustawień regionalnych znajdują się w temacie [Języki i kraje/regiony obsługiwane w usłudze Power BI](supported-languages-countries-regions.md).
+5. Prezentacja programu PowerPoint zawiera slajd tytułowy z wyeksportowaną godziną w prawidłowej strefie czasowej.
 
 Gdy przejdziesz do pojedynczego slajdu, zauważysz, że każda strona raportu jest niezależnym obrazem.
 
