@@ -3,7 +3,7 @@ title: "Nawiązywanie połączenia z usługą Xero przy użyciu usługi Power BI
 description: "Usługa Xero dla usługi Power BI"
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: cae1e27b46f9c9156a8108568e5700dadbb5afd3
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.author: sarinas
+ms.openlocfilehash: 19e5abdeb19bd88d4ddc1f7d595bd7c46b17fbea
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-xero-with-power-bi"></a>Nawiązywanie połączenia z usługą Xero przy użyciu usługi Power BI
 Xero to łatwe w użyciu oprogramowanie księgowe online, przeznaczone dla małych firm. Ten pakiet zawartości usługi Power BI pozwala tworzyć atrakcyjne wizualizacje, oparte na danych finansowych z usługi Xero. Domyślny pulpit nawigacyjny zawiera wiele metryk używanych przez małe firmy, takich jak stan środków pieniężnych, przychody i wydatki, rachunek zysków i strat, rotacja należności w dniach oraz zwrot z inwestycji.

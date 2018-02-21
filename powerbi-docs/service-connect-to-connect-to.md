@@ -3,7 +3,7 @@ title: "Łączenie się z pakietem zawartości comScore Digital Analytix przy u�
 description: "Pakiet zawartości comScore Digital Analytix dla usługi Power BI"
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: b97dd32a3b6b075509c15dd1c1df5009c99e5f0b
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.author: sarinas
+ms.openlocfilehash: d3479e06e5eaede74d615689f2fb0cd0197872b1
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-comscore-digital-analytix-with-power-bi"></a>Łączenie się z pakietem zawartości comScore Digital Analytix przy użyciu usługi Power BI
 Za pomocą pakietu zawartości dla usługi Power BI możesz wizualizować i eksplorować dane usługi comScore Digital Analytix. Dane będą odświeżane automatycznie raz dziennie.

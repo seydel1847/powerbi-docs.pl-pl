@@ -3,7 +3,7 @@ title: "Łączenie się z usługą appFigures za pomocą usługi Power BI"
 description: "Usługa appFigures w usłudze Power BI"
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: 950c69282e74b42fca4034aaabb9487bad370219
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.author: sarinas
+ms.openlocfilehash: 13e56552ef987b9ee66c721c6e4bf7f16543b63a
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-appfigures-with-power-bi"></a>Łączenie się z usługą appFigures za pomocą usługi Power BI
 Śledzenie ważnych statystyk dotyczących aplikacji jest bardzo proste dzięki usłudze Power BI i pakietowi zawartości appFigures. Usługa Power BI pobiera dane, w tym informacje o sprzedaży aplikacji, pobraniach i statystykach dotyczących reklam, a następnie tworzy domyślny pulpit nawigacyjny i powiązane raporty w oparciu o te dane.

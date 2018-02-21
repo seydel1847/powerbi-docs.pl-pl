@@ -3,7 +3,7 @@ title: "Łączenie się z usługą Adobe Analytics za pomocą usługi Power BI"
 description: "Łączenie się z usługą Adobe Analytics za pomocą usługi Power BI dla aplikacji, w której są wyświetlane dane konta w pulpicie nawigacyjnym i raportach."
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: 2d4d5e71c87a90ef917ea91dd0b7d178a5c0cbfc
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.author: sarinas
+ms.openlocfilehash: d73887c4f74d501057b3c35f5d9f404d4862b2a9
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-adobe-analytics-with-power-bi"></a>Łączenie się z usługą Adobe Analytics za pomocą usługi Power BI
 Łączenie się z usługą Adobe Analytics za pomocą usługi Power BI należy zacząć od połączenia się z kontem Adobe Analytics Marketing Cloud. Uzyskasz aplikację z pulpitem nawigacyjnym usługi Power BI oraz zestawem raportów usługi Power BI zawierających informacje o ruchu w witrynie oraz wymiarach użytkownika. Dane są odświeżane automatycznie raz dziennie. Możesz korzystać z pulpitu nawigacyjnego i raportów, ale nie możesz zapisywać zmian.

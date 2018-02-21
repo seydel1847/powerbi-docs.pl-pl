@@ -3,7 +3,7 @@ title: "Nawiązywanie połączenie z usługą tyGraph przy użyciu usługi Power
 description: "Usługa tyGraph dla usługi Power BI"
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: 113d635469130a85486db4bccb555d4aa599f961
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.author: sarinas
+ms.openlocfilehash: 200438c1c7a488f963b44040324374905d643b6e
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-tygraph--with-power-bi"></a>Nawiązywanie połączenie z usługą tyGraph przy użyciu usługi Power BI
 Za pomocą pakietu zawartości dla usługi Power BI można wizualizować i eksplorować dane usługi tyGraph. Najpierw połącz się z kontem tyGraph i załaduj pulpit nawigacyjny, raporty i zestaw danych. Gotowa zawartość obejmuje takie informacje, jak miara aktywnego zaangażowania (wartość MAE) i najaktywniejsi współautorzy. Wyświetlaną zawartość można dostosować, aby wyróżnić najbardziej interesujące informacje.  Dane będą odświeżane automatycznie zgodnie z ustawionym harmonogramem.
