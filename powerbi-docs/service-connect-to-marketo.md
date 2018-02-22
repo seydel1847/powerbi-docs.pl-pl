@@ -3,7 +3,7 @@ title: "Nawiązywanie połączenia z usługą Marketo przy użyciu usługi Power
 description: "Usługa Marketo dla usługi Power BI"
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: c642b50e1b0e24aa261e68bdca536e6e9e112dd1
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.author: sarinas
+ms.openlocfilehash: d747b357315e275fae2f65d7e4e961f4867807a3
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-marketo-with-power-bi"></a>Nawiązywanie połączenia z usługą Marketo przy użyciu usługi Power BI
 Pakiet zawartości usługi Power BI dla usługi Marketo pozwala uzyskać wgląd w przechowywane na koncie Marketo dane dotyczące potencjalnych klientów i ich działań. Po utworzeniu połączenia pobierane są dane, na podstawie których automatycznie tworzony jest pulpit nawigacyjny i powiązane raporty.
@@ -47,7 +47,7 @@ Połącz się z [pakietem zawartości Marketo](https://app.powerbi.com/getdata/s
    
    ![](media/service-connect-to-marketo/pbi_marketosignin.png)
    
-   Dzięki temu można korzystać z [danych analitycznych Marketo](https://powerbi.microsoft.com/integrations/marketo) za pomocą pakietu zawartości *Marketo dla usługi Power BI* i analizować dane w usłudze Power BI. Dane są odświeżane raz dziennie.
+   Dzięki temu można w usłudze Power BI korzystać z [danych analitycznych Marketo](https://powerbi.microsoft.com/integrations/marketo) za pomocą pakietu zawartości *Marketo dla usługi Power BI* i analizować dane. Dane są odświeżane raz dziennie.
 6. Po nawiązaniu połączenia z kontem Marketo zostanie załadowany pulpit nawigacyjny z wszystkimi danymi:
    
    ![](media/service-connect-to-marketo/pbi_marketodash.png)

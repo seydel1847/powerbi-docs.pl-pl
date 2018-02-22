@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 02/13/2018
 ms.author: mihart
-ms.openlocfilehash: e73d0378e9e94bc8fc10402e3e7f4a524f93e5fb
-ms.sourcegitcommit: 433a5625f1d4557c09a7a7382416e2bbdb40c797
+ms.openlocfilehash: 94a01f1d302d455dbcfe52ce39f5cb0b1ac4aa29
+ms.sourcegitcommit: 05018ef2fe8439a9e8f599c696b8c3cee67e3958
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/14/2018
+ms.lasthandoff: 02/21/2018
 ---
 # <a name="getting-a-custom-visual-certified"></a>*Certyfikowanie* wizualizacji niestandardowej
 ## <a name="what-is-meant-by-certified"></a>Co oznacza *certyfikowanie*?
@@ -63,6 +63,7 @@ Firma Microsoft, według własnego uznania, może usunąć daną wizualizację z
 | [Kalendarz Beyondsoft](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381096) | |
 | [Wykres Bowtie firmy MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380838) | [Klip wideo](https://youtu.be/So5xKMSpVJI) |
 | [Wykres pudełkowy](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380831) | |
+| [Wykres w formie skrzynki i wąsów firmy MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381351) | [Klip wideo](https://youtu.be/JoHaFLfhXdo) |
 | [Brick Chart firmy MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380836) | [Klip wideo](https://youtu.be/hA3DOsvn2xY) |
 | [Wykres bąbelkowy firmy Akvelon](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381340) | |
 | [Bullet Chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380755) | [Klip wideo](https://youtu.be/AOlsFYkfkcw) |
@@ -102,10 +103,12 @@ Firma Microsoft, według własnego uznania, może usunąć daną wizualizację z
 | [Globe Data Bars](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381344) | |
 | [Wykres hierarchiczny firmy Akvelon](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381333) | [Klip wideo](https://youtu.be/0ZGzJaq_KT4) |
 | [Histogram](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380776) | |
+| [Histogram z punktami firmy MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381032) | [Klip wideo](https://youtu.be/-ILF--wExrw) |
 | [Horizontal Funnel firmy MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380846) | [Klip wideo](https://youtu.be/SudZei68PPo) |
 | [Image firmy CloudScope](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381297) | |
 | [Siatka obrazów](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381355) | |
 | [Infographic Designer](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380898) | |
+| [Wykres KPI firmy Akvelon](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381432) | |
 | [KPI Indicator](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380832) | |
 | [KPI Ticker by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380946) | [Klip wideo](https://youtu.be/cudG4gsZ2V8) |
 | [Miernik liniowy firmy MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380821) | [Klip wideo](https://youtu.be/7_jFaM30dkc) |

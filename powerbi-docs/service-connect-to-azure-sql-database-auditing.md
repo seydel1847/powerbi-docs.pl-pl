@@ -3,7 +3,7 @@ title: "Pakiet zawartości Inspekcja bazy danych SQL"
 description: "Pakiet zawartości Inspekcja bazy danych SQL dla usługi Power BI"
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/10/2017
-ms.author: yshoukry
-ms.openlocfilehash: a2faefa9ebd62ef50e530dcad91482918f94d6d2
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.author: sarinas
+ms.openlocfilehash: 70b8eea066b7d3b37b1508c83082cbc82e0949aa
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="sql-database-auditing-content-pack-for-power-bi"></a>Pakiet zawartości Inspekcja bazy danych SQL dla usługi Power BI
 Pakiet zawartości usługi Power BI dla platformy Azure [Inspekcja bazy danych SQL](http://azure.microsoft.com/documentation/articles/sql-database-auditing-get-started/) umożliwia zrozumienie aktywności bazy danych oraz uzyskanie informacji dotyczących rozbieżności i anomalii, które mogą wskazywać na problemy biznesowe lub potencjalne naruszenia zabezpieczeń. 
@@ -59,7 +59,7 @@ Nawiąż połączenie z [pakietem zawartości Inspekcja bazy danych SQL](https:/
    - Wprowadź datę zakończenia dla odpowiednich dzienników inspekcji. Wprowadź „\*”, aby załadować dzienniki inspekcji bez górnego limitu czasu.
    
    ![](media/service-connect-to-azure-sql-database-auditing/dbauditing_param.png)
-5. Jako metodę uwierzytelniania wybierz **Klucz**, wprowadź swój ** Klucz konta** i \> **Zaloguj się**.
+5. Jako metodę uwierzytelniania wybierz **Klucz**, wprowadź swój **Klucz konta** \> **Zaloguj się**.
    
    ![](media/service-connect-to-azure-sql-database-auditing/pbi_sqlauditing3.png)
 6. Po zaimportowaniu danych przez usługę Power BI zobaczysz nowy pulpit nawigacyjny, raport i zestaw danych w okienku nawigacji po lewej stronie. Nowe elementy są oznaczone żółtą gwiazdką \*.
