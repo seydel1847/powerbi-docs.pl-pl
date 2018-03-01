@@ -18,11 +18,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: mihart
-ms.openlocfilehash: 0ea4dd703f804ed7d519613e6f3cc98ed0409188
-ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
+LocalizationGroup: Common tasks
+ms.openlocfilehash: 1a4290d06d623b21b64e1ff03fb0382a55dc2a3c
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="display-a-dashboard-tile-or-report-visual-in-focus-mode"></a>Wyświetlanie kafelka pulpitu nawigacyjnego lub wizualizacji raportu w trybie koncentracji uwagi
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dtdLul6otYE" frameborder="0" allowfullscreen></iframe>
@@ -72,9 +73,9 @@ Tryb ***koncentracji uwagi*** umożliwia rozwijanie (otwieranie w nowym oknie) k
 ## <a name="go-from-focus-mode-to-full-screen-mode"></a>Przechodzenie z trybu koncentracji uwagi do trybu pełnoekranowego
 Gdy kafelek lub wizualizacja są otwarte w trybie koncentracji uwagi, można je [wyświetlić w trybie pełnoekranowym (tryb TV).](service-fullscreen-mode.md) W trybie pełnoekranowym zawartość jest wyświetlana bez rozpraszających menu i przycisków nawigacji.
 
-## <a name="considerations-and-troubleshooting"></a>Zagadnienia i rozwiązywanie problemów
+## <a name="considerations-and-troubleshooting"></a>Istotne zagadnienia i rozwiązywanie problemów
 * Podczas korzystania z trybu koncentracji uwagi dla wizualizacji w raporcie możesz wyświetlać i modyfikować wszystkie filtry: na poziomie wizualizacji, na poziomie strony i na poziomie raportu.    
 * Podczas korzystania z trybu koncentracji uwagi dla wizualizacji na pulpicie nawigacyjnym możesz wyświetlać i modyfikować jedynie filtry na poziomie wizualizacji.
 
-Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
+Więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
 
