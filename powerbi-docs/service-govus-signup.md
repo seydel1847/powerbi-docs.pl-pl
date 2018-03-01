@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 02/27/2017
 ms.author: davidi
-ms.openlocfilehash: 8ff1d5be4e360aa5afb8b6bd704f3426957466ef
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+LocalizationGroup: Get started
+ms.openlocfilehash: e4015d0de5c11a9726089a62825950dc0532205d
+ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>Rejestrowanie organizacji rządowej USA w usłudze Power BI
 **Usługa Power BI** oferuje wersję dostępną dla klientów rządowych w Stanach Zjednoczonych w ramach subskrypcji **Office 365 US Government Community**. Wersja **usługi Power BI** omówiona w tym artykule jest przeznaczona wyłącznie dla klientów rządowych USA — jest to osobna usługa, która jest inna niż komercyjna wersja **usługi Power BI**.
@@ -45,12 +46,14 @@ Jeśli Twoja organizacja jest nowym klientem usługi **Office Government Cloud**
 
 > [!NOTE]
 > Te czynności powinien wykonywać administrator portalu.
-> 
-> 
+>
 
-1. Przejdź na stronę [https://products.office.com/en-us/government/office-365-web-services-for-government](https://products.office.com/en-us/government/office-365-web-services-for-government). 
-    >[!NOTE]
-    >Jeśli nie chcesz w tej chwili rejestrować się w usłudze Office Government Cloud, skontaktuj się ze swoim przedstawicielem działu sprzedaży.
+1. Przejdź na stronę [https://products.office.com/en-us/government/office-365-web-services-for-government](https://products.office.com/en-us/government/office-365-web-services-for-government).
+
+>[!NOTE]
+>Jeśli nie chcesz w tej chwili rejestrować się w usłudze Office Government Cloud, skontaktuj się ze swoim przedstawicielem działu sprzedaży.
+>
+
 2. Wybierz pakiet Office G3 i wypełnij formularz wersji próbnej pakietu Office.
 3. Gdy zostaniesz już klientem chmury pakietu Office, wykonaj czynności opisane poniżej w sekcji „Istniejący klienci usługi Office Government Cloud”.
 
