@@ -1,6 +1,6 @@
 ---
 title: "Wyświetlanie pulpitów nawigacyjnych, kafelków pulpitu nawigacyjnego, stron raportu i wizualizacji raportu w trybie pełnoekranowym"
-description: "Wyświetlanie pulpitów nawigacyjnych, kafelków pulpitu nawigacyjnego, stron raportu i wizualizacji raportu w trybie pełnoekranowym, nazywanym też *trybem TV*."
+description: "Wyświetlanie pulpitów nawigacyjnych, kafelków pulpitu nawigacyjnego, elementów wizualnych raportu i stron raportu w trybie pełnoekranowym, nazywanym też *trybem TV (telewizyjnym)*."
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -18,11 +18,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: mihart
-ms.openlocfilehash: a8d1a49a341b98778a6ad08c823397f420b2475e
-ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
+LocalizationGroup: Common tasks
+ms.openlocfilehash: bef91085c23ec1aeaea18f6624ea37cb12a374a1
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="full-screen-mode-in-power-bi"></a>Tryb pełnoekranowy w usłudze Power BI
 ## <a name="what-is-full-screen-mode"></a>Co to jest tryb pełnoekranowy?
@@ -91,5 +92,5 @@ Obejrzyj, jak Amanda otwiera swój pulpit nawigacyjny i porusza się po nim w tr
 [Pulpity nawigacyjne w usłudze Power BI](service-dashboards.md)  
 [Tryb koncentracji uwagi](service-focus-mode.md)    
 
-Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
+Więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
 

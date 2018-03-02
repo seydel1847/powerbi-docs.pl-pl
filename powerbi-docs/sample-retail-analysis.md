@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/17/2018
 ms.author: mihart
-ms.openlocfilehash: 97c8f3f74bea0629107b68b9e42a4a449863b066
-ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
+LocalizationGroup: Samples
+ms.openlocfilehash: 54a12f7e3b2ecee65701ca6c629d078ad7b9c0c9
+ms.sourcegitcommit: 743e44fc8730fea0f7149916080b0c6d7eb6359d
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 02/28/2018
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Próbka analizy handlu detalicznego dla usługi Power BI: krótki przewodnik
 
@@ -31,7 +32,7 @@ Ten przykładowy pulpit nawigacyjny dla branży i raport będący jego podstawą
 
 ## <a name="prerequisites"></a>Wymagania wstępne
 
- Zanim będzie można używać przykładu, musisz go najpierw pobrać jako pakiet zawartości, plik pbix lub skoroszyt programu Excel.
+ Zanim będzie można korzystać z przykładu, trzeba go najpierw pobrać jako [pakiet zawartości](https://docs.microsoft.com/en-us/power-bi/sample-datasets#get-and-open-a-sample-content-pack-in-power-bi-service), [plik pbix](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) lub [skoroszyt programu Excel](http://go.microsoft.com/fwlink/?LinkId=529778).
 
 ### <a name="get-the-content-pack-for-this-sample"></a>Pobieranie pakietu zawartości dla tego przykładu
 
@@ -166,7 +167,8 @@ Pracując na danych w tym środowisku, nie musisz się niczego obawiać. Zawsze 
 Mamy nadzieję, że dzięki temu przewodnikowi wiesz już, że pulpity nawigacyjne usługi Power BI, aparat Pytania i odpowiedzi oraz raporty mogą okazać się niezastąpione w uzyskiwaniu informacji o danych sieci sprzedaży. Teraz Twoja kolej. Połącz się ze swoimi danymi. Usługa Power BI umożliwia nawiązanie połączenia z różnymi źródłami danych. Dowiedz się więcej o [rozpoczynaniu pracy z usługą Power BI](service-get-started.md).
 
 ## <a name="next-steps"></a>Następne kroki
-* [Pobieranie przykładowych pakietów zawartości dotyczących analizy handlu detalicznego](sample-tutorial-connect-to-the-samples.md)    
+* [Pobieranie przykładowych pakietów zawartości dotyczących analizy handlu detalicznego](sample-tutorial-connect-to-the-samples.md)
+* [Pobieranie pliku zip ze wszystkimi przykładowymi plikami](http://go.microsoft.com/fwlink/?LinkId=535020)    
 * [Pobieranie przykładowego skoroszytu programu Excel dla usługi Power BI](http://go.microsoft.com/fwlink/?LinkId=529778)    
 * [Pobieranie danych (dla usługi Power BI)](service-get-data.md)    
 * [Power BI — podstawowe pojęcia](service-basic-concepts.md)    

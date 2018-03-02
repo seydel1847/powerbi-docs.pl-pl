@@ -15,17 +15,18 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/11/2017
-ms.author: v-mamcge
-ms.openlocfilehash: 82ac4382fe80d83b60705f135b50738718f28876
-ms.sourcegitcommit: 7eb15c813a0d14322cb1316bb7aab23cbc13aae6
+ms.date: 02/27/2018
+ms.author: jocaplan
+LocalizationGroup: Premium
+ms.openlocfilehash: def06965692644c0328dae7a1d0ade8d13cc0d6c
+ms.sourcegitcommit: 743e44fc8730fea0f7149916080b0c6d7eb6359d
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/11/2017
+ms.lasthandoff: 02/28/2018
 ---
 # <a name="power-bi-premium-support-for-large-datasets"></a>Obsługa dużych zestawów danych w usłudze Power BI Premium
 
-Usługa Power BI Premium obsługuje przekazywanie plików programu Power BI Desktop (pbix) o rozmiarze do 10 GB. Aby użyć dużego zestawu danych, opublikuj go w obszarze roboczym przypisanym do pojemności Premium.
+Usługa Power BI Premium obsługuje przekazywanie plików programu Power BI Desktop (pbix) o rozmiarze do 10 GB. Po przekazaniu plików zestaw danych można odświeżyć maksymalnie do 12 GB. Aby użyć dużego zestawu danych, opublikuj go w obszarze roboczym przypisanym do pojemności Premium.
  
 ## <a name="best-practices"></a>Najlepsze rozwiązania
 
@@ -59,4 +60,4 @@ W tej sekcji opisano najlepsze rozwiązania dotyczące pracy z dużymi zestawami
 [Oficjalny dokument dotyczący planowania wdrożenia usługi Power BI Enterprise](https://aka.ms/pbienterprisedeploy)  
 [Aktywacja rozszerzonej wersji próbnej Pro](service-extended-pro-trial.md)  
 
-Więcej pytań? [Zadaj pytanie społeczności usługi Power BI](https://community.powerbi.com/)
+Masz więcej pytań? [Zadaj pytanie społeczności usługi Power BI](https://community.powerbi.com/)
