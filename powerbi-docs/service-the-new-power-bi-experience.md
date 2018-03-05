@@ -18,11 +18,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/09/2018
 ms.author: mihart
-ms.openlocfilehash: c7a782880c2bc3fe4743d635bbc76dfc41660909
-ms.sourcegitcommit: afd6e9e6f8b192b26486cd04d2cbc9de046911b3
+LocalizationGroup: Get started
+ms.openlocfilehash: 38a3923469d64cc0761ea0e1b1b39005f6904d40
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/11/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="getting-around-in-power-bi-service"></a>Poruszanie się po usłudze Power BI
 ## <a name="the-left-navigation-pane"></a>Lewe okienko nawigacji
@@ -132,7 +133,7 @@ W kontenerze **Mój obszar roboczy** przechowywana jest zawartość, której jes
 ![](media/service-the-new-power-bi-experience/power-bi-my-workspace2.png)
 
 #### <a name="app-workspaces"></a>Obszary robocze aplikacji
-Aplikacje i obszary robocze aplikacji to funkcje dostępne w ramach usługi Power BI Pro. Jeśli tworzysz pulpity nawigacyjne i raporty przeznaczone dla innych użytkowników, możesz to robić w obszarach roboczych aplikacji. Obszar roboczy aplikacji to miejsce, w którym są tworzone aplikacje. Aby utworzyć aplikację, trzeba najpierw utworzyć obszar roboczy aplikacji. Są one kolejnym etapem ewolucji grupy obszarów roboczych — obszarów tymczasowych i kontenerów zawartości w aplikacji.  Razem ze swoimi współpracownikami możesz pracować nad pulpitami nawigacyjnymi, raportami i inną zawartością, która ma zostać rozpowszechniona wśród większej liczby osób lub nawet w całej organizacji.
+Aplikacje i obszary robocze aplikacji to funkcje dostępne w ramach usługi Power BI Pro. Jeśli tworzysz pulpity nawigacyjne i raporty przeznaczone dla innych użytkowników, możesz to robić w obszarach roboczych aplikacji. Obszar roboczy aplikacji to miejsce, w którym są tworzone aplikacje. Aby utworzyć aplikację, trzeba najpierw utworzyć obszar roboczy aplikacji. Są one kolejnym etapem ewolucji obszarów roboczych grupy — obszarów tymczasowych i kontenerów zawartości w aplikacji.  Razem ze swoimi współpracownikami możesz pracować nad pulpitami nawigacyjnymi, raportami i inną zawartością, która ma zostać rozpowszechniona wśród większej liczby osób lub nawet w całej organizacji.
 
 Aby dowiedzieć się więcej, zobacz [Tworzenie i rozpowszechnianie aplikacji w usłudze Power BI](service-create-distribute-apps.md#app-workspaces).
 
