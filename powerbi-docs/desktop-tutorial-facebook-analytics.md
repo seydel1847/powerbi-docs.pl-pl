@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 4e60e63791b1e839eb12c05dd089c5b24c0d63a6
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Learn more
+ms.openlocfilehash: e0bdec7d2774fd5c6641041af14b2170d7223151
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="tutorial-facebook-analytics-using-power-bi-desktop"></a>Samouczek: analiza serwisu Facebook przy użyciu programu Power BI Desktop
 Z tego samouczka dowiesz się, jak importować i wizualizować dane z serwisu **Facebook**. Dowiesz się, jak nawiązywać połączenie z określoną stroną serwisu Facebook (stroną usługi Power BI), stosować kroki przekształcania danych i tworzyć wizualizacje.

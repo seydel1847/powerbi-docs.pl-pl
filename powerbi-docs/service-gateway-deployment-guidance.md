@@ -17,11 +17,12 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: dee83471e0c8e2506902ac5bdb163163430bbb9a
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Gateways
+ms.openlocfilehash: 992c3cbeb9899a784cc8df9fdca9a29f57aa7e81
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="guidance-for-deploying-a-data-gateway-for-power-bi"></a>Wskazówki dotyczące wdrażania bramy danych usługi Power BI
 Ten artykuł zawiera wskazówki i uwagi dotyczące wdrażania bramy danych w środowisku sieciowym. **Brama** to oprogramowanie, które ułatwia dostęp do danych znajdujących się w prywatnej sieci lokalnej na potrzeby ich użycia w usłudze w chmurze, takiej jak Power BI. W tym artykule przedstawiono procedurę wdrażania oraz wskazówki dotyczące konfigurowania **lokalnej bramy danych**.

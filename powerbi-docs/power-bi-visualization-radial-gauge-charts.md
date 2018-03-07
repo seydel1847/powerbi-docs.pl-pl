@@ -18,11 +18,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/21/2018
 ms.author: mihart
-ms.openlocfilehash: 354bfc01231f0f11aabd533bf29f987dec7c9771
-ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
+LocalizationGroup: Visualizations
+ms.openlocfilehash: 5b0b5861c567997bb5636c4fe00085535debc8f2
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="radial-gauge-charts-in-power-bi-tutorial"></a>Wykresy w postaci mierników promieniowych w usłudze Power BI (samouczek)
 Wykres miernika promieniowego ma okrągły łuk i wyświetla jedną wartość, która mierzy postępy w kierunku celu/kluczowego wskaźnika wydajności.  Cel, lub wartość docelowa, jest reprezentowany przez linię (wskazówkę). Postęp w kierunku celu jest reprezentowany przez cieniowanie.  Wartość reprezentująca postęp jest wyświetlana w pogrubieniu wewnątrz łuku. Wszystkie możliwe wartości są równomiernie rozmieszczone na łuku, od wartości minimalnej (najbardziej po lewej) do wartości maksymalnej (najbardziej po prawej).

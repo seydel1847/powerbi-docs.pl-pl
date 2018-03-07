@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/25/2017
 ms.author: davidi
-ms.openlocfilehash: e32cf08625d6d36013175ad9533eac8791e76814
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Create reports
+ms.openlocfilehash: 17a66c362124616796eb48a7052d89226555df3b
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="use-insights-in-power-bi-desktop-preview"></a>Używanie szczegółowych informacji w programie Power BI Desktop (wersja zapoznawcza)
 Program **Power BI Desktop** może wyjaśnić wzrosty i spadki na wykresach oraz dostarczyć szybką, automatyczną, szczegółową analizę danych. Po prostu kliknij prawym przyciskiem myszy punkt danych i wybierz pozycję **Analizuj > Wyjaśnij spadek** (lub wzrost, jeśli poprzedni słupek był niższy), a szczegółowe informacje zostaną wyświetlone w łatwym do obsługi oknie.

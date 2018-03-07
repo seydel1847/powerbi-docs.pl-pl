@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: faf31ead10ce2d0374f99e8bfa1b27378c0c3ebb
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+LocalizationGroup: Data from files
+ms.openlocfilehash: 07a38e090ba00665462e3dc7fa32d0ba193ac6da
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Przesyłanie strumieniowe w czasie rzeczywistym w usłudze Power BI
 Funkcja przesyłania strumieniowego w czasie rzeczywistym w usłudze Power BI umożliwia przesyłanie strumieniowe danych i aktualizowanie pulpitów nawigacyjnych w czasie rzeczywistym. Wszystkie wizualizacje i pulpity nawigacyjne tworzone w usłudze Power BI można również skonfigurować do wyświetlania i aktualizowania danych oraz wizualizacji w czasie rzeczywistym. Urządzeniami i źródłami danych przesyłania strumieniowego mogą być czujniki fabryczne, źródła mediów społecznościowych, dane użycia usług i wszelkie inne źródła, z których można zbierać lub przesyłać dane zależne od czasu.

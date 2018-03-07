@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 07/20/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 844f887a32dcd9f0749c769ee92d92fe6c81316c
-ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
+LocalizationGroup: Gateways
+ms.openlocfilehash: 8002cf2df278cd3329b62b5322a6faabc9394f57
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/23/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="manage-your-data-source---importscheduled-refresh"></a>Zarządzanie źródłami danych — importowanie/zaplanowane odświeżanie
 Po zainstalowaniu lokalnej bramy danych musisz dodać źródła danych, które mogą być używane z tą bramą. Ten artykuł dotyczy pracy z bramami oraz źródłami danych, które są używane do zaplanowanego odświeżania — w przeciwieństwie do zapytania bezpośredniego lub połączenia na żywo.
@@ -40,10 +41,10 @@ Aby dodać bramę, po prostu [pobierz](https://go.microsoft.com/fwlink/?LinkId=6
 > 
 
 ## <a name="remove-a-gateway"></a>Usuwanie bramy
-Usunięcie bramy spowoduje również usunięcie wszystkich źródeł danych należących do tej bramy.  Spowoduje to również uszkodzenie wszystkich pulpitów nawigacyjnych i raportów, które są zależne od tych źródeł danych.
+Usunięcie bramy spowoduje także usunięcie wszystkich źródeł danych w ramach tej bramy.  Spowoduje to również uszkodzenie wszystkich pulpitów nawigacyjnych i raportów, które są zależne od tych źródeł danych.
 
 1. Wybierz ikonę koła zębatego ![](media/service-gateway-enterprise-manage-scheduled-refresh/pbi_gearicon.png) w prawym górnym rogu, a następnie wybierz pozycję **Zarządzaj bramami**.
-2. Wybierz pozycję Brama > **Usuń**.
+2. Wybierz pozycję Brama, a następnie pozycję **Usuń**
    
    ![](media/service-gateway-enterprise-manage-scheduled-refresh/datasourcesettings7.png)
 

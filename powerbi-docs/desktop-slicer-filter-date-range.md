@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 07/20/2017
+ms.date: 12/05/2017
 ms.author: davidi
-ms.openlocfilehash: f3138e45386c07e20342b495938ea84022c072c2
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+LocalizationGroup: Create reports
+ms.openlocfilehash: 0432998e44cdb1bf95a41225b73d805ec2a2379f
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="use-a-relative-date-slicer-and-filter-in-power-bi-desktop"></a>Używanie fragmentatora i filtru dat względnych w programie Power BI Desktop
 Używając **fragmentatora dat względnych** lub **filtru dat względnych**, możesz stosować filtry oparte na czasie do dowolnej kolumny daty w modelu danych. Na przykład przy użyciu **fragmentatora dat względnych** możesz wyświetlić tylko dane sprzedaży, która miała miejsce w ciągu ostatnich 30 dni (lub miesiąca, miesięcy kalendarzowych itd). Podczas odświeżania danych okres względny automatycznie zastosuje odpowiednie ograniczenie dat względnych.

@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 7e959054300dafcab5f38bfce121fe0ac91dca06
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+LocalizationGroup: Learn more
+ms.openlocfilehash: acdaa95908cd03006170eb06ddfc780c836c64ac
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="tutorial-create-calculated-columns-in-power-bi-desktop"></a>Samouczek: tworzenie kolumn obliczeniowych w programie Power BI Desktop
 Czasami analizowane dane nie zawierają określonego pola, które jest potrzebne do uzyskania szukanych wyników. W tym momencie wkraczają kolumny obliczeniowe. W kolumnach obliczeniowych do definiowania wartości w kolumnie służą formuły języka DAX (Data Analysis Expressions). Te wartości mogą być praktycznie wszystkim — zestawieniem wartości tekstowych z kilku różnych kolumn w modelu lub wynikiem obliczenia wartości liczbowej na podstawie innych wartości. Załóżmy, że w Twoich danych znajdują się kolumny Miasto i Województwo (jako pola na liście Pola), ale chcesz uzyskać jedno pole Lokalizacja zawierające obie te wartości razem, np. Warszawa, Mazowieckie. Dokładnie do tego służą kolumny obliczeniowe.

@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: a97f0414ee69b593c606bd12751c41ecc8b0abb6
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Administration
+ms.openlocfilehash: c83ae371153443f48fa6996e4024119ca3d94d04
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="power-bi-for-office-365-is-retired"></a>Usługa Power BI dla Office 365 została wycofana
 Usługa Power BI dla Office 365, poprzednia wersja usługi Power BI, została zastąpiona bieżącą wersją usługi [Power BI](https://powerbi.microsoft.com). Użytkownicy, którzy korzystali wcześniej z usługi **Power BI dla Office 365**, mogą używać bieżącej wersji usługi Power BI. [Dowiedz się więcej o usłudze Power BI](service-get-started.md).

@@ -17,11 +17,12 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 06/28/2017
 ms.author: maghan
-ms.openlocfilehash: 574e54aa423c9cdc9b9146fde1a16686303e73f6
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+LocalizationGroup: Administration
+ms.openlocfilehash: 400fa6aa16f77da60a912bcd6c45665f880d8afd
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="governance-and-deployment-approaches"></a>Metody zarządzania i wdrażania
 W ciągu ostatnich kilku dekad firmy stają się coraz bardziej świadome potrzeby strategicznego wykorzystywania zasobów danych, aby korzystać z możliwości rynku. Wykonując analizy konkurencyjne albo rozumiejąc wzorce operacyjne, wiele organizacji pojmuje teraz, że mogą odnieść korzyści z posiadania strategii danych jako sposobu wyprzedzania swojej konkurencji.  

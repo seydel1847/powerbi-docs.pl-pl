@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: 56e60f0484d5819bfe514281c86e6fb39efa75e8
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+LocalizationGroup: Model your data
+ms.openlocfilehash: e9d1820bff2768f2169530ec49cfa2963bff9baa
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="using-calculated-columns-in-power-bi-desktop"></a>Korzystanie z kolumn obliczeniowych w programie Power BI Desktop
 Za pomocą kolumn obliczeniowych możesz dodawać nowe dane do tabel już znajdujących się w Twoim modelu. Zamiast jednak wykonywania zapytań i ładowania wartości do nowej kolumny ze źródła danych, tworzona jest formuła języka DAX (Data Analysis Expressions) definiująca wartości w kolumnie. W programie Power BI Desktop kolumny obliczeniowe są tworzone za pomocą funkcji Nowa kolumna w widoku raportu.

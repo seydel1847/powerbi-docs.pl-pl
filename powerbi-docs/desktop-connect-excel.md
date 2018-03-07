@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: b96b7a3cfdc34d9150fdd21f1bbca6b6ab3786bc
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+LocalizationGroup: Connect to data
+ms.openlocfilehash: cb5021187a5263739c576795108edeb726fb2e62
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="connect-to-excel-in-power-bi-desktop"></a>Łączenie się z programem Excel w programie Power BI Desktop
 Łączenie się ze skoroszytem programu Excel z programu Power BI Desktop jest łatwe. Ten artykuł zawiera omówienie kolejnych kroków.

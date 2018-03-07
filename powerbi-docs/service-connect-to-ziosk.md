@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: sarinas
-ms.openlocfilehash: d1d8115269c8b8961563225d781cba0f7001c540
-ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
+LocalizationGroup: Connect to services
+ms.openlocfilehash: 48f4e18a2ad5c5acbc1265ac684857d85b4f5e8a
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="connect-to-ziosk-survey-analytics-with-power-bi"></a>Łączenie się z aplikacją Ziosk Survey Analytics za pomocą usługi Power BI
 Pakiet zawartości Ziosk Survey Analytics dla usługi Power BI zapewnia restauracjom korzystającym z tabletów Ziosk szeroki dostęp do szczegółowych informacji dostarczanych w ramach danych ankietowych Ziosk, w tym na temat segmentacji według dnia, lokalizacji, pracownika i innych.

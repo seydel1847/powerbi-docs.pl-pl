@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: ed0d4087912d1f4f6f1b4f6690c3cacd478beae3
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+LocalizationGroup: Model your data
+ms.openlocfilehash: 1b6a08ffbc7d1edfe0a86b6eb0a84702dec22da0
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="dax-basics-in-power-bi-desktop"></a>Podstawy języka DAX w programie Power BI Desktop
 Niniejszy artykuł jest przeznaczony dla nowych użytkowników programu Power BI Desktop. Artykuł stanowi szybkie i łatwe wprowadzenie do korzystania z języka Data Analysis Expressions (DAX) w celu rozwiązywania szeregu podstawowych problemów z zakresu obliczeń i analizy danych. Zapoznamy się z informacjami koncepcyjnymi, przeanalizujemy szereg zadań, które możesz wykonać, a na koniec zajmiesz się testami, które sprawdzą Twoją wiedzę. Gdy zapoznasz się z tym artykułem, najważniejsze podstawowe pojęcia dotyczące języka DAX nie powinny mieć dla Ciebie żadnych tajemnic.
