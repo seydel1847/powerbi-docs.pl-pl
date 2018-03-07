@@ -7,6 +7,7 @@
 | Folder |Nie |Tak |
 | IBM DB2 |Nie |Tak |
 | Baza danych IBM Informix |Nie |Tak |
+| IBM Netezza |Tak |Tak |
 | Impala |Tak |Tak |
 | MySQL |Nie |Tak |
 | OData |Nie |Tak |

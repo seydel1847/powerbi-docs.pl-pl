@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: e5753838365178804dcda4fafd68526ea05aeb73
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Visualizations
+ms.openlocfilehash: 94c1e23fc012e40763247a28e8930a9abdd81425
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="histograms"></a>Histogramy
 Jest kilka sposobów tworzenia histogramów w usłudze Power BI. Zaczniemy od najprostszego sposobu, a następnie omówimy kolejne metody.
@@ -39,7 +40,7 @@ Upewnij się, że typem danych jest liczba w wynikowej kolumnie agregującej. Ab
 ## <a name="defining-a-histogram-that-supports-brushing"></a>Definiowanie histogramu, który obsługuje sprzężenie
 Sprzężenie polega na połączeniu wizualizacji — gdy użytkownik wybierze punkt danych w bieżącej wizualizacji, następuje wyróżnienie lub odfiltrowanie punktów danych, które są powiązane z wybranym punktem, w pozostałych wizualizacjach na stronie raportu.  Ponieważ manipulowanie danymi odbywa się w czasie wykonywania zapytania, musimy utworzyć relację między tabelami oraz wiedzieć, który element odpowiada przedziałowi na histogramie i na odwrót.
 
-Rozpocznij od wybrania opcji *Odwołanie* względem zapytania, które zawiera pole, na podstawie którego chcesz utworzyć histogram.  Nowe zapytanie nazwij *Przedziały*.  W tym przykładzie oryginalne zapytanie nazwiemy *Szczegóły*.  Następnie usuń wszystkie kolumny z wyjątkiem tej, która ma być przedziałem dla histogramu.  Wybierz funkcję *Usuń duplikaty* w zapytaniu — dostępnej w menu wywoływanym prawym przyciskiem myszy po wybraniu kolumny — aby pozostałe wartości w kolumnie były unikatowe. Jeśli masz liczby dziesiętne, możesz najpierw skorzystać z porady dotyczącej definiowania przedziałów w celu utworzenia histogramu. Pozwoli to uzyskać zestaw przedziałów, którym można łatwo zarządzać.  Sprawdź dane wyświetlane w podglądzie zapytania. Jeśli widać wartości puste lub wartości null, musisz się ich pozbyć przed utworzeniem relacji. Zobacz „Tworzenie relacji w przypadku danych z wartościami pustymi lub wartościami null”. Metoda ta może sprawiać problemy ze względu na konieczność sortowania. Aby zapewnić poprawne sortowanie przedziałów, zobacz „Kolejność sortowania: zapewnianie odpowiedniej kolejności wyświetlania kategorii”. 
+Rozpocznij od wybrania opcji *Odwołanie* względem zapytania, które zawiera pole, na podstawie którego chcesz utworzyć histogram.  Nowe zapytanie nazwij *Przedziały*.  W tym przykładzie oryginalne zapytanie nazwiemy *Szczegóły*.  Następnie usuń wszystkie kolumny z wyjątkiem tej, która ma być przedziałem dla histogramu.  Wybierz funkcję *Usuń duplikaty* w zapytaniu — dostępnej w menu wywoływanym prawym przyciskiem myszy po wybraniu kolumny — aby pozostałe wartości w kolumnie były unikatowe. Jeśli masz liczby dziesiętne, możesz najpierw skorzystać z porady dotyczącej definiowania przedziałów w celu utworzenia histogramu. Pozwoli to uzyskać zestaw przedziałów, którym można łatwo zarządzać.  Sprawdź dane wyświetlane w podglądzie zapytania. Jeśli widać wartości puste lub wartości null, musisz się ich pozbyć przed utworzeniem relacji. Zobacz „Tworzenie relacji w przypadku danych z wartościami pustymi lub wartościami null”. Metoda ta może sprawiać problemy ze względu na konieczność sortowania. Aby zapewnić poprawne sortowanie zasobników, zobacz „Kolejność sortowania: zapewnianie odpowiedniej kolejności wyświetlania kategorii”. 
 
 > [!NOTE]
 > Warto zastanowić się nad kolejnością sortowania przed utworzeniem wizualizacji.   

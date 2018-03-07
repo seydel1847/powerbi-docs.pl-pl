@@ -18,11 +18,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: 52ad27e0f809ed5c3cf4ae22f0d536f88cae0f0c
-ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
+LocalizationGroup: Visualizations
+ms.openlocfilehash: e81f4e9ede3591accc94576291179b4fd40215e5
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="customize-visualization-titles-legends-and-backgrounds-tutorial"></a>Dostosowywanie tytułów, legend i tła wizualizacji (samouczek)
 W tym samouczku poznasz kilka sposobów dostosowywania wizualizacji.   Istnieje wiele opcji dostosowywania wizualizacji. Najlepiej zapoznać się z nimi, eksplorując okienko Formatowanie (wybierz ikonę wałka do malowania).  Aby ułatwić rozpoczęcie pracy, w tym artykule przedstawiono, jak dostosować tytuł, legendę i tło wizualizacji.  

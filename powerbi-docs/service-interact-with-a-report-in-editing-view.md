@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/05/2018
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: da4f81f1c97477f7e141c90bb841b6dcb7bb092c
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+LocalizationGroup: Reports
+ms.openlocfilehash: b3dda418f3493c91db1be75365192539757f0449
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="interact-with-a-report-in-editing-view-in-power-bi-service"></a>Interakcje z raportem w widoku do edycji w usłudze Power BI
 Raporty można edytować w usłudze Power BI i w programie Power BI Desktop — jeśli masz uprawnienia właściciela. W przeciwieństwie do programu Desktop usługa Power BI ma dwa różne tryby interakcji z raportami — [widok do czytania](service-reading-view-and-editing-view.md) dla *użytkowników* raportu i widok do edycji dla właścicieli i twórców raportu. Samouczek w tym artykule dotyczy widoku do edycji w usłudze Power BI. 
@@ -46,5 +47,5 @@ Zapoznaj się z listą tematów w obszarze nagłówka **Raporty** w spisie treś
 ## <a name="next-steps"></a>Następne kroki
 Powrót do: [Widok do czytania i widok do edycji w usłudze Power BI](service-reading-view-and-editing-view.md)
 
-Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
+Więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
 

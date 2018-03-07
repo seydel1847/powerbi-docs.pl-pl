@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: c7316871de31392f74b1656545fc7a1fbc16fc56
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+LocalizationGroup: Model your data
+ms.openlocfilehash: 2e1aed189f858bee3b1d110df5b91caed88f479b
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="measures-in-power-bi-desktop"></a>Miary w programie Power BI Desktop
 Program **Power BI Desktop** pomaga w przygotowywaniu analizy danych za pomocą zaledwie kilku kliknięć. Jednak czasami te dane po prostu nie zawierają wszystkiego, co jest potrzebne do uzyskania odpowiedzi na niektóre najważniejsze pytania. Miary mogą Ci w tym pomóc.

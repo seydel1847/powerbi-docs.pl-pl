@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 02/06/2018
 ms.author: maghan
-ms.openlocfilehash: 72c4c0e3a177f83582677113b1c349a6ae295428
-ms.sourcegitcommit: ad9bd4e52471b1179f46f847960d5ed79c0c0761
+LocalizationGroup: Visualizations
+ms.openlocfilehash: 66b4af61ebc46afa65403f9e5d5fa47289c0a07b
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/11/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="custom-visuals-in-power-bi"></a>Wizualizacje niestandardowe w usłudze Power BI
 Podczas tworzenia lub edytowania raportu usługi Power BI dostępnych jest wiele rodzajów wizualizacji. Te wizualizacje wyświetlane są w okienku **Wizualizacje**. Gdy pobierasz program Power BI Desktop lub otwierasz usługę Power BI (app.powerbi.com), ten zestaw wizualizacji jest już dostępny.

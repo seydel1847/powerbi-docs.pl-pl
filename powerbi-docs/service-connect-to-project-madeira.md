@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: sarinas
-ms.openlocfilehash: b75ea1028694a9dab32073ce70180e61798d7d28
-ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
+LocalizationGroup: Connect to services
+ms.openlocfilehash: 02b8c2e8ed9a8a4ca0c8aaf9848699f3ca3c24c8
+ms.sourcegitcommit: ab5192675729949d89de212acae48dd51294ad78
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="connect-to-project-madeira-with-power-bi"></a>Łączenie się z projektem Project Madeira przy użyciu usługi Power BI
 Pobieranie szczegółowych informacji o danych projektu Project Madeira przy użyciu usługi Power BI i pakietu zawartości projektu Project Madeira jest łatwe. Usługa Power BI pobiera dane, zarówno dotyczące sprzedaży, jak i finansowe, a następnie tworzy gotowe pulpity nawigacyjne i raporty na podstawie tych danych.
@@ -106,8 +107,8 @@ Jeśli po wprowadzeniu adresu URL projektu Project Madeira zostanie wyświetlony
 
 **„Logowanie nie powiodło się”** Jeśli podczas logowania do pulpitu nawigacyjnego przy użyciu poświadczeń projektu Project Madeira pojawi się komunikat „Logowanie nie powiodło się”, może być to spowodowane przez jeden z następujących problemów:  
 
-    - Konto, którego używasz, nie ma uprawnień do odczytywania danych projektu Project Madeira z Twojego konta. Sprawdź swoje konto użytkownika w projekcie Project Madeira i upewnij się, że użyto właściwego klucza dostępu usługi internetowej jako hasła, a następnie spróbuj ponownie.  
-    - Wystąpienie projektu Project Madeira, z którym próbujesz nawiązać połączenie, nie ma ważnego certyfikatu SSL. W takim przypadku zobaczysz bardziej szczegółowy komunikat o błędzie („nie można ustanowić relacji zaufania SSL”). Należy pamiętać, że certyfikaty z podpisem własnym nie są obsługiwane.  
+   - Konto, którego używasz, nie ma uprawnień do odczytywania danych projektu Project Madeira z Twojego konta. Sprawdź swoje konto użytkownika w projekcie Project Madeira i upewnij się, że użyto właściwego klucza dostępu usługi internetowej jako hasła, a następnie spróbuj ponownie.  
+   - Wystąpienie projektu Project Madeira, z którym próbujesz nawiązać połączenie, nie ma ważnego certyfikatu SSL. W takim przypadku zobaczysz bardziej szczegółowy komunikat o błędzie („nie można ustanowić relacji zaufania SSL”). Należy pamiętać, że certyfikaty z podpisem własnym nie są obsługiwane.  
 
 **„Niestety”** Jeśli po przejściu okna dialogowego uwierzytelnienia wyświetli się okno dialogowe z komunikatem „Niestety”, jest to najczęściej spowodowane przez problem z połączeniem z danymi pakietu zawartości. Sprawdź, czy adres URL jest zgodny ze wzorem określonym wcześniej:  
     https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('*CRONUS%20US*')

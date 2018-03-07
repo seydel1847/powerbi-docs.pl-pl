@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: sarinas
-ms.openlocfilehash: b108bfaff61842b8ec6a7139e55558b16b7c56ac
-ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
+LocalizationGroup: Connect to services
+ms.openlocfilehash: 57c93ac0bc64e7171abf659ba54e453bf215296a
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="connect-to-circuit-id-with-power-bi"></a>Łączenie się z pakietem zawartości Circuit ID przy użyciu usługi Power BI
 Analizowanie danych komunikacyjnych z usługi Circuit ID jest bardzo proste dzięki wykorzystaniu usługi Power BI. Usługa Power BI pobiera dane, a następnie tworzy domyślny pulpit nawigacyjny i powiązane raporty w oparciu o te dane. Po utworzeniu połączenia można eksplorować dane i dostosowywać pulpit nawigacyjny do własnych potrzeb. Dane są automatycznie odświeżane codziennie.

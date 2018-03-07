@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: maggies
-ms.openlocfilehash: 73cb9769fad31ad4b12b0df6c9492079d5cecaa8
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 3a01f7c8ab679e2820261c7947a9561ff5513d60
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="create-a-qr-code-for-a-tile-in-power-bi-to-use-in-the-mobile-apps"></a>Utworzenie kodu QR dla kafelka w usłudze Power BI do użycia w aplikacjach mobilnych
 Kody QR w usłudze Power BI mogą łączyć dowolne elementy w świecie rzeczywistym bezpośrednio z powiązanymi informacjami usługi Power BI — bez potrzeby korzystania z nawigacji lub wyszukiwania.
@@ -45,9 +46,9 @@ Współpracownicy, którym udostępniono pulpit nawigacyjny, mogą [zeskanować 
    * Wydrukować i umieścić go w konkretnej lokalizacji. 
 
 ## <a name="print-the-qr-code"></a>Drukowanie kodu QR
-Usługa Power BI generuje kody QR jako pliki JPEG gotowe do druku. 
+Usługa Power BI generuje kody QR jako pliki JPG gotowe do druku. 
 
-1. Wybierz opcję **Pobierz**, a następnie otwórz plik JPG na komputerze podłączonym do drukarki.  
+1. Wybierz pozycję **Pobierz**, a następnie otwórz plik JPG na komputerze podłączonym do drukarki.  
    
    > [!TIP]
    > Plik JPG ma taką samą nazwę co kafelek. Przykładowo „Licznik możliwości — według miesiąca i etapu sprzedaży.jpg”.

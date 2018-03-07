@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: selvar
-ms.openlocfilehash: 9321572b41a3719f218030565d159e4dc8105863
-ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
+LocalizationGroup: Connect to data
+ms.openlocfilehash: 982b027ebf7605cdc0ce122759d5f3837d23c0ed
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/23/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="tutorial-dynamic-row-level-security-with-analysis-services-tabular-model"></a>Samouczek: dynamiczne zabezpieczenia na poziomie wiersza z modelem tabelarycznym usług Analysis Services
 W tym samouczku przedstawiono kroki niezbędne do zaimplementowania **zabezpieczeń na poziomie wiersza** w ramach **modelu tabelarycznego usług Analysis Services**  oraz stosowanie ich w raportach usługi Power BI. Kroki w tym samouczku zaprojektowano tak, aby można było je prześledzić i nauczyć się niezbędnych czynności, wykonując je na przykładowym zestawie danych.

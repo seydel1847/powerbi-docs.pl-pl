@@ -13,11 +13,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: b18157f28dcaf2e9b130bdc3bd5547312e45a4f9
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Ask questions of your data
+ms.openlocfilehash: 10faf7b20c91b0c709df6783152ab55d0e6c958c
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="enable-cortana-to-access-power-bi-reports-and-their-underlying-datasets"></a>Włączanie Cortany, aby uzyskać dostęp do raportów usługi Power BI (i ich źródłowych zestawów danych)
 Znasz już [Wprowadzenie do Cortany i usługi Power BI](service-cortana-intro.md) (jeśli jeszcze tego nie znasz, może warto w pierwszej kolejności to przeczytać, a dopiero potem wrócić). A teraz chcesz wypróbować jej możliwości samodzielnie.  Zanim będzie można zadawać Cortanie pytania języka naturalnego i znajdować odpowiedzi w danych przechowywanych w ***raportach*** usługi Power BI, trzeba będzie spełnić kilka wymagań. W szczególności należy wykonać następujące czynności.

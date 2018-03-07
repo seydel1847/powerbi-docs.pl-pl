@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 8a558019eaf01af066fe5669bcbd82bd4e0c5229
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Create reports
+ms.openlocfilehash: 3dab818c863f00c97635d00ba07e75eb3c8e5b37
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="use-ribbon-charts-in-power-bi"></a>Używanie wykresów wstążkowych w usłudze Power BI
 Przy użyciu **wykresów wstążkowych** w usłudze **Power BI** można wizualizować dane i szybko określać, które kategorie danych mają najwyższą rangę (największa wartość). Wykresy wstążkowe dobrze obrazują zmianę rangi, zawsze wyświetlając najwyższą rangę (wartość) u góry dla każdego przedziału czasu. Wykresy wstążkowe są dostępne w programie **Power BI Desktop** od wersji z września 2017 r. i następujących po niej aktualizacjach **usługi Power BI**.

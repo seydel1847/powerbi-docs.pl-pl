@@ -18,11 +18,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/21/2018
 ms.author: mihart
-ms.openlocfilehash: bb9244268a0a68f7b15877ae7ff567fe35cb2a1a
-ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
+LocalizationGroup: Visualizations
+ms.openlocfilehash: f6846a58642dd65545016a7159f6bb461edaf373
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="visualizations-in-power-bi-reports"></a>Wizualizacje w raportach usługi Power BI
 Wizualizacje prezentują szczegółowe informacje, które zostały odnalezione w danych. Raport usługi Power BI może zawierać jedną stronę z pojedynczą wizualizacją lub wiele stron pełnych różnych wizualizacji. W usłudze Power BI wizualizacje można [przypinać z raportów do pulpitów nawigacyjnych](service-dashboard-pin-tile-from-report.md). 

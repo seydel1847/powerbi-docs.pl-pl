@@ -17,11 +17,12 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 12/05/2017
 ms.author: davidi
-ms.openlocfilehash: 0288e9613a187b64e5bc71c952e01d70f1f56012
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Gateways
+ms.openlocfilehash: 717451afc35614e9c356e5748f39f0302fa6244e
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="high-availability-clusters-for-on-premises-data-gateway"></a>Klastry wysokiej dostępności dla lokalnej bramy danych
 Można utworzyć **klastry wysokiej dostępności** z poziomu instalacji **lokalnej bramy danych**, aby zapewnić, że organizacja będzie mogła uzyskiwać dostęp do zasobów danych lokalnych używanych w raportach i na pulpicie nawigacyjnym usługi Power BI. Dzięki takim klastrom administratorzy bram mogą grupować bramy w celu uniknięcia punktów SPOF (single point of failure) w przypadku uzyskiwania dostępu do zasobów danych lokalnych. W tym artykule opisano kroki, które można wykonać w celu utworzenia klastra o wysokiej dostępności z poziomu lokalnych bram danych. Przedstawiono również najlepsze rozwiązania do stosowania w procesie konfigurowania. Klastry bramy o wysokiej dostępności wymagają aktualizacji z listopada 2017 r. (lub nowszej) dla lokalnej bramy danych.
@@ -83,7 +84,7 @@ Po wykonaniu powyższych kroków możesz używać poleceń z poniższej tabeli d
 ## <a name="next-steps"></a>Następne kroki
 
 -   [Zarządzanie źródłami danych — Analysis Services](service-gateway-enterprise-manage-ssas.md)  
--   [Zarządzanie źródłami danych — SAP HANA](service-gateway-enterprise-manage-sap.md)  
+-   [Zarządzanie źródłem danych — SAP HANA](service-gateway-enterprise-manage-sap.md)  
 -   [Zarządzanie źródłami danych — SQL Server](service-gateway-enterprise-manage-sql.md)  
 -   [Zarządzanie źródłami danych — Oracle](service-gateway-onprem-manage-oracle.md)  
 -   [Zarządzanie źródłami danych — importowanie/zaplanowane odświeżanie](service-gateway-enterprise-manage-scheduled-refresh.md)  
@@ -92,4 +93,4 @@ Po wykonaniu powyższych kroków możesz używać poleceń z poniższej tabeli d
 -   [Konfigurowanie ustawień serwera proxy dla lokalnej bramy danych](service-gateway-proxy.md)  
 -   [Używanie protokołu Kerberos na potrzeby logowania jednokrotnego (SSO) z usługi Power BI do lokalnych źródeł danych](service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md)  
 
-Więcej pytań? [Odwiedź Społeczność usługi Power BI](http://community.powerbi.com/)
+Więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)

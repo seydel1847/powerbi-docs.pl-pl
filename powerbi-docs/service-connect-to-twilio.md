@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: sarinas
-ms.openlocfilehash: fe0270b577e9bbcec1caf969a9ccdca7e5377290
-ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
+LocalizationGroup: Connect to services
+ms.openlocfilehash: 04f1c71aa70d171b6a786ab8bdc32dc9686b14c3
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="connect-to-twilio-with-power-bi"></a>Łączenie się z usługą Twilio za pomocą usługi Power BI
 Pakiet zawartości Microsoft Twilio dla usługi Power BI pozwala na ściąganie danych do usługi Power BI i tworzy gotowy do użycia [pulpit nawigacyjny Twilio](https://powerbi.microsoft.com/integrations/twilio) oraz raport, który zawiera szczegółowe informacje na temat danych. Możesz również tworzyć niestandardowe raporty i pulpit nawigacyjny w zestawie danych tworzonym przez usługę Power BI. Dane będą odświeżane raz dziennie, więc zawsze będziesz widzieć najnowsze dane.

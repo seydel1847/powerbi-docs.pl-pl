@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: sarinas
-ms.openlocfilehash: 1f987a0ccf615f2152d04a81acdddd8cf93c4116
-ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
+LocalizationGroup: Connect to services
+ms.openlocfilehash: 35b6fd4c2594a29745fe307d804b3f0147d94e43
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="connect-to-clickdimensions-with-power-bi"></a>Łączenie się z pakietem zawartości ClickDimensions za pomocą usługi Power BI
 Pakiet zawartości ClickDimensions dla usługi Power BI pozwala użytkownikom wykorzystywać dane marketingowe usługi ClickDimensions w usłudze Power BI, oferując zespołom zarządzającym możliwość lepszej oceny efektów podejmowanych wysiłków sprzedażowych i marketingowych. Wizualizuj i analizuj interakcje w ramach wiadomości e-mail, odwiedziny na stronach internetowych oraz odsyłane formularze w raportach i pulpitach nawigacyjnych usługi Power BI.

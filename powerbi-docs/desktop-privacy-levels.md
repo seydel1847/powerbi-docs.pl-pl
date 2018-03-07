@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/19/2018
 ms.author: davidi
-ms.openlocfilehash: 743f9dc0a96c2816693695f4ca2878aba09873df
-ms.sourcegitcommit: a973bc6adc88507932e7e1535a74208e3842f5c4
+LocalizationGroup: Connect to data
+ms.openlocfilehash: 3cf6875fcb0756bfa9f5622a8d49f5b645b13c24
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/20/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="power-bi-desktop-privacy-levels"></a>Poziomy prywatności programu Power BI Desktop
 W programie **Power BI Desktop** poziomy prywatności służą do określania poziomu izolacji, który definiuje stopień odizolowania jednego źródła danych od innych źródeł danych. Restrykcyjny poziom izolacji blokuje wymienianie informacji między źródłami danych, ale może spowodować ograniczenie funkcjonalności i obniżenie wydajności.

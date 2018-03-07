@@ -17,11 +17,12 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: fbb1b22b930a00fa9e090b3ebc5ab9fd1ffc88c0
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Gateways
+ms.openlocfilehash: 7283ee62838779590bbc01eb8b4348cfc7873dc1
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>Lokalna brama danych — szczegóły
 Użytkownicy w organizacji mogą uzyskiwać dostęp do danych lokalnych (do których już mają autoryzację dostępu), ale zanim będą mogli połączyć się ze źródłem danych lokalnych, muszą zostać zainstalowane i skonfigurowane wszystkie lokalne bramy danych. Brama ułatwia szybką i bezpieczną komunikację wewnętrzną między użytkownikiem w chmurze a lokalnym źródłem danych, a następnie z powrotem do chmury.
@@ -109,7 +110,7 @@ Im bliżej serwera znajduje się brama, tym szybsze będzie połączenie. Jeśli
 Po zainstalowaniu bramy należy utworzyć źródła danych dla tej bramy. Źródła danych można dodać z poziomu ekranu **Zarządzanie bramami**. Aby uzyskać więcej informacji, zobacz artykuły dotyczące zarządzania źródłami danych.
 
 [Zarządzanie źródłami danych — usługi Analysis Services](service-gateway-enterprise-manage-ssas.md)  
-[Zarządzanie źródłami danych — SAP HANA](service-gateway-enterprise-manage-sap.md)  
+[Zarządzanie źródłem danych — SAP HANA](service-gateway-enterprise-manage-sap.md)  
 [Zarządzanie źródłami danych — SQL Server](service-gateway-enterprise-manage-sql.md)  
 [Zarządzanie źródłami danych — Oracle](service-gateway-onprem-manage-oracle.md)  
 [Zarządzanie źródłami danych — importowanie/zaplanowane odświeżanie](service-gateway-enterprise-manage-scheduled-refresh.md)  

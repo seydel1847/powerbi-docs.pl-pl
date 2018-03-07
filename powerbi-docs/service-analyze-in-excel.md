@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: 262245dab44ae904b51d6cb1449082171631dc09
-ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
+LocalizationGroup: Reports
+ms.openlocfilehash: 385a89d6b50507833c1e43327c405f02b2468ac2
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="analyze-in-excel"></a>Analizowanie w programie Excel
 Czasami może zaistnieć potrzeba wyświetlenia i obsługi zestawu danych z usługi Power BI w programie Excel. Jest to możliwe dzięki funkcji **Analizuj w programie Excel**. Funkcja ta pozwala także korzystać z opcji tabeli przestawnej, wykresu i fragmentatora w programie Excel (w zależności od zestawu danych istniejącego w usłudze Power BI).
