@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/09/2017
+ms.date: 03/02/2018
 ms.author: maghan
 LocalizationGroup: Get started
-ms.openlocfilehash: ccd3a42a6cbcc716683b6da536ca2ecdacc11aaf
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: b098c87796306bedb8f9da43971d093f464dd4bd
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="signing-up-for-power-bi-as-an-individual"></a>Rejestrowanie się w usłudze Power BI jako użytkownik indywidualny
 Dowiedz się, jak utworzyć konto usługi Power BI i zacząć z niego korzystać na potrzeby osobistych raportów i wizualizacji.
@@ -40,23 +40,24 @@ Jeśli jesteś częścią istniejącej organizacji korzystającej z usługi Offi
 
 > [!NOTE]
 > Jeśli użytkownik znajduje się w organizacji, funkcja rejestracji użytkowników indywidualnych może być wyłączona. Zobacz sekcję [Rejestracja użytkowników indywidualnych została wyłączona](#individual-sign-up-has-been-turned-off), aby uzyskać więcej informacji w przypadku wyświetlenia komunikatu o błędzie z informacją, że ta funkcja została wyłączona.
-> 
-> 
+>
 
-## <a name="what-you-need-to-sign-up"></a>Czego potrzebujesz, aby się zarejestrować
-Aby zarejestrować się w usłudze Power BI, potrzebujesz służbowego adresu e-mail. Osobisty adres e-mail nie będzie działać z usługą Power BI.
+## <a name="what-you-need-to-sign-up"></a>Czego potrzebujesz, aby się zarejestrować?
 
-<a name="what-email-address-can-be-used-with-power-bi"/>
+Aby zarejestrować się w usłudze Power BI, potrzebujesz działającego adresu e-mail. Podczas rejestrowania się w usłudze Power BI nie można podać osobistego adresu e-mail.
 
 ### <a name="what-email-address-can-be-used-with-power-bi"></a>Jakiego adresu e-mail można używać w usłudze Power BI?
-Usługa Power BI wymaga użycia służbowego adresu e-mail podczas rejestracji. Usługa Power BI nie obsługuje adresów e-mail dostarczonych przez dostawców konsumenckich usług poczty e-mail ani dostawców usług telekomunikacyjnych, w tym outlook.com, hotmail.com, gmail.com itd.
+Usługa Power BI wymaga użycia służbowego adresu e-mail podczas rejestracji. Nie można zarejestrować się w usłudze Power BI przy użyciu adresów e-mail dostarczonych przez dostawców konsumenckich usług poczty e-mail ani dostawców usług telekomunikacyjnych, w tym outlook.com, hotmail.com, gmail.com itd.
 
 Jeśli spróbujesz zarejestrować się przy użyciu osobistego adresu e-mail, zostanie wyświetlony komunikat z prośbą o użycie służbowego adresu e-mail.
 
 > [!NOTE]
-> Usługa Power BI w tej chwili nie obsługuje rejestracji samoobsługowej dla adresów .gov lub .mil. Skontaktuj się z administratorem usługi Office 365.
-> 
-> 
+> W usłudze Power BI można się zarejestrować, korzystając z adresów w domenie .gov lub .mil. Aby uzyskać informacje na ten temat, zobacz [Rejestrowanie organizacji rządowej USA w usłudze Power BI](https://docs.microsoft.com/en-us/power-bi/service-govus-signup).
+>
+
+> [!NOTE]
+> Po rejestracji można [zapraszać gości](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b) do wyświetlania zawartości w Twojej dzierżawie usługi Power BI. Mogą oni korzystać z dowolnego adresu e-mail, w tym konta osobistego.
+>
 
 ## <a name="which-one-do-you-need"></a>Której opcji potrzebujesz?
 Aby określić, czego potrzebujesz, zobacz, co jest dostarczane z poszczególnymi typami licencji. Użytkownicy wersji bezpłatnej otrzymują większość funkcjonalności usług, z wyjątkiem funkcji udostępniania i współpracy. Użytkownicy usługi Power BI Pro mogą korzystać ze wszystkich funkcji w usłudze, ale nie jest ona bezpłatna. Jeśli nie musisz udostępniać żadnej zawartości, wersja bezpłatna może być opcją dla Ciebie. Więcej informacji na ten temat można znaleźć na [stronie cennika usługi Power BI](https://powerbi.microsoft.com//pricing/).
@@ -141,7 +142,7 @@ W wielu przypadkach rejestrację w usłudze Power BI można przeprowadzić, wyko
 
 | **Objaw / komunikat o błędzie** | **Przyczyna i obejście** |
 | --- | --- |
-| **Osobiste adresy e-mail (np. nancy@gmail.com)** Podczas rejestrowania się pojawia się następujący komunikat: <br /><br /> *Wprowadzony adres e-mail jest adresem prywatnym: wprowadź swój służbowy adres e-mail, aby umożliwić bezpieczne przechowywanie danych firmowych.* <br /><br /> lub <br /><br /> *That looks like a personal email address. Enter your work address so we can connect you with others in your company. And don’t worry. We won’t share your address with anyone. (Ten adres wygląda na osobisty adres e-mail. Wprowadź swój adres służbowy, abyśmy mogli połączyć Cię z innymi użytkownikami w firmie. I nie martw się, nie udostępnimy nikomu Twojego adresu).* |Usługa Power BI nie obsługuje adresów e-mail dostarczonych przez dostawców konsumenckich usług poczty e-mail ani dostawców usług telekomunikacyjnych. <br /><br /> Aby ukończyć rejestrację, spróbuj ponownie, używając swojego służbowego adresu e-mail. <br /><br /> Jeśli nadal nie możesz zarejestrować się, ale chcesz ukończyć bardziej zaawansowany proces konfiguracji, [zarejestruj się, aby uzyskać nową subskrypcję wersji próbnej Office 365 i użyj adresu e-mail przypisanego do tej subskrypcji w celu zarejestrowania się](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md). |
+| **Osobiste adresy e-mail (np. nancy@gmail.com)** Podczas rejestrowania się pojawia się następujący komunikat: <br /><br /> *Wprowadzony adres e-mail jest adresem prywatnym: wprowadź swój służbowy adres e-mail, aby umożliwić bezpieczne przechowywanie danych firmowych.* <br /><br /> lub <br /><br /> *That looks like a personal email address. Enter your work address so we can connect you with others in your company. And don’t worry. We won’t share your address with anyone. (Ten adres wygląda na osobisty adres e-mail. Wprowadź swój adres służbowy, abyśmy mogli połączyć Cię z innymi użytkownikami w firmie. I nie martw się, nie udostępnimy nikomu Twojego adresu).* |Usługa Power BI nie obsługuje adresów e-mail dostarczonych przez dostawców konsumenckich usług poczty e-mail ani dostawców usług telekomunikacyjnych. <br /><br /> Aby ukończyć rejestrację, spróbuj ponownie, używając swojego służbowego adresu e-mail. <br /><br /> Jeśli nadal nie możesz zarejestrować się, ale chcesz ukończyć bardziej zaawansowany proces konfiguracji, [zarejestruj się, aby uzyskać nową subskrypcję wersji próbnej Office 365 i użyj adresu e-mail przypisanego do tej subskrypcji w celu zarejestrowania się](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md). <br /><br /> Zaproś konto użytkownika jako [gościa Azure B2B](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b). |
 | **Rejestracja samoobsługowa jest wyłączona** Podczas rejestracji został wyświetlony poniższy komunikat: <br /><br /> *We can't finish signing you up. Your IT department has turned off signup for Microsoft Power BI. Contact them to complete signup. (Nie możemy ukończyć rejestrowania Ciebie. Twój dział IT wyłączył rejestrowanie w programie Microsoft Flow. Aby ukończyć rejestrowanie, skontaktuj się z działem IT).* <br /><br /> lub <br /><br /> *That looks like a personal email address. Enter your work address so we can connect you with others in your company. And don’t worry. We won’t share your address with anyone. (Ten adres wygląda na osobisty adres e-mail. Wprowadź swój adres służbowy, abyśmy mogli połączyć Cię z innymi użytkownikami w firmie. I nie martw się, nie udostępnimy nikomu Twojego adresu).* |Administrator IT Twojej organizacji wyłączył możliwość samoobsługowej rejestracji w usłudze Power BI. <br /><br /> Aby ukończyć rejestrację, skontaktuj się z administratorem IT. Poproś go o wykonanie instrukcji wyświetlanych na stronie, aby zezwolić istniejącym użytkownikom na rejestrowanie się w programie Microsoft Flow, a nowym użytkownikom na dołączanie do istniejącej dzierżawy. <br/><br/> Ten problem może również występować, jeśli rejestracji w usłudze Office 365 dokonano przez partnera. [Dowiedz się więcej](service-admin-syndication-partner.md) <br /><br /> [Usługa Power BI w organizacji](https://support.office.com/en-ca/article/Power-BI-in-your-Organization-d7941332-8aec-4e5e-87e8-92073ce73dc5#BKMK_HowCanIAllowO365Tenant) |
 | **Adres e-mail nie jest identyfikatorem usługi Office 365** Podczas rejestrowania się pojawia się następujący komunikat: <br /><br /> *We can't find you at contoso.com.  Do you use a different ID at work or school? <br /><br />Try signing in with that, and if it doesn't work, contact your IT department. (Nie możemy znaleźć Twoich danych w domenie contoso.com. Czy w pracy lub w szkole korzystasz z innego identyfikatora? Spróbuj utworzyć konto, korzystając z tego identyfikatora, a jeśli to nie zadziała, skontaktuj się z działem IT w swojej organizacji).* |Do logowania się do usługi Office 365 i innych usług firmy Microsoft Twoja organizacja używa innych identyfikatorów niż adres e-mail.  Na przykład Twój adres e-mail to Nancy.Smith@contoso.com, ale Twój identyfikator to nancys@contoso.com. <br /><br /> Aby ukończyć rejestrację, użyj identyfikatora, który został Ci przypisany przez organizację w celu logowania się do usługi Office 365 lub innych usług firmy Microsoft.  Jeśli nie wiesz, jaki jest Twój identyfikator, skontaktuj się z administratorem IT. <br /><br /> Jeśli nadal nie możesz zarejestrować się, ale możesz ukończyć bardziej zaawansowany proces konfiguracji, [zarejestruj się, aby uzyskać nową subskrypcję wersji próbnej Office 365 i użyj adresu e-mail przypisanego do tej subskrypcji w celu zarejestrowania się](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md). |
 
