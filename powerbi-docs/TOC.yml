@@ -664,11 +664,13 @@
           href: desktop-ssas-multidimensional.md
         - name: Łączenie się z plikami CSV w programie Power BI Desktop
           href: desktop-connect-csv.md
-        - name: Łączenie się z bazą danych Impala w programie Power BI Desktop (wersja zapoznawcza)
+        - name: Łączenie się z usługą Adobe Analytics w programie Power BI Desktop (wersja zapoznawcza)
+          href: desktop-connect-csv.md
+        - name: Łączenie się z bazą danych Impala w programie Power BI Desktop
           href: desktop-connect-impala.md
         - name: Łączenie się ze źródłem danych OData w programie Power BI Desktop
           href: desktop-connect-odata.md
-        - name: Łączenie się z bazą danych Amazon Redshift w programie Power BI Desktop (wersja zapoznawcza)
+        - name: Nawiązywanie połączenia z bazą danych Amazon Redshift w programie Power BI Desktop
           href: desktop-connect-redshift.md
         - name: Łączenie się ze stroną internetową w programie Power BI Desktop
           href: desktop-connect-to-web.md
@@ -768,6 +770,8 @@
           href: desktop-slicers.md
         - name: Zakładki w usłudze Power BI
           href: desktop-bookmarks.md
+        - name: Tworzenie niestandardowych etykietek narzędzi do raportów (wersja zapoznawcza)
+          href: desktop-tooltips.md
         - name: Używanie motywów raportów
           href: desktop-report-themes.md
         - name: Używanie szybkich miar
