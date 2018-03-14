@@ -16,17 +16,18 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 02/28/2018
 ms.author: mihart
-ms.openlocfilehash: 63497e7d517bed8aeba8abefcc4e48c628e06252
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 6c29f0915009fced89c80e05f40b91c467e505ce
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="display-the-power-bi-dashboards-that-have-been-shared-with-me"></a>Wyświetlanie pulpitów nawigacyjnych usługi Power BI, które zostały mi udostępnione
 ## <a name="shared-with-me"></a>Udostępnione dla mnie
-![](media/service-shared-with-me/power-bi-share-dash.png)
+![Ikona udostępniania](media/service-shared-with-me/power-bi-share-dash.png)
 
 Gdy współpracownik udostępni Ci pulpit nawigacyjny, jego tytuł jest dodawany do Twojej listy **Udostępnione mi**. Pulpit nawigacyjny jest dostępny wyłącznie z listy **Udostępnione mi** i nie jest dostępny z obszaru roboczego lub z **Aplikacji**.
 
@@ -38,8 +39,8 @@ Będziesz mieć wiele opcji interakcji z pulpitem nawigacyjnym i raportami źró
 
 ## <a name="actions-available-from-the-shared-with-me-screen"></a>Akcje dostępne z ekranu **Udostępnione mi**
 * Wybierz ikonę gwiazdki, aby [ustawić pulpit nawigacyjny jako ulubiony](service-dashboard-favorite.md).
-* [Usuwanie pulpitu nawigacyjnego](service-delete.md)  ![](media/service-shared-with-me/power-bi-delete-icon.png)
-* Niektóre pulpity nawigacyjne mogą być ponownie udostępnione![](media/service-shared-with-me/power-bi-share-icon-new.png)
+* [Usuwanie pulpitu nawigacyjnego](service-delete.md) ![ikona pojemnika na śmieci](media/service-shared-with-me/power-bi-delete-icon.png)
+* Niektóre pulpity nawigacyjne mogą być ponownie udostępnione  ![ikona udostępniania](media/service-shared-with-me/power-bi-share-icon-new.png)
 * Ponadto, jeśli listy pulpitów nawigacyjnych stają się długie, [użyj pola wyszukiwania i sortowania, aby odnaleźć to, czego potrzebujesz](service-navigation-search-filter-sort.md).
   
   > [!NOTE]
@@ -51,7 +52,7 @@ Będziesz mieć wiele opcji interakcji z pulpitem nawigacyjnym i raportami źró
 ## <a name="filter-shared-dashboards-by-owner"></a>Filtrowanie udostępnionych pulpitów nawigacyjnych przez właściciela
 Zawartość ekranu **Udostępnione mi** może być dalej filtrowana według właściciela zawartości. Na przykład, jeśli wybiorę **Amandę**, zobaczę tylko pulpit nawigacyjny, który Amanda mi udostępniła.
 
-![](media/service-shared-with-me/power-bi-owner.png)
+![pulpit nawigacyjny filtrowany według właściciela](media/service-shared-with-me/power-bi-owner.png)
 
 ## <a name="next-steps"></a>Następne kroki
 [Power BI — podstawowe pojęcia](service-basic-concepts.md)  

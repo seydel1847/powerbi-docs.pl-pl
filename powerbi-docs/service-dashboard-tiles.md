@@ -15,19 +15,20 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/23/2017
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: f6ddae485f15a1ebeed2ef1dfa7a1d373f9bb04b
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 3b6d8c31c9ba03b0119635af5f9270a584081139
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Kafelki pulpitu nawigacyjnego w usłudze Power BI
 Pulpity nawigacyjne i kafelki pulpitu nawigacyjnego są funkcjami usługi Power BI, a nie programu Power BI Desktop. Chociaż kafelków pulpitów nawigacyjnych nie można tworzyć ani przypinać w usłudze Power BI dla urządzeń mobilnych, [można je wyświetlać i udostępniać](mobile-tiles-in-the-mobile-apps.md). Ponadto w usłudze Power BI dla urządzeń mobilnych można [dodawać zdjęcia do pulpitu nawigacyjnego za pomocą aplikacji dla telefonu iPhone](mobile-iphone-app-get-started.md).
 
 ## <a name="dashboard-tiles"></a>Kafelki pulpitu nawigacyjnego
-![](media/service-dashboard-tiles/power-bi-dashboard.png)
+![Pulpit nawigacyjny usługi Power BI](media/service-dashboard-tiles/power-bi-dashboard.png)
 
 Kafelek stanowi migawkę danych przypiętą do pulpitu nawigacyjnego. Kafelek może zostać utworzony z raportu, zestawu danych, pulpitu nawigacyjnego, pola pytań i odpowiedzi, programu Excel, a także usług SQL Server Reporting Services (SSRS) i innych.  Ten zrzut ekranu przedstawia wiele różnych kafelków przypiętych do pulpitu nawigacyjnego.
 
@@ -53,34 +54,34 @@ Istnieje wiele sposobów, aby dodać (przypiąć) kafelek na pulpicie nawigacyjn
 
 Autonomiczne kafelki obrazów, pól tekstowych, klipów wideo, danych przesyłanych strumieniowo i treści internetowych można tworzyć bezpośrednio na pulpicie nawigacyjnym za pomocą polecenia [Dodaj kafelek](service-dashboard-add-widget.md).
 
-  ![](media/service-dashboard-tiles/add_widgetnew.png)
+  ![Ikona dodawania kafelka](media/service-dashboard-tiles/add_widgetnew.png)
 
 ## <a name="interacting-with-tiles-on-a-dashboard"></a>Interakcja z kafelkami na pulpicie nawigacyjnym
 ### <a name="move-and-resize-a-tile"></a>Przenoszenie i zmienianie rozmiaru kafelka
-Chwyć kafelek i [przemieszczaj go na pulpicie nawigacyjnym](service-dashboard-edit-tile.md). Aktywuj i wybierz uchwyt ![](media/service-dashboard-tiles/resize-handle.jpg), aby zmienić rozmiar kafelka.
+Chwyć kafelek i [przemieszczaj go na pulpicie nawigacyjnym](service-dashboard-edit-tile.md). Aktywuj i wybierz uchwyt ![uchwyt](media/service-dashboard-tiles/resize-handle.jpg), aby zmienić rozmiar kafelka.
 
 ### <a name="hover-over-a-tile-to-change-the-appearance-and-behavior"></a>Najeżdżanie kursorem na kafelek w celu zmiany wyglądu i zachowania
 1. Najedź kursorem na kafelek, aby wyświetlić wielokropek.
    
-    ![](media/service-dashboard-tiles/ellipses_new.png)
+    ![wielokropek kafelka](media/service-dashboard-tiles/ellipses_new.png)
 2. Wybierz symbol wielokropka, aby otworzyć menu akcji kafelka.
    
-    ![](media/service-dashboard-tiles/power-bi-tile-menu.png)
+    ![ikona wielokropka](media/service-dashboard-tiles/power-bi-tile-menu.png)
    
     W tym miejscu można wykonać następujące czynności:
    
-   * [Otworzyć raport, który został użyty do utworzenia tego kafelka ](service-reports.md) ![](media/service-dashboard-tiles/chart-icon.jpg)  
+   * [Otworzyć raport, który został użyty do utworzenia tego kafelka ](service-reports.md) ![ikona raportu](media/service-dashboard-tiles/chart-icon.jpg)  
    
-   * [Otworzyć arkusz kalkulacyjny, który został użyty do utworzenia tego kafelka ](service-reports.md) ![](media/service-dashboard-tiles/power-bi-open-worksheet.png)  
+   * [Otworzyć arkusz, który został użyty do utworzenia tego kafelka ](service-reports.md) ![ikona arkusza](media/service-dashboard-tiles/power-bi-open-worksheet.png)  
      
-     * [Wyświetlić w trybie koncentracji uwagi ](service-focus-mode.md) ![](media/service-dashboard-tiles/fullscreen-icon.jpg)  
-     * [Wyeksportować dane użyte na kafelku](power-bi-visualization-export-data.md) ![](media/service-dashboard-tiles/export-icon.png)
-     * [Edytować tytuł i podtytuł, dodać hiperlink, wyświetlić czas ostatniego odświeżenia](service-dashboard-edit-tile.md) ![](media/service-dashboard-tiles/pencil-icon.jpg)
-     * [Uruchomić szczegółowe informacje ](service-insights.md) ![](media/service-dashboard-tiles/power-bi-insights.png)
+     * [Wyświetlić w trybie koncentracji uwagi ](service-focus-mode.md) ![ikona koncentracji uwagi](media/service-dashboard-tiles/fullscreen-icon.jpg)  
+     * [Wyeksportować dane użyte na kafelku](power-bi-visualization-export-data.md) ![ikona eksportowania danych](media/service-dashboard-tiles/export-icon.png)
+     * [Edytować tytuł i podtytuł, dodać hiperlink, wyświetlić czas ostatniego odświeżenia](service-dashboard-edit-tile.md) ![ikona edycji](media/service-dashboard-tiles/pencil-icon.jpg)
+     * [Uruchomić szczegółowe informacje](service-insights.md) ![ikona szczegółowych informacji](media/service-dashboard-tiles/power-bi-insights.png)
      * [Przypiąć kafelek do innego pulpitu nawigacyjnego](service-pin-tile-to-another-dashboard.md)
-       ![](media/service-dashboard-tiles/pin-icon.jpg)
-   * [Usunąć kafelek](service-dashboard-edit-tile.md)
-     ![](media/service-dashboard-tiles/trash-icon.png)
+       ![ikona przypinania](media/service-dashboard-tiles/pin-icon.jpg)
+     * [Usunąć kafelek](service-dashboard-edit-tile.md)
+     ![ikona usuwania](media/service-dashboard-tiles/trash-icon.png)
 3. Aby zamknąć menu akcji, wybierz pusty obszar na kanwie.
 
 ### <a name="select-click-a-tile"></a>Wybieranie (klikanie) kafelka

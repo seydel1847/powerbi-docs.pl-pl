@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/21/2017
 ms.author: mihart
-ms.openlocfilehash: 202f92b9c7089a4bd9bb5dd976051bba47da632e
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Visualizations
+ms.openlocfilehash: 634dc4efe6553a9de91716552a21563f5405fa69
+ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="best-design-practices-for-reports-and-visuals"></a>Najlepsze rozwiązania dotyczące projektowania raportów i wizualizacji
 <!-- Shared newnav Include -->
@@ -215,7 +216,7 @@ Jako tła stron raportów należy ustawiać kolory, które nie odciągają uwagi
 
 Nie tworzysz dzieła sztuki, ale raport funkcjonalny. Wybierz kolor, który poprawia czytelność i wyeksponowanie elementów raportu.  
 
-Z badania dotyczącego stosowania kolorów i wizualizacji na stronach internetowych wynika, że wyższe zróżnicowanie kolorów przyspiesza zrozumienie: *The effect of text and background colour on visual search of Web pages* (Wpływ kolorów tła i tekstu na wizualne przeszukiwanie stron internetowych)* i **Determining Users’ Perception of Web Page Visual Complexity and Aesthetic Characteristics* (Ustalanie postrzeganych przez użytkowników cech estetycznych i złożoności wizualnej stron internetowych).
+Z badania dotyczącego stosowania kolorów i wizualizacji na stronach internetowych wynika, że większy kontrast kolorów przyspiesza zrozumienie: The effect of text and background colour on visual search of Web pages (Wpływ kolorów tła i tekstu na wizualne przeszukiwanie stron internetowych) i **Determining Users’ Perception of Web Page Visual Complexity and Aesthetic Characteristics (Ustalanie postrzeganych przez użytkowników cech estetycznych i złożoności wizualnej stron internetowych)**.
 
 Zastosowaliśmy wybrane najlepsze rozwiązania dotyczące kolorów do naszego przykładowego raportu (ilustracje 20 i 21) poniżej. Najważniejszą zmianą była zmiana koloru tła na czarny.  Żółte tło było zbyt wyraziste i nieprzyjemne dla oczu.  Ponadto na wykresie z liczbą nazwisk sportowców według lat i klas żółta część słupków wtapiała się w żółte tło.  Zastosowanie czarnego (lub białego) tła daje maksymalny kontrast i sprawia, że uwaga skupia się na wizualizacjach.
 

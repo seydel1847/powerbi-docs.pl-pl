@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 02/13/2018
 ms.author: mihart
-ms.openlocfilehash: 94a01f1d302d455dbcfe52ce39f5cb0b1ac4aa29
-ms.sourcegitcommit: 05018ef2fe8439a9e8f599c696b8c3cee67e3958
+ms.openlocfilehash: cc50e4e8830aca3951da6004b8ada3913aff28ed
+ms.sourcegitcommit: 743e44fc8730fea0f7149916080b0c6d7eb6359d
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/21/2018
+ms.lasthandoff: 02/28/2018
 ---
 # <a name="getting-a-custom-visual-certified"></a>*Certyfikowanie* wizualizacji niestandardowej
 ## <a name="what-is-meant-by-certified"></a>Co oznacza *certyfikowanie*?
@@ -50,7 +50,9 @@ Aby przesłać wizualizację niestandardową do certyfikacji:
    * Tytuł: Visual Certification Request    
    * Link do repozytorium w witrynie GitHub, w którym znajduje się kod źródłowy wizualizacji    
    * Zapewnij zgodność z wymogami (zobacz powyżej)    
-   * Udostępnij do przeglądu kod i zabezpieczenia    2. Zespół ds. wizualizacji niestandardowych w firmie Microsoft powiadomi, kiedy Twoja wizualizacja niestandardowa zostanie certyfikowana i dodana do listy wizualizacji certyfikowanych (poniżej) lub odrzucona (wówczas do powiadomienia będzie dołączony raport z informacjami, co należy naprawić). Deweloper odpowiada za utrzymanie komunikacji z firmą Microsoft i zaktualizowanie certyfikowanych wizualizacji w wymagany sposób.
+   * Udostępnij wyniki przeglądu kodu i zabezpieczeń    
+
+2. Zespół ds. wizualizacji niestandardowych w firmie Microsoft powiadomi, kiedy Twoja wizualizacja niestandardowa zostanie certyfikowana i dodana do listy wizualizacji certyfikowanych (poniżej) lub odrzucona (wówczas do powiadomienia będzie dołączony raport z informacjami, co należy naprawić). Deweloper odpowiada za utrzymanie komunikacji z firmą Microsoft i zaktualizowanie certyfikowanych wizualizacji w wymagany sposób.
 
 ## <a name="removal-of-power-bi-certified-custom-visuals"></a>Usuwanie certyfikowanych wizualizacji niestandardowych usługi Power BI
 Firma Microsoft, według własnego uznania, może usunąć daną wizualizację z listy certyfikowanych wizualizacji.  
@@ -117,6 +119,7 @@ Firma Microsoft, według własnego uznania, może usunąć daną wizualizację z
 | [Play Axis (Dynamic Slicer)](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380981) | |
 | [Power KPI](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381083) | [Klip wideo](https://youtu.be/IvfIP3E6-1Q) |
 | [Power KPI — macierz](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381299) | [Klip wideo](https://youtu.be/1enze8pcGzY) |
+| [Wykres kwadrantowy firmy MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381011) | [Klip wideo](https://youtu.be/ppBnyhqWNC0) |
 | [Wykres radarowy](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380771) | |
 | [Ring Chart firmy MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380824) | [Klip wideo](https://youtu.be/pDToHDFHnq8) |
 | [Rotating Chart firmy MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381007) | [Klip wideo](https://youtu.be/d5xBCMmb3hU) |
@@ -129,6 +132,7 @@ Firma Microsoft, według własnego uznania, może usunąć daną wizualizację z
 | [Sunburst](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380767) | |
 | [Table Heatmap](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380818) | |
 | [Tachometer](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380937) | [Klip wideo](https://youtu.be/C3OXdETbS9o) |
+| [Filtr tekstowy](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381309) | |
 | [Text Wrapper firmy MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380826) | |
 | [Thermometer](https://appsource.microsoft.com/en-us/product/office/WA104379807) | |
 | [Wykres rozkładu szeregów czasowych](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380897) | |

@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 03/01/2018
 ms.author: mihart
-ms.openlocfilehash: 7405f2c5663c071d58253f2103c9c7d778ea8299
-ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
+LocalizationGroup: Reports
+ms.openlocfilehash: 7da16deb3e5919d509a5cbbb7fd845914c8c4ea4
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/29/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="create-a-new-power-bi-report-by-importing-a-dataset"></a>Tworzenie nowego raportu usługi Power BI przez zaimportowanie zestawu danych
 Po zapoznaniu się z tematem [Raporty w usłudze Power BI](service-reports.md) możesz teraz utworzyć własny raport. Istnieje wiele sposobów tworzenia raportów. W tym artykule zaczniemy od utworzenia podstawowego raportu na podstawie zestawu danych programu Excel. Kiedy zapoznasz się z podstawami tworzenia raportów, możesz przejść do bardziej zaawansowanych tematów dostępnych w sekcji **Następne kroki** u dołu strony.  
@@ -37,22 +38,22 @@ W przypadku tej metody tworzenia raportu punktem wyjścia jest zestaw danych i p
 
 1. Utworzymy raport w obszarze roboczym usługi Power BI, więc wybierz istniejący obszar roboczy lub utwórz nowy.
    
-   ![](media/service-report-create-new/power-bi-workspaces2.png)
+   ![lista obszarów roboczych aplikacji](media/service-report-create-new/power-bi-workspaces2.png)
 2. W dolnej części lewego okienka nawigacji wybierz opcję **Pobierz dane**.
    
-   ![](media/service-report-create-new/power-bi-get-data3.png)
+   ![Pobieranie danych](media/service-report-create-new/power-bi-get-data3.png)
 3. Wybierz pozycję **Pliki** i przejdź do miejsca, w którym został zapisany przykładowy zestaw danych Retail Analysis.
    
-    ![](media/service-report-create-new/power-bi-select-files.png)
+    ![wybieranie pozycji Pliki](media/service-report-create-new/power-bi-select-files.png)
 4. W ramach tego ćwiczenia wybierz pozycję **Importuj**.
    
-   ![](media/service-report-create-new/power-bi-import.png)
+   ![wybieranie pozycji Importuj](media/service-report-create-new/power-bi-import.png)
 5. Po zaimportowaniu zestawu danych wybierz pozycję **Wyświetl zestaw danych**.
    
-   ![](media/service-report-create-new/power-bi-view-dataset.png)
+   ![wybieranie pozycji Wyświetl zestaw danych](media/service-report-create-new/power-bi-view-dataset.png)
 6. Wyświetlenie zestawu danych powoduje otwarcie edytora raportów.  Zostanie wyświetlona pusta kanwa i narzędzia do edycji raportów.
    
-   ![](media/service-report-create-new/power-bi-blank-report.png)
+   ![edytor raportów](media/service-report-create-new/power-bi-blank-report.png)
 
 > **PORADA**: jeśli nie masz doświadczenia w pracy z kanwą do edycji raportów lub chcesz przypomnieć sobie te informacje, przed dalszym działaniem [zapoznaj się z edytorem raportów](service-the-report-editor-take-a-tour.md).
 > 
@@ -63,16 +64,16 @@ Po zaimportowaniu zestawu danych można już udzielać odpowiedzi na pytania.  D
 
 1. W okienku Pola wybierz pozycję **Sales** > **This Year Sales** > **Value**.
    
-    ![](media/service-report-create-new/power-bi-report-step1.png)
-2. Skonwertuj wizualizację na miernik, wybierając szablon miernika ![](media/service-report-create-new/powerbi-gauge-icon.png) w okienku **Wizualizacje**.
+    ![wykres słupkowy w edytorze raportów](media/service-report-create-new/power-bi-report-step1.png)
+2. Skonwertuj wizualizację na miernik, wybierając szablon miernika ![ikona miernika](media/service-report-create-new/powerbi-gauge-icon.png) w okienku **Wizualizacje**.
    
-    ![](media/service-report-create-new/power-bi-report-step2.png)
+    ![Element wizualny w formie miernika w edytorze raportów](media/service-report-create-new/power-bi-report-step2.png)
 3. Przeciągnij pozycję **Sales** > **This Year Sales** > **Goal** do obszaru **Wartość docelowa**. Wygląda na to, że jesteśmy bardzo blisko celu.
    
-    ![](media/service-report-create-new/power-bi-report-step3.png)
+    ![Element wizualny w formie miernika z wartością Cel jako wartością docelową](media/service-report-create-new/power-bi-report-step3.png)
 4. Teraz jest dobry moment na [zapisanie raportu](service-report-save.md).
    
-   ![](media/service-report-create-new/powerbi-save.png)
+   ![Menu Plik](media/service-report-create-new/powerbi-save.png)
 
 ## <a name="add-an-area-chart-and-slicer-to-the-report"></a>Dodawanie wykresu warstwowego i fragmentatora do raportu
 Nasz dyrektor ma jeszcze kilka dodatkowych pytań. Chce wiedzieć, jak tegoroczna sprzedaż wypada w porównaniu z ubiegłym rokiem. Wyniki mają uwzględniać poszczególne okręgi.
@@ -80,21 +81,21 @@ Nasz dyrektor ma jeszcze kilka dodatkowych pytań. Chce wiedzieć, jak tegoroczn
 1. Na początek zróbmy nieco miejsca na kanwie. Zaznacz miernik i przenieś go w prawy górny róg. Następnie chwyć i przeciągnij jeden z rogów, aby zmniejszyć miernik.
 2. Kliknij poza miernikiem, aby miernik nie był już zaznaczony. W okienku Pola wybierz pozycję **Sales** > **This Year Sales** > **Value**, a następnie wybierz pozycję **Sales** > **Last Year Sales**.
    
-    ![](media/service-report-create-new/power-bi-report-step4.png)
-3. Skonwertuj wizualizację na wykres warstwowy, wybierając szablon wykresu warstwowego ![](media/service-report-create-new/power-bi-areachart-icon.png) w okienku **Wizualizacje**.
+    ![edytor raportów z miernikiem i wykresem słupkowym](media/service-report-create-new/power-bi-report-step4.png)
+3. Skonwertuj wizualizację na wykres warstwowy, wybierając szablon wykresu warstwowego ![ikona wykresu](media/service-report-create-new/power-bi-areachart-icon.png) w okienku **Wizualizacje**.
 4. Wybierz pozycję **Time** > **Period**, aby dodać ją do obszaru **Oś**.
    
-    ![](media/service-report-create-new/power-bi-report-step5.png)
+    ![edytor raportów z aktywnym wykresem warstwowym](media/service-report-create-new/power-bi-report-step5.png)
 5. Aby posortować wizualizacje według okresu, wybierz wielokropek, a następnie polecenie **Sortuj według okresu**.
-6. Teraz dodajmy fragmentator. Wybierz puste miejsce na kanwie, a następnie wybierz szablon fragmentatora ![](media/service-report-create-new/power-bi-slicer-icon.png). Spowoduje to dodanie pustego fragmentatora do kanwy.
+6. Teraz dodajmy fragmentator. Wybierz puste miejsce na kanwie, a następnie wybierz szablon fragmentatora ![ikona fragmentatora](media/service-report-create-new/power-bi-slicer-icon.png)    . Spowoduje to dodanie pustego fragmentatora do kanwy.
    
-    ![](media/service-report-create-new/power-bi-report-step6.png)    
+    ![kanwa raportu](media/service-report-create-new/power-bi-report-step6.png)    
 7. W okienku Pola wybierz pozycję **District** > **District**. Przenieś fragmentator i zmień jego rozmiar.
    
-    ![](media/service-report-create-new/power-bi-report-step7.png)  
+    ![Edytor raportów, dodawanie pozycji District](media/service-report-create-new/power-bi-report-step7.png)  
 8. Za pomocą fragmentatora poszukaj wzorców i danych szczegółowych według okręgu.
    
-   ![](media/service-report-create-new/power-bi-slicer-video2.gif)  
+   ![film wideo dotyczący użycia fragmentatora](media/service-report-create-new/power-bi-slicer-video2.gif)  
 
 Kontynuuj przeglądanie danych i dodawanie wizualizacji. Po znalezieniu szczególnie interesujących danych szczegółowych [przypnij je do pulpitu nawigacyjnego](service-dashboard-pin-tile-from-report.md).
 

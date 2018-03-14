@@ -16,23 +16,23 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/23/2017
+ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: aacc31c3ebb31bf6f8077a2bf802e8127048a431
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: cbb7697e3d3dbc92c2917b0a80deadfc0b9fd5a0
+ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="get-started-with-power-bi-service-apppowerbicom"></a>Wprowadzenie do usługi Power BI (app.powerbi.com)
 Ten samouczek ułatwia rozpoczęcie pracy z ***usługą Power BI***. Jeśli chcesz dowiedzieć się, jakie miejsce zajmuje usługa Power BI w ofercie innych produktów Power BI, zdecydowanie zalecamy zapoznanie się z tematem [Co to jest Power BI](guided-learning/gettingstarted.yml#step-1).
 
-![](media/service-get-started/power-bi-components.png)
+![grafika przedstawiająca relację między programem Desktop, usługą i aplikacją mobilną](media/service-get-started/power-bi-components.png)
 
 Usługa Power BI jest dostępna w wersji bezpłatnej i wersji Pro. Niezależnie od tego, której wersji używasz, *jeśli masz już konto*, otwórz przeglądarkę i wpisz adres app.powerbi.com, aby otworzyć usługę Power BI. Jeśli jesteś nowym użytkownikiem, zalecamy rozpoczęcie od strony www.powerbi.com. W tym miejscu możesz dowiedzieć się więcej o usłudze Power BI, zanim się do niej zalogujesz.  Kiedy zdecydujesz się na wypróbowanie usługi, wybierz link **Utwórz konto bezpłatnie**, który znajduje się w prawym górnym rogu. Jeśli Twój administrator już włączył dla Ciebie dostęp do usługi Power BI, nie używaj przycisku Utwórz konto bezpłatnie, tylko przejdź bezpośrednio do strony app.powerbi.com. 
 
-![](media/service-get-started/power-bi-sign-up.png)
+![Zaloguj się lub zarejestruj bezpłatnie](media/service-get-started/power-bi-sign-up.png)
 
 Jeśli potrzebujesz pomocy dotyczącej programu Power BI Desktop, zobacz [Wprowadzenie do programu Desktop](desktop-getting-started.md). Jeśli potrzebujesz pomocy dotyczącej aplikacji Power BI dla urządzeń przenośnych, zobacz [Aplikacje Power BI dla urządzeń przenośnych](mobile-apps-for-mobile-devices.md).
 
@@ -58,27 +58,27 @@ Oto przykład przedstawiający pobieranie danych z pliku CSV. Chcesz kontynuowa�
 1. [Zaloguj się do usługi Power BI](http://www.powerbi.com/). Nie masz konta? Nie martw się — możesz utworzyć bezpłatne konto.
 2. Usługa Power BI zostanie otwarta w przeglądarce. Wybierz pozycję **Pobierz dane** w dolnej części paska nawigacyjnego po lewej stronie.
    
-   ![](media/service-get-started/getdata3.png)
+   ![pobieranie danych](media/service-get-started/getdata3.png)
 3. Wybierz pozycję **Pliki**. 
    
-   ![](media/service-get-started/gs1.png)
+   ![pobieranie plików](media/service-get-started/gs1.png)
 4. Przejdź do pliku na komputerze i wybierz pozycję **Otwórz**. Jeśli plik został zapisany w usłudze OneDrive dla Firm, wybierz tę opcję. Jeśli plik został zapisany lokalnie, wybierz opcję **Plik lokalny**. 
    
-   ![](media/service-get-started/gs2.png)
+   ![ekran Pobierz dane > Pliki](media/service-get-started/gs2.png)
 5. W tym samouczku wybierzemy pozycję **Importuj**, aby dodać plik programu Excel jako zestaw danych, na podstawie którego utworzymy raporty i pulpity nawigacyjne. W przypadku wybrania pozycji **Przekaż** cały skoroszyt programu Excel jest przekazywany do usługi Power BI, gdzie można go otworzyć i edytować w aplikacji Excel Online.
    
-   ![](media/service-get-started/power-bi-import.png)
+   ![wybieranie opcji Importuj](media/service-get-started/power-bi-import.png)
 6. Po przygotowaniu zestawu danych wybierz pozycję **Wyświetl zestaw danych**, aby go otworzyć w edytorze raportów. 
 
-    ![](media/service-get-started/power-bi-gs.png)
+    ![okno dialogowe Zestaw danych jest gotowy](media/service-get-started/power-bi-gs.png)
 
     Ponieważ jeszcze nie utworzyliśmy żadnej wizualizacji, kanwa raportu będzie pusta.
 
-    ![](media/service-get-started/power-bi-report-editor.png)
+    ![puste kanwy raportów](media/service-get-started/power-bi-report-editor.png)
 
 6. Spójrz na górny pasek menu i zauważ, że jest dostępna opcja **Widok do czytania**. Ponieważ opcja widoku do czytania jest dostępna, oznacza to, że jesteś obecnie w **widoku do edycji**. 
 
-    ![](media/service-get-started/power-bi-editing-view.png)
+    ![opcja Widok do czytania](media/service-get-started/power-bi-editing-view.png)
 
     W widoku do edycji możesz tworzyć i modyfikować raporty, ponieważ jesteś *właścicielem* raportu — jesteś *twórcą*. Po udostępnieniu raportu współpracownikom będą oni mogli wchodzić z nim w interakcje jedynie w widoku do czytania — są to *użytkownicy*. Dowiedz się więcej na temat [widoku do czytania oraz widoku do edycji](service-reading-view-and-editing-view.md).
     
@@ -91,49 +91,49 @@ Teraz, po nawiązaniu połączenia z danymi, rozpocznij eksplorowanie.  Po znale
     
 1. Aby utworzyć wizualizację, w edytorze raportu użyjemy okienka **Pola** w prawej części strony.  Zaznacz pola wyboru obok pozycji **Gross Sales** i **Date**.
    
-   ![](media/service-get-started/fields.png)
+   ![lista Pola](media/service-get-started/fields.png)
 
 2. Usługa Power BI przeanalizuje dane i utworzy wizualizację.  Jeśli najpierw wybrano pole **Date**, pojawi się tabela.  Jeśli najpierw wybrano pole **Gross Sales**, pojawi się wykres. Wybierz inny sposób wyświetlania danych. Zobaczmy te dane w postaci wykresu liniowego. Wybierz ikonę wykresu liniowego (znanego także jako szablon) w **okienku Wizualizacje**.
    
-   ![](media/service-get-started/gettingstart5new.png)
+   ![edytor raportu z wybraną ikoną](media/service-get-started/gettingstart5new.png)
 
 3. Wykres wygląda ciekawie, więc *przypnijmy* go do pulpitu nawigacyjnego. Umieść kursor na wizualizacji i wybierz ikonę **Przypnij**.  Po przypięciu wizualizacji zostanie ona zapisana na pulpicie nawigacyjnym i będzie na bieżąco aktualizowana. Dzięki temu będzie można błyskawicznie sprawdzić najnowsze wartości.
    
-   ![](media/service-get-started/pinnew.png)
+   ![ikona przypinania](media/service-get-started/pinnew.png)
 
 5. Ponieważ to jest nowy raport, zostanie wyświetlony monit o jego zapisanie, zanim będzie można przypiąć wizualizację do pulpitu nawigacyjnego. Nadaj raportowi nazwę (np. *Sales over time* — Sprzedaż w czasie) i wybierz pozycję **Zapisz i kontynuuj**. 
    
-   ![](media/service-get-started/pbi_getstartsaveb4pinnew.png)
+   ![okno dialogowe Zapisz raport](media/service-get-started/pbi_getstartsaveb4pinnew.png)
    
 6. Przypnijmy wykres liniowy do nowego pulpitu nawigacyjnego i nadajmy mu nazwę „Financial sample for tutorial” (Przykład finansowy na potrzeby samouczka). 
    
-   ![](media/service-get-started/power-bi-pin.png)
+   ![nazywanie raportu](media/service-get-started/power-bi-pin.png)
    
  1. Wybierz pozycję **Przypnij**.
    
     Komunikat o powodzeniu (w prawym górnym rogu) informuje o tym, że wizualizacja została dodana do pulpitu nawigacyjnego jako kafelek.
    
-    ![](media/service-get-started/power-bi-pin-success.png)
+    ![okno dialogowe Przypięto do pulpitu nawigacyjnego](media/service-get-started/power-bi-pin-success.png)
 
 8. Wybierz pozycję **Przejdź do pulpitu nawigacyjnego**, aby wyświetlić wykres liniowy przypięty jako kafelek do całkowicie nowego pulpitu nawigacyjnego. Aby usprawnić pulpit nawigacyjny, możesz dodawać kolejne kafelki wizualizacji, a także [łączyć kafelki oraz zmieniać ich nazwy, rozmiary i położenie](service-dashboard-edit-tile.md).
    
-   ![](media/service-get-started/power-bi-new-dashboard.png)
+   ![pulpit nawigacyjny z przypiętą wizualizacją](media/service-get-started/power-bi-new-dashboard.png)
    
    W dowolnym momencie możesz powrócić do raportu, wybierając nowy kafelek na pulpicie nawigacyjnym. Usługa Power BI przeniesie Cię do widoku do czytania w edytorze raportu. Aby powrócić do widoku do edycji, wybierz pozycję **Edytuj raport** z górnego paska menu. Po przejściu do widoku do edycji, kontynuuj eksplorowanie i przypinanie kafelków. 
 
 ## <a name="step-3--continue-the-exploration-with-qa-natural-language-querying"></a>Krok 3. Kontynuowanie eksplorowania za pomocą funkcji Pytania i odpowiedzi (zapytania w języku naturalnym)
 1. Aby przeprowadzić szybką eksplorację danych, spróbuj zadać pytanie w polu Pytania i odpowiedzi. Pole funkcji Pytania i odpowiedzi znajduje się w górnej części pulpitu nawigacyjnego (**Zadaj pytanie dotyczące Twoich danych**) i w górnym pasku menu raportu (**Zadaj pytanie**). Wpisz na przykład pytanie „what segment had the most revenue” (w jakim segmencie przychody były największe).
    
-   ![](media/service-get-started/powerbi-qna.png)
+   ![kanwa funkcji Pytania i odpowiedzi](media/service-get-started/powerbi-qna.png)
 
-2. Funkcja Pytania i odpowiedzi wyszuka odpowiedź, a następnie wyświetli ją w formie wizualizacji. Wybierz ikonę pinezki ![](media/service-get-started/pbi_pinicon.png), aby wyświetlić na pulpicie nawigacyjnym również tę wizualizację.
+2. Funkcja Pytania i odpowiedzi wyszuka odpowiedź, a następnie wyświetli ją w formie wizualizacji. Wybierz ikonę przypinania ![ikona przypinania](media/service-get-started/pbi_pinicon.png) w celu wyświetlenia na pulpicie nawigacyjnym również tej wizualizacji.
 3. Przypnij wizualizację do pulpitu nawigacyjnego „Financial Sample for tutorial”.
    
-    ![](media/service-get-started/power-bi-pin2.png)
+    ![Okno dialogowe opcji Przypnij do pulpitu nawigacyjnego](media/service-get-started/power-bi-pin2.png)
 
 4. Wróć do pulpitu nawigacyjnego, w którym zostanie wyświetlony nowy kafelek.
 
-   ![](media/service-get-started/power-bi-final-dashboard.png)
+   ![pulpit nawigacyjny z przypiętym wykresem](media/service-get-started/power-bi-final-dashboard.png)
 
 ## <a name="next-steps"></a>Następne kroki
 Chcesz szybko skorzystać z innych samouczków?  Poniżej przedstawiono kilka przydatnych tematów, które pozwalają zapoznać się z usługą Power BI.

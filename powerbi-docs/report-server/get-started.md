@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/01/2017
+ms.date: 3/5/2018
 ms.author: maghan
-ms.openlocfilehash: 61558613b0022f7585b31c3e3d674a64ea009d61
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 88aa347a5e6feae969cf9b32e0e2177114efc757
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="get-started-with-power-bi-report-server"></a>Wprowadzenie do serwera raportów usługi Power BI
 Tworzenie i wdrażanie raportów dla urządzeń przenośnych i raportów z podziałem na strony usługi Power BI oraz zarządzanie nimi lokalnie przy użyciu wielu gotowych do użycia narzędzi i usług zapewnianych przez Serwer raportów usługi Power BI.
@@ -86,4 +86,5 @@ Więcej [dokumentacji dla deweloperów serwera raportów](https://docs.microsoft
 [Pobieranie programu SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)
 
 Masz więcej pytań? [Zadaj pytanie społeczności usługi Power BI](https://community.powerbi.com/)
+
 

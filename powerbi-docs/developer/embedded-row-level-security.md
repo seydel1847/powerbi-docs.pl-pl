@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/21/2017
+ms.date: 02/22/2018
 ms.author: maghan
-ms.openlocfilehash: b9d39e2214b20677141a6e6beb9d61b628c320c2
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 2dde59bba1c5d9ded1c82cf2dd1086be14f19304
+ms.sourcegitcommit: d6e013eb6291ae832970e220830d9862a697d1be
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/23/2018
 ---
 # <a name="use-row-level-security-with-power-bi-embedded-content"></a>Używanie zabezpieczeń na poziomie wiersza w osadzonej zawartości usługi Power BI
 Zabezpieczenia na poziomie wiersza (kontrola dostępu) mogą służyć do ograniczania dostępu użytkowników do danych w ramach pulpitów nawigacyjnych, kafelków, raportów i zestawów danych. Wielu różnych użytkowników może pracować z tymi samymi artefaktami, widząc różne dane. Funkcja osadzania obsługuje zabezpieczenia na poziomie wiersza.
@@ -140,6 +140,47 @@ Efektywną tożsamością zapewnioną dla właściwości nazwy użytkownika musi
 
 Role można przekazać wraz z tożsamością w tokenie osadzania. Jeśli żadna rola nie zostanie wybrana, podana nazwa użytkownika będzie używana do rozpoznawania skojarzonych ról.
 
+**Używanie funkcji CustomData**
+
+Funkcja CustomData umożliwia przekazanie dowolnego tekstu (ciągu) przy użyciu właściwości parametrów połączenia CustomData. Wartość ta jest dostępna w usłudze AS za pomocą funkcji CUSTOMDATA().
+Może to być alternatywny sposób dostosowania użycia danych.
+Możesz go użyć wewnątrz zapytania DAX roli, a także bez żadnej roli w zapytaniu DAX miary.
+Funkcja CustomData jest częścią funkcjonalności generowania tokenów dla następujących artefaktów: pulpit nawigacyjny, raport i kafelek. Pulpity nawigacyjne mogą mieć wiele tożsamości CustomData (po jednej dla każdego kafelka/modelu).
+
+> [!NOTE]
+> Funkcja CustomData działa tylko w przypadku modeli, które znajdują się w usługach Azure Analysis Services, i tylko w trybie na żywo. W przeciwieństwie do użytkowników i ról, funkcji danych niestandardowych nie można ustawić w pliku pbix. Podczas generowania tokenu przy użyciu funkcji danych niestandardowych wymagane jest określenie nazwy użytkownika.
+>
+>
+
+**Dodatki zestawu SDK funkcji CustomData**
+
+Właściwość ciągu CustomData dodano do obowiązującej tożsamości w scenariuszu generowania tokenu.
+        
+        [JsonProperty(PropertyName = "customData")]
+        public string CustomData { get; set; }
+
+Tożsamość można utworzyć przy użyciu niestandardowych danych za pomocą następującego wywołania:
+
+        public EffectiveIdentity(string username, IList<string> datasets, IList<string> roles = null, string customData = null);
+
+**Użycie zestawu SDK funkcji CustomData**
+
+W przypadku wywołania interfejsu API REST możesz dodać dane niestandardowe wewnątrz każdej tożsamości, na przykład:
+
+```
+{
+    "accessLevel": "View",
+    "identities": [
+        {
+            "username": "EffectiveIdentity",
+            "roles": [ "Role1", "Role2" ],
+            "customData": "MyCustomData",
+            "datasets": [ "fe0a1aeb-f6a4-4b27-a2d3-b5df3bb28bdc" ]
+        }
+    ]
+}
+```
+
 ## <a name="considerations-and-limitations"></a>Istotne zagadnienia i ograniczenia
 * Przypisywanie użytkowników do ról w usłudze Power BI nie wpływa na zabezpieczenia na poziomie wiersza podczas używania tokenu osadzania.
 * Usługa Power nie będzie stosować ustawień zabezpieczeń na poziomie wiersza do administratorów lub członków z uprawnieniami do edycji podczas podawania tożsamości wraz z tokenem osadzania, ale będzie stosować je wobec danych.
@@ -150,4 +191,3 @@ Role można przekazać wraz z tożsamością w tokenie osadzania. Jeśli żadna 
 * Lista tożsamości może zawierać wiele tokenów tożsamości na potrzeby osadzania pulpitu nawigacyjnego. Dla wszystkich innych artefaktów lista zawiera jedną tożsamość.
 
 Więcej pytań? [Zadaj pytanie społeczności usługi Power BI](https://community.powerbi.com/)
-

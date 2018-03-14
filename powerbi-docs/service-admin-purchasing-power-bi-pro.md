@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 06/30/2017
 ms.author: maghan
-ms.openlocfilehash: 6019cde4864087c75b22663ff5461790d4e24961
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+LocalizationGroup: Administration
+ms.openlocfilehash: c4fa2e0e2927f8050648884e1833adf618a7d4f5
+ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="purchasing-power-bi-pro"></a>Zakup usługi Power BI Pro
 Usługa Power BI Pro jest przeznaczona dla użytkowników, którzy publikują raporty, udostępniają pulpity nawigacyjne, współpracują w obszarach roboczych oraz wykonują inne powiązane działania, na przykład:
@@ -63,7 +64,7 @@ Następnie wybierz pozycję **Rozpocznij okres próbny**.
 > Wraz z dostępnością usługi Power BI Premium i zmianami w ofercie bezpłatnej usługi Power BI od 1 czerwca 2017 możesz zyskać uprawnienia do skorzystania z rozszerzonej wersji próbnej Pro. Aby uzyskać więcej informacji, zobacz [Aktywacja rozszerzonej wersji próbnej Pro](service-extended-pro-trial.md).
 
 ### <a name="what-this-looks-like-within-the-service"></a>Jak to wygląda w usłudze
-Podczas pracy w usłudze możesz sprawdzić, czy masz konto wersji próbnej Pro, przechodząc do ikony **koła zębatego* i wybierając pozycję **Zarządzaj magazynem osobistym**.
+Podczas pracy w usłudze możesz sprawdzić, czy masz konto próbne wersji Pro, przechodząc do ikony **koła zębatego** i wybierając pozycję **Zarządzaj magazynem osobistym**.
 
 ![](media/service-admin-purchasing-power-bi-pro/powerbi-pro-trial3.png)
 

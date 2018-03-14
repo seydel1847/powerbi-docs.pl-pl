@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/07/2018
+ms.date: 03/01/2018
 ms.author: maikelson
-ms.openlocfilehash: a16ed05732f5031f0a6f33522d52bb501e241c4f
-ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
+ms.openlocfilehash: eb1f158dd054d9e1e462b556897fde8a74ae4bc3
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="power-bi-webinars"></a>Power BI — seminaria internetowe
 
@@ -39,6 +39,10 @@ Zacznij od tych popularnych seminariów internetowych na żądanie
 <br>Autor: Miranda Li
 <br>[Obejrzyj teraz](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Simply-Compelling-Seven-Tips-to-Better-Visualization-Design/m-p/173401?Is=Website)
 
+**Learn to Navigate Your Way Through a Power BI Dashboard in 20 Minutes** (Naucz się nawigować po pulpicie nawigacyjnym usługi Power BI w ciągu 20 minut)
+<br>Autor: Miguel Martinez
+<br>[Zarejestruj się i obejrzyj teraz](https://info.microsoft.com/powerbi-dashboard-in-20-min.html?Is=Website)
+
 **Better Together: 5 Benefits Excel Users Will Get From Using Power BI** (Razem lepiej: 5 korzyści dla użytkowników programu Excel korzystających z usługi Power BI)
 <br>Autorzy: Carlos Otero i Miguel Martinez
 <br>[Zarejestruj się i obejrzyj teraz](https://info.microsoft.com/excel-powerbi-better-together.html?Is=Website)
@@ -49,36 +53,14 @@ Zacznij od tych popularnych seminariów internetowych na żądanie
 
 Zarejestruj się, aby uzyskać informacje od ekspertów w zakresie usługi Power BI i wziąć udział w sesjach pytań i odpowiedzi na żywo
 
-**Office 365 Finance Pros Webinar Series - Episode 2: Automate Recurring Reports & Enable Self-Serve Analytics** (Cykl seminariów internetowych dotyczących korzyści finansowych związanych z użyciem usługi Office 365 — odcinek 2: Automatyzacja raportów cyklicznych i włączanie samoobsługowej analityki)
-<br>Autorzy: Mark Traverso i Miguel Martinez
-<br>*15 lutego, 12:00 PST, 15:00 EST*
+**Seria internetowych seminariów dotyczących struktury wdrażania usługi Power BI: część 1 — Wdrażanie: wdrażanie kultury opartej na danych**
+<br>Autor: Manu Kanwarpal
+<br>*8 marca, 09:00 PST, 12:00 EST*
 
-Zapoznaj się z poradami, wskazówkami i najlepszymi rozwiązaniami, które pozwolą Ci osiągać więcej w codziennej pracy dzięki usłudze Office 365.
+Zmień sposób myślenia w organizacji na kulturę opartą na danych i zarejestruj się w serii seminariów internetowych zapewniających strukturę wdrażania usługi Power BI od firmy Microsoft. Wdrożenie samoobsługowej usługi analizy biznesowej (BI) stanowi wyzwanie, a pozyskanie odpowiednich narzędzi jest tylko pierwszym krokiem do celu. Pomyślne wdrożenie wymaga zmian w zakresie osób, procesów i technologii.
+To seminarium internetowe stanowi pierwszą z pięciu części tej serii seminariów, które odblokują potencjał usługi Power BI w Twojej organizacji.
 
-[Zarejestruj się, aby obejrzeć 15 lutego](https://aka.ms/Office365FinanceProsPBI)
-
-**Selling BI Solutions with Microsoft** (Sprzedaż rozwiązań BI z firmą Microsoft)
-<br>Autor: Tamer Farag
-<br>*15 lutego, 8:00 PST, 11:00 EST*
-
-Weź udział w tym seminarium internetowym, aby dowiedzieć się, jak odnosić sukcesy we współpracy z firmą Microsoft i wykorzystywać możliwości rynkowe związane z analizą biznesową. Zapoznaj się z omówieniem naszych najnowszych zasobów szkoleniowych, materiałów marketingowych, zniżek i ofert, które ułatwią rozwój Twojej firmy. Ponadto dowiedz się, jak zaprezentować się w witrynach PowerBI.com i AppSource.com, aby zapewnić dobrą widoczność swoich rozwiązań i ofert dla klientów i sprzedawców firmy Microsoft.
-
-[Zarejestruj się, aby obejrzeć 15 lutego](https://infopedia.eventbuilder.com/event?eventid=l9d4s7)
-
-**Learn to Navigate Your Way Through a Power BI Dashboard in 20 Minutes** (Naucz się nawigować po pulpicie nawigacyjnym usługi Power BI w ciągu 20 minut)
-<br>Autor: Miguel Martinez
-<br>*21 lutego, 10:00 PST, 13:00 EST*
-
-Zdarzyło Ci się kiedykolwiek otworzyć pulpit nawigacyjny usługi Power BI i utknąć w miejscu?  Jak nawigować po takim pulpicie, aby znaleźć właściwe dane? Ograniczasz korzystanie z filtrów i fragmentatorów, aby „czegoś nie zepsuć”?  Nie obawiaj się — dołącz do nas i dowiedz się, jak nawigować po pulpicie nawigacyjnym usługi Power BI. Przeprowadzimy Cię przez typowe funkcje używane przez innych menedżerów, aby umożliwić Ci dotarcie do szukanych danych, gdy tylko będą Ci potrzebne.
-
-[Zarejestruj się, aby obejrzeć 21 lutego](https://info.microsoft.com/powerbi-dashboard-in-20-min.html?Is=Website)
-
-**Visualize public or private datasets with the new Power BI and data.world connector** (Wizualizacja publicznych i prywatnych zestawów danych za pomocą nowego łącznika Power BI i data.world)
-<br>*22 lutego, 10:00 PST, 13:00 EST*
-
-Firma Microsoft we współpracy z data.world wydała nowy łącznik danych, który umożliwia importowanie zestawów danych usługi data.world do programu Power BI Desktop. Dołącz do nas, aby dowiedzieć się, jak używać tego nowego doskonałego łącznika oraz wykorzystywać możliwości społeczności data.world, aby udostępniać innym swoje dane i z nimi współpracować.
-
-[Zarejestruj się, aby obejrzeć 22 lutego](https://info.microsoft.com/data-world-connector-powerbi.html?Is=Website)
+[Zarejestruj się, aby obejrzeć 8 marca](https://info.microsoft.com/ww-landing-powerbi-adoption.html?Is=Website)
 
 >[Weź udział w nadchodzących seminariach internetowych społeczności usługi Power BI](https://powerbi.microsoft.com/en-us/blog/tag/community-webinar?Is=Website)
 
@@ -110,7 +92,15 @@ Oglądaj nagrane sesje w dowolnym momencie
 <br>Autorzy: Jon Thompson (Blue Margin) i Jim Pastor (Elgin Fastener Group)
 <br>[Zarejestruj się i obejrzyj teraz](https://info.microsoft.com/digital-transformation-in-manufacturing.html?Is=Website)
 
+**Visualize public or private datasets with the new Power BI and data.world connector** (Wizualizacja publicznych i prywatnych zestawów danych za pomocą nowego łącznika Power BI i data.world)
+<br>Patrick McGarry i Miguel Martinez
+<br>[Zarejestruj się i obejrzyj teraz](https://info.microsoft.com/data-world-connector-powerbi.html?Is=Website)
+
 ### <a name="advanced-topics"></a>Tematy zaawansowane ###
+
+**Office 365 Finance Pros Webinar Series - Episode 2: Automate Recurring Reports & Enable Self-Serve Analytics** (Cykl seminariów internetowych dotyczących korzyści finansowych związanych z użyciem usługi Office 365 — odcinek 2: Automatyzacja raportów cyklicznych i włączanie samoobsługowej analityki)
+<br>Autorzy: Mark Traverso i Miguel Martinez
+<br>[Zarejestruj się i obejrzyj teraz](https://aka.ms/Office365FinanceProsPBI)
 
 **How to Implement a Successful Data Governance Strategy That Makes Your Organization More Secure** (Jak wdrożyć skuteczną strategię zarządzania danymi, która zwiększy bezpieczeństwo organizacji)
 <br>Autor: Ajay Anandan

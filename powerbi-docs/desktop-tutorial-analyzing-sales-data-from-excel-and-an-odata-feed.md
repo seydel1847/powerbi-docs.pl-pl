@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: 0723b3a7155626f875044fa813a522ef6d4923df
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+LocalizationGroup: Learn more
+ms.openlocfilehash: 4cab3ed114d03d42c6acf1bf62f70e7d920e16b2
+ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="tutorial-analyzing-sales-data-from-excel-and-an-odata-feed"></a>Samouczek: analizowanie danych sprzedaży z programu Excel i źródła danych OData
 Program **Power BI Desktop** pozwala nawiązywać połączenia z różnego rodzaju źródłami danych, a następnie łączyć i kształtować je w sposób zapewniający uzyskanie interesujących i atrakcyjnych analiz danych oraz wizualizacji. Z tego samouczka dowiesz się, jak łączyć dane z dwóch źródeł danych. 
@@ -34,7 +35,7 @@ Oto jak będzie wyglądać raport końcowy:
 
 ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/18.png)
 
-Aby wykonać kroki opisane w tym samouczku, potrzebny jest skoroszyt z danymi produktów, który można pobrać**:**[ kliknij](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)[tutaj,](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)[ aby pobrać](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)**[Products.xlsx](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)**[. ](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)
+Do wykonania kroków opisanych w tym samouczku jest potrzebny skoroszyt z danymi produktów, który można pobrać: **[kliknij tutaj, aby pobrać plik Products.xlsx](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)**
 
 W oknie dialogowym **Zapisywanie jako** nadaj plikowi nazwę **Products.xlsx**.
 
@@ -82,7 +83,7 @@ W miarę wykonywania działań dotyczących zapytania w edytorze zapytań tworzo
 | Zmiana typu danych |Changed Type |Table.TransformColumnTypes(\#"Removed Other Columns",{{"UnitsInStock", Int64.Type}}) |
 
 ## <a name="task-2-import-order-data-from-an-odata-feed"></a>Zadanie 2. Importowanie danych dotyczących zamówień ze strumieniowego źródła danych OData
-W ramach tego zadania dodamy dane dotyczące zamówień. Ten krok reprezentuje proces łączenia się z systemem sprzedaży. Zaimportujemy dane do programu Power BI Desktop, korzystając z przykładowych danych Northwind strumieniowego źródła OData, pod następującym adresem URL, który można skopiować (i wkleić) w ramach opisanych poniżej kroków: <http://services.odata.org/V3/Northwind/Northwind.svc/> 
+W ramach tego zadania dodamy dane dotyczące zamówień. Ten krok reprezentuje proces łączenia się z systemem sprzedaży. Zaimportujemy dane do programu Power BI Desktop, korzystając z przykładowych danych Northwind strumieniowego źródła OData dostępnego pod następującym adresem URL, który można skopiować i następnie wkleić w ramach kroków opisanych poniżej: <http://services.odata.org/V3/Northwind/Northwind.svc/> 
 
 ### <a name="step-1-connect-to-an-odata-feed"></a>Krok 1. Łączenie się ze strumieniowym źródłem danych OData
 1. Na karcie **Narzędzia główne** wstążki w edytorze zapytań wybierz pozycję **Pobierz dane.**
@@ -179,7 +180,7 @@ W tym zadaniu potwierdzimy fakt istnienia relacji w programie Power BI Desktop m
 3. Po załadowaniu danych wybierz przycisk **Zarządzaj relacjami** na karcie **Narzędzia główne** wstążki.
    
    ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_5.png)
-4. Wybierz  przycisk **Nowa...**
+4. Wybierz przycisk **Nowa...** button
    
    ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_6.png)
 5. Podczas próby utworzenia relacji zostanie wyświetlona informacja, że relacja ta już istnieje! Jak widać w oknie dialogowym **Tworzenie relacji** (po zacieniowaniu kolumn), pola **ProductsID** obu zapytań mają już ustaloną relację.

@@ -16,21 +16,21 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/03/2018
+ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 9a8f4e330ea2188b23f3730b18ee56d7c7f72de2
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 11e9a2ba499c6db2c75434d13c62bc53704a7cb3
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="subscribe-to-a-power-bi-report-or-dashboard"></a>Subskrybowanie raportu lub pulpitu nawigacyjnego usługi Power BI
 Nigdy nie było łatwiej być na czasie w przypadku najważniejszych pulpitów nawigacyjnych i raportów. Subskrybuj strony raportów i pulpity nawigacyjne, które są najważniejsze dla Ciebie, a usługa Power BI wyśle wiadomość e-mail z migawką do Twojej skrzynki odbiorczej. Poinformuj usługę Power BI, jak często chcesz otrzymywać wiadomości e-mail: od raz dziennie do raz w tygodniu. 
 
-W wiadomości e-mail i migawce będzie używany język skonfigurowany w ustawieniach usługi Power BI (zobacz temat [Języki i kraje/regiony obsługiwane w usłudze Power BI](supported-languages-countries-regions.md)). Jeśli żaden język nie zostanie zdefiniowany, usługa Power BI będzie używać języka zgodnie z ustawieniami regionalnymi w bieżącej przeglądarce. Aby zobaczyć preferencję języka, wybierz ikonę z kołem zębatym ![](media/service-report-subscribe/power-bi-settings-icon.png) **> Ustawienia > Ogólne > Język**. 
+W wiadomości e-mail i migawce będzie używany język skonfigurowany w ustawieniach usługi Power BI (zobacz temat [Języki i kraje/regiony obsługiwane w usłudze Power BI](supported-languages-countries-regions.md)). Jeśli żaden język nie zostanie zdefiniowany, usługa Power BI będzie używać języka zgodnie z ustawieniami regionalnymi w bieżącej przeglądarce. Aby zobaczyć preferencję języka, wybierz ikonę z kołem zębatym ![ikona koła zębatego](media/service-report-subscribe/power-bi-settings-icon.png) **> Ustawienia > Ogólne > Język**. 
 
-![](media/service-report-subscribe/power-bi-language.png)
+![Lista rozwijana języka](media/service-report-subscribe/power-bi-language.png)
 
 > [!NOTE]
 > Subskrypcje można tworzyć tylko w usłudze Power BI. Po otrzymaniu wiadomości e-mail będzie ona zawierała link „przejdź do raportu/pulpitu nawigacyjnego”. Na urządzeniach przenośnych z zainstalowanymi aplikacjami usługi Power BI zaznaczenie tego linku powoduje uruchomienie aplikacji (w przeciwieństwie do domyślnej akcji otwierania raportu lub pulpitu nawigacyjnego w witrynie internetowej usługi Power BI).
@@ -45,47 +45,47 @@ Oglądaj, jak Sirui konfiguruje subskrypcję e-mail dla raportu. Następnie post
 **Tworzenie** subskrypcji jest funkcją usługi Power BI Pro i musisz mieć uprawnienie wyświetlania lub edycji do zawartości (pulpitu nawigacyjnego lub raportu).
 
 ## <a name="subscribe-to-a-dashboard"></a>Subskrypcja dla pulpitu nawigacyjnego
-![](media/service-report-subscribe/power-bi-subscribe-orientation.png)
+![wybieranie ikony subskrypcji](media/service-report-subscribe/power-bi-subscribe-orientation.png)
 
 1. Otwórz pulpit nawigacyjny.
-2. Z górnego menu wybierz pozycję **Subskrybuj** lub wybierz ikonę koperty ![](media/service-report-subscribe/power-bi-icon-envelope.png).
+2. Z górnego menu wybierz pozycję **Subskrybuj** lub wybierz ikonę koperty ![ikona subskrypcji](media/service-report-subscribe/power-bi-icon-envelope.png).
    
-   ![](media/service-report-subscribe/power-bi-subscribe-icon.png)
+   ![Ikona subskrypcji](media/service-report-subscribe/power-bi-subscribe-icon.png)
 3. Aby włączyć/wyłączyć subskrypcję, użyj żółtego suwaka.  Ustawienie suwaka w pozycji Wył. nie spowoduje usunięcia subskrypcji. Aby usunąć subskrypcję, wybierz ikonę śmietnika.
    
-   ![](media/service-report-subscribe/power-bi-subscribe-dashboard-new.png)
+   ![Okno subskrypcji](media/service-report-subscribe/power-bi-subscribe-dashboard-new.png)
 4. Wybierz pozycję **Zapisz i zamknij**, aby zapisać subskrypcję. Otrzymasz wiadomość e-mail z migawką pulpitu nawigacyjnego po każdej zmianie dowolnych danych w źródłowym zestawie danych. Jeśli pulpit nawigacyjny jest odświeżany częściej niż raz dziennie, wiadomość e-mail z migawką otrzymasz tylko po pierwszym odświeżeniu.
    
-   ![](media/service-report-subscribe/power-bi-dashboard-email-new.png)
+   ![wiadomość e-mail z migawką pulpitu nawigacyjnego](media/service-report-subscribe/power-bi-dashboard-email-new.png)
    
    > [!TIP]
-   > Chcesz natychmiast zobaczyć wiadomość e-mail? Możesz wyzwolić wiadomość e-mail, odświeżając jeden z zestawów danych skojarzonych z pulpitem nawigacyjnym. (Jeśli nie masz uprawnień do edytowania zestawu danych, musisz poprosić kogoś, kto ma te uprawnienia, aby wykonał tę operację). Aby dowiedzieć się, które zestawy danych zostały użyte do utworzenia pulpitu nawigacyjnego, z poziomu pulpitu nawigacyjnego wybierz ikonę **Przejrzyj powiązane** ![](media/service-report-subscribe/power-bi-view-related.png), aby otworzyć pozycję **Powiązana zawartość**, a następnie wybierz ikonę odświeżania ![](media/service-report-subscribe/power-bi-refresh.png). 
+   > Chcesz natychmiast zobaczyć wiadomość e-mail? Możesz wyzwolić wiadomość e-mail, odświeżając jeden z zestawów danych skojarzonych z pulpitem nawigacyjnym. (Jeśli nie masz uprawnień do edytowania zestawu danych, musisz poprosić kogoś, kto ma te uprawnienia, aby wykonał tę operację). Aby dowiedzieć się, które zestawy danych zostały użyte do utworzenia pulpitu nawigacyjnego, z poziomu pulpitu nawigacyjnego wybierz ikonę **Przejrzyj powiązane** ![ikona Przejrzyj powiązane](media/service-report-subscribe/power-bi-view-related.png), aby otworzyć pozycję **Powiązana zawartość**, a następnie wybierz ikonę odświeżania ![ikona odświeżana](media/service-report-subscribe/power-bi-refresh.png). 
    > 
    > 
    
-   ![](media/service-report-subscribe/power-bi-view-related-screen.png)
+   ![Pokrewne zestawy danych](media/service-report-subscribe/power-bi-view-related-screen.png)
 
 ## <a name="subscribe-to-a-report-page"></a>Subskrybowanie strony raportu
 1. Wyświetl raport w [Widoku do odczytu](service-reading-view-and-editing-view.md).
 2. Z górnego menu wybierz pozycję **Subskrybuj**.
    
-   ![](media/service-report-subscribe/power-bi-subscribe-icon.png)
+   ![Ikona subskrypcji](media/service-report-subscribe/power-bi-subscribe-icon.png)
 3. Jednocześnie możesz subskrybować jedną stronę raportu. Wybierz konkretną stronę raportu z listy rozwijanej.
    
-   ![](media/service-report-subscribe/power-bi-subscribe-dialog.png)
+   ![Okno subskrypcji](media/service-report-subscribe/power-bi-subscribe-dialog.png)
    
    Kontynuuj dodawanie stron raportu.
 4. Aby włączyć/wyłączyć subskrypcję każdej strony, użyj żółtego suwaka.  Ustawienie suwaka w pozycji Wył. nie spowoduje usunięcia subskrypcji. Aby usunąć subskrypcję, wybierz ikonę śmietnika.
    
-   ![](media/service-report-subscribe/power-bi-slider.png)
+   ![włączanie subskrypcji](media/service-report-subscribe/power-bi-slider.png)
 5. Wybierz pozycję **Zapisz i zamknij**, aby zapisać subskrypcję. Będziesz odbierać wiadomość e-mail z migawką każdej strony raportu, gdy raport zostanie odświeżony. Jeśli raport nie będzie odświeżany, nie otrzymasz wiadomości e-mail z migawką danego dnia.  Jeśli raport jest odświeżany częściej niż raz dziennie, wiadomość e-mail z migawką otrzymasz tylko po pierwszym odświeżeniu.
    
-   ![](media/service-report-subscribe/power-bi-subscription-email.png)
+   ![wiadomość e-mail z migawką pulpitu nawigacyjnego](media/service-report-subscribe/power-bi-subscription-email.png)
    
    > [!TIP]
    > Chcesz natychmiast zobaczyć wiadomość e-mail? Możesz wyzwolić wiadomość e-mail, otwierając zestaw danych i wybierając pozycję **Odśwież teraz**. Jeśli nie masz uprawnień do edytowania zestawu danych, musisz poprosić kogoś, kto ma te uprawnienia, aby wykonał tę operację.
    > 
-   > ![](media/service-report-subscribe/power-bi-refresh-now.png)
+   > ![ikona Odśwież teraz na karcie Zestawy danych](media/service-report-subscribe/power-bi-refresh-now.png)
    > 
    > 
 
@@ -98,13 +98,13 @@ W poniższej tabeli opisano, jak często będzie wysyłana wiadomość e-mail. Z
 | **Jaką kontrolę ma użytkownik nad harmonogramem subskrypcji wiadomości e-mail?** |Opcje to: codziennie lub co tydzień |Brak opcji: do użytkowników są wysyłane wiadomości e-mail, jeśli raport zostanie odświeżony, ale nie więcej niż raz dziennie. |Jeśli został ustawiony codzienny harmonogram odświeżania, dostępne opcje to codziennie i co tydzień.  W przypadku cotygodniowego harmonogramu odświeżania jedyną opcją jest co tydzień. |Brak opcji: do użytkownika jest wysyłana wiadomość e-mail przy każdej aktualizacji zestawu danych, ale nie więcej niż raz dziennie. |
 
 ## <a name="manage-your-subscriptions"></a>Zarządzanie subskrypcjami
-Istnieją 2 ścieżki do ekranu do zarządzania subskrypcjami.  Pierwsza polega na wybraniu pozycji **Zarządzaj wszystkimi subskrypcjami** w oknie dialogowym **Subskrybowanie wiadomości e-mail** (zobacz krok 3 powyżej). Druga polega na wybraniu ikony przypominającej koło zębate usługi Power BI ![](media/service-report-subscribe/power-bi-settings-icon.png) z górnego menu, a następnie wybraniu pozycji **Ustawienia**.
+Istnieją 2 ścieżki do ekranu do zarządzania subskrypcjami.  Pierwsza polega na wybraniu pozycji **Zarządzaj wszystkimi subskrypcjami** w oknie dialogowym **Subskrybowanie wiadomości e-mail** (zobacz krok 3 powyżej). Druga polega na wybraniu ikony przypominającej koło zębate usługi Power BI ![ikona koła zębatego](media/service-report-subscribe/power-bi-settings-icon.png) z górnego menu, a następnie wybraniu pozycji **Ustawienia**.
 
-![](media/service-report-subscribe/power-bi-subscribe-settings.png)
+![wybieranie pozycji Ustawienia](media/service-report-subscribe/power-bi-subscribe-settings.png)
 
 Określone wyświetlane subskrypcje będą zależeć od aktualnie aktywnego obszaru roboczego.  Aby wyświetlić wszystkie swoje subskrypcje naraz dla wszystkich obszarów roboczych, upewnij się, że pozycja **Mój obszar roboczy** jest aktywna. Aby uzyskać pomoc dotyczącą obszarów roboczych, zobacz [Workspaces in Power BI](service-create-distribute-apps.md) (Obszary robocze w usłudze Power BI).
 
-![](media/service-report-subscribe/power-bi-subscriptions.png)
+![wyświetlanie wszystkich subskrypcji w obszarze Mój obszar roboczy](media/service-report-subscribe/power-bi-subscriptions.png)
 
 Subskrypcje zostaną zakończone po wygaśnięciu licencji wersji Pro, po usunięciu pulpitu nawigacyjnego lub raportu przez właściciela, po usunięciu konta użytkownika użytego do utworzenia subskrypcji.
 
@@ -120,7 +120,7 @@ Subskrypcje zostaną zakończone po wygaśnięciu licencji wersji Pro, po usuni�
 * Subskrypcje mogą zakończyć się niepowodzeniem dla pulpitów nawigacyjnych i raportów z wyjątkowo dużymi obrazami, co wynika z ograniczeń rozmiarów wiadomości e-mail.    
 * Usługa Power BI automatycznie wstrzymuje odświeżanie zestawów danych skojarzonych z pulpitami nawigacyjnymi i raportami, które nie były odwiedzane przez więcej niż 2 miesiące.  Jeśli jednak dodasz subskrypcję do pulpitu nawigacyjnego lub raportu, nie zostanie ona wstrzymana nawet wtedy, gdy nie jest odwiedzany.    
 * Jeśli nie otrzymujesz wiadomości e-mail subskrypcji, upewnij się, że Twoja główna nazwa użytkownika (UPN) umożliwia odbieranie wiadomości e-mail. [Zespół usługi Power BI pracuje nad ograniczeniem tego wymagania](https://community.powerbi.com/t5/Issues/No-Mail-from-Cloud-Service/idc-p/205918#M10163), więc uzbrój się w cierpliwość. 
-* Wysłane raporty i pulpity nawigacyjne korzystają z ustawień językowych użytkownika usługi Power BI. Językiem domyślnym jest język angielski. Aby zobaczyć preferencję języka, wybierz ikonę z kołem zębatym ![](media/service-report-subscribe/power-bi-settings-icon.png) **> Ustawienia > Ogólne > Język**.
+* Wysłane raporty i pulpity nawigacyjne korzystają z ustawień językowych użytkownika usługi Power BI. Językiem domyślnym jest język angielski. Aby zobaczyć preferencję języka, wybierz ikonę z kołem zębatym ![ikona koła zębatego](media/service-report-subscribe/power-bi-settings-icon.png) **> Ustawienia > Ogólne > Język**.
 
 ## <a name="next-steps"></a>Następne kroki
 * Masz więcej pytań? [Zadaj pytanie społeczności usługi Power BI](http://community.powerbi.com/)    

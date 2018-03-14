@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: f76bc638893a06545fb5a71ec633dd470fd47dd8
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 26308afc86ce83a24a40b078770db35213f600e0
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="navigation-searching-finding-and-sorting-content-in-power-bi-service"></a>Nawigacja: wyszukiwanie, znajdowanie i sortowanie treści w usłudze Power BI
 Istnieje wiele sposobów nawigowania po zawartości w usłudze Power BI. Zawartość jest posortowana w obszarach roboczych według typów: pulpity nawigacyjne, raporty, skoroszyty i zestawy danych.  Ponadto zawartość jest posortowana według użycia: ulubione, ostatnio używane, aplikacje, udostępnione dla mnie i polecane. Te różne sposoby uzyskiwania dostępu do zawartości pozwalają na szybkie znajdowanie potrzebnych informacji w usłudze Power BI.  
@@ -34,26 +34,26 @@ Istnieje wiele sposobów nawigowania po zawartości w usłudze Power BI. Zawarto
 
 Usługa Power BI dzieli zawartość obszaru roboczego według typu: pulpity nawigacyjne, raporty, skoroszyty i zestawy danych. Ten podział jest widoczny po wybraniu obszaru roboczego. W tym przykładzie obszar roboczy aplikacji ma nazwę „Sales and marketing app sample” i zawiera 2 pulpity nawigacyjne, 6 raportów, 1 skoroszyt i 5 zestawów danych.
 
-![](media/service-navigation-search-filter-sort/workspaces.gif)
+![wideo](media/service-navigation-search-filter-sort/workspaces.gif)
 
 ________________________________________
 
 ## <a name="searching-and-sorting-in-workspaces"></a>Wyszukiwanie i sortowanie w obszarach roboczych
 Obszar roboczy zawiera cztery karty zawartości: pulpity nawigacyjne, raporty, skoroszyty i zestawy danych.  Każda z tych kart zawiera pole wyszukiwania i przycisk sortowania.  Jeśli zaczynasz z usługą Power BI, może nie być to przydatne, ponieważ będziesz mieć tylko jeden lub dwa elementy na karcie.  Jednak wraz z upływem czasu możesz skończyć z długim spisem treści.  Użyj wyszukiwania i sortowania, aby łatwo znaleźć to, czego potrzebujesz.
 
-![](media/service-navigation-search-filter-sort/power-bi-search-sort2.png)
+![Karta pulpitów nawigacyjnych](media/service-navigation-search-filter-sort/power-bi-search-sort2.png)
 
 * Wprowadź wyszukiwany termin w celu odnalezienia dopasowania na bieżącym ekranie
   
-   ![](media/service-navigation-search-filter-sort/power-bi-search2.png)
+   ![wprowadzanie terminu wyszukiwania](media/service-navigation-search-filter-sort/power-bi-search2.png)
 * Wybierz przycisk sortowania, aby wyświetlić opcje dla bieżącej strony. Opcje dotyczą sortowania według nazwy lub właściciela.
   
-   ![](media/service-navigation-search-filter-sort/power-bi-sort-alpha.png)
+   ![menu sortowania](media/service-navigation-search-filter-sort/power-bi-sort-alpha.png)
 
 ## <a name="navigation-using-the-left-navbar"></a>Nawigowanie przy użyciu lewego paska nawigacyjnego
-Lewy pasek nawigacyjny klasyfikuje zawartość w sposób, który jeszcze bardziej ułatwia szybkie odnajdowanie potrzebnych informacji.  
+Lewe okienko nawigacji klasyfikuje zawartość w sposób, który jeszcze bardziej ułatwia szybkie odnajdowanie potrzebnych informacji.  
 
-![](media/service-navigation-search-filter-sort/power-bi-newnav.png)
+![lewe okienko nawigacji](media/service-navigation-search-filter-sort/power-bi-newnav.png)
 
 
 
@@ -61,7 +61,7 @@ Zawartość, którą tworzysz na własny użytek, jest dostępna w obszarze **M�
 
 Ponadto możesz tagować zawartość jako [ulubioną](service-dashboard-favorite.md) i [polecaną](service-dashboard-featured.md). Wybierz jeden pulpit nawigacyjny, który powinien być najczęściej oglądany, i ustaw go jako swój *polecany* pulpit nawigacyjny. Po każdym otwarciu usługi Power BI ten pulpit nawigacyjny będzie wyświetlany jako pierwszy. Czy masz pewną liczbę pulpitów nawigacyjnych i aplikacji, które często odwiedzasz? Jeśli ustawisz je jako ulubione, będą zawsze dostępne na lewym pasku nawigacyjnym.
 
-![](media/service-navigation-search-filter-sort/power-bi-favorite-flyout.png)
+![Okno wysuwane ulubionych](media/service-navigation-search-filter-sort/power-bi-favorite-flyout.png).
 
 
 ## <a name="considerations-and-troubleshooting"></a>Istotne zagadnienia i rozwiązywanie problemów

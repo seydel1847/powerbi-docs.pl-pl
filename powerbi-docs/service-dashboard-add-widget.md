@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 3aa70a6382164cb8284e1a5f61ae73f66e54d2f3
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Dashboards
+ms.openlocfilehash: cb1db61a3e0017adf56314862a5bb71fe1288dc6
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="add-image-text-video-and-more-to-your-dashboard"></a>Dodawanie obrazu, tekstu, wideo itd. do pulpitu nawigacyjnego
 <iframe width="560" height="315" src="https://www.youtube.com/embed/e2PD8m1Q0vU" frameborder="0" allowfullscreen></iframe>
@@ -31,12 +32,12 @@ ms.lasthandoff: 12/21/2017
 ## <a name="add-tile"></a>Dodawanie kafelka
 Kontrolka **Dodawanie kafelka** umożliwia bezpośrednie dodanie obrazu, pola tekstowego, wideo, danych strumieniowych lub kodu internetowego do własnego pulpitu nawigacyjnego.
 
-1. Wybierz pozycję **Dodaj kafelek** na pasku menu u góry. W zależności od ograniczeń miejsca może zostać wyświetlony tylko znak plus ![](media/service-dashboard-add-widget/power-bi-add-tile-icon-small.png).
+1. Wybierz pozycję **Dodaj kafelek** na pasku menu u góry. W zależności od ograniczeń miejsca może zostać wyświetlony tylko znak plus ![znak plus](media/service-dashboard-add-widget/power-bi-add-tile-icon-small.png).
    
-    ![](media/service-dashboard-add-widget/power-bi-add-tile-icon.png)
+    ![Ikona dodawania kafelka](media/service-dashboard-add-widget/power-bi-add-tile-icon.png)
 2. Wybierz typ kafelka do dodania: **Obraz**, **Pole tekstowe**, **Wideo**, **Treść internetowa** lub **Niestandardowe dane strumieniowe**.
    
-    ![](media/service-dashboard-add-widget/power-bi-add-tile.png)
+    ![okno dodawania kafelka](media/service-dashboard-add-widget/power-bi-add-tile.png)
 
 ## <a name="add-an-image"></a>Dodawanie obrazu
 Załóżmy, że chcesz umieścić logo swojej firmy na swoim pulpicie nawigacyjnym lub jakiś inny obraz. Musisz zapisać plik obrazu w trybie online i połączyć się z nim. Upewnij się, że specjalne poświadczenia nie są wymagane do uzyskania dostępu do pliku obrazu. Na przykład usługa OneDrive i program SharePoint wymagają uwierzytelniania, dzięki czemu obrazy tam przechowywane nie mogą zostać dodane do pulpitu nawigacyjnego w ten sposób.  
@@ -44,14 +45,14 @@ Załóżmy, że chcesz umieścić logo swojej firmy na swoim pulpicie nawigacyjn
 1. Wybierz pozycje **Obraz** > **Dalej**.
 2. Dodaj informacje o obrazie w oknie **Dodawanie kafelka obrazu**.
    
-    ![](media/service-dashboard-add-widget/pbi-widget-add-image-new.png)
+    ![okno dodawania kafelka obrazu](media/service-dashboard-add-widget/pbi-widget-add-image-new.png)
    
    * aby wyświetlić tytuł powyżej obrazu, wybierz pozycję *Wyświetl tytuł i podtytuł* oraz wpisz tytuł lub podtytuł.
    * wprowadź adres URL obrazu
    * aby przekształcić kafelek w hiperlink, wybierz pozycję **Ustaw link niestandardowy**, a następnie wprowadź adres URL.  Gdy współpracownicy klikną ten obraz lub tytuł, zostaną przekierowani do tego adresu URL.
    * Wybierz pozycję **Zastosuj**.  Na pulpicie nawigacyjnym zmień rozmiar i przenieś obraz odpowiednio do potrzeb.
      
-     ![](media/service-dashboard-add-widget/power-bi-add-image-dash.png)
+     ![obraz na pulpicie nawigacyjnym](media/service-dashboard-add-widget/power-bi-add-image-dash.png)
 
 ## <a name="add-a-text-box-or-dashboard-heading"></a>Dodawanie pola tekstowego lub nagłówka pulpitu nawigacyjnego
 1. Wybierz pozycje **Pole tekstowe > Dalej**.
@@ -64,11 +65,11 @@ Załóżmy, że chcesz umieścić logo swojej firmy na swoim pulpicie nawigacyjn
    * wprowadź i sformatuj zawartość pola tekstowego.  
    * Opcjonalnie ustaw niestandardowy link dla tytułu. Link niestandardowy może prowadzić do witryny zewnętrznej lub pulpitu nawigacyjnego albo raportu w obszarze roboczym. Jednak w tym przykładzie dodano hiperlinki w samym polu tekstowym, więc pole **Ustaw link niestandardowy** pozostanie niezaznaczone.
 
-     ![](media/service-dashboard-add-widget/power-bi-add-textbox.png)
+     ![Okno Dodaj kafelek pola tekstowego](media/service-dashboard-add-widget/power-bi-add-textbox.png)
    
 3. Wybierz pozycję **Zastosuj**.  Na pulpicie nawigacyjnym zmień rozmiar i przenieś pole tekstowe odpowiednio do potrzeb.
    
-   ![](media/service-dashboard-add-widget/pbi-widget-text-added-new.png)
+   ![pulpit nawigacyjny z obrazem i polem tekstowym](media/service-dashboard-add-widget/pbi-widget-text-added-new.png)
 
 ## <a name="add-a-video"></a>Dodawanie wideo
 Po dodaniu kafelka wideo serwisu YouTube lub Vimeo do pulpitu nawigacyjnego odtwarzanie wideo odbywa się bezpośrednio na pulpicie nawigacyjnym.
@@ -76,14 +77,14 @@ Po dodaniu kafelka wideo serwisu YouTube lub Vimeo do pulpitu nawigacyjnego odtw
 1. Wybierz pozycje **Wideo > Dalej**.
 2. Dodaj informacje o filmie wideo w okienku **Dodawanie kafelka wideo**.
    
-    ![](media/service-dashboard-add-widget/power-bi-add-video-new.png)
+    ![Okno Dodawanie kafelka wideo](media/service-dashboard-add-widget/power-bi-add-video-new.png)
    
    * aby wyświetlić tytuł lub podtytuł na górze kafelka wideo, wybierz pozycję *Wyświetl tytuł i podtytuł* oraz wpisz tytuł lub podtytuł. W tym przykładzie dodamy podtytuł, a następnie przekształcimy go w hiperlink z powrotem do całej listy odtwarzania w serwisie YouTube.
    * wprowadź adres URL wideo
    * Dodaj hiperlink do tytułu i podtytułu.  Prawdopodobnie po obejrzeniu przez współpracowników osadzonego wideo chcesz, aby wyświetlili całą listę odtwarzania w serwisie YouTube — dodaj link do swojej listy odtwarzania tutaj.
    * Wybierz pozycję **Zastosuj**.  Na pulpicie nawigacyjnym zmień rozmiar i przenieś kafelek wideo odpowiednio do potrzeb.
      
-      ![](media/service-dashboard-add-widget/pbi-widget-video-added-new.png)
+      ![pulpit nawigacyjny z dodanym kafelkiem wideo](media/service-dashboard-add-widget/pbi-widget-video-added-new.png)
 3. Wybierz kafelek wideo, aby odtworzyć wideo.
 4. Wybierz podtytuł, aby odwiedzić listę odtwarzania w serwisie YouTube.
 
@@ -96,13 +97,13 @@ Wklej lub wpisz dowolną zawartość HTML.  Usługa Power BI doda ją, jako kafe
 1. Wybierz pozycje **Treść internetowa > Dalej**.
 2. Dodaj informacje do okienka **Dodaj kafelek z treścią internetową**.
    
-    ![](media/service-dashboard-add-widget/power-bi-add-web-content.png)
+    ![Okno Dodaj kafelek z treścią internetową](media/service-dashboard-add-widget/power-bi-add-web-content.png)
    
    * aby wyświetlić tytuł powyżej kafelka, wybierz pozycję *Wyświetl tytuł i podtytuł* oraz wpisz tytuł lub podtytuł.
    * wprowadź kod osadzania. W tym przykładzie kopiujemy i wklejamy kanał informacyjny usługi Twitter.
 3. Wybierz pozycję **Zastosuj**.  Na pulpicie nawigacyjnym zmień rozmiar i przenieś kafelek treści internetowej odpowiednio do potrzeb.
      
-      ![](media/service-dashboard-add-widget/pbi-widget-code-added-new.png)
+      ![pulpit nawigacyjny z czterema kafelkami](media/service-dashboard-add-widget/pbi-widget-code-added-new.png)
 
 ## <a name="tips-for-embedding-web-content"></a>Porady dotyczące osadzania treści internetowej
 * Dla ramek iframe użyj bezpiecznego źródła. Po wprowadzeniu swojego kodu osadzania ramek iframe i uzyskaniu pustego kafelka sprawdź, czy używasz protokołu **http** jako źródła ramek iframe.  Jeśli tak, zmień protokół na **https**.
@@ -145,12 +146,12 @@ Aby wprowadzić zmiany na kafelku...
 
 1. Ustaw kursor nad prawym górnym rogiem kafelka i wybierz wielokropek.
    
-    ![](media/service-dashboard-add-widget/pbi_ellipses.png)
+    ![wybieranie wielokropka kafelka](media/service-dashboard-add-widget/pbi_ellipses.png)
 2. Wybierz ikonę edycji, aby ponownie otworzyć okienko **Szczegóły kafelka** i dokonać zmian.
    
-    ![](media/service-dashboard-add-widget/pbi-edit.png)
+    ![ikona Ołówek (Edytuj)](media/service-dashboard-add-widget/pbi-edit.png)
 
-## <a name="considerations-and-troubleshooting"></a>Zagadnienia i rozwiązywanie problemów
+## <a name="considerations-and-troubleshooting"></a>Istotne zagadnienia i rozwiązywanie problemów
 * Aby ułatwić przenoszenie kafelka na Twoim pulpicie nawigacyjnym, dodaj tytułu lub podtytuł.
 * Jeśli chcesz osadzić pewne treści z witryny internetowej, ale witryna nie udostępnia Ci kodu osadzania do kopiowania i wklejania, zapoznaj się z embed.ly, aby uzyskać pomoc dotyczącą generowania kodu osadzania.
 

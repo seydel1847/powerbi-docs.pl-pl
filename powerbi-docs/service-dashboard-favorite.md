@@ -16,14 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/10/2018
+ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 779ef2c532d0b580f4a3d19c50815193d03c2f07
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 82f8575c019790820aa46c75e095f8ef64bb6fde
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="favorite-dashboards-reports-and-apps-in-power-bi-service"></a>Ulubione pulpity nawigacyjne, raporty i aplikacje w usłudze Power BI
 Po ustawieniu zawartości jako *ulubionej* można uzyskiwać do niej dostęp we wszystkich obszarach roboczych.  Ulubione to zwykle zawartość odwiedzana najczęściej.
@@ -42,31 +42,31 @@ Obejrzyj, jak Amanda dodaje ulubione do swojego obszaru roboczego, a następnie 
 
 
 1. Otwórz pulpit nawigacyjny lub raport, z którego często korzystasz. Nawet udostępnioną Ci zawartość możesz ustawić jako *ulubioną*.
-2. W prawym górnym rogu w usłudze Power BI wybierz pozycję **Dodaj do ulubionych** lub ikonę gwiazdki ![](media/service-dashboard-favorite/power-bi-favorite-icon.png).
+2. W prawym górnym rogu w usłudze Power BI wybierz pozycję **Dodaj do ulubionych** lub ikonę gwiazdki ![ikona gwiazdki](media/service-dashboard-favorite/power-bi-favorite-icon.png).
    
-   ![](media/service-dashboard-favorite/powerbi-dashboard-favorite.png)
+   ![ikona Ulubione](media/service-dashboard-favorite/powerbi-dashboard-favorite.png)
    
    Możesz również dodać pulpit nawigacyjny lub raport do ulubionych z obszaru roboczego **Pulpity nawigacyjne** lub **Raporty** karty Widok zawartości.
    
-   ![](media/service-dashboard-favorite/power-bi-dashboard-favorite.png)
+   ![Karta pulpitu nawigacyjnego z żółtą gwiazdką](media/service-dashboard-favorite/power-bi-dashboard-favorite.png)
 
 ## <a name="add-an-app-as-a-favorite"></a>Dodawanie aplikacji jako *ulubionej*
 
 1. Z lewego okienka nawigacji wybierz pozycję **Aplikacje**.
 
-  ![](media/service-dashboard-favorite/power-bi-favorite-apps.png)
+   ![pulpit nawigacyjny](media/service-dashboard-favorite/power-bi-favorite-apps.png)
 
-2. Zatrzymaj wskaźnik myszy nad aplikacją, aby wyświetlić więcej szczegółów.  Wybierz ikonę gwiazdki ![](media/service-dashboard-favorite/power-bi-favorite-icon.png), aby ustawić jako ulubioną.
+2. Zatrzymaj wskaźnik myszy nad aplikacją, aby wyświetlić więcej szczegółów.  Wybierz ikonę gwiazdki ![ikona gwiazdki](media/service-dashboard-favorite/power-bi-favorite-icon.png)  w celu ustawienia jej jako ulubionej.
    
-   ![](media/service-dashboard-favorite/power-bi-favorite-app.png)
+   ![umieszczanie kursora nad aplikacją](media/service-dashboard-favorite/power-bi-favorite-app.png)
 
 ## <a name="working-with-favorites"></a>Praca z *ulubionymi*
 1. Aby uzyskać dostęp do ulubionych, w dowolnym obszarze roboczym kliknij strzałkę po prawej stronie przycisku **Ulubione**.  W tym miejscu można wybrać ulubiony element, aby go otworzyć. Wyświetlana jest lista zawierająca tylko pięć elementów ulubionych (w porządku alfabetycznym). Jeśli masz ich więcej niż pięć, wybierz pozycję **Pokaż wszystkie**, aby otworzyć ekran Ulubione (zobacz punkt 2 poniżej). 
    
-   ![](media/service-dashboard-favorite/power-bi-favorite-flyout-new.png)
-2. Aby wyświetlić **całą** zawartość, która została dodana jako ulubione, w lewym okienku nawigacyjnym wybierz pozycję **Ulubione** lub ikonę Ulubione ![](media/service-dashboard-favorite/power-bi-favorites-icon.png).  
+   ![Okno wysuwane ulubionych](media/service-dashboard-favorite/power-bi-favorite-flyout-new.png)
+2. Aby wyświetlić **całą** zawartość, która została dodana jako ulubione, w lewym okienku nawigacyjnym wybierz pozycję **Ulubione** lub ikonę Ulubione ![ikona gwiazdki](media/service-dashboard-favorite/power-bi-favorites-icon.png).  
    
-    ![](media/service-dashboard-favorite/power-bi-favorites-screen.png)
+    ![okno ulubionych](media/service-dashboard-favorite/power-bi-favorites-screen.png)
    
    W tym miejscu możesz wykonać akcję: otworzyć, zidentyfikować właścicieli, a nawet udostępniać współpracownikom.
 
@@ -75,7 +75,7 @@ Nie korzystasz już tak często z raportu?  Możesz usunąć go z ulubionych. Us
 
 1. W lewym okienku nawigacji wybierz pozycję **Ulubione**, aby otworzyć ekran **Ulubione**.
    
-   ![](media/service-dashboard-favorite/power-bi-unfavorites-screen.png)
+   ![Ekran ulubionych](media/service-dashboard-favorite/power-bi-unfavorites-screen.png)
 2. Wybierz żółtą gwiazdkę obok zawartości, aby usunąć ją z ulubionych.
 
 > **UWAGA**: Możesz również usunąć pulpit nawigacyjny, raport lub aplikację z ulubionych z poziomu samego elementu. Wystarczy otworzyć i usunąć zaznaczenie żółtej ikony.   

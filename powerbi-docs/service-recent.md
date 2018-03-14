@@ -16,14 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 103edc93dafb9615e08692965258ffc61905baf1
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 972e816dcd833b6ae0e7bd26b760952066aa5ac8
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="recent-content-in-power-bi-service"></a>**Ostatnia** zawartość w usłudze Power BI
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 02/24/2018
 ## <a name="what-is-recent-content"></a>Co to jest ostatnia zawartość
 Ostatnia zawartość to ostatnio wyświetlane elementy, maksymalnie 20 elementów.  Obejmują one: pulpity nawigacyjne, raporty, aplikacje i skoroszyty we wszystkich Twoich obszarach roboczych.
 
-![](media/service-recent/power-bi-recent-screen.png)
+![Okno Ostatnia zawartość](media/service-recent/power-bi-recent-screen.png)
 
 Zobacz, jak Amanda demonstruje, jak wypełniane są listy **ostatnio używanej** zawartości, a następnie wykonaj instrukcje krok po kroku umieszczone poniżej filmu wideo, aby samodzielnie wypróbować tę funkcję.
 
@@ -40,11 +40,11 @@ Zobacz, jak Amanda demonstruje, jak wypełniane są listy **ostatnio używanej**
 ## <a name="display-recent-content"></a>Wyświetlanie ostatniej zawartości
 Aby wyświetlić pięć ostatnio odwiedzonych elementów, w lewym obszarze nawigacji wybierz strzałkę z prawej strony pozycji **Ostatnie**.  W tym miejscu można wybrać ostatnią zawartość, aby ją otworzyć. Wyświetlane jest tylko pięć najnowszych elementów.
 
-![](media/service-recent/power-bi-recent-flyout-new.png)
+![Okno wysuwane Ostatnia zawartość](media/service-recent/power-bi-recent-flyout-new.png)
 
-Jeśli masz więcej niż pięć ostatnio odwiedzonych elementów, wybierz pozycję **Zobacz wszystko**, aby otworzyć ekran Ostatnie (patrz poniżej). Możesz też wybrać pozycję **Ostatnie** lub ikonę Ostatnie ![](media/service-recent/power-bi-recent-icon.png) w lewym okienku nawigacji.
+Jeśli masz więcej niż pięć ostatnio odwiedzonych elementów, wybierz pozycję **Zobacz wszystko**, aby otworzyć ekran Ostatnie (patrz poniżej). Możesz też wybrać pozycję **Ostatnie** lub ikonę Ostatnie ![ikona Ostatnie](media/service-recent/power-bi-recent-icon.png) w lewym okienku nawigacji.
 
-![](media/service-recent/power-bi-recent-list.png)
+![wyświetlanie całej ostatniej zawartości](media/service-recent/power-bi-recent-list.png)
 
 W tym miejscu można wchodzić w interakcje z zawartością w taki sam sposób, jak na poszczególnych kartach [**Pulpity nawigacyjne**](service-dashboards.md), [**Raporty**](service-reports.md) i **Skoroszyty** oraz na ekranie [**Aplikacje**](service-install-use-apps.md).
 

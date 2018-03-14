@@ -16,14 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/22/2018
+ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 527978a3559abdc7c46b08569af40b769e9054e4
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: b38866b2a9989af529e89cd358f25716072c46bb
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="microsoft-flow-and-power-bi"></a>Microsoft Flow i Power BI
 
@@ -46,44 +46,44 @@ W tym zadaniu za pomocą szablonu utworzymy prosty przepływ, który jest wyzwal
 1. Zaloguj się do usługi Microsoft Flow (flow.microsoft.com).
 2. Wybierz pozycję **Moje przepływy**.
    
-   ![](media/service-flow-integration/power-bi-my-flows.png)
+   ![Pasek menu przepływu](media/service-flow-integration/power-bi-my-flows.png)
 3. Wybierz pozycję **Utwórz z szablonu**.
    
-    ![](media/service-flow-integration/power-bi-template.png)
+    ![Pasek menu Moje przepływy](media/service-flow-integration/power-bi-template.png)
 4. Znajdź szablony usługi Power BI przy użyciu pola wyszukiwania i wybierz pozycję **Wyślij wiadomość e-mail do wybranych odbiorców po wyzwoleniu alertu danych dotyczących danych usługi Power BI > Kontynuuj**.
    
-    ![](media/service-flow-integration/power-bi-flow-alert.png)
+    ![wyniki wyszukiwania](media/service-flow-integration/power-bi-flow-alert.png)
 
 
 ### <a name="build-the-flow"></a>Tworzenie przepływu
 Ten szablon zawiera jeden wyzwalacz (alert usługi Power BI dotyczący danych o nowych medalach olimpijskich zdobytych przez Irlandię) i jedną akcję (wysłanie wiadomości e-mail). Po wybraniu pola usługa Flow wyświetla zawartość dynamiczną, która można dodać.  W tym przykładzie dołączymy wartość i adres URL kafelka do treści wiadomości.
 
-![](media/service-flow-integration/power-bi-template1.png)
+![szablon przepływu](media/service-flow-integration/power-bi-template1.png)
 
 1. Z listy rozwijanej wyzwalacza wybierz alert dotyczący danych w usłudze Power BI. Wybierz pozycję **New medal for Ireland**. Aby dowiedzieć się, jak utworzyć alert, zobacz [Alerty dotyczące danych w usłudze Power BI](service-set-data-alerts.md).
    
-   ![](media/service-flow-integration/power-bi-trigger-flow.png)
+   ![lista rozwijana alertu](media/service-flow-integration/power-bi-trigger-flow.png)
 2. Wprowadź co najmniej jeden prawidłowy adres e-mail, a następnie wybierz opcję **Edytuj** (pokazana poniżej) lub **Dodaj zawartość dynamiczną**. 
    
-   ![](media/service-flow-integration/power-bi-flow-email.png)
+   ![Ekran wysyłania wiadomości e-mail](media/service-flow-integration/power-bi-flow-email.png)
 
 3. Przepływ tworzy tytuł i komunikat, który można zachować lub zmodyfikować. Wszystkie wartości ustawione podczas tworzenia alertu w usłudze Power BI są dostępne do użycia — po prostu umieść kursor w miejscu, a następnie wybierz w obszarze wyróżnionym na szaro. 
 
-   ![](media/service-flow-integration/power-bi-flow-email-default.png)
+   ![Ekran wysyłania wiadomości e-mail](media/service-flow-integration/power-bi-flow-email-default.png)
 
 1.  Na przykład, jeśli utworzono tytuł alertu w usłudze Power BI o treści **Zdobyliśmy kolejny medal**, można wybrać opcję **Tytuł alertu**, aby ten tekst dodać do pola Temat wiadomości e-mail.
 
-    ![](media/service-flow-integration/power-bi-flow-message.png)
+    ![tworzenie wiadomości e-mail](media/service-flow-integration/power-bi-flow-message.png)
 
     Możesz zaakceptować domyślną treść wiadomości e-mail lub utworzyć własną. Powyższy przykład obejmuje kilka zmian wiadomości.
 
 1. Gdy wszystko będzie gotowe, wybierz pozycję **Utwórz przepływ** lub **Zapisz przepływ**.  Przepływ zostanie utworzony i oceniony.  Usługa Flow poinformuje Cię w przypadku znalezienia błędów.
 2. Jeśli pojawią się błędy, wybierz pozycję **Edytuj przepływ**, aby rozwiązać problemy. W przeciwnym razie wybierz pozycję **Gotowe**, aby uruchomić nowy przepływ.
    
-   ![](media/service-flow-integration/power-bi-flow-running.png)
+   ![komunikat dotyczący sukcesu](media/service-flow-integration/power-bi-flow-running.png)
 5. Po wyzwoleniu alertu dotyczącego danych wiadomości e-mail zostaną wysłane na wskazane przez Ciebie adresy.  
    
-   ![](media/service-flow-integration/power-bi-flow-email2.png)
+   ![wiadomość e-mail z alertem](media/service-flow-integration/power-bi-flow-email2.png)
 
 ## <a name="create-a-flow-that-uses-power-bi---from-scratch-blank"></a>Tworzenie przepływu korzystającego z usługi Power BI od podstaw (pustego)
 W tym zadaniu utworzymy od podstaw prosty przepływ, który jest wyzwalany przez alert dotyczący danych w usłudze Power BI (powiadomienie).
@@ -91,28 +91,28 @@ W tym zadaniu utworzymy od podstaw prosty przepływ, który jest wyzwalany przez
 1. Zaloguj się do usługi Microsoft Flow.
 2. Wybierz pozycję **Moje przepływy** > **Utwórz z pustego**.
    
-   ![](media/service-flow-integration/power-bi-my-flows.png)
+   ![Górny pasek menu przepływu](media/service-flow-integration/power-bi-my-flows.png)
 3. Znajdź wyzwalacz usługi Power BI przy użyciu pola wyszukiwania i wybierz pozycję **Power BI - when a data driven alert is triggered** (Power BI — gdy alert sterowany danymi jest wyzwalany).
 
 ### <a name="build-your-flow"></a>Tworzenie przepływu
 1. Z listy rozwijanej wybierz nazwę alertu.  Aby dowiedzieć się, jak utworzyć alert, zobacz [Alerty dotyczące danych w usłudze Power BI](service-set-data-alerts.md).
    
-    ![](media/service-flow-integration/power-bi-totalstores2.png)
+    ![wybieranie nazwy alertu](media/service-flow-integration/power-bi-totalstores2.png)
 2. Wybierz pozycję **Nowy krok** > **Dodaj akcję**.
    
-   ![](media/service-flow-integration/power-bi-new-step.png)
+   ![dodawanie nowego kroku](media/service-flow-integration/power-bi-new-step.png)
 3. Poszukaj pozycji **Outlook** i wybierz pozycję **Utwórz zdarzenie**.
    
-   ![](media/service-flow-integration/power-bi-create-event.png)
+   ![tworzenie przepływu](media/service-flow-integration/power-bi-create-event.png)
 4. Wypełnij pola zdarzenia. Po wybraniu pola usługa Flow wyświetla zawartość dynamiczną, która można dodać.
    
-   ![](media/service-flow-integration/power-bi-flow-event.png)
+   ![kontynuowanie tworzenia przepływu](media/service-flow-integration/power-bi-flow-event.png)
 5. Gdy skończysz, wybierz pozycję **Utwórz przepływ**.  Usługa Flow zapisze i oceni przepływ. Jeśli nie ma żadnych błędów, wybierz pozycję **Gotowe**, aby uruchomić przepływ.  Nowy przepływ zostanie dodany do strony **Moje przepływy**.
    
-   ![](media/service-flow-integration/power-bi-flow-running.png)
+   ![kończenie przepływu](media/service-flow-integration/power-bi-flow-running.png)
 6. Po wyzwoleniu przepływu przez alert dotyczący danych w usłudze Power BI w programie Outlook otrzymasz powiadomienie o zdarzeniu, które wygląda mniej więcej tak.
    
-    ![](media/service-flow-integration/power-bi-flow-notice.png)
+    ![Przepływ wyzwala powiadomienie programu Outlook](media/service-flow-integration/power-bi-flow-notice.png)
 
 ## <a name="next-steps"></a>Następne kroki
 * [Rozpoczynanie pracy z usługą Microsoft Flow](https://flow.microsoft.com/en-us/documentation/getting-started/)

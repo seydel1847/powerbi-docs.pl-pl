@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 02/22/2018
 ms.author: davidi
-ms.openlocfilehash: a61a5d46c2f663ff7e8388a862f5649487504092
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+LocalizationGroup: Learn more
+ms.openlocfilehash: c44a5140fe40217aac170abb0b351197803b6299
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="use-see-data-and-see-records-in-power-bi-desktop"></a>Używanie funkcji Pokaż dane i Pokaż rekordy w programie Power BI Desktop
 W programie **Power BI Desktop** możliwe jest przejście do szczegółów dowolnej wizualizacji i wyświetlenie tekstowej reprezentacji danych lub poszczególnych elementów danych dla wybranej wizualizacji. Te funkcje są czasami określane jako *kliknięcie*, *przejście* lub *przejście do szczegółów*.
@@ -69,6 +70,9 @@ Istnieje również możliwość ustawienia fokusu na pojedynczym elemencie danyc
 Jeśli pozycja **Pokaż rekordy** jest wybrana, program **Power BI Desktop** ustawia fokus na danym elemencie danych i przeznacza obszar kanwy na wyświetlenie danych dla tego elementu, jak pokazano na poniższym obrazie.
 
 ![](media/desktop-see-data-see-records/see-data-see-records_8.png)
+
+> [!NOTE]
+> W raporcie nie można zapisać zmian danych wyświetlanych (lub modyfikowanych przez użytkowników) w widoku **Zobacz rekordy**.
 
 Aby wrócić do raportu, wybierz przycisk **Wróć do raportu** w lewym górnym rogu kanwy.
 
