@@ -18,11 +18,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 352efd894eb58823c9f506089ee28b7d11b30687
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Ask questions of your data
+ms.openlocfilehash: 80fb45e8f0d181779c699c081006b6610248dc50
+ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="troubleshoot-cortana-for-power-bi"></a>Rozwiązywanie problemów z Cortaną dla usługi Power BI
 Ten artykuł jest częścią serii. Jeśli jeszcze nie zostało to zrobione, zalecamy przeczytanie następujących trzech artykułów.
@@ -95,7 +96,7 @@ Problemy nadal występują?  Teraz jest odpowiedni moment, aby uruchomić narzę
    Ponieważ dostaliśmy wynik, teraz wiemy, że Cortana **jest** włączona w usłudze Power BI. Zawęża to problem do czegoś po stronie systemu Windows lub w ustawieniach języka Cortany, lub do włączenia więcej niż 100 zestawów danych dla Cortany.
 
 ### <a name="having-trouble-retrieving-answers-from-a-dashboard"></a>Masz problem podczas pobierania odpowiedzi z pulpitu nawigacyjnego?
-Szukasz pulpitu nawigacyjnego, który został Ci udostępniony?  Otwórz usługę Power BI > **Udostępnione mi** i znajdź nazwę pulpitu nawigacyjnego.  Następnie wpisz tę nazwę w polu *Wypowiedzi**.
+Szukasz pulpitu nawigacyjnego, który został Ci udostępniony?  Otwórz usługę Power BI > **Udostępnione mi** i znajdź nazwę pulpitu nawigacyjnego.  Następnie wpisz tę nazwę w polu **Wypowiedzi**.
 
 ![Otwieranie obszaru Udostępnione mi w usłudze Power BI](media/service-cortana-troubleshoot/power-bi-cortana-shared-with-me.png)
 

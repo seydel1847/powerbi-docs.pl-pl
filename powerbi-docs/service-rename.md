@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 9f4d4897558f241d316ee9d7021b4c34660fe9bf
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: cdea6474901dad27a4155b80fb605502102201a5
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="rename-almost-anything-in-power-bi-service"></a>Zmienianie nazwy prawie wszystkiego w usłudze Power BI
 Ten artykuł nauczy Cię, jak zmienić nazwę pulpitu nawigacyjnego, raportu, strony raportu, skoroszytu, zestawu danych, aplikacji i obszaru roboczego w usłudze Power BI.
@@ -41,20 +41,20 @@ Ten artykuł nauczy Cię, jak zmienić nazwę pulpitu nawigacyjnego, raportu, st
 | Zawartość w pozycji **Udostępnione dla mnie** |Nie |Nie |
 
 ## <a name="rename-a-dashboard-report-or-workbook"></a>Zmienianie nazwy pulpitu nawigacyjnego, raportu lub skoroszytu
-1. Rozpocznij w obszarze roboczym i wybierz kartę **Pulpity nawigacyjne**, **Raporty** lub **Skoroszyty**. Umieść kursor nad elementem, którego nazwę chcesz zmienić, i wybierz ikonę koła zębatego ![](media/service-rename/powerbi-cog-icon.png). Jeśli ikona koła zębatego nie jest widoczna, nie masz uprawnień do zmiany nazwy.
+1. Rozpocznij w obszarze roboczym i wybierz kartę **Pulpity nawigacyjne**, **Raporty** lub **Skoroszyty**. Umieść kursor nad elementem, którego nazwę chcesz zmienić, i wybierz ikonę koła zębatego ![ikona koła zębatego](media/service-rename/powerbi-cog-icon.png). Jeśli ikona koła zębatego nie jest widoczna, nie masz uprawnień do zmiany nazwy.
    
-   ![](media/service-rename/power-bi-workspace-dashboards.png)
+   ![Obszar roboczy usługi Power BI](media/service-rename/power-bi-workspace-dashboards.png)
 2. Na stronie Ustawienia wpisz nową nazwę, a następnie wybierz pozycję **Zapisz**.
    
-   ![](media/service-rename/power-bi-rename-dashboard2.png)
+   ![Okno ustawień dla zestawu danych](media/service-rename/power-bi-rename-dashboard2.png)
 
 ## <a name="rename-a-dataset"></a>Zmienianie nazwy zestawu danych
 1. Rozpocznij w obszarze roboczym i wybierz kartę **Zestawy danych**.
    
-   ![](media/service-rename/power-bi-ellipses.png)
+   ![karta Zestawy danych obszaru roboczego](media/service-rename/power-bi-ellipses.png)
 2. Umieść kursor nad elementem, którego nazwę chcesz zmienić, wybierz wielokropek (...), a następnie wybierz pozycję **Zmień**.  
    
-      ![](media/service-rename/power-bi-rename-datasets.png)
+      ![wybieranie opcji Zmień nazwę](media/service-rename/power-bi-rename-datasets.png)
    
    > [!NOTE]
    > Opcje na liście rozwijanej będą się różnić.
@@ -62,7 +62,7 @@ Ten artykuł nauczy Cię, jak zmienić nazwę pulpitu nawigacyjnego, raportu, st
    > 
 3. Na stronie Ustawienia wpisz nową nazwę, a następnie wybierz pozycję **Zapisz**.
    
-     ![](media/service-rename/power-bi-rename.png)
+     ![okienko opcji Zmień nazwę](media/service-rename/power-bi-rename.png)
 
 ## <a name="rename-an-app-workspace"></a>Zmienianie nazwy obszaru roboczego aplikacji
 Każdy użytkownik z uprawnieniami administratora może zmienić nazwę obszaru roboczego aplikacji.
@@ -70,10 +70,10 @@ Każdy użytkownik z uprawnieniami administratora może zmienić nazwę obszaru 
 1. Rozpocznij w obszarze roboczym, którego nazwę chcesz zmienić.
 2. W prawym górnym rogu wybierz wielokropek (...), a następnie wybierz pozycję **Edytuj obszar roboczy**. Jeśli nie widzisz tej opcji, nie masz uprawnień do zmiany nazwy tego obszaru roboczego. 
    
-    ![](media/service-rename/power-bi-edit-workspace.png)
+    ![wybieranie opcji Edytuj obszar roboczy](media/service-rename/power-bi-edit-workspace.png)
 3. Wpisz nową nazwę obszaru roboczego i wybierz pozycję **Zapisz**.
    
-   ![](media/service-rename/power-bi-workspace-rename.png)
+   ![okienko opcji Edytuj obszar roboczy](media/service-rename/power-bi-workspace-rename.png)
 
 ## <a name="rename-a-page-in-a-report"></a>Zmienianie nazwy strony w raporcie
 Nie podoba Ci się nazwa strony w twoim raporcie usługi Power BI?  Nowa nazwa jest w zasięgu ręki. Nazwy stron można zmieniać w [widoku edycji raportu ](service-interact-with-a-report-in-editing-view.md).
@@ -81,16 +81,16 @@ Nie podoba Ci się nazwa strony w twoim raporcie usługi Power BI?  Nowa nazwa j
 1. Otwórz raport w [widoku do edycji](service-reading-view-and-editing-view.md).
 2. Znajdź karty stron raport u dołu okna usługi Power BI.
    
-    ![](media/service-rename/report-page-tabs-new.png)
+    ![raport z wyróżnionymi kartami](media/service-rename/report-page-tabs-new.png)
 3. Otwórz stronę raportu, której nazwę chcesz zmienić, wybierając kartę.
 4. Kliknij dwukrotnie nazwę na karcie, aby ją zaznaczyć.  
    
-    ![](media/service-rename/hilite-tab.png)
+    ![zbliżenie nazwy karty](media/service-rename/hilite-tab.png)
 5. Wpisz nową nazwę strony raportu i naciśnij klawisz ENTER.
    
-    ![](media/service-rename/new-name.png)
+    ![wpisywanie nowej nazwy strony](media/service-rename/new-name.png)
 
-## <a name="considerations-and-troubleshooting"></a>Zagadnienia i rozwiązywanie problemów
+## <a name="considerations-and-troubleshooting"></a>Istotne zagadnienia i rozwiązywanie problemów
 * Jeśli element, który ma mieć zmienioną nazwę, został Ci udostępniony lub jest częścią pakietu zawartości, nie będzie widoczna ikona koła zębatego i nie będziesz mieć dostępu do ustawień.
 * Na karcie **Zestawy danych**, jeśli nie widzisz wielokropka (...), rozwiń okno przeglądarki.
 

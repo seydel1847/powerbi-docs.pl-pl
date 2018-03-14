@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/18/2018
+ms.date: 03/01/2018
 ms.author: mihart
-ms.openlocfilehash: 49e0b976fcee8c18edc14f80df2786e5ebf3fedc
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+LocalizationGroup: Ask questions of your data
+ms.openlocfilehash: 7c33e1d3719b30569996425ed247c1eac87b78f1
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="enable-qa-for-live-connections"></a>Włączanie funkcji pytań i odpowiedzi dla połączeń na żywo
 ## <a name="what-is-on-premises-data-gateway--what-is-a-live-connection"></a>Co to jest lokalna brama danych?  Co to jest połączenie na żywo?
@@ -44,15 +45,15 @@ Aby uzyskać więcej informacji, zobacz:
 ## <a name="enable-qa"></a>Włączanie funkcji pytań i odpowiedzi
 Po skonfigurowaniu bramy danych nawiąż połączenie z danymi w usłudze Power BI.  Utwórz pulpit nawigacyjny za pomocą danych lokalnych lub przekaż plik pbix, który używa danych lokalnych.  Dane lokalne możesz także już mieć w pulpitach nawigacyjnych, raportach i zestawach danych, które zostały Tobie udostępnione.
 
-1. W prawym górnym rogu ekranu usługi Power BI wybierz ikonę koła zębatego ![](media/service-q-and-a-direct-query/power-bi-cog.png), a następnie pozycję **Ustawienia**.
+1. W prawym górnym rogu ekranu usługi Power BI wybierz ikonę koła zębatego ![ikona koła zębatego](media/service-q-and-a-direct-query/power-bi-cog.png), a następnie pozycję **Ustawienia**.
    
-   ![](media/service-q-and-a-direct-query/powerbi-settings.png)
+   ![Menu ustawień](media/service-q-and-a-direct-query/powerbi-settings.png)
 2. Wybierz pozycję **Zestawy danych**, a następnie zestaw danych do włączenia na potrzeby funkcji pytań i odpowiedzi.
    
-   ![](media/service-q-and-a-direct-query/power-bi-q-and-a-settings.png)
+   ![Ekran Zestawy danych menu Ustawienia](media/service-q-and-a-direct-query/power-bi-q-and-a-settings.png)
 3. Rozwiń węzeł **Pytania i odpowiedzi oraz Cortana**, zaznacz pole wyboru **Włącz funkcję pytań i odpowiedzi dla tego zestawu danych** i wybierz polecenie **Zastosuj**.
    
-    ![](media/service-q-and-a-direct-query/power-bi-q-and-a-directquery.png)
+    ![Rozwinięty obszar funkcji Pytania i odpowiedzi](media/service-q-and-a-direct-query/power-bi-q-and-a-directquery.png)
 
 ## <a name="what-data-is-cached-and-how-is-privacy-protected"></a>Jakie dane są buforowane i jak jest chroniona prywatność?
 Po włączeniu funkcji pytań i odpowiedzi dla danych lokalnych podzbiór danych jest buforowany w usłudze. W ten sposób zapewnia się odpowiednią wydajność funkcji pytań i odpowiedzi. Usługa Power BI wyklucza z buforowania wartości dłuższe niż 24 znaki. Pamięć podręczna zostanie usunięta w kilka godzin po usunięciu zestawu danych lub wyłączeniu funkcji pytań i odpowiedzi przez usunięcie zaznaczenia pola wyboru **Włącz funkcję pytań i odpowiedzi dla tego zestawu danych**.

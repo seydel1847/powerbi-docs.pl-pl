@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/23/2017
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 430ff5ad86636d96ca693ff7fc1ac1bb0d16b5cc
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+LocalizationGroup: Dashboards
+ms.openlocfilehash: afa3753d04cfb74c2673d222a0b1e6b07a1f5118
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="power-bi-notifications"></a>Powiadomienia usługi Power BI
 Centrum powiadomień jest sekwencyjnym źródłem informacji dotyczących środowiska usługi Power BI. Otwórz je, aby wyświetlić komunikaty o nowych pulpitach nawigacyjnych, które zostały Ci udostępnione, zmianach obszaru grupy, informacjach na temat zdarzeń i spotkaniach związanych z usługą Power BI, ustawionych przez Ciebie alertach i innych. Możesz [ustawić alerty w usłudze Power BI](service-set-data-alerts.md), jak również w aplikacjach mobilnych usługi Power BI.
@@ -34,13 +35,13 @@ Obejrzyj powiadomienie o sprawdzeniu, które otrzymała Amanda, zarządzaj jej p
 
 1. Po zalogowaniu się do usługi Power BI wszelkie nowe powiadomienia wysłane do Ciebie podczas pracy w trybie offline są dodawane do Twojego kanału informacyjnego. Jeśli masz nowe powiadomienia, usługa Power BI wyświetli żółte kółko z liczbą nowych elementów.
    
-   ![](media/service-notification-center/power-bi-new-notification.png)
+   ![nowa ikona Powiadomienie](media/service-notification-center/power-bi-new-notification.png)
 2. Na pasku menu usługi Power BI wybierz ikonę Powiadomienia.
    
-   ![](media/service-notification-center/power-bi-notifications-icon.png)
+   ![górny pasek menu z wybraną ikoną Powiadomienia](media/service-notification-center/power-bi-notifications-icon.png)
 3. Powiadomienia są wyświetlane od najnowszego na górze, a nieprzeczytane wiadomości są wyróżnione. Powiadomienia są przechowywane przez 90 dni, chyba że usuniesz je wcześniej lub osiągną maksymalną granicę równą 100.
    
-   ![](media/service-notification-center/power-bi-notifications.png)
+   ![Centrum powiadomień](media/service-notification-center/power-bi-notifications.png)
 4. Aby odrzucić powiadomienie, wybierz ikonę X.
 
 ### <a name="next-steps"></a>Następne kroki

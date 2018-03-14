@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/04/2018
 ms.author: maggies
-ms.openlocfilehash: 6803c8aa2898c9ab27b515c04d7db813e7d44ea4
-ms.sourcegitcommit: 25489cf87c31fc107a5337fa1dd36506897c4bbb
+ms.openlocfilehash: 7285e15b6f63cc53b9221a46e0a524313c413cda
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/05/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="take-power-bi-anywhere-in-mobile-apps-for-your-mobile-device"></a>Korzystaj z usługi Power BI w dowolnym miejscu dzięki aplikacjom mobilnym dla urządzeń przenośnych.
 Pulpity nawigacyjne i raporty usługi Power BI można wyświetlić w usłudze Power BI ([https://powerbi.com](https://powerbi.com)), a lokalne raporty usługi Power BI można wyświetlić na [serwerze raportów usługi Power BI](report-server/get-started.md). Teraz można łączyć się z danymi lokalnymi i w chmurze przy użyciu aplikacji mobilnych Power BI. Spróbuj przeglądać pulpity nawigacyjne usługi Power BI i wchodzić z nimi w interakcje na urządzeniu przenośnym z systemem iOS (iPad, iPhone, iPod Touch lub Apple Watch), telefonie lub tablecie z systemem Android lub urządzeniu z systemem Windows 10.
@@ -51,4 +51,5 @@ Dowiedz się więcej na temat [konfigurowania aplikacji mobilnych Power BI dla s
 ## <a name="next-steps"></a>Następne kroki
 * [Power BI — wersja bezpłatna a licencje Pro](service-free-vs-pro.md)
 * Masz pytania? [Zadaj pytanie społeczności usługi Power BI](http://community.powerbi.com/)
+
 

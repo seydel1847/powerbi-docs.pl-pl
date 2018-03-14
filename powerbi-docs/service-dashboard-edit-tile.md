@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/20/2018
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 5c208ab13398987350d2acd72e29dbc4d6a6c4a1
-ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 98856d551e0f124d7ea3e038623e2340ceeb18b8
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="edit-or-remove-a-dashboard-tile"></a>Edytowanie lub usuwanie kafelka pulpitu nawigacyjnego
 
@@ -54,23 +55,23 @@ Niniejszy artykuł obejmuje następujące tematy.
 ## <a name="create-a-new-visualization-and-pin-it-to-the-dashboard"></a>Tworzenie nowej wizualizacji i przypinanie jej do pulpitu nawigacyjnego
 1. Na pulpicie nawigacyjnym IT Spend Analysis wybierz kafelek „Amount”, aby otworzyć raport.
 
-    ![](media/service-dashboard-edit-tile/power-bi-amount-tile.png)
+    ![Kafelek Amount](media/service-dashboard-edit-tile/power-bi-amount-tile.png)
 
 2. Otwórz raport w widoku do edycji, wybierając pozycję **Edytuj raport** z górnego paska menu.
 
 3. Dodaj nową stronę raportu, wybierając znak plus (+) w dolnej części raportu.
 
-    ![](media/service-dashboard-edit-tile/power-bi-add-page.png)
+    ![ikona znaku plus](media/service-dashboard-edit-tile/power-bi-add-page.png)
 
 4. W okienku POLA wybierz pozycję **Fact > Amount** i **Business Area > Business Area**.
  
 5. W okienku WIZUALIZACJE wybierz ikonę Wykres pierścieniowy, aby przekonwertować wizualizację na wykres pierścieniowy.
 
-    ![](media/service-dashboard-edit-tile/power-bi-donut-chart.png)
+    ![Okienko Wizualizacje](media/service-dashboard-edit-tile/power-bi-donut-chart.png)
 
 5. Wybierz ikonę pinezki i przypnij wykres pierścieniowy do pulpitu nawigacyjnego przykładu IT Spend Analysis.
 
-   ![](media/service-dashboard-edit-tile/power-bi-pin.png)
+   ![umieszczanie wskaźnika myszy nad kafelkiem](media/service-dashboard-edit-tile/power-bi-pin.png)
 
 6. Gdy pojawi się komunikat „Powodzenie”, wybierz pozycję **Przejdź do pulpitu nawigacyjnego**. Zostanie wyświetlony monit o zapisanie zmian. Wybierz pozycję **Zapisz**.
 
@@ -86,24 +87,23 @@ Zlokalizuj nowy kafelek na pulpicie nawigacyjnym. Wybierz i przytrzymaj kafelek,
 ## <a name="resize-the-tile"></a>Zmiana rozmiaru kafelka
 Kafelki można tworzyć w wielu różnych rozmiarach: od kafelków 1 × 1 do kafelków 5 × 5 jednostek. Wybierz i przeciągnij uchwyt (w prawym dolnym rogu), aby zmienić rozmiar kafelka.
 
-![](media/service-dashboard-edit-tile/pbigif_resizetile4.gif)
+![wideo](media/service-dashboard-edit-tile/pbigif_resizetile4.gif)
 
 - - -
 ## <a name="the-ellipses--menu"></a>Menu wielokropka (...)
 
 1. Wybierz wielokropek (...) w prawym górnym rogu kafelka. 
    
-   ![](media/service-dashboard-edit-tile/power-bi-tile.png)
+   ![wielokropek kafelka](media/service-dashboard-edit-tile/power-bi-tile.png)
 
 2. Umieść kursor nad kafelkiem „Amount” i wybierz wielokropek, aby wyświetlić opcje. Dostępne opcje różnią się w zależności od typu kafelka.  Na przykład opcje dostępne dla aktywnego kafelka różnią się od opcji dostępnych dla standardowego kafelka wizualizacji. Ponadto jeśli pulpit nawigacyjny został Ci udostępniony (nie jesteś właścicielem), dostępnych będzie mniej opcji.
 
-   ![](media/service-dashboard-edit-tile/power-bi-tile-menu-new.png)
+   ![menu opcji wielokropka](media/service-dashboard-edit-tile/power-bi-tile-menu-new.png)
 
 3. Wybierz pozycję **Edytuj szczegóły**, aby otworzyć okno „Szczegóły kafelka”. 
 
     Zmień tytuł i domyślne zachowanie kafelka.  Na przykład możesz zdecydować, że po wybraniu kafelka przez *użytkownika* zamiast otwarcia raportu użytego do utworzenia tego kafelka zostanie wyświetlony nowy pulpit nawigacyjny.  
    
-   ![](media/service-dashboard-edit-tile/power-bi-tile-menu-new.png)
 
 
 <a name="rename"></a>
@@ -111,7 +111,7 @@ Kafelki można tworzyć w wielu różnych rozmiarach: od kafelków 1 × 1 do kaf
 ### <a name="rename-the-tile"></a>Zmiana nazwy kafelka
 W górnej części okna „Szczegóły kafelka” zmień **Tytuł** na **Amount spent**.
 
-![](media/service-dashboard-edit-tile/power-bi-tile-title.png)
+![Okno Szczegóły kafelka](media/service-dashboard-edit-tile/power-bi-tile-title.png)
 
 
 <a name="hyperlink"></a>
@@ -123,27 +123,27 @@ Domyślnie wybranie kafelka zazwyczaj spowoduje przeniesienie użytkownika do ra
 
 2. Wybierz opcję **Link do pulpitu nawigacyjnego lub raportu w bieżącym obszarze roboczym**, a następnie wybierz element z listy rozwijanej.  W tym przykładzie został wybrany pulpit nawigacyjny przykładu Human Resources. Jeśli nie masz jeszcze tego przykładu w obszarze roboczym, możesz go dodać i wrócić do tego kroku lub wybrać inny pulpit nawigacyjny. 
 
-    ![](media/service-dashboard-edit-tile/power-bi-custom-link.png)
+    ![Okno dialogowe funkcji](media/service-dashboard-edit-tile/power-bi-custom-link.png)
 
 3. Wybierz pozycję **Zastosuj**.
 
 4. Na kafelku będzie wyświetlany nowy tytuł.  Dodatkowo po wybraniu kafelka usługa Power BI otworzy pulpit nawigacyjny Human Resources. 
 
-    ![](media/service-dashboard-edit-tile/power-bi-title.png)
+    ![tytuł kafelka](media/service-dashboard-edit-tile/power-bi-title.png)
 
 <a name="different"></a>
 
 ### <a name="pin-the-tile-to-a-different-dashboard"></a>Przypinanie kafelka do innego pulpitu nawigacyjnego
-1. Z menu rozwijanego wielokropka wybierz polecenie **Przypnij kafelek** ![](media/service-dashboard-edit-tile/pinnooutline.png).
+1. Z menu rozwijanego wielokropka wybierz polecenie **Przypnij kafelek** ![ikona przypinania](media/service-dashboard-edit-tile/pinnooutline.png).
 2. Zdecyduj, czy chcesz przypiąć duplikat tego kafelka do istniejącego, czy nowego pulpitu nawigacyjnego. 
    
-   ![](media/service-dashboard-edit-tile/pbi_pintoanotherdash.png)
+   ![Okno dialogowe opcji Przypnij do pulpitu nawigacyjnego](media/service-dashboard-edit-tile/pbi_pintoanotherdash.png)
 3. Wybierz pozycję **Przypnij**.
 
 <a name="delete"></a>
 
 ### <a name="delete-the-tile"></a>Usuwanie kafelka
-1. Aby trwale usunąć kafelek z pulpitu nawigacyjnego, wybierz polecenie **Usuń kafelek** ![](media/service-dashboard-edit-tile/power-bi-delete-tile-icon.png) z menu rozwijanego wielokropka. 
+1. Aby trwale usunąć kafelek z pulpitu nawigacyjnego, wybierz polecenie **Usuń kafelek** ![ikona usuwania](media/service-dashboard-edit-tile/power-bi-delete-tile-icon.png) z menu rozwijanego wielokropka. 
 
 2. Usunięcie kafelka nie spowoduje usunięcia wizualizacji źródłowej. Otwórz raport źródłowy, wybierając kafelek „Amount”. Otwórz ostatnią stronę w raporcie, aby zobaczyć, że oryginalna wizualizacja nie została usunięta z raportu. 
 

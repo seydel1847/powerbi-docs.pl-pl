@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/5/2017
 ms.author: maghan
-ms.openlocfilehash: 03be98e9aa2bd4d91357cc00208d82bd0116f69c
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 761f6a85d0f975f4178adfce830a6c73578aec73
+ms.sourcegitcommit: 20dd809a2ef8c0d6c6f677baadb5f57f41438cbe
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/23/2018
 ---
 # <a name="publish-custom-visuals-to-appsource"></a>Publikowanie wizualizacji niestandardowych w usłudze AppSource
 Dowiedz się, jak publikować swoje wizualizacje niestandardowe w usłudze AppSource do użytku przez inne osoby. pakiet office
@@ -86,7 +86,7 @@ Wykonaj poniższe działania, aby ukończyć proces przesyłania.
    * *Tytuł przesyłanej wizualizacji:* nazwa przesyłanej wizualizacji wyświetlana w centrum deweloperów
    * *Wersja:* numer wersji jest wypełniany automatycznie na podstawie danych z pakietu aplikacji.
    * *Data wydania (UTC):* wybierz datę wydania aplikacji w sklepie. W przypadku wybrania przyszłej daty aplikacja nie będzie dostępna w sklepie do momentu jej nadejścia.
-   * *Kategoria:* pierwsza kategoria jest wypełniana automatycznie jako „Wizualizacja danych + BI”. Tak oznaczane są wszystkie wizualizacje niestandardowe usługi Power BI. Można podać maksymalnie 2 dodatkowe kategorie, aby ułatwić użytkownikom wyszukiwanie wizualizacji
+   * *Kategoria:* pierwsza kategoria jest wypełniana automatycznie jako „Wizualizacja danych + BI”. W ten sposób są oznaczane wszystkie niestandardowe wizualizacje usługi Power BI. Możesz podać maksymalnie 2 dodatkowe kategorie, aby ułatwić użytkownikom wyszukanie wizualizacji.
    * *Uwagi dotyczące testowania:* opcjonalne, jeśli chcesz podać dodatkowe instrukcje dla testerów firmy Microsoft
    * *Moja aplikacja wywołuje, obsługuje lub zawiera kryptografię albo szyfrowanie lub korzysta z tych funkcji:* pozostaw niezaznaczone
    * *Udostępnij ten dodatek w wykazie dodatków pakietu Office na tablecie iPad:* pozostaw niezaznaczone
@@ -121,7 +121,7 @@ Wykonaj poniższe działania, aby ukończyć proces przesyłania.
     > W przypadku wybrania dowolnej opcji innej niż bezpłatna lub jeśli wizualizacja zawiera zakupy w aplikacji, wizualizacja zostanie odrzucona.
     > 
     > 
-17. Możesz teraz wybrać opcję „Zapisz jako szkic” i przesłać wizualizację później lub wybrać opcję **Prześlij do zatwierdzenia**, aby przesłać wizualizację niestandardową do Sklepu Office.
+17. Możesz teraz wybrać opcję **Zapisz jako szkic** i przesłać wizualizację później lub wybrać opcję **Prześlij do zatwierdzenia**, aby przesłać wizualizację niestandardową do Sklepu Office.
 
 ## <a name="tracking-submission-status-and-usage"></a>Śledzenie stanu przesyłania i wykorzystania
 Możesz sprawdzić [zasady weryfikacji](https://dev.office.com/officestore/docs/validation-policies#13-power-bi-custom-visuals).

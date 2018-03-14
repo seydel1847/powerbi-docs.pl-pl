@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/24/2017
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 83b813ccdc9ed0ef232f5eede715ad3a795253d0
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 769d669f00c87e6139d8ff2cb8640739d09edf7a
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>Porady dotyczące projektowania doskonałych pulpitów nawigacyjnych usługi Power BI
 Gdy już udało Ci się utworzyć pulpit nawigacyjny i dodać kafelki, zadbaj o to, aby Twój projekt był nie tylko ładny, ale i funkcjonalny. Ogólnie rzecz biorąc, chodzi o wyróżnienie najważniejszych informacji, tak aby pulpit nawigacyjny nie wyglądał na przepełniony i pozostał przejrzysty.
@@ -50,7 +51,7 @@ Pulpit nawigacyjny możesz wyświetlić na [pełnym ekranie](service-fullscreen-
 
 ### <a name="make-the-most-important-information-biggest"></a>Największy rozmiar dla najważniejszych informacji
 Jeśli rozmiar tekstu i rozmiar wizualizacji będą takie same, użytkownicy będą mieć trudności ze skupieniem się na tym, co najważniejsze. Na przykład dobrą metodą wyróżnienia ważnej liczby jest użycie wizualizacji na kartach:  
-![](media/service-dashboards-design-tips/pbi_card.png)
+![Wizualizacja w postaci karty](media/service-dashboards-design-tips/pbi_card.png)
 
 Pamiętaj jednak, aby udostępnić kontekst.  
 

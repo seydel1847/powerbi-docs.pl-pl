@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 34574cf73d12d91df7a497cf297a9ecda9f5cc57
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 8fbc2ecafb34339a68b4ca5ecd0fa063082644a2
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-a-report"></a>Przypinanie kafelka do pulpitu nawigacyjnego usługi Power BI z raportu
 ## <a name="pinning-tiles-from-a-report"></a>Przypinanie kafelków z raportu
@@ -45,7 +46,7 @@ Teraz utwórz własny pulpit nawigacyjny przy użyciu jednego z przykładowych r
 
 1. Najedź kursorem na wizualizację, którą chcesz przypiąć, i wybierz ikonę pinezki ![](media/service-dashboard-pin-tile-from-report/pbi_pintile_small.png). W usłudze Power BI otwiera się ekran **Przypnij do pulpitu nawigacyjnego**.
    
-     ![](media/service-dashboard-pin-tile-from-report/pbi_themes2.png)
+     ![Okno Przypnij do pulpitu nawigacyjnego](media/service-dashboard-pin-tile-from-report/pbi_themes2.png)
 2. Zdecyduj, czy chcesz przypiąć wizualizację do istniejącego czy nowego pulpitu nawigacyjnego.
    
    * Istniejący pulpit nawigacyjny: z listy rozwijanej wybierz nazwę pulpitu nawigacyjnego. Pulpity nawigacyjne, które zostały Ci udostępnione, nie będą wyświetlane na liście rozwijanej.
@@ -55,7 +56,7 @@ Teraz utwórz własny pulpit nawigacyjny przy użyciu jednego z przykładowych r
    
    Komunikat o powodzeniu (w prawym górnym rogu) informuje o tym, że wizualizacja została dodana do pulpitu nawigacyjnego jako kafelek.
    
-   ![](media/service-dashboard-pin-tile-from-report/pinsuccess.png)
+   ![komunikat dotyczący sukcesu](media/service-dashboard-pin-tile-from-report/pinsuccess.png)
 5. W okienku nawigacji wybierz pulpit nawigacyjny z nowym kafelkiem. Wybierz kafelek, aby wrócić do raportu. Możesz też [edytować wyświetlanie i zachowanie kafelka](service-dashboard-edit-tile.md).
 
 ## <a name="pin-an-entire-report-page"></a>Przypinanie całej strony raportu

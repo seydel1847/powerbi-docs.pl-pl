@@ -14,13 +14,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/06/2018
+ms.date: 02/22/2018
 ms.author: maggies
-ms.openlocfilehash: 23c52f7eb66e4e7b0683a2392f0fc60ad76ea243
-ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
+LocalizationGroup: Share your work
+ms.openlocfilehash: d711e2276f2ac170ed54152d54c023261ca9c0bc
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="create-and-publish-apps-with-dashboards-and-reports-in-power-bi"></a>Tworzenie i publikowanie aplikacji z pulpitami nawigacyjnymi i raportami w usłudze Power BI
 
@@ -94,7 +95,7 @@ Usługa Power BI domyślnie tworzy niewielki kolorowy okrąg dla aplikacji, zawi
      ![Dostosowany obraz](media/service-create-distribute-apps/power-bi-apps-image.png)
 
 ## <a name="publish-your-app"></a>Publikowanie aplikacji
-Jeśli pulpity nawigacyjne i raporty w obszarze roboczym aplikacji są gotowe, możesz opublikować je jako aplikację. Pamiętaj, że nie musisz publikować wszystkich raportów i pulpitów nawigacyjnych w obszarze roboczym. Możesz opublikować tylko te, które są gotowe. 
+Jeśli pulpity nawigacyjne i raporty w obszarze roboczym aplikacji są gotowe, możesz opublikować je jako aplikację. Pamiętaj, że nie musisz publikować wszystkich raportów i pulpitów nawigacyjnych w obszarze roboczym. Możesz opublikować tylko te, które są gotowe.
 
 1. W widoku listy obszarów roboczych zdecyduj, które pulpity nawigacyjne i raporty chcesz dołączyć do aplikacji.
 
@@ -104,23 +105,23 @@ Jeśli pulpity nawigacyjne i raporty w obszarze roboczym aplikacji są gotowe, m
 
      ![Ostrzeżenie dotyczące powiązanego pulpitu nawigacyjnego](media/service-create-distribute-apps/power-bi-apps-report-warning.png)
 
-1. Wybierz przycisk **Opublikuj aplikację** w prawym górnym rogu, aby rozpocząć proces udostępniania całej zawartości w tym obszarze roboczym.
+2. Wybierz przycisk **Opublikuj aplikację** w prawym górnym rogu, aby rozpocząć proces udostępniania całej zawartości w tym obszarze roboczym.
    
      ![Publikowanie aplikacji](media/service-create-distribute-apps/power-bi-apps-publish-button.png)
 
-2. W obszarze **Szczegóły** wypełnij pole z opisem, aby ułatwić odnalezienie aplikacji. Możesz ją spersonalizować, ustawiając kolor tła.
+3. W obszarze **Szczegóły** wypełnij pole z opisem, aby ułatwić odnalezienie aplikacji. Możesz ją spersonalizować, ustawiając kolor tła.
    
      ![Szczegóły aplikacji](media/service-create-distribute-apps/power-bi-apps-details.png)
 
-3. W obszarze **Zawartość** możesz zobaczyć treść, która zostanie opublikowana jako część aplikacji, czyli wszystko, co zostało przez Ciebie zaznaczone w tym obszarze roboczym. Możesz również skonfigurować stronę docelową aplikacji — pulpit nawigacyjny lub raport, który zostanie wyświetlony natychmiast po przejściu do Twojej aplikacji. Możesz wybrać opcję **Brak**. Wtedy użytkownicy przejdą do listy całej zawartości w aplikacji. 
+4. W obszarze **Zawartość** możesz zobaczyć treść, która zostanie opublikowana jako część aplikacji, czyli wszystko, co zostało przez Ciebie zaznaczone w tym obszarze roboczym. Możesz również skonfigurować stronę docelową aplikacji — pulpit nawigacyjny lub raport, który zostanie wyświetlony natychmiast po przejściu do Twojej aplikacji. Możesz wybrać opcję **Brak**. Wtedy użytkownicy przejdą do listy całej zawartości w aplikacji. 
    
      ![Zawartość aplikacji](media/service-create-distribute-apps/power-bi-apps-content.png)
 
-4. W obszarze **Dostęp** możesz zdecydować, kto ma dostęp do aplikacji: wszyscy w Twojej organizacji, określone osoby, czy grupy zabezpieczeń usługi Active Directory. Jeśli masz odpowiednie uprawnienia, możesz zdecydować się na zainstalowanie aplikacji automatycznie dla odbiorców.
+5. W obszarze **Dostęp** możesz zdecydować, kto ma dostęp do aplikacji: wszyscy w Twojej organizacji, określone osoby, czy grupy zabezpieczeń usługi Active Directory. Jeśli masz odpowiednie uprawnienia, możesz zdecydować się na zainstalowanie aplikacji automatycznie dla odbiorców. To ustawienie można włączyć w [portalu administracyjnym usługi Power BI](#how-to-enable-pushing-apps). Aby dowiedzieć się więcej, zapoznaj się z uwagami dotyczącymi [wypychania aplikacji](#how-to-enable-pushing-apps).
 
     ![Dostęp do aplikacji](media/service-create-distribute-apps/power-bi-apps-access.png)
 
-5. Po wybraniu opcji **Zakończ** wyświetlony zostanie komunikat potwierdzający gotowość do publikacji. W oknie dialogowym potwierdzającym powodzenie możesz skopiować adres URL, który jest bezpośrednim linkiem do tej aplikacji, i wysłać go do osób, którym udostępniono aplikację.
+6. Po wybraniu opcji **Zakończ** wyświetlony zostanie komunikat potwierdzający gotowość do publikacji. W oknie dialogowym potwierdzającym powodzenie możesz skopiować adres URL, który jest bezpośrednim linkiem do tej aplikacji, i wysłać go do osób, którym udostępniono aplikację.
    
      ![Zakończenie publikowania aplikacji](media/service-create-distribute-apps/power-bi-apps-success.png)
 
@@ -138,7 +139,7 @@ Po opublikowaniu aplikacji możesz chcieć ją zmienić lub zaktualizować. Łat
    
      Obszar roboczy aplikacji to obszar przygotowawczy, a więc zmiany nie zostaną wprowadzone w działającej aplikacji do momentu jej ponownego opublikowania. To umożliwia wprowadzanie zmian bez wpływu na opublikowane aplikacje.  
  
-1. Wróć do listy zawartości obszaru roboczego aplikacji i wybierz opcję **Zaktualizuj aplikację**.
+3. Wróć do listy zawartości obszaru roboczego aplikacji i wybierz opcję **Zaktualizuj aplikację**.
    
      ![Przycisk aktualizowania aplikacji](media/service-create-distribute-apps/power-bi-app-update-button.png)
 
@@ -147,6 +148,32 @@ Po opublikowaniu aplikacji możesz chcieć ją zmienić lub zaktualizować. Łat
      ![Przycisk aktualizowania aplikacji](media/service-create-distribute-apps/power-bi-app-update-complete.png)
 
 Osoby, którym udostępniono aplikację, automatycznie zobaczą zaktualizowaną wersję aplikacji. 
+
+# <a name="automatically-install-apps-for-end-users"></a>Automatyczne instalowanie aplikacji dla użytkowników końcowych
+Aplikacje można instalować automatycznie dla użytkowników końcowych, co ułatwia dystrybucję odpowiednich aplikacji do właściwych osób lub grup.
+
+Aplikacje dostarczają dane, których użytkownicy końcowi potrzebują do pracy. Teraz możesz automatycznie instalować te aplikacje z listy zawartości Aplikacje zamiast wyszukiwania ich w usłudze Microsoft AppSource lub używania linku instalacji. Ułatwia to dystrybucję standardowej zawartości usługi Power BI do użytkowników.
+
+## <a name="how-to-install-an-app-automatically-for-end-users"></a>Jak automatycznie instalować aplikacje dla użytkowników końcowych
+Włączenie tej funkcji przez administratora udostępnia wydawcom aplikacji nową opcję **automatycznego instalowania aplikacji**. Jeśli pole jest ***zaznaczone*** i wydawca aplikacji wybierze pozycję **Zakończ** (lub **Aktualizuj aplikację** w przypadku istniejących aplikacji), aplikacja zostanie wypchnięta do wszystkich użytkowników lub grup zdefiniowanych w sekcji **Uprawnienia** aplikacji na karcie **Dostęp**.
+
+![Włączanie wypychania aplikacji](media/service-create-distribute-apps/power-bi-apps-access.png)
+
+## <a name="how-users-get-the-apps-that-were-pushed-to-them"></a>Jak użytkownicy odbierają wypchnięte do nich aplikacje
+Po wypchnięciu aplikacji jest ona automatycznie wyświetlana na liście Aplikacje. Możesz dobrać aplikacje, które użytkownicy lub stanowiska w organizacji muszą mieć „w zasięgu ręki”.
+
+![Włączanie wypychania aplikacji](media/service-create-distribute-apps/power-bi-apps-left-nav.png)
+
+### <a name="considerations-for-automatically-installing-apps"></a>Zagadnienia dotyczące automatycznego instalowania aplikacji
+Poniżej przedstawiono niektóre kwestie, o których należy pamiętać podczas wypychania aplikacji do użytkowników końcowych:
+
+* Automatyczne instalowanie aplikacji dla użytkowników może trwać pewien czas. Większość aplikacji jest instalowana natychmiast, lecz wypychanie aplikacji może trwać pewien czas.  To zależy od liczby elementów w aplikacji i liczby osób, którym udzielono dostępu. Zalecamy wypychanie aplikacji poza godzinami pracy, na długo przed tym, zanim użytkownicy będą ich potrzebować. Zweryfikuj kilku użytkowników przed wysłaniem wiadomości o dostępności aplikacji do szerokiego kręgu użytkowników.
+
+* Odśwież przeglądarkę. Zanim wypchnięta aplikacja będzie widoczna na liście Aplikacje, może być konieczne odświeżenie lub zamknięcie i ponowne otwarcie przeglądarki przez użytkownika.
+
+* Jeśli użytkownik nie widzi natychmiast aplikacji na liście Aplikacje, powinien odświeżyć lub zamknąć i otworzyć ponownie przeglądarkę.
+
+* Nie przeciążaj użytkowników. Nie należy wypychać zbyt wielu aplikacji — dzięki temu użytkownicy będą odbierać wstępnie zainstalowane aplikacje jako przydatne. Dobra praktyka to kontrolowanie, kto może wypychać aplikacje do użytkowników końcowych, w celu koordynowania wypychania. Możesz ustanowić w organizacji punkt kontaktowy na potrzeby pobierania aplikacji wypchniętych do użytkowników końcowych.
 
 ## <a name="unpublish-an-app"></a>Cofanie publikacji aplikacji
 Każdy członek grupy roboczej aplikacji może cofnąć publikację aplikacji.
@@ -167,7 +194,7 @@ W tej wersji zmieniono nazwy wszystkich obszarów roboczych grupy na obszary rob
 ### <a name="how-are-apps-different-from-organizational-content-packs"></a>W jaki sposób aplikacje różnią się od pakietów zawartości organizacji?
 Aplikacje są kolejnym etapem ewolucji i uproszczeniem pakietów zawartości. Istnieje jednak między nimi kilka różnic. 
 
-* Po zainstalowaniu przez użytkowników biznesowych pakiety zawartości tracą swoją tożsamość grupową: stają się tylko listami pulpitów nawigacyjnych i raportów obok innych pulpitów nawigacyjnych i raportów. Natomiast aplikacje utrzymują grupowanie i tożsamość nawet po instalacji. To ułatwia użytkownikom biznesowym dalsze przechodzenie do nich w późniejszym czasie.  
+* Po zainstalowaniu przez użytkowników biznesowych pakiety zawartości tracą swoją tożsamość grupową: stają się tylko listami pulpitów nawigacyjnych i raportów obok innych pulpitów nawigacyjnych i raportów. Natomiast aplikacje utrzymują grupowanie i tożsamość nawet po instalacji. To ułatwia użytkownikom biznesowym dalsze przechodzenie do nich w późniejszym czasie.
 * Możesz tworzyć wiele pakietów zawartości w obszarze roboczym, ale aplikacja ma bezpośrednią relację ze swoim obszarem roboczym. Sądzimy, że dzięki temu aplikacje będą łatwiejsze do zrozumienia i utrzymania w dłuższym okresie. Zapoznaj się z sekcją dotyczącą planów rozwoju na blogu usługi Power BI, aby poznać szczegółowe informacje na temat planów rozwoju tego obszaru. 
 * Z czasem planujemy wycofać pakiety zawartości organizacji, więc zalecamy od teraz tworzenie aplikacji.  
 
@@ -179,5 +206,5 @@ Dzięki aplikacjom możesz opublikować wersję obszaru roboczego aplikacji tylk
 ## <a name="next-steps"></a>Następne kroki
 * [Instalowanie i używanie aplikacji w usłudze Power BI](service-install-use-apps.md)
 * [Aplikacje usługi Power BI dla usług zewnętrznych](service-connect-to-services.md)
+* [Portal administracyjny usługi Power BI](https://docs.microsoft.com/en-us/power-bi/service-admin-portal)
 * Masz pytania? [Zadaj pytanie społeczności usługi Power BI](http://community.powerbi.com/)
-

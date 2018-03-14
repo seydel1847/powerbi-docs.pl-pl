@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/18/2018
+ms.date: 03/01/2018
 ms.author: mihart
-ms.openlocfilehash: e6a83796afe6afab02ec463d3dd2074d1fdc529a
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+LocalizationGroup: Ask questions of your data
+ms.openlocfilehash: 38cb04269937aa0b56589e4831eb7a3b027986d0
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>Tworzenie proponowanych pytań dla funkcji pytań i odpowiedzi w usłudze Power BI
 Jeśli jesteś właścicielem zestawu danych, możesz dodać własne proponowane pytania do tego zestawu danych.  Funkcja Pytania i odpowiedzi w usłudze Power BI wyświetli te pytania współpracownikom używającym Twojego zestawu danych (*korzystającym z niego*).  Proponowane pytania dostarczają współpracownikom pomysłów dotyczących typów pytań, jakie mogą zadać na temat zestawu danych. Proponowane pytania, jakie dodasz, zależą od Ciebie — dodaj często zadawane pytania lub takie, na które można udzielić ciekawej odpowiedzi, albo pytania, które ciężko sformułować.
@@ -39,18 +40,18 @@ W tym artykule wykorzystano [przykład Retail Analysis Sales](sample-datasets.md
 
 1. Na pulpicie nawigacyjnym wybierz pole pytania funkcji Pytania i odpowiedzi.   Zwróć uwagę, że funkcja pytań i odpowiedzi pomaga przez wyświetlanie listy warunków, które pojawiają się w zestawie danych.
 2. Aby dodać pytanie do tej listy, wybierz ikonę koła zębatego w prawym górnym rogu usługi Power BI.  
-   ![](media/service-q-and-a-create-featured-questions/pbi_gearicon2.jpg)
+   ![ikona koła zębatego](media/service-q-and-a-create-featured-questions/pbi_gearicon2.jpg)
 3. Wybierz kolejno pozycje **Ustawienia** &gt; **Zestawy danych** &gt; **Przykład Retail Analysis** &gt; **Proponowane pytania funkcji pytań i odpowiedzi**.  
 4. Wybierz pozycję **Dodaj pytanie**.
    
-   ![](media/service-q-and-a-create-featured-questions/power-bi-settings.png)
+   ![Menu ustawień](media/service-q-and-a-create-featured-questions/power-bi-settings.png)
 5. W polu tekstowym wpisz pytanie i wybierz pozycję **Zastosuj**.   Opcjonalnie możesz dodać następne pytanie, wybierając pozycję **Dodaj pytanie**.  
-   ![](media/service-q-and-a-create-featured-questions/power-bi-type-featured-question.png)
+   ![Okienko Proponowane pytania dla Pytań i odpowiedzi](media/service-q-and-a-create-featured-questions/power-bi-type-featured-question.png)
 6. Przejdź z powrotem do pulpitu nawigacyjnego usługi Power BI dla przykładu Retail Analysis i umieść kursor w polu pytania funkcji pytań i odpowiedzi.   
-   ![](media/service-q-and-a-create-featured-questions/power-bi-featured-q.png)
+   ![Pole pytań funkcji pytań i odpowiedzi](media/service-q-and-a-create-featured-questions/power-bi-featured-q.png)
 7. Nowe proponowane pytanie, **Sales by territory as a map** (Sprzedaż według terytorium jako mapa), jest pierwsze na liście. Wybierz je.  
 8. Odpowiedź zostanie wyświetlona jako wizualizacja kartogramu.  
-   ![](media/service-q-and-a-create-featured-questions/power-bi-filled-map.png)
+   ![wizualizacja mapy](media/service-q-and-a-create-featured-questions/power-bi-filled-map.png)
 
 ### <a name="next-steps"></a>Następne kroki
 [Pytania i odpowiedzi w usłudze Power BI](power-bi-q-and-a.md)  

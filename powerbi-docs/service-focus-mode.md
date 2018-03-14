@@ -16,14 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 1a4290d06d623b21b64e1ff03fb0382a55dc2a3c
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 40ef141046db4b8dac9cf47f7f043ca306d2fadb
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="display-a-dashboard-tile-or-report-visual-in-focus-mode"></a>Wyświetlanie kafelka pulpitu nawigacyjnego lub wizualizacji raportu w trybie koncentracji uwagi
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dtdLul6otYE" frameborder="0" allowfullscreen></iframe>
@@ -36,39 +36,41 @@ Tryb ***koncentracji uwagi*** umożliwia rozwijanie (otwieranie w nowym oknie) k
 > Tryb koncentracji uwagi różni się od [trybu pełnoekranowego](service-fullscreen-mode.md).
 > 
 ## <a name="focus-mode-for-dashboard-tiles"></a>Tryb koncentracji uwagi dla kafelków pulpitu nawigacyjnego
-1. Zatrzymaj wskaźnik myszy nad wizualizacją kafelka, wybierz wielokropek (...) i wybierz pozycję **Otwórz w trybie koncentracji uwagi** ![](media/service-focus-mode/power-bi-dashboard-focus-mode.png).  
+1. Zatrzymaj wskaźnik myszy nad wizualizacją kafelka, wybierz wielokropek (...) i wybierz pozycję **Otwórz w trybie koncentracji uwagi** 
+
+    ![menu wielokropka dla kafelka](media/service-focus-mode/power-bi-dashboard-focus-mode.png).
    
 2. Spowoduje to otwarcie kafelka, który wypełni całą kanwę raportu. 
 
-   ![](media/service-focus-mode/power-bi-tile-focus.png)
+   ![kafelek wypełnia kanwę raportu](media/service-focus-mode/power-bi-tile-focus.png)
 
 3. Rozwiń okienko Filtry, aby zobaczyć wszystkie filtry zastosowane do danej wizualizacji.
    
-   ![](media/service-focus-mode/power-bi-focus-filters.png)
+   ![tryb koncentracji uwagi z okienkiem Filtry](media/service-focus-mode/power-bi-focus-filters.png)
 
 4. Możesz bardziej szczegółowo badać dane, modyfikując filtry i, jeśli odkryjesz coś interesującego, przypiąć wizualizację do pulpitu nawigacyjnego.
 
 5. Aby opuścić tryb koncentracji uwagi i wrócić do pulpitu nawigacyjnego, wybierz pozycję **< Wyjdź z trybu koncentracji uwagi** (w lewym górnym rogu wizualizacji).
    
-    ![](media/service-focus-mode/power-bi-tile-exit-focus.png)    
+    ![opuszczanie trybu koncentracji uwagi](media/service-focus-mode/power-bi-tile-exit-focus.png)    
 
 
 ## <a name="focus-mode-for-report-visualizations"></a>Tryb koncentracji uwagi dla wizualizacji raportu
 
-1. Zatrzymaj wskaźnik myszy na wizualizacji raportu i wybierz ikonę **trybu koncentracji uwagi** ![](media/service-focus-mode/pbi_popout.jpg).  
+1. Zatrzymaj wskaźnik myszy na wizualizacji raportu i wybierz ikonę **trybu koncentracji uwagi** ![ikona trybu koncentracji uwag](media/service-focus-mode/pbi_popout.jpg).  
    
-   ![](media/service-focus-mode/power-bi-hover-focus.png)
+   ![ikona koncentracji uwagi wyświetlona na kafelku](media/service-focus-mode/power-bi-hover-focus.png)
 2. Spowoduje to otwarcie wizualizacji i wypełnienie nią całej kanwy. 
 
    
-   ![](media/service-focus-mode/power-bi-display-focus-newer2.png)
+   ![element wizualny w trybie koncentracji uwagi](media/service-focus-mode/power-bi-display-focus-newer2.png)
 3. Rozwiń okienko Filtry, aby zobaczyć wszystkie filtry zastosowane do danej wizualizacji.
    
-   ![](media/service-focus-mode/power-bi-display-focus-filters.png)
+   ![tryb koncentracji uwagi z ekranem Filtry](media/service-focus-mode/power-bi-display-focus-filters.png)
 4. Możesz bardziej szczegółowo badać dane, modyfikując filtry i, jeśli odkryjesz coś interesującego, przypiąć wizualizację do pulpitu nawigacyjnego.   
 5. Aby opuścić tryb koncentracji uwagi i wrócić do raportu, wybierz pozycję **Powrót do raportu** (w lewym górnym rogu wizualizacji). 
    
-    ![](media/service-focus-mode/power-bi-exit-focus-report.png)  
+    ![opuszczanie trybu koncentracji uwagi](media/service-focus-mode/power-bi-exit-focus-report.png)  
 
 ## <a name="go-from-focus-mode-to-full-screen-mode"></a>Przechodzenie z trybu koncentracji uwagi do trybu pełnoekranowego
 Gdy kafelek lub wizualizacja są otwarte w trybie koncentracji uwagi, można je [wyświetlić w trybie pełnoekranowym (tryb TV).](service-fullscreen-mode.md) W trybie pełnoekranowym zawartość jest wyświetlana bez rozpraszających menu i przycisków nawigacji.

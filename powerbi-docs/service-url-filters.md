@@ -16,18 +16,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 02/28/2018
 ms.author: mihart
-ms.openlocfilehash: 8a818c26a6f9afd134133464b972091faaad093d
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+LocalizationGroup: Reports
+ms.openlocfilehash: 5015886d0314c767bc16fe223c7db91adb0fd2bb
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Filtrowanie raportu za pomocą parametrów ciągu zapytania w adresie URL
 Po otwarciu raportu w usłudze Power BI każda strona raportu ma własny unikatowy adres URL. Aby wykonać filtrowanie takiej strony raportu, możesz użyć okienka Filtr na kanwie raportów.  Możesz też dodać parametry ciągu zapytania do adresu URL. Być może masz raport, który chcesz pokazać współpracownikom, ale najpierw planujesz go wstępnie przefiltrować. Jeden ze sposobów polega na tym, aby rozpocząć od domyślnego adresu URL raportu, dodać do niego parametry filtru, a następnie po prostu wysłać cały adres URL swoim współpracownikom za pośrednictwem poczty e-mail.
 
-![](media/service-url-filters/power-bi-report2.png)
+![Raport usługi Power BI w usłudze](media/service-url-filters/power-bi-report2.png)
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/WQFtN8nvM4A?list=PLv2BtOtLblH3YE_Ycas5B1GtcoFfJXavO&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
@@ -36,7 +37,7 @@ Składnia jest dość prosta: zacznij od adresu URL raportu, dodaj znak zapytani
 
 URL?filter=***Tabela***/***Pole*** eq '***wartość***'
 
-![](media/service-url-filters/power-bi-filter-urls7b.png)
+![Adres URL z filtrem](media/service-url-filters/power-bi-filter-urls7b.png)
 
 * W nazwach **tabeli** i **pola** wielkość liter jest uwzględniana, w przypadku **wartości** wielkość liter nie jest istotna.
 * Pola ukryte w widoku raportu mogą być nadal filtrowane.
@@ -49,7 +50,7 @@ Jeśli nadal masz jakieś wątpliwości, czytaj dalej, aby uzyskać bardziej szc
 ## <a name="filter-on-a-field"></a>Filtrowanie według pola
 Załóżmy, że adres URL raportu wygląda następująco.
 
-![](media/service-url-filters/power-bi-filter-urls6.png)
+![początkowy adres URL](media/service-url-filters/power-bi-filter-urls6.png)
 
 Na przedstawionej wizualizacji mapy (patrz powyżej) widać, że w Karolinie Północnej są zlokalizowane sklepy.
 
@@ -61,7 +62,7 @@ Aby zastosować filtrowanie raportu w celu uwzględnienia wyłącznie danych dla
 
 ?filter=Store/Territory eq 'NC'
 
-![](media/service-url-filters/power-bi-filter-urls7.png)
+![Adres URL z filtrem](media/service-url-filters/power-bi-filter-urls7.png)
 
 >[!NOTE]
 >*NC* oznacza wartość przechowywaną w polu **Territory** tabeli **Store**.

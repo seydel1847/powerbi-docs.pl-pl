@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/27/2017
 ms.author: maghan
-ms.openlocfilehash: 890c748c7e7502394fd2e6e024521e99082a1c77
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+LocalizationGroup: Share your work
+ms.openlocfilehash: ee1b403eaa8456266b452ff34814dc4f4059d9a6
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="publish-to-web-from-power-bi"></a>Funkcja Publikuj w sieci Web w usłudze Power BI
 
@@ -135,7 +136,7 @@ Funkcja **Publikuj w sieci Web** obsługuje niestandardowe wizualizacje. W przyp
 Funkcja **Publikuj w sieci Web** jest obsługiwana w przypadku większości źródeł danych i raportów w usłudze Power BI, jednak następujące rodzaje zawartości nie współdziałają obecnie z funkcją Publikuj w sieci Web:
 
 1. Raporty, w których zastosowano zabezpieczenia na poziomie wiersza.
-2. Raporty, w których zastosowano tabelaryczne usługi Analysis Services hostowane w środowisku lokalnym.
+2. Raporty używają dowolnego źródła danych z połączeniem na żywo, w tym tabelarycznych usług Analysis Services hostowanych lokalnie oraz usług Analysis Service Multidimensional, Azure Analysis Services i Power BI.
 3. Raporty udostępnione Ci bezpośrednio lub za pośrednictwem organizacyjnego pakietu zawartości.
 4. Raporty w grupie, w której nie jesteś członkiem uprawnionym do edytowania.
 5. Wizualizacje języka R nie są obecnie obsługiwane w raportach publikowanych przy użyciu funkcji Publikuj w sieci Web.

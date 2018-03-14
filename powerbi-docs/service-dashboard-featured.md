@@ -16,19 +16,20 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 81ea6b32c6f61299c410325a432c521d8b402549
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Dashboards
+ms.openlocfilehash: efa6d0266ae6fc8418ff4a6f2f78e47f5481d166
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="featured-dashboards-in-power-bi-service"></a>Proponowane pulpity nawigacyjne w usłudze Power BI
 ## <a name="create-a-featured-dashboard"></a>Tworzenie proponowanego pulpitu nawigacyjnego
 Wiele osób odwiedza jeden pulpit nawigacyjny częściej niż inne.  Może to być pulpit nawigacyjny używany do prowadzenia firmy lub zawierający agregację kafelków z wielu różnych pulpitów nawigacyjnych i raportów.
 
-![](media/service-dashboard-featured/power-bi-feature-nav.png)
+![ikona ustawiania jako proponowanego](media/service-dashboard-featured/power-bi-feature-nav.png)
 
 Jeśli pulpit nawigacyjny zostanie wybrany jako *proponowany*, będzie on wyświetlany po każdym uruchomieniu usługi Power BI.  
 
@@ -47,22 +48,22 @@ Zobacz, jak Amanda tworzy proponowany pulpit nawigacyjny, a następnie wykonaj i
 
 
 1. Otwórz pulpit nawigacyjny, który chcesz ustawić jako *Proponowany*. 
-2. Na górnym pasku nawigacyjnym będzie widoczny przycisk **Ustaw jako proponowany** lub tylko ikona Proponowane ![](media/service-dashboard-featured/power-bi-featured-icon.png). Wybierz jeden z tych elementów.
+2. Na górnym pasku nawigacyjnym będzie widoczny przycisk **Ustaw jako proponowany** lub tylko ikona Proponowane ![ikona proponowanych](media/service-dashboard-featured/power-bi-featured-icon.png). Wybierz jeden z tych elementów.
    
-    ![](media/service-dashboard-featured/power-bi-set-as-featured.png)
+    ![Ikona ustawiania jako proponowanego](media/service-dashboard-featured/power-bi-set-as-featured.png)
 3. Potwierdź wybór.
    
-    ![](media/service-dashboard-featured/power-bi-create-featured.png)
+    ![ustawianie proponowanego pulpitu nawigacyjnego](media/service-dashboard-featured/power-bi-create-featured.png)
 
 ## <a name="change-the-featured-dashboard"></a>Zmiana proponowanego pulpitu nawigacyjnego
 Oczywiście w przypadku zmiany zdania możesz ustawić nowy pulpit nawigacyjny jako proponowany.
 
 1. Wykonaj powyższe kroki 1 i 2.
    
-    ![](media/service-dashboard-featured/power-bi-change-feature.png)
+    ![Okno zmieniania proponowanego pulpitu nawigacyjnego](media/service-dashboard-featured/power-bi-change-feature.png)
 2. Wybierz przycisk **Ustaw jako proponowany**. Anulowanie ustawienia pulpitu nawigacyjnego jako proponowanego nie powoduje usunięcia go z obszaru roboczego.  
    
-    ![](media/service-dashboard-featured/power-bi-success.png)
+    ![komunikat dotyczący sukcesu](media/service-dashboard-featured/power-bi-success.png)
 
 ## <a name="remove-the-featured-dashboard"></a>Usuwanie proponowanego pulpitu nawigacyjnego
 Jeśli żaden pulpit nawigacyjny nie ma być ustawiony jako proponowany, możesz anulować ustawienie proponowanego pulpitu nawigacyjnego w następujący sposób.
@@ -70,7 +71,7 @@ Jeśli żaden pulpit nawigacyjny nie ma być ustawiony jako proponowany, możesz
 1. Otwórz pulpit nawigacyjny, który jest obecnie proponowany.
 2. Na górnym pasku menu wybierz opcję **Wyłącz proponowany**.
    
-    ![](media/service-dashboard-featured/power-bi-unfeature.png)
+    ![usuwanie proponowanego](media/service-dashboard-featured/power-bi-unfeature.png)
 
 Teraz w usłudze Power BI będzie otwierany ostatnio używany pulpit nawigacyjny.  
 

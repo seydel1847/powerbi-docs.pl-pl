@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 1/17/2018
+ms.date: 2/26/2018
 ms.author: maghan
-ms.openlocfilehash: 2936fa40700895d9953bb227cc30e68d64ae9205
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 78e3361578b82a9ebf69feae1f7a8ac54966bbc9
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="troubleshooting-your-embedded-application"></a>Rozwiązywanie problemów z aplikacją osadzoną
 
@@ -82,6 +82,7 @@ W celu głębszego zbadania problemu może być konieczne użycie narzędzia Fid
 
 W celu głębszego zbadania problemu może być konieczne użycie narzędzia Fiddler. Powodów wystąpienia błędu 403 może być kilka.
 
+* Użytkownik przekroczył liczbę osadzonych tokenów, które można wygenerować w przypadku pojemności udostępnionej. Musisz kupić pojemność platformy Azure, aby wygenerować osadzone tokeny i przypisać obszar roboczy do tej pojemności. Zobacz [Tworzenie pojemności osadzonej usługi Power BI w witrynie Azure Portal](https://docs.microsoft.com/en-us/azure/power-bi-embedded/create-capacity).
 * Ważność tokenu uwierzytelniania usługi Azure AD wygasła.
 * Uwierzytelniony użytkownik nie jest członkiem grupy (obszaru roboczego aplikacji).
 * Uwierzytelniony użytkownik nie jest administratorem grupy (obszaru roboczego aplikacji).

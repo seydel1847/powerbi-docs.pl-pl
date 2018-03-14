@@ -16,16 +16,17 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/17/2018
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 6527006095e6d716687477e7408a980ee765fb5a
-ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
+LocalizationGroup: Dashboards
+ms.openlocfilehash: dda89f4cffd99ae8f7b435133e9be550d7da0339
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="create-a-copy-of-a-dashboard-in-power-bi-service"></a>Tworzenie kopii pulpitu nawigacyjnego w usłudze Power BI
-![](media/service-dashboard-copy/power-bi-dashboard.png)
+![pulpit nawigacyjny](media/service-dashboard-copy/power-bi-dashboard.png)
 
  Istnieje wiele różnych powodów, dla których kopia pulpitu nawigacyjnego może być potrzebna. Być może chcesz wprowadzić zmiany i przetestować jego działanie w porównaniu z oryginałem lub utworzyć nieco inne wersje do rozpowszechniania wśród współpracowników, w regionie lub zespole. Prawdopodobnie współpracowniczka podziwia Twój projekt pulpitu nawigacyjnego i chce używać go do raportowania do jej menedżerów. Inną przyczyną może być to, że jeśli masz nową bazę danych z tą samą strukturą i typami danych oraz chcesz ponownie użyć pulpitu nawigacyjnego, który został już utworzony — to też może zostać zrobione, ale będzie wymagało pewnych dodatkowych prac w programie Power BI Desktop. 
 
@@ -36,13 +37,13 @@ Aby utworzyć kopię pulpitu nawigacyjnego, musisz być *twórcą* pulpitu nawig
 1. Otwórz pulpit nawigacyjny.
 2. W prawym górnym rogu wybierz wielokropek (...), a następnie wybierz pozycję **Duplikuj pulpit nawigacyjny**.
    
-   ![](media/service-dashboard-copy/power-bi-dulicate.png)
+   ![menu wielokropka](media/service-dashboard-copy/power-bi-dulicate.png)
 3. Nadaj pulpitowi nawigacyjnemu nazwę i wybierz pozycję **Duplikuj**. 
    
-   ![](media/service-dashboard-copy/power-bi-name.png)
+   ![Okno dialogowe Duplikuj pulpit nawigacyjny](media/service-dashboard-copy/power-bi-name.png)
 4. Nowy pulpit nawigacyjny zostanie zapisany w tym samym obszarze roboczym co oryginalny. 
    
-   ![](media/service-dashboard-copy/power-bi-copied.png)
+   ![Karta pulpitów nawigacyjnych](media/service-dashboard-copy/power-bi-copied.png)
 
 5.    Otwórz nowy pulpit nawigacyjny i zmodyfikuj go zgodnie z potrzebami. Poniżej przedstawiono niektóre czynności, które możesz zrobić później:    
     a. [Przenoszenie kafelków, zmiana ich nazwy lub rozmiaru, a nawet ich usuwanie](service-dashboard-edit-tile.md).  

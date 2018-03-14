@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/04/2018
+ms.date: 02/20/2018
 ms.author: maghan
-ms.openlocfilehash: f0a50c0aba1a05c55236192a730c3187cb37c055
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 2cc78b3d2a877e465d5f4bdc67f501b7de87f88e
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="overview-of-the-power-bi-service-content-pack-program"></a>Omówienie programu pakietu zawartości usługi Power BI
 Pakiet zawartości to zbiór gotowej do użycia zawartości, która umożliwia użytkownikom natychmiastowy wgląd w szczegółowe informacje na podstawie źródła. Pakiet zawartości zazwyczaj skupia się na konkretnym scenariuszu biznesowym, zapewniając szczegółowe informacje o roli, domenie lub przepływie pracy.
@@ -64,9 +64,9 @@ Pakiety zawartości zapewniają szczegółowe informacje i metryki koncentrując
 * Weź pod uwagę zaoferowanie większej liczby pakietów zawartości w przypadku oddzielnych, unikatowych scenariuszy.  
 
 ## <a name="frequently-asked-questions"></a>Często zadawane pytania
-**Czy mogę utworzyć pakiet zawartości usługi Power BI dla aplikacji SaaS innej firmy, która nie jest moją własnością?**
+**Czy mogę, jako inna firma, utworzyć pakiet zawartości usługi Power BI dla aplikacji SaaS, która nie jest moją własnością?**
 
-Nie, obecnie wymagamy podpisania umowy partnerskiej z właścicielem aplikacji SaaS przed opublikowaniem pakietu zawartości w usłudze.
+Wymagamy podpisania umowy partnerskiej z właścicielem aplikacji SaaS przed opublikowaniem pakietu zawartości w usłudze. Jako inna firma ponosisz odpowiedzialność za zorganizowanie podpisania umowy partnerskiej z właścicielem aplikacji SaaS.
 
 **Nie mam publicznego interfejsu API dewelopera dla mojej usługi. Czy nadal mogę utworzyć pakiet zawartości usługi Power BI, który pobiera dane bezpośrednio z magazynu danych?**
 
@@ -76,9 +76,13 @@ Nie, pakiety zawartości usługi Power BI wymagają interfejsu API dewelopera do
 
 Pakiety zawartości usługi Power BI obsługują dowolne interfejsy API REST lub źródła danych OData. Usługa Power BI może współpracować z wieloma typami uwierzytelniania, w tym uwierzytelnianiem podstawowym, OAuth 2.0 i internetowym kluczem API. Więcej szczegółów dotyczących wymagań technicznych znajdziesz w artykule [Tworzenie](template-content-pack-authoring.md#dashboard).
 
+**Mój pakiet zawartości został opublikowany w usłudze Power BI. Jak mogę go zaktualizować?**
+
+Opublikowane pakiety zawartości można aktualizować raz w miesiącu. Żądania aktualizacji przesłane na adres [pbiservicesapps@microsoft.com](mailto:pbiservicesapps@microsoft.com) przed ostatnim dniem bieżącego miesiąca zostaną opublikowane w pierwszym tygodniu następnego miesiąca.
+
 **Mam więcej pytań dotyczących pakietów zawartości usługi. Jak mogę się skontaktować?**
 
-Możesz napisać do nas wiadomość e-mail z pytaniami i wysłać ją pod adres pbiservicesapps@microsoft.com
+Możesz napisać do nas wiadomość e-mail z pytaniami i wysłać ją pod adres [pbiservicesapps@microsoft.com](mailto:pbiservicesapps@microsoft.com)
 
 ## <a name="support"></a>Pomoc techniczna
 Aby uzyskać pomoc techniczną podczas tworzenia, skorzystaj ze strony [https://powerbi.microsoft.com/support](https://powerbi.microsoft.com/support). Jest ona aktywnie monitorowana i zarządzana. Incydenty klientów szybko znajdą swoją drogę do odpowiedniego zespołu.

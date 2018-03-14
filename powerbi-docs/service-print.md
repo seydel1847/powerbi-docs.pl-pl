@@ -16,14 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 62796d9eb376ab4c92cc5596176ac501a69c0e62
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: d8b4175f83415821e1ff9b63e3c53cd8f869b54f
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="printing-from-power-bi-service"></a>Drukowanie z usługi Power BI
 Wydrukuj cały pulpit nawigacyjny, kafelek pulpitu nawigacyjnego, stronę raportu lub element wizualny raportu z usługi Power BI. Raporty można drukować tylko po jednej stronie naraz — nie można wydrukować od razu całego raportu.
@@ -41,25 +41,24 @@ Zobacz, jak Amanda drukuje ze swojego pulpitu nawigacyjnego i raportu. Następni
 1. Otwórz pulpit nawigacyjny, który chcesz wydrukować.
 2. W prawym górnym rogu wybierz wielokropek (...), a następnie wybierz pozycję **Drukuj pulpit nawigacyjny**.
    
-    ![](media/service-print/pbi_print_dash_ellipses.png)
+    ![Opcja drukowania pulpitu nawigacyjnego](media/service-print/pbi_print_dash_ellipses.png)
 3. Zostanie otwarte okno drukowania w przeglądarce. Wybierz ustawienia oraz wydruku docelowy, a następnie wybierz opcję **Drukuj**.
    
    > [!NOTE]
    > Wyświetlone okno dialogowe zależy or przeglądarki, z której korzystasz.
    > 
-   > 
    
-    ![](media/service-print/pbi_print_dash_new2.png)
+    ![okno dialogowe drukowania](media/service-print/pbi_print_dash_new2.png)
 
 ## <a name="print-a-dashboard-tile"></a>Drukowanie kafelka pulpitu nawigacyjnego
-1. [Otwórz kafelek w trybie koncentracji uwagi](service-focus-mode.md), wybierając wielokropek i ikonę koncentracji uwagi![](media/service-print/power-bi-focus-icon.png).
+1. [Otwórz kafelek w trybie koncentracji uwagi](service-focus-mode.md), wybierając wielokropek i ikonę koncentracji uwagi ![ikona koncentracji uwagi](media/service-print/power-bi-focus-icon.png).
    
-    ![](media/service-print/menu-options.png)
-2. Otwórz kafelek w [trybie pełnoekranowym](service-fullscreen-mode.md), wybierając ikonę pełnego ekranu ![](media/service-print/power-bi-full-screen-icon.png) w górnym pasku nawigacyjnym.
+    ![menu wielokropka](media/service-print/menu-options.png)
+2. Otwórz kafelek w [trybie pełnoekranowym](service-fullscreen-mode.md), wybierając ikonę pełnego ekranu ![ikona pełnego ekranu](media/service-print/power-bi-full-screen-icon.png) na górnym pasku nawigacyjnym.
 3. Umieść kursor myszy nad kafelkiem, aby wyświetlić menu opcji.
    
-    ![](media/service-print/menu-options-new.png)
-4. Wybierz ikonę drukowania ![](media/service-print/print-icon.png).     
+    ![menu opcji pełnego ekranu](media/service-print/menu-options-new.png)
+4. Wybierz ikonę drukowania ![ikona drukowania](media/service-print/print-icon.png).     
    
    > [!NOTE]
    > Wyświetlone okno dialogowe zależy or przeglądarki, z której korzystasz.
@@ -72,7 +71,7 @@ Raporty można drukować po jednej stronie w danym momencie.
 1. Otwórz raport w widoku odczytu lub edycji.
 2. Wybierz opcję **Plik** > **Drukuj**, aby wydrukować bieżącą stronę raportu.
    
-    ![](media/service-print/power-bi-print.png)
+    ![Menu Plik usługi Power BI](media/service-print/power-bi-print.png)
 3. Zostanie otwarte okno drukowania w przeglądarce.
    
    > [!NOTE]
@@ -81,7 +80,7 @@ Raporty można drukować po jednej stronie w danym momencie.
    > 
 
 ## <a name="print-a-report-visual"></a>Drukowanie elementów wizualnych raportu
-1. [Otwórz element wizualny w trybie koncentracji uwagi](service-focus-mode.md), przenosząc kursor myszy nad kafelek i wybierając ikonę koncentracji uwagi ![](media/service-print/power-bi-focus-icon.png) w prawym górnym rogu.
+1. [Otwórz element wizualny w trybie koncentracji uwagi](service-focus-mode.md), przenosząc kursor myszy nad kafelek i wybierając ikonę koncentracji uwagi ![ikona koncentracji uwagi](media/service-print/power-bi-focus-icon.png) w prawym górnym rogu.
 2. Wykonaj kroki 2–3 w sekcji *Drukowanie strony raportu* powyżej.
 
 ## <a name="considerations-and-troubleshooting"></a>Zagadnienia i rozwiązywanie problemów

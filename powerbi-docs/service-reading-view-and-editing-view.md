@@ -15,18 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 03/01/2018
 ms.author: mihart
-ms.openlocfilehash: 6948f0e333ba1136f6fda8fa0f62b146cefdd710
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+LocalizationGroup: Reports
+ms.openlocfilehash: 6eca438c9e12d99f925aef864ed9b74e16ef30b7
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="reading-view-and-editing-view-in-power-bi-service-reports"></a>Widok do czytania i widok do edycji w raportach usługi Power BI
 W usłudze Power BI (nie w programie Power BI Desktop) są dostępne dwa tryby wyświetlania raportów i korzystania z nich: widok do czytania i widok do edycji. Widok do czytania jest dostępny dla wszystkich osób, a w szczególności jest przeznaczony dla *użytkowników* danych, natomiast widok do edycji jest dostępny tylko dla *twórców* i właścicieli raportu. 
 
-![](media/service-reading-view-and-editing-view/power-bi-creators-consumers.png)
+![kompozycja twórców i użytkowników raportów](media/service-reading-view-and-editing-view/power-bi-creators-consumers.png)
 
 ## <a name="report-reading-view"></a>Widok do czytania raportu
 
@@ -83,17 +84,17 @@ Pamiętaj, że tylko twórcy i właściciele raportu będą mogli otworzyć rapo
 
 1. Domyślnie raport jest zwykle najpierw otwierany w widoku do czytania. Można stwierdzić, że jest się w widoku do czytania, jeśli jest widoczna opcja **Edytuj raport**. Jeśli opcja **Edytuj raport** jest wyszarzona, nie masz uprawnień do otwierania raportu w widoku do edycji.
 
-   ![](media/service-reading-view-and-editing-view/power-bi-edit-report-grey.png)
+   ![Wyszarzona opcja Edytuj raport](media/service-reading-view-and-editing-view/power-bi-edit-report-grey.png)
 
 2. Jeśli opcja **Edytuj raport** nie jest wyszarzona, wybierz ją, aby otworzyć raport w widoku do edycji. 
    
-   ![](media/service-reading-view-and-editing-view/power-bi-edit-report.png)
+   ![Opcja Edytuj raport](media/service-reading-view-and-editing-view/power-bi-edit-report.png)
    
    Raport jest teraz w widoku do edycji i używa tych samych [ustawień wyświetlania](power-bi-report-display-settings.md), co ostatnio w widoku do czytania.
 
 2. Aby powrócić do widoku do czytania, wybierz pozycję **Widok do czytania** na górnym pasku nawigacyjnym.
    
-    ![](media/service-reading-view-and-editing-view/power-bi-reading-view.png)
+    ![opcja Widok do czytania](media/service-reading-view-and-editing-view/power-bi-reading-view.png)
 
 
 

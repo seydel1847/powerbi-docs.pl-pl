@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/06/2018
+ms.date: 02/23/2018
 ms.author: maghan
-ms.openlocfilehash: 7e19e37bf024ec30db58057de54e3039ed7b80b2
-ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
+LocalizationGroup: Administration
+ms.openlocfilehash: 15d1f391ba7a9c32ce1f8abd9620e84f16206e26
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="power-bi-admin-portal"></a>Portal administracyjny usługi Power BI
 
@@ -192,6 +193,19 @@ Użytkownicy w organizacji mogą publikować pakiety zawartości w całej organi
 ### <a name="create-template-organizational-content-packs"></a>Tworzenie szablonów pakietów zawartości w organizacji
 
 Użytkownicy w organizacji mogą tworzyć szablony pakietów zawartości, które używają zestawów danych wbudowanych w jednym źródle danych w aplikacji Power BI Desktop.
+
+### <a name="push-apps-to-end-users"></a>Wypychanie aplikacji do użytkowników końcowych
+
+Administrator dzierżawy umożliwia wypychanie aplikacji w **ustawieniach dzierżawy**.
+
+   ![Włączanie wypychania aplikacji](media/service-create-distribute-apps/power-bi-apps-pushapps01.png)
+
+Możesz zmienić ustawienie na **Włączone**, a następnie określić, kto dysponuje tą możliwością (cała organizacja lub konkretne grupy zabezpieczeń).
+
+> [!NOTE]
+> Należy pamiętać o tym, że uwzględnienie zmian ustawień dzierżawy może zabrać trochę czasu.
+
+Przejdź tutaj, aby dowiedzieć się więcej o [wypychaniu aplikacji](service-create-distribute-apps.md#how-to-install-an-app-automatically-for-end-users).
 
 ## <a name="integration-settings"></a>Ustawienia integracji
 
