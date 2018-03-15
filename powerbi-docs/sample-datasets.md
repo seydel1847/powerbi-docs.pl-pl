@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/18/2018
+ms.date: 03/13/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 8ff3470f45ec84798c9fe7302b31a8fe364f18c9
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 8a2b330ee134bf8aeb94315b90e71824ec1eb8ef
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="what-sample-data-is-available-to-use-with-power-bi"></a>Jakie przykładowe dane są dostępne do użycia w usłudze Power BI?
 Załóżmy, że jesteś nowym użytkownikiem usługi Power BI i chcesz ją wypróbować, ale nie masz żadnych danych.  A może masz zestaw danych, ale ponieważ nie rozumiesz (jeszcze) jak działa usługa Power BI, martwisz się, że możesz w jakiś sposób uszkodzić swój zestaw danych?
@@ -106,16 +106,16 @@ Pakiety zawartości są jedynym formatem przykładów, który jest dostępny z p
 ### <a name="get-and-open-a-sample-content-pack-in-power-bi-service"></a>Pobieranie i otwieranie przykładowego pakietu zawartości w usłudze Power BI
 1. Otwórz usługę Power BI (app.powerbi.com) i zaloguj się.
 2. W lewym dolnym rogu wybierz opcję **Pobierz dane**.
-   
+
     ![](media/sample-datasets/power-bi-get-data.png)
 3. Na wyświetlonej stronie Pobieranie danych wybierz ikonę **Przykłady**.
-   
+
    ![](media/sample-datasets/power-bi-samples-icon.png)
 4. Wybierz jeden z przykładów, aby otworzyć jego opis. Następnie wybierz pozycję **Połącz**.  
-   
+
    ![](media/sample-datasets/power-bi-connect.png)
 5. Usługa Power BI zaimportuje pakiet zawartości i doda nowy pulpit nawigacyjny, raport oraz zestaw danych do bieżącego obszaru roboczego. Nowa zawartość jest oznaczona żółtą gwiazdką. Przeprowadź test działania usługi Power BI za pomocą przykładów.  
-   
+
    ![](media/sample-datasets/power-bi-asterisk.png)
 
 Teraz, gdy masz dane, jesteś na dobrej drodze.  Spróbuj skorzystać z naszych samouczków przy użyciu przykładowych pakietów zawartości lub po prostu uruchom usługę Power BI i zapoznaj się z nią.
@@ -124,7 +124,7 @@ Teraz, gdy masz dane, jesteś na dobrej drodze.  Spróbuj skorzystać z naszych 
 Każdy z tych przykładowych pakietów zawartości jest również dostępny jako skoroszyt programu Excel. Skoroszyty programu Excel są przeznaczone do użycia z usługą Power BI.  
 
 1. Pobierz pliki oddzielnie przy użyciu poniższych linków lub [pobierz plik zip ze wszystkimi plikami przykładowymi](http://go.microsoft.com/fwlink/?LinkId=535020). Jeśli jesteś użytkownikiem zaawansowanym, możesz pobrać skoroszyty programu Excel, aby eksplorować lub edytować modele danych.
-   
+
    * [Przykład Retail Analysis](http://go.microsoft.com/fwlink/?LinkId=529778)
    * [Przykład Supplier Quality Analysis](http://go.microsoft.com/fwlink/?LinkId=529779)
    * [Przykład Human Resources](http://go.microsoft.com/fwlink/?LinkId=529780)
@@ -134,35 +134,35 @@ Każdy z tych przykładowych pakietów zawartości jest również dostępny jako
    * [Przykład Procurement Analysis](http://go.microsoft.com/fwlink/?LinkId=529784)
    * [Przykład Sales and Marketing](http://go.microsoft.com/fwlink/?LinkId=529785)
 2. Zapisz pobrany plik. Miejsce zapisu pliku ma znaczenie.
-   
+
    * ![](media/sample-datasets/power-bi-local-file2.png) **Lokalnie** — jeśli zapiszesz plik na dysku lokalnym na komputerze lub w innej lokalizacji w organizacji, będzie można zaimportować plik do usługi Power BI z jej poziomu. Plik pozostanie na dysku lokalnym, więc tak naprawdę nie jest w całości importowany do usługi Power BI. Właściwie nowy zestaw danych jest tworzony w witrynie usługi Power BI, a dane oraz, w niektórych przypadkach, model danych, są ładowane do zestawu danych. Jeśli plik zawiera jakiekolwiek raporty, zostaną one wyświetlone w witrynie usługi Power BI w sekcji Raporty.
    * ![](media/sample-datasets/power-bi-onedrive-file.png) **OneDrive — dla firm** — jeśli masz usługę OneDrive dla Firm i zalogujesz się do niej przy użyciu tego samego konta, z którego korzystasz do logowania się w usłudze Power BI, zapewnisz najwydajniejszy sposób na utrzymanie synchronizacji pracy w pliku programu Excel, Power BI lub CSV z zestawem danych, raportami oraz pulpitami nawigacyjnymi w usłudze Power BI. Ponieważ usługi Power BI i OneDrive działają w chmurze, usługa Power BI łączy się z plikiem w usłudze OneDrive mniej więcej co godzinę. W przypadku wykrycia jakichkolwiek zmian zestaw danych, raporty i pulpity nawigacyjne zostaną automatycznie zaktualizowane w usłudze Power BI.
    * ![](media/sample-datasets/power-bi-onedrive-file.png) **OneDrive — dla osób prywatnych** — w przypadku zapisu plików na własnym koncie w usłudze OneDrive zapewnisz sobie wiele takich samych korzyści, jak w przypadku usługi OneDrive dla Firm. Największa różnica dotyczy pierwszego połączenia z plikiem (przy użyciu opcji Pobierz dane > Pliki > OneDrive — dla osób prywatnych), ponieważ trzeba zalogować się do usługi OneDrive przy użyciu konta Microsoft, które zazwyczaj różni się od konta używanego do logowania w usłudze Power BI. Podczas logowania do usługi OneDrive przy użyciu konta Microsoft należy wybrać opcję Nie wylogowuj mnie. Dzięki temu usługa Power BI będzie w stanie nawiązać połączenie z plikiem co godzinę i zapewnić synchronizację zestawu danych w usłudze Power BI.
    * ![](media/sample-datasets/power-bi-sharepoint2.png) **Witryny zespołu programu SharePoint** — zapisywanie plików usługi Power BI w witrynach zespołu programu SharePoint jest bardzo podobne do zapisywania plików w usłudze OneDrive dla Firm. Największa różnica polega na sposobie nawiązywania połączenia z plikiem z poziomu usługi Power BI. Możesz określić adres URL lub połączyć się z folderem głównym.
 3. Otwórz usługę Power BI (app.powerbi.com) i zaloguj się.
-   
+
    > [!TIP]
    > W tym momencie można utworzyć nowy pulpit nawigacyjny i nazwać go na podstawie pliku, który planujesz zaimportować.  W przeciwnym razie podczas importowania zestawu danych programu Excel usługa Power BI nie utworzy nowego pulpitu nawigacyjnego o nazwie na podstawie przykładu, ale zamiast tego doda kafelek do obecnie otwartego pulpitu nawigacyjnego. Wybranie tego kafelka spowoduje przeniesienie użytkownika do raportu dotyczącego zestawu danych. Nie jest to bardzo istotna kwestia, ponieważ zawsze można utworzyć nowy pulpit nawigacyjny później, ale rozpoczęcie z nowym pulpitem nawigacyjnym skróci procedurę o krok lub dwa.
-   > 
-   > 
+   >
+   >
 4. W lewym dolnym rogu wybierz opcję **Pobierz dane**.
-   
+
     ![](media/sample-datasets/power-bi-get-data.png)
 5. Na wyświetlonej stronie Pobieranie danych wybierz pozycję **Pliki > Pobierz**.
-   
+
      ![](media/sample-datasets/power-bi-files.png)
 6. Przejdź do lokalizacji, w której pobrano i zapisano przykład.
-   
+
    ![](media/sample-datasets/power-bi-files3.png)
 7. Wybierz plik, w tym przypadku **Procurement Analysis Sample.xlsx**, który został zapisany w usłudze OneDrive dla Firm, a następnie wybierz opcję **Połącz**.
-   
+
    ![](media/sample-datasets/power-bi-connect2.png)
 8. Wybierz, czy chcesz zaimportować dane, czy przenieść skoroszyt do usługi Power BI i wyświetlić go dokładnie w taki sam sposób, jak w usłudze Excel Online.
-   
+
     ![](media/sample-datasets/power-bi-import.png)
 9. Jeśli wybierzesz opcję **Importuj**, usługa Power BI zaimportuje przykładowy skoroszyt i doda go jako nowy zestaw danych o nazwie **Procurement Analysis Sample**.  Jeśli skoroszyt zawiera jakiekolwiek arkusze, tabele lub zakresy Power View bądź model danych, usługa Power BI utworzy również raport (o tej samej nazwie). Ponadto jeśli nie masz jeszcze otwartego pulpitu nawigacyjnego, usługa Power BI utworzy nowy pulpit nawigacyjny. (Jeśli w momencie kliknięcia opcji **Pobierz dane** był otwarty pulpit nawigacyjny, na tym pulpicie nawigacyjnym pojawi się nowy pusty kafelek.  Kliknięcie tego kafelka spowoduje przejście do raportu dla dodanego zestawu danych). Nowa zawartość jest nazwana na podstawie przykładu i jest oznaczona żółtą gwiazdką.
 10. Kiedy zostanie wyświetlony ekran **Twój zestaw danych jest gotowy!**, wybierz opcję **Wyświetl zestaw danych** lub **Uzyskaj szybki wgląd w szczegóły** albo po prostu w usłudze Power BI użyj paska nawigacji po lewej stronie, aby znaleźć i otworzyć skojarzony raport i pulpit nawigacyjny.  
-    
+
      ![](media/sample-datasets/power-bi-ready.png)
 
 ### <a name="optional-take-a-look-at-the-excel-samples-from-inside-excel-itself"></a>(Opcjonalnie) Przyjrzyj się przykładom w formacie programu Excel w programie Excel
@@ -170,18 +170,18 @@ Chcesz zrozumieć, w jaki sposób dane w skoroszycie programu Excel są konwerto
 
 * Po pierwszym otworzeniu przykładowego skoroszytu w programie Excel możesz zobaczyć dwa ostrzeżenia. Pierwsze z nich informuje o tym, że skoroszyt jest w widoku chronionym. Wybierz opcję **Włącz edytowanie**. Drugie ostrzeżenie może informować o tym, że skoroszyt ma połączenia z danymi zewnętrznymi. Wybierz opcję **Włącz zawartość**.
 * Każdy skoroszyt zawiera kilka arkuszy. Ponieważ te przykłady programu Excel zawierają co najmniej jeden arkusz Power View z wizualizacjami, kiedy zaimportujesz plik programu Excel do usługi Power BI, otrzymasz zestaw danych **oraz** raport.
-  
+
    Może być konieczne [włączenie dodatku Power View](https://support.office.com/article/Create-a-Power-View-sheet-in-Excel-2013-B23D768D-7586-47FE-97BD-89B80967A405#__toc328591957).
 * Gdzie znajdują się faktyczne dane? Znajdują się w modelu danych Power Pivot. Aby wyświetlić dane, na karcie **PowerPivot** wybierz opcję **Zarządzaj modelem danych**.
-  
-    Nie widzisz karty PowerPivot? [Włącz dodatek Power Pivot](https://support.office.com/article/Start-Power-Pivot-in-Microsoft-Excel-2013-add-in-A891A66D-36E3-43FC-81E8-FC4798F39EA8). 
+
+    Nie widzisz karty PowerPivot? [Włącz dodatek Power Pivot](https://support.office.com/article/Start-Power-Pivot-in-Microsoft-Excel-2013-add-in-A891A66D-36E3-43FC-81E8-FC4798F39EA8).
 * Karta Informacje zawiera informacje dotyczące obviEnce, firmy, która utworzyła przykład.
 
 ## <a name="the-power-bi-samples-as-pbix-files"></a>Przykłady usługi Power BI jako pliki pbix
 Każdy z tych przykładowych pakietów zawartości jest również dostępny jako plik pbix usługi Power BI. Pliki pbix są przeznaczone do użytku z programem Power BI Desktop.  
 
 1. Pobierz poszczególne pliki, korzystając z poniższych linków.
-   
+
    * [Przykład Retail Analysis](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail Analysis Sample PBIX.pbix)
    * [Przykład Supplier Quality Analysis](http://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier-Quality-Analysis-Sample-PBIX.pbix)
    * [Przykład Human Resources](http://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human Resources Sample PBIX.pbix)
@@ -192,7 +192,7 @@ Każdy z tych przykładowych pakietów zawartości jest również dostępny jako
    * [Przykład Sales and Marketing](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales and Marketing Sample PBIX.pbix)
 2. Zapisz pobrany plik.
 3. W programie Desktop wybierz opcję **Plik > Otwórz** i przejdź do lokalizacji, w której zapisano przykładowy plik pbix.
-   
+
    ![](media/sample-datasets/power-bi-desktop-open.png)
 4. Wybierz plik pbix, aby otworzyć go w programie Desktop.
 
@@ -204,4 +204,3 @@ Każdy z tych przykładowych pakietów zawartości jest również dostępny jako
 [Źródła danych dla usługi Power BI](service-get-data.md)
 
 Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
-

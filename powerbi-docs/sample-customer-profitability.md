@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/28/2018
+ms.date: 03/13/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: c0aaa29a0d933da9fa61d08628766963144e0f76
-ms.sourcegitcommit: c45498071d582dcca264216863906ffaae382523
+ms.openlocfilehash: b7931cb97ff1c409cc2524e31d079dd770160ec4
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/01/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Próbka danych dotyczących zyskowności klientów dla usługi Power BI: krótki przewodnik
 
@@ -40,21 +40,22 @@ Chcesz z niego skorzystać? Ten samouczek korzysta z usługi Power BI i pakietu 
 
 1. Otwórz usługę Power BI (app.powerbi.com) i zaloguj się.
 2. W lewym dolnym rogu wybierz opcję **Pobierz dane**.
-   
+
     ![](media/sample-datasets/power-bi-get-data.png)
 3. Na wyświetlonej stronie Pobieranie danych wybierz ikonę **Przykłady**.
-   
+
    ![](media/sample-datasets/power-bi-samples-icon.png)
 4. Wybierz pozycję **Przykład Customer Profitability**, a następnie wybierz polecenie **Połącz**.  
-   
+
    ![Pobierz dane](media/sample-customer-profitability/get-supplier-sample.png)
 5. Usługa Power BI zaimportuje pakiet zawartości i doda nowy pulpit nawigacyjny, raport oraz zestaw danych do bieżącego obszaru roboczego. Nowa zawartość jest oznaczona żółtą gwiazdką. Przeprowadź test działania usługi Power BI za pomocą przykładów.  
-   
+
    ![Gwiazdka](media/sample-customer-profitability/supplier-sample-asterisk.png)
-  
+
 ### <a name="get-the-pbix-file-for-this-sample"></a>Pobieranie pliku pbix dla tego przykładu
 
-Alternatywnie przykład możesz pobrać jako plik pbix, który został zaprojektowany do użycia w programie Power BI Desktop. [Przykład Customer Profitability] (<http://download.microsoft.com/download/6/A/9/6A93FD6E-CBA5-40BD-B42E-4DCAE8CDD059/Customer>> Profitability Sample PBIX.pbix)
+Alternatywnie przykład możesz pobrać jako plik pbix, który został zaprojektowany do użycia w programie Power BI Desktop.
+[Przykład Customer Profitability](http://download.microsoft.com/download/6/A/9/6A93FD6E-CBA5-40BD-B42E-4DCAE8CDD059/Customer Profitability Sample PBIX.pbix)
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Pobieranie skoroszytu programu Excel dla tego przykładu
 
@@ -87,13 +88,13 @@ Kafelki po prawej stronie pulpitu nawigacyjnego zapewniają dostęp do karty wyn
 
 ![](media/sample-customer-profitability/power-bi-manager2.png)
 
-- Wszyscy przedstawiciele kadry kierowniczej, oprócz Carlosa, przekroczyli już sprzedaż docelową. Ale rzeczywista sprzedaż Carlosa jest najwyższa. 
+- Wszyscy przedstawiciele kadry kierowniczej, oprócz Carlosa, przekroczyli już sprzedaż docelową. Ale rzeczywista sprzedaż Carlosa jest najwyższa.
 - Wskaźnik GM% Annelie jest najniższy, chociaż widzimy stabilny wzrost od marca.
-- Z drugiej strony Valery doświadczyła znacznego spadku w zakresie wskaźnika GM%. 
-- U Andrew rok wyglądał na zmienny. 
+- Z drugiej strony Valery doświadczyła znacznego spadku w zakresie wskaźnika GM%.
+- U Andrew rok wyglądał na zmienny.
 
 ## <a name="explore-the-dashboards-underlying-data"></a>Eksplorowanie danych pulpitu nawigacyjnego
-Ten pulpit nawigacyjny zawiera kafelki, z linkami do raportu i skoroszytu programu Excel. 
+Ten pulpit nawigacyjny zawiera kafelki, z linkami do raportu i skoroszytu programu Excel.
 
 ### <a name="open-the-excel-online-data-source"></a>Otwórz źródło danych programu Excel Online
 Dwa kafelki na tym pulpicie nawigacyjnym „Target vs Actual” i „Year Over Year Revenue Growth” zostały przypięte ze skoroszytu programu Excel. Dlatego po wybraniu jednego z tych kafelków usługa Power BI otwiera źródło danych — w tym przypadku Excel Online.
@@ -112,14 +113,14 @@ Dwa kafelki na tym pulpicie nawigacyjnym „Target vs Actual” i „Year Over Y
 
 4. Kontynuuj eksplorowanie i jeśli znajdziesz coś interesującego, wybierz opcję **Przypnij** ![](media/sample-customer-profitability/power-bi-excel-pin.png) w prawym górnym rogu, aby [przypiąć to do pulpitu nawigacyjnego](service-dashboard-pin-tile-from-excel.md).
 
-5. Aby powrócić do pulpitu nawigacyjnego, użyj klawisza powrotu w przeglądarce. 
+5. Aby powrócić do pulpitu nawigacyjnego, użyj klawisza powrotu w przeglądarce.
 
 ### <a name="open-the-underlying-power-bi-report"></a>Otwórz bazowy raport usługi Power BI
-Większość kafelków na pulpicie nawigacyjnym przykładu dotyczącego zyskowności klienta została przypięta z bazowego raportu Próbka zyskowności klientów. 
+Większość kafelków na pulpicie nawigacyjnym przykładu dotyczącego zyskowności klienta została przypięta z bazowego raportu Próbka zyskowności klientów.
 
-1. Wybierz jeden z tych kafelków, aby otworzyć raport w widoku do czytania. 
+1. Wybierz jeden z tych kafelków, aby otworzyć raport w widoku do czytania.
 
-2. Raport zawiera 3 strony. Każda karta w dolnej części raportu reprezentuje jedną stronę. 
+2. Raport zawiera 3 strony. Każda karta w dolnej części raportu reprezentuje jedną stronę.
 
     ![](media/sample-customer-profitability/power-bi-report-tabs.png)
 
@@ -155,10 +156,10 @@ W jaki sposób zyskowność zmienia się w branży? Jak wygląda rozbicie produk
 
 Na wykresie bąbelkowym dyrektor finansowy szuka największych bąbelków, ponieważ to one mają największy wpływ na przychody. Filtrowanie strony według menedżerów poprzez klikanie ich imion na wykresie warstwowym ułatwia sprawdzenie wpływu poszczególnych menedżerów z uwzględnieniem segmentu branży.
 
-* Obszar wpływów Andrew obejmuje wiele różnych segmentów w branży przy bardzo zmiennej wartości GM% (większość po stronie dodatniej) oraz Var%. 
-* Wykres Annelie jest podobny, poza tym, że koncentruje się ona na zaledwie kilku segmentach branży, skupiając się na segmencie federalnym oraz produkcie o nazwie Gladius. 
-* Carlos skupia się na segmencie usług i uzyskuje dobre przychody. Zdołał znacznie poprawić wariancję (%) dla segmentu nowoczesnych technologii, a segment przemysłowy, nowy dla niego, zapewnił wyjątkowo dobrą wydajność w porównaniu do budżetu. 
-* Tina pracuje w kilku segmentach i ma najwyższy wskaźnik marży brutto GM%, ale przeważnie niewielki rozmiar bąbelków na wykresie wskazuje, że jej wpływ na wynik końcowy firmy jest minimalny. 
+* Obszar wpływów Andrew obejmuje wiele różnych segmentów w branży przy bardzo zmiennej wartości GM% (większość po stronie dodatniej) oraz Var%.
+* Wykres Annelie jest podobny, poza tym, że koncentruje się ona na zaledwie kilku segmentach branży, skupiając się na segmencie federalnym oraz produkcie o nazwie Gladius.
+* Carlos skupia się na segmencie usług i uzyskuje dobre przychody. Zdołał znacznie poprawić wariancję (%) dla segmentu nowoczesnych technologii, a segment przemysłowy, nowy dla niego, zapewnił wyjątkowo dobrą wydajność w porównaniu do budżetu.
+* Tina pracuje w kilku segmentach i ma najwyższy wskaźnik marży brutto GM%, ale przeważnie niewielki rozmiar bąbelków na wykresie wskazuje, że jej wpływ na wynik końcowy firmy jest minimalny.
 * Valery, która odpowiada za tylko jeden produkt, pracuje w zaledwie pięciu segmentach branży. Jej wpływ branżowy jest sezonowy, ale zawsze skutkuje dużym bąbelkiem na wykresie, co wskazuje na znaczny wpływ na wynik końcowy firmy. Czy kwestie branżowe wyjaśniają jej słabą wydajność?
 
 ### <a name="executive-scorecard"></a>Wyniki dyrektora
@@ -174,9 +175,9 @@ Dla celów naszej analizy warto określić, która branża generuje największe 
     ![](media/sample-customer-profitability/power-bi-ask-question.png)
 
 3. Wpisz **total revenue by industry for Valery** (całkowity przychód Valery w kontekście branży). Zwróć uwagę na to, jak aktualizowana jest wizualizacja podczas wpisywania pytania.
-   
+
     ![](media/sample-customer-profitability/power-bi-qna.png)
-   
+
    Dystrybucja jest obszarem zapewniającym największe przychody Valery.
 
 ### <a name="dig-deeper-by-adding-filters"></a>Głębsza analiza przy użyciu filtrów
@@ -184,15 +185,15 @@ Przyjrzyjmy się branży *Dystrybucja*.
 
 1. Otwórz stronę raportu „Industry Margin Analysis”.
 2. Bez zaznaczania żadnych wizualizacji na stronie raportu rozwiń okienko filtru po prawej stronie (jeśli nie zostało jeszcze rozwinięte). Okienko Filtry powinno wyświetlać tylko Filtry na poziomie strony.  
-   
+
    ![](media/sample-customer-profitability/power-bi-filters.png)
 3. Zlokalizuj filtr **Branża** i wybierz strzałkę, aby rozwinąć listę. Dodajmy filtr strony do branży Dystrybucja. Najpierw usuń wszystkie wybory, usuwając zaznaczenie pola wyboru **Zaznacz wszystko**. Następnie wybierz opcję **Dystrybucja.**  
-   
+
    ![](media/sample-customer-profitability/customer7.png)
 4. Wykres warstwowy „Marża brutto według miesiąca i dyrektora” informuje nas, że tylko Valery i Tina miały klientów w tej branży oraz że Valery pracowała w tej branży tylko od czerwca do listopada.   
-5. Wybierz pozycję **Tina**, a następnie **Valery** w legendzie wykresu warstwowego „Marża brutto według miesiąca i dyrektora”. Zauważ, że fragment Tiny „Całkowity przychód według produktu” jest bardzo mały w porównaniu do wskaźnika Valery. 
+5. Wybierz pozycję **Tina**, a następnie **Valery** w legendzie wykresu warstwowego „Marża brutto według miesiąca i dyrektora”. Zauważ, że fragment Tiny „Całkowity przychód według produktu” jest bardzo mały w porównaniu do wskaźnika Valery.
 6. Aby zobaczyć faktyczne przychody, użyj funkcji pytań i odpowiedzi, aby zadać pytanie o **całkowity przychód dla dystrybucji względem scenariusza**.  
-   
+
      ![](media/sample-customer-profitability/power-bi-qna2.png)
 
     Możemy podobnie zbadać inne branże, a nawet dodać klientów do naszych elementów wizualnych, aby zrozumieć przyczyny wydajności Valery.
@@ -205,4 +206,3 @@ Możesz również [pobrać sam zestaw danych (skoroszyt programu Excel) omawiany
 Mamy nadzieję, że dzięki temu przewodnikowi wiesz już, że pulpity nawigacyjne usługi Power BI, aparat Pytania i odpowiedzi oraz raporty mogą okazać się niezastąpione w uzyskiwaniu informacji o danych dotyczących klienta. Teraz Twoja kolej — połącz się ze swoimi danymi. Usługa Power BI umożliwia nawiązanie połączenia z różnymi źródłami danych. Dowiedz się więcej o [rozpoczynaniu pracy z usługą Power BI](service-get-started.md).
 
 [Powrót do przykładowych danych w usłudze Power BI](sample-datasets.md)  
-
