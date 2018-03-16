@@ -15,21 +15,22 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 03/07/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 3a01f7c8ab679e2820261c7947a9561ff5513d60
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: e7f37a076f913d50f5a6b654aa79b50d61bc5add
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="create-a-qr-code-for-a-tile-in-power-bi-to-use-in-the-mobile-apps"></a>Utworzenie kodu QR dla kafelka w usłudze Power BI do użycia w aplikacjach mobilnych
 Kody QR w usłudze Power BI mogą łączyć dowolne elementy w świecie rzeczywistym bezpośrednio z powiązanymi informacjami usługi Power BI — bez potrzeby korzystania z nawigacji lub wyszukiwania.
 
 Możesz utworzyć kod QR w usłudze Power BI dla kafelków na dowolnym pulpicie nawigacyjnym, nawet w przypadku pulpitów nawigacyjnych, których nie możesz edytować. Następnie umieść kod QR w kluczowej lokalizacji. Przykładowo możesz wkleić go do wiadomości e-mail lub wydrukować go i nakleić w konkretnym miejscu. 
 
-Współpracownicy, którym udostępniono pulpit nawigacyjny, mogą [zeskanować kod QR, aby skorzystać z dostępu do kafelka — bezpośrednio na urządzeniu przenośnym](mobile-apps-qr-code.md). Mogą użyć skanera kodów QR w aplikacji Power BI lub dowolnego innego skanera kodów QR zainstalowanego na urządzeniu. .
+Współpracownicy, którym udostępniono pulpit nawigacyjny, mogą [zeskanować kod QR, aby skorzystać z dostępu do kafelka — bezpośrednio na urządzeniu przenośnym](mobile-apps-qr-code.md). W tym celu mogą użyć skanera kodów QR w aplikacji Power BI lub dowolnego innego skanera kodów QR zainstalowanego na urządzeniu.
+
 
 ## <a name="create-a-qr-code-for-a-tile"></a>Tworzenie kodu QR dla kafelka
 1. Otwórz pulpit nawigacyjny w usłudze Power BI.
