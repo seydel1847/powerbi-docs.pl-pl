@@ -862,6 +862,8 @@
       items:
         - name: Aplikacje Power BI dla systemu iOS
           href: mobile-ios-ipad-iphone-apps.md
+        - name: Usługa Power BI dla rzeczywistości mieszanej
+          href: mobile-mixed-reality-app.md
         - name: Wyświetlanie lokalnych raportów i kluczowych wskaźników wydajności w aplikacjach mobilnych
           href: mobile-app-ssrs-kpis-mobile-on-premises-reports.md
         - name: Pulpity nawigacyjne w aplikacjach mobilnych
