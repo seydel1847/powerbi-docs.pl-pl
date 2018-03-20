@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1b8b6dc3932ec4bc1eddd24c91a81a0eaafae479
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 34e756a661ec580e2c0eea8fc53378566eccf305
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="run-r-scripts-in-power-bi-desktop"></a>Uruchamianie skryptów języka R w programie Power BI Desktop
 Skrypty języka R można uruchamiać bezpośrednio w programie **Power BI Desktop** i importować wynikowe zestawy danych bezpośrednio do modelu danych w programie Power BI Desktop.
@@ -48,7 +48,7 @@ Istnieje kilka ograniczeń dotyczących przygotowywania i uruchamiania skryptów
 * Ustawiając katalog roboczy w skrypcie języka R, *musisz* zdefiniować pełną ścieżkę do katalogu roboczego, a nie ścieżkę względną.
 
 ### <a name="run-your-r-script-and-import-data"></a>Uruchamianie skryptu języka R i importowanie danych
-1. W programie Power BI Desktop łącznik danych skryptu języka R znajduje się w obszarze **Pobierz dane**. Aby uruchomić skrypt języka R, wybierz pozycje **Pobierz dane &gt; Więcej...**, a następnie wybierz pozycje **Inne &gt; Skrypt języka R**, jak pokazano na poniższej ilustracji.
+1. W programie Power BI Desktop łącznik danych skryptu języka R znajduje się w obszarze **Pobierz dane**. Aby uruchomić skrypt języka R, wybierz pozycje **Pobierz dane &gt; Więcej...**, a następnie wybierz pozycje **Inne &gt; Skrypt języka R**, jak pokazano na poniższej ilustracji:
    
    ![](media/desktop-r-scripts/r-scripts-1.png)
 2. Jeśli na maszynie lokalnej masz zainstalowany język R, jako aparat języka jest wybierana jego najnowsza zainstalowana wersja. Po prostu skopiuj skrypt do okna skryptu i wybierz przycisk **OK**.
@@ -58,7 +58,7 @@ Istnieje kilka ograniczeń dotyczących przygotowywania i uruchamiania skryptów
    
    ![](media/desktop-r-scripts/r-scripts-3.png)
    
-   Jeśli język R jest zainstalowany, ale nie zostanie zidentyfikowany, możesz jawnie określić jego lokalizację w polu tekstowym dostępnym po rozwinięciu pozycji **Ustawienia instalacji języka R**. Na ilustracji powyżej ścieżka *C:\Program Files\R\R-3.2.0* została jawnie podana w polu tekstowym.
+   Jeśli język R jest zainstalowany i nie zostanie zidentyfikowany, możesz jawnie określić jego lokalizację w polu tekstowym dostępnym po rozwinięciu pozycji **Ustawienia instalacji języka R**. Na ilustracji powyżej ścieżka *C:\Program Files\R\R-3.2.0* została jawnie podana w polu tekstowym.
    
    Ustawienia instalacji języka R znajdują się w środku sekcji Obsługa skryptów języka R okna dialogowego Opcje. Aby określić własne ustawienia instalacji języka R, wybierz pozycje **Plik > Opcje i ustawienia**, a następnie pozycje **Opcje > Obsługa skryptów języka R**. Jeśli dostępnych jest wiele instalacji języka R, zostanie wyświetlone menu rozwijane pozwalające wybrać instalację do użycia.
    

@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: fff56b220579a19505337f2ac9697cd3e61e83cb
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 948c87e3e594ebb0ca2f75f747f7dd6fe36e18e7
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Łączenie się z zestawami danych w usłudze Power BI z programu Power BI Desktop
 Możesz nawiązać połączenie na żywo z udostępnionym zestawem danych w usłudze Power BI i utworzyć wiele różnych raportów na podstawie tego samego zestawu danych. Oznacza to, że możesz utworzyć swój doskonały model danych w programie Power BI Desktop, opublikować go w usłudze Power BI, a następnie możesz sam utworzyć wiele różnych raportów (w oddzielnych plikach pbix) na podstawie tego samego, wspólnego modelu danych lub mogą to zrobić inni użytkownicy. Ta funkcja jest nazywana **Połączenie na żywo usługi Power BI**.
@@ -116,8 +116,8 @@ Podczas korzystania z **połączenia na żywo usługi Power BI** istnieje kilka 
 * Ponieważ jest to połączenie na żywo, lewy obszar nawigacyjny i modelowanie są wyłączone, podobnie do zachowania w przypadku połączenia z **usługami SQL Server Analysis Services**.
 * Ponieważ jest to połączenie na żywo, zabezpieczenia RLS (zabezpieczenia na poziomie wiersza i roli), usługi OneDrive dla Firm i inne takie zachowania połączenia są wymuszane, tak jak po podłączeniu do **usług SQL Server Analysis Services**.
 * Podczas wybierania zestawu danych, z którym należy się połączyć w **usłudze Power BI**, pole wyszukiwania dotyczy tylko obszarów roboczych, które zostały rozwinięte.
-* Jeśli zmodyfikujesz oryginalny udostępniony plik pbix, zestaw danych i raport, który jest udostępniany w **usłudze Power BI**, zostaną zastąpione.
-* Nie możesz zastąpić oryginalnie udostępnionego raportu. Próba wykonania tej czynności powoduje wyświetlenie ostrzeżenia zawierającego monit o zmianę nazwy pliku, a następnie jego opublikowanie.
+* Jeśli właściciel zmodyfikuje oryginalny udostępniony plik pbix, zestaw danych i raport, który jest udostępniany w **usłudze Power BI**, zostaną zastąpione.
+* Członkowie obszaru roboczego nie mogą zastąpić oryginalnie udostępnionego raportu. Próba wykonania tej czynności powoduje wyświetlenie ostrzeżenia zawierającego monit o zmianę nazwy pliku, a następnie jego opublikowanie.
 * Jeśli usuniesz udostępniony zestaw danych w **usłudze Power BI**, wówczas inny program **Power BI Desktop** (pliki pbix) nie będzie już działał poprawnie lub nie będzie wyświetlać swoich wizualizacji.
 * W przypadku pakietów zawartości musisz najpierw utworzyć kopię pakietu zawartości, zanim użyjesz go jako podstawy do udostępnienia raportu pbix i zestawu danych w **usłudze Power BI**.
 * W przypadku skopiowania pakietów zawartości z pozycji *Moja organizacja* nie możesz zastąpić raportu utworzonego w usłudze lub raportu utworzonego jako część kopiowania pakietu zawartości z połączeniem na żywo. Próba wykonania tej czynności powoduje wyświetlenie ostrzeżenia zawierającego monit o zmianę nazwy pliku, a następnie jego opublikowanie. W tej sytuacji możesz tylko zastąpić połączone na żywo opublikowane raporty.

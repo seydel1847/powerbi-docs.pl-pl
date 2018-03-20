@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 85ac8564efca953d338bef9aab8b59699d992c19
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: ff28f5d43b065ae798e2e9f275c8e8b59e9ee1ce
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Źródła danych w programie Power BI Desktop
 Korzystając z programu Power BI Desktop, możesz nawiązywać połączenie z danymi z wielu różnych źródeł. Pełna lista dostępnych źródeł danych znajduje się w dolnej części tej strony.
@@ -78,13 +78,14 @@ Kategoria **Baza danych** udostępnia następujące połączenia danych:
 * Oracle Database
 * Baza danych IBM DB2
 * Baza danych IBM Informix (beta)
-* IBM Netezza (wersja beta)
+* IBM Netezza
 * Baza danych MySQL
 * Baza danych PostgreSQL
 * Baza danych Sybase
 * Teradata Database
 * Baza danych SAP HANA
-* SAP Business Warehouse Server
+* SAP Business Warehouse Application Server
+* SAP Business Warehouse Message Server (wersja beta)
 * Amazon Redshift
 * Impala
 * Google BigQuery (wersja beta)
@@ -103,13 +104,14 @@ Kategoria **Azure** udostępnia następujące połączenia danych:
 
 * Azure SQL Database
 * Azure SQL Data Warehouse
-* Baza danych Azure Analysis Services (beta)
+* Baza danych usług Azure Analysis Services
 * Azure Blob Storage
 * Azure Table Storage
 * Azure Cosmos DB (beta)
 * Azure Data Lake Store
 * Azure HDInsight (HDFS)
 * Azure HDInsight Spark (wersja beta)
+* Interaktywne zapytanie usługi HDInsight (beta)
 
 Na poniższej ilustracji przedstawiono okno **Pobieranie danych** dla kategorii **Azure**.
 
@@ -121,6 +123,7 @@ Kategoria **Usługi online** udostępnia następujące połączenia danych:
 * Lista usługi SharePoint Online
 * Microsoft Exchange Online
 * Dynamics 365 (online)
+* Dynamics NAV (beta)
 * Dynamics 365 for Financials (beta)
 * Common Data Service (beta)
 * Microsoft Azure Consumption Insights (beta)
@@ -128,23 +131,24 @@ Kategoria **Usługi online** udostępnia następujące połączenia danych:
 * Obiekty Salesforce
 * Raporty Salesforce
 * Google Analytics
+* Adobe Analytics
 * appFigures (beta)
 * comScore Digital Analytix (beta)
 * Dynamics 365 for Customer Insights (beta)
+* Data.World — pobierz zestaw danych (beta)
 * Facebook
 * GitHub (beta)
-* Kusto (beta)
 * MailChimp (beta)
+* Marketo (beta)
 * Mixpanel (beta)
-* Planview Enterprise (beta)
-* Projectplace (beta)
+* Planview Enterprise One — PRM (beta)
+* Planview Projectplace (beta)
 * QuickBooks Online (beta)
 * Smartsheet
 * SparkPost (beta)
-* SQL Sentry (beta)
 * Stripe (beta)
 * SweetIQ (beta)
-* Troux (beta)
+* Planview Enterprise One — CMT (beta)
 * Twilio (beta)
 * tyGraph (beta)
 * Webtrends (beta)
@@ -157,6 +161,7 @@ Na poniższej ilustracji przedstawiono okno **Pobieranie danych** dla kategorii 
 Kategoria **Inne** udostępnia następujące połączenia danych:
 
 * Vertica (wersja beta)
+* Kusto (beta)
 * Internet
 * Listy programu SharePoint
 * Źródło danych OData
@@ -203,4 +208,3 @@ Przy użyciu programu Power BI Desktop można wykonywać różnorodne zadania. A
 * [Typy danych w programie Power BI Desktop](desktop-data-types.md)
 * [Kształtowanie i łączenie danych w programie Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Typowe zadania dotyczące zapytań w programie Power BI Desktop](desktop-common-query-tasks.md)    
-

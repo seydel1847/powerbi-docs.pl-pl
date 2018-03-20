@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/05/2018
+ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: b0d7dc85b9795b432b461d48894404417850b9bc
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 4997c29941608c12a89598b6e9cb1b1ad3aa2fe8
+ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Poprzednie comiesięczne aktualizacje programu Power BI Desktop
 
@@ -31,6 +31,69 @@ W tym artykule opisano poprzednie aktualizacji programu **Power BI Desktop**. Ab
 W poniższych sekcjach opisano aktualizacje programu **Power BI Desktop** z poprzednich miesięcy.
 
 Zawsze możesz [pobrać najnowszą wersję programu Power BI Desktop](https://powerbi.microsoft.com/desktop). Jeśli korzystasz z systemu Windows 10, program **Power BI Desktop** możesz także uzyskać ze Sklepu Windows. Miesięczne wersje są takie same niezależnie od tego, w jaki sposób zainstalujesz program **Power BI Desktop**. Więcej informacji zawiera [ten artykuł](desktop-get-the-desktop.md). 
+
+
+## <a name="february-2018-update-2555010521"></a>Aktualizacja z lutego 2018 r. (2.55.5010.521)
+
+Całym sercem cieszyliśmy się z aktualizacji programu **Power BI Desktop** wprowadzonych w lutym i mamy nadzieję, że dla użytkowników były one słodkie jak pudełko czekoladek.
+
+Linki obok każdej aktualizacji mają następujące znaczenie:
+
+* Linki **[wideo]** otwierają nową kartę z fragmentem filmu wideo, w którym omówiono daną funkcję.
+* Dla niektórych funkcji udostępniono **[artykuł]** zawierający dodatkowe szczegóły.
+* Większość funkcji opisano we wpisie w blogu (**[blog]**) dotyczącym miesięcznych aktualizacji.
+* Ponadto niektóre funkcje nie wymagają wyjaśnień i nie udostępniono dla nich artykułu ani filmu wideo.
+
+Film wideo **Latest Updates** (Najnowsze aktualizacje) z bieżącego miesiąca możesz także obejrzeć od początku, bezpośrednio w tym artykule — w tym celu wystarczy kliknąć ikonę **odtwarzania** na obrazku filmu widocznym pod listą aktualizacji.
+
+W lutym 2018 r. w programie **Power BI Desktop** wprowadzono następujące nowe aktualizacje:
+
+### <a name="reporting"></a>Raportowanie
+
+* Punkty danych wielokrotnego wyboru na wielu stronach  [[wideo]](https://youtu.be/KeVB5RwMzJo?t=23s) [[artykuł]](desktop-multi-select.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#crosshighlight) 
+* Fragmentatory synchronizacji na wielu stronach raportu  [[wideo]](https://youtu.be/KeVB5RwMzJo?t=3m33s) [[artykuł]](desktop-slicers.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#syncSlicers) 
+* Udoskonalenie fragmentatora zakresu liczbowego — przyciąganie liczb całkowitych (wersja zapoznawcza)  [[wideo]](https://youtu.be/KeVB5RwMzJo?t=8m44s)  [[artykuł]](desktop-slicer-numeric-range.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#rangeSlicer) 
+* Szybsze geokodowanie map Bing (podgląd w sieci Web) — do 6x szybciej  [[wideo]](https://youtu.be/KeVB5RwMzJo?t=10m18s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#geocoding) 
+* Przepełnione etykiety danych dla wizualizacji wykresów słupkowych i kolumnowych   [[wideo]](https://youtu.be/KeVB5RwMzJo?t=12m31s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#overflow) 
+* Wyszukiwanie w okienkach Formatowanie i Analiza  [[wideo]](https://youtu.be/KeVB5RwMzJo?t=14m46s)  [[artykuł]](desktop-analytics-pane.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#search) 
+
+
+### <a name="custom-visuals"></a>Wizualizacje niestandardowe
+
+* Niestandardowe wizualizacje organizacji (wersja zapoznawcza)  [[wideo]](https://youtu.be/KeVB5RwMzJo?t=19m23s)  [[artykuł]](power-bi-custom-visuals-organization.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#organizationalVisuals) 
+
+
+### <a name="analytics"></a>Analiza
+
+* Konfigurowanie niestandardowej tabeli dat [[wideo]](https://youtu.be/KeVB5RwMzJo?t=16m4s)[[artykuł]](desktop-date-tables.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#customDateTable)
+* Szybkie miary są teraz ogólnie dostępne  [[wideo]](https://youtu.be/KeVB5RwMzJo?t=17m52s)  [[artykuł]](desktop-quick-measures.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#quickMeasures) 
+
+### <a name="data-connectivity"></a>Połączenia z danymi
+
+* Ulepszenia zapytania bezpośredniego za pośrednictwem platformy SAP HANA (wersja zapoznawcza)  [[wideo]](https://youtu.be/KeVB5RwMzJo?t=30m1s)  [[artykuł]](desktop-directquery-sap-hana.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#saphana) 
+
+### <a name="other"></a>Inne
+
+* Ulepszenia wydajności zapytania bezpośredniego  [[wideo]](https://youtu.be/KeVB5RwMzJo?t=32m24s)  [[artykuł]](desktop-directquery-about.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#dqPerf) 
+* Otwieranie i zapisywanie ulepszeń wydajności  [[wideo]](https://youtu.be/KeVB5RwMzJo?t=33m40s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#savePerf) 
+* Ulepszenia funkcji *Pokaż elementy bez danych*  [[wideo]](https://youtu.be/KeVB5RwMzJo?t=34m6s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#showItemsWithNoData) 
+* Trwała kontrola filtrów dla nowej funkcji **usługi Power BI**  [[wideo]](https://youtu.be/KeVB5RwMzJo?t=34m56s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#persistentFilters) 
+
+
+
+> [!NOTE]
+> Dodatkowo możesz [sprawdzić wszystkie źródła danych dostępne dla programu Power BI Desktop](desktop-data-sources.md). Lista ciągle rośnie, dlatego zachęcamy do częstego jej sprawdzania.
+
+Chcesz uzyskać więcej informacji o tych aktualizacjach? Zapoznaj się z [wpisem w blogu](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary), który zawiera bardziej szczegółowe informacje o każdej z tych nowych funkcji (do tego samego wpisu prowadzą linki na powyższej liście).
+
+
+Poniższy film wideo zawiera omówienia i prezentacje wszystkich tych aktualizacji. Ten film wideo można także obejrzeć we wpisie w blogu.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KeVB5RwMzJo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+> [!NOTE]
+> Być może zainteresują Cię także [nowości w usłudze Power BI](service-whats-new.md) oraz [nowości w aplikacjach mobilnych dla usługi Power BI](mobile-whats-new-in-the-mobile-apps.md).
 
 
 ## <a name="january-2018-update-2544970761"></a>Aktualizacja ze stycznia 2018 r. (2.54.4970.761)
@@ -44,7 +107,7 @@ Linki obok każdej aktualizacji mają następujące znaczenie:
 * Większość funkcji opisano we wpisie w blogu (**[blog]**) dotyczącym miesięcznych aktualizacji.
 -   Ponadto niektóre funkcje nie wymagają wyjaśnień i nie udostępniono dla nich artykułu ani filmu wideo.
 
-Film wideo **Latest Updates** (Najnowsze aktualizacje) możesz także obejrzeć od początku, bezpośrednio w tym artykule — w tym celu wystarczy kliknąć ikonę **odtwarzania** na obrazku filmu widocznym pod listą aktualizacji.
+Film wideo **Latest Updates** (Najnowsze aktualizacje) z bieżącego miesiąca możesz także obejrzeć od początku, bezpośrednio w tym artykule — w tym celu wystarczy kliknąć ikonę **odtwarzania** na obrazku filmu widocznym pod listą aktualizacji.
 
 W styczniu w programie **Power BI Desktop** wprowadzono następujące nowe aktualizacje:
 
@@ -83,7 +146,7 @@ Poniższy film wideo zawiera omówienia i prezentacje wszystkich tych aktualizac
 
 
 
-## <a name="december-2017-update-2534954481-"></a>Aktualizacja z grudnia 2017 r. (2.53.4954.481)
+## <a name="december-2017-update-2534954481"></a>Aktualizacja z grudnia 2017 r. (2.53.4954.481)
 
 Grudzień oferował w prezencie wiele aktualizacji programu **Power BI Desktop** oferujących funkcje, które ucieszą dzieci (i osoby dorosłe) zainteresowane analizą biznesową.
 
@@ -1441,7 +1504,7 @@ Do tej aktualizacji dodano następującą, ogromną kolekcję 44 funkcji:
 - Wyodrębnianie minimalnej/maksymalnej wartości daty/godziny z kolumny
 - Zastępowanie wartości — możliwość określania znaków specjalnych
 - Opcja „Wykryj typy kolumn” umożliwiająca wyzwalanie wykrywania typu na żądanie
-- Opcja „Odśwież wszystkie podglądy” umożliwiające odświeżenie wszystkich podglądów edytora zapytań jednym kliknięciem
+- Opcja „Odśwież wszystkie podglądy” umożliwiająca odświeżenie wszystkich podglądów edytora zapytań jednym kliknięciem
 - Ulepszenia wydajności:
     - Okno dialogowe Wybieranie kolumn: szybsze środowisko użytkownika do obsługi szerokich tabel
     - Wyskakujące okienka Automatyczne filtrowanie i Rozwijanie/agregacja: szybsza obsługa wielu wartości/pól
@@ -1512,9 +1575,9 @@ W tej aktualizacji zostały dodane następujące funkcje:
 
 -   Obsługa otwierania ostatnio używanych plików na stronie początkowej oraz w menu „Plik \> Otwórz”.
 
--   Obsługa poświadczeń Exchange UPN w łączniku programu Exchange.
+-   Obsługa poświadczeń Exchange UPN w łączniku programu Exchange.ï»¿
 
-Poza tymi wszystkimi nowymi funkcjami program **Power BI Desktop będzie dostępny w 42 różnych językach.** Pobierz pełną listę języków i zainstaluj żądaną wersję, korzystając z [naszej oficjalnej strony pobierania](https://www.microsoft.com/download/details.aspx?id=45331).
+Poza tymi wszystkimi nowymi funkcjami program **Power BI Desktop będzie dostępny w 42 różnych językach**. Pobierz pełną listę języków i zainstaluj żądaną wersję, korzystając z [naszej oficjalnej strony pobierania](https://www.microsoft.com/download/details.aspx?id=45331).
 
 Sprawdź poniższe wideo, aby uzyskać więcej szczegółowych informacji:
 
@@ -1542,7 +1605,7 @@ W tej aktualizacji zostały dodane następujące funkcje:
 
 -   Nowe filtry kolumny tekstowej — **Nie zaczyna się od** i **Nie kończy się na**
 
--   Ulepszone okno dialogowe poziomów prywatności
+-   Ulepszone okno dialogowe poziomów prywatnościï»¿
 
 Sprawdź poniższe wideo, aby uzyskać więcej szczegółowych informacji:
 

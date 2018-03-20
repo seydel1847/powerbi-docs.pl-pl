@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 982b027ebf7605cdc0ce122759d5f3837d23c0ed
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 67b347be9974605156d02cbbf179126c68ae91e8
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="tutorial-dynamic-row-level-security-with-analysis-services-tabular-model"></a>Samouczek: dynamiczne zabezpieczenia na poziomie wiersza z modelem tabelarycznym usług Analysis Services
 W tym samouczku przedstawiono kroki niezbędne do zaimplementowania **zabezpieczeń na poziomie wiersza** w ramach **modelu tabelarycznego usług Analysis Services**  oraz stosowanie ich w raportach usługi Power BI. Kroki w tym samouczku zaprojektowano tak, aby można było je prześledzić i nauczyć się niezbędnych czynności, wykonując je na przykładowym zestawie danych.
@@ -85,9 +85,9 @@ Opublikowano już wiele artykułów opisujących sposób definiowania dynamiczny
 9. Formuła określa, że wszystkie kolumny są rozwiązywane do fałszywego warunku logicznego, w związku z czym nie można wykonać zapytań dla żadnych kolumn w tabeli **DimUserSecurity**.
 10. Teraz musimy przetworzyć i wdrożyć model. Informacje pomocne we wdrażaniu modelu można znaleźć w [tym artykule](https://msdn.microsoft.com/library/hh231693.aspx).
 
-## <a name="task-3-adding-data-sources-within-your-on-premises-data-gateway"></a>Zadanie 3. Dodawanie źródeł danych w bramie danych lokalnych
+## <a name="task-3-adding-data-sources-within-your-on-premises-data-gateway"></a>Zadanie 3. Dodawanie źródeł danych w lokalnej bramie danych
 1. Po wdrożeniu modelu tabelarycznego i przygotowaniu go do użycia musisz dodać połączenie ze źródłem danych do lokalnego serwera tabelarycznego usług Analysis Services w portalu usługi Power BI.
-2. Aby umożliwić **usłudze Power BI** dostęp do lokalnej usługi analizy, musisz zainstalować i skonfigurować w danym środowisku **[bramę danych lokalnych](service-gateway-onprem.md)**.
+2. Aby umożliwić **usłudze Power BI** dostęp do lokalnej usługi analizy, musisz zainstalować i skonfigurować w danym środowisku **[lokalną bramę danych](service-gateway-onprem.md)**.
 3. Po poprawnym skonfigurowaniu bramy musisz utworzyć połączenie źródła danych dla swojego wystąpienia tabelarycznego usług **Analysis Services**. Ten artykuł pomoże w [dodawaniu źródła danych w portalu usługi Power BI](service-gateway-enterprise-manage-ssas.md).
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/pbi_gateway.png)

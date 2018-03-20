@@ -17,11 +17,11 @@ ms.workload: powerbi
 ms.date: 02/22/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d711e2276f2ac170ed54152d54c023261ca9c0bc
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: c2f2fcca7c1d915f94960824d32a5d4f18a978b6
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="create-and-publish-apps-with-dashboards-and-reports-in-power-bi"></a>Tworzenie i publikowanie aplikacji z pulpitami nawigacyjnymi i raportami w usłudze Power BI
 
@@ -174,6 +174,8 @@ Poniżej przedstawiono niektóre kwestie, o których należy pamiętać podczas 
 * Jeśli użytkownik nie widzi natychmiast aplikacji na liście Aplikacje, powinien odświeżyć lub zamknąć i otworzyć ponownie przeglądarkę.
 
 * Nie przeciążaj użytkowników. Nie należy wypychać zbyt wielu aplikacji — dzięki temu użytkownicy będą odbierać wstępnie zainstalowane aplikacje jako przydatne. Dobra praktyka to kontrolowanie, kto może wypychać aplikacje do użytkowników końcowych, w celu koordynowania wypychania. Możesz ustanowić w organizacji punkt kontaktowy na potrzeby pobierania aplikacji wypchniętych do użytkowników końcowych.
+
+* Użytkownicy-goście, którzy nie zaakceptowali zaproszenia, nie otrzymają automatycznie zainstalowanych dla nich aplikacji.  
 
 ## <a name="unpublish-an-app"></a>Cofanie publikacji aplikacji
 Każdy członek grupy roboczej aplikacji może cofnąć publikację aplikacji.

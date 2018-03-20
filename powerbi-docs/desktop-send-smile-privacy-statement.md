@@ -15,16 +15,21 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: f9aa1570fe9386e5f8e726097a1c88d448dc2da1
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: ac61259fc0f02e8f84a94502e9f8dd89d5ca4b96
+ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="power-bi-desktop-send-a-smile-privacy-statement"></a>Zasady zachowania poufności informacji dotyczące funkcji Wyślij uśmiech programu Power BI Desktop
+
+Począwszy od programu **Power BI Desktop** w wersji z marca 2018 r., raportowanie błędów używa platformy raportowania błędów systemu Windows, a nie funkcji *Wyślij uśmiech* czy *Wyślij grymas niezadowolenia*. Więcej informacji na temat platformy raportowania błędów systemu Windows zawiera [blog dotyczący ochrony prywatności w systemie Windows](https://blogs.windows.com/windowsexperience/2018/01/24/microsoft-introduces-new-privacy-tools-ahead-of-data-privacy-day/). 
+
+## <a name="for-versions-of-power-bi-desktop-prior-to-march-2018"></a>Wersje programu Power BI Desktop sprzed marca 2018 r.
+
 W firmie Microsoft ciężko pracujemy nad ochroną Twojej prywatności podczas dostarczania produktów, które zapewniają pożądaną wydajność, energię i wygodę. Te zasady zachowania poufności informacji objaśniają wiele praktyk gromadzenia danych i użycia opinii programu Microsoft Power BI Desktop *Wyślij uśmiech*. Nie ma to zastosowania do innych witryn, produktów lub usług firmy Microsoft online lub offline.
 
 O ile nie zostało to inaczej opisane w niniejszym oświadczeniu, funkcja *Wyślij uśmiech* nie wysyła informacji osobistych do firmy Microsoft. Informacje wysyłane do firmy Microsoft nie są udostępniane poza firmą Microsoft oraz jej kontrolowanymi przedstawicielstwami i podmiotami stowarzyszonymi bez Twojej zgody.

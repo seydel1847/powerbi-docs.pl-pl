@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ab73dde22fdb0603a900ac67b6e76e8f5aaf3872
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 3903a4d7351ab00da24750736840c6ba35cffa2b
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="use-an-external-r-ide-with-power-bi"></a>Używanie zewnętrznego środowiska IDE języka R z usługą Power BI
 W programie **Power BI Desktop** możesz za pomocą zewnętrznego środowiska IDE (zintegrowanego środowiska programistycznego) języka R tworzyć i dostosowywać skrypty języka R, a następnie używać tych skryptów w usłudze Power BI.
@@ -53,7 +53,7 @@ Domyślnie program **Power BI Desktop** uruchamia program **R Studio** jako zewn
 Natomiast jeśli nie istnieje żadne skojarzenie plików **.R**, w sekcji *Przejdź do preferowanego środowiska IDE języka R* okna dialogowego **Opcje** możesz określić ścieżkę do niestandardowego środowiska IDE. Inne środowisko IDE języka R możesz również uruchomić, wybierając ikonę koła zębatego **Ustawienia** obok ikony strzałki **Uruchom środowisko IDE języka R** w programie **Power BI Desktop**.
 
 ## <a name="launch-an-r-ide-from-power-bi-desktop"></a>Uruchamianie środowiska IDE języka R z poziomu programu Power BI Desktop
-Aby uruchomić środowisko IDE języka R z poziomu programu **Power BI Desktop**, wykonaj poniższe kroki.
+Aby uruchomić środowisko IDE języka R z poziomu programu **Power BI Desktop**, wykonaj następujące kroki:
 
 1. Załaduj dane do programu **Power BI Desktop**.
 2. W okienku **Pola** wybierz niektóre pola, z którymi chcesz pracować. Jeśli nie zostały jeszcze włączone wizualizacje skryptów, zostanie wyświetlony monit, aby to zrobić.

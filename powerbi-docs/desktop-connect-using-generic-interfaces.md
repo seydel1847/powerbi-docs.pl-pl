@@ -18,14 +18,14 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e4415f4315400e7ff11c356badee19eebace82b7
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 5c28a53f4421c88bfc6237813ce6fdb76cc160cd
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="connect-to-data-using-generic-interfaces-in-power-bi-desktop"></a>Łączenie się z danymi przy użyciu interfejsów ogólnych w usłudze Power BI
-Możesz połączyć się z wieloma różnymi źródłami danych w programie **Power BI Desktop**, korzystając z wbudowanych łączników obejmujących różne rozwiązania od **Baz danych programu Access** po zasoby **Zendesk**, jak pokazano w oknie **Pobieranie danych**. Możesz też nawiązać połączenie z różnymi *innymi* źródłami danych, korzystając z interfejsów ogólnych (np. **ODBC** lub **interfejsy API REST**) wbudowanych w program **Power BI Desktop**, co jeszcze bardziej rozszerza opcje łączności.
+Możesz połączyć się z wieloma różnymi źródłami danych w programie **Power BI Desktop**, korzystając z wbudowanych łączników obejmujących różne rozwiązania od **Baz danych programu Access** po zasoby **Zendesk**, jak pokazano w oknie **Pobieranie danych**. Aby rozszerzyć opcje łączności, możesz też nawiązać połączenie z różnymi *innymi* źródłami danych, korzystając z interfejsów ogólnych (np. **ODBC** lub **interfejsy API REST**) wbudowanych w program **Power BI Desktop**.
 
 ![](media/desktop-connect-using-generic-interfaces/generic-data-interfaces_1.png)
 
@@ -44,7 +44,7 @@ Poprzez podanie odpowiednich parametrów w oknach połączenia zapewnianych prze
 
 W poniższych sekcjach możesz znaleźć listy źródeł danych, do których można uzyskać dostęp za pośrednictwem tych interfejsów ogólnych.
 
-Nie możesz znaleźć źródła danych, którego chcesz użyć w programie **Power BI Desktop**? [Daj nam znać](https://ideas.powerbi.com/), abyśmy mogli dodać to do listy pomysłów i próśb.
+Nie możesz znaleźć źródła danych, którego chcesz użyć w programie **Power BI Desktop**? Prześlij swój pomysł na [listę pomysłów i próśb](https://ideas.powerbi.com/) zespołu usługi Power BI.
 
 ## <a name="data-sources-accessible-through-odbc"></a>Źródła danych dostępne za pośrednictwem interfejsu ODBC
 Łącznik **ODBC** w programie **Power BI Desktop** umożliwia importowanie danych z dowolnego sterownika ODBC innej firmy poprzez określenie **nazwy źródła danych (DSN)** lub *parametrów połączenia*. Opcjonalnie możesz też określić instrukcję SQL do wykonania wobec sterownika ODBC.
@@ -114,7 +114,7 @@ Poniżej przedstawiono szczegółową listę z kilkoma przykładami źródeł da
 | Skrypt języka R |Pliki statystyczne języka R |[Wskazówki dotyczące skryptu języka R z sieci CRAN](https://cran.r-project.org/doc/manuals/R-data.html) |
 
 ## <a name="next-steps"></a>Następne kroki
-Z poziomu programu Power BI Desktop możesz łączyć się ze źródłami danych różnego rodzaju. Więcej informacji na temat źródeł danych znajdziesz w następujących zasobach:
+Z poziomu programu **Power BI Desktop** możesz łączyć się ze źródłami danych różnego rodzaju. Więcej informacji na temat źródeł danych znajdziesz w następujących zasobach:
 
 * [Wprowadzenie do programu Power BI Desktop](desktop-getting-started.md)
 * [Źródła danych w programie Power BI Desktop](desktop-data-sources.md)

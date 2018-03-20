@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c048a83dad3ea800f50b08bd15c0cec18d6d86cf
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: da99de218594d09a8cd76aafa9fc227b648ba7af
+ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="use-sap-hana-in-power-bi-desktop"></a>Używanie platformy SAP HANA w programie Power BI Desktop
 Teraz program Power BI Desktop umożliwia uzyskiwanie dostępu do baz danych platformy **SAP HANA**. Aby używać platformy **SAP HANA**, na lokalnym komputerze klienckim musi być zainstalowany sterownik ODBC platformy SAP HANA w celu zapewnienia prawidłowego działania połączenia danych platformy **SAP HANA** z programem Power BI Desktop. Sterownik ODBC platformy SAP HANA możesz pobrać z witryny [SAP Software Download Center (Centrum pobierania oprogramowania SAP)](https://support.sap.com/swdc). W tej witrynie wyszukaj klienta SAP HANA dla komputerów z systemem Windows. Ponieważ struktura witryny **SAP Software Download Center** (Centrum pobierania oprogramowania SAP) jest często zmieniana, dokładniejsze wskazówki dotyczące nawigowania w tej witrynie są niedostępne.
@@ -35,7 +35,7 @@ Podczas nawiązywania połączenia z bazą danych SAP HANA podaj nazwę serwera 
 
 ![](media/desktop-sap-hana/sap-hana-2.png)
 
-W tej wersji platforma **SAP HANA** w trybie [zapytania bezpośredniego](desktop-use-directquery.md) jest obsługiwana w programie Power BI Desktop i usłudze Power BI. Możesz publikować i przekazywać raporty, które używają platformy **SAP HANA**, w trybie zapytania bezpośredniego do usługi Power BI. Możesz również publikować i przesyłać raporty do usługi Power BI, gdy nie korzystasz z platformy **SAP HANA** w trybie zapytania bezpośredniego.
+W tej wersji platforma **SAP HANA** w trybie [zapytania bezpośredniego](desktop-directquery-sap-hana.md) jest obsługiwana w programie Power BI Desktop i usłudze Power BI. Możesz publikować i przekazywać raporty, które używają platformy **SAP HANA**, w trybie zapytania bezpośredniego do usługi Power BI. Możesz również publikować i przesyłać raporty do usługi Power BI, gdy nie korzystasz z platformy **SAP HANA** w trybie zapytania bezpośredniego.
 
 ### <a name="supported-features-for-sap-hana"></a>Obsługiwane funkcje platformy SAP HANA
 Ta wersja zawiera wiele funkcji do obsługi platformy **SAP HANA** wymienionych na poniższej liście:
@@ -55,4 +55,12 @@ Istnieje również kilka ograniczeń dotyczących używania platformy **SAP HANA
 * Typ danych SMALLDECIMAL nie jest obsługiwany
 * Typ danych VARBINARY nie jest obsługiwany
 * Prawidłowe daty są z zakresu od 1899-12-30 do 9999-12-31
+
+
+## <a name="next-steps"></a>Następne kroki
+Aby uzyskać więcej informacji na temat zapytania bezpośredniego, zapoznaj się z następującymi zasobami:
+
+* [Zapytanie bezpośrednie i platforma SAP HANA](desktop-directquery-sap-hana.md)
+* [Zapytanie bezpośrednie w usłudze Power BI](desktop-directquery-about.md)
+* [Źródła danych obsługiwane przez zapytanie bezpośrednie](desktop-directquery-data-sources.md)
 

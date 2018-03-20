@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b61285c54d337ce85ab470180f8cfa2a66f0820e
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 94e52d2d56cd7ba0ec04db47bc93dd18fc880f39
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="connect-to-data-in-power-bi-desktop"></a>Łączenie się z danymi w programie Power BI Desktop
 Za pomocą programu Power BI Desktop możesz łatwo połączyć się z nieustannie rozszerzającym się światem danych. Jeśli nie masz programu Power BI Desktop, możesz go [pobrać](http://go.microsoft.com/fwlink/?LinkID=521662) i zainstalować.
@@ -80,7 +80,7 @@ Przy użyciu programu Power BI Desktop można wykonywać różnorodne zadania. A
 * [Kształtowanie i łączenie danych w programie Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Typowe zadania dotyczące zapytań w programie Power BI Desktop](desktop-common-query-tasks.md)   
 
-Chcesz przesłać nam swoją opinię? Świetnie — użyj pozycji menu **Wyślij opinię** w programie Power BI Desktop. Czekamy na informacje od Ciebie!
+Chcesz przesłać nam swoją opinię? Wspaniale — użyj elementu menu **Prześlij pomysł** w programie Power BI Desktop lub odwiedź forum [Community Feedback](http://community.powerbi.com/t5/Community-Feedback/bd-p/community-feedback) (Opinia społeczności). Czekamy na informacje od Ciebie!
 
 ![](media/desktop-connect-to-data/sendfeedback.png)
 

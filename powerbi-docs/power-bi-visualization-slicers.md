@@ -16,103 +16,147 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 05/30/2017
-ms.author: mihart
+ms.date: 03/05/2018
+ms.author: v-thepet
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 619f694e6e3ed167a14262994c1c978d5b4ea2e0
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: cfa4c0f17c67a036b7d01744da1b5247345c493a
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
-# <a name="slicers-in-power-bi-service-tutorial"></a>Fragmentatory w usłudze Power BI (samouczek)
-Załóżmy, że wiceprezes ds. sprzedaży chce mieć wgląd w różne metryki dotyczące całego działu oraz poszczególnych menedżerów regionalnych. Można utworzyć osobną stronę raportu dla każdego menedżera lub użyć fragmentatora. Fragmentator zawęża część zestawu danych wyświetlanego w innych wizualizacjach na stronie.  Fragmentatory to alternatywny sposób filtrowania.
+# <a name="slicers-in-power-bi-tutorial"></a>Fragmentatory w usłudze Power BI (samouczek)
+Załóżmy, że wiceprezes ds. sprzedaży chce mieć wgląd w kilka metryk dotyczących całego działu oraz poszczególnych menedżerów regionalnych. Można utworzyć osobny raport dla każdego menedżera lub użyć fragmentatora. Fragmentator zawęża część zestawu danych wyświetlanego w innych wizualizacjach w raporcie. Fragmentatory to alternatywny sposób filtrowania.
 
-![](media/power-bi-visualization-slicers/slicer2.gif)
+W tym samouczku używany jest [przykład Retail Analysis](sample-retail-analysis.md), aby przeprowadzić użytkownika przez proces tworzenia i formatowania fragmentatora i używania go do filtrowania raportu. Baw się dobrze, odkrywając sposoby formatowania i korzystania z fragmentatorów. 
+
+![slicer (fragmentator)](media/power-bi-visualization-slicers/slicer2.gif)
 
 ## <a name="when-to-use-a-slicer"></a>Kiedy użyć fragmentatora
-Fragmentatory są doskonałym rozwiązaniem w następujących sytuacjach:
+Fragmentatory są doskonałym wyborem, jeśli chcesz:
 
-* Aby wyświetlić często używane lub ważne filtry na kanwie raportu w celu ułatwienia dostępu.
-* Aby ułatwić wyświetlanie bieżącego stanu przefiltrowanego bez konieczności otwierania listy rozwijanej w celu znalezienia szczegółów filtrowania.
-* Jeśli chcesz ukryć kolumny, których nie potrzebujesz, ale chcesz nadal mieć możliwość używania ich do filtrowania — dzięki temu tabele są zawężone i oczyszczone.
-* Aby utworzyć więcej raportów z możliwością koncentracji uwagi — fragmentatory są obiektami ruchomymi, więc można je umieścić obok interesujących części raportu, na których użytkownicy mają się skoncentrować.
+* Wyświetlić często używane lub ważne filtry na kanwie raportu w celu ułatwienia dostępu.
+* Ułatwić wyświetlanie bieżącego stanu przefiltrowanego bez konieczności otwierania listy rozwijanej. 
+* Filtrować według kolumn, które są niepotrzebne i ukryte w tabelach danych.
+* Utworzyć bardziej ukierunkowane raporty, ustawiając fragmentatory obok ważnych wizualizacji.
+
+Fragmentatory usługi Power BI mają następujące ograniczenia:
+
+- Fragmentatory nie obsługują pól danych wejściowych.
+- Nie można przypiąć fragmentatora do pulpitu nawigacyjnego.
+- Przechodzenie do szczegółów nie jest obsługiwane w przypadku fragmentatorów.
+- Fragmentatory nie obsługują filtrów na poziomie wizualizacji.
 
 ## <a name="create-a-slicer"></a>Tworzenie fragmentatora
+
+W tym samouczku używany jest fragmentator listy. Typy danych liczbowych i daty/godziny mogą mieć fragmentatory zakresu. Zobacz [Używanie fragmentatora zakresu liczbowego w programie Power BI Desktop](desktop-slicer-numeric-range.md) lub dostępny poniżej film wideo, aby uzyskać więcej informacji na temat tworzenia i używania fragmentatorów zakresu.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zIZPA0UrJyA" frameborder="0" allowfullscreen></iframe>
 
+1. W usłudze Power BI Desktop lub Power BI, otwórz [Przykład Retail Analysis](sample-retail-analysis.md) w [Widoku do edycji](service-interact-with-a-report-in-editing-view.md) i [dodaj nową stronę raportu](power-bi-report-add-page.md).
+2. W okienku Pola w obszarze District (Region) wybierz pozycję **District Manager** (Menedżer regionalny), aby utworzyć nową wizualizację.
+    
+    ![nowy wykres](media/power-bi-visualization-slicers/1-new-vis.png)
+    
+3. Wybierz ikonę **Fragmentator** ![ikona fragmentatora](media/power-bi-visualization-slicers/slicer-icon.png) w okienku Wizualizacje, aby przekonwertować nową wizualizację na fragmentator. 
+    
+    ![konwertowanie na fragmentator](media/power-bi-visualization-slicers/2-slicer.png)
 
-1. Otwórz pozycję [Przykład Retail Analysis](sample-retail-analysis.md) w [widoku do edycji](service-interact-with-a-report-in-editing-view.md) i [dodaj nową stronę raportu](power-bi-report-add-page.md).
-2. W okienku Pola wybierz pozycję **District > District Manager** (Region > Menedżer regionalny).
-   
-    ![](media/power-bi-visualization-slicers/pbi_slicer_chartfirst.png)
-3. Przekonwertuj wizualizację na fragmentator. W okienku Wizualizacje wybierz ikonę fragmentatora.
-   
-    ![](media/power-bi-visualization-slicers/pbi_slicer_select.png)
+Możesz również wybrać ikonę Fragmentator, aby utworzyć nowy fragmentator, a następnie wybierz lub przeciągnij pole danych, aby je wypełnić.
+
+>[!TIP]
+>Elementy listy fragmentatora można sortować według wartości danych. Aby posortować elementy fragmentatora w odwrotnej kolejności alfabetycznej, wybierz wielokropek (...) w prawym górnym rogu fragmentatora i wybierz opcję **Sort by District Manager** (Sortowanie według menedżera regionalnego). Ustawieniem domyślnym jest rosnący porządek alfabetyczny, ale z możliwością przełączenia między porządkiem rosnącym i malejącym. 
 
 ## <a name="format-the-slicer"></a>Formatowanie fragmentatora
-1. Po wybraniu fragmentatora w okienku Wizualizacje wybierz ikonę wałka do malowania ![](media/power-bi-visualization-slicers/power-bi-paintroller.png), aby wyświetlić opcje formatowania.
-2. Wybierz pozycje **Ogólne > Kolor konturu** i wybierz kolor ciemnoniebieski oraz zmień **grubość** na wartość **6**.
-   
-    ![](media/power-bi-visualization-slicers/pbi_slicer_outline2.png)
-3. W obszarze **Kontrolki wyboru** pozycja **Zaznacz wszystko** jest domyślnie **wyłączona**, a pozycja **Wybór pojedynczego elementu** jest **włączona**. Oznacza to, że trzeba użyć klawisza CTRL, aby wybrać więcej niż jedną nazwę jednocześnie. Zmień ustawienie pozycji **Zaznacz wszystko** na **Włączone**, a pozycji **Wybór pojedynczego elementu** na **Wyłączone**.
-   
-    ![](media/power-bi-visualization-slicers/pbi_slicer_selectioncontrols2.png)
-   
-   * Zauważ, że fragmentator ma teraz opcję **Zaznacz wszystko** na górze listy. Przełącz pozycję **Zaznacz wszystko**, aby zaznaczyć lub odznaczyć wszystkie nazwy.
-   * Teraz możesz wybrać więcej niż jedną nazwę bez konieczności używania klawisza CTRL.
-4. W obszarze **Elementy** zwiększ rozmiar tekstu do 14 punktów.  Robimy to, aby mieć pewność, że współpracownicy zauważą fragmentator.
-5. Na koniec ustaw **kolor czcionki** na ciemnoczerwony.  Pozwoli to odróżnić nazwy zaznaczone od niezaznaczonych we fragmentatorze.
-   
-    ![](media/power-bi-visualization-slicers/pbi_slicer_font2.png)
-6. Baw się dobrze, odkrywając inne opcje dostępne dla fragmentatorów.
+Zastosuj formatowanie wizualizacji do fragmentatora Menedżera regionalnego.
+1. Po wybraniu fragmentatora wybierz ikonę Format ![](media/power-bi-visualization-slicers/power-bi-paintroller.png) w okienku Wizualizacje, aby wyświetlić kontrolki formatowania. 
+    
+    ![formatowanie](media/power-bi-visualization-slicers/3-format.png)
+    
+2. Kliknij strzałkę listy rozwijanej obok każdej kategorii, aby wyświetlić i edytować opcje. 
 
-## <a name="use-the-slicer-in-a-report"></a>Używanie fragmentatora w raporcie
-1. Dodaj niektóre dodatkowe wizualizacje do strony raportu lub otwórz [raport przykładu Retail Analysis](sample-retail-analysis.md) i wybierz kartę **District Monthly Sales** (Miesięczna sprzedaż według regionu).
-   
-    ![](media/power-bi-visualization-slicers/power-bi-retail-sample.png)
-2. Utwórz wycinek strony raportu dla menedżera o imieniu Carlos. Zwróć uwagę, jak inne wizualizacje aktualizują się, odzwierciedlając ten wybór.
-   
-    ![](media/power-bi-visualization-slicers/slicer2.gif)
-3. Posortuj fragmentator alfabetycznie według nazwiska menedżera regionalnego.  W prawym górnym rogu fragmentatora wybierz wielokropek (...) i wybierz pozycję **District Manager** (Menedżer regionalny).
-   
-    ![](media/power-bi-visualization-slicers/pbi_slicer_sort2.png)
-   
-    ![](media/power-bi-visualization-slicers/pbi_slicer_sorted.png)
+### <a name="general-options"></a>Opcje ogólne
+1. Wybierz kolor czerwony w obszarze **Kolor konturu** i zmień ustawienie **Grubość konturu** na „2”. Powoduje to ustawienie koloru i grubości konturów lub podkreśleń nagłówka i elementu, jeśli są włączone. 
+2. W obszarze Orientacja domyślnym ustawieniem jest Pionowa, tworzące fragmentator listy poziomej, z polami wyboru przed elementami. Wybierz ustawienie **Pozioma**, aby wygenerować fragmentator z elementami ułożonymi poziomo. Orientacja pozioma może tworzyć różne rozmieszczenia tekstu, przycisków lub kafelków, w zależności od rozmiaru i kształtu fragmentatora oraz formatowania elementu. 
+    
+    ![pozioma](media/power-bi-visualization-slicers/4-horizontal.png)
+    
+3. Włącz układ **Dynamiczny**, który zmienia rozmiar i rozmieszczenie poziomych elementów fragmentatora, aby dopasować rozmiar i kształt fragmentatora. Przy bardzo małym rozmiarze fragmentator staje się ikoną filtru. 
+    
+    ![dynamiczny](media/power-bi-visualization-slicers/5-responsive.png)
+    
+    >[!NOTE]
+    >Zmiany układu dynamicznego mogą zastępować określone formatowanie nagłówka i elementów ustawione przez użytkownika. 
+    
+4. Ustaw położenie i rozmiar fragmentatora z dokładnością liczbową w **pozycji X**, **położeniu Y**, **szerokości** i **wysokości** lub przenieś i zmień rozmiar fragmentatora bezpośrednio w obszarze roboczym, aby utworzyć inne rozmiary i rozmieszczenia elementów, takich jak poziomy wiersz przycisków. 
 
-## <a name="control-what-effect-the-slicer-has-on-other-visuals-on-the-page"></a>Kontrola wpływu fragmentatora na inne elementy wizualne na stronie
-Czy chcesz, aby fragmentator filtrował tylko niektóre elementy wizualne na stronie raportu?  Użyj kontrolki **Interakcje wizualne**, aby to skonfigurować.
+    ![przyciski poziome](media/power-bi-visualization-slicers/6-buttons.png)
 
-**UWAGA**: jeśli nie widzisz pozycji **Interakcje wizualne**, poszukaj tej ikony ![](media/power-bi-visualization-slicers/power-bi-slicer-visual-interactions.png). Jeśli nie widzisz żadnego z tych elementów, upewnij się, że jesteś w [widoku raportu do edycji](service-reading-view-and-editing-view.md).
+Zobacz [Tworzenie fragmentatora dynamicznego z możliwością zmiany rozmiaru w usłudze Power BI](power-bi-slicer-filter-responsive.md), aby uzyskać więcej informacji na temat orientacji poziomej i formatowania dynamicznego.
 
-1. Wybierz fragmentator, aby go uaktywnić, a następnie z paska menu wybierz pozycję **Interakcje wizualne**.
-   
-    ![](media/power-bi-visualization-slicers/pbi-slicer-interactions.png)
-2. Kontrolki filtrowania pojawią się nad innymi wizualizacjami na stronie. Jeśli fragmentator powinien filtrować wizualizację, wybierz ikonę **Filtrowanie**.  Jeśli fragmentator nie powinien wpływać na wizualizację, wybierz ikonę **Brak**.
-   
-    ![](media/power-bi-visualization-slicers/filter-controls.png)
+### <a name="selection-controls-options"></a>Opcje wyboru kontrolek
+1. Pokazywanie elementu Zaznacz wszystko jest domyślnie wyłączone. Ustaw je na **Włącz**, aby dodać element Zaznacz wszystko do fragmentatora, który zaznacza wszystkie elementy lub usuwa ich zaznaczenie, gdy jest włączony. Kiedy wszystkie elementy są zaznaczone, kliknięcie jednego elementu usuwa jego zaznaczenie, umożliwiając zastosowanie filtru typu „nie jest”. 
+    
+    ![wybierz wszystko](media/power-bi-visualization-slicers/7-select-all.png)
+    
+2. Wybór pojedynczego elementu jest domyślnie włączony. Kliknięcie każdego elementu zaznacza go, a przytrzymanie wciśniętego klawisza CTRL podczas klikania umożliwia zaznaczenie wielu elementów. Ustaw opcję Wybór pojedynczego elementu na **Wyłączone**, aby umożliwić zaznaczanie wielu elementów bez przytrzymywania klawisza CTRL. Ponowne kliknięcie każdego elementu usuwa jego zaznaczenie. 
 
-Aby uzyskać więcej informacji, zobacz temat [Interakcje wizualizacji w raporcie Power BI](service-reports-visual-interactions.md).
+### <a name="header-options"></a>Opcje nagłówka
+Nagłówek jest domyślnie włączony, wyświetlając u góry fragmentatora nazwę pola danych. 
+1. Sformatuj tekst nagłówka, aby ustawić **Kolor czcionki** czerwony, **Rozmiar tekstu** 14 punktów i **Rodzinę czcionek** Arial Black. 
+2. W obszarze konturu wybierz pozycję **Tylko dół**, aby utworzyć podkreślenie o rozmiarze i kolorze ustawionych w obszarze Opcje ogólne. 
 
-## <a name="considerations-and-troubleshooting-slicers-in-power-bi"></a>Zagadnienia dotyczące fragmentatorów w usłudze Power BI i rozwiązywanie problemów
-Istnieją pewne ograniczenia dotyczące używania fragmentatorów w usłudze Power BI:
+### <a name="item-options"></a>Opcje elementu
+1. Sformatuj tekst i tło elementu, aby ustawić **Kolor czcionki** czarny, **Tło** jasnoczerwone, **Rozmiar tekstu** 10 punktów i **Rodzinę czcionek** Arial. 
+2. W obszarze Konspekt wybierz pozycję **Ramka**, aby narysować dookoła każdego elementu obramowanie o rozmiarze i kolorze ustawionych w obszarze Opcje ogólne. 
+    
+    ![sformatowane](media/power-bi-visualization-slicers/8-formatted.png)
+    
+    >[!TIP]
+    >- W przypadku orientacji poziomej elementy niezaznaczone są wyświetlane przy użyciu wybranych kolorów tekstu i tła, natomiast elementy zaznaczone używają systemowych ustawień domyślnych, zazwyczaj czarnego tła i białego tekstu. 
+    >- W przypadku orientacji pionowej elementy zawsze wyświetlają ustawione kolory, a pola wyboru są zawsze czarne po zaznaczeniu. 
 
-1. Fragmentatory nie obsługują pól danych wejściowych.
-2. Nie można użyć pojedynczego fragmentatora w całym raporcie. Fragmentator ma wpływ tylko na bieżącą stronę.
-3. Nie można przypiąć fragmentatora do pulpitu nawigacyjnego.
-4. Przechodzenie do szczegółów nie jest obsługiwane w przypadku fragmentatorów.    
-5. Fragmentatory nie obsługują filtrów na poziomie wizualizacji.
+### <a name="other-formatting-options"></a>Inne opcje formatowania
+Inne opcje formatowania są domyślnie wyłączone. Po **włączeniu**: 
+- **Tytuł:** dodaje i formatuje tytuł (dodatkowy i niezależny od nagłówka) w górnej części fragmentatora. 
+- **Tło:** dodaje kolor tła do ogólnego fragmentatora i ustawia jego przezroczystość.
+- **Blokuj proporcje:** zachowuje kształt fragmentatora w przypadku zmiany jego rozmiaru.
+- **Obramowanie:** dodaje 1-pikselowe obramowanie wokół fragmentatora i ustawia jego kolor. (To obramowanie fragmentatora jest oddzielne i niezależne od ustawień ogólnych konturu). 
+
+## <a name="sync-and-use-the-slicer-on-other-pages"></a>Synchronizacja i używanie fragmentatora na innych stronach
+Począwszy od aktualizacji usługi Power BI w lutym 2018, można synchronizować fragmentator i używać go na dowolnych lub wszystkich stronach w raporcie. 
+1. Z wybranym fragmentatorem menedżera regionalnego wybierz w menu Widok polecenie **Synchronizuj fragmentatory** w programie Power BI Desktop lub włącz **okienko fragmentatorów synchronizacji** w usłudze Power BI. Zostanie wyświetlone okienko Fragmentatory synchronizacji. 
+    
+    ![fragmentatory synchronizacji](media/power-bi-visualization-slicers/9-sync-slicers.png)
+    
+2. W pierwszej kolumnie wybierz pozycję **Omówienie** i inne strony, z którymi ma być synchronizowany fragmentator, lub kliknij przycisk **Dodaj do wszystkich**, aby fragmentator wykonywał synchronizację ze wszystkimi stronami raportu.  
+3. W następnej kolumnie wybierz pozycję **Omówienie** i inne strony, na których ma być widoczny fragmentator. 
+4. Przełącz się do strony **Omówienie** i zanotuj fragmentator oraz jego wpływ na elementy wizualne innej strony. 
+    - Wybierz różne elementy i usuń ich zaznaczenie i zwróć uwagę, jak inne wizualizacje na stronie odpowiednio się zmieniają. Wybór elementów na każdej stronie jest odzwierciedlany na wszystkich zsynchronizowanych stronach.
+    - Zmień rozmiar, kształt, położenie i/lub formatowanie fragmentatora na stronie Przegląd. Formatowanie fragmentatora na innych synchronizowanych stronach nie zmienia się. 
+
+### <a name="control-which-page-visuals-are-affected-by-the-slicer"></a>Kontrolowanie wizualizacji strony, na które ma wpływ fragmentator
+Domyślnie fragmentator na stronie raportu ma wpływ na wszystkie inne wizualizacje na tej stronie. Użyj opcji **Interakcje wizualne**, aby zapobiec wpływowi na niektóre wizualizacje strony.
+
+1. Na stronie **Omówienie** z wybranym fragmentatorem:
+    - W programie Power BI Desktop kliknij menu Format w obszarze Narzędzia wizualizacji, a następnie wybierz pozycję **Edytuj interakcje**.
+    - W usłudze Power BI rozwiń listę rozwijaną **Interakcje wizualne** z paska menu i włącz opcję **Edytuj interakcje**. 
+    
+    Kontrolki filtrowania pojawią się nad innymi wizualizacjami na stronie. ![kontrolki filtrowania](media/power-bi-visualization-slicers/filter-controls.png)
+    
+2. Wybierz ikonę **Brak** nad wizualizacją, aby zatrzymać jej filtrowanie przez fragmentator. Wybierz ikonę **Filtruj**, aby fragmentator zaczął ponownie filtrować wizualizację. 
+
+Aby uzyskać więcej informacji na temat edytowania interakcji, zobacz temat [Interakcje wizualizacji w raporcie Power BI](service-reports-visual-interactions.md).
+
+## <a name="next-steps"></a>Następne kroki
+[Wypróbuj bezpłatnie!](https://powerbi.com/)
 
 Masz pomysły dotyczące poprawy usługi Power BI? [Prześlij pomysł](https://ideas.powerbi.com/forums/265200-power-bi-ideas).
 
-## <a name="next-steps"></a>Następne kroki
- [Dodawanie wizualizacji do raportu](power-bi-report-add-visualizations-i.md)
+Więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
 
- [Typy wizualizacji w usłudze Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
+[Dodawanie wizualizacji do raportu](power-bi-report-add-visualizations-i.md)
 
- [Power BI — podstawowe pojęcia](service-basic-concepts.md)
+[Typy wizualizacji w usłudze Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
-[Wypróbuj bezpłatnie!](https://powerbi.com/)
-
-Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
+[Power BI — podstawowe pojęcia](service-basic-concepts.md)
 

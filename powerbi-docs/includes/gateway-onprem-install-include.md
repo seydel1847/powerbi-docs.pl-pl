@@ -17,7 +17,7 @@ Istnieje kilka kwestii, o których należy pamiętać podczas instalowania dowol
 * Bram nie można instalować na kontrolerze domeny.
 * Na jednym komputerze można zainstalować maksymalnie dwie lokalne bramy danych — jedną w trybie osobistym, a drugą w trybie standardowym. 
 * Na jednym komputerze może znajdować się tylko jedna brama uruchomiona w danym trybie.
-* Na różnych komputerach można zainstalować wiele lokalnych bram danych i zarządzać nimi z tego samego interfejsu zarządzania bramami usługi Power BI (wyjątek stanowi brama osobista, zobacz następny punkt).
+* Na różnych komputerach można zainstalować wiele lokalnych bram danych i zarządzać nimi z tego samego interfejsu zarządzania bramami usługi Power BI (wyjątek stanowi brama osobista, zobacz następny punkt)
 * Każdy użytkownik usługi Power BI może mieć uruchomioną tylko jedną bramę w trybie osobistym. Zainstalowanie kolejnej bramy w trybie osobistym dla tego samego użytkownika, nawet na innym komputerze, spowoduje zastąpienie poprzedniej instalacji najnowszą.
 
 ![On-prem-data-gateway-install-powerbi](./media/gateway-onprem-install-include/on-prem-data-gateway-install-powerbi.png)

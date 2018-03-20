@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/15/2018
+ms.date: 03/07/2018
 ms.author: maghan
-ms.openlocfilehash: 9d387208b1ace0b0f0fd700b471e07e3b2584883
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 52ff1095c063be867354a23e0e8e4908a4b4e1d7
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Często zadawane pytania dotyczące usługi Power BI Embedded
 
@@ -66,7 +66,7 @@ Usługa Power BI Embedded jest teraz dostępna.
 
 ## <a name="technical"></a>Szczegóły techniczne
 
-### <a name="what-is-the-difference-between-the-a-skus-in-azure-and-em-skus-in-office-365"></a>Jaka jest różnica między jednostkami SKU A na platformie Azure i jednostkami SKU EM w usłudze Office 365?
+### <a name="what-is-the-difference-between-the-a-skus-in-azure-and-the-em-skus-in-office-365"></a>Jaka jest różnica między jednostkami SKU A na platformie Azure i jednostkami SKU EM w usłudze Office 365?
 
 PowerBI.com to rozwiązanie dla przedsiębiorstw oferowane w modelu SaaS, które obejmuje wiele funkcji, takich jak współpraca w społeczności czy subskrypcja wiadomości e-mail.
 
@@ -128,6 +128,10 @@ W celu przypisania lub cofnięcia przypisania obszarów roboczych do pojemności
 
 Australia Południowo-Wschodnia, Brazylia Południowa, Kanada Środkowa, Wschodnie stany USA 2, Indie Zachodnie, Japonia Wschodnia, Środkowo-północne stany USA, Europa Północna, Południowo-środkowe stany USA, Azja Południowo-wschodnia, Południowe Zjednoczone Królestwo, Europa Zachodnia, Zachodnie stany USA i Zachodnie stany USA 2.
 
+### <a name="what-type-of-content-pack-data-can-be-embedded"></a>Jakiego typu dane pakietu zawartości mogą być osadzone?
+
+**Pulpitów nawigacyjnych** i **kafelków** zbudowanych na podstawie zestawów danych pakietu zawartości *nie* można osadzić, jednak **raporty** zbudowane na podstawie zestawu danych pakietu zawartości*można* osadzić.
+
 ## <a name="licensing"></a>Licencjonowanie
 
 ### <a name="how-do-i-purchase-power-bi-embedded"></a>Jak kupić usługę Power BI Embedded?
@@ -170,7 +174,7 @@ Klienci mogą zmieniać poziom użycia co godzinę. Usługa Power BI Embedded ni
 
 ### <a name="where-is-power-bi-embedded-available-us-government-germany-china-what-is-the-timing"></a>Gdzie jest dostępna usługa Power BI Embedded? Czy można z niej korzystać w instytucjach rządowych USA albo takich krajach jak Niemcy czy Chiny? Kiedy zostanie udostępniona?
 
-Usługa Power BI Embedded będzie dostępna w komercyjnych chmurach Azure na zasadach dostępności ogólnej.  Suwerenna chmura zostanie udostępniona w przyszłości.
+Usługa Power BI Embedded jest dostępna w komercyjnych chmurach Azure i w chmurze dla instytucji rządowych USA.  Dostępność suwerennych chmur dla Niemczech i Chin zostanie dodana w przyszłości.
 
 ### <a name="is-power-bi-embedded-available-for-non-profits-and-educational"></a>Czy usługa Power BI Embedded jest dostępna dla instytucji edukacyjnych i organizacji niedochodowych?
 

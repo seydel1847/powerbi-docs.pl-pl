@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: d4358be705de4908de6a9aedb0dbd78e2ef9e17f
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: ab6d935eb955dea5e2362a1cc52cf30657f4f8df
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="using-r-in-query-editor"></a>Używanie języka R w Edytorze zapytań
 W **Edytorze zapytań** programu Power BI Desktop możesz używać języka **R**, czyli języka programowania używanego powszechnie przez statystyków, naukowców i analityków danych. Dzięki integracji z językiem R **Edytor zapytań** umożliwia oczyszczanie danych przy użyciu języka R, a także zaawansowane kształtowanie i analizowanie danych w zestawach danych — na przykład uzupełnianie brakujących danych, przewidywanie i grupowanie danych. **R** to zaawansowany język, którego możesz używać w **Edytorze zapytań** do przygotowywania modelu danych i tworzenia raportów.
@@ -31,9 +31,9 @@ W **Edytorze zapytań** programu Power BI Desktop możesz używać języka **R**
 Aby korzystać z języka **R** w **Edytorze zapytań** programu Power BI Desktop, musisz zainstalować język **R** na komputerze lokalnym. Język **R** możesz pobrać i zainstalować bezpłatnie z wielu miejsc, w tym ze [strony pobierania Revolution Open](https://mran.revolutionanalytics.com/download/) i [repozytorium CRAN](https://cran.r-project.org/bin/windows/base/).
 
 ## <a name="using-r-in-query-editor"></a>Używanie języka R w Edytorze zapytań
-Aby zaprezentować sposób korzystania z języka **R** w **Edytorze zapytań**, posłużymy się przykładem zestawu danych giełdowych opartego na pliku CSV, który możesz [pobrać tutaj](http://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/EuStockMarkets_NA.csv) i w którym możesz wykonywać czynności opisane w tym temacie. Podczas pracy z tym przykładem wykonasz następujące czynności:
+Sposób korzystania z języka **R** w **Edytorze zapytań** przedstawiono na przykładzie zestawu danych giełdowych opartego na pliku CSV, który możesz [pobrać tutaj](http://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/EuStockMarkets_NA.csv) i w którym możesz wykonywać czynności opisane w tym temacie. Podczas pracy z tym przykładem wykonasz następujące czynności:
 
-1. Na początek załaduj dane do programu **Power BI Desktop**. W tym przykładzie załadujemy plik *EuStockMarkets_NA.csv*. Wybierz polecenie **Pobierz dane > CSV** na karcie **Narzędzia główne** wstążki w programie **Power BI Desktop**.
+1. Na początek załaduj dane do programu **Power BI Desktop**. Załaduj plik *EuStockMarkets_NA.csv* pochodzący z tego przykładu i wybierz polecenie **Pobierz dane > CSV** na karcie **Narzędzia główne** wstążki w programie **Power BI Desktop**.
    
    ![](media/desktop-r-in-query-editor/r-in-query-editor_1.png)
 2. Zaznacz plik i wybierz pozycję **Otwórz**. Plik CSV zostanie wyświetlony w oknie dialogowym **Plik CSV**.
@@ -48,7 +48,7 @@ Aby zaprezentować sposób korzystania z języka **R** w **Edytorze zapytań**, 
 5. Na karcie **Przekształć** wybierz pozycję **Uruchom skrypt języka R**, aby otworzyć edytor **Uruchamianie skryptu języka R** (widoczny w następnym kroku). Zwróć uwagę, że w wierszach 15 i 20 brakuje danych, podobnie jak w innych wierszach niewidocznych na ilustracji. Wykonując poniższe czynności, możesz uzupełnić dane w tych wierszach przy użyciu języka R.
    
    ![](media/desktop-r-in-query-editor/r-in-query-editor_5d.png)
-6. W tym przykładzie wprowadzimy następujący kod skryptu:
+6. W tym przykładzie wprowadź następujący kod skryptu:
    
        library(mice)
        tempData <- mice(dataset,m=1,maxit=50,meth='pmm',seed=100)
@@ -57,7 +57,7 @@ Aby zaprezentować sposób korzystania z języka **R** w **Edytorze zapytań**, 
        output$completedValues <- completedData$"SMI missing values"
    
    > [!NOTE]
-   > Aby powyższy kod skryptu działał prawidłowo, wymagane jest zainstalowanie biblioteki *mice* w środowisku języka R. Aby zainstalować bibliotekę mice, w instalacji języka R uruchom następujące polecenie |      > install.packages('mice')
+   > Aby powyższy kod skryptu działał prawidłowo, wymagane jest zainstalowanie biblioteki *mice* w środowisku języka R. Aby zainstalować bibliotekę mice, w instalacji języka R uruchom następujące polecenie: |      > install.packages('mice')
    > 
    > 
    
@@ -71,13 +71,13 @@ Aby zaprezentować sposób korzystania z języka **R** w **Edytorze zapytań**, 
    
    ![](media/desktop-r-in-query-editor/r-in-query-editor_7.png)
    
-   Następnie na liście **Pola** zostanie wyświetlona nowa kolumna o nazwie *completedValues* (Uzupełnione wartości). Zwróć uwagę na brakujące elementy danych, na przykład w wierszach 15 i 18. W następnej sekcji zobaczymy, jak język R sobie z nimi poradzi.
+   W okienku **Pola** zostanie wyświetlona nowa kolumna o nazwie *completedValues* (Uzupełnione wartości). Zwróć uwagę na brakujące elementy danych, na przykład w wierszach 15 i 18. W następnej sekcji przedstawiono, jak język R sobie z nimi radzi.
    
 
 Wystarczy pięć wierszy skryptu języka R, aby **Edytor zapytań** uzupełnił brakujące wartości przy użyciu modelu predykcyjnego.
 
 ## <a name="creating-visuals-from-r-script-data"></a>Tworzenie wizualizacji na podstawie danych skryptu języka R
-Teraz można utworzyć wizualizację, aby zobaczyć, w jaki sposób skrypt języka R korzystający z biblioteki *mice* uzupełnił brakujące wartości, co pokazano na poniższej ilustracji.
+Teraz można utworzyć wizualizację, aby zobaczyć, w jaki sposób skrypt języka R korzystający z biblioteki *mice* uzupełnił brakujące wartości, co pokazano na poniższej ilustracji:
 
 ![](media/desktop-r-in-query-editor/r-in-query-editor_8a.png)
 
