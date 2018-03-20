@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/05/2018
+ms.date: 03/07/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 4e8c4def5defc32ef7ba6414c3d76ac778564b66
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 3697928986c5e579407e227911c5beab71c6a08d
+ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="directquery-and-sap-business-warehouse-bw"></a>Zapytanie bezpośrednie i system SAP Business Warehouse (BW)
 Dzięki **zapytaniu bezpośredniemu** można połączyć się bezpośrednio ze źródłami danych systemu **SAP Business Warehouse (BW)**. Ponieważ system SAP BW jest źródłem danych OLAP (wielowymiarowym), korzystanie z zapytania bezpośredniego dla źródeł danych SAP BW różni się istotnie od korzystania z niego dla źródeł relacyjnych, takich jak program SQL Server. Te różnice można podsumować w następujący sposób:
@@ -32,6 +32,9 @@ Dzięki **zapytaniu bezpośredniemu** można połączyć się bezpośrednio ze �
 * Ze względu na unikatowy charakter źródeł danych OLAP, oprócz normalnych ograniczeń dotyczących zapytań bezpośrednich, istnieją dodatkowe ograniczenia (zarówno w przypadku modelowania, jak i wizualizacji). Ograniczenia te zostały opisane w dalszej części tego artykułu.
 
 Ponadto *bardzo ważna* jest świadomość, że wiele funkcji systemu SAP BW nie jest obsługiwanych w usłudze Power BI, i że cechy publicznego interfejsu systemu SAP BW powodują, że w pewnych istotnych przypadkach wyniki widoczne w usłudze Power BI nie będą zgodne z tymi wyświetlanymi podczas korzystania z narzędzia SAP. Te ograniczenia są opisane w dalszej części tego artykułu. Należy zapoznać się dokładnie z tymi ograniczeniami i różnicami w działaniu, aby mieć pewność, że wyniki widoczne w usłudze Power BI, zwrócone przez interfejs publiczny SAP, będą interpretowane prawidłowo.  
+
+> [!NOTE]
+> Możliwość używania zapytania bezpośredniego za pośrednictwem programu SAP BW była w wersji zapoznawczej do czasu wydania aktualizacji programu Power BI Desktop w marcu 2018 r. W wersji zapoznawczej opinie i sugerowane ulepszenia wywoływały zmianę, która miała wpływ na raporty utworzone za pomocą tej wersji zapoznawczej. Teraz, gdy zapytania bezpośrednie za pośrednictwem programu SAP BW stały się ogólnie dostępne (wersja GA), *konieczne jest* usunięcie wszystkich istniejących (opartych na wersji zapoznawczej) raportów korzystających z zapytań bezpośrednich za pośrednictwem programu SAP BW, które zostały utworzone w wersji wcześniejszej niż GA. W raportach utworzonych przy użyciu zapytań bezpośrednich za pośrednictwem programu SAP BW w wersji wcześniejszej niż GA będą występowały błędy podczas odświeżania, ponieważ nastąpi próba odświeżenia metadanych ze zmienionym bazowym modułem programu SAP BW. Należy ponownie utworzyć te raporty, bazując na pustym raporcie, przy użyciu zapytań bezpośrednich za pośrednictwem programu SAP BW w wersji ogólnie dostępnej (GA). 
 
 ## <a name="additional-modelling-restrictions"></a>Dodatkowe ograniczenia modelowania
 Najważniejsze dodatkowe ograniczenia dotyczące modelowania w przypadku nawiązywania połączenia z systemem SAP BW przy użyciu zapytania bezpośredniego w usłudze Power BI są następujące:

@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 03/09/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3630d876f3e32cbe981d7fb5bcc38d9da1a257f2
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 2f395a5030cb2e025b8b69fa9b5375f471dea452
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Źródła danych obsługiwane przez zapytanie bezpośrednie w usłudze Power BI
 Program **Power BI Desktop** i **usługa Power BI** mają wiele źródeł danych, z którymi można się łączyć, aby uzyskać dostęp do danych. W tym artykule opisano, jakie źródła danych usługi Power BI obsługują metodę połączenia nazywaną **zapytaniem bezpośrednim**. Aby uzyskać więcej informacji na temat zapytania bezpośredniego, zobacz [**Zapytanie bezpośrednie w usłudze Power BI**](desktop-directquery-about.md).
@@ -37,7 +37,8 @@ Następujące źródła danych obsługują zapytanie bezpośrednie w usłudze Po
 * IBM Netezza (wersja beta)
 * Impala (wersja 2.x)
 * Oracle Database (wersja 12 i nowsze)
-* SAP Business Warehouse (wersja beta)
+* SAP Business Warehouse Application Server
+* SAP Business Warehouse Message Server (wersja beta)
 * SAP HANA
 * Snowflake
 * Spark (wersja beta) (wersja 0.9 i nowsze)
@@ -62,11 +63,14 @@ W poniższej tabeli określono, czy **lokalna brama danych** jest wymagana do ł
 | Teradata Database |Tak |
 | Amazon Redshift |Nie |
 | Impala (wersja 2.x) |Tak |
-| Snowflake (wersja zapoznawcza) |Jeszcze nie jest obsługiwana w **usłudze Power BI** |
+| Snowflake |Tak |
 | Spark (wersja beta), wersja 0.9 i nowsze |Jeszcze nie jest obsługiwana w **usłudze Power BI** |
-| Azure HDInsight Spark (wersja beta) |Jeszcze nie jest obsługiwana w **usłudze Power BI** |
-| IBM Netezza (wersja beta) |Jeszcze nie jest obsługiwana w **usłudze Power BI** |
-| SAP Buisness Warehouse (wersja beta) |Jeszcze nie jest obsługiwana w **usłudze Power BI** |
+| Azure HDInsight Spark (wersja beta) |Nie |
+| IBM Netezza |Tak |
+| SAP Buisness Warehouse Application Server |Tak |
+| SAP Buisness Warehouse Message Server |Jeszcze nie jest obsługiwana w **usłudze Power BI** |
+| Google BigQuery |Nie |
+
 
 ## <a name="next-steps"></a>Następne kroki
 Aby uzyskać więcej informacji na temat zapytania bezpośredniego, zapoznaj się z następującymi zasobami:

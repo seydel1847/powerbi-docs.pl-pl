@@ -1,5 +1,5 @@
 ---
-title: "Korzystanie z zakładek w usłudze Power BI (wersja zapoznawcza)"
+title: "Korzystanie z zakładek w usłudze Power BI"
 description: "Zakładki w programie Power BI Desktop umożliwiają zapisywanie widoków i ustawień w raportach oraz tworzenie prezentacji przypominających historie"
 services: powerbi
 documentationcenter: 
@@ -15,16 +15,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 3a56983f48d80cf39b89958db4327e3632ee733e
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 706662e9fd7c6bd41015b286a7b7f1025e40a15e
+ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
-# <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi-preview"></a>Używanie zakładek w celu udostępniania szczegółowych informacji i tworzenia historii w usłudze Power BI (wersja zapoznawcza)
+# <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Używanie zakładek w celu udostępniania szczegółowych informacji i tworzenia historii w usłudze Power BI 
 Przy użyciu **zakładek** w usłudze Power BI możesz przechwycić obecnie skonfigurowany widok strony raportu, wraz z filtrowaniem stanu wizualizacji, aby później powrócić do tego stanu poprzez wybranie zapisanej zakładki. 
 
 Możesz też utworzyć kolekcję zakładek, uporządkować je w żądanej kolejności, a następnie przejść przez każdą zakładkę w prezentacji, aby podkreślić serię szczegółowych informacji lub historię, którą chcesz opowiedzieć przy użyciu wizualizacji i raportów. 
@@ -33,12 +33,14 @@ Możesz też utworzyć kolekcję zakładek, uporządkować je w żądanej kolejn
 
 Istnieje wiele zastosowań zakładek. Możesz użyć ich do śledzenia własnych postępów w tworzeniu raportów (zakładki można łatwo dodawać i usuwać oraz zmieniać ich nazwy) lub utworzyć zakładki w celu opracowania prezentacji w stylu programu PowerPoint, która przechodzi przez zakładki w kolejności, opowiadając historię raportu. Mogą też istnieć inne zastosowania zależne od tego, jak chcesz wykorzystać zakładki.
 
-### <a name="enable-the-bookmarks-preview"></a>Włączanie zakładek — wersja zapoznawcza
-Możesz wypróbować nową funkcję **zakładek**, począwszy od programu **Power BI Desktop** w wersji **z października 2017 r.**, oraz w przypadku raportów obsługujących zakładki w usłudze **Power BI**. Aby włączyć tę funkcję w wersji zapoznawczej, wybierz pozycję **Plik > Opcje i ustawienia > Opcje > Funkcje wersji zapoznawczej**, a następnie zaznacz pole wyboru obok pozycji **Zakładki**. Po zaznaczeniu należy uruchomić ponownie program Power BI Desktop.
+### <a name="enable-the-bookmarks-preview-versions-prior-to-march-2018"></a>Włączanie podglądu zakładek (wersje wydane przed marcem 2018 r.)
+Począwszy od programu Power BI Desktop w wersji z marca 2018 r., zakładki stały się ogólnie dostępne. 
+
+Zawsze sugerujemy uaktualnienie do najnowszej wersji. Jednak jeśli Twoja wersja programu Power BI Desktop została wydana wcześniej, możesz wypróbować nową funkcję **zakładek**, począwszy od programu **Power BI Desktop** w wersji **z października 2017 r.**, oraz w przypadku raportów obsługujących zakładki w usłudze **Power BI**. Aby włączyć tę funkcję w wersji zapoznawczej, wybierz pozycję **Plik > Opcje i ustawienia > Opcje > Funkcje wersji zapoznawczej**, a następnie zaznacz pole wyboru obok pozycji **Zakładki**. 
 
 ![Włączanie zakładek w oknie Opcje](media/desktop-bookmarks/bookmarks_02.png)
 
-Po zaznaczeniu należy uruchomić ponownie program **Power BI Desktop**.
+Aby włączyć wersję zapoznawczą zakładek, po dokonaniu wyboru musisz ponownie uruchomić program **Power BI Desktop**.
 
 ## <a name="using-bookmarks"></a>Korzystanie z zakładek
 Aby użyć zakładek, wybierz wstążkę **Widok**, a następnie zaznacz pole opcji **Okienko zakładek**. 
@@ -147,14 +149,13 @@ W **usłudze Power BI** **okienko zakładek** działa tak samo jak w programie *
 Pamiętaj, że należy użyć szarego paska tytułowego zakładki, aby nawigować wśród zakładek, zamiast czarnych strzałek (czarne strzałki powodują przechodzenie między stronami raportu, a nie zakładkami).
 
 ## <a name="limitations-and-considerations"></a>Ograniczenia i istotne zagadnienia
-W tej wersji zapoznawczej funkcji **zakładek** występują pewne ograniczenia i zagadnienia, które trzeba mieć na uwadze.
+W tej wersji funkcji **zakładek** występują pewne ograniczenia i zagadnienia, które trzeba mieć na uwadze.
 
 * Niestandardowe wizualizacje nie działają z zakładkami, jeśli są *źródłem* filtru. Jeśli używasz niestandardowych wizualizacji do filtrowania elementów na stronie (na przykład fragmentatora chiclet) i powracasz do tej strony przy użyciu zakładki, strona może zostać odfiltrowana, wizualizacja nie zostanie zaktualizowana, aby pokazać, jak strona jest filtrowana. 
 * Stan wyróżniania między elementami w okienku raportu *nie* jest zapisywany, gdy tworzysz zakładkę. 
 * Jeśli dodasz wizualizację na stronie raportu po utworzeniu zakładki, wizualizacja zostanie wyświetlona w stanie domyślnym. Oznacza to również, że w przypadku wprowadzenia fragmentatora do strony, w której poprzednio utworzono zakładki, fragmentator będzie zachowywać się zgodnie ze stanem domyślnym.
 * Przenoszenie wizualizacji po utworzeniu zakładki zostanie odzwierciedlone w zakładce. 
 * *Musisz* mieć co najmniej jedną zakładkę w raporcie podczas publikowania go w **usłudze Power BI**, aby zakładki były dostępne w usłudze. Jest to wymaganie dotyczące każdego publikowanego raportu.
-* Ponieważ zakładki są obecnie funkcją w wersji zapoznawczej, nie są jeszcze dostępne w programie [**Power BI Desktop dla serwera raportów**](report-server/quickstart-create-powerbi-report.md).
 
 ## <a name="next-steps"></a>Następne kroki
 Aby uzyskać więcej informacji o podobnych funkcjach lub interakcji z zakładkami, sprawdź następujące artykuły:

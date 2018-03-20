@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 06ed973b3b16f5ac8ed8bef484d48af994a4e5f2
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 7a523284bd777d87b7ac42ba7e9ff82ee7bdf623
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="power-bi-gateway---personal"></a>Power BI Gateway — Personal
 > [!NOTE]
@@ -90,7 +90,7 @@ Przyjrzyjmy się bliżej poszczególnym etapom.
 
 ### <a name="download-and-install-a-gateway"></a>Pobieranie i instalowanie bramy
 > [!NOTE]
-> Istnieje nowa wersja bramy osobistej dla usługi Power BI nazywana **lokalną bramą danych (tryb osobisty)**. W tym artykule opisano poprzednią wersję bramy osobistej o nazwie **Power BI Gateway — Personal**, która zostanie wycofana i przestanie działać po 31 lipca 2017 r. Aby uzyskać informacje na temat nowej wersji bramy osobistej, między innymi sposobu instalowania nowej wersji, zobacz artykuł [**Lokalna brama danych (tryb osobisty)**](service-gateway-personal-mode.md).
+> Jest dostępna nowa wersja bramy osobistej dla usługi Power BI o nazwie **lokalna brama danych (tryb osobisty)**. W tym artykule opisano poprzednią wersję bramy osobistej o nazwie **Power BI Gateway — Personal**, która zostanie wycofana i przestanie działać po 31 lipca 2017 r. Aby uzyskać informacje na temat nowej wersji bramy osobistej, między innymi sposobu instalowania nowej wersji, zobacz artykuł [**Lokalna brama danych (tryb osobisty)**](service-gateway-personal-mode.md).
 > 
 > 
 

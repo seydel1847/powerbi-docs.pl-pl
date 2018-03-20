@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6308b2e201b669bf17ee636677232b365d62e332
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 4126a5f4fc7b8a398d39cad7c14e87e179ab3175
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="connect-to-an-oracle-database"></a>Łączenie się z bazą danych Oracle
 Aby można było nawiązać połączenie z bazą danych Oracle przy użyciu programu **Power BI Desktop**, na komputerze z działającym programem Power BI Desktop musi być zainstalowane poprawne oprogramowanie klienckie Oracle. Oprogramowanie klienckie Oracle, którego używasz, zależy od zainstalowanej wersji programu Power BI Desktop — wersji **32-bitowej** lub **64-bitowej**.
@@ -30,7 +30,7 @@ Aby można było nawiązać połączenie z bazą danych Oracle przy użyciu prog
 **Obsługiwane wersje**: program Oracle 9 lub nowszy, oprogramowanie klienckie Oracle 8.1.7 lub nowsze.
 
 ## <a name="determining-which-version-of-power-bi-desktop-is-installed"></a>Określanie, jaka wersja programu Power BI Desktop jest zainstalowana
-Aby określić, która wersja programu Power BI Desktop jest zainstalowana, wybierz kolejno pozycje **Plik > Informacje**, a następnie sprawdź wiersz **Wersja:**. Na poniższym obrazie widać, że jest zainstalowana wersja 64-bitowa programu Power BI Desktop:
+Aby określić, która wersja programu Power BI Desktop jest zainstalowana, wybierz kolejno pozycje **Plik > Pomoc > Informacje**, a następnie sprawdź wiersz **Wersja:**. Na poniższym obrazie widać, że jest zainstalowana wersja 64-bitowa programu Power BI Desktop:
 
 ![](media/desktop-connect-oracle-database/connect-oracle-database_1.png)
 
@@ -44,7 +44,7 @@ W przypadku **64-bitowych** wersji programu Power BI Desktop użyj następujące
 * [64-bitowa wersja programu ODAC 12c w wersji 4 (12.1.0.2.4) dla systemu Windows x64](http://www.oracle.com/technetwork/database/windows/downloads/index-090165.html)
 
 ## <a name="connect-to-an-oracle-database"></a>Łączenie się z bazą danych Oracle
-Po zainstalowaniu odpowiedniego sterownika klienta Oracle możesz połączyć się z bazą danych Oracle. Wykonaj następujące kroki, aby nawiązać połączenie.
+Po zainstalowaniu odpowiedniego sterownika klienta Oracle możesz połączyć się z bazą danych Oracle. Aby nawiązać połączenie, wykonaj następujące kroki:
 
 1. W oknie Pobieranie danych wybierz pozycję **Baza danych > Baza danych programu Oracle**
    

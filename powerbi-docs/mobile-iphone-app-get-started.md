@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/25/2018
 ms.author: maggies
-ms.openlocfilehash: e824c1e582b8ed3cf0953b59b790e90271a6d38c
-ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
+ms.openlocfilehash: 9a2f381ea97fb62d85841cbfcace8352007dd60b
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/29/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-an-iphone-or-ipod-touch"></a>Wprowadzenie do aplikacji mobilnej Power BI na telefonie iPhone lub urządzeniu iPod Touch
 Aplikacja Microsoft Power BI dla systemu iOS na telefonie iPhone lub urządzeniu iPod Touch obejmuje mobilne środowisko usługi Power BI, serwer raportów usługi Power BI oraz usługi Reporting Services. Możesz wyświetlać firmowe pulpity nawigacyjne i korzystać z nich lokalnie i w chmurze, niezależnie od tego, gdzie się znajdujesz, dzięki dostępowi mobilnemu na żywo, z obsługą dotykową. Przeglądaj dane w pulpitach nawigacyjnych i udostępniaj je współpracownikom w wiadomościach e-mail lub SMS. I zapewnij aktualność najświeższych danych w Twoim urządzeniu [Apple Watch](mobile-apple-watch.md).  
@@ -140,4 +140,5 @@ Poniżej wymieniono inne możliwości korzystania z pulpitów nawigacyjnych i ra
 ### <a name="see-also"></a>Zobacz także
 * [Wprowadzenie do usługi Power BI](service-get-started.md)
 * Masz pytania? [Zadaj pytanie społeczności usługi Power BI](http://community.powerbi.com/)
+
 

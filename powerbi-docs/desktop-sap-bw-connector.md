@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0863b41ecc0f7053ae0d958d25c756c8597880ae
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 0486cb7887ae068b55de94a3d842843c094c8a29
+ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>Używanie łącznika systemu SAP BW w programie Power BI Desktop
 Program Power BI Desktop umożliwia dostęp do danych systemu **SAP BusinessWarehouse (BW)**.
@@ -33,12 +33,16 @@ Aby używać łącznika systemu **SAP BW**, wykonaj następujące kroki instalac
 1. Zainstaluj bibliotekę **SAP NetWeaver** na komputerze lokalnym. Bibliotekę **SAP NetWeaver** możesz uzyskać od administratora SAP lub bezpośrednio z witryny [SAP Software Download Center](https://support.sap.com/swdc) (Centrum pobierania oprogramowania SAP). Ponieważ struktura witryny **SAP Software Download Center** (Centrum pobierania oprogramowania SAP) jest często zmieniana, dokładniejsze wskazówki dotyczące nawigowania w tej witrynie są niedostępne. Biblioteka **SAP NetWeaver** zwykle jest również składnikiem instalacji narzędzi klienckich SAP.
    
    Aby uzyskać informacje na temat lokalizacji pobierania najnowszej wersji, możesz wyszukać dokument *SAP Note #1025361*. Upewnij się, że architektura biblioteki **SAP NetWeaver** (32-bitowa lub 64-bitowa) jest zgodna z architekturą zainstalowanego programu **Power BI Desktop**, a następnie zainstaluj wszystkie pliki zawarte w **zestawie SDK SAP NetWeaver RFC** zgodnie z dokumentem SAP Note.
-2. W oknie dialogowym **Pobieranie danych** znajduje się wpis **SAP Business Warehouse Server** w kategorii **Baza danych**.
+2. W oknie dialogowym **Pobieranie danych** znajdują się wpisy **SAP Business Warehouse Application Server** i **SAP Business Warehouse Message Server** w kategorii **Baza danych**.
    
    ![](media/desktop-sap-bw-connector/sap_bw_2a.png)
 
 ## <a name="sap-bw-connector-features"></a>Funkcje łącznika systemu SAP BW
-Wersja zapoznawcza **łącznika systemu SAP BW** w programie Power BI Desktop umożliwia użytkownikom importowanie danych z modułów **SAP Business Warehouse Server**. Razem z **łącznikiem systemu SAP BW** możesz również używać zapytań bezpośrednich. Aby nawiązać połączenie, musisz określić *Serwer*, *Numer systemu* i *Identyfikator klienta*.
+**Łączniki systemu SAP BW** w programie Power BI Desktop umożliwiają importowanie danych z modułów **SAP Business Warehouse Server**. **Łącznik systemu SAP BW** obsługuje też zapytanie bezpośrednie. 
+
+Aby dowiedzieć się więcej o **łączniku systemu SAP BW** oraz sposobu jego używania z zapytaniem bezpośrednim, zobacz artykuł [Zapytanie bezpośrednie i system SAP Business Warehouse (BW)](desktop-directquery-sap-bw.md).
+
+Aby nawiązać połączenie, musisz określić *Serwer*, *Numer systemu* i *Identyfikator klienta*.
 
 ![](media/desktop-sap-bw-connector/sap_bw_3a.png)
 
@@ -105,3 +109,9 @@ W tej sekcji omówiono sytuacje problemowe (i ich rozwiązania) dotyczące pracy
    
    ![](media/desktop-sap-bw-connector/sap_bw_8.png)
 
+## <a name="next-steps"></a>Następne kroki
+Aby uzyskać więcej informacji na temat platformy SAP HANA i zapytania bezpośredniego, zapoznaj się z następującymi zasobami:
+
+* [Zapytanie bezpośrednie i platforma SAP HANA](desktop-directquery-sap-hana.md)
+* [Zapytanie bezpośrednie w usłudze Power BI](desktop-directquery-about.md)
+* [Źródła danych obsługiwane przez zapytanie bezpośrednie](desktop-directquery-data-sources.md)

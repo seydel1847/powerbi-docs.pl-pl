@@ -1,6 +1,6 @@
 ---
-title: "Jak migrować zawartość kolekcji obszarów roboczych usługi Power BI Embedded do usługi Power BI"
-description: "Dowiedz się, jak przeprowadzić migrację z usługi Power BI Embedded do usługi Power BI i uzyskać korzyści związane z osadzaniem zawartości w aplikacjach."
+title: "Jak migrować zawartość kolekcji obszarów roboczych usługi Power BI do usługi Power BI"
+description: "Dowiedz się, jak przeprowadzić migrację z kolekcji obszarów roboczych usługi Power BI do usługi Power BI Embedded i uzyskać korzyści związane z osadzaniem zawartości w aplikacjach."
 services: powerbi
 documentationcenter: 
 author: markingmyname
@@ -10,37 +10,37 @@ editor:
 tags: 
 qualityfocus: no
 qualitydate: 
-ms.service: powerbi
+ms.Embedded: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/24/2018
+ms.date: 03/06/2018
 ms.author: maghan
-ms.openlocfilehash: 59d395d11839903108f811ff4a6022ea04cadc8f
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: c8ad315976dd1ca47d6b4dc2fd9a191a11e044c7
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/08/2018
 ---
-# <a name="how-to-migrate-power-bi-embedded-workspace-collection-content-to-power-bi"></a>Jak migrować zawartość kolekcji obszarów roboczych usługi Power BI Embedded do usługi Power BI
-Dowiedz się, jak przeprowadzić migrację z usługi Power BI Embedded do usługi Power BI i uzyskać korzyści związane z osadzaniem zawartości w aplikacjach.
+# <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Jak migrować zawartość kolekcji obszarów roboczych usługi Power BI do usługi Power BI Embedded
+Dowiedz się, jak przeprowadzić migrację z kolekcji obszarów roboczych usługi Power BI do usługi Power BI Embedded i uzyskać korzyści związane z osadzaniem zawartości w aplikacjach.
 
-Firma Microsoft niedawno [ogłosiła udostępnienie usługi Power BI Premium](https://powerbi.microsoft.com/blog/microsoft-accelerates-modern-bi-adoption-with-power-bi-premium/), czyli nowego modelu licencjonowania opartego na pojemnościach, zwiększającego elastyczność uzyskiwania dostępu do zawartości, jej udostępniania i dystrybuowania przez użytkowników. Ta oferta zwiększa również wydajność i skalowalność usługi Power BI.
+Firma Microsoft niedawno [ogłosiła udostępnienie usługi Power BI Embedded](https://powerbi.microsoft.com/en-us/blog/power-bi-embedded-capacity-based-skus-coming-to-azure/), czyli nowego modelu licencjonowania opartego na pojemnościach, zwiększającego elastyczność uzyskiwania dostępu do zawartości, jej udostępniania i dystrybuowania przez użytkowników. Ta oferta zwiększa również wydajność i skalowalność.
 
-W związku z wprowadzeniem usługi Power BI Premium usługi Power BI Embedded i Power BI łączą się, oferując bardziej zaawansowany sposób osadzania zawartości usługi Power BI w aplikacjach. Oznacza to wspólne środowisko interfejsów API, spójny zestaw funkcji oraz dostęp do najnowszych elementów usługi Power BI — takich jak pulpity nawigacyjne, bramy i obszary robocze aplikacji — podczas osadzania zawartości. Od teraz będzie można rozpocząć pracę z programem Power BI Desktop, a następnie przejść do wdrożenia przy użyciu usługi Power BI Premium, która zostanie ogólnie udostępniona w drugim kwartale 2017 r.
+Korzystanie z usługi Power BI Embedded oznacza wspólne środowisko interfejsów API, spójny zestaw funkcji oraz dostęp do najnowszych elementów usługi Power BI — takich jak pulpity nawigacyjne, bramy i obszary robocze aplikacji — podczas osadzania zawartości. Od teraz będzie można rozpocząć pracę z programem Power BI Desktop, a następnie przejść do wdrożenia przy użyciu usługi Power BI Embedded.
 
-Usługa Power BI Embedded w bieżącej formie będzie dostępna przez ograniczony czas po ogólnym udostępnieniu oferty połączonej: klienci objęci umową Enterprise Agreement będą mieli do niej dostęp do czasu wygaśnięcia aktualnych umów; klienci, którzy uzyskali usługę Power BI Embedded bezpośrednio lub za pośrednictwem partnera CSP, zachowają dostęp przez rok od daty ogólnej dostępności usługi Power BI Premium.  W tym artykule przedstawiono wskazówki dotyczące migracji z usługi na platformie Azure do usługi Power BI oraz zmian, których można spodziewać się w aplikacji.
+Bieżąca kolekcja obszarów roboczych usługi Power BI będzie nadal dostępna przez ograniczony czas. Klienci objęci umową Enterprise Agreement będą mieli do niej dostęp do czasu wygaśnięcia aktualnych umów; klienci, którzy uzyskali kolekcję obszarów roboczych usługi Power BI Embedded bezpośrednio lub za pośrednictwem partnera CSP, zachowają dostęp przez rok od daty ogólnej dostępności usługi Power BI Embedded.  W tym artykule przedstawiono wskazówki dotyczące migracji z kolekcji obszarów roboczych usługi Power BI do nowego środowiska Power BI Embedded oraz zmian, których można spodziewać się w aplikacji.
 
 > [!IMPORTANT]
-> Mimo że podczas migracji używana jest zależność od usługi Power BI, zależność taka nie będzie dotyczyła użytkowników aplikacji osadzonej przy użyciu **tokenu osadzania**. Nie będą oni musieli tworzyć konta w usłudze Power BI w celu wyświetlenia zawartości osadzonej w aplikacji. Tej metody osadzania można użyć w celu obsługi użytkowników niekorzystających z usługi Power BI.
+> Mimo że podczas migracji używana jest zależność od usługi Power BI Embedded, zależność taka nie będzie dotyczyła użytkowników aplikacji osadzonej przy użyciu **tokenu osadzania**. Nie będą oni musieli tworzyć konta w usłudze Power BI w celu wyświetlenia zawartości osadzonej w aplikacji. Tej metody osadzania można użyć w celu obsługi użytkowników osadzonych niekorzystających z usługi Power BI.
 > 
 > 
 
 ![](media/migrate-from-powerbi-embedded/powerbi-embed-flow.png)
 
 ## <a name="prepare-for-the-migration"></a>Przygotowanie do migracji
-W ramach przygotowania do migracji z usługi Power BI Embedded na platformie Azure do usługi Power BI należy wykonać kilka czynności. Potrzebna jest dostępna dzierżawa oraz licencja użytkownika usługi Power BI Pro.
+W ramach przygotowania do migracji z kolekcji obszarów roboczych usługi Power BI do usługi Power BI Embedded należy wykonać kilka czynności. Potrzebna jest dostępna dzierżawa oraz licencja użytkownika usługi Power BI Pro.
 
 1. Upewnij się, że masz dostęp do dzierżawy usługi Azure Active Directory (Azure AD).
    
@@ -67,7 +67,7 @@ W dzierżawie muszą istnieć następujące konta.
 2. Konta analityków tworzących zawartość.
    
     Ci użytkownicy powinni być przypisani do obszarów roboczych aplikacji stosownie do potrzeb.
-3. *Główne* konto użytkownika lub konto usługi dla aplikacji.
+3. *Główne* konto użytkownika lub konto osadzone.
    
     Poświadczenia tego konta będą przechowywane w zapleczu aplikacji i używane w celu uzyskania tokenu usługi Azure AD do użycia z interfejsami API REST usługi Power BI. To konto będzie używane w celu wygenerowania tokenu osadzania dla aplikacji. To konto musi być też administratorem obszarów roboczych aplikacji tworzonych na potrzeby osadzania.
    
@@ -100,16 +100,16 @@ Utworzenie obszaru roboczego aplikacji w usłudze Power BI wymaga użytkownika z
 > 
 
 ## <a name="content-migration"></a>Migracja zawartości
-Migrację zawartości z kolekcji obszarów roboczych do usługi Power BI można przeprowadzić równolegle z korzystaniem z bieżącego rozwiązania, bez konieczności przerywania działania.
+Migrację zawartości z kolekcji obszarów roboczych do usługi Power BI Embedded można przeprowadzić równolegle z korzystaniem z bieżącego rozwiązania, bez konieczności przerywania działania.
 
-Możesz użyć **narzędzia do migracji**, ułatwiającego kopiowanie zawartości z usługi Power BI Embedded do usługi Power BI. Jest to przydatne zwłaszcza wówczas, gdy masz dużo zawartości. Aby uzyskać więcej informacji, zobacz [Narzędzie do migracji usługi Power BI Embedded](migrate-tool.md).
+Możesz użyć **narzędzia do migracji**, ułatwiającego kopiowanie zawartości z usługi Power BI Embedded do usługi Power BI Embedded. Jest to przydatne zwłaszcza wówczas, gdy masz dużo zawartości. Aby uzyskać więcej informacji, zobacz [Narzędzie do migracji usługi Power BI Embedded](migrate-tool.md).
 
 Migracja zawartości opiera się przede wszystkim na dwóch interfejsach API.
 
 1. Interfejs API „Download PBIX” pobiera pliki PBIX przekazane do usługi Power BI od października 2016 r.
 2. Interfejs API „Import PBIX” przekazuje wszelkie pliki PBIX do usługi Power BI.
 
-Aby skorzystać z fragmentów kodu związanych z tym procesem, zobacz [Fragmenty kodu umożliwiające migrację zawartości z usługi Power BI Embedded](migrate-code-snippets.md).
+Aby skorzystać z fragmentów kodu związanych z tym procesem, zobacz [Fragmenty kodu umożliwiające migrację zawartości z kolekcji obszarów roboczych usługi Power BI](migrate-code-snippets.md).
 
 ### <a name="report-types"></a>Typy raportów
 Istnieje kilka typów raportów, a każdy wymaga nieco innej procedury migracji.
@@ -130,7 +130,7 @@ Buforowane zestawy danych to pliki PBIX zawierające zaimportowane dane, a nie p
 2. Wywołaj interfejs API pobierania pliku PBIX z obszaru roboczego w usłudze PaaS.
 3. Zapisz plik PBIX.
 4. Wywołaj importowanie pliku do obszaru roboczego w usłudze SaaS.
-5. Zaktualizuj parametry połączenia, wywołując polecenie POST  https://api.powerbi.com/v1.0/myorg/datasets/{identyfikator_zestawu_danych}/Default.SetAllConnections
+5. Zaktualizuj parametry połączenia, wywołując polecenie POST https://api.powerbi.com/v1.0/myorg/datasets/{identyfikator_zestawu_danych}/Default.SetAllConnections
 6. Pobierz identyfikator bramy i identyfikator źródła danych, wywołując polecenie GET https://api.powerbi.com/v1.0/myorg/datasets/{identyfikator_zestawu_danych}/Default.GetBoundGatewayDataSources
 7. Zaktualizuj poświadczenia użytkownika, wywołując polecenie PATCH https://api.powerbi.com/v1.0/myorg/gateways/{identyfikator_bramy}/datasources/{identyfikator_źródła_danych}
 
@@ -160,7 +160,7 @@ Można użyć obejścia w celu przeprowadzenia migracji raportu interfejsu API w
 6. Ponownie powiąż raport z zestawem danych interfejsu API wypychania.
 
 ## <a name="create-and-upload-new-reports"></a>Tworzenie i przekazywanie nowych raportów
-Oprócz zawartości migrowanej z usługi Power BI Embedded platformy Azure można również tworzyć raporty i zestawy danych przy użyciu programu Power BI Desktop, a następnie publikować te raporty w obszarze roboczym aplikacji. Aby móc publikować raporty w obszarze roboczym aplikacji, użytkownik końcowy publikujący je musi mieć licencję usługi Power BI Pro.
+Oprócz zawartości migrowanej z kolekcji obszarów roboczych usługi Power BI można również tworzyć raporty i zestawy danych przy użyciu programu Power BI Desktop, a następnie publikować te raporty w obszarze roboczym aplikacji. Aby móc publikować raporty w obszarze roboczym aplikacji, użytkownik końcowy publikujący je musi mieć licencję usługi Power BI Pro.
 
 ## <a name="rebuild-your-application"></a>Ponowne kompilowanie aplikacji
 1. Należy zmodyfikować aplikację w celu korzystania z interfejsów API REST usługi Power BI oraz lokalizacji raportu w witrynie powerbi.com.
@@ -174,23 +174,23 @@ Użytkownicy zarządzani w aplikacji będą mapowani na poświadczenia *główne
 Gdy wszystko będzie gotowe do przejścia do zastosowania produkcyjnego, należy wykonać następujące czynności.
 
 * Jeśli korzystasz z oddzielnej dzierżawy na potrzeby programowania, należy upewnić się, że obszary robocze aplikacji oraz pulpity nawigacyjne i raporty są dostępne w środowisku produkcyjnym. Należy także upewnić się, że utworzono aplikację w usłudze Azure AD dla dzierżawy produkcyjnej i przypisano odpowiednie uprawnienia aplikacji, zgodnie z instrukcjami w kroku 1.
-* Kup pojemność odpowiednią do potrzeb. Aby lepiej zrozumieć, jaka wielkość i typ pojemności są Ci potrzebne, zobacz [oficjalny dokument dotyczący planowania pojemności na potrzeby osadzonej analizy](https://aka.ms/pbiewhitepaper). [Zakupu pojemności](https://portal.azure.com/#create/Microsoft.PowerBIDedicated) możesz dokonać na platformie Azure.
+* Kup pojemność odpowiednią do potrzeb. Aby lepiej zrozumieć, jaka wielkość i typ pojemności są Ci potrzebne, zobacz [oficjalny dokument dotyczący planowania pojemności na potrzeby analizy usługi Power BI Embedded](https://aka.ms/pbiewhitepaper). [Zakupu pojemności](https://portal.azure.com/#create/Microsoft.PowerBIDedicated) możesz dokonać na platformie Azure.
 * Edytuj obszar roboczy aplikacji i przypisz go do pojemności Premium w obszarze Zaawansowane.
  
-    ![](media/migrate-from-powerbi-embedded/powerbi-embedded-premium-capacity.png)
+    ![](media/migrate-from-powerbi-embedded/powerbi-embedded-premium-capacity02.png)
     
-* Wdróż zaktualizowaną aplikację w środowisku produkcyjnym i rozpocznij osadzanie raportów z usługi Power BI.
+* Wdróż zaktualizowaną aplikację w środowisku produkcyjnym i rozpocznij osadzanie raportów z usługi Power BI Embedded.
 
 ## <a name="after-migration"></a>Po migracji
 Należy wyczyścić odpowiednie zasoby na platformie Azure.
 
-* Usuń wszystkie obszary robocze poza wdrożonym rozwiązaniem z usługi Power BI Embedded na platformie Azure.
+* Usuń wszystkie obszary robocze poza wdrożonym rozwiązaniem z usługi Azure Embedded kolekcji obszarów usługi Power BI.
 * Usuń wszelkie kolekcje obszarów roboczych na platformie Azure.
 
 ## <a name="next-steps"></a>Następne kroki
 [Osadzanie przy użyciu usługi Power BI](embedding.md)  
-[Narzędzie do migracji usługi Power BI Embedded](migrate-tool.md)  
-[Fragmenty kodu umożliwiające migrację zawartości z usługi Power BI Embedded](migrate-code-snippets.md)  
+[Narzędzie migracji kolekcji obszarów roboczych usługi Power BI](migrate-tool.md)  
+[Fragmenty kodu umożliwiające migrację zawartości z kolekcji obszarów roboczych usługi Power BI](migrate-code-snippets.md)  
 [Jak osadzić pulpity nawigacyjne, raporty i kafelki usługi Power BI](embedding-content.md)  
 [Power BI Premium — co to jest?](../service-premium.md)  
 [Repozytorium Git interfejsu API języka JavaScript](https://github.com/Microsoft/PowerBI-JavaScript)  
@@ -200,4 +200,3 @@ Należy wyczyścić odpowiednie zasoby na platformie Azure.
 [Oficjalny dokument na temat usługi Power BI Premium](https://aka.ms/pbipremiumwhitepaper)  
 
 Masz więcej pytań? [Zadaj pytanie społeczności usługi Power BI](http://community.powerbi.com/)
-

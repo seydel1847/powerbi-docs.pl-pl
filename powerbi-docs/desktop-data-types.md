@@ -18,18 +18,18 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: d15aeaf90e748b9ba14a0160042d2db4f36d3150
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 71a2908357164cf93870800947ae5fa0aa04c75c
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Typy danych w programie Power BI Desktop
 W tym artykule opisano typy danych obsługiwane w programie Power BI Desktop i języku wyrażeń analizy danych (DAX, Data Analysis Expressions). 
 
 Podczas ładowania danych program Power BI Desktop podejmuje próbę przekonwertowania typu danych kolumny źródłowej, tak aby zapewnić lepszą wydajność magazynowania, obliczeń i wizualizacji danych. Na przykład jeśli kolumna zaimportowana z programu Excel nie zawiera wartości ułamkowych, program Power BI Desktop przekonwertuje całą kolumnę danych na liczby całkowite, które lepiej nadają się do przechowywania wartości całkowitych.
 
-Jest to ważne, ponieważ niektóre funkcje języka DAX mają specjalne wymagania dotyczące typu danych. W wielu przypadkach język DAX automatycznie przeprowadzi niejawną konwersję typu danych, ale nie zawsze.  Na przykład jeśli funkcja języka DAX wymaga typu danych Data, ale kolumna zawiera wartości tekstowe, funkcja ta nie będzie działać prawidłowo.  Z tego względu zagwarantowanie, aby w kolumnie znajdowały się dane o prawidłowym typie, jest ważne i przydatne. Niejawne konwersje zostały opisane w dalszej części tego artykułu.
+Takie podejście jest ważne, ponieważ niektóre funkcje języka DAX mają specjalne wymagania dotyczące typu danych. W wielu przypadkach język DAX automatycznie przeprowadzi niejawną konwersję typu danych, ale nie zawsze.  Na przykład jeśli funkcja języka DAX wymaga typu danych Data, ale kolumna zawiera wartości tekstowe, funkcja ta nie będzie działać prawidłowo.  Z tego względu zagwarantowanie, aby w kolumnie znajdowały się dane o prawidłowym typie, jest ważne i przydatne. Niejawne konwersje zostały opisane w dalszej części tego artykułu.
 
 ## <a name="determine-and-specify-a-columns-data-type"></a>Określanie typu danych w kolumnie
 W programie Power BI Desktop typ danych w kolumnie można określić w Edytorze zapytań, widoku danych lub widoku raportu:
