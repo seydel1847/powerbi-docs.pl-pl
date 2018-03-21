@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/05/2017
 ms.author: maghan
-ms.openlocfilehash: 81036ce9a265f4541b23954584d7a9dd9b99a080
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 337fafe395a5d80d0b82ac069579048a69cd6c4f
+ms.sourcegitcommit: 0473a155495a7a9ba4b899d0815100426718b7ac
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/20/2018
 ---
 # <a name="upgrade-power-bi-report-server"></a>Uaktualnienie serwera raportów usługi Power BI
 Dowiedz się, jak uaktualnić serwer raportów usługi Power BI.
@@ -29,8 +29,6 @@ Dowiedz się, jak uaktualnić serwer raportów usługi Power BI.
  **Pobieranie** ![pobieranie](media/upgrade/download.png "pobieranie")
 
 Aby pobrać serwer raportów usługi Power BI i program Power BI Desktop zoptymalizowany pod kątem serwera raportów usługi Power BI, przejdź do [Lokalne raportowanie za pomocą serwera raportów usługi Power BI](https://powerbi.microsoft.com/report-server/).
-
-![Porada](media/upgrade/fyi-tip.png "Porada") Aby uzyskać bieżące informacje o wersji, zobacz [Informacje o wersji serwera raportów usługi Power BI](release-notes.md).
 
 ## <a name="before-you-begin"></a>Zanim rozpoczniesz
 Przed uaktualnieniem serwera raportów zaleca się wykonanie następujących kroków, aby utworzyć kopię zapasową serwera raportów.
