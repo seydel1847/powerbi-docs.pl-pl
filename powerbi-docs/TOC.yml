@@ -698,8 +698,6 @@
           href: desktop-assume-referential-integrity.md
         - name: 'Samouczek: dynamiczne zabezpieczenia na poziomie wiersza z modelem tabelarycznym usług Analysis Services'
           href: desktop-tutorial-row-level-security-onprem-ssas-tabular.md
-        - name: Zapytanie bezpośrednie dla baz danych Oracle i Teradata
-          href: desktop-directquery-for-oracle-teradata.md
         - name: Używanie łącznika systemu SAP BW w programie Power BI Desktop (wersja zapoznawcza)
           href: desktop-sap-bw-connector.md
         - name: Używanie linków usługi OneDrive dla Firm w programie Power BI Desktop
