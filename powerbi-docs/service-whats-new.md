@@ -1,28 +1,29 @@
 ---
-title: "Co nowego w usłudze Power BI"
-description: "Co nowego w usłudze Power BI"
+title: Co nowego w usłudze Power BI
+description: Co nowego w usłudze Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
 backup: sirsu
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/07/2018
+ms.date: 03/22/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: b3e12a9bdfa6643351cdfc82ce9051197df6ee1e
-ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
+ms.openlocfilehash: a388f090eac1896c7f47d7d16251c419fc4c33c2
+ms.sourcegitcommit: 3841bcdb5e664568defe3d6a6e6b8cab3cd7087f
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 03/23/2018
+---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Co nowego w usłudze Power BI
 Na tej stronie możesz dowiedzieć się o znanych problemach i ostatnio udostępnionych funkcjach **usługi Power BI**. Powiązane nowości są dostępne w następujących artykułach:
@@ -36,7 +37,17 @@ Możesz też zapoznać się z kanałami w witrynie YouTube przedstawiającymi no
 * [Microsoft Power BI (YouTube)](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
 * [Guy in a Cube (YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
-## <a name="january-2018"></a>Styczeń 2018
+## <a name="march-2018"></a>Marzec 2018
+* [Filtry trwałe](https://powerbi.microsoft.com/en-us/blog/announcing-persistent-filters-in-the-service/) w usłudze Power BI.
+* Udostępnianie zawartości użytkownikom przy użyciu ich osobistych kont e-mail. Rozszerzenie [funkcji współpracy między firmami przy użyciu usługi Azure Active Directory](https://powerbi.microsoft.com/en-us/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/).
+
+## <a name="previous-months-2018"></a>Poprzednie miesiące (2018)
+### <a name="february-2018"></a>Luty 2018
+* Automatyczne instalowanie [aplikacji usługi Power BI](https://docs.microsoft.com/en-us/power-bi/service-create-distribute-apps) dla użytkowników końcowych.
+* Wydajność P4 i P5 w usłudze Power BI Premium
+* Omówienie [wizualizacji niestandardowych organizacji](https://docs.microsoft.com/en-us/power-bi/power-bi-custom-visuals-organization).
+
+### <a name="january-2018"></a>Styczeń 2018
 *   Udostępnianie raportów usługi Power BI oraz oznaczanie ich jako ulubionych.
 *   Obsługa logowania jednokrotnego (SSO) w usłudze OAuth2 i w zapytaniu bezpośrednim w usługach Azure SQL Database i Data Warehouse.
 *   Inspekcja w regionie: dzienniki inspekcji będą teraz przechowywane w tym samym regionie usługi Office 365 co ich dzierżawa.
