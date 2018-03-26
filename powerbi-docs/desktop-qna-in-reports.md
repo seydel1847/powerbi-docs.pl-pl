@@ -1,15 +1,15 @@
 ---
-title: "Używanie funkcji pytań i odpowiedzi w programie Power BI Desktop"
-description: "W programie Power BI Desktop można teraz używać zapytań w języku naturalnym za pomocą funkcji pytań i odpowiedzi."
+title: Używanie funkcji pytań i odpowiedzi w programie Power BI Desktop
+description: W programie Power BI Desktop można teraz używać zapytań w języku naturalnym za pomocą funkcji pytań i odpowiedzi.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/12/2017
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: dacbb31e8e32abfcb34e565958620d579f68b4f2
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: d6075832d77f6bea7d7d8588719c4a002cdbf298
+ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/21/2018
 ---
 # <a name="use-qa-in-power-bi-desktop-for-natural-language-queries"></a>Używanie funkcji pytań i odpowiedzi dla zapytań w języku naturalnym w programie Power BI Desktop
 Używanie typowych fraz i języka naturalnego w celu zadawania pytań na temat danych daje dużo możliwości. Jest to o wiele bardziej skuteczne, gdy dane „odpowiadają” — to właśnie umożliwia funkcja pytań i odpowiedzi w programie **Power BI Desktop**.
@@ -50,7 +50,7 @@ Wybór tabel i kolumn jest bardzo ważny dla funkcji pytań i odpowiedzi. Jeśli
 
 Funkcja pytań i odpowiedzi potrafi w pewnym stopniu rozdzielać wyrazy i wykrywać liczbę mnogą, jednak zakłada, że nazwy tabel i kolumn dokładnie odzwierciedlają ich zawartość.
 
-Rozważmy inny przykład. Wyobraź sobie, że masz tabelę o nazwie *Headcount*, zawierającą imiona i nazwiska oraz numery pracowników, i masz drugą tabelę o nazwie *Employees*, zawierającą numery pracowników, numery zadań i daty rozpoczęcia. Być może jest to zrozumiałe dla osób znających ten model, jednak gdy ktoś inny zapyta „count the employees” (policz pracowników), otrzyma liczbę wierszy z tabeli „Employees”, a raczej nie o to chodziło, ponieważ jest to liczba wszystkich zadań wykonywanych kiedykolwiek przez każdego pracownika. Byłoby o wiele lepiej, gdyby nazwy tych tabel odzwierciedlały ich rzeczywistą zawartość.
+Rozważmy inny przykład. Wyobraź sobie, że masz tabelę o nazwie *Headcount*, zawierającą imiona i nazwiska oraz numery pracowników, i drugą tabelę o nazwie *Employees*, zawierającą numery pracowników, numery zadań i daty rozpoczęcia. Być może jest to zrozumiałe dla osób znających ten model, jednak gdy ktoś inny zapyta „count the employees” (policz pracowników), otrzyma liczbę wierszy z tabeli „Employees”, a raczej nie o to chodziło, ponieważ jest to liczba wszystkich zadań wykonywanych kiedykolwiek przez każdego pracownika. Byłoby o wiele lepiej, gdyby nazwy tych tabel odzwierciedlały ich rzeczywistą zawartość.
 
 **Wymaga pracy**
 

@@ -1,15 +1,15 @@
 ---
-title: "Dziennik zmian w Serwerze raportów usługi Power BI"
-description: "Ten dziennik zmian zawiera listę nowych elementów oraz poprawek błędów w każdej wydanej kompilacji Serwera raportów usługi Power BI."
+title: Dziennik zmian w Serwerze raportów usługi Power BI
+description: Ten dziennik zmian zawiera listę nowych elementów oraz poprawek błędów w każdej wydanej kompilacji Serwera raportów usługi Power BI.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: jtarquino
 manager: jonhp
 backup: maggies
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -17,17 +17,35 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/11/2017
 ms.author: tankas
-ms.openlocfilehash: deff79bba0f7f191a8343629300c725f3150e509
-ms.sourcegitcommit: a44c29bbc220ecb1ed80810cb1e7df0db8ea611a
+ms.openlocfilehash: 7c460955aba71bfb3a89d94aa6000c7bdd451ac2
+ms.sourcegitcommit: 0473a155495a7a9ba4b899d0815100426718b7ac
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/12/2018
+ms.lasthandoff: 03/20/2018
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Dziennik zmian w Serwerze raportów usługi Power BI
 
 Ten dziennik zmian zawiera listę nowych elementów oraz poprawek błędów w każdej wydanej kompilacji Serwera raportów usługi Power BI.
 
-Aby uzyskać szczegółowe informacje o nowych funkcjach, zobacz [Co nowego w Serwerze raportów usługi Power BI](whats-new.md).
+Aby uzyskać szczegółowe informacje o nowych funkcjach, zobacz [Co nowego w Serwerze raportów usługi Power BI](whats-new.md). 
+
+## <a name="march-2018"></a>Marzec 2018 r.
+- **Serwer raportów usługi Power BI**
+    - *Wersja 1.2.6648.38132 (kompilacja 15.0.2.378), data wydania: 19 marca 2018 r.*
+        - Aktualizacje zabezpieczeń
+        - Usprawnienia w zakresie ułatwień dostępu
+        - Poprawki błędów
+            - W przypadku raportów z podziałem na strony (RDL) poprawiono widoczność parametrów w połączonym raporcie, który zostaje przywrócony po edytowaniu jego właściwości
+            - Poprawka portalu internetowego z uwierzytelnianiem opartym na formularzach niestandardowych, który ignorował przesuwany plik cookie wygaśnięcia
+            - Poprawka funkcji eksportowania do programu Word, która tworzyła wiersze o nierównej wysokości, jeśli zawartość wiersza była pusta
+            - W przypadku raportów z podziałem na strony (RDL) poprawiono parametry połączenia oparte na wyrażeniach, które były usuwane w przypadku zmiany poświadczenia dla źródła danych
+            - Poprawka możliwości używania wskaźników KPI z wartościami tekstowymi
+            - W przypadku raportów z podziałem na strony (RDL) poprawiono możliwość przydzielania nowego zestawu danych do istniejącego raportu z podziałem na strony (RDL)
+            - Inne poprawki w zakresie stabilności i użyteczności
+
+- **Power BI Desktop (zoptymalizowany pod kątem serwera raportów usługi Power BI)**
+    - Wersja: 2.56.5023.1043 (marzec 2018 r.), data wydania: 19 marca 2018 r.
+        - Zmiany wymagane do nawiązania połączenia z serwerem raportów usługi Power BI (marzec 2018 r.)
 
 ## <a name="october-2017"></a>Październik 2017
 

@@ -1,39 +1,39 @@
 ---
-title: "Widok do czytania i widok do edycji raportu w usłudze Power BI"
-description: "Ogólne omówienie różnic między widokiem do czytania a widokiem do edycji raportów usługi Power BI"
+title: Widok do czytania i widok do edycji raportu w usłudze Power BI
+description: Ogólne omówienie różnic między widokiem do czytania a widokiem do edycji raportów usługi Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/01/2018
+ms.date: 03/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 6eca438c9e12d99f925aef864ed9b74e16ef30b7
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: a9cb6e3d3fe244a3d530efeb2624e3cc5a799e55
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="reading-view-and-editing-view-in-power-bi-service-reports"></a>Widok do czytania i widok do edycji w raportach usługi Power BI
-W usłudze Power BI (nie w programie Power BI Desktop) są dostępne dwa tryby wyświetlania raportów i korzystania z nich: widok do czytania i widok do edycji. Widok do czytania jest dostępny dla wszystkich osób, a w szczególności jest przeznaczony dla *użytkowników* danych, natomiast widok do edycji jest dostępny tylko dla *twórców* i właścicieli raportu. 
+W usłudze Power BI (nie w programie Power BI Desktop) są dostępne dwa tryby wyświetlania raportów i korzystania z nich: widok do czytania i widok do edycji. Widok do czytania jest dostępny dla wszystkich osób, a w szczególności jest przeznaczony dla *użytkowników* danych, natomiast widok do edycji jest dostępny tylko dla *twórców* i właścicieli raportu.
 
 ![kompozycja twórców i użytkowników raportów](media/service-reading-view-and-editing-view/power-bi-creators-consumers.png)
 
 ## <a name="report-reading-view"></a>Widok do czytania raportu
 
- Widok do czytania umożliwia eksplorowanie raportu i korzystanie z niego — jest to przyjemny i bezpieczny sposób poznawania i używania danych. Widok do czytania jest przeznaczony dla *konsumentów* raportu, czyli osób, które otwierają raporty z aplikacji lub którym [udostępniono](service-share-dashboards.md) raporty. Widok do czytania gwarantuje, że każdy konsument konkretnego raportu widzi ten sam raport i te same wizualizacje z zastosowaniem tych samych filtrów.  Konsumenci mogą korzystać z raportów, ale nie mogą zapisywać zmian.
+ Widok do czytania umożliwia eksplorowanie raportu i korzystanie z niego — jest to przyjemny i bezpieczny sposób poznawania i używania danych. Widok do czytania jest przeznaczony dla *konsumentów* raportu, czyli osób, które otwierają raporty z aplikacji lub którym [udostępniono](service-share-dashboards.md) raporty. Widok do czytania gwarantuje, że każdy konsument konkretnego raportu widzi ten sam raport i te same wizualizacje oraz (opcjonalnie) z zastosowaniem tych samych filtrów.  Konsumenci mogą wchodzić w interakcje z raportami, mogą zmieniać istniejące filtry (i te zmiany są zapisywane z raportem), ale nie mogą dodawać nowych filtrów.
 
->**UWAGA** W pewnych okolicznościach konsumenci raportu mogą widzieć różne dane z powodu zabezpieczeń na poziomie wiersza i uprawnień dotyczących danych. 
+>**UWAGA** W pewnych okolicznościach konsumenci raportu mogą widzieć różne dane z powodu zabezpieczeń na poziomie wiersza i uprawnień dotyczących danych.
 
 ## <a name="report-editing-view"></a>Widok do edycji raportu
 
@@ -42,7 +42,7 @@ Widok do edycji jest dostępny tylko dla tych osób, które utworzyły raport lu
 Widok do edycji jest przeznaczony dla *twórców* raportu. To tutaj twórcy importują zestawy danych i łączą się z nimi, eksplorują dane oraz tworzą raporty i pulpity nawigacyjne. Widok do edycji pozwala *twórcom* jeszcze bardziej zagłębić się w dane poprzez dodawanie i usuwanie pól, zmianę typu wizualizacji, tworzenie nowych wizualizacji, a także dodawanie oraz usuwanie wizualizacji i stron w raporcie. Następnie mogą oni udostępnić utworzone raporty współpracownikom.
 
 ## <a name="reading-view-versus-editing-view"></a>Porównanie widoku do czytania i widoku do edycji
-Ten wykres nie zawiera wszystkich funkcji raportu usługi Power BI! Zawiera on listę tylko tych zadań raportu, które nie są dostępne **zarówno** w widoku do czytania, jak i w widoku do edycji. 
+Ten wykres nie zawiera wszystkich funkcji raportu usługi Power BI! Zawiera on listę tylko tych zadań raportu, które nie są dostępne **zarówno** w widoku do czytania, jak i w widoku do edycji.
 
 
 |Zadanie  | Widok do czytania  | Widok do edycji |
@@ -52,7 +52,7 @@ Ten wykres nie zawiera wszystkich funkcji raportu usługi Power BI! Zawiera on l
 | [Tworzenie lub edytowanie raportu](service-report-create-new.md) | Nie  | Tak |
 | [Udostępnianie raportu](service-share-reports.md)| Tak | Tak. Umożliwia także zarządzanie uprawnieniami, w tym przyznawanie innym uprawnień *właściciela*. |
 | [Tworzenie trwałych filtrów na poziomie wizualizacji, przeglądania szczegółowego, na poziomie strony i na poziomie raportu w okienku filtrów](power-bi-report-add-filter.md) | Nie  | Tak |
-| [Używanie okienka filtrów raportu](power-bi-how-to-report-filter.md) | Tak, można używać istniejących filtrów, ale zmiany nie są zapisywane z raportem. | Tak |
+| [Używanie okienka filtrów raportu](power-bi-how-to-report-filter.md) | Tak, można używać istniejących filtrów, zmiany mogą być zapisywane z raportem, ale nie można dodawać nowych filtrów. | Tak |
 | [Używanie okienka analizy raportu](service-analytics-pane.md) | Nie | Tak |
 | [Opcje **widoku** raportu](power-bi-report-display-settings.md) | Tak, z pewnymi wyjątkami. | Tak, wszystkie, w tym linie siatki, przyciąganie i blokowanie. |
 | [Tworzenie harmonogramu odświeżania](refresh-data.md) | Nie  | Tak |
@@ -86,14 +86,14 @@ Pamiętaj, że tylko twórcy i właściciele raportu będą mogli otworzyć rapo
 
    ![Wyszarzona opcja Edytuj raport](media/service-reading-view-and-editing-view/power-bi-edit-report-grey.png)
 
-2. Jeśli opcja **Edytuj raport** nie jest wyszarzona, wybierz ją, aby otworzyć raport w widoku do edycji. 
-   
+2. Jeśli opcja **Edytuj raport** nie jest wyszarzona, wybierz ją, aby otworzyć raport w widoku do edycji.
+
    ![Opcja Edytuj raport](media/service-reading-view-and-editing-view/power-bi-edit-report.png)
-   
+
    Raport jest teraz w widoku do edycji i używa tych samych [ustawień wyświetlania](power-bi-report-display-settings.md), co ostatnio w widoku do czytania.
 
 2. Aby powrócić do widoku do czytania, wybierz pozycję **Widok do czytania** na górnym pasku nawigacyjnym.
-   
+
     ![opcja Widok do czytania](media/service-reading-view-and-editing-view/power-bi-reading-view.png)
 
 
@@ -101,5 +101,4 @@ Pamiętaj, że tylko twórcy i właściciele raportu będą mogli otworzyć rapo
 ### <a name="next-steps"></a>Następne kroki
 Istnieje wiele sposobów na korzystanie z raportu w widoku do czytania, dzielenie i grupowanie danych w celu uzyskania szczegółowych informacji i odpowiedzi na pytania.  Następny temat, [Interakcje z raportem w widoku do czytania](service-interact-with-a-report-in-editing-view.md), zawiera szczegółowy opis niektórych z tych metod.    
 Wróć do [raportów w usłudze Power BI](service-reports.md)    
-Więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/) 
-
+Więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)

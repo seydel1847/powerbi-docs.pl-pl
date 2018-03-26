@@ -2,14 +2,14 @@
 title: Widok raportu w programie Power BI Desktop
 description: Widok raportu w programie Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 02/05/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: e68a819325e601f869b34c4ccbe3e873fe9408b3
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: af10699ea30b9d8e8dd8e3495860c43387a7e0be
+ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/21/2018
 ---
 # <a name="report-view-in-power-bi-desktop"></a>Widok raportu w programie Power BI Desktop
 Jeśli masz doświadczenie w pracy z usługą Power BI, to wiesz jak łatwo jest tworzyć raporty udostępniające dynamiczne perspektywy i szczegółowe informacje dotyczące danych. Usługa Power BI zawiera także inne zaawansowane funkcje w ramach programu Power BI Desktop. Za pomocą programu Power BI Desktop możesz tworzyć zaawansowane zapytania, łączyć dane z wielu źródeł, tworzyć relacje między tabelami i wykonywać wiele innych działań.
@@ -44,7 +44,7 @@ Po dodaniu danych możesz dodać pola do nowej wizualizacji na kanwie.
 
 ![](media/desktop-report-view/pbid_reportview_addvis.gif)
 
-Aby zmienić typ wizualizacji, możesz wybrać go z grupy **Wizualizacja** na wstążce lub kliknąć prawym przyciskiem myszy i wybrać inny za pomocą ikony **Zmień typ wizualizacji**.
+Aby zmienić typ wizualizacji, możesz wybrać go z grupy **Wizualizacja** na wstążce lub kliknąć prawym przyciskiem myszy i wybrać inny typ za pomocą ikony **Zmień typ wizualizacji**.
 
 ![](media/desktop-report-view/pbid_reportview_changevis.gif)
 
@@ -53,7 +53,7 @@ Aby zmienić typ wizualizacji, możesz wybrać go z grupy **Wizualizacja** na ws
 > 
 > 
 
-Na początku raport będzie zawierać co najmniej jedną pustą stronę. Strony są wyświetlane w okienku nawigatora z lewej strony kanwy. Na stronie można dodawać wiele różnych wizualizacji, ale ważne jest, aby ich nie nadużywać. Jeśli na stronie znajduje się zbyt wiele wizualizacji, będzie ona przeładowana i trudno będzie na niej znaleźć odpowiednie informacje. Do raportu można dodawać nowe strony — wystarczy kliknąć pozycję **Nowa strona** na wstążce.
+Na początku raport będzie zawierać co najmniej jedną pustą stronę. Strony są wyświetlane w okienku nawigatora z lewej strony kanwy. Na stronie można dodawać wiele różnych wizualizacji, ale ważne jest, aby ich nie nadużywać. Jeśli na stronie znajduje się zbyt wiele wizualizacji, będzie ona przeładowana i trudno będzie na niej znaleźć odpowiednie informacje. Do raportu można dodawać nowe strony. Po prostu kliknij pozycję **Nowa strona** na Wstążce.
 
 ![](media/desktop-report-view/pbidesignerreportviewnewpage.png)
 

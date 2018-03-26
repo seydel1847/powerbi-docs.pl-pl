@@ -1,39 +1,41 @@
 ---
-title: "Omówienie okienka Filtry usługi Power BI"
-description: "Omówienie okienka Filtry raportu w usłudze Power BI i na pulpicie nawigacyjnym usługi Power BI"
+title: Omówienie okienka Filtry usługi Power BI
+description: Omówienie okienka Filtry raportu w usłudze Power BI i na pulpicie nawigacyjnym usługi Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: monitoring
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/22/2018
+ms.date: 03/15/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 83aed39c8a652ed5b38c18b67f1cdccfc7884240
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 00b0b116aa59ebab1d963a8803f788040761d9f5
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>Zapoznaj się z przewodnikiem dotyczącym okienka filtrów raportu
 Ten artykuł szczegółowo opisuje okienko Filtry raportu. Okienko zostanie wyświetlone w [widoku do edycji i widoku do czytania usługi Power BI](service-reading-view-and-editing-view.md) oraz [widoku raportu w programie Power BI Desktop](desktop-report-view.md).
 
 Istnieje wiele sposobów, aby filtrować dane w usłudze Power BI i zalecamy zapoznać się najpierw z artykułem [Informacje o filtrach i wyróżnianiu](power-bi-reports-filters-and-highlighting.md).
 
-## <a name="working-with-filters"></a>Praca z filtrami
-Raporty można otwierać w [widoku do edycji lub widoku do czytania](service-reading-view-and-editing-view.md). W widoku do edycji właściciel raportu może [dodawać filtry do raportu](power-bi-report-add-filter.md). Te filtry są zapisywane razem z raportem. Osoby wyświetlające raport w widoku do czytania mogą wchodzić w interakcje z filtrami, nie mogą jednak zapisywać zmian filtrów w raporcie.
+## <a name="working-with-the-report-filters-pane"></a>Praca z okienkiem Filtry raportu
+W programie Power BI Desktop raporty są otwierane w widoku raportu. W usłudze Power BI raporty można otwierać w [widoku do edycji lub widoku do czytania](service-reading-view-and-editing-view.md). W widoku do edycji i w widoku raportu w programie Desktop właściciele raportów mogą [dodawać filtry do raportu](power-bi-report-add-filter.md). Te filtry są zapisywane razem z raportem. Osoby wyświetlające raport w widoku do czytania mogą wchodzić w interakcje z filtrami, nie mogą jednak dodawać nowych filtrów do raportu.
 
-## <a name="filters-in-reading-view"></a>Filtry w widoku do czytania
-Po otwarciu raportu w widoku do czytania okienko Filtry będzie wyświetlane wzdłuż prawej strony kanwy raportu. Jeśli okienko nie jest widoczne, wybierz strzałkę w prawym górnym rogu, aby je rozwinąć.
+W usłudze Power BI raporty zachowują wszelkie zmiany wprowadzone w okienku Filtry. Te zmiany są przekazywane do mobilnej wersji raportu. Aby zresetować okienko Filtry do wartości domyślnych dla twórców, wybierz pozycję **Przywróć domyślne** z górnego paska menu.     
+
+## <a name="open-the-filters-pane"></a>Otwieranie okienka Filtry
+Po otwarciu raportu okienko Filtry jest wyświetlane wzdłuż prawej strony kanwy raportu. Jeśli okienko nie jest widoczne, wybierz strzałkę w prawym górnym rogu, aby je rozwinąć. W widoku do czytania w usłudze Power BI jedynym okienkiem dostępnym po prawej stronie jest okienko Filtry.
 
 W tym przykładzie wybraliśmy wizualizację, która ma 6 filtrów. Strona raportu ma także filtry wyświetlane w pozycji **Filtry na poziomie strony**. Istnieje też jeden [filtr przeglądania szczegółowego](power-bi-report-add-filter.md), zaś cały raport ma też filtr: **FiscalYear** to 2013 lub 2014.
 
@@ -49,6 +51,10 @@ Każda osoba wyświetlająca ten raport może wchodzić w interakcje z tymi filt
 * Zmiana filtru, na przykład zmiana sieci z **Lindseys** na **Fashions Direct**.
   
      ![](media/power-bi-how-to-report-filter/power-bi-filter-chain.png)
+
+* Zresetowanie filtrów do pierwotnego stanu przez wybranie pozycji **Przywróć domyślne** z górnego paska menu.    
+    ![](media/power-bi-how-to-report-filter/power-bi-reset-to-default.png)
+    
 * Usunięcie filtru przez wybranie symbolu **x** obok jego nazwy.
   
   Usunięcie filtru spowoduje usunięcie go z listy, ale nie spowoduje usunięcia danych z raportu.  Jeśli na przykład usuniesz filtr **FiscalYear to 2013 lub 2014**, dane roku obrachunkowego pozostaną w raporcie, ale nie będzie on już filtrowany, aby wyświetlać tylko dane dla roku 2013 i 2014. Będą wyświetlane dane dostępne dla wszystkich lat obrachunkowych.  Jednak po usunięciu filtru nie będzie można go modyfikować, ponieważ zostanie usunięty z listy. Lepszym rozwiązaniem jest wyczyszczenie filtru przy użyciu ikony gumki ![](media/power-bi-how-to-report-filter/power-bi-eraser-icon.png).
@@ -56,7 +62,7 @@ Każda osoba wyświetlająca ten raport może wchodzić w interakcje z tymi filt
   ![](media/power-bi-how-to-report-filter/power-bi-delete-filter.png)
 
 ## <a name="filters-in-editing-view"></a>Filtry w widoku do edycji
-Po otwarciu raportu w widoku do edycji okienko Filtry będzie wyświetlane wzdłuż prawej strony kanwy raportu w dolnej części okienka **Wizualizacja**. Jeśli okienko nie jest widoczne, wybierz strzałkę w prawym górnym rogu, aby je rozwinąć.
+Po otwarciu raportu w programie Desktop lub w widoku do edycji usługi Power BI okienko Filtry będzie wyświetlane wzdłuż prawej strony kanwy raportu w dolnej części okienka **Wizualizacja**. Jeśli okienko nie jest widoczne, wybierz strzałkę w prawym górnym rogu, aby je rozwinąć.
 
 ![](media/power-bi-how-to-report-filter/power-bi-all-filters.png)  
 
@@ -73,16 +79,16 @@ Aby wyświetlić opcje dla konkretnego filtru, wybierz strzałkę w dół obok j
 ![](media/power-bi-how-to-report-filter/pbi_filterlistdropdown.jpg)
 
 ## <a name="clear-a-filter"></a>Czyszczenie filtru
- W zaawansowanym lub podstawowym trybie filtrowania wybierz ikonę gumki ![](media/power-bi-how-to-report-filter/pbi_erasericon.jpg), aby zresetować filtr. 
+ W zaawansowanym lub podstawowym trybie filtrowania wybierz ikonę gumki ![](media/power-bi-how-to-report-filter/pbi_erasericon.jpg), aby wyczyścić filtr. 
 
 ## <a name="add-a-filter"></a>Dodawanie filtru
-* W widoku do edycji dodaj filtr do wizualizacji, strony, przeglądania szczegółowego lub raportu, zaznaczając pole w okienku Pola i przeciągając je do odpowiedniego obszaru filtrów, gdzie widać słowa **Przeciągnij pola tutaj**. Po dodaniu pola jako filtru dostosuj go za pomocą kontrolek Filtrowanie podstawowe i Filtrowanie zaawansowane (opisanych poniżej).
+* W programie Desktop lub w widoku do edycji usługi Power BI dodaj filtr do wizualizacji, strony, przeglądania szczegółowego lub raportu, zaznaczając pole w okienku Pola i przeciągając je do odpowiedniego obszaru filtrów, gdzie widać słowa **Przeciągnij pola tutaj**. Po dodaniu pola jako filtru dostosuj go za pomocą kontrolek Filtrowanie podstawowe i Filtrowanie zaawansowane (opisanych poniżej).
 
 - **Przeciągnięcie nowego pola do obszaru Filtry na poziomie wizualizacji nie powoduje dodania tego pola do wizualizacji**, pozwala jednak filtrować wizualizację za pomocą tego nowego pola. W poniższym przykładzie pole **Chain** zostało dodane jako nowy filtr do wizualizacji. Zwróć uwagę, że samo dodanie pola **Chain** jako filtru nie zmienia wizualizacji, dopóki nie użyjesz kontrolek Filtrowanie podstawowe i Filtrowanie zaawansowane.
 
     ![](media/power-bi-how-to-report-filter/power-bi-visual-filter.gif)
 
-* Wszystkie pola użyte do utworzenia wizualizacji są także dostępne jako filtry. Wybierz wizualizację, aby ją uaktywnić. Pola, które są używane w wizualizacji, są wyświetlane w okienku Wizualizacje (jeśli korzystasz z widoku do edycji) i w okienku Filtry w obszarze **Filtry na poziomie wizualizacji**.
+* Wszystkie pola użyte do utworzenia wizualizacji są także dostępne jako filtry. Wybierz wizualizację, aby ją uaktywnić. Pola, które są używane w wizualizacji, są wyświetlane w okienku Wizualizacje i w okienku Filtry w obszarze **Filtry na poziomie wizualizacji**.
   
    ![](media/power-bi-how-to-report-filter/power-bi-visual-filter.png)  
   

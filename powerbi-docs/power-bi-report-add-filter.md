@@ -1,50 +1,58 @@
 ---
-title: "Dodawanie do raportu filtrów wizualnego, strony, przeglądania szczegółowego lub raportu"
-description: "Dodawanie filtru strony, filtru wizualnego lub filtru raportu do raportu w usłudze Power BI"
+title: Dodawanie do raportu filtrów wizualnego, strony, przeglądania szczegółowego lub raportu
+description: Dodawanie filtru strony, filtru wizualnego lub filtru raportu do raportu w usłudze Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: monitoring
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 03/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: d30941e49915122864976868d36418d53844b927
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: e222b9bddc3e7c204a728e207b8969cdf13d605f
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
-# <a name="add-a-filter-to-a-power-bi-report-in-editing-view"></a>Dodawanie filtru do raportu usługi Power BI (w widoku do edycji)
+# <a name="add-a-filter-to-a-power-bi-service-report-in-editing-view"></a>Dodawanie filtru do raportu usługi Power BI (w widoku do edycji)
 > [!TIP]
 > Zalecamy, aby najpierw zapoznać się z artykułem [Informacje o filtrach i wyróżnianiu w raportach usługi Power BI](power-bi-reports-filters-and-highlighting.md).
+
+Przykłady przedstawione w tym artykule dotyczą usługi Power BI. Czynności wykonywane w programie Power BI Desktop są jednak prawie identyczne.
 > 
 > 
 
 ## <a name="what-is-the-difference-between-report-filters-in-editing-view-versus-reading-view"></a>Różnica między filtrami raportu w widoku do edycji i w widoku do czytania
 Istnieją dwa tryby interakcji z raportami: [Widok do czytania](service-reading-view-and-editing-view.md) i [Widok do edycji](service-interact-with-a-report-in-editing-view.md).  Dostępne możliwości filtrowania zależą od trybu, w którym pracujesz.
 
-* Widok do edycji umożliwia dodawanie filtrów raportu, strony i wizualizacji. Podczas zapisywania raportu filtry zostają zapisane razem z nim. Osoby wyświetlające raport w widoku do czytania mogą wchodzić w interakcje z filtrami, które zostały dodane, ale nie mogą zapisywać swoich zmian.
-* Widok do czytania pozwala na wchodzenie w interakcje ze wszystkimi istniejącymi w raporcie filtrami wizualnymi, filtrami raportu i filtrami stron, ale nie jest możliwe zapisanie dokonanych zmian filtrów.
+* Widok do edycji umożliwia dodawanie filtrów raportu, strony i wizualizacji. Podczas zapisywania raportu filtry zostają zapisane razem z nim. Osoby wyświetlające raport w widoku do czytania mogą wchodzić w interakcje z filtrami, które zostały dodane.
+* Widok do czytania pozwala na wchodzenie w interakcje ze wszystkimi istniejącymi w raporcie filtrami wizualnymi, filtrami raportu, filtrami przeglądania szczegółowego i filtrami stron, ale nie jest możliwe dodawanie nowych filtrów. Zmiany wprowadzone w okienku Filtry są zapisywane z raportem — nawet wtedy, gdy raport jest wyświetlany w aplikacji mobilnej.  
 
 > [!NOTE]
 > W tym artykule opisano sposób tworzenia filtrów w **widoku do edycji** raportu.  Aby uzyskać więcej informacji o filtrach w widoku do czytania, zobacz [Interakcja z filtrami w widoku do czytania raportu](service-reading-view-and-editing-view.md).
-> 
-> 
 
-## <a name="visual-filters-page-filters-drillthrough-filters-and-report-filters"></a>Filtry wizualne, filtry stron, filtry przeglądania szczegółowego i filtry raportów
-**Filtr strony** dotyczy wszystkich wizualizacji na stronie raportu. **Filtr wizualny** dotyczy jednej wizualizacji na stronie raportu. Natomiast **filtr raportu** dotyczy wszystkich stron w raporcie.
 
-![](media/power-bi-report-add-filter/power-bi-add-filter-reading-view.png)
+## <a name="filters-available-in-the-power-bi-filters-pane"></a>Filtry dostępne w okienku *Filtry* usługi Power BI
+Niezależnie od tego, czy używasz usługi Power BI, czy programu Power BI Desktop, okienko Filtry jest wyświetlane po prawej stronie kanwy raportów. Jeśli okienko Filtry nie jest widoczne, wybierz ikonę „>” w prawym górnym rogu, aby je rozwinąć.
+
+Istnieją cztery typy filtrów.
+
+- **Filtr strony** dotyczy wszystkich wizualizacji na stronie raportu.     
+- **Filtr wizualny** dotyczy jednej wizualizacji na stronie raportu.    
+- **Filtr przeglądania szczegółowego** dotyczy pojedynczej jednostki w raporcie.    
+- **Filtr raportu** dotyczy wszystkich stron w raporcie.    
+
+    ![](media/power-bi-report-add-filter/power-bi-add-filter-reading-view.png)
 
 ## <a name="add-a-filter-to-a-specific-visualization-aka-visual-filter"></a>Dodawanie filtru do określonej wizualizacji (filtr wizualny)
 Można to zrobić na dwa sposoby: 
@@ -130,11 +138,11 @@ Zobaczmy, jak działa filtr przeglądania szczegółowego.
 3. W okienku Pola wybierz pole, które chcesz dodać jako nowy filtr na poziomie raportu i przeciągnij go do obszaru **Filtry na poziomie raportu**.  
 4. Wybierz wartości, które chcesz filtrować (zobacz [Jak używać filtrów raportu](power-bi-how-to-report-filter.md)).
 
-Wizualizacja na aktywnej stronie, oraz na wszystkich stronach raportu, zmieni się w celu odzwierciedlenia nowego filtru. Jeśli zapiszesz raport razem z filtrem, czytelnicy raportu mogą wchodzić w interakcję z filtrem w widoku do czytania, zaznaczając lub usuwając wartości.
+    Wizualizacja na aktywnej stronie, oraz na wszystkich stronach raportu, zmieni się w celu odzwierciedlenia nowego filtru. Jeśli zapiszesz raport razem z filtrem, czytelnicy raportu mogą wchodzić w interakcję z filtrem w widoku do czytania, zaznaczając lub usuwając wartości.
 
 1. Wybierz strzałkę wstecz, aby wrócić do poprzedniej strony raportu.
 
-## <a name="troubleshooting"></a>Rozwiązywanie problemów
+## <a name="considerations-and-troubleshooting"></a>Istotne zagadnienia i rozwiązywanie problemów
 ### <a name="why-your-visual-level-filter-and-page-level-filter-may-return-different-results"></a>Dlaczego filtry na poziomie wizualizacji i filtry na poziomie strony zwracają różne wyniki
 Po dodaniu filtru na poziomie wizualizacji usługa Power BI filtruje według wyników zagregowanych.  Domyślna agregacja to sumowanie, ale [typ agregacji można zmienić](service-aggregates.md).  
 

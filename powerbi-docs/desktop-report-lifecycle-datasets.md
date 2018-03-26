@@ -1,15 +1,15 @@
 ---
-title: "Łączenie się z zestawami danych w usłudze Power BI z programu Power BI Desktop"
-description: "Użyj wspólnego zestawu danych dla wielu raportów programu Power BI Desktop i zarządzaj cyklem życia swojego raportu"
+title: Łączenie się z zestawami danych w usłudze Power BI z programu Power BI Desktop
+description: Użyj wspólnego zestawu danych dla wielu raportów programu Power BI Desktop i zarządzaj cyklem życia swojego raportu
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 948c87e3e594ebb0ca2f75f747f7dd6fe36e18e7
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 09da52bea3486d95b730836a393ac0ffe9b10cc4
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Łączenie się z zestawami danych w usłudze Power BI z programu Power BI Desktop
 Możesz nawiązać połączenie na żywo z udostępnionym zestawem danych w usłudze Power BI i utworzyć wiele różnych raportów na podstawie tego samego zestawu danych. Oznacza to, że możesz utworzyć swój doskonały model danych w programie Power BI Desktop, opublikować go w usłudze Power BI, a następnie możesz sam utworzyć wiele różnych raportów (w oddzielnych plikach pbix) na podstawie tego samego, wspólnego modelu danych lub mogą to zrobić inni użytkownicy. Ta funkcja jest nazywana **Połączenie na żywo usługi Power BI**.
@@ -59,7 +59,7 @@ Na poniższej ilustracji zobaczysz, jak Anna tworzy jeden raport programu **Powe
 Teraz, gdy wiemy jak użyteczne jest **połączenie na żywo usługi Power BI** i jak można go użyć jako najlepszego podejścia praktycznego do zarządzania cyklem życia raportu, przyjrzyjmy się krokom, które przeprowadzą nas od wspaniałego raportu (i zestawu danych) Anny do udostępnionego zestawu danych, którego mogą używać członkowie jej zespołu w jej obszarze roboczym usługi Power BI.
 
 ### <a name="publish-a-power-bi-report-and-dataset"></a>Publikowanie raportu i zestawu danych usługi Power BI
-Pierwszym krokiem zarządzania cyklem życia raportu przy użyciu **połączenia na żywo usługi Power BI** jest posiadanie raportu (i zestawu danych), którego chcą używać członkowie zespołu. Więc Anna musi najpierw **opublikować** swój raport z programu **Power BI Destkop**. Robi to, wybierając pozycję **Publikuj** na wstążce **Narzędzia główne** w programie Power BI Desktop.
+Pierwszym krokiem zarządzania cyklem życia raportu przy użyciu **połączenia na żywo usługi Power BI** jest posiadanie raportu (i zestawu danych), którego chcą używać członkowie zespołu. Więc Anna musi najpierw **opublikować** swój raport z programu **Power BI Desktop**. Robi to, wybierając pozycję **Publikuj** na wstążce **Narzędzia główne** w programie Power BI Desktop.
 
 ![](media/desktop-report-lifecycle-datasets/report-lifecycle_02a.png)
 

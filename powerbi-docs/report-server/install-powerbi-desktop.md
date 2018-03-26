@@ -1,35 +1,34 @@
 ---
-title: "Instalowanie programu Power BI Desktop zoptymalizowanego pod kątem serwera raportów usługi Power BI"
-description: "Dowiedz się, jak zainstalować program Power BI Desktop zoptymalizowany pod kątem serwera raportów usługi Power BI"
+title: Instalowanie programu Power BI Desktop zoptymalizowanego pod kątem serwera raportów usługi Power BI
+description: Dowiedz się, jak zainstalować program Power BI Desktop zoptymalizowany pod kątem serwera raportów usługi Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/15/2017
+ms.date: 03/19/2018
 ms.author: maggies
-ms.openlocfilehash: c1c38d9d98c92963534081049cdcc6a557313639
-ms.sourcegitcommit: ea247cb3cfc1cac076d4b076c1ad8e2fc37e15a1
+ms.openlocfilehash: 9951137ac10752a39f0e4ad555a36e2935faf327
+ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/19/2017
+ms.lasthandoff: 03/21/2018
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Instalowanie programu Power BI Desktop zoptymalizowanego pod kątem serwera raportów usługi Power BI
 Dowiedz się, jak zainstalować program Power BI Desktop zoptymalizowany pod kątem serwera raportów usługi Power BI.
 
 Aby utworzyć raporty usługi Power BI dla serwera raportów usługi Power BI, musisz pobrać i zainstalować program Power BI Desktop zoptymalizowany pod kątem serwera raportów usługi Power BI. Ta wersja jest inna niż wersja programu Power BI Desktop używana z usługą Power BI. Na przykład wersja programu Power BI Desktop dla usługi Power BI zawiera funkcje wersji zapoznawczej, które nie są dostępne na serwerze raportów usługi Power BI przed ich premierą. Użycie tej wersji zapewnia, że serwer raportów może współdziałać ze znaną wersją raportów i modelu. 
 
-> [!NOTE]
-> Programy Power BI Desktop i Power BI Desktop zoptymalizowany pod kątem serwera raportów usługi Power BI można zainstalować obok siebie na tym samym komputerze.
+Dobra wiadomość jest taka, że programy Power BI Desktop i Power BI Desktop zoptymalizowany pod kątem serwera raportów usługi Power BI można zainstalować obok siebie na tym samym komputerze.
 
 ## <a name="download-and-install-power-bi-desktop"></a>Pobieranie i instalowanie programu Power BI Desktop
 
@@ -39,7 +38,7 @@ Najprostszym sposobem sprawdzenia, czy masz najnowszą wersję programu Power BI
 
     ![Pobieranie programu Power BI Desktop z portalu internetowego](media/install-powerbi-desktop/report-server-download-web-portal.png)
 
-    Możesz też przejść bezpośrednio do programu [Microsoft Power BI Desktop](https://go.microsoft.com/fwlink/?linkid=861076) (zoptymalizowanego pod kątem serwera raportów usługi Power BI — październik 2017) w Centrum pobierania Microsoft.
+    Możesz też przejść bezpośrednio do programu [Microsoft Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=56723) (zoptymalizowanego pod kątem serwera raportów usługi Power BI — marzec 2018) w Centrum pobierania Microsoft.
 
 2. Na stronie Centrum pobierania wybierz pozycję **Pobierz**.
 
@@ -99,6 +98,13 @@ Następujące funkcje w aplikacjach mobilnych Power BI nie są obsługiwane w ra
 * Wizualizacje niestandardowe
 * Linki do stron nadrzędnych
 * Filtrowanie geograficzne ani kody kreskowe
+
+## <a name="power-bi-desktop-for-earlier-versions-of-power-bi-report-server"></a>Program Power BI Desktop dla wcześniejszych wersji serwera raportów usługi Power BI
+
+Jeśli serwer raportów jest we wcześniejszej wersji, potrzebujesz odpowiedniej wersji programu Power BI Desktop. Oto dwie poprzednie wersje.
+
+- Microsoft Power BI Desktop ([zoptymalizowany do pracy z serwerem raportów usługi Power BI — wersja z października 2017](https://www.microsoft.com/download/details.aspx?id=56136))
+- Microsoft Power BI Desktop ([zoptymalizowany do pracy z serwerem raportów usługi Power BI — wersja z czerwca 2017](https://www.microsoft.com/download/details.aspx?id=55330))
 
 ## <a name="next-steps"></a>Następne kroki
 Program Power BI Desktop został już zainstalowany, więc możesz przystąpić do tworzenia raportów usługi Power BI.
