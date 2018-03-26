@@ -1,27 +1,27 @@
 ---
-title: "Skanowanie kodu QR usługi Power BI przy użyciu urządzenia przenośnego"
-description: "Kody QR w usłudze Power BI mogą łączyć dowolne elementy w świecie rzeczywistym bezpośrednio z powiązanymi informacjami usługi Power BI w aplikacji mobilnej Power BI dla telefonów iPhone i urządzeń z systemem Android."
+title: Skanowanie kodu QR usługi Power BI przy użyciu urządzenia przenośnego
+description: Kody QR w usłudze Power BI mogą łączyć dowolne elementy w świecie rzeczywistym bezpośrednio z powiązanymi informacjami usługi Power BI w aplikacji mobilnej Power BI dla telefonów iPhone i urządzeń z systemem Android.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 03/13/2018
 ms.author: maggies
-ms.openlocfilehash: 80c8de8626f2d891a7875933ee72a43dd5d7f09e
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 2716452f285d8df0aa0d3b89c2b9b36aa87cc5cc
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="scan-a-power-bi-qr-code-from-your-mobile-device"></a>Skanowanie kodu QR usługi Power BI przy użyciu urządzenia przenośnego
 Dotyczy:
@@ -36,10 +36,10 @@ Załóżmy, że współpracownik [utworzył kod QR w usłudze Power BI](service-
 
 Możesz zeskanować kod QR, aby natychmiast uzyskać dostęp do odpowiedniego kafelka lub raportu bezpośrednio z telefonu, przy użyciu skanera w aplikacji Power BI lub innego skanera zainstalowanego na telefonie. 
 
+Jeśli współpracownik nie udostępnił Ci pulpitu nawigacyjnego lub raportu, możesz zażądać dostępu bezpośrednio z poziomu aplikacji mobilnej. 
+
 > [!NOTE]
-> Jeśli współpracownik nie udostępnił Ci pulpitu nawigacyjnego lub raportu, możesz zażądać dostępu bezpośrednio z poziomu aplikacji mobilnej.
-> 
-> 
+> Możesz również [zeskanować kod QR raportu za pomocą aplikacji usługi Power BI dla rzeczywistości mieszanej](mobile-mixed-reality-app.md#scan-a-report-qr-code-in-holographic-view).
 
 ## <a name="scan-a-power-bi-qr-code-on-your-iphone-with-the-power-bi-scanner"></a>Skanowanie kodu QR usługi Power BI na telefonie iPhone za pomocą skanera usługi Power BI
 1. W aplikacji mobilnej Power BI otwórz globalne menu nawigacji ![](media/mobile-apps-qr-code/power-bi-iphone-global-nav-button.png) w lewym górnym rogu. 
@@ -80,5 +80,6 @@ Możesz zeskanować kod QR, aby natychmiast uzyskać dostęp do odpowiedniego ka
 * [Nawiązywanie połączenia z danymi usługi Power BI ze środowisk rzeczywistych](mobile-apps-data-in-real-world-context.md) za pomocą aplikacji mobilnych
 * [Tworzenie kodu QR kafelka w usłudze Power BI](service-create-qr-code-for-tile.md)
 * [Tworzenie kodu QR raportu w usłudze Power BI](service-create-qr-code-for-report.md)
+* Możesz również [zeskanować kod QR za pomocą aplikacji usługi Power BI dla rzeczywistości mieszanej](mobile-mixed-reality-app.md)
 * Masz pytania? [Zadaj pytanie społeczności usługi Power BI](http://community.powerbi.com/)
 

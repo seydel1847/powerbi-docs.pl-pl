@@ -1,15 +1,15 @@
 ---
-title: "Dane wielowymiarowe usług Analysis Services w programie Power BI Desktop"
-description: "Dane wielowymiarowe usług Analysis Services w programie Power BI Desktop"
+title: Dane wielowymiarowe usług Analysis Services w programie Power BI Desktop
+description: Dane wielowymiarowe usług Analysis Services w programie Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,16 +18,16 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6009f938d2dc8961dc63cb0ac6b08459f41f3ea3
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 18f80073bf690cd6fc64f94d25f8aad8bf5044e1
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="connect-to-ssas-multidimensional-models-in-power-bi-desktop"></a>Łączenie się z modelami wielowymiarowymi usług SSAS w programie Power BI Desktop
 Program Power BI Desktop umożliwia dostęp do **modeli wielowymiarowych usług SSAS**, często nazywanych **SSAS MD**.
 
-Aby nawiązać połączenie z bazą danych **SSAS MD**, wybierz pozycję **Pobierz dane &gt; Baza danych &gt; Baza danych programu SQL Server Analysis Services**, jak pokazano na poniższym obrazie.
+Aby nawiązać połączenie z bazą danych **SSAS MD**, wybierz pozycję **Pobierz dane &gt; Baza danych &gt; Baza danych programu SQL Server Analysis Services**, jak pokazano na poniższym obrazie:
 
 ![](media/desktop-ssas-multidimensional/ssas-multidimensional-2.png)
 
@@ -42,8 +42,8 @@ W poniższej tabeli przedstawiono związek między obiektami wielowymiarowymi i 
 | Obiekt wielowymiarowy modelu BISM | Metadane tabelaryczne |
 | --- | --- |
 | Moduł |Model |
-| Wymiar modułu |Tabela |
-| Wymiary atrybutów (klucze, nazwa) |Kolumny |
+| Wymiar modułu |tabela |
+| Atrybuty wymiaru (klucze), nazwa |Kolumny |
 | Grupa miar |Tabela |
 | Miara |Miara |
 | Miary bez skojarzonej grupy miar |W tabeli o nazwie *Miary* |
@@ -71,7 +71,7 @@ Modele wielowymiarowe obsługują tworzenie różnych typów *obliczeniowych ele
 * Obliczeniowe elementy członkowskie hierarchii atrybutów, nierównorzędne z elementem *Wszystkie*
 * Obliczeniowe elementy członkowskie w hierarchii użytkownika
 
-Model wielowymiarowy przedstawia *obliczeniowe elementy członkowskie w hierarchii atrybutów* jako wartości kolumny. Istnieje kilka dodatkowych opcji i ograniczeń dotyczących przedstawiania tego rodzaju obliczeniowego elementu członkowskiego:
+Modele wielowymiarowe przedstawiają *obliczeniowe elementy członkowskie w hierarchii atrybutów* jako wartości kolumny. Istnieje kilka dodatkowych opcji i ograniczeń dotyczących przedstawiania tego rodzaju obliczeniowego elementu członkowskiego:
 
 * Atrybut wymiaru może mieć opcjonalną właściwość *UnknownMember*
 * Atrybut zawierający obliczeniowe elementy członkowskie nie może być atrybutem klucza wymiaru, chyba że jest to jedyny atrybut wymiaru

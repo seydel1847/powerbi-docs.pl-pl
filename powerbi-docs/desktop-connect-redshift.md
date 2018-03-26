@@ -1,15 +1,15 @@
 ---
-title: "Nawiązywanie połączenia z bazą danych Amazon Redshift w programie Power BI Desktop"
-description: "Łatwe nawiązywanie połączenia z bazą danych Amazon Redshift i korzystanie z niej w programie Power BI Desktop"
+title: Nawiązywanie połączenia z bazą danych Amazon Redshift w programie Power BI Desktop
+description: Łatwe nawiązywanie połączenia z bazą danych Amazon Redshift i korzystanie z niej w programie Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: de0e6b61197bfe25048a2722d5aab42f1c15e999
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 9597d056067fb1af291f46a088b94a39da57eab9
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="connect-to-amazon-redshift-in-power-bi-desktop"></a>Nawiązywanie połączenia z bazą danych Amazon Redshift w programie Power BI Desktop
 W programie **Power BI Desktop** możesz nawiązać połączenie z bazą danych **Amazon Redshift** i korzystać z danych źródłowych w taki sam sposób, jak w przypadku dowolnego innego źródła danych w programie Power BI Desktop.
@@ -46,7 +46,7 @@ Po pomyślnym nawiązaniu połączenia zostanie wyświetlone okno **Nawigator** 
 
 Po dokonaniu wyborów w oknie **Nawigator** możesz **załadować** lub**edytować** dane.
 
-* Jeśli zdecydujesz się **załadować** dane, zostanie wyświetlony monit dotyczący wyboru trybu, którym zostać użyty do załadowania danych: *Import* czy *Zapytanie bezpośrednie*. Aby uzyskać więcej informacji, zapoznaj się z [tym artykułem zawierającym omówienie zapytania bezpośredniego](desktop-use-directquery.md).
+* Jeśli zdecydujesz się **załadować** dane, zostanie wyświetlony monit dotyczący wyboru trybu, który ma zostać użyty do załadowania danych: *Import* czy *Zapytanie bezpośrednie*. Aby uzyskać więcej informacji, zapoznaj się z [tym artykułem zawierającym omówienie zapytania bezpośredniego](desktop-use-directquery.md).
 * Jeśli wybrano opcję **edytowania** danych, zostanie wyświetlony **Edytor zapytań**, w którym można zastosować szeroką gamę przekształceń i filtrów dotyczących danych, z których wiele ma zastosowanie względem samej bazy danych **Amazon Redshift**  (jeśli jest to obsługiwane).
 
 ## <a name="next-steps"></a>Następne kroki

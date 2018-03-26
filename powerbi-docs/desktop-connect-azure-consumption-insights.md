@@ -1,15 +1,15 @@
 ---
-title: "Nawiązywanie połączenia z łącznikiem Azure Consumption Insights za pomocą programu Power BI Desktop (wersja beta)"
-description: "Łatwo połącz się z platformą Azure i uzyskaj szczegółowe dane na temat użycia za pomocą programu Power BI Desktop"
+title: Nawiązywanie połączenia z łącznikiem Azure Consumption Insights za pomocą programu Power BI Desktop (wersja beta)
+description: Łatwo połącz się z platformą Azure i uzyskaj szczegółowe dane na temat użycia za pomocą programu Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,18 +18,18 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 9127f7b2e19a304c514d5e6449cf1ceb7ecddb13
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 1e82ec988389790a3d96cb6f98f0db5d1a385fda
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>Nawiązywanie połączenia z łącznikiem Azure Consumption Insights za pomocą programu Power BI Desktop (wersja beta)
 Korzystając z łącznika **Azure Consumption Insights**, można za pomocą usługi **Power BI Desktop** połączyć się z platformą Azure i uzyskać szczegółowe dane oraz informacje użyciu usług Azure w danej organizacji. Informacje o użyciu platformy Azure w organizacji można także prezentować w raportach i udostępniać, tworząc miary, kolumny niestandardowe i wizualizacje. To wydanie łącznika **Azure Consumption Insights** jest w wersji beta i może ulec zmianom.
 
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_01.png)
 
-W tym artykule dowiesz się, jak nawiązać połączenie z łącznikiem **Azure Consumption Insights** i uzyskać potrzebne dane, a także jak przeprowadzić migrację za pomocą łącznika Azure Enterprise Connector. Artykuł zawiera również mapowanie *kolumn ze szczegółami użycia* dostępnych w interfejsie użytkownika łącznika **Azure Consumption Insights**.
+W tym artykule dowiesz się, jak nawiązać połączenie z łącznikiem **Azure Consumption Insights** i uzyskać potrzebne dane, a także jak przeprowadzić migrację za pomocą łącznika Azure Enterprise Connector. Artykuł zawiera również mapowanie *kolumn ze szczegółami użycia* dostępnych w interfejsie API łącznika **Azure Consumption Insights**.
 
 ## <a name="connect-to-azure-consumption-insights"></a>Nawiązywanie połączenia z łącznikiem Azure Consumption Insights
 Aby pomyślnie nawiązać połączenie za pomocą łącznika **Azure Consumption Insights**, potrzebny jest dostęp do funkcji dla przedsiębiorstw w witrynie Azure Portal.
@@ -42,7 +42,7 @@ W wyświetlonym oknie dialogowym wybierz pozycję *Numer rejestracji*.
 
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_02.png)
 
-* Numer rejestracji można uzyskać w portalu [Azure Enterprise Portal](https://ea.azure.com), w lokalizacji przedstawionej na poniższym obrazie.
+* Numer rejestracji można uzyskać w portalu [Azure Enterprise Portal](https://ea.azure.com), w lokalizacji przedstawionej na poniższym obrazie:
   
   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_08.png)
   
@@ -61,7 +61,7 @@ Kiedy podasz swój *Klucz dostępu* i wybierzesz pozycję **Połącz**, zostanie
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_04.png)
 
 > [!NOTE]
-> Tabele *Summary (Podsumowanie) i *PriceSheet* (Cennik) są dostępne tylko w przypadku klucza interfejsu API na poziomie rejestracji. Ponadto dane w tabelach *Usage* (Użycie) i *PriceSheet* (Cennik) domyślnie zawierają dane z bieżącego miesiąca. Zawartości tabel *Summary* (Podsumowanie) i *MarketPlace* nie jest ograniczona do bieżącego miesiąca.
+> Tabele *Summary* (Podsumowanie) i *PriceSheet* (Cennik) są dostępne tylko w przypadku klucza interfejsu API na poziomie rejestracji. Ponadto dane w tabelach *Usage* (Użycie) i *PriceSheet* (Cennik) domyślnie zawierają dane z bieżącego miesiąca. Zawartości tabel *Summary* (Podsumowanie) i *MarketPlace* nie jest ograniczona do bieżącego miesiąca.
 > 
 > 
 
@@ -84,16 +84,16 @@ Na **pasku formuły** wpisz następujący ciąg:
 
     = MicrosoftAzureConsumptionInsights.Contents
 
-Zostanie wyświetlona kolekcja przykładów, jak na poniższym obrazie.
+Zostanie wyświetlona kolekcja przykładów, jak na poniższym obrazie:
 
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_07.png)
 
 Podczas pracy z raportami i tworzenia zapytań korzystaj z następujących wskazówek:
 
-* Aby zdefiniować liczbę miesięcy, zaczynając od dnia dzisiejszego, użyj parametru *noOfMonths*.
+* Aby zdefiniować liczbę miesięcy, zaczynając od dnia dzisiejszego, użyj parametru *numberOfMonth*.
   * Aby określić liczbę miesięcy (od dnia dzisiejszego) do zaimportowania, podaj wartość od zera do 36. Ze względu na ograniczenia dotyczące importowania i ilości danych obsługiwanych przez zapytania w usłudze Power BI zalecamy, aby nie importować więcej niż 12 miesięcy danych.
 * Aby zdefiniować zakres miesięcy z przeszłości, użyj parametrów *startBillingDataWindow* i *endBillingDataWindow*.
-* *Nie* używaj parametru *noOfMonths* w połączeniu z parametrem *startBillingDataWindow* lub *endBillingDataWindow*.
+* *Nie* używaj parametru *numberOfMonth* w połączeniu z parametrem *startBillingDataWindow* ani *endBillingDataWindow*.
 
 ## <a name="migrating-from-the-azure-enterprise-connector"></a>Migrowanie danych z łącznika Azure Enterprise Connector
 Część klientów ma wizualizacje utworzone za pomocą łącznika *Azure Enterprise Connector (beta)*, który w przyszłości przestanie być obsługiwany i jest obecnie zastępowany łącznikiem **Azure Consumption Insights**. Łącznik **Azure Consumption Insights** obejmuje następujące funkcje i udoskonalenia:
@@ -108,7 +108,7 @@ Poniższa procedura pomoże klientom w przejściu na nowszy łącznik **Azure Co
 Pierwszym krokiem jest nawiązanie połączenia przy użyciu łącznika **Azure Consumption Insights**, co opisano szczegółowo wcześniej w tym artykule. Wybierz pozycję **Pobierz dane > Puste zapytanie** na wstążce **Narzędzia główne** w programie **Power BI Desktop**.
 
 ### <a name="step-2-use-the-advanced-editor-to-create-a-query"></a>Krok 2. Utworzenie zapytania za pomocą edytora zaawansowanego
-W **edytorze zapytań** wybierz pozycję **Edytor zaawansowany** dostępną w sekcji **Zapytanie** na wstążce **Narzędzia główne**. W oknie **Edytor zaawansowany** wprowadź poniższe zapytanie.
+W **edytorze zapytań** wybierz pozycję **Edytor zaawansowany** dostępną w sekcji **Zapytanie** na wstążce **Narzędzia główne**. W oknie **Edytor zaawansowany** wprowadź poniższe zapytanie:
 
     let    
         enrollmentNumber = "100",
@@ -131,7 +131,7 @@ Następnym krokiem jest przeniesienie wszelkich utworzonych miar lub kolumn nies
    
    ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_11.png)
 3. Zmień nazwę *Query1* na oryginalną nazwę tabeli szczegółów.
-4. Utwórz w tabeli nowe miary i kolumny niestandardowe, klikając prawym przyciskiem myszy tabelę i wybierając pozycję **Nowa miara**, a następnie wycinaj i wklejaj miary i kolumny dotyczące magazynu, aż będą gotowe.
+4. Utwórz w tabeli nowe miary i kolumny niestandardowe, klikając prawym przyciskiem myszy tabelę i wybierając pozycję **Nowa miara**, a następnie wycinaj i wklejaj przechowywane miary i kolumny, aż będą gotowe.
 
 ### <a name="step-4-re-link-tables-that-had-relationships"></a>Krok 4. Ponowne łączenie tabel, które miały relacje
 Wiele pulpitów nawigacyjnych posiada dodatkowe tabele używane do przeszukiwania lub filtrowania (np. tabele danych lub tabele używane w projektach niestandardowych). Ponowne ustanowienie tych relacji rozwiązuje większość pozostałych problemów. Oto odpowiednie czynności:

@@ -1,15 +1,15 @@
 ---
-title: "Używanie danych tabelarycznych usług Analysis Services w programie Power BI Desktop"
-description: "Dane tabelaryczne usług Analysis Services w programie Power BI Desktop"
+title: Używanie danych tabelarycznych usług Analysis Services w programie Power BI Desktop
+description: Dane tabelaryczne usług Analysis Services w programie Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 02ce801db4eb6f5040c1d0e31ee0746a475c0bbb
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: ac5786c51fdf3f927605fdf20123a8ea93e74f8a
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="using-analysis-services-tabular-data-in-power-bi-desktop"></a>Używanie danych tabelarycznych usług Analysis Services w programie Power BI Desktop
 Program Power BI Desktop zapewnia dwa sposoby nawiązywania połączenia i pobierania danych z modeli tabelarycznych usług programu SQL Server Analysis Services: eksplorowanie przy użyciu połączenia na żywo lub wybranie elementów i zaimportowanie ich do programu Power BI Desktop.
@@ -54,7 +54,7 @@ Po utworzeniu dynamicznych raportów w programie Power BI Desktop możesz udost�
   ![](media/desktop-analysis-services-tabular-data/pbid_sqlas_getdata_as_live.png)
 * Jeśli używasz opcji Wybierz elementy i pobierz dane, w nawigatorze wybierz model tabelaryczny lub perspektywę. Możesz dodatkowo wybrać tylko konkretne tabele lub kolumny do załadowania. Aby ukształtować dane przed załadowaniem, kliknij opcję Edytuj, aby otworzyć edytor zapytań. Gdy wszystko będzie gotowe, kliknij opcję Załaduj, aby zaimportować dane do programu Power BI Desktop.
 
-![](media/desktop-analysis-services-tabular-data/pbid_sqlas_getdata_as_select.png)
+  ![](media/desktop-analysis-services-tabular-data/pbid_sqlas_getdata_as_select.png)
 
 ## <a name="frequently-asked-questions"></a>Często zadawane pytania
 **Pytanie:** Czy potrzebuję lokalnej bramy danych?

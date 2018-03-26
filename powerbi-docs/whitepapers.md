@@ -1,27 +1,27 @@
 ---
-title: "Oficjalne dokumenty dla usługi Power BI"
-description: "Oficjalne dokumenty pozwalają zapoznać się dokładniej z tematami dotyczącymi usługi Power BI."
+title: Oficjalne dokumenty dla usługi Power BI
+description: Oficjalne dokumenty pozwalają zapoznać się dokładniej z tematami dotyczącymi usługi Power BI.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/05/2018
+ms.date: 03/16/2018
 ms.author: maghan
-ms.openlocfilehash: ac3f2b52374df0ea9a153a97548e40420388181d
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 5e9e0ea009e403b89af7ff67e81062433ba56b80
+ms.sourcegitcommit: 863df35192b9aba1e7c22a64bc8df24418416730
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/17/2018
 ---
 # <a name="whitepapers-for-power-bi"></a>Oficjalne dokumenty dla usługi Power BI
 
@@ -42,5 +42,6 @@ Oficjalne dokumenty pozwalają zapoznać się dokładniej z tematami dotyczącym
 | [Zabezpieczanie tabelarycznego semantycznego modelu analizy biznesowej](http://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) |W tym dokumencie przedstawiono model zabezpieczeń semantycznego modelu analizy biznesowej i usługi Power BI. Dowiesz się, jak tworzyć role, implementować dynamiczne zabezpieczenia, konfigurować ustawienia personifikacji, zarządzać rolami i wybierać metody nawiązywania połączeń z modelami, które działają w ramach danego kontekstu zabezpieczeń sieciowych. |
 | [Wskazówki dotyczące planowania wydajności serwera raportów usługi Power BI](report-server/capacity-planning.md) |Ten dokument zawiera wskazówki dotyczące planowania wydajności serwera raportów usługi Power BI przez udostępnianie wyników licznych testów obciążenia wykonywanych na serwerze raportów przy różnych obciążeniach. |
 | [Planowanie i wdrażanie usługi Power BI Premium](https://aka.ms/Premium-Capacity-Planning-Deployment)| Ten dokument zawiera wskazówki i najlepsze rozwiązania dotyczące planowania i wdrażania pojemności Premium dla dokładnie zdefiniowanych obciążeń.|
+| [Usługa Power BI i SAP BW](https://aka.ms/powerbiandsapbw)| W tym dokumencie opisano, w jaki sposób klienci systemu SAP mogą skorzystać z połączenia usługi Power BI z istniejącymi systemami SAP Business Warehouse (BW).|
 
 Więcej pytań? [Zadaj pytanie społeczności usługi Power BI](http://community.powerbi.com/)

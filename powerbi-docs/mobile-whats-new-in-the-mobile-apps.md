@@ -1,27 +1,27 @@
 ---
-title: "Co nowego w aplikacjach mobilnych dla usługi Power BI"
-description: "Co nowego w aplikacjach mobilnych dla usługi Power BI"
+title: Co nowego w aplikacjach mobilnych dla usługi Power BI
+description: Co nowego w aplikacjach mobilnych dla usługi Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/15/2018
+ms.date: 03/13/2018
 ms.author: maggies
-ms.openlocfilehash: 530e4a2dc47a2d790dde3d7d1e7a2faeb7d79732
-ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
+ms.openlocfilehash: 5c2573bf4a3900b4d4216170e843263bc41a4e07
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Co nowego w aplikacjach mobilnych dla usługi Power BI
 Powiązane nowości są dostępne w następujących artykułach:
@@ -30,11 +30,21 @@ Powiązane nowości są dostępne w następujących artykułach:
 * [Co nowego w programie Power BI Desktop](desktop-latest-update.md)  
 * [Co nowego w usłudze Power BI](service-whats-new.md)  
 
+## <a name="march-2018"></a>Marzec 2018
+
+### <a name="power-bi-for-mixed-reality-app-preview"></a>Aplikacja usługi Power BI dla rzeczywistości mieszanej (wersja zapoznawcza)
+
+Dążąc do zapewnienia dostępności danych w dowolnych lokalizacjach, utworzyliśmy niedawno aplikację usługi Power BI dla rzeczywistości mieszanej. Wyświetlaj swoje pulpity nawigacyjne i raporty w świecie wirtualnym lub umieszczaj je i wyświetlaj w określonych lokalizacjach w kontekście środowiska. Dowiedz się więcej o nowej [aplikacji usługi Power BI dla rzeczywistości mieszanej](mobile-mixed-reality-app.md).
+
 ## <a name="february-2018"></a>Luty 2018
 
 ### <a name="share-reports"></a>Udostępnianie raportów
 
 Teraz możesz udostępniać raporty bezpośrednio z aplikacji mobilnych. Więcej informacji o [udostępnianiu pulpitów nawigacyjnych i raportów z aplikacji mobilnych](mobile-share-dashboard-from-the-mobile-apps.md).
+
+### <a name="improved-tooltips"></a>Ulepszone etykietki narzędzi
+
+Jeśli naciśniesz i przytrzymasz wizualizację raportu w celu uzyskania dostępu do etykietek narzędzi, możesz teraz przeciągnąć palec przez wizualizację, aby poznać szczegóły dotyczące poszczególnych punktów danych.
 
 ## <a name="january-2018"></a>Styczeń 2018
 

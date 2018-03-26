@@ -1,40 +1,34 @@
 ---
-title: "Szybki start: instalowanie serwera raportów usługi Power BI"
-description: "Instalacja serwera raportów usługi Power BI jest niezwykle szybka. Uwzględniając pobieranie, instalowanie i konfigurowanie, jego uruchomienie powinno zająć zaledwie kilka minut."
+title: 'Szybki start: instalowanie serwera raportów usługi Power BI'
+description: Instalacja serwera raportów usługi Power BI jest niezwykle szybka. Uwzględniając pobieranie, instalowanie i konfigurowanie, jego uruchomienie powinno zająć zaledwie kilka minut.
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/29/2018
-ms.author: maghan
-ms.openlocfilehash: 3ddf8870fd4fb3186ff884220fc4a7de7632c78d
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.date: 03/19/2018
+ms.author: maggies
+ms.openlocfilehash: 625864384f73260ec0f62b74ff9a95e966289da0
+ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/21/2018
 ---
 # <a name="quickstart-install-power-bi-report-server"></a>Szybki start: instalowanie serwera raportów usługi Power BI
 Instalacja serwera raportów usługi Power BI jest niezwykle szybka. Uwzględniając pobieranie, instalowanie i konfigurowanie, jego uruchomienie powinno zająć zaledwie kilka minut.
 
 To jest krótkie omówienie sposobu instalacji serwera raportów, jeśli użytkownik chce uruchomić nowy serwer. Aby uzyskać bardziej szczegółowe informacje na temat instalowania serwera raportów, zobacz temat [Instalowanie serwera raportów usługi Power BI](install-report-server.md).
 
- **Pobieranie** ![pobieranie](media/quickstart-install-report-server/download.png "pobieranie")
-
-Aby pobrać serwer raportów usługi Power BI, przejdź do tematu [Raportowanie lokalne przy użyciu serwera raportów usługi Power BI](https://powerbi.microsoft.com/report-server/). 
-
-Przejdź do Centrum pobierania firmy Microsoft, aby pobrać program [Microsoft Power BI Desktop](https://go.microsoft.com/fwlink/?linkid=861076) (zoptymalizowany dla serwera raportów usługi Power BI — październik 2017).
-
-![Porada](media/quickstart-install-report-server/fyi-tip.png "Porada") Aby uzyskać bieżące informacje o wersji, zobacz [Informacje o wersji serwera raportów usługi Power BI](release-notes.md).
+## <a name="video-install-power-bi-report-server"></a>Wideo: Instalacja serwera raportów usługi Power BI
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/zacaEb9A4F0?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
@@ -42,7 +36,10 @@ Przejdź do Centrum pobierania firmy Microsoft, aby pobrać program [Microsoft P
 Przed zainstalowaniem serwera raportów usługi Power BI zalecane jest przejrzenie tematu [Wymagania sprzętowe i programowe dotyczące instalowania serwera raportów usługi Power BI](system-requirements.md).
 
 ## <a name="step-1-download"></a>Krok 1. Pobieranie
-Pobierz lokalnie pliki dla serwera raportów usługi Power BI. Aby pobrać serwer raportów usługi Power BI, przejdź do [Centrum pobierania firmy Microsoft](https://go.microsoft.com/fwlink/?linkid=839351).
+
+Aby pobrać serwer raportów usługi Power BI i program Power BI Desktop zoptymalizowany pod kątem serwera raportów usługi Power BI, przejdź do artykułu [Lokalne raportowanie za pomocą serwera raportów usługi Power BI](https://powerbi.microsoft.com/report-server/) i wybierz pozycję **Pobierz bezpłatną wersję próbną**.
+
+Postępuj zgodnie z instrukcjami, aby pobrać lokalnie pliki dla serwera raportów usługi Power BI. 
 
 ![Pobieranie serwera raportów usługi Power BI](media/quickstart-install-report-server/download-pbireportserver.png)
 

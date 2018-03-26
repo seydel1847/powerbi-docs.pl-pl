@@ -1,15 +1,15 @@
 ---
-title: "Używanie mapowań kształtów w programie Power BI Desktop (wersja zapoznawcza)"
-description: "Tworzenie porównań względnych z innymi regionami przy użyciu mapowań kształtów w programie Power BI Desktop"
+title: Używanie mapowań kształtów w programie Power BI Desktop (wersja zapoznawcza)
+description: Tworzenie porównań względnych z innymi regionami przy użyciu mapowań kształtów w programie Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/16/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 335e9800be3d2a2cd30cc84835ab7b0173922c46
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 2bdd29f664d49dd4628b2f27d0eddf1f5dad1cf7
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Mapowania kształtów w programie Power BI Desktop (wersja zapoznawcza)
 Program Power BI Desktop umożliwia utworzenie wizualizacji **Mapowanie kształtów**, która pozwala wyświetlić porównania względne regionów na mapie za pomocą różnych kolorów. W przeciwieństwie do wizualizacji **Mapa** wizualizacja **Mapowanie kształtów** nie umożliwia wyświetlenia dokładnych lokalizacji geograficznych punktów danych. Służy ona głównie do pokazywania porównań względnych regionów na mapie przy użyciu różnych kolorów.
@@ -73,6 +73,23 @@ Wizualizacji **Mapowanie kształtów** można używać z niestandardowymi mapami
 Aby użyć pliku mapy **TopoJSON**, dodaj wizualizację Mapowanie kształtów do raportu, a następnie dodaj dane do zasobników *Lokalizacja* i *Wartości*. Następnie przy wybranej sekcji **Format** (ikona pędzla, oznaczona jako (1) na poniższej ilustracji) w okienku **Wizualizacje** rozwiń sekcję **Kształt** i wybierz pozycję **+ Dodaj mapę**.
 
 ![](media/desktop-shape-map/shape-map_6.png)
+
+## <a name="sample-custom-map"></a>Przykładowa mapa niestandardowa
+W witrynie *Offices of the United States Attorneys* są publikowane roczne raporty obrachunkowe na podstawie danych z postępowań sądowych i rozpatrywanych spraw.  Wszystkie te raporty można uzyskać, korzystając z poniższego linku.
+
+https://www.justice.gov/usao/resources/annual-statistical-reports
+
+Poszczególne stany można podzielić na wiele okręgów, dlatego musimy użyć niestandardowej mapy kształtów.  Po zaimportowaniu mapy **TopoJSON** okręgów sądowych Stanów Zjednoczonych do programu **Power BI Desktop** możemy zwizualizować roczne dane obrachunkowe dotyczące okręgów sądowych.  Na poniższym obrazie przedstawiono przykład takiej mapy.
+
+![](media/desktop-shape-map/shape-map_7a.png)
+
+Korzystając z map stanów, można również przeprowadzić interesujące analizy i przedstawić bardziej szczegółowe dane na podstawie okręgów wchodzących w skład poszczególnych stanów. 
+
+![](media/desktop-shape-map/shape-map_7b.png)
+
+Jeśli chcesz poeksperymentować z tym zestawem danych i tą wizualizacją, możesz pobrać oryginalny plik PBIX użyty do wygenerowania tego raportu, korzystając z następującego linku.
+
+* [Plik PBIX demonstracji niestandardowej mapy kształtów](http://download.microsoft.com/download/1/2/8/128943FB-9231-42BD-8A5D-5E2362C9D589/DistrictAttorneyFiscalReport.pbix)
 
 ## <a name="getting-map-data"></a>Uzyskiwanie danych mapy
 Aby szybko wprowadzić dane do modelu w celu przetestowania wizualizacji **Mapowanie kształtów**, możesz skopiować jedną z tabel znajdujących się na końcu tego artykułu, a następnie wybrać pozycję **Wprowadź dane** na wstążce **Narzędzia główne**.

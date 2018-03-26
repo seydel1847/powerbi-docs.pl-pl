@@ -1,27 +1,27 @@
 ---
-title: "Jak osadzić pulpity nawigacyjne, raporty i kafelki usługi Power BI"
-description: "Poznaj więcej informacji na temat kroków, które musisz wykonać, aby osadzić zawartość usługi Power BI w aplikacji."
+title: Jak osadzić pulpity nawigacyjne, raporty i kafelki usługi Power BI
+description: Poznaj więcej informacji na temat kroków, które musisz wykonać, aby osadzić zawartość usługi Power BI w aplikacji.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/11/2018
+ms.date: 03/12/2018
 ms.author: maghan
-ms.openlocfilehash: ff39d6847a296622d8ce0903370d17d41662df0c
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 014601a4c85be53d6fd06a455d04e5ee1f8daf2d
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="embed-your-power-bi-dashboards-reports-and-tiles"></a>Osadzanie pulpitów nawigacyjnych, raportów i kafelków usługi Power BI
 
@@ -88,6 +88,10 @@ Aplikację należy zarejestrować w usłudze Azure AD, aby móc wykonywać wywo�
 Jeśli osadzasz pulpity nawigacyjne i raporty dla klientów, należy umieścić je w obszarze roboczym aplikacji. Konto *główne* wspomniane powyżej musi być kontem administratora obszaru roboczego aplikacji.
 
 [!INCLUDE [powerbi-service-create-app-workspace](../includes/powerbi-service-create-app-workspace.md)]
+
+> [!NOTE]
+> Użytkownik bez uprawnień administratora może utworzyć maksymalnie 250 obszarów roboczych aplikacji. Aby utworzyć więcej obszarów roboczych aplikacji, należy użyć konta administratora dzierżawy.
+>
 
 ### <a name="create-and-upload-your-reports"></a>Tworzenie i przekazywanie raportów
 

@@ -1,27 +1,27 @@
 ---
-title: "Plan pomocy technicznej dla serwera raportów usługi Power BI"
-description: "Lista wersji i dostępności serwera raportów usługi Power BI."
+title: Plan pomocy technicznej dla serwera raportów usługi Power BI
+description: Lista wersji i dostępności serwera raportów usługi Power BI.
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/04/2017
-ms.author: maghan
-ms.openlocfilehash: d5696e76f12af65627fe8166d330b0b7f444f4d2
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.date: 03/19/2018
+ms.author: maggies
+ms.openlocfilehash: 995b1aab5547369ef9c4ceebae3f69c268107164
+ms.sourcegitcommit: 0473a155495a7a9ba4b899d0815100426718b7ac
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/20/2018
 ---
 # <a name="support-timeline-for-power-bi-report-server"></a>Plan pomocy technicznej dla serwera raportów usługi Power BI
 Serwer raportów usługi Power BI będzie wydawany kilka razy w roku. Aktualizacje zabezpieczeń i aktualizacje krytyczne będą dostępne do momentu, w którym kolejne wydanie stanie się ogólnie dostępne (GA). Po wydaniu następnej wersji poprzednie wydanie będzie otrzymywać aktualizacje zabezpieczeń przez pozostałą część 12-miesięcznego cyklu życia wersji.
@@ -31,21 +31,19 @@ Te zasady pomocy technicznej umożliwiają nam wdrażanie innowacji dla klientó
 * Faza obsługi aktualizacji zabezpieczeń i aktualizacji krytycznych — podczas uruchamiania najnowszej bieżącej wersji serwera raportów usługi Raport BI otrzymasz aktualizacje zabezpieczeń i aktualizacje krytyczne.
 * Faza obsługi aktualizacji zabezpieczeń (tylko) — po wydaniu nowej wersji pomoc techniczna dla starszych wersji zostanie zredukowana wyłącznie do aktualizacji zabezpieczeń w pozostałej części dwunastomiesięcznego (12) cyklu życia obsługi (rysunek 1).
 
-    ![Wykres pokazujący przedział czasu obsługi](media/support-timeline/report-server-support-timeline.png)
+    ![Wykres pokazujący przedział czasu obsługi](media/support-timeline/report-server-support-timeline-mar-2018.png)
 
 ## <a name="version-history"></a>Historia wersji
 | **Wersja** | **Data dostępności** | **Data zakończenia obsługi** |
 | --- | --- | --- |
-| Październik 2017 |31 października 2017 r. |31 października 2018 r. |
 | Czerwiec 2017 |12 czerwca 2017 r. |12 czerwca 2018 r. |
+| Październik 2017 |31 października 2017 r. |31 października 2018 r. |
+| Marzec 2018 r. | 19 marca 2018 r. | 19 marca 2019 r. |
 
 Aby pobrać serwer raportów usługi Power BI i program Power BI Desktop zoptymalizowany pod kątem serwera raportów usługi Power BI, przejdź do [Lokalne raportowanie za pomocą serwera raportów usługi Power BI](https://powerbi.microsoft.com/report-server/).
 
-Aby uzyskać bieżące informacje o wersji, zobacz [Informacje o wersji serwera raportów usługi Power BI](release-notes.md).
-
 ## <a name="next-steps"></a>Następne kroki
 [Co nowego w serwerze raportów usługi Power BI](whats-new.md)  
-[Informacje o wersji serwera raportów usługi Power BI](release-notes.md)  
 [Podręcznik użytkownika](user-handbook-overview.md)  
 [Podręcznik administratora](admin-handbook-overview.md)  
 [Szybki start: instalowanie serwera raportów usługi Power BI](quickstart-install-report-server.md)  

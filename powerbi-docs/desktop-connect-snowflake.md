@@ -1,15 +1,15 @@
 ---
-title: "Łączenie się z magazynem Snowflake Computing w programie Power BI Desktop"
-description: "Łatwe łączenie się z magazynem Snowflake Computing i korzystanie z niego w programie Power BI Desktop"
+title: Łączenie się z magazynem Snowflake Computing w programie Power BI Desktop
+description: Łatwe łączenie się z magazynem Snowflake Computing i korzystanie z niego w programie Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 8e4ad8d1780684ee122565dee29c0cea78dc8131
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 762a8bebfa757b41bfeafb54b278eca41a57f35d
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="connect-to-snowflake-in-power-bi-desktop"></a>Łączenie się z usługą Snowflake w programie Power BI Desktop
 W programie Power BI Desktop możesz nawiązać połączenie z magazynem **Snowflake Computing** i korzystać z danych źródłowych w taki sam sposób jak w przypadku dowolnego innego źródła danych w programie Power BI Desktop. 

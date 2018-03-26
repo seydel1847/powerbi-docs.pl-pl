@@ -1,35 +1,35 @@
 ---
-title: "Tworzenie kodu QR dla raportu do wykorzystania w aplikacjach mobilnych usługi Power BI"
-description: "Kody QR w usłudze Power BI mogą łączyć dowolne elementy w świecie rzeczywistym bezpośrednio z powiązanymi informacjami analizy biznesowej w aplikacji mobilnej usługi Power BI — bez potrzeby korzystania z wyszukiwania."
+title: Tworzenie kodu QR dla raportu do wykorzystania w aplikacjach mobilnych usługi Power BI
+description: Kody QR w usłudze Power BI mogą łączyć dowolne elementy w świecie rzeczywistym bezpośrednio z powiązanymi informacjami analizy biznesowej w aplikacji mobilnej usługi Power BI — bez potrzeby korzystania z wyszukiwania.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 03/13/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 4bd635fbb68f128d0c4f37631f05d0f2b8d9bf7d
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 2c3c610eb7970c911eaaf1437ac7f92f9f4f624d
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="create-a-qr-code-for-a-report-in-power-bi-to-use-in-the-mobile-apps"></a>Tworzenie kodu QR dla raportu w usłudze Power BI do wykorzystania w aplikacjach mobilnych
 Kody QR w usłudze Power BI mogą łączyć dowolne elementy w świecie rzeczywistym bezpośrednio z powiązanymi informacjami analizy biznesowej — bez potrzeby korzystania z nawigacji lub wyszukiwania.
 
 Kod QR w usłudze Power BI możesz utworzyć dla dowolnego raportu, nawet dla raportu, którego nie można edytować. Następnie umieść kod QR w kluczowej lokalizacji. Przykładowo możesz wkleić go do wiadomości e-mail lub wydrukować i nakleić w konkretnym miejscu. 
 
-Współpracownicy, którym udostępniono raport, mogą zeskanować kod QR, aby uzyskać dostęp do raportu bezpośrednio na [urządzeniu przenośnym](mobile-apps-qr-code.md). W tym celu mogą użyć skanera kodów QR w aplikacji Power BI lub dowolnego innego skanera kodów QR zainstalowanego na urządzeniu.
+Współpracownicy, którym udostępniono raport, mogą zeskanować kod QR, aby uzyskać dostęp do raportu bezpośrednio na [urządzeniu przenośnym](mobile-apps-qr-code.md). W tym celu mogą użyć skanera kodów QR w aplikacji Power BI lub dowolnego innego skanera kodów QR zainstalowanego na urządzeniu. Mogą również [zeskanować kod QR raportu za pomocą aplikacji usługi Power BI dla rzeczywistości mieszanej](mobile-mixed-reality-app.md#scan-a-report-qr-code-in-holographic-view).
 
 ## <a name="create-a-qr-code-for-a-report"></a>Tworzenie kodu QR dla raportu
 1. Otwórz raport w usłudze Power BI.
@@ -49,12 +49,10 @@ Usługa Power BI generuje kody QR jako pliki JPG gotowe do druku.
 
 1. Wybierz pozycję **Pobierz**, a następnie otwórz plik JPG na komputerze podłączonym do drukarki.  
    
-   > [!TIP]
-   > Plik JPG ma taką samą nazwę co kafelek. Na przykład „Przykład Sales and Marketing.jpg”.
-   > 
-   > 
-2. Wydrukuj plik w rozmiarze 100% lub rozmiarze rzeczywistym.  
-3. Wytnij kod QR wzdłuż jego krawędzi i przyklej go w miejscu związanym z raportem. 
+   Plik JPG ma taką samą nazwę co kafelek. Na przykład „Przykład Sales and Marketing.jpg”.
+   
+1. Wydrukuj plik w rozmiarze 100% lub rozmiarze rzeczywistym.  
+2. Wytnij kod QR wzdłuż jego krawędzi i przyklej go w miejscu związanym z raportem. 
 
 ## <a name="next-steps"></a>Następne kroki
 * [Nawiązywanie połączenia z danymi usługi Power BI ze środowisk rzeczywistych](mobile-apps-data-in-real-world-context.md) za pomocą aplikacji mobilnych
