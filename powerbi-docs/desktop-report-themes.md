@@ -1,15 +1,15 @@
 ---
-title: "Używanie motywów raportów w programie Power BI Desktop (wersja zapoznawcza)"
-description: "Dowiedz się, jak używać niestandardowej palety kolorów i stosować ją do całego raportu w programie Power BI Desktop."
+title: Używanie motywów raportów w programie Power BI Desktop (wersja zapoznawcza)
+description: Dowiedz się, jak używać niestandardowej palety kolorów i stosować ją do całego raportu w programie Power BI Desktop.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8893e9f048f10f2c9c4d5bf787382b7cf65f54a9
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 9161966897811820935c72ac1657ceca58da403a
+ms.sourcegitcommit: 3841bcdb5e664568defe3d6a6e6b8cab3cd7087f
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/23/2018
 ---
 # <a name="use-report-themes-in-power-bi-desktop-preview"></a>Używanie motywów raportów w programie Power BI Desktop (wersja zapoznawcza)
 **Motywy raportów** umożliwiają zastosowanie motywu kolorystycznego — kolorów firmowych, okolicznościowych lub dowolnego innego motywu — do całego raportu. Zastosowanie **motywu raportu** spowoduje, że kolory tego motywu będą używane we wszystkich wizualizacjach w raporcie (z kilkoma wyjątkami opisanymi w dalszej części tego artykułu).
@@ -163,7 +163,7 @@ Aby utworzyć plik JSON w formacie rozszerzonym, umożliwiającym bardziej szcze
         }
     }
 
-W sekcjach **visualName** (nazwa wizualizacji) i **cardName** (nazwa karty) możesz wskazać określoną wizualizację i nazwę karty lub użyć gwiazdki („*”) — wówczas to ustawienie będzie stosowane do wszystkich wizualizacji lub wszystkich kart zawierających właściwość danej wizualizacji. Możesz użyć gwiazdki („*”), aby ustawienie było stosowane globalnie w raporcie, na przykład jeśli chcesz określić rozmiar czcionki lub rodzinę czcionek, które mają być używane we wszystkich wizualizacjach w raporcie.
+W sekcjach **visualName** (nazwa wizualizacji) i **cardName** (nazwa karty) możesz wskazać określoną wizualizację i nazwę karty lub użyć gwiazdki („\*”) — wówczas to ustawienie będzie stosowane do wszystkich wizualizacji lub wszystkich kart zawierających właściwość danej wizualizacji. Możesz użyć gwiazdki („\*”), aby ustawienie było stosowane globalnie w raporcie, na przykład jeśli chcesz określić rozmiar czcionki lub rodzinę czcionek, które mają być używane we wszystkich wizualizacjach w raporcie.
 
 > [!NOTE]
 > Wystarczy określić te elementy formatowania, które chcesz zmienić. Do wszelkich elementów formatowania, które nie znajdą się w pliku JSON, będą po prostu stosowane domyślne wartości i ustawienia.

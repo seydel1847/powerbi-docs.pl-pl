@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/19/2018
+ms.date: 03/22/2018
 ms.author: maggies
-ms.openlocfilehash: 9951137ac10752a39f0e4ad555a36e2935faf327
-ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
+ms.openlocfilehash: c22e909130767abd1dc6f0aa00d76e1fb6b99ee7
+ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/21/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Instalowanie programu Power BI Desktop zoptymalizowanego pod kątem serwera raportów usługi Power BI
 Dowiedz się, jak zainstalować program Power BI Desktop zoptymalizowany pod kątem serwera raportów usługi Power BI.
@@ -56,7 +56,7 @@ Najprostszym sposobem sprawdzenia, czy masz najnowszą wersję programu Power BI
 ## <a name="verify-you-are-using-the-correct-version"></a>Sprawdzanie, czy jest używana właściwa wersja
 Możesz sprawdzić, czy używasz właściwej wersji programu Power BI Desktop, spoglądając na ekran powitalny lub pasek tytułu tego programu. Na pasku tytułu są podane miesiąc i rok wydania.
 
-![Pasek tytułu programu Power BI Desktop zoptymalizowanego pod kątem serwera raportów usługi Power BI](media/quickstart-create-powerbi-report/report-server-desktop-october-2017-version.png)
+![Pasek tytułu programu Power BI Desktop zoptymalizowanego pod kątem serwera raportów usługi Power BI](media/quickstart-create-powerbi-report/report-server-desktop-march-2018.png)
 
 Na pasku tytułu wersji programu Power BI Desktop związanej z usługą Power BI nie ma miesiąca ani roku.
 
