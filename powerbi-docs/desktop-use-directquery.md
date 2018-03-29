@@ -1,15 +1,15 @@
 ---
-title: "Używanie zapytania bezpośredniego w programie Power BI Desktop"
-description: "Używanie zapytania bezpośredniego, nazywanego również połączeniem na żywo, w programie Power BI Desktop."
+title: Używanie zapytania bezpośredniego w programie Power BI Desktop
+description: Używanie zapytania bezpośredniego, nazywanego również połączeniem na żywo, w programie Power BI Desktop.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/25/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: df45bbaa142b2c476a6391b1c43638e1ee76c3ae
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: 83726531a3ef82f59efb6e12c0ea0dbcd4bf5d7c
+ms.sourcegitcommit: e31fc1f6e4af427f8b480c8dbc537c3617c9b2c0
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>Używanie zapytania bezpośredniego w programie Power BI Desktop
 Program **Power BI Desktop** zawsze umożliwia importowanie kopii danych do programu **Power BI Desktop** po połączeniu ze źródłem danych. W przypadku niektórych źródeł danych dostępne jest inne rozwiązanie: połączenie bezpośrednio ze źródłem danych przy użyciu **zapytania bezpośredniego**.
@@ -62,7 +62,7 @@ Obecnie istnieje kilka ograniczeń związanych z korzystaniem z **zapytania bezp
 * Domyślnie wyrażenia języka DAX dozwolone w miarach są ograniczone. Zapoznaj się z akapitem po liście wypunktowanej, aby uzyskać więcej informacji.
 * W przypadku korzystania z **zapytania bezpośredniego** liczba zwracanych wierszy danych jest ograniczona do 1 miliona. Nie ma to wpływu na agregacje lub obliczenia używane do tworzenia zestawów danych zwracanych przy użyciu **zapytania bezpośredniego** — dotyczy tylko zwracanych wierszy. Możesz na przykład zagregować 10 milionów wierszy przy użyciu zapytania korzystającego ze źródła danych i dokładnie zwrócić wyniki agregacji do usługi Power BI przy użyciu **zapytania bezpośredniego**, o ile dane zwrócone do usługi Power BI obejmują mniej niż 1 milion wierszy. Jeśli liczba wierszy do zwrócenia przez **zapytanie bezpośrednie** przekracza 1 milion, usługa Power BI zwróci błąd.
 
-Aby zagwarantować, że zapytania wysyłane do bazowego źródła danych mają akceptowalną wydajność, na miary domyślnie nałożone są ograniczenia. Użytkownicy zaawansowani mogą zdecydować się na obejście tego ograniczenia, wybierając pozycję **Plik > Opcje**, a następnie **Ustawienia > Opcje i ustawienia > Zapytanie bezpośrednie** i zaznaczając opcję *Zezwalaj na nieograniczone miary w trybie zapytania bezpośredniego*. Gdy ta opcja jest zaznaczona, można użyć dowolnego wyrażenia języka DAX prawidłowego dla miary. Użytkownicy muszą być jednak świadomi, że niektóre wyrażenia, które dobrze działają po zaimportowaniu danych, mogą znacznie spowalniać zapytania do źródła danych zaplecza w trybie zapytania bezpośredniego.
+Aby zagwarantować, że zapytania wysyłane do bazowego źródła danych mają akceptowalną wydajność, na miary domyślnie nałożone są ograniczenia. Użytkownicy zaawansowani mogą zdecydować się na obejście tego ograniczenia, wybierając pozycje **Plik > Opcje i ustawienia > Opcje** i **Zapytanie bezpośrednie**, a następnie wybierając pozycję *Zezwalaj na nieograniczone miary w trybie zapytania bezpośredniego*. Gdy ta opcja jest zaznaczona, można użyć dowolnego wyrażenia języka DAX prawidłowego dla miary. Użytkownicy muszą być jednak świadomi, że niektóre wyrażenia, które dobrze działają po zaimportowaniu danych, mogą znacznie spowalniać zapytania do źródła danych zaplecza w trybie zapytania bezpośredniego.
 
 ## <a name="important-considerations-when-using-directquery"></a>Istotne zagadnienia dotyczące korzystania z zapytania bezpośredniego
 Podczas używania **zapytania bezpośredniego** należy wziąć pod uwagę trzy następujące kwestie:
@@ -77,7 +77,7 @@ Podczas używania **zapytania bezpośredniego** należy wziąć pod uwagę trzy 
       the maximum allowed size of '1000000' rows.
   
   Taka sytuacja może się zdarzyć w przypadku prostego wykresu zawierającego kolumnę o bardzo wysokiej kardynalności z wybraną opcją agregacji *Nie sumuj*. Wizualizacja musi zawierać wyłącznie kolumny z kardynalnością poniżej 1 miliona lub mieć zastosowane odpowiednie filtry.
-* **Zabezpieczenia** — wszyscy użytkownicy, którzy korzystają z opublikowanego raportu, łączą się ze źródłem danych zaplecza, korzystając z poświadczeń wprowadzonych po publikacji w usłudze Power BI. Jest to taka sama sytuacja, jak w przypadku zaimportowanych danych: wszyscy użytkownicy zobaczą takie same dane, bez względu na reguły zabezpieczeń zdefiniowane w źródle zaplecza. Klienci, którzy chcą stosować zabezpieczenia na poziomie użytkownika, wdrażają rozwiązania ze źródłami zapytania bezpośredniego i korzystają z zabezpieczeń na poziomie wiersza. [Dowiedz się więcej na temat zabezpieczeń na poziomie wiersza](service-admin-rls.md).
+* **Zabezpieczenia** — wszyscy użytkownicy, którzy korzystają z opublikowanego raportu, łączą się ze źródłem danych zaplecza, korzystając z poświadczeń wprowadzonych po publikacji w usłudze Power BI. Jest to taka sama sytuacja, jak w przypadku zaimportowanych danych: wszyscy użytkownicy zobaczą takie same dane, bez względu na reguły zabezpieczeń zdefiniowane w źródle zaplecza. Klienci, którzy chcą zaimplementować zabezpieczenia na poziomie użytkownika ze źródłami zapytania bezpośredniego, powinni korzystać z zabezpieczeń na poziomie wiersza. [Dowiedz się więcej na temat zabezpieczeń na poziomie wiersza](service-admin-rls.md).
 * **Obsługiwane funkcje** — niektóre funkcje programu **Power BI Desktop** nie są obsługiwane w trybie **zapytania bezpośredniego** lub mają pewne ograniczenia. Ponadto istnieją pewne funkcje usługi Power BI (takie jak *szybki wgląd*), które nie są dostępne dla zestawów danych korzystających z **zapytania bezpośredniego**. Dlatego podczas decydowania, czy korzystać z **zapytania bezpośredniego**, należy wziąć pod uwagę ograniczenia funkcji związane z korzystaniem z **zapytania bezpośredniego**.   
 
 ## <a name="publish-to-the-power-bi-service"></a>Publikowanie w usłudze Power BI

@@ -1,15 +1,15 @@
 ---
-title: "Źródła danych obsługiwane przez zapytanie bezpośrednie w usłudze Power BI"
-description: "Zobacz listę źródeł danych, które mogą korzystać z zapytania bezpośredniego."
+title: Źródła danych obsługiwane przez zapytanie bezpośrednie w usłudze Power BI
+description: Zobacz listę źródeł danych, które mogą korzystać z zapytania bezpośredniego.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 03/09/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 2f395a5030cb2e025b8b69fa9b5375f471dea452
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: fcd8e4705fe5ee3a3a567c0e7a44a5a4d1a73e76
+ms.sourcegitcommit: e31fc1f6e4af427f8b480c8dbc537c3617c9b2c0
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Źródła danych obsługiwane przez zapytanie bezpośrednie w usłudze Power BI
 Program **Power BI Desktop** i **usługa Power BI** mają wiele źródeł danych, z którymi można się łączyć, aby uzyskać dostęp do danych. W tym artykule opisano, jakie źródła danych usługi Power BI obsługują metodę połączenia nazywaną **zapytaniem bezpośrednim**. Aby uzyskać więcej informacji na temat zapytania bezpośredniego, zobacz [**Zapytanie bezpośrednie w usłudze Power BI**](desktop-directquery-about.md).
@@ -48,7 +48,7 @@ Następujące źródła danych obsługują zapytanie bezpośrednie w usłudze Po
 
 Źródła danych, których nazwy zawierają ciąg **(wersja beta)** lub **(wersja zapoznawcza)**, mogą ulec zmianie i nie powinny być używane w środowiskach produkcyjnych. Mogą one również nie być obsługiwane po opublikowaniu raportu w **usłudze Power BI**, co oznacza, że otwarcie opublikowanego raportu lub eksploracja zestawu danych mogą spowodować wystąpienie błędu.
 
-Jedyna różnica między źródłami danych typu **(wersja beta)** i **(wersja zapoznawcza)** polega na tym, że źródła **(wersja zapoznawcza)** należy włączyć jako funkcję w wersji zapoznawczej, zanim będą dostępne do użycia. Aby włączyć łącznik danych **(wersja zapoznawcza)**, w programie **Power BI Desktop** wybierz pozycję **Plik > Opcje i ustawienia**, a następnie **Ustawienia > Opcje > Funkcje w wersji zapoznawczej**.
+Jedyna różnica między źródłami danych typu **(wersja beta)** i **(wersja zapoznawcza)** polega na tym, że źródła **(wersja zapoznawcza)** należy włączyć jako funkcję w wersji zapoznawczej, zanim będą dostępne do użycia. Aby włączyć łącznik danych **(Wersja zapoznawcza)**, w programie **Power BI Desktop** wybierz pozycję **Plik > Opcje i ustawienia > Opcje**, a następnie wybierz pozycję **Funkcje w wersji zapoznawczej**.
 
 ## <a name="on-premises-gateway-requirements"></a>Wymagania bramy lokalnej
 W poniższej tabeli określono, czy **lokalna brama danych** jest wymagana do łączenia się z określonym źródłem danych po opublikowaniu raportu w **usłudze Power BI**.

@@ -1,15 +1,15 @@
 ---
-title: "Zapytanie bezpośrednie na platformie SAP HANA w usłudze Power BI"
-description: "Zagadnienia dotyczące korzystania z zapytania bezpośredniego na platformie SAP HANA"
+title: Zapytanie bezpośrednie na platformie SAP HANA w usłudze Power BI
+description: Zagadnienia dotyczące korzystania z zapytania bezpośredniego na platformie SAP HANA
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 7b1b56ee467dfdf6dc8c63557a9a9f4ab86e965e
-ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
+ms.openlocfilehash: 966399c2ad11ac6a04400e3c009927deb6d35b94
+ms.sourcegitcommit: e31fc1f6e4af427f8b480c8dbc537c3617c9b2c0
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="directquery-and-sap-hana"></a>Zapytanie bezpośrednie i platforma SAP HANA
 **Zapytanie bezpośrednie** umożliwia bezpośrednie połączenie się ze źródłami danych platformy **SAP HANA**. Łącząc się z platformą SAP HANA, mamy do wyboru dwie opcje:
@@ -43,7 +43,7 @@ Przyjrzyjmy się dokładniej tym dwóm metodom.
 
 ## <a name="treat-sap-hana-as-a-multi-dimensional-source-default"></a>Traktuj platformę SAP HANA jako źródło wielowymiarowe (ustawienie domyślne)
 
-Wszystkie nowe połączenia z platformą SAP HANA domyślnie używają tej metody łączenia i traktują platformę SAP HANA jako źródło wielowymiarowe. Aby traktować połączenie z platformą SAP HANA jak źródło relacyjne, należy wybrać kolejno opcje **Plik > Opcje i ustawienia**, a następnie zaznaczyć pole wyboru w obszarze **Zapytanie bezpośrednie > Traktuj platformę SAP HANA jako źródło relacyjne**. Chociaż ta funkcja jest dostępna w **wersji zapoznawczej**, raportów utworzonych przy użyciu metody wielowymiarowej *nie można* publikować w usłudze Power BI. Takie działanie spowoduje błędy podczas otwarcia raportu w usłudze Power BI.  
+Wszystkie nowe połączenia z platformą SAP HANA domyślnie używają tej metody łączenia i traktują platformę SAP HANA jako źródło wielowymiarowe. Aby traktować połączenie z platformą SAP HANA jak źródło relacyjne, należy wybrać kolejno opcje **Plik > Opcje i ustawienia > Opcje**, a następnie zaznaczyć pole wyboru w obszarze **Zapytanie bezpośrednie > Traktuj platformę SAP HANA jako źródło relacyjne**. Chociaż ta funkcja jest dostępna w **wersji zapoznawczej**, raportów utworzonych przy użyciu metody wielowymiarowej *nie można* publikować w usłudze Power BI. Takie działanie spowoduje błędy podczas otwarcia raportu w usłudze Power BI.  
 
 W przypadku łączenia się z platformą SAP HANA jako źródłem wielowymiarowym:
 
@@ -63,24 +63,24 @@ Lista **Pole** zawiera wszystkie miary, atrybuty i hierarchie z widoku platformy
 
 * Na platformie SAP HANA można zdefiniować atrybut w taki sposób, aby używał innego atrybutu jako etykiety. Na przykład atrybut **Product** (o wartościach 1,2,3 itd.) może używać atrybutu **ProductName** (o wartościach Rower, Koszulka, Rękawiczki itd.) jako swojej etykiety. W takim przypadku na liście pól jest widoczne jedno pole **Product**, którego wartościami będą etykiety Rower, Koszulka, Rękawiczki itd., ale które będzie sortowane i którego unikatowość będzie ustalana według kluczowych wartości 1, 2, 3. Utworzona zostaje również ukryta kolumna **Product.Key**, która w razie potrzeby umożliwia dostęp do podstawowych wartości kluczy. 
 
-Wszelkie zmienne zdefiniowane w bazowym widoku platformy SAP HANA są wyświetlane w czasie nawiązywania połączenia. Można wówczas wprowadzić niezbędne wartości. Wartości te można następnie zmienić, wybierając ze wstążki opcję **Edytuj zapytania**, a następnie z wyświetlonego menu podręcznego opcję **Edytuj zmienne**. 
+Wszelkie zmienne zdefiniowane w bazowym widoku platformy SAP HANA będą wyświetlane w czasie nawiązywania połączenia. Można wówczas wprowadzić niezbędne wartości. Wartości te można następnie zmienić, wybierając ze wstążki opcję **Edytuj zapytania**, a następnie z wyświetlonego menu podręcznego opcję **Zarządzaj parametrami**. 
 
 Dozwolone operacje modelowania są bardziej restrykcyjne niż ogólne użycie zapytania bezpośredniego, co wynika z potrzeby zapewnienia możliwości uzyskania poprawnych zagregowanych danych z platformy SAP HANA w każdej sytuacji. W dalszym ciągu można jednak wprowadzić liczne zmiany i dodatki, m.in. zdefiniować miary, zmienić nazwy pól i je ukryć oraz zdefiniować formaty wyświetlania. Wszelkie takie zmiany zostaną zachowane po odświeżeniu, a wszystkie zmiany niepowodujące konfliktu zostaną zastosowane do widoku platformy SAP HANA. 
 
-### <a name="additional-modelling-restrictions"></a>Dodatkowe ograniczenia modelowania
+### <a name="additional-modeling-restrictions"></a>Dodatkowe ograniczenia modelowania
 
 Najważniejsze dodatkowe ograniczenia dotyczące modelowania w przypadku nawiązywania połączenia z platformą SAP HANA (traktowaną jako źródło wielowymiarowe) przy użyciu zapytania bezpośredniego są następujące: 
 
 * **Brak obsługi kolumn obliczeniowych:** Możliwość tworzenia kolumn obliczeniowych jest wyłączona. Oznacza to również, że funkcje grupowania i klastrowania, które tworzą kolumny obliczeniowe, nie są dostępne.
 * **Dodatkowe ograniczenia dotyczące miar:** istnieją dodatkowe ograniczenia dotyczące wyrażeń DAX, które mogą być używane w miarach, odzwierciedlające poziom obsługi oferowany przez platformę SAP HANA.
-* **Brak obsługi definiowania relacji:** tylko jeden widok w raporcie może zawierać zapytania, w związku z czym definiowanie relacji nie jest obsługiwane.
+* **Brak obsługi definiowania relacji:** tylko dla jednego widoku w raporcie można wykonywać zapytania, w związku z czym definiowanie relacji nie jest obsługiwane.
 * **Brak widoku danych:** W **widoku danych** zwykle są wyświetlane szczegółowe dane tabel. Ze względu na charakter źródeł OLAP, takich jak SAP HANA, ten widok nie jest dostępny w przypadku połączenia z platformą SAP HANA.
 * **Stałe szczegóły kolumn i miar:** Lista kolumn i miar na liście pól jest ustalana przez bazowe źródło danych i nie można jej zmienić. Nie można na przykład usunąć kolumny ani zmienić typu danych (można jednak zmienić jej nazwę).
 * **Dodatkowe ograniczenia dotyczące języka DAX:** Istnieją dodatkowe ograniczenia dotyczące wyrażeń języka DAX, które mogą zostać użyte w definicjach miar, odzwierciedlające ograniczenia w źródle. Nie można na przykład zastosować funkcji agregującej do tabeli.
 
 ### <a name="additional-visualization-restrictions"></a>Dodatkowe ograniczenia wizualizacji
 
-W przypadku nawiązywania połączenia z platformą SAP HANA (traktowanej jako źródła wielowymiarowego) przy użyciu zapytania bezpośredniego obowiązuje kilka ograniczeń wizualizacji: 
+W przypadku nawiązywania połączenia z platformą SAP HANA (traktowanej jako źródła wielowymiarowego) przy użyciu zapytania bezpośredniego obowiązują ograniczenia wizualizacji: 
 * **Brak agregacji kolumn:** nie można zmienić sposobu agregacji kolumny w wizualizacji i zawsze używana jest opcja *Nie sumuj*.
 
 ## <a name="treat-sap-hana-as-a-relational-source"></a>Traktuj platformę SAP HANA jako źródło relacyjne 
@@ -138,7 +138,7 @@ Wynika to z faktu, że usługa Power BI uzyskuje dostęp do platformy SAP HANA p
 * **Inne metadane hierarchii** — podstawowa struktura hierarchii jest wyświetlana w usłudze Power BI, jednak niektóre metadane hierarchii (np. kontrola zachowania hierarchii niewyrównanych) nie będą miały zastosowania.
 Ponownie jest to spowodowane ograniczeniami narzuconymi przez interfejs SQL.
 * **Połączenie przy użyciu protokołu SSL** — nie można nawiązać połączenia z wystąpieniami platformy SAP HANA skonfigurowanymi do używania protokołu SSL.
-Obsługa widoków atrybutów — usługa Power BI może nawiązać połączenie z widokami analitycznymi i obliczeniowymi, ale nie może łączyć się bezpośrednio z widokami atrybutów.
+* **Obsługa widoków atrybutów** — usługa Power BI może nawiązać połączenie z widokami analitycznymi i obliczeniowymi, ale nie może łączyć się bezpośrednio z widokami atrybutów.
 * **Obsługa obiektów wykazu** — usługa Power BI nie może łączyć się obiektami wykazu.
 * **Modyfikowanie zmiennych po publikacji** — po opublikowaniu raportu nie można zmienić wartości żadnych zmiennych platformy SAP HANA bezpośrednio w usłudze Power BI. 
  

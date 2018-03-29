@@ -1,15 +1,15 @@
 ---
-title: "Wskazówki dotyczące wdrażania bramy danych usługi Power BI"
-description: "Poznaj najlepsze rozwiązania i zapoznaj się z uwagami dotyczącymi wdrażania bramy usługi Power BI."
+title: Wskazówki dotyczące wdrażania bramy danych usługi Power BI
+description: Poznaj najlepsze rozwiązania i zapoznaj się z uwagami dotyczącymi wdrażania bramy usługi Power BI.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,18 +18,18 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 992c3cbeb9899a784cc8df9fdca9a29f57aa7e81
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 9438b9563d17cff8ce334e48bc34a4f3fa6acf1c
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="guidance-for-deploying-a-data-gateway-for-power-bi"></a>Wskazówki dotyczące wdrażania bramy danych usługi Power BI
 Ten artykuł zawiera wskazówki i uwagi dotyczące wdrażania bramy danych w środowisku sieciowym. **Brama** to oprogramowanie, które ułatwia dostęp do danych znajdujących się w prywatnej sieci lokalnej na potrzeby ich użycia w usłudze w chmurze, takiej jak Power BI. W tym artykule przedstawiono procedurę wdrażania oraz wskazówki dotyczące konfigurowania **lokalnej bramy danych**.
 
 ![](media/service-gateway-deployment-guidance/powerbi-gateway-deployment-guidance_01.png)
 
-Aby uzyskać więcej informacji na temat **lokalnej bramy danych**, w tym link do jej instalacji, zapoznaj się z [wpisem w blogu](https://powerbi.microsoft.com/blog/power-bi-gateways-march-update/).
+Aby uzyskać więcej informacji na temat **lokalnej bramy danych**, w tym link do jej instalacji, zapoznaj się z [tym wpisem w blogu](https://powerbi.microsoft.com/blog/power-bi-gateways-march-update/).
 
 ## <a name="installation-considerations-for-the-on-premises-data-gateway"></a>Zagadnienia dotyczące instalacji lokalnej bramy danych
 Przed przejściem do szczegółów instalacji i wdrażania chcemy przedstawić kilka uwag, które należy mieć na uwadze. W poniższych sekcjach opisano ważne rzeczy, które należy wziąć pod uwagę.

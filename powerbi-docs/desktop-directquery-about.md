@@ -1,15 +1,15 @@
 ---
-title: "Używanie zapytania bezpośredniego w usłudze Power BI"
-description: "Opis używania zapytania bezpośredniego z poziomu usługi Power BI"
+title: Używanie zapytania bezpośredniego w usłudze Power BI
+description: Opis używania zapytania bezpośredniego z poziomu usługi Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 02/05/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: aba599f4ab5bcc9d1f5c0446e4476a169ca5e2c4
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: 89dae54ed1faaa868ca022360480540de9dbe295
+ms.sourcegitcommit: e31fc1f6e4af427f8b480c8dbc537c3617c9b2c0
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="using-directquery-in-power-bi"></a>Używanie zapytania bezpośredniego w usłudze Power BI
 Możesz połączyć się z szeroką gamą różnych źródeł danych, korzystając z programu **Power BI Desktop** lub **usługi Power BI**, i te połączenia z danymi możesz wykonywać w różny sposób. Możesz albo *zaimportować* dane do usługi Power BI, co jest najczęściej używanym sposobem pobierania danych, lub możesz połączyć się bezpośrednio z danymi w ich oryginalnym repozytorium źródłowym, co jest nazywane **zapytaniem bezpośrednim**. W tym artykule zostało opisane **zapytanie bezpośrednie** i jego możliwości, łącznie z następującymi tematami:
@@ -104,7 +104,7 @@ W poniższej tabeli opisano scenariusze, w których połączenie z zapytaniem be
 | Dane są bardzo duże |Jeśli dane są bardzo duże, wówczas na pewno nie będzie celowe importowanie ich wszystkich. Natomiast zapytanie bezpośrednie nie wymaga przesyłania dużych danych, ponieważ zostanie wysłane zapytanie. <br/> <br/> Jednak duże dane mogą również oznaczać, że wydajność zapytań dla tego bazowego źródła będzie za mała (zgodnie z opisem w sekcji *Implikacje używania zapytania bezpośredniego* w dalszej części tego artykułu). I oczywiście nie zawsze jest konieczne importowanie pełnych szczegółowych danych. Zamiast tego dane mogą być wstępnie zagregowane podczas importowania (a **Edytor zapytań** ułatwia wykonanie właśnie tego). W skrajnej sytuacji będzie można zaimportować jedynie zagregowane dane potrzebne do każdej wizualizacji. Pomimo, że zapytanie bezpośrednie jest najprostszym podejściem do obsługi dużej ilości danych, należy zawsze pamiętać, że importowanie zagregowanych danych może być rozwiązaniem, jeśli bazowe źródło jest za wolne. |
 | Zasady zabezpieczeń są zdefiniowane w bazowym źródle |Po zaimportowaniu danych usługa Power BI połączy się ze źródłem danych przy użyciu bieżących poświadczeń użytkowników (z programu Power BI Desktop) lub poświadczeń określonych w ramach konfigurowania zaplanowanego odświeżania (z usługi Power BI). W związku z tym podczas publikowania i udostępniania takiego raportu należy zwrócić uwagę na to, aby udostępniać go tylko użytkownikom, którzy mogą zobaczyć te same dane, lub zdefiniować zabezpieczenia na poziomie wiersza jako część zestawu danych. <br/> <br/> Jest to najlepsze rozwiązanie, ponieważ zapytanie bezpośrednie zawsze wysyła zapytanie do bazowego źródła, co powinno umożliwić zastosowanie wszelkich zabezpieczeń w tym bazowym źródle. Jednak obecnie usługa Power BI będzie zawsze łączyć się z bazowym źródłem przy użyciu tych samych poświadczeń, które zostałyby użyte do importu. <br/> <br/> W związku z tym, dopóki usługa Power BI umożliwia przekazanie tożsamości użytkownika raportu do bazowego źródła, zapytanie bezpośrednie nie oferuje żadnych korzyści dotyczących zabezpieczeń źródła danych. |
 | Mają zastosowanie ograniczenia suwerenności danych |Niektóre organizacje mają zasady dotyczące suwerenności danych, co oznacza, że dane nie mogą opuścić lokalizacji organizacji. Rozwiązania oparte na imporcie będą wyraźnie stwarzać problemy. Z kolei dla zapytań bezpośrednich te dane pozostają w bazowym źródle. <br/> <br/> Jednak należy zauważyć, że nawet z zapytaniem bezpośrednim niektóre pamięci podręczne danych na poziomie wizualizacji są zachowywane w usłudze Power BI (z powodu zaplanowanego odświeżania kafelków). |
-| Bazowe źródło danych to źródło OLAP zawierające miary |Jeśli bazowe źródło danych zawiera *miary * (np. SAP HANA lub SAP Business Warehouse), importowanie danych powoduje inne problemy. Oznacza to, że zaimportowane dane są na określonym poziomie agregacji zgodnie z definicją w zapytaniu. Na przykład pomiar TotalSales według klasy, roku i miasta. Następnie, jeśli wizualizacja jest budowana, pytanie o dane na wyższym poziomie agregacji (na przykład TotalSales według roku) powoduje dalsze agregowanie zagregowanej wartości. Jest to poprawne dla miar dodawania (takich jak Sum, Min), ale jest problem z innymi niż dodawanie (takie jak Average, DistinctCount). <br/> <br/> Aby ułatwić uzyskiwanie poprawnych zagregowanych danych (zgodnych z potrzebami konkretnej wizualizacji) bezpośrednio ze źródła, byłoby konieczne wysyłanie zapytań dla poszczególnych wizualizacji, jak w zapytaniu bezpośrednim. <br/> <br/> Podczas łączenia się z systemem SAP Business Warehouse (BW) wybranie zapytania bezpośredniego umożliwia takie traktowanie miar. Obsługa systemu SAP BW jest dokładnie omówiona w temacie [Zapytanie bezpośrednie i system SAP BW](desktop-directquery-sap-bw.md). <br/> <br/> Jednak obecnie zapytanie bezpośrednie za pośrednictwem platformy SAP HANA traktuje to tak samo, jak relacyjne źródło, a tym samym zapewnia zachowanie podobne do importowania. Zostało to dokładniej omówione w [DirectQuery and SAP HANA](desktop-directquery-sap-hana.md) (Zapytanie bezpośrednie i platforma SAP HANA). |
+| Bazowe źródło danych to źródło OLAP zawierające miary |Jeśli bazowe źródło danych zawiera *miary* (np. SAP HANA lub SAP Business Warehouse), importowanie danych powoduje inne problemy. Oznacza to, że zaimportowane dane są na określonym poziomie agregacji zgodnie z definicją w zapytaniu. Na przykład miary TotalSales według klasy, roku i miasta. Następnie, jeśli wizualizacja jest budowana, pytanie o dane na wyższym poziomie agregacji (na przykład TotalSales według roku) powoduje dalsze agregowanie zagregowanej wartości. Jest to poprawne dla miar addytywnych (takich jak Sum, Min), ale jest problemem dla miar innych niż addytywne (takich jak Average, DistinctCount). <br/> <br/> Aby ułatwić uzyskiwanie poprawnych zagregowanych danych (zgodnych z potrzebami konkretnej wizualizacji) bezpośrednio ze źródła, byłoby konieczne wysyłanie zapytań dla poszczególnych wizualizacji, jak w zapytaniu bezpośrednim. <br/> <br/> Podczas łączenia się z systemem SAP Business Warehouse (BW) wybranie zapytania bezpośredniego umożliwia takie traktowanie miar. Obsługa systemu SAP BW jest dokładnie omówiona w temacie [Zapytanie bezpośrednie i system SAP BW](desktop-directquery-sap-bw.md). <br/> <br/> Jednak obecnie zapytanie bezpośrednie za pośrednictwem platformy SAP HANA traktuje to tak samo, jak relacyjne źródło, a tym samym zapewnia zachowanie podobne do importowania. Zostało to dokładniej omówione w [DirectQuery and SAP HANA](desktop-directquery-sap-hana.md) (Zapytanie bezpośrednie i platforma SAP HANA). |
 
 Dlatego w podsumowaniu, mając na uwadze bieżące możliwości zapytania bezpośredniego w usłudze Power BI, scenariusze, które zapewniają korzyści, są następujące:
 
@@ -131,7 +131,7 @@ Analogicznie istnieją ograniczenia dotyczące przekształceń danych, które mo
 
 Ponadto zapytanie wynikające z okna dialogowego **Pobieranie danych** lub **Edytora zapytań** będzie używane w podwyborze w ramach zapytań generowanych i wysyłanych w celu pobrania danych niezbędnych dla wizualizacji. W związku z tym zapytanie zdefiniowane w edytorze zapytań musi być prawidłowe w tym kontekście. W szczególności oznacza to, że nie jest możliwe użycie zapytania korzystającego ze wspólnych wyrażeń tabel ani takiego, które wywołuje procedury składowane.
 
-### <a name="modelling-limitations"></a>Ograniczenia modelowania
+### <a name="modeling-limitations"></a>Ograniczenia modelowania
 Termin *modelowanie* w tym kontekście oznacza czynność uściślenia i wzbogacenia nieprzetworzonych danych w ramach tworzenia raportu, który je wykorzystuje. Przykłady obejmują:
 
 * Definiowanie relacji między tabelami
@@ -143,10 +143,10 @@ Termin *modelowanie* w tym kontekście oznacza czynność uściślenia i wzbogac
 
 Podczas używania **zapytania bezpośredniego** nadal można wprowadzać wiele z tych wzbogaceń modelu i na pewno nadal istnieje zasada, że są wzbogacane nieprzetworzone dane, aby ulepszyć ich późniejsze wykorzystanie. Jednak podczas korzystania z zapytania bezpośredniego niektóre możliwości modelowania są niedostępne lub ograniczone. Ograniczenia są zazwyczaj stosowane, aby uniknąć problemów z wydajnością. Zestaw ograniczeń, które są wspólne dla wszystkich źródeł zapytania bezpośredniego, jest wyświetlany na poniższej liście punktowanej. Dodatkowe ograniczenia, które mogą być stosowane do poszczególnych źródeł, zgodnie z opisem w *określonych szczegółowych informacjach dotyczących źródła danych* znajdują się pod koniec tego artykułu.
 
-* **Brak wbudowanej hierarchii dat:** podczas importowania danych, domyślnie każda kolumna data/data i godzina ma też wbudowaną hierarchię dat, która jest domyślnie dostępna. Na przykład jeśli zaimportowano tabelę zamówień sprzedaży wraz z kolumną OrderDate, to następnie podczas używania kolumny OrderDate w wizualizacji będzie możliwe wybranie odpowiedniego używanego poziomu (rok, miesiąc, dzień). Ta wbudowana hierarchia dat nie jest dostępna podczas używania trybu zapytania bezpośredniego. Należy jednak pamiętać, że jeśli tabela Data jest dostępna w bazowym źródle (co jest często spotykane w wielu magazynach danych), wówczas funkcje analizy czasowej języka DAX mogą być normalnie używane.
+* **Brak wbudowanej hierarchii dat:** podczas importowania danych domyślnie każda kolumna data/data i godzina ma też wbudowaną hierarchię dat, która jest domyślnie dostępna. Na przykład jeśli zaimportowano tabelę zamówień sprzedaży wraz z kolumną OrderDate, to następnie podczas używania kolumny OrderDate w wizualizacji będzie możliwe wybranie odpowiedniego używanego poziomu (rok, miesiąc, dzień). Ta wbudowana hierarchia dat nie jest dostępna podczas używania trybu zapytania bezpośredniego. Należy jednak pamiętać, że jeśli tabela Data jest dostępna w bazowym źródle (co jest często spotykane w wielu magazynach danych), wówczas funkcje analizy czasowej języka DAX mogą być normalnie używane.
 * **Ograniczenia w kolumnach obliczeniowych:** kolumny obliczeniowe są ograniczone do wierszy wewnątrz, jak w programie, i mogą odwoływać się tylko do wartości innych kolumn tej samej tabeli bez korzystania z jakichkolwiek funkcji agregujących. Ponadto dopuszczalne funkcje skalarne języka DAX (takie jak LEFT()) zostaną ograniczone do tych, które można po prostu przenieść do bazowego źródła, więc będą się różnić w zależności od dokładnych możliwości źródła. Funkcje, które nie są obsługiwane, nie będą wyświetlane w funkcji autouzupełniania podczas używania języka DAX dla kolumny obliczeniowej i spowodują błąd, jeśli zostaną użyte.
 * **Brak obsługi funkcji języka DAX nadrzędny-podrzędny:** w przypadku modelu zapytania bezpośredniego nie jest możliwe używanie rodziny funkcji PATH() języka DAX, które zazwyczaj obsługują struktury nadrzędny-podrzędny (na przykład wykres kont lub hierarchii pracowników).
-* **Ograniczenia (domyślne) dla miar:** domyślnie są ograniczone funkcje i wyrażenia języka DAX, które mogą być używane w miarach. Ponownie autouzupełnianie ograniczy wymienione funkcje i wystąpi błąd, jeśli jest używana nieprawidłowa funkcja lub wyrażenie. Przyczyną jest po prostu zapewnienie, że domyślnie miary są ograniczone do prostych miar, które prawdopodobnie samodzielnie nie spowodują problemów z wydajnością. Użytkownicy zaawansowani mogą zdecydować się na obejście tego ograniczenia, wybierając pozycje **Plik > Opcje**, a następnie **Ustawienia > Opcje > Zapytanie bezpośrednie** i zaznaczając opcję *Zezwalaj na nieograniczone miary w trybie zapytania bezpośredniego*. Gdy ta opcja jest zaznaczona, można użyć dowolnego wyrażenia języka DAX prawidłowego dla miary. Użytkownicy muszą być jednak świadomi, że niektóre wyrażenia, które dobrze działają po zaimportowaniu danych, mogą znacznie spowalniać zapytania do źródła danych zaplecza w trybie zapytania bezpośredniego.
+* **Ograniczenia (domyślne) dla miar:** domyślnie są ograniczone funkcje i wyrażenia języka DAX, które mogą być używane w miarach. Ponownie autouzupełnianie ograniczy wymienione funkcje i wystąpi błąd, jeśli jest używana nieprawidłowa funkcja lub wyrażenie. Przyczyną jest po prostu zapewnienie, że domyślnie miary są ograniczone do prostych miar, które prawdopodobnie samodzielnie nie spowodują problemów z wydajnością. Użytkownicy zaawansowani mogą zdecydować się na obejście tego ograniczenia, wybierając pozycje **Plik > Opcje i ustawienia > Opcje** i **Zapytanie bezpośrednie**, a następnie wybierając pozycję *Zezwalaj na nieograniczone miary w trybie zapytania bezpośredniego*. Gdy ta opcja jest zaznaczona, można użyć dowolnego wyrażenia języka DAX prawidłowego dla miary. Użytkownicy muszą być jednak świadomi, że niektóre wyrażenia, które dobrze działają po zaimportowaniu danych, mogą znacznie spowalniać zapytania do źródła danych zaplecza w trybie zapytania bezpośredniego.
   
   * Na przykład domyślnie:
     
@@ -274,7 +274,7 @@ Podczas tworzenia raportu za pomocą połączenia zapytania bezpośredniego nale
 
    ![](media/desktop-directquery-about/directquery-about_03b.png)
 
-    Zaznaczenie pól wyboru w obszarze **Redukcja zapytania** umożliwia wyłączenie krzyżowego wyróżniania w całym raporcie. Można również wyświetlić przycisk *Zastosuj* dla wybranych opcji fragmentatorów i/lub filtrów, co umożliwia wybranie wielu opcji fragmentatorów i filtrów przed ich zastosowaniem. Zapytania zostaną wysłane dopiero po wybraniu przycisku **Zastosuj** na fragmentatorze. Wybrane opcje zostaną następnie użyte do filtrowania danych.
+    Zaznaczenie pól wyboru w obszarze **Redukcja zapytania** umożliwia wyłączenie krzyżowego wyróżniania w całym raporcie. Można również wyświetlić przycisk *Zastosuj* dla wybranych opcji fragmentatorów i/lub filtrów, co umożliwia wybranie wielu opcji fragmentatorów i filtrów przed ich zastosowaniem. Zapytania zostaną wysłane dopiero po wybraniu przycisku **Zastosuj** na fragmentatorze. Wybrane opcje mogą zostać następnie użyte do filtrowania danych.
 
     Te opcje będą stosowane w raporcie podczas pracy w programie **Power BI Desktop**, a także podczas korzystania z niego w **usłudze Power BI**.
 
@@ -342,7 +342,7 @@ Po wybraniu linku *Otwórz folder śladów* w obszarze **Opcje diagnostyki** zos
 
 Przejście do folderu nadrzędnego tego folderu powoduje wyświetlenie folderu zawierającego *AnalysisServicesWorkspaces*, który będzie zawierał jeden podfolder obszaru roboczego dla każdego otwartego wystąpienia programu **Power BI Desktop**. Nazwy tych podfolderów mają sufiks w postaci liczby całkowitej, taki jak *AnalysisServicesWorkspace2058279583*.
 
-Wewnątrz tego folderu jest podfolder *\Data*, który zawiera plik śledzenia FlightRecorderCurrent.trc dla bieżącej sesji usługi Power BI. Odpowiedni folder obszaru roboczego jest usuwany podczas kończenia skojarzonej sesji programu Power BI Desktop.
+Wewnątrz tego folderu jest podfolder *\\Data*, który zawiera plik śledzenia FlightRecorderCurrent.trc dla bieżącej sesji usługi Power BI. Odpowiedni folder obszaru roboczego jest usuwany podczas kończenia skojarzonej sesji programu Power BI Desktop.
 
 Pliki śledzenia można odczytać przy użyciu narzędzia **SQL Server Profiler**, które jest dostępne bezpłatnie do pobrania jako część pakietu **SQL Server Management Studio**. Możesz je uzyskać z [tej lokalizacji](https://msdn.microsoft.com/library/mt238290.aspx).
 
