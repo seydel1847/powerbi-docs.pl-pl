@@ -1,15 +1,15 @@
 ---
-title: "Project Online: łączenie się z danymi za pomocą programu Power BI Desktop"
-description: "Project Online: łączenie się z danymi za pomocą programu Power BI Desktop"
+title: 'Project Online: łączenie się z danymi za pomocą programu Power BI Desktop'
+description: 'Project Online: łączenie się z danymi za pomocą programu Power BI Desktop'
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1f5fa21845167d2d9d419f163429fd1f025c1749
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 0577c6e3ce89e51c767273b634f6d3d88875eead
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="project-online-connect-to-data-through-power-bi-desktop"></a>Project Online: łączenie się z danymi za pomocą programu Power BI Desktop
 Możesz łączyć się z danymi w usłudze Project Online za pomocą programu Power BI Desktop.
@@ -42,6 +42,8 @@ Możesz łączyć się z danymi w usłudze Project Online za pomocą programu Po
 5. Program Power BI Desktop wyświetli monit o uwierzytelnienie za pomocą konta usługi Office 365. Wybierz konto organizacyjne, a następnie wprowadź swoje poświadczenia.
    
    ![](media/desktop-project-online-connect-to-data/image.png)
+
+Pamiętaj, że konto, którego używasz do nawiązania połączenia ze źródłem danych OData, musi mieć co najmniej dostęp na poziomie Przeglądarka portfeli do witryny Project Web App. 
 
 Tutaj możesz wybrać tabele, z którymi chcesz utworzyć połączenie i dla których chcesz utworzyć zapytanie.  Potrzebujesz informacji o tym, jak rozpocząć pracę?  W następującym wpisie w blogu przedstawiono sposób tworzenia wykresu postępu realizacji na podstawie danych usługi Project Online.  Wpis w blogu dotyczy łączenia się z usługą Project Online za pomocą dodatku Power Query, ale ma również zastosowanie w przypadku programu Power BI Desktop.
 

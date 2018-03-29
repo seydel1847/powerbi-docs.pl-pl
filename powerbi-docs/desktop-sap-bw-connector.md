@@ -1,15 +1,15 @@
 ---
-title: "Używanie łącznika systemu SAP BW w programie Power BI Desktop"
-description: "Używanie łącznika systemu SAP BW w programie Power BI Desktop"
+title: Używanie łącznika systemu SAP BW w programie Power BI Desktop
+description: Używanie łącznika systemu SAP BW w programie Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0486cb7887ae068b55de94a3d842843c094c8a29
-ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
+ms.openlocfilehash: 84ee8e7c6dd92c5400b6e9d44fab03ad347084d9
+ms.sourcegitcommit: e31fc1f6e4af427f8b480c8dbc537c3617c9b2c0
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>Używanie łącznika systemu SAP BW w programie Power BI Desktop
 Program Power BI Desktop umożliwia dostęp do danych systemu **SAP BusinessWarehouse (BW)**.
@@ -38,7 +38,7 @@ Aby używać łącznika systemu **SAP BW**, wykonaj następujące kroki instalac
    ![](media/desktop-sap-bw-connector/sap_bw_2a.png)
 
 ## <a name="sap-bw-connector-features"></a>Funkcje łącznika systemu SAP BW
-**Łączniki systemu SAP BW** w programie Power BI Desktop umożliwiają importowanie danych z modułów **SAP Business Warehouse Server**. **Łącznik systemu SAP BW** obsługuje też zapytanie bezpośrednie. 
+**Łączniki systemu SAP BW** w programie Power BI Desktop umożliwiają importowanie danych z modułów **SAP Business Warehouse Server** oraz korzystanie z zapytań bezpośrednich. 
 
 Aby dowiedzieć się więcej o **łączniku systemu SAP BW** oraz sposobu jego używania z zapytaniem bezpośrednim, zobacz artykuł [Zapytanie bezpośrednie i system SAP Business Warehouse (BW)](desktop-directquery-sap-bw.md).
 
@@ -50,7 +50,7 @@ Możesz również określić dwie dodatkowe **Opcje zaawansowane**: kod języka 
 
 ![](media/desktop-sap-bw-connector/sap_bw_4a.png)
 
-Jeśli nie została określona żadna instrukcja MDX, jest wyświetlane okno **Nawigator** zawierające listę modułów dostępnych na serwerze, opcję przechodzenia do szczegółów oraz wybierania elementów z dostępnych modułów, w tym wymiarów i miar. Usługa Power BI uwidacznia zapytania i moduły uwidocznione przez [interfejsy BAPI BW Open Analysis Interface OLAP](https://help.sap.com/saphelp_nw70/helpdata/en/d9/ed8c3c59021315e10000000a114084/content.htm).
+Jeśli nie została określona żadna instrukcja MDX, jest wyświetlane okno **Nawigator** zawierające listę modułów dostępnych na serwerze z opcją przechodzenia do szczegółów oraz wybierania elementów z dostępnych modułów, w tym wymiarów i miar. Usługa Power BI uwidacznia zapytania i moduły uwidocznione przez [interfejsy BAPI BW Open Analysis Interface OLAP](https://help.sap.com/saphelp_nw70/helpdata/en/d9/ed8c3c59021315e10000000a114084/content.htm).
 
 Gdy wybierzesz co najmniej jeden element z serwera, na podstawie zaznaczenia zostanie utworzony podgląd tabeli wyników.
 

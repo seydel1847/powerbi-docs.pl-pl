@@ -1,15 +1,15 @@
 ---
-title: "Rozwiązywanie problemów z bramą Power BI Gateway – Personal"
-description: "Rozwiązywanie problemów z bramą Power BI Gateway – Personal"
+title: Rozwiązywanie problemów z bramą Power BI Gateway – Personal
+description: Rozwiązywanie problemów z bramą Power BI Gateway – Personal
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: b94bb40de33ced9b7b7fee811aeff5c18ee43cae
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 1063f8a34041e4c27b481085608d69c3eb32558a
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="troubleshooting-power-bi-gateway---personal"></a>Rozwiązywanie problemów z bramą Power BI Gateway – Personal
 W tym temacie przedstawiono niektóre typowe problemy, które mogą wystąpić w przypadku korzystania z bramy Power BI Gateway — Personal.
@@ -156,5 +156,5 @@ Możesz również przejść do **folderu Temp** (%temp%) i poszukać plików, kt
 [Power BI Gateway — Personal](personal-gateway.md)  
 [Rozwiązywanie problemów z błędami kafelków](refresh-troubleshooting-tile-errors.md)  
 [Rozwiązywanie problemów z lokalną bramą danych](service-gateway-onprem-tshoot.md)  
-Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
+Więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
 
