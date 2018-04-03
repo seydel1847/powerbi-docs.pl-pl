@@ -1,27 +1,27 @@
 ---
-title: "Wyświetlanie raportów usługi Power BI zoptymalizowanych pod kątem telefonu"
-description: "Dowiedz się więcej na temat korzystania ze stron raportów zoptymalizowanych pod kątem wyświetlania w aplikacjach usługi Power BI na telefonach."
+title: Wyświetlanie raportów usługi Power BI zoptymalizowanych pod kątem telefonu
+description: Dowiedz się więcej na temat korzystania ze stron raportów zoptymalizowanych pod kątem wyświetlania w aplikacjach usługi Power BI na telefonach.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/04/2018
+ms.date: 03/22/2018
 ms.author: maggies
-ms.openlocfilehash: 4f3441e2f933ee8964fc77e3166aeede97bcfba9
-ms.sourcegitcommit: 25489cf87c31fc107a5337fa1dd36506897c4bbb
+ms.openlocfilehash: 275dc9fff2f87dd4811eb1a3fe3db944a2965b58
+ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/05/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>Wyświetlanie raportów usługi Power BI zoptymalizowanych pod kątem telefonu
 
@@ -47,7 +47,7 @@ Wszystkie pozostałe funkcje raportów usługi Power BI działają w raportach z
 * [Raportach na telefonach z systemem Android](mobile-reports-in-the-mobile-apps.md).
 
 ## <a name="filter-the-report-page-on-a-phone"></a>Filtrowanie strony raportu w telefonie
-Jeśli raport zoptymalizowany pod kątem telefonu ma zdefiniowane filtry, możesz użyć tych filtrów podczas wyświetlania raportu w telefonie. 
+Jeśli raport zoptymalizowany pod kątem telefonu ma zdefiniowane filtry, możesz użyć tych filtrów podczas wyświetlania raportu w telefonie. W telefonie zostanie otwarty raport odfiltrowany do wartości filtrowanych w raporcie w Internecie z komunikatem informującym o aktywnych filtrach na stronie. Filtry można zmienić w telefonie.
 
 1. Naciśnij ikonę filtru ![Ikona filtru na telefonie iPhone](media/mobile-apps-view-phone-report/power-bi-phone-filter-icon.png) w dolnej części strony. 
 2. Użyj filtrowania podstawowego lub zaawansowanego, aby wyświetlić interesujące Cię wyniki.

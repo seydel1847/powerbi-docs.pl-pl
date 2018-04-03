@@ -1,27 +1,27 @@
 ---
-title: "Udostępnianie pulpitu nawigacyjnego lub raportu z aplikacji mobilnych usługi Power BI"
-description: "Możesz zaprosić współpracowników do wyświetlenia Twoich pulpitów nawigacyjnych i raportów, udostępniając im linki z aplikacji mobilnych usługi Power BI. Dowiedz się, jak to zrobić."
+title: Udostępnianie pulpitu nawigacyjnego lub raportu z aplikacji mobilnych usługi Power BI
+description: Zaproś inne osoby do wyświetlania Twoich pulpitów nawigacyjnych i raportów, udostępniając im linki z aplikacji mobilnych usługi Power BI. Dowiedz się, jak to zrobić.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/15/2018
+ms.date: 03/20/2018
 ms.author: maggies
-ms.openlocfilehash: 328e73b31934259fb50e412b6dc2f88a379a7469
-ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
+ms.openlocfilehash: 5bbcf02dfb0c11ca605e0c07f2670bd3a3422e96
+ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>Udostępnianie pulpitu nawigacyjnego lub raportu z aplikacji mobilnych usługi Power BI
 Dotyczy:
@@ -30,7 +30,7 @@ Dotyczy:
 |:--- |:--- |:--- |:--- |:--- |
 | Telefony iPhone |Urządzenia iPad |Telefony z systemem Android |Tablety z systemem Android |Urządzenia z systemem Windows 10 |
 
-Jeśli masz [licencję na usługę Power BI Pro](service-free-vs-pro.md), możesz zaprosić współpracowników do wyświetlenia Twoich pulpitów nawigacyjnych i raportów, udostępniając im linki z aplikacji mobilnych usługi Power BI. Osoby, którym udostępniasz elementy, muszą mieć adres e-mail w tej samej domenie co Ty i także mieć licencję na usługę Power BI Pro lub zawartość musi być zapisana w [pojemności Premium](service-premium.md).
+Jeśli masz [licencję na usługę Power BI Pro](service-free-vs-pro.md), możesz zaprosić innych użytkowników do wyświetlania Twoich pulpitów nawigacyjnych i raportów, udostępniając im linki z aplikacji mobilnych usługi Power BI. Udostępnianie może dotyczyć innych osób z firmowymi kontami poczty lub bez nich w organizacji lub poza nią. Osoby te muszą również mieć licencję usługi Power BI Pro lub zawartość musi być uwzględniona w [pojemności Premium](service-premium.md).
 
 W aplikacji mobilnej Power BI dla urządzeń z systemem iOS i Android możesz także [udostępniać dowolnym osobom migawki kafelków, raportów i wizualizacji oraz dodawać do nich adnotacje](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md). 
 
@@ -38,14 +38,13 @@ W aplikacji mobilnej Power BI dla urządzeń z systemem iOS i Android możesz ta
 1. Na pasku akcji w dolnej części pulpitu nawigacyjnego lub raportu naciśnij ikonę **Udostępnij** ![Ikona Udostępnij](media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-share-dashboard-icon.png).
    
    ![Ikona udostępniania na telefonie iPhone](media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-dashboard-invite.png)
-2. Naciśnij pozycję **Zaproś współpracownika**.
-3. Wpisz nazwy użytkowników, oddzielając je przecinkami, a także wiadomość, która ma towarzyszyć zaproszeniu.
-4. Aby zezwolić na udostępnianie dalej, pozostaw wybraną opcję **Zezwalaj odbiorcom na udostępnianie dalej**.
+2. Wpisz nazwy użytkowników, oddzielając je przecinkami, a także wiadomość, która ma towarzyszyć zaproszeniu.
+3. Aby zezwolić na udostępnianie dalej, pozostaw wybraną opcję **Zezwalaj odbiorcom na udostępnianie dalej**.
    
    Jeśli zezwolisz współpracownikom na udostępnianie dalej, mogą oni przesłać dalej wiadomość e-mail z zaproszeniem do innych osób w danej organizacji — przez Internet lub aplikacje mobilne.
 5. Naciśnij pozycję **Wyślij** w prawym górnym rogu.
    
-   Współpracownicy otrzymają wiadomość e-mail z zaproszeniem zawierającą bezpośredni link do pulpitu nawigacyjnego lub raportu. Zaproszenie wygasa po upływie miesiąca. Gdy zaproszenie zostanie otwarte w przeglądarce lub w aplikacji mobilnej usługi Power BI, zostanie dodane do sekcji **Udostępnione dla mnie** na koncie usługi Power BI danej osoby.
+   Adresaci otrzymają wiadomość e-mail z zaproszeniem zawierającą bezpośredni link do pulpitu nawigacyjnego lub raportu. Zaproszenie wygasa po upływie miesiąca. Gdy zaproszenie zostanie otwarte w przeglądarce lub w aplikacji mobilnej usługi Power BI, zostanie dodane do sekcji **Udostępnione dla mnie** na koncie usługi Power BI danej osoby.
    
    ![Udostępnione dla mnie](media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-shared-with-me-left-nav.png)
    
@@ -68,14 +67,14 @@ Tylko właściciel może anulować udostępnianie.
 
 ## <a name="share-from-your-ipad"></a>Udostępnianie z tabletu iPad
 1. Wybierz ikonę **Udostępnij** ![Ikona Udostępnij](media/mobile-share-dashboard-from-the-mobile-apps/pbi_ipad_shareiconblk.png) w prawym górnym rogu pulpitu nawigacyjnego lub raportu.
-2. Naciśnij pozycję **Zaproś współpracownika**, a następnie wpisz adresy e-mail oraz wiadomość, która ma towarzyszyć zaproszeniu.
+2. Wpisz adresy e-mail oraz wiadomość, która ma towarzyszyć zaproszeniu.
 3. Aby zezwolić na udostępnianie dalej, pozostaw wybraną opcję **Zezwalaj odbiorcom na udostępnianie dalej**.
    
    Jeśli zezwolisz współpracownikom na udostępnianie dalej, mogą oni przesłać dalej wiadomość e-mail z zaproszeniem do innych osób w danej organizacji — przez Internet lub aplikacje mobilne. 
 
 4. Naciśnij pozycję **Wyślij** w prawym górnym rogu.
    
-   Współpracownicy otrzymają wiadomość e-mail z zaproszeniem zawierającą bezpośredni link do pulpitu nawigacyjnego lub raportu. Zaproszenie wygasa po upływie miesiąca. Gdy zaproszenie zostanie otwarte w przeglądarce lub w aplikacji mobilnej usługi Power BI, zostanie dodane do sekcji **Udostępnione dla mnie** na koncie usługi Power BI danej osoby
+   Adresaci otrzymają wiadomość e-mail z zaproszeniem zawierającą bezpośredni link do pulpitu nawigacyjnego lub raportu. Zaproszenie wygasa po upływie miesiąca. Gdy zaproszenie zostanie otwarte w przeglądarce lub w aplikacji mobilnej usługi Power BI, zostanie dodane do sekcji **Udostępnione dla mnie** na koncie usługi Power BI danej osoby
    
    ![Udostępnione dla mnie](media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-shared-with-me-left-nav.png)
    
@@ -97,7 +96,7 @@ Tylko właściciel może anulować udostępnianie.
 1. Na stronie głównej pulpitów nawigacyjnych lub raportów wybierz wielokropek (...), a następnie naciśnij pozycję **Zaproś współpracownika**.
    
    ![Zaproś współpracownika](media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-tablet-share-dashboard.png)
-2. Możesz też nacisnąć ikonę zaproszenia w prawym górnym rogu pulpitu nawigacyjnego lub raportu ![Ikona zaproszenia](media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-invite-icon.png).
+2. Lub w pulpicie nawigacyjnym lub raporcie wybierz ikonę zaproszenia ![Ikona zaproszenia](media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-invite-icon.png).
 
     Jeśli jesteś właścicielem tego pulpitu nawigacyjnego, zobaczysz listę współpracowników, którym udostępniono ten pulpit nawigacyjny lub raport, oraz następujące oznaczenia:
 
@@ -111,7 +110,7 @@ Tylko właściciel może anulować udostępnianie.
    
 1. Naciśnij ikonę **Wyślij** ![Ikona Wyślij](media/mobile-share-dashboard-from-the-mobile-apps/pbi_andr_sendplane.png) w prawym górnym rogu, aby wysłać wiadomość e-mail.
    
-   Współpracownicy otrzymają wiadomość e-mail z zaproszeniem zawierającą bezpośredni link do pulpitu nawigacyjnego. Zaproszenie wygasa po upływie miesiąca. Gdy zaproszenie zostanie otwarte w przeglądarce lub w aplikacji mobilnej usługi Power BI, zostanie dodane do sekcji **Udostępnione dla mnie** na koncie usługi Power BI danej osoby
+   Adresaci otrzymają wiadomość e-mail z zaproszeniem zawierającą bezpośredni link do pulpitu nawigacyjnego. Zaproszenie wygasa po upływie miesiąca. Gdy zaproszenie zostanie otwarte w przeglądarce lub w aplikacji mobilnej usługi Power BI, zostanie dodane do sekcji **Udostępnione dla mnie** na koncie usługi Power BI danej osoby
    
    ![Udostępnione dla mnie](media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-shared-with-me-left-nav.png)
    
@@ -146,7 +145,7 @@ Tylko właściciel może anulować udostępnianie.
    
 1. Naciśnij ikonę **Wyślij** ![Ikona Wyślij](media/mobile-share-dashboard-from-the-mobile-apps/pbi_win10ph_sendicon.png).
    
-   Współpracownicy otrzymają wiadomość e-mail z zaproszeniem zawierającą bezpośredni link do pulpitu nawigacyjnego lub raportu. Zaproszenie wygasa po upływie miesiąca. Gdy zaproszenie zostanie otwarte w przeglądarce lub w aplikacji mobilnej usługi Power BI, zostanie dodane do sekcji **Udostępnione dla mnie** na koncie usługi Power BI danej osoby
+   Adresaci otrzymają wiadomość e-mail z zaproszeniem zawierającą bezpośredni link do pulpitu nawigacyjnego lub raportu. Zaproszenie wygasa po upływie miesiąca. Gdy zaproszenie zostanie otwarte w przeglądarce lub w aplikacji mobilnej usługi Power BI, zostanie dodane do sekcji **Udostępnione dla mnie** na koncie usługi Power BI danej osoby
    
    ![Udostępnione dla mnie](media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-shared-with-me-left-nav.png)
    

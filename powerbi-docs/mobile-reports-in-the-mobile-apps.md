@@ -1,27 +1,27 @@
 ---
-title: "Eksplorowanie raportów w aplikacjach mobilnych Power BI"
-description: "Dowiedz się więcej na temat przeglądania raportów i korzystania z nich w aplikacji mobilnej Power BI na swoim telefonie lub tablecie. Raporty możesz tworzyć w usłudze Power BI lub programie Power BI Desktop, a następnie korzystać z nich w aplikacjach mobilnych. "
+title: Eksplorowanie raportów w aplikacjach mobilnych Power BI
+description: 'Dowiedz się więcej na temat przeglądania raportów i korzystania z nich w aplikacji mobilnej Power BI na swoim telefonie lub tablecie. Raporty możesz tworzyć w usłudze Power BI lub programie Power BI Desktop, a następnie korzystać z nich w aplikacjach mobilnych. '
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/25/2018
+ms.date: 03/22/2018
 ms.author: maggies
-ms.openlocfilehash: 51006f70d0be13f08de7047f0097f7530d32a470
-ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
+ms.openlocfilehash: 6edd5a6e9606150d4b489a79cdb5ca57ac2f8cce
+ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/29/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Eksplorowanie raportów w aplikacjach mobilnych Power BI
 Dotyczy:
@@ -50,7 +50,9 @@ Raporty usługi Power BI są przechowywane w różnych miejscach w aplikacji mob
   ![Raport na telefonie w orientacji poziomej](media/mobile-reports-in-the-mobile-apps/power-bi-iphone-report-landscape.png)
 
 ## <a name="view-reports-optimized-for-phones"></a>Wyświetlanie raportów zoptymalizowanych pod kątem telefonów
-Autorzy raportów usługi Power BI mogą utworzyć układ raportu zoptymalizowany specjalnie pod kątem telefonów. Strony raportów zoptymalizowane pod kątem telefonów mają dodatkowe funkcje: na przykład można wyszczególniać i sortować wizualizacje w trybie koncentracji uwagi oraz uzyskiwać dostęp do [filtrów, które autor raportu dodał do strony raportu](mobile-apps-view-phone-report.md#filter-the-report-page-on-a-phone). Zoptymalizowany raport ma na liście raportów specjalną ikonę, ![Ikona raportu zoptymalizowanego pod kątem telefonów](media/mobile-reports-in-the-mobile-apps/power-bi-phone-report-icon.png):
+Autorzy raportów usługi Power BI mogą utworzyć układ raportu zoptymalizowany specjalnie pod kątem telefonów. Strony raportów zoptymalizowane pod kątem telefonów mają dodatkowe funkcje: na przykład można wyszczególniać i sortować wizualizacje w trybie koncentracji uwagi oraz uzyskiwać dostęp do [filtrów, które autor raportu dodał do strony raportu](mobile-apps-view-phone-report.md#filter-the-report-page-on-a-phone). W telefonie zostanie otwarty raport odfiltrowany do wartości filtrowanych w raporcie w Internecie z komunikatem informującym o aktywnych filtrach na stronie. Filtry można zmienić w telefonie.
+
+Zoptymalizowany raport ma na liście raportów specjalną ikonę ![Ikona raportu zoptymalizowanego pod kątem telefonów](media/mobile-reports-in-the-mobile-apps/power-bi-phone-report-icon.png):
 
 ![Otwieranie raportu zoptymalizowanego pod kątem telefonów](media/mobile-reports-in-the-mobile-apps/power-bi-android-phone-report.png)
 
@@ -63,7 +65,7 @@ Po wyświetleniu tego raportu na telefonie zostanie on otwarty w widoku pionowym
 Dowiedz się więcej na temat [raportów zoptymalizowanych pod kątem wyświetlania na telefonach](mobile-apps-view-phone-report.md).
 
 ## <a name="use-slicers-to-filter-a-report-page"></a>Filtrowanie stron raportu za pomocą fragmentatorów
-Podczas projektowania raportu w programie Power BI Desktop lub za pomocą usługi Power BI należy wziąć pod uwagę możliwość [dodania fragmentatorów do strony raportu](power-bi-visualization-slicers.md). Możesz razem ze współpracownikami korzystać z fragmentatorów do filtrowania strony w przeglądarce i w aplikacjach mobilnych. Po wyświetleniu raportu w telefonie możecie wyświetlać fragmentatory i korzystać z nich w orientacji poziomej oraz na stronie zoptymalizowanej pod kątem orientacji pionowej telefonu.
+Podczas projektowania raportu w programie Power BI Desktop lub za pomocą usługi Power BI należy wziąć pod uwagę możliwość [dodania fragmentatorów do strony raportu](power-bi-visualization-slicers.md). Możesz razem ze współpracownikami korzystać z fragmentatorów do filtrowania strony w przeglądarce i w aplikacjach mobilnych. Po wyświetleniu raportu w telefonie możecie wyświetlać fragmentatory i korzystać z nich w orientacji poziomej oraz na stronie zoptymalizowanej pod kątem orientacji pionowej telefonu. Wartość wybrana w filtrze lub fragmentatorze w przeglądarce zostanie również wybrana w przypadku wyświetlenia strony w aplikacji mobilnej. Zobaczysz komunikat informujący o aktywnych filtrach na stronie.  
 
 * Wybranie wartości we fragmentatorze na stronie raportu spowoduje przefiltrowanie innych wizualizacji na tej stronie.
   

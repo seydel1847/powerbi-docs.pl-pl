@@ -1,15 +1,15 @@
 ---
-title: "Otwieranie raportu w widoku do czytania lub w widoku do edycji w usłudze Power BI"
-description: "Otwieranie raportu usługi Power BI w widoku do czytania lub do edycji"
+title: Otwieranie raportu w widoku do czytania lub w widoku do edycji w usłudze Power BI
+description: Otwieranie raportu usługi Power BI w widoku do czytania lub do edycji
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
