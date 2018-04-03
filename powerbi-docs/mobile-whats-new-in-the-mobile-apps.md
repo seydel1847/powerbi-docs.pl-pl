@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/13/2018
+ms.date: 03/20/2018
 ms.author: maggies
-ms.openlocfilehash: 5c2573bf4a3900b4d4216170e843263bc41a4e07
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: 29241b4c0f059540e6f1496f04b3044ebbd7d68b
+ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Co nowego w aplikacjach mobilnych dla usługi Power BI
 Powiązane nowości są dostępne w następujących artykułach:
@@ -35,6 +35,18 @@ Powiązane nowości są dostępne w następujących artykułach:
 ### <a name="power-bi-for-mixed-reality-app-preview"></a>Aplikacja usługi Power BI dla rzeczywistości mieszanej (wersja zapoznawcza)
 
 Dążąc do zapewnienia dostępności danych w dowolnych lokalizacjach, utworzyliśmy niedawno aplikację usługi Power BI dla rzeczywistości mieszanej. Wyświetlaj swoje pulpity nawigacyjne i raporty w świecie wirtualnym lub umieszczaj je i wyświetlaj w określonych lokalizacjach w kontekście środowiska. Dowiedz się więcej o nowej [aplikacji usługi Power BI dla rzeczywistości mieszanej](mobile-mixed-reality-app.md).
+
+### <a name="share-reports-and-dashboards-externally"></a>Udostępnianie raportów i pulpitów nawigacyjnych na zewnątrz
+
+Udostępniaj pulpity nawigacyjne i raporty użytkownikom spoza organizacji bezpośrednio z poziomu aplikacji. Udostępnianie zewnętrzne jest włączone w przypadku organizacji i kont społecznościowych. 
+
+### <a name="persistent-filters"></a>Filtry trwałe
+
+Po ustawieniu filtrów i fragmentatorów w usłudze Power BI w Internecie wybrane opcje filtrów są również zapisywane w aplikacji mobilnej, aby można było wrócić do pracy w miejscu, w którym została przerwana.
+
+### <a name="refresh-reports-on-the-ipad"></a>Odświeżanie raportów w urządzeniu iPad
+
+Raporty usługi Power BI mają teraz przycisk odświeżania w aplikacji iPad.
 
 ## <a name="february-2018"></a>Luty 2018
 
