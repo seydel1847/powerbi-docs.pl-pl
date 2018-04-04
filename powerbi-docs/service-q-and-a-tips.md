@@ -1,15 +1,15 @@
 ---
-title: "Porady i wskazówki dotyczące zadawania pytań za pomocą funkcji Pytania i odpowiedzi w usłudze Power BI"
-description: "Porady i wskazówki dotyczące zadawania pytań za pomocą funkcji Pytania i odpowiedzi w usłudze Power BI"
+title: Porady i wskazówki dotyczące zadawania pytań za pomocą funkcji Pytania i odpowiedzi w usłudze Power BI
+description: Porady i wskazówki dotyczące zadawania pytań za pomocą funkcji Pytania i odpowiedzi w usłudze Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/18/2018
 ms.author: jastru
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: bdf1f161e0a95bda5b37d9c43a3bdcc6bde1066a
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 28ebd938b1121e1d2d453a9c9e72592b1c814742
+ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>Porady dotyczące zadawania pytań w funkcji Pytania i odpowiedzi usługi Power BI
 ## <a name="words-and-terminology-that-qa-recognizes"></a>Wyrazy i terminologia rozpoznawane przez funkcję Pytania i odpowiedzi
@@ -94,9 +94,6 @@ Funkcja Pytania i odpowiedzi dokłada wszelkich starań, aby udzielona odpowied�
 * Automatyczne sugerowanie terminów zastępczych ze źródłowych zestawów danych, gdy z powrotem przeniesiesz kursor do pola pytania.
 * Ponowne formułowanie pytania w oparciu o dane w źródłowych zestawach danych. Dzięki temu masz pewność, że funkcja Pytania i odpowiedzi zrozumiała pytanie, ponieważ zastępuje ona użyte słowa synonimami ze źródłowych zestawów danych.
 * Wygasza słowa, których nie rozumie.
-
-## <a name="combine-results-from-more-than-one-dataset"></a>Łączenie wyników z więcej niż jednego zestawu danych
-Jedną z najbardziej zaawansowanych funkcji usługi Power BI jest możliwość łączenia danych z różnych zestawów danych.  Nie musisz ograniczać pytań do jednego zestawu danych — zadawaj pytania, które pobierają dane z więcej niż jednego zestawu danych. Jeśli na przykład pulpit nawigacyjny ma kafelki pochodzące z przykładu Retail Analysis oraz zestawu danych populacji stanu, można zadać pytanie *show count of stores by state population as bar chart descending* (pokaż liczbę sklepów według populacji stanu jako wykres słupkowy w kolejności malejącej).
 
 ## <a name="dont-stop-now"></a>Nie przerywaj
 Po wyświetleniu wyników przez funkcję Pytania i odpowiedzi możesz nadal prowadzić konwersację! Skorzystaj z interaktywnych funkcji wizualizacji oraz aparatu Pytania i odpowiedzi, aby odkryć jeszcze więcej szczegółowych informacji.

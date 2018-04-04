@@ -1,15 +1,15 @@
 ---
-title: "Wizualizacje niestandardowe w usłudze Power BI"
-description: "Wizualizacje niestandardowe w usłudze Power BI"
+title: Wizualizacje niestandardowe w usłudze Power BI
+description: Wizualizacje niestandardowe w usłudze Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 02/06/2018
 ms.author: maghan
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 66b4af61ebc46afa65403f9e5d5fa47289c0a07b
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 6e5459492879cccbd2f18c572140eabfd0ab0f1c
+ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/04/2018
 ---
 # <a name="custom-visuals-in-power-bi"></a>Wizualizacje niestandardowe w usłudze Power BI
 Podczas tworzenia lub edytowania raportu usługi Power BI dostępnych jest wiele rodzajów wizualizacji. Te wizualizacje wyświetlane są w okienku **Wizualizacje**. Gdy pobierasz program Power BI Desktop lub otwierasz usługę Power BI (app.powerbi.com), ten zestaw wizualizacji jest już dostępny.
@@ -47,7 +47,7 @@ Wizualizacje niestandardowe to pakiety zawierające kod renderowania danych, kt�
 > 
 > 
 
-## <a name="organization-visuals-preview"></a>Wizualizacje organizacji (wersja zapoznawcza)
+## <a name="organization-visuals"></a>Organization visuals (Wizualizacje organizacji)
 
 Administratorzy usługi Power BI mogą wdrażać wizualizacje niestandardowe w organizacji, umożliwiając autorom raportów łatwe odnajdowanie i używanie tych wizualizacji, które zostały przez niego zatwierdzone do użycia w organizacji. Dzięki temu administrator może wybierać określone wizualizacje niestandardowe do wdrożenia w organizacji oraz w prosty sposób nimi zarządzać (tj. aktualizować wersje, wyłączać je i włączać). Autor raportu zyskuje prosty sposób odnajdowania wizualizacji, które są unikatowe dla organizacji, oraz bezproblemową obsługę aktualizacji wizualizacji.
 
