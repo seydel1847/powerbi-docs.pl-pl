@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/21/2018
+ms.date: 04/02/2018
 ms.author: maghan
-ms.openlocfilehash: 3777c58bae36d6115b51b64e0422529fe390a13c
-ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
+ms.openlocfilehash: bc490834b215af45df1063fd06b94ed9b735d852
+ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Źródła danych raportów usługi Power BI na Serwerze raportów usługi Power BI
 Raporty usługi Power BI mogą łączyć się z różnymi źródłami danych. Zależnie od sposobu użycia danych są dostępne różne źródła danych. Dane można zaimportować lub wykonywać względem nich zapytania bezpośrednio przy użyciu zapytania bezpośredniego lub połączenia na żywo z usługami SQL Server Analysis Services.
@@ -84,7 +84,7 @@ Inne źródła danych mogą działać, nawet jeśli nie znajdują się na liści
 | Internet |Tak |Tak |Nie |
 | Plik XML |Tak |Tak |Nie |
 | appFigures (beta) |Tak |Nie |Nie |
-| Baza danych Azure Analysis Services (beta) |Tak |Nie |Nie |
+| Baza danych usług Azure Analysis Services |Tak |Nie |Tak |
 | Azure Cosmos DB (beta) |Tak |Nie |Nie |
 | Azure HDInsight Spark (beta) |Tak |Nie |Nie |
 | Common Data Service (beta) |Tak |Nie |Nie |

@@ -1,15 +1,15 @@
 ---
-title: "Zarządzanie pojemnościami w usługach Power BI Premium i Power BI Embedded"
-description: "Dowiedz się, jak zarządzać usługą Power BI Premium i włączać dostęp do zawartości dla całej organizacji."
+title: Zarządzanie pojemnościami w usługach Power BI Premium i Power BI Embedded
+description: Dowiedz się, jak zarządzać usługą Power BI Premium i włączać dostęp do zawartości dla całej organizacji.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 10/10/2017
 ms.author: maghan
 LocalizationGroup: Premium
-ms.openlocfilehash: a6040871652484ad5de70a0d73e14a13742fe56a
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: 556f91464e8a08b5cb149648be2b097578964af9
+ms.sourcegitcommit: ae4d771b883b654358a6a94dd784ea9bdf3d3aa3
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="manage-capacities-within-power-bi-premium-and-power-bi-embedded"></a>Zarządzanie pojemnościami w usługach Power BI Premium i Power BI Embedded
 Dowiedz się, jak zarządzać pojemnościami usług Power BI Premium i Power BI Embedded, zapewniając zasoby dedykowane dla swojej zawartości.
@@ -47,6 +47,10 @@ Aby optymalnie wykorzystać dedykowaną pojemność, należy kupić subskrypcję
 * **Power BI Embedded:** [Tworzenie pojemności usługi Power BI Embedded w witrynie Azure Portal](https://docs.microsoft.com/en-us/azure/power-bi-embedded/create-capacity)
 
 Po kupieniu jednostek SKU usługi Power BI Premium Twoja dzierżawa otrzyma odpowiednią liczbę rdzeni wirtualnych do użytku w uruchomionych pojemnościach. Na przykład zakup jednostki Power BI Premium P3 zapewnia dzierżawie 32 rdzenie wirtualne.
+
+> [!NOTE]
+> Po zakończeniu subskrypcji będziesz mieć pełny dostęp przez 30 dni, ale następnie zawartość zostanie przywrócona do udostępnionej pojemności. Modele większe niż 1 GB nie będą obsługiwane w przypadku zwykłej licencji udostępnionej.
+>
 
 ## <a name="capacity-admins"></a>Administratorzy pojemności
 > [!NOTE]

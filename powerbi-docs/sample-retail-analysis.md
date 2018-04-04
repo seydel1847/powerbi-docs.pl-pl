@@ -1,28 +1,28 @@
 ---
-title: "Próbka analizy handlu detalicznego dla usługi Power BI: krótki przewodnik"
-description: "Próbka analizy handlu detalicznego dla usługi Power BI: krótki przewodnik"
+title: 'Próbka analizy handlu detalicznego dla usługi Power BI: krótki przewodnik'
+description: 'Próbka analizy handlu detalicznego dla usługi Power BI: krótki przewodnik'
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/17/2018
+ms.date: 01/18/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 54a12f7e3b2ecee65701ca6c629d078ad7b9c0c9
-ms.sourcegitcommit: 743e44fc8730fea0f7149916080b0c6d7eb6359d
+ms.openlocfilehash: dda92ff8280295e6112cf2ab6a51f4606e5c474d
+ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/28/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Próbka analizy handlu detalicznego dla usługi Power BI: krótki przewodnik
 
@@ -45,11 +45,11 @@ Ten przykładowy pulpit nawigacyjny dla branży i raport będący jego podstawą
    ![](media/sample-datasets/power-bi-samples-icon.png)
 4. Wybierz pozycję **Przykład Retail Analysis**, a następnie wybierz polecenie **Połącz**.  
   
-   ![Przykład Retail Analysis](media/sample-retail-analysis/retail16.png)
+   ![Przykład analizy handlu detalicznego](media/sample-retail-analysis/retail16.png)
    
 5. Usługa Power BI zaimportuje pakiet zawartości i doda nowy pulpit nawigacyjny, raport oraz zestaw danych do bieżącego obszaru roboczego. Nowa zawartość jest oznaczona żółtą gwiazdką. 
    
-   ![Przykład Retail Analysis](media/sample-retail-analysis/retail17.png)
+   ![Przykład analizy handlu detalicznego](media/sample-retail-analysis/retail17.png)
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>Pobieranie pliku pbix dla tego przykładu
 
