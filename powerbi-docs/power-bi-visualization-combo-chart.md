@@ -1,16 +1,16 @@
 ---
-title: "Samouczek — Wykres kombi"
-description: "Ten samouczek dotyczący wykresów kombi objaśnia, kiedy ich używać i jak je tworzyć w usłudze Power BI i programie Power BI Desktop."
+title: Samouczek — Wykres kombi
+description: Ten samouczek dotyczący wykresów kombi objaśnia, kiedy ich używać i jak je tworzyć w usłudze Power BI i programie Power BI Desktop.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: lnv66cTZ5ho
 qualityfocus: monitoring
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -19,11 +19,11 @@ ms.workload: powerbi
 ms.date: 01/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a52a50b647e743bfd29eecd970c1f381098bd344
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: b5e89a9a1f2e88ed793dff6457b58fd9ac609ef5
+ms.sourcegitcommit: e571de2afa3f34fac06a6aab0df0e8940cb00a0d
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="combo-chart-in-power--tutorial"></a>Wykres kombi w usłudze Power BI (samouczek)
 W usłudze Power BI wykres kombi to pojedyncza wizualizacja łącząca wykres liniowy i kolumnowy. Łączenie 2 wykresów w jednym umożliwia szybsze porównywanie danych.
@@ -46,7 +46,7 @@ Wykresy kombi są dostępne w usłudze Power BI i w programie Power BI Desktop. 
 ## <a name="create-a-basic-single-axis-combo-chart"></a>Tworzenie podstawowego, jednoosiowego wykresu kombi
 Obejrzyj, jak Will tworzy wykres kombi przy użyciu przykładu sprzedaży i marketingu.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lnv66cTZ5ho?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lnv66cTZ5ho?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>  
 
 <a name="create"></a> Aby utworzyć własny wykres kombi, zaloguj się w usłudze Power BI, a następnie wybierz pozycję **Pobierz dane \> Przykłady \> Przykład Retail Analysis > Połącz > Przejdź do pulpitu nawigacyjnego**.
 

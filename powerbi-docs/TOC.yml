@@ -728,7 +728,7 @@
           href: desktop-common-query-tasks.md
         - name: Używanie mapowań kształtów w programie Power BI Desktop (wersja zapoznawcza)
           href: desktop-shape-map.md
-        - name: Łączenie plików binarnych
+        - name: Łączenie plików (pliki binarne)
           href: desktop-combine-binaries.md
     - name: Modelowanie danych
       items:
