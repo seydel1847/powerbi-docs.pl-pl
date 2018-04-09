@@ -770,6 +770,8 @@
           href: desktop-insights.md
         - name: Fragmentatory w programie Power BI Desktop
           href: desktop-slicers.md
+        - name: Korzystanie z przycisków w usłudze Power BI
+          href: desktop-buttons.md
         - name: Zakładki w usłudze Power BI
           href: desktop-bookmarks.md
         - name: Tworzenie niestandardowych etykietek narzędzi do raportów (wersja zapoznawcza)
@@ -990,6 +992,8 @@
           href: service-custom-visuals-getting-started-with-developer-tools.md
         - name: Certyfikowanie wizualizacji niestandardowej
           href: power-bi-custom-visuals-certified.md
+        - name: Publikowanie wizualizacji niestandardowych w usłudze AppSource
+          href: developer/office-store.md
     - name: Wypychanie danych do pulpitu nawigacyjnego
       items:
         - name: Wypychanie danych do pulpitu nawigacyjnego
