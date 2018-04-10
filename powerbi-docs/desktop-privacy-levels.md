@@ -1,15 +1,15 @@
 ---
-title: "Omówienie poziomów prywatności programu Power BI Desktop"
-description: "Poziomy prywatności programu Power BI Desktop"
+title: Omówienie poziomów prywatności programu Power BI Desktop
+description: Poziomy prywatności programu Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/19/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3cf6875fcb0756bfa9f5622a8d49f5b645b13c24
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 110d851e08ee8b63645c11507500eb2cbf179a46
+ms.sourcegitcommit: ae4d771b883b654358a6a94dd784ea9bdf3d3aa3
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="power-bi-desktop-privacy-levels"></a>Poziomy prywatności programu Power BI Desktop
 W programie **Power BI Desktop** poziomy prywatności służą do określania poziomu izolacji, który definiuje stopień odizolowania jednego źródła danych od innych źródeł danych. Restrykcyjny poziom izolacji blokuje wymienianie informacji między źródłami danych, ale może spowodować ograniczenie funkcjonalności i obniżenie wydajności.
@@ -31,15 +31,6 @@ Ustawienie **Poziomy prywatności**, które można znaleźć, wybierając pozycj
 
 ![](media/desktop-privacy-levels/desktop_privacylevels1.png)
 
- Okno dialogowe ustawień **Prywatność** dla poszczególnych źródeł danych można znaleźć, wybierając opcję **Plik > Opcje i ustawienia > Ustawienia źródła danych**. Wybierz źródło danych, a następnie wybierz pozycję **Edytuj**. Zostanie wyświetlone okno dialogowe **Ustawienia źródła danych**, w którego dolnej części można wybrać odpowiedni poziom prywatności z menu rozwijanego, jak pokazano na poniższym obrazie.
-
- ![](media/desktop-privacy-levels/desktop_privacylevels2.png)
-
-> [!CAUTION]
-> Źródło danych zawierające wysoce poufne informacje dane należy skonfigurować jako **prywatne**.
-> 
-> 
-
 ## <a name="configure-a-privacy-level"></a>Konfigurowanie poziomu prywatności
 Za pomocą ustawień poziomów prywatności można określić poziom izolacji, który definiuje żądany stopień odizolowania jednego źródła danych od innych źródeł danych.
 
@@ -47,7 +38,7 @@ Za pomocą ustawień poziomów prywatności można określić poziom izolacji, k
 | --- | --- | --- |
 | **Prywatne źródło danych** |**Prywatne** źródło danych zawiera poufne informacje. Jego widoczność można ograniczyć do autoryzowanych użytkowników. Prywatne źródło danych jest całkowicie odizolowane od innych źródeł danych. |Dane usługi Facebook, plik tekstowy zawierający informacje o nagrodach w postaci akcji lub skoroszyt zawierający informacje o ocenie pracowników. |
 | **Organizacyjne źródło danych** |W przypadku **organizacyjnego** źródła danych widoczność jest ograniczona do grupy zaufanych osób. **Organizacyjne** źródło danych jest odizolowane od wszystkich **publicznych** źródeł danych, ale jest widoczne dla innych **organizacyjnych** źródeł danych. |Dokument programu **Microsoft Word** w intranetowej witrynie programu SharePoint z włączonymi uprawnieniami dla zaufanej grupy. |
-| **Publiczne źródło danych** |**Publiczne** źródło danych zapewnia wszystkim wgląd w dane w nim zawarte. Tylko pliki, internetowe źródła danych i dane skoroszytu mogą zostać oznaczone jako **publiczne**. |Bezpłatne dane z witryny Microsoft Azure Marketplace, dane ze strony Wikipedii lub lokalny plik zawierający dane skopiowane z publicznej strony internetowej |
+| **Publiczne źródło danych** |**Publiczne** źródło danych zapewnia wszystkim wgląd w dane w nim zawarte. Tylko pliki, internetowe źródła danych i dane skoroszytu mogą zostać oznaczone jako **publiczne**. |Bezpłatne dane z witryny Microsoft Azure Marketplace, dane ze strony Wikipedii lub lokalny plik zawierający dane skopiowane z publicznej strony internetowej. |
 
 ## <a name="configure-privacy-level-settings"></a>Konfigurowanie ustawień poziomu prywatności
 Okno dialogowe ustawień **Prywatność** dla poszczególnych źródeł danych można znaleźć, wybierając opcję **Plik > Opcje i ustawienia > Ustawienia źródła danych**.

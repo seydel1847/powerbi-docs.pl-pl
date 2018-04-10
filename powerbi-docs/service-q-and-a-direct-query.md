@@ -1,15 +1,15 @@
 ---
-title: "Używanie funkcji Pytania i odpowiedzi z połączeniami na żywo"
-description: "Dokumentacja korzystania z zapytań w języku naturalnym w funkcji pytań i odpowiedzi usługi Power BI za pomocą połączeń na żywo z danymi usług Analysis Services i lokalnej bramy danych."
+title: Używanie funkcji Pytania i odpowiedzi z połączeniami na żywo
+description: Dokumentacja korzystania z zapytań w języku naturalnym w funkcji pytań i odpowiedzi usługi Power BI za pomocą połączeń na żywo z danymi usług Analysis Services i lokalnej bramy danych.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
 backup: mihart
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 7c33e1d3719b30569996425ed247c1eac87b78f1
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: c6fa26d85d362af0d66276509f4e52ba718d338a
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="enable-qa-for-live-connections"></a>Włączanie funkcji pytań i odpowiedzi dla połączeń na żywo
 ## <a name="what-is-on-premises-data-gateway--what-is-a-live-connection"></a>Co to jest lokalna brama danych?  Co to jest połączenie na żywo?

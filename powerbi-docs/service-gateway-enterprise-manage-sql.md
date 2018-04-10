@@ -1,15 +1,15 @@
 ---
-title: "Zarządzanie źródłem danych — SQL Server"
-description: "Jak zarządzać lokalną bramą danych i źródłami danych należącymi do tej bramy."
+title: Zarządzanie źródłem danych — SQL Server
+description: Jak zarządzać lokalną bramą danych i źródłami danych należącymi do tej bramy.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5e1bbc86ea56dfbc692d8a81cbeb4bc38d872c2b
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: ad9b619f7e0d52442796dc461948a705b9b0f74a
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="manage-your-data-source---sql-server"></a>Zarządzanie źródłem danych — SQL Server
 Po zainstalowaniu lokalnej bramy danych możliwe jest dodawanie źródeł danych, które mogą być używane z tą bramą. W tym artykule opisano sposób pracy z bramami i źródłami danych. Źródła danych programu SQL Server można użyć na potrzeby zaplanowanego odświeżania lub zapytania bezpośredniego.
@@ -67,13 +67,13 @@ Następnie można podać informacje dla źródła danych, które obejmują **ser
 Konieczne będzie również wybranie **metody uwierzytelniania**.  Może ona mieć dwie wartości: **Windows** lub **Podstawowe**.  Uwierzytelnianie **podstawowe** należy wybrać, jeśli zamierzasz używać uwierzytelniania SQL zamiast uwierzytelniania systemu Windows. Następnie wprowadź poświadczenia, które będą używane dla tego źródła danych.
 
 > [!NOTE]
-> Wszystkie zapytania względem źródła danych będą uruchamiane przy użyciu tych poświadczeń, chyba że logowanie jednokrotne (SSO) protokołu Kerberos zostało skonfigurowane i włączone dla źródła danych. W przypadku logowania jednokrotnego zestawy danych importowania używają przechowywanych poświadczeń, ale zestawy danych zapytania bezpośredniego używają bieżącego użytkownika usługi Power BI do wykonywania zapytań przy użyciu logowania jednokrotnego. Aby dowiedzieć się więcej, zobacz podstawowy artykuł dotyczący lokalnej bramy danych, aby uzyskać informacje na temat sposobu przechowywania [poświadczeń](service-gateway-onprem.md#credentials) lub artykuł opisujący sposób [używania protokołu Kerberos na potrzeby logowania jednokrotnego (SSO) z usługi Power BI do lokalnych źródeł danych](service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md).
+> Wszystkie zapytania względem źródła danych będą uruchamiane przy użyciu tych poświadczeń, chyba że logowanie jednokrotne (SSO) protokołu Kerberos zostało skonfigurowane i włączone dla źródła danych. W przypadku logowania jednokrotnego zestawy danych importowania używają przechowywanych poświadczeń, ale zestawy danych zapytania bezpośredniego używają bieżącego użytkownika usługi Power BI do wykonywania zapytań przy użyciu logowania jednokrotnego. Aby dowiedzieć się więcej, zobacz podstawowy artykuł dotyczący lokalnej bramy danych, zawierający informacje na temat sposobu przechowywania [poświadczeń](service-gateway-onprem.md#credentials), lub artykuł opisujący sposób [używania protokołu Kerberos na potrzeby logowania jednokrotnego (SSO) z usługi Power BI do lokalnych źródeł danych](service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md).
 > 
 > 
 
 ![](media/service-gateway-enterprise-manage-sql/datasourcesettings3.png)
 
-Możesz kliknąć pozycję **Dodaj** po wprowadzeniu wszystkich wymaganych informacji.  Możesz teraz używać tego źródła danych na potrzeby zaplanowanego odświeżania lub zapytania bezpośredniego względem programu SQL Server działającego lokalnie. W przypadku powodzenia zostanie wyświetlony komunikat *Łączenie przebiegło pomyślnie*.
+Po wprowadzeniu wszystkich wymaganych informacji możesz kliknąć pozycję **Dodaj**.  Możesz teraz używać tego źródła danych na potrzeby zaplanowanego odświeżania lub zapytania bezpośredniego względem programu SQL Server działającego lokalnie. W przypadku powodzenia zostanie wyświetlony komunikat *Łączenie przebiegło pomyślnie*.
 
 ![](media/service-gateway-enterprise-manage-sql/datasourcesettings4.png)
 
@@ -108,7 +108,7 @@ Na karcie Użytkownicy dla źródła danych można dodawać i usuwać użytkowni
 Po utworzeniu źródło danych będzie dostępne do użycia z połączeniami zapytań bezpośrednich lub za pośrednictwem zaplanowanego odświeżania.
 
 > [!NOTE]
-> Nazwy serwera i bazy danych muszą być zgodne między programem Power BI Desktop i źródłem danych w ramach lokalnej bramy danych.
+> W ramach lokalnej bramy danych nazwy serwera i bazy danych w programie Power BI Desktop oraz źródle danych muszą być takie same!
 > 
 > 
 

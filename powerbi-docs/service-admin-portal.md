@@ -1,28 +1,28 @@
 ---
-title: "Portal administracyjny usługi Power BI"
-description: "Portal administracyjny umożliwia zarządzanie dzierżawą usługi Power BI w organizacji. Zawiera on kluczowe elementy, takie jak metryki użycia, dostęp do centrum administracyjnego usługi Office 365 oraz ustawienia."
+title: Portal administracyjny usługi Power BI
+description: Portal administracyjny umożliwia zarządzanie dzierżawą usługi Power BI w organizacji. Zawiera on kluczowe elementy, takie jak metryki użycia, dostęp do centrum administracyjnego usługi Office 365 oraz ustawienia.
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: mgblythe
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/02/2018
-ms.author: maghan
+ms.date: 04/02/2018
+ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 1ce2bc2746773c344251b89173b5825940eb0174
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 54ddccf9ca6ffdc1d9cbe840dbfced8d978ad194
+ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/04/2018
 ---
 # <a name="power-bi-admin-portal"></a>Portal administracyjny usługi Power BI
 
@@ -326,8 +326,8 @@ Ważne: usunięcie elementu jest nieodwracalne. Usunięcie wizualizacji spowoduj
  
 ### <a name="how-to-update-a-visual"></a>Jak zaktualizować wizualizację
 
-Jeśli chcesz zaktualizować wizualizację w repozytorium, ponieważ pojawiła się jej nowa wersja (np. zawierająca poprawki, nowe funkcje itp.), przekaż nowy plik (bez zmiany identyfikatora Visual ID) jako nową pozycję na liście. Pamiętaj o podaniu prawidłowych informacji w polach tytułu i opisu (np. "My Visual v2.0"). Następnym razem, gdy użytkownicy przejdą do repozytorium organizacji z programu Power BI Desktop, będą mogli zaimportować nową wersję, która wyświetli monit o zastąpienie bieżącej wersji zawartej w raporcie.
- 
+Jeśli chcesz zaktualizować wizualizację w repozytorium, ponieważ dostępna jest jej nowa wersja (np. zawierająca poprawki błędów, nowe funkcje itp.), wybierz ikonę **Aktualizuj** i przekaż nowy plik. Upewnij się, że identyfikator wizualizacji pozostał niezmieniony. Nowy plik zastąpi jego poprzednią wersję dla wszystkich raportów w całej organizacji. Jednak jeśli nowa wersja wizualizacji może uniemożliwić użycie wcześniejszej wersji wizualizacji lub zaburzyć jej strukturę danych, nie zastępuj poprzedniej wersji. Zamiast tego utwórz nową listę z nową wersją wizualizacji. Na przykład dodaj numer nowej wersji (wersja X.X) do tytułu umieszczonej na liście nowej wizualizacji. Dzięki temu wyraźnie widać, że jest to ta sama wizualizacja ze zaktualizowanym numerem wersji, dlatego funkcjonalność istniejących raportów nie zostaje zakłócona. I tym razem upewnij się, że identyfikator wizualizacji pozostał niezmieniony. Następnym razem, gdy użytkownicy przejdą do repozytorium organizacji z programu Power BI Desktop, będą mogli zaimportować nową wersję, co spowoduje wyświetlenie monitu o zastąpienie bieżącej wersji zawartej w raporcie.
+
 ## <a name="next-steps"></a>Następne kroki
 
 [Opis roli administratora usługi Power BI](service-admin-role.md)  

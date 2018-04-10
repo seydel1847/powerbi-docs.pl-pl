@@ -18,14 +18,14 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 9161966897811820935c72ac1657ceca58da403a
-ms.sourcegitcommit: 3841bcdb5e664568defe3d6a6e6b8cab3cd7087f
+ms.openlocfilehash: 8f5b80497850b8e61bd7df97c3c88777265d7a6b
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="use-report-themes-in-power-bi-desktop-preview"></a>Używanie motywów raportów w programie Power BI Desktop (wersja zapoznawcza)
-**Motywy raportów** umożliwiają zastosowanie motywu kolorystycznego — kolorów firmowych, okolicznościowych lub dowolnego innego motywu — do całego raportu. Zastosowanie **motywu raportu** spowoduje, że kolory tego motywu będą używane we wszystkich wizualizacjach w raporcie (z kilkoma wyjątkami opisanymi w dalszej części tego artykułu).
+**Motywy raportów** umożliwiają zastosowanie motywu kolorystycznego — kolorów firmowych, okolicznościowych lub dowolnego innego motywu kolorystycznego — do całego raportu. Zastosowanie **motywu raportu** spowoduje, że kolory tego motywu będą używane we wszystkich wizualizacjach w raporcie (z kilkoma wyjątkami opisanymi w dalszej części tego artykułu).
 
 ![](media/desktop-report-themes/report-themes_1.png)
 
@@ -91,7 +91,7 @@ Aby uzyskać informacje dotyczące formatu szczegółowego pliku JSON, zobacz se
 ## <a name="how-report-theme-colors-stick-to-your-reports"></a>Jak kolory motywu raportu są stosowane do raportów
 Gdy opublikujesz raport w **usłudze Power BI**, kolory motywu raportu zostaną zachowane.
 
-Ponadto kolory w sekcji **Kolory danych** w okienku **Formatowanie** odzwierciedlają motyw raportu. Na przykład jeśli po zastosowaniu różnych odcieni zieleni i brązu z motywu na **Dzień Św. Patryka** zaznaczysz wizualizację i przejdziesz do sekcji **Formatowanie > Kolory danych**, będzie ona wyglądać następująco.
+Ponadto kolory w sekcji **Kolory danych** w okienku **Formatowanie** odzwierciedlają motyw raportu. Na przykład jeśli po zastosowaniu różnych odcieni zieleni i brązu z motywu na **Dzień Św. Patryka** zaznaczysz wizualizację i przejdziesz do opcji **Formatuj > Kolory danych**, będzie ona wyglądać następująco.
 
 ![](media/desktop-report-themes/report-themes_8.png)
 
@@ -100,7 +100,7 @@ Widzisz wszystkie te odcienie zieleni? Są tu dlatego, że należą do zaimporto
 ### <a name="situations-when-report-theme-colors-wont-stick-to-your-reports"></a>Sytuacje, w których kolory motywu raportu nie zostaną zachowane w raporcie
 Jeśli zastosujesz niestandardowy kolor lub zestaw kolorów do określonego punktu danych na wizualizacji, zastosowanie motywu raportu *nie* spowoduje zastąpienia tego niestandardowego koloru punktu danych.
 
-Ponadto jeśli ręcznie wybierzesz kolor punktu danych przy użyciu sekcji Kolory motywu na palecie kolorów, ten kolor *nie* zostanie zaktualizowany po zastosowaniu nowego motywu raportu. Aby przywrócić kolory domyślne (dzięki czemu będą one aktualizowane po zastosowaniu nowego motywu raportu), możesz wybrać polecenie **Przywróć domyślne** na palecie **Kolory motywu**.
+Ponadto jeśli ręcznie wybierzesz kolor punktu danych przy użyciu sekcji Kolory motywu na palecie kolorów, ten kolor (lub kolory) *nie* zostanie zaktualizowany po zastosowaniu nowego motywu raportu. Aby przywrócić kolory domyślne (dzięki czemu będą one aktualizowane po zastosowaniu nowego motywu raportu), możesz wybrać polecenie **Przywróć domyślne** na palecie **Kolory motywu**.
 
 ![](media/desktop-report-themes/report-themes_9.png)
 

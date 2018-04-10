@@ -1,15 +1,15 @@
 ---
-title: "Korzystanie z zakładek w usłudze Power BI"
-description: "Zakładki w programie Power BI Desktop umożliwiają zapisywanie widoków i ustawień w raportach oraz tworzenie prezentacji przypominających historie"
+title: Korzystanie z zakładek w usłudze Power BI
+description: Zakładki w programie Power BI Desktop umożliwiają zapisywanie widoków i ustawień w raportach oraz tworzenie prezentacji przypominających historie
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,25 +18,25 @@ ms.workload: powerbi
 ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 706662e9fd7c6bd41015b286a7b7f1025e40a15e
-ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
+ms.openlocfilehash: 1660f129ef5c93cf5aed5a3a5eda3c835e1885c1
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Używanie zakładek w celu udostępniania szczegółowych informacji i tworzenia historii w usłudze Power BI 
-Przy użyciu **zakładek** w usłudze Power BI możesz przechwycić obecnie skonfigurowany widok strony raportu, wraz z filtrowaniem stanu wizualizacji, aby później powrócić do tego stanu poprzez wybranie zapisanej zakładki. 
+Przy użyciu **zakładek** w usłudze Power BI możesz przechwycić obecnie skonfigurowany widok strony raportu wraz z filtrowaniem i stanem wizualizacji, aby później mieć możliwość powrotu do tego stanu poprzez wybranie zapisanej zakładki. 
 
 Możesz też utworzyć kolekcję zakładek, uporządkować je w żądanej kolejności, a następnie przejść przez każdą zakładkę w prezentacji, aby podkreślić serię szczegółowych informacji lub historię, którą chcesz opowiedzieć przy użyciu wizualizacji i raportów. 
 
 ![Zakładki w usłudze Power BI](media/desktop-bookmarks/bookmarks_01.png)
 
-Istnieje wiele zastosowań zakładek. Możesz użyć ich do śledzenia własnych postępów w tworzeniu raportów (zakładki można łatwo dodawać i usuwać oraz zmieniać ich nazwy) lub utworzyć zakładki w celu opracowania prezentacji w stylu programu PowerPoint, która przechodzi przez zakładki w kolejności, opowiadając historię raportu. Mogą też istnieć inne zastosowania zależne od tego, jak chcesz wykorzystać zakładki.
+Istnieje wiele zastosowań zakładek. Możesz użyć ich do śledzenia swoich postępów w tworzeniu raportów (zakładki można łatwo dodawać i usuwać oraz zmieniać ich nazwy) lub utworzyć zakładki w celu opracowania prezentacji w stylu programu PowerPoint, która opowiada historię raportu zakładka po zakładce. Mogą też istnieć inne zastosowania zależne od tego, jak chcesz wykorzystać zakładki.
 
 ### <a name="enable-the-bookmarks-preview-versions-prior-to-march-2018"></a>Włączanie podglądu zakładek (wersje wydane przed marcem 2018 r.)
-Począwszy od programu Power BI Desktop w wersji z marca 2018 r., zakładki stały się ogólnie dostępne. 
+Zakładki są ogólnie dostępne w programie Power BI Desktop od marca 2018 r. 
 
-Zawsze sugerujemy uaktualnienie do najnowszej wersji. Jednak jeśli Twoja wersja programu Power BI Desktop została wydana wcześniej, możesz wypróbować nową funkcję **zakładek**, począwszy od programu **Power BI Desktop** w wersji **z października 2017 r.**, oraz w przypadku raportów obsługujących zakładki w usłudze **Power BI**. Aby włączyć tę funkcję w wersji zapoznawczej, wybierz pozycję **Plik > Opcje i ustawienia > Opcje > Funkcje wersji zapoznawczej**, a następnie zaznacz pole wyboru obok pozycji **Zakładki**. 
+Zawsze sugerujemy uaktualnienie do najnowszej wersji. Jednak jeśli Twoja wersja programu Power BI Desktop została wydana wcześniej, możesz wypróbować nową funkcję **zakładek** w programie **Power BI Desktop** od wersji **z października 2017 r.**, a także korzystając z raportów obsługujących zakładki w usłudze **Power BI**. Aby włączyć tę funkcję w wersji zapoznawczej, wybierz pozycję **Plik > Opcje i ustawienia > Opcje > Funkcje wersji zapoznawczej**, a następnie zaznacz pole wyboru obok pozycji **Zakładki**. 
 
 ![Włączanie zakładek w oknie Opcje](media/desktop-bookmarks/bookmarks_02.png)
 
@@ -63,7 +63,7 @@ Skonfiguruj stronę raportu w taki sposób, w jaki ma być wyświetlana w zakła
 
 ![Dodawanie zakładki](media/desktop-bookmarks/bookmarks_04.png)
 
-Program **Power BI Desktop** tworzy zakładkę i nadaje jej nazwę rodzajową. Możesz z łatwością *zmienić nazwę* zakładki, a także *usunąć* lub *zaktualizować* zakładkę, wybierając wielokropek obok nazwy zakładki, a następnie wybierając akcję z wyświetlonego menu.
+Program **Power BI Desktop** tworzy zakładkę i nadaje jej nazwę rodzajową. Możesz z łatwością *zmienić nazwę* zakładki, a także ją *usunąć* lub *zaktualizować*, wybierając wielokropek obok nazwy zakładki, a następnie wybierając akcję z wyświetlonego menu.
 
 ![Wybieranie podmenu zakładki przy użyciu wielokropka](media/desktop-bookmarks/bookmarks_05.png)
 
@@ -84,15 +84,15 @@ Jeśli masz kolekcję zakładek, którą chcesz przedstawić odbiorcom w danej k
 W trybie **Wyświetl** należy zwrócić uwagę na kilka funkcji:
 
 1. Nazwa zakładki pojawia się na pasku tytułowym zakładki, który jest wyświetlany u dołu kanwy.
-2. Pasek tytułowy zakładki ma strzałki, które umożliwiają przejście do następnej lub poprzedniej zakładki
+2. Na pasku tytułowym zakładki znajdują się strzałki, które umożliwiają przejście do następnej lub poprzedniej zakładki.
 3. Możesz wyjść z trybu **Wyświetl**, wybierając opcję **Wyjdź** w okienku **Zakładki** lub znak **X** na pasku tytułowym zakładki. 
 
 ![Funkcje paska tytułowego zakładek](media/desktop-bookmarks/bookmarks_07.png)
 
-W trybie **Wyświetl** możesz zamknąć **Zakładki** (klikając znak X w okienku), aby zapewnić więcej miejsca dla prezentacji. W trybie **Wyświetl** wszystkie wizualizacje są interaktywne i dostępne do wyróżniania, tak jak podczas interakcji z nimi. 
+W trybie **Wyświetl** możesz zamknąć **Zakładki** (klikając znak X w okienku), aby zapewnić więcej miejsca dla prezentacji. W trybie **Wyświetl** wszystkie wizualizacje są interaktywne i dostępne do wyróżniania krzyżowego, tak jak podczas interakcji z nimi. 
 
 ## <a name="visibility---using-the-selection-pane"></a>Widoczność — użycie okienka Wybór
-Wraz z wydaniem zakładek została wprowadzona nowa wersja okienka **Wybór**. Okienko **Wybór** zapewnia listę wszystkich obiektów na bieżącej stronie i umożliwia wybranie obiektu oraz określenie, czy dany obiekt jest widoczny. 
+Wraz z wydaniem zakładek została wprowadzona nowa wersja okienka **Wybór**. W okienku **Wybór** znajduje się lista wszystkich obiektów na bieżącej stronie, z której można wybrać obiekt i określić, czy jest on widoczny. 
 
 ![Włączanie okienka Wybór](media/desktop-bookmarks/bookmarks_08.png)
 

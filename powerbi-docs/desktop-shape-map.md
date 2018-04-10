@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/16/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 2bdd29f664d49dd4628b2f27d0eddf1f5dad1cf7
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: 0b2ff8d7b7367e29e62b373ca9cb1312f7ddd10f
+ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/04/2018
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Mapowania kształtów w programie Power BI Desktop (wersja zapoznawcza)
 Program Power BI Desktop umożliwia utworzenie wizualizacji **Mapowanie kształtów**, która pozwala wyświetlić porównania względne regionów na mapie za pomocą różnych kolorów. W przeciwieństwie do wizualizacji **Mapa** wizualizacja **Mapowanie kształtów** nie umożliwia wyświetlenia dokładnych lokalizacji geograficznych punktów danych. Służy ona głównie do pokazywania porównań względnych regionów na mapie przy użyciu różnych kolorów.
@@ -32,7 +32,7 @@ Wizualizacje **Mapowanie kształtów** są oparte na mapach ESRI/TopoJSON, któr
 ## <a name="creating-shape-maps"></a>Tworzenie mapowań kształtów
 Kontrolkę **Mapowanie kształtów** można przetestować na mapach dostarczanych z wersją zapoznawczą. Można też użyć własnej mapy, która spełnia wymagania opisane w sekcji **Używanie niestandardowych map**.
 
-Wizualizacja **Mapowanie kształtów** jest dostępna w wersji zapoznawczej i musi zostać włączona w programie Power BI Desktop. Aby włączyć **Mapowanie kształtów**, wybierz pozycję **Plik > Opcje i ustawienia > Opcje > Funkcje wersji zapoznawczej**, a następnie zaznacz pole wyboru **Mapowanie kształtów**. Po zaznaczeniu należy uruchomić ponownie program Power BI Desktop.
+Wizualizacja **Mapowanie kształtów** jest dostępna w wersji zapoznawczej i musi zostać włączona w programie Power BI Desktop. Aby włączyć funkcję **Mapa kształtów**, wybierz pozycję **Plik > Opcje i ustawienia > Opcje > Funkcje wersji zapoznawczej**, a następnie zaznacz pole wyboru **Wizualizacja mapy kształtu**. Po zaznaczeniu należy uruchomić ponownie program Power BI Desktop.
 
 ![](media/desktop-shape-map/shape-map_1a.png)
 
@@ -46,7 +46,7 @@ Program Power BI Desktop utworzy pustą kanwę projektu wizualizacji **Mapowanie
 
 Aby utworzyć wizualizację **Mapowanie kształtów**, wykonaj następujące kroki:
 
-1. W okienku **Pola** przeciągnij pole danych, które zawiera nazwy (lub skróty) regionów, do zasobnika **Lokalizacja**, a pole miary danych do zasobnika **Wartości** (mapa nie będzie jeszcze widoczna).
+1. W okienku **Pola** przeciągnij pole danych, które zawiera nazwy (lub skróty) regionów do zasobnika **Lokalizacja**, a pole miary danych do zasobnika **Nasycenie koloru** (mapa nie będzie jeszcze widoczna).
    
    > [!NOTE]
 > Aby dowiedzieć się, jak szybko uzyskać dane mapy do przetestowania wizualizacji **Mapowanie kształtów**, zobacz poniższą sekcję **Uzyskiwanie danych mapy**.
@@ -70,7 +70,7 @@ Aby utworzyć wizualizację **Mapowanie kształtów**, wykonaj następujące kro
 ## <a name="use-custom-maps"></a>Używanie niestandardowych map
 Wizualizacji **Mapowanie kształtów** można używać z niestandardowymi mapami w formacie **TopoJSON**. Jeśli format mapy jest inny, można skorzystać z narzędzi online, takich jak [**Map Shaper**](http://mapshaper.org/), aby przekonwertować *pliki kształtów* lub mapy *GeoJSON* na format **TopoJSON**.
 
-Aby użyć pliku mapy **TopoJSON**, dodaj wizualizację Mapowanie kształtów do raportu, a następnie dodaj dane do zasobników *Lokalizacja* i *Wartości*. Następnie przy wybranej sekcji **Format** (ikona pędzla, oznaczona jako (1) na poniższej ilustracji) w okienku **Wizualizacje** rozwiń sekcję **Kształt** i wybierz pozycję **+ Dodaj mapę**.
+Aby użyć pliku mapy **TopoJSON**, dodaj wizualizację ShapeMap do raportu, a następnie dodaj dane do zasobników *Lokalizacja* i *Nasycenie koloru*. Następnie przy wybranej sekcji **Format** (oznaczona jako (1) na poniższej ilustracji) w okienku **Wizualizacje** rozwiń sekcję **Kształt** i wybierz pozycję **+ Dodaj mapę**.
 
 ![](media/desktop-shape-map/shape-map_6.png)
 
@@ -96,7 +96,7 @@ Aby szybko wprowadzić dane do modelu w celu przetestowania wizualizacji **Mapow
 
 ![](media/desktop-shape-map/shape-map_4.png)
 
-Następnie możesz wkleić tabelę do programu Power BI Desktop. Pierwszy wiersz jest automatycznie rozpoznawany jako nagłówek.
+Jeśli dane zawierają wiele kolumn, należy posłużyć się edytorem, takim jak program Excel, aby wkleić dane, a następnie oddzielnie skopiować każdą kolumnę danych. Następnie można wkleić tabelę do programu Power BI Desktop. Pierwszy wiersz jest automatycznie rozpoznawany jako nagłówek.
 
 ![](media/desktop-shape-map/shape-map_5.png)
 
@@ -112,9 +112,9 @@ Możesz dodać nową kolumnę, po prostu wpisując jej nazwę (w pustej kolumnie
 ## <a name="preview-behavior-and-requirements"></a>Działanie i wymagania wersji zapoznawczej
 Jest kilka kwestii i wymagań, które dotyczą wersji zapoznawczej wizualizacji **Mapowanie kształtów**:
 
-* Wizualizacja **Mapowanie kształtów** jest dostępna w wersji zapoznawczej i musi zostać włączona w programie Power BI Desktop. Aby włączyć **Mapowanie kształtów**, wybierz pozycję **Plik > Opcje i ustawienia > Opcje > Funkcje wersji zapoznawczej**, a następnie zaznacz pole wyboru **Mapowanie kształtów**.
-* Aktualnie należy również ustawić zasobnik **Wartości**, aby klasyfikacja **Legenda** działała poprawnie
-* W interfejsie użytkownika ostatecznej wersji **Mapowanie kształtów** będą wyświetlane klucze mapowania aktualnie wybranej mapy (nie ma ustalonej daty ostatecznego wydania i **Mapowanie kształtów** jest nadal w wersji zapoznawczej). W przypadku korzystania z tej wersji zapoznawczej klucze mapowania regionów można znaleźć w tabelach w sekcji **Klucze regionów** tego artykułu.
+* Wizualizacja **Mapowanie kształtów** jest dostępna w wersji zapoznawczej i musi zostać włączona w programie Power BI Desktop. Aby włączyć funkcję **Mapa kształtów**, wybierz pozycję **Plik > Opcje i ustawienia > Opcje > Funkcje wersji zapoznawczej**, a następnie zaznacz pole wyboru **Wizualizacja mapy kształtu**.
+* Należy teraz ustawić również zasobnik **Nasycenie koloru**, aby klasyfikacja **Legenda** działała poprawnie.
+* Ostateczna wersja funkcji **Mapa kształtów** będzie wyposażona w interfejs użytkownika, na którym będą prezentowane klucze mapy aktualnie wybranych map (wciąż nie została ustalona data wersji ostatecznej i funkcja **Mapa kształtów** jest ciągle w wersji zapoznawczej). W tej wersji zapoznawczej możesz posługiwać się kluczami regionów mapy z tabel znajdujących się w następującej sekcji **Klucze regionów** tego artykułu.
 * Wizualizacja **Mapowanie kształtów** wykreśli maksymalnie 1000 punktów danych.
 
 ## <a name="region-keys"></a>Klucze regionów

@@ -1,28 +1,28 @@
 ---
-title: "Funkcja Publikuj w sieci Web w usłudze Power BI"
-description: "Funkcja Publikuj w sieci Web w usłudze Power BI umożliwia łatwe osadzanie interakcyjnych wizualizacji usługi Power BI online, na przykład we wpisach w blogu, w witrynach internetowych, wiadomościach e-mail lub mediach społecznościowych, przy użyciu dowolnego urządzenia."
+title: Funkcja Publikuj w sieci Web w usłudze Power BI
+description: Funkcja Publikuj w sieci Web w usłudze Power BI umożliwia łatwe osadzanie interakcyjnych wizualizacji usługi Power BI online, na przykład we wpisach w blogu, w witrynach internetowych, wiadomościach e-mail lub mediach społecznościowych, przy użyciu dowolnego urządzenia.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/27/2017
+ms.date: 03/28/2018
 ms.author: maghan
 LocalizationGroup: Share your work
-ms.openlocfilehash: 089cd84f493343822293cb6e74330d26e2a8bcd6
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 31e40efee8c4d67ec524212996ac6d7a8caf1852
+ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="publish-to-web-from-power-bi"></a>Funkcja Publikuj w sieci Web w usłudze Power BI
 
@@ -133,13 +133,16 @@ Funkcja **Publikuj w sieci Web** obsługuje niestandardowe wizualizacje. W przyp
 
 ## <a name="limitations"></a>Ograniczenia
 
-Funkcja **Publikuj w sieci Web** jest obsługiwana w przypadku większości źródeł danych i raportów w usłudze Power BI, jednak następujące rodzaje zawartości nie współdziałają obecnie z funkcją Publikuj w sieci Web:
+W przypadku większości źródeł danych i raportów funkcja **Publikuj w sieci Web** jest obsługiwana w usłudze Power BI, jednak następujące rodzaje zawartości **nie są obecnie obsługiwane ani dostępne** w ramach funkcji Publikuj w sieci Web:
 
 1. Raporty, w których zastosowano zabezpieczenia na poziomie wiersza.
-2. Raporty używają dowolnego źródła danych z połączeniem na żywo, w tym tabelarycznych usług Analysis Services hostowanych lokalnie oraz usług Analysis Service Multidimensional, Azure Analysis Services i Power BI.
+2. Raporty używające dowolnego źródła danych z połączeniem na żywo, w tym tabelarycznych usług Analysis Services hostowanych lokalnie, wielowymiarowych usług Analysis Services i usług Azure Analysis Services.
 3. Raporty udostępnione Ci bezpośrednio lub za pośrednictwem organizacyjnego pakietu zawartości.
 4. Raporty w grupie, w której nie jesteś członkiem uprawnionym do edytowania.
 5. Wizualizacje języka R nie są obecnie obsługiwane w raportach publikowanych przy użyciu funkcji Publikuj w sieci Web.
+6. Eksportowanie danych z elementów wizualnych w raporcie, który został opublikowany w sieci Web
+7. Elementy wizualne map ArcGIS dla usługi Power BI
+8. [Ochrona informacji poufnych lub zastrzeżonych](#publish-to-web-from-power-bi)
 
 ## <a name="tenant-setting"></a>Ustawienia dzierżawy
 
@@ -177,7 +180,7 @@ Aby móc korzystać z funkcji **Publikuj w sieci Web**, musisz być użytkowniki
 
 ## <a name="how-it-works-technical-details"></a>Jak to działa (szczegóły techniczne)
 
-Po utworzeniu kodu osadzania przy użyciu funkcji **Publikuj w sieci Web** raport będzie widoczny dla użytkowników w Internecie. Będzie dostępny publicznie, więc użytkownicy będą mogli w przyszłości łatwo udostępniać go za pośrednictwem mediów społecznościowych. Gdy użytkownicy wyświetlają raport, przechodząc bezpośrednio do publicznego adresu URL lub wyświetlając stronę internetową lub blog, gdzie osadzono raport, usługa Power BI zapisuje w pamięci podręcznej definicję raportu oraz wyniki zapytań wymaganych do wyświetlenia raportu. Dzięki temu raport może być wyświetlany przez tysiące użytkowników jednocześnie bez zmniejszenia wydajności.  
+Po utworzeniu kodu osadzania przy użyciu funkcji **Publikuj w sieci Web** raport będzie widoczny dla użytkowników w Internecie. Będzie dostępny publicznie, więc użytkownicy będą mogli w przyszłości łatwo udostępniać go za pośrednictwem mediów społecznościowych. Gdy użytkownicy wyświetlają raport, przechodząc bezpośrednio do publicznego adresu URL lub wyświetlając stronę internetową lub blog, gdzie osadzono raport, usługa Power BI zapisuje w pamięci podręcznej definicję raportu oraz wyniki zapytań wymaganych do wyświetlenia raportu. Dzięki temu raport może być wyświetlany przez tysiące użytkowników jednocześnie bez zmniejszenia wydajności.
 
 Pamięć podręczna jest przechowywana przez długi czas, dlatego w przypadku zaktualizowania definicji raportu (na przykład zmiany trybu wyświetlania) lub odświeżenia danych w raporcie może upłynąć około godziny, zanim zmiany zostaną odzwierciedlone w wersji raportu widocznej dla użytkowników. Dlatego zalecane jest wcześniejsze przygotowanie pracy i utworzenie kodu osadzania przy użyciu funkcji **Publikuj w sieci Web** dopiero wówczas, gdy wszystkie ustawienia będą zadowalające.
 

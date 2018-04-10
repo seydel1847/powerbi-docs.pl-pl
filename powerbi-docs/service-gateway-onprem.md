@@ -1,28 +1,28 @@
 ---
 title: Lokalna brama danych
-description: "Ten temat zawiera omówienie lokalnej bramy danych dla usługi Power BI. Brama ta umożliwia korzystanie ze źródeł danych obsługujących zapytania bezpośrednie. Można jej również używać do odświeżania zestawów danych w chmurze za pomocą danych lokalnych."
+description: Ten temat zawiera omówienie lokalnej bramy danych dla usługi Power BI. Brama ta umożliwia korzystanie ze źródeł danych obsługujących zapytania bezpośrednie. Można jej również używać do odświeżania zestawów danych w chmurze za pomocą danych lokalnych.
 services: powerbi
-documentationcenter: 
-author: davidiseminger
+documentationcenter: ''
+author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 02/22/2018
-ms.author: davidi
+ms.date: 03/26/2018
+ms.author: maghan
 LocalizationGroup: Gateways
-ms.openlocfilehash: c9025194ebe8ce6b1829aacd9d74bff5d9c55e3c
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 1c0bd455d8b2dd34cc7d9ef20b0e75c5457034d2
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="on-premises-data-gateway"></a>Lokalna brama danych
 Lokalna brama danych działa jak most, zapewniając szybki i bezpieczny transfer danych między lokalnymi danymi (danymi, które nie są w chmurze) a usługami Power BI, Microsoft Flow, Logic Apps i PowerApps.
@@ -91,8 +91,13 @@ Po dodaniu źródła danych do bramy musisz podać poświadczenia dla tego źró
 <!-- How the gateway works -->
 [!INCLUDE [gateway-onprem-how-it-works-include](./includes/gateway-onprem-how-it-works-include.md)]
 
+## <a name="limitations-and-considerations"></a>Ograniczenia i istotne zagadnienia
+* Usługa [Azure Information Protection](https://docs.microsoft.com/en-us/microsoft-365/enterprise/protect-files-with-aip
+) nie jest obecnie obsługiwana
+* Usługa [Access Online](https://products.office.com/en-us/access) nie jest obecnie obsługiwana
+
 ## <a name="troubleshooting"></a>Rozwiązywanie problemów
-Jeśli masz problemy z instalacją i konfiguracją bramy, zobacz [Rozwiązywanie problemów z lokalną bramą danych](service-gateway-onprem-tshoot.md). Jeśli uważasz, że występuje problem z zaporą, zobacz sekcję dotyczącą [zapory lub serwera proxy](service-gateway-onprem-tshoot.md#firewall-or-proxy) w artykule na temat rozwiązywania problemów.
+Jeśli masz problemy z instalacją i konfiguracją bramy, zobacz artykuł [Rozwiązywanie problemów z lokalną bramą danych](service-gateway-onprem-tshoot.md). Jeśli uważasz, że występuje problem z zaporą, zobacz sekcję dotyczącą [zapory lub serwera proxy](service-gateway-onprem-tshoot.md#firewall-or-proxy) w artykule na temat rozwiązywania problemów.
 
 Jeśli sądzisz, że problemy z bramą dotyczą serwera proxy, zobacz [Konfigurowanie ustawień serwera proxy dla bram Power BI Gateway](service-gateway-proxy.md).
 
@@ -105,5 +110,5 @@ Jeśli sądzisz, że problemy z bramą dotyczą serwera proxy, zobacz [Konfiguro
 [Lokalna brama danych — szczegóły](service-gateway-onprem-indepth.md)  
 [Lokalna brama danych (tryb osobisty) — nowa wersja bramy osobistej](service-gateway-personal-mode.md)
 [Konfigurowanie ustawień serwera proxy dla lokalnej bramy danych](service-gateway-proxy.md)  
-Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
+Więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
 

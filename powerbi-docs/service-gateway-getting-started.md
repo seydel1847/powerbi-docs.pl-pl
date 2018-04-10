@@ -1,15 +1,15 @@
 ---
-title: "Wprowadzenie do bram usługi Power BI"
-description: "Poznaj podstawowe informacje dotyczące bram danych dla usługi Power BI."
+title: Wprowadzenie do bram usługi Power BI
+description: Poznaj podstawowe informacje dotyczące bram danych dla usługi Power BI.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: e56af5ae1c59afc7d7aef01450bb1c778eb70b14
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: bf01bb7764db09d6afe24e520f2d185c191ef56c
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="getting-started-with-power-bi-gateways"></a>Wprowadzenie do bram usługi Power BI
 Witamy w przewodniku **Wprowadzenie do bram usługi Power BI**. Ten krótki przewodnik opisuje funkcje bramy, jej działanie oraz sposób jej instalowania, konfigurowania i uruchamiania.  
@@ -45,7 +45,7 @@ Na szczęście usługa Power BI dysponuje dwiema bramami, które dobrze pasują 
 * **Lokalna brama danych (tryb osobisty)** — umożliwia jednemu użytkownikowi łączenie się ze źródłami, ale nie może być udostępniania innym. Można z niej korzystać tylko w ramach usługi Power BI.
 * **Lokalna brama danych** — umożliwia wielu użytkownikom łączenie się z wieloma lokalnymi źródłami danych i może być używana przez aplikacje Power BI, PowerApps, Flow i Azure Logic po przeprowadzeniu zaledwie jednego procesu instalacji.
 
-Obie bramy pełnią podobną funkcję — ułatwiają dostęp do danych znajdujących się w prywatnej sieci lokalnej, dzięki czemu dane mogą być wykorzystywane w usługach w chmurze, takich jak Power BI. Bramy osobistej może używać tylko jedna osoba i tylko w ramach usługi Power BI, natomiast **lokalna brama danych** może być używana przez wielu użytkowników i w ramach wielu usług.
+Obie bramy pełnią podobną funkcję — ułatwiają dostęp do danych znajdujących się w prywatnej sieci lokalnej, dzięki czemu dane mogą być wykorzystywane w usługach w chmurze, takich jak Power BI. Bramy osobistej może używać tylko jedna osoba i tylko w ramach usługi Power BI, **lokalna brama danych** natomiast może być używana przez wielu użytkowników i w ramach wielu usług.
 
 Aby brama zaczęła działać, należy wykonać trzy poniższe kroki:
 
@@ -86,7 +86,7 @@ Oto kilka kwestii, na które należy zwrócić uwagę przy podejmowaniu decyzji:
 * Bram nie można zainstalować na kontrolerze domeny.
 * Na jednym komputerze można zainstalować maksymalnie dwie lokalne bramy danych — jedną w trybie osobistym, a drugą w trybie standardowym. 
 * Na jednym komputerze może znajdować się tylko jedna brama uruchomiona w tym samym trybie.
-* Na różnych komputerach można zainstalować wiele lokalnych bram danych i zarządzać nimi z tego samego interfejsu zarządzania bramy usługi Power BI (wyjątek stanowi brama osobista, o czym napisano w następnym punkcie).
+* Na różnych komputerach można zainstalować wiele lokalnych bram danych i zarządzać nimi z tego samego interfejsu zarządzania bramami usługi Power BI (wyjątek stanowi brama osobista — zobacz następny punkt).
 * Każdy użytkownik usługi Power BI może mieć uruchomioną jedną bramę w trybie osobistym. Zainstalowanie kolejnej bramy w trybie osobistym dla tego samego użytkownika, nawet na innym komputerze, spowoduje zastąpienie poprzedniej instalacji najnowszą.
 
 Po wybraniu pozycji **Dalej** rozpocznie się instalacja bramy. Należy określić, gdzie zostanie ona zainstalowana — najlepszym rozwiązaniem jest zazwyczaj domyślna lokalizacja.
@@ -165,5 +165,5 @@ Brama jest już zainstalowana, możesz więc przystąpić do dodawania źródeł
 [Lokalna brama danych (tryb osobisty)](service-gateway-personal-mode.md) 
 [Rozwiązywanie problemów z lokalną bramą danych](service-gateway-onprem-tshoot.md)  
 
-Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
+Więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
 

@@ -1,15 +1,15 @@
 ---
-title: "Konfigurowanie ustawień serwera proxy dla lokalnej bramy danych"
-description: "Informacje dotyczące konfiguracji ustawień serwera proxy dla lokalnych bramy danych."
+title: Konfigurowanie ustawień serwera proxy dla lokalnej bramy danych
+description: Informacje dotyczące konfiguracji ustawień serwera proxy dla lokalnej bramy danych.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 11/21/2017
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 27b8d36ed870501170efdb81c40edb6cb4727499
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: f6bfc47e7b74d9b17479a2ac7fc3dbc3f3e76816
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="configuring-proxy-settings-for-the-on-premises-data-gateway"></a>Konfigurowanie ustawień serwera proxy dla lokalnej bramy danych
 Środowisko pracy może wymagać, aby dostęp do Internetu odbywał się za pośrednictwem serwera proxy. Może to uniemożliwiać lokalnej bramie danych nawiązanie połączenia z usługą.
@@ -69,7 +69,7 @@ Podczas konfigurowania ustawień serwera proxy pod kątem używania domyślnych 
 > 
 > 
 
-### <a name="change-the-on-premises-data-gateway-service-account"></a>Zmiana konta usługi lokalnej bramy danych
+### <a name="change-the-on-premises-data-gateway-service-account"></a>Zmienianie konta usługi lokalnej bramy danych
 1. Zmień konto usługi systemu Windows dla **usługi lokalnej bramy danych**.
    
     Domyślne konto dla tej usługi to *NT SERVICE\PBIEgwService*. Musisz je zmienić na konto użytkownika domeny usługi Active Directory. Możesz też użyć zarządzanego konta usługi, aby uniknąć konieczności zmiany hasła.

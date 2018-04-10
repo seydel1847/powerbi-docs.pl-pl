@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 03/01/2018
 ms.author: mihart
-ms.openlocfilehash: c5177f4ccce8e8e274944cdcb539ca65a8f87ca8
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 17921d1fe28a1b4c0640748123efe4b70982b18d
+ms.sourcegitcommit: ae4d771b883b654358a6a94dd784ea9bdf3d3aa3
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="open-a-report-in-power-bi-service-apppowerbicom"></a>Otwieranie raportu w usłudze Power BI (app.powerbi.com)
 Raporty są dostępne w usłudze Power BI, programie Power BI Desktop, w usłudze Power BI dla urządzeń przenośnych, a nawet w usłudze Power BI Embedded. Ten artykuł dotyczy otwierania raportów w ***usłudze Power BI***.
@@ -78,7 +78,7 @@ Raport można także otworzyć z poziomu zestawu danych. Gdy zaczynasz od zestaw
 
 ##  <a name="still-more-ways-to-open-a-report"></a>Jeszcze więcej sposobów otwierania raportu
 Gdy oswoisz się z nawigowaniem po usłudze Power BI, znajdziesz przepływy pracy, które najlepiej Ci odpowiadają. Oto kilka innych sposobów uzyskiwania dostępu do raportów:
-- W lewym okienku nawigacji przy użyciu opcji **Ulubione**, **Ostatnie**, **Aplikacje* i **Udostępnione dla mnie**. 
+- W lewym okienku nawigacji przy użyciu opcji **Ulubione**, **Ostatnie**, **Aplikacje** i **Udostępnione dla mnie**. 
 - Przy użyciu opcji [Wyświetl powiązane](service-related-content.md)
 - W wiadomości e-mail, gdy ktoś [udostępni Tobie](service-share-reports.md) lub gdy [ustawisz alert](service-set-data-alerts.md).    
 - Z poziomu [Centrum powiadomień](service-notification-center.md)    

@@ -1,15 +1,15 @@
 ---
-title: "Łączenie plików binarnych w programie Power BI Desktop"
-description: "Łatwe łączenie binarnych źródeł danych w programie Power BI Desktop"
+title: Łączenie plików (danych binarnych) w programie Power BI Desktop
+description: Łatwe łączenie plikowych (binarnych) źródeł danych w programie Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,39 +18,39 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 395562dfecba4657ffa906494f81532febb6a11f
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 37aff7aadaf6b514ca3b7329db26bc0228022bdd
+ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/04/2018
 ---
-# <a name="combine-binaries-in-power-bi-desktop"></a>Łączenie plików binarnych w programie Power BI Desktop
+# <a name="combine-files-binaries-in-power-bi-desktop"></a>Łączenie plików (danych binarnych) w programie Power BI Desktop
 Jednym z zaawansowanych sposobów importowania danych do programu **Power BI Desktop** jest łączenie wielu plików, które mają ten sam schemat, w jedną tabelę logiczną. W wydaniu programu **Power BI Desktop** z listopada 2016 r. (oraz w kolejnych wersjach) ta wygodna i popularna metoda została udogodniona i rozszerzona, jak opisano w tym artykule.
 
-Aby rozpocząć proces łączenia plików binarnych z tego samego folderu, wybierz pozycję **Pobierz dane > Plik > Folder**.
+Aby rozpocząć proces łączenia plików z tego samego folderu, wybierz opcję **Pobierz dane > Plik > Folder**.
 
 ![](media/desktop-combine-binaries/combine-binaries_1.png)
 
-## <a name="previous-combine-binaries-behavior"></a>Poprzednie zachowanie łączenia plików binarnych
-W wersjach programu **Power BI Desktop** sprzed listopada 2016 r. można było łączyć niektóre typy plików za pomocą przekształcenia **Połącz pliki binarne**, ale obowiązywały pewne ograniczenia:
+## <a name="previous-combine-files-binaries-behavior"></a>Poprzednie zachowanie łączenia plików (binarnych)
+W wersjach programu **Power BI Desktop** sprzed listopada 2016 r. ta funkcja nosiła nazwę **Połącz dane binarne** i pozwalała na łączenie niektórych typów plików za pomocą przekształcenia **Połącz dane binarne**. Obowiązywały jednak przy tym pewne ograniczenia:
 
 * Przekształcenia nie były uwzględniane dla poszczególnych plików przed połączeniem tych plików w jedną tabelę. W efekcie w ramach procesu edycji często trzeba było łączyć pliki, a następnie odfiltrowywać *wartości nagłówków* przez filtrowanie wierszy.
 * Przekształcenie **Połącz pliki binarne** działało tylko w przypadku plików *tekstowych* i plików *CSV*, a nie działało w przypadku innych obsługiwanych formatów plików, takich jak skoroszyty programu Excel, pliki JSON i inne.
 
-Klienci prosili o bardziej intuicyjne działanie operacji **łączenia plików binarnych**, więc przekształcenie zostało ulepszone.
+Klienci prosili o bardziej intuicyjne działanie operacji **Połącz dane binarne**, dlatego to przekształcenie zostało ulepszone i zmieniło nazwę na **Połącz pliki**.
 
-## <a name="current-combine-binaries-behavior"></a>Obecne zachowanie łączenia plików binarnych
-Obecnie program **Power BI Desktop** bardziej efektywnie obsługuje **łączenie plików binarnych**. Zaczynasz od wybrania pozycji **Połącz pliki binarne** na karcie **Narzędzia główne** wstążki w **Edytorze zapytań** lub z poziomu samej kolumny.
+## <a name="current-combine-files-behavior"></a>Obecne zachowanie łączenia plików
+Obecnie program **Power BI Desktop** bardziej efektywnie obsługuje operację **Połącz pliki (dane binarne)**. Zaczynasz od wybrania pozycji **Połącz pliki** na karcie **Narzędzia główne** wstążki w **Edytorze zapytań** lub z poziomu samej kolumny.
 
 ![](media/desktop-combine-binaries/combine-binaries_2a.png)
 
-Przekształcenie **Połącz pliki binarne** działa teraz w następujący sposób:
+Przekształcenie **Połącz pliki** działa teraz w następujący sposób:
 
-* Przekształcenie **Połącz pliki binarne** analizuje każdy plik wejściowy i określa odpowiedni format pliku do użycia, taki jak *tekst* lub *skoroszyt programu Excel* lub plik *JSON*.
+* Przekształcenie **Połącz pliki** analizuje każdy plik wejściowy i określa odpowiedni format pliku do użycia, taki jak *tekst*, *skoroszyt programu Excel* lub plik *JSON*.
 * Przekształcanie pozwala wybrać konkretny obiekt z pierwszego pliku, na przykład ze *skoroszytu programu Excel*, do wyodrębnienia.
   
   ![](media/desktop-combine-binaries/combine-binaries_3.png)
-* Następnie przekształcenie **Połącz pliki binarne** automatycznie wykonuje następujące czynności:
+* Następnie operacja **Połącz pliki** automatycznie wykonuje następujące zapytania:
   
   * Tworzy przykładowe zapytanie, które wykonuje wszystkie wymagane kroki wyodrębniania w jednym pliku.
   * Tworzy *zapytanie funkcji*, które parametryzuje dane wejściowe plik/dane binarne do *zapytania przykładowego*. Zapytanie przykładowe i zapytanie funkcji są połączone, zatem zmiany w zapytaniu przykładowym są uwzględniane w zapytaniu funkcji.
@@ -58,9 +58,9 @@ Przekształcenie **Połącz pliki binarne** działa teraz w następujący sposó
     
     ![](media/desktop-combine-binaries/combine-binaries_4.png)
 
-Nowe zachowanie przekształcenia **Połącz pliki binarne** umożliwia łatwe łączenie wszystkich plików binarnych w danym folderze, o ile mają ten sam typ pliku i strukturę (np. te same kolumny).
+Nowe zachowanie przekształcenia **Połącz pliki** umożliwia łatwe łączenie wszystkich plików w danym folderze, o ile mają one ten sam typ pliku i strukturę (np. te same kolumny).
 
-Ponadto można z łatwością zastosować dodatkowe kroki przekształcenia lub wyodrębniania, modyfikując utworzone automatycznie *zapytanie przykładowe* bez konieczności martwienia się o modyfikowanie lub tworzenie dodatkowych kroków *zapytania funkcji*. Wszystkie zmiany w *zapytaniu przykładowym* są automatycznie generowane w połączonym *zapytaniu funkcji*.
+Ponadto można z łatwością zastosować dodatkowe kroki przekształcania lub wyodrębniania, modyfikując utworzone automatycznie *zapytanie przykładowe* bez konieczności martwienia się o modyfikowanie lub tworzenie dodatkowych kroków *zapytania funkcji*. Wszystkie zmiany w *zapytaniu przykładowym* są automatycznie generowane w połączonym *zapytaniu funkcji*.
 
 ## <a name="next-steps"></a>Następne kroki
 Z poziomu programu Power BI Desktop możesz łączyć się z danymi różnego rodzaju. Więcej informacji na temat źródeł danych znajdziesz w następujących zasobach:

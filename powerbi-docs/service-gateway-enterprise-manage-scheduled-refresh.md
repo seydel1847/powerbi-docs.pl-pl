@@ -1,15 +1,15 @@
 ---
-title: "Zarządzanie źródłami danych — importowanie/zaplanowane odświeżanie"
-description: "Jak zarządzać lokalną bramą danych i źródłami danych należącymi do tej bramy. Ten artykuł dotyczy źródeł danych, które mogą być używane z funkcją importu lub zaplanowanego odświeżania."
+title: Zarządzanie źródłami danych — importowanie/zaplanowane odświeżanie
+description: Jak zarządzać lokalną bramą danych i źródłami danych należącymi do tej bramy. Ten artykuł dotyczy źródeł danych, które mogą być używane z funkcją importu lub zaplanowanego odświeżania.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 8002cf2df278cd3329b62b5322a6faabc9394f57
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 4fdd1380f10a44c45dd17b04c21ccfba8fbf9cd8
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="manage-your-data-source---importscheduled-refresh"></a>Zarządzanie źródłami danych — importowanie/zaplanowane odświeżanie
 Po zainstalowaniu lokalnej bramy danych musisz dodać źródła danych, które mogą być używane z tą bramą. Ten artykuł dotyczy pracy z bramami oraz źródłami danych, które są używane do zaplanowanego odświeżania — w przeciwieństwie do zapytania bezpośredniego lub połączenia na żywo.
@@ -104,7 +104,7 @@ Na karcie Użytkownicy dla źródła danych można dodawać i usuwać użytkowni
 Po utworzeniu źródło danych będzie dostępne do użycia z połączeniami zapytań bezpośrednich lub za pośrednictwem zaplanowanego odświeżania.
 
 > [!NOTE]
-> Nazwy serwera i bazy danych muszą być zgodne między programem Power BI Desktop i źródłem danych w ramach lokalnej bramy danych.
+> W ramach lokalnej bramy danych nazwy serwera i bazy danych w programie Power BI Desktop oraz źródle danych muszą być takie same!
 > 
 > 
 
@@ -126,5 +126,5 @@ Jeśli znajdujesz się na liście na karcie **Użytkownicy** źródła danych sk
 [Lokalna brama danych](service-gateway-onprem.md)  
 [Lokalna brama danych — szczegóły](service-gateway-onprem-indepth.md)  
 [Rozwiązywanie problemów z lokalną bramą danych](service-gateway-onprem-tshoot.md)  
-Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
+Więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
 

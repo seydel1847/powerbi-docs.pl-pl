@@ -1,15 +1,15 @@
 ---
-title: "Używanie protokołu Kerberos w bramie lokalnej na potrzeby logowania jednokrotnego (SSO) z usługi Power BI do lokalnych źródeł danych"
-description: "Konfigurowanie bramy przy użyciu protokołu Kerberos w celu włączenia logowania jednokrotnego z usługi Power BI do lokalnych źródeł danych"
+title: Używanie protokołu Kerberos w bramie lokalnej na potrzeby logowania jednokrotnego (SSO) z usługi Power BI do lokalnych źródeł danych
+description: Konfigurowanie bramy przy użyciu protokołu Kerberos w celu włączenia logowania jednokrotnego z usługi Power BI do lokalnych źródeł danych
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 03/09/2018
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 834800b26e8dd3738f274a73aa4ff9b36402a3d9
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: f60709e45e844ff7ab1a9c6bf3cb669c567dfcc8
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="use-kerberos-for-sso-single-sign-on-from-power-bi-to-on-premises-data-sources"></a>Używanie protokołu Kerberos na potrzeby logowania jednokrotnego (SSO) z usługi Power BI do lokalnych źródeł danych
 Możesz uzyskać bezproblemową łączność przy użyciu funkcji logowania jednokrotnego, aby umożliwić aktualizowanie raportów i pulpitów nawigacyjnych usługi Power BI na podstawie lokalnych danych, konfigurując lokalną bramę danych przy użyciu protokołu Kerberos. Lokalna brama danych ułatwia logowanie jednokrotne przez użycie zapytania bezpośredniego do połączenia z lokalnymi źródłami danych.
@@ -103,7 +103,7 @@ W standardowej instalacji brama działa jako konto usługi maszyny lokalnej (dok
 
 Aby włączyć **ograniczone delegowanie protokołu Kerberos**, brama musi działać jako konto domeny, chyba że usługa AAD została już zsynchronizowana z lokalną usługą Active Directory przy użyciu narzędzia AAD DirSync/Connect. Aby ta zmiana konta działała prawidłowo, dostępne są dwie opcje:
 
-* Jeśli rozpoczęto z poprzednią wersją lokalnej bramy danych, wykonaj dokładnie wszystkie 5 kroków (w tym uruchomienie konfiguratora bramy w kroku 3) opisanych w artykule:
+* Jeśli rozpoczęto za pomocą poprzedniej wersji lokalnej bramy danych, wykonaj dokładnie wszystkie 5 kroków (w tym uruchomienie konfiguratora bramy w kroku 3) opisanych w następującym artykule:
   
   * [Changing the gateway service account to a domain user](https://powerbi.microsoft.com/documentation/powerbi-gateway-proxy/#changing-the-gateway-service-account-to-a-domain-user) (Zmiana konta usługi bramy na użytkownika domeny)
   * Jeśli zainstalowano już wersję zapoznawczą lokalnej bramy danych, istnieje nowa metoda umożliwiająca przełączanie kont usługi przy użyciu interfejsu użytkownika bezpośrednio z poziomu konfiguratora bramy. Zapoznaj się z sekcją **Przełączanie bramy na konto domeny** w końcowej części tego artykułu.
@@ -186,7 +186,7 @@ Biorąc pod uwagę te przykładowe nazwy i ustawienia, czynności konfiguracyjne
     
     Kliknij prawym przyciskiem myszy pozycję **Personifikuj klienta po uwierzytelnieniu**, otwórz okno **Właściwości** i sprawdź listę kont. Musi zawierać konto usługi bramy (**PBIEgwTest\GatewaySvc**).
 17. Na liście zasad w obszarze **Przypisywanie praw użytkownika** wybierz pozycję **Działanie jako część systemu operacyjnego (SeTcbPrivilege)**. Upewnij się, że konto usługi bramy również znajduje się na liście kont.
-18. Uruchom ponownie proces usługi**lokalnej bramy danych**.
+18. Uruchom ponownie proces usługi **lokalnej bramy danych**.
 
 ## <a name="running-a-power-bi-report"></a>Uruchamianie raportu usługi Power BI
 Po zakończeniu wszystkich kroków konfiguracji opisanych w tym artykule można skonfigurować źródło danych na stronie **Zarządzanie bramą** w usłudze Power BI, włączyć funkcję logowania jednokrotnego w obszarze **Ustawienia zaawansowane**, a następnie publikować raporty i zestawy danych powiązane z tym źródłem danych.

@@ -1,15 +1,15 @@
 ---
-title: "Korzystanie z wizualizacji niestandardowych organizacji w usłudze Power BI"
-description: "Tworzenie i korzystanie z wizualizacji niestandardowych organizacji oraz zarządzanie nimi w usłudze Power BI"
+title: Korzystanie z wizualizacji niestandardowych organizacji w usłudze Power BI
+description: Tworzenie i korzystanie z wizualizacji niestandardowych organizacji oraz zarządzanie nimi w usłudze Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,27 +18,21 @@ ms.workload: powerbi
 ms.date: 02/06/2018
 ms.author: maghan
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6f7827f7804fcd52e7d922ebc8ffad5a8036b33c
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 1f3a3586b3aecb10b07bd171ab7349c4e1089cec
+ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/04/2018
 ---
-# <a name="using-organization-custom-visuals-in-power-bi-preview"></a>Korzystanie z wizualizacji niestandardowych organizacji w usłudze Power BI (wersja zapoznawcza)
+# <a name="using-organization-custom-visuals-in-power-bi"></a>Korzystanie z wizualizacji niestandardowych organizacji w usłudze Power BI
 
 Niestandardowe elementy wizualne w usłudze Power BI służą do tworzenia unikatowego typu wizualizacji dostosowanych do potrzeb użytkownika lub przedstawianych wyników analiz. Te wizualizacje niestandardowe są często tworzone przez deweloperów, gdy bogaty zestaw elementów wizualnych dostępnych się w usłudze Power BI nie spełnia ich wymagań. 
 
-W niektórych organizacjach wizualizacje niestandardowe mają szczególne znaczenie. Mogą one być niezbędne do przekazania określonych danych lub wyników analiz specyficznych dla organizacji, mogą mieć określone wymagania dotyczące danych lub też wyróżniać metody firm prywatnych. Takie organizacje muszą opracować niestandardowe elementy wizualne, udostępnić je w organizacji oraz zadbać o ich odpowiednie utrzymanie. Niestandardowe elementy wizualne usługi Power BI (teraz w wersji zapoznawczej) dają organizacjom taką możliwość. 
+W niektórych organizacjach wizualizacje niestandardowe mają szczególne znaczenie. Mogą one być niezbędne do przekazania określonych danych lub wyników analiz specyficznych dla organizacji, mogą mieć określone wymagania dotyczące danych lub też wyróżniać metody firm prywatnych. Takie organizacje muszą opracować niestandardowe elementy wizualne, udostępnić je w organizacji oraz zadbać o ich odpowiednie utrzymanie. Niestandardowe elementy wizualne usługi Power BI dają organizacjom taką możliwość.
 
-Na poniższej ilustracji przedstawiono proces przepływu wizualizacji niestandardowych organizacji (w wersji zapoznawczej) w usłudze Power BI od administratora przez fazy projektowania i utrzymania, aż do analityka danych.
+Na poniższej ilustracji przedstawiono proces przepływu wizualizacji niestandardowych organizacji w usłudze Power BI od administratora przez fazy projektowania i utrzymania aż do analityka danych.
 
 ![](media/power-bi-custom-visuals-organizational/custom-visual-org-01.jpg)
-
-## <a name="how-to-enable-organizational-custom-visuals-preview"></a>Jak włączyć wizualizacje niestandardowe organizacji (w wersji zapoznawczej)
-
-Wizualizacje niestandardowe organizacji są obecnie dostępne w wersji zapoznawczej, dlatego należy włączyć tę funkcję w programie Power BI Desktop. Aby włączyć tę funkcję wersji zapoznawczej, wybierz na wstążce kolejno opcje Plik > Opcje i ustawienia > Opcje, a następnie w okienku po lewej stronie wybierz funkcje wersji zapoznawczej. Zaznacz pole wyboru Wizualizacje niestandardowe mojej organizacji, zgodnie z rysunkiem poniżej.
-
-![](media/power-bi-custom-visuals-organizational/custom-visual-org-02.jpg)
 
 Wizualizacje organizacji są wdrażane i zarządzane przez administratora usługi Power BI w portalu administratora. Po wdrożeniu w repozytorium organizacji użytkownicy mogą łatwo odnajdywać i importować wizualizacje niestandardowe organizacji do swoich raportów bezpośrednio w programie Power BI Desktop.
 
@@ -56,26 +50,16 @@ Aby dowiedzieć się więcej na temat sposobu administrowania i zarządzania wiz
 
 ## <a name="considerations-and-limitations"></a>Istotne zagadnienia i ograniczenia
  
-Ponieważ wizualizacje niestandardowe organizacji są dostępne w wersji zapoznawczej, warto uwzględnić pewne aspekty i ograniczenia.
+Istnieje kilka zagadnień i ograniczeń, które trzeba znać.
  
 Administrator:
 
 * Starsze wizualizacje niestandardowe (np. wizualizacje niestandardowe, które nie są wbudowane w nowych interfejsach API objętych kontrolą wersji) nie są obsługiwane.
 
-* Przeprowadzenie aktualizacji „w miejscu” nie jest jeszcze obsługiwane. Aby zaktualizować wizualizację, musisz przekazać nową wersję wizualizacji do repozytorium organizacji (upewniając się, że ma ona taki sam identyfikator Visual ID w pliku PBIVIZ). Autorzy raportów mogą następnie zaimportować nową wersję do raportu i zastąpić w miejscu bieżącą wersję wizualizacji w raporcie.
-
-* Jeśli wizualizacja niestandardowa zostanie usunięta z repozytorium, wszystkie istniejące raporty, które z niej korzystają, zakończą renderowanie. Operacja usunięcia z repozytorium jest nieodwracalna.
+* Jeśli wizualizacja niestandardowa zostanie usunięta z repozytorium, wszystkie istniejące raporty, które z niej korzystają, zakończą renderowanie. Operacja usunięcia z repozytorium jest nieodwracalna. Aby tymczasowo wyłączyć niestandardowy element wizualny, użyj funkcji „Wyłącz”.
  
 Użytkownik końcowy:
 
-* Korzystanie z tej samej wizualizacji (tego samego identyfikatora Visual ID) z publicznej platformy handlowej (AppSource) oraz z repozytorium organizacji nie jest obsługiwane. W tym przypadku zostanie użyta ostatnio zaimportowana wizualizacja.
-
-* Zewnętrzne udostępnianie elementów wizualnych organizacji w pulpitach nawigacyjnych i raportach nie jest obsługiwane. Użytkownicy spoza organizacji, którzy wyświetlają pulpit nawigacyjny zawierający wizualizację niestandardową organizacji, zobaczą pustą wizualizację. 
-
 * Wizualizacje organizacji nie obsługują kolekcji obszarów roboczych usługi Power BI.
 
-* Wizualizacje niestandardowe organizacji w raportach publikowanych w Internecie nie będą renderowane.
-
 * Wizualizacja Visio, wizualizacja PowerApps oraz wizualizacja GlobeMap z platformy handlowej AppSource nie będą renderowane, jeśli zostaną wdrożone za pośrednictwem repozytorium organizacji.
-
-* Jeśli administrator usunie z repozytorium wizualizację niestandardową użytą w raporcie, dana wizualizacja nie będzie renderowana i należy ją usunąć z raportu, by móc go zapisać.

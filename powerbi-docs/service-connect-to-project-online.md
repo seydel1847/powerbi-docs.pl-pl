@@ -1,15 +1,15 @@
 ---
-title: "Łączenie się z usługą Project Online przy użyciu usługi Power BI"
-description: "Pakiet zawartości Project Online dla usługi Power BI"
+title: Łączenie się z usługą Project Online przy użyciu usługi Power BI
+description: Pakiet zawartości Project Online dla usługi Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 6272b3f175d7da851e5d8086c574a91f0f00c933
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 1d0cb4531dca1f200adbb21514fb49df8c872ecc
+ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/04/2018
 ---
 # <a name="connect-to-project-online-with-power-bi"></a>Łączenie się z usługą Project Online przy użyciu usługi Power BI
 Microsoft Project Online to elastyczne rozwiązanie online do zarządzania portfelem projektów (PPM) i codziennej pracy. Usługa Project Online pozwala organizacjom rozpocząć pracę, ustalić priorytety inwestycji projektowych i dostarczyć zamierzoną wartość biznesową. Pakiet zawartości Project Online dla usługi Power BI umożliwia eksplorowanie danych projektu za pomocą gotowych metryk, takich jak status portfela i zgodność projektu.
@@ -45,6 +45,9 @@ Połącz się z [pakietem zawartości Project Online](https://app.powerbi.com/ge
 5. Jako metodę uwierzytelniania wybierz opcję **oAuth2** \> **Zaloguj**. Po wyświetleniu monitu wprowadź swoje poświadczenia usługi Project Online i postępuj zgodnie z procesem uwierzytelniania.
    
     ![](media/service-connect-to-project-online/creds.png)
+    
+Zwróć uwagę, że w aplikacji sieci Web, z którą masz połączenie, musisz mieć uprawnienia do podglądu portfela, zarządzania portfelem lub administrowania.
+
 6. Zostanie wyświetlone powiadomienie informujące, że trwa ładowanie danych. Proces ten może zająć trochę czasu w zależności od konta. Po zaimportowaniu danych przez usługę Power BI zobaczysz nowy pulpit nawigacyjny, raport i zestaw danych w okienku nawigacji po lewej stronie. Jest to domyślny pulpit nawigacyjny utworzony przez usługę Power BI do wyświetlania Twoich danych. Możesz modyfikować pulpit nawigacyjny, aby wyświetlać dane w dowolny sposób.
    
    ![](media/service-connect-to-project-online/dashboard2.png)

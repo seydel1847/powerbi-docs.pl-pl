@@ -1,15 +1,15 @@
 ---
-title: "Używanie stron etykietek narzędzi raportu w usłudze Power BI"
-description: "Strony etykietek narzędzi w programie Power BI Desktop umożliwiają tworzenie bogatych etykietek narzędzi dostępnych po najechaniu kursorem dla elementów wizualnych w raportach"
+title: Używanie stron etykietek narzędzi raportu w usłudze Power BI
+description: Strony etykietek narzędzi w programie Power BI Desktop umożliwiają tworzenie bogatych etykietek narzędzi dostępnych po najechaniu kursorem dla elementów wizualnych w raportach
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,23 +18,23 @@ ms.workload: powerbi
 ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2905dbc51e684ec39ac36a76c7024db0fe15cc18
-ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
+ms.openlocfilehash: 87733126c4772b88c4e58cf60f9640668faf9cc7
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop-preview"></a>Tworzenie etykietek narzędzi opartych na stronach raportu w programie Power BI Desktop (wersja zapoznawcza)
 Możesz tworzyć wizualnie bogate **etykietki narzędzi raportu**, wyświetlane po najechaniu kursorem na elementy wizualne, w oparciu o strony raportu utworzonego w programie **Power BI Desktop**. Poprzez utworzenie strony raportu służącej jako etykietka narzędzi, możesz uwzględnić w niestandardowych etykietkach narzędzi elementy wizualne, obrazy i inne kolekcje elementów utworzonych na stronie raportu. 
 
 ![Etykietki narzędzi raportów dla programu Power BI Desktop](media/desktop-tooltips/desktop-tooltips_00a.png)
 
-Możesz utworzyć dowolną liczbę stron etykietek narzędzi. Każda strona etykietki narzędzi może być skojarzona z co najmniej jednym polem w raporcie. Dzięki temu po najechaniu kursorem na element wizualny obejmujący wybrane pole zostanie wyświetlona etykietka narzędzia utworzona na stronie etykietki narzędzi, z filtrowaniem w oparciu o punkt danych, nad którym znajduje się kursor. 
+Możesz utworzyć dowolną liczbę stron etykietek narzędzi. Każda strona etykietki narzędzi może być skojarzona z co najmniej jednym polem w raporcie. Dzięki temu po najechaniu kursorem na wizualizację obejmującą wybrane pole jest wyświetlana etykietka narzędzia utworzona na stronie etykietki narzędzi, z filtrowaniem według punktu danych, nad którym znajduje się kursor. 
 
 Istnieje wiele interesujących rzeczy, które można wykonać przy użyciu etykietek narzędzi raportów. Przyjrzyjmy się sposobom tworzenia etykietek narzędzi oraz czynnościom związanym z ich konfiguracją.
 
 ### <a name="enable-the-tooltips-preview"></a>Włączanie wersji zapoznawczej etykietek narzędzi 
-Ponieważ etykietki narzędzi są obecnie w wersji zapoznawczej, należy je włączyć, zanim będzie można utworzyć etykietki narzędzi raportów. Aby włączyć funkcję wersji zapoznawczej etykietek narzędzi raportów, wybierz pozycję **Plik > Opcje i ustawienia > Opcje > Funkcje wersji zapoznawczej** w programie Power BI Desktop, a następnie zaznacz pole wyboru obok pozycji **Zakładki**. 
+Ponieważ etykietki narzędzi są obecnie w wersji zapoznawczej, należy je włączyć, zanim będzie można utworzyć etykietki narzędzi raportów. Aby włączyć funkcję wersji zapoznawczej etykietek narzędzi raportów, wybierz pozycję **Plik > Opcje i ustawienia > Opcje > Funkcje wersji zapoznawczej** w programie Power BI Desktop, a następnie zaznacz pole wyboru obok pozycji **Etykietki narzędzi strony raportu**. 
 
 ![Włączanie funkcji wersji zapoznawczej etykietek narzędzi raportów](media/desktop-tooltips/desktop-tooltips_01.png)
 
@@ -91,7 +91,7 @@ Aby ręcznie ustawić etykietkę narzędzi, wybierz element wizualny, dla które
 
 ![Karta etykietki narzędzia dla poszczególnych elementów wizualnych](media/desktop-tooltips/desktop-tooltips_09.png)
 
-Następnie na liście rozwijanej **Strona** wybierz stronę etykietki narzędzi, której chcesz użyć dla wybranego elementu wizualnego. Pamiętaj, że tylko strony raportu określone jako **Etykietka narzędzia** są wyświetlane w tym oknie dialogowym.
+Następnie na liście rozwijanej **Strona** wybierz stronę etykietki narzędzi, której chcesz użyć dla wybranej wizualizacji. Pamiętaj, że tylko strony raportu określone jako **Etykietka narzędzia** są wyświetlane w tym oknie dialogowym.
 
 ![Wybieranie strony etykietki narzędzia w celu utworzenia ręcznej etykietki narzędzia](media/desktop-tooltips/desktop-tooltips_10.png)
 
@@ -99,7 +99,7 @@ Możliwość ręcznego ustawienia etykietki narzędzia ma wiele zastosowań. Mo�
 
 ## <a name="reverting-to-default-tooltips"></a>Powrót do domyślnych etykietek narzędzi
 
-Jeśli utworzysz ręczną etykietkę narzędzia dla elementu wizualnego, ale później zdecydujesz, że chcesz użyć domyślnej etykietki narzędzia, zawsze możesz wrócić do domyślnej etykietki narzędzia zapewnianej przez usługę Power BI. Aby to zrobić, po wybraniu elementu wizualnego i rozwinięciu karty **Etykietka narzędzia** wybierz opcję *Automatyczne* z listy rozwijanej **Strona**, aby powrócić do wartości domyślnej.
+Jeśli utworzysz ręczną etykietkę narzędzia dla wizualizacji, ale później zdecydujesz, że chcesz użyć domyślnej etykietki narzędzia, zawsze możesz wrócić do domyślnej etykietki narzędzia zapewnianej przez usługę Power BI. Aby to zrobić, po wybraniu elementu wizualnego i rozwinięciu karty **Etykietka narzędzia** wybierz opcję *Automatyczne* z listy rozwijanej **Strona**, aby powrócić do wartości domyślnej.
 
 ![Powracanie do domyślnej etykietki narzędzia elementu wizualnego](media/desktop-tooltips/desktop-tooltips_11.png)
 

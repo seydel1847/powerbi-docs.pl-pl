@@ -2,12 +2,12 @@
 title: Uzyskiwanie programu Power BI Desktop
 description: Pobieranie i instalowanie programu Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: monitoring
 qualitydate: 08/15/2017
 ms.service: powerbi
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 0a0ffc46feadc5868b8e7a4bd273b7d8acc8bfb5
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: a03e859e769f880b0c627080a864b41e96fc138b
+ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="get-power-bi-desktop"></a>Uzyskiwanie programu Power BI Desktop
 Program **Power BI Desktop** umożliwia tworzenie zaawansowanych zapytań, modeli i raportów z wizualizowaniem danych. Przy użyciu programu **Power BI Desktop** możesz tworzyć modele danych i raporty oraz udostępniać swoją pracę poprzez publikowanie w usłudze Power BI.  Program **Power BI Desktop** można pobrać bezpłatnie.
@@ -30,7 +30,7 @@ Program **Power BI Desktop** umożliwia tworzenie zaawansowanych zapytań, model
 Możesz pobrać program **Power BI Desktop** na dwa sposoby. Każdy z nich został opisany w następujących sekcjach:
 
 * **Pobieranie** bezpośrednie (pakiet MSI do pobrania i zainstalowania na komputerze)
-* Instalacja w formie aplikacji ze **Sklepu Windows**
+* Instalacja w formie aplikacji ze **Sklepu Microsoft**
 
 Każda z tych metod zapewnia najnowszą wersję programu **Power BI Desktop** do zainstalowania na komputerze, ale istnieje kilka różnic, na które warto zwrócić uwagę. Zostały one opisane w poniższych sekcjach.
 
@@ -54,31 +54,32 @@ Program **Power BI Desktop** jest instalowany jako aplikacja i jest uruchamiany 
 ![](media/desktop-get-the-desktop/designer_gsg_install.png)
 
 > [!NOTE]
-> Instalowanie pobranej wersji (MSI) oraz wersji ze **Sklepu Windows** programu **Power BI Desktop** na tym samym komputerze (czasami zwane instalacją *obok siebie*) nie jest obsługiwane.
+> Instalowanie pobranej wersji (MSI) oraz wersji ze **Sklepu Microsoft** programu **Power BI Desktop** na tym samym komputerze (czasami zwane instalacją *obok siebie*) nie jest obsługiwane.
 > 
 > 
 
-## <a name="install-as-an-app-from-the-windows-store"></a>Instalacja w formie aplikacji ze Sklepu Windows
-Możesz też pobrać program **Power BI Desktop** ze Sklepu Windows, korzystając z następującego linku:
+## <a name="install-as-an-app-from-the-microsoft-store"></a>Instalacja w formie aplikacji ze Sklepu Microsoft
+Możesz też pobrać program **Power BI Desktop** ze Sklepu Microsoft, korzystając z następującego linku:
 
-* [Instalacja programu **Power BI Desktop** ze **Sklepu Windows**](http://aka.ms/pbidesktopstore)
+* [Instalacja programu **Power BI Desktop** ze **Sklepu Microsoft**](http://aka.ms/pbidesktopstore)
 
 ![](media/desktop-get-the-desktop/getpbid_04.png)
 
-Pobranie programu **Power BI Desktop** ze Sklepu Windows ma kilka zalet:
+Pobranie programu **Power BI Desktop** ze Sklepu Microsoft ma kilka zalet:
 
 * **Aktualizacje automatyczne** — system Windows pobiera najnowszą wersję automatycznie w tle zawsze wtedy, gdy jest dostępna, więc wersja oprogramowania będzie zawsze aktualna.
-* **Mniejsze pliki do pobrania** — **Sklep Windows** gwarantuje, że podczas każdej aktualizacji na komputer będą pobierane tylko te elementy, które uległy zmianie, a więc za każdym razem będzie trzeba pobrać mniejsze pliki.
-* **Uprawnienia administratora nie są wymagane** — w przypadku bezpośredniego pobierania i instalacji pliku MSI musisz być administratorem, aby instalacja została zakończona pomyślnie. W przypadku pobierania programu **Power BI Desktop** ze Sklepu Windows uprawnienia administratora *nie* są wymagane.
-* **Łatwiejsze wdrożenie IT** — wersja ze **Sklepu Windows** jest łatwiejsza do wdrożenia lub *zaimplementowania* dla wszystkich użytkowników w organizacji. Ponadto umożliwia udostępnienie programu **Power BI Desktop** za pośrednictwem usługi **Sklep Microsoft dla firm**.
-* **Wykrywanie języka** — wersja ze **Sklepu Windows** obejmuje wszystkie obsługiwane języki i sprawdza, które języki są używane na komputerze podczas każdego uruchomienia. Ma to również wpływ na lokalizację modeli utworzonych w programie **Power BI Desktop**; na przykład wbudowane hierarchie dat będą pasować do języka używanego przez program **Power BI Desktop** w momencie utworzenia pliku pbix.
+* **Mniejsze pliki do pobrania** — **Sklep Microsoft** gwarantuje, że podczas każdej aktualizacji na komputer będą pobierane tylko te elementy, które uległy zmianie, dlatego za każdym razem będą pobierane mniejsze ilości danych.
+* **Uprawnienia administratora nie są wymagane** — w przypadku bezpośredniego pobierania i instalacji pliku MSI musisz być administratorem, aby instalacja została zakończona pomyślnie. W przypadku pobierania programu **Power BI Desktop** ze Sklepu Microsoft *nie* są wymagane uprawnienia administratora.
+* **Łatwiejsze wdrożenie IT** — wersja ze **Sklepu Microsoft** jest łatwiejsza do wdrożenia lub *zaimplementowania* dla wszystkich użytkowników w organizacji. Ponadto umożliwia udostępnienie programu **Power BI Desktop** za pośrednictwem usługi **Sklep Microsoft dla firm**.
+* **Wykrywanie języka** — wersja ze **Sklepu Microsoft** obejmuje wszystkie obsługiwane języki i podczas każdego uruchomienia sprawdza, które języki są używane na komputerze. Ma to również wpływ na lokalizację modeli utworzonych w programie **Power BI Desktop**; na przykład wbudowane hierarchie dat będą pasować do języka używanego przez program **Power BI Desktop** w momencie utworzenia pliku pbix.
 
-Istnieje kilka uwag i ograniczeń związanych z instalacją programu **Power BI Desktop** ze Sklepu Windows, które opisano poniżej:
+Kilka ograniczeń związanych z instalacją programu **Power BI Desktop** ze Sklepu Microsoft opisano poniżej:
 
 * Jeśli używasz łącznika SAP, może być konieczne przeniesienie plików sterownika SAP do folderu *Windows\System32*.
+* Instalowanie programu **Power BI Desktop** ze Sklepu Microsoft nie obejmuje kopiowania ustawień użytkownika z wersji instalatora MSI. Może być konieczne ponowne połączenie się z ostatnimi źródłami danych i ponowne wprowadzenie poświadczeń źródła danych. 
 
 > [!NOTE]
-> Instalowanie pobranej wersji (MSI) oraz wersji ze **Sklepu Windows** programu **Power BI Desktop** na tym samym komputerze (czasami zwane instalacją *obok siebie*) nie jest obsługiwane.
+> Instalowanie pobranej wersji (MSI) oraz wersji ze **Sklepu Microsoft** programu **Power BI Desktop** na tym samym komputerze (czasami zwane instalacją *obok siebie*) nie jest obsługiwane. Należy ręcznie odinstalować program **Power BI Desktop** przed pobraniem go ze **Sklepu Microsoft**
 > 
 > [!NOTE]
 > Wersja serwera raportów usługi Power BI programu **Power BI Desktop** jest osobną instalacją inną od wersji omawianych w tym artykule. Aby uzyskać informacje o wersji serwera raportów programu **Power BI Desktop**, zobacz artykuł [Szybki start: tworzenie raportu usługi Power BI dla serwera raportów usługi Power BI](report-server/quickstart-create-powerbi-report.md).

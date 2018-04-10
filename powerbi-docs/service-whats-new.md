@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 03/23/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: c4f05645f98e67fcf81c61d91bfdccb9612ed46b
-ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
+ms.openlocfilehash: 7b8d3b4202ff08b5b97765fe20abe37c41518a31
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/30/2018
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Co nowego w usłudze Power BI
@@ -82,7 +82,7 @@ Możesz też zapoznać się z kanałami w witrynie YouTube przedstawiającymi no
 ### <a name="july-2017"></a>Lipiec 2017
 * Obsługa [subskrypcji za pomocą wiadomości e-mail](service-report-subscribe.md) na panelach nawigacyjnych.
 * Inspekcja i diagnostyka długiego czasu ładowania w przypadku paneli nawigacyjnych używających Inspektora wydajności.
-* Programy Snowflake i SAP BusinessWarehouse DirectQuery są teraz obsługiwane na potrzeby lokalnej bramy danych.
+* Tryb DirectQuery programów Snowflake i SAP BusinessWarehouse jest teraz obsługiwany na potrzeby lokalnej bramy danych.
 * Nowe [interfejsy API do zarządzania odświeżaniem danych](https://powerbi.microsoft.com/blog/announcing-data-refresh-apis-in-the-power-bi-service/) w usłudze Power BI.
 
 ### <a name="june-2017"></a>Czerwiec 2017

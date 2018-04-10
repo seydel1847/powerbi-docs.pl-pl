@@ -1,15 +1,15 @@
 ---
-title: "Zarządzanie źródłem danych SAP HANA"
-description: "Jak zarządzać lokalną bramą danych i źródłami danych należącymi do tej bramy. Ten artykuł dotyczy platformy SAP HANA."
+title: Zarządzanie źródłem danych SAP HANA
+description: Jak zarządzać lokalną bramą danych i źródłami danych należącymi do tej bramy. Ten artykuł dotyczy platformy SAP HANA.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 8f9ec69c2a131a8de8f53385170bbddc59211f7b
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 43bc0c22918e041f354c29ae9cc3ee4806b8da1a
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="manage-your-sap-hana-data-source"></a>Zarządzanie źródłem danych SAP HANA
 Po zainstalowaniu lokalnej bramy danych musisz dodać źródła danych, które mogą być używane z tą bramą. W tym artykule opisano sposób pracy z bramami i źródłami danych. Źródła danych SAP HANA można użyć na potrzeby zaplanowanego odświeżania lub zapytania bezpośredniego.
@@ -66,7 +66,7 @@ W kolejnym kroku podaj informacje dla źródła danych: **serwer**, **nazwę uż
 
 ![](media/service-gateway-enterprise-manage-sap/datasourcesettings3-sap.png)
 
-Możesz kliknąć pozycję **Dodaj** po wprowadzeniu wszystkich wymaganych informacji.  Teraz możesz używać tego źródła danych na potrzeby zaplanowanego odświeżania lub zapytania bezpośredniego względem lokalnego serwera SAP HANA. W przypadku powodzenia zostanie wyświetlony komunikat *Łączenie przebiegło pomyślnie*.
+Po wprowadzeniu wszystkich wymaganych informacji możesz kliknąć pozycję **Dodaj**.  Teraz możesz używać tego źródła danych na potrzeby zaplanowanego odświeżania lub zapytania bezpośredniego względem lokalnego serwera SAP HANA. W przypadku powodzenia zostanie wyświetlony komunikat *Łączenie przebiegło pomyślnie*.
 
 ![](media/service-gateway-enterprise-manage-sap/datasourcesettings4.png)
 
@@ -101,7 +101,7 @@ Na karcie Użytkownicy dla źródła danych można dodawać i usuwać użytkowni
 Po utworzeniu źródło danych będzie dostępne do użycia z połączeniami zapytań bezpośrednich lub za pośrednictwem zaplanowanego odświeżania.
 
 > [!NOTE]
-> Nazwy serwera i bazy danych muszą być zgodne między programem Power BI Desktop i źródłem danych w ramach lokalnej bramy danych.
+> W ramach lokalnej bramy danych nazwy serwera i bazy danych w programie Power BI Desktop oraz źródle danych muszą być takie same!
 > 
 > 
 
@@ -123,5 +123,5 @@ Jeśli znajdujesz się na liście na karcie **Użytkownicy** źródła danych sk
 [Lokalna brama danych](service-gateway-onprem.md)  
 [Lokalna brama danych — szczegóły](service-gateway-onprem-indepth.md)  
 [Rozwiązywanie problemów z lokalną bramą danych](service-gateway-onprem-tshoot.md)  
-Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
+Więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
 

@@ -1,15 +1,15 @@
 ---
-title: "Używanie linków usługi OneDrive dla Firm w programie Power BI Desktop"
-description: "Używanie linków usługi OneDrive dla Firm w programie Power BI Desktop"
+title: Używanie linków usługi OneDrive dla Firm w programie Power BI Desktop
+description: Używanie linków usługi OneDrive dla Firm w programie Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/05/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 7d203668f3fbb3f9a50af50280d68d2fadf15f64
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: ad83703b77907488f47f9b5f419e8e4d5145ae97
+ms.sourcegitcommit: ae4d771b883b654358a6a94dd784ea9bdf3d3aa3
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="use-onedrive-for-business-links-in-power-bi-desktop"></a>Używanie linków usługi OneDrive dla Firm w programie Power BI Desktop
 Wiele osób przechowuje na dysku usługi OneDrive dla Firm skoroszyty programu Excel, które by się świetnie nadawały do użytku w programie Power BI Desktop. W programie **Power BI Desktop** można używać linków online do plików programu **Excel** przechowywanych w usłudze **OneDrive dla Firm**, aby tworzyć raporty i wizualizacje. Możesz użyć konta grupy usługi **OneDrive dla Firm** lub swojego osobistego konta usługi **OneDrive dla Firm**.

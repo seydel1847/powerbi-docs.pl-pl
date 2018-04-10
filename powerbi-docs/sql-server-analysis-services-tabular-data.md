@@ -1,15 +1,15 @@
 ---
-title: "Dane na żywo usług SQL Server Analysis Services w usłudze Power BI"
-description: "Dane na żywo usług SQL Server Analysis Services w usłudze Power BI. Ta funkcja jest realizowana za pośrednictwem źródła danych, które zostało skonfigurowane dla bramy przedsiębiorstwa."
+title: Dane na żywo usług SQL Server Analysis Services w usłudze Power BI
+description: Dane na żywo usług SQL Server Analysis Services w usłudze Power BI. Ta funkcja jest realizowana za pośrednictwem źródła danych, które zostało skonfigurowane dla bramy przedsiębiorstwa.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,17 +18,17 @@ ms.workload: powerbi
 ms.date: 08/10/2017
 ms.author: maghan
 LocalizationGroup: Data from databases
-ms.openlocfilehash: e0053489b2591aa6ffc931b5022fda8bb3b44c8f
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: d9124479b429c15857199b20cb6ffe980478c126
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="sql-server-analysis-services-live-data-in-power-bi"></a>Dane na żywo usług SQL Server Analysis Services w usłudze Power BI
 W usłudze Power BI istnieją dwa sposoby nawiązywania połączeń z serwerem SQL Server Analysis Services na żywo. W oknie **Pobierz dane** można połączyć się z serwerem SQL Server Analysis Services. Można również połączyć się z [plikiem programu Power BI Desktop](service-desktop-files.md) lub [skoroszytem programu Excel](service-excel-workbook-files.md), które już mają połączenie z serwerem usług Analysis Services.
 
  >[!IMPORTANT]
- >* Aby można było łączyć się z serwerem usług Analysis Services na żywo, administrator musi zainstalować i skonfigurować lokalną bramę danych. Aby uzyskać więcej informacji, zobacz [Lokalna brama danych](service-gateway-onprem.md).
+ >* Aby można było połączyć się z serwerem usług Analysis Services na żywo, administrator musi zainstalować i skonfigurować lokalną bramę danych. Aby uzyskać więcej informacji, zobacz [Lokalna brama danych](service-gateway-onprem.md).
  >* Gdy używasz bramy, dane pozostają w środowisku lokalnym.  Raporty tworzone w oparciu o te dane są zapisywane w usłudze Power BI. 
  >* Połączenia na żywo usług Analysis Services zawierają funkcję [wysyłania pytań i uzyskiwania odpowiedzi w języku naturalnym](service-q-and-a-direct-query.md) w wersji Preview.
 
@@ -56,5 +56,5 @@ Jeśli przypinasz wizualizacje z raportu do pulpitu nawigacyjnego, przypięte ka
 [Lokalna brama danych](service-gateway-onprem.md)  
 [Zarządzanie źródłami danych usług Analysis Services](service-gateway-enterprise-manage-ssas.md)  
 [Rozwiązywanie problemów z lokalną bramą danych](service-gateway-onprem-tshoot.md)  
-Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
+Więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
 

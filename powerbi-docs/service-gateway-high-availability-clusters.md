@@ -1,15 +1,15 @@
 ---
-title: "Klastry wysokiej dostępności dla lokalnej bramy danych"
-description: "W celu zapewnienia wysokiej dostępności w przedsiębiorstwie można utworzyć klastry na poziomie lokalnych bram danych."
+title: Klastry wysokiej dostępności dla lokalnej bramy danych
+description: W celu zapewnienia wysokiej dostępności w przedsiębiorstwie można utworzyć klastry na poziomie lokalnych bram danych.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/05/2017
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 717451afc35614e9c356e5748f39f0302fa6244e
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 9ad1d4288184368dbb294bfafa69fe005780b322
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="high-availability-clusters-for-on-premises-data-gateway"></a>Klastry wysokiej dostępności dla lokalnej bramy danych
 Można utworzyć **klastry wysokiej dostępności** z poziomu instalacji **lokalnej bramy danych**, aby zapewnić, że organizacja będzie mogła uzyskiwać dostęp do zasobów danych lokalnych używanych w raportach i na pulpicie nawigacyjnym usługi Power BI. Dzięki takim klastrom administratorzy bram mogą grupować bramy w celu uniknięcia punktów SPOF (single point of failure) w przypadku uzyskiwania dostępu do zasobów danych lokalnych. W tym artykule opisano kroki, które można wykonać w celu utworzenia klastra o wysokiej dostępności z poziomu lokalnych bram danych. Przedstawiono również najlepsze rozwiązania do stosowania w procesie konfigurowania. Klastry bramy o wysokiej dostępności wymagają aktualizacji z listopada 2017 r. (lub nowszej) dla lokalnej bramy danych.
