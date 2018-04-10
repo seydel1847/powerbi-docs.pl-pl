@@ -1,15 +1,15 @@
 ---
-title: "Typowe zadania dotyczące zapytań w programie Power BI Desktop"
-description: "Typowe zadania dotyczące zapytań w programie Power BI Desktop"
+title: Typowe zadania dotyczące zapytań w programie Power BI Desktop
+description: Typowe zadania dotyczące zapytań w programie Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 4d0a8b9a1f855c373b43c5c78ec41b6bc34d1d18
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 37c5e55d426d308fe8ea7de5c6604a9c66f81896
+ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/04/2018
 ---
 # <a name="common-query-tasks-in-power-bi-desktop"></a>Typowe zadania dotyczące zapytań w programie Power BI Desktop
 Podczas pracy w oknie **Edytora zapytań** programu Power BI Desktop dostępnych jest kilka przydatnych, typowych zadań. W tym dokumencie przedstawiono te zadania i podano linki umożliwiające uzyskanie dodatkowych informacji. 
@@ -45,7 +45,7 @@ Docelowym elementem pierwszego połączenia z danymi jest skoroszyt programu Exc
 Kroki nawiązywania połączenia z obydwoma źródłami danych można wykonać przy użyciu typowych zadań dotyczących zapytań.
 
 ## <a name="connect-to-data"></a>Łączenie się z danymi
-Aby połączyć się z danymi w programie Power BI Desktop, wybierz przycisk **Pobierz dane** na karcie **Narzędzia główne** na wstążce. Program Power BI Desktop wyświetli menu z typowymi źródłami danych. Aby uzyskać pełną listę źródeł danych obsługiwanych przez program Power BI Desktop, wybierz przycisk **Więcej** znajdujący się u dołu menu. Aby uzyskać więcej informacji, zobacz [Źródła danych w programie Power BI Desktop](https://powerbi.uservoice.com/knowledgebase/articles/471643).
+Aby połączyć się z danymi w programie Power BI Desktop, wybierz przycisk **Pobierz dane** na karcie **Narzędzia główne** na wstążce. Program Power BI Desktop wyświetli menu z typowymi źródłami danych. Aby uzyskać pełną listę źródeł danych obsługiwanych przez program Power BI Desktop, wybierz przycisk **Więcej** znajdujący się u dołu menu. Aby uzyskać więcej informacji, zobacz [Źródła danych w programie Power BI Desktop](https://docs.microsoft.com/en-us/power-bi/desktop-data-sources).
 
 ![](media/desktop-common-query-tasks/commonquerytasks_getdata.png)
 
@@ -67,10 +67,10 @@ Wybierz przycisk **OK**. Tak jak poprzednio, program Power BI Desktop przeanaliz
 
 Inne połączenia z danymi działają podobnie. Jeśli do nawiązania połączenia z danymi wymagane jest uwierzytelnienie, program Power BI Desktop wyświetla monit o wprowadzenie poświadczeń.
 
-Aby uzyskać szczegółowe instrukcje dotyczące łączenia się z danymi w programie Power BI Desktop, zobacz [Łączenie się z danymi w programie Power BI Desktop](https://powerbi.uservoice.com/knowledgebase/articles/471635).
+Aby uzyskać szczegółowe instrukcje dotyczące łączenia się z danymi w programie Power BI Desktop, zobacz [Łączenie się z danymi w programie Power BI Desktop](https://docs.microsoft.com/en-us/power-bi/desktop-connect-to-data).
 
 ## <a name="shape-and-combine-data"></a>Kształtowanie i łączenie danych
-Edytor zapytań pozwala łatwo kształtować i łączyć dane. W tej sekcji podano kilka przykładów dotyczących kształtowania danych. Bardziej wyczerpujący opis kształtowania i łączenia danych można znaleźć w temacie **[Kształtowanie i łączenie danych w programie Power BI Desktop](https://powerbi.uservoice.com/knowledgebase/articles/471644)**.
+Edytor zapytań pozwala łatwo kształtować i łączyć dane. W tej sekcji podano kilka przykładów dotyczących kształtowania danych. Bardziej wyczerpujący opis kształtowania i łączenia danych można znaleźć w temacie **[Kształtowanie i łączenie danych w programie Power BI Desktop](https://docs.microsoft.com/en-us/power-bi/desktop-shape-and-combine-data)**.
 
 W poprzedniej sekcji nawiązaliśmy połączenie z dwoma zestawami danych — skoroszytem programu Excel i zasobem internetowym. Po załadowaniu zestawów do Edytora zapytań i wybraniu zapytania ze strony internetowej (z listy dostępnych zapytań w okienku **Zapytania** po lewej stronie okna Edytora zapytań) widać następującą zawartość.
 
@@ -78,7 +78,7 @@ W poprzedniej sekcji nawiązaliśmy połączenie z dwoma zestawami danych — sk
 
 Kształtowanie danych polega na przekształcaniu źródła danych do postaci i formatu, który spełnia określone wymagania. W tym przypadku nie potrzebujemy pierwszej kolumny, o nazwie *Header*, dlatego ją usuniemy.
 
-W **Edytorze zapytań** wiele poleceń jest dostępnych na wstążce i w menu kontekstowym wywoływanym prawym przyciskiem myszy. Na przykład po kliknięciu prawym przyciskiem myszy kolumny *Header* pojawia się menu, które pozwala usunąć tę kolumnę. Można również zaznaczyć kolumnę, a następnie wybrać przycisk **Usuń kolumny** na wstążce.
+W **Edytorze zapytań** wiele poleceń jest dostępnych na wstążce i w menu kontekstowym wywoływanym prawym przyciskiem myszy. Na przykład po kliknięciu prawym przyciskiem myszy kolumny *Nagłówek* pojawia się menu, które pozwala usunąć tę kolumnę. Można również zaznaczyć kolumnę, a następnie wybrać przycisk **Usuń kolumny** na wstążce.
 
 ![](media/desktop-common-query-tasks/commonquerytasks_removecolumns.png)
 
@@ -87,7 +87,7 @@ Istnieje wiele innych metod kształtowania danych w tym zapytaniu. Można usuwa�
 ## <a name="group-rows"></a>Grupowanie wierszy
 W Edytorze zapytań wartości z wielu wierszy można grupować w jedną wartość. Może to być przydatne w przypadku podawania liczby oferowanych produktów, całkowitej wartości sprzedaży lub liczby studentów.
 
-W tym przykładzie pogrupujemy wiersze w zestawie danych dotyczących rekrutacji w szkołach. Dane pochodzą ze skoroszytu programu Excel. Zostały ukształtowane w Edytorze zapytań — usunięto niepotrzebne kolumny, zmieniono nazwę tabeli i wykonano kilka innych transformacji.
+W tym przykładzie pogrupujemy wiersze w zestawie danych dotyczących rekrutacji w szkołach. Dane pochodzą ze skoroszytu programu Excel. Zostały ukształtowane w Edytorze zapytań — pozostawiono tylko potrzebne kolumny, zmieniono nazwę tabeli i wykonano kilka innych transformacji.
 
 Chcemy dowiedzieć się, ile placówek edukacyjnych (zarówno w okręgach szkolnych, jak i całych regionach) znajduje się w poszczególnych stanach USA. Wybieramy kolumnę *State Abbr*, a następnie przycisk **Grupuj według** na karcie **Przekształcanie** lub **Narzędzia główne** na wstążce (polecenie **Grupuj według** jest dostępne na obu kartach).
 
@@ -95,14 +95,16 @@ Chcemy dowiedzieć się, ile placówek edukacyjnych (zarówno w okręgach szkoln
 
 Okno **Grupowanie według** zostanie wyświetlone. Grupowanie wierszy w Edytorze zapytań powoduje utworzenie nowej kolumny, w której są umieszczane wyniki polecenia **Grupuj według**. Operację **Grupuj według** można dostosować przy użyciu następujących opcji:
 
-1. *Grupuj według* — kolumna, która ma zostać pogrupowana; w Edytorze zapytań jest to zaznaczona wcześniej kolumna, ale można ją zamienić w tym oknie na dowolną kolumnę w tabeli.
+1. *Grupuj według* — kolumna, która ma zostać pogrupowana; w Edytorze zapytań została wybrana zaznaczona wcześniej kolumna, ale można ją zmienić w tym oknie na dowolną kolumnę w tabeli.
 2. *Nazwa nowej kolumny* — Edytor zapytań sugeruje nazwę na podstawie operacji wykonywanej na grupowanej kolumnie, ale można podać dowolną nazwę nowej kolumny.
 3. *Operacja* — w tym miejscu można wskazać operację wykonywaną przez Edytora zapytań.
-4. *Znaki +/-* — operacje agregujące (akcje **Grupuj według**) można wykonywać na wielu kolumnach. W jednej operacji w oknie **Grupowanie według** można przeprowadzać wiele agregacji. Edytor zapytań tworzy nową kolumnę (na podstawie opcji wybranych w tym oknie), która jest wynikiem operacji na wielu kolumnach. Za pomocą przycisku **+** można dodać kolumny lub agregacje do operacji **Grupuj według**. Za pomocą ikony – można usunąć kolumnę lub agregację — możesz wykonać to samodzielnie, aby zobaczyć wynik takiego działania. 
+4. *Dodaj grupowanie* i *Dodaj agregację* — te opcje są wyświetlane po wybraniu opcji **Zaawansowane**. Operacje agregujące (akcje **Grupuj według**) można wykonywać na wielu kolumnach. W jednej operacji w oknie **Grupowanie według** można przeprowadzać wiele agregacji. Edytor zapytań tworzy nową kolumnę (na podstawie opcji wybranych w tym oknie), która jest wynikiem operacji na wielu kolumnach. 
+
+Skorzystaj z przycisku **Dodaj grupowanie** lub **Dodaj agregację**, aby dodać więcej grupowań lub agregacji do operacji **Grupuj według**. Możesz usunąć kolumnę lub agregację, wybierając ikonę **...**, a następnie opcję **Usuń** — spróbuj to wykonać i zobacz, jaki będzie wynik takiego działania.
    
    ![](media/desktop-common-query-tasks/commonquerytasks_groupbynumbered.png)
 
-Po wybraniu przycisku **OK** zapytanie wykonuje operację **Grupuj według** i zwraca wyniki. Jak widać, liczba placówek w każdym z czterech stanów — Ohio, Teksasie, Illinois i Kalifornii — przekracza tysiąc.
+Po wybraniu przycisku **OK** zapytanie wykonuje operację **Grupuj według** i zwraca wyniki. Jak widać, liczba placówek w każdym z czterech stanów — Ohio, Teksasie, Illinois i Kalifornii — przekracza tysiąc!
 
 ![](media/desktop-common-query-tasks/commonquerytasks_groupedresult.png)
 
@@ -126,7 +128,7 @@ Po wybraniu przycisku **OK** zostanie wyświetlona tabela — wynik instrukcji p
 ## <a name="create-custom-columns"></a>Tworzenie niestandardowych kolumn
 W Edytorze zapytań można tworzyć niestandardowe formuły, które działają na wielu kolumnach tabeli, a następnie umieszczać wyniki takich formuł w nowej (niestandardowej) kolumnie. Tworzenie niestandardowych kolumn w Edytorze zapytań jest proste.
 
-W Edytorze zapytań wybierz pozycję **Dodaj kolumnę niestandardową** na karcie **Dodawanie kolumny** na wstążce.
+W Edytorze zapytań na karcie **Dodawanie kolumny** na wstążce wybierz pozycję **Kolumna niestandardowa**.
 
 ![](media/desktop-common-query-tasks/commonquerytasks_customcolumn.png)
 
@@ -147,7 +149,7 @@ Edytor zapytań przechowuje wszystkie zastosowane kroki poszczególnych zapytań
 
 ![](media/desktop-common-query-tasks/queryformulas_advancededitorbutton.png)
 
-Poniżej przedstawiono **edytor zaawansowany** z wyświetlonymi krokami zapytania **USA\_StudentEnrollment**. Kroki te utworzono przy użyciu języka formuł dodatku Power Query, często określanego jako język **M**. Aby uzyskać więcej informacji, zobacz [Informacje o formułach dodatku Power Query](https://support.office.com/article/Learn-about-Power-Query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f?ui=en-US&rs=en-US&ad=US). Aby zapoznać się ze specyfikacją języka, pobierz [specyfikację języka formuł dodatku Microsoft Power Query dla programu Excel](http://go.microsoft.com/fwlink/?linkid=320633).
+Poniżej przedstawiono **edytor zaawansowany** z wyświetlonymi krokami zapytania **USA\_StudentEnrollment**. Kroki te utworzono przy użyciu języka formuł dodatku Power Query, często określanego jako język **M**. Aby uzyskać więcej informacji, zobacz [Informacje o formułach dodatku Power Query](https://support.office.com/article/Learn-about-Power-Query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f?ui=en-US&rs=en-US&ad=US). Aby zapoznać się ze specyfikacją języka, zobacz artykuł [Specyfikacja języka formuł dodatku Microsoft Power Query dla programu Excel](http://go.microsoft.com/fwlink/?linkid=320633).
 
 ![](media/desktop-common-query-tasks/queryformulas_advancededitor.png)
 

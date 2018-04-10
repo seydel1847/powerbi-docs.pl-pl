@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/11/2017
 ms.author: tankas
-ms.openlocfilehash: 7c460955aba71bfb3a89d94aa6000c7bdd451ac2
-ms.sourcegitcommit: 0473a155495a7a9ba4b899d0815100426718b7ac
+ms.openlocfilehash: 1345cfee8eb92b9b4e3cf883f19edddee859a1c3
+ms.sourcegitcommit: c9905e625ba14dc28ad23835f320e49631c51d0f
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/20/2018
+ms.lasthandoff: 03/29/2018
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Dziennik zmian w Serwerze raportów usługi Power BI
 
@@ -29,8 +29,14 @@ Ten dziennik zmian zawiera listę nowych elementów oraz poprawek błędów w ka
 
 Aby uzyskać szczegółowe informacje o nowych funkcjach, zobacz [Co nowego w Serwerze raportów usługi Power BI](whats-new.md). 
 
-## <a name="march-2018"></a>Marzec 2018 r.
+## <a name="march-2018"></a>Marzec 2018
 - **Serwer raportów usługi Power BI**
+    - *Wersja 1.2.6660.39920 (kompilacja 15.0.2.389), data wydania: 28 marca 2018 r.*
+        - Poprawki błędów
+            - W przypadku raportów usługi Power BI (PBIX) naprawiono błąd polegający na tym, że eksport danych nie działał z poziomu wizualizacji usługi Power BI
+            - W przypadku raportów usługi Power BI (PBIX) naprawiono błąd polegający na tym, że filtry adresów URL nie działały
+            - W przypadku raportów podzielonych na strony (RDL) naprawiono błąd polegający na tym, że obrazy nie były prawidłowo wyświetlane w programie IE11 po uaktualnieniu serwera raportów usługi Power BI do wersji wydanej w marcu
+
     - *Wersja 1.2.6648.38132 (kompilacja 15.0.2.378), data wydania: 19 marca 2018 r.*
         - Aktualizacje zabezpieczeń
         - Usprawnienia w zakresie ułatwień dostępu

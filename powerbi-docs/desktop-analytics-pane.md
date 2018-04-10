@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 02/05/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 369d99406cd286be7cf1afb3c02c98c1711531ae
-ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
+ms.openlocfilehash: d0386f384698e0e66ce927466975eca7f25656db
+ms.sourcegitcommit: ae4d771b883b654358a6a94dd784ea9bdf3d3aa3
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/21/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="using-the-analytics-pane-in-power-bi-desktop"></a>Użycie okienka analizy w programie Power BI Desktop
 Za pomocą okienka **Analiza** w programie **Power BI Desktop** możesz dodać do wizualizacji dynamiczne *linie odwołania* i skoncentrować się na ważnych trendach lub szczegółowych informacjach. Okienko **Analiza** znajduje się w obszarze **Wizualizacje** programu Power BI Desktop.
@@ -112,7 +112,9 @@ Wizualizacje niekartezjańskie nie obsługują obecnie linii dynamicznych z okie
 * Macierz
 * Wykres kołowy
 * Pierścień
-* Tabela
+* tabela
+
+Wiersz percentylu jest dostępny tylko w przypadku używania zaimportowanych danych w programie **Power BI Desktop** lub łączenia na żywo z modelem na serwerze z usługami **Analysis Services 2016** lub nowszymi, usługami **Azure Analysis Services** lub zestawem danych w usłudze Power BI. 
 
 ## <a name="next-steps"></a>Następne kroki
 Przy użyciu programu Power BI Desktop można wykonywać różnorodne zadania. Aby uzyskać więcej informacji na temat jego możliwości, skorzystaj z następujących zasobów:

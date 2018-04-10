@@ -1,15 +1,15 @@
 ---
 title: Lokalna brama danych (tryb osobisty)
-description: "Brama danych dla usługi Power BI, z której użytkownicy indywidualni mogą korzystać w celu łączenia się z danymi lokalnymi."
+description: Brama danych dla usługi Power BI, z której użytkownicy indywidualni mogą korzystać w celu łączenia się z danymi lokalnymi.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/14/2017
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 2bd3604a3f16c6977c52c1b3484ac024445c65bb
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 777e5f27954890fe842096c0f2633f6803ebf319
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="on-premises-data-gateway-personal-mode"></a>Lokalna brama danych (tryb osobisty)
 Przy użyciu bramy można korzystać z lokalnych źródeł danych oraz tworzyć raporty i pulpity nawigacyjne usługi Power BI. **Brama** to oprogramowanie ułatwiające dostęp do danych przechowywanych w prywatnej sieci lokalnej i umożliwiające użycie tych danych w usługach online, takich jak usługa **Power BI**. **Lokalna brama danych (tryb osobisty)** to udostępniona niedawno aktualizacja bramy usługi Power BI, umożliwiająca użytkownikom indywidualnym zainstalowanie bramy na własnym komputerze w celu uzyskania dostępu do danych lokalnych.
@@ -34,16 +34,16 @@ Przy użyciu bramy można korzystać z lokalnych źródeł danych oraz tworzyć 
 > 
 > 
 
-## <a name="features-of-the-on-premises-data-gateway-personal-mode"></a>Funkcje lokalnej bramy danych (tryb osobisty)
-Wraz z udostępnieniem **lokalnej bramy danych (tryb osobisty)** wprowadzono szereg usprawnień i nowych funkcji. Wdrożenie poprzedniej wersji bramy osobistej (o nazwie **Power BI Gateway — Personal**) wiązało się z pewnymi ograniczeniami. Tak, jak w przypadku innych produktów Power BI, zwróciliśmy uwagę na potrzeby i życzenia naszych klientów oraz ich sposób korzystania z produktu. Dlatego **lokalna brama danych (tryb osobisty)** została zaprojektowana całkowicie od nowa i zawiera następujące funkcje i ulepszenia:
+## <a name="features-of-the-on-premises-data-gateway-personal-mode"></a>Funkcje Lokalnej bramy danych (tryb osobisty)
+Wraz z udostępnieniem **Lokalnej bramy danych (tryb osobisty)** wprowadzono szereg usprawnień i nowych funkcji. Wdrożenie poprzedniej wersji bramy osobistej (o nazwie **Power BI Gateway — Personal**) wiązało się z pewnymi ograniczeniami. Tak, jak w przypadku innych produktów Power BI, zwróciliśmy uwagę na potrzeby i życzenia naszych klientów oraz ich sposób korzystania z produktu. Dlatego **Lokalna brama danych (tryb osobisty)** została zaprojektowana całkowicie od nowa i zawiera następujące funkcje i ulepszenia:
 
 * **Większa niezawodność** — nowa wersja bramy osobistej jest bardziej niezawodna niż poprzednia dzięki usprawnieniom kodu i struktury oprogramowania.
 * **Większa rozszerzalność** — usprawnienia struktury oprogramowania umożliwiają łatwe dodawanie nowo udostępnianych funkcji do bramy osobistej.
 * **Usuwanie bramy osobistej z poziomu usługi Power BI** — nowa wersja bramy osobistej może zostać usunięta z poziomu usługi **Power BI**.
 * **Dzienniki konfiguracji i usługi** — nowa wersja umożliwia łatwe eksportowanie dzienników konfiguracji i usługi do pliku zip za pomocą jednego kliknięcia.
 
-## <a name="installing-on-premises-data-gateway-personal-mode"></a>Instalowanie lokalnej bramy danych (tryb osobisty)
-Aby zainstalować **lokalną bramę danych (tryb osobisty)** bez zainstalowanej poprzedniej wersji bramy, wybierz ikonę koła zębatego w usłudze **Power BI**, a następnie wybierz pozycję **Brama danych**.
+## <a name="installing-on-premises-data-gateway-personal-mode"></a>Instalowanie Lokalnej bramy danych (tryb osobisty)
+Aby zainstalować **Lokalną bramę danych (tryb osobisty)** bez zainstalowanej poprzedniej wersji bramy, wybierz ikonę koła zębatego w usłudze **Power BI**, a następnie wybierz pozycję **Brama danych**.
 
 ![](media/service-gateway-personal-mode/gateway-personal-mode_02.png)
 
@@ -84,12 +84,12 @@ Aby określić, która wersja bramy osobistej jest aktualnie zainstalowana, moż
 Możesz przejść do apletu **Dodaj/Usuń programy** i sprawdzić, czy brama **Power BI Gateway — Personal** jest widoczna na liście. Jeśli tak, oznacza to, że masz zainstalowaną poprzednią wersję bramy osobistej.
 
 ## <a name="using-fast-combine-with-the-personal-gateway"></a>Używanie funkcji szybkiego łączenia z bramą osobistą
-Jeśli używano funkcji **szybkiego łączenia** z poprzednią wersją bramy, należy wykonać następujące czynności, aby ponownie włączyć **szybkie łączenie** dla **lokalnej bramy danych (tryb osobisty)**:
+Jeśli używano funkcji **szybkiego łączenia** z poprzednią wersją bramy, należy wykonać następujące czynności, aby ponownie włączyć **szybkie łączenie** dla **Lokalnej bramy danych (tryb osobisty)**:
 
 1. W Eksploratorze plików otwórz następujący plik:
    
    ```
-   %localappdata%\Microsoft\on-premises data gateway (personal mode)\Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config
+   %localappdata%\Microsoft\On-premises data gateway (personal mode)\Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config
    ```
 2. Na końcu pliku dodaj następujący tekst:
    
@@ -101,7 +101,7 @@ Jeśli używano funkcji **szybkiego łączenia** z poprzednią wersją bramy, na
 3. Po skonfigurowaniu to ustawienie zacznie działać po upływie około minuty. Aby sprawdzić, czy **szybkie łączenie** działa prawidłowo, spróbuj przeprowadzić odświeżenie na żądanie w usłudze **Power BI**.
 
 ## <a name="limitations-and-considerations"></a>Ograniczenia i istotne zagadnienia
-Podczas korzystania z **lokalnej bramy danych (tryb osobisty)** należy mieć na uwadze pewne zagadnienia, opisane poniżej.
+Podczas korzystania z **Lokalnej bramy danych (tryb osobisty)** należy mieć na uwadze pewne zagadnienia, opisane poniżej.
 
 * Jeśli do logowania w systemie Windows używasz funkcji **Windows Hello** lub numeru PIN, może wystąpić następujący błąd: 
   * *Wybrane konto użytkownika nie pasuje do wymagań aplikacji. Użyj innego konta.*
@@ -119,18 +119,18 @@ Podczas korzystania z **lokalnej bramy danych (tryb osobisty)** należy mieć na
 Wprowadzenie obsługi źródeł danych Spark jest planowane w drugiej połowie roku 2017.
 
 ## <a name="frequently-asked-questions-faq"></a>Często zadawane pytania
-* Czy można używać **lokalnej bramy danych (tryb osobisty)** jednocześnie z **lokalną bramą danych** (dawniej: bramą przedsiębiorstwa)?
+* Czy można używać **Lokalnej bramy danych (tryb osobisty)** jednocześnie z **Lokalną bramą danych** (dawniej: bramą przedsiębiorstwa)?
   
   * **Odpowiedź**: Tak, w przypadku nowej wersji można używać obu wariantów jednocześnie.
-* Czy można używać **lokalnej bramy danych (tryb osobisty)** jako usługi?
+* Czy można używać **Lokalnej bramy danych (tryb osobisty)** jako usługi?
   
   * **Odpowiedź:** Nie. **Lokalna brama danych (tryb osobisty)** może być używana tylko jako aplikacja. Jeśli chcesz używać bramy jako usługi i/lub w trybie administratora, rozważ użycie [**lokalnej bramy danych**](service-gateway-onprem.md) (dawniej: bramy przedsiębiorstwa).
-* Jak często jest aktualizowana **lokalna brama danych (tryb osobisty)**?
+* Jak często jest aktualizowana **Lokalna brama danych (tryb osobisty)**?
   
   * **Odpowiedź**: Planujemy comiesięczne aktualizowanie bramy osobistej.
 * Dlaczego muszę zaktualizować poświadczenia?
   
-  * **Odpowiedź**: Żądanie poświadczeń może występować w wielu sytuacjach. Najczęściej jest to spowodowane zainstalowaniem **lokalnej bramy danych (tryb osobisty)** na innej maszynie niż ta, na której zainstalowano bramę **Power BI Gateway — Personal**. Może to również być spowodowane problemem w źródle danych i niepowodzeniem połączenia testowego w usłudze Power BI, przekroczeniem czasu lub błędem systemu. Możesz zaktualizować poświadczenia w usłudze **Power BI**. W tym celu wybierz **ikonę koła zębatego**, wybierz kolejno pozycje **Ustawienia** i **Zestawy danych**, a następnie znajdź odpowiedni zestaw danych i kliknij pozycję *Zaktualizuj poświadczenia*.
+  * **Odpowiedź**: Żądanie poświadczeń może występować w wielu sytuacjach. Najczęściej jest to spowodowane zainstalowaniem **Lokalnej bramy danych (tryb osobisty)** na maszynie innej niż ta, na której zainstalowano bramę **Power BI Gateway — Personal**. Może to również być spowodowane problemem w źródle danych i niepowodzeniem połączenia testowego w usłudze Power BI, przekroczeniem czasu lub błędem systemu. Możesz zaktualizować poświadczenia w usłudze **Power BI**. W tym celu wybierz **ikonę koła zębatego**, wybierz kolejno pozycje **Ustawienia** i **Zestawy danych**, a następnie znajdź odpowiedni zestaw danych i kliknij pozycję *Zaktualizuj poświadczenia*.
 * Jak długo poprzednia wersja bramy osobistej będzie pozostawała w trybie offline podczas uaktualnienia?
   
   * **Odpowiedź**: Uaktualnienie bramy osobistej do nowej wersji powinno potrwać tylko kilka minut. 

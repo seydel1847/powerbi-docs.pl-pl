@@ -1,15 +1,15 @@
 ---
-title: "Lokalna brama danych — szczegóły"
-description: "Ten artykuł zawiera szczegółowe omówienie lokalnej bramy danych. Analizuje sposób, w jaki usługa Azure Active Directory działa z lokalną usługą Active Directory podczas pracy z usługą Analysis Services"
+title: Lokalna brama danych — szczegóły
+description: Ten artykuł zawiera szczegółowe omówienie lokalnej bramy danych. Analizuje sposób, w jaki usługa Azure Active Directory działa z lokalną usługą Active Directory podczas pracy z usługą Analysis Services
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,14 +18,14 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 7283ee62838779590bbc01eb8b4348cfc7873dc1
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 5ab3159be71fbefbbe034ce8f39f9df02b48ede3
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>Lokalna brama danych — szczegóły
-Użytkownicy w organizacji mogą uzyskiwać dostęp do danych lokalnych (do których już mają autoryzację dostępu), ale zanim będą mogli połączyć się ze źródłem danych lokalnych, muszą zostać zainstalowane i skonfigurowane wszystkie lokalne bramy danych. Brama ułatwia szybką i bezpieczną komunikację wewnętrzną między użytkownikiem w chmurze a lokalnym źródłem danych, a następnie z powrotem do chmury.
+Użytkownicy w organizacji mogą uzyskiwać dostęp do danych lokalnych (do których już mają autoryzację dostępu), ale zanim będą mogli połączyć się ze źródłem danych lokalnych, musi zostać zainstalowana i skonfigurowana lokalna brama danych. Brama ułatwia szybką i bezpieczną komunikację wewnętrzną między użytkownikiem w chmurze a lokalnym źródłem danych, a następnie z powrotem do chmury.
 
 Instalowanie i konfigurowanie bramy jest zazwyczaj wykonywane przez administratora. Te czynności mogą wymagać specjalnej wiedzy o serwerach lokalnych, a w niektórych przypadkach mogą wymagać uprawnień administratora serwera.
 
@@ -120,7 +120,7 @@ Czasami instalowanie bramy kończy się niepowodzeniem. Ewentualnie wydaje się,
 
 W innych przypadkach mogą występować problemy związane z typem adresu e-mail, przy użyciu którego użytkownicy się logują, lub niezdolnością usługi Analysis Service do rozpoznania obowiązującej nazwy użytkownika. W przypadku wielu domen z relacjami zaufania między nimi, jeśli brama znajduje się w jednej z nich, podczas gdy usługa Analysis Services w innej, może to czasami powodować pewne problemy.
 
-Zamiast przechodzić tutaj do rozwiązywania problemów z bramą, zamieściliśmy szereg kroków rozwiązywania problemów w innym artykule: [Rozwiązywanie problemów z lokalną bramą danych](service-gateway-onprem-tshoot.md). Mamy nadzieję, że napotkasz żadnych problemów. Jeśli jednak się pojawią, zrozumienie, jak to wszystko działa, oraz artykuł dotyczący rozwiązywania problemów powinny być pomocne.
+Zamiast przechodzić w tym miejscu do rozwiązywania problemów z bramą, szereg kroków rozwiązywania problemów zamieściliśmy w innym artykule: [Rozwiązywanie problemów z lokalną bramą danych](service-gateway-onprem-tshoot.md). Mamy nadzieję, że nie napotkasz żadnych problemów. Jeśli jednak się pojawią, zrozumienie, jak to wszystko działa, oraz artykuł dotyczący rozwiązywania problemów powinny być pomocne.
 
 <!-- Account and Port information -->
 [!INCLUDE [gateway-onprem-accounts-ports-more](./includes/gateway-onprem-accounts-ports-more.md)]

@@ -1,28 +1,28 @@
 ---
-title: "Rozwiązywanie problemów z lokalną bramą danych"
-description: "W tym artykule przedstawiono sposoby rozwiązywania problemów z lokalną bramą danych. Udostępniono w nim potencjalne obejścia znanych problemów, jak również narzędzia pomocne użytkownikowi."
+title: Rozwiązywanie problemów z lokalną bramą danych
+description: W tym artykule przedstawiono sposoby rozwiązywania problemów z lokalną bramą danych. Udostępniono w nim potencjalne obejścia znanych problemów, jak również narzędzia pomocne użytkownikowi.
 services: powerbi
-documentationcenter: 
-author: davidiseminger
+documentationcenter: ''
+author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 11/21/2017
-ms.author: davidi
+ms.date: 03/23/2018
+ms.author: maghan
 LocalizationGroup: Gateways
-ms.openlocfilehash: 1651f18194cd47582376b52bb6359db10a330c27
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 9742fd0d48f4a77b5019aa7547fa511404c6f63e
+ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>Rozwiązywanie problemów z lokalną bramą danych
 W tym artykule omówiono niektóre typowe problemy, które można napotkać podczas używania **lokalnej bramy danych**.
@@ -78,12 +78,12 @@ Aby rozwiązać ten problem, wykonaj następujące czynności.
 1. Odinstaluj bramę.
 2. Usuń następujący folder.
    
-        c:\Program Files\on-premises data gateway
+        c:\Program Files\On-premises data gateway
 3. Ponownie zainstaluj bramę.
 4. Opcjonalnie zastosuj klucz odzyskiwania, aby przywrócić istniejącą bramę.
 
 ### <a name="support-for-tls-1112"></a>Obsługa protokołu TLS 1.1/1.2
-Począwszy od aktualizacji z sierpnia 2017 roku, lokalna brama danych domyślnie używa protokołu Transport Layer Security (TLS) 1.1 lub 1.2 w celu komunikowania się z usługą **Power BI**. Poprzednie wersje lokalnej bramy danych domyślnie używają protokołu TLS 1.0. 1 listopada 2017 roku obsługa protokołu TLS 1.0 zostanie zakończona, dlatego do tego czasu należy uaktualnić instalacje lokalnej bramy danych do wersji z sierpnia 2017 roku (lub nowszej), aby zapewnić dalsze działanie bram.
+Począwszy od aktualizacji z sierpnia 2017 roku, lokalna brama danych domyślnie używa protokołu Transport Layer Security (TLS) 1.1 lub 1.2 w celu komunikowania się z usługą **Power BI**. Poprzednie wersje lokalnej bramy danych domyślnie używają protokołu TLS 1.0. 1 listopada 2017 roku obsługa protokołu TLS 1.0 zostanie zakończona, dlatego do tego czasu należy uaktualnić instalacje lokalnej bramy danych do wersji z sierpnia 2017 roku lub nowszej, aby zapewnić dalsze działanie bram.
 
 Warto pamiętać, że do 1 listopada protokół TLS 1.0 będzie w dalszym ciągu obsługiwany przez lokalną bramę danych i używany przez nią jako mechanizm rezerwowy. Aby upewnić się, że cały ruch w bramie używa protokołu TLS 1.1 lub 1.2 (i zapobiec używaniu protokołu TLS 1.0), należy dodać lub zmodyfikować następujące klucze rejestru na maszynie, na której działa usługa bramy:
 
@@ -178,7 +178,7 @@ Dokładne ograniczenie wynosi 10 GB nieskompresowanych danych na tabelę. Jeśli
 ### <a name="report-could-not-access-the-data-source-because-you-do-not-have-access-to-our-data-source-via-an-on-premises-data-gateway"></a>Raport nie mógł uzyskać dostępu do źródła danych, ponieważ nie masz dostępu do źródła danych za pośrednictwem lokalnej bramy danych.
 Ten problem jest zazwyczaj spowodowany jedną z następujących przyczyn.
 
-1. Informacje o źródle danych są niezgodne z zawartością podstawowego zestawu danych. Nazwa serwera i nazwa bazy danych w źródle danych zdefiniowanym dla lokalnej bramy danych muszą być zgodne z wartościami podanymi w programie Power BI Desktop. Jeśli używasz adresu IP w programie Power BI Desktop, wówczas źródło danych dla lokalnej bramy danych również musi używać adresu IP.
+1. Informacje o źródle danych są niezgodne z zawartością podstawowego zestawu danych. Nazwa serwera i nazwa bazy danych w źródle danych zdefiniowanym dla lokalnej bramy danych muszą być zgodne z wartościami podanymi w programie Power BI Desktop. Jeśli używasz adresu IP w programie Power BI Desktop, to źródło danych dla lokalnej bramy danych również musi używać adresu IP.
 2. Dla żadnej bramy w Twojej organizacji nie jest dostępne żadne źródło danych. Źródło danych możesz skonfigurować w nowej lub istniejącej lokalnej bramie danych.
 
 ### <a name="error-data-source-access-error-please-contact-the-gateway-administrator"></a>Błąd: Błąd dostępu do źródła danych. Skontaktuj się z administratorem bramy.
@@ -193,7 +193,7 @@ Aby sprawdzić, czy tak jest, wykonaj poniższą procedurę.
 
 Opcjonalnie możesz sprawdzić, jakie dane usługa Power BI otrzymuje z usługi Azure Active Directory.
 
-1. Przejdź do witryny [https://graphexplorer.cloudapp.net](https://graphexplorer.cloudapp.net).
+1. Przejdź do [https://graphexplorer.cloudapp.net](https://graphexplorer.cloudapp.net).
 2. W prawym górnym roku wybierz pozycję **Sign in** (Zaloguj się).
 3. Uruchom następujące zapytanie. Zostanie wyświetlona dosyć duża odpowiedź JSON.
    
@@ -314,11 +314,13 @@ from [dbo].[V_CustomerOrders] as [$Table])
 GROUP BY [t0].[ProductCategoryName],[t0].[FiscalYear] </pi>"
 ```
 
-### <a name="microsoftpowerbidatamovementpipelinegatewaycoredllconfig"></a>Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config
-W pliku *Microsoft.PowerBI.DataMovement.Pipeline.Diagnostics.dll.config* zmień wartość właściwości `TraceVerbosity` z `4` na `5`. Domyślna lokalizacja tego pliku to *C:\Program Files\On-premises data gateway*. Zmiana tego ustawienia spowoduje rozpoczęcie rejestrowania pełnych wpisów w dzienniku bramy. Dotyczy to także wpisów obejmujących czas trwania.
+### <a name="microsoftpowerbidatamovementpipelinediagnosticsdllconfig"></a>Microsoft.PowerBI.DataMovement.Pipeline.Diagnostics.dll.config
+W pliku *Microsoft.PowerBI.DataMovement.Pipeline.Diagnostics.dll.config* zmień wartość właściwości `TracingVerbosity` z `4` na `5`. Domyślna lokalizacja tego pliku to *C:\Program Files\On-premises data gateway*. Zmiana tego ustawienia spowoduje rozpoczęcie rejestrowania pełnych wpisów w dzienniku bramy. Dotyczy to także wpisów obejmujących czas trwania. Możesz również włączyć pełne wpisy przez włączenie przycisku „Dodatkowe rejestrowanie” w aplikacji lokalnej bramy danych.
+
+   ![dodatkowe rejestrowanie](media/service-gateway-onprem-tshoot/additional-logging.png)
 
 > [!IMPORTANT]
-> Zmiana wartości właściwości TraceVerbosity na `5` może — w zależności od użycia bramy — znacznie zwiększyć rozmiar dziennika. Gdy skończysz przeglądać dzienniki, ustaw właściwość TraceVerbosity na wartość `4`. Nie zaleca się pozostawiania tego ustawienia włączonego przez dłuższy czas.
+> Zmiana wartości właściwości TraceVerbosity na `5` może w zależności od użycia bramy znacznie zwiększyć rozmiar dziennika. Gdy skończysz przeglądać dzienniki, ustaw właściwość TraceVerbosity na wartość `4`. Nie zaleca się pozostawiania tego ustawienia włączonego przez dłuższy czas.
 > 
 > 
 
@@ -352,6 +354,72 @@ Aby ustalić czas, przez jaki zapytanie względem źródła danych było przetwa
    > 
    > 
 
+## <a name="kerberos"></a>Kerberos
+
+Jeśli podstawowy serwer bazy danych i lokalna brama danych nie są skonfigurowane prawidłowo dla [ograniczonego delegowania protokołu Kerberos](service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md), włącz [pełne rejestrowanie](#microsoftpowerbidatamovementpipelinediagnosticsdllconfig) na bramie i jako punkt wyjścia do rozwiązywania problemów zbadaj błędy/ślady w plikach dziennika bramy.
+
+### <a name="impersonationlevel"></a>ImpersonationLevel
+
+Wartość ImpersonationLevel jest powiązana z konfiguracją głównej nazwy usługi (SPN) lub ustawieniem zasad lokalnych.
+
+```
+[DataMovement.PipeLine.GatewayDataAccess] About to impersonate user DOMAIN\User (IsAuthenticated: True, ImpersonationLevel: Identification)
+```
+
+**Rozwiązanie**
+
+Wykonaj poniższe kroki w celu rozwiązania problemu:
+1. Skonfiguruj główną nazwę usługi dla bramy lokalnej
+2. Skonfiguruj ograniczone delegowanie w usłudze Active Directory (AD)
+
+### <a name="failedtoimpersonateuserexception-failed-to-create-windows-identity-for-user-userid"></a>FailedToImpersonateUserException: Nie można utworzyć tożsamości systemu Windows dla użytkownika userid
+
+Zostanie zwrócony wyjątek FailedToImpersonateUserException, jeśli nie możesz dokonać personifikacji w imieniu innego użytkownika. Taka sytuacja może wystąpić również w przypadku próby personifikacji konta z innej domeny niż domena, w której znajduje się usługa bramy (jest to ograniczenie).
+
+**Rozwiązanie**
+* Sprawdź, czy konfiguracja jest prawidłowa, wykonując kroki opisane w sekcji ImpersonationLevel powyżej
+* Sprawdź, czy identyfikator użytkownika, który podejmuje próbę personifikacji, jest prawidłowym kontem usługi AD
+
+### <a name="general-error-1033-error-while-parsing-protocol"></a>Błąd ogólny; błąd 1033 podczas analizowania protokołu
+
+Błąd 1033 występuje w sytuacji, gdy identyfikator zewnętrzny skonfigurowany w rozwiązaniu SAP HANA nie jest zgodny z identyfikatorem logowania, jeśli użytkownik jest personifikowany za pomocą nazwy UPN (alias@domain.com). W dziennikach zobaczysz zapis „Oryginalna nazwa UPN »alias@domain.com« została zastąpiona przez nową nazwę UPN »alias@domain.com« w górnej części dzienników błędów, jak pokazano poniżej.”
+
+```
+[DM.GatewayCore] SingleSignOn Required. Original UPN 'alias@domain.com' replaced with new UPN 'alias@domain.com'.
+```
+
+**Rozwiązanie**
+* Rozwiązanie SAP HANA wymaga od personifikowanego użytkownika używania atrybutu sAMAccountName w usłudze AD (alias użytkownika). Jeśli ta wartość jest niepoprawna, zostanie wyświetlony błąd 1033.
+
+    ![sAMAccount](media/service-gateway-onprem-tshoot/sAMAccount.png)
+
+* W dziennikach powinna zostać wyświetlona nazwa sAMAccountName (alias), a nie nazwa UPN, która jest aliasem, za którym występuje nazwa domeny (alias@doimain.com)
+
+    ![sAMAccount](media/service-gateway-onprem-tshoot/sAMAccount-02.png)
+
+```
+      <setting name="ADUserNameReplacementProperty" serializeAs="String">
+        <value>sAMAccount</value>
+      </setting>
+      <setting name="ADServerPath" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="CustomASDataSource" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="ADUserNameLookupProperty" serializeAs="String">
+        <value>AADEmail</value>
+```
+
+### <a name="sap-aglibodbchdb-dllhdbodbc-communication-link-failure-10709-connection-failed-rte-1-kerberos-error-major-miscellaneous-failure-851968-minor-no-credentials-are-available-in-the-security-package"></a>[SAP AG][LIBODBCHDB DLL][HDBODBC] Błąd łącza komunikacyjnego;-10709 Połączenie nie powiodło się (RTE:[-1] Błąd protokołu Kerberos. Główny: „Inny błąd [851968]”, pomocniczy: „W pakiecie zabezpieczeń nie są dostępne żadne poświadczenia
+
+Jeśli delegowanie nie zostało poprawnie skonfigurowane w usłudze AD, wystąpi błąd -10709 Połączenie nie powiodło się.
+
+**Rozwiązanie**
+* Upewnij się, że na karcie delegowania w usłudze AD dla konta usługi bramy znajduje się serwer SAP Hana
+
+   ![karta delegowanie](media/service-gateway-onprem-tshoot/delegation-in-AD.png)
+
 <!-- Shared Troubleshooting tools Include -->
 [!INCLUDE [gateway-onprem-tshoot-tools-include](./includes/gateway-onprem-tshoot-tools-include.md)]
 
@@ -378,4 +446,3 @@ Aby uzyskać dodatkowe informacje o rozwiązywaniu problemów ze scenariuszami o
 [Zarządzanie źródłem danych — SQL Server](service-gateway-enterprise-manage-sql.md)  
 [Zarządzanie źródłem danych — importowanie/zaplanowane odświeżanie](service-gateway-enterprise-manage-scheduled-refresh.md)  
 Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
-

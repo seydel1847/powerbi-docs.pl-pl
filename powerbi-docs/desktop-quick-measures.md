@@ -1,15 +1,15 @@
 ---
-title: "Łatwe wykonywanie typowych i zaawansowanych obliczeń w usłudze Power BI przy użyciu szybkich miar"
-description: "Szybkie miary zapewniają gotowe do użycia formuły języka DAX, dzięki którym można szybko wykonywać typowe obliczenia"
+title: Łatwe wykonywanie typowych i zaawansowanych obliczeń w usłudze Power BI przy użyciu szybkich miar
+description: Szybkie miary zapewniają gotowe do użycia formuły języka DAX, dzięki którym można szybko wykonywać typowe obliczenia
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 02/05/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: b9cc94593ca6fd98590d69bee3a2fa4cae6d0050
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: a7f877512d5b0f897fb98d2db205d1418d25c71a
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="use-quick-measures-to-easily-perform-common-and-powerful-calculations"></a>Łatwe wykonywanie typowych i zaawansowanych obliczeń przy użyciu szybkich miar
 **Szybkie miary** umożliwiają łatwe i szybkie wykonywania typowych i zaawansowanych obliczeń. **Szybka miara** uruchamia zestaw poleceń języka DAX w tle (nie musisz pisać formuł DAX — są już gotowe) w oparciu o dane wprowadzone w oknie dialogowym, a następnie przedstawia wyniki do użycia w raporcie. Ponadto możesz zobaczyć formuły DAX wykonywane przez Szybką miarę i szybko zrozumieć lub rozszerzyć swoją wiedzę o języku DAX.
@@ -59,14 +59,14 @@ W przypadku wybrania z menu rozwijanego zobaczysz długą listę dostępnych **S
 Istnieje pięć oddzielnych grup typów obliczeń Szybkich miar. Każda grupa zawiera kolekcję obliczeń. Te grupy i obliczenia są następujące:
 
 * **Agreguj na kategorię**
-  * Średnia w kategorii
-  * Wariancja w kategorii
-  * Maksimum w kategorii
-  * Minimum w kategorii
+  * Średnia na kategorię
+  * Wariancja na kategorię
+  * Maksimum na kategorię
+  * Minimum na kategorię
   * Średnia ważona według kategorii
 * **Filtry**
   * Filtrowana wartość
-  * Różnica w porównaniu z linią bazową
+  * Różnica od odfiltrowanej wartości
   * Różnica procentowa od odfiltrowanej wartości
   * Sprzedaż dla nowych kategorii
 * **Analiza czasu**
@@ -92,7 +92,7 @@ Istnieje pięć oddzielnych grup typów obliczeń Szybkich miar. Każda grupa za
   * Ocena w gwiazdkach
   * Powiązana lista wartości
 
-Zamierzamy rozbudować te obliczenia i czekamy na opinie użytkowników dotyczące **Szybkich miar**, które chcieliby zobaczyć, oraz wszelkie pomysły (w tym dotyczące źródłowych formuł DAX) związane z **Szybkimi miarami**, które chcieliby przesłać. Więcej informacji znajdziesz pod koniec tego artykułu.
+Zamierzamy rozbudować te obliczenia — czekamy na opinie użytkowników dotyczące **Szybkich miar**, które chcieliby zobaczyć, oraz wszelkie pomysły (w tym dotyczące źródłowych formuł DAX) związane z **Szybkimi miarami**, które chcieliby przesłać. Więcej informacji znajdziesz pod koniec tego artykułu.
 
 ## <a name="example-of-quick-measures"></a>Przykłady Szybkich miar
 Przyjrzyjmy się przykładowi **Szybkich miar** w akcji.
@@ -101,7 +101,7 @@ Następująca wizualizacja **Macierz** przedstawia tabelę sprzedaży różnych 
 
 ![](media/desktop-quick-measures/quick-measures_05.png)
 
-Po kliknięciu prawym przyciskiem myszy pola **Wartości** i wybraniu opcji **Szybkie miary** możemy wybrać opcję *Średnia w kategorii* jako *Obliczenie*, a następnie wybrać *Suma SalesAmount* w pozycji *Wartość podstawowa* i określić pole *SalesAmount* poprzez przeciągnięcie tego pola z pozycji *Pola* w okienku po prawej stronie do sekcji *Kategoria* po lewej stronie.
+Po kliknięciu prawym przyciskiem myszy pola **Wartości** i wybraniu opcji **Szybkie miary** możemy wybrać opcję *Średnia na kategorię* jako *Obliczenie*, a następnie wybrać *Suma SalesAmount* w pozycji *Wartość podstawowa* i określić pole *SalesAmount* przez przeciągnięcie tego pola z pozycji *Pola* w okienku po prawej stronie do sekcji *Kategoria* po lewej stronie.
 
 ![](media/desktop-quick-measures/quick-measures_06.png)
 
@@ -130,7 +130,7 @@ Kolejną wspaniałą korzyścią stosowania **Szybkich miar** jest możliwość 
 
 Samo przedstawienie formuły stanowiącej podstawę miary jest miłe. Ale co ważniejsze, umożliwia to użycie **Szybkich miar** do sprawdzenia, jak należy tworzyć źródłowe formuły DAX.
 
-Wyobraźmy sobie sytuację, w której należy wykonać obliczenie z porównaniem między latami, ale nie masz pewności co do struktury formuły DAX (lub nie masz pojęcia, jak zacząć). Zamiast walić głową w biurko, możesz utworzyć **Szybką miarę** przy użyciu obliczenia **Zmiana między latami** i zobaczyć co się stanie. Utwórz **Szybką miarę** i zobacz, jak pojawia się w wizualizacji, sprawdź jak zadziałała formuła DAX, a następnie wprowadź zmiany bezpośrednio w języku DAX lub utwórz kolejną miarę, aż obliczenia będą spełniać potrzeby lub oczekiwania.
+Wyobraźmy sobie sytuację, w której należy wykonać obliczenie z porównaniem między latami, ale nie masz pewności co do struktury formuły DAX (lub nie masz pojęcia, jak zacząć). Zamiast walić głową w biurko, możesz utworzyć **Szybką miarę** przy użyciu obliczenia **Zmiana między latami** i zobaczyć co się stanie. Utwórz **Szybką miarę** i zobacz, jak pojawia się w wizualizacji, sprawdź, jak zadziałała formuła DAX, a następnie wprowadź zmiany bezpośrednio w języku DAX lub utwórz kolejną miarę, aż obliczenia będą spełniać potrzeby lub oczekiwania.
 
 Jest to swego rodzaju szybki nauczyciel, który natychmiast reaguje na Twoje pytania „Co się stanie, jeśli?” po kilku kliknięciach. Zawsze możesz usunąć te miary z modelu, jeśli nie będą spełniać Twoich oczekiwań — wystarczy kliknąć miarę prawym przyciskiem myszy i wybrać opcję **Usuń**.
 

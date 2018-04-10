@@ -1,27 +1,27 @@
 ---
-title: "Publikowanie wizualizacji niestandardowych w usłudze AppSource"
-description: "Dowiedz się, jak publikować swoje wizualizacje niestandardowe w usłudze AppSource do użytku przez inne osoby."
+title: Publikowanie wizualizacji niestandardowych w usłudze AppSource
+description: Dowiedz się, jak publikować swoje wizualizacje niestandardowe w usłudze AppSource do użytku przez inne osoby.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/5/2017
+ms.date: 04/02/2018
 ms.author: maghan
-ms.openlocfilehash: 5dc5cda126943bbb6da25e384b789c169187b249
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 9730f92a7f50e2e0d0ad824f8a5f74f6a09ded97
+ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/04/2018
 ---
 # <a name="publish-custom-visuals-to-appsource"></a>Publikowanie wizualizacji niestandardowych w usłudze AppSource
 Dowiedz się, jak publikować swoje wizualizacje niestandardowe w usłudze AppSource do użytku przez inne osoby. pakiet office
@@ -39,16 +39,20 @@ Po zakończeniu kodowania i testowania wizualizacji niestandardowej oraz spakowa
 | --- | --- | --- |
 | Pakiet pbiviz zawiera wszystkie wymagane metadane |Tak |Nazwa wizualizacji<br>Nazwa wyświetlana<br>GUID<br>Wersja<br>Opis<br>Nazwisko i adres e-mail autora |
 | Przykładowy plik raportu pbix |Tak |Aby przedstawić swoją wizualizację, należy pomóc użytkownikom w zapoznaniu się z nią. Należy podkreślić wartość zapewnianą użytkownikowi przez wizualizację oraz podać przykłady zastosowania, opcji formatowania itp. Na końcu można także dodać stronę *z poradami* zawierającą porady i wskazówki, listę kwestii, których należy unikać itp.<br>Przykładowy plik raportu pbix musi działać w trybie offline, bez żadnego połączenia zewnętrznego |
-| Ikona |Tak |Należy dołączyć logo wizualizacji niestandardowej, które będzie wyświetlane w sklepie. Plik może mieć format png, jpg, jpeg lub gif. Musi mieć rozmiar dokładnie 300 pikseli (szerokość) x 300 pikseli (wysokość). Rozmiar pliku nie może przekraczać 512 KB. |
+| Ikona |Tak |Należy dołączyć logo wizualizacji niestandardowej, które będzie wyświetlane w sklepie. Plik może mieć format png, jpg, jpeg lub gif. Musi mieć rozmiar dokładnie 300 pikseli (szerokość) x 300 pikseli (wysokość). **Ważne!** Przed przesłaniem ikony zapoznaj się dokładnie z [krótkim przewodnikiem](https://docs.microsoft.com/en-us/office/dev/store/craft-effective-appsource-store-images). |
 | Zrzuty ekranu |Tak |Należy dołączyć co najmniej jeden zrzut ekranu. Plik może mieć format png, jpg, jpeg lub gif. Musi mieć rozmiar dokładnie 1366 pikseli (szerokość) x 768 pikseli (wysokość). Rozmiar pliku nie może przekraczać 1024 KB. *W celu zwiększenia popularności warto dodać etykiety podkreślające przydatność kluczowych funkcji przedstawionych na każdym zrzucie ekranu.* |
 | Link do pomocy w pobieraniu |Tak |Podaj adres URL, pod którym użytkownicy napotykający problemy z wizualizacją mogą uzyskać wsparcie. Adres URL powinien zawierać element https:// lub http://. |
 | Link do dokumentu dotyczącego prywatności |Tak |Podaj link do zasad ochrony prywatności klientów korzystających z wizualizacji. Link powinien zawierać element https:// lub http://. |
-| Umowa licencyjna użytkownika oprogramowania (EULA) |Tak |Należy przekazać plik EULA. Może to być Twoja własna umowa EULA lub domyślna umowa EULA stosowana w Sklepie Office dla wizualizacji niestandardowych usługi Power BI. Aby użyć domyślnej umowy EULA, wklej następujący adres URL do okna dialogowego przekazywania pliku „Umowa licencyjna użytkownika oprogramowania” na pulpicie nawigacyjnym sprzedawcy: [https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf). |
+| Umowa licencyjna użytkownika oprogramowania (EULA) |Tak |Należy przekazać plik EULA. Może to być Twoja własna umowa EULA lub domyślna umowa EULA stosowana w Sklepie Office dla wizualizacji niestandardowych usługi Power BI. Aby skorzystać z domyślnej umowy EULA, do okna dialogowego przekazywania pliku „Umowa licencyjna użytkownika oprogramowania” na pulpicie nawigacyjnym sprzedawcy wklej następujący adres URL: [https://visuals.azureedge.net/app-store/PowerBI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf). |
 | Link do filmu |Nie |Aby zwiększyć zainteresowanie użytkowników wizualizacją niestandardową, zaleca się podanie linku do filmu dotyczącego wizualizacji. Adres URL powinien zawierać element https:// lub http://. |
 | Repozytorium GitHub |Nie |Zaleca się podanie poprawnego, publicznego linku do repozytorium [GitHub](https://www.github.com) zawierającego źródła wizualizacji oraz przykładowe dane umożliwiające innym deweloperom przesyłanie opinii i sugerowanie usprawnień kodu. |
 
 ## <a name="submitting-to-power-bi"></a>Przesyłanie do usługi Power BI
 Proces przesyłania zaczyna się od przesłania wiadomości e-mail do zespołu ds. wizualizacji niestandardowych usługi Power BI. Możesz wysłać wiadomość na adres [pbivizsubmit@microsoft.com](mailto:pbivizsubmit@microsoft.com).
+
+> [!IMPORTANT]
+> Przed utworzeniem pakietu .pbiviz należy w pliku pbiviz.json wypełnić następujące pola: „description” (opis), „supportUrl” (adres URL pomocy technicznej), „author” (autor), „name” (nazwa) i „email” (e-mail).
+> 
 
 Do wiadomości dołącz plik pbiviz oraz przykładowy raport w pliku pbix. Zespół usługi Power BI odpowie, przesyłając instrukcje oraz plik XML pakietu aplikacji do przesłania. Ten pakiet aplikacji XML jest wymagany w celu przesłania wizualizacji za pośrednictwem centrum deweloperów Office.
 
@@ -100,7 +104,7 @@ Wykonaj poniższe działania, aby ukończyć proces przesyłania.
    * Link do filmu
    * Umowa licencyjna użytkownika oprogramowania (EULA)
      
-       Należy przekazać plik EULA. Może to być Twoja własna umowa EULA lub domyślna umowa EULA stosowana w Sklepie Office dla wizualizacji niestandardowych usługi Power BI. Aby użyć domyślnej umowy EULA, wklej następujący adres URL do okna dialogowego przekazywania pliku „Umowa licencyjna użytkownika oprogramowania” na pulpicie nawigacyjnym sprzedawcy: [https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf).
+       Należy przekazać plik EULA. Może to być Twoja własna umowa EULA lub domyślna umowa EULA stosowana w Sklepie Office dla wizualizacji niestandardowych usługi Power BI. Aby skorzystać z domyślnej umowy EULA, do okna dialogowego przekazywania pliku „Umowa licencyjna użytkownika oprogramowania” na pulpicie nawigacyjnym sprzedawcy wklej następujący adres URL: [https://visuals.azureedge.net/app-store/PowerBI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf).
 8. Kliknij przycisk **Dalej**, aby przejść do strony **Szczegóły**.
 9. Wybierz opcję **Język** i wybierz język z listy.
    

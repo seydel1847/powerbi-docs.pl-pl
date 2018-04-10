@@ -1,15 +1,15 @@
 ---
-title: "Zarządzanie źródłami danych — Analysis Services"
-description: "Jak zarządzać lokalną bramą danych i źródłami danych należącymi do tej bramy. Artykuł dotyczy usług Analysis Services zarówno w trybie wielowymiarowym, jak i tabelarycznym."
+title: Zarządzanie źródłami danych — Analysis Services
+description: Jak zarządzać lokalną bramą danych i źródłami danych należącymi do tej bramy. Artykuł dotyczy usług Analysis Services zarówno w trybie wielowymiarowym, jak i tabelarycznym.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 6ce9a6d962098b3f40c351d0319c4b7908f4e4f7
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 59fc3db101de246aaf4ab08c7916b25497b74fd2
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="manage-your-data-source---analysis-services"></a>Zarządzanie źródłami danych — Analysis Services
 Po zainstalowaniu lokalnej bramy danych musisz dodać źródła danych, które mogą być używane z tą bramą. W tym artykule opisano sposób pracy z bramami i źródłami danych. Do zaplanowanego odświeżania lub połączeń na żywo możesz użyć źródła danych usług Analysis Services.
@@ -76,7 +76,7 @@ Następnie możesz podać informacje dla źródła danych, które obejmują **se
 Wprowadzone wartości **Nazwa użytkownika** i **Hasło** zostaną użyte przez bramę do nawiązania połączenia z wystąpieniem usług Analysis Services.
 
 > [!NOTE]
-> Wprowadzone konto systemu Windows musi mieć uprawnienia administratora serwera dla wystąpienia, z którym jest nawiązywane połączenie. Jeśli hasło tego konta ma ustawioną datę ważności, użytkownicy mogą otrzymać błąd połączenia, jeśli hasło nie zostało zaktualizowane dla źródła danych. Aby uzyskać więcej informacji, zobacz artykuł na temat głównej lokalnej bramy danych, gdzie możesz dowiedzieć się więcej na temat przechowywania [poświadczeń](service-gateway-onprem.md#credentials).
+> Wprowadzone konto systemu Windows musi mieć uprawnienia administratora serwera dla wystąpienia, z którym jest nawiązywane połączenie. Jeśli hasło tego konta ma ustawioną datę ważności, użytkownicy mogą otrzymać błąd połączenia, jeśli hasło nie zostało zaktualizowane dla źródła danych. Aby uzyskać dodatkowe informacje, zobacz główny artykuł na temat lokalnej bramy danych, z którego możesz dowiedzieć się więcej na temat przechowywania [poświadczeń](service-gateway-onprem.md#credentials).
 > 
 > 
 
@@ -144,11 +144,11 @@ W **usłudze Power BI** wystąpią następujące zdarzenia:
 - Dla każdego zapytania użytkownika usługi Power BI usługi AAD do lokalnego serwera usługi SSAS jest przekazywany ciąg nazwy UPN, taki jak: firstName.lastName@contoso.com
 
 > [!NOTE]
-> Wszelkie ręczne mapowania nazwy UPN użytkownika zdefiniowane w konfiguracji źródła danych usługi Power BI nadal są stosowane *przed* wysłaniem ciągu nazwy użytkownika do lokalnej bramy danych.
+> Wszelkie ręczne mapowania użytkownika nazwy UPN zdefiniowane w konfiguracji źródła danych usługi Power BI nadal są stosowane *przed* wysłaniem ciągu nazwy użytkownika do lokalnej bramy danych.
 > 
 > 
 
-W lokalnej bramie danych z mapowaniem niestandardowego użytkownika z możliwością konfiguracji wykonaj następujące czynności:
+W lokalnej bramie danych z mapowaniem użytkownika niestandardowego z możliwością konfiguracji wykonaj następujące czynności:
 
 1. Znajdowanie usługi Active Directory do wyszukiwania (automatycznego lub z możliwością konfiguracji)
 2. Wyszukaj atrybut osoby usługi AD (taki jak *Adres e-mail*) na podstawie przychodzącego ciągu nazwy UPN („firstName.lastName@contoso.com”) z **usługi Power BI**.
@@ -166,7 +166,7 @@ Jak skonfigurować bramę do przeprowadzania wyszukiwania w usłudze AD:
 4. Zmodyfikuj następujące dwie wartości konfiguracji zgodnie z *Twoimi* konfiguracjami atrybutów usługi Active Directory Twoich użytkowników usługi AD. Przedstawione poniżej wartości konfiguracji są tylko przykładowe — musisz je określić na podstawie własnej konfiguracji usługi Active Directory. 
    
    ![](media/service-gateway-enterprise-manage-ssas/gateway-enterprise-map-user-names_03.png)
-5. Uruchom ponownie **lokalną bramę danych** usługi, aby zmiany konfiguracji zostały wprowadzone.
+5. Uruchom ponownie usługę **lokalnej bramy danych**, aby zmiany konfiguracji zostały wprowadzone.
 
 ### <a name="working-with-mapping-rules"></a>Praca z regułami mapowania
 Aby utworzyć regułę mapowania, wprowadź wartość dla pozycji **Oryginalna nazwa** i **Nowa nazwa**, a następnie wybierz pozycję **Dodaj**.
@@ -224,7 +224,7 @@ Na karcie Użytkownicy dla źródła danych można dodawać i usuwać użytkowni
 Po utworzeniu źródło danych będzie dostępne do użycia z połączeniami na żywo lub za pośrednictwem zaplanowanego odświeżania.
 
 > [!NOTE]
-> Nazwy serwera i bazy danych muszą być takie same w programie Power BI Desktop i źródle danych w ramach lokalnej bramy danych.
+> W ramach lokalnej bramy danych nazwy serwera i bazy danych w programie Power BI Desktop oraz źródle danych muszą być takie same!
 > 
 > 
 
@@ -246,5 +246,5 @@ Jeśli znajdujesz się na liście na karcie **Użytkownicy** źródła danych sk
 [Lokalna brama danych](service-gateway-onprem.md)  
 [Lokalna brama danych — szczegóły](service-gateway-onprem-indepth.md)  
 [Rozwiązywanie problemów z lokalną bramą danych](service-gateway-onprem-tshoot.md)  
-Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
+Więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
 

@@ -1,15 +1,15 @@
 ---
-title: "Kształtowanie i łączenie danych w programie Power BI Desktop"
-description: "Kształtowanie i łączenie danych w programie Power BI Desktop"
+title: Kształtowanie i łączenie danych w programie Power BI Desktop
+description: Kształtowanie i łączenie danych w programie Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,16 +18,16 @@ ms.workload: powerbi
 ms.date: 01/30/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: c8f2419ae2898a59907763392eb86b4877b4fd75
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 0bb2f8a8d9299d525085a8ba7d2ecabdcd9e6c78
+ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/04/2018
 ---
 # <a name="shape-and-combine-data-in-power-bi-desktop"></a>Kształtowanie i łączenie danych w programie Power BI Desktop
 Program **Power BI Desktop** umożliwia nawiązywanie połączeń z wieloma typami źródeł danych, a następnie kształtowanie tych danych w celu spełnienia konkretnych potrzeb. *Kształtowanie* danych oznacza przekształcanie danych, np. zmienianie nazw kolumn lub tabel, zmienianie tekstu na liczby, usuwanie wierszy, ustawianie pierwszego wiersza jako nagłówków i tak dalej. *Łączenie* danych oznacza nawiązywanie połączenia z co najmniej dwoma źródłami danych, kształtowanie danych zgodnie z potrzebami, a następnie konsolidowanie ich do postaci jednego użytecznego zapytania.
 
-W niniejszym dokumencie omówiono sposób kształtowania zapytania za pomocą programu Power BI Desktop i wyróżniono niektóre najczęściej wykonywane czynności. Zapytanie użyte tutaj zostało opisane bardziej szczegółowo, z uwzględnieniem sposobu tworzenia zapytania od początku, w artykule [Wprowadzenie do programu Power BI Desktop](desktop-getting-started.md).
+W tym artykule omówiono sposób kształtowania zapytania za pomocą programu Power BI Desktop i wyróżniono niektóre najczęściej wykonywane czynności. Zapytanie użyte tutaj zostało opisane bardziej szczegółowo, z uwzględnieniem sposobu tworzenia zapytania od początku, w artykule [Wprowadzenie do programu Power BI Desktop](desktop-getting-started.md).
 
 Warto pamiętać, że w **Edytorze zapytań** programu Power BI Desktop bardzo często używane są menu dostępne po kliknięciu prawym przyciskiem myszy oraz wstążka. Większość opcji, które można wybrać we wstążce **Przekształć**, jest również dostępna po kliknięciu prawym przyciskiem myszy elementu (takiego jak kolumna) i wybraniu z menu, które zostanie wyświetlone.
 
@@ -38,76 +38,98 @@ Określone kroki (takie jak zmiana nazwy tabeli, przekształcenie typu danych lu
 
 Poniższy obraz przedstawia okienko **Ustawienia zapytania** dla zapytania, które zostało ukształtowane — w kilku następnych akapitach przyjrzymy się każdemu z tych kroków.
 
-![](media/desktop-shape-and-combine-data/shapecombine_querysettingsfinished.png)
+![](media/desktop-shape-and-combine-data/shapecombine_querysettingsfinished2.png)
 
-Użyjemy danych dotyczących przechodzenia na emeryturę z artykułu [Wprowadzenie do programu Power BI Desktop](https://powerbi.uservoice.com/knowledgebase/articles/471664), które uzyskaliśmy przez nawiązanie połączenia z internetowym źródłem danych, i ukształtujemy je zgodnie z naszymi potrzebami.
+Użyjemy danych dotyczących przechodzenia na emeryturę z artykułu [Wprowadzenie do programu Power BI Desktop](desktop-getting-started.md), które uzyskaliśmy przez nawiązanie połączenia z internetowym źródłem danych, i ukształtujemy je zgodnie z naszymi potrzebami.
 
-Na początku okazuje się, że wyniki z jednej kolumny nie zostały automatycznie przekształcone z formatu tekstowego na liczbowy, gdy Edytor zapytań ładował tabelę, a my potrzebujemy ich w formacie liczbowym. Żaden problem — po prostu kliknij nagłówek kolumny prawym przyciskiem myszy i wybierz pozycje **Zmień typ \> Liczba całkowita** w celu ich zmiany. Aby zaznaczyć więcej niż jedną kolumnę, zaznacz kolumnę, naciśnij i przytrzymaj klawisz **SHIFT**, wybierz kolejne przyległe kolumny, a następnie kliknij prawym przyciskiem myszy nagłówek kolumny w celu zmienienia wszystkich zaznaczonych kolumn. Możesz także użyć klawisza **CTRL**, aby wybrać kolumny niesąsiadujące.
+Na początek dodajmy kolumnę niestandardową, aby wyliczyć rangi w oparciu o wszystkie dane traktowane jako równoważne czynniki i porównać ich wartości z istniejącą kolumną _Ranga_.  W tym miejscu znajduje się wstążka **Dodaj kolumnę** ze strzałką wskazującą na przycisk **Kolumna niestandardowa**, który pozwala dodać kolumnę niestandardową.
 
-![](media/desktop-shape-and-combine-data/shapecombine_changetype.png)
+![](media/desktop-shape-and-combine-data/shapecombine_customcolumn.png)
 
-Ponadto możesz *przekształcić* te kolumny z tekstu na nagłówek, korzystając ze wstążki **Przekształć**. Oto wstążka **Przekształć** i strzałka wskazująca przycisk **Typ danych**, który umożliwia przekształcenie bieżącego typu danych na inny.
+W oknie dialogowym **Kolumna niestandardowa** w polu **Nazwa nowej kolumny** wprowadź wartość _Nowa ranga_, a w polu **Formuła kolumny niestandardowej** wprowadź następującą wartość:
+
+    ([Cost of living] + [Weather] + [Health care quality] + [Crime] + [Tax] + [Culture] + [Senior] + [#"Well-being"]) / 8
+
+Upewnij się, że komunikat o stanie ma treść: _„Nie wykryto błędów składniowych.”_ i kliknij przycisk **OK**.
+
+![](media/desktop-shape-and-combine-data/shapecombine_customcolumndialog.png)
+
+Aby dane pozostały spójne, dokonajmy przekształcania wartości w nowej kolumnie na liczby całkowite. W celu ich zmiany wystarczy kliknąć nagłówek kolumny prawym przyciskiem myszy i wybrać pozycję **Zmień typ \> Liczba całkowita**. 
+
+Jeśli chcesz zaznaczyć więcej niż jedną kolumnę, najpierw zaznacz jedną z nich, naciśnij i przytrzymaj klawisz **SHIFT**, wybierz dodatkowe przyległe kolumny, a następnie kliknij prawym przyciskiem myszy nagłówek kolumny w celu dokonania zmiany wszystkich zaznaczonych kolumn. Możesz także użyć klawisza **CTRL**, aby wybrać kolumny niesąsiadujące.
+
+![](media/desktop-shape-and-combine-data/shapecombine_changetype2.png)
+
+Możesz również *przekształcić* typy danych w kolumnach z poziomu wstążki **Przekształć**. Oto wstążka **Przekształć** i strzałka wskazująca przycisk **Typ danych**, który umożliwia przekształcenie bieżącego typu danych na inny.
 
 ![](media/desktop-shape-and-combine-data/queryoverview_transformribbonarrow.png)
 
-Zwróć uwagę na to, że w obszarze **Ustawienia zapytania** pole **Zastosowane kroki** odzwierciedla wszelkie kroki kształtowania wykonane względem danych. Aby usunąć dowolny krok z procesu kształtowania, po prostu wybierz symbol **X** po lewej stronie kroku. Na poniższej ilustracji pole **Zastosowane kroki** odzwierciedla dotychczasowe kroki: nawiązanie połączenia z witryną internetową (**Źródło**), wybranie tabeli (**Nawigacja**) oraz automatyczną zmianę tekstowych kolumn z liczbami z typu *Tekst* na *Liczba całkowita* (**Zmieniono typ**) wykonaną przez Edytor zapytań podczas ładowania tabeli. Jedna kolumna z klasyfikacją nie została automatycznie zmieniona na typ liczbowy i w kilku następnych akapitach dowiemy się, dlaczego tak się stało.
+Zwróć uwagę na to, że w obszarze **Ustawienia zapytania** pole **Zastosowane kroki** odzwierciedla wszelkie kroki kształtowania wykonane względem danych. Aby usunąć dowolny krok z procesu kształtowania, po prostu wybierz symbol **X** po lewej stronie kroku. Na poniższej ilustracji pole **Zastosowane kroki** odzwierciedla dotychczasowe kroki: nawiązanie połączenia z witryną internetową (**Źródło**), wybranie tabeli (**Nawigacja**) oraz automatyczną zmianę tekstowych kolumn z liczbami z typu *Tekst* na *Liczba całkowita* (**Zmieniono typ**) wykonaną przez Edytor zapytań podczas ładowania tabeli. Ostatnie dwa kroki pokazują nasze poprzednie działania z operacjami **Dodano kolumnę niestandardową** i **Zmieniono typ1**. 
 
-![](media/desktop-shape-and-combine-data/shapecombine_appliedstepsearly.png)
+![](media/desktop-shape-and-combine-data/shapecombine_appliedstepsearly2.png)
 
 Zanim zaczniemy pracę z tym zapytaniem, musimy wprowadzić kilka zmian, aby dostosować jego dane do naszych potrzeb:
 
-* *Usuniemy pierwszą kolumnę* — nie potrzebujemy jej. Zawiera tylko zbędne wiersze z tekstem „Check out how your state ranks for retirement”, co jest pozostałością po tym, że to źródło danych jest tabelą internetową.
-* *Wyeliminujemy kilka błędów* — jedna z kolumn, **Health care quality**, zawiera kilka takich samych ocen w klasyfikacji stanów, co na stronie internetowej zostało oznaczone przez umieszczenie tekstu *(tie)* po ocenach liczbowych. Takie rozwiązanie dobrze sprawdza się na stronie internetowej, ale powoduje konieczność ręcznego przekształcenia zawartości tej kolumny z formatu tekstowego na dane. Łatwo jest to naprawić w programie Power BI Desktop, a dokonując tej naprawy jednocześnie demonstrujemy ciekawą funkcję obszaru **Zastosowane kroki** w zapytaniu.
-* *Zmienimy nazwę tabeli* — **Table 0** nie jest przydatną nazwą, ale jej zmiana jest prosta.
+* *Dostosujemy klasyfikację przez usunięcie kolumny* — postanowiliśmy, że kolumna **Koszty utrzymania** nie będzie współczynnikiem naszych wyników. Po usunięciu tej kolumny natrafiamy na problem: dane pozostają niezmienione. Problem ten jednak łatwo rozwiązać przy użyciu programu Power BI Desktop, co przy okazji demonstruje działanie świetnej funkcji **Zastosowane kroki** w zapytaniu.
+* *Usuniemy kilka błędów* — ponieważ usunęliśmy kolumnę, musimy ponownie dopasować nasze obliczenia w kolumnie **Nowa ranga**. Obejmuje to zmianę formuły.
+* *Posortujemy dane* — na podstawie kolumn **Nowa ranga** i **Ranga**. 
+* *Zastąpimy dane* — wskażemy sposób zastąpienia określonej wartości oraz potrzebę wstawienia **zastosowanego kroku**.
+* *Zmienimy nazwę tabeli* — nazwa **Tabela 0** nie stanowi przydatnego opisu, ale można ją łatwo zmienić.
 
-Aby usunąć pierwszą kolumnę, po prostu ją wybierz, a następnie na wstążce wybierz kartę **Narzędzia główne** i polecenie **Usuń kolumny** w sposób przedstawiony na poniższej ilustracji.
+Aby usunąć kolumnę **Koszty utrzymania**, po prostu zaznacz kolumnę i wybierz kartę **Narzędzia główne** na wstążce, a następnie wybierz opcję **Usuń kolumny**, jak pokazano na poniższej ilustracji.
 
-![](media/desktop-shape-and-combine-data/shapecombine_removecolumnsretirement.png)
+![](media/desktop-shape-and-combine-data/shapecombine_removecolumnscostofliving.png)
 
-Następnie musimy zająć się kolumną tekstową i przekształcić jej zawartość na liczby. Na początku wydaje się, że wystarczy zmienić typ kolumny **Health care quality** z tekstowego na liczbowy (taki jak *Liczba całkowita* lub *Liczba dziesiętna*). Jednak gdy zmienimy typ z **Tekst** na **Liczba całkowita**, a następnie przejrzymy wartości w tej kolumnie, okazuje się, że Edytor zapytań zgłasza kilka błędów.
+Zwróć uwagę, że wartości w kolumnie _Nowa ranga_ nie zostały zmienione; jest to spowodowane kolejnością kroków. Edytor zapytań rejestruje kroki sekwencyjnie, ale każdy z nich jest niezależny od pozostałych, dlatego każdy **zastosowany krok** można przenieść w górę lub w dół sekwencji. Po prostu kliknij prawym przyciskiem myszy dowolny krok, a Edytor zapytań udostępni menu, w którym można wybrać następujące polecenia: **Zmień nazwę**, **Usuń**, **Usuwaj** **do końca** (usuwa bieżący krok i wszystkie kroki następujące po nim), **Przenieś w górę** oraz **Przenieś w dół**. Przejdź dalej i przenieś w górę ostatni krok _Usunięto kolumny_ bezpośrednio powyżej kroku _Dodano kolumnę niestandardową_.
 
-![](media/desktop-shape-and-combine-data/shapecombine_error.png)
+![](media/desktop-shape-and-combine-data/shapecombine_movestep.png)
+
+Następnie wybierz krok _Dodano kolumnę niestandardową_. Zwróć uwagę, że w danych widoczny jest teraz _Błąd_, którym musimy się zająć. 
+
+![](media/desktop-shape-and-combine-data/shapecombine_error2.png)
 
 Istnieje kilka sposobów na uzyskanie dodatkowych informacji o każdym błędzie. Możesz kliknąć komórkę (nie klikając słowa **Błąd**) albo kliknąć bezpośrednio słowo **Błąd**. Gdy wybierzesz komórkę *bez* klikania słowa **Błąd**, Edytor zapytań wyświetli informacje o błędzie u dołu okna.
 
-![](media/desktop-shape-and-combine-data/shapecombine_errorinfo.png)
+![](media/desktop-shape-and-combine-data/shapecombine_errorinfo2.png)
 
-Jeśli klikniesz słowo *Błąd* bezpośrednio, zapytanie utworzy **zastosowany krok** w okienku **Ustawienia zapytania** i wyświetli informacje o błędzie.
+Jeśli klikniesz słowo *Błąd* bezpośrednio, zapytanie utworzy **zastosowany krok** w okienku **Ustawienia zapytania** i wyświetli informacje o błędzie. Nie chcemy iść tą ścieżką, dlatego wybierz opcję **Anuluj**.
 
-![](media/desktop-shape-and-combine-data/shapecombine_errorselect.png)
+Aby naprawić błędy, wybierz kolumnę _Nowa ranga_, a następnie wyświetl formułę danych z kolumny, otwierając wstążkę **Widok** i wybierając pole wyboru **Pasek formuły**. 
 
-Aby wrócić do Edytora zapytań, musisz usunąć ten krok, wybierając symbol **X** obok niego.
+![](media/desktop-shape-and-combine-data/shapecombine_formulabar.png)
 
-Gdy wybierzesz ostatni **zastosowany krok**, zobaczysz opisany przed chwilą błąd — w sposób przedstawiony na poniższej ilustracji.
+Teraz możesz usunąć parametr _Koszty utrzymania_ i zmniejszyć o 1 wartość dzielnika, zmieniając formułę na następującą: 
 
-![](media/desktop-shape-and-combine-data/shapecombine_querystep1.png)
+    Table.AddColumn(#"Removed Columns", "New Rank", each ([Weather] + [Health care quality] + [Crime] + [Tax] + [Culture] + [Senior] + [#"Well-being"]) / 7)
 
-Edytor zapytań rejestruje kroki sekwencyjnie, dlatego w okienku **Zastosowane kroki** możemy wybrać krok poprzedzający zmianę typu i sprawdzić wartość tej komórki przed przekształceniem, co przedstawia poniższa ilustracja.
+Zaznacz zielony znacznik wyboru po lewej stronie pola formuły lub naciśnij klawisz **Enter**. Dane powinny zostać zastąpione przez poprawione wartości, a krok **Dodaj kolumnę niestandardową** powinien teraz zostać wykonany *bez błędów*.
 
-![](media/desktop-shape-and-combine-data/shapecombine_querystep2.png)
+> [!NOTE]
+> Alternatywnie możesz użyć opcji **Usuń błędy** (ze wstążki lub menu wywoływanego prawym przyciskiem myszy), co spowoduje usunięcie wszystkich wierszy z błędami. W tym przypadku to polecenie spowodowałoby usunięcie wszystkich wierszy z naszych danych, ale my tego nie chcemy — chcemy je zachować w tabeli.
 
-Teraz możemy naprawić te wartości, a *następnie* zmienić typ. Edytor zapytań rejestruje kroki sekwencyjnie, ale każdy z nich jest niezależny od pozostałych, dlatego każdy **zastosowany krok** można przenieść w górę lub w dół sekwencji. Po prostu kliknij prawym przyciskiem myszy dowolny krok, a Edytor zapytań udostępni menu, w którym można wybrać następujące polecenia: **Zmień nazwę**, **Usuń**, **Usuwaj** **do końca** (usuwa bieżący krok i wszystkie kroki następujące po nim), **Przenieś w górę** oraz **Przenieś w dół**.
+Teraz musimy posortować dane na podstawie kolumny **Nowa ranga**. Najpierw wybierz ostatni zastosowany krok, **Zmieniono typ1**, aby uzyskać dostęp do najnowszych danych. Następnie wybierz listę rozwijaną znajdującą się obok nagłówka kolumny **Nowa ranga** i wskaż pozycję **Sortuj rosnąco**.
 
-![](media/desktop-shape-and-combine-data/shapecombine_querystepreorder.png)
+![](media/desktop-shape-and-combine-data/shapecombine_sort.png)
+
+Zauważ, że dane są teraz posortowane według wartości pola **Nowa ranga**.  Jednak jeśli spojrzysz na kolumnę **Ranga**, zauważysz, że dane nie są prawidłowo posortowane w przypadkach, gdy wartości w polu **Nowa ranga** są równe. Aby rozwiązać ten problem, zaznacz kolumnę **Nowa ranga** i zmień formułę w **Pasku formuły** na następującą:
+
+    = Table.Sort(#"Changed Type1",{{"New Rank", Order.Ascending},{"Rank", Order.Ascending}})
+
+Zaznacz zielony znacznik wyboru po lewej stronie pola formuły lub naciśnij klawisz **Enter**. Wiersze powinny zostać ułożone w kolejności zgodnej z wartościami pól _Nowa ranga_ i _Ranga_.
 
 Dodatkowo możesz wybrać **zastosowany krok** w dowolnym miejscu na liście i kontynuować kształtowanie danych od tego miejsca w sekwencji. Edytor zapytań automatycznie wstawi nowy krok bezpośrednio po aktualnie wybranym **zastosowanym kroku**. Spróbujmy.
 
-Najpierw wybieramy **zastosowany krok** poprzedzający zmianę typu kolumny **Health care quality**. Następnie zastępujemy wartości zawierające tekst „(tie)” w komórce w taki sposób, aby została tylko liczba. Kliknij prawym przyciskiem myszy komórkę, która zawiera wartość „35 (tie)” i wybierz polecenie *Zamień wartości...* z wyświetlonego menu. Zwróć uwagę na to, który **zastosowany krok** jest aktualnie wybrany (krok poprzedzający zmianę typu).
+Najpierw wybierz **zastosowany krok** przed dodaniem kolumny niestandardowej; będzie to krok _Usunięto kolumnę_. W tym miejscu zastąpimy wartość rankingu _Pogoda_ w Arizonie. Kliknij prawym przyciskiem myszy komórkę, która zawiera wartość rankingu _Pogoda_ dla Arizony i wybierz polecenie *Zamień wartości...* z wyświetlonego menu. Zwróć uwagę na to, który **zastosowany krok** jest aktualnie wybrany (krok poprzedzający krok _Dodano kolumnę niestandardową_).
 
-![](media/desktop-shape-and-combine-data/shapecombine_replacevalues.png)
+![](media/desktop-shape-and-combine-data/shapecombine_replacevalues2.png)
 
 Ponieważ wstawiamy krok, Edytor zapytań ostrzega nas o niebezpieczeństwach takiego działania — kolejne kroki mogą spowodować uszkodzenie zapytania. Musimy zachować ostrożność! Ponieważ jest to samouczek i demonstrujemy ciekawą funkcję Edytora zapytań, która umożliwia tworzenie, usuwanie i wstawianie kroków, a także zmianę ich kolejności, wybieramy polecenie **Wstaw**.
 
 ![](media/desktop-shape-and-combine-data/shapecombine_insertstep.png)
 
-Kolumna zawiera trzy komórki z tekstem „tie”. Zastąpimy wartość w każdej z nich. Gdy tworzysz nowy zastosowany krok, Edytor zapytań nadaje mu nazwę na podstawie akcji — w tym przypadku **Zamieniono wartość**. Gdy w zapytaniu istnieje więcej niż jeden krok o takiej samej nazwie, Edytor zapytań dodaje numer (kolejny) do każdego następnego **zastosowanego kroku**, aby je w ten sposób odróżnić.
+Zmień wartość na _51_, zastępując poprzednią daną dla Arizony. Gdy tworzysz nowy zastosowany krok, Edytor zapytań nadaje mu nazwę na podstawie akcji — w tym przypadku **Zamieniono wartość**. Gdy w zapytaniu istnieje więcej niż jeden krok o takiej samej nazwie, Edytor zapytań dodaje numer (kolejny) do każdego następnego **zastosowanego kroku**, aby je w ten sposób odróżnić.
 
-Poniższy ekran przedstawia trzy kroki **Zamieniono wartość** w obszarze **Ustawienia zapytania**, ale pokazuje też coś innego, co jest nawet bardziej interesujące: usunęliśmy każde wystąpienie tekstu „(tie)” z kolumny **Health care quality**, dlatego krok **Zmieniono typ** kończy się teraz *bez błędów*.
-
-![](media/desktop-shape-and-combine-data/shapecombine_replacedvaluesok.png)
-
-> [!NOTE]
-> Alternatywnie możesz użyć opcji **Usuń błędy** (ze wstążki lub menu wywoływanego prawym przyciskiem myszy), co spowoduje usunięcie wszystkich wierszy z błędami. W tym przypadku to polecenie spowodowałoby usunięcie wszystkich stanów z wartością „*(tie)*” z naszych danych, ale my tego nie chcemy — chcemy zachować wszystkie stany w tabeli.
+Teraz wybierz ostatni **zastosowany krok**, _Posortowano wiersze_, i zwróć uwagę, że dane zostały zmienione: uwzględniają teraz nowy ranking dla Arizony.  Stało się tak, ponieważ umieściliśmy krok _Zastąpiono wartość_ w odpowiednim miejscu przed krokiem _Dodano kolumnę niestandardową_.
 
 To było dosyć wymagające, ale to dobry przykład wszechstronności Edytora zapytań.
 
@@ -115,7 +137,7 @@ Na koniec zmienimy nazwę tabeli na opisową. Gdy będziemy zajmować się tworz
 
 Zmiana nazwy tabeli jest łatwa: w okienku **Ustawienia zapytania**, w obszarze **Właściwości**, po prostu wpisz nową nazwę tabeli w sposób pokazany na poniższej ilustracji, a następnie naciśnij klawisz **Enter**. Nadajmy tej tabeli nazwę *RetirementStats*.
 
-![](media/desktop-shape-and-combine-data/shapecombine_renametable.png)
+![](media/desktop-shape-and-combine-data/shapecombine_renametable2.png)
 
 Ukształtowaliśmy te dane w takim zakresie, w jakim było to potrzebne. Następnie nawiążemy połączenie z innym źródłem danych i połączymy dane.
 
@@ -126,11 +148,11 @@ Mamy szczęście: istnieje inne publiczne źródło danych, które właśnie to 
 
 <http://en.wikipedia.org/wiki/List_of_U.S._state_abbreviations>
 
-Ze wstążki **Narzędzia główne** w Edytorze zapytań wybieramy polecenie **Nowe źródło \> Internet** i wpisujemy adres. Następnie wybieramy przycisk OK, a Nawigator wyświetli to, co znalazł na tej stronie internetowej.
+Ze wstążki **Narzędzia główne** w Edytorze zapytań wybieramy polecenie **Nowe źródło \> Internet** i wpisujemy adres. Następnie wybieramy przycisk **Połącz**, a Nawigator wyświetli to, co znalazł na podanej stronie internetowej.
 
- ![](media/desktop-shape-and-combine-data/designer_gsg_usstateabbreviationsnavigator.png)
+ ![](media/desktop-shape-and-combine-data/designer_gsg_usstateabbreviationsnavigator2.png)
 
-Wybieramy tabelę **Table[edit]**, ponieważ zawiera ona dane, których potrzebujemy, ale dostosowanie danych z tej tabeli do naszych potrzeb będzie wymagało znacznej liczby operacji kształtowania.
+Wybieramy tabelę **Kody i skróty...**, ponieważ zawiera ona dane, których potrzebujemy, ale dostosowanie danych z tej tabeli do naszych potrzeb będzie wymagało pewnej liczby operacji kształtowania.
 
 > [!TIP]
 > Czy istnieje szybszy lub łatwiejszy sposób na wykonanie poniższych kroków? Tak, można utworzyć *relację* między dwiema tabelami i ukształtować dane na podstawie tej relacji. Poniższe kroki w dalszym ciągu idealnie sprawdzają się jako pomoc do nauki pracy z tabelami, ale pamiętaj, że relacje mogą ułatwiać szybkie wykorzystanie danych z wielu tabel.
@@ -139,11 +161,14 @@ Wybieramy tabelę **Table[edit]**, ponieważ zawiera ona dane, których potrzebu
 
 Aby ukształtować te dane, wykonamy następujące kroki:
 
-* Usuniemy dwa pierwsze wiersze — są one wynikiem sposobu utworzenia tabeli na stronie internetowej i nie są nam potrzebne. Ze wstążki **Narzędzia główne** wybierz polecenie **Zmniejsz wiersze \> Usuń wiersze \> Usuń pierwsze wiersze**.
+* Usuniemy pierwszy wiersz — wynika on ze sposobu utworzenia tabeli na stronie internetowej i nie jest nam potrzebny. Ze wstążki **Narzędzia główne** wybierz polecenie **Zmniejsz wiersze \> Usuń wiersze \> Usuń pierwsze wiersze**.
 
 ![](media/desktop-shape-and-combine-data/shapecombine_removetoprows.png)
 
 Zostanie wyświetlone okno **Usuwanie pierwszych wierszy**, w którym można określić liczbę wierszy do usunięcia.
+
+>[!NOTE]
+>Jeśli usługa Power BI zaimportuje przypadkowo nagłówki tabeli jako wiersz w tabeli danych, w celu naprawy tabeli możesz wybrać opcję **Użyj pierwszego wiersza jako nagłówków** z karty **Narzędzia główne** lub z karty **Przekształć** na wstążce.
 
 * Usuniemy 26 ostatnich wierszy — wszystkie one dotyczą terytoriów i nie musimy ich uwzględniać. Ze wstążki **Narzędzia główne** wybierz polecenie **Zmniejsz wiersze \> Usuń wiersze \> Usuń końcowe wiersze**.
 
@@ -153,13 +178,9 @@ Zostanie wyświetlone okno **Usuwanie pierwszych wierszy**, w którym można okr
 
 ![](media/desktop-shape-and-combine-data/shapecombine_filterdc.png)
 
-* Usuniemy kilka niepotrzebnych kolumn — potrzebujemy tylko odwzorowania nazwy stanu na jej oficjalny dwuliterowy skrót, dlatego możemy usunąć następujące kolumny: **Column2** i **Column3** oraz wszystkie kolumny od **Column5** do **Column10**. Najpierw wybierz kolumnę Column2, a następnie przytrzymaj naciśnięty klawisz **CTRL** i wybierz pozostałe kolumny do usunięcia (w ten sposób można wybrać wiele kolumn, które ze sobą nie sąsiadują). Na karcie Narzędzia główne na wstążce wybierz polecenie **Usuń kolumny \> Usuń kolumny**.
+* Usuniemy kilka niepotrzebnych kolumn — potrzebujemy tylko odwzorowania stanu na jej oficjalny dwuliterowy skrót, dlatego możemy usunąć następujące kolumny: **Kolumna1**, **Kolumna3**, **Kolumna4** oraz wszystkie kolumny od **Kolumna6** do **Kolumna11**. Najpierw wybierz kolumnę **Kolumna1**, a następnie przytrzymaj naciśnięty klawisz **CTRL** i wybierz pozostałe kolumny do usunięcia (w ten sposób można wybrać wiele kolumn, które ze sobą nie sąsiadują). Na karcie Narzędzia główne na wstążce wybierz polecenie **Usuń kolumny \> Usuń kolumny**.
 
 ![](media/desktop-shape-and-combine-data/shapecombine_removecolumns.png)
-
-* Użyjemy pierwszego wiersza jako nagłówków — usunęliśmy trzy pierwsze wiersze i obecny pierwszy wiersz jest nagłówkiem, którego potrzebujemy. Możesz wybrać polecenie **Użyj pierwszego wiersza jako nagłówków** z karty **Narzędzia główne** albo z karty **Przekształć** na wstążce.
-
-![](media/desktop-shape-and-combine-data/shapecombine_usefirstrowasheaders.png)
 
 >[!NOTE]
 >To dobry moment na to, aby wspomnieć, że *kolejność* zastosowanych kroków w Edytorze zapytań jest istotna i może wpłynąć na kształt danych. Należy również pamiętać o tym, że jeden krok może wpłynąć na kolejne kroki. Jeśli usuniesz krok z obszaru Zastosowane kroki, kolejne kroki mogą zachowywać się inaczej niż oczekiwano z powodu wpływu sekwencji kroków w zapytaniu.
@@ -185,11 +206,9 @@ W tym przypadku chcemy scalić zapytania. Aby rozpocząć, w lewym okienku Edyto
 
 Może pojawić się monit dotyczący ustawiania poziomów prywatności w celu zapewnienia, że dane zostaną połączone bez dołączania i przenoszenia danych, których nie chcesz przenosić.
 
-![](media/desktop-shape-and-combine-data/shapecombine_mergequeriesb.png)
-
 Następnie zostanie wyświetlone okno **Scalanie** z prośbą o wybranie tabeli, która ma zostać scalona z wybraną tabelą, oraz pasujących kolumn na potrzeby scalania. Wybierz kolumnę State z tabeli (zapytania) *RetirementStats*, a następnie zapytanie *StateCodes* (w tym przypadku jest łatwo, ponieważ istnieje tylko jedno inne zapytanie — w przypadku nawiązania połączenia z wieloma źródłami danych istnieje wiele zapytań do wyboru). Gdy wybierzemy poprawne pasujące kolumny — **State** z zapytania *RetirementStats* i **State Name** z zapytania *StateCodes* — wówczas okno **Scalanie** będzie wyglądać podobnie, jak poniższe, a przycisk **OK** będzie włączony.
 
-![](media/desktop-shape-and-combine-data/shapecombine_merge.png)
+![](media/desktop-shape-and-combine-data/shapecombine_merge2.png)
 
 Na końcu zapytania zostanie utworzona kolumna **Nowa kolumna**, w której znajduje się zawartość tabeli (zapytania) scalonej z istniejącym zapytaniem. Wszystkie kolumny ze scalonego zapytania są zmniejszone do kolumny **Nowa kolumna**, ale można wybrać opcję **Rozwiń**, aby rozwinąć tabelę i dołączyć dowolne kolumny.
 
@@ -206,7 +225,7 @@ W tym przypadku potrzebujemy tylko kolumny **State Code**, dlatego wybieramy tyl
 
 Teraz mamy pojedyncze zapytanie (tabelę), które łączy w sobie dwa źródła danych, a każde z nich zostało ukształtowane zgodnie z naszymi potrzebami. To zapytanie może służyć jako podstawa dla wielu dodatkowych, interesujących połączeń danych, takich jak statystyki wydatków na mieszkania, dane demograficzne lub oferty pracy w dowolnym stanie.
 
-Aby zastosować zmiany i zamknąć Edytor zapytań, wybierz pozycję „Zamknij i zastosuj” z karty wstążki **Narzędzia główne**. Przekształcony zestaw danych zostanie wyświetlony w programie Power BI Desktop i będzie gotowy do użycia na potrzeby tworzenia raportów.
+Aby zastosować zmiany i zamknąć Edytor zapytań, wybierz pozycję **Zamknij i zastosuj** z karty **Narzędzia główne** na wstążce. Przekształcony zestaw danych zostanie wyświetlony w programie Power BI Desktop i będzie gotowy do użycia na potrzeby tworzenia raportów.
 
 ![](media/desktop-shape-and-combine-data/shapecombine_closeandapply.png)
 
