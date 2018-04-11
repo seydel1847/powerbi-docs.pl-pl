@@ -1,28 +1,28 @@
 ---
-title: "Konfigurowanie aplikacji mobilnych za pomocą usługi Microsoft Intune"
-description: "Informacje o sposobie konfigurowania aplikacji mobilnych usługi Power BI przy użyciu usługi Microsoft Intune. W tym informacje o tym, jak dodać i wdrożyć aplikację. Oraz jak utworzyć zasady aplikacji mobilnych na potrzeby sterowania zabezpieczeniami."
+title: Konfigurowanie aplikacji mobilnych za pomocą usługi Microsoft Intune
+description: Informacje o sposobie konfigurowania aplikacji mobilnych usługi Power BI przy użyciu usługi Microsoft Intune. W tym informacje o tym, jak dodać i wdrożyć aplikację. Oraz jak utworzyć zasady aplikacji mobilnych na potrzeby sterowania zabezpieczeniami.
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: mgblythe
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 06/28/2017
-ms.author: maghan
+ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 2ac008a1b71a4e4df4e6515c85ec11e95dac7205
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: c33fcbdfa93e38283e17b0842e1242634664be7a
+ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/08/2018
 ---
 # <a name="configure-mobile-apps-with-microsoft-intune"></a>Konfigurowanie aplikacji mobilnych za pomocą usługi Microsoft Intune
 Usługa Microsoft Intune umożliwia organizacjom zarządzanie urządzeniami i aplikacjami. Aplikacje mobilne usługi Power BI dla systemów iOS i Android obsługują integrację z usługą Intune, aby umożliwić zarządzanie aplikacjami na urządzeniach oraz sterowanie zabezpieczeniami. Za pomocą zasad konfiguracji można zarządzać elementami na przykład przez wymaganie dostępowego kodu PIN, określanie sposobu obsługi danych przez aplikację, a nawet szyfrowanie danych aplikacji, kiedy aplikacja nie jest używana.

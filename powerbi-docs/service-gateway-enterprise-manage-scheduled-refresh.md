@@ -3,7 +3,7 @@ title: Zarządzanie źródłami danych — importowanie/zaplanowane odświeżani
 description: Jak zarządzać lokalną bramą danych i źródłami danych należącymi do tej bramy. Ten artykuł dotyczy źródeł danych, które mogą być używane z funkcją importu lub zaplanowanego odświeżania.
 services: powerbi
 documentationcenter: ''
-author: davidiseminger
+author: mgblythe
 manager: kfile
 backup: ''
 editor: ''
@@ -16,13 +16,13 @@ ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 12/06/2017
-ms.author: davidi
+ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 4fdd1380f10a44c45dd17b04c21ccfba8fbf9cd8
-ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
+ms.openlocfilehash: ce2ffe68c46d965b7bcace0d278952aaed9f7670
+ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/30/2018
+ms.lasthandoff: 04/08/2018
 ---
 # <a name="manage-your-data-source---importscheduled-refresh"></a>Zarządzanie źródłami danych — importowanie/zaplanowane odświeżanie
 Po zainstalowaniu lokalnej bramy danych musisz dodać źródła danych, które mogą być używane z tą bramą. Ten artykuł dotyczy pracy z bramami oraz źródłami danych, które są używane do zaplanowanego odświeżania — w przeciwieństwie do zapytania bezpośredniego lub połączenia na żywo.
@@ -90,7 +90,7 @@ Na karcie Administratorzy w ustawieniach bramy możesz dodawać i usuwać użytk
 
 ![](media/service-gateway-enterprise-manage-scheduled-refresh/datasourcesettings8.png)
 
-## <a name="manage-users"></a>Zarządzanie użytkownikami
+## <a name="manage-users"></a>Zarządzaj użytkownikami
 Na karcie Użytkownicy dla źródła danych można dodawać i usuwać użytkowników (lub grupy zabezpieczeń), którzy mogą używać tego źródła danych.
 
 > [!NOTE]

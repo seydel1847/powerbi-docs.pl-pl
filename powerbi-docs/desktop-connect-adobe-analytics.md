@@ -1,40 +1,33 @@
 ---
-title: "Łączenie się z usługą Adobe Analytics w programie Power BI Desktop (wersja zapoznawcza)"
-description: "Łatwo nawiązuj połączenie z usługą Adobe Analytics i używaj jej w programie Power BI Desktop"
+title: Łączenie się z usługą Adobe Analytics w programie Power BI Desktop
+description: Łatwo nawiązuj połączenie z usługą Adobe Analytics i używaj jej w programie Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/09/2018
+ms.date: 04/04/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: efd6d066e2f98f86248730917c2f4aa0c8a39983
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: 4488cd373fae22c4494ac697602536496ffc9b00
+ms.sourcegitcommit: e571de2afa3f34fac06a6aab0df0e8940cb00a0d
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 04/05/2018
 ---
-# <a name="connect-to-adobe-analytics-in-power-bi-desktop-preview"></a>Łączenie się z usługą Adobe Analytics w programie Power BI Desktop (wersja zapoznawcza)
+# <a name="connect-to-adobe-analytics-in-power-bi-desktop"></a>Łączenie się z usługą Adobe Analytics w programie Power BI Desktop 
 W programie **Power BI Desktop** możesz nawiązać połączenie z usługą **Adobe Analytics** i korzystać z danych źródłowych w taki sam sposób, jak w przypadku dowolnego innego źródła danych w programie Power BI Desktop. 
 
 ![Pobieranie danych z usługi Adobe Analytics](media/desktop-connect-adobe-analytics/connect-adobe-analytics_01.png)
-
-## <a name="enable-the-adobe-analytics-connector-preview"></a>Włączanie łącznika rozwiązania Adobe Analytics (wersja zapoznawcza) 
-Ponieważ łącznik rozwiązania **Adobe Analytics** jest obecnie w wersji zapoznawczej, musisz włączyć funkcję wersji zapoznawczej, aby łącznik był dostępny w oknie **Pobieranie danych**. Aby włączyć wersję zapoznawczą łącznika, wybierz pozycję **Plik > Opcje i ustawienia > Opcje > Funkcje wersji zapoznawczej** w programie Power BI Desktop, a następnie zaznacz pole wyboru obok pozycji **Zakładki**. 
-
-![Włączanie wersji zapoznawczej łącznika Adobe Analytics w obszarze Opcje](media/desktop-connect-adobe-analytics/connect-adobe-analytics_02.png)
-
-Musisz ponownie uruchomić program **Power BI Desktop** po dokonaniu wyboru, aby włączyć wersję zapoznawczą łącznika Adobe Analytics.
 
 ## <a name="connect-to-adobe-analytics-data"></a>Łączenie z danymi usługi Adobe Analytics
 Aby nawiązać połączenie z danymi **Adobe Analytics**, wybierz pozycję **Pobierz dane** z poziomu wstążki **Narzędzia główne** w programie Power BI Desktop. Wybierz pozycję **Usługi online** z listy kategorii po lewej stronie. Zostanie wyświetlony **łącznik Adobe Analytics**.
