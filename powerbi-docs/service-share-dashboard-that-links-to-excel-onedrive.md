@@ -1,15 +1,15 @@
 ---
-title: "Udostępnianie pulpitu nawigacyjnego połączonego z plikiem programu Excel w usłudze OneDrive — Power BI"
-description: "Przeczytaj więcej informacji na temat udostępniania pulpitów nawigacyjnych połączonych ze skoroszytem programu Excel w usłudze OneDrive dla Firm z kafelkami przypiętymi z tego skoroszytu."
+title: Udostępnianie pulpitu nawigacyjnego połączonego z plikiem programu Excel w usłudze OneDrive — Power BI
+description: Przeczytaj więcej informacji na temat udostępniania pulpitów nawigacyjnych połączonych ze skoroszytem programu Excel w usłudze OneDrive dla Firm z kafelkami przypiętymi z tego skoroszytu.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

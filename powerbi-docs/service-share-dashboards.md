@@ -1,13 +1,13 @@
 ---
-title: "Udostępnianie pulpitów nawigacyjnych i raportów usługi Power BI współpracownikom i innym osobom"
-description: "Jak udostępnić pulpity nawigacyjne i raporty usługi Power BI współpracownikom z danej organizacji i spoza niej oraz najważniejsze informacje o udostępnianiu."
+title: Udostępnianie pulpitów nawigacyjnych i raportów usługi Power BI współpracownikom i innym osobom
+description: Jak udostępnić pulpity nawigacyjne i raporty usługi Power BI współpracownikom z danej organizacji i spoza niej oraz najważniejsze informacje o udostępnianiu.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: lukaszp
-editor: 
-tags: 
+editor: ''
+tags: ''
 featuredvideoid: 0tUwn8DHo3s
 qualityfocus: monitoring
 qualitydate: 08/14/2017

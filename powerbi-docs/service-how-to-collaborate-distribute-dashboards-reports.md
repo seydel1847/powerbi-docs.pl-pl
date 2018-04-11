@@ -1,13 +1,13 @@
 ---
-title: "Jak można współpracować i udostępniać w usłudze Power BI?"
-description: "W usłudze Power BI można na różne sposoby współpracować za pośrednictwem pulpitów nawigacyjnych, raportów, kafelków i aplikacji oraz je udostępniać. Każdy sposób ma swoje zalety."
+title: Jak można współpracować i udostępniać w usłudze Power BI?
+description: W usłudze Power BI można na różne sposoby współpracować za pośrednictwem pulpitów nawigacyjnych, raportów, kafelków i aplikacji oraz je udostępniać. Każdy sposób ma swoje zalety.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: lukaszp
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: monitoring
 qualitydate: 02/28/2017
 ms.service: powerbi

@@ -1,15 +1,15 @@
 ---
-title: "Zarządzanie obszarem roboczym aplikacji w usługach Power BI i Office 365"
-description: "Obszary robocze aplikacji w usłudze Power BI są środowiskiem współpracy zbudowanym ma grupach usługi Office 365. Zarządzanie obszarem roboczym aplikacji w usługach Power BI, jak i Office 365."
+title: Zarządzanie obszarem roboczym aplikacji w usługach Power BI i Office 365
+description: Obszary robocze aplikacji w usłudze Power BI są środowiskiem współpracy zbudowanym ma grupach usługi Office 365. Zarządzanie obszarem roboczym aplikacji w usługach Power BI, jak i Office 365.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

@@ -1,12 +1,12 @@
 ---
-title: "Instalowanie i używanie aplikacji z pulpitami nawigacyjnymi i raportami w usłudze Power BI"
-description: "W usłudze Power BI aplikacje łączą ze sobą w jednym miejscu wszystkie powiązane pulpity nawigacyjne i raporty."
+title: Instalowanie i używanie aplikacji z pulpitami nawigacyjnymi i raportami w usłudze Power BI
+description: W usłudze Power BI aplikacje łączą ze sobą w jednym miejscu wszystkie powiązane pulpity nawigacyjne i raporty.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: monitoring
 qualitydate: 10/02/2017
 ms.service: powerbi

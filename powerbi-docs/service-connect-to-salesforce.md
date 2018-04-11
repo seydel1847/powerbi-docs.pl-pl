@@ -1,15 +1,15 @@
 ---
-title: "Nawiązywanie połączenia z usługą Salesforce przy użyciu usługi Power BI"
-description: "Salesforce dla usługi Power BI"
+title: Nawiązywanie połączenia z usługą Salesforce przy użyciu usługi Power BI
+description: Salesforce dla usługi Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

@@ -1,15 +1,15 @@
 ---
-title: "Współpraca w obszarze roboczym aplikacji usługi Power BI"
-description: "Więcej informacji o współpracy przy plikach programu Power BI Desktop w obszarze roboczym Twojej aplikacji i z usługami Office 365, takimi jak udostępnianie plików w usłudze OneDrive dla Firm, konwersacje w programie Exchange, kalendarz i zadania."
+title: Współpraca w obszarze roboczym aplikacji usługi Power BI
+description: Więcej informacji o współpracy przy plikach programu Power BI Desktop w obszarze roboczym Twojej aplikacji i z usługami Office 365, takimi jak udostępnianie plików w usłudze OneDrive dla Firm, konwersacje w programie Exchange, kalendarz i zadania.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

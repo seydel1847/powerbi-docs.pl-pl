@@ -1,15 +1,15 @@
 ---
-title: "Łączenie z usługą GitHub przy użyciu usługi Power BI"
-description: "Usługa GitHub dla usługi Power BI"
+title: Łączenie z usługą GitHub przy użyciu usługi Power BI
+description: Usługa GitHub dla usługi Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

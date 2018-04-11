@@ -1,15 +1,15 @@
 ---
-title: "Łączenie się z usługą Adobe Analytics za pomocą usługi Power BI"
-description: "Łączenie się z usługą Adobe Analytics za pomocą usługi Power BI dla aplikacji, w której są wyświetlane dane konta w pulpicie nawigacyjnym i raportach."
+title: Łączenie się z usługą Adobe Analytics za pomocą usługi Power BI
+description: Łączenie się z usługą Adobe Analytics za pomocą usługi Power BI dla aplikacji, w której są wyświetlane dane konta w pulpicie nawigacyjnym i raportach.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

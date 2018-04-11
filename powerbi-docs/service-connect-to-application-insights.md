@@ -1,15 +1,15 @@
 ---
-title: "Łączenie się z usługą Application Insights Łączenie się z usługą Power BI"
-description: "Usługa Application Insights dla usługi Power BI"
+title: Łączenie się z usługą Application Insights Łączenie się z usługą Power BI
+description: Usługa Application Insights dla usługi Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

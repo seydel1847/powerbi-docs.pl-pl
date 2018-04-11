@@ -1,13 +1,13 @@
 ---
-title: "Filtrowanie i udostępnianie raportów usługi Power BI współpracownikom"
-description: "Dowiedz się, jak udostępniać filtrowane raporty usługi Power BI współpracownikom w Twojej organizacji."
+title: Filtrowanie i udostępnianie raportów usługi Power BI współpracownikom
+description: Dowiedz się, jak udostępniać filtrowane raporty usługi Power BI współpracownikom w Twojej organizacji.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: lukaszp
-editor: 
-tags: 
+editor: ''
+tags: ''
 featuredvideoid: 0tUwn8DHo3s
 qualityfocus: complete
 qualitydate: 06/22/2016

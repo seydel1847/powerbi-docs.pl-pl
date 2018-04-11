@@ -1,16 +1,16 @@
 ---
-title: "Jak utworzyć proponowane pytania dla funkcji Pytania i odpowiedzi w usłudze Power BI"
-description: "Dokumentacja dotycząca sposobu tworzenia proponowanych pytań dla funkcji pytań i odpowiedzi w usłudze Power BI"
+title: Jak utworzyć proponowane pytania dla funkcji Pytania i odpowiedzi w usłudze Power BI
+description: Dokumentacja dotycząca sposobu tworzenia proponowanych pytań dla funkcji pytań i odpowiedzi w usłudze Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: E1mIAyEXuF4
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

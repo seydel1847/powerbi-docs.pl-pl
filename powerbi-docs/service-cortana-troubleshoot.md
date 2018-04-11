@@ -1,16 +1,16 @@
 ---
-title: "Rozwiązywanie problemów z Cortaną dla usługi Power BI"
-description: "Jeśli masz problemy z używaniem Cortany z usługą Power BI, wypróbuj następujące sugestie."
+title: Rozwiązywanie problemów z Cortaną dla usługi Power BI
+description: Jeśli masz problemy z używaniem Cortany z usługą Power BI, wypróbuj następujące sugestie.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

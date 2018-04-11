@@ -1,15 +1,15 @@
 ---
-title: "Tworzenie i publikowanie organizacyjnego pakietu zawartości — usługa Power BI"
-description: "W tym samouczku utworzysz organizacyjny pakiet zawartości, ograniczysz dostęp do konkretnej grupy i opublikujesz go w bibliotece pakietów zawartości organizacji w usłudze Power BI."
+title: Tworzenie i publikowanie organizacyjnego pakietu zawartości — usługa Power BI
+description: W tym samouczku utworzysz organizacyjny pakiet zawartości, ograniczysz dostęp do konkretnej grupy i opublikujesz go w bibliotece pakietów zawartości organizacji w usłudze Power BI.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

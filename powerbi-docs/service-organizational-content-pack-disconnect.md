@@ -1,15 +1,15 @@
 ---
-title: "Odłączanie od organizacyjnego pakietu zawartości — usługa Power BI"
-description: "Przeczytaj o usuwaniu połączenia z organizacyjnym pakietem zawartości, usuwając jego zestaw danych w usłudze Power BI."
+title: Odłączanie od organizacyjnego pakietu zawartości — usługa Power BI
+description: Przeczytaj o usuwaniu połączenia z organizacyjnym pakietem zawartości, usuwając jego zestaw danych w usłudze Power BI.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

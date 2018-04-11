@@ -18,10 +18,10 @@ ms.workload: powerbi
 ms.date: 03/01/2018
 ms.author: mihart
 ms.openlocfilehash: 17921d1fe28a1b4c0640748123efe4b70982b18d
-ms.sourcegitcommit: ae4d771b883b654358a6a94dd784ea9bdf3d3aa3
+ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/04/2018
 ---
 # <a name="open-a-report-in-power-bi-service-apppowerbicom"></a>Otwieranie raportu w usłudze Power BI (app.powerbi.com)
 Raporty są dostępne w usłudze Power BI, programie Power BI Desktop, w usłudze Power BI dla urządzeń przenośnych, a nawet w usłudze Power BI Embedded. Ten artykuł dotyczy otwierania raportów w ***usłudze Power BI***.
