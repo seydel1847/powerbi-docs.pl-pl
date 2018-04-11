@@ -3,7 +3,7 @@ title: Lokalna brama danych
 description: Ten temat zawiera omówienie lokalnej bramy danych dla usługi Power BI. Brama ta umożliwia korzystanie ze źródeł danych obsługujących zapytania bezpośrednie. Można jej również używać do odświeżania zestawów danych w chmurze za pomocą danych lokalnych.
 services: powerbi
 documentationcenter: ''
-author: markingmyname
+author: mgblythe
 manager: kfile
 backup: ''
 editor: ''
@@ -16,13 +16,13 @@ ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 03/26/2018
-ms.author: maghan
+ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 1c0bd455d8b2dd34cc7d9ef20b0e75c5457034d2
-ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
+ms.openlocfilehash: c6c924095e3aaf4839f1c9422e027ba5373b9ad4
+ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/30/2018
+ms.lasthandoff: 04/08/2018
 ---
 # <a name="on-premises-data-gateway"></a>Lokalna brama danych
 Lokalna brama danych działa jak most, zapewniając szybki i bezpieczny transfer danych między lokalnymi danymi (danymi, które nie są w chmurze) a usługami Power BI, Microsoft Flow, Logic Apps i PowerApps.
