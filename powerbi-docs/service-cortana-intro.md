@@ -1,11 +1,11 @@
 ---
-title: "Szybko znajduj i wyświetlaj swoje pulpity nawigacyjne i raporty Power BI za pomocą Cortany"
-description: "Uzyskuj odpowiedzi na podstawie swoich danych dzięki Cortanie i usłudze Power BI. Obecnie są obsługiwane raporty i pulpity nawigacyjne."
+title: Szybko znajduj i wyświetlaj swoje pulpity nawigacyjne i raporty Power BI za pomocą Cortany
+description: Uzyskuj odpowiedzi na podstawie swoich danych dzięki Cortanie i usłudze Power BI. Obecnie są obsługiwane raporty i pulpity nawigacyjne.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-editor: 
+editor: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

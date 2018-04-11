@@ -1,16 +1,16 @@
 ---
-title: "Osadzanie za pomocą składnika Web Part raportu w usłudze SharePoint Online"
-description: "Za pomocą nowego składnika Web Part raportu usługi Power BI dla usługi SharePoint Online można łatwo osadzić interaktywne raporty usługi Power BI na stronach usługi SharePoint Online."
+title: Osadzanie za pomocą składnika Web Part raportu w usłudze SharePoint Online
+description: Za pomocą nowego składnika Web Part raportu usługi Power BI dla usługi SharePoint Online można łatwo osadzić interaktywne raporty usługi Power BI na stronach usługi SharePoint Online.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

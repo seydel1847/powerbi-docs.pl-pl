@@ -1,11 +1,11 @@
 ---
-title: "Aktywowanie Cortany dla usługi Power BI"
-description: "Uzyskuj odpowiedzi na podstawie swoich danych dzięki Cortanie i usłudze Power BI. Uaktywnij Cortanę dla każdego zestawu danych usługi Power BI, a następnie włącz Cortanę, aby uzyskać dostęp do swoich zestawów danych z urządzeń z systemem Windows."
+title: Aktywowanie Cortany dla usługi Power BI
+description: Uzyskuj odpowiedzi na podstawie swoich danych dzięki Cortanie i usłudze Power BI. Uaktywnij Cortanę dla każdego zestawu danych usługi Power BI, a następnie włącz Cortanę, aby uzyskać dostęp do swoich zestawów danych z urządzeń z systemem Windows.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-editor: 
+editor: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

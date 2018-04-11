@@ -1,15 +1,15 @@
 ---
-title: "Organizacyjne pakiety zawartości: dostęp i kopiowanie"
-description: "Przeczytaj informacje o tworzeniu kopii i rozwiązywaniu problemów z dostępem do organizacyjnych pakietów zawartości w usłudze Power BI"
+title: 'Organizacyjne pakiety zawartości: dostęp i kopiowanie'
+description: Przeczytaj informacje o tworzeniu kopii i rozwiązywaniu problemów z dostępem do organizacyjnych pakietów zawartości w usłudze Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

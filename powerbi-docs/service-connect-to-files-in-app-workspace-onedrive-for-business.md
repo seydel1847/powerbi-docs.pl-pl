@@ -1,15 +1,15 @@
 ---
-title: "Łączenie się z plikami w usłudze OneDrive dla obszaru roboczego aplikacji Power BI"
-description: "Przeczytaj informacje na temat przechowywania plików programu Excel, plików CSV oraz plików programu Power BI Desktop w usłudze OneDrive dla obszaru roboczego aplikacji Power BI."
+title: Łączenie się z plikami w usłudze OneDrive dla obszaru roboczego aplikacji Power BI
+description: Przeczytaj informacje na temat przechowywania plików programu Excel, plików CSV oraz plików programu Power BI Desktop w usłudze OneDrive dla obszaru roboczego aplikacji Power BI.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

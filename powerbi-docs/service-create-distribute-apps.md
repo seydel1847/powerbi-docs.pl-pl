@@ -1,14 +1,14 @@
 ---
-title: "Tworzenie i publikowanie aplikacji z pulpitami nawigacyjnymi i raportami w usłudze Power BI"
-description: "Dowiedz się, jak tworzyć i publikować aplikacje, czyli kolekcje pulpitów nawigacyjnych i raportów utworzone w celu udostępnienia najważniejszych metryk dla organizacji."
+title: Tworzenie i publikowanie aplikacji z pulpitami nawigacyjnymi i raportami w usłudze Power BI
+description: Dowiedz się, jak tworzyć i publikować aplikacje, czyli kolekcje pulpitów nawigacyjnych i raportów utworzone w celu udostępnienia najważniejszych metryk dla organizacji.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -107,7 +107,7 @@ Jeśli pulpity nawigacyjne i raporty w obszarze roboczym aplikacji są gotowe, m
 
 2. Wybierz przycisk **Opublikuj aplikację** w prawym górnym rogu, aby rozpocząć proces udostępniania całej zawartości w tym obszarze roboczym.
    
-     ![Publikowanie aplikacji](media/service-create-distribute-apps/power-bi-apps-publish-button.png)
+     ![Opublikuj aplikację](media/service-create-distribute-apps/power-bi-apps-publish-button.png)
 
 3. W obszarze **Szczegóły** wypełnij pole z opisem, aby ułatwić odnalezienie aplikacji. Możesz ją spersonalizować, ustawiając kolor tła.
    

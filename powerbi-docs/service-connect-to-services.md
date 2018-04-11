@@ -1,15 +1,15 @@
 ---
-title: "Łączenie się z usługami używanymi z usługą Power BI"
-description: "Nawiązywanie połączenia z wieloma usługami używanymi do prowadzenia firmy, takimi jak Salesforce, Microsoft Dynamics CRM i Google Analytics."
+title: Łączenie się z usługami używanymi z usługą Power BI
+description: Nawiązywanie połączenia z wieloma usługami używanymi do prowadzenia firmy, takimi jak Salesforce, Microsoft Dynamics CRM i Google Analytics.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

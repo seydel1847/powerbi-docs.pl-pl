@@ -1,15 +1,15 @@
 ---
-title: "Łączenie się z dziennikami inspekcji platformy Azure za pomocą usługi Power BI"
-description: "Dzienniki inspekcji platformy Azure dla usługi Power BI"
+title: Łączenie się z dziennikami inspekcji platformy Azure za pomocą usługi Power BI
+description: Dzienniki inspekcji platformy Azure dla usługi Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

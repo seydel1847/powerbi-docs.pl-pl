@@ -1,15 +1,15 @@
 ---
-title: "Znajdowanie organizacyjnych pakietów zawartości i łączenie się z nimi — Power BI"
-description: "Znajdowanie organizacyjnych pakietów zawartości i łączenie się z nimi w usłudze Power BI"
+title: Znajdowanie organizacyjnych pakietów zawartości i łączenie się z nimi — Power BI
+description: Znajdowanie organizacyjnych pakietów zawartości i łączenie się z nimi w usłudze Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

@@ -1,15 +1,15 @@
 ---
-title: "Wprowadzenie do organizacyjnych pakietów zawartości w usłudze Power BI"
-description: "Przeczytaj o pakowaniu swoich pulpitów nawigacyjnych, raportów, skoroszytów programu Excel i zestawów danych do organizacyjnych pakietów zawartości i udostępnianiu ich współpracownikom."
+title: Wprowadzenie do organizacyjnych pakietów zawartości w usłudze Power BI
+description: Przeczytaj o pakowaniu swoich pulpitów nawigacyjnych, raportów, skoroszytów programu Excel i zestawów danych do organizacyjnych pakietów zawartości i udostępnianiu ich współpracownikom.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

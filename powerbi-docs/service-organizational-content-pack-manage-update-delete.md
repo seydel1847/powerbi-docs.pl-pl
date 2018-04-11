@@ -1,15 +1,15 @@
 ---
-title: "Organizacyjne pakiety zawartości: zarządzanie i aktualizowanie"
-description: "Informacje na temat aktualizowania i usuwania organizacyjnych pakietów zawartości w usłudze Power BI oraz zarządzania nimi."
+title: 'Organizacyjne pakiety zawartości: zarządzanie i aktualizowanie'
+description: Informacje na temat aktualizowania i usuwania organizacyjnych pakietów zawartości w usłudze Power BI oraz zarządzania nimi.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

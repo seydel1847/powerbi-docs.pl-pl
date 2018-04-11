@@ -1,15 +1,15 @@
 ---
-title: "Omówienie funkcji pytań i odpowiedzi w usłudze Power BI i programie Power BI Desktop"
-description: "Dokumentacja dotycząca tematu zapytań w języku naturalnym funkcji pytań i odpowiedzi usługi Power BI."
+title: Omówienie funkcji pytań i odpowiedzi w usłudze Power BI i programie Power BI Desktop
+description: Dokumentacja dotycząca tematu zapytań w języku naturalnym funkcji pytań i odpowiedzi usługi Power BI.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

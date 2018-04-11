@@ -1,15 +1,15 @@
 ---
-title: "Jak zapewnić poprawne współdziałanie danych programu Excel z funkcją Pytania i odpowiedzi w usłudze Power BI"
-description: "Jak zapewnić poprawne współdziałanie danych z funkcją Pytania i odpowiedzi w usłudze Power BI"
+title: Jak zapewnić poprawne współdziałanie danych programu Excel z funkcją Pytania i odpowiedzi w usłudze Power BI
+description: Jak zapewnić poprawne współdziałanie danych z funkcją Pytania i odpowiedzi w usłudze Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

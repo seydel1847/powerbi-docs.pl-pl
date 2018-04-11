@@ -1,15 +1,15 @@
 ---
-title: "Pakiet zawartości Inspekcja bazy danych SQL"
-description: "Pakiet zawartości Inspekcja bazy danych SQL dla usługi Power BI"
+title: Pakiet zawartości Inspekcja bazy danych SQL
+description: Pakiet zawartości Inspekcja bazy danych SQL dla usługi Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

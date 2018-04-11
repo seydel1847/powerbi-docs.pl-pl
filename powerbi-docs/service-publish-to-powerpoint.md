@@ -1,15 +1,15 @@
 ---
-title: "Eksportowanie raportów z usługi Power BI do programu PowerPoint (wersja zapoznawcza)"
-description: "Dowiedz się, jak wyeksportować raport usługi Power BI do programu PowerPoint."
+title: Eksportowanie raportów z usługi Power BI do programu PowerPoint (wersja zapoznawcza)
+description: Dowiedz się, jak wyeksportować raport usługi Power BI do programu PowerPoint.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: complete
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

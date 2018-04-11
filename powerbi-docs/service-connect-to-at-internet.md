@@ -1,15 +1,15 @@
 ---
-title: "Łączenie się z pakietem zawartości AT Internet Bridge za pomocą usługi Power BI"
-description: "Pakiet zawartości AT Internet Bridge dla usługi Power BI"
+title: Łączenie się z pakietem zawartości AT Internet Bridge za pomocą usługi Power BI
+description: Pakiet zawartości AT Internet Bridge dla usługi Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

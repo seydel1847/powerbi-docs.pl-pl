@@ -1,15 +1,15 @@
 ---
-title: "Szybki start — wprowadzenie do funkcji pytań i odpowiedzi w usłudze Power BI"
-description: "Szybki start: wprowadzenie do funkcji pytań i odpowiedzi w usłudze Power BI przy użyciu przykładu Retail Analysis"
+title: Szybki start — wprowadzenie do funkcji pytań i odpowiedzi w usłudze Power BI
+description: 'Szybki start: wprowadzenie do funkcji pytań i odpowiedzi w usłudze Power BI przy użyciu przykładu Retail Analysis'
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

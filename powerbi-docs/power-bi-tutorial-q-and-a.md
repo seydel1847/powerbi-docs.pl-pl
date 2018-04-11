@@ -1,12 +1,12 @@
 ---
-title: "Samouczek — używanie funkcji pytań i odpowiedzi na pulpicie nawigacyjnym lub w raporcie"
-description: "Samouczek dotyczący sposobu użycia funkcji pytań i odpowiedzi usługi Power BI do tworzenia nowych wizualizacji na pulpitach nawigacyjnych i w raportach."
+title: Samouczek — używanie funkcji pytań i odpowiedzi na pulpicie nawigacyjnym lub w raporcie
+description: Samouczek dotyczący sposobu użycia funkcji pytań i odpowiedzi usługi Power BI do tworzenia nowych wizualizacji na pulpitach nawigacyjnych i w raportach.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
