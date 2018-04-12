@@ -2,14 +2,14 @@
 title: Korzystanie z kolumn obliczeniowych w programie Power BI Desktop
 description: Kolumny obliczeniowe w programie Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: e9d1820bff2768f2169530ec49cfa2963bff9baa
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 4a47e707969b592ec27c79558699638ce14f8640
+ms.sourcegitcommit: c80fbf5b12754ce217cb47a17cb5400b1036a8f2
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/06/2018
 ---
 # <a name="using-calculated-columns-in-power-bi-desktop"></a>Korzystanie z kolumn obliczeniowych w programie Power BI Desktop
 Za pomocą kolumn obliczeniowych możesz dodawać nowe dane do tabel już znajdujących się w Twoim modelu. Zamiast jednak wykonywania zapytań i ładowania wartości do nowej kolumny ze źródła danych, tworzona jest formuła języka DAX (Data Analysis Expressions) definiująca wartości w kolumnie. W programie Power BI Desktop kolumny obliczeniowe są tworzone za pomocą funkcji Nowa kolumna w widoku raportu.
@@ -54,7 +54,7 @@ Teraz Jeff ma potrzebne pole.
 
 ![](media/desktop-calculated-columns/calccolinpbid_citystatefield.png)
 
-Może je dodać do swojego raportu wraz z liczbą dostaw. Bardzo szybko i przy minimalnym nakładzie pracy Jeff uzyskał pole City, State. Może je dodać do wizualizacji w zasadzie dowolnego typu. Jeff widzi nawet, że gdy tworzy wizualizację z mapą, program Power BI Desktop wie, jak odczytać wartości City, State z nowej kolumny.
+Może je dodać do swojego raportu wraz z liczbą dostaw. Szybko i przy minimalnym nakładzie pracy Jeff uzyskał pole City, State i może je dodać do wizualizacji w zasadzie dowolnego typu. Jeff widzi, że gdy tworzy wizualizację z mapą, program Power BI Desktop wie, jak odczytać wartości City, State z nowej kolumny.
 
 ![](media/desktop-calculated-columns/calccolinpbid_citystatemap.png)
 

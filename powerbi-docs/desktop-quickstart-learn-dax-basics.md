@@ -1,15 +1,15 @@
 ---
-title: "Podstawy języka DAX w programie Power BI Desktop"
-description: "Podstawy języka DAX w programie Power BI Desktop"
+title: Podstawy języka DAX w programie Power BI Desktop
+description: Podstawy języka DAX w programie Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 1b6a08ffbc7d1edfe0a86b6eb0a84702dec22da0
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 474cca86151925ee4991d477a6127536180808a8
+ms.sourcegitcommit: c80fbf5b12754ce217cb47a17cb5400b1036a8f2
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/06/2018
 ---
 # <a name="dax-basics-in-power-bi-desktop"></a>Podstawy języka DAX w programie Power BI Desktop
 Niniejszy artykuł jest przeznaczony dla nowych użytkowników programu Power BI Desktop. Artykuł stanowi szybkie i łatwe wprowadzenie do korzystania z języka Data Analysis Expressions (DAX) w celu rozwiązywania szeregu podstawowych problemów z zakresu obliczeń i analizy danych. Zapoznamy się z informacjami koncepcyjnymi, przeanalizujemy szereg zadań, które możesz wykonać, a na koniec zajmiesz się testami, które sprawdzą Twoją wiedzę. Gdy zapoznasz się z tym artykułem, najważniejsze podstawowe pojęcia dotyczące języka DAX nie powinny mieć dla Ciebie żadnych tajemnic.
@@ -40,7 +40,7 @@ Skupimy się na wyjaśnieniu formuł DAX używanych w obliczeniach, a w szczegó
 
 **Przykładowy skoroszyt**
 
-Najlepszy sposób na naukę języka DAX polega na utworzeniu kilku podstawowych formuł, użyciu ich z rzeczywistymi danymi i samodzielnym zapoznaniu się z wynikami. Przedstawione tutaj przykłady i zadania są oparte na przykładowym pliku sprzedaży Contoso dla programu Power BI Desktop w wersji zapoznawczej. Jest to ten sam plik, który był wykorzystywany w artykule „Samouczek: tworzenie własnych miar w programie Power BI Desktop”. Można go pobrać [tutaj](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20for%20Power%20BI%20Designer.zip).
+Najlepszy sposób na naukę języka DAX polega na utworzeniu kilku podstawowych formuł, użyciu ich z rzeczywistymi danymi i samodzielnym zapoznaniu się z wynikami. Przedstawione tutaj przykłady i zadania są oparte na przykładowym pliku sprzedaży Contoso dla programu Power BI Desktop w wersji zapoznawczej. Jest to ten sam plik, który był wykorzystywany w artykule [Samouczek: tworzenie własnych miar w programie Power BI Desktop](desktop-tutorial-create-measures.md). Oto [przykładowy plik](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20for%20Power%20BI%20Designer.zip) do pobrania.
 
 ## <a name="lets-begin"></a>Zacznijmy!
 Zrozumienie języka DAX zawęzimy do trzech kluczowych pojęć: *Składnia*, *Funkcje* i *Kontekst*. Oczywiście w języku DAX są inne ważne pojęcia, ale zrozumienie tych trzech zapewni najlepszy fundament, na którym będziemy budować umiejętności korzystania z języka DAX.
@@ -111,7 +111,6 @@ W celu wykonania tego zadania musisz otworzyć przykładowy plik sprzedaży Cont
 7.  Między nawiasami **()** dla funkcji PREVIOUSQUARTER wpisz **Calendar[DateKey]**.
     
     Funkcja PREVIOUSQUARTER ma jeden argument, którym jest kolumna zawierająca ciągły zakres dat.
-    >
     
 8.  Upewnij się, że oba argumenty przekazywane do funkcji PREVIOUSQUARTER i funkcji CALCULATE są zamknięte dwoma nawiasami zamykającymi **))**.
     
@@ -144,7 +143,7 @@ Odpowiedzi są podane na końcu tego artykułu.
 ### <a name="functions"></a>Funkcje
 Funkcje to wstępnie zdefiniowane formuły, które wykonują obliczenia, używając konkretnych wartości nazywanych argumentami — w określonej kolejności lub strukturze. Argumenty mogą być innymi funkcjami, innymi formułami, wyrażeniami, odwołaniami do kolumn, liczbami, ciągami tekstowymi, wartościami logicznymi, takimi jak TRUE (Prawda) lub FALSE (Fałsz), albo stałymi.
 
-Język DAX zawiera następujące kategorie funkcji: [Daty i godziny](https://msdn.microsoft.com/library/ee634786.aspx), [Analizy czasowej](https://msdn.microsoft.com/library/ee634763.aspx)[,](https://msdn.microsoft.com/library/ee634552.aspx)[Informacyjne](https://msdn.microsoft.com/library/ee634552.aspx), [Logiczne](https://msdn.microsoft.com/library/ee634365.aspx)[,](https://msdn.microsoft.com/library/ee634365.aspx)[Matematyczne](https://msdn.microsoft.com/library/ee634241.aspx), [Statystyczne](https://msdn.microsoft.com/library/ee634822.aspx), [Tekstowe](https://msdn.microsoft.com/library/ee634938.aspx), [Nadrzędne/podrzędne](https://msdn.microsoft.com/library/mt150102.aspx) oraz [Inne](https://msdn.microsoft.com/library/mt150101.aspx). Jeśli znasz funkcje w formułach programu Excel, wiele funkcji języka DAX będzie wyglądać dla Ciebie znajomo; jednak funkcje języka DAX są wyjątkowe pod następującymi względami:
+Język DAX zawiera następujące kategorie funkcji: [Daty i godziny](https://msdn.microsoft.com/library/ee634786.aspx), [Analizy czasowej](https://msdn.microsoft.com/library/ee634763.aspx), [Informacyjne](https://msdn.microsoft.com/library/ee634552.aspx), [Logiczne](https://msdn.microsoft.com/library/ee634365.aspx), [Matematyczne](https://msdn.microsoft.com/library/ee634241.aspx), [Statystyczne](https://msdn.microsoft.com/library/ee634822.aspx), [Tekstowe](https://msdn.microsoft.com/library/ee634938.aspx), [Nadrzędne/podrzędne](https://msdn.microsoft.com/library/mt150102.aspx) oraz [Inne](https://msdn.microsoft.com/library/mt150101.aspx). Jeśli znasz funkcje w formułach programu Excel, wiele funkcji języka DAX będzie wyglądać dla Ciebie znajomo; jednak funkcje języka DAX są wyjątkowe pod następującymi względami:
 
 * Funkcja języka DAX zawsze odwołuje się do kompletnej kolumny lub tabeli. Jeśli chcesz użyć konkretnych wartości z tabeli lub kolumny, możesz dodać do formuły filtry.
 * Jeśli musisz dostosowywać obliczenia wiersz po wierszu, wówczas język DAX udostępnia funkcje, dzięki którym możesz użyć wartości bieżącego wiersza albo powiązanej wartości jako rodzaju argumentu, aby wykonać obliczenia zmieniające się w zależności od kontekstu. Więcej na temat kontekstu dowiesz się później.

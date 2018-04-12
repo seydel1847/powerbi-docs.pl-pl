@@ -1,15 +1,15 @@
 ---
-title: "Tworzenie relacji i zarządzanie nimi w programie Power BI Desktop"
-description: "Tworzenie relacji i zarządzanie nimi w programie Power BI Desktop"
+title: Tworzenie relacji i zarządzanie nimi w programie Power BI Desktop
+description: Tworzenie relacji i zarządzanie nimi w programie Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: cd0f89766a07d468942735d5da0d99e5c6d1c87f
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 0e9d1ed73abcd7234a96b28da638db649130c08e
+ms.sourcegitcommit: c80fbf5b12754ce217cb47a17cb5400b1036a8f2
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/06/2018
 ---
 # <a name="create-and-manage-relationships-in-power-bi-desktop"></a>Tworzenie relacji i zarządzanie nimi w programie Power BI Desktop
 Gdy importujesz wiele tabel, istnieje prawdopodobieństwo, że wykonasz jakieś analizy z użyciem danych ze wszystkich tych tabel. Relacje między tymi tabelami są konieczne w celu dokładnego obliczenia wyników i wyświetlenia poprawnych informacji w raportach. Dzięki programowi Power BI Desktop tworzenie relacji jest łatwe. W większości przypadków nie musisz nawet nic robić, ponieważ wyręczy Cię funkcja Autowykrywanie. Jednak w niektórych przypadkach konieczne może być samodzielne utworzenie relacji lub wprowadzenie w niej pewnych zmian. W każdym razie ważne jest zrozumienie relacji w programie Power BI Desktop, a także poznanie sposobów ich tworzenia i edycji.
@@ -40,35 +40,35 @@ Na karcie **Narzędzia główne** kliknij polecenie **Zarządzanie relacjami** \
 2. W oknie dialogowym **Tworzenie relacji** z pierwszej listy rozwijanej tabel wybierz tabelę, a następnie wybierz kolumnę, której chcesz użyć w relacji.
 3. Z drugiej listy rozwijanej tabel wybierz drugą tabelę, której chcesz użyć w relacji, a następnie wybierz drugą kolumnę do użycia i kliknij przycisk **OK**.
 
-![](media/desktop-create-and-manage-relationships/manualrelationship.gif)
+![](media/desktop-create-and-manage-relationships/manualrelationship2.gif)
 
-Domyślnie program Power BI Desktop automatycznie skonfiguruje właściwości Kardynalność (kierunek), Kierunek filtrowania krzyżowego oraz Aktywne dla nowej relacji, jednak można je w razie potrzeby zmienić w opcjach zaawansowanych. Aby dowiedzieć się więcej, zobacz sekcję Omówienie opcji zaawansowanych w dalszej części tego artykułu.
+Domyślnie program Power BI Desktop automatycznie skonfiguruje właściwości Kardynalność (kierunek), Kierunek filtrowania krzyżowego oraz Aktywne dla nowej relacji, jednak można je w razie potrzeby zmienić. Aby dowiedzieć się więcej, zobacz sekcję Omówienie opcji dodatkowych w dalszej części tego artykułu.
 
 ## <a name="edit-a-relationship"></a>Edycja relacji
 1. Na karcie **Narzędzia główne** kliknij polecenie **Zarządzanie relacjami**.
 2. W oknie dialogowym **Zarządzanie relacjami** wybierz relację, a następnie kliknij polecenie **Edytuj**.
 
-## <a name="configure-advanced-options"></a>Konfigurowanie opcji zaawansowanych
-Podczas tworzenia lub edytowania relacji można skonfigurować opcje zaawansowane.  Domyślnie opcje zaawansowane są konfigurowane automatycznie w oparciu o najbardziej prawdopodobny wybór. W przypadku każdej relacji może być on różny i jest uzależniony od danych w kolumnach.
+## <a name="configure-additional-options"></a>Konfigurowanie opcji dodatkowych
+Podczas tworzenia lub edytowania relacji można skonfigurować opcje dodatkowe.  Domyślnie opcje dodatkowe są konfigurowane automatycznie w oparciu o najbardziej prawdopodobny wybór. W przypadku każdej relacji może być on różny i jest uzależniony od danych w kolumnach.
 
 ## <a name="cardinality"></a>Kardynalność
 **Wiele do jednego (\*:1)** — jest to najbardziej typowy, domyślny typ. Oznacza, że kolumna w jednej tabeli może zawierać więcej niż jedno wystąpienie wartości, a druga, powiązana tabela — często nazywana tabelą odnośników — zawiera tylko jedno wystąpienie wartości.
 
 **Jeden do jednego (1:1)** — oznacza, że kolumna w jednej tabeli zawiera tylko jedno wystąpienie określonej wartości, a druga, powiązana tabela również zawiera tylko jedno wystąpienie określonej wartości.
 
-Więcej informacji o tym, kiedy zmienić kardynalność, zawiera sekcja Omówienie opcji zaawansowanych w dalszej części tego artykułu.
+Więcej informacji o tym, kiedy zmienić kardynalność, zawiera sekcja Omówienie opcji dodatkowych w dalszej części tego artykułu.
 
 ## <a name="cross-filter-direction"></a>Kierunek filtrowania krzyżowego
 **Oba** — jest to najbardziej typowy, domyślny kierunek. Oznacza, że na potrzeby filtrowania obie tabele są traktowane jak jedna tabela.  Dobrze się sprawdza w przypadku pojedynczej tabeli z szeregiem tabel odnośników.  Przykładem jest tabela rzeczywistej sprzedaży z tabelą odnośników dla każdego działu.  Taki układ jest często nazywany konfiguracją w schemacie gwiazdy (centralna tabela z kilkoma tabelami odnośników).  Jeśli jednak istnieją co najmniej dwie tabele, które również mają tabele odnośników (częściowo wspólne), wówczas użycie ustawienia Oba jest niewskazane.  W tym przypadku, kontynuując poprzedni przykład, mamy również tabelę budżetu, która zawiera rekordy budżetu docelowego dla każdego działu.  Tabela działu jest połączona z tabelą sprzedaży oraz tabelą budżetu.  W przypadku konfiguracji tego rodzaju należy unikać ustawienia Oba.
 
 **Jeden** — oznacza, że opcje filtrowania w połączonych tabelach dotyczą tabeli, w której następuje agregacja wartości. W przypadku zaimportowania modelu danych z dodatku Power Pivot w programie Excel 2013 lub wcześniejszym wszystkie relacje będą miały jeden kierunek. 
 
-Więcej informacji o tym, kiedy zmienić kierunek filtrowania krzyżowego, zawiera sekcja Omówienie opcji zaawansowanych w dalszej części tego artykułu.
+Więcej informacji o tym, kiedy zmienić kierunek filtrowania krzyżowego, zawiera sekcja Omówienie opcji dodatkowych w dalszej części tego artykułu.
 
 ## <a name="make-this-relationship-active"></a>Aktywuj tę relację
 Jeśli ta opcja jest zaznaczona, relacja pełni rolę aktywnej, domyślnej relacji.  Gdy między dwiema tabelami istnieje więcej niż jedna relacja, aktywna relacja umożliwia programowi Power BI Desktop automatyczne tworzenie wizualizacji, które uwzględniają obie tabele.
 
-Więcej informacji o tym, kiedy ustawić konkretną relację jako aktywną, zawiera sekcja Omówienie opcji zaawansowanych w dalszej części tego artykułu.
+Więcej informacji o tym, kiedy ustawić konkretną relację jako aktywną, zawiera sekcja Omówienie opcji dodatkowych w dalszej części tego artykułu.
 
 ## <a name="understanding-relationships"></a>Omówienie relacji
 Po połączeniu dwóch tabel relacją można pracować z danymi w obu tabelach w taki sposób, jakby były w jednej tabeli, dzięki czemu nie trzeba zajmować się szczegółami relacji ani przekształcać tych tabel w jedną przed zaimportowaniem.  W wielu sytuacjach program Power BI Desktop może tworzyć relacje automatycznie, dlatego samodzielne tworzenie relacji może być niepotrzebne. Jeśli program Power BI Desktop nie może ustalić z wysokim poziomem pewności, że relacja między dwiema tabelami powinna istnieć, wówczas nie utworzy relacji automatycznie. W takim przypadku konieczne będzie utworzenie relacji.   
@@ -123,11 +123,11 @@ Pamiętasz te kolumny z nazwami projektów, które widzieliśmy w obu tabelach, 
 
 Dlaczego te kolumny? Kolumna Project w tabeli ProjectHours zawiera wartości takie jak Blue, Red, Yellow, Orange itp. Kilka wierszy zawiera nawet tę samą wartość. W efekcie mamy wiele wartości kolorów w kolumnie Project.
 
-W kolumnie ProjName tabeli CompanyProject widzimy, że każda wartość koloru dla projektu występuje tylko jeden raz. Każda wartość koloru w tej tabeli jest unikatowa i jest to ważne, ponieważ dzięki temu możemy utworzyć relację między tymi dwiema tabelami. W tym przypadku będzie to relacja wiele do jednego. W relacji wiele do jednego co najmniej jedna kolumna w jednej z tabel musi zawierać unikatowe wartości. W przypadku niektórych relacji istnieją pewne zaawansowane opcje, którymi zajmiemy się później. Teraz utworzymy relację między kolumnami Project w każdej z naszych dwóch tabel.
+W kolumnie ProjName tabeli CompanyProject widzimy, że każda wartość koloru dla projektu występuje tylko jeden raz. Każda wartość koloru w tej tabeli jest unikatowa i jest to ważne, ponieważ dzięki temu możemy utworzyć relację między tymi dwiema tabelami. W tym przypadku będzie to relacja wiele do jednego. W relacji wiele do jednego co najmniej jedna kolumna w jednej z tabel musi zawierać unikatowe wartości. W przypadku niektórych relacji istnieją pewne dodatkowe opcje, którymi zajmiemy się później. Teraz utworzymy relację między kolumnami Project w każdej z naszych dwóch tabel.
 
 ### <a name="to-create-the-new-relationship"></a>Aby utworzyć nową relację
 1. Kliknij opcję **Zarządzanie relacjami**.
-2. W obszarze **Zarządzanie relacjami** kliknij opcję **Nowy**. Spowoduje to otwarcie okna dialogowego **Tworzenie relacji**, w którym można wybrać tabele, kolumny i dowolne ustawienia zaawansowane dla relacji.
+2. W obszarze **Zarządzanie relacjami** kliknij opcję **Nowy**. Spowoduje to otwarcie okna dialogowego **Tworzenie relacji**, w którym można wybrać tabele, kolumny i dowolne ustawienia dodatkowe dla relacji.
 3. W pierwszej tabeli wybierz pozycję **ProjectHours**, a następnie wybierz kolumnę **Project**. To jest strona „wiele” naszej relacji.
 4. W drugiej tabeli wybierz pozycję **CompanyProject**, a następnie wybierz kolumnę **ProjName**. To jest strona „jeden” naszej relacji.  
 5. Kliknij przycisk **OK** w oknie dialogowym **Tworzenie relacji** i oknie dialogowym **Zarządzanie relacjami**.
@@ -146,12 +146,12 @@ W przypadku sumowania godzin według priorytetu (Priority) program Power BI Desk
 
 Poszło całkiem sprawnie, a dzięki autowykrywaniu mogłoby pójść jeszcze sprawniej.
 
-## <a name="understanding-advanced-options"></a>Omówienie opcji zaawansowanych
-Podczas tworzenia relacji — z użyciem autowykrywania lub ręcznie — program Power BI Desktop automatycznie konfiguruje opcje zaawansowane na podstawie danych zawartych w tabelach. Właściwości zaawansowane relacji można skonfigurować, rozwijając obszar Opcje zaawansowane w oknie dialogowym Tworzenie/Edytowanie relacji.
+## <a name="understanding-additional-options"></a>Omówienie opcji dodatkowych
+Podczas tworzenia relacji — z użyciem autowykrywania lub ręcznie — program Power BI Desktop automatycznie konfiguruje opcje dodatkowe na podstawie danych zawartych w tabelach. Możesz skonfigurować te dodatkowe właściwości relacji znajdujące się w najniższej części okna dialogowego Tworzenie/Edytowanie relacji.
 
- ![](media/desktop-create-and-manage-relationships/candmrel_advancedoptions.png)
+ ![](media/desktop-create-and-manage-relationships/candmrel_advancedoptions2.png)
 
-Jak już mówiliśmy, te właściwości są zwykle ustawiane automatycznie i nie ma potrzeby ingerowania w te ustawienia. Istnieje jednak kilka sytuacji, w których konieczne może być samodzielne skonfigurowanie opcji zaawansowanych.
+Jak już mówiliśmy, te właściwości są zwykle ustawiane automatycznie i nie ma potrzeby ingerowania w te ustawienia. Istnieje jednak kilka sytuacji, w których konieczne może być samodzielne skonfigurowanie opcji dodatkowych.
 
 ## <a name="future-updates-to-the-data-require-a-different-cardinality"></a>Przyszłe aktualizacje danych wymagają innej kardynalności
 Zwykle program Power BI Desktop automatycznie określa najlepszą kardynalność dla relacji.  Jeśli zachodzi potrzeba zastąpienia automatycznego ustawienia, ponieważ wiadomo, że dane ulegną zmianie w przyszłości, można wybrać odpowiednie ustawienie w kontrolce Kardynalność. Przyjrzyjmy się jednemu przykładowi, w którym konieczne jest wybranie innej kardynalności.
@@ -179,7 +179,7 @@ Poniższa tabela CompanyProjectPriority jest listą wszystkich projektów firmow
 
 Jeśli utworzymy relację między kolumną Project w tabeli CompanyProjectPriority a kolumną ApprovedProjects w tabeli ProjectBudget w sposób przedstawiony poniżej:
 
- ![](media/desktop-create-and-manage-relationships/candmrel_create_compproj_appproj.png)
+ ![](media/desktop-create-and-manage-relationships/candmrel_create_compproj_appproj2.png)
 
 Kardynalność zostanie automatycznie ustawiona na wartość Jeden do jednego (1:1), a filtrowanie krzyżowe na wartość Oba (jak pokazano).  To dlatego, że dla programu Power BI Desktop najlepsza kombinacja tych dwóch tabel wygląda następująco:
 
@@ -219,9 +219,9 @@ Jednak załóżmy, że wiesz, że dane ulegną zmianie po następnym odświeżen
 | Blue |A |80 000 |6/1/2013 |
 | Red |B |90 000 |6/1/2013 |
 
-W tej nowej połączonej tabeli kolumna Project zawiera powtarzające się wartości.  Gdy tabela zostanie odświeżona, dwie pierwotne tabele nie będą połączone relacją jeden do jednego. Ponieważ w tym przypadku wiemy, że przyszłe aktualizacje spowodują duplikaty w kolumnie Project, chcemy ustawić właściwość Kardynalność na wartość Wiele do jednego (\*:1), przy czym stroną „wiele” będzie tabela ProjectBudget, a stroną „jeden” — CompanyProject.
+W tej nowej połączonej tabeli kolumna Project zawiera powtarzające się wartości.  Gdy tabela zostanie odświeżona, dwie pierwotne tabele nie będą połączone relacją jeden do jednego. Ponieważ w tym przypadku wiemy, że przyszłe aktualizacje spowodują duplikaty w kolumnie Project, chcemy ustawić właściwość Kardynalność na wartość Wiele do jednego (\*:1), przy czym stroną „wiele” będzie tabela ProjectBudget, a stroną „jeden” — CompanyProjectPriority.
 
-## <a name="adjusting-cross-filter-direction-for-a-complex-set-of-tables-of-relationships"></a>Dostosowywanie kierunku filtrowania krzyżowego dla złożonego zestawu tabel relacji
+## <a name="adjusting-cross-filter-direction-for-a-complex-set-of-tables-and-relationships"></a>Dostosowywanie kierunku filtrowania krzyżowego dla złożonego zestawu tabel i relacji
 W przypadku większości relacji kierunek filtrowania krzyżowego jest ustawiony na wartość „Oba”.  Istnieją jednak pewne mniej typowe sytuacje, w których może pojawić się potrzeba zastosowania ustawienia innego niż domyślne, na przykład w przypadku importowania modelu ze starszej wersji dodatku Power Pivot, w którym każda relacja jest ustawiona na jeden kierunek. 
 
 Ustawienie Oba umożliwia programowi Power BI Desktop traktowanie wszystkich aspektów połączonych tabel w taki sposób, jakby były jedną tabelą.  Jednak w niektórych sytuacjach program Power BI Desktop nie może jednocześnie ustawić kierunku filtrowania krzyżowego na wartość „Oba” i zachować jednoznacznego zestawu ustawień domyślnych dostępnych na potrzeby raportowania. Jeśli kierunek filtrowania krzyżowego relacji nie jest ustawiony na wartość Oba, najczęstszą przyczyną jest to, że takie ustawienie spowodowałoby powstanie niejednoznaczności.  Jeśli dane ustawienie filtrowania krzyżowego nie działa w danym przypadku, spróbuj ustawić je na konkretną tabelę lub wybrać ustawienie Oba.
