@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/14/2018
+ms.date: 04/04/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 7128c36d8d6c592d8f49797adf5be4927b240e3c
-ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
+ms.openlocfilehash: 50dd3dcf791cd3f2e366957ad37c830b7f4c35f2
+ms.sourcegitcommit: e571de2afa3f34fac06a6aab0df0e8940cb00a0d
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Poprzednie comiesięczne aktualizacje programu Power BI Desktop
 
@@ -31,6 +31,61 @@ W tym artykule opisano poprzednie aktualizacji programu **Power BI Desktop**. Ab
 W poniższych sekcjach opisano aktualizacje programu **Power BI Desktop** z poprzednich miesięcy.
 
 Zawsze możesz [pobrać najnowszą wersję programu Power BI Desktop](https://powerbi.microsoft.com/desktop). Jeśli korzystasz z systemu Windows 10, program **Power BI Desktop** możesz także uzyskać ze Sklepu Windows. Miesięczne wersje są takie same niezależnie od tego, w jaki sposób zainstalujesz program **Power BI Desktop**. Więcej informacji zawiera [ten artykuł](desktop-get-the-desktop.md). 
+
+
+Cieszymy się, że możemy zaprezentować aktualizacje programu **Power BI Desktop** wydane w marcu.
+
+Linki obok każdej aktualizacji mają następujące znaczenie:
+
+* Linki **[wideo]** otwierają nową kartę z fragmentem filmu wideo, w którym omówiono daną funkcję.
+* Dla niektórych funkcji udostępniono **[artykuł]** zawierający dodatkowe szczegóły.
+* Większość funkcji opisano we wpisie w blogu (**[blog]**) dotyczącym miesięcznych aktualizacji.
+* Ponadto niektóre funkcje nie wymagają wyjaśnień i nie udostępniono dla nich artykułu ani filmu wideo.
+
+Film wideo **Latest Updates** (Najnowsze aktualizacje) możesz także obejrzeć od początku, bezpośrednio w tym artykule — w tym celu wystarczy kliknąć ikonę **odtwarzania** na obrazku filmu widocznym pod listą aktualizacji.
+
+W tym miesiącu w programie **Power BI Desktop** wprowadzono następujące nowe aktualizacje:
+
+### <a name="reporting"></a>Raportowanie
+
+* Etykietki narzędzi strony raportu [[wideo]](https://youtu.be/kuI6MMzDh34?t=16s) [[artykuł]]() [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#tooltips) 
+* Tworzenie zakładek jest teraz ogólnie dostępne [[wideo]](https://youtu.be/kuI6MMzDh34?t=9m2s) [[artykuł]](desktop-bookmarks.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#bookmarking) 
+* Wyświetlanie jednostek i sterowanie dokładnością w kolumnach tabeli i macierzy [[wideo]](https://youtu.be/kuI6MMzDh34?t=11m1s) [[artykuł]](desktop-slicer-numeric-range.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#displayUnits) 
+* Wyłączanie nagłówka wizualizacji w trybie odczytu raportu [[wideo]](https://youtu.be/kuI6MMzDh34?t=12m25s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#visualHeader) 
+* Ulepszona domyślna lokalizacja wizualizacji [[wideo]](https://youtu.be/kuI6MMzDh34?t=14m45s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#visualPlacement) 
+
+### <a name="custom-visuals"></a>Wizualizacje niestandardowe
+
+* Wiele nowych wizualizacji niestandardowych [[wideo]](https://youtu.be/kuI6MMzDh34?t=15m43s) [[artykuł]](power-bi-custom-visuals-organization.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#customVisuals) 
+
+### <a name="data-connectivity"></a>Połączenia z danymi
+
+* Ulepszenia łącznika usługi Visual Studio Team Services [[wideo]](https://youtu.be/kuI6MMzDh34?t=32m) [[artykuł]](desktop-multi-select.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#vsts) 
+* Ulepszenia łącznika platformy SAP HANA [[wideo]](https://youtu.be/kuI6MMzDh34?t=32m44s) [[artykuł]](desktop-directquery-sap-hana.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#saphana) 
+  * Wielowymiarowa obsługa zapytania bezpośredniego jest teraz ogólnie dostępna
+  * Obsługa sprawdzania poprawności certyfikatów SSL
+* Zapytanie bezpośrednie w systemie SAP BW jest teraz ogólnie dostępne [[wideo]](https://youtu.be/kuI6MMzDh34?t=34m10s) [[artykuł]](desktop-directquery-sap-hana.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#sapBW) 
+* Łącznik usług Azure Analysis Services jest teraz ogólnie dostępny [[wideo]](https://youtu.be/kuI6MMzDh34?t=34m10s) [[artykuł]](desktop-directquery-sap-hana.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#azureAS) 
+
+### <a name="other"></a>Inne
+
+* Ulepszone raportowanie błędów [[wideo]](https://youtu.be/kuI6MMzDh34?t=34m51s) [[artykuł]](desktop-directquery-about.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#errors) 
+* Wyświetlanie napotkanych wcześniej błędów [[wideo]](https://youtu.be/kuI6MMzDh34?t=34m51s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#viewErrors) 
+
+> [!NOTE]
+> Dodatkowo możesz [sprawdzić wszystkie źródła danych dostępne dla programu Power BI Desktop](desktop-data-sources.md). Lista ciągle rośnie, dlatego zachęcamy do częstego jej sprawdzania.
+
+Chcesz uzyskać więcej informacji o tych aktualizacjach? Zapoznaj się z [wpisem w blogu](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary), który zawiera bardziej szczegółowe informacje o każdej z tych nowych funkcji (do tego samego wpisu prowadzą linki na powyższej liście).
+
+
+Poniższy film wideo zawiera omówienia i prezentacje wszystkich tych aktualizacji. Ten film wideo można także obejrzeć we wpisie w blogu.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kuI6MMzDh34" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+> [!NOTE]
+> Być może zainteresują Cię także [nowości w usłudze Power BI](service-whats-new.md) oraz [nowości w aplikacjach mobilnych dla usługi Power BI](mobile-whats-new-in-the-mobile-apps.md).
+
 
 
 ## <a name="february-2018-update-2555010521"></a>Aktualizacja z lutego 2018 r. (2.55.5010.521)
@@ -1466,7 +1521,7 @@ Do tej aktualizacji dodano następującą, ogromną kolekcję 44 funkcji:
         - Kierunek etykiety osi X (poziomy/ukośny)
         - Obsługa skali logarytmicznej i liniowej wartości na ości Y
         - Tekst wyświetlany dla hiperlinków w polach tekstowych
-        - Ulepszenia istniejących wizualizacji: tabela, macierz, fragmentator, wykres punktowy, karty pojedyczne, wykresy kombi i mierniki
+        - Ulepszenia istniejących wizualizacji: tabela, macierz, fragmentator, wykres punktowy, karty pojedyncze, wykresy kombi i mierniki
         - Obsługa wyświetlania wartości nasycenia koloru w etykietkach narzędzi
         - Możliwość zmiany rozmiaru obrazów oraz stosowania dodatkowych opcji formatowania
 

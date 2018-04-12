@@ -2,14 +2,14 @@
 title: Kategoryzacja danych w programie Power BI Desktop
 description: Kategoryzacja danych w programie Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 00b70b6e56d11d0d7dda959f1983cc4631f53ff9
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: cc66655e49860160b43afa5d1acb688c37468212
+ms.sourcegitcommit: c80fbf5b12754ce217cb47a17cb5400b1036a8f2
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/06/2018
 ---
 # <a name="data-categorization-in-power-bi-desktop"></a>Kategoryzacja danych w programie Power BI Desktop
 W programie **Power BI Desktop** możesz określić kategorię danych dla kolumny, aby poinformować program Power BI Desktop, jak powinien traktować jej wartości w wizualizacji.
@@ -40,7 +40,7 @@ Czy program Power BI Desktop powinien traktować kody w kolumnie GeoCode jako sk
 **Aby określić kategorię danych**
 
 1. W widoku raportu lub widoku danych na liście **Pola** wybierz pole, które ma być sortowane według innej kategoryzacji.
-2. Na wstążce na karcie **Modelowanie narzędzi danych** kliknij listę rozwijaną **Kategoria danych**.  Zostanie wyświetlona lista kategorii danych, które możesz wybrać dla kolumny.  Niektóre opcje mogą być wyłączone, jeśli nie współpracują one z bieżącym typem danych kolumny.  Na przykład jeśli kolumna ma typ danych binarnych, program Power BI Desktop nie pozwoli wybrać kategorii danych geograficznych. 
+2. Na wstążce na karcie **Modelowanie** kliknij listę rozwijaną **Kategoria danych**.  Zostanie wyświetlona lista kategorii danych, które możesz wybrać dla kolumny.  Niektóre opcje mogą być wyłączone, jeśli nie współpracują one z bieżącym typem danych kolumny.  Na przykład jeśli kolumna ma typ danych binarnych, program Power BI Desktop nie pozwoli wybrać kategorii danych geograficznych. 
 
 ![](media/desktop-data-categorization/datacategorization.gif)
 

@@ -1,15 +1,15 @@
 ---
-title: "Używanie tabel obliczeniowych w programie Power BI Desktop"
+title: Używanie tabel obliczeniowych w programie Power BI Desktop
 description: Tabele obliczeniowe w programie Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 8bf8d2629d6a0bd88a85fa468547586e93502721
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 41017e1570a518e26305b6195531bcff889dbd9c
+ms.sourcegitcommit: c80fbf5b12754ce217cb47a17cb5400b1036a8f2
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/06/2018
 ---
 # <a name="using-calculated-tables-in-power-bi-desktop"></a>Używanie tabel obliczeniowych w programie Power BI Desktop
 Przy użyciu tabel obliczeniowych można dodać nową tabelę do modelu. Jednak zamiast wykonywania zapytań i ładowania wartości do nowych kolumn tabeli ze źródła danych, tworzona jest formuła języka DAX (Data Analysis Expressions) definiująca wartości w tabeli. W programie Power BI Desktop tabele obliczeniowe są tworzone za pomocą funkcji Nowa tabela w widoku raportu lub widoku danych.
@@ -71,7 +71,15 @@ Tabele obliczeniowe mogą być definiowane przez dowolne wyrażenie DAX zwracaj�
 
 Tabele obliczeniowe z językiem DAX mogą służyć do rozwiązywania wielu problemów analitycznych. To, co tu przedstawiliśmy, to tylko krótkie wprowadzenie do tabel obliczeniowych. Po rozpoczęciu pracy z tabelami obliczeniowymi zapoznaj się z niektórymi najczęściej stosowanymi i przydatnymi funkcjami tabeli języka DAX:
 
-&lt;TABLE&gt; DISTINCT VALUES CROSSJOIN UNION NATURALINNERJOIN NATURALLEFTOUTERJOIN INTERSECT CALENDAR CALENDARAUTO
+* DISTINCT
+* VALUES
+* CROSSJOIN
+* UNION
+* NATURALINNERJOIN
+* NATURALLEFTOUTERJOIN
+* INTERSECT
+* CALENDAR
+* CALENDARAUTO
 
 Zobacz [dokumentację funkcji języka DAX](https://msdn.microsoft.com/ee634396.aspx) dla tych i innych tabel zwracających funkcje języka DAX.
 

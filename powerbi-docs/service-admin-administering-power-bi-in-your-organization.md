@@ -1,28 +1,28 @@
 ---
-title: "Administrowanie usługą Power BI w organizacji"
-description: "Administrowanie usługą Power BI w organizacji"
+title: Administrowanie usługą Power BI w organizacji
+description: Administrowanie usługą Power BI w organizacji
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: mgblythe
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/28/2017
-ms.author: maghan
+ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: b42be834822b4363c58bc4454c38f7973336c7dc
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 64dd0239026d3529129924b8d89eb5cc2642a9af
+ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/08/2018
 ---
 # <a name="administering-power-bi-in-your-organization"></a>Administrowanie usługą Power BI w organizacji
 Usługa Microsoft Power BI umożliwia użytkownikom wizualizowanie danych, udostępnianie odkryć i współpracowanie przy użyciu nowych, intuicyjnych metod. Aby dowiedzieć się więcej, zobacz [Wprowadzenie do usługi Power BI](service-get-started.md).
@@ -206,7 +206,7 @@ Jeśli dzierżawa została utworzona przez firmę Microsoft, możesz przejąć d
 1. Dołącz do dzierżawy, tworząc konto w usłudze Power BI za pomocą adresu e-mail w domenie odpowiadającej domenie dzierżawy, którą chcesz zarządzać. Na przykład jeśli firma Microsoft utworzyła dzierżawę contoso.com, należy dołączyć do dzierżawy za pomocą adresu e-mail kończącego się na @contoso.com.
 2. Przejmij kontrolę administracyjną, weryfikując własność domeny: po dołączeniu do dzierżawy możesz nadać sobie rolę *administratora globalnego*, weryfikując własność domeny. Aby to zrobić, wykonaj następujące kroki:
    
-   1. Przejdź do witryny [https://portal.office.com](https://portal.office.com).
+   1. Przejdź do [https://portal.office.com](https://portal.office.com).
    2. Wybierz ikonę Uruchamianie aplikacji w lewym górnym rogu, a następnie wybierz pozycję **Administrator**.
    3. Zapoznaj się z instrukcjami na stronie **Zostań administratorem**, a następnie wybierz pozycję **Tak, chcę być administratorem**.
       
