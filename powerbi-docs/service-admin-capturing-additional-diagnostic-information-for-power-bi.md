@@ -28,9 +28,9 @@ ms.lasthandoff: 04/08/2018
 ## <a name="capturing-additional-diagnostic-information-for-power-bi"></a>Przechwytywanie dodatkowych informacji diagnostycznych dotyczących usługi Power BI
 Instrukcje te zapewniają dwie potencjalne opcje ręcznego gromadzenia dodatkowych informacji diagnostycznych od internetowego klienta usługi Power BI.  Należy postępować zgodnie z tylko jedną z tych opcji.
 
-## <a name="network-capture---edge--internet-explorer"></a>Przechwytywanie sieci — przeglądarki Edge i Internet Explorer
-1. Przejdź do usługi [Power BI](https://app.powerbi.com) za pomocą przeglądarki Edge lub Internet Explorer.
-2. Otwórz narzędzia deweloperskie przeglądarki Edge, naciskając klawisz F12.
+## <a name="network-capture---edge--internet-explorer"></a>Przechwytywanie sieci — przeglądarki Microsoft Edge i Internet Explorer
+1. Przejdź do usługi [Power BI](https://app.powerbi.com) za pomocą przeglądarki Microsoft Edge lub Internet Explorer.
+2. Otwórz narzędzia deweloperskie przeglądarki Microsoft Edge, naciskając klawisz F12.
 3. Spowoduje to wyświetlenie okna Narzędzia dla deweloperów: 
    
    ![](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-developer-tools.png)
