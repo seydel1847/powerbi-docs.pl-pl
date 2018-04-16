@@ -61,7 +61,7 @@ Pakiet zawartości obejmuje dane z następujących tabel:
     - Działanie  
     - Agenci  
     - Autoryzacja  
-    - Kraje  
+    - Kraje/regiony  
     - Postępy kursów  
     - Rejestracje
     - Język  
