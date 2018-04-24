@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 11/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 64dd0239026d3529129924b8d89eb5cc2642a9af
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: d5cb48469cc5ed5b49da841552bf7426ad29c3fb
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="administering-power-bi-in-your-organization"></a>Administrowanie usługą Power BI w organizacji
 Usługa Microsoft Power BI umożliwia użytkownikom wizualizowanie danych, udostępnianie odkryć i współpracowanie przy użyciu nowych, intuicyjnych metod. Aby dowiedzieć się więcej, zobacz [Wprowadzenie do usługi Power BI](service-get-started.md).
@@ -185,8 +185,6 @@ Aby wykonać następujące kroki, musisz zainstalować najnowszą 64-bitową wer
 Jeśli Twoja organizacja ma już istniejące środowisko usługi Office 365 i wszyscy użytkownicy w organizacji mają konta usługi Office 365, zarządzanie tożsamościami nie ulegnie zmianie.
 
 Jeśli organizacja ma już istniejące środowisko usługi Office 365, ale nie wszyscy użytkownicy w organizacji mają konta usługi Office 365, utworzymy użytkownika w ramach dzierżawy i przypiszemy licencje na podstawie służbowego adresu e-mail danego użytkownika. Oznacza to, że liczba użytkowników, którymi zarządzasz w danym momencie, będzie się zwiększać w miarę tworzenia kont usługi przez użytkowników w organizacji.
-
-Jeśli zarządzasz katalogiem lokalnie i używasz usług Active Directory Federation Services (AD FS), firma Microsoft nie doda użytkowników do dzierżawy, a użytkownicy próbujący dołączyć do dzierżawy otrzymają komunikat z prośbą o kontakt z administratorem w organizacji.
 
 Jeśli organizacja nie ma środowiska usługi Office 365 połączonego z domeną poczty e-mail, Twój sposób zarządzania tożsamościami nie zmieni się. Użytkownicy będą dodawani do nowego katalogu użytkowników działającego tylko w chmurze, a Ty będziesz mieć możliwość dobrowolnego wyboru i przejęcia tych użytkowników jako administrator dzierżawy i zarządzania nimi.
 

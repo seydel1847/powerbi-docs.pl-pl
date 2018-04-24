@@ -1,16 +1,16 @@
 ---
-title: "Przypinanie kafelka do pulpitu nawigacyjnego usługi Power BI z programu Excel"
-description: "Przypnij kafelek do pulpitu nawigacyjnego usługi Power BI z programu Excel w usłudze OneDrive dla Firm. Przypinanie zakresów, wykresów, tabel"
+title: Przypinanie kafelka do pulpitu nawigacyjnego usługi Power BI z programu Excel
+description: Przypnij kafelek do pulpitu nawigacyjnego usługi Power BI z programu Excel w usłudze OneDrive dla Firm. Przypinanie zakresów, wykresów, tabel
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: l8JoB7w0zJA
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -19,11 +19,11 @@ ms.workload: powerbi
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: fdd014e513a794a72196a3173703b9536f06768a
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 76bfe440291687d7f34b859eccad6099a498c819
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-excel"></a>Przypinanie kafelka do pulpitu nawigacyjnego usługi Power BI z programu Excel
 Zanim będzie możliwe przypięcie kafelka ze skoroszytu programu Excel połącz ten skoroszyt z usługą Power BI (app.powerbi.com). Zasadniczo łączenie skoroszytu powoduje przeniesienie połączonej wersji tylko do odczytu tego skoroszytu do usługi Power BI i pozwala przypiąć zakresy do pulpitów nawigacyjnych. Możesz nawet przypiąć cały arkusz do pulpitu nawigacyjnego.  
@@ -41,20 +41,19 @@ Po wybraniu pozycji **Połącz** skoroszyt pojawi się w usłudze Power BI, podo
 W usłudze Power BI nie możesz edytować swojego skoroszytu. Ale jeśli musisz wprowadzić pewne zmiany, możesz wybrać ikonę ołówka na karcie **Skoroszyty** swojego obszaru roboczego, a następnie wprowadzić zmiany do swojego skoroszytu w programie Excel Online lub otworzyć go w programie Excel na komputerze. Wszelkie wprowadzone zmiany są zapisywane w skoroszycie w usłudze OneDrive.
 
 1. Przekaż swój skoroszyt do usługi OneDrive dla Firm.
+
 2. Z usługi Power BI [połącz się z tym skoroszytem](service-excel-workbook-files.md). W tym celu wybierz opcję **Pobierz dane > Pliki > OneDrive — dla firm** i przejdź do lokalizacji, w której zapisano plik programu Excel. Zaznacz plik i wybierz polecenie **Połącz > Połącz**.
 
-   ![Okno dialogowe usługi OneDrive dla Firm](media/service-dashboard-pin-tile-from-excel/power-bi-connect.png)
+    ![Okno dialogowe usługi OneDrive dla Firm](media/service-dashboard-pin-tile-from-excel/power-bi-connect.png)
 
 3. W usłudze Power BI skoroszyt jest dodawany do karty **Skoroszyty** Twojego obszaru roboczego.  Ikona ![ikona skoroszytu](media/service-dashboard-pin-tile-from-excel/pbi_workbookicon.png) wskazuje, że jest to skoroszyt programu Excel, a żółta gwiazdka wskazuje, że jest on nowy.
-   
     
-   ![karta skoroszytów](media/service-dashboard-pin-tile-from-excel/power-bi-workbooks.png)
+    ![karta skoroszytów](media/service-dashboard-pin-tile-from-excel/power-bi-workbooks.png)
 4. Otwórz skoroszyt w usłudze Power BI, wybierając nazwę skoroszytu.
 
     Zmiany wprowadzone do skoroszytu w usłudze Power BI nie zostały zapisane i nie mają wpływu na oryginalny skoroszyt w usłudze OneDrive dla Firm. Jeśli sortujesz, filtrujesz lub zmieniasz wartości w usłudze Power BI, tych zmian nie można zapisać ani przypiąć. Jeśli musisz wprowadzić zmiany, które zostaną zapisane, wybierz opcję **Edytuj** w prawym górnym rogu, aby go otworzyć do edycji w programie Excel Online lub Excel. Po wprowadzonych w ten sposób zmianach czas potrzebny do zaktualizowania kafelków na pulpicie nawigacyjnym może potrwać kilka minut.
    
-   
-   ![Program Excel Online w usłudze Power BI](media/service-dashboard-pin-tile-from-excel/power-bi-opened.png)
+    ![Program Excel Online w usłudze Power BI](media/service-dashboard-pin-tile-from-excel/power-bi-opened.png)
 
 ## <a name="pin-a-range-of-cells-to-a-dashboard"></a>Przypinanie zakresu komórek do pulpitu nawigacyjnego
 Jednym sposobem dodania nowego [kafelka pulpitu nawigacyjnego](service-dashboard-tiles.md) jest realizowany z wnętrza skoroszytu programu Excel w usłudze Power BI. Zakresy można przypiąć ze skoroszytów programu Excel, które zostały zapisane w usłudze OneDrive dla Firm lub innej bibliotece dokumentów udostępnionych w grupie. Zakresy mogą zawierać dane, wykresy, tabele, tabele przestawne, wykresy przestawne i inne składniki programu Excel.

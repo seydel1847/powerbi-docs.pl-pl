@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/13/2018
+ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: a9cb6e3d3fe244a3d530efeb2624e3cc5a799e55
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: 1ccc4eeff54bff91a9ed245fdb82462768b65264
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="reading-view-and-editing-view-in-power-bi-service-reports"></a>Widok do czytania i widok do edycji w raportach usługi Power BI
 W usłudze Power BI (nie w programie Power BI Desktop) są dostępne dwa tryby wyświetlania raportów i korzystania z nich: widok do czytania i widok do edycji. Widok do czytania jest dostępny dla wszystkich osób, a w szczególności jest przeznaczony dla *użytkowników* danych, natomiast widok do edycji jest dostępny tylko dla *twórców* i właścicieli raportu.
@@ -48,7 +48,6 @@ Ten wykres nie zawiera wszystkich funkcji raportu usługi Power BI! Zawiera on l
 |Zadanie  | Widok do czytania  | Widok do edycji |
 |-------------------------|-------|-------|
 |**Raporty jako całość**  |
-||||
 | [Tworzenie lub edytowanie raportu](service-report-create-new.md) | Nie  | Tak |
 | [Udostępnianie raportu](service-share-reports.md)| Tak | Tak. Umożliwia także zarządzanie uprawnieniami, w tym przyznawanie innym uprawnień *właściciela*. |
 | [Tworzenie trwałych filtrów na poziomie wizualizacji, przeglądania szczegółowego, na poziomie strony i na poziomie raportu w okienku filtrów](power-bi-report-add-filter.md) | Nie  | Tak |
@@ -63,12 +62,10 @@ Ten wykres nie zawiera wszystkich funkcji raportu usługi Power BI! Zawiera on l
 | [Zapisywanie raportu](service-report-save.md) | Tak, ale wyłącznie przy użyciu polecenia **Zapisz jako**. | Tak |
 | [Usuwanie raportu](service-delete.md) | Nie  | Tak |
 |**Strony raportu** |
-||||
 | [Dodawanie strony raportu lub zmienianie jej nazwy](power-bi-report-add-page.md)  | Nie  | Tak  |
 | [Duplikowanie strony raportu](power-bi-report-copy-paste-page.md) | Nie  | Tak |
 | [Usuwanie strony raportu](service-delete.md) | nie | tak |
 |**Praca z wizualizacjami raportu**|
-||||
 | [Dodawanie wizualizacji do raportu](power-bi-report-add-visualizations-i.md) | Nie  | Tak |
 | [Dodawanie pól tekstowych i kształtów do raportu](power-bi-reports-add-text-and-shapes.md) | Nie  | Tak |
 | [Używanie okienka formatowania raportu](service-the-report-editor-take-a-tour.md) | Nie | Tak |
