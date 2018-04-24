@@ -1,29 +1,29 @@
 ---
-title: "Szybki start – Edytor raportu: krótki przewodnik"
-description: "Edytor raportu: krótki przewodnik."
+title: 'Szybki start – Edytor raportu: krótki przewodnik'
+description: 'Edytor raportu: krótki przewodnik.'
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
+backup: ''
+editor: ''
 featuredvideoid: IkJda4O7oGs
-tags: 
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/28/2018
+ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: ea40bafdc3c210771e5dd02368df41d3d9287baf
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: b134fe1e5d14f3707391888951178553d5cda7e5
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="the-report-editortake-a-tour"></a>Edytor raportu: krótki przewodnik
 ## <a name="editing-reports-in-power-bi-service-and-power-bi-desktop"></a>Edytowanie raportów w usłudze Power BI i programie Power BI Desktop
@@ -56,7 +56,6 @@ Zawartość wyświetlana w edytorze raportu jest zależna od wyborów dokonanych
 |  |  |
 | --- | --- |
 | ![](media/service-the-report-editor-take-a-tour/power-bi-panes.png) |<ul><li>Górna część okienka wizualizacji identyfikuje typ używanego elementu wizualnego; w tym przykładzie jest to wykres słupkowy grupowany.<br><br></li> <li>Dolna część okienka wizualizacji (może okazać się konieczne przewinięcie) wyświetla pola używane w elemencie wizualnym. Ten wykres używa pól FiscalMonth, DistrictManager i Total Sales Variance. <br><br></li><li>Okienko filtry (może okazać się konieczne przewinięcie) wyświetla wszelkie filtry, które zostały zastosowane. <br><br></li><li>Okienko pól zawiera listę dostępnych tabel, a jeśli rozwiniesz nazwę tabeli, pola, które tworzą daną tabelę. Żółta czcionka informuje, że co najmniej jedno pole z tej tabeli jest używane do wizualizacji.<br><br></li><li>![ikona wałka do malowania](media/service-the-report-editor-take-a-tour/power-bi-paint-roller-icon.png) Aby wyświetlić okienko formatowania dla wybranej wizualizacji, wybierz ikonę wałka do malowania.<br><br></li><li>![ikona lupy](media/service-the-report-editor-take-a-tour/power-bi-magnifying-icon.png) Aby wyświetlić okienko analizy, wybierz ikonę lupy.</ul> |
-|  | |
 
 ## <a name="the-visualizations-pane-from-top-to-bottom"></a>Okienko Wizualizacje (od góry do dołu)
 ![górna część okienka Wizualizacje](media/service-the-report-editor-take-a-tour/selectviz.png)

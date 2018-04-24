@@ -16,14 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/15/2018
+ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 72afa61316800e9636d7b1a1536ff9c43b66c453
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: c23d36c408c1714df9a480d5f35da9691af620d9
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Filtrowanie raportu za pomocą parametrów ciągu zapytania w adresie URL
 Po otwarciu raportu w usłudze Power BI każda strona raportu ma własny unikatowy adres URL. Aby wykonać filtrowanie takiej strony raportu, możesz użyć okienka Filtr na kanwie raportów.  Możesz też dodać parametry ciągu zapytania do adresu URL. Być może masz raport, który chcesz pokazać współpracownikom, ale najpierw planujesz go wstępnie przefiltrować. Jeden ze sposobów polega na tym, aby rozpocząć od domyślnego adresu URL raportu, dodać do niego parametry filtru, a następnie po prostu wysłać cały adres URL swoim współpracownikom za pośrednictwem poczty e-mail.
@@ -98,7 +98,7 @@ TerritoryChain = [Territory] & " - " & [Chain]
 
 Opublikuj raport w usłudze Power BI, a następnie użyj ciągu zapytania adresu URL, aby przefiltrować dane w celu wyświetlenia wyłącznie sklepów Lindseys w Karolinie Północnej (NC).
 
-https://app.powerbi.com/groups/me/reports/8d6e300b-696f-498e-b611-41ae03366851/ReportSection3?filter=Store/TerritoryChain eq 'NC–Lindseys'
+    https://app.powerbi.com/groups/me/reports/8d6e300b-696f-498e-b611-41ae03366851/ReportSection3?filter=Store/TerritoryChain eq 'NC–Lindseys'
 
 ## <a name="pin-a-tile-from-a-filtered-report"></a>Przypinanie kafelka z filtrowanego raportu
 Po przefiltrowaniu raportu za pomocą parametrów ciągu zapytania możesz przypiąć wizualizację z tego raportu do pulpitu nawigacyjnego. Kafelek na pulpicie nawigacyjnym wyświetli odfiltrowane dane, a wybranie tego kafelka pulpitu nawigacyjnego spowoduje otwarcie raportu, który został użyty do jego utworzenia.  Filtrowanie wykonane za pomocą adresu URL nie jest zapisywane wraz z raportem, a po wybraniu kafelka pulpitu nawigacyjnego raport otworzy się w stanie sprzed filtrowania.  Oznacza to, że dane wyświetlane na kafelku pulpitu nawigacyjnego nie będą odpowiadały danym wyświetlanym w wizualizacji raportu.
