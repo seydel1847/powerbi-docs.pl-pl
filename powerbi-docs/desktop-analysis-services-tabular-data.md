@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ac5786c51fdf3f927605fdf20123a8ea93e74f8a
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: 4ca8e0b634cc2b47d562d535506fdc1fae6e527e
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="using-analysis-services-tabular-data-in-power-bi-desktop"></a>Używanie danych tabelarycznych usług Analysis Services w programie Power BI Desktop
 Program Power BI Desktop zapewnia dwa sposoby nawiązywania połączenia i pobierania danych z modeli tabelarycznych usług programu SQL Server Analysis Services: eksplorowanie przy użyciu połączenia na żywo lub wybranie elementów i zaimportowanie ich do programu Power BI Desktop.
