@@ -846,10 +846,12 @@
           href: desktop-send-smile-privacy-statement.md
     - name: Rozwiązywanie problemów
       items:
-        - name: Rozwiązywanie problemów dotyczących importowania baz danych programu Access i arkuszy kalkulacyjnych programu Excel w programie Power BI Desktop i dodatku Power Query
-          href: desktop-access-database-errors.md
+        - name: Rozwiązywanie problemów podczas logowania się do programu Power BI Desktop
+          href: desktop-troubleshooting-sign-in.md
         - name: Rozwiązywanie problemów podczas uruchamiania programu Power BI Desktop
           href: desktop-error-launching-desktop.md
+        - name: Rozwiązywanie problemów dotyczących importowania baz danych programu Access i arkuszy kalkulacyjnych programu Excel w programie Power BI Desktop i dodatku Power Query
+          href: desktop-access-database-errors.md
 - name: Aplikacje mobilne Power BI
   items:
     - name: Wprowadzenie
@@ -1070,9 +1072,9 @@
           href: 'https://go.microsoft.com/fwlink/?linkid=848709'
         - name: Praca z kluczowymi wskaźnikami wydajności
           href: 'https://go.microsoft.com/fwlink/?linkid=849021'
-        - name: Obsługiwane źródła danych
+        - name: Źródła danych raportu usługi Power BI (.pbix)
           href: report-server/data-sources.md
-        - name: Połączyć się ze źródłami danych
+        - name: Źródła danych raportu podzielonego na strony (.rdl)
           href: report-server/connect-data-sources.md
         - name: 'Uzyskiwanie dostępu do udostępnionych zestawów danych jako źródeł danych usługi OData '
           href: report-server/access-dataset-odata.md
