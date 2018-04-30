@@ -15,27 +15,22 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/12/2017
+ms.date: 04/10/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 46f8d11d45423a9f7df96ac4d1e59c5d805304a7
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: 23fa4ea28631e7545a1d68cd1f631eb087c56b98
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="using-auditing-within-your-organization"></a>Korzystanie z inspekcji w ramach organizacji
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zj4kA39jV_4?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 Dowiedz się, jak za pomocą inspekcji w usłudze Power BI możesz monitorować i badać wykonywane akcje. Skorzystaj z Centrum zabezpieczeń i zgodności lub programu PowerShell.
 
 Wiedza na temat tego, kto wykonuje jakie akcje i na jakim elemencie w dzierżawie usługi Power BI może być niezbędna, aby pomóc organizacji w spełnianiu jej wymagań, np. zapewnianiu zgodności z przepisami i zarządzaniu rekordami.
 
 Dane inspekcji możesz filtrować według zakresu dat, użytkownika, pulpitu nawigacyjnego, raportu, zestawu danych i typu działania. Dodatkowo działania możesz pobrać w pliku csv (wartości rozdzielone przecinkami), aby je przeanalizować w trybie offline.
-
-> [!NOTE]
-> Funkcja inspekcji w usłudze Power BI jest dostępna w wersji zapoznawczej we wszystkich obszarach danych.
 
 ## <a name="requirements"></a>Wymagania
 Aby uzyskać dostęp do dzienników inspekcji, musisz spełnić następujące wymagania:
@@ -47,28 +42,8 @@ Aby uzyskać dostęp do dzienników inspekcji, musisz spełnić następujące wy
 
 - Jeśli masz dostęp do dziennika inspekcji, ale nie jesteś administratorem globalnym ani administratorem usługi Power BI, nie będziesz mieć dostępu do portalu administracyjnego usługi Power BI. W takim przypadku musisz uzyskać bezpośredni link do Centrum zabezpieczeń i zgodności usługi Office 365.
 
-## <a name="enabling-auditing-functionality-in-the-power-bi-admin-portal"></a>Włączanie funkcji inspekcji w portalu administracyjnym usługi Power BI
-
-Aby pracować z raportami, należy włączyć funkcję inspekcji dla swojej organizacji. Można to zrobić za pomocą ustawień dzierżawy w portalu administracyjnym.
-
-1. Wybierz **ikonę koła zębatego** w prawym górnym rogu.
-
-2. Wybierz polecenie **Portal administracyjny**.
-   
-   ![](media/service-admin-auditing/powerbi-admin.png)
-
-3. Wybierz pozycję **Ustawienia dzierżawy**.
-   
-   ![](media/service-admin-auditing/powerbi-admin-tenant-settings.png)
-
-4. Włącz opcję **Twórz dzienniki inspekcji na potrzeby wewnętrznych inspekcji działań i sprawdzania zgodności**.
-
-5. Wybierz pozycję **Zastosuj**.
-
-Usługa Power BI rozpocznie rejestrowanie działań wykonywanych przez użytkowników w tej usłudze. Dzienniki będą widoczne w Centrum zabezpieczeń i zgodności usługi O365 w ciągu maksymalnie 48 godzin. Aby uzyskać więcej informacji na temat rejestrowanych działań, zobacz [Lista działań objętych inspekcją w usłudze Power BI](#list-of-activities-audited-by-power-bi).
-
 > [!NOTE]
-> Aby włączyć inspekcję dla usługi Power BI w dzierżawie, wymagana jest w niej co najmniej jedna licencja skrzynki pocztowej programu Exchange.
+> Aby wyświetlić dzienniki inspekcji dla usługi Power BI w dzierżawie, wymagana jest w niej co najmniej jedna licencja skrzynki pocztowej programu Exchange.
 
 ## <a name="accessing-your-audit-logs"></a>Uzyskiwanie dostępu do dzienników inspekcji
 

@@ -1,29 +1,29 @@
 ---
-title: "Metryki użycia pulpitów nawigacyjnych i raportów"
-description: "Jak wyświetlać, zapisywać i używać metryki użycia pulpitów nawigacyjnych i raportów usługi Power BI. Zmierz i zmaksymalizuj swoje oddziaływanie dzięki metrykom użycia dla twórców zawartości."
+title: Metryki użycia pulpitów nawigacyjnych i raportów
+description: Jak wyświetlać, zapisywać i używać metryki użycia pulpitów nawigacyjnych i raportów usługi Power BI. Zmierz i zmaksymalizuj swoje oddziaływanie dzięki metrykom użycia dla twórców zawartości.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/28/2018
+ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 1ad8425917153f2f9662041dc594817857f8f499
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: d12f59f768b98bbc974258592f236176ecf52b3f
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="usage-metrics-for-dashboards-and-reports"></a>Metryki użycia pulpitów nawigacyjnych i raportów
 Jeśli tworzysz pulpity nawigacyjne i raporty, metryki użycia pomogą Ci określić ich oddziaływanie. Uruchamiając metryki użycia pulpitów nawigacyjnych lub raportów, możesz dowiedzieć się, w jaki sposób są one używane w organizacji: jaka zawartość jest używana, przez kogo i w jakim celu.  
@@ -53,7 +53,7 @@ Po wybraniu pozycji **Metryki użycia** lub ikony ![ikona metryk użycia](media/
 
 Raporty metryk użycia nie będą widoczne na listach zawartości **Ostatnio używane**, **Obszary robocze**, **Ulubione** ani innych. Nie można dodawać ich do aplikacji. Jeśli przypniesz do pulpitu nawigacyjnego kafelek z raportu metryk użycia, nie będzie można dodać tego pulpitu nawigacyjnego do aplikacji ani do pakietu zawartości.
 
-Aby dokładniej analizować dane raportu lub tworzyć własne raporty na podstawie tego samego zestawu danych, użyj polecenia **Zapisz jako** (zobacz [Zapisywanie raportu metryk użycia jako w pełni funkcjonalnego raportu usługi Power BI](#save-the-usage-metrics-report-as-a-full-featured-power-bi-report)).
+Aby dokładniej analizować dane raportu lub tworzyć własne raporty na podstawie tego samego zestawu danych, użyj polecenia **Zapisz jako** (zobacz [Zapisywanie raportu metryk użycia jako w pełni funkcjonalnego raportu usługi Power BI](#Save-the-Usage-Metrics-report-as-a-full-featured-Power-BI-report-(personalize))).
 
 ## <a name="open-a-usage-metrics-report-for-a-dashboard-or-report"></a>Otwieranie raportu metryk użycia dotyczącego pulpitu nawigacyjnego lub raportu
 1. Zacznij w obszarze roboczym zawierającym wybrany pulpit nawigacyjny lub raport.

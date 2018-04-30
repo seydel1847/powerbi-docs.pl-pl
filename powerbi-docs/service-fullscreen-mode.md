@@ -1,35 +1,39 @@
 ---
-title: "Wyświetlanie pulpitów nawigacyjnych, kafelków pulpitu nawigacyjnego, stron raportu i wizualizacji raportu w trybie pełnoekranowym"
-description: "Wyświetlanie pulpitów nawigacyjnych, kafelków pulpitu nawigacyjnego, elementów wizualnych raportu i stron raportu w trybie pełnoekranowym, nazywanym też *trybem TV (telewizyjnym)*."
+title: Wyświetlanie pulpitów nawigacyjnych, kafelków, stron raportu i wizualizacji w trybie pełnoekranowym
+description: Wyświetlanie pulpitów nawigacyjnych, kafelków pulpitu nawigacyjnego, elementów wizualnych raportu i stron raportu w trybie pełnoekranowym, nazywanym też *trybem TV (telewizyjnym)*.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/01/2018
+ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 23241edc3b7fec6b4cf10c422fc7744268ed2cdc
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 8fc102d7ec13a7d1c18706028d99ecfef9812baf
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/18/2018
 ---
-# <a name="full-screen-mode-in-power-bi"></a>Tryb pełnoekranowy w usłudze Power BI
+# <a name="full-screen-mode-in-power-bi-service"></a>Tryb pełnoekranowy w usłudze Power BI
 ## <a name="what-is-full-screen-mode"></a>Co to jest tryb pełnoekranowy?
 ![tryb pełnoekranowy pulpitu nawigacyjnego przed i po](media/service-fullscreen-mode/power-bi-full-screen-comparison.png)
 
-Wyświetlaj swoją zawartość (pulpity nawigacyjne, strony raportu, kafelki i wizualizacje) bez naruszania menu i pasków nawigacji.  Możesz wyświetlać nieskażony, pełny widok Twojej zawartości jak na dłoni przez cały czas. Jest to czasami określane jako tryb TV (telewizyjny). Funkcje dostępne w trybie pełnoekranowym zależą od zawartości.  
+Wyświetlaj swoją zawartość usługi Power BI (pulpity nawigacyjne, strony raportu, kafelki i wizualizacje) bez naruszania menu i pasków nawigacji.  Możesz wyświetlać nieskażony, pełny widok Twojej zawartości jak na dłoni przez cały czas. Jest to czasami określane jako tryb TV (telewizyjny). Funkcje dostępne w trybie pełnoekranowym zależą od zawartości. 
+
+Jeśli używasz usługi Power BI dla urządzeń przenośnych, [tryb pełnoekranowy jest dostępny w przypadku aplikacji mobilnych systemu Windows 10](mobile-windows-10-app-presentation-mode.md). Program Power BI Desktop nie oferuje trybu pełnoekranowego dla raportów lub wizualizacji, ale ma funkcję Dopasuj do strony dla [widoku relacji widoku](desktop-report-view.md) i [tryb koncentracji uwagi w wizualizacjach raportu](service-focus-mode.md).
+
+ 
 
 Do niektórych zastosowań trybu pełnoekranowego należą:
 

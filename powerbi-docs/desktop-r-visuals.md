@@ -1,15 +1,15 @@
 ---
-title: "Tworzenie wizualizacji usługi Power BI przy użyciu języka R"
-description: "Tworzenie wizualizacji usługi Power BI przy użyciu języka R"
+title: Tworzenie wizualizacji usługi Power BI przy użyciu języka R
+description: Tworzenie wizualizacji usługi Power BI przy użyciu języka R
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: e2e59e3b9d718fa2e0c8c3411968fd4ab66a5851
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: e1768da4ace3fd18b181a46f48e3247cebd1cff0
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="create-power-bi-visuals-using-r"></a>Tworzenie wizualizacji usługi Power BI przy użyciu języka R
 Program **Power BI Desktop** umożliwia wizualizowanie danych przy użyciu języka **R**.
@@ -41,21 +41,27 @@ Po określeniu instalacji języka R możesz zacząć tworzyć wizualizacje w tym
 1. Aby dodać wizualizację języka R, wybierz ikonę **Wizualizacja języka R** w okienku **Wizualizacje**, co pokazano na poniższych obrazie.
    
    ![](media/desktop-r-visuals/r-visuals-3.png)
-2. Dodanie do raportu wizualizacji języka R powoduje wykonanie poniższych akcji przez program **Power BI Desktop**:
+
+   Dodanie do raportu wizualizacji języka R powoduje wykonanie poniższych akcji przez program **Power BI Desktop**:
    
    - Na kanwie raportu pojawia się obraz symbolu zastępczego wizualizacji języka R.
    
    - Na dole okienka środkowego pojawia się **edytor skryptów języka R**.
    
    ![](media/desktop-r-visuals/r-visuals-4.png)
-3. Następnie dodaj pola, które chcesz wykorzystać w skrypcie języka R, do sekcji **Wartości** w obszarze **Pola**, podobnie jak w przypadku każdej innej wizualizacji w programie **Power BI Desktop**. Skrypt języka R może korzystać tylko z pól, które zostały dodane do obszaru **Pola**. Nowe pola można dodawać do obszaru **Pola**, a zbędne pola można z niego usuwać podczas pracy nad skryptem języka R w **edytorze skryptów języka R programu Power BI Desktop**. Program **Power BI Desktop** automatycznie wykrywa, które pola zostały dodane, a które usunięte.
+
+2. Następnie dodaj pola, które chcesz wykorzystać w skrypcie języka R, do sekcji **Wartości** w obszarze **Pola**, podobnie jak w przypadku każdej innej wizualizacji w programie **Power BI Desktop**. 
+    
+    Skrypt języka R może korzystać tylko z pól, które zostały dodane do obszaru **Pola**. Nowe pola można dodawać do obszaru **Pola**, a zbędne pola można z niego usuwać podczas pracy nad skryptem języka R w **edytorze skryptów języka R programu Power BI Desktop**. Program **Power BI Desktop** automatycznie wykrywa, które pola zostały dodane, a które usunięte.
    
    > [!NOTE]
    > Domyślny typ agregacji ustawiony dla wizualizacji języka R to *Nie sumuj*.
    > 
    > 
    
-1. Teraz możesz utworzyć wykres, korzystając z wybranych danych. W miarę wybierania pól **edytor skryptów języka R** generuje pomocniczy kod powiązania skryptu języka R w oparciu o dane wybrane w szarej sekcji u góry okienka edytora. Jeśli dodasz lub usuniesz kolejne pole, kod pomocniczy w edytorze skryptów języka R zostanie odpowiednio automatycznie wygenerowany lub usunięty.
+3. Teraz możesz utworzyć wykres, korzystając z wybranych danych. 
+
+    W miarę wybierania pól **edytor skryptów języka R** generuje pomocniczy kod powiązania skryptu języka R w oparciu o dane wybrane w szarej sekcji u góry okienka edytora. Jeśli dodasz lub usuniesz kolejne pole, kod pomocniczy w edytorze skryptów języka R zostanie odpowiednio automatycznie wygenerowany lub usunięty.
    
    Na przykładzie pokazanym na poniższym obrazie zaznaczono trzy pola: hp, gear oraz drat. W wyniku tego edytor skryptów języka R wygenerował następujący kod powiązania:
    
@@ -67,56 +73,56 @@ Po określeniu instalacji języka R możesz zacząć tworzyć wizualizacje w tym
    ![](media/desktop-r-visuals/r-visuals-5.png)
    
    > [!TIP]
-   > W niektórych sytuacjach grupowanie automatyczne może nie być wskazane lub może wystąpić konieczność wyświetlenia wszystkich wierszy (także zduplikowanych). W takiej sytuacji do zestawu danych można dodać pole indeksu, dzięki czemu wszystkie wiersze będą traktowane jako unikatowe i nie zostaną pogrupowane.
+   > W niektórych sytuacjach grupowanie automatyczne może nie być wskazane lub może wystąpić konieczność wyświetlenia wszystkich wierszy (także zduplikowanych). W takiej sytuacji do zestawu danych można dodać pole indeksu, dzięki któremu wszystkie wiersze będą traktowane jako unikatowe i nie zostaną pogrupowane.
    > 
    > 
    
-   Wygenerowana ramka danych nosi nazwę **dataset**, a do wybranych kolumn można uzyskać dostęp, korzystając z ich nazw. Na przykład do pola gear można się odwołać, wpisując w skrypcie języka R ciąg *dataset$gear*. W przypadku pól, których nazwy zawierają spacje lub znaki specjalne, należy używać cudzysłowów.
-2. Dzięki temu, że ramka danych jest generowana automatycznie przez wybrane pola, można od razu pisać skrypt języka R powodujący utworzenie wykresu na urządzeniu domyślnym dla języka R. Kiedy skrypt będzie gotowy, wybierz pozycje **Uruchom** dostępną na pasku tytułu **edytora skryptów języka R** (pozycja **Uruchom** znajduje się po prawej stronie paska tytułu).
+   Wygenerowana ramka danych nosi nazwę **dataset**, a do wybranych kolumn można uzyskać dostęp, korzystając z ich nazw. Na przykład do pola gear odwołasz się, wpisując w skrypcie języka R ciąg *dataset$gear*. W przypadku pól, których nazwy zawierają spacje lub znaki specjalne, należy używać cudzysłowów.
+
+4. Dzięki temu, że ramka danych jest generowana automatycznie przez wybrane pola, można od razu pisać skrypt języka R powodujący utworzenie wykresu na urządzeniu domyślnym dla języka R. Kiedy skrypt będzie gotowy, wybierz pozycje **Uruchom** dostępną na pasku tytułu **edytora skryptów języka R** (pozycja **Uruchom** znajduje się po prawej stronie paska tytułu).
    
-    Kiedy wybierzesz pozycję **Uruchom**, program **Power BI Desktop** zidentyfikuje wykres i pokaże go na kanwie.
-   Jako że proces ma miejsce w lokalnej instalacji języka R, upewnij się, że są zainstalowane wymagane pakiety.
+    Gdy wybierzesz pozycję **Uruchom**, program **Power BI Desktop** zidentyfikuje wykres i pokaże go na kanwie. Ponieważ proces ma miejsce w lokalnej instalacji języka R, upewnij się, że wymagane pakiety zostały zainstalowane.
    
    Program **Power BI Desktop** ponownie tworzy wizualizację, jeśli wystąpi dowolne z następujących zdarzeń:
    
-   * Na pasku tytułu **edytora skryptów języka R** zostanie wybrana pozycja **Uruchom**
+   * Na pasku tytułu **edytora skryptów języka R** wybierzesz pozycję **Uruchom**
    * Nastąpi zmiana danych będąca wynikiem odświeżenia danych, filtrowania lub wyróżniania
 
-Na poniższym obrazie przedstawiono przykład kodu wykresu korelacji między atrybutami różnych rodzajów samochodów.
+    Na poniższym obrazie przedstawiono przykład kodu wykresu korelacji między atrybutami różnych rodzajów samochodów.
 
-![](media/desktop-r-visuals/r-visuals-6.png)
+    ![](media/desktop-r-visuals/r-visuals-6.png)
 
-Aby powiększyć widok wizualizacji, można zminimalizować okno **edytora skryptów języka R**. Podobnie jak w przypadku innych wizualizacji w programie **Power BI Desktop**, można filtrować krzyżowo wykres korelacji, zaznaczając tylko samochody sportowe w wizualizacji pierścieniowej (okrągłej wizualizacji po prawej stronie na powyższym przykładowym obrazie).
+5. Aby powiększyć widok wizualizacji, można zminimalizować okno **edytora skryptów języka R**. Podobnie jak w przypadku innych wizualizacji w programie **Power BI Desktop**, można filtrować krzyżowo wykres korelacji, zaznaczając tylko samochody sportowe w wizualizacji pierścieniowej (okrągłej wizualizacji po prawej stronie na powyższym przykładowym obrazie).
 
-![](media/desktop-r-visuals/r-visuals-7.png)
+    ![](media/desktop-r-visuals/r-visuals-7.png)
 
-Można także zmodyfikować skrypt języka R, aby dostosować wizualizację, i wykorzystać możliwości języka R, dodając parametry do polecenia kreślącego.
+6. Można także zmodyfikować skrypt języka R, aby dostosować wizualizację, i wykorzystać możliwości języka R, dodając parametry do polecenia kreślącego.
 
-Oryginalne polecenie kreślące było następujące:
+    Oryginalne polecenie kreślące było następujące:
 
     corrplot(M, method = "color",  tl.cex=0.6, tl.srt = 45, tl.col = "black")
 
-Kilka zmian wprowadzonych w skrypcie języka R spowodowało, że polecenie wygląda teraz tak:
+    Kilka zmian wprowadzonych w skrypcie języka R spowodowało, że polecenie wygląda teraz tak:
 
     corrplot(M, method = "circle", tl.cex=0.6, tl.srt = 45, tl.col = "black", type= "upper", order="hclust")
 
-W wyniku tego wizualizacja języka R tworzy teraz koła, uwzględnia tylko dane z górnej połowy i zmienia układ macierzy, aby skorelowane atrybuty były klastrowane, jak pokazano na poniższym obrazie.
+    W wyniku tego wizualizacja języka R tworzy teraz koła, uwzględnia tylko dane z górnej połowy i zmienia układ macierzy, aby skorelowane atrybuty były klastrowane, jak pokazano na poniższym obrazie.
 
-![](media/desktop-r-visuals/r-visuals-8.png)
+    ![](media/desktop-r-visuals/r-visuals-8.png)
 
-Jeśli podczas wykonywania skryptu języka R wystąpi błąd, wizualizacja języka R nie zostanie nakreślona, a na kanwie zostanie wyświetlany komunikat o błędzie. Aby uzyskać szczegółowe informacje na temat błędu, wybierz pozycję **Zobacz szczegóły** w komunikacie o błędzie wizualizacji języka R na kanwie.
+    Jeśli podczas wykonywania skryptu języka R wystąpi błąd, wizualizacja języka R nie zostanie nakreślona, a na kanwie zostanie wyświetlany komunikat o błędzie. Aby uzyskać szczegółowe informacje na temat błędu, wybierz pozycję **Zobacz szczegóły** w komunikacie o błędzie wizualizacji języka R na kanwie.
 
-![](media/desktop-r-visuals/r-visuals-9.png)
+    ![](media/desktop-r-visuals/r-visuals-9.png)
 
-> **Bezpieczeństwo skryptów języka R:** wizualizacje języka R są tworzone na podstawie skryptów języka R, które mogą zawierać kod zagrażający prywatności lub bezpieczeństwu. Podczas pierwszej próby wyświetlenia lub użycia wizualizacji języka R użytkownik zobaczy komunikat z ostrzeżeniem dotyczącym zabezpieczeń. Wizualizacje języka R należy włączyć tylko, jeśli ich autor i źródło są zaufane lub po wykonaniu przeglądu i analizy danego skryptu języka R.
-> 
-> 
+    > **Bezpieczeństwo skryptów języka R:** wizualizacje języka R są tworzone na podstawie skryptów języka R, które mogą zawierać kod zagrażający prywatności lub bezpieczeństwu. Podczas pierwszej próby wyświetlenia lub użycia wizualizacji języka R użytkownik zobaczy komunikat z ostrzeżeniem dotyczącym zabezpieczeń. Wizualizacje języka R należy włączyć tylko, jeśli ich autor i źródło są zaufane lub po wykonaniu przeglądu i analizy danego skryptu języka R.
+    > 
+    > 
 
 ## <a name="known-limitations"></a>Znane ograniczenia
 Wizualizacje języka R w programie **Power BI Desktop** są objęte kilkoma ograniczeniami:
 
 * Ograniczenia rozmiaru danych — ilość danych używanych do kreślenia wizualizacji języka R jest ograniczona do 150 000 wierszy. Jeśli jest zaznaczona większa liczba wierszy, uwzględniane są tylko dane z pierwszych 150 000 wierszy, a na obrazie zostaje wyświetlony komunikat.
-* Ograniczenie czasu obliczania — jeśli obliczanie wizualizacji języka R trwa dłużej niż 5 minut, limit czasu zostaje przekroczony i zostaje wyświetlony błąd.
+* Ograniczenie czasu obliczania — jeśli obliczanie wizualizacji języka R trwa dłużej niż pięć minut, limit czasu zostaje przekroczony i zostaje wyświetlony błąd.
 * Relacje — podobnie jak w przypadku innych wizualizacji w programie Power BI Desktop, wybranie pól danych z innych tabel bez zdefiniowanych relacji między nimi powoduje wystąpienie błędu.
 * Wizualizacje języka R są odświeżane w przypadku aktualizowania, filtrowania i wyróżniania danych. Jednak sam obraz nie jest interaktywny i nie może stanowić źródła filtrowania krzyżowego.
 * Wizualizacje języka R reagują na wyróżnianie innych wizualizacji, ale nie można klikać poszczególnych części wizualizacji języka R w celu filtrowania krzyżowego innych elementów.

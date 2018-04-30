@@ -1,15 +1,15 @@
 ---
-title: "Używanie fragmentatora lub filtru dat względnych w programie Power BI Desktop"
-description: "Dowiedz się, jak za pomocą fragmentatora lub filtru ograniczać zakresy dat względnych w programie Power BI Desktop"
+title: Używanie fragmentatora lub filtru dat względnych w programie Power BI Desktop
+description: Dowiedz się, jak za pomocą fragmentatora lub filtru ograniczać zakresy dat względnych w programie Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/05/2017
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 0432998e44cdb1bf95a41225b73d805ec2a2379f
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 668c26cb2c2f6cda669280b2541fb5ccf8a44f27
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="use-a-relative-date-slicer-and-filter-in-power-bi-desktop"></a>Używanie fragmentatora i filtru dat względnych w programie Power BI Desktop
 Używając **fragmentatora dat względnych** lub **filtru dat względnych**, możesz stosować filtry oparte na czasie do dowolnej kolumny daty w modelu danych. Na przykład przy użyciu **fragmentatora dat względnych** możesz wyświetlić tylko dane sprzedaży, która miała miejsce w ciągu ostatnich 30 dni (lub miesiąca, miesięcy kalendarzowych itd). Podczas odświeżania danych okres względny automatycznie zastosuje odpowiednie ograniczenie dat względnych.
@@ -40,7 +40,7 @@ Wybierz strzałkę w prawym górnym rogu **fragmentatora dat względnych**, aby 
 
 W przypadku fragmentatora dat względnych wybierz pozycję *Względne*.
 
-Następnie możesz wybrać ustawienia. Z pierwszej listy rozwijanej w oknie *fragmentatora dat względnych* możesz wybrać jedną z następujących opcji:
+Następnie możesz wybrać ustawienia. Z pierwszej listy rozwijanej w oknie *fragmentatora dat względnych* możesz wybrać następujące opcje:
 
 * Ostatnie
 * Następne
@@ -52,7 +52,7 @@ Te opcje pokazano na poniższej ilustracji.
 
 Następne (środkowe) ustawienie w oknie *fragmentatora dat względnych* umożliwia wpisanie liczby w celu zdefiniowania zakresu dat względnych.
 
-Trzecie ustawienie umożliwia wybranie pomiaru dat. Możesz wybrać jedną z następujących opcji:
+Trzecie ustawienie umożliwia wybór miary daty. Możesz wybrać następujące opcje:
 
 * Dni
 * Tygodnie
@@ -66,7 +66,7 @@ Te opcje pokazano na poniższej ilustracji.
 
 ![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter_05.png)
 
-Załóżmy, że wybierzesz z listy pozycję *Miesiące* i w środkowym ustawieniu wprowadzisz wartość 2. Będzie to miało następujący skutek: jeśli bieżąca data to 20 lipca, w wizualizacjach ograniczonych przez fragmentator będą wyświetlane dane z ostatnich dwóch miesięcy, począwszy od 20 maja i skończywszy na 20 lipca (bieżąca data).
+Jeśli z tej listy wybierzesz pozycję *Miesiące* i wprowadzisz 2 w środkowym ustawieniu, będzie to miało następujący skutek: jeśli bieżąca data to 20 lipca, w wizualizacjach ograniczonych przez fragmentator będą wyświetlane dane z ostatnich dwóch miesięcy, począwszy od 20 maja i skończywszy na 20 lipca (bieżąca data).
 
 Dla porównania, jeśli wybierzesz pozycję *Miesiące (kalendarzowe)*, w ograniczonych wizualizacjach będą wyświetlane dane od 1 maja do 30 czerwca (ostatnie dwa pełne miesiące kalendarzowe).
 

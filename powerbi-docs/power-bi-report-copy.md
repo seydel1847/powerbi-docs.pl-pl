@@ -1,6 +1,6 @@
 ---
-title: Kopiowanie raportu usługi Power BI
-description: Utwórz nowy raportu usługi Power BI na podstawie innego raportu.
+title: Kopiowanie raportu w usłudze Power BI
+description: Utwórz nowy raport usługi Power BI na podstawie innego raportu w usłudze Power BI.
 services: powerbi
 documentationcenter: ''
 author: mihart
@@ -15,16 +15,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/09/2018
+ms.date: 03/24/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: f7b4230a6dc9089008928145863fe70977fb92f4
-ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
+ms.openlocfilehash: a4f4e394aa4534093858ebfe7738dd7fdb0affd2
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/16/2018
 ---
-# <a name="create-a-new-report-from-an-existing-report"></a>Tworzenie nowego raportu na podstawie istniejącego raportu
+# <a name="create-a-new-report-from-an-existing-report-copy-a-report"></a>Tworzenie nowego raportu na podstawie istniejącego raportu (kopiowanie raportu)
 Być może masz już raport, który już jest połączony z Twoim zestawem danych i ma pewne elementy wizualne, które chcesz ponownie użyć lub zmodyfikować.  Dlaczego nie skopiować tego raportu jako podstawy dla nowego raportu?  W tym celu:
 
 1. [Otwórz raport](service-report-open.md).
@@ -47,3 +47,5 @@ Być może masz już raport, który już jest połączony z Twoim zestawem danyc
 [Tworzenie nowych wizualizacji](power-bi-report-add-visualizations-ii.md)
 
 [Usuwanie wizualizacji](service-delete.md), które nie są już potrzebne
+
+[Tworzenie raportu w programie Power BI Desktop](desktop-report-view.md)

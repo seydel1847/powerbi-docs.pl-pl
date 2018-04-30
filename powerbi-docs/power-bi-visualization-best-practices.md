@@ -1,28 +1,28 @@
 ---
-title: "Najlepsze rozwiązania dotyczące projektowania raportów i wizualizacji (oficjalny dokument)"
-description: "Oficjalny dokument: najlepsze rozwiązania dotyczące projektowania raportów w usłudze Power BI"
+title: Najlepsze rozwiązania dotyczące projektowania raportów i wizualizacji (oficjalny dokument)
+description: 'Oficjalny dokument: najlepsze rozwiązania dotyczące projektowania raportów w usłudze Power BI'
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/21/2017
+ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 868d05891d1b2cb24dfae60b7f3bee405ff7d08f
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: c1b0d87d432dc337a1dab5d13bba10cc8c99dd14
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="best-design-practices-for-reports-and-visuals"></a>Najlepsze rozwiązania dotyczące projektowania raportów i wizualizacji
 <!-- Shared newnav Include -->
@@ -655,7 +655,7 @@ O ile wykresy liniowe są standardem w przypadku analizowania danych na przestrz
 
 Aby uzyskać więcej informacji na temat wykresów słupkowych i kolumnowych:
 
-* [Bar charts 101](http://blog.newscred.com/article/data-visualization-101-bar-charts/3c53044d4add7c31e79a3f80128771f4?page=thankyou) (Podstawy wykresów słupkowych)
+* [Bar charts 101](http://blog.newscred.com/article/data-visualization-101-bar-charts) (Podstawy wykresów słupkowych)
 * [Data Visualization Catalogue: Bar Chart](http://www.datavizcatalogue.com/methods/bar_chart.html#.VYV-hY3bLJw) (Katalog wizualizacji danych: wykres słupkowy)
 * [Data Visualization Catalogue: Multi-set Bar Chart](http://www.datavizcatalogue.com/methods/multiset_barchart.html#.VYV_gI3bLJw) (Katalog wizualizacji danych: wykres słupkowy z wieloma zestawami)
 
@@ -750,7 +750,7 @@ Wykres bąbelkowy poniżej dotyczy Ameryki Południowej: porównano na nim warto
 
 **Ilustracja 62. PKB i populacja w Ameryce Południowej na wykresie bąbelkowym**
 
-Jeśli dodasz oś odtwarzania, możesz poudawać Hansa Roslinga i przedstawić historię tych zmian na przestrzeni czasu (https://www.youtube.com/watch?v=PbaDBJWCeD4). Aby dodać oś odtwarzania, przeciągnij pole daty/godziny do elementu **Odtwórz oś**.
+Jeśli dodasz oś odtwarzania, możesz poudawać Hansa Roslinga i przedstawić historię tych zmian na przestrzeni czasu (https://www.youtube.com/watch?v=PbaDBJWCeD4)). Aby dodać oś odtwarzania, przeciągnij pole daty/godziny do elementu **Odtwórz oś**.
 
 #### <a name="best-practices"></a>Najlepsze rozwiązania
 * Wykresy punktowe i bąbelkowe doskonale nadają się do prowadzenia narracji. Nie są jednak bardzo przydatne podczas eksplorowania danych.  Oto co mówi Stephen Few w akapicie poniżej: *Siła tego podejścia ujawnia się, gdy stosuje się je w celu zaprezentowania opowieści. Kiedy Rosling opowiada, co dzieje się na wykresie, gdy bąbelki przemieszczają się i zmieniają się ich wartości, wskazując, na co mamy zwrócić uwagę, informacje nabierają życia. Jednak animowane wykresy bąbelkowe są znacznie mniej skuteczne podczas samodzielnego eksplorowania i analizowania danych. Wątpię, aby Rosling używał tej metody do odnajdywania wątków. Używa jej raczej tylko do opowiadania o nich, gdy już je pozna. Gdy bąbelki się poruszają, nie jesteśmy w stanie śledzić więcej niż jednego naraz, więc musimy wielokrotnie odtwarzać animację, aby zorientować się, co się dzieje. Możemy dodać trasy do wybranych bąbelków, co umożliwia przejrzenie pełnych ścieżek tych bąbelków, ale w razie używania tras w przypadku więcej niż kilku bąbelków wykres szybko stanie się zbyt przeładowany informacjami. Ogólnie rzecz biorąc, chcę powiedzieć, że nie jest to najlepszy sposób wyświetlania tych informacji do potrzeb eksploracji i analizy.*

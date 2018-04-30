@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5f081dff246c478f1b9ee3c918de2099b8382100
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: 5480768fc088b3a32a1af222d38e3829298e8f0d
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>Lokalna brama danych — szczegóły
 Użytkownicy w organizacji mogą uzyskiwać dostęp do danych lokalnych (do których już mają autoryzację dostępu), ale zanim będą mogli połączyć się ze źródłem danych lokalnych, musi zostać zainstalowana i skonfigurowana lokalna brama danych. Brama ułatwia szybką i bezpieczną komunikację wewnętrzną między użytkownikiem w chmurze a lokalnym źródłem danych, a następnie z powrotem do chmury.
@@ -87,10 +87,7 @@ Usługi w chmurze wiedzą tylko o kontach w usłudze Azure Active Directory. Nie
    Można utworzyć konto w portalu Azure lub w portalu administratora usługi Office 365, a nazwa konta będzie zgodna z nazwą UPN lokalnego konta usługi Active Directory.
 2. Można użyć narzędzia [Azure AD Connect](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect/), aby zsynchronizować konta lokalne z dzierżawą usługi Azure Active Directory.
    
-   Narzędzie Azure AD Connect zapewnia opcje synchronizacji katalogów i haseł. Jeśli nie jesteś administratorem dzierżawy ani lokalnym administratorem domeny, skontaktuj się z administratorem IT w celu skonfigurowania tej funkcji.
-3. Można skonfigurować usługi Active Directory Federation Services (ADFS).
-   
-   Możesz skojarzyć serwer usług ADFS z dzierżawą usługi AAD za pomocą narzędzia [Azure AD Connect](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect/). Usługi ADFS wykorzystują synchronizację katalogów opisaną powyżej, ale zezwalają na logowanie jednokrotne (SSO). Na przykład podczas pracy w sieci firmowej, kiedy przechodzisz do usługi w chmurze i przechodzisz do logowania, nie musisz otrzymywać monitu o podanie nazwy użytkownika i hasła. Musisz omówić z administratorem IT, czy ta konfiguracja jest dostępna dla Twojej organizacji.
+   Narzędzie Azure AD Connect oferuje opcje synchronizacji katalogów i konfigurowania uwierzytelniania, w tym synchronizacji skrótów haseł, uwierzytelniania przekazywanego i federacji. Jeśli nie jesteś administratorem dzierżawy ani lokalnym administratorem domeny, skontaktuj się z administratorem IT w celu skonfigurowania tej funkcji.
 
 Korzystanie z programu Azure AD Connect zapewnia zgodność nazwy UPN w usłudze AAD i lokalnej usłudze Active Directory.
 

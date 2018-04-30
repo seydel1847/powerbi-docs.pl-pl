@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/16/2017
+ms.date: 04/13/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 8089c796441fd4200b146da6330dd5c208bf8b30
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 62624d35f1fb477c4daf2ffcef92bb18fb8a6a8e
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="connect-to-salesforce-with-power-bi"></a>Nawiązywanie połączenia z usługą Salesforce przy użyciu usługi Power BI
 Przy użyciu usługi Power BI możesz z łatwością nawiązać połączenie z kontem Salesforce.com. Utworzenie takiego połączenia spowoduje pobranie danych i automatycznie zapewni pulpit nawigacyjny i powiązane raporty oparte na danych.
@@ -72,11 +72,13 @@ Możesz zmienić ten pulpit nawigacyjny, aby wyświetlać dane w dowolny sposób
 * [Wybierz kafelek](service-dashboard-tiles.md), aby otworzyć raport źródłowy
 * Zestaw danych zostanie ustawiony na codzienne odświeżanie, ale możesz zmienić harmonogram odświeżania lub spróbować odświeżyć go na żądanie przy użyciu opcji **Odśwież teraz**
 
-## <a name="system-requirements"></a>Wymagania systemowe
-* Połączenie z produkcyjnym kontem usługi Salesforce z włączonym dostępem do interfejsu API
-* Udzielenie uprawnień aplikacji Power BI podczas logowania
-* Konto ma odpowiednią ilość wywołań interfejsu API, aby ściągać i odświeżać dane
-* Do odświeżania wymagany jest ważny token uwierzytelniania. Upewnij się, że masz najwyżej 5 zaimportowanych zestawów danych usługi Salesforce, ponieważ usługa Salesforce stosuje limit 5 tokenów uwierzytelniania na aplikację
+## <a name="system-requirements-and-considerations"></a>Wymagania systemowe i zagadnienia
+- Połączenie z produkcyjnym kontem usługi Salesforce z włączonym dostępem do interfejsu API
+- Udzielenie uprawnień aplikacji Power BI podczas logowania
+- Konto ma odpowiednią ilość wywołań interfejsu API, aby ściągać i odświeżać dane
+- Do odświeżania wymagany jest ważny token uwierzytelniania. Upewnij się, że masz najwyżej 5 zaimportowanych zestawów danych usługi Salesforce, ponieważ usługa Salesforce stosuje limit 5 tokenów uwierzytelniania na aplikację
+- Interfejs API raportów usługi Salesforce ma ograniczenie obsługujące maksymalnie 2000 wierszy danych.
+
 
 ## <a name="troubleshooting"></a>Rozwiązywanie problemów
 Jeśli wystąpią jakiekolwiek problemy, sprawdź powyższe wymagania. Ponadto zwróć uwagę, że możliwość zalogowania w niestandardowej lub testowej domenie nie jest obecnie obsługiwana.

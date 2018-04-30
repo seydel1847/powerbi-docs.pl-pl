@@ -1,32 +1,32 @@
 ---
-title: "Pola tekstowe i kształty w raportach usługi Power BI"
-description: "Dokumentacja dotycząca dodawania i tworzenia pól tekstowych i kształtów w raporcie przy użyciu usługi Microsoft Power BI."
+title: Pola tekstowe i kształty w raportach usługi Power BI
+description: Dokumentacja dotycząca dodawania i tworzenia pól tekstowych i kształtów w raporcie przy użyciu usługi Microsoft Power BI.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
+backup: ''
+editor: ''
 featuredvideoid: _3q6VEBhGew
-tags: 
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/22/2018
+ms.date: 03/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8ce10e5d7b0ea2247655a9f93bfc3534086106f2
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 5e71159e2c7d0cb7439a14bf5d8e082192c4ab7a
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="static-content-in-power-bi-reports"></a>Zawartość statyczna w raportach usługi Power BI
-Pola tekstowe i kształty można dodać do raportów za pomocą usługi Power BI i programu Power BI Desktop. W obu przypadkach musisz mieć uprawnienia do edytowania raportu. Jeśli raport został Ci udostępniony, nie będziesz mieć dostępu do widoku do edycji. 
+Pola tekstowe i kształty można dodać do raportów za pomocą usługi Power BI i programu Power BI Desktop. W obu przypadkach musisz mieć uprawnienia do edytowania raportu. Jeśli raport udostępniono Ci w usłudze Power BI, nie będziesz mieć uprawnień do edycji. 
 
 Zobacz, jak Will używa programu Power BI Desktop w celu [dodania obrazów statycznych do raportu](guided-learning/visualizations.yml#step-11), a następnie wykonaj poniższe kroki, aby spróbować zrobić to samodzielnie przy użyciu usługi Power BI.
 > 

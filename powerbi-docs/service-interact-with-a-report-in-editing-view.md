@@ -1,31 +1,33 @@
 ---
 title: Interakcje z raportem w widoku do edycji (samouczek)
-description: "Interakcje z raportem w widoku do edycji raportu w usłudze Power BI"
+description: Interakcje z raportem w widoku do edycji raportu w usłudze Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: monitoring
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/02/2018
+ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: b3dda418f3493c91db1be75365192539757f0449
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: eea3bcb040f5267cb1fcc1f24ef6b306f6c03af3
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="interact-with-a-report-in-editing-view-in-power-bi-service"></a>Interakcje z raportem w widoku do edycji w usłudze Power BI
-Raporty można edytować w usłudze Power BI i w programie Power BI Desktop — jeśli masz uprawnienia właściciela. W przeciwieństwie do programu Desktop usługa Power BI ma dwa różne tryby interakcji z raportami — [widok do czytania](service-reading-view-and-editing-view.md) dla *użytkowników* raportu i widok do edycji dla właścicieli i twórców raportu. Samouczek w tym artykule dotyczy widoku do edycji w usłudze Power BI. 
+Raporty można tworzyć i edytować w usłudze Power BI i w programie Power BI Desktop — jeśli masz uprawnienia właściciela. W usłudze Power BI raporty można tworzyć i edytować w **widoku do edycji**. W programie Power BI Desktop raporty można tworzyć i edytować w [**widoku raportu**](desktop-report-view.md). Ten artykuł dotyczy widoku do edycji w usłudze Power BI. 
+
+Usługa Power BI ma dwa różne tryby interakcji z raportami — [widok do czytania](service-reading-view-and-editing-view.md) dla *użytkowników* raportu i widok do edycji dla właścicieli i twórców raportu.  Do udostępniania raportów oraz edytowania raportów tworzonych przez innych użytkowników jest wymagana licencja usługi Power BI Pro. Jeśli jesteś użytkownikiem bezpłatnej usługi Power BI, nadal będziesz mieć możliwość tworzenia raportów, ale bez dostępu do funkcji [udostępniania](service-share-reports.md).    
 
 W widoku do edycji raportu masz dużą elastyczność zarówno eksploracji, jak i projektowania raportu. Dostępna jest cała funkcjonalność [widoku do czytania](service-reading-view-and-editing-view.md) — plus wiele więcej. Widok do edycji jest dostępny tylko dla osoby, która utworzyła raport, lub dla współpracowników, którzy [są współwłaścicielami raportu jako członkowie lub administratorzy obszaru roboczego aplikacji](service-create-distribute-apps.md).
 
@@ -42,6 +44,9 @@ Zapoznaj się z listą tematów w obszarze nagłówka **Raporty** w spisie treś
 * Wyświetlanie danych użytych do utworzenia wizualizacji 
 * Konfigurowanie przeglądania szczegółowego
 * Duplikowanie strony raportu
+
+## <a name="considerations-and-troubleshooting"></a>Istotne zagadnienia i rozwiązywanie problemów
+Do edytowania raportów tworzonych przez innych użytkowników oraz do udostępniania innym własnych raportów jest wymagana licencja usługi Power BI Pro.  Jeśli jesteś użytkownikiem bezpłatnej usługi Power BI, nadal będziesz mieć możliwość tworzenia raportów, ale bez dostępu do funkcji [udostępniania](service-share-reports.md).
 
 
 ## <a name="next-steps"></a>Następne kroki

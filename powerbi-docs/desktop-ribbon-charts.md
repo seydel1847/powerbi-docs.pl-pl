@@ -1,15 +1,15 @@
 ---
-title: "Używanie wykresów wstążkowych w usłudze Power BI"
-description: "Tworzenie i używanie wykresów wstążkowych w usłudze Power BI i programie Power BI Desktop"
+title: Używanie wykresów wstążkowych w usłudze Power BI
+description: Tworzenie i używanie wykresów wstążkowych w usłudze Power BI i programie Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,14 +18,14 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 3dab818c863f00c97635d00ba07e75eb3c8e5b37
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: fb1c85e8c7b4a9c8e92019e4917af16b83ae580c
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="use-ribbon-charts-in-power-bi"></a>Używanie wykresów wstążkowych w usłudze Power BI
-Przy użyciu **wykresów wstążkowych** w usłudze **Power BI** można wizualizować dane i szybko określać, które kategorie danych mają najwyższą rangę (największa wartość). Wykresy wstążkowe dobrze obrazują zmianę rangi, zawsze wyświetlając najwyższą rangę (wartość) u góry dla każdego przedziału czasu. Wykresy wstążkowe są dostępne w programie **Power BI Desktop** od wersji z września 2017 r. i następujących po niej aktualizacjach **usługi Power BI**.
+Przy użyciu wykresów wstążkowych w usłudze **Power BI** można wizualizować dane i szybko określać, które kategorie danych mają najwyższą rangę (największa wartość). Wykresy wstążkowe dobrze obrazują zmianę rangi, zawsze wyświetlając najwyższą rangę (wartość) u góry dla każdego przedziału czasu. Wykresy wstążkowe są dostępne w programie **Power BI Desktop** od wersji z września 2017 r. i następujących po niej aktualizacjach **usługi Power BI**.
 
 ![](media/desktop-ribbon-charts/ribbon-charts_01.png)
 

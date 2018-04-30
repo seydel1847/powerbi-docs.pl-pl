@@ -1,15 +1,15 @@
 ---
-title: "Wyświetlanie danych i rekordów za pomocą wizualizacji programu Power BI Desktop"
-description: "Funkcje Pokaż dane i Pokaż rekordy programu Power BI Desktop umożliwiają przechodzenie do szczegółów"
+title: Wyświetlanie danych i rekordów za pomocą wizualizacji programu Power BI Desktop
+description: Funkcje Pokaż dane i Pokaż rekordy programu Power BI Desktop umożliwiają przechodzenie do szczegółów
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,78 +18,81 @@ ms.workload: powerbi
 ms.date: 02/22/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: c44a5140fe40217aac170abb0b351197803b6299
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 507c2e5e6d9f41e3342019cc8f051dd1e11954cc
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="use-see-data-and-see-records-in-power-bi-desktop"></a>Używanie funkcji Pokaż dane i Pokaż rekordy w programie Power BI Desktop
-W programie **Power BI Desktop** możliwe jest przejście do szczegółów dowolnej wizualizacji i wyświetlenie tekstowej reprezentacji danych lub poszczególnych elementów danych dla wybranej wizualizacji. Te funkcje są czasami określane jako *kliknięcie*, *przejście* lub *przejście do szczegółów*.
+W programie **Power BI Desktop** możliwe jest przejście do szczegółów wizualizacji i wyświetlenie tekstowej reprezentacji odpowiednich danych lub poszczególnych rekordów danych dla wybranej wizualizacji. Te funkcje są czasami określane jako *kliknięcie*, *przejście* lub *przejście do szczegółów*.
 
-Funkcji **Pokaż rekordy** można użyć, aby wyświetlić źródłowe wiersze dla jednego wybranego elementu danych z poziomu wizualizacji. Użycie funkcji **Pokaż dane** umożliwia natomiast wyświetlenie tekstowej wersji wartości użytych w wizualizacji. Istnieją pewne ograniczenia związane z używaniem funkcji **Pokaż dane** i **Pokaż rekordy** — zostały one omówione na końcu tego artykułu.
+Można użyć funkcji **Pokaż dane**, aby wyświetlić tekstową wersję wartości użytych w wybranej wizualizacji, lub funkcji **Pokaż rekordy**, aby wyświetlić wszystkie dane jednego wybranego rekordu lub punktu danych. 
 
-![](media/desktop-see-data-see-records/see-data-see-records_1.png)
+![Pokaż dane i Pokaż rekordy](media/desktop-see-data-see-records/see-data-record.png)
 
-## <a name="using-see-data-in-power-bi-desktop"></a>Używanie funkcji Pokaż dane w programie Power BI Desktop
-Przycisk **Pokaż dane** znajduje na karcie **Dane/przejście** w sekcji **Narzędzia wizualne** wstążki.
+>[!IMPORTANT]
+>Funkcje **Pokaż dane** i **Pokaż rekordy** obsługują tylko następujące typy wizualizacji:
+>  - Wykres słupkowy
+>  - Wykres kolumnowy
+>  - Wykres pierścieniowy
+>  - Kartogram
+>  - Lejek
+>  - Mapa
+>  - Wykres kołowy
+>  - Mapa drzewa
 
-![](media/desktop-see-data-see-records/see-data-see-records_2.png)
+## <a name="use-see-data-in-power-bi-desktop"></a>Używanie funkcji Pokaż dane w programie Power BI Desktop
 
-Funkcję **Pokaż dane** można również użyć, klikając prawym przyciskiem myszy wizualizację, a następnie wybierając pozycję **Pokaż dane** z wyświetlonego menu.
+Funkcja **Pokaż dane** powoduje wyświetlenie podstawowych danych wizualizacji. Pozycja **Pokaż dane** pojawia się na karcie **Dane/przechodzenie do szczegółów** w sekcji **Narzędzia wizualne** wstążki po wybraniu wizualizacji.
 
-![](media/desktop-see-data-see-records/see-data-see-records_3.png)
+![Pozycja Pokaż dane na wstążce](media/desktop-see-data-see-records/see-data1.png)
+
+Dane można również wyświetlić, klikając wizualizację prawym przyciskiem myszy, a następnie wybierając pozycję **Pokaż dane** w wyświetlonym menu; lub wybierając ikonę wielokropka (...) **Więcej opcji** w prawym górnym rogu wizualizacji, a następnie wybierając pozycję **Pokaż dane**.
+
+![Kliknięcie pozycji Pokaż dane prawym przyciskiem myszy](media/desktop-see-data-see-records/see-data2.png)&nbsp;&nbsp;![Pokaż dane — Więcej opcji](media/desktop-see-data-see-records/see-data3.png)
 
 > [!NOTE]
-> Kursor myszy musi być umieszczony nad punktem danych w ramach wizualizacji, aby menu kontekstowe było dostępne.
-> 
-> 
+> Kursor myszy musi być umieszczony nad punktem danych w wizualizacji, aby menu kontekstowe było dostępne.
 
-Po wybraniu pozycji **Pokaż dane** program **Power BI Desktop** ustawia fokus na wybranej wizualizacji oraz wybranych danych i przeznacza obszar kanwy na wyświetlenie wizualnej oraz tekstowej reprezentacji danych. Wizualizacja jest wyświetlana w górnej połowie kanwy, a dane w dolnej, co przedstawiono na poniższym obrazie. Jest to widok *poziomy*.
+Po wybraniu pozycji **Pokaż dane** lub **Zobacz dane** na kanwie programu Power BI Desktop zostanie wyświetlona wizualna i tekstowa reprezentacja danych. W *widoku poziomym* wizualizacja jest wyświetlana w górnej połowie kanwy, a dane w dolnej. 
 
-![](media/desktop-see-data-see-records/see-data-see-records_4.png)
+![widok poziomy](media/desktop-see-data-see-records/see-data4a.png)
 
-Można również przełączyć się na *widok pionowy* (lub z powrotem do *widoku poziomego*), wybierając ikonę w prawym górnym rogu.
+Można również przełączać się między widokiem poziomym i *widokiem pionowym*, wybierając ikonę w prawym górnym rogu kanwy.
 
-![](media/desktop-see-data-see-records/see-data-see-records_5.png)
+![przełącznik widoku pionowego](media/desktop-see-data-see-records/see-data4.png)
 
 Aby wrócić do raportu, wybierz pozycję **< Wróć do raportu** w lewym górnym rogu kanwy.
 
-![](media/desktop-see-data-see-records/see-data-see-records_6.png)
+![Wróć do raportu](media/desktop-see-data-see-records/see-data5.png)
 
-## <a name="using-see-records-in-power-bi-desktop"></a>Używanie funkcji Pokaż rekordy w programie Power BI Desktop
-Istnieje również możliwość ustawienia fokusu na pojedynczym elemencie danych w wizualizacji, a następnie przejście do związanych z nim danych. Po wybraniu wizualizacji istnieją dwa sposoby użycia funkcji **Pokaż rekordy**: można włączyć przycisk przełącznika **Pokaż rekordy** na wstążce **Dane/przejście**, a następnie kliknąć element danych, lub kliknąć prawym przyciskiem myszy element danych, a następnie wybrać pozycję **Pokaż rekordy** z wyświetlonego menu.
+## <a name="use-see-records-in-power-bi-desktop"></a>Używanie funkcji Pokaż rekordy w programie Power BI Desktop
 
-![](media/desktop-see-data-see-records/see-data-see-records_7.png)
+Istnieje również możliwość skoncentrowania uwagi na pojedynczym rekordzie danych w wizualizacji, a następnie przejście do związanych z nim danych. Aby skorzystać z funkcji **Pokaż rekordy**, wybierz wizualizację, a następnie wybierz pozycję **Pokaż rekordy** na karcie **Dane/przechodzenie do szczegółów** w sekcji **Narzędzia wizualne** na wstążce, a następnie wybierz punkt danych lub wiersz w wizualizacji. 
 
-> [!NOTE]
-> Jeśli wybrana wizualizacja nie obsługuje funkcji **Pokaż rekordy**, to przycisk na wstążce będzie szary.
-> 
-> 
-
-Jeśli pozycja **Pokaż rekordy** jest wybrana, program **Power BI Desktop** ustawia fokus na danym elemencie danych i przeznacza obszar kanwy na wyświetlenie danych dla tego elementu, jak pokazano na poniższym obrazie.
-
-![](media/desktop-see-data-see-records/see-data-see-records_8.png)
+![Pozycja Pokaż rekordy na wstążce](media/desktop-see-data-see-records/see-record1.png)
 
 > [!NOTE]
-> W raporcie nie można zapisać zmian danych wyświetlanych (lub modyfikowanych przez użytkowników) w widoku **Zobacz rekordy**.
+> Jeśli przycisk **Pokaż rekordy** na wstążce jest wyłączony i nieaktywny, oznacza to, że wybrana wizualizacja nie obsługuje funkcji **Pokaż rekordy**.
 
-Aby wrócić do raportu, wybierz przycisk **Wróć do raportu** w lewym górnym rogu kanwy.
+Możesz również kliknąć prawym przyciskiem myszy element danych i wybrać polecenie **Pokaż rekordy** w wyświetlonym menu.
 
-## <a name="limitations"></a>Ograniczenia
-Istnieją pewne ograniczenia, które należy wziąć pod uwagę podczas używania funkcji **Pokaż dane** lub **Pokaż rekordy**:
+![Pozycja Pokaż rekordy wyświetlana po kliknięciu prawym przyciskiem myszy](media/desktop-see-data-see-records/see-record2.png)
 
-* Obsługiwane są tylko następujące typy wizualizacji:
-  * **Słupek**
-  * **Kolumna**
-  * **Mapa**
-  * **Mapa drzewa**
-  * **Kartogram**
-  * **Koło**
-  * **Pierścień**
-  * **Lejek**
-* Nie można użyć funkcji **Pokaż rekordy**, jeśli wizualizacja używa miary obliczanej
-* Nie można użyć funkcji **Pokaż rekordy**, jeśli nawiązano połączenie z wielowymiarowym modelem na żywo
+Po wybraniu pozycji **Pokaż rekordy** dla elementu danych na kanwie programu Power BI Desktop zostaną wyświetlone wszystkie dane skojarzone z wybranym elementem. 
+
+![](media/desktop-see-data-see-records/see-record3.png)
+
+Aby wrócić do raportu, wybierz pozycję **< Wróć do raportu** w lewym górnym rogu kanwy.
+
+![](media/desktop-see-data-see-records/see-record4.png)
+
+> [!NOTE]
+>Funkcja **Pokaż rekordy** ma następujące ograniczenia:
+> - Nie można zmienić danych w widoku **Pokaż rekordy** ani zapisać ich ponownie w raporcie.
+> - Nie można użyć funkcji **Pokaż rekordy**, jeśli wizualizacja używa miary obliczanej.
+> - Nie można użyć funkcji **Pokaż rekordy**, jeśli nawiązano połączenie z wielowymiarowym modelem na żywo.
 
 ## <a name="next-steps"></a>Następne kroki
 W programie **Power BI Desktop** istnieją różne rodzaje funkcji służących do formatowania raportu i zarządzania danymi. Skorzystaj z następujących zasobów, aby uzyskać kilka przykładów:

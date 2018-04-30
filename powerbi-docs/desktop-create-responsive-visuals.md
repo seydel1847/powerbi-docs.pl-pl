@@ -1,40 +1,40 @@
 ---
-title: "Optymalizacja wizualizacji usługi Power BI pod kątem dowolnej wielkości"
-description: "Dowiedz się, jak zoptymalizować wizualizacje w programie Power BI Desktop i usłudze Power BI na potrzeby aplikacji telefonicznych Power BI."
+title: Optymalizacja wizualizacji usługi Power BI pod kątem dowolnej wielkości
+description: Dowiedz się, jak zoptymalizować wizualizacje w istniejących raportach w programie Power BI Desktop i usłudze Power BI na potrzeby aplikacji telefonicznych Power BI.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 04/13/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 4c80048213b20365102bcb9c6842c342d8b9052b
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: d80e96fbca893fee3ff03ef9021988f5a22bb2e7
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="optimize-a-power-bi-visual-for-any-size"></a>Optymalizacja wizualizacji usługi Power BI pod kątem dowolnej wielkości
-Można ustawić wizualizację na pulpicie nawigacyjnym lub w raporcie na opcję *Elastyczna*, aby zmieniała się dynamicznie i wyświetlała maksymalną ilość danych i szczegółowych informacji niezależnie od rozmiaru ekranu.
+Domyślnie podczas tworzenia raportu wizualizacje działają *elastycznie*: zmieniają się dynamicznie i wyświetlają maksymalną ilość danych i szczegółowych informacji niezależnie od rozmiaru ekranu. W starszych raportach można również ustawić wizualizacje tak, aby elastycznie zmieniały rozmiar.
 
 Gdy wizualizacja zmienia rozmiar, usługa Power BI nadaje priorytet widokowi danych, na przykład usuwając dopełnienia i automatycznie przenosząc legendę na górę wizualizacji, tak aby wizualizacja dostarczała odpowiednią ilość informacji, nawet gdy się zmniejszy. Elastyczność jest szczególnie przydatna w przypadku wizualizacji w aplikacji mobilnej Power BI na telefonach.
 
 ![Elastyczna zmiana rozmiaru wizualizacji](media/desktop-create-responsive-visuals/power-bi-responsive-visual.gif)
 
-Elastyczność można włączyć dla dowolnej wizualizacji zawierającej osie X i Y oraz fragmentatory.
+Każda wizualizacja zawierająca osie X i Y oraz fragmentatory może elastycznie zmieniać rozmiar.
 
 ## <a name="turn-on-responsiveness-in-power-bi-desktop"></a>Włączanie elastyczności w programie Power BI Desktop
-1. W programie Power BI Desktop na karcie **Widok** upewnij się, że jesteś w obszarze **Układ pulpitu**.
+1. W starszych raportach programu Power BI Desktop na karcie **Widok** upewnij się, że jesteś w obszarze **Układ pulpitu**.
    
     ![Ikona Układ pulpitu](media/desktop-create-responsive-visuals/power-bi-desktop-layout.png)
 2. Wybierz wizualizację, a następnie w okienku **Wizualizacje** wybierz sekcję **Format**.
@@ -45,7 +45,7 @@ Elastyczność można włączyć dla dowolnej wizualizacji zawierającej osie X 
      Teraz gdy [utworzysz raport zoptymalizowany na potrzeby telefonu](desktop-create-phone-report.md) i dodasz tę wizualizację, będzie ona bez problemu zmieniała rozmiar.
 
 ## <a name="turn-on-responsiveness-in-the-power-bi-service"></a>Włączanie elastyczności w usłudze Power BI
-Włączasz elastyczność dla wizualizacji w raporcie w usłudze Power BI. Musisz mieć możliwość edytowania raportu.
+Elastyczność wizualizacji można włączyć w starszym raporcie usługi Power BI. Musisz mieć możliwość edytowania raportu.
 
 1. W raporcie w usłudze Power BI ([https://powerbi.com](https://powerbi.com)) wybierz pozycję **Edytuj raport**.
 2. Wybierz wizualizację, a następnie w okienku **Wizualizacje** wybierz sekcję **Format**.
@@ -53,11 +53,10 @@ Włączasz elastyczność dla wizualizacji w raporcie w usłudze Power BI. Musis
    
     ![Elastyczna — Włącz](media/desktop-create-responsive-visuals/power-bi-turn-responsive-on.png)
    
-     Teraz gdy [utworzysz widok pulpitu nawigacyjnego dla telefonu](service-create-dashboard-mobile-phone-view.md) i dodasz tę wizualizację, będzie ona bez problemu zmieniała rozmiar.
+     Teraz gdy [utworzysz widok raportu dla telefonu](desktop-create-phone-report.md) i dodasz tę wizualizację, będzie ona bez problemu zmieniała rozmiar.
 
 ## <a name="next-steps"></a>Następne kroki
 * [Tworzenie raportów zoptymalizowanych pod kątem aplikacji Power BI na telefony](desktop-create-phone-report.md)
-* [Tworzenie widoku pulpitu nawigacyjnego dla telefonu w usłudze Power BI](service-create-dashboard-mobile-phone-view.md)
 * [Wyświetlanie raportów usługi Power BI zoptymalizowanych pod kątem telefonu](mobile-apps-view-phone-report.md)
 * Masz więcej pytań? [Zadaj pytanie społeczności usługi Power BI](http://community.powerbi.com/)
 

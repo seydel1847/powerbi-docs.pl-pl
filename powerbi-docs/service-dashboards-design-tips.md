@@ -1,28 +1,28 @@
 ---
-title: "Porady dotyczące projektowania doskonałych pulpitów nawigacyjnych usługi Power BI"
-description: "Porady dotyczące projektowania doskonałych pulpitów nawigacyjnych usługi Power BI"
+title: Porady dotyczące projektowania doskonałych pulpitów nawigacyjnych usługi Power BI
+description: Porady dotyczące projektowania doskonałych pulpitów nawigacyjnych usługi Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/02/2018
+ms.date: 03/22/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 769d669f00c87e6139d8ff2cb8640739d09edf7a
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 9d71d417a2d7beb7f968bf18fc6de90794663ec8
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>Porady dotyczące projektowania doskonałych pulpitów nawigacyjnych usługi Power BI
 Gdy już udało Ci się utworzyć pulpit nawigacyjny i dodać kafelki, zadbaj o to, aby Twój projekt był nie tylko ładny, ale i funkcjonalny. Ogólnie rzecz biorąc, chodzi o wyróżnienie najważniejszych informacji, tak aby pulpit nawigacyjny nie wyglądał na przepełniony i pozostał przejrzysty.
@@ -31,25 +31,28 @@ Poniżej przedstawiono kilka wskazówek.
 
 > [!TIP]
 > Wiele zasad projektowania raportów dotyczy także pulpitów nawigacyjnych.  Zobacz nasz oficjalny dokument [Best design principles for reports and visualizations (Najlepsze zasady projektowania raportów i wizualizacji)](power-bi-visualization-best-practices.md).
-> 
-> 
+>
+>
 
-### <a name="consider-your-audience"></a>Pamiętaj o potrzebach odbiorców
+## <a name="watch-the-dashboard-makeover-webinarhttpsinfomicrosoftcomco-powerbi-wbnr-fy16-05may-12-dashboard-makeover-registrationhtml"></a>Obejrzyj [seminarium internetowe dotyczące przerabiania pulpitu nawigacyjnego](https://info.microsoft.com/CO-PowerBI-WBNR-FY16-05May-12-Dashboard-Makeover-Registration.html)
+Zobacz głównego menedżera programu Microsoft i eksperta od pulpitów nawigacyjnych usługi Power BI, Marca Reguera, [przeprowadzającego zmiany pulpitu nawigacyjnego](https://info.microsoft.com/CO-PowerBI-WBNR-FY16-05May-12-Dashboard-Makeover-Registration.html).
+
+## <a name="consider-your-audience"></a>Pamiętaj o potrzebach odbiorców
 Jakie kluczowe metryki ułatwią im podejmowanie decyzji? Jak będzie używany pulpit nawigacyjny? Jakie zakorzenione wzorce lub założenia kulturowe mogą mieć wpływ na decyzje projektowe? Jakich informacji potrzebują odbiorcy, aby działać skutecznie?
 
 Pamiętaj o tym, że pulpit nawigacyjny zapewnia przegląd danych i stanowi centrum monitorowania ich bieżącego stanu. Pulpit nawigacyjny jest oparty na źródłowych raportach i zestawach danych, które mogą zawierać mnóstwo szczegółowych informacji. Użytkownicy mogą przejść do szczegółów podanych w raportach z poziomu pulpitu nawigacyjnego. Dlatego nie umieszczaj ich na pulpicie nawigacyjnym, chyba że odbiorcy muszą monitorować właśnie te informacje.
 
 Gdzie będzie wyświetlany pulpit nawigacyjny? Na dużym monitorze można umieścić więcej zawartości. Jeśli będzie to ekran tabletu, mniejsza liczba kafelków zapewni lepszą czytelność.
 
-### <a name="tell-a-story-and-keep-it-to-one-screen"></a>Przekazywanie informacji na jednym ekranie
+## <a name="tell-a-story-and-keep-it-to-one-screen"></a>Przekazywanie informacji na jednym ekranie
 Pulpity nawigacyjne mają umożliwiać szybkie uzyskanie ważnych informacji, dlatego najlepiej umieścić wszystkie kafelki na jednym ekranie. Czy możesz zrezygnować z pasków przewijania na pulpicie nawigacyjnym?
 
 Pulpit nawigacyjny jest przepełniony?  Zostaw na nim tylko niezbędne informacje, które można łatwo odczytać i zinterpretować.
 
-### <a name="make-use-of-full-screen-mode"></a>Wykorzystaj tryb pełnoekranowy
+## <a name="make-use-of-full-screen-mode"></a>Wykorzystaj tryb pełnoekranowy
 Pulpit nawigacyjny możesz wyświetlić na [pełnym ekranie](service-fullscreen-mode.md) bez elementów rozpraszających uwagę.
 
-### <a name="make-the-most-important-information-biggest"></a>Największy rozmiar dla najważniejszych informacji
+## <a name="make-the-most-important-information-biggest"></a>Największy rozmiar dla najważniejszych informacji
 Jeśli rozmiar tekstu i rozmiar wizualizacji będą takie same, użytkownicy będą mieć trudności ze skupieniem się na tym, co najważniejsze. Na przykład dobrą metodą wyróżnienia ważnej liczby jest użycie wizualizacji na kartach:  
 ![Wizualizacja w postaci karty](media/service-dashboards-design-tips/pbi_card.png)
 
@@ -57,10 +60,10 @@ Pamiętaj jednak, aby udostępnić kontekst.
 
 Dowiedz się więcej na temat [tworzenia kafelka zawierającego tylko liczbę](power-bi-visualization-card.md).
 
-### <a name="put-the-most-important-information-in-the-upper-corner"></a>Najważniejsze informacje umieszczaj na górze
+## <a name="put-the-most-important-information-in-the-upper-corner"></a>Najważniejsze informacje umieszczaj na górze
 Większość osób przyswaja wiedzę, czytając od góry do dołu. Z tego względu najbardziej ogólne informacje umieść na górze, a kolejne szczegóły dołączaj zgodnie z kierunkiem, w jakim czytają Twoi odbiorcy (od lewej do prawej lub od prawej do lewej).
 
-### <a name="use-the-right-visualization-for-the-data-and-format-it-for-easy-reading"></a>Wybierz odpowiednią wizualizację danych i sformatuj je tak, aby były czytelne
+## <a name="use-the-right-visualization-for-the-data-and-format-it-for-easy-reading"></a>Wybierz odpowiednią wizualizację danych i sformatuj je tak, aby były czytelne
 Różnorodność wizualizacji nie jest najważniejsza.  Wizualizacje mają „przedstawiać obraz” i powinny być czytelne oraz łatwe do zinterpretowania.  W niektórych sytuacjach wystarczy prosta graficzna wizualizacja danych. Inne przypadki mogą wymagać bardziej złożonych wizualizacji — pamiętaj, aby używać tytułów i etykiet oraz innych dostosowań, ułatwiających pracę użytkownikom.  
 
 * [Wybieraj odpowiednie wizualizacje danych](http://blogs.msdn.com/b/microsoft_business_intelligence1/archive/2012/10/08/best-practices-in-data-visualization.aspx). Zachowaj ostrożność, używając na przykład wykresów 3W, które zniekształcają rzeczywistość. Pamiętaj, że ludzki mózg nie najlepiej radzi sobie z interpretacją okrągłych kształtów. Wykresy kołowe i pierścieniowe, mierniki oraz inne rodzaje okrągłych wykresów mogą ładnie wyglądać, ale nie są najlepsze do wizualizacji danych.
@@ -84,7 +87,6 @@ Aby opanować sztukę doskonałego projektowania pulpitów nawigacyjnych, zapozn
 * *Advanced Presentations by Design*, autor: Andrew Abela   
 
 ## <a name="next-steps"></a>Następne kroki
-[Pulpity nawigacyjne w usłudze Power BI](service-dashboards.md)  
+[Tworzenie pulpitu nawigacyjnego na podstawie raportu](service-dashboard-create.md)  
 [Power BI — podstawowe pojęcia](service-basic-concepts.md)  
 Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
-

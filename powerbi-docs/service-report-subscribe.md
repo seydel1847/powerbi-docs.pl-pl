@@ -1,31 +1,31 @@
 ---
-title: "Subskrybowanie raportów i pulpitów nawigacyjnych usługi Power BI"
-description: "Dowiedz się, jak uzyskać dla siebie i innych subskrypcję migawki raportu i pulpitu nawigacyjnego usługi Power BI."
+title: Subskrybowanie raportów i pulpitów nawigacyjnych w usłudze Power BI
+description: Dowiedz się, jak uzyskać dla siebie i innych subskrypcję migawki raportu i pulpitu nawigacyjnego usługi Power BI.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: saQx7G0pxhc
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/28/2018
+ms.date: 03/21/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 11e9a2ba499c6db2c75434d13c62bc53704a7cb3
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: af93d9d49b25fe2bc8fefcc2128dea74effc65ec
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/16/2018
 ---
-# <a name="subscribe-to-a-power-bi-report-or-dashboard"></a>Subskrybowanie raportu lub pulpitu nawigacyjnego usługi Power BI
+# <a name="subscribe-to-a-report-or-dashboard-in-power-bi-service-apppowerbicom"></a>Subskrybowanie raportu i pulpitu nawigacyjnego w usłudze Power BI (app.powerbi.com)
 Nigdy nie było łatwiej być na czasie w przypadku najważniejszych pulpitów nawigacyjnych i raportów. Subskrybuj strony raportów i pulpity nawigacyjne, które są najważniejsze dla Ciebie, a usługa Power BI wyśle wiadomość e-mail z migawką do Twojej skrzynki odbiorczej. Poinformuj usługę Power BI, jak często chcesz otrzymywać wiadomości e-mail: od raz dziennie do raz w tygodniu. 
 
 W wiadomości e-mail i migawce będzie używany język skonfigurowany w ustawieniach usługi Power BI (zobacz temat [Języki i kraje/regiony obsługiwane w usłudze Power BI](supported-languages-countries-regions.md)). Jeśli żaden język nie zostanie zdefiniowany, usługa Power BI będzie używać języka zgodnie z ustawieniami regionalnymi w bieżącej przeglądarce. Aby zobaczyć preferencję języka, wybierz ikonę z kołem zębatym ![ikona koła zębatego](media/service-report-subscribe/power-bi-settings-icon.png) **> Ustawienia > Ogólne > Język**. 

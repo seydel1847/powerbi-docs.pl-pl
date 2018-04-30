@@ -1,29 +1,29 @@
 ---
-title: "Samouczek - wizualizacje tabel w raportach i na pulpitach nawigacyjnych usługi Power BI (samouczek)"
-description: "Samouczek wprowadzający do pracy z wizualizacjami tabel w raportach i na pulpitach nawigacyjnych usługi Power BI, w tym informujący o sposobie zmieniania szerokości kolumn."
+title: Wizualizacje tabel w raportach i na pulpitach nawigacyjnych usługi Power BI (samouczek)
+description: Samouczek wprowadzający do pracy z wizualizacjami tabel w raportach i na pulpitach nawigacyjnych usługi Power BI, w tym informujący o sposobie zmieniania szerokości kolumn.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/22/2018
+ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d41fd5085912ec74312fa4a4b25060cbd4afba94
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: a36e2afcda7c741c871b07c526ab010f77290a3b
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="working-with-tables-in-power-bi-reports-and-dashboards-tutorial"></a>Praca z tabelami w raportach i na pulpitach nawigacyjnych usługi Power BI (samouczek)
 Tabela to siatka zawierająca powiązane dane w postaci logicznej serii wierszy i kolumn. Może również zawierać nagłówki i wiersze sum. Tabele dobrze się sprawdzają w przypadku porównań ilościowych, gdy analizuje się wiele wartości z jednej kategorii. Na przykład ta tabela zawiera 5 różnych miar dla **kategorii**.
@@ -69,15 +69,21 @@ Istnieje bardzo wiele sposobów formatowania tabeli. Omówimy tu tylko niektóre
 
 * Spróbuj sformatować siatkę tabeli. W tym miejscu dodaliśmy niebieską siatkę pionową, dodaliśmy więcej miejsca do wierszy oraz zwiększyliśmy nieco obramowanie oraz rozmiar tekstu.
   
-    ![](media/power-bi-visualization-tables/power-bi-table-grid2-new.png)
+    ![](media/power-bi-visualization-tables/power-bi-table-gridnew.png)
   
     ![](media/power-bi-visualization-tables/power-bi-table-grid3.png)
 * W nagłówkach kolumn zmieniliśmy kolor tła, dodaliśmy obramowanie i zwiększyliśmy rozmiar czcionki. 
   
-    ![](media/power-bi-visualization-tables/power-bi-table-column.png)
+    ![](media/power-bi-visualization-tables/power-bi-table-column-headers.png)
+
   
     ![](media/power-bi-visualization-tables/power-bi-table-column2.png)
-* Po dodaniu jeszcze kilku opcji formatowania tabela wygląda tak. Ponieważ istnieje tak wiele opcji formatowania, najlepiej jest rozpocząć zapoznawanie się z nimi od zwykłej tabeli: otwórz okienko formatowania ![](media/power-bi-visualization-tables/power-bi-format.png) i zacznij przeglądać opcje. 
+
+* Możesz nawet zastosować formatowanie do poszczególnych kolumn i nagłówków kolumn. Rozpocznij od rozwinięcia obszaru **Formatowanie pola** i wybrania kolumny do formatowania z listy rozwijanej. W zależności od wartości kolumn funkcja formatowania pola umożliwia ustawianie elementów, takich jak: jednostki wyświetlania, kolor czcionki, liczba miejsc dziesiętnych, tło, wyrównanie i inne. Po dostosowaniu ustawień zdecyduj, czy chcesz również zastosować te ustawienia w nagłówku i wierszu sum.
+
+    ![](media/power-bi-visualization-tables/power-bi-field-formatting.png)
+
+* Po dodaniu jeszcze kilku opcji formatowania tabela wygląda tak. Ponieważ istnieje tak wiele opcji formatowania, najlepiej jest rozpocząć zapoznawanie się z nimi od formatowania domyślnego: otwórz okienko formatowania ![](media/power-bi-visualization-tables/power-bi-format.png) i zacznij przeglądać opcje. 
   
     ![](media/power-bi-visualization-tables/power-bi-table-format.png)
 

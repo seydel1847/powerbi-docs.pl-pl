@@ -1,15 +1,15 @@
 ---
-title: "Jak migrować zawartość kolekcji obszarów roboczych usługi Power BI do usługi Power BI"
-description: "Dowiedz się, jak przeprowadzić migrację z kolekcji obszarów roboczych usługi Power BI do usługi Power BI Embedded i uzyskać korzyści związane z osadzaniem zawartości w aplikacjach."
+title: Jak migrować zawartość kolekcji obszarów roboczych usługi Power BI do usługi Power BI
+description: Dowiedz się, jak przeprowadzić migrację z kolekcji obszarów roboczych usługi Power BI do usługi Power BI Embedded i uzyskać korzyści związane z osadzaniem zawartości w aplikacjach.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.Embedded: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 03/06/2018
 ms.author: maghan
-ms.openlocfilehash: c8ad315976dd1ca47d6b4dc2fd9a191a11e044c7
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 5cf1be502267b14075ac6160ce93fce47941d3c2
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Jak migrować zawartość kolekcji obszarów roboczych usługi Power BI do usługi Power BI Embedded
 Dowiedz się, jak przeprowadzić migrację z kolekcji obszarów roboczych usługi Power BI do usługi Power BI Embedded i uzyskać korzyści związane z osadzaniem zawartości w aplikacjach.
@@ -58,8 +58,7 @@ W dzierżawie muszą istnieć następujące konta.
 
 > [!NOTE]
 > Aby możliwe było korzystanie z obszarów roboczych aplikacji, należy przypisać do tych kont licencje usługi Power BI Pro.
-> 
-> 
+>
 
 1. Użytkownik będący administratorem dzierżawy.
    
@@ -71,10 +70,13 @@ W dzierżawie muszą istnieć następujące konta.
    
     Poświadczenia tego konta będą przechowywane w zapleczu aplikacji i używane w celu uzyskania tokenu usługi Azure AD do użycia z interfejsami API REST usługi Power BI. To konto będzie używane w celu wygenerowania tokenu osadzania dla aplikacji. To konto musi być też administratorem obszarów roboczych aplikacji tworzonych na potrzeby osadzania.
    
-   > [!NOTE]
-   > Jest to zwykłe konto użytkownika w organizacji, które będzie używane na potrzeby osadzania.
-   > 
-   > 
+> [!NOTE]
+> Jest to zwykłe konto użytkownika w organizacji, które będzie używane na potrzeby osadzania.
+>
+
+> [!NOTE]
+> Jeśli aplikacja wymaga tokenu uwierzytelniania App-Only, kliknij [tutaj](mailto:pbieci@microsoft.com?Subject=App-only%20token%20requirement), aby skontaktować się z nami.
+>
 
 ## <a name="app-registration-and-permissions"></a>Rejestrowanie aplikacji i uprawnienia
 Konieczne będzie zarejestrowanie aplikacji w usłudze Azure AD i przydzielenie określonych uprawnień.
@@ -126,13 +128,13 @@ Buforowane zestawy danych to pliki PBIX zawierające zaimportowane dane, a nie p
 #### <a name="directquery-dataset--report"></a>Zestaw danych i raport z zapytaniem bezpośrednim
 **Procedura**
 
-1. Wywołaj polecenie GET https://api.powerbi.com/v1.0/collections/{identyfikator_kolekcji}/workspaces/{identyfikator_obszaru_roboczego}/datasets/{identyfikator_zestawu_danych}/Default.GetBoundGatewayDataSources i zapisz otrzymane parametry połączenia.
+1. Wywołaj metodę GET https://api.powerbi.com/v1.0/collections/{collection_id}/workspaces/{wid}/datasets/{dataset_id}/Default.GetBoundGatewayDataSources i zapisz odebrane parametry połączenia.
 2. Wywołaj interfejs API pobierania pliku PBIX z obszaru roboczego w usłudze PaaS.
 3. Zapisz plik PBIX.
 4. Wywołaj importowanie pliku do obszaru roboczego w usłudze SaaS.
-5. Zaktualizuj parametry połączenia, wywołując polecenie POST https://api.powerbi.com/v1.0/myorg/datasets/{identyfikator_zestawu_danych}/Default.SetAllConnections
-6. Pobierz identyfikator bramy i identyfikator źródła danych, wywołując polecenie GET https://api.powerbi.com/v1.0/myorg/datasets/{identyfikator_zestawu_danych}/Default.GetBoundGatewayDataSources
-7. Zaktualizuj poświadczenia użytkownika, wywołując polecenie PATCH https://api.powerbi.com/v1.0/myorg/gateways/{identyfikator_bramy}/datasources/{identyfikator_źródła_danych}
+5. Zaktualizuj parametry połączenia za pośrednictwem wywołania — POST https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.SetAllConnections
+6. Pobierz identyfikator GW i identyfikator źródła danych za pośrednictwem wywołania — GET https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.GetBoundGatewayDataSources
+7. Zaktualizuj poświadczenia użytkownika za pośrednictwem wywołania — PATCH https://api.powerbi.com/v1.0/myorg/gateways/{gateway_id}/datasources/{datasource_id}
 
 #### <a name="old-dataset--reports"></a>Starsze zestawy danych i raporty
 Są to zestawy danych/raporty utworzone przed październikiem 2016 r. Interfejs API „Download PBIX” nie obsługuje plików PBIX przekazanych przed październikiem 2016 r.

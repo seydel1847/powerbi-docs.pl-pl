@@ -1,45 +1,50 @@
 ---
-title: "Tryb koncentracji uwagi — powiększanie jednej wizualizacji, aby zobaczyć więcej szczegółów."
-description: "Dokumentacja dotycząca wyświetlania kafelków pulpitu nawigacyjnego lub wizualizacji raportów usługi Power BI w trybie koncentracji uwagi, zwanego otwieraniem w nowym oknie."
+title: Tryb koncentracji uwagi — powiększanie jednej wizualizacji, aby zobaczyć więcej szczegółów.
+description: Dokumentacja dotycząca wyświetlania kafelków pulpitu nawigacyjnego lub wizualizacji raportów usługi Power BI w trybie koncentracji uwagi, zwanego otwieraniem w nowym oknie.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: dtdLul6otYE
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/01/2018
+ms.date: 03/24/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 40ef141046db4b8dac9cf47f7f043ca306d2fadb
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 3073fb3515dd90e676d38a1f89aca4c66445cd1f
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="display-a-dashboard-tile-or-report-visual-in-focus-mode"></a>Wyświetlanie kafelka pulpitu nawigacyjnego lub wizualizacji raportu w trybie koncentracji uwagi
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dtdLul6otYE" frameborder="0" allowfullscreen></iframe>
 
 
 ## <a name="what-is-focus-mode"></a>Co to jest tryb koncentracji uwagi?
-Tryb ***koncentracji uwagi*** umożliwia rozwijanie (otwieranie w nowym oknie) kafelka pulpitu nawigacyjnego lub wizualizacji raportu, aby wyświetlić więcej szczegółów.  W trybie koncentracji uwagi można wyświetlać i modyfikować filtry, które zostały zastosowane podczas tworzenia danej wizualizacji.  
+
+Tryb ***koncentracji uwagi*** umożliwia rozwijanie (otwieranie w okienku wyskakującym) zawartości w celu wyświetlenia większej liczby szczegółów.  W trybie koncentracji uwagi można wyświetlać i modyfikować filtry, które zostały zastosowane podczas tworzenia danej wizualizacji.  W usłudze Power BI można użyć trybu koncentracji uwagi w obrębie kafelka pulpitu nawigacyjnego lub wizualizacji raportu. W programie Power BI Desktop można użyć trybu koncentracji uwagi w obrębie [wizualizacji raportu](desktop-report-view.md).
 
 > [!NOTE]
 > Tryb koncentracji uwagi różni się od [trybu pełnoekranowego](service-fullscreen-mode.md).
 > 
+
+
 ## <a name="focus-mode-for-dashboard-tiles"></a>Tryb koncentracji uwagi dla kafelków pulpitu nawigacyjnego
-1. Zatrzymaj wskaźnik myszy nad wizualizacją kafelka, wybierz wielokropek (...) i wybierz pozycję **Otwórz w trybie koncentracji uwagi** 
+
+1. Zatrzymaj wskaźnik myszy nad wizualizacją kafelka, wybierz wielokropek (...) i wybierz pozycję **Otwórz w trybie koncentracji uwagi**. 
 
     ![menu wielokropka dla kafelka](media/service-focus-mode/power-bi-dashboard-focus-mode.png).
-   
+
 2. Spowoduje to otwarcie kafelka, który wypełni całą kanwę raportu. 
 
    ![kafelek wypełnia kanwę raportu](media/service-focus-mode/power-bi-tile-focus.png)
@@ -62,7 +67,6 @@ Tryb ***koncentracji uwagi*** umożliwia rozwijanie (otwieranie w nowym oknie) k
    ![ikona koncentracji uwagi wyświetlona na kafelku](media/service-focus-mode/power-bi-hover-focus.png)
 2. Spowoduje to otwarcie wizualizacji i wypełnienie nią całej kanwy. 
 
-   
    ![element wizualny w trybie koncentracji uwagi](media/service-focus-mode/power-bi-display-focus-newer2.png)
 3. Rozwiń okienko Filtry, aby zobaczyć wszystkie filtry zastosowane do danej wizualizacji.
    
@@ -76,7 +80,7 @@ Tryb ***koncentracji uwagi*** umożliwia rozwijanie (otwieranie w nowym oknie) k
 Gdy kafelek lub wizualizacja są otwarte w trybie koncentracji uwagi, można je [wyświetlić w trybie pełnoekranowym (tryb TV).](service-fullscreen-mode.md) W trybie pełnoekranowym zawartość jest wyświetlana bez rozpraszających menu i przycisków nawigacji.
 
 ## <a name="considerations-and-troubleshooting"></a>Istotne zagadnienia i rozwiązywanie problemów
-* Podczas korzystania z trybu koncentracji uwagi dla wizualizacji w raporcie możesz wyświetlać i modyfikować wszystkie filtry: na poziomie wizualizacji, na poziomie strony i na poziomie raportu.    
+* Podczas korzystania z trybu koncentracji uwagi dla wizualizacji w raporcie możesz wyświetlać i modyfikować wszystkie filtry: na poziomie wizualizacji, na poziomie strony, przeglądania szczegółowego i na poziomie raportu.    
 * Podczas korzystania z trybu koncentracji uwagi dla wizualizacji na pulpicie nawigacyjnym możesz wyświetlać i modyfikować jedynie filtry na poziomie wizualizacji.
 
 Więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)

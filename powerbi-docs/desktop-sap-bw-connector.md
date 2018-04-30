@@ -15,17 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/06/2018
+ms.date: 04/09/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 84ee8e7c6dd92c5400b6e9d44fab03ad347084d9
-ms.sourcegitcommit: e31fc1f6e4af427f8b480c8dbc537c3617c9b2c0
+ms.openlocfilehash: d644f13f6c9b8ada62a0862fdcf92518512828f7
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>Używanie łącznika systemu SAP BW w programie Power BI Desktop
-Program Power BI Desktop umożliwia dostęp do danych systemu **SAP BusinessWarehouse (BW)**.
+Program Power BI Desktop umożliwia dostęp do danych systemu **SAP Business Warehouse (BW)**.
+
+Aby dowiedzieć się, jak klienci systemu SAP mogą korzystać z zalet połączenia usługi Power BI z istniejącymi systemami SAP Business Warehouse (BW), zapoznaj się z [oficjalnym dokumentem dotyczącym usługi Power BI i systemu SAP BW](https://aka.ms/powerbiandsapbw).
 
 ## <a name="installation-of-sap-bw-connector"></a>Instalacja łącznika systemu SAP BW
 Aby używać łącznika systemu **SAP BW**, wykonaj następujące kroki instalacji:
@@ -115,3 +117,4 @@ Aby uzyskać więcej informacji na temat platformy SAP HANA i zapytania bezpośr
 * [Zapytanie bezpośrednie i platforma SAP HANA](desktop-directquery-sap-hana.md)
 * [Zapytanie bezpośrednie w usłudze Power BI](desktop-directquery-about.md)
 * [Źródła danych obsługiwane przez zapytanie bezpośrednie](desktop-directquery-data-sources.md)
+* [Oficjalny dokument dotyczący usługi Power BI i systemu SAP BW](https://aka.ms/powerbiandsapbw)

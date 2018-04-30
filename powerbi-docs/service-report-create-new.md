@@ -1,36 +1,36 @@
 ---
-title: "Samouczek — tworzenie nowego raportu z zestawu danych "
-description: "Tworzenie nowego raportu usługi Power BI na podstawie zestawu danych."
+title: 'Samouczek — tworzenie nowego raportu z zestawu danych '
+description: Tworzenie nowego raportu usługi Power BI na podstawie zestawu danych.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: monitoring
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/01/2018
+ms.date: 03/24/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 7da16deb3e5919d509a5cbbb7fd845914c8c4ea4
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: e6c4a614f19a6ba7b9e24c199b7f291e7f57f098
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/16/2018
 ---
-# <a name="create-a-new-power-bi-report-by-importing-a-dataset"></a>Tworzenie nowego raportu usługi Power BI przez zaimportowanie zestawu danych
-Po zapoznaniu się z tematem [Raporty w usłudze Power BI](service-reports.md) możesz teraz utworzyć własny raport. Istnieje wiele sposobów tworzenia raportów. W tym artykule zaczniemy od utworzenia podstawowego raportu na podstawie zestawu danych programu Excel. Kiedy zapoznasz się z podstawami tworzenia raportów, możesz przejść do bardziej zaawansowanych tematów dostępnych w sekcji **Następne kroki** u dołu strony.  
+# <a name="create-a-new-report-in-power-bi-service-by-importing-a-dataset"></a>Tworzenie nowego raportu w usłudze Power BI przez zaimportowanie zestawu danych
+Po zapoznaniu się z tematem [Raporty w usłudze Power BI](service-reports.md) możesz teraz utworzyć własny raport. Istnieje wiele sposobów tworzenia raportów. W tym artykule zaczniemy od utworzenia podstawowego raportu na podstawie zestawu danych programu Excel przy użyciu usługi Power BI. Kiedy zapoznasz się z podstawami tworzenia raportów, możesz przejść do bardziej zaawansowanych tematów dostępnych w sekcji **Następne kroki** u dołu strony.  
 
 > **PORADA**: aby utworzyć raport przez skopiowanie istniejącego raportu, zobacz [Kopiowanie raportu](power-bi-report-copy.md).
 > 
 ### <a name="prerequisites"></a>Wymagania wstępne
-- Usługa Power BI (w celu tworzenia raportów za pomocą programu Power BI Desktop zobacz [widok raportu w programie Desktop](desktop-report-view.md))   
+- Usługa Power BI (w celu tworzenia raportów za pomocą programu Power BI Desktop zobacz [Widok raportu w programie Desktop](desktop-report-view.md))  
 - Zestaw danych Próbka analizy handlu detalicznego
 
 ## <a name="import-the-dataset"></a>Importowanie zestawu danych

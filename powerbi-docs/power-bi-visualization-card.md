@@ -1,28 +1,28 @@
 ---
-title: "Wizualizacje w postaci kart (kafelki z dużą liczbą)"
-description: "Tworzenie wizualizacji w postaci karty w usłudze Power BI"
+title: Wizualizacje w postaci kart (kafelki z dużą liczbą)
+description: Tworzenie wizualizacji w postaci karty w usłudze Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/24/2017
+ms.date: 03/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f38f3bb19be268cba4745c88aa98d09c080c773e
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 3e30e0f742d97817583ecdfd72df65a8658ec977
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="card-visualizations"></a>Wizualizacje w postaci kart
 Czasami jedna liczba jest najważniejsza i chcesz ją śledzić na swoim pulpicie nawigacyjnym lub w raporcie usługi Power BI, np. łączna sprzedaż, udział w rynku rok do roku lub łączna liczba szans sprzedaży. Ten typ wizualizacji jest nazywany *kartą*. Podobnie jak w przypadku niemal wszystkich natywnych wizualizacji usługi Power BI, karty można tworzyć przy użyciu edytora raportu lub funkcji Pytania i odpowiedzi.
@@ -91,6 +91,25 @@ Skorzystanie z pola pytania funkcji Pytania i odpowiedzi jest najprostszym sposo
 - Jeśli pole pytania nie jest w ogóle widoczne, skontaktuj się z administratorem systemu lub dzierżawy.    
 - Jeśli używasz programu Power BI Desktop i dwukrotne kliknięcie pustego miejsca w raporcie nie otwiera pola funkcji Pytania i odpowiedzi, konieczne może być jej włączenie.  Wybierz pozycję **Plik > Opcje i ustawienia > Opcje > Funkcje w wersji zapoznawczej > Pytania i odpowiedzi**, a następnie ponownie uruchom program Power BI Desktop.
 
+## <a name="format-a-card"></a>Formatowanie karty
+Istnieje wiele opcji zmieniania etykiet, tekstu, koloru i innych elementów. Najlepszym sposobem zapoznania się z nimi jest utworzenie karty, a następnie eksplorowanie okienka Formatowanie. Oto tylko kilka spośród dostępnych opcji formatowania. 
+
+1. Rozpocznij, wybierając ikonę pędzla, aby otworzyć okienko formatowania. 
+
+    ![](media/power-bi-visualization-card/power-bi-format-card.png)
+2. Rozwiń węzeł **Etykieta danych**, a następnie zmień kolor, rozmiar i rodzinę czcionek. Jeśli masz tysiące sklepów, możesz użyć opcji **Jednostki wyświetlania**, aby pokazać liczbę w tysiącach i kontrolować liczbę miejsc dziesiętnych. Na przykład można użyć wersji 125,8K zamiast 125 832,00.
+
+3.  Rozwiń węzeł **Etykieta kategorii**, a następnie zmień rozmiar i kolor.
+
+    ![](media/power-bi-visualization-card/power-bi-card-format.png)
+
+4. Rozwiń węzeł **Tło** i przesuń suwak do położenia oznaczającego włączenie.  Teraz możesz zmienić kolor tła i przezroczystość.
+
+    ![](media/power-bi-visualization-card/power-bi-format-color.png)
+
+5. Zmieniaj ustawienia opcji formatowania do momentu uzyskania wybranego wyglądu karty. 
+
+    ![](media/power-bi-visualization-card/power-bi-formatted.png)
 
 ## <a name="next-steps"></a>Następne kroki
 [Kafelki pulpitu nawigacyjnego w usłudze Power BI](service-dashboard-tiles.md)

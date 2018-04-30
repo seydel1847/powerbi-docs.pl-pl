@@ -12,16 +12,16 @@ qualityfocus: no
 qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
-ms.topic: get-started-article
+ms.topic: conceptual
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/20/2018
+ms.date: 04/09/2018
 ms.author: maggies
-ms.openlocfilehash: 29241b4c0f059540e6f1496f04b3044ebbd7d68b
-ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
+ms.openlocfilehash: 9caf6e6867c55d3c601ac417add173d0af091897
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Co nowego w aplikacjach mobilnych dla usługi Power BI
 Powiązane nowości są dostępne w następujących artykułach:
@@ -29,6 +29,17 @@ Powiązane nowości są dostępne w następujących artykułach:
 * [Blog zespołu usługi Power BI dotyczący aplikacji mobilnych](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Co nowego w programie Power BI Desktop](desktop-latest-update.md)  
 * [Co nowego w usłudze Power BI](service-whats-new.md)  
+
+## <a name="april-2018"></a>Kwiecień 2018
+
+### <a name="mobile-drill-down-and-drill-up"></a>Mobilne przechodzenie do szczegółów i uogólnianie
+
+Teraz można przechodzić do szczegółów wizualizacji raportów i uogólniać je na urządzeniu przenośnym. Aby uzyskać dostęp do tej nowej funkcji, naciśnij menu etykietek narzędzi i przytrzymaj je, aby otworzyć je w wizualizacji raportu, a następnie dotknij przycisków przechodzenia, aby zapoznać się ze szczegółami danych.
+
+### <a name="persistent-filters"></a>Filtry trwałe
+
+Ostatnio zaktualizowaliśmy filtry i fragmentatory raportów, tak aby były automatycznie zapisywane z usługi Power BI w Internecie do aplikacji mobilnej Power BI. Teraz filtry i fragmentatory ustawiane w aplikacji mobilnej są automatycznie zapisywane do usługi Power BI w Internecie.
+
 
 ## <a name="march-2018"></a>Marzec 2018
 

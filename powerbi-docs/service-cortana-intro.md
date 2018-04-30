@@ -1,5 +1,5 @@
 ---
-title: Szybko znajduj i wyświetlaj swoje pulpity nawigacyjne i raporty Power BI za pomocą Cortany
+title: Szybkie znajdowanie i wyświetlanie raportów i pulpitów nawigacyjnych za pomocą Cortany
 description: Uzyskuj odpowiedzi na podstawie swoich danych dzięki Cortanie i usłudze Power BI. Obecnie są obsługiwane raporty i pulpity nawigacyjne.
 services: powerbi
 documentationcenter: ''
@@ -14,11 +14,11 @@ ms.workload: powerbi
 ms.date: 01/13/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 11bba0ec026650e59b8757b207f5f6d596499f0a
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 46be9e170b0bdfb1aa18cfcdb126a16b78c9aa9d
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="quickly-find-and-view-your-power-bi-data-using-cortana-for-power-bi"></a>Szybko znajduj i wyświetlaj dane usługi Power BI za pomocą Cortany dla usługi Power BI
 Cortana zapewnia błyskawiczne odpowiedzi na ważne pytania biznesowe na wszystkich Twoich urządzeniach z systemem Windows 10. Dzięki integracji z usługą Power BI Cortana może pobierać kluczowe informacje bezpośrednio z pulpitów nawigacyjnych i raportów usługi Power BI. Potrzebny jest tylko system Windows 10 w wersji z listopada 2015 r. lub nowszej, Cortana, usługa Power BI i dostęp do co najmniej jednego zestawu danych.

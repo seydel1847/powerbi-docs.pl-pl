@@ -1,15 +1,15 @@
 ---
-title: "Używanie wizualizacji macierzy w programie Power BI Desktop"
-description: "Dowiedz się, jak wizualizacja macierzy umożliwia korzystanie z układów schodkowych i szczegółowego wyróżniania w programie Power BI Desktop"
+title: Używanie wizualizacji macierzy w programie Power BI Desktop
+description: Dowiedz się, jak wizualizacja macierzy umożliwia korzystanie z układów schodkowych i szczegółowego wyróżniania w programie Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,14 +18,14 @@ ms.workload: powerbi
 ms.date: 02/05/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: de40c8ee25c5facc1c4396c807d38784c11e8bca
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: fdab0ee5a4804bcb05e936f4e6a9455127d352fa
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="use-the-matrix-visual-in-power-bi-desktop"></a>Używanie wizualizacji Macierz w programie Power BI Desktop
-Wizualizacja **Macierz** pozwala tworzyć wizualizacje macierzy (czasami określane jako *tabele*) w raportach programu **Power BI Desktop**, a także umożliwia wyróżnianie krzyżowe elementów w macierzy oraz w innych wizualizacjach. Ponadto możesz zaznaczać do wyróżnienia krzyżowego wiersze, kolumny, a nawet pojedyncze komórki. Aby jeszcze skuteczniej wykorzystać miejsce, wizualizacja macierzy obsługuje układ schodkowy.
+Funkcja wizualizacji **Macierz** pozwala tworzyć wizualizacje macierzy (czasami określane jako *tabele*) w raportach programu **Power BI Desktop**, a także umożliwia wyróżnianie krzyżowe elementów w macierzy oraz w innych wizualizacjach. Ponadto możesz zaznaczać do wyróżnienia krzyżowego wiersze, kolumny, a nawet pojedyncze komórki. Aby jeszcze skuteczniej wykorzystać miejsce, wizualizacja macierzy obsługuje układ schodkowy.
 
 ![](media/desktop-matrix-visual/matrix-visual_2a.png)
 
@@ -71,17 +71,17 @@ Oprócz korzystania z tych ikon możesz kliknąć dowolny nagłówek wiersza pra
 
 ![](media/desktop-matrix-visual/matrix-visual_7.png)
 
-Wyświetlane menu zawiera kilka opcji, które mają różne działanie:
+Wyświetlane menu zawiera kilka opcji, które generują różne wyniki:
 
 Wybranie opcji **Przejdź do szczegółów** rozwija macierz dla poziomu *tego* wiersza (klikniętego prawym przyciskiem myszy) — *z wykluczeniem* wszystkich pozostałych nagłówków wierszy. Na poniższej ilustracji kliknięto prawym przyciskiem pozycję *Computers*  (Komputery) i wybrano polecenie **Przejdź do szczegółów**. Zauważ, że pozostałe wiersze najwyższego poziomu nie są już widoczne w macierzy. Ta funkcja okaże się szczególnie przydatna, kiedy przejdziemy do sekcji na temat **wyróżniania krzyżowego**.
 
 ![](media/desktop-matrix-visual/matrix-visual_8.png)
 
-Możemy kliknąć ikonę **Uogólnij**, aby wrócić do widoku najwyższego poziomu. Jeśli z menu podręcznego wybierzemy opcję **Pokaż następny poziom**, uzyskamy listę alfabetyczną wszystkich pozycji następnego poziomu — w tym przypadku z pola *SubCategory* (Podkategoria) — bez podziału na kategorie wyższego poziomu.
+Możesz kliknąć ikonę **Uogólnij**, aby wrócić do widoku najwyższego poziomu. Jeśli z menu podręcznego wybierzesz opcję **Pokaż następny poziom**, uzyskasz listę alfabetyczną wszystkich pozycji następnego poziomu (w tym przypadku z pola *SubCategory* (Podkategoria)) bez podziału na kategorie wyższego poziomu.
 
 ![](media/desktop-matrix-visual/matrix-visual_8a.png)
 
-Gdy klikniemy ikonę **Uogólnij** w lewym górnym rogu, aby wyświetlić wszystkie kategorie najwyższego poziomu w macierzy, a następnie ponownie klikniemy prawym przyciskiem myszy i wybierzemy opcję **Rozwiń do następnego poziomu**, zobaczymy następujący widok:
+Gdy klikniesz ikonę **Uogólnij** w lewym górnym rogu, aby wyświetlić wszystkie kategorie najwyższego poziomu w macierzy, a następnie ponownie klikniemy prawym przyciskiem myszy i wybierzemy opcję **Rozwiń do następnego poziomu**, zobaczysz następujący widok:
 
 ![](media/desktop-matrix-visual/matrix-visual_9.png)
 
@@ -108,7 +108,7 @@ Pozostałe elementy menu kontekstowego działają na kolumnach tak samo jak na w
 > 
 
 ## <a name="stepped-layout-with-matrix-visuals"></a>Układ schodkowy wizualizacji macierzy
-Układ **Macierz** automatycznie tworzy wcięcia podkategorii w hierarchii pod każdym elementem nadrzędnym. Jest to tak zwany **układ schodkowy**.
+Wizualizacja **Macierz** automatycznie tworzy wcięcia podkategorii w hierarchii pod każdym elementem nadrzędnym. Jest to tak zwany **układ schodkowy**.
 
 W *pierwotnej* wersji wizualizacji macierzy podkategorie były wyświetlane w odrębnej kolumnie, przez co zajmowały o wiele więcej miejsca. Na poniższej ilustracji przedstawiono tabelę w pierwotnej wizualizacji **macierzy**. Zwróć uwagę na oddzielną kolumnę podkategorii.
 
@@ -118,7 +118,7 @@ Na poniższej ilustracji przedstawiono wizualizację **Macierz** z **układem sc
 
 ![](media/desktop-matrix-visual/matrix-visual_13.png)
 
-Możesz łatwo dopasować ustawienia **układu schodkowego**. Po wybraniu wizualizacji **Macierz** w sekcji **Format** (ikona wałka do malowania) okienka **Wizualizacje** rozwiń sekcję **Nagłówki wierszy**. Zawiera ona dwie opcje: przełącznik **Układ schodkowy** (włącza lub wyłącza ten układ) oraz **Wcięcie układu schodkowego** (określa głębokość wcięcia w pikselach).
+Możesz łatwo dopasować ustawienia układu schodkowego. Po wybraniu wizualizacji **Macierz** w sekcji **Format** (ikona wałka do malowania) okienka **Wizualizacje** rozwiń sekcję **Nagłówki wierszy**. Masz dwie opcje: przełącznik **Układ schodkowy** (włącza lub wyłącza ten układ) oraz **Wcięcie układu schodkowego** (określa głębokość wcięcia w pikselach).
 
 ![](media/desktop-matrix-visual/matrix-visual_15.png)
 
@@ -136,9 +136,9 @@ W sekcji **Format** okienka **Wizualizacje** rozwiń kartę **Sumy częściowe**
 Taki sam proces dotyczy sum częściowych kolumn.
 
 ## <a name="cross-highlighting-with-matrix-visuals"></a>Wyróżnianie krzyżowe w wizualizacji macierzy
-Wizualizacja **Macierz** umożliwia zaznaczenie dowolnych elementów macierzy w celu wyróżnienia krzyżowego. Kiedy zaznaczysz kolumnę w wizualizacji **Macierz**, zostanie ona wyróżniona we wszystkich innych wizualizacjach na stronie raportu. Ta wspólna funkcja innych wizualizacji łączy je z zaznaczonym punktem danych. Teraz jest dostępna również dla wizualizacji **Macierz**.
+Przy użyciu wizualizacji **Macierz** można zaznaczyć dowolne elementy macierzy w celu wyróżnienia krzyżowego. Kiedy zaznaczysz kolumnę w wizualizacji **Macierz**, zostanie ona wyróżniona we wszystkich innych wizualizacjach na stronie raportu. Była to wspólna funkcja innych wizualizacji i zaznaczonych punktów danych, dlatego teraz wizualizacja **Macierz** oferuje tę samą funkcję.
 
-Wyróżnianie krzyżowe reaguje także na kliknięcia z wciśniętym klawiszem CTRL. Na przykład poniższa ilustracja zawiera kolekcję podkategorii zaznaczonych w wizualizacji **Macierz**. Zauważ, że elementy niezaznaczone w wizualizacji są wygaszone, a pozostałe wizualizacje na stronie odzwierciedlają zaznaczenie z wizualizacji **Macierz**.
+Wyróżnianie krzyżowe reaguje także na kliknięcia z wciśniętym klawiszem Ctrl. Na przykład poniższa ilustracja zawiera kolekcję podkategorii zaznaczonych w wizualizacji **Macierz**. Zauważ, że elementy niezaznaczone w wizualizacji są wygaszone, a pozostałe wizualizacje na stronie odzwierciedlają zaznaczenie z wizualizacji **Macierz**.
 
 ![](media/desktop-matrix-visual/matrix-visual_16.png)
 
@@ -150,7 +150,7 @@ Aby użyć formatowania warunkowego, wykonaj jedną z tych czynności po wybrani
 * W okienku **Pola** kliknij pole prawym przyciskiem myszy i wybierz z menu polecenie **Formatowanie warunkowe**.
   
   ![](media/desktop-matrix-visual/matrix-visual_17.png)
-* Możesz też w okienku **Format** rozwinąć kartę **Formatowanie warunkowe** i przesunąć suwak obok opcji **Skale koloru tła** lub **Skale koloru czcionki** do pozycji **Włącz**. Włączenie dowolnej z tych opcji powoduje wyświetlenie łącza do okna *Kontrolki zaawansowane*, które umożliwia dostosowanie kolorów i wartości formatowania kolorów.
+* Możesz też w okienku **Format** rozwinąć kartę **Formatowanie warunkowe** i przesunąć suwak obok opcji **Skale koloru tła** lub **Skale koloru czcionki** do pozycji **Włącz**. Włączenie dowolnej opcji powoduje wyświetlenie linku do okna *Kontrolki zaawansowane*, które umożliwia dostosowanie kolorów i wartości formatowania kolorów.
   
   ![](media/desktop-matrix-visual/matrix-visual_18.png)
 

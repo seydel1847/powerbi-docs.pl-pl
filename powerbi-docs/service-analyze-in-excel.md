@@ -1,28 +1,28 @@
 ---
 title: Analizowanie w programie Excel
-description: "Informacje na temat sposobu analizowania zestawów danych usługi Power BI w programie Excel"
+description: Informacje na temat sposobu analizowania zestawów danych usługi Power BI w programie Excel
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/05/2018
+ms.date: 03/22/2018
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: 385a89d6b50507833c1e43327c405f02b2468ac2
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 5cd319266e91a6bc4736a123375b797331dba568
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="analyze-in-excel"></a>Analizowanie w programie Excel
 Czasami może zaistnieć potrzeba wyświetlenia i obsługi zestawu danych z usługi Power BI w programie Excel. Jest to możliwe dzięki funkcji **Analizuj w programie Excel**. Funkcja ta pozwala także korzystać z opcji tabeli przestawnej, wykresu i fragmentatora w programie Excel (w zależności od zestawu danych istniejącego w usłudze Power BI).
@@ -105,3 +105,5 @@ Kiedy użytkownik, któremu został udostępniony skoroszyt, otworzy go, zobaczy
 
 Ponieważ użytkownicy muszą odświeżyć zestaw danych, a odświeżanie w przypadku połączeń zewnętrznych nie jest obsługiwane w usłudze Excel Online, zaleca się użytkownikom otwarcie skoroszytu w klasycznej wersji programu Excel na komputerze.
 
+## <a name="troubleshooting"></a>Rozwiązywanie problemów
+Mogą zaistnieć sytuacje, w których użycie analizy w programie Excel zwróci nieoczekiwane wyniki lub ta funkcja nie będzie działać zgodnie z oczekiwaniami. [Ta strona oferuje rozwiązania typowych problemów związanych z użyciem funkcji analizy w programie Excel](desktop-troubleshooting-analyze-in-excel.md)
