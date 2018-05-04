@@ -1,8 +1,8 @@
 ### YamlMime:Tutorial
-title: "Wprowadzenie do języka DAX"
+title: Wprowadzenie do języka DAX
 metadata:
-  title: "Wprowadzenie do języka DAX | Microsoft Power BI"
-  description: "Dowiedz się od doświadczonego eksperta, jak tworzyć kod w języku DAX i z nim pracować."
+  title: Wprowadzenie do języka DAX | Microsoft Power BI
+  description: Dowiedz się od doświadczonego eksperta, jak tworzyć kod w języku DAX i z nim pracować.
   audience: Business User
   level: Beginner
   displayType: one-column
@@ -10,56 +10,57 @@ metadata:
   manager: kfile
   ms.service: powerbi
   ms.topic: get-started-article
-  ms.date: 12/05/2017
+  ms.date: 05/02/2018
   ms.author: davidi
-  ms.openlocfilehash: 5553a2b4dc3856cb90f1d392709fb313acf3c4d8
-  ms.sourcegitcommit: 7bf22bb1136fdb0f962422e16e837187f090827c
+  ms.openlocfilehash: 51c99cf6290cb6eaf27e12021415e24b927060fc
+  ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
   ms.translationtype: HT
   ms.contentlocale: pl-PL
-  ms.lasthandoff: 02/06/2018
+  ms.lasthandoff: 05/04/2018
 items:
 - durationInMinutes: 1
-  content: "Dowiedz się od doświadczonego eksperta, jak tworzyć kod w języku DAX i z nim pracować.\n"
-- title: "Wprowadzenie do języka DAX"
+  content: >
+    Dowiedz się od doświadczonego eksperta, jak tworzyć kod w języku DAX i z nim pracować.
+- title: Wprowadzenie do języka DAX
   durationInMinutes: 9
   content: >
     > [!Video https://www.youtube.com/embed/lRhOJP3bZCo?rel=0]
 
 
     [!INCLUDE [](includes/7-1-intro-to-dax.md)]
-- title: "Typy obliczeń w języku DAX"
+- title: Typy obliczeń w języku DAX
   durationInMinutes: 22
   content: >
     > [!Video https://www.youtube.com/embed/BVlijY68wp8?rel=0]
 
 
     [!INCLUDE [](includes/7-2-dax-calculation-types.md)]
-- title: "Funkcje języka DAX"
+- title: Funkcje języka DAX
   durationInMinutes: 17
   content: >
     > [!Video https://www.youtube.com/embed/siTnzquk1SU?rel=0]
 
 
     [!INCLUDE [](includes/7-3-dax-functions.md)]
-- title: "Używanie zmiennych w wyrażeniach języka DAX"
+- title: Używanie zmiennych w wyrażeniach języka DAX
   durationInMinutes: 4
   content: >
     > [!Video https://www.youtube.com/embed/kd4tgKxhRTU?rel=0]
 
 
     [!INCLUDE [](includes/7-4-dax-expressions.md)]
-- title: "Relacje tabeli i język DAX"
+- title: Relacje tabeli i język DAX
   durationInMinutes: 13
   content: >
     > [!Video https://www.youtube.com/embed/yec1f5A08mc?rel=0]
 
 
     [!INCLUDE [](includes/7-5-table-relationships-and-dax.md)]
-- title: "Tabele języka DAX i filtrowanie"
+- title: Tabele języka DAX i filtrowanie
   durationInMinutes: 32
   content: >
     > [!Video https://www.youtube.com/embed/6eAoDI4VDFs?rel=0]
 
 
     [!INCLUDE [](includes/7-6-dax-tables-and-filtering.md)]
-- content: "Ukończono sekcję **Wprowadzenie do języka DAX** kursu Nauka z przewodnikiem dotyczącego usługi Power BI. Co za podróż! Jeśli wykonano zadania z samouczków w polecanej kolejności, wszystkie sekcje **Nauki z przewodnikiem** zostały ukończone. Świetnie! Teraz zacznij używać usługi **Power BI** do tworzenia atrakcyjnych raportów i pulpitów nawigacyjnych pasujących do Twojej sytuacji.\0"
+- content: Ukończono sekcję **Wprowadzenie do języka DAX** kursu Nauka z przewodnikiem dotyczącego usługi Power BI. Co za podróż! Jeśli wykonano zadania z samouczków w polecanej kolejności, wszystkie sekcje **Nauki z przewodnikiem** zostały ukończone. Świetnie! Teraz zacznij używać usługi **Power BI** do tworzenia atrakcyjnych raportów i pulpitów nawigacyjnych pasujących do Twojej sytuacji.

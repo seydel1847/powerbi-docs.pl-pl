@@ -2,26 +2,27 @@
 title: Modelowanie
 metadata:
   title: Modelowanie | Microsoft Power BI
-  description: "Nawiąż połączenie z wieloma źródłami danych, a następnie połącz je, korzystając ze sposobów tworzenia unikatowego modelu danych, który odpowiada Twoim potrzebom."
+  description: Nawiąż połączenie z wieloma źródłami danych, a następnie połącz je, korzystając ze sposobów tworzenia unikatowego modelu danych, który odpowiada Twoim potrzebom.
   audience: Business User
   level: Beginner
-  nextTutorialHref: visualizations
+  nextTutorialHref: visualizations.yml
   nextTutorialTitle: Wizualizacje
   displayType: one-column
   author: davidiseminger
   manager: kfile
   ms.service: powerbi
   ms.topic: get-started-article
-  ms.date: 12/05/2017
+  ms.date: 05/02/2018
   ms.author: davidi
-  ms.openlocfilehash: 5b09b8365e59d8d89b30e4a01237f7d53559896f
-  ms.sourcegitcommit: 7bf22bb1136fdb0f962422e16e837187f090827c
+  ms.openlocfilehash: 302dcaa8f76b9cd767ec7c3349abaea3cb0f8548
+  ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
   ms.translationtype: HT
   ms.contentlocale: pl-PL
-  ms.lasthandoff: 02/06/2018
+  ms.lasthandoff: 05/04/2018
 items:
 - durationInMinutes: 1
-  content: "Dzięki możliwościom **modelowania** dostępnym w usłudze **Power BI** możesz nawiązać połączenie z wieloma źródłami danych, a następnie połączyć je, korzystając ze sposobów tworzenia unikatowego modelu danych, który odpowiada Twoim potrzebom.\n"
+  content: >
+    Dzięki możliwościom **modelowania** dostępnym w usłudze **Power BI** możesz nawiązać połączenie z wieloma źródłami danych, a następnie połączyć je, korzystając ze sposobów tworzenia unikatowego modelu danych, który odpowiada Twoim potrzebom.
 - title: Wprowadzenie do modelowania danych
   durationInMinutes: 3
   content: >
@@ -29,7 +30,7 @@ items:
 
 
     [!INCLUDE [](includes/2-1-intro-modeling-data.md)]
-- title: "Jak zarządzać relacjami danych"
+- title: Jak zarządzać relacjami danych
   durationInMinutes: 9
   content: >
     > [!Video https://www.youtube.com/embed/MqNX5olPGGI?rel=0]
@@ -71,4 +72,4 @@ items:
 
 
     [!INCLUDE [](includes/2-6a-explore-time-based-data.md)]
-- content: "Dobrze Ci idzie. Kontynuuj naukę o usłudze Power BI! Ukończono sekcję **Modelowanie** kursu Nauka z przewodnikiem dotyczącego usługi Microsoft Power BI. Kolejna sekcja dotyczy wizualizacji.\0"
+- content: Dobrze Ci idzie. Kontynuuj naukę o usłudze Power BI! Ukończono sekcję **Modelowanie** kursu Nauka z przewodnikiem dotyczącego usługi Microsoft Power BI. Kolejna sekcja dotyczy wizualizacji.

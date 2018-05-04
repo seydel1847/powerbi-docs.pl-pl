@@ -2,27 +2,28 @@
 title: Wizualizacje
 metadata:
   title: Wizualizacje | Microsoft Power BI
-  description: "Wizualizacje ożywiają dane i ujawniają ukryte fakty, na co pozwalają tylko atrakcyjne i wspaniałe formy obrazowania. W tej sekcji przedstawiono, jak z nich korzystać."
+  description: Wizualizacje ożywiają dane i ujawniają ukryte fakty, na co pozwalają tylko atrakcyjne i wspaniałe formy obrazowania. W tej sekcji przedstawiono, jak z nich korzystać.
   audience: Business User
   level: Beginner
-  nextTutorialHref: exploringdata
+  nextTutorialHref: exploringdata.yml
   nextTutorialTitle: Eksplorowanie danych
   displayType: one-column
   author: davidiseminger
   manager: kfile
   ms.service: powerbi
   ms.topic: get-started-article
-  ms.date: 12/05/2017
+  ms.date: 05/02/2018
   ms.author: davidi
-  ms.openlocfilehash: e1492e55e47ea0871f4a07a0cc599570f36cae40
-  ms.sourcegitcommit: 7bf22bb1136fdb0f962422e16e837187f090827c
+  ms.openlocfilehash: 8ce82b4d86d6e6eb8affbe567cc606fe2cc37732
+  ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
   ms.translationtype: HT
   ms.contentlocale: pl-PL
-  ms.lasthandoff: 02/06/2018
+  ms.lasthandoff: 05/04/2018
 items:
 - durationInMinutes: 1
-  content: "Wizualizacje ożywiają dane i ujawniają ukryte fakty, na co pozwalają tylko atrakcyjne i wspaniałe formy obrazowania. W tej części kursu Nauka z przewodnikiem dotyczącego usługi **Power BI** przedstawiono sposób rozpoczynania pracy z nimi.\n"
-- title: "Wprowadzenie do wizualizacji w usłudze Power BI"
+  content: >
+    Wizualizacje ożywiają dane i ujawniają ukryte fakty, na co pozwalają tylko atrakcyjne i wspaniałe formy obrazowania. W tej części kursu Nauka z przewodnikiem dotyczącego usługi **Power BI** przedstawiono sposób rozpoczynania pracy z nimi.
+- title: Wprowadzenie do wizualizacji w usłudze Power BI
   durationInMinutes: 2
   content: >
     > [!Video https://www.youtube.com/embed/SYk_gWrtKvM?rel=0]
@@ -36,7 +37,7 @@ items:
 
 
     [!INCLUDE [](includes/3-2-create-customize-simple-visualizations.md)]
-- title: "Wykresy złożone"
+- title: Wykresy złożone
   durationInMinutes: 5
   content: >
     > [!Video https://www.youtube.com/embed/lnv66cTZ5ho?rel=0]
@@ -78,35 +79,35 @@ items:
 
 
     [!INCLUDE [](includes/3-8-create-waterfall-funnel-charts.md)]
-- title: "Wskaźniki i karty z pojedynczą liczbą"
+- title: Wskaźniki i karty z pojedynczą liczbą
   durationInMinutes: 7
   content: >
     > [!Video https://www.youtube.com/embed/xmja6EpqaO0?rel=0]
 
 
     [!INCLUDE [](includes/3-9-create-gauges-cards.md)]
-- title: "Modyfikowanie kolorów wykresów i wizualizacji"
+- title: Modyfikowanie kolorów wykresów i wizualizacji
   durationInMinutes: 5
   content: >
     > [!Video https://www.youtube.com/embed/oNME83EAvLw?rel=0]
 
 
     [!INCLUDE [](includes/3-9a-modifying-colors.md)]
-- title: "Kształty, pola tekstowe i obrazy"
+- title: Kształty, pola tekstowe i obrazy
   durationInMinutes: 6
   content: >
     > [!Video https://www.youtube.com/embed/_3q6VEBhGew?rel=0]
 
 
     [!INCLUDE [](includes/3-10-create-shapes-images.md)]
-- title: "Formatowanie i układ strony"
+- title: Formatowanie i układ strony
   durationInMinutes: 5
   content: >
     > [!Video https://www.youtube.com/embed/5tg-OXzxe2g?rel=0]
 
 
     [!INCLUDE [](includes/3-11-page-layout-formatting.md)]
-- title: "Interakcje grupowe między wizualizacjami"
+- title: Interakcje grupowe między wizualizacjami
   durationInMinutes: 9
   content: >
     > [!Video https://www.youtube.com/embed/N_xYsCbyHPw?rel=0]
@@ -120,7 +121,7 @@ items:
 
 
     [!INCLUDE [](includes/3-11b-duplicate-page.md)]
-- title: "Wyświetlanie kategorii bez danych"
+- title: Wyświetlanie kategorii bez danych
   durationInMinutes: 3
   content: >
     > [!Video https://www.youtube.com/embed/rsUMVJAIH00?rel=0]
@@ -134,25 +135,25 @@ items:
 
 
     [!INCLUDE [](includes/3-11d-customize-summarization-categorization.md)]
-- title: "Kolejność na osi Z"
+- title: Kolejność na osi Z
   durationInMinutes: 3
   content: >
     > [!Video https://www.youtube.com/embed/MkiiNFI2Ve0?rel=0]
 
 
     [!INCLUDE [](includes/3-11f-arrange-visual-zorder.md)]
-- title: "Hierarchie wizualizacji i przechodzenie do szczegółów"
+- title: Hierarchie wizualizacji i przechodzenie do szczegółów
   durationInMinutes: 5
   content: >
     > [!Video https://www.youtube.com/embed/q8WDUAiTGeU?rel=0]
 
 
     [!INCLUDE [](includes/3-11g-visual-hierarchies-drilling.md)]
-- title: "Integracja języka R w programie Power BI Desktop"
+- title: Integracja języka R w programie Power BI Desktop
   durationInMinutes: 9
   content: >
     > [!Video https://www.youtube.com/embed/pV78e9aYHXk?rel=0]
 
 
     [!INCLUDE [](includes/3-11h-r-visual-integration.md)]
-- content: "Świetnie. Sekcja **Wizualizacje** kursu **Nauka z przewodnikiem** została ukończona i możesz rozpocząć pracę z następnym samouczkiem — **Eksplorowanie danych**.\0"
+- content: Świetnie. Sekcja **Wizualizacje** kursu **Nauka z przewodnikiem** została ukończona i możesz rozpocząć pracę z następnym samouczkiem — **Eksplorowanie danych**.
