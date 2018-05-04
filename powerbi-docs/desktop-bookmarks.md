@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/06/2018
+ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1660f129ef5c93cf5aed5a3a5eda3c835e1885c1
-ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
+ms.openlocfilehash: 492eed949fd47b8f057bc67b127ba774b2218887
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/30/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Używanie zakładek w celu udostępniania szczegółowych informacji i tworzenia historii w usłudze Power BI 
 Przy użyciu **zakładek** w usłudze Power BI możesz przechwycić obecnie skonfigurowany widok strony raportu wraz z filtrowaniem i stanem wizualizacji, aby później mieć możliwość powrotu do tego stanu poprzez wybranie zapisanej zakładki. 
@@ -69,6 +69,10 @@ Program **Power BI Desktop** tworzy zakładkę i nadaje jej nazwę rodzajową. M
 
 Po utworzeniu zakładki możesz wyświetlić ją, klikając zakładkę w okienku **Zakładki**. 
 
+Możesz też wybrać, czy każda zakładka będzie stosować właściwości *danych*, takie jak filtry i fragmentatory, właściwości *wyświetlania*, takie jak reflektor i jego widoczność, oraz zmiany strony, które prezentują stronę widoczną podczas dodawania zakładki. Te możliwości są przydatne, jeśli używasz zakładek do przełączania się między typami wizualizacji — w takim przypadku prawdopodobnie chcesz wyłączyć właściwości danych, więc filtry nie są resetowane, gdy użytkownicy zmieniają typy wizualizacji. 
+
+Aby wprowadzić takie zmiany, wybierz wielokropki obok nazwy zakładki, jak pokazano na poprzedniej ilustracji, a następnie zaznacz pola wyboru obok kontrolek *Dane*, *Wyświetlanie* i innych albo usuń zaznaczenie tych pól. 
+
 ## <a name="arranging-bookmarks"></a>Organizowanie zakładek
 Podczas tworzenia zakładek możesz zorientować się, że kolejność ich tworzenia nie odpowiada kolejności prezentowania zakładek odbiorcom docelowym. Żaden problem — z łatwością możesz zmienić kolejność zakładek.
 
@@ -105,13 +109,13 @@ Po dodaniu zakładki widoczny stan każdego obiektu również jest zapisywany w 
 Należy zwrócić uwagę, że **fragmentatory** nadal filtrują stronę raportu, niezależnie od tego, czy są widoczne. Możesz utworzyć wiele różnych zakładek z różnymi ustawieniami fragmentatora, aby wyświetlić jedną stronę raportu w zupełnie inny sposób (podkreślając inne informacje szczegółowe) w różnych zakładkach.
 
 ## <a name="bookmarks-for-shapes-and-images"></a>Zakładki kształtów i obrazów
-Możesz też połączyć kształty i obrazy z zakładkami. Dzięki tej funkcji kliknięcie obiektu spowoduje wyświetlenie zakładki skojarzonej z tym obiektem. 
+Możesz też połączyć kształty i obrazy z zakładkami. Dzięki tej funkcji kliknięcie obiektu spowoduje wyświetlenie zakładki skojarzonej z tym obiektem. Może być to przydatne podczas pracy z przyciskami; aby dowiedzieć się więcej, przeczytaj artykuł dotyczący [używania przycisków w usłudze Power BI](desktop-buttons.md). 
 
-Aby przypisać zakładkę do obiektu, wybierz obiekt, a następnie wybierz opcję **Link** z okienka **Formatowanie kształtu**, jak pokazano na poniższej ilustracji.
+Aby przypisać zakładkę do obiektu, wybierz obiekt, a następnie rozwiń sekcję **Akcja** z okienka **Formatowanie kształtu**, jak pokazano na poniższej ilustracji.
 
 ![Dodawanie połączenia z zakładką do obiektu](media/desktop-bookmarks/bookmarks_10.png)
 
-Po przełączeniu suwaka **Link** na opcję **Wł.** możesz wybrać, czy obiekt jest linkiem, czy zakładką. Jeśli wybierzesz zakładkę, możesz następnie wybrać zakładki, z którymi obiekt będzie połączony.
+Po przełączeniu suwaka **Akcja** do pozycji **Wł.** możesz wybrać, czy obiekt jest przyciskiem Wstecz, zakładką, czy poleceniem pytań i odpowiedzi. Jeśli wybierzesz zakładkę, możesz następnie wybrać zakładki, z którymi obiekt będzie połączony.
 
 Istnieje wiele interesujących rzeczy, które można wykonać przy użyciu zakładek z połączonym obiektem. Możesz utworzyć wizualną tabelę zawartości na stronie raportu lub zapewnić inne widoki (np. typy wizualne) tych samych informacji, klikając obiekt.
 
@@ -138,9 +142,7 @@ Natomiast w przypadku wybrania funkcji **W centrum uwagi** z menu wielokropka wi
 W przypadku wybrania dowolnego z trybów podczas dodawania zakładki ten tryb (Koncentracja uwagi lub W centrum uwagi) zostanie zachowany w zakładce.
 
 ## <a name="bookmarks-in-the-power-bi-service"></a>Zakładki w usłudze Power BI
-Po opublikowaniu raportu w **usłudze Power BI** z co najmniej jedną zakładką możesz wyświetlić te zakładki i wejść z nimi w interakcje w **usłudze Power BI**. Dla każdego opublikowanego raportu musisz mieć co najmniej jedną zakładkę utworzoną w raporcie przed jego opublikowaniem, aby funkcja zakładek była dostępna w **usłudze Power BI**.
-
-Jeśli zakładki są dostępne w raporcie, możesz wybrać opcję **Widok > Okienko wyboru** lub **Widok > Okienko zakładek**, aby wyświetlić te okienka.
+Po opublikowaniu raportu w **usłudze Power BI** z co najmniej jedną zakładką możesz wyświetlić te zakładki i wejść z nimi w interakcje w **usłudze Power BI**. Jeśli zakładki są dostępne w raporcie, możesz wybrać opcję **Widok > Okienko wyboru** lub **Widok > Okienko zakładek**, aby wyświetlić te okienka.
 
 ![Wyświetlanie okienek zakładek i wyboru w usłudze Power BI](media/desktop-bookmarks/bookmarks_14.png)
 
@@ -151,11 +153,10 @@ Pamiętaj, że należy użyć szarego paska tytułowego zakładki, aby nawigowa�
 ## <a name="limitations-and-considerations"></a>Ograniczenia i istotne zagadnienia
 W tej wersji funkcji **zakładek** występują pewne ograniczenia i zagadnienia, które trzeba mieć na uwadze.
 
-* Niestandardowe wizualizacje nie działają z zakładkami, jeśli są *źródłem* filtru. Jeśli używasz niestandardowych wizualizacji do filtrowania elementów na stronie (na przykład fragmentatora chiclet) i powracasz do tej strony przy użyciu zakładki, strona może zostać odfiltrowana, wizualizacja nie zostanie zaktualizowana, aby pokazać, jak strona jest filtrowana. 
-* Stan wyróżniania między elementami w okienku raportu *nie* jest zapisywany, gdy tworzysz zakładkę. 
+* Większość wizualizacji niestandardowych powinna działać prawidłowo w przypadku tworzenia zakładek. Jeśli wystąpią problemy z tworzeniem zakładek i wizualizacją niestandardową, skontaktuj się z autorem tej wizualizacji i poproś o dodanie do niej opcji obsługi zakładek. 
 * Jeśli dodasz wizualizację na stronie raportu po utworzeniu zakładki, wizualizacja zostanie wyświetlona w stanie domyślnym. Oznacza to również, że w przypadku wprowadzenia fragmentatora do strony, w której poprzednio utworzono zakładki, fragmentator będzie zachowywać się zgodnie ze stanem domyślnym.
 * Przenoszenie wizualizacji po utworzeniu zakładki zostanie odzwierciedlone w zakładce. 
-* *Musisz* mieć co najmniej jedną zakładkę w raporcie podczas publikowania go w **usłudze Power BI**, aby zakładki były dostępne w usłudze. Jest to wymaganie dotyczące każdego publikowanego raportu.
+
 
 ## <a name="next-steps"></a>Następne kroki
 Aby uzyskać więcej informacji o podobnych funkcjach lub interakcji z zakładkami, sprawdź następujące artykuły:

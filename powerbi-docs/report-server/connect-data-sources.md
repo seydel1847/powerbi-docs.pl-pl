@@ -1,43 +1,34 @@
 ---
-title: "Nawiązywanie połączeń ze źródłami danych"
-description: "Dowiedz się więcej o tym, z jakimi źródłami danych możesz nawiązać połączenie w ramach serwera raportów usługi Power BI."
+title: Źródła danych raportu podzielonego na strony (RDL) na serwerze raportów usługi Power BI
+description: Dowiedz się więcej na temat źródeł danych, z którymi raporty podzielone na strony (RDL) mogą łączyć się na serwerze raportów usługi Power BI.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/01/2017
+ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: 35312fcf4301a7655893c1824b93b7718d6ae97f
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 189e5c2900fedf8403df75f0eb371830f28f7281
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 04/26/2018
 ---
-# <a name="connecting-to-data-sources"></a>Nawiązywanie połączeń ze źródłami danych
-Dowiedz się więcej o tym, z jakimi źródłami danych możesz nawiązać połączenie w ramach serwera raportów usługi Power BI.
-
-## <a name="power-bi-reports"></a>Raporty usługi Power BI
-Raporty usługi Power BI mogą współpracować z importowanymi danymi lub używać połączenia na żywo usług Analysis Services wraz z zapytaniem bezpośrednim. Wersja z października 2017 r. zawiera obsługę połączeń innych niż połączenia na żywo usługi Analysis Services. Obejmuje to importowanie danych. Wersję z października 2017 r. możesz pobrać za pośrednictwem witryny [powerbi.com](https://powerbi.microsoft.com/report-server/).
-
-Aby dowiedzieć się, jakie źródła danych są obsługiwane, zobacz [Źródła danych raportów usługi Power BI na serwerze raportów usługi Power BI](data-sources.md).
-
-## <a name="other-reports"></a>Inne raporty
-Inne typy raportów obsługują te same źródła danych, które występują w usługach SQL Server Reporting Services. Aby uzyskać więcej informacji, zobacz [Źródła danych obsługiwane przez usługi Reporting Services](https://docs.microsoft.com/sql/reporting-services/report-data/data-sources-supported-by-reporting-services-ssrs).
+# <a name="paginated-report-rdl-data-sources"></a>Źródła danych raportu podzielonego na strony (RDL)
+Raporty podzielone na strony w usłudze Reporting Services na serwerze raportów usługi Power BI obsługują te same źródła danych, które są obsługiwane w usługach SQL Server Reporting Services. Zobacz listę [źródeł danych obsługiwanych przez usługi Reporting Services](https://docs.microsoft.com/sql/reporting-services/report-data/data-sources-supported-by-reporting-services-ssrs).
 
 ## <a name="next-steps"></a>Następne kroki
-[Podręcznik użytkownika](user-handbook-overview.md)  
-[Szybki start: raporty z podziałem na strony](quickstart-create-paginated-report.md)  
-[Szybki start: raporty usługi Power BI](quickstart-create-powerbi-report.md)
+Teraz po nawiązaniu połączeniu ze źródłem danych [utwórz raport podzielony na strony](quickstart-create-paginated-report.md).  
 
-Masz więcej pytań? [Zadaj pytanie społeczności usługi Power BI](https://community.powerbi.com/)
+
+Więcej pytań? [Zadaj pytanie społeczności usługi Power BI](https://community.powerbi.com/)
 

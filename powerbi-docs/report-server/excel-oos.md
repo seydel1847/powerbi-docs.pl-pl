@@ -1,39 +1,32 @@
 ---
-title: "Konfigurowanie serwera raportów do hostowania skoroszytów programu Excel przy użyciu programu Office Online Server (OOS)"
-description: "Oprócz wyświetlania raportów usługi Power BI w portalu internetowym, użytkownicy biznesowi mogą teraz wyświetlać również skoroszyty programu Excel na serwerze raportów usługi Power BI."
+title: Hostowanie skoroszytów programu Excel przy użyciu programu Office Online Server (OOS) — serwer raportów usługi Power BI
+description: Oprócz wyświetlania raportów usługi Power BI w portalu internetowym, serwer raportów usługi Power BI może hostować skoroszyty programu Excel przy użyciu programu Office Online Server (OOS).
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/23/2017
+ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: a9d5c1b8da8935a535ed112030a5c2a40132f176
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: f2ff2b695ca548572294a4705235ae1c2b0046c5
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>Konfigurowanie serwera raportów do hostowania skoroszytów programu Excel przy użyciu programu Office Online Server (OOS)
-Oprócz wyświetlania raportów usługi Power BI w portalu internetowym, użytkownicy biznesowi mogą teraz wykonywać te same operacje ze skoroszytami programu Excel na serwerze raportów usługi Power BI, zapewniając im jedną lokalizację do publikowania i wyświetlania zawartości ich samoobsługowej analizy biznesowej firmy Microsoft.
+Oprócz wyświetlania raportów usługi Power BI w portalu internetowym, serwer raportów usługi Power BI może hostować skoroszyty programu Excel przy użyciu programu [Office Online Server](https://docs.microsoft.com/officeonlineserver/office-online-server-overview) (OOS). Serwer raportów staje się jedną lokalizacją do publikowania i wyświetlania samoobsługowej zawartości usługi Microsoft BI.
 
-> [!NOTE]
-> To jest funkcja zapoznawcza udostępniona w wersji zapoznawczej z sierpnia 2017 roku. Aby uzyskać więcej informacji, zobacz [Co nowego w serwerze raportów usługi Power BI](whats-new.md).
-> 
-> 
-
-![Raporty programu Excel można wyświetlać w portalu internetowym serwera raportów.](media/excel-oos/excel-in-pbirs.png)
-
-Można to zrobić przy użyciu programu [Office Online Server](https://technet.microsoft.com/library/jj219437\(v=office.16\).aspx) (OOS).
+![Raporty programu Excel wyświetlane w portalu internetowym serwera raportów](media/excel-oos/excel-in-pbirs.png)
 
 ## <a name="prepare-server-to-run-office-online-server"></a>Przygotowywanie serwera do uruchamiania programu Office Online Server
 Należy wykonać następujące procedury na serwerze, na którym będzie uruchamiany program Office Online Server. Musi to być serwer z systemem Windows Server 2012 R2 lub Windows Server 2016. W przypadku systemu Windows Server 2016 jest wymagany program Office Online Server w wersji z kwietnia 2017 r. lub nowszej.
@@ -92,7 +85,7 @@ New-OfficeWebAppsFarm -InternalUrl "https://server.contoso.com" -ExternalUrl "ht
 
 **Parametry**
 
-* **–InternalURL** to w pełni kwalifikowana nazwa domeny (FQDN) serwera, na którym jest uruchamiany program Server, na przykład http://nazwaserwera.contoso.com.
+* **–InternalURL** to w pełni kwalifikowana nazwa domeny (FQDN) serwera, na którym jest uruchamiany program Office Online Server, na przykład http://servername.contoso.com.
 * **–ExternalURL** to nazwa FQDN, która jest dostępna za pośrednictwem sieci Internet.
 * **–CertificateName** to przyjazna nazwa certyfikatu.
 
@@ -105,7 +98,7 @@ New-OfficeWebAppsFarm -InternalURL "http://servername" -AllowHttp
 
 **Parametry**
 
-* **–InternalURL** to nazwa serwera, na którym jest uruchamiany program Office Online Server, na przykład http://nazwaserwera.
+* **–InternalURL** to nazwa serwera, na którym jest uruchamiany program Office Online Server, na przykład http://servername.
 * **–AllowHttp** konfiguruje farmę do użycia protokołu HTTP.
 
 ### <a name="verify-that-the-office-online-server-farm-was-created-successfully"></a>Sprawdzanie, czy farma programu Office Online Server została pomyślnie utworzona

@@ -1,34 +1,34 @@
 ---
-title: "Rozwiązywanie problemów z importowaniem plików programu Access i plików XLS w programie Power BI Desktop"
-description: "Rozwiązywanie problemów dotyczących importowania baz danych programu Access i arkuszy kalkulacyjnych w formacie XLS w programie Power BI Desktop i dodatku Power Query"
+title: Rozwiązywanie problemów z importowaniem plików programu Access i plików XLS w programie Power BI Desktop
+description: Rozwiązywanie problemów dotyczących importowania baz danych programu Access i arkuszy kalkulacyjnych w formacie XLS w programie Power BI Desktop i dodatku Power Query
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 97c3cdf1a7ba47f60cd78e9f424ba7af550f1527
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 6448d76915f9bc2a118e1552fd7bc9d82058c713
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="resolve-issues-importing-access-and-xls-files-in-power-bi-desktop"></a>Rozwiązywanie problemów z importowaniem plików programu Access i plików XLS w programie Power BI Desktop
-W programie **Power BI Desktop**, zarówno **bazy danych programu Access**, jak i wczesne wersje **skoroszytów programu Excel** (pliki XLS programu Excel 2007-2003), używają *aparatu bazy danych programu Access*. Istnieją trzy typowe sytuacje, które mogą uniemożliwić prawidłowe działanie aparatu bazy danych programu Access:
+W programie **Power BI Desktop**, zarówno **bazy danych programu Access**, jak i wczesne wersje **skoroszytów programu Excel** (pliki XLS programu Excel 97–2003), używają *aparatu bazy danych programu Access*. Istnieją trzy typowe sytuacje, które mogą uniemożliwić prawidłowe działanie aparatu bazy danych programu Access:
 
 ### <a name="situation-1-no-access-database-engine-installed"></a>Sytuacja 1. Aparat bazy danych programu Access nie został zainstalowany
-Jeśli komunikat o błędzie programu Power BI Desktop wskazuje, że aparat bazy danych programu Access nie jest zainstalowany, należy zainstalować taką wersję aparatu bazy danych programu Access (32-bitową lub 64-bitową), która jest zgodna z zainstalowaną wersją programu Power BI Desktop. Aparat bazy danych programu Access można zainstalować z [tej lokalizacji](http://www.microsoft.com/en-us/download/details.aspx?id=13255).
+Jeśli komunikat o błędzie programu Power BI Desktop wskazuje, że aparat bazy danych programu Access nie został zainstalowany, należy zainstalować taką wersję aparatu bazy danych programu Access (32-bitową lub 64-bitową), która jest zgodna z zainstalowaną wersją programu Power BI Desktop. Aparat bazy danych programu Access można zainstalować ze [strony plików do pobrania](http://www.microsoft.com/en-us/download/details.aspx?id=13255).
 
 >[!NOTE]
 >Jeśli zainstalowana wersja bitowa aparatu bazy danych programu Access różni się od wersji bitowej instalacji pakietu Microsoft Office, aplikacje pakietu Office nie będą mogły używać tego aparatu bazy danych programu Access.
@@ -47,7 +47,7 @@ Taka sytuacja często ma miejsce, gdy zainstalowana wersja pakietu Microsoft Off
    >[!NOTE]
    >Podczas tworzenia bardzo dużych modeli danych w 32-bitowej wersji programu Power BI Desktop mogą wystąpić problemy braku pamięci.
 2. Zmień wersję pakietu Microsoft Office, aby była zgodna z bitową wersją instalacji programu Power BI Desktop. Aby zmienić bitową wersję pakietu Microsoft Office, odinstaluj pakiet Office, a następnie zainstaluj taką wersję pakietu, która jest zgodna z instalacją programu Power BI Desktop.
-3. Jeśli błąd wystąpił podczas próby otworzenia pliku XLS (skoroszyt programu Excel 2007-2003), możesz uniknąć używania aparatu bazy danych programu Access, otwierając plik XLS w programie Excel i zapisując go jako plik XLSX.
+3. Jeśli błąd wystąpił podczas próby otwarcia pliku XLS (skoroszyt programu Excel 97–2003), możesz uniknąć używania aparatu bazy danych programu Access, otwierając plik XLS w programie Excel i zapisując go jako plik XLSX.
 4. Jeśli poprzednie trzy rozwiązania nie są możliwe do wykonania, można zainstalować obie wersje aparatu bazy danych programu Access, ale *nie* jest to zalecane rozwiązanie. Zainstalowanie obu wersji rozwiąże ten problem dla dodatku Power Query dla programu Excel i programu Power BI Desktop, ale spowoduje błędy i problemy dla każdej aplikacji, która automatycznie (domyślnie) korzysta z bitowej wersji aparatu bazy danych programu Access, która została zainstalowana jako pierwsza. Aby zainstalować obydwie wersje bitowe aparatu bazy danych programu Access, [pobierz](http://www.microsoft.com/en-us/download/details.aspx?id=13255) obie wersje, a następnie uruchom każdą z nich przy użyciu przełącznika */passive*. Na przykład:
    
        c:\users\joe\downloads\AccessDatabaseEngine.exe /passive
@@ -55,11 +55,9 @@ Taka sytuacja często ma miejsce, gdy zainstalowana wersja pakietu Microsoft Off
        c:\users\joe\downloads\AccessDatabaseEngine_x64.exe /passive
 
 ### <a name="situation-3-trouble-using-access-or-xls-files-with-an-office-365-subscription"></a>Sytuacja 3. Problemy z używaniem plików programu Access lub plików XLS z subskrypcją usługi Office 365
-Jeśli używasz subskrypcji usługi Office 365, niezależnie od tego, czy jet to pakiet **Office 2013**, czy **Office 2016**, dostawca aparatu bazy danych programu Access jest zarejestrowany w wirtualnej lokalizacji rejestru, która jest dostępna *tylko* dla procesów pakietu Office. W związku z tym aparat programu Mashup (odpowiedzialny za działanie programów Excel i Power BI Desktop nie będących częścią usługi Office 365), który nie jest procesem pakietu Office, nie może używać dostawcy aparatu bazy danych programu Access.
+Jeśli używasz subskrypcji usługi Office 365, niezależnie od tego, czy jet to pakiet **Office 2013**, czy **Office 2016**, dostawca aparatu bazy danych programu Access jest zarejestrowany w wirtualnej lokalizacji rejestru, która jest dostępna *tylko* dla procesów pakietu Office. W związku z tym aparat programu Mashup (odpowiedzialny za działanie programów Excel i Power BI Desktop niebędących częścią usługi Office 365), który nie jest procesem pakietu Office, nie może używać dostawcy aparatu bazy danych programu Access.
 
-Aby rozwiązać ten problem, możesz pobrać i zainstalować pakiet redystrybucyjny aparatu bazy danych programu Access, który jest zgodny z bitową wersją instalacji programu Power BI Desktop (zobacz wcześniejsze sekcje, aby uzyskać więcej informacji o wersjach bitowych).
-
-Link pobierania: [pobieranie aparatu bazy danych programu Access](http://www.microsoft.com/en-us/download/details.aspx?id=13255).
+Aby rozwiązać ten problem, możesz [pobrać i zainstalować pakiet redystrybucyjny aparatu bazy danych programu Access](http://www.microsoft.com/en-us/download/details.aspx?id=13255), który jest zgodny z bitową wersją instalacji programu Power BI Desktop (zobacz wcześniejsze sekcje, aby uzyskać więcej informacji o wersjach bitowych).
 
 ### <a name="other-situations-that-cause-import-issues"></a>Innych sytuacje powodujące problemy z importowaniem
 Dokładamy wszelkich starań, aby zapewnić rozwiązania możliwie jak największej liczby problemów, które występują w związku z plikami programu Access i plikami XLS. W przypadku napotkania problemu, który nie został opisany w tym artykule, prosimy o przesłanie pytania do [pomocy technicznej usługi Power BI](https://powerbi.microsoft.com/support/). Regularnie badamy problemy, które mogą dotyczyć wielu klientów, i uwzględniamy je w naszych artykułach.

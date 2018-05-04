@@ -1,6 +1,6 @@
 ---
 title: Eksplorowanie raportów w aplikacjach mobilnych Power BI
-description: 'Dowiedz się więcej na temat przeglądania raportów i korzystania z nich w aplikacji mobilnej Power BI na swoim telefonie lub tablecie. Raporty możesz tworzyć w usłudze Power BI lub programie Power BI Desktop, a następnie korzystać z nich w aplikacjach mobilnych. '
+description: Dowiedz się więcej na temat przeglądania raportów i korzystania z nich w aplikacji mobilnej Power BI na swoim telefonie lub tablecie. Raporty możesz tworzyć w usłudze Power BI lub programie Power BI Desktop, a następnie korzystać z nich w aplikacjach mobilnych.
 services: powerbi
 documentationcenter: ''
 author: maggiesMSFT
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 03/22/2018
 ms.author: maggies
-ms.openlocfilehash: 6edd5a6e9606150d4b489a79cdb5ca57ac2f8cce
-ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
+ms.openlocfilehash: a7bd77ec65fd3897c6e9af9acd2a20a229565415
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Eksplorowanie raportów w aplikacjach mobilnych Power BI
 Dotyczy:
@@ -50,7 +50,7 @@ Raporty usługi Power BI są przechowywane w różnych miejscach w aplikacji mob
   ![Raport na telefonie w orientacji poziomej](media/mobile-reports-in-the-mobile-apps/power-bi-iphone-report-landscape.png)
 
 ## <a name="view-reports-optimized-for-phones"></a>Wyświetlanie raportów zoptymalizowanych pod kątem telefonów
-Autorzy raportów usługi Power BI mogą utworzyć układ raportu zoptymalizowany specjalnie pod kątem telefonów. Strony raportów zoptymalizowane pod kątem telefonów mają dodatkowe funkcje: na przykład można wyszczególniać i sortować wizualizacje w trybie koncentracji uwagi oraz uzyskiwać dostęp do [filtrów, które autor raportu dodał do strony raportu](mobile-apps-view-phone-report.md#filter-the-report-page-on-a-phone). W telefonie zostanie otwarty raport odfiltrowany do wartości filtrowanych w raporcie w Internecie z komunikatem informującym o aktywnych filtrach na stronie. Filtry można zmienić w telefonie.
+Autorzy raportów usługi Power BI mogą utworzyć układ raportu zoptymalizowany specjalnie pod kątem telefonów. Strony raportów zoptymalizowane pod kątem telefonów mają dodatkowe funkcje: na przykład można wyszczególniać i sortować wizualizacje oraz uzyskiwać dostęp do [filtrów, które autor raportu dodał do strony raportu](mobile-apps-view-phone-report.md#filter-the-report-page-on-a-phone). W telefonie zostanie otwarty raport odfiltrowany do wartości filtrowanych w raporcie w Internecie z komunikatem informującym o aktywnych filtrach na stronie. Filtry można zmienić w telefonie.
 
 Zoptymalizowany raport ma na liście raportów specjalną ikonę ![Ikona raportu zoptymalizowanego pod kątem telefonów](media/mobile-reports-in-the-mobile-apps/power-bi-phone-report-icon.png):
 
@@ -64,7 +64,7 @@ Po wyświetleniu tego raportu na telefonie zostanie on otwarty w widoku pionowym
 
 Dowiedz się więcej na temat [raportów zoptymalizowanych pod kątem wyświetlania na telefonach](mobile-apps-view-phone-report.md).
 
-## <a name="use-slicers-to-filter-a-report-page"></a>Filtrowanie stron raportu za pomocą fragmentatorów
+## <a name="use-slicers-to-filter-a-report"></a>Filtrowanie raportu za pomocą fragmentatorów
 Podczas projektowania raportu w programie Power BI Desktop lub za pomocą usługi Power BI należy wziąć pod uwagę możliwość [dodania fragmentatorów do strony raportu](power-bi-visualization-slicers.md). Możesz razem ze współpracownikami korzystać z fragmentatorów do filtrowania strony w przeglądarce i w aplikacjach mobilnych. Po wyświetleniu raportu w telefonie możecie wyświetlać fragmentatory i korzystać z nich w orientacji poziomej oraz na stronie zoptymalizowanej pod kątem orientacji pionowej telefonu. Wartość wybrana w filtrze lub fragmentatorze w przeglądarce zostanie również wybrana w przypadku wyświetlenia strony w aplikacji mobilnej. Zobaczysz komunikat informujący o aktywnych filtrach na stronie.  
 
 * Wybranie wartości we fragmentatorze na stronie raportu spowoduje przefiltrowanie innych wizualizacji na tej stronie.
@@ -73,7 +73,7 @@ Podczas projektowania raportu w programie Power BI Desktop lub za pomocą usług
   
   Na tej ilustracji fragmentator filtruje wykres kolumnowy, aby wyświetlić tylko wartości z lipca.
 
-## <a name="cross-filter-and-highlight-a-power-bi-report-page"></a>Filtrowanie krzyżowe i wyróżnianie strony raportu usługi Power BI
+## <a name="cross-filter-and-highlight-a-report"></a>Filtrowanie krzyżowe i wyróżnianie raportu
 Po wybraniu wartości w wizualizacji inne wizualizacje nie są filtrowane. Zamiast tego wyróżniane są powiązane wartości w innych wizualizacjach.
 
 * Naciśnij wartość w wizualizacji.
@@ -88,8 +88,8 @@ Po wybraniu wartości w wizualizacji inne wizualizacje nie są filtrowane. Zamia
    ![Sortowanie wizualizacji](media/mobile-reports-in-the-mobile-apps/power-bi-android-tablet-report-sort.png)
 * Aby odwrócić porządek sortowania, ponownie naciśnij ikonę wielokropka (**...**) i tę samą nazwę pola.
 
-## <a name="drill-down-and-up-in-a-visual-on-an-ipad-or-a-tablet"></a>Przechodzenie do szczegółów i uogólnianie w wizualizacji na urządzeniu iPad lub tablecie
-Jeśli autor raportu dodał tę możliwość do wizualizacji, na urządzeniu iPad lub tablecie możesz przejść do szczegółów w wizualizacji, aby zobaczyć wartości, które tworzą jedną jej część. [Możliwość przechodzenia do szczegółów możesz dodać do wizualizacji](power-bi-visualization-drill-down.md) w programie Power BI Desktop lub usłudze Power BI. 
+## <a name="drill-down-on-an-ipad-or-a-tablet"></a>Przechodzenie do szczegółów na urządzeniu iPad lub tablecie
+Jeśli autor raportu dodał możliwość przechodzenia do szczegółów wizualizacji, na urządzeniu iPad lub tablecie możesz przejść do szczegółów w wizualizacji, aby zobaczyć wartości, które tworzą jedną jej część. [Możliwość przechodzenia do szczegółów możesz dodać do wizualizacji](power-bi-visualization-drill-down.md) w programie Power BI Desktop lub usłudze Power BI. 
 
 > [!NOTE]
 > Obecnie przechodzenie do szczegółów nie działa w przypadku map na urządzeniu iPad ani tablecie.

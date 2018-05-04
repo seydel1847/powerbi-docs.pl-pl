@@ -1,28 +1,28 @@
 ---
-title: "Rejestracja w usłudze Power BI dla klientów rządowych w Stanach Zjednoczonych"
-description: "Dotyczy Stanów Zjednoczonych Informacje dla klientów rządowych dotyczące rejestrowania organizacji rządowych USA w usłudze Power BI US Government"
+title: Rejestracja w usłudze Power BI dla klientów rządowych w Stanach Zjednoczonych
+description: Dotyczy Stanów Zjednoczonych Informacje dla klientów rządowych dotyczące rejestrowania organizacji rządowych USA w usłudze Power BI US Government
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/27/2017
+ms.date: 04/24/2017
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: e4015d0de5c11a9726089a62825950dc0532205d
-ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
+ms.openlocfilehash: a52aaaffb5f66ba5596e788183ef52753f08c8bf
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>Rejestrowanie organizacji rządowej USA w usłudze Power BI
 **Usługa Power BI** oferuje wersję dostępną dla klientów rządowych w Stanach Zjednoczonych w ramach subskrypcji **Office 365 US Government Community**. Wersja **usługi Power BI** omówiona w tym artykule jest przeznaczona wyłącznie dla klientów rządowych USA — jest to osobna usługa, która jest inna niż komercyjna wersja **usługi Power BI**.
@@ -48,7 +48,7 @@ Jeśli Twoja organizacja jest nowym klientem usługi **Office Government Cloud**
 > Te czynności powinien wykonywać administrator portalu.
 >
 
-1. Przejdź na stronę [https://products.office.com/en-us/government/office-365-web-services-for-government](https://products.office.com/en-us/government/office-365-web-services-for-government).
+1. Przejdź do [https://products.office.com/en-us/government/office-365-web-services-for-government](https://products.office.com/en-us/government/office-365-web-services-for-government).
 
 >[!NOTE]
 >Jeśli nie chcesz w tej chwili rejestrować się w usłudze Office Government Cloud, skontaktuj się ze swoim przedstawicielem działu sprzedaży.
@@ -73,7 +73,7 @@ Jeśli Twoja organizacja jest już klientem usługi **Office Government Cloud**,
 6. Przypisz użytkowników do konta.
    
    ![](media/service-govus-signup/service_govus_signup_5.png)
-7. Zaloguj się do **usługi Power BI** dla klientów rządowych USA na stronie [https://app.powerbigov.us](https://app.powerbigov.us).
+7. Zaloguj się do **usługi Power BI** dla klientów rządowych USA na stronie [https://app.powerbigov.us](https://app.powerbigov.us)
 
 ## <a name="additional-signup-information"></a>Dodatkowe informacje o rejestracji
 Poniżej zamieszczono dodatkowe informacje dotyczące rejestracji w usłudze **Power BI US Government** w różnych przypadkach migracji licencji.
@@ -82,7 +82,7 @@ Poniżej zamieszczono dodatkowe informacje dotyczące rejestracji w usłudze **P
 * Kliknij kolejno pozycje Rozliczenia > Zakup usługi > Power BI Pro Gov i wybierz opcję zakupu, a nie wersji próbnej.
 * Wypełnij niezbędne pola i uzyskaj licencje.
 * Usuń wersję próbną usługi Power BI Pro lub usuń stare licencje i przypisz nowe licencje użytkownikom.
-* Zaloguj się na stronie [https://app.powerbigov.us](https://app.powerbigov.us).
+* Zaloguj się do [https://app.powerbigov.us](https://app.powerbigov.us)
 
 ### <a name="reseller-power-bi-trial-to-pro-customer-onboarding"></a>Odsprzedażowe wdrożenie klienta z wersji próbnej usługi Power BI do wersji Pro
 Wybierz pozycję **Rozliczenia > Subskrypcje** i wybierz subskrypcję usługi **Power BI Pro for Government**. Zobaczysz następujące linki:
@@ -97,12 +97,7 @@ Wybierz pozycję **Rozliczenia > Subskrypcje** i wybierz subskrypcję usługi **
 ### <a name="whitelisting-instructions"></a>Instrukcje dotyczące umieszczania na białej liście
 *Umieszczanie na białej liście* jest procesem, którego używa zespół inżynierów usługi Power BI, aby przenieść klientów ze środowiska chmury komercyjnej do bezpiecznego środowiska chmury dla instytucji rządowych. Dzięki temu można mieć pewność, że funkcje dostępne w chmurze dla Rządu Stanów Zjednoczonych będą działać zgodnie z oczekiwaniami. Wszyscy istniejący (lub nowi) klienci rządowi USA, którzy po raz pierwszy kupią usługi US Government **Power BI** *muszą* zainicjować poniższy proces umieszczania na białej liście. Ten proces należy wykonać przed konfiguracją lub migracją do usług US Government **Power BI**. 
 
-Aby *umieścić swoją dzierżawę na białej liście* w chmurze dla instytucji rządowych USA, wypełnij bilet pomocy technicznej w celu wysłania odpowiedniego żądania, korzystając z następującego linku. Należy pamiętać, że tylko administratorzy mogą przesłać to żądanie:
-
-* [Żądanie pomocy online *umieszczenia na białej liście* ](https://powerbi.microsoft.com/clouds/)
-* Upewnij się, że dołączasz domenę, która ma zostać *umieszczona na białej liście*, oraz adres e-mail przedstawiciela firmy Microsoft, który współpracuję z Tobą podczas tego procesu.
-
-Proces *umieszczania na białej liście* trwa około trzy tygodnie, podczas których zespół inżynierów usługi Power BI wprowadza odpowiednie zmiany, aby zapewnić poprawne działanie Twojej dzierżawy w chmurze dla instytucji rządowych USA.
+Aby dzierżawa *została umieszczona na liście dozwolonych* dla chmury instytucji rządowych Stanów Zjednoczonych, skontaktuj się z zespołem ds. kont Microsoft, aby uzyskać pomoc dotyczącą umieszczania na liście dozwolonych. Należy pamiętać, że tylko administratorzy mogą przesłać to żądanie. Proces *umieszczania na białej liście* trwa około trzy tygodnie, podczas których zespół inżynierów usługi Power BI wprowadza odpowiednie zmiany, aby zapewnić poprawne działanie Twojej dzierżawy w chmurze dla instytucji rządowych USA.
 
 Klienci migrujący z **bezpłatnych** licencji usługi Power BI do usługi **Power BI US Government** (i z definicji migrujący do powiązanych funkcji licencji **Pro**, opisanych wcześniej w tym artykule) będą napotykać problemy omówione w poniższej sekcji, dopóki ich dzierżawa nie zostanie *umieszczona na białej liście* przez zespół inżynierów usługi Power BI.
 

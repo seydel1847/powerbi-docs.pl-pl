@@ -1,28 +1,28 @@
 ---
-title: "Usługa Power BI dla klientów rządowych w Stanach Zjednoczonych — omówienie"
-description: "Dotyczy Stanów Zjednoczonych Klienci rządowi mają możliwość zapoznania się z funkcjami i ograniczeniami dotyczącymi usługi Power BI US Government"
+title: Usługa Power BI dla klientów rządowych w Stanach Zjednoczonych — omówienie
+description: Dotyczy Stanów Zjednoczonych Klienci rządowi mają możliwość zapoznania się z funkcjami i ograniczeniami dotyczącymi usługi Power BI US Government
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/05/2018
+ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: b3682deb1897647a7de6f32dc87a4d7ed8bc2c9f
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: fc917b3a6754c0e9badc11b0d331ae1328bf089c
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="power-bi-for-us-government-customers"></a>Usługa Power BI dla klientów rządowych w Stanach Zjednoczonych
 **Usługa Power BI** oferuje wersję dostępną dla klientów rządowych w Stanach Zjednoczonych w ramach subskrypcji **Office 365 US Government Community**. Wersja **usługi Power BI** omówiona w tym artykule jest przeznaczona wyłącznie dla klientów rządowych USA — jest to osobna usługa, która jest inna niż komercyjna wersja **usługi Power BI**.
@@ -61,6 +61,7 @@ W chmurze publicznej przestrzenie adresów IP są dostępne, ale w przypadku chm
 ## <a name="limitations-of-power-bi-us-government"></a>Ograniczenia dotyczące usługi Power BI US Government
 Niektóre funkcje dostępne w komercyjnej wersji **usługi Power BI** *nie* są dostępne w **usłudze Power BI** w wersji US Government. Zespół usługi Power BI stale pracuje nad udostępnieniem tych funkcji klientom rządowym w Stanach Zjednoczonych, a niniejszy artykuł zostanie zaktualizowany, gdy funkcje zostaną udostępnione.
 
+* **Osadź w usłudze SharePoint Online** — nie można osadzić zawartości w usłudze SharePoint Online przy użyciu składnika Web Part usługi Power BI.
 * **Usługa Power BI US Government** jest dostępna tylko w ramach licencji **Pro**. Wszelkie odwołania do licencji usługi Power BI (bezpłatnej) w portalu administratora (lub jako użytkownika) są uruchamiane w chmurze komercyjnej usługi Power BI.
 * **Inspekcja** — funkcja inspekcji nie jest dostępna za pośrednictwem portalu zabezpieczeń i zgodności usługi Office 365.
 * **Zawartość usługi Power BI w Cortanie** — wyniki usługi Power BI nie będą widoczne w wynikach wyszukiwania Cortany. Obejmuje to wyniki dla zawartości usługi Power BI (pulpity nawigacyjne, raporty, aplikacje) oraz wyniki, które zawierają zoptymalizowane pod kątem Cortany strony raportów dla określonych słów kluczowych.
