@@ -1,47 +1,47 @@
 ---
-title: "Wykresy punktowe o wysokiej gęstości w usłudze Power BI"
-description: "Wykresy punktowe o wysokiej gęstości w usłudze Power BI"
+title: Wykresy punktowe o wysokiej gęstości w usłudze Power BI
+description: Wykresy punktowe o wysokiej gęstości w usłudze Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 04/19/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 714d9e0378cff0c03e26999d240857108e4ec5ad
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: f0c1117dc6a74f3ffc8ef9f93610aa83c54b50dc
+ms.sourcegitcommit: bdb1fee3612bcc66153dcad8c4db2e99fb041014
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/28/2018
 ---
 # <a name="high-density-sampling-in-power-bi-scatter-charts"></a>Próbkowanie o wysokiej gęstości na wykresach punktowych w usłudze Power BI
 Wraz z wersją programu **Power BI Desktop** wydaną we wrześniu 2017 r. i aktualizacjami usługi **Power BI** udostępniony został nowy algorytm próbkowania, poprawiający sposób przedstawiania danych o wysokiej gęstości na wykresach punktowych.
 
-Możesz na przykład utworzyć wykres punktowy na podstawie danych sprzedaży w organizacji, obejmujących corocznie dziesiątki tysięcy punktów danych z każdego sklepu. Wykres punktowy mający przedstawiać tego rodzaju informacje próbkuje dostępne dane (wybiera reprezentatywną próbę danych, aby pokazać, w jaki sposób sprzedaż kształtuje się w czasie) i tworzy wykres punktowy, który odzwierciedla dane bazowe. Jest to powszechną praktyką w przypadku wykresów punktowych o wysokiej gęstości, a usługa Power BI oferuje teraz lepsze próbkowanie danych o wysokiej gęstości. Szczegółowe informacje przedstawiono w tym artykule.
+Możesz na przykład utworzyć wykres punktowy na podstawie danych sprzedaży w organizacji, obejmujących corocznie dziesiątki tysięcy punktów danych z każdego sklepu. Wykres punktowy mający przedstawiać tego rodzaju informacje próbkuje dostępne dane (wybiera reprezentatywną próbę danych, aby pokazać, w jaki sposób sprzedaż kształtuje się w czasie) i tworzy wykres punktowy, który odzwierciedla dane bazowe. Jest to powszechną praktyką w przypadku wykresów punktowych o wysokiej gęstości. Usługa Power BI oferuje teraz lepsze próbkowanie danych o wysokiej gęstości. Szczegółowe informacje przedstawiono w tym artykule.
 
 ![](media/desktop-high-density-scatter-charts/high-density-scatter-charts_01.png)
 
 > [!NOTE]
-> Algorytm **próbkowania o wysokiej gęstości** opisany w tym artykule dotyczy wykresów punktowych programu **Power BI Desktop** oraz **usługi Power BI** i jest dostępny w obu środowiskach.
+> Algorytm **próbkowania o wysokiej gęstości** opisany w tym artykule jest dostępny w wykresach punktowych programu **Power BI Desktop** oraz **usługi Power BI**.
 > 
 > 
 
 ## <a name="how-high-density-scatter-charts-work"></a>Jak działają wykresy punktowe o wysokiej gęstości
 Wcześniej usługa **Power BI** podczas tworzenia wykresu punktowego wybierała punkty danych do próby spośród całego zakresu danych bazowych w sposób deterministyczny. Polegało to na wybraniu przez usługę Power BI pierwszego i ostatniego wiersza danych w serii wykresu punktowego, a następnie na równomiernym podzieleniu pozostałych wierszy tak, aby na wykresie punktowym wykreślone zostało łącznie 3500 punktów danych. Na przykład jeśli próba zawierała 35 000 wierszy, do wykreślenia wybierane były pierwszy i ostatni wiersz oraz co dziesiąty z pozostałych wierszy (35 000 / 10 = co dziesiąty wiersz = 3500 punktów danych). Wcześniej nie były również pokazywane wartości null ani punkty, których nie można wykreślić (na przykład wartości tekstowe), w serii danych — co prowadziło do ich pominięcia przy generowaniu wizualizacji. Takie próbkowanie powodowało również, że widoczna gęstość wykresu punktowego także zależała od reprezentatywnych punktów danych, a zatem o gęstości wizualnej decydowały wybrane punkty, a nie cały zbiór danych bazowych.
 
-W przypadku włączenia **próbkowania o wysokiej gęstości** usługa Power BI stosuje algorytm eliminujący nakładające się na siebie punkty, zapewniając dostęp do wszystkich punktów danych na wizualizacji podczas korzystania z niej. To zapewnia również odzwierciedlenie na wizualizacji wszystkich punktów z zestawu danych wraz z kontekstem wskazującym na znaczenie wybranych punktów, a nie tylko wykreślenie reprezentatywnej próby.
+W przypadku włączenia **próbkowania o wysokiej gęstości** usługa Power BI stosuje algorytm eliminujący nakładające się na siebie punkty, zapewniając dostęp do wszystkich punktów danych na wizualizacji podczas korzystania z niej. Algorytm zapewnia również odzwierciedlenie na wizualizacji wszystkich punktów z zestawu danych wraz z kontekstem wskazującym na znaczenie wybranych punktów, a nie tylko wykreślenie reprezentatywnej próby.
 
-Zgodnie z definicją, dane o wysokiej gęstości są próbkowane tak, aby umożliwić odpowiednio szybkie tworzenie wizualizacji oraz jej sprawne reagowanie na interakcję (nadmiar punktów danych na wizualizacji może ją przeciążyć i zmniejszyć widoczność trendów). Sposób próbkowania danych zapewniający najlepsze działanie wizualizacji i odzwierciedlenie wszystkich danych stanowi podstawę tworzenia algorytmu próbkowania. W usłudze Power BI algorytm został ulepszony, aby połączyć krótki czas reakcji, reprezentatywność i czytelne przedstawienie ważnych punktów w całym zestawie danych.
+Zgodnie z definicją, dane o wysokiej gęstości są próbkowane tak, aby umożliwić w miarę szybkie tworzenie wizualizacji, i reagują na interakcję. Nadmiar punktów danych na wizualizacji może ją przeciążyć i zmniejszyć widoczność trendów. Zatem sposób próbkowania danych zapewniający najlepsze działanie wizualizacji i odzwierciedlenie wszystkich danych stanowi podstawę tworzenia algorytmu próbkowania. W usłudze Power BI algorytm jest teraz ulepszony, aby połączyć krótki czas reakcji, reprezentatywność i czytelne przedstawienie ważnych punktów w całym zestawie danych.
 
 > [!NOTE]
 > Wykresy punktowe z zastosowaniem algorytmu **próbkowania o wysokiej gęstości**, podobnie jak inne wykresy punktowe, najlepiej wykreślać na wizualizacjach w kształcie kwadratu.
@@ -65,7 +65,7 @@ Ponadto punkty danych, których nie można wykreślić (na przykład wartości n
 ### <a name="when-the-standard-algorithm-for-scatter-charts-is-used"></a>Kiedy jest używany standardowy algorytm próbkowania dla wykresów punktowych
 W pewnych sytuacjach algorytm **próbkowania o wysokiej gęstości** nie może być stosowany do wykresu punktowego, a zamiast niego jest używany pierwotny algorytm. Dotyczy to następujących sytuacji:
 
-* Jeśli klikniesz prawym przyciskiem myszy pozycję **Szczegóły**, a następnie wybierzesz pozycję **Pokaż elementy bez danych** w wyświetlonym menu, zostanie przywrócony pierwotny algorytm próbkowania dla wykresu punktowego.
+* Jeśli klikniesz prawym przyciskiem wartość w pozycji **Szczegóły**, a następnie wybierzesz pozycję **Pokaż elementy bez danych** w wyświetlonym menu, zostanie przywrócony pierwotny algorytm dla wykresu punktowego.
   
   ![](media/desktop-high-density-scatter-charts/high-density-scatter-charts_02.png)
 * Dowolne wartości na **osi odtwarzania** spowodują przywrócenie pierwotnego algorytmu dla wykresu punktowego.
@@ -75,15 +75,15 @@ W pewnych sytuacjach algorytm **próbkowania o wysokiej gęstości** nie może b
   ![](media/desktop-high-density-scatter-charts/high-density-scatter-charts_03.png)
 
 ## <a name="how-to-turn-on-high-density-sampling-for-a-scatter-chart"></a>Jak włączyć próbkowanie o wysokiej gęstości dla wykresu punktowego
-Aby włączyć **próbkowanie o wysokiej gęstości**, zaznacz wykres punktowy, a następnie przejdź do okienka **Formatowanie** i rozwiń kartę **Ogólne**. W dolnej części karty znajduje się suwak przełącznika **Próbkowanie o dużej gęstości**. Aby włączyć to ustawienie, przesuń suwak do pozycji **Włączone**.
+Aby włączyć **próbkowanie o wysokiej gęstości**, wybierz wykres punktowy, przejdź do okienka **Formatowanie**, rozwiń kartę **Ogólne** i u dołu karty ustaw suwak przełączania **Próbkowanie o dużej gęstości** w pozycji **Włączone**.
 
 ![](media/desktop-high-density-scatter-charts/high-density-scatter-charts_04.png)
 
 > [!NOTE]
-> Po włączeniu przełącznika usługa Power BI podejmie próbę zastosowania algorytmu **próbkowania o wysokiej gęstości** zawsze, gdy będzie to możliwe. Jeśli nie będzie można zastosować tego algorytmu (na przykład w przypadku umieszczenia wartości na *osi odtwarzania*), suwak pozostanie w pozycji **Włączone** mimo przywrócenia standardowego algorytmu. Jeśli następnie usuniesz wartość z *osi odtwarzania* (lub zmienią się inne warunki, które uniemożliwiały zastosowanie algorytmu próbkowania o wysokiej gęstości), próbkowanie o wysokiej gęstości zostanie zastosowane automatycznie, ponieważ przełącznik nadal będzie ustawiony w pozycji włączonej.
+> Po włączeniu przełącznika usługa Power BI podejmie próbę zastosowania algorytmu **próbkowania o wysokiej gęstości** zawsze, gdy będzie to możliwe. Jeśli nie będzie można zastosować tego algorytmu (na przykład w przypadku umieszczenia wartości na *osi odtwarzania*), suwak pozostanie w pozycji **Włączone** mimo przywrócenia standardowego algorytmu. Jeśli następnie usuniesz wartość z *osi odtwarzania* (lub zmienią się inne warunki, które uniemożliwiały zastosowanie algorytmu próbkowania o wysokiej gęstości), próbkowanie o wysokiej gęstości zostanie zastosowane automatycznie, ponieważ ta funkcja jest aktywna.
 > 
 > [!NOTE]
-> Punkty danych są grupowane i/lub wybierane według indeksu. Użycie legendy nie wpływa na algorytm próbkowania, a jedynie na organizację wizualizacji.
+> Punkty danych są grupowane lub wybierane według indeksu. Użycie legendy nie wpływa na algorytm próbkowania, a jedynie na organizację wizualizacji.
 > 
 > 
 

@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 15d492aba39da23a06ac2f13bce676e0123a332c
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: f982ba613bef66514aab39b43cf0fe92b1b7b81c
+ms.sourcegitcommit: bdb1fee3612bcc66153dcad8c4db2e99fb041014
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 04/28/2018
 ---
 # <a name="add-a-custom-column-in-power-bi-desktop"></a>Dodawanie kolumny niestandardowej w programie Power BI Desktop
 Nową niestandardową kolumnę danych możesz łatwo dodać do swojego modelu, posługując się **Edytorem zapytań** w programie **Power BI Desktop**. Niestandardową kolumnę możesz utworzyć za pomocą łatwych przycisków do tworzenia [formuł M](https://msdn.microsoft.com/library/mt270235.aspx) definiujących kolumnę niestandardową. Formuła M ma [kompleksowy zestaw zawartości referencyjnej funkcji](https://msdn.microsoft.com/library/mt779182.aspx). 
@@ -40,7 +40,7 @@ Po uruchomieniu **Edytora zapytań** i załadowaniu do niego danych można doda�
 
 ![](media/desktop-add-custom-column/add-custom-column_02.png)
 
-Gdy to zrobisz, zostanie wyświetlone okno **Dodawanie kolumny niestandardowej**, które zostanie omówione w kolejnej sekcji.
+Zostanie wyświetlone okno **Dodawanie kolumny niestandardowej**, które zostanie omówione w kolejnej sekcji.
 
 ## <a name="the-add-custom-column-window"></a>Okno Dodawanie kolumny niestandardowej
 W oknie **Dodawanie kolumny niestandardowej** widoczne są: lista dostępnych pól w okienku po prawej, nazwa kolumny niestandardowej u góry (możesz zmienić jej nazwę, po prostu wpisując nową wartość w polu) i formuła [**M**](https://msdn.microsoft.com/library/mt779182.aspx) tworzona (lub pisana) na podstawie pól wstawianych z prawej strony, dodawanych operatorów i innych czynności tworzenia formuły, na której będzie bazować definicja nowej kolumny niestandardowej. 

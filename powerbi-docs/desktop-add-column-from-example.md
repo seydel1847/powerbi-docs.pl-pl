@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 08ae182e62fc370b66b2ef88b0c6b7c91a46eff1
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: 5031e31f83925d17fb87f39e4610a53617b9fca3
+ms.sourcegitcommit: bdb1fee3612bcc66153dcad8c4db2e99fb041014
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 04/28/2018
 ---
 # <a name="add-a-column-from-an-example-in-power-bi-desktop"></a>Dodawanie kolumny z przykładu w programie Power BI Desktop
 Wersja programu **Power BI Desktop** wydana w kwietniu 2017 r. umożliwia dodawanie nowych kolumn danych do modelu przy użyciu **Edytora zapytań** przez wprowadzenie co najmniej jednej przykładowej wartości dla nowej kolumny. Możesz utworzyć nową przykładową kolumnę na podstawie bieżącego zaznaczenia lub na podstawie danych wejściowych wprowadzonych w oparciu o wszystkie (lub wybrane) kolumny w danej tabeli.
@@ -42,7 +42,7 @@ Aby utworzyć nową kolumnę z przykładu, uruchom **Edytor zapytań**. Możesz 
 
 ![](media/desktop-add-column-from-example/add-column-from-example_02.png)
 
-W tym artykule zostaną użyte dane z następującego artykułu w Wikipedii (to link, więc możesz go kliknąć, aby samemu uzyskać dane i podążać za instrukcjami):
+Aby pobrać dane ze strony internetowej, przejdź na kartę **Narzędzia główne**, kliknij pozycję **Pobierz dane > Internet**, a następnie wklej adres URL w wyświetlonym oknie dialogowym. W tym artykule są używane dane z artykułu w Wikipedii. Możesz kliknąć następujący link, aby samodzielnie uzyskać dane i podążać za instrukcjami:
 
 * [**List of states and territories of the United States**](https://wikipedia.org/wiki/List_of_states_and_territories_of_the_United_States) (Lista stanów i terytoriów Stanów Zjednoczonych)
 
@@ -51,24 +51,24 @@ Po uruchomieniu **Edytora zapytań** i załadowaniu danych możesz rozpocząć d
 ![](media/desktop-add-column-from-example/add-column-from-example_03.png)
 
 ## <a name="the-add-column-from-examples-pane"></a>Okienko Dodaj kolumnę z przykładów
-Po wybraniu opcji dodania nowej kolumny z przykładów zostanie wyświetlone nowe okienko z kolumnami bieżącej tabeli (konieczne może być przewinięcie w celu wyświetlenia ich wszystkich). Nowa pozycja **Column1** jest również wyświetlona po prawej stronie. Jest to kolumna, którą program **Power BI Desktop** utworzy w oparciu o przykłady. Poniżej nowego nagłówka **Column1** znajdują się puste komórki, w których można wpisać przykłady używane następnie przez usługę Power BI do utworzenia reguł i przekształceń w celu dopasowania do przykładu.
+Po wybraniu opcji dodania nowej kolumny z przykładów zostanie wyświetlone nowe okienko z kolumnami bieżącej tabeli (konieczne może być przewinięcie w celu wyświetlenia ich wszystkich). Nowa pozycja **Column1** jest również wyświetlona po prawej stronie. Jest to kolumna, którą program **Power BI Desktop** tworzy w oparciu o przykłady. Poniżej nowego nagłówka **Column1** znajdują się puste komórki, w których można wpisać przykłady używane następnie przez usługę Power BI do utworzenia reguł i przekształceń w celu dopasowania do przykładu.
 
-Należy również zauważyć, że jest to **Zastosowany krok** w okienku **Ustawienia zapytania**. Jak zawsze **Edytor zapytań** będzie rejestrować czynności przekształceń i zastosuje je do zapytania w określonej kolejności.
+Należy zauważyć, że jest to **Zastosowany krok** w okienku **Ustawienia zapytania**. Jak zawsze **Edytor zapytań** będzie rejestrować czynności przekształceń i zastosuje je do zapytania w określonej kolejności.
 
 ![](media/desktop-add-column-from-example/add-column-from-example_04.png)
 
 Okienko **Dodaj kolumnę z przykładów** składa się z czterech podstawowych obszarów:
 
-1. **Pasek poleceń** zawiera krótki opis funkcji lub przekształceń.
+1. **Pasek poleceń** zawiera krótki opis funkcji lub przekształcenia.
 2. Opcja **Prześlij opinię** pomaga w ulepszaniu tej funkcji usługi Power BI.
 3. Przyciski **OK** i **Anuluj** umożliwiają zatwierdzenie przekształceń i dodanie kolumny lub anulowanie operacji.
 4. Obszar nowej kolumny, w którym możesz wpisać w dowolnych wierszach przykładowe wartości odnoszące się do innych kolumn w tym wierszu, aby utworzyć przykład dla usługi Power BI.
 
 ![](media/desktop-add-column-from-example/add-column-from-example_05.png)
 
-Podczas wpisywania przykładu w nowej kolumnie usługa Power BI wyświetla podgląd kolumny, która zostanie utworzona, w oparciu o wykryte przekształcenia. Na przykład w pierwszym wierszu wpisaliśmy hasło *Alabama* odpowiadające wartości *Alabama* w pierwszej kolumnie tabeli. Po naciśnięciu klawisza *Enter* usługa Power BI uzupełni kolumnę w oparciu o tę wartość.
+Podczas wpisywania przykładu w nowej kolumnie usługa Power BI wyświetla podgląd kolumny, która zostanie utworzona, w oparciu o wykryte przekształcenia. Na przykład jeśli w pierwszym wierszu wpisaliśmy hasło *Alabama*, odpowiada ono wartości *Alabama* w pierwszej kolumnie tabeli. Po naciśnięciu klawisza *Enter* usługa Power BI uzupełni kolumnę na podstawie tej wartości.
 
-Jednak następnie przeszliśmy do wiersza, w którym znajdowało się hasło *Massachusetts[E]* i usunęliśmy fragment *[E]* (ponieważ nie był potrzebny), a usługa Power BI wykryła zmianę i użyła tego przykładu, aby utworzyć przekształcenie. Zwróć uwagę na wyjaśnienie przekształcenia w środkowym okienku na górze.
+Jednak następnie przeszliśmy do wiersza, w którym znajdowało się hasło *Massachusetts[E]* i usunęliśmy fragment *[E]* (ponieważ nie był potrzebny). Usługa Power BI wykrywa zmianę i używa tego przykładu, aby utworzyć przekształcenie. Zwróć uwagę na wyjaśnienie przekształcenia w środkowym okienku na górze.
 
 ![](media/desktop-add-column-from-example/add-column-from-example_06.png)
 
@@ -80,7 +80,7 @@ Chcesz zobaczyć, jak to działa? Poniższy film wideo przedstawia użycie tej f
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-ykbVW9wQfw" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="considerations-and-limitations"></a>Istotne zagadnienia i ograniczenia
-Istnieje wiele przekształceń, które są dostępne podczas korzystania z funkcji **Dodaj kolumnę z przykładów**, ale nie wszystkie przekształcenia są uwzględniane. Poniższa lista zawiera wszystkie przekształcenia, które *są* obsługiwane.
+Istnieje wiele przekształceń, które są dostępne podczas korzystania z funkcji **Dodaj kolumnę z przykładów**, ale nie wszystkie przekształcenia są uwzględniane. Poniższa lista zawiera wszystkie obsługiwane przekształcenia.
 
 * **Odwołanie**
   
