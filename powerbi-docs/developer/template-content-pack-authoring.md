@@ -1,15 +1,15 @@
 ---
-title: "Tworzenie szablonowych pakietów zawartości w usłudze Power BI"
-description: "Tworzenie szablonowych pakietów zawartości"
+title: Tworzenie szablonowych pakietów zawartości w usłudze Power BI
+description: Tworzenie szablonowych pakietów zawartości
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
