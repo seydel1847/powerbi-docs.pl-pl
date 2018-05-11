@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: conceptual
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 04/09/2018
+ms.date: 04/23/2018
 ms.author: maggies
-ms.openlocfilehash: 9caf6e6867c55d3c601ac417add173d0af091897
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: eeb6fe244057f10e33936c475f753cfba95deed8
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Co nowego w aplikacjach mobilnych dla usługi Power BI
 Powiązane nowości są dostępne w następujących artykułach:
@@ -34,7 +34,7 @@ Powiązane nowości są dostępne w następujących artykułach:
 
 ### <a name="mobile-drill-down-and-drill-up"></a>Mobilne przechodzenie do szczegółów i uogólnianie
 
-Teraz można przechodzić do szczegółów wizualizacji raportów i uogólniać je na urządzeniu przenośnym. Aby uzyskać dostęp do tej nowej funkcji, naciśnij menu etykietek narzędzi i przytrzymaj je, aby otworzyć je w wizualizacji raportu, a następnie dotknij przycisków przechodzenia, aby zapoznać się ze szczegółami danych.
+Teraz można przechodzić do szczegółów wizualizacji raportów i uogólniać je na urządzeniu przenośnym. Aby uzyskać dostęp do tej nowej funkcji, naciśnij menu etykietek narzędzi i przytrzymaj je, aby otworzyć je w wizualizacji raportu, a następnie dotknij przycisków przechodzenia, aby zapoznać się ze szczegółami danych. Więcej informacji o [uogólnianiu i przechodzeniu do szczegółów w aplikacjach mobilnych](https://powerbi.microsoft.com/blog/drill-down-up-in-power-bi-mobile-apps/).
 
 ### <a name="persistent-filters"></a>Filtry trwałe
 

@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 4/10/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: b5da2bf43f2d38e0828571e2b9d404feb615ac69
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: 7be260a5989ffb6a9dc1b72dad90d227e0b6295b
+ms.sourcegitcommit: bdb1fee3612bcc66153dcad8c4db2e99fb041014
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/28/2018
 ---
 # <a name="use-drillthrough-in-power-bi-desktop"></a>Używanie przeglądania szczegółowego w programie Power BI Desktop
 **Przeglądanie szczegółowe** w programie **Power BI Desktop** umożliwia utworzenie strony w raporcie, która koncentruje się na określonej jednostce — takiej jak dostawca, klient lub producent. Dzięki tej skoncentrowanej stronie użytkownicy mogą kliknąć prawym przyciskiem myszy punkt danych na innej stronie raportu i użyć przeglądania szczegółowego, aby przejść do tej skoncentrowanej strony w celu uzyskania szczegółów przefiltrowanych do danego kontekstu.
@@ -45,8 +45,8 @@ ms.lasthandoff: 04/16/2018
 ## <a name="use-your-own-image-for-a-back-button"></a>Używanie własnego obrazu na przycisku Wstecz    
  Przycisk Wstecz jest obrazem, dlatego możesz zamienić obraz tej wizualizacji na inny dowolny obraz, i nadal będzie on działać jako przycisk Wstecz umożliwiający użytkownikom raportu powrót do ich oryginalnej strony.
 
-1. Aby użyć własnego obrazu na przycisku Wstecz, umieść wizualizację obrazu na stronie przeglądania szczegółowego.
-2. Wybierz wizualizację i ustaw suwak **przycisku Wstecz** w położeniu oznaczającym włączenie. Twój obraz działa teraz jako przycisk Wstecz.
+1. Na karcie **Narzędzia główne** kliknij pozycję **Obraz**, a następnie zlokalizuj swój obraz i umieść go na stronie przeglądania szczegółowego.
+2. Wybierz nowy obraz na stronie przeglądania szczegółowego, a następnie w sekcji formatowania obrazu ustaw suwak **Link** na pozycję oznaczającą włączenie i ustaw pozycję **Typ** na wartość **Wstecz**. Twój obraz działa teraz jako przycisk Wstecz.
 
     ![](media/desktop-drillthrough/drillthrough_05.png)
 
