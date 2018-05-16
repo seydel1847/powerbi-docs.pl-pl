@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8f5b80497850b8e61bd7df97c3c88777265d7a6b
-ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
+ms.openlocfilehash: 8f4f8c257404eaca97f419603bac386da5bf7446
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/30/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="use-report-themes-in-power-bi-desktop-preview"></a>Używanie motywów raportów w programie Power BI Desktop (wersja zapoznawcza)
 **Motywy raportów** umożliwiają zastosowanie motywu kolorystycznego — kolorów firmowych, okolicznościowych lub dowolnego innego motywu kolorystycznego — do całego raportu. Zastosowanie **motywu raportu** spowoduje, że kolory tego motywu będą używane we wszystkich wizualizacjach w raporcie (z kilkoma wyjątkami opisanymi w dalszej części tego artykułu).

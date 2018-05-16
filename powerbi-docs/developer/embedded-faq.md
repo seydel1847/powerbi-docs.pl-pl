@@ -1,27 +1,27 @@
 ---
-title: "Często zadawane pytania dotyczące usługi Power BI Embedded"
-description: "Przeglądaj listę często zadawanych pytań i odpowiedzi dotyczących usługi Power BI Embedded."
+title: Często zadawane pytania dotyczące usługi Power BI Embedded
+description: Przeglądaj listę często zadawanych pytań i odpowiedzi dotyczących usługi Power BI Embedded.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/07/2018
+ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: 52ff1095c063be867354a23e0e8e4908a4b4e1d7
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 24e4dbaf6ede92436ff05c8cb57756e3ab7e8526
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Często zadawane pytania dotyczące usługi Power BI Embedded
 
@@ -60,10 +60,6 @@ W niektórych przypadkach niezależny dostawca oprogramowania (działający zazw
 
 Tokeny osadzania z licencją PRO są przeznaczone do celów projektowania i testowania programowania, więc liczba tokenów osadzania, które może wygenerować konto główne usługi Power BI, jest ograniczona. Aby umożliwić osadzanie w środowisku produkcyjnym, musisz [kupić pojemność](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical). Nie ma żadnego ograniczenia liczby generowanych tokenów osadzania, gdy zostanie kupiona pojemność.
 
-### <a name="when-will-power-bi-embedded-be-available-in-azure"></a>Kiedy usługa Power BI Embedded będzie dostępna na platformie Azure?
-
-Usługa Power BI Embedded jest teraz dostępna.
-
 ## <a name="technical"></a>Szczegóły techniczne
 
 ### <a name="what-is-the-difference-between-the-a-skus-in-azure-and-the-em-skus-in-office-365"></a>Jaka jest różnica między jednostkami SKU A na platformie Azure i jednostkami SKU EM w usłudze Office 365?
@@ -74,7 +70,7 @@ Usługa Power BI Embedded to zestaw interfejsów API udostępnionych deweloperom
 
 Poniżej przedstawiono skróconą listę różnych funkcji, których można używać z poszczególnymi jednostkami SKU.
 
-|Promowanie  |Power BI Embedded<br>(jednostki SKU A) |Pojemność usługi Power BI Premium<br>(jednostki SKU EM)  |
+|Promowanie  |Power BI Embedded<br>(jednostki SKU A) |Pojemność usługi Power BI Premium<br>(jednostki SKU EM)  | 
 |---------|---------|---------|
 |Osadzanie artefaktów z obszarów roboczych aplikacji Power BI     |Pojemność platformy Azure |Pojemność usługi Office 365 |
 |Korzystanie z raportów wymaga licencji usługi Power BI |Nie  |Tak |
@@ -138,14 +134,6 @@ Australia Południowo-Wschodnia, Brazylia Południowa, Kanada Środkowa, Wschodn
 
 Dostęp do usługi Power BI Embedded można uzyskać za pośrednictwem platformy Azure.
 
-### <a name="how-power-bi-embedded-be-metered"></a>Jak rozliczana jest usługa Power BI Embedded?
-
-Usługa Power BI Embedded będzie rozliczana co godzinę.
-
-### <a name="how-does-the-usage-of-power-bi-embedded-show-up-on-my-bill"></a>Jak użycie usługi Power BI Embedded jest rozliczane na rachunku?
-
-W przypadku usługi Power BI Embedded stosowana jest stała, przewidywalna stawka godzinowa zależna od typu wdrażanych węzłów. Należy pamiętać, że tak długo, jak zasób jest aktywny, opłaty będą naliczane nawet wtedy, gdy nie będzie on używany. Aby zatrzymać naliczanie opłat, musisz aktywnie wstrzymać zasób. Wstrzymywanie można przeprowadzić za pośrednictwem platformy Azure lub za pośrednictwem interfejsów API ARM.
-
 ### <a name="what-happens-if-i-already-purchased-power-bi-premium-and-now-i-want-some-of-the-benefits-of-power-bi-embedded-in-azure"></a>Co się stanie, jeśli po zakupie usługi Power BI Premium zechcę skorzystać z niektórych zalet usługi Power BI Embedded na platformie Azure?
 
 Klienci będą wnosić opłaty za wszelkie dotychczasowe zakupy dokonane w ramach usługi Power BI Premium do końca obowiązywania bieżącej umowy. Po jej wygaśnięciu będą mogli w razie potrzeby przejść do innej usługi niż Power BI Premium.
@@ -153,6 +141,14 @@ Klienci będą wnosić opłaty za wszelkie dotychczasowe zakupy dokonane w ramac
 ### <a name="do-i-still-have-to-buy-power-bi-premium-to-get-access-to-power-bi-embedded"></a>Czy muszę kupić usługę Power BI Premium, aby uzyskać dostęp do usługi Power BI Embedded?
 
 Nie, usługa Power BI Embedded zawiera pojemność opartą na platformie Azure, którą należy wdrożyć, a następnie dystrybuować swoim klientom.
+
+### <a name="whats-the-purchase-commitment-for-power-bi-embedded"></a>Jakie jest zobowiązanie dotyczące zakupu usługi Power BI Embedded? 
+
+Klienci mogą zmieniać poziom użycia co godzinę. Usługa Power BI Embedded nie oferuje zobowiązania miesięcznego ani rocznego.
+
+### <a name="how-does-the-usage-of-power-bi-embedded-show-up-on-my-bill"></a>Jak użycie usługi Power BI Embedded jest rozliczane na rachunku?
+
+W przypadku usługi Power BI Embedded stosowana jest stała, przewidywalna stawka godzinowa zależna od typu wdrażanych węzłów. Należy pamiętać, że tak długo, jak zasób jest aktywny, opłaty będą naliczane nawet wtedy, gdy nie będzie on używany. Aby zatrzymać naliczanie opłat, musisz aktywnie wstrzymać zasób.
 
 ### <a name="who-needs-a-power-bi-pro-license-for-power-bi-embedded-and-why"></a>Kto potrzebuje licencji usługi Power BI Pro dla usługi Power BI Embedded i dlaczego?
 
@@ -168,16 +164,21 @@ Tak, możesz użyć [środków na korzystanie z platformy Azure](https://azure.m
 
 Ponieważ usługa Power BI Embedded jest częścią platformy Azure, możesz korzystać z niej na podstawie [kredytu w wysokości 200 USD uzyskanego podczas rejestracji na platformie Azure](https://azure.microsoft.com/free/).
 
-### <a name="whats-the-purchase-commitment-for-power-bi-embedded"></a>Jakie jest zobowiązanie dotyczące zakupu usługi Power BI Embedded? 
+### <a name="is-there-a-limit-to-the-number-of-embed-tokens-a-power-bi-master-account-can-generate"></a>Czy istnieje limit liczby osadzonych tokenów, które może wygenerować główne konto usługi Power BI? 
 
-Klienci mogą zmieniać poziom użycia co godzinę. Usługa Power BI Embedded nie oferuje zobowiązania miesięcznego ani rocznego.
+Tak, ta liczba jest ograniczona, ponieważ tokeny osadzone służą tylko do testowania na potrzeby programowania. Dla scenariuszy osadzania w dowolnym środowisku produkcyjnym [należy kupić pojemność](#technical). Nie ma żadnego ograniczenia generowania tokenów osadzania, gdy zostanie kupiona pojemność. Przejdź do pozycji [Pobierz dostępne funkcje](https://msdn.microsoft.com/en-us/library/mt846473.aspx), aby sprawdzić, ilu bezpłatnych osadzonych tokenów już użyto.
 
-### <a name="where-is-power-bi-embedded-available-us-government-germany-china-what-is-the-timing"></a>Gdzie jest dostępna usługa Power BI Embedded? Czy można z niej korzystać w instytucjach rządowych USA albo takich krajach jak Niemcy czy Chiny? Kiedy zostanie udostępniona?
+### <a name="is-power-bi-embedded-available-for-sovereign-clouds-us-government-germany-china"></a>Czy usługa Power BI Embedded jest dostępna w przypadku chmur suwerennych (instytucje rządowe Stanów Zjednoczonych, Niemcy, Chiny)?
 
-Usługa Power BI Embedded jest dostępna w komercyjnych chmurach Azure i w chmurze dla instytucji rządowych USA.  Dostępność suwerennych chmur dla Niemczech i Chin zostanie dodana w przyszłości.
+Usługa Power BI Embedded jest dostępna dla niektórych [chmur suwerennych](embed-sample-for-customers-sovereign-clouds.md). Nadal **NIE** jest ona dostępna w przypadku chmury w wersji dla Chin.
 
 ### <a name="is-power-bi-embedded-available-for-non-profits-and-educational"></a>Czy usługa Power BI Embedded jest dostępna dla instytucji edukacyjnych i organizacji niedochodowych?
 
 Instytucje edukacyjne i organizacje niedochodowe mogą zakupić platformę Azure. Nie ma żadnych specjalnych cen dla tego typu klientów platformy Azure.
 
-Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
+Aby uzyskać więcej informacji, zobacz [Rozwiązywanie problemów z aplikacją osadzoną](embedded-troubleshoot.md)
+
+Więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
+
+
+

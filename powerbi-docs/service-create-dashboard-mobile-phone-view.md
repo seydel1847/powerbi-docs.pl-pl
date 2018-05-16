@@ -1,15 +1,15 @@
 ---
-title: "Tworzenie widoku pulpitu nawigacyjnego usługi Power BI dla telefonów komórkowych"
-description: "Dowiedz się, jak tworzyć niestandardowy widok pulpitu nawigacyjnego w usłudze Power BI specjalnie do wyświetlenia na telefonach komórkowych."
+title: Tworzenie widoku pulpitu nawigacyjnego usługi Power BI dla telefonów komórkowych
+description: Dowiedz się, jak tworzyć niestandardowy widok pulpitu nawigacyjnego w usłudze Power BI specjalnie do wyświetlenia na telefonach komórkowych.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

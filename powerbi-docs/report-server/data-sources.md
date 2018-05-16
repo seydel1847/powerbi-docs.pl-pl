@@ -1,6 +1,6 @@
 ---
 title: Źródła danych raportów usługi Power BI na Serwerze raportów usługi Power BI
-description: Raporty usługi Power BI mogą łączyć się z różnymi źródłami danych. Zależnie od sposobu użycia danych są dostępne różne źródła danych.
+description: Raporty usługi Power BI (PBIX) mogą łączyć się z kilkoma źródłami danych. Zależnie od sposobu użycia danych są dostępne różne źródła danych.
 services: powerbi
 documentationcenter: ''
 author: markingmyname
@@ -15,23 +15,22 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 04/02/2018
+ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: bc490834b215af45df1063fd06b94ed9b735d852
-ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
+ms.openlocfilehash: a32ef2e1e85b252a2a1071cb95c80149486c2604
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/26/2018
 ---
-# <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Źródła danych raportów usługi Power BI na Serwerze raportów usługi Power BI
-Raporty usługi Power BI mogą łączyć się z różnymi źródłami danych. Zależnie od sposobu użycia danych są dostępne różne źródła danych. Dane można zaimportować lub wykonywać względem nich zapytania bezpośrednio przy użyciu zapytania bezpośredniego lub połączenia na żywo z usługami SQL Server Analysis Services.
+# <a name="power-bi-report-pbix-data-sources-in-power-bi-report-server"></a>Źródła danych raportów usługi Power BI (PBIX) na serwerze raportów usługi Power BI
+Raporty usługi Power BI mogą łączyć się z kilkoma źródłami danych. Zależnie od sposobu użycia danych są dostępne różne źródła danych. Dane można zaimportować lub wykonywać względem nich zapytania bezpośrednio przy użyciu zapytania bezpośredniego lub połączenia na żywo z usługami SQL Server Analysis Services.
 
-Te źródła danych są specyficzne dla raportów Power BI używanych na Serwerze raportów Power BI. Aby uzyskać informacje o źródłach danych obsługiwanych w raportach z podziałem na strony, zobacz [Źródła danych obsługiwane przez usługi Reporting Services](https://docs.microsoft.com/sql/reporting-services/report-data/data-sources-supported-by-reporting-services-ssrs).
+Te źródła danych są specyficzne dla raportów Power BI używanych na Serwerze raportów Power BI. Aby uzyskać informacje o źródłach danych obsługiwanych w raportach podzielonych na strony (RDL), zobacz [Źródła danych obsługiwane przez usługi Reporting Services](https://docs.microsoft.com/sql/reporting-services/report-data/data-sources-supported-by-reporting-services-ssrs).
 
 > [!IMPORTANT]
-> Wszystkie źródła danych w raporcie programu Power BI Desktop muszą być obsługiwane, aby można było skonfigurować zaplanowane odświeżanie.
-> 
-> 
+> Wszystkie źródła danych w raporcie programu Power BI Desktop muszą obsługiwać skonfigurowanie zaplanowanego odświeżania.
+>  
 
 ## <a name="list-of-supported-data-sources"></a>Lista obsługiwanych źródeł danych
 
@@ -216,7 +215,7 @@ Serwer raportów usługi Power BI nie obsługuje uwierzytelniania OAuth na potrz
 
 
 ## <a name="next-steps"></a>Następne kroki
-Teraz, gdy wybrano źródło danych, [utwórz raport](quickstart-create-powerbi-report.md) przy użyciu danych z tego źródła danych.
+Teraz po połączeniu ze źródłem danych [utwórz raport usługi Power BI](quickstart-create-powerbi-report.md) przy użyciu danych z tego źródła danych.
 
-Masz więcej pytań? [Zadaj pytanie społeczności usługi Power BI](https://community.powerbi.com/)
+Więcej pytań? [Zadaj pytanie społeczności usługi Power BI](https://community.powerbi.com/)
 

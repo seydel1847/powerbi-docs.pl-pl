@@ -1,28 +1,28 @@
 ---
-title: "Łączenie się z bazą danych Oracle"
-description: "Kroki i pliki do pobrania wymagane do połączenia bazy danych Oracle z programem Power BI Desktop"
+title: Łączenie się z bazą danych Oracle
+description: Kroki i pliki do pobrania wymagane do połączenia bazy danych Oracle z programem Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 4/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 4126a5f4fc7b8a398d39cad7c14e87e179ab3175
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: e898fb3f7024b4041616770d6fe1d8e8469878dd
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="connect-to-an-oracle-database"></a>Łączenie się z bazą danych Oracle
 Aby można było nawiązać połączenie z bazą danych Oracle przy użyciu programu **Power BI Desktop**, na komputerze z działającym programem Power BI Desktop musi być zainstalowane poprawne oprogramowanie klienckie Oracle. Oprogramowanie klienckie Oracle, którego używasz, zależy od zainstalowanej wersji programu Power BI Desktop — wersji **32-bitowej** lub **64-bitowej**.
@@ -49,7 +49,7 @@ Po zainstalowaniu odpowiedniego sterownika klienta Oracle możesz połączyć si
 1. W oknie Pobieranie danych wybierz pozycję **Baza danych > Baza danych programu Oracle**
    
    ![](media/desktop-connect-oracle-database/connect-oracle-database_2.png)
-2. W wyświetlonym oknie dialogowym **Baza danych Oracle** podaj nazwę serwera, a następnie wybierz pozycję **Połącz**. Jeśli wymagany jest identyfikator SID, możesz go określić przy użyciu formatu: *NazwaSerwera/SID*.
+2. W wyświetlonym oknie dialogowym **Baza danych Oracle** podaj nazwę serwera, a następnie wybierz pozycję **Połącz**. Jeśli wymagany jest identyfikator SID, możesz go określić przy użyciu formatu: *nazwa_serwera/SID*, gdzie SID to unikatowa nazwa bazy danych. Jeśli format *nazwa_serwera/SID* nie działa, spróbuj użyć formatu *nazwa_serwera/nazwa_usługi*, gdzie nazwa_usługi to alias użyty podczas nawiązywania połączenia.
    
    ![](media/desktop-connect-oracle-database/connect-oracle-database_3.png)
 3. Jeśli chcesz zaimportować dane przy użyciu natywnego zapytania bazy danych, możesz umieścić zapytanie w polu **Instrukcja SQL** dostępnym po rozwinięciu sekcji **Opcje zaawansowane** okna dialogowego **Baza danych Oracle**.

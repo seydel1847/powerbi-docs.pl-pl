@@ -1,28 +1,28 @@
 ---
-title: "Rozwiązywanie problemów podczas uruchamiania programu Power BI Desktop"
-description: "Rozwiązywanie problemów podczas uruchamiania programu Power BI Desktop"
+title: Rozwiązywanie problemów podczas uruchamiania programu Power BI Desktop
+description: Rozwiązywanie problemów podczas uruchamiania programu Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 43263afb63fa0350a240cae602f4a2acf8ef8edd
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: 2014524b3209a67bd0f0aaa3d1ddf00042227c4d
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="resolve-issues-when-power-bi-desktop-will-not-launch"></a>Co zrobić, jeśli nie można uruchomić programu Power BI Desktop
 Może się zdarzyć, że użytkownicy programu **Power BI Desktop**, którzy zainstalowali starszą wersję **lokalnej bramy danych usługi Power BI**, nie mogą uruchomić programu Power BI Desktop ze względu na ograniczenia zasad administracyjnych zastosowane przez lokalną bramę danych usługi Power BI do potoków nazwanych na maszynie lokalnej. 
@@ -39,10 +39,12 @@ Jeśli nie potrzebujesz już lokalnej bramy danych usługi Power BI, możesz odi
 ### <a name="resolution-3-run-power-bi-desktop-with-administrator-privilege"></a>Rozwiązanie nr 3. Uruchomienie programu Power BI Desktop z uprawnieniami administratora
 Możesz również uruchomić program Power BI Desktop jako administrator, aby umożliwić programowi Power BI Desktop pomyślne uruchomienie. Nadal zaleca się zainstalowanie najnowszej wersji lokalnej bramy danych usługi Power BI, jak opisano wcześniej w tym artykule.
 
+Zauważ, że program Power BI Desktop został zaprojektowany jako architektura obsługująca wiele procesów i niektóre z tych procesów komunikują się przy użyciu nazwanych potoków systemu Windows. Mogą istnieć inne procesy, które zakłócają działanie tych nazwanych potoków. Najczęstszym powodem takich zakłóceń są zabezpieczenia, w tym sytuacje, gdy oprogramowanie antywirusowe lub zapory mogą blokować potoki lub przekierowywać ruch do określonego portu. Uruchamianie programu Power BI Desktop z uprawnieniami administratora może rozwiązać ten problem. Jeśli uruchamianie z uprawnieniami administratora jest niemożliwe, skontaktuj się z administratorem, aby ustalić, które stosowane reguły zabezpieczeń uniemożliwiają potokom nazwanym prawidłową komunikację, i umieścić program Power BI Desktop oraz jego odpowiednie procesy podrzędne na liście dozwolonych.
+
 ## <a name="help-with-other-issues-when-launching-power-bi-desktop"></a>Pomoc dotycząca innych kwestii podczas uruchamiania programu Power BI Desktop
 Dokładamy wszelkich starań, aby zapewnić rozwiązania możliwie jak największej liczby problemów, które występują w związku z programem **Power BI Desktop**. Regularnie badamy problemy, które mogą dotyczyć wielu klientów, i uwzględniamy je w naszych artykułach.
 
-Jeśli problem z uruchomieniem programu **Power BI Desktop** nie jest związany z lokalną bramą danych lub jeśli powyższe rozwiązania nie działają, możesz przesłać zgłoszenie zdarzenia do [pomocy technicznej usługi Power BI](https://support.powerbi.com) (https://support.powerbi.com) w celu uzyskania pomocy w zidentyfikowaniu i rozwiązaniu problemu.
+Jeśli problem z uruchomieniem programu **Power BI Desktop** nie jest związany z lokalną bramą danych lub jeśli powyższe rozwiązania nie działają, możesz przesłać zgłoszenie zdarzenia do [pomocy technicznej usługi Power BI](https://support.powerbi.com) (https://support.powerbi.com)) w celu uzyskania pomocy w zidentyfikowaniu i rozwiązaniu problemu.
 
 W przypadku innych problemów, które mogą występować w przyszłości w związku z używaniem programu **Power BI Desktop** (mamy nadzieję, że ich nie będzie wcale lub że będzie ich niewiele), warto włączyć śledzenie i zbierać pliki dziennika, aby umożliwić lepsze identyfikowanie problemów. Aby włączyć śledzenie, wybierz kolejno pozycje **Plik > Opcje i ustawienia > Opcje**, a następnie wybierz opcję **Diagnostyka** i zaznacz pole **Włącz śledzenie** w obszarze *Opcje diagnostyczne*. Zdajemy sobie sprawę, że aby włączenie tej opcji było możliwe, program **Power BI Desktop** musi być uruchomiony, a więc może się to przydać raczej w przypadku ewentualnych problemów związanych z uruchomieniem programu **Power BI Desktop** w przyszłości.
 
