@@ -1,6 +1,6 @@
 ## <a name="faq"></a>Często zadawane pytania
-**Pytanie:** Co w sytuacji, gdy role/reguły dla zestawu danych zostały utworzone wcześniej w usłudze Power BI? Czy nadal będą działały, jeśli nic nie zrobię?  
-**Odpowiedź:** Nie. Wizualizacje nie będą poprawnie renderowane. Musisz utworzyć ponownie role/reguły w programie Power BI Desktop, a następnie opublikować je w usłudze Power BI.
+**Pytanie:** Co w sytuacji, gdy role i reguły dla zestawu danych zostały utworzone wcześniej w usłudze Power BI? Czy nadal będą działały, jeśli nic nie zrobię?  
+**Odpowiedź:** Nie. Wizualizacje nie będą poprawnie renderowane. Musisz utworzyć ponownie role i reguły w programie Power BI Desktop, a następnie opublikować je w usłudze Power BI.
 
 **Pytanie:** Czy mogę utworzyć te role dla źródeł danych usług Analysis Services?  
 **Odpowiedź:** Możesz, jeśli dane zostały zaimportowane do programu Power BI Desktop. Jeśli używasz połączenia na żywo, nie możesz skonfigurować zabezpieczeń na poziomie wiersza w usłudze Power BI. Są one definiowane w modelu usług Analysis Services lokalnie.

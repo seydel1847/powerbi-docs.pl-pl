@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 04/23/2018
 ms.author: maggies
-ms.openlocfilehash: eeb6fe244057f10e33936c475f753cfba95deed8
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: 381cfeaf8e117cfdc952e361cd0e6cb633b65f47
+ms.sourcegitcommit: 773ba0d1cc1d1fcee8e666e1c20450f5e343c5c1
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/10/2018
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Co nowego w aplikacjach mobilnych dla usługi Power BI
 Powiązane nowości są dostępne w następujących artykułach:
@@ -271,7 +271,7 @@ Przeczytaj [podsumowanie funkcji aplikacji mobilnych Power BI z listopada 2016 
 #### <a name="android-devices"></a>Urządzenia z systemem Android
 **Wersja zapoznawcza: zarządzanie aplikacjami mobilnymi w usłudze Intune** Obsługa Menedżera aplikacji mobilnych usługi Microsoft Intune (MAM) w usłudze Power BI jest teraz dostępna w wersji zapoznawczej dla użytkowników usługi Power BI Pro korzystających z urządzeń z systemem Android. 
 
-**Ulubione** Możesz tagować ulubione pulpity nawigacyjne na urządzeniu z systemem Android i wygodnie korzystać ze wszystkich [ulubionych pulpitów nawigacyjnych usługi Power BI oraz raportów dla urządzeń przenośnych i kluczowych wskaźników wydajności usług Reporting Services](mobile-android-tablet-app-get-started.md#view-your-favorite-dashboards-kpis-and-reports) zebranych w jednym miejscu. 
+**Ulubione** Możesz tagować ulubione pulpity nawigacyjne na urządzeniu z systemem Android i wygodnie korzystać ze wszystkich [ulubionych pulpitów nawigacyjnych usługi Power BI oraz raportów dla urządzeń przenośnych i kluczowych wskaźników wydajności usług Reporting Services](mobile-android-app-get-started.md#view-your-favorite-dashboards-kpis-and-reports) zebranych w jednym miejscu. 
 
 #### <a name="ios-devices"></a>Urządzenia z systemem iOS
 **Linki** Adresy URL w kafelkach i wizualizacjach są teraz aktywne, a strony otwierają się w przeglądarce.

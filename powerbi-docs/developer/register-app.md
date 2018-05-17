@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: e3d0e8b98135e232809cd2b5e3fc06827b1f480e
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: 6dad138407c80a1caab8b3aca4668504bdf2c382
+ms.sourcegitcommit: c29525cbac2e747edb4dd3a1841084bb0ce42582
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/08/2018
 ---
 # <a name="register-an-azure-ad-app-to-embed-power-bi-content"></a>Rejestrowanie aplikacji usługi Azure AD, aby osadzić zawartość usługi Power BI
 Dowiedz się, jak zarejestrować aplikację w usłudze Azure Active Directory (Azure AD), a następnie użyć jej w celu osadzenia zawartości usługi Power BI.
@@ -71,9 +71,6 @@ Oto sposób rejestrowania aplikacji za pomocą narzędzia rejestrowania aplikacj
 * Wybierz pozycję **Wymagane uprawnienia**.
 * Wybierz pozycję **Usługa Power BI**, aby zweryfikować uprawnienia wybrane w witrynie rejestracji aplikacji.
 * Wybierz pozycję **Udziel uprawnień**.
-
-
-
 
 Teraz możesz używać zarejestrowanej aplikacji jako części aplikacji niestandardowej na potrzeby interakcji z usługą Power BI.
 

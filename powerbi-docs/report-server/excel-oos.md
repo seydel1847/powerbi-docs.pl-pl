@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: f2ff2b695ca548572294a4705235ae1c2b0046c5
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: 06783c6e5eabd04a1adc955e5f43521337b748eb
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>Konfigurowanie serwera raportów do hostowania skoroszytów programu Excel przy użyciu programu Office Online Server (OOS)
 Oprócz wyświetlania raportów usługi Power BI w portalu internetowym, serwer raportów usługi Power BI może hostować skoroszyty programu Excel przy użyciu programu [Office Online Server](https://docs.microsoft.com/officeonlineserver/office-online-server-overview) (OOS). Serwer raportów staje się jedną lokalizacją do publikowania i wyświetlania samoobsługowej zawartości usługi Microsoft BI.
@@ -176,7 +176,7 @@ Po wprowadzeniu adresu URL odnajdywania i wybraniu przycisku **Zastosuj** wybran
 
 ## <a name="next-steps"></a>Następne kroki
 [Podręcznik administratora](admin-handbook-overview.md)  
-[Szybki start: instalowanie serwera raportów usługi Power BI](quickstart-install-report-server.md)  
+[Instalacja serwera raportów usługi Power BI](install-report-server.md)  
 [Instalowanie programu Report Builder](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
 [Pobieranie programu SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)
 

@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: d321d70fe201af500feb35ef4e5ea1df6cc558f0
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: 2f5ca353d26b83a8c8cce5356724b351cb9d1621
+ms.sourcegitcommit: 9fa954608e78dcdb8d8a503c3c9b01c43ca728ab
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/11/2018
 ---
 # <a name="troubleshooting-power-bi-gateway---personal"></a>Rozwiązywanie problemów z bramą Power BI Gateway – Personal
 W tym temacie przedstawiono niektóre typowe problemy, które mogą wystąpić w przypadku korzystania z bramy Power BI Gateway — Personal.
@@ -76,11 +76,11 @@ Ten błąd może wystąpić w obszarze ustawień dla \<zestawu danych\>, jeśli 
 
 **Błąd: [nie można połączyć danych] &lt;część_zapytania&gt;/&lt;...&gt;/&lt;...&gt; uzyskuje dostęp do źródeł danych z poziomami prywatności, które nie mogą być używane razem. Skompiluj ponownie tę kombinację danych.**
 
-**Rozwiązanie**: ten błąd występuje z powodu ograniczeń dotyczących poziomów prywatności i używanych typów źródeł danych. [Dowiedz się więcej](refresh-enable-fast-combine.md)
+**Rozwiązanie**: ten błąd występuje z powodu ograniczeń dotyczących poziomów prywatności i używanych typów źródeł danych.
 
 **Błąd: błąd źródła danych: nie można przekonwertować wartości „\[Tabela\]” na typ Tabela.**
 
-**Rozwiązanie**: ten błąd występuje z powodu ograniczeń dotyczących poziomów prywatności i używanych typów źródeł danych. [Dowiedz się więcej](refresh-enable-fast-combine.md)
+**Rozwiązanie**: ten błąd występuje z powodu ograniczeń dotyczących poziomów prywatności i używanych typów źródeł danych.
 
 **Błąd: za mało miejsca dla tego wiersza.**
 
@@ -156,5 +156,5 @@ Możesz również przejść do **folderu Temp** (%temp%) i poszukać plików, kt
 [Power BI Gateway — Personal](personal-gateway.md)  
 [Rozwiązywanie problemów z błędami kafelków](refresh-troubleshooting-tile-errors.md)  
 [Rozwiązywanie problemów z lokalną bramą danych](service-gateway-onprem-tshoot.md)  
-Więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
+Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
 

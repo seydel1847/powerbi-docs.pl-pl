@@ -3,13 +3,13 @@ Po utworzeniu roli możesz przetestować jej wyniki w programie Power BI Desktop
 
 ![](./media/rls-desktop-view-as-roles/powerbi-desktop-rls-view-as-roles.png)
 
-Zostanie otwarte okno dialogowe **Wyświetlanie jako role** umożliwiające zmianę widoku elementów wyświetlanych w przypadku konkretnego użytkownika lub roli. Zostaną wyświetlone utworzone przez Ciebie role.
+Zostanie otwarte okno dialogowe **Wyświetlanie jako role** umożliwiające zmianę widoku elementów wyświetlanych w przypadku konkretnego użytkownika lub roli. Są w nim wyświetlane utworzone przez Ciebie role.
 
 ![](./media/rls-desktop-view-as-roles/powerbi-desktop-rls-view-as-roles-dialog.png)
 
-Wybierz utworzoną przez Ciebie rolę, a następnie wybierz pozycję **OK**, aby zastosować tę rolę do wyświetlanych elementów. W raportach będą renderowane tylko dane istotne dla tej roli.
+Wybierz utworzoną przez Ciebie rolę, a następnie wybierz pozycję **OK**, aby zastosować tę rolę do wyświetlanych elementów. W raportach będą odzwierciedlane tylko dane istotne dla tej roli.
 
-Możesz również wybrać pozycję Inny użytkownik i podać użytkownika. Najlepiej podać nazwę główną użytkownika (UPN), ponieważ to jej używa usługa Power BI. Wybierz pozycję **OK**. Raporty będą renderowane w oparciu o elementy widoczne dla tego użytkownika. 
+Możesz również wybrać pozycję **Inny użytkownik** i podać użytkownika. Najlepiej podać nazwę główną użytkownika (UPN), ponieważ to jej używa usługa Power BI. Wybierz pozycję **OK**. Raporty będą generowane w oparciu o elementy widoczne dla tego użytkownika. 
 
 ![](./media/rls-desktop-view-as-roles/powerbi-desktop-rls-other-user.png)
 

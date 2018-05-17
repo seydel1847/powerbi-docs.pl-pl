@@ -1,28 +1,28 @@
 ---
-title: "Platforma Azure i usługa Power BI"
-description: "Platforma Azure i usługa Power BI"
+title: Platforma Azure i usługa Power BI
+description: Platforma Azure i usługa Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data from databases
-ms.openlocfilehash: f07abb6b878ba96c1e5a84168ded6e466c8fb18e
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 9e4685174c5489b898777383925d601dd44fea39
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="azure-and-power-bi"></a>Platforma Azure i usługa Power BI
 Za pomocą usług platformy **Azure** i usługi **Power BI** możesz przekształcić nakłady na przetwarzanie danych w analizy i raporty, które zapewniają szczegółowe informacje o Twojej firmie w czasie rzeczywistym. Bez względu, czy przetwarzanie danych jest oparte na chmurze, czy też lokalne, bezpośrednie lub złożone, z jednym źródłem lub skalowane do ogromnych rozmiarów, oparte na magazynie lub czasie rzeczywistym, platforma Azure i usługa Power BI mają wbudowane łączności i integrację w celu ożywienia wysiłków analizy biznesowej.

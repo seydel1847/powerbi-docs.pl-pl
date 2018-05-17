@@ -1,15 +1,15 @@
 ---
-title: "Wymagania sprzętowe i programowe dotyczące instalowania serwera raportów usługi Power BI"
-description: "Ten artykuł zawiera minimalne wymagania dotyczące sprzętu i oprogramowania, które trzeba spełnić, aby zainstalować i uruchomić serwer raportów usługi Power BI."
+title: Wymagania sprzętowe i programowe dotyczące instalowania serwera raportów usługi Power BI
+description: Ten artykuł zawiera minimalne wymagania dotyczące sprzętu i oprogramowania, które trzeba spełnić, aby zainstalować i uruchomić serwer raportów usługi Power BI.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: 44a1af1553aaa28a5f4abab13bad1fafa040003a
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 26710c6a19ea4f9389718bea51ffff82dfadd3eb
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>Wymagania sprzętowe i programowe dotyczące instalowania serwera raportów usługi Power BI
 Ten artykuł zawiera minimalne wymagania dotyczące sprzętu i oprogramowania, które trzeba spełnić, aby zainstalować i uruchomić serwer raportów usługi Power BI.
@@ -76,7 +76,7 @@ W przypadku wystąpień tabelarycznych lub wielowymiarowych można używać poł
 ## <a name="next-steps"></a>Następne kroki
 [Podręcznik użytkownika](user-handbook-overview.md)  
 [Podręcznik administratora](admin-handbook-overview.md)  
-[Szybki start: instalowanie serwera raportów usługi Power BI](quickstart-install-report-server.md)  
+[Instalacja serwera raportów usługi Power BI](install-report-server.md)  
 [Instalowanie programu Report Builder](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
 [Pobieranie programu SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)
 

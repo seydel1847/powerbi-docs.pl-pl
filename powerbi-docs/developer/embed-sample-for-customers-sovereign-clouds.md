@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 03/28/2018
 ms.author: maghan
-ms.openlocfilehash: bef0748f1431a29c96d7aa23ab457683e247724a
-ms.sourcegitcommit: e571de2afa3f34fac06a6aab0df0e8940cb00a0d
+ms.openlocfilehash: 5d0d679a9b5d3bea494915dc981e155ad69eeac6
+ms.sourcegitcommit: 1c7780e0dfe0b6b8322e6fafdd0693177db455d2
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 05/14/2018
 ---
 # <a name="embed-a-power-bi-dashboard-tile-or-report-into-your-application-for-sovereign-clouds"></a>Osadzanie pulpitu nawigacyjnego, kafelka lub raportu usługi Power BI w aplikacji dla suwerennych chmur
 Dowiedz się, jak integrować lub osadzać pulpit nawigacyjny, kafelek albo raport w aplikacji internetowej przy użyciu zestawu .NET SDK usługi Power BI wraz z interfejsem API języka JavaScript programu Power BI podczas osadzania dla klientów. Jest to zwykle scenariusz niezależnego dostawcy oprogramowania.
@@ -38,7 +38,7 @@ Usługa Power BI obsługuje również suwerenne (prywatne) chmury. Każda suwere
 
 ![Osadzony pulpit nawigacyjny](media/embed-sample-for-customers/powerbi-embed-dashboard.png)
 
-Do rozpoczęcia pracy z tym przewodnikiem jest wymagane **konto usługi Power BI**. Jeśli nie masz skonfigurowanego konta, w zależności od typu instytucji rządowych możesz [utworzyć nowe konto usługi Power BI dla instytucji rządowej USA](../service-govus-signup.md) lub [konto usługi Power BI for Germany Cloud](https://powerbi.microsoft.com/en-us/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1).
+Do rozpoczęcia pracy z tym przewodnikiem jest wymagane **konto usługi Power BI**. Jeśli nie masz skonfigurowanego konta, w zależności od typu instytucji rządowych możesz [utworzyć nowe konto usługi Power BI dla instytucji rządowej USA](../service-govus-signup.md) lub [konto usługi Power BI for Germany Cloud](https://powerbi.microsoft.com/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1).
 
 > [!NOTE]
 > Chcesz osadzić pulpit nawigacyjny dla swojej organizacji? Zobacz [Integrate a dashboard into an app for your organization (Integrowanie pulpitu nawigacyjnego z aplikacją dla organizacji)](integrate-dashboard.md).
@@ -407,10 +407,10 @@ Próbka takiej aplikacji jest dostępna w [próbce osadzania dla organizacji](ht
 
 * Przykładowa aplikacja jest dostępna w witrynie GitHub do przeglądu. Powyższe przykłady są oparte na tym przykładzie. Aby uzyskać więcej informacji, zobacz [próbkę osadzania dla organizacji](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data).
 * Aby uzyskać więcej informacji na temat interfejsu API języka JavaScript, zapoznaj się z tematem dotyczącym [interfejsu API języka JavaScript w usłudze Power BI](https://github.com/Microsoft/PowerBI-JavaScript).
-* Aby uzyskać więcej informacji o usłudze Power BI for Germany Cloud, zapoznaj się z tematem [Usługa Power BI for Germany Cloud — często zadawane pytania](https://docs.microsoft.com/en-us/power-bi/service-govde-faq)
+* Aby uzyskać więcej informacji o usłudze Power BI for Germany Cloud, zapoznaj się z tematem [Usługa Power BI for Germany Cloud — często zadawane pytania](https://docs.microsoft.com/power-bi/service-govde-faq)
 * [Jak migrować zawartość kolekcji obszarów roboczych usługi Power BI do usługi Power BI](migrate-from-powerbi-embedded.md)
 
 Ograniczenia i istotne zagadnienia
 * Obecnie konta GCC obsługują tylko możliwości P i EM
 
-Więcej pytań? [Zadaj pytanie społeczności usługi Power BI](http://community.powerbi.com/)
+Masz więcej pytań? [Zadaj pytanie społeczności usługi Power BI](http://community.powerbi.com/)

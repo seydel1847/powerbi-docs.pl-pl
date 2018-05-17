@@ -1,15 +1,15 @@
 ---
-title: "Samouczek: błyskawiczne doskonałe raporty na podstawie skoroszytów programu Excel"
-description: "Samouczek: błyskawiczne doskonałe raporty na podstawie skoroszytów programu Excel"
+title: Błyskawiczne doskonałe raporty na podstawie skoroszytów programu Excel
+description: Błyskawiczne doskonałe raporty na podstawie skoroszytów programu Excel
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Data from files
-ms.openlocfilehash: 64872b94d13f30cbab08d67530cc6ae0ccbe8fc3
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 849511476200d401432fdcc2ad88ec2930448bf9
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="from-excel-workbook-to-stunning-report-in-no-time"></a>Błyskawiczne doskonałe raporty na podstawie skoroszytów programu Excel
 Twój kierownik chce zobaczyć raport o najnowszych wynikach sprzedaży połączony z wrażeniami z ostatniej kampanii do końca dnia. Ale najnowsze dane znajdują się w różnych systemach innych firm i w plikach na Twoim laptopie. W przeszłości trzeba było poświęcić godziny na tworzenie elementów wizualnych i formatowanie raportu. Zaczynasz się niepokoić.

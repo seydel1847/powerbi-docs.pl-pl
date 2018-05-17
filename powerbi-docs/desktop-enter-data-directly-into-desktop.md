@@ -1,28 +1,28 @@
 ---
-title: "Wprowadzanie danych bezpośrednio w programie Power BI Desktop"
-description: "Z łatwością dodawaj dane bezpośrednio do programu Power BI Desktop"
+title: Wprowadzanie danych bezpośrednio w programie Power BI Desktop
+description: Z łatwością dodawaj dane bezpośrednio do programu Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 09dc9de858da04084204d68d6829f59500e9fa10
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 7a8fde71db651a39920110f72d5d26b2faefd1c0
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="enter-data-directly-into-power-bi-desktop"></a>Wprowadzanie danych bezpośrednio w programie Power BI Desktop
 W programie Power BI Desktop możesz bezpośrednio wprowadzać dane i używać tych danych w raportach i wizualizacjach. Możesz na przykład skopiować fragmenty skoroszytu lub strony internetowej, a następnie wkleić je do programu Power BI Desktop.

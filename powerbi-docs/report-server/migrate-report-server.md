@@ -1,15 +1,15 @@
 ---
-title: "Migrowanie instalacji serwera raportów"
-description: "Dowiedz się, jak przeprowadzić migrację istniejącego wystąpienia usług SQL Server Reporting Services do wystąpienia Serwera raportów usługi Power BI."
+title: Migrowanie instalacji serwera raportów
+description: Dowiedz się, jak przeprowadzić migrację istniejącego wystąpienia usług SQL Server Reporting Services do wystąpienia Serwera raportów usługi Power BI.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/05/2017
 ms.author: maghan
-ms.openlocfilehash: 67fe876bb9de92cc7f4c0c140f7c016f01216cdd
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 9983956ccb33cc9c45fd1ac316fb74d07eb3acf5
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="migrate-a-report-server-installation"></a>Migrowanie instalacji serwera raportów
 Dowiedz się, jak przeprowadzić migrację istniejącego wystąpienia usług SQL Server Reporting Services (SSRS) do wystąpienia Serwera raportów usługi Power BI.
@@ -107,7 +107,7 @@ Migracja z jednego Serwera raportów usługi Power BI na inny obejmuje takie sam
 
 ## <a name="next-steps"></a>Następne kroki
 [Podręcznik administratora](admin-handbook-overview.md)  
-[Szybki start: instalowanie serwera raportów usługi Power BI](quickstart-install-report-server.md)  
+[Instalacja serwera raportów usługi Power BI](install-report-server.md)  
 [Korzystanie ze skryptów przy użyciu narzędzia rs.exe i usługi internetowej](https://docs.microsoft.com/sql/reporting-services/tools/script-with-the-rs-exe-utility-and-the-web-service)
 
 Masz więcej pytań? [Zadaj pytanie społeczności usługi Power BI](https://community.powerbi.com/)

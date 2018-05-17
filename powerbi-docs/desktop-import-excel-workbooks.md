@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 247b8dca825f3e98de02207ba6d146e1aacd7580
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: e8937efdc646d38942ffc7f0b216103fdcf053cb
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="import-excel-workbooks-into-power-bi-desktop"></a>Importowanie skoroszytów programu Excel do programu Power BI Desktop
 Do programu **Power BI Desktop** można łatwo importować skoroszyty programu Excel zawierające zapytania dodatku Power Query, modele dodatku Power Pivot i arkusze programu Power View. Na podstawie skoroszytu programu Excel są automatycznie tworzone raporty i wizualizacje, a po zaimportowaniu zawartości można ulepszać i dostosowywać te raporty za pomocą programu Power BI Desktop, korzystając z istniejących funkcji i nowych funkcji publikowanych w każdej comiesięcznej aktualizacji programu Power BI Desktop.

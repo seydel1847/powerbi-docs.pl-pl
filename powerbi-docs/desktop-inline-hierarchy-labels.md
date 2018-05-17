@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 974194cb04701e2dc21814a0945227ad9c4b770c
-ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
+ms.openlocfilehash: 67e0008383147763654d8e3a053384d28f4a57f7
+ms.sourcegitcommit: 50016425005d2e929c8c606c2d0d393342e05d39
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/04/2018
+ms.lasthandoff: 05/12/2018
 ---
 # <a name="use-inline-hierarchy-labels-in-power-bi-desktop"></a>Używanie etykiet hierarchii wbudowanych w programie Power BI Desktop
 Program **Power BI Desktop** obsługuje **etykiety hierarchii wbudowanych**. Jest to pierwsza z dwóch funkcji mających na celu ulepszenie hierarchicznego przechodzenia do szczegółów. Druga funkcja, która jest aktualnie opracowywana, to możliwość używania etykiet hierarchii zagnieżdżonych (śledź nasze aktualizacje, ponieważ są one częste).   
@@ -30,35 +30,41 @@ Program **Power BI Desktop** obsługuje **etykiety hierarchii wbudowanych**. Jes
 ## <a name="how-inline-hierarchy-labels-work"></a>Jak działają etykiety hierarchii wbudowanych
 Etykiety hierarchii wbudowanych pozwalają na wyświetlanie etykiet hierarchii podczas rozwijania wizualizacji przy użyciu funkcji **Rozwiń wszystko**. Jedną z głównych korzyści wyświetlania tych etykiet hierarchii jest możliwość **sortowania** według tych różnych etykiet hierarchii po rozwinięciu danych hierarchicznych.
 
-### <a name="using-the-built-in-expand-all-feature-without-sorting-by-hierarchy-labels"></a>Korzystanie z wbudowanej funkcji Rozwiń wszystko (bez sortowania według etykiet hierarchii)
-Zanim sprawdzimy, jak działają etykiety hierarchii wbudowanych, omówimy zachowanie domyślnej funkcji **Rozwiń wszystko**. To pomoże nam zrozumieć (i docenić), jak użyteczne mogą być etykiety hierarchii wbudowanych.
+### <a name="using-the-built-in-expand-feature-without-sorting-by-hierarchy-labels"></a>Korzystanie z wbudowanej funkcji Rozwiń (bez sortowania według etykiet hierarchii)
+Zanim sprawdzimy, jak działają etykiety hierarchii wbudowanych, omówimy działanie domyślnej funkcji **Rozwiń do następnego poziomu**. To pomoże nam zrozumieć (i docenić), jak użyteczne mogą być etykiety hierarchii wbudowanych.
 
-Na poniższej ilustracji przedstawiono wizualizację wykresu słupkowego dla sprzedaży rocznej. Po kliknięciu prawym przyciskiem myszy można wybrać polecenie **Rozwiń wszystko**.
+Na poniższej ilustracji przedstawiono wizualizację wykresu słupkowego dla sprzedaży rocznej. Po kliknięciu prawym przyciskiem myszy na pasku możesz wybrać polecenie **Rozwiń do następnego poziomu**.
 
-![](media/desktop-inline-hierarchy-labels/inlinehierarchy_4.png)
+![Rozwijanie menu kontekstowego](media/desktop-inline-hierarchy-labels/desktop-inline-hierarchy-labels-menu.png)
 
-Gdy polecenie **Rozwiń wszystko** zostanie wybrane, wizualizacja rozwija hierarchię dat z poziomu *Year* (Rok) do poziomu *Quarter* (Kwartał), jak pokazano na poniższej ilustracji.
+> [!NOTE]
+> Zamiast klikać prawym przyciskiem myszy na pasku, możesz też wybrać przycisk *Rozwiń* w lewym górnym rogu wizualizacji.
 
-![](media/desktop-inline-hierarchy-labels/inlinehierarchy_5.png)
+  ![Przycisk Rozwiń](media/desktop-inline-hierarchy-labels/desktop-inline-hierarchy-labels-expand-button-finger.png)
 
-Zwróć uwagę, że etykiety *Year* i *Quarter* są pokazywane w tekście razem... Ten schemat etykietowania jest kontynuowany podczas używania polecenia **Rozwiń wszystko** aż do końca hierarchii.
 
-![](media/desktop-inline-hierarchy-labels/inlinehierarchy_6.png)
+Po wybraniu polecenia **Rozwiń do następnego poziomu** hierarchia dat na wizualizacji zostanie rozwinięta z poziomu *Year* (Rok) do poziomu *Quarter* (Kwartał), jak pokazano na poniższej ilustracji.
+
+![Wizualizacja rozwinięta do poziomu roku i kwartału](media/desktop-inline-hierarchy-labels/desktop-inline-hierarchy-labels-qty-year-quarter.png)
+
+Zwróć uwagę, że etykiety *Year* i *Quarter* są pokazywane w tekście razem — ten schemat etykietowania jest kontynuowany w przypadku użycia polecenia **Rozwiń wszystko** w celu rozwinięcia do końca hierarchii.
+
+![Wizualizacja rozwinięta do poziomu roku, kwartału i miesiąca](media/desktop-inline-hierarchy-labels/desktop-inline-hierarchy-labels-qty-year-quarter-month.png)
 
 Tak się zachowuje hierarchia *Date*, skojarzona z polami o typie danych *data/godzina*. Przejdźmy do następnej sekcji i zobaczmy, czym różni się nowa funkcja etykiet hierarchii wbudowanych.
 
 ### <a name="using-inline-hierarchy-labels"></a>Używanie etykiet hierarchii wbudowanych
-Teraz przyjrzyjmy się innemu wykresowi — z danymi o hierarchii nieformalnej. Poniższa wizualizacja przedstawia wykres słupkowy z danymi kwoty sprzedaży **Sales Amount**, gdzie osią jest *Color*. W tych danych osie *Color* (Kolor) i *Class* (Klasa) tworzą hierarchię nieformalną. W tym miejscu można ponownie wybrać polecenie *Rozwiń wszystko*, aby przejść do szczegółów hierarchii.
+Teraz przyjrzyjmy się innemu wykresowi — z danymi o hierarchii nieformalnej. Poniższa wizualizacja przedstawia wykres słupkowy ilości **Quantity**, gdzie osią jest nazwa produktu *ProductName*. W tym zestawie danych nazwa produktu *ProductName* i kraj wysyłki *ShipCountry* tworzą hierarchię nieformalną. W tym miejscu można ponownie wybrać polecenie *Rozwiń do następnego poziomu*, aby przejść do szczegółów hierarchii.
 
-![](media/desktop-inline-hierarchy-labels/inlinehierarchy_7.png)
+![Wykres z hierarchią nieformalną](media/desktop-inline-hierarchy-labels/desktop-inline-hierarchy-labels-informal-top-expand.png)
 
-Wybranie polecenia **Rozwiń wszystko** powoduje pokazanie następnego poziomu i wyświetlenie w tekście etykiet hierarchii. Domyślnie hierarchie wbudowane są sortowane według wartości miary — w tym przypadku jest to wartość **SalesAmount**. Po włączeniu etykiet hierarchii wbudowanych można posortować te dane także według hierarchii, wybierając wielokropek w prawym górnym rogu (**...**), a następnie wybierając pozycję **Sortuj według > Color Class**, jak pokazano na poniższej ilustracji.
+Wybranie polecenia **Rozwiń do następnego poziomu** powoduje pokazanie następnego poziomu i wyświetlenie w tekście etykiet hierarchii. Domyślnie hierarchie wbudowane są sortowane według wartości miary — w tym przypadku jest to wartość **Quantity**. Po włączeniu etykiet hierarchii wbudowanych można posortować te dane także według hierarchii, wybierając wielokropek w prawym górnym rogu (**...**), a następnie wybierając pozycję **Sortuj według > ProductName, ShipCountry**, jak pokazano na poniższej ilustracji.
 
-![](media/desktop-inline-hierarchy-labels/inlinehierarchy_8.png)
+![Domyślnie posortowany wykres z hierarchią nieformalną](media/desktop-inline-hierarchy-labels/desktop-inline-hierarchy-labels-informal-sort-quantity.png)
 
-Po wybraniu opcji **Color Class** dane są sortowane według wyboru hierarchii nieformalnej, jak pokazano na poniższej ilustracji.
+Po wybraniu opcji **ShipCountry** dane są sortowane według wyboru hierarchii nieformalnej, jak pokazano na poniższej ilustracji.
 
-![](media/desktop-inline-hierarchy-labels/inlinehierarchy_9.png)
+![Wykres z hierarchią nieformalną posortowany według hierarchii nieformalnej](media/desktop-inline-hierarchy-labels/desktop-inline-hierarchy-labels-informal-sorted.png)
 
 > [!NOTE]
 > Funkcja etykiet hierarchii wbudowanych nie umożliwia jeszcze sortowania wbudowanej hierarchii czasu według wartości — jest ona sortowana tylko według kolejności hierarchii.

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 03/19/2018
 ms.author: maggies
-ms.openlocfilehash: 995b1aab5547369ef9c4ceebae3f69c268107164
-ms.sourcegitcommit: 0473a155495a7a9ba4b899d0815100426718b7ac
+ms.openlocfilehash: dd6ab0afdb171a1cdb1267adee8bb1c411596dff
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/20/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="support-timeline-for-power-bi-report-server"></a>Plan pomocy technicznej dla serwera raportów usługi Power BI
 Serwer raportów usługi Power BI będzie wydawany kilka razy w roku. Aktualizacje zabezpieczeń i aktualizacje krytyczne będą dostępne do momentu, w którym kolejne wydanie stanie się ogólnie dostępne (GA). Po wydaniu następnej wersji poprzednie wydanie będzie otrzymywać aktualizacje zabezpieczeń przez pozostałą część 12-miesięcznego cyklu życia wersji.
@@ -38,7 +38,7 @@ Te zasady pomocy technicznej umożliwiają nam wdrażanie innowacji dla klientó
 | --- | --- | --- |
 | Czerwiec 2017 |12 czerwca 2017 r. |12 czerwca 2018 r. |
 | Październik 2017 |31 października 2017 r. |31 października 2018 r. |
-| Marzec 2018 r. | 19 marca 2018 r. | 19 marca 2019 r. |
+| Marzec 2018 | 19 marca 2018 r. | 19 marca 2019 r. |
 
 Aby pobrać serwer raportów usługi Power BI i program Power BI Desktop zoptymalizowany pod kątem serwera raportów usługi Power BI, przejdź do [Lokalne raportowanie za pomocą serwera raportów usługi Power BI](https://powerbi.microsoft.com/report-server/).
 
@@ -46,7 +46,7 @@ Aby pobrać serwer raportów usługi Power BI i program Power BI Desktop zoptyma
 [Co nowego w serwerze raportów usługi Power BI](whats-new.md)  
 [Podręcznik użytkownika](user-handbook-overview.md)  
 [Podręcznik administratora](admin-handbook-overview.md)  
-[Szybki start: instalowanie serwera raportów usługi Power BI](quickstart-install-report-server.md)  
+[Instalacja serwera raportów usługi Power BI](install-report-server.md)  
 
 Masz więcej pytań? [Zadaj pytanie społeczności usługi Power BI](https://community.powerbi.com/)
 
