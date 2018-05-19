@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: d9500f2c3d385e96b9133a3b634fe06f9769936e
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: f1b92cf370dfdfdbeadd71ee954030aa8a79d338
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop-and-power-bi-service"></a>Porady i wskazówki dotyczące tworzenia raportów w programie Power BI Desktop i usłudze Power BI
 Aby maksymalnie wykorzystać dane, czasami przydaje się trochę pomocy. Przygotowaliśmy kilka porad i wskazówek, z których można korzystać podczas tworzenia raportów w programie Microsoft Power BI Desktop, usłudze Power BI *oraz* programie Microsoft Excel 2016 albo w wersjach Excel 2013 Pro-Plus z włączonym dodatkiem Power Pivot oraz z zainstalowanym i włączonym dodatkiem Power Query.
@@ -166,7 +166,7 @@ Czasami przydatne jest obliczenie statystyk podsumowujących dla zestawu danych.
 ### <a name="using-dax-for-the-first-time"></a>Korzystanie z języka DAX po raz pierwszy
 DAX to język formuł obliczeń w programie Power BI Desktop.  Jest zoptymalizowany pod kątem analiz BI.  Różni się nieco od języków, do których przyzwyczajeni są użytkownicy języków zapytań podobnych do SQL. W sieci oraz w literaturze dostępne są bardzo dobre zasoby do nauki języka DAX.
 
-[Szybki start: Podstawy języka DAX w programie Power BI Desktop](desktop-quickstart-learn-dax-basics.md)
+[Podstawy języka DAX w programie Power BI Desktop](desktop-quickstart-learn-dax-basics.md)
 
 [Data Analysis Expressions (DAX) — kompendium](https://msdn.microsoft.com/library/gg413422.aspx)
 

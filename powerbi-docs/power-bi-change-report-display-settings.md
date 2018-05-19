@@ -1,15 +1,15 @@
 ---
-title: Zmiana rozmiaru strony raportu (samouczek)
-description: "Samouczek: zmienianie ustawień wyświetlania strony w raporcie usługi Power BI"
+title: Zmiana rozmiaru strony raportu
+description: Zmienianie ustawień wyświetlania strony w raporcie usługi Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: modifying
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,13 +18,13 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 9ec589655a3dc9b3e19def76cee2f20c48a512b2
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 8381f3100676b6e20f7fb748045c4852b30c45b9
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/07/2018
 ---
-# <a name="change-the-size-of-a-report-page-tutorial"></a>Zmiana rozmiaru strony raportu (samouczek)
+# <a name="change-the-size-of-a-report-page"></a>Zmiana rozmiaru strony raportu
 W [poprzednim artykule i filmie wideo](power-bi-report-display-settings.md) omówiliśmy dwa różne sposoby kontrolowania wyświetlania strony w raportach usługi Power BI: **Widok** i **Rozmiar strony**. Pozycje Widok strony i Rozmiar strony są dostępne zarówno w usłudze Power BI, jak i w programie Power BI Desktop, a ich wygląd i funkcje są prawie takie same. W tym samouczku używamy usługi Power BI.
 
 ### <a name="prerequisites"></a>Wymagania wstępne
@@ -121,4 +121,4 @@ W poprzednim kroku zobaczyliśmy, że nasza strona raportu była wyświetlana w 
 
 Powrót do [Ustawienia wyświetlania strony w raporcie usługi Power BI](power-bi-report-display-settings.md)
 
-Więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
+Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)

@@ -1,6 +1,6 @@
 ---
-title: Szybki start — wprowadzenie do funkcji pytań i odpowiedzi w usłudze Power BI
-description: 'Szybki start: wprowadzenie do funkcji pytań i odpowiedzi w usłudze Power BI przy użyciu przykładu Retail Analysis'
+title: Wprowadzenie do pytań i odpowiedzi usługi Power BI
+description: Wprowadzenie do funkcji pytań i odpowiedzi w usłudze Power BI z użyciem przykładu Retail Analysis
 services: powerbi
 documentationcenter: ''
 author: mihart
@@ -18,13 +18,13 @@ ms.workload: powerbi
 ms.date: 01/16/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 0f4f56431fd0c667411c302f4f30f0c395269e4a
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: aa9b90521d2bf8df88676756135442a22277a4e8
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/07/2018
 ---
-# <a name="get-started-with-power-bi-qa-quickstart"></a>Wprowadzenie do funkcji pytań i odpowiedzi w usłudze Power BI (szybki start)
+# <a name="get-started-with-power-bi-qa"></a>Wprowadzenie do pytań i odpowiedzi usługi Power BI
 ## <a name="use-power-bi-qa-with-the-retail-analysis-sample"></a>Używanie funkcji pytań i odpowiedzi usługi Power BI z przykładem Retail Analysis
 Czasem najszybszym sposobem uzyskania odpowiedzi na podstawie danych jest zadanie pytania przy użyciu języka naturalnego.  W ramach tego podręcznika Szybki start rozpatrzymy 2 różne sposoby tworzenia tej samej wizualizacji: po pierwsze, wbudowanie jej do raportu i, po drugie, zadanie pytania za pomocą funkcji pytań i odpowiedzi. Użyjemy usługi Power BI, ale proces jest niemal identyczny w przypadku używania programu Power BI Desktop.
 
@@ -68,5 +68,5 @@ A może spróbujemy utworzyć ten sam wykres liniowy za pomocą funkcji pytań i
 
 [Dbanie o poprawne współdziałanie danych z funkcją pytań i odpowiedzi w usłudze Power BI](service-prepare-data-for-q-and-a.md)
 
-Więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
+Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
 

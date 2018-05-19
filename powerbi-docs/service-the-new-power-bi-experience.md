@@ -1,58 +1,49 @@
 ---
-title: "Poruszanie się po usłudze Power BI"
-description: "Omówienie środowiska nawigacji usługi Power BI"
+title: Poruszanie się po usłudze Power BI
+description: Omówienie środowiska nawigacji usługi Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
+backup: ''
 featuredvideoid: G26dr2PsEpk
-tags: 
-qualityfocus: no
-qualitydate: 
 ms.service: powerbi
 ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
+ms.topic: quickstart
+ms.component: powerbi-service
 ms.workload: powerbi
-ms.date: 02/28/2018
+ms.date: 05/07/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 82aedf3defc1a3154c884c18b90dc27195847e9a
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: 58b1125a894ff064942e61534db990587bdf9f2a
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 05/07/2018
 ---
-# <a name="getting-around-in-power-bi-service"></a>Poruszanie się po usłudze Power BI
-## <a name="the-left-navigation-pane"></a>Lewe okienko nawigacji
+# <a name="quickstart---getting-around-in-power-bi-service"></a>Szybki start — poruszanie się po usłudze Power BI
 
-![lewe okienko nawigacji](media/service-the-new-power-bi-experience/power-bi-navbar-bigger.png)
+Gdy znasz już podstawy używania **usługi Power BI**, możemy przyjrzeć się jej bliżej. Być może jedna z osób w Twoim zespole zajmuje się wyłącznie łączeniem danych i tworzeniem raportów w programie **Power BI Desktop**. Załóżmy z kolei, że Ty korzystasz tylko z usługi Power BI i przeglądasz zawartość utworzoną przez inne osoby oraz wchodzisz z nią w interakcję (w środowisku **korzystania**) albo pobierasz dane i tworzysz własne raporty oraz pulpity nawigacyjne (w środowisku **tworzenia**). W tym przewodniku Szybki start zaimportujesz przykładowe dane, a następnie ich użyjesz, aby dowiedzieć się, jak obsługiwać usługę Power BI. 
+ 
+## <a name="prerequisites"></a>Wymagania wstępne
 
-**Krótki przewodnik**
+- Jeśli nie masz konta usługi Power BI, na początku [zacznij korzystać z bezpłatnej wersji próbnej](https://app.powerbi.com/signupredirect?pbi_source=web).
 
-| Akcja | Nowa (bieżąca) ścieżka |
-| --- | --- | --- |
-| Dodawanie pulpitu nawigacyjnego lub raportu do ulubionych |Obszar roboczy > Pulpity nawigacyjne lub Obszar roboczy > Raporty, a następnie wybierz ikonę gwiazdki, aby zmieniła kolor na żółty |
-| Dodawanie aplikacji do ulubionych | Wybierz pozycję **Aplikacje** z okienka nawigacji po lewej stronie i wybierz gwiazdkę obok nazwy aplikacji
-| Wyświetlanie listy ulubionych |Wybierz pozycję **Ulubione** w lewym okienku nawigacji |
-| Wyświetlenie listy ostatnio odwiedzonych pulpitów nawigacyjnych i raportów |Wybierz pozycję **Ostatnie** w lewym okienku nawigacji |
-| Wyświetlenie listy pulpitów nawigacyjnych, które zostały Ci udostępnione |Wybierz pozycję **Udostępnione mi** w lewym okienku nawigacji |
-| Udostępnianie pulpitu nawigacyjnego |Otwórz pulpit nawigacyjny i wybierz pozycję **Udostępnij** lub utwórz i opublikuj aplikację |
-| Usunięcie pulpitu nawigacyjnego |Mój obszar roboczy > Pulpity nawigacyjne > ikona kosza na śmieci |
-| Usunięcie raportu |Mój obszar roboczy > Raporty > ikona kosza na śmieci |
-| Usunięcie zestawu danych |Mój obszar roboczy > Zestawy danych > ... > Usuń |
-| Otwarcie pulpitu nawigacyjnego |Obszar roboczy > Pulpity nawigacyjne > wybierz nazwę pulpitu nawigacyjnego |
-| Otwarcie raportu |Obszar roboczy > Raporty > wybierz nazwę raportu |
-| Otwarcie zestawu danych |Obszar roboczy > Zestawy danych > wybierz nazwę zestawu danych |
-| Utworzenie pulpitu nawigacyjnego |Na górnym pasku nawigacyjnym wybierz pozycję Utwórz > Pulpit nawigacyjny |
-| Utworzenie raportu |Na górnym pasku nawigacyjnym wybierz pozycję Utwórz > Raport |
-| Utworzenie zestawu danych |Na górnym pasku nawigacyjnym wybierz pozycję Utwórz > Zestaw danych |
-| Utworzenie aplikacji |Obszary robocze > Utwórz obszar roboczy aplikacji |
-| Wyświetlenie listy wszystkich pulpitów nawigacyjnych, raportów i zestawów danych, których jesteś właścicielem |Obszary robocze > Mój obszar roboczy |
+- Zapoznaj się z tematem [Usługa Power BI — podstawowe pojęcia](service-basic-concepts.md).
 
-## <a name="common-tasks"></a>Typowe zadania
+## <a name="open-power-bi-service-and-get-some-data"></a>Otwieranie usługi Power BI i pobieranie danych
+Pobierzemy przykładowe dane i użyjemy ich do zapoznania się z usługą Power BI. Udostępniamy wiele różnych typów przykładowych danych. Tym razem użyjemy zestawu dotyczącego sklepów detalicznych.    
+1. Otwórz stronę app.powerbi.com i wybierz link **Przykłady**. 
+
+    ![Otwieranie usługi Power BI po raz pierwszy](media/service-the-new-power-bi-experience/power-bi-new-user.png)
+
+2. Wybierz pozycję **Przykład Retail Analysis > Połącz**.
+
+    ![Wybieranie przykładu](media/service-the-new-power-bi-experience/power-bi-retail-sample.png)
+
+    Usługa Power BI zaimportuje przykład i wyświetli pulpit nawigacyjny. Pulpity nawigacyjne w usłudze Power BI są inne niż w programie Power BI Desktop. Ten przykład zawiera również raport i zestaw danych, które omówimy później.
+
+    ![](media/service-the-new-power-bi-experience/power-bi-dashboard.png)
 
 Obejrzyj Amandę pokazującą przewodnik obsługi nawigacji usługi Power BI.  Następnie wykonaj szczegółowe instrukcje poniżej klipu wideo, aby eksplorować nowy interfejs samodzielnie.
 
@@ -60,16 +51,28 @@ Obejrzyj Amandę pokazującą przewodnik obsługi nawigacji usługi Power BI.  N
 
 
 ## <a name="view-content-dashboards-reports-workbooks-datasets-workspaces-apps"></a>Wyświetlanie zawartości (pulpitów nawigacyjnych, raportów, skoroszytów, zestawów danych, obszarów roboczych i aplikacji).
-Najpierw przyjrzymy się sposobowi zorganizowania podstawowych typów zawartości (pulpitów nawigacyjnych, raportów, zestawów danych, skoroszytów). Wcześniej cała zawartość była przedstawiona w lewym okienku nawigacji. Obecnie ten widok nadal jest dostępny, ale domyślnie wyświetlane są typy zawartości w kontekście obszaru roboczego. Wybierz obszar roboczy w lewym okienku nawigacji. Karty odpowiadające skojarzonej zawartości (takiej jak pulpity nawigacyjne, raporty, skoroszyty, zestawy danych) są wyświetlane po prawej stronie okna usługi Power BI.
+Najpierw przyjrzymy się sposobowi zorganizowania podstawowych typów zawartości (pulpitów nawigacyjnych, raportów, zestawów danych, skoroszytów). Zawartość jest wyświetlana w kontekście obszaru roboczego. Teraz masz tylko jeden obszar roboczy o nazwie **Mój obszar roboczy**. W kontenerze Mój obszar roboczy przechowywana jest zawartość, której jesteś właścicielem. To obszar roboczy przeznaczony do obsługi Twojej własnej zawartość. Zawartość z obszaru Mój obszar roboczy możesz udostępniać współpracownikom. Obszar roboczy zawiera 4 karty zawartości: Pulpity nawigacyjne, Raporty, Skoroszyty i Zestawy danych.
 
-Jeśli masz bezpłatną wersję usługi Power BI, zostanie wyświetlony tylko jeden obszar roboczy — **Mój obszar roboczy**.
+![Ekran Mój obszar roboczy](media/service-the-new-power-bi-experience/power-bi-my-workspace2.png)
 
-![krótki film dotyczący obszaru roboczego](media/service-the-new-power-bi-experience/power-bi-new-nav.gif)
+Wybierz obszar roboczy w lewym okienku nawigacji. Karty odpowiadające skojarzonej zawartości (takiej jak pulpity nawigacyjne, raporty, skoroszyty, zestawy danych) są wyświetlane po prawej stronie okna usługi Power BI.
 
-### <a name="favorite-dashboards-reports-and-apps"></a>Ulubione pulpity nawigacyjne, raporty i aplikacje
+Jeśli jesteś nowym użytkownikiem, zostanie wyświetlony tylko jeden obszar roboczy — **Mój obszar roboczy**.
+
+![krótki film dotyczący obszaru roboczego](media/service-the-new-power-bi-experience/nav.gif)
+
+Karty te (czyli *widoki zawartości*) zawierają informacje o zawartości oraz akcjach, które możesz wykonać na tej zawartości.  Na przykład na karcie Pulpity nawigacyjne możesz otworzyć pulpit nawigacyjny, a także na przykład udostępniać, usuwać, wyszukiwać, sortować i tworzyć zawartość.
+
+![Karta pulpitów nawigacyjnych](media/service-the-new-power-bi-experience/power-bi-dashboard-tab.png)
+
+Otwórz pulpit nawigacyjny, wybierając jego nazwę.
+
+![Otwarte pulpity nawigacyjne](media/service-the-new-power-bi-experience/power-bi-open-dashboard.png)
+
+## <a name="favorite-a-dashboard-and-a-report"></a>Dodawanie pulpitu nawigacyjnego lub raportu do ulubionych
 Funkcja **Ulubione** pozwala szybko uzyskać dostęp do zawartości, która jest dla Ciebie najważniejsza.  
 
-1. Otwórz pulpit nawigacyjny lub raport i wybierz pozycję **Dodaj do ulubionych** w prawym górnym rogu.
+1. Otwórz pulpit nawigacyjny i wybierz pozycję **Dodaj do ulubionych** w prawym górnym rogu.
    
    ![dodawanie do ulubionych](media/service-the-new-power-bi-experience/powerbi-dashboard-favorite.png)
    
@@ -77,78 +80,49 @@ Funkcja **Ulubione** pozwala szybko uzyskać dostęp do zawartości, która jest
    
    ![usuwanie elementu ulubionego](media/service-the-new-power-bi-experience/power-bi-unfavorite2.png)
 
-2. W przypadku aplikacji wybierz pozycję **Aplikacje** w lewym okienku nawigacji, umieść kursor nad aplikacją, a następnie wybierz gwiazdkę, aby ustawić ją jako ulubioną.
-
 2. Aby wyświetlić listę całej zawartości, która została dodana jako ulubiona, w lewym okienku nawigacji wybierz strzałkę znajdującą się z prawej strony pozycji **Ulubione**. Ponieważ lewe okienko nawigacji jest stałą funkcją usługi Power BI, dostęp do tej listy można uzyskać z dowolnego miejsca w usłudze Power BI.
    
-    ![okno wysuwane ulubionych](media/service-the-new-power-bi-experience/power-bi-favorite-flyout.png)
+    ![okno wysuwane ulubionych](media/service-the-new-power-bi-experience/power-bi-favorite.png)
    
-    W tym miejscu można wybrać pulpit nawigacyjny, raport lub aplikację, aby je otworzyć.
+    Na razie mamy tylko jeden ulubiony element. Do Ulubionych można dodawać pulpity nawigacyjne, raporty i aplikacje.  
 
-3. Aby otworzyć okienko **Ulubione**, w lewym okienku nawigacji wybierz pozycję **Ulubione** lub ikonę Ulubione ![](media/service-the-new-power-bi-experience/powerbi-star-icon.png).
+1. Innym sposobem, aby oznaczyć pulpit nawigacyjny lub raport jako ulubiony, jest użycie pozycji **Pulpity nawigacyjne** lub **Raporty** na karcie Obszar roboczy.  Otwórz kartę **Raporty**, a następnie wybierz ikonę gwiazdki na lewo od nazwy raportu.
    
-   ![otwieranie ekranu Ulubione](media/service-the-new-power-bi-experience/power-bi-favorites-screen.png)
-   
-   W tym miejscu możesz otwierać, wyszukiwać zawartość, usuwać z ulubionych lub udostępniać zawartość współpracownikom.
+   ![oznaczanie jako ulubione](media/service-the-new-power-bi-experience/power-bi-report-favorite.png)
 
-1. Innym sposobem, aby oznaczyć pulpit nawigacyjny lub raport jako ulubiony, jest użycie pozycji **Pulpity nawigacyjne** lub **Raporty** na karcie Obszar roboczy.  Po prostu otwórz obszar roboczy, aby wyświetlić widok zawartości, a następnie wybierz ikonę gwiazdki po lewej stronie nazwy.
+3. Otwórz *okienko* **Ulubione**, wybierając pozycję **Ulubione** w lewym okienku nawigacji lub wybierając ikonę gwiazdki ![](media/service-the-new-power-bi-experience/powerbi-star-icon.png).
    
-   ![oznaczanie jako ulubione](media/service-the-new-power-bi-experience/power-bi-favorite-dashboard-new.png)
+   ![otwieranie ekranu Ulubione](media/service-the-new-power-bi-experience/power-bi-favorite-pane.png)
+   
+   Masz teraz dwa elementy w Ulubionych — pulpit nawigacyjny i raport. W tym miejscu możesz otwierać i wyszukiwać zawartość, usuwać ją z ulubionych lub udostępniać współpracownikom.
+
+4. Wybierz nazwę raportu, aby otworzyć go w edytorze raportów.
+
+    ![Otwieranie raportu](media/service-the-new-power-bi-experience/power-bi-report-open.png)
+
 
 Aby dowiedzieć się więcej, zobacz [Ulubione](service-dashboard-favorite.md)
 
-### <a name="recents"></a>Ostatnie
-Korzystając z okienka **Ostatnie**, można szybko uzyskać dostęp do zawartości, która była ostatnio używana. Obejmuje to zawartość ze wszystkich obszarów roboczych danego użytkownika.
+## <a name="locate-your-most-recent-content"></a>Znajdowanie najnowszej zawartości
 
-  ![Okienko Ostatnie](media/service-the-new-power-bi-experience/power-bi-recent-new.png)
+1. Podobnie jak w funkcji Ulubione, możesz szybko wyświetlić ostatnio używaną zawartość z dowolnego miejsca w usłudze Power BI, wybierając strzałkę obok pozycji **Ostatnie** w lewym okienku nawigacji.
 
-Podobnie jak w przypadku funkcji Ulubione, możesz szybko wyświetlić ostatnie elementy z dowolnego miejsca w usłudze Power BI, wybierając strzałkę obok pozycji **Ostatnie** w lewym okienku nawigacji.
+   ![Wysuwane okienko Ostatnie](media/service-the-new-power-bi-experience/power-bi-recent-flyout.png)
 
-  ![Wysuwane okienko Ostatnie](media/service-the-new-power-bi-experience/power-bi-recent-flyout-new.png)
+    W wysuwanym okienku wybierz zawartość, aby ją otworzyć.
+
+2. Czasami nie trzeba jej otwierać, tylko wyświetlić informacje lub wykonać inne działania, takie jak udostępnianie, uruchamianie analiz lub eksportowanie do programu Excel. Wystarczy wtedy otworzyć okienko **Ostatnie**, wybierając pozycję **Ostatnie** lub ikonę w lewym okienku nawigacji. Jeśli masz kilka obszarów roboczych, na tej liście jest widoczna zawartość ze wszystkich z nich.
+
+   ![Okienko Ostatnie](media/service-the-new-power-bi-experience/power-bi-recent.png)
 
 Aby dowiedzieć się więcej, zobacz [Funkcja Ostatnie w usłudze Power BI](service-recent.md).
-
-### <a name="apps"></a>Aplikacje
-Aplikacja to kolekcja pulpitów nawigacyjnych i raportów utworzona w celu udostępnienia wszystkich najważniejszych metryk w jednym miejscu. Aplikacje mogą być przeznaczone do użytku wewnątrz organizacji lub [do użytku z usługami zewnętrznymi](service-connect-to-services.md), takimi jak Google Analytics i Microsoft Dynamics CRM. 
-
-![Okienko Aplikacje](media/service-the-new-power-bi-experience/power-bi-apps.png)
-
-Aby dowiedzieć się więcej, zobacz **Obszary robocze aplikacji** (poniżej) i [Co to są aplikacje Power BI](service-install-use-apps.md).
-
-### <a name="shared-with-me"></a>Udostępnione dla mnie
-W obszarze **Udostępnione mi** znajduje się cała zawartość, która została Ci udostępniona przez współpracowników.  Zawartość tego obszaru można filtrować według właściciela pulpitu nawigacyjnego. Pole wyszukiwania umożliwia znalezienie odpowiednich elementów, a elementy można sortować według daty.  Często używaną zawartość można niezwykle łatwo dodać do ulubionych bezpośrednio z widoku **Udostępnione mi**.
-
-![Okienko Udostępnione mi](media/service-the-new-power-bi-experience/power-bi-shared-new.png)
-
-Aby dowiedzieć się więcej, zobacz [Udostępnione mi](service-shared-with-me.md).
-
-### <a name="working-with-workspaces"></a>Praca z obszarami roboczymi
-Następna pozycja w lewym okienku nawigacji to *Obszary robocze*. Obszary robocze to swego rodzaju *kontenery* przechowujące zawartość w usłudze Power BI. Istnieją dwa typy obszarów roboczych: **Mój obszar roboczy** i obszary robocze aplikacji.
-
-Jeśli nie jesteś członkiem obszaru roboczego aplikacji ani administratorem, w okienku nawigacji po lewej stronie mogą nie być wyświetlone żadne obszary robocze aplikacji. Jeśli korzystasz z bezpłatnej wersji usługi Power BI, nie zobaczysz żadnych obszarów roboczych aplikacji.
-
-#### <a name="my-workspace"></a>Mój obszar roboczy
-W kontenerze **Mój obszar roboczy** przechowywana jest zawartość, której jesteś właścicielem. To obszar roboczy przeznaczony do obsługi Twojej własnej zawartość. Zawartość z obszaru Mój obszar roboczy możesz udostępniać współpracownikom. Obszar roboczy zawiera 4 karty zawartości: Pulpity nawigacyjne, Raporty, Skoroszyty i Zestawy danych.
-
-![Ekran Mój obszar roboczy](media/service-the-new-power-bi-experience/power-bi-my-workspace2.png)
-
-#### <a name="app-workspaces"></a>Obszary robocze aplikacji
-Aplikacje i obszary robocze aplikacji to funkcje dostępne w ramach usługi Power BI Pro. Jeśli tworzysz pulpity nawigacyjne i raporty przeznaczone dla innych użytkowników, możesz to robić w obszarach roboczych aplikacji. Obszar roboczy aplikacji to miejsce, w którym są tworzone aplikacje. Aby utworzyć aplikację, trzeba najpierw utworzyć obszar roboczy aplikacji. Są one kolejnym etapem ewolucji obszarów roboczych grupy — obszarów tymczasowych i kontenerów zawartości w aplikacji.  Razem ze swoimi współpracownikami możesz pracować nad pulpitami nawigacyjnymi, raportami i inną zawartością, która ma zostać rozpowszechniona wśród większej liczby osób lub nawet w całej organizacji.
-
-Aby dowiedzieć się więcej, zobacz [Tworzenie i rozpowszechnianie aplikacji w usłudze Power BI](service-create-distribute-apps.md#app-workspaces).
-
-Podobnie jak w przypadku elementu **Obszar roboczy** zawartość jest zorganizowana na 4 kartach: Pulpity nawigacyjne, Raporty, Skoroszyty i Zestawy danych.
-
-![Obszar roboczy aplikacji](media/service-the-new-power-bi-experience/power-bi-app-workspace.png)
-
-Wybierając pozycję **Obszary robocze** w lewym okienku nawigacji, można przełączać się między obszarami roboczymi.
-
-![Wybieranie obszaru roboczego](media/service-the-new-power-bi-experience/power-bi-workspacesnew2.png)
 
 ### <a name="search-and-sort-content"></a>Przeszukiwanie i sortowanie zawartości
 Widok zawartości ułatwia wyszukiwanie, filtrowanie i sortowanie zawartości. Aby wyszukać pulpit nawigacyjny, raport lub skoroszyt, wpisz odpowiedni ciąg w obszarze wyszukiwania. Usługa Power BI zwróci tylko tę zawartość, której nazwa zawiera wyszukiwany ciąg.
 
-![wyszukiwanie pulpitu nawigacyjnego](media/service-the-new-power-bi-experience/power-bi-search-sortnew.png)
+Ponieważ mamy tylko jeden przykład, wyszukiwanie i sortowanie nie jest konieczne.  Jednak te funkcje są bardzo przydatne, jeśli korzysta się z wielu pulpitów nawigacyjnych, raportów, skoroszytów i zestawów danych.
+
+![wyszukiwanie pulpitu nawigacyjnego](media/service-the-new-power-bi-experience/power-bi-search-sort.png)
 
 Zawartość można również sortować według nazwy lub właściciela.  
 
@@ -157,7 +131,6 @@ Zawartość można również sortować według nazwy lub właściciela.
 Aby dowiedzieć się więcej, zobacz [Nawigacja w usłudze Power BI: wyszukiwanie, sortowanie, filtrowanie](service-navigation-search-filter-sort.md)
 
 ## <a name="next-steps"></a>Następne kroki
-Usługa Power BI — [podstawowe pojęcia](service-basic-concepts.md)    
 
-Masz pytania lub opinię? [Odwiedź forum społeczności usługi Power BI](http://community.powerbi.com/t5/Navigation-Preview-Forum/bd-p/NavigationPreview)
-
+> [!div class="nextstepaction"]
+> [Widok do czytania i widok do edycji w usłudze Power BI](./service-reading-view-and-editing-view.md)

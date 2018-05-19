@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: eb37cb0551a613cf85d5b5dd2608b018a3a05250
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 83eb0f534a7aa98746e04a63d5474138159393f8
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="connect-to-github-with-power-bi"></a>Łączenie z usługą GitHub przy użyciu usługi Power BI
 Pakiet zawartości usługi GitHub dla usługi Power BI pozwala uzyskać wgląd w dane dotyczące problemów, zmian zawartości, żądań ściągnięcia i aktywnych użytkowników w repozytorium GitHub.
@@ -100,10 +100,9 @@ Pierwsza część — „Azure” — oznacza właściciela, a druga — „azur
 W razie potrzeby możesz zweryfikować swoje poświadczenia usługi GitHub.  
 
 1. W innym oknie przeglądarki przejdź do witryny internetowej usługi GitHub i zaloguj się do usługi GitHub. W prawym górnym rogu witryny GitHub widać, że udało się zalogować.    
-2. W witrynie GitHub przejdź do adresu URL repozytorium, które ma być dostępne w usłudze Power BI, na przykład: https://github.com/dotnet/corefx.  
+2. W witrynie GitHub przejdź do adresu URL repozytorium, które ma być dostępne w usłudze Power BI, Na przykład: https://github.com/dotnet/corefx.  
 3. Wróć do usługi Power BI i spróbuj połączyć się z usługą GitHub. W oknie dialogowym Konfigurowanie usługi GitHub wpisz nazwę i właściciela repozytorium.  
 
 ## <a name="next-steps"></a>Następne kroki
 * [Wprowadzenie do usługi Power BI](service-get-started.md)
 * [Pobieranie danych](service-get-data.md)
-

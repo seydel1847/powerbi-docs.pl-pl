@@ -15,19 +15,24 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/12/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: d6075832d77f6bea7d7d8588719c4a002cdbf298
-ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
+ms.openlocfilehash: 2fd3b599e89646f7bcebbe8b65212765fe76874b
+ms.sourcegitcommit: 9fa954608e78dcdb8d8a503c3c9b01c43ca728ab
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/21/2018
+ms.lasthandoff: 05/11/2018
 ---
 # <a name="use-qa-in-power-bi-desktop-for-natural-language-queries"></a>Używanie funkcji pytań i odpowiedzi dla zapytań w języku naturalnym w programie Power BI Desktop
 Używanie typowych fraz i języka naturalnego w celu zadawania pytań na temat danych daje dużo możliwości. Jest to o wiele bardziej skuteczne, gdy dane „odpowiadają” — to właśnie umożliwia funkcja pytań i odpowiedzi w programie **Power BI Desktop**.
 
 Aby umożliwić funkcji pytań i odpowiedzi prawidłowe interpretowanie dużych kolekcji pytań, na które będzie w stanie udzielić odpowiedzi, funkcja ta musi korzystać z założeń dotyczących modelu. Jeśli struktura modelu nie spełnia jednego lub kilku z tych założeń, należy dostosować model. Te dostosowania do funkcji pytań i odpowiedzi są takie same, jak optymalizacja pod kątem najlepszych rozwiązań dla dowolnego modelu w usłudze Power BI, niezależnie od tego, czy używasz funkcji pytań i odpowiedzi. 
+
+> [!NOTE]
+> Funkcja pytań i odpowiedzi jest dostępna tylko podczas pracy z modelem, który zawiera **zaimportowane** dane. Połączenia na żywo z modelami SSAS i DirectQuery nie są obsługiwane.
+>
+>
 
 W poniższych sekcjach opisano, jak dostosować model, aby dobrze współdziałał z funkcją pytań i odpowiedzi w usłudze Power BI.
 

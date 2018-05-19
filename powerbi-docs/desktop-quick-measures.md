@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/05/2018
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: a7f877512d5b0f897fb98d2db205d1418d25c71a
-ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
+ms.openlocfilehash: 992282438ceac88dce759b60dc26f0767d0b1f86
+ms.sourcegitcommit: 9fa954608e78dcdb8d8a503c3c9b01c43ca728ab
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/30/2018
+ms.lasthandoff: 05/11/2018
 ---
 # <a name="use-quick-measures-to-easily-perform-common-and-powerful-calculations"></a>Łatwe wykonywanie typowych i zaawansowanych obliczeń przy użyciu szybkich miar
 **Szybkie miary** umożliwiają łatwe i szybkie wykonywania typowych i zaawansowanych obliczeń. **Szybka miara** uruchamia zestaw poleceń języka DAX w tle (nie musisz pisać formuł DAX — są już gotowe) w oparciu o dane wprowadzone w oknie dialogowym, a następnie przedstawia wyniki do użycia w raporcie. Ponadto możesz zobaczyć formuły DAX wykonywane przez Szybką miarę i szybko zrozumieć lub rozszerzyć swoją wiedzę o języku DAX.
@@ -43,8 +43,6 @@ Po zaznaczeniu należy uruchomić ponownie program **Power BI Desktop**.
 Aby utworzyć **Szybką miarę**, kliknij prawym przyciskiem myszy pole (dowolne pole) na liście **Pola** w programie **Power BI Desktop** i wybierz opcję **Szybka miara** z wyświetlonego menu.
 
 ![](media/desktop-quick-measures/quick-measures_01.png)
-
-Modelowanie musi być dostępne w obecnie załadowanym zestawie danych, aby opcja **Szybkie miary** była dostępna. W związku z tym połączenia na żywo (np. połączenie z zestawem danych usługi Power BI) nie będą wyświetlać elementu **Szybkie miary** w menu po kliknięciu prawym przyciskiem myszy listy **Pola**, z wyjątkiem połączeń na żywo z usługami SSAS. 
 
 W przypadku połączeń na żywo z usługami SQL Server Analysis Services (SSAS) niektóre **Szybkie miary** będą dostępne. Program **Power BI Desktop** wyświetli tylko kolekcję **Szybkich miar**, które są obsługiwane w danej wersji usług SSAS, z którymi nawiązuje się połączenie. Tak więc w przypadku połączenia na żywo ze źródłem danych SSAS możesz nie zobaczyć wybranych **Szybkich miar** na liście, ponieważ wersja usług SSAS, z którą nawiązano połączenie, nie obsługuje miary DAX używanej do wdrożenia tej **Szybkiej miary**.
 
@@ -141,9 +139,10 @@ Jeśli uzyskasz odpowiednie miary, możesz zmienić ich nazwy wedle potrzeb, uż
 ## <a name="limitations-and-considerations"></a>Ograniczenia i istotne zagadnienia
 Należy pamiętać o kilku ograniczeniach i zagadnieniach.
 
-* **Szybkie miary** są dostępne tylko wtedy, gdy możesz zmodyfikować model; czyli nie są dostępne w przypadku pracy z zapytaniem bezpośrednim lub stosowania większości połączeń na żywo (jak wyjaśniono wcześniej, połączenia na żywo z usługami SSAS są obsługiwane).
+* **Szybkie miary** są dostępne tylko wtedy, gdy możesz zmodyfikować model; czyli nie są dostępne w przypadku pracy z niektórymi połączeniami na żywo (jak wyjaśniono wcześniej, tabelaryczne połączenia na żywo z usługami SSAS są obsługiwane).
 * Miara dodana do listy **Pola** może być używana w dowolnej wizualizacji w raporcie.
 * Zawsze możesz zobaczyć formułę DAX skojarzoną z **Szybką miarą** poprzez wybranie utworzonej miary na liście **Pola** i sprawdzenie formuły na **Pasku formuły**.
+* Podczas pracy w trybie zapytania bezpośredniego nie można utworzyć szybkich miar analizy czasowej. Funkcje języka DAX używane w tych szybkich miarach mają wpływ na wydajność w przypadku tłumaczenia na instrukcje T-SQL, które są wysyłane do źródła danych.
 
 > [!WARNING]
 > Szybkie miary obecnie generują *tylko* instrukcje DAX z przecinkami jako separatorami argumentów. Jeśli Twoja wersja programu **Power BI Desktop** jest zlokalizowana w języku stosującym przecinki jako separatory dziesiętne, szybkie miary nie będą działać prawidłowo.
@@ -151,7 +150,7 @@ Należy pamiętać o kilku ograniczeniach i zagadnieniach.
 > 
 
 ### <a name="time-intelligence-and-quick-measures"></a>Analiza czasu i Szybkie miary
-Począwszy od aktualizacji programu **Power BI Desktop** z października 2017 r., możesz używać własnych niestandardowych tabel dat z **Szybkimi miarami** analizy czasu. Jeśli model danych zawiera niestandardową tabelę dat, możesz użyć głównej kolumny dat w tabeli na potrzeby Szybkich miar analizy czasu. *Musisz* upewnić się, że podczas tworzenia modelu ta główna kolumna dat w tabeli została oznaczona jako Tabela dat, zgodnie z opisem w [tym artykule](https://docs.microsoft.com/sql/analysis-services/tabular-models/specify-mark-as-date-table-for-use-with-time-intelligence-ssas-tabular).
+Począwszy od aktualizacji programu **Power BI Desktop** z października 2017 r., możesz używać własnych niestandardowych tabel dat z **Szybkimi miarami** analizy czasu. Jeśli używasz zewnętrznego modelu tabelarycznego, upewnij się, że podczas tworzenia modelu ta główna kolumna dat w tabeli została oznaczona jako Tabela dat, zgodnie z opisem w [tym artykule](https://docs.microsoft.com/sql/analysis-services/tabular-models/specify-mark-as-date-table-for-use-with-time-intelligence-ssas-tabular). Jeśli importujesz własną tabelę dat, pamiętaj, aby oznaczyć ją jako tabelę dat, zgodnie z opisem w [tym artykule](https://docs.microsoft.com/power-bi/desktop-date-tables)
 
 ### <a name="additional-information-and-examples"></a>Dodatkowe informacje i przykłady
 Zamierzamy przedstawiać przykłady i wytyczne dotyczące wszystkich obliczeń **Szybkich miar**, więc wróć wkrótce do tego artykułu, aby uzyskać aktualne informacje.
