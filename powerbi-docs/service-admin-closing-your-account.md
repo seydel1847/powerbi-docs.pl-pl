@@ -1,28 +1,20 @@
 ---
 title: Zamykanie konta usługi Power BI
 description: Zamykanie konta usługi Power BI
-services: powerbi
-documentationcenter: ''
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-admin
+ms.topic: conceptual
 ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: d74aed9f3d2f21459853781089b4c32bcdf51b2c
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: be0b1bf3dbfba0f2e1545eced38ec19650342a19
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="closing-your-power-bi-account"></a>Zamykanie konta usługi Power BI
 Jeśli nie chcesz już używać usługi Power BI, możesz skontaktować się z nami, aby zamknąć konto usługi Power BI.  Po zamknięciu konta nie można już logować się do usługi Power BI.  Ponadto dane klienta przekazane lub utworzone w usłudze Power BI są usuwane zgodnie z zasadami przechowywania danych w Warunkach korzystania z usługi Power BI.

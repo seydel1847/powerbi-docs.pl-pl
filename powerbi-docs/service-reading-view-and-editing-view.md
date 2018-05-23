@@ -1,28 +1,20 @@
 ---
 title: Widok do czytania i widok do edycji raportu w usłudze Power BI
 description: Ogólne omówienie różnic między widokiem do czytania a widokiem do edycji raportów usługi Power BI
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 1ccc4eeff54bff91a9ed245fdb82462768b65264
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: eacadb04935dd0c929a85904335b613f3d5d4d58
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="reading-view-and-editing-view-in-power-bi-service-reports"></a>Widok do czytania i widok do edycji w raportach usługi Power BI
 W usłudze Power BI (nie w programie Power BI Desktop) są dostępne dwa tryby wyświetlania raportów i korzystania z nich: widok do czytania i widok do edycji. Widok do czytania jest dostępny dla wszystkich osób, a w szczególności jest przeznaczony dla *użytkowników* danych, natomiast widok do edycji jest dostępny tylko dla *twórców* i właścicieli raportu.
@@ -98,4 +90,4 @@ Pamiętaj, że tylko twórcy i właściciele raportu będą mogli otworzyć rapo
 ### <a name="next-steps"></a>Następne kroki
 Istnieje wiele sposobów na korzystanie z raportu w widoku do czytania, dzielenie i grupowanie danych w celu uzyskania szczegółowych informacji i odpowiedzi na pytania.  Następny temat, [Interakcje z raportem w widoku do czytania](service-interact-with-a-report-in-editing-view.md), zawiera szczegółowy opis niektórych z tych metod.    
 Wróć do [raportów w usłudze Power BI](service-reports.md)    
-Więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
+Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)

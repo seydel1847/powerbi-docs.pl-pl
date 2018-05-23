@@ -1,28 +1,20 @@
 ---
-title: "Usługa Power BI — rozpoczynanie pracy z aplikacjami innych producentów"
-description: "Usługa Power BI — rozpoczynanie pracy z aplikacjami innych producentów"
-services: powerbi
-documentationcenter: 
+title: Usługa Power BI — rozpoczynanie pracy z aplikacjami innych producentów
+description: Usługa Power BI — rozpoczynanie pracy z aplikacjami innych producentów
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
 LocalizationGroup: Get started
-ms.openlocfilehash: 1d1204c15e7f9cc0dae7685eae959ef2018b634a
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 7ac6cee3331333b40119d6f5ab014b2e39d2ef23
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="get-started-with-third-party-apps"></a>Rozpoczynanie pracy z aplikacjami innych producentów
 Przy użyciu usługi Power BI możesz skorzystać z aplikacji utworzonej przez osobę lub firmę inną niż Microsoft. Na przykład możesz użyć aplikacji innej firmy, która integruje kafelki usługi Power BI z niestandardową aplikacją internetową. Jeśli korzystasz z aplikacji innych firm, zostanie wyświetlona prośba o udzielenie tej aplikacji pewnych uprawnień do zasobów i Twojego konta usługi Power BI. Ważne jest, aby udzielać uprawnień tylko tym aplikacjom, które znasz i którym ufasz. W dowolnym momencie możesz odwołać uprawnienia aplikacji. Zobacz [Odwoływanie uprawnień aplikacji innej firmy](#revoke).

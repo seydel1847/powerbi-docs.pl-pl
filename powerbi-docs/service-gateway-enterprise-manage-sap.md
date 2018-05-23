@@ -1,28 +1,20 @@
 ---
 title: Zarządzanie źródłem danych SAP HANA
 description: Jak zarządzać lokalną bramą danych i źródłami danych należącymi do tej bramy. Ten artykuł dotyczy platformy SAP HANA.
-services: powerbi
-documentationcenter: ''
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: powerbi
+ms.component: powerbi-gateways
+ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 25030aba1e15b8f6b866b37c4099eb7b3479449c
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: f9407f7267b0d33ab2d1a1d36856b96a815d8e1e
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="manage-your-sap-hana-data-source"></a>Zarządzanie źródłem danych SAP HANA
 Po zainstalowaniu lokalnej bramy danych musisz dodać źródła danych, które mogą być używane z tą bramą. W tym artykule opisano sposób pracy z bramami i źródłami danych. Źródła danych SAP HANA można użyć na potrzeby zaplanowanego odświeżania lub zapytania bezpośredniego.
@@ -123,5 +115,5 @@ Jeśli znajdujesz się na liście na karcie **Użytkownicy** źródła danych sk
 [Lokalna brama danych](service-gateway-onprem.md)  
 [Lokalna brama danych — szczegóły](service-gateway-onprem-indepth.md)  
 [Rozwiązywanie problemów z lokalną bramą danych](service-gateway-onprem-tshoot.md)  
-Więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
+Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
 

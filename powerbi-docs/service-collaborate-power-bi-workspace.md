@@ -1,28 +1,20 @@
 ---
 title: Współpraca w obszarze roboczym aplikacji usługi Power BI
 description: Więcej informacji o współpracy przy plikach programu Power BI Desktop w obszarze roboczym Twojej aplikacji i z usługami Office 365, takimi jak udostępnianie plików w usłudze OneDrive dla Firm, konwersacje w programie Exchange, kalendarz i zadania.
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ajayan
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ajayan
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 01/29/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1837bc36ac4707663b5583699b0090ac9a692eb7
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: cab0f0513d73a865407574d43f8cd65ca5d75a9e
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="collaborate-in-your-power-bi-app-workspace"></a>Współpraca w obszarze roboczym aplikacji usługi Power BI
 Obszary robocze aplikacji usługi Power BI są doskonałym miejscem do wspólnej pracy ze współpracownikami przy pulpitach nawigacyjnych, raportach i zestawach danych w celu tworzenia *aplikacji*. Oto do czego obszary robocze zostały zaprojektowane — współpraca. Po zakończeniu współpracy przy pulpitach nawigacyjnych i raportach z współpracownikami możesz je opakować jako aplikację i rozpowszechnić. Przeczytaj więcej na temat [tworzenia aplikacji oraz obszarów roboczych aplikacji w usłudze Power BI](service-create-distribute-apps.md). 

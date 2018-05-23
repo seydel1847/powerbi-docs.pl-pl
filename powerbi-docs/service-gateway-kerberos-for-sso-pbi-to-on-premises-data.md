@@ -1,28 +1,20 @@
 ---
 title: Używanie protokołu Kerberos w bramie lokalnej na potrzeby logowania jednokrotnego (SSO) z usługi Power BI do lokalnych źródeł danych
 description: Konfigurowanie bramy przy użyciu protokołu Kerberos w celu włączenia logowania jednokrotnego z usługi Power BI do lokalnych źródeł danych
-services: powerbi
-documentationcenter: ''
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-gateways
+ms.topic: conceptual
 ms.date: 03/09/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: f2d5cea1881d6a450b9188e9754ac503cb45f301
-ms.sourcegitcommit: 50016425005d2e929c8c606c2d0d393342e05d39
+ms.openlocfilehash: fc7885755da62c7b777bb0af7627626b1ce60aa0
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/12/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="use-kerberos-for-sso-single-sign-on-from-power-bi-to-on-premises-data-sources"></a>Używanie protokołu Kerberos na potrzeby logowania jednokrotnego (SSO) z usługi Power BI do lokalnych źródeł danych
 Możesz uzyskać bezproblemową łączność przy użyciu funkcji logowania jednokrotnego, aby umożliwić aktualizowanie raportów i pulpitów nawigacyjnych usługi Power BI na podstawie lokalnych danych, konfigurując lokalną bramę danych przy użyciu protokołu Kerberos. Lokalna brama danych ułatwia logowanie jednokrotne przez użycie zapytania bezpośredniego do połączenia z lokalnymi źródłami danych.

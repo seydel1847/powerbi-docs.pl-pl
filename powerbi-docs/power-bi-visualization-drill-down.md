@@ -1,29 +1,21 @@
 ---
-title: "Przechodzenie do szczegółów w wizualizacji w usłudze Power BI"
-description: "Ten dokument przedstawia sposób przechodzenia do szczegółów w wizualizacji w usłudze Microsoft Power BI i programie Power BI Desktop."
-services: powerbi
-documentationcenter: 
+title: Przechodzenie do szczegółów w wizualizacji w usłudze Power BI
+description: Ten dokument przedstawia sposób przechodzenia do szczegółów w wizualizacji w usłudze Microsoft Power BI i programie Power BI Desktop.
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+ms.reviewer: ''
 featuredvideoid: MNAaHw4PxzE
-qualityfocus: no
-qualitydate: 
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 02/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: fb834c92953c2cafcbca77bc1b3828b385755bca
-ms.sourcegitcommit: 743e44fc8730fea0f7149916080b0c6d7eb6359d
+ms.openlocfilehash: d622e6b461668d1972a78f6844bd269fb6596061
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/28/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="drill-down-in-a-visualization-in-power-bi"></a>Przechodzenie do szczegółów w wizualizacji w usłudze Power BI
 ## <a name="drill-down-requires-a-hierarchy"></a>Przechodzenie do szczegółów wymaga hierarchii
@@ -35,7 +27,7 @@ Nie masz pewności, które wizualizacje usługi Power BI zawierają hierarchię?
 ![](media/power-bi-visualization-drill-down/power-bi-drill-icon4.png)  ![](media/power-bi-visualization-drill-down/power-bi-drill-icon2.png)  ![](media/power-bi-visualization-drill-down/power-bi-drill-icon3.png)
 ![](media/power-bi-visualization-drill-down/power-bi-drill-icon5.png) ![](media/power-bi-visualization-drill-down/power-bi-drill-icon6.png)  
 
-Daty są wyjątkowym typem hierarchii. Po dodaniu pola daty do wizualizacji usługa Power BI automatycznie dodaje hierarchię czasu, która zawiera rok, kwartał, miesiąc i dzień. Aby uzyskać więcej informacji, zobacz [Hierarchie wizualizacji i zachowanie przechodzenia do szczegółów](guided-learning/visualizations.yml#step-18) lub obejrzyj poniższy klip wideo.
+Daty są wyjątkowym typem hierarchii. Po dodaniu pola daty do wizualizacji usługa Power BI automatycznie dodaje hierarchię czasu, która zawiera rok, kwartał, miesiąc i dzień. Aby uzyskać więcej informacji, zobacz [Hierarchie wizualizacji i zachowanie przechodzenia do szczegółów](guided-learning/visualizations.yml?tutorial-step=18) lub obejrzyj poniższy klip wideo.
 
 
   <iframe width="560" height="315" src="https://www.youtube.com/embed/MNAaHw4PxzE?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
@@ -126,10 +118,10 @@ Oprócz wizualizacji możemy zobaczyć hierarchię odzwierciedloną w danych ren
 Zwróć uwagę, że dane są takie same w przypadku raportów kwartalnych i rocznych, ale po przejściu do szczegółów na poziomie określonym dla pozycji **Wartości** możesz zobaczyć, jak jeden raport staje się bardziej szczegółowy, a raport „wszystkie miesiące” zawiera więcej danych.
 
 
-|Tryb rozwijania|Year|Quarter|Month|Day|
+|Tryb rozwijania|Rok|Quarter|Month|Dzień|
 | ---|:---:|:---:|:---:|---|
 |Jeden|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-year.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-quarter.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-one-month.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-one-day.png)|
-|Wszystkie|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-year.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-quarter.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-all-month.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-all-day.png)|
+|Wszystko|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-year.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-quarter.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-all-month.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-all-day.png)|
 
 
 ### <a name="hierarchical-category-data"></a>Dane kategorii hierarchicznej
@@ -147,10 +139,10 @@ Teraz powinien być wyświetlany najniższy poziom hierarchii, w którym znajduj
 Oprócz wizualizacji możemy zobaczyć hierarchię odzwierciedloną w danych renderowanych dla każdego raportu. W poniższej tabeli przedstawiono wyniki opcji **Pokaż dane** w przechodzeniu do szczegółów w raporcie dla jednego terytorium lub wszystkich terytoriów. Podczas przechodzenia do szczegółów możesz zobaczyć, jak jeden raport staje się bardziej szczegółowy, a raport „wszystkie terytoria” zawiera więcej danych.
 
 
-| Tryb rozwijania|Terytorium|City|Kod pocztowy|Nazwa|
+| Tryb rozwijania|Territory|City|Kod pocztowy|Nazwa|
 | ---|:---:|:---:|:---:|---|
 |Jeden|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-territory.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-one-territory-city.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-one-territory-city-postal.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-one-territory-city-postal-name.png)|
-|Wszystkie|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-territory.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-all-territory-city.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-all-territory-city-postal.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-all-territory-city-postal-name.png)|
+|Wszystko|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-territory.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-all-territory-city.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-all-territory-city-postal.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-all-territory-city-postal-name.png)|
 
 
 ## <a name="considerations-and-limitations"></a>Istotne zagadnienia i ograniczenia

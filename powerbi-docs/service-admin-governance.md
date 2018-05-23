@@ -1,28 +1,20 @@
 ---
 title: Metody zarządzania i wdrażania
 description: Oficjalny dokument zawierający informacje na temat pojęć, opcji i sugestii dotyczących zarządzania w ekosystemie usługi Power BI.
-services: powerbi
-documentationcenter: ''
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: powerbi
+ms.component: powerbi-admin
+ms.topic: conceptual
 ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 8f2f48143e9f1c5a304f8d864ea39b8118d331f8
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: 955f4347630a781174d399d6a1363683745a4b3e
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="governance-and-deployment-approaches"></a>Metody zarządzania i wdrażania
 W ciągu ostatnich kilku dekad firmy stają się coraz bardziej świadome potrzeby strategicznego wykorzystywania zasobów danych, aby korzystać z możliwości rynku. Wykonując analizy konkurencyjne albo rozumiejąc wzorce operacyjne, wiele organizacji pojmuje teraz, że mogą odnieść korzyści z posiadania strategii danych jako sposobu wyprzedzania swojej konkurencji.  

@@ -1,28 +1,20 @@
 ---
 title: Nawiązywanie połączenia z usługą Salesforce przy użyciu usługi Power BI
 description: Salesforce dla usługi Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 62624d35f1fb477c4daf2ffcef92bb18fb8a6a8e
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: f5eeb877488539254478ad4bc25d64d663b797f1
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-salesforce-with-power-bi"></a>Nawiązywanie połączenia z usługą Salesforce przy użyciu usługi Power BI
 Przy użyciu usługi Power BI możesz z łatwością nawiązać połączenie z kontem Salesforce.com. Utworzenie takiego połączenia spowoduje pobranie danych i automatycznie zapewni pulpit nawigacyjny i powiązane raporty oparte na danych.

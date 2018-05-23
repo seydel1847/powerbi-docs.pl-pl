@@ -1,28 +1,20 @@
 ---
 title: Optymalizacja wizualizacji usługi Power BI pod kątem dowolnej wielkości
 description: Dowiedz się, jak zoptymalizować wizualizacje w istniejących raportach w programie Power BI Desktop i usłudze Power BI na potrzeby aplikacji telefonicznych Power BI.
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: d80e96fbca893fee3ff03ef9021988f5a22bb2e7
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: a6e683318c00a800f69334f90ce3a71d74489030
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="optimize-a-power-bi-visual-for-any-size"></a>Optymalizacja wizualizacji usługi Power BI pod kątem dowolnej wielkości
 Domyślnie podczas tworzenia raportu wizualizacje działają *elastycznie*: zmieniają się dynamicznie i wyświetlają maksymalną ilość danych i szczegółowych informacji niezależnie od rozmiaru ekranu. W starszych raportach można również ustawić wizualizacje tak, aby elastycznie zmieniały rozmiar.

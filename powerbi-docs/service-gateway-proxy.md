@@ -1,28 +1,20 @@
 ---
 title: Konfigurowanie ustawień serwera proxy dla lokalnej bramy danych
 description: Informacje dotyczące konfiguracji ustawień serwera proxy dla lokalnej bramy danych.
-services: powerbi
-documentationcenter: ''
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: powerbi
+ms.component: powerbi-gateways
+ms.topic: conceptual
 ms.date: 11/21/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 130f4dcea4bc168bd71cd6d8c7c623bfca95d259
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: ab5afb36458d7e1b5271a356bb1532ba77de6408
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="configuring-proxy-settings-for-the-on-premises-data-gateway"></a>Konfigurowanie ustawień serwera proxy dla lokalnej bramy danych
 Środowisko pracy może wymagać, aby dostęp do Internetu odbywał się za pośrednictwem serwera proxy. Może to uniemożliwiać lokalnej bramie danych nawiązanie połączenia z usługą.

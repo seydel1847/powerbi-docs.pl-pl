@@ -1,28 +1,20 @@
 ---
 title: Odświeżanie zestawu danych utworzonego na podstawie skoroszytu programu Excel — w chmurze
 description: Odświeżanie zestawu danych utworzonego na skoroszytu programu Excel w usłudze OneDrive lub SharePoint Online
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 9c5d6faec5826391c25056c2c7eb43ad9c2cc70c
-ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
+ms.openlocfilehash: b7a49a04ed344d6977dba5ac739c0f0d41aca5b9
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/04/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-onedrive-or-sharepoint-online"></a>Odświeżanie zestawu danych utworzonego na skoroszytu programu Excel w usłudze OneDrive lub SharePoint Online
 Możliwe jest importowanie skoroszytów programu Excel przechowywanych na maszynie lokalnej lub w magazynie w chmurze, takim jak usługa OneDrive dla Firm lub SharePoint Online. Przyjrzymy się zaletom korzystania z magazynu w chmurze w przypadku plików programu Excel. Aby uzyskać więcej informacji o sposobie importowania plików programu Excel do usługi Power BI, zobacz [Pobieranie danych z plików skoroszytów programu Excel](service-excel-workbook-files.md).

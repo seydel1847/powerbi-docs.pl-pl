@@ -1,28 +1,20 @@
 ---
 title: Usługa Azure SQL Data Warehouse z zapytaniem bezpośrednim
 description: Usługa Azure SQL Data Warehouse z zapytaniem bezpośrednim
-services: powerbi
-documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/22/2018
 ms.author: maghan
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 87b49833b5c0d1d634d440e947659a12ac87b66c
-ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
+ms.openlocfilehash: d6a5aa5bfc1ac9a2a5f7784464598800f70d0f05
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="azure-sql-data-warehouse-with-directquery"></a>Usługa Azure SQL Data Warehouse z zapytaniem bezpośrednim
 Usługa Azure SQL Data Warehouse z zapytaniem bezpośrednim umożliwia tworzenie dynamicznych raportów na podstawie danych i metryk, które już znajdują się w usłudze Azure SQL Data Warehouse. Dzięki zapytaniu bezpośredniemu zapytania są wysyłane do usługi Azure SQL Data Warehouse w czasie rzeczywistym, gdy eksplorujesz dane. W połączeniu ze skalą usługi SQL Data Warehouse umożliwia to użytkownikom tworzenie dynamicznych raportów w kilka minut w obliczu terabajtów danych. Ponadto wprowadzenie przycisku **Otwórz w usłudze Power BI** umożliwia użytkownikom bezpośrednie łączenie usługi Power BI z usługą SQL Data Warehouse bez konieczności ręcznego określania informacji.

@@ -1,28 +1,20 @@
 ---
 title: Przenoszenie wizualizacji, zmienianie ich rozmiaru i wyświetlanie w nowych oknach
 description: Przenoszenie wizualizacji i zmienianie jej rozmiaru w raporcie w usłudze Power Bi i programie Desktop
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 03/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 66df86d0db9767f29a1fdca637b95bb66cd9252d
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: 38c8787592407e15711617f0baac10f2a81790dd
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="move-and-resize-a-visualization-in-a-report-in-power-bi-service-and-power-bi-desktop"></a>Przenoszenie wizualizacji i zmienianie jej rozmiaru w raporcie w usłudze Power Bi i programie Power BI Desktop
 Tylko twórcy i właściciele raportu mogą przenosić wizualizacje i zmieniać ich rozmiar. W usłudze Power BI (app.powerbi.com) oznacza to otwarcie raportu w [widoku do edycji](service-reading-view-and-editing-view.md).
@@ -44,4 +36,4 @@ W usłudze Power BI otwórz raport, który zawiera co najmniej jedną wizualizac
 ## <a name="next-steps"></a>Następne kroki
 [Zmiana rozmiaru wizualizacji na pulpicie nawigacyjnym](service-dashboard-edit-tile.md)  
 
-Więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
+Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)

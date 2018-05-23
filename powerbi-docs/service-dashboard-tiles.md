@@ -1,28 +1,20 @@
 ---
-title: "Kafelki pulpitu nawigacyjnego w usłudze Power BI"
-description: "Wszystkie informacje o kafelkach pulpitu nawigacyjnego w usłudze Power BI. Dotyczy to również kafelków, które są tworzone z poziomu usługi SQL Server Reporting Services (SSRS)."
-services: powerbi
-documentationcenter: 
+title: Kafelki pulpitu nawigacyjnego w usłudze Power BI
+description: Wszystkie informacje o kafelkach pulpitu nawigacyjnego w usłudze Power BI. Dotyczy to również kafelków, które są tworzone z poziomu usługi SQL Server Reporting Services (SSRS).
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: 
-qualitydate: 03/15/2016
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 3b6d8c31c9ba03b0119635af5f9270a584081139
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: e53945e0a112d9498dc6798e2441dd3d925a64c1
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Kafelki pulpitu nawigacyjnego w usłudze Power BI
 Pulpity nawigacyjne i kafelki pulpitu nawigacyjnego są funkcjami usługi Power BI, a nie programu Power BI Desktop. Chociaż kafelków pulpitów nawigacyjnych nie można tworzyć ani przypinać w usłudze Power BI dla urządzeń mobilnych, [można je wyświetlać i udostępniać](mobile-tiles-in-the-mobile-apps.md). Ponadto w usłudze Power BI dla urządzeń mobilnych można [dodawać zdjęcia do pulpitu nawigacyjnego za pomocą aplikacji dla telefonu iPhone](mobile-iphone-app-get-started.md).

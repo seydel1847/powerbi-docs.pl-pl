@@ -1,28 +1,20 @@
 ---
 title: Nawiązywanie połączenia z pakietem zawartości Microsoft Dynamics AX przy użyciu usługi Power BI
 description: Pakiet zawartości Microsoft Dynamics AX dla usługi Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 09362afc3bc84b454db8a095edc5135f1b9955d8
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 2e84d52d9e26b23380b9fbc12fdaa4086a2ec7ed
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-microsoft-dynamics-ax-content-pack-with-power-bi"></a>Nawiązywanie połączenia z pakietem zawartości Microsoft Dynamics AX przy użyciu usługi Power BI
 System Microsoft Dynamics AX ma trzy pakiety zawartości Power BI przeznaczone dla różnych użytkowników biznesowych. Pakiet zawartości Financial Performance, zaprojektowany specjalnie z myślą o dyrektorach finansowych, zapewnia dostęp do szczegółowych informacji dotyczących wydajności finansowej organizacji. Pakiet zawartości Retail Channel Performance jest przeznaczony dla menedżerów kanału i koncentruje się na wydajności sprzedaży, aby umożliwiać przewidywanie trendów i odkrywanie informacji opartych bezpośrednio na danych dotyczących sprzedaży detalicznej i działań komercyjnych. Pakiet Cost Management jest przeznaczony dla dyrektorów zarządzających oraz dyrektorów finansowych i zapewnia szczegółowe informacje dotyczące wydajności operacyjnej.

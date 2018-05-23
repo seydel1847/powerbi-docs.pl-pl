@@ -1,25 +1,19 @@
 ---
 title: Samouczek — używanie funkcji pytań i odpowiedzi na pulpicie nawigacyjnym lub w raporcie
 description: Samouczek dotyczący sposobu użycia funkcji pytań i odpowiedzi usługi Power BI do tworzenia nowych wizualizacji na pulpitach nawigacyjnych i w raportach.
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-editor: ''
-tags: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 01/17/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 44501e5447248164f6f04d4463213939975e18ae
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 0e98c68e62f36114257052171e0928db25853f24
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="tutorial-how-to-use-qa-to-create-visualizations-and-build-reports"></a>Samouczek: używanie funkcji pytań i odpowiedzi do tworzenia wizualizacji i konstruowania raportów
 [Omówienie funkcji pytań i odpowiedzi](power-bi-q-and-a.md) zapewniło wprowadzenie do funkcji pytań i odpowiedzi usługi Power BI oraz przedstawiło rozróżnienie między *użytkownikami* (osobami, którym udostępniono pulpity nawigacyjne i raporty) a *twórcami* (właścicielami podstawowych raportów i zestawów danych). Pierwsza część tego samouczka jest przeznaczona głównie dla osób korzystających z pulpitów nawigacyjnych przy użyciu usługi Power BI. Natomiast druga część jest przeznaczona dla osób tworzących raporty za pomocą usługi Power BI albo programu Power BI Desktop. Tematy [Funkcja pytań i odpowiedzi a usługa Power BI dla urządzeń przenośnych](mobile-apps-ios-qna.md) i [Funkcja pytań i odpowiedzi w usłudze Power BI Embedded](developer/qanda.md) zostały opisane w oddzielnych artykułach.

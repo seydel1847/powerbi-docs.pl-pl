@@ -1,29 +1,21 @@
 ---
 title: Dodawanie parametrów raportu usługi Power BI przy użyciu adresu URL
 description: Filtrowanie raportu przy użyciu parametrów ciągu zapytania adresu URL oraz możliwość filtrowania według więcej niż jednego pola.
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: ''
-qualityfocus: no
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: c23d36c408c1714df9a480d5f35da9691af620d9
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: 071f7ea0c324ec8fe0160766f65cf929f811362a
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Filtrowanie raportu za pomocą parametrów ciągu zapytania w adresie URL
 Po otwarciu raportu w usłudze Power BI każda strona raportu ma własny unikatowy adres URL. Aby wykonać filtrowanie takiej strony raportu, możesz użyć okienka Filtr na kanwie raportów.  Możesz też dodać parametry ciągu zapytania do adresu URL. Być może masz raport, który chcesz pokazać współpracownikom, ale najpierw planujesz go wstępnie przefiltrować. Jeden ze sposobów polega na tym, aby rozpocząć od domyślnego adresu URL raportu, dodać do niego parametry filtru, a następnie po prostu wysłać cały adres URL swoim współpracownikom za pośrednictwem poczty e-mail.

@@ -1,28 +1,20 @@
 ---
-title: "Utworzenie kodu QR dla kafelka do wykorzystania w aplikacjach mobilnych usługi Power BI"
-description: "Kody QR w usłudze Power BI mogą łączyć dowolne elementy w świecie rzeczywistym bezpośrednio z powiązanymi informacjami usługi BI w aplikacji mobilnej Power BI — bez wyszukiwania."
-services: powerbi
-documentationcenter: 
+title: Utworzenie kodu QR dla kafelka do wykorzystania w aplikacjach mobilnych usługi Power BI
+description: Kody QR w usłudze Power BI mogą łączyć dowolne elementy w świecie rzeczywistym bezpośrednio z powiązanymi informacjami usługi BI w aplikacji mobilnej Power BI — bez wyszukiwania.
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/07/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e7f37a076f913d50f5a6b654aa79b50d61bc5add
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: 3b0bf5e54ad6486134eb641d276fc9233b001157
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="create-a-qr-code-for-a-tile-in-power-bi-to-use-in-the-mobile-apps"></a>Utworzenie kodu QR dla kafelka w usłudze Power BI do użycia w aplikacjach mobilnych
 Kody QR w usłudze Power BI mogą łączyć dowolne elementy w świecie rzeczywistym bezpośrednio z powiązanymi informacjami usługi Power BI — bez potrzeby korzystania z nawigacji lub wyszukiwania.

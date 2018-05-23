@@ -1,28 +1,20 @@
 ---
 title: Nawiązywanie połączenia z usługą Google Analytics za pomocą usługi Power BI
 description: Usługa Google Analytics dla usługi Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 2e1f0d3fad5c556030ed5351793a95a86cfea977
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: b479c46ffe3e51ad5f15cc9884a2ea02626a4cc5
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-google-analytics-with-power-bi"></a>Nawiązywanie połączenia z usługą Google Analytics za pomocą usługi Power BI
 Nawiązywanie połączenia z usługą Google Analytics za pośrednictwem usługi Power BI należy zacząć od połączenia się ze swoim kontem usługi Google Analytics. Zostanie wyświetlony pulpit nawigacyjny usługi Power BI oraz zestaw raportów zawierających informacje o ruchu w witrynie oraz wymiarach użytkownika. Możesz korzystać z pulpitu nawigacyjnego i raportów, ale nie możesz zapisywać zmian. Dane będą odświeżane automatycznie raz dziennie.

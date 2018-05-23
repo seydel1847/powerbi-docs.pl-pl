@@ -1,28 +1,20 @@
 ---
 title: Łączenie się z usługą Alpine Metrics Sales Predictions za pomocą usługi Power BI
 description: Usługa Alpine Metrics Sales Predictions dla usługi Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 2c7072cca04033242ee9b07f0f3c1f82160cb332
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: d9e70e0b69f0ce68826f566e6e5cdb0f4d8e113e
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-alpine-metrics-sales-predictions-with-power-bi"></a>Łączenie się z usługą Alpine Metrics Sales Predictions za pomocą usługi Power BI
 Firma Alpine Metrics oferuje nowoczesną predykcyjną optymalizację procesów sprzedaży w chmurze oraz na żądanie dla dużych i małych organizacji handlowych. Pakiet zawartości usługi Alpine Metrics Sales Predictions dla usługi Power BI obejmuje takie metryki jak potencjalna i przewidywana sprzedaż i ryzyko, dzięki czemu masz lepszy wgląd w przyszłość firmy. 

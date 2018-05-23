@@ -1,29 +1,21 @@
 ---
 title: Przypinanie kafelka do pulpitu nawigacyjnego usługi Power BI z programu Excel
 description: Przypnij kafelek do pulpitu nawigacyjnego usługi Power BI z programu Excel w usłudze OneDrive dla Firm. Przypinanie zakresów, wykresów, tabel
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: l8JoB7w0zJA
-qualityfocus: no
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 76bfe440291687d7f34b859eccad6099a498c819
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: d6bb6bbed1d5423acbcf53ac50717debdfea4eaa
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-excel"></a>Przypinanie kafelka do pulpitu nawigacyjnego usługi Power BI z programu Excel
 Zanim będzie możliwe przypięcie kafelka ze skoroszytu programu Excel połącz ten skoroszyt z usługą Power BI (app.powerbi.com). Zasadniczo łączenie skoroszytu powoduje przeniesienie połączonej wersji tylko do odczytu tego skoroszytu do usługi Power BI i pozwala przypiąć zakresy do pulpitów nawigacyjnych. Możesz nawet przypiąć cały arkusz do pulpitu nawigacyjnego.  
@@ -95,5 +87,5 @@ Nieobsługiwane funkcje: usługa Power BI korzysta z usług programu Excel do po
 
 [Pobieranie danych ze skoroszytów programu Excel](service-excel-workbook-files.md)
 
-Więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
+Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
 

@@ -1,28 +1,20 @@
 ---
 title: Łączenie się z usługą Azure Search za pomocą usługi Power BI
 description: Usługa Azure Search dla usługi Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: d868c50a69381c1ef95a8b3a69590223eb066e90
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 5b7cee097aaecacc4bf9525e93fde51839c0a081
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-azure-search-with-power-bi"></a>Łączenie się z usługą Azure Search za pomocą usługi Power BI
 Usługa Azure Search Traffic Analytics pozwala na monitorowanie i zrozumienie ruchu w usłudze Azure Search. Pakiet zawartości Azure Search dla usługi Power BI dostarcza szczegółowe informacje na temat danych wyszukiwania, w tym wyszukiwania, indeksowania, statystyk usługi i opóźnienia w ciągu ostatnich 30 dni. Więcej szczegółów można znaleźć we [wpisie na blogu dotyczącym platformy Azure](https://azure.microsoft.com/en-us/blog/analyzing-your-azure-search-traffic/).

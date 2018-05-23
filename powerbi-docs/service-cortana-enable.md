@@ -1,24 +1,19 @@
 ---
 title: Aktywowanie Cortany dla usługi Power BI
 description: Uzyskuj odpowiedzi na podstawie swoich danych dzięki Cortanie i usłudze Power BI. Uaktywnij Cortanę dla każdego zestawu danych usługi Power BI, a następnie włącz Cortanę, aby uzyskać dostęp do swoich zestawów danych z urządzeń z systemem Windows.
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-editor: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 12/20/2017
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 10faf7b20c91b0c709df6783152ab55d0e6c958c
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 40dd75becc890c48e8d1b2a7dc10381896ceed71
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="enable-cortana-to-access-power-bi-reports-and-their-underlying-datasets"></a>Włączanie Cortany, aby uzyskać dostęp do raportów usługi Power BI (i ich źródłowych zestawów danych)
 Znasz już [Wprowadzenie do Cortany i usługi Power BI](service-cortana-intro.md) (jeśli jeszcze tego nie znasz, może warto w pierwszej kolejności to przeczytać, a dopiero potem wrócić). A teraz chcesz wypróbować jej możliwości samodzielnie.  Zanim będzie można zadawać Cortanie pytania języka naturalnego i znajdować odpowiedzi w danych przechowywanych w ***raportach*** usługi Power BI, trzeba będzie spełnić kilka wymagań. W szczególności należy wykonać następujące czynności.

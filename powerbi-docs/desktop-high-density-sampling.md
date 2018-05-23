@@ -1,28 +1,20 @@
 ---
 title: Próbkowanie liniowe o wysokiej gęstości w usłudze Power BI
 description: Próbkowanie liniowe o wysokiej gęstości w usłudze Power BI
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 04/19/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 3fa4de000f553693c75439bd1e956e0882efb179
-ms.sourcegitcommit: bdb1fee3612bcc66153dcad8c4db2e99fb041014
+ms.openlocfilehash: 7fb3e6163d63cdf3f40d0400f246095550fc9032
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/28/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="high-density-line-sampling-in-power-bi"></a>Próbkowanie liniowe o wysokiej gęstości w usłudze Power BI
 Wraz z wersją programu **Power BI Desktop** wydaną w czerwcu 2017 r. i aktualizacjami usługi **Power BI** dostępny jest nowy algorytm próbkowania, który usprawnia wizualizacje, które próbkują dane o wysokiej gęstości. Możesz na przykład utworzyć wykres liniowy wyników sprzedaży sklepów detalicznych wydających ponad 10 000 paragonów rocznie. Wykres liniowy tego rodzaju informacji sprzedażowych próbkuje dane (wybiera reprezentatywną próbę danych, aby pokazać, w jaki sposób sprzedaż zmienia się w czasie) z danych dla każdego sklepu i tworzy wykres liniowy składający się z wielu serii, który odzwierciedla dane bazowe. Jest to powszechną praktyką w przypadku wizualizowania danych o wysokiej gęstości. Program Power BI Desktop umożliwia teraz lepsze próbkowanie danych o wysokiej gęstości. Szczegółowe informacje przedstawiono w tym artykule.

@@ -1,29 +1,21 @@
 ---
 title: Porady i wskazówki dotyczące map (w tym integracji usługi Mapy Bing)
 description: 'Porady i wskazówki dotyczące wizualizacji z mapami w usłudze Power BI, w tym lokalizacji, długości i szerokości geograficznej, oraz ich współdziałania z usługą Mapy Bing. '
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: ajTPGNpthcg
-qualityfocus: monitoring
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 031d977adbeb0697bcdd1bb6b19ebf21ec16e516
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: 321ff4ec528ef9b72324758417e0f72d67258ac3
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Porady i wskazówki dotyczące wizualizacji z mapami w usłudze Power BI
 Usługa Power BI integruje się z usługą Mapy Bing w celu zapewnienia domyślnych współrzędnych mapy (w procesie zwanym kodowaniem geograficznym), co pozwala na tworzenie map. Wspólnie używają algorytmów do zidentyfikowania poprawnej lokalizacji, ale czasami jest to tylko najbardziej prawdopodobna odpowiedź. Jeśli usługa Power BI nie może utworzyć wizualizacji z mapą samodzielnie, korzysta z usługi Mapy Bing. 

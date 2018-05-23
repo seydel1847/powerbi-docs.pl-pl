@@ -1,28 +1,20 @@
 ---
 title: Często zadawane pytania w usłudze Power BI
 description: Przeglądaj listę często zadawanych pytań i odpowiedzi dotyczących usługi Power BI, programu Power BI Desktop i aplikacji mobilnych usługi Power BI.
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: complete
-qualitydate: 04/04/2016
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 02/06/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 7f1c42d46568723706bcdd349790c963f204a33c
-ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
+ms.openlocfilehash: e72e3bcca4254b957580775196d4919e88452773
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Często zadawane pytania dotyczące usługi Power BI
 * Jeśli masz inne pytania, [zadaj je społeczności usługi Power BI](http://community.powerbi.com/).

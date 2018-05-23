@@ -1,28 +1,20 @@
 ---
 title: Kopiowanie i wklejanie wizualizacji w usłudze Power BI
 description: Kopiowanie i wklejanie wizualizacji w usłudze Power BI
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 03/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8e00bb4ca2e39462624a489dd96bbd2b266aa6c3
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: 44b7c8ab65accdb804c7a4b8afd19b1598137dbe
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="copy-and-paste-a-visualization-in-power-bi-service-and-power-bi-desktop"></a>Kopiowanie i wklejanie wizualizacji w usłudze Power Bi i programie Power BI Desktop
 Kopiowanie i wklejanie wizualizacji wymaga uprawnień do edytowania raportu. W usłudze Power BI oznacza to otwarcie raportu w [widoku do edycji](service-reading-view-and-editing-view.md).
@@ -35,5 +27,5 @@ Kopiowanie i wklejanie wizualizacji wymaga uprawnień do edytowania raportu. W u
 ### <a name="next-steps"></a>Następne kroki
 Więcej informacji o [wizualizacjach w raportach usługi Power BI](power-bi-report-visualizations.md)
 
-Więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
+Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
 

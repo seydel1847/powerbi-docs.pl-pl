@@ -1,33 +1,25 @@
 ---
-title: "Próbka danych dotyczących kadr: krótki przewodnik"
-description: "Próbka danych dotyczących kadr dla usługi Power BI: krótki przewodnik"
-services: powerbi
-documentationcenter: 
+title: 'Próbka danych dotyczących kadr: krótki przewodnik'
+description: 'Próbka danych dotyczących kadr dla usługi Power BI: krótki przewodnik'
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 01/22/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 7cd91ad5d6b43803745e5c6a12b6168e17f376af
-ms.sourcegitcommit: 743e44fc8730fea0f7149916080b0c6d7eb6359d
+ms.openlocfilehash: 2f9051142568ff7e6451acc38d30295f2930d0a6
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/28/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="human-resources-sample-for-power-bi-take-a-tour"></a>Próbka danych dotyczących kadr dla usługi Power BI: krótki przewodnik
 
 ## <a name="overview-of-the-human-resources-sample"></a>Omówienie przykładu Human Resources
-Dział kadr ma ten sam model raportowania w różnych firmach, nawet wtedy, gdy różnią się one branżą lub wielkością. W tym przykładzie analizujemy nowych pracowników, zatrudnionych pracowników i pracowników, którzy odeszli, w celu wykrycia wszelkich trendów w strategii zatrudniania. Naszymi głównymi celami jest zrozumienie:
+Dział kadr stosuje ten sam model raportowania w różnych firmach — nawet różniących się branżą i rozmiarem. W tym przykładzie analizujemy nowych pracowników, zatrudnionych pracowników i pracowników, którzy odeszli, w celu wykrycia wszelkich trendów w strategii zatrudniania. Naszymi głównymi celami jest zrozumienie:
 
 * Kogo zatrudniamy
 * Czym kierujemy się podczas zatrudniania
@@ -79,7 +71,7 @@ Zajmijmy się najpierw badaniem nowych pracowników.
 
 Zapamiętaj poniższe:
 
-* Wykres kombi **Liczba nowych pracowników, Nowi pracownicy SPLY i Zmiana zatrudnienia w % rok do roku według miesiąca** pokazuje, że zatrudnialiśmy więcej osób każdego miesiąca tego roku w porównaniu do zeszłego roku &#151; znacznie więcej osób w pewnych miesiącach.
+* Wykres kombi **Liczba nowych pracowników, Nowi pracownicy SPLY i Zmiana zatrudnienia w % rok do roku według miesiąca** pokazuje, że zatrudnialiśmy więcej osób każdego miesiąca tego roku w porównaniu do zeszłego roku & #151; znacznie więcej osób w pewnych miesiącach.
 * Na wykresie kombi **Liczba nowych pracowników i Liczba zatrudnionych pracowników według regionu i pochodzenia etnicznego** należy zauważyć, że zatrudniamy mniej osób w regionie **Wschodnim**.
 * Wykres kaskadowy **Zmiana liczby nowych pracowników rok do roku według grupy wiekowej** pokazuje, że zatrudniamy głównie młodsze osoby. Może to być spowodowane głównie niepełnym wymiarem czasu pracy.
 * Wykres kołowy **Liczba nowych pracowników według płci** pokazuje dosyć równy podział.

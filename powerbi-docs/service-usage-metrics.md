@@ -1,29 +1,21 @@
 ---
 title: Metryki użycia pulpitów nawigacyjnych i raportów
 description: Jak wyświetlać, zapisywać i używać metryki użycia pulpitów nawigacyjnych i raportów usługi Power BI. Zmierz i zmaksymalizuj swoje oddziaływanie dzięki metrykom użycia dla twórców zawartości.
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: ''
-qualityfocus: no
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: d12f59f768b98bbc974258592f236176ecf52b3f
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: 7b43e6e3c679474113cb0f1301f335c6bb8249ff
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="usage-metrics-for-dashboards-and-reports"></a>Metryki użycia pulpitów nawigacyjnych i raportów
 Jeśli tworzysz pulpity nawigacyjne i raporty, metryki użycia pomogą Ci określić ich oddziaływanie. Uruchamiając metryki użycia pulpitów nawigacyjnych lub raportów, możesz dowiedzieć się, w jaki sposób są one używane w organizacji: jaka zawartość jest używana, przez kogo i w jakim celu.  

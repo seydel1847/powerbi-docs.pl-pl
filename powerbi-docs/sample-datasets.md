@@ -1,28 +1,20 @@
 ---
-title: "Przewodnik po przykładach dostępnych w usłudze Power BI"
-description: "Przykładowe pakiety zawartości, pliki PBIX oraz zestawy danych programu Excel dla usługi Power BI"
-services: powerbi
-documentationcenter: 
+title: Przewodnik po przykładach dostępnych w usłudze Power BI
+description: Przykładowe pakiety zawartości, pliki PBIX oraz zestawy danych programu Excel dla usługi Power BI
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: monitoring
-qualitydate: 03/05/2017
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/13/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 8a2b330ee134bf8aeb94315b90e71824ec1eb8ef
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: cf93d16eae91743ce52f1de915336c6df4d82202
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="what-sample-data-is-available-to-use-with-power-bi"></a>Jakie przykładowe dane są dostępne do użycia w usłudze Power BI?
 Załóżmy, że jesteś nowym użytkownikiem usługi Power BI i chcesz ją wypróbować, ale nie masz żadnych danych.  A może masz zestaw danych, ale ponieważ nie rozumiesz (jeszcze) jak działa usługa Power BI, martwisz się, że możesz w jakiś sposób uszkodzić swój zestaw danych?

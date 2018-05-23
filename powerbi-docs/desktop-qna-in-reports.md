@@ -1,28 +1,20 @@
 ---
 title: Używanie funkcji pytań i odpowiedzi w programie Power BI Desktop
 description: W programie Power BI Desktop można teraz używać zapytań w języku naturalnym za pomocą funkcji pytań i odpowiedzi.
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2fd3b599e89646f7bcebbe8b65212765fe76874b
-ms.sourcegitcommit: 9fa954608e78dcdb8d8a503c3c9b01c43ca728ab
+ms.openlocfilehash: e9f1bd3231182d66d2ded0abbb67b4d111941ee4
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/11/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="use-qa-in-power-bi-desktop-for-natural-language-queries"></a>Używanie funkcji pytań i odpowiedzi dla zapytań w języku naturalnym w programie Power BI Desktop
 Używanie typowych fraz i języka naturalnego w celu zadawania pytań na temat danych daje dużo możliwości. Jest to o wiele bardziej skuteczne, gdy dane „odpowiadają” — to właśnie umożliwia funkcja pytań i odpowiedzi w programie **Power BI Desktop**.

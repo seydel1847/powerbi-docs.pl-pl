@@ -1,28 +1,20 @@
 ---
 title: Nawiązywanie połączenia z usługą QuickBooks Online przy użyciu usługi Power BI
 description: Pakiet zawartości QuickBooks Online dla usługi Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 770daa9965f44d655fb60b8b723f83e260daccb6
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: ab914cd883d9a297150dd9a33dce9c6ce76308bf
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-quickbooks-online-with-power-bi"></a>Nawiązywanie połączenia z usługą QuickBooks Online przy użyciu usługi Power BI
 Podczas nawiązywania połączenia z danymi usługi QuickBooks Online z usługi Power BI natychmiast uzyskasz pulpit nawigacyjny oraz raporty usługi Power BI zapewniające wgląd w przepływ gotówki, zyskowność, klientów i wiele innych informacji dotyczących firmy. Możesz użyć pulpitu nawigacyjnego i raportów w takiej formie lub dostosować je, aby podkreślić najważniejsze informacje. Dane są odświeżane automatycznie raz dziennie.

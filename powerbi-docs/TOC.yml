@@ -140,8 +140,6 @@
                   href: service-connect-to-azure-consumption-insights.md
                 - name: Azure Search
                   href: service-connect-to-azure-search.md
-                - name: Centrum zabezpieczeń platformy Azure
-                  href: service-connect-to-azure-security-center.md
                 - name: Identyfikator obwodu
                   href: service-connect-to-circuit-id.md
                 - name: ClickDimensions
@@ -416,8 +414,6 @@
                   href: refresh-csv-file-onedrive.md
                 - name: Rozwiązywanie problemów ze scenariuszami odświeżania
                   href: refresh-troubleshooting-refresh-scenarios.md
-                - name: Wyłączanie ustawień prywatności
-                  href: refresh-enable-fast-combine.md
             - name: Rozwiązywanie problemów
               items:
                 - name: Nie pamiętasz hasła do usługi Power BI?
@@ -470,6 +466,18 @@
       items:
         - name: Kształtowanie i łączenie wielu źródeł danych
           href: desktop-shape-and-combine-data.md
+        - name: Importowanie i analizowanie danych ze strony internetowej przy użyciu programu Power BI Desktop
+          href: desktop-tutorial-importing-and-analyzing-data-from-a-web-page.md
+        - name: ' Analizowanie danych sprzedaży z programu Excel i źródła danych OData'
+          href: desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed.md
+        - name: Tworzenie własnych miar w programie Power BI Desktop
+          href: desktop-tutorial-create-measures.md
+        - name: Tworzenie kolumn obliczeniowych w programie Power BI Desktop
+          href: desktop-tutorial-create-calculated-columns.md
+        - name: Analiza serwisu Facebook przy użyciu programu Power BI Desktop
+          href: desktop-tutorial-facebook-analytics.md
+        - name: Dynamiczne zabezpieczenia na poziomie wiersza z modelem tabelarycznym usług Analysis Services
+          href: desktop-tutorial-row-level-security-onprem-ssas-tabular.md
     - name: Przykłady
       items:
         - name: Pobieranie skoroszytu z przykładem danych finansowych dla usługi Power BI
@@ -526,18 +534,6 @@
           href: desktop-connect-to-data.md
         - name: Publikowanie z programu Power BI Desktop
           href: desktop-upload-desktop-files.md
-        - name: Importowanie i analizowanie danych ze strony internetowej przy użyciu programu Power BI Desktop
-          href: desktop-tutorial-importing-and-analyzing-data-from-a-web-page.md
-        - name: ' Analizowanie danych sprzedaży z programu Excel i źródła danych OData'
-          href: desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed.md
-        - name: Tworzenie własnych miar w programie Power BI Desktop
-          href: desktop-tutorial-create-measures.md
-        - name: Tworzenie kolumn obliczeniowych w programie Power BI Desktop
-          href: desktop-tutorial-create-calculated-columns.md
-        - name: Analiza serwisu Facebook przy użyciu programu Power BI Desktop
-          href: desktop-tutorial-facebook-analytics.md
-        - name: Dynamiczne zabezpieczenia na poziomie wiersza z modelem tabelarycznym usług Analysis Services
-          href: desktop-tutorial-row-level-security-onprem-ssas-tabular.md
         - name: Wizualizacje niestandardowe w usłudze Power BI
           href: power-bi-custom-visuals.md
         - name: Niestandardowe elementy wizualne dostępne dla organizacji w usłudze Power BI
@@ -898,8 +894,6 @@
           href: developer/qanda.md
     - name: Instrukcje
       items:
-        - name: Tworzenie wizualizacji niestandardowej przy użyciu narzędzi deweloperskich
-          href: service-custom-visuals-getting-started-with-developer-tools.md
         - name: Jak osadzić zawartość
           href: developer/embedding-content.md
         - name: Wypychanie danych do pulpitu nawigacyjnego
@@ -914,6 +908,18 @@
           href: developer/integrate-report.md
         - name: Integrowanie zawartości w aplikacji (dane należą do aplikacji)
           href: developer/embed-sample-for-customers.md
+        - name: Integrowanie zawartości w aplikacji na potrzeby suwerennych chmur (dane należą do aplikacji)
+          href: developer/embed-sample-for-customers-sovereign-clouds.md
+        - name: Tworzenie wizualizacji niestandardowej
+          items:
+            - name: Tworzenie wizualizacji niestandardowej przy użyciu narzędzi deweloperskich
+              href: service-custom-visuals-getting-started-with-developer-tools.md
+            - name: Przegląd wizualizacji niestandardowych pod kątem zabezpieczeń i prywatności
+              href: service-custom-visuals-review-for-security-and-privacy.md
+            - name: Certyfikowanie wizualizacji niestandardowej
+              href: power-bi-custom-visuals-certified.md
+            - name: Publikowanie wizualizacji niestandardowych w usłudze AppSource
+              href: developer/office-store.md
         - name: Osadzanie
           items:
             - name: Osadzanie przy użyciu usługi Power BI
@@ -932,12 +938,6 @@
               href: developer/migrate-code-snippets.md
             - name: Rozwiązywanie problemów z aplikacją osadzoną
               href: developer/embedded-troubleshoot.md
-        - name: Tworzenie wizualizacji niestandardowej
-          items:
-            - name: Przegląd wizualizacji niestandardowych pod kątem zabezpieczeń i prywatności
-              href: service-custom-visuals-review-for-security-and-privacy.md
-            - name: Certyfikowanie wizualizacji niestandardowej
-              href: power-bi-custom-visuals-certified.md
         - name: Wypychanie danych do pulpitu nawigacyjnego
           items:
             - name: Rejestrowanie aplikacji w usłudze Azure AD
@@ -976,9 +976,9 @@
           href: 'https://go.microsoft.com/fwlink/?linkid=848277'
     - name: Zasoby
       items:
-        - name: Pokaz osadzony JavaScript
+        - name: Przykład placu zabaw w języku JavaScript
           href: 'https://go.microsoft.com/fwlink/?linkid=848279'
-        - name: Próbki danych
+        - name: Przykłady
           href: 'https://go.microsoft.com/fwlink/?linkid=851293'
         - name: Społeczność usługi Power BI
           href: 'https://go.microsoft.com/fwlink/?linkid=848280'
@@ -1126,10 +1126,12 @@
           href: service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md
         - name: Konfigurowanie ustawień serwera proxy
           href: service-gateway-proxy.md
-        - name: Lokalna brama danych — szczegóły
-          href: service-gateway-onprem-indepth.md
         - name: Klastry wysokiej dostępności dla lokalnej bramy danych
           href: service-gateway-high-availability-clusters.md
+        - name: Lokalna brama danych
+          href: service-gateway-onprem.md
+        - name: Lokalna brama danych — szczegóły
+          href: service-gateway-onprem-indepth.md
         - name: Lokalna brama danych (tryb osobisty)
           href: service-gateway-personal-mode.md
         - name: Rozwiązywanie problemów z lokalną bramą danych
@@ -1188,6 +1190,8 @@
           href: service-admin-health.md
         - name: Zamykanie konta usługi Power BI
           href: service-admin-closing-your-account.md
+        - name: Usługa Power BI Pro w organizacji
+          href: service-admin-power-bi-pro-in-your-organization.md
         - name: Usługa Power BI (wersja bezpłatna) w organizacji
           href: service-admin-service-free-in-your-organization.md
         - name: Usługi Power BI i ExpressRoute

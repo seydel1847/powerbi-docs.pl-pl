@@ -1,28 +1,20 @@
 ---
 title: Łączenie się z pakietem zawartości AT Internet Bridge za pomocą usługi Power BI
 description: Pakiet zawartości AT Internet Bridge dla usługi Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: fdbf43c5a0f6b031f8a3ef71363cb6db33bc63af
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 21554c5addac0adad84783dad83b4861544a3425
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-at-internet-bridge-with-power-bi"></a>Łączenie się z pakietem zawartości AT Internet Bridge za pomocą usługi Power BI
 Usługa AT Internet pozwala uzyskać natychmiastową wartość z danych z wykorzystaniem zunifikowanej cyfrowej platformy analitycznej Analytics Suite. Pakiet zawartości AT Internet Bridge dla usługi Power BI zawiera dane dotyczące wizyt, źródeł, lokalizacji i urządzeń dla witryny.

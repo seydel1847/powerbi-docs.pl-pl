@@ -1,28 +1,20 @@
 ---
 title: Łączenie się z usługą Microsoft Azure Consumption Insights przy użyciu usługi Power BI
 description: Pakiet zawartości Microsoft Azure Consumption Insights dla usługi Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggies
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggies
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 709921a98f6e06572063cf78a83e42bd6b439262
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 31f1d4161801b45307e92ad3f654d30843897dc8
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-microsoft-azure-consumption-insights-with-power-bi"></a>Łączenie się z usługą Microsoft Azure Consumption Insights przy użyciu usługi Power BI
 Eksploruj i monitoruj dane dotyczące użycia platformy Microsoft Azure w usłudze Power BI przy użyciu pakietu zawartości Power BI. Dane będą odświeżane automatycznie raz dziennie.
