@@ -1,27 +1,19 @@
 ---
-title: "Tworzenie dzierżawy usługi Azure Active Directory do użycia z usługą Power BI"
-description: "Dowiedz się, jak utworzyć nową dzierżawę usługi Azure Active Directory (Azure AD) do użycia z Twoją niestandardową aplikacją za pomocą interfejsów API REST usługi Power BI."
-services: powerbi
-documentationcenter: 
+title: Tworzenie dzierżawy usługi Azure Active Directory do użycia z usługą Power BI
+description: Dowiedz się, jak utworzyć nową dzierżawę usługi Azure Active Directory (Azure AD) do użycia z Twoją niestandardową aplikacją za pomocą interfejsów API REST usługi Power BI.
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 11/30/2017
 ms.author: maghan
-ms.openlocfilehash: b860bd57baa05bc718a51555ecb1118c306f5216
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: fd981b2f0c6e012444501a8a651092e11c3edf75
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="create-an-azure-active-directory-tenant-to-use-with-power-bi"></a>Tworzenie dzierżawy usługi Azure Active Directory do użycia z usługą Power BI
 Dowiedz się, jak utworzyć nową dzierżawę usługi Azure Active Directory (Azure AD) do użycia z Twoją niestandardową aplikacją za pomocą interfejsów API REST usługi Power BI.

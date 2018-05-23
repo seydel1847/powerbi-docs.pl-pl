@@ -1,28 +1,20 @@
 ---
 title: Tworzenie relacji i zarządzanie nimi w programie Power BI Desktop
 description: Tworzenie relacji i zarządzanie nimi w programie Power BI Desktop
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: d6c624b80bb1ea30dc62026032b5b4f5dd1ef745
-ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
+ms.openlocfilehash: 264071f314e4a05a3d0b283ab58d644dff4b44a1
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/04/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="create-and-manage-relationships-in-power-bi-desktop"></a>Tworzenie relacji i zarządzanie nimi w programie Power BI Desktop
 Gdy importujesz wiele tabel, istnieje prawdopodobieństwo, że wykonasz jakieś analizy z użyciem danych ze wszystkich tych tabel. Relacje między tymi tabelami są konieczne w celu dokładnego obliczenia wyników i wyświetlenia poprawnych informacji w raportach. Dzięki programowi Power BI Desktop tworzenie relacji jest łatwe. W większości przypadków nie musisz nawet nic robić, ponieważ wyręczy Cię funkcja Autowykrywanie. Jednak w niektórych przypadkach konieczne może być samodzielne utworzenie relacji lub wprowadzenie w niej pewnych zmian. W każdym razie ważne jest zrozumienie relacji w programie Power BI Desktop, a także poznanie sposobów ich tworzenia i edycji.

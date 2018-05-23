@@ -10,12 +10,14 @@
           href: service-the-new-power-bi-experience.md
     - name: Samouczki
       items:
-        - name: Łączenie się z usługą GitHub w trybie online
+        - name: Łączenie z przykładem z usługi GitHub
           href: service-tutorial-connect-to-github.md
     - name: Pojęcia
       items:
         - name: Co nowego w usłudze Power BI
           href: service-whats-new.md
+        - name: Rejestracja samoobsługowa
+          href: service-self-service-signup-for-power-bi.md
         - name: Podstawowe informacje o usłudze Power BI
           items:
             - name: Power BI — podstawowe pojęcia
@@ -56,16 +58,12 @@
           items:
             - name: Szybki wgląd w szczegółowe dane w usłudze Power BI
               href: service-insights.md
-            - name: Tworzenie pulpitu nawigacyjnego na podstawie raportu
-              href: service-dashboard-create.md
             - name: Pobieranie danych z plików
               href: service-get-data-from-files.md
             - name: Otwieranie raportu usługi Power BI w widoku do czytania lub do edycji
               href: service-reading-view-and-editing-view.md
             - name: 'Edytor raportu: krótki przewodnik'
               href: service-the-report-editor-take-a-tour.md
-            - name: Próbki danych dla usługi Power BI
-              href: sample-datasets.md
             - name: Wizualizacje w usłudze Power BI
               href: power-bi-report-visualizations.md
             - name: Źródła danych dla usługi Power BI
@@ -124,7 +122,9 @@
                   href: service-connect-to-services.md
                 - name: Acumatica
                   href: service-connect-to-acumatica.md
-                - name: Alpine Metrics Sales Predictions
+                - name: Adobe Analytics
+                  href: service-connect-to-adobe-analytics.md
+                - name: Przewidywania sprzedażowe firmy Alpine Metrics
                   href: service-connect-to-alpine-metrics.md
                 - name: appFigures
                   href: service-connect-to-appfigures.md
@@ -248,8 +248,6 @@
                   href: service-publish-to-powerpoint.md
         - name: Praca w usłudze Power BI
           items:
-            - name: Używanie pakietów zawartości próbek danych usługi Power BI
-              href: sample-tutorial-connect-to-the-samples.md
             - name: Błyskawiczne doskonałe raporty na podstawie skoroszytów programu Excel
               href: service-from-excel-to-stunning-report.md
             - name: Funkcja pytań i odpowiedzi umożliwia tworzenie wizualizacji i konstruowanie raportów
@@ -268,6 +266,8 @@
               href: refresh-scheduled-refresh.md
             - name: Pulpity nawigacyjne
               items:
+                - name: Tworzenie pulpitu nawigacyjnego na podstawie raportu
+                  href: service-dashboard-create.md
                 - name: Tworzenie kopii pulpitu nawigacyjnego
                   href: service-dashboard-copy.md
                 - name: Przypinanie kafelka do pulpitu nawigacyjnego usługi Power BI z raportu
@@ -314,19 +314,15 @@
                   href: power-bi-q-and-a-linguistic-schema.md
             - name: Udostępnianie wyników pracy
               items:
-                - name: 'Organizacyjne pakiety zawartości: wprowadzenie'
-                  href: service-organizational-content-pack-introduction.md
-                - name: Tworzenie i publikowanie organizacyjnego pakietu zawartości
-                  href: service-organizational-content-pack-create-and-publish.md
                 - name: Udostępnianie przefiltrowanego raportu
                   href: service-share-reports.md
                 - name: Publikowanie w sieci Web z usługi Power BI
                   href: service-publish-to-web.md
                 - name: Osadzanie raportu w usłudze SharePoint Online
                   href: service-embed-report-spo.md
-                - name: Łączenie się z plikami w usłudze OneDrive dla Firm grupy
+                - name: Łączenie się z plikami w usłudze OneDrive grupy
                   href: service-connect-to-files-in-app-workspace-onedrive-for-business.md
-                - name: Współpraca w obszarze roboczym grupy usługi Power BI
+                - name: Współpraca w obszarze roboczym grupy
                   href: service-collaborate-power-bi-workspace.md
                 - name: Zarządzanie grupą w usługach Power BI i Office 365
                   href: service-manage-app-workspace-in-power-bi-and-office-365.md
@@ -334,6 +330,10 @@
                   href: service-organizational-content-pack-manage-update-delete.md
                 - name: 'Organizacyjne pakiety zawartości: kopiowanie, odświeżanie i uzyskiwanie dostępu'
                   href: service-organizational-content-pack-copy-refresh-access.md
+                - name: 'Organizacyjne pakiety zawartości: wprowadzenie'
+                  href: service-organizational-content-pack-introduction.md
+                - name: Tworzenie i publikowanie organizacyjnego pakietu zawartości
+                  href: service-organizational-content-pack-create-and-publish.md
                 - name: Usuwanie połączenia z organizacyjnym pakietem zawartości
                   href: service-organizational-content-pack-disconnect.md
                 - name: Udostępnianie pulpitu nawigacyjnego z linkiem do skoroszytu programu Excel w usłudze OneDrive dla Firm
@@ -446,9 +446,13 @@
                   href: service-refresh-xero-credentials.md
     - name: Zasoby
       items:
-        - name: Obsługiwane przeglądarki dla usługi Power BI
+        - name: Wideo
+          href: videos.md
+        - name: Seminaria internetowe
+          href: webinars.md
+        - name: Obsługiwane przeglądarki
           href: service-browser-support.md
-        - name: Języki i kraje/regiony obsługiwane w usłudze Power BI
+        - name: Obsługiwane języki i kraje/regiony
           href: supported-languages-countries-regions.md
         - name: Oficjalne dokumenty
           href: whitepapers.md
@@ -480,24 +484,28 @@
           href: desktop-tutorial-row-level-security-onprem-ssas-tabular.md
     - name: Przykłady
       items:
-        - name: Pobieranie skoroszytu z przykładem danych finansowych dla usługi Power BI
-          href: sample-financial-download.md
-        - name: 'Próbka danych do analizy jakości dostawców dla usługi Power BI: krótki przewodnik'
-          href: sample-supplier-quality.md
-        - name: 'Próbka danych do analizy wydatków na zasoby informatyczne dla usługi Power BI: krótki przewodnik'
-          href: sample-it-spend.md
-        - name: 'Próbka danych dotyczących sprzedaży i marketingu dla usługi Power BI: krótki przewodnik'
-          href: sample-sales-and-marketing.md
-        - name: 'Próbka danych dotyczących zyskowności klientów dla usługi Power BI: krótki przewodnik'
+        - name: Przykłady dla usługi Power BI
+          href: sample-datasets.md
+        - name: Używanie przykładowych pakietów zawartości
+          href: sample-tutorial-connect-to-the-samples.md
+        - name: 'Przykład Customer Profitability: krótki przewodnik'
           href: sample-customer-profitability.md
-        - name: 'Próbka danych dotyczących kadr: krótki przewodnik'
+        - name: 'Przykład IT Spend Analysis: krótki przewodnik'
+          href: sample-it-spend.md
+        - name: 'Przykład Human Resources: krótki przewodnik'
           href: sample-human-resources.md
-        - name: 'Próbka danych do analizy szansy biznesowej dla usługi Power BI: krótki przewodnik'
+        - name: 'Przykład Opportunity Analysis: krótki przewodnik'
           href: sample-opportunity-analysis.md
-        - name: 'Próbka danych do analizy zakupów: krótki przewodnik'
+        - name: 'Przykład Procurement Analysis: krótki przewodnik'
           href: sample-procurement.md
-        - name: 'Próbka danych do analizy handlu detalicznego dla usługi Power BI: krótki przewodnik'
+        - name: 'Przykład Retail Analysis: krótki przewodnik'
           href: sample-retail-analysis.md
+        - name: 'Przykład Sales and Marketing: krótki przewodnik'
+          href: sample-sales-and-marketing.md
+        - name: 'Przykład Supplier Quality Analysis: krótki przewodnik'
+          href: sample-supplier-quality.md
+        - name: Pobieranie skoroszytu z przykładem danych finansowych
+          href: sample-financial-download.md
     - name: Pojęcia
       items:
         - name: Co nowego w najnowszej aktualizacji programu Power BI Desktop?
@@ -806,6 +814,8 @@
           items:
             - name: Wyświetlanie raportów lokalnych w aplikacjach mobilnych
               href: mobile-app-ssrs-kpis-mobile-on-premises-reports.md
+            - name: Aplikacja usługi Power BI dla rzeczywistości mieszanej (wersja zapoznawcza)
+              href: mobile-mixed-reality-app.md
             - name: Udostępnianie pulpitu nawigacyjnego z aplikacji mobilnych Power BI
               href: mobile-share-dashboard-from-the-mobile-apps.md
             - name: Interakcje z kafelkami w aplikacjach mobilnych
@@ -837,7 +847,7 @@
             - name: Wprowadzenie do aplikacji Power BI dla systemu Android
               href: mobile-android-app-get-started.md
             - name: Rozwiązywanie problemu z niezaufanym firmowym certyfikatem SSL
-              href: mobile-android-app-error-corporate-ssl-account-is-untrusted.md
+              href: mobile-android-error-update-android-system-webview.md
         - name: iOS
           items:
             - name: Wprowadzenie do aplikacji usługi Power BI dla systemu iOS
@@ -1004,8 +1014,6 @@
           href: report-server/changelog.md
         - name: Oś czasu pomocy technicznej
           href: report-server/support-timeline.md
-        - name: Obsługiwane źródła danych
-          href: report-server/data-sources.md
         - name: Wymagania dotyczące sprzętu i oprogramowania
           href: report-server/system-requirements.md
         - name: Obsługa przeglądarki
@@ -1016,9 +1024,9 @@
           items:
             - name: Zaplanowane odświeżanie raportu usługi Power BI
               href: report-server/scheduled-refresh.md
-            - name: Źródła danych raportu usługi Power BI (.pbix)
+            - name: Źródła danych raportu usługi Power BI
               href: report-server/data-sources.md
-            - name: Źródła danych raportu podzielonego na strony (RDL)
+            - name: Źródła danych raportu podzielonego na strony
               href: report-server/connect-data-sources.md
             - name: Subskrypcje
               href: 'https://go.microsoft.com/fwlink/?linkid=851310'
@@ -1048,10 +1056,6 @@
               href: report-server/getting-around.md
             - name: Tworzenie raportu podzielonego na strony dla serwera raportów
               href: report-server/quickstart-create-paginated-report.md
-            - name: Zaawansowane raporty usługi Power BI
-              href: 'https://go.microsoft.com/fwlink/?linkid=848708'
-            - name: Zaawansowane raporty z podziałem na strony
-              href: 'https://go.microsoft.com/fwlink/?linkid=848709'
             - name: Praca z kluczowymi wskaźnikami wydajności
               href: 'https://go.microsoft.com/fwlink/?linkid=849021'
             - name: 'Uzyskiwanie dostępu do udostępnionych zestawów danych jako źródeł danych usługi OData '

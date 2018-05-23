@@ -1,28 +1,20 @@
 ---
 title: Łączenie plików (danych binarnych) w programie Power BI Desktop
 description: Łatwe łączenie plikowych (binarnych) źródeł danych w programie Power BI Desktop
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 4996b7485cb9514b9378982d2149ef5380e8fdc9
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: 7a0a4f6296df351272a69ca30c8a8c08e1f9bcbc
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="combine-files-binaries-in-power-bi-desktop"></a>Łączenie plików (danych binarnych) w programie Power BI Desktop
 Jednym z zaawansowanych sposobów importowania danych do programu **Power BI Desktop** jest łączenie wielu plików, które mają ten sam schemat, w jedną tabelę logiczną. W wydaniu programu **Power BI Desktop** z listopada 2016 r. (oraz w kolejnych wersjach) ta wygodna i popularna metoda została udogodniona i rozszerzona, jak opisano w tym artykule.
