@@ -1,28 +1,20 @@
 ---
 title: Używanie przeglądania szczegółowego w programie Power BI Desktop
 description: Dowiedz się, jak przechodzić do szczegółowych danych na nowej stronie raportu w programie Power BI Desktop
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 05/08/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: d0c78643d285099f7b7856704ac7ee350ff9f93a
-ms.sourcegitcommit: 509be8852ba7595b9441c9479224f9dca298b26d
+ms.openlocfilehash: 8c9a0d075c6d55baa1f518874fa668a3f0db8cb3
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="use-drillthrough-in-power-bi-desktop"></a>Używanie przeglądania szczegółowego w programie Power BI Desktop
 **Przeglądanie szczegółowe** w programie **Power BI Desktop** umożliwia utworzenie strony w raporcie, która koncentruje się na określonej jednostce — takiej jak dostawca, klient lub producent. Dzięki tej skoncentrowanej stronie użytkownicy mogą kliknąć prawym przyciskiem myszy punkt danych na innej stronie raportu i użyć przeglądania szczegółowego, aby przejść do tej skoncentrowanej strony w celu uzyskania szczegółów przefiltrowanych do danego kontekstu.
@@ -71,6 +63,14 @@ Gdy następnie będziesz przechodzić do szczegółów w wizualizacji, zobaczysz
 ![filtry przejściowej pokazywane kursywą](media/desktop-drillthrough/drillthrough_07.png)
 
 Pamiętaj, że można to zrobić na stronach etykietek, ale będzie to dziwne doświadczenie (etykietki będą wyglądały na działające nieprawidłowo), wiec robienie tego z etykietkami nie jest zalecane.
+
+## <a name="add-a-measure-to-drillthrough"></a>Dodawanie miary do obszaru przeglądania szczegółowego
+
+Oprócz przekazywania wszystkich filtrów do okna przeglądania szczegółowego, możesz również dodać miarę (lub podsumowaną kolumnę liczbową) do obszaru przeglądania szczegółowego. W tym celu wystarczy przeciągnąć pole przeglądania szczegółowego do karty przeglądania szczegółowego. 
+
+![dodawanie miary do obszaru przeglądania szczegółowego](media/desktop-drillthrough/drillthrough_08.png)
+
+Po dodaniu miary (lub podsumowanej kolumny liczbowej) możesz przejść do szczegółów na stronie, gdy to pole jest używane w obszarze *Wartość* wizualizacji.
 
 To wszystko na temat używania **przeglądania szczegółowego** w raportach. Jest to doskonały sposób wyświetlania rozszerzonych informacji na temat jednostki wybranej dla filtru przeglądania szczegółowego.
 

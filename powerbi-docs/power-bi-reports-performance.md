@@ -1,28 +1,20 @@
 ---
-title: "Wydajność usługi Power BI — najlepsze rozwiązania"
-description: "Ten artykuł zawiera wskazówki dotyczące tworzenia szybkich i niezawodnych raportów w usłudze Power BI"
-services: powerbi
-documentationcenter: 
+title: Wydajność usługi Power BI — najlepsze rozwiązania
+description: Ten artykuł zawiera wskazówki dotyczące tworzenia szybkich i niezawodnych raportów w usłudze Power BI
 author: MarkMcGeeAtAquent
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: monitoring
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 12/12/2017
+ms.component: powerbi-service
+ms.topic: conceptual
+ms.date: 05/18/2018
 ms.author: v-mamcge
 LocalizationGroup: Reports
-ms.openlocfilehash: e584f48f5d3650821aac094ebfde7eef5261cc36
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: 78dcd0ac0735bfbb3c22678d6bda1397120360cd
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="power-bi-performance-best-practices"></a>Wydajność usługi Power BI — najlepsze rozwiązania 
 Ten artykuł zawiera wskazówki dotyczące tworzenia szybkich i niezawodnych raportów w usłudze Power BI.  
@@ -96,8 +88,14 @@ Pamiętaj, że w przypadku zapytań bezpośrednich i połączeń na żywo ta pam
 ## <a name="understand-custom-visual-performance"></a>Opis wydajności wizualizacji niestandardowych 
 Ustaw dla każdej wizualizacji niestandardowej jej własne tempo, aby zapewnić wysoką wydajność. Źle zoptymalizowane wizualizacje niestandardowe mogą negatywnie wpłynąć na wydajność całego raportu. 
  
-## <a name="deep-dive-into-query-performance-with-sql-profiler-and-power-bi-desktop"></a>Szczegółowy wgląd w wydajność zapytań za pomocą programów SQL Profiler i Power BI Desktop 
-Aby zapoznać się z bardziej szczegółowymi informacjami o tym, które wizualizacje zajmują najwięcej czasu i zasobów, możesz połączyć program SQL Profiler z programem Power BI Desktop w celu uzyskania pełnego widoku wydajności zapytań. Instrukcje są następujące: 
+## <a name="deep-dive-into-query-performance-with-sql-profiler-and-power-bi-desktop"></a>Szczegółowy wgląd w wydajność zapytań za pomocą programów SQL Profiler i Power BI Desktop
+
+Aby zapoznać się z bardziej szczegółowymi informacjami o tym, które wizualizacje zajmują najwięcej czasu i zasobów, możesz połączyć program SQL Profiler z programem Power BI Desktop w celu uzyskania pełnego widoku wydajności zapytań.
+
+> [!NOTE]
+> Program Power BI Desktop obsługuje nawiązywanie połączenia z portem diagnostycznym. Port diagnostyczny umożliwia innym narzędziom nawiązywanie połączenia i przeprowadzanie śledzeń w celach diagnostycznych. *Wprowadzanie jakichkolwiek zmian w modelu nie jest obsługiwane! Zmiany w modelu mogą prowadzić do uszkodzenia i utraty danych.*
+
+Instrukcje są następujące:
   
 1. **Zainstaluj program SQL Server Profiler i uruchom program Power BI Desktop** 
 

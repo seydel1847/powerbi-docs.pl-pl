@@ -1,28 +1,20 @@
 ---
 title: Nawiązywanie połączenia z usługą UserVoice przy użyciu usługi Power BI
 description: Usługa UserVoice dla usługi Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: bc55031358fe27b5bb935b8255c8b6b1c191d4ab
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 2761b2bd1230e18b5dd4e0b69342e55ed33d0983
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-uservoice-with-power-bi"></a>Nawiązywanie połączenia z usługą UserVoice przy użyciu usługi Power BI
 Przy użyciu usługi Power BI i pakietu zawartości UserVoice można łatwo śledzić i eksplorować dane w usłudze UserVoice. Usługa Power BI pobiera dane, w tym zgłoszenia, sugestie i oceny zadowolenia, a następnie na ich podstawie tworzy gotowy pulpit nawigacyjny i raporty.
@@ -42,7 +34,7 @@ Połącz się z [pakietem zawartości UserVoice](https://app.powerbi.com/getdata
 3. Wybierz pozycję **UserVoice**, a następnie **Pobierz**.
    
    ![](media/service-connect-to-uservoice/uservoice.png)
-4. Po wyświetleniu monitu wprowadź adres URL usługi UserVoice. Adres URL musi mieć postać https://fabrikam.uservoice.com, przy czym część „fabrikam” zastąp nazwą swojego produktu lub usługi.
+4. Po wyświetleniu monitu wprowadź adres URL usługi UserVoice. Adres URL musi być w pełni zgodny ze wzorcem https://fabrikam.uservoice.com, przy czym część „fabrikam” należy zastąpić nazwą swojego produktu lub usługi.
    
    >[!NOTE]
    >Adres nie zawiera końcowego ukośnika, a połączenie jest nawiązywane za pośrednictwem protokołu **https**.
@@ -70,7 +62,7 @@ Połącz się z [pakietem zawartości UserVoice](https://app.powerbi.com/getdata
 
 Jeśli po wpisaniu adresu URL usługi UserVoice pojawi się ten komunikat o błędzie, Upewnij się, że są spełnione następujące wymagania:
 
-* Adres URL jest zgodny ze wzorcem „https://fabrikam.uservoice.com”. Część „fabrikam” należy zastąpić poprawnym prefiksem adresu URL usługi UserVoice.
+* Adres URL jest w pełni zgodny ze wzorcem „https://fabrikam.uservoice.com”. Część „fabrikam” została zastąpiona poprawnym prefiksem adresu URL usługi UserVoice.
 * Upewnij się, że wszystkie litery są małymi literami.
 * Adres URL musi zaczynać się od **https**.
 * Na końcu adresu URL nie może znajdować się ukośnik.

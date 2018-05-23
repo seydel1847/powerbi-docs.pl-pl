@@ -1,28 +1,20 @@
 ---
-title: "Usługa Azure SQL Database i zapytanie bezpośrednie"
-description: "Usługa Azure SQL Database i zapytanie bezpośrednie"
-services: powerbi
-documentationcenter: 
+title: Usługa Azure SQL Database i zapytanie bezpośrednie
+description: Usługa Azure SQL Database i zapytanie bezpośrednie
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 12/18/2017
 ms.author: maghan
 LocalizationGroup: Data from databases
-ms.openlocfilehash: a32326c089c50ef4913f6d646d68d66e31efdbfc
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 27b2eb90a07d3112b771fd3ee23cc86353a46991
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="azure-sql-database-with-directquery"></a>Usługa Azure SQL Database i zapytanie bezpośrednie
 Dowiedz się, jak łączyć się bezpośrednio z usługą Azure SQL Database i tworzyć raporty wykorzystujące dane w czasie rzeczywistym. Dane mogą być przechowywane w lokalizacji źródłowej, a nie w usłudze Power BI.
@@ -38,7 +30,7 @@ Dzięki zapytaniu bezpośredniemu zapytania są wysyłane do usługi Azure SQL D
 * Funkcja Pytania i odpowiedzi nie jest dostępna dla zestawów danych zapytania bezpośredniego
 * Zmiany schematu nie są pobierane automatycznie
 
-Te ograniczenia i uwagi mogą ulegać zmianom w miarę kontynuowania procesu ulepszania środowisk. Etapy nawiązywania połączenia są szczegółowo opisane poniżej. 
+Te ograniczenia i uwagi mogą ulegać zmianom, gdy będziemy kontynuować proces ulepszania środowisk. Etapy nawiązywania połączenia są szczegółowo opisane poniżej. 
 
 ## <a name="power-bi-desktop-and-directquery"></a>Program Power BI Desktop i zapytania bezpośrednie
 W celu nawiązania połączenia z usługą Azure SQL Database za pomocą zapytania bezpośredniego należy użyć programu Power BI Desktop. Metoda ta zapewnia dodatkową elastyczność i możliwości. Raporty utworzone za pomocą programu Power BI Desktop mogą być następnie publikowane w usłudze Power BI. Dowiedz się więcej na temat nawiązywania połączenia z [usługą Azure SQL Database za pomocą zapytania bezpośredniego](desktop-use-directquery.md) w programie Power BI Desktop. 

@@ -1,28 +1,20 @@
 ---
 title: Nawiązywanie połączenia z systemem Zendesk przy użyciu usługi Power BI
 description: System Zendesk dla usługi Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 52adef9d30ec269e6e3a954632a54814b241623d
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 997dd8b598e67d590723c72fb35245c3b3486c8b
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-zendesk-with-power-bi"></a>Nawiązywanie połączenia z systemem Zendesk przy użyciu usługi Power BI
 Pakiet zawartości Zendesk oferuje pulpit nawigacyjny usługi Power BI oraz zestaw raportów usługi Power BI zapewniających wgląd w informacje dotyczące liczby biletów i wydajności agentów. Możesz użyć dostarczonego pulpitu nawigacyjnego i raportów lub dostosować je, aby podkreślić najważniejsze informacje.  Dane będą odświeżane automatycznie raz dziennie. 
@@ -42,7 +34,7 @@ Połącz się z [pakietem zawartości Zendesk](https://app.powerbi.com/getdata/s
 3. Wybierz pozycję **Zendesk** \> **Pobierz**.
    
    ![](media/service-connect-to-zendesk/zendesk.png)
-4. Podaj adres URL skojarzony z kontem. Ma on postać **https://firma.zendesk.com**. Szczegółowe informacje dotyczące [znajdowania tych parametrów](#FindingParams) zostały podane poniżej.
+4. Podaj adres URL skojarzony z kontem. Ma on postać **https://company.zendesk.com**. Szczegółowe informacje dotyczące [znajdowania tych parametrów](#FindingParams) zostały podane poniżej.
    
    ![](media/service-connect-to-zendesk/pbi_zendeskconnect.png)
 5. Po wyświetleniu monitu wprowadź poświadczenia systemu Zendesk.  Wybierz opcję **oAuth 2** jako mechanizm uwierzytelniania i kliknij przycisk **Zaloguj**. Postępuj zgodnie z przepływem uwierzytelniania systemu Zendesk. (Jeśli już wcześniej zalogowano się w systemie Zendesk w przeglądarce, monit o poświadczenia może nie zostać wyświetlony).

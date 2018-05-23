@@ -1,34 +1,31 @@
 ---
 title: Omówienie funkcji pytań i odpowiedzi w usłudze Power BI i programie Power BI Desktop
 description: Dokumentacja dotycząca tematu zapytań w języku naturalnym funkcji pytań i odpowiedzi usługi Power BI.
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: ''
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
+ms.topic: conceptual
 ms.date: 01/18/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: c48e118a6708cae901a01d1956b6a3d0ea6c0561
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: a1d39d10982f1d598ffce7e978c1b030e0a442d4
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/07/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="qa-in-power-bi-service-and-power-bi-desktop"></a>Funkcja pytań i odpowiedzi w usłudze Power BI i programie Power BI Desktop
 ## <a name="what-is-qa"></a>Co to jest funkcja pytań i odpowiedzi?
 Czasem najszybszym sposobem uzyskania odpowiedzi na podstawie danych jest zadanie pytania przy użyciu języka naturalnego. Na przykład „what were total sales last year” (ile wynosiła łączna sprzedaż w zeszłym roku).  Pytania i odpowiedzi pozwalają eksplorować dane, korzystając z intuicyjnych możliwości języka naturalnego, oraz uzyskiwać odpowiedzi w formie wykresów i schematów. Funkcja Pytania i odpowiedzi różni się od wyszukiwarki — Pytania i odpowiedzi zwraca tylko wyniki dotyczące danych w usłudze Power BI.
 
 Ten artykuł to punkt wyjścia dla wszystkich informacji o funkcji pytań i odpowiedzi. Wybierz link poniżej, aby dowiedzieć się, jak funkcja pytań i odpowiedzi działa w usłudze Power BI (pulpity nawigacyjne i raporty), programie Power BI Desktop (raporty), usłudze Power BI Embedded oraz usłudze Power BI dla urządzeń przenośnych.  
+
+> [!NOTE]
+> Funkcja **pytań i odpowiedzi w usłudze Power BI** obsługuje tylko udzielanie odpowiedzi na zapytania w języku naturalnym zadawane w języku angielskim. Możesz również wypróbować funkcję w wersji zapoznawczej dla pytań zadawanych w języku hiszpańskim. W programie **Power BI Desktop** wybierz pozycję **Plik**, **Opcje i ustawienia**, **Opcje**, a następnie wyszukaj kartę **Funkcje w wersji zapoznawczej**. Zaznacz pole wyboru **Obsługa języka hiszpańskiego w funkcji pytań i odpowiedzi**.  
+>
+>
 
 ![](media/power-bi-q-and-a/pbi_qa_boxsalessqft.png)
 

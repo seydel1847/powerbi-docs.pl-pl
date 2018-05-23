@@ -1,28 +1,20 @@
 ---
 title: Dystrybucja zawartości usługi Power BI do zewnętrznych użytkowników (gości) przy użyciu usługi Azure AD B2B
 description: Usługa Power BI integruje się z usługą Azure Active Directory Business-to-business (Azure AD B2B), aby zapewnić bezpieczny sposób dystrybucji zawartości usługi Power BI do użytkowników (gości) spoza organizacji.
-services: powerbi
-documentationcenter: ''
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-admin
+ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 16820050ad879b128482af5754bc53973449f982
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: 2cd096303412ef2ecbf65d818cfa70a007767da9
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Dystrybucja zawartości usługi Power BI do zewnętrznych użytkowników (gości) przy użyciu usługi Azure AD B2B
 
@@ -62,7 +54,7 @@ Zaproszenie planowane jest wykonywane w witrynie Microsoft Azure Portal w usłud
 
 4. Wybierz opcję **Zaproś**.
 
-Aby zaprosić więcej niż jednego użytkownika gościa, użyj programu PowerShell. Aby uzyskać więcej informacji, zobacz [Funkcja współpracy między firmami przy użyciu usługi Azure Active Directory oraz przykłady programu PowerShell](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-code-samples).
+Aby zaprosić więcej niż jednego użytkownika gościa, użyj programu PowerShell. Aby uzyskać więcej informacji, zobacz [Funkcja współpracy między firmami przy użyciu usługi Azure Active Directory oraz przykłady programu PowerShell](https://docs.microsoft.com/azure/active-directory/b2b/code-samples).
 
 Użytkownik gość musi wybrać opcję **Rozpoczynanie pracy** w odebranej wiadomości e-mail z zaproszeniem. Następnie gość zostanie dodany do dzierżawy.
 
@@ -111,7 +103,7 @@ Gość ma już licencję Power BI Pro przypisaną w ramach swojej dzierżawy.
 * W przypadku zaproszenia użytkowników-gości korzystających z osobistych kont e-mail, takich jak gmail.com, outlook.com lub hotmail.com, można wykonać to [osadzone wideo](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-redemption-experience), aby zobaczyć przykład sposobu, w jaki użytkownik może się zarejestrować.
 * Zewnętrzni goście B2B są ograniczeni tylko do korzystania z zawartości. Zewnętrzni goście B2B mogą wyświetlać aplikacje, pulpity nawigacyjne i raporty, eksportować dane oraz tworzyć subskrypcje e-mail dla pulpitów nawigacyjnych i raportów. Nie mogą uzyskiwać dostępu do obszarów roboczych ani publikować własnej zawartości.
 * Ta funkcja nie jest obecnie dostępna w aplikacjach mobilnych Power BI. Na urządzeniu przenośnym zawartość usługi Power BI udostępnianą za pośrednictwem usługi Azure AD B2B można wyświetlać w przeglądarce.
-* Stosowanie użytkowników-gości z usługą Power BI nie jest obsługiwane w suwerennych chmurach (dla instytucji rządowych).
+* Ta funkcja nie jest obecnie dostępna w składniku Web Part raportu usługi SharePoint Online w usłudze Power BI.
 
 ## <a name="next-steps"></a>Następne kroki
 

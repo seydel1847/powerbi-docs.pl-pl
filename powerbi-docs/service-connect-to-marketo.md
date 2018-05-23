@@ -1,28 +1,20 @@
 ---
 title: Nawiązywanie połączenia z usługą Marketo przy użyciu usługi Power BI
 description: Usługa Marketo dla usługi Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 78f128e870bbf775c805438464342612d5ba8382
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 3f7ad953f36830db74fb8e611dc9a0641498affd
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-marketo-with-power-bi"></a>Nawiązywanie połączenia z usługą Marketo przy użyciu usługi Power BI
 Pakiet zawartości usługi Power BI dla usługi Marketo pozwala uzyskać wgląd w przechowywane na koncie Marketo dane dotyczące potencjalnych klientów i ich działań. Po utworzeniu połączenia pobierane są dane, na podstawie których automatycznie tworzony jest pulpit nawigacyjny i powiązane raporty.
@@ -44,7 +36,7 @@ Połącz się z [pakietem zawartości Marketo](https://app.powerbi.com/getdata/s
    ![](media/service-connect-to-marketo/pbi_marketoconnect.png)
    
    Dowiedz się więcej o punkcie końcowym REST usługi Marketo: [http://developers.marketo.com/documentation/rest/endpoint-url/ ](http://developers.marketo.com/documentation/rest/endpoint-url/).
-5. Przy użyciu metody uwierzytelniania **Podstawowa** wprowadź identyfikator klienta jako **nazwę użytkownika** i klucz tajny klienta jako **hasło**. Identyfikator klienta i klucz tajny klienta można uzyskać w firmie Marketo lub od administratora usługi Marketo ([http://developers.marketo.com/documentation/rest/custom-service/](http://developers.marketo.com/documentation/rest/custom-service/)). 
+5. Przy użyciu metody uwierzytelniania **Podstawowa** wprowadź identyfikator klienta jako **nazwę użytkownika** i klucz tajny klienta jako **hasło**. Identyfikator klienta i wpis tajny klienta można uzyskać w firmie Marketo lub od administratora usługi Marketo ([http://developers.marketo.com/documentation/rest/custom-service/](http://developers.marketo.com/documentation/rest/custom-service/)). 
    
    ![](media/service-connect-to-marketo/pbi_marketosignin.png)
    

@@ -1,29 +1,21 @@
 ---
 title: Źródła danych raportów usługi Power BI na Serwerze raportów usługi Power BI
-description: Raporty usługi Power BI (PBIX) mogą łączyć się z kilkoma źródłami danych. Zależnie od sposobu użycia danych są dostępne różne źródła danych.
-services: powerbi
-documentationcenter: ''
+description: Raporty usługi Power BI mogą łączyć się z kilkoma źródłami danych. Zależnie od sposobu użycia danych są dostępne różne źródła danych.
 author: markingmyname
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 04/23/2018
+ms.component: powerbi-report-server
+ms.topic: conceptual
+ms.date: 05/17/2018
 ms.author: maghan
-ms.openlocfilehash: a32ef2e1e85b252a2a1071cb95c80149486c2604
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: 0f06d5c3742ea5187ff41f6f8974c8a81e5d1d33
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/19/2018
 ---
-# <a name="power-bi-report-pbix-data-sources-in-power-bi-report-server"></a>Źródła danych raportów usługi Power BI (PBIX) na serwerze raportów usługi Power BI
+# <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Źródła danych raportów usługi Power BI na Serwerze raportów usługi Power BI
 Raporty usługi Power BI mogą łączyć się z kilkoma źródłami danych. Zależnie od sposobu użycia danych są dostępne różne źródła danych. Dane można zaimportować lub wykonywać względem nich zapytania bezpośrednio przy użyciu zapytania bezpośredniego lub połączenia na żywo z usługami SQL Server Analysis Services.
 
 Te źródła danych są specyficzne dla raportów Power BI używanych na Serwerze raportów Power BI. Aby uzyskać informacje o źródłach danych obsługiwanych w raportach podzielonych na strony (RDL), zobacz [Źródła danych obsługiwane przez usługi Reporting Services](https://docs.microsoft.com/sql/reporting-services/report-data/data-sources-supported-by-reporting-services-ssrs).
@@ -156,7 +148,7 @@ Serwer raportów usługi Power BI nie obsługuje uwierzytelniania OAuth na potrz
 | Usługa Power BI |Nie |Nie |Nie |Nie |
 | Skrypt języka R |Nie |Nie |Nie |Nie |
 | Obiekty Salesforce |Nie |Nie |Nie |Nie |
-| Raporty Salesforce |Nie |Nie |Nie |Nie |
+| Raporty usługi Salesforce |Nie |Nie |Nie |Nie |
 | SAP Business Warehouse Server |Nie |Nie |Tak |Nie |
 | Baza danych SAP HANA |Nie |Nie |Tak |Tak |
 | Folder programu SharePoint (lokalny) |Tak |Nie |Nie |Tak |
@@ -217,5 +209,5 @@ Serwer raportów usługi Power BI nie obsługuje uwierzytelniania OAuth na potrz
 ## <a name="next-steps"></a>Następne kroki
 Teraz po połączeniu ze źródłem danych [utwórz raport usługi Power BI](quickstart-create-powerbi-report.md) przy użyciu danych z tego źródła danych.
 
-Więcej pytań? [Zadaj pytanie społeczności usługi Power BI](https://community.powerbi.com/)
+Masz więcej pytań? [Zadaj pytanie społeczności usługi Power BI](https://community.powerbi.com/)
 

@@ -1,28 +1,20 @@
 ---
 title: Łączenie się z usługami używanymi z usługą Power BI
 description: Nawiązywanie połączenia z wieloma usługami używanymi do prowadzenia firmy, takimi jak Salesforce, Microsoft Dynamics CRM i Google Analytics.
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 01/29/2018
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: c1df66100206198f3de32bea9859261d51d3774d
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 5b8a438ed354f246c5ac1d5ac0d0488db19633dd
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-the-services-you-use-with-power-bi"></a>Łączenie się z usługami używanymi z usługą Power BI
 Możliwe jest nawiązanie połączenia z wieloma usługami, których używasz do prowadzenia firmy, takimi jak Salesforce, Microsoft Dynamics CRM i Google Analytics. Usługa Power BI łączy się z usługą za pomocą poświadczeń, a następnie tworzy aplikację Power BI z pulpitem nawigacyjnym i zestawem raportów usługi Power BI, które automatycznie wyświetlają dane i zapewniają wgląd wizualny w informacje o firmie. 
@@ -31,7 +23,7 @@ Zaloguj się do usługi Power BI, aby wyświetlić wszystkie [usługi, z którym
 
 ![Aplikacje usługi AppSource](media/service-connect-to-services/overview.png)
 
-Po zainstalowaniu aplikacji możesz wyświetlić pulpit nawigacyjny i raporty w usłudze Power BI ([https://powerbi.com](https://powerbi.com)) i w aplikacjach mobilnych usługi Power BI. 
+Po zainstalowaniu aplikacji możesz wyświetlić pulpit nawigacyjny i raporty w usłudze Power BI ([https://powerbi.com](https://powerbi.com)) oraz w aplikacjach mobilnych usługi Power BI. 
 
 ![Aplikacja Google Analytics w aplikacji mobilnej usługi Power BI](media/service-connect-to-services/power-bi-service-mobile-app-240.png)
 

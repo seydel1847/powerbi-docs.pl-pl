@@ -1,28 +1,20 @@
 ---
 title: Łączenie się z projektem Project Madeira przy użyciu usługi Power BI
 description: Projekt Project Madeira dla usługi Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 02b8c2e8ed9a8a4ca0c8aaf9848699f3ca3c24c8
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: b4462d8ef5037cf4fe76a6ff061b7993e8d8ec44
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-project-madeira-with-power-bi"></a>Łączenie się z projektem Project Madeira przy użyciu usługi Power BI
 Pobieranie szczegółowych informacji o danych projektu Project Madeira przy użyciu usługi Power BI i pakietu zawartości projektu Project Madeira jest łatwe. Usługa Power BI pobiera dane, zarówno dotyczące sprzedaży, jak i finansowe, a następnie tworzy gotowe pulpity nawigacyjne i raporty na podstawie tych danych.
@@ -40,7 +32,7 @@ Połącz się z [pakietem zawartości Project Madeira Analytics](https://app.pow
     ![](media/service-connect-to-project-madeira/services.png)
 3. Wybierz kolejno opcje **Project Madeira** i **Pobierz**.  
     ![](media/service-connect-to-project-madeira/projectmadeira.png)
-4. Po wyświetleniu monitu wprowadź adres URL projektu Project Madeira. Adres URL musi być zgodny z następującym wzorem: https://mycronusus.projectmadeira.com:7048/NAV/OData/Company('CRONUS%20US'), z nazwą firmy w projekcie Project Madeira. Adres nie zawiera końcowego ukośnika, a połączenie musi być nawiązane za pośrednictwem protokołu https. Informacje dotyczące tego, jak znaleźć ten adres URL, znajdują się [poniżej](#FindingParams).  
+4. Po wyświetleniu monitu wprowadź adres URL projektu Project Madeira. Adres URL musi być w pełni zgodny ze wzorcem https://mycronusus.projectmadeira.com:7048/NAV/OData/Company('CRONUS%20US') z nazwą firmy z Twojego projektu „Madeira”. Adres nie zawiera końcowego ukośnika, a połączenie musi być nawiązane za pośrednictwem protokołu https. Informacje dotyczące tego, jak znaleźć ten adres URL, znajdują się [poniżej](#FindingParams).  
    
     ![](media/service-connect-to-project-madeira/params.png)
 5. Po wyświetleniu monitu wybierz opcję uwierzytelniania Podstawowe, wprowadź adres e-mail projektu Project Madeira jako nazwę użytkownika, a następnie wprowadź klucz dostępu usługi internetowej dla konta projektu Project Madeira jako hasło. Jeśli już wcześniej zalogowano się w projekcie Project Madeira w przeglądarce, monit o poświadczenia może nie zostać wyświetlony. Sprawdź szczegółowe informacje dotyczące generowania tego klucza dostępu [poniżej](#FindingParams).  

@@ -1,27 +1,19 @@
 ---
-title: "Obsługiwane języki w aplikacjach mobilnych usługi Power BI"
-description: "Zobacz listę języków obsługiwanych w aplikacjach mobilnych usługi Power BI."
-services: powerbi
-documentationcenter: 
+title: Obsługiwane języki w aplikacjach mobilnych usługi Power BI
+description: Zobacz listę języków obsługiwanych w aplikacjach mobilnych usługi Power BI.
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-mobile
+ms.topic: conceptual
 ms.date: 01/16/2018
 ms.author: maggies
-ms.openlocfilehash: 21cdf0492f4466ea337abb32b74ae0250dc0353d
-ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
+ms.openlocfilehash: 593b83f5ffb868cda3548315ce3f4840fadf0ec2
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="supported-languages-in-the-power-bi-mobile-apps"></a>Obsługiwane języki w aplikacjach mobilnych usługi Power BI
 Aplikacje mobilne usługi Power Bi obsługują obecnie następujące języki:

@@ -1,30 +1,23 @@
 ---
-title: 'Samouczek: nawiązywanie połączenia z aplikacją GitHub przy użyciu usługi Power BI'
+title: 'Samouczek: łączenie z przykładem z serwisu GitHub za pomocą usługi Power BI'
 description: W tym samouczku nawiążemy połączenie z danymi w usłudze GitHub przy użyciu usługi Power BI, która automatycznie utworzy pulpity nawigacyjne i raporty.
 author: maggiesMSFT
 manager: kfile
-backup: SarinaJoan
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: SarinaJoan
 ms.service: powerbi
 ms.component: powerbi-service
 ms.custom: connect-to-services
-ms.devlang: NA
 ms.topic: tutorial
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 05/05/2018
+ms.date: 05/17/2018
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 5f393d8255128b27dce8422444b427835aeef0cb
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: 1c2579f4250914933fd0459668fb55e4ba339f90
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/07/2018
+ms.lasthandoff: 05/19/2018
 ---
-# <a name="tutorial-connect-to-the-github-app-with-power-bi"></a>Samouczek: nawiązywanie połączenia z aplikacją GitHub przy użyciu usługi Power BI
+# <a name="tutorial-connect-to-a-github-sample-with-power-bi"></a>Samouczek: łączenie z przykładem z serwisu GitHub za pomocą usługi Power BI
 W tym samouczku nawiążemy połączenie z danymi w usłudze GitHub przy użyciu usługi Power BI, która automatycznie utworzy pulpity nawigacyjne i raporty. Po połączeniu się z publicznym repozytorium zawartości usługi Power BI (ang. *repo* — repozytorium) możemy uzyskać następujące informacje. Ile osób współtworzy publiczną zawartość w usłudze Power BI? Kto jest najbardziej aktywnym współautorem? W jaki dzień tygodnia jest przesyłanych najwięcej materiałów? Na te pytania znajdziemy odpowiedzi. 
 
 ![Raport GitHub w usłudze Power BI](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-punch-card.png)

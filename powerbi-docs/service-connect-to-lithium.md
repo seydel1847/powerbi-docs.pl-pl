@@ -1,28 +1,20 @@
 ---
 title: Łączenie się z pakietem zawartości Lithium przy użyciu usługi Power BI
 description: Pakiet zawartości Lithium dla usługi Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 501395503ef3c4b3bde8e6d7f0ae732af5a4cc6a
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 1d41ce3ff0c73675793e872170914b96a1d73d14
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-lithium-with-power-bi"></a>Łączenie się z pakietem zawartości Lithium przy użyciu usługi Power BI
 Usługa Lithium buduje zaufane relacje między najlepszymi na świecie markami i ich klientami, pomagając ludziom uzyskać odpowiedzi i dzielić się doświadczeniami. Łącząc pakiet zawartości Lithium z usługą Power BI, można mierzyć kluczowe metryki dotyczące społeczności online w celu poprawy sprzedaży, zmniejszania kosztów usługi i zwiększania lojalności. 
@@ -42,7 +34,7 @@ Połącz się z [pakietem zawartości Lithium](https://app.powerbi.com/getdata/s
 3. Wybierz pozycję **Lithium** \> **Pobierz**.
    
    ![](media/service-connect-to-lithium/lithiumconnect.png)
-4. Podaj adres URL swojej społeczności usługi Lithium. Będzie on mieć formę *https://community.yoursite.com*.
+4. Podaj adres URL swojej społeczności usługi Lithium. Będzie on w formie *https://community.yoursite.com*.
    
    ![](media/service-connect-to-lithium/params.png)
 5. Po wyświetleniu monitu wprowadź poświadczenia usługi Lithium. Wybierz opcję **oAuth 2** jako mechanizm uwierzytelniania i kliknij przycisk **Zaloguj**, a następnie postępuj zgodnie z przepływem uwierzytelniania usługi Lithium.

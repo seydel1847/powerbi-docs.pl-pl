@@ -1,29 +1,21 @@
 ---
 title: Osadzanie za pomocą składnika Web Part raportu w usłudze SharePoint Online
 description: Za pomocą nowego składnika Web Part raportu usługi Power BI dla usługi SharePoint Online można łatwo osadzić interaktywne raporty usługi Power BI na stronach usługi SharePoint Online.
-services: powerbi
-documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: ''
-qualityfocus: no
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 11/19/2017
 ms.author: maghan
 LocalizationGroup: Share your work
-ms.openlocfilehash: 11b1d2c1c5205fd1346e9350b0a814b7d76d4135
-ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
+ms.openlocfilehash: 757f59b59ea13478a943650f23ef98d9cc5b3e08
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>Osadzanie za pomocą składnika Web Part raportu w usłudze SharePoint Online
 
@@ -143,6 +135,8 @@ Należy skontaktować się z właścicielem strony usługi SharePoint Online, ab
   1. Wyloguj się z programu SharePoint, a następnie zaloguj się ponownie. Należy zamknąć wszystkie okna przeglądarki przed ponownym zalogowaniem.
 
   2. Jeśli Twoje konto użytkownika wymaga uwierzytelniania wieloskładnikowego (MFA), musisz zalogować się do programu SharePoint przy użyciu urządzenia z usługą Multi-Factor Authentication (aplikacji na telefon, karty inteligentnej itp.).
+  
+  3. Konta gości usługi Azure B2B nie są obsługiwane. Dla użytkowników będzie widoczne logo usługi Power BI przedstawiające ładowanie składnika Web Part, ale raport nie zostanie wyświetlony.
 
 * Usługa Power BI nie obsługuje tych samych zlokalizowanych języków co usługa SharePoint Online. W rezultacie w osadzonym raporcie może nie być wyświetlana właściwa lokalizacja.
 

@@ -1,28 +1,20 @@
 ---
 title: Łączenie się z usługą Adobe Analytics za pomocą usługi Power BI
 description: Łączenie się z usługą Adobe Analytics za pomocą usługi Power BI dla aplikacji, w której są wyświetlane dane konta w pulpicie nawigacyjnym i raportach.
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 452f970efda4c49e197ed578f5c5b05917aa43e7
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: e8e9b21e62f0a91234fccf78977a696e321ed8dc
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-adobe-analytics-with-power-bi"></a>Łączenie się z usługą Adobe Analytics za pomocą usługi Power BI
 Łączenie się z usługą Adobe Analytics za pomocą usługi Power BI należy zacząć od połączenia się z kontem Adobe Analytics Marketing Cloud. Uzyskasz aplikację z pulpitem nawigacyjnym usługi Power BI oraz zestawem raportów usługi Power BI zawierających informacje o ruchu w witrynie oraz wymiarach użytkownika. Dane są odświeżane automatycznie raz dziennie. Możesz korzystać z pulpitu nawigacyjnego i raportów, ale nie możesz zapisywać zmian.
@@ -98,7 +90,7 @@ Z [dokumentacji](https://marketing.adobe.com/resources/help/en_US/reference/new_
 ## <a name="troubleshooting"></a>Rozwiązywanie problemów
 Jeśli po wprowadzeniu poświadczeń jest wyświetlany błąd wskazujący, że nie masz uprawnień, skontaktuj się z administratorem, aby upewnić się, że masz dostęp do interfejsu API usługi Adobe Analytics. Upewnij się również, że podany identyfikator Adobe jest połączony z organizacją w usłudze Marketing Cloud (skojarzonej z firmą w usłudze Adobe Analytics).
 
-Jeśli pomyślnie podano poświadczenia, a błąd wystąpił później, tworzenie raportów może trwać zbyt długo. Typowy błąd to *„Nie można pobrać danych z raportu usługi Adobe Analytics. Zawartość: &quot;źródło odwołania, strona&quot;; Przybliżony czas trwania: xx s”*. Zapoznaj się z sekcją „Zawartość pakietu” i porównaj ją z rozmiarem wystąpienia Adobe. Niestety obecnie nie ma obejścia tego limitu czasu. Jednak rozważamy aktualizacje w celu zapewnienia lepszej obsługi większych wystąpień. Prześlij opinię do zespołu usługi Power BI za pośrednictwem witryny https://ideas.powerbi.com
+Jeśli pomyślnie podano poświadczenia, a błąd wystąpił później, tworzenie raportów może trwać zbyt długo. Typowy błąd to *„Nie można pobrać danych z raportu usługi Adobe Analytics. Zawartość: &quot;źródło odwołania, strona&quot;; Przybliżony czas trwania: xx s”*. Zapoznaj się z sekcją „Zawartość pakietu” i porównaj ją z rozmiarem wystąpienia Adobe. Niestety obecnie nie ma obejścia tego limitu czasu. Rozważamy jednak wprowadzenie aktualizacji w celu zapewnienia lepszej obsługi większych wystąpień. Prześlij opinię do zespołu usługi Power BI za pośrednictwem witryny https://ideas.powerbi.com
 
 ## <a name="next-steps"></a>Następne kroki
 * [Czym są aplikacje w usłudze Power BI?](service-install-use-apps.md)

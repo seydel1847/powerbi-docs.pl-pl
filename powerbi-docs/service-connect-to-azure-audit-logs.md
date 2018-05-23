@@ -1,28 +1,20 @@
 ---
 title: Łączenie się z dziennikami inspekcji platformy Azure za pomocą usługi Power BI
 description: Dzienniki inspekcji platformy Azure dla usługi Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 02/06/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: bb88ca524df5dd8c683c38a1a54a9bd626dad840
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 22020595b4f972f112f10e16fe7ae7d7fd4abed7
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-azure-audit-logs-with-power-bi"></a>Łączenie się z dziennikami inspekcji platformy Azure za pomocą usługi Power BI
 Pakiet zawartości dzienników inspekcji platformy Azure pozwala analizować i wizualizować informacje przechowywane w dziennikach inspekcji. Usługa Power BI pobiera dane, tworzy gotowy do użycia pulpit nawigacyjny i raporty w oparciu o dane.
@@ -67,8 +59,8 @@ Pakiet zawartości dzienników inspekcji platformy Azure wymaga dostępu do dzie
 ## <a name="finding-parameters"></a>Znajdowanie parametrów
 Istnieją dwa sposoby na proste odnalezienie identyfikatora subskrypcji.
 
-1. Z witryny https://portal.azure.com —&gt; Przeglądaj —&gt; Subskrypcje —&gt; Identyfikator subskrypcji
-2. Z witryny https://manage.windowsazure.com —&gt; Ustawienia —&gt; Identyfikator subskrypcji
+1. Z witryny https://portal.azure.com -&gt; Przeglądaj -&gt; Subskrypcje -&gt; Identyfikator subskrypcji
+2. Z witryny https://manage.windowsazure.com -&gt; Ustawienia -&gt; Identyfikator subskrypcji
 
 Identyfikator subskrypcji będzie długim zestawem cyfr i znaków, podobnym do przykładu w kroku \#4 powyżej. 
 
