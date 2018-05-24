@@ -1,27 +1,19 @@
 ---
-title: "Rejestrowanie aplikacji w usłudze Azure AD"
-description: "Przewodnik — Wypychanie danych do zestawu danych — Rejestrowanie aplikacji w usłudze Azure AD"
-services: powerbi
-documentationcenter: 
+title: Rejestrowanie aplikacji w usłudze Azure AD
+description: Przewodnik — Wypychanie danych do zestawu danych — Rejestrowanie aplikacji w usłudze Azure AD
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: 48ab2a51a479269b8846288b64089964a0544681
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 660f79eab32ae7ade5cea990c6fc152bb9507297
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="step-1-register-an-app-with-azure-ad"></a>Krok 1. Rejestrowanie aplikacji w usłudze Azure AD
 Ten artykuł jest częścią przewodnika krok po kroku dotyczącego [wypychania danych do zestawu danych](walkthrough-push-data.md).
@@ -39,7 +31,7 @@ Poniżej przedstawiono kroki, które należy wykonać, aby zarejestrować aplika
 2. Kliknij przycisk **Zaloguj się przy użyciu istniejącego konta** i zaloguj się na swoim koncie usługi Power BI.
 3. W polu **Nazwa aplikacji** wprowadź nazwę, na przykład „Przykładowa aplikacja do wypychania danych”.
 4. W polu **Typ aplikacji** wybierz pozycję **Aplikacja natywna**.
-5. Wprowadź **Adres URL przekierowania**, na przykład **https://login.live.com/oauth20_desktop.srf**. W przypadku **natywnej aplikacji klienckiej** identyfikator URI przekierowania udostępnia usłudze **Azure AD** więcej informacji na temat konkretnej aplikacji, która będzie w tej usłudze uwierzytelniana. Standardowy identyfikator URI aplikacji klienckiej to https://login.live.com/oauth20_desktop.srf.
+5. Wprowadź **adres URL przekierowania**, taki jak **https://login.live.com/oauth20_desktop.srf**. W przypadku **natywnej aplikacji klienckiej** identyfikator URI przekierowania udostępnia usłudze **Azure AD** więcej informacji na temat konkretnej aplikacji, która będzie w tej usłudze uwierzytelniana. Standardowy identyfikator URI aplikacji klienta to https://login.live.com/oauth20_desktop.srf.
 6. W kroku **Wybór interfejsów API na potrzeby uzyskiwania dostępu** wybierz pozycję **Odczytuj i zapisuj wszystkie zestawy danych**. Aby uzyskać informacje o wszystkich uprawnieniach aplikacji usługi Power BI, zobacz [Uprawnienia usługi Power BI](power-bi-permissions.md).
 7. Kliknij przycisk **Rejestracja aplikacji** i zapisz wygenerowany **identyfikator klienta**. **Identyfikator klienta** identyfikuje aplikację w usłudze Azure AD.
 

@@ -1,28 +1,20 @@
 ---
 title: Wprowadzenie do programu Power BI Desktop
 description: Wprowadzenie do programu Power BI Desktop
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 99f2679f30c8eebf40389883b41601d4fc3da939
-ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
+ms.openlocfilehash: 606ef1f1c69643852a94a7d83ece93cca8940e7a
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/04/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="getting-started-with-power-bi-desktop"></a>Wprowadzenie do programu Power BI Desktop
 Witamy **przewodniku Wprowadzenie do programu Power BI Desktop**. Ten krótki przewodnik po programie Power BI Desktop umożliwia zapoznanie się z działaniem programu, demonstruje jego możliwości i przyspiesza tworzenie niezawodnych modeli danych — wraz z zachwycającymi raportami — które uzupełniają działania w zakresie analizy biznesowej. 
@@ -336,6 +328,10 @@ Aby uzyskać więcej informacji o tworzeniu, udostępnianiu i modyfikowaniu pulp
 
 Istnieją różne rodzaje interesujących kombinacji i wizualizacji związanych z danymi, które możesz wykonać przy użyciu programu Power BI Desktop i usługi Power BI. Zapoznaj się z następną sekcją, aby uzyskać więcej informacji.
 
+## <a name="diagnostics"></a>Diagnostyka
+
+Program Power BI Desktop obsługuje nawiązywanie połączenia z portem diagnostycznym. Port diagnostyczny umożliwia innym narzędziom nawiązywanie połączenia i przeprowadzanie śledzeń w celach diagnostycznych. *Wprowadzanie jakichkolwiek zmian w modelu nie jest obsługiwane! Zmiany w modelu mogą prowadzić do uszkodzenia i utraty danych.*
+
 ## <a name="next-steps"></a>Następne kroki
 Przy użyciu programu Power BI Desktop można wykonywać różnorodne zadania. Aby uzyskać więcej informacji na temat jego możliwości, skorzystaj z następujących zasobów:
 
@@ -344,4 +340,3 @@ Przy użyciu programu Power BI Desktop można wykonywać różnorodne zadania. A
 * [Łączenie się z danymi w programie Power BI Desktop](desktop-connect-to-data.md)
 * [Kształtowanie i łączenie danych w programie Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Typowe zadania dotyczące zapytań w programie Power BI Desktop](desktop-common-query-tasks.md)   
-

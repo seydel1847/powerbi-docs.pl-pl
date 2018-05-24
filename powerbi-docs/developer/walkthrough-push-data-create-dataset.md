@@ -1,34 +1,26 @@
 ---
 title: Tworzenie zestawu danych
-description: "Przewodnik — wypychanie danych do zestawu danych — tworzenie zestawu danych w usłudze Power BI"
-services: powerbi
-documentationcenter: 
+description: Przewodnik — wypychanie danych do zestawu danych — tworzenie zestawu danych w usłudze Power BI
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: 31677a3d92ece6944825eccad190863f67c3a145
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: c94f0a94cfc2e59942a17b542efb7b1bb641174c
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="step-3-create-a-dataset-in-power-bi"></a>Krok 3. Tworzenie zestawu danych w usłudze Power BI
 Ten artykuł jest częścią przewodnika krok po kroku dotyczącego [wypychania danych do zestawu danych](walkthrough-push-data.md).
 
 W **kroku 2** procedury wypychania danych do zestawu danych [Uzyskiwanie tokenu dostępu do uwierzytelniania](walkthrough-push-data-get-token.md) przedstawiliśmy uwierzytelnianie w usłudze **Azure AD** za pomocą tokenu. W tym kroku przy użyciu tokenu wywołamy operację [Utwórz zestaw danych](https://msdn.microsoft.com/library/mt203562.aspx).
 
-Aby wywołać zasób interfejsu REST, należy użyć adresu URL umożliwiającego zlokalizowanie zasobu i wysłać ciąg JavaScript Object Notation (JSON) opisujący zestaw danych dla zasobu usługi Power BI. Zasób interfejsu REST identyfikuje części usługi Power BI, z którą chcesz pracować. Aby można było wypchnąć dane do zestawu danych, zasób docelowy musi być **zestawem danych**. Adres URL, który identyfikuje zestaw danych, to https://api.PowerBI.com/v1.0/myorg/datasets. Jeśli wypychasz dane w grupie, adres URL to https://api.PowerBI.com/v1.0/myorg/groups/{id_grupy}/datasets.
+Aby wywołać zasób interfejsu REST, należy użyć adresu URL umożliwiającego zlokalizowanie zasobu i wysłać ciąg JavaScript Object Notation (JSON) opisujący zestaw danych dla zasobu usługi Power BI. Zasób interfejsu REST identyfikuje części usługi Power BI, z którą chcesz pracować. Aby można było wypchnąć dane do zestawu danych, zasób docelowy musi być **zestawem danych**. Adres URL identyfikujący zestaw danych to https://api.PowerBI.com/v1.0/myorg/datasets. W przypadku wypychania danych w obrębie grupy adres URL to https://api.PowerBI.com/v1.0/myorg/groups/{group_id}/datasets.
 
 Na potrzeby uwierzytelniania operacji w interfejsie REST usługi Power BI do nagłówka żądania dodaj token uzyskany w ramach procedury [Uzyskiwanie tokenu dostępu do uwierzytelniania](walkthrough-push-data-get-token.md):
 

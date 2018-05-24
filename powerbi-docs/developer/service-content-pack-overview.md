@@ -1,27 +1,19 @@
 ---
-title: "Omówienie programu pakietu zawartości usługi Power BI"
-description: "Program certyfikacji pakietu zawartości"
-services: powerbi
-documentationcenter: 
+title: Omówienie programu pakietu zawartości usługi Power BI
+description: Program certyfikacji pakietu zawartości
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 02/20/2018
 ms.author: maghan
-ms.openlocfilehash: 2cc78b3d2a877e465d5f4bdc67f501b7de87f88e
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: cfb9727a41d602ce14bfd2a403a87e82d2f0e94d
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="overview-of-the-power-bi-service-content-pack-program"></a>Omówienie programu pakietu zawartości usługi Power BI
 Pakiet zawartości to zbiór gotowej do użycia zawartości, która umożliwia użytkownikom natychmiastowy wgląd w szczegółowe informacje na podstawie źródła. Pakiet zawartości zazwyczaj skupia się na konkretnym scenariuszu biznesowym, zapewniając szczegółowe informacje o roli, domenie lub przepływie pracy.
@@ -85,7 +77,7 @@ Opublikowane pakiety zawartości można aktualizować raz w miesiącu. Żądania
 Możesz napisać do nas wiadomość e-mail z pytaniami i wysłać ją pod adres [pbiservicesapps@microsoft.com](mailto:pbiservicesapps@microsoft.com)
 
 ## <a name="support"></a>Pomoc techniczna
-Aby uzyskać pomoc techniczną podczas tworzenia, skorzystaj ze strony [https://powerbi.microsoft.com/support](https://powerbi.microsoft.com/support). Jest ona aktywnie monitorowana i zarządzana. Incydenty klientów szybko znajdą swoją drogę do odpowiedniego zespołu.
+Pomoc podczas programowania można uzyskać pod adresem [https://powerbi.microsoft.com/support](https://powerbi.microsoft.com/support). Jest ona aktywnie monitorowana i zarządzana. Incydenty klientów szybko znajdą swoją drogę do odpowiedniego zespołu.
 
 ## <a name="next-step"></a>Następny krok
 [Tworzenie](template-content-pack-authoring.md)

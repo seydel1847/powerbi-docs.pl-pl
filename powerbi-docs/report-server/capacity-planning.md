@@ -1,27 +1,19 @@
 ---
-title: "Wskazówki dotyczące planowania wydajności serwera raportów usługi Power BI"
-description: "Ten dokument zawiera wskazówki dotyczące planowania wydajności serwera raportów usługi Power BI przez udostępnianie wyników testów obciążenia wykonywanych przy różnych obciążeniach."
-services: powerbi
-documentationcenter: 
+title: Wskazówki dotyczące planowania wydajności serwera raportów usługi Power BI
+description: Ten dokument zawiera wskazówki dotyczące planowania wydajności serwera raportów usługi Power BI przez udostępnianie wyników testów obciążenia wykonywanych przy różnych obciążeniach.
 author: parthsha
 manager: kfile
-backup: maghan
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: maghan
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-report-server
+ms.topic: conceptual
 ms.date: 3/5/2018
 ms.author: pashah
-ms.openlocfilehash: 36d12e520cd53abc0159e698f3f469f62f884c95
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 94f137f0b8627bf34e78d9ac36574c64dd5d4752
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="capacity-planning-guidance-for-power-bi-report-server"></a>Wskazówki dotyczące planowania wydajności serwera raportów usługi Power BI
 Serwer raportów usługi Power BI to samoobsługowe rozwiązanie z zakresu analizy biznesowej i raportowania dla przedsiębiorstw. Rozwiązanie to może być wdrażane przez klienta w siedzibie firmy, za zaporą. Serwer ten stanowi połączenie interaktywnych funkcji raportów znanych z programu Power BI Desktop oraz lokalnej platformy serwera znanej z usług SQL Server Reporting Services. Firmy coraz intensywniej korzystają z funkcji analiz i raportów, przez co trudno jest określić budżet na infrastrukturę sprzętową i licencje na oprogramowanie wymagane do skalowania bazy użytkowników w przedsiębiorstwie. Ten dokument zawiera wskazówki dotyczące planowania wydajności serwera raportów usługi Power BI przez udostępnianie wyników licznych testów obciążenia wykonywanych na serwerze raportów przy różnych obciążeniach. Mimo że raporty, zapytania i wzorce użycia stosowane w organizacji mogą być różne, wyniki przedstawione w tym dokumencie, wykonane testy oraz szczegółowy opis sposobu ich przeprowadzenia służą za punkt odniesienia dla każdego, kto zaczyna planowanie wdrażania serwera raportów usługi Power BI.
@@ -57,7 +49,7 @@ Wdrożenie serwera raportów usługi Power BI obejmowało następujące maszyny 
 Aby uzyskać informacje na temat szczegółowej konfiguracji poszczególnych maszyn wirtualnych użytych w tej topologii, zobacz Dodatek 1.1 — Topologia serwera raportów usługi Power BI i Dodatek 1.2 — Konfiguracja maszyny wirtualnej serwera raportów usługi Power BI.
 
 ### <a name="tests"></a>Testy
-Testy używane w przebiegach testów obciążenia są publicznie dostępne w projekcie usługi GitHub o nazwie Reporting Services Load Test Project (zobacz https://github.com/Microsoft/Reporting-Services-LoadTest). To narzędzie umożliwia badanie wydajności, niezawodności, skalowalności i możliwości odzyskiwania w zakresie usług SQL Server Reporting Services i serwera raportów usługi Power BI. Ten projekt składa się z czterech grup przypadków testowych:
+Testy używane w przebiegach testów obciążenia są publicznie dostępne w projekcie usługi GitHub o nazwie Reporting Services LoadTest (zobacz https://github.com/Microsoft/Reporting-Services-LoadTest). To narzędzie umożliwia badanie wydajności, niezawodności, skalowalności i możliwości odzyskiwania w zakresie usług SQL Server Reporting Services i serwera raportów usługi Power BI. Ten projekt składa się z czterech grup przypadków testowych:
 
 * Testy symulujące renderowanie raportów usługi Power BI,
 * Testy symulujące renderowanie raportów dla urządzeń przenośnych,
@@ -121,7 +113,7 @@ W tym dokumencie przedstawiono wyniki wykonania określonego zestawu raportów k
 ### <a name="1-topology"></a>1 Topologia
 **1.1 Topologia serwera raportów usługi Power BI**
 
-Aby skoncentrować się wyłącznie na działaniu serwera raportów usługi Power BI w różnych konfiguracjach, konfiguracja maszyny wirtualnej dla każdego typu maszyny (oprócz maszyny hostującej serwer raportów usługi Power BI) była taka sama. Każda maszyna była aprowizowana tak jak maszyny serii D drugiej generacji (v2) z dyskiem Premium Storage. Szczegółowe informacje dotyczące poszczególnych rozmiarów maszyny wirtualnej można znaleźć w sekcji „Zastosowania ogólne” na stronie https://azure.microsoft.com/pl-pl/pricing/details/virtual-machines/windows/.
+Aby skoncentrować się wyłącznie na działaniu serwera raportów usługi Power BI w różnych konfiguracjach, konfiguracja maszyny wirtualnej dla każdego typu maszyny (oprócz maszyny hostującej serwer raportów usługi Power BI) była taka sama. Każda maszyna była aprowizowana tak jak maszyny serii D drugiej generacji (v2) z dyskiem Premium Storage. Szczegółowe informacje dotyczące poszczególnych rozmiarów maszyn wirtualnych można znaleźć w sekcji „Zastosowania ogólne” na stronie https://azure.microsoft.com/en-us/pricing/details/virtual-machines/windows/.
 
 | Typ maszyny wirtualnej | Procesor | Pamięć | Rozmiar maszyny wirtualnej platformy Azure |
 | --- | --- | --- | --- |
@@ -131,7 +123,7 @@ Aby skoncentrować się wyłącznie na działaniu serwera raportów usługi Powe
 
 **1.2 Konfiguracja maszyny wirtualnej serwera raportów usługi Power BI** 
 
-Na maszynie wirtualnej hostującej serwer raportów usługi Power BI były używane różne konfiguracje procesora i pamięci. W przeciwieństwie do innych maszyn wirtualnych, ta maszyna była aprowizowana tak jak maszyny serii D trzeciej generacji (v3) z dyskiem Premium Storage. Szczegółowe informacje dotyczące poszczególnych rozmiarów tej maszyny wirtualnej można znaleźć w sekcji „Zastosowania ogólne” na stronie https://azure.microsoft.com/pl-pl/pricing/details/virtual-machines/windows/.
+Na maszynie wirtualnej hostującej serwer raportów usługi Power BI były używane różne konfiguracje procesora i pamięci. W przeciwieństwie do innych maszyn wirtualnych, ta maszyna była aprowizowana tak jak maszyny serii D trzeciej generacji (v3) z dyskiem Premium Storage. Szczegółowe informacje dotyczące tego rozmiaru maszyny wirtualnej można znaleźć w sekcji „Zastosowania ogólne” na stronie https://azure.microsoft.com/en-us/pricing/details/virtual-machines/windows/.
 
 | Maszyna wirtualna | Procesor | Pamięć | Rozmiar maszyny wirtualnej platformy Azure |
 | --- | --- | --- | --- |
@@ -144,8 +136,8 @@ Aby uruchomić narzędzie Reporting Services LoadTest we wdrożeniu serwera rapo
 1. Sklonuj projekt Reporting Services LoadTest z usługi GitHub (https://github.com/Microsoft/Reporting-Services-LoadTest).
 2. W katalogu projektu znajdziesz plik rozwiązania o nazwie RSLoadTests.sln. Otwórz ten plik w programie Visual Studio 2015 lub nowszym.
 3. Zdecyduj, czy chcesz uruchomić to narzędzie względem własnego wdrożenia serwera raportów usługi Power BI czy też względem wdrożenia serwera raportów usługi Power BI na platformie Microsoft Azure. Jeśli zamierzasz uruchomić narzędzie we wdrożeniu własnym, przejdź do kroku 5.
-4. Wykonaj instrukcje znajdujące się na stronie https://github.com/Microsoft/Reporting-Services-LoadTest#create-a-sql-server-reporting-services-load-environment-in-azure, aby utworzyć środowisko serwera raportów usługi Power BI na platformie Azure.
-5. Po zakończeniu wdrażania środowiska wykonaj instrukcje ze strony https://github.com/Microsoft/Reporting-Services-LoadTest#load-test-execution, aby uruchomić testy.
+4. Wykonaj instrukcje wyświetlane na stronie https://github.com/Microsoft/Reporting-Services-LoadTest#create-a-sql-server-reporting-services-load-environment-in-azure w celu utworzenia środowiska serwera raportów usługi Power BI na platformie Azure.
+5. Po zakończeniu wdrażania środowiska wykonaj instrukcje wyświetlane na stronie https://github.com/Microsoft/Reporting-Services-LoadTest#load-test-execution w celu uruchomienia testów.
 
 Masz więcej pytań? [Zadaj pytanie społeczności usługi Power BI](https://community.powerbi.com/)
 

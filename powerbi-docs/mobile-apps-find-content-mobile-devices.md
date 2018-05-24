@@ -1,27 +1,19 @@
 ---
-title: "Odnajdowanie pulpitów nawigacyjnych, raportów i aplikacji w aplikacjach mobilnych usługi Power BI"
-description: "Dowiedz się, gdzie znaleźć pulpity nawigacyjne, raporty i aplikacje w aplikacjach mobilnych usługi Power BI w zależności od ich pochodzenia."
-services: powerbi
-documentationcenter: 
+title: Odnajdowanie pulpitów nawigacyjnych, raportów i aplikacji w aplikacjach mobilnych usługi Power BI
+description: Dowiedz się, gdzie znaleźć pulpity nawigacyjne, raporty i aplikacje w aplikacjach mobilnych usługi Power BI w zależności od ich pochodzenia.
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 02/06/2018
 ms.author: maggies
-ms.openlocfilehash: 23a3fc38b1cf284f79b3515b25ec0396b79fb267
-ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
+ms.openlocfilehash: 26a45efaba84961351008bf7b3497c6214cfd702
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="find-your-dashboards-reports-and-apps-in-the-power-bi-mobile-apps"></a>Odnajdowanie pulpitów nawigacyjnych, raportów i aplikacji w aplikacjach mobilnych usługi Power BI
 Dotyczy:

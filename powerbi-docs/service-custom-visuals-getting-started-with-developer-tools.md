@@ -1,27 +1,19 @@
 ---
-title: "Tworzenie niestandardowych wizualizacji przy użyciu narzędzi deweloperskich"
-description: "Niestandardowe wizualizacje umożliwiają dostosowanie wizualizacji do potrzeb użytkowników i do projektu aplikacji. Dowiedz się, jak utworzyć niestandardową wizualizację dla usługi Power BI przy użyciu narzędzi deweloperskich."
-services: powerbi
-documentationcenter: 
+title: Tworzenie niestandardowych wizualizacji przy użyciu narzędzi deweloperskich
+description: Niestandardowe wizualizacje umożliwiają dostosowanie wizualizacji do potrzeb użytkowników i do projektu aplikacji. Dowiedz się, jak utworzyć niestandardową wizualizację dla usługi Power BI przy użyciu narzędzi deweloperskich.
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 11/30/2017
 ms.author: maghan
-ms.openlocfilehash: c7ed6a9b8acc74c9d4e39ff21a10624a208847f4
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 8b5da248b6992c8ae3e8d30caf4f0fc6c47bdcf5
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="use-developer-tools-to-create-custom-visuals"></a>Tworzenie niestandardowych wizualizacji przy użyciu narzędzi deweloperskich
 Niestandardowe wizualizacje umożliwiają dostosowanie wizualizacji do potrzeb użytkowników i do projektu aplikacji. Dowiedz się, jak utworzyć niestandardową wizualizację dla usługi Power BI przy użyciu narzędzi deweloperskich.
@@ -87,7 +79,7 @@ Aby tworzyć niestandardowe wizualizacje, należy zainstalować oprogramowanie N
     --install-cert  Install localhost certificate
     </code></pre>
 
-<a name"ssl-setup"></a>
+<a name="ssl-setup"></a>
 
 ### <a name="server-certificate-setup"></a>Konfiguracja certyfikatu serwera
 Aby umożliwić podgląd wizualizacji na żywo, wymagany jest zaufany serwer https. Przed rozpoczęciem należy zainstalować certyfikat SSL umożliwiający ładowanie zasobów wizualnych w przeglądarce internetowej. 
@@ -97,9 +89,24 @@ Aby umożliwić podgląd wizualizacji na żywo, wymagany jest zaufany serwer htt
 > 
 > 
 
-Aby *dodać* certyfikat, uruchom następujące polecenie.
+Aby *utworzyć* certyfikat, uruchom poniższe polecenie.
+
+    pbiviz --create-cert
+
+> [!NOTE]
+> Powinien zostać wyświetlony komunikat zawierający ścieżkę do lokalizacji certyfikatu i nowo wygenerowane hasło.
+> 
+> 
+
+
+Aby *zainstalować* certyfikat, uruchom poniższe polecenie.
 
     pbiviz --install-cert
+    
+> [!NOTE]
+> Powinien zostać wyświetlony komunikat z informacją o tym, że w celu zainstalowania certyfikatu PFX należy użyć nowo wygenerowanego hasła.
+> 
+> 
 
 **System operacyjny Windows**
 

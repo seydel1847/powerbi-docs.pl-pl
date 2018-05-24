@@ -1,28 +1,20 @@
 ---
 title: Łączenie się z bazą danych Impala w programie Power BI Desktop
 description: Łatwe nawiązywanie połączenia z bazą danych Impala i korzystanie z niej w programie Power BI Desktop
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: bef087b485573ba9a629887bfb05d875c88c8b4c
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: 9b00120a0c4c22ba8f031663ab19d94d2c482d3b
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-an-impala-database-in-power-bi-desktop"></a>Łączenie się z bazą danych Impala w programie Power BI Desktop
 W programie Power BI Desktop możesz nawiązać połączenie z bazą danych **Impala** i korzystać z danych źródłowych w taki sam sposób jak w przypadku dowolnego innego źródła danych w programie Power BI Desktop.
@@ -36,7 +28,7 @@ W wyświetlonym oknie **Impala** wpisz lub wklej nazwę serwera Impala w polu i 
 
 ![](media/desktop-connect-impala/connect_impala_3a.png)
 
-Gdy zostanie wyświetlony monit, wpisz nazwę użytkownika i hasło lub połącz się anonimowo — każda opcja jest obsługiwana.
+Po wyświetleniu monitu wprowadź poświadczenia lub nawiąż połączenie anonimowo. Łącznik Impala obsługuje uwierzytelnianie anonimowe, podstawowe (nazwa użytkownika i hasło) oraz systemu Windows.
 
 ![](media/desktop-connect-impala/connect_impala_4.png)
 
@@ -52,7 +44,7 @@ Po pomyślnym nawiązaniu połączenia zostanie wyświetlone okno **Nawigator** 
 ## <a name="considerations-and-limitations"></a>Istotne zagadnienia i ograniczenia
 Istnieje kilka ograniczeń i zagadnień, które należy wziąć pod uwagę w przypadku łącznika **Impala**:
 
-* Plany na przyszłość uwzględniają umożliwienie obsługi odświeżania za pomocą usługi **Power BI Gateway**.
+* Łącznik Impala jest obsługiwany w lokalnej bramie danych przy użyciu dowolnego z trzech obsługiwanych mechanizmów uwierzytelniania.
 
 ## <a name="next-steps"></a>Następne kroki
 Z poziomu programu Power BI Desktop możesz łączyć się z danymi różnego rodzaju. Więcej informacji na temat źródeł danych znajdziesz w następujących zasobach:

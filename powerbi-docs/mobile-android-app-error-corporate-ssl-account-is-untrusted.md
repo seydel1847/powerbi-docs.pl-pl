@@ -1,38 +1,22 @@
 ---
-title: "Błąd: "
-corporate: 
-ssl: 
-certificate: 
-is: 
-untrusted": 
-'-': 
-power: 
-bi": 
-description: "Podczas logowania do aplikacji Power BI w systemie Android może zostać wyświetlony komunikat „Nie można przeprowadzić uwierzytelnienia, ponieważ certyfikat SSL nie jest zaufany”"
-.": 
-services: powerbi
-documentationcenter: 
+title: Rozwiązywanie problemu „Firmowy certyfikat SSL nie jest zaufany”
+description: Podczas logowania do aplikacji Power BI w systemie Android może zostać wyświetlony komunikat „Nie można przeprowadzić uwierzytelnienia, ponieważ certyfikat SSL nie jest zaufany”
+.": ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 10/13/2017
+ms.component: powerbi-mobile
+ms.topic: conceptual
+ms.date: 05/18/2018
 ms.author: maggies
-ms.openlocfilehash: 4ef29c0cab96e21045f30805d7445aa34d37697a
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 494e148a62675aab1a6e799c4e4b61f022483d9f
+ms.sourcegitcommit: aa8045e42b979206c600bce4a8d17de1f0620462
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 05/22/2018
 ---
-# <a name="error-corporate-ssl-certificate-is-untrusted---power-bi"></a>Błąd: „Certyfikat SSL nie jest zaufany” — Power BI
+# <a name="fixing-corporate-ssl-certificate-is-untrusted---power-bi"></a>Rozwiązywanie problemu „Firmowy certyfikat SSL nie jest zaufany” — Power BI
 Podczas logowania do aplikacji Microsoft Power BI w systemie Android może zostać wyświetlony komunikat „Nie można przeprowadzić uwierzytelnienia, ponieważ certyfikat SSL nie jest zaufany przez to urządzenie. Skontaktuj się z administratorem IT w swojej firmie”. 
 
 Dalsze czynności zwykle zależą od systemu operacyjnego na urządzeniu z systemem Android, ale istnieje kilka innych problemów, które mogą być przyczyną tego błędu.

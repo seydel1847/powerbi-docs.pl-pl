@@ -484,7 +484,7 @@
           href: desktop-tutorial-row-level-security-onprem-ssas-tabular.md
     - name: Przykłady
       items:
-        - name: Przykłady dla usługi Power BI
+        - name: Próbki danych dla usługi Power BI
           href: sample-datasets.md
         - name: Używanie przykładowych pakietów zawartości
           href: sample-tutorial-connect-to-the-samples.md
@@ -492,11 +492,11 @@
           href: sample-customer-profitability.md
         - name: 'Przykład IT Spend Analysis: krótki przewodnik'
           href: sample-it-spend.md
-        - name: 'Przykład Human Resources: krótki przewodnik'
+        - name: 'Próbka danych dotyczących kadr: krótki przewodnik'
           href: sample-human-resources.md
         - name: 'Przykład Opportunity Analysis: krótki przewodnik'
           href: sample-opportunity-analysis.md
-        - name: 'Przykład Procurement Analysis: krótki przewodnik'
+        - name: 'Próbka danych do analizy zakupów: krótki przewodnik'
           href: sample-procurement.md
         - name: 'Przykład Retail Analysis: krótki przewodnik'
           href: sample-retail-analysis.md
@@ -846,7 +846,9 @@
           items:
             - name: Wprowadzenie do aplikacji Power BI dla systemu Android
               href: mobile-android-app-get-started.md
-            - name: Rozwiązywanie problemu z niezaufanym firmowym certyfikatem SSL
+            - name: Rozwiązywanie problemu „Firmowy certyfikat SSL nie jest zaufany”
+              href: mobile-android-app-error-corporate-ssl-account-is-untrusted.md
+            - name: Rozwiązywanie problemu „Wymagana aktualizacja aplikacji Android System Webview”
               href: mobile-android-error-update-android-system-webview.md
         - name: iOS
           items:

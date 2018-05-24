@@ -1,34 +1,26 @@
 ---
-title: "Środowiska szablonowych pakietów zawartości w usłudze Power BI"
-description: "Środowiska szablonowych pakietów zawartości"
-services: powerbi
-documentationcenter: 
+title: Środowiska szablonowych pakietów zawartości w usłudze Power BI
+description: Środowiska szablonowych pakietów zawartości
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 10/09/2017
 ms.author: maghan
-ms.openlocfilehash: fb1aaded94ce5411cf26257a1e561125cec9a347
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 1a29767eb76122865e93927bbbec1fbdcebe5678
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="template-content-pack-experiences-in-power-bi"></a>Środowiska szablonowych pakietów zawartości w usłudze Power BI
 W tej sekcji opisano typowe środowisko użytkownika nawiązującego połączenie z [pakietem zawartości](../service-connect-to-services.md) niezależnego dostawcy oprogramowania. 
 
 Wypróbuj samodzielnie środowisko połączenia, nawiązując połączenie z wydanym pakietem zawartości pod adresem https://app.powerbi.com/getdata/services (takim jak [pakiet zawartości GitHub](https://app.powerbi.com/getdata/services/github) opisany poniżej).
 
-## <a name="connect"></a>Nawiązywanie połączenia
+## <a name="connect"></a>Połącz
 Aby rozpocząć, użytkownik przegląda galerię pakietów zawartości i wybiera pakiet zawartości, z którym chce nawiązać połączenie. Wpis pakietu zawartości zawiera nazwę, ikonę i tekst opisowy z dodatkowymi informacjami dla użytkownika.
 
 ![połącz](media/template-content-pack-experience/github_data.png)

@@ -1,27 +1,19 @@
 ---
-title: "Tworzenie linku do określonej lokalizacji w aplikacjach mobilnych usługi Power BI"
-description: "Dowiedz się, jak utworzyć link bezpośredni do określonego pulpitu nawigacyjnego, kafelka lub raportu w aplikacji mobilnej usługi Power BI z identyfikatorem (URI)."
-services: powerbi
-documentationcenter: 
+title: Tworzenie linku do określonej lokalizacji w aplikacjach mobilnych usługi Power BI
+description: Dowiedz się, jak utworzyć link bezpośredni do określonego pulpitu nawigacyjnego, kafelka lub raportu w aplikacji mobilnej usługi Power BI z identyfikatorem (URI).
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-mobile
+ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: maggies
-ms.openlocfilehash: f0174dfd845508b859f703827cec6e1a9290fe78
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 3be6882219e23a2d22ee03e6805ce3a1e8e08b8f
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>Tworzenie linku do określonej lokalizacji w aplikacjach mobilnych usługi Power BI
 Możesz tworzyć identyfikator URI i używać go do łączenia z określoną lokalizacją (*link bezpośredni*) w aplikacjach mobilnych usługi Power BI na wszystkich platformach przenośnych: iOS, urządzeniach z systemem Android i Windows 10.
@@ -43,11 +35,11 @@ Ten identyfikator URI otwiera aplikację mobilną usługi Power BI do określone
 
 Aby znaleźć 36-znakowy identyfikator obiektu pulpitu nawigacyjnego, przejdź do określonego pulpitu nawigacyjnego w usłudze Power BI (https://powerbi.com). Na przykład zobacz wyróżnioną sekcję tego adresu URL:
 
-https://powerbi.com/groups/Me/Dashboards/**61b7e871-cb98-48ed-bddc-6572c921e270**
+https://powerbi.com/groups/me/dashboards/**61b7e871-cb98-48ed-bddc-6572c921e270**
 
 Jeśli pulpit nawigacyjny jest w grupie innej niż Mój obszar roboczy, dodaj `&GroupObjectId=<36-character-group-id>` przed lub po identyfikatorze pulpitu nawigacyjnego. Na przykład: 
 
-mspbi://app/OpenDashboard?DashboardObjectId=e684af3a-9e7f-44ee-b679-b9a1c59b5d60**&GroupObjectId=8cc900cc-7339-467f-8900-fec82d748248**
+mspbi://app/OpenDashboard?DashboardObjectId=e684af3a-9e7f-44ee-b679-b9a1c59b5d60 **&GroupObjectId=8cc900cc-7339-467f-8900-fec82d748248**
 
 Należy zwrócić uwagę na znak ampersand (&) między nimi.
 

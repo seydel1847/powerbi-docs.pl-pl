@@ -1,27 +1,19 @@
 ---
 title: Wprowadzenie do aplikacji mobilnej Power BI na telefonie iPhone
-description: "Dowiedz się, jak korzystać z usługi Power BI przy użyciu aplikacji Microsoft Power BI dla systemu iOS na telefonie iPhone, aby w dowolnym miejscu mieć dostęp do informacji biznesowych przechowywanych lokalnie i w chmurze."
-services: powerbi
-documentationcenter: 
+description: Dowiedz się, jak korzystać z usługi Power BI przy użyciu aplikacji Microsoft Power BI dla systemu iOS na telefonie iPhone, aby w dowolnym miejscu mieć dostęp do informacji biznesowych przechowywanych lokalnie i w chmurze.
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: complete
-qualitydate: 05/04/2016
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-mobile
+ms.topic: conceptual
 ms.date: 01/25/2018
 ms.author: maggies
-ms.openlocfilehash: 9a2f381ea97fb62d85841cbfcace8352007dd60b
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 9a3177dc0fe80ebc6c1041ce64b1186cb5865e37
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-an-iphone-or-ipod-touch"></a>Wprowadzenie do aplikacji mobilnej Power BI na telefonie iPhone lub urządzeniu iPod Touch
 Aplikacja Microsoft Power BI dla systemu iOS na telefonie iPhone lub urządzeniu iPod Touch obejmuje mobilne środowisko usługi Power BI, serwer raportów usługi Power BI oraz usługi Reporting Services. Możesz wyświetlać firmowe pulpity nawigacyjne i korzystać z nich lokalnie i w chmurze, niezależnie od tego, gdzie się znajdujesz, dzięki dostępowi mobilnemu na żywo, z obsługą dotykową. Przeglądaj dane w pulpitach nawigacyjnych i udostępniaj je współpracownikom w wiadomościach e-mail lub SMS. I zapewnij aktualność najświeższych danych w Twoim urządzeniu [Apple Watch](mobile-apple-watch.md).  

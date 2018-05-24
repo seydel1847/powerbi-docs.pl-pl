@@ -1,27 +1,19 @@
 ---
 title: Wprowadzenie do aplikacji mobilnej Power BI na tablecie iPad
-description: "Dowiedz się, jak korzystać z usługi Power BI przy użyciu aplikacji Microsoft Power BI dla systemu iOS na tablecie iPad, aby w dowolnym miejscu mieć dostęp do informacji biznesowych przechowywanych lokalnie i w chmurze."
-services: powerbi
-documentationcenter: 
+description: Dowiedz się, jak korzystać z usługi Power BI przy użyciu aplikacji Microsoft Power BI dla systemu iOS na tablecie iPad, aby w dowolnym miejscu mieć dostęp do informacji biznesowych przechowywanych lokalnie i w chmurze.
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: identified
-qualitydate: 08/08/2016
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-mobile
+ms.topic: conceptual
 ms.date: 01/25/2018
 ms.author: maggies
-ms.openlocfilehash: a35197e7775fb1b0dfec5c0905706f44d6f14494
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: ded3ad829a0c9a2d4892a5a06250f60a93662c61
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-an-ipad"></a>Wprowadzenie do aplikacji mobilnej Power BI na tablecie iPad
 Aplikacja Microsoft Power BI dla systemu iOS na tablecie iPad obejmuje mobilne środowisko usługi Power BI, serwera raportów usługi Power BI oraz usług Reporting Services. Możesz wyświetlać firmowe pulpity nawigacyjne i korzystać z nich lokalnie i w chmurze, niezależnie od tego, gdzie się znajdujesz, dzięki dostępowi mobilnemu na żywo, z obsługą dotykową. Przeglądaj dane w pulpitach nawigacyjnych i udostępniaj je współpracownikom w wiadomościach e-mail lub SMS. 
@@ -46,7 +38,7 @@ Zobacz, [co nowego w aplikacjach mobilnych usługi Power BI](mobile-whats-new-in
 > 
 
 ## <a name="sign-up-for-the-power-bi-service"></a>Tworzenie konta w usłudze Power BI
-Jeśli nie masz jeszcze konta, przejdź do witryny usługi Power BI (https://powerbi.com), aby je utworzyć. Jest to bezpłatne.
+Jeśli jeszcze tam nie jesteś, przejdź do witryny usługi Power BI (https://powerbi.com). Jest to bezpłatne.
 
 ## <a name="get-started-with-the-power-bi-app"></a>Rozpoczynanie pracy z aplikacją Power BI
 1. Na tablecie iPad otwórz aplikację Power BI.
