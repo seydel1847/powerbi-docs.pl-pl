@@ -96,6 +96,8 @@
                   href: service-print.md
                 - name: Subskrybowanie raportu lub pulpitu nawigacyjnego
                   href: service-report-subscribe.md
+                - name: Różne sposoby otwierania raportu
+                  href: service-report-open.md
                 - name: Zmienianie nazwy zawartości w usłudze Power BI
                   href: service-rename.md
                 - name: Wyświetlanie pulpitów nawigacyjnych i raportów w trybie pełnoekranowym (tryb TV)

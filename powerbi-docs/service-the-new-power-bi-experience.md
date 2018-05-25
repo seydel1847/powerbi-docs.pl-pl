@@ -8,14 +8,14 @@ featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: quickstart
-ms.date: 05/07/2018
+ms.date: 05/18/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 157103ff224cf0d71e2ca14106903b9c89fdc3d4
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 004b9c921de9e94cb52f90cdea4815acd6162175
+ms.sourcegitcommit: 2b9ef93bbff5c741ba55ea0502f642632683d593
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>Szybki start — poruszanie się po usłudze Power BI
 
@@ -125,6 +125,19 @@ Zawartość można również sortować według nazwy lub właściciela.
 ![sortowanie zawartości](media/service-the-new-power-bi-experience/power-bi-sort.png)
 
 Aby dowiedzieć się więcej, zobacz [Nawigacja w usłudze Power BI: wyszukiwanie, sortowanie, filtrowanie](service-navigation-search-filter-sort.md)
+
+## <a name="clean-up-resources"></a>Czyszczenie zasobów
+Jeśli chcesz, po zakończeniu tego przewodnika Szybki start możesz usunąć pulpit nawigacyjny, raport i zestaw danych przykładu Retail Analysis.
+
+1. Otwórz usługę Power BI (app.powerbi.com) i zaloguj się.    
+2. W lewym okienku nawigacji wybierz kolejno pozycje **Obszary robocze > Mój obszar roboczy**.  
+    Widzisz żółtą gwiazdkę informującą o tym, że jest to element ulubiony?    
+3. Na karcie **Pulpity nawigacyjne** wybierz ikonę kosza na śmieci **Usuń** obok pulpitu nawigacyjnego Retail Analysis.    
+
+    ![usuwanie pulpitu nawigacyjnego](media/service-the-new-power-bi-experience/power-bi-cleanup.png)
+
+4. Wybierz kartę **Raporty** i zrób to samo dla raportu Retail Analysis.
+1. Wybierz kartę **Zestawy danych** i zrób to samo dla zestawu danych Retail Analysis.
 
 ## <a name="next-steps"></a>Następne kroki
 

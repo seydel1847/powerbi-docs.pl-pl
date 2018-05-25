@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 04/11/2018
+ms.date: 05/18/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 071f7ea0c324ec8fe0160766f65cf929f811362a
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: aeaea6d14cf8f4fd62fbbf5098e68429fe40b96a
+ms.sourcegitcommit: 2b9ef93bbff5c741ba55ea0502f642632683d593
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Filtrowanie raportu za pomocą parametrów ciągu zapytania w adresie URL
 Po otwarciu raportu w usłudze Power BI każda strona raportu ma własny unikatowy adres URL. Aby wykonać filtrowanie takiej strony raportu, możesz użyć okienka Filtr na kanwie raportów.  Możesz też dodać parametry ciągu zapytania do adresu URL. Być może masz raport, który chcesz pokazać współpracownikom, ale najpierw planujesz go wstępnie przefiltrować. Jeden ze sposobów polega na tym, aby rozpocząć od domyślnego adresu URL raportu, dodać do niego parametry filtru, a następnie po prostu wysłać cały adres URL swoim współpracownikom za pośrednictwem poczty e-mail.
@@ -47,7 +47,7 @@ Załóżmy, że adres URL raportu wygląda następująco.
 Na przedstawionej wizualizacji mapy (patrz powyżej) widać, że w Karolinie Północnej są zlokalizowane sklepy.
 
 >[!NOTE]
->Ten przykład jest oparty na [próbce analizy handlu detalicznego](sample-datasets.md).
+>Ten przykład jest oparty na [przykładzie Retail Analysis](sample-datasets.md).
 > 
 
 Aby zastosować filtrowanie raportu w celu uwzględnienia wyłącznie danych dla sklepów w Karolinie Północnej („NC”), dołącz następujący ciąg do adresu URL:
@@ -97,9 +97,10 @@ Po przefiltrowaniu raportu za pomocą parametrów ciągu zapytania możesz przyp
 
 W niektórych przypadkach może okazać się to przydatne. Na przykład, gdy chcesz wyświetlić różne wyniki: filtrowane na pulpicie nawigacyjnym i niefiltrowane w raporcie.
 
-## <a name="limitations-and-troubleshooting"></a>Ograniczenia i rozwiązywanie problemów
+## <a name="considerations-and-troubleshooting"></a>Istotne zagadnienia i rozwiązywanie problemów
 Używając parametrów ciągu zapytania, należy pamiętać o kilku rzeczach.
 
+* W przypadku serwera raportów usługi Power BI możesz [przekazywać parametry raportu](https://docs.microsoft.com/sql/reporting-services/pass-a-report-parameter-within-a-url?view=sql-server-2017.md) przez uwzględnienie ich w adresie URL raportu. Te parametry w adresie URL nie mają prefiksów, ponieważ są przekazywane bezpośrednio do aparatu przetwarzania raportów. 
 * Filtrowanie ciągu zapytania nie działa z adresami URL [publikowania w Internecie](service-publish-to-web.md) ani usługą Power BI Embedded.   
 * Typ pola musi być liczbą lub ciągiem.
 * Nazwy tabeli i pola nie mogą zawierać spacji.
