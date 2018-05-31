@@ -1,20 +1,20 @@
 ---
 title: Osadzanie raportu przy użyciu elementu iFrame
 description: Osadzanie raportu serwera raportów usługi Power BI w elemencie iFrame w programie SharePoint Server
+services: powerbi
 author: markingmyname
 ms.author: maghan
 ms.date: 05/04/2018
 ms.topic: quickstart
 ms.service: powerbi
-ms.component: powerbi-report-server
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: 8d7653e6f390959df745fa2b19076ee89b26b1bc
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 0639ea11fd09bd7cfe81328e8bee6112d61937aa
+ms.sourcegitcommit: c29525cbac2e747edb4dd3a1841084bb0ce42582
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34293702"
+ms.lasthandoff: 05/08/2018
+ms.locfileid: "33867536"
 ---
 # <a name="quickstart-embed-a-power-bi-report-server-report-using-an-iframe-in-sharepoint-server"></a>Szybki start: osadzanie raportu serwera raportów usługi Power BI w elemencie iFrame w programie SharePoint Server
 
