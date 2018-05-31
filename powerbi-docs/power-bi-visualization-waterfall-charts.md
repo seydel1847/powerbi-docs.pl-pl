@@ -1,30 +1,22 @@
 ---
 title: Wykresy kaskadowe w usłudze Power BI
 description: Wykresy kaskadowe w usłudze Power BI
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: maTzOJSRB3g
-qualityfocus: no
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 01/20/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 101680bd353237af61a885155acd2fcd66a35404
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: c35e0f6bc039a1a0e97983349c8c7fc3ad25f273
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/07/2018
-ms.locfileid: "33812615"
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34295519"
 ---
 # <a name="waterfall-charts-in-power-bi"></a>Wykresy kaskadowe w usłudze Power BI
 Wykres kaskadowy pokazuje sumę bieżącą, gdy wartości są dodawane lub odejmowane. Jest to użyteczne, jeśli chcemy zrozumieć, jak na początkową wartość (np. przychód netto) ma wpływ seria zmian dodatnich i ujemnych.
