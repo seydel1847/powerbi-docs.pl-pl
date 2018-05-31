@@ -1,31 +1,24 @@
 ---
-title: Fragmentatory w usłudze Power BI (samouczek)
-description: 'Samouczek: fragmentatory w usłudze Power BI'
-services: powerbi
-documentationcenter: ''
+title: Fragmentatory w usłudze Power BI
+description: Fragmentatory w usłudze Power BI
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: zIZPA0UrJyA
-qualityfocus: monitoring
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 03/05/2018
 ms.author: v-thepet
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 30f548e73dd9f3c4fb93f048dec0c46eee3845ca
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: 77c1dbe528b218fe3b51992f548325bb8916c22c
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34297359"
 ---
-# <a name="slicers-in-power-bi-tutorial"></a>Fragmentatory w usłudze Power BI (samouczek)
+# <a name="slicers-in-power-bi"></a>Fragmentatory w usłudze Power BI
 Chcesz, aby czytelnicy raportu mogli zapoznawać się z ogólnymi metrykami sprzedaży, ale również identyfikować wydajność poszczególnych menedżerów regionalnych i wydajność w różnych przedziałach czasowych. Możesz utworzyć oddzielne raporty lub wykresy porównawcze albo skorzystać z fragmentatorów. Fragmentator to alternatywny sposób filtrowania, który zawęża część zestawu danych wyświetlanego w innych wizualizacjach w raporcie. 
 
 W tym samouczku używamy [przykładu Retail Analysis](sample-retail-analysis.md), aby przeprowadzić użytkownika przez proces tworzenia, formatowania i używania fragmentatorów opartych na listach i zakresach dat. Baw się dobrze, odkrywając sposoby formatowania i korzystania z fragmentatorów. 
@@ -187,7 +180,7 @@ Inne opcje formatowania są domyślnie wyłączone. Po **włączeniu**:
 
 Masz pomysły dotyczące poprawy usługi Power BI? [Prześlij pomysł](https://ideas.powerbi.com/forums/265200-power-bi-ideas).
 
-Więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
+Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
 
 [Dodawanie wizualizacji do raportu](power-bi-report-add-visualizations-i.md)
 

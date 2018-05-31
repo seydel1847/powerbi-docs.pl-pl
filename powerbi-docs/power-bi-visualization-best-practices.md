@@ -18,11 +18,12 @@ ms.workload: powerbi
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c1b0d87d432dc337a1dab5d13bba10cc8c99dd14
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: 26d04c77967a8223672cbe174a3c45e6d12602ea
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33813374"
 ---
 # <a name="best-design-practices-for-reports-and-visuals"></a>Najlepsze rozwiązania dotyczące projektowania raportów i wizualizacji
 <!-- Shared newnav Include -->
@@ -734,7 +735,7 @@ Aby to zrobić, otwórz okienko formatowania, rozwiń pozycję **Oś Y** i włą
 
 Aby uzyskać więcej informacji:
 
-* [Samouczek: wykres kombi w usłudze Power BI](power-bi-visualization-combo-chart.md)
+* [Wykres kombi w usłudze Power BI](power-bi-visualization-combo-chart.md)
 * [The danger of dual-scaled Axes in visuals](http://www.perceptualedge.com/articles/visual_business_intelligence/dual-scaled_axes.pdf) (Problemy związane z osiami o różnych skalach w wizualizacjach)
 
 ### <a name="scatter-chart"></a>Wykres punktowy
@@ -810,8 +811,8 @@ Kluczowe wskaźniki wydajności ilustrują wartość, stan, cel, odchylenie od c
 
 Aby uzyskać więcej informacji, zobacz:
 
-* [Samouczek: wykresy w postaci mierników promieniowych w usłudze Power BI](power-bi-visualization-radial-gauge-charts.md)
-* [Samouczek: kluczowe wskaźniki wydajności w usłudze Power BI](power-bi-visualization-kpi.md)
+* [Wykresy w postaci mierników promieniowych w usłudze Power BI](power-bi-visualization-radial-gauge-charts.md)
+* [Kluczowe wskaźniki wydajności w usłudze Power BI](power-bi-visualization-kpi.md)
 
 ## <a name="conclusion"></a>Podsumowanie
 Czas na przetestowanie tych najlepszych rozwiązań.  Pozostawaj w kontakcie i udostępniaj własne najlepsze rozwiązania. Nie zgadzasz się z naszymi zaleceniami? Możesz nam podać doskonały powód do odstąpienia od reguł?  Czekamy także na takie informacje.  

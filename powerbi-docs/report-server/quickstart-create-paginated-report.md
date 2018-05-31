@@ -1,29 +1,22 @@
 ---
-title: "Szybki start: tworzenie raportu z podziałem na strony dla serwera raportów usługi Power BI"
-description: "Dowiedz się, jak utworzyć z podziałem na strony raport dla serwera raportów usługi Power BI w kilku prostych krokach."
-services: powerbi
-documentationcenter: 
+title: Tworzenie raportu podzielonego na strony dla serwera raportów usługi Power BI
+description: Dowiedz się, jak utworzyć z podziałem na strony raport dla serwera raportów usługi Power BI w kilku prostych krokach.
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-report-server
+ms.topic: conceptual
 ms.date: 10/12/2017
 ms.author: maggies
-ms.openlocfilehash: 1e77a1ef92826010d6bc2fa28749a2ee17bbe723
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 75810bfad9efd5a0ea42a07d44a61d4f92f7f232
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34294921"
 ---
-# <a name="quickstart-create-a-paginated-report-for-power-bi-report-server"></a>Szybki start: tworzenie raportu z podziałem na strony dla serwera raportów usługi Power BI
+# <a name="create-a-paginated-report-for-power-bi-report-server"></a>Tworzenie raportu podzielonego na strony dla serwera raportów usługi Power BI
 Jak wskazuje nazwa, raporty z podziałem na strony można uruchamiać na wielu stronach. Mają one układ zgodny z ustalonym formatem i umożliwiają dokładne dostosowanie. Raporty z podziałem na strony są plikami RDL.
 
 Raporty z podziałem na strony można przechowywać i zarządzać nimi w portalu internetowym serwera raportów usługi Power BI, podobnie jak w portalu sieci web usługi SQL Server Reporting Services (SSRS). Możesz je tworzyć i edytować za pomocą programu Report Builder lub Projektanta raportów w programie SQL Server Data Tools (SSDT), a następie opublikować je w dowolnym portalu sieci web. Następnie czytelnicy raportów w Twojej organizacji będą mogli wyświetlać je w przeglądarce lub w aplikacji mobilnej usługi Power BI na swoim urządzeniu przenośnym.

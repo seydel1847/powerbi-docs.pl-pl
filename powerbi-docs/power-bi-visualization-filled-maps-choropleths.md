@@ -1,6 +1,6 @@
 ---
-title: Kartogramy w usłudze Power BI (samouczek)
-description: Dokumentacja — samouczek dotyczący tworzenia kartogramów w usłudze Power BI
+title: Kartogramy w usłudze Power BI
+description: Dokumentacja dotycząca tworzenia kartogramów w usłudze Power BI
 services: powerbi
 documentationcenter: ''
 author: mihart
@@ -19,13 +19,14 @@ ms.workload: powerbi
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a6cddcf361072bdd265a94de9efd5dbc7ecf05c8
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: e982fa5cc75249ab2475e02150a92294cb87980a
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33812316"
 ---
-# <a name="filled-maps-choropleths-in-power-bi-tutorial"></a>Kartogramy w usłudze Power BI (samouczek)
+# <a name="filled-maps-choropleths-in-power-bi"></a>Kartogramy w usłudze Power BI
 Kartogram używa cieniowania lub barwienia, lub wzorców do wyświetlania, jak wartość różni się w części lokalizacji geograficznej lub regionu.  Szybko wyświetlaj te względne różnice za pomocą cieniowania tych zakresów od jasnych (rzadsze/mniejsze) do ciemnych (częstsze/większe).    
 
 ![](media/power-bi-visualization-filled-maps-choropleths/large_map.png)
@@ -52,7 +53,7 @@ Kartogramy są doskonałym wyborem:
 
 ### <a name="prerequisites"></a>Wymagania wstępne
 - Usługa Power BI lub program Power BI Desktop
-- Przykład Sales and Marketing
+- Przykład Sprzedaż i marketing
 
 Przykład w tym samouczku obejmuje usługę Power BI, a nie program Power BI Desktop.
 

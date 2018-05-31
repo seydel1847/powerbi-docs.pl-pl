@@ -1,16 +1,16 @@
 ---
-title: Wykresy lejkowe (samouczek)
-description: "Samouczek: Wykresy lejkowe w usłudze Power BI"
+title: Wykresy lejkowe
+description: Wykresy lejkowe w usłudze Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: maTzOJSRB3g
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -19,13 +19,14 @@ ms.workload: powerbi
 ms.date: 01/29/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 34be2f0ed53cdb8b45e60174d09e7da2da1fcce2
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: cdac4e594eab4887fc6e72d8870090be4ddd86a7
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33812753"
 ---
-# <a name="funnel-charts-tutorial"></a>Wykresy lejkowe (samouczek)
+# <a name="funnel-charts"></a>Wykresy lejkowe
 Wykres lejkowy pozwala na graficzne przedstawienie procesu liniowego o sekwencyjnie połączonych etapach. Za przykład może posłużyć wykres lejkowy sprzedaży, który śledzi zachowania klientów na poszczególnych etapach: Potencjalny klient \> Kwalifikowany potencjalny klient \> Prawdopodobny klient \> Umowa \> Finalizacja.  Już na pierwszy rzut oka kształt lejka wskazuje na kondycję śledzonego procesu.
 
 Każdy etap wykresu lejkowego stanowi procent całości. W większości przypadków wykres lejkowy ma kształt lejka — pierwszy etap jest największy, a każdy kolejny jest mniejszy od poprzedniego.  Przydatny jest również wykres lejkowy w kształcie gruszki, ponieważ umożliwia identyfikację problemu w danym procesie.  Zazwyczaj jednak pierwszy etap, etap „pobierania”, jest największy.

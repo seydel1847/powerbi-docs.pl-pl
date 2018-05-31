@@ -1,27 +1,20 @@
 ---
 title: Power BI — seminaria internetowe
 description: Power BI — seminaria internetowe
-services: powerbi
-documentationcenter: ''
 author: maikelson
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 04/26/2018
+ms.component: powerbi-service
+ms.topic: conceptual
+ms.date: 05/09/2018
 ms.author: maikelson
-ms.openlocfilehash: 9fa7f56f102ae098c870ae0e6e12f56cc26d0fde
-ms.sourcegitcommit: 0cae0e6e1fd06b6465721702b2d0bb8333eb5afb
+ms.openlocfilehash: 29aba440f92f37763dd9887b5fa7511d6191a5f7
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/27/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34299291"
 ---
 # <a name="power-bi-webinars"></a>Power BI — seminaria internetowe
 
@@ -31,17 +24,13 @@ Zarejestruj się, aby wziąć udział w seminariach internetowych lub obejrzyj n
 
 Zarejestruj się, aby uzyskać informacje od ekspertów w zakresie usługi Power BI i wziąć udział w sesjach pytań i odpowiedzi na żywo
 
-**[Seria seminariów internetowych dotyczących struktury wdrażania usługi Power BI](https://info.microsoft.com/ww-landing-powerbi-adoption-framework-series.html?Is=Website)**
-<br>Autorzy: Manu Kanwarpal i Paul Henwood
-<br>*Marzec, kwiecień i maj 2018 r., 9:00 AM PST, 12:00 EST*
+**Draw the right insights with Power BI and Visio** (Uzyskiwanie wglądu we właściwe dane szczegółowe dzięki usłudze Power BI i programowi Visio)
+<br>Autor: Shakun Grover
+<br>*22 maja 2018, 10:00 PST, 13:00 EST*
 
-Zaplanuj efektywne wdrożenie usługi Power BI w swojej organizacji i poznaj szczegóły skutecznego zarządzania oprogramowaniem jako usługą (SaaS). Jest to składająca się pięciu części seria, która odblokuje potencjał usługi Power BI w Twojej organizacji.
+Dołącz do nas podczas tego seminarium internetowego, aby dowiedzieć się, jak połączyć pulpity nawigacyjne usługi Power BI i diagramy programu Microsoft Visio w celu utworzenia zaawansowanych wizualnych informacji szczegółowych. Program Visio i usługa Power BI to rozwiązania w dużym stopniu wizualne, które uzupełniają się w naturalny sposób. Program Visio umożliwia tworzenie ilustracyjnych diagramów, takich jak połączone przepływy pracy i układy rzeczywiste. Usługa Power BI ułatwia tworzenie intuicyjnych pulpitów nawigacyjnych przy użyciu wykresów i map w celu mierzenia wartości kluczowych wskaźników wydajności i śledzenia celów.
 
-[Zarejestruj się, aby obejrzeć 1 maja: Part 5 — Rollout: Successfully rolling out Power BI (Część 5 — wprowadzanie: pomyślne wprowadzanie usługi Power BI)](https://info.microsoft.com/ww-landing-powerbi-adoption-part5-rollout.html?Is=Website)
-<br>[Zarejestruj się i obejrzyj teraz: Part 4 — Security: Keeping your data secure with Power BI (Część 4 — bezpieczeństwo: zabezpieczanie danych przy użyciu usługi Power BI)](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part4.html?Is=Website)
-<br>[Zarejestruj się i obejrzyj teraz: Part 3 — Service Management: Power BI Service Management Insights (Część 3 — zarządzanie usługami: szczegółowe informacje dotyczące zarządzania usługami w usłudze Power BI)](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part3.html?Is=Website)
-<br>[Zarejestruj się i obejrzyj teraz: Part 2 — Governance: Govern your Power BI usage (Część 2 — zarządzanie: zarządzaniem użyciem usługi Power BI)](https://info.microsoft.com/ww-ondemand-powerbi-governance.html?Is=Website)
-<br>[Zarejestruj się i obejrzyj teraz: Part 1 — Adoption: Adopt a data-driven culture (Część 1 — wdrażanie: wdrażanie kultury opartej na danych)](https://info.microsoft.com/ww-landing-powerbi-adoption-ondemand.html?Is=Website)
+[Zarejestruj się, aby obejrzeć 22 maja](https://info.microsoft.com/ww-landing-powerbi-and-visio.html?Is=Website)
 
 **Learn about Power BI Embedded in 20 minutes** (Dowiedz się więcej o usłudze Power BI Embedded w 20 minut)
 <br>Autorzy: Megan Asarrane i Colin Murphy
@@ -88,6 +77,10 @@ Oglądaj nagrane sesje w dowolnym momencie
 **How to Design Visually Stunning Power BI Reports** (Projektowanie wizualnie olśniewających raportów usługi Power BI)
 <br>Autor: Charles Sterling
 <br>[Obejrzyj teraz](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-3-17-Webinar-How-to-Design-Visually-Stunning-Power-BI-Reports/m-p/168204?Is=Website)
+
+**Beyond the Spreadsheet** (Podróż poza arkusz kalkulacyjny)
+<br>Autor: Gohul Shanmugalingam
+<br>[Zarejestruj się i obejrzyj teraz](https://info.microsoft.com/CA-PowerBI-WBNR-FY18-05May-09-DataBeyondtheSpreadsheet-MCW0006385_01Registration-ForminBody.html?Is=Website)
 
 **Zmienianie raportu z dobrego w ŚWIETNY**
 <br>Autor: Reid Havens
@@ -139,6 +132,14 @@ Oglądaj nagrane sesje w dowolnym momencie
 <br>Autorzy: Nagasaikiran Kambhampati i Miguel Martinez
 <br>[Zarejestruj się, aby oglądać](https://info.microsoft.com/ww-landing-advanced-analytics-excel-powerbi.html?Is=Website)
 <br>[Pobierz pakiet startowy analizy początkowej do zastosowania](https://aka.ms/pbiaawebinar)
+
+**[Seria seminariów internetowych dotyczących struktury wdrażania usługi Power BI](https://info.microsoft.com/ww-landing-powerbi-adoption-framework-series.html?Is=Website)**
+<br>Autorzy: Manu Kanwarpal i Paul Henwood
+<br>[Zarejestruj się i obejrzyj teraz: Part 1 — Adoption: Adopt a data-driven culture (Część 1 — wdrażanie: wdrażanie kultury opartej na danych)](https://info.microsoft.com/ww-landing-powerbi-adoption-ondemand.html?Is=Website)
+<br>[Zarejestruj się i obejrzyj teraz: Part 2 — Governance: Govern your Power BI usage (Część 2 — zarządzanie: zarządzaniem użyciem usługi Power BI)](https://info.microsoft.com/ww-ondemand-powerbi-governance.html?Is=Website)
+<br>[Zarejestruj się i obejrzyj teraz: Part 3 — Service Management: Power BI Service Management Insights (Część 3 — zarządzanie usługami: szczegółowe informacje dotyczące zarządzania usługami w usłudze Power BI)](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part3.html?Is=Website)
+<br>[Zarejestruj się i obejrzyj teraz: Part 4 — Security: Keeping your data secure with Power BI (Część 4 — bezpieczeństwo: zabezpieczanie danych przy użyciu usługi Power BI)](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part4.html?Is=Website)
+<br>[Zarejestruj się i obejrzyj teraz: Part 5 — Rollout: Successfully rolling out Power BI (Część 5 — wprowadzanie: pomyślne wprowadzanie usługi Power BI)](https://info.microsoft.com/ww-landing-powerbi-adoption-part5-rollout.html?Is=Website)
 
 **Seria seminariów internetowych dotyczących usługi Office 365 dla specjalistów ds. finansów**
 <br>Autorzy: Mark Traverso, Carlos Otero, Johnnie Thomas, Amanda Cofsky i Miguel Martinez

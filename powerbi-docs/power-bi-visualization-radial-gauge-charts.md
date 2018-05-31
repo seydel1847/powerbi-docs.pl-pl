@@ -1,16 +1,16 @@
 ---
-title: "Samouczek: wykresy w postaci mierników promieniowych w usłudze Power BI"
-description: "Samouczek: wykresy w postaci mierników promieniowych w usłudze Power BI"
+title: Wykresy w postaci mierników promieniowych w usłudze Power BI
+description: Wykresy w postaci mierników promieniowych w usłudze Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: xmja6Epqa
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -19,13 +19,14 @@ ms.workload: powerbi
 ms.date: 01/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5b0b5861c567997bb5636c4fe00085535debc8f2
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 4a972e3ae702fc1746bebecbc5de00f47031f76a
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33813052"
 ---
-# <a name="radial-gauge-charts-in-power-bi-tutorial"></a>Wykresy w postaci mierników promieniowych w usłudze Power BI (samouczek)
+# <a name="radial-gauge-charts-in-power-bi"></a>Wykresy w postaci mierników promieniowych w usłudze Power BI
 Wykres miernika promieniowego ma okrągły łuk i wyświetla jedną wartość, która mierzy postępy w kierunku celu/kluczowego wskaźnika wydajności.  Cel, lub wartość docelowa, jest reprezentowany przez linię (wskazówkę). Postęp w kierunku celu jest reprezentowany przez cieniowanie.  Wartość reprezentująca postęp jest wyświetlana w pogrubieniu wewnątrz łuku. Wszystkie możliwe wartości są równomiernie rozmieszczone na łuku, od wartości minimalnej (najbardziej po lewej) do wartości maksymalnej (najbardziej po prawej).
 
 W poniższym przykładzie sprzedawca samochodów monitoruje średnią sprzedaż zespołu sprzedażowego względem miesiąca. Celem jest wartość 140, która jest reprezentowana przez czarną wskazówkę.  Minimalna możliwa wartość średniej sprzedaży to 0, a maksymalna wartość została ustawiona na 200.  Niebieskie cieniowanie wskazuje, że obecnie średnia wartość to około 120 sprzedaży w tym miesiącu. Na szczęście mamy jeszcze tydzień na osiągnięcie celu.

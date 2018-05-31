@@ -1,29 +1,31 @@
 ---
-title: Wprowadzenie do aplikacji mobilnej Power BI na telefony z systemem Android
-description: "Dowiedz się, jak aplikacja mobilna systemu Android dla usługi Microsoft Power BI sprowadza usługę Power BI do Twojej kieszenie, aby w dowolnym miejscu mieć dostęp do informacji biznesowych przechowywanych lokalnie i w chmurze."
+title: Wprowadzenie do aplikacji mobilnej Power BI dla urządzeń z systemem Android
+description: Dowiedz się, jak aplikacja mobilna systemu Android dla usługi Microsoft Power BI sprowadza usługę Power BI do Twojej kieszenie, aby w dowolnym miejscu mieć dostęp do informacji biznesowych przechowywanych lokalnie i w chmurze.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: complete
 qualitydate: 05/18/2016
 ms.service: powerbi
 ms.devlang: NA
-ms.topic: article
+ms.topic: conceptual
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.component: powerbi-mobile
+ms.date: 05/07/2018
 ms.author: maggies
-ms.openlocfilehash: aed84f27ff838456b519283f45ae5f58feaf2521
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 16d3755af688a3bfb99964957f284fde3c658328
+ms.sourcegitcommit: 773ba0d1cc1d1fcee8e666e1c20450f5e343c5c1
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 05/10/2018
+ms.locfileid: "33946037"
 ---
-# <a name="get-started-with-the-power-bi-mobile-app-on-android-phones"></a>Wprowadzenie do aplikacji mobilnej Power BI na telefony z systemem Android
+# <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>Wprowadzenie do aplikacji mobilnej Power BI dla urządzeń z systemem Android
 Aplikacja systemu Android dla usługi Microsoft Power BI obejmuje mobilne środowisko usługi Power BI, serwera raportów usługi Power BI oraz usług Reporting Services. Możesz wyświetlać firmowe pulpity nawigacyjne i korzystać z nich lokalnie i w chmurze, niezależnie od tego, gdzie się znajdujesz, dzięki dostępowi mobilnemu na żywo, z obsługą dotykową. Przeglądaj dane w pulpitach nawigacyjnych i udostępniaj je współpracownikom w wiadomościach e-mail lub SMS. 
 
 ![Pulpit nawigacyjny w usłudze Power BI dla aplikacji systemu Android](media/mobile-android-app-get-started/power-bi-android-dashboard-optimized-090117.png)
@@ -33,34 +35,37 @@ Raporty usługi Power BI możesz tworzyć w programie Power BI Desktop, a nastę
 * [Publikowanie ich w usłudze Power BI](service-get-started.md) i tworzenie pulpitów nawigacyjnych.
 * [Publikowanie ich lokalnie na Serwerze raportów usługi Power BI](report-server/quickstart-create-powerbi-report.md).
 
-Następnie w aplikacji Power BI dla telefonów z systemem Android możesz korzystać z pulpitów nawigacyjnych i raportów dostępnych lokalnie oraz w chmurze.
+Następnie w aplikacji Power BI dla systemu Android możesz korzystać z pulpitów nawigacyjnych i raportów dostępnych lokalnie oraz w chmurze.
 
 Zobacz, [co nowego w aplikacjach mobilnych usługi Power BI](mobile-whats-new-in-the-mobile-apps.md).
 
-## <a name="first-things-first"></a>Wszystko po kolei
-* **Pobierz aplikację** [Pobierz aplikację usługi Power BI dla systemu Android](http://go.microsoft.com/fwlink/?LinkID=544867) ze sklepu Google Play.
+## <a name="prerequisites"></a>Wymagania wstępne
+
+### <a name="get-the-app"></a>Pobranie aplikacji
+
+[Pobierz aplikację usługi Power BI dla systemu Android](http://go.microsoft.com/fwlink/?LinkID=544867) ze sklepu Google Play.
   
-  Usługę Power BI można uruchamiać na wielu różnych telefonach z systemem Android. Na Twoim telefonie musi działać system operacyjny Android 5.0 lub nowszy. Aby sprawdzić telefon, przejdź do pozycji **Ustawienia** > **Informacje o urządzeniu** > **Wersja systemu Android**. 
-* **Uruchom po otwarciu aplikacji** Nawet bez rejestracji i logowania po otwarciu aplikacji możesz przerzucać strony logowania, aby uzyskać szybki przegląd czynności, które możesz wykonać za pomocą aplikacji usługi Power BI na telefonie z systemem Android. Wybierz pozycję **Pomiń**, aby wyświetlić i zbadać przykłady oraz zdobyć praktyczne doświadczenie korzystania z aplikacji. W dowolnym momencie możesz też [wrócić do przykładów](mobile-android-app-get-started.md#try-the-power-bi-and-reporting-services-samples) z poziomu strony głównej pulpitów nawigacyjnych.
-* Zobacz, [co nowego w aplikacjach mobilnych usługi Power BI](mobile-whats-new-in-the-mobile-apps.md).
+Usługa Power BI może działać na wielu urządzeniach z systemem operacyjnym Android w wersji 5.0 lub nowszej. Aby sprawdzić urządzenie, przejdź do pozycji **Ustawienia** > **Informacje o urządzeniu** > **Wersja systemu Android**. 
+
+**Uruchamianie po otwarciu aplikacji**    
+Nawet bez rejestracji i logowania po otwarciu aplikacji możesz przerzucać strony logowania, aby uzyskać szybki przegląd czynności, które możesz wykonać za pomocą aplikacji usługi Power BI na urządzeniu z systemem Android. Wybierz pozycję **Pomiń**, aby wyświetlić i zbadać przykłady oraz zdobyć praktyczne doświadczenie korzystania z aplikacji. W dowolnym momencie możesz też [wrócić do przykładów](mobile-android-app-get-started.md#try-the-power-bi-and-reporting-services-samples) z poziomu strony głównej pulpitów nawigacyjnych.
+
+Zobacz, [co nowego w aplikacjach mobilnych usługi Power BI](mobile-whats-new-in-the-mobile-apps.md).
 
 ## <a name="sign-up-for-the-power-bi-service-on-the-web"></a>Tworzenie konta w usłudze Power BI w Internecie
-Jeśli nie masz jeszcze utworzonego konta, przejdź do [usługi Power BI (http://powerbi.com/)](http://powerbi.com/), aby założyć własne konto w celu tworzenia i przechowywania pulpitów nawigacyjnych i raportów oraz gromadzenia danych. Następnie zaloguj się do usługi Power BI na telefonie z systemem Android, aby wyświetlić własne pulpity nawigacyjne z dowolnego miejsca.
+Jeśli nie masz jeszcze utworzonego konta, przejdź do [usługi Power BI (http://powerbi.com/)](http://powerbi.com/), aby założyć własne konto w celu tworzenia i przechowywania pulpitów nawigacyjnych i raportów oraz gromadzenia danych. Następnie zaloguj się do usługi Power BI na urządzeniu z systemem Android, aby wyświetlić własne pulpity nawigacyjne z dowolnego miejsca.
 
 1. W usłudze Power BI naciśnij pozycję [Utwórz konto](http://go.microsoft.com/fwlink/?LinkID=513879), aby utworzyć konto usługi Power BI.
 2. Rozpocznij [tworzenie własnych pulpitów nawigacyjnych i raportów](service-get-started.md).
 
-## <a name="get-started-with-the-power-bi-app-on-your-phone"></a>Wprowadzenie do aplikacji Power BI na telefonie
-1. Na telefonie z systemem Android, na ekranie startowym otwórz usługę Power BI dla aplikacji systemu Android.
+## <a name="get-started-with-the-power-bi-app-on-your-device"></a>Wprowadzenie do aplikacji Power BI na urządzeniu
+1. Na urządzeniu z systemem Android, na ekranie startowym otwórz usługę Power BI dla aplikacji systemu Android.
    
    ![Ikona usługi Power BI](media/mobile-android-app-get-started/power-bi-logo-android.png)
 2. Aby wyświetlać pulpity nawigacyjne i raporty usługi Power BI, naciśnij pozycję **Power BI**.  
    
-   > [!IMPORTANT]
-   > Jeśli otrzymasz komunikat, że usługa Power BI nie może Cię zarejestrować, zobacz [„Nie można uwierzytelnić, ponieważ firmowy certyfikat SSL jest niezaufany”](mobile-android-app-error-corporate-ssl-account-is-untrusted.md), aby uzyskać szczegółowe informacje na temat sposobu rozwiązania problemu.
-   > 
-   > 
-   
+   Jeśli otrzymasz komunikat, że usługa Power BI nie może Cię zarejestrować, zobacz [„Nie można uwierzytelnić, ponieważ firmowy certyfikat SSL jest niezaufany”](mobile-android-app-error-corporate-ssl-account-is-untrusted.md), aby uzyskać szczegółowe informacje na temat sposobu rozwiązania problemu.
+
    Aby wyświetlać swoje raporty i wskaźniki KPI serwera raportów usługi Power BI i usług Reporting Services naciśnij pozycję **Serwer raportów**.
    
    ![Logowanie do usługi Power BI](media/mobile-android-app-get-started/power-bi-connect-to-login.png)
@@ -120,7 +125,7 @@ Usługa Microsoft Intune umożliwia organizacjom zarządzanie na przykład przez
 Dowiedz się więcej na temat [konfigurowania aplikacji mobilnych Power BI dla systemu Android przy użyciu usługi Microsoft Intune](service-admin-mobile-intune.md). 
 
 ## <a name="next-steps"></a>Następne kroki
-Poniżej wymieniono inne możliwości korzystania z pulpitów nawigacyjnych i raportów usługi Power BI oraz raportów i wskaźników KPI serwera raportów usługi Power BI lub portalu internetowego usług Reporting Services w aplikacji usługi Power BI dla telefonu z systemem Android.
+Poniżej wymieniono inne możliwości korzystania z pulpitów nawigacyjnych i raportów usługi Power BI oraz raportów i wskaźników KPI serwera raportów usługi Power BI lub portalu internetowego usług Reporting Services w aplikacji usługi Power BI dla urządzenia z systemem Android.
 
 ### <a name="power-bi-dashboards-and-reports"></a>Pulpity nawigacyjne i raporty usługi Power BI
 * Wyświetlanie [aplikacji](service-install-use-apps.md).
@@ -130,7 +135,7 @@ Poniżej wymieniono inne możliwości korzystania z pulpitów nawigacyjnych i ra
 * Wyświetlanie [aplikacji](service-install-use-apps.md).
 * [Dodawanie adnotacji i udostępnianie kafelków](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md).
 * Udostępnianie [pulpitów nawigacyjnych](mobile-share-dashboard-from-the-mobile-apps.md).
-* [Skanowanie kodu QR usługi Power BI](mobile-apps-qr-code.md) w celu otwarcia powiązanego kafelka pulpitu nawigacyjnego lub raportu. 
+* [Skanowanie kodu QR usługi Power BI](mobile-apps-qr-code.md) przy użyciu telefonu z systemem Android w celu otwarcia powiązanego kafelka pulpitu nawigacyjnego lub raportu. 
 * Wyświetlanie [powiadomień o zmianach na koncie usługi Power BI](mobile-apps-notification-center.md), na przykład o udostępnieniu Ci pulpitów nawigacyjnych przez współpracowników.
 
 ### <a name="reports-and-kpis-on-the-power-bi-report-server-and-reporting-services-web-portals"></a>Raporty i wskaźniki KPI w witrynach internetowych serwera raportów usługi Power BI i usług Reporting Services

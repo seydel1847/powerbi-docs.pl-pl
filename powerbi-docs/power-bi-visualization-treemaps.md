@@ -1,16 +1,16 @@
 ---
-title: "Mapy drzewa w usłudze Power BI (samouczek)"
-description: "Samouczek: mapy drzewa w usłudze Power BI"
+title: Mapy drzewa w usłudze Power BI
+description: Mapy drzewa w usłudze Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: IkJda4O7oGs
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -19,13 +19,14 @@ ms.workload: powerbi
 ms.date: 01/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a803256e5902ffc19e77c67a450d4895982b4b8b
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 5c9ce6b7b25170e87ea3474519036e854b15e940
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33813213"
 ---
-# <a name="treemaps-in-power-bi-tutorial"></a>Mapy drzewa w usłudze Power BI (samouczek)
+# <a name="treemaps-in-power-bi"></a>Mapy drzewa w usłudze Power BI
 Mapy drzewa prezentują dane hierarchiczne w formie zestawu zagnieżdżonych prostokątów.  Każdy poziom hierarchii jest przedstawiany jako kolorowy prostokąt (często określany jako „gałąź”) zawierający inne prostokąty („liście”).  Obszar wewnątrz każdego prostokąta jest przydzielany na podstawie mierzonych wartości ilościowych, przy czym prostokąty ułożone są według ich rozmiaru, od lewego górnego rogu (największy) do prawego dolnego rogu (najmniejszy).
 
 ![](media/power-bi-visualization-treemaps/pbi-nancy_viz_treemap.png)

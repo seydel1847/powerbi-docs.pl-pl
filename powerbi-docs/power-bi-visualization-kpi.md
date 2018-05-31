@@ -1,31 +1,24 @@
 ---
-title: Wizualizacje kluczowych wskaźników wydajności (samouczek)
+title: Wizualizacje kluczowych wskaźników wydajności
 description: tworzenie kluczowego wskaźnika wydajności w usłudze Power BI i programie Power BI Desktop
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: xmja6EpqaO0
-qualityfocus: no
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 4d6af52f10f16d973dc97ed0da1ed74bf63ec2cc
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: 2fc84d82e67b1c1e4a4b37655a13bd5415abf816
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34292598"
 ---
-# <a name="kpi-visuals-tutorial"></a>Wizualizacje kluczowych wskaźników wydajności (samouczek)
+# <a name="kpi-visuals"></a>Wizualizacje kluczowych wskaźników wydajności
 Kluczowy wskaźnik wydajności (KPI) to wizualna podpowiedź przedstawiająca postęp w realizacji mierzalnego celu. Więcej informacji na temat kluczowych wskaźników wydajności można uzyskać w witrynie [Microsoft Developer Network](https://msdn.microsoft.com/library/hh272050).
 
 ## <a name="when-to-use-a-kpi"></a>Kiedy używać kluczowych wskaźników wydajności
@@ -79,5 +72,5 @@ Kluczowe wskaźniki wydajności są również dostępne na urządzeniach przeno�
 
 [Wizualizacje w raportach usługi Power BI](power-bi-report-visualizations.md)
 
-Więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
+Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
 

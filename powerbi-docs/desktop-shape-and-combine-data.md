@@ -1,33 +1,34 @@
 ---
-title: Kształtowanie i łączenie danych w programie Power BI Desktop
-description: Kształtowanie i łączenie danych w programie Power BI Desktop
-services: powerbi
-documentationcenter: ''
+title: Kształtowanie i łączenie danych z wielu źródeł
+description: W tym samouczku zostanie przedstawiony sposób kształtowania i łączenia danych w programie Power BI Desktop
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 01/30/2018
+ms.component: powerbi-desktop
+ms.topic: tutorial
+ms.date: 05/03/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 0bb2f8a8d9299d525085a8ba7d2ecabdcd9e6c78
-ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
+ms.openlocfilehash: 27479add7839e1078e76bbb6523b287f10194566
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/04/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34288756"
 ---
-# <a name="shape-and-combine-data-in-power-bi-desktop"></a>Kształtowanie i łączenie danych w programie Power BI Desktop
-Program **Power BI Desktop** umożliwia nawiązywanie połączeń z wieloma typami źródeł danych, a następnie kształtowanie tych danych w celu spełnienia konkretnych potrzeb. *Kształtowanie* danych oznacza przekształcanie danych, np. zmienianie nazw kolumn lub tabel, zmienianie tekstu na liczby, usuwanie wierszy, ustawianie pierwszego wiersza jako nagłówków i tak dalej. *Łączenie* danych oznacza nawiązywanie połączenia z co najmniej dwoma źródłami danych, kształtowanie danych zgodnie z potrzebami, a następnie konsolidowanie ich do postaci jednego użytecznego zapytania.
+# <a name="tutorial-shape-and-combine-data-in-power-bi-desktop"></a>Samouczek: kształtowanie i łączenie danych w programie Power BI Desktop
 
-W tym artykule omówiono sposób kształtowania zapytania za pomocą programu Power BI Desktop i wyróżniono niektóre najczęściej wykonywane czynności. Zapytanie użyte tutaj zostało opisane bardziej szczegółowo, z uwzględnieniem sposobu tworzenia zapytania od początku, w artykule [Wprowadzenie do programu Power BI Desktop](desktop-getting-started.md).
+Program **Power BI Desktop** umożliwia nawiązywanie połączeń z wieloma typami źródeł danych, a następnie kształtowanie tych danych zgodnie z potrzebami, co pozwala na tworzenie raportów wizualnych do udostępniania innym użytkownikom. *Kształtowanie* danych oznacza przekształcanie danych, np. zmienianie nazw kolumn lub tabel, zmienianie tekstu na liczby, usuwanie wierszy, ustawianie pierwszego wiersza jako nagłówków i tak dalej. *Łączenie* danych oznacza nawiązywanie połączenia z co najmniej dwoma źródłami danych, kształtowanie danych zgodnie z potrzebami, a następnie konsolidowanie ich do postaci jednego użytecznego zapytania.
+
+Z tego samouczka dowiesz się, jak wykonywać następujące czynności:
+
+* Kształtowanie danych przy użyciu **Edytora zapytań**
+* Łączenie ze źródłem danych
+* Łączenie z kolejnym źródłem danych
+* Łączenie tych źródeł danych i tworzenie modelu danych do użycia w raportach
+
+W tym samouczku omówiono sposób kształtowania zapytania za pomocą programu Power BI Desktop i wyróżniono niektóre najczęściej wykonywane czynności. Zapytanie użyte tutaj zostało opisane bardziej szczegółowo, z uwzględnieniem sposobu tworzenia zapytania od początku, w artykule [Wprowadzenie do programu Power BI Desktop](desktop-getting-started.md).
 
 Warto pamiętać, że w **Edytorze zapytań** programu Power BI Desktop bardzo często używane są menu dostępne po kliknięciu prawym przyciskiem myszy oraz wstążka. Większość opcji, które można wybrać we wstążce **Przekształć**, jest również dostępna po kliknięciu prawym przyciskiem myszy elementu (takiego jak kolumna) i wybraniu z menu, które zostanie wyświetlone.
 

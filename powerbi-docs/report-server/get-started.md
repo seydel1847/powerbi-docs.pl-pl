@@ -1,89 +1,73 @@
 ---
-title: "Wprowadzenie do serwera raportów usługi Power BI"
-description: "Dowiedz się, jak zainstalować serwer raportów usługi Power BI. "
+title: Co to jest serwer raportów usługi Power BI?
+description: Omówienie serwera raportów usługi Power BI wyjaśniające, jak współpracuje on z usługami SQL Server Reporting Services (SSRS) i pozostałymi elementami usługi Power BI.
 services: powerbi
-documentationcenter: 
-author: markingmyname
-manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+keywords: ''
+author: maggiesMSFT
+ms.author: maggies
+ms.component: powerbi-report-server
+ms.date: 05/07/2018
+ms.topic: overview
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 3/5/2018
-ms.author: maghan
-ms.openlocfilehash: 88aa347a5e6feae969cf9b32e0e2177114efc757
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+manager: kfile
+ms.custom: mvc
+ms.openlocfilehash: 83220c399b527df421a14f9e45148feabc902ebb
+ms.sourcegitcommit: c29525cbac2e747edb4dd3a1841084bb0ce42582
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 05/08/2018
+ms.locfileid: "33840102"
 ---
-# <a name="get-started-with-power-bi-report-server"></a>Wprowadzenie do serwera raportów usługi Power BI
-Tworzenie i wdrażanie raportów dla urządzeń przenośnych i raportów z podziałem na strony usługi Power BI oraz zarządzanie nimi lokalnie przy użyciu wielu gotowych do użycia narzędzi i usług zapewnianych przez Serwer raportów usługi Power BI.
+# <a name="what-is-power-bi-report-server"></a>Co to jest serwer raportów usługi Power BI?
 
-## <a name="create-deploy-and-manage-reports"></a>Tworzenie i wdrażanie raportów oraz zarządzanie nimi
-Serwer raportów usługi Power BI to rozwiązanie wdrażane przez klientów w środowiskach lokalnych, które umożliwia tworzenie i publikowanie raportów oraz zarządzanie nimi, a następnie dostarczanie ich różnymi sposobami do różnych użytkowników: wyświetlanie w przeglądarce internetowej, na ich urządzeniach przenośnych lub jako wiadomości e-mail w ich skrzynkach odbiorczych.
+Serwer raportów usługi Power BI to lokalny serwer raportów z portalem internetowym, w którym można wyświetlać raporty i wskaźnikami KPI oraz zarządzać nimi. Udostępnia on narzędzia do tworzenia raportów, raportów wielostronicowych, raportów dla urządzeń przenośnych i wskaźników KPI usługi Power BI. Użytkownicy mają dostęp do tych raportów na różne sposoby: mogą wyświetlić je w przeglądarce internetowej, na urządzeniu przenośnym lub jako wiadomości e-mail w skrzynce odbiorczej.
 
-Serwer raportów usługi Power BI oferuje pakiet produktów:
+![Portal internetowy Serwera raportów usługi Power BI](media/get-started/power-bi-report-server-overview.png)
 
-* Nowoczesny portal internetowy, który można wyświetlić w dowolnej nowoczesnej przeglądarce. W portalu internetowym można organizować i wyświetlać raporty oraz kluczowe wskaźniki wydajności. W portalu można również przechowywać skoroszyty programu Excel.
-* Raporty usługi Power BI utworzone za pomocą programu Power BI Desktop można wyświetlić w portalu internetowym we własnym środowisku.
-* Raporty z podziałem na strony umożliwiające tworzenie raportów o nowoczesnym wyglądzie przy użyciu przeznaczonych do tego narzędzi.
-* Raporty dla urządzeń przenośnych z układem dynamicznym, który dostosowuje się do różnych urządzeń i sposobów ich trzymania.
+## <a name="comparing-power-bi-report-server"></a>Porównanie serwera raportów usługi Power BI 
+Serwer raportów usługi Power BI jest podobny do usługi SQL Server Reporting Services i usługi Power BI w trybie online, ale na różne sposoby. Tak jak usługa Power BI, serwer raportów usługi Power BI hostuje raporty usługi Power BI (PBIX) i pliki programu Excel. Podobnie jak usługi Reporting Services, serwer raportów usługi Power BI działa lokalnie i hostuje raporty podzielone na strony (RDL). Serwer raportów usługi Power BI jest nadzbiorem usług Reporting Services: wszystko, co można zrobić w usługach Reporting Services, można zrobić z serwerem raportów usługi Power BI — a nawet więcej, dzięki dodaniu obsługi raportów usługi Power BI. Szczegółowe informacje można znaleźć w temacie [Porównanie serwera raportów usługi Power BI i usługi Power BI](compare-report-server-service.md).
 
-Dowiedz się więcej na ten temat.
-
-### <a name="whats-new-in-power-bi-report-server"></a>Co nowego w serwerze raportów usługi Power BI
-Poniższe źródła zawierają aktualne informacje o nowych funkcjach Serwera raportów usługi Power BI.
-
-* [Co nowego w serwerze raportów usługi Power BI](whats-new.md)
-* [Blog usługi Microsoft Power BI](https://powerbi.microsoft.com/blog/)
-* [Blog zespołu usług SQL Server Reporting Services](https://blogs.msdn.microsoft.com/sqlrsteamblog/)
-* [Kanał Guy in a Cube (YouTube)](https://aka.ms/guyinacube)
+## <a name="licensing-power-bi-report-server"></a>Licencjonowanie serwera raportów usługi Power BI
+Serwer raportów usługi Power BI jest dostępny za pośrednictwem dwóch różnych licencji: [usługi Power BI Premium](../service-premium.md) i [programu SQL Server Enterprise Edition](https://www.microsoft.com/sql-server/sql-server-2017-editions) z pakietem Software Assurance. Licencja usługi Power BI Premium umożliwia tworzenie hybrydowego wdrożenia łączącego chmurę i środowisko lokalne.  
 
 ## <a name="web-portal"></a>Portal internetowy
-![](media/get-started/web-portal.png)
+Punkt wejścia serwera raportów usługi Power BI to bezpieczny portal internetowy, który można wyświetlić w dowolnej nowoczesnej przeglądarce. W tym miejscu można uzyskać dostęp do wszystkich swoich raportów i wskaźników KPI. Zawartość portalu internetowego jest zorganizowana przy użyciu tradycyjnej hierarchii folderów. Zawartość folderów jest zorganizowana według typu: raporty usługi Power BI, raporty dla urządzeń przenośnych, raporty z podziałem na strony i kluczowe wskaźniki wydajności oraz skoroszyty programu Excel, a także udostępnione zestawy danych i udostępnione źródła danych służące jako bloki konstrukcyjne raportów. Można otagować ulubione elementy, aby wyświetlić je w jednym folderze. W portalu internetowym można również tworzyć kluczowe wskaźniki wydajności. 
 
-Dla użytkowników końcowych Serwera raportów usługi Power BI drzwiami frontowymi jest nowoczesny portal internetowy, który można wyświetlić w dowolnej nowoczesnej przeglądarce. W nowym portalu są dostępne wszystkie raporty i kluczowe wskaźniki wydajności.
+![Portal internetowy Serwera raportów usługi Power BI](media/get-started/web-portal.png)
 
-Portal internetowy może zawierać Twoje własne, niestandardowe [znakowanie](https://docs.microsoft.com/sql/reporting-services/branding-the-web-portal). W portalu internetowym można również tworzyć kluczowe wskaźniki wydajności. Kluczowe wskaźniki wydajności umożliwiają szybkie uzyskiwanie informacji o kluczowych metrykach biznesowych w przeglądarce, bez konieczności otwierania raportu.
+W zależności od uprawnień można zarządzać zawartością w portalu internetowym. Można planować przetwarzanie raportów, uzyskiwać dostęp do raportów na żądanie i subskrybować opublikowane raporty. Można także zastosować własne, niestandardowe [znakowanie](https://docs.microsoft.com/sql/reporting-services/branding-the-web-portal) w portalu internetowym. 
 
-Zawartość portalu internetowego jest zorganizowana według typu: raporty usługi Power BI, raporty dla urządzeń przenośnych, raporty z podziałem na strony i kluczowe wskaźniki wydajności oraz skoroszyty programu Excel, udostępnione zestawy danych i udostępnione źródła danych służące jako bloki konstrukcyjne raportów. W tym miejscu można bezpiecznie je przechowywać i zarządzać nimi, w tradycyjnej hierarchii folderów. Można oznaczać ulubione i zarządzać zawartością, jeśli użytkownik ma odpowiednią rolę.
-
-W nowym portalu internetowym można planować przetwarzanie raportów, uzyskiwać dostęp do raportów na żądanie i subskrybować opublikowane raporty.
-
-Więcej informacji o [portalu internetowym](https://docs.microsoft.com/sql/reporting-services/web-portal-ssrs-native-mode).
+Więcej informacji o [portalu internetowym serwera raportów usługi Power BI](https://docs.microsoft.com/sql/reporting-services/web-portal-ssrs-native-mode).
 
 ## <a name="power-bi-reports"></a>Raporty usługi Power BI
-![](media/get-started/powerbi-reports.png)
+Można tworzyć raporty usługi Power BI (PBIX) przy użyciu wersji programu Power BI Desktop zoptymalizowanej pod kątem serwera raportów. Następnie można je opublikować i wyświetlić w portalu internetowym we własnym środowisku.
 
-Raport usługi Power BI to widok zestawu danych z wielu perspektyw z wizualizacjami przedstawiającymi różne wyniki, wnioski i szczegółowe informacje wynikające z tego zestawu danych.  Raport może zawierać jedną wizualizację lub kilka stron wypełnionych wizualizacjami. W zależności od Twojego stanowiska możesz być osobą, która tworzy raporty, lub osobą, która korzysta z raportów.
+![Raporty usługi Power BI na serwerze raportów programu Power BI](media/get-started/powerbi-reports.png)
 
-Raporty są oparte na jednym zestawie danych. Każda wizualizacja w raporcie reprezentuje część informacji. Wizualizacje nie są statyczne — możesz dodawać i usuwać dane, zmieniać typy wizualizacji oraz stosować filtry i fragmentatory, analizując dane w celu wyciągania wniosków i szukania odpowiedzi. Podobnie jak pulpit nawigacyjny — ale jeszcze bardziej — raport jest wysoce interakcyjny i można go dostosowywać, a wizualizacje są aktualizowane, gdy ich bazowe dane zmieniają się.
+Raport usługi Power BI to widok modelu danych z wielu perspektyw z wizualizacjami przedstawiającymi różne wyniki i szczegółowe informacje wynikające z tego modelu danych.  Raport może zawierać jedną wizualizację lub kilka stron wypełnionych wizualizacjami. W zależności od roli użytkownika można odczytywać i poznawać raporty lub utworzyć je dla innych użytkowników.
+
+Instalowanie [programu Power BI Desktop zoptymalizowanego pod kątem serwera raportów usługi Power BI](quickstart-create-powerbi-report.md).
 
 ## <a name="paginated-reports"></a>Raporty z podziałem na strony
-![](media/get-started/paginated-reports.png)
+Raporty podzielone na strony (RDL) to raporty przypominające dokumenty z wizualizacjami, w których tabele rozwijają się w poziomie i w pionie w celu wyświetlenia wszystkich danych. Raporty te są kontynuowane na kolejnych stronach zgodnie z potrzebami. To doskonałe rozwiązanie do tworzenia dokumentów o stałym układzie z idealnie rozmieszczoną treścią, zoptymalizowanych pod kątem wydruku, takich jak pliki PDF i pliki programu Word.
 
-Raporty z podziałem na strony są raportami w postaci dokumentów wielostronicowych, w których wraz z ilością danych zwiększa się liczba wierszy w tabelach oraz liczba stron raportu. To doskonałe rozwiązanie do tworzenia dokumentów o stałym układzie z idealnie rozmieszczoną treścią, zoptymalizowanych pod kątem wydruku, takich jak pliki PDF i pliki programu Word.
+![Raporty z podziałem na strony na serwerze raportów usługi Power BI](media/get-started/paginated-reports.png)
 
 Raporty o nowoczesnym wyglądzie można tworzyć przy użyciu programów [Report Builder](https://docs.microsoft.com/sql/reporting-services/report-builder/report-builder-in-sql-server-2016) i Report Designer w narzędziach [SQL Server Data Tools (SSDT)](https://docs.microsoft.com/sql/reporting-services/tools/reporting-services-in-sql-server-data-tools-ssdt).
 
+## <a name="reporting-services-mobile-reports"></a>Raporty usług Reporting Services dla urządzeń przenośnych
+Raporty dla urządzeń przenośnych łączą się z danymi lokalnymi i mają dynamiczny układ, który dostosowuje się do różnych urządzeń i sposobów ich trzymania. Można je utworzyć za pomocą programu Microsoft SQL Server Mobile Report Publisher.
+
+Więcej informacji o [raportach usług Reporting Services dla urządzeń przenośnych](https://docs.microsoft.com/sql/reporting-services/mobile-reports/create-mobile-reports-with-sql-server-mobile-report-publisher). 
+
 ## <a name="report-server-programming-features"></a>Funkcje programowania serwera raportów
-Korzystaj z zalet funkcji programowania Serwera raportów usługi Power BI, aby móc rozszerzać i dostosowywać funkcje raportowania dzięki interfejsom API do integracji i rozszerzania możliwości przetwarzania danych i raportów w aplikacjach niestandardowych.
+Korzystaj z zalet funkcji programowania serwera raportów usługi Power BI, aby rozszerzać i dostosowywać funkcje raportowania dzięki interfejsom API do integracji i rozszerzania możliwości przetwarzania danych i raportów w aplikacjach niestandardowych.
 
 Więcej [dokumentacji dla deweloperów serwera raportów](https://docs.microsoft.com/sql/reporting-services/reporting-services-developer-documentation).
 
 ## <a name="next-steps"></a>Następne kroki
-[Podręcznik użytkownika](user-handbook-overview.md)  
-[Podręcznik administratora](admin-handbook-overview.md)  
-[Szybki start: instalowanie serwera raportów usługi Power BI](quickstart-install-report-server.md)  
+[Instalacja serwera raportów usługi Power BI](install-report-server.md)  
 [Instalowanie programu Report Builder](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
-[Pobieranie programu SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)
 
 Masz więcej pytań? [Zadaj pytanie społeczności usługi Power BI](https://community.powerbi.com/)
 
