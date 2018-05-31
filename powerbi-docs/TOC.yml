@@ -898,32 +898,14 @@
       items:
         - name: Co mogę zrobić za pomocą interfejsu API usługi Power BI?
           href: developer/overview-of-power-bi-rest-api.md
-        - name: Często zadawane pytania
-          href: developer/embedded-faq.md
         - name: Uprawnienia usługi Power BI
           href: developer/power-bi-permissions.md
         - name: Zabezpieczenia na poziomie wiersza
           href: developer/embedded-row-level-security.md
-        - name: Osadzanie pytań i odpowiedzi
-          href: developer/qanda.md
+        - name: Często zadawane pytania
+          href: developer/embedded-faq.md
     - name: Instrukcje
       items:
-        - name: Jak osadzić zawartość
-          href: developer/embedding-content.md
-        - name: Wypychanie danych do pulpitu nawigacyjnego
-          href: developer/walkthrough-push-data.md
-        - name: Jak migrować usługę Power BI Embedded
-          href: developer/migrate-from-powerbi-embedded.md
-        - name: Integrowanie pulpitu nawigacyjnego w aplikacji (dane należą do użytkownika)
-          href: developer/integrate-dashboard.md
-        - name: Integrowanie kafelka usługi Power BI w aplikacji (dane należą do użytkownika)
-          href: developer/integrate-tile.md
-        - name: Integrowanie raportu usługi Power BI w aplikacji (dane należą do użytkownika)
-          href: developer/integrate-report.md
-        - name: Integrowanie zawartości w aplikacji (dane należą do aplikacji)
-          href: developer/embed-sample-for-customers.md
-        - name: Integrowanie zawartości w aplikacji na potrzeby suwerennych chmur (dane należą do aplikacji)
-          href: developer/embed-sample-for-customers-sovereign-clouds.md
         - name: Tworzenie wizualizacji niestandardowej
           items:
             - name: Tworzenie wizualizacji niestandardowej przy użyciu narzędzi deweloperskich
@@ -938,6 +920,18 @@
           items:
             - name: Osadzanie przy użyciu usługi Power BI
               href: developer/embedding.md
+            - name: Jak osadzić zawartość
+              href: developer/embedding-content.md
+            - name: Integrowanie pulpitu nawigacyjnego w aplikacji (dane należą do użytkownika)
+              href: developer/integrate-dashboard.md
+            - name: Integrowanie kafelka usługi Power BI w aplikacji (dane należą do użytkownika)
+              href: developer/integrate-tile.md
+            - name: Integrowanie raportu usługi Power BI w aplikacji (dane należą do użytkownika)
+              href: developer/integrate-report.md
+            - name: Integrowanie zawartości w aplikacji (dane należą do aplikacji)
+              href: developer/embed-sample-for-customers.md
+            - name: Integrowanie zawartości w aplikacji na potrzeby suwerennych chmur (dane należą do aplikacji)
+              href: developer/embed-sample-for-customers-sovereign-clouds.md
             - name: Osadzanie układów niestandardowych w aplikacji
               href: developer/embedded-custom-layout.md
             - name: Tworzenie dzierżawy usługi Azure Active Directory
@@ -946,14 +940,20 @@
               href: developer/register-app.md
             - name: Uwierzytelnianie w usłudze Power BI
               href: developer/get-azuread-access-token.md
+            - name: Osadzanie pytań i odpowiedzi
+              href: developer/qanda.md
+            - name: Jak migrować usługę Power BI Embedded
+              href: developer/migrate-from-powerbi-embedded.md
             - name: Narzędzie do migracji usługi Power BI Embedded
               href: developer/migrate-tool.md
             - name: Fragmenty kodu migracji
               href: developer/migrate-code-snippets.md
             - name: Rozwiązywanie problemów z aplikacją osadzoną
               href: developer/embedded-troubleshoot.md
-        - name: Wypychanie danych do pulpitu nawigacyjnego
+        - name: Wypychanie danych
           items:
+            - name: Wypychanie danych do pulpitu nawigacyjnego
+              href: developer/walkthrough-push-data.md
             - name: Rejestrowanie aplikacji w usłudze Azure AD
               href: developer/walkthrough-push-data-register-app-with-azure-ad.md
             - name: Uzyskiwanie tokenu dostępu do uwierzytelniania
@@ -990,6 +990,8 @@
           href: 'https://go.microsoft.com/fwlink/?linkid=848277'
     - name: Zasoby
       items:
+        - name: Narzędzie obsługi dołączania na potrzeby osadzania
+          href: 'https://aka.ms/embedsetup'
         - name: Przykład placu zabaw w języku JavaScript
           href: 'https://go.microsoft.com/fwlink/?linkid=848279'
         - name: Przykłady

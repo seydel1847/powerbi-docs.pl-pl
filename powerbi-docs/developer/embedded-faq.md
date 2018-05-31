@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: 24e4dbaf6ede92436ff05c8cb57756e3ab7e8526
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: f2d457c04f9db2bdd57f363ccb0c09e2496aefd6
+ms.sourcegitcommit: 1c7780e0dfe0b6b8322e6fafdd0693177db455d2
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/14/2018
+ms.locfileid: "34163327"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Często zadawane pytania dotyczące usługi Power BI Embedded
 
@@ -58,7 +59,7 @@ W niektórych przypadkach niezależny dostawca oprogramowania (działający zazw
 
 ### <a name="how-many-embed-tokens-can-i-create"></a>Ile mogę utworzyć tokenów osadzania?
 
-Tokeny osadzania z licencją PRO są przeznaczone do celów projektowania i testowania programowania, więc liczba tokenów osadzania, które może wygenerować konto główne usługi Power BI, jest ograniczona. Aby umożliwić osadzanie w środowisku produkcyjnym, musisz [kupić pojemność](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical). Nie ma żadnego ograniczenia liczby generowanych tokenów osadzania, gdy zostanie kupiona pojemność.
+Tokeny osadzania z licencją PRO są przeznaczone do celów projektowania i testowania programowania, więc liczba tokenów osadzania, które może wygenerować konto główne usługi Power BI, jest ograniczona. Aby umożliwić osadzanie w środowisku produkcyjnym, musisz [kupić pojemność](#technical). Nie ma żadnego ograniczenia liczby generowanych tokenów osadzania, gdy zostanie kupiona pojemność. Przejdź do tematu [Get Available Features](https://msdn.microsoft.com/library/mt846473.aspx) (Pobieranie dostępnych funkcji), aby sprawdzić wartość użycia, która wskazuje bieżące użycie osadzania w procentach.
 
 ## <a name="technical"></a>Szczegóły techniczne
 
@@ -164,10 +165,6 @@ Tak, możesz użyć [środków na korzystanie z platformy Azure](https://azure.m
 
 Ponieważ usługa Power BI Embedded jest częścią platformy Azure, możesz korzystać z niej na podstawie [kredytu w wysokości 200 USD uzyskanego podczas rejestracji na platformie Azure](https://azure.microsoft.com/free/).
 
-### <a name="is-there-a-limit-to-the-number-of-embed-tokens-a-power-bi-master-account-can-generate"></a>Czy istnieje limit liczby osadzonych tokenów, które może wygenerować główne konto usługi Power BI? 
-
-Tak, ta liczba jest ograniczona, ponieważ tokeny osadzone służą tylko do testowania na potrzeby programowania. Dla scenariuszy osadzania w dowolnym środowisku produkcyjnym [należy kupić pojemność](#technical). Nie ma żadnego ograniczenia generowania tokenów osadzania, gdy zostanie kupiona pojemność. Przejdź do pozycji [Pobierz dostępne funkcje](https://msdn.microsoft.com/en-us/library/mt846473.aspx), aby sprawdzić, ilu bezpłatnych osadzonych tokenów już użyto.
-
 ### <a name="is-power-bi-embedded-available-for-sovereign-clouds-us-government-germany-china"></a>Czy usługa Power BI Embedded jest dostępna w przypadku chmur suwerennych (instytucje rządowe Stanów Zjednoczonych, Niemcy, Chiny)?
 
 Usługa Power BI Embedded jest dostępna dla niektórych [chmur suwerennych](embed-sample-for-customers-sovereign-clouds.md). Nadal **NIE** jest ona dostępna w przypadku chmury w wersji dla Chin.
@@ -176,9 +173,47 @@ Usługa Power BI Embedded jest dostępna dla niektórych [chmur suwerennych](emb
 
 Instytucje edukacyjne i organizacje niedochodowe mogą zakupić platformę Azure. Nie ma żadnych specjalnych cen dla tego typu klientów platformy Azure.
 
+## <a name="power-bi-workspace-collection"></a>Kolekcja obszarów roboczych usługi Power BI
+
+### <a name="what-is-power-bi-workspace-collection"></a>Co to jest kolekcja obszarów roboczych usługi Power BI?
+
+**Kolekcja obszarów roboczych usługi Power BI** (**Power BI Embedded** w wersji 1) to rozwiązanie oparte na następującym zasobie **Kolekcja obszarów roboczych usługi Power BI** platformy Azure. To rozwiązanie umożliwia tworzenie aplikacji usługi **Power BI Embedded** dla klientów dzięki użyciu zawartości usługi Power BI w rozwiązaniu **Kolekcja obszarów roboczych usługi Power BI**, dedykowanych interfejsów API i kluczy kolekcji obszarów roboczych do uwierzytelniania aplikacji w usłudze Power BI.
+
+### <a name="can-i-migrate-from-power-bi-workspace-collection-to-power-bi-embedded"></a>Czy mogę migrować zawartość kolekcji obszarów roboczych usługi Power BI do usługi Power BI Embedded?
+
+1. Do klonowania zawartości **kolekcji obszarów roboczych usługi Power BI** do usługi Power BI można użyć narzędzia migracji — https://docs.microsoft.com/power-bi/developer/migrate-from-powerbi-embedded#content-migration.
+
+2. Uruchom weryfikację koncepcji aplikacji usługi **Power BI Embedded**, w której jest używana zawartość usługi Power BI.
+
+3. Gdy wszystko będzie gotowe do produkcji, kup dedykowaną pojemność usługi **Power BI Embedded** i przypisz zawartość usługi Power BI (obszar roboczy) do tej wydajności.
+
+>[!Note]
+Możesz nadal używać **kolekcji obszarów roboczych usługi Power BI** podczas kompilowania równolegle z rozwiązaniem **Power BI Embedded**. Gdy wszystko będzie gotowe, można przenieść klienta do nowego rozwiązania usługi **Power BI Embedded** i wycofać rozwiązanie **Kolekcja obszarów roboczych usługi Power BI**.
+
+Aby uzyskać więcej informacji, zapoznaj się z tematem [Jak migrować zawartość kolekcji obszarów roboczych usługi Power BI do usługi Power BI Embedded](https://docs.microsoft.com/power-bi/developer/migrate-from-powerbi-embedded)
+
+### <a name="is-power-bi-workspace-collection-on-a-path-to-be-deprecated"></a>Czy jest planowane wycofanie z użycia kolekcji obszarów roboczych usługi Power BI?
+
+Tak, ale klienci, którzy już używają rozwiązania **Kolekcja obszarów roboczych usługi Power BI**, mogą nadal z niego korzystać, dopóki nie zostanie uznane za przestarzałe. Klienci mogą również tworzyć nowe kolekcje obszarów roboczych i wszystkie aplikacje usługi **Power BI Embedded**, które będą nadal używać rozwiązania **Kolekcja obszarów roboczych usługi Power BI**.
+
+Oznacza to jednak również, że nowe funkcje nie są dodawane do żadnych rozwiązań typu **Kolekcja obszarów roboczych usługi Power BI**, a klienci są zachęcani do przeprowadzania migracji do nowego rozwiązania **Power BI Embedded**.
+### <a name="when-will-power-bi-workspace-collection-support-be-discontinued"></a>Kiedy zakończy się świadczenie pomocy technicznej dla rozwiązania Kolekcja obszarów roboczych usługi Power BI?
+
+Klienci, którzy już używają rozwiązania **Kolekcja obszarów roboczych usługi Power BI**, mogą z niego korzystać do końca czerwca 2018 r. lub do zakończenia okresu obowiązywania umowy dotyczącej pomocy technicznej.
+
+### <a name="in-what-regions-can-pbi-workspace-collection-be-created"></a>W jakich regionach można tworzyć kolekcję obszarów roboczych usługi PBI?
+
+Dostępne regiony to: Australia Południowo-Wschodnia, Brazylia Południowa, Kanada Środkowa, Wschodnie stany USA 2, Japonia Wschodnia, Środkowo-północne stany USA, Europa Północna, Południowo-środkowe stany USA, Azja Południowo-wschodnia, Południowe Zjednoczone Królestwo, Europa Zachodnia, Indie Zachodnie i Zachodnie stany USA.
+
+### <a name="why-should-i-migrate-from-pbi-workspace-collection-to-power-bi-embedded"></a>Dlaczego warto migrować kolekcję obszarów roboczych usługi Power BI do usługi Power BI Embedded?
+
+Istnieją nowe funkcje i możliwości wprowadzone w rozwiązaniu **Power BI Embedded**, z których nie można korzystać w przypadku **kolekcji obszarów roboczych usługi Power BI**.
+
+Oto przykłady tych funkcji:
+* Wszystkie źródła danych usługi PBI są obsługiwane, w odróżnieniu od 2 źródeł danych rozwiązania **Kolekcja obszarów roboczych usługi Power BI**. 
+* Nowe funkcje, takie jak pytania i odpowiedzi, odświeżanie, zakładki, osadzanie pulpitów nawigacyjnych i kafelków, menu niestandardowe itd., są obsługiwane tylko w rozwiązaniu **Power BI Embedded**.
+* Model rozliczania pojemności.
+
 Aby uzyskać więcej informacji, zobacz [Rozwiązywanie problemów z aplikacją osadzoną](embedded-troubleshoot.md)
 
-Więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
-
-
-
+Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)

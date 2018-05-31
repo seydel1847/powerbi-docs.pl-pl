@@ -1,27 +1,20 @@
 ---
 title: Dziennik zmian w Serwerze raportów usługi Power BI
 description: Ten dziennik zmian zawiera listę nowych elementów oraz poprawek błędów w każdej wydanej kompilacji Serwera raportów usługi Power BI.
-services: powerbi
-documentationcenter: ''
 author: jtarquino
-manager: jonhp
-backup: maggies
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+manager: kfile
+ms.reviewer: maggies
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-report-server
+ms.topic: conceptual
 ms.date: 12/11/2017
-ms.author: tankas
-ms.openlocfilehash: 67b9a162d689a8615a3e2459295eab6dad6d2364
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.author: jtarquino
+ms.openlocfilehash: 65ad5e6ca9fbdd71643f71fa56186ee3d01d2dd1
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34295690"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Dziennik zmian w Serwerze raportów usługi Power BI
 
@@ -31,6 +24,24 @@ Aby uzyskać szczegółowe informacje o nowych funkcjach, zobacz [Co nowego w Se
 
 ## <a name="march-2018"></a>Marzec 2018
 - **Serwer raportów usługi Power BI**
+    - *Wersja 1.2.6690.34729 (kompilacja 15.0.2.402), data wydania: 27 kwietnia 2018 r.*
+        - Poprawki błędów
+            - Włączanie migracji katalogów usług SQL Server Reporting Services 2017
+            - Raporty usługi Power BI (PBIX)
+                - Raporty mogą być odświeżane, gdy serwer jest skonfigurowany do używania uwierzytelniania niestandardowego
+                - Modyfikowanie właściwości raportu nie powoduje resetowania poświadczeń źródła danych
+            - Raporty podzielone na strony (RDL)
+                - Użycie funkcji `Lookup()` lub pochodnych funkcji, takich jak `LookupSet()` i `MultiLookup()`, w wyrażeniach języka RDL nie powoduje już błędu `#Error`
+                - Raporty połączone uwzględniają rozmiar strony raportu docelowego podczas drukowania
+                - Można tworzyć subskrypcje dla raportów połączonych korzystających z parametrów kaskadowych
+                - Domyślne wartości parametrów wielowartościowych można modyfikować w programie IE11
+                - Opcje dostarczania subskrypcji opartej na danych są edytowalne
+                - Subskrypcje można wyświetlać i edytować podczas wykonywania subskrypcji
+                - Ustawienie poświadczeń źródła danych nie powoduje usunięcia parametrów połączenia opartych na wyrażeniach
+            - Kluczowe wskaźniki wydajności (KPI)
+                - Linie trendu są odświeżane podczas aktualizacji danych
+            - Ogólne ulepszenia stabilności
+
     - *Wersja 1.2.6660.39920 (kompilacja 15.0.2.389), data wydania: 28 marca 2018 r.*
         - Poprawki błędów
             - W przypadku raportów usługi Power BI (PBIX) naprawiono błąd polegający na tym, że eksport danych nie działał z poziomu wizualizacji usługi Power BI
@@ -120,7 +131,7 @@ Aby uzyskać szczegółowe informacje o nowych funkcjach, zobacz [Co nowego w Se
 
     - *Kompilacja 14.0.600.301, data wydania: 11 lipca 2017 r.*
         - Poprawki błędów
-            - Tag {{UserId}} jest rozpoznawany jako przechowywane poświadczenia zamiast użytkownika uruchamiającego raport w usłudze Power BI
+            - Tag `{{UserId}}` jest rozpoznawany jako przechowywane poświadczenia, a nie użytkownik uruchamiający raport w usłudze Power BI
             - Niektóre obrazy nie są renderowane w raportach Serwera raportów usługi Power BI
             - Nie można zmienić nazwy raportu na Serwerze raportów usługi Power BI
             - Nie można załadować niestandardowych wizualizacji w aplikacji Power BI dla urządzeń przenośnych (wymagana jest ponowna instalacja aplikacji mobilnej w celu wyczyszczenia lokalnej pamięci podręcznej)
@@ -136,7 +147,7 @@ Aby uzyskać szczegółowe informacje o nowych funkcjach, zobacz [Co nowego w Se
 
 [Podręcznik użytkownika](user-handbook-overview.md)  
 [Podręcznik administratora](admin-handbook-overview.md)  
-[Szybki start: instalowanie serwera raportów usługi Power BI](quickstart-install-report-server.md)  
+[Instalacja serwera raportów usługi Power BI](install-report-server.md)  
 [Instalowanie programu Report Builder](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
 [Pobieranie programu SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)
 

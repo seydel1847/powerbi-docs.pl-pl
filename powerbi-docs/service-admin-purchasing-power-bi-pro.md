@@ -1,95 +1,77 @@
 ---
-title: Zakup usługi Power BI Pro
-description: Usługa Power BI Pro jest przeznaczona dla użytkowników, którzy publikują raporty, udostępniają pulpity nawigacyjne, współpracują w obszarach roboczych oraz wykonują inne powiązane działania.
-services: powerbi
-documentationcenter: ''
+title: 'Szybki start: kupowanie licencji usługi Power BI Pro'
+description: Dowiedz się, jak kupować licencje usługi Power BI Pro, umożliwiając użytkownikom dostęp do całej zawartości i wszystkich funkcji w usłudze Power BI.
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 03/22/2018
+ms.component: powerbi-admin
+ms.topic: quickstart
+ms.date: 05/03/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: c843125b875a2fe63dd24ab9b6346cda85456835
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: 723b352657f0f89e591ef5c8614866d1ede59ae9
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34295174"
 ---
-# <a name="purchasing-power-bi-pro"></a>Zakup usługi Power BI Pro
+# <a name="quickstart-purchase-power-bi-pro-licenses"></a>Szybki start: kupowanie licencji usługi Power BI Pro
 
-Usługa Power BI Pro umożliwia publikowanie raportów, udostępnianie pulpitów nawigacyjnych, współpracowanie w obszarach roboczych oraz wykonywanie innych powiązanych działań. Aby uzyskać więcej informacji o tym, w jaki sposób usługa Power BI Pro zapewnia korzyści dla organizacji, zobacz [Usługa Power BI Pro w organizacji](service-admin-power-bi-pro-in-your-organization.md).
+Usługa Power BI Pro stanowi indywidualną licencję, która zapewnia dostęp do całej zawartości i wszystkich funkcji w usłudze Power BI, w tym do możliwości udostępniania zawartości i współpracy z innymi użytkownikami wersji Pro. Tylko użytkownicy wersji Pro mogą publikować zawartość i używać jej w obszarach roboczych aplikacji, udostępniać pulpity nawigacyjne oraz subskrybować pulpity nawigacyjne i raporty. W tym artykule wyjaśniono, jak kupować licencje usługi Power BI Pro w usłudze Office 365.
 
-## <a name="purchasing-power-bi-pro-through-office-365-admin-center"></a>Kupowanie usługi Power BI Pro za pośrednictwem centrum administracyjnego usługi Office 365
 
-Administratorzy IT usługi Office mogą kupić usługę Power BI Pro jako część subskrypcji usługi Office 365 Enterprise E5 lub jako oddzielną subskrypcję usługi Power BI Pro. Następnie można przypisać licencje usługi Power BI Pro do odpowiednich użytkowników. Aby uzyskać więcej informacji na temat przydzielania licencji, zobacz [Przydzielanie licencji użytkownikom w usłudze Office 365](https://support.office.com/en-us/article/assign-licenses-to-users-in-office-365-for-business-997596b5-4173-4627-b915-36abac6786dc?ui=en-US&rs=en-US&ad=US).
+## <a name="prerequisites"></a>Wymagania wstępne
 
-Wykonaj poniższe kroki, aby kupić usługę Power BI Pro, jeśli jesteś administratorem IT pakietu Office:
+Musisz być członkiem roli [**Administrator globalny** lub **Administrator rozliczeń**](https://support.office.com/article/about-office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d?ui=en-US&rs=en-US&ad=US) w usłudze Office 365. 
 
-1. Przejdź do [centrum administracyjnego usługi Office 365](https://portal.office.com/adminportal/home#/homepage).
-2. W lewym okienku nawigacji wybierz pozycję Rozliczenia, a następnie kliknij pozycję Subskrypcje.
 
-    ![okienko nawigacji](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro/service-purchasing-power-bi-pro-01.png)
+## <a name="purchase-power-bi-pro-licenses-through-office-365"></a>Kupowanie licencji usługi Power BI Pro za pośrednictwem usługi Office 365
 
-3. Kliknij przycisk Dodaj subskrypcje w prawym górnym rogu strony Subskrypcje.
+Wykonaj poniższe kroki, aby kupić licencje usługi Power BI Pro:
 
-    ![subskrypcja](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro/service-purchasing-power-bi-pro-02.png)
+1. Otwórz [centrum administracyjne usługi Office 365](https://portal.office.com/adminportal/home#/homepage).
+
+2. W okienku nawigacji po lewej stronie wybierz pozycję **Rozliczenia** > **Subskrypcje**.
+
+    ![Okienko nawigacji](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro/service-purchasing-power-bi-pro-01.png)
+
+3. W prawym górnym rogu strony **Subskrypcje** wybierz pozycję **Dodaj subskrypcje**.
+
+    ![Subskrypcja](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro/service-purchasing-power-bi-pro-02.png)
 
 4. Znajdź żądaną ofertę subskrypcji:
 
-    W obszarze Enterprise Suite wybierz pozycję Office 365 Enterprise E5
+    W obszarze **Enterprise Suite** wybierz pozycję **Office 365 Enterprise E5**.
 
     ![Subskrypcja Office E5](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro/service-purchasing-power-bi-pro-03.png)
 
-    W obszarze Inne plany wybierz pozycję Power BI Pro
+    W obszarze **Inne plany** wybierz pozycję **Power BI Pro**.
 
-    ![Subskrypcja PBI](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro/service-purchasing-power-bi-pro-04.png)
+    ![Subskrypcja usługi Power BI](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro/service-purchasing-power-bi-pro-04.png)
 
-5. Umieść kursor nad wielokropkiem (...) dla odpowiedniej subskrypcji i wybierz pozycję Kup teraz.
+5. Umieść kursor nad wielokropkiem (...) dla odpowiedniej subskrypcji i wybierz pozycję **Kup teraz**.
 
     ![Kup teraz](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro/service-purchasing-power-bi-pro-05.png)
 
-6. Wybierz płatność co miesiąc lub opłatę za cały rok zgodnie z preferencjami dotyczącymi rozliczeń.
-7. W obszarze Ilu chcesz mieć użytkowników? wprowadź żądaną liczbę licencji, a następnie kliknij opcję Przejdź do kasy teraz lub Dodaj do koszyka i zakończ transakcję.
-8. Sprawdź, czy pozyskana subskrypcja znajduje się teraz na liście na stronie Subskrypcje.
+6. Wybierz pozycję **Płać co miesiąc** lub **Zapłać za cały rok** zgodnie z preferencjami dotyczącymi rozliczeń.
+
+7. W obszarze **Ilu chcesz mieć użytkowników?** wprowadź żądaną liczbę licencji, a następnie wybierz pozycję **Przejdź do kasy** w celu zakończenia transakcji.
+
+8. Sprawdź, czy zakupiona subskrypcja znajduje się teraz na liście na stronie **Subskrypcje**.
 
    ![Pozyskana subskrypcja](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro/service-purchasing-power-bi-pro-06.png)
 
-> [!NOTE]
-> Możesz dodać więcej licencji po początkowym zakupie. Wybierz subskrypcję usługi Power BI Pro na stronie Subskrypcje, a następnie kliknij pozycję Dodaj/Usuń licencje.
->
+9. Aby dodać więcej licencji po dokonaniu początkowego zakupu, wybierz pozycję **Power BI Pro** na stronie **Subskrypcje**, a następnie wybierz pozycję **Dodaj/Usuń licencje**.
 
-## <a name="pricing"></a>Cennik
-
-Aby uzyskać więcej informacji o cenach, zobacz [Cennik usługi Power BI](https://powerbi.microsoft.com/en-us/pricing/).
-
-> [!NOTE]
-> Użytkownicy z przypisanymi licencjami Pro mają pełny dostęp przez 30 dni po zakończeniu subskrypcji. W takim przypadku Twoja subskrypcja będzie wyświetlana jako „wygasła” w portalu administracyjnym.
->
 
 ## <a name="next-steps"></a>Następne kroki
-[Rejestracja samoobsługowa w usłudze Power BI](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md)
-<br/>
-[Usługa Power BI (wersja bezpłatna) w organizacji](service-admin-service-free-in-your-organization.md)
-<br/>
-[Usługa Power BI Pro w organizacji](service-admin-power-bi-pro-in-your-organization.md)
-<br/>
-[Aktywacja rozszerzonej wersji próbnej Pro](service-extended-pro-trial.md)
-<br/>
-[Przypisywanie licencji usługi Power BI Pro](service-admin-assigning-power-bi-pro-licenses.md)
-<br/>
-[Power BI Premium — co to jest?](service-admin-premium-manage.md)
-<br/>
-[Jak kupić usługę Power BI Premium](service-admin-premium-purchase.md)
-<br/>
-[Oficjalny dokument firmy Microsoft na temat usługi Power BI Premium](https://aka.ms/pbipremiumwhitepaper)
 
-Masz więcej pytań? [Zadaj pytanie społeczności usługi Power BI](https://community.powerbi.com/)
+Teraz zakupione licencje należy przypisać do użytkowników w dzierżawie.
+
+[Przypisywanie licencji do użytkowników w usłudze Office 365](service-admin-assigning-power-bi-pro-licenses.md)
+
+[Przypisywanie licencji do użytkowników na platformie Azure](service-admin-assigning-power-bi-pro-licenses-azure.md)
+
+[Cennik usługi Power BI](https://powerbi.microsoft.com/en-us/pricing/)

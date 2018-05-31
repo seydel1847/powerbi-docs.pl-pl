@@ -18,11 +18,12 @@ ms.workload: powerbi
 ms.date: 04/13/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 4552e08c5291ee5f0ce268e796e1a9148eb64be2
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: 62eab4de4dc46695f7bfd922333d588ed863f2bc
+ms.sourcegitcommit: c29525cbac2e747edb4dd3a1841084bb0ce42582
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/08/2018
+ms.locfileid: "33871483"
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Języki i kraje/regiony obsługiwane w usłudze Power BI
 
@@ -165,6 +166,11 @@ Oprócz ustawienia języka aplikacji Power BI Desktop można również ustawić 
 - Sposób porównywania i sortowania ciągów. Na przykład ponieważ w języku tureckim są używane dwie litery i, w zależności od sortowania bazy danych obydwie mogą znaleźć się w innej pozycji podczas sortowania. 
 - Język, którego program Power BI Desktop używa podczas tworzenia ukrytych tabel dat na podstawie pól dat. Na przykład pola są nazywane Month/Monat/Mois itd.
 
+> [!NOTE]
+> Obecnie model usługi Power BI używa ustawień regionalnych, w których wielkość liter (lub znaki kana) nie jest uwzględniana, dlatego ciągi „ABC” i „abc” będą traktowane tak samo. Jeśli ciąg „ABC” zostanie załadowany do bazy danych jako pierwszy, inne ciągi, które różnią się tylko wielkością liter, takie jak „Abc”, nie będą ładowane jako osobne wartości.
+> 
+>
+
 Poniżej przedstawiono sposób ustawiania języka modelu.
 
 1. W programie Power BI Desktop wybierz opcję **Plik** > **Opcje i ustawienia** > **Opcje**.
@@ -173,6 +179,10 @@ Poniżej przedstawiono sposób ustawiania języka modelu.
 
     ![Ustawianie języka modelu w programie Power BI Desktop](media/supported-languages-countries-regions/power-bi-supported-model-languages.png)
 
+> [!NOTE]
+> Po utworzeniu nie można zmienić języka modelu usługi Power BI.
+> 
+>
 
 ## <a name="languages-for-the-help-documentation"></a>Języki dokumentacji pomocy
 Zlokalizowana pomoc jest dostępna w następujących 10 językach: 

@@ -1,283 +1,92 @@
 ---
-title: Administrowanie usługą Power BI w organizacji
-description: Administrowanie usługą Power BI w organizacji
-services: powerbi
-documentationcenter: ''
+title: Co to jest administracja usługi Power BI?
+description: Informacje na temat konfiguracji zasad zarządzania, monitorowania użycia i aprowizowania licencji, możliwości i zasobów organizacyjnych usługi Power BI.
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 11/28/2017
+ms.component: powerbi-admin
+ms.topic: overview
+ms.date: 05/01/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: d5cb48469cc5ed5b49da841552bf7426ad29c3fb
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: 5e69ed0010c5a2ff496b761f54b4cf2561f9b4ca
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34297428"
 ---
-# <a name="administering-power-bi-in-your-organization"></a>Administrowanie usługą Power BI w organizacji
-Usługa Microsoft Power BI umożliwia użytkownikom wizualizowanie danych, udostępnianie odkryć i współpracowanie przy użyciu nowych, intuicyjnych metod. Aby dowiedzieć się więcej, zobacz [Wprowadzenie do usługi Power BI](service-get-started.md).
+# <a name="what-is-power-bi-administration"></a>Co to jest administracja usługi Power BI?
 
-Administrowanie usługi Power BI może mieć miejsce w kilku lokalizacjach. Poniżej przedstawiono dwie typowe lokalizacje.
+Administracja usługi Power BI to zarządzanie dzierżawami usługi Power BI, w tym konfiguracją zasad zarządzania, monitorowania użycia i aprowizowania licencji, możliwości i zasobów organizacyjnych. Ten artykuł zawiera omówienie ról, zadań i narzędzi administracyjnych oraz linki do artykułów z bardziej szczegółowymi informacjami.
 
-> [!NOTE]
-> Twoje konto musi być oznaczone jako **Administrator globalny**, w usłudze Office 365 lub Azure Active Directory, albo musisz uzyskać przydział do roli administratora usługi Power BI, aby uzyskać dostęp do portalu administracyjnego usługi Power BI. Aby uzyskać więcej informacji o roli administratora usługi Power BI, zobacz [Opis roli administratora usługi Power BI](service-admin-role.md).
-> 
-> 
+![Portal administracyjny usługi Power BI](media/service-admin-administering-power-bi-in-your-organization/admin-portal.png)
 
-* [Portal administracyjny usługi Power BI](https://app.powerbi.com/admin-portal)
-* [Centrum administracyjne usługi Office 365](https://portal.office.com/adminportal/home)
+Usługa Power BI jest przeznaczona do samodzielnego przeprowadzania analizy biznesowej, a administrator jest strażnikiem danych, procesów i zasad w dzierżawie usługi Power BI. Administrator usługi Power BI to kluczowy członek zespołu obejmującego deweloperów i analityków biznesowych oraz użytkowników pełniących inne role. Administrator może pomóc organizacji w zapewnieniu, że cele o krytycznym znaczeniu zostały spełnione:
 
-Aby uzyskać więcej informacji o roli administratora usługi Power BI, zobacz [Opis roli administratora usługi Power BI](service-admin-role.md).
+- Zrozumienie kluczowych wskaźników wydajności i metryk _faktycznie_ potrzebnych użytkownikom
+- Skrócenie czasu dostarczania produktu na rynek na potrzeby raportowania przeprowadzanego przez dział IT
+- Zwiększanie szybkości wdrażania i zwrotów z inwestycji powiązanych z wdrożeniem usługi Power BI
 
-## <a name="whats-in-this-article"></a>Zawartość artykułu
-**Tworzenie konta w usłudze Power BI**
+Głównym zadaniem jest zwiększenie produktywności pracy użytkowników biznesowych oraz zapewnienie bezpieczeństwa i zgodności z prawem i przepisami. Obowiązki mogą obejmować wsparcie i pomoc techniczną, a w wielu przypadkach ułatwianie użytkownikom biznesowym właściwego wykonywania zadań.
 
-* [Jak użytkownicy tworzą konta w usłudze Power BI?](#how-do-users-sign-up-for-power-bi)
-* [Jak poszczególni użytkownicy w organizacji tworzą konta?](#how-do-individual-users-in-my-organization-sign-up)
-* [Jak mogę uniemożliwić użytkownikom dołączanie do istniejącej dzierżawy usługi Office 365?](#how-can-i-prevent-users-from-joining-my-existing-office-365-tenant)
-* [Jak można zezwolić użytkownikom na dołączanie do istniejącej dzierżawy usługi Office 365?](#how-can-i-allow-users-to-join-my-existing-office-365-tenant)
-* [Jak sprawdzić, czy dzierżawa ma blokadę?](#how-do-i-verify-if-i-have-the-block-on-in-the-tenant)
-* [Jak uniemożliwić istniejącym użytkownikom rozpoczynanie korzystania z usługi Power BI?](#how-can-i-prevent-my-existing-users-from-starting-to-use-power-bi)
-* [Jak można zezwolić istniejącym użytkownikom na tworzenie kont w usłudze Power BI?](#how-can-i-allow-my-existing-users-to-sign-up-for-power-bi)
 
-**Administrowanie usługi Power BI**
+## <a name="administrator-roles-related-to-power-bi"></a>Role administratora powiązane z usługą Power BI
 
-* [Jak zmieni się obecny sposób zarządzania tożsamością użytkowników w mojej organizacji?](#how-will-this-change-the-way-i-manage-identities-for-users-in-my-organization-today)
-* [Jak zarządzać usługą Power BI?](#how-do-we-manage-power-bi)
-* [Jaka jest procedura przejęcia zarządzania dzierżawą utworzoną przez firmę Microsoft dla moich użytkowników?](#what-is-the-process-to-manage-a-tenant-created-by-Microsoft-for-my-users)
-* [Jeśli mam wiele domen, czy mogę kontrolować to, do której dzierżawy usługi Office 365 dodawani są użytkownicy?](#if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-are-added-to)
-* [Jak usunąć usługę Power BI dla użytkowników, którzy są już zarejestrowani?](#how-do-i-remove-power-bi-for-users-that-already-signed-up)
-* [Jak sprawdzić, kiedy nowi użytkownicy dołączają do mojej dzierżawy?](#how-do-i-know-when-new-users-have-joined-my-tenant)
-* [Czy istnieją dodatkowe rzeczy, na które należy się przygotować?](#are-there-any-additional-things-i-should-be-prepared-for)
-* [Czy jest to bezpłatne? Czy zostanie naliczona opłata za te licencje?](#is-this-free-will-i-be-charged-for-these-licenses)
-* [Gdzie znajduje się moja dzierżawa usługi Power BI?](#where-is-my-power-bi-tenant-located)
-* [Co to jest umowa SLA (umowa dotycząca poziomu usług) usługi Power BI?](#what-is-the-power-bi-sla)
+Istnieje kilka ról związanych z administrowaniem usługą Power BI, które opisano w poniższej tabeli.
 
-**Zabezpieczenia w usłudze Power BI**
+| **Typ administratora** | **Zakres administracyjny** | **Zakres usługi Power BI** |
+| --- | --- | --- |
+| Administrator globalny usługi Office 365 | Office 365 | Może zarządzać wszystkimi aspektami dzierżawy usługi Power BI i innych usług. |
+| Administrator rozliczeń usługi Office 365 | Office 365 | Może uzyskiwać licencje usługi Power BI w ramach subskrypcji usługi Office 365. |
+| Administrator usługi Power BI | Dzierżawa usługi Power BI | Ma pełną kontrolę nad dzierżawą usługi Power BI i jej funkcjami administracyjnymi (z wyjątkiem licencjonowania). |
+| Administrator pojemności usługi Power BI Premium | Pojemność pojedynczej usługi Premium | Ma pełną kontrolę nad pojemnością Premium i jej funkcjami administracyjnymi. |
+| Administrator pojemności usługi Power BI Embedded | Pojemność pojedynczej usługi Embedded | Ma pełną kontrolę nad pojemnością usługi Embedded i jej funkcjami administracyjnymi. |
 
-* [Czy usługa Power BI spełnia krajowe, regionalne i branżowe wymagania dotyczące zgodności?](#does-power-bi-meet-national-regional-and-industry-specific-compliance-requirements)
-* [Jak działają zabezpieczenia w usłudze Power BI?](#how-does-security-work-in-power-bi?)
+Administratorzy globalni w usłudze Office 365 lub Azure Active Directory mają prawa administratora w usłudze Power BI. Administrator globalny usługi Office 365 może przypisywać innych użytkowników do roli administratora usługi Power BI, która ma prawa administracyjne tylko do funkcji usługi Power BI.
 
-## <a name="sign-up-for-power-bi"></a>Tworzenie konta w usłudze Power BI
-### <a name="how-do-users-sign-up-for-power-bi"></a>Jak użytkownicy tworzą konta w usłudze Power BI?
-Możesz utworzyć konto w usłudze Power BI za pośrednictwem [witryny internetowej usługi Power BI](https://powerbi.microsoft.com). Możesz też zarejestrować się za pośrednictwem strony zakupu usług w centrum administracyjnym usługi Office 365. Jeśli administrator zarejestruje się w usłudze Power BI, będzie mógł przydzielać licencje użytkownikom, którzy powinni otrzymać dostęp.
+Administratorzy usługi Power BI mają dostęp do portalu administracyjnego usługi Power BI, który zawiera różne ustawienia na poziomie dzierżawy dotyczące funkcjonalności, zabezpieczeń i monitorowania. Administratorzy usługi mają pełny dostęp do wszystkich zasobów dzierżawy usługi Power BI. W większości przypadków administratorzy usługi mogą identyfikować problemy, a następnie współpracować z właścicielami zasobów w celu podjęcia akcji naprawczych.
 
-Ponadto poszczególni użytkownicy w organizacji mogą być w stanie zarejestrować się w usłudze Power BI za pośrednictwem [witryny internetowej usługi Power BI](https://powerbi.microsoft.com). Po zarejestrowaniu się użytkownika organizacji w usłudze Power BI zostanie do niego automatycznie przypisana bezpłatna licencja usługi Power BI. [Dowiedz się więcej](service-self-service-signup-for-power-bi.md)
+Rola administratora usługi Power BI nie pozwala na przypisywanie licencji do użytkowników ani na przeglądanie dzienników inspekcji w usłudze Office 365. W związku z tym zadania administrowania usługą Power BI nie mogą być aktualnie wykonywane przez użytkowników, którzy są wyłącznie członkami roli administratora usługi Power BI.
 
-### <a name="how-do-individual-users-in-my-organization-sign-up"></a>Jak poszczególni użytkownicy w organizacji tworzą konta?
-Istnieją trzy scenariusze, które mogą mieć zastosowanie do użytkowników w Twojej organizacji:
 
-Scenariusz 1. Organizacja ma już istniejące środowisko usługi Office 365, a użytkownik rejestrujący się w usłudze Power BI ma już konto usługi Office 365.
-Jeśli w tym scenariuszu użytkownik ma konto służbowe w dzierżawie (np. contoso.com), ale nie ma jeszcze konta Power BI, firma Microsoft po prostu aktywuje plan dla tego konta, a użytkownik otrzyma automatyczne powiadomienie o sposobie korzystania z usługi Power BI.
+## <a name="administrative-tasks"></a>Zadania administracyjne
 
-Scenariusz 2. Organizacja ma istniejące środowisko usługi Office 365, a użytkownik rejestrujący się w usłudze Power BI nie ma jeszcze konta usługi Office 365.
-W tym scenariuszu użytkownik ma adres e-mail w domenie organizacji (np. contoso.com), ale nie ma jeszcze konta usługi Office 365. W takim przypadku użytkownik może zarejestrować się w usłudze Power BI i automatycznie otrzyma konto. Dzięki temu użytkownik może uzyskać dostęp do usługi Power BI. Jeśli na przykład pracownica o imieniu Nancy użycie swojego adresu e-mail (np. Nancy@contoso.com) do zarejestrowania się w usłudze, firma Microsoft automatycznie doda użytkownika Nancy w środowisku usługi Office 365 firmy Contoso i aktywuje usługę Power BI dla tego konta.
+Administratorzy wykonują wiele zadań obsługi dzierżawy usługi Power BI w swojej organizacji. Zadania te przedstawiono w poniższej tabeli.
 
-Scenariusz 3. Organizacja nie ma środowiska usługi Office 365 połączonego z domeną poczty e-mail.
-Nie ma żadnych administracyjnych działań, które organizacja musi podjąć, aby skorzystać z usługi Power BI. Użytkownicy będą dodawani do nowego katalogu użytkowników działającego tylko w chmurze, a Ty będziesz mieć możliwość dobrowolnego wyboru i przejęcia tych użytkowników jako administrator dzierżawy i zarządzania nimi.
+| **Obszar zadania** | **Typowe zadania** |
+| --- | --- |
+| Zarządzanie dzierżawą usługi Power BI |<ul><li>Włączanie i wyłączanie kluczowych funkcji usługi Power BI<br><li>Tworzenie raportów dotyczących użycia i wydajności<br><li>Przeglądanie inspekcji zdarzeń i zarządzanie nimi</ul>|
+| Uzyskiwanie i przypisywanie licencji usługi Power BI |<ul><li>Zarządzanie tworzeniem nowych kont użytkowników<br><li>Kupowanie i przypisywanie licencji usługi Pro<br><li>Blokowanie dostępu użytkowników do usługi Power BI</ul>|
+| Zarządzanie pojemnością Premium |<ul><li>Uzyskiwanie pojemności Premium i praca z nią<br><li>Zapewnianie jakości usługi|
+| Zarządzanie pojemnością usługi Embedded |<ul><li>Uzyskiwanie pojemności usługi Embedded w celu uproszczenia sposobu korzystania z możliwości z usługi Power BI przez niezależnych dostawców oprogramowania i deweloperów</ul>|
+| Zapewnianie zgodności z zasadami wewnętrznymi, przepisami i regulacjami | <ul><li>Zarządzanie klasyfikacją danych biznesowych<br><li>Pomoc w wymuszaniu zasad publikowania i udostępniania zawartości</ul>|
+| Zarządzanie zasobami usługi Power BI |<ul><li>Zarządzanie obszarami roboczymi<br><li>Publikowanie wizualizacji niestandardowych<br><li>Weryfikowanie kodów używanych do osadzania usługi Power BI w innych aplikacjach|
+| Zapewnianie wsparcia i pomocy technicznej użytkownikom dzierżawy |<ul><li>Rozwiązywanie problemów z dostępem do danych i innych problemów</ul>|
+| Inne zadania |<ul><li>Wdrażanie programu Power BI Desktop, np. przy użyciu programu System Center Configuration Manager<br><li>Zarządzanie wdrażaniem aplikacji mobilnych usługi Power BI przy użyciu usługi Intune<br><li>Zarządzanie prywatnością i zabezpieczeniami danych, takimi jak zabezpieczenia źródeł danych</ul>|
 
-> [!IMPORTANT]
-> Jeśli organizacja ma wiele domen poczty e-mail i chcesz, aby wszystkie rozszerzenia adresu e-mail znalazły się w tej samej dzierżawie, dodaj wszystkie domeny adresów e-mail do dzierżawy usługi Azure Active Directory przed zarejestrowaniem jakichkolwiek użytkowników. Nie istnieje automatyczny mechanizm przenoszenia użytkowników między dzierżawami po ich utworzeniu. Aby uzyskać więcej informacji o tym procesie, zobacz sekcję [Jeśli mam wiele domen, czy mogę kontrolować to, do której dzierżawy usługi Office 365 dodawani są użytkownicy?](#if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-are-added-to) później w tym artykule oraz [Dodawanie domeny do usługi Office 365](https://support.office.com/article/Add-your-users-and-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611) w Internecie.
-> 
-> 
 
-### <a name="how-can-i-prevent-users-from-joining-my-existing-office-365-tenant"></a>Jak mogę uniemożliwić użytkownikom dołączanie do istniejącej dzierżawy usługi Office 365?
-Istnieją kroki, które możesz podjąć jako administrator, aby uniemożliwić użytkownikom dołączanie do istniejącej dzierżawy usługi Office 365. W przypadku zastosowania blokady próby rejestracji podejmowane przez użytkowników zakończą się niepowodzeniem, a użytkownicy zostaną przekierowani do kontaktu z administratorem w organizacji. Nie musisz powtarzać tego procesu, jeśli już wyłączono automatyczną dystrybucję licencji (np. usługa Office 365 dla instytucji edukacyjnych dla uczniów i studentów, nauczycieli i wykładowców oraz personelu).
+## <a name="administrative-tools"></a>Narzędzia administracyjne
 
-Te kroki wymagają użycia programu Windows PowerShell. Aby rozpocząć korzystanie z programu Windows PowerShell, zobacz [Rozpoczynanie pracy z programem PowerShell](http://go.microsoft.com/fwlink/p/?LinkID=286814).
+Istnieje szereg narzędzi związanych z administrowaniem usługą Power BI, które opisano w poniższej tabeli. Administratorzy zwykle spędzają większość czasu w portalu administracyjnym usługi Power BI i w razie potrzeby korzystają z innych narzędzi.
 
-Aby wykonać następujące kroki, musisz zainstalować najnowszą 64-bitową wersję [modułu Azure Active Directory Module dla programu Windows PowerShell](http://go.microsoft.com/fwlink/p/?LinkID=236297).
-
-Po wybraniu linku wybierz opcję **Uruchom**, aby uruchomić pakiet instalatora.
-
-**Wyłącz automatyczne dołączanie do dzierżawy**: użyj tego polecenia programu Windows PowerShell, aby uniemożliwić nowym użytkownikom dołączanie do zarządzanej dzierżawy:
-
-* Aby wyłączyć automatyczne dołączanie do dzierżawy dla nowych użytkowników:
-  
-    $msolcred = get-credential   connect-msolservice -credential $msolcred
-  
-    Set-MsolCompanySettings -AllowEmailVerifiedUsers $false
-* Aby włączyć automatyczne dołączanie do dzierżawy dla nowych użytkowników:
-  
-    $msolcred = get-credential   connect-msolservice -credential $msolcred
-  
-    Set-MsolCompanySettings -AllowEmailVerifiedUsers $true
-
-> [!NOTE]
-> Blokada uniemożliwia rejestrowanie się w usłudze Power BI nowym użytkownikom w organizacji. Użytkownicy, którzy zarejestrują się w usłudze Power BI przed wyłączeniem nowych rejestracji dla organizacji, zachowają swoje licencje. Zobacz sekcję [Jak mogę usunąć licencje?], aby uzyskać instrukcje dotyczące usuwania dostępu do usługi Power BI dla użytkowników, którzy już wcześniej zarejestrowali się w usłudze.
-> 
-> 
-
-### <a name="how-can-i-allow-users-to-join-my-existing-office-365-tenant"></a>Jak można zezwolić użytkownikom na dołączanie do istniejącej dzierżawy usługi Office 365?
-Aby umożliwić użytkownikom dołączanie do dzierżawy, uruchom przeciwne polecenie do opisanego w pytaniu powyżej.
-
-Aby wykonać następujące kroki, musisz zainstalować najnowszą 64-bitową wersję [modułu Azure Active Directory Module dla programu Windows PowerShell](http://go.microsoft.com/fwlink/p/?LinkID=236297).
-
-    $msolcred = get-credential
-    connect-msolservice -credential $msolcred
-
-    Set-MsolCompanySettings -AllowEmailVerifiedUsers $true
-
-### <a name="how-do-i-verify-if-i-have-the-block-on-in-the-tenant"></a>Jak sprawdzić, czy dzierżawa ma blokadę?
-Użyj następującego skryptu programu PowerShell.
-
-Aby wykonać następujące kroki, musisz zainstalować najnowszą 64-bitową wersję [modułu Azure Active Directory Module dla programu Windows PowerShell](http://go.microsoft.com/fwlink/p/?LinkID=236297).
-
-    $msolcred = get-credential
-    connect-msolservice -credential $msolcred
-
-    Get-MsolCompanyInformation | fl allow*
-
-### <a name="how-can-i-prevent-my-existing-users-from-starting-to-use-power-bi"></a>Jak uniemożliwić istniejącym użytkownikom rozpoczynanie korzystania z usługi Power BI?
-Istnieją kroki, które możesz podjąć jako administrator, aby uniemożliwić użytkownikom rejestrowanie się w usłudze Power BI. W przypadku zastosowania blokady próby rejestracji podejmowane przez użytkowników zakończą się niepowodzeniem, a użytkownicy zostaną przekierowani do kontaktu z administratorem w organizacji. Nie musisz powtarzać tego procesu, jeśli już wyłączono automatyczną dystrybucję licencji (np. usługa Office 365 dla instytucji edukacyjnych dla uczniów i studentów, nauczycieli i wykładowców oraz personelu). [Dowiedz się więcej](service-admin-service-free-in-your-organization.md#enable-or-disable-individual-user-sign-up-in-azure-active-directory)
-
-Ustawienie usługi AAD, które kontroluje tę opcję, to **AllowAdHocSubscriptions**. W przypadku większości dzierżaw dla tego ustawienia określona jest wartość true, co oznacza, że jest ono włączone. Jeśli klient nabył usługę Power BI za pośrednictwem partnera, domyślnie dla tego ustawienia może być ustawiona wartość false, co oznacza, że jest ono wyłączone.
-
-Aby wykonać następujące kroki, musisz zainstalować najnowszą 64-bitową wersję [modułu Azure Active Directory Module dla programu Windows PowerShell](http://go.microsoft.com/fwlink/p/?LinkID=236297).
-
-1. Najpierw musisz zalogować się do usługi Azure Active Directory przy użyciu poświadczeń usługi Office 365. Pierwszy wiersz spowoduje wyświetlenie monitu o podanie poświadczeń. Drugi wiersz spowoduje nawiązanie połączenia z usługą Azure Active Directory.
-   
-     $msolcred = get-credential   connect-msolservice -credential $msolcred
-2. Po zalogowaniu się można wydać następujące polecenie, aby wyświetlić bieżącą konfigurację dzierżawy.
-   
-     Get-MsolCompanyInformation | fl AllowAdHocSubscriptions
-3. Przy użyciu tego polecenia można włączyć ($true) lub wyłączyć ($false) opcję AllowAdHocSubscriptions.
-   
-     Set-MsolCompanySettings -AllowAdHocSubscriptions $true
-
-> [!NOTE]
-> Flaga AllowAdHocSubscriptions jest używana do kontrolowania kilku możliwości użytkownika w organizacji, w tym możliwości rejestrowania się w usłudze Azure Rights Management. Zmiana tej flagi wpłynie na wszystkie te możliwości.
-> 
-> 
-
-### <a name="how-can-i-allow-my-existing-users-to-sign-up-for-power-bi"></a>Jak można zezwolić istniejącym użytkownikom na tworzenie kont w usłudze Power BI?
-Aby umożliwić istniejącym użytkownikom rejestrowanie się w usłudze Power BI, uruchom polecenie opisane w powyższym pytaniu, ale przekaż wartość true zamiast wartości false.
-
-Aby wykonać następujące kroki, musisz zainstalować najnowszą 64-bitową wersję [modułu Azure Active Directory Module dla programu Windows PowerShell](http://go.microsoft.com/fwlink/p/?LinkID=236297).
-
-1. Najpierw musisz zalogować się do usługi Azure Active Directory przy użyciu poświadczeń usługi Office 365. Pierwszy wiersz spowoduje wyświetlenie monitu o podanie poświadczeń. Drugi wiersz spowoduje nawiązanie połączenia z usługą Azure Active Directory.
-   
-     $msolcred = get-credential   connect-msolservice -credential $msolcred
-2. Po zalogowaniu się można wydać następujące polecenie, aby wyświetlić bieżącą konfigurację dzierżawy.
-   
-     Get-MsolCompanyInformation | fl AllowAdHocSubscriptions
-3. Przy użyciu tego polecenia można włączyć ($true) lub wyłączyć ($false) opcję AllowAdHocSubscriptions.
-   
-     Set-MsolCompanySettings -AllowAdHocSubscriptions $true
-
-> [!NOTE]
-> Flaga AllowAdHocSubscriptions jest używana do kontrolowania kilku możliwości użytkownika w organizacji, w tym możliwości rejestrowania się w usłudze Azure Rights Management. Zmiana tej flagi wpłynie na wszystkie te możliwości.
-> 
-> 
-
-## <a name="administration-of-power-bi"></a>Administrowanie usługi Power BI
-### <a name="how-will-this-change-the-way-i-manage-identities-for-users-in-my-organization-today"></a>Jak zmieni się obecny sposób zarządzania tożsamością użytkowników w mojej organizacji?
-Jeśli Twoja organizacja ma już istniejące środowisko usługi Office 365 i wszyscy użytkownicy w organizacji mają konta usługi Office 365, zarządzanie tożsamościami nie ulegnie zmianie.
-
-Jeśli organizacja ma już istniejące środowisko usługi Office 365, ale nie wszyscy użytkownicy w organizacji mają konta usługi Office 365, utworzymy użytkownika w ramach dzierżawy i przypiszemy licencje na podstawie służbowego adresu e-mail danego użytkownika. Oznacza to, że liczba użytkowników, którymi zarządzasz w danym momencie, będzie się zwiększać w miarę tworzenia kont usługi przez użytkowników w organizacji.
-
-Jeśli organizacja nie ma środowiska usługi Office 365 połączonego z domeną poczty e-mail, Twój sposób zarządzania tożsamościami nie zmieni się. Użytkownicy będą dodawani do nowego katalogu użytkowników działającego tylko w chmurze, a Ty będziesz mieć możliwość dobrowolnego wyboru i przejęcia tych użytkowników jako administrator dzierżawy i zarządzania nimi.
-
-### <a name="how-do-we-manage-power-bi"></a>Jak zarządzać usługą Power BI?
-Usługa Power BI zapewnia portal administracyjny, który umożliwia wyświetlanie statystyk użycia, link do centrum administracyjnego usługi Office 365 umożliwiającego zarządzanie użytkownikami i grupami oraz możliwość kontrolowania ustawień obejmujących całą dzierżawę. 
-
-> [!NOTE]
-> Twoje konto musi być oznaczone jako **Administrator globalny**, w usłudze Office 365 lub Azure Active Directory, aby uzyskać dostęp do portalu administracyjnego usługi Power BI.
-> 
-> 
-
-Aby uzyskać więcej informacji, zobacz [Portal administracyjny usługi Power BI](service-admin-portal.md).
-
-### <a name="what-is-the-process-to-manage-a-tenant-created-by-microsoft-for-my-users"></a>Jaka jest procedura przejęcia zarządzania dzierżawą utworzoną przez firmę Microsoft dla moich użytkowników?
-Jeśli dzierżawa została utworzona przez firmę Microsoft, możesz przejąć dzierżawę i zarządzać nią w następujący sposób:
-
-1. Dołącz do dzierżawy, tworząc konto w usłudze Power BI za pomocą adresu e-mail w domenie odpowiadającej domenie dzierżawy, którą chcesz zarządzać. Na przykład jeśli firma Microsoft utworzyła dzierżawę contoso.com, należy dołączyć do dzierżawy za pomocą adresu e-mail kończącego się na @contoso.com.
-2. Przejmij kontrolę administracyjną, weryfikując własność domeny: po dołączeniu do dzierżawy możesz nadać sobie rolę *administratora globalnego*, weryfikując własność domeny. Aby to zrobić, wykonaj następujące kroki:
-   
-   1. Przejdź do [https://portal.office.com](https://portal.office.com).
-   2. Wybierz ikonę Uruchamianie aplikacji w lewym górnym rogu, a następnie wybierz pozycję **Administrator**.
-   3. Zapoznaj się z instrukcjami na stronie **Zostań administratorem**, a następnie wybierz pozycję **Tak, chcę być administratorem**.
-      
-      > [!NOTE]
-      > Jeśli ta opcja nie jest widoczna, oznacza to, że ktoś już został administratorem usługi Office 365.
-      > 
-      > 
-
-### <a name="if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-are-added-to"></a>Jeśli mam wiele domen, czy mogę kontrolować to, do której dzierżawy usługi Office 365 dodawani są użytkownicy?
-Jeśli nic nie zrobisz, dzierżawy będą tworzone dla każdej domeny i poddomeny poczty e-mail dla użytkowników.
-
-Jeśli chcesz, aby wszyscy użytkownicy należeli do tej samej dzierżawy niezależnie od rozszerzenia adresu e-mail:
-
-* Utwórz docelową dzierżawę wcześniej lub użyj istniejącej dzierżawy, a następnie dodaj wszystkie istniejące domeny i poddomeny, które chcesz połączyć z dzierżawą. Wtedy wszyscy użytkownicy mający adresy e-mail w tych domenach i poddomenach automatycznie dołączą do dzierżawy docelowej po utworzeniu konta.
-
-> [!IMPORTANT]
-> Nie jest obsługiwany żaden automatyczny mechanizm przenoszenia już utworzonych użytkowników do innej dzierżawy. Aby uzyskać więcej informacji na temat dodawania domen do dzierżawy usługi Office 365, zobacz [Dodawanie domeny i użytkowników do usługi Office 365](https://support.office.com/article/Add-your-users-and-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611).
-> 
-> 
-
-### <a name="how-do-i-remove-power-bi-for-users-that-already-signed-up"></a>Jak usunąć usługę Power BI dla użytkowników, którzy są już zarejestrowani?
-Jeśli użytkownik zarejestrował się już w usłudze Power BI, ale nie chcesz, aby miał dostęp do usługi Power BI, możesz usunąć licencję usługi Power BI dla tego użytkownika.
-
-1. Przejdź do centrum administracyjnego usługi Office 365.
-2. Na lewym pasku nawigacyjnym wybierz pozycję **Użytkownicy** > **Aktywni użytkownicy**.
-3. Znajdź użytkownika, którego licencję chcesz usunąć, a następnie wybierz jego nazwę > **Edytuj**.
-4. Na stronie szczegółów użytkownika wybierz opcję **Licencje** w lewym pasku nawigacyjnym.
-5. Usuń zaznaczenie pola wyboru **Power BI (wersja bezpłatna)** lub **Power BI Pro**, w zależności od licencji zastosowanej do konta użytkownika.
-6. Wybierz pozycję **Zapisz**.
-
-> [!NOTE]
-> Możesz też przeprowadzać zbiorcze zarządzanie licencjami użytkowników. Aby to zrobić, wybierz wielu użytkowników i wybierz opcję **Edytuj**.
-> 
-> 
-
-### <a name="how-do-i-know-when-new-users-have-joined-my-tenant"></a>Jak sprawdzić, kiedy nowi użytkownicy dołączają do mojej dzierżawy?
-Użytkownicy, którzy dołączyli do dzierżawy w ramach tego programu, otrzymują unikatową licencję, którą można odfiltrować w okienku aktywnego użytkownika na pulpicie nawigacyjnym administratora.
-
-Aby utworzyć ten nowy widok, w centrum administracyjnym usługi Office 365 przejdź do pozycji **Użytkownicy** > **Aktywni użytkownicy** oraz w menu **Wybierz widok** wybierz opcję **Nowy widok**. Nazwij nowy widok i w pozycji **Przypisana licencja** wybierz opcję **Power BI (wersja bezpłatna)** lub **Power BI Pro**. Możesz mieć wybraną tylko jedną licencję na widok. Jeśli masz w organizacji obie licencje, **Power BI (wersja bezpłatna)** i **Power BI Pro**, musisz utworzyć dwa widoki. Po utworzeniu nowego widoku możesz zobaczyć wszystkich użytkowników w dzierżawie, którzy zarejestrowali się w tym programie.
-
-### <a name="are-there-any-additional-things-i-should-be-prepared-for"></a>Czy istnieją dodatkowe rzeczy, na które należy się przygotować?
-Może wzrosnąć liczba żądań o resetowanie haseł. Aby uzyskać informacje o tym procesie, zobacz [Resetowanie hasła użytkownika](https://support.office.com/article/Reset-a-users-password-7a5d073b-7fae-4aa5-8f96-9ecd041aba9c).
-
-Możesz usunąć użytkownika z dzierżawy za pośrednictwem standardowego procesu w centrum administracyjnym usługi Office 365. Jeśli jednak użytkownik nadal ma aktywny adres e-mail od organizacji, będzie w stanie ponownie dołączyć, chyba że zablokujesz wszystkim użytkownikom możliwość dołączania.
-
-### <a name="is-this-free-will-i-be-charged-for-these-licenses"></a>Czy jest to bezpłatne? Czy zostanie naliczona opłata za te licencje?
-Licencje **Power BI (wersja bezpłatna)** dotyczą bezpłatnej wersji usługi Power BI. Jeśli interesują Cię dodatkowe możliwości, sprawdź [wersję Power BI Pro](service-premium.md).
-
-### <a name="where-is-my-power-bi-tenant-located"></a>Gdzie znajduje się moja dzierżawa usługi Power BI?
-Aby dowiedzieć się, gdzie znajduje się dzierżawa usługi Power BI, czyli gdzie mieści się tak zwany region danych, zobacz [Gdzie znajduje się moja dzierżawa usługi Power BI?](service-admin-where-is-my-tenant-located.md)
-
-### <a name="what-is-the-power-bi-sla"></a>Co to jest umowa SLA usługi Power BI?
-Aby uzyskać informacje na temat umowy SLA (umowy dotyczącej poziomu usług) usługi Power BI, zapoznaj się z artykułem dotyczącym [postanowień licencyjnych i dokumentacji](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=37) w sekcji **Licencjonowanie** witryny internetowej licencjonowania firmy Microsoft.
-
-## <a name="security-in-power-bi"></a>Zabezpieczenia w usłudze Power BI
-### <a name="does-power-bi-meet-national-regional-and-industry-specific-compliance-requirements"></a>Czy usługa Power BI spełnia krajowe, regionalne i branżowe wymagania dotyczące zgodności?
-Dowiedz się więcej na temat zgodności usługi Power BI na stronie [Centrum zaufania firmy Microsoft](http://go.microsoft.com/fwlink/?LinkId=785324).
-
-### <a name="how-does-security-work-in-power-bi"></a>Jak działają zabezpieczenia w usłudze Power BI?
-Usługa Power BI jest oparta na usłudze Office 365, która z kolei jest oparta na usługach platformy Azure, takich jak usługa Azure Active Directory. Aby uzyskać omówienie architektury usługi Power BI, zobacz [Zabezpieczenia usługi Power BI](service-admin-power-bi-security.md). 
+| **Narzędzie** | **Typowe zadania** |
+| --- | --- |
+| Portal administracyjny usługi Power BI |<ul><li>Blokowanie dostępu użytkowników do usługi Power BI<br><li>Uzyskiwanie pojemności Premium i praca z nią<br><li>Zapewnianie jakości usługi<br><li>Zarządzanie klasyfikacją danych biznesowych<br><li>Pomoc w wymuszaniu zasad publikowania i udostępniania zawartości<br><li>Zarządzanie obszarami roboczymi<br><li>Publikowanie wizualizacji niestandardowych<br><li>Weryfikowanie kodów używanych do osadzania usługi Power BI w innych aplikacjach<br><li>Rozwiązywanie problemów z dostępem do danych i innych problemów</ul>|
+| Centrum administracyjne usługi Office 365 |<ul><li>Zarządzanie tworzeniem nowych kont użytkowników<br><li>Kupowanie i przypisywanie licencji usługi Pro</ul>|
+| Centrum zabezpieczeń i zgodności usługi Office 365 |<ul><li>Przeglądanie inspekcji zdarzeń i zarządzanie nimi</ul>|
+| Usługa Azure Active Directory (AAD) w portalu platformy Azure |<ul><li>Konfigurowanie warunkowego dostępu do zasobów usługi Power BI za pomocą usługi AAD<br><li>Aprowizowanie pojemności usługi Power BI Embedded</ul>|
+| Polecenia cmdlet programu PowerShell |<ul><li>Zarządzanie obszarami roboczymi i innymi aspektami usługi Power BI za pośrednictwem skryptów</ul>|
+| Administracyjne interfejsy API |<ul><li>Kompilowanie niestandardowych narzędzi administracyjnych w celu ułatwienia pracy administratora usługi Power BI. Na przykład program Power BI Desktop może używać tych interfejsów API do kompilowania raportów na podstawie danych związanych z administracją</ul>|
 
 ## <a name="next-steps"></a>Następne kroki
-[Portal administracyjny usługi Power BI](service-admin-portal.md)  
-[Opis roli administratora usługi Power BI](service-admin-role.md)  
-[Rejestracja samoobsługowa w usłudze Power BI](service-self-service-signup-for-power-bi.md)  
-[Usługa Power BI (wersja bezpłatna) w organizacji](service-admin-service-free-in-your-organization.md)  
-[Zakup usługi Power BI Pro](service-admin-purchasing-power-bi-pro.md)  
-[Power BI Premium — co to jest?](service-premium.md)  
-[Jak kupić usługę Power BI Premium](service-admin-premium-purchase.md)  
-[Zarządzanie kontami użytkowników usługi Office 365](https://technet.microsoft.com/library/office-365-user-account-management.aspx)  
-[Zarządzanie grupami usługi Office 365](https://support.office.com/Article/Find-help-about-Groups-in-Office-365-7a9b321f-b76a-4d53-b98b-a2b0b7946de1)  
-[Zarządzanie grupą w usługach Power BI i Office 365](service-manage-app-workspace-in-power-bi-and-office-365.md)  
-[Oficjalny dokument na temat usługi Power BI Premium](https://aka.ms/pbipremiumwhitepaper)  
+
+Mamy nadzieję, że ten artykuł przybliżył Ci szczegółowe informacje na temat administratora usługi Power BI oraz powiązanych z nim określonych ról, zadań i narzędzi. W celu pogłębienia wiedzy na ten temat zalecamy zapoznanie z dwoma poniższymi tematami.
+
+[Korzystanie z portalu administracyjnego usługi Power BI](service-admin-portal.md)
+
+[Power BI administration FAQ](service-admin-faq.md) (Administracja usługi Power BI — często zadawane pytania)
 
 Masz więcej pytań? [Zadaj pytanie społeczności usługi Power BI](http://community.powerbi.com/)
 

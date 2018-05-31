@@ -1,16 +1,16 @@
 ---
-title: "Wykresy punktowe w usłudze Power BI (samouczek)"
-description: "Samouczek: Wykresy punktowe w usłudze Power BI"
+title: Wykresy punktowe w usłudze Power BI
+description: Wykresy punktowe w usłudze Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: PVcfPoVE3Ys
 qualityfocus: identified
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -19,13 +19,14 @@ ms.workload: powerbi
 ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6b5467456321b171116cf984ec276c3694b4030b
-ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
+ms.openlocfilehash: a3befe1e32aa86113433a4f891ddd46a253c8062
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33813121"
 ---
-# <a name="scatter-charts-and-bubble-charts-in-power-bi-tutorial"></a>Wykresy punktowe i bąbelkowe w usłudze Power BI (samouczek)
+# <a name="scatter-charts-and-bubble-charts-in-power-bi"></a>Wykresy punktowe i bąbelkowe w usłudze Power BI
 Wykres punktowy zawsze ma dwie osie wartości: jeden zestaw danych liczbowych jest wyświetlany wzdłuż osi poziomej, a drugi wzdłuż osi pionowej. Na wykresie kreślone są punkty występujące na przecięciu wartości liczbowych x i y, co zapewnia połączenie tych par wartości w pojedynczych punktach danych. Te punkty danych mogą być rozproszone równomiernie lub nierównomiernie wzdłuż osi poziomej, w zależności od danych.
 
 Na wykresie bąbelkowym zamiast punktów danych używane są bąbelki. *Rozmiar* bąbelka reprezentuje dodatkowy wymiar danych.
