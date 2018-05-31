@@ -18,11 +18,12 @@ ms.workload: powerbi
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 2a92426061b37753c529b84a1de6b8068cb3bc5f
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: 79d72cefbf6c6e5cf27aa0e4f90b4a1eb3114013
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33810925"
 ---
 # <a name="using-calculated-columns-in-power-bi-desktop"></a>Korzystanie z kolumn obliczeniowych w programie Power BI Desktop
 Za pomocą kolumn obliczeniowych możesz dodawać nowe dane do tabel już znajdujących się w Twoim modelu. Zamiast jednak wykonywania zapytań i ładowania wartości do nowej kolumny ze źródła danych, tworzona jest formuła języka DAX (Data Analysis Expressions) definiująca wartości w kolumnie. W programie Power BI Desktop kolumny obliczeniowe są tworzone za pomocą funkcji Nowa kolumna w widoku raportu.
@@ -59,7 +60,7 @@ Może je dodać do swojego raportu wraz z liczbą dostaw. Szybko i przy minimaln
 ![](media/desktop-calculated-columns/calccolinpbid_citystatemap.png)
 
 ## <a name="learn-more"></a>Dowiedz się więcej
-To, co tu przedstawiliśmy, to tylko krótkie wprowadzenie do kolumn obliczeniowych. Pamiętaj, aby zapoznać się z samouczkiem [Tworzenie kolumn obliczeniowych w programie Power BI Desktop](desktop-tutorial-create-calculated-columns.md), skąd możesz pobrać przykładowy plik i wziąć udział w szczegółowych lekcjach na temat tworzenia większej liczby kolumn. 
+To, co tu przedstawiliśmy, to tylko krótkie wprowadzenie do kolumn obliczeniowych. Pamiętaj, aby zapoznać się z tematem [Samouczek: tworzenie kolumn obliczeniowych w programie Power BI Desktop](desktop-tutorial-create-calculated-columns.md), skąd możesz pobrać przykładowy plik i wziąć udział w szczegółowych lekcjach na temat tworzenia większej liczby kolumn. 
 
 Aby dowiedzieć się więcej na temat języka DAX, zobacz [Podstawy języka DAX w programie Power BI Desktop](desktop-quickstart-learn-dax-basics.md).
 

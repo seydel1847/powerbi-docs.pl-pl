@@ -1,29 +1,22 @@
 ---
-title: 'Szybki start: tworzenie raportu usługi Power BI dla serwera raportów usługi Power BI'
+title: Tworzenie raportu usługi Power BI dla serwera raportów usługi Power BI
 description: Dowiedz się, jak utworzyć raport usługi Power BI dla serwera raportów usługi Power BI w kilku prostych krokach.
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-report-server
+ms.topic: conceptual
 ms.date: 3/22/2018
 ms.author: maggies
-ms.openlocfilehash: 7c0f7ad804a61aeade6f120f2a2d2bd048219ee2
-ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
+ms.openlocfilehash: 9f5ea2a83fff37be07933669403b7eb53ceb09c0
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/19/2018
+ms.locfileid: "34310494"
 ---
-# <a name="quickstart-create-a-power-bi-report-for-power-bi-report-server"></a>Szybki start: tworzenie raportu usługi Power BI dla serwera raportów usługi Power BI
+# <a name="create-a-power-bi-report-for-power-bi-report-server"></a>Tworzenie raportu usługi Power BI dla serwera raportów usługi Power BI
 Raporty usługi Power BI można przechowywać i zarządzać nimi lokalnie w portalu internetowym serwera raportów usługi Power BI, podobnie jak w przypadku przechowywania ich w chmurze w usłudze Power BI (https://powerbi.com). Raporty usługi Power BI można tworzyć i edytować w programie Power BI Desktop, a następnie publikować je w portalu internetowym. Odbiorcy raportów w organizacji będą mogli wyświetlać je w przeglądarce lub w aplikacji mobilnej Power BI na urządzeniach przenośnych.
 
 ![Raport usługi Power BI w portalu internetowym](media/quickstart-create-powerbi-report/report-server-powerbi-report.png)
@@ -131,11 +124,10 @@ Następujące funkcje w aplikacjach mobilnych Power BI nie są obsługiwane w ra
 
 ## <a name="next-steps"></a>Następne kroki
 ### <a name="power-bi-desktop"></a>Power BI Desktop
-Dostępnych jest wiele wspaniałych zasobów dotyczących tworzenia raportów w programie Power BI Desktop. Te linki stanowią dobry punkt wyjścia.
+Dostępnych jest wiele wspaniałych zasobów dotyczących tworzenia raportów w programie Power BI Desktop. Ten link to dobry punkt startowy.
 
 * [Wprowadzenie do programu Power BI Desktop](../desktop-getting-started.md)
-* Uczenie z przewodnikiem: [Wprowadzenie do programu Power BI Desktop](../guided-learning/gettingdata.yml#step-2)
-
+* Uczenie z przewodnikiem: [Wprowadzenie do programu Power BI Desktop](../guided-learning/gettingdata.yml?tutorial-step=2)
 
 ### <a name="power-bi-report-server"></a>Serwer raportów usługi Power BI
 * [Instalowanie programu Power BI Desktop zoptymalizowanego pod kątem serwera raportów usługi Power BI](install-powerbi-desktop.md)  

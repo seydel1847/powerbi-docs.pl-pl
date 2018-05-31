@@ -15,25 +15,26 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/06/2018
+ms.date: 05/08/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 4bfdbaaa305f80195fd08155ecca744444495aeb
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: 1558f78f8f496814ac7745afe9b86f327ef7772b
+ms.sourcegitcommit: 509be8852ba7595b9441c9479224f9dca298b26d
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 05/09/2018
+ms.locfileid: "33923459"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Źródła danych w programie Power BI Desktop
 Korzystając z programu Power BI Desktop, możesz nawiązywać połączenie z danymi z wielu różnych źródeł. Pełna lista dostępnych źródeł danych znajduje się w dolnej części tej strony.
 
 Aby nawiązać połączenie z danymi, wybierz pozycję **Pobierz dane** z karty **Narzędzia główne** wstążki. Jeśli wybierzesz strzałkę w dół obok przycisku lub znajdujący się na nim tekst **Pobierz dane**, zostanie wyświetlone menu przedstawiające **Najpopularniejsze** typy danych. Widać je na poniższej ilustracji:
 
-![](media/desktop-data-sources/data-sources_1.png)
+![Pobieranie danych w programie Power BI Desktop](media/desktop-data-sources/data-sources_01.png)
 
 Po wybraniu pozycji **Więcej...** z menu **Najpopularniejsze** zostanie wyświetlone okno **Pobieranie danych**. Okno **Pobieranie danych** można również wywołać (z pominięciem menu **Najpopularniejsze**), bezpośrednio wybierając **przycisk ikony** **Pobierz dane**.
 
-![](media/desktop-data-sources/data-sources_2.png)
+![Przycisk Pobierz dane](media/desktop-data-sources/data-sources_02.png)
 
 > [!NOTE]
 > Zespół usługi Power BI nieustannie rozszerza źródła danych dostępne w programie **Power BI Desktop** i **usłudze Power BI**. Z tego powodu często będzie można zauważyć wczesne wersje eksperymentalnych źródeł danych oznaczone jako *beta* lub *wersja zapoznawcza*. Wszystkie źródła danych oznaczone jako *beta* lub *wersja zapoznawcza* mają ograniczone wsparcie i funkcjonalność, dlatego nie powinny być używane w środowiskach produkcyjnych.
@@ -46,6 +47,7 @@ Typy danych sklasyfikowano w następujące kategorie:
 * Wszystkie
 * Plik
 * Baza danych
+* Power BI
 * Azure
 * Usługi online
 * Inne
@@ -63,12 +65,7 @@ Kategoria **Plik** udostępnia następujące połączenia danych:
 
 Na poniższej ilustracji przedstawiono okno **Pobieranie danych** dla kategorii **Plik**.
 
-![](media/desktop-data-sources/data-sources_3.png)
-
-> [!NOTE]
-> W poprzednich wersjach programu Power BI Desktop kategorie **CSV** i **Tekst** były oddzielnymi typami połączeń. Te łączniki danych zostały połączone w kategorię **Plik tekstowy lub CSV**.
-> 
-> 
+![Pobierz dane > Plik](media/desktop-data-sources/data-sources_03.png)
 
 Kategoria **Baza danych** udostępnia następujące połączenia danych:
 
@@ -88,8 +85,9 @@ Kategoria **Baza danych** udostępnia następujące połączenia danych:
 * SAP Business Warehouse Message Server (wersja beta)
 * Amazon Redshift
 * Impala
-* Google BigQuery (wersja beta)
+* Google BigQuery
 * Snowflake
+* Exasol
 
 > [!NOTE]
 > Niektóre łączniki baz danych wymagają włączenia przez wybranie pozycji **Plik > Opcje i ustawienia > Opcje**, a następnie wybranie opcji **Funkcje wersji zapoznawczej** i włączenie łącznika. Jeśli chcesz użyć niektórych łączników wymienionych powyżej, ale ich nie widzisz, sprawdź ustawienie **Funkcje wersji zapoznawczej**. Pamiętaj jednak, że wszystkie źródła danych oznaczone jako *beta* lub *wersja zapoznawcza* mają ograniczone wsparcie i funkcjonalność, dlatego nie powinny być używane w środowiskach produkcyjnych.
@@ -98,7 +96,16 @@ Kategoria **Baza danych** udostępnia następujące połączenia danych:
 
 Na poniższej ilustracji przedstawiono okno **Pobieranie danych** dla kategorii **Baza danych**.
 
-![](media/desktop-data-sources/data-sources_4.png)
+![Pobierz dane > Bazy danych](media/desktop-data-sources/data-sources_04.png)
+
+Kategoria **Power BI** udostępnia następujące połączenia danych:
+
+* Zestawy danych usługi Power BI
+* Pule danych usługi Power BI (beta)
+
+Na poniższej ilustracji przedstawiono okno **Pobieranie danych** dla kategorii **Power BI**.
+
+![Pobierz dane > Power BI](media/desktop-data-sources/data-sources_05.png)
 
 Kategoria **Azure** udostępnia następujące połączenia danych:
 
@@ -112,19 +119,20 @@ Kategoria **Azure** udostępnia następujące połączenia danych:
 * Azure HDInsight (HDFS)
 * Azure HDInsight Spark (wersja beta)
 * Interaktywne zapytanie usługi HDInsight (beta)
+* Azure KustoDB (beta)
 
 Na poniższej ilustracji przedstawiono okno **Pobieranie danych** dla kategorii **Azure**.
 
-![](media/desktop-data-sources/data-sources_5.png)
+![Pobierz dane > Azure](media/desktop-data-sources/data-sources_06.png)
 
 Kategoria **Usługi online** udostępnia następujące połączenia danych:
 
-* Usługa Power BI
 * Lista usługi SharePoint Online
 * Microsoft Exchange Online
 * Dynamics 365 (online)
 * Dynamics NAV (beta)
-* Dynamics 365 for Financials (beta)
+* Dynamics 365 Business Central
+* Common Data Service for Apps (beta)
 * Common Data Service (beta)
 * Microsoft Azure Consumption Insights (beta)
 * Visual Studio Team Services (beta)
@@ -153,15 +161,15 @@ Kategoria **Usługi online** udostępnia następujące połączenia danych:
 * tyGraph (beta)
 * Webtrends (beta)
 * Zendesk (beta)
+* TeamDesk (beta)
 
 Na poniższej ilustracji przedstawiono okno **Pobieranie danych** dla kategorii **Usługi online**.
 
-![](media/desktop-data-sources/data-sources_6b.png)
+![Pobierz dane > Usługi online](media/desktop-data-sources/data-sources_07.png)
 
 Kategoria **Inne** udostępnia następujące połączenia danych:
 
 * Vertica (wersja beta)
-* Kusto (beta)
 * Internet
 * Listy programu SharePoint
 * Źródło danych OData
@@ -176,7 +184,7 @@ Kategoria **Inne** udostępnia następujące połączenia danych:
 
 Na poniższej ilustracji przedstawiono okno **Pobieranie danych** dla kategorii **Inne**.
 
-![](media/desktop-data-sources/data-sources_7a.png)
+![Pobierz dane > Inne](media/desktop-data-sources/data-sources_08.png)
 
 > [!NOTE]
 > Aktualnie nie jest możliwe nawiązanie połączenia z niestandardowymi źródłami danych zabezpieczonymi przy użyciu usługi Azure Active Directory.
@@ -186,15 +194,15 @@ Na poniższej ilustracji przedstawiono okno **Pobieranie danych** dla kategorii 
 ## <a name="connecting-to-a-data-source"></a>Nawiązywanie połączenia ze źródłem danych
 Aby nawiązać połączenie ze źródłem danych, wybierz źródło danych w oknie **Pobieranie danych** i wybierz przycisk **Połącz**. Na poniższej ilustracji zaznaczono pozycję **Internet** z kategorii **Inne** połączeń danych.
 
-![](media/desktop-data-sources/data-sources_7b.png)
+![Łączenie z internetem](media/desktop-data-sources/data-sources_08a.png)
 
 Zostanie wyświetlone okno połączenia specyficzne dla typu połączenia danych. Jeśli wymagane są poświadczenia, zostanie wyświetlony monit o ich podanie. Na poniższej ilustracji przedstawiono adres URL wprowadzany w celu nawiązania połączenia ze źródłem danych Internet.
 
-![](media/desktop-data-sources/datasources_fromwebbox.png)
+![wprowadzanie internetowego adresu URL](media/desktop-data-sources/datasources_fromwebbox.png)
 
 Po wprowadzeniu adresu URL lub informacji o połączeniu z zasobem wybierz przycisk **OK**. Program Power BI Desktop nawiązuje połączenie ze źródłem danych i prezentuje dostępne źródła danych w okienku **Nawigator**.
 
-![](media/desktop-data-sources/datasources_fromnavigatordialog.png)
+![Ekran Nawigator](media/desktop-data-sources/datasources_fromnavigatordialog.png)
 
 Możesz załadować dane, wybierając przycisk **Załaduj** w dolnej części okienka **Nawigator**, lub zmodyfikować zapytanie przed załadowaniem danych, wybierając przycisk **Edytuj**.
 

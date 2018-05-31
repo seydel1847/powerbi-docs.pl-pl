@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 03/22/2018
 ms.author: maggies
-ms.openlocfilehash: c22e909130767abd1dc6f0aa00d76e1fb6b99ee7
-ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
+ms.openlocfilehash: b67cfbcb495fef45ec3f44ceab77b794a9110617
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33813696"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Instalowanie programu Power BI Desktop zoptymalizowanego pod kątem serwera raportów usługi Power BI
 Dowiedz się, jak zainstalować program Power BI Desktop zoptymalizowany pod kątem serwera raportów usługi Power BI.
@@ -109,9 +110,8 @@ Jeśli serwer raportów jest we wcześniejszej wersji, potrzebujesz odpowiedniej
 ## <a name="next-steps"></a>Następne kroki
 Program Power BI Desktop został już zainstalowany, więc możesz przystąpić do tworzenia raportów usługi Power BI.
 
-[Szybki start: tworzenie raportu usługi Power BI dla serwera raportów usługi Power BI](quickstart-create-powerbi-report.md)  
+[Tworzenie raportu usługi Power BI dla serwera raportów usługi Power BI](quickstart-create-powerbi-report.md)  
 [Wprowadzenie do programu Power BI Desktop](../desktop-getting-started.md)  
-Uczenie z przewodnikiem: [Wprowadzenie do programu Power BI Desktop](../guided-learning/gettingdata.yml#step-2)  
 [Omówienie podręcznika użytkownika — serwer raportów usługi Power BI](user-handbook-overview.md)
 
 Masz więcej pytań? [Zadaj pytanie społeczności usługi Power BI](https://community.powerbi.com/)

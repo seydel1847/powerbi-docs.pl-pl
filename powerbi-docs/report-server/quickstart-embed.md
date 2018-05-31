@@ -1,108 +1,107 @@
 ---
-title: "Osadzanie raportu przy użyciu elementu iFrame"
-description: "Instalacja serwera raportów usługi Power BI jest niezwykle szybka. Uwzględniając pobieranie, instalowanie i konfigurowanie, jego uruchomienie powinno zająć zaledwie kilka minut."
-services: powerbi
-documentationcenter: 
+title: Osadzanie raportu przy użyciu elementu iFrame
+description: Osadzanie raportu serwera raportów usługi Power BI w elemencie iFrame w programie SharePoint Server
 author: markingmyname
-manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
-ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 11/09/2017
 ms.author: maghan
-ms.openlocfilehash: 56835bfb25c8c930099fadf710137f69fa89fc2e
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.date: 05/04/2018
+ms.topic: quickstart
+ms.service: powerbi
+ms.component: powerbi-report-server
+ms.custom: mvc
+manager: kfile
+ms.openlocfilehash: 8d7653e6f390959df745fa2b19076ee89b26b1bc
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34293702"
 ---
-# <a name="quickstart-embed-a-power-bi-report-using-an-iframe-and-url-parameters"></a>Szybki start: osadzanie raportu usługi Power BI przy użyciu elementu iFrame i parametrów adresu URL
+# <a name="quickstart-embed-a-power-bi-report-server-report-using-an-iframe-in-sharepoint-server"></a>Szybki start: osadzanie raportu serwera raportów usługi Power BI w elemencie iFrame w programie SharePoint Server
 
-Każdy raport można osadzić w aplikacji przy użyciu elementu iFrame. 
+Z tego przewodnika Szybki start dowiesz się, jak osadzać raport serwera raportów usługi Power BI przy użyciu elementu iFrame na stronie programu SharePoint. W przypadku pracy z usługą SharePoint Online serwer raportów usługi Power BI musi być publicznie dostępny. W usłudze SharePoint Online składnik Web Part usługi Power BI, który współpracuje z usługą Power BI, nie działa na serwerze raportów usługi Power BI. 
 
-## <a name="url-parameter"></a>Parametr adresu URL
+![Przykład elementu iFrame](media/quickstart-embed/quickstart_embed_01.png)
+## <a name="prerequisites"></a>Wymagania wstępne
+* Musisz mieć zainstalowany i skonfigurowany [serwer raportów usługi Power BI](https://powerbi.microsoft.com/en-us/report-server/).
+* Konieczne będzie zainstalowanie programu [Power BI Desktop zoptymalizowanego pod kątem serwera raportów usługi Power BI](install-powerbi-desktop.md).
+* Musisz mieć zainstalowane i skonfigurowane środowisko programu [SharePoint](https://docs.microsoft.com/en-us/sharepoint/install/install).
 
-Do dowolnego adresu URL do raportu można dodać parametr querystring `?rs:Embed=true`.
+## <a name="creating-the-power-bi-report-server-report-url"></a>Tworzenie adresu URL raportu serwera raportów usługi Power BI
 
-Na przykład:
+1. Pobierz przykład [Blog Demo](https://github.com/Microsoft/powerbi-desktop-samples) (Pokaz bloga) z usługi GitHub.
 
-```
-http://myserver/reports/powerbi/Sales?rs:embed=true
-```
+    ![pobieranie przykładowego pliku PBIX](media/quickstart-embed/quickstart_embed_14.png)
 
-Będzie to działać dla wszystkich typów raportów w ramach Serwera raportów usługi Power BI.
+2. Otwórz przykładowy plik PBIX z serwisu GitHub w programie **Power BI Desktop zoptymalizowanym pod kątem serwera raportów usługi Power BI**.
 
-## <a name="iframe"></a>Element iFrame
+    ![narzędzie PBI RS Desktop](media/quickstart-embed/quickstart_embed_02.png)
 
-Po utworzeniu adres URL na stronie internetowej można utworzyć element iFrame do obsługi raportu.
+3. Zapisz raport na **serwerze raportów usługi Power BI**. 
 
-Na przykład:
+    ![zapisywanie na serwerze PBI RS](media/quickstart-embed/quickstart_embed_03.png)
 
-```
-<iframe width="800" height="600" src="http://myserver/reports/powerbi/Sales?rs:embed=true" frameborder="0" allowFullScreen="true"></iframe>
-```
+4. Wyświetl raport w **portalu internetowym**.
 
-## <a name="url-filter"></a>Filtr adresu URL
+    ![Portal internetowy](media/quickstart-embed/quickstart_embed_04.png)
 
-Do adresu URL możesz dodać parametr ciągu zapytania w celu filtrowania danych, które są zwracane w raporcie usługi Power BI.
+### <a name="capturing-the-url-parameter"></a>Przechwytywanie parametru adresu URL
 
-Składnia jest bardzo prosta: zacznij od adresu URL raportu, dodaj znak zapytania, a następnie filtr o następującej składni.
+Po utworzeniu adresu URL można utworzyć element iFrame w ramach strony programu SharePoint do hostowania raportu. W przypadku dowolnego adresu URL raportu serwera raportów usługi Power BI można dodać parametr querystring elementu `?rs:embed=true` w celu osadzenia raportu w elemencie iFrame. 
 
-URL?filter=***Tabela***/***Pole*** eq '***wartość***'
+   Na przykład:
+    ``` 
+    http://myserver/reports/powerbi/Sales?rs:embed=true
+    ```
+## <a name="embedding-a-power-bi-report-server-report-in-a-sharepoint-iframe"></a>Osadzanie raportu serwera raportów usługi Power BI w elemencie iFrame programu SharePoint
 
-Należy pamiętać o następujących kwestiach:
+1. Przejdź do strony **Zawartość witryny** programu SharePoint.
 
-- W nazwach **tabeli** i **pola** uwzględniana jest wielkość liter, w przypadku **wartości** wielkość liter nie jest uwzględniania.
-- Można filtrować raport z polami ukrytymi dla widoku raportu.
-- **Wartość** musi być ujęta w apostrofy.
-- Typ pola musi być ciągiem.
-- Nazwy tabeli i pola nie mogą zawierać spacji.
+    ![Strona zawartości witryny](media/quickstart-embed/quickstart_embed_05.png)
 
-###  <a name="example-filter-on-a-field"></a>Przykład: filtrowanie według pola
+2. Wybierz stronę, na której chcesz dodać raport.
 
-Weźmy na przykład [próbkę danych do analizy handlu detalicznego](../sample-datasets.md). Załóżmy, że to jest adres URL do raportu na serwerze raportów w folderze o nazwie „power bi”:
+    ![Aplikacja strony zawartości witryny](media/quickstart-embed/quickstart_embed_06.png)
 
-```
-https://report-server/reports/power-bi/Retail-Analysis-Sample
-```
+3. Wybierz ikonę koła zębatego w prawym górnym rogu i wybierz pozycję **Edytuj stronę**.
 
-Widzimy, że wizualizacja mapy w próbce danych do analizy handlu detalicznego pokazuje sklepy w Karolinie Północnej i innych stanach.
+    ![Opcja Edytuj stronę](media/quickstart-embed/quickstart_embed_07.png)
 
-![Wizualizacja mapy próbki danych do analizy handlu detalicznego](media/quickstart-embed/report-server-retail-analysis-sample-map.png)
+4. Wybierz pozycję **Dodaj składnik Web Part**.
 
-*NC* oznacza wartość przypisaną dla Karoliny Północnej przechowywaną w polu **Territory** tabeli **Store**. Aby zastosować filtrowanie raportu w celu uwzględnienia wyłącznie danych dla sklepów w Karolinie Północnej, dołącz następujący ciąg do adresu URL:
+    ![Dodawanie składnika Web Part](media/quickstart-embed/quickstart_embed_08.png)
 
-?filter=Store/Territory eq 'NC'
+5. W obszarze **Kategorie** wybierz pozycję **Nośniki i zawartość**, w obszarze **Składniki** wybierz pozycję **Edytor zawartości**, a następnie wybierz pozycję **Dodaj**.
 
-Raport jest filtrowany pod kątem Karoliny Północnej; wszystkie wizualizacje na stronie raportu wyświetlają dane dotyczące tylko Karoliny Północnej.
+    ![Wybieranie składnika Web Part Edytor zawartości](media/quickstart-embed/quickstart_embed_09.png) ![Wybieranie pozycji Dodaj](media/quickstart-embed/quickstart_embed_091.png)
 
-![Odfiltrowane wizualizacje próbki danych do analizy handlu detalicznego](media/quickstart-embed/report-server-retail-analysis-sample-filtered-map.png)
+6. Wybierz pozycję **Kliknij tutaj, aby dodać nową zawartość**.
 
-### <a name="create-a-dax-formula-to-filter-on-multiple-values"></a>Tworzenie formuły języka DAX w celu filtrowania z użyciem wielu wartości
+    ![Dodawanie nowej zawartości](media/quickstart-embed/quickstart_embed_10.png)
 
-Innym sposobem filtrowania z użyciem wielu pól jest utworzenie kolumny obliczeniowej w programie Power BI Desktop łączącej dwa pola w pojedynczą wartość. Następnie można filtrować według tej wartości.
+7. Na wstążce wybierz kartę **Formatowanie tekstu**, a następnie wybierz pozycję **Edytuj źródło**.
 
-Na przykład próbka danych do analizy handlu detalicznego ma dwa pola: Terytorium i Sieć. W programie Power BI Desktop możesz [utworzyć kolumnę obliczeniową](../desktop-tutorial-create-calculated-columns.md) (pole) o nazwie Terytorium_Sieć. Należy pamiętać, że nazwa **pola** nie może zawierać spacji. Oto formuła języka DAX dla tej kolumny.
+     ![Edytowanie źródła](media/quickstart-embed/quickstart_embed_11.png)
 
-Terytorium_Sieć = [Terytorium] & "-" & [Sieć]
+8. W oknie Edytowanie źródła wklej kod elementu iFrame, a następnie wybierz przycisk OK.
 
-Opublikuj raport na serwerze raportów usługi Power BI, a następnie użyj ciągu zapytania adresu URL, aby przefiltrować dane w celu wyświetlenia wyłącznie sklepów Lindseys w Karolinie Północnej (NC).
+    ![Kod elementu iFrame](media/quickstart-embed/quickstart_embed_12.png)
 
-```
-https://report-server/reports/power-bi/Retail-Analysis-Sample?filter=Store/TerritoryChain eq 'NC-Lindseys'
+     Na przykład:
+     ```
+     <iframe width="800" height="600" src="http://myserver/reports/powerbi/Sales?rs:embed=true" frameborder="0" allowFullScreen="true"></iframe>
+     ```
 
-```
+9. Na wstążce wybierz kartę **Strona** i wybierz pozycję **Zatrzymaj edytowanie**.
+
+    ![Zatrzymywanie edytowania](media/quickstart-embed/quickstart_embed_13.png)
+
+10. Teraz raport powinien być widoczny na stronie.
+
+    ![Przykład elementu iFrame](media/quickstart-embed/quickstart_embed_01.png)
 
 ## <a name="next-steps"></a>Następne kroki
 
 [Szybki start: tworzenie raportu usługi Power BI dla serwera raportów usługi Power BI](quickstart-create-powerbi-report.md)  
 [Szybki start: tworzenie raportu z podziałem na strony dla serwera raportów usługi Power BI](quickstart-create-paginated-report.md)  
 
-Masz więcej pytań? [Zadaj pytanie społeczności usługi Power BI](https://community.powerbi.com/)
+Masz więcej pytań? [Zadaj pytanie społeczności usługi Power BI](https://community.powerbi.com/) 

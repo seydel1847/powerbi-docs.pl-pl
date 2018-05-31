@@ -1,31 +1,24 @@
 ---
-title: Część 1, dodawanie wizualizacji do raportu usługi Power BI (samouczek)
-description: 'Samouczek: część 1, dodawanie wizualizacji do raportu usługi Power BI'
-services: powerbi
-documentationcenter: ''
+title: Część 1, dodawanie wizualizacji do raportu usługi Power BI
+description: Część 1, dodawanie wizualizacji do raportu usługi Power BI
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: IkJda4O7oGs
-qualityfocus: no
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 03/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b6fdc11b19e130272cf715f4cff58721f46dd6e8
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: 2203d6af692e80ffe5480a81a0e0f2312c62b905
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34293771"
 ---
-# <a name="part-i-add-visualizations-to-a-power-bi-report-tutorial"></a>Część 1, dodawanie wizualizacji do raportu usługi Power BI (samouczek)
+# <a name="part-i-add-visualizations-to-a-power-bi-report"></a>Część 1, dodawanie wizualizacji do raportu usługi Power BI
 Ten artykuł zawiera szybkie wprowadzenie do tworzenia wizualizacji w raporcie przy użyciu usługi Power BI lub programu Power BI Desktop.  Bardziej zaawansowaną zawartość umieszczono w [części 2](power-bi-report-add-visualizations-ii.md). Obejrzyj film, w którym Amanda prezentuje kilka różnych sposobów tworzenia, edytowania i formatowania wizualizacji na kanwie raportu. Wypróbuj je samodzielnie, tworząc własny raport przy użyciu [próbki danych dotyczących sprzedaży i marketingu](sample-datasets.md).
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>

@@ -1,27 +1,20 @@
 ---
-title: "Wyświetlanie pulpitów nawigacyjnych i raportów w aplikacjach mobilnych usługi Power BI"
-description: "Utwórz pulpity nawigacyjne i raporty w usłudze Power BI lub połącz się z nimi. Następnie wyświetl je w aplikacjach mobilnych usługi Power BI."
-services: powerbi
-documentationcenter: 
+title: Wyświetlanie pulpitów nawigacyjnych i raportów w aplikacjach mobilnych usługi Power BI
+description: Utwórz pulpity nawigacyjne i raporty w usłudze Power BI lub połącz się z nimi. Następnie wyświetl je w aplikacjach mobilnych usługi Power BI.
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: complete
-qualitydate: 07/08/2016
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 01/16/2018
+ms.component: powerbi-mobile
+ms.topic: conceptual
+ms.date: 05/07/2018
 ms.author: maggies
-ms.openlocfilehash: e91b9745663ad88d388b410feb83ac8dfdc791b6
-ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
+ms.openlocfilehash: 2e178d3c8961865fa7d728d50f118c882788247e
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34295880"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Wyświetlanie pulpitów nawigacyjnych i raportów w aplikacjach mobilnych usługi Power BI
 Dotyczy:
@@ -37,8 +30,8 @@ Pulpity nawigacyjne to portal zapewniający dostęp do operacji i procesów maj�
 
 Aby wyświetlić pulpity nawigacyjne i raporty na swoim urządzeniu przenośnym, musisz je utworzyć lub połączyć się z nimi w przeglądarce internetowej. 
 
-1. Przejdź do usługi Power BI ([https://powerbi.com](https://www.powerbi.com)) i [zarejestruj się w niej, aby utworzyć konto](service-self-service-signup-for-power-bi.md).
-2. [Utwórz własne pulpity nawigacyjne usługi Power BI i raport](service-get-started.md) lub połącz się z istniejącymi [aplikacjami usługi Power BI](service-connect-to-services.md) dla różnych usług, takich jak [Microsoft Dynamics CRM](service-connect-to-microsoft-dynamics-crm.md) i [Adobe Analyics](service-connect-to-adobe-analytics.md).
+1. Przejdź do usługi Power BI ([https://www.powerbi.com](https://www.powerbi.com)) i [zarejestruj się w niej, aby utworzyć konto](service-self-service-signup-for-power-bi.md).
+2. [Utwórz własne raporty i pulpity nawigacyjne usługi Power BI](service-get-started.md) lub połącz się z istniejącymi [aplikacjami usługi Power BI](service-connect-to-services.md) dla różnych usług, takich jak [Microsoft Dynamics CRM](service-connect-to-microsoft-dynamics-crm.md) i [Adobe Analyics](service-connect-to-adobe-analytics.md).
 
 Oto pulpit nawigacyjny w usłudze Power BI:
 
@@ -115,31 +108,21 @@ Gestem „uszczypnięcia” można powiększać i pomniejszać różne obszary p
    
    ![Strona główna pulpitów nawigacyjnych](media/mobile-apps-view-dashboard/power-bi-android-dashboards.png)
 
-     -     Żółte gwiazdki ![Gwiazdki Ulubione](media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) oznaczają pulpity nawigacyjne dodane do ulubionych. 
+    Żółte gwiazdki ![Gwiazdki Ulubione](media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) oznaczają pulpity nawigacyjne dodane do ulubionych. 
 
-     -     Oznaczenie pod nazwą pulpitu nawigacyjnego (w tym przypadku „MBI”) ![Klasyfikacja danych](media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png) pokazuje, jak są klasyfikowane dane na poszczególnych pulpitach nawigacyjnych. Przeczytaj więcej na temat [klasyfikowania danych w usłudze Power BI](service-data-classification.md).
-
+    Oznaczenie pod nazwą pulpitu nawigacyjnego (w tym przypadku „MBI”) ![Klasyfikacja danych](media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png) pokazuje, jak są klasyfikowane dane na poszczególnych pulpitach nawigacyjnych. Przeczytaj więcej na temat [klasyfikowania danych w usłudze Power BI](service-data-classification.md).
 
     Pulpity nawigacyjne usługi Power BI wyglądają nieco inaczej na telefonie z systemem Android. Wszystkie kafelki mają taką samą szerokość i są ułożone jeden za drugim od góry do dołu.
 
     ![Pulpit nawigacyjny w widoku pionowym](media/mobile-apps-view-dashboard/pbi_andr_dash.png)
 
-     Możesz też po prostu obrócić telefon o 90 stopni, aby wyświetlić pulpit nawigacyjny na telefonie w trybie poziomym.
-
-    > [AZURE.TIP] Jeśli jesteś właścicielem pulpitu nawigacyjnego, w usłudze Power BI możesz [utworzyć widok tego pulpitu nawigacyjnego dostosowany dla telefonów](service-create-dashboard-mobile-phone-view.md) w trybie pionowym. 
+    Jeśli jesteś właścicielem pulpitu nawigacyjnego, w usłudze Power BI możesz [utworzyć widok tego pulpitu nawigacyjnego dostosowany dla telefonów](service-create-dashboard-mobile-phone-view.md) w trybie pionowym. 
 
 1. Na pulpicie nawigacyjnym możesz nacisnąć pionowy wielokropek (...) obok nazwy, aby zaprosić współpracownika, odświeżyć widok lub pobrać informacje o pulpicie nawigacyjnym:
    
    ![Menu wielokropka](media/mobile-apps-view-dashboard/pbi_andr_dashellipsis.png)
 2. Przesuń w górę i w dół, aby zobaczyć wszystkie [kafelki na pulpicie nawigacyjnym](mobile-tiles-in-the-mobile-apps.md). 
 3. Aby wrócić do strony głównej pulpitów nawigacyjnych, naciśnij nazwę pulpitu nawigacyjnego, otwórz ścieżkę nawigacyjną, a następnie naciśnij pozycję **Mój obszar roboczy**.   
-
-### <a name="view-dashboards-in-landscape-mode-on-your-android-phone"></a>Wyświetlanie pulpitów nawigacyjnych w trybie poziomym na telefonie z systemem Android
-Pulpity nawigacyjne można także wyświetlać w trybie poziomym — wystarczy obrócić telefon o 90 stopni. Układ pulpitu nawigacyjnego zmieni się z szeregu kafelków w widok całego pulpitu nawigacyjnego &#151; wszystkie kafelki na pulpicie nawigacyjnym są wówczas wyświetlane tak jak w usłudze Power BI.
-
-![Pulpit nawigacyjny poziomo](media/mobile-apps-view-dashboard/power-bi-android-landscape-dashboard.png)
-
-Gestem „uszczypnięcia” można powiększać i pomniejszać różne obszary pulpitu nawigacyjnego. Można też przesuwać pulpit nawigacyjny, aby nawigować po nim. Można również [nacisnąć kafelek](mobile-tiles-in-the-mobile-apps.md), aby otworzyć go w trybie koncentracji uwagi i wejść z nim w interakcje.
 
 ## <a name="view-dashboards-on-your-android-tablet"></a>Wyświetlanie pulpitów nawigacyjnych na tablecie z systemem Android
 1. Otwórz aplikację Power BI na tablecie z systemem Android i zaloguj się.

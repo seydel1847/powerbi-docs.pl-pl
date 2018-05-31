@@ -1,15 +1,15 @@
 ---
-title: "Część 2, dodawanie wizualizacji do raportu usługi Power BI (samouczek)"
-description: "Samouczek: część 2, dodawanie wizualizacji do raportu usługi Power BI"
+title: Część 2, dodawanie wizualizacji do raportu usługi Power BI
+description: Część 2, dodawanie wizualizacji do raportu usługi Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,13 +18,14 @@ ms.workload: powerbi
 ms.date: 01/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 567bece0089a01170e218af9606331e44cb7834f
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 39f11f2740918e5ec3fc62c86c72bac4544d5ff6
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33814317"
 ---
-# <a name="part-2-add-visualizations-to-a-power-bi-report-tutorial"></a>Część 2, dodawanie wizualizacji do raportu usługi Power BI (samouczek)
+# <a name="part-2-add-visualizations-to-a-power-bi-report"></a>Część 2, dodawanie wizualizacji do raportu usługi Power BI
 W [części 1](power-bi-report-add-visualizations-ii.md) utworzono podstawową wizualizację przez zaznaczenie pól wyboru obok nazw pól.  W części 2 dowiesz się, jak używać metody przeciągania i upuszczania oraz jak w pełni korzystać z okienek **Pola** i **Wizualizacje** na potrzeby tworzenia i modyfikowania wizualizacji.
 
 ### <a name="prerequisites"></a>Wymagania wstępne
@@ -71,5 +72,5 @@ W tym samouczku skorzystamy z naszego zestawu danych Retail Analysis i utworzymy
 * Aby uzyskać więcej informacji na temat okienka Pola, zobacz [The report editor... take a tour](service-the-report-editor-take-a-tour.md) (Edytor raportów — przewodnik).   
 * Aby dowiedzieć się, jak filtrować i wyróżniać wizualizacje, zobacz [Filtry i wyróżnianie w raportach usługi Power BI](power-bi-reports-filters-and-highlighting.md).  
 * Więcej informacji o [wizualizacjach w raportach usługi Power BI](power-bi-report-visualizations.md).  
-* Więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
+* Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
 

@@ -1,329 +1,237 @@
 ---
 title: Osadzanie zawartości usługi Power BI w aplikacji dla klientów
-description: Dowiedz się, jak integrować lub osadzać pulpit nawigacyjny, kafelek lub raport w aplikacji internetowej przy użyciu interfejsów API usługi Power BI dla klientów.
+description: Dowiedz się, jak integrować lub osadzać raport, pulpit nawigacyjny lub kafelek w aplikacji internetowej przy użyciu interfejsów API usługi Power BI dla klientów.
 services: powerbi
-documentationcenter: ''
 author: markingmyname
-manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
-ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 01/11/2018
 ms.author: maghan
-ms.openlocfilehash: 779ae9a6df285b58c83021f87ed593af9ec0b3fb
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.date: 05/07/2018
+ms.topic: tutorial
+ms.service: powerbi
+ms.custom: mvc
+manager: kfile
+ms.openlocfilehash: 2d4fdee8d3e4cca60294acd0a9167da1f048afa5
+ms.sourcegitcommit: 9fa954608e78dcdb8d8a503c3c9b01c43ca728ab
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/11/2018
+ms.locfileid: "34051938"
 ---
-# <a name="embed-a-power-bi-dashboard-tile-or-report-into-your-application"></a>Osadzanie pulpitu nawigacyjnego, kafelka lub raportu usługi Power BI w aplikacji
-Dowiedz się, jak integrować lub osadzać pulpit nawigacyjny, kafelek albo raport w aplikacji internetowej przy użyciu zestawu .NET SDK usługi Power BI wraz z interfejsem API języka JavaScript programu Power BI podczas osadzania dla klientów. Jest to zwykle scenariusz niezależnego dostawcy oprogramowania.
+# <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-customers"></a>Samouczek: osadzanie raportu, pulpitu nawigacyjnego lub kafelka usługi Power BI w aplikacji dla klientów
+Usługa **Power BI Embedded na platformie Azure** umożliwia osadzanie raportów, pulpitów nawigacyjnych lub kafelków w aplikacji, aby klienci mogli udostępniać dane. Jest to zazwyczaj scenariusz obejmujący **dewelopera ISV**, w którym jest używana struktura typu **app owns data** (dane należą do aplikacji). Struktura **app owns data** (dane należą do aplikacji) oznacza osadzanie zawartości usługi Power BI dla własnych klientów. Na przykład użytkownik zawartości usługi Power BI może przeglądać raporty, pulpity nawigacyjne lub kafelki bez konieczności logowania się do usługi **Power BI**. W tym samouczku przedstawiono sposób integrowania lub osadzania raportu w aplikacji przy użyciu zestawu .NET SDK usługi **Power BI** z interfejsem API języka JavaScript usługi **Power BI** w przypadku używania usługi **Power BI Embedded na platformie Azure**  dla klientów korzystających ze struktury **app owns data**.
 
-![Osadzony pulpit nawigacyjny](media/embed-sample-for-customers/powerbi-embed-dashboard.png)
+Z tego samouczka dowiesz się, jak wykonywać następujące czynności:
+>[!div class="checklist"]
+>* Rejestrowanie aplikacji na platformie Azure.
+>* Osadzanie raportu, pulpitu nawigacyjnego lub kafelka w aplikacji przy użyciu usługi Power BI Embedded na platformie Azure.
 
-Do rozpoczęcia pracy z tym przewodnikiem jest wymagane konto usługi **Power BI Pro**. Jeśli nie masz konta, możesz [utworzyć bezpłatne konto usługi Power BI](../service-self-service-signup-for-power-bi.md), a następnie utworzyć konto w celu uzyskania [wersji próbnej usługi Power BI Pro](../service-self-service-signup-for-power-bi.md#in-service-power-bi-pro-60-day-trial) lub utworzyć własną [dzierżawę usługi Azure Active Directory](create-an-azure-active-directory-tenant.md) do celów testowych.
+## <a name="prerequisites"></a>Wymagania wstępne
+Do rozpoczęcia pracy potrzebne jest konto usługi **Power BI Pro** i konto platformy **Microsoft Azure**.
 
-> [!NOTE]
-> Chcesz osadzić pulpit nawigacyjny dla swojej organizacji? Zobacz [Integrate a dashboard into an app for your organization (Integrowanie pulpitu nawigacyjnego z aplikacją dla organizacji)](integrate-dashboard.md).
-> 
-> 
+* Jeśli nie masz konta usługi **Power BI Pro**, na początku [zacznij korzystać z bezpłatnej wersji próbnej](https://powerbi.microsoft.com/en-us/pricing/).
+* Jeśli nie masz subskrypcji platformy Azure, przed rozpoczęciem utwórz [bezpłatne konto](https://azure.microsoft.com/free/?WT.mc_id=A261C142F).
+* Musisz mieć własną konfigurację [dzierżawy usługi Azure Active Directory](create-an-azure-active-directory-tenant.md).
+* Musisz mieć zainstalowany program [Visual Studio](https://www.visualstudio.com/) (w wersji 2013 lub nowszej).
 
-Aby zintegrować pulpit nawigacyjny z aplikacją internetową, należy użyć interfejsu API usługi **Power BI** oraz **tokenu dostępu** autoryzacji usługi Azure Active Directory (AD) w celu uzyskania pulpitu nawigacyjnego. Następnie należy załadować pulpit nawigacyjny przy użyciu tokenu osadzania. Interfejs API usługi **Power BI** zapewnia dostęp programowy do określonych zasobów usługi **Power BI**. Aby uzyskać więcej informacji, zobacz [Overview of Power BI REST API (Omówienie interfejsu API REST usługi Power BI)](https://msdn.microsoft.com/library/dn877544.aspx), [Power BI .NET SDK (Zestaw SDK platformy .NET dla usługi Power BI)](https://github.com/Microsoft/PowerBI-CSharp) i [Power BI JavaScript API (Interfejs API języka JavaScript usługi Power BI)](https://github.com/Microsoft/PowerBI-JavaScript).
+## <a name="setup-your-embedded-analytics-development-environment"></a>Konfigurowanie środowiska deweloperskiego analizy osadzonej
 
-## <a name="download-the-sample"></a>Pobieranie przykładu
-W tym artykule przedstawiono kod używany w [próbce osadzania dla organizacji](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data) w witrynie GitHub. Aby korzystać z tego przewodnika, możesz pobrać przykład.
+Przed rozpoczęciem osadzania raportów, pulpitów nawigacyjnych lub kafelków w aplikacji należy upewnić się, że środowisko skonfigurowano w sposób umożliwiający osadzanie. W ramach konfiguracji należy wykonać następujące działania.
 
-## <a name="step-1---register-an-app-in-azure-ad"></a>Krok 1. Rejestrowanie aplikacji w usłudze Azure AD
-Aplikację należy zarejestrować w usłudze Azure AD, aby móc wykonywać wywołania interfejsu API REST. Aby uzyskać więcej informacji, zobacz [Rejestrowanie aplikacji usługi Azure AD, aby osadzić zawartość usługi Power BI](register-app.md).
+### <a name="register-an-application-in-azure-active-directory-azure-ad"></a>Rejestrowanie aplikacji w usłudze Azure Active Directory (Azure AD)
 
-Jeśli pobrano [próbkę osadzania dla organizacji](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data), użyj **identyfikatora klienta** otrzymanego po zarejestrowaniu, aby próbka mogła uwierzytelniać się w usłudze Azure AD. Aby skonfigurować próbkę, zmień parametr **clientId** w pliku *web.config*.
+Aplikację można zarejestrować w usłudze Azure Active Directory, aby zapewnić aplikacji dostęp do interfejsów API REST usługi Power BI. Dzięki temu można ustanowić tożsamość aplikacji i określić jej uprawnienia do zasobów REST usługi Power BI.
 
-## <a name="step-2---get-an-access-token-from-azure-ad"></a>Krok 2. Uzyskiwanie tokenu dostępu z usługi Azure AD
-W aplikacji należy najpierw uzyskać **token dostępu** z usługi Azure AD, aby móc wykonywać wywołania interfejsu API REST usługi Power BI. Aby uzyskać więcej informacji, zobacz [Uwierzytelnianie użytkowników i uzyskiwanie tokenów dostępu usługi Azure AD dla aplikacji usługi Power BI](get-azuread-access-token.md).
+1. Zaakceptuj [Warunki interfejsu API usługi Microsoft Power BI](https://powerbi.microsoft.com/api-terms).
 
-Przykłady tego można zobaczyć w każdym zadaniu elementu zawartości w klasie **Controllers\HomeController.cs**.
+2. Zaloguj się w witrynie [Azure Portal](https://portal.azure.com).
+ 
+    ![Główna część witryny Azure Portal](media/embed-sample-for-customers/embed-sample-for-customers-002.png)
 
-## <a name="step-3---get-a-content-item"></a>Krok 3. Pobieranie elementu zawartości
-Aby osadzić zawartość usługi Power BI, należy wykonać kilka czynności w celu zapewnienia, że zostanie ona osadzona poprawnie. Wszystkie te kroki można wykonać bezpośrednio w interfejsie API REST, jednak przykładowa aplikacja i podane tutaj przykłady utworzono przy użyciu zestawu .NET SDK.
+3. W okienku nawigacji po lewej stronie wybierz kolejno pozycje **Wszystkie usługi** i **Rejestracje aplikacji**, a następnie kliknij przycisk **Rejestrowanie nowej aplikacji**.
+   
+    ![Wyszukiwanie rejestracji aplikacji](media/embed-sample-for-customers/embed-sample-for-customers-003.png)</br>
+    ![Nowa rejestracja aplikacji](media/embed-sample-for-customers/embed-sample-for-customers-004.png)
 
-### <a name="create-the-power-bi-client-with-your-access-token"></a>Tworzenie klienta programu Power BI przy użyciu tokenu dostępu
-Token dostępu umożliwia utworzenie obiektu klienta usługi Power BI, który pozwoli na interakcję z interfejsami API usługi Power BI. Jest to realizowane przez opakowywanie tokenu AccessToken w obiekt *Microsoft.Rest.TokenCredentials*.
+4. Postępuj zgodnie z monitami i utwórz nową aplikację. W przypadku struktury „app owns data” użyj typu aplikacji **Natywna**. Podaj również **Identyfikator URI przekierowania**, którego usługa **Azure AD** używa do zwracania odpowiedzi tokenu. Wprowadź wartość powiązaną z Twoją aplikacją (np. http://localhost:13526/redirect)).
 
-```
-using Microsoft.IdentityModel.Clients.ActiveDirectory;
-using Microsoft.Rest;
-using Microsoft.PowerBI.Api.V2;
+    ![Tworzenie aplikacji](media/embed-sample-for-customers/embed-sample-for-customers-005.png)
 
-var tokenCredentials = new TokenCredentials(authenticationResult.AccessToken, "Bearer");
+### <a name="apply-permissions-to-your-application-within-azure-active-directory"></a>Stosowanie uprawnień do aplikacji w usłudze Azure Active Directory
 
-// Create a Power BI Client object. It will be used to call Power BI APIs.
-using (var client = new PowerBIClient(new Uri(ApiUrl), tokenCredentials))
-{
-    // Your code to embed items.
-}
-```
+Konieczne będzie włączenie dodatkowych uprawnień aplikacji oprócz tych, które zostały podane na stronie rejestrowania aplikacji. Musisz zalogować się na konto *główne* używane do osadzania, które musi być kontem administratora globalnego.
 
-### <a name="get-the-content-item-you-want-to-embed"></a>Pobieranie elementu zawartości, który ma zostać osadzony
-Użyj obiektu klienta usługi Power BI do pobrania odwołania do elementu, który ma zostać osadzony. Można osadzać pulpity nawigacyjne, kafelki lub raporty. Oto przykład pobierania pierwszego pulpitu nawigacyjnego, kafelka lub raportu z danego obszaru roboczego.
+### <a name="use-the-azure-active-directory-portal"></a>Korzystanie z portalu usługi Azure Active Directory
 
-Próbka jest dostępna w klasie **Controllers\HomeController.cs** [próbki danych posiadanych przez aplikację](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data).
+1. Przejdź do obszaru [Rejestracje aplikacji](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ApplicationsListBlade) w witrynie Azure Portal i wybierz aplikację, której używasz do osadzania.
+   
+    ![Wybieranie aplikacji](media/embed-sample-for-customers/embed-sample-for-customers-006.png)
 
-**Pulpity nawigacyjne**
+2. Wybierz pozycję **Ustawienia**, a następnie w obszarze **Dostęp do interfejsu API** wybierz pozycję **Wymagane uprawnienia**.
+   
+    ![Wymagane uprawnienia](media/embed-sample-for-customers/embed-sample-for-customers-008.png)
 
-```
-using Microsoft.PowerBI.Api.V2;
-using Microsoft.PowerBI.Api.V2.Models;
+3. Wybierz pozycję **Windows Azure Active Directory**, a następnie upewnij się, że wybrana jest pozycja **Uzyskuj dostęp do katalogu jako zalogowany użytkownik**. Wybierz pozycję **Zapisz**.
+   
+    ![Uprawnienia usługi Windows Azure AD](media/embed-sample-for-customers/embed-sample-for-customers-011.png)
 
-// You will need to provide the GroupID where the dashboard resides.
-ODataResponseListDashboard dashboards = client.Dashboards.GetDashboardsInGroup(GroupId);
+4. Wybierz pozycję **Dodaj**.
 
-// Get the first report in the group.
-Dashboard dashboard = dashboards.Value.FirstOrDefault();
-```
+    ![Dodawanie uprawnień](media/embed-sample-for-customers/embed-sample-for-customers-012.png)
 
-**Kafelek**
+5. Wybierz pozycję **Wybierz interfejs API**.
 
-```
-using Microsoft.PowerBI.Api.V2;
-using Microsoft.PowerBI.Api.V2.Models;
+    ![Dodawanie dostępu do interfejsu API](media/embed-sample-for-customers/embed-sample-for-customers-013.png)
 
-// To retrieve the tile, you first need to retrieve the dashboard.
+6. Wybierz pozycję **Usługa Power BI**, a następnie wybierz pozycję **Wybierz**.
 
-// You will need to provide the GroupID where the dashboard resides.
-ODataResponseListDashboard dashboards = client.Dashboards.GetDashboardsInGroup(GroupId);
+    ![Wybieranie usług PBI](media/embed-sample-for-customers/embed-sample-for-customers-014.png)
 
-// Get the first report in the group.
-Dashboard dashboard = dashboards.Value.FirstOrDefault();
+7. Wybierz wszystkie uprawnienia w obszarze **Delegowane uprawnienia**. W celu zapisania wyborów musisz je zaznaczać pojedynczo. Po zakończeniu wybierz pozycję **Zapisz**.
+   
+    ![Wybieranie delegowanych uprawnień](media/embed-sample-for-customers/embed-sample-for-customers-015.png)
 
-// Get a list of tiles from a specific dashboard
-ODataResponseListTile tiles = client.Dashboards.GetTilesInGroup(GroupId, dashboard.Id);
+8. W obszarze **Wymagane uprawnienia** wybierz pozycję **Udziel uprawnień**.
+   
+    Wykonanie akcji **Udziel uprawnień** jest konieczne, aby usługa Azure AD nie wysyłała do *konta głównego* monitów o wyrażenie zgody. Jeśli konto, z którego wykonywana jest ta akcja, jest kontem administratora globalnego, udzielisz uprawnień do tej aplikacji wszystkim użytkownikom w swojej organizacji. Jeśli jest to *konto główne*, które nie ma uprawnień administratora globalnego, udzielisz uprawnień do tej aplikacji tylko *kontu głównemu*.
+   
+    ![Udzielanie uprawnień w oknie dialogowym Wymagane uprawnienia](media/embed-sample-for-customers/embed-sample-for-customers-016.png)
 
-// Get the first tile in the group.
-Tile tile = tiles.Value.FirstOrDefault();
-```
+### <a name="create-your-power-bi-embedded-dedicated-capacity-in-azure"></a>Tworzenie dedykowanej pojemności usługi Power BI Embedded na platformie Azure
 
-**Raport**
+1. Zaloguj się w witrynie [Azure Portal](https://portal.azure.com).
 
-```
-using Microsoft.PowerBI.Api.V2;
-using Microsoft.PowerBI.Api.V2.Models;
+    ![Główna część witryny Azure Portal](media/embed-sample-for-customers/embed-sample-for-customers-002.png)
 
-// You will need to provide the GroupID where the dashboard resides.
-ODataResponseListReport reports = client.Reports.GetReportsInGroupAsync(GroupId);
+2. W okienku nawigacji po lewej stronie wybierz kolejno pozycje **Wszystkie usługi** i **Power BI Embedded**.
 
-// Get the first report in the group.
-Report report = reports.Value.FirstOrDefault();
-```
+    ![Wyszukiwanie w usłudze PBIE](media/embed-sample-for-customers/embed-sample-for-customers-017.png)
 
-### <a name="create-the-embed-token"></a>Tworzenie tokenu osadzania
-Należy wygenerować token osadzania, którego można używać z poziomu interfejsu API języka JavaScript. Token osadzania będzie specyficzny dla osadzanego elementu. Oznacza to, że za każdym razem, gdy osadzasz fragment zawartości usługi Power BI, musisz utworzyć dla niego nowy token. Aby uzyskać więcej informacji, łącznie z tym, którego parametru **accessLevel** używać, zobacz [GenerateToken API (Interfejs API generowania tokenu)](https://msdn.microsoft.com/library/mt784614.aspx).
-
-> [!IMPORTANT]
-> Ponieważ tokeny osadzania są przeznaczone tylko do celów testowania podczas programowania, liczba tokenów osadzania, które może wygenerować konto główne usługi Power BI, jest ograniczona. Dla scenariuszy osadzania w środowisku produkcyjnym [należy kupić pojemność](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical). Nie ma żadnego ograniczenia generowania tokenów osadzania, gdy zostanie kupiona pojemność. Przejdź do pozycji [Pobierz dostępne funkcje](https://msdn.microsoft.com/en-us/library/mt846473.aspx), aby sprawdzić, ilu bezpłatnych osadzonych tokenów już użyto.
+3. Postępuj zgodnie z monitami i wprowadź odpowiednie informacje potrzebne do utworzenia nowej dedykowanej pojemności usługi **Power BI Embedded**, a następnie wybierz pozycję **Utwórz**. Wybierając opcję w polu **Warstwa cenowa**, zapoznaj się z poniższą tabelą, aby zdecydować, która warstwa najlepiej odpowiada Twoim potrzebom. Następnie wybierz pozycję **Utwórz** i poczekaj na ukończenie zasobu.
 
-Próbka jest dostępna w klasie **Controllers\HomeController.cs** [próbki osadzania dla organizacji](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data).
-
-Założono, że utworzono klasę **EmbedConfig** i **TileEmbedConfig**. Próbka jest dostępna w klasach **Models\EmbedConfig.cs** i **Models\TileEmbedConfig.cs**.
+    ![Konfiguracja usługi PBIE](media/embed-sample-for-customers/embed-sample-for-customers-018.png)
 
-**Pulpit nawigacyjny**
-
-```
-using Microsoft.PowerBI.Api.V2;
-using Microsoft.PowerBI.Api.V2.Models;
+| Węzeł pojemności | Całkowita liczba rdzeni<br/>*(Wewnętrzna baza danych + fronton)* | Rdzenie wewnętrznej bazy danych | Rdzenie frontonu | Limity zapytania bezpośredniego/połączenia na żywo | Maksymalne renderowanie strony w godzinie szczytu |
+| --- | --- | --- | --- | --- | --- |
+| A1 |1 rdzeń wirtualny |0,5 rdzenia, 3 GB pamięci RAM |0,5 rdzenia | 5 na sekundę |1–300 |
+| A2 |2 rdzenie wirtualne |1 rdzeń, 5 GB pamięci RAM |1 rdzeń | 10 na sekundę |301–600 |
+| A3 |4 rdzenie wirtualne |2 rdzenie, 10 GB pamięci RAM |2 rdzenie | 15 na sekundę |601–1200 |
+| A4 |8 rdzeni wirtualnych |4 rdzenie, 25 GB pamięci RAM |4 rdzenie |30 na sekundę |1201–2400 |
+| A5 |16 rdzeni wirtualnych |8 rdzeni, 50 GB pamięci RAM |8 rdzeni |60 na sekundę |2401–4800 |
+| A6 |32 rdzenie wirtualne |16 rdzeni, 100 GB pamięci RAM |16 rdzeni |120 na sekundę |4801–9600 |
 
-// Generate Embed Token.
-var generateTokenRequestParameters = new GenerateTokenRequest(accessLevel: "view");
-EmbedToken tokenResponse = client.Dashboards.GenerateTokenInGroup(GroupId, dashboard.Id, generateTokenRequestParameters);
-
-// Generate Embed Configuration.
-var embedConfig = new EmbedConfig()
-{
-    EmbedToken = tokenResponse,
-    EmbedUrl = dashboard.EmbedUrl,
-    Id = dashboard.Id
-};
-```
+Teraz możesz wyświetlić nową **dedykowaną pojemność usługi Power BI Embedded**.
 
-**Kafelek**
-
-```
-using Microsoft.PowerBI.Api.V2;
-using Microsoft.PowerBI.Api.V2.Models;
+   ![Dedykowana pojemność usługi PBIE](media/embed-sample-for-customers/embed-sample-for-customers-019.png)
 
-// Generate Embed Token for a tile.
-var generateTokenRequestParameters = new GenerateTokenRequest(accessLevel: "view");
-EmbedToken tokenResponse = client.Tiles.GenerateTokenInGroup(GroupId, dashboard.Id, tile.Id, generateTokenRequestParameters);
-
-// Generate Embed Configuration.
-var embedConfig = new TileEmbedConfig()
-{
-    EmbedToken = tokenResponse,
-    EmbedUrl = tile.EmbedUrl,
-    Id = tile.Id,
-    dashboardId = dashboard.Id
-};
-```
-
-**Raport**
-
-```
-using Microsoft.PowerBI.Api.V2;
-using Microsoft.PowerBI.Api.V2.Models;
-
-// Generate Embed Token.
-var generateTokenRequestParameters = new GenerateTokenRequest(accessLevel: "view");
-EmbedToken tokenResponse = client.Reports.GenerateTokenInGroup(GroupId, report.Id, generateTokenRequestParameters);
-
-// Generate Embed Configuration.
-var embedConfig = new EmbedConfig()
-{
-    EmbedToken = tokenResponse,
-    EmbedUrl = report.EmbedUrl,
-    Id = report.Id
-};
-```
-
-
-
-## <a name="step-4---load-an-item-using-javascript"></a>Krok 4. Ładowanie elementu przy użyciu języka JavaScript
-Języka JavaScript można użyć do załadowania pulpitu nawigacyjnego do elementu div na stronie internetowej. W próbce użyto modelu EmbedConfig/TileEmbedConfig wraz z widokami dla pulpitu nawigacyjnego, kafelka lub raportu. Aby uzyskać pełną próbkę użycia interfejsu API języka JavaScript, można użyć [próbki usługi Microsoft Power BI Embedded](https://microsoft.github.io/PowerBI-JavaScript/demo).
-
-Próbka takiej aplikacji jest dostępna w [próbce osadzania dla organizacji](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data).
-
-**Views\Home\EmbedDashboard.cshtml**
-
-```
-<script src="~/scripts/powerbi.js"></script>
-<div id="dashboardContainer"></div>
-<script>
-    // Read embed application token from Model
-    var accessToken = "@Model.EmbedToken.Token";
-
-    // Read embed URL from Model
-    var embedUrl = "@Html.Raw(Model.EmbedUrl)";
-
-    // Read dashboard Id from Model
-    var embedDashboardId = "@Model.Id";
-
-    // Get models. models contains enums that can be used.
-    var models = window['powerbi-client'].models;
-
-    // Embed configuration used to describe the what and how to embed.
-    // This object is used when calling powerbi.embed.
-    // This also includes settings and options such as filters.
-    // You can find more information at https://github.com/Microsoft/PowerBI-JavaScript/wiki/Embed-Configuration-Details.
-    var config = {
-        type: 'dashboard',
-        tokenType: models.TokenType.Embed,
-        accessToken: accessToken,
-        embedUrl: embedUrl,
-        id: embedDashboardId
-    };
-
-    // Get a reference to the embedded dashboard HTML element
-    var dashboardContainer = $('#dashboardContainer')[0];
-
-    // Embed the dashboard and display it within the div container.
-    var dashboard = powerbi.embed(dashboardContainer, config);
-</script>
-```
-
-**Views\Home\EmbedTile.cshtml**
-
-```
-<script src="~/scripts/powerbi.js"></script>
-<div id="tileContainer"></div>
-<script>
-    // Read embed application token from Model
-    var accessToken = "@Model.EmbedToken.Token";
-
-    // Read embed URL from Model
-    var embedUrl = "@Html.Raw(Model.EmbedUrl)";
-
-    // Read tile Id from Model
-    var embedTileId = "@Model.Id";
-
-    // Read dashboard Id from Model
-    var embedDashboardeId = "@Model.dashboardId";
-
-    // Get models. models contains enums that can be used.
-    var models = window['powerbi-client'].models;
-
-    // Embed configuration used to describe the what and how to embed.
-    // This object is used when calling powerbi.embed.
-    // This also includes settings and options such as filters.
-    // You can find more information at https://github.com/Microsoft/PowerBI-JavaScript/wiki/Embed-Configuration-Details.
-    var config = {
-        type: 'tile',
-        tokenType: models.TokenType.Embed,
-        accessToken: accessToken,
-        embedUrl: embedUrl,
-        id: embedTileId,
-        dashboardId: embedDashboardeId
-    };
-
-    // Get a reference to the embedded tile HTML element
-    var tileContainer = $('#tileContainer')[0];
-
-    // Embed the tile and display it within the div container.
-    var tile = powerbi.embed(tileContainer, config);
-</script>
-```
-
-**Views\Home\EmbedReport.cshtml**
-
-```
-<script src="~/scripts/powerbi.js"></script>
-<div id="reportContainer"></div>
-<script>
-    // Read embed application token from Model
-    var accessToken = "@Model.EmbedToken.Token";
-
-    // Read embed URL from Model
-    var embedUrl = "@Html.Raw(Model.EmbedUrl)";
-
-    // Read report Id from Model
-    var embedReportId = "@Model.Id";
-
-    // Get models. models contains enums that can be used.
-    var models = window['powerbi-client'].models;
-
-    // Embed configuration used to describe the what and how to embed.
-    // This object is used when calling powerbi.embed.
-    // This also includes settings and options such as filters.
-    // You can find more information at https://github.com/Microsoft/PowerBI-JavaScript/wiki/Embed-Configuration-Details.
-    var config = {
-        type: 'report',
-        tokenType: models.TokenType.Embed,
-        accessToken: accessToken,
-        embedUrl: embedUrl,
-        id: embedReportId,
-        permissions: models.Permissions.All,
-        settings: {
-            filterPaneEnabled: true,
-            navContentPaneEnabled: true
-        }
-    };
-
-    // Get a reference to the embedded report HTML element
-    var reportContainer = $('#reportContainer')[0];
-
-    // Embed the report and display it within the div container.
-    var report = powerbi.embed(reportContainer, config);
-</script>
-```
-
-## <a name="next-steps"></a>Następne kroki
-Przykładowa aplikacja jest dostępna w witrynie GitHub do przeglądu. Powyższe przykłady są oparte na tym przykładzie. Aby uzyskać więcej informacji, zobacz [próbkę osadzania dla organizacji](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data).
-
-Aby uzyskać więcej informacji dotyczących interfejsu API języka JavaScript, zobacz [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript) (Interfejs API języka JavaScript usługi Power BI).
-
-Masz więcej pytań? [Zadaj pytanie społeczności usługi Power BI](http://community.powerbi.com/)
+## <a name="setup-your-power-bi-environment"></a>Konfigurowanie środowiska usługi Power BI
 
+### <a name="create-an-app-workspace"></a>Tworzenie obszaru roboczego aplikacji
+
+W przypadku osadzania raportów, pulpitów nawigacyjnych lub kafelków dla klientów należy umieścić zawartość w obszarze roboczym aplikacji. Konto *główne* musi być kontem administratora obszaru roboczego aplikacji.
+
+1. Rozpocznij od utworzenia obszaru roboczego. Wybierz pozycję **Obszary robocze** > **Utwórz obszar roboczy aplikacji**. W tym miejscu zostanie umieszczona zawartość, do której aplikacja musi uzyskiwać dostęp.
+
+    ![Tworzenie obszaru roboczego](media/embed-sample-for-customers/embed-sample-for-customers-020.png)
+
+2. Nadaj nazwę obszarowi roboczemu. Jeśli odpowiedni **Identyfikator obszaru roboczego** nie jest dostępny, edytuj go, aby skorzystać z unikatowego identyfikatora. Będzie to również nazwa aplikacji.
+
+    ![Nazywanie obszaru roboczego](media/embed-sample-for-customers/embed-sample-for-customers-021.png)
+
+3. Istnieje kilka opcji do ustawienia. Jeśli wybierzesz opcję **Publiczny**, wszystkie osoby w organizacji będą mogły zobaczyć zawartość tego obszaru roboczego. Z drugiej strony opcja **Prywatny** oznacza, że tylko członkowie obszaru roboczego będą mogli wyświetlić jego zawartość.
+
+    ![Prywatny/Publiczny](media/embed-sample-for-customers/embed-sample-for-customers-022.png)
+
+    Nie możesz zmienić ustawienia Publiczny/Prywatny po utworzeniu grupy.
+
+4. Ponadto możesz zdecydować, czy członkowie uzyskają dostęp do **edycji** lub **tylko do wyświetlania**.
+
+    ![Dodawanie członków](media/embed-sample-for-customers/embed-sample-for-customers-023.png)
+
+5. Dodaj adresy e-mail osób, które mają mieć dostęp do obszaru roboczego, a następnie wybierz opcję **Dodaj**. Nie można dodawać aliasów grupy, tylko osoby.
+
+6. Zdecyduj wobec każdej osoby, czy jest członkiem, czy administratorem. Administratorzy mogą edytować obszar roboczy, w tym dodawać innych członków. Członkowie mogą edytować zawartość w obszarze roboczym, chyba że mają dostęp tylko do wyświetlania. Administratorzy i członkowie mogą opublikować aplikację.
+
+7. Rozwiń węzeł **Zaawansowane**, włącz pozycję **Pojemność dedykowana**, a następnie wybierz utworzoną **pojemność dedykowaną usługi Power BI Embedded**. Następnie wybierz pozycję **Zapisz**.
+
+    ![Dodawanie członków](media/embed-sample-for-customers/embed-sample-for-customers-024.png)
+
+Teraz możesz wyświetlić nowy obszar roboczy. Usługa Power BI tworzy obszar roboczy i otwiera go. Zostanie on wyświetlony na liście obszarów roboczych, których członkiem jesteś. Jako że jesteś administratorem, możesz wybrać wielokropek (...), aby powrócić i wprowadzić zmiany, dodając nowych członków lub zmieniając ich uprawnienia.
+
+   ![Nowy obszar roboczy](media/embed-sample-for-customers/embed-sample-for-customers-025.png)
+
+### <a name="create-and-publish-your-reports"></a>Tworzenie i publikowanie raportów
+
+Raporty i zestawy danych można tworzyć przy użyciu programu Power BI Desktop, a następnie publikować je w obszarze roboczym aplikacji. Aby móc publikować raporty w obszarze roboczym aplikacji, użytkownik końcowy publikujący je musi mieć licencję usługi Power BI Pro.
+
+1. Pobierz przykład [Blog Demo](https://github.com/Microsoft/powerbi-desktop-samples) (Pokaz bloga) z usługi GitHub.
+
+    ![przykładowy raport](media/embed-sample-for-customers/embed-sample-for-customers-026-1.png)
+
+2. Otwórz przykładowy raport PBIX w programie **Power BI Desktop**.
+
+   ![Raport programu PBI Desktop](media/embed-sample-for-customers/embed-sample-for-customers-027.png)
+
+3. Opublikuj w **obszarze roboczym aplikacji**.
+
+   ![Raport programu PBI Desktop](media/embed-sample-for-customers/embed-sample-for-customers-028.png)
+
+    Teraz możesz przeglądać raport w trybie online za pomocą usługi Power BI.
+
+   ![Raport programu PBI Desktop](media/embed-sample-for-customers/embed-sample-for-customers-029.png)
+
+## <a name="embed-your-content"></a>Osadzanie zawartości
+
+1. Pobierz [przykład App Owns Data](https://github.com/Microsoft/PowerBI-Developer-Samples) (dane należą do aplikacji) z usługi GitHub, aby rozpocząć pracę.
+
+    ![Przykład aplikacji App Owns Data (dane należą do aplikacji)](media/embed-sample-for-customers/embed-sample-for-customers-026.png)
+
+2. Otwórz plik Web.config w przykładowej aplikacji. Aby pomyślnie uruchomić aplikację, należy wypełnić 5 pól: **clientID**, **groupId**, **reportId**, **pbiUsername** i **pbiPassword**.
+
+      ![Plik Web.config](media/embed-sample-for-customers/embed-sample-for-customers-030.png)
+
+    * W polu **clientId** podaj **identyfikator aplikacji** z platformy **Azure**. Za pomocą wartości **clientId** aplikacja identyfikuje się dla użytkowników, od których żądasz uprawnień. Aby uzyskać wartość **clientId**, wykonaj następujące czynności:
+
+        1. Zaloguj się w witrynie [Azure Portal](https://portal.azure.com).
+
+        ![Główna część witryny Azure Portal](media/embed-sample-for-customers/embed-sample-for-customers-002.png)
+
+        2. W okienku nawigacji po lewej stronie wybierz pozycję **Wszystkie usługi** i pozycję **Rejestracje aplikacji**.
+
+        ![Wyszukiwanie rejestracji aplikacji](media/embed-sample-for-customers/embed-sample-for-customers-003.png)
+        3. Wybierz aplikację, dla której chcesz uzyskać wartość **clientId**.
+
+        ![Wybieranie aplikacji](media/embed-sample-for-customers/embed-sample-for-customers-006.png)
+
+      4. Powinien zostać wyświetlony **identyfikator aplikacji** wymieniony jako identyfikator GUID. Użyj tego **identyfikatora aplikacji** jako wartości **clientId** dla aplikacji.
+
+        ![clientId](media/embed-sample-for-customers/embed-sample-for-customers-007.png)     
+
+    * W polu **groupId** podaj **identyfikator GUID obszaru roboczego aplikacji** z usługi Power BI.
+
+        ![groupId](media/embed-sample-for-customers/embed-sample-for-customers-031.png)
+
+    * W polu **reportId** podaj **identyfikator GUID** z usługi Power BI.
+
+        ![reportId](media/embed-sample-for-customers/embed-sample-for-customers-032.png)    
+
+    * W polu **pbiUsername** określ główne konto użytkownika usługi Power BI.
+    * W polu **pbiPassword** podaj hasło głównego konta użytkownika usługi Power BI.
+
+3. Uruchom aplikację!
+
+    Najpierw wybierz pozycję **Uruchom** w programie **Visual Studio**.
+
+    ![Uruchamianie aplikacji](media/embed-sample-for-customers/embed-sample-for-customers-033.png)
+
+    Następnie wybierz pozycję **Osadź raport**. W zależności od zawartości, którą chcesz testować — raporty, pulpity nawigacyjne lub kafelki — wybierz tę opcję w aplikacji.
+
+    ![Wybieranie zawartości](media/embed-sample-for-customers/embed-sample-for-customers-034.png)
+ 
+    Teraz możesz przeglądać raport w przykładowej aplikacji.
+
+    ![Wyświetlanie aplikacji](media/embed-sample-for-customers/embed-sample-for-customers-035.png)
+
+Aby uzyskać pełen przykład użycia interfejsu API języka JavaScript, można użyć [narzędzia Playground](https://microsoft.github.io/PowerBI-JavaScript/demo). Jest to szybki sposób na zapoznanie się z różnymi typami przykładów usługi Power BI Embedded. Możesz również uzyskać więcej informacji na temat interfejsu API języka JavaScript odwiedzając stronę [wiki Power BI-JavaScript](https://github.com/Microsoft/powerbi-javascript/wiki).
+
+Jeśli masz dalsze pytania dotyczące usługi Power BI Embedded, odwiedź stronę [często zadawanych pytań](embedded-faq.md).  Jeśli masz problemy z usługą Power BI Embedded w aplikacji, odwiedź stronę [rozwiązywania problemów](embedded-troubleshoot.md).
+
+Masz więcej pytań? [Zadaj pytanie społeczności usługi Power BI](http://community.powerbi.com/) 

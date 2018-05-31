@@ -1,31 +1,24 @@
 ---
-title: "Wprowadzenie do formatowania wizualizacji usługi Power BI (samouczek)"
-description: "Samouczek: Dostosowywanie tytułu, tła i legendy wizualizacji"
-services: powerbi
-documentationcenter: 
+title: Wprowadzenie do formatowania wizualizacji usługi Power BI
+description: Dostosowywanie tytułu, tła i legendy wizualizacji
 author: mihart
 manager: kfile
-backup: 
-editor: 
+ms.reviewer: ''
 featuredvideoid: IkJda4O7oGs
-tags: 
-qualityfocus: monitoring
-qualitydate: 
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 01/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e81f4e9ede3591accc94576291179b4fd40215e5
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: d65281539bcc27ce24971a6da0945908ba65e754
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34297106"
 ---
-# <a name="customize-visualization-titles-legends-and-backgrounds-tutorial"></a>Dostosowywanie tytułów, legend i tła wizualizacji (samouczek)
+# <a name="customize-visualization-titles-legends-and-backgrounds"></a>Dostosowywanie tytułów, legend i tła wizualizacji
 W tym samouczku poznasz kilka sposobów dostosowywania wizualizacji.   Istnieje wiele opcji dostosowywania wizualizacji. Najlepiej zapoznać się z nimi, eksplorując okienko Formatowanie (wybierz ikonę wałka do malowania).  Aby ułatwić rozpoczęcie pracy, w tym artykule przedstawiono, jak dostosować tytuł, legendę i tło wizualizacji.  
 
 Nie wszystkie wizualizacje można dostosowywać, [zapoznaj się z pełną listą](#list).  

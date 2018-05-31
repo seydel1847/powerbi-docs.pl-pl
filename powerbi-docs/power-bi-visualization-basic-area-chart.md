@@ -1,15 +1,15 @@
 ---
-title: Podstawowy wykres warstwowy (samouczek)
-description: 'Samouczek: podstawowy wykres warstwowy.'
+title: Podstawowy wykres warstwowy
+description: Podstawowy wykres warstwowy.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,13 +18,14 @@ ms.workload: powerbi
 ms.date: 01/20/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c4a7a90a8647b4a5d2c76cefbba5041a6e31607d
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 62d518b923d541ee937f485da946ae08b20fa386
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33811810"
 ---
-# <a name="basic-area-chart-tutorial"></a>Podstawowy wykres warstwowy (samouczek)
+# <a name="basic-area-chart"></a>Podstawowy wykres warstwowy
 Podstawowy wykres warstwowy (zwany również wykresem warstwowym) jest oparty na wykresie liniowym. Obszar pomiędzy osią i linią jest wypełniony kolorami wskazującymi ilość. 
 
 Wykresy warstwowe podkreślają znaczenie zmiany w czasie. Można ich używać do zwracania uwagi na wartość całkowitą w trendzie. Na przykład dane reprezentujące zysk w czasie można przedstawić na wykresie warstwowym, aby podkreślić łączny zysk.

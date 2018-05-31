@@ -15,25 +15,31 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/19/2018
+ms.date: 04/19/2018
 ms.author: maggies
-ms.openlocfilehash: 4f149baccf551762589c17bd6d6ba17c36f4da37
-ms.sourcegitcommit: 0473a155495a7a9ba4b899d0815100426718b7ac
+ms.openlocfilehash: 21769ee9c88dd2310da2a86be8dbadd1f17522ff
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/20/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33813259"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Co nowego w serwerze raportów usługi Power BI
 Dowiedz się, co nowego w serwerze raportów usługi Power BI. Obejmuje to obszary najważniejszych funkcji i jest aktualizowane w miarę, jak są wydawane nowe elementy.
 
 Aby pobrać serwer raportów usługi Power BI i program Power BI Desktop zoptymalizowany pod kątem serwera raportów usługi Power BI, przejdź do [Lokalne raportowanie za pomocą serwera raportów usługi Power BI](https://powerbi.microsoft.com/report-server/).
 
-Powiązane nowości są dostępne w następujących artykułach:
+Sprawdź również poniższe źródła, aby uzyskać aktualne informacje o nowych funkcjach serwera raportów usługi Power BI.
+
+* [Blog usługi Microsoft Power BI](https://powerbi.microsoft.com/blog/)
+* [Blog zespołu usług SQL Server Reporting Services](https://blogs.msdn.microsoft.com/sqlrsteamblog/)
+* [Kanał Guy in a Cube (YouTube)](https://aka.ms/guyinacube)
+
+Powiązane nowości w usłudze Power BI zostały opisane w następujących artykułach:
 
 * [Co nowego w usłudze Power BI](../service-whats-new.md)
 * [Co nowego w programie Power BI Desktop](../desktop-latest-update.md)
 * [Co nowego w aplikacjach mobilnych dla usługi Power BI](../mobile-whats-new-in-the-mobile-apps.md)
-* [Blog zespołu usługi Power BI](https://powerbi.microsoft.com/blog/)
 
 ## <a name="march-2018-release"></a>Wydanie z marca 2018 r.
 
@@ -208,7 +214,7 @@ Serwer raportów usługi Power BI obsługuje obecnie nowe elementy wizualne tabe
 ## <a name="next-steps"></a>Następne kroki
 [Podręcznik użytkownika](user-handbook-overview.md)  
 [Podręcznik administratora](admin-handbook-overview.md)  
-[Szybki start: instalowanie serwera raportów usługi Power BI](quickstart-install-report-server.md)  
+[Instalacja serwera raportów usługi Power BI](install-report-server.md)  
 [Instalowanie programu Report Builder](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
 [Pobieranie programu SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)
 

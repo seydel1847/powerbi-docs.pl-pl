@@ -1,31 +1,24 @@
 ---
-title: Wizualizacje tabel w raportach i na pulpitach nawigacyjnych usługi Power BI (samouczek)
+title: Wizualizacje tabel w raportach i na pulpitach nawigacyjnych usługi Power BI
 description: Samouczek wprowadzający do pracy z wizualizacjami tabel w raportach i na pulpitach nawigacyjnych usługi Power BI, w tym informujący o sposobie zmieniania szerokości kolumn.
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: ''
-qualityfocus: ''
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a36e2afcda7c741c871b07c526ab010f77290a3b
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: 37f4e06aee41b8741dd3a1a1a52e3237fbd893a3
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34293265"
 ---
-# <a name="working-with-tables-in-power-bi-reports-and-dashboards-tutorial"></a>Praca z tabelami w raportach i na pulpitach nawigacyjnych usługi Power BI (samouczek)
+# <a name="working-with-tables-in-power-bi-reports-and-dashboards"></a>Praca z tabelami w raportach i na pulpitach nawigacyjnych usługi Power BI
 Tabela to siatka zawierająca powiązane dane w postaci logicznej serii wierszy i kolumn. Może również zawierać nagłówki i wiersze sum. Tabele dobrze się sprawdzają w przypadku porównań ilościowych, gdy analizuje się wiele wartości z jednej kategorii. Na przykład ta tabela zawiera 5 różnych miar dla **kategorii**.
 
 ![](media/power-bi-visualization-tables/table.png)
@@ -127,5 +120,5 @@ Czasami usługa Power BI obcina nagłówek kolumny w raporcie i na pulpicie nawi
 
 ![](media/power-bi-visualization-tables/resizetable.gif)
 
-Więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
+Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
 
