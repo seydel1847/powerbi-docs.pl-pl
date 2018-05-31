@@ -1,29 +1,20 @@
 ---
 title: Wirtualny analityk pytań i odpowiedzi w aplikacjach systemu iOS — Power BI
 description: Zadawaj pytania dotyczące przykładowych danych własnymi słowami, używając wirtualnego analityka pytań i odpowiedzi w aplikacji mobilnej usługi Power BI na urządzeniu z systemem iOS.
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
-ms.devlang: NA
 ms.topic: conceptual
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
 ms.date: 05/05/2018
 ms.author: maggies
-ms.openlocfilehash: eaa8960de53b5c3e48c4bd619469beeec384b033
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: 85487567d428618034f6f026324846fbfbd87baf
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/07/2018
-ms.locfileid: "33812178"
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34295013"
 ---
 # <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>Wirtualny analityk pytań i odpowiedzi w aplikacjach systemu iOS — Power BI
 
