@@ -1,29 +1,20 @@
 ---
 title: 'Samouczek: eksplorowanie serwera raportów usługi Power BI na maszynie wirtualnej'
 description: W tym samouczku utworzysz maszynę wirtualną przy użyciu już zainstalowanego serwera raportów usługi Power BI i zapoznasz się z portalem internetowym.
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
-ms.component: powerbi-report-server
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
+ms.component: powerbi-report-server
 ms.topic: tutorial
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 05/05/2018
+ms.date: 05/18/2018
 ms.author: maggies
-ms.openlocfilehash: a77dceac19368fc7997f79513b0b5f946a914dfc
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: 38985014407a4d64998e25f6944f57aedcc67309
+ms.sourcegitcommit: aa8045e42b979206c600bce4a8d17de1f0620462
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/07/2018
-ms.locfileid: "33813949"
+ms.lasthandoff: 05/22/2018
+ms.locfileid: "34445008"
 ---
 # <a name="tutorial-explore-the-power-bi-report-server-web-portal-in-a-vm"></a>Samouczek: eksplorowanie portalu internetowego serwera raportów usługi Power BI na maszynie wirtualnej
 W tym samouczku utworzysz maszynę wirtualną platformy Azure przy użyciu już zainstalowanego serwera raportów usługi Power BI, aby zapoznać się z procesami wyświetlania i edytowania przykładowych raportów usługi Power BI i podzielonych na strony oraz kluczowych wskaźników wydajności, a także zarządzania nimi.
@@ -58,6 +49,8 @@ Na szczęście zespół usługi Power BI utworzył maszynę wirtualną z już za
 5. Utwórz nazwę użytkownika i hasło.
 
 6. W polu **Grupa zasobów** zachowaj pozycję **Utwórz nową** i podaj nazwę **reportserverresourcegroup**.
+
+    Jeśli wykonujesz instrukcje znajdujące się w tym samouczku więcej niż raz, za każdym razem należy podawać inną nazwę grupy zasobów. Nie można użyć tej samej nazwy grupy zasobów dwukrotnie w ramach jednej subskrypcji. 
 
 7. Zachowaj inne wartości domyślne > **OK**.
 
@@ -99,7 +92,7 @@ Po otwarciu maszyny wirtualnej na pulpicie zostaną wyświetlone poniższe eleme
 
 ![Maszyna wirtualna serwera raportów usługi Power BI jest uruchamiana](media/tutorial-explore-report-server-web-portal/power-bi-report-server-start-vm-numbered.png)
 
-|Numer  |Co to jest  |
+|Liczba  |Co to jest  |
 |---------|---------|
 |![Numer 1](media/tutorial-explore-report-server-web-portal/number-1.png) | Uruchamia narzędzia SQL Server Data Tools w celu utworzenia raportów podzielonych na strony (RDL) |
 |![Numer 2](media/tutorial-explore-report-server-web-portal/number-2.png) | Przykładowe raporty usługi Power BI (PBIX)  |
@@ -165,6 +158,8 @@ Raporty usługi Power BI można wyświetlać i pracować z nimi w portalu intern
      Raport zostanie otwarty w programie Power BI Desktop. Zauważ, że nazwa na pasku górnym to „Power BI Desktop (marzec 2018)”. Jest to wersja zoptymalizowana pod kątem serwera raportów usługi Power BI.
 
     ![Power BI Desktop](media/tutorial-explore-report-server-web-portal/power-bi-report-server-power-bi-desktop.png)
+
+     Użyj wersji programu Power BI Desktop zainstalowanej na maszynie wirtualnej. Aby przekazać raport, nie można przechodzić między domenami.
 
 3. W okienku Pola rozwiń tabelę Customers (Klienci) i przeciągnij pole Occupation (Zawód) do filtrów na poziomie raportu.
 
@@ -252,7 +247,9 @@ Teraz po zakończeniu pracy z tym samouczkiem usuń grupę zasobów, maszynę wi
 
 ## <a name="next-steps"></a>Następne kroki
 
-W tym samouczku utworzono maszynę wirtualną z serwerem raportów usługi Power BI. Wypróbowano niektóre funkcje portalu internetowego i otwarto raport usługi Power BI oraz raport podzielony na strony w odpowiednich edytorach. Aby dowiedzieć się więcej na temat tworzenia raportów dla serwera raportów usługi Power BI, kontynuuj pracę.
+W tym samouczku utworzono maszynę wirtualną z serwerem raportów usługi Power BI. Wypróbowano niektóre funkcje portalu internetowego i otwarto raport usługi Power BI oraz raport podzielony na strony w odpowiednich edytorach. Na tej maszynie wirtualnej zainstalowane są źródła danych usług SQL Server Analysis Services, dzięki czemu możesz spróbować utworzyć własną usługę Power BI i wielostronicowe raporty z tymi samymi źródłami danych. 
+
+Aby dowiedzieć się więcej na temat tworzenia raportów dla serwera raportów usługi Power BI, kontynuuj pracę.
 
 > [!div class="nextstepaction"]
 > [Tworzenie raportu usługi Power BI dla serwera raportów usługi Power BI](./quickstart-create-powerbi-report.md)
