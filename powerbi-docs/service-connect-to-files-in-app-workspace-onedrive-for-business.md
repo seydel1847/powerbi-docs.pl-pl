@@ -11,10 +11,11 @@ ms.date: 10/12/2017
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: e1161e5e461b3b32e549c69cfa7987c8f799e0fd
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34245344"
 ---
 # <a name="connect-to-files-stored-in-onedrive-for-your-power-bi-app-workspace"></a>Łączenie się z plikami przechowywanymi w usłudze OneDrive dla obszaru roboczego aplikacji Power BI
 Po [utworzeniu obszaru roboczego aplikacji w usłudze Power BI](service-create-distribute-apps.md) można przechowywać pliki programu Excel, pliki CSV oraz pliki programu Power BI Desktop w usłudze OneDrive dla Firm dla obszaru roboczego aplikacji Power BI. Nadal można aktualizować pliki przechowywane w usłudze OneDrive, a te aktualizacje są automatycznie odzwierciedlane w raportach i pulpitach nawigacyjnych usługi Power BI na podstawie plików. 
