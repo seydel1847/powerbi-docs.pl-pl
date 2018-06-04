@@ -11,10 +11,11 @@ ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
 ms.openlocfilehash: 8b9fcf1c6121c4aeecfdf948b77493f1f2a7f825
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34293633"
 ---
 # <a name="power-bi-archived-workspace"></a>Zarchiwizowany obszar roboczy usługi Power BI
 Za pomocą usługi Power BI każdy może zarejestrować się i rozpocząć korzystanie z usługi w ciągu kilku minut.  Później dział IT Twojej organizacji może postanowić przejąć zarządzanie usługą Power BI dla użytkowników w organizacji.  Jeśli wystąpi takie przejęcie, skorzystasz z centralnego zarządzania użytkownikami i uprawnieniami w Twojej organizacji oraz możesz wykorzystać zalety prostszego logowania się przy użyciu tej samej nazwy użytkownika i hasła używanych w przypadku innych usług w Twojej organizacji. 

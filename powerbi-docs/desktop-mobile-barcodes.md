@@ -10,10 +10,11 @@ ms.date: 01/16/2018
 ms.author: maggies
 LocalizationGroup: Model your data
 ms.openlocfilehash: ae6c7ba3603136aeea3daa412595b9f42ed13d6a
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34286916"
 ---
 # <a name="tag-barcodes-in-power-bi-desktop-for-the-mobile-apps"></a>Tagowanie kodów kreskowych w programie Power BI Desktop dla aplikacji mobilnych
 W programie Power BI Desktop możesz [skategoryzować dane](desktop-data-categorization.md) w kolumnie, aby poinformować program Power BI Desktop, jak ma traktować wartości w wizualizacjach w raporcie. Możesz także skategoryzować kolumnę jako **Kod kreskowy**. Gdy Ty lub Twoi współpracownicy [zeskanujecie kod kreskowy na produkcie za pomocą aplikacji Power BI](mobile-apps-scan-barcode-iphone.md) na telefonie iPhone, zostaną wyświetlone wszystkie raporty zawierające ten kod kreskowy. Po otwarciu raportu w aplikacji mobilnej usługa Power BI automatycznie przefiltruje raport, aby uzyskać dane związane z tym kodem kreskowym.

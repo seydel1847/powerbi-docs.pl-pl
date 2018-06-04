@@ -11,10 +11,10 @@ ms.date: 05/07/2018
 ms.author: davidi
 LocalizationGroup: Get started
 ms.openlocfilehash: f371e9bd4e1681d2e8fa06b1aeabfcd58a5dc4d1
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
 ms.locfileid: "34291171"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Poprzednie comiesięczne aktualizacje programu Power BI Desktop
@@ -47,7 +47,7 @@ Bardzo cieszymy się z kwietniowych aktualizacji programu **Power BI Desktop** �
 * Ulepszone domyślne sortowanie elementów wizualnych [[wideo]](https://youtu.be/W_Nb73Od_AI?t=19m21s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#sort) 
 * Fragmentator liczbowy — teraz jest ogólnie dostępny [[wideo]](https://youtu.be/W_Nb73Od_AI?t=21m13s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#numericSlicer) 
 
-### <a name="analytics"></a>Analiza
+### <a name="analytics"></a>Analytics
 
 * Aktualizacja schematu językowego [[wideo]](https://youtu.be/W_Nb73Od_AI?t=22m) [[artykuł]](power-bi-custom-visuals-organization.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#linguisticSchema) 
 * Nowa funkcja języka DAX: COMBINEVALUES() [[wideo]](https://youtu.be/W_Nb73Od_AI?t=23m37s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#combineValues) 
@@ -156,7 +156,7 @@ W lutym 2018 r. w programie **Power BI Desktop** wprowadzono następujące nowe
 * Niestandardowe wizualizacje organizacji (wersja zapoznawcza)  [[wideo]](https://youtu.be/KeVB5RwMzJo?t=19m23s)  [[artykuł]](power-bi-custom-visuals-organization.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#organizationalVisuals) 
 
 
-### <a name="analytics"></a>Analiza
+### <a name="analytics"></a>Analytics
 
 * Konfigurowanie niestandardowej tabeli dat [[wideo]](https://youtu.be/KeVB5RwMzJo?t=16m4s)[[artykuł]](desktop-date-tables.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#customDateTable)
 * Szybkie miary są teraz ogólnie dostępne  [[wideo]](https://youtu.be/KeVB5RwMzJo?t=17m52s)  [[artykuł]](desktop-quick-measures.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#quickMeasures) 
@@ -215,7 +215,7 @@ W styczniu w programie **Power BI Desktop** wprowadzono następujące nowe aktua
 -   Wybór pierwszych N pozycji pytań i odpowiedzi [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#topN) 
 -   Wiele nowych wizualizacji niestandardowych [[wideo]](https://youtu.be/W8Pp5wuCXJw?t=11m32s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#customVisuals) 
 
-### <a name="analytics"></a>Analiza
+### <a name="analytics"></a>Analytics
 
 -   Szybki pomiar współczynnika korelacji [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#correlationCoefficient) 
 
@@ -266,7 +266,7 @@ W grudniu w programie **Power BI Desktop** wprowadzono następujące nowe aktual
 -   Najnowsze wizualizacje niestandardowe [[wideo]](https://youtu.be/ZPU8B-1BxjI?t=18m25s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#customVisuals) 
 
 
-### <a name="analytics"></a>Analiza
+### <a name="analytics"></a>Analytics
 
 -   Przechodzenie do szczegółów filtrów innych wizualizacji [[wideo]](https://youtu.be/ZPU8B-1BxjI?t=28m53s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#drillFiltersOtherVisuals) 
 

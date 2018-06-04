@@ -11,10 +11,11 @@ ms.date: 06/28/2017
 ms.author: maghan
 LocalizationGroup: Data from databases
 ms.openlocfilehash: 236a3d1bde84d4259d921d44730057a4e2fd3591
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34256753"
 ---
 # <a name="spark-on-hdinsight-with-directquery"></a>Platforma Spark w usłudze HDInsight z zapytaniem bezpośrednim
 Platforma Spark w usłudze HDInsight z zapytaniem bezpośrednim umożliwia tworzenie dynamicznych raportów na podstawie danych i metryk, które już znajdują się w klastrze Spark. Dzięki zapytaniu bezpośredniemu zapytania są wysyłane do klastra Spark usługi Azure HDInsight w czasie, gdy eksplorujesz dane w widoku raportu. To środowisko jest zalecane dla użytkowników zaznajomionych z jednostkami, z którymi się łączą.

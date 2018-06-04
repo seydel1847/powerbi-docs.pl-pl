@@ -11,10 +11,11 @@ ms.date: 4/19/2018
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 7477fc19dda5aeb7729fbbde319faa0d930db179
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34289837"
 ---
 # <a name="use-gridlines-and-snap-to-grid-in-power-bi-desktop-reports"></a>Używanie linii siatki i przyciągania do siatki w raportach programu Power BI Desktop
 Kanwa raportu programu **Power BI Desktop** udostępnia linie siatki, które pozwalają starannie wyrównywać wizualizacje na stronie raportu i korzystać z funkcji przyciągania do siatki, dzięki czemu wizualizacje w raportach wyglądają przejrzyście, są wyrównane i mają równe odstępy.

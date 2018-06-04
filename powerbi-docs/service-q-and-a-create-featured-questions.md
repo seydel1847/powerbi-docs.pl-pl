@@ -12,10 +12,11 @@ ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
 ms.openlocfilehash: f3a9e8aabbd45cb476866158165e2e37a3d8f652
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34242392"
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>Tworzenie proponowanych pytań dla funkcji pytań i odpowiedzi w usłudze Power BI
 Jeśli jesteś właścicielem zestawu danych, możesz dodać własne proponowane pytania do tego zestawu danych.  Funkcja Pytania i odpowiedzi w usłudze Power BI wyświetli te pytania współpracownikom używającym Twojego zestawu danych (*korzystającym z niego*).  Proponowane pytania dostarczają współpracownikom pomysłów dotyczących typów pytań, jakie mogą zadać na temat zestawu danych. Proponowane pytania, jakie dodasz, zależą od Ciebie — dodaj często zadawane pytania lub takie, na które można udzielić ciekawej odpowiedzi, albo pytania, które ciężko sformułować.

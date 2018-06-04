@@ -11,10 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: d3074602af73d937e64a9155d3d197b91b1b1ae8
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34246914"
 ---
 # <a name="connect-to-xero-with-power-bi"></a>Nawiązywanie połączenia z usługą Xero przy użyciu usługi Power BI
 Xero to łatwe w użyciu oprogramowanie księgowe online, przeznaczone dla małych firm. Ten pakiet zawartości usługi Power BI pozwala tworzyć atrakcyjne wizualizacje, oparte na danych finansowych z usługi Xero. Domyślny pulpit nawigacyjny zawiera wiele metryk używanych przez małe firmy, takich jak stan środków pieniężnych, przychody i wydatki, rachunek zysków i strat, rotacja należności w dniach oraz zwrot z inwestycji.
