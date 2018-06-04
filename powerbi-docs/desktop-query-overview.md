@@ -11,10 +11,11 @@ ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
 ms.openlocfilehash: 35171c5b1d61b9df860b72ee98d8fb63a875092d
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34286387"
 ---
 # <a name="query-overview-in-power-bi-desktop"></a>Omówienie zapytań w programie Power BI Desktop
 Program **Power BI Desktop** umożliwia łączenie się ze zbiorami danych, tworzenie atrakcyjnych i fundamentalnych raportów oraz udostępnianie wyników pracy innym osobom, które mogą je następnie rozbudowywać i rozwijać własne rozwiązania analizy biznesowej.
