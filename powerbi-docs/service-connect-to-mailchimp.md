@@ -11,10 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 6a62b97a4c7d75644bd3a824118414509ef8438f
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34241187"
 ---
 # <a name="connect-to-mailchimp-with-power-bi"></a>Łączenie się z pakietem zawartości MailChimp przy użyciu usługi Power BI
 Pakiet zawartości usługi Power BI pobiera dane z konta usługi MailChimp oraz generuje pulpit nawigacyjny, zestaw raportów i zestaw danych, aby umożliwić eksplorowanie danych. Pobieraj analizy, aby tworzyć [pulpity nawigacyjne usługi MailChimp](https://powerbi.microsoft.com/integrations/mailchimp) i w szybki sposób identyfikować trendy w ramach kampanii, raportów oraz dla poszczególnych subskrybentów. Dane będą odświeżane codziennie, zapewniając aktualność monitorowanych danych.
