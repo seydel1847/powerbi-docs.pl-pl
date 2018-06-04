@@ -11,10 +11,10 @@ ms.date: 05/03/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
 ms.openlocfilehash: 2dc47d1fdf539c20cc0aabadd65b0401dc172ae8
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
 ms.locfileid: "34298969"
 ---
 # <a name="tutorial-connect-to-on-premises-data-in-sql-server"></a>Samouczek: łączenie z danymi lokalnymi w programie SQL Server
@@ -142,7 +142,7 @@ W programie Power BI Desktop łączysz się bezpośrednio z programem SQL Server
 
     ![Wprowadzanie ustawień źródeł danych](media/service-gateway-sql-tutorial/data-source-settings.png)
 
-    | Opcja | Value |
+    | Opcja | Wartość |
     | ---    | ---   |
     | **Nazwa źródła danych**       | test-sql-source      |
     | **Typ źródła danych**       | SQL Server      |

@@ -11,10 +11,11 @@ ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 94152d1c1dc30bcaea212638e5ef65da6faf7ff7
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34286157"
 ---
 # <a name="connect-to-ssas-multidimensional-models-in-power-bi-desktop"></a>Łączenie się z modelami wielowymiarowymi usług SSAS w programie Power BI Desktop
 Program Power BI Desktop umożliwia dostęp do **modeli wielowymiarowych usług SSAS**, często nazywanych **SSAS MD**.
@@ -34,7 +35,7 @@ W poniższej tabeli przedstawiono związek między obiektami wielowymiarowymi i 
 | Obiekt wielowymiarowy modelu BISM | Metadane tabelaryczne |
 | --- | --- |
 | Moduł |Model |
-| Wymiar modułu |tabela |
+| Wymiar modułu |Tabela |
 | Atrybuty wymiaru (klucze), nazwa |Kolumny |
 | Grupa miar |Tabela |
 | Miara |Miara |

@@ -10,10 +10,11 @@ ms.topic: conceptual
 ms.date: 05/17/2018
 ms.author: maghan
 ms.openlocfilehash: d4775ad8c9ef5bd039c09d7cfb8bb3b881405754
-ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/19/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34310526"
 ---
 # <a name="paginated-report-data-sources--in-power-bi-report-server"></a>Źródła danych raportu podzielonego na strony na serwerze raportów usługi Power BI
 Raporty podzielone na strony w usłudze Reporting Services na serwerze raportów usługi Power BI obsługują te same źródła danych, które są obsługiwane w usługach SQL Server Reporting Services. Zobacz listę [źródeł danych obsługiwanych przez usługi Reporting Services](https://docs.microsoft.com/sql/reporting-services/report-data/data-sources-supported-by-reporting-services-ssrs).

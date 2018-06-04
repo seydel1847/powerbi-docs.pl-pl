@@ -11,10 +11,11 @@ ms.date: 09/11/2017
 ms.author: mgblythe
 LocalizationGroup: Premium
 ms.openlocfilehash: 3cf20899e705328c9f63bdbede4c30bd69488762
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34298325"
 ---
 # <a name="power-bi-premium-release-notes"></a>Informacje o wersji usługi Power BI Premium
 To są informacje o wersji usługi Power BI Premium o dedykowanej pojemności zapewniającej Twojej organizacji lub zespołowi bardziej niezawodną wydajność, większe woluminy danych oraz możliwość dystrybucji zawartości bez licencji na użytkownika dla przeglądarek.

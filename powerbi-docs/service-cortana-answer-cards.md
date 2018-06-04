@@ -11,10 +11,11 @@ ms.date: 05/02/2018
 ms.author: mihart
 LocalizationGroup: Create reports
 ms.openlocfilehash: d2f657423903b783c2e57822cabb577acd10a8bc
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34294691"
 ---
 # <a name="use-power-bi-service-or-power-bi-desktop-to-create-a-custom-answer-page-for-cortana"></a>Tworzenie niestandardowej strony odpowiedzi dla Cortany przy użyciu usługi Power BI lub programu Power BI Desktop
 Korzystaj z pełnego zestawu funkcji usługi Power BI, aby tworzyć specjalne strony raportu, nazywane *stronami odpowiedzi Cortany* (a czasami *kartami odpowiedzi Cortany*), przeznaczone specjalnie do odpowiadania na pytania Cortany.

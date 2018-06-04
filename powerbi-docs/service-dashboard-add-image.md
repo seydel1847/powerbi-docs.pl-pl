@@ -12,10 +12,11 @@ ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 84b952dd744028e453101f3efb31ba8d084be2e1
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34245883"
 ---
 # <a name="add-an-image-to-a-power-bi-dashboard"></a>Dodawanie obrazu do pulpitu nawigacyjnego usługi Power BI
 Istnieje kilka sposobów dodawania autonomicznego obrazu do pulpitu nawigacyjnego: jednym ze sposobów jest przypięcie obrazu z raportu do pulpitu nawigacyjnego, a innym sposobem jest dodanie go bezpośrednio do pulpitu nawigacyjnego za pomocą pozycji **Dodaj kafelek**.  Więcej informacji można znaleźć w następujących artykułach:

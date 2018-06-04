@@ -10,10 +10,11 @@ ms.topic: conceptual
 ms.date: 01/25/2018
 ms.author: maggies
 ms.openlocfilehash: 5492ed25dc5bd803661186694e7f9d3f4e19c30f
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34291563"
 ---
 # <a name="pin-a-dashboard-to-your-windows-10-start-screen-from-the-power-bi-mobile-app"></a>Przypinanie pulpitu nawigacyjnego do ekranu startowego systemu Windows 10 przy użyciu aplikacji mobilnej Power BI
 Aplikacja mobilna Power BI dla systemu Windows 10 umożliwia przypinanie pulpitów nawigacyjnych do ekranu startowego systemu Windows. Staną się one *dynamicznymi kafelkami*. Po naciśnięciu kafelka na ekranie startowym odpowiedni pulpit nawigacyjny zostanie otwarty w aplikacji mobilnej Power BI dla systemu Windows 10.

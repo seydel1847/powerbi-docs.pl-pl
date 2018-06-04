@@ -10,10 +10,11 @@ ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
 ms.openlocfilehash: 640c6dac9a896cff55bddad46ceef8bce7ccae14
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34289377"
 ---
 # <a name="step-2-get-an-authentication-access-token"></a>Krok 2. Uzyskiwanie tokenu dostępu do uwierzytelniania
 Ten artykuł jest częścią przewodnika krok po kroku dotyczącego [wypychania danych do zestawu danych](walkthrough-push-data.md).

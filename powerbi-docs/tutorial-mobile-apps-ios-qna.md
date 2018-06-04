@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: tutorial
 ms.date: 05/08/2018
 ms.author: maggies
-ms.openlocfilehash: 5c8afc963c67493c30821048736d914d3aec278e
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 8cb9e78898228aa7dad82db76d1d7da1a7151702
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34297865"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34561430"
 ---
 # <a name="tutorial-ask-questions-about-your-data-with-the-qa-virtual-analyst-in-ios-apps---power-bi"></a>Samouczek: zadawanie pytań dotyczących danych za pomocą wirtualnego analityka pytań i odpowiedzi w aplikacjach systemu iOS — usługa Power BI
 
@@ -132,5 +132,5 @@ Po zakończeniu tego samouczka możesz usunąć pulpit nawigacyjny, raport i zes
 
 Wypróbowano wirtualnego asystenta pytań i odpowiedzi w aplikacjach mobilnych usługi Power BI dla systemu iOS. Dowiedz się więcej o funkcji Pytania i odpowiedzi w usłudze Power BI.
 > [!div class="nextstepaction"]
-> [Pytania i odpowiedzi w usłudze Power BI](/.power-bi-q-and-a.md)
+> [Pytania i odpowiedzi w usłudze Power BI](power-bi-q-and-a.md)
 

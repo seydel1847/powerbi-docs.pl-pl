@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/18/2018
+ms.date: 05/18/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: ff5da3623d572b8ecb3edc8c5eb40d866e6961d5
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 3382562459c461d9864cfce7163fb0d049deb494
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34481813"
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Próbka analizy handlu detalicznego dla usługi Power BI: krótki przewodnik
 
@@ -24,7 +25,8 @@ Ten przykładowy pulpit nawigacyjny dla branży i raport będący jego podstawą
 
 ## <a name="prerequisites"></a>Wymagania wstępne
 
- Zanim będzie można korzystać z przykładu, trzeba go najpierw pobrać jako [pakiet zawartości](https://docs.microsoft.com/en-us/power-bi/sample-datasets#get-and-open-a-sample-content-pack-in-power-bi-service), [plik pbix](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) lub [skoroszyt programu Excel](http://go.microsoft.com/fwlink/?LinkId=529778).
+ Zanim będzie można korzystać z przykładu, trzeba go najpierw pobrać jako [pakiet zawartości](https://docs.microsoft.com/power-bi/sample-datasets#get-and-open-a-sample-content-pack-in-power-bi-service), [plik pbix](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail-Analysis-Sample-PBIX.pbix) lub [skoroszyt programu Excel](http://go.microsoft.com/fwlink/?LinkId=529778).
+
 
 ### <a name="get-the-content-pack-for-this-sample"></a>Pobieranie pakietu zawartości dla tego przykładu
 
@@ -37,11 +39,11 @@ Ten przykładowy pulpit nawigacyjny dla branży i raport będący jego podstawą
    ![](media/sample-datasets/power-bi-samples-icon.png)
 4. Wybierz pozycję **Przykład Retail Analysis**, a następnie wybierz polecenie **Połącz**.  
   
-   ![Przykład Analiza handlu detalicznego](media/sample-retail-analysis/retail16.png)
+   ![Przykład Retail Analysis](media/sample-retail-analysis/retail16.png)
    
 5. Usługa Power BI zaimportuje pakiet zawartości i doda nowy pulpit nawigacyjny, raport oraz zestaw danych do bieżącego obszaru roboczego. Nowa zawartość jest oznaczona żółtą gwiazdką. 
    
-   ![Przykład Analiza handlu detalicznego](media/sample-retail-analysis/retail17.png)
+   ![Przykład Retail Analysis](media/sample-retail-analysis/retail17.png)
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>Pobieranie pliku pbix dla tego przykładu
 

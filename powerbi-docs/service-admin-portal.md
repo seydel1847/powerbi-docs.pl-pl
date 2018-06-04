@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 04/02/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 7d6ad3cea224de097d5ebc81d33dbffa52b33378
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 5b4a35d9cdfa820956201e7fee20251b3c5ac0b7
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34584305"
 ---
 # <a name="power-bi-admin-portal"></a>Portal administracyjny usługi Power BI
 
@@ -209,7 +210,7 @@ Przejdź tutaj, aby dowiedzieć się więcej o [wypychaniu aplikacji](service-cr
 Użytkownicy w organizacji mogą zadawać pytania dotyczące danych przy użyciu Cortany.
 
 > [!NOTE]
-> To ustawienie ma zastosowanie do całej organizacji i nie może być ograniczone do konkretnych grup.
+> To ustawienie ma zastosowanie do całej organizacji i nie może być ograniczone do określonych grup.
 
 ### <a name="use-analyze-in-excel-with-on-premises-datasets"></a>Używanie funkcji Analizuj w programie Excel z lokalnymi zestawami danych
 Użytkownicy w organizacji mogą używać programu Excel, aby wyświetlać lokalne zestawy danych usługi Power BI i wchodzić z nimi w interakcje. [Dowiedz się więcej](service-analyze-in-excel.md)
@@ -238,7 +239,7 @@ Użytkownicy w organizacji mogą interaktywnie współpracować przy użyciu nie
 Użytkownicy w organizacji mogą wchodzić w interakcje z elementami wizualnymi utworzonymi przy użyciu skryptów języka R oraz je udostępniać. [Dowiedz się więcej](service-r-visuals.md)
 
 > [!NOTE]
-> To ustawienie ma zastosowanie do całej organizacji i nie może być ograniczone do konkretnych grup.
+> To ustawienie ma zastosowanie do całej organizacji i nie może być ograniczone do określonych grup.
 
 ## <a name="audit-settings"></a>Ustawienia inspekcji
 
@@ -249,7 +250,7 @@ Użytkownicy w organizacji mogą używać inspekcji, aby monitorować działania
 To ustawienie musi być włączone, aby można było rejestrować wpisy dziennika inspekcji.
 
 > [!NOTE]
-> To ustawienie ma zastosowanie do całej organizacji i nie może być ograniczone do konkretnych grup.
+> To ustawienie ma zastosowanie do całej organizacji i nie może być ograniczone do określonych grup.
 
 ## <a name="dashboard-settings"></a>Ustawienia pulpitu nawigacyjnego
 
@@ -258,7 +259,7 @@ To ustawienie musi być włączone, aby można było rejestrować wpisy dziennik
 Użytkownicy w organizacji mogą tagować pulpity nawigacyjne przy użyciu klasyfikacji, aby wskazywać poziomy zabezpieczeń pulpitów nawigacyjnych. [Dowiedz się więcej](service-data-classification.md)
 
 > [!NOTE]
-> To ustawienie ma zastosowanie do całej organizacji i nie może być ograniczone do konkretnych grup.
+> To ustawienie ma zastosowanie do całej organizacji i nie może być ograniczone do określonych grup.
 
 ## <a name="developer-settings"></a>Ustawienia dewelopera
 

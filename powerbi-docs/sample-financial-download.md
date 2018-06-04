@@ -11,10 +11,11 @@ ms.date: 05/21/2018
 ms.author: amac
 LocalizationGroup: Samples
 ms.openlocfilehash: 8a586561ea91fc8a66d70099938818372456df98
-ms.sourcegitcommit: e6db826c2f43a69e4c63d5f4920baa8f66bc41be
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/23/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34456070"
 ---
 # <a name="download-the-financial-sample-workbook-for-power-bi"></a>Pobieranie skoroszytu z przykładem danych finansowych dla usługi Power BI
 Potrzebujesz danych do wypróbowania usługi Power BI? Udostępniamy do pobrania prosty skoroszyt programu Excel z przykładowymi danymi finansowymi.  Poniżej przedstawiono sposób pobierania:
