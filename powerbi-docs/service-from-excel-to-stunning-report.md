@@ -11,10 +11,11 @@ ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Data from files
 ms.openlocfilehash: f24d4055bd5fcf5fdee058112c268a1a0e197012
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34247177"
 ---
 # <a name="from-excel-workbook-to-stunning-report-in-no-time"></a>Błyskawiczne doskonałe raporty na podstawie skoroszytów programu Excel
 Twój kierownik chce zobaczyć raport o najnowszych wynikach sprzedaży połączony z wrażeniami z ostatniej kampanii do końca dnia. Ale najnowsze dane znajdują się w różnych systemach innych firm i w plikach na Twoim laptopie. W przeszłości trzeba było poświęcić godziny na tworzenie elementów wizualnych i formatowanie raportu. Zaczynasz się niepokoić.

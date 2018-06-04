@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 02/06/2018
 ms.author: maghan
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 58cf5383f034b47708aa6b75ca5ead3e79b8e270
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: d8c3a33a3ae6166d33ea7a613917616613b84696
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721460"
 ---
 # <a name="custom-visuals-in-power-bi"></a>Wizualizacje niestandardowe w usłudze Power BI
 Podczas tworzenia lub edytowania raportu usługi Power BI dostępnych jest wiele rodzajów wizualizacji. Te wizualizacje wyświetlane są w okienku **Wizualizacje**. Gdy pobierasz program Power BI Desktop lub otwierasz usługę Power BI (app.powerbi.com), ten zestaw wizualizacji jest już dostępny.
@@ -53,10 +54,10 @@ Co to jest usługa AppSource? Krótko mówiąc, jest to miejsce, gdzie można zn
 
 ### <a name="certified-visuals"></a>Certyfikowane wizualizacje
 
-Certyfikowane wizualizacje usługi Power BI to wizualizacje platformy handlowej, które przeszły dodatkowe rygorystyczne testy w zakresie jakości i są obsługiwane w dodatkowych scenariuszach, takich jak [subskrypcje powiadomień e-mail](https://docs.microsoft.com/en-us/power-bi/service-report-subscribe) i [eksportowanie do programu PowerPoint](https://docs.microsoft.com/en-us/power-bi/service-publish-to-powerpoint).
-Aby zapoznać się z listą certyfikowanych wizualizacji niestandardowych lub przesłać własne, zobacz [Certyfikowane wizualizacje niestandardowe](https://docs.microsoft.com/en-us/power-bi/power-bi-custom-visuals-certified).
+Certyfikowane wizualizacje usługi Power BI to wizualizacje platformy handlowej, które przeszły dodatkowe rygorystyczne testy w zakresie jakości i są obsługiwane w dodatkowych scenariuszach, takich jak [subskrypcje powiadomień e-mail](https://docs.microsoft.com/power-bi/service-report-subscribe) i [eksportowanie do programu PowerPoint](https://docs.microsoft.com/power-bi/service-publish-to-powerpoint).
+Aby zapoznać się z listą certyfikowanych wizualizacji niestandardowych lub przesłać własne, zobacz [Certyfikowane wizualizacje niestandardowe](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified).
 
-Jesteś deweloperem internetowym i chcesz tworzyć własne wizualizacje oraz dodać je do usługi AppSource? Zapoznaj się z artykułem [Wprowadzenie do narzędzi deweloperskich](https://docs.microsoft.com/en-us/power-bi/service-custom-visuals-getting-started-with-developer-tools) i dowiedz się, jak [publikować wizualizacje niestandardowe w usłudze AppSource](https://appsource.microsoft.com/en-us/marketplace/apps?product=power-bi-visuals).
+Jesteś deweloperem internetowym i chcesz tworzyć własne wizualizacje oraz dodać je do usługi AppSource? Zapoznaj się z artykułem [Wprowadzenie do narzędzi deweloperskich](https://docs.microsoft.com/power-bi/service-custom-visuals-getting-started-with-developer-tools) i dowiedz się, jak [publikować wizualizacje niestandardowe w usłudze AppSource](https://appsource.microsoft.com/en-us/marketplace/apps?product=power-bi-visuals).
 
 ### <a name="import-a-custom-visuals-from-a-file"></a>Importowanie wizualizacji niestandardowych z pliku
 

@@ -11,10 +11,11 @@ ms.date: 03/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: ebf66b041a65c3b9f1e7c8a3a69ac4121970a5bd
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34294760"
 ---
 # <a name="card-visualizations"></a>Wizualizacje w postaci kart
 Czasami jedna liczba jest najważniejsza i chcesz ją śledzić na swoim pulpicie nawigacyjnym lub w raporcie usługi Power BI, np. łączna sprzedaż, udział w rynku rok do roku lub łączna liczba szans sprzedaży. Ten typ wizualizacji jest nazywany *kartą*. Podobnie jak w przypadku niemal wszystkich natywnych wizualizacji usługi Power BI, karty można tworzyć przy użyciu edytora raportu lub funkcji Pytania i odpowiedzi.

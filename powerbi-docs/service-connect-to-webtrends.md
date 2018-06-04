@@ -11,10 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 89eda507e0b908fe746cb13c0c6477baed07ba3c
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34243029"
 ---
 # <a name="connect-to-webtrends-with-power-bi"></a>Łączenie się z rozwiązaniem Webtrends za pomocą usługi Power BI
 Pakiet zawartości rozwiązania Webtrends dla usługi Power BI zawiera wiele gotowych metryk, takich jak łączna liczba wyświetleń strony i wizyty według źródła ruchu. Wizualizacja danych rozwiązania Webtrends w usłudze Power BI rozpoczyna się od połączenia z kontem rozwiązania Webtrends. Możesz użyć dostarczonego pulpitu nawigacyjnego i raportów lub dostosować je, aby wyróżnić najważniejsze informacje.  Dane będą odświeżane automatycznie raz dziennie.

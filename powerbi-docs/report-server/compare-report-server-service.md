@@ -1,22 +1,21 @@
 ---
 title: Porównanie serwera raportów usługi Power BI i usługi Power BI
 description: W tym artykule znajduje się porównanie funkcji serwera raportów usługi Power BI i usługi Power BI.
-services: powerbi
 keywords: ''
 author: maggiesMSFT
 ms.author: maggies
-ms.component: powerbi-report-server
 ms.date: 05/07/2018
 ms.topic: overview
 ms.service: powerbi
+ms.component: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: d0a3e2870edc8b18cb982c33582c7578aa67f2c3
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: c47722fda28fc45289858f082a0838f583b53dbb
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/07/2018
-ms.locfileid: "33813903"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34296791"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Porównanie serwera raportów usługi Power BI i usługi Power BI
 
@@ -50,7 +49,7 @@ Serwer raportów usługi Power BI i usługa Power BI mają wiele podobieństw i 
 | Tryb pełnoekranowy | Nie | Tak | [Tryb pełnoekranowy](../service-fullscreen-mode.md) w usłudze Power BI 
 | Zaawansowana współpraca z usługą Office 365 | Nie | Tak | [Współpraca w obszarze roboczym aplikacji](../service-collaborate-power-bi-workspace.md) z usługą Office 365 
 | Wizualizacje języka R | Nie | Tak | [Tworzenie wizualizacji języka R](../service-r-visuals.md) w usłudze Power BI  
-| Funkcje w wersji zapoznawczej | Nie | Tak | [Włączanie funkcji usługi Power BI w wersji zapoznawczej](../service-preview-features.md) 
+| Funkcje wersji zapoznawczej | Nie | Tak | [Włączanie funkcji usługi Power BI w wersji zapoznawczej](../service-preview-features.md) 
 | Wizualizacje niestandardowe | Tak | Tak | [Tworzenie wizualizacji niestandardowych w usłudze Power BI](../power-bi-custom-visuals.md) 
 | Power BI Desktop | Wersja zoptymalizowana pod kątem serwera raportów dostępna do pobrania z serwerem raportów | Wersja zoptymalizowana pod kątem usługi Power BI dostępna w Sklepie Windows | [Program Power BI Desktop dla serwera raportów](https://powerbi.microsoft.com/report-server/) <br><br> [Program Power BI Desktop dla usługi Power BI](http://aka.ms/pbidesktopstore)
 

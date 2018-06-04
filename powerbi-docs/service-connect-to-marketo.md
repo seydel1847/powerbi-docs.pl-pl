@@ -11,10 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 3f7ad953f36830db74fb8e611dc9a0641498affd
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34252467"
 ---
 # <a name="connect-to-marketo-with-power-bi"></a>Nawiązywanie połączenia z usługą Marketo przy użyciu usługi Power BI
 Pakiet zawartości usługi Power BI dla usługi Marketo pozwala uzyskać wgląd w przechowywane na koncie Marketo dane dotyczące potencjalnych klientów i ich działań. Po utworzeniu połączenia pobierane są dane, na podstawie których automatycznie tworzony jest pulpit nawigacyjny i powiązane raporty.

@@ -12,13 +12,14 @@ ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: b95ca140322c207c6c352597e42d50d18a48e52e
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34298716"
 ---
 # <a name="display-the-power-bi-dashboards-that-have-been-shared-with-me"></a>Wyświetlanie pulpitów nawigacyjnych usługi Power BI, które zostały mi udostępnione
-## <a name="shared-with-me"></a>Udostępnione dla mnie
+## <a name="shared-with-me"></a>Udostępnione mi
 ![Ikona udostępniania](media/service-shared-with-me/power-bi-share-dash.png)
 
 Gdy współpracownik udostępni Ci pulpit nawigacyjny, jego tytuł jest dodawany do Twojej listy **Udostępnione mi**. Pulpit nawigacyjny jest dostępny wyłącznie z listy **Udostępnione mi** i nie jest dostępny z obszaru roboczego lub z **Aplikacji**.

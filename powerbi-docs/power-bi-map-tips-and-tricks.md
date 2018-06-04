@@ -12,10 +12,11 @@ ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 321ff4ec528ef9b72324758417e0f72d67258ac3
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34295220"
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Porady i wskazówki dotyczące wizualizacji z mapami w usłudze Power BI
 Usługa Power BI integruje się z usługą Mapy Bing w celu zapewnienia domyślnych współrzędnych mapy (w procesie zwanym kodowaniem geograficznym), co pozwala na tworzenie map. Wspólnie używają algorytmów do zidentyfikowania poprawnej lokalizacji, ale czasami jest to tylko najbardziej prawdopodobna odpowiedź. Jeśli usługa Power BI nie może utworzyć wizualizacji z mapą samodzielnie, korzysta z usługi Mapy Bing. 

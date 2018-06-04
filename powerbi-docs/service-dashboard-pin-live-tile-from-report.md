@@ -12,10 +12,11 @@ ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 7703709361a6233b6d04d6fb2131ba41f109ca36
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34249875"
 ---
 # <a name="pin-an-entire-report-page-as-a-live-tile-to-a-power-bi-dashboard"></a>Przypinanie całej strony raportu do pulpitu nawigacyjnego usługi Power BI jako dynamicznego kafelka
 Innym sposobem dodania nowego [kafelka pulpitu nawigacyjnego](service-dashboard-tiles.md) jest przypięcie całej strony raportu. Jest to prosty sposób na jednoczesne przypięcie więcej niż jednej wizualizacji.  Ponadto po przypięciu całej strony kafelki są *dynamiczne*. Możesz wchodzić z nimi w interakcje bezpośrednio na pulpicie nawigacyjnym. Zmiany wprowadzone w dowolnej wizualizacji w edytorze raportów, takie jak dodanie filtru lub zmiana pól używanych na wykresie, również są odzwierciedlane na kafelku pulpitu nawigacyjnego.  

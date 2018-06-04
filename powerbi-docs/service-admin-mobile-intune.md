@@ -11,10 +11,11 @@ ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
 ms.openlocfilehash: 03f1c9948b3c178f39d369fddece36a5fcd05e4f
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34297474"
 ---
 # <a name="configure-mobile-apps-with-microsoft-intune"></a>Konfigurowanie aplikacji mobilnych za pomocą usługi Microsoft Intune
 Usługa Microsoft Intune umożliwia organizacjom zarządzanie urządzeniami i aplikacjami. Aplikacje mobilne usługi Power BI dla systemów iOS i Android obsługują integrację z usługą Intune, aby umożliwić zarządzanie aplikacjami na urządzeniach oraz sterowanie zabezpieczeniami. Za pomocą zasad konfiguracji można zarządzać elementami na przykład przez wymaganie dostępowego kodu PIN, określanie sposobu obsługi danych przez aplikację, a nawet szyfrowanie danych aplikacji, kiedy aplikacja nie jest używana.

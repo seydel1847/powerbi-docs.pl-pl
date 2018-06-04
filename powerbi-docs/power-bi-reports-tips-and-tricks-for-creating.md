@@ -11,10 +11,11 @@ ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
 ms.openlocfilehash: 8305b9eab95e2b13f9104de6bcefe3f03a95d2f5
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34254883"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop-and-power-bi-service"></a>Porady i wskazówki dotyczące tworzenia raportów w programie Power BI Desktop i usłudze Power BI
 Aby maksymalnie wykorzystać dane, czasami przydaje się trochę pomocy. Przygotowaliśmy kilka porad i wskazówek, z których można korzystać podczas tworzenia raportów w programie Microsoft Power BI Desktop, usłudze Power BI *oraz* programie Microsoft Excel 2016 albo w wersjach Excel 2013 Pro-Plus z włączonym dodatkiem Power Pivot oraz z zainstalowanym i włączonym dodatkiem Power Query.

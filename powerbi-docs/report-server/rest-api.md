@@ -7,18 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 11/01/2017
+ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: e77c77acb7808923097eb3e2146bef816eda51ee
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: a1cbcc6d265504bc93ef6447a6be381ca6399063
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721759"
 ---
 # <a name="develop-with-the-rest-apis-for-power-bi-report-server"></a>Tworzenie dla serwera raportów usługi Power BI przy użyciu interfejsów API REST
 Serwer raportów usługi Power BI obsługuje interfejsy API REST (Representational State Transfer). Interfejsy API REST to punkty końcowe usług obsługujące zestaw operacji HTTP (metod), które umożliwiają tworzenie, pobieranie, aktualizowanie i usuwanie zasobów na serwerze raportów.
 
 Interfejs API REST zapewnia programowy dostęp do obiektów w katalogu serwera raportów usługi Power BI. Przykładami takich obiektów są foldery, raporty, wskaźniki KPI, źródła danych, zestawy danych, plany odświeżania lub subskrypcje. Przy użyciu interfejsu API REST można na przykład nawigować po hierarchii folderów, odnajdywać zawartość folderu lub pobierać definicje raportów. Można również tworzyć, aktualizować i usuwać obiekty. Przykładowe zadania obsługi obiektów obejmują przekazanie raportu, wykonanie planu odświeżania, usunięcie folderu itp.
+
+[!INCLUDE [GDPR-related guidance](../includes/gdpr-hybrid-note.md)]
 
 ## <a name="components-of-a-rest-api-requestresponse"></a>Składniki żądania/odpowiedzi interfejsu API REST
 W parze żądanie/odpowiedź interfejsu API REST można wyróżnić pięć składników:

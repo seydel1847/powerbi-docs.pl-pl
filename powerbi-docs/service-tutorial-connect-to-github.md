@@ -12,10 +12,11 @@ ms.date: 05/17/2018
 ms.author: maggies
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 1c2579f4250914933fd0459668fb55e4ba339f90
-ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/19/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34310112"
 ---
 # <a name="tutorial-connect-to-a-github-sample-with-power-bi"></a>Samouczek: łączenie z przykładem z serwisu GitHub za pomocą usługi Power BI
 W tym samouczku nawiążemy połączenie z danymi w usłudze GitHub przy użyciu usługi Power BI, która automatycznie utworzy pulpity nawigacyjne i raporty. Po połączeniu się z publicznym repozytorium zawartości usługi Power BI (ang. *repo* — repozytorium) możemy uzyskać następujące informacje. Ile osób współtworzy publiczną zawartość w usłudze Power BI? Kto jest najbardziej aktywnym współautorem? W jaki dzień tygodnia jest przesyłanych najwięcej materiałów? Na te pytania znajdziemy odpowiedzi. 

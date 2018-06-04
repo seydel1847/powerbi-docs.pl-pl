@@ -11,10 +11,11 @@ ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: d7170ce02294c3eadbfa38f0a25a2ab58777720b
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34289331"
 ---
 # <a name="use-r-powered-custom-visuals-in-power-bi"></a>Używanie w usłudze Power BI wizualizacji niestandardowych utworzonych przy użyciu języka R
 Program **Power BI Desktop** i **usługa Power BI** umożliwiają korzystanie z wizualizacji niestandardowych utworzonych w języku R bez konieczności znajomości języka R ani tworzenia skryptów w języku R. Dzięki temu można wykorzystać analityczne i wizualne możliwości wizualizacji i skryptów w języku R bez konieczności przyswajania wiedzy na temat tego języka czy też programowania w nim.

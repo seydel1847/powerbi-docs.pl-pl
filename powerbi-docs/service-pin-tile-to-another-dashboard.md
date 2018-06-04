@@ -11,10 +11,11 @@ ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: ed882a339e1ee7d53302dc33a7cedb1a95709b8b
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34249119"
 ---
 # <a name="pin-a-tile-from-one-dashboard-to-another-dashboard"></a>Przypinanie kafelka z jednego pulpitu nawigacyjnego do innego
 Jednym sposobem dodania nowego [kafelka pulpitu nawigacyjnego](service-dashboard-tiles.md) jest skopiowanie go z innego pulpitu nawigacyjnego. Każdy z tych kafelków, po kliknięciu, jest linkiem z powrotem do miejsca, gdzie został utworzony — zarówno w funkcji pytań i odpowiedzi, jak i raporcie. 

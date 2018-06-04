@@ -10,10 +10,10 @@ ms.topic: quickstart
 ms.date: 05/08/2018
 ms.author: maggies
 ms.openlocfilehash: 3ad44bfaa4fe9fc2eb81adbaad17f6e5034d8b14
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
 ms.locfileid: "34295772"
 ---
 # <a name="quickstart-explore-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Szybki start: eksplorowanie pulpitów nawigacyjnych i raportów w aplikacjach mobilnych usługi Power BI
@@ -62,7 +62,7 @@ W pierwszym kroku przewodnika Szybki start należy pobrać przykład Retail Anal
 
 4. Wybierz pozycję **Retail Analysis Sample**.
  
-    ![Przykład Analiza handlu detalicznego](media/mobile-apps-quickstart-view-dashboard-report/power-bi-rs.png)
+    ![Przykład Retail Analysis](media/mobile-apps-quickstart-view-dashboard-report/power-bi-rs.png)
  
 8. Wybierz pozycję **Połącz**.  
   

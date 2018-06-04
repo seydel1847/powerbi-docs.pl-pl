@@ -11,10 +11,11 @@ ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: dd62b1d52a4bf2738e6a6f7e25040d05dacb6762
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34241627"
 ---
 # <a name="reduce-the-size-of-an-excel-workbook-to-view-it-in-power-bi"></a>Zmniejszanie rozmiaru skoroszytu programu Excel w celu wyświetlenia go w usłudze Power BI
 Do usługi Power BI można przekazać dowolny skoroszyt programu Excel o rozmiarze mniejszym niż 1 GB. Skoroszyt programu Excel może składać się z dwóch części: modelu danych oraz reszty raportu — podstawowej zawartości skoroszytu. Jeśli raport spełnia następujące ograniczenia dotyczące rozmiaru, można zapisać go w usłudze **OneDrive dla Firm**, połączyć się z nim z usługi Power BI i wyświetlać go w usłudze Excel Online:

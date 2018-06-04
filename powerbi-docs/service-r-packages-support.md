@@ -11,10 +11,11 @@ ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 39c6c11e4815df507431648b1d317f9a62a4b1c3
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34299199"
 ---
 # <a name="r-packages-in-the-power-bi-service"></a>Pakiety języka R w usłudze Power BI
 Przy użyciu zaawansowanego [języka programowania R](https://www.r-project.org/) można tworzyć wizualizacje w usłudze Power BI. Liczba pakietów języka R obsługiwanych w usłudze Power BI jest duża i stale się zwiększa. Niektóre pakiety nie są obsługiwane.
@@ -62,8 +63,8 @@ W poniższej tabeli przedstawiono pakiety **obsługiwane** w usłudze Power BI.
 | BAS |1.1.0 |https://cran.r-project.org/web/packages/BAS/index.html |
 | base64enc |0.1-3 |https://cran.r-project.org/web/packages/base64enc/index.html |
 | bayesm |3.0-2 |https://cran.r-project.org/web/packages/bayesm/index.html |
-| bayesQR |2.2 |https://cran.r-project.org/web/packages/bayesQR/index.html |
-| bayesSurv |2.6 |https://cran.r-project.org/web/packages/bayesSurv/index.html |
+| bayesQR |2,2 |https://cran.r-project.org/web/packages/bayesQR/index.html |
+| bayesSurv |2,6 |https://cran.r-project.org/web/packages/bayesSurv/index.html |
 | BayesTree |0.3-1.3 |https://cran.r-project.org/web/packages/BayesTree/index.html |
 | BayHaz |0.1-3 |https://cran.r-project.org/web/packages/BayHaz/index.html |
 | bbemkr |2 |https://cran.r-project.org/web/packages/bbemkr/index.html |
@@ -109,7 +110,7 @@ W poniższej tabeli przedstawiono pakiety **obsługiwane** w usłudze Power BI.
 | cvTools |0.3.2 |https://cran.r-project.org/web/packages/cvTools/index.html |
 | data.table |1.9.6 |https://cran.r-project.org/web/packages/data.table/index.html |
 | data.tree |0.7.0 |https://cran.r-project.org/web/packages/data.tree/index.html |
-| data |1.2-34 |https://cran.r-project.org/web/packages/date/index.html |
+| date |1.2-34 |https://cran.r-project.org/web/packages/date/index.html |
 | dbscan |0.9-7 |https://cran.r-project.org/web/packages/dbscan/index.html |
 | deal |1.2-37 |https://cran.r-project.org/web/packages/deal/index.html |
 | deepnet |0.2 |https://cran.r-project.org/web/packages/deepnet/index.html |
@@ -170,7 +171,7 @@ W poniższej tabeli przedstawiono pakiety **obsługiwane** w usłudze Power BI.
 | ggmap |2.6.1 |https://cran.r-project.org/web/packages/ggmap/index.html |
 | ggmcmc |0,8 |https://cran.r-project.org/web/packages/ggmcmc/index.html |
 | ggplot2 |2.1.0 |https://cran.r-project.org/web/packages/ggplot2/index.html |
-| ggrepel |0.5 |https://cran.r-project.org/web/packages/ggrepel/index.html |
+| ggrepel |0,5 |https://cran.r-project.org/web/packages/ggrepel/index.html |
 | ggthemes |3.0.2 |https://cran.r-project.org/web/packages/ggthemes/index.html |
 | glmmBUGS |2.3 |https://cran.r-project.org/web/packages/glmmBUGS/index.html |
 | glmnet |2.0-5 |https://cran.r-project.org/web/packages/glmnet/index.html |
@@ -283,7 +284,7 @@ W poniższej tabeli przedstawiono pakiety **obsługiwane** w usłudze Power BI.
 | pacbpred |0.92.2 |https://cran.r-project.org/web/packages/pacbpred/index.html |
 | party |1.0-25 |https://cran.r-project.org/web/packages/party/index.html |
 | partykit |1.0-5 |https://cran.r-project.org/web/packages/partykit/index.html |
-| PAWL |0.5 |https://cran.r-project.org/web/packages/PAWL/index.html |
+| PAWL |0,5 |https://cran.r-project.org/web/packages/PAWL/index.html |
 | pbivnorm |0.6.0 |https://cran.r-project.org/web/packages/pbivnorm/index.html |
 | pcaPP |1.9-60 |https://cran.r-project.org/web/packages/pcaPP/index.html |
 | pdc |1.0.3 |https://cran.r-project.org/web/packages/pdc/index.html |
@@ -305,7 +306,7 @@ W poniższej tabeli przedstawiono pakiety **obsługiwane** w usłudze Power BI.
 | psych |1.5.8 |https://cran.r-project.org/web/packages/psych/index.html |
 | qap |0.1-0 |https://cran.r-project.org/web/packages/qap/index.html |
 | qdapRegex |0.6.0 |https://cran.r-project.org/web/packages/qdapRegex/index.html |
-| qcc |2.6 |https://cran.r-project.org/web/packages/qcc/index.html |
+| qcc |2,6 |https://cran.r-project.org/web/packages/qcc/index.html |
 | quadprog |1.5-5 |https://cran.r-project.org/web/packages/quadprog/index.html |
 | quantreg |5.21 |https://cran.r-project.org/web/packages/quantreg/index.html |
 | qvcalc |0.9-0 |https://cran.r-project.org/web/packages/qvcalc/index.html |

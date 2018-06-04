@@ -11,10 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 5e12e32d947779f4ebc5bc2d238125c7359c08fe
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34242300"
 ---
 # <a name="connect-to-mandrill-with-power-bi"></a>Łączenie się z pakietem zawartości Mandrill przy użyciu usługi Power BI
 Pakiet zawartości usługi Power BI pobiera dane z konta usługi Mandrill oraz generuje pulpit nawigacyjny, zestaw raportów i zestaw danych, aby umożliwić eksplorowanie danych. Analizy usługi Mandrill pozwalają szybko uzyskać szczegółowe informacje dotyczące kampanii marketingowych lub biuletynu. Dane będą odświeżane codziennie, zapewniając aktualność monitorowanych danych.

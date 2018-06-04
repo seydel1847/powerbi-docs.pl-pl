@@ -10,10 +10,11 @@ ms.topic: conceptual
 ms.date: 11/20/2017
 ms.author: maghan
 ms.openlocfilehash: 86dd69cede6975021aff4b0ce3dada112db980ad
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34287790"
 ---
 # <a name="qa-in-power-bi-embedded"></a>Funkcja pytań i odpowiedzi w usłudze Power BI Embedded
 Usługa Power BI Embedded oferuje możliwość zastosowania funkcji pytań i odpowiedzi w aplikacji oraz umożliwia użytkownikom zadawanie pytań przy użyciu języka naturalnego i otrzymywanie natychmiastowych odpowiedzi w formie wizualizacji, np. wykresów lub diagramów.

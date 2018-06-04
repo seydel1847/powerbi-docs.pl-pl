@@ -11,10 +11,11 @@ ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Get started
 ms.openlocfilehash: 606ef1f1c69643852a94a7d83ece93cca8940e7a
-ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/19/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34309928"
 ---
 # <a name="getting-started-with-power-bi-desktop"></a>Wprowadzenie do programu Power BI Desktop
 Witamy **przewodniku Wprowadzenie do programu Power BI Desktop**. Ten krótki przewodnik po programie Power BI Desktop umożliwia zapoznanie się z działaniem programu, demonstruje jego możliwości i przyspiesza tworzenie niezawodnych modeli danych — wraz z zachwycającymi raportami — które uzupełniają działania w zakresie analizy biznesowej. 

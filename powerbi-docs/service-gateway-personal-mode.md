@@ -11,10 +11,11 @@ ms.date: 12/14/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
 ms.openlocfilehash: 093339e820c45fcbd586bd1eb6d8933b6e5743f8
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34298210"
 ---
 # <a name="on-premises-data-gateway-personal-mode"></a>Lokalna brama danych (tryb osobisty)
 Przy użyciu bramy można korzystać z lokalnych źródeł danych oraz tworzyć raporty i pulpity nawigacyjne usługi Power BI. **Brama** to oprogramowanie ułatwiające dostęp do danych przechowywanych w prywatnej sieci lokalnej i umożliwiające użycie tych danych w usługach online, takich jak usługa **Power BI**. **Lokalna brama danych (tryb osobisty)** to udostępniona niedawno aktualizacja bramy usługi Power BI, umożliwiająca użytkownikom indywidualnym zainstalowanie bramy na własnym komputerze w celu uzyskania dostępu do danych lokalnych.
