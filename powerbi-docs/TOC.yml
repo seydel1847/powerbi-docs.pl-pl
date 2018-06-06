@@ -1,6 +1,6 @@
 - name: Korzystanie z usługi Power BI
   items:
-    - name: Omówienie
+    - name: Przegląd
       items:
         - name: Co to jest usługa Power BI?
           href: power-bi-overview.md
@@ -40,7 +40,7 @@
               href: service-cortana-intro.md
             - name: Kafelki pulpitu nawigacyjnego w usłudze Power BI
               href: service-dashboard-tiles.md
-            - name: Udostępnione dla mnie
+            - name: Udostępnione mi
               href: service-shared-with-me.md
             - name: Odświeżanie danych w usłudze Power BI
               href: refresh-data.md
@@ -234,6 +234,8 @@
                   href: service-dashboard-featured.md
                 - name: Ujednolicone centrum powiadomień usługi Power BI
                   href: service-notification-center.md
+                - name: Motywy pulpitu nawigacyjnego
+                  href: service-dashboard-themes.md
             - name: Raporty
               items:
                 - name: Zmienianie sposobu sortowania wykresu w raporcie usługi Power BI
@@ -242,7 +244,7 @@
                   href: power-bi-visualization-export-data.md
                 - name: Jak używać filtrów raportu
                   href: power-bi-how-to-report-filter.md
-            - name: Publikuj
+            - name: Opublikuj
               items:
                 - name: Power BI Publisher dla programu Excel
                   href: publisher-for-excel.md
@@ -460,7 +462,7 @@
           href: whitepapers.md
 - name: Power BI Desktop
   items:
-    - name: Omówienie
+    - name: Przegląd
       items:
         - name: Czym jest program Power BI Desktop?
           href: desktop-what-is-desktop.md
@@ -572,7 +574,9 @@
               href: desktop-import-excel-workbooks.md
             - name: Łączenie się z danymi przy użyciu interfejsów ogólnych
               href: desktop-connect-using-generic-interfaces.md
-            - name: Łączenie się z bazą danych programu Oracle
+            - name: Nawiązywanie połączenia z usługą Adobe Analytics
+              href: desktop-connect-adobe-analytics.md
+            - name: Łączenie się z bazą danych Oracle
               href: desktop-connect-oracle-database.md
             - name: Uruchamianie skryptów R w programie Power BI Desktop
               href: desktop-r-scripts.md
@@ -616,8 +620,6 @@
               href: desktop-directquery-sap-hana.md
             - name: Ustawienie Przyjmij integralność referencyjną w programie Power BI Desktop
               href: desktop-assume-referential-integrity.md
-            - name: Zapytanie bezpośrednie dla baz danych Oracle i Teradata
-              href: desktop-directquery-for-oracle-teradata.md
             - name: Używanie łącznika systemu SAP BW w programie Power BI Desktop (wersja zapoznawcza)
               href: desktop-sap-bw-connector.md
             - name: Używanie linków usługi OneDrive dla Firm w programie Power BI Desktop
@@ -788,9 +790,11 @@
           href: desktop-send-smile-privacy-statement.md
         - name: Ułatwienia dostępu w raportach usługi Power BI
           href: desktop-accessibility.md
+        - name: Zarządzanie formularzem logowania programu Power BI Desktop
+          href: desktop-admin-sign-in-form.md
 - name: Aplikacje mobilne Power BI
   items:
-    - name: Omówienie
+    - name: Przegląd
       items:
         - name: Co to są aplikacje mobilne usługi Power BI?
           href: mobile-apps-for-mobile-devices.md
@@ -886,7 +890,7 @@
           href: mobile-apps-supported-languages.md
 - name: Usługa Power BI dla deweloperów
   items:
-    - name: Omówienie
+    - name: Przegląd
       items:
         - name: Co deweloperzy mogą robić z usługą Power BI?
           href: developer/what-can-you-do.md
@@ -1002,7 +1006,7 @@
           href: 'https://go.microsoft.com/fwlink/?linkid=848281'
 - name: Serwer raportów usługi Power BI
   items:
-    - name: Omówienie
+    - name: Przegląd
       items:
         - name: Co to jest serwer raportów usługi Power BI?
           href: report-server/get-started.md
@@ -1104,7 +1108,7 @@
           href: report-server/capacity-planning.md
 - name: Bramy
   items:
-    - name: Omówienie
+    - name: Przegląd
       items:
         - name: Co to są bramy usługi Power BI?
           href: service-gateway-getting-started.md
@@ -1150,7 +1154,7 @@
           href: service-gateway-onprem-tshoot.md
 - name: Administracja
   items:
-    - name: Omówienie
+    - name: Przegląd
       items:
         - name: Co to jest administracja usługi Power BI?
           href: service-admin-administering-power-bi-in-your-organization.md

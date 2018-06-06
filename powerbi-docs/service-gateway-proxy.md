@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 11/21/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: ab5afb36458d7e1b5271a356bb1532ba77de6408
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: c0ad0c22d0787eaaa45cb36c74c01f6a1d1f85e3
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722663"
 ---
 # <a name="configuring-proxy-settings-for-the-on-premises-data-gateway"></a>Konfigurowanie ustawień serwera proxy dla lokalnej bramy danych
 Środowisko pracy może wymagać, aby dostęp do Internetu odbywał się za pośrednictwem serwera proxy. Może to uniemożliwiać lokalnej bramie danych nawiązanie połączenia z usługą.
@@ -50,6 +51,19 @@ Poniżej przedstawiono domyślną konfigurację serwera proxy.
     </system.net>
 
 Konfiguracja domyślna korzysta z uwierzytelniania systemu Windows. Jeśli Twój serwer proxy korzysta z innej formy uwierzytelniania, musisz zmienić ustawienia. Jeśli masz wątpliwości, skontaktuj się z administratorem sieci.
+
+Oprócz używania poświadczeń domyślnych, można dodać element <proxy>, aby bardziej szczegółowo zdefiniować ustawienia serwera proxy. Na przykład można określić, że lokalna brama danych powinna zawsze używać serwera proxy, nawet w przypadku zasobów lokalnych, przez ustawienie wartości false dla parametru bypassonlocal. Może to pomóc w rozwiązywaniu problemów w sytuacjach, gdy chcesz śledzić wszystkie żądania https pochodzące z lokalnej bramy danych w plikach dziennika serwera proxy. Poniższa przykładowa konfiguracja określa, że wszystkie żądania muszą przejść przez określony serwer proxy o adresie IP 192.168.1.10.
+
+    <system.net>
+        <defaultProxy useDefaultCredentials="true">
+            <proxy  
+                autoDetect="false"  
+                proxyaddress="http://192.168.1.10:3128"  
+                bypassonlocal="false"  
+                usesystemdefault="true"
+            />  
+        </defaultProxy>
+    </system.net>
 
 Aby dowiedzieć się więcej o konfiguracji elementów serwera proxy w plikach konfiguracji .NET, zobacz [defaultProxy Element (Network Settings) (Element defaultProxy — ustawienia sieci)](https://msdn.microsoft.com/library/kd3cf2ex.aspx).
 

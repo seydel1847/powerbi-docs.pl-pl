@@ -1,5 +1,5 @@
 ---
-title: Przechodzenie do szczegółów w wizualizacji w usłudze Power BI
+title: Tryb przechodzenia do szczegółów w wizualizacji w usłudze Power BI
 description: Ten dokument przedstawia sposób przechodzenia do szczegółów w wizualizacji w usłudze Microsoft Power BI i programie Power BI Desktop.
 author: mihart
 manager: kfile
@@ -8,17 +8,19 @@ featuredvideoid: MNAaHw4PxzE
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/26/2018
+ms.date: 05/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d622e6b461668d1972a78f6844bd269fb6596061
-ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
+ms.openlocfilehash: f0ac0ca1bd03f06e2b7679ab4afc1b9193286f5b
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/19/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34584213"
 ---
-# <a name="drill-down-in-a-visualization-in-power-bi"></a>Przechodzenie do szczegółów w wizualizacji w usłudze Power BI
-## <a name="drill-down-requires-a-hierarchy"></a>Przechodzenie do szczegółów wymaga hierarchii
+# <a name="drill-mode-in-a-visualization-in-power-bi"></a>Tryb przechodzenia do szczegółów w wizualizacji w usłudze Power BI
+
+## <a name="drill-requires-a-hierarchy"></a>Przechodzenie do szczegółów wymaga hierarchii
 Jeśli wizualizacja ma hierarchię, przejście do szczegółów pozwala ujawnić dodatkowe szczegóły. Wizualizacja może na przykład dotyczyć liczby medali olimpijskich z uwzględnieniem hierarchii składającej się ze sportu, dyscypliny i rodzaju konkurencji. Domyślnie wizualizacja będzie wyświetlać liczbę medali według rodzaju sportu — gimnastyka, narciarstwo, sporty wodne itp. Ponieważ ma ona jednak hierarchię, po wybraniu jednego z elementów wizualizacji (np. słupka, linii lub bąbelka) zostanie wyświetlony bardziej szczegółowy obraz. Wybierz element **sporty wodne**, aby wyświetlić dane dotyczące pływania, skoków do wody oraz piłki wodnej.  Wybierz element **skoki do wody**, aby wyświetlić szczegóły dla konkurencji skoków z trampoliny, wieży oraz synchronicznych.
 
 Możesz dodawać hierarchie do raportów, których jesteś właścicielem, ale nie do tych, które zostały Ci udostępnione.
@@ -35,64 +37,134 @@ Daty są wyjątkowym typem hierarchii. Po dodaniu pola daty do wizualizacji usł
 > [!NOTE]
 > Aby dowiedzieć się, jak tworzyć hierarchie przy użyciu programu Power BI Desktop, obejrzyj klip wideo [Sposób tworzenia i dodawania hierarchii](https://youtu.be/q8WDUAiTGeU)
 > 
-> 
 
-## <a name="two-methods-to-drill-down"></a>Dwie metody przechodzenia do szczegółów
-Istnieją dwie metody przechodzenia do szczegółów (lub w drugą stronę) w wizualizacji.  Oba zostały opisane w tym artykule. Obie metody dają taki sam rezultat, można więc wybrać wygodniejszą.
+## <a name="prerequisites"></a>Wymagania wstępne
+
+1. W usłudze Power BI lub programie Desktop przechodzenie do szczegółów wymaga wizualizacji z hierarchią. 
+   
+2. Aby to sprawdzić, [otwórz przykładową analizę Retail Analysis](sample-datasets.md) i utwórz mapę drzewa wyświetlającą pozycję **Total Units This Year**  (Wartości) według pozycji **Territory** (terytorium), **City** (miasto), **PostalCode** (kod pocztowy) i **Name** (nazwa) (Grupa).  Mapa drzewa zawiera hierarchię, w skład której wchodzi terytorium, miasto, kod pocztowy i nazwa miejscowości. Każde terytorium posiada co najmniej jedno miasto, każde miasto co najmniej jeden kod pocztowy itd. Domyślnie wizualizacja wyświetla tylko dane terytorium, ponieważ pozycja *Territory* wyświetlana jest na początku listy.
+   
+   ![](media/power-bi-visualization-drill-down/power-bi-hierarcy-list.png)
+
+2. Sposób współdziałania różnych ikon przechodzenia do szczegółów może być niezrozumiały, dlatego mapa drzewa zostanie przefiltrowana w celu wyświetlania tylko 2 mniejszych terytoriów: **KY** i **TN**. Wybierz mapę drzewa i w obszarze **Filtry na poziomie wizualizacji** rozwiń pozycję **Territory**, a następnie wybierz pozycje **KY** i **TN**.
+
+    ![filtrowanie wartości KY i TN](media/power-bi-visualization-drill-down/power-bi-filter.png)    
+
+   Teraz na mapie drzewa są wyświetlane tylko dwa terytoria.
+
+   ![podwójna ikona przechodzenia do szczegółów](media/power-bi-visualization-drill-down/power-bi-territories.png)
+
+## <a name="three-ways-to-access-the-drill-features"></a>Trzy sposoby uzyskiwania dostępu do funkcji przechodzenia do szczegółów
+Istnieje kilka sposobów uzyskiwania dostępu do funkcji przechodzenia do szczegółów, uogólniania i rozwijania w przypadku wizualizacji z hierarchią. W tym artykule przedstawiono poniżej sposób użycia pierwszej funkcji. Wszystkie trzy metody umożliwiają osiągnięcie tego samego celu, dlatego po zapoznaniu się z podstawowymi informacjami na temat przechodzenia do szczegółów i rozwijania wypróbuj te metody i wybierz tę, która najbardziej Ci odpowiada.
+
+- Umieść kursor na wizualizacji, aby wyświetlić ikony i ich użyć.  
+
+    ![ścieżka przechodzenia do szczegółów](media/power-bi-visualization-drill-down/power-bi-hover.png)
+
+- Kliknij prawym przyciskiem myszy wizualizację, aby wyświetlić menu i go użyć.
+    
+    ![menu kontekstowe](media/power-bi-visualization-drill-down/power-bi-drill-menu.png)
+
+- Na pasku menu usługi Power BI wybierz przycisk **Eksploruj**.
+
+   ![](media/power-bi-visualization-drill-down/power-bi-explore.png)
+
+## <a name="drill-pathways"></a>Ścieżki przechodzenia do szczegółów
+### <a name="drill-down"></a>Przechodzenie do szczegółów
+Istnieje kilka sposobów przechodzenia do szczegółów wizualizacji. Funkcja ***przechodzenia do szczegółów*** umożliwia przejście do następnego poziomu w hierarchii, więc w przypadku poziomu **Territory** można przejść do szczegółów do poziomu miejscowości, a następnie do poziomu kodu pocztowego i do poziomu nazwy. Każdy krok w ścieżce zawiera nowe informacje.
+
+![ścieżka przechodzenia do szczegółów](media/power-bi-visualization-drill-down/power-bi-drill-path.png)
+
+### <a name="expand"></a>Rozwiń
+
+Funkcja ***rozwijania*** umożliwia dodanie poziomu hierarchii do bieżącego widoku. Dlatego w przypadku poziomu **Territory** można go rozwinąć i dodać miejscowość, kod pocztowy oraz nazwę do mapy drzewa. Każdy krok w ścieżce zawiera te same informacje i dodaje jeden poziom nowych informacji.
+
+![ścieżka rozwijania](media/power-bi-visualization-drill-down/power-bi-expand-path.png)
+
+Możesz też określić, czy przechodzenie do szczegółów lub rozwijanie ma odbywać się dla jednego pola czy wszystkich pól jednocześnie. 
+
+## <a name="drill-down-all-fields-at-a-time"></a>Przechodzenie do szczegółów wszystkich pól jednocześnie
+
+1. Rozpocznij od najwyższego poziomu mapy drzewa z danymi dla stanów KY i TN. Poszerz mapę drzewa przez wybranie jednego z uchwytów i przeciągnięcie w prawo. 
+
+    ![mapa drzewa z 2 stanami](media/power-bi-visualization-drill-down/power-bi-drill-down.png) .
+
+2. Aby przejść do szczegółów ***wszystkich pól jednocześnie***, wybierz podwójną strzałkę w lewym górnym rogu wizualizacji ![podwójna ikona przechodzenia do szczegółów](media/power-bi-visualization-drill-down/power-bi-drill-icon3.png). Teraz na mapie drzewa są wyświetlane dane dla miast w stanach Kentucky i Tennessee. 
+
+    ![podwójna ikona przechodzenia do szczegółów](media/power-bi-visualization-drill-down/power-bi-drill-down1.png)
+   
+5. Przejdź do poziomu kodu pocztowego w hierarchii.
+
+    ![podwójna ikona przechodzenia do szczegółów](media/power-bi-visualization-drill-down/power-bi-drill-down2.png)
+
+3. Aby zwinąć szczegóły, wybierz strzałkę w górę w lewym górnym rogu wizualizacji ![](media/power-bi-visualization-drill-down/power-bi-drill-icon5.png).
+
+
+## <a name="drill-down-one-field-at-a-time"></a>Przechodzenie do szczegółów jednego pola w tym samym czasie
+Ta metoda używa ikony przechodzenia do szczegółów wyświetlanej w prawym górnym rogu wizualizacji. 
+
+1. Wybierz ikonę przechodzenia do szczegółów, aby ją włączyć ![włączone przechodzenie do szczegółów](media/power-bi-visualization-drill-down/power-bi-drill-icon2.png). Teraz jest dostępna opcja przechodzenia do szczegółów ***jedno pole w tym samym czasie***. 
+   
+   ![](media/power-bi-visualization-drill-down/power-bi-drill-icon-new.png)
+
+   Jeśli przechodzenie do szczegółów nie zostanie włączone, wybranie elementu wizualizacji (np. słupka, bąbelka lub liścia) nie spowoduje przejścia do szczegółów, tylko przefiltrowanie krzyżowe innych wykresów na stronie raportu.
+
+2. Wybierz *liść* dla stanu **TN**. Mapa drzewa zawiera teraz wszystkie miejscowości w stanie Tennessee, w których jest sklep. 
+
+    ![](media/power-bi-visualization-drill-down/power-bi-drill-down-one1.png)
+
+2. Teraz możesz kontynuować przechodzenie do szczegółów dla stanu Tennesee, przejść do szczegółów określonej miejscowości w stanie Tennesee lub rozwinąć pole (zobacz **Rozwijanie wszystkich pól jednocześnie** poniżej). Przejdźmy do szczegółów jednego pola w tym samym czasie.  Wybierz pozycję **Knoxville, TN**. Na mapie drzewa jest teraz wyświetlany kod pocztowy sklepu w Knoxville. 
+
+   ![](media/power-bi-visualization-drill-down/power-bi-drill-down-one2.png)
+
+    Zwróć uwagę, że tytuł zmienia się podczas przechodzenia do szczegółów i z powrotem.  
+
+## <a name="expand-all-and-expand-one-field-at-a-time"></a>Rozwijanie wszystkich pól i jednego pola w tym samym czasie
+Mapa drzewa zawierająca tylko kod pocztowy nie ma dużej wartości informacyjnej.  Dlatego rozwiniemy pola o jeden poziom w dół w hierarchii.  
+
+1. Gdy mapa drzewa jest aktywna, wybierz ikonę *rozwiń w dół* ![ikona rozwijania w dół](media/power-bi-visualization-drill-down/power-bi-drill-icon6.png). Mapa drzewa zawiera teraz 2 poziomy hierarchii: kod pocztowy i nazwę sklepu. 
+
+    ![wyświetlanie kodu pocztowego nazwy sklepu](media/power-bi-visualization-drill-down/power-bi-expand1.png)
+
+2. Aby wyświetlić wszystkie 4 poziomy hierarchii danych dla stanu Tennesee, wybierz strzałkę uogólniania do czasu osiągnięcia drugiego poziomu **Total units this year by territory and city** (Całkowita liczba jednostek w tym roku według terytorium i miasta) na mapie drzewa. 
+
+    ![](media/power-bi-visualization-drill-down/power-bi-drill-down-one1.png)
+
+
+3. Upewnij się, że przechodzenie do szczegółów jest nadal włączone ![włączone przechodzenie do szczegółów](media/power-bi-visualization-drill-down/power-bi-drill-icon2.png), i wybierz ikonę *rozwijania w dół* ![ikona rozwijania w dół](media/power-bi-visualization-drill-down/power-bi-drill-icon6.png). Mapa drzewa zawiera teraz dodatkowe szczegóły — zamiast tylko miejscowości i stanu jest też wyświetlany kod pocztowy. 
+
+    ![podwójna ikona przechodzenia do szczegółów](media/power-bi-visualization-drill-down/power-bi-expand-one3.png)
+
+4. Wybierz jeszcze raz ikonę *rozwijania w dół*, aby wyświetlić wszystkie 4 poziomy hierarchii szczegółów dla stanu Tennesee na mapie drzewa. Umieść kursor na liściu, aby wyświetlić jeszcze więcej szczegółów.
+
+   ![mapa drzewa z danymi dla stanu Tennesee](media/power-bi-visualization-drill-down/power-bi-expand-all.png)
+
+## <a name="drilling-filters-other-visuals"></a>Przechodzenie do szczegółów filtruje inne wizualizacje
+Podczas pracy w trybie przechodzenia do szczegółów można określić wpływ przechodzenia do szczegółów i rozszerzania na inne wizualizacje na stronie. 
+
+Domyślnie przechodzenie do szczegółów nie filtruje innych wizualizacji w raporcie. Jednak tę funkcję można włączyć w programie Power BI Desktop i usłudze Power BI. 
+
+1. W programie Desktop wybierz kartę **Format** i zaznacz pole wyboru **Przechodzenie do szczegółów filtruje inne wizualizacje**.
+
+    ![ustawienie w programie Power BI Desktop](media/power-bi-visualization-drill-down/power-bi-drill-filters-desktop.png)
+
+2. Teraz przejście do szczegółów (albo uogólnienie lub rozwinięcie) w wizualizacji z hierarchią powoduje filtrowanie innych wizualizacji na stronie. 
+
+    ![ustawienie w programie Desktop](media/power-bi-visualization-drill-down/power-bi-drill-filters.png)
+
+    ![ustawienie w programie Desktop](media/power-bi-visualization-drill-down/power-bi-drill-filters2.png)
 
 > [!NOTE]
-> Aby to sprawdzić, [otwórz przykładową analizę Retail Analysis](sample-datasets.md) w usłudze Power BI i utwórz mapę drzewa wyświetlającą pozycję **Total Units This Year**  (Wartości) według pozycji **Territory** (terytorium), **City** (miasto), **PostalCode** (kod pocztowy) i **Name** (nazwa) (Grupa).  
-> 
-> 
+> Aby włączyć to ustawienie w usłudze Power BI, na górnym pasku menu wybierz pozycję **Interakcje wizualne > Przechodzenie do szczegółów filtruje inne wizualizacje**.
+>
+> ![ustawienie w usłudze Power BI](media/power-bi-visualization-drill-down/power-bi-drill-filters-service.png)
 
-## <a name="method-one-for-drill-down"></a>Pierwsza metoda przechodzenia do szczegółów
-Ta metoda wykorzystuje ikony przechodzenia do szczegółów wyświetlane w rogach na górze wizualizacji.
 
-1. W usłudze Power BI otwórz raport w [widoku do czytania lub widoku do edycji](service-reading-view-and-editing-view.md). Przechodzenie do szczegółów wymaga wizualizacji z hierarchią. 
-   
-   Hierarchia została pokazana w animacji poniżej.  Wizualizacja zawiera hierarchię, w skład której wchodzi terytorium, miasto, kod pocztowy i nazwa miejscowości. Każde terytorium posiada co najmniej jedno miasto, każde miasto co najmniej jeden kod pocztowy itd. Domyślnie wizualizacja wyświetla tylko dane terytorium, ponieważ pozycja *Territory* wyświetlana jest na początku listy.
-   
-   ![](media/power-bi-visualization-drill-down/power-bi-hierarcy-list.png)
-2. Aby włączyć przechodzenie do szczegółów, wybierz ikonę strzałki w prawym górnym rogu wizualizacji. Ciemna ikona oznacza, że przechodzenie do szczegółów jest włączone. Jeśli przechodzenie do szczegółów nie zostanie włączone, wybranie elementu wizualizacji (np. słupka lub bąbelka) spowoduje przefiltrowanie krzyżowe innych wykresów na stronie raportu.    
-   
-   ![](media/power-bi-visualization-drill-down/power-bi-drill-icon.png)
-3. Aby przejść do szczegółów **jednego pola w danym momencie**, wybierz jeden z elementów w wizualizacji. Na wykresie słupkowym oznacza to kliknięcie jednego słupka. Na wykresie mapy drzewa oznacza to kliknięcie jednego **liścia**. Zwróć uwagę, że tytuł zmienia się podczas przechodzenia do szczegółów i z powrotem. Na tej animacji zmienia się on z „Total Units This Year by Territory” (Całkowita liczba jednostek w tym roku według terytorium) na „Total Units This Year by Territory and City” (Całkowita liczba jednostek w tym roku według terytorium i miasta), a następnie na „Total Units This Year by Territory, City and PostalCode” (Całkowita liczba jednostek w tym roku według terytorium, miasta i kodu pocztowego) i na „Total Units This Year by Territory, City, PostalCode, and Name" (Całkowita liczba jednostek w tym roku według terytorium, miasta, kodu pocztowego i nazwy). Aby zwinąć szczegóły, wybierz ikonę **Zwiń szczegóły** ![](media/power-bi-visualization-drill-down/power-bi-drill-icon5.png) w lewym górnym rogu wizualizacji, jak pokazano poniżej.
-   
-   ![](media/power-bi-visualization-drill-down/drill.gif)
-4. Aby przejść do szczegółów ***wszystkich pól jednocześnie***, wybierz podwójną strzałkę w lewym górnym rogu wizualizacji.
-   
-   ![](media/power-bi-visualization-drill-down/pbi_drillall.png)
-5. Aby zwinąć szczegóły, wybierz strzałkę w górę w lewym górnym rogu wizualizacji.
-   
-   ![](media/power-bi-visualization-drill-down/pbi_drillup2.png)
-
-## <a name="method-two-for-drill-down"></a>Druga metoda przechodzenia do szczegółów
-Ta metoda wykorzystuje listę rozwijaną **Eksploruj** w górnym menu usługi Power BI.
-
-1. W usłudze Power BI otwórz raport w [widoku do czytania lub widoku do edycji](service-reading-view-and-editing-view.md). Przechodzenie do szczegółów wymaga wizualizacji z hierarchią. 
-   
-   Hierarchia została pokazana na obrazku poniżej.  Wizualizacja zawiera hierarchię, w skład której wchodzi terytorium, miasto, kod pocztowy i nazwa miejscowości. Każde terytorium posiada co najmniej jedno miasto, każde miasto co najmniej jeden kod pocztowy itd. Domyślnie wizualizacja wyświetla tylko dane terytorium, ponieważ pozycja *Territory* wyświetlana jest na początku listy.
-   
-   ![](media/power-bi-visualization-drill-down/power-bi-hierarcy-list.png)
-2. Aby włączyć przechodzenie do szczegółów, uaktywnij wizualizację, wybierając ją, a następnie z górnego menu usługi Power BI wybierz pozycję **Eksploruj** > **Przejdź do szczegółów**. Tło ikony przechodzenia do szczegółów w prawym górnym rogu wizualizacji zmieni się na czarne. ![](media/power-bi-visualization-drill-down/power-bi-drill-icon2.png)  
-   
-   ![](media/power-bi-visualization-drill-down/power-bi-explore2.png)
-3. Po włączeniu możesz przechodzić do szczegółów pojedynczego pola, wybierając jeden z liści mapy drzewa. W tym przykładzie po wybraniu terytorium o nazwie **NC** wyświetlona zostaje całkowita liczba sprzedanych jednostek w tym roku w Karolinie Północnej według miast.
-   
-   ![](media/power-bi-visualization-drill-down/power-bi-drilldown-1.png)
-4. Aby przejść do szczegółów wszystkich pól jednocześnie, wybierz pozycję **Eksploruj** > **Pokaż następny poziom**.
-   
-   ![](media/power-bi-visualization-drill-down/power-bi-show-next-level.png)
-5. Aby zwinąć szczegóły, wybierz pozycję **Eksploruj** > **Zwiń szczegóły**.
-   
-   ![](media/power-bi-visualization-drill-down/power-bi-drill-up2.png)
-
-6. Aby wyświetlić dane używane do tworzenia wizualizacji, wybierz pozycję **Pokaż dane**. Dane są wyświetlane w okienku poniżej elementu wizualnego. Okienko będzie wciąż wyświetlane w trakcie dalszego przechodzenia do szczegółów wizualizacji i ich zwijania. Aby uzyskać więcej informacji, zobacz [Wyświetlanie danych użytych do tworzenia wizualizacji](service-reports-show-data.md).
 
 ## <a name="understanding-the-hierarchy-axis-and-hierarchy-group"></a>Opis osi hierarchii i grupy hierarchii
 Oś hierarchii i grupa hierarchii to mechanizmy, których można użyć do zwiększenia lub zmniejszenia poziomu szczegółowości danych, które chcesz wyświetlić. Wszelkie dane, które można podzielić na kategorie i podkategorie, kwalifikują się jako dane zawierające hierarchię. W tym oczywiście dane dotyczące daty i godziny.
 
-Możesz utworzyć wizualizację w usłudze Power BI, aby użyć hierarchii, wybierając jedno lub więcej pól danych do dodania do listy **Oś** lub listy **Grupa** wraz z danymi, które chcesz zbadać jako pola danych na liście **Wartości**. Użytkownik wie, czy jego dane są hierarchiczne, jeśli ikony trybu szczegółów pojawiają się w lewym lub prawym górnym rogu wizualizacji. 
+Możesz utworzyć wizualizację w usłudze Power BI, aby użyć hierarchii, wybierając jedno lub więcej pól danych do dodania do listy **Oś** lub listy **Grupa** wraz z danymi, które chcesz zbadać jako pola danych na liście **Wartości**. Użytkownik wie, czy jego dane są hierarchiczne, jeśli ikony *trybu szczegółów* pojawiają się w lewym lub prawym górnym rogu wizualizacji. 
 
 Zasadniczo dobrze jest myśleć o dwóch typach danych hierarchicznych:
 - Dane daty i godziny — jeśli masz pole danych z typem danych DateTime, masz już dane hierarchiczne. Usługa Power BI automatycznie tworzy hierarchię dla dowolnego pola danych, którego wartości można przeanalizować w ramach struktury [DateTime](https://msdn.microsoft.com/library/system.datetime.aspx). Należy dodać tylko jedno pole DateTime do listy **Oś** lub **Grupa**.

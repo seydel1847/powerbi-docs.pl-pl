@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/07/2018
+ms.date: 05/18/2018
 ms.author: maghan
-ms.openlocfilehash: 228402dd2137f0cf2f3d480ff1acee10d2f28c51
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 1dbca883bc4df2bde743963db7994361616be192
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34296393"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721920"
 ---
 # <a name="admin-overview-power-bi-report-server"></a>Omówienie administracji, serwer raportów usługi Power BI
 W tym artykule przedstawiono omówienie administracji serwera raportów usługi Power BI, który jest lokalizacją lokalną służącą do przechowywania raportów podzielonych na strony, raportów dla urządzeń przenośnych i raportów usługi Power BI, jak również zarządzania nimi. W tym artykule przedstawiono koncepcje planowania i wdrażania serwera raportów usługi Power BI oraz zarządzania nim, a także linki do dodatkowych informacji.
@@ -24,9 +24,9 @@ W tym artykule przedstawiono omówienie administracji serwera raportów usługi 
 
 
 ## <a name="installing-and-migration"></a>Instalowanie i migracja
-Musisz zainstalować serwer raportów usługi Power BI, aby rozpocząć korzystanie z niego. Mamy informacje, które umożliwiają realizację tego zadania.
+Musisz zainstalować serwer raportów usługi Power BI, aby rozpocząć korzystanie z niego. Są dostępne artykuły opisujące, jak wykonać to zadanie.
 
-Przed rozpoczęciem instalacji przeprowadź uaktualnienie i migrację do serwera raportów usługi Power BI. Przyjrzyjmy się [wymaganiom systemowym](system-requirements.md) dla serwera raportów.
+Przed rozpoczęciem instalacji, uaktualniania lub migracji do serwera raportów usługi Power BI zapoznaj się z [wymaganiami systemowymi](system-requirements.md) serwera raportów.
 
 ### <a name="installing"></a>Instalowanie
 Jeżeli wdrażasz nowy serwer raportów usługi Power BI, użyj poniższego dokumentu jako pomocy. 
@@ -34,7 +34,7 @@ Jeżeli wdrażasz nowy serwer raportów usługi Power BI, użyj poniższego doku
 [Instalacja serwera raportów usługi Power BI](install-report-server.md)
 
 ### <a name="migration"></a>Migracja
-Nie ma dostępnego od razu uaktualnienia dla usług SQL Server Reporting Services. Jeśli masz istniejące wystąpienie usług SQL Server Reporting Services, które ma zostać serwerem raportów usługi Power BI, musisz przeprowadzić migrację. Istnieją inne przyczyny, które również powodują, że zechcesz przeprowadzić migrację. Zapoznaj się z dokumentem migracji, aby uzyskać więcej informacji.
+Nie ma dostępnego uaktualnienia w miejscu dla usług SQL Server Reporting Services. Jeśli masz istniejące wystąpienie usług SQL Server Reporting Services, które ma zostać serwerem raportów usługi Power BI, musisz przeprowadzić migrację. Przeprowadzenie migracji może być pożądane także z innych powodów. Zapoznaj się z dokumentem migracji, aby uzyskać więcej informacji.
 
 [Migrowanie instalacji serwera raportów](migrate-report-server.md)
 

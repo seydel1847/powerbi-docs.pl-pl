@@ -6,13 +6,14 @@ manager: kfile
 ms.reviewer: ''
 ms.Embedded: powerbi
 ms.topic: conceptual
-ms.date: 03/06/2018
+ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: bfee68658816d46e23a3b66f9b04b2069704a2b8
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 67b52fa94ee3af9da3bfcae17f69a72e1aa46c77
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34689788"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Jak migrować zawartość kolekcji obszarów roboczych usługi Power BI do usługi Power BI Embedded
 Dowiedz się, jak przeprowadzić migrację z kolekcji obszarów roboczych usługi Power BI do usługi Power BI Embedded i uzyskać korzyści związane z osadzaniem zawartości w aplikacjach.
@@ -26,9 +27,14 @@ Bieżąca kolekcja obszarów roboczych usługi Power BI będzie nadal dostępna 
 > [!IMPORTANT]
 > Mimo że podczas migracji używana jest zależność od usługi Power BI Embedded, zależność taka nie będzie dotyczyła użytkowników aplikacji osadzonej przy użyciu **tokenu osadzania**. Nie będą oni musieli tworzyć konta w usłudze Power BI w celu wyświetlenia zawartości osadzonej w aplikacji. Tej metody osadzania można użyć w celu obsługi użytkowników osadzonych niekorzystających z usługi Power BI.
 > 
-> 
 
 ![](media/migrate-from-powerbi-embedded/powerbi-embed-flow.png)
+
+Przed rozpoczęciem migracji do nowej usługi Power BI Embedded, możesz skorzystać z krótkiego przewodnika, który pomoże Ci skonfigurować nowe środowisko usługi Power BI Embedded za pomocą [narzędzia obsługi dołączania](https://aka.ms/embedsetup).
+
+Wybierz rozwiązanie, które jest odpowiednie dla Ciebie:
+* **Osadź dla swoich klientów** — jeśli interesuje Cię rozwiązanie, w którym [aplikacja jest właścicielem danych](https://aka.ms/embedsetup/AppOwnsData). [Osadzanie dla swoich klientów](embedding.md#embedding-for-your-customers) zapewnia możliwość osadzenia pulpitów nawigacyjnych i raportów u użytkowników, którzy nie mają konta w usłudze Power BI. 
+* **Osadź dla swojej organizacji** — jeśli interesuje Cię rozwiązanie, w którym [użytkownik jest właścicielem danych](https://aka.ms/embedsetup/UserOwnsData). [Osadzanie dla swojej organizacji](embedding.md#embedding-for-your-organization) umożliwia rozszerzanie usługi Power BI.
 
 ## <a name="prepare-for-the-migration"></a>Przygotowanie do migracji
 W ramach przygotowania do migracji z kolekcji obszarów roboczych usługi Power BI do usługi Power BI Embedded należy wykonać kilka czynności. Potrzebna jest dostępna dzierżawa oraz licencja użytkownika usługi Power BI Pro.
@@ -63,10 +69,6 @@ W dzierżawie muszą istnieć następujące konta.
    
 > [!NOTE]
 > Jest to zwykłe konto użytkownika w organizacji, które będzie używane na potrzeby osadzania.
->
-
-> [!NOTE]
-> Jeśli aplikacja wymaga tokenu uwierzytelniania App-Only, kliknij [tutaj](mailto:pbieci@microsoft.com?Subject=App-only%20token%20requirement), aby skontaktować się z nami.
 >
 
 ## <a name="app-registration-and-permissions"></a>Rejestrowanie aplikacji i uprawnienia

@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/15/2018
+ms.date: 05/25/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: b0a18d5befe49a3ffaa400b0e081d88720cdd28c
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 6d0a1afe27372c808e63adb34fda96e978b2e2be
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721391"
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>Zapoznaj się z przewodnikiem dotyczącym okienka filtrów raportu
 Ten artykuł szczegółowo opisuje okienko Filtry raportu. Okienko zostanie wyświetlone w [widoku do edycji i widoku do czytania usługi Power BI](service-reading-view-and-editing-view.md) oraz [widoku raportu w programie Power BI Desktop](desktop-report-view.md).
@@ -22,7 +23,7 @@ Ten artykuł szczegółowo opisuje okienko Filtry raportu. Okienko zostanie wyś
 Istnieje wiele sposobów, aby filtrować dane w usłudze Power BI i zalecamy zapoznać się najpierw z artykułem [Informacje o filtrach i wyróżnianiu](power-bi-reports-filters-and-highlighting.md).
 
 ## <a name="working-with-the-report-filters-pane"></a>Praca z okienkiem Filtry raportu
-W programie Power BI Desktop raporty są otwierane w widoku raportu. W usłudze Power BI raporty można otwierać w [widoku do edycji lub widoku do czytania](service-reading-view-and-editing-view.md). W widoku do edycji i w widoku raportu w programie Desktop właściciele raportów mogą [dodawać filtry do raportu](power-bi-report-add-filter.md). Te filtry są zapisywane razem z raportem. Osoby wyświetlające raport w widoku do czytania mogą wchodzić w interakcje z filtrami, nie mogą jednak dodawać nowych filtrów do raportu.
+W programie Power BI Desktop raporty są otwierane w widoku raportu. W usłudze Power BI raporty można otwierać w [widoku do edycji lub widoku do czytania](service-reading-view-and-editing-view.md). W widoku do edycji i w widoku raportu w programie Desktop właściciele raportów mogą [dodawać filtry do raportu](power-bi-report-add-filter.md). Te filtry są zapisywane razem z raportem. Osoby wyświetlające raport w widoku do czytania mogą wchodzić w interakcje z filtrami i zapisywać swoje zmiany, nie mogą jednak dodawać nowych filtrów do raportu.
 
 W usłudze Power BI raporty zachowują wszelkie zmiany wprowadzone w okienku Filtry. Te zmiany są przekazywane do mobilnej wersji raportu. Aby zresetować okienko Filtry do wartości domyślnych dla twórców, wybierz pozycję **Przywróć domyślne** z górnego paska menu.     
 

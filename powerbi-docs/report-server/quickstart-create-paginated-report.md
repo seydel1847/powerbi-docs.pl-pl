@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 10/12/2017
+ms.date: 05/18/2018
 ms.author: maggies
-ms.openlocfilehash: 75810bfad9efd5a0ea42a07d44a61d4f92f7f232
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: e996b1399ff4dde96d122e747cf1f07db3a44876
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34294921"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721828"
 ---
 # <a name="create-a-paginated-report-for-power-bi-report-server"></a>Tworzenie raportu podzielonego na strony dla serwera raportów usługi Power BI
 Jak wskazuje nazwa, raporty z podziałem na strony można uruchamiać na wielu stronach. Mają one układ zgodny z ustalonym formatem i umożliwiają dokładne dostosowanie. Raporty z podziałem na strony są plikami RDL.
@@ -94,7 +94,7 @@ Kiedy raport jest gotowy, zapisz go na serwerze raportów usługi Power BI.
 Istnieje wiele wspaniałych zasobów na potrzeby projektowania raportów w programie Report Builder i w Projektancie raportów w narzędziach SQL Server Data Tools. Samouczki programu Report Builder są dobrym miejscem do rozpoczęcia pracy z nimi.
 
 * [Samouczki programu Report Builder](https://docs.microsoft.com/sql/reporting-services/report-builder-tutorials)
-* [Serwer raportów usługi Power BI — podręcznik użytkownika](user-handbook-overview.md)  
+* [Co to jest serwer raportów usługi Power BI?](get-started.md)  
 
 Masz więcej pytań? [Zadaj pytanie społeczności usługi Power BI](https://community.powerbi.com/)
 

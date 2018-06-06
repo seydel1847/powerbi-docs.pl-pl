@@ -8,14 +8,15 @@ featuredvideoid: l8JoB7w0zJA
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/02/2018
+ms.date: 05/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: d6bb6bbed1d5423acbcf53ac50717debdfea4eaa
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 6cdcff66d48ede031a635e44e3a40af4e321c0c5
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34584075"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-excel"></a>Przypinanie kafelka do pulpitu nawigacyjnego usługi Power BI z programu Excel
 Zanim będzie możliwe przypięcie kafelka ze skoroszytu programu Excel połącz ten skoroszyt z usługą Power BI (app.powerbi.com). Zasadniczo łączenie skoroszytu powoduje przeniesienie połączonej wersji tylko do odczytu tego skoroszytu do usługi Power BI i pozwala przypiąć zakresy do pulpitów nawigacyjnych. Możesz nawet przypiąć cały arkusz do pulpitu nawigacyjnego.  
@@ -65,7 +66,7 @@ Jednym sposobem dodania nowego [kafelka pulpitu nawigacyjnego](service-dashboard
     ![okno dialogowe Przypięto do pulpitu nawigacyjnego](media/service-dashboard-pin-tile-from-excel/power-bi-go-to-dashboard.png)
 5. Wybierz pozycję **Przejdź do pulpitu nawigacyjnego**. W tym miejscu możesz [zmienić nazwę, rozmiar, link i przenieść](service-dashboard-edit-tile.md) przypiętą wizualizację. Domyślnie wybranie przypiętego kafelka otwiera skoroszyt w usłudze Power BI.
 
-## <a name="pin-an-entire-table-or-pivot-chart-to-a-dashboard"></a>Przypinanie całej tabeli lub wykresu przestawnego do pulpitu nawigacyjnego
+## <a name="pin-an-entire-table-or-pivottable-to-a-dashboard"></a>Przypinanie całej tabeli lub tabeli przestawnej do pulpitu nawigacyjnego
 Wykonaj kroki opisane powyżej, z wyjątkiem tego, że zamiast zaznaczania zakresu komórek zaznacz całą tabelę lub tabelę przestawną.
 
 Aby przypiąć tabelę, zaznacz cały zakres tabeli, pamiętając o uwzględnieniu nagłówków.  Aby przypiąć tabelę przestawną, upewnij się, że została uwzględniona każda widoczna część tabeli przestawnej łącznie z filtrami, jeśli były używane.

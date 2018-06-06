@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 04/24/2018
+ms.date: 06/02/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: ecd3c4a3d9cf9beddff5053f3dc696e6e99de70a
-ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
+ms.openlocfilehash: e676ef85d982a59b7058bce9e6467e8482b7aa62
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/19/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722696"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Usługa Power BI dla klientów rządowych w Stanach Zjednoczonych
 **Usługa Power BI** oferuje wersję dostępną dla klientów rządowych w Stanach Zjednoczonych w ramach subskrypcji **Office 365 US Government Community**. Wersja **usługi Power BI** omówiona w tym artykule jest przeznaczona wyłącznie dla klientów rządowych USA — jest to osobna usługa, która jest inna niż komercyjna wersja **usługi Power BI**.
@@ -55,9 +56,10 @@ Niektóre funkcje dostępne w komercyjnej wersji **usługi Power BI** *nie* są 
 
 * **Osadź w usłudze SharePoint Online** — nie można osadzić zawartości w usłudze SharePoint Online przy użyciu składnika Web Part usługi Power BI.
 * **Usługa Power BI US Government** jest dostępna tylko w ramach licencji **Pro**. Wszelkie odwołania do licencji usługi Power BI (bezpłatnej) w portalu administratora (lub jako użytkownika) są uruchamiane w chmurze komercyjnej usługi Power BI.
-* **Inspekcja** — funkcja inspekcji nie jest dostępna za pośrednictwem portalu zabezpieczeń i zgodności usługi Office 365.
+* **Inspekcja** — od czerwca 2018 r. funkcja inspekcji jest dostępna za pośrednictwem portalu zabezpieczeń i zgodności usługi Office 365.
 * **Zawartość usługi Power BI w Cortanie** — wyniki usługi Power BI nie będą widoczne w wynikach wyszukiwania Cortany. Obejmuje to wyniki dla zawartości usługi Power BI (pulpity nawigacyjne, raporty, aplikacje) oraz wyniki, które zawierają zoptymalizowane pod kątem Cortany strony raportów dla określonych słów kluczowych.
-* **Udostępnianie użytkownikom zewnętrznym** — udostępnianie jest dozwolone tylko w ramach dzierżawy usługi Power BI. Nie można udostępniać użytkownikom spoza dzierżawy usługi Power BI.
+* **Udostępnianie użytkownikom zewnętrznym** — udostępnianie jest dozwolone w ramach dzierżawy usługi Power BI, a od czerwca 2018 r. jest dostępne także dla użytkowników spoza dzierżawy usługi Power BI.
+* **Metryki użycia pulpitów nawigacyjnych i raportów** — metryki użycia są niedostępne w przypadku raportów i pulpitów nawigacyjnych. Klienci mogą użyć danych z dziennika inspekcji, aby uzyskać informacje o użyciu zawartości w organizacji.
 
 Jeśli do kont zostaną przypisane bezpłatne licencje **usługi Power BI**, takie konta działają w wersji komercyjnej **usługi Power BI** i nie są częścią oferty **usługi Power BI US Government**. W przypadku bezpłatnych kont mogą wystąpić następujące problemy:
 

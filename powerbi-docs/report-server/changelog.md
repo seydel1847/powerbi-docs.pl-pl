@@ -7,14 +7,14 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 12/11/2017
+ms.date: 03/31/2018
 ms.author: jtarquino
-ms.openlocfilehash: 65ad5e6ca9fbdd71643f71fa56186ee3d01d2dd1
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: e0f90ccade44960cf24fd133b4caf46280b4a511
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34295690"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34482135"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Dziennik zmian w Serwerze raportów usługi Power BI
 
@@ -145,8 +145,8 @@ Aby uzyskać szczegółowe informacje o nowych funkcjach, zobacz [Co nowego w Se
 
 ## <a name="next-steps"></a>Następne kroki
 
-[Podręcznik użytkownika](user-handbook-overview.md)  
-[Podręcznik administratora](admin-handbook-overview.md)  
+[Co to jest serwer raportów usługi Power BI?](get-started.md)
+[Omówienie dla administratorów](admin-handbook-overview.md)  
 [Instalacja serwera raportów usługi Power BI](install-report-server.md)  
 [Instalowanie programu Report Builder](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
 [Pobieranie programu SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)

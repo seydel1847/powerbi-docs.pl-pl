@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/20/2018
+ms.date: 05/20/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6b70a9ef7774d1ba49bc5bf825a5c1cde47197f2
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 3c32fc3cc9dc2b16384016ca624d4dd3a773aacb
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34561798"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Zmienianie sposobu sortowania wykresu w raporcie usługi Power BI
 W raporcie usługi Power BI większość wizualizacji można sortować alfabetycznie według nazw kategorii na wykresie lub według wartości liczbowych poszczególnych kategorii. Na przykład ten wykres jest posortowany według nazw sklepów.
@@ -29,6 +30,13 @@ W zamian można prosto zmienić sortowanie z kategorii (nazwa sklepu) na wartoś
    ![](media/power-bi-report-change-sort/sortby.gif)
 
    **UWAGA**: Nie wszystkie wizualizacje można sortować.  Nie można sortować na przykład następujących wizualizacji: Mapa drzewa, Mapa, Kartogram, Punktowy, Miernik, Karta, Karta z wieloma wierszami, Wykres kaskadowy.
+
+## <a name="saving-changes-you-make-to-sort-order"></a>Zapisywanie zmian kolejności sortowania
+Raporty usługi Power BI zachowują filtry, fragmentatory, sortowanie i inne wprowadzone zmiany widoku danych. Dlatego w przypadku opuszczenia raportu i późniejszego powrotu do niego zmiany są zachowywane.  Aby odwrócić wprowadzone zmiany do ustawień autora raportu, wybierz pozycję **Przywróć domyślne** z górnego paska menu. 
+
+![trwałe sortowanie](media/power-bi-report-change-sort/power-bi-reset-to-default.png)
+
+Jeśli jednak przycisk **Przywróć domyślne** jest wyszarzony, oznacza to, że autor raportu wyłączył możliwość zapisywania (utrwalania) zmian.
 
 <a name="other"></a>
 ## <a name="sorting-using-other-criteria"></a>Sortowanie przy użyciu innych kryteriów

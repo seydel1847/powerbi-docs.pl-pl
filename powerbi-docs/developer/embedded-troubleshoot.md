@@ -9,11 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: 2108d8fc290a5af568a3e06ae5986e82413b680b
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: fa142a34da003328ef509c319faf24d556023440
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34720816"
 ---
 # <a name="troubleshooting-your-embedded-application"></a>Rozwiązywanie problemów z aplikacją osadzoną
 
@@ -74,7 +75,7 @@ W celu głębszego zbadania problemu może być konieczne użycie narzędzia Fid
 
 W celu głębszego zbadania problemu może być konieczne użycie narzędzia Fiddler. Powodów wystąpienia błędu 403 może być kilka.
 
-* Użytkownik przekroczył liczbę osadzonych tokenów, które można wygenerować w przypadku pojemności udostępnionej. Musisz kupić pojemność platformy Azure, aby wygenerować osadzone tokeny i przypisać obszar roboczy do tej pojemności. Zobacz [Tworzenie pojemności osadzonej usługi Power BI w witrynie Azure Portal](https://docs.microsoft.com/en-us/azure/power-bi-embedded/create-capacity).
+* Użytkownik przekroczył liczbę osadzonych tokenów, które można wygenerować w przypadku pojemności udostępnionej. Musisz kupić pojemność platformy Azure, aby wygenerować osadzone tokeny i przypisać obszar roboczy do tej pojemności. Zobacz [Tworzenie pojemności osadzonej usługi Power BI w witrynie Azure Portal](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity).
 * Ważność tokenu uwierzytelniania usługi Azure AD wygasła.
 * Uwierzytelniony użytkownik nie jest członkiem grupy (obszaru roboczego aplikacji).
 * Uwierzytelniony użytkownik nie jest administratorem grupy (obszaru roboczego aplikacji).
@@ -132,6 +133,53 @@ Jeśli użytkownik nie widzi raportu lub pulpitu nawigacyjnego, należy upewnić
 **Raport lub pulpit nawigacyjny działa wolno**
 
 Otwórz plik w programie Power BI Desktop lub w witrynie powerbi.com i sprawdź, czy wydajność pozwala wykluczyć problemy z aplikacją lub osadzaniem interfejsów API.
+
+## <a name="onboarding-experience-tool-for-embedding"></a>Narzędzie obsługi dołączania na potrzeby osadzania
+
+Aby szybko pobrać przykładową aplikację, możesz użyć [narzędzia obsługi dołączania](https://aka.ms/embedsetup). Następnie możesz porównać swoją aplikację z przykładem.
+
+### <a name="prerequisites"></a>Wymagania wstępne
+
+Przed skorzystaniem z narzędzia obsługi dołączania sprawdź, czy są spełnione wszystkie wymagania wstępne. Potrzebne jest konto usługi **Power BI Pro** i subskrypcja platformy **Microsoft Azure**.
+
+* Jeśli nie masz konta usługi **Power BI Pro**, na początku [zacznij korzystać z bezpłatnej wersji próbnej](https://powerbi.microsoft.com/en-us/pricing/).
+* Jeśli nie masz subskrypcji platformy Azure, przed rozpoczęciem utwórz [bezpłatne konto](https://azure.microsoft.com/free/?WT.mc_id=A261C142F).
+* Musisz mieć własną konfigurację [dzierżawy usługi Azure Active Directory](create-an-azure-active-directory-tenant.md).
+* Musisz mieć zainstalowany program [Visual Studio](https://www.visualstudio.com/) (w wersji 2013 lub nowszej).
+
+### <a name="common-issues"></a>Typowe problemy
+
+Niektóre typowe problemy, które mogą wystąpić podczas testowania za pomocą narzędzia obsługi dołączania:
+
+#### <a name="using-the-embed-for-your-customers-sample-application"></a>Korzystanie z przykładowej aplikacji osadzania dla klientów
+
+Jeśli korzystasz ze środowiska **osadzania dla klientów**, zapisz i rozpakuj plik *PowerBI-Developer-Samples.zip*. Następnie otwórz folder *PowerBI-Developer-Samples-master\App Owns Data* i uruchom plik *PowerBIEmbedded_AppOwnsData.sln*.
+
+Podczas wybierania pozycji **Udziel uprawnień** (krok udzielania uprawnień), otrzymasz następujący błąd:
+
+    AADSTS70001: Application with identifier <client ID> was not found in the directory <directory ID>
+
+Aby rozwiązać ten problem, zamknij okno podręczne, poczekaj kilka sekund i spróbuj ponownie. Może być konieczne kilkukrotne powtórzenie tej akcji. Interwał czasu powoduje problem, który uniemożliwia ukończenie procesu rejestracji aplikacji w czasie, gdy jest on dostępny dla zewnętrznych interfejsów API.
+
+Podczas uruchamiania przykładowej aplikacji jest wyświetlany następujący komunikat o błędzie:
+
+    Password is empty. Please fill password of Power BI username in web.config.
+
+Ten błąd występuje, ponieważ jedyną wartością, która nie jest wstrzykiwana do przykładowej aplikacji, jest hasło użytkownika. Otwórz plik Web.config w rozwiązaniu i podaj hasło użytkownika w polu pbiPassword.
+
+#### <a name="using-the-embed-for-your-organization-sample-application"></a>Korzystanie z przykładowej aplikacji osadzania dla organizacji
+
+Jeśli korzystasz ze środowiska **osadzania dla organizacji**, zapisz i rozpakuj plik *PowerBI-Developer-Samples.zip*. Następnie otwórz folder *PowerBI-Developer-Samples-master\User Owns Data\integrate-report-web-app* i uruchom plik *pbi-saas-embed-report.sln*.
+
+Podczas uruchamiania przykładowej aplikacji **osadzania dla organizacji** jest wyświetlany następujący błąd:
+
+    AADSTS50011: The reply URL specified in the request does not match the reply URLs configured for the application: <client ID>
+
+Przyczyną jest to, że adres URL przekierowania określony dla aplikacji serwera internetowego różni się od adresu URL w przykładzie. Jeśli chcesz zarejestrować przykładową aplikację, podaj adres *http://localhost:13526/* jako adres URL przekierowania.
+
+Jeśli chcesz edytować zarejestrowaną aplikację, dowiedz się, jak edytować [aplikację zarejestrowaną w usłudze AAD](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications#updating-an-application), aby aplikacja mogła zapewnić dostęp do internetowych interfejsów API.
+
+Jeśli chcesz edytować dane lub profil użytkownika usługi Power BI, dowiedz się, jak edytować swoje [dane usługi Power BI](https://docs.microsoft.com/en-us/power-bi/service-basic-concepts).
 
 Aby uzyskać więcej informacji, zobacz [Często zadawane pytania dotyczące usługi Power BI Embedded](embedded-faq.md).
 

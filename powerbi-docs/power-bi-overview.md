@@ -6,15 +6,15 @@ manager: kfile
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: overview
-ms.date: 05/07/2018
+ms.date: 05/27/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 697757b34b6b71d60991298396dfb0d95e081911
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: b91c7b4bc96ea5b3f1e4a8db844ef6d9987c9b38
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34240701"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34584190"
 ---
 # <a name="what-is-power-bi"></a>Co to jest usługa Power BI?
 Usługa **Power BI** to zbiór usług oprogramowania, aplikacji i łączników, które działają razem, aby przekształcić niepowiązane źródła danych w spójne, atrakcyjne wizualnie i interaktywne analizy. Niezależnie od tego, czy dane to prosty arkusz kalkulacyjny programu Excel, czy też kolekcja chmurowych i lokalnych hybrydowych hurtowni danych, usługa **Power BI** umożliwia łatwe łączenie ze źródłami danych, wizualizowanie (lub odnajdywanie) ważnych informacji i udostępnianie ich wszystkim wybranym osobom.
@@ -56,4 +56,4 @@ Tworzenie i wdrażanie raportów dla urządzeń przenośnych i raportów z podzi
 Serwer raportów usługi Power BI to rozwiązanie wdrażane za zaporą, które dostarcza raporty do odpowiednich użytkowników na różne sposoby: wyświetlając je w przeglądarce internetowej, na urządzeniu przenośnym lub w postaci wiadomości e-mail. W związku z tym, że serwer raportów usługi Power BI jest zgodny z usługą Power BI w chmurze, możesz przenieść swoje środowisko pracy do chmury, gdy będzie gotowe. 
 
 ## <a name="next-steps"></a>Następne kroki
-[Zaloguj się i połącz z usługą](/power-bi/service-tutorial-connect-to-github.md)
+[Logowanie, pobieranie danych i zapoznawanie się z usługą Power BI](service-the-new-power-bi-experience.md)

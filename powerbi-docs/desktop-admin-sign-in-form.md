@@ -7,20 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 04/24/2018
+ms.date: 06/02/2018
 ms.author: davidi
-ms.openlocfilehash: 98bf9579ae7ee551634eed765138c0e78156464c
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: f35553acd65aeea2c1bf02b04fcbd665af4b99ea
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721092"
 ---
 # <a name="how-administrators-can-manage-the-power-bi-desktop-sign-in-form"></a>Jak administratorzy mogą zarządzać formularzem logowania programu Power BI Desktop
-Podczas pierwszego uruchomienia programu Power BI Desktop zostaje wyświetlony formularz logowania. Można uzupełnić informacje lub zalogować się do usługi Power BI, aby kontynuować. Administratorzy mogą zarządzać tym formularzem przy użyciu klucza rejestru. 
+Podczas pierwszego uruchomienia programu Power BI Desktop zostaje wyświetlony formularz logowania. Można uzupełnić informacje lub zalogować się do usługi Power BI, aby kontynuować. Administratorzy zarządzają tym formularzem przy użyciu klucza rejestru. 
 
 ![Początkowy formularz logowania programu Power BI Desktop](media/desktop-admin-sign-in-form/sign-in-form.png)
 
-Administratorzy mogą używać następującego klucza rejestru w celu wyłączenia formularza logowania. Rozwiązanie to może również zostać zastosowane względem całej organizacji przy użyciu zasad globalnych.
+Administratorzy używają następującego klucza rejestru w celu wyłączenia formularza logowania. Można go również wypchnąć do całej organizacji przy użyciu zasad globalnych.
 
 ```
 Key: HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Power BI Desktop

@@ -8,14 +8,15 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/19/2017
+ms.date: 05/25/2018
 ms.author: maghan
 LocalizationGroup: Share your work
-ms.openlocfilehash: 757f59b59ea13478a943650f23ef98d9cc5b3e08
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 1c9948ad5c09b3123d898bf8841243d6e5fa83fd
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34553570"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>Osadzanie za pomocą składnika Web Part raportu w usłudze SharePoint Online
 
@@ -142,7 +143,9 @@ Należy skontaktować się z właścicielem strony usługi SharePoint Online, ab
 
 * Mogą wystąpić problemy w przypadku korzystania z programu Internet Explorer 10. Możesz sprawdzić [obsługę przeglądarek dla usługi Power BI](service-browser-support.md) i [usługi Office 365](https://products.office.com/office-system-requirements#Browsers-section).
 
-* Składnik Web Part usługi Power BI nie jest dostępny w [chmurach krajowych](https://powerbi.microsoft.com/en-us/clouds/). 
+* Składnik Web Part usługi Power BI nie jest dostępny w [suwerennych chmurach](https://powerbi.microsoft.com/en-us/clouds/).
+
+* Klasyczny program SharePoint Server nie jest obsługiwany w tym składniku Web Part.
 
 ## <a name="next-steps"></a>Następne kroki
 

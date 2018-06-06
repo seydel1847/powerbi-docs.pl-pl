@@ -7,13 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 11/30/2017
+ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 043bd43ac6d0abcd4cc4bae54f4ee57cc4ef2a41
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 2e899593cbe3453381dd2d3457cec97467aec4d6
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34561752"
 ---
 # <a name="embedding-with-power-bi"></a>Osadzanie przy użyciu usługi Power BI
 Usługa Power BI oferuje interfejsy API do osadzania Twoich pulpitów nawigacyjnych i raportów w aplikacjach. Interfejsy API usługi Power BI oferują spójny zestaw funkcji oraz dostęp do najnowszych elementów usługi Power BI — takich jak pulpity nawigacyjne, bramy i obszary robocze aplikacji — podczas osadzania zawartości.
@@ -32,11 +33,13 @@ Osadzanie dla swojej organizacji umożliwia rozszerzanie usługi Power BI. Wymag
 
 W przypadku osadzania dla swojej organizacji zobacz poniższe tematy:
 
+* [Integrowanie raportu w aplikacji](integrate-report.md)
 * [Integrowanie pulpitu nawigacyjnego w aplikacji](integrate-dashboard.md)
 * [Integrowanie kafelka w aplikacji](integrate-tile.md)
-* [Integrowanie raportu w aplikacji](integrate-report.md)
 
 Podczas osadzania dla użytkowników usługi możliwości samoobsługi, takie jak edytowanie, zapisywanie i inne, są dostępne za pośrednictwem [interfejsu API języka JavaScript](https://github.com/Microsoft/PowerBI-JavaScript).
+
+Możesz użyć [narzędzia obsługi dołączania na potrzeby osadzania w organizacji](https://aka.ms/embedsetup/UserOwnsData), aby szybko zacząć pracę i pobrać przykładową aplikację, która przeprowadzi Cię przez proces integracji raportu organizacji.
 
 ## <a name="embedding-for-your-customers"></a>Osadzanie dla swoich klientów
 Osadzanie dla swoich klientów zapewnia możliwość osadzenia pulpitów nawigacyjnych i raportów u użytkowników, którzy nie mają konta w usłudze Power BI. Twoi klienci nie muszą nic wiedzieć o usłudze Power BI. Do utworzenia aplikacji osadzonej jest potrzebne co najmniej jedno konto usługi Power BI Pro. Konto usługi Power BI Pro działa jako konto główne dla Twojej aplikacji. Myśl o tym, jak o koncie serwera proxy. Konto Power BI Pro umożliwia też generowanie osadzonych tokenów zapewniających dostęp do pulpitów nawigacyjnych i raportów w ramach usługi Power BI. Należą one do Twojej usługi i są przez nią zarządzane. 
@@ -50,11 +53,12 @@ Aby osadzić pulpity nawigacyjne, raporty i kafelki, użyj tych samych interfejs
 > [!IMPORTANT]
 > Chociaż osadzanie ma zależność od usługi Power BI, nie ma zależności od usługi Power BI dla Twoich klientów. Nie będą oni musieli tworzyć konta w usłudze Power BI w celu wyświetlenia zawartości osadzonej w aplikacji.
 > 
-> 
 
 Gdy wszystko jest gotowe do przejścia do środowiska produkcyjnego, obszar roboczy Twojej aplikacji musi zostać przypisany do pojemności. Usługa Power BI Embedded, w ramach platformy Microsoft Azure, oferuje pojemność do wykorzystania dla Twoich aplikacji.
 
 Aby uzyskać szczegółowe informacje na temat osadzania, zobacz [Jak osadzić pulpity nawigacyjne, raporty i kafelki usługi Power BI](embedding-content.md).
+
+Możesz użyć [narzędzia obsługi dołączania na potrzeby osadzania dla klientów](https://aka.ms/embedsetup/AppOwnsData), aby szybko zacząć pracę i pobrać przykładową aplikację, która przeprowadzi Cię przez proces integracji raportu w aplikacji.
 
 Jeśli była używana usługa Kolekcje obszarów roboczych usługi Power BI w ramach platformy Azure, zobacz [Migracja zawartości z usługi platformy Azure Kolekcje obszarów roboczych usługi Power BI](migrate-from-powerbi-embedded.md), aby uzyskać informacje o sposobie migracji swojej zawartości.
 

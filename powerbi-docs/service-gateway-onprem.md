@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 03/26/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 21ceec0ea522bd45a937096bcd778f2695c1edc3
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 4eb9f8e0b8548fbecd4e5d2e2fd47c4c3acd2bd6
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722821"
 ---
 # <a name="on-premises-data-gateway"></a>Lokalna brama danych
 
@@ -93,6 +94,11 @@ Po dodaniu źródła danych do bramy musisz podać poświadczenia dla tego źró
 
 W tej chwili nie ma jednej lokalizacji, w której administratorzy dzierżaw mogą zarządzać wszystkimi bramami zainstalowanymi i skonfigurowanymi przez innych użytkowników.  Jeśli jesteś administratorem dzierżawy, zalecamy poproszenie użytkowników w Twojej organizacji, aby dodawali Ciebie jako administratora do każdej bramy, którą instalują. Pozwoli Ci to zarządzać wszystkimi bramami w Twojej organizacji z poziomu strony Ustawienia bramy lub za pomocą [poleceń programu PowerShell](https://docs.microsoft.com/power-bi/service-gateway-high-availability-clusters#powershell-support-for-gateway-clusters). 
 
+## <a name="enabling-outbound-azure-connections"></a>Włączanie połączeń wychodzących platformy Azure 
+W celu zapewnienia łączności z chmurą lokalna brama danych polega na usłudze Azure Service Bus i odpowiednio ustanawia połączenia wychodzące do skojarzonego regionu świadczenia usługi Azure. Domyślnie jest to lokalizacja dzierżawy usługi Power BI. Dowiedz się, gdzie [znajduje się Twoja dzierżawa usługi Power BI?](https://powerbi.microsoft.com/en-us/documentation/powerbi-admin-where-is-my-tenant-located/)
+Jeśli zapora blokuje połączenia wychodzące, należy ją skonfigurować w sposób zezwalający na połączenia wychodzące z lokalnej bramy danych do skojarzonego regionu świadczenia usługi Azure. Szczegółowe informacje dotyczące zakresów adresów IP dla poszczególnych centrów danych platformy Azure można znaleźć w temacie [Microsoft Azure Datacenter IP Ranges (Zakresy adresów IP centrów danych platformy Microsoft Azure)](https://www.microsoft.com/en-us/download/details.aspx?id=41653).
+> [!NOTE]
+> Zakresy adresów IP mogą z czasem ulec zmianie, dlatego upewnij się, że na bieżąco pobierasz najnowsze informacje. 
 
 ## <a name="troubleshooting"></a>Rozwiązywanie problemów
 Jeśli masz problemy z instalacją i konfiguracją bramy, zobacz artykuł [Rozwiązywanie problemów z lokalną bramą danych](service-gateway-onprem-tshoot.md). Jeśli uważasz, że występuje problem z zaporą, zobacz sekcję dotyczącą [zapory lub serwera proxy](service-gateway-onprem-tshoot.md#firewall-or-proxy) w artykule na temat rozwiązywania problemów.

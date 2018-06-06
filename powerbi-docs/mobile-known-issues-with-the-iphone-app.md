@@ -1,30 +1,22 @@
 ---
-title: 'Błąd: '
-communication: ''
-failures": ''
-in: ''
-ios: ''
-mobile: ''
-apps: ''
-'-': ''
-power: ''
-bi": ''
+title: Naprawianie błędów „Problemy z komunikacją” w aplikacjach mobilnych dla systemu iOS — Power BI
 description: Ten artykuł może pomóc, jeśli wyświetlony zostanie komunikat „Wystąpiły problemy z komunikacją. Mogą być one związane z ustawieniami serwera proxy dla połączenia Wi-Fi”.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 10/13/2017
+ms.date: 05/21/2018
 ms.author: maggies
-ms.openlocfilehash: 2d50f96dc3e29025223143ca2d2c7522b9e8b559
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 0bb0a221455311854ec52092d062defbc715cdfa
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721414"
 ---
-# <a name="error-communication-failures-in-ios-mobile-apps---power-bi"></a>Błąd: „Problemy z komunikacją” w aplikacjach mobilnych dla systemu iOS — Power BI
+# <a name="fixing-communication-failures-in-ios-mobile-apps---power-bi"></a>Naprawianie błędów „Problemy z komunikacją” w aplikacjach mobilnych dla systemu iOS — Power BI
 | ![Telefon iPhone](media/mobile-known-issues-with-the-iphone-app/iphone-logo-50-px.png) | ![Tablet iPad](media/mobile-known-issues-with-the-iphone-app/ipad-logo-50-px.png) |
 |:--- |:--- |
 | Telefony iPhone |Tablety iPad |

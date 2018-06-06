@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/09/2018
+ms.date: 06/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e36f8596141ab5d7ad82ffecb808b7d684334923
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 55d6259c3ae044d395bd0b077577856dd88ff43c
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34720770"
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Źródła danych obsługiwane przez zapytanie bezpośrednie w usłudze Power BI
 Program **Power BI Desktop** i **usługa Power BI** mają wiele źródeł danych, z którymi można się łączyć, aby uzyskać dostęp do danych. W tym artykule opisano, jakie źródła danych usługi Power BI obsługują metodę połączenia nazywaną **zapytaniem bezpośrednim**. Aby uzyskać więcej informacji na temat zapytania bezpośredniego, zobacz [**Zapytanie bezpośrednie w usłudze Power BI**](desktop-directquery-about.md).
@@ -41,6 +42,10 @@ Następujące źródła danych obsługują zapytanie bezpośrednie w usłudze Po
 Źródła danych, których nazwy zawierają ciąg **(wersja beta)** lub **(wersja zapoznawcza)**, mogą ulec zmianie i nie powinny być używane w środowiskach produkcyjnych. Mogą one również nie być obsługiwane po opublikowaniu raportu w **usłudze Power BI**, co oznacza, że otwarcie opublikowanego raportu lub eksploracja zestawu danych mogą spowodować wystąpienie błędu.
 
 Jedyna różnica między źródłami danych typu **(wersja beta)** i **(wersja zapoznawcza)** polega na tym, że źródła **(wersja zapoznawcza)** należy włączyć jako funkcję w wersji zapoznawczej, zanim będą dostępne do użycia. Aby włączyć łącznik danych **(Wersja zapoznawcza)**, w programie **Power BI Desktop** wybierz pozycję **Plik > Opcje i ustawienia > Opcje**, a następnie wybierz pozycję **Funkcje w wersji zapoznawczej**.
+
+> [!NOTE]
+> Zapytania DirectQuery względem programu SQL Server wymagają uwierzytelniania przy użyciu bieżących poświadczeń uwierzytelniania systemu Windows lub poświadczeń bazy danych w celu ustanowienia dostępu. Alternatywne poświadczenia nie są obsługiwane.
+>
 
 ## <a name="on-premises-gateway-requirements"></a>Wymagania bramy lokalnej
 W poniższej tabeli określono, czy **lokalna brama danych** jest wymagana do łączenia się z określonym źródłem danych po opublikowaniu raportu w **usłudze Power BI**.

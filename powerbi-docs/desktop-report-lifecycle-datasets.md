@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 06/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1bf5f83265c9d4fc11532b647207f8d273aab50c
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: b1bfe0e35015cd32024b381a1859330cd8f1862a
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721115"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Łączenie się z zestawami danych w usłudze Power BI z programu Power BI Desktop
 Możesz nawiązać połączenie na żywo z udostępnionym zestawem danych w usłudze Power BI i utworzyć wiele różnych raportów na podstawie tego samego zestawu danych. Oznacza to, że możesz utworzyć swój doskonały model danych w programie Power BI Desktop, opublikować go w usłudze Power BI, a następnie możesz sam utworzyć wiele różnych raportów (w oddzielnych plikach pbix) na podstawie tego samego, wspólnego modelu danych lub mogą to zrobić inni użytkownicy. Ta funkcja jest nazywana **Połączenie na żywo usługi Power BI**.
@@ -35,6 +36,8 @@ Wszyscy kochają jej raporty i jej zestaw danych i właśnie dlatego zaczynają 
 
 ### <a name="connect-to-a-power-bi-service-dataset-using-a-live-connection"></a>Nawiązywanie połączenia z zestawem danych usługi Power BI za pomocą połączenia na żywo
 Gdy Anna utworzy swój raport (i utworzy zestaw danych, na którym jest on oparty), opublikuje go w **usłudze Power BI**, wyświetli w obszarze roboczym zespołu w usłudze Power BI. Teraz jest dostępny dla każdego w jej obszarze roboczym do przeglądania i używania.
+
+Aby dowiedzieć się więcej na temat obszarów roboczych, zobacz [Obszary robocze aplikacji](service-create-distribute-apps.md#app-workspaces).
 
 Inni członkowie jej obszaru roboczego mogą teraz nawiązać połączenie na żywo z udostępnionym modelem danych Anny (za pomocą funkcji **połączenia usługi Power BI na żywo**) i tworzyć własne unikatowe raporty na podstawie *jej oryginalnego zestawu danych*.
 

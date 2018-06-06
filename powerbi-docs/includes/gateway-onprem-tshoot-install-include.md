@@ -24,3 +24,6 @@ Istnieje możliwość wymuszenia na bramie komunikacji z usługą Azure Service 
 ### <a name="error-failed-to-add-user-to-group---2147463168---pbiegwservice---performance-log-users---"></a>Błąd: Nie można dodać użytkownika do grupy.  (-2147463168   PBIEgwService   Użytkownicy dzienników wydajności   )
 Ten błąd może występować w przypadku próby zainstalowania bramy na kontrolerze domeny. Wdrażanie na kontrolerze domeny nie jest obsługiwane. Należy wdrożyć bramę na maszynie, która nie jest kontrolerem domeny.
 
+### <a name="installation-fails"></a>Instalacja kończy się niepowodzeniem
+Jeśli oprogramowanie antywirusowe na maszynie z instalacją jest nieaktualne, mogą wystąpić błędy instalacji. Można zaktualizować instalację oprogramowania antywirusowego lub wyłączyć oprogramowanie antywirusowe tylko do czasu ukończenia instalacji bramy, a następnie ponownie je włączyć.
+

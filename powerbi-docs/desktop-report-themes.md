@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 06/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8ad48c0e5b78dabee7b1851c75b01e7fda611c1d
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 757c1465d2451da8ebf340c7b9bfe1f4d9ff04f1
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721184"
 ---
 # <a name="use-report-themes-in-power-bi-desktop-preview"></a>Używanie motywów raportów w programie Power BI Desktop (wersja zapoznawcza)
 **Motywy raportów** umożliwiają zastosowanie motywu kolorystycznego — kolorów firmowych, okolicznościowych lub dowolnego innego motywu kolorystycznego — do całego raportu. Zastosowanie **motywu raportu** spowoduje, że kolory tego motywu będą używane we wszystkich wizualizacjach w raporcie (z kilkoma wyjątkami opisanymi w dalszej części tego artykułu).
@@ -54,7 +55,7 @@ Plik JSON zawiera następujące wymagane wiersze:
 
 * **name** (nazwa) — nazwa motywu, będąca jedynym polem wymaganym.
 * **dataColors** (kolory danych) — lista szesnastkowych kodów kolorów używanych dla danych w wizualizacjach programu Power BI Desktop. Ta lista może zawierać dowolną liczbę kolorów.
-* **background**, **foreground** i **tableAccent** (tło, pierwszy plan i akcent tabeli) — wartości określające kolory używane w wizualizacjach **tabel** i **macierzy**. Sposób użycia tych kolorów zależy od konkretnego zastosowanego stylu tabeli lub macierzy. Te style są domyślnie stosowane w wizualizacjach **tabel** i **macierzy**.
+* **background** (tło), **foreground** (pierwszy plan) i **tableAccent** (akcent tabeli) — te wartości określają kolory, które mają być stosowane w różnych typach wizualizacji. **Pierwszy plan** ma zastosowanie do tekstu w polu tekstowym, tekstu celu kluczowego wskaźnika wydajności, tekstu karty z wieloma wierszami, tekstu wartości karty, tekstu objaśnienia miernika, tekstu elementu fragmentatora pionowego oraz tekstu sumy oraz wartości **tabeli** i **macierzy**. **Tło** ma zastosowanie do wypełnienia przycisku i tła etykiety wykresu kombi. Sposób użycia tych kolorów zależy od konkretnie zastosowanego stylu wizualizacji. Te style są domyślnie stosowane w wizualizacjach **tabel** i **macierzy**.
 
 Aby zastosować styl do wizualizacji **tabeli** lub **macierzy**, zaznacz wizualizację, a następnie w okienku **Wizualizacje** wybierz sekcję **Formatowanie**, rozwiń pozycję **Styl macierzy** i wybierz styl z listy rozwijanej **Styl**.
 

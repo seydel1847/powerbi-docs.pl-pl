@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/13/2018
+ms.date: 05/26/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 855ed26172fa0f157787ba4cfdc3e7e6ab4ff4ba
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 7239351a7a9486aeeab53e4ab7fc5c3c3e877ff6
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34561453"
 ---
 # <a name="about-filters-and-highlighting-in-power-bi-reports"></a>Informacje o filtrach i wyróżnianiu w raportach usługi Power BI
 ***Filtry*** usuwają wszystkie dane oprócz tych, na których chcesz skupić uwagę.  ***Wyróżnianie*** nie jest filtrowaniem, ponieważ nie usuwa danych, a jedynie wyróżnia pewien podzbiór widocznych danych; niewyróżnione dane pozostają widoczne, ale są przygaszone.
@@ -77,7 +78,7 @@ Wybierz pole na kanwie raportu, aby przefiltrować i wyróżnić pozostałą cz�
 
 ![](media/power-bi-reports-filters-and-highlighting/power-bi-adhoc-filter.gif)
 
-Podczas zamykania raportu zmiany są zapisywane. Aby cofnąć filtrowanie, wybierz pozycję **Przywróć domyślne** z górnego paska menu.
+Podczas zamykania raportu zmiany są zapisywane. Aby cofnąć filtrowanie i wrócić do domyślnego filtrowania, fragmentowania, przechodzenia do szczegółów i sortowania ustawionego przez autora raportu, wybierz pozycję **Przywróć domyślne** z górnego paska menu.
 
 ![](media/power-bi-reports-filters-and-highlighting/power-bi-reset-to-default.png)
 

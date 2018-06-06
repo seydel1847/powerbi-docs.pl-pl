@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 51f813d4d92ac94b43c0f2b7cd0fcad1f0673b5e
-ms.sourcegitcommit: aa8045e42b979206c600bce4a8d17de1f0620462
+ms.openlocfilehash: 86dabdb84dd4ca949930c25213f554060135f10a
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/22/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722959"
 ---
 # <a name="sql-server-analysis-services-live-data-in-power-bi"></a>Dane na żywo usług SQL Server Analysis Services w usłudze Power BI
 W usłudze Power BI istnieją dwa sposoby nawiązywania połączeń z serwerem SQL Server Analysis Services na żywo. W oknie **Pobierz dane** można połączyć się z serwerem SQL Server Analysis Services. Można również połączyć się z [plikiem programu Power BI Desktop](service-desktop-files.md) lub [skoroszytem programu Excel](service-excel-workbook-files.md), które już mają połączenie z serwerem usług Analysis Services. Najlepszym rozwiązaniem zdecydowanie zalecanym przez firmę Microsoft jest skorzystanie z programu Power BI Desktop, ponieważ oferuje on bogaty zestaw narzędzi oraz możliwość obsługi kopii zapasowej pliku programu Power BI Desktop w środowisku lokalnym.
@@ -44,9 +45,12 @@ Po nawiązaniu połączenia z modelem zostanie on wyświetlony w witrynie usług
 ## <a name="dashboard-tiles"></a>Kafelki pulpitu nawigacyjnego
 Jeśli przypinasz wizualizacje z raportu do pulpitu nawigacyjnego, przypięte kafelki są automatycznie odświeżane co 10 minut. Gdy dane na lokalnym serwerze usług Analysis Services zostaną aktualizowane, po upływie 10 minut kafelki również zostaną automatycznie zaktualizowane.
 
+## <a name="common-issues"></a>Typowe problemy
+
+* Błąd: nie można załadować schematu modelu — ten błąd występuje, gdy użytkownik nawiązujący połączenie z usługami SSAS nie ma dostępu do modelu, modułu i bazy danych usług SSAS.
+
 ## <a name="next-steps"></a>Następne kroki
 [Lokalna brama danych](service-gateway-onprem.md)  
 [Zarządzanie źródłami danych usług Analysis Services](service-gateway-enterprise-manage-ssas.md)  
 [Rozwiązywanie problemów z lokalną bramą danych](service-gateway-onprem-tshoot.md)  
 Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
-

@@ -8,15 +8,15 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/11/2018
+ms.date: 05/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 37f4e06aee41b8741dd3a1a1a52e3237fbd893a3
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 22eb44048d8a4f681d8d112ce3fdb5a841d0511e
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34293265"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34584236"
 ---
 # <a name="working-with-tables-in-power-bi-reports-and-dashboards"></a>Praca z tabelami w raportach i na pulpitach nawigacyjnych usługi Power BI
 Tabela to siatka zawierająca powiązane dane w postaci logicznej serii wierszy i kolumn. Może również zawierać nagłówki i wiersze sum. Tabele dobrze się sprawdzają w przypadku porównań ilościowych, gdy analizuje się wiele wartości z jednej kategorii. Na przykład ta tabela zawiera 5 różnych miar dla **kategorii**.
@@ -119,6 +119,9 @@ Za pomocą formatowania warunkowego dla tabel można określić niestandardowe k
 Czasami usługa Power BI obcina nagłówek kolumny w raporcie i na pulpicie nawigacyjnym. Aby wyświetlić całą nazwę kolumny, przesuń kursor myszy na miejsce z prawej strony nagłówka w celu wyświetlenia strzałki podwójnej, zaznacz i przeciągnij.
 
 ![](media/power-bi-visualization-tables/resizetable.gif)
+
+## <a name="considerations-and-troubleshooting"></a>Istotne zagadnienia i rozwiązywanie problemów
+* W przypadku stosowania formatowania kolumny można wybrać tylko jedną opcję wyrównania dla kolumny: Automatycznie, Do lewej, Do środka i Do prawej. Zazwyczaj kolumna zawiera tylko tekst lub tylko liczby, a nie kombinację tych elementów. Jednak w sytuacji, gdy kolumna zawiera liczby i tekst, użycie opcji **Automatycznie** powoduje wyrównanie tekstu do lewej i wyrównanie liczb do prawej. Takie zachowanie obsługuje języki, w których tekst jest czytany od lewej do prawej.   
 
 Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
 

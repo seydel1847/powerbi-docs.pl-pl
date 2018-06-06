@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 04/13/2018
+ms.date: 05/26/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 7006d35a76780313e4d57d0d489b5b25ed92b4d2
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: e5e257fd245687f2aeb83a9ee45c0342cf16392d
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34561706"
 ---
 # <a name="add-a-filter-to-a-power-bi-service-report-in-editing-view"></a>Dodawanie filtru do raportu usługi Power BI (w widoku do edycji)
 > [!TIP]
@@ -28,7 +29,7 @@ Przykłady przedstawione w tym artykule dotyczą usługi Power BI. Czynności wy
 Istnieją dwa tryby interakcji z raportami: [Widok do czytania](service-reading-view-and-editing-view.md) i [Widok do edycji](service-interact-with-a-report-in-editing-view.md).  Dostępne możliwości filtrowania zależą od trybu, w którym pracujesz.
 
 * Widok do edycji umożliwia dodawanie filtrów raportu, strony i wizualizacji. Podczas zapisywania raportu filtry zostają zapisane razem z nim. Osoby wyświetlające raport w widoku do czytania mogą wchodzić w interakcje z filtrami, które zostały dodane.
-* Widok do czytania pozwala na wchodzenie w interakcje ze wszystkimi istniejącymi w raporcie filtrami wizualnymi, filtrami raportu, filtrami przeglądania szczegółowego i filtrami stron, ale nie jest możliwe dodawanie nowych filtrów. Zmiany wprowadzone w okienku Filtry są zapisywane z raportem — nawet wtedy, gdy raport jest wyświetlany w aplikacji mobilnej.  
+* Widok do czytania pozwala na wchodzenie w interakcje ze wszystkimi istniejącymi w raporcie filtrami wizualnymi, filtrami raportu, filtrami przeglądania szczegółowego i filtrami stron, ale nie jest możliwe dodawanie nowych filtrów. Jednak zmiany wprowadzone w okienku Filtry są zapisywane z raportem — nawet wtedy, gdy raport jest wyświetlany w aplikacji mobilnej, oraz nawet po zamknięciu raportu i późniejszym powrocie do niego.  
 
 > [!NOTE]
 > W tym artykule opisano sposób tworzenia filtrów w **widoku do edycji** raportu.  Aby uzyskać więcej informacji o filtrach w widoku do czytania, zobacz [Interakcja z filtrami w widoku do czytania raportu](service-reading-view-and-editing-view.md).
@@ -44,7 +45,11 @@ Istnieją cztery typy filtrów.
 - **Filtr przeglądania szczegółowego** dotyczy pojedynczej jednostki w raporcie.    
 - **Filtr raportu** dotyczy wszystkich stron w raporcie.    
 
-    ![](media/power-bi-report-add-filter/power-bi-add-filter-reading-view.png)
+    ![okienko filtrów w widoku do czytania](media/power-bi-report-add-filter/power-bi-add-filter-reading-view.png)
+
+Filtry są *trwałe*, dlatego po opuszczeniu raportu usługa Power BI zachowuje filtr, fragmentator i inne wprowadzone zmiany widoku danych. Dzięki temu można wrócić do pracy z raportem w miejscu, w którym została przerwana. Jeśli nie chcesz, aby zmiany filtru były trwałe, wybierz pozycję **Przywróć domyślne** z górnego paska menu.
+
+![przycisk filtru trwałego](media/power-bi-report-add-filter/power-bi-reset-to-default.png)
 
 ## <a name="add-a-filter-to-a-specific-visualization-aka-visual-filter"></a>Dodawanie filtru do określonej wizualizacji (filtr wizualny)
 Można to zrobić na dwa sposoby: 
@@ -135,12 +140,13 @@ Zobaczmy, jak działa filtr przeglądania szczegółowego.
 1. Wybierz strzałkę wstecz, aby wrócić do poprzedniej strony raportu.
 
 ## <a name="considerations-and-troubleshooting"></a>Istotne zagadnienia i rozwiązywanie problemów
-### <a name="why-your-visual-level-filter-and-page-level-filter-may-return-different-results"></a>Dlaczego filtry na poziomie wizualizacji i filtry na poziomie strony zwracają różne wyniki
-Po dodaniu filtru na poziomie wizualizacji usługa Power BI filtruje według wyników zagregowanych.  Domyślna agregacja to sumowanie, ale [typ agregacji można zmienić](service-aggregates.md).  
 
-Po dodaniu filtru na poziomie strony usługa Power BI filtruje bez użycia agregacji.  Dzieje się tak, ponieważ strona może zawierać wiele wizualizacji, z których każda może korzystać z różnych typów agregacji.  Dlatego filtr jest stosowany w przypadku każdego wiersza danych.
+- Czasami filtry na poziomie wizualizacji i filtry na poziomie strony mogą zwracać różne wyniki.  Na przykład po dodaniu filtru na poziomie wizualizacji usługa Power BI filtruje według wyników zagregowanych.  Domyślna agregacja to sumowanie, ale [typ agregacji można zmienić](service-aggregates.md).  
 
-Jeśli nie widzisz okienka Pola, upewnij się, że jesteś w [widoku do edycji](service-interact-with-a-report-in-editing-view.md) raportu
+    Następnie po dodaniu filtru na poziomie strony usługa Power BI filtruje bez użycia agregacji.  Dzieje się tak, ponieważ strona może zawierać wiele wizualizacji, z których każda może korzystać z różnych typów agregacji.  Dlatego filtr jest stosowany w przypadku każdego wiersza danych.
+
+- Jeśli nie widzisz okienka Pola, upewnij się, że jesteś w [widoku do edycji](service-interact-with-a-report-in-editing-view.md) raportu    
+- Jeśli wprowadzono wiele zmian filtrów i chcesz przywrócić domyślne ustawienia autora raportu, wybierz pozycję **Przywróć domyślne** z górnego paska menu.
 
 ## <a name="next-steps"></a>Następne kroki
  [Jak używać filtrów raportu](power-bi-how-to-report-filter.md)

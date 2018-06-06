@@ -8,15 +8,15 @@ featuredvideoid: PVcfPoVE3Ys
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/28/2018
+ms.date: 05/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b9c67b1c493d885b0a1b1a21e27c652afaaa513e
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 91836970bda7e72c99977f360e2c0531a20bef20
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34296991"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34584121"
 ---
 # <a name="scatter-charts-and-bubble-charts-in-power-bi"></a>Wykresy punktowe i bąbelkowe w usłudze Power BI
 Wykres punktowy zawsze ma dwie osie wartości: jeden zestaw danych liczbowych jest wyświetlany wzdłuż osi poziomej, a drugi wzdłuż osi pionowej. Na wykresie kreślone są punkty występujące na przecięciu wartości liczbowych x i y, co zapewnia połączenie tych par wartości w pojedynczych punktach danych. Te punkty danych mogą być rozproszone równomiernie lub nierównomiernie wzdłuż osi poziomej, w zależności od danych.
@@ -81,7 +81,7 @@ Teraz dodamy trzeci wymiar.
    
     ![](media/power-bi-visualization-scatter/pbi_scatter_chart_hover.png)
 
-3. Aby ustawić liczbę punktów danych do wyświetlenia na wykresie bąbelkowym, w sekcji **Format** okienka **Wizualizacje** rozwiń kartę **Ogólne** i dostosuj pozycję **Ilość danych**. Możesz ustawić maksymalną ilość danych na dowolną liczbę do 10 000 (domyślnie 3500).
+3. Aby ustawić liczbę punktów danych do wyświetlenia na wykresie bąbelkowym, w sekcji **Format** okienka **Wizualizacje** rozwiń kartę **Ogólne** i dostosuj pozycję **Ilość danych**. Możesz ustawić dowolną liczbę do 10 000 jako maksymalną ilość danych. W przypadku większych wartości zalecamy wcześniejsze przeprowadzenie testu w celu zapewnienia dobrej wydajności. 
 
     ![Ilość danych](media/power-bi-visualization-scatter/pbi_scatter_data_volume.png) 
 

@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 891e9d35be271f6479a832b234a69132736f09a5
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 6e1b2960eee8f436f8dbce660e755a5d0b39a68e
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721575"
 ---
 # <a name="troubleshooting-refresh-scenarios"></a>Rozwiązywanie problemów ze scenariuszami odświeżania
 W tym miejscu możesz znaleźć informacje dotyczące różnych scenariuszy związanych z odświeżaniem danych w usłudze Power BI.
@@ -56,6 +57,14 @@ Maksymalny rozmiar zestawów danych zaimportowanych do **usługi Power BI** to 1
 
 ## <a name="scheduled-refresh-timeout"></a>Limit czasu zaplanowanego odświeżania
 Zaplanowane odświeżanie w przypadku zaimportowanych zestawów danych przekracza limit czasu po dwóch godzinach. W przypadku zestawów danych w obszarach roboczych w warstwie **Premium** limit czasu jest zwiększony do pięciu godzin. Jeśli zostanie osiągnięty ten limit, możesz zredukować rozmiar lub złożoność zestawu danych albo podzielić zestaw danych na mniejsze części.
+
+## <a name="access-to-the-resource-is-forbidden"></a>Dostęp do tego zasobu jest zabroniony  
+Ten błąd mógł wystąpić z powodu wygaśnięcia buforowanych poświadczeń. Wyczyść pamięć podręczną przeglądarki internetowej, logując się do usługi Power BI i przechodząc na adres https://app.powerbi.com?alwaysPromptForContentProviderCreds=true. To wymusza aktualizację Twoich poświadczeń. 
+    
+    
+## <a name="data-refresh-failure-because-of-password-change-or-expired-credentials"></a>Błąd odświeżania danych z powodu zmiany hasła lub wygaśnięcia poświadczeń 
+Odświeżanie danych mogło zakończyć się niepowodzeniem również z powodu wygaśnięcia buforowanych poświadczeń. Wyczyść pamięć podręczną przeglądarki internetowej, logując się do usługi Power BI i przechodząc na adres https://app.powerbi.com?alwaysPromptForContentProviderCreds=true. To wymusza aktualizację Twoich poświadczeń.
+
 
 ## <a name="next-steps"></a>Następne kroki
 [Odświeżanie danych](refresh-data.md)  

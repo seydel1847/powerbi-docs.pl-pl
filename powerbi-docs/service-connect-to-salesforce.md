@@ -7,14 +7,15 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 04/13/2018
+ms.date: 05/30/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: f5eeb877488539254478ad4bc25d64d663b797f1
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: e36cff803af74d212f4c1804fe3a955a11c193cf
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722456"
 ---
 # <a name="connect-to-salesforce-with-power-bi"></a>Nawiązywanie połączenia z usługą Salesforce przy użyciu usługi Power BI
 Przy użyciu usługi Power BI możesz z łatwością nawiązać połączenie z kontem Salesforce.com. Utworzenie takiego połączenia spowoduje pobranie danych i automatycznie zapewni pulpit nawigacyjny i powiązane raporty oparte na danych.
@@ -73,7 +74,12 @@ Możesz zmienić ten pulpit nawigacyjny, aby wyświetlać dane w dowolny sposób
 
 
 ## <a name="troubleshooting"></a>Rozwiązywanie problemów
-Jeśli wystąpią jakiekolwiek problemy, sprawdź powyższe wymagania. Ponadto zwróć uwagę, że możliwość zalogowania w niestandardowej lub testowej domenie nie jest obecnie obsługiwana.
+Jeśli wystąpią jakiekolwiek problemy, sprawdź powyższe wymagania. Ponadto zwróć uwagę, że możliwość logowania do domeny niestandardowej lub testowej nie jest obecnie obsługiwana.
+
+### <a name="unable-to-connect-to-the-remote-server-message"></a>Komunikat „Unable to connect to the remote server” (Nie można nawiązać połączenia z serwerem zdalnym)
+
+Jeśli podczas próby nawiązania połączenia z kontem usługi Salesforce zostanie wyświetlony komunikat „Unable to connect to the remote server” (Nie można nawiązać połączenia z serwerem zdalnym), zobacz to rozwiązanie na forum Outsystems: [Salesforce Connector Log In Error Message: Unable to connect to the remote server (Komunikat o błędzie logowania łącznika usługi Salesforce: nie można nawiązać połączenia z serwerem zdalnym)](https://www.outsystems.com/forums/Forum_TopicView.aspx?TopicId=17674&TopicName=log-in-error-message-unable-to-connect-to-the-remote-server&)
+
 
 ## <a name="next-steps"></a>Następne kroki
 [Wprowadzenie do usługi Power BI](service-get-started.md)

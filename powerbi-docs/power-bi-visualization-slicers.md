@@ -8,15 +8,15 @@ featuredvideoid: zIZPA0UrJyA
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/05/2018
+ms.date: 05/25/2018
 ms.author: v-thepet
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 77c1dbe528b218fe3b51992f548325bb8916c22c
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 75ae82e43987cb42b858fe4350330fda3692cf97
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34297359"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721506"
 ---
 # <a name="slicers-in-power-bi"></a>Fragmentatory w usłudze Power BI
 Chcesz, aby czytelnicy raportu mogli zapoznawać się z ogólnymi metrykami sprzedaży, ale również identyfikować wydajność poszczególnych menedżerów regionalnych i wydajność w różnych przedziałach czasowych. Możesz utworzyć oddzielne raporty lub wykresy porównawcze albo skorzystać z fragmentatorów. Fragmentator to alternatywny sposób filtrowania, który zawęża część zestawu danych wyświetlanego w innych wizualizacjach w raporcie. 
@@ -43,6 +43,13 @@ Fragmentatory usługi Power BI mają następujące ograniczenia:
 ## <a name="create-slicers"></a>Tworzenie fragmentatorów
 
 Aby utworzyć nowy fragmentator, możesz wybrać ikonę fragmentatora, a następnie wybrać pole danych, według którego będziesz filtrować (lub przeciągnąć je do obszaru **Pola** w okienku **Wizualizacje**). Możesz również najpierw wybrać lub przeciągnąć pole danych, aby utworzyć wizualizację, a następnie wybrać ikonę fragmentatora, aby przekształcić wizualizację we fragmentator. Różne typy danych służą do tworzenia różnych typów fragmentatorów z różnymi opcjami i efektami. 
+
+Gdy po raz pierwszy wprowadzasz zmiany raportu, przycisk **Przywróć domyślne** jest podświetlany. Jest to przypomnienie, że wprowadzono zmianę oryginalnych ustawień raportu. Jeśli opuścisz raport, zmiana ta zostanie zapisana (utrwalona). Po powrocie do raportu nie trzeba go ponownie fragmentować.  Jeśli jednak chcesz przywrócić raport do ustawień domyślnych autora, wybierz przycisk **Przywróć domyślne** na górnym pasku menu.
+
+![przycisk przywróć domyślne](media/power-bi-visualization-slicers/power-bi-reset-to-default.png)
+
+> [!NOTE]
+> Jeśli przycisk **Przywróć domyślne** pozostaje wyłączony, oznacza to, że autor wyłączył tę funkcję raportu lub raport zawiera wizualizację niestandardową. Aby przeczytać wyjaśnienie w etykietce narzędzia, wystarczy najechać kursorem na przycisk. 
 
 **Aby utworzyć nowy fragmentator do filtrowania danych według menedżera regionalnego**
 

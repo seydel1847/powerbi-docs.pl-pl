@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: ab914cd883d9a297150dd9a33dce9c6ce76308bf
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 7caf471674c20607826550fc14f8ebc8e772b61a
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34584259"
 ---
 # <a name="connect-to-quickbooks-online-with-power-bi"></a>Nawiązywanie połączenia z usługą QuickBooks Online przy użyciu usługi Power BI
 Podczas nawiązywania połączenia z danymi usługi QuickBooks Online z usługi Power BI natychmiast uzyskasz pulpit nawigacyjny oraz raporty usługi Power BI zapewniające wgląd w przepływ gotówki, zyskowność, klientów i wiele innych informacji dotyczących firmy. Możesz użyć pulpitu nawigacyjnego i raportów w takiej formie lub dostosować je, aby podkreślić najważniejsze informacje. Dane są odświeżane automatycznie raz dziennie.
@@ -22,7 +23,7 @@ Podczas nawiązywania połączenia z danymi usługi QuickBooks Online z usługi 
 Nawiąż połączenie z [pakietem zawartości QuickBooks Online ](https://dxt.powerbi.com/getdata/services/quickbooks-online) dla usługi Power BI.
 
 >[!NOTE]
->Aby zaimportować dane usługi QuickBooks Online do usługi Power BI, musisz być administratorem konta w usłudze QuickBooks Online oraz musisz zalogować się przy użyciu swoich poświadczeń administratora.
+>Aby zaimportować dane usługi QuickBooks Online do usługi Power BI, musisz być administratorem konta w usłudze QuickBooks Online oraz musisz zalogować się przy użyciu swoich poświadczeń administratora. Tego łącznika nie można używać z oprogramowaniem QuickBooks Desktop. 
 
 ## <a name="how-to-connect"></a>Jak nawiązać połączenie
 1. Wybierz pozycję **Pobierz dane** w dolnej części okienka nawigacji po lewej stronie.

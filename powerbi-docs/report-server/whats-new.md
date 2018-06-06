@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 04/19/2018
+ms.date: 05/21/2018
 ms.author: maggies
-ms.openlocfilehash: 391edc8a2187f9a4af43b93f0713d40e41f6e943
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 07c393425d2a04376a4fcf81c2c35a0e115eeaee
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34295427"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34481965"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Co nowego w serwerze raportów usługi Power BI
 Dowiedz się, co nowego w serwerze raportów usługi Power BI. Obejmuje to obszary najważniejszych funkcji i jest aktualizowane w miarę, jak są wydawane nowe elementy.
@@ -32,6 +32,12 @@ Powiązane nowości w usłudze Power BI zostały opisane w następujących artyk
 * [Co nowego w usłudze Power BI](../service-whats-new.md)
 * [Co nowego w programie Power BI Desktop](../desktop-latest-update.md)
 * [Co nowego w aplikacjach mobilnych dla usługi Power BI](../mobile-whats-new-in-the-mobile-apps.md)
+
+## <a name="may-2018"></a>Maj 2018
+
+### <a name="configure-power-bi-ios-mobile-apps-for-report-servers-remotely"></a>Zdalne konfigurowanie aplikacji mobilnych Power BI dla systemu iOS na potrzeby serwerów raportów
+
+Jako administrator IT możesz teraz zdalnie konfigurować dostęp aplikacji mobilnej Power BI dla systemu iOS do serwera raportów za pomocą narzędzia do zarządzania urządzeniami przenośnymi używanego w organizacji. Szczegółowe informacje zawiera artykuł [Zdalne konfigurowanie dostępu aplikacji mobilnej Power BI dla systemu iOS do serwera raportów](configure-powerbi-mobile-apps-remote.md).
 
 ## <a name="march-2018-release"></a>Wydanie z marca 2018 r.
 
@@ -101,7 +107,7 @@ Podczas przechodzenia do szczegółów w danej kategorii w jednej wizualizacji m
 - [Wyszukiwanie w okienkach formatowania i analizy](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#search)
 - [Okienko właściwości pola i opisy pól](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#fieldPropertiesPane)
 
-### <a name="analytics"></a>Analiza
+### <a name="analytics"></a>Analytics
 
 - [UTCNOW() i UTCTODAY()](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#utcDAX)
 - [Oznaczanie niestandardowej tabeli dat](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#customDateTable)
@@ -204,7 +210,7 @@ Serwer raportów usługi Power BI obsługuje obecnie nowe elementy wizualne tabe
 * Rozszerzona współpraca przy raportach z komentarzami
 
 ## <a name="next-steps"></a>Następne kroki
-[Podręcznik użytkownika](user-handbook-overview.md)  
+[Co to jest serwer raportów usługi Power BI?](get-started.md) 
 [Podręcznik administratora](admin-handbook-overview.md)  
 [Instalacja serwera raportów usługi Power BI](install-report-server.md)  
 [Instalowanie programu Report Builder](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  

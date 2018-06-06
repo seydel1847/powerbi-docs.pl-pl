@@ -7,13 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 10/12/2017
+ms.date: 05/18/2018
 ms.author: maggies
-ms.openlocfilehash: e5e49d2f30cca4c0c731d29fe31d2cb6856066f2
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 08a7740d1a44c4a5e8ef961100c38f3bc4622fd8
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721966"
 ---
 # <a name="add-comments-to-a-report-in-a-report-server"></a>Dodawanie komentarzy do raportu na serwerze raportów
 Do raportów, w tym do raportów usługi Power BI, można dodawać komentarze w portalu internetowym serwera raportów. Komentarze są połączone z raportem i każda osoba mająca odpowiednie uprawnienia może wyświetlać komentarze do raportu. Aby uzyskać szczegółowe informacje, zobacz sekcję [Uprawnienia](#permissions) poniżej.
@@ -44,7 +45,7 @@ W zależności od uprawnień możesz:
 * Wyświetlać wszystkie komentarze oraz publikować, edytować i usuwać własne, a także usuwać komentarze innych osób.
 
 ## <a name="next-steps"></a>Następne kroki
-* [Serwer raportów usługi Power BI — podręcznik użytkownika](user-handbook-overview.md)  
+* [Co to jest serwer raportów usługi Power BI?](get-started.md)  
 
 Masz więcej pytań? [Zadaj pytanie społeczności usługi Power BI](https://community.powerbi.com/)
 

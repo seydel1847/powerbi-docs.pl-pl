@@ -9,11 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/25/2018
 ms.author: maghan
-ms.openlocfilehash: 23eea014ca4554a2df676cf1fe0be54c2b69d15a
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: b340ba2f2798c518d1705c03f7ec526a43bc019d
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721782"
 ---
 # <a name="browser-support-for-power-bi-report-server"></a>Obsługa przeglądarek dla serwera raportów usługi Power BI
 Dowiedz się więcej o obsługiwanych wersjach przeglądarek do zarządzania i wyświetlania serwera raportów serwera Power BI i kontrolek przeglądarki raportów.
@@ -111,7 +112,7 @@ Użyj przeglądarki, która ma włączoną obsługę skryptów. Jeśli przegląd
   **(+)** Najnowsza publicznie wydana wersja
 
 ## <a name="next-steps"></a>Następne kroki
-[Podręcznik administratora](admin-handbook-overview.md)  
+[Omówienie dla administratorów](admin-handbook-overview.md)  
 [Instalacja serwera raportów usługi Power BI](install-report-server.md)  
 [Instalowanie programu Report Builder](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
 [Pobieranie programu SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)

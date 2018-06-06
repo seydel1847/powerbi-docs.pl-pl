@@ -9,11 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 3/5/2018
 ms.author: pashah
-ms.openlocfilehash: 94f137f0b8627bf34e78d9ac36574c64dd5d4752
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 3c3295483112ae0b5475e15c2073faba86dfff30
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34561821"
 ---
 # <a name="capacity-planning-guidance-for-power-bi-report-server"></a>Wskazówki dotyczące planowania wydajności serwera raportów usługi Power BI
 Serwer raportów usługi Power BI to samoobsługowe rozwiązanie z zakresu analizy biznesowej i raportowania dla przedsiębiorstw. Rozwiązanie to może być wdrażane przez klienta w siedzibie firmy, za zaporą. Serwer ten stanowi połączenie interaktywnych funkcji raportów znanych z programu Power BI Desktop oraz lokalnej platformy serwera znanej z usług SQL Server Reporting Services. Firmy coraz intensywniej korzystają z funkcji analiz i raportów, przez co trudno jest określić budżet na infrastrukturę sprzętową i licencje na oprogramowanie wymagane do skalowania bazy użytkowników w przedsiębiorstwie. Ten dokument zawiera wskazówki dotyczące planowania wydajności serwera raportów usługi Power BI przez udostępnianie wyników licznych testów obciążenia wykonywanych na serwerze raportów przy różnych obciążeniach. Mimo że raporty, zapytania i wzorce użycia stosowane w organizacji mogą być różne, wyniki przedstawione w tym dokumencie, wykonane testy oraz szczegółowy opis sposobu ich przeprowadzenia służą za punkt odniesienia dla każdego, kto zaczyna planowanie wdrażania serwera raportów usługi Power BI.
@@ -49,7 +50,7 @@ Wdrożenie serwera raportów usługi Power BI obejmowało następujące maszyny 
 Aby uzyskać informacje na temat szczegółowej konfiguracji poszczególnych maszyn wirtualnych użytych w tej topologii, zobacz Dodatek 1.1 — Topologia serwera raportów usługi Power BI i Dodatek 1.2 — Konfiguracja maszyny wirtualnej serwera raportów usługi Power BI.
 
 ### <a name="tests"></a>Testy
-Testy używane w przebiegach testów obciążenia są publicznie dostępne w projekcie usługi GitHub o nazwie Reporting Services LoadTest (zobacz https://github.com/Microsoft/Reporting-Services-LoadTest). To narzędzie umożliwia badanie wydajności, niezawodności, skalowalności i możliwości odzyskiwania w zakresie usług SQL Server Reporting Services i serwera raportów usługi Power BI. Ten projekt składa się z czterech grup przypadków testowych:
+Testy używane w przebiegach testów obciążenia są publicznie dostępne w projekcie usługi GitHub o nazwie [Reporting Services LoadTest](https://github.com/Microsoft/Reporting-Services-LoadTest). To narzędzie umożliwia badanie wydajności, niezawodności, skalowalności i możliwości odzyskiwania w zakresie usług SQL Server Reporting Services i serwera raportów usługi Power BI. Ten projekt składa się z czterech grup przypadków testowych:
 
 * Testy symulujące renderowanie raportów usługi Power BI,
 * Testy symulujące renderowanie raportów dla urządzeń przenośnych,

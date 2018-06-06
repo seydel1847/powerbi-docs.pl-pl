@@ -8,15 +8,15 @@ featuredvideoid: lnv66cTZ5ho
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/21/2018
+ms.date: 05/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 9288c44194a7eabebfa9888b1bca0023a54950e8
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 6cc9b9cafe2b3efdb8e51e89c203e2cb123e909a
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34293587"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34584282"
 ---
 # <a name="combo-chart-in-power-bi"></a>Wykres kombi w usłudze Power BI
 W usłudze Power BI wykres kombi to pojedyncza wizualizacja łącząca wykres liniowy i kolumnowy. Łączenie 2 wykresów w jednym umożliwia szybsze porównywanie danych.
@@ -101,10 +101,11 @@ W tym zadaniu porównamy marżę brutto i sprzedaż.
 
 6. Opcjonalnie zmodyfikuj czcionkę, rozmiar i kolor tekstu oraz ustaw inne opcje formatowania, aby poprawić widoczność i czytelność wykresu.
 
-W tym miejscu możesz chcieć:
+W tym miejscu możliwe jest:
 
-* [Dodać wykres kombi jako kafelek pulpitu nawigacyjnego](service-dashboard-tiles.md).
-* [Zapisz raport](service-report-save.md).
+* [Dodanie wykresu kombi jako kafelka pulpitu nawigacyjnego](service-dashboard-tiles.md).
+* [Zapisanie raportu](service-report-save.md).
+* [Zwiększanie dostępności raportu dla osób niepełnosprawnych](desktop-accessibility.md)
 
 ## <a name="cross-highlighting-and-cross-filtering"></a>Wyróżnianie i filtrowanie krzyżowe
 
