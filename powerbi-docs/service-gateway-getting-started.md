@@ -10,18 +10,18 @@ ms.topic: overview
 ms.date: 04/18/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: d569b68da7d13518f2d641817dfe1a68862698ac
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 1da7591a490ae5bc6d132136691db05af7cffd81
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: pl-PL
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34297888"
+ms.locfileid: "34754914"
 ---
 # <a name="what-are-power-bi-gateways"></a>Co to są bramy usługi Power BI?
 
 Brama usługi Power BI to oprogramowanie instalowane w sieci lokalnej. Ułatwia ono dostęp do danych w tej sieci. Ten program przypomina strażnika, który wyłapuje żądania dotyczące połączeń i pozwala na ich wykonanie tylko w przypadku, gdy żądania użytkowników spełniają określone kryteria. Umożliwia to organizacjom zachowanie baz danych i innych źródeł danych w sieciach lokalnych oraz bezpieczniejsze używanie danych lokalnych danych w raportach i na pulpitach nawigacyjnych usługi Power BI.
 
-Poniższy diagram przedstawia podstawowy widok bramy obsługującej żądania z chmury na trzech komputerach lokalnych. Szczegółowe informacje na ten temat znajdują się w dalszej części artykułu.
+Bramy można użyć z pojedynczym źródłem danych lub z wieloma źródłami danych. Poniższy diagram przedstawia podstawowy widok bramy obsługującej żądania z chmury na trzech komputerach lokalnych. Szczegółowe informacje na ten temat znajdują się w dalszej części artykułu.
 
 ![Omówienie bramy](media/service-gateway-getting-started/gateway-overview.png)
 

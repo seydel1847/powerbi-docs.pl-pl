@@ -1,32 +1,32 @@
 ---
 title: Co to jest usługa Power BI?
-description: Omówienie usługi Power BI i sposobu współdziałania jej różnych elementów — programu Power BI Desktop, usługi Power BI, usługi Power BI dla urządzeń przenośnych i serwera raportów.
+description: Omówienie usługi Power BI i sposobu współdziałania jej różnych elementów — programu Power BI Desktop, usługi Power BI, usługi Power BI dla urządzeń przenośnych, serwera raportów i usługi Power BI Embedded.
 author: mihart
 manager: kfile
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: overview
-ms.date: 05/27/2018
+ms.date: 06/04/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: b91c7b4bc96ea5b3f1e4a8db844ef6d9987c9b38
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 78edb9d45df1332a25ec27476562d6105c7a8a48
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: pl-PL
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34584190"
+ms.locfileid: "34755374"
 ---
 # <a name="what-is-power-bi"></a>Co to jest usługa Power BI?
 Usługa **Power BI** to zbiór usług oprogramowania, aplikacji i łączników, które działają razem, aby przekształcić niepowiązane źródła danych w spójne, atrakcyjne wizualnie i interaktywne analizy. Niezależnie od tego, czy dane to prosty arkusz kalkulacyjny programu Excel, czy też kolekcja chmurowych i lokalnych hybrydowych hurtowni danych, usługa **Power BI** umożliwia łatwe łączenie ze źródłami danych, wizualizowanie (lub odnajdywanie) ważnych informacji i udostępnianie ich wszystkim wybranym osobom.
 
-![](media/power-bi-overview/c0a0_1.png)
+![Diagram przedstawiający źródła wejściowe dla usługi Power BI](media/power-bi-overview/power-bi-input.png)
 
 Usługa **Power BI** może być szybka i prosta — pozwalając na szybki wgląd w szczegółowe dane pochodzące z arkusza kalkulacyjnego programu Excel lub lokalnej bazy danych. Lecz usługa **Power BI** jest także niezawodna i gotowa do pracy w przedsiębiorstwie obejmującej intensywne modelowanie i analizy w czasie rzeczywistym, a także niestandardowe programowanie. Dlatego może być osobistym narzędziem do raportowania i wizualizacji, a także służyć jako aparat obsługujący analizy i proces podejmowania decyzji na potrzeby grupy projektów, działów lub całych firm.
 
 ## <a name="the-parts-of-power-bi"></a>Elementy usługi Power BI
 Usługa Power BI składa się z aplikacji klasycznej systemu Windows o nazwie **Power BI Desktop**, usługi online typu SaaS (*oprogramowanie jako usługa*) o nazwie **Power BI** oraz **aplikacji** mobilnych Power BI dostępnych dla telefonów i tabletów z systemem Windows, a także dla urządzeń z systemami iOS i Android.
 
-![](media/power-bi-overview/c0a0_2.png)
+![Power BI: aplikacja klasyczna, usługa, aplikacja mobilna](media/power-bi-overview/power-bi-blocks.png)
 
 Te trzy elementy — **aplikacja klasyczna**, **usługa** i **aplikacje mobilne** — zaprojektowano tak, aby umożliwić użytkownikom tworzenie, udostępnianie i używanie analiz biznesowych w sposób najbardziej efektywny dla nich lub ról, które pełnią.
 
@@ -42,7 +42,8 @@ Możesz także korzystać z każdego z elementów usługi **Power BI** w innym c
 Być może przeglądasz zapasy i postęp produkcji za pomocą pulpitu nawigacyjnego w czasie rzeczywistym w usłudze, a także używasz programu **Power BI Desktop** do tworzenia raportów dotyczących statystyki zaangażowania klientów dla zespołu. Sposób korzystania z usługi Power BI może zależeć od tego, która funkcja lub usługa środowiska Power BI jest najlepsza w danej sytuacji, lecz wszystkie one są dostępne dla Ciebie — i dlatego to środowisko jest takie elastyczne i atrakcyjne.
 
 ## <a name="the-flow-of-work-in-power-bi"></a>Przepływ pracy w usłudze Power BI
-Wspólny przepływ pracy w usłudze Power BI rozpocznie się po połączeniu ze źródłami danych i utworzeniu raportu w programie **Power BI Desktop**. Raport ten jest następnie publikowany z programu **Desktop** do **usługi Power BI** i udostępniany w taki sposób, aby użytkownicy **usługi** i **urządzeń przenośnych** mogli *korzystać* z raportu (wyświetlać go i pracować z nim). Czasami może zajść potrzeba nadania współpracownikom uprawnień podobnych do Twoich (uprawnień *twórcy*). Dzięki temu będą oni mogli używać **usługi** do edytowania raportów, tworzenia pulpitów nawigacyjnych, a także udostępniania swojej pracy.
+Wspólny przepływ pracy w usłudze Power BI rozpocznie się po połączeniu ze źródłami danych i utworzeniu raportu w programie **Power BI Desktop**. Raport ten jest następnie publikowany z programu **Desktop** do **usługi Power BI** i udostępniany w taki sposób, aby użytkownicy **usługi** i **urządzeń przenośnych** mogli *korzystać* z raportu (wyświetlać go i pracować z nim).
+Czasami może zajść potrzeba nadania współpracownikom uprawnień podobnych do Twoich (uprawnień *twórcy*). Dzięki temu będą oni mogli używać **usługi** do edytowania raportów, tworzenia pulpitów nawigacyjnych, a także udostępniania swojej pracy.
 
 Nie zawsze dzieje się to w ten sposób, mimo że jest to jeden z najpopularniejszych przepływów pracy, który pokazuje, jak trzy główne elementy usługi Power BI wzajemnie się uzupełniają.
 
@@ -51,9 +52,9 @@ A jeśli jeszcze nie wszystko jest gotowe do przeniesienia do chmury i chcesz pr
 ## <a name="on-premises-reporting-with-power-bi-report-server"></a>Raportowanie w środowisku lokalnym przy użyciu serwera raportów usługi Power BI
 Tworzenie i wdrażanie raportów dla urządzeń przenośnych i raportów z podziałem na strony usługi Power BI oraz zarządzanie nimi lokalnie przy użyciu wielu gotowych do użycia narzędzi i usług zapewnianych przez Serwer raportów usługi Power BI.
 
-![](media/power-bi-overview/power-bi-report-server2.png)
+![Diagram środowiska lokalnego](media/power-bi-overview/power-bi-report-server2.png)
 
-Serwer raportów usługi Power BI to rozwiązanie wdrażane za zaporą, które dostarcza raporty do odpowiednich użytkowników na różne sposoby: wyświetlając je w przeglądarce internetowej, na urządzeniu przenośnym lub w postaci wiadomości e-mail. W związku z tym, że serwer raportów usługi Power BI jest zgodny z usługą Power BI w chmurze, możesz przenieść swoje środowisko pracy do chmury, gdy będzie gotowe. 
+Serwer raportów usługi Power BI to rozwiązanie wdrażane za zaporą, które dostarcza raporty do odpowiednich użytkowników na różne sposoby: wyświetlając je w przeglądarce internetowej, na urządzeniu przenośnym lub w postaci wiadomości e-mail. W związku z tym, że serwer raportów usługi Power BI jest zgodny z usługą Power BI w chmurze, możesz przenieść swoje środowisko pracy do chmury, gdy będzie gotowe.
 
 ## <a name="next-steps"></a>Następne kroki
 [Logowanie, pobieranie danych i zapoznawanie się z usługą Power BI](service-the-new-power-bi-experience.md)

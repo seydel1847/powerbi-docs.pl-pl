@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: d2f657423903b783c2e57822cabb577acd10a8bc
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 5d5544fba824443b1ba7b58c3e9d21f7769554d6
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: pl-PL
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34294691"
+ms.locfileid: "34755328"
 ---
 # <a name="use-power-bi-service-or-power-bi-desktop-to-create-a-custom-answer-page-for-cortana"></a>Tworzenie niestandardowej strony odpowiedzi dla Cortany przy użyciu usługi Power BI lub programu Power BI Desktop
 Korzystaj z pełnego zestawu funkcji usługi Power BI, aby tworzyć specjalne strony raportu, nazywane *stronami odpowiedzi Cortany* (a czasami *kartami odpowiedzi Cortany*), przeznaczone specjalnie do odpowiadania na pytania Cortany.
@@ -46,6 +46,12 @@ Dostępne są cztery dokumenty, które przeprowadzą Cię przez proces konfiguro
    
     ![](media/service-cortana-answer-cards/pbi-cortana-page-size-new.png)
 3. Utwórz wizualizację lub zbiór wizualizacji, które mają być wyświetlane w Cortanie jako odpowiedź na określone pytanie (lub zestaw pytań).
+
+> [!NOTE]
+> W tej chwili strony odpowiedzi Cortany nie obsługują obrazów z wyświetlanymi w nich statycznymi obrazami. Obrazy można dołączać w wizualizacjach tabeli lub matrycy, które są dynamicznie pobierane na podstawie adresu URL danych. 
+> 
+> 
+
 4. Upewnij się, że wszystkie wizualizacje mieszczą się w granicach strony. Opcjonalnie zmodyfikuj ustawienia wyświetlania, etykiety danych, kolory i tła.  
    
     ![](media/service-cortana-answer-cards/pbi_cortana_modify-new.png)

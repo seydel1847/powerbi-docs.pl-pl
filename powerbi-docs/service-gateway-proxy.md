@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/21/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: c0ad0c22d0787eaaa45cb36c74c01f6a1d1f85e3
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: ef554d7190709565610336169b4883d71970f822
+ms.sourcegitcommit: b25ae650643b0a62f33d7c1741307137b9cec316
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722663"
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34799561"
 ---
 # <a name="configuring-proxy-settings-for-the-on-premises-data-gateway"></a>Konfigurowanie ustawień serwera proxy dla lokalnej bramy danych
 Środowisko pracy może wymagać, aby dostęp do Internetu odbywał się za pośrednictwem serwera proxy. Może to uniemożliwiać lokalnej bramie danych nawiązanie połączenia z usługą.
@@ -50,7 +50,7 @@ Poniżej przedstawiono domyślną konfigurację serwera proxy.
         <defaultProxy useDefaultCredentials="true" />
     </system.net>
 
-Konfiguracja domyślna korzysta z uwierzytelniania systemu Windows. Jeśli Twój serwer proxy korzysta z innej formy uwierzytelniania, musisz zmienić ustawienia. Jeśli masz wątpliwości, skontaktuj się z administratorem sieci.
+Konfiguracja domyślna korzysta z uwierzytelniania systemu Windows. Jeśli Twój serwer proxy korzysta z innej formy uwierzytelniania, musisz zmienić ustawienia. Jeśli masz wątpliwości, skontaktuj się z administratorem sieci. Uwierzytelnianie podstawowe serwera proxy nie jest zalecane, dlatego próba użycia uwierzytelniania podstawowego serwera proxy może spowodować błędy uwierzytelniania, co w konsekwencji powoduje nieprawidłowe skonfigurowanie bramy. Aby rozwiązać ten problem, użyj silniejszego mechanizmu uwierzytelniania serwera proxy.
 
 Oprócz używania poświadczeń domyślnych, można dodać element <proxy>, aby bardziej szczegółowo zdefiniować ustawienia serwera proxy. Na przykład można określić, że lokalna brama danych powinna zawsze używać serwera proxy, nawet w przypadku zasobów lokalnych, przez ustawienie wartości false dla parametru bypassonlocal. Może to pomóc w rozwiązywaniu problemów w sytuacjach, gdy chcesz śledzić wszystkie żądania https pochodzące z lokalnej bramy danych w plikach dziennika serwera proxy. Poniższa przykładowa konfiguracja określa, że wszystkie żądania muszą przejść przez określony serwer proxy o adresie IP 192.168.1.10.
 
@@ -93,6 +93,10 @@ Podczas konfigurowania ustawień serwera proxy pod kątem używania domyślnych 
 5. Przywróć bramę przy użyciu klucza odzyskiwania.
    
     Pozwoli to nowemu kontu usługi odszyfrować przechowywane poświadczenia dla źródeł danych.
+    
+> [!NOTE]
+> Bezpośrednia zmiana konta usługi za pomocą panelu sterowania usług nie powoduje automatycznej aktualizacji listy ACL. Należy się upewnić, że nowe konto usługi ma dostęp do plików i folderu instalacji. Folder instalacji bramy można znaleźć w ścieżce C:\Program Files\On-premises data gateway. 
+> 
 
 ## <a name="next-steps"></a>Następne kroki
 [Lokalna brama danych (tryb osobisty)](service-gateway-personal-mode.md)

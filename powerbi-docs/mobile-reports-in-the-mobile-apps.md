@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/22/2018
+ms.date: 06/05/2018
 ms.author: maggies
-ms.openlocfilehash: 6d7ab55c3ecbb13b40354f67263d597f0e1179f7
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 5b4d5ea7970dd44cfebadca6935452688515aef5
+ms.sourcegitcommit: b25ae650643b0a62f33d7c1741307137b9cec316
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34297681"
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34799423"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Eksplorowanie raportów w aplikacjach mobilnych Power BI
 Dotyczy:
@@ -81,25 +81,30 @@ Po wybraniu wartości w wizualizacji inne wizualizacje nie są filtrowane. Zamia
    ![Sortowanie wizualizacji](media/mobile-reports-in-the-mobile-apps/power-bi-android-tablet-report-sort.png)
 * Aby odwrócić porządek sortowania, ponownie naciśnij ikonę wielokropka (**...**) i tę samą nazwę pola.
 
-## <a name="drill-down-on-an-ipad-or-a-tablet"></a>Przechodzenie do szczegółów na urządzeniu iPad lub tablecie
-Jeśli autor raportu dodał możliwość przechodzenia do szczegółów wizualizacji, na urządzeniu iPad lub tablecie możesz przejść do szczegółów w wizualizacji, aby zobaczyć wartości, które tworzą jedną jej część. [Możliwość przechodzenia do szczegółów możesz dodać do wizualizacji](power-bi-visualization-drill-down.md) w programie Power BI Desktop lub usłudze Power BI. 
+## <a name="drill-down-and-up-in-a-visual"></a>Przechodzenie do szczegółów i uogólnianie w wizualizacji
+Jeśli autor raportu dodał możliwość przechodzenia do szczegółów wizualizacji, możesz przejść do szczegółów w wizualizacji, aby zobaczyć wartości, które tworzą jedną jej część. [Możliwość przechodzenia do szczegółów możesz dodać do wizualizacji](power-bi-visualization-drill-down.md) w programie Power BI Desktop lub usłudze Power BI. 
 
-> [!NOTE]
-> Obecnie przechodzenie do szczegółów nie działa w przypadku map na urządzeniu iPad ani tablecie.
-> 
-> 
+* Naciśnij punkt danych w wizualizacji, aby wyświetlić jego etykietkę narzędzia. Jeśli wizualizacja obsługuje przechodzenie do szczegółów, w dolnej części etykietki narzędzia są strzałki, które można nacisnąć. 
+  
+  ![Przechodzenie do szczegółów w wizualizacji](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-down-tooltip.png)
 
-* Naciśnij wizualizację. Jeśli w górnych rogach znajdują się ikony strzałek w górę i w dół ![Ikony Uogólnij i Przejdź do szczegółów](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-up-down.png), możesz przejść do szczegółów. Aby przejść do szczegółów dotyczących jednej wartości, naciśnij strzałkę w prawym górnym rogu, a następnie naciśnij wartość w wizualizacji — w tym przypadku ciemnoniebieski bąbelek FD-04.
+* Aby uogólnić, naciśnij strzałkę w górę w etykietce narzędzia.
   
-  ![Przechodzenie do szczegółów w wizualizacji](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-down-one.png)
-* Aby uogólnić, naciśnij strzałkę w górę w lewym górnym rogu.
-  
-  ![Uogólnianie](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-up.png)
+  ![Uogólnianie](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-up-tooltip.png)
 
-## <a name="go-back-to-my-workspace"></a>Powrót do sekcji Mój obszar roboczy
-* Naciśnij strzałkę obok nazwy raportu, a następnie naciśnij polecenie **Mój obszar roboczy**.
-  
-  ![Powrót](media/mobile-reports-in-the-mobile-apps/power-bi-iphone-report-back.png)
+* Można również przechodzić do szczegółów wszystkich punktów danych w wizualizacji. Otwórz wizualizację w trybie koncentracji uwagi, naciśnij ikonę Eksploruj, a następnie wybierz pokazywanie wszystkich następnych poziomów lub rozwiń, aby wyświetlić bieżący i następny poziom.
+
+   ![Przechodzenie do szczegółów wszystkich elementów w usłudze Power BI](media/mobile-reports-in-the-mobile-apps/power-bi-drill-down-all.png)
+
+## <a name="drill-through-from-one-page-to-another"></a>Przeglądanie szczegółowe z jednej strony do innej
+
+Podczas korzystania z funkcji *przeglądania szczegółowego* po naciśnięciu konkretnej części wizualizacji w usłudze Power BI jest wyświetlana inna strona raportu przefiltrowana według wartości, która została naciśnięta. Autor raportu może zdefiniować jedną lub kilka opcji przeglądania szczegółowego, z których każda może prowadzić do innej strony. W takim przypadku można wybrać, która opcja przeglądania szczegółowego ma zostać użyta. W poniższym przykładzie po naciśnięciu wartości miernika można wybrać, czy szczegółowo przeglądany ma być strona **wydatki według obszaru działalności**, czy **planowanie według obszaru działalności**.
+
+![Przeglądanie szczegółowe raportu w usłudze Power BI dla urządzeń przenośnych](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-through-it-spent-report.png)
+
+Podczas przeglądania szczegółowego przycisk Wstecz powoduje powrót do poprzedniej strony raportu.
+
+Przeczytaj informacje o sposobie [dodawania możliwości przeglądania szczegółowego w programie Power BI Desktop](desktop-drillthrough.md).
 
 ## <a name="next-steps"></a>Następne kroki
 * [Wyświetlanie raportów usługi Power BI zoptymalizowanych pod kątem telefonu i interakcje z nimi](mobile-apps-view-phone-report.md)

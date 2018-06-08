@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 05/21/2018
+ms.date: 06/05/2018
 ms.author: maggies
-ms.openlocfilehash: 0e4401499ab54707970b928366c67a9dcf7d587a
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 9cf6e1a0b4e711f696d9728850352a53ac8442f6
+ms.sourcegitcommit: b25ae650643b0a62f33d7c1741307137b9cec316
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34482181"
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34799630"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Co nowego w aplikacjach mobilnych dla usługi Power BI
 Powiązane nowości są dostępne w następujących artykułach:
@@ -25,9 +25,26 @@ Powiązane nowości są dostępne w następujących artykułach:
 
 ## <a name="may-2018"></a>Maj 2018
 
-### <a name="configure-power-bi-ios-mobile-apps-for-report-servers-remotely"></a>Zdalne konfigurowanie aplikacji mobilnych Power BI dla systemu iOS na potrzeby serwerów raportów
+### <a name="mobile-drill-through-all-mobile-apps"></a>Przeglądanie szczegółowe w aplikacji mobilnej: wszystkie aplikacje mobilne
+
+W aplikacjach mobilnych można użyć funkcji przeglądania szczegółowego, aby przejść z wybranego punktu danych do innej strony raportu, jeśli autor raportu zdefiniował taką akcję. 
+
+### <a name="back-button-all-mobile-apps"></a>Przycisk Wstecz: wszystkie aplikacje mobilne
+
+Podczas nawigowania po raporcie za pomocą szybkich przesunięć, wybierania strony raportu na pasku akcji lub przy użyciu funkcji przeglądania szczegółowego przycisk Wstecz umożliwia powrót do poprzednio wyświetlanej strony. 
+
+### <a name="dashboard-themes-all-mobile-apps"></a>Motywy pulpitu nawigacyjnego: wszystkie aplikacje mobilne
+
+Jeśli autorzy raportów dostosują motywy pulpitu nawigacyjnego w usłudze Power BI, wygląd i działanie pulpitu nawigacyjnego zmieni się również w aplikacji mobilnej. Nie będą jednak widoczne obrazy tła.
+
+### <a name="ios-configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>iOS: zdalne konfigurowanie dostępu aplikacji mobilnej Power BI dla systemu iOS do serwera raportów
 
 Administrator IT może teraz konfigurować za pomocą narzędzia MDM dostęp aplikacji mobilnych Power BI dla systemu iOS do serwera raportów. Szczegółowe informacje zawiera artykuł [Zdalne konfigurowanie dostępu aplikacji mobilnej Power BI dla systemu iOS do serwera raportów](report-server/configure-powerbi-mobile-apps-remote.md).
+
+### <a name="power-bi-for-mixed-reality-app-preview"></a>Aplikacja usługi Power BI dla rzeczywistości mieszanej (wersja zapoznawcza)
+
+Aplikacja usługi Power BI dla rzeczywistości mieszanej jest teraz dostępna w sklepie Microsoft Store. Wyświetlaj swoje pulpity nawigacyjne i raporty w świecie wirtualnym lub umieszczaj je i wyświetlaj w określonych lokalizacjach w kontekście środowiska. Zobacz nowy kontekstowy klip wideo [Wprowadzenie do usługi Power BI na urządzeniu Hololens](https://www.youtube.com/watch?v=J_X_nOFUBss) lub przeczytaj artykuł o nowej [aplikacji usługi Power BI dla rzeczywistości mieszanej](mobile-mixed-reality-app.md).
+
 
 ## <a name="april-2018"></a>Kwiecień 2018
 

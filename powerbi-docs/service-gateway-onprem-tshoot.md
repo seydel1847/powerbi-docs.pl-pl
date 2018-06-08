@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/02/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: e688561b6b669aab68c4251fa5e25157dc219cd6
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: e689e031395130bab8ad80d5d06936a9dabaf852
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: pl-PL
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34723005"
+ms.locfileid: "34755075"
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>Rozwiązywanie problemów z lokalną bramą danych
 W tym artykule omówiono niektóre typowe problemy, które można napotkać podczas używania **lokalnej bramy danych**.
@@ -149,6 +149,9 @@ W takim przypadku konieczna będzie współpraca z administratorami domeny w cel
 **Źródła danych bramy danych nie są widoczne w środowisku pobierania danych dla usług Analysis Services w usłudze Power BI**
 
 Upewnij się, że Twoje konto jest widoczne na karcie **Użytkownicy** źródła danych w konfiguracji bramy. Jeśli nie masz dostępu do bramy, skontaktuj się z administratorem bramy i poproś o sprawdzenie. Źródło danych jest widoczne na liście usług Analysis Services tylko w przypadku kont znajdujących się na liście **Użytkownicy**.
+
+### <a name="error-you-dont-have-any-gateway-installed-or-configured-for-the-data-sources-in-this-dataset"></a>Błąd: nie masz zainstalowanej lub skonfigurowanej żadnej bramy na potrzeby źródeł danych w tym zestawie danych
+Upewnij się, że dodano co najmniej jedno źródło danych do bramy zgodnie z opisem w sekcji [Dodawanie źródła danych](service-gateway-manage.md#add-a-data-source). Jeśli brama nie jest wyświetlana w portalu administracyjnym w obszarze **Zarządzanie bramami**, spróbuj wyczyścić pamięć podręczną przeglądarki lub wyloguj się z usługi, a następnie zaloguj się do niej ponownie.
 
 ## <a name="datasets"></a>Zestawy danych
 ### <a name="error-there-is-not-enough-space-for-this-row"></a>Błąd: Za mało miejsca dla tego wiersza.

@@ -1,6 +1,6 @@
 - name: Korzystanie z usługi Power BI
   items:
-    - name: Przegląd
+    - name: Overview
       items:
         - name: Co to jest usługa Power BI?
           href: power-bi-overview.md
@@ -94,10 +94,6 @@
                   href: service-focus-mode.md
                 - name: 'Drukowanie pulpitu nawigacyjnego, drukowanie kafelka pulpitu nawigacyjnego, drukowanie strony raportu'
                   href: service-print.md
-                - name: Subskrybowanie raportu lub pulpitu nawigacyjnego
-                  href: service-report-subscribe.md
-                - name: Różne sposoby otwierania raportu
-                  href: service-report-open.md
                 - name: Zmienianie nazwy zawartości w usłudze Power BI
                   href: service-rename.md
                 - name: Wyświetlanie pulpitów nawigacyjnych i raportów w trybie pełnoekranowym (tryb TV)
@@ -238,12 +234,16 @@
                   href: service-dashboard-themes.md
             - name: Raporty
               items:
+                - name: Różne sposoby otwierania raportu
+                  href: service-report-open.md
                 - name: Zmienianie sposobu sortowania wykresu w raporcie usługi Power BI
                   href: power-bi-report-change-sort.md
                 - name: Eksportowanie danych z wizualizacji
                   href: power-bi-visualization-export-data.md
                 - name: Jak używać filtrów raportu
                   href: power-bi-how-to-report-filter.md
+                - name: Subskrybowanie raportu lub pulpitu nawigacyjnego
+                  href: service-report-subscribe.md
             - name: Opublikuj
               items:
                 - name: Power BI Publisher dla programu Excel
@@ -252,22 +252,6 @@
                   href: service-publish-to-powerpoint.md
         - name: Praca w usłudze Power BI
           items:
-            - name: Błyskawiczne doskonałe raporty na podstawie skoroszytów programu Excel
-              href: service-from-excel-to-stunning-report.md
-            - name: Funkcja pytań i odpowiedzi umożliwia tworzenie wizualizacji i konstruowanie raportów
-              href: power-bi-tutorial-q-and-a.md
-            - name: Pobieranie danych z plików skoroszytów programu Excel
-              href: service-excel-workbook-files.md
-            - name: Tworzenie nowego raportu z zestawu danych
-              href: service-report-create-new.md
-            - name: Interakcje z raportem w widoku do edycji w usłudze Power BI
-              href: service-interact-with-a-report-in-editing-view.md
-            - name: Jak współpracować nad pulpitami nawigacyjnymi i raportami oraz je udostępniać?
-              href: service-how-to-collaborate-distribute-dashboards-reports.md
-            - name: Tworzenie i rozpowszechnianie aplikacji z pulpitami nawigacyjnymi i raportami
-              href: service-create-distribute-apps.md
-            - name: Konfigurowanie odświeżania zaplanowanego
-              href: refresh-scheduled-refresh.md
             - name: Pulpity nawigacyjne
               items:
                 - name: Tworzenie pulpitu nawigacyjnego na podstawie raportu
@@ -304,6 +288,8 @@
                   href: service-data-classification.md
             - name: Zadawanie pytań dotyczących danych
               items:
+                - name: Funkcja pytań i odpowiedzi umożliwia tworzenie wizualizacji i konstruowanie raportów
+                  href: power-bi-tutorial-q-and-a.md
                 - name: Używanie funkcji pytań i odpowiedzi z danymi bramy Power BI Gateway — Enterprise (wersja zapoznawcza)
                   href: service-q-and-a-direct-query.md
                 - name: Dbanie o poprawne współdziałanie danych z funkcją pytań i odpowiedzi w usłudze Power BI
@@ -318,6 +304,10 @@
                   href: power-bi-q-and-a-linguistic-schema.md
             - name: Udostępnianie wyników pracy
               items:
+                - name: Jak współpracować nad pulpitami nawigacyjnymi i raportami oraz je udostępniać?
+                  href: service-how-to-collaborate-distribute-dashboards-reports.md
+                - name: Tworzenie i rozpowszechnianie aplikacji z pulpitami nawigacyjnymi i raportami
+                  href: service-create-distribute-apps.md
                 - name: Udostępnianie przefiltrowanego raportu
                   href: service-share-reports.md
                 - name: Publikowanie w sieci Web z usługi Power BI
@@ -354,6 +344,10 @@
                   href: power-bi-report-add-filter.md
                 - name: Zapisywanie raportu w usłudze Power BI
                   href: service-report-save.md
+                - name: Tworzenie nowego raportu z zestawu danych
+                  href: service-report-create-new.md
+                - name: Interakcje z raportem w widoku do edycji w usłudze Power BI
+                  href: service-interact-with-a-report-in-editing-view.md
                 - name: Analizuj w programie Excel
                   href: service-analyze-in-excel.md
                 - name: Zmienianie sposobu interakcji elementów wizualnych w raporcie
@@ -382,6 +376,10 @@
                   href: power-bi-visualizations-arcgis.md
             - name: Dane z plików
               items:
+                - name: Błyskawiczne doskonałe raporty na podstawie skoroszytów programu Excel
+                  href: service-from-excel-to-stunning-report.md
+                - name: Pobieranie danych z plików skoroszytów programu Excel
+                  href: service-excel-workbook-files.md
                 - name: Pobieranie danych z plików programu Power BI Desktop
                   href: service-desktop-files.md
                 - name: Pobieranie danych z plików z wartościami rozdzielanymi przecinkami (csv)
@@ -406,6 +404,8 @@
                   href: service-azure-and-power-bi.md
             - name: Odświeżanie danych
               items:
+                - name: Konfigurowanie odświeżania zaplanowanego
+                  href: refresh-scheduled-refresh.md
                 - name: Odświeżanie zestawu danych utworzonego na podstawie pliku programu Power BI Desktop — lokalnego
                   href: refresh-desktop-file-local-drive.md
                 - name: Odświeżanie zestawu danych utworzonego na podstawie pliku programu Power BI Desktop — w chmurze
@@ -462,7 +462,7 @@
           href: whitepapers.md
 - name: Power BI Desktop
   items:
-    - name: Przegląd
+    - name: Overview
       items:
         - name: Czym jest program Power BI Desktop?
           href: desktop-what-is-desktop.md
@@ -794,9 +794,9 @@
           href: desktop-admin-sign-in-form.md
 - name: Aplikacje mobilne Power BI
   items:
-    - name: Przegląd
+    - name: Overview
       items:
-        - name: Co to są aplikacje mobilne usługi Power BI?
+        - name: Co to są aplikacje mobilne?
           href: mobile-apps-for-mobile-devices.md
     - name: Przewodniki Szybki start
       items:
@@ -808,20 +808,20 @@
           href: tutorial-mobile-apps-ios-qna.md
     - name: Pojęcia
       items:
-        - name: Co nowego w aplikacjach mobilnych dla usługi Power BI
+        - name: Co nowego w aplikacjach mobilnych
           href: mobile-whats-new-in-the-mobile-apps.md
-        - name: Pobieranie danych usługi Power BI ze środowisk rzeczywistych za pomocą aplikacji mobilnych
+        - name: Pobieranie danych rzeczywistych za pomocą aplikacji mobilnych
           href: mobile-apps-data-in-real-world-context.md
-        - name: Wyświetlanie danych w trybie offline w aplikacjach mobilnych Power BI
+        - name: Wyświetlanie danych w trybie offline w aplikacjach mobilnych
           href: mobile-apps-offline-data.md
+        - name: Aplikacja usługi Power BI dla rzeczywistości mieszanej (wersja zapoznawcza)
+          href: mobile-mixed-reality-app.md
     - name: Instrukcje
       items:
         - name: Wszystkie aplikacje mobilne
           items:
             - name: Wyświetlanie raportów lokalnych w aplikacjach mobilnych
               href: mobile-app-ssrs-kpis-mobile-on-premises-reports.md
-            - name: Aplikacja usługi Power BI dla rzeczywistości mieszanej (wersja zapoznawcza)
-              href: mobile-mixed-reality-app.md
             - name: Udostępnianie pulpitu nawigacyjnego z aplikacji mobilnych Power BI
               href: mobile-share-dashboard-from-the-mobile-apps.md
             - name: Interakcje z kafelkami w aplikacjach mobilnych
@@ -850,7 +850,7 @@
               href: service-admin-mobile-intune.md
         - name: Urządzenia z systemem Android
           items:
-            - name: Wprowadzenie do aplikacji Power BI dla systemu Android
+            - name: Wprowadzenie do aplikacji systemu Android
               href: mobile-android-app-get-started.md
             - name: Rozwiązywanie problemu „Firmowy certyfikat SSL nie jest zaufany”
               href: mobile-android-app-error-corporate-ssl-account-is-untrusted.md
@@ -858,7 +858,7 @@
               href: mobile-android-error-update-android-system-webview.md
         - name: iOS
           items:
-            - name: Wprowadzenie do aplikacji usługi Power BI dla systemu iOS
+            - name: Wprowadzenie do aplikacji systemu iOS
               href: mobile-iphone-app-get-started.md
             - name: Wprowadzenie do aplikacji dla tabletu iPad
               href: mobile-ipad-app-get-started.md
@@ -866,31 +866,31 @@
               href: mobile-apps-ios-qna.md
             - name: Aplikacja Power BI dla zegarka Apple Watch
               href: mobile-apple-watch.md
-            - name: Skanowanie kodu kreskowego z aplikacji Power BI na telefonie iPhone
+            - name: Skanowanie kodu kreskowego z aplikacji na telefonie iPhone
               href: mobile-apps-scan-barcode-iphone.md
             - name: Aplikacje Power BI dla systemu iOS
               href: mobile-ios-ipad-iphone-apps.md
         - name: iOS i Android
           items:
-            - name: 'Adnotowanie i udostępnianie kafelka, raportu lub wizualizacji w aplikacjach mobilnych'
+            - name: Dodawanie adnotacji i udostępnianie w aplikacjach mobilnych
               href: mobile-annotate-and-share-a-tile-from-the-mobile-apps.md
         - name: Aplikacja Power BI dla urządzeń z systemem Windows 10
           items:
-            - name: Wprowadzenie do aplikacji mobilnej Power BI dla systemu Windows 10
+            - name: Wprowadzenie do aplikacji mobilnej dla systemu Windows 10
               href: mobile-windows-10-phone-app-get-started.md
             - name: Przypinanie pulpitu nawigacyjnego do ekranu startowego
               href: mobile-pin-dashboard-start-screen-windows-10-phone-app.md
-            - name: Wyświetlanie raportów i kluczowych wskaźników wydajności usług Reporting Services dla urządzeń przenośnych w aplikacji mobilnej Power BI dla systemu Windows 10
+            - name: Wyświetlanie raportów i kluczowych wskaźników wydajności usług Reporting Services dla urządzeń przenośnych w aplikacji dla systemu Windows 10
               href: mobile-app-windows-10-ssrs-kpis-mobile-reports.md
             - name: Wyświetlanie usługi Power BI na urządzeniu Surface Hub
               href: mobile-windows-10-app-presentation-mode.md
     - name: Zasoby
       items:
-        - name: Obsługiwane języki w aplikacjach mobilnych usługi Power BI
+        - name: Obsługiwane języki w aplikacjach mobilnych
           href: mobile-apps-supported-languages.md
 - name: Usługa Power BI dla deweloperów
   items:
-    - name: Przegląd
+    - name: Overview
       items:
         - name: Co deweloperzy mogą robić z usługą Power BI?
           href: developer/what-can-you-do.md
@@ -914,8 +914,6 @@
           items:
             - name: Tworzenie wizualizacji niestandardowej przy użyciu narzędzi deweloperskich
               href: service-custom-visuals-getting-started-with-developer-tools.md
-            - name: Przegląd wizualizacji niestandardowych pod kątem zabezpieczeń i prywatności
-              href: service-custom-visuals-review-for-security-and-privacy.md
             - name: Certyfikowanie wizualizacji niestandardowej
               href: power-bi-custom-visuals-certified.md
             - name: Publikowanie wizualizacji niestandardowych w usłudze AppSource
@@ -983,7 +981,7 @@
     - name: Dokumentacja
       items:
         - name: Interfejsy API REST
-          href: developer/rest-api-reference.md
+          href: 'https://docs.microsoft.com/rest/api/power-bi/'
         - name: 'Repozytorium Git języka C# usługi Power BI'
           href: 'https://go.microsoft.com/fwlink/?linkid=848273'
         - name: Pobieranie zestawu SDK .NET
@@ -1006,7 +1004,7 @@
           href: 'https://go.microsoft.com/fwlink/?linkid=848281'
 - name: Serwer raportów usługi Power BI
   items:
-    - name: Przegląd
+    - name: Overview
       items:
         - name: Co to jest serwer raportów usługi Power BI?
           href: report-server/get-started.md
@@ -1108,7 +1106,7 @@
           href: report-server/capacity-planning.md
 - name: Bramy
   items:
-    - name: Przegląd
+    - name: Overview
       items:
         - name: Co to są bramy usługi Power BI?
           href: service-gateway-getting-started.md
@@ -1154,7 +1152,7 @@
           href: service-gateway-onprem-tshoot.md
 - name: Administracja
   items:
-    - name: Przegląd
+    - name: Overview
       items:
         - name: Co to jest administracja usługi Power BI?
           href: service-admin-administering-power-bi-in-your-organization.md

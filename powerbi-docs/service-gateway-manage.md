@@ -10,21 +10,25 @@ ms.topic: conceptual
 ms.date: 04/18/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: aec57dc8d015afe80c9cc9cde83c2d1fd6ba26b0
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 8369566712e24c035ac0ec07cc7d5a219041a400
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: pl-PL
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722594"
+ms.locfileid: "34755167"
 ---
 # <a name="manage-a-power-bi-gateway"></a>Zarządzanie bramą usługi Power BI
 
-Po [zainstalowaniu bramy danych usługi Power BI](service-gateway-install.md) można zarządzać nią w obszarze **Zarządzanie bramami** w usłudze Power BI, w aplikacji bramy na komputerze lokalnym oraz za pomocą skryptów programu PowerShell. Ten artykuł koncentruje się na usłudze Power BI. Jeśli brama została właśnie zainstalowana, zalecamy [dodanie źródła danych](#add-a-data-source), a następnie [dodanie użytkowników](#add-users-to-a-data-source), aby mogli uzyskiwać dostęp do źródła danych.
+Po [zainstalowaniu bramy danych usługi Power BI](service-gateway-install.md) można nią zarządzać zgodnie z wymaganiami. W tym temacie omówiono sposób wykonywania następujących czynności: dodawanie i usuwanie źródeł danych oraz użytkowników, ponowne uruchamianie bramy oraz migrowanie, przywracanie, przejmowanie i usuwanie bramy. 
+
+Bramą można zarządzać w obszarze **Zarządzanie bramami** w usłudze Power BI, w aplikacji bramy na komputerze lokalnym oraz za pomocą skryptów programu PowerShell. Ten artykuł koncentruje się na usłudze Power BI. 
+
+Jeśli brama została właśnie zainstalowana, zalecamy [dodanie źródła danych](#add-a-data-source), a następnie [dodanie użytkowników](#add-users-to-a-data-source), aby mogli uzyskiwać dostęp do źródła danych.
 
 
 ## <a name="manage-data-sources"></a>Zarządzanie źródłami danych
 
-Usługa Power BI obsługuje wiele lokalnych źródeł danych, z których każde ma własne wymagania. W tym przykładzie pokażemy Ci sposób dodawania serwera SQL Server jako źródła danych, ale te kroki są podobne w przypadku innych źródeł danych.
+Usługa Power BI obsługuje wiele lokalnych źródeł danych, z których każde ma własne wymagania. Bramy można użyć z pojedynczym źródłem danych lub z wieloma źródłami danych. W tym przykładzie pokażemy Ci sposób dodawania serwera SQL Server jako źródła danych, ale te kroki są podobne w przypadku innych źródeł danych.
 
 
 ### <a name="add-a-data-source"></a>Dodawanie źródła danych
@@ -113,6 +117,14 @@ Gdy administratorzy użyją elementu menu **Zarządzaj bramami** dostępnego za 
 
 Wszystkie nowe żądania typu **Zaplanowane odświeżanie** i operacje DirectQuery są automatycznie kierowane do podstawowego wystąpienia danego klastra bramy. Jeśli wystąpienie bramy podstawowej nie działa w trybie online, żądanie jest kierowane do innego wystąpienia bramy w klastrze.
 
+
+## <a name="share-a-gateway"></a>Udostępnianie bramy
+
+Bramy nie można *udostępniać* bezpośrednio, ale można dodać administratorów do bramy oraz użytkowników do źródeł danych bramy. 
+
+Użytkownik, który zainstalował bramę, staje się domyślnie jej administratorem. Jak pokazano wcześniej, administratorzy mogą dodawać inne osoby. Administratorzy mogą również dodawać źródła danych do bramy, skonfigurować oraz usunąć bramę.
+
+Użytkowników można również przypisywać do źródeł danych utworzonych w obrębie poszczególnych bram. Użytkownicy mogą później korzystać z tych źródeł danych w celu odświeżenia raportów usługi Power BI. Nie mogą oni jednak zmienić żadnych źródeł danych ani ustawień bramy.
 
 ## <a name="migrate-restore-or-take-over-a-gateway"></a>Migrowanie, przywracanie lub przejmowanie bramy
 

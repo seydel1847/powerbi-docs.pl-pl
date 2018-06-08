@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/02/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 5b4a35d9cdfa820956201e7fee20251b3c5ac0b7
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 376fb2a6167e020e5d65c7d634ef05cd366b1aa2
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: pl-PL
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34584305"
+ms.locfileid: "34755144"
 ---
 # <a name="power-bi-admin-portal"></a>Portal administracyjny usługi Power BI
 
@@ -92,7 +92,7 @@ Po kliknięciu pozycji **Przejdź do centrum administracyjnego usługi Office 36
 
 ## <a name="audit-logs"></a>Dzienniki inspekcji
 
-Trzeci karta w portalu administracyjnym to **Dzienniki inspekcji**. Dzienniki znajdują się w centrum zabezpieczeń i zgodności usługi Office 365. Ta sekcja umożliwia szybki dostęp do tego obszaru w usłudze Office 365. 
+Trzeci karta w portalu administracyjnym to **Dzienniki inspekcji**. Dzienniki znajdują się w centrum zabezpieczeń i zgodności usługi Office 365. Ta sekcja umożliwia szybki dostęp do tego obszaru w usłudze Office 365.
 
 Aby uzyskać więcej informacji o dziennikach inspekcji, zobacz [Inspekcja usługi Power BI w organizacji](service-admin-auditing.md)
 
@@ -227,8 +227,6 @@ Użytkownicy w organizacji mogą używać wizualizacji ArcGIS Maps for Power BI 
 ### <a name="enable-custom-visuals-for-the-entire-organization"></a>Umożliwiają włączenie niestandardowych elementów wizualnych w całej organizacji
 Użytkownicy w organizacji mogą interaktywnie współpracować przy użyciu niestandardowych elementów wizualnych oraz je udostępniać. [Dowiedz się więcej](power-bi-custom-visuals.md)
 
-![Ustawienia wizualizacji niestandardowych](media/service-admin-portal/powerbi-admin-custom-visuals.png)
-
 > [!NOTE]
 > To ustawienie ma zastosowanie do całej organizacji i nie może być ograniczone do określonych grup.
 
@@ -247,7 +245,7 @@ Użytkownicy w organizacji mogą wchodzić w interakcje z elementami wizualnymi 
 
 Użytkownicy w organizacji mogą używać inspekcji, aby monitorować działania podejmowane w usłudze Power BI przez innych użytkowników w organizacji. [Dowiedz się więcej](service-admin-auditing.md)
 
-To ustawienie musi być włączone, aby można było rejestrować wpisy dziennika inspekcji.
+To ustawienie musi być włączone, aby można było rejestrować wpisy dziennika inspekcji. Od momentu włączenia inspekcji do czasu, kiedy możliwe będzie wyświetlenie danych inspekcji, może wystąpić opóźnienie do 48 godzin. Jeśli dane nie są natychmiast widoczne, sprawdź dzienniki inspekcji później. Podobne opóźnienie może występować między uzyskaniem uprawnień do wyświetlania dzienników inspekcji a możliwością uzyskania do nich dostępu.
 
 > [!NOTE]
 > To ustawienie ma zastosowanie do całej organizacji i nie może być ograniczone do określonych grup.

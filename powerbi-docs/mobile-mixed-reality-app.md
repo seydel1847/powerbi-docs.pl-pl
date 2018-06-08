@@ -1,25 +1,25 @@
 ---
 title: Aplikacja usługi Power BI dla rzeczywistości mieszanej (wersja zapoznawcza)
-description: Wyświetlaj pulpity nawigacyjne i raporty w aplikacji usługi Power BI dla rzeczywistości mieszanej — po zanurzeniu w świecie wirtualnym lub w kontekście swojego środowiska.
+description: Wyświetlaj pulpity nawigacyjne i raporty w aplikacji usługi Power BI dla rzeczywistości mieszanej (wersja zapoznawcza) — po zanurzeniu w świecie wirtualnym lub w kontekście swojego środowiska.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/13/2018
+ms.date: 06/05/2018
 ms.author: maggies
-ms.openlocfilehash: 32ef06cfdefe4ff1554cfe5f449d69583569f158
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 15c59d25814a50ce09b5b52accd0f88d74871a34
+ms.sourcegitcommit: b25ae650643b0a62f33d7c1741307137b9cec316
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34721437"
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34799331"
 ---
 # <a name="power-bi-for-mixed-reality-app-preview"></a>Aplikacja usługi Power BI dla rzeczywistości mieszanej (wersja zapoznawcza)
-Wyświetlaj pulpity nawigacyjne i raporty w aplikacji usługi Power BI dla rzeczywistości mieszanej po zanurzeniu w świecie wirtualnym lub umieszczaj je w konkretnych lokalizacjach w kontekście danego środowiska. 
+Wyświetlaj pulpity nawigacyjne i raporty w aplikacji usługi Power BI dla rzeczywistości mieszanej (wersja zapoznawcza) po zanurzeniu w świecie wirtualnym lub umieszczaj je w konkretnych lokalizacjach w kontekście danego środowiska. 
 
-Pobierz wersję zapoznawczą aplikacji usługi Power BI dla rzeczywistości mieszanej ze sklepu Windows Store, aby wyświetlać pulpity nawigacyjne i raporty. Wchodź w interakcje z nimi w świecie wirtualnym, a następnie wybieraj te, które chcesz umieścić. 
+[Pobierz aplikację usługi Power BI dla rzeczywistości mieszanej](https://www.microsoft.com/p/power-bi-mobile/9nblgggzlxn1?activetab=pivot%3aoverviewtab) ze Sklepu Windows: w Sklepie Windows ta aplikacja nosi nazwę „Power BI dla urządzeń przenośnych”. Wchodź w interakcje z pulpitami nawigacyjnymi i raportami w świecie wirtualnym, a następnie wybieraj te, które chcesz umieścić. 
 
 ## <a name="two-views-windows-classic-and-holographic"></a>Dwa widoki: klasyczny widok systemu Windows oraz widok holograficzny
 

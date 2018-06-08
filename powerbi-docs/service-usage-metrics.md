@@ -11,17 +11,17 @@ ms.topic: conceptual
 ms.date: 05/27/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 82015b3e0c497f58b0505804adc852ebfb7a0202
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 387780371a82ab4f2c834683ab522258d130e18e
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: pl-PL
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34584328"
+ms.locfileid: "34755259"
 ---
 # <a name="usage-metrics-for-dashboards-and-reports"></a>Metryki użycia pulpitów nawigacyjnych i raportów
 Jeśli tworzysz pulpity nawigacyjne i raporty, metryki użycia pomogą Ci określić ich oddziaływanie. Uruchamiając metryki użycia pulpitów nawigacyjnych lub raportów, możesz dowiedzieć się, w jaki sposób są one używane w organizacji: jaka zawartość jest używana, przez kogo i w jakim celu.  
 
-Metryki użycia będą śledzić użycie raportów osadzonych w usłudze SharePoint Online. Będą one również śledzić osadzanie pulpitów nawigacyjnych i raportów za pośrednictwem zarówno przepływu „użytkownik jest właścicielem poświadczeń”, jak i „aplikacja jest właścicielem poświadczeń”. Metryki użycia nie będą śledzić użycia osadzania raportów za pomocą polecenia [Publikuj w sieci Web](service-publish-to-web.md).
+  > **UWAGA**: metryki użycia będą śledzić użycie raportów osadzonych w usłudze SharePoint Online. Nie będą one jednak śledzić osadzania pulpitów nawigacyjnych i raportów za pośrednictwem przepływów „użytkownik jest właścicielem poświadczeń” i „aplikacja jest właścicielem poświadczeń”. Metryki użycia nie będą również śledzić użycia osadzania raportów za pomocą polecenia [Publikuj w Internecie](service-publish-to-web.md).
 
 Te raporty metryk użycia są tylko do odczytu. Możesz jednak spersonalizować raport metryk użycia, korzystając z funkcji Zapisz jako. To spowoduje utworzenie nowego zestawu danych i przekonwertowanie raportu tylko do odczytu na w pełni funkcjonalny raport usługi Power BI, który można edytować. Spersonalizowany raport zawiera metryki dotyczące wybranego pulpitu nawigacyjnego lub raportu, a ponadto dzięki usunięciu domyślnego filtru zapewnia dostęp do metryk użycia wszystkich pulpitów nawigacyjnych lub wszystkich raportów w wybranym obszarze roboczym.
 

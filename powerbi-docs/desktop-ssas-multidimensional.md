@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 94152d1c1dc30bcaea212638e5ef65da6faf7ff7
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 62f6c8ac23fad39dfb6942678cf92a37014de8bf
+ms.sourcegitcommit: b25ae650643b0a62f33d7c1741307137b9cec316
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34286157"
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34799584"
 ---
 # <a name="connect-to-ssas-multidimensional-models-in-power-bi-desktop"></a>Łączenie się z modelami wielowymiarowymi usług SSAS w programie Power BI Desktop
 Program Power BI Desktop umożliwia dostęp do **modeli wielowymiarowych usług SSAS**, często nazywanych **SSAS MD**.
@@ -98,3 +98,7 @@ W programie Power BI Desktop obsługiwane są następujące funkcje modeli SSAS 
   * Adresy URL obrazu
   * Zabezpieczenia wymiaru
 
+## <a name="troubleshooting"></a>Rozwiązywanie problemów 
+Poniżej opisano wszystkie znane problemy występujące podczas nawiązywania połączenia z usługami SSAS (SQL Server Analysis Services). 
+
+* **Błąd: nie można załadować schematu modelu** — ten błąd występuje zwykle wtedy, gdy użytkownik nawiązujący połączenie z usługami Analysis Services nie ma dostępu do bazy danych/modułu.

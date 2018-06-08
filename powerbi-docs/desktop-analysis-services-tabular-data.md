@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 726d084201c59182655fbaf5ef35a0e999bc07fc
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: c92e91a08026ab3e4fce4513aa8e0892fa0c3db3
+ms.sourcegitcommit: b25ae650643b0a62f33d7c1741307137b9cec316
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34799492"
 ---
 # <a name="using-analysis-services-tabular-data-in-power-bi-desktop"></a>Używanie danych tabelarycznych usług Analysis Services w programie Power BI Desktop
 Program Power BI Desktop zapewnia dwa sposoby nawiązywania połączenia i pobierania danych z modeli tabelarycznych usług programu SQL Server Analysis Services: eksplorowanie przy użyciu połączenia na żywo lub wybranie elementów i zaimportowanie ich do programu Power BI Desktop.
@@ -84,4 +85,10 @@ Po utworzeniu pliku programu Power BI Desktop w przypadku eksplorowania danych w
 2. Wprowadź nazwę nowego serwera.
    
    ![](media/desktop-analysis-services-tabular-data/pbid_sqlas_chname_dialog.png)
+   
+   
+## <a name="troubleshooting"></a>Rozwiązywanie problemów 
+Poniżej opisano wszystkie znane problemy występujące podczas nawiązywania połączenia z usługami SSAS (SQL Server Analysis Services) lub Azure Analysis Services. 
+
+* **Błąd: nie można załadować schematu modelu** — ten błąd występuje zwykle wtedy, gdy użytkownik nawiązujący połączenie z usługami Analysis Services nie ma dostępu do bazy danych/modelu.
 
