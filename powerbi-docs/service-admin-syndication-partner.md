@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/05/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 39f40c4b8aaf53e81f15c1ad29d1d8425f017468
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 67863b261bb8f3490d20ad21786313541df33388
+ms.sourcegitcommit: 49570ab8f5b5cd5bab4cd388f4281b1372bcb80b
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34294291"
+ms.lasthandoff: 06/09/2018
+ms.locfileid: "35250320"
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>Nie można dodać usługi Power BI do subskrypcji partnera usługi Office 365
 Firmy mogą sprzedawać usługę Office 365 w postaci powiązanej i zintegrowanej z ich własnymi rozwiązaniami, co zapewnia klientom końcowym jeden punkt kontaktu w zakresie zakupów, rozliczeń i pomocy technicznej.
@@ -59,10 +59,6 @@ Jeśli chcesz kupić subskrypcję usługi Power BI Pro lub Power BI Premium, raz
 
 * Partner zgadza się dodać usługę Power BI do swojej oferty, aby umożliwić Ci jej zakup u siebie.
 * Partner może zaproponować Ci model pozwalający na zakup usługi Power BI bezpośrednio w firmie Microsoft lub od innego partnera, który ma w swojej ofercie usługę Power BI.
-
-W tym klipie wideo przedstawiono zagadnienia związane z syndykacją usługi Office 365 i zakupem usługi Power BI:
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/C357phT94A8" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="next-steps"></a>Następne kroki
 [Zarządzanie usługą Azure AD przy użyciu programu Windows PowerShell](https://technet.microsoft.com/library/jj151815.aspx)  

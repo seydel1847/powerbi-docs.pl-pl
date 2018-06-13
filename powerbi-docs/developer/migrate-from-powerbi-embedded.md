@@ -8,12 +8,12 @@ ms.Embedded: powerbi
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 67b52fa94ee3af9da3bfcae17f69a72e1aa46c77
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: d9dfdf3f77629a58b324945815a8608fa45f509f
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34689788"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813508"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Jak migrować zawartość kolekcji obszarów roboczych usługi Power BI do usługi Power BI Embedded
 Dowiedz się, jak przeprowadzić migrację z kolekcji obszarów roboczych usługi Power BI do usługi Power BI Embedded i uzyskać korzyści związane z osadzaniem zawartości w aplikacjach.
@@ -159,7 +159,7 @@ Oprócz zawartości migrowanej z kolekcji obszarów roboczych usługi Power BI m
 
 ## <a name="rebuild-your-application"></a>Ponowne kompilowanie aplikacji
 1. Należy zmodyfikować aplikację w celu korzystania z interfejsów API REST usługi Power BI oraz lokalizacji raportu w witrynie powerbi.com.
-2. Ponownie skompiluj uwierzytelnianie AuthN/AuthZ przy użyciu *głównego* konta aplikacji. Możesz skorzystać z [tokenu osadzania](https://msdn.microsoft.com/library/mt784614.aspx), aby zezwolić temu użytkownikowi na działanie w imieniu innych użytkowników.
+2. Ponownie skompiluj uwierzytelnianie AuthN/AuthZ przy użyciu *głównego* konta aplikacji. Możesz skorzystać z [tokenu osadzania](https://docs.microsoft.com/rest/api/power-bi/embedtoken), aby zezwolić temu użytkownikowi na działanie w imieniu innych użytkowników.
 3. Możesz osadzać raporty z witryny powerbi.com w aplikacji.
 
 ## <a name="map-your-users-to-a-power-bi-user"></a>Mapowanie użytkowników na użytkownika usługi Power BI

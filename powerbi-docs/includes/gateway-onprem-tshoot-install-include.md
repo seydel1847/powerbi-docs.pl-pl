@@ -4,8 +4,6 @@ Gdy wersja bramy jest nieaktualna, może pojawiać się wiele problemów.  Warto
 ## <a name="common-issues"></a>Typowe problemy
 Poniżej przedstawiono kilka typowych problemów i rozwiązań, które pomogły wielu klientom w środowiskach, gdzie dostęp do Internetu jest ograniczony.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-t7RO6mHATI?showinfo=0" frameborder="0" allowfullscreen></iframe>
-
 ### <a name="authentication-to-proxy-server"></a>Uwierzytelnianie na serwerze proxy
 Serwer proxy może wymagać uwierzytelniania konta użytkownika domeny. Domyślnie brama używa identyfikatora SID usługi w przypadku użytkowników logowania usługi systemu Windows. Zmiana użytkownika logowania na użytkownika domeny może pomóc w tym przypadku. Aby uzyskać więcej informacji, zobacz [Zmiana konta usługi bramy na użytkownika domeny](../service-gateway-proxy.md#changing-the-gateway-service-account-to-a-domain-user).
 

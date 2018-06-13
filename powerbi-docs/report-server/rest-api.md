@@ -1,5 +1,5 @@
 ---
-title: Informacje o wersji serwera raportów usługi Power BI
+title: Tworzenie dla serwera raportów usługi Power BI przy użyciu interfejsów API REST
 description: Interfejs API REST zapewnia programowy dostęp do obiektów w katalogu serwera raportów usługi Power BI.
 author: markingmyname
 manager: kfile
@@ -9,14 +9,15 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: a1cbcc6d265504bc93ef6447a6be381ca6399063
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 08c8075fe275ff1472d3e9845f954ef4d029b373
+ms.sourcegitcommit: 49570ab8f5b5cd5bab4cd388f4281b1372bcb80b
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34721759"
+ms.lasthandoff: 06/09/2018
+ms.locfileid: "35250435"
 ---
 # <a name="develop-with-the-rest-apis-for-power-bi-report-server"></a>Tworzenie dla serwera raportów usługi Power BI przy użyciu interfejsów API REST
+
 Serwer raportów usługi Power BI obsługuje interfejsy API REST (Representational State Transfer). Interfejsy API REST to punkty końcowe usług obsługujące zestaw operacji HTTP (metod), które umożliwiają tworzenie, pobieranie, aktualizowanie i usuwanie zasobów na serwerze raportów.
 
 Interfejs API REST zapewnia programowy dostęp do obiektów w katalogu serwera raportów usługi Power BI. Przykładami takich obiektów są foldery, raporty, wskaźniki KPI, źródła danych, zestawy danych, plany odświeżania lub subskrypcje. Przy użyciu interfejsu API REST można na przykład nawigować po hierarchii folderów, odnajdywać zawartość folderu lub pobierać definicje raportów. Można również tworzyć, aktualizować i usuwać obiekty. Przykładowe zadania obsługi obiektów obejmują przekazanie raportu, wykonanie planu odświeżania, usunięcie folderu itp.
@@ -24,6 +25,7 @@ Interfejs API REST zapewnia programowy dostęp do obiektów w katalogu serwera r
 [!INCLUDE [GDPR-related guidance](../includes/gdpr-hybrid-note.md)]
 
 ## <a name="components-of-a-rest-api-requestresponse"></a>Składniki żądania/odpowiedzi interfejsu API REST
+
 W parze żądanie/odpowiedź interfejsu API REST można wyróżnić pięć składników:
 
 * **Identyfikator URI żądania**, który składa się z następujących elementów: `{URI-scheme} :// {URI-host} / {resource-path} ? {query-string}`. Mimo że identyfikator URI żądania jest zawarty w nagłówku komunikatu żądania, wymieniamy go oddzielnie, ponieważ większość języków i struktur wymaga jego przekazania poza komunikatem żądania.
@@ -46,15 +48,17 @@ W parze żądanie/odpowiedź interfejsu API REST można wyróżnić pięć skła
   * Obiekty odpowiedzi zakodowane w formacie MIME są zwracane w treści odpowiedzi HTTP, np. odpowiedzi metody GET zwracającej dane. Zazwyczaj te obiekty są zwracane w formacie strukturalnym, takim jak JSON lub XML, zgodnie z nagłówkiem odpowiedzi `Content-type`.
 
 ## <a name="api-documentation"></a>Dokumentacja interfejsu API
+
 Nowoczesny interfejs API REST wymaga nowoczesnej dokumentacji interfejsu API. Interfejs API REST jest oparty na specyfikacji OpenAPI (nazywanej też specyfikacją struktury Swagger), a dokumentacja jest dostępna w witrynie [SwaggerHub](https://app.swaggerhub.com/apis/microsoft-rs/PBIRS/2.0). Witryna SwaggerHub pomaga również wygenerować bibliotekę klienta w wybranym języku — JavaScript, TypeScript, C#, Java, Python, Ruby i innych.
 
 ## <a name="testing-api-calls"></a>Testowanie wywołań interfejsu API
+
 Narzędzie do testowania komunikatów żądań/odpowiedzi HTTP nosi nazwę [Fiddler](http://www.telerik.com/fiddler). Jest to bezpłatny internetowy serwer proxy debugowania, który pozwala przechwytywać żądania REST, co ułatwia diagnozowanie komunikatów żądania/odpowiedzi HTTP.
 
 ## <a name="next-steps"></a>Następne kroki
+
 Zapoznaj się z dostępnymi interfejsami API w witrynie [SwaggerHub](https://app.swaggerhub.com/apis/microsoft-rs/PBIRS/2.0).
 
 Przykłady są dostępne w witrynie [GitHub](https://github.com/Microsoft/Reporting-Services). Przykład obejmuje aplikację HTML 5 opartą na technologiach TypeScript i React oraz pakiet internetowy zawierający demonstrację użycia programu PowerShell.
 
 Masz więcej pytań? [Zadaj pytanie społeczności usługi Power BI](https://community.powerbi.com/)
-

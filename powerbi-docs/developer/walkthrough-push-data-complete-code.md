@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: e5866b249d95cd3b05c7d769fe0cdbab984a978d
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a41acec10e2801d046185d34c64e4d51b5e9dae0
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34289929"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813094"
 ---
 # <a name="push-data-to-a-dataset-complete-code-listing"></a>Wypychanie danych do zestawu danych — kompletna lista kodu
 Ten artykuł jest częścią przewodnika krok po kroku dotyczącego [wypychania danych do zestawu danych](walkthrough-push-data.md).
@@ -228,7 +228,7 @@ Po wykonaniu kroków 2 do 5 w sekcji **Wypychanie danych do zestawu danych** kom
 [Tworzenie zestawu danych w usłudze Power BI](walkthrough-push-data-create-dataset.md)  
 [Umożliwienie zestawowi danych dodawania wierszy do tabeli usługi Power BI](walkthrough-push-data-get-datasets.md)  
 [Dodawanie wierszy do tabeli usługi Power BI](walkthrough-push-data-add-rows.md)  
-[Dokumentacja interfejsu API REST usługi Power BI](https://msdn.microsoft.com/library/mt147898.aspx)  
+[Dokumentacja interfejsu API REST usługi Power BI](https://docs.microsoft.com/rest/api/power-bi/)  
 [Omówienie interfejsu API REST usługi Power BI](overview-of-power-bi-rest-api.md)  
 
 

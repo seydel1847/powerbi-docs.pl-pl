@@ -7,22 +7,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/30/2018
+ms.date: 06/05/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1ea92be426312a738e03d78454a4c83a82b233c5
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 331dc45f3049fe77145b86ffafd363162c74a589
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722525"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813807"
 ---
 # <a name="use-dashboard-themes-in-power-bi-service"></a>Używanie motywów pulpitu nawigacyjnego w usłudze Power BI
 **Motywy pulpitu nawigacyjnego** umożliwiają zastosowanie motywu kolorystycznego — kolorów firmowych, okolicznościowych lub innego dowolnego motywu kolorystycznego — do całego pulpitu nawigacyjnego. Zastosowanie **motywu pulpitu nawigacyjnego** spowoduje, że kolory tego motywu będą używane we wszystkich wizualizacjach na pulpicie nawigacyjnym (z kilkoma wyjątkami opisanymi w dalszej części tego artykułu).
 
 ![przykładowy pulpit nawigacyjny z motywem](media/service-dashboard-themes/power-bi-full-dashboard-theme.png)
 
-Zmienianie kolorów wizualizacji raportu na pulpicie nawigacyjnym nie będzie wpływać na wizualizacje w raporcie. Ponadto jeśli przypinasz kafelki z raportu, który ma już [zastosowany motyw raportu](/desktop-report-themes.md), możesz zachować bieżący motyw lub użyć motywu pulpitu nawigacyjnego.
+Zmienianie kolorów wizualizacji raportu na pulpicie nawigacyjnym nie będzie wpływać na wizualizacje w raporcie. Ponadto jeśli przypinasz kafelki z raportu, który ma już [zastosowany motyw raportu](desktop-report-themes.md), możesz zachować bieżący motyw lub użyć motywu pulpitu nawigacyjnego.
 
 
 ## <a name="prerequisites"></a>Wymagania wstępne
