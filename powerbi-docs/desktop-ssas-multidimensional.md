@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 62f6c8ac23fad39dfb6942678cf92a37014de8bf
-ms.sourcegitcommit: b25ae650643b0a62f33d7c1741307137b9cec316
+ms.openlocfilehash: c16fe65d766c6a1c18d809a68b3b0f6af8047db0
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "34799584"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813347"
 ---
 # <a name="connect-to-ssas-multidimensional-models-in-power-bi-desktop"></a>Łączenie się z modelami wielowymiarowymi usług SSAS w programie Power BI Desktop
 Program Power BI Desktop umożliwia dostęp do **modeli wielowymiarowych usług SSAS**, często nazywanych **SSAS MD**.
@@ -75,11 +75,12 @@ Obliczeniowe elementy członkowskie w hierarchiach użytkownika nie są widoczne
 ### <a name="security"></a>Zabezpieczenia
 Modele wielowymiarowe obsługują zabezpieczenia poziomu komórki i wymiaru za pomocą *ról*. Po połączeniu się z modułem przy użyciu usługi Power BI użytkownik zostaje uwierzytelniony i oceniony pod kątem odpowiednich uprawnień. Jeśli wobec użytkownika zastosowano *zabezpieczenie wymiaru*, odpowiednie elementy członkowskie wymiaru nie są widoczne dla użytkownika w usłudze Power BI. Jednak gdy użytkownik ma określone uprawnienia *zabezpieczeń komórek*, gdzie niektóre komórki są objęte ograniczeniami, użytkownik nie może połączyć się z modułem przy użyciu usługi Power BI.
 
-## <a name="limitations-of-ssas-multidimensional-models-in-power-bi-desktop"></a>Ograniczenia modeli wielowymiarowych usług SSAS w programie Power BI Desktop
+## <a name="considerations-and-limitations"></a>Istotne zagadnienia i ograniczenia
 Istnieją pewne ograniczenia w użyciu modeli **SSAS MD**:
 
 * Aby działać poprawnie, serwery muszą mieć uruchomiony program SQL Server 2012 SP1 CU4 lub nowszą wersję usługi Analysis Services dla łącznika Power BI Desktop SSAS MD
 * *Akcje* i *nazwane zestawy* nie są widoczne w usłudze Power BI, ale można łączyć się z modułami zawierającymi *akcje* lub *nazwane zestawy* i tworzyć wizualizacje oraz raporty.
+* Może wystąpić problem polegający na tym, że usługa Power BI wyświetla metadane dla modelu usług SSAS, ale nie można pobrać danych z modelu. Taka sytuacja może wystąpić, gdy w systemie jest zainstalowana 32-bitowa wersja dostawcy MSOLAP i nie ma wersji 64-bitowej. Zainstalowanie wersji 64-bitowej może rozwiązać problem.
 
 ## <a name="supported-features-of-ssas-md-in-power-bi-desktop"></a>Obsługiwane funkcje modeli SSAS MD w programie Power BI Desktop
 W programie Power BI Desktop obsługiwane są następujące funkcje modeli SSAS MD:

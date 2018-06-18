@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/26/2018
+ms.date: 06/05/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 4eb9f8e0b8548fbecd4e5d2e2fd47c4c3acd2bd6
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: c91e257d79e9d16fa5a7a58b696d58aefaaaaf92
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722821"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34812818"
 ---
 # <a name="on-premises-data-gateway"></a>Lokalna brama danych
 
@@ -47,7 +47,9 @@ W przypadku wystąpień tabelarycznych lub wielowymiarowych można używać poł
 [!INCLUDE [gateway-onprem-datasources-include](./includes/gateway-onprem-datasources-include.md)]
 
 ## <a name="download-and-install-the-on-premises-data-gateway"></a>Pobieranie i instalowanie lokalnej bramy danych
-Aby pobrać bramę, wybierz pozycję **Brama danych** w menu Pliki do pobrania. Pobierz [lokalną bramę danych](http://go.microsoft.com/fwlink/?LinkID=820925).
+Aby pobrać bramę, wybierz pozycję **Brama danych** w menu Pliki do pobrania. Pobierz [lokalną bramę danych](http://go.microsoft.com/fwlink/?LinkID=820925). 
+
+Należy pamiętać, że zaktualizowanie lokalnej bramy danych odbywa się przez ponowne zainstalowanie bramy, zgodnie z opisem w tej sekcji. Podczas aktualizowania bramy (przez ponowne zainstalowanie) istniejące ustawienia bramy są zachowywane.
 
 ![](media/service-gateway-onprem/powerbi-download-data-gateway.png)
 
@@ -56,9 +58,8 @@ Aby pobrać bramę, wybierz pozycję **Brama danych** w menu Pliki do pobrania. 
 
 ## <a name="install-the-gateway-in-personal-mode"></a>Instalowanie bramy w trybie osobistym
 > [!NOTE]
-> Tryb osobisty działa tylko z usługą Power BI.
-> 
-> 
+> Wersja Osobista bramy działa tylko z usługą Power BI.
+
 
 Po zainstalowaniu bramy osobistej musisz uruchomić **Kreatora konfiguracji bramy Power BI Gateway – Personal**.
 

@@ -1,26 +1,27 @@
 ---
-title: Łączenie się z usługami Reporting Services za pomocą protokołu OAuth
-description: Informacje o sposobie konfigurowania środowiska w celu zapewnienia obsługi uwierzytelniania OAuth za pomocą aplikacji mobilnej Power BI, aby umożliwić połączenie z usługami Reporting Services 2016 lub ich nowszą wersją.
+title: Korzystanie z uwierzytelniania OAuth w celu łączenia się z serwerem raportów usługi Power BI i serwerem SSRS
+description: Informacje o sposobie konfigurowania środowiska w celu zapewnienia obsługi uwierzytelniania OAuth za pomocą aplikacji mobilnej Power BI, aby umożliwić połączenie z usługami SQL Server Reporting Services 2016 lub ich nowszą wersją.
 author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 08/10/2017
+ms.date: 06/07/2018
 ms.author: maghan
-ms.openlocfilehash: 4c9b2f5233ab984e57bf48978284441850c0c48f
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: ba8a0c6868e84cf9d675fff8f69a34b4befc9b61
+ms.sourcegitcommit: b7839f2aa68c3626f55ee7e49c8392169d1ec67e
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "34852215"
 ---
-# <a name="using-oauth-to-connect-to-reporting-services"></a>Łączenie się z usługami Reporting Services za pomocą protokołu OAuth
-Informacje o sposobie konfigurowania środowiska w celu zapewnienia obsługi uwierzytelniania OAuth za pomocą aplikacji mobilnej Power BI, aby umożliwić połączenie z usługami Reporting Services 2016 lub ich nowszą wersją.
+# <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>Korzystanie z uwierzytelniania OAuth w celu łączenia się z serwerem raportów usługi Power BI i serwerem SSRS
+Informacje o sposobie konfigurowania środowiska w celu zapewnienia obsługi uwierzytelniania OAuth za pomocą aplikacji mobilnej Power BI, aby umożliwić połączenie z serwerem raportów usługi Power BI i usługami SQL Server Reporting Services 2016 lub ich nowszą wersją.
 
 ![](media/mobile-oauth-ssrs/powerbi-mobile-oauth.png)
 
-Wcześniej aplikacja mobilna Power BI obsługiwała jedynie uwierzytelnianie podstawowe (przy użyciu protokołu HTTPS) w usługach Reporting Services w celu wyświetlania raportów dla urządzeń przenośnych lub kluczowych wskaźników wydajności. Ze względów bezpieczeństwa wiele organizacji nie zezwala na ten typ konfiguracji. Dzięki aktualizacji aplikacji mobilnej Power BI można teraz łączyć się z usługami Reporting Services za pomocą uwierzytelniania OAuth. Program Windows Server 2016 zapewnia pewne ulepszenia roli serwera proxy aplikacji internetowych w zakresie tego typu uwierzytelniania.
+Uwierzytelniania OAuth możesz używać do łączenia się z serwerem raportów usługi Power BI i usługami Reporting Services w celu wyświetlania raportów i kluczowych wskaźników wydajności dla urządzeń przenośnych. Program Windows Server 2016 zapewnia pewne ulepszenia roli serwera proxy aplikacji internetowych (WAP) w zakresie tego typu uwierzytelniania. Należy pamiętać, że ta konfiguracja nie obsługuje wyświetlania raportów usługi Power BI w aplikacjach mobilnych usługi Power BI. Można je jednak wyświetlić w przeglądarce na urządzeniu przenośnym. Aby wyświetlić raporty usługi Power BI w aplikacji mobilnej należy używać uwierzytelniania systemu Windows.
 
 ## <a name="requirements"></a>Wymagania
 W przypadku serwerów proxy aplikacji internetowych (Web Application Proxy — WAP) i serwerów usług Active Directory Federation Services (ADFS) jest wymagany program Windows Server 2016. Nie jest konieczne posiadanie domeny na poziomie funkcjonalności programu Windows Server 2016.
@@ -202,7 +203,8 @@ Po wybraniu pozycji **Zaloguj** zobaczysz elementy ze swojego serwera usług Rep
 W celu zapewnienia dodatkowych zabezpieczeń w danym środowisku można włączyć uwierzytelnianie wieloskładnikowe. Aby dowiedzieć się więcej, zobacz [Konfigurowanie usług AD FS 2016 i usługi Azure MFA](https://technet.microsoft.com/windows-server-docs/identity/ad-fs/operations/configure-ad-fs-2016-and-azure-mfa).
 
 ## <a name="troubleshooting"></a>Rozwiązywanie problemów
-**Został wyświetlony błąd Nie można zalogować się do serwera usług SSRS. Zweryfikuj konfigurację serwera.**
+
+### <a name="you-receive-the-error-failed-to-login-to-ssrs-server-please-verify-server-configuration"></a>Został wyświetlony błąd Nie można zalogować się do serwera usług SSRS. Zweryfikuj konfigurację serwera.
 
 ![](media/mobile-oauth-ssrs/powerbi-mobile-error.png)
 

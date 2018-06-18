@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/13/2018
 ms.author: maghan
-ms.openlocfilehash: 979b76350b9867bbc684a70bd89a82f88993e625
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: dd7276eb436dfd9d842930f6a2c550a2a6b521f3
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34290274"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34812956"
 ---
 # <a name="integrate-a-dashboard-into-an-app-for-your-organization"></a>Integrowanie pulpitu nawigacyjnego z aplikacją dla organizacji
 Dowiedz się, jak integrować lub osadzać pulpit nawigacyjny w aplikacji internetowej przy użyciu wywołań interfejsu API REST wraz z interfejsem API języka JavaScript usługi Power BI podczas osadzania dla organizacji.
@@ -28,7 +28,7 @@ Do rozpoczęcia pracy z tym przewodnikiem jest wymagane konto usługi **Power BI
 > 
 > 
 
-Aby zintegrować pulpit nawigacyjny z aplikacją internetową, należy użyć interfejsu API REST usługi **Power BI** lub zestawu SDK C# usługi Power BI oraz **tokenu dostępu** uwierzytelniania usługi Azure Active Directory (AD) w celu uzyskania pulpitu nawigacyjnego. Następnie należy załadować pulpit nawigacyjny przy użyciu tego samego tokenu dostępu. Interfejs API usługi **Power BI** zapewnia dostęp programowy do określonych zasobów usługi **Power BI**. Aby uzyskać więcej informacji, zobacz [Omówienie interfejsu API REST usługi Power BI](https://msdn.microsoft.com/library/dn877544.aspx) i [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript) (Interfejs API języka JavaScript usługi Power BI).
+Aby zintegrować pulpit nawigacyjny z aplikacją internetową, należy użyć interfejsu API REST usługi **Power BI** lub zestawu SDK C# usługi Power BI oraz **tokenu dostępu** uwierzytelniania usługi Azure Active Directory (AD) w celu uzyskania pulpitu nawigacyjnego. Następnie należy załadować pulpit nawigacyjny przy użyciu tego samego tokenu dostępu. Interfejs API usługi **Power BI** zapewnia dostęp programowy do określonych zasobów usługi **Power BI**. Aby uzyskać więcej informacji, zobacz [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) (Interfejs API REST usługi Power BI) i [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript) (Interfejs API języka JavaScript usługi Power BI).
 
 ## <a name="download-the-sample"></a>Pobieranie przykładu
 W tym artykule przedstawiono kod używany w aplikacji [integrate-dashboard-web-app](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-dashboard-web-app) w witrynie GitHub. Aby korzystać z tego przewodnika, możesz pobrać przykład.
@@ -44,12 +44,12 @@ Jeśli pobrano [przykład integrowania pulpitu nawigacyjnego](https://github.com
 W aplikacji należy najpierw uzyskać **token dostępu** z usługi Azure AD, aby móc wykonywać wywołania interfejsu API REST usługi Power BI. Aby uzyskać więcej informacji, zobacz [Uwierzytelnianie użytkowników i uzyskiwanie tokenów dostępu usługi Azure AD dla aplikacji usługi Power BI](get-azuread-access-token.md).
 
 ## <a name="step-3---get-a-dashboard"></a>Krok 3. Uzyskiwanie pulpitu nawigacyjnego
-Aby uzyskać pulpit nawigacyjny usługi **Power BI**, należy użyć operacji [uzyskiwania pulpitów nawigacyjnych](https://msdn.microsoft.com/library/mt465739.aspx), zwracającej listę pulpitów nawigacyjnych usługi **Power BI**. Z listy pulpitów nawigacyjnych możesz uzyskać identyfikator pulpitu nawigacyjnego.
+Aby uzyskać pulpit nawigacyjny usługi **Power BI**, należy użyć operacji [uzyskiwania pulpitów nawigacyjnych](https://docs.microsoft.com/rest/api/power-bi/dashboards/getdashboards), zwracającej listę pulpitów nawigacyjnych usługi **Power BI**. Z listy pulpitów nawigacyjnych możesz uzyskać identyfikator pulpitu nawigacyjnego.
 
 ![](media/integrate-dashboard/powerbi-embed-dashboard-get-dashboards.png)
 
 ### <a name="get-dashboards-using-an-access-token"></a>Uzyskiwanie pulpitów nawigacyjnych przy użyciu tokenu dostępu
-Możesz użyć **tokenu dostępu** pobranego w [kroku 2.](#step-2-get-an-access-token-from-azure-ad), wywołując operację [uzyskiwania pulpitów nawigacyjnych](https://msdn.microsoft.com/library/mt465739.aspx). Operacja [uzyskiwania pulpitów nawigacyjnych](https://msdn.microsoft.com/library/mt465739.aspx) zwraca listę pulpitów nawigacyjnych. Z listy pulpitów nawigacyjnych możesz uzyskać wybrany pulpit nawigacyjny. Poniżej przedstawiono całą metodę języka C# umożliwiającą uzyskanie pulpitu nawigacyjnego. 
+Możesz użyć **tokenu dostępu** pobranego w [kroku 2.](#step-2-get-an-access-token-from-azure-ad), wywołując operację [uzyskiwania pulpitów nawigacyjnych](https://docs.microsoft.com/rest/api/power-bi/dashboards/getdashboards). Operacja [uzyskiwania pulpitów nawigacyjnych](https://docs.microsoft.com/rest/api/power-bi/dashboards/getdashboards) zwraca listę pulpitów nawigacyjnych. Z listy pulpitów nawigacyjnych możesz uzyskać wybrany pulpit nawigacyjny. Poniżej przedstawiono całą metodę języka C# umożliwiającą uzyskanie pulpitu nawigacyjnego. 
 
 Aby wykonać wywołanie interfejsu API REST, należy użyć nagłówka *Authorization* w formacie *Bearer {token dostępu}*.
 
@@ -258,7 +258,7 @@ Tile Clicked
 ```
 
 ## <a name="working-with-groups-app-workspaces"></a>Praca z grupami (obszarami roboczymi aplikacji)
-Aby osadzić pulpit nawigacyjny z grupy (obszaru roboczego aplikacji), należy uzyskać listę wszystkich dostępnych pulpitów nawigacyjnych w grupie przy użyciu następującego wywołania interfejsu API REST. Aby uzyskać więcej informacji na temat tego wywołania interfejsu API REST, zobacz [Get Dashboards (Uzyskiwanie pulpitów nawigacyjnych)](https://msdn.microsoft.com/library/mt465739.aspx). Aby żądanie zwróciło wyniki, musisz mieć uprawnienia w tej grupie.
+Aby osadzić pulpit nawigacyjny z grupy (obszaru roboczego aplikacji), należy uzyskać listę wszystkich dostępnych pulpitów nawigacyjnych w grupie przy użyciu następującego wywołania interfejsu API REST. Aby uzyskać więcej informacji na temat tego wywołania interfejsu API REST, zobacz [Get Dashboards (Uzyskiwanie pulpitów nawigacyjnych)](https://docs.microsoft.com/rest/api/power-bi/dashboards/getdashboards). Aby żądanie zwróciło wyniki, musisz mieć uprawnienia w tej grupie.
 
 ```
 https://api.powerbi.com/v1.0/myorg/groups/{groupId}/dashboards

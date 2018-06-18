@@ -7,13 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 07/20/2017
+ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 47dd0ab87b78e344de176ebe22a1e5dc9753b9b0
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 8a688f46a46dbb1015629c7785d96b62d4f8df26
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813248"
 ---
 # <a name="what-can-developers-do-with-the-power-bi-api"></a>Co deweloperzy mogą robić z interfejsem API usługi Power BI?
 W usłudze Power BI są wyświetlane interakcyjne pulpity nawigacyjne, które można tworzyć i aktualizować z wielu różnych źródeł danych w czasie rzeczywistym. Używając dowolnego języka programowania obsługującego wywołania REST, można tworzyć aplikacje integrujące się z pulpitem nawigacyjnym usługi Power BI w czasie rzeczywistym. Można również integrować kafelki i raporty usługi Power BI w aplikacje.
@@ -26,7 +27,6 @@ Poniżej przedstawiono niektóre czynności, które można wykonać za pomocą i
 | --- | --- |
 | Osadzanie pulpitów nawigacyjnych, raportów i kafelków dla użytkowników usługi Power BI i użytkowników niekorzystających z tej usługi (aplikacja jest właścicielem danych) |[Jak osadzić pulpity nawigacyjne, raporty i kafelki usługi Power BI](embedding-content.md) |
 | Rozszerzanie istniejącego biznesowego przepływu pracy w celu wypychania kluczowych danych do pulpitu nawigacyjnego usługi Power BI |[Wypychanie danych do pulpitu nawigacyjnego](walkthrough-push-data.md) |
-| Importowanie pliku programu Power BI Desktop |[Importowanie pliku PBIX](https://msdn.microsoft.com/library/mt243837.aspx) |
 | Uwierzytelnianie w usłudze Power BI |[Uwierzytelnianie w usłudze Power BI](get-azuread-access-token.md) |
 | Tworzenie wizualizacji niestandardowej |[Tworzenie niestandardowych wizualizacji przy użyciu narzędzi deweloperskich](../service-custom-visuals-getting-started-with-developer-tools.md) |
 
@@ -51,12 +51,17 @@ Przykłady Dewelopera usługi Power BI obejmują elementy do osadzania pulpitów
 ## <a name="developer-tools"></a>Narzędzia deweloperskie
 Poniżej wymieniono narzędzia ułatwiające tworzenie elementów usługi Power BI.
 
-* [Przykład osadzania przy użyciu języka JavaScript](https://microsoft.github.io/PowerBI-JavaScript/demo)
+[Narzędzie obsługi dołączania](https://aka.ms/embedsetup) umożliwia szybkie rozpoczęcie pracy i pobranie przykładowej aplikacji w celu rozpoczęcia osadzania zawartości usługi Power BI.
+
+Wybierz rozwiązanie, które jest odpowiednie dla Ciebie:
+* [Osadzanie dla swoich klientów](embedding.md#embedding-for-your-customers) zapewnia możliwość osadzenia pulpitów nawigacyjnych i raportów u użytkowników, którzy nie mają konta w usłudze Power BI. Uruchom rozwiązanie [osadzania dla klientów](https://aka.ms/embedsetup/AppOwnsData).
+* [Osadzanie dla swojej organizacji](embedding.md#embedding-for-your-organization) umożliwia rozszerzanie usługi Power BI. Uruchom rozwiązanie [osadzania dla organizacji](https://aka.ms/embedsetup/UserOwnsData).
+
+Aby uzyskać pełen przykład użycia interfejsu API języka JavaScript, można użyć [narzędzia Playground](https://microsoft.github.io/PowerBI-JavaScript/demo). Jest to szybki sposób na zapoznanie się z różnymi typami przykładów usługi Power BI Embedded. Możesz również uzyskać więcej informacji na temat interfejsu API języka JavaScript odwiedzając stronę [wiki Power BI-JavaScript](https://github.com/Microsoft/powerbi-javascript/wiki).
 
 ## <a name="next-steps"></a>Następne kroki
 [Wypychanie danych do zestawu danych](walkthrough-push-data.md)  
 [Wprowadzenie do korzystania z narzędzi deweloperskich do tworzenia wizualizacji niestandardowych](../service-custom-visuals-getting-started-with-developer-tools.md) 
-[Dokumentacja interfejsu API REST usługi Power BI](https://msdn.microsoft.com/library/mt147898.aspx)  
+[Dokumentacja interfejsu API REST usługi Power BI](https://docs.microsoft.com/rest/api/power-bi/)  
 
 Masz więcej pytań? [Zadaj pytanie społeczności usługi Power BI](http://community.powerbi.com/)
-

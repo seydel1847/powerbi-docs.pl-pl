@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/24/2018
+ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 99ee9e87584202420239658a3522ad82cb383227
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: bdf3791d74510b1630bc13c279ed0cd5ebddc3ec
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34286552"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813462"
 ---
 # <a name="resolve-issues-when-power-bi-desktop-will-not-launch"></a>Co zrobić, jeśli nie można uruchomić programu Power BI Desktop
 Może się zdarzyć, że użytkownicy programu **Power BI Desktop**, którzy zainstalowali starszą wersję **lokalnej bramy danych usługi Power BI**, nie mogą uruchomić programu Power BI Desktop ze względu na ograniczenia zasad administracyjnych zastosowane przez lokalną bramę danych usługi Power BI do potoków nazwanych na maszynie lokalnej. 
@@ -33,6 +33,13 @@ Jeśli nie potrzebujesz już lokalnej bramy danych usługi Power BI, możesz odi
 Możesz również uruchomić program Power BI Desktop jako administrator, aby umożliwić programowi Power BI Desktop pomyślne uruchomienie. Nadal zaleca się zainstalowanie najnowszej wersji lokalnej bramy danych usługi Power BI, jak opisano wcześniej w tym artykule.
 
 Zauważ, że program Power BI Desktop został zaprojektowany jako architektura obsługująca wiele procesów i niektóre z tych procesów komunikują się przy użyciu nazwanych potoków systemu Windows. Mogą istnieć inne procesy, które zakłócają działanie tych nazwanych potoków. Najczęstszym powodem takich zakłóceń są zabezpieczenia, w tym sytuacje, gdy oprogramowanie antywirusowe lub zapory mogą blokować potoki lub przekierowywać ruch do określonego portu. Uruchamianie programu Power BI Desktop z uprawnieniami administratora może rozwiązać ten problem. Jeśli uruchamianie z uprawnieniami administratora jest niemożliwe, skontaktuj się z administratorem, aby ustalić, które stosowane reguły zabezpieczeń uniemożliwiają potokom nazwanym prawidłową komunikację, i umieścić program Power BI Desktop oraz jego odpowiednie procesy podrzędne na liście dozwolonych.
+
+## <a name="resolve-issues-when-connecting-to-sql-server"></a>Rozwiązywanie problemów podczas nawiązywania połączenia z programem SQL Server
+Jeśli podczas nawiązywania połączenia z bazą danych programu SQL Server wystąpi komunikat o błędzie podobny do poniższego, często można rozwiązać problem, uruchamiając program **Power BI Desktop** jako administrator, a następnie sprawdzając połączenia programu SQL Server:
+
+    "An error happened while reading data from the provider: 'Could not load file or assembly 'System.EnterpriseServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=xxxxxxxxxxxxx' or one of its dependencies. Either a required impersonation level was not provided, or the provided impersonation level is invalid. (Exception from HRESULT: 0x80070542)'"
+
+Po uruchomieniu jako administrator i nawiązaniu połączenia wymagane biblioteki DLL będą zarejestrowane prawidłowo. Po wykonaniu tych czynności uruchamianie programu Power BI Desktop jako administrator nie będzie konieczne.
 
 ## <a name="help-with-other-issues-when-launching-power-bi-desktop"></a>Pomoc dotycząca innych kwestii podczas uruchamiania programu Power BI Desktop
 Dokładamy wszelkich starań, aby zapewnić rozwiązania możliwie jak największej liczby problemów, które występują w związku z programem **Power BI Desktop**. Regularnie badamy problemy, które mogą dotyczyć wielu klientów, i uwzględniamy je w naszych artykułach.

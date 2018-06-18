@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/24/2018
+ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: bd0565420382fc22af67b1363b41f6d8ed6e92ab
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 6147f41ea99ad4a0416f6aa9c01288102f792771
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34290757"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34812933"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Ułatwienia dostępu w raportach programu Power BI Desktop
 Program **Power BI Desktop** zawiera funkcje, które umożliwiają osobom niepełnosprawnym łatwiejsze korzystanie z raportów programu **Power BI Desktop**. Te funkcje obejmują możliwość korzystania z raportu za pomocą klawiatury lub czytnika ekranu, używania klawisza TAB do przenoszenia fokusu na różne obiekty na stronie oraz celowe używanie znaczników w wizualizacjach.
@@ -66,6 +66,23 @@ Poniższe wskazówki mogą pomóc tworzyć bardziej dostępne raporty programu *
 * Upewnij się, że w raportach zastosowano odpowiedni kontrast pomiędzy kolorem tekstu a kolorem tła.
 * Użyj rozmiarów tekstu i czcionek, które można łatwo odczytać. Mały tekst lub czcionki, które trudno odczytać, nie ułatwiają dostępu.
 * Do wszystkich wizualizacji dołącz tytuł, etykiety osi i etykiety danych.
+
+## <a name="high-contrast-support-for-reports"></a>Obsługa dużego kontrastu dla raportów
+
+W przypadku korzystania z trybów dużego kontrastu w systemie Windows wybrane ustawienia i palety są również stosowane do raportów w programie **Power BI Desktop**. 
+
+![Ustawienia dużego kontrastu w systemie Windows](media/desktop-accessibility/accessibility_05.png)
+
+Program **Power BI Desktop** automatycznie wykrywa kompozycję o dużym kontraście, która jest używana w systemie Windows, i stosuje te ustawienia do raportów. Te kolory o dużym kontraście będą używane w raporcie po opublikowaniu w usłudze Power BI lub w innym miejscu.
+
+![Ustawienia dużego kontrastu w systemie Windows](media/desktop-accessibility/accessibility_05b.png)
+
+Usługa Power BI próbuje również wykryć ustawienia dużego kontrastu wybrane dla systemu Windows, ale skuteczność i dokładność tego wykrywania zależy od przeglądarki używanej przez usługę Power BI. Jeśli chcesz ręcznie ustawić motyw w usłudze Power BI, możesz wybrać pozycje **Widok > Kolory o wysokim kontraście**, a następnie wybierz motyw, który chcesz zastosować do raportu.
+
+![Ustawianie dużego kontrastu w usłudze Power BI](media/desktop-accessibility/accessibility_06.png)
+
+Podczas pracy w programie **Power BI Desktop** zwróć uwagę, że niektóre obszary, takie jak pola **Wizualizacje** i **Pola**, nie odzwierciedlają wyboru schematów kolorów o dużym kontraście systemu Windows.
+
 
 ## <a name="considerations-and-limitations"></a>Istotne zagadnienia i ograniczenia
 Istnieje kilka znanych problemów i ograniczeń dotyczących funkcji ułatwień dostępu. Opisano je na poniższej liście:

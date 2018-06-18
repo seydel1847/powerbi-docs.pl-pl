@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: tutorial
-ms.date: 05/21/2018
+ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 20bcc45fa95bcff6eb8a761dae58c67a875f55cd
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 32de597b594fe8b148a2b0471352e4784d596cec
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34456001"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813186"
 ---
 # <a name="tutorial-analyze-web-page-data-using-power-bi-desktop"></a>Samouczek: analizowanie danych strony internetowej przy użyciu programu Power BI Desktop
 
@@ -31,6 +31,8 @@ Jako zagorzały fan piłki nożnej chcesz utworzyć raport obejmujący zwycięzc
 Dane zwycięzców UEFA można znaleźć w tabeli wyników na stronie Wikipedii Piłkarskich Mistrzostw Europy UEFA dostępnej pod adresem http://en.wikipedia.org/wiki/UEFA_European_Football_Championship. 
 
 ![Tabela wyników (Wikipedia)](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage1.png)
+
+Należy pamiętać, że połączenia internetowe są nawiązywane tylko przy użyciu uwierzytelniania podstawowego. Witryny internetowe wymagające uwierzytelniania mogą nie działać poprawnie z łącznikiem internetowym.
 
 Aby zaimportować dane:
 

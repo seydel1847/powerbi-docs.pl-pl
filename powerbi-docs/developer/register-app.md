@@ -7,21 +7,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 04/23/2018
+ms.date: 05/31/2018
 ms.author: maghan
-ms.openlocfilehash: 8c40ccac8eff2775b09cf9761fba52e6f8a6cd45
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 9988d108c33e086938aca76d088c6852bb1117a4
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813301"
 ---
 # <a name="register-an-azure-ad-app-to-embed-power-bi-content"></a>Rejestrowanie aplikacji usługi Azure AD, aby osadzić zawartość usługi Power BI
 Dowiedz się, jak zarejestrować aplikację w usłudze Azure Active Directory (Azure AD), a następnie użyć jej w celu osadzenia zawartości usługi Power BI.
 
-Aplikację można zarejestrować w usłudze Azure AD, aby zapewnić aplikacji dostęp do interfejsów API REST usługi Power BI. Dzięki temu można dla aplikacji ustanowić tożsamość i określić dla niej uprawnienia do zasobów REST usługi Power BI.
+Aplikację można zarejestrować w usłudze Azure AD, aby zapewnić aplikacji dostęp do interfejsów API REST usługi Power BI. Dzięki temu można ustanowić tożsamość aplikacji i określić jej uprawnienia do zasobów REST usługi Power BI.
 
 > [!IMPORTANT]
-> Do zarejestrowania aplikacji usługi Power BI potrzebna jest [dzierżawa i konto użytkownika organizacyjnego usługi Azure Active Directory](create-an-azure-active-directory-tenant.md). Jeśli nie zarejestrujesz się w usłudze Power BI, korzystając z konta użytkownika z Twojej dzierżawy, pomyślne zarejestrowanie aplikacji będzie niemożliwe.
+> Do zarejestrowania aplikacji usługi Power BI potrzebna jest [dzierżawa i konto użytkownika organizacyjnego usługi Azure Active Directory](create-an-azure-active-directory-tenant.md). Jeśli nie zarejestrujesz się w usłudze Power BI, korzystając z konta użytkownika z Twojej dzierżawy, rejestracja aplikacji nie zakończy się pomyślnie.
 > 
 > 
 
@@ -37,19 +38,20 @@ Oto sposób rejestrowania aplikacji za pomocą narzędzia rejestrowania aplikacj
 3. Podaj nazwę w polu **Nazwa aplikacji**.
 4. Wybór w polu Typ aplikacji zależy od typu używanej aplikacji.
    
+   * W przypadku aplikacji, które działają na urządzeniach klienckich, wybierz typ **Aplikacja natywna**. Typ **Aplikacja natywna** należy wybrać także w przypadku osadzania zawartości dla klientów — bez względu na to, jaka jest rzeczywista aplikacja. Dotyczy to nawet aplikacji internetowych.
    * W przypadku aplikacji internetowych lub internetowych interfejsów API wybierz typ **Aplikacja internetowa po stronie serwera**.
-   * W przypadku aplikacji, które działają na urządzeniach klienckich, wybierz typ **Aplikacja natywna**. ***Typ **Aplikacja natywna** należy wybrać także w przypadku osadzania zawartości dla klientów — bez względu na to, jaka jest rzeczywista aplikacja. Dotyczy to nawet aplikacji internetowych.***
-5. Wprowadź **Adres URL przekierowania** i **Adres URL strony głównej**. Każdy prawidłowy adres URL będzie działać.
+
+5. Wprowadź **Adres URL przekierowania** i **Adres URL strony głównej**. **Adres URL przekierowania** działa z dowolnym prawidłowym adresem URL.
    
     Pole **Adres URL strony głównej** jest dostępne tylko po wybraniu typu aplikacji **Aplikacja internetowa po stronie serwera**.
    
-    W przykładach dotyczących *osadzania zawartości dla klientów* i *integrowania aplikacji internetowej pulpitu nawigacyjnego* adresem URL przekierowania będzie `http://localhost:13526/redirect`. W przykładzie dotyczącym raportów i kafelków adresem URL przekierowania będzie `http://localhost:13526/`.
-6. Wybierz interfejsy API, do których ta aplikacja będzie miała dostęp. Więcej informacji o uprawnieniach dostępu do usługi Power BI zawiera temat [Uprawnienia usługi Power BI](power-bi-permissions.md).
+    W przykładach dotyczących *osadzania zawartości dla klientów* i *integrowania aplikacji internetowej pulpitu nawigacyjnego* adresem URL przekierowania jest `http://localhost:13526/redirect`. W przykładzie dotyczącym raportów i kafelków adresem URL przekierowania jest `http://localhost:13526/`.
+6. Wybierz interfejsy API dla aplikacji, która ma dostęp. Więcej informacji o uprawnieniach dostępu do usługi Power BI zawiera temat [Uprawnienia usługi Power BI](power-bi-permissions.md).
    
     ![](media/register-app/app-registration-apis.png)
 7. Wybierz przycisk **Zarejestruj aplikację**.
    
-    Otrzymasz **Identyfikator klienta**. W przypadku wybrania typu **Aplikacja internetowa po stronie serwera** otrzymasz także **Klucz tajny klienta**. **Identyfikator klienta** można później, w razie potrzeby, pobrać z witryny Azure Portal. W przypadku utraty **Klucza tajnego klienta** musisz utworzyć nowy klucz w witrynie Azure Portal.
+    Otrzymasz **Identyfikator klienta**, a w przypadku wybrania typu **Aplikacja internetowa po stronie serwera**, otrzymasz **Klucz tajny klienta**. **Identyfikator klienta** można później, w razie potrzeby, pobrać z witryny Azure Portal. W przypadku utraty **Klucza tajnego klienta** musisz utworzyć nowy klucz w witrynie Azure Portal.
 
 8. Musisz przejść do platformy Azure, aby wybrać pozycję **Udziel uprawnień**.
 > [!Note]
@@ -68,7 +70,6 @@ Teraz możesz używać zarejestrowanej aplikacji jako części aplikacji niestan
 
 > [!IMPORTANT]
 > Jeśli osadzasz zawartość dla klientów, musisz skonfigurować dodatkowe uprawnienia w witrynie Azure Portal. Więcej informacji zawiera sekcja [Stosowanie uprawnień do Twojej aplikacji](#apply-permissions-to-your-application).
-> 
 > 
 
 ## <a name="register-with-the-azure-portal"></a>Rejestrowanie za pomocą witryny Azure Portal
@@ -104,9 +105,8 @@ Oto jak uzyskać identyfikator klienta:
 > [!IMPORTANT]
 > Ta sekcja dotyczy tylko aplikacji, które **osadzają zawartość dla Twojej organizacji**.
 > 
-> 
 
-Konieczne będzie włączenie dodatkowych uprawnień aplikacji, oprócz tych, które zostały zapewnione na stronie rejestracji aplikacji. W tym celu można się posłużyć portalem usługi Azure AD lub zrobić to programowo.
+Konieczne będzie włączenie dodatkowych uprawnień aplikacji, oprócz tych, które zapewnia strona rejestracji aplikacji. W tym celu można się posłużyć portalem usługi Azure AD lub zrobić to programowo.
 
 Musisz się zalogować na *konto główne* używane do osadzania albo na konto administratora globalnego.
 
@@ -117,10 +117,8 @@ Musisz się zalogować na *konto główne* używane do osadzania albo na konto a
 2. Wybierz pozycję **Wymagane uprawnienia** w obszarze **Dostęp do interfejsu API**.
    
     ![](media/register-app/powerbi-embedded-azuread-app-required-permissions.png)
-3. Wybierz pozycję **Windows Azure Active Directory**, a następnie upewnij się, że wybrana jest pozycja **Uzyskuj dostęp do katalogu jako zalogowany użytkownik**. Wybierz pozycję **Zapisz**.
-   
-    ![](media/register-app/powerbi-embedded-azuread-app-permissions01.png)
-4. W obszarze **Wymagane uprawnienia** wybierz pozycję **Usługa Power BI (Power BI)**.
+
+3. W obszarze **Wymagane uprawnienia** wybierz pozycję **Usługa Power BI (Power BI)**.
    
     ![](media/register-app/powerbi-embedded-azuread-app-permissions03.png)
    
@@ -128,10 +126,10 @@ Musisz się zalogować na *konto główne* używane do osadzania albo na konto a
    > Jeśli aplikacja została utworzona bezpośrednio w portalu usługi Azure AD, pozycja **Usługa Power BI (Power BI)** może być niedostępna. W takim przypadku wybierz pozycję **+ Dodaj**, a następnie pozycję **1 Wybierz interfejs API**. Na liście interfejsów API wybierz pozycję **Usługa Power BI**, a następnie pozycję **Wybierz**.  Jeśli pozycja **Usługa Power BI (Power BI)** jest niedostępna w obszarze **+ Dodaj**, zarejestruj co najmniej jednego użytkownika w usłudze Power BI.
    > 
    > 
-5. Wybierz wszystkie uprawnienia w obszarze **Delegowane uprawnienia**. W celu zapisania wyborów musisz je zaznaczać pojedynczo. Po zakończeniu wybierz pozycję **Zapisz**.
+4. Wybierz wszystkie uprawnienia w obszarze **Delegowane uprawnienia**. W celu zapisania wyborów musisz je zaznaczać pojedynczo. Po zakończeniu wybierz pozycję **Zapisz**.
    
     ![](media/register-app/powerbi-embedded-azuread-app-permissions04.png)
-6. W obszarze **Wymagane uprawnienia** wybierz pozycję **Udziel uprawnień**.
+5. W obszarze **Wymagane uprawnienia** wybierz pozycję **Udziel uprawnień**.
    
     Wykonanie akcji **Udziel uprawnień** jest konieczne, aby usługa Azure AD nie wysyłała do *konta głównego* monitów o wyrażenie zgody. Jeśli konto, z którego wykonywana jest ta akcja, jest kontem administratora globalnego, udzielisz uprawnień do tej aplikacji wszystkim użytkownikom w swojej organizacji. Jeśli jest to *konto główne*, które nie ma uprawnień administratora globalnego, udzielisz uprawnień do tej aplikacji tylko *kontu głównemu*.
    
@@ -154,7 +152,16 @@ Musisz się zalogować na *konto główne* używane do osadzania albo na konto a
     "displayName" : "{App_DisplayName}"
     }
     ```
-4. Udziel uprawnienia do aplikacji interfejsowi API usługi PowerBI.
+4. Udzielanie uprawnień do aplikacji interfejsowi API usługi Power BI
+   
+   Jeśli używasz istniejącej dzierżawy i nie interesuje Cię udzielanie uprawnień w imieniu wszystkich użytkowników dzierżawy, możesz udzielić uprawnień konkretnemu użytkownikowi, zmieniając wartość właściwości **contentType** na **Principal**.
+
+   Dla właściwości **consentType** można podać wartość **AllPrincipals** lub **Principal**.
+
+   * Wartość **AllPrincipals** może być używana tylko przez administratora dzierżawy w celu udzielenia uprawnień w imieniu wszystkich użytkowników w dzierżawie.
+   * Wartość **Principal** służy do udzielania uprawnień w imieniu konkretnego użytkownika. W takim przypadku należy dodać dodatkowe właściwości do treści żądania — *principalId={User_ObjectId}*.
+    
+    Wykonanie akcji *Udziel uprawnień* jest konieczne, aby usługa Azure AD nie wysyłała do konta głównego monitów o wyrażenie zgody, co nie jest możliwe w przypadku logowania nieinterakcyjnego.
    
     ```
     Post https://graph.microsoft.com/beta/OAuth2PermissionGrants
@@ -169,15 +176,17 @@ Musisz się zalogować na *konto główne* używane do osadzania albo na konto a
     "startTime":"2017-03-29T14:35:32.4933413+03:00"
     }
     ```
-5. Udziel uprawnienia do aplikacji usłudze AAD.
+
+5.  Udzielanie uprawnień do aplikacji usłudze Azure Active Directory (AAD)
    
-    Wartość **consentType** będzie zależeć od użytkownika wykonującego żądanie. Możesz podać wartość **AllPrincipals** lub **Principal**. Typ **AllPrincipals** może być używany tylko przez administratora w celu udzielenia uprawnień wszystkim użytkownikom. Typ **Principal** służy do udzielania uprawnienia konkretnemu użytkownikowi. 
-   
-    Udzielenie uprawnienia jest konieczne, aby usługa Azure AD nie wysyłała do *konta głównego* monitów o wyrażenie zgody. 
-   
-    Jeśli używasz istniejącej dzierżawy i nie interesuje Cię udzielanie uprawnień w imieniu wszystkich użytkowników dzierżawy, możesz udzielić uprawnień konkretnemu użytkownikowi, zmieniając wartość właściwości **contentType** na **Principal**.
-   
-    ```
+    Dla właściwości **consentType** można podać wartość **AllPrincipals** lub **Principal**.
+
+    * Wartość **AllPrincipals** może być używana tylko przez administratora dzierżawy w celu udzielenia uprawnień w imieniu wszystkich użytkowników w dzierżawie.
+    * Wartość **Principal** służy do udzielania uprawnień w imieniu konkretnego użytkownika. W takim przypadku należy dodać dodatkowe właściwości do treści żądania — *principalId={User_ObjectId}*.
+    
+    Wykonanie akcji *Udziel uprawnień* jest konieczne, aby usługa Azure AD nie wysyłała do konta głównego monitów o wyrażenie zgody, co nie jest możliwe w przypadku logowania nieinterakcyjnego.
+
+ ```
     Post https://graph.microsoft.com/beta/OAuth2PermissionGrants
     Authorization: Bearer ey..qw
     Content-Type: application/json
@@ -189,11 +198,9 @@ Musisz się zalogować na *konto główne* używane do osadzania albo na konto a
     "expiryTime":"2018-03-29T14:35:32.4943409+03:00",
     "startTime":"2017-03-29T14:35:32.4933413+03:00"
     }
-    ```
+ ```
 
 ## <a name="next-steps"></a>Następne kroki
 Po zarejestrowaniu aplikacji w usłudze Azure AD musisz uwierzytelnić użytkowników w swojej aplikacji. Aby dowiedzieć się więcej, zapoznaj się z tematem [Uwierzytelnianie użytkowników i uzyskiwanie tokenu dostępu usługi Azure AD dla aplikacji usługi Power BI](get-azuread-access-token.md).
 
 Masz więcej pytań? [Zadaj pytanie społeczności usługi Power BI](http://community.powerbi.com/)
-
-

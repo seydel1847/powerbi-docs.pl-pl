@@ -7,19 +7,19 @@ ms.reviewer: ajayan
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/12/2017
+ms.date: 06/08/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: b454673944d8006effc045592f28eb35681564d1
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: f8b1e94ca0923c3e2ba509df266cec0f05596ab1
+ms.sourcegitcommit: b7839f2aa68c3626f55ee7e49c8392169d1ec67e
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34246428"
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "34852192"
 ---
 # <a name="create-and-publish-a-power-bi-organizational-content-pack-tutorial"></a>Tworzenie i publikowanie organizacyjnego pakietu zawartości w usłudze Power BI (samouczek)
 > [!NOTE]
-> Czy wiesz już o nowych *aplikacjach*? Aplikacje to nowy sposób dystrybucji zawartości do dużej liczby odbiorców w usłudze Power BI. Zalecamy używanie aplikacji zamiast organizacyjnych pakietów zawartości i obszarów roboczych tylko do odczytu. Dowiedz się [więcej o aplikacjach](service-install-use-apps.md).
+> Czy wiesz już o nowych *aplikacjach*? Aplikacje to nowy sposób dystrybucji zawartości do dużej liczby odbiorców w usłudze Power BI. Planujemy wkrótce zastąpić pakiety zawartości organizacji, a więc zalecamy używanie zamiast nich aplikacji. Dowiedz się [więcej o aplikacjach](service-install-use-apps.md).
 > 
 > 
 
@@ -34,7 +34,7 @@ Tworzenie pakietów zawartości różni się od udostępniania pulpitów nawigac
 
 Wyobraź sobie, że pracujesz na stanowisku menedżera ds. wprowadzania produktów w firmie Contoso i przygotowujesz się do wdrożenia nowego produktu.  Masz utworzony pulpit nawigacyjny z raportami, który chcesz udostępnić innym współpracownikom odpowiedzialnym za zarządzanie wdrożeniem. Potrzebujesz sposobu na spakowanie pulpitu nawigacyjnego i raportów w formie rozwiązania, z którego będą mogli korzystać współpracownicy. 
 
-Chcesz z niego skorzystać? W [usłudze Power BI](https://powerbi.com) przejdź do pozycji **Pobierz dane > Przykłady > Przykład Opportunity Analysis >**  > **Połącz**, aby uzyskać własną kopię. 
+Chcesz z niego skorzystać? W [usłudze Power BI](https://powerbi.com) przejdź do pozycji **Pobierz dane > Przykłady > Przykład Opportunity Analysis > ** > **Połącz**, aby uzyskać własną kopię. 
 
 1. W lewym okienku nawigacyjnym wybierz pulpit nawigacyjny **Przykład Opportunity Analysis**.
 2. W górnym pasku nawigacyjnym wybierz ikonę koła zębatego ![](media/service-organizational-content-pack-create-and-publish/cog.png) > **Utwórz pakiet zawartości**.    

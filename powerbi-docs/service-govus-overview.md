@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/02/2018
+ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: e676ef85d982a59b7058bce9e6467e8482b7aa62
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 7f712086ff667a5d4b1f21fb441c94bfae96693f
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722696"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813646"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Usługa Power BI dla klientów rządowych w Stanach Zjednoczonych
 **Usługa Power BI** oferuje wersję dostępną dla klientów rządowych w Stanach Zjednoczonych w ramach subskrypcji **Office 365 US Government Community**. Wersja **usługi Power BI** omówiona w tym artykule jest przeznaczona wyłącznie dla klientów rządowych USA — jest to osobna usługa, która jest inna niż komercyjna wersja **usługi Power BI**.
@@ -92,6 +92,11 @@ Poniższe pytania i odpowiedzi pomagają szybko uzyskać potrzebne informacje o 
 | Adres URL wersji komercyjnej | Adres URL wersji US Government |
 | --- | --- |
 | https://app.powerbi.com/ |[https://app.powerbigov.us](https://app.powerbigov.us) |
+
+**Pytanie:** Moje konto jest aprowizowane w więcej niż jednej suwerennej chmurze. Jeśli korzystam z programu **Power BI Desktop**, jak mogę wybrać chmurę, z którą chcę nawiązać połączenie?
+
+**Odpowiedź:** Począwszy od wersji programu **Power BI Desktop** z lipca 2018, możesz wybrać chmurę, której chcesz używać, podczas logowania do programu **Power BI Desktop**.
+
 
 ## <a name="next-steps"></a>Następne kroki
 Przy użyciu usługi Power BI można wykonywać różnorodne zadania. Aby uzyskać więcej informacji i instrukcji, w tym na temat rejestrowania się w usłudze, zobacz następujące zasoby:

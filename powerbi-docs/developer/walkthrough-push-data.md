@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/05/2017
 ms.author: maghan
-ms.openlocfilehash: 76d07c8384123a303c8801a45ecd05b9e6ed0321
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 96b29c9dc6c384b663ef375d4968dedb011bd05d
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34289469"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813117"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>Wypychanie danych do zestawu danych usługi Power BI
 Interfejs API usługi Power BI umożliwia wypychanie danych do zestawu danych usługi Power BI. Załóżmy na przykład, że chcesz rozszerzyć istniejący przepływ pracy firmy, tak aby wypychał kluczowe dane do zestawu danych. W tym konkretnym przypadku chcesz wypchnąć zestaw danych działu sprzedaży i marketingu, w którym znajduje się tabela produktów, do zestawu danych.
@@ -31,14 +31,14 @@ Aby rozpocząć wypychanie danych do zestawu danych, musisz mieć konto usługi 
 Następna sekcja zawiera ogólne omówienie operacji interfejsu API usługi Power BI wykonywanych w celu wypychania danych.
 
 ## <a name="power-bi-api-operations-to-push-data"></a>Operacje interfejsu API usługi Power BI umożliwiające wypychanie danych
-Dzięki interfejsowi API REST usługi Power BI możesz wypychać źródła danych do usługi Power BI. Gdy aplikacja doda wiersze do zestawu danych, kafelki na pulpicie nawigacyjnym są automatycznie aktualizowane nowymi danymi. Aby wypchnąć dane, należy wykonać operacje [Utwórz zestaw danych](https://msdn.microsoft.com/library/mt203562.aspx) oraz [Dodaj wiersze](https://msdn.microsoft.com/library/mt203561.aspx). Aby odnaleźć zestaw danych, należy wykonać operację [Pobierz zestawy danych](https://msdn.microsoft.com/library/mt203567.aspx). W przypadku każdej z tych operacji możesz wprowadzić identyfikator grupy, aby pracować z grupą. Użyj operacji [Pobierz grupy](https://msdn.microsoft.com/library/mt243842.aspx), aby wyświetlić listę identyfikatorów grup.
+Dzięki interfejsowi API REST usługi Power BI możesz wypychać źródła danych do usługi Power BI. Gdy aplikacja doda wiersze do zestawu danych, kafelki na pulpicie nawigacyjnym są automatycznie aktualizowane nowymi danymi. Aby wypchnąć dane, należy użyć operacji [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets) i [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows). Aby odnaleźć zestaw danych, należy wykonać operację [Pobierz zestawy danych](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets). W przypadku każdej z tych operacji możesz wprowadzić identyfikator grupy, aby pracować z grupą. Użyj operacji [Pobierz grupy](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups), aby wyświetlić listę identyfikatorów grup.
 
 Operacje procesu wypychania danych do zestawu danych:
 
-* [Tworzenie zestawu danych](https://msdn.microsoft.com/library/mt203562.aspx)
-* [Pobieranie zestawów danych](https://msdn.microsoft.com/library/mt203567.aspx)
-* [Dodawanie wierszy](https://msdn.microsoft.com/library/mt203561.aspx)
-* [Pobieranie grup](https://msdn.microsoft.com/library/mt243842.aspx)
+* [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postdataset)
+* [Pobieranie zestawów danych](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)
+* [Publikowanie wierszy](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows)
+* [Pobieranie grup](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups)
 
 Możesz utworzyć zestaw danych w usłudze Power BI, wprowadzając ciąg w formacie JavaScript Object Notation (JSON) do usługi Power BI. Aby dowiedzieć się więcej na temat formatu JSON, zapoznaj się z artykułem [JSON: Wprowadzenie](http://json.org/).
 
@@ -113,10 +113,6 @@ Aby rozpocząć wypychanie danych do zestawu danych, zobacz [Krok 1. Rejestrowan
 
 ## <a name="next-steps"></a>Następne kroki
 [Tworzenie konta w usłudze Power BI](create-an-azure-active-directory-tenant.md)  
-[Tworzenie zestawu danych](https://msdn.microsoft.com/library/mt203562.aspx)  
-[Pobieranie zestawów danych](https://msdn.microsoft.com/library/mt203567.aspx)  
-[Dodawanie wierszy](https://msdn.microsoft.com/library/mt203561.aspx)  
-[Pobieranie grup](https://msdn.microsoft.com/library/mt243842.aspx)  
 [JSON: Wprowadzenie](http://json.org/)  
 [Omówienie interfejsu API REST usługi Power BI](overview-of-power-bi-rest-api.md)  
 Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)

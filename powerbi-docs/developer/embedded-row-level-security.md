@@ -9,11 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/22/2018
 ms.author: maghan
-ms.openlocfilehash: 218f4cd0aaaa5ffc8cab3a06b06af9544b02143d
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 806ec6051cf8b77dfe17664d82e6add40147f0ed
+ms.sourcegitcommit: 4b61588e3ab3c8bbb17276402dbf7fa00085a266
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "35301739"
 ---
 # <a name="use-row-level-security-with-power-bi-embedded-content"></a>Używanie zabezpieczeń na poziomie wiersza w osadzonej zawartości usługi Power BI
 Zabezpieczenia na poziomie wiersza (kontrola dostępu) mogą służyć do ograniczania dostępu użytkowników do danych w ramach pulpitów nawigacyjnych, kafelków, raportów i zestawów danych. Wielu różnych użytkowników może pracować z tymi samymi artefaktami, widząc różne dane. Funkcja osadzania obsługuje zabezpieczenia na poziomie wiersza.
@@ -75,9 +76,9 @@ Takie zastosowanie filtru spowoduje odfiltrowanie wszystkich rekordów w tabelac
 ## <a name="applying-user-and-role-to-an-embed-token"></a>Stosowanie użytkownika i roli do tokenu osadzania
 Teraz po skonfigurowaniu ról programu Power BI Desktop należy wykonać pewne operacje w aplikacji, aby skorzystać z ról.
 
-Użytkownicy są uwierzytelniani i autoryzowani przez aplikację, a tokeny osadzania są używane do udzielania użytkownikom dostępu do konkretnego raportu usługi Power BI Embedded. Usługa Power BI Embedded nie ma żadnych konkretnych informacji o tym, kim jest użytkownik. Aby zabezpieczenia na poziomie wiersza mogły zadziałać, musisz przekazać dodatkowy kontekst w ramach tokenu osadzania w formie tożsamości. Wykonuje się to przy użyciu interfejsu API [GenerateToken](https://msdn.microsoft.com/library/mt784614.aspx).
+Użytkownicy są uwierzytelniani i autoryzowani przez aplikację, a tokeny osadzania są używane do udzielania użytkownikom dostępu do konkretnego raportu usługi Power BI Embedded. Usługa Power BI Embedded nie ma żadnych konkretnych informacji o tym, kim jest użytkownik. Aby zabezpieczenia na poziomie wiersza mogły zadziałać, musisz przekazać dodatkowy kontekst w ramach tokenu osadzania w formie tożsamości. Wykonuje się to przy użyciu interfejsu API [osadzania tokenu](https://docs.microsoft.com/rest/api/power-bi/embedtoken).
 
-Interfejs API [GenerateToken](https://msdn.microsoft.com/library/mt784614.aspx) akceptuje listę tożsamości ze wskazaniem odpowiednich zestawów danych. Aby zabezpieczenia na poziomie wiersza mogły zadziałać, musisz przekazać następujące informacje jako część tożsamości.
+Interfejs API akceptuje listę tożsamości ze wskazaniem odpowiednich zestawów danych. Aby zabezpieczenia na poziomie wiersza mogły zadziałać, musisz przekazać następujące informacje jako część tożsamości.
 
 * **Nazwa użytkownika (obowiązkowe)** — jest to ciąg, którego można użyć do zidentyfikowania użytkownika podczas stosowania reguł zabezpieczeń na poziomie wiersza. Można wymienić na liście tylko jednego użytkownika.
 * **Role (obowiązkowe)** — ciąg zawierający role do wybrania podczas stosowania reguł zabezpieczeń na poziomie wiersza. W przypadku przekazywania więcej niż jednej roli należy je przekazywać jako tablicę ciągów.
@@ -177,7 +178,7 @@ W przypadku wywołania interfejsu API REST możesz dodać dane niestandardowe we
 * Przypisywanie użytkowników do ról w usłudze Power BI nie wpływa na zabezpieczenia na poziomie wiersza podczas używania tokenu osadzania.
 * Usługa Power nie będzie stosować ustawień zabezpieczeń na poziomie wiersza do administratorów lub członków z uprawnieniami do edycji podczas podawania tożsamości wraz z tokenem osadzania, ale będzie stosować je wobec danych.
 * Połączenia na żywo usług Analysis Services są obsługiwane w przypadku serwerów lokalnych.
-* Połączenia na żywo usług Azure Analysis Services obsługują filtrowanie według ról, ale nie dynamicznie według nazwy użytkownika.
+* Połączenia na żywo usług Azure Analysis Services obsługują filtrowanie według ról, ale nie dynamicznie według nazwy użytkownika. Dynamiczne filtrowanie może być wykonywane przy użyciu funkcji CustomData.
 * Jeśli źródłowy zestaw danych nie wymaga zabezpieczeń RSL, żądanie GenerateToken **nie** może zawierać efektywnej tożsamości.
 * Jeśli źródłowy zestaw danych jest modelem w chmurze (modelem w pamięci podręcznej lub zapytaniem bezpośrednim), efektywna tożsamość musi zawierać co najmniej jedną rolę. W przeciwnym razie rola nie zostanie przypisana.
 * Lista tożsamości może zawierać wiele tokenów tożsamości na potrzeby osadzania pulpitu nawigacyjnego. Dla wszystkich innych artefaktów lista zawiera jedną tożsamość.

@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/20/2017
 ms.author: maghan
-ms.openlocfilehash: 86dd69cede6975021aff4b0ce3dada112db980ad
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: d1fd42f059f8050662adc80018748d11c1e73e2b
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34287790"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813761"
 ---
 # <a name="qa-in-power-bi-embedded"></a>Funkcja pytań i odpowiedzi w usłudze Power BI Embedded
 Usługa Power BI Embedded oferuje możliwość zastosowania funkcji pytań i odpowiedzi w aplikacji oraz umożliwia użytkownikom zadawanie pytań przy użyciu języka naturalnego i otrzymywanie natychmiastowych odpowiedzi w formie wizualizacji, np. wykresów lub diagramów.
@@ -93,7 +93,7 @@ qna.on("visualRendered", function(event) {
 ```
 
 ## <a name="embed-token"></a>Token osadzania
-Utwórz token osadzania na podstawie zestawu danych, aby uruchomić część pytań i odpowiedzi. Aby uzyskać więcej informacji, zobacz [Generowanie tokenu dla funkcji pytań i odpowiedzi](https://msdn.microsoft.com/library/mt784614.aspx#qanda).
+Utwórz token osadzania na podstawie zestawu danych, aby uruchomić część pytań i odpowiedzi. Aby uzyskać więcej informacji, zobacz [Generowanie tokenu](https://docs.microsoft.com/rest/api/power-bi/embedtoken).
 
 ## <a name="next-steps"></a>Następne kroki
 Aby wypróbować osadzanie funkcji pytań i odpowiedzi, sprawdź [Przykład osadzania przy użyciu języka JavaScript](https://microsoft.github.io/PowerBI-JavaScript/demo/).

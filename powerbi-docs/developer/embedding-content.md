@@ -7,13 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 03/12/2018
+ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 6824436af46caaa78d5ae23d1e1047f27bd30bba
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: cb84cb2f4242cb120f187c27bb1b1675177c33a2
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813048"
 ---
 # <a name="embed-your-power-bi-dashboards-reports-and-tiles"></a>Osadzanie pulpitów nawigacyjnych, raportów i kafelków usługi Power BI
 
@@ -23,7 +24,7 @@ Firma Microsoft [ogłosiła udostępnienie usługi Power BI Premium](https://pow
 
 W tym artykule przyjrzymy się osadzaniu zawartości usługi Power BI dla organizacji i klientów. Kroki są podobne w obu scenariuszach. Kroki specyficzne dla osadzania dla klientów są odpowiednio oznaczone.
 
-Istnieje kilka działań, które należy wykonać w związku z aplikacją, aby to umożliwić. Opiszemy kroki wymagane w celu umożliwienia tworzenia i wykorzystywania zawartości osadzonej w ramach aplikacji.
+Istnieje kilka działań, które należy wykonać w związku z aplikacją, aby to umożliwić. Omówimy kroki wymagane w celu umożliwienia tworzenia i wykorzystywania zawartości osadzonej w ramach aplikacji.
 
 > [!NOTE]
 > Interfejsy API usługi Power BI nadal odwołują się do obszarów roboczych aplikacji jako grup. Wszystkie odwołania do grup oznaczają, że pracujesz z obszarami roboczymi aplikacji.
@@ -34,10 +35,17 @@ Przed rozpoczęciem osadzania pulpitów i raportów w aplikacji należy upewnić
 
 * [Upewnij się, że dysponujesz dzierżawą usługi Azure Active Directory](embedding-content.md#azureadtenant)
 * [Utwórz konto usługi Power BI Pro](embedding-content.md#proaccount)
-* [Zarejestruj aplikację i uprawnienia usługi Azure Active Directory](embedding-content.md#appreg)
+
+Możesz użyć [narzędzia obsługi dołączania](https://aka.ms/embedsetup), aby szybko rozpocząć pracę i pobrać przykładową aplikację.
+
+Wybierz rozwiązanie, które jest odpowiednie dla Ciebie:
+* [Osadzanie dla swoich klientów](embedding.md#embedding-for-your-customers) zapewnia możliwość osadzenia pulpitów nawigacyjnych i raportów u użytkowników, którzy nie mają konta w usłudze Power BI. Uruchom rozwiązanie [osadzania dla klientów](https://aka.ms/embedsetup/AppOwnsData).
+* [Osadzanie dla swojej organizacji](embedding.md#embedding-for-your-organization) umożliwia rozszerzanie usługi Power BI. Uruchom rozwiązanie [osadzania dla organizacji](https://aka.ms/embedsetup/UserOwnsData).
+
+Jeśli jednak chcesz ręcznie skonfigurować środowisko, kontynuuj czytanie. 
 
 > [!NOTE]
-> Tworzenie aplikacji nie wymaga pojemności usługi Power BI. Twórcy aplikacji muszą dysponować licencją usługi Power BI Pro.
+> Tworzenie aplikacji nie wymaga dedykowanej pojemności. Twórcy aplikacji muszą dysponować licencją usługi Power BI Pro.
 
 ### <a name="azureadtenant"></a>Dzierżawa usługi Azure Active Directory
 
@@ -59,15 +67,15 @@ Poniższe konta muszą istnieć w ramach dzierżawy i mieć przypisaną licencj�
 
 #### <a name="an-organizationtenant-admin-user"></a>Administrator organizacji/dzierżawy
 
-Zaleca się, aby konto administratora globalnego organizacji/dzierżawy nie było używane jako konto używane przez aplikację w przypadku osadzania dla klientów. Celem tego jest minimalizacja dostępu konta aplikacji w ramach dzierżawy. Zaleca się, aby administrator był administratorem wszystkich obszarów roboczych aplikacji utworzonych na potrzeby osadzania.
+Zaleca się, aby konto administratora globalnego organizacji/dzierżawy nie było używane jako konto używane przez aplikację w przypadku osadzania dla klientów. Celem tego jest minimalizacja dostępu konta aplikacji w ramach dzierżawy. Zalecane jest, aby użytkownik będący administratorem dzierżawy był administratorem wszystkich obszarów roboczych aplikacji utworzonych na potrzeby osadzania.
 
-#### <a name="accounts-for-analysts-that-will-create-content"></a>Konta analityków tworzących zawartość
+#### <a name="accounts-for-analysts-that-create-content"></a>Konta analityków tworzących zawartość
 
 Może występować wielu użytkowników tworzących zawartość dla usługi Power BI. Wymagane jest konto usługi Power BI Pro dla każdego analityka tworzącego i wdrażającego zawartość w usłudze Power BI.
 
 #### <a name="an-application-master-user-account-for-embedding-for-your-customers"></a>Konto użytkownika *głównego* aplikacji dla osadzania dla swoich klientów
 
-Konto główne to konto używane przez aplikację podczas osadzania zawartości dla klientów. Scenariusz ten dotyczy zazwyczaj aplikacji niezależnych dostawców oprogramowania. Konto główne to tak naprawdę jedyne konto wymagane w ramach organizacji. Może być ono także używane jako konto administratora i analityka, ale nie jest to zalecane. Poświadczenia tego konta będą przechowywane w zapleczu aplikacji i używane w celu uzyskania tokenu autoryzacji usługi Azure AD do użycia z interfejsami API usługi Power BI. To konto będzie używane w celu wygenerowania tokenu osadzania dla aplikacji do użytku dla klientów.
+Konto główne to konto używane przez aplikację podczas osadzania zawartości dla klientów. Scenariusz ten dotyczy zazwyczaj aplikacji niezależnych dostawców oprogramowania. Konto główne to jedyne konto wymagane w ramach organizacji. Może być ono także używane jako konto administratora i analityka, ale nie jest to zalecane. Poświadczenia tego konta będą przechowywane w zapleczu aplikacji i używane w celu uzyskania tokenu autoryzacji usługi Azure AD do użycia z interfejsami API usługi Power BI. To konto generuje token osadzania dla aplikacji do użytku dla klientów.
 
 Konto główne to zwykły użytkownik z licencją usługi Power BI Pro używaną z aplikacją. Konto musi być kontem administratora obszaru roboczego aplikacji używanym do osadzania.
 
@@ -105,7 +113,7 @@ W przypadku **osadzania dla klientów**, działania typowego dla niezależnych d
 
 * [Integrowanie pulpitu nawigacyjnego, kafelka lub raportu w aplikacji](embed-sample-for-customers.md)
 
-Osadzanie dla klientów wymaga tokenu osadzania. Aby dowiedzieć się więcej, zobacz [GenerateToken](https://msdn.microsoft.com/library/mt784614.aspx).
+Osadzanie dla klientów wymaga tokenu osadzania. Aby dowiedzieć się więcej, zobacz [Token osadzania](https://docs.microsoft.com/rest/api/power-bi/embedtoken).
 
 ## <a name="step-3-promote-your-solution-to-production"></a>Krok 3. Promowanie rozwiązania do środowiska produkcyjnego
 
@@ -115,7 +123,7 @@ Przejście do środowiska produkcyjnego wymaga kilku dodatkowych kroków.
 
 W przypadku osadzania dla swojej organizacji wystarczy jedynie powiadomić innych, jak uzyskać dostęp do aplikacji. 
 
-Użytkownicy wersji bezpłatnej mogą korzystać z zawartości osadzonej z obszaru roboczego aplikacji (grupy), jeśli dany obszar roboczy ma wsparcie pojemności. Użytkownika wersji bezpłatnej należy umieścić na liście członków obszaru roboczego aplikacji (grupy). W przeciwnym razie wyświetlany jest błąd nieupoważnionego dostępu 401. Poniższa tabela zawiera listę dostępnych jednostek SKU usługi Power BI Premium dostępnych w ramach usługi Office 365.
+Użytkownicy wersji bezpłatnej mogą korzystać z zawartości osadzonej z obszaru roboczego aplikacji (grupy), jeśli dedykowana pojemność wspiera ten obszar. Użytkownika wersji bezpłatnej należy umieścić na liście członków obszaru roboczego aplikacji (grupy). W przeciwnym razie wyświetlany jest błąd nieupoważnionego dostępu 401. Poniższa tabela zawiera listę dostępnych jednostek SKU usługi Power BI Premium dostępnych w ramach usługi Office 365.
 
 | Węzeł pojemności | Całkowita liczba rdzeni<br/>*(Wewnętrzna baza danych + fronton)* | Rdzenie wewnętrznej bazy danych | Rdzenie frontonu | Limity zapytania bezpośredniego/połączenia na żywo | Maksymalne renderowanie strony w godzinie szczytu |
 | --- | --- | --- | --- | --- | --- |
@@ -127,6 +135,10 @@ Użytkownicy wersji bezpłatnej mogą korzystać z zawartości osadzonej z obsza
 > [!NOTE]
 > Aby móc kupić usługę Power BI Premium, musisz być administratorem globalnym lub administratorem rozliczeń swojej dzierżawy. Aby uzyskać informacje o sposobie zakupu usługi Power BI Premium, zobacz [Jak kupić usługę Power BI Premium](../service-admin-premium-purchase.md).
 
+>[!Note]
+>[Skonfiguruj środowisko analizy osadzonej dla swojej organizacji.](#step-1-setup-your-embedded-analytics-development-environment)
+>
+
 ### <a name="embedding-for-your-customers"></a>Osadzanie dla swoich klientów
 
 W przypadku osadzania dla swoich klientów należy wykonać następujące działania.
@@ -135,7 +147,7 @@ W przypadku osadzania dla swoich klientów należy wykonać następujące dział
 * Kup pojemność odpowiednią do potrzeb. Poniższa tabela pomaga w określeniu, których jednostek SKU pojemności usługi Power BI Embedded możesz potrzebować. Więcej informacji można znaleźć w [oficjalnym dokumencie dotyczącym planowania pojemności na potrzeby osadzonej analizy](https://aka.ms/pbiewhitepaper). Gdy wszystko będzie gotowe do zakupu, możesz dokonać zakupu w witrynie [Microsoft Azure Portal](https://portal.azure.com). Aby uzyskać więcej informacji na temat tworzenia pojemności osadzonej usługi Power BI Embedded, zobacz artykuł [Create Power BI Embedded capacity in the Azure portal](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity) (Tworzenie pojemności osadzonej usługi Power BI Embedded w witrynie Azure Portal).
 
 > [!IMPORTANT]
-> Ponieważ tokeny osadzania są przeznaczone tylko do celów testowania podczas programowania, liczba tokenów osadzania, które może wygenerować konto główne usługi Power BI, jest ograniczona. Dla scenariuszy osadzania w środowisku produkcyjnym [należy kupić pojemność](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical). Nie ma żadnego ograniczenia generowania tokenów osadzania, gdy zostanie kupiona pojemność. Przejdź do pozycji [Pobierz dostępne funkcje](https://msdn.microsoft.com/en-us/library/mt846473.aspx), aby sprawdzić, ilu bezpłatnych osadzonych tokenów już użyto.
+> Ponieważ tokeny osadzania są przeznaczone tylko do celów testowania przez deweloperów, liczba tokenów osadzania, które może wygenerować konto główne usługi Power BI, jest ograniczona. Dla scenariuszy osadzania w środowisku produkcyjnym [należy kupić pojemność](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical). Po zakupie pojemności dedykowanej nie ma żadnego ograniczenia generowania tokenów osadzania. Przejdź do pozycji [Dostępne funkcje](https://docs.microsoft.com/rest/api/power-bi/availablefeatures), aby sprawdzić, ilu bezpłatnych osadzonych tokenów już użyto.
 
 | Węzeł pojemności | Całkowita liczba rdzeni<br/>*(Wewnętrzna baza danych + fronton)* | Rdzenie wewnętrznej bazy danych | Rdzenie frontonu | Limity zapytania bezpośredniego/połączenia na żywo | Maksymalne renderowanie strony w godzinie szczytu |
 | --- | --- | --- | --- | --- | --- |
@@ -146,13 +158,15 @@ W przypadku osadzania dla swoich klientów należy wykonać następujące dział
 | A5 |16 rdzeni wirtualnych |8 rdzeni, 50 GB pamięci RAM |8 rdzeni |60 na sekundę |2401–4800 |
 | A6 |32 rdzenie wirtualne |16 rdzeni, 100 GB pamięci RAM |16 rdzeni |120 na sekundę |4801–9600 |
 
-* Edytuj obszar roboczy aplikacji i przypisz go do pojemności w obszarze Zaawansowane.
+* Edytuj obszar roboczy aplikacji i przypisz go do pojemności dedykowanej w obszarze Zaawansowane.
 
     ![Przypisywanie obszaru roboczego aplikacji do pojemności](media/embedding-content/powerbi-embedded-premium-capacity.png)
 
 * Wdróż zaktualizowaną aplikację w środowisku produkcyjnym i rozpocznij osadzanie pulpitów nawigacyjnych i raportów usługi Power BI.
 
-
+>[!Note]
+>[Skonfiguruj środowisko analizy osadzonej dla klientów.](#step-1-setup-your-embedded-analytics-development-environment) 
+>
 
 ## <a name="admin-settings"></a>Ustawienia administratora
 
@@ -171,4 +185,3 @@ Administratorzy globalni oraz administratorzy usługi Power BI mogą włączać 
 [Oficjalny dokument na temat usługi Power BI Premium](https://aka.ms/pbipremiumwhitepaper)  
 
 Masz więcej pytań? [Zadaj pytanie społeczności usługi Power BI](http://community.powerbi.com/)
-

@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: 640c6dac9a896cff55bddad46ceef8bce7ccae14
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 238d068e5083c8f46ac3299faddd4e0872f0654d
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34289377"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34812634"
 ---
 # <a name="step-2-get-an-authentication-access-token"></a>Krok 2. Uzyskiwanie tokenu dostępu do uwierzytelniania
 Ten artykuł jest częścią przewodnika krok po kroku dotyczącego [wypychania danych do zestawu danych](walkthrough-push-data.md).
@@ -104,7 +104,7 @@ Dodaj ten kod do klasy Program {...}.
        #endregion
 ```
 
-Po uzyskaniu tokenu uwierzytelniania można wywołać dowolną operację usługi Power BI. W następnym kroku przedstawiono, w jaki sposób wywołać operację [tworzenia zestawu danych](https://msdn.microsoft.com/library/mt203562.aspx), aby utworzyć zestaw danych na potrzeby wypychania danych do pulpitu nawigacyjnego.
+Po uzyskaniu tokenu uwierzytelniania można wywołać dowolną operację usługi Power BI. W następnym kroku przedstawiono, w jaki sposób wywołać operację [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets), aby utworzyć zestaw danych na potrzeby wypychania danych do pulpitu nawigacyjnego.
 
 W następnym kroku opisano, jak [utworzyć zestaw danych w usłudze Power BI](walkthrough-push-data-create-dataset.md).
 
@@ -181,6 +181,6 @@ Poniżej znajduje się [kompletna lista kodu](#code).
 [Biblioteka Azure AD Authentication Library dla pakietu NuGet programu .NET](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/)  
 [Wypychanie danych do zestawu danych usługi Power BI](walkthrough-push-data.md)  
 [Omówienie interfejsu API REST usługi Power BI](overview-of-power-bi-rest-api.md)  
-[Dokumentacja interfejsu API REST usługi Power BI](https://msdn.microsoft.com/library/mt147898.aspx)  
+[Dokumentacja interfejsu API REST usługi Power BI](https://docs.microsoft.com/rest/api/power-bi/)  
 Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
 

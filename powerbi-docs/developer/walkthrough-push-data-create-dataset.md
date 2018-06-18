@@ -9,23 +9,23 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: c94f0a94cfc2e59942a17b542efb7b1bb641174c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: c6cbdf9effa3264eadf19de97be864cc3f152e8b
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34290320"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34812427"
 ---
 # <a name="step-3-create-a-dataset-in-power-bi"></a>Krok 3. Tworzenie zestawu danych w usłudze Power BI
 Ten artykuł jest częścią przewodnika krok po kroku dotyczącego [wypychania danych do zestawu danych](walkthrough-push-data.md).
 
-W **kroku 2** procedury wypychania danych do zestawu danych [Uzyskiwanie tokenu dostępu do uwierzytelniania](walkthrough-push-data-get-token.md) przedstawiliśmy uwierzytelnianie w usłudze **Azure AD** za pomocą tokenu. W tym kroku przy użyciu tokenu wywołamy operację [Utwórz zestaw danych](https://msdn.microsoft.com/library/mt203562.aspx).
+W **kroku 2** procedury wypychania danych do zestawu danych [Uzyskiwanie tokenu dostępu do uwierzytelniania](walkthrough-push-data-get-token.md) przedstawiliśmy uwierzytelnianie w usłudze **Azure AD** za pomocą tokenu. W tym kroku przy użyciu tokenu wywołamy operację [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets).
 
 Aby wywołać zasób interfejsu REST, należy użyć adresu URL umożliwiającego zlokalizowanie zasobu i wysłać ciąg JavaScript Object Notation (JSON) opisujący zestaw danych dla zasobu usługi Power BI. Zasób interfejsu REST identyfikuje części usługi Power BI, z którą chcesz pracować. Aby można było wypchnąć dane do zestawu danych, zasób docelowy musi być **zestawem danych**. Adres URL identyfikujący zestaw danych to https://api.PowerBI.com/v1.0/myorg/datasets. W przypadku wypychania danych w obrębie grupy adres URL to https://api.PowerBI.com/v1.0/myorg/groups/{group_id}/datasets.
 
 Na potrzeby uwierzytelniania operacji w interfejsie REST usługi Power BI do nagłówka żądania dodaj token uzyskany w ramach procedury [Uzyskiwanie tokenu dostępu do uwierzytelniania](walkthrough-push-data-get-token.md):
 
-Wywołanie operacji [Utwórz zestaw danych](https://msdn.microsoft.com/library/mt203562.aspx) powoduje utworzenie nowego zestawu danych. 
+Wywołanie operacji [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets) powoduje utworzenie nowego zestawu danych. 
 
 ![](media/walkthrough-push-data-create-dataset/powerbi-developer-create-dataset.png)
 
@@ -228,10 +228,11 @@ Poniżej znajduje się [kompletna lista kodu](#code).
 ## <a name="next-steps"></a>Następne kroki
 [Umożliwienie zestawowi danych dodawania wierszy do tabeli usługi Power BI](walkthrough-push-data-get-datasets.md)  
 [Uzyskiwanie tokenu dostępu do uwierzytelniania](walkthrough-push-data-get-token.md)  
-[Tworzenie zestawu danych](https://msdn.microsoft.com/library/mt203562.aspx)  
+[PostDataset](https://docs.microsoft.com/rest/api/power-bi/datasets_postdataset)  
+[PostDatasetInGroup](https://docs.microsoft.com/rest/api/power-bi/datasets_postdatasetingroup)  
 [Wypychanie danych do pulpitu nawigacyjnego usługi Power BI](walkthrough-push-data.md)  
 [Omówienie interfejsu API REST usługi Power BI](overview-of-power-bi-rest-api.md)  
-[Dokumentacja interfejsu API REST usługi Power BI](https://msdn.microsoft.com/library/mt147898.aspx)  
+[Dokumentacja interfejsu API REST usługi Power BI](https://docs.microsoft.com/rest/api/power-bi/)  
 
 Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
 

@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: fa142a34da003328ef509c319faf24d556023440
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: ad23161985cc2721562cfdfd9128e326db887ece
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34720816"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813163"
 ---
 # <a name="troubleshooting-your-embedded-application"></a>Rozwiązywanie problemów z aplikacją osadzoną
 
@@ -108,7 +108,7 @@ Przyczyn niepowodzenia metody GenerateToken, po podaniu obowiązującej tożsamo
 
 Aby sprawdzić, co wywołało ten błąd, należy wykonać następujące czynności.
 
-* Wykonaj polecenie [pobierania zestawu danych](https://msdn.microsoft.com/library/mt784653.aspx). Czy właściwość IsEffectiveIdentityRequired jest prawdziwa?
+* Wykonaj polecenie [pobierania zestawu danych](https://docs.microsoft.com/rest/api/power-bi/datasets). Czy właściwość IsEffectiveIdentityRequired jest prawdziwa?
 * Nazwa użytkownika jest wymagana w przypadku każdego elementu EffectiveIdentity.
 * Jeśli właściwość IsEffectiveIdentityRolesRequired jest prawdziwa, konieczne jest podanie roli.
 * Wartość DatasetId jest wymagana dla każdego elementu EffectiveIdentity.

@@ -9,19 +9,19 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: 382d600a6e50d926fc61163ea1b0e4f1273fdcc9
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: b6fdd950b77dedf9f5180f7cbc90d40c786051c7
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34287537"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34812542"
 ---
 # <a name="step-5-add-rows-to-a-power-bi-table"></a>Krok 5. Dodawanie wierszy do tabeli usługi Power BI
 Ten artykuł jest częścią przewodnika krok po kroku dotyczącego [wypychania danych do zestawu danych](walkthrough-push-data.md).
 
-W **kroku 4** wypychania danych do zestawu danych, [Umożliwienie zestawowi danych dodawania wierszy do tabeli usługi Power BI](walkthrough-push-data-get-datasets.md), użyto operacji [Pobierz zestawy danych](https://msdn.microsoft.com/library/mt203567.aspx) i pliku Newtonsoft.Json w celu pobrania identyfikatora zestawu danych. W tym kroku użyjesz identyfikatora zestawu danych z operacją [Dodaj wiersze](https://msdn.microsoft.com/library/mt203561.aspx), aby dodać wiersze do zestawu danych **usługi Power BI**. 
+W **kroku 4** wypychania danych do zestawu danych, [Umożliwienie zestawowi danych dodawania wierszy do tabeli usługi Power BI](walkthrough-push-data-get-datasets.md), użyto operacji [Pobierz zestawy danych](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets) i pliku Newtonsoft.Json w celu pobrania identyfikatora zestawu danych. W tym kroku użyjesz identyfikatora zestawu danych z operacją [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows), aby dodać wiersze do zestawu danych **usługi Power BI**. 
 
-W przypadku wywołania operacji [Dodaj wiersze](https://msdn.microsoft.com/library/mt203561.aspx) następuje dodanie wierszy do zestawu danych.
+W przypadku wywołania operacji [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) następuje dodanie wierszy do zestawu danych.
 
 ![](media/walkthrough-push-data-add-rows/powerbi-developer-add-rows.png)
 
@@ -308,9 +308,8 @@ Poniżej znajduje się [kompletna lista kodu](#code).
     }
 
 ## <a name="next-steps"></a>Następne kroki
-[Dodawanie wierszy](https://msdn.microsoft.com/library/mt203561.aspx)  
 [Wypychanie danych do pulpitu nawigacyjnego usługi Power BI](walkthrough-push-data.md)  
 [Omówienie interfejsu API REST usługi Power BI](overview-of-power-bi-rest-api.md)  
-[Dokumentacja interfejsu API REST usługi Power BI](https://msdn.microsoft.com/library/mt147898.aspx)  
+[Dokumentacja interfejsu API REST usługi Power BI](https://docs.microsoft.com/rest/api/power-bi/)  
 Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
 

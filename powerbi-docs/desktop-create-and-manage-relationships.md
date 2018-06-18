@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 264071f314e4a05a3d0b283ab58d644dff4b44a1
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: f84e43a96243841b247530b5639f5f0c6ae1bb4f
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813669"
 ---
 # <a name="create-and-manage-relationships-in-power-bi-desktop"></a>Tworzenie relacji i zarządzanie nimi w programie Power BI Desktop
 Gdy importujesz wiele tabel, istnieje prawdopodobieństwo, że wykonasz jakieś analizy z użyciem danych ze wszystkich tych tabel. Relacje między tymi tabelami są konieczne w celu dokładnego obliczenia wyników i wyświetlenia poprawnych informacji w raportach. Dzięki programowi Power BI Desktop tworzenie relacji jest łatwe. W większości przypadków nie musisz nawet nic robić, ponieważ wyręczy Cię funkcja Autowykrywanie. Jednak w niektórych przypadkach konieczne może być samodzielne utworzenie relacji lub wprowadzenie w niej pewnych zmian. W każdym razie ważne jest zrozumienie relacji w programie Power BI Desktop, a także poznanie sposobów ich tworzenia i edycji.
@@ -35,6 +36,16 @@ Na karcie **Narzędzia główne** kliknij polecenie **Zarządzanie relacjami** \
 ![](media/desktop-create-and-manage-relationships/manualrelationship2.gif)
 
 Domyślnie program Power BI Desktop automatycznie skonfiguruje właściwości Kardynalność (kierunek), Kierunek filtrowania krzyżowego oraz Aktywne dla nowej relacji, jednak można je w razie potrzeby zmienić. Aby dowiedzieć się więcej, zobacz sekcję Omówienie opcji dodatkowych w dalszej części tego artykułu.
+
+Należy pamiętać, że jeśli żadna z tabel wybranych dla relacji nie zawiera unikatowych wartości, zostanie wyświetlony błąd informujący, że *jedna z tych kolumn musi zawierać unikatowe wartości*. Co najmniej jedna tabela w relacji *musi* zawierać odrębną, unikatową listę wartości klucza, co jest typowym wymogiem w przypadku wszystkich technologii relacyjnych baz danych. 
+
+Jeśli wystąpi ten błąd, istnieje kilka sposobów, aby rozwiązać problem:
+
+* Użyj opcji „Usuń zduplikowane wiersze”, aby utworzyć kolumnę o unikatowych wartościach. Wadą tego podejścia jest fakt, że spowoduje to utratę informacji podczas usuwania zduplikowanych wierszy, a często klucz (wiersz) jest zduplikowany w określonym celu.
+* Dodaj tabelę pośrednią utworzoną z listy unikatowych wartości kluczy do modelu, który następnie zostanie połączony z obydwoma oryginalnymi kolumnami w relacji.
+
+Aby uzyskać szczegółowe informacje, zobacz [wpis w blogu](https://blogs.technet.microsoft.com/cansql/2016/12/19/relationships-in-power-bi-fixing-one-of-the-columns-must-have-unique-values-error-message/) zawierający szczegółowe omówienie tego zagadnienia.
+
 
 ## <a name="edit-a-relationship"></a>Edycja relacji
 1. Na karcie **Narzędzia główne** kliknij polecenie **Zarządzanie relacjami**.

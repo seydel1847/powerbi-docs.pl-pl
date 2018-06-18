@@ -9,19 +9,19 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: c550b911eef43ade98b3bc771e3f13929b805e11
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: ae8919bbe06c729cc43e230146c4c1a216a80168
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34287629"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813247"
 ---
 # <a name="step-4-get-a-dataset-to-add-rows-into-a-power-bi-table"></a>Krok 4. Umożliwienie zestawowi danych dodawania wierszy do tabeli usługi Power BI
 Ten artykuł jest częścią przewodnika krok po kroku dotyczącego [wypychania danych do zestawu danych](walkthrough-push-data.md).
 
-W **kroku 3.** procedury wypychania danych do zestawu danych, [Tworzenie zestawu danych w usłudze Power BI](walkthrough-push-data-create-dataset.md), nastąpiło wywołanie operacji [Utwórz zestaw danych](https://msdn.microsoft.com/library/mt203562.aspx) w celu utworzenia zestawu danych w usłudze Power BI. W tym kroku uzyskasz identyfikator zestawu danych za pomocą operacji [Pobierz zestawy danych](https://msdn.microsoft.com/library/mt203567.aspx) i pakietu Newtonsoft.Json. Identyfikator zestawu danych umożliwi dodanie wierszy do zestawu danych w kroku 4. 
+W **kroku 3.** procedury wypychania danych do zestawu danych, [Tworzenie zestawu danych w usłudze Power BI](walkthrough-push-data-create-dataset.md), nastąpiło wywołanie operacji [Utwórz zestaw danych](https://docs.microsoft.com/rest/api/power-bi/datasets) w celu utworzenia zestawu danych w usłudze Power BI. W tym kroku uzyskasz identyfikator zestawu danych za pomocą operacji [Pobierz zestawy danych](https://docs.microsoft.com/rest/api/power-bi/getdatasets) i pakietu Newtonsoft.Json. Identyfikator zestawu danych umożliwi dodanie wierszy do zestawu danych w kroku 4. 
 
-Wypychanie danych do zestawu danych usługi Power BI wymaga odwoływania się do tabeli w zestawie danych. Aby odwołać się do tabeli w zestawie danych, należy najpierw uzyskać **identyfikator zestawu danych**. **Identyfikator zestawu danych** można uzyskać przy użyciu operacji [Pobierz zestaw danych](https://msdn.microsoft.com/library/mt203567.aspx). Operacja **Pobierz zestaw danych** zwraca ciąg JSON zawierający listę wszystkich zestawów danych w usłudze Power BI. Jest to zalecany sposób deserializacji ciągu JSON za pomocą pakietu [Newtonsoft.Json](http://www.newtonsoft.com/json).
+Wypychanie danych do zestawu danych usługi Power BI wymaga odwoływania się do tabeli w zestawie danych. Aby odwołać się do tabeli w zestawie danych, należy najpierw uzyskać **identyfikator zestawu danych**. **Identyfikator zestawu danych** można uzyskać przy użyciu operacji [Pobierz zestaw danych według identyfikatora](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasetbyid). Operacja **Pobierz zestaw danych według identyfikatora** zwraca ciąg JSON zawierający listę wszystkich zestawów danych w usłudze Power BI. Jest to zalecany sposób deserializacji ciągu JSON za pomocą pakietu [Newtonsoft.Json](http://www.newtonsoft.com/json).
 
 Poniżej przedstawiono sposób pobierania zestawu danych.
 
@@ -267,10 +267,10 @@ Poniżej znajduje się [kompletna lista kodu](#code).
 ## <a name="next-steps"></a>Następne kroki
 [Dodawanie wierszy do tabeli usługi Power BI](walkthrough-push-data-add-rows.md)  
 [Newtonsoft.Json](http://www.newtonsoft.com/json)  
-[Pobieranie zestawów danych](https://msdn.microsoft.com/library/mt203567.aspx)  
+[Pobieranie zestawów danych](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)  
 [Wypychanie danych do usługi Power BI](walkthrough-push-data.md)  
 [Omówienie interfejsu API REST usługi Power BI](overview-of-power-bi-rest-api.md)  
-[Dokumentacja interfejsu API REST usługi Power BI](https://msdn.microsoft.com/library/mt147898.aspx)  
+[Dokumentacja interfejsu API REST usługi Power BI](https://docs.microsoft.com/rest/api/power-bi/)  
 
 Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
 

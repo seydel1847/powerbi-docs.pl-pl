@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/13/2018
 ms.author: maghan
-ms.openlocfilehash: 6ad2138ab37b20fa16a5455ab167ec9e6b7e159c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: afed2bc87e7e358d9ba02a465c43d223f6e7cba3
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34288319"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813784"
 ---
 # <a name="integrate-a-tile-into-an-app-user-owns-data"></a>Integrowanie kafelka z aplikacją (dane należą do użytkownika)
 Dowiedz się, jak integrować lub osadzać kafelek w aplikacji internetowej przy użyciu wywołań interfejsu API REST wraz z interfejsem API języka JavaScript usługi Power BI podczas osadzania dla organizacji.
@@ -28,7 +28,7 @@ Do rozpoczęcia pracy z tym przewodnikiem jest wymagane konto usługi **Power BI
 > 
 > 
 
-Aby zintegrować kafelek z aplikacją internetową, należy użyć interfejsu API REST usługi **Power BI** lub zestawu SDK C# usługi Power BI oraz **tokenu dostępu** uwierzytelniania usługi Azure Active Directory (AD) w celu uzyskania kafelka. Następnie należy załadować kafelek przy użyciu tego samego tokenu dostępu. Interfejs API usługi **Power BI** zapewnia dostęp programowy do określonych zasobów usługi **Power BI**. Aby uzyskać więcej informacji, zobacz [Omówienie interfejsu API REST usługi Power BI](https://msdn.microsoft.com/library/dn877544.aspx) i [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript) (Interfejs API języka JavaScript usługi Power BI).
+Aby zintegrować kafelek z aplikacją internetową, należy użyć interfejsu API REST usługi **Power BI** lub zestawu SDK C# usługi Power BI oraz **tokenu dostępu** uwierzytelniania usługi Azure Active Directory (AD) w celu uzyskania kafelka. Następnie należy załadować kafelek przy użyciu tego samego tokenu dostępu. Interfejs API usługi **Power BI** zapewnia dostęp programowy do określonych zasobów usługi **Power BI**. Aby uzyskać więcej informacji, zobacz [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) (Interfejs API REST usługi Power BI) i [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript) (Interfejs API języka JavaScript usługi Power BI).
 
 ## <a name="download-the-sample"></a>Pobieranie przykładu
 W tym artykule przedstawiono kod używany w aplikacji [integrate-tile-web-app](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-tile-web-app) w witrynie GitHub. Aby korzystać z tego przewodnika, możesz pobrać przykład.
@@ -44,12 +44,12 @@ Jeśli pobrano przykład [integrate-tile-web-app](https://github.com/Microsoft/P
 W aplikacji należy najpierw uzyskać **token dostępu** z usługi Azure AD, aby móc wykonywać wywołania interfejsu API REST usługi Power BI. Aby uzyskać więcej informacji, zobacz [Uwierzytelnianie użytkowników i uzyskiwanie tokenów dostępu usługi Azure AD dla aplikacji usługi Power BI](get-azuread-access-token.md).
 
 ## <a name="step-3---get-a-tile"></a>Krok 3. Uzyskiwanie kafelka
-Aby uzyskać kafelek usługi **Power BI**, należy użyć operacji [uzyskiwania kafelków](https://msdn.microsoft.com/library/mt465741.aspx) zwracającej listę kafelków usługi **Power BI**. Z listy kafelków można uzyskać identyfikator kafelka i adres URL osadzania.
+Aby uzyskać kafelek usługi **Power BI**, należy użyć operacji [uzyskiwania kafelków](https://docs.microsoft.com/rest/api/power-bi/dashboards/gettiles) zwracającej listę kafelków usługi **Power BI**. Z listy kafelków można uzyskać identyfikator kafelka i adres URL osadzania.
 
 Zanim będzie można uzyskać kafelek, należy pobrać identyfikator pulpitu nawigacyjnego. Aby uzyskać informacje dotyczące pobierania pulpitu nawigacyjnego, zobacz [Integrowanie pulpitu nawigacyjnego w aplikacji (dane należą do użytkownika)](integrate-dashboard.md).
 
 ### <a name="get-tiles-using-an-access-token"></a>Uzyskiwanie kafelków przy użyciu tokenu dostępu
-Możesz użyć **tokenu dostępu** pobranego w [kroku 2.](#step-2-get-an-access-token-from-azure-ad), wywołując operację [uzyskiwania kafelków](https://msdn.microsoft.com/library/mt465741.aspx). Operacja [uzyskiwania kafelków](https://msdn.microsoft.com/library/mt465741.aspx) zwraca listę kafelków. Z tej listy kafelków można uzyskać pojedynczy kafelek. Poniżej przedstawiono całą metodę języka C# umożliwiającą uzyskanie kafelka. 
+Możesz użyć **tokenu dostępu** pobranego w [kroku 2.](#step-2-get-an-access-token-from-azure-ad), wywołując operację [uzyskiwania kafelków](https://docs.microsoft.com/rest/api/power-bi/dashboards/gettiles). Operacja [uzyskiwania kafelków](https://docs.microsoft.com/rest/api/power-bi/dashboards/gettiles) zwraca listę kafelków. Z tej listy kafelków można uzyskać pojedynczy kafelek. Poniżej przedstawiono całą metodę języka C# umożliwiającą uzyskanie kafelka. 
 
 Aby wykonać wywołanie interfejsu API REST, należy użyć nagłówka *Authorization* w formacie *Bearer {token dostępu}*.
 
@@ -216,7 +216,7 @@ Jeśli pobrano i uruchomiono przykład [integrate-tile-web-app](https://github.c
 ![Osadzony kafelek w aplikacji internetowej](media/integrate-tile/powerbi-embedded-tile.png)
 
 ## <a name="working-with-groups-app-workspaces"></a>Praca z grupami (obszarami roboczymi aplikacji)
-Aby osadzić kafelek z grupy (obszaru roboczego aplikacji), należy uzyskać listę wszystkich dostępnych kafelków na pulpicie nawigacyjnym grupy przy użyciu następującego wywołania interfejsu API REST. Aby uzyskać więcej informacji na temat tego wywołania interfejsu API REST, zobacz [Get Tiles](https://msdn.microsoft.com/library/mt465741.aspx) (Uzyskiwanie kafelków). Aby żądanie zwróciło wyniki, musisz mieć uprawnienia w tej grupie.
+Aby osadzić kafelek z grupy (obszaru roboczego aplikacji), należy uzyskać listę wszystkich dostępnych kafelków na pulpicie nawigacyjnym grupy przy użyciu następującego wywołania interfejsu API REST. Aby uzyskać więcej informacji na temat tego wywołania interfejsu API REST, zobacz [Get Tiles](https://docs.microsoft.com/rest/api/power-bi/dashboards/gettiles) (Uzyskiwanie kafelków). Aby żądanie zwróciło wyniki, musisz mieć uprawnienia w tej grupie.
 
 ```
 https://api.powerbi.com/v1.0/myorg/groups/{groupId}/dashboards/{dashboard_id}/tiles
