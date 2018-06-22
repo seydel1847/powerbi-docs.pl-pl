@@ -72,7 +72,7 @@ Zajmijmy się najpierw badaniem nowych pracowników.
 
 Zapamiętaj poniższe:
 
-* Wykres kombi **Liczba nowych pracowników, Nowi pracownicy SPLY i Zmiana zatrudnienia w % rok do roku według miesiąca** pokazuje, że zatrudnialiśmy więcej osób każdego miesiąca tego roku w porównaniu do zeszłego roku & #151; znacznie więcej osób w pewnych miesiącach.
+* Wykres kombi **Liczba nowych pracowników, Nowi pracownicy SPLY i Zmiana zatrudnienia w % rok do roku według miesiąca** pokazuje, że zatrudnialiśmy więcej osób każdego miesiąca tego roku w porównaniu do zeszłego roku &#151; znacznie więcej osób w pewnych miesiącach.
 * Na wykresie kombi **Liczba nowych pracowników i Liczba zatrudnionych pracowników według regionu i pochodzenia etnicznego** należy zauważyć, że zatrudniamy mniej osób w regionie **Wschodnim**.
 * Wykres kaskadowy **Zmiana liczby nowych pracowników rok do roku według grupy wiekowej** pokazuje, że zatrudniamy głównie młodsze osoby. Może to być spowodowane głównie niepełnym wymiarem czasu pracy.
 * Wykres kołowy **Liczba nowych pracowników według płci** pokazuje dosyć równy podział.
