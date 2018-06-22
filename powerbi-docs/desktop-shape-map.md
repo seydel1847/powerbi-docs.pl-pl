@@ -15,6 +15,7 @@ ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pl-PL
 ms.lasthandoff: 05/17/2018
+ms.locfileid: "34290964"
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Mapowania kształtów w programie Power BI Desktop (wersja zapoznawcza)
 Program Power BI Desktop umożliwia utworzenie wizualizacji **Mapowanie kształtów**, która pozwala wyświetlić porównania względne regionów na mapie za pomocą różnych kolorów. W przeciwieństwie do wizualizacji **Mapa** wizualizacja **Mapowanie kształtów** nie umożliwia wyświetlenia dokładnych lokalizacji geograficznych punktów danych. Służy ona głównie do pokazywania porównań względnych regionów na mapie przy użyciu różnych kolorów.

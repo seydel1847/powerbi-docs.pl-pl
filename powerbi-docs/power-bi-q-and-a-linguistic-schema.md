@@ -15,6 +15,7 @@ ms.sourcegitcommit: 2b9ef93bbff5c741ba55ea0502f642632683d593
 ms.translationtype: HT
 ms.contentlocale: pl-PL
 ms.lasthandoff: 05/24/2018
+ms.locfileid: "34471898"
 ---
 # <a name="language-modeling-and-the-linguistic-schema"></a>Modelowanie języka i schemat językowy 
 Używanie typowych fraz i języka naturalnego w celu zadawania pytań na temat danych daje dużo możliwości. Jest to o wiele bardziej skuteczne, gdy dane „odpowiadają” — to właśnie umożliwia funkcja Pytania i odpowiedzi w usłudze Power BI. Funkcja Pytania i odpowiedzi usługi Power BI stara się znaleźć poprawną odpowiedź na Twoje pytanie. 

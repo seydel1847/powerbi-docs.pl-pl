@@ -15,6 +15,7 @@ ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pl-PL
 ms.lasthandoff: 05/17/2018
+ms.locfileid: "34290665"
 ---
 # <a name="common-query-tasks-in-power-bi-desktop"></a>Typowe zadania dotyczące zapytań w programie Power BI Desktop
 Podczas pracy w oknie **Edytora zapytań** programu Power BI Desktop dostępnych jest kilka przydatnych, typowych zadań. W tym dokumencie przedstawiono te zadania i podano linki umożliwiające uzyskanie dodatkowych informacji. 

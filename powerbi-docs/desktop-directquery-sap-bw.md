@@ -15,6 +15,7 @@ ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pl-PL
 ms.lasthandoff: 05/17/2018
+ms.locfileid: "34288572"
 ---
 # <a name="directquery-and-sap-business-warehouse-bw"></a>Zapytanie bezpośrednie i system SAP Business Warehouse (BW)
 Dzięki **zapytaniu bezpośredniemu** można połączyć się bezpośrednio ze źródłami danych systemu **SAP Business Warehouse (BW)**. Ponieważ system SAP BW jest źródłem danych OLAP (wielowymiarowym), korzystanie z zapytania bezpośredniego dla źródeł danych SAP BW różni się istotnie od korzystania z niego dla źródeł relacyjnych, takich jak program SQL Server. Te różnice można podsumować w następujący sposób:

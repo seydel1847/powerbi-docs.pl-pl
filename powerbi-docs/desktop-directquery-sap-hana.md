@@ -15,6 +15,7 @@ ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pl-PL
 ms.lasthandoff: 05/17/2018
+ms.locfileid: "34290619"
 ---
 # <a name="directquery-and-sap-hana"></a>Zapytanie bezpośrednie i platforma SAP HANA
 **Zapytanie bezpośrednie** umożliwia bezpośrednie połączenie się ze źródłami danych platformy **SAP HANA**. Łącząc się z platformą SAP HANA, mamy do wyboru dwie opcje:

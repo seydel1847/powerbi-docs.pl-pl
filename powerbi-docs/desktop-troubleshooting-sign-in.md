@@ -15,6 +15,7 @@ ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: pl-PL
 ms.lasthandoff: 05/17/2018
+ms.locfileid: "34226718"
 ---
 # <a name="troubleshooting-sign-in-for-power-bi-desktop"></a>Rozwiązywanie problemów z logowaniem w programie Power BI Desktop
 W pewnych sytuacjach próba zalogowania się do programu **Power BI Desktop** może spowodować wystąpienie błędów. Istnieją dwie główne przyczyny problemów z logowaniem: **błędy uwierzytelniania serwera proxy** i **błędy przekierowywania adresów URL innych niż HTTPS**. 

@@ -15,6 +15,7 @@ ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pl-PL
 ms.lasthandoff: 05/17/2018
+ms.locfileid: "34296232"
 ---
 # <a name="power-bi-security"></a>Zabezpieczenia usługi Power BI
 Aby uzyskać szczegółowy opis zabezpieczeń usługi Power BI, [pobierz oficjalny dokument na temat zabezpieczeń usługi Power BI ](http://go.microsoft.com/fwlink/?LinkId=829185):

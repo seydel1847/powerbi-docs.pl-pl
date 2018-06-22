@@ -14,6 +14,7 @@ ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pl-PL
 ms.lasthandoff: 05/17/2018
+ms.locfileid: "34296272"
 ---
 # <a name="how-to-configure-power-bi-report-scheduled-refresh"></a>Konfigurowanie zaplanowanego odświeżania raportu usługi Power BI
 Aby odświeżyć dane w raporcie usługi Power BI, należy utworzyć harmonogram zaplanowanego odświeżania. Można to zrobić w obszarze *Zarządzanie* raportu usługi Power BI.
