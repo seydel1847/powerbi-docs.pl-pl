@@ -15,6 +15,7 @@ ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pl-PL
 ms.lasthandoff: 05/17/2018
+ms.locfileid: "34289906"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>Używanie zapytania bezpośredniego w programie Power BI Desktop
 Program **Power BI Desktop** zawsze umożliwia importowanie kopii danych do programu **Power BI Desktop** po połączeniu ze źródłem danych. W przypadku niektórych źródeł danych dostępne jest inne rozwiązanie: połączenie bezpośrednio ze źródłem danych przy użyciu **zapytania bezpośredniego**.
