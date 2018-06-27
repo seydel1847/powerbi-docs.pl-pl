@@ -11,10 +11,10 @@ ms.date: 01/24/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
 ms.openlocfilehash: b4ecec3b2e53c2fea0fcbb7d78d1114da1a105ed
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34299636"
 ---
 # <a name="on-premises-data-gateway-faq"></a>Lokalna brama danych — często zadawane pytania
@@ -50,7 +50,7 @@ ms.locfileid: "34299636"
 **Pytanie:** Czy mogę uzyskać informacje dotyczące użycia oraz statystyki związane z bramą w mojej organizacji?  
 **Odpowiedź:** Nie. Zaimplementowanie takiej możliwości jest zaplanowane, ale nie ustaliliśmy jeszcze harmonogramu.
 
-## <a name="power-bi"></a>Power BI
+## <a name="power-bi"></a>Aplikacja usługi
 **Pytanie:** Czy muszę uaktualnić bramę osobistą?
 **Odpowiedź:** Nie, możesz korzystać z bramy osobistej na potrzeby usługi Power BI.
 

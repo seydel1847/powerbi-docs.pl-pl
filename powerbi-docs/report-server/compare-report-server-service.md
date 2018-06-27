@@ -11,10 +11,10 @@ ms.component: powerbi-report-server
 manager: kfile
 ms.custom: mvc
 ms.openlocfilehash: c47722fda28fc45289858f082a0838f583b53dbb
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34296791"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Porównanie serwera raportów usługi Power BI i usługi Power BI
@@ -49,7 +49,7 @@ Serwer raportów usługi Power BI i usługa Power BI mają wiele podobieństw i 
 | Tryb pełnoekranowy | Nie | Tak | [Tryb pełnoekranowy](../service-fullscreen-mode.md) w usłudze Power BI 
 | Zaawansowana współpraca z usługą Office 365 | Nie | Tak | [Współpraca w obszarze roboczym aplikacji](../service-collaborate-power-bi-workspace.md) z usługą Office 365 
 | Wizualizacje języka R | Nie | Tak | [Tworzenie wizualizacji języka R](../service-r-visuals.md) w usłudze Power BI  
-| Funkcje wersji zapoznawczej | Nie | Tak | [Włączanie funkcji usługi Power BI w wersji zapoznawczej](../service-preview-features.md) 
+| Funkcje w wersji zapoznawczej | Nie | Tak | [Włączanie funkcji usługi Power BI w wersji zapoznawczej](../service-preview-features.md) 
 | Wizualizacje niestandardowe | Tak | Tak | [Tworzenie wizualizacji niestandardowych w usłudze Power BI](../power-bi-custom-visuals.md) 
 | Power BI Desktop | Wersja zoptymalizowana pod kątem serwera raportów dostępna do pobrania z serwerem raportów | Wersja zoptymalizowana pod kątem usługi Power BI dostępna w Sklepie Windows | [Program Power BI Desktop dla serwera raportów](https://powerbi.microsoft.com/report-server/) <br><br> [Program Power BI Desktop dla usługi Power BI](http://aka.ms/pbidesktopstore)
 
