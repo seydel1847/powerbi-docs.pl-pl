@@ -11,10 +11,10 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 7990cdbc0741e80bf2cbb60431228ff6a1d41485
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34243827"
 ---
 # <a name="connect-to-appfigures-with-power-bi"></a>Łączenie się z usługą appFigures za pomocą usługi Power BI
@@ -60,7 +60,7 @@ W usłudze Power BI są dostępne następujące dane pochodzące z usługi appFi
 | Daty |Ta tabela zawiera daty od dzisiejszej do najwcześniejszej daty publikacji aplikacji, które są aktywne i widoczne na Twoim koncie appFigures. |
 | Zdarzenia |Ta tabela zawiera codzienne informacje o pobraniach, sprzedaży i reklamach dotyczące każdej aplikacji według kraju. Należy pamiętać, że w jednej tabeli znajdują się zarówno informacje o aplikacji, jak i o zakupach w aplikacji — możesz użyć kolumny <strong>Typ</strong>, aby je rozróżnić. |
 | Inapps |Ta tabela zawiera dane o różnych typach zakupów w aplikacji, które są skojarzone z aktywnymi, widocznymi aplikacjami na Twoim koncie appFigures. |
-| Products |Ta tabela zawiera dane o różnych aplikacjach, które są aktywne i widoczne na Twoim koncie appFigures. |
+| Produkty |Ta tabela zawiera dane o różnych aplikacjach, które są aktywne i widoczne na Twoim koncie appFigures. |
 
 ## <a name="troubleshooting"></a>Rozwiązywanie problemów
 Jeśli dane z niektórych aplikacji nie są wyświetlane w usłudze Power BI, upewnij się, że te aplikacje są widoczne i aktywne na karcie **Aplikacje** w witrynie appFigures.
