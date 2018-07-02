@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: v-thepet
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 75ae82e43987cb42b858fe4350330fda3692cf97
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 338b72ef39c5b9c9fe454c1063f26602e8ce2299
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34721506"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36964796"
 ---
 # <a name="slicers-in-power-bi"></a>Fragmentatory w usłudze Power BI
 Chcesz, aby czytelnicy raportu mogli zapoznawać się z ogólnymi metrykami sprzedaży, ale również identyfikować wydajność poszczególnych menedżerów regionalnych i wydajność w różnych przedziałach czasowych. Możesz utworzyć oddzielne raporty lub wykresy porównawcze albo skorzystać z fragmentatorów. Fragmentator to alternatywny sposób filtrowania, który zawęża część zestawu danych wyświetlanego w innych wizualizacjach w raporcie. 
@@ -183,7 +183,7 @@ Inne opcje formatowania są domyślnie wyłączone. Po **włączeniu**:
 - **Obramowanie:** dodaje 1-pikselowe obramowanie wokół fragmentatora i ustawia jego kolor. (To obramowanie fragmentatora jest oddzielne i niezależne od ustawień ogólnych konturu). 
 
 ## <a name="next-steps"></a>Następne kroki
-[Wypróbuj bezpłatnie!](https://powerbi.com/)
+[Zarejestruj się, aby uzyskać dostęp do bezpłatnej wersji próbnej](https://powerbi.microsoft.com/get-started/)
 
 Masz pomysły dotyczące poprawy usługi Power BI? [Prześlij pomysł](https://ideas.powerbi.com/forums/265200-power-bi-ideas).
 
