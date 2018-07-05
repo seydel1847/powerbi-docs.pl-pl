@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 6cdcff66d48ede031a635e44e3a40af4e321c0c5
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 90f32e96a6e2c7777c5d1535314e2c85989e1932
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34584075"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599599"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-excel"></a>Przypinanie kafelka do pulpitu nawigacyjnego usługi Power BI z programu Excel
 Zanim będzie możliwe przypięcie kafelka ze skoroszytu programu Excel połącz ten skoroszyt z usługą Power BI (app.powerbi.com). Zasadniczo łączenie skoroszytu powoduje przeniesienie połączonej wersji tylko do odczytu tego skoroszytu do usługi Power BI i pozwala przypiąć zakresy do pulpitów nawigacyjnych. Możesz nawet przypiąć cały arkusz do pulpitu nawigacyjnego.  
@@ -60,7 +60,7 @@ Jednym sposobem dodania nowego [kafelka pulpitu nawigacyjnego](service-dashboard
    * Istniejący pulpit nawigacyjny: z listy rozwijanej wybierz nazwę pulpitu nawigacyjnego.
    * Nowy pulpit nawigacyjny: wpisz nazwę nowego pulpitu nawigacyjnego.
    
-    ![Okno dialogowe opcji Przypnij do pulpitu nawigacyjnego](media/service-dashboard-pin-tile-from-excel/pbi_dashdialog1.png)
+     ![Okno dialogowe opcji Przypnij do pulpitu nawigacyjnego](media/service-dashboard-pin-tile-from-excel/pbi_dashdialog1.png)
 4. Wybierz pozycję **Przypnij**. Komunikat o powodzeniu (w prawym górnym rogu) informuje o tym, że zakres został dodany do pulpitu nawigacyjnego jako kafelek. 
    
     ![okno dialogowe Przypięto do pulpitu nawigacyjnego](media/service-dashboard-pin-tile-from-excel/power-bi-go-to-dashboard.png)

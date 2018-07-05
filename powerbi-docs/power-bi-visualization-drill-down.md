@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f0ac0ca1bd03f06e2b7679ab4afc1b9193286f5b
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: dbe98d69ce800ef57e6def59003dce56b7be56cd
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34584213"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600925"
 ---
 # <a name="drill-mode-in-a-visualization-in-power-bi"></a>Tryb przechodzenia do szczegółów w wizualizacji w usłudze Power BI
 
@@ -179,11 +179,11 @@ W tym przykładzie postępuj zgodnie z sekcją [Próbka analizy handlu detaliczn
 
 Chociaż pole danych osi to **Month** (miesiąc), nadal tworzy kategorię **Year** (rok) na liście **Oś**. Dzieje się tak, ponieważ usługa Power BI zapewnia pełną strukturę danych DateTime dla wszystkich odczytywanych wartości. Na początku hierarchii znajdują się dane dotyczące roku.
 
-![](media\power-bi-visualization-drill-down/power-bi-hierarchical-axis-datetime-1.png)
+![](media/power-bi-visualization-drill-down/power-bi-hierarchical-axis-datetime-1.png)
 
 Przy włączonym trybie przechodzenia do szczegółów kliknij słupek na wykresie, aby przejść w dół o jeden poziom w hierarchii. Zostaną wyświetlone trzy słupki danych dla dostępnych kwartałów. Następnie z ikon w lewym górnym rogu wybierz opcję **Rozwiń wszystko w dół o jeden poziom w hierarchii**. Następnie wykonaj ten krok ponownie, aby osiągnąć najniższy poziom w hierarchii, który pokazuje wyniki dla każdego miesiąca.
 
-![](media\power-bi-visualization-drill-down/power-bi-hierarchical-axis-datetime-2.png)
+![](media/power-bi-visualization-drill-down/power-bi-hierarchical-axis-datetime-2.png)
 
 Oprócz wizualizacji możemy zobaczyć hierarchię odzwierciedloną w danych renderowanych dla każdego raportu. W poniższej tabeli przedstawiono wyniki opcji **Pokaż dane** w przechodzeniu do szczegółów w raporcie od jednego miesiąca lub wszystkich miesięcy. 
 
@@ -192,8 +192,8 @@ Zwróć uwagę, że dane są takie same w przypadku raportów kwartalnych i rocz
 
 |Tryb rozwijania|Year|Quarter|Month|Day|
 | ---|:---:|:---:|:---:|---|
-|Jeden|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-year.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-quarter.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-one-month.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-one-day.png)|
-|Wszystko|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-year.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-quarter.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-all-month.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-all-day.png)|
+|Jeden|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-year.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-quarter.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-one-month.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-one-day.png)|
+|Wszystko|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-year.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-quarter.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-all-month.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-all-day.png)|
 
 
 ### <a name="hierarchical-category-data"></a>Dane kategorii hierarchicznej
@@ -201,20 +201,20 @@ Dane, które zostały wymodelowane na podstawie kolekcji i podkolekcji, są hier
 
 W tym przykładzie postępuj zgodnie z sekcją [Próbka analizy handlu detalicznego](sample-datasets.md). Utwórz wizualizację skumulowanego wykresu kolumnowego sprawdzającego pozycję **Total Units This Year** (całkowita liczba jednostek w bieżącym roku) (wartości) względem pozycji **Territory** (terytorium), **City** (miasto), **PostalCode** (kod pocztowy) oraz **Name** (nazwa) (grupa).  
 
-![](media\power-bi-visualization-drill-down/power-bi-hierarchical-axis-category-1.png)
+![](media/power-bi-visualization-drill-down/power-bi-hierarchical-axis-category-1.png)
 
 Przy włączonym trybie przechodzenia do szczegółów z ikon w lewym górnym rogu wybierz opcję **Rozwiń wszystko w dół o jeden poziom w hierarchii** trzy razy.
 Teraz powinien być wyświetlany najniższy poziom hierarchii, w którym znajdują się wyniki dla pozycji Territory (terytorium), City (miasto) oraz Postal Code (kod pocztowy).
 
-![](media\power-bi-visualization-drill-down/power-bi-hierarchical-axis-category-2.png)
+![](media/power-bi-visualization-drill-down/power-bi-hierarchical-axis-category-2.png)
 
 Oprócz wizualizacji możemy zobaczyć hierarchię odzwierciedloną w danych renderowanych dla każdego raportu. W poniższej tabeli przedstawiono wyniki opcji **Pokaż dane** w przechodzeniu do szczegółów w raporcie dla jednego terytorium lub wszystkich terytoriów. Podczas przechodzenia do szczegółów możesz zobaczyć, jak jeden raport staje się bardziej szczegółowy, a raport „wszystkie terytoria” zawiera więcej danych.
 
 
 | Tryb rozwijania|Territory|City|Kod pocztowy|Nazwa|
 | ---|:---:|:---:|:---:|---|
-|Jeden|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-territory.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-one-territory-city.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-one-territory-city-postal.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-one-territory-city-postal-name.png)|
-|Wszystko|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-territory.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-all-territory-city.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-all-territory-city-postal.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-all-territory-city-postal-name.png)|
+|Jeden|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-territory.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-one-territory-city.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-one-territory-city-postal.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-one-territory-city-postal-name.png)|
+|Wszystko|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-territory.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-all-territory-city.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-all-territory-city-postal.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-all-territory-city-postal-name.png)|
 
 
 ## <a name="considerations-and-limitations"></a>Istotne zagadnienia i ograniczenia
