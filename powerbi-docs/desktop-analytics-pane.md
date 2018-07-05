@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 817e01f83904a8481fa1d0915f671c6761247795
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 957408729812ab348cc171360416ee01b432d2e0
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34287675"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136599"
 ---
 # <a name="using-the-analytics-pane-in-power-bi-desktop"></a>Użycie okienka analizy w programie Power BI Desktop
 Za pomocą okienka **Analiza** w programie **Power BI Desktop** możesz dodać do wizualizacji dynamiczne *linie odwołania* i skoncentrować się na ważnych trendach lub szczegółowych informacjach. Okienko **Analiza** znajduje się w obszarze **Wizualizacje** programu Power BI Desktop.
@@ -114,7 +114,7 @@ Przy użyciu programu Power BI Desktop można wykonywać różnorodne zadania. A
 
 * [Co nowego w programie Power BI Desktop](desktop-latest-update.md)
 * [Pobieranie programu Power BI Desktop](desktop-get-the-desktop.md)
-* [Wprowadzenie do programu Power BI Desktop](desktop-getting-started.md)
+* [Co to jest Power BI Desktop?](desktop-what-is-desktop.md)
 * [Omówienie zapytań w programie Power BI Desktop](desktop-query-overview.md)
 * [Typy danych w programie Power BI Desktop](desktop-data-types.md)
 * [Kształtowanie i łączenie danych w programie Power BI Desktop](desktop-shape-and-combine-data.md)
