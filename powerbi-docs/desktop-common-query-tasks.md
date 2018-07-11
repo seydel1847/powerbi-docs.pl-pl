@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 44756e45a6f9944f9d52afa98709b1a3f7b5b6e1
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: fde23a47bb0f4034e213a652d60241ff625921d3
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37137496"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38877336"
 ---
 # <a name="common-query-tasks-in-power-bi-desktop"></a>Typowe zadania dotyczące zapytań w programie Power BI Desktop
 Podczas pracy w oknie **Edytora zapytań** programu Power BI Desktop dostępnych jest kilka przydatnych, typowych zadań. W tym dokumencie przedstawiono te zadania i podano linki umożliwiające uzyskanie dodatkowych informacji. 
@@ -38,7 +38,7 @@ Docelowym elementem pierwszego połączenia z danymi jest skoroszyt programu Exc
 Kroki nawiązywania połączenia z obydwoma źródłami danych można wykonać przy użyciu typowych zadań dotyczących zapytań.
 
 ## <a name="connect-to-data"></a>Łączenie się z danymi
-Aby połączyć się z danymi w programie Power BI Desktop, wybierz przycisk **Pobierz dane** na karcie **Narzędzia główne** na wstążce. Program Power BI Desktop wyświetli menu z typowymi źródłami danych. Aby uzyskać pełną listę źródeł danych obsługiwanych przez program Power BI Desktop, wybierz przycisk **Więcej** znajdujący się u dołu menu. Aby uzyskać więcej informacji, zobacz [Źródła danych w programie Power BI Desktop](https://docs.microsoft.com/en-us/power-bi/desktop-data-sources).
+Aby połączyć się z danymi w programie Power BI Desktop, wybierz przycisk **Pobierz dane** na karcie **Narzędzia główne** na wstążce. Program Power BI Desktop wyświetli menu z typowymi źródłami danych. Aby uzyskać pełną listę źródeł danych obsługiwanych przez program Power BI Desktop, wybierz przycisk **Więcej** znajdujący się u dołu menu. Aby uzyskać więcej informacji, zobacz [Źródła danych w programie Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-data-sources).
 
 ![](media/desktop-common-query-tasks/commonquerytasks_getdata.png)
 
@@ -60,10 +60,10 @@ Wybierz przycisk **OK**. Tak jak poprzednio, program Power BI Desktop przeanaliz
 
 Inne połączenia z danymi działają podobnie. Jeśli do nawiązania połączenia z danymi wymagane jest uwierzytelnienie, program Power BI Desktop wyświetla monit o wprowadzenie poświadczeń.
 
-Aby uzyskać szczegółowe instrukcje dotyczące łączenia się z danymi w programie Power BI Desktop, zobacz [Łączenie się z danymi w programie Power BI Desktop](https://docs.microsoft.com/en-us/power-bi/desktop-connect-to-data).
+Aby uzyskać szczegółowe instrukcje dotyczące łączenia się z danymi w programie Power BI Desktop, zobacz [Łączenie się z danymi w programie Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-connect-to-data).
 
 ## <a name="shape-and-combine-data"></a>Kształtowanie i łączenie danych
-Edytor zapytań pozwala łatwo kształtować i łączyć dane. W tej sekcji podano kilka przykładów dotyczących kształtowania danych. Bardziej wyczerpujący opis kształtowania i łączenia danych można znaleźć w temacie **[Kształtowanie i łączenie danych w programie Power BI Desktop](https://docs.microsoft.com/en-us/power-bi/desktop-shape-and-combine-data)**.
+Edytor zapytań pozwala łatwo kształtować i łączyć dane. W tej sekcji podano kilka przykładów dotyczących kształtowania danych. Bardziej wyczerpujący opis kształtowania i łączenia danych można znaleźć w temacie **[Kształtowanie i łączenie danych w programie Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-shape-and-combine-data)**.
 
 W poprzedniej sekcji nawiązaliśmy połączenie z dwoma zestawami danych — skoroszytem programu Excel i zasobem internetowym. Po załadowaniu zestawów do Edytora zapytań i wybraniu zapytania ze strony internetowej (z listy dostępnych zapytań w okienku **Zapytania** po lewej stronie okna Edytora zapytań) widać następującą zawartość.
 

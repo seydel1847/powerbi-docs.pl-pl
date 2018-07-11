@@ -11,11 +11,11 @@ ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
 ms.openlocfilehash: 8b0121dbfe633eca9c438dfd272d3aeb56fd59a4
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34298578"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38921512"
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>Lokalna brama danych — szczegóły
 Użytkownicy w organizacji mogą uzyskiwać dostęp do danych lokalnych (do których już mają autoryzację dostępu), ale zanim będą mogli połączyć się ze źródłem danych lokalnych, musi zostać zainstalowana i skonfigurowana lokalna brama danych. Brama ułatwia szybką i bezpieczną komunikację wewnętrzną między użytkownikiem w chmurze a lokalnym źródłem danych, a następnie z powrotem do chmury.

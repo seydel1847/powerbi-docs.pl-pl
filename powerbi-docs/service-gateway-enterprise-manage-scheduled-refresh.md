@@ -11,11 +11,11 @@ ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
 ms.openlocfilehash: 17c608b017123b5ae7111ef6d97703cdbc30940d
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34297336"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38937332"
 ---
 # <a name="manage-your-data-source---importscheduled-refresh"></a>Zarządzanie źródłami danych — importowanie/zaplanowane odświeżanie
 Po zainstalowaniu lokalnej bramy danych musisz dodać źródła danych, które mogą być używane z tą bramą. Ten artykuł dotyczy pracy z bramami oraz źródłami danych, które są używane do zaplanowanego odświeżania — w przeciwieństwie do zapytania bezpośredniego lub połączenia na żywo.

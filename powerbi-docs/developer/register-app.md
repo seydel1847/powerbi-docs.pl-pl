@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/31/2018
 ms.author: maghan
-ms.openlocfilehash: f4aac424d448dcb3e2dd722efe54db99d318ba80
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: aa51d516e903908fb2b0121f9bbed41d54f5e670
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37599493"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38925006"
 ---
 # <a name="register-an-azure-ad-app-to-embed-power-bi-content"></a>Rejestrowanie aplikacji usługi Azure AD, aby osadzić zawartość usługi Power BI
 Dowiedz się, jak zarejestrować aplikację w usłudze Azure Active Directory (Azure AD), a następnie użyć jej w celu osadzenia zawartości usługi Power BI.
@@ -23,7 +23,6 @@ Aplikację można zarejestrować w usłudze Azure AD, aby zapewnić aplikacji do
 
 > [!IMPORTANT]
 > Do zarejestrowania aplikacji usługi Power BI potrzebna jest [dzierżawa i konto użytkownika organizacyjnego usługi Azure Active Directory](create-an-azure-active-directory-tenant.md). Jeśli nie zarejestrujesz się w usłudze Power BI, korzystając z konta użytkownika z Twojej dzierżawy, rejestracja aplikacji nie zakończy się pomyślnie.
-> 
 > 
 
 Istnieją dwa sposoby rejestrowania aplikacji. Pierwszy sposób obejmuje użycie [narzędzia rejestrowania aplikacji usługi Power BI](https://dev.powerbi.com/apps/), a drugi polega na dokonaniu rejestracji bezpośrednio w witrynie Azure Portal. Narzędzie rejestrowania aplikacji usługi Power BI to opcja najłatwiejsza, ponieważ wystarczy wypełnić tylko kilka pól. Jeśli chcesz wprowadzić zmiany w aplikacji, użyj witryny Azure Portal.
@@ -45,7 +44,7 @@ Oto sposób rejestrowania aplikacji za pomocą narzędzia rejestrowania aplikacj
    
     Pole **Adres URL strony głównej** jest dostępne tylko po wybraniu typu aplikacji **Aplikacja internetowa po stronie serwera**.
    
-    W przykładach dotyczących *osadzania zawartości dla klientów* i *integrowania aplikacji internetowej pulpitu nawigacyjnego* adresem URL przekierowania jest `http://localhost:13526/redirect`. W przykładzie dotyczącym raportów i kafelków adresem URL przekierowania jest `http://localhost:13526/`.
+    W przykładach dotyczących *osadzania zawartości dla klientów* i *integrowania aplikacji internetowej pulpitu nawigacyjnego* adresem **URL przekierowania** jest `http://localhost:13526/Redirect`. W przykładzie dotyczącym raportów i kafelków adresem **URL przekierowania** jest `http://localhost:13526/`.
 6. Wybierz interfejsy API dla aplikacji, która ma dostęp. Więcej informacji o uprawnieniach dostępu do usługi Power BI zawiera temat [Uprawnienia usługi Power BI](power-bi-permissions.md).
    
     ![](media/register-app/app-registration-apis.png)
@@ -83,7 +82,7 @@ Drugą opcją rejestracji aplikacji jest dokonanie rejestracji bezpośrednio w w
 5. Postępuj zgodnie z monitami i utwórz nową aplikację.
    
    * W przypadku aplikacji internetowych podaj adres URL logowania, czyli podstawowy adres URL Twojej aplikacji, pod którym użytkownicy mogą się logować, np. `http://localhost:13526`.
-   * W przypadku aplikacji natywnych podaj Identyfikator URI przekierowania, którego usługa Azure AD używa do zwracania odpowiedzi tokenu. Wprowadź wartość specyficzną dla Twojej aplikacji, np. `http://myapplication/redirect`
+   * W przypadku aplikacji natywnych podaj Identyfikator **URI przekierowania**, którego usługa Azure AD używa do zwracania odpowiedzi tokenu. Wprowadź wartość specyficzną dla Twojej aplikacji, np. `http://myapplication/Redirect`
 
 Więcej informacji o sposobie rejestrowania aplikacji w usłudze Azure Active Directory zawiera temat [Integrowanie aplikacji z usługą Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications)
 

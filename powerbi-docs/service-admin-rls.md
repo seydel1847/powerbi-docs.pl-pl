@@ -11,11 +11,11 @@ ms.date: 01/02/2018
 ms.author: mblythe
 LocalizationGroup: Administration
 ms.openlocfilehash: 89ffa4c644005b53c263bef4535628dd603f1f6d
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37599851"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38924660"
 ---
 # <a name="row-level-security-rls-with-power-bi"></a>Zabezpieczenia na poziomie wiersza w usłudze Power BI
 Zabezpieczenia na poziomie wiersza w usłudze Power BI mogą służyć do ograniczania dostępu do danych do konkretnych użytkowników. Filtry ograniczają dane na poziomie wiersza. Filtry można zdefiniować w ramach ról.

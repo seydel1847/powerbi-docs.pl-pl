@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 1dadb70f2d75596bb7180a5e7360cae19e1515b8
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34251603"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38937267"
 ---
 # <a name="connect-to-microsoft-dynamics-crm-with-power-bi"></a>Nawiązywanie połączenia z programem Microsoft Dynamics CRM przy użyciu usługi Power BI
 Usługa Microsoft Dynamics CRM Online dla usługi Power BI umożliwia łatwy dostęp do danych i analizowanie ich. Za pomocą źródła danych OData usługa Power BI tworzy model opisowy ze wszystkimi potrzebnymi jednostkami i miarami, takimi jak na przykład klienci, działania, szanse sprzedaży, produkty, potencjalni klienci i użytkownicy. Po zainstalowaniu aplikacji możesz wyświetlić pulpit nawigacyjny i raporty w usłudze Power BI ([https://powerbi.com](https://powerbi.com)) oraz w aplikacjach mobilnych usługi Power BI. 
