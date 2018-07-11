@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: tutorial
 ms.date: 05/18/2018
 ms.author: maggies
-ms.openlocfilehash: 38985014407a4d64998e25f6944f57aedcc67309
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 32bf2d3cedbeeb2430620855a2ac95bf349af9a2
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34445008"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092051"
 ---
 # <a name="tutorial-explore-the-power-bi-report-server-web-portal-in-a-vm"></a>Samouczek: eksplorowanie portalu internetowego serwera raportów usługi Power BI na maszynie wirtualnej
 W tym samouczku utworzysz maszynę wirtualną platformy Azure przy użyciu już zainstalowanego serwera raportów usługi Power BI, aby zapoznać się z procesami wyświetlania i edytowania przykładowych raportów usługi Power BI i podzielonych na strony oraz kluczowych wskaźników wydajności, a także zarządzania nimi.
@@ -100,7 +100,7 @@ Po otwarciu maszyny wirtualnej na pulpicie zostaną wyświetlone poniższe eleme
 |![Numer 4](media/tutorial-explore-report-server-web-portal/number-4.png) | Uruchamia program Power BI Desktop zoptymalizowany pod kątem serwera raportów usługi Power BI (marzec 2018)  |
 |![Numer 5](media/tutorial-explore-report-server-web-portal/number-5.png) | Otwiera portal internetowy serwera raportów usługi Power BI w przeglądarce   |
 
-Kliknij dwukrotnie ikonę **portalu internetowego serwera raportów**. W przeglądarce zostanie otwarta strona http://localhost/reports/browse. W portalu internetowym zobaczysz różne pliki pogrupowane według typu. 
+Kliknij dwukrotnie ikonę **portalu internetowego serwera raportów**. W przeglądarce zostanie otwarta strona `http://localhost/reports/browse`. W portalu internetowym zobaczysz różne pliki pogrupowane według typu. 
 
 ![Portal internetowy Serwera raportów usługi Power BI](media/tutorial-explore-report-server-web-portal/power-bi-report-server-browser-in-vm.png)
 

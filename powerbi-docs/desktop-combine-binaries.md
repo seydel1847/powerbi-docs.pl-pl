@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 7a0a4f6296df351272a69ca30c8a8c08e1f9bcbc
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 5d889787b6ae7e6331522bbef1a6f1c748d4533d
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34287859"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136346"
 ---
 # <a name="combine-files-binaries-in-power-bi-desktop"></a>Łączenie plików (danych binarnych) w programie Power BI Desktop
 Jednym z zaawansowanych sposobów importowania danych do programu **Power BI Desktop** jest łączenie wielu plików, które mają ten sam schemat, w jedną tabelę logiczną. W wydaniu programu **Power BI Desktop** z listopada 2016 r. (oraz w kolejnych wersjach) ta wygodna i popularna metoda została udogodniona i rozszerzona, jak opisano w tym artykule.
@@ -58,7 +58,7 @@ Ponadto można z łatwością zastosować dodatkowe kroki przekształcania lub w
 ## <a name="next-steps"></a>Następne kroki
 Z poziomu programu Power BI Desktop możesz łączyć się z danymi różnego rodzaju. Więcej informacji na temat źródeł danych znajdziesz w następujących zasobach:
 
-* [Wprowadzenie do programu Power BI Desktop](desktop-getting-started.md)
+* [Co to jest Power BI Desktop?](desktop-what-is-desktop.md)
 * [Źródła danych w programie Power BI Desktop](desktop-data-sources.md)
 * [Kształtowanie i łączenie danych w programie Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Łączenie się z plikami CSV w programie Power BI Desktop](desktop-connect-csv.md)   

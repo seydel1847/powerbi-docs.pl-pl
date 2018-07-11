@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b1085c3715d9b4b75925cec1b94ec49b0f5792f7
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: c90d2ecf5c3722dfa3991d7001f7c5054e48e6a6
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34813140"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37135127"
 ---
 # <a name="connect-to-amazon-redshift-in-power-bi-desktop"></a>Nawiązywanie połączenia z bazą danych Amazon Redshift w programie Power BI Desktop
 W programie **Power BI Desktop** możesz nawiązać połączenie z bazą danych **Amazon Redshift** i korzystać z danych źródłowych w taki sam sposób, jak w przypadku dowolnego innego źródła danych w programie Power BI Desktop.
@@ -45,7 +45,7 @@ Po dokonaniu wyborów w oknie **Nawigator** możesz **załadować** lub**edytowa
 ## <a name="next-steps"></a>Następne kroki
 Z poziomu programu Power BI Desktop możesz łączyć się z danymi różnego rodzaju. Więcej informacji na temat źródeł danych znajdziesz w następujących zasobach:
 
-* [Wprowadzenie do programu Power BI Desktop](desktop-getting-started.md)
+* [Co to jest Power BI Desktop?](desktop-what-is-desktop.md)
 * [Źródła danych w programie Power BI Desktop](desktop-data-sources.md)
 * [Kształtowanie i łączenie danych w programie Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Łączenie się ze skoroszytami programu Excel w programie Power BI Desktop](desktop-connect-excel.md)   

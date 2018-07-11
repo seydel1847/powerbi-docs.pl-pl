@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/08/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: f8b1e94ca0923c3e2ba509df266cec0f05596ab1
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: b95ff0d9102377b6aeb59488a565f7bcb9a65566
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34852192"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598617"
 ---
 # <a name="create-and-publish-a-power-bi-organizational-content-pack-tutorial"></a>Tworzenie i publikowanie organizacyjnego pakietu zawartości w usłudze Power BI (samouczek)
 > [!NOTE]
@@ -43,24 +43,24 @@ Chcesz z niego skorzystać? W [usłudze Power BI](https://powerbi.com) przejdź 
    
    Pamiętaj, że biblioteka pakietów zawartości w organizacji może zawierać setki pakietów zawartości publikowanych dla organizacji lub grup. Poświęć czas, aby nadać pakietowi zawartości znaczącą nazwę, dodać dobry opis i wybrać odpowiednich odbiorców.  Użyj słów, dzięki którym odnalezienie pakietu zawartości przy użyciu funkcji wyszukiwania będzie proste.
    
-   1.  Wybierz **Określone grupy** i wprowadź pełne adresy e-mail użytkowników indywidualnych, [grup usługi Office 365](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9), grup dystrybucyjnych lub grup zabezpieczeń. Na przykład:
+   1. Wybierz **Określone grupy** i wprowadź pełne adresy e-mail użytkowników indywidualnych, [grup usługi Office 365](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9), grup dystrybucyjnych lub grup zabezpieczeń. Na przykład:
       
-         salesmgrs@contoso.com; sales@contoso.com
+        salesmgrs@contoso.com; sales@contoso.com
       
       Na potrzeby tego samouczka spróbuj użyć własnego adresu e-mail lub adresu e-mail swojej grupy.
    
-   2.  Nazwij pakiet zawartości **Możliwości sprzedaży**.
+   2. Nazwij pakiet zawartości **Możliwości sprzedaży**.
    
       > [!TIP]
       > Rozważ dołączenie nazwy pulpitu nawigacyjnego w nazwie pakietu zawartości. W ten sposób współpracownicy będą mogli łatwiej znaleźć pulpit nawigacyjny po nawiązaniu połączenia z pakietem zawartości.
       > 
       > 
    
-   3.  Zalecenie: dodaj **opis**. Dzięki temu współpracownicy będą mogli łatwiej znaleźć pakiety zawartości, których potrzebują. Poza opisem dodaj słowa kluczowe, których współpracownicy mogą używać do wyszukiwania tego pakietu zawartości. Dołącz informacje kontaktowe, które są przydatne, jeśli współpracownicy mają pytania lub potrzebują pomocy.
+   3. Zalecenie: dodaj **opis**. Dzięki temu współpracownicy będą mogli łatwiej znaleźć pakiety zawartości, których potrzebują. Poza opisem dodaj słowa kluczowe, których współpracownicy mogą używać do wyszukiwania tego pakietu zawartości. Dołącz informacje kontaktowe, które są przydatne, jeśli współpracownicy mają pytania lub potrzebują pomocy.
    
-   4.  **Przekaż obraz lub logo**, aby członkowie grupy mogli łatwiej znaleźć pakiet zawartości &#151; szybciej szuka się obrazu niż treści tekstowej. Na poniższym zrzucie ekranu użyliśmy obrazu kafelka wykresu kolumnowego Opportunity Count 100%.
+   4. **Przekaż obraz lub logo**, aby członkowie grupy mogli łatwiej znaleźć pakiet zawartości &#151; szybciej szuka się obrazu niż treści tekstowej. Na poniższym zrzucie ekranu użyliśmy obrazu kafelka wykresu kolumnowego Opportunity Count 100%.
    
-   5.  Wybierz pulpit nawigacyjny **Przykład Opportunity Analysis**, aby dodać go do pakietu zawartości.  Usługa Power BI automatycznie dodaje skojarzony raport i zestaw danych. Możesz dodać inne, jeśli chcesz.
+   5. Wybierz pulpit nawigacyjny **Przykład Opportunity Analysis**, aby dodać go do pakietu zawartości.  Usługa Power BI automatycznie dodaje skojarzony raport i zestaw danych. Możesz dodać inne, jeśli chcesz.
    
       > [!NOTE]
       >  Na liście wymieniane są tylko pulpity nawigacyjne, raporty, zestawy danych i skoroszyty, które możesz edytować. Dlatego na liście nie ma elementów udostępnionych przez inne osoby.
@@ -71,7 +71,7 @@ Chcesz z niego skorzystać? W [usłudze Power BI](https://powerbi.com) przejdź 
    
    6. Jeśli masz skoroszyty programu Excel, zobaczysz je w sekcji Raporty z ikoną programu Excel. Również możesz je dodać do pakietu zawartości.
    
-     ![](media/service-organizational-content-pack-create-and-publish/pbi_orgcontpkexcel.png)
+      ![](media/service-organizational-content-pack-create-and-publish/pbi_orgcontpkexcel.png)
    
       > [!NOTE]
       > Jeśli członek grupy nie może wyświetlić skoroszytu programu Excel, może być konieczne [udostępnienie skoroszytu w usłudze OneDrive dla Firm](https://support.office.com/en-us/article/Share-documents-or-folders-in-Office-365-1fe37332-0f9a-4719-970e-d2578da4941c).

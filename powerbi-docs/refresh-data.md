@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 779bfb3e69a76d0fe9e9a34d6576b2054de89cc1
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: aa7fcc720861d1459183aaf7a82a2af8912eb5b6
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34253624"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599753"
 ---
 # <a name="data-refresh-in-power-bi"></a>Odświeżanie danych w usłudze Power BI
 Pewność, że używane dane są zawsze aktualne, ma często zasadnicze znaczenie dla podejmowania właściwych decyzji. Prawdopodobnie znasz już funkcję pobierania danych w usłudze Power BI, która służy do nawiązania połączenia i przekazania danych. Wiesz także, jak tworzyć raporty i pulpity nawigacyjne. Teraz chcesz mieć pewność, że Twoje dane są naprawdę najnowsze i najlepsze.
@@ -101,6 +101,7 @@ Odświeżanie danych jest obsługiwane dla plików programu Power BI Desktop i s
 Przechowywanie plików w usłudze OneDrive lub SharePoint Online i nawiązywanie połączenia z nimi z usługi Power BI zapewnia dużą elastyczność. Jednak ta elastyczność sprawia, że zrozumienie całego mechanizmu jest dość trudne. Zaplanowane odświeżanie plików przechowywanych w usłudze OneDrive lub SharePoint Online różni się od odświeżania pakietu. Możesz dowiedzieć się więcej w sekcji [Typy odświeżania](#types-of-refresh).
 
 ### <a name="power-bi-desktop-file"></a>Plik programu Power BI Desktop
+
 | **Źródło danych** | **Odświeżanie automatyczne** | **Odświeżanie ręczne skonfigurowane przez użytkownika lub odświeżanie zaplanowane** | **Brama jest wymagana** |
 | --- | --- | --- | --- |
 | Polecenie Pobierz dane (na wstążce) umożliwia nawiązanie połączenia z danymi z dowolnego źródła danych online na liście i odpytywanie ich. |Nie |Tak |Nie (zobacz poniżej) |
@@ -117,6 +118,7 @@ Przechowywanie plików w usłudze OneDrive lub SharePoint Online i nawiązywanie
 Szczegóły zawiera temat [Odświeżanie zestawu danych utworzonego na podstawie pliku programu Power BI Desktop w usłudze OneDrive](refresh-desktop-file-onedrive.md).
 
 ### <a name="excel-workbook"></a>Skoroszyt programu Excel
+
 | **Źródło danych** | **Odświeżanie automatyczne** | **Odświeżanie ręczne skonfigurowane przez użytkownika lub odświeżanie zaplanowane** | **Brama jest wymagana** |
 | --- | --- | --- | --- |
 | Tabele danych w arkuszu nie zostały załadowane do modelu danych programu Excel. |Tak, co godzinę *(tylko usługi OneDrive / SharePoint Online)* |Tylko ręcznie *(tylko usługi OneDrive / SharePoint Online)* |Nie |
@@ -131,6 +133,7 @@ Szczegóły zawiera temat [Odświeżanie zestawu danych utworzonego na podstawie
 Aby uzyskać szczegółowe informacje, zobacz temat [Odświeżanie zestawu danych utworzonego na podstawie skoroszytu programu Excel w usłudze OneDrive](refresh-excel-file-onedrive.md).
 
 ### <a name="comma-separated-value-csv-file-on-onedrive-or-sharepoint-online"></a>Plik wartości rozdzielanych przecinkami (csv) w usłudze OneDrive lub SharePoint Online
+
 | **Źródło danych** | **Odświeżanie automatyczne** | **Odświeżanie ręczne skonfigurowane przez użytkownika lub odświeżanie zaplanowane** | **Brama jest wymagana** |
 | --- | --- | --- | --- |
 | Proste wartości rozdzielane przecinkami |Tak, co godzinę |Tylko ręcznie |Nie |
@@ -145,6 +148,7 @@ W usłudze Power BI są dostępne dwa typy pakietów zawartości:
 **Pakiety zawartości organizacji** tworzone i udostępniane przez użytkowników w organizacji. Użytkownicy pakietu zawartości nie mogą skonfigurować harmonogramu odświeżania ani wykonać odświeżania ręcznie. Tylko twórca pakietu zawartości może skonfigurować odświeżanie dla zestawów danych w pakiecie zawartości. Ustawienia odświeżania są dziedziczone razem z zestawem danych.
 
 ### <a name="content-packs-from-online-services"></a>Pakiety zawartości z usług online
+
 | **Źródło danych** | **Odświeżanie automatyczne** | **Odświeżanie ręczne skonfigurowane przez użytkownika lub odświeżanie zaplanowane** | **Brama jest wymagana** |
 | --- | --- | --- | --- |
 | Usługi online dostępne za pomocą pozycji Pobierz dane &gt; Usługi |Tak |Tak |Nie |
@@ -237,7 +241,7 @@ W tym przypadku możesz ręcznie odświeżyć dane w zestawie danych RaportSprze
 > 
 > 
 
-Aby dowiedzieć się więcej, zobacz tematy [Dane programu Excel w usłudze Power BI](service-excel-workbook-files.md), [Power BI Gateway — Personal](personal-gateway.md), [Lokalna brama danych](service-gateway-onprem.md), [Odświeżanie zestawu danych utworzonego na podstawie skoroszytu programu Excel na dysku lokalnym](refresh-excel-file-local-drive.md).
+Aby dowiedzieć się więcej, zobacz tematy [Dane programu Excel w usłudze Power BI](service-excel-workbook-files.md), [Power BI Gateway — Personal](service-gateway-personal-mode.md), [Lokalna brama danych](service-gateway-onprem.md), [Odświeżanie zestawu danych utworzonego na podstawie skoroszytu programu Excel na dysku lokalnym](refresh-excel-file-local-drive.md).
 
 ### <a name="power-bi-desktop-file-with-data-from-an-odata-feed"></a>Plik programu Power BI Desktop z danymi ze strumieniowego źródła danych OData
 W tym przypadku używasz polecenia Pobierz dane w programie Power BI Desktop do nawiązania połączenia i zaimportowania danych spisu ze strumieniowego źródła danych OData.  Tworzysz kilka raportów w programie Power BI Desktop, nadajesz plikowi nazwę SpisWA i zapisujesz go na udziale sieciowym w firmie. Następnie publikujesz plik do usługi Power BI.
@@ -270,7 +274,7 @@ Aby uzyskać więcej informacji dotyczących rozwiązywania problemów, zobacz t
 ## <a name="next-steps"></a>Następne kroki
 [Narzędzia do rozwiązywania problemów z odświeżaniem](service-gateway-onprem-tshoot.md)  
 [Rozwiązywanie problemów ze scenariuszami odświeżania](refresh-troubleshooting-refresh-scenarios.md)  
-[Power BI Gateway — Personal](personal-gateway.md)  
+[Power BI Gateway — Personal](service-gateway-personal-mode.md)  
 [Lokalna brama danych](service-gateway-onprem.md)  
 
 Masz więcej pytań? [Zadaj pytanie społeczności usługi Power BI](http://community.powerbi.com/)

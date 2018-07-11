@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 4c8601e15a415e680028b2259a4c2b8e56dbd3b4
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: dce044a3f143ba85732c8345639ea57f44f05d5f
+ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34297244"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "37926601"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Administrowanie usługą Power BI — często zadawane pytania
 
@@ -41,14 +41,13 @@ W tym artykule przedstawiono często zadawane pytania dotyczące administrowania
 * [Jak usunąć usługę Power BI dla użytkowników, którzy są już zarejestrowani?](#how-do-i-remove-power-bi-for-users-that-already-signed-up)
 * [Jak sprawdzić, kiedy nowi użytkownicy dołączają do mojej dzierżawy?](#how-do-i-know-when-new-users-have-joined-my-tenant)
 * [Czy istnieją dodatkowe rzeczy, na które należy się przygotować?](#are-there-any-additional-things-i-should-be-prepared-for)
-* [Czy jest to bezpłatne? Czy zostanie naliczona opłata za te licencje?](#is-this-free-will-i-be-charged-for-these-licenses)
 * [Gdzie znajduje się moja dzierżawa usługi Power BI?](#where-is-my-power-bi-tenant-located)
 * [Co to jest umowa SLA (umowa dotycząca poziomu usług) usługi Power BI?](#what-is-the-power-bi-sla)
 
 **Zabezpieczenia w usłudze Power BI**
 
 * [Czy usługa Power BI spełnia krajowe, regionalne i branżowe wymagania dotyczące zgodności?](#does-power-bi-meet-national-regional-and-industry-specific-compliance-requirements)
-* [Jak działają zabezpieczenia w usłudze Power BI?](#how-does-security-work-in-power-bi?)
+* [Jak działają zabezpieczenia w usłudze Power BI?](#how-does-security-work-in-power-bi)
 
 ## <a name="sign-up-for-power-bi"></a>Tworzenie konta w usłudze Power BI
 ### <a name="how-do-users-sign-up-for-power-bi"></a>Jak użytkownicy tworzą konta w usłudze Power BI?
@@ -232,9 +231,6 @@ Może wzrosnąć liczba żądań o resetowanie haseł. Aby uzyskać informacje o
 
 Możesz usunąć użytkownika z dzierżawy za pośrednictwem standardowego procesu w centrum administracyjnym usługi Office 365. Jeśli jednak użytkownik nadal ma aktywny adres e-mail od organizacji, będzie w stanie ponownie dołączyć, chyba że zablokujesz wszystkim użytkownikom możliwość dołączania.
 
-### <a name="is-this-free-will-i-be-charged-for-these-licenses"></a>Czy jest to bezpłatne? Czy zostanie naliczona opłata za te licencje?
-Licencje **Power BI (wersja bezpłatna)** dotyczą bezpłatnej wersji usługi Power BI. Jeśli interesują Cię dodatkowe możliwości, sprawdź [wersję Power BI Pro](service-premium.md).
-
 ### <a name="where-is-my-power-bi-tenant-located"></a>Gdzie znajduje się moja dzierżawa usługi Power BI?
 Aby dowiedzieć się, gdzie znajduje się dzierżawa usługi Power BI, czyli gdzie mieści się tak zwany region danych, zobacz [Gdzie znajduje się moja dzierżawa usługi Power BI?](service-admin-where-is-my-tenant-located.md)
 
@@ -252,7 +248,6 @@ Usługa Power BI jest oparta na usłudze Office 365, która z kolei jest oparta 
 [Portal administracyjny usługi Power BI](service-admin-portal.md)  
 [Opis roli administratora usługi Power BI](service-admin-role.md)  
 [Rejestracja samoobsługowa w usłudze Power BI](service-self-service-signup-for-power-bi.md)  
-[Usługa Power BI (wersja bezpłatna) w organizacji](service-admin-service-free-in-your-organization.md)  
 [Zakup usługi Power BI Pro](service-admin-purchasing-power-bi-pro.md)  
 [Power BI Premium — co to jest?](service-premium.md)  
 [Jak kupić usługę Power BI Premium](service-admin-premium-purchase.md)  

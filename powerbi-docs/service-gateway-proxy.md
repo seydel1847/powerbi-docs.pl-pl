@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/21/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: ef554d7190709565610336169b4883d71970f822
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 621a5f92ebd9c7314b719b6643f5bfef958916c3
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34799561"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599340"
 ---
 # <a name="configuring-proxy-settings-for-the-on-premises-data-gateway"></a>Konfigurowanie ustawień serwera proxy dla lokalnej bramy danych
 Środowisko pracy może wymagać, aby dostęp do Internetu odbywał się za pośrednictwem serwera proxy. Może to uniemożliwiać lokalnej bramie danych nawiązanie połączenia z usługą.
@@ -77,23 +77,23 @@ Podczas konfigurowania ustawień serwera proxy pod kątem używania domyślnych 
 
 ### <a name="change-the-on-premises-data-gateway-service-account"></a>Zmienianie konta usługi lokalnej bramy danych
 1. Zmień konto usługi systemu Windows dla **usługi lokalnej bramy danych**.
-   
+
     Domyślne konto dla tej usługi to *NT SERVICE\PBIEgwService*. Musisz je zmienić na konto użytkownika domeny usługi Active Directory. Możesz też użyć zarządzanego konta usługi, aby uniknąć konieczności zmiany hasła.
-   
+
     Musisz zmienić konto na karcie **Logowanie** we właściwościach usługi systemu Windows.
 2. Uruchom ponownie **usługę lokalnej bramy danych**.
-   
+
     W wierszu polecenia z uprawnieniami administratora uruchom następujące polecenia.
-   
+
         net stop PBIEgwService
-   
+
         net start PBIEgwService
 3. Uruchom **konfiguratora lokalnej bramy danych**. Możesz wybrać przycisk Start systemu Windows i wyszukać *lokalną bramę danych*.
 4. Zaloguj się do usługi Power BI.
 5. Przywróć bramę przy użyciu klucza odzyskiwania.
-   
+
     Pozwoli to nowemu kontu usługi odszyfrować przechowywane poświadczenia dla źródeł danych.
-    
+
 > [!NOTE]
 > Bezpośrednia zmiana konta usługi za pomocą panelu sterowania usług nie powoduje automatycznej aktualizacji listy ACL. Należy się upewnić, że nowe konto usługi ma dostęp do plików i folderu instalacji. Folder instalacji bramy można znaleźć w ścieżce C:\Program Files\On-premises data gateway. 
 > 

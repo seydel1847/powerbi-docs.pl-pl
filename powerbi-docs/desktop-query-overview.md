@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 35171c5b1d61b9df860b72ee98d8fb63a875092d
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: f4ee0f114e6d905f202505f71b194a5b56fd6397
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34286387"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137358"
 ---
 # <a name="query-overview-in-power-bi-desktop"></a>Omówienie zapytań w programie Power BI Desktop
 Program **Power BI Desktop** umożliwia łączenie się ze zbiorami danych, tworzenie atrakcyjnych i fundamentalnych raportów oraz udostępnianie wyników pracy innym osobom, które mogą je następnie rozbudowywać i rozwijać własne rozwiązania analizy biznesowej.
@@ -137,7 +137,7 @@ Aby zapisać wykonaną pracę, wybierz pozycję **Plik \> Zapisz** (lub **Plik \
 ## <a name="next-steps"></a>Następne kroki
 Przy użyciu programu Power BI Desktop można wykonywać różnorodne zadania. Aby uzyskać więcej informacji na temat jego możliwości, skorzystaj z następujących zasobów:
 
-* [Wprowadzenie do programu Power BI Desktop](desktop-getting-started.md)
+* [Co to jest Power BI Desktop?](desktop-what-is-desktop.md)
 * [Źródła danych w programie Power BI Desktop](desktop-data-sources.md)
 * [Łączenie się z danymi w programie Power BI Desktop](desktop-connect-to-data.md)
 * [Kształtowanie i łączenie danych w programie Power BI Desktop](desktop-shape-and-combine-data.md)

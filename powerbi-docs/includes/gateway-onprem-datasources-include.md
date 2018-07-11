@@ -1,4 +1,5 @@
 ## <a name="list-of-available-data-source-types"></a>Lista dostępnych typów źródeł danych
+
 | **Źródło danych** | **Połączenie na żywo/zapytanie bezpośrednie** | **Odświeżanie ręczne skonfigurowane przez użytkownika lub odświeżanie zaplanowane** |
 | --- | --- | --- | --- |
 | Dane tabelaryczne usługi Analysis Services |Tak |Tak |

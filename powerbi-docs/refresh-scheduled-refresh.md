@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: e6dbd431a1ea37195a6cbb6e3d9a39d79a4e9b0d
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 96c1709c1d85b8a960be9c96b6839b69b4f22eaa
+ms.sourcegitcommit: ba447d7cc94418d7d3cf6fdcb686ec1a859258a8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34248140"
+ms.lasthandoff: 07/02/2018
+ms.locfileid: "37145461"
 ---
 # <a name="configuring-scheduled-refresh"></a>Konfigurowanie zaplanowanego odświeżania
 
@@ -26,7 +26,7 @@ ms.locfileid: "34248140"
 
 Jeśli zestaw danych obsługuje zaplanowane odświeżanie z użyciem poleceń Odśwież teraz i Zaplanuj odświeżanie, należy pamiętać o kilku wymaganiach i ustawieniach istotnych dla powodzenia odświeżania. Są to ustawienia w obszarach **Połączenie bramy**, **Poświadczenia źródła danych** oraz **Planowanie odświeżania**. Przyjrzyjmy się im bliżej.
 
-Zostaną tu opisane opcje dostępne zarówno w przypadku bramy [Power BI Gateway — Personal](personal-gateway.md), jak i [lokalnej bramy danych](service-gateway-onprem.md).
+Zostaną tu opisane opcje dostępne zarówno w przypadku bramy [Power BI Gateway — Personal](service-gateway-personal-mode.md), jak i [lokalnej bramy danych](service-gateway-onprem.md).
 
 Aby przejść do ekranu planowania odświeżania, wykonaj następujące czynności.
 
@@ -123,7 +123,7 @@ Może się zdarzyć, że odświeżanie danych nie będzie przebiegać zgodnie z 
 
 ## <a name="next-steps"></a>Następne kroki
 [Odświeżanie danych w usłudze Power BI](refresh-data.md)  
-[Power BI Gateway — Personal](personal-gateway.md)  
+[Power BI Gateway — Personal](service-gateway-personal-mode.md)  
 [Lokalna brama danych](service-gateway-onprem.md)  
 [Rozwiązywanie problemów z lokalną bramą danych](service-gateway-onprem-tshoot.md)  
 [Rozwiązywanie problemów z bramą Power BI Gateway — Personal](service-admin-troubleshooting-power-bi-personal-gateway.md)  

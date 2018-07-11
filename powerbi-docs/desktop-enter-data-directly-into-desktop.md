@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 51889b066095f7f69782bc72556d816007e1574a
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 3a1a458ab263eb1e03c565e7a47679994afda82e
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34291102"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136139"
 ---
 # <a name="enter-data-directly-into-power-bi-desktop"></a>Wprowadzanie danych bezpośrednio w programie Power BI Desktop
 W programie Power BI Desktop możesz bezpośrednio wprowadzać dane i używać tych danych w raportach i wizualizacjach. Możesz na przykład skopiować fragmenty skoroszytu lub strony internetowej, a następnie wkleić je do programu Power BI Desktop.
@@ -41,7 +41,7 @@ Teraz możesz używać danych w programie Power BI Desktop do tworzenia wizualiz
 ### <a name="next-steps"></a>Następne kroki
 Z poziomu programu Power BI Desktop możesz łączyć się z danymi różnego rodzaju. Więcej informacji na temat źródeł danych znajdziesz w następujących zasobach:
 
-* [Wprowadzenie do programu Power BI Desktop](desktop-getting-started.md)
+* [Co to jest Power BI Desktop?](desktop-what-is-desktop.md)
 * [Źródła danych w programie Power BI Desktop](desktop-data-sources.md)
 * [Kształtowanie i łączenie danych w programie Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Łączenie się ze skoroszytami programu Excel w programie Power BI Desktop](desktop-connect-excel.md)   

@@ -7,19 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/18/2018
+ms.date: 06/13/2018
 ms.author: maghan
-ms.openlocfilehash: 3b0e9c148b86d8bf762a31cca5c3421df454502d
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: c2784bf8e8dca857ae2a1b55d1ad8560e552cafb
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34481751"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37780575"
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>Wymagania sprzętowe i programowe dotyczące instalowania serwera raportów usługi Power BI
 Ten artykuł zawiera minimalne wymagania dotyczące sprzętu i oprogramowania, które trzeba spełnić, aby zainstalować i uruchomić serwer raportów usługi Power BI.
 
 ## <a name="processor-memory-and-operating-system-requirements"></a>Wymagania dotyczące procesora, pamięci i systemu operacyjnego
+
 | Składnik | Wymaganie |
 | --- | --- |
 | .NET Framework |4.6<br><br>Oprogramowanie .NET Framework można zainstalować ręcznie ze strony programu [Microsoft .NET Framework 4.6 (Instalator internetowy) dla systemu Windows](http://support.microsoft.com/kb/3045560).<br/><br/> Aby uzyskać więcej informacji, zaleceń i wskazówek dotyczących programu .NET Framework 4.6, zobacz [.NET Framework — Przewodnik wdrażania dla deweloperów](http://msdn.microsoft.com/library/ee942965\(v=vs.110\).aspx).<br/><br/>Systemy Windows 8.1 i Windows Server 2012 R2 przed zainstalowaniem programu .NET Framework 4.6 wymagają aktualizacji [KB2919355](http://support.microsoft.com/kb/2919355). |
@@ -41,8 +42,6 @@ Do hostowania baz danych serwera raportów jest używany program SQL Server. Wys
 * SQL Server 2016
 * SQL Server 2014
 * SQL Server 2012
-* SQL Server 2008 R2
-* SQL Server 2008
 
 Utworzenie bazy danych serwera raportów na komputerze zdalnym wymaga skonfigurowania połączenia, które korzysta z konta użytkownika domeny lub konta usługi z dostępem sieciowym. Jeśli zdecydujesz się na korzystanie ze zdalnego wystąpienia programu SQL Server, rozważ dokładnie, których poświadczeń powinien używać serwer raportów w celu łączenia się z wystąpieniem programu SQL Server. Aby uzyskać więcej informacji, zobacz [Konfigurowanie połączenia z bazą danych serwera raportów](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-a-report-server-database-connection-ssrs-configuration-manager).
 

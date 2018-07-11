@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 50a5d3d97e90879dcb542c441f129f468a95c6c7
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 4b1077b62baeee2412620e6ee2aa6aabc6838863
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34285559"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136392"
 ---
 # <a name="connect-to-data-in-power-bi-desktop"></a>Łączenie się z danymi w programie Power BI Desktop
 Za pomocą programu Power BI Desktop możesz łatwo połączyć się z nieustannie rozszerzającym się światem danych. Jeśli nie masz programu Power BI Desktop, możesz go [pobrać](http://go.microsoft.com/fwlink/?LinkID=521662) i zainstalować.
@@ -67,7 +67,7 @@ Oczywiście jest to prosty model z pojedynczym połączeniem danych. Większoś�
 ### <a name="next-steps"></a>Następne kroki
 Przy użyciu programu Power BI Desktop można wykonywać różnorodne zadania. Aby uzyskać więcej informacji na temat jego możliwości, skorzystaj z następujących zasobów:
 
-* [Wprowadzenie do programu Power BI Desktop](desktop-getting-started.md)
+* [Co to jest Power BI Desktop?](desktop-what-is-desktop.md)
 * [Omówienie zapytań w programie Power BI Desktop](desktop-query-overview.md)
 * [Źródła danych w programie Power BI Desktop](desktop-data-sources.md)
 * [Kształtowanie i łączenie danych w programie Power BI Desktop](desktop-shape-and-combine-data.md)

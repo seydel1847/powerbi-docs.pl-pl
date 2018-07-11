@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 52ef1f6526b83a54ba26fdffaf8150049c55880d
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 319c636c660aff3ab651475e2d7b553fef49b8cd
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34813324"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137335"
 ---
 # <a name="get-power-bi-desktop"></a>Uzyskiwanie programu Power BI Desktop
 Program **Power BI Desktop** umożliwia tworzenie zaawansowanych zapytań, modeli i raportów z wizualizowaniem danych. Przy użyciu programu **Power BI Desktop** możesz tworzyć modele danych i raporty oraz udostępniać swoją pracę poprzez publikowanie w usłudze Power BI.  Program **Power BI Desktop** można pobrać bezpłatnie.
@@ -110,7 +110,7 @@ Zaktualizowanie bieżącej wersji programu Power BI Desktop zwykle rozwiązuje t
 ## <a name="next-steps"></a>Następne kroki
 Po zainstalowaniu programu **Power BI Desktop** następująca zawartość może pomóc Ci szybko zacząć z niego korzystać:
 
-* [Wprowadzenie do programu Power BI Desktop](desktop-getting-started.md)
+* [Co to jest Power BI Desktop?](desktop-what-is-desktop.md)
 * [Omówienie zapytań w programie Power BI Desktop](desktop-query-overview.md)
 * [Źródła danych w programie Power BI Desktop](desktop-data-sources.md)
 * [Łączenie się z danymi w programie Power BI Desktop](desktop-connect-to-data.md)

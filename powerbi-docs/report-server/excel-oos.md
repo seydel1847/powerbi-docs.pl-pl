@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: 705de47a1e89d765f34eadfcd35064ccde7aa66b
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: c57ae7a0213ce324f673e53862ba3dfa38f57409
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34481905"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092672"
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>Konfigurowanie serwera raportów do hostowania skoroszytów programu Excel przy użyciu programu Office Online Server (OOS)
 Oprócz wyświetlania raportów usługi Power BI w portalu internetowym, serwer raportów usługi Power BI może hostować skoroszyty programu Excel przy użyciu programu [Office Online Server](https://docs.microsoft.com/officeonlineserver/office-online-server-overview) (OOS). Serwer raportów staje się jedną lokalizacją do publikowania i wyświetlania samoobsługowej zawartości usługi Microsoft BI.
@@ -78,7 +78,7 @@ New-OfficeWebAppsFarm -InternalUrl "https://server.contoso.com" -ExternalUrl "ht
 
 **Parametry**
 
-* **–InternalURL** to w pełni kwalifikowana nazwa domeny (FQDN) serwera, na którym jest uruchamiany program Office Online Server, na przykład http://servername.contoso.com.
+* **–InternalURL** to w pełni kwalifikowana nazwa domeny (FQDN) serwera, na którym jest uruchamiany program Office Online Server, na przykład `http://servername.contoso.com`.
 * **–ExternalURL** to nazwa FQDN, która jest dostępna za pośrednictwem sieci Internet.
 * **–CertificateName** to przyjazna nazwa certyfikatu.
 
@@ -91,7 +91,7 @@ New-OfficeWebAppsFarm -InternalURL "http://servername" -AllowHttp
 
 **Parametry**
 
-* **–InternalURL** to nazwa serwera, na którym jest uruchamiany program Office Online Server, na przykład http://servername.
+* **–InternalURL** to nazwa serwera, na którym jest uruchamiany program Office Online Server, na przykład `http://servername`.
 * **–AllowHttp** konfiguruje farmę do użycia protokołu HTTP.
 
 ### <a name="verify-that-the-office-online-server-farm-was-created-successfully"></a>Sprawdzanie, czy farma programu Office Online Server została pomyślnie utworzona

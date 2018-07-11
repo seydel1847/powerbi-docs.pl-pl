@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d65281539bcc27ce24971a6da0945908ba65e754
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 1a39b347a68cb5557ffff7758efbfba86884b5ce
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34297106"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599006"
 ---
 # <a name="customize-visualization-titles-legends-and-backgrounds"></a>Dostosowywanie tytułów, legend i tła wizualizacji
 W tym samouczku poznasz kilka sposobów dostosowywania wizualizacji.   Istnieje wiele opcji dostosowywania wizualizacji. Najlepiej zapoznać się z nimi, eksplorując okienko Formatowanie (wybierz ikonę wałka do malowania).  Aby ułatwić rozpoczęcie pracy, w tym artykule przedstawiono, jak dostosować tytuł, legendę i tło wizualizacji.  
@@ -41,26 +41,26 @@ Aby to zrealizować, zaloguj się do usługi Power BI (app.powerbi.com) i [otwó
 
 1. Przejdź do strony „New Stores” raportu i wybierz wykres kolumnowy „Open Store Count by Open Month...”.
 2. W okienku Wizualizacje wybierz ikonę wałka do malowania, aby wyświetlić opcje formatowania  i wybierz pozycję **Tytuł**, aby rozszerzyć tę sekcję.  
-   
+
    ![](media/power-bi-visualization-customize-title-background-and-legend/power-bi-formatting-menu.png)
 3. **Tytuł** możesz włączać i wyłączać, ustawiając suwak w pozycji Włączone i Wyłączone. Na razie zostaw go w pozycji **Włączone**.  
-   
+
    ![](media/power-bi-visualization-customize-title-background-and-legend/onoffslider.png)
 4. Zmień **Tytuł tekstu**, wpisując wartość **Store count by month opened** (Liczba sklepów według miesiąca otwarcia) w polu tekstowym.  
 5. Zmień **Kolor czcionki** na pomarańczowy i **Kolor tła** na żółty.
-   
+
    * Wybierz listę rozwijaną oraz kolor z **kolorów motywu**, **ostatnich kolorów** lub **kolorów niestandardowych**.
    * Wybierz listę rozwijaną, aby zamknąć okno kolorów.  
      ![](media/power-bi-visualization-customize-title-background-and-legend/customizecolorpicker.png)
-   
+
    Zawsze możesz przywrócić kolory domyślne, wybierając pozycję **Przywróć domyślne** w oknie kolorów.
 6. Zwiększ rozmiar tekstu do 12.
 7. Ostatnim dostosowaniem, jakie wykonamy w zakresie tytułu wykresu, będzie wyrównanie go do środka wizualizacji. Domyślnym położeniem tytułu jest wyrównanie do lewej.  
    ![](media/power-bi-visualization-customize-title-background-and-legend/customizealign.png)
-   
+
     Na tym etapie samouczka **tytuł** wykresu kolumnowego powinien wyglądać mniej więcej tak:  
     ![](media/power-bi-visualization-customize-title-background-and-legend/tutorialprogress1.png)
-   
+
     Aby cofnąć wszystkie dokonane dostosowania tytułu, wybierz pozycję **Przywróć domyślne** w dolnej części okienka dostosowywania **Tytuł**.  
     ![](media/power-bi-visualization-customize-title-background-and-legend/revertall.png)
 
@@ -69,29 +69,30 @@ Przy zaznaczonym wykresie kolumnowym rozwiń opcje tła.
 
 1. Tło możesz włączać i wyłączać, ustawiając suwak w pozycji Włączone i Wyłączone. Na razie zostaw go w pozycji **Włączone**.
 2. Zmień kolor tła na Szary — 74%.
-   
+
    * Wybierz listę rozwijaną oraz kolor szary z **kolorów motywu**, **ostatnich kolorów** lub **kolorów niestandardowych**.
    * Zmień Przezroczystość na 74%.   
      ![](media/power-bi-visualization-customize-title-background-and-legend/power-bi-customize-background.png)
-   
+
    Aby cofnąć wszystkie dokonane dostosowania tła, wybierz pozycję **Przywróć domyślne** w dolnej części okienka dostosowywania **Tło**.
 
 ## <a name="customize-visualization-legends"></a>Dostosowywanie legend wizualizacji
 1. Otwórz stronę **Overview** raportu i wybierz wykres „Total Sales Variance by FiscalMonth and District Manager”.
 2. Na karcie Wizualizacja wybierz ikonę pędzla, aby otworzyć okienko formatowania.  
 3. Rozwiń opcje **Legenda**.
-   
+
       ![](media/power-bi-visualization-customize-title-background-and-legend/legend.png)
 4. Legendę możesz włączać i wyłączać, ustawiając suwak w pozycji Włączone i Wyłączone. Na razie zostaw go w pozycji **Włączone**.
 5. Przenieś legendę na lewą stronę wizualizacji.    
 6. Dodaj tytuł legendy, przełączając suwak **Tytuł** na pozycję **Włączone** i wpisując w polu **Nazwa legendy** nazwę **Managers** (Menedżerowie).
    ![](media/power-bi-visualization-customize-title-background-and-legend/legend-move.png)
-   
+
    Aby cofnąć wszystkie dokonane dostosowania legendy, wybierz pozycję **Przywróć domyślne** w dolnej części okienka dostosowywania **Legenda**.
 
 <a name="list"></a>
 
 ## <a name="visualization-types-that-can-be-customized"></a>Typy wizualizacji, które można dostosowywać
+
 | Wizualizacja | Tytuł | Tło | Legenda |
 |:--- |:--- |:--- |:--- |
 | obszar |tak |tak |tak |

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 606ef1f1c69643852a94a7d83ece93cca8940e7a
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 175852a05c4964e6a476abf50684d9ffc12c4468
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34309928"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599874"
 ---
 # <a name="getting-started-with-power-bi-desktop"></a>Wprowadzenie do programu Power BI Desktop
 Witamy **przewodniku Wprowadzenie do programu Power BI Desktop**. Ten krótki przewodnik po programie Power BI Desktop umożliwia zapoznanie się z działaniem programu, demonstruje jego możliwości i przyspiesza tworzenie niezawodnych modeli danych — wraz z zachwycającymi raportami — które uzupełniają działania w zakresie analizy biznesowej. 
@@ -313,7 +313,7 @@ Usługa **Power BI** wyświetli pierwszą stronę raportu. Wzdłuż dolnej czę�
 
 Możesz wprowadzić zmiany w raporcie w usłudze **Power BI**, wybierając opcję **Edytuj raport** w górnej części kanwy raportu.
 
-Aby zapisać raport, wybierz opcję **Plik \> Zapisz jako** w usłudze. Istnieją różnego rodzaju interesujące wizualizacje, które możesz utworzyć w usłudze **Power BI** z raportu, a następnie przypiąć je do *pulpitu nawigacyjnego*. Aby dowiedzieć się więcej o pulpitach nawigacyjnych w usłudze **Power BI**, zobacz **[Porady dotyczące projektowania doskonałych pulpitów nawigacyjnych](service-dashboards-design-tips.md)**.
+Aby zapisać raport, wybierz opcję **Plik \> Zapisz jako** w usłudze. Istnieją różnego rodzaju interesujące wizualizacje, które możesz utworzyć w usłudze **Power BI** z raportu, a następnie przypiąć je do *pulpitu nawigacyjnego*. Aby dowiedzieć się więcej o pulpitach nawigacyjnych w usłudze **Power BI**, zobacz <strong>[Porady dotyczące projektowania doskonałych pulpitów nawigacyjnych](service-dashboards-design-tips.md)</strong>.
 
  ![](media/desktop-getting-started/gsg_share5.png)
 

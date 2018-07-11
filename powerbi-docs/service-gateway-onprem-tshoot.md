@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/02/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: e689e031395130bab8ad80d5d06936a9dabaf852
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: a99200707c8fc7de4fea2e32fe83238011bbf46c
+ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34755075"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "37926610"
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>Rozwiązywanie problemów z lokalną bramą danych
 W tym artykule omówiono niektóre typowe problemy, które można napotkać podczas używania **lokalnej bramy danych**.
@@ -31,10 +31,10 @@ W tym artykule omówiono niektóre typowe problemy, które można napotkać podc
 Brama działa jako usługa systemu Windows, więc można ją uruchamiać i zatrzymywać na wiele sposobów. Na przykład można otworzyć wiersz polecenia z podwyższonym poziomem uprawnień na maszynie, na której brama jest uruchomiona, a następnie uruchomić dowolne z następujących poleceń:
 
 * Aby zatrzymać usługę, uruchom następujące polecenie:
-  
+
     '''   net stop PBIEgwService   '''
 * Aby uruchomić usługę, uruchom następujące polecenie:
-  
+
     '''   net start PBIEgwService   '''
 
 ### <a name="error-failed-to-create-gateway-please-try-again"></a>Błąd: Nie można utworzyć bramy. Spróbuj ponownie.
@@ -70,7 +70,7 @@ Aby rozwiązać ten problem, wykonaj następujące czynności.
 
 1. Odinstaluj bramę.
 2. Usuń następujący folder.
-   
+
         c:\Program Files\On-premises data gateway
 3. Ponownie zainstaluj bramę.
 4. Opcjonalnie zastosuj klucz odzyskiwania, aby przywrócić istniejącą bramę.
@@ -129,11 +129,11 @@ Aby to sprawdzić, wykonaj następujące czynności.
 
 1. Nawiąż połączenie z maszyną usług Analysis Services w programie SQL Server Management Studio. Do właściwości zaawansowanych połączenia dołącz właściwość EffectiveUserName dla użytkownika, którego konto jest sprawdzane, a następnie sprawdź, czy błąd się powtórzy.
 2. Aby sprawdzić, czy wspomniany atrybut jest podany, możesz użyć narzędzia dsacls usługi Active Directory. To narzędzie zwykle można znaleźć na kontrolerze domeny. Musisz dowiedzieć się, jaka jest nazwa wyróżniająca domeny dla tego konta i przekazać ją do tego narzędzia.
-   
+
         dsacls "CN=John Doe,CN=UserAccounts,DC=contoso,DC=com"
-   
+
     W wynikach powinien pojawić się komunikat podobny do poniższego.
-   
+
             Allow BUILTIN\Windows Authorization Access Group
                                           SPECIAL ACCESS for tokenGroupsGlobalAndUniversal
                                           READ PROPERTY
@@ -184,15 +184,15 @@ Aby sprawdzić, czy tak jest, wykonaj poniższą procedurę.
 
 1. Znajdź obowiązującą nazwę użytkownika w [dziennikach bramy](#logs).
 2. Gdy ustalisz, jaka wartość jest przekazywana, sprawdź, czy jest poprawna. Jeśli jest to Twoja nazwa użytkownika, możesz wydać poniższe polecenie w wierszu polecenia, aby sprawdzić, jaka powinna być nazwa UPN. Nazwa UPN będzie wyglądać jak adres e-mail.
-   
+
         whoami /upn
 
 Opcjonalnie możesz sprawdzić, jakie dane usługa Power BI otrzymuje z usługi Azure Active Directory.
 
-1. Przejdź do [https://graphexplorer.cloudapp.net](https://graphexplorer.cloudapp.net).
+1. Przejdź do [https://developer.microsoft.com/graph/graph-explorer](https://developer.microsoft.com/graph/graph-explorer).
 2. W prawym górnym roku wybierz pozycję **Sign in** (Zaloguj się).
 3. Uruchom następujące zapytanie. Zostanie wyświetlona dosyć duża odpowiedź JSON.
-   
+
         https://graph.windows.net/me?api-version=1.5
 4. Poszukaj właściwości **userPrincipalName**.
 
@@ -206,7 +206,7 @@ Aby ustalić obszar centrum danych, do którego należysz, wykonaj poniższą pr
 1. Wybierz ikonę **?** w prawym górnym rogu usługi Power BI.
 2. Wybierz pozycję **Power BI — informacje**.
 3. Twój obszar danych zostanie wyświetlony w obszarze **Dane są przechowywane w lokalizacji**.
-   
+
     ![](media/service-gateway-onprem-tshoot/power-bi-data-region.png)
 
 Jeśli nadal nie udało się przybliżyć do rozwiązania tego problemu, możesz spróbować uzyskać ślad sieci za pomocą narzędzia [fiddler](#fiddler) lub netsh, ale są to zaawansowane metody zbierania i możesz potrzebować pomocy w przeanalizowaniu zebranych danych. W celu uzyskania pomocy możesz skontaktować się z [pomocą techniczną](https://support.microsoft.com).
@@ -329,6 +329,7 @@ W pliku *Microsoft.PowerBI.DataMovement.Pipeline.Diagnostics.dll.config* zmień 
 <a name="activities"></a>
 
 ### <a name="activity-types"></a>Typy działań
+
 | Typ działania | Opis |
 | --- | --- |
 | MGEQ |Zapytania wykonywane za pośrednictwem platformy ADO.NET. Dotyczy to m.in. źródła danych zapytania bezpośredniego. |
@@ -342,9 +343,9 @@ Aby ustalić czas, przez jaki zapytanie względem źródła danych było przetwa
 2. Wyszukaj [Typ działania](#activities), aby znaleźć zapytanie. Na przykład może to być typ MGEQ.
 3. Zanotuj drugi identyfikator GUID, ponieważ jest to identyfikator żądania.
 4. Kontynuuj wyszukiwanie typu działania MGEQ, aż znajdziesz wpis FireActivityCompletedSuccessfullyEvent z czasem trwania. Możesz sprawdzić, czy wpis ma ten sam identyfikator żądania. Czas trwania będzie podany w milisekundach.
-   
+
         DM.EnterpriseGateway Verbose: 0 : 2016-09-26T23:08:56.7940067Z DM.EnterpriseGateway    baf40f21-2eb4-4af1-9c59-0950ef11ec4a    5f99f566-106d-c8ac-c864-c0808c41a606    MGEQ    21f96cc4-7496-bfdd-748c-b4915cb4b70c    B8DFCF12 [DM.Pipeline.Common.TracingTelemetryService] Event: FireActivityCompletedSuccessfullyEvent (duration=5004)
-   
+
    > [!NOTE]
    > FireActivityCompletedSuccessfullyEvent jest wpisem pełnym. Ten wpis nie będzie rejestrowany, chyba że właściwość TraceVerbosity jest ustawiona na poziom 5.
    > 
@@ -423,12 +424,12 @@ Jeśli delegowanie nie zostało poprawnie skonfigurowane w usłudze AD, wystąpi
 Gdy brama jest używana do zaplanowanego odświeżania, **Historia odświeżania** może pomóc w zidentyfikowaniu błędów, które wystąpiły, a także w uzyskaniu przydatnych danych, jeśli musisz utworzyć żądanie obsługi. Przeglądać można zarówno odświeżenia zaplanowane, jak i przeprowadzone na żądanie. Oto sposób uzyskiwania dostępu do **historii odświeżania**.
 
 1. W okienku nawigacji usługi Power BI w obszarze **Zestawy danych** wybierz zestaw danych &gt; otwórz menu &gt; **Zaplanuj odświeżanie**.
-   
+
     ![](media/service-gateway-onprem-tshoot/scheduled-refresh.png)
 2. W obszarze **Ustawienia dla...** &gt; **Zaplanuj odświeżanie** wybierz pozycję **Historia odświeżania**.
-   
+
     ![](media/service-gateway-onprem-tshoot/scheduled-refresh-2.png)
-   
+
     ![](media/service-gateway-onprem-tshoot/refresh-history.png)
 
 Aby uzyskać dodatkowe informacje o rozwiązywaniu problemów ze scenariuszami odświeżania, zapoznaj się z artykułem [Rozwiązywanie problemów ze scenariuszami odświeżania](refresh-troubleshooting-refresh-scenarios.md).

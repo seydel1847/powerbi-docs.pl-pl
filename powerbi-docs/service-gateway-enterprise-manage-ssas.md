@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: aa4bc70fa67af4e3b82b8ed9a4eb16851d98eaeb
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: a4c931b671840ca78f340005c30aeb92454ca2a6
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34297152"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599186"
 ---
 # <a name="manage-your-data-source---analysis-services"></a>Zarządzanie źródłami danych — Analysis Services
 Po zainstalowaniu lokalnej bramy danych musisz dodać źródła danych, które mogą być używane z tą bramą. W tym artykule opisano sposób pracy z bramami i źródłami danych. Do zaplanowanego odświeżania lub połączeń na żywo możesz użyć źródła danych usług Analysis Services.
@@ -52,7 +52,7 @@ Usunięcie bramy spowoduje także usunięcie wszystkich źródeł danych w ramac
 
 1. Wybierz ikonę koła zębatego ![](media/service-gateway-enterprise-manage-ssas/pbi_gearicon.png) w prawym górnym rogu, a następnie wybierz pozycję **Zarządzaj bramami**.
 2. Wybierz pozycję Brama, a następnie pozycję **Usuń**
-   
+
    ![](media/service-gateway-enterprise-manage-ssas/datasourcesettings7.png)
 
 ## <a name="add-a-data-source"></a>Dodawanie źródła danych
@@ -119,15 +119,13 @@ Aby przejść do ekranu mapowania nazwy UPN, wykonaj następujące czynności.
 2. Rozwiń węzeł bramy, która zawiera źródło danych usług Analysis Services. Alternatywnie, jeśli nie utworzono źródła danych usług Analysis Services, możesz to zrobić w tym momencie.
 3. Wybierz źródło danych, a następnie wybierz kartę **Użytkownicy**.
 4. Wybierz pozycję **Mapuj nazwy użytkowników**.
-   
+
     ![](media/service-gateway-enterprise-manage-ssas/gateway-enterprise-map-user-names_02.png)
 
 Zobaczysz wtedy wyświetlone opcje dodawania reguły oraz testu dla danego użytkownika.
 
 > [!NOTE]
-> Możesz spowodować niezamierzoną zmianę użytkownika, której nie było w planie. Jeśli na przykład pozycja **Zastąp (oryginalna nazwa)** ma wartość *@contoso.com* i pozycja **Przez (nowa nazwa)** ma wartość *@contoso.local*, ciąg *@contoso.com* w danych logowania wszystkich użytkowników zostanie zastąpiony przez ciąg *@contoso.local*. Ponadto jeśli pozycja **Zastąp (oryginalna nazwa)** ma wartość *dave@contoso.com* i pozycja **Przez (nowa nazwa)** ma wartość *dave@contoso.local*, użytkownik mający dane logowania v-dave@contoso.com zostanie wysłany jako v-dave*@contoso.local*.
-> 
-> 
+> Możesz spowodować niezamierzoną zmianę użytkownika, której nie było w planie. Jeśli na przykład pozycja **Zastąp (oryginalna nazwa)** ma wartość <em>@contoso.com</em> i pozycja **Przez (nowa nazwa)** ma wartość <em>@contoso.local</em>, ciąg <em>@contoso.com</em> w danych logowania wszystkich użytkowników zostanie zastąpiony przez ciąg <em>@contoso.local</em>. Ponadto jeśli pozycja **Zastąp (oryginalna nazwa)** ma wartość <em>dave@contoso.com</em> i pozycja **Przez (nowa nazwa)** ma wartość <em>dave@contoso.local</em>, użytkownik mający dane logowania v-dave@contoso.com zostanie wysłany jako v-dave<em>@contoso.local</em>.
 
 ### <a name="ad-lookup-mapping"></a>Mapowanie wyszukiwania w usłudze AD
 W celu wykonania lokalnego wyszukiwania właściwości usługi AD, aby ponownie mapować nazwy UPN usługi AAD na użytkowników usługi Active Directory, wykonaj kroki opisane w tej sekcji. Na początek sprawdźmy, jak to działa.
@@ -147,17 +145,17 @@ W lokalnej bramie danych z mapowaniem użytkownika niestandardowego z możliwoś
 2. Wyszukaj atrybut osoby usługi AD (taki jak *Adres e-mail*) na podstawie przychodzącego ciągu nazwy UPN („firstName.lastName@contoso.com”) z **usługi Power BI**.
 3. W przypadku niepowodzenia wyszukiwania w usłudze AD próbuje ona użyć nazwy UPN przekazanej jako EffectiveUser do usług SSAS.
 4. Jeśli wyszukiwanie w usłudze AD zakończy się powodzeniem, pobiera ono nazwę *UserPrincipalName* tej osoby usługi AD. 
-5. Przekazuje ono adres e-mail *UserPrincipalName* jako *EffectiveUser* do usług SSAS, np.: *Alias@corp.on-prem.contoso*
+5. Przekazuje ono adres e-mail *UserPrincipalName* jako *EffectiveUser* do usług SSAS, np.: <em>Alias@corp.on-prem.contoso</em>
 
 Jak skonfigurować bramę do przeprowadzania wyszukiwania w usłudze AD:
 
 1. Pobieranie i instalowanie najnowszej bramy
 2. W bramie musisz zmienić **usługę lokalnej bramy danych** tak, aby była uruchamiana wraz z kontem domeny (zamiast z kontem usługi lokalnej — w przeciwnym razie wyszukiwanie w usłudze AD nie będzie działać poprawnie w środowisku uruchomieniowym). Musisz ponownie uruchomić usługę bramy, aby zmiana zaczęła obowiązywać.  Przejdź do aplikacji bramy na swoim komputerze (wyszukaj frazę „lokalna brama danych”). Aby to zrobić, wybierz pozycję **Ustawienia usługi > Zmień konto usługi**. Upewnij się, że masz klucz odzyskiwania dla tej bramy, ponieważ musisz przywrócić ją na tym samym komputerze, chyba że chcesz zamiast tego utworzyć nową bramę. 
 3. Przejdź do folderu instalacyjnego bramy, *C:\Program Files\On-premises data gateway*, jako administrator, aby upewnić się, że masz uprawnienia do zapisu, i zmodyfikuj następujący plik:
-   
+
        Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config 
 4. Zmodyfikuj następujące dwie wartości konfiguracji zgodnie z *Twoimi* konfiguracjami atrybutów usługi Active Directory Twoich użytkowników usługi AD. Przedstawione poniżej wartości konfiguracji są tylko przykładowe — musisz je określić na podstawie własnej konfiguracji usługi Active Directory. 
-   
+
    ![](media/service-gateway-enterprise-manage-ssas/gateway-enterprise-map-user-names_03.png)
 5. Uruchom ponownie usługę **lokalnej bramy danych**, aby zmiany konfiguracji zostały wprowadzone.
 

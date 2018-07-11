@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/12/2017
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 859ab3fdfd06040d8bbf131ab91ea6c9f84deb40
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: d298c750d23e22ef0a6b2791916add13bb260ad0
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34241952"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36965210"
 ---
 # <a name="manage-your-app-workspace-in-power-bi-and-office-365"></a>Zarządzanie obszarem roboczym aplikacji w usługach Power BI i Office 365
 Jako twórca lub administrator [obszaru roboczego aplikacji w usłudze Power BI](service-install-use-apps.md) lub Office 365 zarządzasz pewnymi aspektami obszaru roboczego w usłudze Power BI. Innymi aspektami zarządzasz w usłudze Office 365. 
@@ -33,7 +33,7 @@ Jako twórca lub administrator [obszaru roboczego aplikacji w usłudze Power BI]
 * Zobaczyć adres e-mail grupy.
 * Usunąć grupę.
 
-Aby być administratorem lub członkiem obszaru roboczego aplikacji, musisz mieć licencję usługi [Power BI Pro](service-free-vs-pro.md). Użytkownicy Twojej aplikacji również potrzebują licencji usługi Power BI Pro, chyba że obszar roboczy aplikacji ma uprawnienia usługi Power BI Premium. Następnie użytkownicy biznesowi mogą zamiast tego uzyskać dostęp do Twojej aplikacji za pomocą bezpłatnej licencji usługi Power BI. Przeczytaj temat [Co to jest usługa Power BI Premium?](service-premium.md), aby zapoznać się ze szczegółami.
+Aby być administratorem lub członkiem obszaru roboczego aplikacji, musisz mieć licencję usługi [Power BI Pro](service-free-vs-pro.md). Użytkownicy Twojej aplikacji również potrzebują licencji usługi Power BI Pro, chyba że obszar roboczy aplikacji ma uprawnienia usługi Power BI Premium. Przeczytaj artykuł [Co to jest usługa Power BI Premium?](service-premium.md), aby zapoznać się ze szczegółowymi informacjami.
 
 ## <a name="edit-your-app-workspace-in-power-bi"></a>Edytowanie obszaru roboczego aplikacji w usłudze Power BI
 1. W usłudze Power BI wybierz strzałkę obok pozycji **Obszary robocze** > wybierz wielokropek (**...**) obok nazwy swojego obszaru roboczego > **Edytuj obszar roboczy**. 

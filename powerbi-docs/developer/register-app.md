@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/31/2018
 ms.author: maghan
-ms.openlocfilehash: 9988d108c33e086938aca76d088c6852bb1117a4
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: f4aac424d448dcb3e2dd722efe54db99d318ba80
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34813301"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599493"
 ---
 # <a name="register-an-azure-ad-app-to-embed-power-bi-content"></a>Rejestrowanie aplikacji usługi Azure AD, aby osadzić zawartość usługi Power BI
 Dowiedz się, jak zarejestrować aplikację w usłudze Azure Active Directory (Azure AD), a następnie użyć jej w celu osadzenia zawartości usługi Power BI.
@@ -54,9 +54,8 @@ Oto sposób rejestrowania aplikacji za pomocą narzędzia rejestrowania aplikacj
     Otrzymasz **Identyfikator klienta**, a w przypadku wybrania typu **Aplikacja internetowa po stronie serwera**, otrzymasz **Klucz tajny klienta**. **Identyfikator klienta** można później, w razie potrzeby, pobrać z witryny Azure Portal. W przypadku utraty **Klucza tajnego klienta** musisz utworzyć nowy klucz w witrynie Azure Portal.
 
 8. Musisz przejść do platformy Azure, aby wybrać pozycję **Udziel uprawnień**.
-> [!Note]
-    > Tylko administrator globalny w dzierżawie platformy Azure może wykonać tę czynność
->
+   > [!Note]
+   > Tylko administrator globalny w dzierżawie platformy Azure może wykonać tę czynność
 
 * Przejdź do platformy Azure.
 * Wyszukaj i wybierz pozycję **Rejestracje aplikacji**.
@@ -83,8 +82,8 @@ Drugą opcją rejestracji aplikacji jest dokonanie rejestracji bezpośrednio w w
     ![](media/register-app/azuread-new-app-registration.png)
 5. Postępuj zgodnie z monitami i utwórz nową aplikację.
    
-   * W przypadku aplikacji internetowych podaj adres URL logowania, czyli podstawowy adres URL Twojej aplikacji, pod którym użytkownicy mogą się logować, np. http://localhost:13526.
-   * W przypadku aplikacji natywnych podaj Identyfikator URI przekierowania, którego usługa Azure AD używa do zwracania odpowiedzi tokenu. Wprowadź wartość specyficzną dla Twojej aplikacji, np. http://myapplication/redirect
+   * W przypadku aplikacji internetowych podaj adres URL logowania, czyli podstawowy adres URL Twojej aplikacji, pod którym użytkownicy mogą się logować, np. `http://localhost:13526`.
+   * W przypadku aplikacji natywnych podaj Identyfikator URI przekierowania, którego usługa Azure AD używa do zwracania odpowiedzi tokenu. Wprowadź wartość specyficzną dla Twojej aplikacji, np. `http://myapplication/redirect`
 
 Więcej informacji o sposobie rejestrowania aplikacji w usłudze Azure Active Directory zawiera temat [Integrowanie aplikacji z usługą Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications)
 
@@ -161,44 +160,44 @@ Musisz się zalogować na *konto główne* używane do osadzania albo na konto a
    * Wartość **AllPrincipals** może być używana tylko przez administratora dzierżawy w celu udzielenia uprawnień w imieniu wszystkich użytkowników w dzierżawie.
    * Wartość **Principal** służy do udzielania uprawnień w imieniu konkretnego użytkownika. W takim przypadku należy dodać dodatkowe właściwości do treści żądania — *principalId={User_ObjectId}*.
     
-    Wykonanie akcji *Udziel uprawnień* jest konieczne, aby usługa Azure AD nie wysyłała do konta głównego monitów o wyrażenie zgody, co nie jest możliwe w przypadku logowania nieinterakcyjnego.
+     Wykonanie akcji *Udziel uprawnień* jest konieczne, aby usługa Azure AD nie wysyłała do konta głównego monitów o wyrażenie zgody, co nie jest możliwe w przypadku logowania nieinterakcyjnego.
    
-    ```
-    Post https://graph.microsoft.com/beta/OAuth2PermissionGrants
-    Authorization: Bearer ey..qw
-    Content-Type: application/json
-    { 
-    "clientId":"{Service_Plan_ID}",
-    "consentType":"AllPrincipals",
-    "resourceId":"c78b2585-1df6-41de-95f7-dc5aeb7dc98e",
-    "scope":"Dataset.ReadWrite.All Dashboard.Read.All Report.Read.All Group.Read Group.Read.All Content.Create Metadata.View_Any Dataset.Read.All Data.Alter_Any",
-    "expiryTime":"2018-03-29T14:35:32.4943409+03:00",
-    "startTime":"2017-03-29T14:35:32.4933413+03:00"
-    }
-    ```
+     ```
+     Post https://graph.microsoft.com/beta/OAuth2PermissionGrants
+     Authorization: Bearer ey..qw
+     Content-Type: application/json
+     { 
+     "clientId":"{Service_Plan_ID}",
+     "consentType":"AllPrincipals",
+     "resourceId":"c78b2585-1df6-41de-95f7-dc5aeb7dc98e",
+     "scope":"Dataset.ReadWrite.All Dashboard.Read.All Report.Read.All Group.Read Group.Read.All Content.Create Metadata.View_Any Dataset.Read.All Data.Alter_Any",
+     "expiryTime":"2018-03-29T14:35:32.4943409+03:00",
+     "startTime":"2017-03-29T14:35:32.4933413+03:00"
+     }
+     ```
 
-5.  Udzielanie uprawnień do aplikacji usłudze Azure Active Directory (AAD)
+5. Udzielanie uprawnień do aplikacji usłudze Azure Active Directory (AAD)
    
-    Dla właściwości **consentType** można podać wartość **AllPrincipals** lub **Principal**.
+   Dla właściwości **consentType** można podać wartość **AllPrincipals** lub **Principal**.
 
-    * Wartość **AllPrincipals** może być używana tylko przez administratora dzierżawy w celu udzielenia uprawnień w imieniu wszystkich użytkowników w dzierżawie.
-    * Wartość **Principal** służy do udzielania uprawnień w imieniu konkretnego użytkownika. W takim przypadku należy dodać dodatkowe właściwości do treści żądania — *principalId={User_ObjectId}*.
+   * Wartość **AllPrincipals** może być używana tylko przez administratora dzierżawy w celu udzielenia uprawnień w imieniu wszystkich użytkowników w dzierżawie.
+   * Wartość **Principal** służy do udzielania uprawnień w imieniu konkretnego użytkownika. W takim przypadku należy dodać dodatkowe właściwości do treści żądania — *principalId={User_ObjectId}*.
     
-    Wykonanie akcji *Udziel uprawnień* jest konieczne, aby usługa Azure AD nie wysyłała do konta głównego monitów o wyrażenie zgody, co nie jest możliwe w przypadku logowania nieinterakcyjnego.
+   Wykonanie akcji *Udziel uprawnień* jest konieczne, aby usługa Azure AD nie wysyłała do konta głównego monitów o wyrażenie zgody, co nie jest możliwe w przypadku logowania nieinterakcyjnego.
 
- ```
-    Post https://graph.microsoft.com/beta/OAuth2PermissionGrants
-    Authorization: Bearer ey..qw
-    Content-Type: application/json
-    { 
-    "clientId":"{Service_Plan_ID}",
-    "consentType":"AllPrincipals",
-    "resourceId":"61e57743-d5cf-41ba-bd1a-2b381390a3f1",
-    "scope":"User.Read Directory.AccessAsUser.All",
-    "expiryTime":"2018-03-29T14:35:32.4943409+03:00",
-    "startTime":"2017-03-29T14:35:32.4933413+03:00"
-    }
- ```
+   ```
+   Post https://graph.microsoft.com/beta/OAuth2PermissionGrants
+   Authorization: Bearer ey..qw
+   Content-Type: application/json
+   { 
+   "clientId":"{Service_Plan_ID}",
+   "consentType":"AllPrincipals",
+   "resourceId":"61e57743-d5cf-41ba-bd1a-2b381390a3f1",
+   "scope":"User.Read Directory.AccessAsUser.All",
+   "expiryTime":"2018-03-29T14:35:32.4943409+03:00",
+   "startTime":"2017-03-29T14:35:32.4933413+03:00"
+   }
+   ```
 
 ## <a name="next-steps"></a>Następne kroki
 Po zarejestrowaniu aplikacji w usłudze Azure AD musisz uwierzytelnić użytkowników w swojej aplikacji. Aby dowiedzieć się więcej, zapoznaj się z tematem [Uwierzytelnianie użytkowników i uzyskiwanie tokenu dostępu usługi Azure AD dla aplikacji usługi Power BI](get-azuread-access-token.md).

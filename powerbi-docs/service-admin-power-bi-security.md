@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Administration
-ms.openlocfilehash: d3b3e077ac3dadf92a1c25d3704a4f59adea588b
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: ec8f1e40cac1c98bcfb5049d1fe8dd7397b616d6
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34296232"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598866"
 ---
 # <a name="power-bi-security"></a>Zabezpieczenia usługi Power BI
 Aby uzyskać szczegółowy opis zabezpieczeń usługi Power BI, [pobierz oficjalny dokument na temat zabezpieczeń usługi Power BI ](http://go.microsoft.com/fwlink/?LinkId=829185):
@@ -48,7 +48,7 @@ Linia kropkowana na obrazie klastra **zaplecza** powyżej pokazuje granicę mię
 ## <a name="user-authentication"></a>Uwierzytelnianie użytkownika
 Usługa Power BI używa usługi Azure Active Directory ([AAD](http://azure.microsoft.com/services/active-directory/)) do uwierzytelnienia użytkowników, którzy logują się do usługi Power BI, a następnie korzysta z poświadczeń logowania usługi Power BI zawsze, gdy użytkownicy próbują uzyskać dostęp do zasobów, które wymagają uwierzytelniania. Użytkownik loguje się do usługi Power BI przy użyciu adresu e-mail użytego do założenia jego konta e-mail. Usługa Power BI używa tego adresu e-mail logowania jako *obowiązującej nazwy użytkownika*, która jest przekazywana do zasobów przy każdej próbie połączenia się z danymi. *Obowiązująca nazwa użytkownika* jest następnie mapowana na *główną nazwę użytkownika* ([UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525\(v=vs.85\).aspx) i rozpoznawana jako skojarzone konto domeny systemu Windows, względem którego zastosowano uwierzytelnianie.
 
-W przypadku organizacji, które używały służbowych adresów e-mail jako danych logowania w usłudze Power BI (na przykład *david@contoso.com*), mapowanie *obowiązującej nazwy użytkownika* na nazwę UPN jest proste. W przypadku organizacji, które nie używały służbowych adresów e-mail do logowania w usłudze Power BI (na przykład *david@contoso.onmicrosoft.com*), mapowanie poświadczeń między usługą AAD i kontami lokalnymi będzie wymagało [synchronizacji katalogów](https://technet.microsoft.com/library/jj573653.aspx), aby wszystko działało poprawnie.
+W przypadku organizacji, które używały służbowych adresów e-mail jako danych logowania w usłudze Power BI (na przykład <em>david@contoso.com</em>), mapowanie *obowiązującej nazwy użytkownika* na nazwę UPN jest proste. W przypadku organizacji, które nie używały służbowych adresów e-mail do logowania w usłudze Power BI (na przykład <em>david@contoso.onmicrosoft.com</em>), mapowanie poświadczeń między usługą AAD i kontami lokalnymi będzie wymagało [synchronizacji katalogów](https://technet.microsoft.com/library/jj573653.aspx), aby wszystko działało poprawnie.
 
 Zabezpieczenia platformy dla usługi Power BI obejmują również zabezpieczenia środowiska wielodostępnego, zabezpieczenia sieci oraz możliwość stosowania dodatkowych środków bezpieczeństwa opartych na usłudze AAD.
 

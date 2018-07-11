@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: c2b9a106c4007af868cf69902ce511da8e03e75f
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: e4ffc542a9564ba3893245ef637b3edd01c38640
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34244566"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598760"
 ---
 # <a name="change-the-size-of-a-report-page"></a>Zmiana rozmiaru strony raportu
 W [poprzednim artykule i filmie wideo](power-bi-report-display-settings.md) omówiliśmy dwa różne sposoby kontrolowania wyświetlania strony w raportach usługi Power BI: **Widok** i **Rozmiar strony**. Pozycje Widok strony i Rozmiar strony są dostępne zarówno w usłudze Power BI, jak i w programie Power BI Desktop, a ich wygląd i funkcje są prawie takie same. W tym samouczku używamy usługi Power BI.
@@ -31,19 +31,19 @@ W [poprzednim artykule i filmie wideo](power-bi-report-display-settings.md) omó
    ![](media/power-bi-change-report-display-settings/pbi_fit_to_page.png)
 2. Upewnij się, że na kanwie nie wybrano żadnych wizualizacji. Wybierz opcję **Widok** i przejrzyj opcje wyświetlania.
 
-    * Widok odczytu będzie następujący.
+   * Widok odczytu będzie następujący.
 
      ![](media/power-bi-change-report-display-settings/power-bi-page-view-menu-new.png)
-    * Widok edycji będzie następujący.
+   * Widok edycji będzie następujący.
 
-    ![](media/power-bi-change-report-display-settings/power-bi-view-editing-view.png)
+     ![](media/power-bi-change-report-display-settings/power-bi-view-editing-view.png)
 
-1. Zobaczmy, jak wygląda strona przy użyciu ustawienia **Rozmiar rzeczywisty**.
+3. Zobaczmy, jak wygląda strona przy użyciu ustawienia **Rozmiar rzeczywisty**.
 
    ![](media/power-bi-change-report-display-settings/power-bi-actal-size2.png)
 
    Niezbyt dobrze. Pulpit nawigacyjny ma teraz podwójne paski przewijania.
-2. Przełącz się na opcję **Dopasuj do szerokości**.
+4. Przełącz się na opcję **Dopasuj do szerokości**.
 
    ![](media/power-bi-change-report-display-settings/pbi_fit_to_width.png)
 

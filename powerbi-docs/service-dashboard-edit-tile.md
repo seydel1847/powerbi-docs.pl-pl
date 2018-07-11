@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 07db52bd2ffd881417f7ff59647c6779f7dc6bce
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: e2df8ecd746e34b85a3fdd15943ff6eda5712663
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34248347"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598983"
 ---
 # <a name="edit-or-remove-a-dashboard-tile"></a>Edytowanie lub usuwanie kafelka pulpitu nawigacyjnego
 
@@ -35,12 +35,12 @@ Niniejszy artykuł obejmuje następujące tematy.
 * [Przypinanie kafelka do innego pulpitu nawigacyjnego](#different)
 * [Usuwanie kafelka](#delete)
   
- > [!TIP]
- > Aby zmienić wizualizację wyświetlaną w kafelku, usuń kafelek i dodaj nowy [kafelek pulpitu nawigacyjnego](service-dashboard-tiles.md).
- > 
+  > [!TIP]
+  > Aby zmienić wizualizację wyświetlaną w kafelku, usuń kafelek i dodaj nowy [kafelek pulpitu nawigacyjnego](service-dashboard-tiles.md).
 
- ### <a name="prerequisites"></a>Wymagania wstępne
- 1. Aby samodzielnie wykonywać odpowiednie czynności, otwórz usługę Power BI (nie program Power BI Desktop) i [pobierz przykład IT Spend Analysis](sample-it-spend.md). Gdy pojawi się komunikat „Powodzenie”, wybierz pozycję **Przejdź do pulpitu nawigacyjnego**
+  
+## <a name="prerequisites"></a>Wymagania wstępne
+Aby samodzielnie wykonywać odpowiednie czynności, otwórz usługę Power BI (nie program Power BI Desktop) i [pobierz przykład IT Spend Analysis](sample-it-spend.md). Gdy pojawi się komunikat „Powodzenie”, wybierz pozycję **Przejdź do pulpitu nawigacyjnego**
 
 - - -
 <a name="create"></a>

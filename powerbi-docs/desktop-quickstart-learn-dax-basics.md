@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 49f6e073d40ef00413ba38dd709780758cf1e448
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 1c9f838261658a77fa8a4d019e610de72649bbbb
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34291033"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600779"
 ---
 # <a name="dax-basics-in-power-bi-desktop"></a>Podstawy języka DAX w programie Power BI Desktop
 Niniejszy artykuł jest przeznaczony dla nowych użytkowników programu Power BI Desktop. Artykuł stanowi szybkie i łatwe wprowadzenie do korzystania z języka Data Analysis Expressions (DAX) w celu rozwiązywania szeregu podstawowych problemów z zakresu obliczeń i analizy danych. Zapoznamy się z informacjami koncepcyjnymi, przeanalizujemy szereg zadań, które możesz wykonać, a na koniec zajmiesz się testami, które sprawdzą Twoją wiedzę. Gdy zapoznasz się z tym artykułem, najważniejsze podstawowe pojęcia dotyczące języka DAX nie powinny mieć dla Ciebie żadnych tajemnic.
@@ -83,33 +83,33 @@ Teraz zajmiemy się tworzeniem prostej formuły. To zadanie ułatwi Ci dalsze zr
 ### <a name="task-create-a-measure-formula"></a>Zadanie: tworzenie formuły miary
 W celu wykonania tego zadania musisz otworzyć przykładowy plik sprzedaży Contoso dla programu Power BI Desktop.
     
-1.  W widoku Raport, na liście pól, kliknij prawym przyciskiem myszy w tabeli **Sales**, a następnie kliknij polecenie **Nowa miara**.
+1. W widoku Raport, na liście pól, kliknij prawym przyciskiem myszy w tabeli **Sales**, a następnie kliknij polecenie **Nowa miara**.
     
-2.  Na pasku formuły zastąp słowo **Miara**, wpisując nazwę nowej miary **Previous Quarter Sales**.
+2. Na pasku formuły zastąp słowo **Miara**, wpisując nazwę nowej miary **Previous Quarter Sales**.
     
-3.  Po znaku równości wpisz **SUM**, a następnie nawias otwierający.
+3. Po znaku równości wpisz **SUM**, a następnie nawias otwierający.
     
-    Zamiast wpisać nazwę kolumny do podsumowania od razu, wprowadzimy inną funkcję, która *odfiltruje* dane przeznaczone do zsumowania.
+   Zamiast wpisać nazwę kolumny do podsumowania od razu, wprowadzimy inną funkcję, która *odfiltruje* dane przeznaczone do zsumowania.
     
-4.  Między nawiasami wpisz **CALCULATE**, a następnie nawias otwierający.
+4. Między nawiasami wpisz **CALCULATE**, a następnie nawias otwierający.
     
-    Użyjemy funkcji CALCULATE, aby odfiltrować kwoty, które chcemy zsumować, według argumentu, który przekażemy do funkcji CALCULATE. Taki zapis nazywa się zagnieżdżaniem funkcji. Funkcja CALCULATE ma co najmniej dwa argumenty. Pierwszy jest wyrażeniem, które zostanie ocenione, a drugi jest filtrem.
+   Użyjemy funkcji CALCULATE, aby odfiltrować kwoty, które chcemy zsumować, według argumentu, który przekażemy do funkcji CALCULATE. Taki zapis nazywa się zagnieżdżaniem funkcji. Funkcja CALCULATE ma co najmniej dwa argumenty. Pierwszy jest wyrażeniem, które zostanie ocenione, a drugi jest filtrem.
    
-5.  Między nawiasami **()** dla funkcji **CALCULATE** wpisz **Sales[SalesAmount]**. Jest to pierwszy argument wyrażenia dla funkcji CALCULATE.
+5. Między nawiasami **()** dla funkcji **CALCULATE** wpisz **Sales[SalesAmount]**. Jest to pierwszy argument wyrażenia dla funkcji CALCULATE.
     
-6.  Wpisz przecinek (**,**), aby określić pierwszy filtr, a następnie wpisz **PREVIOUSQUARTER** i nawias otwierający.
+6. Wpisz przecinek (**,**), aby określić pierwszy filtr, a następnie wpisz **PREVIOUSQUARTER** i nawias otwierający.
     
-    Funkcja analizy czasu PREVIOUSQUARTER posłuży do odfiltrowania wyników funkcji SUM według poprzedniego kwartału.
+   Funkcja analizy czasu PREVIOUSQUARTER posłuży do odfiltrowania wyników funkcji SUM według poprzedniego kwartału.
     
-7.  Między nawiasami **()** dla funkcji PREVIOUSQUARTER wpisz **Calendar[DateKey]**.
+7. Między nawiasami **()** dla funkcji PREVIOUSQUARTER wpisz **Calendar[DateKey]**.
     
-    Funkcja PREVIOUSQUARTER ma jeden argument, którym jest kolumna zawierająca ciągły zakres dat.
+   Funkcja PREVIOUSQUARTER ma jeden argument, którym jest kolumna zawierająca ciągły zakres dat.
     
-8.  Upewnij się, że oba argumenty przekazywane do funkcji PREVIOUSQUARTER i funkcji CALCULATE są zamknięte dwoma nawiasami zamykającymi **))**.
+8. Upewnij się, że oba argumenty przekazywane do funkcji PREVIOUSQUARTER i funkcji CALCULATE są zamknięte dwoma nawiasami zamykającymi **))**.
     
    Twoja formuła powinna teraz wyglądać następująco:
     
-    **Previous Quarter Sales = CALCULATE(SUM(Sales[SalesAmount]), PREVIOUSQUARTER(Calendar[DateKey]))**
+   **Previous Quarter Sales = CALCULATE(SUM(Sales[SalesAmount]), PREVIOUSQUARTER(Calendar[DateKey]))**
     
 9. Kliknij znacznik wyboru ![](media/desktop-quickstart-learn-dax-basics/qsdax_syntax_taskcheckmark.png) na pasku formuły lub naciśnij klawisz Enter, aby zweryfikować formułę i dodać ją do modelu.
 

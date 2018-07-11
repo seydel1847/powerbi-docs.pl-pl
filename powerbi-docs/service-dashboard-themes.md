@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/05/2018
+ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 331dc45f3049fe77145b86ffafd363162c74a589
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.openlocfilehash: d17694d6dd2e2133b80d326a8aa86194d5710946
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "34813807"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944657"
 ---
 # <a name="use-dashboard-themes-in-power-bi-service"></a>Używanie motywów pulpitu nawigacyjnego w usłudze Power BI
 **Motywy pulpitu nawigacyjnego** umożliwiają zastosowanie motywu kolorystycznego — kolorów firmowych, okolicznościowych lub innego dowolnego motywu kolorystycznego — do całego pulpitu nawigacyjnego. Zastosowanie **motywu pulpitu nawigacyjnego** spowoduje, że kolory tego motywu będą używane we wszystkich wizualizacjach na pulpicie nawigacyjnym (z kilkoma wyjątkami opisanymi w dalszej części tego artykułu).
@@ -89,7 +89,6 @@ Podobnie jak w przypadku opcji wbudowanych i niestandardowych, po przekazaniu mo
 
     ![Użyj motywu docelowego](media/service-dashboard-themes/power-bi-use-destination.png)
 
-* Motywy pulpitu nawigacyjnego nie są obecnie obsługiwane podczas wyświetlania pulpitu nawigacyjnego osadzonego przy użyciu interfejsu API REST, na urządzeniach przenośnych lub przez użytkowników zewnętrznych.    
 * Motywów pulpitu nawigacyjnego nie można stosować do przypiętych stron dynamicznych raportu, kafelków elementów iframe, kafelków usługi SSRS, kafelków skoroszytów ani obrazów.
 * Motywy pulpitu nawigacyjnego mogą być wyświetlane na urządzeniach przenośnych, ale tworzenie motywu pulpitu nawigacyjnego jest możliwe tylko w usłudze Power BI. 
 * Motywy niestandardowe pulpitu nawigacyjnego działają jedynie w przypadku kafelków przypiętych z raportów. 

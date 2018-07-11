@@ -1,4 +1,5 @@
 ### <a name="on-premises-data-gateway"></a>Lokalna brama danych
+
 | **Źródło danych** |
 | --- |
 | Dane tabelaryczne usługi Analysis Services |

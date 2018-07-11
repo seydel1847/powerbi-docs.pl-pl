@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 4be27c91d0616d4611eb07dab5d68c39ed0ab6d2
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 9dad723d7b65836770fb866ddeed80d069a9658a
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34287744"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137105"
 ---
 # <a name="connect-to-data-using-generic-interfaces-in-power-bi-desktop"></a>Łączenie się z danymi przy użyciu interfejsów ogólnych w usłudze Power BI
 Możesz połączyć się z wieloma różnymi źródłami danych w programie **Power BI Desktop**, korzystając z wbudowanych łączników obejmujących różne rozwiązania od **Baz danych programu Access** po zasoby **Zendesk**, jak pokazano w oknie **Pobieranie danych**. Aby rozszerzyć opcje łączności, możesz też nawiązać połączenie z różnymi *innymi* źródłami danych, korzystając z interfejsów ogólnych (np. **ODBC** lub **interfejsy API REST**) wbudowanych w program **Power BI Desktop**.
@@ -109,7 +109,7 @@ Poniżej przedstawiono szczegółową listę z kilkoma przykładami źródeł da
 ## <a name="next-steps"></a>Następne kroki
 Z poziomu programu **Power BI Desktop** możesz łączyć się ze źródłami danych różnego rodzaju. Więcej informacji na temat źródeł danych znajdziesz w następujących zasobach:
 
-* [Wprowadzenie do programu Power BI Desktop](desktop-getting-started.md)
+* [Co to jest Power BI Desktop?](desktop-what-is-desktop.md)
 * [Źródła danych w programie Power BI Desktop](desktop-data-sources.md)
 * [Kształtowanie i łączenie danych w programie Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Łączenie się ze skoroszytami programu Excel w programie Power BI Desktop](desktop-connect-excel.md)   

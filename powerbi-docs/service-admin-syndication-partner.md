@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/05/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 67863b261bb8f3490d20ad21786313541df33388
-ms.sourcegitcommit: 49570ab8f5b5cd5bab4cd388f4281b1372bcb80b
+ms.openlocfilehash: a86b1d6823a1d889b47015d1213a9a056c537703
+ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/09/2018
-ms.locfileid: "35250320"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "37926656"
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>Nie można dodać usługi Power BI do subskrypcji partnera usługi Office 365
 Firmy mogą sprzedawać usługę Office 365 w postaci powiązanej i zintegrowanej z ich własnymi rozwiązaniami, co zapewnia klientom końcowym jeden punkt kontaktu w zakresie zakupów, rozliczeń i pomocy technicznej.
@@ -33,7 +33,7 @@ Jeśli nie możesz kupić usługi Power BI w sposób bezpośredni, nadal masz ki
 
 [Usługa Power BI (wersja bezpłatna)](#power-bi-free)
 
-[Usługi Power BI Pro i Premium](#power-bi-pro)
+[Usługi Power BI Pro i Premium](#power-bi-pro-and-premium)
 
 ## <a name="power-bi-free"></a>Usługa Power BI (wersja bezpłatna)
 Jeśli bezpłatna wersja usługi Power BI jest dla Ciebie wystarczająca, możesz utworzyć konto w celu korzystania z usługi bezpłatnej. Domyślnie opcja tworzenia konta przez użytkowników indywidualnych (znana także jako subskrypcja ad hoc) jest wyłączona. Podczas próby utworzenia konta w usłudze Power BI zostanie wyświetlony komunikat informujący, że dział informatyczny wyłączył możliwość tworzenia kont w usłudze Microsoft Power BI.

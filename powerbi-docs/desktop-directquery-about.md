@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 472be555bb4c46da41eb762c1eeae14ef991e742
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: ed9ab95aace7ab1ff0774732241bdd4a7fffcb15
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34290872"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600994"
 ---
 # <a name="using-directquery-in-power-bi"></a>Używanie zapytania bezpośredniego w usłudze Power BI
 Możesz połączyć się z szeroką gamą różnych źródeł danych, korzystając z programu **Power BI Desktop** lub **usługi Power BI**, i te połączenia z danymi możesz wykonywać w różny sposób. Możesz albo *zaimportować* dane do usługi Power BI, co jest najczęściej używanym sposobem pobierania danych, lub możesz połączyć się bezpośrednio z danymi w ich oryginalnym repozytorium źródłowym, co jest nazywane **zapytaniem bezpośrednim**. W tym artykule zostało opisane **zapytanie bezpośrednie** i jego możliwości, łącznie z następującymi tematami:
@@ -152,7 +152,7 @@ Podczas używania **zapytania bezpośredniego** nadal można wprowadzać wiele z
     
     Przyczyną jest to, że taka miara może powodować niską wydajność, jeśli było bardzo wiele elementów.
 * **Tabele obliczeniowe nie są obsługiwane:** możliwość definiowania tabeli obliczeniowej przy użyciu wyrażenia języka DAX nie jest obsługiwana w trybie zapytania bezpośredniego.
-* **Filtrowanie relacji jest ograniczone do jednego kierunku:** w przypadku używania zapytania bezpośredniego nie jest możliwe ustawienie kierunku filtru krzyżowego w relacji na „Both”. Na przykład, mając trzy poniższe tabele, nie można będzie utworzyć wizualizacji pokazującej każdą wartość Customer[Gender] i liczbę elementów Product[Category] zakupionych dla każdej z tych wartości. Korzystanie z takiego dwukierunkowego filtrowania jest opisane [w tym szczegółowym oficjalnym dokumencie](http://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional cross-filtering in Analysis Services 2016 and Power BI.docx) (w tym dokumencie przedstawiono przykłady w kontekście usług SQL Server Analysis Services, ale podstawowe punkty mają w równym stopniu zastosowanie do usługi Power BI).
+* **Filtrowanie relacji jest ograniczone do jednego kierunku:** w przypadku używania zapytania bezpośredniego nie jest możliwe ustawienie kierunku filtru krzyżowego w relacji na „Both”. Na przykład, mając trzy poniższe tabele, nie można będzie utworzyć wizualizacji pokazującej każdą wartość Customer[Gender] i liczbę elementów Product[Category] zakupionych dla każdej z tych wartości. Korzystanie z takiego dwukierunkowego filtrowania jest opisane [w tym szczegółowym oficjalnym dokumencie](http://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx) (w tym dokumencie przedstawiono przykłady w kontekście usług SQL Server Analysis Services, ale podstawowe punkty mają w równym stopniu zastosowanie do usługi Power BI).
   
   ![](media/desktop-directquery-about/directquery-about_01.png)
   

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2b5959049b65d32eebf7f484e8485ff59a10f459
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 5bb3f49ef49ed7bbaeb3f52e0711247e0abdc615
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34286088"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37134690"
 ---
 # <a name="use-insights-in-power-bi-desktop-preview"></a>Używanie szczegółowych informacji w programie Power BI Desktop (wersja zapoznawcza)
 Program **Power BI Desktop** może wyjaśnić wzrosty i spadki na wykresach oraz dostarczyć szybką, automatyczną, szczegółową analizę danych. Po prostu kliknij prawym przyciskiem myszy punkt danych i wybierz pozycję **Analizuj > Wyjaśnij spadek** (lub wzrost, jeśli poprzedni słupek był niższy), a szczegółowe informacje zostaną wyświetlone w łatwym do obsługi oknie.
@@ -72,7 +72,7 @@ Ponadto następujące typy modeli i źródła danych nie są obecnie obsługiwan
 ## <a name="next-steps"></a>Następne kroki
 Aby uzyskać więcej informacji na temat programu **Power BI Desktop** oraz dowiedzieć się, jak rozpocząć pracę w tym programie, zapoznaj się z następującymi artykułami.
 
-* [Wprowadzenie do programu Power BI Desktop](desktop-getting-started.md)
+* [Co to jest Power BI Desktop?](desktop-what-is-desktop.md)
 * [Omówienie zapytań w programie Power BI Desktop](desktop-query-overview.md)
 * [Źródła danych w programie Power BI Desktop](desktop-data-sources.md)
 * [Łączenie się z danymi w programie Power BI Desktop](desktop-connect-to-data.md)

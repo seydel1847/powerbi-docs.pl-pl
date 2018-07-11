@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/24/2017
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 17d7c07cb35eb9046b6fcfe8da5a85ee15fe7eaf
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 70e73e5d567c7c6c24aae0ca5478dae2cd6c7f6f
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34310503"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136323"
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>Rejestrowanie organizacji rządowej USA w usłudze Power BI
 **Usługa Power BI** oferuje wersję dostępną dla klientów rządowych w Stanach Zjednoczonych w ramach subskrypcji **Office 365 US Government Community**. Wersja **usługi Power BI** omówiona w tym artykule jest przeznaczona wyłącznie dla klientów rządowych USA — jest to osobna usługa, która jest inna niż komercyjna wersja **usługi Power BI**.
@@ -125,5 +125,5 @@ Przy użyciu usługi Power BI można wykonywać różnorodne zadania. Aby uzyska
 * [Usługa Power BI dla instytucji rządowych USA — omówienie](service-govus-overview.md)
 * [Power BI — nauka krok po kroku](guided-learning/gettingstarted.yml?tutorial-step=1)
 * [[Wprowadzenie do usługi Power BI](service-get-started.md)](service-get-started.md)
-* [Wprowadzenie do programu Power BI Desktop](desktop-getting-started.md)
+* [Co to jest Power BI Desktop?](desktop-what-is-desktop.md)
 

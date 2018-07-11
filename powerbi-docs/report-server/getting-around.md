@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/24/2018
 ms.author: maggies
-ms.openlocfilehash: 9b896c9db6c1368c5e435df21c28cd99b8dda15f
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 354ba336407f200d2c311f6bf0de91967cf3f5d1
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34721713"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598144"
 ---
 # <a name="manage-content-in-the-web-portal"></a>Zarządzanie zawartością w portalu internetowym 
 Portal internetowy Serwera raportów usługi Power BI jest lokalizacją lokalną służącą do wyświetlania raportów usługi Power BI, raportów dla urządzeń przenośnych i raportów podzielonych na strony oraz kluczowych wskaźników wydajności, jak również ich przechowywania i zarządzania nimi.
@@ -38,9 +38,9 @@ Aplikacja portalu internetowego jest uruchamiana w przeglądarce. Po uruchomieni
     Zapoznaj się z listą [obsługiwanych przeglądarek internetowych i ich wersji](browser-support.md).
 2. Na pasku adresu wpisz adres URL portalu internetowego.
    
-    Domyślny adres URL to *http://[NazwaKomputera]/reports*.
+    Domyślny adres URL to <em>http://[NazwaKomputera]/reports</em>.
    
-    Serwer raportów może być skonfigurowany do używania konkretnego portu. Na przykład *http://[NazwaKomputera]:80/reports* lub *http://[NazwaKomputera]:8080/reports*
+    Serwer raportów może być skonfigurowany do używania konkretnego portu. Na przykład <em>http://[NazwaKomputera]:80/reports</em> lub <em>http://[NazwaKomputera]:8080/reports</em>
    
     Zauważ, że portal internetowy grupuje elementy w następujących kategoriach:
    

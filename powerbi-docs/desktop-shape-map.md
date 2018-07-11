@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 019aa1425d05fcfdc4415570acdc29e7a684dc25
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 88b8b4a50913cd45c5e4ff80a5d5e0ded2eb4cdb
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34290964"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600756"
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Mapowania kształtów w programie Power BI Desktop (wersja zapoznawcza)
 Program Power BI Desktop umożliwia utworzenie wizualizacji **Mapowanie kształtów**, która pozwala wyświetlić porównania względne regionów na mapie za pomocą różnych kolorów. W przeciwieństwie do wizualizacji **Mapa** wizualizacja **Mapowanie kształtów** nie umożliwia wyświetlenia dokładnych lokalizacji geograficznych punktów danych. Służy ona głównie do pokazywania porównań względnych regionów na mapie przy użyciu różnych kolorów.
@@ -40,23 +40,23 @@ Program Power BI Desktop utworzy pustą kanwę projektu wizualizacji **Mapowanie
 Aby utworzyć wizualizację **Mapowanie kształtów**, wykonaj następujące kroki:
 
 1. W okienku **Pola** przeciągnij pole danych, które zawiera nazwy (lub skróty) regionów do zasobnika **Lokalizacja**, a pole miary danych do zasobnika **Nasycenie koloru** (mapa nie będzie jeszcze widoczna).
-   
+
    > [!NOTE]
-> Aby dowiedzieć się, jak szybko uzyskać dane mapy do przetestowania wizualizacji **Mapowanie kształtów**, zobacz poniższą sekcję **Uzyskiwanie danych mapy**.
+   > Aby dowiedzieć się, jak szybko uzyskać dane mapy do przetestowania wizualizacji **Mapowanie kształtów**, zobacz poniższą sekcję **Uzyskiwanie danych mapy**.
    > 
    > 
-   
+
    ![](media/desktop-shape-map/shape-map_3a.png)
 2. W okienku ustawień **Format** rozwiń pozycję **Kształt** i wybierz pozycję z listy rozwijanej **Mapy standardowe**, aby wyświetlić dane. Pojawi się renderowanie, jak pokazano na poniższej ilustracji.
-   
+
    ![](media/desktop-shape-map/shape-map_3b.png)
-   
+
    > [!NOTE]
-> Sekcja **Klucze regionów** znajdująca się na końcu tego artykułu zawiera zbiór tabel z kluczami mapowania regionów, których można używać do testowania wizualizacji **Mapowanie kształtów**.
+   > Sekcja **Klucze regionów** znajdująca się na końcu tego artykułu zawiera zbiór tabel z kluczami mapowania regionów, których można używać do testowania wizualizacji **Mapowanie kształtów**.
    > 
    > 
 3. W okienku ustawień **Format** można modyfikować ustawienia rzutowania mapy oraz kolory punktów danych. Można również zarządzać ustawieniami powiększania. Na przykład można zmieniać kolory oraz ustawiać wartości maksymalne i minimalne.
-   
+
    ![](media/desktop-shape-map/shape-map_3d.png)
 4. Można również dodać kolumnę danych kategorii do zasobnika **Legenda** i klasyfikować regiony na mapie na podstawie kategorii.
 
@@ -114,6 +114,7 @@ Jest kilka kwestii i wymagań, które dotyczą wersji zapoznawczej wizualizacji 
 Aby przetestować wizualizację **Mapowanie kształtów** w wersji zapoznawczej, skorzystaj z następujących **kluczy regionów**.
 
 ### <a name="australia-states"></a>Australia: stany
+
 | Identyfikator | Skrót | Kod ISO | Nazwa | Kod pocztowy |
 | --- | --- | --- | --- | --- |
 | au-wa |WA |AU-WA |Australia Zachodnia |WA |
@@ -126,6 +127,7 @@ Aby przetestować wizualizację **Mapowanie kształtów** w wersji zapoznawczej,
 | au-act |ACT |AU-ACT |Australijskie Terytorium Stołeczne |ACT |
 
 ### <a name="austria-states"></a>Austria: stany
+
 | Identyfikator | Kod ISO | Nazwa | Nazwa (j. polski) | Kod pocztowy |
 | --- | --- | --- | --- | --- |
 | at-wi |AT-9 |Wien |Wiedeń |WI |
@@ -139,6 +141,7 @@ Aby przetestować wizualizację **Mapowanie kształtów** w wersji zapoznawczej,
 | at-bu |AT-1 |Burgenland |Burgenland |BU |
 
 ### <a name="brazil-states"></a>Brazylia: stany
+
 | Identyfikator |
 | --- |
 | Tocantins |
@@ -174,6 +177,7 @@ Aby przetestować wizualizację **Mapowanie kształtów** w wersji zapoznawczej,
 | Litigated Zone 4 |
 
 ### <a name="canada-provinces"></a>Kanada: prowincje
+
 | Identyfikator | Kod ISO | Nazwa | Kod pocztowy |
 | --- | --- | --- | --- |
 | ca-nu |CA-NU |Nunavut |NU |
@@ -191,6 +195,7 @@ Aby przetestować wizualizację **Mapowanie kształtów** w wersji zapoznawczej,
 | ca-ab |CA-AB |Alberta |AB |
 
 ### <a name="france-regions"></a>Francja: regiony
+
 | Identyfikator | Nazwa | Nazwa (j. polski) |
 | --- | --- | --- |
 | Alsace |Alsace |Alzacja |
@@ -217,6 +222,7 @@ Aby przetestować wizualizację **Mapowanie kształtów** w wersji zapoznawczej,
 | Aquitaine |Aquitaine |Akwitania |
 
 ### <a name="germany-states"></a>Niemcy: landy
+
 | Identyfikator | Kod ISO | Nazwa | Nazwa (j. polski) | Kod pocztowy |
 | --- | --- | --- | --- | --- |
 | de-be |DE-BE |Berlin |Berlin |BE |
@@ -237,6 +243,7 @@ Aby przetestować wizualizację **Mapowanie kształtów** w wersji zapoznawczej,
 | de-bw |DE-BW |Baden-Württemberg |Badenia-Wirtembergia |BW |
 
 ### <a name="ireland-counties"></a>Irlandia: hrabstwa
+
 | Identyfikator |
 | --- |
 | Wicklow |
@@ -267,6 +274,7 @@ Aby przetestować wizualizację **Mapowanie kształtów** w wersji zapoznawczej,
 | Carlow |
 
 ### <a name="italy-regions"></a>Włochy: regiony
+
 | Identyfikator | Kod ISO | Nazwa | Nazwa (j. polski) | Kod pocztowy |
 | --- | --- | --- | --- | --- |
 | it-vn |IT-34 |Veneto |Wenecja Euganejska |VN |
@@ -291,6 +299,7 @@ Aby przetestować wizualizację **Mapowanie kształtów** w wersji zapoznawczej,
 | it-ab |IT-65 |Abruzzo |Abruzja |AB |
 
 ### <a name="mexico-states"></a>Meksyk: stany
+
 | Identyfikator | Skrót | Kod ISO | Nazwa | Nazwa (j. polski) | Kod pocztowy |
 | --- | --- | --- | --- | --- | --- |
 | mx-zac |Zac. |MX-ZAC |Zacatecas |Zacatecas |ZA |
@@ -327,6 +336,7 @@ Aby przetestować wizualizację **Mapowanie kształtów** w wersji zapoznawczej,
 | mx-agu |Ags. |MX-AGU |Aguascalientes |Aguascalientes |AG |
 
 ### <a name="netherlands-provinces"></a>Holandia: prowincje
+
 | Identyfikator | Kod ISO | Nazwa | Nazwa (j. polski) |
 | --- | --- | --- | --- |
 | nl-zh |NL-ZH |Zuid-Holland |Holandia Południowa |
@@ -343,6 +353,7 @@ Aby przetestować wizualizację **Mapowanie kształtów** w wersji zapoznawczej,
 | nl-dr |NL-DR |Drenthe |Drenthe |
 
 ### <a name="uk-countries"></a>Zjednoczone Królestwo: kraje
+
 | Identyfikator | Kod ISO | Nazwa |
 | --- | --- | --- |
 | gb-wls |GB-WLS |Walia |
@@ -351,6 +362,7 @@ Aby przetestować wizualizację **Mapowanie kształtów** w wersji zapoznawczej,
 | gb-eng |GB-ENG |Anglia |
 
 ### <a name="usa-states"></a>Stany Zjednoczone: stany
+
 | Identyfikator | Nazwa | Kod pocztowy |
 | --- | --- | --- |
 | us-mi |Michigan |MI |

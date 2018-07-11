@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/18/2018
 ms.author: v-mamcge
 LocalizationGroup: Reports
-ms.openlocfilehash: 78dcd0ac0735bfbb3c22678d6bda1397120360cd
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 58ae70553264b8055603da66a4cfd71b5c74a3e9
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34310549"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598890"
 ---
 # <a name="power-bi-performance-best-practices"></a>Wydajność usługi Power BI — najlepsze rozwiązania 
 Ten artykuł zawiera wskazówki dotyczące tworzenia szybkich i niezawodnych raportów w usłudze Power BI.  
@@ -115,7 +115,7 @@ Instrukcje są następujące:
    [msmdsrv.exe] 
 
    Wyszukaj port używany przez program msmdsrv.exe i zapisz go do późniejszego użycia. W tym przypadku można użyć portu 55786. 
-3.  **Połącz program SQL Server Profiler z programem Power BI Desktop** 
+3. **Połącz program SQL Server Profiler z programem Power BI Desktop** 
 
    - Uruchom program SQL Server Profiler z menu **Start**. 
    - Wybierz pozycję **Plik** > **New Trace** (Plik > Nowe śledzenie). 

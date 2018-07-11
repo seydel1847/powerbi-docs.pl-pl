@@ -10,21 +10,21 @@ ms.topic: conceptual
 ms.date: 03/24/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 377ea4acc1a6fb41101571ac3ed0be2f3e50889b
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 872045a52f2f13829d26de8dd288ac723dcd2788
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34246162"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599533"
 ---
 # <a name="create-a-new-report-in-power-bi-service-by-importing-a-dataset"></a>Tworzenie nowego raportu w usłudze Power BI przez zaimportowanie zestawu danych
 Po zapoznaniu się z tematem [Raporty w usłudze Power BI](service-reports.md) możesz teraz utworzyć własny raport. Istnieje wiele sposobów tworzenia raportów. W tym artykule zaczniemy od utworzenia podstawowego raportu na podstawie zestawu danych programu Excel przy użyciu usługi Power BI. Kiedy zapoznasz się z podstawami tworzenia raportów, możesz przejść do bardziej zaawansowanych tematów dostępnych w sekcji **Następne kroki** u dołu strony.  
 
 > **PORADA**: aby utworzyć raport przez skopiowanie istniejącego raportu, zobacz [Kopiowanie raportu](power-bi-report-copy.md).
 > 
-### <a name="prerequisites"></a>Wymagania wstępne
-- Usługa Power BI (w celu tworzenia raportów za pomocą programu Power BI Desktop zobacz [Widok raportu w programie Desktop](desktop-report-view.md))  
-- Zestaw danych Próbka analizy handlu detalicznego
+> ### <a name="prerequisites"></a>Wymagania wstępne
+> - Usługa Power BI (w celu tworzenia raportów za pomocą programu Power BI Desktop zobacz [Widok raportu w programie Desktop](desktop-report-view.md))  
+> - Zestaw danych Próbka analizy handlu detalicznego
 
 ## <a name="import-the-dataset"></a>Importowanie zestawu danych
 W przypadku tej metody tworzenia raportu punktem wyjścia jest zestaw danych i pusta kanwa raportu. Na użytek tej procedury [pobierz przykładowy zestaw danych programu Excel noszący nazwę Retail Analysis](http://go.microsoft.com/fwlink/?LinkId=529778) i zapisz go na swoim koncie w usłudze OneDrive dla Firm (opcja preferowana) lub lokalnie.

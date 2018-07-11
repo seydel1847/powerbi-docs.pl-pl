@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 641a4f457782711902ee7e2414cb9afffb391afc
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 32b21e23a6cc4a5e6d9ae4915ddc56f9f9957d14
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34286341"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599654"
 ---
 # <a name="create-power-bi-visuals-using-r"></a>Tworzenie wizualizacji usługi Power BI przy użyciu języka R
 Program **Power BI Desktop** umożliwia wizualizowanie danych przy użyciu języka **R**.
@@ -81,9 +81,9 @@ Po określeniu instalacji języka R możesz zacząć tworzyć wizualizacje w tym
    * Na pasku tytułu **edytora skryptów języka R** wybierzesz pozycję **Uruchom**
    * Nastąpi zmiana danych będąca wynikiem odświeżenia danych, filtrowania lub wyróżniania
 
-    Na poniższym obrazie przedstawiono przykład kodu wykresu korelacji między atrybutami różnych rodzajów samochodów.
+     Na poniższym obrazie przedstawiono przykład kodu wykresu korelacji między atrybutami różnych rodzajów samochodów.
 
-    ![](media/desktop-r-visuals/r-visuals-6.png)
+     ![](media/desktop-r-visuals/r-visuals-6.png)
 
 5. Aby powiększyć widok wizualizacji, można zminimalizować okno **edytora skryptów języka R**. Podobnie jak w przypadku innych wizualizacji w programie **Power BI Desktop**, można filtrować krzyżowo wykres korelacji, zaznaczając tylko samochody sportowe w wizualizacji pierścieniowej (okrągłej wizualizacji po prawej stronie na powyższym przykładowym obrazie).
 

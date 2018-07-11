@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ec5b46dcfebf614e70a0b8ebf858af7b34906eae
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 8813294f359c6bd6e1bb01fa3cc2ec3f5eb3d280
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34290711"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598262"
 ---
 # <a name="use-onedrive-for-business-links-in-power-bi-desktop"></a>Używanie linków usługi OneDrive dla Firm w programie Power BI Desktop
 Wiele osób przechowuje na dysku usługi OneDrive dla Firm skoroszyty programu Excel, które by się świetnie nadawały do użytku w programie Power BI Desktop. W programie **Power BI Desktop** można używać linków online do plików programu **Excel** przechowywanych w usłudze **OneDrive dla Firm**, aby tworzyć raporty i wizualizacje. Możesz użyć konta grupy usługi **OneDrive dla Firm** lub swojego osobistego konta usługi **OneDrive dla Firm**.
@@ -26,7 +26,7 @@ Uzyskiwanie linku online z usługi **OneDrive dla Firm** wymaga wykonania kilku 
 1. Przejdź do swojej lokalizacji usługi OneDrive dla Firm za pomocą przeglądarki. Kliknij prawym przyciskiem myszy plik, którego chcesz użyć, a następnie wybierz polecenie **Otwórz w programie Excel**.
    
    > [!NOTE]
-> Interfejs użytkownika Twojej przeglądarki może nie wyglądać dokładnie tak samo, jak na poniższej ilustracji. Istnieje wiele sposobów wybrania polecenia **Otwórz w programie Excel** dla plików w interfejsie przeglądarki usługi **OneDrive dla Firm**. Możesz użyć każdej opcji, która pozwala na otworzenie pliku w programie Excel.
+   > Interfejs użytkownika Twojej przeglądarki może nie wyglądać dokładnie tak samo, jak na poniższej ilustracji. Istnieje wiele sposobów wybrania polecenia **Otwórz w programie Excel** dla plików w interfejsie przeglądarki usługi **OneDrive dla Firm**. Możesz użyć każdej opcji, która pozwala na otworzenie pliku w programie Excel.
    > 
    > 
    

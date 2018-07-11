@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/17/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 0e98c68e62f36114257052171e0928db25853f24
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: ebe53241bed0f31bfd64d860cff7c8fc2e54500c
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34239493"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599235"
 ---
 # <a name="tutorial-how-to-use-qa-to-create-visualizations-and-build-reports"></a>Samouczek: używanie funkcji pytań i odpowiedzi do tworzenia wizualizacji i konstruowania raportów
 [Omówienie funkcji pytań i odpowiedzi](power-bi-q-and-a.md) zapewniło wprowadzenie do funkcji pytań i odpowiedzi usługi Power BI oraz przedstawiło rozróżnienie między *użytkownikami* (osobami, którym udostępniono pulpity nawigacyjne i raporty) a *twórcami* (właścicielami podstawowych raportów i zestawów danych). Pierwsza część tego samouczka jest przeznaczona głównie dla osób korzystających z pulpitów nawigacyjnych przy użyciu usługi Power BI. Natomiast druga część jest przeznaczona dla osób tworzących raporty za pomocą usługi Power BI albo programu Power BI Desktop. Tematy [Funkcja pytań i odpowiedzi a usługa Power BI dla urządzeń przenośnych](mobile-apps-ios-qna.md) i [Funkcja pytań i odpowiedzi w usłudze Power BI Embedded](developer/qanda.md) zostały opisane w oddzielnych artykułach.
@@ -90,9 +90,9 @@ Aby można było używać funkcji pytań i odpowiedzi w raportach, musisz mieć 
 
 6. Wejdź w interakcje z nową wizualizacją. Nie ma znaczenia, jak wizualizacja została utworzona — dostępne są takie same interakcje i funkcje oraz takie samo formatowanie.
 
-  ![](media/power-bi-tutorial-q-and-a/power-bi-q-and-a-ellipses.png)
+   ![](media/power-bi-tutorial-q-and-a/power-bi-q-and-a-ellipses.png)
 
-  Jeśli wizualizacja została utworzona w usłudze Power BI, możesz nawet [przypiąć ją do pulpitu nawigacyjnego](service-dashboard-pin-tile-from-q-and-a.md).
+   Jeśli wizualizacja została utworzona w usłudze Power BI, możesz nawet [przypiąć ją do pulpitu nawigacyjnego](service-dashboard-pin-tile-from-q-and-a.md).
 
 ## <a name="tell-qa-which-visualization-to-use"></a>Poinformuj funkcję pytań i odpowiedzi, której wizualizacji użyć.
 Za pomocą funkcji pytań i odpowiedzi nie tylko możesz zadawać pytania tak, aby dane same przemówiły, możesz też wskazać usłudze Power BI sposób wyświetlenia odpowiedzi. Po prostu dodaj „jako <visualization type>„ na końcu pytania.  Na przykład „Pokaż spis magazynu według roślin jako mapę” i „pokaż cały spis jako kartę”.  Wypróbuj to samodzielnie.

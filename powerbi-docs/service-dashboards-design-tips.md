@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/22/2018
+ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 9c67aa0982733847cdca7d6079fa8887e6c1d1d2
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 7da86135a391f8a6206a913a1e13df423ad96fbd
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34247052"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944979"
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>Porady dotyczące projektowania doskonałych pulpitów nawigacyjnych usługi Power BI
 Gdy już udało Ci się utworzyć pulpit nawigacyjny i dodać kafelki, zadbaj o to, aby Twój projekt był nie tylko ładny, ale i funkcjonalny. Ogólnie rzecz biorąc, chodzi o wyróżnienie najważniejszych informacji, tak aby pulpit nawigacyjny nie wyglądał na przepełniony i pozostał przejrzysty.
@@ -59,7 +59,7 @@ Większość osób przyswaja wiedzę, czytając od góry do dołu. Z tego wzglę
 ## <a name="use-the-right-visualization-for-the-data-and-format-it-for-easy-reading"></a>Wybierz odpowiednią wizualizację danych i sformatuj je tak, aby były czytelne
 Różnorodność wizualizacji nie jest najważniejsza.  Wizualizacje mają „przedstawiać obraz” i powinny być czytelne oraz łatwe do zinterpretowania.  W niektórych sytuacjach wystarczy prosta graficzna wizualizacja danych. Inne przypadki mogą wymagać bardziej złożonych wizualizacji — pamiętaj, aby używać tytułów i etykiet oraz innych dostosowań, ułatwiających pracę użytkownikom.  
 
-* [Wybieraj odpowiednie wizualizacje danych](http://blogs.msdn.com/b/microsoft_business_intelligence1/archive/2012/10/08/best-practices-in-data-visualization.aspx). Zachowaj ostrożność, używając na przykład wykresów 3W, które zniekształcają rzeczywistość. Pamiętaj, że ludzki mózg nie najlepiej radzi sobie z interpretacją okrągłych kształtów. Wykresy kołowe i pierścieniowe, mierniki oraz inne rodzaje okrągłych wykresów mogą ładnie wyglądać, ale nie są najlepsze do wizualizacji danych.
+* [Wybieraj odpowiednie wizualizacje danych](https://www.youtube.com/watch?v=-tdkUYrzrio). Zachowaj ostrożność, używając na przykład wykresów 3W, które zniekształcają rzeczywistość. Pamiętaj, że ludzki mózg nie najlepiej radzi sobie z interpretacją okrągłych kształtów. Wykresy kołowe i pierścieniowe, mierniki oraz inne rodzaje okrągłych wykresów mogą ładnie wyglądać, ale nie są najlepsze do wizualizacji danych.
 * Zachowaj spójność w zakresie skali na osiach wykresu oraz stopniowania jego wymiarów, a także pod względem kolorów używanych do oznaczania wartości wymiarów na wykresach.
 * Zadbaj o przyjazny format danych ilościowych. Nie wyświetlaj liczb zawierających więcej niż trzy lub cztery cyfry. Miary wyświetlaj przy użyciu jednej lub dwóch cyfr z lewej strony separatora dziesiętnego. Używaj odpowiedniej skali dla tysięcy lub milionów — 3,4 mln, a nie 3 400 000.
 * Nie używaj różnych poziomów dokładności i miar czasu. Zadbaj o to, aby przedziały czasu były zrozumiałe.  Wykresu z zeszłego miesiąca nie umieszczaj obok przefiltrowanych wykresów z jakiegoś innego miesiąca.

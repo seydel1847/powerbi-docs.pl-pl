@@ -9,17 +9,17 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: ae8919bbe06c729cc43e230146c4c1a216a80168
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.openlocfilehash: 44fbf1e651c36c95694e397c64050977f3ee730a
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "34813247"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092557"
 ---
 # <a name="step-4-get-a-dataset-to-add-rows-into-a-power-bi-table"></a>Krok 4. Umożliwienie zestawowi danych dodawania wierszy do tabeli usługi Power BI
 Ten artykuł jest częścią przewodnika krok po kroku dotyczącego [wypychania danych do zestawu danych](walkthrough-push-data.md).
 
-W **kroku 3.** procedury wypychania danych do zestawu danych, [Tworzenie zestawu danych w usłudze Power BI](walkthrough-push-data-create-dataset.md), nastąpiło wywołanie operacji [Utwórz zestaw danych](https://docs.microsoft.com/rest/api/power-bi/datasets) w celu utworzenia zestawu danych w usłudze Power BI. W tym kroku uzyskasz identyfikator zestawu danych za pomocą operacji [Pobierz zestawy danych](https://docs.microsoft.com/rest/api/power-bi/getdatasets) i pakietu Newtonsoft.Json. Identyfikator zestawu danych umożliwi dodanie wierszy do zestawu danych w kroku 4. 
+W **kroku 3.** procedury wypychania danych do zestawu danych, [Tworzenie zestawu danych w usłudze Power BI](walkthrough-push-data-create-dataset.md), nastąpiło wywołanie operacji [Utwórz zestaw danych](https://docs.microsoft.com/rest/api/power-bi/datasets) w celu utworzenia zestawu danych w usłudze Power BI. W tym kroku uzyskasz identyfikator zestawu danych za pomocą operacji [Pobierz zestawy danych](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets) i pakietu Newtonsoft.Json. Identyfikator zestawu danych umożliwi dodanie wierszy do zestawu danych w kroku 4. 
 
 Wypychanie danych do zestawu danych usługi Power BI wymaga odwoływania się do tabeli w zestawie danych. Aby odwołać się do tabeli w zestawie danych, należy najpierw uzyskać **identyfikator zestawu danych**. **Identyfikator zestawu danych** można uzyskać przy użyciu operacji [Pobierz zestaw danych według identyfikatora](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasetbyid). Operacja **Pobierz zestaw danych według identyfikatora** zwraca ciąg JSON zawierający listę wszystkich zestawów danych w usłudze Power BI. Jest to zalecany sposób deserializacji ciągu JSON za pomocą pakietu [Newtonsoft.Json](http://www.newtonsoft.com/json).
 

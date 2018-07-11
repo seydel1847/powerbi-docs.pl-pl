@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: bb35e8762b4cbe79e8efe2aede15bcac66f2ac8b
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 699df2cf1cfcfde25eaadcec2946e9be922c56d9
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34289791"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136093"
 ---
 # <a name="connect-to-excel-in-power-bi-desktop"></a>Łączenie się z programem Excel w programie Power BI Desktop
 Łączenie się ze skoroszytem programu Excel z programu Power BI Desktop jest łatwe. Ten artykuł zawiera omówienie kolejnych kroków.
@@ -48,7 +48,7 @@ Teraz możesz używać danych zaimportowanych ze skoroszytu programu Excel w pro
 ### <a name="next-steps"></a>Następne kroki
 Z poziomu programu Power BI Desktop możesz łączyć się z danymi różnego rodzaju. Więcej informacji na temat źródeł danych znajdziesz w następujących zasobach:
 
-* [Wprowadzenie do programu Power BI Desktop](desktop-getting-started.md)
+* [Co to jest Power BI Desktop?](desktop-what-is-desktop.md)
 * [Źródła danych w programie Power BI Desktop](desktop-data-sources.md)
 * [Kształtowanie i łączenie danych w programie Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Łączenie się z plikami CSV w programie Power BI Desktop](desktop-connect-csv.md)   

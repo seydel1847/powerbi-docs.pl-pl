@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 3575a94ede595b4d83fef0cddcbb279ea7a533c0
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 0e0f9e857816b44782831640a74801b515919bae
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34285536"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136760"
 ---
 # <a name="use-ribbon-charts-in-power-bi"></a>Używanie wykresów wstążkowych w usłudze Power BI
 Przy użyciu wykresów wstążkowych w usłudze **Power BI** można wizualizować dane i szybko określać, które kategorie danych mają najwyższą rangę (największa wartość). Wykresy wstążkowe dobrze obrazują zmianę rangi, zawsze wyświetlając najwyższą rangę (wartość) u góry dla każdego przedziału czasu. Wykresy wstążkowe są dostępne w programie **Power BI Desktop** od wersji z września 2017 r. i następujących po niej aktualizacjach **usługi Power BI**.
@@ -44,7 +44,7 @@ Opcje formatowania dla wykresów wstążkowych pozwalają dostosować następuj�
 ## <a name="next-steps"></a>Następne kroki
 Aby uzyskać więcej informacji na temat programu **Power BI Desktop** oraz dowiedzieć się, jak rozpocząć pracę w tym programie, zapoznaj się z następującymi artykułami.
 
-* [Wprowadzenie do programu Power BI Desktop](desktop-getting-started.md)
+* [Co to jest Power BI Desktop?](desktop-what-is-desktop.md)
 * [Omówienie zapytań w programie Power BI Desktop](desktop-query-overview.md)
 * [Źródła danych w programie Power BI Desktop](desktop-data-sources.md)
 * [Łączenie się z danymi w programie Power BI Desktop](desktop-connect-to-data.md)

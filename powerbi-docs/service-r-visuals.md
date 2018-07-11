@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Visualizations
-ms.openlocfilehash: fd4198bb6b826f8d4af22e83e313c4c0b8101024
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 016237c95d3494435931e143ff34dbe4a82abb55
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34299314"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599671"
 ---
 # <a name="creating-r-visuals-in-the-power-bi-service"></a>Tworzenie wizualizacji języka R w usłudze Power BI
 Usługa Power BI obsługuje wyświetlanie i używanie wizualizacji utworzonych za pomocą skryptów języka R. Korzystając z wizualizacji utworzonych za pomocą skryptów języka R, powszechnie nazywanych *wizualizacjami języka R*, można przedstawiać zaawansowane kształtowanie danych i zaawansowaną analizę danych (na przykład prognozy), używając rozbudowanych możliwości analizy i wizualizacji języka R.
@@ -37,7 +37,7 @@ Po utworzeniu raportu zawierającego jeden lub kilka wizualizacji języka R w pr
 
 Należy pamiętać, że nie wszystkie pakiety języka R są obsługiwane w usłudze Power BI. Na końcu tego artykułu znajduje się lista pakietów obsługiwanych obecnie w tej usłudze.
 
-Możesz pobrać ten [przykładowy plik programu Power BI Desktop](http://download.microsoft.com/download/D/9/A/D9A65269-D1FC-49F8-8EC3-1217E3A4390F/RVisual_correlation_plot_sample SL.pbix) (plik pbix), który zawiera kilka wizualizacji języka R, aby zobaczyć, jak to działa, oraz aby poeksperymentować.
+Możesz pobrać ten [przykładowy plik programu Power BI Desktop](http://download.microsoft.com/download/D/9/A/D9A65269-D1FC-49F8-8EC3-1217E3A4390F/RVisual_correlation_plot_sample%20SL.pbix) (plik pbix), który zawiera kilka wizualizacji języka R, aby zobaczyć, jak to działa, oraz aby poeksperymentować.
 
 Wizualizacje języka R utworzone w programie **Power BI Desktop**, a następnie opublikowane w usłudze Power BI, w większej mierze zachowują się jak każda inna wizualizacja w usłudze Power BI — można wchodzić z nimi w interakcje, filtrować je, wycinać i przypinać do pulpitu nawigacyjnego oraz udostępniać innym osobom. Aby uzyskać więcej informacji na temat udostępniania pulpitów nawigacyjnych i wizualizacji, zobacz [Udostępnianie pulpitu nawigacyjnego współpracownikom i innym osobom](service-share-dashboards.md). Jedna różnica w porównaniu z innymi wizualizacjami polega na tym, że w wizualizacjach języka R nie można wyświetlać etykietek narzędzi i nie można ich używać do filtrowania innych wizualizacji.
 

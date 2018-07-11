@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 05/03/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 2dc47d1fdf539c20cc0aabadd65b0401dc172ae8
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 087813feb7db96a320c48ed6b2433a7183446c71
+ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34298969"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "37926518"
 ---
 # <a name="tutorial-connect-to-on-premises-data-in-sql-server"></a>Samouczek: łączenie z danymi lokalnymi w programie SQL Server
 
@@ -128,7 +128,7 @@ Teraz, gdy masz już przykładowe dane, połączysz się z programem SQL Server 
 
 ## <a name="add-sql-server-as-a-gateway-data-source"></a>Dodawanie programu SQL Server jako źródła danych bramy
 
-W programie Power BI Desktop łączysz się bezpośrednio z programem SQL Server, ale usługa Power BI wymaga, aby brama działa jak mostek. Teraz dodasz wystąpienie programu SQL Server jako źródło danych dla bramy utworzonej w poprzednim artykule (czynność z listy w sekcji [Wymagania wstępne](#prereqisites)). 
+W programie Power BI Desktop łączysz się bezpośrednio z programem SQL Server, ale usługa Power BI wymaga, aby brama działa jak mostek. Teraz dodasz wystąpienie programu SQL Server jako źródło danych dla bramy utworzonej w poprzednim artykule (czynność z listy w sekcji [Wymagania wstępne](#prerequisites)). 
 
 1. W prawym górnym rogu ekranu usługi Power BI wybierz ikonę koła zębatego ![Ikona koła zębatego Ustawienia](media/service-gateway-sql-tutorial/icon-gear.png) > **Zarządzaj bramami**.
 
@@ -142,15 +142,17 @@ W programie Power BI Desktop łączysz się bezpośrednio z programem SQL Server
 
     ![Wprowadzanie ustawień źródeł danych](media/service-gateway-sql-tutorial/data-source-settings.png)
 
-    | Opcja | Wartość |
-    | ---    | ---   |
-    | **Nazwa źródła danych**       | test-sql-source      |
-    | **Typ źródła danych**       | SQL Server      |
-    | **Serwer**       |  Nazwa wystąpienia programu SQL Server (musi być taka sama jak określona w programie Power BI Desktop)    |
-    | **Baza danych**       | TestGatewayDocs      |
-    | **Metoda uwierzytelniania**       | Windows      |
-    | **Nazwa użytkownika**        |  Konto, takie jak michael@contoso.com, używane do łączenia z programem SQL Server     |
-    | **Hasło**       |  Hasło konta używanego do łączenia z programem SQL Server    |
+
+   |          Opcja           |                                               Wartość                                                |
+   |---------------------------|----------------------------------------------------------------------------------------------------|
+   |   **Nazwa źródła danych**    |                                          test-sql-source                                           |
+   |   **Typ źródła danych**    |                                             SQL Server                                             |
+   |        **Serwer**         | Nazwa wystąpienia programu SQL Server (musi być taka sama jak określona w programie Power BI Desktop) |
+   |       **Baza danych**        |                                          TestGatewayDocs                                           |
+   | **Metoda uwierzytelniania** |                                              Windows                                               |
+   |       **Nazwa użytkownika**        |             Konto, takie jak michael@contoso.com, używane do łączenia z programem SQL Server             |
+   |       **Hasło**        |                   Hasło konta używanego do łączenia z programem SQL Server                    |
+
 
 4. Wybierz pozycję **Dodaj**. W przypadku powodzenia procesu jest wyświetlany komunikat *Łączenie przebiegło pomyślnie*.
 

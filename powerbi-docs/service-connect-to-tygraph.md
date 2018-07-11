@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 11073e7df57d4717e27fa73c6a5e1e315a9a8dcc
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 4e9e10f713be50707909c68b104f82cada6777b6
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34241141"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599052"
 ---
 # <a name="connect-to-tygraph--with-power-bi"></a>Nawiązywanie połączenie z usługą tyGraph przy użyciu usługi Power BI
 Za pomocą pakietu zawartości dla usługi Power BI można wizualizować i eksplorować dane usługi tyGraph. Najpierw połącz się z kontem tyGraph i załaduj pulpit nawigacyjny, raporty i zestaw danych. Gotowa zawartość obejmuje takie informacje, jak miara aktywnego zaangażowania (wartość MAE) i najaktywniejsi współautorzy. Wyświetlaną zawartość można dostosować, aby wyróżnić najbardziej interesujące informacje.  Dane będą odświeżane automatycznie zgodnie z ustawionym harmonogramem.
@@ -42,7 +42,7 @@ Połącz się z [usługą tyGraph dla usługi Power BI](https://app.powerbi.com/
    
     **Jeśli nie jesteś zweryfikowanym administratorem usługi Yammer**
    
-    Pakiet zawartości tyGraph wymaga konta tyGraph utworzonego przez zweryfikowanego administratora usługi Yammer. Po utworzeniu konta dla użytkowników w tej samej organizacji mogą zostać wystawione dodatkowe klucze. Jeśli zweryfikowany administrator nie utworzył jeszcze konta tyGraph, poproś go o utworzenie konta. Jeśli konto zostało utworzone, możesz poprosić o klucz, wysyłając wiadomość e-mail na adres <mailto:support@unlimitedviz.com>.
+    Pakiet zawartości tyGraph wymaga konta tyGraph utworzonego przez zweryfikowanego administratora usługi Yammer. Po utworzeniu konta dla użytkowników w tej samej organizacji mogą zostać wystawione dodatkowe klucze. Jeśli zweryfikowany administrator nie utworzył jeszcze konta tyGraph, poproś go o utworzenie konta. Jeśli konto zostało utworzone, możesz poprosić o klucz, wysyłając wiadomość e-mail na adres <support@unlimitedviz.com>.
    
     ![](media/service-connect-to-tygraph/creds.png)
 6. Po pomyślnym uwierzytelnieniu proces importowania rozpocznie się automatycznie. Po zakończeniu tego procesu w okienku nawigacji zostaną wyświetlone nowy pulpit nawigacyjny, raport i model. Wybierz pulpit nawigacyjny, aby wyświetlić zaimportowane dane.

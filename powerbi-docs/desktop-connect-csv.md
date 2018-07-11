@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 15651c29dc333385156b1e82f55cab0d315c9862
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 994e27a08ca4f26dc730246b34c7607818e81e66
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34291148"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37135426"
 ---
 # <a name="connect-to-csv-files-in-power-bi-desktop"></a>Łączenie się z plikami CSV w programie Power BI Desktop
 Łączenie się z plikiem wartości rozdzielanych przecinkami (*CSV*) z programu Power BI Desktop jest bardzo podobne do łączenia się ze skoroszytem programu Excel. Obydwie te operacje są łatwe. Ten artykuł zawiera czynności łączenia się z dowolnym plikiem CSV, do którego masz dostęp.
@@ -47,7 +47,7 @@ Możesz używać tych danych w programie Power BI Desktop do tworzenia wizualiza
 ### <a name="next-steps"></a>Następne kroki
 Z poziomu programu Power BI Desktop możesz łączyć się z danymi różnego rodzaju. Więcej informacji na temat źródeł danych znajdziesz w następujących zasobach:
 
-* [Wprowadzenie do programu Power BI Desktop](desktop-getting-started.md)
+* [Co to jest Power BI Desktop?](desktop-what-is-desktop.md)
 * [Źródła danych w programie Power BI Desktop](desktop-data-sources.md)
 * [Kształtowanie i łączenie danych w programie Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Łączenie się ze skoroszytami programu Excel w programie Power BI Desktop](desktop-connect-excel.md)   
