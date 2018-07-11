@@ -12,6 +12,8 @@
       items:
         - name: Łączenie z przykładem z usługi GitHub
           href: service-tutorial-connect-to-github.md
+        - name: Rozpoczynanie pracy z usługą Power BI
+          href: service-get-started.md
     - name: Pojęcia
       items:
         - name: Co nowego w usłudze Power BI
@@ -382,6 +384,8 @@
                   href: service-excel-workbook-files.md
                 - name: Pobieranie danych z plików programu Power BI Desktop
                   href: service-desktop-files.md
+                - name: Ustawienia parametrów dla zestawów danych
+                  href: service-parameters.md
                 - name: Pobieranie danych z plików z wartościami rozdzielanymi przecinkami (csv)
                   href: service-comma-separated-value-files.md
                 - name: Przesyłanie strumieniowe w czasie rzeczywistym w usłudze Power BI (wersja zapoznawcza)
@@ -860,16 +864,12 @@
           items:
             - name: Wprowadzenie do aplikacji systemu iOS
               href: mobile-iphone-app-get-started.md
-            - name: Wprowadzenie do aplikacji dla tabletu iPad
-              href: mobile-ipad-app-get-started.md
             - name: Wirtualny analityk pytań i odpowiedzi w aplikacjach mobilnych systemu iOS
               href: mobile-apps-ios-qna.md
             - name: Aplikacja Power BI dla zegarka Apple Watch
               href: mobile-apple-watch.md
             - name: Skanowanie kodu kreskowego z aplikacji na telefonie iPhone
               href: mobile-apps-scan-barcode-iphone.md
-            - name: Aplikacje Power BI dla systemu iOS
-              href: mobile-ios-ipad-iphone-apps.md
         - name: iOS i Android
           items:
             - name: Dodawanie adnotacji i udostępnianie w aplikacjach mobilnych
@@ -940,8 +940,6 @@
               href: developer/integrate-tile.md
             - name: Integrowanie raportu usługi Power BI w aplikacji (dane należą do użytkownika)
               href: developer/integrate-report.md
-            - name: Integrowanie zawartości w aplikacji (dane należą do aplikacji)
-              href: developer/embed-sample-for-customers.md
             - name: Integrowanie zawartości w aplikacji na potrzeby suwerennych chmur (dane należą do aplikacji)
               href: developer/embed-sample-for-customers-sovereign-clouds.md
             - name: Osadzanie układów niestandardowych w aplikacji
@@ -1234,6 +1232,13 @@
           href: service-admin-syndication-partner.md
         - name: Konfigurowanie aplikacji mobilnych za pomocą usługi Intune
           href: service-admin-mobile-intune.md
+    - name: Dokumentacja
+      items:
+        - name: 'Program PowerShell, interfejsy API REST i zestaw .NET SDK'
+          href: service-admin-reference.md
+        - name: Polecenia cmdlet usługi Power BI dla programu PowerShell
+          href: 'https://docs.microsoft.com/en-us/powershell/power-bi/'
+          maintainContext: true
     - name: Zasoby
       items:
         - name: Power BI — metody zarządzania i wdrażania
