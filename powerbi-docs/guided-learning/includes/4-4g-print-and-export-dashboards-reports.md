@@ -1,4 +1,4 @@
-Czasami musisz przynieść wydrukowany raport lub pulpit nawigacyjny na spotkanie albo chcesz udostępnić go innym osobom. Dzięki usłudze Power BI możesz przez parę dni wykonywać wydruki wizualizacji.
+Czasami musisz przynieść wydrukowany raport lub pulpit nawigacyjny na spotkanie albo chcesz udostępnić go innym osobom. W usłudze Power BI wizualizacje można drukować na kilka sposobów.
 
 W usłudze Power BI wybierz wielokropek (trzy kropki) w prawym górnym rogu strony usługi, a następnie wybierz pozycję **Drukuj pulpit nawigacyjny**.
 
