@@ -898,6 +898,8 @@
       items:
         - name: Osadzanie zawartości dla klientów
           href: developer/embed-sample-for-customers.md
+        - name: Osadzanie zawartości dla organizacji
+          href: developer/embed-sample-for-your-organization.md
     - name: Pojęcia
       items:
         - name: Praca z interfejsami API REST usługi Power BI
@@ -934,12 +936,8 @@
               href: developer/embedding.md
             - name: Jak osadzić zawartość
               href: developer/embedding-content.md
-            - name: Integrowanie pulpitu nawigacyjnego w aplikacji (dane należą do użytkownika)
-              href: developer/integrate-dashboard.md
-            - name: Integrowanie kafelka usługi Power BI w aplikacji (dane należą do użytkownika)
-              href: developer/integrate-tile.md
-            - name: Integrowanie raportu usługi Power BI w aplikacji (dane należą do użytkownika)
-              href: developer/integrate-report.md
+            - name: Jak osadzać z aplikacji
+              href: developer/embed-from-apps.md
             - name: Integrowanie zawartości w aplikacji na potrzeby suwerennych chmur (dane należą do aplikacji)
               href: developer/embed-sample-for-customers-sovereign-clouds.md
             - name: Osadzanie układów niestandardowych w aplikacji
