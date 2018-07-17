@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/22/2018
 ms.author: maghan
-ms.openlocfilehash: 806ec6051cf8b77dfe17664d82e6add40147f0ed
-ms.sourcegitcommit: 4b61588e3ab3c8bbb17276402dbf7fa00085a266
+ms.openlocfilehash: d41b0a84d512c5ef6cebf810a89fd74a838c672e
+ms.sourcegitcommit: 9efb94ddb254e9c03e9871ad232509065ee24bf2
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "35301739"
+ms.lasthandoff: 07/06/2018
+ms.locfileid: "37864358"
 ---
 # <a name="use-row-level-security-with-power-bi-embedded-content"></a>Używanie zabezpieczeń na poziomie wiersza w osadzonej zawartości usługi Power BI
 Zabezpieczenia na poziomie wiersza (kontrola dostępu) mogą służyć do ograniczania dostępu użytkowników do danych w ramach pulpitów nawigacyjnych, kafelków, raportów i zestawów danych. Wielu różnych użytkowników może pracować z tymi samymi artefaktami, widząc różne dane. Funkcja osadzania obsługuje zabezpieczenia na poziomie wiersza.
@@ -65,11 +65,11 @@ Oto kroki tej procedury:
 3. W tabeli **District** wprowadź następujące wyrażenie DAX: **[District Manager] = USERNAME()**.
    
     ![Instrukcje języka DAX na potrzeby reguły zabezpieczeń RLS](media/embedded-row-level-security/powerbi-embedded-new-role-dax.png)
-4. Aby upewnić się, że reguły działają, na karcie **Modelowanie** wybierz opcję **Wyświetl jako role**, a następnie wybierz utworzoną rolę **Menedżer** oraz rolę **Inny użytkownik**. Wprowadź **Andrew Ma** w polu użytkownika.
+4. Aby upewnić się, że reguły działają, na karcie **Modelowanie** wybierz opcję **Wyświetl jako role**, a następnie wybierz utworzoną rolę **Menedżer** oraz rolę **Inni użytkownicy**. Wprowadź ciąg **AndrewMa** w polu użytkownika.
    
     ![Okno dialogowe wyświetlania jako roli](media/embedded-row-level-security/powerbi-embedded-new-role-view.png)
    
-    Raporty będą teraz pokazywać dane tak, jak w przypadku zalogowania użytkownika **Andrew Ma**.
+    Raporty będą teraz pokazywać dane tak, jak w przypadku zalogowania użytkownika **AndrewMa**.
 
 Takie zastosowanie filtru spowoduje odfiltrowanie wszystkich rekordów w tabelach **District**, **Store** i **Sales**. Jednak ze względu na kierunek filtrowania w relacjach między tabelami **Sales** i **Time** oraz **Sales** i **Item** tabele **Item** i **Time** nie zostaną odfiltrowane. Aby dowiedzieć się więcej o dwukierunkowym filtrowaniu krzyżowym, pobierz oficjalny dokument [Bidirectional cross-filtering in SQL Server Analysis Services 2016 and Power BI Desktop (Dwukierunkowe filtrowanie krzyżowe w usługach SQL Server Analysis Services 2016 oraz programie Power BI Desktop)](http://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx).
 

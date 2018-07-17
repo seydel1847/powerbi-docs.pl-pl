@@ -10,20 +10,20 @@ ms.topic: conceptual
 ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: e7c0399072bfef35a1103a5db448da183f64f74c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a30c90b1c180277a584a152f26c7f92549284c7d
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34245367"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944749"
 ---
 # <a name="manage-your-data-storage"></a>Zarządzanie magazynem danych
 Dowiedz się, jak można zarządzać magazynem własnego obszaru roboczego lub magazynem danych obszaru roboczego aplikacji, aby móc publikować raporty i zestawy danych.
 
 Obszary robocze użytkowników i aplikacji mają własne pojemności danych.
 
-* Użytkownicy wersji bezpłatnej i Pro mają magazyn danych o maksymalnej pojemności 10 GB.
-* Użytkownicy wersji Pro mogą tworzyć obszary robocze aplikacji z magazynami danych o maksymalnym rozmiarze 10 GB każdy.
+* Wszyscy użytkownicy mają magazyn danych o maksymalnej pojemności 10 GB.
+* Użytkownicy z licencją usługi Power BI Pro mogą tworzyć obszary robocze aplikacji z magazynami danych o maksymalnym rozmiarze 10 GB każdy.
 
 Na poziomie dzierżawy łączne użycie nie może przekroczyć 10 GB na użytkownika wersji Pro dla wszystkich użytkowników wersji Pro oraz obszarów roboczych aplikacji w dzierżawie.
 

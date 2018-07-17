@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: d350593f3a5168d959711e1ca2bbbd8a86524187
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a69cccafa9651bbda44ea2154ebe68463c9da907
+ms.sourcegitcommit: 7e0335bd8c263b5f8ba4303b986ddc450d842297
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34288066"
+ms.lasthandoff: 06/23/2018
+ms.locfileid: "36330127"
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Używanie zakładek w celu udostępniania szczegółowych informacji i tworzenia historii w usłudze Power BI 
 Przy użyciu **zakładek** w usłudze Power BI możesz przechwycić obecnie skonfigurowany widok strony raportu wraz z filtrowaniem i stanem wizualizacji, aby później mieć możliwość powrotu do tego stanu poprzez wybranie zapisanej zakładki. 
@@ -64,7 +64,7 @@ Po utworzeniu zakładki możesz wyświetlić ją, klikając zakładkę w okienku
 
 Możesz też wybrać, czy każda zakładka będzie stosować właściwości *danych*, takie jak filtry i fragmentatory, właściwości *wyświetlania*, takie jak reflektor i jego widoczność, oraz zmiany strony, które prezentują stronę widoczną podczas dodawania zakładki. Te możliwości są przydatne, jeśli używasz zakładek do przełączania się między typami wizualizacji — w takim przypadku prawdopodobnie chcesz wyłączyć właściwości danych, więc filtry nie są resetowane, gdy użytkownicy zmieniają typy wizualizacji. 
 
-Aby wprowadzić takie zmiany, wybierz wielokropki obok nazwy zakładki, jak pokazano na poprzedniej ilustracji, a następnie zaznacz pola wyboru obok kontrolek *Dane*, *Wyświetlanie* i innych albo usuń zaznaczenie tych pól. 
+Aby wprowadzić takie zmiany, wybierz wielokropek obok nazwy zakładki, jak pokazano na poprzedniej ilustracji, a następnie zaznacz pola wyboru obok kontrolek *Dane*, *Wyświetlanie* i innych albo usuń zaznaczenie tych pól. 
 
 ## <a name="arranging-bookmarks"></a>Organizowanie zakładek
 Podczas tworzenia zakładek możesz zorientować się, że kolejność ich tworzenia nie odpowiada kolejności prezentowania zakładek odbiorcom docelowym. Żaden problem — z łatwością możesz zmienić kolejność zakładek.
@@ -120,7 +120,7 @@ Kolejną funkcją wprowadzoną wraz zakładkami jest funkcja **W centrum uwagi**
 Porównajmy funkcję **W centrum uwagi** do trybu **koncentracji uwagi**, aby zobaczyć, jak się różnią.
 
 1. W trybie **koncentracji uwagi** możesz zastosować jedną wizualizację wypełniającą całą kanwę po wybraniu ikony **trybu koncentracji uwagi**.
-2. Przy użyciu funkcji **W centrum uwagi** możesz wyróżnić jedną wizualizację w oryginalnym rozmiarze poprzez zanikanie wszystkich innych wizualizacji do poziomu zbliżonego do przezroczystości. 
+2. Przy użyciu funkcji **W centrum uwagi** możesz wyróżnić jedną wizualizację w oryginalnym rozmiarze przez zanikanie wszystkich innych wizualizacji do poziomu zbliżonego do przezroczystości. 
 
 ![Porównanie trybu koncentracji uwagi z funkcją W centrum uwagi](media/desktop-bookmarks/bookmarks_11.png)
 

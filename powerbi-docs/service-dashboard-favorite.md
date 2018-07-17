@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 920e61ed173e979a92958e56f9e0276f26288b3f
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 7fe40fa3ea4a80198c3b06d2594c7ad0837ee923
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34250680"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136185"
 ---
 # <a name="favorite-dashboards-reports-and-apps-in-power-bi-service"></a>Ulubione pulpity nawigacyjne, raporty i aplikacje w usłudze Power BI
 Po ustawieniu zawartości jako *ulubionej* można uzyskiwać do niej dostęp we wszystkich obszarach roboczych.  Ulubione to zwykle zawartość odwiedzana najczęściej.
@@ -76,7 +76,7 @@ Nie korzystasz już tak często z raportu?  Możesz usunąć go z ulubionych. Us
 > 
 
 ## <a name="next-steps"></a>Następne kroki
-[Wprowadzenie do usługi Power BI](service-get-started.md)
+[Co to jest usługa Power BI?](power-bi-overview.md)
 
 [Power BI — podstawowe pojęcia](service-basic-concepts.md)
 

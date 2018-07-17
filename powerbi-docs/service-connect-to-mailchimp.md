@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 6a62b97a4c7d75644bd3a824118414509ef8438f
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: f54841b77d79854334ddb6d93ccdc9b5926201ac
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34241187"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136715"
 ---
 # <a name="connect-to-mailchimp-with-power-bi"></a>Łączenie się z pakietem zawartości MailChimp przy użyciu usługi Power BI
 Pakiet zawartości usługi Power BI pobiera dane z konta usługi MailChimp oraz generuje pulpit nawigacyjny, zestaw raportów i zestaw danych, aby umożliwić eksplorowanie danych. Pobieraj analizy, aby tworzyć [pulpity nawigacyjne usługi MailChimp](https://powerbi.microsoft.com/integrations/mailchimp) i w szybki sposób identyfikować trendy w ramach kampanii, raportów oraz dla poszczególnych subskrybentów. Dane będą odświeżane codziennie, zapewniając aktualność monitorowanych danych.
@@ -51,7 +51,7 @@ Połącz się z [pakietem zawartości MailChimp](https://app.powerbi.com/getdata
 * Zestaw danych zostanie ustawiony na codzienne odświeżanie, ale możesz zmienić harmonogram odświeżania lub spróbować odświeżyć go na żądanie przy użyciu opcji **Odśwież teraz**
 
 ## <a name="next-steps"></a>Następne kroki
-[Wprowadzenie do usługi Power BI](service-get-started.md)
+[Co to jest usługa Power BI?](power-bi-overview.md)
 
 [Power BI — podstawowe pojęcia](service-basic-concepts.md)
 

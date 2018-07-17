@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 0cc0125f35dc90a03eeaeed0d5e69c0a5c3115ae
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 56be5b6a0618dea28ac286f5cbaa0c019d9037d2
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34241164"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136001"
 ---
 # <a name="connect-to-circuit-id-with-power-bi"></a>Łączenie się z pakietem zawartości Circuit ID przy użyciu usługi Power BI
 Analizowanie danych komunikacyjnych z usługi Circuit ID jest bardzo proste dzięki wykorzystaniu usługi Power BI. Usługa Power BI pobiera dane, a następnie tworzy domyślny pulpit nawigacyjny i powiązane raporty w oparciu o te dane. Po utworzeniu połączenia można eksplorować dane i dostosowywać pulpit nawigacyjny do własnych potrzeb. Dane są automatycznie odświeżane codziennie.
@@ -47,7 +47,7 @@ Połącz się z [pakietem zawartości Circuit ID](https://app.powerbi.com/getdat
 * Zestaw danych zostanie ustawiony na codzienne odświeżanie, ale możesz zmienić harmonogram odświeżania lub spróbować odświeżyć go na żądanie przy użyciu opcji **Odśwież teraz**
 
 ## <a name="next-steps"></a>Następne kroki
-[Wprowadzenie do usługi Power BI](service-get-started.md)
+[Co to jest usługa Power BI?](power-bi-overview.md)
 
 [Pobieranie danych dla usługi Power BI](service-get-data.md)
 

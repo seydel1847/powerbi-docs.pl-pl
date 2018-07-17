@@ -10,12 +10,12 @@ ms.topic: overview
 ms.date: 05/01/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 5e69ed0010c5a2ff496b761f54b4cf2561f9b4ca
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 1f3c871d4ac47a110f2085ef1bdccb166fc00643
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34297428"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944312"
 ---
 # <a name="what-is-power-bi-administration"></a>Co to jest administracja usługi Power BI?
 
@@ -73,12 +73,12 @@ Istnieje szereg narzędzi związanych z administrowaniem usługą Power BI, któ
 
 | **Narzędzie** | **Typowe zadania** |
 | --- | --- |
-| Portal administracyjny usługi Power BI |<ul><li>Blokowanie dostępu użytkowników do usługi Power BI<br><li>Uzyskiwanie pojemności Premium i praca z nią<br><li>Zapewnianie jakości usługi<br><li>Zarządzanie klasyfikacją danych biznesowych<br><li>Pomoc w wymuszaniu zasad publikowania i udostępniania zawartości<br><li>Zarządzanie obszarami roboczymi<br><li>Publikowanie wizualizacji niestandardowych<br><li>Weryfikowanie kodów używanych do osadzania usługi Power BI w innych aplikacjach<br><li>Rozwiązywanie problemów z dostępem do danych i innych problemów</ul>|
-| Centrum administracyjne usługi Office 365 |<ul><li>Zarządzanie tworzeniem nowych kont użytkowników<br><li>Kupowanie i przypisywanie licencji usługi Pro</ul>|
-| Centrum zabezpieczeń i zgodności usługi Office 365 |<ul><li>Przeglądanie inspekcji zdarzeń i zarządzanie nimi</ul>|
-| Usługa Azure Active Directory (AAD) w portalu platformy Azure |<ul><li>Konfigurowanie warunkowego dostępu do zasobów usługi Power BI za pomocą usługi AAD<br><li>Aprowizowanie pojemności usługi Power BI Embedded</ul>|
-| Polecenia cmdlet programu PowerShell |<ul><li>Zarządzanie obszarami roboczymi i innymi aspektami usługi Power BI za pośrednictwem skryptów</ul>|
-| Administracyjne interfejsy API |<ul><li>Kompilowanie niestandardowych narzędzi administracyjnych w celu ułatwienia pracy administratora usługi Power BI. Na przykład program Power BI Desktop może używać tych interfejsów API do kompilowania raportów na podstawie danych związanych z administracją</ul>|
+| Portal administracyjny usługi Power BI |<ul><li>Uzyskiwanie pojemności Premium i praca z nią</li><li>Zapewnianie jakości usługi</li><li>Zarządzanie klasyfikacją danych biznesowych</li><li>Pomoc w wymuszaniu zasad publikowania i udostępniania zawartości</li><li>Zarządzanie obszarami roboczymi<br><li>Publikowanie wizualizacji niestandardowych</li><li>Weryfikowanie kodów używanych do osadzania usługi Power BI w innych aplikacjach</li><li>Rozwiązywanie problemów z dostępem do danych i innych problemów</li></ul>|
+| Centrum administracyjne usługi Office 365 |<ul><li>Zarządzanie tworzeniem nowych kont użytkowników</li><li>Kupowanie i przypisywanie licencji usługi Pro</li><li>Blokowanie dostępu użytkowników do usługi Power BI</li></ul>|
+| Centrum zabezpieczeń i zgodności usługi Office 365 |<ul><li>Przeglądanie inspekcji zdarzeń i zarządzanie nimi</li></ul>|
+| Usługa Azure Active Directory (AAD) w portalu platformy Azure |<ul><li>Konfigurowanie warunkowego dostępu do zasobów usługi Power BI za pomocą usługi AAD</li><li>Aprowizowanie pojemności usługi Power BI Embedded</li></ul>|
+| Polecenia cmdlet programu PowerShell |<ul><li>Zarządzanie obszarami roboczymi i innymi aspektami usługi Power BI za pośrednictwem skryptów</li></ul>|
+| Administracyjne interfejsy API i zestaw SDK |<ul><li>Kompilowanie niestandardowych narzędzi administracyjnych w celu ułatwienia pracy administratora usługi Power BI. Na przykład program Power BI Desktop może używać tych interfejsów API do kompilowania raportów na podstawie danych związanych z administracją</li></ul>|
 
 ## <a name="next-steps"></a>Następne kroki
 

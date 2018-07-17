@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-sktopms.date: 06/01/2018
+sktopms.date: 06/28/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 6341d5b3bba051cc31fe95f526450e03c14d4b69
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: 08772389df36e72e4f8c83239ba396773070f61a
+ms.sourcegitcommit: ba447d7cc94418d7d3cf6fdcb686ec1a859258a8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36964819"
+ms.lasthandoff: 07/02/2018
+ms.locfileid: "37145392"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Często zadawane pytania dotyczące usługi Power BI
 * Jeśli masz inne pytania, [zadaj je społeczności usługi Power BI](http://community.powerbi.com/).
@@ -54,7 +54,7 @@ Tak. Cennik dla instytucji niedochodowych jest dostępny w przypadku dokonywania
 Usługa Power BI [https://powerbi.com](https://powerbi.com) nie jest dostępna jako usługa prywatna w chmurze wewnętrznej. Jednak istnieją trzy inne opcje przeglądania danych i pracy z nimi w środowiskach lokalnych. 
 
 ### <a name="on-premises-data-gateway"></a>Lokalna brama danych
-Korzystając z usługi Power BI i programu Power BI Desktop, można bezpiecznie łączyć się z własnymi źródłami danych w środowiskach lokalnych. [Lokalna brama danych](service-gateway-onprem.md) umożliwia nawiązywanie połączeń na żywo z lokalnym serwerem SQL Server Analysis Services i innymi źródłami danych. Można również ustawić zaplanowane odświeżanie za pomocą scentralizowanej bramy. Jeśli brama jest niedostępna, można odświeżać dane z poziomu lokalnych źródeł danych, używając bramy [Power BI Gateway — Personal](personal-gateway.md).
+Korzystając z usługi Power BI i programu Power BI Desktop, można bezpiecznie łączyć się z własnymi źródłami danych w środowiskach lokalnych. [Lokalna brama danych](service-gateway-onprem.md) umożliwia nawiązywanie połączeń na żywo z lokalnym serwerem SQL Server Analysis Services i innymi źródłami danych. Można również ustawić zaplanowane odświeżanie za pomocą scentralizowanej bramy. Jeśli brama jest niedostępna, można odświeżać dane z poziomu lokalnych źródeł danych, używając bramy [Power BI Gateway — Personal](service-gateway-personal-mode.md).
 
 ### <a name="power-bi-report-server"></a>Serwer raportów usługi Power BI
 Serwer raportów usługi Power BI to rozwiązanie wdrażane w środowiskach lokalnych, które umożliwia tworzenie i publikowanie raportów oraz zarządzanie nimi, a następnie dostarczanie ich różnymi sposobami do różnych użytkowników: w przeglądarce internetowej, na ich urządzeniach przenośnych lub jako wiadomości e-mail w ich skrzynkach odbiorczych. Przeczytaj więcej na temat [serwera raportów usługi Power BI](report-server/get-started.md).
@@ -138,6 +138,7 @@ Podobnie jak wiele innych usług i programów firmy Microsoft, usługa Power BI 
 * Aby **cofnąć** ostatnią akcję lub kilka ostatnich akcji, naciskaj klawisze CTRL+Z.
 
 ## <a name="next-steps"></a>Następne kroki
+* [Co to jest usługa Power BI?](power-bi-overview.md)
 * Masz więcej pytań? [Zadaj pytanie społeczności usługi Power BI](http://community.powerbi.com/)
 * Nadal masz problem? Odwiedź [stronę pomocy technicznej usługi Power BI](https://powerbi.microsoft.com/support/)
 

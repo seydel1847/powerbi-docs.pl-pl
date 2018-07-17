@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 10/13/2017
+ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 4680ab3709f1a2cbe56445e6719ea4de15396eb0
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 5601ab79832f2d52622f5c13ecd23f346408f08e
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34297658"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598646"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Eksploruj kafelki w aplikacjach mobilnych usługi Power BI
 Dotyczy:
@@ -40,7 +40,7 @@ Następnie w aplikacjach mobilnych usługi Power BI otwórz kafelki w trybie ost
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-line-tile-values.png)
    
-   *Na przykład na tym wykresie liniowym wybrane wartości dotyczą **Sprzedaży w tym roku** i **Sprzedaży w poprzednim roku** w **sierpniu**.*  
+   <em>Na przykład na tym wykresie liniowym wybrane wartości dotyczą **Sprzedaży w tym roku</em>* i **Sprzedaży w poprzednim roku** w **sierpniu**.*  
    
    Na wykresie kołowym naciśnij wycinek koła, aby wyświetlić wartość wycinka u góry koła.  
    
@@ -107,7 +107,7 @@ Następnie w aplikacjach mobilnych usługi Power BI otwórz kafelki w trybie ost
    
    ![](media/mobile-tiles-in-the-mobile-apps/pbi_win10ph_bartile0316.png)
    
-   *Na tym wykresie słupkowym wartości paska **Decor** są wyświetlane w górnej części wykresu.*
+   <em>Na tym wykresie słupkowym wartości paska **Decor</em>* są wyświetlane w górnej części wykresu.*
    
    Naciśnij ikonę **Pełny ekran** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-full-screen-icon.png), aby otworzyć kafelek w trybie pełnoekranowym, bez pasków nawigacji i menu.
    
@@ -126,6 +126,6 @@ Następnie w aplikacjach mobilnych usługi Power BI otwórz kafelki w trybie ost
 4. Naciśnij strzałkę Wstecz lub przycisk Wstecz, aby zamknąć kafelek i wrócić do pulpitu nawigacyjnego.
 
 ## <a name="next-steps"></a>Następne kroki
-* [Wprowadzenie do usługi Power BI](service-get-started.md)
+* [Co to jest usługa Power BI?](power-bi-overview.md)
 * Masz pytania? [Zadaj pytanie społeczności usługi Power BI](http://community.powerbi.com/)
 

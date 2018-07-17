@@ -8,28 +8,28 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/11/2018
+ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5933404b9429ca773ed119addd81d86ad1a28597
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: f056ccb9e8fca4122aa4417a50f1fbd6993a9c2a
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34293058"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944588"
 ---
 # <a name="filled-maps-choropleths-in-power-bi"></a>Kartogramy w usłudze Power BI
 Kartogram używa cieniowania lub barwienia, lub wzorców do wyświetlania, jak wartość różni się w części lokalizacji geograficznej lub regionu.  Szybko wyświetlaj te względne różnice za pomocą cieniowania tych zakresów od jasnych (rzadsze/mniejsze) do ciemnych (częstsze/większe).    
 
-![](media/power-bi-visualization-filled-maps-choropleths/large_map.png)
+![Mapa USA](media/power-bi-visualization-filled-maps-choropleths/large_map.png)
 
 ## <a name="what-is-sent-to-bing"></a>Co jest wysyłane do usługi Bing
 Usługa Power BI integruje się z usługą Bing w celu zapewnienia domyślnych współrzędnych mapy (w procesie zwanym kodowaniem geograficznym). Podczas tworzenia wizualizacji mapy w usłudze Power BI lub programie Power BI Desktop dane w zasobnikach **Lokalizacja**, **Szerokość geograficzna** i **Długość geograficzna** (które są używane do tworzenia tej wizualizacji) są wysyłane do usługi Bing.
 
 Użytkownik lub administrator może być zmuszony do aktualizacji zapory, aby umożliwić dostęp do adresów URL używanych przez usługę Bing do geokodowania.  Te adresy URL to:
-* https://dev.virtualearth.net/REST/V1/Locations
-* https://platform.bing.com/geo/spatial/v1/public/Geodata
-* https://www.bing.com/api/maps/mapcontrol
+    * https://dev.virtualearth.net/REST/V1/Locations
+    * https://platform.bing.com/geo/spatial/v1/public/Geodata
+    * https://www.bing.com/api/maps/mapcontrol
 
 Aby uzyskać więcej informacji o danych wysyłanych do usługi Bing i wskazówkach dotyczących zwiększenia sukcesu kodowania geograficznego, zobacz [Porady i wskazówki dotyczące wizualizacji map](power-bi-map-tips-and-tricks.md).
 
@@ -58,30 +58,30 @@ Na tym filmie Kim tworzy mapę podstawową i przekształca ją w kartogram.
 1. Aby utworzyć własny kartogram, [pobierz przykład sprzedaży i marketingu](sample-datasets.md), logując się do usługi Power BI i wybierając pozycje **Pobierz dane \> Przykłady \> Sprzedaż i marketing \> Połącz**.
 2. Gdy pojawi się komunikat o powodzeniu, wybierz pozycję **Wyświetl zestaw danych**.
 
-   ![](media/power-bi-visualization-filled-maps-choropleths/power-bi-view-dataset.png)
+   ![Komunikat z informacją o powodzeniu](media/power-bi-visualization-filled-maps-choropleths/power-bi-view-dataset.png)
 3. Usługa Power BI otwiera pustą kanwę raportu w [widoku do edycji](service-interact-with-a-report-in-editing-view.md).
 
-    ![](media/power-bi-visualization-filled-maps-choropleths/power-bi-blank-canvas.png)
+    ![Nowy raport](media/power-bi-visualization-filled-maps-choropleths/power-bi-blank-canvas.png)
 4. W okienku Pola wybierz pole **Geograficzny** \> **Stan**.    
 
-   ![](media/power-bi-visualization-filled-maps-choropleths/img002.png)
+   ![żółty znacznik wyboru obok stanu](media/power-bi-visualization-filled-maps-choropleths/img002.png)
 5. [Przekształć wykres](power-bi-report-change-visualization-type.md) w kartogram. Pamiętaj, że **Stan** obecnie znajduje się w źródle **Lokalizacja**. Mapy Bing używają pola w źródle **Lokalizacja** do tworzenia mapy.  Lokalizacja może obejmować różne prawidłowe lokalizacje: kraje, województwa, powiaty, miasta, kody pocztowe lub inne kody itd. Mapy Bing udostępniają kształty kartogramów dla lokalizacji na całym świecie. Bez prawidłowego wpisu w źródle lokalizacji usługa Power BI nie może utworzyć kartogramu.  
 
-   ![](media/power-bi-visualization-filled-maps-choropleths/img003.png)
+   ![szablony z wyróżnioną ikoną kartogramu](media/power-bi-visualization-filled-maps-choropleths/img003.png)
 6. Przefiltruj mapę, aby wyświetlić tylko kontynentalne Stany Zjednoczone.
 
    a.  W dolnej części okienka wizualizacji wyszukaj obszar **Filtry**.
 
    b.  Umieść kursor nad pozycją **Stan** i kliknij cudzysłów ostrokątny rozwijania  
-   ![](media/power-bi-visualization-filled-maps-choropleths/img004.png)
+   ![Filtry na poziomie wizualizacji przedstawiające element State(All)](media/power-bi-visualization-filled-maps-choropleths/img004.png)
 
    c.  Umieść znacznik wyboru obok pozycji **Wszystkie** i usuń znacznik wyboru obok pozycji **AK**.
 
-   ![](media/power-bi-visualization-filled-maps-choropleths/img005.png)
+   ![Lista rozwijana Stan z niezaznaczonymi pozycjami Wszystkie i AK](media/power-bi-visualization-filled-maps-choropleths/img005.png)
 7. Wybierz pozycję **SalesFact** \> **Wskaźniki nastrojów klientów**, aby je dodać do źródła **Nasycenie koloru**. Pole w źródle **Nasycenie koloru** steruje cieniowaniem mapy.  
-   ![](media/power-bi-visualization-filled-maps-choropleths/power-bi-color-saturation.png)
+   ![Wskaźniki nastrojów klientów w polu źródła Nasycenie koloru](media/power-bi-visualization-filled-maps-choropleths/power-bi-color-saturation.png)
 8. Kartogram zostanie zacieniowany na zielono, gdzie jasnozielony reprezentuje niższe wartości wskaźnika nastrojów klientów a ciemnozielony reprezentuje wyższe, bardziej dodatnie wskaźniki nastrojów klientów.  W tym miejscu został wyróżniony stan Wyoming (WY), gdzie wskaźniki nastrojów klientów są bardzo dobre i wynoszą 74.  
-   ![](media/power-bi-visualization-filled-maps-choropleths/img007.png)
+   ![czarne okno dialogowe ze stanem i wskaźnikami nastrojów klientów](media/power-bi-visualization-filled-maps-choropleths/img007.png)
 9. [Zapisz raport](service-report-save.md).
 
 ## <a name="highlighting-and-cross-filtering"></a>Wyróżnianie i filtrowanie krzyżowe
@@ -92,13 +92,13 @@ Wyróżnianie lokalizacji na kartogramie powoduje krzyżowe filtrowanie innych w
 Aby kontynuować, skopiuj i wklej swój kartogram na stronę **Wskaźniki nastrojów klientów** raportu *Sprzedaż i marketing*.
 
 1. Na kartogramie wybierz stan.  Spowoduje to wyróżnienie innych wizualizacji na stronie. Na przykład wybranie **Teksasu** pokazuje, że wskaźnik nastrojów klientów wynosi 74, że Teksas znajduje się w regionie centralnym \#23 i że większość woluminu sprzedaży pochodzi z segmentów łagodzenia i wygody.   
-   ![](media/power-bi-visualization-filled-maps-choropleths/img008.png)
+   ![Wybrany stan Teksas](media/power-bi-visualization-filled-maps-choropleths/img008.png)
 2. Na wykresie liniowym, przełącz się między **Nie** i **Tak**. To filtruje kartogram, aby pokazać wskaźniki nastrojów klientów dla firmy VanArsdel i konkurentów firmy VanArsdel.  
-   ![](media/power-bi-visualization-filled-maps-choropleths/img009.gif)
+   ![film przedstawiający przełączanie](media/power-bi-visualization-filled-maps-choropleths/img009.gif)
 
-## <a name="considerations-and-troubleshooting"></a>Zagadnienia i rozwiązywanie problemów
+## <a name="considerations-and-troubleshooting"></a>Istotne zagadnienia i rozwiązywanie problemów
 Dane mapy mogą być niejednoznaczne.  Na przykład istnieje Paryż we Francji, ale jest również Paryż w Teksasie. Twoje dane geograficzne prawdopodobnie znajdują się w oddzielnych kolumnach — kolumnie na nazwy miast, kolumnie na nazwy województw lub powiatów itd. — więc usługa Bing nie może ustalić, który Paryż jest który. Jeśli zestaw danych zawiera już dane współrzędnych geograficznych, usługa Power BI ma specjalne pola, aby sprawić, że dane mapy będą jednoznaczne. Przeciągnij pole zawierające dane szerokości geograficznej do obszaru wizualizacji \> Szerokość geograficzna.  Wykonaj te same czynności dla danych długości geograficznej.  
-![](media/power-bi-visualization-filled-maps-choropleths/pbi_latitude.png)
+![Okienka Wizualizacje i Pola](media/power-bi-visualization-filled-maps-choropleths/pbi_latitude.png)
 
 Jeśli masz uprawnienia do edycji zestawu danych w programie Power BI Desktop, obejrzyj ten film, aby uzyskać pomoc na temat niejednoznaczności mapy.
 

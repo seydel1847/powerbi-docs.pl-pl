@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 997dd8b598e67d590723c72fb35245c3b3486c8b
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: afcaae9499aa1c7e1461030cfa6b5d7b35a47188
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34242451"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136024"
 ---
 # <a name="connect-to-zendesk-with-power-bi"></a>Nawiązywanie połączenia z systemem Zendesk przy użyciu usługi Power BI
 Pakiet zawartości Zendesk oferuje pulpit nawigacyjny usługi Power BI oraz zestaw raportów usługi Power BI zapewniających wgląd w informacje dotyczące liczby biletów i wydajności agentów. Możesz użyć dostarczonego pulpitu nawigacyjnego i raportów lub dostosować je, aby podkreślić najważniejsze informacje.  Dane będą odświeżane automatycznie raz dziennie. 
@@ -84,6 +84,6 @@ Adres URL systemu Zendesk będzie taki sam, jak adres URL, którego używasz do 
 Jeśli masz problemy z nawiązaniem połączenia, sprawdź adres URL systemu Zendesk i upewnij się, że korzystasz z konta administratora systemu Zendesk.
 
 ## <a name="next-steps"></a>Następne kroki
-* [Wprowadzenie do usługi Power BI](service-get-started.md)
+* [Co to jest usługa Power BI?](power-bi-overview.md)
 * [Pobieranie danych](service-get-data.md)
 

@@ -7,27 +7,27 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/05/2018
+ms.date: 07/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: d0cc0ce18a187280c48be0c84bf9adf680ea3ea4
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 11be5cd6f5b97fe612bf42a37228518ab2fbb227
+ms.sourcegitcommit: d1a0da8638c5d957b884ca9412275ee8880d4b14
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34813439"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37900059"
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>Używanie łącznika systemu SAP BW w programie Power BI Desktop
 Program Power BI Desktop umożliwia dostęp do danych systemu **SAP Business Warehouse (BW)**.
 
 Aby dowiedzieć się, jak klienci systemu SAP mogą korzystać z zalet połączenia usługi Power BI z istniejącymi systemami SAP Business Warehouse (BW), zapoznaj się z [oficjalnym dokumentem dotyczącym usługi Power BI i systemu SAP BW](https://aka.ms/powerbiandsapbw).
 
-Począwszy od wersji programu **Power BI Desktop** wydanej w czerwcu 2018 roku, można używać łącznika SAP BW Connector w implementacji oferującej znaczącą poprawę wydajności i dostępności. Ta zaktualizowana wersja łącznika SAP BW Connector została opracowana przez firmę Microsoft i jest nazywana wersją **Implementation 2.0**. Możesz wybrać standardowy łącznik **SAP BW Connector** lub łącznik **Implementation 2.0 SAP Connector**. W poniższych sekcjach opisano instalację każdej z wersji. Możesz wybrać jeden lub drugi łącznik podczas nawiązywania połączenia z systemem SAP BW z poziomu programu Power BI Desktop.
+Począwszy od wersji programu **Power BI Desktop** wydanej w czerwcu 2018 roku, można używać łącznika SAP BW Connector w implementacji oferującej znaczącą poprawę wydajności i dostępności. Ta zaktualizowana wersja łącznika SAP BW Connector została opracowana przez firmę Microsoft i jest nazywana wersją **Implementation 2.0**. Możesz wybrać wersję 1 (v1) łącznika **SAP BW Connector** lub łącznik **Implementation 2.0 SAP Connector**. W poniższych sekcjach opisano instalację każdej z wersji. Możesz wybrać jeden lub drugi łącznik podczas nawiązywania połączenia z systemem SAP BW z poziomu programu Power BI Desktop.
 
 Sugerujemy używanie łącznika **Implementation 2.0 SAP Connector** zawsze, gdy jest to możliwe.
 
-## <a name="installation-of-the-standard-sap-bw-connector"></a>Instalacja standardowego łącznika SAP BW Connector
-Zalecamy używanie łącznika Implementation 2.0 SAP Connector zawsze, gdy jest to możliwe (patrz instrukcje w następnej sekcji). W tej sekcji opisano instalację standardowego łącznika **SAP BW Connector**, który można zainstalować, wykonując następujące kroki instalacji:
+## <a name="installation-of-version-1-of-the-sap-bw-connector"></a>Instalacja wersji 1 łącznika SAP BW Connector
+Zalecamy używanie łącznika Implementation 2.0 SAP Connector zawsze, gdy jest to możliwe (patrz instrukcje w następnej sekcji). W tej sekcji opisano instalację wersji 1 łącznika **SAP BW Connector**, który można zainstalować, wykonując następujące kroki instalacji:
 
 1. Zainstaluj bibliotekę **SAP NetWeaver** na komputerze lokalnym. Bibliotekę **SAP NetWeaver** możesz uzyskać od administratora SAP lub bezpośrednio z witryny [SAP Software Download Center](https://support.sap.com/swdc) (Centrum pobierania oprogramowania SAP). Ponieważ struktura witryny **SAP Software Download Center** (Centrum pobierania oprogramowania SAP) jest często zmieniana, dokładniejsze wskazówki dotyczące nawigowania w tej witrynie są niedostępne. Biblioteka **SAP NetWeaver** zwykle jest również składnikiem instalacji narzędzi klienckich SAP.
    
@@ -54,11 +54,11 @@ Podczas instalacji upewnij się, że w oknie **Optional setup steps** (Opcjonaln
 ![Opcjonalne kroki instalacji SAP](media/desktop-sap-bw-connector/sap_bw_2b.png)
 
 > [!NOTE]
-> Standardowa implementacja systemu SAP BW wymagała bibliotek DLL NetWeaver. Jeśli używasz łącznika Implementation 2.0 SAP Connector i nie używasz wersji standardowej, biblioteki DLL NetWeaver nie są wymagane.
+> Pierwsza wersja implementacji systemu SAP BW wymagała bibliotek DLL NetWeaver. Jeśli używasz łącznika Implementation 2.0 SAP Connector i nie używasz pierwszej wersji, biblioteki DLL NetWeaver nie są wymagane.
 
 
-## <a name="standard-sap-bw-connector-features"></a>Funkcje standardowego łącznika SAP BW Connector
-Standardowy **łącznik SAP BW Connector** w programie Power BI Desktop umożliwia importowanie danych z modułów **SAP Business Warehouse Server** oraz korzystanie z trybu DirectQuery. 
+## <a name="version-1-sap-bw-connector-features"></a>Funkcje łącznika systemu SAP BW Connector w wersji 1
+Łącznik **SAP BW Connector** w wersji 1 w programie Power BI Desktop umożliwia importowanie danych z modułów **SAP Business Warehouse Server** oraz korzystanie z trybu DirectQuery. 
 
 Aby dowiedzieć się więcej o **łączniku systemu SAP BW** oraz sposobu jego używania z zapytaniem bezpośrednim, zobacz artykuł [Zapytanie bezpośrednie i system SAP Business Warehouse (BW)](desktop-directquery-sap-bw.md).
 
@@ -101,7 +101,7 @@ Aby używać wersji Implementation 2.0 łącznika SAP BW Connector, należy utwo
 
     ![Okno dialogowe połączenia SAP](media/desktop-sap-bw-connector/sap_bw_7.png)
 
-3. Wybierz przycisk **OK**. Zostanie otwarte środowisko **Nawigatora**, takie samo jak opisane we wcześniejszej sekcji dotyczącej standardowego łącznika SAP BW Connector. 
+3. Wybierz przycisk **OK**. Zostanie otwarte środowisko **Nawigatora**, takie samo jak opisane we wcześniejszej sekcji dotyczącej łącznika SAP BW Connector w wersji 1. 
 
 ### <a name="new-options-for-implementation-20"></a>Nowe opcje dla wersji Implementation 2.0 
 
@@ -163,7 +163,7 @@ Zmiana istniejących raportów w celu używania implementacji **Implementation 2
 
     ![fragment kodu zapytania](media/desktop-sap-bw-connector/sap_bw_12.png)
 
-4. Dołożono wszelkich starań, aby zapewnić zgodność wersji Implementation 2.0 łącznika SAP BW Connector ze standardowym łącznikiem SAP BW Connector. Jednak mogą istnieć pewne różnice spowodowane używaniem różnych trybów wykonywania kodu języka MDX systemu SAP BW. Aby rozwiązać niezgodności, spróbuj przełączyć się między trybami wykonywania.
+4. Dołożono wszelkich starań, aby zapewnić zgodność wersji Implementation 2.0 łącznika SAP BW Connector z łącznikiem SAP BW Connector w wersji 1. Jednak mogą istnieć pewne różnice spowodowane używaniem różnych trybów wykonywania kodu języka MDX systemu SAP BW. Aby rozwiązać niezgodności, spróbuj przełączyć się między trybami wykonywania.
 
 ## <a name="troubleshooting"></a>Rozwiązywanie problemów
 W tej sekcji omówiono sytuacje problemowe (i ich rozwiązania) dotyczące pracy z łącznikiem systemu **SAP BW**.

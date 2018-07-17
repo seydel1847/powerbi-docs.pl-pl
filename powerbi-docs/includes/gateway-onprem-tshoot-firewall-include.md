@@ -1,7 +1,7 @@
 ## <a name="firewall-or-proxy"></a>Zapora czy serwer proxy
 Więcej informacji na temat podawania danych dotyczących serwera proxy dla bramy zawiera artykuł [Konfigurowanie ustawień serwera proxy dla bram Power BI Gateway](../service-gateway-proxy.md).
 
-Możesz sprawdzić, czy zapora lub serwer proxy blokuje połączenia, uruchamiając polecenie [Test-NetConnection](https://technet.microsoft.com/library/dn372891.aspx) z poziomu wiersza polecenia programu PowerShell. To polecenie przetestuje połączenie z usługą Azure Service Bus. Służy ono tylko do testowania połączenia sieciowego i nie ma nic wspólnego z usługą serwera w chmurze ani z bramą. Pomaga ono ustalić, czy komputer może łączyć się z Internetem.
+Możesz sprawdzić, czy zapora lub serwer proxy blokuje połączenia, uruchamiając polecenie [Test-NetConnection](https://docs.microsoft.com/powershell/module/nettcpip/test-netconnection) z poziomu wiersza polecenia programu PowerShell. To polecenie przetestuje połączenie z usługą Azure Service Bus. Służy ono tylko do testowania połączenia sieciowego i nie ma nic wspólnego z usługą serwera w chmurze ani z bramą. Pomaga ono ustalić, czy komputer może łączyć się z Internetem.
 
     Test-NetConnection -ComputerName watchdog.servicebus.windows.net -Port 9350
 

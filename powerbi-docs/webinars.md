@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/09/2018
+ms.date: 06/13/2018
 ms.author: maikelson
-ms.openlocfilehash: 29aba440f92f37763dd9887b5fa7511d6191a5f7
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 8a20e5b9807f9495183ebb1e6bd396e68f02c1a1
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34299291"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137590"
 ---
 # <a name="power-bi-webinars"></a>Power BI — seminaria internetowe
 
@@ -22,25 +22,9 @@ Zarejestruj się, aby wziąć udział w seminariach internetowych lub obejrzyj n
 
 ## <a name="upcoming-webinars"></a>Nadchodzące seminaria internetowe
 
-Zarejestruj się, aby uzyskać informacje od ekspertów w zakresie usługi Power BI i wziąć udział w sesjach pytań i odpowiedzi na żywo
+Nie ma jeszcze zaplanowanych seminariów internetowych. Wróć tu za jakiś czas, aby znaleźć więcej nowych wydarzeń.
 
-**Draw the right insights with Power BI and Visio** (Uzyskiwanie wglądu we właściwe dane szczegółowe dzięki usłudze Power BI i programowi Visio)
-<br>Autor: Shakun Grover
-<br>*22 maja 2018, 10:00 PST, 13:00 EST*
-
-Dołącz do nas podczas tego seminarium internetowego, aby dowiedzieć się, jak połączyć pulpity nawigacyjne usługi Power BI i diagramy programu Microsoft Visio w celu utworzenia zaawansowanych wizualnych informacji szczegółowych. Program Visio i usługa Power BI to rozwiązania w dużym stopniu wizualne, które uzupełniają się w naturalny sposób. Program Visio umożliwia tworzenie ilustracyjnych diagramów, takich jak połączone przepływy pracy i układy rzeczywiste. Usługa Power BI ułatwia tworzenie intuicyjnych pulpitów nawigacyjnych przy użyciu wykresów i map w celu mierzenia wartości kluczowych wskaźników wydajności i śledzenia celów.
-
-[Zarejestruj się, aby obejrzeć 22 maja](https://info.microsoft.com/ww-landing-powerbi-and-visio.html?Is=Website)
-
-**Learn about Power BI Embedded in 20 minutes** (Dowiedz się więcej o usłudze Power BI Embedded w 20 minut)
-<br>Autorzy: Megan Asarrane i Colin Murphy
-<br>*23 maja 2018, 10:00 PST, 13:00 EST*
-
-To seminarium internetowe przedstawia wprowadzenie do usługi Power BI Embedded. Na koniec tego seminarium użytkownicy powinni rozumieć, czym jest usługa Power BI Embedded, oraz wiedzieć, jakie kolejne kroki należy podjąć w celu rozpoczęcia pracy z produktem i gdzie można znaleźć pomoc/zasoby.
-
-[Zarejestruj się, aby obejrzeć 23 maja](https://info.microsoft.com/ww-landing-power-bi-embedded-in-20-min.html?Is=Website)
-
->[Weź udział w nadchodzących seminariach internetowych społeczności usługi Power BI](https://powerbi.microsoft.com/en-us/blog/tag/community-webinar?Is=Website)
+>[Weź udział w nadchodzących seminariach internetowych społeczności usługi Power BI](https://powerbi.microsoft.com/en-us/blog/tag/community-webinars/?Is=Website)
 
 ## <a name="featured-webinars"></a>Polecane seminaria internetowe
 
@@ -78,15 +62,27 @@ Oglądaj nagrane sesje w dowolnym momencie
 <br>Autor: Charles Sterling
 <br>[Obejrzyj teraz](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-3-17-Webinar-How-to-Design-Visually-Stunning-Power-BI-Reports/m-p/168204?Is=Website)
 
+**Learn about Power BI Embedded in 20 minutes** (Dowiedz się więcej o usłudze Power BI Embedded w 20 minut)
+<br>Autorzy: Megan Asarrane i Colin Murphy
+<br>[Zarejestruj się i obejrzyj teraz](https://info.microsoft.com/ww-landing-power-bi-embedded-in-20-min.html?Is=Website)
+
 **Beyond the Spreadsheet** (Podróż poza arkusz kalkulacyjny)
 <br>Autor: Gohul Shanmugalingam
 <br>[Zarejestruj się i obejrzyj teraz](https://info.microsoft.com/CA-PowerBI-WBNR-FY18-05May-09-DataBeyondtheSpreadsheet-MCW0006385_01Registration-ForminBody.html?Is=Website)
+
+**Draw the right insights with Power BI and Visio** (Uzyskiwanie wglądu we właściwe dane szczegółowe dzięki usłudze Power BI i programowi Visio)
+<br>Autor: Shakun Grover
+<br>[Zarejestruj się i obejrzyj teraz](https://info.microsoft.com/ww-landing-powerbi-and-visio.html?Is=Website)
 
 **Zmienianie raportu z dobrego w ŚWIETNY**
 <br>Autor: Reid Havens
 <br>[Obejrzyj teraz](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Power-BI-Transforming-A-Report-From-Good-to-GREAT/m-p/315119?Is=Website)
 
 ### <a name="partners"></a>Partnerzy ###
+
+**Boost Your BI with Location Intelligence** (Udoskonalaj analizę biznesową dzięki analizie lokalizacji)
+<br>Autorzy: Scott Ball (Esri) i Enrique Plaza (Microsoft)
+<br>[Zarejestruj się i obejrzyj teraz](https://info.microsoft.com/ww-ondeamnd-boost-powerbi-with-arcgis.html?Is=Website)
 
 **Improving Profitability in Healthcare** (Poprawa rentowności opieki zdrowotnej)
 <br>Autorzy: Stephen Cracknell i Stuart Macanliss (US Medical IT)
@@ -172,7 +168,7 @@ Oglądaj nagrane sesje w dowolnym momencie
 
 - [Microsoft Data Insights Summit 2017 on-demand sessions](https://community.powerbi.com/t5/Data-Insights-Summit-2017-On/bd-p/DataInsightsSummit2017OnDemand?Is=Website) (Sesje na żądanie w ramach spotkania Microsoft Data Insights Summit 2017)
 
-- [Wprowadzenie do usługi Power BI](service-get-started.md)
+- [Co to jest usługa Power BI?](power-bi-overview.md)
 
 - Obserwuj [@MSPowerBI na Twitterze](https://twitter.com/mspowerbi)
 

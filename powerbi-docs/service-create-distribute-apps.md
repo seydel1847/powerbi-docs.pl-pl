@@ -6,15 +6,15 @@ manager: kfile
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 02/22/2018
+ms.date: 06/20/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 6efd54d868a5a1f2d8d657d352c7133d4036b0b6
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 25aa03c12b36bf19c05fe01dc6c24a0e4a3a2416
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34254837"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36965302"
 ---
 # <a name="create-and-publish-apps-with-dashboards-and-reports-in-power-bi"></a>Tworzenie i publikowanie aplikacji z pulpitami nawigacyjnymi i raportami w usłudze Power BI
 
@@ -22,17 +22,15 @@ W usłudze Power BI można tworzyć *aplikacje*, aby zebrać w jednym miejscu po
 
 ![Aplikacje usługi Power BI](media/service-create-distribute-apps/power-bi-apps-left-nav.png)
 
-Aby sprawnie działać, użytkownicy biznesowi często potrzebują wielu pulpitów nawigacyjnych i raportów usługi Power BI. Aplikacje zbierają wszystkie te elementy w jednym miejscu, tak aby nie trzeba było pamiętać nazw i lokalizacji wszystkich pulpitów nawigacyjnych.  
-
-Dzięki aplikacjom usługi Power BI, dostępnym teraz w wersji zapoznawczej, możesz tworzyć kolekcje pulpitów nawigacyjnych i raportów i udostępniać te aplikacje całej organizacji lub konkretnym osobom lub grupom. Z perspektywy administratora lub autora raportu aplikacje ułatwiają zarządzanie uprawnieniami do kolekcji pulpitów nawigacyjnych.
+Aby sprawnie działać, użytkownicy biznesowi często potrzebują wielu pulpitów nawigacyjnych i raportów usługi Power BI. Aplikacje zbierają wszystkie te elementy w jednym miejscu, tak aby nie trzeba było pamiętać nazw i lokalizacji wszystkich pulpitów nawigacyjnych. Dzięki aplikacjom usługi Power BI możesz tworzyć kolekcje pulpitów nawigacyjnych i raportów i udostępniać te aplikacje całej organizacji lub konkretnym osobom lub grupom. Z perspektywy administratora lub autora raportu aplikacje ułatwiają zarządzanie uprawnieniami do kolekcji pulpitów nawigacyjnych.
 
 Użytkownicy biznesowi mogą uzyskać te aplikacje na kilka różnych sposobów. Jeśli administrator usługi Power BI przyzna Ci odpowiednie uprawnienia, możesz automatycznie instalować je na kontach usługi Power BI swoich współpracowników. Jeśli nie, mogą oni zainstalować aplikacje z witryny Microsoft AppSource lub otrzymać bezpośredni link. Mogą łatwo odnaleźć Twoją zawartość lub do niej wrócić, ponieważ wszystko znajduje się w jednym miejscu. Mogą automatycznie uzyskiwać aktualizacje, a Ty możesz kontrolować, jak często dane są odświeżane. Dowiedz się więcej na temat [aplikacji dla użytkowników biznesowych](service-install-use-apps.md).
 
 ### <a name="licenses-for-apps"></a>Licencje na aplikacje
-Będąc twórcą aplikacji, potrzebujesz licencji usługi Power BI Pro. Użytkownicy aplikacji mają dwie opcje.
+Będąc twórcą aplikacji, potrzebujesz licencji usługi Power BI Pro. Użytkownicy aplikacji mają dwie opcje wyświetlania aplikacji.
 
-* Opcja 1. Wszyscy użytkownicy biznesowi potrzebują licencji usługi **Power BI Pro**, aby móc wyświetlać Twoją aplikację. 
-* Opcja 2. Użytkownicy wersji bezpłatnej w Twojej organizacji mogą wyświetlać zawartość aplikacji, jeśli Twoja aplikacja jest przechowywana w pojemności usługi Power BI Premium. Przeczytaj artykuł [Co to jest usługa Power BI Premium?](service-premium.md), aby zapoznać się ze szczegółowymi informacjami.
+* Opcja 1: użytkownik aplikacji ma przypisaną licencję usługi **Power BI Pro**. 
+* Opcja 2: użytkownik aplikacji nie ma przypisanej licencji usługi **Power BI Pro**, ale aplikacja działa w pojemności usługi Power BI Premium. Przeczytaj artykuł [Co to jest usługa Power BI Premium?](service-premium.md), aby zapoznać się ze szczegółowymi informacjami.
 
 ### <a name="apps-and-organizational-content-packs"></a>Aplikacje i pakiety zawartości organizacji
 Aplikacje są kolejnym etapem ewolucji pakietów zawartości organizacji. Jeśli masz już pakiety zawartości organizacji, będą one nadal działały równolegle z aplikacjami.

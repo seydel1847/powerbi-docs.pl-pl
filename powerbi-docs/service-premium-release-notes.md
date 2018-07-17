@@ -10,17 +10,17 @@ ms.topic: conceptual
 ms.date: 09/11/2017
 ms.author: mgblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 3cf20899e705328c9f63bdbede4c30bd69488762
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 52c6293bacb2cae1d74a7a0459c61fe3c3bc201f
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34298325"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944358"
 ---
 # <a name="power-bi-premium-release-notes"></a>Informacje o wersji usługi Power BI Premium
 To są informacje o wersji usługi Power BI Premium o dedykowanej pojemności zapewniającej Twojej organizacji lub zespołowi bardziej niezawodną wydajność, większe woluminy danych oraz możliwość dystrybucji zawartości bez licencji na użytkownika dla przeglądarek.
 
-* Użytkownicy mający bezpłatne licencje usługi Power BI mogą teraz wyświetlać pulpity nawigacyjne udostępniane im z obszarów roboczych Premium w usłudze Power BI.
+* Wszyscy użytkownicy, bez względu na przypisane do nich licencje, mogą teraz wyświetlać pulpity nawigacyjne udostępniane im z obszarów roboczych Premium w usłudze Power BI.
 * Administratorzy pojemności teraz automatycznie pobierają uprawnienia do przypisywania pojemności.
 * Dynamiczne zabezpieczenia na poziomie wiersza są teraz dostępne dla osadzonych przypadków użycia. Aby uzyskać więcej informacji, zobacz [Zabezpieczenia na poziomie wiersza z osadzoną analityką](developer/embedded-row-level-security.md).
 * Dystrybucja aplikacji usługi Power BI dla użytkowników w innych dzierżawach usługi AAD przy użyciu witryny powerbi.com nie jest jeszcze obsługiwana. Pracujemy nad włączeniem tego.

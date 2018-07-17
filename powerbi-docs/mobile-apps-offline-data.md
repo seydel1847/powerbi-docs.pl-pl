@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 01/16/2018
+ms.date: 06/27/2018
 ms.author: maggies
-ms.openlocfilehash: 5dd171ccd7d8859286abeac2f87771b454421448
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: cade8b126742610814f47587c950458796cca474
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34292851"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136484"
 ---
 # <a name="view-your-data-offline-in-the-power-bi-mobile-apps"></a>Wyświetlanie danych w trybie offline w aplikacjach mobilnych Power BI
 Dotyczy:
@@ -55,7 +55,8 @@ Jeśli pracujesz w trybie offline z usługą Power BI na urządzeniu przenośnym
 * Usługa Power BI może buforować do 250 MB danych w trybie offline.
 * Niektóre typy kafelków wymagają aktywnego połączenia z serwerem, więc nie są dostępne w trybie offline, np. kafelki map Bing i niektóre kafelki niestandardowe.
 * Całe skoroszyty programu Excel w usłudze Power BI nie są dostępne w trybie offline.
-* Możesz wyświetlić raporty dla urządzeń przenośnych usług Reporting Services oraz kluczowe wskaźniki wydajności w trybie offline, jeśli wyświetlano je podczas połączenia. Nie są one odświeżane w tle. Są odświeżane przy każdym otworzeniu. 
+* Możesz wyświetlić raporty dla urządzeń przenośnych usług Reporting Services oraz kluczowe wskaźniki wydajności w trybie offline, jeśli wyświetlano je podczas połączenia. Nie są one odświeżane w tle. Są odświeżane przy każdym otworzeniu.
+* W aplikacjach mobilnych usługi Power BI nie można wyświetlać plików programu Power BI Desktop (PBIX) zapisanych na serwerze raportów usługi Power BI. 
 
 ## <a name="next-steps"></a>Następne kroki
 Twoja opinia pomoże nam zdecydować, co należy zaimplementować w przyszłości. Nie zapomnij więc zagłosować na inne funkcje, które chcesz zobaczyć w aplikacjach mobilnych usługi Power BI. 
@@ -63,5 +64,5 @@ Twoja opinia pomoże nam zdecydować, co należy zaimplementować w przyszłośc
 * [Aplikacje Power BI dla urządzeń przenośnych](mobile-apps-for-mobile-devices.md)
 * Obserwuj @MSPowerBI na Twitterze
 * Dołącz do konwersacji w [społeczności usługi Power BI](http://community.powerbi.com/)
-* [Wprowadzenie do usługi Power BI](service-get-started.md)
+* [Co to jest usługa Power BI?](power-bi-overview.md)
 

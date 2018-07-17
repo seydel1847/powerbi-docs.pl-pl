@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 2761b2bd1230e18b5dd4e0b69342e55ed33d0983
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: e44d4bb48289b515797167fb3b91a9bbf0d2bcdd
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34250831"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092166"
 ---
 # <a name="connect-to-uservoice-with-power-bi"></a>Nawiązywanie połączenia z usługą UserVoice przy użyciu usługi Power BI
 Przy użyciu usługi Power BI i pakietu zawartości UserVoice można łatwo śledzić i eksplorować dane w usłudze UserVoice. Usługa Power BI pobiera dane, w tym zgłoszenia, sugestie i oceny zadowolenia, a następnie na ich podstawie tworzy gotowy pulpit nawigacyjny i raporty.
@@ -35,7 +35,7 @@ Połącz się z [pakietem zawartości UserVoice](https://app.powerbi.com/getdata
 3. Wybierz pozycję **UserVoice**, a następnie **Pobierz**.
    
    ![](media/service-connect-to-uservoice/uservoice.png)
-4. Po wyświetleniu monitu wprowadź adres URL usługi UserVoice. Adres URL musi być w pełni zgodny ze wzorcem https://fabrikam.uservoice.com, przy czym część „fabrikam” należy zastąpić nazwą swojego produktu lub usługi.
+4. Po wyświetleniu monitu wprowadź adres URL usługi UserVoice. Adres URL musi być w pełni zgodny ze wzorcem `https://fabrikam.uservoice.com`, przy czym część „fabrikam” należy zastąpić nazwą swojego produktu lub usługi.
    
    >[!NOTE]
    >Adres nie zawiera końcowego ukośnika, a połączenie jest nawiązywane za pośrednictwem protokołu **https**.
@@ -63,7 +63,7 @@ Połącz się z [pakietem zawartości UserVoice](https://app.powerbi.com/getdata
 
 Jeśli po wpisaniu adresu URL usługi UserVoice pojawi się ten komunikat o błędzie, Upewnij się, że są spełnione następujące wymagania:
 
-* Adres URL jest w pełni zgodny ze wzorcem „https://fabrikam.uservoice.com”. Część „fabrikam” została zastąpiona poprawnym prefiksem adresu URL usługi UserVoice.
+* Adres URL jest w pełni zgodny ze wzorcem `https://fabrikam.uservoice.com`. Część „fabrikam” została zastąpiona poprawnym prefiksem adresu URL usługi UserVoice.
 * Upewnij się, że wszystkie litery są małymi literami.
 * Adres URL musi zaczynać się od **https**.
 * Na końcu adresu URL nie może znajdować się ukośnik.

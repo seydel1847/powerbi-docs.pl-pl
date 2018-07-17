@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/22/2018
+ms.date: 06/26/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: b6ef85549b729b1a91aa4a9a5f4686dcbbabaeb1
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a90dbf4341bd801c4ab7de05b68211be62a4d69d
+ms.sourcegitcommit: db03649b8241bf34566968bbede8c9a0d35852fd
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34471990"
+ms.lasthandoff: 06/28/2018
+ms.locfileid: "37067106"
 ---
 # <a name="what-sample-data-is-available-to-use-with-power-bi"></a>Jakie przykładowe dane są dostępne do użycia w usłudze Power BI?
 Załóżmy, że jesteś nowym użytkownikiem usługi Power BI i chcesz ją wypróbować, ale nie masz żadnych danych.  A może masz zestaw danych, ale ponieważ nie rozumiesz (jeszcze) jak działa usługa Power BI, martwisz się, że możesz w jakiś sposób uszkodzić swój zestaw danych?
@@ -173,21 +173,21 @@ Chcesz zrozumieć, w jaki sposób dane w skoroszycie programu Excel są konwerto
 ## <a name="the-power-bi-samples-as-pbix-files"></a>Przykłady usługi Power BI jako pliki pbix
 Każdy z tych przykładowych pakietów zawartości jest również dostępny jako plik pbix usługi Power BI. Pliki pbix są przeznaczone do użytku z programem Power BI Desktop.  
 
-1. Pobierz poszczególne pliki, korzystając z poniższych linków.
+1. Pobierz poszczególne pliki, korzystając z poniższych linków. Wybranie tych linków powoduje automatyczne zapisanie plików w folderze Pobrane. 
 
-   * [Przykład Retail Analysis](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail-Analysis-Sample-PBIX.pbix)
-   * [Przykład Supplier Quality Analysis](http://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier-Quality-Analysis-Sample-PBIX.pbix)
-   * [Przykład Human Resources](http://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human-Resources-Sample-PBIX.pbix)
-   * [Przykład Customer Profitability](http://download.microsoft.com/download/6/A/9/6A93FD6E-CBA5-40BD-B42E-4DCAE8CDD059/Customer-Profitability-Sample-PBIX.pbix)
-   * [Przykład Opportunity Tracking](http://download.microsoft.com/download/9/1/5/915ABCFA-7125-4D85-A7BD-05645BD95BD8/Opportunity-Analysis-Sample-PBIX.pbix)
-   * [Przykład IT Spend Analysis](http://download.microsoft.com/download/E/9/8/E98CEB6D-CEBB-41CF-BA2B-1A1D61B27D87/IT-Spend-Analysis-Sample-PBIX.pbix)
-   * [Przykład Procurement Analysis](http://download.microsoft.com/download/D/5/3/D5390069-F723-413B-8D27-5888500516EB/Procurement-Analysis-Sample-PBIX.pbix)
-   * [Przykład Sales and Marketing](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales-and-Marketing-Sample-PBIX.pbix)
-2. Zapisz pobrany plik.
-3. W programie Desktop wybierz opcję **Plik > Otwórz** i przejdź do lokalizacji, w której zapisano przykładowy plik pbix.
+   * [Przykład Retail Analysis Sample — PBIX](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)
+   * [Przykład Supplier Quality Analysis — PBIX](http://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier%20Quality%20Analysis%20Sample%20PBIX.pbix)
+   * [Przykład Human Resources — PBIX](http://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human%20Resources%20Sample%20PBIX.pbix)
+   * [Przykład Customer Profitability — PBIX](http://download.microsoft.com/download/6/A/9/6A93FD6E-CBA5-40BD-B42E-4DCAE8CDD059/Customer%20Profitability%20Sample%20PBIX.pbix)
+   * [Przykład Opportunity Tracking — PBIX](http://download.microsoft.com/download/9/1/5/915ABCFA-7125-4D85-A7BD-05645BD95BD8/Opportunity%20Analysis%20Sample%20PBIX.pbix)
+   * [Przykład IT Spend Analysis — PBIX](http://download.microsoft.com/download/E/9/8/E98CEB6D-CEBB-41CF-BA2B-1A1D61B27D87/IT%20Spend%20Analysis%20Sample%20PBIX.pbix)
+   * [Przykład Procurement Analysis — PBIX](http://download.microsoft.com/download/D/5/3/D5390069-F723-413B-8D27-5888500516EB/Procurement%20Analysis%20Sample%20PBIX.pbix)
+   * [Przykład Sales and Marketing — PBIX](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix)
+
+1. W programie Power BI Desktop wybierz pozycję **Plik > Otwórz** i przejdź do lokalizacji, w której zapisano plik PBIX przykładu.
 
    ![](media/sample-datasets/power-bi-desktop-open.png)
-4. Wybierz plik pbix, aby otworzyć go w programie Desktop.
+4. Wybierz plik PBIX, aby otworzyć go w programie Power BI Desktop.
 
 ## <a name="next-steps"></a>Następne kroki
 [Power BI — podstawowe pojęcia](service-basic-concepts.md)

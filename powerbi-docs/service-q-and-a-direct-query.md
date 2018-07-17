@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 7402bc638f27175e1c8e1f733fefd508850d9943
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 75636885da6357a756508558841c99435aa5f442
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34245587"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092189"
 ---
 # <a name="enable-qa-for-live-connections"></a>Włączanie funkcji pytań i odpowiedzi dla połączeń na żywo
 ## <a name="what-is-on-premises-data-gateway--what-is-a-live-connection"></a>Co to jest lokalna brama danych?  Co to jest połączenie na żywo?
@@ -56,6 +56,7 @@ Wersja zapoznawcza tej funkcji ma kilka ograniczeń:
 
 * Początkowo funkcja jest dostępna tylko dla tabelarycznych źródeł danych usług SQL Server 2016 Analysis Services. Funkcja jest zoptymalizowana pod kątem pracy z danymi tabelarycznymi. Część funkcjonalności jest dostępna dla źródeł danych wielowymiarowych, lecz wielowymiarowość nie jest jeszcze w pełni obsługiwana przez funkcję pytań i odpowiedzi. W przyszłości będą wprowadzane dodatkowe źródła danych obsługiwane przez lokalną bramę danych.
 * Pełna obsługa zabezpieczeń na poziomie wiersza zdefiniowanych w usługach SQL Server Analysis Services nie jest początkowo dostępna w publicznej wersji zapoznawczej. W ramach zadawania pytań za pomocą funkcji pytań i odpowiedzi, autouzupełnianie może podczas wpisywania pokazywać ciągi, do których użytkownik nie ma dostępu. Jednak zabezpieczenia na poziomie wiersza zdefiniowane w modelu są uwzględniane w przypadku raportów i wizualizacji wykresów, dzięki czemu bazowe dane liczbowe nie są ujawniane. Opcje kontrolowania tego zachowania zostaną wydane w nadchodzących aktualizacjach.
+* Zabezpieczenia na poziomie obiektu nie są obsługiwane. Funkcja pytań i odpowiedzi nie uwzględnia zabezpieczeń na poziomie obiektu i może ujawnić nazwy tabel lub kolumn użytkownikom, którzy nie mają do nich dostępu. Aby upewnić się, że również wartości danych są odpowiednio zabezpieczone, należy włączyć zabezpieczenia na poziomie wiersza. 
 * Połączenia na żywo są obsługiwane tylko dla lokalnej bramy danych. W związku z tym nie można ich użyć dla bramy osobistej.
 
 ## <a name="next-steps"></a>Następne kroki

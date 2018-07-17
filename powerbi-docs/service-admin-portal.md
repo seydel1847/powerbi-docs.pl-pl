@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/02/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: a604f50889d4443ba7c8e7da580275e579f69d15
-ms.sourcegitcommit: 4b61588e3ab3c8bbb17276402dbf7fa00085a266
+ms.openlocfilehash: e2b61f84b459d3b14c2cd066e0261dcdb1b8a5ef
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "35301831"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36965509"
 ---
 # <a name="power-bi-admin-portal"></a>Portal administracyjny usługi Power BI
 
@@ -99,6 +99,8 @@ Aby uzyskać więcej informacji o dziennikach inspekcji, zobacz [Inspekcja usłu
 ## <a name="tenant-settings"></a>Ustawienia dzierżawy
 
 Trzeci karta w portalu administracyjnym to **Ustawienia dzierżawy**. Ustawienia dzierżawy zapewniają więcej kontroli nad funkcjami, które są dostępne w organizacji. Jeśli masz obawy związane z poufnymi danymi, niektóre z funkcji mogą nie być odpowiednie dla Twojej organizacji. Możesz też zdecydować, że dana funkcja będzie dostępna tylko dla wybranej grupy. Jeśli tak jest, możesz ją wyłączyć w dzierżawie.
+
+Na przykład dane na użytkownika są włączone dla metryki użycia domyślnie, a informacje o koncie autora zawartości są uwzględniane w raporcie metryki. Jeśli nie chcesz uwzględnić tych informacji dla niektórych lub wszystkich użytkowników, wyłączyć funkcję dla określonych grup zabezpieczeń lub całej organizacji. Informacje o koncie będą wyświetlane w raporcie jako *Bez nazwy*.
 
 ![](media/service-admin-portal/powerbi-admin-tenant-settings.png)
 
@@ -235,7 +237,7 @@ Użytkownicy w organizacji mogą interaktywnie współpracować przy użyciu nie
 
 ## <a name="r-visuals-settings"></a>Ustawienia elementów wizualnych języka R
 
-### <a name="interact-with-an-dshare-r-visuals"></a>Wchodzenie w interakcje z elementami wizualnymi języka R oraz ich udostępnianie
+### <a name="interact-with-and-share-r-visuals"></a>Korzystaj z wizualizacji języka R i udostępniaj je
 
 Użytkownicy w organizacji mogą wchodzić w interakcje z elementami wizualnymi utworzonymi przy użyciu skryptów języka R oraz je udostępniać. [Dowiedz się więcej](service-r-visuals.md)
 

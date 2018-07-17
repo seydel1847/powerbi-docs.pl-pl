@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 05/25/2018
+ms.date: 06/22/2018
 ms.author: maghan
-ms.openlocfilehash: 2e899593cbe3453381dd2d3457cec97467aec4d6
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 82a4c9c58567f5ace943363b7bed59fa744e85a5
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34561752"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944105"
 ---
 # <a name="embedding-with-power-bi"></a>Osadzanie przy użyciu usługi Power BI
 Usługa Power BI oferuje interfejsy API do osadzania Twoich pulpitów nawigacyjnych i raportów w aplikacjach. Interfejsy API usługi Power BI oferują spójny zestaw funkcji oraz dostęp do najnowszych elementów usługi Power BI — takich jak pulpity nawigacyjne, bramy i obszary robocze aplikacji — podczas osadzania zawartości.
@@ -29,7 +29,7 @@ Aby zobaczyć przykład działania osadzania, zobacz [Przykład osadzania przy u
 ## <a name="embedding-for-your-organization"></a>Osadzanie dla swojej organizacji
 Osadzanie dla swojej organizacji umożliwia rozszerzanie usługi Power BI. Wymaga to, aby użytkownicy Twojej aplikacji zalogowali się w usłudze Power BI, gdy będą chcieli wyświetlić swoją zawartość. Gdy ktoś w Twojej organizacji się zaloguje, będzie miał dostęp tylko do pulpitów nawigacyjnych i raportów, których jest właścicielem lub które zostały mu udostępnione w usłudze Power BI. 
 
-*Do przykładów osadzania dla swojej organizacji należą wewnętrzne aplikacje internetowe, składnik Web Part usługi SharePoint Online i integracja aplikacji Microsoft Teams.*
+*Do przykładów osadzania dla swojej organizacji należą wewnętrzne aplikacje internetowe, składnik Web Part usługi SharePoint Online i [integracja aplikacji Microsoft Teams (musisz mieć prawa administratora)](https://powerbi.microsoft.com/en-us/blog/power-bi-teams-up-with-microsoft-teams/).*
 
 W przypadku osadzania dla swojej organizacji zobacz poniższe tematy:
 

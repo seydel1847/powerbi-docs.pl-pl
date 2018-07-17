@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/22/2018
+ms.date: 06/20/2018
 ms.author: maghan
 LocalizationGroup: Data from databases
-ms.openlocfilehash: f264dadf9d9d91083094d393e1b63d9f53aaca4c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 0f2c3649a2c6e0582fe7536473f7a6ee9067ee1d
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722364"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137450"
 ---
 # <a name="azure-sql-data-warehouse-with-directquery"></a>Usługa Azure SQL Data Warehouse z zapytaniem bezpośrednim
 Usługa Azure SQL Data Warehouse z zapytaniem bezpośrednim umożliwia tworzenie dynamicznych raportów na podstawie danych i metryk, które już znajdują się w usłudze Azure SQL Data Warehouse. Dzięki zapytaniu bezpośredniemu zapytania są wysyłane do usługi Azure SQL Data Warehouse w czasie rzeczywistym, gdy eksplorujesz dane. W połączeniu ze skalą usługi SQL Data Warehouse umożliwia to użytkownikom tworzenie dynamicznych raportów w kilka minut w obliczu terabajtów danych. Ponadto wprowadzenie przycisku **Otwórz w usłudze Power BI** umożliwia użytkownikom bezpośrednie łączenie usługi Power BI z usługą SQL Data Warehouse bez konieczności ręcznego określania informacji.
@@ -32,6 +32,11 @@ W przypadku używania łącznika usługi SQL Data Warehouse:
 Te ograniczenia i uwagi mogą ulegać zmianom, gdy będziemy kontynuować proces ulepszania środowisk. Etapy łączenia się są szczegółowo opisane poniżej.
 
 ## <a name="using-the-open-in-power-bi-button"></a>Użycie przycisku „Otwórz w usłudze Power BI”
+
+> [!Important]
+> Pracowaliśmy nad ulepszeniem łączności z usługą Azure SQL Data Warehouse.  Aby uzyskać najlepsze wyniki podczas łączenia ze źródłem danych usługi Azure SQL Data Warehouse, użyj programu Power BI Desktop.  Po skompilowaniu modelu i raportów możesz opublikować go w usłudze Power BI.  Bezpośredni łącznik z usługą Azure SQL Data Warehouse w usłudze Power BI jest już przestarzały.
+>
+
 Najprostszym sposobem na przemieszczanie się między usługą SQL Data Warehouse i usługą Power BI jest użycie przycisku **Otwórz w usłudze Power BI** znajdującego się w witrynie Azure Portal w wersji zapoznawczej. Ten przycisk pozwala na łatwe rozpoczęcie tworzenia nowych pulpitów nawigacyjnych w usłudze Power BI.
 
 1. Aby rozpocząć, przejdź do swojego wystąpienia usługi SQL Data Warehouse w witrynie Azure Portal w wersji zapoznawczej. Pamiętaj, że usługa SQL Data Warehouse jest obecna w witrynie Azure Portal w wersji zapoznawczej tylko w tej chwili.
@@ -82,7 +87,7 @@ W pełni kwalifikowaną nazwę serwera i nazwę bazy danych można znaleźć w w
 >
 
 ## <a name="next-steps"></a>Następne kroki
-[Wprowadzenie do usługi Power BI](service-get-started.md)  
+[Co to jest usługa Power BI?](power-bi-overview.md)  
 [Pobieranie danych dla usługi Power BI](service-get-data.md)  
 [Azure SQL Data Warehouse](https://azure.microsoft.com/documentation/services/sql-data-warehouse/)  
 

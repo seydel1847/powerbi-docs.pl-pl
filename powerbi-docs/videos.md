@@ -9,12 +9,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 05/19/2018
 ms.author: mihart
-ms.openlocfilehash: bf196ccf45e964f6fc1044723f7232eaf60230e7
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: fda707d3f36e6db2157d04887780bb957567a523
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34471806"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136254"
 ---
 # <a name="power-bi-videos"></a>Power BI — wideo
 Mamy kanał serwisu YouTube dla usługi Power BI! Możesz odwiedzić [nasz kanał](https://www.youtube.com/user/mspowerbi/videos) i, jeśli jesteś nowym użytkownikiem usługi Power BI, dobrym miejscem do rozpoczęcia jest lista odtwarzania [Analyze and Visualize data with Power BI](https://www.youtube.com/playlist?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP) (Analizowanie i wizualizacja danych za pomocą usługi Power BI).
@@ -46,7 +46,7 @@ Zapoznaj się z następującą kolekcją źródeł i zawartości, aby zobaczyć 
 * [Guy in a Cube channel](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w) (Guy w kanale Cube) — świeże wideo dotyczące funkcji i możliwości usługi Power BI
 
 ## <a name="next-steps"></a>Następne kroki
-[Wprowadzenie do usługi Power BI](service-get-started.md)
+[Co to jest usługa Power BI?](power-bi-overview.md)
 
 Masz więcej pytań? [Zadaj pytanie społeczności usługi Power BI](http://community.powerbi.com/)
 

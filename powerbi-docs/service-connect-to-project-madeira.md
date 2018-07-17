@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: b4462d8ef5037cf4fe76a6ff061b7993e8d8ec44
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 1ce4fe4e80138995e7ec356b92f31e45f3a2c920
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34245610"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599789"
 ---
 # <a name="connect-to-project-madeira-with-power-bi"></a>Łączenie się z projektem Project Madeira przy użyciu usługi Power BI
 Pobieranie szczegółowych informacji o danych projektu Project Madeira przy użyciu usługi Power BI i pakietu zawartości projektu Project Madeira jest łatwe. Usługa Power BI pobiera dane, zarówno dotyczące sprzedaży, jak i finansowe, a następnie tworzy gotowe pulpity nawigacyjne i raporty na podstawie tych danych.
@@ -33,7 +33,7 @@ Połącz się z [pakietem zawartości Project Madeira Analytics](https://app.pow
     ![](media/service-connect-to-project-madeira/services.png)
 3. Wybierz kolejno opcje **Project Madeira** i **Pobierz**.  
     ![](media/service-connect-to-project-madeira/projectmadeira.png)
-4. Po wyświetleniu monitu wprowadź adres URL projektu Project Madeira. Adres URL musi być w pełni zgodny ze wzorcem https://mycronusus.projectmadeira.com:7048/NAV/OData/Company('CRONUS%20US') z nazwą firmy z Twojego projektu „Madeira”. Adres nie zawiera końcowego ukośnika, a połączenie musi być nawiązane za pośrednictwem protokołu https. Informacje dotyczące tego, jak znaleźć ten adres URL, znajdują się [poniżej](#FindingParams).  
+4. Po wyświetleniu monitu wprowadź adres URL projektu Project Madeira. Adres URL musi być w pełni zgodny ze wzorcem <https://mycronusus.projectmadeira.com:7048/NAV/OData/Company('CRONUS%20US>') z nazwą firmy z Twojego projektu „Madeira”. Adres nie zawiera końcowego ukośnika, a połączenie musi być nawiązane za pośrednictwem protokołu https. Informacje dotyczące tego, jak znaleźć ten adres URL, znajdują się [poniżej](#FindingParams).  
    
     ![](media/service-connect-to-project-madeira/params.png)
 5. Po wyświetleniu monitu wybierz opcję uwierzytelniania Podstawowe, wprowadź adres e-mail projektu Project Madeira jako nazwę użytkownika, a następnie wprowadź klucz dostępu usługi internetowej dla konta projektu Project Madeira jako hasło. Jeśli już wcześniej zalogowano się w projekcie Project Madeira w przeglądarce, monit o poświadczenia może nie zostać wyświetlony. Sprawdź szczegółowe informacje dotyczące generowania tego klucza dostępu [poniżej](#FindingParams).  
@@ -93,10 +93,10 @@ Pulpit nawigacyjny usługi Power BI korzysta z opublikowanych usług internetowy
 
 Jeśli po wprowadzeniu adresu URL projektu Project Madeira zostanie wyświetlony ten komunikat o błędzie, upewnij się, że spełnione zostały następujące wymagania:  
 
-   - Adres URL jest zgodny ze wzorem https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('*CRONUS%20US*').  
-   - Usuń wszelki tekst po nazwie firmy w nawiasie.  
-   - Upewnij się, że na końcu adresu URL nie znajduje się ukośnik.  
-   - Upewnij się, że adres URL korzysta z bezpiecznego połączenia. Adres URL rozpoczynający się od https oznacza bezpieczne połączenie.  
+- Adres URL jest zgodny ze wzorem https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('<em>CRONUS%20US</em>').  
+- Usuń wszelki tekst po nazwie firmy w nawiasie.  
+- Upewnij się, że na końcu adresu URL nie znajduje się ukośnik.  
+- Upewnij się, że adres URL korzysta z bezpiecznego połączenia. Adres URL rozpoczynający się od https oznacza bezpieczne połączenie.  
 
 **„Logowanie nie powiodło się”** Jeśli podczas logowania do pulpitu nawigacyjnego przy użyciu poświadczeń projektu Project Madeira pojawi się komunikat „Logowanie nie powiodło się”, może być to spowodowane przez jeden z następujących problemów:  
 
@@ -104,16 +104,16 @@ Jeśli po wprowadzeniu adresu URL projektu Project Madeira zostanie wyświetlony
    - Wystąpienie projektu Project Madeira, z którym próbujesz nawiązać połączenie, nie ma ważnego certyfikatu SSL. W takim przypadku zobaczysz bardziej szczegółowy komunikat o błędzie („nie można ustanowić relacji zaufania SSL”). Należy pamiętać, że certyfikaty z podpisem własnym nie są obsługiwane.  
 
 **„Niestety”** Jeśli po przejściu okna dialogowego uwierzytelnienia wyświetli się okno dialogowe z komunikatem „Niestety”, jest to najczęściej spowodowane przez problem z połączeniem z danymi pakietu zawartości. Sprawdź, czy adres URL jest zgodny ze wzorem określonym wcześniej:  
-    https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('*CRONUS%20US*')
+    https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('<em>CRONUS%20US</em>')
 
 Powszechnym błędem jest wprowadzanie pełnego adresu URL konkretnej usługi internetowej:  
-    https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('*CRONUS%20US*')/powerbifinance
+    https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('<em>CRONUS%20US</em>')/powerbifinance
 
 Możliwe też, że brakuje nazwy firmy:   
-    https://*mycronusus*.projectmadeira.com:7048/NAV/OData/
+    https://<em>mycronusus</em>.projectmadeira.com:7048/NAV/OData/
 
 ## <a name="next-steps"></a>Następne kroki
-[Wprowadzenie do usługi Power BI](service-get-started.md)
+[Co to jest usługa Power BI?](power-bi-overview.md)
 
 [Power BI — podstawowe pojęcia](service-basic-concepts.md)
 

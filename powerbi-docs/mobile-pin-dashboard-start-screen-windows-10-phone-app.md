@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 01/25/2018
+ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 5492ed25dc5bd803661186694e7f9d3f4e19c30f
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 6ba62900206149f754f774f6bfd031aeb71f7437
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34291563"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37134851"
 ---
 # <a name="pin-a-dashboard-to-your-windows-10-start-screen-from-the-power-bi-mobile-app"></a>Przypinanie pulpitu nawigacyjnego do ekranu startowego systemu Windows 10 przy użyciu aplikacji mobilnej Power BI
 Aplikacja mobilna Power BI dla systemu Windows 10 umożliwia przypinanie pulpitów nawigacyjnych do ekranu startowego systemu Windows. Staną się one *dynamicznymi kafelkami*. Po naciśnięciu kafelka na ekranie startowym odpowiedni pulpit nawigacyjny zostanie otwarty w aplikacji mobilnej Power BI dla systemu Windows 10.
@@ -34,6 +34,6 @@ Aplikacja mobilna Power BI dla systemu Windows 10 umożliwia przypinanie pulpit�
 ## <a name="next-steps"></a>Następne kroki
 * [Pobieranie aplikacji mobilnej Power BI dla systemu Windows 10](http://go.microsoft.com/fwlink/?LinkID=526478) ze Sklepu Windows  
 * [Wprowadzenie do aplikacji mobilnej Power BI dla systemu Windows 10](mobile-windows-10-phone-app-get-started.md)  
-* [Wprowadzenie do usługi Power BI](service-get-started.md)
+* [Co to jest usługa Power BI?](power-bi-overview.md)
 * Masz pytania? [Zadaj pytanie społeczności usługi Power BI](http://community.powerbi.com/)
 

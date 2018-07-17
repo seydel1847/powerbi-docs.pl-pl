@@ -10,12 +10,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/13/2018
 ms.author: mihart
-ms.openlocfilehash: 691956dace3ad7592be6763c97517384b7560681
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.openlocfilehash: efddb15572705d6d1c7cb215250360e94a8546cb
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "34813600"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600363"
 ---
 # <a name="getting-a-custom-visual-certified"></a>*Certyfikowanie* wizualizacji niestandardowej
 ## <a name="what-is-meant-by-certified"></a>Co oznacza *certyfikowanie*?
@@ -39,7 +39,7 @@ Jesteś deweloperem internetowym i chcesz utworzyć własne wizualizacje oraz do
 Aby przesłać wizualizację niestandardową do certyfikacji:
 
 1. Wyślij wiadomość e-mail do działu pomocy technicznej w zakresie wizualizacji niestandardowych usługi Power BI (pbicvsupport@microsoft.com). W wiadomości e-mail uwzględnij następujące informacje:    
-   
+
    * Tytuł: Visual Certification Request    
    * Link do repozytorium w witrynie GitHub, w którym znajduje się kod źródłowy wizualizacji    
    * Zapewnij zgodność z wymogami (zobacz powyżej)    
@@ -51,6 +51,7 @@ Aby przesłać wizualizację niestandardową do certyfikacji:
 Firma Microsoft, według własnego uznania, może usunąć daną wizualizację z listy certyfikowanych wizualizacji.  
 
 ## <a name="list-of-custom-visuals-that-have-been-certified"></a>Lista certyfikowanych wizualizacji
+
 | Link do witryny AppSource | Link do klipu wideo |
 | --- | --- |
 | [Aster Plot](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380759) | |
@@ -100,6 +101,7 @@ Firma Microsoft, według własnego uznania, może usunąć daną wizualizację z
 | [Infographic Designer](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380898) | |
 | [Wykres KPI firmy Akvelon](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381432) | |
 | [KPI Column firmy MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380996) | [Klip wideo](https://youtu.be/rU0xoOlIq1U) |
+| [KPI Grid firmy MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380947) | [Klip wideo](https://youtu.be/dM4PvZh71V0) |
 | [KPI Indicator](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380832) | |
 | [KPI Ticker by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380946) | [Klip wideo](https://youtu.be/cudG4gsZ2V8) |
 | [Miernik liniowy firmy MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380821) | [Klip wideo](https://youtu.be/7_jFaM30dkc) |
@@ -126,7 +128,9 @@ Firma Microsoft, według własnego uznania, może usunąć daną wizualizację z
 | [Filtr tekstowy](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381309) | |
 | [Text Wrapper firmy MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380826) | |
 | [Thermometer firmy MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380847) | [Klip wideo](https://youtu.be/SPX9mgrAdBc) |
+| [Fragmentator Time Brush](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380798) | |
 | [Fragmentator osi czasu](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380786) | [Klip wideo](https://youtu.be/ozMtZ4_NZ10) |
+| [Timeline firmy CloudScope](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381427) | [Klip wideo](https://youtu.be/szNi9YgXFJc) |
 | [Tornado chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380768) | [Klip wideo](https://www.youtube.com/watch?v=AQvd2FhRyCI) |
 | [Trading Chart firmy MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380823) | [Klip wideo](https://youtu.be/xhTR6y6J9Ko) |
 | [Ultimate Variance](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381140) | [Klip wideo](https://youtu.be/pDYF8iZxERs) |

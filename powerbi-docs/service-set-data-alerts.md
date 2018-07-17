@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 321e66fd5ed185a92c98bf7832dc3b71944be98d
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: ffbad48df6665d5dff6c4eca97e86e6f2850565f
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34689719"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137589"
 ---
 # <a name="data-alerts-in-power-bi-service"></a>Alerty dotyczące danych w usłudze Power BI
 Ustaw alerty, aby otrzymywać powiadomienia, gdy zmiany dotyczące danych w pulpitach nawigacyjnych przekroczą ustalone progi. 
@@ -104,6 +104,6 @@ Istnieje wiele sposobów zarządzania alertami: z poziomu kafelka pulpitu nawiga
 ## <a name="next-steps"></a>Następne kroki
 [Tworzenie przepływu Microsoft Flow zawierającego alert dotyczący danych](service-flow-integration.md)    
 [Ustawianie alertów dotyczących danych na urządzeniu przenośnym](mobile-set-data-alerts-in-the-mobile-apps.md)    
-[Wprowadzenie do usługi Power BI](service-get-started.md)    
+[Co to jest usługa Power BI?](power-bi-overview.md)    
 Masz więcej pytań? [Zadaj pytanie społeczności usługi Power BI](http://community.powerbi.com/)
 

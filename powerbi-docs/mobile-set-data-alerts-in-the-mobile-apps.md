@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/18/2017
 ms.author: maggies
-ms.openlocfilehash: aa4aac1b0628fb0670a4265095ba2abcae3c1dcf
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 2ca419e1e07485ad29c486d8626e78d9605c8468
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34292575"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36965026"
 ---
 # <a name="set-data-alerts-in-the-power-bi-mobile-apps"></a>Ustawianie alertów danych w aplikacjach mobilnych Power BI
 Dotyczy:
@@ -25,7 +25,7 @@ Dotyczy:
 
 Możesz ustawić alerty na pulpitach nawigacyjnych w aplikacjach mobilnych usługi Power BI i w usłudze Power BI. Alerty powiadamiają Cię, gdy zmiany dotyczące danych w kafelku przekroczą ustalone limity. Alerty działają w przypadku kafelków prezentujących pojedyncze liczby, takich jak karty i mierniki, ale nie w przypadku danych przesyłanych strumieniowo. Alerty dotyczące danych można ustawić na urządzeniu przenośnym i wyświetlać je w usłudze Power BI oraz na odwrót. Tylko Ty możesz zobaczyć ustawione przez siebie alerty dotyczące danych, nawet jeśli udostępnisz pulpit nawigacyjny lub migawkę kafelka.
 
-Alerty na kafelkach możesz ustawić, jeśli masz licencję usługi Power BI Pro lub bezpłatną licencję usługi Power BI, a udostępniony pulpit nawigacyjny działa z pojemnością warstwy Premium. 
+Alerty na kafelkach możesz ustawić, jeśli masz licencję usługi Power BI Pro, a udostępniony pulpit nawigacyjny działa z pojemnością warstwy Premium. 
 
 > [!WARNING]
 > Powiadomienia o alertach oparte na danych dostarczają informacji o danych. Jeśli urządzenie zostanie skradzione, zalecamy przejście do usługi Power BI i wyłączenie wszystkich reguł alertów opartych na danych. 

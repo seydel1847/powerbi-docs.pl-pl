@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/05/2018
+ms.date: 07/03/2018
 ms.author: maggies
-ms.openlocfilehash: 9cf6e1a0b4e711f696d9728850352a53ac8442f6
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 645e1e40867f52718f2ec79a17cf1b5525a3d951
+ms.sourcegitcommit: 9efb94ddb254e9c03e9871ad232509065ee24bf2
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34799630"
+ms.lasthandoff: 07/06/2018
+ms.locfileid: "37864404"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Co nowego w aplikacjach mobilnych dla usługi Power BI
 Powiązane nowości są dostępne w następujących artykułach:
@@ -22,6 +22,16 @@ Powiązane nowości są dostępne w następujących artykułach:
 * [Blog zespołu usługi Power BI dotyczący aplikacji mobilnych](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Co nowego w programie Power BI Desktop](desktop-latest-update.md)  
 * [Co nowego w usłudze Power BI](service-whats-new.md)  
+
+## <a name="june-2018"></a>Czerwiec 2018
+
+### <a name="full-canvas-reports"></a>Raporty na pełnej kanwie
+
+Paski akcji u góry i u dołu znikają teraz wkrótce po załadowaniu raportu, widać więc większą część raportu jednocześnie.
+
+### <a name="increased-phone-report-canvas-size"></a>Większy rozmiar kanwy raportu na telefonie
+
+Zwiększyliśmy rozmiar kanwy raportu na telefonu, aby liczba wyświetlanych wizualizacji była większa niż wcześniej.
 
 ## <a name="may-2018"></a>Maj 2018
 

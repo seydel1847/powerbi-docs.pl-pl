@@ -10,17 +10,17 @@ ms.topic: conceptual
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 35bdf975d9df31ded5a7c3f5be26ae6181002169
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a6b4795be959cfc1842a07f1ba0a74dd81109e89
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34240435"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36965601"
 ---
 # <a name="interact-with-a-report-in-editing-view-in-power-bi-service"></a>Interakcje z raportem w widoku do edycji w usłudze Power BI
 Raporty można tworzyć i edytować w usłudze Power BI i w programie Power BI Desktop — jeśli masz uprawnienia właściciela. W usłudze Power BI raporty można tworzyć i edytować w **widoku do edycji**. W programie Power BI Desktop raporty można tworzyć i edytować w [**widoku raportu**](desktop-report-view.md). Ten artykuł dotyczy widoku do edycji w usłudze Power BI. 
 
-Usługa Power BI ma dwa różne tryby interakcji z raportami — [widok do czytania](service-reading-view-and-editing-view.md) dla *użytkowników* raportu i widok do edycji dla właścicieli i twórców raportu.  Do udostępniania raportów oraz edytowania raportów tworzonych przez innych użytkowników jest wymagana licencja usługi Power BI Pro. Jeśli jesteś użytkownikiem bezpłatnej usługi Power BI, nadal będziesz mieć możliwość tworzenia raportów, ale bez dostępu do funkcji [udostępniania](service-share-reports.md).    
+Usługa Power BI ma dwa różne tryby interakcji z raportami — [widok do czytania](service-reading-view-and-editing-view.md) dla *użytkowników* raportu i widok do edycji dla właścicieli i twórców raportu.  Do udostępniania raportów oraz edytowania raportów tworzonych przez innych użytkowników jest wymagana licencja usługi Power BI Pro. Jeśli nie masz licencji Pro, nadal będziesz mieć możliwość tworzenia raportów, ale bez możliwości [ich udostępniania](service-share-reports.md).    
 
 W widoku do edycji raportu masz dużą elastyczność zarówno eksploracji, jak i projektowania raportu. Dostępna jest cała funkcjonalność [widoku do czytania](service-reading-view-and-editing-view.md) — plus wiele więcej. Widok do edycji jest dostępny tylko dla osoby, która utworzyła raport, lub dla współpracowników, którzy [są współwłaścicielami raportu jako członkowie lub administratorzy obszaru roboczego aplikacji](service-create-distribute-apps.md).
 
@@ -39,7 +39,7 @@ Zapoznaj się z listą tematów w obszarze nagłówka **Raporty** w spisie treś
 * Duplikowanie strony raportu
 
 ## <a name="considerations-and-troubleshooting"></a>Istotne zagadnienia i rozwiązywanie problemów
-Do edytowania raportów tworzonych przez innych użytkowników oraz do udostępniania innym własnych raportów jest wymagana licencja usługi Power BI Pro.  Jeśli jesteś użytkownikiem bezpłatnej usługi Power BI, nadal będziesz mieć możliwość tworzenia raportów, ale bez dostępu do funkcji [udostępniania](service-share-reports.md).
+Do edytowania raportów tworzonych przez innych użytkowników oraz do udostępniania innym własnych raportów jest wymagana licencja usługi Power BI Pro.  Jeśli nie masz licencji Pro, nadal będziesz mieć możliwość tworzenia raportów, ale bez możliwości [ich udostępniania](service-share-reports.md).
 
 
 ## <a name="next-steps"></a>Następne kroki

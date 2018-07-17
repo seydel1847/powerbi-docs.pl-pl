@@ -3,18 +3,18 @@ title: Często zadawane pytania dotyczące usługi Power BI Embedded
 description: Przeglądaj listę często zadawanych pytań i odpowiedzi dotyczących usługi Power BI Embedded.
 author: markingmyname
 manager: kfile
+ms.author: maghan
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 05/25/2018
-ms.author: maghan
-ms.openlocfilehash: bcdb20d22790b74b54caca5d21325039d6e718bf
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.date: 06/22/2018
+ms.openlocfilehash: 07d51448083f61725157d3ea37c5d9dc73e85157
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "34812749"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599955"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Często zadawane pytania dotyczące usługi Power BI Embedded
 
@@ -76,7 +76,7 @@ Poniżej przedstawiono skróconą listę różnych funkcji, których można uży
 |  |Jednostka SKU A (usługa Power BI Embedded)  |Jednostka SKU EM (usługa Power BI Premium)  |Jednostka SKU P (usługa Power BI Premium)  |
 |---------|---------|---------|---------|
 |Zakup     |Witryna Azure Portal |Pakiet Office |Pakiet Office |
-|Przypadki użycia |* Osadzanie zawartości we własnej aplikacji |* Osadzanie zawartości we własnej aplikacji<br>* Udostępnianie zawartości użytkownikom spoza witryny PowerBI.com korzystającym z bezpłatnej wersji usługi Power BI i przeprowadzanie osadzania w innych aplikacjach SaaS, takich jak SharePoint i Teams |* Osadzanie zawartości we własnej aplikacji<br>* Udostępnianie zawartości użytkownikom spoza witryny PowerBI.com korzystającym z bezpłatnej wersji usługi Power BI i przeprowadzanie osadzania w innych aplikacjach SaaS, takich jak SharePoint i Teams<br>* Udostępnianie zawartości użytkownikom korzystającym z bezpłatnej wersji usługi Power BI za pośrednictwem witryny PowerBI.com  |
+|Przypadki użycia |* Osadzanie zawartości we własnej aplikacji |* Osadzanie zawartości we własnej aplikacji<br>* Udostępnianie zawartości użytkownikom spoza witryny PowerBI.com korzystającym z bezpłatnej wersji usługi Power BI i przeprowadzanie osadzania w innych aplikacjach SaaS (SharePoint, [Teams](https://powerbi.microsoft.com/en-us/blog/power-bi-teams-up-with-microsoft-teams/)) |* Osadzanie zawartości we własnej aplikacji<br>* Udostępnianie zawartości użytkownikom spoza witryny PowerBI.com korzystającym z bezpłatnej wersji usługi Power BI i przeprowadzanie osadzania w innych aplikacjach SaaS, takich jak SharePoint i Teams<br>* Udostępnianie zawartości użytkownikom korzystającym z bezpłatnej wersji usługi Power BI za pośrednictwem witryny PowerBI.com  |
 |Rozliczanie |Godzinowe |Miesięczne |Miesięczne |
 |Zobowiązanie  |Brak zobowiązania |Roczne  |Miesięczne lub roczne |
 |Rozróżnienie produktów |Pełna elastyczność, która umożliwia skalowanie w górę i w dół oraz wstrzymywanie i wznawianie zasobów w witrynie Azure Portal lub za pośrednictwem interfejsu API  |Może służyć do osadzania zawartości w usługach SharePoint Online i Microsoft Teams |Pozwala przeprowadzać osadzanie w aplikacjach, używając jednocześnie usługi Power BI w ramach tej samej pojemności |
@@ -95,6 +95,58 @@ Monitorowanie za pomocą platformy Azure zostało uwzględnione w najbliższych 
 
 Chociaż obecnie funkcja automatycznego skalowania nie jest dostępna, wszystkie interfejsy API mogą rozpocząć skalowanie w dowolnym momencie.
 
+### <a name="why-creatingscalingresuming-a-capacity-results-in-putting-the-capacity-into-a-suspended-state"></a>Dlaczego tworzenie/skalowanie/wznawianie pojemności powoduje umieszczenie pojemności w stanie wstrzymania?
+
+Aprowizowanie pojemności (skalowanie/wznawianie/tworzenie) może zakończyć się niepowodzeniem. Obiekt wywołujący wywołania aprowizowania musi sprawdzić stan ProvisioningState pojemności przy użyciu interfejsu API pobierania: [Pojemności — Pobierz szczegóły](https://docs.microsoft.com/rest/api/power-bi-embedded/capacities/getdetails).
+
+### <a name="why-can-i-only-create-pbie-in-a-specific-region"></a>Dlaczego mogę utworzyć usługę PBIE tylko w określonym regionie?
+
+Pojemności PBIE można tworzyć tylko w swoim regionie dzierżawy usługi PBI.
+
+### <a name="how-can-i-find-what-is-my-pbi-tenant-region"></a>Jak mogę znaleźć swój region dzierżawy usługi PBI?
+
+Możesz użyć portalu usługi PBI, aby zrozumieć, co to jest region dzierżawy usługi PBI.
+
+https://app.powerbi.com/ > ? > Power BI — informacje
+
+![Power BI — informacje](media/embedded-faq/about-01.png)
+![Region dzierżawy](media/embedded-faq/tenant-location-01.png)
+
+### <a name="what-is-supported-with-the-communicating-sequential-processes-csp-channel"></a>Jakie operacje są obsługiwane za pośrednictwem kanału komunikacji procesów sekwencyjnych (CSP)?
+
+* Możesz utworzyć PBIE dla dzierżawy przy użyciu subskrypcji typu CSP
+* Konto partnera może logować się do dzierżawy klienta i kupować usługę PBIE dla dzierżawy klienta. Określ użytkownika dzierżawy klienta jako administratora pojemności usługi Power BI
+
+### <a name="why-do-i-get-an-unsupported-account-message"></a>Dlaczego otrzymuję komunikat o nieobsługiwanym koncie?
+
+Usługa Power BI wymaga zarejestrowania się za pomocą konta organizacyjnego. Próby rejestracji w usłudze Power BI przy użyciu konta Microsoft nie są obsługiwane.
+
+### <a name="can-i-use-apis-to-create--manage-azure-capacities"></a>Czy mogę używać interfejsów API do tworzenia możliwości platformy Azure i zarządzania nimi?
+
+Tak, istnieją polecenia cmdlet programu PowerShell i interfejsy API usługi ARM, których można używać do tworzenia zasobów PBIE i zarządzania nimi.
+
+* Interfejsy API REST — https://docs.microsoft.com/rest/api/power-bi-embedded/
+* Polecenia cmdlet programu PowerShell — https://docs.microsoft.com/powershell/module/azurerm.powerbiembedded/
+
+### <a name="what-is-the-pbi-embedded-dedicated-capacity-role-in-a-pbi-embedded-solution"></a>Co to jest dedykowana pojemność PBI Embedded w rozwiązaniu PBI Embedded?
+
+W celu [podniesienia poziomu środowiska do środowiska produkcyjnego](https://docs.microsoft.com/en-us/power-bi/developer/embedding-content#step-3-promote-your-solution-to-production) musisz przypisać zawartość usługi Power BI (obszaru roboczego aplikacji, którego używasz w swojej aplikacji) do pojemności dedykowanej.
+
+### <a name="what-are-the-azure-regions-pbi-embedded-is-available"></a>Które regiony świadczenia usługi Azure PBI Embedded są dostępne?
+
+[PAM](https://ecosystemmanager.azurewebsites.net/home) (EcoManager) — zobacz Menedżer dostępności produktu
+
+Dostępne regiony (16 — te same regiony, co w usłudze Power BI)
+* USA (6) — Wschodnie stany USA, Wschodnie stany USA 2, Północno-środkowe stany USA, Południowo-środkowe stany USA, Zachodnie stany USA, Zachodnie stany USA 2
+* Europa (2) — Europa Północna, Europa Zachodnia
+* Azja i Pacyfik (2) — Azja Południowo-Wschodnia, Azja Wschodnia
+* Brazylia (1) — Brazylia Południowa
+* Japonia (1) — Japonia Wschodnia
+* Australia (1) — Australia Południowo-Wschodnia
+* Indie (1) — Indie Zachodnie
+* Kanada (1) — Kanada Środkowa
+* Zjednoczone Królestwo (1) — Południowe Zjednoczone Królestwo
+
 ### <a name="what-is-the-authentication-model-for-power-bi-embedded"></a>Z jakiego modelu uwierzytelnienia korzysta usługa Power BI Embedded?
 
 Usługa Power BI Embedded będzie nadal używała usługi Azure AD do uwierzytelniania użytkownika głównego (wyznaczonego licencjonowanego użytkownika usługi Power BI Pro), tym samym uwierzytelniając aplikację w usłudze Power BI.
@@ -104,6 +156,17 @@ Mechanizmy uwierzytelniania i autoryzacji użytkowników aplikacji zostaną zaim
 Jeśli masz już dzierżawę usługi Azure AD, możesz użyć istniejącego katalogu lub utworzyć nową dzierżawę usługi Azure AD w celu zabezpieczenia zawartości aplikacji osadzonej.
 
 Aby uzyskać token usługi AAD, możesz użyć jednej z bibliotek uwierzytelniania usługi Azure Active Directory — https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-libraries. Dostępne są biblioteki klienckie dla wielu platform.
+
+### <a name="my-application-already-uses-aad-for-user-authentication-how-can-we-use-this-identity-when-authenticating-to-power-bi-in-a-user-owns-data-scenario"></a>Moja aplikacja już używa usługi AAD do uwierzytelniania użytkowników. Jak możemy użyć tej tożsamości podczas uwierzytelniania w usłudze Power BI w ramach scenariusza „User Owns Data”? 
+
+Jest to standardowy przepływ protokołu OAuth typu „w imieniu użytkownika” (https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-scenarios#web-application-to-web-api): aplikacja musi zostać skonfigurowana do wymagania uprawnień związanych z usługą Power BI (z wymaganymi zakresami). Po utworzeniu tokenu użytkownika do aplikacji wystarczy wywołać metodę AcquireTokenAsync interfejsu API biblioteki ADAL przy użyciu tokenu dostępu użytkownika i określić adres URL zasobu usługi Power BI jako identyfikator zasobu. Poniższy fragment kodu przedstawia sposób wykonania tej czynności:
+
+```csharp
+var context = new AD.AuthenticationContext(authorityUrl);
+var userAssertion = new AD.UserAssertion(userAccessToken);
+var clientAssertion = new AD.ClientAssertionCertificate(MyAppId, MyAppCertificate)
+var authenticationResult = await context.AcquireTokenAsync(resourceId, clientAssertion, userAssertion);
+```
 
 ### <a name="how-is-power-bi-embedded-different-from-other-azure-services"></a>Czym różnią się usługa Power BI Embedded od innych usług platformy Azure?
 
@@ -181,8 +244,8 @@ Instytucje edukacyjne i organizacje niedochodowe mogą zakupić platformę Azure
 
 3. Gdy wszystko będzie gotowe do produkcji, kup dedykowaną pojemność usługi **Power BI Embedded** i przypisz zawartość usługi Power BI (obszar roboczy) do tej wydajności.
 
->[!Note]
-Możesz nadal używać **kolekcji obszarów roboczych usługi Power BI** podczas kompilowania równolegle z rozwiązaniem **Power BI Embedded**. Gdy wszystko będzie gotowe, można przenieść klienta do nowego rozwiązania usługi **Power BI Embedded** i wycofać rozwiązanie **Kolekcja obszarów roboczych usługi Power BI**.
+> [!Note]
+> Możesz nadal używać **kolekcji obszarów roboczych usługi Power BI** podczas kompilowania równolegle z rozwiązaniem **Power BI Embedded**. Gdy wszystko będzie gotowe, można przenieść klienta do nowego rozwiązania usługi **Power BI Embedded** i wycofać rozwiązanie **Kolekcja obszarów roboczych usługi Power BI**.
 
 Aby uzyskać więcej informacji, zapoznaj się z tematem [Jak migrować zawartość kolekcji obszarów roboczych usługi Power BI do usługi Power BI Embedded](https://docs.microsoft.com/power-bi/developer/migrate-from-powerbi-embedded)
 

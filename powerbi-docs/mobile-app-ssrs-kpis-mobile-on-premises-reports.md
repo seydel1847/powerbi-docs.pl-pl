@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 05/21/2018
+ms.date: 06/13/2018
 ms.author: maggies
-ms.openlocfilehash: 999fdf0376973d6550a5c4e214b4315db01e74e0
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 32d73b4be55190b908353083b497581cb1b08c6e
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34482250"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599029"
 ---
 # <a name="view-on-premises-report-server-reports-and-kpis-in-the-power-bi-mobile-apps"></a>Wyświetlanie lokalnych raportów serwera raportów i wskaźników KPI w aplikacjach mobilnych usługi Power BI
 
@@ -103,6 +103,9 @@ Teraz możesz wyświetlać i stosować wskaźniki KPI oraz raporty usługi Power
 Raporty usługi Power BI, mobilne raporty usług Reporting Services i wskaźniki KPI są wyświetlane w tych samych folderach, w których występują w portalu internetowym usług Reporting Services. 
 
 * Naciśnij raport usługi Power BI ![Ikona raportu usługi Power BI](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-rs-mobile-report-icon.png). Zostanie on otwarty w orientacji poziomej i możesz wejść z nim w interakcję w aplikacji usługi Power BI.
+
+    > [!NOTE]
+  > Funkcje przechodzenia do szczegółów i uogólniania nie są obecnie włączone w raportach usługi Power BI na serwerze raportów usługi Power BI.
   
     ![Raport usługi Power BI](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-report-server-report.png)
 * W programie Power BI Desktop właściciele raportu mogą [zoptymalizować raport](desktop-create-phone-report.md) dla aplikacji mobilnych usługi Power BI. W telefonie komórkowym zoptymalizowane raporty mają specjalną ikonę, ![ikonę zoptymalizowanego raportu usługi Power BI](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-rs-mobile-optimized-icon.png), i układ.
@@ -129,6 +132,6 @@ Wskaźniki KPI i raporty można oznaczyć jako ulubione w portalu internetowym, 
 3. Naciśnij pozycję **Usuń serwer**.
 
 ## <a name="next-steps"></a>Następne kroki
-* [Wprowadzenie do usługi Power BI](service-get-started.md)  
+* [Co to jest usługa Power BI?](power-bi-overview.md)  
 * Masz pytania? [Zadaj pytanie społeczności usługi Power BI](http://community.powerbi.com/)
 

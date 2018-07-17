@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 50ace772c24b2a9e706e82ca16ddcb36d8b6b60c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: c1ac019b0d6f80c3129b105336f71a71e0925648
+ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722206"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "37926541"
 ---
 # <a name="find-power-bi-users-that-have-signed-in"></a>Znajdowanie zalogowanych użytkowników usługi Power BI
 Jeśli administrator dzierżawy chce dowiedzieć się, kto jest zalogowany do usługi Power BI, może uzyskać wgląd za pomocą raportów dostępu i użycia usługi Azure Active Directory.
@@ -25,9 +25,7 @@ Jeśli administrator dzierżawy chce dowiedzieć się, kto jest zalogowany do us
 Raport aktywności jest dostępny zarówno w [nowym](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-activity-sign-ins), jak i [klasycznym](https://docs.microsoft.com/azure/active-directory/active-directory-view-access-usage-reports) portalu usługi Azure Active Directory (Azure AD). Na powyższym filmie wideo użyto portalu klasycznego, natomiast w tym artykule zostanie omówiony nowy portal.
 
 > [!NOTE]
-> Raport aktywności obejmuje zarówno użytkowników wersji bezpłatnej, jak i wersji Pro usługi Power BI, ale nie zawiera informacji o używanych licencjach.
-> 
-> 
+> Ten raport aktywności nie identyfikuje typu licencji poszczególnych użytkowników.
 
 ## <a name="requirements"></a>Wymagania
 Aby wyświetlić raport aktywności logowania, należy spełnić poniższe wymagania.
@@ -70,7 +68,7 @@ Dane logowania są dostępne przez maksymalnie 30 dni. Aby uzyskać więcej info
 
 ## <a name="next-steps"></a>Następne kroki
 [Raporty aktywności związanej z logowaniem w portalu usługi Azure Active Directory (nowym portalu)](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-activity-sign-ins)  
-[Wyświetlanie raportów dostępu i użycia (portal klasyczny)](https://docs.microsoft.com/azure/active-directory/active-directory-view-access-usage-reports#view-or-download-a-report)  
+[Wyświetlanie raportów dostępu i użycia (portal klasyczny)](https://docs.microsoft.com/azure/active-directory/active-directory-view-access-usage-reports)  
 [Przykładowy skrypt logowania programu PowerShell](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-api-sign-in-activity-samples#powershell-script)  
 [Zasady przechowywania raportów usługi Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-retention)  
 [Korzystanie z inspekcji w ramach organizacji](service-admin-auditing.md)  

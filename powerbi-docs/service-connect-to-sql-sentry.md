@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 8ad41917c887cff7db991051aa35d5dad6b6a8fa
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 9bec96b594d7a761311e0ef9f457f320eb1f3963
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34242428"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136438"
 ---
 # <a name="connect-to-sql-sentry-with-power-bi"></a>Łączenie się z pakietem zawartości SQL Sentry przy użyciu usługi Power BI
 Analizowanie danych dotyczących wydajności zbieranych przez program SQL Sentry jest bardzo proste dzięki usłudze Power BI. Usługa Power BI pobiera dane, a następnie tworzy domyślny pulpit nawigacyjny i powiązane raporty w oparciu o te dane.
@@ -93,7 +93,7 @@ Jeśli dane z niektórych aplikacji nie są wyświetlane w usłudze Power BI, up
 Jeśli nie jesteś właścicielem bazy danych programu SQL Sentry synchronizowanej z witryną <https://cloud.sqlsentry.com>, skontaktuj się z administratorem, aby upewnić się, że masz uprawnienia do wyświetlania zebranych danych.
 
 ## <a name="next-steps"></a>Następne kroki
-[Wprowadzenie do usługi Power BI](service-get-started.md)
+[Co to jest usługa Power BI?](power-bi-overview.md)
 
 [Pobieranie danych dla usługi Power BI](service-get-data.md)
 

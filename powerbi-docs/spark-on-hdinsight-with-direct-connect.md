@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/28/2017
 ms.author: maghan
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 236a3d1bde84d4259d921d44730057a4e2fd3591
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: e1320135ba0abb737a487036948c2822d0c337ae
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34256753"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136507"
 ---
 # <a name="spark-on-hdinsight-with-directquery"></a>Platforma Spark w usłudze HDInsight z zapytaniem bezpośrednim
 Platforma Spark w usłudze HDInsight z zapytaniem bezpośrednim umożliwia tworzenie dynamicznych raportów na podstawie danych i metryk, które już znajdują się w klastrze Spark. Dzięki zapytaniu bezpośredniemu zapytania są wysyłane do klastra Spark usługi Azure HDInsight w czasie, gdy eksplorujesz dane w widoku raportu. To środowisko jest zalecane dla użytkowników zaznajomionych z jednostkami, z którymi się łączą.
@@ -26,6 +26,10 @@ Platforma Spark w usłudze HDInsight z zapytaniem bezpośrednim umożliwia tworz
 > 
 
 Aby nawiązać połączenie ze źródłem danych platformy Spark w usłudze Azure HDInsight za pomocą zapytania bezpośredniego w usłudze Power BI, możesz wykonać następujące kroki.
+
+> [!Important]
+> Pracowaliśmy nad ulepszeniem łączności z platformą Spark.  Aby uzyskać najlepsze wyniki podczas łączenia ze źródłem danych platformy Spark, użyj programu Power BI Desktop.  Po skompilowaniu modelu i raportów możesz opublikować go w usłudze Power BI.  Bezpośredni łącznik z platformą Spark w usłudze Power BI jest już przestarzały.
+>
 
 1. Wybierz pozycję **Pobierz dane** w dolnej części okienka nawigacji po lewej stronie.
    
@@ -71,7 +75,7 @@ Możesz również przydzielić dodatkowe zasoby w witrynie Azure Portal w obszar
 
 ## <a name="next-steps"></a>Następne kroki
 [Wprowadzenie: tworzenie klastra platformy Apache Spark w usłudze HDInsight w systemie Linux i uruchamianie interaktywnych zapytań przy użyciu programu Spark SQL](https://azure.microsoft.com/documentation/articles/hdinsight-apache-spark-jupyter-spark-sql)  
-[Wprowadzenie do usługi Power BI](service-get-started.md)  
+[Co to jest usługa Power BI?](power-bi-overview.md)  
 [Pobieranie danych dla usługi Power BI](service-get-data.md)  
 Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
 

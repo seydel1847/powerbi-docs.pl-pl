@@ -1,6 +1,6 @@
 ---
-title: Wprowadzenie do usługi Power BI
-description: Wprowadzenie do usługi Power BI
+title: Wprowadzenie do usługi Power BI (usługa Power BI w trybie online)
+description: Wprowadzenie do usługi Power BI w trybie online (app.powerbi.com)
 author: adamw
 manager: kfile
 ms.reviewer: ''
@@ -8,22 +8,37 @@ featuredvideoid: B2vd4MQrz4M
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/01/2018
+ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: d66653ebe9232cb6da2f3c53b01e791ca9966db9
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 1c4f710cd048fc2c2828f0386d23328c164bb3fb
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34310135"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598668"
 ---
-# <a name="get-started-with-power-bi-service-apppowerbicom"></a>Wprowadzenie do usługi Power BI (app.powerbi.com)
-Ten samouczek ułatwia rozpoczęcie pracy z ***usługą Power BI***. Jeśli chcesz dowiedzieć się, jakie miejsce zajmuje usługa Power BI w ofercie innych produktów Power BI, zdecydowanie zalecamy zapoznanie się z tematem [Co to jest Power BI](guided-learning/gettingstarted.yml?tutorial-step=1).
+# <a name="tutorial-get-started-with-power-bi-service-apppowerbicom"></a>Samouczek: wprowadzenie do usługi Power BI (app.powerbi.com)
+Ten samouczek ułatwia rozpoczęcie pracy z ***usługą Power BI***. Jeśli chcesz dowiedzieć się, jakie miejsce zajmuje usługa Power BI w ofercie innych produktów Power BI, zdecydowanie zalecamy zapoznanie się z tematem [Co to jest Power BI](power-bi-overview.md).
 
 ![grafika przedstawiająca relację między programem Desktop, usługą i aplikacją mobilną](media/service-get-started/power-bi-components.png)
 
-Usługa Power BI jest dostępna w wersji bezpłatnej i wersji Pro. Niezależnie od tego, której wersji używasz, *jeśli masz już konto*, otwórz przeglądarkę i wpisz adres app.powerbi.com, aby otworzyć usługę Power BI. Jeśli jesteś nowym użytkownikiem, zalecamy rozpoczęcie od strony www.powerbi.com. W tym miejscu możesz dowiedzieć się więcej o usłudze Power BI, zanim się do niej zalogujesz.  Kiedy zdecydujesz się na wypróbowanie usługi, wybierz link **Utwórz konto bezpłatnie**, który znajduje się w prawym górnym rogu. Jeśli Twój administrator już włączył dla Ciebie dostęp do usługi Power BI, nie używaj przycisku Utwórz konto bezpłatnie, tylko przejdź bezpośrednio do strony app.powerbi.com. 
+Ten samouczek obejmuje następujące kroki:
+
+> [!div class="checklist"]
+> * Wyszukiwanie innej zawartości dotyczącej wprowadzenia do usługi Power BI
+> * Logowanie do konta usługi Power BI w trybie online lub tworzenie konta, jeśli jeszcze go nie masz
+> * Otwieranie usługi Power BI
+> * Pobieranie danych i otwieranie ich w widoku raportu
+> * Używanie tych danych do tworzenia wizualizacji i zapisywanie jej jako raportu
+> * Tworzenie pulpitu nawigacyjnego przez przypinanie kafelków z raportu
+> * Dodawanie kolejnej wizualizacji do pulpitu nawigacyjnego za pomocą narzędzia języka naturalnym dla pytań i odpowiedzi
+> * Oczyszczanie zasobów przez usuwanie zestawu danych, raportu i pulpitu nawigacyjnego
+
+## <a name="sign-up-for-power-bi-service"></a>Tworzenie konta w usłudze Power BI
+Jeśli nie masz konta usługi Power BI Pro, na początku [utwórz konto bezpłatnej wersji próbnej usługi Power BI](https://app.powerbi.com/signupredirect?pbi_source=web).
+
+Jeśli masz już konto, otwórz przeglądarkę i wpisz adres app.powerbi.com, aby otworzyć usługę Power BI. 
 
 ![Zaloguj się lub zarejestruj bezpłatnie](media/service-get-started/power-bi-sign-up.png)
 
@@ -36,10 +51,9 @@ Zapoznaj się z naszą [listą odtwarzania w serwisie YouTube](https://www.youtu
 > 
 > <iframe width="560" height="315" src="https://www.youtube.com/embed/B2vd4MQrz4M" frameborder="0" allowfullscreen></iframe>
 > 
-> 
-> 
 
-Usługa Microsoft Power BI pomaga na bieżąco śledzić ważne informacje.  ***Pulpity nawigacyjne*** usługi Power BI umożliwiają monitorowanie najważniejszych aspektów działalności biznesowej.  Pulpity nawigacyjne zawierają ***kafelki***, które można kliknąć, aby otworzyć ***raporty*** umożliwiające uzyskiwanie dodatkowych informacji.  Połączenie z wieloma ***zestawami danych*** pozwala wyświetlać wszystkie istotne dane w jednym miejscu. Potrzebujesz pomocy dotyczącej bloków konstrukcyjnych tworzących usługę Power BI?  Zobacz [Power BI — podstawowe pojęcia](service-basic-concepts.md).
+## <a name="what-is-power-bi-service"></a>Co to jest usługa Power BI?
+Usługa Microsoft Power BI jest czasami nazywana usługą Power BI w trybie online lub app.powerbi.com. Usługa Power BI pomaga na bieżąco śledzić ważne informacje.  ***Pulpity nawigacyjne*** usługi Power BI umożliwiają monitorowanie najważniejszych aspektów działalności biznesowej.  Pulpity nawigacyjne zawierają ***kafelki***, które można kliknąć, aby otworzyć ***raporty*** umożliwiające uzyskiwanie dodatkowych informacji.  Połączenie z wieloma ***zestawami danych*** pozwala wyświetlać wszystkie istotne dane w jednym miejscu. Potrzebujesz pomocy dotyczącej bloków konstrukcyjnych tworzących usługę Power BI?  Zobacz [Power BI — podstawowe pojęcia](service-basic-concepts.md).
 
 Jeśli przechowujesz ważne dane w plikach programu Excel lub plikach CSV, możesz utworzyć pulpit nawigacyjny usługi Power BI, aby mieć dostęp do informacji w dowolnym miejscu i dzielić się spostrzeżeniami z innymi osobami.  Czy masz subskrypcję aplikacji SaaS, takiej jak Salesforce?  Od razu połącz się z usługą Salesforce, aby automatycznie utworzyć pulpit nawigacyjny z tych danych, lub [zapoznaj się z innymi aplikacjami SaaS](service-get-data.md), z którymi możesz nawiązać połączenie. Jeśli należysz do organizacji, sprawdź, czy możesz korzystać z opublikowanych [aplikacji](service-create-distribute-apps.md).
 
@@ -48,7 +62,7 @@ Zapoznaj się z wszystkimi innymi sposobami [pobierania danych dla usługi Power
 ## <a name="step-1-get-data"></a>Krok 1. Pobieranie danych
 Oto przykład przedstawiający pobieranie danych z pliku CSV. Chcesz kontynuować pracę z tym samouczkiem? [Pobierz przykładowy plik CSV](http://go.microsoft.com/fwlink/?LinkID=521962).
 
-1. [Zaloguj się do usługi Power BI](http://www.powerbi.com/). Nie masz konta? Nie martw się — możesz utworzyć bezpłatne konto.
+1. [Zaloguj się do usługi Power BI](http://www.powerbi.com/). Nie masz konta? Nie martw się — możesz utworzyć konto bezpłatnej wersji próbnej.
 2. Usługa Power BI zostanie otwarta w przeglądarce. Wybierz pozycję **Pobierz dane** w dolnej części paska nawigacyjnego po lewej stronie.
    
    ![pobieranie danych](media/service-get-started/getdata3.png)
@@ -94,23 +108,23 @@ Teraz, po nawiązaniu połączenia z danymi, rozpocznij eksplorowanie.  Po znale
    
    ![ikona przypinania](media/service-get-started/pinnew.png)
 
-5. Ponieważ to jest nowy raport, zostanie wyświetlony monit o jego zapisanie, zanim będzie można przypiąć wizualizację do pulpitu nawigacyjnego. Nadaj raportowi nazwę (np. *Sales over time* — Sprzedaż w czasie) i wybierz pozycję **Zapisz i kontynuuj**. 
+4. Ponieważ to jest nowy raport, zostanie wyświetlony monit o jego zapisanie, zanim będzie można przypiąć wizualizację do pulpitu nawigacyjnego. Nadaj raportowi nazwę (np. *Sales over time* — Sprzedaż w czasie) i wybierz pozycję **Zapisz i kontynuuj**. 
    
    ![okno dialogowe Zapisz raport](media/service-get-started/pbi_getstartsaveb4pinnew.png)
    
-6. Przypnijmy wykres liniowy do nowego pulpitu nawigacyjnego i nadajmy mu nazwę „Financial sample for tutorial” (Przykład finansowy na potrzeby samouczka). 
+5. Przypnijmy wykres liniowy do nowego pulpitu nawigacyjnego i nadajmy mu nazwę „Financial sample for tutorial” (Przykład finansowy na potrzeby samouczka). 
    
    ![nazywanie raportu](media/service-get-started/power-bi-pin.png)
    
- 1. Wybierz pozycję **Przypnij**.
+1. Wybierz pozycję **Przypnij**.
    
     Komunikat o powodzeniu (w prawym górnym rogu) informuje o tym, że wizualizacja została dodana do pulpitu nawigacyjnego jako kafelek.
    
     ![okno dialogowe Przypięto do pulpitu nawigacyjnego](media/service-get-started/power-bi-pin-success.png)
 
-8. Wybierz pozycję **Przejdź do pulpitu nawigacyjnego**, aby wyświetlić wykres liniowy przypięty jako kafelek do całkowicie nowego pulpitu nawigacyjnego. Aby usprawnić pulpit nawigacyjny, możesz dodawać kolejne kafelki wizualizacji, a także [łączyć kafelki oraz zmieniać ich nazwy, rozmiary i położenie](service-dashboard-edit-tile.md).
+6. Wybierz pozycję **Przejdź do pulpitu nawigacyjnego**, aby wyświetlić wykres liniowy przypięty jako kafelek do całkowicie nowego pulpitu nawigacyjnego. Aby usprawnić pulpit nawigacyjny, możesz dodawać kolejne kafelki wizualizacji, a także [łączyć kafelki oraz zmieniać ich nazwy, rozmiary i położenie](service-dashboard-edit-tile.md).
    
-   ![pulpit nawigacyjny z przypiętą wizualizacją](media/service-get-started/power-bi-new-dashboard.png)
+   ![Pulpit nawigacyjny z przypiętą wizualizacją](media/service-get-started/power-bi-new-dashboard.png)
    
    W dowolnym momencie możesz powrócić do raportu, wybierając nowy kafelek na pulpicie nawigacyjnym. Usługa Power BI przeniesie Cię do widoku do czytania w edytorze raportu. Aby powrócić do widoku do edycji, wybierz pozycję **Edytuj raport** z górnego paska menu. Po przejściu do widoku do edycji, kontynuuj eksplorowanie i przypinanie kafelków. 
 
@@ -128,26 +142,21 @@ Teraz, po nawiązaniu połączenia z danymi, rozpocznij eksplorowanie.  Po znale
 
    ![pulpit nawigacyjny z przypiętym wykresem](media/service-get-started/power-bi-final-dashboard.png)
 
+## <a name="clean-up-resources"></a>Czyszczenie zasobów
+Teraz, po zakończeniu tego samouczka, możesz usunąć zestaw danych, raport i pulpit nawigacyjny. 
+
+1. Wybierz pozycję **Mój obszar roboczy** na lewym pasku nawigacyjnym.
+2. Wybierz kartę **Zestawy danych** i znajdź zestaw danych zaimportowany na potrzeby tego samouczka.  
+3. Wybierz wielokropek (...) > **Usuń**.
+
+    ![Usuwanie zestawu danych](media/service-get-started/power-bi-delete.jpg)
+
+    Usunięcie zestawu danych spowoduje również usunięcie raportu i pulpitu nawigacyjnego. 
+
+
 ## <a name="next-steps"></a>Następne kroki
 Chcesz szybko skorzystać z innych samouczków?  Poniżej przedstawiono kilka przydatnych tematów, które pozwalają zapoznać się z usługą Power BI.
 
-* [Connect to another dataset](service-get-data.md) (Nawiązywanie połączenia z innym zestawem danych).
-* [Share your dashboard](service-share-dashboards.md) with your colleagues (Udostępnianie pulpitu nawigacyjnego współpracownikom).
-* Read [tips for designing dashboards](service-dashboards-design-tips.md) (Porady dotyczące projektowania pulpitów nawigacyjnych).
-* View your dashboards with a [Power BI app on a mobile device](mobile-apps-for-mobile-devices.md) (Wyświetlanie pulpitów nawigacyjnych przy użyciu aplikacji Power BI dla urządzeń przenośnych).
-
-Nie chcesz od razu rozpoczynać pracy? Poniższe tematy pomagają poczuć się pewnie w usłudze Power BI.
-
-* [Dowiedz się, jak współdziałają ze sobą raporty, zestawy danych, pulpity nawigacyjne i kafelki](service-basic-concepts.md)
-* Odwiedź naszą witrynę [Power BI — uczenie z przewodnikiem](guided-learning/index.md) i przejdź kilka (bardzo krótkich) kursów
-* Obejrzyj kilka [filmów wideo dotyczących usługi Power BI](videos.md)
-* [See what samples we have available for you to use](sample-datasets.md) (Zapoznaj się z przykładami dostępnymi do użycia)
-
-### <a name="stay-in-touch-with-power-bi"></a>Bądź na bieżąco z usługą Power BI
-* Obserwuj [@MSPowerBI na Twitterze](https://twitter.com/mspowerbi)
-* Subskrybuj nasz [kanał YouTube](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
-* Obejrzyj nasze dostępne na żądanie [seminaria internetowe z wprowadzeniem do usługi Power BI](webinars.md)
-* Nie wiesz, gdzie znaleźć pomoc? Zobacz stronę z [10 poradami dotyczącymi uzyskiwania pomocy](service-tips-for-finding-help.md)
-
-Masz więcej pytań? [Zadaj pytanie społeczności usługi Power BI](http://community.powerbi.com/)
+> [!div class="nextstepaction"]
+> [Łączenie się z używanymi usługami online](./service-connect-to-services.md)
 

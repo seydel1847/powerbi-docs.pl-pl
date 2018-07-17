@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 05/07/2018
+ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 84a2fe350c1146591aa89c5900c10f2747e90cf3
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 3323258304f8c36131caf6ef269d9befa6cfbb96
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34297451"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136530"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>Wprowadzenie do aplikacji mobilnej Power BI dla urządzeń z systemem Android
 Aplikacja systemu Android dla usługi Microsoft Power BI obejmuje mobilne środowisko usługi Power BI, serwera raportów usługi Power BI oraz usług Reporting Services. Możesz wyświetlać firmowe pulpity nawigacyjne i korzystać z nich lokalnie i w chmurze, niezależnie od tego, gdzie się znajdujesz, dzięki dostępowi mobilnemu na żywo, z obsługą dotykową. Przeglądaj dane w pulpitach nawigacyjnych i udostępniaj je współpracownikom w wiadomościach e-mail lub SMS. 
@@ -23,7 +23,7 @@ Aplikacja systemu Android dla usługi Microsoft Power BI obejmuje mobilne środo
 
 Raporty usługi Power BI możesz tworzyć w programie Power BI Desktop, a następnie wykonywać następujące działania:
 
-* [Publikowanie ich w usłudze Power BI](service-get-started.md) i tworzenie pulpitów nawigacyjnych.
+* [Publikowanie ich w usłudze Power BI](power-bi-overview.md) i tworzenie pulpitów nawigacyjnych.
 * [Publikowanie ich lokalnie na Serwerze raportów usługi Power BI](report-server/quickstart-create-powerbi-report.md).
 
 Następnie w aplikacji Power BI dla systemu Android możesz korzystać z pulpitów nawigacyjnych i raportów dostępnych lokalnie oraz w chmurze.
@@ -136,7 +136,7 @@ Poniżej wymieniono inne możliwości korzystania z pulpitów nawigacyjnych i ra
 
 ### <a name="see-also"></a>Zobacz także
 * [Pobieranie aplikacji systemu Android](http://go.microsoft.com/fwlink/?LinkID=544867) ze sklepu z aplikacjami dla systemu Android.
-* [Wprowadzenie do usługi Power BI](service-get-started.md)
+* [Co to jest usługa Power BI?](power-bi-overview.md)
 * Masz pytania? [Zadaj pytanie społeczności usługi Power BI](http://community.powerbi.com/)
 
 

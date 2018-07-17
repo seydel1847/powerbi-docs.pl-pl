@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/05/2018
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 04963d513fa397e75c34f0650bf55fb31c1490f2
-ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
+ms.openlocfilehash: 15b64b917fed56e9d9ab6be2023060378324c794
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34755098"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944565"
 ---
 # <a name="power-bi-premium---what-is-it"></a>Power BI Premium — co to jest?
 Usługa Power BI Premium zapewnia zasoby dedykowane do uruchamiania usługi Power BI dla organizacji lub zespołu, zapewniając jeszcze bardziej niezawodną wydajność i większe woluminy danych. Ponadto usługa Premium umożliwia szeroką dystrybucję zawartości bez potrzeby zakupu licencji dla użytkowników, którzy mają ją wyświetlać.
@@ -36,11 +36,11 @@ Istnieją dwa typy pojemności w usłudze Power BI. Pojemność udostępniona or
 | **Częstotliwość odświeżania** |8/dzień |Bez ograniczeń |
 | **Izolacja z dedykowanym sprzętem** |![](media/service-premium/not-available.png "Niedostępne") |![](media/service-premium/available.png "Dostępne") |
 | **Dystrybucja na poziomie przedsiębiorstwa do** ***wszystkich użytkowników*** | | |
-| Aplikacje |![](media/service-premium/not-available.png "Niedostępne") |![](media/service-premium/available.png "Dostępne")<sup>1</sup> |
+| Aplikacje i udostępnianie |![](media/service-premium/not-available.png "Niedostępne") |![](media/service-premium/available.png "Dostępne")<sup>1</sup> |
 | Osadzone interfejsy API i kontrolki |![](media/service-premium/not-available.png "Niedostępne") |![](media/service-premium/available.png "Dostępne")<sup>2</sup> |
 | **Publikowanie raportów usługi Power BI lokalnie** |![](media/service-premium/not-available.png "Niedostępne") |![](media/service-premium/available.png "Dostępne") |
 
-*<sup>1</sup> Zużycie użytkownika bezpłatnego w aplikacjach obejmuje wyświetlanie zawartości w Internecie i na urządzeniach przenośnych, używanie funkcji pytań i odpowiedzi, szybkiego wglądu, Cortany, eksportowania do formatu CSV, programu Excel i PowerPoint. Wersja Pro jest wymagana w przypadku innych działań, które nie zostały wymienione, np. tworzenia raportów dotyczących udostępnionych zestawów danych i analiz w programie Excel. Więcej informacji na temat funkcji można znaleźć w temacie [Usługa Power BI — wersja bezpłatna a wersja Pro](service-free-vs-pro.md).*  
+*<sup>1</sup> Aby uzyskać więcej informacji, zobacz funkcjonalność [Możliwości użytkowników w usługach Power BI Pro i Power BI Premium](service-free-vs-pro.md).*  
 *<sup>2</sup> Przyszłe usprawnienia do wdrożenia w usłudze Power BI Premium po ogólnym udostępnieniu.*
 
 ### <a name="premium-capacity"></a>Pojemność Premium
@@ -51,7 +51,7 @@ Kiedy obszar roboczy jest wspierany przez pojemność Premium, możesz cieszyć 
 * Zaplanowane odświeżanie: użytkownicy wcześniej byli ograniczeni do 8 odświeżeń dziennie podczas planowania odświeżania z zaimportowanymi modelami. To ograniczenie zostało zniesione dla zestawów danych w obszarach roboczych Premium. Nie ma to zastosowania do ustawień zaplanowanego odświeżania pamięci podręcznej w przypadku trybu zapytania bezpośredniego. Pozostają one takie same w pojemności Premium i udostępnionej.
 * Izolacja z dedykowanym sprzętem — zgodnie z naturą pojemności udostępnionej na wydajność raportów i pulpitów nawigacyjnych może mieć wpływ zapotrzebowanie na zasoby innych obciążeń w pojemności, niezależnie od zabezpieczeń przed takim zapotrzebowaniem. Z drugiej strony pojemność Premium zapewnia bardziej spójną, niezawodną wydajność dla obciążeń poprzez izolowanie ich od innych niepowiązanych obciążeń.
 
-Jeśli aplikacja jest wspierana przez pojemność Premium (tj. została opublikowana z obszaru roboczego aplikacji obecnie przypisanego do warstwy Premium), opublikowana aplikacja może być używana przez dowolnego użytkownika w organizacji niezależnie od przypisanej do niego licencji. Oznacza to, że nawet bezpłatni użytkownicy usługi Power BI mogą korzystać z tych opublikowanych aplikacji.
+Jeśli aplikacja jest wspierana przez pojemność Premium (tj. została opublikowana z obszaru roboczego aplikacji obecnie przypisanego do warstwy Premium), opublikowana aplikacja może być używana przez dowolnego użytkownika w organizacji niezależnie od przypisanej do niego licencji.
 
 ### <a name="shared-capacity"></a>Pojemność udostępniona
 Domyślnie obszar roboczy będzie znajdować się w pojemności udostępnionej. Dotyczy to również osobistego obszaru *Mój obszar roboczy* wraz z obszarami roboczymi aplikacji. Pojemność udostępniona jest środowiskiem użytkownika znanym z usługi Power BI, w którym obciążenia są uruchamiane na zasobach komputerowych udostępnianych przez innych klientów.

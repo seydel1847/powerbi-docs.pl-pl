@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: cb84cb2f4242cb120f187c27bb1b1675177c33a2
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.openlocfilehash: 8a912791777c631208ee40d37c5eaad56806ccf9
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "34813048"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36945303"
 ---
 # <a name="embed-your-power-bi-dashboards-reports-and-tiles"></a>Osadzanie pulpitów nawigacyjnych, raportów i kafelków usługi Power BI
 
@@ -35,6 +35,9 @@ Przed rozpoczęciem osadzania pulpitów i raportów w aplikacji należy upewnić
 
 * [Upewnij się, że dysponujesz dzierżawą usługi Azure Active Directory](embedding-content.md#azureadtenant)
 * [Utwórz konto usługi Power BI Pro](embedding-content.md#proaccount)
+* [Rejestrowanie aplikacji i uprawnienia](embedding-content.md#appreg)
+* [Tworzenie obszarów roboczych aplikacji](embedding-content.md#appws)
+* [Tworzenie i przekazywanie raportów](embedding-content.md#createreports)
 
 Możesz użyć [narzędzia obsługi dołączania](https://aka.ms/embedsetup), aby szybko rozpocząć pracę i pobrać przykładową aplikację.
 
@@ -67,7 +70,7 @@ Poniższe konta muszą istnieć w ramach dzierżawy i mieć przypisaną licencj�
 
 #### <a name="an-organizationtenant-admin-user"></a>Administrator organizacji/dzierżawy
 
-Zaleca się, aby konto administratora globalnego organizacji/dzierżawy nie było używane jako konto używane przez aplikację w przypadku osadzania dla klientów. Celem tego jest minimalizacja dostępu konta aplikacji w ramach dzierżawy. Zalecane jest, aby użytkownik będący administratorem dzierżawy był administratorem wszystkich obszarów roboczych aplikacji utworzonych na potrzeby osadzania.
+Zaleca się, aby konto administratora globalnego organizacji/dzierżawy nie było używane jako konto używane przez aplikację w przypadku osadzania dla klientów. Celem tego jest minimalizacja dostępu konta aplikacji w ramach dzierżawy. Wymagane jest, aby użytkownik będący administratorem dzierżawy był administratorem wszystkich obszarów roboczych aplikacji utworzonych na potrzeby osadzania.
 
 #### <a name="accounts-for-analysts-that-create-content"></a>Konta analityków tworzących zawartość
 
@@ -83,7 +86,7 @@ Konto główne to zwykły użytkownik z licencją usługi Power BI Pro używaną
 
 Aplikację należy zarejestrować w usłudze Azure AD, aby móc wykonywać wywołania interfejsu API REST. Aby uzyskać więcej informacji, zobacz [Rejestrowanie aplikacji usługi Azure AD, aby osadzić zawartość usługi Power BI](register-app.md).
 
-### <a name="create-app-workspaces"></a>Tworzenie obszarów roboczych aplikacji
+### <a name="appws"></a>Tworzenie obszarów roboczych aplikacji
 
 Jeśli osadzasz pulpity nawigacyjne i raporty dla klientów, należy umieścić je w obszarze roboczym aplikacji. Konto *główne* wspomniane powyżej musi być kontem administratora obszaru roboczego aplikacji.
 
@@ -93,13 +96,17 @@ Jeśli osadzasz pulpity nawigacyjne i raporty dla klientów, należy umieścić 
 > Użytkownik bez uprawnień administratora może utworzyć maksymalnie 250 obszarów roboczych aplikacji. Aby utworzyć więcej obszarów roboczych aplikacji, należy użyć konta administratora dzierżawy.
 >
 
-### <a name="create-and-upload-your-reports"></a>Tworzenie i przekazywanie raportów
+### <a name="createreports"></a>Tworzenie i przekazywanie raportów
 
 Raporty i zestawy danych można tworzyć przy użyciu programu Power BI Desktop, a następnie publikować je w obszarze roboczym aplikacji. Aby móc publikować raporty w obszarze roboczym aplikacji, użytkownik końcowy publikujący je musi mieć licencję usługi Power BI Pro.
 
 ## <a name="step-2-embed-your-content"></a>Krok 2. Osadzanie zawartości
 
-W ramach aplikacji konieczna jest autoryzacja przy użyciu usługi Power BI. W przypadku osadzania zawartości dla klientów poświadczenia konta *głównego* są przechowywane w aplikacji. Aby uzyskać więcej informacji, zobacz [Uwierzytelnianie użytkowników i uzyskiwanie tokenów dostępu usługi Azure AD dla aplikacji usługi Power BI](get-azuread-access-token.md).
+W ramach aplikacji konieczna jest autoryzacja przy użyciu usługi Power BI. W przypadku osadzania zawartości dla klientów poświadczenia konta *głównego* są przechowywane w aplikacji.
+
+> [!NOTE]
+> Aby uzyskać więcej informacji o uwierzytelnianiu użytkowników podczas osadzania na potrzeby klientów, zobacz [Uwierzytelnianie użytkowników i uzyskiwanie tokenów dostępu usługi Azure AD dla aplikacji usługi Power BI](get-azuread-access-token.md).
+>
 
 Po uwierzytelnieniu w aplikacji użyj interfejsów API usługi Power BI i języka JavaScript do osadzania pulpitów nawigacyjnych i raportów w aplikacji. 
 
@@ -123,7 +130,7 @@ Przejście do środowiska produkcyjnego wymaga kilku dodatkowych kroków.
 
 W przypadku osadzania dla swojej organizacji wystarczy jedynie powiadomić innych, jak uzyskać dostęp do aplikacji. 
 
-Użytkownicy wersji bezpłatnej mogą korzystać z zawartości osadzonej z obszaru roboczego aplikacji (grupy), jeśli dedykowana pojemność wspiera ten obszar. Użytkownika wersji bezpłatnej należy umieścić na liście członków obszaru roboczego aplikacji (grupy). W przeciwnym razie wyświetlany jest błąd nieupoważnionego dostępu 401. Poniższa tabela zawiera listę dostępnych jednostek SKU usługi Power BI Premium dostępnych w ramach usługi Office 365.
+Wszyscy użytkownicy, bez względu na to, do której licencji zostali przypisani, mogą korzystać z zawartości osadzonej z obszaru roboczego aplikacji (grupy), jeśli dedykowana pojemność wspiera ten obszar. Należy jednak pamiętać, że do obszaru roboczego aplikacji trzeba jawnie dodać użytkowników, którzy nie mają licencji usługi Power BI Pro; w przeciwnym razie wystąpi błąd 401 oznaczający nieupoważniony dostęp. Poniższa tabela zawiera listę dostępnych jednostek SKU usługi Power BI Premium dostępnych w ramach usługi Office 365.
 
 | Węzeł pojemności | Całkowita liczba rdzeni<br/>*(Wewnętrzna baza danych + fronton)* | Rdzenie wewnętrznej bazy danych | Rdzenie frontonu | Limity zapytania bezpośredniego/połączenia na żywo | Maksymalne renderowanie strony w godzinie szczytu |
 | --- | --- | --- | --- | --- | --- |

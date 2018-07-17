@@ -8,22 +8,23 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/27/2018
+ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 387780371a82ab4f2c834683ab522258d130e18e
-ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
+ms.openlocfilehash: 002c1c256a0d78601d112e4ee34326c0914f9ac1
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34755259"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599694"
 ---
 # <a name="usage-metrics-for-dashboards-and-reports"></a>Metryki użycia pulpitów nawigacyjnych i raportów
 Jeśli tworzysz pulpity nawigacyjne i raporty, metryki użycia pomogą Ci określić ich oddziaływanie. Uruchamiając metryki użycia pulpitów nawigacyjnych lub raportów, możesz dowiedzieć się, w jaki sposób są one używane w organizacji: jaka zawartość jest używana, przez kogo i w jakim celu.  
 
-  > **UWAGA**: metryki użycia będą śledzić użycie raportów osadzonych w usłudze SharePoint Online. Nie będą one jednak śledzić osadzania pulpitów nawigacyjnych i raportów za pośrednictwem przepływów „użytkownik jest właścicielem poświadczeń” i „aplikacja jest właścicielem poświadczeń”. Metryki użycia nie będą również śledzić użycia osadzania raportów za pomocą polecenia [Publikuj w Internecie](service-publish-to-web.md).
+> [!NOTE]
+> Metryki użycia będą śledzić użycie raportów osadzonych w usłudze SharePoint Online. Nie będą one jednak śledzić osadzania pulpitów nawigacyjnych i raportów za pośrednictwem przepływów „użytkownik jest właścicielem poświadczeń” i „aplikacja jest właścicielem poświadczeń”. Metryki użycia nie będą również śledzić użycia osadzania raportów za pomocą polecenia [Publikuj w Internecie](service-publish-to-web.md).
 
-Te raporty metryk użycia są tylko do odczytu. Możesz jednak spersonalizować raport metryk użycia, korzystając z funkcji Zapisz jako. To spowoduje utworzenie nowego zestawu danych i przekonwertowanie raportu tylko do odczytu na w pełni funkcjonalny raport usługi Power BI, który można edytować. Spersonalizowany raport zawiera metryki dotyczące wybranego pulpitu nawigacyjnego lub raportu, a ponadto dzięki usunięciu domyślnego filtru zapewnia dostęp do metryk użycia wszystkich pulpitów nawigacyjnych lub wszystkich raportów w wybranym obszarze roboczym.
+Te raporty metryk użycia są tylko do odczytu. Możesz jednak spersonalizować raport metryk użycia, korzystając z funkcji Zapisz jako. To spowoduje utworzenie nowego zestawu danych i przekonwertowanie raportu tylko do odczytu na w pełni funkcjonalny raport usługi Power BI, który można edytować. Spersonalizowany raport zawiera metryki dotyczące wybranego pulpitu nawigacyjnego lub raportu, a ponadto dzięki usunięciu domyślnego filtru zapewnia dostęp do metryk użycia wszystkich pulpitów nawigacyjnych lub wszystkich raportów w wybranym obszarze roboczym. Możesz nawet zobaczyć nazwy użytkowników końcowych.
 
 ![raport metryk użycia](media/service-usage-metrics/power-bi-dashboard-usage-metrics-update-3.png)
 
@@ -33,7 +34,7 @@ Wiedza na temat sposobu, w jaki używana jest zawartość, pomaga w określeniu 
 Raporty metryk użycia można uruchamiać tylko w usłudze Power BI.  Jeśli jednak zapiszesz raport metryk użycia lub przypniesz go do pulpitu nawigacyjnego, możesz go otworzyć i używać również na urządzeniach przenośnych.
 
 ### <a name="prerequisites"></a>Wymagania wstępne
-- Funkcja metryk użycia rejestruje informacje o użyciu zawartości przez wszystkich użytkowników, zarówno korzystających z wersji bezpłatnej, jak i wersji Pro. Natomiast korzystanie z metryk użycia i dostęp do ich danych są możliwe tylko dla użytkowników z licencją Pro.
+- Funkcja metryk użycia przechwytuje informacje o użyciu od wszystkich użytkowników, niezależnie od licencji, które do nich przypisano. Natomiast korzystanie z metryk użycia i dostęp do ich danych są możliwe tylko dla użytkowników z licencją usługi Power BI Pro.
 - Metryki użycia są dostępne dla pulpitów nawigacyjnych i raportów w wybranym obszarze roboczym. Aby uzyskać dostęp do metryk użycia określonego pulpitu nawigacyjnego lub raportu, musisz:    
     • Mieć uprawnienia do edycji tego pulpitu nawigacyjnego lub raportu   
     • Mieć licencję wersji Pro
@@ -50,26 +51,24 @@ Aby dokładniej analizować dane raportu lub tworzyć własne raporty na podstaw
 ## <a name="open-a-usage-metrics-report-for-a-dashboard-or-report"></a>Otwieranie raportu metryk użycia dotyczącego pulpitu nawigacyjnego lub raportu
 1. Zacznij w obszarze roboczym zawierającym wybrany pulpit nawigacyjny lub raport.
 2. Z poziomu listy zawartości obszaru roboczego albo samego pulpitu nawigacyjnego lub raportu wybierz ikonę **metryk użycia** ![ikona metryk użycia](media/service-usage-metrics/power-bi-usage-metrics-report-icon.png).
-   
+
     ![Karta pulpitów nawigacyjnych](media/service-usage-metrics/power-bi-run-usage-metrics-report.png)
-   
+
     ![wybieranie metryk użycia](media/service-usage-metrics/power-bi-run-usage-metrics-report2.png)
 3. Za pierwszym razem usługa Power BI utworzy raport metryk użycia i powiadomi Cię, gdy będzie gotowy.
-   
+
     ![metryki są gotowe](media/service-usage-metrics/power-bi-usage-metrics-ready.png)    
 4. Aby otworzyć wyniki, wybierz polecenie **Wyświetl metryki użycia**.
-   
+
     Metryki użycia są bardzo pomocne w procesie wdrażania i utrzymywania pulpitów nawigacyjnych i raportów usługi Power BI. Zastanawiasz się, które strony raportu są najbardziej użyteczne, a które należałoby wycofać? Użyj fragmentatora **stron raportu**, aby się tego dowiedzieć. Zastanawiasz się nad utworzeniem układu pulpitu nawigacyjnego dla urządzeń przenośnych? Użyj fragmentatora **platform**, aby dowiedzieć się, ilu użytkowników uzyskuje dostęp do zawartości za pośrednictwem aplikacji mobilnych, a ilu za pośrednictwem przeglądarki internetowej.
 
 5. Opcjonalnie umieść kursor nad wizualizacją i wybierz ikonę pinezki, aby dodać wizualizację do pulpitu nawigacyjnego. Alternatywnie z górnego paska menu wybierz pozycję **Przypnij stronę dynamiczną**, aby dodać całą stronę do pulpitu nawigacyjnego. Z poziomu pulpitu nawigacyjnego możesz łatwiej monitorować metryki użycia lub udostępnić je innym.
-   
-   > **UWAGA**: Jeśli przypniesz do pulpitu nawigacyjnego kafelek z raportu metryk użycia, nie będzie można dodać tego pulpitu nawigacyjnego do aplikacji ani do pakietu zawartości.
-   > 
-   > 
 
-<br><br>
+    > [!NOTE]
+    > Jeśli przypniesz do pulpitu nawigacyjnego kafelek z raportu metryk użycia, nie będzie można dodać tego pulpitu nawigacyjnego do aplikacji ani do pakietu zawartości.
 
 ## <a name="what-metrics-are-reported"></a>Jakie metryki są uwzględniane w raporcie?
+
 | Metryka | Pulpit nawigacyjny | Raport | Opis |
 | --- | --- | --- | --- |
 | Fragmentator metody dystrybucji |tak |tak |Sposób uzyskania dostępu do zawartości przez użytkowników. Istnieją 3 możliwości: użytkownicy mogą uzyskać dostęp do pulpitu nawigacyjnego lub raportu, będąc członkami [obszaru roboczego aplikacji](service-the-new-power-bi-experience.md), przez [udostępnienie im](service-share-dashboards.md) zawartości lub przez zainstalowanie aplikacji albo pakietu zawartości.  Zwróć uwagę, że wyświetlenia za pośrednictwem aplikacji są liczone w kategorii „pakiet zawartości”. |
@@ -108,16 +107,16 @@ W przypadku utworzenia kopii raportu za pomocą polecenia „Zapisz jako” (spe
 
 
 1. We wstępnie utworzonym raporcie metryk użycia wybierz pozycję **Plik > Zapisz jako**. Usługa Power BI przekonwertuje raport metryk użycia na w pełni funkcjonalny raport usługi Power BI. Jest to tak zwany *spersonalizowany* raport metryk użycia. Spersonalizowany raport użycia i zestaw danych są zapisywane w bieżącym obszarze roboczym o nazwie *mihart*.
-   
+
     ![Zapisz jako](media/service-usage-metrics/power-bi-save-as.png)
 2. Możesz otworzyć ten raport w widoku do edycji i [korzystać z niego tak samo, jak ze zwykłego raportu usługi Power BI](service-interact-with-a-report-in-editing-view.md). Na przykład możesz dodawać nowe strony, tworzyć nowe wizualizacje, dodawać filtry, formatować czcionki i kolory itp.
-   
+
     ![otwieranie raportu w widoku do edycji](media/service-usage-metrics/power-vi-editing-view.png)
 3. Możesz także rozpocząć od nowo utworzonego zestawu danych, a następnie utworzyć raport od podstaw.
-   
+
     ![Karta Zbiory danych](media/service-usage-metrics/power-bi-new-dataset.png)
 4. Nowy raport zostanie zapisany w bieżącym obszarze roboczym (mihart) i dodany do listy zawartości **Ostatnio używane**.
-   
+
     ![Karta Raporty](media/service-usage-metrics/power-bi-new-report.png)
 
 ### <a name="remove-the-filter-to-see-all-the-usage-metrics-data-in-the-workspace"></a>Usuwanie filtru w celu wyświetlenia ***wszystkich*** danych metryk użycia w obszarze roboczym
@@ -126,26 +125,28 @@ Aby wyświetlić metryki dotyczące wszystkich pulpitów nawigacyjnych lub rapor
 Jeśli na przykład nowy raport spersonalizowany został utworzony na podstawie pulpitu nawigacyjnego o nazwie „Sprzedaż w Europie”, zostaną wyświetlone tylko dane dotyczące użycia pulpitu nawigacyjnego „Sprzedaż w Europie”. Aby usunąć filtr i wyświetlić dane dotyczące wszystkich pulpitów nawigacyjnych w wybranym obszarze roboczym:
 
 1. Otwórz raport spersonalizowany w widoku do edycji.
-   
+
     ![wybieranie opcji Edytuj raport](media/service-usage-metrics/power-bi-editing-view.png)
 2. W okienku Filtry znajdź zasobnik **Filtry na poziomie raportu** i usuń filtr, wybierając znak „x”.
-   
+
     ![usuwanie filtru](media/service-usage-metrics/power-bi-report-level-filter2.png)
-   
+
     Teraz w raporcie spersonalizowanym będą wyświetlane metryki dotyczące całego obszaru roboczego.
 
 ## <a name="admin-controls-for-usage-metrics---for-power-bi-administrators"></a>Opcje kontroli administracyjnej dotyczące metryk użycia — dla administratorów usługi Power BI
 Administratorzy usługi Power BI lub Office 365 mogą włączać i wyłączać funkcję raportów metryk użycia. Administratorzy mają szczegółową kontrolę nad tym, którzy użytkownicy mają dostęp do metryk użycia — domyślnie wszyscy użytkownicy w organizacji mają dostęp.
 
 1. Otwórz portal administracyjny, wybierając w usłudze Power BI ikonę koła zębatego w prawym górnym rogu, a następnie pozycję **Portal administracyjny**.
-   
+
     ![wybieranie ikony koła zębatego](media/service-usage-metrics/power-bi-admin-portal-new.png)
 2. W portalu administracyjnym wybierz pozycję **Ustawienia dzierżawy**, a następnie **Metryki użycia dla twórców zawartości**.
-   
+
     ![Portal administracyjny](media/service-usage-metrics/power-bi-usage-settings.png)
 3. Włącz lub wyłącz metryki użycia i wybierz przycisk **Zastosuj**.
-   
+
     ![Włączone metryki użycia](media/service-usage-metrics/power-bi-tenant-settings-updated.png)
+
+Domyślnie dane na użytkownika są włączone dla metryki użycia, a informacje o koncie autora zawartości są uwzględniane w raporcie metryki. Jeśli nie chcesz uwzględnić tych informacji dla niektórych lub wszystkich użytkowników, wyłączyć funkcję dla określonych grup zabezpieczeń lub całej organizacji. Informacje o koncie będą wyświetlane w raporcie jako *Bez nazwy*.
 
 Wyłączając metryki użycia dla całej organizacji, administratorzy mogą skorzystać z opcji **Usuń całą istniejącą zawartość metryk użycia**, aby usunąć wszystkie istniejące raporty i kafelki pulpitów nawigacyjnych utworzone na podstawie raportów i zestawów danych metryk użycia. To uniemożliwi również dostęp do danych metryk użycia wszystkim użytkownikom w organizacji, którzy już z nich korzystali. Zachowaj ostrożność, ponieważ usunięcie istniejącej zawartości metryk użycia jest nieodwracalne.
 
