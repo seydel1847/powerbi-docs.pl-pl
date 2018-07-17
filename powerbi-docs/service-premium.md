@@ -11,11 +11,11 @@ ms.date: 02/05/2018
 ms.author: mblythe
 LocalizationGroup: Premium
 ms.openlocfilehash: 15b64b917fed56e9d9ab6be2023060378324c794
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "36944565"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38925441"
 ---
 # <a name="power-bi-premium---what-is-it"></a>Power BI Premium — co to jest?
 Usługa Power BI Premium zapewnia zasoby dedykowane do uruchamiania usługi Power BI dla organizacji lub zespołu, zapewniając jeszcze bardziej niezawodną wydajność i większe woluminy danych. Ponadto usługa Premium umożliwia szeroką dystrybucję zawartości bez potrzeby zakupu licencji dla użytkowników, którzy mają ją wyświetlać.
