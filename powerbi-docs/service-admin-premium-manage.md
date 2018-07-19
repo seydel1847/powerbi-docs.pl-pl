@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/10/2017
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 08d5d5b8d44d1ebceab2bb41ddbb244afda64fb6
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 24d585af19dd774cdf6fe7dafb66c12e02d311f9
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "36945048"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38924798"
 ---
 # <a name="manage-capacities-within-power-bi-premium-and-power-bi-embedded"></a>Zarządzanie pojemnościami w usługach Power BI Premium i Power BI Embedded
 Dowiedz się, jak zarządzać pojemnościami usług Power BI Premium i Power BI Embedded, zapewniając zasoby dedykowane dla swojej zawartości.
@@ -33,6 +33,16 @@ Pojemność jest niewidoczna dla Twoich użytkowników końcowych. Korzystają o
 
 Aby uzyskać więcej informacji, zobacz [Co to jest usługa Power BI Premium?](service-premium.md).
 
+### <a name="capacity-admins"></a>Administratorzy pojemności
+> [!NOTE]
+> W przypadku pojemności usługi Power BI Embedded administratorzy pojemności są definiowani z poziomu portalu Microsoft Azure.
+
+Gdy użytkownik jest przypisany do pojemności jako administrator, ma pełną kontrolę nad daną pojemnością i jej funkcjami administracyjnymi. Korzystając z portalu administratora usługi Power BI, można dodać kolejnych administratorów pojemności (tylko w przypadku usługi Power BI Premium) lub nadać użytkownikom uprawnienia do przypisywania pojemności. Do pojemności można zbiorczo przypisywać obszary robocze. Można też wyświetlać metryki dotyczące użycia danej pojemności.
+
+Każda pojemność ma własnych administratorów. Administrator zdefiniowany dla jednej pojemności nie uzyskuje dostępu do wszystkich pojemności w danej organizacji. Administratorzy pojemności domyślnie nie mają dostępu do wszystkich obszarów administratora usługi Power BI, takich jak metryki użycia, dzienniki inspekcji i ustawienia dzierżawy. Administratorzy pojemności nie mają też uprawnień do konfigurowania nowych pojemności ani zmieniania jednostki SKU istniejących pojemności. Tylko administratorzy globalni lub administratorzy usługi Power BI mają dostęp do tych elementów.
+
+Wszyscy administratorzy globalni usługi Office 365 i administratorzy usługi Power BI są też automatycznie administratorami pojemności usługi Power BI Premium i pojemności usługi Power BI Embedded.
+
 ## <a name="purchase-capacity"></a>Kupowana pojemność
 Aby optymalnie wykorzystać dedykowaną pojemność, należy kupić subskrypcję usługi Power BI Premium z poziomu centrum administracyjnego usługi Office 365 lub utworzyć zasób usługi Power BI Embedded z poziomu portalu Microsoft Azure. Aby uzyskać więcej informacji, zobacz następujące artykuły:
 
@@ -43,21 +53,9 @@ Po kupieniu jednostek SKU usługi Power BI Premium Twoja dzierżawa otrzyma odpo
 
 > [!NOTE]
 > Po zakończeniu subskrypcji będziesz mieć pełny dostęp przez 30 dni, ale następnie zawartość zostanie przywrócona do udostępnionej pojemności. Modele większe niż 1 GB nie będą obsługiwane w przypadku zwykłej licencji udostępnionej.
->
 
-## <a name="capacity-admins"></a>Administratorzy pojemności
-> [!NOTE]
-> W przypadku pojemności usługi Power BI Embedded administratorzy pojemności są definiowani z poziomu portalu Microsoft Azure.
->
->
 
-Gdy użytkownik jest przypisany do pojemności jako administrator, ma pełną kontrolę nad daną pojemnością i jej funkcjami administracyjnymi. Korzystając z portalu administratora usługi Power BI, można dodać kolejnych administratorów pojemności (tylko w przypadku usługi Power BI Premium) lub nadać użytkownikom uprawnienia do przypisywania pojemności. Do pojemności można zbiorczo przypisywać obszary robocze. Można też wyświetlać metryki dotyczące użycia danej pojemności.
-
-Każda pojemność ma własnych administratorów. Administrator zdefiniowany dla jednej pojemności nie uzyskuje dostępu do wszystkich pojemności w danej organizacji. Administratorzy pojemności domyślnie nie mają dostępu do wszystkich obszarów administratora usługi Power BI, takich jak metryki użycia, dzienniki inspekcji i ustawienia dzierżawy. Administratorzy pojemności nie mają też uprawnień do konfigurowania nowych pojemności ani zmieniania jednostki SKU istniejących pojemności. Tylko administratorzy globalni lub administratorzy usługi Power BI mają dostęp do tych elementów.
-
-Wszyscy administratorzy globalni usługi Office 365 i administratorzy usługi Power BI są też automatycznie administratorami pojemności usługi Power BI Premium i pojemności usługi Power BI Embedded.
-
-## <a name="managing-capacity"></a>Zarządzanie pojemnością
+## <a name="manage-capacity"></a>Zarządzanie pojemnością
 Po zakupie węzłów pojemności w usłudze Office 365 należy skonfigurować nową pojemność. Należy to zrobić za pomocą [portalu administracyjnego usługi Power BI](service-admin-portal.md). W portalu administracyjnym znajduje się sekcja o nazwie **Ustawienia pojemności**. W tym miejscu można zarządzać pojemnościami usługi Power BI Premium dla swojej organizacji.
 
 ![Ustawienia pojemności w portalu administracyjnym](media/service-admin-premium-manage/admin-portal-premium.png)
@@ -96,8 +94,6 @@ Na ekranie zarządzania pojemnością Premium możesz wybrać **ikonę koła zę
 
 > [!NOTE]
 > Zarządzanie ustawieniami pojemności usługi Power BI Embedded odbywa się z poziomu portalu Microsoft Azure.
->
->
 
 ### <a name="change-capacity-size-power-bi-premium"></a>Zmienianie rozmiaru pojemności (Power BI Premium)
 Administratorzy usługi Power BI i administratorzy globalni usługi Office 365 mogą zmienić rozmiar pojemności usługi Power BI Premium, wybierając pozycję **Zmień rozmiar pojemności**. Administrator pojemności, który nie jest administratorem usługi Power BI ani administratorem globalnym usługi Office 365, nie ma takiej możliwości.
@@ -128,35 +124,6 @@ Pojemnościom usługi Power BI Premium mogą zostać przypisani dodatkowi **Admi
 ![](media/service-admin-premium-manage/capacity-user-permissions.png)
 
 ![](media/service-admin-premium-manage/capacity-user-permissions2.png)
-
-## <a name="usage-measurements-power-bi-premium"></a>Pomiary użycia (Power BI Premium)
-W przypadku każdej pojemności dostępne są pomiary użycia dla procesora CPU, pamięci, przeładowywania pamięci i zapytania bezpośredniego. Zalecamy monitorowanie tych metryk, aby użytkownicy mieli zapewnioną wysoką wydajność w Twojej pojemności:
-
-![Użycie w ciągu ostatnich siedmiu dni](media/service-admin-premium-manage/premium-dashboard-tiles.png)
-
-> [!NOTE]
-> Monitorowanie użycia pojemności usługi Power BI Embedded odbywa się z poziomu portalu Azure.
-
-| Metryka | Opis |
-| --- | --- |
-| Procesor CPU |Ile razy wykorzystanie procesora CPU przekroczyło 80%. |
-| Przeładowywanie pamięci |Reprezentuje wykorzystanie pamięci rdzeni wewnętrznej bazy danych. Ta metryka w szczególności obrazuje, ile razy zestawy danych zostały usunięte z pamięci z powodu braku pamięci wynikającego z używania wielu zestawów danych. |
-| Memory Usage (Użycie pamięci) |Średnie użycie pamięci przedstawiane w gigabajtach (GB). |
-| Zapytania bezpośrednie | Ile razy liczba zapytań bezpośrednich i połączeń na żywo przekroczyła 80% limitu. <br> <br> * Łączna liczba zapytań bezpośrednich i zapytań w ramach połączeń na żywo występujących w ciągu sekundy jest ograniczona.<br><br>* Ograniczenia są następujące: 30/s dla jednostki P1, 60/s dla jednostki P2 i 120/s dla jednostki P3.<br><br> * Liczba zapytań bezpośrednich i zapytań w ramach połączeń na żywo wlicza się do powyższych limitów. Na przykład, jeśli w ciągu sekundy wystąpiło 15 połączeń bezpośrednich i 15 połączeń na żywo, limit został osiągnięty.<br/><br>* Ma to jednakowe zastosowanie się do połączeń lokalnych i połączeń w chmurze. |
-
-Metryki odzwierciedlają wykorzystanie w ostatnim tygodniu.  Jeśli chcesz wyświetlić bardziej szczegółowy widok metryki, możesz to zrobić, klikając dowolny kafelek podsumowania.  Spowoduje to przejście do szczegółowych wykresów dla każdej metryki Twojej pojemności Premium.  Wykresy te są podsumowywane co godzinę dla ostatniego tygodnia i mogą pomóc określić, kiedy w Twojej pojemności Premium mogły wystąpić określone zdarzenia dotyczące wydajności.  
-
-![Szczegółowy wykres użycia procesora CPU](media/service-admin-premium-manage/premium-usage-detailed-chart-cpu.png)
-
-![Szczegółowy wykres użycia przeładowywania pamięci](media/service-admin-premium-manage/premium-usage-detailed-chart-memory-thrashing.png)
-
-
-![Szczegółowy wykres użycia rozmiaru pamięci](media/service-admin-premium-manage/premium-usage-detailed-chart-memory-size.png)
-
-
-![Szczegółowy wykres użycia przeładowywania pamięci](media/service-admin-premium-manage/premium-usage-detailed-chart-dq.png)
-
-Dane źródłowe dla dowolnej metryki można wyeksportować do pliku csv.  Dzięki temu uzyskasz szczegółowe informacje w przedziałach trzyminutowych dla poszczególnych dni w ostatnim tygodniu.
 
 ## <a name="assign-a-workspace-to-a-capacity"></a>Przypisywanie obszaru roboczego do pojemności
 Istnieje kilka sposobów przypisywania obszaru roboczego do pojemności.
@@ -193,6 +160,36 @@ Aby przenieść obszar roboczy do pojemności, musisz mieć uprawnienia administ
 5. Wybierz pozycję **Zapisz**.
 
 Po zapisaniu obszar roboczy i cała jego zawartość zostaną przeniesione do pojemności Premium w sposób niezauważalny dla użytkowników końcowych.
+
+
+## <a name="monitor-capacity-usage"></a>Monitorowanie użycia pojemności
+W przypadku każdej pojemności dostępne są pomiary użycia dla procesora CPU, pamięci, przeładowywania pamięci i zapytania bezpośredniego. Zalecamy monitorowanie tych metryk, aby użytkownicy mieli zapewnioną wysoką wydajność w Twojej pojemności:
+
+![Użycie w ciągu ostatnich siedmiu dni](media/service-admin-premium-manage/premium-dashboard-tiles.png)
+
+> [!NOTE]
+> Monitorowanie użycia pojemności usługi Power BI Embedded odbywa się z poziomu portalu Azure.
+
+| Metryka | Opis |
+| --- | --- |
+| Procesor CPU |Ile razy wykorzystanie procesora CPU przekroczyło 80%. |
+| Przeładowywanie pamięci |Reprezentuje wykorzystanie pamięci rdzeni wewnętrznej bazy danych. Ta metryka w szczególności obrazuje, ile razy zestawy danych zostały usunięte z pamięci z powodu braku pamięci wynikającego z używania wielu zestawów danych. |
+| Memory Usage (Użycie pamięci) |Średnie użycie pamięci przedstawiane w gigabajtach (GB). |
+| Zapytania bezpośrednie | Ile razy liczba zapytań bezpośrednich i połączeń na żywo przekroczyła 80% limitu. <br> <br> * Łączna liczba zapytań bezpośrednich i zapytań w ramach połączeń na żywo występujących w ciągu sekundy jest ograniczona.<br><br>* Ograniczenia są następujące: 30/s dla jednostki P1, 60/s dla jednostki P2 i 120/s dla jednostki P3.<br><br> * Liczba zapytań bezpośrednich i zapytań w ramach połączeń na żywo wlicza się do powyższych limitów. Na przykład, jeśli w ciągu sekundy wystąpiło 15 połączeń bezpośrednich i 15 połączeń na żywo, limit został osiągnięty.<br/><br>* Ma to jednakowe zastosowanie się do połączeń lokalnych i połączeń w chmurze. |
+
+Metryki odzwierciedlają wykorzystanie w ostatnim tygodniu.  Jeśli chcesz wyświetlić bardziej szczegółowy widok metryki, możesz to zrobić, klikając dowolny kafelek podsumowania.  Spowoduje to przejście do szczegółowych wykresów dla każdej metryki Twojej pojemności Premium.  Wykresy te są podsumowywane co godzinę dla ostatniego tygodnia i mogą pomóc określić, kiedy w Twojej pojemności Premium mogły wystąpić określone zdarzenia dotyczące wydajności.  
+
+![Szczegółowy wykres użycia procesora CPU](media/service-admin-premium-manage/premium-usage-detailed-chart-cpu.png)
+
+![Szczegółowy wykres użycia przeładowywania pamięci](media/service-admin-premium-manage/premium-usage-detailed-chart-memory-thrashing.png)
+
+
+![Szczegółowy wykres użycia rozmiaru pamięci](media/service-admin-premium-manage/premium-usage-detailed-chart-memory-size.png)
+
+
+![Szczegółowy wykres użycia przeładowywania pamięci](media/service-admin-premium-manage/premium-usage-detailed-chart-dq.png)
+
+Dane źródłowe dla dowolnej metryki można wyeksportować do pliku csv.  Dzięki temu uzyskasz szczegółowe informacje w przedziałach trzyminutowych dla poszczególnych dni w ostatnim tygodniu.
 
 ## <a name="what-premium-looks-like-for-users"></a>Widok pojemności Premium z perspektywy użytkowników
 W większości przypadków użytkownicy nie muszą wiedzieć, że są w pojemności Premium. Wystarczy, że ich pulpity nawigacyjne i raporty sprawnie działają. Wizualną wskazówką jest ikona diamentu umieszczona obok obszarów roboczych w pojemności Premium.
