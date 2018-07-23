@@ -1021,7 +1021,9 @@
             - name: Co mogę zrobić za pomocą interfejsu API usługi Power BI?
               href: developer/overview-of-power-bi-rest-api.md
         - name: Samouczki
-          items: null
+          items:
+            - name: Wypychanie danych do zestawu danych
+              href: developer/walkthrough-push-data.md
         - name: Pojęcia
           items:
             - name: Zasady automatycznego przechowywania danych w czasie rzeczywistym
@@ -1036,8 +1038,6 @@
                   href: developer/api-data-model-versioning.md
         - name: Instrukcje
           items:
-            - name: Wypychanie danych do zestawu danych
-              href: developer/walkthrough-push-data.md
             - name: Rejestrowanie aplikacji w usłudze Azure AD
               href: developer/walkthrough-push-data-register-app-with-azure-ad.md
             - name: Uzyskiwanie tokenu dostępu do uwierzytelniania
