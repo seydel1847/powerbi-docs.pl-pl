@@ -530,6 +530,12 @@
       items:
         - name: Co nowego w najnowszej aktualizacji programu Power BI Desktop?
           href: desktop-latest-update.md
+        - name: Modele złożone w programie Power BI Desktop (wersja zapoznawcza)
+          href: desktop-composite-models.md
+        - name: Relacje wiele-do-wielu w programie Power BI Desktop (wersja zapoznawcza)
+          href: desktop-many-to-many-relationships.md
+        - name: Tryb magazynu w programie Power BI Desktop (wersja zapoznawcza)
+          href: desktop-storage-mode.md
         - name: Dwukierunkowe filtrowanie krzyżowe w programie Power BI Desktop (wersja zapoznawcza)
           href: desktop-bidirectional-filtering.md
         - name: Usługa Power BI i zapytanie bezpośrednie
@@ -670,6 +676,8 @@
               href: desktop-import-and-display-kpis.md
         - name: Tworzenie raportów
           items:
+            - name: Elementy wizualne dla raportów
+              href: desktop-visual-elements-for-reports.md
             - name: Pytania i odpowiedzi w programie Power BI Desktop
               href: desktop-qna-in-reports.md
             - name: Okienko analizy w programie Power BI Desktop
@@ -1244,6 +1252,8 @@
               href: service-premium-large-datasets.md
             - name: Odświeżanie przyrostowe
               href: service-premium-incremental-refresh.md
+            - name: Obsługa wielu regionów geograficznych (wersja zapoznawcza)
+              href: service-admin-premium-multi-geo.md
             - name: Power BI Premium — często zadawane pytania
               href: service-premium-faq.md
             - name: Informacje o wersji usługi Power BI Premium
