@@ -34,7 +34,7 @@ Na przykład usługa Power BI i język DAX zawierają wartości, które nie są 
 
 Można również tworzyć całe tabele obliczeniowe, korzystając z funkcji języka DAX. Tabele obliczeniowe utworzone przy użyciu języka DAX wymagają funkcji **NAME** i **TABLE**. Tabele obliczeniowe mogą być używane, jak każda inna tabela, łącznie z ustanawianiem relacji.
 
-> Zawartość wideo dzięki uprzejmości [Alberta Ferrariego, SQLBI](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit)
+> Zawartość wideo dzięki uprzejmości [Alberta Ferrariego, SQLBI](http://www.sqlbi.com/learning-dax)
 > 
 > 
 
