@@ -15,7 +15,7 @@ Funkcja **RELATED** działa na relacjach *wiele do jednego*, zaś funkcja **RELA
 
 Funkcji relacyjnych możesz używać do kompilacji wyrażeń, które zawierają wartości dla wielu tabel. Język DAX zwróci wyniki tych funkcji niezależnie od długości łańcucha relacji.
 
-> Zawartość wideo dzięki uprzejmości [Alberta Ferrariego, SQLBI](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit)
+> Zawartość wideo dzięki uprzejmości [Alberta Ferrariego, SQLBI](http://www.sqlbi.com/learning-dax)
 > 
 > 
 

@@ -10,7 +10,7 @@ Zmienne mogą być dowolnego typu danych, łącznie z całymi tabelami.
 
 Należy pamiętać, że przy każdym odwołaniu do zmiennej w wyrażeniu języka DAX usługa Power BI musi ponownie obliczyć jej wartość zgodnie z definicją. Z tego powodu dobrze jest unikać powtarzania zmiennych w funkcji.
 
-> Zawartość wideo dzięki uprzejmości [Alberta Ferrariego, SQLBI](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit)
+> Zawartość wideo dzięki uprzejmości [Alberta Ferrariego, SQLBI](http://www.sqlbi.com/learning-dax)
 > 
 > 
 

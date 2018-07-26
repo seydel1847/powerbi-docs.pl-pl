@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 07/24/2018
 ms.author: davidi
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 016237c95d3494435931e143ff34dbe4a82abb55
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 9c94ec0b409bdb620c7ce9f313803cdf49c15b5a
+ms.sourcegitcommit: 7fb0b68203877ff01f29724f0d1761d023075445
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37599671"
+ms.lasthandoff: 07/26/2018
+ms.locfileid: "39256106"
 ---
 # <a name="creating-r-visuals-in-the-power-bi-service"></a>Tworzenie wizualizacji języka R w usłudze Power BI
 Usługa Power BI obsługuje wyświetlanie i używanie wizualizacji utworzonych za pomocą skryptów języka R. Korzystając z wizualizacji utworzonych za pomocą skryptów języka R, powszechnie nazywanych *wizualizacjami języka R*, można przedstawiać zaawansowane kształtowanie danych i zaawansowaną analizę danych (na przykład prognozy), używając rozbudowanych możliwości analizy i wizualizacji języka R.

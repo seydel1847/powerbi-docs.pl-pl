@@ -89,7 +89,7 @@ Język DAX zawiera następujące funkcje **daty**:
 
 Chociaż te funkcje są przydatne do obliczania i wyodrębniania informacji z wartości *daty*, nie mają zastosowania do analizy czasu, która używa tabeli dat.
 
-> Zawartość wideo dzięki uprzejmości [Alberta Ferrariego, SQLBI](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit)
+> Zawartość wideo dzięki uprzejmości [Alberta Ferrariego, SQLBI](http://www.sqlbi.com/learning-dax)
 > 
 > 
 

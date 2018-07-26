@@ -3,7 +3,7 @@ Witamy w dotyczącej usługi Power BI sekcji **Nauka z przewodnikiem**, która z
 Rozwinięcie skrótu **DAX** to **Data Analysis Expressions** i jest to nazwa języka formuł używanego w usłudze Power BI (jest on również używany przez usługę Power BI w tle). Język DAX można również znaleźć w innych ofertach firmy Microsoft, takich jak dodatek Power Pivot i widok tabelaryczny SSAS, ale ten zbiór tematów nauki z przewodnikiem koncentruje się na używaniu języka DAX — i jak może on być przez Ciebie używany — w usłudze Power BI.
 
 ## <a name="dax-and-this-guided-learning-video-series"></a>Język DAX i ta seria filmów wideo Nauka z przewodnikiem
-Celem tej sekcji **Nauka z przewodnikiem** jest nauczenie Cię podstaw i zasad języka DAX — jak myśleć o języku DAX, o tym, jak on działa, i o najbardziej przydatnych funkcjach objaśnionych (i opartych na wiedzy zdobytej na podstawie dużego doświadczenia) przez znanego eksperta z zakresu języka DAX, [Alberta Ferrariego](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit).
+Celem tej sekcji **Nauka z przewodnikiem** jest nauczenie Cię podstaw i zasad języka DAX — jak myśleć o języku DAX, o tym, jak on działa, i o najbardziej przydatnych funkcjach objaśnionych (i opartych na wiedzy zdobytej na podstawie dużego doświadczenia) przez znanego eksperta z zakresu języka DAX, [Alberta Ferrariego](http://www.sqlbi.com/learning-dax).
 
 ![Zdjęcie Alberta Ferrariego](media/7-1-intro-to-dax/intro_dax_6_alberto_ferrari.png)
 

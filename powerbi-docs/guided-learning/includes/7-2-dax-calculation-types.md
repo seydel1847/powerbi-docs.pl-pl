@@ -57,7 +57,7 @@ Elementy wymagane dla miary obliczeniowej są takie same, jak dla kolumny oblicz
 * Nazwa nowej miary
 * Co najmniej jedna funkcja lub wyrażenie
 
-> Zawartość wideo dzięki uprzejmości [Alberta Ferrariego, SQLBI](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit)
+> Zawartość wideo dzięki uprzejmości [Alberta Ferrariego, SQLBI](http://www.sqlbi.com/learning-dax)
 > 
 > 
 
