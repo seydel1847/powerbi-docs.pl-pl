@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 07/19/2018
 ms.author: davidi
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 3c91a6a70899a4a59c3d98cd9ab948284df5b662
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 144cdace662b5f6dbe546a213e07f087d634dcff
+ms.sourcegitcommit: 7fb0b68203877ff01f29724f0d1761d023075445
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34298394"
+ms.lasthandoff: 07/26/2018
+ms.locfileid: "39256014"
 ---
 # <a name="tips-and-tricks-for-color-formatting-in-power-bi"></a>Porady i wskazówki dotyczące formatowania kolorów w usłudze Power BI
 Usługa Power BI udostępnia wiele różnych sposobów dostosowywania pulpitów nawigacyjnych i raportów. Ten artykuł zawiera zbiór porad i wskazówek, dzięki którym Twoje wizualizacje usługi Power BI będą bardziej atrakcyjne, interesujące i dostosowane do Twoich potrzeb.
@@ -97,7 +97,7 @@ Zwróć uwagę, jak na pierwszym obrazie kolumny na wykresie odzwierciedlają gr
 
 ![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_12.png)
 
-Teraz zobaczmy, co się stanie, gdy w polach wartości **Minimum** i **Maksimum** wstawimy wartości liczbowe. Te pola znajdują się poniżej selektorów koloru dla wartości **Minimum** i **Maksimum** (jak pokazano na poniższej ilustracji). W polu **Minimum** ustawmy wartość 20.000.000, a w polu **Maksimum** ustawmy wartość 20.000.000.
+Teraz zobaczmy, co się stanie, gdy w polach wartości **Minimum** i **Maksimum** wstawimy wartości liczbowe. Te pola znajdują się poniżej selektorów koloru dla wartości **Minimum** i **Maksimum** (jak pokazano na poniższej ilustracji). W polu **Minimum** ustawmy wartość 20 000 000, a w polu **Maksimum** ustawmy wartość 20 000 001.
 
 Po ustawieniu tych wartości gradient nie jest już stosowany do wartości na wykresie mniejszych niż wartość **Minimum** lub większych niż wartość **Maksimum**. Każda kolumna o wartości większej niż wartość **Maksimum** ma kolor zielony, z każda kolumna o wartości mniejszej niż wartość **Minimum** ma kolor czerwony.
 

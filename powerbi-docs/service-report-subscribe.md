@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 06/04/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 0b1aa1f9cdabc3508906cc87a4d41f277cd0b0b6
-ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
+ms.openlocfilehash: 9436f94add8c8aff4d0378734c83891ef407955d
+ms.sourcegitcommit: 7fb0b68203877ff01f29724f0d1761d023075445
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37092695"
+ms.lasthandoff: 07/26/2018
+ms.locfileid: "39256083"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-power-bi-service-apppowerbicom"></a>Subskrybowanie raportu i pulpitu nawigacyjnego w usłudze Power BI (app.powerbi.com)
 Nigdy nie było łatwiej być na czasie w przypadku najważniejszych pulpitów nawigacyjnych i raportów. Zasubskrybuj dla siebie i swoich współpracowników strony raportów oraz pulpity nawigacyjne, które są najważniejsze dla Ciebie, a usługa Power BI wyśle wiadomość e-mail z migawką do Twojej skrzynki odbiorczej. Poinformuj usługę Power BI, jak często chcesz otrzymywać wiadomości e-mail: od raz dziennie do raz w tygodniu. 
@@ -83,8 +83,10 @@ Subskrypcje zostaną zakończone po wygaśnięciu licencji wersji Pro, po usuni�
 ## <a name="considerations-and-troubleshooting"></a>Istotne zagadnienia i rozwiązywanie problemów
 * Jeśli w przypadku subskrypcji wiadomości e-mail dla pulpitu nawigacyjnego do pewnych kafelków zastosowano zabezpieczenia na poziomie wiersza, te kafelki nie będą wyświetlane.  Jeśli w przypadku subskrypcji wiadomości e-mail dla raportu zestaw danych używa zabezpieczeń na poziomie wiersza, nie będzie można utworzyć subskrypcji.
 * Subskrypcje stron raportów są związane z nazwą danej strony raportu. Jeśli zasubskrybujesz stronę raportu, a następnie zmienisz jej nazwę, trzeba będzie ponownie utworzyć subskrypcję
+* Obecnie subskrypcje e-mail raportów/pulpitów nawigacyjnych korzystających z zestawów danych z połączeniem na żywo nie są obsługiwane podczas subskrybowania użytkowników innych niż Ty.
 * Dla subskrypcji wiadomości e-mail dla zestawów danych połączenia na żywo otrzymasz wiadomości e-mail tylko po zmianie danych. Jeśli więc nastąpi odświeżanie bez żadnej zmiany danych, usługa Power BI nie wyśle wiadomości e-mail.
 * Subskrypcje e-mail nie obsługują większości [niestandardowych elementów wizualnych](power-bi-custom-visuals.md).  Jedynym wyjątkiem są te niestandardowe elementy wizualne, które zostały [certyfikowane](power-bi-custom-visuals-certified.md).  
+* Subskrypcje e-mail nie obsługują obecnie wizualizacji niestandardowych bazujących na języku R.  
 * Jeśli do niektórych kafelków zastosowano zabezpieczenia na poziomie wiersza, te kafelki nie będą wyświetlane.
 * Nie można zasubskrybować innych użytkowników do raportu, który ma zastosowane zabezpieczenia na poziomie wiersza.
 * Subskrypcje wiadomości e-mail są wysyłane wraz z domyślnymi stanami filtru i fragmentatora raportu. Wszelkie zmiany w wartościach domyślnych wprowadzone po rozpoczęciu subskrypcji nie będą uwzględniane w wiadomości e-mail.    
