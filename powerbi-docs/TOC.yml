@@ -682,8 +682,10 @@
               href: desktop-qna-in-reports.md
             - name: Okienko analizy w programie Power BI Desktop
               href: desktop-analytics-pane.md
-            - name: Używanie szczegółowych informacji w programie Power BI Desktop
+            - name: Wyjaśnianie wzrostów i spadków za pomocą szczegółowych informacji
               href: desktop-insights.md
+            - name: Znajdowanie różnic w rozkładzie na wykresach za pomocą szczegółowych informacji
+              href: desktop-insights-find-where-different.md
             - name: Zakładki w usłudze Power BI
               href: desktop-bookmarks.md
             - name: Używanie motywów raportów
