@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/07/2018
+ms.date: 07/26/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a8fde13b0beeb57fb5d25aa35002358f04ab6cad
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 3f6373db938f92f86c0f438162de4454f5f12e00
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34288572"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280092"
 ---
 # <a name="directquery-and-sap-business-warehouse-bw"></a>Zapytanie bezpośrednie i system SAP Business Warehouse (BW)
 Dzięki **zapytaniu bezpośredniemu** można połączyć się bezpośrednio ze źródłami danych systemu **SAP Business Warehouse (BW)**. Ponieważ system SAP BW jest źródłem danych OLAP (wielowymiarowym), korzystanie z zapytania bezpośredniego dla źródeł danych SAP BW różni się istotnie od korzystania z niego dla źródeł relacyjnych, takich jak program SQL Server. Te różnice można podsumować w następujący sposób:

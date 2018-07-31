@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/20/2018
 ms.author: maggies
-ms.openlocfilehash: c70a5c50a139423f6c5e69ed6ec9a416dfae8b4e
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: bb628f0cc6f723a195f3b90e6d20f4018d9f2709
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34295266"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39279854"
 ---
 # <a name="annotate-and-share-a-tile-report-or-visual-in-power-bi-mobile-apps"></a>Dodawanie adnotacji i udostępnianie kafelka, raportu lub wizualizacji w aplikacjach mobilnych usługi Power BI
 Dotyczy:
@@ -31,7 +31,7 @@ W aplikacji mobilnej Power BI dla urządzeń z systemem iOS i Android możesz ud
 
 Wiadomość e-mail z migawką kafelka, raportu lub wizualizacji zawiera również link do rzeczywistego obiektu w usłudze Power BI ([https://powerbi.com](https://powerbi.com)). Adresaci mogą kliknąć link i przejść bezpośrednio do tego kafelka, raportu lub wizualizacji, jeśli wszyscy macie licencje usługi Power BI Pro lub zawartość jest przechowywana w [pojemności Premium](service-premium.md), a element został już im przez Ciebie udostępniony. 
 
-Możesz również [udostępnić kafelek z aplikacji mobilnej Power BI dla urządzeń z systemem Windows 10](mobile-share-tile-windows-10-phone-app.md), ale w takim przypadku nie można dodawać adnotacji.
+Możesz również [udostępnić kafelek z aplikacji mobilnej Power BI dla urządzeń z systemem Windows 10](mobile-windows-10-phone-app-get-started.md), ale w takim przypadku nie można dodawać adnotacji.
 
 ## <a name="open-a-tile-for-annotating"></a>Otwieranie kafelka w celu dodania adnotacji
 1. Naciśnij kafelek, aby otworzyć go w trybie koncentracji uwagi.

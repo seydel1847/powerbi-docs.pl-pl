@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/27/2018
 ms.author: maggies
-ms.openlocfilehash: 1700d5bb6a3c17b0a76e6cf04155050a01136e96
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 9e5d878b676159db7990af983f53ce813ac44441
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37136567"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280253"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>Wprowadzenie do aplikacji mobilnej usługi Power BI na urządzeniach z systemem iOS
 Aplikacja Microsoft Power BI dla systemu iOS na telefonie iPhone lub urządzeniu iPad albo iPod Touch obejmuje mobilne środowisko usługi Power BI, serwer raportów usługi Power BI oraz usługi Reporting Services. Możesz wyświetlać firmowe pulpity nawigacyjne i korzystać z nich lokalnie i w chmurze, niezależnie od tego, gdzie się znajdujesz, dzięki dostępowi mobilnemu na żywo, z obsługą dotykową. Przeglądaj dane w pulpitach nawigacyjnych i udostępniaj je współpracownikom w wiadomościach e-mail lub SMS. I zapewnij aktualność najświeższych danych w Twoim urządzeniu [Apple Watch](mobile-apple-watch.md).  
@@ -73,11 +73,11 @@ Przykładowe pulpity nawigacyjne usługi Power BI możesz wyświetlać i korzyst
    ![Przykłady usług Reporting Services w aplikacji mobilnej usługi Power BI](media/mobile-iphone-app-get-started/power-bi-reporting-services-samples.png)
 
 ## <a name="find-your-content-in-the-power-bi-mobile-apps"></a>Znajdowanie zawartości w aplikacjach mobilnych Power BI
-Pulpity nawigacyjne i raporty są przechowywane w różnych miejscach w aplikacjach mobilnych Power BI w zależności od ich pochodzenia. Uzyskaj informacje na temat [znajdowania zawartości w aplikacjach mobilnych](mobile-apps-find-content-mobile-devices.md). Możesz również wyszukać dowolną zawartość w aplikacjach mobilnych Power BI. 
+Pulpity nawigacyjne i raporty są przechowywane w różnych miejscach w aplikacjach mobilnych Power BI w zależności od ich pochodzenia. Uzyskaj informacje na temat [znajdowania zawartości w aplikacjach mobilnych](mobile-apps-quickstart-view-dashboard-report.md). Możesz również wyszukać dowolną zawartość w aplikacjach mobilnych Power BI. 
 
 ![Lewe okienko nawigacji](media/mobile-iphone-app-get-started/power-bi-iphone-left-nav.png)
 
-Przeczytaj więcej na temat [znajdowania zawartości w aplikacjach mobilnych](mobile-apps-find-content-mobile-devices.md).
+Przeczytaj więcej na temat [znajdowania zawartości w aplikacjach mobilnych](mobile-apps-quickstart-view-dashboard-report.md).
 
 ## <a name="view-your-favorite-dashboards-kpis-and-reports"></a>Wyświetlanie ulubionych pulpitów nawigacyjnych, wskaźników KPI i raportów
 Na stronie Ulubione w aplikacjach mobilnych zobaczysz wszystkie swoje ulubione pulpity nawigacyjne usługi Power BI oraz wskaźniki KPI i raporty serwera raportów usługi Power BI i usług Reporting Services. Po dodaniu pulpitu nawigacyjnego do *ulubionych* w aplikacji mobilnej Power BI możesz uzyskać do niego dostęp za pośrednictwem wszystkich swoich urządzeń oraz usługi Power BI w przeglądarce. 

@@ -50,7 +50,7 @@ ms.locfileid: "34299636"
 **Pytanie:** Czy mogę uzyskać informacje dotyczące użycia oraz statystyki związane z bramą w mojej organizacji?  
 **Odpowiedź:** Nie. Zaimplementowanie takiej możliwości jest zaplanowane, ale nie ustaliliśmy jeszcze harmonogramu.
 
-## <a name="power-bi"></a>Aplikacja usługi
+## <a name="power-bi"></a>Power BI
 **Pytanie:** Czy muszę uaktualnić bramę osobistą?
 **Odpowiedź:** Nie, możesz korzystać z bramy osobistej na potrzeby usługi Power BI.
 

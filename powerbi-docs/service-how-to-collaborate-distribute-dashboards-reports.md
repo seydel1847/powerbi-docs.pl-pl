@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/09/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7c0037534fa61c5340206354beb6af04d3fc1f4a
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 5899274ba3cc8ce0a059978a9b83ae2a7fd08527
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34249510"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280460"
 ---
 # <a name="how-should-i-collaborate-and-share-in-power-bi"></a>Jak można współpracować i udostępniać w usłudze Power BI?
 
@@ -75,7 +75,7 @@ Udostępniana jest migawka kafelka, raportu lub wizualizacji i adresaci widzą j
 
 Więcej informacji o [dodawaniu adnotacji i udostępnianiu kafelków, raportów i wizualizacji](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md) z aplikacji mobilnych dla systemów iOS i Android.
 
-Możesz również [udostępnić migawkę kafelka](mobile-share-tile-windows-10-phone-app.md) z aplikacji mobilnej usługi Power BI dla urządzeń z systemem Windows 10.
+Możesz również [udostępnić migawkę kafelka](mobile-windows-10-phone-app-get-started.md) z aplikacji mobilnej usługi Power BI dla urządzeń z systemem Windows 10.
 
 ## <a name="publish-to-the-web"></a>Publikowanie w Internecie
 Raporty usługi Power BI można publikować dla wszystkich użytkowników Internetu, osadzając interaktywne wizualizacje we wpisach w blogu, w witrynach internetowych, mediach społecznościowych i innych narzędziach komunikacji online na dowolnym urządzeniu. Wszyscy użytkownicy Internetu mogą wyświetlać Twoje raporty i nie masz żadnej kontroli nad tym, kto może wyświetlać to, co zostało opublikowane. Ci użytkownicy nie potrzebują licencji usługi Power BI. Publikowanie w Internecie jest dostępne tylko dla raportów, które możesz edytować. Nie możesz publikować raportów w Internecie, jeśli zostały one Tobie udostępnione lub znajdują się w aplikacji. Więcej informacji o [publikowaniu w Internecie](service-publish-to-web.md).

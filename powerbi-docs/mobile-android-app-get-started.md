@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 3323258304f8c36131caf6ef269d9befa6cfbb96
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: ba6b8cb1ade1337a29e758a16db285dbea7c41db
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37136530"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280184"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>Wprowadzenie do aplikacji mobilnej Power BI dla urządzeń z systemem Android
 Aplikacja systemu Android dla usługi Microsoft Power BI obejmuje mobilne środowisko usługi Power BI, serwera raportów usługi Power BI oraz usług Reporting Services. Możesz wyświetlać firmowe pulpity nawigacyjne i korzystać z nich lokalnie i w chmurze, niezależnie od tego, gdzie się znajdujesz, dzięki dostępowi mobilnemu na żywo, z obsługą dotykową. Przeglądaj dane w pulpitach nawigacyjnych i udostępniaj je współpracownikom w wiadomościach e-mail lub SMS. 
@@ -86,7 +86,7 @@ Przykładowe pulpity nawigacyjne usługi Power BI możesz wyświetlać i korzyst
     Domyślnie przeszukiwane są wszystkie pulpity nawigacyjne i raporty, ale możesz też wyszukiwać tylko w jednej z tych kategorii.
 
 ## <a name="find-your-content-in-the-power-bi-mobile-apps"></a>Znajdowanie zawartości w aplikacjach mobilnych Power BI
-Pulpity nawigacyjne i raporty są przechowywane w różnych miejscach w aplikacjach mobilnych Power BI w zależności od ich pochodzenia. Uzyskaj informacje na temat [znajdowania zawartości w aplikacjach mobilnych](mobile-apps-find-content-mobile-devices.md). Możesz również wyszukać dowolną zawartość w aplikacjach mobilnych Power BI. 
+Pulpity nawigacyjne i raporty są przechowywane w różnych miejscach w aplikacjach mobilnych Power BI w zależności od ich pochodzenia. Uzyskaj informacje na temat [znajdowania zawartości w aplikacjach mobilnych](mobile-apps-quickstart-view-dashboard-report.md). Możesz również wyszukać dowolną zawartość w aplikacjach mobilnych Power BI. 
 
 ![Lewe okienko nawigacji](media/mobile-android-app-get-started/power-bi-mobile-new-nav-no-numbers.png)
 

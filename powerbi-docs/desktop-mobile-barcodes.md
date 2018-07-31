@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/16/2018
 ms.author: maggies
 LocalizationGroup: Model your data
-ms.openlocfilehash: ae6c7ba3603136aeea3daa412595b9f42ed13d6a
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: eb0d584e2383e1b878cfc26739e77d4e50d70a0f
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34286916"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280483"
 ---
 # <a name="tag-barcodes-in-power-bi-desktop-for-the-mobile-apps"></a>Tagowanie kodów kreskowych w programie Power BI Desktop dla aplikacji mobilnych
 W programie Power BI Desktop możesz [skategoryzować dane](desktop-data-categorization.md) w kolumnie, aby poinformować program Power BI Desktop, jak ma traktować wartości w wizualizacjach w raporcie. Możesz także skategoryzować kolumnę jako **Kod kreskowy**. Gdy Ty lub Twoi współpracownicy [zeskanujecie kod kreskowy na produkcie za pomocą aplikacji Power BI](mobile-apps-scan-barcode-iphone.md) na telefonie iPhone, zostaną wyświetlone wszystkie raporty zawierające ten kod kreskowy. Po otwarciu raportu w aplikacji mobilnej usługa Power BI automatycznie przefiltruje raport, aby uzyskać dane związane z tym kodem kreskowym.
@@ -27,7 +27,7 @@ W programie Power BI Desktop możesz [skategoryzować dane](desktop-data-categor
 4. W widoku raportu dodaj to pole do wizualizacji, które chcesz przefiltrować według kodu kreskowego.
 5. Zapisz raport i opublikuj go w usłudze Power BI.
 
-Teraz gdy otworzysz skaner w [aplikacji Power BI dla telefonu iPhone](mobile-ios-ipad-iphone-apps.md) i zeskanujesz kod kreskowy, zobaczysz ten raport na liście raportów. Po otwarciu raportu jego wizualizacje zostaną przefiltrowane według zeskanowanego kodu kreskowego produktu.
+Teraz gdy otworzysz skaner w [aplikacji Power BI dla telefonu iPhone](mobile-iphone-app-get-started.md) i zeskanujesz kod kreskowy, zobaczysz ten raport na liście raportów. Po otwarciu raportu jego wizualizacje zostaną przefiltrowane według zeskanowanego kodu kreskowego produktu.
 
 ## <a name="supported-barcode-formats"></a>Obsługiwane formaty kodu kreskowego
 Są to kody kreskowe rozpoznawane przez usługę Power BI, jeśli można oznaczyć je w raporcie usługi Power BI: 

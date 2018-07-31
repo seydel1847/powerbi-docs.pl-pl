@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 5601ab79832f2d52622f5c13ecd23f346408f08e
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: eda7f44c869829564703bda6112177234d3f2d44
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37598646"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280138"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Eksploruj kafelki w aplikacjach mobilnych usługi Power BI
 Dotyczy:
@@ -92,7 +92,7 @@ Następnie w aplikacjach mobilnych usługi Power BI otwórz kafelki w trybie ost
    
     ![](media/mobile-tiles-in-the-mobile-apps/pbi_win10tileellpslink.png)
    
-    [Udostępnić migawki kafelka](mobile-share-tile-windows-10-phone-app.md).
+    [Udostępnić migawki kafelka](mobile-windows-10-phone-app-get-started.md).
    
     Nacisnąć pozycję **Otwórz raport** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png), aby [wyświetlić raport źródłowy](mobile-reports-in-the-mobile-apps.md).
    
@@ -120,7 +120,7 @@ Następnie w aplikacjach mobilnych usługi Power BI otwórz kafelki w trybie ost
    
    ![](media/mobile-tiles-in-the-mobile-apps/power-bi-windows-10-center-map.png)
    
-   Naciśnij ikonę udostępniania migawki ![](media/mobile-tiles-in-the-mobile-apps/pbi_win10ph_shareicon.png), aby [udostępnić kafelek](mobile-share-tile-windows-10-phone-app.md) innym.   
+   Naciśnij ikonę udostępniania migawki ![](media/mobile-tiles-in-the-mobile-apps/pbi_win10ph_shareicon.png), aby [udostępnić kafelek](mobile-windows-10-phone-app-get-started.md) innym.   
    
    Naciśnij ikonę Otwórz raport ![](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png), aby [wyświetlić raport](mobile-reports-in-the-mobile-apps.md), na którym jest oparty kafelek. 
 4. Naciśnij strzałkę Wstecz lub przycisk Wstecz, aby zamknąć kafelek i wrócić do pulpitu nawigacyjnego.
