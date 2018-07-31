@@ -8,15 +8,15 @@ featuredvideoid: B2vd4MQrz4M
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/20/2018
+ms.date: 07/19/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 0536dc6fd637db07c0e26a4ed7f0da1071b646eb
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: a1719f8a6f9f4ad3989aa498c584b337cd9fdd00
+ms.sourcegitcommit: f6fb681ec85313eb7b450edb8f190e9e7afbabca
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37137427"
+ms.lasthandoff: 07/20/2018
+ms.locfileid: "39182753"
 ---
 # <a name="power-bi---basic-concepts-for-power-bi-service"></a>Power BI — podstawowe pojęcia dotyczące usługi Power BI
 
@@ -48,9 +48,9 @@ Możesz też obejrzeć ten film, zanim przeczytasz dalszą część artykułu.  
 4 główne bloki konstrukcyjne usługi Power BI to: ***pulpity nawigacyjne***, ***raporty***, ***skoroszyty*** i ***zestawy danych***. Są one podzielone na ***obszary robocze***. Przed rozpoczęciem omawiania bloków konstrukcyjnych należy zapoznać się z 4 obszarami roboczymi, więc od tego zaczniemy. 
 
 ## <a name="workspaces"></a>Obszary robocze
-Obszary robocze to kontenery pulpitów nawigacyjnych, raportów, skoroszytów i zestawów danych w usłudze Power BI. Istnieją dwa typy obszarów roboczych: **Mój obszar roboczy* i obszary robocze aplikacji. Co to jest *aplikacja*? *Aplikacja* usługi Power BI to kolekcja pulpitów nawigacyjnych i raportów utworzona w celu udostępnienia najważniejszych metryk dla organizacji. Aplikacje są interakcyjne, ale nie można ich edytować 
+Obszary robocze to kontenery pulpitów nawigacyjnych, raportów, skoroszytów i zestawów danych w usłudze Power BI. Istnieją dwa typy obszarów roboczych: *Mój obszar roboczy* i *obszary robocze aplikacji*. Co to jest *aplikacja*? *Aplikacja* usługi Power BI to kolekcja pulpitów nawigacyjnych i raportów utworzona w celu udostępnienia najważniejszych metryk dla organizacji. Aplikacje są interakcyjne, ale nie można ich edytować. 
 
-- Obszar *Mój obszar roboczy* to osobisty obszar roboczy dla każdego klienta usługi Power BI do pracy z zawartością. Tylko Ty masz dostęp do swojego obszaru Mój obszar roboczy. Jeśli chcesz udostępnić swoją zawartość, masz kilka rozwiązań: utwórz obszar roboczy aplikacji, który pozwala umieścić zawartość w zbiorze *aplikacji* i udostępnić ją innym osobom w organizacji, lub utwórz obszar roboczy aplikacji i udziel współpracownikom dostępu do niego, aby umożliwić udostępnianie i współpracę.     
+- Obszar *Mój obszar roboczy* to osobisty obszar roboczy dla każdego klienta usługi Power BI do pracy z własną zawartością. Tylko Ty masz dostęp do swojego obszaru Mój obszar roboczy. Z poziomu obszaru Mój obszar roboczy możesz udostępniać pulpity nawigacyjne i raporty. Jeśli chcesz współpracować nad pulpitami nawigacyjnymi i raportami lub utworzyć aplikację, warto pracować w obszarze roboczym aplikacji.      
 -  *Obszary robocze aplikacji* służą do wspólnej pracy nad zawartością ze współpracownikami i udostępniania im tej zawartości. Można też w nich tworzyć i publikować aplikacje dla organizacji oraz zarządzać nimi. Pełnią one funkcję tymczasowych obszarów i kontenerów zawartości aplikacji usługi Power BI. Możesz dodawać współpracowników do obszarów roboczych aplikacji oraz współpracować nad pulpitami nawigacyjnymi, raportami, skoroszytami i zestawami danych. Wszyscy członkowie obszaru roboczego aplikacji muszą mieć licencje usługi Power BI Pro, ale użytkownicy aplikacji (współpracownicy mający dostęp do aplikacji) nie muszą mieć licencji Pro.  
 
 Aby dowiedzieć się więcej, zobacz sekcję **Udostępnianie wyników pracy** w spisie treści, począwszy od tekstu [Jak współpracować nad pulpitami nawigacyjnymi i raportami oraz udostępniać je](service-how-to-collaborate-distribute-dashboards-reports.md)

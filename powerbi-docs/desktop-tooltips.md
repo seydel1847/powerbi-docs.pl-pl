@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/06/2018
+ms.date: 07/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1f53b0efc2195221fbcbe45f03102d2c98e8eef3
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: b2437074fb6beff4b1be62287d547111488862e3
+ms.sourcegitcommit: 6faeb642721ee5abb41c04a8b729880c01c4d40e
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34232113"
+ms.lasthandoff: 07/23/2018
+ms.locfileid: "39210335"
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop-preview"></a>Tworzenie etykietek narzędzi opartych na stronach raportu w programie Power BI Desktop (wersja zapoznawcza)
 Możesz tworzyć wizualnie bogate **etykietki narzędzi raportu**, wyświetlane po najechaniu kursorem na elementy wizualne, w oparciu o strony raportu utworzonego w programie **Power BI Desktop**. Poprzez utworzenie strony raportu służącej jako etykietka narzędzi, możesz uwzględnić w niestandardowych etykietkach narzędzi elementy wizualne, obrazy i inne kolekcje elementów utworzonych na stronie raportu. 
@@ -119,6 +119,7 @@ Gdy element wizualny zostaje wyróżniony krzyżowo w raporcie, etykietki narzę
 ## <a name="limitations-and-considerations"></a>Ograniczenia i istotne zagadnienia
 W tej wersji zapoznawczej funkcji **etykietek narzędzi** raportów występują pewne ograniczenia i zagadnienia, które trzeba mieć na uwadze.
 
+* Począwszy od wersji programu **Power BI Desktop** z lipca 2018 r. wizualizacje tabel i macierzy są obsługiwane w przypadku etykietek narzędzi. 
 * Etykietki narzędzi raportów nie są obsługiwane w przypadku wyświetlania raportów w aplikacjach mobilnych lub w środowiskach osadzonych, w tym w przypadku publikowania w Internecie. 
 * Etykietki narzędzi raportów nie są obsługiwane w przypadku niestandardowych elementów wizualnych. 
 * Klastry nie są obecnie obsługiwane jako pola, które można wyświetlać w etykietkach narzędzi raportów. 

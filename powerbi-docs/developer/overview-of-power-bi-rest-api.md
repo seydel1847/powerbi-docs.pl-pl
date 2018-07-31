@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 8a688f46a46dbb1015629c7785d96b62d4f8df26
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.openlocfilehash: a9d178ccfdb47152fd2c13d445b9190ced6115e1
+ms.sourcegitcommit: 3a287ae4ab16d1e76caed651bd8ae1a1738831cd
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "34813248"
+ms.lasthandoff: 07/19/2018
+ms.locfileid: "39157589"
 ---
 # <a name="what-can-developers-do-with-the-power-bi-api"></a>Co deweloperzy mogą robić z interfejsem API usługi Power BI?
 W usłudze Power BI są wyświetlane interakcyjne pulpity nawigacyjne, które można tworzyć i aktualizować z wielu różnych źródeł danych w czasie rzeczywistym. Używając dowolnego języka programowania obsługującego wywołania REST, można tworzyć aplikacje integrujące się z pulpitem nawigacyjnym usługi Power BI w czasie rzeczywistym. Można również integrować kafelki i raporty usługi Power BI w aplikacje.
@@ -35,7 +35,7 @@ Poniżej przedstawiono niektóre czynności, które można wykonać za pomocą i
 > 
 > 
 
-## <a name="power-bi-developer-samples"></a>Przykłady Dewelopera usługi Power BI
+## <a name="power-bi-developer-samples"></a>Przykłady narzędzia Power BI Developer
 Przykłady Dewelopera usługi Power BI obejmują elementy do osadzania pulpitów nawigacyjnych, raportów i kafelków.
 
 [Przykłady Dewelopera usługi Power BI](https://github.com/Microsoft/PowerBI-Developer-Samples)
@@ -58,6 +58,11 @@ Wybierz rozwiązanie, które jest odpowiednie dla Ciebie:
 * [Osadzanie dla swojej organizacji](embedding.md#embedding-for-your-organization) umożliwia rozszerzanie usługi Power BI. Uruchom rozwiązanie [osadzania dla organizacji](https://aka.ms/embedsetup/UserOwnsData).
 
 Aby uzyskać pełen przykład użycia interfejsu API języka JavaScript, można użyć [narzędzia Playground](https://microsoft.github.io/PowerBI-JavaScript/demo). Jest to szybki sposób na zapoznanie się z różnymi typami przykładów usługi Power BI Embedded. Możesz również uzyskać więcej informacji na temat interfejsu API języka JavaScript odwiedzając stronę [wiki Power BI-JavaScript](https://github.com/Microsoft/powerbi-javascript/wiki).
+
+## <a name="push-data-into-power-bi"></a>Wypychanie danych do usługi Power BI
+Za pomocą interfejsu API usługi Power BI możesz wypychać dane do zestawu danych. Umożliwia to dodanie wiersza do tabeli w zestawie danych. Nowe dane mogą wówczas zostać odzwierciedlone na kafelkach na pulpicie nawigacyjnym i w wizualizacjach w raporcie.
+
+![Przykład wypychania danych](media/what-can-you-do/powerbi-push-data.png)
 
 ## <a name="next-steps"></a>Następne kroki
 [Wypychanie danych do zestawu danych](walkthrough-push-data.md)  

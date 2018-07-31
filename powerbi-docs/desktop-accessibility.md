@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/06/2018
+ms.date: 07/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 72a900b1661a77e5b31c1d68b5726d989b236f7b
-ms.sourcegitcommit: ba3cab4613a2b815d46a213eff07a8a8ec22c17f
+ms.openlocfilehash: b26fbfccc3b0a98761ecc1444af4e535339c96de
+ms.sourcegitcommit: 6faeb642721ee5abb41c04a8b729880c01c4d40e
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39032007"
+ms.lasthandoff: 07/23/2018
+ms.locfileid: "39210289"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Ułatwienia dostępu w raportach programu Power BI Desktop
 Usługa Power BI zawiera funkcje, które umożliwiają osobom niepełnosprawnym łatwiejsze korzystanie z raportów usługi Power BI. Te funkcje obejmują możliwość korzystania z raportu za pomocą klawiatury lub czytnika ekranu, używania klawisza TAB do przenoszenia fokusu na różne obiekty na stronie oraz celowe używanie znaczników w wizualizacjach.
@@ -47,8 +47,12 @@ Naciskając klawisze **Alt+Shift+F11**, możesz wyświetlić dostępną wersję 
 
 > [!NOTE]
 > Funkcja Pokaż dane jest dostępna dla czytnika zawartości ekranu jedynie za pośrednictwem tego skrótu klawiaturowego. Jeśli otworzysz okno Pokaż dane za pomocą opcji w nagłówku wizualizacji, nie będzie ono dostępne dla czytnika zawartości ekranu.
-> 
-> 
+
+Począwszy od wersji programu **Power BI Desktop** z lipca 2018 r. fragmentatory mają również wbudowane funkcje ułatwień dostępu. Aby po wybraniu fragmentatora dostosować jego wartość, użyj klawiszy CTRL+strzałka w prawo w celu przechodzenia przez różne kontrolki w obrębie fragmentatora. Na przykład początkowe naciśnięcie klawiszy CTRL+strzałka w prawo powoduje ustawienie fokusu na gumce, a naciśnięcie klawisza SPACJA jest odpowiednikiem kliknięcia przycisku gumki, co powoduje usunięcie wszystkich wartości we fragmentatorze. 
+
+Aby poruszać się między kontrolkami we fragmentatorze, można naciskać klawisz TAB. Naciśnięcie klawisza TAB po ustawieniu fokusu na gumce powoduje przejście do przycisku listy rozwijanej; kolejne naciśnięcie klawisza TAB powoduje przejście do pierwszej wartości fragmentatora (jeśli fragmentator, taki jak zakres, ma wiele wartości). 
+
+![Naciśnij klawisze CTRL+(strzałka w prawo) w programie Power BI Desktop, aby dostosować element lub wartości we fragmentatorze. Naciśnij klawisz SPACJA, aby wybrać element i dostosować jego wartość](media/desktop-accessibility/accessibility_07.png)
 
 Te dodatki ułatwień dostępu zostały utworzone, aby umożliwić użytkownikom pełne korzystanie z raportów usługi Power BI przy użyciu klawiatury i czytnika zawartości ekranu.
 

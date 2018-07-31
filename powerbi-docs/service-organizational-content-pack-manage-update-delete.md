@@ -7,15 +7,15 @@ ms.reviewer: ajayan
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/08/2018
+ms.date: 07/19/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1b7a111e1b240a37211c17bce4d497de2d864074
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: 45e9207ffa666e33b298e82bbc78e07c226b780e
+ms.sourcegitcommit: f6fb681ec85313eb7b450edb8f190e9e7afbabca
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "34852307"
+ms.lasthandoff: 07/20/2018
+ms.locfileid: "39182799"
 ---
 # <a name="manage-update-and-delete-organizational-content-packs"></a>Aktualizowanie i usuwanie organizacyjnych pakietów zawartości oraz zarządzanie nimi
 > [!NOTE]
@@ -52,7 +52,7 @@ W przypadku dokonania i zapisania zmiany pulpitu nawigacyjnego, który został d
 4. Wprowadź niezbędne zmiany w oknie **Aktualizowanie pakietu zawartości** i wybierz pozycję **Aktualizuj**. Zostanie wyświetlony komunikat **Powodzenie**.
    
    * W przypadku członków grupy, którzy nie dostosowali pakietu zawartości, aktualizacja zostanie zastosowana automatycznie.
-   * Członkowie grupy, którzy dostosowali pakiet zawartości, otrzymają powiadomienie o dostępności nowej wersji.  Mogą oni przejść do usługi AppSource i pobrać zaktualizowany pakiet zawartości bez utraty posiadanej spersonalizowanej wersji.  Będą mieć teraz 2 wersje: wersję spersonalizowaną i zaktualizowany pakiet zawartości.  W wersji spersonalizowanej nie będą już dostępne żadne kafelki z oryginalnego pakietu zawartości.  Nadal wyświetlane będą jednak kafelki przypięte z innych raportów.    
+   * Członkowie grupy, którzy dostosowali pakiet zawartości, otrzymają powiadomienie o dostępności nowej wersji.  Mogą oni przejść do usługi AppSource i pobrać zaktualizowany pakiet zawartości bez utraty posiadanej spersonalizowanej wersji.  Będą mieć teraz 2 wersje: wersję spersonalizowaną i zaktualizowany pakiet zawartości.  W wersji spersonalizowanej nie będą już dostępne żadne kafelki z oryginalnego pakietu zawartości.  Nadal wyświetlane będą jednak kafelki przypięte z innych raportów. Jeśli jednak właściciel pakietu zawartości usunie zestaw danych, na którym opiera się pakiet zawartości, cały raport zostanie usunięty.  
 
 ## <a name="update-the-audience-expand-or-restrict-access"></a>Aktualizowanie odbiorców: rozszerzanie lub ograniczanie dostępu
 Kolejną operacją modyfikowania dostępną dla twórców pakietów zawartości jest rozszerzanie i ograniczanie dostępu do pakietu zawartości.  Załóżmy, że po opublikowaniu pakietu zawartości do szerokiej grupy odbiorców decydujesz się ograniczyć dostęp do niego do mniejszej grupy.  

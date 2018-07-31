@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 07/03/2018
+ms.date: 07/19/2018
 ms.author: maggies
-ms.openlocfilehash: 645e1e40867f52718f2ec79a17cf1b5525a3d951
-ms.sourcegitcommit: 9efb94ddb254e9c03e9871ad232509065ee24bf2
+ms.openlocfilehash: 41a8b463ca95d0e4e0e0ba71dbd9ec9a1ce78920
+ms.sourcegitcommit: f6fb681ec85313eb7b450edb8f190e9e7afbabca
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 07/06/2018
-ms.locfileid: "37864404"
+ms.lasthandoff: 07/20/2018
+ms.locfileid: "39182730"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Co nowego w aplikacjach mobilnych dla usługi Power BI
 Powiązane nowości są dostępne w następujących artykułach:
@@ -22,6 +22,19 @@ Powiązane nowości są dostępne w następujących artykułach:
 * [Blog zespołu usługi Power BI dotyczący aplikacji mobilnych](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Co nowego w programie Power BI Desktop](desktop-latest-update.md)  
 * [Co nowego w usłudze Power BI](service-whats-new.md)  
+
+## <a name="july-2018"></a>Lipiec 2018 r.
+
+### <a name="ios-and-android-only"></a>Tylko systemy iOS i Android
+
+**Filtry udostępnione**
+
+Teraz możesz otrzymywać raporty z udostępnionymi filtrami i fragmentatorami.
+
+**Obsługa obrazów tła**
+
+Po wyświetleniu raportu w trybie poziomym na urządzeniu przenośnym w tle widać te same obrazy, które są wyświetlane w usłudze Power BI w Internecie.
+
 
 ## <a name="june-2018"></a>Czerwiec 2018
 
