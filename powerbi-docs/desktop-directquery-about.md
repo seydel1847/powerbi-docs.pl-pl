@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ed9ab95aace7ab1ff0774732241bdd4a7fffcb15
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 81a8b5454e39088b8b406e600707d1d5073e14dc
+ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37600994"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39330172"
 ---
 # <a name="using-directquery-in-power-bi"></a>Używanie zapytania bezpośredniego w usłudze Power BI
 Możesz połączyć się z szeroką gamą różnych źródeł danych, korzystając z programu **Power BI Desktop** lub **usługi Power BI**, i te połączenia z danymi możesz wykonywać w różny sposób. Możesz albo *zaimportować* dane do usługi Power BI, co jest najczęściej używanym sposobem pobierania danych, lub możesz połączyć się bezpośrednio z danymi w ich oryginalnym repozytorium źródłowym, co jest nazywane **zapytaniem bezpośrednim**. W tym artykule zostało opisane **zapytanie bezpośrednie** i jego możliwości, łącznie z następującymi tematami:

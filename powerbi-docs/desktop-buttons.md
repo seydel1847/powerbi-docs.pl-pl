@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 04/04/2018
+ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: a56108668bea3e5210c4429825045ebb23faf72c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 6abe55f41211e5af907fb0a2642b3f8420236e1b
+ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34228765"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39330494"
 ---
 # <a name="using-buttons-in-power-bi"></a>Korzystanie z przycisków w usłudze Power BI
 Przy użyciu **przycisków** w usłudze Power BI można tworzyć raporty i pulpity nawigacyjne, które zachowują się podobnie do aplikacji, i dzięki temu tworzyć angażujące środowisko użytkownika, w którym użytkownicy mogą najeżdżać kursorem, klikać i wchodzić w inne interakcje z zawartością usługi Power BI. Możesz dodać przyciski do raportów w programie **Power BI Desktop**, a następnie udostępnić lub opublikować te raporty w usłudze Power BI, aby utworzyć pulpity nawigacyjne, które będą zapewniać zachowanie podobne do aplikacji dla użytkowników.

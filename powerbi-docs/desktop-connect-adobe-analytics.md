@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 04/04/2018
+ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: da688638170db8a296c680bc88c1030924078967
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: e6053ff1cf1ceedc056b0fb2083f3e9a1047a383
+ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37134552"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39330149"
 ---
 # <a name="connect-to-adobe-analytics-in-power-bi-desktop"></a>Łączenie się z usługą Adobe Analytics w programie Power BI Desktop 
 W programie **Power BI Desktop** możesz nawiązać połączenie z usługą **Adobe Analytics** i korzystać z danych źródłowych w taki sam sposób, jak w przypadku dowolnego innego źródła danych w programie Power BI Desktop. 
