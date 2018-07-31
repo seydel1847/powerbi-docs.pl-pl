@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/24/2018
+ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 7feb562c5d2d96c4d726b93393a0b4a26c658415
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 781e9f6813fee63b7c5d83a2e7e60e1ed1eeedc0
+ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37134759"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39326998"
 ---
 # <a name="connect-to-an-impala-database-in-power-bi-desktop"></a>Łączenie się z bazą danych Impala w programie Power BI Desktop
 W programie Power BI Desktop możesz nawiązać połączenie z bazą danych **Impala** i korzystać z danych źródłowych w taki sam sposób jak w przypadku dowolnego innego źródła danych w programie Power BI Desktop.

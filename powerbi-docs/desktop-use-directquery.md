@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 7ff30c5852b1ec444c2842f614fe5c9ec198918e
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 7f938e881e71d241025ddc44aeb1a21daa61dcd9
+ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34289906"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39327886"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>Używanie zapytania bezpośredniego w programie Power BI Desktop
 Program **Power BI Desktop** zawsze umożliwia importowanie kopii danych do programu **Power BI Desktop** po połączeniu ze źródłem danych. W przypadku niektórych źródeł danych dostępne jest inne rozwiązanie: połączenie bezpośrednio ze źródłem danych przy użyciu **zapytania bezpośredniego**.

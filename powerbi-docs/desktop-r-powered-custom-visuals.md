@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: d7170ce02294c3eadbfa38f0a25a2ab58777720b
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 75808c850659395dd8576b7de4dca0379dfff2f5
+ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34289331"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39329942"
 ---
 # <a name="use-r-powered-custom-visuals-in-power-bi"></a>Używanie w usłudze Power BI wizualizacji niestandardowych utworzonych przy użyciu języka R
 Program **Power BI Desktop** i **usługa Power BI** umożliwiają korzystanie z wizualizacji niestandardowych utworzonych w języku R bez konieczności znajomości języka R ani tworzenia skryptów w języku R. Dzięki temu można wykorzystać analityczne i wizualne możliwości wizualizacji i skryptów w języku R bez konieczności przyswajania wiedzy na temat tego języka czy też programowania w nim.
