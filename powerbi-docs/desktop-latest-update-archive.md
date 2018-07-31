@@ -64,7 +64,7 @@ W czerwcu w programie **Power BI Desktop** wprowadzono następujące nowe aktual
 * Ulepszenia łącznika protokołu OData 4 [[wideo]](https://youtu.be/4VpGtWSrssE?t=25m12s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#oData) 
 * Ulepszenia łącznika ODBC (obsługa zwijania dla pierwszych wierszy, możliwość filtrowania nawigacji według katalogu DSN) [[wideo]](https://youtu.be/4VpGtWSrssE?t=26m51s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#odbc) 
 
-### <a name="other"></a>Other
+### <a name="other"></a>Inne
 
 * Selektor chmur suwerennych [[wideo]](https://youtu.be/4VpGtWSrssE?t=27m45s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#nationalCloud) 
 
@@ -96,7 +96,7 @@ W maju w programie **Power BI Desktop** wprowadzono następujące nowe aktualiza
 * Opcje etykiet danych dla wykresu lejkowego [[wideo]](https://youtu.be/-_GMCE1TLvQ?t=6m25s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#funnelChart) 
 * Ustawianie szerokości pociągnięcia linii na zero [[wideo]](https://youtu.be/-_GMCE1TLvQ?t=6m49s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#lineStroke) 
 
-### <a name="analytics"></a>Analytics
+### <a name="analytics"></a>Analiza
 
 * Przeglądanie szczegółowe miar [[wideo]](https://youtu.be/-_GMCE1TLvQ?t=2m9s) [[artykuł]](desktop-drillthrough.md#pass-all-filters-in-drillthrough) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#measureDrillthrough) 
 
@@ -151,7 +151,7 @@ W kwietniu w programie **Power BI Desktop** wprowadzono następujące nowe aktua
 * Ulepszone domyślne sortowanie elementów wizualnych [[wideo]](https://youtu.be/W_Nb73Od_AI?t=19m21s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#sort) 
 * Fragmentator liczbowy — teraz jest ogólnie dostępny [[wideo]](https://youtu.be/W_Nb73Od_AI?t=21m13s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#numericSlicer) 
 
-### <a name="analytics"></a>Analytics
+### <a name="analytics"></a>Analiza
 
 * Aktualizacja schematu językowego [[wideo]](https://youtu.be/W_Nb73Od_AI?t=22m) [[artykuł]](power-bi-custom-visuals-organization.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#linguisticSchema) 
 * Nowa funkcja języka DAX: COMBINEVALUES() [[wideo]](https://youtu.be/W_Nb73Od_AI?t=23m37s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#combineValues) 
@@ -209,7 +209,7 @@ Cieszymy się, że możemy zaprezentować aktualizacje programu **Power BI Deskt
 * Zapytanie bezpośrednie w systemie SAP BW jest teraz ogólnie dostępne [[wideo]](https://youtu.be/kuI6MMzDh34?t=34m10s) [[artykuł]](desktop-directquery-sap-hana.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#sapBW) 
 * Łącznik usług Azure Analysis Services jest teraz ogólnie dostępny [[wideo]](https://youtu.be/kuI6MMzDh34?t=34m10s) [[artykuł]](desktop-directquery-sap-hana.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#azureAS) 
 
-### <a name="other"></a>Other
+### <a name="other"></a>Inne
 
 * Ulepszone raportowanie błędów [[wideo]](https://youtu.be/kuI6MMzDh34?t=34m51s) [[artykuł]](desktop-directquery-about.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#errors) 
 * Wyświetlanie napotkanych wcześniej błędów [[wideo]](https://youtu.be/kuI6MMzDh34?t=34m51s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#viewErrors) 
@@ -260,7 +260,7 @@ W lutym 2018 r. w programie **Power BI Desktop** wprowadzono następujące nowe
 * Niestandardowe wizualizacje organizacji (wersja zapoznawcza)  [[wideo]](https://youtu.be/KeVB5RwMzJo?t=19m23s)  [[artykuł]](power-bi-custom-visuals-organization.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#organizationalVisuals) 
 
 
-### <a name="analytics"></a>Analytics
+### <a name="analytics"></a>Analiza
 
 * Konfigurowanie niestandardowej tabeli dat [[wideo]](https://youtu.be/KeVB5RwMzJo?t=16m4s)[[artykuł]](desktop-date-tables.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#customDateTable)
 * Szybkie miary są teraz ogólnie dostępne  [[wideo]](https://youtu.be/KeVB5RwMzJo?t=17m52s)  [[artykuł]](desktop-quick-measures.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#quickMeasures) 
@@ -269,7 +269,7 @@ W lutym 2018 r. w programie **Power BI Desktop** wprowadzono następujące nowe
 
 * Ulepszenia zapytania bezpośredniego za pośrednictwem platformy SAP HANA (wersja zapoznawcza)  [[wideo]](https://youtu.be/KeVB5RwMzJo?t=30m1s)  [[artykuł]](desktop-directquery-sap-hana.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#saphana) 
 
-### <a name="other"></a>Other
+### <a name="other"></a>Inne
 
 * Ulepszenia wydajności zapytania bezpośredniego  [[wideo]](https://youtu.be/KeVB5RwMzJo?t=32m24s)  [[artykuł]](desktop-directquery-about.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#dqPerf) 
 * Otwieranie i zapisywanie ulepszeń wydajności  [[wideo]](https://youtu.be/KeVB5RwMzJo?t=33m40s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#savePerf) 
@@ -319,7 +319,7 @@ W styczniu w programie **Power BI Desktop** wprowadzono następujące nowe aktua
 -   Wybór pierwszych N pozycji pytań i odpowiedzi [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#topN) 
 -   Wiele nowych wizualizacji niestandardowych [[wideo]](https://youtu.be/W8Pp5wuCXJw?t=11m32s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#customVisuals) 
 
-### <a name="analytics"></a>Analytics
+### <a name="analytics"></a>Analiza
 
 -   Szybki pomiar współczynnika korelacji [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#correlationCoefficient) 
 
@@ -370,7 +370,7 @@ W grudniu w programie **Power BI Desktop** wprowadzono następujące nowe aktual
 -   Najnowsze wizualizacje niestandardowe [[wideo]](https://youtu.be/ZPU8B-1BxjI?t=18m25s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#customVisuals) 
 
 
-### <a name="analytics"></a>Analytics
+### <a name="analytics"></a>Analiza
 
 -   Przechodzenie do szczegółów filtrów innych wizualizacji [[wideo]](https://youtu.be/ZPU8B-1BxjI?t=28m53s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#drillFiltersOtherVisuals) 
 

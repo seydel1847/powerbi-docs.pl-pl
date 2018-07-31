@@ -56,7 +56,7 @@ W tym miesiącu w programie **Power BI Desktop** wprowadzono następujące nowe 
 * Wyłączanie etykiet danych wykresu kombi w przypadku poszczególnych serii [[wideo]](https://youtu.be/Mtig3rmIUe0?t=34m19s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#comboDataLabels) 
 * Ulepszenia środowiska sortowania [[wideo]](https://youtu.be/Mtig3rmIUe0?t=35m44s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#sorting) 
 
-### <a name="analytics"></a>Analytics
+### <a name="analytics"></a>Analiza
 
 * Szczegółowe informacje dotyczące współczynnika rozkładu [[wideo]](https://youtu.be/Mtig3rmIUe0?t=37m) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#distributionFactor) 
 

@@ -17,7 +17,7 @@ ms.contentlocale: pl-PL
 ms.lasthandoff: 07/23/2018
 ms.locfileid: "39211368"
 ---
-# <a name="storage-mode-in-power-bi-desktop-preview"></a>Tryb przechowywania w programie Power BI Desktop (wersja zapoznawcza)
+# <a name="storage-mode-in-power-bi-desktop-preview"></a>Tryb magazynu w programie Power BI Desktop (wersja zapoznawcza)
 
 W programie **Power BI Desktop** można wybrać **tryb przechowywania** tabel, co zapewni Ci możliwość kontroli tego, czy dane w tabeli są buforowane w pamięci na potrzeby raportów. 
 
@@ -85,7 +85,7 @@ W zestawie danych z pojedynczym źródłem danych następujące kombinacje relac
 | Tabela na po stronie **wiele** | Tabela na po stronie **1** |
 | ------------- |----------------------| 
 | Podwójne          | Podwójne                 | 
-| Import        | Import lub Podwójne       | 
+| Importuj        | Import lub Podwójne       | 
 | DirectQuery   | DirectQuery lub Podwójne  | 
 
 ## <a name="propagation-of-dual"></a>Propagacja tabeli podwójnej
@@ -112,7 +112,7 @@ Kontynuujmy pracę z przykładem z poprzedniej sekcji i wyobraźmy sobie, że st
 | Tabela                   | Tryb przechowywania         |
 | ----------------------- |----------------------| 
 | *Sales*                 | DirectQuery          | 
-| *SurveyResponse*        | Import               | 
+| *SurveyResponse*        | Importuj               | 
 | *Date*                  | Podwójne                 | 
 | *Customer*              | Podwójne                 | 
 | *Geography*             | Podwójne                 | 

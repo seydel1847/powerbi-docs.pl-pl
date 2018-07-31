@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/11/2017
 ms.author: maghan
-ms.openlocfilehash: 339390bba2e35101bdd42f7f51ab059473231575
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 51ad188479c11f5a0d16768eee8c533bdc71c59c
+ms.sourcegitcommit: fecea174721d0eb4e1927c1116d2604a822e4090
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34290895"
+ms.lasthandoff: 07/31/2018
+ms.locfileid: "39359937"
 ---
 # <a name="authenticate-users-and-get-an-azure-ad-access-token-for-your-power-bi-app"></a>Uwierzytelnianie użytkowników i uzyskiwanie tokenów dostępu usługi Azure AD dla aplikacji usługi Power BI
 Dowiedz się, jak uwierzytelniać użytkowników w aplikacji usługi Power BI i pobrać token dostępu do użycia z interfejsem API REST.
@@ -190,7 +190,6 @@ var tokenCredentials = new TokenCredentials(authenticationResult.AccessToken, "B
 Aby uzyskać informacje na temat tego, jak korzystać z operatora **await**, zobacz [await (C# Reference)](https://docs.microsoft.com/dotnet/csharp/language-reference/keywords/await) (await [dokumentacja języka C#]).
 
 ## <a name="next-steps"></a>Następne kroki
-Teraz, gdy masz token dostępu, możesz wywołać interfejs API REST usługi Power BI w celu osadzenia zawartości. Aby uzyskać informacje na temat osadzania zawartości, zobacz [Jak osadzić pulpity nawigacyjne, raporty i kafelki usługi Power BI](embedding-content.md#step-2-embed-your-content).
+Teraz, gdy masz token dostępu, możesz wywołać interfejs API REST usługi Power BI w celu osadzenia zawartości. Aby uzyskać informacje na temat osadzania zawartości, zobacz [Jak osadzić pulpity nawigacyjne, raporty i kafelki usługi Power BI](embed-sample-for-customers.md#embed-your-content-within-your-application).
 
 Masz więcej pytań? [Zadaj pytanie społeczności usługi Power BI](http://community.powerbi.com/)
-

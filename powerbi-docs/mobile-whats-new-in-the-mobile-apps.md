@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 07/19/2018
 ms.author: maggies
-ms.openlocfilehash: 41a8b463ca95d0e4e0e0ba71dbd9ec9a1ce78920
-ms.sourcegitcommit: f6fb681ec85313eb7b450edb8f190e9e7afbabca
+ms.openlocfilehash: 7149fd43d4214ed756eff61a523805ec9f50e1ae
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 07/20/2018
-ms.locfileid: "39182730"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280782"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Co nowego w aplikacjach mobilnych dla usługi Power BI
 Powiązane nowości są dostępne w następujących artykułach:
@@ -185,7 +185,7 @@ Przeczytaj [podsumowanie funkcji aplikacji mobilnych z lipca 2017 r.](https://p
 
 **Nowe menu: Aplikacje** Aplikacja to kolekcja pulpitów nawigacyjnych i raportów utworzonych przez organizację, która udostępnia najważniejsze metryki w celu ułatwienia podejmowania szybszych decyzji w oparciu o dane.
 
-Dowiedz się więcej na temat [organizacji zawartości usługi Power BI](mobile-apps-find-content-mobile-devices.md).
+Dowiedz się więcej na temat [organizacji zawartości usługi Power BI](mobile-apps-quickstart-view-dashboard-report.md).
 
 #### <a name="ios-and-android-devices"></a>Urządzenia z systemem iOS lub Android
 **Serwer raportów usługi Power BI (wersja zapoznawcza)** Twórz i publikuj raporty usługi Power BI w środowisku lokalnym. Możesz potem [je wyświetlać i wchodzić z nimi w interakcje na urządzeniach przenośnych z systemem iOS lub Android](mobile-app-ssrs-kpis-mobile-on-premises-reports.md). 
@@ -241,7 +241,7 @@ Funkcja pytań i odpowiedzi w usłudze Power BI pozwala uzyskiwać odpowiedzi na
 Teraz można nawiązywać połączenia nawet z pięcioma serwerami usług SQL Server Reporting Services (SSRS) naraz.
 
 #### <a name="android-tablets"></a>Tablety z systemem Android
-**Aplikacja mobilna Power BI** dla tabletów z systemem Android jest już dostępna globalnie. Zacznij korzystać z [usługi Power BI na tablecie z systemem Android](mobile-android-tablet-app-get-started.md).
+**Aplikacja mobilna Power BI** dla tabletów z systemem Android jest już dostępna globalnie. Zacznij korzystać z [usługi Power BI na tablecie z systemem Android](mobile-android-app-get-started.md).
 
 #### <a name="ios-and-android-devices"></a>Urządzenia z systemem iOS lub Android
 **Nowe menu kafelków pulpitu nawigacyjnego** Wyświetl raport źródłowy, rozwiń kafelek lub zarządzaj alertem — bezpośrednio z menu kafelka na pulpicie nawigacyjnym. 
@@ -304,7 +304,7 @@ Przeczytaj [podsumowanie funkcji aplikacji mobilnych Power BI z listopada 2016 
 #### <a name="android-tablets"></a>Tablety z systemem Android
 **Aplikacja mobilna Power BI dla tabletów z systemem Android** Tak, wersja zapoznawcza jest już dostępna.
 
-* Zacznij korzystać z [usługi Power BI na tablecie z systemem Android](mobile-android-tablet-app-get-started.md)
+* Zacznij korzystać z [usługi Power BI na tablecie z systemem Android](mobile-android-app-get-started.md)
 * Eksploruj [raporty dla urządzeń przenośnych i kluczowe wskaźniki wydajności usług Reporting Services na tablecie z systemem Android](mobile-app-ssrs-kpis-mobile-on-premises-reports.md)
 
 #### <a name="android-devices"></a>Urządzenia z systemem Android
@@ -498,7 +498,7 @@ Wszystkie styczniowe udoskonalenia zostały zawarte w nowej [aplikacji Power BI 
 
 **Kafelki języka R i widgety internetowe** Te nowe typy kafelków są dostępne na pulpitach nawigacyjnych na urządzeniu przenośnym.
 
-**Pulpity nawigacyjne usługi Bing** W usłudze Power BI można teraz tworzyć [pulpity nawigacyjne z wynikami wyszukiwania z usługi Bing](service-connect-to-bing.md) i wyświetlać je na urządzeniu przenośnym.
+**Pulpity nawigacyjne usługi Bing** W usłudze Power BI można teraz tworzyć [pulpity nawigacyjne z wynikami wyszukiwania z usługi Bing](service-connect-to-services.md) i wyświetlać je na urządzeniu przenośnym.
 
 **Przypinanie stron raportu jako kafelków do pulpitów nawigacyjnych** W usłudze Power BI można teraz przypinać całą stronę raportu do pulpitu nawigacyjnego, co pozwala wyświetlać strony raportu w aplikacji Power BI na telefonie iPhone lub telefonie z systemem Android.
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: b2437074fb6beff4b1be62287d547111488862e3
-ms.sourcegitcommit: 6faeb642721ee5abb41c04a8b729880c01c4d40e
+ms.openlocfilehash: c21d04da722e017210f7f83df3e1a5aa7dde1166
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 07/23/2018
-ms.locfileid: "39210335"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280759"
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop-preview"></a>Tworzenie etykietek narzędzi opartych na stronach raportu w programie Power BI Desktop (wersja zapoznawcza)
 Możesz tworzyć wizualnie bogate **etykietki narzędzi raportu**, wyświetlane po najechaniu kursorem na elementy wizualne, w oparciu o strony raportu utworzonego w programie **Power BI Desktop**. Poprzez utworzenie strony raportu służącej jako etykietka narzędzi, możesz uwzględnić w niestandardowych etykietkach narzędzi elementy wizualne, obrazy i inne kolekcje elementów utworzonych na stronie raportu. 
@@ -124,6 +124,7 @@ W tej wersji zapoznawczej funkcji **etykietek narzędzi** raportów występują 
 * Etykietki narzędzi raportów nie są obsługiwane w przypadku niestandardowych elementów wizualnych. 
 * Klastry nie są obecnie obsługiwane jako pola, które można wyświetlać w etykietkach narzędzi raportów. 
 * W przypadku wybierania pola do wyświetlenia w ramach etykietek narzędzi raportów, kiedy zastosowane zostaje pole, a nie kategoria, elementy wizualne zawierające to pole będą wyświetlać wyłącznie określoną etykietkę narzędzi po dopasowaniu podsumowania z wybranym polem. 
+
 
 
 ## <a name="next-steps"></a>Następne kroki
