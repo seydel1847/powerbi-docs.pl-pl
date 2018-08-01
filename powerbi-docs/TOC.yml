@@ -1,6 +1,6 @@
 - name: Korzystanie z usługi Power BI
   items:
-    - name: Overview
+    - name: Przegląd
       items:
         - name: Co to jest usługa Power BI?
           href: power-bi-overview.md
@@ -478,7 +478,7 @@
           href: whitepapers.md
 - name: Power BI Desktop
   items:
-    - name: Overview
+    - name: Przegląd
       items:
         - name: Czym jest program Power BI Desktop?
           href: desktop-what-is-desktop.md
@@ -822,7 +822,7 @@
           href: desktop-admin-sign-in-form.md
 - name: Aplikacje mobilne Power BI
   items:
-    - name: Overview
+    - name: Przegląd
       items:
         - name: Co to są aplikacje mobilne?
           href: mobile-apps-for-mobile-devices.md
@@ -916,16 +916,20 @@
   items:
     - name: Osadzona analiza
       items:
-        - name: Overview
+        - name: Przegląd
           items:
-            - name: Osadzanie przy użyciu usługi Power BI
+            - name: Co jest osadzane za pomocą usługi Power BI
               href: developer/embedding.md
+            - name: Co to jest usługa Power BI Embedded na platformie Azure
+              href: developer/azure-pbie-what-is-power-bi-embedded.md
         - name: Samouczki
           items:
             - name: Osadzanie zawartości dla klientów
               href: developer/embed-sample-for-customers.md
             - name: Osadzanie zawartości dla organizacji
               href: developer/embed-sample-for-your-organization.md
+            - name: Integrowanie zawartości w aplikacji na potrzeby suwerennych chmur
+              href: developer/embed-sample-for-customers-sovereign-clouds.md
         - name: Pojęcia
           items:
             - name: Zabezpieczenia na poziomie wiersza
@@ -936,12 +940,8 @@
               href: developer/power-bi-permissions.md
         - name: Instrukcje
           items:
-            - name: Jak osadzić zawartość
-              href: developer/embedding-content.md
             - name: Jak osadzać z aplikacji
               href: developer/embed-from-apps.md
-            - name: Integrowanie zawartości w aplikacji na potrzeby suwerennych chmur (dane należą do aplikacji)
-              href: developer/embed-sample-for-customers-sovereign-clouds.md
             - name: Tworzenie dzierżawy usługi Azure Active Directory
               href: developer/create-an-azure-active-directory-tenant.md
             - name: Rejestrowanie aplikacji
@@ -950,18 +950,36 @@
               href: developer/get-azuread-access-token.md
             - name: Osadzanie pytań i odpowiedzi
               href: developer/qanda.md
-            - name: Jak migrować usługę Power BI Embedded
-              href: developer/migrate-from-powerbi-embedded.md
             - name: Rozwiązywanie problemów z aplikacją osadzoną
               href: developer/embedded-troubleshoot.md
+            - name: Zarządzanie pojemnościami na platformie Azure
+              items:
+                - name: Tworzenie pojemności na platformie Azure
+                  href: developer/azure-pbie-create-capacity.md
+                - name: Skalowanie pojemności na platformie Azure
+                  href: developer/azure-pbie-scale-capacity.md
+                - name: Wstrzymywanie i uruchamianie pojemności na platformie Azure
+                  href: developer/azure-pbie-pause-start.md
+            - name: Migrowanie z kolekcji obszarów roboczych
+              items:
+                - name: Jak przeprowadzić migrację z kolekcji obszarów roboczych usługi Power BI
+                  href: developer/migrate-from-powerbi-embedded.md
+                - name: Narzędzie do migracji
+                  href: developer/migrate-tool.md
+                - name: Fragmenty kodu migracji
+                  href: developer/migrate-code-snippets.md
         - name: Dokumentacja
           items:
+            - name: Interfejsy API
+              items:
+                - name: Interfejsy API REST zarządzania zasobami platformy Azure
+                  href: 'https://docs.microsoft.com/rest/api/power-bi-embedded/'
+                - name: Interfejsy API REST usługi Power BI
+                  href: 'https://msdn.microsoft.com/library/mt147898.aspx'
             - name: Pobieranie zestawu SDK .NET
               href: 'https://go.microsoft.com/fwlink/?linkid=848274'
             - name: Osadzanie układów niestandardowych w aplikacji
               href: developer/embedded-custom-layout.md
-            - name: Fragmenty kodu migracji
-              href: developer/migrate-code-snippets.md
         - name: Zasoby
           items:
             - name: Centrum deweloperów
@@ -978,15 +996,13 @@
               href: 'https://go.microsoft.com/fwlink/?linkid=848273'
             - name: Przykłady
               href: 'https://go.microsoft.com/fwlink/?linkid=851293'
-            - name: Narzędzie do migracji usługi Power BI Embedded
-              href: developer/migrate-tool.md
             - name: Społeczność usługi Power BI
               href: 'https://go.microsoft.com/fwlink/?linkid=848280'
             - name: Stack Overflow
               href: 'https://go.microsoft.com/fwlink/?linkid=848281'
     - name: Tworzenie wizualizacji niestandardowych
       items:
-        - name: Overview
+        - name: Przegląd
           items:
             - name: Dodawanie wizualizacji niestandardowych do usługi Power BI
               href: 'https://microsoft.github.io/PowerBI-visuals/docs/latest/overview/'
@@ -1028,7 +1044,7 @@
               href: 'https://go.microsoft.com/fwlink/?linkid=848277'
     - name: Automatyzacja
       items:
-        - name: Overview
+        - name: Przegląd
           items:
             - name: Co mogę zrobić za pomocą interfejsu API usługi Power BI?
               href: developer/overview-of-power-bi-rest-api.md
@@ -1064,8 +1080,6 @@
           items:
             - name: Interfejsy API REST
               href: 'https://docs.microsoft.com/rest/api/power-bi'
-            - name: Dokumentacja interfejsu API REST usługi Power BI
-              href: developer/rest-api-reference.md
             - name: Kompletna lista kodu
               href: developer/walkthrough-push-data-complete-code.md
         - name: Zasoby
@@ -1078,7 +1092,7 @@
               href: 'https://go.microsoft.com/fwlink/?linkid=848274'
 - name: Serwer raportów usługi Power BI
   items:
-    - name: Overview
+    - name: Przegląd
       items:
         - name: Co to jest serwer raportów usługi Power BI?
           href: report-server/get-started.md
@@ -1180,7 +1194,7 @@
           href: report-server/capacity-planning.md
 - name: Bramy
   items:
-    - name: Overview
+    - name: Przegląd
       items:
         - name: Co to są bramy usługi Power BI?
           href: service-gateway-getting-started.md
@@ -1228,7 +1242,7 @@
           href: service-gateway-onprem-tshoot.md
 - name: Administracja
   items:
-    - name: Overview
+    - name: Przegląd
       items:
         - name: Co to jest administracja usługi Power BI?
           href: service-admin-administering-power-bi-in-your-organization.md
