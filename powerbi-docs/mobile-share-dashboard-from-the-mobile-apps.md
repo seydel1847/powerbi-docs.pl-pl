@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 03/20/2018
 ms.author: maggies
 ms.openlocfilehash: 2e09af0a2baf00932ebe57d34b2e47f6d0287b3b
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: fecea174721d0eb4e1927c1116d2604a822e4090
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 07/31/2018
 ms.locfileid: "34293380"
 ---
 # <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>Udostępnianie pulpitu nawigacyjnego lub raportu z aplikacji mobilnych usługi Power BI
@@ -39,7 +39,7 @@ W aplikacji mobilnej Power BI dla urządzeń z systemem iOS i Android możesz ta
    
    Adresaci otrzymają wiadomość e-mail z zaproszeniem zawierającą bezpośredni link do pulpitu nawigacyjnego lub raportu. Zaproszenie wygasa po upływie miesiąca. Gdy zaproszenie zostanie otwarte w przeglądarce lub w aplikacji mobilnej usługi Power BI, zostanie dodane do sekcji **Udostępnione dla mnie** na koncie usługi Power BI danej osoby.
    
-   ![Udostępnione dla mnie](media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-shared-with-me-left-nav.png)
+   ![Udostępnione mi](media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-shared-with-me-left-nav.png)
    
    Przeczytaj więcej [uwag dotyczących udostępniania elementów współpracownikom](service-share-dashboards.md).
 
@@ -69,7 +69,7 @@ Tylko właściciel może anulować udostępnianie.
    
    Adresaci otrzymają wiadomość e-mail z zaproszeniem zawierającą bezpośredni link do pulpitu nawigacyjnego lub raportu. Zaproszenie wygasa po upływie miesiąca. Gdy zaproszenie zostanie otwarte w przeglądarce lub w aplikacji mobilnej usługi Power BI, zostanie dodane do sekcji **Udostępnione dla mnie** na koncie usługi Power BI danej osoby
    
-   ![Udostępnione dla mnie](media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-shared-with-me-left-nav.png)
+   ![Udostępnione mi](media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-shared-with-me-left-nav.png)
    
    Przeczytaj więcej [uwag dotyczących udostępniania elementów współpracownikom](service-share-dashboards.md).
 
@@ -140,7 +140,7 @@ Tylko właściciel może anulować udostępnianie.
    
    Adresaci otrzymają wiadomość e-mail z zaproszeniem zawierającą bezpośredni link do pulpitu nawigacyjnego lub raportu. Zaproszenie wygasa po upływie miesiąca. Gdy zaproszenie zostanie otwarte w przeglądarce lub w aplikacji mobilnej usługi Power BI, zostanie dodane do sekcji **Udostępnione dla mnie** na koncie usługi Power BI danej osoby
    
-   ![Udostępnione dla mnie](media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-shared-with-me-left-nav.png)
+   ![Udostępnione mi](media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-shared-with-me-left-nav.png)
    
    Przeczytaj więcej [uwag dotyczących udostępniania elementów współpracownikom](service-share-dashboards.md).
 
