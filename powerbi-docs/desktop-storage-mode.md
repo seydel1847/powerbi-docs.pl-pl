@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/23/2018
+ms.date: 07/31/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 15580cd43e4bb2d286310868a8e853daff04f280
-ms.sourcegitcommit: 6faeb642721ee5abb41c04a8b729880c01c4d40e
+ms.openlocfilehash: 28dcc4812a37b5ad3f514227f4e5fbcdfebeb579
+ms.sourcegitcommit: 06f59902105c93700e71e913dff8453e221e4f82
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 07/23/2018
-ms.locfileid: "39211368"
+ms.lasthandoff: 08/01/2018
+ms.locfileid: "39388806"
 ---
 # <a name="storage-mode-in-power-bi-desktop-preview"></a>Tryb magazynu w programie Power BI Desktop (wersja zapoznawcza)
 
@@ -33,8 +33,8 @@ Ustawienie **trybu przechowywania** ma wiele zalet. Możesz ustawić **tryb prze
 
 Ustawienie **trybu przechowywania** w programie **Power BI Desktop** jest jedną z trzech powiązanych funkcji:
 
-* **Modele złożone** — umożliwia użycie w raporcie wielu połączeń danych, takich jak połączenia trybu DirectQuery lub importowanie, w dowolnej kombinacji.
-* **Relacje wiele-do-wielu** — dzięki **modelom złożonym** można ustanawiać **relacje wiele-do-wielu** między tabelami, usuwać wymagania dotyczące unikatowych wartości w tabelach, a także usuwać wcześniejsze obejścia, takie jak wprowadzanie nowych tabel tylko w celu ustanowienia relacji. 
+* **Modele złożone** — ta funkcja umożliwia użycie w raporcie wielu połączeń danych, takich jak połączenia trybu DirectQuery lub importowanie, w dowolnej kombinacji.
+* **Relacje wiele-do-wielu** — dzięki **modelom złożonym** można ustanawiać **relacje wiele-do-wielu** między tabelami, usuwać wymagania dotyczące unikatowe wartości w tabelach, a także usuwać wcześniejsze obejścia, takie jak wprowadzanie nowych tabel tylko w celu ustanowienia relacji. 
 * **Tryb przechowywania** — można teraz określić, które wizualizacje wymagają wykonania zapytania dotyczącego źródła danych zaplecza. Wizualizacje niewymagające tej czynności są importowane, nawet jeśli są oparte na trybie DirectQuery, co zwiększa wydajność i redukuje obciążenie zaplecza. Wcześniej nawet proste wizualizacje, takie jak fragmentatory, inicjowały wysyłanie zapytań do źródeł zaplecza. 
 
 Ta kolekcja trzech powiązanych funkcji **modeli złożonych** została opisana w osobnych artykułach:

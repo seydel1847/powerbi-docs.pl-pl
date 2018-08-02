@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/23/2018
+ms.date: 07/31/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 1105de002f6461589d61c6f0077cceeedaada471
-ms.sourcegitcommit: 6faeb642721ee5abb41c04a8b729880c01c4d40e
+ms.openlocfilehash: 40799bb2716b2f6e85405e76c2a301acef3509aa
+ms.sourcegitcommit: 06f59902105c93700e71e913dff8453e221e4f82
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 07/23/2018
-ms.locfileid: "39211336"
+ms.lasthandoff: 08/01/2018
+ms.locfileid: "39388760"
 ---
 # <a name="many-to-many-relationships-in-power-bi-desktop-preview"></a>Relacje wiele-do-wielu w programie Power BI Desktop (wersja zapoznawcza)
 
@@ -26,14 +26,14 @@ Za pomocą funkcji **Relacje wiele-do-wielu** w programie **Power BI Desktop** m
 Możliwość obsługi **relacji wiele-do-wielu** w programie **Power BI Desktop** jest częścią kolekcji trzech pokrewnych funkcji:
 
 * **Modele złożone** — ta funkcja umożliwia użycie w raporcie wielu połączeń danych, takich jak połączenia trybu DirectQuery lub importowanie, w dowolnej kombinacji.
-* **Relacje wiele-do-wielu** — dzięki **modelom złożonym** można ustanawiać **relacje wiele-do-wielu** między tabelami, usuwać wymagania dotyczące unikatowych wartości w tabelach, a także usuwać wcześniejsze obejścia, takie jak wprowadzanie nowych tabel tylko w celu ustanowienia relacji. 
+* **Relacje wiele-do-wielu** — dzięki **modelom złożonym** można ustanawiać **relacje wiele-do-wielu** między tabelami, usuwać wymagania dotyczące unikatowe wartości w tabelach, a także usuwać wcześniejsze obejścia, takie jak wprowadzanie nowych tabel tylko w celu ustanowienia relacji. 
 * **Tryb przechowywania** — można teraz określić, które wizualizacje wymagają wykonania zapytania dotyczącego źródła danych zaplecza. Wizualizacje niewymagające tej czynności są importowane, nawet jeśli są oparte na trybie DirectQuery, co zwiększa wydajność i redukuje obciążenie zaplecza. Wcześniej nawet proste wizualizacje, takie jak fragmentatory, inicjowały wysyłanie zapytań do źródeł zaplecza. 
 
 Ta kolekcja trzech powiązanych funkcji **modeli złożonych** została opisana w osobnych artykułach:
 
 * **Modele złożone** zostały szczegółowo opisane w artykule [Modele złożone w programie Power BI Desktop (wersja zapoznawcza)](desktop-composite-models.md).
 * **Relacje wiele do wielu** zostały opisane w tym artykule.
-* **Tryb przechowywania** został opisany we własnym artykule: [Tryb przechowywania w programie Power BI Desktop (wersja zapoznawcza)](desktop-storage-mode.md).
+* **Tryb przechowywania** został opisany w oddzielnym artykule: [Tryb przechowywania w programie Power BI Desktop (wersja zapoznawcza)](desktop-storage-mode.md).
 
 ## <a name="enabling-the-many-to-many-relationships-preview-feature"></a>Włączanie funkcji relacji wiele do wielu w wersji zapoznawczej
 
@@ -110,7 +110,7 @@ Wizualizacja z wartością *State* (Stan) (z tabeli *CityData* (Dane miast)) wra
 
 Należy pamiętać, że jeśli w tym obejściu jest używany stan z tabeli *CityData* (Dane miast), są wymieniane tylko wartości *State* (Stan) z tej tabeli (i w związku z tym stan TX jest wykluczany). Ponadto w odróżnieniu od relacji **wiele-1** wiersz sumy obejmuje wszystkie operacje typu *Sales* (Sprzedaż) (z uwzględnieniem stanu TX),ale szczegóły nie uwzględniają pustego wiersza obejmującego takie niedopasowane wiersze. Podobnie nie byłoby pustych wierszy obejmujących dowolną wartość *Sales* (Sprzedaż), dla której element *State* (Stan) miał wartość null.
 
-Jeśli do tej wizualizacji dodano również element *City* (Miasto), a populacja danego elementu *City* jest znana, wartość *Sales* (Sprzedaż) wyświetlane dla elementu *City* będzie po prostu powtórzeniem wartości *Sales* dla odpowiedniego elementu *State* (Stan) (taka sytuacja występuje zwykle w przypadku grupowania według kolumny, której nie powiązano z miarą zagregowaną), jak pokazano na poniższej ilustracji.
+Jeśli do tej wizualizacji dodano również element *City* (Miasto), a populacja danego elementu *City* jest znana, wartość *Sales* (Sprzedaż) wyświetlana dla elementu *City* będzie po prostu powtórzeniem wartości *Sales* dla odpowiedniego elementu *State* (Stan) (taka sytuacja występuje zwykle w przypadku grupowania według kolumny, której nie powiązano z miarą zagregowaną), jak pokazano na poniższej ilustracji.
 
 ![wizualizacja tabeli](media/desktop-many-to-many-relationships/many-to-many-relationships_10.png)
 
