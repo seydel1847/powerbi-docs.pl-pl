@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7e992152656a208c765743292e06b4d0d3708730
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 769e2adb30fb1969d16898db4bf954d2bcbad8c4
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37600262"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280414"
 ---
 # <a name="working-with-tables-in-power-bi-reports-and-dashboards"></a>Praca z tabelami w raportach i na pulpitach nawigacyjnych usługi Power BI
 Tabela to siatka zawierająca powiązane dane w postaci logicznej serii wierszy i kolumn. Może również zawierać nagłówki i wiersze sum. Tabele dobrze się sprawdzają w przypadku porównań ilościowych, gdy analizuje się wiele wartości z jednej kategorii. Na przykład ta tabela zawiera 5 różnych miar dla **kategorii**.
@@ -56,7 +56,7 @@ Utworzymy tabelę przedstawioną powyżej, aby wyświetlić wartości sprzedaży
      ![](media/power-bi-visualization-tables/pbi_pintile.png)
 
 ## <a name="format-the-table"></a>Formatowanie tabeli
-Istnieje bardzo wiele sposobów formatowania tabeli. Omówimy tu tylko niektóre z nich. Dobrym sposobem na dowiedzenie się więcej o innych opcjach formatowania jest otwarcie okienka formatowania (ikona wałka do malowania ![](media/power-bi-visualization-tables/power-bi-format.png)) i przejrzenie opcji.
+Istnieje wiele sposobów formatowania tabeli. Omówimy tu tylko niektóre z nich. Dobrym sposobem na dowiedzenie się więcej o innych opcjach formatowania jest otwarcie okienka formatowania (ikona wałka do malowania ![](media/power-bi-visualization-tables/power-bi-format.png)) i przejrzenie opcji.
 
 * Spróbuj sformatować siatkę tabeli. W tym miejscu dodaliśmy niebieską siatkę pionową, dodaliśmy więcej miejsca do wierszy oraz zwiększyliśmy nieco obramowanie oraz rozmiar tekstu.
 

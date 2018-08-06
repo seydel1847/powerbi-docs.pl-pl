@@ -7,20 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/06/2018
+ms.date: 07/26/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 11be5cd6f5b97fe612bf42a37228518ab2fbb227
-ms.sourcegitcommit: d1a0da8638c5d957b884ca9412275ee8880d4b14
+ms.openlocfilehash: 5db9b801fad3145cc864799062fe886c99da53aa
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37900059"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280207"
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>Używanie łącznika systemu SAP BW w programie Power BI Desktop
 Program Power BI Desktop umożliwia dostęp do danych systemu **SAP Business Warehouse (BW)**.
 
-Aby dowiedzieć się, jak klienci systemu SAP mogą korzystać z zalet połączenia usługi Power BI z istniejącymi systemami SAP Business Warehouse (BW), zapoznaj się z [oficjalnym dokumentem dotyczącym usługi Power BI i systemu SAP BW](https://aka.ms/powerbiandsapbw).
+Aby dowiedzieć się, jak klienci systemu SAP mogą korzystać z zalet połączenia usługi Power BI z istniejącymi systemami SAP Business Warehouse (BW), zapoznaj się z [oficjalnym dokumentem dotyczącym usługi Power BI i systemu SAP BW](https://aka.ms/powerbiandsapbw). Aby uzyskać szczegółowe informacje o używaniu trybu DirectQuery z systemem SAP BW, zobacz artykuł [Zapytanie bezpośrednie i system SAP Business Warehouse (BW)](desktop-directquery-sap-bw.md).
 
 Począwszy od wersji programu **Power BI Desktop** wydanej w czerwcu 2018 roku, można używać łącznika SAP BW Connector w implementacji oferującej znaczącą poprawę wydajności i dostępności. Ta zaktualizowana wersja łącznika SAP BW Connector została opracowana przez firmę Microsoft i jest nazywana wersją **Implementation 2.0**. Możesz wybrać wersję 1 (v1) łącznika **SAP BW Connector** lub łącznik **Implementation 2.0 SAP Connector**. W poniższych sekcjach opisano instalację każdej z wersji. Możesz wybrać jeden lub drugi łącznik podczas nawiązywania połączenia z systemem SAP BW z poziomu programu Power BI Desktop.
 
@@ -38,9 +38,9 @@ Zalecamy używanie łącznika Implementation 2.0 SAP Connector zawsze, gdy jest 
 
 ## <a name="installation-of-implementation-20-sap-connector"></a>Instalacja łącznika Implementation 2.0 SAP Connector
 
-Wersja **Implementation 2.0** łącznika SAP Connector wymaga łącznika SAP .NET Connector 3.0. Możesz [pobrać łącznik SAP .NET Connector 3.0](https://go.microsoft.com/fwlink/?linkid=872300) z witryny internetowej SAP, korzystając z następującego linku:
+Wersja **Implementation 2.0** łącznika SAP Connector wymaga łącznika SAP .NET Connector 3.0. Możesz [pobrać łącznik SAP .NET Connector 3.0](https://support.sap.com/en/product/connectors/msnet.html) z witryny internetowej SAP, korzystając z następującego linku:
 
-* [SAP .NET Connector 3.0](https://go.microsoft.com/fwlink/?linkid=872300)
+* [SAP .NET Connector 3.0](https://support.sap.com/en/product/connectors/msnet.html)
 
 Dostęp do pobierania wymaga prawidłowego użytkownika S-user. Zachęcamy klientów, aby skontaktowali się ze swoim zespołem SAP Basis w celu uzyskania łącznika SAP .NET Connector 3.0. 
 
@@ -207,6 +207,7 @@ W tej sekcji omówiono sytuacje problemowe (i ich rozwiązania) dotyczące pracy
 Aby uzyskać więcej informacji na temat systemu SAP i trybu DirectQuery, zapoznaj się z następującymi zasobami:
 
 * [Zapytanie bezpośrednie i platforma SAP HANA](desktop-directquery-sap-hana.md)
+* [Zapytanie bezpośrednie i system SAP Business Warehouse (BW)](desktop-directquery-sap-bw.md)
 * [Zapytanie bezpośrednie w usłudze Power BI](desktop-directquery-about.md)
 * [Źródła danych obsługiwane przez zapytanie bezpośrednie](desktop-directquery-data-sources.md)
 * [Oficjalny dokument dotyczący usługi Power BI i systemu SAP BW](https://aka.ms/powerbiandsapbw)

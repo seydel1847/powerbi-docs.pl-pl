@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/04/2018
+ms.date: 07/24/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 2caa22152580d3de8c6ede585c43dedf4e624f88
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: fad7b8453b6d5d29a1f6c5d9d9ed49b0a8b8a66f
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34813738"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280345"
 ---
 # <a name="data-view-in-power-bi-desktop"></a>Widok danych w programie Power BI Desktop
 **Widok danych** ułatwia sprawdzanie, przeglądanie i interpretację danych w modelu programu **Power BI Desktop**. Sposób wyświetlania tabel, kolumn i danych jest inny niż w **Edytorze zapytań**. W widoku danych widzisz dane *po* ich załadowaniu do modelu.
@@ -46,4 +46,5 @@ Możesz również filtrować i sortować dane w **widoku danych**. Każda kolumn
 
 Możesz filtrować poszczególne wartości lub używać filtrowania zaawansowanego opartego na danych w kolumnie. 
 
-
+> [!NOTE]
+> Gdy model usługi Power BI zostanie utworzony w innej kulturze niż Twój bieżący interfejs użytkownika, na przykład model został utworzony w kulturze Angielski (amerykański), a wyświetlasz go w kulturze Hiszpański, pole wyszukiwania nie będzie wyświetlane w interfejsie użytkownika widoku danych dla żadnych innych elementów niż pola tekstowe.

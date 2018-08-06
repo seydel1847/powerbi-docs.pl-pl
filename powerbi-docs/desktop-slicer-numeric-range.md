@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/07/2018
+ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1e380a6821db7207d14e719fa5e070af38196b97
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 135e6ff76a0972bdedbff3eaf7ab1222f82a94ab
+ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34286939"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39331186"
 ---
 # <a name="use-the-numeric-range-slicer-in-power-bi-desktop"></a>Używanie fragmentatora zakresu liczbowego w programie Power BI Desktop
 Używając **fragmentatora zakresu liczbowego**, możesz zastosować wszelkiego rodzaju filtry do dowolnej kolumny liczbowej w modelu danych. Możesz filtrować liczby **między** wartościami, **mniejsze niż lub równe** określonej liczbie albo **większe niż lub równe** określonej liczbie. Chociaż może to brzmieć prosto, jest to bardzo zaawansowana metoda filtrowania danych.
@@ -53,7 +53,7 @@ Natomiast gdy wybierzemy pozycję **Większe niż lub równe**, zniknie prawy uc
 
 ## <a name="snap-to-whole-numbers-with-the-numeric-range-slicer"></a>Przyciąganie do liczb całkowitych przy użyciu fragmentatora zakresu liczbowego
 
-Fragmentator zakresu liczbowego ma funkcję przyciągania do liczb całkowitych, o ile nie ma zakresu dziesiętnego. Pozwala to fragmentatorowi prawidłowo dopasować liczby całkowite. 
+Fragmentator zakresu liczbowego będzie przyciągany do liczb całkowitych, jeśli typem danych pola bazowego jest **Liczba całkowita**. Pozwala to fragmentatorowi prawidłowo dopasować liczby całkowite. Pola typu **Liczba dziesiętna** pozwalają wprowadzać lub wybierać części ułamkowe. Formatowanie zastosowane w polu tekstowym jest zgodne z formatowaniem ustawionym w polu, mimo że można wpisać lub wybrać bardziej precyzyjne liczby.
 
 
 ## <a name="limitations-and-considerations"></a>Ograniczenia i istotne zagadnienia
@@ -61,3 +61,4 @@ Obecnie obowiązują poniższe ograniczenia i istotne zagadnienia dotyczące **f
 
 * **Fragmentator zakresu liczbowego** filtruje obecnie każdy wiersz podstawowy w danych, ale nie filtruje żadnej wartości zagregowanej. Jeśli na przykład jest używane pole *Kwota sprzedaży*, każda transakcja związana z polem *Kwota sprzedaży* będzie filtrowana w oparciu o to pole, a nie o sumę wartości *Kwota sprzedaży* dla każdego punktu danych wizualizacji.
 * Obecnie fragmentator nie współpracuje z miarami.
+* W polach tekstowych fragmentatora liczbowego można wpisać dowolną liczbę, nawet spoza zakresu wartości w kolumnie bazowej. Dzięki temu można skonfigurować filtry, jeśli wiadomo, że dane mogą się zmienić.

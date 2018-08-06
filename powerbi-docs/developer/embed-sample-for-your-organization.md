@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: cfc450216202f332f518955d28cb71df6aa0b800
-ms.sourcegitcommit: f2b106b5eb338a64f903e8ce6793bccb07f9440a
+ms.openlocfilehash: 544429528ed51dd2928eb82632f512ff3f7d5afd
+ms.sourcegitcommit: fecea174721d0eb4e1927c1116d2604a822e4090
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 07/18/2018
-ms.locfileid: "39105274"
+ms.lasthandoff: 07/31/2018
+ms.locfileid: "39359736"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-organization"></a>Samouczek: osadzanie raportu, pulpitu nawigacyjnego lub kafelka usługi Power BI w aplikacji dla organizacji
 W tym samouczku przedstawiono sposób integrowania raportu w aplikacji przy użyciu **zestawu .NET SDK usługi Power BI** z **interfejsem API języka JavaScript usługi Power BI** w przypadku osadzania usługi **Power BI** w aplikacji dla organizacji. Usługa **Power BI** umożliwia osadzanie raportów, pulpitów nawigacyjnych lub kafelków w aplikacji przy użyciu struktury **user owns data** (użytkownik jest właścicielem danych). Struktura **user owns data** umożliwia Twojej aplikacji rozszerzenie usługi Power BI.
@@ -413,7 +413,24 @@ function updateEmbedReport() {
 Tworzenie aplikacji zakończyło się i należy teraz zapewnić dedykowaną pojemność w obszarze roboczym aplikacji.
 
 ### <a name="create-a-dedicated-capacity"></a>Tworzenie pojemności dedykowanej
-Utworzenie pojemności dedykowanej pozwala skorzystać z zalet zasobu dedykowanego dla zawartości w obszarze roboczym aplikacji. Jeśli obszar roboczy nie jest przypisany do pojemności dedykowanej, jest to pojemność udostępniona. Pojemność dedykowaną możesz utworzyć przy użyciu usługi [Power BI Premium](../service-admin-premium-purchase.md).
+Utworzenie pojemności dedykowanej pozwala skorzystać z zalet zasobu dedykowanego dla zawartości w obszarze roboczym aplikacji. Pojemność dedykowaną możesz utworzyć przy użyciu usługi [Power BI Premium](../service-premium.md).
+
+Poniższa tabela zawiera listę dostępnych jednostek SKU usługi Power BI Premium dostępnych w ramach usługi [Office 365](../service-admin-premium-purchase.md).
+
+| Węzeł pojemności | Całkowita liczba rdzeni wirtualnych<br/>*(Wewnętrzna baza danych + fronton)* | Rdzenie wirtualne wewnętrznej bazy danych | Rdzenie wirtualne frontonu | Limity zapytania bezpośredniego/połączenia na żywo | Maksymalne renderowanie strony w godzinie szczytu |
+| --- | --- | --- | --- | --- | --- |
+| EM1 |1 rdzeń wirtualny |0,5 rdzenia wirtualnego, 10 GB pamięci RAM |0,5 rdzenia wirtualnego |3,75 na sekundę |150–300 |
+| EM2 |2 rdzenie wirtualne |1 rdzeń wirtualny, 10 GB pamięci RAM |1 rdzeń wirtualny |7,5 na sekundę |301–600 |
+| EM3 |4 rdzenie wirtualne |2 rdzenie wirtualne, 10 GB pamięci RAM |2 rdzenie wirtualne |15 na sekundę |601–1200 |
+| P1 |8 rdzeni wirtualnych |4 rdzenie wirtualne, 25 GB pamięci RAM |4 rdzenie wirtualne |30 na sekundę |1201–2400 |
+| P2 |16 rdzeni wirtualnych |8 rdzeni wirtualnych, 50 GB pamięci RAM |8 rdzeni wirtualnych |60 na sekundę |2401–4800 |
+| P3 |32 rdzenie wirtualne |16 rdzeni wirtualnych, 100 GB pamięci RAM |16 rdzeni wirtualnych |120 na sekundę |4801–9600 |
+| P4 |64 rdzenie wirtualne |32 rdzenie wirtualne, 200 GB pamięci RAM |32 rdzenie wirtualne |240 na sekundę |9601-19200
+| P5 |128 rdzeni wirtualnych |64 rdzenie wirtualne, 400 GB pamięci RAM |64 rdzenie wirtualne |480 na sekundę |19201-38400
+
+***_Jednostki SKU EM_** **umożliwiają** uzyskiwanie dostępu do zawartości za pomocą bezpłatnej licencji usługi Power BI podczas osadzania zawartości w **_aplikacjach pakietu MS Office_**. Bezpłatna licencja usługi Power BI **nie umożliwia uzyskiwania dostępu** do zawartości w przypadku używania witryny **_Powerbi.com_** lub usługi **_Power BI dla urządzeń przenośnych_**.*
+
+***_Jednostki SKU P_** **umożliwiają** uzyskiwanie dostępu do zawartości za pomocą bezpłatnej licencji usługi Power BI w przypadku osadzania zawartości w **_aplikacjach pakietu MS Office_**, używania witryny **_Powerbi.com_** lub **_usługi Power BI dla urządzeń przenośnych_**.*
 
 ### <a name="assign-an-app-workspace-to-a-dedicated-capacity"></a>Przypisywanie obszaru roboczego aplikacji do pojemności dedykowanej
 
@@ -431,13 +448,17 @@ Po utworzeniu pojemności dedykowanej możesz do niej przypisać obszar roboczy 
 
     ![obszar roboczy aplikacji powiązany z pojemnością](media/embed-sample-for-your-organization/embed-sample-for-your-organization-037.png)
 
+## <a name="admin-settings"></a>Ustawienia administratora
+
+Administratorzy globalni oraz administratorzy usługi Power BI mogą włączać i wyłączać możliwość korzystania z interfejsu API REST dla dzierżawy. Administratorzy usługi Power BI mogą wybrać to ustawienie dla całej organizacji oraz dla poszczególnych grup zabezpieczeń. Domyślnie jest ono włączone dla całej organizacji Można to zrobić za pomocą [portalu administracyjnego usługi Power BI](../service-admin-portal.md).
+
 ## <a name="next-steps"></a>Następne kroki
-W tym samouczku przedstawiono sposób osadzania zawartości usługi Power BI w aplikacji za pomocą **konta organizacji usługi Power BI**. Teraz możesz spróbować osadzić zawartość usługi Power BI w aplikacji przy użyciu aplikacji.  Zawartość usługi Power BI możesz również spróbować osadzić dla klientów innych firm.
+W tym samouczku przedstawiono sposób osadzania zawartości usługi Power BI w aplikacji za pomocą **konta organizacji usługi Power BI**. Teraz możesz spróbować osadzić zawartość usługi Power BI w aplikacji przy użyciu aplikacji.  Zawartość usługi Power BI możesz również spróbować osadzić dla swoich klientów.
 
 > [!div class="nextstepaction"]
 > [Osadź z aplikacji](embed-from-apps.md)
 
 > [!div class="nextstepaction"]
->[Osadź dla klientów innych firm](embed-sample-for-customers.md)
+>[Osadź dla swoich klientów](embed-sample-for-customers.md)
 
 Masz więcej pytań? [Zadaj pytanie społeczności usługi Power BI](http://community.powerbi.com/)

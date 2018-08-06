@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: b26fbfccc3b0a98761ecc1444af4e535339c96de
-ms.sourcegitcommit: 6faeb642721ee5abb41c04a8b729880c01c4d40e
+ms.openlocfilehash: f07b5174d031c79f4d8f232c49836b54d95621f1
+ms.sourcegitcommit: 7fb0b68203877ff01f29724f0d1761d023075445
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 07/23/2018
-ms.locfileid: "39210289"
+ms.lasthandoff: 07/26/2018
+ms.locfileid: "39256037"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Ułatwienia dostępu w raportach programu Power BI Desktop
 Usługa Power BI zawiera funkcje, które umożliwiają osobom niepełnosprawnym łatwiejsze korzystanie z raportów usługi Power BI. Te funkcje obejmują możliwość korzystania z raportu za pomocą klawiatury lub czytnika ekranu, używania klawisza TAB do przenoszenia fokusu na różne obiekty na stronie oraz celowe używanie znaczników w wizualizacjach.
@@ -40,6 +40,8 @@ Możesz przełączać fokus między kartami stron raportu lub obiektami na dowol
 * Gdy fokus jest ustawiony na załadowaną *stronę raportu*, użyj klawisza *Tab*, aby przenieść fokus na kolejne obiekty na stronie, w tym pola tekstowe, obrazy, kształty lub wykresy. Czytnik zawartości ekranu odczytuje typ obiektu, tytuł obiektu (jeśli obiekt ma tytuł) oraz opis obiektu (jeśli został on podany przez autora raportu). 
 
 Podczas nawigowania między wizualizacjami, jeśli chcesz wejść w głębszą interakcję, możesz nacisnąć klawisze **Alt+Shift+F10**, aby przenieść fokus na nagłówek wizualizacji, który zawiera różne opcje, w tym sortowanie, eksportowanie danych, na których oparto wykres, i tryb koncentracji uwagi. 
+
+![Naciśnij klawisze Alt+Shift+F10 w programie Power BI Desktop, aby przenieść fokus na nagłówek wizualizacji](media/desktop-accessibility/accessibility_08.png)
 
 Naciskając klawisze **Alt+Shift+F11**, możesz wyświetlić dostępną wersję okna *Pokaż dane*. Umożliwi to eksplorowanie danych używanych w wizualizacji w formie tabeli HTML przy użyciu tych samych skrótów klawiaturowych, których normalnie używasz w swoim czytniku zawartości ekranu. 
 

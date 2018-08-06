@@ -9,11 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: 828c5e8afc28b496b1920468097ce629fe646e37
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 2ea6f2e557f26358ab6a93d33c890e90c96885f4
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34564655"
 ---
 # <a name="how-to-find-your-report-server-product-key"></a>Jak znaleźć klucz produktu serwera raportów
 Dowiedz się, jak znaleźć klucz produktu serwera raportów usługi Power BI, aby zainstalować serwer w środowisku produkcyjnym.
@@ -33,7 +34,7 @@ Wybranie pozycji **Klucz serwera raportów usługi Power BI** spowoduje wyświet
 
 ![Klucz produktu serwera raportów usługi Power BI](media/find-product-key/pbirs-product-key-dialog.png)
 
-## <a name="purchased-software-assurance-agreeemnt"></a>Zakupiona umowa Software Assurance
+## <a name="purchased-software-assurance-agreement"></a>Zakupiona umowa Software Assurance
 Jeśli masz licencję programu SQL Server Enterprise z programem SA, możesz uzyskać kod produktu w witrynie [Volume Licensing Service Center](https://www.microsoft.com/Licensing/servicecenter/). Sprawdź w obszarze najnowszego dodatku service pack, aby uzyskać najnowszą wersję programu SQL Server. Jeśli nie widzisz jej tam, sprawdź w obszarze wydania RTM najnowszej wersji programu SQL Server.
 
 > [!NOTE]

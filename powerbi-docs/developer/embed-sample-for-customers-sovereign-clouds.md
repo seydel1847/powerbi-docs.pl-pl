@@ -2,24 +2,26 @@
 title: Osadzanie zawartości usługi Power BI w aplikacji dla klientów w suwerennych chmurach
 description: Dowiedz się, jak integrować lub osadzać pulpit nawigacyjny, kafelek lub raport w aplikacji internetowej przy użyciu interfejsów API usługi Power BI dla klientów.
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
-ms.topic: conceptual
-ms.date: 03/28/2018
-ms.author: maghan
-ms.openlocfilehash: ebbb004fe79bbae942243bc227e1c09fd51fa75f
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.topic: tutorial
+ms.date: 07/26/2018
+ms.openlocfilehash: 2d722428ce2029ef4689e6b4bf5dfcdd208baff8
+ms.sourcegitcommit: 7fb0b68203877ff01f29724f0d1761d023075445
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "34813715"
+ms.lasthandoff: 07/26/2018
+ms.locfileid: "39255876"
 ---
-# <a name="embed-a-power-bi-dashboard-tile-or-report-into-your-application-for-sovereign-clouds"></a>Osadzanie pulpitu nawigacyjnego, kafelka lub raportu usługi Power BI w aplikacji dla suwerennych chmur
+# <a name="tutorial-embed-a-power-bi-dashboard-tile-or-report-into-your-application-for-sovereign-clouds"></a>Samouczek: Osadzanie pulpitu nawigacyjnego, kafelka lub raportu usługi Power BI w aplikacji dla suwerennych chmur
 Dowiedz się, jak integrować lub osadzać pulpit nawigacyjny, kafelek albo raport w aplikacji internetowej przy użyciu zestawu .NET SDK usługi Power BI wraz z interfejsem API języka JavaScript programu Power BI podczas osadzania dla klientów. Jest to zwykle scenariusz niezależnego dostawcy oprogramowania.
 
-Usługa Power BI obsługuje również suwerenne (prywatne) chmury. Każda suwerenna chmura ma własną przynależność. Suwerenne chmury to:
+Usługa Power BI obsługuje również suwerenne (prywatne) chmury.
+
+Suwerenne chmury to:
 
 * U.S. Government Community Cloud (GCC)
 
@@ -29,9 +31,11 @@ Usługa Power BI obsługuje również suwerenne (prywatne) chmury. Każda suwere
 
 * Power BI for Germany Cloud
 
+* Power BI for China Cloud
+
 ![Osadzony pulpit nawigacyjny](media/embed-sample-for-customers/powerbi-embed-dashboard.png)
 
-Do rozpoczęcia pracy z tym przewodnikiem jest wymagane **konto usługi Power BI**. Jeśli nie masz skonfigurowanego konta, w zależności od typu instytucji rządowych możesz [utworzyć nowe konto usługi Power BI dla instytucji rządowej USA](../service-govus-signup.md) lub [konto usługi Power BI for Germany Cloud](https://powerbi.microsoft.com/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1).
+Do rozpoczęcia pracy z tym przewodnikiem jest wymagane **konto usługi Power BI**. Jeśli nie masz skonfigurowanego konta, w zależności od typu suwerennej chmury możesz [utworzyć nowe konto usługi Power BI dla instytucji rządowej USA](../service-govus-signup.md), [konto usługi Power BI for Germany Cloud](https://powerbi.microsoft.com/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1) lub [konto usługi Power BI for China Cloud](http://www.21vbluecloud.com/powerbi/).
 
 > [!NOTE]
 > Chcesz osadzić pulpit nawigacyjny dla swojej organizacji? Zobacz [Integrate a dashboard into an app for your organization (Integrowanie pulpitu nawigacyjnego z aplikacją dla organizacji)](integrate-dashboard.md).
@@ -49,11 +53,8 @@ W tym artykule przedstawiono kod używany w [przykładzie osadzania na potrzeby 
 
 ```xml
 <add key="authorityUrl" value="https://login.windows.net/common/oauth2/authorize/" />
-
 <add key="resourceUrl" value="https://analysis.usgovcloudapi.net/powerbi/api" />
-
 <add key="apiUrl" value="https://api.powerbigov.us/" />
-
 <add key="embedUrlBase" value="https://app.powerbigov.us" />
 ```
 
@@ -64,11 +65,8 @@ W tym artykule przedstawiono kod używany w [przykładzie osadzania na potrzeby 
 
 ```xml
 <add key="authorityUrl" value="https://login.windows.net/common/oauth2/authorize/" />
-
 <add key="resourceUrl" value="https://high.analysis.usgovcloudapi.net/powerbi/api" />
-
 <add key="apiUrl" value="https://api.high.powerbigov.us/" />
-
 <add key="embedUrlBase" value="https://app.high.powerbigov.us" />
 ```
 
@@ -79,11 +77,8 @@ W tym artykule przedstawiono kod używany w [przykładzie osadzania na potrzeby 
 
 ```xml
 <add key="authorityUrl" value="https://login.windows.net/common/oauth2/authorize/" />
-
 <add key="resourceUrl" value="https://mil.analysis.usgovcloudapi.net/powerbi/api" />
-
 <add key="apiUrl" value="https://api.mil.powerbigov.us/" />
-
 <add key="embedUrlBase" value="https://app.mil.powerbigov.us" />
 ```
 
@@ -94,16 +89,25 @@ W tym artykule przedstawiono kod używany w [przykładzie osadzania na potrzeby 
 
 ```xml
 <add key="authorityUrl" value=https://login.microsoftonline.de/common/oauth2/authorize/" />
-
 <add key="resourceUrl" value="https://analysis.cloudapi.de/powerbi/api" />
-
 <add key="apiUrl" value="https://api.powerbi.de/" />
-
 <add key="embedUrlBase" value="https://app.powerbi.de" />
 ```
 
+* Parametry usługi Power BI for China Cloud
+    1. Zastąp plik Cloud.config zawartością usługi [Power BI for China Cloud](https://github.com/Microsoft/PowerBI-Developer-Samples/blob/master/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData/CloudConfigs/Power%20BI%20operated%20by%2021Vianet%20in%20China/Cloud.config).
+    2. Zaktualizuj elementy clientid (identyfikator klienta aplikacji natywnej), groupid, user (użytkownik główny) i password w pliku Web.config.
+    3. Dodaj parametry usługi Power BI for China Cloud do pliku web.config w następujący sposób.
+
+```xml
+<add key="authorityUrl" value=https://login.chinacloudapi.cn/common/oauth2/authorize/" />
+<add key="resourceUrl" value="https://analysis.chinacloudapi.cn/powerbi/api" />
+<add key="apiUrl" value="https://api.powerbi.cn/" />
+<add key="embedUrlBase" value="https://app.powerbi.cn" />
+```
+
 ## <a name="step-1---register-an-app-in-azure-ad"></a>Krok 1. Rejestrowanie aplikacji w usłudze Azure AD
-Musisz zarejestrować aplikację w usłudze Azure AD, aby móc wywoływać interfejs API REST. Aby uzyskać więcej informacji, zobacz [Rejestrowanie aplikacji usługi Azure AD, aby osadzić zawartość usługi Power BI](register-app.md). Ze względu na to, że istnieją różne przynależności suwerennych chmur, do rejestrowania aplikacji są używane oddzielne adresy URL.
+Aplikację należy zarejestrować w usłudze Azure AD, aby móc wykonywać wywołania interfejsu API REST. Aby uzyskać więcej informacji, zobacz [Rejestrowanie aplikacji usługi Azure AD, aby osadzić zawartość usługi Power BI](register-app.md). Ze względu na to, że istnieją różne przynależności suwerennych chmur, do rejestrowania aplikacji są używane oddzielne adresy URL.
 
 * Government Community Cloud (GCC) — https://app.powerbigov.us/apps 
 
@@ -113,11 +117,13 @@ Musisz zarejestrować aplikację w usłudze Azure AD, aby móc wywoływać inter
 
 * Power BI for Germany Cloud — https://app.powerbi.de/apps
 
-Jeśli pobrano [przykład osadzania na potrzeby klienta](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data), użyj **identyfikatora klienta** otrzymanego po zarejestrowaniu, aby przykład mógł uwierzytelnić się w usłudze Azure AD. Aby skonfigurować próbkę, zmień parametr **clientId** w pliku *web.config*.
+* Power BI for China Cloud — https://app.powerbi.cn/apps
+
+Jeśli pobrano [przykład osadzania na potrzeby klienta](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data), użyj **identyfikatora klienta** otrzymanego po zarejestrowaniu, aby możliwe było uwierzytelnienie przykładu w usłudze Azure AD. Aby skonfigurować próbkę, zmień parametr **clientId** w pliku *web.config*.
 
 
 ## <a name="step-2---get-an-access-token-from-azure-ad"></a>Krok 2. Uzyskiwanie tokenu dostępu z usługi Azure AD
-W aplikacji należy najpierw uzyskać **token dostępu** z usługi Azure AD, aby móc wykonywać wywołania interfejsu API REST usługi Power BI. Aby uzyskać więcej informacji, zobacz [Uwierzytelnianie użytkowników i uzyskiwanie tokenów dostępu usługi Azure AD dla aplikacji usługi Power BI](get-azuread-access-token.md). Ze względu na to, że istnieją różne przynależności suwerennych chmur, do uzyskiwania dostępu do tokenu aplikacji są używane oddzielne adresy URL.
+W aplikacji należy uzyskać **token dostępu** z usługi Azure AD, aby móc wykonywać wywołania interfejsu API REST usługi Power BI. Aby uzyskać więcej informacji, zobacz [Uwierzytelnianie użytkowników i uzyskiwanie tokenów dostępu usługi Azure AD dla aplikacji usługi Power BI](get-azuread-access-token.md). Ze względu na to, że istnieją różne przynależności suwerennych chmur, do uzyskiwania dostępu do tokenu aplikacji są używane oddzielne adresy URL.
 
 * Government Community Cloud (GCC) — https://login.microsoftonline.com
 
@@ -127,10 +133,12 @@ W aplikacji należy najpierw uzyskać **token dostępu** z usługi Azure AD, aby
 
 * Power BI for Germany Cloud — https://login.microsoftonline.de
 
+* Power BI for China Cloud — https://login.microsoftonline.cn
+
 Przykłady tego można zobaczyć w każdym zadaniu elementu zawartości w klasie **Controllers\HomeController.cs**.
 
 ## <a name="step-3---get-a-content-item"></a>Krok 3. Pobieranie elementu zawartości
-Aby osadzić zawartość usługi Power BI, należy wykonać kilka czynności w celu zapewnienia, że zostanie ona osadzona poprawnie. Wszystkie te kroki można wykonać bezpośrednio w interfejsie API REST, jednak przykładowa aplikacja i podane tutaj przykłady utworzono przy użyciu zestawu .NET SDK.
+Aby osadzić zawartość usługi Power BI, należy wykonać kilka czynności w celu zapewnienia, że zostanie ona osadzona poprawnie. Wszystkie te kroki można wykonać bezpośrednio w interfejsie API REST, jednak przykładowa aplikacja i podane tutaj przykłady korzystają z zestawu .NET SDK.
 
 ### <a name="create-the-power-bi-client-with-your-access-token"></a>Tworzenie klienta programu Power BI przy użyciu tokenu dostępu
 Token dostępu umożliwia utworzenie obiektu klienta usługi Power BI, który pozwoli na interakcję z interfejsami API usługi Power BI. Jest to realizowane przez opakowywanie tokenu AccessToken w obiekt *Microsoft.Rest.TokenCredentials*.
@@ -142,7 +150,7 @@ using Microsoft.PowerBI.Api.V2;
 
 var tokenCredentials = new TokenCredentials(authenticationResult.AccessToken, "Bearer");
 
-// Create a Power BI Client object. It will be used to call Power BI APIs.
+// Create a Power BI Client object. This is used to call the Power BI APIs.
 using (var client = new PowerBIClient(new Uri(ApiUrl), tokenCredentials))
 {
     // Your code to embed items.
@@ -160,7 +168,7 @@ Próbka jest dostępna w klasie **Controllers\HomeController.cs** [próbki danyc
 using Microsoft.PowerBI.Api.V2;
 using Microsoft.PowerBI.Api.V2.Models;
 
-// You will need to provide the GroupID where the dashboard resides.
+// You need to provide the GroupID where the dashboard resides.
 ODataResponseListDashboard dashboards = client.Dashboards.GetDashboardsInGroup(GroupId);
 
 // Get the first report in the group.
@@ -175,7 +183,7 @@ using Microsoft.PowerBI.Api.V2.Models;
 
 // To retrieve the tile, you first need to retrieve the dashboard.
 
-// You will need to provide the GroupID where the dashboard resides.
+// You need to provide the GroupID where the dashboard resides.
 ODataResponseListDashboard dashboards = client.Dashboards.GetDashboardsInGroup(GroupId);
 
 // Get the first report in the group.
@@ -194,7 +202,7 @@ Tile tile = tiles.Value.FirstOrDefault();
 using Microsoft.PowerBI.Api.V2;
 using Microsoft.PowerBI.Api.V2.Models;
 
-// You will need to provide the GroupID where the dashboard resides.
+// You need to provide the GroupID where the dashboard resides.
 ODataResponseListReport reports = client.Reports.GetReportsInGroupAsync(GroupId);
 
 // Get the first report in the group.
@@ -202,10 +210,10 @@ Report report = reports.Value.FirstOrDefault();
 ```
 
 ### <a name="create-the-embed-token"></a>Tworzenie tokenu osadzania
-Należy wygenerować token osadzania, którego można używać z poziomu interfejsu API języka JavaScript. Token osadzania będzie specyficzny dla osadzanego elementu. Oznacza to, że za każdym razem, gdy osadzasz fragment zawartości usługi Power BI, musisz utworzyć dla niego nowy token. Aby uzyskać więcej informacji, łącznie z tym, którego parametru **accessLevel** używać, zobacz [Token osadzania](https://docs.microsoft.com/rest/api/power-bi/embedtoken).
+Należy wygenerować token osadzania, którego można używać z poziomu interfejsu API języka JavaScript. Token osadzania jest specyficzny dla osadzanego elementu. Oznacza to, że za każdym razem, gdy osadzasz fragment zawartości usługi Power BI, musisz utworzyć dla niego nowy token. Aby uzyskać więcej informacji, łącznie z tym, którego parametru **accessLevel** używać, zobacz [Token osadzania](https://docs.microsoft.com/rest/api/power-bi/embedtoken).
 
 > [!IMPORTANT]
-> Ponieważ tokeny osadzania są przeznaczone tylko do celów testowania podczas programowania, liczba tokenów osadzania, które może wygenerować konto główne usługi Power BI, jest ograniczona. Dla scenariuszy osadzania w środowisku produkcyjnym [należy kupić pojemność](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical). Nie ma żadnego ograniczenia generowania tokenów osadzania, gdy zostanie kupiona pojemność.
+> Ponieważ tokeny osadzania są przeznaczone tylko do celów testowania przez deweloperów, liczba tokenów osadzania, które może wygenerować konto główne usługi Power BI, jest ograniczona. Dla scenariuszy osadzania w środowisku produkcyjnym [należy kupić pojemność](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical). Nie ma żadnego ograniczenia generowania tokenów osadzania, gdy zostanie kupiona pojemność.
 
 Próbka jest dostępna w klasie **Controllers\HomeController.cs** [próbki osadzania dla organizacji](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data).
 

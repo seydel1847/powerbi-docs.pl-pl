@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/17/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 6ac85bcaba34f705b0f21efc86ed1583e69c8c2c
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 6cd1616dab92eb8709c5e89966259be591e4ede3
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34721069"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280667"
 ---
 # <a name="create-reports-optimized-for-the-power-bi-phone-apps"></a>Tworzenie raportów zoptymalizowanych pod kątem aplikacji Power BI na telefony
 Podczas [tworzenia raportu w programie Power BI Desktop](desktop-report-view.md) można ulepszyć korzystanie z niego w aplikacjach mobilnych na telefony przez utworzenie wersji raportu przystosowanej specjalnie do telefonów. Zmieniając rozmieszczenie i rozmiar — chociaż może nie wszystkich — wizualizacji, można przystosować raport do telefonu i zoptymalizować sposób używania go. Ponadto można tworzyć [*dynamiczne* wizualizacje](#optimize-a-visual-for-any-size) i [dynamiczne fragmentatory](#enhance-slicers-to-to-work-well-in-phone-reports), które dostosowują swój rozmiar, gdy są wyświetlane w telefonie. Oprócz tego po dodaniu filtrów do raportu filtry te będą automatycznie wyświetlane w raporcie na telefon. Czytelnicy raportu mogą je widzieć i filtrować raport za ich pomocą.
@@ -72,7 +72,7 @@ Włączenie lub wyłączenie elastyczności każdej wizualizacji zależy od uży
   
    ![Usuwanie wizualizacji](media/desktop-create-phone-report/desktop-create-phone-report-7.gif)
 
-## <a name="enhance-slicers-to-to-work-well-in-phone-reports"></a>Ulepszanie fragmentatorów w celu zapewnienia ich prawidłowego działania w raportach na telefon
+## <a name="enhance-slicers-to-work-well-in-phone-reports"></a>Ulepszanie fragmentatorów w celu zapewnienia ich prawidłowego działania w raportach na telefon
 Fragmentatory oferują filtrowanie danych raportu na kanwie. Podczas projektowania fragmentatorów w zwykłym trybie tworzenia raportów można zmodyfikować niektóre ustawienia fragmentatorów, aby były bardziej użyteczne w raportach na telefon:
 
 * Zdecyduj, czy czytelnicy raportu mogą wybierać tylko jeden czy więcej niż jeden element.
