@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: a8833cb6b41ea76d50814975ada6239690a0c196
-ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
+ms.openlocfilehash: 781e34eadfccb89954c0a8548589e1bf89830079
+ms.sourcegitcommit: fecea174721d0eb4e1927c1116d2604a822e4090
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38877423"
+ms.lasthandoff: 07/31/2018
+ms.locfileid: "39359759"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-customers"></a>Samouczek: osadzanie raportu, pulpitu nawigacyjnego lub kafelka usługi Power BI w aplikacji dla klientów
 Usługa **Power BI Embedded na platformie Azure** umożliwia osadzanie raportów, pulpitów nawigacyjnych lub kafelków w aplikacji przy użyciu struktury **app owns data** (aplikacja jest właścicielem danych). Struktura **app owns data** dotyczy posiadania aplikacji, która używa usługi Power BI jako osadzonej platformy do analizy. Jest to zazwyczaj scenariusz obejmujący **dewelopera ISV**. Jako **developer ISV** możesz tworzyć zawartość usługi Power BI służącą do wyświetlania raportów, pulpitów nawigacyjnych lub kafelków w aplikacji, która jest w pełni zintegrowana i interaktywna — użytkownicy aplikacji nie muszą posiadać licencji usługi Power BI ani nawet wiedzieć, że praca opiera się na usłudze Power BI. W tym samouczku przedstawiono sposób integrowania raportu w aplikacji przy użyciu zestawu .NET SDK usługi **Power BI** z interfejsem API języka JavaScript usługi **Power BI** w przypadku używania usługi **Power BI Embedded na platformie Azure**  dla klientów korzystających ze struktury **app owns data**.
@@ -323,13 +323,28 @@ Aby uzyskać pełen przykład użycia interfejsu API języka JavaScript, można 
 Tworzenie aplikacji zakończyło się i należy teraz zapewnić dedykowaną pojemność w obszarze roboczym aplikacji. Pojemność dedykowana jest wymagana do przejścia do środowiska produkcyjnego.
 
 ### <a name="create-a-dedicated-capacity"></a>Tworzenie pojemności dedykowanej
-Utworzenie pojemności dedykowanej pozwala klientowi skorzystać z zalet zasobu dedykowanego. Obszary robocze nieprzypisane do pojemności dedykowanej muszą znaleźć się w pojemności udostępnionej. Pojemność dedykowaną można utworzyć za pomocą rozwiązania [pojemności dedykowanej usługi Power BI Embedded](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity) na platformie Azure.
+Utworzenie pojemności dedykowanej pozwala klientowi skorzystać z zalet zasobu dedykowanego. Możesz kupić dedykowaną pojemność w witrynie [Microsoft Azure Portal](https://portal.azure.com). Aby uzyskać więcej informacji na temat tworzenia pojemności osadzonej usługi Power BI Embedded, zobacz artykuł [Create Power BI Embedded capacity in the Azure portal](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity) (Tworzenie pojemności osadzonej usługi Power BI Embedded w witrynie Azure Portal).
+
+Określ na podstawie poniższej tabeli, jaka pojemność usługi Power BI Embedded najlepiej odpowiada Twoim wymaganiom.
+
+| Węzeł pojemności | Całkowita liczba rdzeni<br/>*(Wewnętrzna baza danych + fronton)* | Rdzenie wewnętrznej bazy danych | Rdzenie frontonu | Limity zapytania bezpośredniego/połączenia na żywo | Maksymalne renderowanie strony w godzinie szczytu |
+| --- | --- | --- | --- | --- | --- |
+| A1 |1 rdzeń wirtualny |0,5 rdzenia, 3 GB pamięci RAM |0,5 rdzenia | 5 na sekundę |1–300 |
+| A2 |2 rdzenie wirtualne |1 rdzeń, 5 GB pamięci RAM |1 rdzeń | 10 na sekundę |301–600 |
+| A3 |4 rdzenie wirtualne |2 rdzenie, 10 GB pamięci RAM |2 rdzenie | 15 na sekundę |601–1200 |
+| A4 |8 rdzeni wirtualnych |4 rdzenie, 25 GB pamięci RAM |4 rdzenie |30 na sekundę |1201–2400 |
+| A5 |16 rdzeni wirtualnych |8 rdzeni, 50 GB pamięci RAM |8 rdzeni |60 na sekundę |2401–4800 |
+| A6 |32 rdzenie wirtualne |16 rdzeni, 100 GB pamięci RAM |16 rdzeni |120 na sekundę |4801–9600 |
+
+**_Podobnie jak w przypadku jednostek SKU A, nie można uzyskiwać dostępu do zawartości usługi Power BI z użyciem BEZPŁATNEJ licencji usługi Power BI._**
 
 Użycie tokenów osadzania z licencjami PRO jest przeznaczone do celów testowania podczas programowania, więc liczba tokenów osadzania, które może wygenerować konto główne usługi Power BI, jest ograniczona. Aby umożliwić osadzanie w środowisku produkcyjnym, należy zakupić pojemność dedykowaną. Nie ma żadnego ograniczenia liczby generowanych tokenów osadzania za pomocą pojemności dedykowanej. Przejdź do sekcji [Available Features](https://docs.microsoft.com/rest/api/power-bi/availablefeatures/getavailablefeatures) (Dostępne funkcje), aby sprawdzić wartość użycia, która wskazuje bieżące użycie osadzania w procentach. Wielkość użycia opera się na koncie głównym.
 
+Więcej informacji można znaleźć w [oficjalnym dokumencie dotyczącym planowania pojemności na potrzeby osadzonej analizy](https://aka.ms/pbiewhitepaper).
+
 ### <a name="assign-an-app-workspace-to-a-dedicated-capacity"></a>Przypisywanie obszaru roboczego aplikacji do pojemności dedykowanej
 
-Po utworzeniu pojemności dedykowanej przypisz do niej obszar roboczy aplikacji. Aby zakończyć ten proces, wykonaj następujące kroki.
+Po utworzeniu pojemności dedykowanej możesz do niej przypisać obszar roboczy aplikacji. Aby zakończyć ten proces, wykonaj następujące kroki.
 
 1. W ramach **usługi Power BI** rozwiń obszary robocze i wybierz przycisk wielokropka dla obszaru roboczego, za pomocą którego osadzasz zawartość. Następnie wybierz pozycję **Edytuj obszary robocze**.
 
@@ -339,6 +354,14 @@ Po utworzeniu pojemności dedykowanej przypisz do niej obszar roboczy aplikacji.
 
     ![Przypisywanie pojemności dedykowanej](media/embed-sample-for-customers/embed-sample-for-customers-024.png)
 
-Jeśli masz dalsze pytania dotyczące usługi Power BI Embedded, odwiedź stronę [często zadawanych pytań](embedded-faq.md).  Jeśli masz problemy z usługą Power BI Embedded w aplikacji, odwiedź stronę [rozwiązywania problemów](embedded-troubleshoot.md).
+3. Po wybraniu pozycji **Zapisz** obok nazwy obszaru roboczego aplikacji powinna zostać wyświetlona ikona **diamentu**.
+
+    ![obszar roboczy aplikacji powiązany z pojemnością](media/embed-sample-for-customers/embed-sample-for-customers-037.png)
+
+## <a name="next-steps"></a>Następne kroki
+W tym samouczku objaśniono osadzanie zawartości usługi Power BI w aplikacji dla klientów. Zawartość usługi Power BI możesz również spróbować osadzić dla swojej organizacji.
+
+> [!div class="nextstepaction"]
+>[Osadź dla swojej organizacji](embed-sample-for-your-organization.md)
 
 Masz więcej pytań? [Zadaj pytanie społeczności usługi Power BI](http://community.powerbi.com/)

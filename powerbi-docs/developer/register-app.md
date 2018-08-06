@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 05/31/2018
+ms.date: 07/31/2018
 ms.author: maghan
-ms.openlocfilehash: 4242e2a88ab930c5f647bbfa4aa97fea1dc313ad
-ms.sourcegitcommit: 3a287ae4ab16d1e76caed651bd8ae1a1738831cd
+ms.openlocfilehash: 06e7c27579f559928dab822a7e0323cfb4abc1a1
+ms.sourcegitcommit: 06f59902105c93700e71e913dff8453e221e4f82
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 07/19/2018
-ms.locfileid: "39157130"
+ms.lasthandoff: 08/01/2018
+ms.locfileid: "39388599"
 ---
 # <a name="register-an-azure-ad-app-to-embed-power-bi-content"></a>Rejestrowanie aplikacji usługi Azure AD, aby osadzić zawartość usługi Power BI
 Dowiedz się, jak zarejestrować aplikację w usłudze Azure Active Directory (Azure AD), a następnie użyć jej w celu osadzenia zawartości usługi Power BI.
@@ -24,10 +24,10 @@ Aplikację można zarejestrować w usłudze Azure AD, aby zapewnić aplikacji do
 > [!IMPORTANT]
 > Do zarejestrowania aplikacji usługi Power BI potrzebna jest [dzierżawa i konto użytkownika organizacyjnego usługi Azure Active Directory](create-an-azure-active-directory-tenant.md). Jeśli nie zarejestrujesz się w usłudze Power BI, korzystając z konta użytkownika z Twojej dzierżawy, rejestracja aplikacji nie zakończy się pomyślnie.
 
-Istnieją dwa sposoby rejestrowania aplikacji. Pierwszy sposób obejmuje użycie [narzędzia rejestrowania aplikacji usługi Power BI](https://dev.powerbi.com/apps/), a drugi polega na dokonaniu rejestracji bezpośrednio w witrynie Azure Portal. Narzędzie rejestrowania aplikacji usługi Power BI to opcja najłatwiejsza, ponieważ wystarczy wypełnić tylko kilka pól. Jeśli chcesz wprowadzić zmiany w aplikacji, użyj witryny Azure Portal.
+Istnieją dwa sposoby rejestrowania aplikacji. Pierwszy sposób obejmuje użycie [narzędzia do rejestrowania aplikacji usługi Power BI](https://dev.powerbi.com/apps/), a drugi polega na dokonaniu rejestracji bezpośrednio w witrynie Azure Portal. Narzędzie rejestrowania aplikacji usługi Power BI to opcja najłatwiejsza, ponieważ wystarczy wypełnić tylko kilka pól. Jeśli chcesz wprowadzić zmiany w aplikacji, użyj witryny Azure Portal.
 
 ## <a name="register-with-the-power-bi-app-registration-tool"></a>Rejestracja za pomocą narzędzia rejestrowania aplikacji usługi Power BI
-Aplikację należy zarejestrować w usłudze **Azure Active Directory**, aby ustanowić dla niej tożsamość i określić uprawnienia do zasobów REST usługi Power BI. Gdy rejestrujesz aplikację, np. aplikację konsolową lub witrynę internetową, otrzymujesz identyfikator, którym aplikacja posługuje się, aby się identyfikować dla użytkowników, od których aplikacja żąda uprawnień.
+Aplikację należy zarejestrować w usłudze **Azure Active Directory**, aby ustanowić dla niej tożsamość i określić uprawnienia do zasobów REST usługi Power BI. Gdy rejestrujesz aplikację (np. aplikację konsolową lub witrynę internetową), otrzymujesz identyfikator, którego aplikacja używa do identyfikowania się dla użytkowników żądających uprawnień.
 
 Oto sposób rejestrowania aplikacji za pomocą narzędzia rejestrowania aplikacji usługi Power BI:
 
@@ -36,7 +36,7 @@ Oto sposób rejestrowania aplikacji za pomocą narzędzia rejestrowania aplikacj
 3. Podaj nazwę w polu **Nazwa aplikacji**.
 4. Wybór w polu Typ aplikacji zależy od typu używanej aplikacji.
    
-   * W przypadku aplikacji, które działają na urządzeniach klienckich, wybierz typ **Aplikacja natywna**. Typ **Aplikacja natywna** należy wybrać także w przypadku osadzania zawartości dla klientów — bez względu na to, jaka jest rzeczywista aplikacja. Dotyczy to nawet aplikacji internetowych.
+   * W przypadku aplikacji, które działają na urządzeniach klienckich, wybierz typ **Aplikacja natywna**. Typ **Aplikacja natywna** należy wybrać w przypadku osadzania zawartości dla klientów — bez względu na rodzaj aplikacji (nawet dla aplikacji internetowych).
    * W przypadku aplikacji internetowych lub internetowych interfejsów API wybierz typ **Aplikacja internetowa po stronie serwera**.
 
 5. Wprowadź **Adres URL przekierowania** i **Adres URL strony głównej**. **Adres URL przekierowania** działa z dowolnym prawidłowym adresem URL.
@@ -80,8 +80,8 @@ Drugą opcją rejestracji aplikacji jest dokonanie rejestracji bezpośrednio w w
     ![](media/register-app/azuread-new-app-registration.png)
 5. Postępuj zgodnie z monitami i utwórz nową aplikację.
    
-   * W przypadku aplikacji internetowych podaj adres URL logowania, czyli podstawowy adres URL Twojej aplikacji, pod którym użytkownicy mogą się logować, np. `http://localhost:13526`.
-   * W przypadku aplikacji natywnych podaj Identyfikator **URI przekierowania**, którego usługa Azure AD używa do zwracania odpowiedzi tokenu. Wprowadź wartość specyficzną dla Twojej aplikacji, np. `http://myapplication/Redirect`
+   * W przypadku aplikacji internetowych podaj adres URL logowania, czyli podstawowy adres URL Twojej aplikacji, pod którym użytkownicy mogą się logować, na przykład `http://localhost:13526`.
+   * W przypadku aplikacji natywnych podaj Identyfikator **URI przekierowania**, którego usługa Azure AD używa do zwracania odpowiedzi tokenu. Wprowadź wartość specyficzną dla Twojej aplikacji, na przykład `http://myapplication/Redirect`.
 
 Więcej informacji o sposobie rejestrowania aplikacji w usłudze Azure Active Directory zawiera temat [Integrowanie aplikacji z usługą Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications)
 
@@ -93,7 +93,7 @@ Oto jak uzyskać identyfikator klienta:
 1. Zaloguj się w witrynie [Azure Portal](https://portal.azure.com).
 2. Wybierz dzierżawę usługi Azure AD, wybierając swoje konto w prawym górnym rogu strony.
 3. W okienku nawigacji po lewej stronie wybierz pozycję **Więcej usług** i pozycję **Rejestracje aplikacji**.
-4. Wybierz aplikację, dla której chcesz uzyskać identyfikator klienta.
+4. Wybierz aplikację, dla której chcesz uzyskać identyfikator klienta do użycia.
 5. Zobaczysz **Identyfikator aplikacji**, który będzie widoczny jako identyfikator GUID. To jest identyfikator klienta dla tej aplikacji.
    
     ![Identyfikator klienta na liście jako identyfikator aplikacji w rejestracji aplikacji](media/register-app/powerbi-embedded-app-registration-client-id.png)
@@ -160,19 +160,25 @@ Musisz się zalogować na *konto główne* używane do osadzania albo na konto a
     
      Wykonanie akcji *Udziel uprawnień* jest konieczne, aby usługa Azure AD nie wysyłała do konta głównego monitów o wyrażenie zgody, co nie jest możliwe w przypadku logowania nieinterakcyjnego.
    
-     ```
+     ```json
      Post https://graph.microsoft.com/beta/OAuth2PermissionGrants
      Authorization: Bearer ey..qw
      Content-Type: application/json
      { 
      "clientId":"{Service_Plan_ID}",
      "consentType":"AllPrincipals",
-     "resourceId":"c78b2585-1df6-41de-95f7-dc5aeb7dc98e",
+     "resourceId":"c78a3685-1ce7-52cd-95f7-dc5aea8ec98e",
      "scope":"Dataset.ReadWrite.All Dashboard.Read.All Report.Read.All Group.Read Group.Read.All Content.Create Metadata.View_Any Dataset.Read.All Data.Alter_Any",
      "expiryTime":"2018-03-29T14:35:32.4943409+03:00",
      "startTime":"2017-03-29T14:35:32.4933413+03:00"
      }
      ```
+    Wartość **resourceId** *c78a3685-1ce7-52cd-95f7-dc5aea8ec98e* nie jest uniwersalna, lecz zależna od dzierżawy. Jest to wartość objectId aplikacji „Usługa Power BI” w dzierżawie usługi AAD.
+
+    Użytkownik może szybko uzyskać tę wartość w witrynie Azure Portal:
+    1. https://portal.azure.com/#blade/Microsoft_AAD_IAM/StartboardApplicationsMenuBlade/AllApps
+    2. należy wyszukać ciąg „Usługa Power BI” w polu wyszukiwania
+
 5. Udzielanie uprawnień do aplikacji usłudze Azure Active Directory (AAD)
    
    Dla właściwości **consentType** można podać wartość **AllPrincipals** lub **Principal**.
@@ -182,7 +188,7 @@ Musisz się zalogować na *konto główne* używane do osadzania albo na konto a
     
    Wykonanie akcji *Udziel uprawnień* jest konieczne, aby usługa Azure AD nie wysyłała do konta głównego monitów o wyrażenie zgody, co nie jest możliwe w przypadku logowania nieinterakcyjnego.
 
-   ```
+   ```json
    Post https://graph.microsoft.com/beta/OAuth2PermissionGrants
    Authorization: Bearer ey..qw
    Content-Type: application/json
