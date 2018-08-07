@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 9366eff71e09b1f6c71c1f2519feb3d2392e3c58
-ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
+ms.openlocfilehash: 452226f8d5b8e0ca05fc4d9e81355c7a4c10e923
+ms.sourcegitcommit: d936a23f895ee6ef1420753342f5e6c055ea5e07
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37092649"
+ms.lasthandoff: 08/07/2018
+ms.locfileid: "39582643"
 ---
 # <a name="connect-to-acumatica-with-power-bi"></a>Nawiązywanie połączenia z systemem Acumatica przy użyciu usługi Power BI
 Pakiet zawartości Acumatica dla usługi Power BI umożliwia zyskanie szybkiego wglądu w dane zapewniające możliwości. Usługa Power BI pobiera dane, w tym możliwości, konta i klientów, a następnie tworzy domyślny pulpit nawigacyjny i powiązane raporty w oparciu o te dane.
@@ -37,7 +37,7 @@ Połącz się z [pakietem zawartości Acumatica](https://app.powerbi.com/getdata
    ![](media/service-connect-to-acumatica/acumatica.png)
 4. Wprowadź punkt końcowy Acumatica OData. Punkt końcowy OData pozwala zewnętrznemu systemowi na wysyłanie żądań dotyczących danych z systemu Acumatica. Punkt końcowy Acumatica OData jest sformatowany w następujący sposób i powinien używać protokołu HTTPS:
    
-     https://[domena_witryny]/odata/[nazwa_firmy]
+     `https://[sitedomain]/odata/[companyname]`
    
    Nazwa firmy jest wymagana tylko wtedy, gdy korzystasz z wdrożenia obejmującego wiele firm. Więcej informacji na temat odnajdywania tego parametru na koncie Acumatica znajduje się poniżej.
    

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/18/2018
 ms.author: v-mamcge
 LocalizationGroup: Reports
-ms.openlocfilehash: 58ae70553264b8055603da66a4cfd71b5c74a3e9
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: b3bb1e6d7d7ce5b3fdc050f5df10af9f61acac92
+ms.sourcegitcommit: d936a23f895ee6ef1420753342f5e6c055ea5e07
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "37598890"
+ms.lasthandoff: 08/07/2018
+ms.locfileid: "39582576"
 ---
 # <a name="power-bi-performance-best-practices"></a>Wydajność usługi Power BI — najlepsze rozwiązania 
 Ten artykuł zawiera wskazówki dotyczące tworzenia szybkich i niezawodnych raportów w usłudze Power BI.  
@@ -24,8 +24,8 @@ Ten artykuł zawiera wskazówki dotyczące tworzenia szybkich i niezawodnych rap
 
 Im więcej danych do wyświetlenia w wizualizacji, tym wolniej ta wizualizacja będzie ładowana. Mimo że ta zasada wydaje się oczywista, można o niej łatwo zapomnieć. Załóżmy na przykład, że masz duży zestaw danych. Na jego podstawie tworzysz raport z tabelą w tabeli. Użytkownicy końcowi stosują fragmentatory na stronie, aby uzyskać odpowiednie wiersze — na ogół interesuje ich tylko kilkadziesiąt z nich.
 
-Powszechnym błędem jest brak filtrowania widoku domyślnego i wyświetlanie na przykład ponad 100 milionów wierszy. Dane dla tych wierszy muszą być ładowane do pamięci i dekompresowane przy każdym odświeżeniu. Powoduje to ogromne obciążenia pamięci. Rozwiązanie: zmniejsz maksymalną liczbę elementów wyświetlanych w tabeli za pomocą filtru „N pierwszych”. Maksymalna liczba elementów może być dużo większa niż to, czego potrzebują użytkownicy, na przykład 10 000. W rezultacie z punktu widzenia użytkownika nic się nie zmieni, ale wykorzystanie pamięci przez raport zmniejszy się o wiele rzędów wielkości, a wydajność odpowiednio wzrośnie. 
- 
+Powszechnym błędem jest brak filtrowania widoku domyślnego i wyświetlanie na przykład ponad 100 milionów wierszy. Dane dla tych wierszy muszą być ładowane do pamięci i dekompresowane przy każdym odświeżeniu. Powoduje to ogromne obciążenia pamięci. Rozwiązanie: zmniejsz maksymalną liczbę elementów wyświetlanych w tabeli za pomocą filtru „N pierwszych”. Maksymalna liczba elementów może być dużo większa niż to, czego potrzebują użytkownicy, na przykład 10 000. W rezultacie z punktu widzenia użytkownika nic się nie zmieni, ale wykorzystanie pamięci przez raport zmniejszy się o wiele rzędów wielkości, a wydajność odpowiednio wzrośnie.
+
 Podejście podobne do powyższego jest zdecydowanie zalecane dla wszystkich wizualizacji w raportach. Zadaj sobie pytanie, czy wszystkie dane w tej wizualizacji są potrzebne? Czy istnieją sposoby na odfiltrowanie ilości danych pokazywanych w wizualizacji przy minimalnym wpływie na użytkownika końcowego? Pamiętaj, że tabele w szczególności mogą zużywać bardzo dużo zasobów. 
  
 ## <a name="limit-visuals-on-report-pages"></a>Ograniczanie wizualizacji na stronach raportu 

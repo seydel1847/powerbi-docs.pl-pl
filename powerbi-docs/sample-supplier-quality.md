@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/26/2018
+ms.date: 08/06/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 9bc549c2579b4ab8c399bacde7a915033fb2ae14
-ms.sourcegitcommit: db03649b8241bf34566968bbede8c9a0d35852fd
+ms.openlocfilehash: 3d89b34199decf6b27bda49bfac085688dd2e14b
+ms.sourcegitcommit: d936a23f895ee6ef1420753342f5e6c055ea5e07
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/28/2018
-ms.locfileid: "37067129"
+ms.lasthandoff: 08/07/2018
+ms.locfileid: "39582682"
 ---
 # <a name="supplier-quality-analysis-sample-for-power-bi-take-a-tour"></a>Próbka danych do analizy jakości dostawców dla usługi Power BI: krótki przewodnik
 
@@ -33,7 +33,7 @@ Są to prawdziwe dane pochodzące z firmy obviEnce ([www.obvience.com](http://ww
 
 ## <a name="prerequisites"></a>Wymagania wstępne
 
- Zanim będzie można korzystać z przykładu, trzeba go najpierw pobrać jako [pakiet zawartości](https://docs.microsoft.com/power-bi/sample-supplier-quality#get-the-content-pack-for-this-sample), [plik pbix](http://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier%20Quality%20Analysis%20Sample%20PBIX.pbix) lub [skoroszyt programu Excel](http://go.microsoft.com/fwlink/?LinkId=529779).
+ Zanim będzie można korzystać z przykładu, trzeba go najpierw pobrać jako [pakiet zawartości](https://docs.microsoft.com/power-bi/sample-supplier-quality#get-the-content-pack-for-this-sample), [plik pbix](http://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier-Quality-Analysis-Sample-PBIX.pbix) lub [skoroszyt programu Excel](http://go.microsoft.com/fwlink/?LinkId=529779).
 
 ### <a name="get-the-content-pack-for-this-sample"></a>Pobieranie pakietu zawartości dla tego przykładu
 
@@ -56,7 +56,7 @@ Są to prawdziwe dane pochodzące z firmy obviEnce ([www.obvience.com](http://ww
 
 Alternatywnie przykład możesz pobrać jako plik pbix, który został zaprojektowany do użycia w programie Power BI Desktop. 
 
- * [Przykład Supplier Quality Analysis — PBIX](http://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier%20Quality%20Analysis%20Sample%20PBIX.pbix)
+ * [Przykład Supplier Quality Analysis — PBIX](http://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier-Quality-Analysis-Sample-PBIX.pbix)
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Pobieranie skoroszytu programu Excel dla tego przykładu
 Możesz też [pobrać sam zestaw danych (skoroszyt programu Excel)](http://go.microsoft.com/fwlink/?LinkId=529779) omawiany w tym przykładzie. Skoroszyt zawiera arkusze programu Power View, które można wyświetlać i modyfikować. Aby wyświetlić nieprzetworzone dane, wybierz pozycje **Power Pivot > Zarządzaj**.
