@@ -1,4 +1,4 @@
-1. Rozpocznij od utworzenia obszaru roboczego. Wybierz pozycję **Obszary robocze** > **Utwórz obszar roboczy aplikacji**.
+1. Rozpocznij od utworzenia obszaru roboczego. Wybierz pozycję **Obszary robocze** > **Utwórz obszar roboczy aplikacji**. 
    
      ![Tworzenie obszaru roboczego aplikacji](media/powerbi-service-create-app-workspace/power-bi-create-app-workspace.png)
    

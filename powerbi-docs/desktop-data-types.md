@@ -10,12 +10,12 @@ ms.topic: reference
 ms.date: 05/21/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 14b5f3d4b571df8ae672ee9731ed97555c476abd
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 7c970cd28a50dc15a7b721107b17ceade24c3bb2
+ms.sourcegitcommit: 146b505b42f0d95d3ee73762441a43b6f3b3a891
 ms.translationtype: HT
 ms.contentlocale: pl-PL
 ms.lasthandoff: 08/02/2018
-ms.locfileid: "34456045"
+ms.locfileid: "39475757"
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Typy danych w programie Power BI Desktop
 W tym artykule opisano typy danych obsługiwane w programie Power BI Desktop i języku wyrażeń analizy danych (DAX, Data Analysis Expressions). 
@@ -45,6 +45,11 @@ Program Power BI Desktop obsługuje trzy typy liczbowe:
 **Stałoprzecinkowa liczba dziesiętna** — miejsce separatora dziesiętnego jest stałe. Z prawej strony separatora dziesiętnego zawsze znajdują się cztery cyfry, a liczba cyfr znaczących wynosi 19.  Największa wartość, którą można przedstawić za pomocą tego typu, to 922 337 203 685 477,5807 (dodatnia lub ujemna).  Typ Stałoprzecinkowa liczba dziesiętna jest przydatny w sytuacjach, w których zaokrąglanie może powodować błędy.  Dotyczy to przypadków obejmujących działania na wielu liczbach z małymi wartościami ułamkowymi, które czasami mogą się sumować, co wpływa na nieznaczną zmianę wyniku.  Użycie typu Stałoprzecinkowa liczba dziesiętna pomaga uniknąć takich błędów, ponieważ wartości znajdujące się za czterema cyframi dziesiętnymi są obcinane.   Osoby zaznajomione z programem SQL Server mogą wiedzieć, że ten typ danych odpowiada dziesiętnemu typowi danych w programie SQL Server (19,4) lub typowi danych walutowych w dodatku Power Pivot. 
 
 **Liczba całkowita** — reprezentuje 64-bitową (8-bajtową) wartość całkowitą. Jako liczba całkowita, nie ma ona cyfr dziesiętnych. Za pomocą 19 cyfr pozwala ona przedstawiać dodatnie lub ujemne liczby całkowite z przedziału od -9 223 372 036 854 775 808 (-2^63) do 9 223 372 036 854 775 807 (2^63-1).  Typ ten umożliwia reprezentację największych możliwych liczb różnych typów liczbowych.  Podobnie jak typ Stałoprzecinkowa liczba dziesiętna, typ Liczba całkowita może być przydatny w sytuacjach wymagających kontroli nad zaokrąglaniem. 
+
+> [!NOTE]
+>  Model danych programu Power BI Desktop obsługuje 64-bitowe wartości całkowite, ale największa liczba możliwa do wyrażenia przez wizualizacje to 9 007 199 254 740 991 (2 ^ 53 - 1) ze względu na ograniczenia języka JavaScript. Jeśli pracujesz w modelu danych z większymi liczbami, to przed dodaniem ich do wizualizacji możesz zmniejszyć rozmiar za pomocą obliczeń 
+> 
+>
 
 ### <a name="datetime-types"></a>Typy daty/godziny
 Program Power BI Desktop obsługuje pięć typów danych daty/godziny w widoku zapytań i trzy typy danych w modelu i widoku raportu.   Zarówno typ Data/godzina/strefa czasowa, jak i typ Czas trwania są konwertowane podczas ładowania do modelu.

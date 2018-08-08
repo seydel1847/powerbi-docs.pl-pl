@@ -9,19 +9,19 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/07/2018
 ms.author: maghan
-ms.openlocfilehash: ba8a0c6868e84cf9d675fff8f69a34b4befc9b61
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 3777d082d8e0d166abadd2ab89035d6895421f24
+ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34852215"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39415351"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>Korzystanie z uwierzytelniania OAuth w celu łączenia się z serwerem raportów usługi Power BI i serwerem SSRS
 Informacje o sposobie konfigurowania środowiska w celu zapewnienia obsługi uwierzytelniania OAuth za pomocą aplikacji mobilnej Power BI, aby umożliwić połączenie z serwerem raportów usługi Power BI i usługami SQL Server Reporting Services 2016 lub ich nowszą wersją.
 
 ![](media/mobile-oauth-ssrs/powerbi-mobile-oauth.png)
 
-Uwierzytelniania OAuth możesz używać do łączenia się z serwerem raportów usługi Power BI i usługami Reporting Services w celu wyświetlania raportów i kluczowych wskaźników wydajności dla urządzeń przenośnych. Program Windows Server 2016 zapewnia pewne ulepszenia roli serwera proxy aplikacji internetowych (WAP) w zakresie tego typu uwierzytelniania. Należy pamiętać, że ta konfiguracja nie obsługuje wyświetlania raportów usługi Power BI w aplikacjach mobilnych usługi Power BI. Można je jednak wyświetlić w przeglądarce na urządzeniu przenośnym. Aby wyświetlić raporty usługi Power BI w aplikacji mobilnej należy używać uwierzytelniania systemu Windows.
+Uwierzytelniania OAuth możesz używać do łączenia się z serwerem raportów usługi Power BI i usługami Reporting Services w celu wyświetlania raportów i kluczowych wskaźników wydajności dla urządzeń przenośnych. Program Windows Server 2016 zapewnia pewne ulepszenia roli serwera proxy aplikacji internetowych (WAP) w zakresie tego typu uwierzytelniania. Wyświetlanie raportów usługi Power BI hostowanych na serwerze raportów usługi Power BI przy użyciu serwera WAP w celu uwierzytelnienia nie jest obecnie oficjalnie obsługiwane.
 
 ## <a name="requirements"></a>Wymagania
 W przypadku serwerów proxy aplikacji internetowych (Web Application Proxy — WAP) i serwerów usług Active Directory Federation Services (ADFS) jest wymagany program Windows Server 2016. Nie jest konieczne posiadanie domeny na poziomie funkcjonalności programu Windows Server 2016.

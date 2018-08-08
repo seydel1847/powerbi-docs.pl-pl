@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 002c1c256a0d78601d112e4ee34326c0914f9ac1
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: d0449087715b1fac82276810397167d2a5de8f28
+ms.sourcegitcommit: 9c0f990ffb66256eb342af8528987bb108069af6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "37599694"
+ms.lasthandoff: 08/03/2018
+ms.locfileid: "39501413"
 ---
 # <a name="usage-metrics-for-dashboards-and-reports"></a>Metryki użycia pulpitów nawigacyjnych i raportów
 Jeśli tworzysz pulpity nawigacyjne i raporty, metryki użycia pomogą Ci określić ich oddziaływanie. Uruchamiając metryki użycia pulpitów nawigacyjnych lub raportów, możesz dowiedzieć się, w jaki sposób są one używane w organizacji: jaka zawartość jest używana, przez kogo i w jakim celu.  
@@ -150,7 +150,11 @@ Domyślnie dane na użytkownika są włączone dla metryki użycia, a informacje
 
 Wyłączając metryki użycia dla całej organizacji, administratorzy mogą skorzystać z opcji **Usuń całą istniejącą zawartość metryk użycia**, aby usunąć wszystkie istniejące raporty i kafelki pulpitów nawigacyjnych utworzone na podstawie raportów i zestawów danych metryk użycia. To uniemożliwi również dostęp do danych metryk użycia wszystkim użytkownikom w organizacji, którzy już z nich korzystali. Zachowaj ostrożność, ponieważ usunięcie istniejącej zawartości metryk użycia jest nieodwracalne.
 
-## <a name="considerations-and-limitations"></a>Istotne kwestie i ograniczenia
+## <a name="usage-metrics-in-national-clouds"></a>Metryki użycia w chmurach krajowych
+
+Usługa Power BI jest dostępna w osobnych chmurach krajowych. Te chmury zapewniają ten sam poziom bezpieczeństwa, prywatności, zgodności i przejrzystości co wersja globalna usługi Power BI, a także udostępniają unikatowy model na potrzeby przepisów lokalnych dotyczących świadczenia usług, przechowywania danych, dostępu i kontroli. Ze względu na ten unikatowy model dla przepisów lokalnych metryki użycia nie są dostępne w chmurach krajowych. Więcej informacji można znaleźć na stronie dotyczącej [chmur krajowych](https://powerbi.microsoft.com/en-us/clouds/).
+
+## <a name="considerations-and-limitations"></a>Istotne zagadnienia i ograniczenia
 Pytanie: Nie można uruchomić metryk użycia pulpitu nawigacyjnego lub raportu.    
 Odpowiedź: Metryki użycia można wyświetlać tylko w przypadku zawartości, której jesteś właścicielem lub którą możesz edytować.
 

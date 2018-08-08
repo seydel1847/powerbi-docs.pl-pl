@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-sktopms.date: 06/28/2018
+sktopms.date: 08/06/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 08772389df36e72e4f8c83239ba396773070f61a
-ms.sourcegitcommit: ba447d7cc94418d7d3cf6fdcb686ec1a859258a8
+ms.openlocfilehash: 5f117bdeb4e37986884c6a1021db1f361bdcddd3
+ms.sourcegitcommit: d936a23f895ee6ef1420753342f5e6c055ea5e07
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 07/02/2018
-ms.locfileid: "37145392"
+ms.lasthandoff: 08/07/2018
+ms.locfileid: "39582681"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Często zadawane pytania dotyczące usługi Power BI
 * Jeśli masz inne pytania, [zadaj je społeczności usługi Power BI](http://community.powerbi.com/).
@@ -47,8 +47,8 @@ Wystarczy przeglądarka internetowa i służbowy adres e-mail. Konto możesz utw
 ## <a name="why-do-i-have-to-sign-up-with-my-work-email"></a>Dlaczego muszę zarejestrować się za pomocą służbowego adresu e-mail?
 Usługa Power BI nie obsługuje adresów e-mail dostarczonych przez dostawców konsumenckich usług poczty e-mail ani dostawców usług telekomunikacyjnych. Dowiedz się więcej o [procesie samoobsługowej rejestracji w usłudze Power BI](service-self-service-signup-for-power-bi.md).
 
-## <a name="is-government-academic-and-non-profit-pricing-available-for-power-bi"></a>Czy jest dostępny cennik usługi Power BI dla instytucji rządowych, naukowych i niedochodowych?
-Tak. Cennik dla instytucji niedochodowych jest dostępny w przypadku dokonywania zakupu bezpośrednio od firmy Microsoft. Więcej informacji na ten temat oraz możliwość rejestracji znajduje się w witrynie [darowizn produktów firmy Microsoft](https://www.microsoft.com/about/philanthropies/product-donations/products/powerbi/). Cennik dla instytucji rządowych i naukowych jest dostępny w programach licencjonowania MOSP/Direct, EA i Open. Cennik dla instytucji rządowych jest również dostępny w usłudze syndykacji. 
+## <a name="is-government-academic-and-nonprofit-pricing-available-for-power-bi"></a>Czy jest dostępny cennik usługi Power BI dla instytucji rządowych i naukowych oraz organizacji non profit?
+Tak. Cennik dla organizacji non profit jest dostępny w przypadku dokonywania zakupu bezpośrednio od firmy Microsoft. Więcej informacji na ten temat oraz możliwość rejestracji znajduje się w witrynie [firmy Microsoft dotyczącej organizacji non profit](https://www.microsoft.com/en-us/nonprofits/power-bi). Cennik dla instytucji rządowych i naukowych jest dostępny w programach licencjonowania MOSP/Direct, EA i Open. Cennik dla instytucji rządowych jest również dostępny w usłudze syndykacji. 
 
 ## <a name="is-power-bi-available-on-premises"></a>Czy usługa Power BI jest dostępna lokalnie?
 Usługa Power BI [https://powerbi.com](https://powerbi.com) nie jest dostępna jako usługa prywatna w chmurze wewnętrznej. Jednak istnieją trzy inne opcje przeglądania danych i pracy z nimi w środowiskach lokalnych. 

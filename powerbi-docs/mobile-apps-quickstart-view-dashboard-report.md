@@ -9,21 +9,21 @@ ms.component: powerbi-mobile
 ms.topic: quickstart
 ms.date: 05/08/2018
 ms.author: maggies
-ms.openlocfilehash: 3ad44bfaa4fe9fc2eb81adbaad17f6e5034d8b14
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: 970bd7d2ba511b5b68fdac8bfc025133a117d0ae
+ms.sourcegitcommit: 16098be04df05bc8e3d44a99b4d143b622759c59
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "34295772"
+ms.lasthandoff: 08/07/2018
+ms.locfileid: "39615918"
 ---
 # <a name="quickstart-explore-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Szybki start: eksplorowanie pulpitów nawigacyjnych i raportów w aplikacjach mobilnych usługi Power BI
 W tym samouczku zapoznasz się z przykładowym pulpitem nawigacyjnym i raportem w aplikacji mobilnej usługi Power BI w telefonie z systemem Android. Możesz również wykonać opisane czynności w innych aplikacjach mobilnych. 
 
 Dotyczy:
 
-| ![Telefon iPhone](media/mobile-apps-quickstart-view-dashboard-report/iphone-logo-30-px.png) | ![Tablet iPad](media/mobile-apps-quickstart-view-dashboard-report/ipad-logo-30-px.png) | ![Android ](media/mobile-apps-quickstart-view-dashboard-report/android-logo-30-px.png) | ![Urządzenia z systemem Windows 10](media/mobile-apps-quickstart-view-dashboard-report/win-10-logo-30-px.png) |
+| ![Telefon iPhone](media/mobile-apps-quickstart-view-dashboard-report/iphone-logo-30-px.png) | ![iPad](media/mobile-apps-quickstart-view-dashboard-report/ipad-logo-30-px.png) | ![Android](media/mobile-apps-quickstart-view-dashboard-report/android-logo-30-px.png) | ![Urządzenia z systemem Windows 10](media/mobile-apps-quickstart-view-dashboard-report/win-10-logo-30-px.png) |
 |:--- |:--- |:--- |:--- |
-| Telefon iPhone | Tablet iPad | Android | Windows 10 |
+| Telefon iPhone | iPad | Android | Windows 10 |
 
 Pulpity nawigacyjne to portal zapewniający dostęp do operacji i procesów mających miejsce w Twojej firmie. Pulpit nawigacyjny zapewnia przegląd tych danych i stanowi centrum monitorowania bieżącego stanu firmy. Raporty to interaktywny widok danych z wizualizacjami reprezentującymi różne wyniki i szczegółowe informacje uzyskane na podstawie tych danych. 
 
