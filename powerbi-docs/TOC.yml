@@ -1,6 +1,6 @@
 - name: Korzystanie z usługi Power BI
   items:
-    - name: Przegląd
+    - name: Omówienie
       items:
         - name: Co to jest usługa Power BI?
           href: power-bi-overview.md
@@ -112,8 +112,6 @@
                   href: service-install-use-apps.md
                 - name: Znajdowanie organizacyjnego pakietu zawartości i łączenie się z nim
                   href: service-organizational-content-pack-find-and-open.md
-                - name: Udostępnianie pulpitów nawigacyjnych i raportów
-                  href: service-share-dashboards.md
                 - name: Wprowadzenie do pytań i odpowiedzi usługi Power BI
                   href: power-bi-visualization-introduction-to-q-and-a.md
             - name: Łączenie się z usługami
@@ -306,9 +304,15 @@
                   href: power-bi-q-and-a-linguistic-schema.md
             - name: Udostępnianie wyników pracy
               items:
-                - name: Jak współpracować nad pulpitami nawigacyjnymi i raportami oraz je udostępniać?
+                - name: Jak można współpracować i udostępniać zawartość?
                   href: service-how-to-collaborate-distribute-dashboards-reports.md
-                - name: Tworzenie i rozpowszechnianie aplikacji z pulpitami nawigacyjnymi i raportami
+                - name: Udostępnianie pulpitów nawigacyjnych i raportów
+                  href: service-share-dashboards.md
+                - name: Tworzenie obszarów roboczych aplikacji
+                  href: service-create-workspaces.md
+                - name: Tworzenie nowych obszarów roboczych (wersja zapoznawcza)
+                  href: service-create-the-new-workspaces.md
+                - name: Publikowanie aplikacji z pulpitami nawigacyjnymi i raportami
                   href: service-create-distribute-apps.md
                 - name: Udostępnianie przefiltrowanego raportu
                   href: service-share-reports.md
@@ -478,7 +482,7 @@
           href: whitepapers.md
 - name: Power BI Desktop
   items:
-    - name: Przegląd
+    - name: Omówienie
       items:
         - name: Czym jest program Power BI Desktop?
           href: desktop-what-is-desktop.md
@@ -822,7 +826,7 @@
           href: desktop-admin-sign-in-form.md
 - name: Aplikacje mobilne Power BI
   items:
-    - name: Przegląd
+    - name: Omówienie
       items:
         - name: Co to są aplikacje mobilne?
           href: mobile-apps-for-mobile-devices.md
@@ -916,7 +920,7 @@
   items:
     - name: Osadzona analiza
       items:
-        - name: Przegląd
+        - name: Omówienie
           items:
             - name: Co jest osadzane za pomocą usługi Power BI
               href: developer/embedding.md
@@ -1002,7 +1006,7 @@
               href: 'https://go.microsoft.com/fwlink/?linkid=848281'
     - name: Tworzenie wizualizacji niestandardowych
       items:
-        - name: Przegląd
+        - name: Omówienie
           items:
             - name: Dodawanie wizualizacji niestandardowych do usługi Power BI
               href: 'https://microsoft.github.io/PowerBI-visuals/docs/latest/overview/'
@@ -1044,7 +1048,7 @@
               href: 'https://go.microsoft.com/fwlink/?linkid=848277'
     - name: Automatyzacja
       items:
-        - name: Przegląd
+        - name: Omówienie
           items:
             - name: Co mogę zrobić za pomocą interfejsu API usługi Power BI?
               href: developer/overview-of-power-bi-rest-api.md
@@ -1092,7 +1096,7 @@
               href: 'https://go.microsoft.com/fwlink/?linkid=848274'
 - name: Serwer raportów usługi Power BI
   items:
-    - name: Przegląd
+    - name: Omówienie
       items:
         - name: Co to jest serwer raportów usługi Power BI?
           href: report-server/get-started.md
@@ -1194,7 +1198,7 @@
           href: report-server/capacity-planning.md
 - name: Bramy
   items:
-    - name: Przegląd
+    - name: Omówienie
       items:
         - name: Co to są bramy usługi Power BI?
           href: service-gateway-getting-started.md
@@ -1242,7 +1246,7 @@
           href: service-gateway-onprem-tshoot.md
 - name: Administracja
   items:
-    - name: Przegląd
+    - name: Omówienie
       items:
         - name: Co to jest administracja usługi Power BI?
           href: service-admin-administering-power-bi-in-your-organization.md
