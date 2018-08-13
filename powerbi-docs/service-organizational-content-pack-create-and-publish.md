@@ -3,33 +3,30 @@ title: Tworzenie i publikowanie organizacyjnego pakietu zawartości — usługa 
 description: W tym samouczku utworzysz organizacyjny pakiet zawartości, ograniczysz dostęp do konkretnej grupy i opublikujesz go w bibliotece pakietów zawartości organizacji w usłudze Power BI.
 author: maggiesMSFT
 manager: kfile
-ms.reviewer: ajayan
+ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/08/2018
+ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: b95ff0d9102377b6aeb59488a565f7bcb9a65566
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 46cd5e2730d1b0e90fe37a93bbd4340ffb708348
+ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37598617"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39624257"
 ---
 # <a name="create-and-publish-a-power-bi-organizational-content-pack-tutorial"></a>Tworzenie i publikowanie organizacyjnego pakietu zawartości w usłudze Power BI (samouczek)
-> [!NOTE]
-> Czy wiesz już o nowych *aplikacjach*? Aplikacje to nowy sposób dystrybucji zawartości do dużej liczby odbiorców w usłudze Power BI. Planujemy wkrótce zastąpić pakiety zawartości organizacji, a więc zalecamy używanie zamiast nich aplikacji. Dowiedz się [więcej o aplikacjach](service-install-use-apps.md).
-> 
-> 
 
 W tym samouczku utworzysz organizacyjny pakiet zawartości, udzielisz dostępu konkretnej grupie i opublikujesz go w bibliotece pakietów zawartości organizacji w usłudze Power BI.
 
 Tworzenie pakietów zawartości różni się od udostępniania pulpitów nawigacyjnych lub współpracy przy nich w grupie. Zapoznaj się z tematem [Jak współpracować nad pulpitami nawigacyjnymi i raportami oraz je udostępniać?](service-how-to-collaborate-distribute-dashboards-reports.md), aby podjąć decyzję o najlepszym rozwiązaniu w danej sytuacji.
 
+Tworzenie organizacyjnego pakietu zawartości wymaga [konta usługi Power BI Pro](https://powerbi.microsoft.com/pricing) dla użytkownika i jego współpracowników. 
+
 > [!NOTE]
-> Tworzenie organizacyjnego pakietu zawartości wymaga [konta usługi Power BI Pro](https://powerbi.microsoft.com/pricing) dla użytkownika i jego współpracowników.
-> 
+> W wersji zapoznawczej nowych środowisk obszarów roboczych nie można tworzyć ani instalować organizacyjnych pakietów zawartości. Teraz jest dobry moment, aby uaktualnić pakiety zawartości do aplikacji, jeśli jeszcze tego nie zaczęto. Dowiedz się [więcej na temat nowego środowiska obszarów roboczych](service-create-the-new-workspaces.md).
 > 
 
 Wyobraź sobie, że pracujesz na stanowisku menedżera ds. wprowadzania produktów w firmie Contoso i przygotowujesz się do wdrożenia nowego produktu.  Masz utworzony pulpit nawigacyjny z raportami, który chcesz udostępnić innym współpracownikom odpowiedzialnym za zarządzanie wdrożeniem. Potrzebujesz sposobu na spakowanie pulpitu nawigacyjnego i raportów w formie rozwiązania, z którego będą mogli korzystać współpracownicy. 

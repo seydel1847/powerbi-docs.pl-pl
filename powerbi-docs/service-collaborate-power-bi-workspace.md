@@ -3,24 +3,25 @@ title: Współpraca w obszarze roboczym aplikacji usługi Power BI
 description: Więcej informacji o współpracy przy plikach programu Power BI Desktop w obszarze roboczym Twojej aplikacji i z usługami Office 365, takimi jak udostępnianie plików w usłudze OneDrive dla Firm, konwersacje w programie Exchange, kalendarz i zadania.
 author: maggiesMSFT
 manager: kfile
-ms.reviewer: ajayan
+ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/29/2018
+ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: cab0f0513d73a865407574d43f8cd65ca5d75a9e
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: d059e8bb476f9862c372d9565581d58b336e81db
+ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34245459"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39623935"
 ---
 # <a name="collaborate-in-your-power-bi-app-workspace"></a>Współpraca w obszarze roboczym aplikacji usługi Power BI
-Obszary robocze aplikacji usługi Power BI są doskonałym miejscem do wspólnej pracy ze współpracownikami przy pulpitach nawigacyjnych, raportach i zestawach danych w celu tworzenia *aplikacji*. Oto do czego obszary robocze zostały zaprojektowane — współpraca. Po zakończeniu współpracy przy pulpitach nawigacyjnych i raportach z współpracownikami możesz je opakować jako aplikację i rozpowszechnić. Przeczytaj więcej na temat [tworzenia aplikacji oraz obszarów roboczych aplikacji w usłudze Power BI](service-create-distribute-apps.md). 
+Obszary robocze aplikacji usługi Power BI są doskonałym miejscem do wspólnej pracy ze współpracownikami przy pulpitach nawigacyjnych, raportach i zestawach danych w celu tworzenia *aplikacji*. Współpraca nie kończy się na obszarach roboczych w usłudze Power BI. Usługa Office 365 oferuje inne usługi grupy, takie jak udostępnianie plików w usłudze OneDrive dla Firm, konwersacje w programie Exchange, udostępnianie kalendarza i zadań itd. Przeczytaj więcej na temat [grup w usłudze Office 365](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9).
 
-Współpraca nie kończy się na obszarach roboczych w usłudze Power BI. Usługa Office 365 oferuje inne usługi grupy, takie jak udostępnianie plików w usłudze OneDrive dla Firm, konwersacje w programie Exchange, udostępnianie kalendarza i zadań itd. Przeczytaj więcej na temat [grup w usłudze Office 365](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9).
+> [!NOTE]
+> Wersja zapoznawcza nowego środowiska obszarów roboczych zmieni relację między obszarami roboczymi usługi Power BI a grupami usługi Office 365. Nie będziesz automatycznie tworzyć grupy usługi Office 365 przy każdym tworzeniu jednego z nowych obszarów roboczych. Przeczytaj o [tworzeniu nowych obszarów roboczych (wersja zapoznawcza)](service-create-the-new-workspaces.md)
 
 Obszary robocze aplikacji są dostępne tylko w usłudze [Power BI Pro](service-free-vs-pro.md).
 

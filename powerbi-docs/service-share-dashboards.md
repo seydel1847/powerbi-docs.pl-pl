@@ -8,15 +8,15 @@ featuredvideoid: 0tUwn8DHo3s
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/18/2018
+ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e176f82e106c531410b8e9233b983c6e321bddf4
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: d683ce3d06e2ac6be6c51f257e4f9483e718e2d8
+ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34299061"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39624396"
 ---
 # <a name="share-your-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>Udostępnianie pulpitów nawigacyjnych usługi Power BI współpracownikom i innym osobom
 *Udostępnianie* to świetna metoda na zapewnienie kilku osobom dostępu do Twojego pulpitu nawigacyjnego i raportów. Usługa Power BI zapewnia również [kilka sposobów współpracy i rozpowszechniania pulpitów nawigacyjnych i raportów](service-how-to-collaborate-distribute-dashboards-reports.md).
@@ -91,6 +91,8 @@ Tylko właściciel pulpitu nawigacyjnego lub raportu może włączyć i wyłącz
 
 4. W oknie dialogowym **Usuń dostęp** zdecyduj, czy chcesz też usunąć dostęp do powiązanej zawartości, takiej jak raporty i zestawy danych. Jeśli usuwasz elementy z ikoną ostrzeżenia ![Ikona ostrzeżenia usługi Power BI](media/service-share-dashboards/power-bi-warning-icon.png), najlepiej jest usunąć powiązaną zawartość, ponieważ nie będzie ona wyświetlana poprawnie.
 
+    ![Okno dialogowe ostrzeżenia dotyczącego udostępniania w usłudze Power BI](media/service-share-dashboards/power-bi-sharing-warning-dialog.png)
+
 ## <a name="share-a-dashboard-or-report-with-people-outside-your-organization"></a>Udostępnianie pulpitu nawigacyjnego lub raportu osobom spoza organizacji
 Jeśli udostępnisz pulpit nawigacyjny lub raport osobom spoza organizacji, otrzymają one wiadomość e-mail z linkiem do udostępnionego pulpitu nawigacyjnego lub raportu. Aby go wyświetlić, muszą się one zalogować do usługi Power BI. Jeśli któraś z tych osób nie ma licencji usługi Power BI Pro, może zarejestrować się w celu uzyskania licencji po kliknięciu linku.
 
@@ -145,6 +147,8 @@ Jeśli tak, musisz udzielić im uprawnienia do bazowego zestawu danych. Oto jak 
 ### <a name="i-cant-share-a-dashboard-or-report"></a>Nie mogę udostępnić pulpitu nawigacyjnego lub raportu
 
 Aby udostępnić pulpit nawigacyjny lub raport, musisz mieć uprawnienie do udostępniania dalej jego bazowej zawartości — wszystkich powiązanych raportów i zestawów danych. Jeśli zobaczysz komunikat z informacją, że nie możesz udostępnić zawartości, poproś autora raportu o uprawnienie do udostępniania dalej tych raportów i zestawów danych.
+
+![Komunikat „Nie można udostępnić”](media/service-share-dashboards/power-bi-sharing-unable-to-share.png)
 
 
 ## <a name="next-steps"></a>Następne kroki

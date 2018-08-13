@@ -3,29 +3,29 @@ title: Znajdowanie organizacyjnych pakietów zawartości i łączenie się z nim
 description: Znajdowanie organizacyjnych pakietów zawartości i łączenie się z nimi w usłudze Power BI
 author: maggiesMSFT
 manager: kfile
-ms.reviewer: ajayan
+ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/08/2018
+ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 5ea86ab577298b6099487228cdf4c8a87e4fe421
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: 67072d690f09e922601c6b14ad1c150e2298040b
+ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39280230"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39624280"
 ---
 # <a name="find-and-connect-to-an-organizational-content-pack"></a>Znajdowanie organizacyjnego pakietu zawartości i łączenie się z nim
-> [!NOTE]
-> Czy wiesz już o nowych *aplikacjach*? Aplikacje to nowy sposób dystrybucji zawartości do dużej liczby odbiorców w usłudze Power BI. Planujemy wkrótce zastąpić pakiety zawartości organizacji, a więc zalecamy używanie zamiast nich aplikacji. Dowiedz się [więcej o aplikacjach](service-install-use-apps.md).
-> 
-> 
 
 Gdy ktokolwiek opublikuje organizacyjny pakiet zawartości dla Twojej organizacji, dla grup dystrybucji lub zabezpieczeń, lub dla [grup usługi Office 365](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9), do której należysz, pojawiają się one w usłudze AppSource.  Przejrzyj lub wyszukaj usługę AppSource, aby odnaleźć i otworzyć organizacyjne pakiety zawartości.
 
 Tworzenie pakietów zawartości różni się od udostępniania pulpitów nawigacyjnych lub współpracy przy nich w grupie. Zapoznaj się z tematem [Jak współpracować nad pulpitami nawigacyjnymi i raportami oraz je udostępniać?](service-how-to-collaborate-distribute-dashboards-reports.md), aby podjąć decyzję o najlepszym rozwiązaniu w danej sytuacji.
+
+> [!NOTE]
+> W wersji zapoznawczej nowych środowisk obszarów roboczych nie można tworzyć ani instalować organizacyjnych pakietów zawartości. Teraz jest dobry moment, aby uaktualnić pakiety zawartości do aplikacji, jeśli jeszcze tego nie zaczęto. Dowiedz się [więcej na temat nowego środowiska obszarów roboczych](service-create-the-new-workspaces.md).
+> 
 
 ## <a name="find-an-organizational-content-pack"></a>Znajdowanie organizacyjnego pakietu zawartości
 Użytkownicy usługi [Power BI Pro](https://powerbi.microsoft.com/pricing) mogą wszyscy przejść do usługi AppSource, która wyświetla pakiety zawartości udostępnione całej organizacji, grupom dystrybucji lub zabezpieczeń i grupom usługi Office 365, do których należą.  

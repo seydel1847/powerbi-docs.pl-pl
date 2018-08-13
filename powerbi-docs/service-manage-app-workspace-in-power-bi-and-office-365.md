@@ -3,22 +3,25 @@ title: Zarządzanie obszarem roboczym aplikacji w usługach Power BI i Office 36
 description: Obszary robocze aplikacji w usłudze Power BI są środowiskiem współpracy zbudowanym ma grupach usługi Office 365. Zarządzanie obszarem roboczym aplikacji w usługach Power BI, jak i Office 365.
 author: maggiesMSFT
 manager: kfile
-ms.reviewer: ajayan
+ms.reviewer: lukasz
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/12/2017
+ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d298c750d23e22ef0a6b2791916add13bb260ad0
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: 2bbc619c2f581e26e36f03013f3db248fab49610
+ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36965210"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39624349"
 ---
 # <a name="manage-your-app-workspace-in-power-bi-and-office-365"></a>Zarządzanie obszarem roboczym aplikacji w usługach Power BI i Office 365
 Jako twórca lub administrator [obszaru roboczego aplikacji w usłudze Power BI](service-install-use-apps.md) lub Office 365 zarządzasz pewnymi aspektami obszaru roboczego w usłudze Power BI. Innymi aspektami zarządzasz w usłudze Office 365. 
+
+> [!NOTE]
+> Wersja zapoznawcza nowego środowiska obszarów roboczych zmieni relację między obszarami roboczymi usługi Power BI a grupami usługi Office 365. Nie będziesz automatycznie tworzyć grupy usługi Office 365 przy każdym tworzeniu jednego z nowych obszarów roboczych. Przeczytaj o [tworzeniu nowych obszarów roboczych (wersja zapoznawcza)](service-create-the-new-workspaces.md)
 
 **W usłudze Power BI** możesz:
 
@@ -38,7 +41,7 @@ Aby być administratorem lub członkiem obszaru roboczego aplikacji, musisz mie�
 ## <a name="edit-your-app-workspace-in-power-bi"></a>Edytowanie obszaru roboczego aplikacji w usłudze Power BI
 1. W usłudze Power BI wybierz strzałkę obok pozycji **Obszary robocze** > wybierz wielokropek (**...**) obok nazwy swojego obszaru roboczego > **Edytuj obszar roboczy**. 
    
-   ![](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-ellipsis.png)
+   ![Edytowanie obszarów roboczych w usłudze Power BI](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-ellipsis.png)
    
    > [!NOTE]
    > Pozycja **Edytuj obszar roboczy** jest wyświetlana tylko, gdy jesteś administratorem obszaru roboczego aplikacji.
@@ -46,34 +49,34 @@ Aby być administratorem lub członkiem obszaru roboczego aplikacji, musisz mie�
    > 
 2. W tym miejscu możesz zmienić nazwy, dodać lub usunąć członków lub usunąć obszar roboczy aplikacji. 
    
-   ![](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-edit-workspace.png)
+   ![Okno dialogowe Edytowanie obszaru roboczego](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-edit-workspace.png)
 3. Wybierz pozycję **Zapisz** lub **Anuluj**.
 
 ## <a name="edit-power-bi-app-workspace-properties-in-office-365"></a>Edytowanie właściwości obszaru roboczego aplikacji usługi Power BI w usłudze Office 365
 1. W usłudze Power BI wybierz strzałkę obok pozycji **Obszary robocze** > wybierz wielokropek (**...**) obok nazwy swojego obszaru roboczego > **Członkowie**. 
    
-   ![](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-ellipsis.png)
+   ![Edytowanie obszarów roboczych w usłudze Power BI](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-ellipsis.png)
    
    Spowoduje to otwarcie widoku grupy programu Outlook dla usługi Office 365 dla Twojego obszaru roboczego aplikacji.
    
    Może być konieczne zalogowanie na koncie firmowym.
 2. Naciśnij przycisk wielokropka (**...** ) obok nazwy członka, aby ustawić go jako administratora lub usunąć członka z obszaru roboczego aplikacji. 
    
-   ![](media/service-manage-app-workspace-in-power-bi-and-office-365/pbi_managegroupo365.png)
+   ![Edytowanie grupy w usłudze Office 365](media/service-manage-app-workspace-in-power-bi-and-office-365/pbi_managegroupo365.png)
 
 ## <a name="add-an-image-and-set-other-workspace-properties-in-the-office-365-group"></a>Dodawanie obrazu i ustawianie innych właściwości obszaru roboczego w grupie usługi Office 365
-Podczas dystrybucji swojej aplikacji z obszaru roboczego aplikacji dodawany tutaj obraz będzie obrazem dla aplikacji. Zobacz sekcję [Dodawanie obrazu do aplikacji](service-create-distribute-apps.md#add-an-image-to-your-app-optional) w artykule [Tworzenie i rozpowszechnianie aplikacji w usłudze Power BI](service-create-distribute-apps.md).
+Podczas dystrybucji swojej aplikacji z obszaru roboczego aplikacji dodawany tutaj obraz będzie obrazem dla aplikacji. Zobacz sekcję [Dodawanie obrazu do aplikacji](service-create-workspaces.md#add-an-image-to-your-office-365-app-workspace-optional) w artykule [Tworzenie nowych obszarów roboczych](service-create-workspaces.md).
 
 1. W programie Outlook dla usługi Office 365 w widoku obszaru roboczego aplikacji wybierz obraz grupy, aby edytować właściwości obszaru roboczego grupy.
    
-   ![](media/service-manage-app-workspace-in-power-bi-and-office-365/pbi_editgroupo365.png)
+   ![Ikona Edytowanie grupy](media/service-manage-app-workspace-in-power-bi-and-office-365/pbi_editgroupo365.png)
 2. Tutaj możesz edytować nazwę, opis i język, dodać obraz i ustawić inne właściwości.
    
-   ![](media/service-manage-app-workspace-in-power-bi-and-office-365/pbi_editgrpo365dialog.png)
+   ![Okno dialogowe Edytowanie grupy](media/service-manage-app-workspace-in-power-bi-and-office-365/pbi_editgrpo365dialog.png)
 3. Wybierz pozycję **Zapisz** lub **Odrzuć**.
 
 ## <a name="next-steps"></a>Następne kroki
 * [Czym są aplikacje w usłudze Power BI?](service-install-use-apps.md)
-* [Tworzenie aplikacji i obszarów roboczych aplikacji w usłudze Power BI](service-create-distribute-apps.md)
+* [Publikowanie aplikacji z pulpitami nawigacyjnymi i raportami w usłudze Power BI](service-create-distribute-apps.md)
 * Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
 

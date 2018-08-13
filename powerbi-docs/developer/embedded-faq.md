@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/22/2018
-ms.openlocfilehash: f3602f44bd2ab98e115f904baa89429db918637c
-ms.sourcegitcommit: ba3cab4613a2b815d46a213eff07a8a8ec22c17f
+ms.openlocfilehash: ab637be12487029d17d7b1bfa89022dbae9aaa49
+ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39032076"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39415397"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Często zadawane pytania dotyczące usługi Power BI Embedded
 
@@ -63,29 +63,32 @@ Usługa Power BI Embedded to zestaw interfejsów API udostępnionych deweloperom
 
 Poniżej przedstawiono skróconą listę różnych funkcji, których można używać z poszczególnymi jednostkami SKU.
 
-|Promowanie  |Power BI Embedded<br>(jednostki SKU A) |Pojemność usługi Power BI Premium<br>(jednostki SKU EM)  | 
-|---------|---------|---------|
-|Osadzanie artefaktów z obszarów roboczych aplikacji Power BI     |Pojemność platformy Azure |Pojemność usługi Office 365 |
-|Korzystanie z raportów wymaga licencji usługi Power BI |Nie  |Tak |
-|Korzystanie z raportów usługi Power BI w aplikacji osadzonej |Tak  |Tak |
-|Korzystanie z raportów usługi Power BI w programie SharePoint |Nie |Tak |
-|Korzystanie z raportów usługi Power BI w usłudze Teams |Nie |Tak |
+| Promowanie | Power BI Embedded | Pojemność usługi Power BI Premium | Pojemność usługi Power BI Premium |
+|----------------------------------------------------------------------------------|-------------------|---------------------------|---------------------------|
+|   | (jednostki SKU A) | (jednostki SKU EM) | (Jednostki SKU P) |
+| Osadzanie artefaktów z obszaru roboczego aplikacji Power BI | Pojemność platformy Azure | Pojemność usługi Office 365 | Pojemność usługi Office 365 |
+| Korzystanie z raportów usługi Power BI w aplikacji osadzonej | Tak | Tak | Tak |
+| Korzystanie z raportów usługi Power BI w programie SharePoint | Nie | Tak | Tak |
+| Korzystanie z raportów usługi Power BI w usłudze Dynamics | Nie | Tak | Tak |
+| Korzystanie z raportów usługi Power BI w usłudze Teams | Nie | Tak | Tak |
+| Dostęp do zawartości z bezpłatną licencją usługi Power BI w witrynie Powerbi.com i na platformie Power BI dla urządzeń przenośnych | Nie | Nie | Tak |
+| Dostęp do zawartości osadzonej w aplikacjach pakietu MS Office z bezpłatną licencją usługi Power BI | Nie | Tak | Tak |
 
 ### <a name="power-bi-now-offers-three-skus-for-embedding-a-skus-em-skus-and-p-skus-which-one-should-i-purchase-for-my-scenario"></a>Usługa Power BI oferuje trzy rodzaje jednostek SKU na potrzeby osadzania: SKU A, SKU EM i SKU P. Którą z nich kupić dla mojego scenariusza?
 
 |  |Jednostka SKU A (usługa Power BI Embedded)  |Jednostka SKU EM (usługa Power BI Premium)  |Jednostka SKU P (usługa Power BI Premium)  |
 |---------|---------|---------|---------|
 |Zakup     |Witryna Azure Portal |Pakiet Office |Pakiet Office |
-|Przypadki użycia |* Osadzanie zawartości we własnej aplikacji |* Osadzanie zawartości we własnej aplikacji<br>* Osadzanie zawartości w innych aplikacjach SaaS ([SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [Teams](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/), [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard)) |* Osadzanie zawartości we własnej aplikacji<br>* Osadzanie zawartości w innych aplikacjach SaaS ([SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [Teams](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/), [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard))<br>* Udostępnianie zawartości użytkownikom usługi Power BI za pośrednictwem [usługi Power BI](https://powerbi.microsoft.com/en-us/)  |
+|Przypadki użycia |* Osadzanie zawartości we własnej aplikacji |* Osadzanie zawartości we własnej aplikacji<br>* Osadzanie zawartości w innych aplikacjach pakietu MS Office ([SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [Teams](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/), [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard)) |* Osadzanie zawartości we własnej aplikacji<br>* Osadzanie zawartości w innych aplikacjach pakietu MS Office ([SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [Teams](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/), [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard))<br>* Udostępnianie zawartości użytkownikom usługi Power BI za pośrednictwem [usługi Power BI](https://powerbi.microsoft.com/en-us/)  |
 |Rozliczenia |Godzinowe |Miesięczne |Miesięczne |
 |Zobowiązanie  |Brak zobowiązania |Roczne  |Miesięczne lub roczne |
 |Rozróżnienie produktów |Pełna elastyczność, która umożliwia skalowanie w górę i w dół oraz wstrzymywanie i wznawianie zasobów w witrynie Azure Portal lub za pośrednictwem interfejsu API  |Może służyć do osadzania zawartości w usługach SharePoint Online i Microsoft Teams |Pozwala przeprowadzać osadzanie w aplikacjach, używając jednocześnie usługi Power BI w ramach tej samej pojemności |
 
 ### <a name="what-are-the-prerequisites-to-create-a-pbie-capacity-in-azure"></a>Jakie są wymagania wstępne dotyczące tworzenia pojemności PBIE na platformie Azure?
 
-- Musisz zalogować się do swojego katalogu organizacyjnego (konta MSA nie są obsługiwane).
-- Musisz mieć dzierżawę usługi Power BI, tj. co najmniej jeden użytkownik w Twoim katalogu musi być zarejestrowany w usłudze Power BI. 
-- Musisz mieć subskrypcję platformy Azure w katalogu organizacyjnym.
+* Musisz zalogować się do swojego katalogu organizacyjnego (konta MSA nie są obsługiwane).
+* Musisz mieć dzierżawę usługi Power BI, tj. co najmniej jeden użytkownik w Twoim katalogu musi być zarejestrowany w usłudze Power BI. 
+* Musisz mieć subskrypcję platformy Azure w katalogu organizacyjnym.
 
 ### <a name="how-can-i-monitor-capacity-consumption"></a>Jak można monitorować poziom zużycia pojemności?
 
@@ -213,6 +216,8 @@ W przypadku usługi Power BI Embedded stosowana jest stała, przewidywalna stawk
 Licencję usługi Power BI Pro musi posiadać każdy analityk dodający raporty do obszaru roboczego usługi Power BI, każdy deweloper korzystający z interfejsów API REST oraz każdy administrator dzierżawy zarządzający dzierżawą i pojemnością usługi Power BI.
 
 Ponieważ usługa Power BI Embedded umożliwia korzystanie z portalu usługi Power BI do zarządzania i sprawdzania osadzonej zawartości, posiadanie licencji usługi Power BI Pro jest wymagane do uwierzytelnienia aplikacji w ramach witryny PowerBI.com, a tym samym uzyskania dostępu do raportów we właściwych repozytoriach.
+
+Jednak w przypadku [tworzenia/edytowania raportów osadzonych](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Create-Report-in-Embed-View) wewnątrz własnej aplikacji, użytkownik końcowy nie potrzebuje licencji Pro, ponieważ w ogóle nie musi być użytkownikiem usługi Power BI.
 
 ### <a name="can-i-get-started-for-free"></a>Czy mogę zacząć korzystać z usługi bezpłatnie?
 

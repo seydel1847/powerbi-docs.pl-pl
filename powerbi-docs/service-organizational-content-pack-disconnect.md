@@ -3,21 +3,26 @@ title: Odłączanie od organizacyjnego pakietu zawartości — usługa Power BI
 description: Przeczytaj o usuwaniu połączenia z organizacyjnym pakietem zawartości, usuwając jego zestaw danych w usłudze Power BI.
 author: maggiesMSFT
 manager: kfile
-ms.reviewer: ajayan
+ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/12/2017
+ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: c0e7bddd23987377bfd8cf05bdfd1ab997e621ed
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 2389ed542a43b28296faf2eed2b69b4e83d227f5
+ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34247647"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39624165"
 ---
 # <a name="remove-your-connection-to-a-power-bi-organizational-content-pack"></a>Usuwanie połączenia z organizacyjnym pakietem zawartości usługi Power BI
+
+> [!NOTE]
+> W wersji zapoznawczej nowych środowisk obszarów roboczych nie można tworzyć organizacyjnych pakietów zawartości ani ich instalować. Teraz jest dobry moment, aby uaktualnić pakiety zawartości do aplikacji, jeśli jeszcze tego nie zaczęto. Dowiedz się [więcej na temat nowego środowiska obszarów roboczych](service-create-the-new-workspaces.md).
+> 
+
 Współpracownik utworzył pakiet zawartości. Udało Ci się go odnaleźć w usłudze AppSource i dodać go do swojego obszaru roboczego usługi Power BI. Teraz nie będzie już potrzebny.  Jak możesz go usunąć?
 
 Aby usunąć pakiet zawartości, musisz usunąć jego zestaw danych.  

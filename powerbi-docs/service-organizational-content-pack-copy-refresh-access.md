@@ -3,29 +3,29 @@ title: 'Organizacyjne pakiety zawartości: dostęp i kopiowanie'
 description: Przeczytaj informacje o tworzeniu kopii i rozwiązywaniu problemów z dostępem do organizacyjnych pakietów zawartości w usłudze Power BI
 author: maggiesMSFT
 manager: kfile
-ms.reviewer: ajayan
+ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/08/2018
+ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: c2d7a878189542d8a477933f6c54390b2636787e
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 37cfca811b7e60bde832396e67b246933d4e0a8e
+ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34852238"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39624211"
 ---
 # <a name="organizational-content-packs-copy-refresh-and-get-access"></a>Organizacyjne pakiety zawartości: kopiowanie, odświeżanie i uzyskiwanie dostępu
-> [!NOTE]
-> Czy wiesz już o nowych *aplikacjach*? Aplikacje to nowy sposób dystrybucji zawartości do dużej liczby odbiorców w usłudze Power BI. Planujemy wkrótce zastąpić pakiety zawartości organizacji, a więc zalecamy używanie zamiast nich aplikacji. Dowiedz się [więcej o aplikacjach](service-install-use-apps.md).
-> 
-> 
 
 Po opublikowaniu organizacyjnego pakietu zawartości wszyscy odbiorcy zobaczą ten sam pulpit nawigacyjny, te same raporty, skoroszyty programu Excel, zestawy danych i dane, chyba że jest to źródło danych usług SQL Server Analysis Services (SSAS).  [Tylko twórca pakietu zawartości może edytować i ponownie publikować](service-organizational-content-pack-manage-update-delete.md) pakiet zawartości.  Jednak wszyscy odbiorcy mogą zapisać kopię pakietu zawartości, która może istnieć jednocześnie z oryginalnym pakietem.
 
 Tworzenie pakietów zawartości różni się od udostępniania pulpitów nawigacyjnych lub współpracy przy nich w grupie. Zapoznaj się z tematem [Jak współpracować nad pulpitami nawigacyjnymi i raportami oraz je udostępniać?](service-how-to-collaborate-distribute-dashboards-reports.md), aby podjąć decyzję o najlepszym rozwiązaniu w danej sytuacji.
+
+> [!NOTE]
+> W wersji zapoznawczej nowych środowisk obszarów roboczych nie można tworzyć ani instalować organizacyjnych pakietów zawartości. Teraz jest dobry moment, aby uaktualnić pakiety zawartości do aplikacji, jeśli jeszcze tego nie zaczęto. Dowiedz się [więcej na temat nowego środowiska obszarów roboczych](service-create-the-new-workspaces.md).
+> 
 
 ## <a name="create-a-copy-of-an-organizational-content-pack"></a>Tworzenie kopii organizacyjnego pakietu zawartości
 Utwórz własną kopię pakietu zawartości, niewidoczną dla innych użytkowników.

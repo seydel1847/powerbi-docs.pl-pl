@@ -3,24 +3,23 @@ title: 'Organizacyjne pakiety zawartości: zarządzanie i aktualizowanie'
 description: Informacje na temat aktualizowania i usuwania organizacyjnych pakietów zawartości w usłudze Power BI oraz zarządzania nimi.
 author: maggiesMSFT
 manager: kfile
-ms.reviewer: ajayan
+ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 07/19/2018
+ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 45e9207ffa666e33b298e82bbc78e07c226b780e
-ms.sourcegitcommit: f6fb681ec85313eb7b450edb8f190e9e7afbabca
+ms.openlocfilehash: d00ad254e25f8806f6cf2bc944e849e32167b1f8
+ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 07/20/2018
-ms.locfileid: "39182799"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39624326"
 ---
 # <a name="manage-update-and-delete-organizational-content-packs"></a>Aktualizowanie i usuwanie organizacyjnych pakietów zawartości oraz zarządzanie nimi
 > [!NOTE]
-> Czy wiesz już o nowych *aplikacjach*? Aplikacje to nowy sposób dystrybucji zawartości do dużej liczby odbiorców w usłudze Power BI. Planujemy wkrótce zastąpić pakiety zawartości organizacji, a więc zalecamy używanie zamiast nich aplikacji. Dowiedz się [więcej o aplikacjach](service-install-use-apps.md).
-> 
+> W wersji zapoznawczej nowych środowisk obszarów roboczych nie można tworzyć organizacyjnych pakietów zawartości ani ich instalować. Teraz jest dobry moment, aby uaktualnić pakiety zawartości do aplikacji, jeśli jeszcze tego nie zaczęto. Dowiedz się [więcej na temat nowego środowiska obszarów roboczych](service-create-the-new-workspaces.md).
 > 
 
 Możesz pakować oraz udostępniać współpracownikom pulpity nawigacyjne, raporty, skoroszyty programu Excel i zestawy danych w formie [organizacyjnych pakietów zawartości](service-organizational-content-pack-introduction.md). Współpracownicy mogą ich używać w otrzymanej postaci lub tworzyć własne kopie.
