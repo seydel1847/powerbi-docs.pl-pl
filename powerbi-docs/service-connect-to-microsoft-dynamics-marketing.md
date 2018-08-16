@@ -54,7 +54,7 @@ Nawiąż połączenie z [pakietem zawartości Dynamics Marketing](https://app.po
 
 ## <a name="system-requirements"></a>Wymagania systemowe
 * Należy określić prawidłowy adres URL źródła danych OData dla wystąpienia programu Dynamics Marketing (pakiet zawartości nie będzie działać z lokalną wersją programu CRM).  
-* Administrator musi włączyć punkt końcowy OData w ustawieniach witryny. Adres punktu końcowego OData można znaleźć, wybierając pozycję **Narzędzia główne \> Ustawienia \> Ustawienia witryny** w sekcji **Usługa danych organizacji**.  Adres URL źródła danych OData ma format: https:// [nazwa\_wystąpienia].marketing.dynamics.com/analytics  
+* Administrator musi włączyć punkt końcowy OData w ustawieniach witryny. Adres punktu końcowego OData można znaleźć, wybierając pozycję **Narzędzia główne \> Ustawienia \> Ustawienia witryny** w sekcji **Usługa danych organizacji**.  Adres URL źródła danych OData ma format: https://[nazwa\_wystąpienia].marketing.dynamics.com/analytics  
 * Konto użytkownika/tożsamość używane do uzyskiwania dostępu do usługi Microsoft Dynamics Marketing musi być takie samo, jak konto użyte do rejestracji w usłudze Power BI. Podczas logowania się do usługi Microsoft Dynamics Marketing nastąpi automatyczne zalogowanie za pomocą tej samej tożsamości, która jest używana w usłudze Power BI. Jeśli chcesz zalogować się do usługi Microsoft Dynamics Marketing za pomocą innego konta, zarejestruj się jako użytkownik usługi Power BI za pomocą tego innego konta. Mamy nadzieję, że uda nam się rozwiązać ten problem w nowej wersji.   
 
 ## <a name="troubleshooting"></a>Rozwiązywanie problemów
