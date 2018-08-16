@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: be4651d1658c80c84105a65bc48e4072ed203794
-ms.sourcegitcommit: 7bdb76bd80973c5e5174747b7e304705754fe647
+ms.openlocfilehash: a3e39e6326eb5b32cd72e2aefec74c07804b4639
+ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "39217633"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39657902"
 ---
 # <a name="use-visual-elements-to-enhance-power-bi-reports"></a>Używanie elementów wizualizacji do ulepszania raportów usługi Power BI
 
@@ -59,6 +59,9 @@ W przypadku ustawienia przezroczystości tła strony na więcej niż 50% podczas
 ![Przezroczystość większa niż 50% powoduje wyświetlenie kropkowanego obramowania](media/desktop-visual-elements-for-reports/visual-elements-for-reports_04.png)
 
 Ważne jest, aby pamiętać, że kropkowana granica jest wyświetlana *tylko* podczas edytowania raportu i *nie* jest widoczna dla osób przeglądających opublikowany raport, np. gdy zostanie on wyświetlony w **usłudze Power BI**.
+
+> [!NOTE]
+> Jeśli używasz tapet z ciemnymi tłami i ustawisz biały lub bardzo jasny kolor tekstu, pamiętaj, że funkcja **eksportowania do formatu PDF** nie obejmuje tapety, więc wyeksportowana zawartość z białymi czcionkami będzie niemal niewidoczna w wyeksportowanym pliku PDF. Zobacz [Eksportowanie do formatu PDF](desktop-export-to-pdf.md), aby uzyskać więcej informacji na temat **eksportowania do formatu PDF**.
 
 
 ## <a name="using-improved-visual-headers-in-power-bi-reports"></a>Używanie ulepszonych nagłówków wizualizacji w raportach usługi Power BI

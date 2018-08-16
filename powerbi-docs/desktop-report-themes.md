@@ -1,5 +1,5 @@
 ---
-title: Używanie motywów raportów w programie Power BI Desktop (wersja zapoznawcza)
+title: Używanie motywów raportów w programie Power BI Desktop
 description: Dowiedz się, jak używać niestandardowej palety kolorów i stosować ją do całego raportu w programie Power BI Desktop.
 author: davidiseminger
 manager: kfile
@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/02/2018
+ms.date: 08/08/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 757c1465d2451da8ebf340c7b9bfe1f4d9ff04f1
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 6aa3e6ba5a471176a6af2551344744cdc45697fb
+ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34721184"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39657948"
 ---
-# <a name="use-report-themes-in-power-bi-desktop-preview"></a>Używanie motywów raportów w programie Power BI Desktop (wersja zapoznawcza)
+# <a name="use-report-themes-in-power-bi-desktop"></a>Używanie motywów raportów w programie Power BI Desktop
 **Motywy raportów** umożliwiają zastosowanie motywu kolorystycznego — kolorów firmowych, okolicznościowych lub dowolnego innego motywu kolorystycznego — do całego raportu. Zastosowanie **motywu raportu** spowoduje, że kolory tego motywu będą używane we wszystkich wizualizacjach w raporcie (z kilkoma wyjątkami opisanymi w dalszej części tego artykułu).
 
 ![](media/desktop-report-themes/report-themes_1.png)
@@ -26,10 +26,14 @@ Do zastosowania **motywu raportu** potrzebny jest plik JSON z podstawową strukt
 
 Od wersji programu **Power BI Desktop** z września 2017 r. można przy użyciu pliku JSON zdefiniować jeszcze więcej elementów motywu raportu — możesz dostosować (i ujednolicić) za pomocą pliku JSON niemal wszystkie elementy, które można dostosować ręcznie w okienku **Formatowanie**. Celem w wersji z września 2017 r. (i nowszych wersjach) jest umożliwienie pełnej, szczegółowej kontroli nad wyglądem i działaniem raportów.
 
-### <a name="enable-report-themes-in-preview"></a>Włączanie motywów raportów w wersji zapoznawczej
-Możesz wypróbować nową funkcję **Motywy raportów** począwszy od wersji programu **Power BI Desktop** z **marca 2017 r.** Aby włączyć tę funkcję w wersji zapoznawczej, wybierz pozycję **Plik > Opcje i ustawienia > Opcje > Funkcje wersji zapoznawczej**, a następnie zaznacz pole wyboru obok pozycji **Niestandardowe motywy raportów**. Po zaznaczeniu należy uruchomić ponownie program **Power BI Desktop**.
+### <a name="enable-report-themes"></a>Włączanie motywów raportów
+Począwszy od wersji programu **Power BI Desktop** z sierpnia 2018 r., motywy raportów są ogólnie dostępne i nie trzeba ich włączać. 
+
+Jeśli używasz starszej wersji programu **Power BI Desktop**, możesz je włączyć jako funkcję w wersji zapoznawczej przez wybranie kolejno pozycji **Plik > Opcje i ustawienia > Opcje > Funkcje wersji zapoznawczej**, a następnie zaznacz pole wyboru **Niestandardowe motywy raportów**. Po zaznaczeniu należy uruchomić ponownie program **Power BI Desktop**.
 
 ![](media/desktop-report-themes/report-themes_2.png)
+
+Zawsze zalecamy uaktualnienie programu **Power BI Desktop** do najnowszej wersji, którą można pobrać za pomocą linku na stronie [Uzyskiwanie programu Power BI Desktop](desktop-get-the-desktop.md). 
 
 ## <a name="how-report-themes-work"></a>Jak działają motywy raportów
 Aby zastosować motyw raportu do raportu w programie Power BI Desktop, wybierz przycisk **Przełącz motyw** na karcie **Narzędzia główne** wstążki, a następnie wybierz pozycję **Importuj motyw** z listy rozwijanej.
@@ -100,7 +104,7 @@ Ponadto jeśli ręcznie wybierzesz kolor punktu danych przy użyciu sekcji Kolor
 Motywy raportów nie będą również stosowane w przypadku wielu **wizualizacji niestandardowych**.
 
 ## <a name="report-theme-files-you-can-use-right-now"></a>Pliki motywów raportów, których możesz użyć już teraz
-Chcesz rozpocząć korzystanie z **motywów raportów**? Świetnie. Tu znajdziesz kilka gotowych plików JSON z motywami raportów, które możesz pobrać i zaimportować do raportu w programie **Power BI Desktop**, oraz ilustracje przedstawiające wygląd motywu raportu na przykładzie raportu używanego w tym artykule.
+Chcesz rozpocząć korzystanie z **motywów raportów**? Doskonale! Tu znajdziesz kilka gotowych plików JSON z motywami raportów, które możesz pobrać i zaimportować do raportu w programie **Power BI Desktop**, oraz ilustracje przedstawiające wygląd motywu raportu na przykładzie raportu używanego w tym artykule.
 
 * [Motyw](https://go.microsoft.com/fwlink/?linkid=843924) używany we [wpisie w blogu](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/), w którym ogłoszono pierwsze udostępnienie **motywów raportów**, o nazwie [*waveform.json*](https://go.microsoft.com/fwlink/?linkid=843924).
 

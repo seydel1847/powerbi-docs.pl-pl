@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/17/2018
+ms.date: 08/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 70aa61d6a02bea1b7058a68b20718008ace1b8c8
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 61a30484713ac96d3bbb65355310007a52f300a5
+ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34480893"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39657810"
 ---
 # <a name="conditional-formatting-in-tables"></a>Formatowanie warunkowe w tabelach 
 Za pomocą formatowania warunkowego dla tabel można określić niestandardowe kolory komórek, w tym gradienty kolorów, na podstawie wartości komórek lub na podstawie innych wartości bądź pól. Można również wyświetlić wartości komórek ze słupkami danych. 
@@ -24,7 +24,7 @@ Aby uzyskać dostęp do formatowania warunkowego, w obszarze **Pola** w okienku 
 
 ![Polecenie Formatowanie warunkowe w menu](media/desktop-conditional-table-formatting/table-formatting-0-popup-menu.png)
 
-W poniższych sekcjach opisano każdą z tych trzech opcji formatowania warunkowego. W jednej kolumnie tabeli można zastosować więcej niż jedną opcję.
+W poniższych sekcjach opisano każdą z tych opcji formatowania warunkowego. W jednej kolumnie tabeli można zastosować więcej niż jedną opcję.
 
 > [!NOTE]
 > Formatowanie warunkowe zastosowane do tabeli zastępuje wszystkie niestandardowe style tabeli zastosowane do sformatowanych warunkowo komórek.
@@ -95,3 +95,43 @@ Domyślnie opcja **Pokaż tylko paski** nie jest zaznaczona, więc w komórce ta
 Jeśli opcja **Pokaż tylko paski** jest zaznaczona, w komórce tabeli jest wyświetlany tylko pasek.
 
 ![Przykładowa tabela jedynie z paskami danych](media/desktop-conditional-table-formatting/table-formatting-3-default-table-bars.png)
+
+## <a name="color-formatting-by-field-value"></a>Formatowanie koloru według wartości pola
+
+Miara lub kolumna z kolorem określonym za pomocą wartości tekstowej lub kodu szesnastkowego umożliwia zastosowanie tego koloru do tła koloru czcionki tabeli albo wizualizacji macierzy. Można również utworzyć niestandardową logikę dla danego pola i zastosować za jej pomocą żądany kolor do czcionki lub tła.
+
+Na przykład poniższa tabela zawiera kolor skojarzony z każdym modelem produktu. 
+
+![Pole ProductName z nazwą koloru](media/desktop-conditional-table-formatting/conditional-table-formatting_01.png)
+
+Aby sformatować komórkę na podstawie jej wartości pola, wybierz okno dialogowe **Formatowanie warunkowe**, klikając prawym przyciskiem myszy kolumnę *Kolor* dla tej wizualizacji — w tym przypadku wybierz z menu pozycję **Kolor tła**. 
+
+![Wybieranie koloru tła z menu](media/desktop-conditional-table-formatting/conditional-table-formatting_02.png)
+
+W wyświetlonym oknie dialogowym wybierz pozycję **Wartość pola** w obszarze rozwijanym **Formatuj według**, jak pokazano na poniższej ilustracji.
+
+![Formatowanie według wartości pola](media/desktop-conditional-table-formatting/conditional-table-formatting_03.png)
+
+Możesz powtórzyć ten proces dla koloru czcionki — wynikiem w wizualizacji będzie jednolity kolor w kolumnie **Kolor**, jak pokazano na poniższym ekranie.
+
+![Formatowanie według wartości pola](media/desktop-conditional-table-formatting/conditional-table-formatting_04.png)
+
+Możesz też utworzyć obliczenie w języku DAX oparte na logice biznesowej, którego wynikiem są różne kody szesnastkowe oparte na Twoich warunkach. Jest to zazwyczaj łatwiejsze niż tworzenie wielu reguł w oknie dialogowym formatowania warunkowego. Zwróć uwagę na pole *ColorKPI* na poniższej przykładowej ilustracji.
+
+![Obliczenia w języku DAX](media/desktop-conditional-table-formatting/conditional-table-formatting_05.png)
+
+Następnie możesz ustawić wartość pola **Kolor tła** w poniższy sposób.
+
+![Ustawianie koloru pola na podstawie kluczowego wskaźnika wydajności](media/desktop-conditional-table-formatting/conditional-table-formatting_06.png)
+
+Możesz uzyskać takie wyniki jak w poniższej macierzy.
+
+![Wizualizacja macierzy z kolorem opartym na wartości kluczowego wskaźnika wydajności](media/desktop-conditional-table-formatting/conditional-table-formatting_07.png)
+
+Utworzyć można znacznie więcej odmian, używając wyobraźni i języka DAX.
+
+## <a name="next-steps"></a>Następne kroki
+Aby uzyskać więcej informacji, zobacz następujący artykuł:  
+
+* [Porady i wskazówki dotyczące formatowania kolorów w usłudze Power BI](service-tips-and-tricks-for-color-formatting.md)  
+

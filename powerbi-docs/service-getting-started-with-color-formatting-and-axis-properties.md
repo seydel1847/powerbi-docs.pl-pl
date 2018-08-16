@@ -7,20 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 08/06/2018
 ms.author: davidi
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 422f0ba97f5118ddc57e9102055a070deaf99b90
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 805487087de865c25f08a29243d672fafbc26ca2
+ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39329620"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39658042"
 ---
 # <a name="getting-started-with-color-formatting-and-axis-properties"></a>Wprowadzenie do formatowania za pomocą kolorów i właściwości osi
 W **usłudze Power BI** można zmienić kolor serii danych, punktów danych, a nawet tła wizualizacji. Można również zmienić sposób wyświetlania osi x i y, zyskując pełną kontrolę nad wyglądem pulpitów nawigacyjnych i raportów.
 
 Aby rozpocząć, wybierz **raport** w okienku **Mój obszar roboczy**. Następnie w menu u góry wybierz polecenie **Edytuj raport**.  
+
 ![](media/service-getting-started-with-color-formatting-and-axis-properties/gettingstartedcolor_1a.png)
 
 Podczas edytowania raportu przy wybranej wizualizacji w okienku **Wizualizacje** można dodawać lub zmieniać wizualizacje. Bezpośrednio pod obszarem dostępnych wizualizacji znajdują się trzy ikony: **Pola** (słupki), **Formatowanie** (wałek do malowania) i **Analiza** (lupa). Na poniższej ilustracji wybrano ikonę **Pola**, pod którą widać żółty pasek.
@@ -28,6 +29,7 @@ Podczas edytowania raportu przy wybranej wizualizacji w okienku **Wizualizacje**
 ![](media/service-getting-started-with-color-formatting-and-axis-properties/gettingstartedcolor_2a.png)
 
 Po wybraniu ikony **Formatowanie** w obszarze poniżej jest wyświetlany kolor i dostosowania osi dostępne dla aktualnie wybranej wizualizacji.  
+
 ![](media/service-getting-started-with-color-formatting-and-axis-properties/gettingstartedcolor_3a.png)
 
 Można dostosować wiele elementów poszczególnych wizualizacji:
@@ -47,14 +49,13 @@ Można dostosować wiele elementów poszczególnych wizualizacji:
 > [!NOTE]
 >  
 > Nie wszystkie elementy będą widoczne przy każdym typie wizualizacji. Wybranie wizualizacji wpływa na dostępność dostosowań. Na przykład wykresy kołowe nie mają osi x, dlatego nie będzie jej widać po wybraniu tego wykresu.
-> 
-> 
 
 Zwróć też uwagę, że jeśli nie masz wybranej wizualizacji, zamiast ikon widać **filtry**, które można stosować do wszystkich wizualizacji na stronie.
 
 Pokażemy parę przykładów: pierwszy z dostosowaniem kolorów, a drugi ze zmianą właściwości osi. Zobaczysz, że można spędzić cały dzień na dostosowywaniu kolorów, osi i etykiet.
 
 ## <a name="working-with-colors"></a>Praca z kolorami
+
 Przedstawimy kroki umożliwiające dostosowanie kolorów na wykresie.
 
 1. Wybieram pozycję **Wykres kolumnowy grupowany** na kanwie raportu.
@@ -76,6 +77,7 @@ Wprowadzone zmiany są widoczne na poniższej ilustracji. Mamy całkiem jasny wy
 Chcesz cofnąć ostatnio wprowadzoną zmianę? Możesz to zrobić za pomocą dobrze znanej kombinacji **CTRL+Z**.
 
 ## <a name="changing-axis-properties"></a>Zmiana właściwości osi
+
 Użyteczną funkcją jest możliwość modyfikowania osi X lub osi Y. Podobnie jak w przypadku kolorów, oś można zmodyfikować, wybierając ikonę strzałki w dół wyświetlaną z lewej strony osi, jak pokazano na poniższej ilustracji.  
 ![](media/service-getting-started-with-color-formatting-and-axis-properties/gettingstartedcolor_7a.png)
 
@@ -88,11 +90,15 @@ Dostępna jest cała gama kolorów oraz o wiele więcej dostosowań, które moż
 > [!NOTE]
 >  
 > Te kolory, osie i powiązane dostosowania, dostępne po wybraniu ikony **Formatowanie**, są również dostępne w programie Power BI Desktop.
-> 
-> 
 
-## <a name="next-step"></a>Następny krok
+## <a name="setting-color-from-text-values"></a>Ustawianie koloru przy użyciu wartości tekstowych
+
+Począwszy od aktualizacji programu **Power BI Desktop** z sierpnia 2018 r., kolory danego elementu raportu można ustawiać za pomocą wartości tekstowej lub kodu szesnastkowego. Aby uzyskać więcej informacji, zobacz [Formatowanie warunkowe w tabelach](desktop-conditional-table-formatting.md).
+
+
+## <a name="next-steps"></a>Następne kroki
 Aby uzyskać więcej informacji, zobacz następujący artykuł:  
 
 * [Porady i wskazówki dotyczące formatowania kolorów w usłudze Power BI](service-tips-and-tricks-for-color-formatting.md)  
+* [Formatowanie warunkowe w tabelach](desktop-conditional-table-formatting.md)
 

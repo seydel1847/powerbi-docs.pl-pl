@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 08/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2b8c4066f3128899d2c3c8121d7c5d41768f89dc
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: fe52646eef029359ac0e41c5fb32be524076a22d
+ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39327826"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39657971"
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Używanie zakładek w celu udostępniania szczegółowych informacji i tworzenia historii w usłudze Power BI 
 Przy użyciu **zakładek** w usłudze Power BI możesz przechwycić obecnie skonfigurowany widok strony raportu wraz z filtrowaniem i stanem wizualizacji, aby później mieć możliwość powrotu do tego stanu poprzez wybranie zapisanej zakładki. 
@@ -113,6 +113,33 @@ Po przełączeniu suwaka **Akcja** do pozycji **Wł.** możesz wybrać, czy obie
 Istnieje wiele interesujących rzeczy, które można wykonać przy użyciu zakładek z połączonym obiektem. Możesz utworzyć wizualną tabelę zawartości na stronie raportu lub zapewnić inne widoki (np. typy wizualne) tych samych informacji, klikając obiekt.
 
 W trybie edycji możesz użyć kombinacji Ctrl + kliknięcie, aby użyć linku. W trybie innym niż tryb edycji wystarczy kliknąć obiekt, aby użyć linku. 
+
+## <a name="bookmark-groups"></a>Grupy zakładek
+
+Począwszy od wersji programu **Power BI Desktop** z sierpnia 2018 r., można tworzyć grupy zakładek i korzystać z nich. Grupa zakładek to kolekcja określonych zakładek, które mogą być wyświetlane i uporządkowane jako grupa. 
+
+Aby utworzyć grupę zakładek, naciśnij i przytrzymaj klawisz CTRL, wybierz zakładki, które chcesz dołączyć do grupy, a następnie kliknij wielokropek obok wybranej zakładki i wybierz pozycję **Grupuj** z wyświetlonego menu.
+
+![Tworzenie grupy zakładek](media/desktop-bookmarks/bookmarks_15.png)
+
+Program **Power BI Desktop** automatycznie nadaje grupie nazwę *Grupa 1*. Można jednak kliknąć dwukrotnie nazwę i zmienić ją na dowolną inną nazwę.
+
+![Zmienianie nazwy grupy zakładek](media/desktop-bookmarks/bookmarks_16.png)
+
+Kliknięcie nazwy dowolnej grupy zakładek powoduje tylko rozwinięcie lub zwinięcie grupy zakładek — sama nazwa nie reprezentuje zakładki. 
+
+Użycie funkcji zakładek **Wyświetl** powoduje wykonanie następujących działań:
+
+* Jeśli wybrana zakładka znajduje się w grupie po wybraniu pozycji **Wyświetl** z poziomu zakładek, w sesji przeglądania są wyświetlane tylko zakładki *z tej grupy*. 
+
+* Jeśli wybrana zakładka nie należy do grupy lub znajduje się na najwyższym poziomie (na przykład nazwa grupy zakładek), są odtwarzane wszystkie zakładki w całym raporcie, w tym zakładki z każdej grupy. 
+
+Aby rozgrupować zakładki, wybierz zakładkę w grupie, kliknij wielokropek, a następnie wybierz pozycję **Rozgrupuj** z wyświetlonego menu. 
+
+![Rozgrupowywanie grupy zakładek](media/desktop-bookmarks/bookmarks_17.png)
+
+Wybranie pozycji **Rozgrupuj** dla dowolnej zakładki z grupy powoduje usunięcie wszystkich zakładek z grupy (zostanie usunięta grupa, a nie same zakładki). Aby więc usunąć pojedynczą zakładkę z grupy, musisz **rozgrupować** dowolny element członkowski z tej grupy (spowoduje to usunięcie grupowania), a następnie wybrać elementy członkowskie, które chcesz dodać do nowej grupy (klikając poszczególne zakładki z wciśniętym klawiszem CTRL), i wybrać ponownie pozycję  **Grupuj**. 
+
 
 ## <a name="using-spotlight"></a>Użycie funkcji W centrum uwagi
 Kolejną funkcją wprowadzoną wraz zakładkami jest funkcja **W centrum uwagi**. Funkcja **W centrum uwagi** umożliwia zwrócenie uwagi na konkretny wykres, np. podczas prezentowania zakładek w trybie **Wyświetl**.
