@@ -8,14 +8,14 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 05/18/2018
-ms.author: v-mamcge
+ms.author: kfile
 LocalizationGroup: Reports
-ms.openlocfilehash: b3bb1e6d7d7ce5b3fdc050f5df10af9f61acac92
-ms.sourcegitcommit: d936a23f895ee6ef1420753342f5e6c055ea5e07
+ms.openlocfilehash: 2e8888679f36b64a6fc5956a9ca10dc3d07dce1a
+ms.sourcegitcommit: 8b2ae15eb0e39cce29f3bf466ab7768f3f7c7815
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/07/2018
-ms.locfileid: "39582576"
+ms.lasthandoff: 08/16/2018
+ms.locfileid: "40257198"
 ---
 # <a name="power-bi-performance-best-practices"></a>Wydajność usługi Power BI — najlepsze rozwiązania 
 Ten artykuł zawiera wskazówki dotyczące tworzenia szybkich i niezawodnych raportów w usłudze Power BI.  
@@ -46,10 +46,10 @@ Aby uzyskać więcej wskazówek dotyczących optymalizacji źródeł danych pod 
  
 ## <a name="directquery-and-live-connection-understand-underlying-data-source-performance"></a>Zapytanie bezpośrednie i połączenie na żywo: zrozumienie wydajności bazowego źródła danych 
 
-W przypadku zapytania bezpośredniego i połączenia na żywo, kiedy użytkownicy wyświetlają raport usługi Power BI, usługa Power BI wysyła zapytania w czasie rzeczywistym do bazowego źródła danych. Gdy źródło danych zwróci dane dla zapytania, raport jest renderowany. W związku z tym wydajność raportu w tych przypadkach zależy w dużym stopniu od wydajności bazowego źródła danych. 
- 
-W takiej sytuacji ważne jest, aby poznać wydajność bazowego źródła danych. Różne źródła danych oferują różne narzędzia umożliwiające poznanie wydajności zapytania. Na przykład programy SQL Server i Azure SQL udostępniają magazyn zapytań, który przechwytuje historię zapytań i statystyki czasu wykonywania. 
- 
+W przypadku zapytania bezpośredniego i połączenia na żywo, kiedy użytkownicy wyświetlają raport usługi Power BI, usługa Power BI wysyła zapytania w czasie rzeczywistym do bazowego źródła danych. Gdy źródło danych zwróci dane dla zapytania, raport jest renderowany. W związku z tym wydajność raportu w tych przypadkach zależy w dużym stopniu od wydajności bazowego źródła danych.
+
+W takiej sytuacji ważne jest, aby poznać wydajność bazowego źródła danych. Różne źródła danych oferują różne narzędzia umożliwiające poznanie wydajności zapytania. Na przykład programy SQL Server i Azure SQL udostępniają magazyn zapytań, który przechwytuje historię zapytań i statystyki czasu wykonywania.
+
 Z zasady podczas wdrażania raportów usługi Power BI opartych na zapytaniu bezpośrednim i połączeniu na żywo spróbuj wykonać czynności, które będą wykonywać użytkownicy, w programie Power BI Desktop. Jeśli raport ładuje się wolno w programie Power BI Desktop, prawie na pewno będzie także ładować się wolno w usłudze dla użytkowników końcowych. 
  
 ## <a name="directquery-best-practices"></a>Najlepsze rozwiązania dotyczące zapytania bezpośredniego 
