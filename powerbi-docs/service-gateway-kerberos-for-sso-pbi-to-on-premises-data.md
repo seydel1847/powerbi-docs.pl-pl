@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/09/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 402a39ef9e52fe61d80940a5050997ba19930209
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: bf5120b1c4d787dd13e21245b234207123221fc4
+ms.sourcegitcommit: 9d6f37fd32b965592bd7b108dea87b8e53b11334
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36964842"
+ms.lasthandoff: 08/18/2018
+ms.locfileid: "40257224"
 ---
 # <a name="use-kerberos-for-sso-single-sign-on-from-power-bi-to-on-premises-data-sources"></a>Używanie protokołu Kerberos na potrzeby logowania jednokrotnego (SSO) z usługi Power BI do lokalnych źródeł danych
 Możesz uzyskać bezproblemową łączność przy użyciu funkcji logowania jednokrotnego, aby umożliwić aktualizowanie raportów i pulpitów nawigacyjnych usługi Power BI na podstawie lokalnych danych, konfigurując lokalną bramę danych przy użyciu protokołu Kerberos. Lokalna brama danych ułatwia logowanie jednokrotne przez użycie zapytania bezpośredniego do połączenia z lokalnymi źródłami danych.
@@ -51,9 +51,7 @@ Dodatkowe informacje dotyczące omawianych kroków:
    - Personifikacja użytkownika i połączenie z bazą danych powiedzie się pod warunkiem, że konto usługi bramy jest kontem domeny (lub identyfikatorem SID usługi), a ograniczone delegowanie protokołu Kerberos zostało skonfigurowane tak, aby baza danych akceptowała bilety protokołu Kerberos z konta usługi bramy.  
    
    > [!NOTE]
-   > W odniesieniu do identyfikatora SID usługi, jeśli skonfigurowano narzędzie AAD DirSync/Connect, a konta użytkowników są synchronizowane, usługa bramy nie musi wykonywać wyszukiwania w lokalnej usłudze AD w czasie wykonywania i można użyć lokalnego identyfikatora SID usługi (zamiast wymagać konta domeny) na potrzeby usługi bramy.  Czynności konfiguracji ograniczonego delegowania protokołu Kerberos opisane w tym dokumencie są takie same (z tą różnicą, że stosowany jest identyfikator SID usługi, a nie konto domeny).
-   > 
-   > 
+   > W odniesieniu do identyfikatora SID usługi, jeśli skonfigurowano narzędzie AAD DirSync/Connect, a konta użytkowników są synchronizowane, usługa bramy nie musi wykonywać wyszukiwania w lokalnej usłudze AD w czasie wykonywania i można użyć lokalnego identyfikatora SID usługi (zamiast wymagać konta domeny) na potrzeby usługi bramy. Czynności konfiguracji ograniczonego delegowania protokołu Kerberos opisane w tym artykule są takie same, jak w przypadku tej konfiguracji (z tą różnicą, że są stosowane względem obiektu komputera bramy w usłudze Active Directory, a nie w ramach konta domeny).
 
 
 > [!NOTE]

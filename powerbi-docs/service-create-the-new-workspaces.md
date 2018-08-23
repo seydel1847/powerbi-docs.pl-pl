@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/07/2018
+ms.date: 08/17/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 36343b4db0481ea61fbfac1c791aa84760ee2c77
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: 271859dbc13e909d255e4287ae14e66b2d85724f
+ms.sourcegitcommit: 23bb84cd3e80ba7f03d559e48db322774d1a6fe0
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39624759"
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "40256425"
 ---
 # <a name="create-the-new-workspaces-preview-in-power-bi"></a>Tworzenie nowych obszarów roboczych (wersja zapoznawcza) w usłudze Power BI
 
@@ -112,8 +112,8 @@ Nowe obszary robocze oferują trzy role: administratorów, członków i współa
 **Członkowie mogą:** 
 
 - Dodawać członków lub innych użytkowników o niższych uprawnieniach.
-- Publikować i aktualizować aplikacje.
-- Udostępniać elementy i aplikacje.
+- Publikować i aktualizować aplikację.
+- Udostępniać element lub aplikację.
 - Zezwalać innym osobom na dalsze udostępnianie elementów.
 - Wykonywać wszystkie czynności, do których są uprawnieni współautorzy.
 
@@ -129,7 +129,7 @@ Tworzymy przepływy pracy dla żądań dostępu w usłudze, tak aby użytkownicy
 
 ## <a name="distribute-an-app"></a>Rozpowszechnianie aplikacji
 
-Gdy zawartość jest gotowa, możesz wybrać, które pulpity nawigacyjne i raporty chcesz opublikować, a następnie opublikować je jako *aplikację*. Twoi współpracownicy mogą uzyskać te aplikacje na kilka różnych sposobów. Możesz automatycznie instalować je na kontach usługi Power BI swoich współpracowników, jeśli administrator usługi Power BI przyzna Ci odpowiednie uprawnienia. Jeśli nie, mogą oni znaleźć i zainstalować aplikacje z witryny Microsoft AppSource lub otrzymać bezpośredni link. Mogą automatycznie uzyskiwać aktualizacje, a Ty możesz kontrolować, jak często dane są odświeżane. Zobacz [Tworzenie i publikowanie aplikacji z pulpitami nawigacyjnymi i raportami w usłudze Power BI](service-create-distribute-apps.md), aby uzyskać bardziej szczegółowe informacje.
+Gdy zawartość jest gotowa, możesz wybrać, które pulpity nawigacyjne i raporty chcesz opublikować, a następnie opublikować je jako *aplikację*. W każdym obszarze roboczym możesz utworzyć jedną aplikację. Twoi współpracownicy mogą uzyskać tę aplikację na kilka różnych sposobów. Możesz automatycznie instalować ją na kontach usługi Power BI swoich współpracowników, jeśli administrator usługi Power BI przyzna Ci odpowiednie uprawnienia. Jeśli nie, mogą oni znaleźć i zainstalować aplikację przy użyciu usługi Microsoft AppSource lub otrzymać bezpośredni link. Mogą automatycznie uzyskiwać aktualizacje, a Ty możesz kontrolować, jak często dane są odświeżane. Zobacz [Tworzenie i publikowanie aplikacji z pulpitami nawigacyjnymi i raportami w usłudze Power BI](service-create-distribute-apps.md), aby uzyskać bardziej szczegółowe informacje.
 
 ## <a name="convert-old-app-workspaces-to-new-app-workspaces"></a>Konwertowanie starych obszarów roboczych aplikacji na nowe obszary robocze aplikacji
 
@@ -161,7 +161,7 @@ Niektóre funkcje nowych obszarów roboczych aplikacji w wersji zapoznawczej nad
 Działanie niektórych funkcji różni się w bieżącej wersji obszarów roboczych aplikacji i w nowych obszarach roboczych aplikacji. Te różnice są zamierzone. Zostały wprowadzone na podstawie opinii klientów i umożliwiają bardziej elastyczną współpracę w obszarach roboczych:
 
 - Ustawienie uprawnień do ponownego udostępniania elementów: zastąpione przez rolę współautora
-- Obszary robocze tylko do odczytu: zastąpione przez planowaną rolę Osoby przeglądającej, która umożliwia dostęp tylko do odczytu zawartości w obszarze roboczym.
+- Obszary robocze tylko do odczytu: zamiast udzielać użytkownikom dostępu tylko do odczytu do obszaru roboczego, przypiszesz ich do nadchodzącej roli Przeglądający, która zapewnia podobny dostęp tylko do odczytu do zawartości w obszarze roboczym.
 
 ## <a name="known-issues"></a>Znane problemy
 

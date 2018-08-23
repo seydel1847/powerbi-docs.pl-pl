@@ -2,21 +2,21 @@
 title: Osadzanie za pomocą składnika Web Part raportu w usłudze SharePoint Online
 description: Za pomocą nowego składnika Web Part raportu usługi Power BI dla usługi SharePoint Online można łatwo osadzić interaktywne raporty usługi Power BI na stronach usługi SharePoint Online.
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/25/2018
-ms.author: maghan
 LocalizationGroup: Share your work
-ms.openlocfilehash: 63cb1fe3061d1ba48e71a4ac09862fce29dd9196
-ms.sourcegitcommit: ba3cab4613a2b815d46a213eff07a8a8ec22c17f
+ms.date: 08/16/2018
+ms.openlocfilehash: 85e04993639d3c2897d2d7dddc00e79fd4fdf0c6
+ms.sourcegitcommit: 8b2ae15eb0e39cce29f3bf466ab7768f3f7c7815
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39032053"
+ms.lasthandoff: 08/16/2018
+ms.locfileid: "40256919"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>Osadzanie za pomocą składnika Web Part raportu w usłudze SharePoint Online
 
@@ -28,6 +28,7 @@ W przypadku korzystania z nowej opcji **Osadź w usłudze SharePoint Online** os
 
 Istnieje kilka wymagań, które muszą zostać spełnione, aby raporty **osadzane w usłudze SharePoint Online** działały.
 
+* Wymagana jest licencja usługi Power BI Pro lub [pojemność usługi Power BI Premium (jednostka SKU EM lub P)](service-premium.md#premium-capacity-nodes) z licencją usługi Power BI.
 * Składnik Web Part usługi Power BI dla usługi SharePoint Online wymaga [nowoczesnych stron](https://support.office.com/article/Allow-or-prevent-creation-of-modern-site-pages-by-end-users-c41d9cc8-c5c0-46b4-8b87-ea66abc6e63b).
 
 ## <a name="embed-your-report"></a>Osadzanie raportu
@@ -49,7 +50,7 @@ Aby osadzić raport w usłudze SharePoint Online, należy najpierw uzyskać adre
     ![](media/service-embed-report-spo/powerbi-embed-link-sharepoint.png)
 
    > [!NOTE]
-   > Możesz również użyć adresu URL, który jest wyświetlany na pasku adresu przeglądarki internetowej podczas wyświetlania raportu. Ten adres URL będzie zawierał aktualnie wyświetlaną stronę raportu. Należy usunąć sekcję raportu z adresu URL, jeśli chcesz użyć innej strony.
+   > Możesz również użyć adresu URL, który jest wyświetlany na pasku adresu przeglądarki internetowej podczas wyświetlania raportu. Ten adres URL zawiera aktualnie wyświetlaną stronę raportu. Należy usunąć sekcję raportu z adresu URL, jeśli chcesz użyć innej strony.
 
 ### <a name="add-the-power-bi-report-to-a-sharepoint-online-page"></a>Dodawanie raportu usługi Power BI do strony usługi SharePoint Online
 
@@ -84,7 +85,7 @@ Osadzenie raportu w usłudze SharePoint Online nie daje automatycznie użytkowni
 > [!IMPORTANT]
 > Sprawdź, kto może wyświetlać raport w usłudze Power BI, i udziel dostępu użytkownikom niewymienionym na liście.
 
-Istnieją dwa sposoby zapewnienia dostępu do raportu w usłudze Power BI. Jeśli używasz grupy usługi Office 365 do tworzenia witryny zespołu w usłudze SharePoint Online, uwzględnij użytkownika jako członka **obszaru roboczego aplikacji w usłudze Power BI** oraz **strony programu SharePoint**. Daje to pewność, że uwzględnieni użytkownicy będą mogli wyświetlać zawartość tej grupy. Aby uzyskać więcej informacji, zobacz [Tworzenie i rozpowszechnianie aplikacji w usłudze Power BI](service-create-distribute-apps.md).
+Istnieją dwa sposoby zapewnienia dostępu do raportu w usłudze Power BI. Jeśli używasz grupy usługi Office 365 do tworzenia witryny zespołu w usłudze SharePoint Online, uwzględnij użytkownika jako członka **obszaru roboczego aplikacji w usłudze Power BI** oraz **strony programu SharePoint**. Daje to pewność, że uwzględnieni użytkownicy mogą wyświetlać zawartość tej grupy. Aby uzyskać więcej informacji, zobacz [Tworzenie i rozpowszechnianie aplikacji w usłudze Power BI](service-create-distribute-apps.md).
 
 Ewentualnie możesz udzielić użytkownikom dostępu do raportu, wykonując następujące czynności.
 
@@ -107,10 +108,10 @@ Poniżej znajduje się opis ustawień, które można dostosować dla składnika 
 
 ## <a name="multi-factor-authentication"></a>Uwierzytelnianie wieloskładnikowe
 
-Jeśli środowisko usługi Power BI wymaga logowania przy użyciu uwierzytelniania wieloskładnikowego, użytkownik może zostać poproszony o zalogowanie się za pomocą urządzenia zabezpieczeń w celu zweryfikowania swojej tożsamości. Będzie to miało miejsce, jeśli użytkownik nie zalogował się do usługi SharePoint Online przy użyciu uwierzytelniania wieloskładnikowego, a środowisko usługi Power BI wymaga konta zweryfikowanego przez urządzenie zabezpieczeń.
+Jeśli środowisko usługi Power BI wymaga logowania przy użyciu uwierzytelniania wieloskładnikowego, użytkownik może zostać poproszony o zalogowanie się za pomocą urządzenia zabezpieczeń w celu zweryfikowania swojej tożsamości. Ma to miejsce, jeśli użytkownik nie zalogował się do usługi SharePoint Online przy użyciu uwierzytelniania wieloskładnikowego, a środowisko usługi Power BI wymaga konta zweryfikowanego przez urządzenie zabezpieczeń.
 
 > [!NOTE]
-> Uwierzytelnianie wieloskładnikowe nie jest jeszcze obsługiwane w usłudze Azure Active Directory 2.0. Użytkownicy będą otrzymywać komunikat informujący o *błędzie*. Jeśli użytkownik zaloguje się ponownie do usługi SharePoint Online przy użyciu swojego urządzenia zabezpieczeń, może być w stanie wyświetlić raport.
+> Uwierzytelnianie wieloskładnikowe nie jest jeszcze obsługiwane w usłudze Azure Active Directory 2.0. Użytkownicy otrzymują komunikat informujący o *błędzie*. Jeśli użytkownik zaloguje się ponownie do usługi SharePoint Online przy użyciu swojego urządzenia zabezpieczeń, może być w stanie wyświetlić raport.
 
 ## <a name="reports-that-do-not-load"></a>Raporty, które nie są ładowane
 
@@ -135,9 +136,9 @@ Należy skontaktować się z właścicielem strony usługi SharePoint Online, ab
   
   1. Wyloguj się z programu SharePoint, a następnie zaloguj się ponownie. Należy zamknąć wszystkie okna przeglądarki przed ponownym zalogowaniem.
 
-  2. Jeśli Twoje konto użytkownika wymaga uwierzytelniania wieloskładnikowego (MFA), musisz zalogować się do programu SharePoint przy użyciu urządzenia z usługą Multi-Factor Authentication (aplikacji na telefon, karty inteligentnej itp.).
+  2. Jeśli Twoje konto użytkownika wymaga uwierzytelniania wieloskładnikowego, musisz zalogować się do programu SharePoint przy użyciu urządzenia używanego do uwierzytelniania wieloskładnikowego (aplikacji na telefon, karty inteligentnej itp.).
   
-  3. Konta gości usługi Azure B2B nie są obsługiwane. Dla użytkowników będzie widoczne logo usługi Power BI przedstawiające ładowanie składnika Web Part, ale raport nie zostanie wyświetlony.
+  3. Konta gości usługi Azure B2B nie są obsługiwane. Dla użytkowników jest widoczne logo usługi Power BI przedstawiające ładowanie składnika Web Part, ale raport nie jest wyświetlany.
 
 * Usługa Power BI nie obsługuje tych samych zlokalizowanych języków co usługa SharePoint Online. W rezultacie w osadzonym raporcie może nie być wyświetlana właściwa lokalizacja.
 

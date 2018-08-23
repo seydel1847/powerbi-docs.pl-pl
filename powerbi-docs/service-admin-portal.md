@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 04/02/2018
+ms.date: 08/15/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: e2b61f84b459d3b14c2cd066e0261dcdb1b8a5ef
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: db77e3e7421074383f67bffad318e6f7f4c3df28
+ms.sourcegitcommit: 52278d8e0c23ae5eaf46b10a6a2f1fb071a0f1cc
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36965509"
+ms.lasthandoff: 08/16/2018
+ms.locfileid: "40256869"
 ---
 # <a name="power-bi-admin-portal"></a>Portal administracyjny usługi Power BI
 
@@ -100,36 +100,37 @@ Aby uzyskać więcej informacji o dziennikach inspekcji, zobacz [Inspekcja usłu
 
 Trzeci karta w portalu administracyjnym to **Ustawienia dzierżawy**. Ustawienia dzierżawy zapewniają więcej kontroli nad funkcjami, które są dostępne w organizacji. Jeśli masz obawy związane z poufnymi danymi, niektóre z funkcji mogą nie być odpowiednie dla Twojej organizacji. Możesz też zdecydować, że dana funkcja będzie dostępna tylko dla wybranej grupy. Jeśli tak jest, możesz ją wyłączyć w dzierżawie.
 
-Na przykład dane na użytkownika są włączone dla metryki użycia domyślnie, a informacje o koncie autora zawartości są uwzględniane w raporcie metryki. Jeśli nie chcesz uwzględnić tych informacji dla niektórych lub wszystkich użytkowników, wyłączyć funkcję dla określonych grup zabezpieczeń lub całej organizacji. Informacje o koncie będą wyświetlane w raporcie jako *Bez nazwy*.
-
 ![](media/service-admin-portal/powerbi-admin-tenant-settings.png)
 
 > [!NOTE]
 > Zastosowanie ustawienia dla wszystkich użytkowników w dzierżawie może zająć do 10 minut.
 
-Ustawienia mogą mieć trzy stany w oparciu o podane ustawienia.
+Ustawienia mogą mieć trzy stany:
 
-### <a name="disabled-for-the-entire-organization"></a>Wyłączone dla całej organizacji
+* **Wyłączone dla całej organizacji**: możesz wyłączyć funkcję i uniemożliwić użytkownikom korzystanie z niej.
 
-Możesz wyłączyć funkcję i uniemożliwić użytkownikom korzystanie z niej.
+    ![](media/service-admin-portal/powerbi-admin-tenant-settings-disabled.png)
 
-![](media/service-admin-portal/powerbi-admin-tenant-settings-disabled.png)
+* **Włączone dla całej organizacji**: możesz włączyć funkcję dla całej organizacji — wszyscy użytkownicy będą mieć do niej dostęp.
 
-### <a name="enabled-for-the-entire-organization"></a>Włączone dla całej organizacji
+    ![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled.png)
 
-Możesz włączyć funkcję dla całej organizacji — wszyscy użytkownicy będą mieć dostęp do tej funkcji.
+* **Włączone dla podzbioru organizacji**: możesz też włączyć funkcję dla części organizacji. Można to zrobić na kilka różnych sposobów. Funkcję możesz włączyć dla całej organizacji poza wybraną grupą użytkowników.
 
-![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled.png)
+    ![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except.png)
 
-### <a name="enabled-for-a-subset-of-the-organization"></a>Włączone dla podzbioru organizacji
+    Ponadto możesz włączyć funkcję tylko dla wybranej grupy użytkowników, jednocześnie wyłączając ją dla innej grupy użytkowników. Dzięki temu upewnisz się, że wybrani użytkownicy nie będą mieć dostępu do funkcji, nawet kiedy znajdą się w grupie dozwolonych użytkowników.
 
-Możesz też włączyć funkcję dla części organizacji. Można to zrobić na kilka różnych sposobów. Funkcję możesz włączyć dla całej organizacji poza wybraną grupą użytkowników.
+    ![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except2.png)
 
-![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except.png)
+W kilku kolejnych sekcjach omówiono różne typy ustawień dzierżawy.
 
-Ponadto możesz włączyć funkcję tylko dla wybranej grupy użytkowników, jednocześnie wyłączając ją dla innej grupy użytkowników. Dzięki temu upewnisz się, że wybrani użytkownicy nie będą mieć dostępu do funkcji, nawet kiedy znajdą się w grupie dozwolonych użytkowników.
+## <a name="workspace-settings"></a>Ustawienia obszaru roboczego
 
-![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except2.png)
+### <a name="create-workspaces-preview"></a>Tworzenie obszarów roboczych (wersja zapoznawcza)
+Użytkownicy w organizacji mogą tworzyć obszary robocze aplikacji, aby współpracować nad pulpitami nawigacyjnymi, raportami i inną zawartością.
+
+Aby uzyskać więcej informacji, zobacz [Tworzenie nowych obszarów roboczych](service-create-the-new-workspaces.md).
 
 ## <a name="export-and-sharing-settings"></a>Ustawienia eksportowania i udostępniania
 
@@ -244,7 +245,7 @@ Użytkownicy w organizacji mogą wchodzić w interakcje z elementami wizualnymi 
 > [!NOTE]
 > To ustawienie ma zastosowanie do całej organizacji i nie może być ograniczone do określonych grup.
 
-## <a name="audit-settings"></a>Ustawienia inspekcji
+## <a name="audit-and-usage-settings"></a>Ustawienia inspekcji i użycia
 
 ### <a name="create-audit-logs-for-internal-activity-auditing-and-compliance"></a>Twórz dzienniki inspekcji na potrzeby wewnętrznych inspekcji działań i sprawdzania zgodności
 
@@ -254,6 +255,25 @@ To ustawienie musi być włączone, aby można było rejestrować wpisy dziennik
 
 > [!NOTE]
 > To ustawienie ma zastosowanie do całej organizacji i nie może być ograniczone do określonych grup.
+
+### <a name="usage-metrics-for-content-creators"></a>Metryki użycia dla twórców zawartości
+Użytkownicy w organizacji widzą metryki użycia dla utworzonych przez siebie pulpitów nawigacyjnych i raportów. [Dowiedz się więcej](service-usage-metrics.md).
+
+Ustawienie możesz zmienić na **Włączone**, a następnie określić, kto może wyświetlać metryki użycia (cała organizacja lub konkretne grupy zabezpieczeń).
+
+> [!NOTE]
+> Należy pamiętać o tym, że uwzględnienie zmian ustawień dzierżawy może zabrać trochę czasu.
+
+### <a name="per-user-data-in-usage-metrics-for-content-creators"></a>Dane dotyczące poszczególnych użytkowników w metrykach użycia dla twórców zawartości
+Metryki użycia dla twórców zawartości będą ujawniać nazwy wyświetlane i adresy e-mail użytkowników, którzy uzyskują dostęp do zawartości. [Dowiedz się więcej](service-usage-metrics.md).
+
+Ustawienie możesz zmienić na **Włączone**, a następnie określić, kto może wyświetlać nazwy wyświetlane i adresy e-mail w metrykach użycia (cała organizacja lub konkretne grupy zabezpieczeń).
+
+Domyślnie dane poszczególnych użytkowników są włączone dla metryk użycia, a informacje o koncie twórcy zawartości są uwzględniane w raporcie metryk. Jeśli nie chcesz uwzględnić tych informacji dla niektórych lub wszystkich użytkowników, wyłączyć funkcję dla określonych grup zabezpieczeń lub całej organizacji. Informacje o koncie będą wyświetlane w raporcie jako *Bez nazwy*.
+
+> [!NOTE]
+> Należy pamiętać o tym, że uwzględnienie zmian ustawień dzierżawy może zabrać trochę czasu.
+
 
 ## <a name="dashboard-settings"></a>Ustawienia pulpitu nawigacyjnego
 
@@ -270,9 +290,9 @@ Użytkownicy w organizacji mogą tagować pulpity nawigacyjne przy użyciu klasy
 
 Użytkownicy w organizacji mogą osadzać pulpity nawigacyjne i raporty usługi Power BI w aplikacjach oprogramowania jako usługi (SaaS). Wyłączenie tego ustawienia sprawi, że użytkownicy nie będą w stanie używać interfejsów API REST do osadzania zawartości usługi Power BI w swoich aplikacjach.
 
-## <a name="premium-settings"></a>Ustawienia — wersja Premium
+## <a name="capacity-settings"></a>Ustawienia pojemności
 
-Karta Ustawienia — wersja Premium umożliwia zarządzanie pojemnością Power BI Premium zakupioną dla organizacji. Wszyscy użytkownicy w organizacji będą widzieć kartę ustawień wersji Premium, ale zobaczą zawartość na karcie tylko wtedy, jeśli przydzielono im rolę **administratora pojemności** lub użytkownika z uprawnieniami do przypisywania. Jeśli użytkownik nie ma żadnych uprawnień, zobaczy następujący komunikat.
+Karta Ustawienia pojemności umożliwia zarządzanie pojemnością Power BI Premium zakupioną dla organizacji. Wszyscy użytkownicy w organizacji będą widzieć kartę ustawień wersji Premium, ale zobaczą zawartość na karcie tylko wtedy, jeśli przydzielono im rolę **administratora pojemności** lub użytkownika z uprawnieniami do przypisywania. Jeśli użytkownik nie ma żadnych uprawnień, zobaczy następujący komunikat.
 
 ![](media/service-admin-portal/premium-settings-no-access.png "Brak dostępu do ustawień wersji Premium")
 
@@ -284,7 +304,7 @@ Aby uzyskać więcej informacji o zarządzaniu ustawieniami wersji Premium, zoba
 
 Jako administrator możesz wyświetlać kody osadzania, które są generowane dla dzierżawy. Do dyspozycji masz akcje wyświetlenia raportu i usunięcia kodu osadzania w celu odwołania go.
 
-## <a name="organization-visuals"></a>Organization visuals (Wizualizacje organizacji)
+## <a name="organization-visuals"></a>Wizualizacje organizacji
 
 Karta wizualizacji organizacji umożliwia wdrażanie niestandardowych wizualizacji oraz zarządzanie nimi w ramach organizacji. Pozwala łatwo implementować własne wizualizacje niestandardowe w organizacji, tak aby autorzy raportów mogli je w prosty sposób odnajdować i importować bezpośrednio z programu Power BI Desktop do swoich raportów.
  

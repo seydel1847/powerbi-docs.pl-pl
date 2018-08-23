@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f9c6d161149a4c862636a13ad88d3c43f2dbcd8a
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: cbec15b472e6cfad6134cc48970977132d61dd36
+ms.sourcegitcommit: 8990028a348b642ba5c96f001fe3a4280f0166ee
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39329316"
+ms.lasthandoff: 08/14/2018
+ms.locfileid: "40257059"
 ---
 # <a name="using-analysis-services-tabular-data-in-power-bi-desktop"></a>Używanie danych tabelarycznych usług Analysis Services w programie Power BI Desktop
 Program Power BI Desktop zapewnia dwa sposoby nawiązywania połączenia i pobierania danych z modeli tabelarycznych usług programu SQL Server Analysis Services: eksplorowanie przy użyciu połączenia na żywo lub wybranie elementów i zaimportowanie ich do programu Power BI Desktop.
@@ -24,7 +24,9 @@ Przyjrzyjmy się temu bliżej.
 
 **Eksploruj przy użyciu połączenia na żywo** — w przypadku użycia połączenia na żywo elementy w modelu tabelarycznym lub perspektywie, np. tabele, kolumny i miary, pojawiają się na liście pól w programie Power BI Desktop. Możesz użyć zaawansowanych narzędzi do obsługi wizualizacji i raportów programu Power BI Desktop, aby zbadać model tabelaryczny przy użyciu nowych, wysoce interaktywnych sposobów.
 
-Podczas nawiązywania połączenia na żywo żadne dane z modelu tabelarycznego nie są importowane do programu Power BI Desktop. Za każdym razem, gdy wchodzisz w interakcję z wizualizacją, program Power BI Desktop wysyła zapytanie do modelu tabelarycznego i oblicza wyświetlane wyniki. Zawsze patrzysz na najnowsze dane. Pamiętaj, że modele tabelaryczne są bardzo bezpieczne. Elementy pojawiające się w programie Power BI Desktop zależą od uprawnień modelu, z którym nawiązano połączenie.
+Podczas nawiązywania połączenia na żywo żadne dane z modelu tabelarycznego nie są importowane do programu Power BI Desktop. Za każdym razem, gdy wchodzisz w interakcję z wizualizacją, program Power BI Desktop wysyła zapytanie do modelu tabelarycznego i oblicza wyświetlane wyniki. Zawsze patrzysz na najnowsze dane, które są dostępne w modelu tabelarycznym, albo z czasu ostatniego przetwarzania, albo z tabel trybu DirectQuery dostępnych w modelu tabelarycznym. 
+
+Pamiętaj, że modele tabelaryczne są bardzo bezpieczne. Elementy pojawiające się w programie Power BI Desktop zależą od uprawnień modelu, z którym nawiązano połączenie.
 
 Po utworzeniu dynamicznych raportów w programie Power BI Desktop możesz udostępnić je poprzez opublikowanie w witrynie usługi Power BI. W przypadku publikowania pliku programu Power BI Desktop z połączeniem na żywo z modelem tabelarycznym i witryną usługi Power BI lokalna brama danych musi być zainstalowana i skonfigurowana przez administratora. Aby dowiedzieć się więcej, zobacz temat [Lokalna brama danych](service-gateway-onprem.md).
 

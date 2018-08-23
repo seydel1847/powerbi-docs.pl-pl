@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/30/2017
 ms.author: maghan
-ms.openlocfilehash: a9663951035a697a9fb1f8732d2ce418950078f4
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 0d165505981f841c7dfe9688c7a95cea3b6777c3
+ms.sourcegitcommit: 8990028a348b642ba5c96f001fe3a4280f0166ee
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37600384"
+ms.lasthandoff: 08/14/2018
+ms.locfileid: "40257236"
 ---
 # <a name="use-developer-tools-to-create-custom-visuals"></a>Tworzenie niestandardowych wizualizacji przy użyciu narzędzi deweloperskich
 Niestandardowe wizualizacje umożliwiają dostosowanie wizualizacji do potrzeb użytkowników i do projektu aplikacji. Dowiedz się, jak utworzyć niestandardową wizualizację dla usługi Power BI przy użyciu narzędzi deweloperskich.
@@ -178,10 +178,10 @@ Teraz możesz rozpocząć opracowywanie wizualizacji.
 Możesz utworzyć nowy projekt wizualizacji, uruchamiając następujące polecenie.
 
 ```
-pbiviz new My Visual name
+pbiviz new MyVisualName
 ```
 
-Ciąg *My Visual Name* możesz zastąpić wybraną nazwą wizualizacji. Tę nazwę można później zmienić, modyfikując pola `name` i `displayName` w wygenerowanym pliku `pbiviz.json`.
+Ciąg *MyVisualName* możesz zastąpić wybraną nazwą wizualizacji. Tę nazwę można później zmienić, modyfikując pola `name` i `displayName` w wygenerowanym pliku `pbiviz.json`.
 
 To polecenie spowoduje utworzenie nowego folderu w katalogu, w którym uruchomiono polecenie. Zostanie wygenerowany podstawowy szablon początkowy wizualizacji. Po wykonaniu polecenia możesz otworzyć ten katalog i rozpocząć pracę nad nową wizualizacją w preferowanym edytorze.
 

@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
 ms.author: jtarquino
-ms.openlocfilehash: e0f90ccade44960cf24fd133b4caf46280b4a511
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: ec97676fc043f9d8bd014465cc1fd2c0ffcca423
+ms.sourcegitcommit: 52278d8e0c23ae5eaf46b10a6a2f1fb071a0f1cc
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34482135"
+ms.lasthandoff: 08/16/2018
+ms.locfileid: "40257114"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Dziennik zmian w Serwerze raportów usługi Power BI
 
@@ -22,6 +22,18 @@ Ten dziennik zmian zawiera listę nowych elementów oraz poprawek błędów w ka
 
 Aby uzyskać szczegółowe informacje o nowych funkcjach, zobacz [Co nowego w Serwerze raportów usługi Power BI](whats-new.md). 
 
+## <a name="august-2018"></a>Sierpień 2018 r.
+- **Serwer raportów usługi Power BI**
+    - *Wersja 1.3.6801.38816 (kompilacja 15.0.2.540), data wydania: 15 sierpnia 2018 r.*
+        - Funkcje
+            - Obsługa trybu DirectQuery w przypadku logowania jednokrotnego na platformie SAP HANA przy użyciu protokołu Kerberos jest teraz dostępna dla raportów usługi Power BI
+            - Wraz z tą wersją jest dostarczany interfejs API wizualizacji niestandardowej w wersji 1.13.0
+            - Wizualizacje niestandardowe będą w razie potrzeby korzystać z wcześniejszej wersji zgodnej z bieżącą wersją interfejsu API serwera (jeśli jest dostępna)
+
+- **Power BI Desktop (zoptymalizowany pod kątem serwera raportów usługi Power BI)**
+    - *Wersja: 2.61.5192.64 (sierpień 2018 r.), data wydania: 15 sierpnia 2018 r.*
+        - Obejmuje zmiany wymagane do nawiązania połączenia z serwerem raportów usługi Power BI (sierpień 2018 r.)         
+        
 ## <a name="march-2018"></a>Marzec 2018
 - **Serwer raportów usługi Power BI**
     - *Wersja 1.2.6690.34729 (kompilacja 15.0.2.402), data wydania: 27 kwietnia 2018 r.*

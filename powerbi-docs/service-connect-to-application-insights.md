@@ -7,15 +7,15 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 08/10/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 6ccf112a78e69e006a4ca3d6e8a7cd372adf5f05
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 3c1000eb48cfb53f5838f19f6c0ece4403e9d3ba
+ms.sourcegitcommit: 126e5eca8bfab6273581dabd7603df88be755240
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34244254"
+ms.lasthandoff: 08/11/2018
+ms.locfileid: "40257169"
 ---
 # <a name="connect-to-application-insights-with-power-bi"></a>Łączenie się z usługą Application Insights za pomocą usługi Power BI
 Usługa Power BI umożliwia tworzenie zaawansowanych niestandardowych pulpitów nawigacyjnych z telemetrii usługi [Application Insights](https://azure.microsoft.com/documentation/articles/app-insights-overview/). Dostępne są nowe sposoby wykorzystania telemetrii aplikacji. Możesz łączyć metryki z wielu aplikacji lub usług składowych na jednym pulpicie nawigacyjnym. Ta pierwsza wersja pakietu zawartości usługi Power BI dla usługi Application Insights zawiera widgety dla typowych metryk związanych z użyciem, takich jak aktywni użytkownicy, widok strony, sesje, przeglądarka i wersja systemu operacyjnego oraz rozkład geograficzny użytkowników na mapie.
@@ -23,7 +23,7 @@ Usługa Power BI umożliwia tworzenie zaawansowanych niestandardowych pulpitów 
 Połącz się z [pakietem zawartości Application Insights dla usługi Power BI](https://app.powerbi.com/getdata/services/application-insights).
 
 >[!NOTE]
->W celu nawiązania połączenia wymagany jest dostęp do bloku przeglądu usługi Application Insights dla aplikacji w Portalu Azure w wersji zapoznawczej. Więcej szczegółowych informacji na temat wymagań znajduje się poniżej.
+>Ta metoda integracji jest obecnie **przestarzała**. Aby dowiedzieć się więcej na temat preferowanej metody nawiązywania połączenia między usługą Application Insights i usługą Power BI, skorzystaj z [funkcji eksportowania zapytania analizy](https://docs.microsoft.com/azure/application-insights/app-insights-export-power-bi#export-analytics-queries).
 
 ## <a name="how-to-connect"></a>Jak nawiązać połączenie
 1. Wybierz pozycję **Pobierz dane** w dolnej części okienka nawigacji po lewej stronie.

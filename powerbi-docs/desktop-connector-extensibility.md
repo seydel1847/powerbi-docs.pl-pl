@@ -10,22 +10,22 @@ ms.topic: conceptual
 ms.date: 07/25/2018
 ms.author: gepopell
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c63357df043ff6a646562d398a07d8042dd5a0ee
-ms.sourcegitcommit: 7fb0b68203877ff01f29724f0d1761d023075445
+ms.openlocfilehash: bba674df9864697199a274698a1b17320b8ccd80
+ms.sourcegitcommit: 9d6f37fd32b965592bd7b108dea87b8e53b11334
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 07/26/2018
-ms.locfileid: "39256566"
+ms.lasthandoff: 08/18/2018
+ms.locfileid: "40256810"
 ---
 # <a name="connector-extensibility-in-power-bi"></a>Rozszerzalność łącznika w usłudze Power BI
 
 W usłudze Power BI klienci i deweloperzy mogą rozszerzać źródła danych, z którymi mogą nawiązać połączenie na wiele sposobów, np. przy użyciu istniejących łączników i ogólnych źródeł danych (takich jak ODBC, OData, Oledb, CSV, XML, JSON lub internetowe źródło danych). Oprócz tych źródeł danych deweloperzy mogą tworzyć rozszerzenia danych nazywane **łącznikami niestandardowymi**, a także certyfikować łączniki, aby mogły one stać się **łącznikami certyfikowanymi**.
 
-W poprzednich wersjach programu Power BI możliwość używania **łączników niestandardowych** byłą włączana za pomocą przełącznika funkcji. Teraz istnieje menu pozwalające na bezpieczne kontrolowanie poziomu kodu niestandardowego, który może być uruchamiany w systemie: wszystkie łączniki niestandardowe lub tylko łączniki, które są certyfikowane i dystrybuowane przez firmę Microsoft w oknie dialogowym **Pobieranie danych**.
+Obecnie możliwość używania **łączników niestandardowych** jest włączana za pomocą przełącznika funkcji. Zanim ta funkcja w wersji beta stanie się ogólnie dostępna, dodaliśmy menu pozwalające na bezpieczne kontrolowanie poziomu kodu niestandardowego, który może być uruchamiany w systemie: wszystkie łączniki niestandardowe lub tylko łączniki, które są certyfikowane i dystrybuowane przez firmę Microsoft w oknie dialogowym **Pobieranie danych**.
 
 ## <a name="custom-connectors"></a>Łączniki niestandardowe
 
-**Łączniki niestandardowe** mogą być bardzo różne — od niewielkich interfejsów API, które mają kluczowe znaczenie dla Twojej firmy, do dużych usług branżowych, które nie zostały zaimplementowane przez firmę Microsoft. Większość takich łączników będzie dystrybuowana przez samych dostawców, więc jeśli potrzebujesz użyć określonego łącznika danych, skontaktuj się z dostawcą.
+**Łączniki niestandardowe** mogą być bardzo różne — od niewielkich interfejsów API, które mają kluczowe znaczenie dla Twojej firmy, do dużych usług branżowych, dla których firma Microsoft nie udostępniła łącznika. Wiele łączników jest dystrybuowanych przez samych dostawców, więc jeśli potrzebujesz użyć określonego łącznika danych, skontaktuj się z dostawcą.
 
 Aby użyć **łącznika niestandardowego**, umieść go w folderze *\[Documents]\\Power BI Desktop\\Custom Connectors*, a następnie dostosuj ustawienia zabezpieczeń zgodnie z opisem w poniższej sekcji.
 
@@ -42,16 +42,16 @@ W obszarze **Rozszerzenia danych** możesz wybrać jeden z dwóch poziomów zabe
 * (Zalecane) Zezwalaj na ładowanie tylko rozszerzeń certyfikowanych
 * (Niezalecane) Zezwalaj na ładowanie wszystkich rozszerzeń bez ostrzeżenia
 
-Jeśli planowane jest użycie **łączników niestandardowych** lub łączników utworzonych i dystrybuowanych przez Ciebie lub inną firmę, należy wybrać pozycję **(Niezalecane) Zezwalaj na ładowanie wszystkich rozszerzeń bez ostrzeżenia**. Nie zalecamy używania tego ustawienia zabezpieczeń, jeśli nie jest planowane uruchamianie **łączników niestandardowych**.
+Jeśli planowane jest użycie **łączników niestandardowych** lub łączników utworzonych i dystrybuowanych przez Ciebie lub inną firmę, należy wybrać pozycję **„(Niezalecane) Zezwalaj na ładowanie wszystkich rozszerzeń bez ostrzeżenia”**. Nie zalecamy używania tego ustawienia zabezpieczeń, jeśli nie jest planowane uruchamianie **łączników niestandardowych**.
 
-Jeśli zostanie użyte ustawienie zabezpieczeń **(Zalecane)**, a w systemie istnieją łączniki niestandardowe, zostanie wyświetlony błąd z opisem łączników, których nie można załadować ze względu na zabezpieczenia.
+Jeśli zostanie użyte ustawienie zabezpieczeń **„(Zalecane)”**, a w systemie istnieją łączniki niestandardowe, zostanie wyświetlony błąd z opisem łączników, których nie można załadować ze względu na zabezpieczenia.
 
 ![W oknie dialogowym zostaną opisane łączniki niestandardowe, których nie można załadować z powodu ustawień zabezpieczeń (w tym przypadku jest to łącznik TripPin)](media/desktop-connector-extensibility/data-extension-security-2.png)
 
-Aby naprawić ten błąd i móc użyć takich łączników, należy zmienić ustawienia zabezpieczeń na wartość **(Niezalecane)** zgodnie z wcześniejszym opisem, a następnie ponownie uruchomić program **Power BI Desktop**.
+Aby naprawić ten błąd i móc użyć takich łączników, należy zmienić ustawienia zabezpieczeń na wartość **„(Niezalecane)”** zgodnie z wcześniejszym opisem, a następnie ponownie uruchomić program **Power BI Desktop**.
 
 ## <a name="certified-connectors"></a>Łączniki certyfikowane
 
 Ograniczony podzbiór rozszerzeń danych jest traktowany jako **certyfikowany** i takie certyfikowane łączniki są dostępne za pośrednictwem okna **Pobieranie danych**, ale za obsługę i pomoc techniczną nadal jest odpowiedzialna inna firma, która utworzyła łącznik. Firma Microsoft dystrybuuje takie łączniki, ale nie jest odpowiedzialna za ich wydajność ani nieprzerwane działanie.
 
-Jeśli chcesz, aby łącznik niestandardowy uzyskał certyfikat, poproś swojego dostawcę o kontakt z firmą Microsoft.
+Jeśli chcesz, aby łącznik niestandardowy uzyskał certyfikat, poproś swojego dostawcę o napisanie wiadomości na adres dataconnectors@microsoft.com.

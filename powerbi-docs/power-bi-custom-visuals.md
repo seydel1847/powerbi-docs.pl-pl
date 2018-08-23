@@ -2,47 +2,46 @@
 title: Wizualizacje niestandardowe w usłudze Power BI
 description: Wizualizacje niestandardowe w usłudze Power BI
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
 ms.date: 02/06/2018
-ms.author: maghan
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d8c3a33a3ae6166d33ea7a613917616613b84696
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 872f0c556dd995c20d461d9f4969b7fa00f80571
+ms.sourcegitcommit: 8990028a348b642ba5c96f001fe3a4280f0166ee
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34721460"
+ms.lasthandoff: 08/14/2018
+ms.locfileid: "40256881"
 ---
 # <a name="custom-visuals-in-power-bi"></a>Wizualizacje niestandardowe w usłudze Power BI
+
 Podczas tworzenia lub edytowania raportu usługi Power BI dostępnych jest wiele rodzajów wizualizacji. Te wizualizacje wyświetlane są w okienku **Wizualizacje**. Gdy pobierasz program Power BI Desktop lub otwierasz usługę Power BI (app.powerbi.com), ten zestaw wizualizacji jest już dostępny.
 
 ![](media/power-bi-custom-visuals/power-bi-visualizations.png)
 
 Ale możliwości nie kończą się na tym zestawie wizualizacji. Wybranie wielokropka otwiera kolejne źródło wizualizacji raportów: *wizualizacje niestandardowe*.
 
-Deweloperzy tworzą wizualizacje niestandardowe przy użyciu zestawu SDK wizualizacji niestandardowych, aby umożliwić użytkownikom biznesowym przeglądanie danych w sposób najlepiej odpowiadający ich potrzebom biznesowym. Autorzy raportów mogą następnie importować pliki wizualizacji niestandardowych do swoich raportów i używać ich tak samo, jak pozostałych wizualizacji usługi Power BI. Wizualizacje niestandardowe odgrywają pierwszoplanową rolę w usłudze Power BI. Można je filtrować, wyróżniać, edytować i udostępniać itp.
+Deweloperzy tworzą wizualizacje niestandardowe przy użyciu zestawu SDK wizualizacji niestandardowych, aby umożliwić użytkownikom biznesowym przeglądanie danych w sposób najlepiej odpowiadający ich potrzebom biznesowym. Autorzy raportów mogą następnie importować pliki wizualizacji niestandardowych do swoich raportów i używać ich tak samo, jak pozostałych wizualizacji usługi Power BI. Wizualizacje niestandardowe odgrywają pierwszoplanową rolę w usłudze Power BI. Można je filtrować, wyróżniać, edytować, udostępniać itp.
 
-Wizualizacje niestandardowe mogą występować w postaci 3 kanałów wdrażania:
+Wizualizacje niestandardowe mogą występować w postaci trzech kanałów wdrażania:
 * Pliki wizualizacji niestandardowych
 * Wizualizacje organizacji
 * Wizualizacje platformy handlowej
 
 ## <a name="custom-visual-files"></a>Pliki wizualizacji niestandardowych
 
-Wizualizacje niestandardowe to pakiety zawierające kod renderowania danych, które są przez nie obsługiwane. Każdy może utworzyć wizualizację niestandardową i spakować ją do jednego pliku pbiviz, który można zaimportować do raportu usługi Power BI.
+Wizualizacje niestandardowe to pakiety zawierające kod renderowania danych, które są przez nie obsługiwane. Każdy może utworzyć wizualizację niestandardową i spakować ją do jednego pliku `.pbiviz`, który można zaimportować do raportu usługi Power BI.
 
 > [!WARNING]
 > Wizualizacja niestandardowa może zawierać kod zagrażający bezpieczeństwu lub prywatności. Przed jej zaimportowaniem do raportu upewnij się, że autor i źródło wizualizacji niestandardowej należą do zaufanych.
-> 
-> 
 
-## <a name="organization-visuals"></a>Organization visuals (Wizualizacje organizacji)
+## <a name="organization-visuals"></a>Wizualizacje organizacji
 
-Administratorzy usługi Power BI mogą wdrażać wizualizacje niestandardowe w organizacji, umożliwiając autorom raportów łatwe odnajdowanie i używanie tych wizualizacji, które zostały przez niego zatwierdzone do użycia w organizacji. Dzięki temu administrator może wybierać określone wizualizacje niestandardowe do wdrożenia w organizacji oraz w prosty sposób nimi zarządzać (tj. aktualizować wersje, wyłączać je i włączać). Autor raportu zyskuje prosty sposób odnajdowania wizualizacji, które są unikatowe dla organizacji, oraz bezproblemową obsługę aktualizacji wizualizacji.
+Administratorzy usługi Power BI mogą wdrażać wizualizacje niestandardowe w organizacji, umożliwiając autorom raportów łatwe odnajdowanie i używanie tych wizualizacji, które zostały przez niego zatwierdzone do użycia w organizacji. Dzięki temu administrator może wybierać określone wizualizacje niestandardowe do wdrożenia w organizacji oraz w prosty sposób nimi zarządzać (np. aktualizować ich wersję oraz wyłączać je i włączać). Autor raportu zyskuje prosty sposób odnajdowania wizualizacji, które są unikatowe dla organizacji, oraz bezproblemową obsługę aktualizacji wizualizacji.
 
 Aby uzyskać więcej informacji o wizualizacjach niestandardowych organizacji, [przeczytaj więcej na temat wizualizacji organizacji](power-bi-custom-visuals-organization.md).
 
@@ -59,7 +58,7 @@ Aby zapoznać się z listą certyfikowanych wizualizacji niestandardowych lub pr
 
 Jesteś deweloperem internetowym i chcesz tworzyć własne wizualizacje oraz dodać je do usługi AppSource? Zapoznaj się z artykułem [Wprowadzenie do narzędzi deweloperskich](https://docs.microsoft.com/power-bi/service-custom-visuals-getting-started-with-developer-tools) i dowiedz się, jak [publikować wizualizacje niestandardowe w usłudze AppSource](https://appsource.microsoft.com/en-us/marketplace/apps?product=power-bi-visuals).
 
-### <a name="import-a-custom-visuals-from-a-file"></a>Importowanie wizualizacji niestandardowych z pliku
+### <a name="import-a-custom-visual-from-a-file"></a>Importowanie wizualizacji niestandardowej z pliku
 
 1. Wybierz wielokropek u dołu okienka Wizualizacje.
 
@@ -69,7 +68,7 @@ Jesteś deweloperem internetowym i chcesz tworzyć własne wizualizacje oraz dod
 
     ![](media/power-bi-custom-visuals/power-bi-custom-visual-import-from-file.png)
 
-3. W menu Otwórz plik wybierz plik pbiviz, który chcesz zaimportować, a następnie wybierz przycisk Otwórz. Ikona wizualizacji niestandardowej zostanie dodana do dołu okienka Wizualizacje i będzie jej można używać w raporcie.
+3. W menu Otwórz plik wybierz plik `.pbiviz`, który chcesz zaimportować, a następnie wybierz przycisk Otwórz. Ikona wizualizacji niestandardowej zostanie dodana do dołu okienka Wizualizacje i będzie jej można używać w raporcie.
 
     ![](media/power-bi-custom-visuals/power-bi-custom-visual-imported.png)
 
@@ -94,8 +93,9 @@ Jesteś deweloperem internetowym i chcesz tworzyć własne wizualizacje oraz dod
 5. Zaimportuj wizualizację niestandardową, wybierając opcję **Dodaj**. Ikona wizualizacji niestandardowej zostanie dodana do dołu okienka Wizualizacje i będzie jej można używać w raporcie.
 
     ![](media/power-bi-custom-visuals/power-bi-visual-org-05.png)
- 
+
 ## <a name="download-or-import-custom-visuals-from-microsoft-appsource"></a>Pobieranie lub importowanie wizualizacji niestandardowych z usługi AppSource firmy Microsoft
+
 Dostępne są dwie opcje pobierania i importowania wizualizacji niestandardowych: z usługi Power BI i z witryny internetowej AppSource.
 
 ### <a name="import-custom-visuals-from-within-power-bi"></a>Importowanie wizualizacji w usłudze Power BI
@@ -138,11 +138,11 @@ Dostępne są dwie opcje pobierania i importowania wizualizacji niestandardowych
 
     ![](media/power-bi-custom-visuals/power-bi-appsource-visuals.png)
 
-3. Usługa AppSource wyświetla kafelek dla każdej wizualizacji niestandardowej.  Każdy kafelek zawiera migawkę wizualizacji niestandardowej oraz krótki opis i link pobierania. Aby zobaczyć więcej szczegółów, wybierz kafelek. 
+3. Usługa AppSource wyświetla kafelek dla każdej wizualizacji niestandardowej.  Każdy kafelek zawiera migawkę wizualizacji niestandardowej oraz krótki opis i link pobierania. Aby zobaczyć więcej szczegółów, wybierz kafelek.
 
     ![](media/power-bi-custom-visuals/powerbi-custom-select-visual.png)
 
-4. Na stronie szczegółów można wyświetlić zrzuty ekranu, wideo, szczegółowy opis i nie tylko. Pobierz wizualizację niestandardową, wybierając opcję **Pobierz teraz** i zgadzając się na warunki użytkowania. 
+4. Na stronie szczegółów można wyświetlić zrzuty ekranu, wideo, szczegółowy opis i nie tylko. Pobierz wizualizację niestandardową, wybierając opcję **Pobierz teraz** i akceptując warunki użytkowania.
 
     ![](media/power-bi-custom-visuals/power-bi-appsource-get.png)
 
@@ -156,9 +156,9 @@ Dostępne są dwie opcje pobierania i importowania wizualizacji niestandardowych
 
     ![](media/power-bi-custom-visuals/powerbi-custom-try-sample.png)
 
-6. Zapisz plik pbiviz, a następnie otwórz usługę Power BI.
+6. Zapisz plik „pbiviz”, a następnie otwórz usługę Power BI.
 
-7. Zaimportuj plik pbiviz do raportu (zobacz sekcję [Importowanie wizualizacji niestandardowych z pliku](#import-a-custom-visuals-from-a-file) powyżej).
+7. Zaimportuj plik „pbiviz” do raportu (zobacz sekcję [Importowanie wizualizacji niestandardowej z pliku](#import-a-custom-visuals-from-a-file) powyżej)
 
 ## <a name="considerations-and-troubleshooting"></a>Istotne zagadnienia i rozwiązywanie problemów
 

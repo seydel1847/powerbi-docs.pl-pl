@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/05/2018
+ms.date: 08/17/2018
 ms.author: maggies
-ms.openlocfilehash: 5b4d5ea7970dd44cfebadca6935452688515aef5
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: eee7c4989c4856ab86cb4883f8004198da00e4fd
+ms.sourcegitcommit: 23bb84cd3e80ba7f03d559e48db322774d1a6fe0
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34799423"
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "40257360"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Eksplorowanie raportów w aplikacjach mobilnych Power BI
 Dotyczy:
@@ -84,7 +84,7 @@ Po wybraniu wartości w wizualizacji inne wizualizacje nie są filtrowane. Zamia
 ## <a name="drill-down-and-up-in-a-visual"></a>Przechodzenie do szczegółów i uogólnianie w wizualizacji
 Jeśli autor raportu dodał możliwość przechodzenia do szczegółów wizualizacji, możesz przejść do szczegółów w wizualizacji, aby zobaczyć wartości, które tworzą jedną jej część. [Możliwość przechodzenia do szczegółów możesz dodać do wizualizacji](power-bi-visualization-drill-down.md) w programie Power BI Desktop lub usłudze Power BI. 
 
-* Naciśnij punkt danych w wizualizacji, aby wyświetlić jego etykietkę narzędzia. Jeśli wizualizacja obsługuje przechodzenie do szczegółów, w dolnej części etykietki narzędzia są strzałki, które można nacisnąć. 
+* Naciśnij i przytrzymaj określony pasek lub punkt w wizualizacji, aby wyświetlić jego etykietkę narzędzia. Jeśli wizualizacja obsługuje przechodzenie do szczegółów, w dolnej części etykietki narzędzia są strzałki, które można nacisnąć. 
   
   ![Przechodzenie do szczegółów w wizualizacji](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-down-tooltip.png)
 
