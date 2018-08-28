@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d696a7492f1295f2e2c9b39088b0eacdb66b15ca
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: be532e428680d9286247f57d81cab2802aea1fe3
+ms.sourcegitcommit: 9a666382484882162690efaed106b82a4bcbf883
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34310181"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "42799050"
 ---
 # <a name="hyperlinks-in-tables"></a>Hiperlinki w tabelach
 W tym temacie opisano, jak tworzyć hiperlinki, używając programu Power BI Desktop. Po utworzeniu hiperlinków można je dodawać do tabel i macierzy raportu za pomocą programu Desktop lub usługi Power BI. 
@@ -39,8 +39,10 @@ Procedura dodawania hiperlinku zależy od tego, czy dane zostały zaimportowane,
     ![](media/power-bi-hyperlinks-in-tables/pbi_data_category.png)
 3. Wybierz pozycję **Internetowy adres URL**.
 4. Przełącz się do widoku raportu i utwórz tabelę lub macierz, korzystając z pola z kategorią Internetowy adres URL. Hiperlinki będą podkreślone i w kolorze niebieskim.
-   
     ![](media/power-bi-hyperlinks-in-tables/power-bi-table-with-hyperlinks2.png)
+> **UWAGA**: adresy URL muszą zaczynać się od **http://, https://** lub **www**.
+> 
+>   
 5. Jeśli nie chcesz wyświetlać długiego adresu URL w tabeli, możesz zamiast tego wyświetlić ikonę hiperlinku ![](media/power-bi-hyperlinks-in-tables/power-bi-hyperlink-icon.png). Należy pamiętać, że nie można wyświetlać ikon w macierzach.
    
    * Wybierz wykres, aby go uaktywnić.
