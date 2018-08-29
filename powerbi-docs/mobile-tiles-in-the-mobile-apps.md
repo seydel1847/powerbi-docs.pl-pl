@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: eda7f44c869829564703bda6112177234d3f2d44
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 20bdd4731cd4aad3c6412d1959de3be088a3457a
+ms.sourcegitcommit: ef4bf1439bc5655d1afc7fb97079ea0679e9124b
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39280138"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43151957"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Eksploruj kafelki w aplikacjach mobilnych usługi Power BI
 Dotyczy:
@@ -28,10 +28,6 @@ Kafelki to żywe migawki Twoich danych przypięte do pulpitu nawigacyjnego. Ich 
 Następnie w aplikacjach mobilnych usługi Power BI otwórz kafelki w trybie ostrości i wejdź z nimi w interakcję. Możesz otworzyć kafelki z wszelkiego rodzaju elementami wizualnymi, łącznie z kafelkami opartymi na usłudze Bing i języku R.
 
 ## <a name="tiles-in-the-ios-apps"></a>Kafelki w aplikacjach systemu iOS
-> [!NOTE]
-> Możesz [tworzyć kafelki obrazu za pomocą aplikacji urządzenia iPhone](mobile-iphone-app-get-started.md) i zapisywać je na swoich pulpitach nawigacyjnych.
-> 
-> 
 
 1. Otwórz [pulpit nawigacyjny w aplikacji mobilnej dla systemu iOS](mobile-apps-view-dashboard.md).
 2. Naciśnij kafelek. Zostanie on otwarty w trybie ostrości, gdzie jest łatwiej wyświetlać i eksplorować dane kafelka. W trybie ostrości możesz wykonywać następujące czynności:
@@ -40,7 +36,7 @@ Następnie w aplikacjach mobilnych usługi Power BI otwórz kafelki w trybie ost
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-line-tile-values.png)
    
-   <em>Na przykład na tym wykresie liniowym wybrane wartości dotyczą **Sprzedaży w tym roku</em>* i **Sprzedaży w poprzednim roku** w **sierpniu**.*  
+   *Na przykład na tym wykresie liniowym wybrane wartości dotyczą **Sprzedaży w tym roku** i **Sprzedaży w poprzednim roku** w **sierpniu**.*  
    
    Na wykresie kołowym naciśnij wycinek koła, aby wyświetlić wartość wycinka u góry koła.  
    
@@ -107,7 +103,7 @@ Następnie w aplikacjach mobilnych usługi Power BI otwórz kafelki w trybie ost
    
    ![](media/mobile-tiles-in-the-mobile-apps/pbi_win10ph_bartile0316.png)
    
-   <em>Na tym wykresie słupkowym wartości paska **Decor</em>* są wyświetlane w górnej części wykresu.*
+   *Na tym wykresie słupkowym wartości paska **Decor** są wyświetlane w górnej części wykresu.*
    
    Naciśnij ikonę **Pełny ekran** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-full-screen-icon.png), aby otworzyć kafelek w trybie pełnoekranowym, bez pasków nawigacji i menu.
    
