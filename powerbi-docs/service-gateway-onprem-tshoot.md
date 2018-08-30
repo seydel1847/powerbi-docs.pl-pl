@@ -10,12 +10,12 @@ ms.component: powerbi-gateways
 ms.topic: conceptual
 ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: f0f29cb88c77f3d7775670c0869ee55938327763
-ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
+ms.openlocfilehash: cbc1d6304a7ee34b489d93488115ceb80864a42d
+ms.sourcegitcommit: ef4bf1439bc5655d1afc7fb97079ea0679e9124b
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39658017"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43151911"
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>Rozwiązywanie problemów z lokalną bramą danych
 
@@ -279,7 +279,7 @@ Poniżej znajduje się lista dostępnych liczników wydajności.
 | Liczba zakończonych niepowodzeniem otwarć połączenia Mashup na sekundę |Liczba wykonanych w ciągu sekundy akcji otwarcia połączenia Mashup, które zakończyły się niepowodzeniem. |
 | Liczba wykonanych zapytań Mashup na sekundę |Liczba wykonanych w ciągu sekundy zapytań Mashup (zakończonych powodzeniem lub niepowodzeniem). |
 | Liczba zakończonych niepowodzeniem zapytań Mashup na sekundę |Liczba wykonanych w ciągu sekundy zapytań Mashup, które zakończyły się niepowodzeniem. |
-| Liczba zestawów wielu wyników zakończonych niepowodzeniem zapytań OLEDB na sekundę |Liczba zestawów wielu wyników zakończonych niepowodzeniem zapytań OLEDB wykonanych w ciągu sekundy. |
+| Liczba zakończonych niepowodzeniem zapytań z wieloma zestawami wyników OLEDB na sekundę |Liczba zestawów wielu wyników zakończonych niepowodzeniem zapytań OLEDB wykonanych w ciągu sekundy. |
 | Liczba zestawów wielu wyników OLEDB dla wykonanych zapytań na sekundę |Liczba zestawów wielu wyników OLEDB dla wykonanych zapytań na sekundę (zakończonych powodzeniem lub niepowodzeniem). |
 | Liczba wykonanych otwarć połączenia OLEDB na sekundę |Liczba wykonanych w ciągu sekundy akcji otwarcia połączenia OLEDB (zakończonych powodzeniem lub niepowodzeniem). |
 | Liczba zakończonych niepowodzeniem otwarć połączenia OLEDB na sekundę |Liczba wykonanych w ciągu sekundy akcji otwarcia połączenia OLEDB, które zakończyły się niepowodzeniem. |

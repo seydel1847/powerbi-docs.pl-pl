@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 08/21/2018
-ms.openlocfilehash: f56e05e51090f37fdb0bcd295ec877ee73b5dac0
-ms.sourcegitcommit: 640382408111d6e9cd1b9dfad0b484e3c727e454
+ms.openlocfilehash: dc29336754be008b541f146fff7c5f8609472cd0
+ms.sourcegitcommit: dddb6f8d39131febadfd97efa0e0e1d728f4f5ff
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/22/2018
-ms.locfileid: "40257949"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "42703011"
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>Konfigurowanie serwera raportów do hostowania skoroszytów programu Excel przy użyciu programu Office Online Server (OOS)
 
@@ -37,7 +37,7 @@ Należy wykonać następujące procedury na serwerze, na którym będzie urucham
     ```
 
     **Windows Server 2016:**
-   
+
     ```
     Add-WindowsFeature Web-Server,Web-Mgmt-Tools,Web-Mgmt-Console,Web-WebServer,Web-Common-Http,Web-Default-Doc,Web-Static-Content,Web-Performance,Web-Stat-Compression,Web-Dyn-Compression,Web-Security,Web-Filtering,Web-Windows-Auth,Web-App-Dev,Web-Net-Ext45,Web-Asp-Net45,Web-ISAPI-Ext,Web-ISAPI-Filter,Web-Includes,NET-Framework-Features,NET-Framework-45-Features,NET-Framework-Core,NET-Framework-45-Core,NET-HTTP-Activation,NET-Non-HTTP-Activ,NET-WCF-HTTP-Activation45,Windows-Identity-Foundation,Server-Media-Foundation
     ```
@@ -57,9 +57,9 @@ Jeśli planujesz używać funkcji programu Excel Online korzystających z dostę
 1. Pobierz program Office Online Server z [centrum usługi licencjonowania zbiorowego](http://go.microsoft.com/fwlink/p/?LinkId=256561). Plik do pobrania znajduje się w obszarze produktów pakietu Office w portalu centrum usługi licencjonowania zbiorowego. W celach programistycznych możesz pobrać program OOS z plików do pobrania w witrynie MSDN.
 2. Uruchom program Setup.exe.
 3. Na stronie **Przeczytaj postanowienia licencyjne dotyczące oprogramowania firmy Microsoft** wybierz pozycję **Akceptuję postanowienia tej umowy** i wybierz przycisk **Kontynuuj**.
-4. Na stronie **Wybierz lokalizację pliku** wybierz folder, w którym mają zostać zainstalowane pliki programu Office Online Server (na przykład *C:\Program Files\Microsoft Office Web Apps*) i wybierz przycisk **Zainstaluj teraz**. Jeśli określony folder nie istnieje, zostanie utworzony przez instalator.
+4. Na stronie **Wybierz lokalizację pliku** wybierz folder, w którym mają zostać zainstalowane pliki programu Office Online Server (na przykład C:\Program Files\Microsoft Office Web Apps*) i wybierz pozycję **Zainstaluj teraz**. Jeśli określony folder nie istnieje, zostanie utworzony przez instalator.
 
-    **_Zalecamy zainstalowanie programu Office Online Server na dysku systemowym._**
+    Zalecamy zainstalowanie programu Office Online Server na dysku systemowym.
 
 5. Po zakończeniu instalacji programu Office Online Server przez instalator wybierz przycisk **Zamknij**.
 

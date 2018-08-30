@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/17/2018
+ms.date: 08/24/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 271859dbc13e909d255e4287ae14e66b2d85724f
-ms.sourcegitcommit: 23bb84cd3e80ba7f03d559e48db322774d1a6fe0
+ms.openlocfilehash: cde28e7c41a35c3bbc37d0da56313ad7f8698110
+ms.sourcegitcommit: 15b877343540bb7e21f1d5bbd3d6f64e66fa138c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/20/2018
-ms.locfileid: "40256425"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42914524"
 ---
 # <a name="create-the-new-workspaces-preview-in-power-bi"></a>Tworzenie nowych obszarów roboczych (wersja zapoznawcza) w usłudze Power BI
 
@@ -29,12 +29,13 @@ Nowe obszary robocze w wersji zapoznawczej umożliwiają:
 - Tworzenie grupy roboczej w usłudze Power BI bez konieczności tworzenia grupy usługi Office 365.
 - Korzystanie z bardziej wyspecjalizowanych ról obszarów roboczych, co umożliwia bardziej elastyczne zarządzanie uprawnieniami w obszarze roboczym.
  
-Tworząc jeden z nowych obszarów roboczych, nie tworzysz skojarzonej bazowej grupy usługi Office 365. Administracja obszarem roboczym odbywa się w usłudze Power BI, a nie Office 365. Nadal możesz dodać grupę usługi Office 365 do obszaru roboczego, aby dalej zarządzać dostępem użytkowników do zawartości za pośrednictwem grup usługi Office 365. Możesz jednak dodatkowo korzystać z grup zabezpieczeń i list dystrybucyjnych oraz dodawać pojedynczych użytkowników bezpośrednio w usłudze Power BI, co daje więcej możliwości zarządzania dostępem do obszarów roboczych.
+Tworząc jeden z nowych obszarów roboczych, nie tworzysz skojarzonej bazowej grupy usługi Office 365. Administracja obszarem roboczym odbywa się w usłudze Power BI, a nie Office 365. Nadal możesz dodać grupę usługi Office 365 do obszaru roboczego, aby dalej zarządzać dostępem użytkowników do zawartości za pośrednictwem grup usługi Office 365. Możesz jednak dodatkowo korzystać z grup zabezpieczeń i list dystrybucyjnych oraz dodawać pojedynczych użytkowników bezpośrednio w usłudze Power BI, co daje więcej możliwości zarządzania dostępem do obszarów roboczych. Ponieważ administrowanie obszarem roboczym jest teraz dostępne w usłudze Power BI, administratorzy usługi Power BI decydują, kto w organizacji może tworzyć obszary robocze. Szczegółowe informacje można znaleźć w [sekcji dotyczącej obszarów roboczych w artykule Portal administracyjny usługi Power BI](service-admin-portal.md#workspace-settings). 
 
 Możesz dodawać grupy użytkowników lub pojedynczych użytkowników do nowych obszarów roboczych jako członków, współautorów lub administratorów. Wszyscy użytkownicy w grupie otrzymują zdefiniowaną przez Ciebie rolę. Jeśli indywidualny użytkownik to wiele grup użytkowników, otrzyma najwyższy poziom uprawnień przewidziany przez rolę.  Zobacz sekcję [Role w nowych obszarach roboczych ](#roles-in-the-new-workspaces) w dalszej części tego artykułu, aby zapoznać się z omówieniem poszczególnych ról.
 
 Wszyscy użytkownicy, których dodasz do obszaru roboczego aplikacji, muszą mieć licencję usługi Power BI Pro. W obszarze roboczym ci użytkownicy mogą wspólnie pracować nad pulpitami nawigacyjnymi i raportami, które mają zostać opublikowane wśród większej liczby osób lub nawet w całej organizacji. Jeśli chcesz rozpowszechniać zawartość wśród innych użytkowników w Twojej organizacji, możesz przypisać im licencje usługi Power BI Pro lub umieścić obszar roboczy w pojemności usługi Power BI Premium.
-Ponieważ ta funkcja jest obecnie dostępna w wersji zapoznawczej, ma kilka ograniczeń, o których warto wiedzieć. Zobacz <section link> dalszą część tego artykułu, w której wyjaśnione są aktualne ograniczenia. Wraz z wprowadzeniem nowych obszarów roboczych modyfikujemy niektóre funkcje. Zobacz <link do sekcji> w dalszej części tego artykułu, aby zapoznać się z omówieniem zmian, które mogą zostać wprowadzone na stałe po wersji zapoznawczej.
+
+Wraz z wprowadzeniem nowych obszarów roboczych modyfikujemy niektóre funkcje. Zobacz sekcję [Funkcje obszaru roboczego aplikacji, które działają inaczej](#app-workspace-features-that-work-differently) w dalszej części tego artykułu, aby zapoznać się z omówieniem zmian, które mogą zostać wprowadzone na stałe po wersji zapoznawczej. Ponieważ ta funkcja jest obecnie dostępna w wersji zapoznawczej, ma kilka ograniczeń, o których warto wiedzieć. Zobacz sekcję [Znane problemy](#known-issues) w dalszej części tego artykułu, w której wyjaśnione są aktualne ograniczenia. 
 
 ## <a name="roll-out-new-app-workspaces"></a>Wdrażanie nowych obszarów roboczych aplikacji
 

@@ -2,19 +2,19 @@
 title: Często zadawane pytania dotyczące usługi Power BI Embedded
 description: Przeglądaj listę często zadawanych pytań i odpowiedzi dotyczących usługi Power BI Embedded.
 author: markingmyname
-manager: kfile
 ms.author: maghan
+manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 06/22/2018
-ms.openlocfilehash: ab637be12487029d17d7b1bfa89022dbae9aaa49
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.date: 08/21/2018
+ms.openlocfilehash: 935932e92e5d95ae52957bf1360db8d2232286ad
+ms.sourcegitcommit: dddb6f8d39131febadfd97efa0e0e1d728f4f5ff
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39415397"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "42702965"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Często zadawane pytania dotyczące usługi Power BI Embedded
 
@@ -25,7 +25,7 @@ ms.locfileid: "39415397"
 
 ### <a name="what-is-power-bi-embedded"></a>Co to jest usługa Power BI Embedded?
 
-Usługa Microsoft Power BI Embedded umożliwia osadzanie niesamowitych, w pełni interaktywnych raportów, pulpitów nawigacyjnych i kafelków w aplikacjach bez potrzeby poświęcania czasu i pieniędzy na tworzenie wizualizacji danych i kontrolek od podstaw.
+Usługa Microsoft Power BI Embedded (PBIE) umożliwia osadzanie niesamowitych, w pełni interaktywnych raportów w aplikacjach bez potrzeby poświęcania czasu i pieniędzy na tworzenie wizualizacji danych i kontrolek od podstaw.
 
 ### <a name="who-is-the-target-audience-for-power-bi-embedded"></a>Kto jest docelowym odbiorcą usługi Power BI Embedded?
 
@@ -70,7 +70,7 @@ Poniżej przedstawiono skróconą listę różnych funkcji, których można uży
 | Korzystanie z raportów usługi Power BI w aplikacji osadzonej | Tak | Tak | Tak |
 | Korzystanie z raportów usługi Power BI w programie SharePoint | Nie | Tak | Tak |
 | Korzystanie z raportów usługi Power BI w usłudze Dynamics | Nie | Tak | Tak |
-| Korzystanie z raportów usługi Power BI w usłudze Teams | Nie | Tak | Tak |
+| Korzystanie z raportów usługi Power BI w usłudze Teams (tylko aplikacje klasyczne) | Nie | Tak | Tak |
 | Dostęp do zawartości z bezpłatną licencją usługi Power BI w witrynie Powerbi.com i na platformie Power BI dla urządzeń przenośnych | Nie | Nie | Tak |
 | Dostęp do zawartości osadzonej w aplikacjach pakietu MS Office z bezpłatną licencją usługi Power BI | Nie | Tak | Tak |
 
@@ -79,10 +79,10 @@ Poniżej przedstawiono skróconą listę różnych funkcji, których można uży
 |  |Jednostka SKU A (usługa Power BI Embedded)  |Jednostka SKU EM (usługa Power BI Premium)  |Jednostka SKU P (usługa Power BI Premium)  |
 |---------|---------|---------|---------|
 |Zakup     |Witryna Azure Portal |Pakiet Office |Pakiet Office |
-|Przypadki użycia |* Osadzanie zawartości we własnej aplikacji |* Osadzanie zawartości we własnej aplikacji<br>* Osadzanie zawartości w innych aplikacjach pakietu MS Office ([SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [Teams](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/), [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard)) |* Osadzanie zawartości we własnej aplikacji<br>* Osadzanie zawartości w innych aplikacjach pakietu MS Office ([SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [Teams](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/), [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard))<br>* Udostępnianie zawartości użytkownikom usługi Power BI za pośrednictwem [usługi Power BI](https://powerbi.microsoft.com/en-us/)  |
+|Przypadki użycia |* Osadzanie zawartości we własnej aplikacji |* Osadzanie zawartości we własnej aplikacji<br>* Osadzanie zawartości w innych aplikacjach pakietu MS Office ([SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [Teams (tylko aplikacje klasyczne)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/), [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard)) |* Osadzanie zawartości we własnej aplikacji<br>* Osadzanie zawartości w innych aplikacjach pakietu MS Office ([SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [Teams (tylko aplikacje klasyczne)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/), [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard))<br>* Udostępnianie zawartości użytkownikom usługi Power BI za pośrednictwem [usługi Power BI](https://powerbi.microsoft.com/en-us/)  |
 |Rozliczenia |Godzinowe |Miesięczne |Miesięczne |
 |Zobowiązanie  |Brak zobowiązania |Roczne  |Miesięczne lub roczne |
-|Rozróżnienie produktów |Pełna elastyczność, która umożliwia skalowanie w górę i w dół oraz wstrzymywanie i wznawianie zasobów w witrynie Azure Portal lub za pośrednictwem interfejsu API  |Może służyć do osadzania zawartości w usługach SharePoint Online i Microsoft Teams |Pozwala przeprowadzać osadzanie w aplikacjach, używając jednocześnie usługi Power BI w ramach tej samej pojemności |
+|Rozróżnienie produktów |Pełna elastyczność, która umożliwia skalowanie w górę i w dół oraz wstrzymywanie i wznawianie zasobów w witrynie Azure Portal lub za pośrednictwem interfejsu API  |Może służyć do osadzania zawartości w usługach SharePoint Online i Microsoft Teams (tylko aplikacje klasyczne) |Pozwala przeprowadzać osadzanie w aplikacjach, używając jednocześnie usługi Power BI w ramach tej samej pojemności |
 
 ### <a name="what-are-the-prerequisites-to-create-a-pbie-capacity-in-azure"></a>Jakie są wymagania wstępne dotyczące tworzenia pojemności PBIE na platformie Azure?
 
@@ -126,14 +126,14 @@ Usługa Power BI wymaga zarejestrowania się za pomocą konta organizacyjnego. P
 
 ### <a name="can-i-use-apis-to-create--manage-azure-capacities"></a>Czy mogę używać interfejsów API do tworzenia możliwości platformy Azure i zarządzania nimi?
 
-Tak, istnieją polecenia cmdlet programu PowerShell i interfejsy API usługi ARM, których można używać do tworzenia zasobów PBIE i zarządzania nimi.
+Tak, istnieją polecenia cmdlet programu PowerShell i interfejsy API usługi Azure Resource Manager (ARM), których można używać do tworzenia zasobów usługi PBIE i zarządzania nimi.
 
 * Interfejsy API REST — https://docs.microsoft.com/rest/api/power-bi-embedded/
 * Polecenia cmdlet programu PowerShell — https://docs.microsoft.com/powershell/module/azurerm.powerbiembedded/
 
 ### <a name="what-is-the-pbi-embedded-dedicated-capacity-role-in-a-pbi-embedded-solution"></a>Co to jest dedykowana pojemność PBI Embedded w rozwiązaniu PBI Embedded?
 
-W celu [podniesienia poziomu środowiska do środowiska produkcyjnego](https://docs.microsoft.com/en-us/power-bi/developer/embedding-content#step-3-promote-your-solution-to-production) musisz przypisać zawartość usługi Power BI (obszaru roboczego aplikacji, którego używasz w swojej aplikacji) do pojemności dedykowanej.
+W celu [podniesienia poziomu rozwiązania do środowiska produkcyjnego](https://docs.microsoft.com/en-us/power-bi/developer/embedding-content#step-3-promote-your-solution-to-production) musisz przypisać zawartość usługi Power BI (obszaru roboczego aplikacji, którego używasz w swojej aplikacji) do pojemności dedykowanej.
 
 ### <a name="what-are-the-azure-regions-pbi-embedded-is-available"></a>Które regiony świadczenia usługi Azure PBI Embedded są dostępne?
 
@@ -273,7 +273,7 @@ Istnieją nowe funkcje i możliwości wprowadzone w rozwiązaniu **Power BI Embe
 
 Oto przykłady tych funkcji:
 * Wszystkie źródła danych usługi PBI są obsługiwane, w odróżnieniu od 2 źródeł danych rozwiązania **Kolekcja obszarów roboczych usługi Power BI**. 
-* Nowe funkcje, takie jak pytania i odpowiedzi, odświeżanie, zakładki, osadzanie pulpitów nawigacyjnych i kafelków, menu niestandardowe itd., są obsługiwane tylko w rozwiązaniu **Power BI Embedded**.
+* Nowe funkcje, takie jak pytania i odpowiedzi, odświeżanie, zakładki, osadzanie pulpitów nawigacyjnych i kafelków oraz menu niestandardowe, są obsługiwane tylko w rozwiązaniu **Power BI Embedded**.
 * Model rozliczania pojemności.
 
 ## <a name="onboarding-experience-tool-for-embedding"></a>Narzędzie obsługi dołączania na potrzeby osadzania
