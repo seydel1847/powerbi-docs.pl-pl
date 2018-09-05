@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 7cc2519353be7f83f69cdc6dda9d5f1a8ccc33a3
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: c69b73be481408884cc4fbfc5ae4987714b10d9d
+ms.sourcegitcommit: 60f637d8555fd59fd9a86de720b89b388fb85ac0
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37137031"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "43695115"
 ---
 # <a name="connect-to-microsoft-dynamics-marketing-with-power-bi"></a>Nawiązywanie połączenia z usługą Microsoft Dynamics Marketing przy użyciu usługi Power BI
 Pakiet zawartości Microsoft Dynamics Marketing dla usługi Power BI pozwala na łatwe uzyskiwanie dostępu do danych usługi Dynamics Marketing i analizowanie ich. Ten pakiet zawartości wykorzystuje model opisowy oparty na źródle danych OData ze wszystkimi potrzebnymi jednostkami i miarami, takimi jak programy, kampanie, kontakty i firmy marketingowe, potencjalni klienci, interakcje z potencjalnymi klientami i określanie ich wyników, marketingowe wiadomości e-mail i witryny internetowe, obserwacje zachowań, budżety, transakcje finansowe, wskaźniki KPI wydajności i wiele innych. 
@@ -35,7 +35,7 @@ Nawiąż połączenie z [pakietem zawartości Dynamics Marketing](https://app.po
 3. Wybierz pozycję **Microsoft Dynamics Marketing** \> **Pobierz**.
    
    ![](media/service-connect-to-microsoft-dynamics-marketing/mdmarketing.png)
-4. Podaj adres URL źródła danych OData skojarzony z Twoim kontem.  Będzie miał on postać „https:// [nazwa\_wystąpienia].marketing.dynamics.com/analytics.”
+4. Podaj adres URL źródła danych OData skojarzony z Twoim kontem.  Będzie on miał postać „`https://[instance\_name].marketing.dynamics.com/analytics.`”
    
    ![](media/service-connect-to-microsoft-dynamics-marketing/pbi_dynmktgserviceurl.png)
 5. Po wyświetleniu monitu wprowadź swoje poświadczenia (można pominąć ten krok, jeśli już zalogowano się w przeglądarce). Jako metodę uwierzytelniania wybierz protokół **oAuth2** i kliknij pozycję **Zaloguj**:
