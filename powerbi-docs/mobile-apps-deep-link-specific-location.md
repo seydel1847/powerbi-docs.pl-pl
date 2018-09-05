@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 3ea99d26418a583a6ca588879aeafcd114aeaa6e
-ms.sourcegitcommit: 16098be04df05bc8e3d44a99b4d143b622759c59
+ms.openlocfilehash: e1df06c07f767936d861788c89205bce20cd5582
+ms.sourcegitcommit: 60f637d8555fd59fd9a86de720b89b388fb85ac0
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/07/2018
-ms.locfileid: "39616010"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "43695138"
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>Tworzenie linku do określonej lokalizacji w aplikacjach mobilnych usługi Power BI
 Możesz tworzyć identyfikator URI i używać go do łączenia z określoną lokalizacją (*link bezpośredni*) w aplikacjach mobilnych usługi Power BI na wszystkich platformach przenośnych: iOS, urządzeniach z systemem Android i Windows 10.
@@ -68,7 +68,7 @@ Ten identyfikator URI otwiera określony raport w aplikacji mobilnej usługi Pow
 
 Aby znaleźć 36-znakowy identyfikator obiektu raportu, przejdź do określonego raportu w usłudze Power BI (https://powerbi.com). Na przykład zobacz wyróżnioną sekcję tego adresu URL:
 
-https://powerbi.com/groups/me/reports/**df9f0e94-31df-450b-b97f-4461a7e4d300**
+`https://powerbi.com/groups/me/reports/df9f0e94-31df-450b-b97f-4461a7e4d300`
 
 ## <a name="open-to-a-specific-report-page"></a>Otwieranie strony określonego raportu
 Ten identyfikator URI otwiera określoną stronę raportu w aplikacji mobilnej usługi Power BI:
@@ -79,7 +79,7 @@ Strona raportu jest nazywana „Sekcją raportu”, po której następuje numer.
 
 Na przykład zobacz wyróżnioną sekcję tego adresu URL:
 
-https://powerbi.com/groups/me/reports/df9f0e94-31df-450b-b97f-4461a7e4d300/**ReportSection11**
+`https://powerbi.com/groups/me/reports/df9f0e94-31df-450b-b97f-4461a7e4d300/ReportSection11`
 
 ## <a name="open-in-full-screen-mode"></a>Otwieranie w trybie pełnoekranowym
 Dodaj pogrubiony parametr, aby otworzyć określony raport w trybie pełnoekranowym:
@@ -95,7 +95,7 @@ Można również dodać kontekst w ciągu. Następnie, jeśli zachodzi potrzeba 
 
 Na przykład zobacz wyróżnioną sekcję tego adresu URL: 
 
-https://powerbi.com/groups/me/reports/df9f0e94-31df-450b-b97f-4461a7e4d300/**&context=SlackDeepLink**
+`https://powerbi.com/groups/me/reports/df9f0e94-31df-450b-b97f-4461a7e4d300/&context=SlackDeepLink`
 
 ## <a name="next-steps"></a>Następne kroki
 Twoja opinia pomoże nam zdecydować, co należy zaimplementować w przyszłości. Nie zapomnij więc zagłosować na inne funkcje, które chcesz zobaczyć w aplikacjach mobilnych usługi Power BI. 

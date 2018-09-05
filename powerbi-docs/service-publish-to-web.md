@@ -2,20 +2,20 @@
 title: Funkcja Publikuj w sieci Web w usłudze Power BI
 description: Funkcja Publikuj w sieci Web w usłudze Power BI umożliwia łatwe osadzanie interakcyjnych wizualizacji usługi Power BI online, na przykład we wpisach w blogu, w witrynach internetowych, wiadomościach e-mail lub mediach społecznościowych, przy użyciu dowolnego urządzenia.
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 03/28/2018
-ms.author: maghan
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2e02b4dfe9798eed393a0097ef4f220746acfdf6
-ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
+ms.openlocfilehash: b305c684ccf0938cfa8f5d9a2aa06f27a8c8be12
+ms.sourcegitcommit: fb29c4bf7e598f962b453ac68091ca2189d6ae3b
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37092350"
+ms.lasthandoff: 08/31/2018
+ms.locfileid: "43380341"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Funkcja Publikuj w sieci Web w usłudze Power BI
 
@@ -28,7 +28,7 @@ Opublikowane wizualizacje można także łatwo edytować, aktualizować i odświ
 
 ## <a name="how-to-use-publish-to-web"></a>Jak używać funkcji Publikuj w sieci Web
 
-Polecenie **Publikuj w sieci Web** jest dostępne w raportach znajdujących się w Twoich osobistych lub grupowych obszarach roboczych, w których masz uprawnienia do edytowania.  Nie możesz używać funkcji Publikuj w sieci Web w przypadku raportów, które zostały Ci udostępnione lub w których dane są zabezpieczone na poziomie wiersza. W sekcji **Ograniczenia** poniżej znajduje się pełna lista przypadków, w których funkcja Publikuj w sieci Web nie jest obsługiwana. Przed użyciem funkcji Publikuj w sieci Web zapoznaj się z **ostrzeżeniem** we wcześniejszej części tego artykułu.
+Polecenie **Publikuj w sieci Web** jest dostępne w raportach znajdujących się w Twoich osobistych lub grupowych obszarach roboczych, w których masz uprawnienia do edytowania.  Nie możesz używać funkcji Publikuj w sieci Web w przypadku raportów, które zostały Ci udostępnione lub w których dane są zabezpieczone na poziomie wiersza. W sekcji **Ograniczenia** poniżej znajduje się pełna lista przypadków, w których funkcja Publikuj w sieci Web nie jest obsługiwana. Przed użyciem funkcji publikowania w Internecie zapoznaj się z **ostrzeżeniem** we wcześniejszej części tego artykułu.
 
 Aby zobaczyć, jak działa ta funkcja, zobacz to *krótkie wideo*. Następnie skorzystaj z poniższych instrukcji, aby wypróbować ją samodzielnie.
 
@@ -65,7 +65,7 @@ Poniższa tabela zawiera informacje dotyczące trybów wyświetlania oraz wyglą
 
 | Tryb wyświetlania | Wygląd po osadzeniu |
 | --- | --- |
-| ![](media/service-publish-to-web/publish_to_web6b.png) |Tryb **Dopasuj do strony** zachowuje wysokość i szerokość strony raportu. Jeśli ustawisz na stronie proporcje „Dynamiczne”, na przykład 16:9 lub 4:3, zawartość będzie skalowana w celu dopasowania do elementu iFrame. W przypadku osadzenia w elemencie iFrame wybranie opcji **Dopasuj do strony** może wywołać efekt **„letterbox”**, czyli wyświetlenie szarego tła w części elementu iFrame po przeskalowaniu zawartości do rozmiaru elementu iFrame. Aby zminimalizować obszar szarego tła, ustaw odpowiednią wysokość i szerokość elementu iFrame. |
+| ![](media/service-publish-to-web/publish_to_web6b.png) |Tryb **Dopasuj do strony** zachowuje wysokość i szerokość strony raportu. Jeśli ustawisz na stronie proporcje „Dynamiczne”, na przykład 16:9 lub 4:3, zawartość będzie skalowana w celu dopasowania do udostępnionego elementu iFrame. W przypadku osadzenia w elemencie iFrame wybranie opcji **Dopasuj do strony** może wywołać efekt **„letterbox”**, czyli wyświetlenie szarego tła w części elementu iFrame po przeskalowaniu zawartości do rozmiaru elementu iFrame. Aby zminimalizować obszar szarego tła, ustaw odpowiednią wysokość i szerokość elementu iFrame. |
 | ![](media/service-publish-to-web/publish_to_web6d.png) |Tryb **Rzeczywisty rozmiar** zapewnia zachowanie ustawionego rozmiaru strony raportu. To może spowodować wyświetlenie pasków przewijania w elemencie iFrame. Aby uniknąć wyświetlania pasków przewijania, ustaw odpowiednią wysokość i szerokość elementu iFrame. |
 | ![](media/service-publish-to-web/publish_to_web6c.png) |Tryb **Dopasuj do szerokości** zapewnia dopasowanie zawartości do poziomego wymiaru elementu iFrame. Obramowanie będzie wyświetlane, ale zawartość będzie skalowana w celu wykorzystania całej dostępnej przestrzeni w poziomie. |
 
@@ -128,15 +128,16 @@ Funkcja **Publikuj w sieci Web** obsługuje niestandardowe wizualizacje. W przyp
 
 W przypadku większości źródeł danych i raportów funkcja **Publikuj w sieci Web** jest obsługiwana w usłudze Power BI, jednak następujące rodzaje zawartości **nie są obecnie obsługiwane ani dostępne** w ramach funkcji Publikuj w sieci Web:
 
-1. Raporty, w których zastosowano zabezpieczenia na poziomie wiersza.
-2. Raporty używające dowolnego źródła danych z połączeniem na żywo, w tym tabelarycznych usług Analysis Services hostowanych lokalnie, wielowymiarowych usług Analysis Services i usług Azure Analysis Services.
-3. Raporty udostępnione Ci bezpośrednio lub za pośrednictwem organizacyjnego pakietu zawartości.
-4. Raporty w grupie, w której nie jesteś członkiem uprawnionym do edytowania.
-5. Wizualizacje języka R nie są obecnie obsługiwane w raportach publikowanych przy użyciu funkcji Publikuj w sieci Web.
-6. Eksportowanie danych z elementów wizualnych w raporcie, który został opublikowany w sieci Web
-7. Elementy wizualne map ArcGIS dla usługi Power BI
-8. Raporty zawierające miary języka DAX na poziomie raportu
-9. [Ochrona informacji poufnych lub zastrzeżonych](#publish-to-web-from-power-bi)
+- Raporty, w których zastosowano zabezpieczenia na poziomie wiersza.
+- Raporty używające dowolnego źródła danych z połączeniem na żywo, w tym tabelarycznych usług Analysis Services hostowanych lokalnie, wielowymiarowych usług Analysis Services i usług Azure Analysis Services.
+- Raporty udostępnione Ci bezpośrednio lub za pośrednictwem organizacyjnego pakietu zawartości.
+- Raporty w grupie, w której nie jesteś członkiem uprawnionym do edytowania.
+- Wizualizacje języka R nie są obecnie obsługiwane w raportach publikowanych przy użyciu funkcji Publikuj w sieci Web.
+- Eksportowanie danych z elementów wizualnych w raporcie, który został opublikowany w sieci Web
+- Elementy wizualne map ArcGIS dla usługi Power BI
+- Raporty zawierające miary języka DAX na poziomie raportu
+- Modele zapytań o dane logowania jednokrotnego
+- [Ochrona informacji poufnych lub zastrzeżonych](#publish-to-web-from-power-bi)
 
 ## <a name="tenant-setting"></a>Ustawienia dzierżawy
 
@@ -144,7 +145,7 @@ Administratorzy usługi Power BI mogą włączyć lub wyłączyć funkcję publi
 
 |Promowanie |Włączone dla całej organizacji |Wyłączone dla całej organizacji |Określone grupy zabezpieczeń   |
 |---------|---------|---------|---------|
-|Opcja **Publikuj w sieci Web** w menu **Plik** raportu.|Włączone dla wszystkich|Niewidoczne dla wszystkich|Widoczne tylko dla autoryzowanych użytkowników lub grup.|
+|Opcja **Publikuj w sieci Web** w menu **Plik** raportu.|Włączone dla wszystkich|Nie jest widoczne dla wszystkich|Widoczne tylko dla autoryzowanych użytkowników lub grup.|
 |Opcja **Zarządzaj kodami osadzania** w obszarze **Ustawienia**|Włączone dla wszystkich|Włączone dla wszystkich|Włączone dla wszystkich<br><br>Opcja * **Usuń** tylko dla autoryzowanych użytkowników lub grup.<br>Opcja * **Uzyskaj kody** włączona dla wszystkich.|
 |**Kody osadzania** w portalu administracyjnym|Stan będzie odzwierciedlać jedną z następujących sytuacji:<br>* Aktywne<br>* Nieobsługiwane<br>* Zablokowane|Będzie wyświetlany stan **Wyłączone**|Stan będzie odzwierciedlać jedną z następujących sytuacji:<br>* Aktywne<br>* Nieobsługiwane<br>* Zablokowane<br><br>Jeśli zgodnie z ustawieniami dzierżawy użytkownik nie ma autoryzacji, będzie wyświetlany stan **Naruszenie**.|
 |Istniejące opublikowane raporty|Wszystko włączone|Wszystko wyłączone|Raporty w dalszym ciągu są renderowane dla wszystkich.|
