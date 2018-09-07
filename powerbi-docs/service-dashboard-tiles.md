@@ -2,20 +2,20 @@
 title: Kafelki pulpitu nawigacyjnego w usłudze Power BI
 description: Wszystkie informacje o kafelkach pulpitu nawigacyjnego w usłudze Power BI. Dotyczy to również kafelków, które są tworzone z poziomu usługi SQL Server Reporting Services (SSRS).
 author: mihart
-manager: kfile
+manager: annbe
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/02/2018
+ms.date: 08/21/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e53945e0a112d9498dc6798e2441dd3d925a64c1
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 09fcce65539d89c9d42bc05369f13a6048eb96c2
+ms.sourcegitcommit: aed348a2d0025f7f40f2196254993f6aba5db7d2
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34249073"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43241596"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Kafelki pulpitu nawigacyjnego w usłudze Power BI
 Pulpity nawigacyjne i kafelki pulpitu nawigacyjnego są funkcjami usługi Power BI, a nie programu Power BI Desktop. Chociaż kafelków pulpitów nawigacyjnych nie można tworzyć ani przypinać w usłudze Power BI dla urządzeń mobilnych, [można je wyświetlać i udostępniać](mobile-tiles-in-the-mobile-apps.md). Ponadto w usłudze Power BI dla urządzeń mobilnych można [dodawać zdjęcia do pulpitu nawigacyjnego za pomocą aplikacji dla telefonu iPhone](mobile-iphone-app-get-started.md).
@@ -67,9 +67,9 @@ Chwyć kafelek i [przemieszczaj go na pulpicie nawigacyjnym](service-dashboard-e
    
    * [Otworzyć arkusz, który został użyty do utworzenia tego kafelka ](service-reports.md) ![ikona arkusza](media/service-dashboard-tiles/power-bi-open-worksheet.png)  
      
-     * [Wyświetlić w trybie koncentracji uwagi ](service-focus-mode.md) ![ikona koncentracji uwagi](media/service-dashboard-tiles/fullscreen-icon.jpg)  
+    * [Wyświetlić w trybie koncentracji uwagi ](service-focus-mode.md) ![ikona koncentracji uwagi](media/service-dashboard-tiles/fullscreen-icon.jpg)  
      * [Wyeksportować dane użyte na kafelku](power-bi-visualization-export-data.md) ![ikona eksportowania danych](media/service-dashboard-tiles/export-icon.png)
-     * [Edytować tytuł i podtytuł, dodać hiperlink, wyświetlić czas ostatniego odświeżenia](service-dashboard-edit-tile.md) ![ikona edycji](media/service-dashboard-tiles/pencil-icon.jpg)
+     * [Edytować tytuł i podtytuł, dodać hiperlink](service-dashboard-edit-tile.md) ![ikona edytowania](media/service-dashboard-tiles/pencil-icon.jpg)
      * [Uruchomić szczegółowe informacje](service-insights.md) ![ikona szczegółowych informacji](media/service-dashboard-tiles/power-bi-insights.png)
      * [Przypiąć kafelek do innego pulpitu nawigacyjnego](service-pin-tile-to-another-dashboard.md)
        ![ikona przypinania](media/service-dashboard-tiles/pin-icon.jpg)

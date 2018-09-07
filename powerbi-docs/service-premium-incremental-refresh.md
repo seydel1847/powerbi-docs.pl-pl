@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/30/2018
 ms.author: chwade
 LocalizationGroup: Premium
-ms.openlocfilehash: 1b6a3c35abeff33e2fb1e0fecdc5c2a5c88e1530
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: fd62e90d4a4f348ee7b3a524f85725d517180068
+ms.sourcegitcommit: 6be2c54f2703f307457360baef32aee16f338067
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "34298187"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "43300143"
 ---
 # <a name="incremental-refresh-in-power-bi-premium"></a>Odświeżanie przyrostowe w usłudze Power BI Premium
 
@@ -43,6 +43,12 @@ Duże zestawy danych, które mogą zawierać miliardy wierszy, mogą nie mieści
 
 Aby użyć odświeżania przyrostowego w usłudze Power BI, należy odfiltrować dane przy użyciu parametrów daty/godziny dodatku Power Query korzystających z zarezerwowanych nazw **RangeStart** i **RangeEnd**, w których jest uwzględniana wielkość liter.
 
+Po opublikowaniu danych wartości parametrów są automatycznie zastępowane przez usługę Power BI. Nie trzeba ich konfigurować w ustawieniach w usłudze.
+ 
+Ważne jest, aby filtr został wypchnięty do systemu źródłowego, gdy zapytania będą przesyłane do operacji odświeżania. Oznacza to, że źródło danych powinno obsługiwać „składanie zapytań”. Biorąc pod uwagę różne poziomy obsługi składania zapytań dla poszczególnych źródeł danych, zaleca się sprawdzenie, czy logika filtru została uwzględniona w zapytaniach źródłowych. Jeśli nie, każde zapytanie zażąda wszystkich danych ze źródła, co będzie sprzeczne z celem odświeżania przyrostowego.
+ 
+Filtr zostanie użyty do partycjonowania danych na zakresy w usłudze Power BI. Nie jest on przeznaczony do obsługi aktualizacji filtrowanej kolumny dat. Aktualizacja będzie interpretowana jako wstawienie i usunięcie (nie aktualizacja). Usunięcie w zakresie historycznym, a nie zakresie przyrostowym, nie zostanie zidentyfikowane.
+
 W Edytorze Power Query wybierz pozycję **Zarządzaj parametrami**, aby zdefiniować parametry przy użyciu wartości domyślnych.
 
 ![Zarządzanie parametrami](media/service-premium-incremental-refresh/manage-parameters.png)
@@ -61,9 +67,6 @@ Odfiltruj wiersze, w których wartość kolumny *jest po lub jest równa* warto�
 > `(x as datetime) => Date.Year(x)*10000 + Date.Month(x)*100 + Date.Day(x)`
 
 Wybierz pozycję **Zamknij i zastosuj** w Edytorze Power Query. W programie Power BI Desktop powinien zostać zwrócony podzestaw danych.
-
-> [!NOTE]
-> Po opublikowaniu danych wartości parametrów są automatycznie zastępowane przez usługę Power BI. Nie trzeba ich konfigurować w ustawieniach zestawu danych.
 
 ### <a name="define-the-refresh-policy"></a>Definiowanie zasad odświeżania
 
@@ -102,9 +105,11 @@ Pierwsze odświeżanie danych w usłudze Power BI może trwać dłużej ze wzgl�
 
 **Czasami wystarczy tylko zdefiniować te zakresy, po czym można przejść bezpośrednio do kroku publikowania opisanego poniżej. Listy rozwijane umożliwiają korzystanie z zaawansowanych funkcji.**
 
-#### <a name="detect-data-changes"></a>Wykrywanie zmian danych
+### <a name="advanced-policy-options"></a>Zaawansowane opcje zasad
 
-Odświeżanie przyrostowe danych z 10 dni jest oczywiście o wiele bardziej efektywne niż pełne odświeżanie danych z 5 lat. Możemy jednak i tak usprawnić ten proces. Zaznaczenie pola wyboru **Wykryj zmiany danych** pozwala wybrać kolumnę daty/godziny używaną do identyfikacji i odświeżać tylko te dni, w których dane zmieniły się. Taka kolumna musi istnieć w systemie źródłowym. Działanie to wykonuje się zazwyczaj na potrzeby inspekcji. Dla każdego okresu w zakresie przyrostowym jest wyznaczana maksymalna wartość w tej kolumnie. Jeśli ta wartość nie zmieniła się od czasu ostatniej operacji odświeżania, nie trzeba odświeżać okresu. W tym przykładzie można dodatkowo ograniczyć liczbę dni odświeżanych przyrostowo — prawdopodobnie z 10 do 2.
+#### <a name="detect-data-changes"></a>Wykryj zmiany danych
+
+Odświeżanie przyrostowe danych z 10 dni jest oczywiście o wiele bardziej efektywne niż pełne odświeżanie danych z 5 lat. Możemy jednak i tak usprawnić ten proces. Zaznaczenie pola wyboru **Wykryj zmiany danych** pozwala wybrać kolumnę daty/godziny używaną do identyfikacji i odświeżać tylko te dni, w których dane zmieniły się. Taka kolumna musi istnieć w systemie źródłowym. Działanie to wykonuje się zazwyczaj na potrzeby inspekcji. **Nie powinna być to kolumna użyta do partycjonowania danych przy użyciu parametrów RangeStart/RangeEnd.** Dla każdego okresu w zakresie przyrostowym jest wyznaczana maksymalna wartość w tej kolumnie. Jeśli ta wartość nie zmieniła się od czasu ostatniej operacji odświeżania, nie trzeba odświeżać okresu. W tym przykładzie można dodatkowo ograniczyć liczbę dni odświeżanych przyrostowo — prawdopodobnie z 10 do 2.
 
 ![Wykrywanie zmian](media/service-premium-incremental-refresh/detect-changes.png)
 

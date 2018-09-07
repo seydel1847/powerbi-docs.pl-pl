@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/21/2018
-ms.openlocfilehash: 935932e92e5d95ae52957bf1360db8d2232286ad
-ms.sourcegitcommit: dddb6f8d39131febadfd97efa0e0e1d728f4f5ff
+ms.openlocfilehash: c1f9da598abee29a1d8eef0419fcb472f0a1467e
+ms.sourcegitcommit: aed348a2d0025f7f40f2196254993f6aba5db7d2
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "42702965"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43241527"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Często zadawane pytania dotyczące usługi Power BI Embedded
 
@@ -70,7 +70,7 @@ Poniżej przedstawiono skróconą listę różnych funkcji, których można uży
 | Korzystanie z raportów usługi Power BI w aplikacji osadzonej | Tak | Tak | Tak |
 | Korzystanie z raportów usługi Power BI w programie SharePoint | Nie | Tak | Tak |
 | Korzystanie z raportów usługi Power BI w usłudze Dynamics | Nie | Tak | Tak |
-| Korzystanie z raportów usługi Power BI w usłudze Teams (tylko aplikacje klasyczne) | Nie | Tak | Tak |
+| Korzystanie z raportów usługi Power BI w usłudze Teams (z wyłączeniem aplikacji mobilnych) | Nie | Tak | Tak |
 | Dostęp do zawartości z bezpłatną licencją usługi Power BI w witrynie Powerbi.com i na platformie Power BI dla urządzeń przenośnych | Nie | Nie | Tak |
 | Dostęp do zawartości osadzonej w aplikacjach pakietu MS Office z bezpłatną licencją usługi Power BI | Nie | Tak | Tak |
 
@@ -78,13 +78,13 @@ Poniżej przedstawiono skróconą listę różnych funkcji, których można uży
 
 |  |Jednostka SKU A (usługa Power BI Embedded)  |Jednostka SKU EM (usługa Power BI Premium)  |Jednostka SKU P (usługa Power BI Premium)  |
 |---------|---------|---------|---------|
-|Zakup     |Witryna Azure Portal |Pakiet Office |Pakiet Office |
-|Przypadki użycia |* Osadzanie zawartości we własnej aplikacji |* Osadzanie zawartości we własnej aplikacji<br>* Osadzanie zawartości w innych aplikacjach pakietu MS Office ([SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [Teams (tylko aplikacje klasyczne)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/), [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard)) |* Osadzanie zawartości we własnej aplikacji<br>* Osadzanie zawartości w innych aplikacjach pakietu MS Office ([SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [Teams (tylko aplikacje klasyczne)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/), [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard))<br>* Udostępnianie zawartości użytkownikom usługi Power BI za pośrednictwem [usługi Power BI](https://powerbi.microsoft.com/en-us/)  |
+|Zakup  |Witryna Azure Portal |Pakiet Office |Pakiet Office |
+|Przypadki użycia | Osadzanie zawartości we własnej aplikacji | <li> Osadzanie zawartości we własnej aplikacji <br><br></br> <li> Osadzanie zawartości w aplikacjach pakietu MS Office: <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams (z wyłączeniem aplikacji mobilnych)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) | <li> Osadzanie zawartości we własnej aplikacji <br><br></br> <li> Osadzanie zawartości w aplikacjach pakietu MS Office: <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams (z wyłączeniem aplikacji mobilnych)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) <br><br></br> <li> Udostępnianie zawartości użytkownikom usługi Power BI za pośrednictwem [usługi Power BI](https://powerbi.microsoft.com/en-us/)  |
 |Rozliczenia |Godzinowe |Miesięczne |Miesięczne |
 |Zobowiązanie  |Brak zobowiązania |Roczne  |Miesięczne lub roczne |
-|Rozróżnienie produktów |Pełna elastyczność, która umożliwia skalowanie w górę i w dół oraz wstrzymywanie i wznawianie zasobów w witrynie Azure Portal lub za pośrednictwem interfejsu API  |Może służyć do osadzania zawartości w usługach SharePoint Online i Microsoft Teams (tylko aplikacje klasyczne) |Pozwala przeprowadzać osadzanie w aplikacjach, używając jednocześnie usługi Power BI w ramach tej samej pojemności |
+|Rozróżnienie produktów |Pełna elastyczność, która umożliwia skalowanie w górę i w dół oraz wstrzymywanie i wznawianie zasobów w witrynie Azure Portal lub za pośrednictwem interfejsu API  |Może służyć do osadzania zawartości w usługach SharePoint Online i Microsoft Teams (z wyłączeniem aplikacji mobilnych) |Pozwala przeprowadzać osadzanie w aplikacjach, używając jednocześnie usługi Power BI w ramach tej samej pojemności |
 
-### <a name="what-are-the-prerequisites-to-create-a-pbie-capacity-in-azure"></a>Jakie są wymagania wstępne dotyczące tworzenia pojemności PBIE na platformie Azure?
+### <a name="what-are-the-prerequisites-to-create-a-pbie-capacity-in-azure"></a>Jakie są wymagania wstępne dotyczące tworzenia pojemności PBIE na platformie Azure? 
 
 * Musisz zalogować się do swojego katalogu organizacyjnego (konta MSA nie są obsługiwane).
 * Musisz mieć dzierżawę usługi Power BI, tj. co najmniej jeden użytkownik w Twoim katalogu musi być zarejestrowany w usłudze Power BI. 
@@ -133,7 +133,7 @@ Tak, istnieją polecenia cmdlet programu PowerShell i interfejsy API usługi Azu
 
 ### <a name="what-is-the-pbi-embedded-dedicated-capacity-role-in-a-pbi-embedded-solution"></a>Co to jest dedykowana pojemność PBI Embedded w rozwiązaniu PBI Embedded?
 
-W celu [podniesienia poziomu rozwiązania do środowiska produkcyjnego](https://docs.microsoft.com/en-us/power-bi/developer/embedding-content#step-3-promote-your-solution-to-production) musisz przypisać zawartość usługi Power BI (obszaru roboczego aplikacji, którego używasz w swojej aplikacji) do pojemności dedykowanej.
+W celu [podniesienia poziomu rozwiązania do środowiska produkcyjnego](https://docs.microsoft.com/en-us/power-bi/developer/embedding-content#step-3-promote-your-solution-to-production) musisz przypisać zawartość usługi Power BI (obszaru roboczego aplikacji, którego używasz w swojej aplikacji) do pojemności usługi Power BI Embedded (SKU A).
 
 ### <a name="what-are-the-azure-regions-pbi-embedded-is-available"></a>Które regiony świadczenia usługi Azure PBI Embedded są dostępne?
 

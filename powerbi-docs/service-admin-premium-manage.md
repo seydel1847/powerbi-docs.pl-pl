@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/10/2017
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 24d585af19dd774cdf6fe7dafb66c12e02d311f9
-ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
+ms.openlocfilehash: 5da624f92093111c1996d9b1c5080cd58a906a45
+ms.sourcegitcommit: 2bdcb9e9959302a35ee90a145e4ff832a02aacb9
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38924798"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "43250778"
 ---
 # <a name="manage-capacities-within-power-bi-premium-and-power-bi-embedded"></a>Zarządzanie pojemnościami w usługach Power BI Premium i Power BI Embedded
 Dowiedz się, jak zarządzać pojemnościami usług Power BI Premium i Power BI Embedded, zapewniając zasoby dedykowane dla swojej zawartości.
@@ -163,33 +163,8 @@ Po zapisaniu obszar roboczy i cała jego zawartość zostaną przeniesione do po
 
 
 ## <a name="monitor-capacity-usage"></a>Monitorowanie użycia pojemności
-W przypadku każdej pojemności dostępne są pomiary użycia dla procesora CPU, pamięci, przeładowywania pamięci i zapytania bezpośredniego. Zalecamy monitorowanie tych metryk, aby użytkownicy mieli zapewnioną wysoką wydajność w Twojej pojemności:
 
-![Użycie w ciągu ostatnich siedmiu dni](media/service-admin-premium-manage/premium-dashboard-tiles.png)
-
-> [!NOTE]
-> Monitorowanie użycia pojemności usługi Power BI Embedded odbywa się z poziomu portalu Azure.
-
-| Metryka | Opis |
-| --- | --- |
-| Procesor CPU |Ile razy wykorzystanie procesora CPU przekroczyło 80%. |
-| Przeładowywanie pamięci |Reprezentuje wykorzystanie pamięci rdzeni wewnętrznej bazy danych. Ta metryka w szczególności obrazuje, ile razy zestawy danych zostały usunięte z pamięci z powodu braku pamięci wynikającego z używania wielu zestawów danych. |
-| Memory Usage (Użycie pamięci) |Średnie użycie pamięci przedstawiane w gigabajtach (GB). |
-| Zapytania bezpośrednie | Ile razy liczba zapytań bezpośrednich i połączeń na żywo przekroczyła 80% limitu. <br> <br> * Łączna liczba zapytań bezpośrednich i zapytań w ramach połączeń na żywo występujących w ciągu sekundy jest ograniczona.<br><br>* Ograniczenia są następujące: 30/s dla jednostki P1, 60/s dla jednostki P2 i 120/s dla jednostki P3.<br><br> * Liczba zapytań bezpośrednich i zapytań w ramach połączeń na żywo wlicza się do powyższych limitów. Na przykład, jeśli w ciągu sekundy wystąpiło 15 połączeń bezpośrednich i 15 połączeń na żywo, limit został osiągnięty.<br/><br>* Ma to jednakowe zastosowanie się do połączeń lokalnych i połączeń w chmurze. |
-
-Metryki odzwierciedlają wykorzystanie w ostatnim tygodniu.  Jeśli chcesz wyświetlić bardziej szczegółowy widok metryki, możesz to zrobić, klikając dowolny kafelek podsumowania.  Spowoduje to przejście do szczegółowych wykresów dla każdej metryki Twojej pojemności Premium.  Wykresy te są podsumowywane co godzinę dla ostatniego tygodnia i mogą pomóc określić, kiedy w Twojej pojemności Premium mogły wystąpić określone zdarzenia dotyczące wydajności.  
-
-![Szczegółowy wykres użycia procesora CPU](media/service-admin-premium-manage/premium-usage-detailed-chart-cpu.png)
-
-![Szczegółowy wykres użycia przeładowywania pamięci](media/service-admin-premium-manage/premium-usage-detailed-chart-memory-thrashing.png)
-
-
-![Szczegółowy wykres użycia rozmiaru pamięci](media/service-admin-premium-manage/premium-usage-detailed-chart-memory-size.png)
-
-
-![Szczegółowy wykres użycia przeładowywania pamięci](media/service-admin-premium-manage/premium-usage-detailed-chart-dq.png)
-
-Dane źródłowe dla dowolnej metryki można wyeksportować do pliku csv.  Dzięki temu uzyskasz szczegółowe informacje w przedziałach trzyminutowych dla poszczególnych dni w ostatnim tygodniu.
+Usługa Power BI oferuje aplikację do monitorowania użycia pojemności. Aby uzyskać więcej informacji, zobacz [Monitorowanie pojemności usługi Power BI Premium w organizacji](service-admin-premium-monitor-capacity.md).
 
 ## <a name="what-premium-looks-like-for-users"></a>Widok pojemności Premium z perspektywy użytkowników
 W większości przypadków użytkownicy nie muszą wiedzieć, że są w pojemności Premium. Wystarczy, że ich pulpity nawigacyjne i raporty sprawnie działają. Wizualną wskazówką jest ikona diamentu umieszczona obok obszarów roboczych w pojemności Premium.

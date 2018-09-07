@@ -10,12 +10,12 @@ ms.devlang: csharp, javascript
 ms.topic: conceptual
 ms.reviewer: ''
 ms.date: 07/31/2018
-ms.openlocfilehash: 222a6368bc717880fee4f6ce6958455959b491bd
-ms.sourcegitcommit: fecea174721d0eb4e1927c1116d2604a822e4090
+ms.openlocfilehash: f364bb725c492c1bffd2493c1e2a48ee8c442a9e
+ms.sourcegitcommit: 6be2c54f2703f307457360baef32aee16f338067
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 07/31/2018
-ms.locfileid: "39360480"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "43300051"
 ---
 # <a name="create-power-bi-embedded-capacity-in-the-azure-portal"></a>Tworzenie pojemności usługi Power BI Embedded w witrynie Azure Portal
 
@@ -54,7 +54,7 @@ Do wykonania czynności opisanych w tym przewodniku Szybki start potrzebne są n
     |**Subskrypcja**|Subskrypcja, w ramach której chcesz utworzyć pojemność.|
     |**Grupa zasobów**|Grupa zasobów zawierająca nową pojemność. Wybierz istniejącą grupę zasobów lub utwórz nową grupę. Aby uzyskać więcej informacji, zobacz [Omówienie usługi Azure Resource Manager](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview).|
     |**Administrator pojemności usługi Power BI**|Administratorzy pojemności usługi Power BI mogą wyświetlać pojemność w portalu administracyjnym usługi Power BI i przyznawać uprawnienia do przypisywania innym użytkownikom. Domyślnie Twoje konto ma uprawnienia administratora pojemności. Konto administratora pojemności musi należeć do dzierżawy usługi Power BI.|
-    |**Lokalizacja**|Lokalizacja hostowania usługi Power BI dla Twojej dzierżawy. To ustawienie jest konfigurowane automatycznie — nie można wybrać innej lokalizacji.|
+    |**Lokalizacja**|Lokalizacja hostowania usługi Power BI dla Twojej dzierżawy. Twoją lokalizacją domyślna jest region lokalny, ale lokalizację można zmienić przy użyciu [opcji funkcji Multi-Geo](embedded-multi-geo.md).
     |**Warstwa cenowa**|Wybierz jednostkę SKU (rozmiar pamięci i liczbę rdzeni wirtualnych), która spełnia Twoje wymagania.  Aby uzyskać więcej informacji, zobacz [Power BI Embedded pricing (Cennik usługi Power BI Embedded)](https://azure.microsoft.com/pricing/details/power-bi-embedded/).|
 
 6. Wybierz pozycję **Utwórz**.

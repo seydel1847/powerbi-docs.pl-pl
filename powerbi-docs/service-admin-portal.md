@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 08/15/2018
+ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: db77e3e7421074383f67bffad318e6f7f4c3df28
-ms.sourcegitcommit: 52278d8e0c23ae5eaf46b10a6a2f1fb071a0f1cc
+ms.openlocfilehash: 592c3bf5fbd508d63236d16ca21164ee507df35b
+ms.sourcegitcommit: 6be2c54f2703f307457360baef32aee16f338067
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/16/2018
-ms.locfileid: "40256869"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "43300120"
 ---
 # <a name="power-bi-admin-portal"></a>Portal administracyjny usługi Power BI
 
@@ -23,7 +23,7 @@ Portal administracyjny umożliwia zarządzanie dzierżawą usługi Power BI w or
 
 Zarządzanie dzierżawą usługi Power BI w firmie odbywa się za pośrednictwem portalu administracyjnego usługi Power BI. Portal administracyjny jest dostępny dla wszystkich użytkowników, którzy są administratorami globalnymi w usłudze Office 365 lub którym przydzielono rolę administratora usługi Power BI. Aby uzyskać więcej informacji o roli administratora usługi Power BI, zobacz [Opis roli administratora usługi Power BI](service-admin-role.md).
 
-Wszyscy użytkownicy będą widzieli **Portal administracyjny** pod ikoną koła zębatego. Jeśli użytkownik nie jest administratorem, zobaczy tylko sekcję **Ustawienia — wersja Premium** oraz wyłącznie te ustawienia, którymi może zarządzać.
+Wszyscy użytkownicy widzą **Portal administracyjny** pod ikoną koła zębatego. Jeśli użytkownik nie jest administratorem, może zobaczyć tylko sekcję **Ustawienia — wersja Premium** oraz wyłącznie te ustawienia, którymi może zarządzać.
 
 ## <a name="how-to-get-to-the-admin-portal"></a>Jak uzyskać dostęp do portalu administracyjnego
 
@@ -52,9 +52,9 @@ Pierwsza karta w portalu administracyjnym to **Metryki użycia**. Raport metryk 
 > [!NOTE]
 > Przy pierwszym uzyskaniu dostępu do pulpitu nawigacyjnego lub po powrocie do pulpitu nawigacyjnego po długim czasie najprawdopodobniej zobaczysz ekran ładowania, gdy będziemy ładować pulpit nawigacyjny.
 
-Po załadowaniu pulpitu nawigacyjnego zobaczysz dwie sekcje kafelków. Pierwsza sekcja obejmuje dane użycia dla poszczególnych użytkowników, a druga sekcja zawiera podobne informacje dotyczące grup w organizacji.
+Po załadowaniu pulpitu nawigacyjnego możesz zobaczyć dwie sekcje kafelków. Pierwsza sekcja obejmuje dane użycia dla poszczególnych użytkowników, a druga sekcja zawiera podobne informacje dotyczące grup w organizacji.
 
-Oto podział elementów, które zobaczysz w każdym kafelków:
+Oto podział elementów, które możesz zobaczyć w każdym kafelków:
 
 * Unikatowy licznik dla wszystkich pulpitów nawigacyjnych, raportów i zestawów danych w obszarze roboczym użytkownika
   
@@ -140,7 +140,7 @@ Użytkownicy w organizacji mogą udostępniać pulpity nawigacyjne użytkownikom
 
 ![](media/service-admin-portal/powerbi-admin-sharing-external-02.png)
 
-Oto komunikat, który będzie wyświetlany w przypadku udostępniania użytkownikowi zewnętrznemu.
+Oto komunikat, który jest wyświetlany w przypadku udostępniania użytkownikowi zewnętrznemu.
 
 ![](media/service-admin-portal/powerbi-admin-sharing-external.png)
 
@@ -150,13 +150,13 @@ Użytkownicy w organizacji mogą publikować raporty w Internecie. [Dowiedz się
 
 ![](media/service-admin-portal/powerbi-admin-publish-to-web.png)
 
-Użytkownicy będą widzieć różne opcje w interfejsie użytkownika w zależności od tego, jakie jest ustawienie publikowania w Internecie.
+Użytkownicy mogą widzieć różne opcje w interfejsie użytkownika w zależności od tego, jakie jest ustawienie publikowania w Internecie.
 
 |Promowanie |Włączone dla całej organizacji |Wyłączone dla całej organizacji |Określone grupy zabezpieczeń   |
 |---------|---------|---------|---------|
 |Opcja **Publikuj w sieci Web** w menu **Plik** raportu.|Włączone dla wszystkich|Nie jest widoczne dla wszystkich|Widoczne tylko dla autoryzowanych użytkowników lub grup.|
 |Opcja **Zarządzaj kodami osadzania** w obszarze **Ustawienia**|Włączone dla wszystkich|Włączone dla wszystkich|Włączone dla wszystkich<br><br>Opcja * **Usuń** tylko dla autoryzowanych użytkowników lub grup.<br>Opcja * **Uzyskaj kody** włączona dla wszystkich.|
-|**Kody osadzania** w portalu administracyjnym|Stan będzie odzwierciedlać jedną z następujących sytuacji:<br>* Aktywne<br>* Nieobsługiwane<br>* Zablokowane|Będzie wyświetlany stan **Wyłączone**|Stan będzie odzwierciedlać jedną z następujących sytuacji:<br>* Aktywne<br>* Nieobsługiwane<br>* Zablokowane<br><br>Jeśli zgodnie z ustawieniami dzierżawy użytkownik nie ma autoryzacji, będzie wyświetlany stan **Naruszenie**.|
+|**Kody osadzania** w portalu administracyjnym|Stan odzwierciedla jedną z następujących sytuacji:<br>* Aktywne<br>* Nieobsługiwane<br>* Zablokowane|Wyświetlany stan to **Wyłączone**|Stan odzwierciedla jedną z następujących sytuacji:<br>* Aktywne<br>* Nieobsługiwane<br>* Zablokowane<br><br>Jeśli zgodnie z ustawieniami dzierżawy użytkownik nie ma autoryzacji, jest wyświetlany stan **Naruszenie**.|
 |Istniejące opublikowane raporty|Wszystko włączone|Wszystko wyłączone|Raporty w dalszym ciągu są renderowane dla wszystkich.|
 
 ### <a name="export-data"></a>Eksportuj dane
@@ -166,9 +166,9 @@ Użytkownicy w organizacji mogą eksportować dane z kafelka lub wizualizacji. [
 ![](media/service-admin-portal/powerbi-admin-export-data.png)
 
 > [!NOTE]
-> Wyłączenie opcji **Eksportowanie danych** ponadto uniemożliwi użytkownikom korzystanie z funkcji **Analizuj w programie Excel** oraz połączenia na żywo usługi Power BI.
+> Wyłączenie funkcji **Eksportowanie danych** ponadto uniemożliwia użytkownikom korzystanie z funkcji **Analizuj w programie Excel** oraz połączenia na żywo usługi Power BI.
 
-### <a name="export-reports-as-powerpoint-presentations"></a>Eksportowanie raportów jako prezentacji programu PowerPoint
+### <a name="export-reports-as-powerpoint-presentations"></a>Eksportuj raporty jako prezentacje programu PowerPoint
 
 Użytkownicy w organizacji mogą eksportować raporty usługi Power BI jako pliki programu PowerPoint. [Dowiedz się więcej](service-publish-to-powerpoint.md)
 
@@ -210,16 +210,18 @@ Przejdź tutaj, aby dowiedzieć się więcej o [wypychaniu aplikacji](service-cr
 ## <a name="integration-settings"></a>Ustawienia integracji
 
 ### <a name="ask-questions-about-data-using-cortana"></a>Zadawanie pytań o dane przy użyciu Cortany
+
 Użytkownicy w organizacji mogą zadawać pytania dotyczące danych przy użyciu Cortany.
 
 > [!NOTE]
 > To ustawienie ma zastosowanie do całej organizacji i nie może być ograniczone do określonych grup.
 
 ### <a name="use-analyze-in-excel-with-on-premises-datasets"></a>Używanie funkcji Analizuj w programie Excel z lokalnymi zestawami danych
+
 Użytkownicy w organizacji mogą używać programu Excel, aby wyświetlać lokalne zestawy danych usługi Power BI i wchodzić z nimi w interakcje. [Dowiedz się więcej](service-analyze-in-excel.md)
 
 > [!NOTE]
-> Wyłączenie funkcji **Eksportowanie danych** również uniemożliwi użytkownikom korzystanie z funkcji **Analizuj w programie Excel**.
+> Wyłączenie funkcji **Eksportowanie danych** również uniemożliwia użytkownikom korzystanie z funkcji **Analizuj w programie Excel**.
 
 ### <a name="use-arcgis-maps-for-power-bi"></a>Używanie wizualizacji ArcGIS Maps for Power BI
 
@@ -230,7 +232,9 @@ Użytkownicy w organizacji mogą używać wizualizacji ArcGIS Maps for Power BI 
 Użytkownicy w organizacji mogą używać zewnętrznych funkcji wyszukiwania, które korzystają z usługi Azure Search. Na przykład użytkownicy mogą korzystać z Cortany, aby pobierać kluczowe informacje bezpośrednio z pulpitów nawigacyjnych i raportów usługi Power BI. [Dowiedz się więcej](service-cortana-intro.md)
 
 ## <a name="custom-visuals-settings"></a>Ustawienia wizualizacji niestandardowych
+
 ### <a name="enable-custom-visuals-for-the-entire-organization"></a>Umożliwiają włączenie niestandardowych elementów wizualnych w całej organizacji
+
 Użytkownicy w organizacji mogą interaktywnie współpracować przy użyciu niestandardowych elementów wizualnych oraz je udostępniać. [Dowiedz się więcej](power-bi-custom-visuals.md)
 
 > [!NOTE]
@@ -288,15 +292,27 @@ Użytkownicy w organizacji mogą tagować pulpity nawigacyjne przy użyciu klasy
 
 ### <a name="embed-content-in-apps"></a>Osadzanie zawartości w aplikacjach
 
-Użytkownicy w organizacji mogą osadzać pulpity nawigacyjne i raporty usługi Power BI w aplikacjach oprogramowania jako usługi (SaaS). Wyłączenie tego ustawienia sprawi, że użytkownicy nie będą w stanie używać interfejsów API REST do osadzania zawartości usługi Power BI w swoich aplikacjach.
+Użytkownicy w organizacji mogą osadzać pulpity nawigacyjne i raporty usługi Power BI w aplikacjach oprogramowania jako usługi (SaaS). Wyłączenie tego ustawienia sprawia, że użytkownicy nie mogą używać interfejsów API REST do osadzania zawartości usługi Power BI w swoich aplikacjach.
 
 ## <a name="capacity-settings"></a>Ustawienia pojemności
 
-Karta Ustawienia pojemności umożliwia zarządzanie pojemnością Power BI Premium zakupioną dla organizacji. Wszyscy użytkownicy w organizacji będą widzieć kartę ustawień wersji Premium, ale zobaczą zawartość na karcie tylko wtedy, jeśli przydzielono im rolę **administratora pojemności** lub użytkownika z uprawnieniami do przypisywania. Jeśli użytkownik nie ma żadnych uprawnień, zobaczy następujący komunikat.
+### <a name="premium-settings"></a>Ustawienia — wersja Premium
 
-![](media/service-admin-portal/premium-settings-no-access.png "Brak dostępu do ustawień wersji Premium")
+Karta Ustawienia — wersja Premium umożliwia zarządzanie dowolną pojemnością usługi Power BI Premium (Em lub SKU P) zakupioną przez organizację. Wszyscy użytkownicy w organizacji widzą kartę ustawień wersji Premium, ale zobaczą zawartość na karcie tylko wtedy, jeśli przydzielono im rolę **administratora pojemności** lub użytkownika z uprawnieniami do przypisywania. Jeśli użytkownik nie ma żadnych uprawnień, jest wyświetlany poniższy komunikat.
 
-Aby uzyskać więcej informacji o zarządzaniu ustawieniami wersji Premium, zobacz [Zarządzanie usługą Power BI Premium](service-admin-premium-manage.md).
+![Ustawienia administratora usługi Power BI Premium](media/service-admin-portal/premium-settings-no-access.png "Brak dostępu do ustawień wersji Premium")
+
+Aby uzyskać więcej informacji o sposobach zarządzania ustawieniami wersji Premium, zobacz [Zarządzanie usługą Power BI Premium](service-admin-premium-manage.md).
+
+### <a name="power-bi-embedded-settings"></a>Ustawienia usługi Power BI Embedded
+
+Karta ustawień usługi Power BI Embedded służy do wyświetlania pojemności usługi Power BI Embedded (SKU A) zakupionych dla klienta. Ponieważ jednostki SKU A można kupić tylko na platformie Azure, możesz [zarządzać osadzonymi pojemnościami na platformie Azure](developer/azure-pbie-create-capacity.md) z poziomu witryny **Azure Portal**.
+
+![Ustawienia administratora usługi Power BI Embedded](media/service-admin-portal/manage-pbie-capacities-01.png)
+
+![Szczegółowe ustawienia administratora usługi Power BI Embedded](media/service-admin-portal/manage-pbie-capacities-02.png)
+
+Aby uzyskać więcej informacji na temat zarządzania ustawieniami usługi Power BI Embedded (SKU A), zobacz [Co to jest usługa Power BI Embedded](developer/azure-pbie-what-is-power-bi-embedded.md).
 
 ## <a name="embed-codes"></a>Kody osadzania
 
@@ -307,10 +323,10 @@ Jako administrator możesz wyświetlać kody osadzania, które są generowane dl
 ## <a name="organization-visuals"></a>Wizualizacje organizacji
 
 Karta wizualizacji organizacji umożliwia wdrażanie niestandardowych wizualizacji oraz zarządzanie nimi w ramach organizacji. Pozwala łatwo implementować własne wizualizacje niestandardowe w organizacji, tak aby autorzy raportów mogli je w prosty sposób odnajdować i importować bezpośrednio z programu Power BI Desktop do swoich raportów.
- 
+
 Na stronie znajdują się wszystkie wizualizacje niestandardowe, które są aktualnie zaimplementowane w repozytorium organizacji.
- 
-![](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-01.png)
+
+![Wizualizacja administratora organizacji](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-01.png)
 
 ### <a name="add-a-new-custom-visual"></a>Dodawanie nowej wizualizacji niestandardowej
 
@@ -320,29 +336,41 @@ Aby dodać nową wizualizację niestandardową do listy, wybierz pozycję **Impo
 
 > [!WARNING]
 > Wizualizacja niestandardowa może zawierać kod zagrażający bezpieczeństwu lub prywatności. Przed jej wdrożeniem w repozytorium pochodzenia upewnij się, że autor i źródło wizualizacji niestandardowej należą do zaufanych.
-> 
 
 Wypełnij pola:
- 
+
 * Wybierz plik pbiviz (wymagane): wybierz plik wizualizacji niestandardowej do przekazania. Obsługiwane są tylko wersjonowane niestandardowe wizualizacje interfejsu API (przeczytaj tutaj, co to oznacza).
+
 Przed przekazaniem wizualizacji niestandardowej należy ją sprawdzić pod kątem zabezpieczeń i prywatności, aby zapewnić jej zgodność ze standardami organizacji. Przeczytaj więcej o zabezpieczeniach wizualizacji niestandardowych.
- 
+
 * Nazwij swoją wizualizację niestandardową (wymagane): nadaj wizualizacji krótki tytuł, by użytkownicy programu Power BI Desktop mogli łatwo poznać jej zastosowanie
- 
-* Ikona (wymagane): plik ikony, który będzie wyświetlany w interfejsie użytkownika programu Power BI Desktop.
- 
+
+* Ikona (wymagane): plik ikony wyświetlany w interfejsie użytkownika programu Power BI Desktop.
+
 * Opis: krótki opis wizualizacji zapewniający użytkownikowi więcej informacji i kontekst
- 
-Wybierz opcję „Zastosuj”, aby zainicjować żądanie przekazania. Jeśli operacja zostanie wykonana pomyślnie, na liście pojawi się nowy element. Jeśli operacja zakończy się niepowodzeniem, zostanie wyświetlony odpowiedni komunikat o błędzie.
- 
+
+Wybierz opcję „Zastosuj”, aby zainicjować żądanie przekazania. Jeśli operacja zostanie wykonana pomyślnie, na liście pojawia się nowy element. Jeśli operacja zakończy się niepowodzeniem, jest wyświetlany odpowiedni komunikat o błędzie.
+
 ### <a name="delete-a-custom-visual-from-the-list"></a>Usuwanie wizualizacji niestandardowej z listy
 
 Wybierz ikonę kosza, aby trwale usunąć wizualizację z repozytorium.
-Ważne: usunięcie elementu jest nieodwracalne. Usunięcie wizualizacji spowoduje zakończenie renderowania w istniejących raportach. Nawet w przypadku ponownego przekazania tej samej wizualizacji nie zastąpi ona poprzedniej, która została usunięta. Użytkownicy będą musieli ponownie zaimportować nową wizualizację i zastąpić wystąpienie w raportach.
- 
+Ważne: usunięcie elementu jest nieodwracalne. Usunięcie wizualizacji powoduje natychmiastowe zakończenie renderowania w istniejących raportach. Nawet w przypadku ponownego przekazania tej samej wizualizacji nie zastąpi ona poprzedniej, która została usunięta. Użytkownicy mogą ponownie zaimportować nową wizualizację i zastąpić wystąpienie w raportach.
+
+### <a name="disable-a-custom-visual-in-the-list"></a>Wyłączanie wizualizacji niestandardowej na liście
+
+Aby wyłączyć wizualizację z magazynu organizacyjnego, wybierz ikonę koła zębatego. W sekcji **Dostęp** wyłącz wizualizację niestandardową.
+
+Wyłączona wizualizacja nie będzie renderowana w istniejących raportach i spowoduje wyświetlenie poniższego komunikatu o błędzie.
+
+*Ta wizualizacja niestandardowa jest już niedostępna. Aby uzyskać więcej informacji, skontaktuj się z administratorem.*
+
+Wizualizacje oznaczone zakładkami będą jednak nadal działać.
+
+Po każdej aktualizacji lub zmianie wprowadzonej przez administratora użytkownicy usługi Power BI Desktop powinni ponownie uruchomić aplikację lub odświeżyć przeglądarkę w usłudze Power BI, aby zobaczyć aktualizacje.
+
 ### <a name="how-to-update-a-visual"></a>Jak zaktualizować wizualizację
 
-Jeśli chcesz zaktualizować wizualizację w repozytorium, ponieważ dostępna jest jej nowa wersja (np. zawierająca poprawki błędów, nowe funkcje itp.), wybierz ikonę **Aktualizuj** i przekaż nowy plik. Upewnij się, że identyfikator wizualizacji pozostał niezmieniony. Nowy plik zastąpi jego poprzednią wersję dla wszystkich raportów w całej organizacji. Jednak jeśli nowa wersja wizualizacji może uniemożliwić użycie wcześniejszej wersji wizualizacji lub zaburzyć jej strukturę danych, nie zastępuj poprzedniej wersji. Zamiast tego utwórz nową listę z nową wersją wizualizacji. Na przykład dodaj numer nowej wersji (wersja X.X) do tytułu umieszczonej na liście nowej wizualizacji. Dzięki temu wyraźnie widać, że jest to ta sama wizualizacja ze zaktualizowanym numerem wersji, dlatego funkcjonalność istniejących raportów nie zostaje zakłócona. I tym razem upewnij się, że identyfikator wizualizacji pozostał niezmieniony. Następnym razem, gdy użytkownicy przejdą do repozytorium organizacji z programu Power BI Desktop, będą mogli zaimportować nową wersję, co spowoduje wyświetlenie monitu o zastąpienie bieżącej wersji zawartej w raporcie.
+Jeśli chcesz zaktualizować wizualizację w repozytorium, ponieważ dostępna jest jej nowa wersja (np. zawierająca poprawki błędów, nowe funkcje itp.), wybierz ikonę **Aktualizuj** i przekaż nowy plik. Upewnij się, że identyfikator wizualizacji pozostał niezmieniony. Nowy plik zastępuje jego poprzednią wersję dla wszystkich raportów w całej organizacji. Jednak jeśli nowa wersja wizualizacji może uniemożliwić użycie wcześniejszej wersji wizualizacji lub zaburzyć jej strukturę danych, nie zastępuj poprzedniej wersji. Zamiast tego utwórz nową listę z nową wersją wizualizacji. Na przykład dodaj numer nowej wersji (wersja X.X) do tytułu umieszczonej na liście nowej wizualizacji. Dzięki temu wyraźnie widać, że jest to ta sama wizualizacja ze zaktualizowanym numerem wersji, dlatego funkcjonalność istniejących raportów nie zostaje zakłócona. I tym razem upewnij się, że identyfikator wizualizacji pozostał niezmieniony. Następnym razem, gdy użytkownicy przejdą do repozytorium organizacji z programu Power BI Desktop, mogą zaimportować nową wersję, co powoduje wyświetlenie monitu o zastąpienie bieżącej wersji zawartej w raporcie.
 
 ## <a name="next-steps"></a>Następne kroki
 

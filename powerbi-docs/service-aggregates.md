@@ -2,20 +2,20 @@
 title: Agregacje (suma, średnia, wartość maksymalna itp.) w wizualizacjach
 description: Zmienianie agregacji na wykresie (suma, średnia, wartość maksymalna itp.) w usłudze Power BI
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/04/2018
+ms.date: 08/29/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 39adfd04118362fa706f0840daa5c2520d899b5e
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: d48f99c8415b7b347a504525b0c6539d1e90f4dd
+ms.sourcegitcommit: aed348a2d0025f7f40f2196254993f6aba5db7d2
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34247601"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43241550"
 ---
 # <a name="aggregates-in-power-bi-visualizations"></a>Agregacje w wizualizacjach usługi Power BI
 ## <a name="what-is-an-aggregate"></a>Co to jest agregacja?
@@ -26,7 +26,7 @@ Podczas tworzenia wizualizacji w usłudze Power BI lub w programie Power BI Desk
 Najpierw przyjrzyjmy się *typom* danych, ponieważ typ danych określa jak, i czy, dane mogą być agregowane.
 
 ## <a name="types-of-data"></a>Typy danych
-Większość zestawów danych zawiera więcej niż jeden typ danych. Na najbardziej podstawowym poziomie dane są liczbowe albo nie. Dane liczbowe można agregować przy użyciu sumy, średniej, wartości minimalnej, wariancji i nie tylko. Nawet dane tekstowe, często nazywane danymi *kategorii*, można agregować. W przypadku próby agregowania pól kategorii (przez umieszczenie ich w zasobniku „tylko liczbowe”, takim jak **Wartości** lub **Etykietki**) usługa Power BI będzie zliczać wystąpienia każdej kategorii lub unikatowe wystąpienia każdej kategorii. Natomiast specjalne typy danych, takie jak daty, mają kilka własnych opcji agregacji: najwcześniejsze, najpóźniejsze, pierwsze i ostatnie. 
+Większość zestawów danych zawiera więcej niż jeden typ danych. Na najbardziej podstawowym poziomie dane są liczbowe albo nie. Dane liczbowe można agregować przy użyciu sumy, średniej, wartości minimalnej, wariancji i nie tylko. Nawet dane tekstowe, często nazywane danymi *kategorii*, można agregować. W przypadku próby agregowania pola kategorii (przez umieszczenie go w zasobniku „tylko liczbowe”, takim jak **Wartości** lub **Etykietki**) usługa Power BI będzie zliczać wystąpienia każdej kategorii lub unikatowe wystąpienia każdej kategorii. Natomiast specjalne typy danych, takie jak daty, mają kilka własnych opcji agregacji: najwcześniejsze, najpóźniejsze, pierwsze i ostatnie. 
 
 W poniższym przykładzie:
 - Kolumny **Sprzedane jednostki** (Units Sold) i **Cena produkcji** (Manufacturing Price) zawierają dane liczbowe
@@ -43,7 +43,7 @@ Podczas tworzenia wizualizacji w usłudze Power BI pola liczbowe zostaną zagreg
 ## <a name="why-dont-aggregates-work-the-way-i-want-them-to"></a>Dlaczego agregowanie nie działa odpowiednio?
 Praca z agregacjami w usłudze Power BI może sprawiać kłopot, kiedy na przykład usługa Power BI nie pozwala Ci zmienić agregacji w przypadku pola numerycznego lub kiedy nie chcesz agregować pola (np. Rok), ale chcesz jedynie zliczyć jego wystąpienia.
 
-Najczęstszym źródłem problemu jest sposób zdefiniowania pola w zestawie danych. Jeśli pole zostało zdefiniowane jako tekst, nie będzie możliwe obliczenie sumy ani średniej. Niestety [tylko właściciel zestawu danych może zmienić sposób klasyfikacji pola](desktop-measures.md). Jeśli zatem masz uprawnienia właściciela do zestawu danych, albo w programie Desktop, albo w innym, w którym ten zestaw danych został utworzony (np. Excel), możesz rozwiązać ten problem. W przeciwnym razie musisz skontaktować się z właścicielem zestawu danych, aby uzyskać pomoc.  
+Najczęstszym źródłem problemu jest sposób zdefiniowania pola w zestawie danych. Jeśli pole zostało zdefiniowane jako tekst, nie będzie możliwe obliczenie sumy ani średniej. Niestety [tylko właściciel zestawu danych może zmienić sposób klasyfikacji pola](desktop-measures.md). Jeśli zatem masz uprawnienia właściciela do zestawu danych, albo w programie Desktop, albo w innym, w którym ten zestaw danych został utworzony (na przykład Excel), możesz rozwiązać ten problem. W przeciwnym razie musisz skontaktować się z właścicielem zestawu danych, aby uzyskać pomoc.  
 
 W razie jakichkolwiek problemów zapoznaj się z sekcją **Istotne zagadnienia i rozwiązywanie problemów** w tym artykule.  Jeśli nie znajdziesz tam odpowiedzi, opublikuj swoje pytanie na [forum społeczności usługi Power BI](http://community.powerbi.com), aby uzyskać szybką odpowiedź bezpośrednio od zespołu usługi Power BI.
 
@@ -129,7 +129,7 @@ Odpowiedź: wybrane pole to prawdopodobnie miara obliczana lub miara zaawansowan
 
 Pytanie: Skoro wybrane przeze mnie pole **jest** numeryczne, dlaczego jedynymi dostępnymi opcjami są **Liczność** i **Liczność unikatowych wartości**?
 
-Odpowiedź 1: Prawdopodobnie właściciel zestawu danych przypadkowo lub celowo *nie* sklasyfikował pola jako liczby. Załóżmy, że zestaw danych zawiera pole **Rok**. Właściciel zestawu danych może sklasyfikować go jako tekst, ponieważ bardziej prawdopodobne jest, że pole **Rok** będzie zliczane (tj. liczba osób urodzonych w 1974 r.), a nie sumowane lub uśredniane. Jeśli jesteś właścicielem, możesz otworzyć zestaw danych w programie Power BI Desktop i użyć karty **Modelowanie**, aby zmienić typ danych.  
+Odpowiedź 1: Prawdopodobnie właściciel zestawu danych przypadkowo lub celowo *nie* sklasyfikował pola jako liczby. Załóżmy, że zestaw danych zawiera pole **Rok**. Właściciel zestawu danych może sklasyfikować go jako tekst, ponieważ bardziej prawdopodobne jest, że pole **Rok** będzie zliczane (na przykład liczba osób urodzonych w 1974 r.), a nie sumowane lub uśredniane. Jeśli jesteś właścicielem, możesz otworzyć zestaw danych w programie Power BI Desktop i użyć karty **Modelowanie**, aby zmienić typ danych.  
 
 Odpowiedź 2: Jeśli pole zawiera ikonę kalkulatora, oznacza to, że jest *miarą obliczaną*, a każda miara obliczana ma własną ustaloną formułę, którą może zmienić tylko właściciel zestawu danych. Przeprowadzane obliczenia mogą dotyczyć prostej agregacji, takiej jak średnia lub suma, ale równie dobrze mogłyby obejmować bardziej skomplikowane operacje, takie jak „procent łącznego wkładu względem kategorii nadrzędnej” lub „suma bieżąca obliczana od początku roku”. Usługa Power BI nie będzie obliczać sumy ani średniej dla otrzymanych wyników, zamiast tego ponownie zliczy wartości (przy użyciu ustalonej formuły) dla każdego punktu danych.
 
@@ -139,6 +139,10 @@ Odpowiedź 4: Trzecia możliwość polega na tym, że używasz pola dla osi. Pos
 
 >[!NOTE]
 >Wyjątkiem od tej reguły są wykresy punktowe, które *wymagają* wartości zagregowanych dla osi X i Y.
+
+Pytanie: Dlaczego nie można agregować pól tekstowych w przypadku źródeł danych SSAS?
+
+Odpowiedź: Połączenia na żywo z modelami SSAS MD nie zezwalają na agregacje po stronie klienta. Obejmuje to instrukcje first, last, avg, min, max i sum.
 
 Pytanie: Mam wykres punktowy i *nie* chcę, aby moje pole było agregowane.  Co mam zrobić?
 

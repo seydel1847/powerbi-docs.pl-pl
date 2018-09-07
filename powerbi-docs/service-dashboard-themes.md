@@ -2,20 +2,20 @@
 title: Używanie motywów pulpitu nawigacyjnego w usłudze Power BI
 description: Dowiedz się, jak używać niestandardowej palety kolorów i stosować ją do całego pulpitu nawigacyjnego w usłudze Power BI
 author: mihart
-manager: kfile
+manager: annbe
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/22/2018
+ms.date: 08/22/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: d17694d6dd2e2133b80d326a8aa86194d5710946
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 25bd28db7b31921d5f1a02ae72cee47207134f2a
+ms.sourcegitcommit: aed348a2d0025f7f40f2196254993f6aba5db7d2
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "36944657"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43241481"
 ---
 # <a name="use-dashboard-themes-in-power-bi-service"></a>Używanie motywów pulpitu nawigacyjnego w usłudze Power BI
 **Motywy pulpitu nawigacyjnego** umożliwiają zastosowanie motywu kolorystycznego — kolorów firmowych, okolicznościowych lub innego dowolnego motywu kolorystycznego — do całego pulpitu nawigacyjnego. Zastosowanie **motywu pulpitu nawigacyjnego** spowoduje, że kolory tego motywu będą używane we wszystkich wizualizacjach na pulpicie nawigacyjnym (z kilkoma wyjątkami opisanymi w dalszej części tego artykułu).
@@ -46,7 +46,7 @@ Domyślny motyw pulpitów nawigacyjnych usługi Power BI to **Jasny**. Aby dosto
 
 ![Wybieranie pozycji Niestandardowy z listy rozwijanej](media/service-dashboard-themes/power-bi-theme-custom.png)
 
-Do tworzenia własnych motywów pulpitu nawigacyjnego należy użyć opcji niestandardowych. Przy dodawaniu obrazu tła zaleca się użycie obrazu o rozdzielczości co najmniej 1920 x 1080 pikseli.  
+Do tworzenia własnych motywów pulpitu nawigacyjnego należy użyć opcji niestandardowych. Przy dodawaniu obrazu tła zaleca się użycie obrazu o rozdzielczości co najmniej 1920 x 1080 pikseli. Aby użyć obrazu jako tła, przekaż obraz do publicznej witryny internetowej, skopiuj adres URL i wklej go w polu **Adres URL obrazu**. 
 
 ### <a name="using-json-themes"></a>Korzystanie z motywów JSON
 Motyw niestandardowy można także utworzyć, przekazując plik JSON zawierający ustawienia wszystkich kolorów do użycia na pulpicie nawigacyjnym. W programie Power BI Desktop twórcy raportu używają plików JSON do [tworzenia motywów dla raportów](desktop-report-themes.md). Te same pliki JSON można przekazywać do pulpitów nawigacyjnych. Można też znaleźć i przekazać pliki JSON ze [strony galerii motywów](https://community.powerbi.com/t5/Themes-Gallery/bd-p/ThemesGallery) dostępnej w społeczności usługi Power BI 

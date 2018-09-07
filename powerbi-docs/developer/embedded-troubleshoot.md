@@ -2,35 +2,35 @@
 title: Rozwiązywanie problemów z aplikacją osadzoną
 description: W tym artykule omówiono niektóre typowe problemy, które można napotkać podczas osadzania zawartości z usługi Power BI.
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 07/09/2018
-ms.author: maghan
-ms.openlocfilehash: d6b30d97b1982ceca34579751e412a279b0d8881
-ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
+ms.date: 08/31/2018
+ms.openlocfilehash: 48faf9ebde5860b59569a7e0a3a96664d06a1b0d
+ms.sourcegitcommit: aed348a2d0025f7f40f2196254993f6aba5db7d2
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38877029"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43241573"
 ---
 # <a name="troubleshooting-your-embedded-application"></a>Rozwiązywanie problemów z aplikacją osadzoną
 
-W tym artykule omówiono niektóre typowe problemy, które można napotkać podczas osadzania zawartości z usługi Power BI.
+W tym artykule omówiono niektóre typowe problemy, które mogą wystąpić podczas osadzania zawartości z usługi Power BI.
 
 ## <a name="tools-for-troubleshooting"></a>Narzędzia do rozwiązywania problemów
 
 ### <a name="fiddler-trace"></a>Śledzenie za pomocą narzędzia Fiddler
 
-[Fiddler](http://www.telerik.com/fiddler) to bezpłatne narzędzie firmy Telerik, które monitoruje ruch HTTP.  Dzięki niemu ruch przychodzący i wychodzący można sprawdzać za pomocą interfejsów API usługi Power BI z komputera klienckiego. W ten sposób można ujawnić błędy i inne istotne informacje.
+[Fiddler](http://www.telerik.com/fiddler) to bezpłatne narzędzie firmy Telerik, które monitoruje ruch HTTP.  Dzięki niemu ruch można sprawdzać za pomocą interfejsów API usługi Power BI z maszyny klienckiej. To narzędzie może ujawnić błędy i inne istotne informacje.
 
 ![Śledzenie za pomocą narzędzia Fiddler](../includes/media/gateway-onprem-tshoot-tools-include/fiddler.png)
 
 ### <a name="f12-in-browser-for-front-end-debugging"></a>Narzędzia uruchamiane klawiszem F12 w przeglądarce na potrzeby debugowania na poziomie frontonu
 
-Naciśnięcie klawisza F12 spowoduje uruchomienie okna dewelopera w przeglądarce. Dzięki niemu można zapoznać się z ruchem sieciowym i innymi informacjami.
+Naciśnięcie klawisza F12 powoduje uruchomienie okna dewelopera w przeglądarce. To narzędzie umożliwia zapoznanie się z ruchem sieciowym i innymi informacjami.
 
 ![Debugowanie przeglądarki po naciśnięciu klawisza F12](media/embedded-troubleshoot/browser-f12.png)
 
@@ -38,7 +38,7 @@ Naciśnięcie klawisza F12 spowoduje uruchomienie okna dewelopera w przeglądarc
 
 Następujący fragment kodu przedstawia sposób wyodrębniania szczegółów błędu z wyjątku HTTP:
 
-```
+```csharp
 public static string GetExceptionText(this HttpOperationException exc)
 {
     var errorText = string.Format("Request: {0}\r\nStatus: {1} ({2})\r\nResponse: {3}",
@@ -52,7 +52,8 @@ public static string GetExceptionText(this HttpOperationException exc)
     return errorText;
 }
 ```
-Zalecamy rejestrowanie identyfikatorów żądań (i szczegółów błędów na potrzeby rozwiązywania problemów).
+
+Zalecamy rejestrowanie identyfikatora żądania (i szczegółów błędów na potrzeby rozwiązywania problemów).
 Podaj identyfikator żądania podczas kontaktowania się z pomocą techniczną firmy Microsoft.
 
 ## <a name="app-registration"></a>Rejestrowanie aplikacji
@@ -102,7 +103,7 @@ Zaplecze aplikacji może wymagać odświeżenia tokenu uwierzytelniania przed wy
 
 **(AADSTS70002: Błąd podczas walidacji poświadczeń. AADSTS50053: Nastąpiło zbyt wiele prób zalogowania przy użyciu niepoprawnego identyfikatora użytkownika lub hasła)**
 
-Jeśli używasz usługi Power BI Embedded i bezpośredniego uwierzytelniania usługi Azure AD oraz podczas logowania otrzymujesz komunikaty, takie jak ***error:unauthorized_client,error_description:AADSTS70002: Błąd podczas walidacji poświadczeń. AADSTS50053: Nastąpiło zbyt wiele prób zalogowania przy użyciu niepoprawnego identyfikatora użytkownika lub hasła***, dzieje się tak, ponieważ bezpośrednie uwierzytelnianie zostało domyślnie wyłączone od 14/06/2018 r.
+Jeśli używasz usługi Power BI Embedded i bezpośredniego uwierzytelniania usługi Azure AD oraz podczas logowania otrzymujesz komunikaty, takie jak ***error:unauthorized_client, error_description:AADSTS70002: Błąd podczas walidacji poświadczeń. AADSTS50053: Nastąpiło zbyt wiele prób zalogowania przy użyciu niepoprawnego identyfikatora użytkownika lub hasła***, dzieje się tak, ponieważ bezpośrednie uwierzytelnianie zostało domyślnie wyłączone od 14.06.2018 r.
 
 Tę funkcję można ponownie włączyć przy użyciu [zasad usługi Azure AD](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications) działających w zakresie organizacji lub [jednostki usługi](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-application-objects#service-principal-object).
 
@@ -178,7 +179,7 @@ Zgoda użytkownika została wyłączona dla dzierżawy.
 
 **Niezależny dostawca oprogramowania chce mieć inne poświadczenia dla tego samego źródła danych**
 
-Źródło danych może mieć jeden zestaw poświadczeń dla jednego użytkownika głównego. Użycie innych poświadczeń wymaga utworzenia dodatkowych użytkowników głównych. Następnie należy przypisać inne poświadczenia w każdym kontekście użytkownika głównego i wykonać osadzanie przy użyciu tokenu usługi Azure AD tego użytkownika.
+Źródło danych może mieć jeden zestaw poświadczeń dla jednego użytkownika głównego. Użycie innych poświadczeń wymaga utworzenia dodatkowych użytkowników głównych. Następnie należy przypisać inne poświadczenia w poszczególnych kontekstach użytkowników głównych i wykonać osadzanie przy użyciu tokenu usługi Azure AD tego użytkownika.
 
 ## <a name="content-rendering"></a>Renderowanie zawartości
 
@@ -188,11 +189,45 @@ Upewnij się, że osadzony token nie wygasł. Sprawdź, czy osadzony token wygas
 
 **Raport lub pulpit nawigacyjny nie ładuje się**
 
-Jeśli użytkownik nie widzi raportu lub pulpitu nawigacyjnego, należy upewnić się, że raport lub pulpit nawigacyjny ładuje się poprawnie w witrynie powerbi.com. Raport lub pulpit nawigacyjny nie będzie działał w aplikacji, jeśli nie zostanie załadowany w witrynie powerbi.com.
+Jeśli użytkownik nie widzi raportu lub pulpitu nawigacyjnego, należy upewnić się, że raport lub pulpit nawigacyjny ładuje się poprawnie w witrynie powerbi.com. Raport lub pulpit nawigacyjny nie działa w aplikacji, jeśli nie jest ładowany w witrynie powerbi.com.
 
 **Raport lub pulpit nawigacyjny działa wolno**
 
 Otwórz plik w programie Power BI Desktop lub w witrynie powerbi.com i sprawdź, czy wydajność pozwala wykluczyć problemy z aplikacją lub osadzaniem interfejsów API.
+
+## <a name="troubleshooting-your-embedded-application-with-the-ierror-object"></a>Rozwiązywanie problemów z aplikacją osadzoną przy użyciu obiektu IError
+
+[**Obiekt IError** zwrócony przez zdarzenie *błędu* z **zestawu JavaScript SDK**](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Troubleshooting-and-debugging-of-embedded-parts) umożliwia debugowanie aplikacji i dokładniejsze analizowanie przyczyn błędów.
+
+Po uzyskaniu obiektu IError zapoznaj się z odpowiednią tabelą typowych błędów, która pasuje do stosowanego typu osadzania. Porównaj **właściwości obiektu IError** z podanymi w tabeli i znajdź możliwe przyczyny niepowodzenia.
+
+### <a name="typical-errors-when-embedding-for-power-bi-users"></a>Typowe błędy podczas osadzania w przypadku użytkowników usługi Power BI
+
+| Wiadomość | Szczegółowy komunikat | Kod błędu | Możliwe przyczyny |
+|-------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|-----------|--------------------------------------------------------|
+| TokenExpired | Token dostępu wygasł, prześlij ponownie przy użyciu nowego tokenu dostępu | 403 | Wygasły token  |
+| PowerBIEntityNotFound | Nieudane pobieranie raportu | 404 | <li> Nieprawidłowy identyfikator raportu <li> Raport nie istnieje  |
+| Nieprawidłowe parametry | Nie określono parametru powerbiToken | Nie dotyczy | <li> Nie podano tokenu dostępu <li> Nie podano identyfikatora raportu |
+| LoadReportFailed | Niepowodzenie inicjowania — nie można rozpoznać klastra | 403 | * Nieprawidłowy token dostępu * Typ osadzania jest niezgodny z typem tokenu |
+| PowerBINotAuthorizedException | Nieudane pobieranie raportu | 401 | <li> Nieprawidłowy identyfikator grupy <li> Nieautoryzowana grupa |
+| TokenExpired | Token dostępu wygasł, prześlij ponownie przy użyciu nowego tokenu dostępu. Nie można renderować wizualizacji raportu o nazwie: <visual title> | Nie dotyczy | Zapytanie o dane — wygasły token |
+| OpenConnectionError | Nie można wyświetlić wizualizacji. Nie można renderować wizualizacji raportu o nazwie: <visual title> | Nie dotyczy | Wstrzymano lub usunięto pojemność po otwarciu w ramach sesji raportu powiązanego z pojemnością |
+| ExplorationContainer_FailedToLoadModel_DefaultDetails | Nie można załadować schematu modelu skojarzonego z tym raportem. Upewnij się, że masz połączenie z serwerem, i spróbuj ponownie. | Nie dotyczy | <li> Wstrzymano pojemność <li> Usunięto pojemność |
+
+### <a name="typical-errors-when-embedding-for-non-power-bi-users-using-an-embed-token"></a>Typowe błędy podczas osadzania w przypadku użytkowników niekorzystających z usługi Power BI (przy użyciu tokenu osadzania)
+
+| Wiadomość | Szczegółowy komunikat | Kod błędu | Przyczyny |
+|-------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|------------|-------------------------------------------------|
+| TokenExpired | Token dostępu wygasł, prześlij ponownie przy użyciu nowego tokenu dostępu | 403 | Wygasły token  |
+| LoadReportFailed | Nieudane pobieranie raportu | 404 | <li> Nieprawidłowy identyfikator raportu <li> Raport nie istnieje  |
+| LoadReportFailed | Nieudane pobieranie raportu | 403 | Identyfikator raportu nie jest zgodny z tokenem |
+| LoadReportFailed | Nieudane pobieranie raportu | 500 | Identyfikator podany w raporcie nie jest identyfikatorem GUID |
+| Nieprawidłowe parametry | Nie określono parametru powerbiToken | Nie dotyczy | <li> Nie podano tokenu dostępu <li> Nie podano identyfikatora raportu |
+| LoadReportFailed | Niepowodzenie inicjowania — nie można rozpoznać klastra | 403 | Nieprawidłowy typ tokenu, niewłaściwy token |
+| PowerBINotAuthorizedException | Nieudane pobieranie raportu | 401 | Nieprawidłowy/nieautoryzowany identyfikator grupy |
+| TokenExpired | Token dostępu wygasł, prześlij ponownie przy użyciu nowego tokenu dostępu. Nie można renderować wizualizacji raportu o nazwie: <visual title> | Nie dotyczy | Zapytanie o dane — wygasły token |
+| OpenConnectionError | Nie można wyświetlić wizualizacji. Nie można renderować wizualizacji raportu o nazwie: <visual title> | Nie dotyczy | Wstrzymano lub usunięto pojemność po otwarciu w ramach sesji raportu powiązanego z pojemnością |
+| ExplorationContainer_FailedToLoadModel_DefaultDetails | Nie można załadować schematu modelu skojarzonego z tym raportem. Upewnij się, że masz połączenie z serwerem, i spróbuj ponownie. | Nie dotyczy | <li> Wstrzymano pojemność <li> Usunięto pojemność |
 
 ## <a name="onboarding-experience-tool-for-embedding"></a>Narzędzie obsługi dołączania na potrzeby osadzania
 
@@ -244,3 +279,5 @@ Jeśli chcesz edytować dane lub profil użytkownika usługi Power BI, dowiedz s
 Aby uzyskać więcej informacji, zobacz [Często zadawane pytania dotyczące usługi Power BI Embedded](embedded-faq.md).
 
 Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
+
+Jeśli potrzebujesz dalszej pomocy, [skontaktuj się z pomocą techniczną](https://powerbi.microsoft.com/en-us/support/pro/?Type=documentation&q=power+bi+embedded) lub [utwórz bilet pomocy technicznej za pośrednictwem witryny Azure Portal](https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest) i przekaż wyświetlone komunikaty błędów.
