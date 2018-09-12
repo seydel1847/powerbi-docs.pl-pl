@@ -1,0 +1,197 @@
+items:
+- name: Usługa Power BI dla użytkowników
+  href: power-bi-consumer-overview.md
+- name: Usługa Power BI w sieci Web
+  items:
+  - name: Omówienie
+    items:
+    - name: Co to jest usługa Power BI?
+      href: ../../service-basic-concepts.md
+  - name: Przewodniki Szybki start
+    items:
+    - name: Poruszanie się po usłudze Power BI
+      href: ../../service-the-new-power-bi-experience.md
+  - name: Pojęcia
+    items:
+    - name: Co nowego w usłudze Power BI
+      href: ../../service-whats-new.md
+    - name: Rejestracja samoobsługowa
+      href: ../../service-self-service-signup-for-power-bi.md
+    - name: Wyszukiwanie i sortowanie zawartości
+      href: ../../service-navigation-search-filter-sort.md
+    - name: Powiązana zawartość
+      href: ../../service-related-content.md
+    - name: Ostatnia zawartość
+      href: ../../service-recent.md
+    - name: Włączanie wersji zapoznawczej funkcji usługi Power BI
+      href: ../../service-preview-features.md
+    - name: Pulpity nawigacyjne w usłudze Power BI
+      href: ../../service-dashboards.md
+    - name: Pytania i odpowiedzi w usłudze Power BI
+      href: ../../power-bi-q-and-a.md
+    - name: Raporty w usłudze Power BI
+      href: ../../service-reports.md
+    - name: Wprowadzenie do Cortany dla usługi Power BI
+      href: ../../service-cortana-intro.md
+    - name: Kafelki pulpitu nawigacyjnego w usłudze Power BI
+      href: ../../service-dashboard-tiles.md
+    - name: Udostępnione mi
+      href: ../../service-shared-with-me.md
+    - name: Odświeżanie danych w usłudze Power BI
+      href: ../../refresh-data.md
+    - name: Często zadawane pytania
+      href: ../../service-frequently-asked-questions.md
+    - name: Usługa Power BI dla instytucji rządowych USA
+      href: ../../service-govus-overview.md
+    - name: Usługa Power BI — wersja bezpłatna a wersja Pro
+      href: ../../service-free-vs-pro.md
+    - name: 10 porad dotyczących uzyskiwania pomocy
+      href: ../../service-tips-for-finding-help.md
+    - name: Informacje o filtrach i wyróżnianiu w raportach usługi Power BI
+      href: ../../power-bi-reports-filters-and-highlighting.md
+  - name: Instrukcje
+    items:
+    - name: Typowe zadania
+      items:
+      - name: Ulubione pulpity nawigacyjne, raporty i aplikacje w usłudze Power BI
+        href: ../../service-dashboard-favorite.md
+      - name: Wyświetlanie kafelka pulpitu nawigacyjnego w trybie fokusu
+        href: ../../service-focus-mode.md
+      - name: Drukowanie pulpitu nawigacyjnego, drukowanie kafelka pulpitu nawigacyjnego, drukowanie strony raportu
+        href: ../../service-print.md
+      - name: Zmienianie nazwy zawartości w usłudze Power BI
+        href: ../../service-rename.md
+      - name: Wyświetlanie pulpitów nawigacyjnych i raportów w trybie pełnoekranowym (tryb TV)
+        href: ../../service-fullscreen-mode.md
+      - name: Usuwanie zawartości w usłudze Power BI
+        href: ../../service-delete.md
+      - name: Rejestrowanie organizacji rządowej USA
+        href: ../../service-govus-signup.md
+      - name: Alerty dotyczące danych w usłudze Power BI
+        href: ../../service-set-data-alerts.md
+      - name: Porady i wskazówki dotyczące zadawania pytań za pomocą funkcji Pytania i odpowiedzi w usłudze Power BI
+        href: ../../service-q-and-a-tips.md
+      - name: Instalowanie i używanie aplikacji z pulpitami nawigacyjnymi i raportami
+        href: ../../service-install-use-apps.md
+      - name: Znajdowanie organizacyjnego pakietu zawartości i łączenie się z nim
+        href: ../../service-organizational-content-pack-find-and-open.md
+      - name: Wprowadzenie do pytań i odpowiedzi usługi Power BI
+        href: ../../power-bi-visualization-introduction-to-q-and-a.md
+    - name: Pulpity nawigacyjne
+      items:
+      - name: Proponowane pulpity nawigacyjne w usłudze Power BI
+        href: ../../service-dashboard-featured.md
+      - name: Ujednolicone centrum powiadomień usługi Power BI
+        href: ../../service-notification-center.md
+      - name: Motywy pulpitu nawigacyjnego
+        href: ../../service-dashboard-themes.md
+    - name: Raporty
+      items:
+      - name: Różne sposoby otwierania raportu
+        href: ../../service-report-open.md
+      - name: Zmienianie sposobu sortowania wykresu w raporcie usługi Power BI
+        href: ../../power-bi-report-change-sort.md
+      - name: Eksportowanie danych z wizualizacji
+        href: ../../power-bi-visualization-export-data.md
+      - name: Jak używać filtrów raportu
+        href: ../../power-bi-how-to-report-filter.md
+      - name: Subskrybowanie raportu lub pulpitu nawigacyjnego
+        href: ../../service-report-subscribe.md
+- name: Aplikacje mobilne Power BI
+  items:
+  - name: Omówienie
+    items:
+    - name: Co to są aplikacje mobilne?
+      href: ../../mobile-apps-for-mobile-devices.md
+  - name: Przewodniki Szybki start
+    items:
+    - name: Eksplorowanie pulpitów nawigacyjnych i raportów
+      href: ../../mobile-apps-quickstart-view-dashboard-report.md
+  - name: Samouczki
+    items:
+    - name: Zadawanie pytań w aplikacjach mobilnych systemu iOS
+      href: ../../tutorial-mobile-apps-ios-qna.md
+  - name: Pojęcia
+    items:
+    - name: Co nowego w aplikacjach mobilnych
+      href: ../../mobile-whats-new-in-the-mobile-apps.md
+    - name: Pobieranie danych rzeczywistych za pomocą aplikacji mobilnych
+      href: ../../mobile-apps-data-in-real-world-context.md
+    - name: Wyświetlanie danych w trybie offline w aplikacjach mobilnych
+      href: ../../mobile-apps-offline-data.md
+    - name: Aplikacja usługi Power BI dla rzeczywistości mieszanej (wersja zapoznawcza)
+      href: ../../mobile-mixed-reality-app.md
+  - name: Instrukcje
+    items:
+    - name: Wszystkie aplikacje mobilne
+      items:
+      - name: Wyświetlanie raportów lokalnych w aplikacjach mobilnych
+        href: ../../mobile-app-ssrs-kpis-mobile-on-premises-reports.md
+      - name: Udostępnianie pulpitu nawigacyjnego z aplikacji mobilnych Power BI
+        href: ../../mobile-share-dashboard-from-the-mobile-apps.md
+      - name: Interakcje z kafelkami w aplikacjach mobilnych
+        href: ../../mobile-tiles-in-the-mobile-apps.md
+      - name: Ulubione w aplikacjach mobilnych
+        href: ../../mobile-apps-favorites.md
+      - name: Ustawianie alertów danych w aplikacjach mobilnych Power BI
+        href: ../../mobile-set-data-alerts-in-the-mobile-apps.md
+      - name: Uzyskiwanie powiadomień w aplikacjach mobilnych Power BI
+        href: ../../mobile-apps-notification-center.md
+      - name: Tworzenie linku bezpośredniego prowadzącego do określonej lokalizacji
+        href: ../../mobile-apps-deep-link-specific-location.md
+      - name: Filtrowanie raportu według lokalizacji w aplikacjach mobilnych Power BI
+        href: ../../mobile-apps-geographic-filtering.md
+      - name: Skanowanie kodu QR aplikacji Power BI na telefonie
+        href: ../../mobile-apps-qr-code.md
+      - name: Pulpity nawigacyjne dla aplikacji mobilnych Power BI
+        href: ../../mobile-apps-view-dashboard.md
+      - name: Wyświetlanie raportów zoptymalizowanych pod kątem telefonu
+        href: ../../mobile-apps-view-phone-report.md
+      - name: Raporty w aplikacjach mobilnych
+        href: ../../mobile-reports-in-the-mobile-apps.md
+      - name: Łączenie się z usługami Reporting Services za pomocą protokołu OAuth
+        href: ../../mobile-oauth-ssrs.md
+      - name: Konfigurowanie aplikacji mobilnych za pomocą usługi Intune
+        href: ../../service-admin-mobile-intune.md
+    - name: Urządzenia z systemem Android
+      items:
+      - name: Wprowadzenie do aplikacji systemu Android
+        href: ../../mobile-android-app-get-started.md
+      - name: Rozwiązywanie problemu „Firmowy certyfikat SSL nie jest zaufany”
+        href: ../../mobile-android-app-error-corporate-ssl-account-is-untrusted.md
+      - name: Rozwiązywanie problemu „Wymagana aktualizacja aplikacji Android System Webview”
+        href: ../../mobile-android-error-update-android-system-webview.md
+    - name: iOS
+      items:
+      - name: Wprowadzenie do aplikacji systemu iOS
+        href: ../../mobile-iphone-app-get-started.md
+      - name: Wirtualny analityk pytań i odpowiedzi w aplikacjach mobilnych systemu iOS
+        href: ../../mobile-apps-ios-qna.md
+      - name: Aplikacja Power BI dla zegarka Apple Watch
+        href: ../../mobile-apple-watch.md
+      - name: Skanowanie kodu kreskowego z aplikacji na telefonie iPhone
+        href: ../../mobile-apps-scan-barcode-iphone.md
+    - name: iOS i Android
+      items:
+      - name: Dodawanie adnotacji i udostępnianie w aplikacjach mobilnych
+        href: ../../mobile-annotate-and-share-a-tile-from-the-mobile-apps.md
+    - name: Aplikacja Power BI dla urządzeń z systemem Windows 10
+      items:
+      - name: Wprowadzenie do aplikacji mobilnej dla systemu Windows 10
+        href: ../../mobile-windows-10-phone-app-get-started.md
+      - name: Przypinanie pulpitu nawigacyjnego do ekranu startowego
+        href: ../../mobile-pin-dashboard-start-screen-windows-10-phone-app.md
+      - name: Wyświetlanie raportów i kluczowych wskaźników wydajności usług Reporting Services dla urządzeń przenośnych w aplikacji dla systemu Windows 10
+        href: ../../mobile-app-windows-10-ssrs-kpis-mobile-reports.md
+      - name: Wyświetlanie usługi Power BI na urządzeniu Surface Hub
+        href: ../../mobile-windows-10-app-presentation-mode.md
+  - name: Zasoby
+    items:
+    - name: Obsługiwane języki w aplikacjach mobilnych
+      href: ../../mobile-apps-supported-languages.md
+ms.openlocfilehash: bf5934cb6de5ee7c1252fbd871c02589dd377d58
+ms.sourcegitcommit: 8bad5ed58e9e406aca53996415b1240c2972805e
+ms.translationtype: HT
+ms.contentlocale: pl-PL
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "44343580"
