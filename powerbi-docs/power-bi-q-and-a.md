@@ -2,20 +2,20 @@
 title: Omówienie funkcji pytań i odpowiedzi w usłudze Power BI i programie Power BI Desktop
 description: Dokumentacja dotycząca tematu zapytań w języku naturalnym funkcji pytań i odpowiedzi usługi Power BI.
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/18/2018
+ms.date: 08/18/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: a1d39d10982f1d598ffce7e978c1b030e0a442d4
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 1680a1aacf84eb5440703385dc831c32433456bb
+ms.sourcegitcommit: fe03f2a80f2df82219b8e026085f93a8453201df
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34295473"
+ms.lasthandoff: 09/08/2018
+ms.locfileid: "44167956"
 ---
 # <a name="qa-in-power-bi-service-and-power-bi-desktop"></a>Funkcja pytań i odpowiedzi w usłudze Power BI i programie Power BI Desktop
 ## <a name="what-is-qa"></a>Co to jest funkcja pytań i odpowiedzi?
@@ -48,11 +48,9 @@ Oprócz używania funkcji pytań i odpowiedzi do eksplorowania swoich danych, tw
 
 ## <a name="how-does-qa-know-how-to-answer-questions"></a>Skąd funkcja pytań i odpowiedzi wie, jak odpowiadać na pytania?
 ### <a name="which-datasets-does-qa-use"></a>Których zestawów danych używa funkcja pytań i odpowiedzi?
-Skąd funkcja pytań i odpowiedzi wie, jak odpowiadać na pytania dotyczące danych? Polega ona na nazwach tabel, kolumn i pól obliczeniowych w źródłowym zestawie danych. Co więc użytkownik (lub właściciel zestawu danych) uważa za ważne!
+Skąd funkcja pytań i odpowiedzi wie, jak odpowiadać na pytania dotyczące danych? Polega ona na nazwach tabel, kolumn i pól obliczeniowych w źródłowym zestawie danych. Sposób nazywania elementów przez właściciela zestawu danych jest więc ważny. Jeśli masz problemy z uzyskiwaniem odpowiedzi na swoje pytania z funkcji Pytania i odpowiedzi, porozmawiaj z właścicielem zestawu danych i zorientuj się, czy nie mógłby uczynić zestawu danych bardziej przyjaznym dla użytkowników.
 
-Na przykład załóżmy, że masz tabelę programu Excel o nazwie „Sprzedaż” z kolumnami zatytułowanymi „Produkt”, „Miesiąc”, „Sprzedane jednostki”, „Sprzedaż brutto” i „Zysk”. Możesz zadawać pytania dotyczące dowolnej z tych jednostek.  Możesz zapytać „pokaż *sprzedaż*”, „całkowity *zysk* według *miesiąca*”, „sortuj *produkty* według *sprzedanych jednostek*” i inne.
-
-Funkcja pytań i odpowiedzi może odpowiadać na pytania, które są oparte na sposobie organizacji zestawu danych. Jak to będzie działać w usłudze Salesforce? Gdy połączysz się ze swoim kontem witryny salesforce.com, usługa Power BI automatycznie wygeneruje pulpit nawigacyjny.  Zanim zaczniesz zadawać pytania za pomocą funkcji pytań i odpowiedzi, zapoznaj się z danymi wyświetlanymi w wizualizacjach pulpitu nawigacyjnego oraz w danych wyświetlanych na liście rozwijanej pytań i odpowiedzi.
+Funkcja Pytania i odpowiedzi może odpowiadać na pytania, które są oparte na sposobie organizacji zestawu danych. Jak to będzie działać w usłudze Salesforce? Gdy połączysz się ze swoim kontem witryny salesforce.com, usługa Power BI automatycznie wygeneruje pulpit nawigacyjny.  Zanim zaczniesz zadawać pytania za pomocą funkcji pytań i odpowiedzi, zapoznaj się z danymi wyświetlanymi w wizualizacjach pulpitu nawigacyjnego oraz w danych wyświetlanych na liście rozwijanej pytań i odpowiedzi.
 
 * Jeśli etykiety osi i wartości wizualizacji zawierają terminy „sprzedaż”, „konto”, „miesiąc” i „możliwości”, możesz bezpiecznie zadawać pytania, takie jak: „Które *konto* ma największe *możliwości* lub pokaż *sprzedaż* według miesiąca jako wykres słupkowy”.
 * Jeśli lista rozwijana zawiera terminy „sprzedawcy”, „stan” i „rok”, możesz bezpiecznie zadawać pytania, takie jak: „który *sprzedawca* miał najniższą *sprzedaż* na *Florydzie* w *2013*”.
@@ -80,8 +78,6 @@ Aby uzyskać informacje na temat słów kluczowych, które są rozpoznawane prze
 
 [Włącz funkcję pytań i odpowiedzi dla swoich lokalnych zestawów danych](service-q-and-a-direct-query.md): jeśli potrzebujesz bramy do połączenia z zestawem danych, użyj ustawień usługi Power BI, aby włączyć i wyłączyć funkcję pytań i odpowiedzi.
 
-[Samouczek: używanie funkcji pytań i odpowiedzi z przykładem Retail Sales w usłudze Power BI](power-bi-visualization-introduction-to-q-and-a.md): korzystanie z funkcji pytań i odpowiedzi w ramach realistycznego samouczka dotyczącego branży.
-
-[Dbanie o poprawne współdziałanie danych z funkcją Pytania i odpowiedzi](service-prepare-data-for-q-and-a.md): jeśli jesteś osobą odpowiedzialną za tworzenie zestawów danych i modeli danych,  ten temat jest dla Ciebie.
+[Samouczek: używanie funkcji Pytania i odpowiedzi z przykładem Retail Sales w usłudze Power BI](power-bi-visualization-introduction-to-q-and-a.md): korzystanie z funkcji pytań i odpowiedzi w ramach realistycznego samouczka dotyczącego branży.
 
 Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)

@@ -2,31 +2,31 @@
 title: Wyświetlanie ostatnio odwiedzonej zawartości w usłudze Power BI
 description: dokumentacja dotycząca ostatniej zawartości w usłudze Power BI
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/01/2018
+ms.date: 09/01/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: c3d75f6cada62e7fc1dd026a4bdfa1daa8e94153
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: ae57617b1b70a3ed6181ab164accb69dac29779c
+ms.sourcegitcommit: 619b66176394b9b881edc29b6d123d9729554eb3
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34250936"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "44044215"
 ---
 # <a name="recent-content-in-power-bi-service"></a>**Ostatnia** zawartość w usłudze Power BI
 
 
 ## <a name="what-is-recent-content"></a>Co to jest ostatnia zawartość
-Ostatnia zawartość to ostatnio wyświetlane elementy, maksymalnie 20 elementów.  Obejmują one: pulpity nawigacyjne, raporty, aplikacje i skoroszyty we wszystkich Twoich obszarach roboczych.
+Ostatnia zawartość to ostatnio wyświetlane elementy w usłudze Power BI, maksymalnie 20 elementów.  Obejmują one: pulpity nawigacyjne, raporty, aplikacje i skoroszyty we wszystkich Twoich obszarach roboczych.
 
 ![Okno Ostatnia zawartość](media/service-recent/power-bi-recent-screen.png)
 
-Zobacz, jak Amanda demonstruje, jak wypełniane są listy **ostatnio używanej** zawartości, a następnie wykonaj instrukcje krok po kroku umieszczone poniżej filmu wideo, aby samodzielnie wypróbować tę funkcję.
+Zobacz, jak Amanda demonstruje, jak w usłudze Power BI wypełniane są listy **ostatnio używanej** zawartości, a następnie wykonaj instrukcje krok po kroku umieszczone poniżej wideo, aby samodzielnie wypróbować tę funkcję.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/G26dr2PsEpk" frameborder="0" allowfullscreen></iframe>
 

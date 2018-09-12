@@ -2,21 +2,21 @@
 title: Wyświetlanie pulpitów nawigacyjnych, kafelków, stron raportu i wizualizacji w trybie pełnoekranowym
 description: Wyświetlanie pulpitów nawigacyjnych, kafelków pulpitu nawigacyjnego, elementów wizualnych raportu i stron raportu w trybie pełnoekranowym, nazywanym też *trybem TV (telewizyjnym)*.
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 04/11/2018
+ms.date: 09/04/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 7b84b473f64b4ee2d37a3a39de9976f2cf147059
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 2ff39f0594150c7b29fd88e8f4e4f6baef86e806
+ms.sourcegitcommit: 619b66176394b9b881edc29b6d123d9729554eb3
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34244116"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "44044330"
 ---
 # <a name="full-screen-mode-in-power-bi-service"></a>Tryb pełnoekranowy w usłudze Power BI
 ## <a name="what-is-full-screen-mode"></a>Co to jest tryb pełnoekranowy?
@@ -24,7 +24,7 @@ ms.locfileid: "34244116"
 
 Wyświetlaj swoją zawartość usługi Power BI (pulpity nawigacyjne, strony raportu, kafelki i wizualizacje) bez naruszania menu i pasków nawigacji.  Możesz wyświetlać nieskażony, pełny widok Twojej zawartości jak na dłoni przez cały czas. Jest to czasami określane jako tryb TV (telewizyjny). Funkcje dostępne w trybie pełnoekranowym zależą od zawartości. 
 
-Jeśli używasz usługi Power BI dla urządzeń przenośnych, [tryb pełnoekranowy jest dostępny w przypadku aplikacji mobilnych systemu Windows 10](mobile-windows-10-app-presentation-mode.md). Program Power BI Desktop nie oferuje trybu pełnoekranowego dla raportów lub wizualizacji, ale ma funkcję Dopasuj do strony dla [widoku relacji widoku](desktop-report-view.md) i [tryb koncentracji uwagi w wizualizacjach raportu](service-focus-mode.md).
+Jeśli używasz usługi Power BI dla urządzeń przenośnych, [tryb pełnoekranowy jest dostępny w przypadku aplikacji mobilnych systemu Windows 10](mobile-windows-10-app-presentation-mode.md). Program Power BI Desktop nie oferuje trybu pełnoekranowego dla raportów lub wizualizacji, ale ma funkcję Dopasuj do strony dla [widoku relacji i widoku raportu](desktop-report-view.md) oraz [tryb koncentracji uwagi dla wizualizacji raportu](service-focus-mode.md).
 
  
 

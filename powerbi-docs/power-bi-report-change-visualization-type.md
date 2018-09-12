@@ -2,35 +2,32 @@
 title: Zmienianie typu wizualizacji w raporcie
 description: Zmienianie typu wizualizacji raportu w usłudze Power Bi i programie Power BI Desktop
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/20/2017
+ms.date: 08/20/2017
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 126a805f49e98f34cb9cfdcbb7ce7e886f67ce76
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 115e9a21a994899f0838f19b8b0fcbda5f5c6e46
+ms.sourcegitcommit: 619b66176394b9b881edc29b6d123d9729554eb3
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34292000"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "44044169"
 ---
 # <a name="change-the-type-of-visualization-in-a-power-bi-report"></a>Zmienianie typu wizualizacji w raporcie usługi Power BI
 Wypróbuj różne typy wizualizacji w usłudze Power BI i programie Power BI Desktop, aby zobaczyć, który z nich najlepiej przedstawia Twoje dane. 
 
 1. Otwórz raport, który zawiera już co najmniej jedną wizualizację.   
-2. W okienku Wizualizacje wybierz typ nowej wizualizacji.  
+2. Wybierz wizualizację, aby ją uaktywnić. Aktywna wizualizacja ma uchwyty i obramowanie.    
+3. W okienku Wizualizacje wybierz typ nowej wizualizacji. 
    
    ![](media/power-bi-report-change-visualization-type/changeviz.gif)
+4. (Opcjonalnie) Możesz [przypiąć swoją wizualizację](service-dashboard-pin-tile-from-report.md) do pulpitu nawigacyjnego jako kafelek. 
 
-> [!NOTE]
-> Możesz [przypiąć swoją wizualizację](service-dashboard-pin-tile-from-report.md) do pulpitu nawigacyjnego jako kafelek.
-> 
-> 
-
-Jeśli po przypięciu wizualizacji do pulpitu nawigacyjnego zmienisz jej typ, kafelek nie zostanie automatycznie zaktualizowany. Dlatego jeśli przypięto wizualizację jako wykres liniowy, a następnie w raporcie zmieniono ją na wykres słupkowy, przypięta wcześniej wersja danych pozostanie w postaci wykresu liniowego. Przypnij wykres słupkowy, aby był również wyświetlany na pulpicie nawigacyjnym.
+Jeśli po przypięciu wizualizacji do pulpitu nawigacyjnego zmienisz jej typ w raporcie, kafelek na pulpicie nawigacyjnym nie zostanie automatycznie zaktualizowany. Dlatego jeśli przypięto wizualizację jako wykres liniowy, a następnie w raporcie zmieniono ją na wykres słupkowy, przypięta wcześniej wersja danych pozostanie w postaci wykresu liniowego. Przypnij wykres słupkowy, aby był również wyświetlany na pulpicie nawigacyjnym.
 
 ### <a name="next-steps"></a>Następne kroki
 Więcej informacji o [wizualizacjach w raportach usługi Power BI](power-bi-report-visualizations.md)

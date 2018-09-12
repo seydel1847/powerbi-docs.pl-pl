@@ -8,16 +8,16 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/02/2018
+ms.date: 09/02/2018
 ms.author: mihart
-ms.openlocfilehash: 56a26b50f50dd52d4355cd8326ec0d104dab19c0
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: a550aabb3590018666a3784e602ede15696862e5
+ms.sourcegitcommit: fe03f2a80f2df82219b8e026085f93a8453201df
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34248935"
+ms.lasthandoff: 09/08/2018
+ms.locfileid: "44168094"
 ---
-# <a name="create-a-power-bi-dashboard-from-a-report"></a>Tworzenie pulpitu nawigacyjnego usługi Power BI z raportu
+# <a name="create-a-power-bi-dashboard-in-power-bi-service"></a>Tworzenie pulpitu nawigacyjnego usługi Power BI w usłudze Power BI
 Po zapoznaniu się z tematem [Pulpity nawigacyjne w usłudze Power BI](service-dashboards.md) możesz teraz utworzyć własny raport. Istnieje wiele sposobów, aby utworzyć pulpit nawigacyjny — z raportu, od podstaw, z zestawu danych, duplikując istniejący pulpit nawigacyjny itp.  
 
 Przy rozpoczynaniu pracy po raz pierwszy może to wydawać się trudne, dlatego zaczniemy, tworząc szybki i łatwy pulpit nawigacyjny poprzez przypięcie wizualizacji z raportu, który został już utworzony. Po ukończeniu tego przewodnika Szybki Start będziesz dobrze rozumieć relacje między pulpitami nawigacyjnymi a raportami, a także umieć otwierać Widok do edycji w edytorze raportów, przypinać kafelki i nawigować między pulpitem nawigacyjnym a raportem. Następnie użyj linków w spisie treści po lewej stronie lub skorzystaj z opcji **Następne kroki** na dole, aby przejść do bardziej zaawansowanych tematów.

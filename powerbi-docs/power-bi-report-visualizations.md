@@ -2,21 +2,21 @@
 title: Omówienie wizualizacji raportów w usłudze Power BI i programie Power BI Desktop
 description: Omówienie wizualizacji raportów w usłudze Microsoft Power BI.
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 featuredvideoid: SYk_gWrtKvM
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/21/2018
+ms.date: 08/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f0e0dc02fc07849c68c00ce857da0ccbeb2d76df
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 03b981f6ac03bf23077458a29ea6f88b8feaa04e
+ms.sourcegitcommit: 619b66176394b9b881edc29b6d123d9729554eb3
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34240192"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "44044284"
 ---
 # <a name="visualizations-in-power-bi-reports"></a>Wizualizacje w raportach usługi Power BI
 Wizualizacje prezentują szczegółowe informacje, które zostały odnalezione w danych. Raport usługi Power BI może zawierać jedną stronę z pojedynczą wizualizacją lub wiele stron pełnych różnych wizualizacji. W usłudze Power BI wizualizacje można [przypinać z raportów do pulpitów nawigacyjnych](service-dashboard-pin-tile-from-report.md). 
@@ -25,7 +25,7 @@ Ważne jest rozróżnienie między *twórcami* raportów i ich *użytkownikami*.
 
 Wiele różnych typów wizualizacji jest dostępnych bezpośrednio w okienku WIZUALIZACJE usługi Power BI. 
 
-![](media/power-bi-report-visualizations/power-bi-visualizations.png)
+![](media/power-bi-report-visualizations/power-bi-templates.png)
 
 Jeśli chcesz mieć jeszcze większy wybór, odwiedź [witrynę społeczności usługi Microsoft AppSource](https://appsource.microsoft.com), aby znaleźć i pobrać [wizualizacje niestandardowe](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals&page=1) udostępnione przez firmę Microsoft i społeczność.    
 
@@ -48,8 +48,3 @@ W usłudze Power BI po odpowiednim skonfigurowaniu wizualizacji możesz [przypi�
 
 ## <a name="next-steps"></a>Następne kroki
 [Typy wizualizacji w usłudze Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
-[Raporty w usłudze Power BI](service-reports.md)  
-[Pulpity nawigacyjne w usłudze Power BI](service-dashboards.md)  
-[Power BI — podstawowe pojęcia](service-basic-concepts.md)  
-Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
-

@@ -2,21 +2,21 @@
 title: Ustawianie alertów dotyczących danych w usłudze Power BI
 description: Dowiedz się, jak ustawić alerty, aby otrzymywać powiadomienia, gdy zmiany dotyczące danych w pulpitach nawigacyjnych przekroczą ustalone progi w usłudze Microsoft Power BI.
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 featuredvideoid: JbL2-HJ8clE
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 02/28/2018
+ms.date: 08/28/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: ffbad48df6665d5dff6c4eca97e86e6f2850565f
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 153676c983ef81bcccf1ea6bf0adf95ef29a2765
+ms.sourcegitcommit: fe03f2a80f2df82219b8e026085f93a8453201df
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37137589"
+ms.lasthandoff: 09/08/2018
+ms.locfileid: "44167933"
 ---
 # <a name="data-alerts-in-power-bi-service"></a>Alerty dotyczące danych w usłudze Power BI
 Ustaw alerty, aby otrzymywać powiadomienia, gdy zmiany dotyczące danych w pulpitach nawigacyjnych przekroczą ustalone progi. 
@@ -42,15 +42,15 @@ W tym przykładzie użyto kafelku karty z pulpitu nawigacyjnego przykładu Retai
 1. Rozpocznij na pulpicie nawigacyjnym. Z poziomu miernika, kluczowego wskaźnika wydajności lub kafelka karty pulpitu nawigacyjnego wybierz wielokropek.
    
    ![kafelek Total Scores](media/service-set-data-alerts/powerbi-card.png)
-2. Wybierz ikonę dzwonka ![ikona alertu](media/service-set-data-alerts/power-bi-bell-icon.png), aby dodać jeden lub więcej alertów dla pozycji **Total stores**.
+2. Wybierz ikonę dzwonka ![Ikona alertu](media/service-set-data-alerts/power-bi-bell-icon.png) lub pozycję **Zarządzaj alertami**, aby dodać jeden lub więcej alertów dla pozycji **Total stores**.
    
-1. Na początek wybierz opcję **+ Dodaj regułę alertów**, upewnij się, że suwak jest w pozycji **Włączony** i nadaj tytuł alertowi. Tytuły ułatwiają rozpoznawanie alertów.
+1. W okienku **Zarządzanie alertami** wybierz pozycję **+ Dodaj regułę alertu**.  Upewnij się, że suwak jest w pozycji **Włączony**, i nadaj tytuł alertowi. Tytuły ułatwiają rozpoznawanie alertów.
    
    ![okno zarządzania alertami](media/service-set-data-alerts/powerbi-alert-title.png)
 4. Przewiń w dół, a następnie wprowadź szczegóły alertu.  W tym przykładzie utworzymy alert, który raz dziennie będzie powiadamiał, jeśli łączna liczba sklepów przekroczy wartość 100. Alerty zostaną wyświetlone w centrum powiadomień. Poza tym usługa Power BI wyśle wiadomość e-mail.
    
    ![okno zarządzania alertami, ustawianie progu](media/service-set-data-alerts/power-bi-set-alert-details.png)
-5. Wybierz pozycję **Zapisz**.
+5. Wybierz pozycję **Zapisz i zamknij**.
 
 ## <a name="receiving-alerts"></a>Otrzymywanie alertów
 Gdy śledzone dane osiągną jeden z ustawionych progów, zostanie wykonanych kilka działań. Najpierw usługa Power BI sprawdzi, czy od ostatniego wysłania alertu upłynęła więcej niż godzina lub więcej niż 24 godziny (w zależności od wybranej opcji). Jeśli dane przekroczą wyznaczony próg, otrzymasz alert.
@@ -104,6 +104,4 @@ Istnieje wiele sposobów zarządzania alertami: z poziomu kafelka pulpitu nawiga
 ## <a name="next-steps"></a>Następne kroki
 [Tworzenie przepływu Microsoft Flow zawierającego alert dotyczący danych](service-flow-integration.md)    
 [Ustawianie alertów dotyczących danych na urządzeniu przenośnym](mobile-set-data-alerts-in-the-mobile-apps.md)    
-[Co to jest usługa Power BI?](power-bi-overview.md)    
-Masz więcej pytań? [Zadaj pytanie społeczności usługi Power BI](http://community.powerbi.com/)
 

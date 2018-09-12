@@ -2,21 +2,21 @@
 title: Wykresy w postaci mierników promieniowych w usłudze Power BI
 description: Wykresy w postaci mierników promieniowych w usłudze Power BI
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 featuredvideoid: xmja6Epqa
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/21/2018
+ms.date: 08/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7417b324a74dcc4aecd599c73fed0298de3e6a89
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 8cb3dba371b555dc7d9a7bc6d1e27aac82a57fef
+ms.sourcegitcommit: fe03f2a80f2df82219b8e026085f93a8453201df
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34292529"
+ms.lasthandoff: 09/08/2018
+ms.locfileid: "44168002"
 ---
 # <a name="radial-gauge-charts-in-power-bi"></a>Wykresy w postaci mierników promieniowych w usłudze Power BI
 Wykres miernika promieniowego ma okrągły łuk i wyświetla jedną wartość, która mierzy postępy w kierunku celu/kluczowego wskaźnika wydajności.  Cel, lub wartość docelowa, jest reprezentowany przez linię (wskazówkę). Postęp w kierunku celu jest reprezentowany przez cieniowanie.  Wartość reprezentująca postęp jest wyświetlana w pogrubieniu wewnątrz łuku. Wszystkie możliwe wartości są równomiernie rozmieszczone na łuku, od wartości minimalnej (najbardziej po lewej) do wartości maksymalnej (najbardziej po prawej).
@@ -56,22 +56,22 @@ Możesz też obejrzeć klip wideo, w którym pokażemy Ci, jak utworzyć pojedyn
 ### <a name="step-2-create-a-gauge-to-track-gross-sales"></a>Krok 2. Utwórz miernik do śledzenia sprzedaży brutto
 1. W okienku **Pola** wybierz opcję **Sprzedaż brutto**.
    
-   ![](media/power-bi-visualization-radial-gauge-charts/grosssalesvalue_new.png)
-2. Zmień agregację na opcję **Średnia**.
+   ![](media/power-bi-visualization-radial-gauge-charts/power-bi-gross-sales.png)
+2. Zmień agregację na opcję **Średnia**. W polu **Wartość** wybierz listę rozwijaną i wybierz pozycję **Średnia**.
    
    ![](media/power-bi-visualization-radial-gauge-charts/changetoaverage_new.png)
 3. Wybierz ikonę miernika ![](media/power-bi-visualization-radial-gauge-charts/gaugeicon_new.png), aby skonwertować wykres kolumnowy na miernik.
    
-   Domyślnie usługa Power BI utworzy wykres miernika, w którym bieżąca wartość (w tym przypadku średnia sprzedaży brutto) będzie znajdować się w połowie miernika. Ponieważ średnia sprzedaż brutto wynosi obecnie 182,76 tys. USD wartość początkowa (minimalna) została ustawiona na 0, a wartość końcowa (maksymalna) na wartość dwukrotnie większą od wartości bieżącej.
+   Domyślnie usługa Power BI utworzy wykres miernika, w którym bieżąca wartość (w tym przypadku średnia sprzedaży brutto) będzie znajdować się w połowie miernika. Ponieważ średnia sprzedaż brutto wynosi obecnie 184,21 tys. USD, wartość początkowa (minimalna) została ustawiona na 0, a wartość końcowa (maksymalna) na wartość dwukrotnie większą od wartości bieżącej.
    
-   ![](media/power-bi-visualization-radial-gauge-charts/gauge_no_target.png)
+   ![](media/power-bi-visualization-radial-gauge-charts/power-bi-184.png)
 
 ### <a name="step-3-set-a-target-value"></a>Krok 3. Ustaw wartość docelową
 1. Przeciągnij pole **COGS** do listy **Wartość docelowa**.
 2. Zmień agregację na opcję **Średnia**.
-   Usługa Power BI dodaje wskazówkę, która będzie reprezentować wartość docelową wynoszącą **145,48 tys. USD**. Zauważ, że przekroczyliśmy wartość docelową.
+   Usługa Power BI dodaje wskazówkę, która będzie reprezentować wartość docelową wynoszącą **146 tys. USD**. Zauważ, że przekroczyliśmy wartość docelową.
    
-   ![](media/power-bi-visualization-radial-gauge-charts/gaugeinprogress_new.png)
+   ![](media/power-bi-visualization-radial-gauge-charts/power-bi-cogs.png)
    
    > [!NOTE]
    > Możesz też ręcznie wprowadzić wartość docelową.  Zobacz sekcję „Używanie opcji formatowania do ręcznego ustawiania wartości minimalnej, maksymalne i docelowej” poniżej.
@@ -98,7 +98,7 @@ W kroku 2 usługa Power BI użyła pola Wartość, aby automatycznie ustawić wa
 1. Usuń miarę **Maksimum sprzedaży brutto** z listy **Wartość maksymalna**.
 2. Otwórz okienko formatowania, wybierając ikonę wałka do malowania.
    
-   ![](media/power-bi-visualization-radial-gauge-charts/power-bi-roller.png)
+   ![](media/power-bi-visualization-radial-gauge-charts/power-bi-max.png)
 3. Rozwiń **Oś miernika** i wprowadź wartości w pozycjach **Minimum** i **Maksimum**.
    
     ![](media/power-bi-visualization-radial-gauge-charts/power-bi-gauge-axis.png)
@@ -112,8 +112,6 @@ W kroku 2 usługa Power BI użyła pola Wartość, aby automatycznie ustawić wa
 
 ## <a name="next-steps"></a>Następne kroki
 [Typy wizualizacji w usłudze Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
-
-[Dodawanie wizualizacji do raportu](power-bi-report-add-visualizations-i.md)
 
 [Przypinanie wizualizacji do pulpitu nawigacyjnego](service-dashboard-pin-tile-from-report.md)
 

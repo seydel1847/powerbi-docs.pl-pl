@@ -2,20 +2,20 @@
 title: Typy wizualizacji w usłudze Power BI
 description: Typy wizualizacji w usłudze Power BI
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/19/2018
+ms.date: 09/04/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: bc1c54be2fdafeba4c706ca637ce50da7bf9d48c
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 4a98e62145c7928af9d33a5cd08c17e1867eef28
+ms.sourcegitcommit: fe03f2a80f2df82219b8e026085f93a8453201df
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34246451"
+ms.lasthandoff: 09/08/2018
+ms.locfileid: "44168117"
 ---
 # <a name="visualization-types-in-power-bi"></a>Typy wizualizacji w usłudze Power BI
 ## <a name="power-bi-visualizations"></a>Wizualizacje usługi Power BI
@@ -122,6 +122,14 @@ Aby uzyskać więcej informacji, zobacz [Samouczek: mapy wypełnione w usłudze 
 
 ### <a name="pie-charts"></a>Wykresy kołowe
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_pie.png)
+
+### <a name="ribbon-charts"></a>Wykresy wstążkowe
+![](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-ribbon.png)
+
+>[!TIP]
+>Ustal, która kategoria danych ma najwyższą rangę.
+
+Aby uzyskać więcej informacji, zobacz [Używanie wykresów wstążkowych w usłudze Power BI](desktop-ribbon-charts.md).
 
 ### <a name="scatter-and-bubble-charts"></a>Wykresy punktowe i bąbelkowe
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_bubble.png)
