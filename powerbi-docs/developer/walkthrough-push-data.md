@@ -2,26 +2,28 @@
 title: Wypychanie danych do zestawu danych
 description: Wypychanie danych do zestawu danych usługi Power BI
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/05/2017
-ms.author: maghan
-ms.openlocfilehash: 1cc19d1ceefb95e0cb56e2a5dcbcc89609f654d5
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 01bcc545d3ba8edb23ef583467322401780e657d
+ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37598554"
+ms.lasthandoff: 09/17/2018
+ms.locfileid: "45974189"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>Wypychanie danych do zestawu danych usługi Power BI
+
 Interfejs API usługi Power BI umożliwia wypychanie danych do zestawu danych usługi Power BI. Załóżmy na przykład, że chcesz rozszerzyć istniejący przepływ pracy firmy, tak aby wypychał kluczowe dane do zestawu danych. W tym konkretnym przypadku chcesz wypchnąć zestaw danych działu sprzedaży i marketingu, w którym znajduje się tabela produktów, do zestawu danych.
 
 Aby rozpocząć wypychanie danych do zestawu danych, musisz mieć konto usługi Azure Active Directory (Azure AD) i [konto usługi Power BI](create-an-azure-active-directory-tenant.md).
 
 ## <a name="steps-to-push-data-into-a-dataset"></a>Kroki procesu wypychania danych do zestawu danych
+
 * Krok 1. [Rejestrowanie aplikacji w usłudze Azure AD](walkthrough-push-data-register-app-with-azure-ad.md)
 * Krok 2. [Uzyskiwanie tokenu uwierzytelnienia dostępu](walkthrough-push-data-get-token.md)
 * Krok 3. [Tworzenie zestawu danych w usłudze Power BI](walkthrough-push-data-create-dataset.md)
@@ -31,6 +33,7 @@ Aby rozpocząć wypychanie danych do zestawu danych, musisz mieć konto usługi 
 Następna sekcja zawiera ogólne omówienie operacji interfejsu API usługi Power BI wykonywanych w celu wypychania danych.
 
 ## <a name="power-bi-api-operations-to-push-data"></a>Operacje interfejsu API usługi Power BI umożliwiające wypychanie danych
+
 Dzięki interfejsowi API REST usługi Power BI możesz wypychać źródła danych do usługi Power BI. Gdy aplikacja doda wiersze do zestawu danych, kafelki na pulpicie nawigacyjnym są automatycznie aktualizowane nowymi danymi. Aby wypchnąć dane, należy użyć operacji [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets) i [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows). Aby odnaleźć zestaw danych, należy wykonać operację [Pobierz zestawy danych](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets). W przypadku każdej z tych operacji możesz wprowadzić identyfikator grupy, aby pracować z grupą. Użyj operacji [Pobierz grupy](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups), aby wyświetlić listę identyfikatorów grup.
 
 Operacje procesu wypychania danych do zestawu danych:
@@ -108,13 +111,14 @@ W przypadku schematu tabeli usługi Power BI można użyć następujących typó
 | String (ciąg) |Obecnie maksymalnie 128 000 znaków. |
 
 ## <a name="learn-more-about-pushing-data-into-power-bi"></a>Dowiedz się więcej na temat wypychania danych do usługi Power BI
+
 Aby rozpocząć wypychanie danych do zestawu danych, zobacz [Krok 1. Rejestrowanie aplikacji w usłudze Azure AD](walkthrough-push-data-register-app-with-azure-ad.md) w lewym okienku nawigacji.
 
 [Następny krok >](walkthrough-push-data-register-app-with-azure-ad.md)
 
 ## <a name="next-steps"></a>Następne kroki
+
 [Tworzenie konta w usłudze Power BI](create-an-azure-active-directory-tenant.md)  
 [JSON: Wprowadzenie](http://json.org/)  
 [Omówienie interfejsu API REST usługi Power BI](overview-of-power-bi-rest-api.md)  
 Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
-
