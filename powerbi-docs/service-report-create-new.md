@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/24/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 872045a52f2f13829d26de8dd288ac723dcd2788
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: a27a7ec72b1e85b7e1dc6caa5773a14a089e378d
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37599533"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726414"
 ---
 # <a name="create-a-new-report-in-power-bi-service-by-importing-a-dataset"></a>Tworzenie nowego raportu w usłudze Power BI przez zaimportowanie zestawu danych
 Po zapoznaniu się z tematem [Raporty w usłudze Power BI](service-reports.md) możesz teraz utworzyć własny raport. Istnieje wiele sposobów tworzenia raportów. W tym artykule zaczniemy od utworzenia podstawowego raportu na podstawie zestawu danych programu Excel przy użyciu usługi Power BI. Kiedy zapoznasz się z podstawami tworzenia raportów, możesz przejść do bardziej zaawansowanych tematów dostępnych w sekcji **Następne kroki** u dołu strony.  
@@ -53,7 +53,7 @@ W przypadku tej metody tworzenia raportu punktem wyjścia jest zestaw danych i p
 > 
 
 ## <a name="add-a-radial-gauge-to-the-report"></a>Dodawanie miernika promieniowego do raportu
-Po zaimportowaniu zestawu danych można już udzielać odpowiedzi na pytania.  Dyrektor ds. marketingu chce wiedzieć, jak blisko mamy do osiągnięcia tegorocznych celów w zakresie sprzedaży. Miernik [dobrze wizualizuje](power-bi-report-visualizations.md) ten typ danych.
+Po zaimportowaniu zestawu danych można już udzielać odpowiedzi na pytania.  Dyrektor ds. marketingu chce wiedzieć, jak blisko mamy do osiągnięcia tegorocznych celów w zakresie sprzedaży. Miernik [dobrze wizualizuje](visuals/power-bi-report-visualizations.md) ten typ danych.
 
 1. W okienku Pola wybierz pozycję **Sales** > **This Year Sales** > **Value**.
    

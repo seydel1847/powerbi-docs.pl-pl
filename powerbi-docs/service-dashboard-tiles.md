@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 08/21/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 09fcce65539d89c9d42bc05369f13a6048eb96c2
-ms.sourcegitcommit: aed348a2d0025f7f40f2196254993f6aba5db7d2
+ms.openlocfilehash: c9451297dab6210a454ea96c1537189f46e8ad24
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "43241596"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726138"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Kafelki pulpitu nawigacyjnego w usłudze Power BI
-Pulpity nawigacyjne i kafelki pulpitu nawigacyjnego są funkcjami usługi Power BI, a nie programu Power BI Desktop. Chociaż kafelków pulpitów nawigacyjnych nie można tworzyć ani przypinać w usłudze Power BI dla urządzeń mobilnych, [można je wyświetlać i udostępniać](mobile-tiles-in-the-mobile-apps.md). Ponadto w usłudze Power BI dla urządzeń mobilnych można [dodawać zdjęcia do pulpitu nawigacyjnego za pomocą aplikacji dla telefonu iPhone](mobile-iphone-app-get-started.md).
+Pulpity nawigacyjne i kafelki pulpitu nawigacyjnego są funkcjami usługi Power BI, a nie programu Power BI Desktop. Chociaż kafelków pulpitów nawigacyjnych nie można tworzyć ani przypinać w usłudze Power BI dla urządzeń mobilnych, [można je wyświetlać i udostępniać](consumer/mobile/mobile-tiles-in-the-mobile-apps.md). Ponadto w usłudze Power BI dla urządzeń mobilnych można [dodawać zdjęcia do pulpitu nawigacyjnego za pomocą aplikacji dla telefonu iPhone](consumer/mobile/mobile-iphone-app-get-started.md).
 
 ## <a name="dashboard-tiles"></a>Aktualizacja kafelków
 ![Pulpit nawigacyjny usługi Power BI](media/service-dashboard-tiles/power-bi-dashboard.png)
@@ -94,7 +94,7 @@ To co dzieje się po wybraniu kafelka, zależy od sposobu, w jaki kafelek zosta�
 * Jeśli zmienia się oryginalna wizualizacja użyta do utworzenia kafelka, kafelek nie ulegnie zmianie.  Jeśli na przykład przypniemy wykres liniowy z raportu, a następnie zmienimy ten wykres liniowy na wykres słupkowy, kafelek pulpitu nawigacyjnego w dalszym ciągu wyświetlać będzie wykres liniowy. Dane zostaną odświeżone, ale typ wizualizacji nie ulegnie zmianie.
 
 ## <a name="next-steps"></a>Następne kroki
-[Tworzenie karty (kafelka z dużą liczbą) dla pulpitu nawigacyjnego](power-bi-visualization-card.md)
+[Tworzenie karty (kafelka z dużą liczbą) dla pulpitu nawigacyjnego](visuals/power-bi-visualization-card.md)
 
 [Pulpity nawigacyjne w usłudze Power BI](service-dashboards.md)  
 

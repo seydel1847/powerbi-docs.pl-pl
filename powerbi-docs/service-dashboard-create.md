@@ -8,16 +8,16 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/02/2018
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: a550aabb3590018666a3784e602ede15696862e5
-ms.sourcegitcommit: fe03f2a80f2df82219b8e026085f93a8453201df
+ms.openlocfilehash: a528c4a641dbdecce7d33f29e7afbe6118ee34b5
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "44168094"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726483"
 ---
-# <a name="create-a-power-bi-dashboard-in-power-bi-service"></a>Tworzenie pulpitu nawigacyjnego usługi Power BI w usłudze Power BI
+# <a name="create-a-power-bi-dashboard-from-a-report"></a>Tworzenie pulpitu nawigacyjnego usługi Power BI z raportu
 Po zapoznaniu się z tematem [Pulpity nawigacyjne w usłudze Power BI](service-dashboards.md) możesz teraz utworzyć własny raport. Istnieje wiele sposobów, aby utworzyć pulpit nawigacyjny — z raportu, od podstaw, z zestawu danych, duplikując istniejący pulpit nawigacyjny itp.  
 
 Przy rozpoczynaniu pracy po raz pierwszy może to wydawać się trudne, dlatego zaczniemy, tworząc szybki i łatwy pulpit nawigacyjny poprzez przypięcie wizualizacji z raportu, który został już utworzony. Po ukończeniu tego przewodnika Szybki Start będziesz dobrze rozumieć relacje między pulpitami nawigacyjnymi a raportami, a także umieć otwierać Widok do edycji w edytorze raportów, przypinać kafelki i nawigować między pulpitem nawigacyjnym a raportem. Następnie użyj linków w spisie treści po lewej stronie lub skorzystaj z opcji **Następne kroki** na dole, aby przejść do bardziej zaawansowanych tematów.
@@ -25,7 +25,7 @@ Przy rozpoczynaniu pracy po raz pierwszy może to wydawać się trudne, dlatego 
 ## <a name="who-can-create-a-dashboard"></a>Kto może utworzyć pulpit nawigacyjny?
 Tworzenie pulpitu nawigacyjnego jest funkcją **twórcy** i wymaga uprawnień do edytowania raportu. Uprawnienia do edytowania są dostępne dla twórców raportu i tych współpracowników, którym twórca udzieli dostępu. Na przykład, jeśli David utworzy raport w obszarze roboczym workspaceABC, a następnie doda Ciebie jako członka tego obszaru roboczego, Ty i David będziecie mieli uprawnienia do edycji. Z drugiej strony, jeśli raport został udostępniony Ci bezpośrednio lub jako część [aplikacji Power BI](service-install-use-apps.md) (jesteś **użytkownikiem** raportu), nie będziesz mieć możliwości przypinania kafelków do pulpitu nawigacyjnego.
 
-> **Uwaga**: pulpity nawigacyjne są funkcjami usługi Power BI, a nie programu Power BI Desktop. Pulpitów nawigacyjnych nie można tworzyć w usłudze Power BI dla urządzeń przenośnych, można je jednak [wyświetlać i udostępniać](mobile-apps-view-dashboard.md).
+> **Uwaga**: pulpity nawigacyjne są funkcjami usługi Power BI, a nie programu Power BI Desktop. Pulpitów nawigacyjnych nie można tworzyć w usłudze Power BI dla urządzeń przenośnych, można je jednak [wyświetlać i udostępniać](consumer/mobile/mobile-apps-view-dashboard.md).
 >
 > 
 

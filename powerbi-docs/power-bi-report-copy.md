@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/24/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 760eda5625bd52bf7129ba7cfe5f213921d469b7
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: a85733e8450c9e1d3574afb71ace64fa2622fe0c
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34247808"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44725632"
 ---
 # <a name="create-a-new-report-from-an-existing-report-copy-a-report"></a>Tworzenie nowego raportu na podstawie istniejącego raportu (kopiowanie raportu)
 Być może masz już raport, który już jest połączony z Twoim zestawem danych i ma pewne elementy wizualne, które chcesz ponownie użyć lub zmodyfikować.  Dlaczego nie skopiować tego raportu jako podstawy dla nowego raportu?  W tym celu:
@@ -37,7 +37,7 @@ Być może masz już raport, który już jest połączony z Twoim zestawem danyc
 5. Baw się, aktualizując i edytując swój nowy raport.
 
 ## <a name="next-steps"></a>Następne kroki:
-[Tworzenie nowych wizualizacji](power-bi-report-add-visualizations-ii.md)
+[Tworzenie nowych wizualizacji](visuals/power-bi-report-add-visualizations-ii.md)
 
 [Usuwanie wizualizacji](service-delete.md), które nie są już potrzebne
 

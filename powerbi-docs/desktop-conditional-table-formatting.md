@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 61a30484713ac96d3bbb65355310007a52f300a5
-ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
+ms.openlocfilehash: 324a9b7f8a3718c6da0efb7533751d88dd717bcf
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39657810"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44728093"
 ---
 # <a name="conditional-formatting-in-tables"></a>Formatowanie warunkowe w tabelach 
 Za pomocą formatowania warunkowego dla tabel można określić niestandardowe kolory komórek, w tym gradienty kolorów, na podstawie wartości komórek lub na podstawie innych wartości bądź pól. Można również wyświetlić wartości komórek ze słupkami danych. 
@@ -133,5 +133,5 @@ Utworzyć można znacznie więcej odmian, używając wyobraźni i języka DAX.
 ## <a name="next-steps"></a>Następne kroki
 Aby uzyskać więcej informacji, zobacz następujący artykuł:  
 
-* [Porady i wskazówki dotyczące formatowania kolorów w usłudze Power BI](service-tips-and-tricks-for-color-formatting.md)  
+* [Porady i wskazówki dotyczące formatowania kolorów w usłudze Power BI](visuals/service-tips-and-tricks-for-color-formatting.md)  
 

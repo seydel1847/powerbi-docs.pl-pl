@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/10/2017
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 5da624f92093111c1996d9b1c5080cd58a906a45
-ms.sourcegitcommit: 2bdcb9e9959302a35ee90a145e4ff832a02aacb9
+ms.openlocfilehash: b38c69d74141b28215e0a14a32fc7b03fab4fdbf
+ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "43250778"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "45558475"
 ---
 # <a name="manage-capacities-within-power-bi-premium-and-power-bi-embedded"></a>Zarządzanie pojemnościami w usługach Power BI Premium i Power BI Embedded
 Dowiedz się, jak zarządzać pojemnościami usług Power BI Premium i Power BI Embedded, zapewniając zasoby dedykowane dla swojej zawartości.
@@ -47,7 +47,7 @@ Wszyscy administratorzy globalni usługi Office 365 i administratorzy usługi Po
 Aby optymalnie wykorzystać dedykowaną pojemność, należy kupić subskrypcję usługi Power BI Premium z poziomu centrum administracyjnego usługi Office 365 lub utworzyć zasób usługi Power BI Embedded z poziomu portalu Microsoft Azure. Aby uzyskać więcej informacji, zobacz następujące artykuły:
 
 * **Power BI Premium:** [jak kupić usługę Power BI Premium](service-admin-premium-purchase.md)
-* **Power BI Embedded:** [Tworzenie pojemności usługi Power BI Embedded w witrynie Azure Portal](https://docs.microsoft.com/en-us/azure/power-bi-embedded/create-capacity)
+* **Power BI Embedded:** [Tworzenie pojemności usługi Power BI Embedded w witrynie Azure Portal](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity)
 
 Po kupieniu jednostek SKU usługi Power BI Premium Twoja dzierżawa otrzyma odpowiednią liczbę rdzeni wirtualnych do użytku w uruchomionych pojemnościach. Na przykład zakup jednostki Power BI Premium P3 zapewnia dzierżawie 32 rdzenie wirtualne.
 

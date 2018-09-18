@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: ca8b7ded6427f912933618ebdeaeeecea41b8681
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 8db686b842f01653e45e8d2d6313cb4ac39bcaeb
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34249944"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727173"
 ---
 # <a name="power-bi-notifications"></a>Powiadomienia usługi Power BI
 Centrum powiadomień jest sekwencyjnym źródłem informacji dotyczących środowiska usługi Power BI. Otwórz je, aby wyświetlić komunikaty o nowych pulpitach nawigacyjnych, które zostały Ci udostępnione, zmianach obszaru grupy, informacjach na temat zdarzeń i spotkaniach związanych z usługą Power BI, ustawionych przez Ciebie alertach i innych. Możesz [ustawić alerty w usłudze Power BI](service-set-data-alerts.md), jak również w aplikacjach mobilnych usługi Power BI.
@@ -40,7 +40,7 @@ Obejrzyj powiadomienie o sprawdzeniu, które otrzymała Amanda, zarządzaj jej p
 ### <a name="next-steps"></a>Następne kroki
 * [Alerty dotyczące danych w usłudze Power BI](service-set-data-alerts.md)
 * [Tworzenie usługi Microsoft Flow wyzwalanej przez alert danych usługi Power BI](service-flow-integration.md)
-* [Ustawianie alertów danych w aplikacji iPhone (Power BI dla systemu iOS)](mobile-set-data-alerts-in-the-mobile-apps.md)
-* [Ustawianie alertów dotyczących danych w aplikacji Power BI dla urządzeń przenośnych w systemie Windows 10](mobile-set-data-alerts-in-the-mobile-apps.md)
+* [Ustawianie alertów danych w aplikacji iPhone (Power BI dla systemu iOS)](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
+* [Ustawianie alertów dotyczących danych w aplikacji Power BI dla urządzeń przenośnych w systemie Windows 10](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
 * Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
 

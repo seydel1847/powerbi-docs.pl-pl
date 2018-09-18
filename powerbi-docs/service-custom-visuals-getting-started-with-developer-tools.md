@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/30/2017
 ms.author: maghan
-ms.openlocfilehash: 0d165505981f841c7dfe9688c7a95cea3b6777c3
-ms.sourcegitcommit: 8990028a348b642ba5c96f001fe3a4280f0166ee
+ms.openlocfilehash: ec6399d815cb17bb0f2542144c63535835659017
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/14/2018
-ms.locfileid: "40257236"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726690"
 ---
 # <a name="use-developer-tools-to-create-custom-visuals"></a>Tworzenie niestandardowych wizualizacji przy użyciu narzędzi deweloperskich
 Niestandardowe wizualizacje umożliwiają dostosowanie wizualizacji do potrzeb użytkowników i do projektu aplikacji. Dowiedz się, jak utworzyć niestandardową wizualizację dla usługi Power BI przy użyciu narzędzi deweloperskich.
@@ -388,7 +388,7 @@ Uruchom serwer wizualizacji, wprowadzając polecenie `pbiviz start` w terminalu 
 Aby uzyskać więcej informacji, zobacz [Uruchamianie wizualizacji](#running-your-visual) lub [Konfiguracja certyfikatu serwera](#ssl-setup).
 
 ## <a name="next-steps"></a>Następne kroki
-[Wizualizacje w usłudze Power BI](power-bi-report-visualizations.md)  
+[Wizualizacje w usłudze Power BI](visuals/power-bi-report-visualizations.md)  
 [Wizualizacje niestandardowe w usłudze Power BI](power-bi-custom-visuals.md)  
 [Publikowanie wizualizacji niestandardowych w Sklepie Office](developer/office-store.md)  
 [Język TypeScript](http://www.typescriptlang.org/)  

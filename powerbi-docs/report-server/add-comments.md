@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/18/2018
 ms.author: maggies
-ms.openlocfilehash: 08a7740d1a44c4a5e8ef961100c38f3bc4622fd8
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: ff51b2e41d921b7a88afc9b13bb4ecd98814d12e
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34721966"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727978"
 ---
 # <a name="add-comments-to-a-report-in-a-report-server"></a>Dodawanie komentarzy do raportu na serwerze raportów
 Do raportów, w tym do raportów usługi Power BI, można dodawać komentarze w portalu internetowym serwera raportów. Komentarze są połączone z raportem i każda osoba mająca odpowiednie uprawnienia może wyświetlać komentarze do raportu. Aby uzyskać szczegółowe informacje, zobacz sekcję [Uprawnienia](#permissions) poniżej.
@@ -33,7 +33,7 @@ Do raportów, w tym do raportów usługi Power BI, można dodawać komentarze w 
     Komentarz pojawi się w okienku w portalu internetowym wraz z wszelkimi wcześniejszymi komentarzami. Komentarze nie są wyświetlane w raporcie w aplikacjach mobilnych Power BI.
    
    > [!TIP]
-   > Czy wiesz? [W aplikacjach mobilnych Power BI możesz dodawać adnotacje do raportów usługi Power BI](../mobile-annotate-and-share-a-tile-from-the-mobile-apps.md) i udostępniać te raporty z adnotacjami innym osobom.
+   > Czy wiesz? [W aplikacjach mobilnych Power BI możesz dodawać adnotacje do raportów usługi Power BI](../consumer/mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md) i udostępniać te raporty z adnotacjami innym osobom.
    > 
    > 
 

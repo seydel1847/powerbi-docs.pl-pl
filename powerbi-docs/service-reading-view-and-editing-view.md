@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: eacadb04935dd0c929a85904335b613f3d5d4d58
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 736d4b53f82255e84e3bd54a2177ae17c264039b
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34251672"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726759"
 ---
 # <a name="reading-view-and-editing-view-in-power-bi-service-reports"></a>Widok do czytania i widok do edycji w raportach usługi Power BI
 W usłudze Power BI (nie w programie Power BI Desktop) są dostępne dwa tryby wyświetlania raportów i korzystania z nich: widok do czytania i widok do edycji. Widok do czytania jest dostępny dla wszystkich osób, a w szczególności jest przeznaczony dla *użytkowników* danych, natomiast widok do edycji jest dostępny tylko dla *twórców* i właścicieli raportu.
@@ -59,13 +59,13 @@ Ten wykres nie zawiera wszystkich funkcji raportu usługi Power BI! Zawiera on l
 | [Duplikowanie strony raportu](power-bi-report-copy-paste-page.md) | Nie  | Tak |
 | [Usuwanie strony raportu](service-delete.md) | nie | tak |
 |**Praca z wizualizacjami raportu**|
-| [Dodawanie wizualizacji do raportu](power-bi-report-add-visualizations-i.md) | Nie  | Tak |
+| [Dodawanie wizualizacji do raportu](visuals/power-bi-report-add-visualizations-i.md) | Nie  | Tak |
 | [Dodawanie pól tekstowych i kształtów do raportu](power-bi-reports-add-text-and-shapes.md) | Nie  | Tak |
 | [Używanie okienka formatowania raportu](service-the-report-editor-take-a-tour.md) | Nie | Tak |
 | [Ustawianie interakcji wizualizacji](service-reports-visual-interactions.md) | Nie  | Tak |
 | [Wyświetlanie danych użytych do utworzenia wizualizacji](service-reports-show-data.md) | Nie  | Tak |
 | [Konfigurowanie przechodzenia do szczegółów](power-bi-visualization-drill-down.md) | Nie  | Tak |
-| [Zmienianie używanej wizualizacji](power-bi-report-change-visualization-type.md) | Nie | Tak|
+| [Zmienianie używanej wizualizacji](visuals/power-bi-report-change-visualization-type.md) | Nie | Tak|
 | [Usuwanie wizualizacji, pola tekstowego lub kształtu](service-delete.md)| Nie | Tak |
 
 

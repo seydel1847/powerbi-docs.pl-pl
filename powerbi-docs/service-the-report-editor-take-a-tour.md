@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: ef05531ee6080593d232e48a2118a9be7e8cbd19
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: 78d9004a718990cbcd310835e8e9b8ae5e3eae17
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "34299475"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726644"
 ---
 # <a name="the-report-editortake-a-tour"></a>Edytor raportu: krótki przewodnik
 ## <a name="editing-reports-in-power-bi-service-and-power-bi-desktop"></a>Edytowanie raportów w usłudze Power BI i programie Power BI Desktop
@@ -65,7 +65,7 @@ Aby usunąć pole z wizualizacji, wybierz znak **X** z prawej strony nazwy pola.
 
 ![Usuwanie pozycji StoryType z legendy](media/service-the-report-editor-take-a-tour/deletefield.png)
 
-Aby uzyskać więcej informacji, zobacz [Dodawanie wizualizacji do raportu usługi Power BI](power-bi-report-add-visualizations-i.md)
+Aby uzyskać więcej informacji, zobacz [Dodawanie wizualizacji do raportu usługi Power BI](visuals/power-bi-report-add-visualizations-i.md)
 
 ### <a name="format-your-visuals"></a>Formatowanie elementów wizualnych
 Wybierz ikonę wałka do malowania, aby wyświetlić okienko Format. Dostępność opcji zależy od wybranego typu wizualizacji.
@@ -74,9 +74,9 @@ Wybierz ikonę wałka do malowania, aby wyświetlić okienko Format. Dostępnoś
 
 Możliwości formatowania są prawie nieskończone.  Aby dowiedzieć się więcej, rozpocznij samodzielną eksplorację lub zapoznaj się z następującymi artykułami:
 
-* [Dostosowywanie tytułu, tła i legendy wizualizacji](power-bi-visualization-customize-title-background-and-legend.md)
-* [Formatowanie koloru](service-getting-started-with-color-formatting-and-axis-properties.md)
-* [Dostosowywanie właściwości osi x i y](power-bi-visualization-customize-x-axis-and-y-axis.md)
+* [Dostosowywanie tytułu, tła i legendy wizualizacji](visuals/power-bi-visualization-customize-title-background-and-legend.md)
+* [Formatowanie koloru](visuals/service-getting-started-with-color-formatting-and-axis-properties.md)
+* [Dostosowywanie właściwości osi x i y](visuals/power-bi-visualization-customize-x-axis-and-y-axis.md)
 
 ### <a name="add-analytics-to-your-visualizations"></a>Dodawanie analizy do wizualizacji
 Aby wyświetlić okienko analizy, wybierz ikonę lupy. Dostępność opcji zależy od wybranego typu wizualizacji.
@@ -126,7 +126,7 @@ Kanwa raportu jest miejscem, gdzie jest wyświetlana Twoja praca. Gdy używasz o
 ## <a name="next-steps"></a>Następne kroki:
 [Tworzenie raportu](service-report-create-new.md)
 
-Dowiedz się więcej na temat raportów w [usłudze Power BI](service-reports.md), [programie Power BI Desktop](desktop-report-view.md) i [aplikacji Power BI dla urządzeń przenośnych](mobile-apps-view-phone-report.md).
+Dowiedz się więcej na temat raportów w [usłudze Power BI](service-reports.md), [programie Power BI Desktop](desktop-report-view.md) i [aplikacji Power BI dla urządzeń przenośnych](consumer/mobile/mobile-apps-view-phone-report.md).
 
 [Power BI — podstawowe pojęcia](service-basic-concepts.md)
 

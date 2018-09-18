@@ -9,15 +9,15 @@ ms.topic: conceptual
 ms.date: 01/17/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: ebe53241bed0f31bfd64d860cff7c8fc2e54500c
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 320bcd80a6a258879568d323afdae60daacfee6c
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37599235"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727952"
 ---
 # <a name="tutorial-how-to-use-qa-to-create-visualizations-and-build-reports"></a>Samouczek: używanie funkcji pytań i odpowiedzi do tworzenia wizualizacji i konstruowania raportów
-[Omówienie funkcji pytań i odpowiedzi](power-bi-q-and-a.md) zapewniło wprowadzenie do funkcji pytań i odpowiedzi usługi Power BI oraz przedstawiło rozróżnienie między *użytkownikami* (osobami, którym udostępniono pulpity nawigacyjne i raporty) a *twórcami* (właścicielami podstawowych raportów i zestawów danych). Pierwsza część tego samouczka jest przeznaczona głównie dla osób korzystających z pulpitów nawigacyjnych przy użyciu usługi Power BI. Natomiast druga część jest przeznaczona dla osób tworzących raporty za pomocą usługi Power BI albo programu Power BI Desktop. Tematy [Funkcja pytań i odpowiedzi a usługa Power BI dla urządzeń przenośnych](mobile-apps-ios-qna.md) i [Funkcja pytań i odpowiedzi w usłudze Power BI Embedded](developer/qanda.md) zostały opisane w oddzielnych artykułach.
+[Omówienie funkcji pytań i odpowiedzi](power-bi-q-and-a.md) zapewniło wprowadzenie do funkcji pytań i odpowiedzi usługi Power BI oraz przedstawiło rozróżnienie między *użytkownikami* (osobami, którym udostępniono pulpity nawigacyjne i raporty) a *twórcami* (właścicielami podstawowych raportów i zestawów danych). Pierwsza część tego samouczka jest przeznaczona głównie dla osób korzystających z pulpitów nawigacyjnych przy użyciu usługi Power BI. Natomiast druga część jest przeznaczona dla osób tworzących raporty za pomocą usługi Power BI albo programu Power BI Desktop. Tematy [Funkcja pytań i odpowiedzi a usługa Power BI dla urządzeń przenośnych](consumer/mobile/mobile-apps-ios-qna.md) i [Funkcja pytań i odpowiedzi w usłudze Power BI Embedded](developer/qanda.md) zostały opisane w oddzielnych artykułach.
 
 Funkcja pytań i odpowiedzi jest interaktywna i nawet przyjemna, a często jedno pytanie będzie prowadziło do wielu innych, ponieważ wizualizacje ujawniają ciekawe ścieżki do tropienia. Zobacz, jak Amanda demonstruje używanie funkcji pytań i odpowiedzi do tworzenia wizualizacji, zagłębiania się w nie i przypinania ich do pulpitów nawigacyjnych.
 
@@ -44,7 +44,7 @@ Odpowiedź na Twoje pytanie jest wyświetlana jako interaktywna wizualizacja akt
 
    ![](media/power-bi-tutorial-q-and-a/powerbi-qna-list.png)
 
-3. W miarę pisania pytania funkcja pytań i odpowiedzi wybiera najlepszą [wizualizację](power-bi-visualization-types-for-reports-and-q-and-a.md) do zaprezentowania odpowiedzi, przy czym wizualizacja zmienia się dynamicznie w miarę modyfikowania pytania.
+3. W miarę pisania pytania funkcja pytań i odpowiedzi wybiera najlepszą [wizualizację](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md) do zaprezentowania odpowiedzi, przy czym wizualizacja zmienia się dynamicznie w miarę modyfikowania pytania.
 
    ![](media/power-bi-tutorial-q-and-a/powerbi-qna-viz.png)
 
@@ -82,7 +82,7 @@ Aby można było używać funkcji pytań i odpowiedzi w raportach, musisz mieć 
 
    ![](media/power-bi-tutorial-q-and-a/power-bi-q-and-a-suggestions.png)
 
-4. W miarę pisania pytania funkcja pytań i odpowiedzi wybiera najlepszą [wizualizację](power-bi-visualization-types-for-reports-and-q-and-a.md) do zaprezentowania odpowiedzi, przy czym wizualizacja zmienia się dynamicznie w miarę modyfikowania pytania.
+4. W miarę pisania pytania funkcja pytań i odpowiedzi wybiera najlepszą [wizualizację](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md) do zaprezentowania odpowiedzi, przy czym wizualizacja zmienia się dynamicznie w miarę modyfikowania pytania.
 
    ![](media/power-bi-tutorial-q-and-a/power-bi-q-and-a-visual.png)
 

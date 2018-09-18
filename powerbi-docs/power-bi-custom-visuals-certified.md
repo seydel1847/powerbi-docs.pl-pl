@@ -10,12 +10,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/13/2018
 ms.author: mihart
-ms.openlocfilehash: efddb15572705d6d1c7cb215250360e94a8546cb
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 4676b31a117573d1d69b5947ec2380c4abf29405
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37600363"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726874"
 ---
 # <a name="getting-a-custom-visual-certified"></a>*Certyfikowanie* wizualizacji niestandardowej
 ## <a name="what-is-meant-by-certified"></a>Co oznacza *certyfikowanie*?
@@ -142,7 +142,7 @@ Firma Microsoft, według własnego uznania, może usunąć daną wizualizację z
 ## <a name="next-steps"></a>Następne kroki
 [Wprowadzenie do korzystania z narzędzi deweloperskich do tworzenia wizualizacji niestandardowych (wersja zapoznawcza)](service-custom-visuals-getting-started-with-developer-tools.md)      
 [Wizualizacje niestandardowe — lista odtwarzania firmy Microsoft w serwisie YouTube](https://www.youtube.com/playlist?list=PL1N57mwBHtN1vIjfvuBIzZllrmKo-Vz6x)  
-[Wizualizacje w usłudze Power BI](power-bi-report-visualizations.md)  
+[Wizualizacje w usłudze Power BI](visuals/power-bi-report-visualizations.md)  
 [Wizualizacje niestandardowe w usłudze Power BI](power-bi-custom-visuals.md)  
 [Publikowanie wizualizacji niestandardowych w witrynie Microsoft AppSource](developer/office-store.md)  
 Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)

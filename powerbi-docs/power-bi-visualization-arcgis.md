@@ -2,28 +2,28 @@
 title: Tworzenie map ArcGIS firmy ESRI w usłudze Power BI
 description: 'Tworzenie map ArcGIS firmy ESRI w usłudze Power BI '
 author: mihart
-manager: kvivek
+manager: kfile
 ms.reviewer: lukaszp
 featuredvideoid: EKVvOZmxg9s
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/28/2018
+ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 127187367b2ae5680b50bc1e72de7214c522705e
-ms.sourcegitcommit: fe03f2a80f2df82219b8e026085f93a8453201df
+ms.openlocfilehash: 250ccba882a045417b2ae424cac81b6561cb2a41
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "44168071"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44728254"
 ---
 # <a name="arcgis-maps-in-power-bi-service-and-power-bi-desktop-by-esri"></a>Mapy ArcGIS firmy Esri w usłudze Power BI i programie Power BI Desktop
-Niniejszy samouczek został napisany, uwzględniając punkt widzenia osoby tworzącej mapę ArcGIS. Jeśli twórca udostępni mapę ArcGIS współpracownikom, mogą oni wyświetlać mapę i wchodzić w interakcję z nią, ale nie mogą zapisywać zmian. Aby dowiedzieć się więcej na temat wyświetlania mapy ArcGIS, zobacz [Wchodzenie w interakcje z mapami ArcGIS](power-bi-visualizations-arcgis.md).
+Niniejszy samouczek został napisany, uwzględniając punkt widzenia osoby tworzącej mapę ArcGIS. Jeśli twórca udostępni mapę ArcGIS współpracownikom, mogą oni wyświetlać mapę i wchodzić w interakcję z nią, ale nie mogą zapisywać zmian. Aby dowiedzieć się więcej na temat wyświetlania mapy ArcGIS, zobacz [Wchodzenie w interakcje z mapami ArcGIS](visuals/power-bi-visualizations-arcgis.md).
 
 Kombinacja map ArcGIS i usługi Power BI przenosi tworzenie map na zupełnie nowy poziom wykraczający poza prezentację punktów na mapie. Wybieraj spośród map podstawowych, typów lokalizacji, stylów symboli i warstw referencyjnych, aby tworzyć okazałe i bogate w informacje wizualizacje map. Połączenie autorytatywnych warstw danych na mapie z analizą przestrzenną umożliwia głębsze zrozumienie danych w ramach wizualizacji.
 
- Chociaż tworzenie map ArcGIS na urządzeniach przenośnych nie jest możliwe, możliwe jest ich wyświetlanie oraz wchodzenie w interakcje z nimi. Zobacz [Wchodzenie w interakcje z mapami ArcGIS](power-bi-visualizations-arcgis.md).
+ Chociaż tworzenie map ArcGIS na urządzeniach przenośnych nie jest możliwe, możliwe jest ich wyświetlanie oraz wchodzenie w interakcje z nimi. Zobacz [Wchodzenie w interakcje z mapami ArcGIS](visuals/power-bi-visualizations-arcgis.md).
 
 > [!TIP]
 > GIS (ang. Geographic Information Science) to inaczej system informacji geograficznej.
@@ -329,7 +329,7 @@ Jest to błąd, którego naprawianie jest w toku.  Przejściowo, aby wyczyścić
 
 **Czy komponent ArcGIS Maps for Power BI obsługuje pliki kształtów Esri?**
 
-Komponent ArcGIS Maps for Power BI automatycznie wykrywa standardowe granice, takie jak kraje i regiony, województwa oraz kody pocztowe. Jeśli chcesz podać własne kształty, możesz to zrobić za pomocą komponentu [Shape Maps for Power BI Desktop (wersja zapoznawcza)](desktop-shape-map.md).
+Komponent ArcGIS Maps for Power BI automatycznie wykrywa standardowe granice, takie jak kraje i regiony, województwa oraz kody pocztowe. Jeśli chcesz podać własne kształty, możesz to zrobić za pomocą komponentu [Shape Maps for Power BI Desktop (wersja zapoznawcza)](visuals/desktop-shape-map.md).
 
 **Czy można wyświetlać mapy ArcGIS w trybie offline?**
 
@@ -340,7 +340,7 @@ Nie, usługa Power BI wymaga połączenia z siecią, aby wyświetlać mapy.
 Jeszcze nie. [Zagłosuj na ten pomysł](https://ideas.powerbi.com/forums/265200-power-bi-ideas/suggestions/9154765-arcgis-geodatabases), a otrzymasz od nas wiadomość e-mail, gdy rozpoczniemy pracę nad tą funkcją.  
 
 ## <a name="next-steps"></a>Następne kroki
-[Wchodzenie w interakcje z udostępnioną mapą ArcGIS](power-bi-visualizations-arcgis.md)
+[Wchodzenie w interakcje z udostępnioną mapą ArcGIS](visuals/power-bi-visualizations-arcgis.md)
 
 [Wpis na blogu informujący o dostępności komponentu ArcGIS Maps for Power BI](https://powerbi.microsoft.com/blog/announcing-arcgis-maps-for-power-bi-by-esri-preview/)
 

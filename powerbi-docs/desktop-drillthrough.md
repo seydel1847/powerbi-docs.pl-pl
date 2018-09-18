@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 66222eb773d70afcfcf361fba49118363a670e7f
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 8bbfafcecb6876ea063bb6751ca31c25697dc185
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39329365"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44725862"
 ---
 # <a name="use-drillthrough-in-power-bi-desktop"></a>Używanie przeglądania szczegółowego w programie Power BI Desktop
 **Przeglądanie szczegółowe** w programie **Power BI Desktop** umożliwia utworzenie strony w raporcie, która koncentruje się na określonej jednostce — takiej jak dostawca, klient lub producent. Dzięki tej skoncentrowanej stronie użytkownicy mogą kliknąć prawym przyciskiem myszy punkt danych na innej stronie raportu i użyć przeglądania szczegółowego, aby przejść do tej skoncentrowanej strony w celu uzyskania szczegółów przefiltrowanych do danego kontekstu.
@@ -79,5 +79,5 @@ To wszystko na temat używania **przeglądania szczegółowego** w raportach. Je
 
 Może zainteresują Cię również następujące artykuły:
 
-* [Korzystanie z fragmentatorów w programie Power BI Desktop](desktop-slicers.md)
+* [Korzystanie z fragmentatorów w programie Power BI Desktop](visuals/desktop-slicers.md)
 

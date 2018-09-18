@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 8305b9eab95e2b13f9104de6bcefe3f03a95d2f5
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 891d496fcdf809a816c9c18a6d21e4c486f76d76
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34254883"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726805"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop-and-power-bi-service"></a>Porady i wskazówki dotyczące tworzenia raportów w programie Power BI Desktop i usłudze Power BI
 Aby maksymalnie wykorzystać dane, czasami przydaje się trochę pomocy. Przygotowaliśmy kilka porad i wskazówek, z których można korzystać podczas tworzenia raportów w programie Microsoft Power BI Desktop, usłudze Power BI *oraz* programie Microsoft Excel 2016 albo w wersjach Excel 2013 Pro-Plus z włączonym dodatkiem Power Pivot oraz z zainstalowanym i włączonym dodatkiem Power Query.
@@ -167,7 +167,7 @@ DAX to język formuł obliczeń w programie Power BI Desktop.  Jest zoptymalizow
 
 ## <a name="power-bi-service-and-power-bi-desktop"></a>Usługa Power BI *i* program Power BI Desktop
 
-### <a name="read-the-whitepaper-principles-for-designing-power-bi-reportspower-bi-visualization-best-practicesmd"></a>Przeczytaj oficjalny dokument: [Zasady dotyczące projektowania raportów usługi Power BI](power-bi-visualization-best-practices.md)
+### <a name="read-the-whitepaper-principles-for-designing-power-bi-reportsvisualspower-bi-visualization-best-practicesmd"></a>Przeczytaj oficjalny dokument: [Zasady dotyczące projektowania raportów usługi Power BI](visuals/power-bi-visualization-best-practices.md)
 W tym oficjalnym dokumencie przedstawiono najlepsze rozwiązania dotyczące projektowania raportów w usłudze Power BI. Rozpoczęto w nim od planowania i omówiono zasady projektowania, które można zastosować do raportów oraz do stron i poszczególnych wizualizacji wchodzących w skład raportu. Wiele z tych najlepszych rozwiązań ma też zastosowanie do pulpitów nawigacyjnych.
 
 ### <a name="read-andor-watch-how-to-design-visually-stunning-reports-and-dashboards-in-power-bi"></a>Przeczytaj i/lub zobacz „Jak projektować wizualnie zachwycające raporty (i pulpity nawigacyjne) w usłudze Power BI”
@@ -209,7 +209,7 @@ Różnorodność wizualizacji nie jest najważniejsza.  Wizualizacje mają „pr
 * Pamiętaj o [sortowaniu wykresów](power-bi-report-change-sort.md).  Jeśli chcesz zwrócić uwagę na największą lub najmniejszą liczbę, posortuj według miary.  Jeśli chcesz, aby użytkownicy mogli szybko znaleźć określoną kategorię wśród wielu innych kategorii, posortuj według osi.  
 * Wykresy kołowe najlepiej sprawdzają się, gdy zawierają mniej niż osiem kategorii. Na wykresach kołowych nie można zestawić wartości obok siebie, dlatego trudniej jest je porównywać niż w przypadku wykresów słupkowych lub kolumnowych. Wykresy kołowe są dobre do wyświetlania relacji części do całości, a nie do porównywania wartości. Wykresy w postaci mierników są doskonałe do wyświetlania bieżącego stanu w kontekście celu.    
 
-Aby uzyskać więcej wskazówek dotyczących wizualizacji, zobacz [Typy wizualizacji w usłudze Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md).  
+Aby uzyskać więcej wskazówek dotyczących wizualizacji, zobacz [Typy wizualizacji w usłudze Power BI](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md).  
 
 ### <a name="learn-more-about-best-practice-dashboard-design"></a>Dowiedz się więcej na temat najlepszych rozwiązań w zakresie projektowania pulpitów nawigacyjnych
 Oto kilka naszych ulubionych książek:

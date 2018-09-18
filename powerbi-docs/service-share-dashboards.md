@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d683ce3d06e2ac6be6c51f257e4f9483e718e2d8
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: b34c16337158e784b0c41bd3e3fd93aca9504cd7
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39624396"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727311"
 ---
 # <a name="share-your-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>Udostępnianie pulpitów nawigacyjnych usługi Power BI współpracownikom i innym osobom
 *Udostępnianie* to świetna metoda na zapewnienie kilku osobom dostępu do Twojego pulpitu nawigacyjnego i raportów. Usługa Power BI zapewnia również [kilka sposobów współpracy i rozpowszechniania pulpitów nawigacyjnych i raportów](service-how-to-collaborate-distribute-dashboards-reports.md).
@@ -27,7 +27,7 @@ Niezależnie od tego, czy udostępniasz zawartość wewnątrz lub na zewnątrz o
 
 Pulpity nawigacyjne i raporty można udostępniać z większości miejsc w usłudze Power BI: Ulubione, Ostatnie, Udostępnione mi (jeśli właściciel to umożliwia), Mój obszar roboczy lub z innych obszarów roboczych. Osoby, którym udostępniasz pulpit nawigacyjny lub raport, mogą go wyświetlać i korzystać z niego, ale nie mogą go edytować. O ile nie zastosowano [zabezpieczeń na poziomie wiersza](service-admin-rls.md), osoby te widzą na pulpicie nawigacyjnym i w raportach te same dane, które Ty widzisz. Współpracownicy, którym udostępniono zawartość, mogą udostępnić ją swoim współpracownikom, jeśli mają na to zezwolenie. Osoby spoza organizacji mogą również wyświetlać pulpit nawigacyjny lub raport oraz korzystać z nich, ale nie mogą ich udostępniać. 
 
-[Pulpit nawigacyjny można także udostępnić za pomocą aplikacji mobilnych Power BI](mobile-share-dashboard-from-the-mobile-apps.md). Pulpity nawigacyjne mogą być udostępniane za pomocą usługi Power BI i aplikacji mobilnych Power BI, ale nie z poziomu programu Power BI Desktop.
+[Pulpit nawigacyjny można także udostępnić za pomocą aplikacji mobilnych Power BI](consumer/mobile/mobile-share-dashboard-from-the-mobile-apps.md). Pulpity nawigacyjne mogą być udostępniane za pomocą usługi Power BI i aplikacji mobilnych Power BI, ale nie z poziomu programu Power BI Desktop.
 
 ## <a name="video-share-a-dashboard"></a>Klip wideo: Udostępnianie pulpitu nawigacyjnego
 Zobacz, jak Amanda udostępnianie swój pulpit nawigacyjny współpracownikom ze swojej firmy i osobom spoza niej. Następnie postępuj zgodnie ze szczegółowymi instrukcjami poniżej wideo, aby wypróbować to samodzielnie.

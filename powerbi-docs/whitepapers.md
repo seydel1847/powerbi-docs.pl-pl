@@ -9,12 +9,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 05/18/2018
 ms.author: maggies
-ms.openlocfilehash: e64850351c9bdc1877eed3a53323e7934e11fbe7
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: d6ab9619fd1419f94994b65fffef7ddcbfff3f3d
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34445123"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727196"
 ---
 # <a name="whitepapers-for-power-bi"></a>Oficjalne dokumenty dla usługi Power BI
 
@@ -31,7 +31,7 @@ Oficjalne dokumenty pozwalają zapoznać się dokładniej z tematami dotyczącym
 | [Usługa Power BI i RODO](https://aka.ms/power-bi-gdpr-whitepaper)| Usługa Power BI może być ważnym elementem podróży w kierunku zgodności z rozporządzeniem RODO. Celem niniejszego dokumentu jest dostarczenie podstawowych informacji na temat rozporządzenia RODO i jego powiązania z usługą Power BI. Zgodność z rozporządzeniem RODO jest wymagana w określonych sytuacjach opisanych w niniejszym dokumencie — nie jest to ćwiczenie polegające na „zaznaczeniu poszczególnych pól”. Jest to również sposób rozszerzenia ogólnej ochrony danych i możliwości zachowania poufności.|
 | [Dystrybucja zawartości usługi Power BI do zewnętrznych użytkowników (gości) przy użyciu usługi Azure Active Directory B2B](https://aka.ms/powerbi-b2b-whitepaper)|Ten dokument opisuje sposób dystrybucji zawartości dla użytkowników spoza organizacji za pomocą integracji usługi Azure Active Directory Business-to-business (AAD B2B).|
 | [Zaawansowane analizy w usłudze Power BI](https://info.microsoft.com/advanced-analytics-with-power-bi.html?Is=Website) |Zawiera opis możliwości usługi Power BI w zakresie zaawansowanej analizy, w tym analizy predykcyjnej, wizualizacji niestandardowych, integracji języka R i wyrażeń analizy danych. |
-| [Najlepsze rozwiązania dotyczące projektowania raportów i wizualizacji](power-bi-visualization-best-practices.md) |Przedstawia najlepsze rozwiązania dotyczące projektowania raportów w usłudze Power BI. |
+| [Najlepsze rozwiązania dotyczące projektowania raportów i wizualizacji](visuals/power-bi-visualization-best-practices.md) |Przedstawia najlepsze rozwiązania dotyczące projektowania raportów w usłudze Power BI. |
 | [Filtrowanie dwukierunkowe](desktop-bidirectional-filtering.md) |Objaśnia dwukierunkowe filtrowanie krzyżowe w programie Power BI Desktop (ten oficjalny dokument obejmuje również usługi SQL Server Analysis Services 2016, ponieważ zachowują się one tak samo). |
 | [Zapytania bezpośrednie w usłudze Microsoft SQL Server 2016 Analysis Services](https://blogs.msdn.microsoft.com/analysisservices/2017/04/06/directquery-in-sql-server-2016-analysis-services-whitepaper/) |W programie SQL Server 2016 zapytanie bezpośrednie zostało zaprojektowane od nowa, aby uzyskać znacznie lepszą szybkość i wydajność, jednak w efekcie jest ono także trudniejsze do zrozumienia i wdrożenia. |
 | [Usługa Power BI i SAP BW](https://aka.ms/powerbiandsapbw)| W tym dokumencie opisano, w jaki sposób klienci systemu SAP mogą skorzystać z połączenia usługi Power BI z istniejącymi systemami SAP Business Warehouse (BW).|

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 585c1c854ed3e95cc176d34f442fec6416f23dcd
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: 7b1b55475e2ad19c869ba92cdb9621caa0fc3538
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39623958"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726667"
 ---
 # <a name="how-should-i-collaborate-and-share-in-power-bi"></a>Jak można współpracować i udostępniać w usłudze Power BI?
 
@@ -83,9 +83,9 @@ W aplikacjach mobilnych usługi Power BI dla systemów iOS i Android można doda
 
 Udostępniana jest migawka kafelka, raportu lub wizualizacji i adresaci widzą ją dokładnie w takiej postaci, jaką miała w chwili wysyłania wiadomości e-mail. Wiadomość e-mail zawiera również link do odpowiedniego pulpitu nawigacyjnego lub raportu. Jeśli adresaci mają licencję usługi Power BI Pro lub zawartość znajduje się w [pojemności Premium](service-premium.md) i obiekt był im już udostępniany, mogą go otworzyć. Migawki kafelków możesz wysyłać do wszystkich &#151; nie tylko do współpracowników w tej samej domenie poczty e-mail.
 
-Więcej informacji o [dodawaniu adnotacji i udostępnianiu kafelków, raportów i wizualizacji](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md) z aplikacji mobilnych dla systemów iOS i Android.
+Więcej informacji o [dodawaniu adnotacji i udostępnianiu kafelków, raportów i wizualizacji](consumer/mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md) z aplikacji mobilnych dla systemów iOS i Android.
 
-Możesz również [udostępnić migawkę kafelka](mobile-windows-10-phone-app-get-started.md) z aplikacji mobilnej usługi Power BI dla urządzeń z systemem Windows 10.
+Możesz również [udostępnić migawkę kafelka](consumer/mobile/mobile-windows-10-phone-app-get-started.md) z aplikacji mobilnej usługi Power BI dla urządzeń z systemem Windows 10.
 
 ## <a name="print-or-save-as-pdf-or-other-static-file"></a>Drukowanie i zapisywanie w formacie PDF lub w innym formacie pliku statycznego
 Z poziomu usługi Power BI możesz wydrukować lub zapisać w formacie PDF (lub w innym formacie pliku statycznego) cały pulpit nawigacyjny, kafelek pulpitu nawigacyjnego, stronę raportu lub wizualizację. Raporty można drukować tylko po jednej stronie naraz — nie można wydrukować od razu całego raportu. Więcej informacji o [drukowaniu lub zapisywaniu w formacie pliku statycznego](service-print.md).

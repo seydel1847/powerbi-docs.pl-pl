@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.date: 03/07/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 3b0bf5e54ad6486134eb641d276fc9233b001157
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: bb2cd0e26caaa7639020d51a0827390932e78b06
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34249714"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726066"
 ---
 # <a name="create-a-qr-code-for-a-tile-in-power-bi-to-use-in-the-mobile-apps"></a>Utworzenie kodu QR dla kafelka w usłudze Power BI do użycia w aplikacjach mobilnych
 Kody QR w usłudze Power BI mogą łączyć dowolne elementy w świecie rzeczywistym bezpośrednio z powiązanymi informacjami usługi Power BI — bez potrzeby korzystania z nawigacji lub wyszukiwania.
 
 Możesz utworzyć kod QR w usłudze Power BI dla kafelków na dowolnym pulpicie nawigacyjnym, nawet w przypadku pulpitów nawigacyjnych, których nie możesz edytować. Następnie umieść kod QR w kluczowej lokalizacji. Przykładowo możesz wkleić go do wiadomości e-mail lub wydrukować go i nakleić w konkretnym miejscu. 
 
-Współpracownicy, którym udostępniono pulpit nawigacyjny, mogą [zeskanować kod QR, aby skorzystać z dostępu do kafelka — bezpośrednio na urządzeniu przenośnym](mobile-apps-qr-code.md). W tym celu mogą użyć skanera kodów QR w aplikacji Power BI lub dowolnego innego skanera kodów QR zainstalowanego na urządzeniu.
+Współpracownicy, którym udostępniono pulpit nawigacyjny, mogą [zeskanować kod QR, aby skorzystać z dostępu do kafelka — bezpośrednio na urządzeniu przenośnym](consumer/mobile/mobile-apps-qr-code.md). W tym celu mogą użyć skanera kodów QR w aplikacji Power BI lub dowolnego innego skanera kodów QR zainstalowanego na urządzeniu.
 
 
 ## <a name="create-a-qr-code-for-a-tile"></a>Tworzenie kodu QR dla kafelka
@@ -52,8 +52,8 @@ Usługa Power BI generuje kody QR jako pliki JPG gotowe do druku.
 3. Wytnij kod QR i przyklej go w miejscu związanym z kafelkiem. 
 
 ## <a name="next-steps"></a>Następne kroki
-* [Nawiązywanie połączenia z danymi usługi Power BI ze środowisk rzeczywistych](mobile-apps-data-in-real-world-context.md) za pomocą aplikacji mobilnych
-* [Skanowanie kodu QR usługi Power BI z urządzenia przenośnego](mobile-apps-qr-code.md)
+* [Nawiązywanie połączenia z danymi usługi Power BI ze środowisk rzeczywistych](consumer/mobile/mobile-apps-data-in-real-world-context.md) za pomocą aplikacji mobilnych
+* [Skanowanie kodu QR usługi Power BI z urządzenia przenośnego](consumer/mobile/mobile-apps-qr-code.md)
 * [Tworzenie kodu QR dla raportu](service-create-qr-code-for-report.md)
 * Masz pytania? [Zadaj pytanie społeczności usługi Power BI](http://community.powerbi.com/)
 

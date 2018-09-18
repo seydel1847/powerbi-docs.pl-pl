@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/18/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 94936092a86ee3ac46ed0516609b3beaf1589180
-ms.sourcegitcommit: 1574ecba7530e6e0ee97235251a3138fb0e4789b
+ms.openlocfilehash: 189134a82e183819f1d48be0b420c9f92a5e69b3
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/14/2018
-ms.locfileid: "40257145"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44725954"
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>Porady dotyczące zadawania pytań w funkcji Pytania i odpowiedzi usługi Power BI
 ## <a name="words-and-terminology-that-qa-recognizes"></a>Wyrazy i terminologia rozpoznawane przez funkcję Pytania i odpowiedzi
@@ -24,7 +24,7 @@ Ta lista słów kluczowych nie jest wyczerpująca.  Najlepszym sposobem na spraw
 Poniższa lista używa czasu teraźniejszego, ale w większości przypadków rozpoznawane są wszystkie czasy. Na przykład rozpoznawane są następujące formy czasownika „is”: are, was, were, will be, have, has, had, will have, has got, do, does, did.  Podobnie czasownik „sort” (sortować) obejmuje formy sorted i sorting.  Usługa Power BI rozpoznaje i uwzględnia również liczbę pojedynczą i mnogą słowa. Przykładowo usługa Power BI rozpoznaje słowo „year” (rok) i „years” (lata).
 
 > [!NOTE]
-> Funkcja Pytania i odpowiedzi jest również dostępna w [aplikacji Microsoft Power BI dla systemu iOS na urządzeniach iPad, iPhone i iPod Touch](mobile-apps-ios-qna.md).
+> Funkcja Pytania i odpowiedzi jest również dostępna w [aplikacji Microsoft Power BI dla systemu iOS na urządzeniach iPad, iPhone i iPod Touch](consumer/mobile/mobile-apps-ios-qna.md).
 > 
 > 
 

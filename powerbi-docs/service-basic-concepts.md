@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 07/19/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: d735ff366d422d03186c25a0b358e87d6790a260
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: c7688134d7c006c38626f52df26fa5a87ac5c8d7
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39280621"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44728162"
 ---
 # <a name="power-bi---basic-concepts-for-power-bi-service"></a>Power BI — podstawowe pojęcia dotyczące usługi Power BI
 
@@ -111,10 +111,10 @@ W poniższym przykładzie wybrano obszar roboczy aplikacji „Sales and marketin
 
 ### <a name="dig-deeper"></a>Szczegółowe informacje
 * [Raporty w usłudze Power BI i programie Power BI Desktop](service-reports.md)
-* [Raporty w aplikacjach mobilnych Power BI](mobile-reports-in-the-mobile-apps.md)
+* [Raporty w aplikacjach mobilnych Power BI](consumer/mobile/mobile-reports-in-the-mobile-apps.md)
 
 ## <a name="dashboards"></a>Pulpity nawigacyjne
-*Pulpit nawigacyjny* jest elementem tworzonym przez Ciebie **w usłudze Power BI** lub tworzonym i udostępnianym przez współpracownika **w usłudze Power BI**. Jest to jedna kanwa zawierająca zero lub więcej kafelków i widgetów. Każdy kafelek przypięty z raportu lub [sesji pytań i odpowiedzi](power-bi-q-and-a.md) wyświetla jedną [wizualizację](power-bi-report-visualizations.md), która została utworzona na podstawie zestawu danych i przypięta do pulpitu nawigacyjnego. Do pulpitu nawigacyjnego można też przypinać całe strony raportów jako pojedyncze kafelki. Istnieje wiele sposobów na dodanie kafelków do pulpitu nawigacyjnego; zbyt wiele, aby uwzględnić je w tym temacie. Aby dowiedzieć się więcej, zobacz [Kafelki pulpitu nawigacyjnego w usłudze Power BI](service-dashboard-tiles.md). 
+*Pulpit nawigacyjny* jest elementem tworzonym przez Ciebie **w usłudze Power BI** lub tworzonym i udostępnianym przez współpracownika **w usłudze Power BI**. Jest to jedna kanwa zawierająca zero lub więcej kafelków i widgetów. Każdy kafelek przypięty z raportu lub [sesji pytań i odpowiedzi](power-bi-q-and-a.md) wyświetla jedną [wizualizację](visuals/power-bi-report-visualizations.md), która została utworzona na podstawie zestawu danych i przypięta do pulpitu nawigacyjnego. Do pulpitu nawigacyjnego można też przypinać całe strony raportów jako pojedyncze kafelki. Istnieje wiele sposobów na dodanie kafelków do pulpitu nawigacyjnego; zbyt wiele, aby uwzględnić je w tym temacie. Aby dowiedzieć się więcej, zobacz [Kafelki pulpitu nawigacyjnego w usłudze Power BI](service-dashboard-tiles.md). 
 
 Dlaczego ludzie tworzą pulpity nawigacyjne?  Poniżej przedstawiono niektóre z powodów:
 

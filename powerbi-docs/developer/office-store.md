@@ -9,12 +9,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 04/02/2018
 ms.author: maghan
-ms.openlocfilehash: 2147a5ccb1df8bd107d662559c97400a24dd490e
-ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
+ms.openlocfilehash: c407b967ce4a8c1ee31b9a750f2e281ff0a8caa7
+ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37092120"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "45558498"
 ---
 # <a name="publish-custom-visuals-to-appsource"></a>Publikowanie wizualizacji niestandardowych w usłudze AppSource
 Dowiedz się, jak publikować swoje wizualizacje niestandardowe w usłudze AppSource do użytku przez inne osoby.
@@ -32,7 +32,7 @@ Po zakończeniu kodowania i testowania wizualizacji niestandardowej oraz spakowa
 | --- | --- | --- |
 | Pakiet pbiviz zawiera wszystkie wymagane metadane |Tak |Nazwa wizualizacji<br>Nazwa wyświetlana<br>GUID<br>Wersja<br>Opis<br>Nazwisko i adres e-mail autora |
 | Przykładowy plik raportu pbix |Tak |Aby przedstawić swoją wizualizację, należy pomóc użytkownikom w zapoznaniu się z nią. Należy podkreślić wartość zapewnianą użytkownikowi przez wizualizację oraz podać przykłady zastosowania, opcji formatowania itp. Na końcu można także dodać stronę *z poradami* zawierającą porady i wskazówki, listę kwestii, których należy unikać itp.<br>Przykładowy plik raportu pbix musi działać w trybie offline, bez żadnego połączenia zewnętrznego |
-| Ikona |Tak |Należy dołączyć logo wizualizacji niestandardowej, które będzie wyświetlane w sklepie. Plik może mieć format png, jpg, jpeg lub gif. Musi mieć rozmiar dokładnie 300 pikseli (szerokość) x 300 pikseli (wysokość). **Ważne!** Przed przesłaniem ikony zapoznaj się dokładnie z [krótkim przewodnikiem](https://docs.microsoft.com/en-us/office/dev/store/craft-effective-appsource-store-images). |
+| Ikona |Tak |Należy dołączyć logo wizualizacji niestandardowej, które będzie wyświetlane w sklepie. Plik może mieć format png, jpg, jpeg lub gif. Musi mieć rozmiar dokładnie 300 pikseli (szerokość) x 300 pikseli (wysokość). **Ważne!** Przed przesłaniem ikony zapoznaj się dokładnie z [krótkim przewodnikiem](https://docs.microsoft.com/office/dev/store/craft-effective-appsource-store-images). |
 | Zrzuty ekranu |Tak |Należy dołączyć co najmniej jeden zrzut ekranu. Plik może mieć format png, jpg, jpeg lub gif. Musi mieć rozmiar dokładnie 1366 pikseli (szerokość) x 768 pikseli (wysokość). Rozmiar pliku nie może przekraczać 1024 KB. *W celu zwiększenia popularności warto dodać etykiety podkreślające przydatność kluczowych funkcji przedstawionych na każdym zrzucie ekranu.* |
 | Link do pomocy w pobieraniu |Tak |Podaj adres URL, pod którym użytkownicy napotykający problemy z wizualizacją mogą uzyskać wsparcie. Adres URL powinien zawierać element https:// lub http://. |
 | Link do dokumentu dotyczącego prywatności |Tak |Podaj link do zasad ochrony prywatności klientów korzystających z wizualizacji. Link powinien zawierać element https:// lub http://. |
@@ -130,7 +130,7 @@ Po utworzeniu wizualizacji możesz opcjonalnie uzyskać jej certyfikację. Certy
 
 ## <a name="next-steps"></a>Następne kroki
 [Tworzenie niestandardowych wizualizacji przy użyciu narzędzi deweloperskich](../service-custom-visuals-getting-started-with-developer-tools.md)  
-[Wizualizacje w usłudze Power BI](../power-bi-report-visualizations.md)  
+[Wizualizacje w usłudze Power BI](../visuals/power-bi-report-visualizations.md)  
 [Wizualizacje niestandardowe w usłudze Power BI](../power-bi-custom-visuals.md)  
 [*Certyfikowanie* wizualizacji niestandardowej](../power-bi-custom-visuals-certified.md)
 

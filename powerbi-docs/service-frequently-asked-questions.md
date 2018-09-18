@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/06/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 4c5a50a5bab76fd856099a3c1430638dc9e33ea8
-ms.sourcegitcommit: 1574ecba7530e6e0ee97235251a3138fb0e4789b
+ms.openlocfilehash: 8463dc96a120e9bf26ff0718fb050304890a5cea
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/14/2018
-ms.locfileid: "40256862"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44728185"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Często zadawane pytania dotyczące usługi Power BI
 * Jeśli masz inne pytania, [zadaj je społeczności usługi Power BI](http://community.powerbi.com/).
@@ -60,7 +60,7 @@ Korzystając z usługi Power BI i programu Power BI Desktop, można bezpiecznie 
 Serwer raportów usługi Power BI to rozwiązanie wdrażane w środowiskach lokalnych, które umożliwia tworzenie i publikowanie raportów oraz zarządzanie nimi, a następnie dostarczanie ich różnymi sposobami do różnych użytkowników: w przeglądarce internetowej, na ich urządzeniach przenośnych lub jako wiadomości e-mail w ich skrzynkach odbiorczych. Przeczytaj więcej na temat [serwera raportów usługi Power BI](report-server/get-started.md).
 
 ### <a name="power-bi-mobile-apps"></a>Aplikacje mobilne Power BI
-Korzystając z aplikacji mobilnych usługi Power BI, można także [wyświetlać lokalne raporty usługi Power BI, mobilne raporty usług Reporting Services i wskaźniki KPI](mobile-app-ssrs-kpis-mobile-on-premises-reports.md).
+Korzystając z aplikacji mobilnych usługi Power BI, można także [wyświetlać lokalne raporty usługi Power BI, mobilne raporty usług Reporting Services i wskaźniki KPI](consumer/mobile/mobile-app-ssrs-kpis-mobile-on-premises-reports.md).
 
 ## <a name="does-power-bi-support-mobile-devices"></a>Czy usługa Power BI obsługuje urządzenia przenośne?
 Tak. Usługa Power BI udostępnia aplikacje natywne na telefony i tablety z systemem Android, urządzenia z systemem iOS i urządzenia z systemem Windows 10. Pobierz jedną z [aplikacji mobilnych usługi Power BI](https://powerbi.microsoft.com/mobile) z odpowiedniego sklepu:  

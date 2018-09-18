@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: da9a4ffad948a43077d864e442af36b0db6bb617
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 80e5b31f4fd8e59333848da26995388874d1746c
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37136967"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44728047"
 ---
 # <a name="reports-in-power-bi"></a>Raporty w usłudze Power BI
 ## <a name="what-is-a-power-bi-report"></a>Co to jest raport usługi Power BI?
@@ -27,7 +27,7 @@ Ten raport zawiera 3 strony (czyli karty). Obecnie jest wyświetlana strona z po
 
 Jeśli jesteś nowym użytkownikiem usługi Power BI, zapoznaj się z podstawowymi informacjami w temacie [Power BI — podstawowe pojęcia](service-basic-concepts.md).
 
-Raporty są funkcją usługi Power BI i programu Power BI Desktop. Środowisko pracy z raportami jest niemal identyczne. Jednak na urządzeniach przenośnych nie można tworzyć raportów — można je [wyświetlać, udostępniać i dodawać do nich adnotacje](mobile-reports-in-the-mobile-apps.md).
+Raporty są funkcją usługi Power BI i programu Power BI Desktop. Środowisko pracy z raportami jest niemal identyczne. Jednak na urządzeniach przenośnych nie można tworzyć raportów — można je [wyświetlać, udostępniać i dodawać do nich adnotacje](consumer/mobile/mobile-reports-in-the-mobile-apps.md).
 
 ## <a name="advantages-of-reports"></a>Zalety raportów
 Raporty są oparte na jednym zestawie danych. Każda wizualizacja w raporcie reprezentuje część informacji. Wizualizacje nie są statyczne — możesz dodawać i usuwać dane, zmieniać typy wizualizacji oraz stosować filtry i fragmentatory, analizując dane w celu wyciągania wniosków i szukania odpowiedzi. Podobnie jak pulpit nawigacyjny — ale jeszcze bardziej — raport jest wysoce interakcyjny i można go dostosowywać, a wizualizacje są aktualizowane, gdy ich bazowe dane zmieniają się.

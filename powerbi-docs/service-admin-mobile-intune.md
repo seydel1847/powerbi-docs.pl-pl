@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 8e31d3128e38453212a8a0ecef2a139fa2d0f356
-ms.sourcegitcommit: 49570ab8f5b5cd5bab4cd388f4281b1372bcb80b
+ms.openlocfilehash: 565c43be3489c23f26a98f99ce2d70022be965d2
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/09/2018
-ms.locfileid: "35250550"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44728001"
 ---
 # <a name="configure-mobile-apps-with-microsoft-intune"></a>Konfigurowanie aplikacji mobilnych za pomocą usługi Microsoft Intune
 Usługa Microsoft Intune umożliwia organizacjom zarządzanie urządzeniami i aplikacjami. Aplikacje mobilne usługi Power BI dla systemów iOS i Android obsługują integrację z usługą Intune, aby umożliwić zarządzanie aplikacjami na urządzeniach oraz sterowanie zabezpieczeniami. Za pomocą zasad konfiguracji można zarządzać elementami na przykład przez wymaganie dostępowego kodu PIN, określanie sposobu obsługi danych przez aplikację, a nawet szyfrowanie danych aplikacji, kiedy aplikacja nie jest używana.
@@ -163,7 +163,7 @@ Po zainstalowaniu aplikacji zobaczysz, że jest ona **Zarządzana przez Twoją f
 
 ## <a name="next-steps"></a>Następne kroki
 [Konfigurowanie i wdrażanie zasad zarządzania aplikacjami mobilnymi w konsoli usługi Microsoft Intune](https://technet.microsoft.com/library/dn878026.aspx)  
-[Aplikacje Power BI dla urządzeń przenośnych](mobile-apps-for-mobile-devices.md)  
+[Aplikacje Power BI dla urządzeń przenośnych](consumer/mobile/mobile-apps-for-mobile-devices.md)  
 
 Masz więcej pytań? [Zadaj pytanie społeczności usługi Power BI](http://community.powerbi.com/)
 

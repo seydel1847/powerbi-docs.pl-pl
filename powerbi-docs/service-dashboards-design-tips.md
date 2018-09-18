@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7da86135a391f8a6206a913a1e13df423ad96fbd
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 327e9d9973aabb17761b55d355598462ce70e20e
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "36944979"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726060"
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>Porady dotyczące projektowania doskonałych pulpitów nawigacyjnych usługi Power BI
 Gdy już udało Ci się utworzyć pulpit nawigacyjny i dodać kafelki, zadbaj o to, aby Twój projekt był nie tylko ładny, ale i funkcjonalny. Ogólnie rzecz biorąc, chodzi o wyróżnienie najważniejszych informacji, tak aby pulpit nawigacyjny nie wyglądał na przepełniony i pozostał przejrzysty.
@@ -23,7 +23,7 @@ Gdy już udało Ci się utworzyć pulpit nawigacyjny i dodać kafelki, zadbaj o 
 Poniżej przedstawiono kilka wskazówek.
 
 > [!TIP]
-> Wiele zasad projektowania raportów dotyczy także pulpitów nawigacyjnych.  Zobacz nasz oficjalny dokument [Best design principles for reports and visualizations (Najlepsze zasady projektowania raportów i wizualizacji)](power-bi-visualization-best-practices.md).
+> Wiele zasad projektowania raportów dotyczy także pulpitów nawigacyjnych.  Zobacz nasz oficjalny dokument [Best design principles for reports and visualizations (Najlepsze zasady projektowania raportów i wizualizacji)](visuals/power-bi-visualization-best-practices.md).
 >
 >
 
@@ -51,7 +51,7 @@ Jeśli rozmiar tekstu i rozmiar wizualizacji będą takie same, użytkownicy bę
 
 Pamiętaj jednak, aby udostępnić kontekst.  
 
-Dowiedz się więcej na temat [tworzenia kafelka zawierającego tylko liczbę](power-bi-visualization-card.md).
+Dowiedz się więcej na temat [tworzenia kafelka zawierającego tylko liczbę](visuals/power-bi-visualization-card.md).
 
 ## <a name="put-the-most-important-information-in-the-upper-corner"></a>Najważniejsze informacje umieszczaj na górze
 Większość osób przyswaja wiedzę, czytając od góry do dołu. Z tego względu najbardziej ogólne informacje umieść na górze, a kolejne szczegóły dołączaj zgodnie z kierunkiem, w jakim czytają Twoi odbiorcy (od lewej do prawej lub od prawej do lewej).
@@ -68,7 +68,7 @@ Różnorodność wizualizacji nie jest najważniejsza.  Wizualizacje mają „pr
 * Pamiętaj o [sortowaniu wykresów](power-bi-report-change-sort.md).  Jeśli chcesz zwrócić uwagę na największą lub najmniejszą liczbę, posortuj według miary.  Jeśli chcesz, aby użytkownicy mogli szybko znaleźć określoną kategorię wśród wielu innych kategorii, posortuj według osi.  
 * Wykresy kołowe najlepiej sprawdzają się, gdy zawierają mniej niż osiem kategorii. Na wykresach kołowych nie można zestawić wartości obok siebie, dlatego trudniej jest je porównywać niż w przypadku wykresów słupkowych lub kolumnowych. Wykresy kołowe są dobre do wyświetlania relacji części do całości, a nie do porównywania wartości. Wykresy w postaci mierników są doskonałe do wyświetlania bieżącego stanu w kontekście celu.
 
-Aby uzyskać więcej wskazówek dotyczących wizualizacji, zobacz [Typy wizualizacji w usłudze Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md).  
+Aby uzyskać więcej wskazówek dotyczących wizualizacji, zobacz [Typy wizualizacji w usłudze Power BI](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md).  
 
 ## <a name="learning-more-about-best-practice-dashboard-design"></a>Dowiedz się więcej na temat najlepszych rozwiązań w zakresie projektowania pulpitów nawigacyjnych
 Aby opanować sztukę doskonałego projektowania pulpitów nawigacyjnych, zapoznaj się z podstawowymi zasadami Gestalt dotyczącymi percepcji wizualnej i sposobów czytelnego przekazywania inspirujących do działania informacji w kontekście. Na szczęście dostępnych jest mnóstwo zasobów, które można również znaleźć na naszych blogach. Oto kilka naszych ulubionych książek:

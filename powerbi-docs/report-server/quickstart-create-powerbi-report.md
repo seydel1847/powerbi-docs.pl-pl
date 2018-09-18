@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/18/2018
 ms.author: maggies
-ms.openlocfilehash: 0debedc6e768fb3158ebe5cb4bf820ed3dc14a58
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 64757d6cbd82b666bf18f1ee87d8e51954872990
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34481422"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726736"
 ---
 # <a name="create-a-power-bi-report-for-power-bi-report-server"></a>Tworzenie raportu usługi Power BI dla serwera raportów usługi Power BI
 Raporty usługi Power BI można przechowywać i zarządzać nimi lokalnie w portalu internetowym serwera raportów usługi Power BI, podobnie jak w przypadku przechowywania ich w chmurze w usłudze Power BI (https://powerbi.com). Raporty usługi Power BI można tworzyć i edytować w programie Power BI Desktop, a następnie publikować je w portalu internetowym. Odbiorcy raportów w organizacji będą mogli wyświetlać je w przeglądarce lub w aplikacji mobilnej Power BI na urządzeniach przenośnych.
@@ -108,7 +108,7 @@ W raportach na serwerze raportów usługi Power BI nie są obsługiwane:
 * Funkcje programu Power BI Desktop w wersji zapoznawczej
 
 ### <a name="in-the-power-bi-mobile-apps"></a>W aplikacjach mobilnych Power BI
-W raportach na serwerze raportów usługi Power BI obsługiwane są wszystkie funkcje podstawowe w [aplikacjach mobilnych Power BI](../mobile-apps-for-mobile-devices.md), w tym:
+W raportach na serwerze raportów usługi Power BI obsługiwane są wszystkie funkcje podstawowe w [aplikacjach mobilnych Power BI](../consumer/mobile/mobile-apps-for-mobile-devices.md), w tym:
 
 * [Układ raportu na telefonie](../desktop-create-phone-report.md): można zoptymalizować raport dla aplikacji mobilnych Power BI. Na telefonie komórkowym zoptymalizowane raporty mają specjalną ikonę, ![ikonę układu raportu na telefonie](media/quickstart-create-powerbi-report/power-bi-rs-mobile-optimized-icon.png), i układ.
   

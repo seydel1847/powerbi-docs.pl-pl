@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/31/2018
-ms.openlocfilehash: 48faf9ebde5860b59569a7e0a3a96664d06a1b0d
-ms.sourcegitcommit: aed348a2d0025f7f40f2196254993f6aba5db7d2
+ms.openlocfilehash: d540dd29214422dfc33dca2bf2fb1cb74ebe6de7
+ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "43241573"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "45558588"
 ---
 # <a name="troubleshooting-your-embedded-application"></a>Rozwiązywanie problemów z aplikacją osadzoną
 
@@ -105,13 +105,13 @@ Zaplecze aplikacji może wymagać odświeżenia tokenu uwierzytelniania przed wy
 
 Jeśli używasz usługi Power BI Embedded i bezpośredniego uwierzytelniania usługi Azure AD oraz podczas logowania otrzymujesz komunikaty, takie jak ***error:unauthorized_client, error_description:AADSTS70002: Błąd podczas walidacji poświadczeń. AADSTS50053: Nastąpiło zbyt wiele prób zalogowania przy użyciu niepoprawnego identyfikatora użytkownika lub hasła***, dzieje się tak, ponieważ bezpośrednie uwierzytelnianie zostało domyślnie wyłączone od 14.06.2018 r.
 
-Tę funkcję można ponownie włączyć przy użyciu [zasad usługi Azure AD](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications) działających w zakresie organizacji lub [jednostki usługi](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-application-objects#service-principal-object).
+Tę funkcję można ponownie włączyć przy użyciu [zasad usługi Azure AD](https://docs.microsoft.com/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications) działających w zakresie organizacji lub [jednostki usługi](https://docs.microsoft.com/azure/active-directory/develop/active-directory-application-objects#service-principal-object).
 
 Zalecamy włączanie tej funkcji tylko dla poszczególnych aplikacji.
 
 Aby utworzyć te zasady, musisz być **administratorem globalnym** katalogu, w którym tworzysz i przypisujesz zasady. Poniżej przedstawiono przykładowy skrypt służący do tworzenia zasad i przypisywania ich do SP dla tej aplikacji:
 
-1. Zainstaluj [moduł programu PowerShell w usłudze Azure AD w wersji zapoznawczej](https://docs.microsoft.com/en-us/powershell/azure/active-directory/install-adv2?view=azureadps-2.0).
+1. Zainstaluj [moduł programu PowerShell w usłudze Azure AD w wersji zapoznawczej](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2?view=azureadps-2.0).
 
 2. Uruchom poniższe polecenia programu PowerShell wiersz po wierszu (upewniając się, że zmienna $sp nie ma więcej wyników niż 1 aplikacja).
 
@@ -274,7 +274,7 @@ Przyczyną jest to, że adres URL przekierowania określony dla aplikacji serwer
 
 Jeśli chcesz edytować zarejestrowaną aplikację, dowiedz się, jak edytować [aplikację zarejestrowaną w usłudze AAD](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications#updating-an-application), aby aplikacja mogła zapewnić dostęp do internetowych interfejsów API.
 
-Jeśli chcesz edytować dane lub profil użytkownika usługi Power BI, dowiedz się, jak edytować swoje [dane usługi Power BI](https://docs.microsoft.com/en-us/power-bi/service-basic-concepts).
+Jeśli chcesz edytować dane lub profil użytkownika usługi Power BI, dowiedz się, jak edytować swoje [dane usługi Power BI](https://docs.microsoft.com/power-bi/service-basic-concepts).
 
 Aby uzyskać więcej informacji, zobacz [Często zadawane pytania dotyczące usługi Power BI Embedded](embedded-faq.md).
 

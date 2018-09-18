@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/28/2018
+ms.date: 09/13/2018
 LocalizationGroup: Share your work
-ms.openlocfilehash: b305c684ccf0938cfa8f5d9a2aa06f27a8c8be12
-ms.sourcegitcommit: fb29c4bf7e598f962b453ac68091ca2189d6ae3b
+ms.openlocfilehash: 0ef3bd027c7fc14f88a569cab160f90044689784
+ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/31/2018
-ms.locfileid: "43380341"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "45558544"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Funkcja Publikuj w sieci Web w usłudze Power BI
 
@@ -61,7 +61,7 @@ Poniżej opisano, jak używać funkcji **Publikuj w sieci Web**.
 
 Podczas osadzania zawartości we wpisie w blogu zazwyczaj konieczne jest dopasowanie jej do określonego rozmiaru ekranu.  Możesz dostosować wysokość i szerokość w tagu elementu iFrame stosownie do potrzeb, ale może być również konieczne zapewnienie dopasowania raportu do określonego obszaru elementu iFrame — dlatego należy także wybrać odpowiedni tryb wyświetlania podczas edycji raportu.
 
-Poniższa tabela zawiera informacje dotyczące trybów wyświetlania oraz wyglądu zawartości po osadzeniu.
+Poniższa tabela zawiera informacje dotyczące trybów wyświetlania oraz wyglądu zawartości po osadzeniu. 
 
 | Tryb wyświetlania | Wygląd po osadzeniu |
 | --- | --- |

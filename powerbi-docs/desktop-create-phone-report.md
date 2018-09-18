@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/17/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 6cd1616dab92eb8709c5e89966259be591e4ede3
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: 5f34207640fe0db02d38464ce8600a44b6ffab4c
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39280667"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726460"
 ---
 # <a name="create-reports-optimized-for-the-power-bi-phone-apps"></a>Tworzenie raportów zoptymalizowanych pod kątem aplikacji Power BI na telefony
 Podczas [tworzenia raportu w programie Power BI Desktop](desktop-report-view.md) można ulepszyć korzystanie z niego w aplikacjach mobilnych na telefony przez utworzenie wersji raportu przystosowanej specjalnie do telefonów. Zmieniając rozmieszczenie i rozmiar — chociaż może nie wszystkich — wizualizacji, można przystosować raport do telefonu i zoptymalizować sposób używania go. Ponadto można tworzyć [*dynamiczne* wizualizacje](#optimize-a-visual-for-any-size) i [dynamiczne fragmentatory](#enhance-slicers-to-to-work-well-in-phone-reports), które dostosowują swój rozmiar, gdy są wyświetlane w telefonie. Oprócz tego po dodaniu filtrów do raportu filtry te będą automatycznie wyświetlane w raporcie na telefon. Czytelnicy raportu mogą je widzieć i filtrować raport za ich pomocą.
@@ -56,7 +56,7 @@ Gdy wizualizacja zmienia rozmiar, usługa Power BI nadaje priorytet widokowi dan
 
 ![Elastyczna zmiana rozmiaru wizualizacji](media/desktop-create-phone-report/desktop-create-phone-report-6.gif)
 
-Włączenie lub wyłączenie elastyczności każdej wizualizacji zależy od użytkownika. Dowiedz się więcej na temat [optymalizacji wizualizacji](desktop-create-responsive-visuals.md).
+Włączenie lub wyłączenie elastyczności każdej wizualizacji zależy od użytkownika. Dowiedz się więcej na temat [optymalizacji wizualizacji](visuals/desktop-create-responsive-visuals.md).
 
 ## <a name="considerations-when-creating-phone-report-layouts"></a>Zagadnienia dotyczące tworzenia układów raportu na telefon
 * W przypadku raportów o wielu stronach można zoptymalizować wszystkie strony lub tylko niektóre. 
@@ -101,11 +101,11 @@ Jeśli zoptymalizowane są tylko niektóre strony, w widoku pionowym czytelnicy 
 
 ![Niezoptymalizowana strona na telefonie](media/desktop-create-phone-report/desktop-create-phone-report-9.png)
 
-Czytelnik raportu może obrócić telefon na bok, aby wyświetlić stronę w widoku poziomym. Dowiedz się więcej na temat [podejmowania interakcji z raportami usługi Power BI zoptymalizowanymi pod kątem telefonu](mobile-apps-view-phone-report.md).
+Czytelnik raportu może obrócić telefon na bok, aby wyświetlić stronę w widoku poziomym. Dowiedz się więcej na temat [podejmowania interakcji z raportami usługi Power BI zoptymalizowanymi pod kątem telefonu](consumer/mobile/mobile-apps-view-phone-report.md).
 
 ## <a name="next-steps"></a>Następne kroki
 * [Tworzenie widoku pulpitu nawigacyjnego dla telefonu w usłudze Power BI](service-create-dashboard-mobile-phone-view.md)
-* [Wyświetlanie raportów usługi Power BI zoptymalizowanych pod kątem telefonu](mobile-apps-view-phone-report.md)
-* [Tworzenie elastycznych wizualizacji zoptymalizowanych pod kątem dowolnego rozmiaru](desktop-create-responsive-visuals.md)
+* [Wyświetlanie raportów usługi Power BI zoptymalizowanych pod kątem telefonu](consumer/mobile/mobile-apps-view-phone-report.md)
+* [Tworzenie elastycznych wizualizacji zoptymalizowanych pod kątem dowolnego rozmiaru](visuals/desktop-create-responsive-visuals.md)
 * Masz więcej pytań? [Zadaj pytanie społeczności usługi Power BI](http://community.powerbi.com/)
 

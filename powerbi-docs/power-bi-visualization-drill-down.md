@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: dbe98d69ce800ef57e6def59003dce56b7be56cd
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 57e1285537854454504b0d2952068e5d9dc4f378
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37600925"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726713"
 ---
 # <a name="drill-mode-in-a-visualization-in-power-bi"></a>Tryb przechodzenia do szczegółów w wizualizacji w usłudze Power BI
 
@@ -190,10 +190,10 @@ Oprócz wizualizacji możemy zobaczyć hierarchię odzwierciedloną w danych ren
 Zwróć uwagę, że dane są takie same w przypadku raportów kwartalnych i rocznych, ale po przejściu do szczegółów na poziomie określonym dla pozycji **Wartości** możesz zobaczyć, jak jeden raport staje się bardziej szczegółowy, a raport „wszystkie miesiące” zawiera więcej danych.
 
 
-|Tryb rozwijania|Year|Quarter|Month|Day|
+|Tryb rozwijania|Rok|Quarter|Month|Day|
 | ---|:---:|:---:|:---:|---|
 |Jeden|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-year.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-quarter.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-one-month.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-one-day.png)|
-|Wszystko|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-year.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-quarter.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-all-month.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-all-day.png)|
+|Wszystkie|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-year.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-quarter.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-all-month.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-all-day.png)|
 
 
 ### <a name="hierarchical-category-data"></a>Dane kategorii hierarchicznej
@@ -211,10 +211,10 @@ Teraz powinien być wyświetlany najniższy poziom hierarchii, w którym znajduj
 Oprócz wizualizacji możemy zobaczyć hierarchię odzwierciedloną w danych renderowanych dla każdego raportu. W poniższej tabeli przedstawiono wyniki opcji **Pokaż dane** w przechodzeniu do szczegółów w raporcie dla jednego terytorium lub wszystkich terytoriów. Podczas przechodzenia do szczegółów możesz zobaczyć, jak jeden raport staje się bardziej szczegółowy, a raport „wszystkie terytoria” zawiera więcej danych.
 
 
-| Tryb rozwijania|Territory|City|Kod pocztowy|Nazwa|
+| Tryb rozwijania|Terytorium|Miasto|Kod pocztowy|Nazwa|
 | ---|:---:|:---:|:---:|---|
 |Jeden|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-territory.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-one-territory-city.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-one-territory-city-postal.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-one-territory-city-postal-name.png)|
-|Wszystko|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-territory.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-all-territory-city.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-all-territory-city-postal.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-all-territory-city-postal-name.png)|
+|Wszystkie|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-territory.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-all-territory-city.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-all-territory-city-postal.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-all-territory-city-postal-name.png)|
 
 
 ## <a name="considerations-and-limitations"></a>Istotne zagadnienia i ograniczenia
@@ -223,7 +223,7 @@ Oprócz wizualizacji możemy zobaczyć hierarchię odzwierciedloną w danych ren
   ![](media/power-bi-visualization-drill-down/power-bi-change-data-type2.png)
 
 ## <a name="next-steps"></a>Następne kroki
-[Wizualizacje w raportach usługi Power BI](power-bi-report-visualizations.md)
+[Wizualizacje w raportach usługi Power BI](visuals/power-bi-report-visualizations.md)
 
 [Raporty usługi Power BI](service-reports.md)
 

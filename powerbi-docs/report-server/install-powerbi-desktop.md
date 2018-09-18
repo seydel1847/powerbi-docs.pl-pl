@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/24/2018
 ms.author: maggies
-ms.openlocfilehash: 368f2692933b37d833c864fb9fea6a22423bbb77
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: d3b7ace4fe611cc55965f96f770caf7b4ebf21b1
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34481836"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726391"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Instalowanie programu Power BI Desktop zoptymalizowanego pod kątem serwera raportów usługi Power BI
 Dowiedz się, jak zainstalować program Power BI Desktop zoptymalizowany pod kątem serwera raportów usługi Power BI.
@@ -78,7 +78,7 @@ W raportach na serwerze raportów usługi Power BI nie są obsługiwane:
 * Funkcje programu Power BI Desktop w wersji zapoznawczej
 
 ### <a name="in-the-power-bi-mobile-apps"></a>W aplikacjach mobilnych Power BI
-W raportach na serwerze raportów usługi Power BI obsługiwane są wszystkie funkcje podstawowe w [aplikacjach mobilnych Power BI](../mobile-apps-for-mobile-devices.md), w tym:
+W raportach na serwerze raportów usługi Power BI obsługiwane są wszystkie funkcje podstawowe w [aplikacjach mobilnych Power BI](../consumer/mobile/mobile-apps-for-mobile-devices.md), w tym:
 
 * [Układ raportu na telefonie](../desktop-create-phone-report.md): można zoptymalizować raport dla aplikacji mobilnych Power BI. Na telefonie komórkowym zoptymalizowane raporty mają specjalną ikonę, ![ikonę układu raportu na telefonie](media/quickstart-create-powerbi-report/power-bi-rs-mobile-optimized-icon.png), i układ.
   
