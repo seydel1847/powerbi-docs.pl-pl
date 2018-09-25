@@ -2,7 +2,7 @@
 title: Wykresy kaskadowe w usłudze Power BI
 description: Wykresy kaskadowe w usłudze Power BI
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 featuredvideoid: maTzOJSRB3g
 ms.service: powerbi
@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/20/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: feb608455add8740d7894fa2cec3c54a8a26944e
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: d1c771ed49a000374c58beb694dda511a8c9a097
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44736793"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46565825"
 ---
 # <a name="waterfall-charts-in-power-bi"></a>Wykresy kaskadowe w usłudze Power BI
 Wykres kaskadowy pokazuje sumę bieżącą, gdy wartości są dodawane lub odejmowane. Jest to użyteczne, jeśli chcemy zrozumieć, jak na początkową wartość (np. przychód netto) ma wpływ seria zmian dodatnich i ujemnych.
@@ -74,13 +74,13 @@ Aby uzyskać informacje o korzystaniu z okienka filtrów, zobacz [Dodawanie filt
 Wyróżnianie kolumny lub linii na wykresie kaskadowym powoduje krzyżowe filtrowanie innych wizualizacji na stronie raportu... i na odwrót. Jednak kolumna z podsumowaniem nie wyzwala wyróżniania ani nie reaguje na filtrowanie krzyżowe.
 
 ## <a name="next-steps"></a>Następne kroki
-[Raporty w usłudze Power BI](../service-reports.md)
+[Raporty w usłudze Power BI](../consumer/end-user-reports.md)
 
 [Typy wizualizacji w usłudze Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
 [Wizualizacje w raportach usługi Power BI](power-bi-report-visualizations.md)
 
-[Power BI — podstawowe pojęcia](../service-basic-concepts.md)
+[Power BI — podstawowe pojęcia](../consumer/end-user-basic-concepts.md)
 
 Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
 

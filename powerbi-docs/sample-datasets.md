@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/06/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: cd9762a5f9a46ab7d726a326c1b231f30c8e6271
-ms.sourcegitcommit: d936a23f895ee6ef1420753342f5e6c055ea5e07
+ms.openlocfilehash: 91c08ab428852cc0fa8a721278e232400ed19bfa
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/07/2018
-ms.locfileid: "39582505"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546492"
 ---
 # <a name="what-sample-data-is-available-to-use-with-power-bi"></a>Jakie przykładowe dane są dostępne do użycia w usłudze Power BI?
 Załóżmy, że jesteś nowym użytkownikiem usługi Power BI i chcesz ją wypróbować, ale nie masz żadnych danych.  A może masz zestaw danych, ale ponieważ nie rozumiesz (jeszcze) jak działa usługa Power BI, martwisz się, że możesz w jakiś sposób uszkodzić swój zestaw danych?
@@ -191,7 +191,7 @@ Każdy z tych przykładowych pakietów zawartości jest również dostępny jako
 4. Wybierz plik PBIX, aby otworzyć go w programie Power BI Desktop.
 
 ## <a name="next-steps"></a>Następne kroki
-[Power BI — podstawowe pojęcia](service-basic-concepts.md)
+[Power BI — podstawowe pojęcia](consumer/end-user-basic-concepts.md)
 
 [Tutorial: Connect to the Power BI samples (Samouczek: Nawiązywanie połączenia z przykładami usługi Power BI)](sample-tutorial-connect-to-the-samples.md)
 

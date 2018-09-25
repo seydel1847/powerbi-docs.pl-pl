@@ -11,15 +11,15 @@ ms.topic: conceptual
 ms.date: 03/24/2017
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 8083e2aba9a2aa5b8bba27995e9fe261a76084c9
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 380567441fafec92d1f5e9e6b135b797264df40f
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44728070"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46543573"
 ---
 # <a name="duplicate-a-report-page-in-power-bi"></a>Duplikowanie strony raportu w usłudze Power BI
-Duplikowanie strony raportu w usłudze Power BI lub programie Power BI Desktop wymaga uprawnień do edytowania raportu. W usłudze Power BI oznacza to otworzenie raportu w [widoku do edycji](service-reading-view-and-editing-view.md). 
+Duplikowanie strony raportu w usłudze Power BI lub programie Power BI Desktop wymaga uprawnień do edytowania raportu. W usłudze Power BI oznacza to otworzenie raportu w [widoku do edycji](consumer/end-user-reading-view.md). 
 
 
 1. W usłudze Power BI otwórz raport, który zawiera co najmniej jedną stronę. 
@@ -36,7 +36,7 @@ Duplikowanie strony raportu w usłudze Power BI lub programie Power BI Desktop w
 ### <a name="next-steps"></a>Następne kroki
 Więcej informacji o [wizualizacjach w raportach usługi Power BI](visuals/power-bi-report-visualizations.md)    
 [Dodawanie nowej strony do raportu](power-bi-report-add-page.md)    
-[Power BI — podstawowe pojęcia](service-basic-concepts.md)    
+[Power BI — podstawowe pojęcia](consumer/end-user-basic-concepts.md)    
 
 Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
 

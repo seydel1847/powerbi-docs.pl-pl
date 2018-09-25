@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/18/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: bc5fe4c1e1fedc700fcbadd182f01e9e50348e3e
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 8f025c11a5269befdb7819684e10e8511ae6bc98
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34257234"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545648"
 ---
 # <a name="share-a-filtered-power-bi-report-with-your-coworkers"></a>Udostępnij filtrowane raportu usługi Power BI współpracownikom
 *Udostępnianie* to świetna metoda na zapewnienie kilku osobom dostępu do Twojego pulpitu nawigacyjnego i raportów. Usługa Power BI oferuje również [kilka innych sposobów współpracy i rozpowszechniania raportów](service-how-to-collaborate-distribute-dashboards-reports.md).
@@ -28,7 +28,7 @@ Raport w usłudze Power BI można udostępniać współpracownikom w tej samej d
 ## <a name="filter-and-share-a-report"></a>Filtrowanie i udostępnianie raportu
 Czasami zachodzi potrzeba udostępnienia filtrowanej wersji raportu. Może to być raport zawierający tylko dane dotyczące określonego miasta, sprzedawcy lub roku. Można to zrobić, tworząc niestandardowy adres URL.
 
-1. Otwórz raport w [widoku do edycji](service-reading-view-and-editing-view.md), zastosuj filtr i zapisz raport.
+1. Otwórz raport w [widoku do edycji](consumer/end-user-reading-view.md), zastosuj filtr i zapisz raport.
    
    W tym przykładzie przefiltrujemy dane z zestawu [Retail Analysis](sample-tutorial-connect-to-the-samples.md), wyświetlając tylko wartości, w których pole **Territory** ma wartość **NC**.
    

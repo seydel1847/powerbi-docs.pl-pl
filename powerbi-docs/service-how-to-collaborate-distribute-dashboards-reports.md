@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7b1b55475e2ad19c869ba92cdb9621caa0fc3538
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 22d32315040352e013ae8331e9433a9e60e97f5c
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726667"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545756"
 ---
 # <a name="how-should-i-collaborate-and-share-in-power-bi"></a>Jak można współpracować i udostępniać w usłudze Power BI?
 
@@ -57,7 +57,7 @@ Załóżmy, że chcesz rozpowszechnić swój pulpit nawigacyjny wśród szerokie
 
 ![Ikona publikowania aplikacji](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-app-publish-600.png)
 
-W usłudze Power BI ([https://powerbi.com](https://powerbi.com)) aplikacje można łatwo znaleźć i zainstalować. Możesz wysłać swoim użytkownikom biznesowym bezpośredni link do aplikacji lub mogą oni ją wyszukać w usłudze AppSource. Jeśli administrator usługi Power BI nada Ci odpowiednie uprawnienia, możesz automatycznie zainstalować aplikację na kontach usługi Power BI swoich współpracowników. Przeczytaj więcej na temat [publikowania aplikacji](service-create-distribute-apps.md). 
+W usłudze Power BI ([https://powerbi.com](https://powerbi.com)) aplikacje można łatwo znaleźć i zainstalować. Możesz wysłać swoim użytkownikom biznesowym bezpośredni link do aplikacji lub mogą oni ją wyszukać w usłudze AppSource. Jeśli administrator usługi Power BI nada Ci odpowiednie uprawnienia, możesz automatycznie zainstalować aplikację na kontach usługi Power BI swoich współpracowników. Przeczytaj więcej na temat [publikowania aplikacji](consumer/end-user-create-apps.md). 
 
 Po zainstalowaniu aplikacji użytkownicy mogą wyświetlać ją w przeglądarce lub na urządzeniach przenośnych.
 
@@ -88,7 +88,7 @@ Więcej informacji o [dodawaniu adnotacji i udostępnianiu kafelków, raportów 
 Możesz również [udostępnić migawkę kafelka](consumer/mobile/mobile-windows-10-phone-app-get-started.md) z aplikacji mobilnej usługi Power BI dla urządzeń z systemem Windows 10.
 
 ## <a name="print-or-save-as-pdf-or-other-static-file"></a>Drukowanie i zapisywanie w formacie PDF lub w innym formacie pliku statycznego
-Z poziomu usługi Power BI możesz wydrukować lub zapisać w formacie PDF (lub w innym formacie pliku statycznego) cały pulpit nawigacyjny, kafelek pulpitu nawigacyjnego, stronę raportu lub wizualizację. Raporty można drukować tylko po jednej stronie naraz — nie można wydrukować od razu całego raportu. Więcej informacji o [drukowaniu lub zapisywaniu w formacie pliku statycznego](service-print.md).
+Z poziomu usługi Power BI możesz wydrukować lub zapisać w formacie PDF (lub w innym formacie pliku statycznego) cały pulpit nawigacyjny, kafelek pulpitu nawigacyjnego, stronę raportu lub wizualizację. Raporty można drukować tylko po jednej stronie naraz — nie można wydrukować od razu całego raportu. Więcej informacji o [drukowaniu lub zapisywaniu w formacie pliku statycznego](consumer/end-user-print.md).
 
 ## <a name="publish-to-the-web"></a>Publikowanie w Internecie
 
@@ -99,7 +99,7 @@ Raporty usługi Power BI można publikować dla wszystkich użytkowników Intern
 
 ## <a name="next-steps"></a>Następne kroki
 * [Udostępnianie pulpitów nawigacyjnych współpracownikom i innym osobom](service-share-dashboards.md)
-* [Tworzenie i publikowanie aplikacji w usłudze Power BI](service-create-distribute-apps.md)
+* [Tworzenie i publikowanie aplikacji w usłudze Power BI](consumer/end-user-create-apps.md)
 * Chcesz przesłać opinię? Jeśli masz sugestie, przejdź do [witryny społeczności usługi Power BI](https://community.powerbi.com/).
 * Masz więcej pytań? [Odwiedź Społeczność usługi Power BI](http://community.powerbi.com/).
 

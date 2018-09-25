@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 327e9d9973aabb17761b55d355598462ce70e20e
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 580d1ead35042d14c155c5a28fdb6ba6e6dbcd54
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726060"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46544992"
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>Porady dotyczące projektowania doskonałych pulpitów nawigacyjnych usługi Power BI
 Gdy już udało Ci się utworzyć pulpit nawigacyjny i dodać kafelki, zadbaj o to, aby Twój projekt był nie tylko ładny, ale i funkcjonalny. Ogólnie rzecz biorąc, chodzi o wyróżnienie najważniejszych informacji, tak aby pulpit nawigacyjny nie wyglądał na przepełniony i pozostał przejrzysty.
@@ -65,7 +65,7 @@ Różnorodność wizualizacji nie jest najważniejsza.  Wizualizacje mają „pr
 * Nie używaj różnych poziomów dokładności i miar czasu. Zadbaj o to, aby przedziały czasu były zrozumiałe.  Wykresu z zeszłego miesiąca nie umieszczaj obok przefiltrowanych wykresów z jakiegoś innego miesiąca.
 * Na używaj jednej skali (np. na wykresie liniowym lub słupkowym) do przedstawienia zarówno dużych, jak i małych miar.  Na przykład jedna miara może być w milionach, a druga — w tysiącach.  Przy tak dużej skali trudno będzie dostrzec różnice miary przedstawionej w tysiącach.  Jeśli musisz używać różnych miar, wybierz wizualizację, która udostępnia drugą oś.
 * Nie zaśmiecaj wykresów niepotrzebnymi etykietami danych. Wykresy słupkowe są zwykle zrozumiałe bez wyświetlania liczb.
-* Pamiętaj o [sortowaniu wykresów](power-bi-report-change-sort.md).  Jeśli chcesz zwrócić uwagę na największą lub najmniejszą liczbę, posortuj według miary.  Jeśli chcesz, aby użytkownicy mogli szybko znaleźć określoną kategorię wśród wielu innych kategorii, posortuj według osi.  
+* Pamiętaj o [sortowaniu wykresów](consumer/end-user-change-sort.md).  Jeśli chcesz zwrócić uwagę na największą lub najmniejszą liczbę, posortuj według miary.  Jeśli chcesz, aby użytkownicy mogli szybko znaleźć określoną kategorię wśród wielu innych kategorii, posortuj według osi.  
 * Wykresy kołowe najlepiej sprawdzają się, gdy zawierają mniej niż osiem kategorii. Na wykresach kołowych nie można zestawić wartości obok siebie, dlatego trudniej jest je porównywać niż w przypadku wykresów słupkowych lub kolumnowych. Wykresy kołowe są dobre do wyświetlania relacji części do całości, a nie do porównywania wartości. Wykresy w postaci mierników są doskonałe do wyświetlania bieżącego stanu w kontekście celu.
 
 Aby uzyskać więcej wskazówek dotyczących wizualizacji, zobacz [Typy wizualizacji w usłudze Power BI](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md).  
@@ -81,5 +81,5 @@ Aby opanować sztukę doskonałego projektowania pulpitów nawigacyjnych, zapozn
 
 ## <a name="next-steps"></a>Następne kroki
 [Tworzenie pulpitu nawigacyjnego na podstawie raportu](service-dashboard-create.md)  
-[Power BI — podstawowe pojęcia](service-basic-concepts.md)  
+[Power BI — podstawowe pojęcia](consumer/end-user-basic-concepts.md)  
 Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)

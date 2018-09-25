@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 0762ee808c089b73c69be99a38bfad63c231bc54
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: c33e7dd69d4bd0a0d09ebc124739d5d017c631bc
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44737430"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46550034"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>Wprowadzenie do aplikacji mobilnej Power BI dla urządzeń z systemem Android
 Aplikacja systemu Android dla usługi Microsoft Power BI obejmuje mobilne środowisko usługi Power BI, serwera raportów usługi Power BI oraz usług Reporting Services. Możesz wyświetlać firmowe pulpity nawigacyjne i korzystać z nich lokalnie i w chmurze, niezależnie od tego, gdzie się znajdujesz, dzięki dostępowi mobilnemu na żywo, z obsługą dotykową. Przeglądaj dane w pulpitach nawigacyjnych i udostępniaj je współpracownikom w wiadomościach e-mail lub SMS. 
@@ -119,11 +119,11 @@ Dowiedz się więcej na temat [konfigurowania aplikacji mobilnych Power BI dla s
 Poniżej wymieniono inne możliwości korzystania z pulpitów nawigacyjnych i raportów usługi Power BI oraz raportów i wskaźników KPI serwera raportów usługi Power BI lub portalu internetowego usług Reporting Services w aplikacji usługi Power BI dla urządzenia z systemem Android.
 
 ### <a name="power-bi-dashboards-and-reports"></a>Pulpity nawigacyjne i raporty usługi Power BI
-* Wyświetlanie [aplikacji](../../service-install-use-apps.md).
+* Wyświetlanie [aplikacji](../end-user-apps.md).
 * Wyświetlanie [pulpitów nawigacyjnych](../../mobile-apps-view-dashboard.md).
 * Eksploruj [kafelki na swoich pulpitach nawigacyjnych](../../mobile-tiles-in-the-mobile-apps.md).
 * Otwórz [raporty usługi Power BI](../../mobile-reports-in-the-mobile-apps.md).
-* Wyświetlanie [aplikacji](../../service-install-use-apps.md).
+* Wyświetlanie [aplikacji](../end-user-apps.md).
 * [Dodawanie adnotacji i udostępnianie kafelków](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md).
 * Udostępnianie [pulpitów nawigacyjnych](../../mobile-share-dashboard-from-the-mobile-apps.md).
 * [Skanowanie kodu QR usługi Power BI](../../mobile-apps-qr-code.md) przy użyciu telefonu z systemem Android w celu otwarcia powiązanego kafelka pulpitu nawigacyjnego lub raportu. 

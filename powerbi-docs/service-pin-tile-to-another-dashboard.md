@@ -10,22 +10,22 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: ed882a339e1ee7d53302dc33a7cedb1a95709b8b
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 656f32dd28796ec58b7cfcf774248ee30de0085a
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34249119"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545904"
 ---
 # <a name="pin-a-tile-from-one-dashboard-to-another-dashboard"></a>Przypinanie kafelka z jednego pulpitu nawigacyjnego do innego
-Jednym sposobem dodania nowego [kafelka pulpitu nawigacyjnego](service-dashboard-tiles.md) jest skopiowanie go z innego pulpitu nawigacyjnego. Każdy z tych kafelków, po kliknięciu, jest linkiem z powrotem do miejsca, gdzie został utworzony — zarówno w funkcji pytań i odpowiedzi, jak i raporcie. 
+Jednym sposobem dodania nowego [kafelka pulpitu nawigacyjnego](consumer/end-user-tiles.md) jest skopiowanie go z innego pulpitu nawigacyjnego. Każdy z tych kafelków, po kliknięciu, jest linkiem z powrotem do miejsca, gdzie został utworzony — zarówno w funkcji pytań i odpowiedzi, jak i raporcie. 
 
 > [!NOTE]
 > Nie można przypiąć kafelka z udostępnionych pulpitów nawigacyjnych.
 
 ## <a name="pin-a-tile-to-another-dashboard"></a>Przypinanie kafelka do innego pulpitu nawigacyjnego
 1. [Pobierz dane](service-get-data.md). W tym przykładzie jest używany [IT Spend Analysis sample](sample-it-spend.md) (Przykład analizy wydatków IT).
-2. Otwórz [pulpit nawigacyjny](service-dashboards.md).
+2. Otwórz [pulpit nawigacyjny](consumer/end-user-dashboards.md).
 3. Ustaw kursor myszy na kafelku, który chcesz przypiąć, wybierz wielokropek (...), a następnie wybierz pozycję **Przypnij kafelek**.  
    
    ![menu wielokropka](media/service-pin-tile-to-another-dashboard/power-bi-pin-another-dash.png)
@@ -42,7 +42,7 @@ Jednym sposobem dodania nowego [kafelka pulpitu nawigacyjnego](service-dashboard
 6. Wybierz pozycję **Przejdź do pulpitu nawigacyjnego**, aby wyświetlić nowy kafelek. W tym miejscu możesz [zmienić nazwę, rozmiar, link i przenieść](service-dashboard-edit-tile.md) przypiętą wizualizację.
 
 ## <a name="next-steps"></a>Następne kroki
-[Kafelki w usłudze Power BI](service-dashboard-tiles.md)  
-[Pulpity nawigacyjne w usłudze Power BI](service-dashboards.md)  
+[Kafelki w usłudze Power BI](consumer/end-user-tiles.md)  
+[Pulpity nawigacyjne w usłudze Power BI](consumer/end-user-dashboards.md)  
 Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
 

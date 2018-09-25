@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 732f27a8272c780d156912da904bab82de03f326
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 68b14e6554c0c12590f555f6447198f1a850e9b1
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44737351"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46544008"
 ---
 # <a name="combo-chart-in-power-bi"></a>Wykres kombi w usłudze Power BI
 W usłudze Power BI wykres kombi to pojedyncza wizualizacja łącząca wykres liniowy i kolumnowy. Łączenie 2 wykresów w jednym umożliwia szybsze porównywanie danych.
@@ -103,13 +103,13 @@ W tym zadaniu porównamy marżę brutto i sprzedaż.
 
 W tym miejscu możesz chcieć:
 
-* [Dodać wykres kombi jako kafelek pulpitu nawigacyjnego](../service-dashboard-tiles.md).
+* [Dodać wykres kombi jako kafelek pulpitu nawigacyjnego](../consumer/end-user-tiles.md).
 * [Zapisz raport](../service-report-save.md).
 * [Zwiększanie dostępności raportu dla osób niepełnosprawnych](../desktop-accessibility.md)
 
 ## <a name="cross-highlighting-and-cross-filtering"></a>Wyróżnianie i filtrowanie krzyżowe
 
-Wyróżnienie kolumny lub linii na wykresie kombi powoduje wyróżnienie i filtrowanie krzyżowe innych wizualizacji na stronie raportu... i na odwrót. To zachowanie domyślne można zmienić za pomocą [interakcji wizualizacji](../service-reports-visual-interactions.md).
+Wyróżnienie kolumny lub linii na wykresie kombi powoduje wyróżnienie i filtrowanie krzyżowe innych wizualizacji na stronie raportu... i na odwrót. To zachowanie domyślne można zmienić za pomocą [interakcji wizualizacji](../consumer/end-user-interactions.md).
 
 ## <a name="next-steps"></a>Następne kroki
 
@@ -117,6 +117,6 @@ Wyróżnienie kolumny lub linii na wykresie kombi powoduje wyróżnienie i filtr
 
 [Typy wizualizacji w usłudze Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
-[Power BI — podstawowe pojęcia](../service-basic-concepts.md)
+[Power BI — podstawowe pojęcia](../consumer/end-user-basic-concepts.md)
 
 Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)

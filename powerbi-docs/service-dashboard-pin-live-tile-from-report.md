@@ -11,15 +11,15 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7703709361a6233b6d04d6fb2131ba41f109ca36
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 3466280a452c89539d288a3e7d0a123855604e7e
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34249875"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546377"
 ---
 # <a name="pin-an-entire-report-page-as-a-live-tile-to-a-power-bi-dashboard"></a>Przypinanie całej strony raportu do pulpitu nawigacyjnego usługi Power BI jako dynamicznego kafelka
-Innym sposobem dodania nowego [kafelka pulpitu nawigacyjnego](service-dashboard-tiles.md) jest przypięcie całej strony raportu. Jest to prosty sposób na jednoczesne przypięcie więcej niż jednej wizualizacji.  Ponadto po przypięciu całej strony kafelki są *dynamiczne*. Możesz wchodzić z nimi w interakcje bezpośrednio na pulpicie nawigacyjnym. Zmiany wprowadzone w dowolnej wizualizacji w edytorze raportów, takie jak dodanie filtru lub zmiana pól używanych na wykresie, również są odzwierciedlane na kafelku pulpitu nawigacyjnego.  
+Innym sposobem dodania nowego [kafelka pulpitu nawigacyjnego](consumer/end-user-tiles.md) jest przypięcie całej strony raportu. Jest to prosty sposób na jednoczesne przypięcie więcej niż jednej wizualizacji.  Ponadto po przypięciu całej strony kafelki są *dynamiczne*. Możesz wchodzić z nimi w interakcje bezpośrednio na pulpicie nawigacyjnym. Zmiany wprowadzone w dowolnej wizualizacji w edytorze raportów, takie jak dodanie filtru lub zmiana pól używanych na wykresie, również są odzwierciedlane na kafelku pulpitu nawigacyjnego.  
 
 Możliwość przypinania dynamicznych kafelków z raportów do pulpitów nawigacyjnych jest dostępna tylko w usłudze Power BI (app.powerbi.com).
 
@@ -53,7 +53,7 @@ Zobacz, jak Amanda przypina dynamiczną stronę raportu do pulpitu nawigacyjnego
     ![pulpity nawigacyjne z kafelkiem dynamicznym](media/service-dashboard-pin-live-tile-from-report/pbi-live-tile.png)
 
 ## <a name="next-steps"></a>Następne kroki
-[Pulpity nawigacyjne w usłudze Power BI](service-dashboards.md)
+[Pulpity nawigacyjne w usłudze Power BI](consumer/end-user-dashboards.md)
 
 Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
 

@@ -9,12 +9,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/09/2017
 ms.author: maggies
-ms.openlocfilehash: 8b7c46ad1e9ea9c4c79a8f5a1b48c73ab3336306
-ms.sourcegitcommit: 3a287ae4ab16d1e76caed651bd8ae1a1738831cd
+ms.openlocfilehash: 7253a340ce0852039a08d0ed17c488fc8fdbfa69
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 07/19/2018
-ms.locfileid: "39157574"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545927"
 ---
 # <a name="author-template-content-packs-in-power-bi"></a>Tworzenie szablonowych pakietów zawartości w usłudze Power BI
 Tworzenie szablonowego pakietu zawartości używa programu Power BI Desktop oraz witryny PowerBI.com. Dostępne są cztery składniki pakietu zawartości:
@@ -22,7 +22,7 @@ Tworzenie szablonowego pakietu zawartości używa programu Power BI Desktop oraz
 * Zapytania umożliwiają [łączenie](desktop-connect-to-data.md) z danymi i [przekształcanie](desktop-query-overview.md) ich, jak również definiowanie [parametrów](https://powerbi.microsoft.com/blog/deep-dive-into-query-parameters-and-power-bi-templates/)  
 * Model danych do tworzenia [relacji](desktop-create-and-manage-relationships.md), [miar](desktop-measures.md) i ulepszeń funkcji pytań i odpowiedzi  
 * [Strony](desktop-report-view.md) raportu obejmują wizualizacje i filtry zapewniające wgląd w dane  
-* [Pulpit nawigacyjny](service-dashboards.md) i [kafelki](service-dashboard-create.md) oferują przegląd uwzględnionych szczegółowych danych  
+* [Pulpit nawigacyjny](consumer/end-user-dashboards.md) i [kafelki](service-dashboard-create.md) oferują przegląd uwzględnionych szczegółowych danych  
 
 Możesz znać każdy element jako istniejące funkcje usługi Power BI. Podczas tworzenia pakietu zawartości istnieją dodatkowe kwestie, które należy wziąć pod uwagę dla każdego aspektu (zobacz poszczególne sekcje poniżej, aby uzyskać więcej szczegółowych informacji).
 

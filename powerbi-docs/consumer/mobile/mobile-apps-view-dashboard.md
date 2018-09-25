@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 9738660ced6b8dbe32e7308b86f671f21c8c312c
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 1b5f62e965a5a5df97a16c20f60043db534b8f77
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744490"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547596"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Wyświetlanie pulpitów nawigacyjnych i raportów w aplikacjach mobilnych usługi Power BI
 Dotyczy:
@@ -31,7 +31,7 @@ Pulpity nawigacyjne to portal zapewniający dostęp do operacji i procesów maj�
 Aby wyświetlić pulpity nawigacyjne i raporty na swoim urządzeniu przenośnym, musisz je utworzyć lub połączyć się z nimi w przeglądarce internetowej. 
 
 1. Przejdź do usługi Power BI ([https://www.powerbi.com](https://www.powerbi.com)) i [zarejestruj się w niej, aby utworzyć konto](../../service-self-service-signup-for-power-bi.md).
-2. [Utwórz własne raporty i pulpity nawigacyjne usługi Power BI](../../service-get-started.md) lub połącz się z istniejącymi [aplikacjami usługi Power BI](../../service-connect-to-services.md) dla różnych usług, takich jak [Microsoft Dynamics CRM](../../service-connect-to-microsoft-dynamics-crm.md) i [Adobe Analyics](../../service-connect-to-adobe-analytics.md).
+2. [Utwórz własne raporty i pulpity nawigacyjne usługi Power BI](../../service-get-started.md) lub połącz się z istniejącymi [aplikacjami usługi Power BI](../end-user-connect-to-services.md) dla różnych usług, takich jak [Microsoft Dynamics CRM](../../service-connect-to-microsoft-dynamics-crm.md) i [Adobe Analyics](../../service-connect-to-adobe-analytics.md).
 
 Oto pulpit nawigacyjny w usłudze Power BI:
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: d19e0a77f603ce6b80ce70ba5df4506699bd0969
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a3a78c27ab8d6e7c321af3f5ba4144e8b320e4a9
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34252145"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545733"
 ---
 # <a name="rename-almost-anything-in-power-bi-service"></a>Zmienianie nazwy prawie wszystkiego w usłudze Power BI
 Ten artykuł nauczy Cię, jak zmienić nazwę pulpitu nawigacyjnego, raportu, strony raportu, skoroszytu, zestawu danych, aplikacji i obszaru roboczego w usłudze Power BI.
@@ -71,7 +71,7 @@ Każdy użytkownik z uprawnieniami administratora może zmienić nazwę obszaru 
 ## <a name="rename-a-page-in-a-report"></a>Zmienianie nazwy strony w raporcie
 Nie podoba Ci się nazwa strony w twoim raporcie usługi Power BI?  Nowa nazwa jest w zasięgu ręki. Nazwy stron można zmieniać w [widoku edycji raportu ](service-interact-with-a-report-in-editing-view.md).
 
-1. Otwórz raport w [widoku do edycji](service-reading-view-and-editing-view.md).
+1. Otwórz raport w [widoku do edycji](consumer/end-user-reading-view.md).
 2. Znajdź karty stron raport u dołu okna usługi Power BI.
    
     ![raport z wyróżnionymi kartami](media/service-rename/report-page-tabs-new.png)

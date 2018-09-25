@@ -2,7 +2,7 @@
 title: Typy wizualizacji w usłudze Power BI
 description: Typy wizualizacji w usłudze Power BI
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/19/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 40106a9f219487a1fb52f353f3609f8f1d98bf4b
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: a12a497de5ee3e02ea6ba2b1e92fb6c50834d99c
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44737153"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46566055"
 ---
 # <a name="visualization-types-in-power-bi"></a>Typy wizualizacji w usłudze Power BI
 ## <a name="power-bi-visualizations"></a>Wizualizacje usługi Power BI
@@ -176,9 +176,9 @@ Podczas wpisywania zapytań w języku naturalnym w funkcji pytań i odpowiedzi u
 [Wizualizacje w raportach usługi Power BI](power-bi-report-visualizations.md)    
 [Odpowiednie odwołanie do wizualizacji z witryny sqlbi.com](http://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)
 
-[Raporty w usłudze Power BI](../service-reports.md)
+[Raporty w usłudze Power BI](../consumer/end-user-reports.md)
 
-[Power BI — podstawowe pojęcia](../service-basic-concepts.md)
+[Power BI — podstawowe pojęcia](../consumer/end-user-basic-concepts.md)
 
 Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
 

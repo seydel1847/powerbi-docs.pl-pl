@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 6abe55f41211e5af907fb0a2642b3f8420236e1b
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 54cb45d1e9649fa761cfaf67aab708a2707e7516
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39330494"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546759"
 ---
 # <a name="using-buttons-in-power-bi"></a>Korzystanie z przycisków w usłudze Power BI
 Przy użyciu **przycisków** w usłudze Power BI można tworzyć raporty i pulpity nawigacyjne, które zachowują się podobnie do aplikacji, i dzięki temu tworzyć angażujące środowisko użytkownika, w którym użytkownicy mogą najeżdżać kursorem, klikać i wchodzić w inne interakcje z zawartością usługi Power BI. Możesz dodać przyciski do raportów w programie **Power BI Desktop**, a następnie udostępnić lub opublikować te raporty w usłudze Power BI, aby utworzyć pulpity nawigacyjne, które będą zapewniać zachowanie podobne do aplikacji dla użytkowników.
@@ -75,6 +75,6 @@ Możesz wypróbować lub przetestować przyciski utworzone dla raportu przy uży
 Aby uzyskać więcej informacji o podobnych funkcjach lub interakcji z przyciskami, sprawdź następujące artykuły:
 
 * [Używanie przeglądania szczegółowego w programie Power BI Desktop](desktop-drillthrough.md)
-* [Wyświetlanie kafelka pulpitu nawigacyjnego lub wizualizacji raportu w trybie koncentracji uwagi](service-focus-mode.md)
+* [Wyświetlanie kafelka pulpitu nawigacyjnego lub wizualizacji raportu w trybie koncentracji uwagi](consumer/end-user-focus.md)
 * [Używanie zakładek w celu udostępniania szczegółowych informacji i tworzenia historii w usłudze Power BI](desktop-bookmarks.md)
 

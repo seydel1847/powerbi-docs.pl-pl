@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 83aacb2c3ecf95d8daecc8e9c79bd312cefd6d86
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: ddf08edf7494cd8b918a93d41b384b4e89376d95
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744423"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46543364"
 ---
 # <a name="basic-area-chart"></a>Podstawowy wykres warstwowy
 Podstawowy wykres warstwowy (zwany również wykresem warstwowym) jest oparty na wykresie liniowym. Obszar pomiędzy osią i linią jest wypełniony kolorami wskazującymi ilość. 
@@ -60,7 +60,7 @@ Aby móc wykonać te instrukcje, zaloguj się w usłudze Power BI, wybierz pozyc
 ## <a name="highlighting-and-cross-filtering"></a>Wyróżnianie i filtrowanie krzyżowe
 Aby uzyskać informacje o korzystaniu z okienka FILTRY, zobacz [Dodawanie filtru do raportu](../power-bi-report-add-filter.md).
 
-Aby wyróżnić jeden określony obszar swojego wykresu, zaznacz ten obszar lub jego górną krawędź.  W odróżnieniu od innych typów wizualizacji, jeśli na tej samej stronie istnieją inne wizualizacje, wyróżnienie podstawowego wykresu warstwowego nie powoduje filtrowania krzyżowego innych wizualizacji na stronie raportu. Jednak wykresy warstwowe są celem filtrowania krzyżowego wyzwalanego przez inne wizualizacje na stronie raportu. Aby dowiedzieć się więcej, zobacz [Interakcje wizualne w raportach](../service-reports-visual-interactions.md)
+Aby wyróżnić jeden określony obszar swojego wykresu, zaznacz ten obszar lub jego górną krawędź.  W odróżnieniu od innych typów wizualizacji, jeśli na tej samej stronie istnieją inne wizualizacje, wyróżnienie podstawowego wykresu warstwowego nie powoduje filtrowania krzyżowego innych wizualizacji na stronie raportu. Jednak wykresy warstwowe są celem filtrowania krzyżowego wyzwalanego przez inne wizualizacje na stronie raportu. Aby dowiedzieć się więcej, zobacz [Interakcje wizualne w raportach](../consumer/end-user-interactions.md)
 
 
 ## <a name="considerations-and-troubleshooting"></a>Istotne zagadnienia i rozwiązywanie problemów   
@@ -68,8 +68,8 @@ Aby wyróżnić jeden określony obszar swojego wykresu, zaznacz ten obszar lub 
 * Podstawowe wykresy warstwowe nie są efektywne w przypadku porównywania wartości ze względu na zamknięcia w obszarach warstwowych. Usługa Power BI używa przezroczystości, aby wskazywać obszary nachodzące na siebie. Jednak działa to dobrze tylko w przypadku dwóch lub trzech różnych obszarów. Jeśli chcesz porównać trend składający się z ponad trzech miar, spróbuj użyć wykresów liniowych. Jeśli chcesz porównać ilość wobec więcej niż trzech miar, spróbuj użyć mapy drzewa.
 
 ## <a name="next-steps"></a>Następne kroki
-[Raporty w usłudze Power BI](../service-reports.md)  
+[Raporty w usłudze Power BI](../consumer/end-user-reports.md)  
 [Wizualizacje w raportach usługi Power BI](power-bi-report-visualizations.md)  
-[Power BI — podstawowe pojęcia](../service-basic-concepts.md)  
+[Power BI — podstawowe pojęcia](../consumer/end-user-basic-concepts.md)  
 Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
 

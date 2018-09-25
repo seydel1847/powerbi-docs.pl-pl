@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/26/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: e5e257fd245687f2aeb83a9ee45c0342cf16392d
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: c8f99cf9c4d0645638b2ef300606f89a2d28aa0d
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34561706"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545973"
 ---
 # <a name="add-a-filter-to-a-power-bi-service-report-in-editing-view"></a>Dodawanie filtru do raportu usługi Power BI (w widoku do edycji)
 > [!TIP]
@@ -26,13 +26,13 @@ Przykłady przedstawione w tym artykule dotyczą usługi Power BI. Czynności wy
 > 
 
 ## <a name="what-is-the-difference-between-report-filters-in-editing-view-versus-reading-view"></a>Różnica między filtrami raportu w widoku do edycji i w widoku do czytania
-Istnieją dwa tryby interakcji z raportami: [Widok do czytania](service-reading-view-and-editing-view.md) i [Widok do edycji](service-interact-with-a-report-in-editing-view.md).  Dostępne możliwości filtrowania zależą od trybu, w którym pracujesz.
+Istnieją dwa tryby interakcji z raportami: [Widok do czytania](consumer/end-user-reading-view.md) i [Widok do edycji](service-interact-with-a-report-in-editing-view.md).  Dostępne możliwości filtrowania zależą od trybu, w którym pracujesz.
 
 * Widok do edycji umożliwia dodawanie filtrów raportu, strony i wizualizacji. Podczas zapisywania raportu filtry zostają zapisane razem z nim. Osoby wyświetlające raport w widoku do czytania mogą wchodzić w interakcje z filtrami, które zostały dodane.
 * Widok do czytania pozwala na wchodzenie w interakcje ze wszystkimi istniejącymi w raporcie filtrami wizualnymi, filtrami raportu, filtrami przeglądania szczegółowego i filtrami stron, ale nie jest możliwe dodawanie nowych filtrów. Jednak zmiany wprowadzone w okienku Filtry są zapisywane z raportem — nawet wtedy, gdy raport jest wyświetlany w aplikacji mobilnej, oraz nawet po zamknięciu raportu i późniejszym powrocie do niego.  
 
 > [!NOTE]
-> W tym artykule opisano sposób tworzenia filtrów w **widoku do edycji** raportu.  Aby uzyskać więcej informacji o filtrach w widoku do czytania, zobacz [Interakcja z filtrami w widoku do czytania raportu](service-reading-view-and-editing-view.md).
+> W tym artykule opisano sposób tworzenia filtrów w **widoku do edycji** raportu.  Aby uzyskać więcej informacji o filtrach w widoku do czytania, zobacz [Interakcja z filtrami w widoku do czytania raportu](consumer/end-user-reading-view.md).
 
 
 ## <a name="filters-available-in-the-power-bi-filters-pane"></a>Filtry dostępne w okienku *Filtry* usługi Power BI
@@ -58,7 +58,7 @@ Można to zrobić na dwa sposoby:
 * Zidentyfikowanie pola, które nie jest jeszcze używane przez wizualizację i dodanie tego pola bezpośrednio do zasobnika **Filtry na poziomie wizualizacji**.
 
 ### <a name="by-filtering-the-fields-already-in-the-visualization"></a>Filtrowanie pól znajdujących się już w wizualizacji
-1. Otwórz [raport w widoku do edycji](service-reading-view-and-editing-view.md).
+1. Otwórz [raport w widoku do edycji](consumer/end-user-reading-view.md).
    
    ![](media/power-bi-report-add-filter/power-bi-edit-view.png)
 2. Jeśli nie zostało to jeszcze zrobione, otwórz okienko Wizualizacje i filtry oraz okienko Pola.
@@ -72,7 +72,7 @@ Można to zrobić na dwa sposoby:
    * Przewiń w dół do obszaru **Filtry na poziomie wizualizacji** i wybierz strzałkę, aby rozwinąć pole, które chcesz filtrować. W tym przykładzie filtrowanym polem będzie **StoreNumberName**
      
       ![](media/power-bi-report-add-filter/power-bi-visual-level-filter.png) 
-   * Ustaw kontrolkę filtrowania **Podstawowe**, **Zaawansowane** lub **Pierwsze N** (zobacz [Jak używać filtrów raportu](power-bi-how-to-report-filter.md)). W tym przykładzie należy wybrać filtrowanie Podstawowe i umieścić znaczniki wyboru obok liczb 10, 11, 15 i 18.
+   * Ustaw kontrolkę filtrowania **Podstawowe**, **Zaawansowane** lub **Pierwsze N** (zobacz [Jak używać filtrów raportu](consumer/end-user-report-filter.md)). W tym przykładzie należy wybrać filtrowanie Podstawowe i umieścić znaczniki wyboru obok liczb 10, 11, 15 i 18.
      
       ![](media/power-bi-report-add-filter/power-bi-basic-filters.png) 
    * Wizualizacja zmieni się w celu odzwierciedlenia nowego filtru. Jeśli zapiszesz raport razem z filtrem, czytelnicy raportu mogą wchodzić w interakcję z filtrem w widoku do czytania, zaznaczając lub usuwając wartości.
@@ -91,10 +91,10 @@ Można to zrobić na dwa sposoby:
      ![](media/power-bi-report-add-filter/power-bi-filtered-andrew.png)
 
 ## <a name="add-a-filter-to-an-entire-page-aka-page-view-filter"></a>Dodawanie filtru do całej strony (filtr widoku strony)
-1. Otwórz [raport w widoku do edycji](service-reading-view-and-editing-view.md).
+1. Otwórz [raport w widoku do edycji](consumer/end-user-reading-view.md).
 2. Jeśli nie zostało to jeszcze zrobione, otwórz okienko Wizualizacje i filtry oraz okienko Pola.
 3. W okienku Pola wybierz pole, które chcesz dodać jako nowy filtr na poziomie strony i przeciągnij go do obszaru **Filtry na poziomie strony**.  
-4. Wybierz wartości, które chcesz filtrować i ustaw kontrolkę filtrowania **Podstawowe** lub **Zaawansowane** (zobacz [Jak używać filtrów raportu](power-bi-how-to-report-filter.md)).
+4. Wybierz wartości, które chcesz filtrować i ustaw kontrolkę filtrowania **Podstawowe** lub **Zaawansowane** (zobacz [Jak używać filtrów raportu](consumer/end-user-report-filter.md)).
    
    Wszystkie wizualizacje na stronie, na które ma wpływ ten filtr, są ponownie rysowane w celu odzwierciedlenia zmiany. 
    
@@ -130,10 +130,10 @@ Zobaczmy, jak działa filtr przeglądania szczegółowego.
     ![](media/power-bi-report-add-filter/power-bi-drillthrough-executive.png)
 
 ## <a name="add-a-filter-to-an-entire-report-aka-report-filter"></a>Dodawanie filtru do całego raportu (filtr raportu)
-1. Otwórz [raport w widoku do edycji](service-reading-view-and-editing-view.md).
+1. Otwórz [raport w widoku do edycji](consumer/end-user-reading-view.md).
 2. Jeśli nie zostało to jeszcze zrobione, otwórz okienko Wizualizacje i filtry oraz okienko Pola.
 3. W okienku Pola wybierz pole, które chcesz dodać jako nowy filtr na poziomie raportu i przeciągnij go do obszaru **Filtry na poziomie raportu**.  
-4. Wybierz wartości, które chcesz filtrować (zobacz [Jak używać filtrów raportu](power-bi-how-to-report-filter.md)).
+4. Wybierz wartości, które chcesz filtrować (zobacz [Jak używać filtrów raportu](consumer/end-user-report-filter.md)).
 
     Wizualizacja na aktywnej stronie, oraz na wszystkich stronach raportu, zmieni się w celu odzwierciedlenia nowego filtru. Jeśli zapiszesz raport razem z filtrem, czytelnicy raportu mogą wchodzić w interakcję z filtrem w widoku do czytania, zaznaczając lub usuwając wartości.
 
@@ -149,13 +149,13 @@ Zobaczmy, jak działa filtr przeglądania szczegółowego.
 - Jeśli wprowadzono wiele zmian filtrów i chcesz przywrócić domyślne ustawienia autora raportu, wybierz pozycję **Przywróć domyślne** z górnego paska menu.
 
 ## <a name="next-steps"></a>Następne kroki
- [Jak używać filtrów raportu](power-bi-how-to-report-filter.md)
+ [Jak używać filtrów raportu](consumer/end-user-report-filter.md)
 
   [Filtry i wyróżnianie w raportach](power-bi-reports-filters-and-highlighting.md)
 
-[Interakcja z filtrami i wyróżnianie w widoku do czytania raportu](service-reading-view-and-editing-view.md)
+[Interakcja z filtrami i wyróżnianie w widoku do czytania raportu](consumer/end-user-reading-view.md)
 
-[Zmiana sposobu wzajemnego filtrowania i wyróżniania krzyżowego wizualizacji raportu](service-reports-visual-interactions.md)
+[Zmiana sposobu wzajemnego filtrowania i wyróżniania krzyżowego wizualizacji raportu](consumer/end-user-interactions.md)
 
 Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
 

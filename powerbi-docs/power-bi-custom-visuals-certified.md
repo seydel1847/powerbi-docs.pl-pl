@@ -10,16 +10,16 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/13/2018
 ms.author: mihart
-ms.openlocfilehash: 4676b31a117573d1d69b5947ec2380c4abf29405
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 45bd00877aadba2a84ac533add18b82337fa8403
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726874"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546262"
 ---
 # <a name="getting-a-custom-visual-certified"></a>*Certyfikowanie* wizualizacji niestandardowej
 ## <a name="what-is-meant-by-certified"></a>Co oznacza *certyfikowanie*?
-*Certyfikowana wizualizacja niestandardowa* to wizualizacja, która spełnia zestaw określonych wymagań dotyczących kodu i przeszła restrykcyjne testy bezpieczeństwa.  Zarejestrowane wizualizacje niestandardowe mogą zostać [wyeksportowane do programu PowerPoint](service-publish-to-powerpoint.md) i będą wyświetlane w wiadomościach e-mail, jeśli użytkownik [subskrybuje strony raportu](service-report-subscribe.md). Oczywiście można tego użyć również jak [standardowych własnych wizualizacji](power-bi-custom-visuals.md) dodanych do raportów usługi Power BI i programu Power BI Desktop oraz wyświetlanych w usłudze mobilnej Power BI i osadzonych.
+*Certyfikowana wizualizacja niestandardowa* to wizualizacja, która spełnia zestaw określonych wymagań dotyczących kodu i przeszła restrykcyjne testy bezpieczeństwa.  Zarejestrowane wizualizacje niestandardowe mogą zostać [wyeksportowane do programu PowerPoint](consumer/end-user-powerpoint.md) i będą wyświetlane w wiadomościach e-mail, jeśli użytkownik [subskrybuje strony raportu](consumer/end-user-subscribe.md). Oczywiście można tego użyć również jak [standardowych własnych wizualizacji](power-bi-custom-visuals.md) dodanych do raportów usługi Power BI i programu Power BI Desktop oraz wyświetlanych w usłudze mobilnej Power BI i osadzonych.
 
 Jesteś deweloperem internetowym i chcesz utworzyć własne wizualizacje oraz dodać je do witryny [Microsoft AppSource](https://appsource.microsoft.com)? Aby uzyskać pomocne informacje, zobacz [Wprowadzenie do korzystania z narzędzi deweloperskich](service-custom-visuals-getting-started-with-developer-tools.md).
 

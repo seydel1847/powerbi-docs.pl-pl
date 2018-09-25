@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mblythe
 LocalizationGroup: Get started
-ms.openlocfilehash: 1f6c899932390bc4f9818fdcbb499848ca88a8d5
-ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
+ms.openlocfilehash: d499f3f3635442f8d9ed0fbf167e53d13ec0ae53
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "45558521"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549988"
 ---
 # <a name="signing-up-for-power-bi-as-an-individual"></a>Rejestrowanie się w usłudze Power BI jako użytkownik indywidualny
 Dowiedz się, jak utworzyć konto usługi Power BI i zacząć z niego korzystać na potrzeby osobistych raportów i wizualizacji.
@@ -99,7 +99,7 @@ Zostanie wtedy wyświetlony komunikat z prośbą o wybranie pozycji **Rozpoczęc
 ## <a name="in-service-power-bi-pro-60-day-trial"></a>60-dniowa wersja próbna usługi Power BI Pro wewnątrz usługi
 Po zarejestrowaniu się i utworzeniu bezpłatnego konta możesz opcjonalnie wypróbować wersję Pro usługi bezpłatnie przez 60 dni. Podczas okresu próbnego będziesz mieć dostęp do wszystkich funkcji usługi Power BI Pro. Usługa Power BI Pro oferuje wszystkie funkcje bezpłatnej wersji usługi Power BI oraz dodatkowe funkcje udostępniania i współpracy. Aby uzyskać więcej informacji, zobacz [Cennik usługi Power BI](https://powerbi.microsoft.com/pricing). Aby wypróbować 60-dniową bezpłatną wersję próbną usługi Power BI Pro, zaloguj się do usługi Power BI i wypróbuj jedną z następujących funkcji usługi Power BI Pro:
 
-* [Tworzenie obszaru roboczego aplikacji](service-create-distribute-apps.md)
+* [Tworzenie obszaru roboczego aplikacji](consumer/end-user-create-apps.md)
 * [Udostępnianie pulpitu nawigacyjnego](service-share-dashboards.md)
 
 Kiedy zaczniesz korzystać z dowolnej z tych funkcji, zostanie wyświetlony monit o rozpoczęcie bezpłatnego okresu próbnego. Możesz również rozpocząć okres próbny, przechodząc do ikony koła zębatego i wybierając pozycję **Zarządzaj magazynem osobistym**. Następnie wybierz pozycję **Wypróbuj bezpłatnie wersję Pro** po prawej stronie.

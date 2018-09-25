@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 51c3fdbef345a0d6020abe35ba7c71aaa67882e4
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: c64a5e487725bdfedf03b496322a52e7664f5455
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726851"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545094"
 ---
 # <a name="tutorial-get-started-with-power-bi-service-apppowerbicom"></a>Samouczek: wprowadzenie do usługi Power BI (app.powerbi.com)
 Ten samouczek ułatwia rozpoczęcie pracy z ***usługą Power BI***. Jeśli chcesz dowiedzieć się, jakie miejsce zajmuje usługa Power BI w ofercie innych produktów Power BI, zdecydowanie zalecamy zapoznanie się z tematem [Co to jest Power BI](power-bi-overview.md).
@@ -53,9 +53,9 @@ Zapoznaj się z naszą [listą odtwarzania w serwisie YouTube](https://www.youtu
 > 
 
 ## <a name="what-is-power-bi-service"></a>Co to jest usługa Power BI?
-Usługa Microsoft Power BI jest czasami nazywana usługą Power BI w trybie online lub app.powerbi.com. Usługa Power BI pomaga na bieżąco śledzić ważne informacje.  ***Pulpity nawigacyjne*** usługi Power BI umożliwiają monitorowanie najważniejszych aspektów działalności biznesowej.  Pulpity nawigacyjne zawierają ***kafelki***, które można kliknąć, aby otworzyć ***raporty*** umożliwiające uzyskiwanie dodatkowych informacji.  Połączenie z wieloma ***zestawami danych*** pozwala wyświetlać wszystkie istotne dane w jednym miejscu. Potrzebujesz pomocy dotyczącej bloków konstrukcyjnych tworzących usługę Power BI?  Zobacz [Power BI — podstawowe pojęcia](service-basic-concepts.md).
+Usługa Microsoft Power BI jest czasami nazywana usługą Power BI w trybie online lub app.powerbi.com. Usługa Power BI pomaga na bieżąco śledzić ważne informacje.  ***Pulpity nawigacyjne*** usługi Power BI umożliwiają monitorowanie najważniejszych aspektów działalności biznesowej.  Pulpity nawigacyjne zawierają ***kafelki***, które można kliknąć, aby otworzyć ***raporty*** umożliwiające uzyskiwanie dodatkowych informacji.  Połączenie z wieloma ***zestawami danych*** pozwala wyświetlać wszystkie istotne dane w jednym miejscu. Potrzebujesz pomocy dotyczącej bloków konstrukcyjnych tworzących usługę Power BI?  Zobacz [Power BI — podstawowe pojęcia](consumer/end-user-basic-concepts.md).
 
-Jeśli przechowujesz ważne dane w plikach programu Excel lub plikach CSV, możesz utworzyć pulpit nawigacyjny usługi Power BI, aby mieć dostęp do informacji w dowolnym miejscu i dzielić się spostrzeżeniami z innymi osobami.  Czy masz subskrypcję aplikacji SaaS, takiej jak Salesforce?  Od razu połącz się z usługą Salesforce, aby automatycznie utworzyć pulpit nawigacyjny z tych danych, lub [zapoznaj się z innymi aplikacjami SaaS](service-get-data.md), z którymi możesz nawiązać połączenie. Jeśli należysz do organizacji, sprawdź, czy możesz korzystać z opublikowanych [aplikacji](service-create-distribute-apps.md).
+Jeśli przechowujesz ważne dane w plikach programu Excel lub plikach CSV, możesz utworzyć pulpit nawigacyjny usługi Power BI, aby mieć dostęp do informacji w dowolnym miejscu i dzielić się spostrzeżeniami z innymi osobami.  Czy masz subskrypcję aplikacji SaaS, takiej jak Salesforce?  Od razu połącz się z usługą Salesforce, aby automatycznie utworzyć pulpit nawigacyjny z tych danych, lub [zapoznaj się z innymi aplikacjami SaaS](service-get-data.md), z którymi możesz nawiązać połączenie. Jeśli należysz do organizacji, sprawdź, czy możesz korzystać z opublikowanych [aplikacji](consumer/end-user-create-apps.md).
 
 Zapoznaj się z wszystkimi innymi sposobami [pobierania danych dla usługi Power BI](service-get-data.md).
 
@@ -87,7 +87,7 @@ Oto przykład przedstawiający pobieranie danych z pliku CSV. Chcesz kontynuowa�
 
     ![opcja Widok do czytania](media/service-get-started/power-bi-editing-view.png)
 
-    W widoku do edycji możesz tworzyć i modyfikować raporty, ponieważ jesteś *właścicielem* raportu — jesteś *twórcą*. Po udostępnieniu raportu współpracownikom będą oni mogli wchodzić z nim w interakcje jedynie w widoku do czytania — są to *użytkownicy*. Dowiedz się więcej na temat [widoku do czytania oraz widoku do edycji](service-reading-view-and-editing-view.md).
+    W widoku do edycji możesz tworzyć i modyfikować raporty, ponieważ jesteś *właścicielem* raportu — jesteś *twórcą*. Po udostępnieniu raportu współpracownikom będą oni mogli wchodzić z nim w interakcje jedynie w widoku do czytania — są to *użytkownicy*. Dowiedz się więcej na temat [widoku do czytania oraz widoku do edycji](consumer/end-user-reading-view.md).
     
     Doskonałym sposobem na zapoznanie się z edytorem raportów jest skorzystanie z tego [krótkiego przewodnika](service-the-report-editor-take-a-tour.md).
    > 
@@ -158,5 +158,5 @@ Teraz, po zakończeniu tego samouczka, możesz usunąć zestaw danych, raport i 
 Chcesz szybko skorzystać z innych samouczków?  Poniżej przedstawiono kilka przydatnych tematów, które pozwalają zapoznać się z usługą Power BI.
 
 > [!div class="nextstepaction"]
-> [Łączenie się z używanymi usługami online](./service-connect-to-services.md)
+> [Łączenie się z używanymi usługami online](consumer/end-user-connect-to-services.md)
 

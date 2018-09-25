@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a0216b5659548af0b69cdb1b94df887eec0bd4e0
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 83826e812f9173db522c929ae80c31fc7134e5bd
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744459"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549850"
 ---
 # <a name="filled-maps-choropleths-in-power-bi"></a>Kartogramy w usłudze Power BI
 Kartogram używa cieniowania lub barwienia, lub wzorców do wyświetlania, jak wartość różni się w części lokalizacji geograficznej lub regionu.  Szybko wyświetlaj te względne różnice za pomocą cieniowania tych zakresów od jasnych (rzadsze/mniejsze) do ciemnych (częstsze/większe).    
@@ -109,7 +109,7 @@ Jeśli nie masz dostępu do danych współrzędnych geograficznych, [wykonaj te 
 Aby uzyskać pomoc na temat wizualizacji map, zobacz [Porady i wskazówki dotyczące wizualizacji map](power-bi-map-tips-and-tricks.md).
 
 ## <a name="next-steps"></a>Następne kroki
-[Dodawanie kartogramu jako kafelka pulpitu nawigacyjnego (przypinanie elementu wizualnego)](../service-dashboard-tiles.md)    
+[Dodawanie kartogramu jako kafelka pulpitu nawigacyjnego (przypinanie elementu wizualnego)](../consumer/end-user-tiles.md)    
  [Dodawanie wizualizacji do raportu](power-bi-report-add-visualizations-i.md)  
  [Typy wizualizacji w usłudze Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)    
  [Zmienianie typu używanej wizualizacji](power-bi-report-change-visualization-type.md)      

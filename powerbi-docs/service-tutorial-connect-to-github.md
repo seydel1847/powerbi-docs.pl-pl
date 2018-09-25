@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 05/17/2018
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 1c2579f4250914933fd0459668fb55e4ba339f90
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: b9fff17d51756da4561823886ed80beeec830843
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34310112"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548116"
 ---
 # <a name="tutorial-connect-to-a-github-sample-with-power-bi"></a>Samouczek: łączenie z przykładem z serwisu GitHub za pomocą usługi Power BI
 W tym samouczku nawiążemy połączenie z danymi w usłudze GitHub przy użyciu usługi Power BI, która automatycznie utworzy pulpity nawigacyjne i raporty. Po połączeniu się z publicznym repozytorium zawartości usługi Power BI (ang. *repo* — repozytorium) możemy uzyskać następujące informacje. Ile osób współtworzy publiczną zawartość w usłudze Power BI? Kto jest najbardziej aktywnym współautorem? W jaki dzień tygodnia jest przesyłanych najwięcej materiałów? Na te pytania znajdziemy odpowiedzi. 
@@ -125,6 +125,6 @@ Po zakończeniu pracy z tym samouczkiem możesz usunąć aplikację GitHub.
 W tym samouczku połączyliśmy się z publicznym repozytorium GitHub i pobraliśmy dane, które zostały sformatowane na pulpicie nawigacyjnym i w raporcie usługi Power BI. Dzięki informacjom widocznym na pulpicie nawigacyjnym i w raporcie udało się znaleźć odpowiedzi na pytania. Teraz możesz dowiedzieć się więcej na temat nawiązywania połączenia z innymi usługami, takimi jak Salesforce, Microsoft Dynamics i Google Analytics. 
  
 > [!div class="nextstepaction"]
-> [Łączenie się z używanymi usługami online](./service-connect-to-services.md)
+> [Łączenie się z używanymi usługami online](consumer/end-user-connect-to-services.md)
 
 

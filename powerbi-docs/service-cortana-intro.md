@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/13/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 5d11fd66e8b0aff15648aba6d3e397cd7fdb9bb3
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: a0692d74f42b48bc68d670ad2e6c6a33dca0729d
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 07/04/2018
-ms.locfileid: "34251649"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46550103"
 ---
 # <a name="quickly-find-and-view-your-power-bi-data-using-cortana-for-power-bi"></a>Szybko znajduj i wyświetlaj dane usługi Power BI za pomocą Cortany dla usługi Power BI
 Cortana zapewnia błyskawiczne odpowiedzi na ważne pytania biznesowe na wszystkich Twoich urządzeniach z systemem Windows 10. Dzięki integracji z usługą Power BI Cortana może pobierać kluczowe informacje bezpośrednio z pulpitów nawigacyjnych i raportów usługi Power BI. Potrzebny jest tylko system Windows 10 w wersji z listopada 2015 r. lub nowszej, Cortana, usługa Power BI i dostęp do co najmniej jednego zestawu danych.
@@ -67,7 +67,7 @@ Jeśli pulpit nawigacyjny ma tytuł zawierający więcej niż jeden wyraz, Corta
 ### <a name="cortana-and-reports"></a>Cortana i raporty
  Cortana może znajdować odpowiedzi w raportach, które mają [strony zaprojektowane specjalnie z myślą o wyświetlaniu przez Cortanę](service-cortana-answer-cards.md). Wystarczy zadać pytanie zawierające tytuł lub słowa kluczowe z jednej z tych specjalnych stron raportu.  
 
-Podstawową używaną technologią dla raportów jest funkcja [pytań i odpowiedzi usługi Microsoft Power BI](power-bi-q-and-a.md).
+Podstawową używaną technologią dla raportów jest funkcja [pytań i odpowiedzi usługi Microsoft Power BI](consumer/end-user-q-and-a.md).
 
 Po zadaniu pytania w Cortanie usługa Power BI udziela odpowiedzi, korzystając ze stron raportu zaprojektowanych specjalnie z myślą o Cortanie. Potencjalne odpowiedzi są określane przez Cortanę na bieżąco bezpośrednio z *kart odpowiedzi* Cortany, które zostały już utworzone w usłudze Power BI.  Aby dokładniej zbadać odpowiedź, wystarczy otworzyć wynik w usłudze Power BI.
 

@@ -9,15 +9,15 @@ ms.topic: conceptual
 ms.date: 01/17/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 320bcd80a6a258879568d323afdae60daacfee6c
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 2c90db1c08ba1d172acc4d0e82d23409d835879a
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44727952"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46543595"
 ---
 # <a name="tutorial-how-to-use-qa-to-create-visualizations-and-build-reports"></a>Samouczek: używanie funkcji pytań i odpowiedzi do tworzenia wizualizacji i konstruowania raportów
-[Omówienie funkcji pytań i odpowiedzi](power-bi-q-and-a.md) zapewniło wprowadzenie do funkcji pytań i odpowiedzi usługi Power BI oraz przedstawiło rozróżnienie między *użytkownikami* (osobami, którym udostępniono pulpity nawigacyjne i raporty) a *twórcami* (właścicielami podstawowych raportów i zestawów danych). Pierwsza część tego samouczka jest przeznaczona głównie dla osób korzystających z pulpitów nawigacyjnych przy użyciu usługi Power BI. Natomiast druga część jest przeznaczona dla osób tworzących raporty za pomocą usługi Power BI albo programu Power BI Desktop. Tematy [Funkcja pytań i odpowiedzi a usługa Power BI dla urządzeń przenośnych](consumer/mobile/mobile-apps-ios-qna.md) i [Funkcja pytań i odpowiedzi w usłudze Power BI Embedded](developer/qanda.md) zostały opisane w oddzielnych artykułach.
+[Omówienie funkcji pytań i odpowiedzi](consumer/end-user-q-and-a.md) zapewniło wprowadzenie do funkcji pytań i odpowiedzi usługi Power BI oraz przedstawiło rozróżnienie między *użytkownikami* (osobami, którym udostępniono pulpity nawigacyjne i raporty) a *twórcami* (właścicielami podstawowych raportów i zestawów danych). Pierwsza część tego samouczka jest przeznaczona głównie dla osób korzystających z pulpitów nawigacyjnych przy użyciu usługi Power BI. Natomiast druga część jest przeznaczona dla osób tworzących raporty za pomocą usługi Power BI albo programu Power BI Desktop. Tematy [Funkcja pytań i odpowiedzi a usługa Power BI dla urządzeń przenośnych](consumer/mobile/mobile-apps-ios-qna.md) i [Funkcja pytań i odpowiedzi w usłudze Power BI Embedded](developer/qanda.md) zostały opisane w oddzielnych artykułach.
 
 Funkcja pytań i odpowiedzi jest interaktywna i nawet przyjemna, a często jedno pytanie będzie prowadziło do wielu innych, ponieważ wizualizacje ujawniają ciekawe ścieżki do tropienia. Zobacz, jak Amanda demonstruje używanie funkcji pytań i odpowiedzi do tworzenia wizualizacji, zagłębiania się w nie i przypinania ich do pulpitów nawigacyjnych.
 
@@ -64,7 +64,7 @@ Za pomocą funkcji pytań i odpowiedzi możesz zbadać zestaw danych i dodać wi
 
 ![](media/power-bi-tutorial-q-and-a/power-bi-view-related.png)
 
-Aby można było używać funkcji pytań i odpowiedzi w raportach, musisz mieć uprawnienia do edycji raportu i podstawowego zestawu danych. W [temacie Omówienie funkcji Pytania i odpowiedzi](power-bi-q-and-a.md) nazywaliśmy taki scenariusz scenariuszem *twórcy*. Dlatego jeśli jesteś *użytkownikiem* raportu, który został Ci udostępniony, funkcja pytań i odpowiedzi nie będzie dostępna.
+Aby można było używać funkcji pytań i odpowiedzi w raportach, musisz mieć uprawnienia do edycji raportu i podstawowego zestawu danych. W [temacie Omówienie funkcji Pytania i odpowiedzi](consumer/end-user-q-and-a.md) nazywaliśmy taki scenariusz scenariuszem *twórcy*. Dlatego jeśli jesteś *użytkownikiem* raportu, który został Ci udostępniony, funkcja pytań i odpowiedzi nie będzie dostępna.
 
 1. Otwórz raport w widoku do edycji (usługa Power BI) lub w widoku raportu (program Power BI Desktop) i na pasku menu wybierz pozycję **Zadaj pytanie**.
 
@@ -98,14 +98,14 @@ Aby można było używać funkcji pytań i odpowiedzi w raportach, musisz mieć 
 Za pomocą funkcji pytań i odpowiedzi nie tylko możesz zadawać pytania tak, aby dane same przemówiły, możesz też wskazać usłudze Power BI sposób wyświetlenia odpowiedzi. Po prostu dodaj „jako <visualization type>„ na końcu pytania.  Na przykład „Pokaż spis magazynu według roślin jako mapę” i „pokaż cały spis jako kartę”.  Wypróbuj to samodzielnie.
 
 ##  <a name="considerations-and-troubleshooting"></a>Istotne zagadnienia i rozwiązywanie problemów
-- Jeśli połączenie z zestawem danych jest realizowane za pomocą połączenia na żywo lub bramy, funkcja pytań i odpowiedzi musi być [włączona dla tego zestawu danych](service-q-and-a-direct-query.md).
+- Jeśli połączenie z zestawem danych jest realizowane za pomocą połączenia na żywo lub bramy, funkcja pytań i odpowiedzi musi być [włączona dla tego zestawu danych](consumer/end-user-q-and-a-direct-query.md).
 
 - Raport został otwarty, a opcja pytań i odpowiedzi nie jest widoczna. Jeśli używasz usługi Power BI, upewnij się, że raport jest otwarty w widoku do edycji. Jeśli nie możesz otworzyć widoku do edycji, oznacza to, że nie masz uprawnień do edytowania tego raportu i nie będzie można używać funkcji pytań i odpowiedzi dla tego raportu.
 
 ## <a name="next-steps"></a>Następne kroki
-Powrót do [pytań i odpowiedzi w usłudze Power BI](power-bi-q-and-a.md)   
+Powrót do [pytań i odpowiedzi w usłudze Power BI](consumer/end-user-q-and-a.md)   
 [Samouczek: używanie funkcji pytań i odpowiedzi z przykładem Retail Sales](power-bi-visualization-introduction-to-q-and-a.md)   
-[Porady dotyczące zadawania pytań w funkcji pytań i odpowiedzi](service-q-and-a-tips.md)   
+[Porady dotyczące zadawania pytań w funkcji pytań i odpowiedzi](consumer/end-user-q-and-a-tips.md)   
 [Przygotowanie skoroszytu dla funkcji pytań i odpowiedzi](service-prepare-data-for-q-and-a.md)  
-[Przygotowywanie lokalnego zestawu danych dla funkcji pytań i odpowiedzi](service-q-and-a-direct-query.md)
+[Przygotowywanie lokalnego zestawu danych dla funkcji pytań i odpowiedzi](consumer/end-user-q-and-a-direct-query.md)
 [Przypinanie kafelka do pulpitu nawigacyjnego z funkcji pytań i odpowiedzi](service-dashboard-pin-tile-from-q-and-a.md)

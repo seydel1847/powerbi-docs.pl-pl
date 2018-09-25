@@ -11,25 +11,25 @@ ms.topic: conceptual
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 78d9004a718990cbcd310835e8e9b8ae5e3eae17
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 3c6ae5351908bd71888040c3bc900323837935c2
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726644"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546078"
 ---
 # <a name="the-report-editortake-a-tour"></a>Edytor raportu: krótki przewodnik
 ## <a name="editing-reports-in-power-bi-service-and-power-bi-desktop"></a>Edytowanie raportów w usłudze Power BI i programie Power BI Desktop
 Edytor raportu w usłudze Power BI i edytor raportu w programie Power BI Desktop są bardzo podobne. Film pokazuje edytor raportu w programie Power BI Desktop, a ten artykuł przedstawia edytor raportu w usłudze Power BI. 
 
 ## <a name="the-difference-between-report-creators-and-report-consumers"></a>Różnica między *twórcami* a *użytkownikami* raportów
-Możliwość tworzenia i edytowania raportu jest ograniczona do właścicieli raportów (określanych mianem *twórców*). Jeśli *używasz* raportu, który został Ci udostępniony, nadal możesz otwierać i interakcyjnie korzystać z raportu w usłudze Power BI w tylko w [widoku do czytania](service-reading-view-and-editing-view.md), ale nie masz dostępu do wszystkich niezawodnych i zaawansowanych funkcji zarezerwowanych dla twórcy raportu.  
+Możliwość tworzenia i edytowania raportu jest ograniczona do właścicieli raportów (określanych mianem *twórców*). Jeśli *używasz* raportu, który został Ci udostępniony, nadal możesz otwierać i interakcyjnie korzystać z raportu w usłudze Power BI w tylko w [widoku do czytania](consumer/end-user-reading-view.md), ale nie masz dostępu do wszystkich niezawodnych i zaawansowanych funkcji zarezerwowanych dla twórcy raportu.  
 
-Aby dowiedzieć się więcej na temat widoku do czytania raportu, zobacz temat [Widok do czytania i widok do edycji w usłudze Power BI](service-reading-view-and-editing-view.md) 
+Aby dowiedzieć się więcej na temat widoku do czytania raportu, zobacz temat [Widok do czytania i widok do edycji w usłudze Power BI](consumer/end-user-reading-view.md) 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
-W usłudze Power BI *edytor raportu* jest dostępny tylko w [widoku do edycji](service-reading-view-and-editing-view.md). Aby otworzyć raport w widoku do edycji, musisz być właścicielem lub twórcą raportu.
+W usłudze Power BI *edytor raportu* jest dostępny tylko w [widoku do edycji](consumer/end-user-reading-view.md). Aby otworzyć raport w widoku do edycji, musisz być właścicielem lub twórcą raportu.
 
 Edytor raportu usługi Power BI składa się z 3 sekcji:  
 
@@ -126,9 +126,9 @@ Kanwa raportu jest miejscem, gdzie jest wyświetlana Twoja praca. Gdy używasz o
 ## <a name="next-steps"></a>Następne kroki:
 [Tworzenie raportu](service-report-create-new.md)
 
-Dowiedz się więcej na temat raportów w [usłudze Power BI](service-reports.md), [programie Power BI Desktop](desktop-report-view.md) i [aplikacji Power BI dla urządzeń przenośnych](consumer/mobile/mobile-apps-view-phone-report.md).
+Dowiedz się więcej na temat raportów w [usłudze Power BI](consumer/end-user-reports.md), [programie Power BI Desktop](desktop-report-view.md) i [aplikacji Power BI dla urządzeń przenośnych](consumer/mobile/mobile-apps-view-phone-report.md).
 
-[Power BI — podstawowe pojęcia](service-basic-concepts.md)
+[Power BI — podstawowe pojęcia](consumer/end-user-basic-concepts.md)
 
 Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
 

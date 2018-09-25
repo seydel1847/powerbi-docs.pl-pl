@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 90f32e96a6e2c7777c5d1535314e2c85989e1932
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 3bb151de24a984406aa6fd40a70977f2e9eaf1be
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37599599"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548056"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-excel"></a>Przypinanie kafelka do pulpitu nawigacyjnego usługi Power BI z programu Excel
 Zanim będzie możliwe przypięcie kafelka ze skoroszytu programu Excel połącz ten skoroszyt z usługą Power BI (app.powerbi.com). Zasadniczo łączenie skoroszytu powoduje przeniesienie połączonej wersji tylko do odczytu tego skoroszytu do usługi Power BI i pozwala przypiąć zakresy do pulpitów nawigacyjnych. Możesz nawet przypiąć cały arkusz do pulpitu nawigacyjnego.  
@@ -49,7 +49,7 @@ W usłudze Power BI nie możesz edytować swojego skoroszytu. Ale jeśli musisz 
     ![Program Excel Online w usłudze Power BI](media/service-dashboard-pin-tile-from-excel/power-bi-opened.png)
 
 ## <a name="pin-a-range-of-cells-to-a-dashboard"></a>Przypinanie zakresu komórek do pulpitu nawigacyjnego
-Jednym sposobem dodania nowego [kafelka pulpitu nawigacyjnego](service-dashboard-tiles.md) jest realizowany z wnętrza skoroszytu programu Excel w usłudze Power BI. Zakresy można przypiąć ze skoroszytów programu Excel, które zostały zapisane w usłudze OneDrive dla Firm lub innej bibliotece dokumentów udostępnionych w grupie. Zakresy mogą zawierać dane, wykresy, tabele, tabele przestawne, wykresy przestawne i inne składniki programu Excel.
+Jednym sposobem dodania nowego [kafelka pulpitu nawigacyjnego](consumer/end-user-tiles.md) jest realizowany z wnętrza skoroszytu programu Excel w usłudze Power BI. Zakresy można przypiąć ze skoroszytów programu Excel, które zostały zapisane w usłudze OneDrive dla Firm lub innej bibliotece dokumentów udostępnionych w grupie. Zakresy mogą zawierać dane, wykresy, tabele, tabele przestawne, wykresy przestawne i inne składniki programu Excel.
 
 1. Wyróżnij komórki, które chcesz przypiąć do pulpitu nawigacyjnego.
    

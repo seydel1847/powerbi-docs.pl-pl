@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8532fff7bc522a0ad0e59bd17580549bd9e68a23
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 18c9fe3d50245ff1d0745c0a3ae1e830b3f9be45
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44737016"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548332"
 ---
 # <a name="card-visualizations"></a>Wizualizacje w postaci kart
 Czasami jedna liczba jest najważniejsza i chcesz ją śledzić na swoim pulpicie nawigacyjnym lub w raporcie usługi Power BI, np. łączna sprzedaż, udział w rynku rok do roku lub łączna liczba szans sprzedaży. Ten typ wizualizacji jest nazywany *kartą*. Podobnie jak w przypadku niemal wszystkich natywnych wizualizacji usługi Power BI, karty można tworzyć przy użyciu edytora raportu lub funkcji Pytania i odpowiedzi.
@@ -51,13 +51,13 @@ W poniższych instrukcjach używane są przykładowe dane dotyczące analizy han
 ## <a name="create-a-card-from-the-qa-question-box"></a>Tworzenie karty za pomocą pola pytania funkcji Pytania i odpowiedzi
 Skorzystanie z pola pytania funkcji Pytania i odpowiedzi jest najprostszym sposobem utworzenia karty. Pole pytania funkcji Pytania i odpowiedzi jest dostępne w usłudze Power BI (app.powerbi.com) z poziomu pulpitu nawigacyjnego lub raportu. Poniższe kroki przedstawiają tworzenie karty z poziomu pulpitu nawigacyjnego usługi Power BI. Jeśli chcesz utworzyć kartę za pomocą funkcji Pytania i odpowiedzi w programie Power BI Desktop, [wykonaj te instrukcje](https://powerbi.microsoft.com/en-us/blog/power-bi-desktop-december-feature-summary/#QandA), aby uzyskać wersję zapoznawczą funkcji Pytania i odpowiedzi dla raportów w programie Power BI Desktop.
 
-1. Utwórz [pulpit nawigacyjny](../service-dashboards.md) i [pobierz dane](../service-get-data.md). W tym przypadku jest używany [przykład Opportunity Analysis](../sample-opportunity-analysis.md).
+1. Utwórz [pulpit nawigacyjny](../consumer/end-user-dashboards.md) i [pobierz dane](../service-get-data.md). W tym przypadku jest używany [przykład Opportunity Analysis](../sample-opportunity-analysis.md).
 
 1. W polu pytania w górnej części pulpitu nawigacyjnego rozpocznij wpisywanie tego, co chcesz wiedzieć o danych. 
 
    ![](media/power-bi-visualization-card/power-bi-q-and-a-box.png)
 
->**PORADA**: Z poziomu raportu usługi Power BI, w [widoku do edycji](../service-reading-view-and-editing-view.md), wybierz pozycję **Zadaj pytanie** z górnego paska menu. W przypadku raportu programu Power BI Desktop znajdź jakieś wolne miejsce w raporcie i kliknij je dwukrotnie, aby otworzyć pole pytania.
+>**PORADA**: Z poziomu raportu usługi Power BI, w [widoku do edycji](../consumer/end-user-reading-view.md), wybierz pozycję **Zadaj pytanie** z górnego paska menu. W przypadku raportu programu Power BI Desktop znajdź jakieś wolne miejsce w raporcie i kliknij je dwukrotnie, aby otworzyć pole pytania.
 
 3. Na przykład wpisz w polu pytania „number of opportunities” (liczba możliwości).
 
@@ -105,10 +105,10 @@ Istnieje wiele opcji zmieniania etykiet, tekstu, koloru i innych elementów. Naj
     ![](media/power-bi-visualization-card/power-bi-formatted.png)
 
 ## <a name="next-steps"></a>Następne kroki
-[Kafelki pulpitu nawigacyjnego w usłudze Power BI](../service-dashboard-tiles.md)
+[Kafelki pulpitu nawigacyjnego w usłudze Power BI](../consumer/end-user-tiles.md)
 
-[Pulpity nawigacyjne w usłudze Power BI](../service-dashboards.md)
+[Pulpity nawigacyjne w usłudze Power BI](../consumer/end-user-dashboards.md)
 
-[Power BI — podstawowe pojęcia](../service-basic-concepts.md)
+[Power BI — podstawowe pojęcia](../consumer/end-user-basic-concepts.md)
 
 Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)

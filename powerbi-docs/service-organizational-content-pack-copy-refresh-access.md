@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 37cfca811b7e60bde832396e67b246933d4e0a8e
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: 1fbb49f55c4139845f806d590ffb4956abfe0dcd
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39624211"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46543492"
 ---
 # <a name="organizational-content-packs-copy-refresh-and-get-access"></a>Organizacyjne pakiety zawartości: kopiowanie, odświeżanie i uzyskiwanie dostępu
 
@@ -51,6 +51,6 @@ Zobacz [Aktualizowanie i usuwanie organizacyjnych pakietów zawartości oraz zar
 
 ## <a name="next-steps"></a>Następne kroki
 * [Wprowadzenie do organizacyjnych pakietów zawartości](service-organizational-content-pack-introduction.md)
-* [Tworzenie grupy w usłudze Power BI](service-create-distribute-apps.md)
+* [Tworzenie grupy w usłudze Power BI](consumer/end-user-create-apps.md)
 * Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
 

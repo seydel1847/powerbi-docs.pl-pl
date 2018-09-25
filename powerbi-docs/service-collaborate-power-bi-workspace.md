@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d059e8bb476f9862c372d9565581d58b336e81db
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: 71b2f104ad5efb244c2b046cdd48a2e52cd045e3
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39623935"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46543954"
 ---
 # <a name="collaborate-in-your-power-bi-app-workspace"></a>Współpraca w obszarze roboczym aplikacji usługi Power BI
 Obszary robocze aplikacji usługi Power BI są doskonałym miejscem do wspólnej pracy ze współpracownikami przy pulpitach nawigacyjnych, raportach i zestawach danych w celu tworzenia *aplikacji*. Współpraca nie kończy się na obszarach roboczych w usłudze Power BI. Usługa Office 365 oferuje inne usługi grupy, takie jak udostępnianie plików w usłudze OneDrive dla Firm, konwersacje w programie Exchange, udostępnianie kalendarza i zadań itd. Przeczytaj więcej na temat [grup w usłudze Office 365](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9).
@@ -38,7 +38,7 @@ Po utworzeniu pliku programu Power BI Desktop, jeśli opublikujesz go w swoim ob
    
     ![Karta Raporty](media/service-collaborate-power-bi-workspace/power-bi-workspace-report.png)
    
-    W tym miejscu jest on podobny do każdego innego raportu w usłudze Power BI. Wraz z innymi w Twoim obszarze roboczym aplikacji możesz [zmodyfikować raport](service-reports.md) i zapisać kafelki na wybranym pulpicie nawigacyjnym.
+    W tym miejscu jest on podobny do każdego innego raportu w usłudze Power BI. Wraz z innymi w Twoim obszarze roboczym aplikacji możesz [zmodyfikować raport](consumer/end-user-reports.md) i zapisać kafelki na wybranym pulpicie nawigacyjnym.
 
 ## <a name="collaborate-in-office-365"></a>Współpraca w usłudze Office 365
 Współpraca w usłudze Office 365 zaczyna się w obszarze roboczym aplikacji w usłudze Power BI.
@@ -77,7 +77,7 @@ Współpraca w usłudze Office 365 zaczyna się w obszarze roboczym aplikacji w 
 Jeśli jesteś właścicielem lub administratorem obszaru roboczego aplikacji, możesz również dodawać lub usuwać elementy członkowskie obszaru roboczego. Przeczytaj więcej na temat [zarządzania obszarem roboczym aplikacji usługi Power BI](service-manage-app-workspace-in-power-bi-and-office-365.md).
 
 ## <a name="next-steps"></a>Następne kroki
-* [Tworzenie aplikacji i obszarów roboczych aplikacji w usłudze Power BI](service-create-distribute-apps.md)
+* [Tworzenie aplikacji i obszarów roboczych aplikacji w usłudze Power BI](consumer/end-user-create-apps.md)
 * Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
 * Chcesz przesłać opinię? Odwiedź witrynę [Power BI Ideas (Pomysły na ulepszenie usługi Power BI)](https://ideas.powerbi.com/forums/265200-power-bi)
 

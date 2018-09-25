@@ -1,21 +1,21 @@
 ---
 title: Używanie wykresów wstążkowych w usłudze Power BI
 description: Tworzenie i używanie wykresów wstążkowych w usłudze Power BI i programie Power BI Desktop
-author: davidiseminger
+author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
 ms.date: 07/27/2018
-ms.author: davidi
+ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 0d7dbf878c32ee29ea490e10f27f1bda49f20b08
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: e7bd79b8d93bba4395922fb39faaf423109f7b02
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44737070"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46566124"
 ---
 # <a name="use-ribbon-charts-in-power-bi"></a>Używanie wykresów wstążkowych w usłudze Power BI
 Przy użyciu wykresów wstążkowych w usłudze **Power BI** można wizualizować dane i szybko określać, które kategorie danych mają najwyższą rangę (największa wartość). Wykresy wstążkowe dobrze obrazują zmianę rangi, zawsze wyświetlając najwyższą rangę (wartość) u góry dla każdego przedziału czasu. Wykresy wstążkowe są dostępne w programie **Power BI Desktop** od wersji z września 2017 r. i następujących po niej aktualizacjach **usługi Power BI**.

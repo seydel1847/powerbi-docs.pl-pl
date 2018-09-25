@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: maggies
-ms.openlocfilehash: 42ba9b042209dfd717c58042834e8d7966f97ecf
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: d221cfdc849a18ba934ebacaf58ef40999ac0117
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44736782"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46543318"
 ---
 # <a name="scan-a-barcode-with-your-iphone-from-the-power-bi-mobile-app"></a>Skanowanie kodu kreskowego za pomocą swojego telefonu iPhone z aplikacji mobilnej usługi Power BI
 Skanowanie kodów kreskowych w świecie rzeczywistym, aby przejść bezpośrednio do odfiltrowanych informacji analizy biznesowej w aplikacji mobilnej usługi Power BI.
@@ -67,6 +67,6 @@ Raport, który chcesz odfiltrować, jest oparty na modelu danych, który nie zaw
 
 ## <a name="next-steps"></a>Następne kroki
 * [Znakowanie pola kodu kreskowego w programie Power BI Desktop](../../desktop-mobile-barcodes.md)
-* [Kafelki pulpitu nawigacyjnego w usłudze Power BI](../../service-dashboard-tiles.md)
-* [Pulpity nawigacyjne w usłudze Power BI](../../service-dashboards.md)
+* [Kafelki pulpitu nawigacyjnego w usłudze Power BI](../end-user-tiles.md)
+* [Pulpity nawigacyjne w usłudze Power BI](../end-user-dashboards.md)
 

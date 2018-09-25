@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: d50d3c3a34364dd795c44b3e45e91857bcc222f0
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: f01edbec60d0146dd5bd4454d3b1e0736b9158e3
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726322"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548240"
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>Tworzenie proponowanych pytań dla funkcji pytań i odpowiedzi w usłudze Power BI
 Jeśli jesteś właścicielem zestawu danych, możesz dodać własne proponowane pytania do tego zestawu danych.  Funkcja Pytania i odpowiedzi w usłudze Power BI wyświetli te pytania współpracownikom używającym Twojego zestawu danych (*korzystającym z niego*).  Proponowane pytania dostarczają współpracownikom pomysłów dotyczących typów pytań, jakie mogą zadać na temat zestawu danych. Proponowane pytania, jakie dodasz, zależą od Ciebie — dodaj często zadawane pytania lub takie, na które można udzielić ciekawej odpowiedzi, albo pytania, które ciężko sformułować.
@@ -47,8 +47,8 @@ W tym artykule wykorzystano [przykład Retail Analysis Sales](sample-datasets.md
    ![wizualizacja mapy](media/service-q-and-a-create-featured-questions/power-bi-filled-map.png)
 
 ### <a name="next-steps"></a>Następne kroki
-[Pytania i odpowiedzi w usłudze Power BI](power-bi-q-and-a.md)  
+[Pytania i odpowiedzi w usłudze Power BI](consumer/end-user-q-and-a.md)  
 [Samouczek: wprowadzenie do funkcji pytań i odpowiedzi w usłudze Power BI](power-bi-visualization-introduction-to-q-and-a.md)  
-[Power BI — podstawowe pojęcia](service-basic-concepts.md)  
+[Power BI — podstawowe pojęcia](consumer/end-user-basic-concepts.md)  
 Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
 

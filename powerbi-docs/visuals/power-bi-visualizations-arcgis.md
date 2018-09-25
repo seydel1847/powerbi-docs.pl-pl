@@ -11,12 +11,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 02/28/2018
 ms.author: mihart
-ms.openlocfilehash: 6a930342806eb32f22efe3d2974625c54c5377bf
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: a312a4311590d02d0fa8bd97726f9cf596cfe6a0
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44737214"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545779"
 ---
 # <a name="interacting-with-arcgis-maps-in-power-bi"></a>Interakcje z mapami ArcGIS w usłudze Power BI
 Ten temat przedstawia perspektywę osoby *korzystającej* z mapy ArcGIS w usłudze Power BI, programie Desktop lub aplikacji mobilnej. Jeśli twórca mapy ArcGIS udostępni Ci ją, możesz z niej korzystać na wiele sposobów.  Aby dowiedzieć się więcej na temat tworzenia mapy ArcGIS, zobacz [ArcGIS maps by esri tutorial (Samouczek Mapy ArcGIS firmy Esri)](../power-bi-visualization-arcgis.md).
@@ -55,9 +55,9 @@ Komponent ArcGIS Maps for Power BI udostępnia trzy tryby wybierania. Maksymalni
 <br/>
 
 ## <a name="interacting-with-an-arcgis-map"></a>Interakcja z mapą ArcGIS
-Dostępne funkcje zależą od tego, czy jest się *twórcą* (osobą, która stworzyła mapę) czy *użytkownikiem* (któremu ktoś inny udostępnił mapę ArcGIS). Jeśli korzystasz z mapy ArcGIS jako użytkownik (w [widoku do czytania](../service-reading-view-and-editing-view.md)), możesz wykonywać następujące akcje.
+Dostępne funkcje zależą od tego, czy jest się *twórcą* (osobą, która stworzyła mapę) czy *użytkownikiem* (któremu ktoś inny udostępnił mapę ArcGIS). Jeśli korzystasz z mapy ArcGIS jako użytkownik (w [widoku do czytania](../consumer/end-user-reading-view.md)), możesz wykonywać następujące akcje.
 
-* Podobnie jak w przypadku innych typów wizualizacji, mapy można [przypinać do pulpitów nawigacyjnych](../service-dashboard-pin-tile-from-report.md) oraz wyświetlać w [trybie koncentracji uwagi](../service-focus-mode.md) i [na pełnym ekranie](../service-fullscreen-mode.md). Można też [wyświetlać](../service-reports-show-data.md) i/lub [eksportować ich dane źródłowe](../power-bi-visualization-export-data.md).    
+* Podobnie jak w przypadku innych typów wizualizacji, mapy można [przypinać do pulpitów nawigacyjnych](../service-dashboard-pin-tile-from-report.md) oraz wyświetlać w [trybie koncentracji uwagi](../consumer/end-user-focus.md) i [na pełnym ekranie](../service-fullscreen-mode.md). Można też [wyświetlać](../consumer/end-user-show-data.md) i/lub [eksportować ich dane źródłowe](../consumer/end-user-export-data.md).    
 * Rozwiń okienko **Filtry**, aby eksplorować mapy przy użyciu filtrów. Po zamknięciu raportu zastosowane filtry nie są zapisywane.    
     ![](media/power-bi-visualizations-arcgis/power-bi-filter-newer.png)  
 * Jeśli mapa ma warstwę referencyjną, wybierz lokalizacje, aby wyświetlić szczegóły w etykietce narzędzia. Poniżej wybraliśmy hrabstwo Adams, aby wyświetlić dane dotyczące średniego dochodu na gospodarstwo domowe zawarte w warstwie referencyjnej, którą dodał twórca mapy.

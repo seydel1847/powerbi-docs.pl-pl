@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 938f7b5f905d156518f71a30b355575cf1c04683
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 2f7133bb376cc04e181eed2d90a45e3361190d0b
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34722548"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547037"
 ---
 # <a name="export-a-report-from-power-bi-service-to-desktop-preview"></a>Eksportowanie raportu z usługi Power BI do wersji Desktop (wersja zapoznawcza)
 W programie Power BI Desktop możesz wyeksportować (inaczej mówiąc *pobrać*) raport do usługi Power BI, zapisując raport i wybierając pozycję **Publikuj**. Możesz też wyeksportować w drugim kierunku i pobrać raport z usługi Power BI na pulpit. Rozszerzenie dla plików eksportowanych w dowolnym kierunku to *pbix*.
@@ -27,7 +27,7 @@ Istnieje kilka ograniczeń i zagadnień, które należy wziąć pod uwagę i kt�
 ## <a name="download-the-report-as-a-pbix"></a>Pobieranie raportu jako pliku pbix
 Aby pobrać plik pbix, wykonaj następujące kroki:
 
-1. W **usłudze Power BI** otwórz raport, który chcesz pobrać, w [widoku do edycji](service-reading-view-and-editing-view.md).
+1. W **usłudze Power BI** otwórz raport, który chcesz pobrać, w [widoku do edycji](consumer/end-user-reading-view.md).
 2. Na pasku menu wybierz pozycje **Plik > Pobierz raport**.
    
    > [!NOTE]
@@ -67,8 +67,8 @@ Obejrzyj trwający minutę film **Guy in a Cube** na temat tej funkcji:
 
 Ponadto poniżej przedstawiono niektóre dodatkowe artykuły, które mogą pomóc Ci w nauce używania **usługi Power BI**:
 
-* [Raporty w usłudze Power BI](service-reports.md)
-* [Power BI — podstawowe pojęcia](service-basic-concepts.md)
+* [Raporty w usłudze Power BI](consumer/end-user-reports.md)
+* [Power BI — podstawowe pojęcia](consumer/end-user-basic-concepts.md)
 
 Po zainstalowaniu programu **Power BI Desktop** następująca zawartość może pomóc Ci szybko zacząć z niego korzystać:
 

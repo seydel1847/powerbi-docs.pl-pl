@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 08/17/2018
 ms.author: maggies
-ms.openlocfilehash: 5fe4212be55a42a6892a94e2a07da8af5c035b6d
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 7a5c60eea81eeb3a1f4e8a7f5b807fd8c7bfb6b5
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44742960"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547251"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Eksplorowanie raportów w aplikacjach mobilnych Power BI
 Dotyczy:
@@ -82,7 +82,7 @@ Po wybraniu wartości w wizualizacji inne wizualizacje nie są filtrowane. Zamia
 * Aby odwrócić porządek sortowania, ponownie naciśnij ikonę wielokropka (**...**) i tę samą nazwę pola.
 
 ## <a name="drill-down-and-up-in-a-visual"></a>Przechodzenie do szczegółów i uogólnianie w wizualizacji
-Jeśli autor raportu dodał możliwość przechodzenia do szczegółów wizualizacji, możesz przejść do szczegółów w wizualizacji, aby zobaczyć wartości, które tworzą jedną jej część. [Możliwość przechodzenia do szczegółów możesz dodać do wizualizacji](../../power-bi-visualization-drill-down.md) w programie Power BI Desktop lub usłudze Power BI. 
+Jeśli autor raportu dodał możliwość przechodzenia do szczegółów wizualizacji, możesz przejść do szczegółów w wizualizacji, aby zobaczyć wartości, które tworzą jedną jej część. [Możliwość przechodzenia do szczegółów możesz dodać do wizualizacji](../end-user-drill.md) w programie Power BI Desktop lub usłudze Power BI. 
 
 * Naciśnij i przytrzymaj określony pasek lub punkt w wizualizacji, aby wyświetlić jego etykietkę narzędzia. Jeśli wizualizacja obsługuje przechodzenie do szczegółów, w dolnej części etykietki narzędzia są strzałki, które można nacisnąć. 
   

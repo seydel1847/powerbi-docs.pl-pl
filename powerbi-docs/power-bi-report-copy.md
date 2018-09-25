@@ -10,17 +10,17 @@ ms.topic: conceptual
 ms.date: 03/24/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: a85733e8450c9e1d3574afb71ace64fa2622fe0c
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: f0337b26989b3d42e86339c4afc087579c2c3529
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44725632"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548792"
 ---
 # <a name="create-a-new-report-from-an-existing-report-copy-a-report"></a>Tworzenie nowego raportu na podstawie istniejącego raportu (kopiowanie raportu)
 Być może masz już raport, który już jest połączony z Twoim zestawem danych i ma pewne elementy wizualne, które chcesz ponownie użyć lub zmodyfikować.  Dlaczego nie skopiować tego raportu jako podstawy dla nowego raportu?  W tym celu:
 
-1. [Otwórz raport](service-report-open.md).
+1. [Otwórz raport](consumer/end-user-report-open.md).
 2. Z menu **Plik** wybierz pozycję **Zapisz jako**.
    
    ![](media/power-bi-report-copy/powerbi-save-as.png)
@@ -39,6 +39,6 @@ Być może masz już raport, który już jest połączony z Twoim zestawem danyc
 ## <a name="next-steps"></a>Następne kroki:
 [Tworzenie nowych wizualizacji](visuals/power-bi-report-add-visualizations-ii.md)
 
-[Usuwanie wizualizacji](service-delete.md), które nie są już potrzebne
+[Usuwanie wizualizacji](consumer/end-user-delete.md), które nie są już potrzebne
 
 [Tworzenie raportu w programie Power BI Desktop](desktop-report-view.md)

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 9109bd45f47e92d9158b9247fe32a43132fff720
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: 453b0f5852fefb1008b8013a0c42af4cc1d42f32
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39624303"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547642"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>Wprowadzenie do organizacyjnych pakietów zawartości w usłudze Power BI
 > [!NOTE]
@@ -42,7 +42,7 @@ Opublikowanie organizacyjnego pakietu zawartości dodaje go do usługi AppSource
 
 * Aby wyświetlić usługę AppSource, wybierz pozycje **Pobierz dane** > **Moja organizacja** > **Pobierz**.
 
-Przeczytaj więcej na temat [odnajdowania i otwierania organizacyjnych pakietów zawartości](service-organizational-content-pack-find-and-open.md).
+Przeczytaj więcej na temat [odnajdowania i otwierania organizacyjnych pakietów zawartości](consumer/end-user-content-pack.md).
 
 ## <a name="the-life-cycle-of-an-organizational-content-pack"></a>Cykl życia organizacyjnego pakietu zawartości
 Dowolny użytkownik usługi Power BI Pro może tworzyć, publikować i uzyskiwać dostęp do organizacyjnych pakietów zawartości. Tylko twórca pakietu zawartości może modyfikować skoroszyt i zestaw danych, harmonogram odświeżania i usuwać go.
@@ -52,7 +52,7 @@ Cykl życia wygląda następująco:
 1. W usłudze Power BI Pro Nate tworzy pakiet zawartości i publikuje go dla grupy dystrybucyjnej Marketing. Ustawienia odświeżania są dziedziczone wraz z zestawem danych i mogą zostać zmienione tylko przez Nate’a.
    
    > [!NOTE]
-   > Jeśli Nate tworzy pakiet zawartości z poziomu [obszaru roboczego aplikacji usługi Power BI](service-create-distribute-apps.md), do którego on należy, to nawet jeśli opuści obszar roboczy, inne osoby w obszarze roboczym usługi Power BI mogą przejąć własność.
+   > Jeśli Nate tworzy pakiet zawartości z poziomu [obszaru roboczego aplikacji usługi Power BI](consumer/end-user-create-apps.md), do którego on należy, to nawet jeśli opuści obszar roboczy, inne osoby w obszarze roboczym usługi Power BI mogą przejąć własność.
    > 
    > 
 2. Nate wysyła wiadomość do grupy dystrybucyjnej z informacją o nowym pakiecie zawartości.
@@ -76,7 +76,7 @@ Wszyscy członkowie grupy dystrybucyjnej mają te same uprawnienia do danych, ja
 
 ## <a name="next-steps"></a>Następne kroki
 * [Tworzenie i publikowanie organizacyjnego pakietu zawartości](service-organizational-content-pack-create-and-publish.md)
-* [Tworzenie i rozpowszechnianie aplikacji w usłudze Power BI](service-create-distribute-apps.md) 
-* [Power BI — podstawowe pojęcia](service-basic-concepts.md)
+* [Tworzenie i rozpowszechnianie aplikacji w usłudze Power BI](consumer/end-user-create-apps.md) 
+* [Power BI — podstawowe pojęcia](consumer/end-user-basic-concepts.md)
 * Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
 

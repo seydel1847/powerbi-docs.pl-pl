@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/22/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: da330e75642e243637f792cde706b6d34ce70062
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: 8cf0a4de37f1bdc6e90a05799caebd2ce0e77046
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39280736"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548309"
 ---
 # <a name="power-bi-pro-in-your-organization"></a>Usługa Power BI Pro w organizacji
 
@@ -35,7 +35,7 @@ Następujące funkcje wymagają licencji usługi Power BI Pro:
 
 Po zarejestrowaniu się i utworzeniu bezpłatnego konta możesz opcjonalnie wypróbować wersję Pro usługi bezpłatnie przez 60 dni. Podczas okresu próbnego będziesz mieć dostęp do wszystkich funkcji usługi Power BI Pro. Usługa Power BI Pro oferuje wszystkie funkcje bezpłatnej wersji usługi Power BI oraz dodatkowe funkcje udostępniania i współpracy. Aby uzyskać więcej informacji, zobacz [Cennik usługi Power BI](https://powerbi.microsoft.com/en-us/pricing/). Aby wypróbować 60-dniową bezpłatną wersję próbną usługi Power BI Pro, zaloguj się do usługi Power BI i wypróbuj jedną z następujących funkcji usługi Power BI Pro.
 
-* [Tworzenie obszaru roboczego](service-create-distribute-apps.md)
+* [Tworzenie obszaru roboczego](consumer/end-user-create-apps.md)
 * [Udostępnianie pulpitu nawigacyjnego](service-share-dashboards.md)
 
 Kiedy zaczniesz korzystać z dowolnej z tych funkcji, zostanie wyświetlony monit o rozpoczęcie bezpłatnego okresu próbnego. Możesz również rozpocząć okres próbny, przechodząc do ikony koła zębatego i wybierając pozycję Zarządzaj magazynem osobistym. Następnie wybierz pozycję Wypróbuj bezpłatnie wersję Pro po prawej stronie.

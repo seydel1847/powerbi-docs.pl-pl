@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/29/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f070b6649d8d120a889961fffd6b9b923422293e
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 2c42f484dc0f2515024a7fefe2edb1c81e286eb3
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744418"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548470"
 ---
 # <a name="funnel-charts"></a>Wykresy lejkowe
 Wykres lejkowy pozwala na graficzne przedstawienie procesu liniowego o sekwencyjnie połączonych etapach. Za przykład może posłużyć wykres lejkowy sprzedaży, który śledzi zachowania klientów na poszczególnych etapach: Potencjalny klient \> Kwalifikowany potencjalny klient \> Prawdopodobny klient \> Umowa \> Finalizacja.  Już na pierwszy rzut oka kształt lejka wskazuje na kondycję śledzonego procesu.
@@ -70,7 +70,7 @@ W poniższych instrukcjach jest używany przykład Opportunity Analysis. Aby je 
    * Zmiany zachodzące w kolejnym etapie względem etapu poprzedniego (wskaźnik porzucenia) czyli procentowy udział poprzedniego etapu (w tym przypadku stosunek etapu Proposal do Solution)
      
      ![](media/power-bi-visualization-funnel-charts/funnelhover_new.png)
-5. [Dodaj lejek jako kafelek pulpitu nawigacyjnego](../service-dashboard-tiles.md). 
+5. [Dodaj lejek jako kafelek pulpitu nawigacyjnego](../consumer/end-user-tiles.md). 
 6. [Zapisz raport](../service-report-save.md).
 
 ## <a name="highlighting-and-cross-filtering"></a>Wyróżnianie i filtrowanie krzyżowe
@@ -81,10 +81,10 @@ Wyróżnianie paska na wykresie lejkowym powoduje filtrowanie krzyżowe innych w
 1. Na lejku zaznacz pasek **Proposal**. Spowoduje to wyróżnienie krzyżowe innych wizualizacji na stronie. Zaznacz wiele elementów za pomocą klawisza CTRL.
    
    ![](media/power-bi-visualization-funnel-charts/funnelchartnoowl.gif)
-2. Aby ustawić preferencje dotyczące wyróżniania krzyżowego wizualizacji i ich filtrowania krzyżowego, zobacz [Interakcje wizualne w usłudze Power BI](../service-reports-visual-interactions.md)
+2. Aby ustawić preferencje dotyczące wyróżniania krzyżowego wizualizacji i ich filtrowania krzyżowego, zobacz [Interakcje wizualne w usłudze Power BI](../consumer/end-user-interactions.md)
 
 ## <a name="create-a-funnel-chart-in-qa"></a>Tworzenie wykresu lejkowego w aparacie Pytania i odpowiedzi
-Otwórz pulpit nawigacyjny przykładu Opportunity Analysis lub dowolny inny pulpit nawigacyjny, który ma przypiętą co najmniej jedną wizualizację z zestawu danych przykładu Opportunity Analysis.  Po wpisaniu pytania w aparacie Pytania i odpowiedzi usługa Power BI wyszukuje odpowiedzi we wszystkich zestawach danych, które są skojarzone z wybranym pulpitem nawigacyjnym, czyli mają do niego przypięte kafelki. Aby uzyskać więcej informacji, zobacz [Power BI — podstawowe pojęcia](../service-basic-concepts.md).
+Otwórz pulpit nawigacyjny przykładu Opportunity Analysis lub dowolny inny pulpit nawigacyjny, który ma przypiętą co najmniej jedną wizualizację z zestawu danych przykładu Opportunity Analysis.  Po wpisaniu pytania w aparacie Pytania i odpowiedzi usługa Power BI wyszukuje odpowiedzi we wszystkich zestawach danych, które są skojarzone z wybranym pulpitem nawigacyjnym, czyli mają do niego przypięte kafelki. Aby uzyskać więcej informacji, zobacz [Power BI — podstawowe pojęcia](../consumer/end-user-basic-concepts.md).
 
 1. Na pulpicie nawigacyjnym przykładu Opportunity Analysis rozpocznij wpisywanie pytania w polu funkcji Pytania i odpowiedzi.
    
@@ -97,7 +97,7 @@ Otwórz pulpit nawigacyjny przykładu Opportunity Analysis lub dowolny inny pulp
 
 [Przypinanie wizualizacji do pulpitu nawigacyjnego](../service-dashboard-pin-tile-from-report.md)
 
-[Power BI — podstawowe pojęcia](../service-basic-concepts.md)
+[Power BI — podstawowe pojęcia](../consumer/end-user-basic-concepts.md)
 
 Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
 

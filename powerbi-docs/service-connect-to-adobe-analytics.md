@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: e8e9b21e62f0a91234fccf78977a696e321ed8dc
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: f4eb0ec93057f309720fc4fef33a55d924881383
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "38924540"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46544629"
 ---
 # <a name="connect-to-adobe-analytics-with-power-bi"></a>Łączenie się z usługą Adobe Analytics za pomocą usługi Power BI
 Łączenie się z usługą Adobe Analytics za pomocą usługi Power BI należy zacząć od połączenia się z kontem Adobe Analytics Marketing Cloud. Uzyskasz aplikację z pulpitem nawigacyjnym usługi Power BI oraz zestawem raportów usługi Power BI zawierających informacje o ruchu w witrynie oraz wymiarach użytkownika. Dane są odświeżane automatycznie raz dziennie. Możesz korzystać z pulpitu nawigacyjnego i raportów, ale nie możesz zapisywać zmian.
@@ -94,7 +94,7 @@ Jeśli po wprowadzeniu poświadczeń jest wyświetlany błąd wskazujący, że n
 Jeśli pomyślnie podano poświadczenia, a błąd wystąpił później, tworzenie raportów może trwać zbyt długo. Typowy błąd to *„Nie można pobrać danych z raportu usługi Adobe Analytics. Zawartość: &quot;źródło odwołania, strona&quot;; Przybliżony czas trwania: xx s”*. Zapoznaj się z sekcją „Zawartość pakietu” i porównaj ją z rozmiarem wystąpienia Adobe. Niestety obecnie nie ma obejścia tego limitu czasu. Rozważamy jednak wprowadzenie aktualizacji w celu zapewnienia lepszej obsługi większych wystąpień. Prześlij opinię do zespołu usługi Power BI za pośrednictwem witryny https://ideas.powerbi.com
 
 ## <a name="next-steps"></a>Następne kroki
-* [Czym są aplikacje w usłudze Power BI?](service-install-use-apps.md)
+* [Czym są aplikacje w usłudze Power BI?](consumer/end-user-apps.md)
 * [Pobieranie danych w usłudze Power BI](service-get-data.md)
 * Masz więcej pytań? [Zadaj pytanie społeczności usługi Power BI](http://community.powerbi.com/)
 

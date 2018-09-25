@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 27b3f18143fe5f354fb9a6965b1d3a58ba33f556
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: a9f394cdfefabf1392b0219079d95a35d38b1754
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726920"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546124"
 ---
 # <a name="power-bi-admin-portal"></a>Portal administracyjny usługi Power BI
 
@@ -161,7 +161,7 @@ Użytkownicy mogą widzieć różne opcje w interfejsie użytkownika w zależno�
 
 ### <a name="export-data"></a>Eksportuj dane
 
-Użytkownicy w organizacji mogą eksportować dane z kafelka lub wizualizacji. [Dowiedz się więcej](power-bi-visualization-export-data.md)
+Użytkownicy w organizacji mogą eksportować dane z kafelka lub wizualizacji. [Dowiedz się więcej](consumer/end-user-export-data.md)
 
 ![](media/service-admin-portal/powerbi-admin-export-data.png)
 
@@ -170,13 +170,13 @@ Użytkownicy w organizacji mogą eksportować dane z kafelka lub wizualizacji. [
 
 ### <a name="export-reports-as-powerpoint-presentations"></a>Eksportuj raporty jako prezentacje programu PowerPoint
 
-Użytkownicy w organizacji mogą eksportować raporty usługi Power BI jako pliki programu PowerPoint. [Dowiedz się więcej](service-publish-to-powerpoint.md)
+Użytkownicy w organizacji mogą eksportować raporty usługi Power BI jako pliki programu PowerPoint. [Dowiedz się więcej](consumer/end-user-powerpoint.md)
 
 ![](media/service-admin-portal/powerbi-admin-powerpoint.png)
 
 ### <a name="print-dashboards-and-reports"></a>Drukowanie pulpitów nawigacyjnych i raportów
 
-Użytkownicy w organizacji mogą drukować pulpity nawigacyjne i raporty. [Dowiedz się więcej](service-print.md)
+Użytkownicy w organizacji mogą drukować pulpity nawigacyjne i raporty. [Dowiedz się więcej](consumer/end-user-print.md)
 
 ![](media/service-admin-portal/powerbi-admin-print-dashboard.png)
 
@@ -205,7 +205,7 @@ Możesz zmienić ustawienie na **Włączone**, a następnie określić, kto dysp
 > [!NOTE]
 > Należy pamiętać o tym, że uwzględnienie zmian ustawień dzierżawy może zabrać trochę czasu.
 
-Przejdź tutaj, aby dowiedzieć się więcej o [wypychaniu aplikacji](service-create-distribute-apps.md#how-to-install-an-app-automatically-for-end-users).
+Przejdź tutaj, aby dowiedzieć się więcej o [wypychaniu aplikacji](consumer/end-user-create-apps.md#how-to-install-an-app-automatically-for-end-users).
 
 ## <a name="integration-settings"></a>Ustawienia integracji
 

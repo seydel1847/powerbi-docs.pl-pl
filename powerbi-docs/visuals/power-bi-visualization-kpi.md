@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: bb1ebf08c7ffb7a18cc0dd273c767c082f89f1aa
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: d3afa24c68db5ffcaec1dddae09b0b9719bf2bb5
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44736908"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46543548"
 ---
 # <a name="kpi-visuals"></a>Wizualizacje kluczowych wskaźników wydajności
 Kluczowy wskaźnik wydajności (KPI) to wizualna podpowiedź przedstawiająca postęp w realizacji mierzalnego celu. Więcej informacji na temat kluczowych wskaźników wydajności można uzyskać w witrynie [Microsoft Developer Network](https://msdn.microsoft.com/library/hh272050).
@@ -42,7 +42,7 @@ Możesz też obejrzeć klip wideo, w którym pokażemy Ci, jak utworzyć pojedyn
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xmja6EpqaO0?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
-1. Otwórz raport w [widoku do edycji](../service-reading-view-and-editing-view.md) i [dodaj nową stronę](../power-bi-report-add-page.md).    
+1. Otwórz raport w [widoku do edycji](../consumer/end-user-reading-view.md) i [dodaj nową stronę](../power-bi-report-add-page.md).    
 2. Wybierz pozycję **Sales > Total Units This Year** (Sprzedaż > Całkowita liczba jednostek w bieżącym roku).  To będzie wskaźnik.
 3. Dodaj pozycję **Time > Month** (Czas > Miesiąc).  To będzie reprezentacja trendu.
 4. WAŻNE: Posortuj wykres według **miesięcy**. Po przekształceniu wizualizacji w kluczowy wskaźnik wydajności opcja sortowania będzie niedostępna.

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7a002bb99cb80d805298d29916d4eb56f692b479
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 617809e072a492fb9887930e58bafd89ca8201e8
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34310296"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46544971"
 ---
 # <a name="static-content-in-power-bi-reports"></a>Zawartość statyczna w raportach usługi Power BI
 Pola tekstowe i kształty można dodać do raportów za pomocą usługi Power BI i programu Power BI Desktop. W obu przypadkach musisz mieć uprawnienia do edytowania raportu. Jeśli raport udostępniono Ci w usłudze Power BI, nie będziesz mieć uprawnień do edycji. 
@@ -65,6 +65,6 @@ Zobacz, jak Will używa programu Power BI Desktop w celu [dodania obrazów staty
 ### <a name="next-steps"></a>Następne kroki
 [Dodawanie hiperlinku do pola tekstowego](service-add-hyperlink-to-text-box.md)
 
-[Power BI — podstawowe pojęcia](service-basic-concepts.md)
+[Power BI — podstawowe pojęcia](consumer/end-user-basic-concepts.md)
 
 Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)

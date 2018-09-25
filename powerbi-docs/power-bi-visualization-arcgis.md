@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 250ccba882a045417b2ae424cac81b6561cb2a41
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 18e33fa4767eb0d9e457589ea3fa3b61721dce51
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44728254"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548033"
 ---
 # <a name="arcgis-maps-in-power-bi-service-and-power-bi-desktop-by-esri"></a>Mapy ArcGIS firmy Esri w usłudze Power BI i programie Power BI Desktop
 Niniejszy samouczek został napisany, uwzględniając punkt widzenia osoby tworzącej mapę ArcGIS. Jeśli twórca udostępni mapę ArcGIS współpracownikom, mogą oni wyświetlać mapę i wchodzić w interakcję z nią, ale nie mogą zapisywać zmian. Aby dowiedzieć się więcej na temat wyświetlania mapy ArcGIS, zobacz [Wchodzenie w interakcje z mapami ArcGIS](visuals/power-bi-visualizations-arcgis.md).
@@ -61,7 +61,7 @@ Ten samouczek korzysta z [przykładowych danych Retail Analysis](sample-retail-a
 2. Zaznacz pole wyboru **ArcGIS Maps for Power BI**. Po zaznaczeniu należy uruchomić ponownie usługę Power BI.
    
     ![](media/power-bi-visualization-arcgis/power-bi-use-arcgis-new.png)
-3. Otwórz raport w [widoku do edycji](service-reading-view-and-editing-view.md) i wybierz ikonę komponentu ArcGIS Maps for Power BI z okienka Wizualizacje.
+3. Otwórz raport w [widoku do edycji](consumer/end-user-reading-view.md) i wybierz ikonę komponentu ArcGIS Maps for Power BI z okienka Wizualizacje.
    
     ![](media/power-bi-visualization-arcgis/power-bi-viz-pane2.png)
 4. Usługa Power BI doda pusty szablon mapy ArcGIS do kanwy raportu.

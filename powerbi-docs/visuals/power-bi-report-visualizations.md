@@ -11,17 +11,17 @@ ms.topic: conceptual
 ms.date: 08/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c3dae6bcd59f44ab66b305b009da1e6fdabc9879
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 6cfd4cf1ae090351a710b00ee82600ddcbc71632
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44737243"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546170"
 ---
 # <a name="visualizations-in-power-bi-reports"></a>Wizualizacje w raportach usługi Power BI
 Wizualizacje prezentują szczegółowe informacje, które zostały odnalezione w danych. Raport usługi Power BI może zawierać jedną stronę z pojedynczą wizualizacją lub wiele stron pełnych różnych wizualizacji. W usłudze Power BI wizualizacje można [przypinać z raportów do pulpitów nawigacyjnych](../service-dashboard-pin-tile-from-report.md). 
 
-Ważne jest rozróżnienie między *twórcami* raportów i ich *użytkownikami*. Jeśli jesteś osobą tworzącą lub modyfikującą raport, jesteś jego twórcą.  Twórcy mają uprawnienia do edycji raportu i jego podstawowego zestawu danych. W programie Power BI Desktop oznacza to, że można otwierać zestaw danych w widoku Dane i tworzyć wizualizacje w widoku Raport. W usłudze Power BI oznacza to, że można otwierać zestaw danych lub raport w edytorze raportów w [widoku do edycji](../service-reading-view-and-editing-view.md). Jeśli raport lub pulpit nawigacyjny [został Ci udostępniony](../service-shared-with-me.md), jesteś **użytkownikiem** raportu. W takiej sytuacji możesz wyświetlać raport i jego wizualizacje oraz wchodzić z nimi w interakcje, ale nie możesz zapisywać zmian.
+Ważne jest rozróżnienie między *twórcami* raportów i ich *użytkownikami*. Jeśli jesteś osobą tworzącą lub modyfikującą raport, jesteś jego twórcą.  Twórcy mają uprawnienia do edycji raportu i jego podstawowego zestawu danych. W programie Power BI Desktop oznacza to, że można otwierać zestaw danych w widoku Dane i tworzyć wizualizacje w widoku Raport. W usłudze Power BI oznacza to, że można otwierać zestaw danych lub raport w edytorze raportów w [widoku do edycji](../consumer/end-user-reading-view.md). Jeśli raport lub pulpit nawigacyjny [został Ci udostępniony](../consumer/end-user-shared-with-me.md), jesteś **użytkownikiem** raportu. W takiej sytuacji możesz wyświetlać raport i jego wizualizacje oraz wchodzić z nimi w interakcje, ale nie możesz zapisywać zmian.
 
 Wiele różnych typów wizualizacji jest dostępnych bezpośrednio w okienku WIZUALIZACJE usługi Power BI. 
 

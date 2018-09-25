@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d00ad254e25f8806f6cf2bc944e849e32167b1f8
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: 1f9be0fa1953ceb86e00bbc85c13813858faa4b5
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39624326"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547320"
 ---
 # <a name="manage-update-and-delete-organizational-content-packs"></a>Aktualizowanie i usuwanie organizacyjnych pakietów zawartości oraz zarządzanie nimi
 > [!NOTE]
@@ -86,6 +86,6 @@ Tylko twórca pakietu zawartości może go usunąć z usługi AppSource. Jeśli 
 
 ## <a name="next-steps"></a>Następne kroki
 * [Wprowadzenie do pakietów zawartości organizacji](service-organizational-content-pack-introduction.md)
-* [Tworzenie i rozpowszechnianie aplikacji w usłudze Power BI](service-create-distribute-apps.md) 
+* [Tworzenie i rozpowszechnianie aplikacji w usłudze Power BI](consumer/end-user-create-apps.md) 
 * Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
 

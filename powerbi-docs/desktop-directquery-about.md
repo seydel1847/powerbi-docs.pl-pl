@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 81a8b5454e39088b8b406e600707d1d5073e14dc
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 1104c7f90f46252a74c4aa8e5ec573a159ef1c40
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39330172"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46550126"
 ---
 # <a name="using-directquery-in-power-bi"></a>Używanie zapytania bezpośredniego w usłudze Power BI
 Możesz połączyć się z szeroką gamą różnych źródeł danych, korzystając z programu **Power BI Desktop** lub **usługi Power BI**, i te połączenia z danymi możesz wykonywać w różny sposób. Możesz albo *zaimportować* dane do usługi Power BI, co jest najczęściej używanym sposobem pobierania danych, lub możesz połączyć się bezpośrednio z danymi w ich oryginalnym repozytorium źródłowym, co jest nazywane **zapytaniem bezpośrednim**. W tym artykule zostało opisane **zapytanie bezpośrednie** i jego możliwości, łącznie z następującymi tematami:
@@ -277,7 +277,7 @@ Podczas tworzenia raportu za pomocą połączenia zapytania bezpośredniego nale
   
   ![](media/desktop-directquery-about/directquery-about_04.png)
   
-  W zapytaniu bezpośrednim takie filtrowanie i wyróżnianie krzyżowe wymaga wysłania zapytania do bazowego źródła. Z tego względu interakcję należy wyłączyć, jeżeli czas reakcji na wybory użytkowników byłby zbyt długi. Interakcję można wyłączyć dla całego raportu (jak opisano powyżej w części *Opcje redukcji zapytania*) lub w indywidualnym przypadku, zgodnie z opisem [w tym artykule](service-reports-visual-interactions.md).
+  W zapytaniu bezpośrednim takie filtrowanie i wyróżnianie krzyżowe wymaga wysłania zapytania do bazowego źródła. Z tego względu interakcję należy wyłączyć, jeżeli czas reakcji na wybory użytkowników byłby zbyt długi. Interakcję można wyłączyć dla całego raportu (jak opisano powyżej w części *Opcje redukcji zapytania*) lub w indywidualnym przypadku, zgodnie z opisem [w tym artykule](consumer/end-user-interactions.md).
 
 Oprócz powyższej listy sugestii należy pamiętać, że każda z poniższych możliwości raportowania może spowodować problemy z wydajnością:
 

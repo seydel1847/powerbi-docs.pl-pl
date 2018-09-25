@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e2df8ecd746e34b85a3fdd15943ff6eda5712663
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 0de070cc8661d4973d406ddf0749ef4852fc916c
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37598983"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546101"
 ---
 # <a name="edit-or-remove-a-dashboard-tile"></a>Edytowanie lub usuwanie kafelka pulpitu nawigacyjnego
 
@@ -36,7 +36,7 @@ Niniejszy artykuł obejmuje następujące tematy.
 * [Usuwanie kafelka](#delete)
   
   > [!TIP]
-  > Aby zmienić wizualizację wyświetlaną w kafelku, usuń kafelek i dodaj nowy [kafelek pulpitu nawigacyjnego](service-dashboard-tiles.md).
+  > Aby zmienić wizualizację wyświetlaną w kafelku, usuń kafelek i dodaj nowy [kafelek pulpitu nawigacyjnego](consumer/end-user-tiles.md).
 
   
 ## <a name="prerequisites"></a>Wymagania wstępne
@@ -142,11 +142,11 @@ Domyślnie wybranie kafelka zazwyczaj spowoduje przeniesienie użytkownika do ra
 
 - - -
 ## <a name="next-steps"></a>Następne kroki
-[Kafelki pulpitu nawigacyjnego w usłudze Power BI](service-dashboard-tiles.md)
+[Kafelki pulpitu nawigacyjnego w usłudze Power BI](consumer/end-user-tiles.md)
 
-[Pulpity nawigacyjne w usłudze Power BI](service-dashboards.md)
+[Pulpity nawigacyjne w usłudze Power BI](consumer/end-user-dashboards.md)
 
-[Power BI — podstawowe pojęcia](service-basic-concepts.md)
+[Power BI — podstawowe pojęcia](consumer/end-user-basic-concepts.md)
 
 Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
 

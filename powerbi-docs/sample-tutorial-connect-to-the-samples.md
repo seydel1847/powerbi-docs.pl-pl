@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/23/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 02c3998a95e7d481ee032513054933f1484ae7f9
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 8b4a0605df348957c4adb0d8e02975f4cd752307
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "36944611"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46543801"
 ---
 # <a name="the-power-bi-samples"></a>Przykłady usługi Power BI
 
@@ -79,7 +79,7 @@ Teraz możesz samodzielnie eksplorować pulpit nawigacyjny, zestaw danych i rapo
     ![strona raportu z wyróżnioną pasującą wizualizacją](media/sample-tutorial-connect-to-the-samples/power-bi-report.png)
    
    > [!NOTE]
-   > Jeżeli kafelek zostanie utworzony przy użyciu [funkcji pytań i odpowiedzi usługi Power BI](power-bi-q-and-a.md), zamiast tego zostanie otwarta strona funkcji pytań i odpowiedzi. Jeśli kafelek został [przypięty z programu Excel](service-dashboard-pin-tile-from-excel.md), aplikacja Excel Online będzie już otwarta wewnątrz usługi Power BI.
+   > Jeżeli kafelek zostanie utworzony przy użyciu [funkcji pytań i odpowiedzi usługi Power BI](consumer/end-user-q-and-a.md), zamiast tego zostanie otwarta strona funkcji pytań i odpowiedzi. Jeśli kafelek został [przypięty z programu Excel](service-dashboard-pin-tile-from-excel.md), aplikacja Excel Online będzie już otwarta wewnątrz usługi Power BI.
    > 
    > 
 1. Z powrotem na karcie **Zestawy danych** masz kilka opcji umożliwiających eksplorowanie zestawu danych.  Nie możesz otworzyć go i zobaczyć wszystkich wierszy oraz kolumn (jak w przypadku programu Power BI Desktop lub Excel).  Jeżeli ktoś udostępnia współpracownikom pakiet zawartości, zazwyczaj chce podzielić się szczegółowymi informacjami, a nie dawać współpracownikom bezpośredni dostęp do danych. Nie oznacza to jednak, że nie możesz eksplorować zestawu danych.  
@@ -89,7 +89,7 @@ Teraz możesz samodzielnie eksplorować pulpit nawigacyjny, zestaw danych i rapo
    * Jednym ze sposobów eksploracji zestawu danych jest utworzenie własnych wizualizacji i raportów od początku.  Wybierz ikonę wykresu, ![ikona raportu](media/sample-tutorial-connect-to-the-samples/power-bi-chart-icon4.png) aby otworzyć zestaw danych w trybie edycji raportu.
      
        ![całkiem nowy raport](media/sample-tutorial-connect-to-the-samples/power-bi-report-editing.png)
-   * Innym sposobem eksploracji zestawu danych jest uruchomienie funkcji [Szybki wgląd](service-insights.md). Wybierz wielokropek (...) i wybierz opcję **Uzyskaj szczegółowe dane**. Gdy szczegółowe informacje będą gotowe, wybierz opcję **Wyświetl szczegółowe dane**.
+   * Innym sposobem eksploracji zestawu danych jest uruchomienie funkcji [Szybki wgląd](consumer/end-user-insights.md). Wybierz wielokropek (...) i wybierz opcję **Uzyskaj szczegółowe dane**. Gdy szczegółowe informacje będą gotowe, wybierz opcję **Wyświetl szczegółowe dane**.
      
        ![raport usługi Insights](media/sample-tutorial-connect-to-the-samples/power-bi-insights.png)
 
@@ -130,7 +130,7 @@ Teraz możesz samodzielnie eksplorować zestaw danych, relacje i raport. Aby uzy
 
 
 ## <a name="next-steps"></a>Następne kroki
-[Power BI — podstawowe pojęcia](service-basic-concepts.md)
+[Power BI — podstawowe pojęcia](consumer/end-user-basic-concepts.md)
 
 [Przykłady dla usługi Power BI](sample-datasets.md)
 

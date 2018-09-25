@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2018
 ms.author: maggies
-ms.openlocfilehash: 320ab8cef7ba2b36846550dcdb3171c7fb4b788a
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: abd0e6b36af02753d8ff08c8f7405cc6502977d1
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44737081"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548124"
 ---
 # <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>Wirtualny analityk pytań i odpowiedzi w aplikacjach systemu iOS — Power BI
 
@@ -137,11 +137,11 @@ Zobacz sekcję dotyczącą rozpoznawania mowy w ramach [What's New in iOS (Nowo�
 Możesz poprawić wyniki wyświetlane przez Ciebie lub klientów przy korzystaniu z wirtualnego analityka pytań i odpowiedzi w odniesieniu do zestawu danych, zadając bardziej ukierunkowane pytania lub poprawiając zestaw danych.
 
 ### <a name="how-to-ask-questions"></a>Jak zadawać pytania
-* Postępuj zgodnie z tymi [poradami dotyczącymi zadawania pytań w funkcji pytań i odpowiedzi](../../service-q-and-a-tips.md) w usłudze Power BI lub podczas korzystania z wirtualnego analityka pytań i odpowiedzi w aplikacji mobilnej systemu iOS.
+* Postępuj zgodnie z tymi [poradami dotyczącymi zadawania pytań w funkcji pytań i odpowiedzi](../end-user-q-and-a-tips.md) w usłudze Power BI lub podczas korzystania z wirtualnego analityka pytań i odpowiedzi w aplikacji mobilnej systemu iOS.
 
 ### <a name="how-to-enhance-the-dataset"></a>Jak poprawić zestaw danych
 * Popraw zestaw danych w programie Power BI Desktop lub w usłudze Power BI w celu [lepszej współpracy danych z funkcją pytań i odpowiedzi oraz wirtualnym analitykiem pytań i odpowiedzi](../../service-prepare-data-for-q-and-a.md).
 
 ## <a name="next-steps"></a>Następne kroki
-* [Pytania i odpowiedzi w usłudze Power BI](../../power-bi-q-and-a.md)
+* [Pytania i odpowiedzi w usłudze Power BI](../end-user-q-and-a.md)
 * Masz pytania? Sprawdź [sekcję aplikacji mobilnych społeczności usługi Power BI](https://go.microsoft.com/fwlink/?linkid=839277)

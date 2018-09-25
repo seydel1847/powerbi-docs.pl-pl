@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/27/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 83d9e435c1dca10a444f3125830eb6432aecf6bd
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 090a59f406f1e3874f678752f0e0bc9656ae492f
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44728208"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548953"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Co nowego w usłudze Power BI
@@ -89,13 +89,13 @@ Możesz też zapoznać się z kanałami w witrynie YouTube przedstawiającymi no
 
 ### <a name="august-2017"></a>Sierpień 2017
 * Poznawanie odbiorców za pomocą [metryk użycia dla użytkownika](https://powerbi.microsoft.com/blog/introducing-per-user-usage-metrics-know-your-audience-and-amplify-your-impact/).
-* Wprowadzenie do aplikacji [usługi Power BI](service-connect-to-services.md) dla usług online.
+* Wprowadzenie do aplikacji [usługi Power BI](consumer/end-user-connect-to-services.md) dla usług online.
 * Połączenie z systemem IBM Netezza za pomocą lokalnej bramy danych w trybach importu i połączenia zapytań bezpośrednich.
 * [Dynamiczne zabezpieczenia na poziomie wiersza](developer/embedded-row-level-security.md) są teraz obsługiwane w usłudze Power BI Embedded.
 * Zaawansowany [interfejs API filtrowania](https://github.com/Microsoft/powerbi-visuals-sampleslicer/blob/master/doc/UsingAdvancedFilterAPI.md) teraz został dodany do wersji 1.7 interfejsu API niestandardowych wizualizacji.
 
 ### <a name="july-2017"></a>Lipiec 2017
-* Obsługa [subskrypcji za pomocą wiadomości e-mail](service-report-subscribe.md) na panelach nawigacyjnych.
+* Obsługa [subskrypcji za pomocą wiadomości e-mail](consumer/end-user-subscribe.md) na panelach nawigacyjnych.
 * Inspekcja i diagnostyka długiego czasu ładowania w przypadku paneli nawigacyjnych używających Inspektora wydajności.
 * Tryb DirectQuery programów Snowflake i SAP BusinessWarehouse jest teraz obsługiwany na potrzeby lokalnej bramy danych.
 * Nowe [interfejsy API do zarządzania odświeżaniem danych](https://powerbi.microsoft.com/blog/announcing-data-refresh-apis-in-the-power-bi-service/) w usłudze Power BI.
@@ -206,12 +206,12 @@ Wszystkie szczegółowe informacje [znajdują się w blogu zespołu usługi Powe
 
 Wszystkie szczegółowe informacje [znajdują się w blogu zespołu usługi Power BI](https://powerbi.microsoft.com/blog/power-bi-service-may-update-file-size-increase-to-1-gb/)
 
-* [Obsługa pytań i odpowiedzi w usłudze Power BI dla modeli tabelarycznych usług SQL Server 2016 Analysis Services](service-q-and-a-direct-query.md): z przyjemnością ogłaszamy ulepszenia interfejsu użytkownika dla funkcji pytań i odpowiedzi usługi Power BI pod kątem źródeł danych połączonych z bramą przedsiębiorstwa — zaczynając od modeli tabelarycznych usług SQL Server 2016 Analysis Services. Wszystkie szczegółowe informacje [zawiera wpis w blogu](https://powerbi.microsoft.com/blog/power-bi-q-a-for-enterprise-gateway-connected-data-sources-now-available-in-public-preview/)
+* [Obsługa pytań i odpowiedzi w usłudze Power BI dla modeli tabelarycznych usług SQL Server 2016 Analysis Services](consumer/end-user-q-and-a-direct-query.md): z przyjemnością ogłaszamy ulepszenia interfejsu użytkownika dla funkcji pytań i odpowiedzi usługi Power BI pod kątem źródeł danych połączonych z bramą przedsiębiorstwa — zaczynając od modeli tabelarycznych usług SQL Server 2016 Analysis Services. Wszystkie szczegółowe informacje [zawiera wpis w blogu](https://powerbi.microsoft.com/blog/power-bi-q-a-for-enterprise-gateway-connected-data-sources-now-available-in-public-preview/)
 * [Obsługa plików lokalnych dla raportów programu Excel](service-excel-workbook-files.md#local-excel-workbooks): teraz możesz przekazać pliki programu Excel z dysku lokalnego lub innych usług magazynu oraz użyć raportu programu Excel tak samo jak w usłudze Excel Online — z dodatkowymi korzyściami płynącymi z usługi Power BI. Wszystkie szczegółowe informacje [zawiera wpis w blogu](https://powerbi.microsoft.com/blog/powerbi-upload-excel-reports-from-local-files/)
 
 **28 kwietnia 2016**
 
-* [Szybki wgląd w szczegółowe dane na kafelkach pulpitu nawigacyjnego](service-insights.md): podczas wyświetlania kafelka w trybie koncentracji uwagi kliknij pozycję Pobierz analizy, aby automatycznie i w ciągu sekund przeszukać kafelek i powiązane z nim dane pod kątem korelacji, wartości odstających, trendów, sezonowości, punktów zmiany w trendach i głównych czynników.
+* [Szybki wgląd w szczegółowe dane na kafelkach pulpitu nawigacyjnego](consumer/end-user-insights.md): podczas wyświetlania kafelka w trybie koncentracji uwagi kliknij pozycję Pobierz analizy, aby automatycznie i w ciągu sekund przeszukać kafelek i powiązane z nim dane pod kątem korelacji, wartości odstających, trendów, sezonowości, punktów zmiany w trendach i głównych czynników.
 
 Wszystkie szczegółowe informacje [znajdują się w blogu zespołu usługi Power BI](https://powerbi.microsoft.com/blog/find-more-insights-in-your-dashboards-with-quick-insights/)
 
@@ -437,7 +437,7 @@ Wszystkie szczegółowe informacje, w tym prezentacje wideo wielu z aktualizacji
 
 **3 grudnia 2015**
 
-* Automatyczne odnajdywanie trendów i wykrywanie wzorców w zestawie danych za pomocą funkcji szybkiego wglądu w szczegółowe dane: [wideo](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/power-bi-updates-from-browser-to-desktop-and-new-automated-insights-mf.aspx) lub [artykułu](service-insights.md)
+* Automatyczne odnajdywanie trendów i wykrywanie wzorców w zestawie danych za pomocą funkcji szybkiego wglądu w szczegółowe dane: [wideo](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/power-bi-updates-from-browser-to-desktop-and-new-automated-insights-mf.aspx) lub [artykułu](consumer/end-user-insights.md)
 * [Wizualizowanie danych usługi VMob w usłudze Power BI](http://blogs.msdn.com/b/powerbi/archive/2015/11/25/visualize-your-vmob-data-in-power-bi.aspx)
 * [Integracja usługi Power BI z Cortaną](http://blogs.msdn.com/b/powerbi/archive/2015/12/01/announcing-power-bi-integration-with-cortana-and-new-ways-to-quickly-find-insights-in-your-data.aspx)
 * [Wersja zapoznawcza bramy usługi Power BI dla przedsiębiorstw](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/announcing-preview-of-power-bi-gateway-for-enterprise-deployments.aspx)
@@ -587,7 +587,7 @@ Zapoznaj się z [blogiem](http://blogs.msdn.com/b/powerbi/archive/2015/10/06/pow
 
 * Z entuzjazmem ogłaszamy „ogólną dostępność” usługi Power BI. Już dzisiaj utwórz konto usługi [Power BI Pro](service-self-service-signup-for-power-bi.md). W ramach wersji ogólnie dostępnej oferujemy kilka wspaniałych nowych funkcji:
 * Nowe środowisko tworzenia wizualizacji i raportów: nowa kanwa dla raportów z większą liczbą wizualizacji, większa kontrola nad formatowaniem tytułów, legendami, osiami, kolorami, tłami i innymi.
-* [Grupy usługi Power BI](service-create-distribute-apps.md): grupy oferują zaawansowane środowisko współpracy oparte na grupach usługi Office 365.
+* [Grupy usługi Power BI](consumer/end-user-create-apps.md): grupy oferują zaawansowane środowisko współpracy oparte na grupach usługi Office 365.
 * [Pakiety zawartości dla organizacji](service-organizational-content-pack-introduction.md): usługa Power BI bardzo upraszcza tworzenie pulpitów nawigacyjnych i raportów, a teraz użytkownicy mogą publikować tę zawartość w galerii zawartości organizacji.
 * [Obsługa całych plików programu Excel](service-excel-workbook-files.md): możesz przekazać dowolny skoroszyt programu Excel zapisany w usłudze OneDrive dla Firm do usługi Power BI i wyświetlić cały skoroszyt dokładnie tak jak w usłudze Excel Online.
 * [Obsługa plików CSV](service-get-data-from-files.md): tekst rozdzielany przecinkami (CSV), tak samo jak plik programu Excel lub Power BI Desktop, może stanowić zestaw danych dla raportów i pulpitów nawigacyjnych usługi Power BI.

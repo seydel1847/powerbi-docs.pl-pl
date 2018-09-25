@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: aa73da576a64a3245a3e8a9deab124dcefbc79f8
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 946746b1c868ca5310edd929434cc852400b5bc3
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744027"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548079"
 ---
 # <a name="treemaps-in-power-bi"></a>Mapy drzewa w usłudze Power BI
 Mapy drzewa prezentują dane hierarchiczne w formie zestawu zagnieżdżonych prostokątów.  Każdy poziom hierarchii jest przedstawiany jako kolorowy prostokąt (często określany jako „gałąź”) zawierający inne prostokąty („liście”).  Obszar wewnątrz każdego prostokąta jest przydzielany na podstawie mierzonych wartości ilościowych, przy czym prostokąty ułożone są według ich rozmiaru, od lewego górnego rogu (największy) do prawego dolnego rogu (najmniejszy).
@@ -62,7 +62,7 @@ Możesz również utworzyć własną mapę drzewa. W poniższych instrukcjach u�
    > 
 5. Umieść kursor nad obszarem **Chain**, aby wyświetlić etykietkę narzędzia tej części dla wartości **Category**.  Na przykład umieszczenie kursora nad pozycją **Lindseys** w prostokącie **040-Juniors** wyświetli etykietkę narzędzia dla części Lindsey kategorii Juniors.  
    ![](media/power-bi-visualization-treemaps/treemaphoverdetail_new.png)
-6. [Dodaj mapę drzewa jako kafelek pulpitu nawigacyjnego (przypnij wizualizację)](../service-dashboard-tiles.md). 
+6. [Dodaj mapę drzewa jako kafelek pulpitu nawigacyjnego (przypnij wizualizację)](../consumer/end-user-tiles.md). 
 7. [Zapisz raport](../service-report-save.md).
 
 ## <a name="highlighting-and-cross-filtering"></a>Wyróżnianie i filtrowanie krzyżowe
@@ -76,11 +76,11 @@ Wyróżnienie elementu Category lub Details na mapie drzewa spowoduje wyróżnie
 2. Na wykresie kołowym **Last Year Sales by Chain** wybierz wycinek **Fashions Direct**.  
    ![](media/power-bi-visualization-treemaps/treemapnoowl.gif)    
 
-3. Aby zarządzać sposobem, w jaki odbywa się wzajemne wyróżnianie krzyżowe i filtrowanie krzyżowe dla wykresów, zobacz [Interakcje wizualizacji w raporcie usługi Power BI](../service-reports-visual-interactions.md)
+3. Aby zarządzać sposobem, w jaki odbywa się wzajemne wyróżnianie krzyżowe i filtrowanie krzyżowe dla wykresów, zobacz [Interakcje wizualizacji w raporcie usługi Power BI](../consumer/end-user-interactions.md)
 
 ## <a name="next-steps"></a>Następne kroki
 [Przypinanie wizualizacji do pulpitu nawigacyjnego](../service-dashboard-pin-tile-from-report.md)  
-[Power BI — podstawowe pojęcia](../service-basic-concepts.md)  
+[Power BI — podstawowe pojęcia](../consumer/end-user-basic-concepts.md)  
 
 Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)  
 

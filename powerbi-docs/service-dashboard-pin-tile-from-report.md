@@ -11,16 +11,16 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 968cf7e573a298c2a82adaf2092a9d35ffa397e5
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 75543bfc381f0a8391fe4422d677913ab61ad363
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34240215"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46550057"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-a-report"></a>Przypinanie kafelka do pulpitu nawigacyjnego usługi Power BI z raportu
 ## <a name="pinning-tiles-from-a-report"></a>Przypinanie kafelków z raportu
-Jednym ze sposobów dodawania nowego [kafelka pulpitu nawigacyjnego](service-dashboard-tiles.md) jest wstawienie go z [raportu w usłudze Power BI](service-reports.md). W rzeczywistości można dodawać wiele nowych kafelków z raportu.  Każdy z tych kafelków po kliknięciu staje się linkiem do raportu.
+Jednym ze sposobów dodawania nowego [kafelka pulpitu nawigacyjnego](consumer/end-user-tiles.md) jest wstawienie go z [raportu w usłudze Power BI](consumer/end-user-reports.md). W rzeczywistości można dodawać wiele nowych kafelków z raportu.  Każdy z tych kafelków po kliknięciu staje się linkiem do raportu.
 
 Do pulpitu nawigacyjnego można przypinać całe strony raportów.  Jest to również znane jako przypinanie kafelka *dynamicznego*.  *Dynamiczny* — ponieważ możesz wchodzić w interakcję z kafelkiem na pulpicie nawigacyjnym i, w przeciwieństwie do poszczególnych kafelków wizualizacji, zmiany wprowadzane w raporcie są synchronizowane z pulpitem nawigacyjnym. Więcej informacji na temat tego zagadnienia znajdziesz poniżej.
 
@@ -58,15 +58,15 @@ Innym rozwiązaniem jest przypięcie do pulpitu nawigacyjnego całej strony rapo
 Aby uzyskać więcej informacji, zobacz [Przypinanie całej strony raportu](service-dashboard-pin-live-tile-from-report.md)
 
 ## <a name="next-steps"></a>Następne kroki
-[Pulpity nawigacyjne w usłudze Power BI](service-dashboards.md)
+[Pulpity nawigacyjne w usłudze Power BI](consumer/end-user-dashboards.md)
 
-[Kafelki pulpitu nawigacyjnego w usłudze Power BI](service-dashboard-tiles.md)
+[Kafelki pulpitu nawigacyjnego w usłudze Power BI](consumer/end-user-tiles.md)
 
-[Raporty w usłudze Power BI](service-reports.md)
+[Raporty w usłudze Power BI](consumer/end-user-reports.md)
 
 [Odświeżanie danych w usłudze Power BI](refresh-data.md)
 
-[Power BI — podstawowe pojęcia](service-basic-concepts.md)
+[Power BI — podstawowe pojęcia](consumer/end-user-basic-concepts.md)
 
 Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
 

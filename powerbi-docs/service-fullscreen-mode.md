@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 09/04/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 58a739c0d566030d2b09094264da14f6afd6d6fc
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 83b9d87bf494c3b9e974ee9dfdfa97beb68a6579
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44727587"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545802"
 ---
 # <a name="full-screen-mode-in-power-bi-service"></a>Tryb pełnoekranowy w usłudze Power BI
 ## <a name="what-is-full-screen-mode"></a>Co to jest tryb pełnoekranowy?
@@ -24,7 +24,7 @@ ms.locfileid: "44727587"
 
 Wyświetlaj swoją zawartość usługi Power BI (pulpity nawigacyjne, strony raportu, kafelki i wizualizacje) bez naruszania menu i pasków nawigacji.  Możesz wyświetlać nieskażony, pełny widok Twojej zawartości jak na dłoni przez cały czas. Jest to czasami określane jako tryb TV (telewizyjny). Funkcje dostępne w trybie pełnoekranowym zależą od zawartości. 
 
-Jeśli używasz usługi Power BI dla urządzeń przenośnych, [tryb pełnoekranowy jest dostępny w przypadku aplikacji mobilnych systemu Windows 10](consumer/mobile/mobile-windows-10-app-presentation-mode.md). Program Power BI Desktop nie oferuje trybu pełnoekranowego dla raportów lub wizualizacji, ale ma funkcję Dopasuj do strony dla [widoku relacji i widoku raportu](desktop-report-view.md) oraz [tryb koncentracji uwagi dla wizualizacji raportu](service-focus-mode.md).
+Jeśli używasz usługi Power BI dla urządzeń przenośnych, [tryb pełnoekranowy jest dostępny w przypadku aplikacji mobilnych systemu Windows 10](consumer/mobile/mobile-windows-10-app-presentation-mode.md). Program Power BI Desktop nie oferuje trybu pełnoekranowego dla raportów lub wizualizacji, ale ma funkcję Dopasuj do strony dla [widoku relacji i widoku raportu](desktop-report-view.md) oraz [tryb koncentracji uwagi dla wizualizacji raportu](consumer/end-user-focus.md).
 
  
 
@@ -35,7 +35,7 @@ Do niektórych zastosowań trybu pełnoekranowego należą:
 * wyświetlanie na małym ekranie
 * sprawdzanie w trybie zablokowanym — możesz dotknąć ekranu lub ustawić kursor myszy nad kafelkiem bez otwierania raportu źródłowego lub pulpitu nawigacyjnego
 
-> **UWAGA**: Tryb pełnoekranowy różni się od [trybu koncentracji uwagi (wyskakiwania)](service-focus-mode.md).
+> **UWAGA**: Tryb pełnoekranowy różni się od [trybu koncentracji uwagi (wyskakiwania)](consumer/end-user-focus.md).
 > 
 > 
 
@@ -78,7 +78,7 @@ Obejrzyj, jak Amanda otwiera swój pulpit nawigacyjny i porusza się po nim w tr
       ![](media/service-fullscreen-mode/exit-fullscreen-new.png)
 
 ## <a name="visualizations-and-dashboard-tiles-in-full-screen-mode"></a>Wizualizacje i kafelki pulpitu nawigacyjnego w trybie pełnoekranowym
-1. Aby wyświetlić kafelki pulpitu nawigacyjnego i wizualizacje raportu w trybie pełnoekranowym, musisz rozpocząć od tego kafelka lub wizualizacji, który już jest w [trybie koncentracji uwagi](service-focus-mode.md). 
+1. Aby wyświetlić kafelki pulpitu nawigacyjnego i wizualizacje raportu w trybie pełnoekranowym, musisz rozpocząć od tego kafelka lub wizualizacji, który już jest w [trybie koncentracji uwagi](consumer/end-user-focus.md). 
    
     ![](media/service-fullscreen-mode/power-bi-focus3.png)
 2. Następnie wybierz ikonę pełnego ekranu ![ikona pełnego ekranu](media/service-fullscreen-mode/power-bi-full-screen-icon.png)  dla tego kafelka lub elementu wizualnego. Kafelek lub element wizualny wyświetli pełny ekran bez menu i pasków nawigacji.
@@ -86,8 +86,8 @@ Obejrzyj, jak Amanda otwiera swój pulpit nawigacyjny i porusza się po nim w tr
     ![](media/service-fullscreen-mode/power-bi-fullscreen.png)
 
 ## <a name="next-steps"></a>Następne kroki
-[Pulpity nawigacyjne w usłudze Power BI](service-dashboards.md)  
-[Tryb koncentracji uwagi](service-focus-mode.md)    
+[Pulpity nawigacyjne w usłudze Power BI](consumer/end-user-dashboards.md)  
+[Tryb koncentracji uwagi](consumer/end-user-focus.md)    
 
 Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
 

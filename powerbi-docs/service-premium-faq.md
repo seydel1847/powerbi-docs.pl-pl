@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/20/2017
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 25340ac8349e112b2424496274441feedebe7052
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 85a5856d20781012f32d53c9468fdd6b77a0f685
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "34298854"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546613"
 ---
 # <a name="power-bi-premium-faq"></a>Power BI Premium — często zadawane pytania
 Przeglądaj listę często zadawanych pytań i odpowiedzi dotyczących usługi Power BI Premium.
@@ -102,7 +102,7 @@ Aby uzyskać więcej informacji na temat serwera raportów usługi Power BI, zob
 **Co to są aplikacje Power BI?**  
 Pakiety zawartości są obecnie przekształcane w aplikacje Power BI w celu usprawnienia odnajdywania i eksplorowania szczegółowych informacji w skali przedsiębiorstwa. Aplikacje Power BI są już dostępne i ułatwiają udostępnianie pulpitów nawigacyjnych i raportów określonym osobom lub grupom oraz ich wdrażanie w całej organizacji. Użytkownicy biznesowi mogą łatwo zainstalować te automatycznie aktualizowane oraz łatwe w obsłudze aplikacje i korzystać z zawartości dostępnej w jednym miejscu. 
 
-Aby uzyskać więcej informacji o aplikacjach, zobacz [Czym są aplikacje w usłudze Power BI?](service-install-use-apps.md)
+Aby uzyskać więcej informacji o aplikacjach, zobacz [Czym są aplikacje w usłudze Power BI?](consumer/end-user-apps.md)
 
 **Czy w związku z wprowadzeniem usługi Power BI Premium zostanie zmieniona usługa Power BI Pro, wersja bezpłatna usługi Power BI, program Power BI Desktop lub inne produkty?**  
 Aktualnie ujednolicamy funkcjonalność usługi Power BI Pro oraz wersji bezpłatnej usługi. Wersja bezpłatna usługi jest przeznaczona do użytku osobistego, a usługa Power BI Pro — do pracy zespołowej. Z otrzymanych przez nas opinii wynika, że różnice funkcjonalne między nimi są mylące dla użytkowników. W przyszłości rozszerzymy wersję bezpłatną usługi i wprowadzimy w niej zestaw funkcji z usługi Power BI Pro, ale udostępnianie i współpraca będą dostępne tylko dla użytkowników usługi Power BI Pro.

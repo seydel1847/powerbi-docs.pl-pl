@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/24/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: cde28e7c41a35c3bbc37d0da56313ad7f8698110
-ms.sourcegitcommit: 15b877343540bb7e21f1d5bbd3d6f64e66fa138c
+ms.openlocfilehash: 5a94b4c808dcb7cbb040f68c0de7588a3b99c155
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42914524"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548838"
 ---
 # <a name="create-the-new-workspaces-preview-in-power-bi"></a>Tworzenie nowych obszarów roboczych (wersja zapoznawcza) w usłudze Power BI
 
@@ -130,7 +130,7 @@ Tworzymy przepływy pracy dla żądań dostępu w usłudze, tak aby użytkownicy
 
 ## <a name="distribute-an-app"></a>Rozpowszechnianie aplikacji
 
-Gdy zawartość jest gotowa, możesz wybrać, które pulpity nawigacyjne i raporty chcesz opublikować, a następnie opublikować je jako *aplikację*. W każdym obszarze roboczym możesz utworzyć jedną aplikację. Twoi współpracownicy mogą uzyskać tę aplikację na kilka różnych sposobów. Możesz automatycznie instalować ją na kontach usługi Power BI swoich współpracowników, jeśli administrator usługi Power BI przyzna Ci odpowiednie uprawnienia. Jeśli nie, mogą oni znaleźć i zainstalować aplikację przy użyciu usługi Microsoft AppSource lub otrzymać bezpośredni link. Mogą automatycznie uzyskiwać aktualizacje, a Ty możesz kontrolować, jak często dane są odświeżane. Zobacz [Tworzenie i publikowanie aplikacji z pulpitami nawigacyjnymi i raportami w usłudze Power BI](service-create-distribute-apps.md), aby uzyskać bardziej szczegółowe informacje.
+Gdy zawartość jest gotowa, możesz wybrać, które pulpity nawigacyjne i raporty chcesz opublikować, a następnie opublikować je jako *aplikację*. W każdym obszarze roboczym możesz utworzyć jedną aplikację. Twoi współpracownicy mogą uzyskać tę aplikację na kilka różnych sposobów. Możesz automatycznie instalować ją na kontach usługi Power BI swoich współpracowników, jeśli administrator usługi Power BI przyzna Ci odpowiednie uprawnienia. Jeśli nie, mogą oni znaleźć i zainstalować aplikację przy użyciu usługi Microsoft AppSource lub otrzymać bezpośredni link. Mogą automatycznie uzyskiwać aktualizacje, a Ty możesz kontrolować, jak często dane są odświeżane. Zobacz [Tworzenie i publikowanie aplikacji z pulpitami nawigacyjnymi i raportami w usłudze Power BI](consumer/end-user-create-apps.md), aby uzyskać bardziej szczegółowe informacje.
 
 ## <a name="convert-old-app-workspaces-to-new-app-workspaces"></a>Konwertowanie starych obszarów roboczych aplikacji na nowe obszary robocze aplikacji
 
@@ -174,5 +174,5 @@ Następujące problemy są znane, a poprawki do nich są w fazie projektowania:
 ## <a name="next-steps"></a>Następne kroki
 
 - [Tworzenie obszarów roboczych w bieżącej wersji](service-create-workspaces.md)
-* [Instalowanie i używanie aplikacji w usłudze Power BI](service-install-use-apps.md)
+* [Instalowanie i używanie aplikacji w usłudze Power BI](consumer/end-user-apps.md)
 * Masz pytania? [Zadaj pytanie społeczności usługi Power BI](http://community.powerbi.com/)

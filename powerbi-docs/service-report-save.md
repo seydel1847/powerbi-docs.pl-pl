@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 0e462fa6faf8d83bfcdb8658e2fcb852aeac5c3b
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: deba4a654c1b43361f7c44c2f0717fb7e348cb98
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34248912"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548677"
 ---
 # <a name="save-a-report-in-power-bi-service-and-power-bi-desktop"></a>Zapisywanie raportu w usłudze Power BI i programie Power BI Desktop
 Po wprowadzeniu zmian do raportu w usłudze Power BI możesz zapisać go, zapisać pod nową nazwą lub zamknąć bez zapisywania zmian. Załóżmy, że otworzono raport, utworzono wizualizację i przypięto ją do pulpitu nawigacyjnego. Jeśli zamkniesz raport bez zapisania wprowadzonych zmian, kafelek pozostanie na pulpicie nawigacyjnym, ale wizualizacja nie zostanie zapisana w raporcie. Po kliknięciu tego kafelka na pulpicie nawigacyjnym raport zostanie otwarty, ale wizualizacja nie istnieje w raporcie.
@@ -29,7 +29,7 @@ Po wprowadzeniu zmian do raportu w usłudze Power BI możesz zapisać go, zapisa
 1. Jeśli zechcesz opuścić raport, który zawiera zmiany, usługa Power BI wyświetli monit.
    
    ![Zapisywanie zmian](media/service-report-save/power-bi-unsaved.png)
-2. Innym sposobem zapisania raportu jest wybranie pozycji **PLIK** \> **Zapisz** lub **Zapisz jako**. Jeśli jesteś w [widoku do czytania](service-reading-view-and-editing-view.md), dostępna będzie tylko opcja Zapisz jako. 
+2. Innym sposobem zapisania raportu jest wybranie pozycji **PLIK** \> **Zapisz** lub **Zapisz jako**. Jeśli jesteś w [widoku do czytania](consumer/end-user-reading-view.md), dostępna będzie tylko opcja Zapisz jako. 
    
    ![Zapisywanie raportu](media/service-report-save/power-bi-save-new.png)
 3. Jeśli jest to nowy raport (Zapisz) lub nowa wersja istniejącego raportu (Zapisz jako), podaj opisową nazwę.  **Raport zostanie dodany do aktywnego obszaru roboczego**.
@@ -37,9 +37,9 @@ Po wprowadzeniu zmian do raportu w usłudze Power BI możesz zapisać go, zapisa
     ![nazywanie raportu](media/service-report-save/power-bi-save-dialog.png)
 
 ### <a name="next-steps"></a>Następne kroki
-Przeczytaj więcej na temat [raportów w usłudze Power BI](service-reports.md)
+Przeczytaj więcej na temat [raportów w usłudze Power BI](consumer/end-user-reports.md)
 
-[Power BI — podstawowe pojęcia](service-basic-concepts.md)
+[Power BI — podstawowe pojęcia](consumer/end-user-basic-concepts.md)
 
 Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
 

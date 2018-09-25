@@ -9,12 +9,12 @@ ms.topic: overview
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: c2e0dc401e5927e69ecb9b059042df646b238bd5
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 1d5f5b4458dca8fb9d45dfc938f16e5fa77f45db
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "36944404"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545388"
 ---
 # <a name="what-is-power-bi"></a>Co to jest usługa Power BI?
 Usługa **Power BI** to zbiór usług oprogramowania, aplikacji i łączników, które działają razem, aby przekształcić niepowiązane źródła danych w spójne, atrakcyjne wizualnie i interaktywne analizy. Niezależnie od tego, czy dane to prosty arkusz kalkulacyjny programu Excel, czy też kolekcja chmurowych i lokalnych hybrydowych hurtowni danych, usługa **Power BI** umożliwia łatwe łączenie ze źródłami danych, wizualizowanie (lub odnajdywanie) ważnych informacji i udostępnianie ich wszystkim wybranym osobom.
@@ -57,5 +57,5 @@ Tworzenie i wdrażanie raportów dla urządzeń przenośnych i raportów z podzi
 Serwer raportów usługi Power BI to rozwiązanie wdrażane za zaporą, które dostarcza raporty do odpowiednich użytkowników na różne sposoby: wyświetlając je w przeglądarce internetowej, na urządzeniu przenośnym lub w postaci wiadomości e-mail. W związku z tym, że serwer raportów usługi Power BI jest zgodny z usługą Power BI w chmurze, możesz przenieść swoje środowisko pracy do chmury, gdy będzie gotowe.
 
 ## <a name="next-steps"></a>Następne kroki
-[Logowanie, pobieranie danych i zapoznawanie się z usługą Power BI](service-the-new-power-bi-experience.md)   
+[Logowanie, pobieranie danych i zapoznawanie się z usługą Power BI](consumer/end-user-experience.md)   
 [Samouczek: wprowadzenie do usługi Power BI](service-get-started.md)

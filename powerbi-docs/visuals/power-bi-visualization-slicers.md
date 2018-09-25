@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
 ms.date: 05/25/2018
-ms.author: v-thepet
+ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5758bb53fe4a8a3658d242c3bd72da0a78500579
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: babd30b89970108a06475ec3e7dab7e2ca708425
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44737513"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46565089"
 ---
 # <a name="slicers-in-power-bi"></a>Fragmentatory w usłudze Power BI
 Chcesz, aby czytelnicy raportu mogli zapoznawać się z ogólnymi metrykami sprzedaży, ale również identyfikować wydajność poszczególnych menedżerów regionalnych i wydajność w różnych przedziałach czasowych. Możesz utworzyć oddzielne raporty lub wykresy porównawcze albo skorzystać z fragmentatorów. Fragmentator to alternatywny sposób filtrowania, który zawęża część zestawu danych wyświetlanego w innych wizualizacjach w raporcie. 
@@ -98,7 +98,7 @@ Możesz użyć pozycji **Interakcje wizualne**, aby niektóre wizualizacje stron
 2. Wybierz ikonę **Brak** nad wykresem **Total Sales Variance by FiscalMonth and District Manager** (Różnice łącznej sprzedaży według wartości FiscalMonth i menedżera regionalnego), aby uniemożliwić fragmentatorowi jego filtrowanie. 
 3. Wybierz fragmentator **Month** (Miesiąc), a następnie ponownie ikonę **Brak** nad wykresem **Total Sales Variance by FiscalMonth and District Manager** (Różnice łącznej sprzedaży według wartości FiscalMonth i menedżera regionalnego), aby uniemożliwić fragmentatorowi jego filtrowanie. Teraz po wybraniu nazw i zakresów dat we fragmentatorach wykres Total Sales Variance by FiscalMonth and District Manager (Różnice łącznej sprzedaży według wartości FiscalMonth i menedżera regionalnego) pozostaje niezmieniony. 
 
-Aby uzyskać więcej informacji na temat edytowania interakcji, zobacz temat [Interakcje wizualizacji w raporcie Power BI](../service-reports-visual-interactions.md).
+Aby uzyskać więcej informacji na temat edytowania interakcji, zobacz temat [Interakcje wizualizacji w raporcie Power BI](../consumer/end-user-interactions.md).
 
 ## <a name="sync-and-use-slicers-on-other-pages"></a>Synchronizacja i używanie fragmentatorów na innych stronach
 Począwszy od aktualizacji usługi Power BI w lutym 2018, można synchronizować fragmentator i używać go na dowolnych lub wszystkich stronach w raporcie. 
@@ -193,5 +193,5 @@ Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community
 
 [Typy wizualizacji w usłudze Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
-[Power BI — podstawowe pojęcia](../service-basic-concepts.md)
+[Power BI — podstawowe pojęcia](../consumer/end-user-basic-concepts.md)
 

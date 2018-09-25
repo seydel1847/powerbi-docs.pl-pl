@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/24/2017
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: af90ba6bcf85c07d2d046ed21f733ca7c16e3856
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a22bee33254e447f27f717b78a53fe3a5cc34fb2
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34242136"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545457"
 ---
 # <a name="page-display-settings-in-a-power-bi-report"></a>Ustawienia wyświetlania strony w raporcie usługi Power BI
 Rozumiemy, że zachowanie doskonałej zgodności Twojego układ raportu piksel w piksel ma krytyczne znaczenie. Czasami może to stanowić wyzwanie, ponieważ Ty i Twoi współpracownicy wyświetlacie te raporty na ekranach o różnych współczynnikach proporcji i rozmiarach. 
@@ -39,7 +39,7 @@ W usłudze Power BI otwórz raport i wybierz pozycję **Widok** z górnego paska
 
 ![](media/power-bi-report-display-settings/power-bi-change-page-view.png)
 
-Ustawienia widoku strony są dostępne w [widoku do czytania i w widoku do edycji](service-reading-view-and-editing-view.md). W widoku do edycji właściciel raportu może przypisać ustawienia widoku strony do poszczególnych stron raportu i te ustawienia są zapisywane wraz z raportem. Gdy współpracownicy otworzą ten raport w widoku do czytania, zobaczą strony raportu wyświetlane przy użyciu ustawień właściciela.  W widoku do czytania współpracownicy mogą zmienić *niektóre* ustawienia Widok strony, ale zmiany nie są zapisywane podczas zamykania raportu.
+Ustawienia widoku strony są dostępne w [widoku do czytania i w widoku do edycji](consumer/end-user-reading-view.md). W widoku do edycji właściciel raportu może przypisać ustawienia widoku strony do poszczególnych stron raportu i te ustawienia są zapisywane wraz z raportem. Gdy współpracownicy otworzą ten raport w widoku do czytania, zobaczą strony raportu wyświetlane przy użyciu ustawień właściciela.  W widoku do czytania współpracownicy mogą zmienić *niektóre* ustawienia Widok strony, ale zmiany nie są zapisywane podczas zamykania raportu.
 
 ##    <a name="page-view-settings"></a>Ustawienia Widok strony
 Pierwszy zestaw ustawień *Widok strony* kontroluje wyświetlanie strony raportu względem okna przeglądarki.  Wybierz spośród opcji:
@@ -62,7 +62,7 @@ Drugi zestaw ustawień *Widok strony* kontroluje pozycjonowanie obiektów na kan
 ## <a name="page-size-settings"></a>Ustawienia rozmiaru strony
 ![](media/power-bi-report-display-settings/power-bi--page-size.png)
 
-Ustawienia *Rozmiar strony* są dostępne tylko dla właścicieli raportów. W usłudze Power BI (app.powerbi.com) oznacza to możliwość otworzenia raportu w [widoku do edycji](service-reading-view-and-editing-view.md). Te ustawienia kontrolują współczynnik proporcji ekranu i rzeczywisty rozmiar (w pikselach) kanwy raportu.   
+Ustawienia *Rozmiar strony* są dostępne tylko dla właścicieli raportów. W usłudze Power BI (app.powerbi.com) oznacza to możliwość otworzenia raportu w [widoku do edycji](consumer/end-user-reading-view.md). Te ustawienia kontrolują współczynnik proporcji ekranu i rzeczywisty rozmiar (w pikselach) kanwy raportu.   
 
 * Proporcje 4:3
 * Proporcje 16:9 (ustawienie domyślne)
@@ -71,11 +71,11 @@ Ustawienia *Rozmiar strony* są dostępne tylko dla właścicieli raportów. W u
 * Niestandardowe (wysokość i szerokość w pikselach)
 
 ## <a name="next-steps"></a>Następne kroki
-[Dowiedz się, jak korzystać z ustawień Widok strony i Rozmiar strony w swoich raportach usługi Power BI](power-bi-change-report-display-settings.md).
+[Dowiedz się, jak korzystać z ustawień Widok strony i Rozmiar strony w swoich raportach usługi Power BI](consumer/end-user-report-view.md).
 
-Przeczytaj więcej na temat [raportów w usłudze Power BI](service-reports.md)
+Przeczytaj więcej na temat [raportów w usłudze Power BI](consumer/end-user-reports.md)
 
-[Power BI — podstawowe pojęcia](service-basic-concepts.md)
+[Power BI — podstawowe pojęcia](consumer/end-user-basic-concepts.md)
 
 Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
 

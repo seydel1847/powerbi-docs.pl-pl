@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 04a385d67a8cc462b21c16cf7daaa5aa675436d9
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 72c51a6eae4acec5bfc0af7b471f98dfcb22da67
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44737124"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549805"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Eksploruj kafelki w aplikacjach mobilnych usługi Power BI
 Dotyczy:
@@ -23,7 +23,7 @@ Dotyczy:
 |:--- |:--- |:--- |:--- |:--- |
 | Telefony iPhone |Urządzenia iPad |Telefony z systemem Android |Tablety z systemem Android |Urządzenia z systemem Windows 10 |
 
-Kafelki to żywe migawki Twoich danych przypięte do pulpitu nawigacyjnego. Ich wartości zmieniają się wraz ze zmianą danych. **Możesz [dodać kafelki do pulpitu nawigacyjnego w usłudze Power BI](../../service-dashboard-tiles.md).** 
+Kafelki to żywe migawki Twoich danych przypięte do pulpitu nawigacyjnego. Ich wartości zmieniają się wraz ze zmianą danych. **Możesz [dodać kafelki do pulpitu nawigacyjnego w usłudze Power BI](../end-user-tiles.md).** 
 
 Następnie w aplikacjach mobilnych usługi Power BI otwórz kafelki w trybie ostrości i wejdź z nimi w interakcję. Możesz otworzyć kafelki z wszelkiego rodzaju elementami wizualnymi, łącznie z kafelkami opartymi na usłudze Bing i języku R.
 
