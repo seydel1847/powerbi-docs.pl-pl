@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/08/2018
+ms.date: 09/10/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 6aa3e6ba5a471176a6af2551344744cdc45697fb
-ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
+ms.openlocfilehash: 4cc2c0ae14cf457c3a704b2891e070f4e4e00166
+ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39657948"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44512184"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Używanie motywów raportów w programie Power BI Desktop
 **Motywy raportów** umożliwiają zastosowanie motywu kolorystycznego — kolorów firmowych, okolicznościowych lub dowolnego innego motywu kolorystycznego — do całego raportu. Zastosowanie **motywu raportu** spowoduje, że kolory tego motywu będą używane we wszystkich wizualizacjach w raporcie (z kilkoma wyjątkami opisanymi w dalszej części tego artykułu).
@@ -36,7 +36,17 @@ Jeśli używasz starszej wersji programu **Power BI Desktop**, możesz je włąc
 Zawsze zalecamy uaktualnienie programu **Power BI Desktop** do najnowszej wersji, którą można pobrać za pomocą linku na stronie [Uzyskiwanie programu Power BI Desktop](desktop-get-the-desktop.md). 
 
 ## <a name="how-report-themes-work"></a>Jak działają motywy raportów
-Aby zastosować motyw raportu do raportu w programie Power BI Desktop, wybierz przycisk **Przełącz motyw** na karcie **Narzędzia główne** wstążki, a następnie wybierz pozycję **Importuj motyw** z listy rozwijanej.
+Aby zastosować motyw raportu do raportu usługi Power BI Desktop, możesz wybrać jeden spośród dostępnych wbudowanych motywów raportów lub zaimportować motyw niestandardowy.
+
+Aby wybrać spośród dostępnych wbudowanych motywów raportów, wybierz przycisk **Przełącz motyw** na karcie wstążki **Narzędzia główne**, a następnie wybierz jeden z dołączonym motywów z listy rozwijanej.
+
+![Wybieranie motywu raportu](media/desktop-report-themes/report-themes_2a.png)
+
+Wybrany motyw raportu zostanie zastosowany do raportu i będzie można rozpocząć pracę.
+
+### <a name="importing-report-themes"></a>Importowanie motywów raportów
+
+Aby zaimportować niestandardowy motyw raportu do raportu w programie Power BI Desktop, wybierz przycisk **Przełącz motyw** na karcie wstążki **Narzędzia główne**, a następnie wybierz pozycję **Importuj motyw** z listy rozwijanej.
 
 ![](media/desktop-report-themes/report-themes_3.png)
 

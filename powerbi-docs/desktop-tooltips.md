@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 07/24/2018
+ms.date: 09/10/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: c21d04da722e017210f7f83df3e1a5aa7dde1166
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: 69c0e6d253a1d8d8ecad9f562c0b992c01d4d577
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39280759"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547143"
 ---
-# <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop-preview"></a>Tworzenie etykietek narzędzi opartych na stronach raportu w programie Power BI Desktop (wersja zapoznawcza)
+# <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop"></a>Tworzenie etykietek narzędzi opartych na stronach raportu w programie Power BI Desktop
 Możesz tworzyć wizualnie bogate **etykietki narzędzi raportu**, wyświetlane po najechaniu kursorem na elementy wizualne, w oparciu o strony raportu utworzonego w programie **Power BI Desktop**. Poprzez utworzenie strony raportu służącej jako etykietka narzędzi, możesz uwzględnić w niestandardowych etykietkach narzędzi elementy wizualne, obrazy i inne kolekcje elementów utworzonych na stronie raportu. 
 
 ![Etykietki narzędzi raportów dla programu Power BI Desktop](media/desktop-tooltips/desktop-tooltips_00a.png)
@@ -27,11 +27,15 @@ Możesz utworzyć dowolną liczbę stron etykietek narzędzi. Każda strona etyk
 Istnieje wiele interesujących rzeczy, które można wykonać przy użyciu etykietek narzędzi raportów. Przyjrzyjmy się sposobom tworzenia etykietek narzędzi oraz czynnościom związanym z ich konfiguracją.
 
 ### <a name="enable-the-tooltips-preview"></a>Włączanie wersji zapoznawczej etykietek narzędzi 
-Ponieważ etykietki narzędzi są obecnie w wersji zapoznawczej, należy je włączyć, zanim będzie można utworzyć etykietki narzędzi raportów. Aby włączyć funkcję wersji zapoznawczej etykietek narzędzi raportów, wybierz pozycję **Plik > Opcje i ustawienia > Opcje > Funkcje wersji zapoznawczej** w programie Power BI Desktop, a następnie zaznacz pole wyboru obok pozycji **Etykietki narzędzi strony raportu**. 
+Począwszy od wersji programu **Power BI Desktop** z września 2018 r., etykietki narzędzi są ogólnie dostępne i nie trzeba ich włączać. 
+
+Jeśli używasz starszej wersji programu **Power BI Desktop**, możesz je włączyć jako funkcję w wersji zapoznawczej, wybierając kolejno pozycje **Plik > Opcje i ustawienia > Opcje > Funkcje wersji zapoznawczej** w programie Power BI Desktop, a następnie zaznaczając pole wyboru **Etykietki narzędzi strony raportu**. 
 
 ![Włączanie funkcji wersji zapoznawczej etykietek narzędzi raportów](media/desktop-tooltips/desktop-tooltips_01.png)
 
 Musisz ponownie uruchomić program **Power BI Desktop** po dokonaniu wyboru, aby włączyć wersję zapoznawczą etykietek narzędzi raportów.
+
+Zawsze zalecamy uaktualnienie programu **Power BI Desktop** do najnowszej wersji, którą można pobrać za pomocą linku na stronie [Uzyskiwanie programu Power BI Desktop](desktop-get-the-desktop.md). 
 
 ## <a name="create-a-report-tooltip-page"></a>Tworzenie strony etykietki narzędzi raportów
 Aby rozpocząć, utwórz nową stronę raportu, klikając przycisk **+** w dolnej części kanwy programu **Power BI Desktop** w obszarze kart strony. Przycisk znajduje się obok ostatniej strony raportu. 
@@ -117,8 +121,9 @@ Gdy element wizualny zostaje wyróżniony krzyżowo w raporcie, etykietki narzę
 
 
 ## <a name="limitations-and-considerations"></a>Ograniczenia i istotne zagadnienia
-W tej wersji zapoznawczej funkcji **etykietek narzędzi** raportów występują pewne ograniczenia i zagadnienia, które trzeba mieć na uwadze.
+Należy pamiętać o kilku ograniczeniach i istotnych zagadnieniach dotyczących **etykietek narzędzi**.
 
+* Począwszy od wersji **Power BI Desktop** z września 2018 r., w której wprowadzono ogólną dostępność etykietek narzędzi, wizualizacje kart również obsługują etykietki narzędzi.
 * Począwszy od wersji programu **Power BI Desktop** z lipca 2018 r. wizualizacje tabel i macierzy są obsługiwane w przypadku etykietek narzędzi. 
 * Etykietki narzędzi raportów nie są obsługiwane w przypadku wyświetlania raportów w aplikacjach mobilnych lub w środowiskach osadzonych, w tym w przypadku publikowania w Internecie. 
 * Etykietki narzędzi raportów nie są obsługiwane w przypadku niestandardowych elementów wizualnych. 
@@ -131,5 +136,5 @@ W tej wersji zapoznawczej funkcji **etykietek narzędzi** raportów występują 
 Aby uzyskać więcej informacji o podobnych funkcjach lub interakcji z etykietkami narzędzi raportów, sprawdź następujące artykuły:
 
 * [Używanie przeglądania szczegółowego w programie Power BI Desktop](desktop-drillthrough.md)
-* [Wyświetlanie kafelka pulpitu nawigacyjnego lub wizualizacji raportu w trybie koncentracji uwagi](service-focus-mode.md)
+* [Wyświetlanie kafelka pulpitu nawigacyjnego lub wizualizacji raportu w trybie koncentracji uwagi](consumer/end-user-focus.md)
 

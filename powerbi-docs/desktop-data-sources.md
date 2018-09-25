@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/06/2018
+ms.date: 09/10/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: fa812801eb01529c3e364d69f041b7efd193c3ae
-ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
+ms.openlocfilehash: 05a644c300a0879b2f5eedd95cdddc537cc6fd0b
+ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39657879"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44512069"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Źródła danych w programie Power BI Desktop
 Korzystając z programu Power BI Desktop, możesz nawiązywać połączenie z danymi z wielu różnych źródeł. Pełna lista dostępnych źródeł danych znajduje się w dolnej części tej strony.
@@ -53,6 +53,7 @@ Kategoria **Plik** udostępnia następujące połączenia danych:
 * XML
 * JSON
 * Folder
+* PDF (beta)
 * Folder programu SharePoint
 
 Na poniższej ilustracji przedstawiono okno **Pobieranie danych** dla kategorii **Plik**.
@@ -79,7 +80,8 @@ Kategoria **Baza danych** udostępnia następujące połączenia danych:
 * Impala
 * Google BigQuery
 * Snowflake
-* Exasol
+* Exasol (wersja beta)
+* Jethro (wersja beta)
 
 > [!NOTE]
 > Niektóre łączniki baz danych wymagają włączenia przez wybranie pozycji **Plik > Opcje i ustawienia > Opcje**, a następnie wybranie opcji **Funkcje wersji zapoznawczej** i włączenie łącznika. Jeśli chcesz użyć niektórych łączników wymienionych powyżej, ale ich nie widzisz, sprawdź ustawienie **Funkcje wersji zapoznawczej**. Pamiętaj jednak, że wszystkie źródła danych oznaczone jako *beta* lub *wersja zapoznawcza* mają ograniczone wsparcie i funkcjonalność, dlatego nie powinny być używane w środowiskach produkcyjnych.
@@ -93,6 +95,7 @@ Na poniższej ilustracji przedstawiono okno **Pobieranie danych** dla kategorii 
 Kategoria **Power BI** udostępnia następujące połączenia danych:
 
 * Zestawy danych usługi Power BI
+* Przepływy danych usługi Power BI (wersja beta)
 
 Na poniższej ilustracji przedstawiono okno **Pobieranie danych** dla kategorii **Power BI**.
 
@@ -108,7 +111,7 @@ Kategoria **Azure** udostępnia następujące połączenia danych:
 * Azure Cosmos DB (beta)
 * Azure Data Lake Store
 * Azure HDInsight (HDFS)
-* Azure HDInsight Spark (wersja beta)
+* Azure HDInsight Spark
 * Interaktywne zapytanie usługi HDInsight (beta)
 * Azure KustoDB (beta)
 
@@ -169,6 +172,7 @@ Kategoria **Inne** udostępnia następujące połączenia danych:
 * Plik usługi Hadoop (HDFS)
 * Spark
 * Skrypt języka R
+* Skrypt języka Python
 * ODBC
 * OLE DB
 * Puste zapytanie

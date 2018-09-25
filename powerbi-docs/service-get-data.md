@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: fba2ea948190a59039766ffc2b5fab6189896ab8
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 4b61ff56ea1aec64a3e88db46836f948c4190d60
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39328493"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547458"
 ---
 # <a name="data-sources-for-the-power-bi-service"></a>Źródła danych dla usługi Power BI
 Dane są kluczowe dla usługi Power BI. Każde eksplorowanie danych, tworzenie wykresów i pulpitów nawigacyjnych oraz zadawanie pytań za pomocą aparatu Pytania i odpowiedzi wiąże się z wyświetlaniem wizualizacji i odpowiedzi, które pobierają swoje dane źródłowe z zestawu danych. Ale skąd ten zestaw danych pochodzi? Ze źródła danych.
@@ -44,7 +44,7 @@ Miejsce przechowywania plików jest równie ważne. Usługa OneDrive dla Firm za
 
 Pakiety zawartości zawierają wszystkie niezbędne dane i raporty gotowe do użycia. W usłudze Power BI występują dwa rodzaje pakietów zawartości: pochodzące z usług takich jak Google Analytics, Marketo i Salesforce oraz utworzone i udostępnione przez innych użytkowników w organizacji.
 
-**Usługi** — pakiety zawartości dla usługi Power BI można znaleźć w niezliczonej liczbie usług, a kolejne są cały czas dodawane. Większość usług wymaga posiadania konta. Aby dowiedzieć się więcej, zobacz [Łączenie się z usługami](service-connect-to-services.md).
+**Usługi** — pakiety zawartości dla usługi Power BI można znaleźć w niezliczonej liczbie usług, a kolejne są cały czas dodawane. Większość usług wymaga posiadania konta. Aby dowiedzieć się więcej, zobacz [Łączenie się z usługami](consumer/end-user-connect-to-services.md).
 
 **Organizacyjne** — jeśli użytkownicy w organizacji mają konta usługi Power BI Pro, możliwe jest tworzenie, udostępnianie i używanie pakietów zawartości. Aby dowiedzieć się więcej, zobacz [Organizacyjne pakiety zawartości](service-organizational-content-pack-introduction.md).
 
