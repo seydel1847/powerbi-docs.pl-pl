@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/10/2018
+ms.date: 09/17/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: dfb45be36516be9196fbdd4297209ce4bf15925c
-ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
+ms.openlocfilehash: 71894a801f0c993abaaedc92d4172da67b76f7a0
+ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44513332"
+ms.lasthandoff: 09/17/2018
+ms.locfileid: "45974212"
 ---
 # <a name="aggregations-in-power-bi-desktop-preview"></a>Agregacje w programie Power BI Desktop (wersja zapoznawcza)
 
@@ -61,7 +61,7 @@ Załóżmy, że następujące tabele wymiarów są najczęściej używane w przy
 
 * Geography
 * Customer
-* Date
+* Data
 * Product Subcategory
 * Product Category
 
@@ -243,7 +243,7 @@ Następujący model replikuje atrybuty *Month*, *Quarter*, *Semester* i *Year* w
 
 W poniższej tabeli przedstawiono zestaw wpisów w oknie dialogowym **Zarządzaj agregacjami** dla tabeli **Sales Agg**. Wpisy Grupuj według, w których tabela **Date** to tabela szczegółów, muszą osiągnąć agregacje w przypadku zapytań, które przeprowadzają grupowanie według atrybutów tabeli Date. Tak jak w poprzednim przykładzie, wpisy Grupuj według dla kolumn CustomerKey i ProductSubcategoryKey nie wpływają na trafienia agregacji ze względu na obecność relacji (ponownie za wyjątkiem funkcji DISTINCTCOUNT).
 
-![Tabela agregacji Sales Agg](media/desktop-aggregations/aggregations-table_03.jpg)
+![Tabela agregacji Sales Agg](media/desktop-aggregations/aggregations-table_04.jpg)
 
 > Uwaga: ten model wymaga, żeby tabela **Date** była w trybie DirectQuery w oknie dialogowym zarządzania agregacjami, ponieważ jest to tabela szczegółów. Zamierzamy usunąć to ograniczenie wersji zapoznawczej w wersji ogólnie dostępnej.
 
