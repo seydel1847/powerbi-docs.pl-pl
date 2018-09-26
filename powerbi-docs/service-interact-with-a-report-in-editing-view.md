@@ -1,21 +1,21 @@
 ---
 title: Interakcje z raportem w widoku do edycji
 description: Interakcje z raportem w widoku do edycji raportu w usłudze Power BI
-author: mihart
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 04/11/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 7640c9f49205de97556af9cfa51c641a93d9d69c
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 4c206e6b1abb37bdaeb0e03fbce31b7b12e356ba
+ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547435"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47186658"
 ---
 # <a name="interact-with-a-report-in-editing-view-in-power-bi-service"></a>Interakcje z raportem w widoku do edycji w usłudze Power BI
 Raporty można tworzyć i edytować w usłudze Power BI i w programie Power BI Desktop — jeśli masz uprawnienia właściciela. W usłudze Power BI raporty można tworzyć i edytować w **widoku do edycji**. W programie Power BI Desktop raporty można tworzyć i edytować w [**widoku raportu**](desktop-report-view.md). Ten artykuł dotyczy widoku do edycji w usłudze Power BI. 

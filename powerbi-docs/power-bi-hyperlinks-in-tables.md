@@ -1,21 +1,21 @@
 ---
 title: Jak dodać hiperlink do tabeli
 description: Hiperlinki w tabelach
-author: mihart
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
 ms.date: 01/22/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 869eb25b17233d6c926f759c09923f528a4eb72e
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 9c1fc61d4a667b10728af8b7496e20803d024a83
+ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545204"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47187564"
 ---
 # <a name="hyperlinks-in-tables"></a>Hiperlinki w tabelach
 W tym temacie opisano, jak tworzyć hiperlinki, używając programu Power BI Desktop. Po utworzeniu hiperlinków można je dodawać do tabel i macierzy raportu za pomocą programu Desktop lub usługi Power BI. 

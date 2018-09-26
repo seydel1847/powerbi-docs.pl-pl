@@ -1,21 +1,21 @@
 ---
 title: Zapisywanie raportu w usłudze Power BI
 description: Zapisywanie raportu w usłudze Power BI i programie Power BI Desktop
-author: mihart
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 03/01/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: deba4a654c1b43361f7c44c2f0717fb7e348cb98
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: f98d4c5e7b7cc02c9a08d982edb88b2e129f51e6
+ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548677"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47186875"
 ---
 # <a name="save-a-report-in-power-bi-service-and-power-bi-desktop"></a>Zapisywanie raportu w usłudze Power BI i programie Power BI Desktop
 Po wprowadzeniu zmian do raportu w usłudze Power BI możesz zapisać go, zapisać pod nową nazwą lub zamknąć bez zapisywania zmian. Załóżmy, że otworzono raport, utworzono wizualizację i przypięto ją do pulpitu nawigacyjnego. Jeśli zamkniesz raport bez zapisania wprowadzonych zmian, kafelek pozostanie na pulpicie nawigacyjnym, ale wizualizacja nie zostanie zapisana w raporcie. Po kliknięciu tego kafelka na pulpicie nawigacyjnym raport zostanie otwarty, ale wizualizacja nie istnieje w raporcie.

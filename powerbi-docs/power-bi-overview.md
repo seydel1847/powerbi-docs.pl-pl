@@ -1,20 +1,20 @@
 ---
 title: Co to jest usługa Power BI?
 description: Omówienie usługi Power BI i sposobu współdziałania jej różnych elementów — programu Power BI Desktop, usługi Power BI, usługi Power BI dla urządzeń przenośnych, serwera raportów i usługi Power BI Embedded.
-author: mihart
+author: davidiseminger
 manager: kfile
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: overview
 ms.date: 06/22/2018
-ms.author: mihart
+ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 1d5f5b4458dca8fb9d45dfc938f16e5fa77f45db
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 8b61e60852175ced605ae920a6a31091625f781f
+ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545388"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47186943"
 ---
 # <a name="what-is-power-bi"></a>Co to jest usługa Power BI?
 Usługa **Power BI** to zbiór usług oprogramowania, aplikacji i łączników, które działają razem, aby przekształcić niepowiązane źródła danych w spójne, atrakcyjne wizualnie i interaktywne analizy. Niezależnie od tego, czy dane to prosty arkusz kalkulacyjny programu Excel, czy też kolekcja chmurowych i lokalnych hybrydowych hurtowni danych, usługa **Power BI** umożliwia łatwe łączenie ze źródłami danych, wizualizowanie (lub odnajdywanie) ważnych informacji i udostępnianie ich wszystkim wybranym osobom.
