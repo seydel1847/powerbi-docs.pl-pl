@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 09/27/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: e75cc0f7ca31257ea46af20b63c29d0d870ef7a0
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: bb29cd9edc5e44293344b7194ec94af482bd0166
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39329689"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47417377"
 ---
 # <a name="data-refresh-in-power-bi"></a>Odświeżanie danych w usłudze Power BI
 Pewność, że używane dane są zawsze aktualne, ma często zasadnicze znaczenie dla podejmowania właściwych decyzji. Prawdopodobnie znasz już funkcję pobierania danych w usłudze Power BI, która służy do nawiązania połączenia i przekazania danych. Wiesz także, jak tworzyć raporty i pulpity nawigacyjne. Teraz chcesz mieć pewność, że Twoje dane są naprawdę najnowsze i najlepsze.
@@ -211,8 +211,6 @@ Pulpity nawigacyjne działające w czasie rzeczywistym używają interfejsu API 
 | **Źródło danych** | **Automatyczne** | **Odświeżanie ręczne skonfigurowane przez użytkownika lub odświeżanie zaplanowane** | **Brama jest wymagana** |
 | --- | --- | --- | --- |
 | Niestandardowe aplikacje opracowane za pomocą interfejsu API REST usługi Power BI lub usługi Microsoft Stream Analytics |Tak, transmisja strumieniowa na żywo |Nie |Nie |
-
-Aby dowiedzieć się więcej, zobacz temat [Tworzenie pulpitu nawigacyjnego w czasie rzeczywistym w usłudze Power BI](https://msdn.microsoft.com/library/mt267603.aspx).
 
 ## <a name="configure-scheduled-refresh"></a>Konfigurowanie odświeżania zaplanowanego
 Aby dowiedzieć się, jak skonfigurować odświeżanie zaplanowane, zobacz temat [Konfigurowanie odświeżania zaplanowanego](refresh-scheduled-refresh.md)
