@@ -10,12 +10,12 @@ ms.component: powerbi-gateways
 ms.topic: conceptual
 ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: 9c36034ad5e8175e08f1d16c2f5148c5dab0ebbd
-ms.sourcegitcommit: 640382408111d6e9cd1b9dfad0b484e3c727e454
+ms.openlocfilehash: 2536ea34cadae5f348e619d713420787db4c467a
+ms.sourcegitcommit: f6360934b9af20bd630e2d3cb88398e3f5794090
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/22/2018
-ms.locfileid: "42702871"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48799051"
 ---
 # <a name="use-custom-data-connectors-with-the-on-premises-data-gateway"></a>Używanie niestandardowych łączników danych z lokalną bramą danych
 
@@ -45,8 +45,6 @@ Gdy ta opcja jest włączona, łączniki niestandardowe są wyświetlane jako do
 
 * Upewnij się, że utworzony folder jest dostępny dla usługi bramy w tle. Zazwyczaj foldery w folderze systemu Windows użytkownika i foldery systemowe nie są dostępne. Jeśli folder jest niedostępny, w konfiguratorze bramy zostanie wyświetlany komunikat (nie dotyczy to bramy w wersji osobistej)
 * Aby łączniki niestandardowe mogły współdziałać z lokalną bramą danych, muszą zawierać implementację sekcji „TestConnection” w kodzie łącznika niestandardowego. Nie jest to wymagane w przypadku używania łączników niestandardowych w programie Power BI Desktop. Możesz mieć łącznik, który współdziała z programem Desktop, ale nie współdziała z tego powodu z bramą. Zapoznaj się z [tą dokumentacją](https://github.com/Microsoft/DataConnectors/blob/master/docs/m-extensions.md#implementing-testconnection-for-gateway-support), aby dowiedzieć się, jak zaimplementować sekcję TestConnection.
-* Łączniki niestandardowe z uwierzytelnianiem OAuth nie są obsługiwane.
-* Łączniki niestandardowe używające zapytania bezpośredniego nie są obsługiwane.
 
 ## <a name="next-steps"></a>Następne kroki
 

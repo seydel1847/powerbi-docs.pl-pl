@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: dce044a3f143ba85732c8345639ea57f44f05d5f
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 60ac0a944b1eb54ab998fbf25cb5fb79d6dddbe6
+ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "37926601"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48271905"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Administrowanie usługą Power BI — często zadawane pytania
 
@@ -120,7 +120,7 @@ Aby wykonać następujące kroki, musisz zainstalować najnowszą 64-bitową wer
     Get-MsolCompanyInformation | fl allow*
 
 ### <a name="how-can-i-prevent-my-existing-users-from-starting-to-use-power-bi"></a>Jak uniemożliwić istniejącym użytkownikom rozpoczynanie korzystania z usługi Power BI?
-Istnieją kroki, które możesz podjąć jako administrator, aby uniemożliwić użytkownikom rejestrowanie się w usłudze Power BI. W przypadku zastosowania blokady próby rejestracji podejmowane przez użytkowników zakończą się niepowodzeniem, a użytkownicy zostaną przekierowani do kontaktu z administratorem w organizacji. Nie musisz powtarzać tego procesu, jeśli już wyłączono automatyczną dystrybucję licencji (np. usługa Office 365 dla instytucji edukacyjnych dla uczniów i studentów, nauczycieli i wykładowców oraz personelu). [Dowiedz się więcej](service-admin-service-free-in-your-organization.md#enable-or-disable-individual-user-sign-up-in-azure-active-directory)
+Istnieją kroki, które możesz podjąć jako administrator, aby uniemożliwić użytkownikom rejestrowanie się w usłudze Power BI. W przypadku zastosowania blokady próby rejestracji podejmowane przez użytkowników zakończą się niepowodzeniem, a użytkownicy zostaną przekierowani do kontaktu z administratorem w organizacji. Nie musisz powtarzać tego procesu, jeśli już wyłączono automatyczną dystrybucję licencji (np. usługa Office 365 dla instytucji edukacyjnych dla uczniów i studentów, nauczycieli i wykładowców oraz personelu). [Dowiedz się więcej](service-admin-licensing-organization.md#enable-or-disable-individual-user-sign-up-in-azure-active-directory)
 
 Ustawienie usługi AAD, które kontroluje tę opcję, to **AllowAdHocSubscriptions**. W przypadku większości dzierżaw dla tego ustawienia określona jest wartość true, co oznacza, że jest ono włączone. Jeśli klient nabył usługę Power BI za pośrednictwem partnera, domyślnie dla tego ustawienia może być ustawiona wartość false, co oznacza, że jest ono wyłączone.
 

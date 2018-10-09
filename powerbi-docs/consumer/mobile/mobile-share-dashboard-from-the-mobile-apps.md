@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/20/2018
 ms.author: maggies
-ms.openlocfilehash: 40d3e311e9ff9276200a37cabf2d29b324f83f7b
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 4484eca5e810da7674d20e368383429c9c6f5508
+ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44737160"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48271652"
 ---
 # <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>Udostępnianie pulpitu nawigacyjnego lub raportu z aplikacji mobilnych usługi Power BI
 Dotyczy:
@@ -23,7 +23,7 @@ Dotyczy:
 |:--- |:--- |:--- |:--- |:--- |
 | Telefony iPhone |Urządzenia iPad |Telefony z systemem Android |Tablety z systemem Android |Urządzenia z systemem Windows 10 |
 
-Jeśli masz [licencję na usługę Power BI Pro](../../service-free-vs-pro.md), możesz zaprosić innych użytkowników do wyświetlania Twoich pulpitów nawigacyjnych i raportów, udostępniając im linki z aplikacji mobilnych usługi Power BI. Udostępnianie może dotyczyć innych osób z firmowymi kontami poczty lub bez nich w organizacji lub poza nią. Osoby te muszą również mieć licencję usługi Power BI Pro lub zawartość musi być uwzględniona w [pojemności Premium](../../service-premium.md).
+Jeśli masz [licencję na usługę Power BI Pro](../../service-features-license-type.md), możesz zaprosić innych użytkowników do wyświetlania Twoich pulpitów nawigacyjnych i raportów, udostępniając im linki z aplikacji mobilnych usługi Power BI. Udostępnianie może dotyczyć innych osób z firmowymi kontami poczty lub bez nich w organizacji lub poza nią. Osoby te muszą również mieć licencję usługi Power BI Pro lub zawartość musi być uwzględniona w [pojemności Premium](../../service-premium.md).
 
 W aplikacji mobilnej Power BI dla urządzeń z systemem iOS i Android możesz także [udostępniać dowolnym osobom migawki kafelków, raportów i wizualizacji oraz dodawać do nich adnotacje](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md). 
 

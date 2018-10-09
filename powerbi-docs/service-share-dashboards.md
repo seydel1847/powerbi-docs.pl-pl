@@ -11,19 +11,19 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4d43ffb1f4e005830fd36da4e80cf4d0c7d86fed
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 8644bc01aa845ff91950169f011cb70fb161ecb1
+ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46549942"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48271768"
 ---
 # <a name="share-your-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>Udostępnianie pulpitów nawigacyjnych usługi Power BI współpracownikom i innym osobom
 *Udostępnianie* to świetna metoda na zapewnienie kilku osobom dostępu do Twojego pulpitu nawigacyjnego i raportów. Usługa Power BI zapewnia również [kilka sposobów współpracy i rozpowszechniania pulpitów nawigacyjnych i raportów](service-how-to-collaborate-distribute-dashboards-reports.md).
 
 ![Ikona udostępniania na liście ulubionych pulpitów nawigacyjnych](media/service-share-dashboards/power-bi-share-dash-report-favorites.png)
 
-Niezależnie od tego, czy udostępniasz zawartość wewnątrz lub na zewnątrz organizacji, potrzebna do tego jest [licencja usługi Power BI Pro](service-free-vs-pro.md). Także adresaci muszą mieć licencję usługi Power BI Pro lub zawartość musi być uwzględniona w [pojemności Premium](service-premium.md). 
+Niezależnie od tego, czy udostępniasz zawartość wewnątrz lub na zewnątrz organizacji, potrzebna do tego jest [licencja usługi Power BI Pro](service-features-license-type.md). Także adresaci muszą mieć licencję usługi Power BI Pro lub zawartość musi być uwzględniona w [pojemności Premium](service-premium.md). 
 
 Pulpity nawigacyjne i raporty można udostępniać z większości miejsc w usłudze Power BI: Ulubione, Ostatnie, Udostępnione mi (jeśli właściciel to umożliwia), Mój obszar roboczy lub z innych obszarów roboczych. Osoby, którym udostępniasz pulpit nawigacyjny lub raport, mogą go wyświetlać i korzystać z niego, ale nie mogą go edytować. O ile nie zastosowano [zabezpieczeń na poziomie wiersza](service-admin-rls.md), osoby te widzą na pulpicie nawigacyjnym i w raportach te same dane, które Ty widzisz. Współpracownicy, którym udostępniono zawartość, mogą udostępnić ją swoim współpracownikom, jeśli mają na to zezwolenie. Osoby spoza organizacji mogą również wyświetlać pulpit nawigacyjny lub raport oraz korzystać z nich, ale nie mogą ich udostępniać. 
 

@@ -8,15 +8,15 @@ featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: quickstart
-ms.date: 05/18/2018
+ms.date: 10/02/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 152ca52713cc548553d061d2457d13d1b5760ee4
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 261d6fdb12a75fd1476c5f19ded034a3f85d1fb3
+ms.sourcegitcommit: f6360934b9af20bd630e2d3cb88398e3f5794090
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565848"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48798936"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>Szybki start — poruszanie się po usłudze Power BI
 
@@ -38,7 +38,7 @@ Pobierzemy przykładowe dane i użyjemy ich do zapoznania się z usługą Power 
 
     ![Wybieranie przykładu](./media/end-user-experience/power-bi-retail-sample.png)
 
-    Usługa Power BI zaimportuje przykład i wyświetli pulpit nawigacyjny. Pulpity nawigacyjne w usłudze Power BI są inne niż w programie Power BI Desktop. Ten przykład zawiera również raport i zestaw danych, które omówimy później.
+    Usługa Power BI zaimportuje przykład i wyświetli pulpit nawigacyjny. Pulpity nawigacyjne są elementem różniącym się w przypadku usługi Power BI i aplikacji Power BI Desktop. Ten przykład zawiera również raport i zestaw danych, które omówimy później.
 
     ![](media/end-user-experience/power-bi-dashboard.png)
 
