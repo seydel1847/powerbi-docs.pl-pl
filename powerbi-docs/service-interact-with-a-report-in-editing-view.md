@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.date: 04/11/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 4c206e6b1abb37bdaeb0e03fbce31b7b12e356ba
-ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
+ms.openlocfilehash: e03f6b4542c4f5f6c1d1a84892030520651ac9a3
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47186658"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908312"
 ---
 # <a name="interact-with-a-report-in-editing-view-in-power-bi-service"></a>Interakcje z raportem w widoku do edycji w usłudze Power BI
 Raporty można tworzyć i edytować w usłudze Power BI i w programie Power BI Desktop — jeśli masz uprawnienia właściciela. W usłudze Power BI raporty można tworzyć i edytować w **widoku do edycji**. W programie Power BI Desktop raporty można tworzyć i edytować w [**widoku raportu**](desktop-report-view.md). Ten artykuł dotyczy widoku do edycji w usłudze Power BI. 
 
 Usługa Power BI ma dwa różne tryby interakcji z raportami — [widok do czytania](consumer/end-user-reading-view.md) dla *użytkowników* raportu i widok do edycji dla właścicieli i twórców raportu.  Do udostępniania raportów oraz edytowania raportów tworzonych przez innych użytkowników jest wymagana licencja usługi Power BI Pro. Jeśli nie masz licencji Pro, nadal będziesz mieć możliwość tworzenia raportów, ale bez możliwości [ich udostępniania](service-share-reports.md).    
 
-W widoku do edycji raportu masz dużą elastyczność zarówno eksploracji, jak i projektowania raportu. Dostępna jest cała funkcjonalność [widoku do czytania](consumer/end-user-reading-view.md) — plus wiele więcej. Widok do edycji jest dostępny tylko dla osoby, która utworzyła raport, lub dla współpracowników, którzy [są współwłaścicielami raportu jako członkowie lub administratorzy obszaru roboczego aplikacji](consumer/end-user-create-apps.md).
+W widoku do edycji raportu masz dużą elastyczność zarówno eksploracji, jak i projektowania raportu. Dostępna jest cała funkcjonalność [widoku do czytania](consumer/end-user-reading-view.md) — plus wiele więcej. Widok do edycji jest dostępny tylko dla osoby, która utworzyła raport, lub dla współpracowników, którzy [są współwłaścicielami raportu jako członkowie lub administratorzy obszaru roboczego aplikacji](service-create-distribute-apps.md).
 
 ## <a name="functionality-only-available-in-editing-view"></a>Funkcjonalność dostępna tylko w widoku do edycji
 Zapoznaj się z listą tematów w obszarze nagłówka **Raporty** w spisie treści z lewej. To jest długa lista i wiele tematów obejmuje funkcjonalność *dostępną tylko, jeśli masz uprawnienia do edycji dla raportu*.  Aby pomóc w nawigowaniu w spisie treści, widok do edycji jest wymagany do wykonania poniższych czynności:

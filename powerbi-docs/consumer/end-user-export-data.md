@@ -8,15 +8,15 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/25/2018
+ms.date: 08/25/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8e5e2211af7dc53dba20a8d43c1083517b51bf17
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: eac6a1b4f7a3f734aa22c715a4ef196193230283
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565986"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908859"
 ---
 # <a name="export-data-from-visualizations"></a>Eksportowanie danych z wizualizacji
 Jeśli chcesz zobaczyć dane, które zostały użyte do utworzenia wizualizacji, możesz [wyświetlić te dane w usłudze Power BI](end-user-show-data.md) lub wyeksportować je do programu Excel w formie pliku xlsx lub csv.   
@@ -55,7 +55,7 @@ Aby skorzystać z tej metody, otwórz[raport próbnych danych dotyczących anali
 4. Wybierz wielokropek w prawym górnym rogu wykresu wizualizacji. Wybierz opcję **Eksportuj dane**.
 
    ![](media/end-user-export-data/power-bi-export-data2.png)
-5. Jeśli w usłudze Power BI w trybie online wizualizacja ma agregację (np. jeśli zmieniono opcję **Liczba** na *Średnia*, **Suma** lub *Minimum*), masz dwie opcje: **Podsumowane dane** i **Dane bazowe**. W programie Power BI Desktop będziesz mieć tylko opcję **Podsumowane dane**. Aby zrozumieć funkcję agregowania, zobacz [Agregowanie w usłudze Power BI](../service-aggregates.md).
+5. Jeśli w usłudze Power BI w trybie online wizualizacja ma agregację (np. jeśli zmieniono opcję **Liczba** na *Średnia*, *Suma* lub *Minimum*), masz dwie opcje: **Podsumowane dane** i **Dane bazowe**. W programie Power BI Desktop będziesz mieć tylko opcję **Podsumowane dane**. Aby zrozumieć funkcję agregowania, zobacz [Agregowanie w usłudze Power BI](../service-aggregates.md).
 
     ![](media/end-user-export-data/power-bi-export-data5.png)
 6. Wybierz opcję **Podsumowane dane** > **Eksportuj**, a następnie wybierz format xlsx lub csv. Usługa Power BI eksportuje dane.  W przypadku zastosowania filtrów do wizualizacji dane zostaną wyeksportowane jako dane odfiltrowane. Po wybraniu opcji **Eksportuj** przeglądarka wyświetli monit o zapisanie pliku. Po zapisaniu otwórz plik w programie Excel.

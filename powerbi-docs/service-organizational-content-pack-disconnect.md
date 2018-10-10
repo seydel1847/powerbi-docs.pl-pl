@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2682dd9c4d64e3042273df88c86b146e07c681b3
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: dc440c42692b1707649fadf415dfe32fd7b731c8
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46549528"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48907906"
 ---
 # <a name="remove-your-connection-to-a-power-bi-organizational-content-pack"></a>Usuwanie połączenia z organizacyjnym pakietem zawartości usługi Power BI
 
@@ -35,7 +35,7 @@ Usunięcie zestawu danych powoduje również usunięcie wszystkich skojarzonych 
 
 ## <a name="next-steps"></a>Następne kroki
 * [Wprowadzenie do pakietów zawartości organizacji](service-organizational-content-pack-introduction.md) 
-* [Tworzenie i rozpowszechnianie aplikacji w usłudze Power BI](consumer/end-user-create-apps.md) 
+* [Tworzenie i rozpowszechnianie aplikacji w usłudze Power BI](service-create-distribute-apps.md) 
 * [Power BI — podstawowe pojęcia](consumer/end-user-basic-concepts.md)  
 * Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
 

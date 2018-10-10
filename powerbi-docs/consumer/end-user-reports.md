@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 5268241c32112847c879407374b325dd63dd8aab
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: cae5c83f6e220689bfd7d484d5d86c188325ad05
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46564842"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908629"
 ---
 # <a name="reports-in-power-bi"></a>Raporty w usłudze Power BI
 ## <a name="what-is-a-power-bi-report"></a>Co to jest raport usługi Power BI?
@@ -67,7 +67,7 @@ Poniżej przedstawiono kilka tematów według roli, które pomogą Ci w rozpocz�
 * Zacznij od [przewodnika po usłudze Power BI](end-user-basic-concepts.md), aby dowiedzieć się, gdzie można znaleźć raporty i narzędzia raportów.
 * Dowiedz się, jak [otworzyć raport](end-user-report-open.md) i poznaj wszystkie interakcje dostępne w [widoku do czytania](end-user-reading-view.md).
 * Dobrze poznaj raporty, eksperymentując na jednym z naszych [przykładów](../sample-tutorial-connect-to-the-samples.md).  
-* Nie potrzebujesz już raportu? Możesz go [usunąć](end-user-delete.md).
+<!--* Don't need the report any more? You can [remove it](../service-delete.md).-->
 * Aby sprawdzić, którego zestawu danych używa raport i które pulpity nawigacyjne zawierają kafelki przypięte z danego raportu, [wyświetl powiązaną zawartość](end-user-related.md).
 
 > [!TIP]
@@ -79,6 +79,4 @@ Poniżej przedstawiono kilka tematów według roli, które pomogą Ci w rozpocz�
 [Co to jest usługa Power BI?](../power-bi-overview.md) 
 
 [Power BI — podstawowe pojęcia](end-user-basic-concepts.md)
-
-Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
 

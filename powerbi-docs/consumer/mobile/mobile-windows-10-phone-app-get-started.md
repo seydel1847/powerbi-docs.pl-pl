@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 99d8faa7ba3e0e92f97e84bd52454ad44a472e71
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 00f4f63630efd36b55da5e15ce28f1733edaf84f
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547297"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908675"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>Wprowadzenie do aplikacji mobilnej Power BI dla systemu Windows 10
 Aplikacja mobilna usługi Power BI dla systemu Windows 10 zapewnia aktualny mobilny dostęp z obsługą dotykową do informacji biznesowych z usługi Power BI na tablecie lub w telefonie. Wyświetlaj firmowe pulpity nawigacyjne i wchodź z nimi w interakcje w dowolnym miejscu &#151; bezpośrednio na swoim [ekranie startowym systemu Windows](mobile-pin-dashboard-start-screen-windows-10-phone-app.md).
@@ -108,7 +108,7 @@ Dowiedz się więcej na temat [ulubionych w aplikacjach mobilnych Power BI](mobi
 Poniżej wymieniono inne możliwości korzystania z pulpitów nawigacyjnych i raportów usługi Power BI oraz raportów dla urządzeń przenośnych i kluczowych wskaźników wydajności usług Reporting Services w portalu internetowym usług Reporting Services w aplikacji Power BI dla urządzeń z systemem Windows 10.
 
 ### <a name="power-bi-dashboards-and-reports"></a>Pulpity nawigacyjne i raporty usługi Power BI
-* Wyświetlanie [aplikacji](../end-user-apps.md).
+* Wyświetlanie [aplikacji](../../service-create-distribute-apps.md).
 * Wyświetlanie [pulpitów nawigacyjnych](mobile-apps-view-dashboard.md).
 * [Przypinanie kafelków i pulpitów nawigacyjnych usługi Power BI](mobile-pin-dashboard-start-screen-windows-10-phone-app.md) do ekranu startowego urządzenia jako kafelki dynamiczne.
 * [Udostępnianie kafelków](mobile-windows-10-phone-app-get-started.md).

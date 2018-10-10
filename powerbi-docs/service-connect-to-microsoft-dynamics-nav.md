@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/30/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: a00913ea326f472993553910a79e3cc208356499
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 94ca76af9366752f4e1033fa05147f867e7096d9
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46546722"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908905"
 ---
 # <a name="connect-to-microsoft-dynamics-nav-with-power-bi"></a>Nawiązywanie połączenia z systemem Microsoft Dynamics NAV przy użyciu usługi Power BI
 Pobieranie szczegółowych informacji o danych systemu Microsoft Dynamics NAV przy użyciu usługi Power BI jest łatwe. Usługa Power BI pobiera dane, zarówno dotyczące sprzedaży, jak i finansowe, a następnie tworzy aplikację za pomocą pulpitu nawigacyjnego i raportów opartych na tych danych. Usługa Power BI wymaga Twoich uprawnień do tabel, z których dane są pobierane, w tym przypadku dane o sprzedaży i finansach. Więcej szczegółowych informacji na temat wymagań znajduje się poniżej. Po zainstalowaniu aplikacji możesz wyświetlić pulpit nawigacyjny i raporty w usłudze Power BI ([https://powerbi.com](https://powerbi.com)) oraz w aplikacjach mobilnych usługi Power BI. 
@@ -25,9 +25,9 @@ Pobieranie szczegółowych informacji o danych systemu Microsoft Dynamics NAV pr
 ## <a name="how-to-connect"></a>Jak nawiązać połączenie
 [!INCLUDE [powerbi-service-apps-get-more-apps](./includes/powerbi-service-apps-get-more-apps.md)]
 
-1. Wybierz pozycję **Microsoft Dynamics NAV**, a następnie wybierz pozycję **Pobierz**.  
+3. Wybierz pozycję **Microsoft Dynamics NAV**, a następnie wybierz pozycję **Pobierz**.  
    ![](media/service-connect-to-microsoft-dynamics-nav/mdnav.png)
-2. Po wyświetleniu monitu wprowadź adres URL usługi OData dla systemu Microsoft Dynamics NAV. Adres URL powinien być zgodny z następującym wzorcem:
+4. Po wyświetleniu monitu wprowadź adres URL usługi OData dla systemu Microsoft Dynamics NAV. Adres URL powinien być zgodny z następującym wzorcem:
    
     `https//instance.navserver.com:7048/DynamicsNAV90_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
    
@@ -37,12 +37,12 @@ Pobieranie szczegółowych informacji o danych systemu Microsoft Dynamics NAV pr
      
      Odnalezienie usługi internetowej powerbifinance i skopiowanie adresu URL usługi OData, ale pomijając ciąg „/powerbifinance” w adresie URL, jest łatwym sposobem uzyskiwania tego adresu URL możliwym w systemie Dynamics NAV po przejściu do usług internetowych.  
      ![](media/service-connect-to-microsoft-dynamics-nav/param.png)
-3. Wybierz pozycję **Podstawowa** i wprowadź swoje poświadczenia systemu Microsoft Dynamics NAV.
+5. Wybierz pozycję **Podstawowa** i wprowadź swoje poświadczenia systemu Microsoft Dynamics NAV.
    
     Musisz mieć poświadczenia administratora (lub przynajmniej uprawnienia do danych sprzedaży i finansowych) dla swojego konta w systemie Microsoft Dynamics NAV.  Tylko uwierzytelnianie podstawowe (nazwa użytkownika i hasło) jest obecnie obsługiwane.
    
     ![](media/service-connect-to-microsoft-dynamics-nav/creds.png)
-4. Usługa Power BI pobierze dane systemu Microsoft Dynamics NAV i utworzy gotowy do użycia pulpit nawigacyjny i raport.   
+6. Usługa Power BI pobierze dane systemu Microsoft Dynamics NAV i utworzy gotowy do użycia pulpit nawigacyjny i raport.   
    ![](media/service-connect-to-microsoft-dynamics-nav/dashboard.png)
 
 ## <a name="view-the-dashboard-and-reports"></a>Wyświetlanie raportów i pulpitu nawigacyjnego
@@ -99,7 +99,7 @@ Jeśli zobaczysz okno dialogowe błędu „Oj” po obsłużeniu okna dialogoweg
     `https//instance.navserver.com:7048/DynamicsNAV90\_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
 
 ## <a name="next-steps"></a>Następne kroki
-* [Czym są aplikacje w usłudze Power BI?](consumer/end-user-apps.md)
+* [Czym są aplikacje w usłudze Power BI?](service-create-distribute-apps.md)
 * [Pobieranie danych w usłudze Power BI](service-get-data.md)
 * Masz więcej pytań? [Zadaj pytanie społeczności usługi Power BI](http://community.powerbi.com/)
 

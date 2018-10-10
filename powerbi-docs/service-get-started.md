@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 6efef092002c0dc401c4c5328dd3e0d595beff66
-ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
+ms.openlocfilehash: 554e9f3bbea5a1da6ac43f21f72b054a26849f23
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47187127"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908758"
 ---
 # <a name="tutorial-get-started-with-power-bi-service-apppowerbicom"></a>Samouczek: wprowadzenie do usługi Power BI (app.powerbi.com)
 Ten samouczek ułatwia rozpoczęcie pracy z ***usługą Power BI***. Jeśli chcesz dowiedzieć się, jakie miejsce zajmuje usługa Power BI w ofercie innych produktów Power BI, zdecydowanie zalecamy zapoznanie się z tematem [Co to jest Power BI](power-bi-overview.md).
@@ -55,7 +55,7 @@ Zapoznaj się z naszą [listą odtwarzania w serwisie YouTube](https://www.youtu
 ## <a name="what-is-power-bi-service"></a>Co to jest usługa Power BI?
 Usługa Microsoft Power BI jest czasami nazywana usługą Power BI w trybie online lub app.powerbi.com. Usługa Power BI pomaga na bieżąco śledzić ważne informacje.  ***Pulpity nawigacyjne*** usługi Power BI umożliwiają monitorowanie najważniejszych aspektów działalności biznesowej.  Pulpity nawigacyjne zawierają ***kafelki***, które można kliknąć, aby otworzyć ***raporty*** umożliwiające uzyskiwanie dodatkowych informacji.  Połączenie z wieloma ***zestawami danych*** pozwala wyświetlać wszystkie istotne dane w jednym miejscu. Potrzebujesz pomocy dotyczącej bloków konstrukcyjnych tworzących usługę Power BI?  Zobacz [Power BI — podstawowe pojęcia](consumer/end-user-basic-concepts.md).
 
-Jeśli przechowujesz ważne dane w plikach programu Excel lub plikach CSV, możesz utworzyć pulpit nawigacyjny usługi Power BI, aby mieć dostęp do informacji w dowolnym miejscu i dzielić się spostrzeżeniami z innymi osobami.  Czy masz subskrypcję aplikacji SaaS, takiej jak Salesforce?  Od razu połącz się z usługą Salesforce, aby automatycznie utworzyć pulpit nawigacyjny z tych danych, lub [zapoznaj się z innymi aplikacjami SaaS](service-get-data.md), z którymi możesz nawiązać połączenie. Jeśli należysz do organizacji, sprawdź, czy możesz korzystać z opublikowanych [aplikacji](consumer/end-user-create-apps.md).
+Jeśli przechowujesz ważne dane w plikach programu Excel lub plikach CSV, możesz utworzyć pulpit nawigacyjny usługi Power BI, aby mieć dostęp do informacji w dowolnym miejscu i dzielić się spostrzeżeniami z innymi osobami.  Czy masz subskrypcję aplikacji SaaS, takiej jak Salesforce?  Od razu połącz się z usługą Salesforce, aby automatycznie utworzyć pulpit nawigacyjny z tych danych, lub [zapoznaj się z innymi aplikacjami SaaS](service-get-data.md), z którymi możesz nawiązać połączenie. Jeśli należysz do organizacji, sprawdź, czy możesz korzystać z opublikowanych [aplikacji](service-create-distribute-apps.md).
 
 Zapoznaj się z wszystkimi innymi sposobami [pobierania danych dla usługi Power BI](service-get-data.md).
 

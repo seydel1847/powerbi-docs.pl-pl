@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: ad430f438bb6418378b13f3104f87a3bd972a2e4
-ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
+ms.openlocfilehash: c732d1128719db500e13194d36ba1db2605efd2c
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "48271882"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908702"
 ---
 # <a name="connect-to-files-stored-in-onedrive-for-your-power-bi-app-workspace"></a>Łączenie się z plikami przechowywanymi w usłudze OneDrive dla obszaru roboczego aplikacji Power BI
-Po [utworzeniu obszaru roboczego aplikacji w usłudze Power BI](consumer/end-user-create-apps.md) można przechowywać pliki programu Excel, pliki CSV oraz pliki programu Power BI Desktop w usłudze OneDrive dla Firm dla obszaru roboczego aplikacji Power BI. Nadal można aktualizować pliki przechowywane w usłudze OneDrive, a te aktualizacje są automatycznie odzwierciedlane w raportach i pulpitach nawigacyjnych usługi Power BI na podstawie plików. 
+Po [utworzeniu obszaru roboczego aplikacji w usłudze Power BI](service-create-distribute-apps.md) można przechowywać pliki programu Excel, pliki CSV oraz pliki programu Power BI Desktop w usłudze OneDrive dla Firm dla obszaru roboczego aplikacji Power BI. Nadal można aktualizować pliki przechowywane w usłudze OneDrive, a te aktualizacje są automatycznie odzwierciedlane w raportach i pulpitach nawigacyjnych usługi Power BI na podstawie plików. 
 
 > [!NOTE]
 > Wersja zapoznawcza nowego środowiska obszarów roboczych zmieni relację między obszarami roboczymi usługi Power BI a grupami usługi Office 365. Nie będziesz automatycznie tworzyć grupy usługi Office 365 przy każdym tworzeniu jednego z nowych obszarów roboczych. Przeczytaj o [tworzeniu nowych obszarów roboczych (wersja zapoznawcza)](service-create-the-new-workspaces.md)
@@ -79,7 +79,7 @@ Teraz, gdy pliki znajdują się w usłudze OneDrive dla Firm dla obszaru robocze
     ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/power-bi-app-excel-file-connect.png)
 
 ## <a name="next-steps"></a>Następne kroki
-* [Tworzenie aplikacji i obszarów roboczych aplikacji w usłudze Power BI](consumer/end-user-create-apps.md)
+* [Tworzenie aplikacji i obszarów roboczych aplikacji w usłudze Power BI](service-create-distribute-apps.md)
 * [Importowanie danych ze skoroszytów programu Excel](service-get-data-from-files.md)
 * [Łączenie z całymi skoroszytami programu Excel](service-excel-workbook-files.md)
 * Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: c99d2047bc021f7e9d98145bc9cb884917fa3b5c
-ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
+ms.openlocfilehash: bcec05211d3748e992f0e0cf68acd6460b2715d4
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "48271725"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908974"
 ---
 # <a name="how-should-i-collaborate-and-share-in-power-bi"></a>Jak można współpracować i udostępniać w usłudze Power BI?
 
@@ -57,7 +57,7 @@ Załóżmy, że chcesz rozpowszechnić swój pulpit nawigacyjny wśród szerokie
 
 ![Ikona publikowania aplikacji](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-app-publish-600.png)
 
-W usłudze Power BI ([https://powerbi.com](https://powerbi.com)) aplikacje można łatwo znaleźć i zainstalować. Możesz wysłać swoim użytkownikom biznesowym bezpośredni link do aplikacji lub mogą oni ją wyszukać w usłudze AppSource. Jeśli administrator usługi Power BI nada Ci odpowiednie uprawnienia, możesz automatycznie zainstalować aplikację na kontach usługi Power BI swoich współpracowników. Przeczytaj więcej na temat [publikowania aplikacji](consumer/end-user-create-apps.md). 
+W usłudze Power BI ([https://powerbi.com](https://powerbi.com)) aplikacje można łatwo znaleźć i zainstalować. Możesz wysłać swoim użytkownikom biznesowym bezpośredni link do aplikacji lub mogą oni ją wyszukać w usłudze AppSource. Jeśli administrator usługi Power BI nada Ci odpowiednie uprawnienia, możesz automatycznie zainstalować aplikację na kontach usługi Power BI swoich współpracowników. Przeczytaj więcej na temat [publikowania aplikacji](service-create-distribute-apps.md). 
 
 Po zainstalowaniu aplikacji użytkownicy mogą wyświetlać ją w przeglądarce lub na urządzeniach przenośnych.
 
@@ -99,7 +99,7 @@ Raporty usługi Power BI można publikować dla wszystkich użytkowników Intern
 
 ## <a name="next-steps"></a>Następne kroki
 * [Udostępnianie pulpitów nawigacyjnych współpracownikom i innym osobom](service-share-dashboards.md)
-* [Tworzenie i publikowanie aplikacji w usłudze Power BI](consumer/end-user-create-apps.md)
+* [Tworzenie i publikowanie aplikacji w usłudze Power BI](service-create-distribute-apps.md)
 * Chcesz przesłać opinię? Jeśli masz sugestie, przejdź do [witryny społeczności usługi Power BI](https://community.powerbi.com/).
 * Masz więcej pytań? [Odwiedź Społeczność usługi Power BI](http://community.powerbi.com/).
 

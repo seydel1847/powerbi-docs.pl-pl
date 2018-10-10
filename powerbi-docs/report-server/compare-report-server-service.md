@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.component: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: 2b39d9ab5b8bae32dde6eda66f09f69a9718d569
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: f78638097ea33f9954f3db78c117f1935a68530b
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548493"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908536"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Porównanie serwera raportów usługi Power BI i usługi Power BI
 
@@ -33,7 +33,7 @@ Serwer raportów usługi Power BI i usługa Power BI mają wiele podobieństw i 
 | Wymagana brama | Nie | Tak w przypadku lokalnych źródeł danych |  
 | Przesyłanie strumieniowe w czasie rzeczywistym | Nie | Tak | [Przesyłanie strumieniowe w czasie rzeczywistym w usłudze Power BI](../service-real-time-streaming.md)
 | Pulpity nawigacyjne | Nie | Tak | [Pulpity nawigacyjne w usłudze Power BI](../consumer/end-user-dashboards.md) 
-| Dystrybuowanie grupy raportów za pomocą aplikacji | Nie | Tak | [Tworzenie i publikowanie aplikacji z pulpitami nawigacyjnymi i raportami](../consumer/end-user-create-apps.md) 
+| Dystrybuowanie grupy raportów za pomocą aplikacji | Nie | Tak | [Tworzenie i publikowanie aplikacji z pulpitami nawigacyjnymi i raportami](../service-create-distribute-apps.md) 
 | Pakiety zawartości | Nie | Tak | [Organizacyjne pakiety zawartości: wprowadzenie](../service-organizational-content-pack-introduction.md) 
 | Łączenie z usługami, takimi jak Salesforce | Nie | Tak | [Łączenie z usługami używanymi](../consumer/end-user-connect-to-services.md) z usługą Power BI
 | Pytania i odpowiedzi | Nie | Tak | [Funkcja pytań i odpowiedzi w usłudze Power BI i programie Power BI Desktop](../consumer/end-user-q-and-a.md) 
