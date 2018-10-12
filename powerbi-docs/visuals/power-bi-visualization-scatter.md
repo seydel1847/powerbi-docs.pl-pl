@@ -8,24 +8,24 @@ featuredvideoid: PVcfPoVE3Ys
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/28/2018
+ms.date: 09/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 13bc26eaecdcc9b3a00f22f75f6f9a5322d823f6
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: bd09adf21292b16ee27f111ac92bbd8c83c384d8
+ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744436"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "47448850"
 ---
 # <a name="scatter-charts-and-bubble-charts-in-power-bi"></a>Wykresy punktowe i bąbelkowe w usłudze Power BI
 Wykres punktowy zawsze ma dwie osie wartości: jeden zestaw danych liczbowych jest wyświetlany wzdłuż osi poziomej, a drugi wzdłuż osi pionowej. Na wykresie kreślone są punkty występujące na przecięciu wartości liczbowych x i y, co zapewnia połączenie tych par wartości w pojedynczych punktach danych. Te punkty danych mogą być rozproszone równomiernie lub nierównomiernie wzdłuż osi poziomej, w zależności od danych.
 
 Na wykresie bąbelkowym zamiast punktów danych używane są bąbelki. *Rozmiar* bąbelka reprezentuje dodatkowy wymiar danych.
 
-![](media/power-bi-visualization-scatter/power-bi-bubble-chart.png)
+![przykładowy wykres bąbelkowy](media/power-bi-visualization-scatter/power-bi-bubble-chart.png)
 
-Liczbę punktów danych można ustawić  
+Liczbę punktów danych można ustawić, ale nie może ona przekroczyć 10 000.  
 
 ## <a name="when-to-use-a-scatter-chart-or-bubble-chart"></a>Kiedy używać wykresu punktowego i wykresu bąbelkowego
 ### <a name="scatter-charts-are-a-great-choice"></a>Wykresy punktowe są doskonałym wyborem w następujących przypadkach:
@@ -50,7 +50,7 @@ Obejrzyj ten film wideo, aby zobaczyć, jak Will tworzy wykres punktowy, a nast�
 
 W poniższych instrukcjach używane są przykładowe dane dotyczące analizy handlu detalicznego. Aby je wykonać, [pobierz przykład](../sample-datasets.md) dla usługi Power BI (app.powerbi.com) lub dla programu Power BI Desktop.   
 
-1. Wybierz żółtą ikonę plusa, aby utworzyć [pustą stronę raportu ](../power-bi-report-add-page.md).
+1. Otwórz raport w widoku edycji, a następnie wybierz żółtą ikonę plusa, aby utworzyć [pustą stronę raportu](../power-bi-report-add-page.md).
  
 2. W okienku Pola wybierz następujące pola:
    - **Sales** > **Sales Per Sq Ft**
@@ -81,20 +81,20 @@ Teraz dodamy trzeci wymiar.
    
     ![](media/power-bi-visualization-scatter/pbi_scatter_chart_hover.png)
 
-3. Aby ustawić liczbę punktów danych do wyświetlenia na wykresie bąbelkowym, w sekcji **Format** okienka **Wizualizacje** rozwiń kartę **Ogólne** i dostosuj pozycję **Ilość danych**. Możesz ustawić dowolną liczbę do 10 000 jako maksymalną ilość danych. W przypadku większych wartości zalecamy wcześniejsze przeprowadzenie testu w celu zapewnienia dobrej wydajności. 
+3. Aby ustawić liczbę punktów danych do wyświetlenia na wykresie bąbelkowym, w sekcji **Formatowanie** okienka **Wizualizacje** rozwiń kartę **Ogólne** i dostosuj pozycję **Ilość danych**. Możesz ustawić dowolną liczbę do 10 000 jako maksymalną ilość danych. W przypadku większych wartości zalecamy wcześniejsze przeprowadzenie testu w celu zapewnienia dobrej wydajności. 
 
-    ![Ilość danych](./media/power-bi-visualization-scatter/pbi_scatter_data_volume.png) 
+    ![Ilość danych](media/power-bi-visualization-scatter/pbi_scatter_data_volume.png) 
 
    > [!NOTE]
    > Ponieważ większa liczba punktów danych może oznaczać dłuższy czas ładowania, jeśli wybierzesz publikację raportów z ograniczeniami na wyższym końcu skali, pamiętaj o przetestowaniu raportów w Internecie oraz mobilnych w celu zapewnienia, że wydajność jest zgodna z oczekiwaniami użytkowników. Należy pamiętać, że w przypadku większej liczby punktów danych należy przetestować wyniki dla różnych czynników, aby zapewnić dobrą wydajność.
 
 4. Można [sformatować kolory, etykiety, tytuły, tło i inne elementy wizualizacji](service-getting-started-with-color-formatting-and-axis-properties.md). Aby [poprawić dostępność](../desktop-accessibility.md), rozważ dodanie kształtów znaczników do każdego wiersza. Używanie innego kształtu znacznika dla każdego wiersza ułatwia użytkownikowi raportu odróżnienie wierszy (lub obszarów). Aby wybrać kształt znacznika, rozwiń kartę **Kształty**, a następnie wybierz kształt znacznika.
 
-      ![Kształt znacznika](./media/power-bi-visualization-scatter/pbi_scatter_marker.png)
+      ![Kształt znacznika](media/power-bi-visualization-scatter/pbi_scatter_marker.png)
 
    Możesz również zmienić kształt znacznika na romb, trójkąt lub kwadrat:
 
-   ![Znacznik kwadratowy](./media/power-bi-visualization-scatter/pbi_scatter_chart_hover_square.png)
+   ![Znacznik kwadratowy](media/power-bi-visualization-scatter/pbi_scatter_chart_hover_square.png)
 
 
 ## <a name="considerations-and-troubleshooting"></a>Istotne zagadnienia i rozwiązywanie problemów
@@ -104,8 +104,7 @@ Czy na wykresie punktowym wyświetlany jest tylko jeden punkt danych, w którym 
 
 ![](media/power-bi-visualization-scatter/pbi_scatter_tshoot1.png)
 
-Dodaj pole do obszaru **Szczegóły** w celu poinformowania usługi Power BI o tym, jak należy zgrupować wartości. To pole musi być unikatowe dla każdego punktu, który ma zostać wykreślony.  
-Może to być zwykły numer wiersza lub pole identyfikatora:
+Dodaj pole do obszaru **Szczegóły** w celu poinformowania usługi Power BI o tym, jak należy zgrupować wartości. To pole musi być unikatowe dla każdego punktu, który ma zostać wykreślony, takiego jak prosty numer wiersza lub pole identyfikatora.
 
 ![](media/power-bi-visualization-scatter/pbi_scatter_tshoot.png)
 
@@ -116,9 +115,8 @@ Jeśli dane nie zawierają takiego pola, utwórz pole, które łączy wartości 
 W celu utworzenia nowego pola [użyj Edytora zapytań programu Power BI Desktop, aby dodać kolumnę indeksu](../desktop-add-custom-column.md) do zestawu danych.  Następnie dodaj tę kolumnę do obszaru **Szczegóły** danej wizualizacji.
 
 ## <a name="next-steps"></a>Następne kroki
+
+[Wykresy punktowe o wysokiej gęstości](desktop-high-density-scatter-charts.md)
+
 [Typy wizualizacji w usłudze Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
-
-[Zarejestruj się, aby uzyskać dostęp do bezpłatnej wersji próbnej](https://powerbi.microsoft.com/get-started/)  
-
-Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
 

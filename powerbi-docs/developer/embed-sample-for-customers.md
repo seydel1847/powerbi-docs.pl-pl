@@ -9,14 +9,15 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: 1185b6195f0d802cec71143c1f27ce5cead584c6
-ms.sourcegitcommit: 16098be04df05bc8e3d44a99b4d143b622759c59
+ms.openlocfilehash: 3cb33180c24022c1e328691ce3a776875d4c87a9
+ms.sourcegitcommit: b45134887a452f816a97e384f4333db9e1d8b798
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/07/2018
-ms.locfileid: "39616056"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47238128"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-customers"></a>Samouczek: osadzanie raportu, pulpitu nawigacyjnego lub kafelka usługi Power BI w aplikacji dla klientów
+
 Usługa **Power BI Embedded na platformie Azure** umożliwia osadzanie raportów, pulpitów nawigacyjnych lub kafelków w aplikacji przy użyciu struktury **app owns data** (aplikacja jest właścicielem danych). Struktura **app owns data** dotyczy posiadania aplikacji, która używa usługi Power BI jako osadzonej platformy do analizy. Używanie struktury **app owns data** jest zazwyczaj scenariuszem obejmującym **dewelopera ISV**. Jako **deweloper ISV** możesz tworzyć zawartość usługi **Power BI** służącą do wyświetlania raportów, pulpitów nawigacyjnych lub kafelków w aplikacji, która jest w pełni zintegrowana i interaktywna — użytkownicy aplikacji nie muszą posiadać licencji usługi Power BI. W tym samouczku przedstawiono sposób integrowania raportu w aplikacji przy użyciu zestawu .NET SDK usługi **Power BI** z interfejsem API języka JavaScript usługi **Power BI** w przypadku używania usługi **Power BI Embedded na platformie Azure**  dla klientów korzystających ze struktury **app owns data**.
 
 Z tego samouczka dowiesz się, jak wykonywać następujące czynności:
@@ -25,6 +26,7 @@ Z tego samouczka dowiesz się, jak wykonywać następujące czynności:
 >* Osadzanie raportu usługi Power BI w aplikacji.
 
 ## <a name="prerequisites"></a>Wymagania wstępne
+
 Do rozpoczęcia pracy potrzebne jest konto usługi **Power BI Pro** (**konto główne**) oraz subskrypcja platformy **Microsoft Azure**.
 
 * Jeśli nie masz konta usługi **Power BI Pro**, na początku [zacznij korzystać z bezpłatnej wersji próbnej](https://powerbi.microsoft.com/en-us/pricing/).
@@ -39,6 +41,7 @@ Przed rozpoczęciem osadzania raportów, pulpitów nawigacyjnych lub kafelków w
 Możesz użyć [narzędzia obsługi dołączania](https://aka.ms/embedsetup/AppOwnsData), aby szybko zacząć pracę i pobrać przykładową aplikację, która pomoże przeprowadzić Cię przez proces tworzenia środowiska i osadzania raportu.
 
 Jeśli jednak chcesz ręcznie skonfigurować środowisko, kontynuuj czytanie.
+
 ### <a name="register-an-application-in-azure-active-directory-azure-ad"></a>Rejestrowanie aplikacji w usłudze Azure Active Directory (Azure AD)
 
 Aplikację można zarejestrować w usłudze Azure Active Directory, aby zapewnić aplikacji dostęp do interfejsów API REST usługi Power BI. Dzięki temu można ustanowić tożsamość aplikacji i określić jej uprawnienia do zasobów REST usługi Power BI.
@@ -46,11 +49,11 @@ Aplikację można zarejestrować w usłudze Azure Active Directory, aby zapewni�
 1. Zaakceptuj [Warunki interfejsu API usługi Microsoft Power BI](https://powerbi.microsoft.com/api-terms).
 
 2. Zaloguj się w witrynie [Azure Portal](https://portal.azure.com).
- 
+
     ![Główna część witryny Azure Portal](media/embed-sample-for-customers/embed-sample-for-customers-002.png)
 
 3. W okienku nawigacji po lewej stronie wybierz pozycję **Wszystkie usługi** i **Rejestracje aplikacji**, a następnie kliknij przycisk **Rejestrowanie nowej aplikacji**.
-   
+
     ![Wyszukiwanie rejestracji aplikacji](media/embed-sample-for-customers/embed-sample-for-customers-003.png)</br>
     ![Nowa rejestracja aplikacji](media/embed-sample-for-customers/embed-sample-for-customers-004.png)
 
@@ -65,11 +68,11 @@ Musisz włączyć dodatkowe uprawnienia aplikacji oprócz tych, które zostały 
 ### <a name="use-the-azure-active-directory-portal"></a>Korzystanie z portalu usługi Azure Active Directory
 
 1. Przejdź do obszaru [Rejestracje aplikacji](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ApplicationsListBlade) w witrynie Azure Portal i wybierz aplikację, której używasz do osadzania.
-   
+
     ![Wybieranie aplikacji](media/embed-sample-for-customers/embed-sample-for-customers-006.png)
 
 2. Wybierz pozycję **Ustawienia**, a następnie w obszarze **Dostęp do interfejsu API** wybierz pozycję **Wymagane uprawnienia**.
-   
+
     ![Wymagane uprawnienia](media/embed-sample-for-customers/embed-sample-for-customers-008.png)
 
 3. Wybierz pozycję **Windows Azure Active Directory**, a następnie upewnij się, że wybrana jest pozycja **Uzyskuj dostęp do katalogu jako zalogowany użytkownik**. Wybierz pozycję **Zapisz**.
@@ -170,7 +173,9 @@ Wykonaj następujące kroki, aby rozpocząć osadzanie zawartości za pomocą pr
 
     W okienku nawigacji po lewej stronie wybierz pozycję **Wszystkie usługi** i pozycję **Rejestracje aplikacji**.
 
-    ![Wyszukiwanie rejestracji aplikacji](media/embed-sample-for-customers/embed-sample-for-customers-003.png) Wybierz aplikację, dla której chcesz uzyskać wartość **clientId**.
+    ![Wyszukiwanie rejestracji aplikacji](media/embed-sample-for-customers/embed-sample-for-customers-003.png)
+
+    Wybierz aplikację, dla której chcesz uzyskać wartość **clientId**.
 
     ![Wybieranie aplikacji](media/embed-sample-for-customers/embed-sample-for-customers-006.png)
 
@@ -204,6 +209,7 @@ Wykonaj następujące kroki, aby rozpocząć osadzanie zawartości za pomocą pr
     ![Wyświetlanie aplikacji](media/embed-sample-for-customers/embed-sample-for-customers-035.png)
 
 ## <a name="embed-your-content-within-your-application"></a>Osadzanie zawartości w aplikacji
+
 Mimo że kroki osadzania zawartości można wykonać przy użyciu [interfejsów API REST usługi Power BI](https://docs.microsoft.com/rest/api/power-bi/), przykładowe kody opisane w tym artykule są tworzone przy użyciu **zestawu SDK platformy .NET**.
 
 Osadzanie dla klientów w ramach aplikacji wymaga pobrania **tokenu dostępu** dla konta głównego z usługi **Azure AD**. Przed wykonywaniem wywołań do [interfejsów API REST usługi Power BI](https://docs.microsoft.com/rest/api/power-bi/) wymagane jest pobranie [tokenu dostępu usługi Azure AD](get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data) dla aplikacji usługi Power BI za pomocą struktury **app owns data**.
@@ -225,6 +231,7 @@ using (var client = new PowerBIClient(new Uri(ApiUrl), tokenCredentials))
 ```
 
 ### <a name="get-the-content-item-you-want-to-embed"></a>Pobieranie elementu zawartości, który ma zostać osadzony
+
 Możesz użyć obiektu klienta usługi Power BI do pobrania odwołania do elementu, który ma zostać osadzony.
 
 Oto przykład kodu służącego do pobierania pierwszego raportu z danego obszaru roboczego.
@@ -243,6 +250,7 @@ Report report = reports.Value.FirstOrDefault();
 ```
 
 ### <a name="create-the-embed-token"></a>Tworzenie tokenu osadzania
+
 Należy wygenerować token osadzania, którego można używać z poziomu interfejsu API języka JavaScript. Token osadzania jest specyficzny dla osadzanego elementu. Za każdym razem, gdy osadzasz fragment zawartości usługi Power BI, musisz utworzyć dla niego nowy token. Aby uzyskać więcej informacji, łącznie z tym, którego parametru **accessLevel** używać, zobacz [GenerateToken API (Interfejs API generowania tokenu)](https://msdn.microsoft.com/library/mt784614.aspx).
 
 Oto przykład dodawania tokenu osadzania dla raportu do aplikacji.
@@ -323,6 +331,7 @@ Poniżej znajduje się przykład używający modelu **EmbedConfig** i modelu **T
 Tworzenie aplikacji zakończyło się i należy teraz zapewnić dedykowaną pojemność w obszarze roboczym aplikacji. Pojemność dedykowana jest wymagana do przejścia do środowiska produkcyjnego.
 
 ### <a name="create-a-dedicated-capacity"></a>Tworzenie pojemności dedykowanej
+
 Utworzenie pojemności dedykowanej pozwala klientowi skorzystać z zalet zasobu dedykowanego. Możesz kupić dedykowaną pojemność w witrynie [Microsoft Azure Portal](https://portal.azure.com). Aby uzyskać więcej informacji na temat tworzenia pojemności osadzonej usługi Power BI Embedded, zobacz artykuł [Create Power BI Embedded capacity in the Azure portal](azure-pbie-create-capacity.md) (Tworzenie pojemności osadzonej usługi Power BI Embedded w witrynie Azure Portal).
 
 Określ na podstawie poniższej tabeli, jaka pojemność usługi Power BI Embedded najlepiej odpowiada Twoim wymaganiom.
@@ -359,6 +368,7 @@ Po utworzeniu pojemności dedykowanej możesz do niej przypisać obszar roboczy 
     ![obszar roboczy aplikacji powiązany z pojemnością](media/embed-sample-for-customers/embed-sample-for-customers-037.png)
 
 ## <a name="next-steps"></a>Następne kroki
+
 W tym samouczku objaśniono osadzanie zawartości usługi Power BI w aplikacji dla klientów. Zawartość usługi Power BI możesz również spróbować osadzić dla swojej organizacji.
 
 > [!div class="nextstepaction"]

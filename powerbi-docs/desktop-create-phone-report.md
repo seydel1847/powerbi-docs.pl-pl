@@ -1,38 +1,39 @@
 ---
 title: Tworzenie raportów zoptymalizowanych pod kątem aplikacji Power BI na telefony
-description: Dowiedz się, jak zoptymalizować strony raportu w programie Power BI Desktop dla aplikacji Power BI na telefony.
+description: Dowiedz się, jak zoptymalizować strony raportów dla aplikacji Power BI na telefony przez utworzenie wersji raportu przeznaczonej specjalnie dla telefonów.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/17/2018
+ms.date: 09/14/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5f34207640fe0db02d38464ce8600a44b6ffab4c
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 22f4d6bf3c715c390c9760593ba5afdc72ce3bf7
+ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726460"
+ms.lasthandoff: 09/17/2018
+ms.locfileid: "45973959"
 ---
 # <a name="create-reports-optimized-for-the-power-bi-phone-apps"></a>Tworzenie raportów zoptymalizowanych pod kątem aplikacji Power BI na telefony
-Podczas [tworzenia raportu w programie Power BI Desktop](desktop-report-view.md) można ulepszyć korzystanie z niego w aplikacjach mobilnych na telefony przez utworzenie wersji raportu przystosowanej specjalnie do telefonów. Zmieniając rozmieszczenie i rozmiar — chociaż może nie wszystkich — wizualizacji, można przystosować raport do telefonu i zoptymalizować sposób używania go. Ponadto można tworzyć [*dynamiczne* wizualizacje](#optimize-a-visual-for-any-size) i [dynamiczne fragmentatory](#enhance-slicers-to-to-work-well-in-phone-reports), które dostosowują swój rozmiar, gdy są wyświetlane w telefonie. Oprócz tego po dodaniu filtrów do raportu filtry te będą automatycznie wyświetlane w raporcie na telefon. Czytelnicy raportu mogą je widzieć i filtrować raport za ich pomocą.
+Możesz ulepszyć wyświetlanie raportów w aplikacjach mobilnych na telefony przez utworzenie wersji raportu przeznaczonej specjalnie dla telefonów. Optymalne wyświetlanie raportów na telefonach możesz osiągnąć, dostosowując je w programie Power BI Desktop i usłudze Power BI przez zmianę rozmieszczenia i rozmiarów wizualizacji, a nawet usunięcie niektórych z nich. Ponadto można tworzyć [*dynamiczne* wizualizacje](#optimize-a-visual-for-any-size) i [dynamiczne fragmentatory](#enhance-slicers-to-to-work-well-in-phone-reports), które dostosowują swój rozmiar, gdy są wyświetlane w telefonie. Oprócz tego po dodaniu filtrów do raportu filtry te będą automatycznie wyświetlane w raporcie na telefon. Czytelnicy raportu mogą je widzieć i filtrować raport za ich pomocą.
 
 ![Zoptymalizowany raport na telefonie](media/desktop-create-phone-report/desktop-create-phone-report-1.png)
 
-## <a name="lay-out-a-report-page-for-the-phone-in-power-bi-desktop"></a>Układ strony raportu dla telefonu w programie Power BI Desktop
-Po [utworzeniu raportu w programie Power BI Desktop](desktop-report-view.md) można przeprowadzić jego optymalizację pod kątem telefonów.
+## <a name="lay-out-a-report-page-for-the-phone"></a>Układ strony raportu dla telefonu
 
-1. W programie Power BI Desktop wybierz pozycję **Widok raportu** na pasku nawigacyjnym po lewej stronie.
-   
-    ![Ikona widoku raportu](media/desktop-create-phone-report/desktop-create-phone-report-2.png)
-2. Na karcie **Widok** wybierz pozycję **Układ telefonu**.  
+Po utworzeniu raportu można go zoptymalizować pod kątem telefonów.
+
+1. W widoku raportu w programie Power BI Desktop na karcie **Widok** wybierz pozycję **Układ telefonu**.  
    
     ![Ikona układu telefonu](media/desktop-create-phone-report/desktop-create-phone-report-3.png)
    
+    W usłudze Power BI wybierz kolejno pozycje **Edytuj raport** > **Układ mobilny**.
+
     Zostanie wyświetlona pusta kanwa telefonu. Wszystkie wizualizacje ze strony oryginalnego raportu są wyświetlane w okienku Wizualizacje po prawej stronie.
+
 3. Aby dodać wizualizację do układu telefonu, przeciągnij ją z okienka Wizualizacje na kanwę telefonu.
    
     Raporty na telefon używają układu siatki. Gdy przeciągasz wizualizacje na kanwę, są one przyciągane do siatki.
@@ -40,12 +41,10 @@ Po [utworzeniu raportu w programie Power BI Desktop](desktop-report-view.md) mo�
     ![Przeciąganie i upuszczanie wizualizacji](media/desktop-create-phone-report/desktop-create-phone-report-4.gif)
    
     Do strony raportu na telefon możesz dodać niektóre lub wszystkie wizualizacje ze strony głównego raportu. Każdą wizualizację można dodać tylko raz.
+
 4. Rozmiar wizualizacji na siatce można zmieniać podobnie jak w przypadku kafelków na pulpitach nawigacyjnych i mobilnych pulpitach nawigacyjnych.
    
-   > [!NOTE]
-   > Siatka raportu na telefon przystosowuje się do różnych rozmiarów telefonów, więc raport będzie wyglądać dobrze zarówno na telefonie z małym, jak i dużym ekranem.
-   > 
-   > 
+   Siatka raportu na telefon przystosowuje się do różnych rozmiarów telefonów, więc raport będzie wyglądać dobrze zarówno na telefonie z małym, jak i dużym ekranem.
    
    ![Zmiana rozmiaru wizualizacji](media/desktop-create-phone-report/desktop-create-phone-report-5.gif)
 

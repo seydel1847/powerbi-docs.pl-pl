@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 09/27/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: ca2f9e3393df2fd205474983ab9868aa9401ed9d
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 474fe7eee6dbcb296a7eaec6057ecfa56cd3f144
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39329206"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47417124"
 ---
 # <a name="dax-basics-in-power-bi-desktop"></a>Podstawy języka DAX w programie Power BI Desktop
 Niniejszy artykuł jest przeznaczony dla nowych użytkowników programu Power BI Desktop. Artykuł stanowi szybkie i łatwe wprowadzenie do korzystania z języka Data Analysis Expressions (DAX) w celu rozwiązywania szeregu podstawowych problemów z zakresu obliczeń i analizy danych. Zapoznamy się z informacjami koncepcyjnymi, przeanalizujemy szereg zadań, które możesz wykonać, a na koniec zajmiesz się testami, które sprawdzą Twoją wiedzę. Gdy zapoznasz się z tym artykułem, najważniejsze podstawowe pojęcia dotyczące języka DAX nie powinny mieć dla Ciebie żadnych tajemnic.
@@ -87,25 +87,23 @@ W celu wykonania tego zadania musisz otworzyć przykładowy plik sprzedaży Cont
     
 2. Na pasku formuły zastąp słowo **Miara**, wpisując nazwę nowej miary **Previous Quarter Sales**.
     
-3. Po znaku równości wpisz **SUM**, a następnie nawias otwierający.
-    
-   Zamiast wpisać nazwę kolumny do podsumowania od razu, wprowadzimy inną funkcję, która *odfiltruje* dane przeznaczone do zsumowania.
-    
-4. Między nawiasami wpisz **CALCULATE**, a następnie nawias otwierający.
-    
+3. Po znaku równości wpisz kilka pierwszych liter **CAL**, a następnie dwukrotnie kliknij funkcję, której chcesz użyć. W tej formule chcesz użyć funkcji **CALCULATE**.
+
    Użyjemy funkcji CALCULATE, aby odfiltrować kwoty, które chcemy zsumować, według argumentu, który przekażemy do funkcji CALCULATE. Taki zapis nazywa się zagnieżdżaniem funkcji. Funkcja CALCULATE ma co najmniej dwa argumenty. Pierwszy jest wyrażeniem, które zostanie ocenione, a drugi jest filtrem.
    
-5. Między nawiasami **()** dla funkcji **CALCULATE** wpisz **Sales[SalesAmount]**. Jest to pierwszy argument wyrażenia dla funkcji CALCULATE.
+4. Po nawiasie otwierającym **(** funkcji **CALCULATE** wpisz ciąg **SUM**, a następnie inny nawias otwierający **(**. Teraz musimy przekazać argument do funkcji SUM.
+
+5. Rozpocznij wpisywanie ciągu **Sal**, a następnie wybierz pozycję **Sales[SalesAmount]**, po czym wpisz nawias zamykający **)**. Jest to pierwszy argument wyrażenia dla funkcji CALCULATE.
     
-6. Wpisz przecinek (**,**), aby określić pierwszy filtr, a następnie wpisz **PREVIOUSQUARTER** i nawias otwierający.
+6. Wpisz przecinek (**,**), a następnie spację, aby określić pierwszy filtr, po czym wpisz **PREVIOUSQUARTER**. To będzie nasz filtr.
     
-   Funkcja analizy czasu PREVIOUSQUARTER posłuży do odfiltrowania wyników funkcji SUM według poprzedniego kwartału.
+   Funkcja analizy czasu PREVIOUSQUARTER posłuży do filtrowania wyników funkcji SUM według poprzedniego kwartału.
     
-7. Między nawiasami **()** dla funkcji PREVIOUSQUARTER wpisz **Calendar[DateKey]**.
+7. Po nawiasie otwierającym **(** dla funkcji PREVIOUSQUARTER wpisz **Calendar[DateKey]**.
     
-   Funkcja PREVIOUSQUARTER ma jeden argument, którym jest kolumna zawierająca ciągły zakres dat.
+   Funkcja PREVIOUSQUARTER ma jeden argument, którym jest kolumna zawierająca ciągły zakres dat. W naszym przypadku jest to kolumna DateKey w tabeli Kalendarz.
     
-8. Upewnij się, że oba argumenty przekazywane do funkcji PREVIOUSQUARTER i funkcji CALCULATE są zamknięte dwoma nawiasami zamykającymi **))**.
+8. Upewnij się, że oba argumenty przekazywane do funkcji PREVIOUSQUARTER i funkcji CALCULATE są zamknięte po wpisaniu dwóch nawiasów zamykających **))**.
     
    Twoja formuła powinna teraz wyglądać następująco:
     

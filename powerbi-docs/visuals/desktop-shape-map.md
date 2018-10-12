@@ -7,20 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 09/11/2018
 ms.author: mihart
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: ad9a3e73a90ff69f5d56e1e5c1fc487c855df74d
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 71dbdd79e6bedee3f1377f0e7c29fcc6efbbba03
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46566038"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47417331"
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Mapowania kształtów w programie Power BI Desktop (wersja zapoznawcza)
-Program Power BI Desktop umożliwia utworzenie wizualizacji **Mapowanie kształtów**, która pozwala wyświetlić porównania względne regionów na mapie za pomocą różnych kolorów. W przeciwieństwie do wizualizacji **Mapa** wizualizacja **Mapowanie kształtów** nie umożliwia wyświetlenia dokładnych lokalizacji geograficznych punktów danych. Służy ona głównie do pokazywania porównań względnych regionów na mapie przy użyciu różnych kolorów.
+Utwórz wizualizację **Mapowanie kształtów** w celu porównania regionów na mapie przy użyciu koloru. W odróżnieniu od wizualizacji **Mapy** **Mapowanie kształtów** nie może pokazać dokładnych lokalizacji geograficznych punktów danych na mapie. Zamiast tego jej głównym przeznaczeniem jest pokazywanie względnych porównań regionów na mapie przy użyciu różnych kolorów.
 
-Wizualizacje **Mapowanie kształtów** są oparte na mapach ESRI/TopoJSON, które są bardzo przydatne, ponieważ pozwalają korzystać z niestandardowych, własnoręcznie utworzonych planów, na przykład map geograficznych, schematów rozmieszczenia siedzeń lub rozkładów pomieszczeń. Możliwość korzystania z niestandardowych map jest niedostępna w tej wersji zapoznawczej **Mapowania kształtów**.
+Wizualizacje **Mapowanie kształtów** są oparte na mapach ESRI/TopoJSON, które są bardzo przydatne, ponieważ pozwalają korzystać z niestandardowych, własnoręcznie utworzonych map. Przykładami map niestandardowych są mapy geograficzne, schematy rozmieszczenia siedzeń, rozkłady pomieszczeń i inne. Możliwość korzystania z niestandardowych map jest niedostępna w tej wersji zapoznawczej **Mapowania kształtów**.
 
 ## <a name="creating-shape-maps"></a>Tworzenie mapowań kształtów
 Kontrolkę **Mapowanie kształtów** można przetestować na mapach dostarczanych z wersją zapoznawczą. Można też użyć własnej mapy, która spełnia wymagania opisane w sekcji **Używanie niestandardowych map**.
@@ -115,7 +115,7 @@ Aby przetestować wizualizację **Mapowanie kształtów** w wersji zapoznawczej,
 
 ### <a name="australia-states"></a>Australia: stany
 
-| Identyfikator | Skrót | Kod ISO | Nazwa | Kod pocztowy |
+| `id` | `abbr` | `iso` | `name` | `postal` |
 | --- | --- | --- | --- | --- |
 | au-wa |WA |AU-WA |Australia Zachodnia |WA |
 | au-vic |Vic |AU-VIC |Wiktoria |VIC |
@@ -128,7 +128,7 @@ Aby przetestować wizualizację **Mapowanie kształtów** w wersji zapoznawczej,
 
 ### <a name="austria-states"></a>Austria: stany
 
-| Identyfikator | Kod ISO | Nazwa | Nazwa (j. polski) | Kod pocztowy |
+| `id` | `iso` | `name` | `name-en` | `postal` |
 | --- | --- | --- | --- | --- |
 | at-wi |AT-9 |Wien |Wiedeń |WI |
 | at-vo |AT-8 |Vorarlberg |Vorarlberg |VO |
@@ -142,7 +142,7 @@ Aby przetestować wizualizację **Mapowanie kształtów** w wersji zapoznawczej,
 
 ### <a name="brazil-states"></a>Brazylia: stany
 
-| Identyfikator |
+| `id` |
 | --- |
 | Tocantins |
 | Pernambuco |
@@ -178,7 +178,7 @@ Aby przetestować wizualizację **Mapowanie kształtów** w wersji zapoznawczej,
 
 ### <a name="canada-provinces"></a>Kanada: prowincje
 
-| Identyfikator | Kod ISO | Nazwa | Kod pocztowy |
+| `id` | `iso` | `name` | `postal` |
 | --- | --- | --- | --- |
 | ca-nu |CA-NU |Nunavut |NU |
 | ca-nt |CA-NT |Terytoria Północno-Zachodnie |NT |
@@ -196,9 +196,9 @@ Aby przetestować wizualizację **Mapowanie kształtów** w wersji zapoznawczej,
 
 ### <a name="france-regions"></a>Francja: regiony
 
-| Identyfikator | Nazwa | Nazwa (j. polski) |
+| `id` | `name` | `name-en` |
 | --- | --- | --- |
-| Alsace |Alsace |Alzacja |
+| Alzacja |Alsace |Alzacja |
 | Rhone-Alpes |Rhône-Alpes |Rodan-Alpy |
 | Provence-Alpes-Cote d'Azur |Provence-Alpes-Côte d'Azur |Prowansja-Alpy-Lazurowe Wybrzeże |
 | Poitou-Charentes |Poitou-Charentes |Poitou-Charentes |
@@ -223,7 +223,7 @@ Aby przetestować wizualizację **Mapowanie kształtów** w wersji zapoznawczej,
 
 ### <a name="germany-states"></a>Niemcy: landy
 
-| Identyfikator | Kod ISO | Nazwa | Nazwa (j. polski) | Kod pocztowy |
+| `id` | `iso` | `name` | `name-en` | `postal` |
 | --- | --- | --- | --- | --- |
 | de-be |DE-BE |Berlin |Berlin |BE |
 | de-th |DE-TH |Thüringen |Turyngia |TH |
@@ -244,7 +244,7 @@ Aby przetestować wizualizację **Mapowanie kształtów** w wersji zapoznawczej,
 
 ### <a name="ireland-counties"></a>Irlandia: hrabstwa
 
-| Identyfikator |
+| `id` |
 | --- |
 | Wicklow |
 | Wexford |
@@ -275,7 +275,7 @@ Aby przetestować wizualizację **Mapowanie kształtów** w wersji zapoznawczej,
 
 ### <a name="italy-regions"></a>Włochy: regiony
 
-| Identyfikator | Kod ISO | Nazwa | Nazwa (j. polski) | Kod pocztowy |
+| `id` | `iso` | `name` | `name-en` | `postal` |
 | --- | --- | --- | --- | --- |
 | it-vn |IT-34 |Veneto |Wenecja Euganejska |VN |
 | it-vd |IT-23 |Valle d'Aosta |Dolina Aosty |VD |
@@ -300,7 +300,7 @@ Aby przetestować wizualizację **Mapowanie kształtów** w wersji zapoznawczej,
 
 ### <a name="mexico-states"></a>Meksyk: stany
 
-| Identyfikator | Skrót | Kod ISO | Nazwa | Nazwa (j. polski) | Kod pocztowy |
+| `id` | `abreviatura` | `iso` | `name` | `name-en` | `postal` |
 | --- | --- | --- | --- | --- | --- |
 | mx-zac |Zac. |MX-ZAC |Zacatecas |Zacatecas |ZA |
 | mx-yuc |Yuc. |MX-YUC |Yucatán |Jukatan |YU |
@@ -337,7 +337,7 @@ Aby przetestować wizualizację **Mapowanie kształtów** w wersji zapoznawczej,
 
 ### <a name="netherlands-provinces"></a>Holandia: prowincje
 
-| Identyfikator | Kod ISO | Nazwa | Nazwa (j. polski) |
+| `id` | `iso` | `name` | `name-en` |
 | --- | --- | --- | --- |
 | nl-zh |NL-ZH |Zuid-Holland |Holandia Południowa |
 | nl-ze |NL-ZE |Zeeland |Zelandia |
@@ -354,7 +354,7 @@ Aby przetestować wizualizację **Mapowanie kształtów** w wersji zapoznawczej,
 
 ### <a name="uk-countries"></a>Zjednoczone Królestwo: kraje
 
-| Identyfikator | Kod ISO | Nazwa |
+| `id` | `iso` | `name` |
 | --- | --- | --- |
 | gb-wls |GB-WLS |Walia |
 | gb-sct |GB-SCT |Szkocja |
@@ -363,7 +363,7 @@ Aby przetestować wizualizację **Mapowanie kształtów** w wersji zapoznawczej,
 
 ### <a name="usa-states"></a>Stany Zjednoczone: stany
 
-| Identyfikator | Nazwa | Kod pocztowy |
+| `id` | `name` | `postal` |
 | --- | --- | --- |
 | us-mi |Michigan |MI |
 | us-ak |Alaska |AK |
@@ -417,3 +417,7 @@ Aby przetestować wizualizację **Mapowanie kształtów** w wersji zapoznawczej,
 | us-mt |Montana |MT |
 | us-wa |Waszyngton |WA |
 
+## <a name="next-steps"></a>Następne kroki
+[Wizualizacja macierzy w usłudze Power BI](desktop-matrix-visual.md)
+
+[Typy wizualizacji w usłudze Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 09/11/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: e08eeed7b4adf1a392d2661613dd190cce1fb52f
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 0cf9c152c9481e223a143bed3985e883c92af192
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565940"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47416825"
 ---
 # <a name="use-the-matrix-visual-in-power-bi-desktop"></a>Używanie wizualizacji Macierz w programie Power BI Desktop
 Funkcja wizualizacji **Macierz** pozwala tworzyć wizualizacje macierzy (czasami określane jako *tabele*) w raportach programu **Power BI Desktop**, a także umożliwia wyróżnianie krzyżowe elementów w macierzy oraz w innych wizualizacjach. Ponadto możesz zaznaczać do wyróżnienia krzyżowego wiersze, kolumny, a nawet pojedyncze komórki. Aby jeszcze skuteczniej wykorzystać miejsce, wizualizacja macierzy obsługuje układ schodkowy.
@@ -25,7 +25,7 @@ Funkcja wizualizacji **Macierz** pozwala tworzyć wizualizacje macierzy (czasami
 Z macierzą jest skojarzonych wiele funkcji. Omówimy je w kolejnych sekcjach tego artykułu.
 
 > [!NOTE]
-> Od wersji programu **Power BI Desktop** z lipca 2017 wizualizacja macierzy i tabeli odzwierciedla stylizację (w tym kolorystykę) zastosowanego **motywu raportu**. Te kolory mogą różnić się od oczekiwanych w wizualizacji macierzy. Możesz je zmienić w konfiguracji **motywu raport**. Aby uzyskać więcej informacji o motywach, zobacz [**Korzystanie z motywów raportów w programie Power BI Desktop**](../desktop-report-themes.md).
+> Od wersji programu **Power BI Desktop** z lipca 2017 wizualizacja macierzy i tabeli odzwierciedla stylizację (w tym kolorystykę) zastosowanego **motywu raportu**. Te kolory mogą różnić się od oczekiwanych w wizualizacji macierzy. Możesz je zmienić w konfiguracji **motywu raport**. Aby uzyskać więcej informacji o motywach, zobacz [**Używanie motywów raportów w programie Power BI Desktop**](../desktop-report-themes.md).
 > 
 > 
 
@@ -66,7 +66,7 @@ Oprócz korzystania z tych ikon możesz kliknąć dowolny nagłówek wiersza pra
 
 Wyświetlane menu zawiera kilka opcji, które generują różne wyniki:
 
-Wybranie opcji **Przejdź do szczegółów** rozwija macierz dla poziomu *tego* wiersza (klikniętego prawym przyciskiem myszy) — *z wykluczeniem* wszystkich pozostałych nagłówków wierszy. Na poniższej ilustracji kliknięto prawym przyciskiem pozycję *Computers*  (Komputery) i wybrano polecenie **Przejdź do szczegółów**. Zauważ, że pozostałe wiersze najwyższego poziomu nie są już widoczne w macierzy. Ta funkcja okaże się szczególnie przydatna, kiedy przejdziemy do sekcji na temat **wyróżniania krzyżowego**.
+Wybranie opcji **Przejdź do szczegółów** rozwija macierz dla poziomu *tego* wiersza (klikniętego prawym przyciskiem myszy) — *z wykluczeniem* wszystkich pozostałych nagłówków wierszy. Na poniższej ilustracji kliknięto prawym przyciskiem pozycję *Computers*  (Komputery) i wybrano polecenie **Przejdź do szczegółów**. Zauważ, że pozostałe wiersze najwyższego poziomu nie są już widoczne w macierzy. Ten sposób przechodzenia do szczegółów jest przydatną funkcją szczególnie, gdy przejdziemy do sekcji na temat **wyróżniania krzyżowego**.
 
 ![](media/desktop-matrix-visual/matrix-visual_8.png)
 
@@ -74,7 +74,7 @@ Możesz kliknąć ikonę **Uogólnij**, aby wrócić do widoku najwyższego pozi
 
 ![](media/desktop-matrix-visual/matrix-visual_8a.png)
 
-Gdy klikniesz ikonę **Uogólnij** w lewym górnym rogu, aby wyświetlić wszystkie kategorie najwyższego poziomu w macierzy, a następnie ponownie klikniemy prawym przyciskiem myszy i wybierzemy opcję **Rozwiń do następnego poziomu**, zobaczysz następujący widok:
+Gdy klikniesz ikonę **Uogólnij** w lewym górnym rogu, aby wyświetlić wszystkie kategorie najwyższego poziomu w macierzy, a następnie ponownie klikniesz prawym przyciskiem myszy i wybierzesz opcję **Rozwiń do następnego poziomu**, zobaczysz następującą wizualizację.
 
 ![](media/desktop-matrix-visual/matrix-visual_9.png)
 
@@ -129,7 +129,7 @@ W sekcji **Format** okienka **Wizualizacje** rozwiń kartę **Sumy częściowe**
 Taki sam proces dotyczy sum częściowych kolumn.
 
 ## <a name="cross-highlighting-with-matrix-visuals"></a>Wyróżnianie krzyżowe w wizualizacji macierzy
-Przy użyciu wizualizacji **Macierz** można zaznaczyć dowolne elementy macierzy w celu wyróżnienia krzyżowego. Kiedy zaznaczysz kolumnę w wizualizacji **Macierz**, zostanie ona wyróżniona we wszystkich innych wizualizacjach na stronie raportu. Była to wspólna funkcja innych wizualizacji i zaznaczonych punktów danych, dlatego teraz wizualizacja **Macierz** oferuje tę samą funkcję.
+Przy użyciu wizualizacji **Macierz** można zaznaczyć dowolne elementy macierzy w celu wyróżnienia krzyżowego. Kiedy zaznaczysz kolumnę w wizualizacji **Macierz**, zostanie ona wyróżniona we wszystkich innych wizualizacjach na stronie raportu. Ten typ wyróżniania krzyżowego był wspólną funkcją innych wizualizacji i zaznaczonych punktów danych, dlatego teraz wizualizacja **Macierz** oferuje tę samą funkcję.
 
 Wyróżnianie krzyżowe reaguje także na kliknięcia z wciśniętym klawiszem Ctrl. Na przykład poniższa ilustracja zawiera kolekcję podkategorii zaznaczonych w wizualizacji **Macierz**. Zauważ, że elementy niezaznaczone w wizualizacji są wygaszone, a pozostałe wizualizacje na stronie odzwierciedlają zaznaczenie z wizualizacji **Macierz**.
 
@@ -153,10 +153,6 @@ Niezależnie od wybranej metody wynik będzie taki sam. Wybranie opcji *Kontrolk
 
 ## <a name="next-steps"></a>Następne kroki
 
-Może zainteresują Cię również następujące artykuły:
+[Wykresy punktowe i bąbelkowe w usłudze Power BI](power-bi-visualization-scatter.md)
 
-* [Używanie linii siatki i przyciągania do siatki w raportach programu Power BI Desktop](../desktop-gridlines-snap-to-grid.md)
-* [Źródła danych w programie Power BI Desktop](../desktop-data-sources.md)
-* [Typy danych w programie Power BI Desktop](../desktop-data-types.md)
-
- 
+[Typy wizualizacji w usłudze Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)

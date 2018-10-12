@@ -9,18 +9,18 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: overview
 ms.date: 07/31/2018
-ms.openlocfilehash: 2889345c5e4a5e93602c51baa27bf2c7e28e138f
-ms.sourcegitcommit: 16098be04df05bc8e3d44a99b4d143b622759c59
+ms.openlocfilehash: 7b96e671a6fe9b450fff683ced3caa611ae70bd7
+ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/07/2018
-ms.locfileid: "39616033"
+ms.lasthandoff: 09/17/2018
+ms.locfileid: "45973775"
 ---
 # <a name="embedding-with-power-bi"></a>Osadzanie przy użyciu usługi Power BI
 
-Usługa Power BI (SaaS) i usługa Power BI Embedded na platformie Azure (PaaS) mają interfejsy API umożliwiające osadzanie pulpitów nawigacyjnych i raportów. Oznacza to zestaw funkcji oraz dostęp do najnowszych funkcji usługi Power BI — takich jak pulpity nawigacyjne, bramy i obszary robocze aplikacji — podczas osadzania zawartości.
+Usługa Power BI (SaaS) i usługa Power BI Embedded na platformie Azure (PaaS) mają interfejsy API umożliwiające osadzanie pulpitów nawigacyjnych i raportów. Oznacza to wachlarz możliwości oraz dostęp do najnowszych funkcji usługi Power BI — takich jak pulpity nawigacyjne, bramy i obszary robocze aplikacji — podczas osadzania zawartości.
 
-Możesz użyć [narzędzia obsługi dołączania](https://aka.ms/embedsetup), aby szybko rozpocząć pracę i pobrać przykładową aplikację.
+Możesz użyć [narzędzia do konfigurowania osadzania](https://aka.ms/embedsetup), aby szybko rozpocząć pracę i pobrać przykładową aplikację.
 
 Wybierz rozwiązanie, które jest odpowiednie dla Ciebie:
 
@@ -49,7 +49,7 @@ W przypadku osadzania dla swojej organizacji zobacz poniższe tematy:
 
 Podczas osadzania dla użytkowników usługi możliwości samoobsługi, takie jak edytowanie, zapisywanie i inne, są dostępne za pośrednictwem [interfejsu API języka JavaScript](https://github.com/Microsoft/PowerBI-JavaScript).
 
-Możesz użyć [narzędzia obsługi dołączania](https://aka.ms/embedsetup/UserOwnsData) na potrzeby osadzania w organizacji, aby szybko zacząć pracę i pobrać przykładową aplikację, która przeprowadzi Cię przez proces integracji raportu organizacji.
+Możesz użyć [narzędzia do konfigurowania osadzania](https://aka.ms/embedsetup/UserOwnsData) na potrzeby osadzania w organizacji, aby szybko zacząć pracę i pobrać przykładową aplikację, która przeprowadzi Cię przez proces integracji raportu organizacji.
 
 ## <a name="embedding-for-your-customers"></a>Osadzanie dla swoich klientów
 

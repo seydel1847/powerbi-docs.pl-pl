@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/19/2018
+ms.date: 09/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a12a497de5ee3e02ea6ba2b1e92fb6c50834d99c
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 2e6eb9817071f3cbccd442014564e21463bf06f8
+ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46566055"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "47448942"
 ---
 # <a name="visualization-types-in-power-bi"></a>Typy wizualizacji w usłudze Power BI
 ## <a name="power-bi-visualizations"></a>Wizualizacje usługi Power BI
@@ -32,10 +32,10 @@ Wszystkie te wizualizacje można dodać do raportów usługi Power BI, określi�
 >[!TIP]
 >Podstawowy wykres warstwowy jest oparty na wykresie liniowym z obszarem pomiędzy osią i wypełnioną linią.
 
-Aby uzyskać więcej informacji, zobacz [Samouczek: podstawowy wykres warstwowy](power-bi-visualization-basic-area-chart.md).
+Aby uzyskać więcej informacji, zobacz [Podstawowy wykres warstwowy](power-bi-visualization-basic-area-chart.md).
 
 ### <a name="bar-and-column-charts"></a>Wykresy słupkowe i kolumnowe
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_bar.png) 
+![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_bar.png)
 
  ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_col.png)
 
@@ -56,7 +56,7 @@ Aby uzyskać więcej informacji, zobacz [Tworzenie karty (kafelka z dużą liczb
 >[!TIP]
 >Wykres kombi łączą wykresy kolumnowe i wykresy liniowe. Dostępne opcje do wyboru to *Wykres liniowy i skumulowany* oraz *Wykres liniowy i kolumnowy grupowany*.
 
-Aby uzyskać więcej informacji, zobacz [Samouczek: wykresy kombi w usłudze Power BI](power-bi-visualization-combo-chart.md).
+Aby uzyskać więcej informacji, zobacz [Wykresy kombi w usłudze Power BI](power-bi-visualization-combo-chart.md).
 
 ### <a name="doughnut-charts"></a>Wykresy pierścieniowe
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/donutsmall.png)
@@ -64,7 +64,7 @@ Aby uzyskać więcej informacji, zobacz [Samouczek: wykresy kombi w usłudze Pow
 >[!TIP]
 >Wykresy pierścieniowe są podobne do wykresów kołowych.  Pokazują relację między częściami względem całości.
 
-Aby uzyskać więcej informacji, zobacz [Samouczek: wykresy pierścieniowe w usłudze Power BI](power-bi-visualization-doughnut-charts.md).
+Aby uzyskać więcej informacji, zobacz [Wykresy pierścieniowe w usłudze Power BI](power-bi-visualization-doughnut-charts.md).
 
 ### <a name="funnel-charts"></a>Wykresy lejkowe
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_funnel.png)
@@ -72,7 +72,7 @@ Aby uzyskać więcej informacji, zobacz [Samouczek: wykresy pierścieniowe w us�
 >[!TIP]
 >Lejki pomagają wizualizować proces zawierający etapy, w którym elementy przepływają sekwencyjnie od jednego etapu do następnego.  Użyj wykresu lejkowego, jeśli pomiędzy etapami zachodzi sekwencyjny przepływ elementów, na przykład w przypadku procesu sprzedaży rozpoczynającego się od potencjalnych klientów i kończącego się na realizacji zakupu.
 
-Aby uzyskać więcej informacji, zobacz [Samouczek: wykresy lejkowe w usłudze Power BI](power-bi-visualization-funnel-charts.md).
+Aby uzyskać więcej informacji, zobacz [Wykresy lejkowe w usłudze Power BI](power-bi-visualization-funnel-charts.md).
 
 ### <a name="gauge-charts"></a>Wykresy w postaci wskaźników
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/gauge_m.png)
@@ -80,7 +80,7 @@ Aby uzyskać więcej informacji, zobacz [Samouczek: wykresy lejkowe w usłudze P
 >[!TIP]
 >Wyświetla bieżący stan w kontekście realizacji celu.
 
-Aby uzyskać więcej informacji, zobacz [Samouczek: wykresy w postaci wskaźników w usłudze Power BI](power-bi-visualization-radial-gauge-charts.md).
+Aby uzyskać więcej informacji, zobacz [Wykresy w postaci wskaźników w usłudze Power BI](power-bi-visualization-radial-gauge-charts.md).
 
 ### <a name="kpis"></a>Wskaźniki KPI
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-kpi.png)
@@ -88,7 +88,7 @@ Aby uzyskać więcej informacji, zobacz [Samouczek: wykresy w postaci wskaźnik�
 >[!TIP]
 >Przedstawiają postępy na drodze do mierzalnego celu.
 
-Aby uzyskać więcej informacji, zobacz [Samouczek: kluczowe wskaźniki wydajności w usłudze Power BI](power-bi-visualization-kpi.md).
+Aby uzyskać więcej informacji, zobacz [Wskaźniki KPI w usłudze Power BI](power-bi-visualization-kpi.md).
 
 ### <a name="line-charts"></a>Wykresy liniowe
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_line.png)
@@ -107,7 +107,7 @@ Aby uzyskać więcej informacji, zobacz [Porady i wskazówki dotyczące wizualiz
 ### <a name="maps-arcgis-maps"></a>Mapy: mapy ArcGIS
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-esri-map-theme2.png)
 
-Aby uzyskać więcej informacji, zobacz [Samouczek: mapy ArcGIS w usłudze Power BI](../power-bi-visualization-arcgis.md).
+Aby uzyskać więcej informacji, zobacz [Mapy ArcGIS w usłudze Power BI](../power-bi-visualization-arcgis.md).
 
 ### <a name="maps-filled-maps-choropleth"></a>Mapy: mapy wypełnione (Choropleth)
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_filledmap.png)
@@ -115,10 +115,21 @@ Aby uzyskać więcej informacji, zobacz [Samouczek: mapy ArcGIS w usłudze Power
 >[!TIP]
 >Im bardziej intensywny kolor, tym większa wartość.
 
-Aby uzyskać więcej informacji, zobacz [Samouczek: mapy wypełnione w usłudze Power BI](power-bi-visualization-filled-maps-choropleths.md).
+Aby uzyskać więcej informacji, zobacz [Kartogramy w usłudze Power BI](power-bi-visualization-filled-maps-choropleths.md).
+
+### <a name="maps-shape-maps"></a>Mapy: mapy kształtów
+![](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-shape-map2.png)
+
+>[!TIP]
+>Porównuje regiony według kolorów.
+
+Aby uzyskać więcej informacji, zobacz [Mapy kształtów w usłudze Power BI](desktop-shape-map.md).
+
 
 ### <a name="matrix"></a>Macierz
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/matrix.png)
+
+Aby uzyskać więcej informacji, zobacz [Wizualizacje macierzy w usłudze Power BI](desktop-shape-map.md).
 
 ### <a name="pie-charts"></a>Wykresy kołowe
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_pie.png)
@@ -129,12 +140,20 @@ Aby uzyskać więcej informacji, zobacz [Samouczek: mapy wypełnione w usłudze 
 >[!TIP]
 >Wyświetlają relacje między dwiema (wykres punktowy) lub trzema (wykres bąbelkowy) miarami ilościowymi — czy istnieją, w jakiej kolejności itp.
 
-Aby uzyskać więcej informacji, zobacz [Samouczek: wykresy punktowe w usłudze Power BI](power-bi-visualization-scatter.md).
+Aby uzyskać więcej informacji, zobacz [Wykresy punktowe w usłudze Power BI](power-bi-visualization-scatter.md).
+
+### <a name="scatter-high-density"></a>Wykres punktowy o wysokiej gęstości
+![](media/power-bi-visualization-types-for-reports-and-q-and-a/density-scatter.png)
+
+>[!TIP]
+>Zbyt wiele punktów danych na wizualizacji może ją przeciążyć, więc zaawansowany algorytm próbkowania służy do zapewnienia dokładności wizualizacji.
+
+Aby uzyskać więcej informacji, zobacz [Wykresy punktowe o wysokiej gęstości w usłudze Power BI](desktop-high-density-scatter-charts.md).
 
 ### <a name="slicers"></a>Fragmentatory
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_slicer.png)
 
-Aby uzyskać więcej informacji, zobacz [Samouczek: fragmentatory w usłudze Power BI](power-bi-visualization-slicers.md).
+Aby uzyskać więcej informacji, zobacz [Fragmentatory w usłudze Power BI](power-bi-visualization-slicers.md).
 
 ### <a name="standalone-images"></a>Obrazy autonomiczne
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_image.png)
@@ -149,10 +168,10 @@ Aby uzyskać więcej informacji, zobacz [Dodawanie widgetu obrazu do pulpitu naw
 
 Aby uzyskać więcej informacji, zobacz [Praca z tabelami w usłudze Power BI](power-bi-visualization-tables.md).
 
-### <a name="tree-maps"></a>Mapy drzewa
+### <a name="treemaps"></a>Mapy drzewa
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_tree.png)
 
-Aby uzyskać więcej informacji, zobacz [Samouczek: mapy drzewa w usłudze Power BI](power-bi-visualization-treemaps.md).
+Aby uzyskać więcej informacji, zobacz [Mapy drzewa w usłudze Power BI](power-bi-visualization-treemaps.md).
 
 >[!TIP]
 >To wykresy składające się z kolorowych prostokątów, w których rozmiar reprezentuje wartość.  Mogą być hierarchiczne z prostokątami zagnieżdżonymi w prostokątach głównych.
@@ -163,7 +182,7 @@ Aby uzyskać więcej informacji, zobacz [Samouczek: mapy drzewa w usłudze Power
 >[!TIP]
 >Wykresy kaskadowe pokazują sumę bieżącą, gdy wartości są dodawane lub odejmowane.
 
-Aby uzyskać więcej informacji, zobacz [Samouczek: wykresy kaskadowe w usłudze Power BI](power-bi-visualization-waterfall-charts.md).
+Aby uzyskać więcej informacji, zobacz [Wykresy kaskadowe w usłudze Power BI](power-bi-visualization-waterfall-charts.md).
 
 ## <a name="tell-qa-which-visualization-to-use"></a>Poinformuj funkcję pytań i odpowiedzi, której wizualizacji użyć
 Podczas wpisywania zapytań w języku naturalnym w funkcji pytań i odpowiedzi usługi Power BI możesz określić typ wizualizacji w zapytaniu.  Na przykład:
@@ -175,10 +194,3 @@ Podczas wpisywania zapytań w języku naturalnym w funkcji pytań i odpowiedzi u
 ## <a name="next-steps"></a>Następne kroki
 [Wizualizacje w raportach usługi Power BI](power-bi-report-visualizations.md)    
 [Odpowiednie odwołanie do wizualizacji z witryny sqlbi.com](http://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)
-
-[Raporty w usłudze Power BI](../consumer/end-user-reports.md)
-
-[Power BI — podstawowe pojęcia](../consumer/end-user-basic-concepts.md)
-
-Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
-

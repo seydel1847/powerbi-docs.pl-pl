@@ -8,22 +8,22 @@ featuredvideoid: maTzOJSRB3g
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/29/2018
+ms.date: 09/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2c42f484dc0f2515024a7fefe2edb1c81e286eb3
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 962f76666e4b139b24225daefd5af776f36b3d0d
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548470"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47416940"
 ---
 # <a name="funnel-charts"></a>Wykresy lejkowe
 Wykres lejkowy pozwala na graficzne przedstawienie procesu liniowego o sekwencyjnie połączonych etapach. Za przykład może posłużyć wykres lejkowy sprzedaży, który śledzi zachowania klientów na poszczególnych etapach: Potencjalny klient \> Kwalifikowany potencjalny klient \> Prawdopodobny klient \> Umowa \> Finalizacja.  Już na pierwszy rzut oka kształt lejka wskazuje na kondycję śledzonego procesu.
 
 Każdy etap wykresu lejkowego stanowi procent całości. W większości przypadków wykres lejkowy ma kształt lejka — pierwszy etap jest największy, a każdy kolejny jest mniejszy od poprzedniego.  Przydatny jest również wykres lejkowy w kształcie gruszki, ponieważ umożliwia identyfikację problemu w danym procesie.  Zazwyczaj jednak pierwszy etap, etap „pobierania”, jest największy.
 
-![](media/power-bi-visualization-funnel-charts/funnelplain.png)
+![przykładowy niebieski lejek](media/power-bi-visualization-funnel-charts/funnelplain.png)
 
 ## <a name="when-to-use-a-funnel-chart"></a>Kiedy używać wykresu lejkowego
 Wykresy lejkowe są doskonałym wyborem w następujących przypadkach:
@@ -57,11 +57,11 @@ W poniższych instrukcjach jest używany przykład Opportunity Analysis. Aby je 
 
 1. Rozpocznij od [pustej strony raportu](../power-bi-report-add-page.md) i wybierz pole **SalesStage** \> **Sales Stage**. Jeśli używasz usługi Power BI, upewnij się, że raport jest otwarty w [widoku do edycji](../service-interact-with-a-report-in-editing-view.md).
    
-    ![](media/power-bi-visualization-funnel-charts/funnelselectfield_new.png)
+    ![wybieranie pola Sales Stage](media/power-bi-visualization-funnel-charts/funnelselectfield_new.png)
 2. [Przekonwertuj wykres](power-bi-report-change-visualization-type.md) na wykres lejkowy. Zwróć uwagę, że pole **Sales Stage** znajduje się w obszarze **Grupa**. 
 3. W okienku **Pola** wybierz pozycję **Fact** \> **Opportunity Count**.
    
-    ![](media/power-bi-visualization-funnel-charts/power-bi-funnel.png)
+    ![tworzenie wykresu lejkowego](media/power-bi-visualization-funnel-charts/power-bi-funnel.png)
 4. Umieszczenie wskaźnika na pasku spowoduje wyświetlenie szeregu informacji.
    
    * Nazwa etapu
@@ -69,8 +69,8 @@ W poniższych instrukcjach jest używany przykład Opportunity Analysis. Aby je 
    * Ogólny współczynnik konwersji (% potencjalnych klientów) 
    * Zmiany zachodzące w kolejnym etapie względem etapu poprzedniego (wskaźnik porzucenia) czyli procentowy udział poprzedniego etapu (w tym przypadku stosunek etapu Proposal do Solution)
      
-     ![](media/power-bi-visualization-funnel-charts/funnelhover_new.png)
-5. [Dodaj lejek jako kafelek pulpitu nawigacyjnego](../consumer/end-user-tiles.md). 
+     ![szczegóły dotyczące paska Propozycja](media/power-bi-visualization-funnel-charts/funnelhover_new.png)
+5. [Dodaj lejek jako kafelek pulpitu nawigacyjnego](../service-dashboard-tiles.md). 
 6. [Zapisz raport](../service-report-save.md).
 
 ## <a name="highlighting-and-cross-filtering"></a>Wyróżnianie i filtrowanie krzyżowe
@@ -80,24 +80,20 @@ Wyróżnianie paska na wykresie lejkowym powoduje filtrowanie krzyżowe innych w
 
 1. Na lejku zaznacz pasek **Proposal**. Spowoduje to wyróżnienie krzyżowe innych wizualizacji na stronie. Zaznacz wiele elementów za pomocą klawisza CTRL.
    
-   ![](media/power-bi-visualization-funnel-charts/funnelchartnoowl.gif)
-2. Aby ustawić preferencje dotyczące wyróżniania krzyżowego wizualizacji i ich filtrowania krzyżowego, zobacz [Interakcje wizualne w usłudze Power BI](../consumer/end-user-interactions.md)
+   ![krótkie wideo przedstawiające interakcje wizualizacji](media/power-bi-visualization-funnel-charts/funnelchartnoowl.gif)
+2. Aby ustawić preferencje dotyczące wyróżniania krzyżowego wizualizacji i ich filtrowania krzyżowego, zobacz [Interakcje wizualne w usłudze Power BI](../service-reports-visual-interactions.md)
 
-## <a name="create-a-funnel-chart-in-qa"></a>Tworzenie wykresu lejkowego w aparacie Pytania i odpowiedzi
-Otwórz pulpit nawigacyjny przykładu Opportunity Analysis lub dowolny inny pulpit nawigacyjny, który ma przypiętą co najmniej jedną wizualizację z zestawu danych przykładu Opportunity Analysis.  Po wpisaniu pytania w aparacie Pytania i odpowiedzi usługa Power BI wyszukuje odpowiedzi we wszystkich zestawach danych, które są skojarzone z wybranym pulpitem nawigacyjnym, czyli mają do niego przypięte kafelki. Aby uzyskać więcej informacji, zobacz [Power BI — podstawowe pojęcia](../consumer/end-user-basic-concepts.md).
+## <a name="create-a-funnel-chart-using-qa"></a>Tworzenie wykresu lejkowego za pomocą funkcji Pytania i odpowiedzi
+Otwórz pulpit nawigacyjny przykładu Opportunity Analysis lub dowolny inny pulpit nawigacyjny, który ma przypiętą co najmniej jedną wizualizację z zestawu danych przykładu Opportunity Analysis.  Po wpisaniu pytania w aparacie Pytania i odpowiedzi usługa Power BI wyszukuje odpowiedzi we wszystkich zestawach danych, które są skojarzone z wybranym pulpitem nawigacyjnym, czyli mają do niego przypięte kafelki. Aby uzyskać więcej informacji, zobacz [Power BI — podstawowe pojęcia](../service-basic-concepts.md).
 
 1. Na pulpicie nawigacyjnym przykładu Opportunity Analysis rozpocznij wpisywanie pytania w polu funkcji Pytania i odpowiedzi.
    
-   ![](media/power-bi-visualization-funnel-charts/funnelfromqna_new.png)
+   ![pole pytania i lejek](media/power-bi-visualization-funnel-charts/power-bi-qna.png)
    
 2. Pamiętaj o dodaniu wyrażenia „as funnel” (jako lejek), aby usługa Power BI mogła ustalić, jakiego typu wizualizacji chcesz użyć.
 
 ## <a name="next-steps"></a>Następne kroki
+
+[Mierniki w usłudze Power BI](power-bi-visualization-radial-gauge-charts.md)
+
 [Typy wizualizacji w usłudze Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
-
-[Przypinanie wizualizacji do pulpitu nawigacyjnego](../service-dashboard-pin-tile-from-report.md)
-
-[Power BI — podstawowe pojęcia](../consumer/end-user-basic-concepts.md)
-
-Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
-

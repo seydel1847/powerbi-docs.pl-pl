@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 09/17/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 4540c00e4956e87e1c012dc2a35c00e61e00b5a6
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: ae17eff366fe5e931963c9367586c08fd39eda69
+ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39328149"
+ms.lasthandoff: 09/17/2018
+ms.locfileid: "45973936"
 ---
 # <a name="high-density-line-sampling-in-power-bi"></a>Próbkowanie liniowe o wysokiej gęstości w usłudze Power BI
 Wraz z wersją programu **Power BI Desktop** wydaną w czerwcu 2017 r. i aktualizacjami usługi **Power BI** dostępny jest nowy algorytm próbkowania, który usprawnia wizualizacje, które próbkują dane o wysokiej gęstości. Możesz na przykład utworzyć wykres liniowy wyników sprzedaży sklepów detalicznych wydających ponad 10 000 paragonów rocznie. Wykres liniowy tego rodzaju informacji sprzedażowych próbkuje dane (wybiera reprezentatywną próbę danych, aby pokazać, w jaki sposób sprzedaż zmienia się w czasie) z danych dla każdego sklepu i tworzy wykres liniowy składający się z wielu serii, który odzwierciedla dane bazowe. Jest to powszechną praktyką w przypadku wizualizowania danych o wysokiej gęstości. Program Power BI Desktop umożliwia teraz lepsze próbkowanie danych o wysokiej gęstości. Szczegółowe informacje przedstawiono w tym artykule.
@@ -24,8 +24,6 @@ Wraz z wersją programu **Power BI Desktop** wydaną w czerwcu 2017 r. i aktuali
 
 > [!NOTE]
 > Algorytm **próbkowania o wysokiej gęstości** opisany w tym artykule jest dostępny w programie **Power BI Desktop** oraz **usłudze Power BI**.
-> 
-> 
 
 ## <a name="how-high-density-line-sampling-works"></a>Jak działa próbkowanie liniowe o wysokiej gęstości
 Wcześniej usługa **Power BI** wybierała punkty danych do próby spośród całego zakresu danych bazowych w sposób deterministyczny. Na przykład w przypadku danych o wysokiej gęstości na wizualizacji obejmującej jeden rok kalendarzowy może być wyświetlona próba zawierająca 350 punktów danych, z których każdy został wybrany tak, aby zagwarantować, że wizualizacja będzie odzwierciedlać cały zakres danych (całą serię danych bazowych). Aby lepiej zrozumieć, jak to się dzieje, załóżmy, że tworzymy wykres cen akcji w okresie jednego roku i wybieramy 365 punktów danych, aby utworzyć wizualizację w formie wykresu liniowego (czyli jeden punkt danych na każdy dzień).
@@ -42,17 +40,25 @@ W przypadku wizualizacji o wysokiej gęstości usługa **Power BI** w sposób in
 ### <a name="minimum-and-maximum-values-for-high-density-line-visuals"></a>Minimalne i maksymalne wartości dla wizualizacji liniowej o wysokiej gęstości
 W przypadku każdej wizualizacji stosowane są następujące ograniczenia:
 
-* Maksymalna liczba *wyświetlanych* punktów danych na wizualizacji to **3500** bez względu na liczbę bazowych punktów danych lub serii. Dlatego jeśli masz dziesięć serii, a każda ma 350 punktów danych, to wizualizacja osiągnęła limit łącznej liczby punktów danych. Jeśli masz jedną serię, może mieć ona maksymalnie 3500 punktów danych, o ile nowy algorytm uzna to za najlepszy sposób próbkowania danych bazowych.
+* Maksymalna liczba *wyświetlanych* punktów danych w większości wizualizacji to **3500** bez względu na liczbę bazowych punktów danych lub serii (zobacz *wyjątki* na liście punktowanej poniżej). Dlatego jeśli masz dziesięć serii, a każda ma 350 punktów danych, to wizualizacja osiągnęła limit łącznej liczby punktów danych. Jeśli masz jedną serię, może mieć ona maksymalnie 3500 punktów danych, o ile nowy algorytm uzna to za najlepszy sposób próbkowania danych bazowych.
+
 * W przypadku każdej wizualizacji maksymalna liczba serii wynosi **60**. Jeśli masz więcej niż 60 serii, podziel dane i utwórz kilka wizualizacji, które będą miały maksymalnie po 60 serii. Dobrym rozwiązaniem jest użycie **fragmentatora**, który umożliwia wyświetlenie tylko wybranych segmentów danych (tylko niektórych serii). Jeśli na przykład wyświetlane są wszystkie podkategorie w legendzie, można użyć fragmentatora, aby filtrować według ogólnej kategorii na tej samej stronie raportu.
+
+Dla następujących typów wizualizacji limity danych są wyższe. Stanowią one *wyjątki* od limitu 3500 punktów danych:
+
+* Maksymalnie **150 000** punktów danych dla wizualizacji języka R.
+* **30 000** punktów danych dla wizualizacji niestandardowych.
+* **10 000** punktów danych dla wykresów punktowych (wartość domyślna dla takich wykresów to 3500)
+* **3500** dla wszystkich innych wizualizacji
 
 Te parametry gwarantują, że wizualizacje w programie Power BI Desktop są przedstawiane bardzo szybko, są łatwe w obsłudze dla użytkownika i nie powodują nadmiernego obciążenia komputera, na którym generowane są wizualizacje.
 
 ### <a name="evaluating-representative-data-points-for-high-density-line-visuals"></a>Ocena reprezentatywnych punktów danych wizualizacji liniowych o wysokiej gęstości
-Jeśli liczba punktów danych bazowych jest wyższa niż maksymalna liczba punktów danych, które mogą być przedstawione na wizualizacji (3500), rozpoczyna się proces *pakowania*, czyli dzielenia danych bazowych na grupy zwane *pojemnikami*, a następnie wielokrotnie uściśla te pojemniki.
+Jeśli liczba punktów danych bazowych jest wyższa niż maksymalna liczba punktów danych, które mogą być przedstawione na wizualizacji, rozpoczyna się proces *pakowania*, czyli dzielenia danych bazowych na grupy zwane *pojemnikami*, a następnie wielokrotnego uściślania tych pojemników.
 
 Algorytm tworzy możliwe jak najwięcej pojemników, aby wizualizacja była możliwe jak najbardziej szczegółowa. W ramach każdego pojemnika algorytm odnajduje minimalną i maksymalną wartość danych, aby zagwarantować, że ważne i istotne wartości (na przykład wartości odstające) zostaną uchwycone i przedstawione na wizualizacji. Na podstawie wyników pakowania i oceny danych przez usługę Power BI określana jest minimalna rozdzielczość osi x wizualizacji, tak aby zagwarantować maksymalną szczegółowość wizualizacji.
 
-Jak już powiedziano, minimalna szczegółowość dla każdej serii to 350 punktów, a maksymalna 3500.
+Jak wspomniano wcześniej, minimalna szczegółowość dla każdej serii to 350 punktów, a maksymalna — 3500 dla większości wizualizacji (poza *wyjątkami* wymienionymi w poprzednich akapitach).
 
 Każdy pojemnik jest reprezentowany przez dwa punkty danych, które stają się reprezentatywnymi punktami danych pojemnika na wizualizacji. Punkty danych to po prostu najwyższa i najniższa wartość z danego pojemnika. Dzięki wybraniu najwyższej i najniższej wartości proces pakowania gwarantuje, że istotne wysokie i niskie wartości zostaną uchwycone i przedstawione na wizualizacji.
 

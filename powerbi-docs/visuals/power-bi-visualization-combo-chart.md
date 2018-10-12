@@ -8,15 +8,15 @@ featuredvideoid: lnv66cTZ5ho
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/27/2018
+ms.date: 09/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 68b14e6554c0c12590f555f6447198f1a850e9b1
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 1855b65277fe778a20bd9e4629f8db1e7b9000a3
+ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46544008"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "47448965"
 ---
 # <a name="combo-chart-in-power-bi"></a>Wykres kombi w usłudze Power BI
 W usłudze Power BI wykres kombi to pojedyncza wizualizacja łącząca wykres liniowy i kolumnowy. Łączenie 2 wykresów w jednym umożliwia szybsze porównywanie danych.
@@ -55,9 +55,9 @@ Obejrzyj, jak Will tworzy wykres kombi przy użyciu przykładu sprzedaży i mark
     c.  Wybierz pozycje **Czas** \> **Miesiąc obrachunkowy**, aby je dodać do źródła **Oś**.
 
     ![](media/power-bi-visualization-combo-chart/combotutorial1new.png)
-5. Wybierz wielokropek (...) w górnym prawym rogu wizualizacji, a następnie wybierz pozycję **Sortuj według miesiąca obrachunkowego**. Może być konieczne dwukrotne wybranie tej pozycji, aby posortować dane w kolejności rosnącej lub malejącej.
+5. Wybierz wielokropek (...) w górnym prawym rogu wizualizacji, a następnie wybierz pozycję **Sortuj według miesiąca obrachunkowego**. Aby zmienić kolejność sortowania, ponownie wybierz przycisk wielokropka, a następnie wybierz pozycję **Sortuj rosnąco** lub **Sortuj malejąco**.
 
-6. Przekształć wykres kolumnowy w wykres kombi. Po wybraniu wykresu kolumnowego z okienka **Wizualizacje** wybierz pozycję **Wykres liniowy i kolumnowy grupowany**.
+6. Przekształć wykres kolumnowy w wykres kombi. Dostępne są dwa wykresy kombi: **liniowy i skumulowany kolumnowy** oraz **liniowy i kolumnowy grupowany**. Po wybraniu wykresu kolumnowego z okienka **Wizualizacje** wybierz pozycję **Wykres liniowy i kolumnowy grupowany**.
 
     ![](media/power-bi-visualization-combo-chart/converttocombo_new2.png)
 7. Z okienka **Pola** przeciągnij pozycje **Sprzedaż** \> **Sprzedaż zeszłoroczna** do zasobnika **Wartości wiersza**.
@@ -71,7 +71,8 @@ Obejrzyj, jak Will tworzy wykres kombi przy użyciu przykładu sprzedaży i mark
 ## <a name="create-a-combo-chart-with-two-axes"></a>Tworzenie wykresu kombi z dwoma osiami
 W tym zadaniu porównamy marżę brutto i sprzedaż.
 
-1. Utwórz nowy wykres liniowy, który śledzi wartość **Gross Margin last year %** względem wartości **Month**.  W styczniu % marży brutto był równy 35%, wzrósł do 45% w kwietniu, spadł w lipcu i ponownie wzrósł w sierpniu. Czy podobny wzorzec sprzedaży wystąpił w poprzednim i bieżącym roku?
+1. Utwórz nowy wykres liniowy, który śledzi wartość **Gross Margin last year %** względem wartości **Month**. Wybierz przycisk wielokropka, aby posortować według **miesiąca** i **rosnąco**.  
+W styczniu % marży brutto był równy 35%, wzrósł do 45% w kwietniu, spadł w lipcu i ponownie wzrósł w sierpniu. Czy podobny wzorzec sprzedaży wystąpił w poprzednim i bieżącym roku?
 
    ![](media/power-bi-visualization-combo-chart/combo1_new.png)
 2. Dodaj pozycje **This Year Sales > Value** i **Last Year Sales** do wykresu liniowego. Skala wartości **Gross Margin Last Year %** jest znacznie mniejsza niż skala wartości **Sales**, co utrudnia porównanie.      
@@ -80,7 +81,7 @@ W tym zadaniu porównamy marżę brutto i sprzedaż.
 3. Aby ułatwić odczytanie i interpretację wizualizacji, przekonwertuj wykres liniowy na wykres liniowy i skumulowany kolumnowy.
 
    ![](media/power-bi-visualization-combo-chart/converttocombo_new.png)
-4. Przeciągnij pozycję **Gross Margin Last Year %** z obszaru **Wartości w kolumnie** do obszaru **Wartości liniowe**. Usługa Power BI utworzy dwie osie, dzięki czemu zestawy danych można skalować w różny sposób, czyli po lewej stronie jest mierzona wartość sprzedaży w dolarach, a po prawej — procent.
+4. Przeciągnij pozycję **Gross Margin Last Year %** z obszaru **Wartości w kolumnie** do obszaru **Wartości liniowe**. Usługa Power BI utworzy dwie osie, dzięki czemu zestawy danych można skalować w różny sposób, czyli po lewej stronie jest mierzona wartość sprzedaży w dolarach, a po prawej — procent. Widzimy więc odpowiedź na nasze pytanie: tak, widzimy podobny wzorzec.
 
    ![](media/power-bi-visualization-combo-chart/power-bi-combochart.png)    
 
@@ -103,20 +104,16 @@ W tym zadaniu porównamy marżę brutto i sprzedaż.
 
 W tym miejscu możesz chcieć:
 
-* [Dodać wykres kombi jako kafelek pulpitu nawigacyjnego](../consumer/end-user-tiles.md).
+* [Dodać wykres kombi jako kafelek pulpitu nawigacyjnego](../service-dashboard-tiles.md).
 * [Zapisz raport](../service-report-save.md).
-* [Zwiększanie dostępności raportu dla osób niepełnosprawnych](../desktop-accessibility.md)
+* [Zwiększanie dostępności raportu dla osób niepełnosprawnych](../desktop-accessibility.md).
 
 ## <a name="cross-highlighting-and-cross-filtering"></a>Wyróżnianie i filtrowanie krzyżowe
 
-Wyróżnienie kolumny lub linii na wykresie kombi powoduje wyróżnienie i filtrowanie krzyżowe innych wizualizacji na stronie raportu... i na odwrót. To zachowanie domyślne można zmienić za pomocą [interakcji wizualizacji](../consumer/end-user-interactions.md).
+Wyróżnienie kolumny lub linii na wykresie kombi powoduje wyróżnienie i filtrowanie krzyżowe innych wizualizacji na stronie raportu... i na odwrót. To zachowanie domyślne można zmienić za pomocą [interakcji wizualizacji](../service-reports-visual-interactions.md).
 
 ## <a name="next-steps"></a>Następne kroki
 
-[Omówienie wizualizacji w raportach usługi Power BI](power-bi-report-visualizations.md)
+[Wykresy pierścieniowe w usłudze Power BI](power-bi-visualization-doughnut-charts.md)
 
 [Typy wizualizacji w usłudze Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
-
-[Power BI — podstawowe pojęcia](../consumer/end-user-basic-concepts.md)
-
-Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)

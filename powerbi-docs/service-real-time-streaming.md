@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 09/27/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: a3102ff26a4dbf58d8db0073f1af9cf2db5b6515
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 63b75aae9fb9299119b606458a4a8832d77dd1be
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39329390"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47417170"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Przesyłanie strumieniowe w czasie rzeczywistym w usłudze Power BI
 Funkcja przesyłania strumieniowego w czasie rzeczywistym w usłudze Power BI umożliwia przesyłanie strumieniowe danych i aktualizowanie pulpitów nawigacyjnych w czasie rzeczywistym. Wszystkie wizualizacje i pulpity nawigacyjne tworzone w usłudze Power BI można również skonfigurować do wyświetlania i aktualizowania danych oraz wizualizacji w czasie rzeczywistym. Urządzeniami i źródłami danych przesyłania strumieniowego mogą być czujniki fabryczne, źródła mediów społecznościowych, dane użycia usług i wszelkie inne źródła, z których można zbierać lub przesyłać dane zależne od czasu.
@@ -65,7 +65,7 @@ Poniższa tabela opisuje trzy typy zestawów danych przeznaczonych do przesyłan
 ![](media/service-real-time-streaming/real-time-streaming_11.png)
 
 > [!NOTE]
-> Zobacz [ten artykuł w witrynie MSDN](https://msdn.microsoft.com/library/dn950053.aspx), aby uzyskać informacje na temat limitów **wypychanych** danych.
+> Zobacz [ten artykuł](https://docs.microsoft.com/power-bi/developer/api-rest-api-limitations), aby uzyskać informacje na temat limitów **wypychanych** danych.
 > 
 > 
 
@@ -83,14 +83,12 @@ Przyjrzyjmy się każdej z tych metod z osobna.
 ### <a name="using-power-bi-rest-apis-to-push-data"></a>Korzystanie z interfejsów API REST usługi Power BI do wypychania danych
 **Interfejsy API REST usługi Power BI** mogą służyć do tworzenia i przesyłania danych do zestawów danych **wypychania** i zestawów danych **przesyłania strumieniowego**. Podczas tworzenia zestawu danych za pomocą interfejsów API REST usługi Power BI flaga trybu *defaultMode* określa, czy zestaw danych dotyczy wypychania czy przesyłania strumieniowego. Jeśli flaga trybu *defaultMode* nie jest ustawiona, zestaw danych staje się domyślnie zestawem danych **wypychania**.
 
-Jeśli wartość trybu *defaultMode* jest ustawiona na *pushStreaming*, zestaw danych jest zarówno zestawem danych **wypychania** *, jak i*  **przesyłania strumieniowego**, łącząc w sobie zalety każdego z nich. [Artykuł dotyczący **tworzenia zestawu danych**](https://msdn.microsoft.com/library/mt203562.aspx) za pomocą interfejsu API REST opisuje tworzenie zestawu danych przesyłania strumieniowego i działanie flagi trybu *defaultMode*.
+Jeśli wartość trybu *defaultMode* jest ustawiona na *pushStreaming*, zestaw danych jest zarówno zestawem danych **wypychania** *, jak i*  **przesyłania strumieniowego**, łącząc w sobie zalety każdego z nich. 
 
 > [!NOTE]
 > Używanie zestawów danych, w których flaga trybu *defaultMode* jest ustawiona na wartość *pushStreaming* wiąże się z pewnymi ograniczeniami. Jeśli żądanie przekracza maksymalny rozmiar 15 Kb dla zestawu danych **przesyłania strumieniowego** i jednocześnie nie osiąga limitu 16 MB w przypadku zestawu danych **wypychania**, żądanie zakończy się pomyślnie, a dane zostaną zaktualizowane w zestawie danych wypychanych. Wszelkie kafelki przesyłania strumieniowego tymczasowo przestaną działać.
-> 
-> 
 
-Po utworzeniu zestawu danych należy użyć interfejsów API REST w celu przesłania danych za pomocą opcji [**dodawania wierszy** w interfejsie API](https://msdn.microsoft.com/library/mt203561.aspx), jak [przedstawiono w tym artykule](https://msdn.microsoft.com/library/mt203561.aspx).
+Po utworzeniu zestawu danych należy użyć interfejsów API REST w celu wypchnięcia danych za pomocą pozycji [**PostRows** w interfejsie API](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows).
 
 Wszystkie żądania wysyłane do interfejsów API REST są chronione przy użyciu **protokołu OAuth w usłudze Azure AD**.
 
@@ -159,9 +157,9 @@ W następnych sekcjach każda opcja jest kolejno omawiana.
 
 ![](media/service-real-time-streaming/real-time-streaming_5.png)
 
-Jeśli chcesz, aby usługa Power BI przechowywała dane przesyłane za pośrednictwem tego strumienia danych, włącz opcję *Analiza danych historycznych*. Dzięki temu zyskasz możliwość tworzenia raportów i analiz na podstawie zebranych strumieni danych. Możesz także [uzyskać więcej informacji o interfejsie API](https://msdn.microsoft.com/library/dn877544.aspx).
+Jeśli chcesz, aby usługa Power BI przechowywała dane przesyłane za pośrednictwem tego strumienia danych, włącz opcję *Analiza danych historycznych*. Dzięki temu zyskasz możliwość tworzenia raportów i analiz na podstawie zebranych strumieni danych. Możesz także [uzyskać więcej informacji o interfejsie API](https://docs.microsoft.com/rest/api/power-bi/).
 
-Po pomyślnym utworzeniu strumienia danych otrzymasz punkt końcowy adresu URL interfejsu API REST, który Twoja aplikacja może wywołać za pomocą żądań *POST* w celu wypchnięcia danych do utworzonego w usłudze Power BI zestawu danych  **przesyłanych strumieniowo**.
+Po pomyślnym utworzeniu strumienia danych otrzymasz punkt końcowy adresu URL interfejsu API REST, który Twoja aplikacja może wywołać za pomocą żądań *POST* w celu wypchnięcia danych do utworzonego w usłudze Power BI zestawu danych **przesyłanych strumieniowo**.
 
 Podczas wprowadzania żądań *POST* upewnij się, że treść żądania odpowiada przykładowym danym JSON dostarczonym przez interfejs użytkownika usługi Power BI. Na przykład umieść obiekty JSON w otoce tablicy.
 
@@ -223,10 +221,10 @@ W przypadku zestawów danych wypychania — przy założeniu, że schemat zawier
 Niestety obecnie nie jest to możliwe.
 
 #### <a name="given-the-previous-question-how-can-i-do-any-modeling-on-real-time-datasets"></a>Biorąc pod uwagę poprzednie pytanie, w jaki sposób można modelować zestawy danych czasu rzeczywistego?
-Zestawu danych przesyłania strumieniowego nie można modelować, ponieważ dane nie są w nim trwale przechowywane. Zestaw danych wypychania umożliwia użycie interfejsów API REST w ramach aktualizacji zestawu danych lub tabel w celu dodawania miar i relacji. Więcej informacji zawierają artykuły [Aktualizowanie schematu tabeli](https://msdn.microsoft.com/library/mt203560.aspx) i [Właściwości zestawu danych](https://msdn.microsoft.com/library/mt742155.aspx).
+Zestawu danych przesyłania strumieniowego nie można modelować, ponieważ dane nie są w nim trwale przechowywane. Zestaw danych wypychania umożliwia użycie interfejsów API REST w ramach aktualizacji zestawu danych lub tabel w celu dodawania miar i relacji. 
 
 #### <a name="how-can-i-clear-all-the-values-on-a-push-dataset-how-about-streaming-dataset"></a>W jaki sposób wyczyścić wszystkie wartości w zestawie danych wypychania? A jak to wygląda w kontekście zestawu danych przesyłania strumieniowego?
-W zestawie danych wypychania można użyć wywołania interfejsu API REST usuwania wierszy. Odrębnym rozwiązaniem jest poręczne narzędzie, które tworzy otokę wokół interfejsów API REST. Obecnie nie jest możliwe czyszczenie danych z zestawu danych przesyłania strumieniowego, ale dane zostaną usunięte samoczynnie po godzinie.
+W zestawie danych wypychania można użyć wywołania interfejsu API REST usuwania wierszy. Obecnie nie jest możliwe czyszczenie danych z zestawu danych przesyłania strumieniowego, ale dane zostaną usunięte samoczynnie po godzinie.
 
 #### <a name="i-set-up-an-azure-stream-analytics-output-to-power-bi-but-i-dont-see-it-appearing-in-power-bi--whats-wrong"></a>Dane wyjściowe usługi Azure Stream Analytics skonfigurowane na potrzeby usługi Power BI nie są widoczne w usłudze Power BI. Co jest nie tak?
 Oto lista kontrolna, która może posłużyć do rozwiązania tego problemu:
@@ -241,9 +239,6 @@ Oto lista kontrolna, która może posłużyć do rozwiązania tego problemu:
 ## <a name="next-steps"></a>Następne kroki
 Oto kilka linków, które mogą okazać się przydatne podczas pracy z przesyłaniem strumieniowym w czasie rzeczywistym w usłudze Power BI:
 
-* [Omówienie interfejsu API REST usługi Power BI w kontekście danych w czasie rzeczywistym](https://msdn.microsoft.com/library/dn877544.aspx)
-* [Ograniczenia interfejsu API REST usługi Power BI](https://msdn.microsoft.com/library/dn950053.aspx)
-* [Artykuł dotyczący interfejsu API REST: **Tworzenie zestawu danych**](https://msdn.microsoft.com/library/mt203562.aspx)
-* [Artykuł dotyczący interfejsu API REST: **Dodawanie wierszy**](https://msdn.microsoft.com/library/mt203561.aspx)
+* [Omówienie interfejsu API REST usługi Power BI w kontekście danych w czasie rzeczywistym](https://docs.microsoft.com/rest/api/power-bi/)
 * [Azure Stream Analytics](https://azure.microsoft.com/services/stream-analytics/)
 

@@ -8,15 +8,15 @@ featuredvideoid: xmja6Epqa
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/21/2018
+ms.date: 09/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e090515514897dd4dcbc9962d0dadacae5611ff0
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 71cde810f98a81ab5670b3ab04bc1cd502277c1c
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565567"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47416871"
 ---
 # <a name="radial-gauge-charts-in-power-bi"></a>Wykresy w postaci mierników promieniowych w usłudze Power BI
 Wykres miernika promieniowego ma okrągły łuk i wyświetla jedną wartość, która mierzy postępy w kierunku celu/kluczowego wskaźnika wydajności.  Cel, lub wartość docelowa, jest reprezentowany przez linię (wskazówkę). Postęp w kierunku celu jest reprezentowany przez cieniowanie.  Wartość reprezentująca postęp jest wyświetlana w pogrubieniu wewnątrz łuku. Wszystkie możliwe wartości są równomiernie rozmieszczone na łuku, od wartości minimalnej (najbardziej po lewej) do wartości maksymalnej (najbardziej po prawej).
@@ -92,7 +92,7 @@ W kroku 2 usługa Power BI użyła pola Wartość, aby automatycznie ustawić wa
 
 ### <a name="step-5-save-your-report"></a>Krok 5. Zapisz raport
 1. [Zapisz raport](../service-report-save.md).
-2. [Dodaj wykres miernika jako kafelek pulpitu nawigacyjnego](../consumer/end-user-tiles.md). 
+2. [Dodaj wykres miernika jako kafelek pulpitu nawigacyjnego](../service-dashboard-pin-tile-from-report.md). 
 
 ## <a name="use-formatting-options-to-manually-set-minimum-maximum-and-target-values"></a>Używanie opcji formatowania do ręcznego ustawiania wartości minimalnej, maksymalne i docelowej
 1. Usuń miarę **Maksimum sprzedaży brutto** z listy **Wartość maksymalna**.
@@ -110,14 +110,8 @@ W kroku 2 usługa Power BI użyła pola Wartość, aby automatycznie ustawić wa
     ![](media/power-bi-visualization-radial-gauge-charts/power-bi-gauge-target.png)
 6. Opcjonalnie kontynuuj formatowanie wykresu miernika.
 
-## <a name="next-steps"></a>Następne kroki
+## <a name="next-step"></a>Następny krok
+
+[Mierniki w usłudze Power BI](power-bi-visualization-kpi.md)
+
 [Typy wizualizacji w usłudze Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
-
-[Dodawanie wizualizacji do raportu](power-bi-report-add-visualizations-i.md)
-
-[Przypinanie wizualizacji do pulpitu nawigacyjnego](../service-dashboard-pin-tile-from-report.md)
-
-[Power BI — podstawowe pojęcia](../consumer/end-user-basic-concepts.md)
-
-Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
-

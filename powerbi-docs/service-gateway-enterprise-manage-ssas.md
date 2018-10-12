@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: a4c931b671840ca78f340005c30aeb92454ca2a6
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: a84a5da9600daa7ef55ed5a707affa4ee1da4aba
+ms.sourcegitcommit: b45134887a452f816a97e384f4333db9e1d8b798
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37599186"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47238105"
 ---
 # <a name="manage-your-data-source---analysis-services"></a>Zarządzanie źródłami danych — Analysis Services
 Po zainstalowaniu lokalnej bramy danych musisz dodać źródła danych, które mogą być używane z tą bramą. W tym artykule opisano sposób pracy z bramami i źródłami danych. Do zaplanowanego odświeżania lub połączeń na żywo możesz użyć źródła danych usług Analysis Services.
@@ -150,13 +150,38 @@ W lokalnej bramie danych z mapowaniem użytkownika niestandardowego z możliwoś
 Jak skonfigurować bramę do przeprowadzania wyszukiwania w usłudze AD:
 
 1. Pobieranie i instalowanie najnowszej bramy
+
 2. W bramie musisz zmienić **usługę lokalnej bramy danych** tak, aby była uruchamiana wraz z kontem domeny (zamiast z kontem usługi lokalnej — w przeciwnym razie wyszukiwanie w usłudze AD nie będzie działać poprawnie w środowisku uruchomieniowym). Musisz ponownie uruchomić usługę bramy, aby zmiana zaczęła obowiązywać.  Przejdź do aplikacji bramy na swoim komputerze (wyszukaj frazę „lokalna brama danych”). Aby to zrobić, wybierz pozycję **Ustawienia usługi > Zmień konto usługi**. Upewnij się, że masz klucz odzyskiwania dla tej bramy, ponieważ musisz przywrócić ją na tym samym komputerze, chyba że chcesz zamiast tego utworzyć nową bramę. 
-3. Przejdź do folderu instalacyjnego bramy, *C:\Program Files\On-premises data gateway*, jako administrator, aby upewnić się, że masz uprawnienia do zapisu, i zmodyfikuj następujący plik:
 
-       Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config 
-4. Zmodyfikuj następujące dwie wartości konfiguracji zgodnie z *Twoimi* konfiguracjami atrybutów usługi Active Directory Twoich użytkowników usługi AD. Przedstawione poniżej wartości konfiguracji są tylko przykładowe — musisz je określić na podstawie własnej konfiguracji usługi Active Directory. 
+3. Przejdź do folderu instalacyjnego bramy, *C:\Program Files\On-premises data gateway*, jako administrator, aby upewnić się, że masz uprawnienia do zapisu, i zmodyfikuj następujący plik: Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config 
 
-   ![](media/service-gateway-enterprise-manage-ssas/gateway-enterprise-map-user-names_03.png)
+4. Zmodyfikuj następujące dwie wartości konfiguracji zgodnie ze *swoimi* konfiguracjami atrybutów usługi Active Directory dla Twoich użytkowników usługi AD. Przedstawione poniżej wartości konfiguracji są tylko przykładowe — musisz je określić na podstawie własnej konfiguracji usługi Active Directory. W tych konfiguracjach jest rozróżniana wielkość liter, dlatego upewnij się, że są one zgodne z wartościami w usłudze Active Directory.
+
+    ![Ustawienia usługi Azure Active Directory](media/service-gateway-enterprise-manage-ssas/gateway-enterprise-map-user-names_03.png)
+
+    Jeśli nie podano żadnej wartości dla konfiguracji ADServerPath, brama używa domyślnego wykazu globalnego. Możesz również określić wiele wartości dla konfiguracji ADServerPath. Każda wartość musi być oddzielona średnikiem, jak w poniższym przykładzie.
+
+    ```xml
+    <setting name="ADServerPath" serializeAs="String">
+        <value> >GC://serverpath1; GC://serverpath2;GC://serverpath3</value>
+    </setting>
+    ```
+    Brama analizuje wartości dla konfiguracji ADServerPath od lewej do prawej strony do momentu znalezienia dopasowania. Jeśli dopasowanie nie zostanie znalezione, będzie używana oryginalna nazwa UPN. Upewnij się, że konto z uruchomioną usługą bramy (PBIEgwService) ma uprawnienia do zapytań do wszystkich serwerów usługi AD określonych w konfiguracji ADServerPath.
+
+    Brama obsługuje dwa typy konfiguracji ADServerPath, jak w poniższych przykładach.
+
+    **WinNT**
+
+    ```xml
+    <value="WinNT://usa.domain.corp.contoso.com,computer"/>
+    ```
+
+    **GC**
+
+    ```xml
+    <value> GC://USA.domain.com </value>
+    ```
+
 5. Uruchom ponownie usługę **lokalnej bramy danych**, aby zmiany konfiguracji zostały wprowadzone.
 
 ### <a name="working-with-mapping-rules"></a>Praca z regułami mapowania

@@ -7,20 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/26/2018
+ms.date: 09/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 18c9fe3d50245ff1d0745c0a3ae1e830b3f9be45
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 865e19f368b8e1915d0262ae6356e70a8dbc2781
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548332"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47416914"
 ---
 # <a name="card-visualizations"></a>Wizualizacje w postaci kart
 Czasami jedna liczba jest najważniejsza i chcesz ją śledzić na swoim pulpicie nawigacyjnym lub w raporcie usługi Power BI, np. łączna sprzedaż, udział w rynku rok do roku lub łączna liczba szans sprzedaży. Ten typ wizualizacji jest nazywany *kartą*. Podobnie jak w przypadku niemal wszystkich natywnych wizualizacji usługi Power BI, karty można tworzyć przy użyciu edytora raportu lub funkcji Pytania i odpowiedzi.
 
-![Wizualizacja w postaci karty](./media/power-bi-visualization-card/pbi_opptuntiescard.png)
+![Wizualizacja w postaci karty](media/power-bi-visualization-card/pbi_opptuntiescard.png)
 
 ## <a name="create-a-card-using-the-report-editor"></a>Tworzenie karty za pomocą edytora raportu
 W poniższych instrukcjach używane są przykładowe dane dotyczące analizy handlu detalicznego. Aby je wykonać, [pobierz przykład](../sample-datasets.md) dla usługi Power BI (app.powerbi.com) lub dla programu Power BI Desktop.   
@@ -32,7 +32,7 @@ W poniższych instrukcjach używane są przykładowe dane dotyczące analizy han
    ![](media/power-bi-visualization-card/pbi_rptnumbertilechart.png)
 2. W okienku Wizualizacje wybierz ikonę karty.
 
-   ![](media/power-bi-visualization-card/pbi_changechartcard.png)
+   ![](media/power-bi-visualization-card/power-bi-templates.png)
 6. Umieść kursor nad kartą i wybierz ikonę pinezki ![](media/power-bi-visualization-card/pbi_pintile.png), aby dodać wizualizację do pulpitu nawigacyjnego.
 
    ![](media/power-bi-visualization-card/power-bi-pin-icon.png)
@@ -44,20 +44,21 @@ W poniższych instrukcjach używane są przykładowe dane dotyczące analizy han
 
    Komunikat o powodzeniu (w prawym górnym rogu) informuje o tym, że wizualizacja została dodana do pulpitu nawigacyjnego jako kafelek.
 
-   ![](media/power-bi-visualization-card/power-bi-pin-success-message.png)
+   ![](media/power-bi-visualization-card/power-bi-success2.png)
 9. Wybierz pozycję **Przejdź do pulpitu nawigacyjnego**. Tam możesz [edytować i przenieść](../service-dashboard-edit-tile.md) przypiętą wizualizację.
 
 
 ## <a name="create-a-card-from-the-qa-question-box"></a>Tworzenie karty za pomocą pola pytania funkcji Pytania i odpowiedzi
-Skorzystanie z pola pytania funkcji Pytania i odpowiedzi jest najprostszym sposobem utworzenia karty. Pole pytania funkcji Pytania i odpowiedzi jest dostępne w usłudze Power BI (app.powerbi.com) z poziomu pulpitu nawigacyjnego lub raportu. Poniższe kroki przedstawiają tworzenie karty z poziomu pulpitu nawigacyjnego usługi Power BI. Jeśli chcesz utworzyć kartę za pomocą funkcji Pytania i odpowiedzi w programie Power BI Desktop, [wykonaj te instrukcje](https://powerbi.microsoft.com/en-us/blog/power-bi-desktop-december-feature-summary/#QandA), aby uzyskać wersję zapoznawczą funkcji Pytania i odpowiedzi dla raportów w programie Power BI Desktop.
+Skorzystanie z pola pytania funkcji Pytania i odpowiedzi jest najprostszym sposobem utworzenia karty. Pole pytania funkcji Pytania i odpowiedzi jest dostępne w usłudze Power BI z poziomu pulpitu nawigacyjnego lub raportu oraz w widoku raportu programu Desktop. Poniższe kroki przedstawiają tworzenie karty z poziomu pulpitu nawigacyjnego usługi Power BI. Jeśli chcesz utworzyć kartę za pomocą funkcji Pytania i odpowiedzi w programie Power BI Desktop, [wykonaj te instrukcje](https://powerbi.microsoft.com/en-us/blog/power-bi-desktop-december-feature-summary/#QandA), aby uzyskać wersję zapoznawczą funkcji Pytania i odpowiedzi dla raportów w programie Power BI Desktop.
 
-1. Utwórz [pulpit nawigacyjny](../consumer/end-user-dashboards.md) i [pobierz dane](../service-get-data.md). W tym przypadku jest używany [przykład Opportunity Analysis](../sample-opportunity-analysis.md).
+1. Utwórz [pulpit nawigacyjny](../service-dashboards.md) i [pobierz dane](../service-get-data.md). W tym przypadku jest używany [przykład Opportunity Analysis](../sample-opportunity-analysis.md).
 
 1. W polu pytania w górnej części pulpitu nawigacyjnego rozpocznij wpisywanie tego, co chcesz wiedzieć o danych. 
 
    ![](media/power-bi-visualization-card/power-bi-q-and-a-box.png)
 
->**PORADA**: Z poziomu raportu usługi Power BI, w [widoku do edycji](../consumer/end-user-reading-view.md), wybierz pozycję **Zadaj pytanie** z górnego paska menu. W przypadku raportu programu Power BI Desktop znajdź jakieś wolne miejsce w raporcie i kliknij je dwukrotnie, aby otworzyć pole pytania.
+> [!TIP]
+> Z poziomu raportu usługi Power BI w [widoku do edycji](../service-reading-view-and-editing-view.md) wybierz pozycję **Zadaj pytanie** z górnego paska menu. W przypadku raportu programu Power BI Desktop znajdź jakieś wolne miejsce w raporcie i kliknij je dwukrotnie, aby otworzyć pole pytania.
 
 3. Na przykład wpisz w polu pytania „number of opportunities” (liczba możliwości).
 
@@ -75,7 +76,7 @@ Skorzystanie z pola pytania funkcji Pytania i odpowiedzi jest najprostszym sposo
 
    Komunikat o powodzeniu (w prawym górnym rogu) informuje o tym, że wizualizacja została dodana do pulpitu nawigacyjnego jako kafelek.  
 
-   ![](media/power-bi-visualization-card/power-bi-success.png)
+   ![](media/power-bi-visualization-card/power-bi-success2.png)
 7. Wybierz pozycję **Przejdź do pulpitu nawigacyjnego**, aby wyświetlić nowy kafelek. Tam możesz [zmienić nazwę, rozmiar, dodać hiperlink i zmienić położenia kafelka i inne](../service-dashboard-edit-tile.md) na pulpicie nawigacyjnym.
 
    ![](media/power-bi-visualization-card/power-bi-pinned.png)
@@ -87,28 +88,24 @@ Skorzystanie z pola pytania funkcji Pytania i odpowiedzi jest najprostszym sposo
 ## <a name="format-a-card"></a>Formatowanie karty
 Istnieje wiele opcji zmieniania etykiet, tekstu, koloru i innych elementów. Najlepszym sposobem zapoznania się z nimi jest utworzenie karty, a następnie eksplorowanie okienka Formatowanie. Oto tylko kilka spośród dostępnych opcji formatowania. 
 
-1. Rozpocznij, wybierając ikonę pędzla, aby otworzyć okienko formatowania. 
+1. Rozpocznij, wybierając ikonę wałka do malowania, aby otworzyć okienko formatowania. 
 
-    ![](media/power-bi-visualization-card/power-bi-format-card.png)
+    ![karta z konturem wałka do malowania](media/power-bi-visualization-card/power-bi-format-card.png)
 2. Rozwiń węzeł **Etykieta danych**, a następnie zmień kolor, rozmiar i rodzinę czcionek. Jeśli masz tysiące sklepów, możesz użyć opcji **Jednostki wyświetlania**, aby pokazać liczbę w tysiącach i kontrolować liczbę miejsc dziesiętnych. Na przykład można użyć wersji 125,8K zamiast 125 832,00.
 
 3.  Rozwiń węzeł **Etykieta kategorii**, a następnie zmień rozmiar i kolor.
 
-    ![](media/power-bi-visualization-card/power-bi-card-format.png)
+    ![wybrany kolor ciemnoniebieski](media/power-bi-visualization-card/power-bi-card-format.png)
 
 4. Rozwiń węzeł **Tło** i przesuń suwak do położenia oznaczającego włączenie.  Teraz możesz zmienić kolor tła i przezroczystość.
 
-    ![](media/power-bi-visualization-card/power-bi-format-color.png)
+    ![suwak włączony](media/power-bi-visualization-card/power-bi-format-color.png)
 
 5. Zmieniaj ustawienia opcji formatowania do momentu uzyskania wybranego wyglądu karty. 
 
-    ![](media/power-bi-visualization-card/power-bi-formatted.png)
+    ![Karta po zakończeniu wszystkich operacji formatowania](media/power-bi-visualization-card/power-bi-formatted.png)
 
 ## <a name="next-steps"></a>Następne kroki
-[Kafelki pulpitu nawigacyjnego w usłudze Power BI](../consumer/end-user-tiles.md)
+[Wykresy kombi w usłudze Power BI](power-bi-visualization-combo-chart.md)
 
-[Pulpity nawigacyjne w usłudze Power BI](../consumer/end-user-dashboards.md)
-
-[Power BI — podstawowe pojęcia](../consumer/end-user-basic-concepts.md)
-
-Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
+[Typy wizualizacji w usłudze Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)

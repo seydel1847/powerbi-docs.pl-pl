@@ -2,27 +2,27 @@
 title: Zabezpieczenia usługi Power BI
 description: Zabezpieczenia usługi Power BI. Sposób powiązania usługi Power BI z usługą Azure Active Directory i innymi usługami Azure. W tym temacie znajduje się również link do oficjalnego dokumentu, który zawiera więcej informacji szczegółowych informacji.
 author: davidiseminger
-manager: erikri
+manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 09/27/2018
 ms.author: davidi
 LocalizationGroup: Administration
-ms.openlocfilehash: ec8f1e40cac1c98bcfb5049d1fe8dd7397b616d6
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 072f548c3725c4133bb548a72fc58679e74f5fc7
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37598866"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47417101"
 ---
 # <a name="power-bi-security"></a>Zabezpieczenia usługi Power BI
-Aby uzyskać szczegółowy opis zabezpieczeń usługi Power BI, [pobierz oficjalny dokument na temat zabezpieczeń usługi Power BI ](http://go.microsoft.com/fwlink/?LinkId=829185):
+Aby uzyskać szczegółowy opis zabezpieczeń usługi Power BI, [pobierz oficjalny dokument na temat zabezpieczeń usługi Power BI](http://go.microsoft.com/fwlink/?LinkId=829185):
 
 [![](media/service-admin-power-bi-security/pbi_security_01.png)](http://go.microsoft.com/fwlink/?LinkId=829185)
 
-Usługa Power BI jest oparta na platformie **Azure** — infrastrukturze i platformie obliczeniowej w chmurze firmy Microsoft. Architektura usługi Power BI opiera się na dwóch klastrach — klastrze **frontonu internetowego** i klastrze **zaplecza**. Klaster frontonu internetowego jest odpowiedzialny za początkowe połączenie i uwierzytelnianie w usłudze Power BI, a po uwierzytelnieniu wszystkie kolejne interakcje użytkownika są obsługiwane przez zaplecze. Usługa Power BI używa usługi Azure Active Directory (AAD) do przechowywania tożsamości użytkowników i zarządzania nimi oraz zarządza magazynem danych i metadanych przy użyciu, odpowiednio, usługi Azure BLOB i usługi Azure SQL Database.
+Usługa Power BI jest oparta na platformie **Azure** — infrastrukturze i platformie obliczeniowej w chmurze firmy Microsoft. Architektura usługi Power BI opiera się na dwóch klastrach — klastrze **frontonu internetowego** i klastrze **zaplecza**. Klaster frontonu internetowego zarządza początkowym połączeniem i uwierzytelnianiem w usłudze Power BI, a po uwierzytelnieniu wszystkie kolejne interakcje użytkownika są obsługiwane przez zaplecze. Usługa Power BI używa usługi Azure Active Directory (AAD) do przechowywania tożsamości użytkowników i zarządzania nimi oraz zarządza magazynem danych i metadanych przy użyciu, odpowiednio, usługi Azure BLOB i usługi Azure SQL Database.
 
 ## <a name="power-bi-architecture"></a>Architektura usługi Power BI
 Każde wdrożenie usługi Power BI składa się z dwóch klastrów — klastra **frontonu internetowego** i klastra **zaplecza**.

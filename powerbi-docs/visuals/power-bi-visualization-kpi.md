@@ -1,25 +1,31 @@
 ---
 title: Wizualizacje kluczowych wskaźników wydajności
-description: tworzenie kluczowego wskaźnika wydajności w usłudze Power BI i programie Power BI Desktop
+description: Tworzenie wizualizacji kluczowych wskaźników wydajności w usłudze Power BI
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: xmja6EpqaO0
 ms.service: powerbi
 ms.component: powerbi-desktop
-ms.topic: conceptual
-ms.date: 03/21/2018
+ms.topic: tutorial
+ms.date: 09/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d3afa24c68db5ffcaec1dddae09b0b9719bf2bb5
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: aec8bc2d7faa8d3c4b9c7b4eb69ed9a930cfbcd1
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46543548"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47417239"
 ---
 # <a name="kpi-visuals"></a>Wizualizacje kluczowych wskaźników wydajności
 Kluczowy wskaźnik wydajności (KPI) to wizualna podpowiedź przedstawiająca postęp w realizacji mierzalnego celu. Więcej informacji na temat kluczowych wskaźników wydajności można uzyskać w witrynie [Microsoft Developer Network](https://msdn.microsoft.com/library/hh272050).
+
+Jeśli nie masz konta usługi Power BI, na początku [zacznij korzystać z bezpłatnej wersji próbnej](https://app.powerbi.com/signupredirect?pbi_source=web).
+
+## <a name="prerequisites"></a>Wymagania wstępne
+* [Program Power BI Desktop jest dostępny bezpłatnie!](https://powerbi.microsoft.com/en-us/get-started/)
+* [Przykład Retail Analysis Sample — plik PBIX](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)
 
 ## <a name="when-to-use-a-kpi"></a>Kiedy używać kluczowych wskaźników wydajności
 Kluczowe wskaźniki wydajności są doskonałym wyborem w następujących sytuacjach:
@@ -27,33 +33,31 @@ Kluczowe wskaźniki wydajności są doskonałym wyborem w następujących sytuac
 * Aby zmierzyć postęp (czy wyprzedzam harmonogram, czy mam opóźnienie).
 * Aby zmierzyć odległość do celu (jak duże jest moje wyprzedzenie lub opóźnienie).   
 
-## <a name="kpi-visual-requirements"></a>Wymagania dotyczące kluczowych wskaźników wydajności wizualizacji
-Kluczowy wskaźnik wydajności (KPI) jest oparty na określonej mierze i jest zaprojektowany, aby ułatwić oszacowanie bieżącej wartości i stanu metryki względem zdefiniowanego celu. W związku z tym wizualizacja kluczowego wskaźnika wydajności wymaga *podstawowej* miary, która da w wyniku wartość i *docelową* miarę lub wartość, oraz progu lub celu.
+## <a name="kpi-requirements"></a>Wymagania dotyczące kluczowego wskaźnika wydajności
+Kluczowy wskaźnik wydajności (KPI) jest oparty na określonej mierze i jest zaprojektowany, aby ułatwić oszacowanie bieżącej wartości i stanu metryki względem zdefiniowanego celu. W związku z tym wizualizacja kluczowego wskaźnika wydajności wymaga *podstawowej* miary, która da w wyniku wartość i *docelową* miarę lub wartość, oraz *progu* lub *celu*.
 
-> [!NOTE]
-> Obecnie zestaw danych kluczowego wskaźnika wydajności musi zawierać wartości docelowe kluczowego wskaźnika wydajności. Jeśli zestaw danych nie zawiera tych wartości, można je utworzyć przez dodanie arkusza programu Excel z wartościami docelowymi do modelu danych lub pliku PBIX.
-> 
-> 
+Obecnie zestaw danych kluczowego wskaźnika wydajności musi zawierać wartości docelowe kluczowego wskaźnika wydajności. Jeśli zestaw danych nie zawiera tych wartości, można je utworzyć przez dodanie arkusza programu Excel z wartościami docelowymi do modelu danych lub pliku PBIX.
+
 
 ## <a name="how-to-create-a-kpi"></a>Jak utworzyć kluczowy wskaźnik wydajności
-Aby móc wykonywać te instrukcje, zaloguj się w usłudze Power BI, a następnie wybierz pozycję **Pobierz dane > Przykłady > Retail Analysis Sample**. Utworzymy kluczowy wskaźnik wydajności, który będzie mierzyć postęp realizacji celu sprzedaży.
+Aby kontynuować, otwórz [plik PBIX Retail Analysis](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) w programie Power BI Desktop. Utworzymy kluczowy wskaźnik wydajności, który będzie mierzyć postęp realizacji celu sprzedaży.
 
 Możesz też obejrzeć klip wideo, w którym pokażemy Ci, jak utworzyć pojedyncze wizualizacje metryk: mierniki, karty i kluczowe wskaźniki wydajności.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xmja6EpqaO0?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
-1. Otwórz raport w [widoku do edycji](../consumer/end-user-reading-view.md) i [dodaj nową stronę](../power-bi-report-add-page.md).    
-2. Wybierz pozycję **Sales > Total Units This Year** (Sprzedaż > Całkowita liczba jednostek w bieżącym roku).  To będzie wskaźnik.
-3. Dodaj pozycję **Time > Month** (Czas > Miesiąc).  To będzie reprezentacja trendu.
-4. WAŻNE: Posortuj wykres według **miesięcy**. Po przekształceniu wizualizacji w kluczowy wskaźnik wydajności opcja sortowania będzie niedostępna.
+1. Otwórz raport w widoku raportu i [wybierz żółtą kartę, aby dodać nową stronę](../power-bi-report-add-page.md).    
+2. W okienku Pola wybierz pozycje **Sales > Total Units This Year** (Sprzedaż > Całkowita liczba jednostek w bieżącym roku).  To będzie wskaźnik.
+3. Dodaj pozycję **Time > FiscalMonth** (Czas > Miesiąc obrachunkowy).  To będzie reprezentacja trendu.
+4. WAŻNE: posortuj wykres według **miesięcy obrachunkowych**. Po przekształceniu wizualizacji w kluczowy wskaźnik wydajności opcja sortowania będzie niedostępna.
 
-    ![](media/power-bi-visualization-kpi/power-bi-sort-by-month.png)
+    ![](media/power-bi-visualization-kpi/power-bi-chart.png)
 5. Przekształć wizualizację w kluczowy wskaźnik wydajności, wybierając ikonę kluczowego wskaźnika wydajności w okienku Wizualizacje.
    
-    ![](media/power-bi-visualization-kpi/power-bi-kpi-icon.png)
+    ![](media/power-bi-visualization-kpi/power-bi-kpi-template.png)
 6. Dodaj cel. Dodaj wartość sprzedaży z ostatniego roku jako cel. Przeciągnij pozycję **Total Units Last Year** (Całkowita liczba jednostek w ostatnim roku) do pola **Cele do osiągnięcia**.
    
-    ![](media/power-bi-visualization-kpi/power-bi-kpi.png)
+    ![](media/power-bi-visualization-kpi/power-bi-kpi-done.png)
 7. Opcjonalnie sformatuj kluczowy wskaźnik wydajności, wybierając ikonę wałka do malowania w celu otwarcia okienka Formatowanie.
    
    * **Wskaźnik** — steruje jednostkami wyświetlania wskaźnika i liczbą miejsc dziesiętnych.
@@ -61,16 +65,14 @@ Możesz też obejrzeć klip wideo, w którym pokażemy Ci, jak utworzyć pojedyn
    * **Cele** — jeśli zostanie ustawiona na wartość **Wł.**, wizualizacja wyświetla cel i odległość od celu w postaci wartości procentowej.
    * **Kodowanie kolorami > Kierunek** — niektóre kluczowe wskaźniki wydajności są postrzegane jako *lepsze* dla wyższych wartości, a niektóre jako *lepsze* dla niższych wartości. Na przykład zarobki w porównaniu do czasu oczekiwania. Zwykle wyższa wartość dochodów jest lepsza niż wyższa wartość czasu oczekiwania. Wybierz pozycję **high is better** (wyższa wartość jest lepsza) i opcjonalnie zmień ustawienia kolorów.
 
-1. Po odpowiednim skonfigurowaniu kluczowego wskaźnika wydajności [przypnij go do pulpitu nawigacyjnego](../service-dashboard-pin-tile-from-report.md).
 
-Kluczowe wskaźniki wydajności są również dostępne na urządzeniach przenośnych, dzięki czemu możesz na bieżąco śledzić stan swojej firmy.
+Kluczowe wskaźniki wydajności są również dostępne w usłudze Power BI i na urządzeniach przenośnych, dzięki czemu możesz na bieżąco śledzić stan swojej firmy.
 
 ## <a name="considerations-and-troubleshooting"></a>Istotne zagadnienia i rozwiązywanie problemów
-* Jeśli Twój kluczowy wskaźnik wydajności nie wygląda jak ten powyżej, być może należy przeprowadzić sortowanie według miesięcy. Ponieważ kluczowe wskaźniki wydajności nie mają opcji sortowania, sortowanie według miesięcy należy przeprowadzić *przed* przekształceniem wizualizacji w kluczowy wskaźnik wydajności.
+* Jeśli Twój kluczowy wskaźnik wydajności nie wygląda jak ten powyżej, być może należy przeprowadzić sortowanie według miesięcy obrachunkowych. Ponieważ kluczowe wskaźniki wydajności nie mają opcji sortowania, sortowanie według miesięcy obrachunkowych należy przeprowadzić *przed* przekształceniem wizualizacji w kluczowy wskaźnik wydajności.
 
 ## <a name="next-steps"></a>Następne kroki
 
-[Wizualizacje w raportach usługi Power BI](power-bi-report-visualizations.md)
+[Mapy podstawowe w usłudze Power BI](power-bi-map-tips-and-tricks.md)
 
-Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
-
+[Typy wizualizacji w usłudze Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)

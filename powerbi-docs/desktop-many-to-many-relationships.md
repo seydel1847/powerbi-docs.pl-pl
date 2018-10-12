@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/31/2018
+ms.date: 09/17/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 40799bb2716b2f6e85405e76c2a301acef3509aa
-ms.sourcegitcommit: 06f59902105c93700e71e913dff8453e221e4f82
+ms.openlocfilehash: 5c0c6fd619a2487f9c801200d732cda628a68055
+ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/01/2018
-ms.locfileid: "39388760"
+ms.lasthandoff: 09/17/2018
+ms.locfileid: "45974005"
 ---
 # <a name="many-to-many-relationships-in-power-bi-desktop-preview"></a>Relacje wiele-do-wielu w programie Power BI Desktop (wersja zapoznawcza)
 
@@ -158,12 +158,13 @@ W związku z tym należy upewnić się, że obliczenia korzystające z funkcji *
 
 Istnieje kilka ograniczeń tej wersji **relacji wiele-do-wielu** i **modeli złożonych**.
 
-Następujących źródeł wielowymiarowych nie można używać z **modelami złożonymi**:
+Następujących źródeł wielowymiarowych programu Live Connect nie można używać z **modelami złożonymi**:
 
 * SAP HANA
 * SAP Business Warehouse
 * SQL Server Analysis Services
 * Zestawy danych usługi Power BI
+* Azure Analysis Services
 
 W przypadku łączenia ze źródłami wielowymiarowymi w trybie DirectQuery nie można również połączyć się z innym źródłem DirectQuery ani utworzyć kombinacji z danymi importowanymi.
 

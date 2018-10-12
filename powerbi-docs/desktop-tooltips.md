@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/10/2018
+ms.date: 09/27/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 69c0e6d253a1d8d8ecad9f562c0b992c01d4d577
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 4264b10ac9ae42585ea8b814d0c15de7ea318752
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547143"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47416802"
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop"></a>Tworzenie etykietek narzędzi opartych na stronach raportu w programie Power BI Desktop
 Możesz tworzyć wizualnie bogate **etykietki narzędzi raportu**, wyświetlane po najechaniu kursorem na elementy wizualne, w oparciu o strony raportu utworzonego w programie **Power BI Desktop**. Poprzez utworzenie strony raportu służącej jako etykietka narzędzi, możesz uwzględnić w niestandardowych etykietkach narzędzi elementy wizualne, obrazy i inne kolekcje elementów utworzonych na stronie raportu. 
@@ -125,7 +125,7 @@ Należy pamiętać o kilku ograniczeniach i istotnych zagadnieniach dotyczących
 
 * Począwszy od wersji **Power BI Desktop** z września 2018 r., w której wprowadzono ogólną dostępność etykietek narzędzi, wizualizacje kart również obsługują etykietki narzędzi.
 * Począwszy od wersji programu **Power BI Desktop** z lipca 2018 r. wizualizacje tabel i macierzy są obsługiwane w przypadku etykietek narzędzi. 
-* Etykietki narzędzi raportów nie są obsługiwane w przypadku wyświetlania raportów w aplikacjach mobilnych lub w środowiskach osadzonych, w tym w przypadku publikowania w Internecie. 
+* Etykietki narzędzi nie są obsługiwane podczas wyświetlania raportów w aplikacjach mobilnych. 
 * Etykietki narzędzi raportów nie są obsługiwane w przypadku niestandardowych elementów wizualnych. 
 * Klastry nie są obecnie obsługiwane jako pola, które można wyświetlać w etykietkach narzędzi raportów. 
 * W przypadku wybierania pola do wyświetlenia w ramach etykietek narzędzi raportów, kiedy zastosowane zostaje pole, a nie kategoria, elementy wizualne zawierające to pole będą wyświetlać wyłącznie określoną etykietkę narzędzi po dopasowaniu podsumowania z wybranym polem. 

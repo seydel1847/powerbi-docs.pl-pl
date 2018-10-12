@@ -8,15 +8,15 @@ featuredvideoid: maTzOJSRB3g
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/20/2018
+ms.date: 09/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d1c771ed49a000374c58beb694dda511a8c9a097
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: e9b48b79b30250c442140929045132fe1c4b10e8
+ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565825"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "47448919"
 ---
 # <a name="waterfall-charts-in-power-bi"></a>Wykresy kaskadowe w usłudze Power BI
 Wykres kaskadowy pokazuje sumę bieżącą, gdy wartości są dodawane lub odejmowane. Jest to użyteczne, jeśli chcemy zrozumieć, jak na początkową wartość (np. przychód netto) ma wpływ seria zmian dodatnich i ujemnych.
@@ -39,32 +39,32 @@ Utworzymy wykres kaskadowy, który będzie przedstawiać wariancję sprzedaży (
 
 1. Wybierz kartę **Zestawy danych** i przewiń do nowego zestawu danych „Przykład Retail Analysis”.  Wybierz ikonę **Utwórz raport**, aby otworzyć zestaw danych w widoku edycji raportu. 
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-report.png)
-2. W okienku **Pola** wybierz pozycje **Sprzedaż \> Wariancja sprzedaży całkowitej**. Jeśli pozycja **Wariancja sprzedaży całkowitej** nie znajduje się w obszarze **Oś Y**, przeciągnij ją tam.
-3. Przekonwertuj wykres na **Wykres kaskadowy**. 
+    ![Wyróżniona karta Zestawy danych](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-report.png)
+2. W okienku **Pola** wybierz pozycje **Sprzedaż \> Wariancja sprzedaży całkowitej**. 
+3. Przekonwertuj wykres na **Wykres kaskadowy**. Jeśli pozycja **Wariancja sprzedaży całkowitej** nie znajduje się w obszarze **Oś Y**, przeciągnij ją tam.
    
-    ![](media/power-bi-visualization-waterfall-charts/convertwaterfall.png)
+    ![Szablony wizualizacji](media/power-bi-visualization-waterfall-charts/convertwaterfall.png)
 4. Wybierz pozycje **Czas** \> **Miesiąc obrachunkowy**, aby je dodać do źródła **Kategoria**. 
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-waterfall.png)
+    ![wykres kaskadowy](media/power-bi-visualization-waterfall-charts/power-bi-waterfall.png)
 5. Posortuj wykres kaskadowy chronologicznie. W prawym górnym rogu wykresu wybierz wielokropek (...), a następnie wybierz pozycję **Miesiąc obrachunkowy**.
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-sort.png)
+    ![wybierz pozycję sortuj według > FiscalMonth](media/power-bi-visualization-waterfall-charts/power-bi-sort-by.png)
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-sorted.png)
+    ![wynik nowego sortowania rosnąco](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-sorted.png)
 6. Przejdź do szczegółów, aby zobaczyć, co ma największy wpływ na zmiany z miesiąca na miesiąc. Przeciągnij **Magazyn** > **Terytorium** do zasobnika **Podział**.
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown.png)
+    ![Pozycja Magazyn w zasobniku Podział](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown.png)
 7. Domyślnie usługa Power BI dodaje pięć najważniejszych elementów przyczyniających się do wzrostów lub spadków według miesiąca. Niemniej nas interesują jedynie dwa najważniejsze elementy.  W okienku Formatowanie wybierz opcję **Podział** i ustaw opcję **Maksimum** na 2.
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown-maximum.png)
+    ![Formatowanie > Podział](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown-maximum.png)
    
     Szybki przegląd wykazuje, że terytoria Ohio i Pensylwania mają największy wpływ na trend, ujemny i dodatni, w wykresie kaskadowym. 
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-axis.png)
-8. Jest to interesujące odkrycie. Czy Ohio i Pensylwania mają tak znaczny wpływ, ponieważ sprzedaż w tych dwóch terytoriach jest znacznie wyższa niż w innych regionach?  Możemy to sprawdzić. Utwórz mapę, która będzie sprawdzać sprzedaż według terytorium.  
+    ![wykres kaskadowy](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-axis.png)
+8. Jest to interesujące odkrycie. Czy Ohio i Pensylwania mają tak znaczny wpływ, ponieważ sprzedaż w tych dwóch terytoriach jest znacznie wyższa niż w innych regionach?  Możemy to sprawdzić. Utwórzmy mapę, która będzie przedstawiać wartość sprzedaży w bieżącym roku i ubiegłym roku według terytorium.  
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-map.png)
+    ![zbliżenie mapy dla obszarów PA i Ohio](media/power-bi-visualization-waterfall-charts/power-bi-map.png)
    
     Nasza mapa potwierdza teorię.  Pokazuje, że te dwa terytoria mają najwyższą wartość sprzedaży w ubiegłym roku (rozmiar bąbelka) i w tym roku (cieniowanie bąbelka).
 
@@ -74,13 +74,7 @@ Aby uzyskać informacje o korzystaniu z okienka filtrów, zobacz [Dodawanie filt
 Wyróżnianie kolumny lub linii na wykresie kaskadowym powoduje krzyżowe filtrowanie innych wizualizacji na stronie raportu... i na odwrót. Jednak kolumna z podsumowaniem nie wyzwala wyróżniania ani nie reaguje na filtrowanie krzyżowe.
 
 ## <a name="next-steps"></a>Następne kroki
-[Raporty w usłudze Power BI](../consumer/end-user-reports.md)
+
+[Interakcje wizualne](../service-reports-visual-interactions.md)
 
 [Typy wizualizacji w usłudze Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
-
-[Wizualizacje w raportach usługi Power BI](power-bi-report-visualizations.md)
-
-[Power BI — podstawowe pojęcia](../consumer/end-user-basic-concepts.md)
-
-Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
-
