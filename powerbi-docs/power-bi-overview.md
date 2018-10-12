@@ -9,12 +9,12 @@ ms.topic: overview
 ms.date: 09/22/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 73a3188256b754517beb9f83a382c4005de6e7e7
-ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
+ms.openlocfilehash: 61264a2a127ea45f542543d40fd62a9de8c3620d
+ms.sourcegitcommit: f6360934b9af20bd630e2d3cb88398e3f5794090
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "47416986"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48798913"
 ---
 # <a name="what-is-power-bi"></a>Co to jest usługa Power BI?
 Usługa **Power BI** to zbiór usług oprogramowania, aplikacji i łączników, które działają razem, aby przekształcić niepowiązane źródła danych w spójne, atrakcyjne wizualnie i interaktywne analizy. Niezależnie od tego, czy dane to prosty arkusz kalkulacyjny programu Excel, czy też kolekcja chmurowych i lokalnych hybrydowych hurtowni danych, usługa **Power BI** umożliwia łatwe łączenie ze źródłami danych, wizualizowanie (lub odnajdywanie) ważnych informacji i udostępnianie ich wszystkim wybranym osobom.
@@ -43,7 +43,7 @@ Być może przeglądasz zapasy i postęp produkcji za pomocą pulpitu nawigacyjn
 
 Aby zapoznać się z dokumentami, które odnoszą się do Twojej roli:
 - Usługa Power BI dla [***projektantów***](desktop-what-is-desktop.md)
-- Usługa Power BI dla [***użytkowników***](consumer/end-user-consuming.md)
+- Usługa Power BI dla [***użytkowników***](consumer/end-user-consumer.md)
 - Usługa Power BI dla [***deweloperów***](developer/what-can-you-do.md)
 - Usługa Power BI dla [***administratorów***](service-admin-administering-power-bi-in-your-organization.md)
 
