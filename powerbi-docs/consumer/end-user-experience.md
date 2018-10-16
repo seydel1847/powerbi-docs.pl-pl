@@ -11,12 +11,12 @@ ms.topic: quickstart
 ms.date: 10/02/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 261d6fdb12a75fd1476c5f19ded034a3f85d1fb3
-ms.sourcegitcommit: f6360934b9af20bd630e2d3cb88398e3f5794090
+ms.openlocfilehash: 41bd4148845754d1b714060e538f559b310969d8
+ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "48798936"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "49112158"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>Szybki start — poruszanie się po usłudze Power BI
 
@@ -125,7 +125,7 @@ Zawartość można również sortować według nazwy lub właściciela.
 
 ![sortowanie zawartości](./media/end-user-experience/power-bi-sort.png)
 
-Aby dowiedzieć się więcej, zobacz [Nawigacja w usłudze Power BI: wyszukiwanie, sortowanie, filtrowanie](end-user-search-filter-sort.md)
+Aby dowiedzieć się więcej, zobacz [Nawigacja w usłudze Power BI: wyszukiwanie, sortowanie, filtrowanie](end-user-search-sort.md)
 
 ## <a name="clean-up-resources"></a>Czyszczenie zasobów
 Jeśli chcesz, po zakończeniu tego przewodnika Szybki start możesz usunąć pulpit nawigacyjny, raport i zestaw danych przykładu Retail Analysis.
