@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/01/2018
+ms.date: 10/16/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: f15bd3395ad9edc39589a0a5b1563cfcc00e2c3c
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 6cd667a81a743a0b074155e0e16a49178157bc6c
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547888"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396502"
 ---
 # <a name="how-to-make-your-excel-data-work-well-with-qa-in-power-bi"></a>Jak zapewnić poprawne współdziałanie danych programu Excel z funkcją Pytania i odpowiedzi w usłudze Power BI
 Jeśli jesteś osobą, która tworzy modele danych lub skoroszyty programu Excel, które będą używane z usługą Power BI, czytaj dalej...
@@ -45,7 +45,7 @@ Poniżej przedstawiono kilka wskazówek umożliwiających wydajne użytkowanie f
 
 ## <a name="next-steps"></a>Następne kroki
 Powrót do [pytań i odpowiedzi w usłudze Power BI](consumer/end-user-q-and-a.md)  
-[Przygotowywanie lokalnych zestawów danych pod kątem funkcji Pytania i odpowiedzi](consumer/end-user-q-and-a-direct-query.md)   
+[Przygotowywanie lokalnych zestawów danych pod kątem funkcji Pytania i odpowiedzi](service-q-and-a-direct-query.md)   
 [Pytania i odpowiedzi — szybki start](power-bi-visualization-introduction-to-q-and-a.md)  
 [Pobieranie danych (dla usługi Power BI)](service-get-data.md)  
 

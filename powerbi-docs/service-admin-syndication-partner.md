@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/05/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: a86b1d6823a1d889b47015d1213a9a056c537703
-ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
+ms.openlocfilehash: c08a886584e45b83e559a509392df867e31f3d54
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 07/10/2018
-ms.locfileid: "37926656"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49641188"
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>Nie można dodać usługi Power BI do subskrypcji partnera usługi Office 365
 Firmy mogą sprzedawać usługę Office 365 w postaci powiązanej i zintegrowanej z ich własnymi rozwiązaniami, co zapewnia klientom końcowym jeden punkt kontaktu w zakresie zakupów, rozliczeń i pomocy technicznej.

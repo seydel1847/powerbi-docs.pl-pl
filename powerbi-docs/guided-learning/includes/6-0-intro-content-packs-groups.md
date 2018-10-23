@@ -2,8 +2,6 @@ Witamy w sekcji **Publikowanie i udostępnianie** kursu **Nauka z przewodnikiem*
 
 Teraz, gdy już wiesz, jak program Excel i usługa Power BI współpracują ze sobą, i gdy wiesz już wszystko na temat wizualizacji, które możesz tworzyć w raportach i na pulpitach nawigacyjnych, zapewne chcesz udostępniać je współpracownikom i znajomym. **Publikowanie i udostępnianie** w usłudze Power BI jest łatwe.
 
-W tej sekcji pokazano, jak łatwo można przenieść skoroszyty programu Excel do usługi Power BI, i zademonstrowano, że usługa Power BI i program Excel tworzą doskonałe partnerstwo.
-
 ## <a name="share-and-collaborate-with-colleagues-in-power-bi"></a>Udostępnianie i współpraca z innymi użytkownikami w usłudze Power BI
 *Poznaj narzędzia ułatwiające udostępnianie i współpracę w usłudze Power BI*
 

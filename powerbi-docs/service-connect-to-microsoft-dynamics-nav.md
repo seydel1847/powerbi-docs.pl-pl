@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/30/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 94ca76af9366752f4e1033fa05147f867e7096d9
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 2085f1ca852839c27c4943872e5f5ddb248e8638
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908905"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49641395"
 ---
 # <a name="connect-to-microsoft-dynamics-nav-with-power-bi"></a>Nawiązywanie połączenia z systemem Microsoft Dynamics NAV przy użyciu usługi Power BI
 Pobieranie szczegółowych informacji o danych systemu Microsoft Dynamics NAV przy użyciu usługi Power BI jest łatwe. Usługa Power BI pobiera dane, zarówno dotyczące sprzedaży, jak i finansowe, a następnie tworzy aplikację za pomocą pulpitu nawigacyjnego i raportów opartych na tych danych. Usługa Power BI wymaga Twoich uprawnień do tabel, z których dane są pobierane, w tym przypadku dane o sprzedaży i finansach. Więcej szczegółowych informacji na temat wymagań znajduje się poniżej. Po zainstalowaniu aplikacji możesz wyświetlić pulpit nawigacyjny i raporty w usłudze Power BI ([https://powerbi.com](https://powerbi.com)) oraz w aplikacjach mobilnych usługi Power BI. 
@@ -29,7 +29,7 @@ Pobieranie szczegółowych informacji o danych systemu Microsoft Dynamics NAV pr
    ![](media/service-connect-to-microsoft-dynamics-nav/mdnav.png)
 4. Po wyświetleniu monitu wprowadź adres URL usługi OData dla systemu Microsoft Dynamics NAV. Adres URL powinien być zgodny z następującym wzorcem:
    
-    `https//instance.navserver.com:7048/DynamicsNAV90_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
+    `https://instance.navserver.com:7048/DynamicsNAV90_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
    
    * „instance.navserver.com” z Twoją nazwą serwera NAV
    * „DynamicsNAV90\_Instance1” z Twoją nazwą wystąpienia serwera NAV
@@ -72,7 +72,7 @@ Jeśli po wpisaniu adresu URL systemu Microsoft Dynamics NAV zostanie wyświetlo
 
 * Adres URL dokładnie odpowiada temu wzorcowi:
   
-    `https//instance.navserver.com:7048/DynamicsNAV90_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
+    `https://instance.navserver.com:7048/DynamicsNAV90_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
   
   * „instance.navserver.com” z Twoją nazwą serwera NAV
   * „DynamicsNAV90\_Instance1” z Twoją nazwą wystąpienia serwera NAV
@@ -92,11 +92,11 @@ Jeśli zobaczysz okno dialogowe błędu „Oj” po obsłużeniu okna dialogoweg
 
 * Sprawdź, czy adres URL jest zgodny ze wzorcem określonym powyżej. Powszechnym błędem jest określenie:
   
-    `https//instance.navserver.com:7048/DynamicsNAV90\_Instance1/OData`
+    `https://instance.navserver.com:7048/DynamicsNAV90\_Instance1/OData`
   
     Należy jednak pamiętać o uwzględnieniu sekcji „Company('CRONUS%20International%20Ltd.')” z nazwą Twojej firmy NAV:
   
-    `https//instance.navserver.com:7048/DynamicsNAV90\_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
+    `https://instance.navserver.com:7048/DynamicsNAV90\_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
 
 ## <a name="next-steps"></a>Następne kroki
 * [Czym są aplikacje w usłudze Power BI?](service-create-distribute-apps.md)

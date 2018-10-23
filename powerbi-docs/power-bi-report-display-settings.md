@@ -8,15 +8,15 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 12/24/2017
+ms.date: 10/16/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 733b45e856f2f3c3c2d31576ac884e4a4cd4a8cd
-ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
+ms.openlocfilehash: f52231d5df04367a1fe58e8575cd364899ff8eae
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47187196"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396732"
 ---
 # <a name="page-display-settings-in-a-power-bi-report"></a>Ustawienia wyświetlania strony w raporcie usługi Power BI
 Rozumiemy, że zachowanie doskonałej zgodności Twojego układ raportu piksel w piksel ma krytyczne znaczenie. Czasami może to stanowić wyzwanie, ponieważ Ty i Twoi współpracownicy wyświetlacie te raporty na ekranach o różnych współczynnikach proporcji i rozmiarach. 
