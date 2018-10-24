@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: e44d4bb48289b515797167fb3b91a9bbf0d2bcdd
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: ef35ef674ad8b0608c22b7b0d958b4844bb0d24e
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "37092166"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46544451"
 ---
 # <a name="connect-to-uservoice-with-power-bi"></a>Nawiązywanie połączenia z usługą UserVoice przy użyciu usługi Power BI
 Przy użyciu usługi Power BI i pakietu zawartości UserVoice można łatwo śledzić i eksplorować dane w usłudze UserVoice. Usługa Power BI pobiera dane, w tym zgłoszenia, sugestie i oceny zadowolenia, a następnie na ich podstawie tworzy gotowy pulpit nawigacyjny i raporty.
@@ -53,10 +53,10 @@ Połącz się z [pakietem zawartości UserVoice](https://app.powerbi.com/getdata
 
 **Co teraz?**
 
-* Spróbuj [zadać pytanie w polu funkcji Pytania i odpowiedzi](power-bi-q-and-a.md) w górnej części pulpitu nawigacyjnego
+* Spróbuj [zadać pytanie w polu funkcji Pytania i odpowiedzi](consumer/end-user-q-and-a.md) w górnej części pulpitu nawigacyjnego
 * [Zmień kafelki](service-dashboard-edit-tile.md) na pulpicie nawigacyjnym.
-* [Wybierz kafelek](service-dashboard-tiles.md), aby otworzyć raport źródłowy.
-* Zestaw danych zostanie ustawiony na codzienne odświeżanie, ale możesz zmienić harmonogram odświeżania lub spróbować odświeżyć go na żądanie przy użyciu opcji **Odśwież teraz**
+* [Wybierz kafelek](consumer/end-user-tiles.md), aby otworzyć raport źródłowy.
+* Dla zestawu danych jest zaplanowane codzienne odświeżanie, ale możesz zmienić harmonogram odświeżania lub odświeżyć go na żądanie przy użyciu polecenia **Odśwież teraz**
 
 ## <a name="troubleshooting"></a>Rozwiązywanie problemów
 **„Walidacja parametru nie powiodła się, upewnij się, że wszystkie parametry są prawidłowe”**

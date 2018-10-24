@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 581bfa4a6eca07218d10b9f86753773a0fd9bb9d
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: e030d80a26b946d6b99c808c937dca4bb6eb3a62
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34249487"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46543504"
 ---
 # <a name="connect-to-prevedere-with-power-bi"></a>Łączenie się z pakietem zawartości Prevedere przy użyciu usługi Power BI
 Uzyskaj dostęp do wyłącznych i kluczowych informacji finansowych, które pozwolą pewnie oraz aktywnie rozwijać Twoją firmę.
@@ -44,10 +44,10 @@ Połącz się z [pakietem zawartości Prevedere](https://app.powerbi.com/getdata
 
 **Co teraz?**
 
-* Spróbuj [zadać pytanie w polu funkcji Pytania i odpowiedzi](power-bi-q-and-a.md) w górnej części pulpitu nawigacyjnego
+* Spróbuj [zadać pytanie w polu funkcji Pytania i odpowiedzi](consumer/end-user-q-and-a.md) w górnej części pulpitu nawigacyjnego
 * [Zmień kafelki](service-dashboard-edit-tile.md) na pulpicie nawigacyjnym.
-* [Wybierz kafelek](service-dashboard-tiles.md), aby otworzyć raport źródłowy.
-* Zestaw danych zostanie ustawiony na codzienne odświeżanie, ale możesz zmienić harmonogram odświeżania lub spróbować odświeżyć go na żądanie przy użyciu opcji **Odśwież teraz**
+* [Wybierz kafelek](consumer/end-user-tiles.md), aby otworzyć raport źródłowy.
+* Dla zestawu danych jest zaplanowane codzienne odświeżanie, ale możesz zmienić harmonogram odświeżania lub odświeżyć go na żądanie przy użyciu polecenia **Odśwież teraz**
 
 ## <a name="whats-included"></a>Zawartość pakietu
 Pakiet zawartości pozwala uzyskać dostęp do analiz dotyczących prognoz sprzedaży detalicznej, modeli prognoz, wskaźników wyprzedzających i innych.

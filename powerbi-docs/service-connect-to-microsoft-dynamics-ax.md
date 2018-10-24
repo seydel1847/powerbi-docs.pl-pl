@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 2e84d52d9e26b23380b9fbc12fdaa4086a2ec7ed
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 8466d57340feb80650af93e4f400b82436d11b05
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34239913"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46544859"
 ---
 # <a name="connect-to-microsoft-dynamics-ax-content-pack-with-power-bi"></a>Nawiązywanie połączenia z pakietem zawartości Microsoft Dynamics AX przy użyciu usługi Power BI
 System Microsoft Dynamics AX ma trzy pakiety zawartości Power BI przeznaczone dla różnych użytkowników biznesowych. Pakiet zawartości Financial Performance, zaprojektowany specjalnie z myślą o dyrektorach finansowych, zapewnia dostęp do szczegółowych informacji dotyczących wydajności finansowej organizacji. Pakiet zawartości Retail Channel Performance jest przeznaczony dla menedżerów kanału i koncentruje się na wydajności sprzedaży, aby umożliwiać przewidywanie trendów i odkrywanie informacji opartych bezpośrednio na danych dotyczących sprzedaży detalicznej i działań komercyjnych. Pakiet Cost Management jest przeznaczony dla dyrektorów zarządzających oraz dyrektorów finansowych i zapewnia szczegółowe informacje dotyczące wydajności operacyjnej.
@@ -46,10 +46,10 @@ Nawiąż połączenie z pakietem zawartości Microsoft Dynamics AX [Retail Chann
 
 **Co teraz?**
 
-* Spróbuj [zadać pytanie w polu funkcji Pytania i odpowiedzi](power-bi-q-and-a.md) w górnej części pulpitu nawigacyjnego
+* Spróbuj [zadać pytanie w polu funkcji Pytania i odpowiedzi](consumer/end-user-q-and-a.md) w górnej części pulpitu nawigacyjnego
 * [Zmień kafelki](service-dashboard-edit-tile.md) na pulpicie nawigacyjnym.
-* [Wybierz kafelek](service-dashboard-tiles.md), aby otworzyć raport źródłowy.
-* Zestaw danych zostanie ustawiony na codzienne odświeżanie, ale możesz zmienić harmonogram odświeżania lub spróbować odświeżyć go na żądanie przy użyciu opcji **Odśwież teraz**
+* [Wybierz kafelek](consumer/end-user-tiles.md), aby otworzyć raport źródłowy.
+* Dla zestawu danych jest zaplanowane codzienne odświeżanie, ale możesz zmienić harmonogram odświeżania lub odświeżyć go na żądanie przy użyciu polecenia **Odśwież teraz**
 
 ## <a name="whats-included"></a>Zawartość pakietu
 Pakiet zawartości używa źródła Dynamics AX 7 OData do importowania danych powiązanych z wydajnością kanału sprzedaży (Retail Channel), finansową (Financial) oraz zarządzania kosztami (Cost Management).

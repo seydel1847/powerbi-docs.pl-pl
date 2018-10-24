@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 09171c02dcbf5af50553c6e82f46f7f81b15a4cc
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 5ba3c1336abc10872e58ef2ec38f076dfa120d47
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37136208"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46544988"
 ---
 # <a name="connect-to-azure-search-with-power-bi"></a>Łączenie się z usługą Azure Search za pomocą usługi Power BI
 Usługa Azure Search Traffic Analytics pozwala na monitorowanie i zrozumienie ruchu w usłudze Azure Search. Pakiet zawartości Azure Search dla usługi Power BI dostarcza szczegółowe informacje na temat danych wyszukiwania, w tym wyszukiwania, indeksowania, statystyk usługi i opóźnienia w ciągu ostatnich 30 dni. Więcej szczegółów można znaleźć we [wpisie na blogu dotyczącym platformy Azure](https://azure.microsoft.com/blog/analyzing-your-azure-search-traffic/).
@@ -44,10 +44,10 @@ Połącz się z [pakietem zawartości Azure Search](https://app.powerbi.com/getd
 
 **Co teraz?**
 
-* Spróbuj [zadać pytanie w polu funkcji Pytania i odpowiedzi](power-bi-q-and-a.md) w górnej części pulpitu nawigacyjnego
+* Spróbuj [zadać pytanie w polu funkcji Pytania i odpowiedzi](consumer/end-user-q-and-a.md) w górnej części pulpitu nawigacyjnego
 * [Zmień kafelki](service-dashboard-edit-tile.md) na pulpicie nawigacyjnym.
-* [Wybierz kafelek](service-dashboard-tiles.md), aby otworzyć raport źródłowy.
-* Zestaw danych zostanie ustawiony na codzienne odświeżanie, ale możesz zmienić harmonogram odświeżania lub spróbować odświeżyć go na żądanie przy użyciu opcji **Odśwież teraz**
+* [Wybierz kafelek](consumer/end-user-tiles.md), aby otworzyć raport źródłowy.
+* Dla zestawu danych jest zaplanowane codzienne odświeżanie, ale możesz zmienić harmonogram odświeżania lub odświeżyć go na żądanie przy użyciu polecenia **Odśwież teraz**
 
 ## <a name="system-requirements"></a>Wymagania systemowe
 Pakiet zawartości Azure Search wymaga, aby usługa Azure Search Traffic Analytics była włączona na koncie.
@@ -58,5 +58,5 @@ Upewnij się, że nazwa konta magazynu została poprawnie wprowadzona razem z kl
 ## <a name="next-steps"></a>Następne kroki
 [Co to jest usługa Power BI?](power-bi-overview.md)
 
-[Power BI — podstawowe pojęcia](service-basic-concepts.md)
+[Power BI — podstawowe pojęcia](consumer/end-user-basic-concepts.md)
 

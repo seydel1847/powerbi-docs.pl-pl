@@ -1,0 +1,189 @@
+items:
+- name: Usługa Power BI dla użytkowników
+  href: power-bi-consumer-landing.md
+- name: Usługa Power BI
+  items:
+  - name: Omówienie
+    items:
+    - name: Kto to jest użytkownik usługi Power BI?
+      href: end-user-consumer.md
+    - name: Podstawowe pojęcia i terminologia dotycząca użytkowników usługi Power BI
+      href: end-user-basic-concepts.md
+  - name: Przewodniki Szybki start
+    items:
+    - name: Poruszanie się po usłudze Power BI
+      href: end-user-experience.md
+  - name: Samouczki
+    items:
+    - name: Tworzenie alertu pulpitu nawigacyjnego
+      href: end-user-alerts.md
+  - name: Instrukcje
+    items:
+    - name: Pulpity nawigacyjne
+      items:
+      - name: Pulpity nawigacyjne
+        href: end-user-dashboards.md
+      - name: Proponowane pulpity nawigacyjne
+        href: end-user-featured.md
+      - name: Aktualizacja kafelków
+        href: end-user-tiles.md
+      - name: Dodawanie komentarza lub rozpoczynanie konwersacji
+        href: end-user-comment.md
+    - name: Raporty
+      items:
+      - name: Raporty
+        href: end-user-reports.md
+      - name: Wyświetlanie raportu
+        href: end-user-report-open.md
+      - name: Używanie filtrów w raporcie
+        href: end-user-report-filter.md
+      - name: Dowiedz się, jak dochodzi do wzajemnego filtrowania wizualizacji raportu
+        href: end-user-interactions.md
+    - name: Wizualizacje
+      items:
+      - name: Co można zrobić za pomocą wizualizacji?
+        href: end-user-visualizations.md
+      - name: Przechodzenie do szczegółów w wizualizacji w usłudze Power BI
+        href: end-user-drill.md
+      - name: Eksportowanie danych z wizualizacji
+        href: end-user-export-data.md
+    - name: Typowe zadania
+      items:
+      - name: Różne sposoby powiększania zawartości przy użyciu trybu koncentracji uwagi i trybu pełnoekranowego
+        href: end-user-focus.md
+      - name: Ulubione pulpity nawigacyjne, raporty i aplikacje w usłudze Power BI
+        href: end-user-favorite.md
+      - name: Drukowanie pulpitu nawigacyjnego, drukowanie kafelka pulpitu nawigacyjnego, drukowanie strony raportu
+        href: end-user-print.md
+      - name: Wyświetl zawartość pokrewną
+        href: end-user-related.md
+      - name: Wyświetlanie ostatniej zawartości
+        href: end-user-recent.md
+      - name: Wyświetlanie zawartości w kontenerze Udostępnione dla mnie
+        href: end-user-shared-with-me.md
+      - name: Subskrybowanie raportu lub pulpitu nawigacyjnego
+        href: end-user-subscribe.md
+      - name: Przeszukiwanie i sortowanie zawartości w usłudze Power BI
+        href: end-user-search-sort.md
+      - name: Wyświetlanie automatycznych informacji szczegółowych dla kafelków pulpitu nawigacyjnego
+        href: end-user-insights.md
+    - name: Pobieranie danych
+      items:
+      - name: Instalowanie i używanie aplikacji
+        href: end-user-apps.md
+      - name: Łączenie się z usługami
+        href: end-user-connect-to-services.md
+      - name: Znajdowanie organizacyjnych pakietów zawartości i łączenie się z nimi
+        href: end-user-content-pack.md
+    - name: Zadawanie pytań dotyczących danych
+      items:
+      - name: Pytania i odpowiedzi w usłudze Power BI
+        href: end-user-q-and-a.md
+      - name: Porady i wskazówki dotyczące zadawania pytań za pomocą funkcji Pytania i odpowiedzi w usłudze Power BI
+        href: end-user-q-and-a-tips.md
+  - name: Zasoby
+    items:
+    - name: Słownik i terminologia
+      href: end-user-glossary.md
+    - name: Obsługiwane przeglądarki
+      href: end-user-browsers.md
+    - name: Typy szybkiego wglądu w szczegółowe dane obsługiwane przez usługę Power BI
+      href: end-user-insight-types.md
+- name: Aplikacje mobilne Power BI
+  items:
+  - name: Omówienie
+    items:
+    - name: Co to są aplikacje mobilne?
+      href: mobile/mobile-apps-for-mobile-devices.md
+  - name: Przewodniki Szybki start
+    items:
+    - name: Eksplorowanie pulpitów nawigacyjnych i raportów
+      href: mobile/mobile-apps-quickstart-view-dashboard-report.md
+  - name: Samouczki
+    items:
+    - name: Zadawanie pytań w aplikacjach mobilnych systemu iOS
+      href: mobile/tutorial-mobile-apps-ios-qna.md
+  - name: Pojęcia
+    items:
+    - name: Co nowego w aplikacjach mobilnych
+      href: mobile/mobile-whats-new-in-the-mobile-apps.md
+    - name: Pobieranie danych rzeczywistych za pomocą aplikacji mobilnych
+      href: mobile/mobile-apps-data-in-real-world-context.md
+    - name: Wyświetlanie danych w trybie offline w aplikacjach mobilnych
+      href: mobile/mobile-apps-offline-data.md
+    - name: Aplikacja usługi Power BI dla rzeczywistości mieszanej (wersja zapoznawcza)
+      href: mobile/mobile-mixed-reality-app.md
+  - name: Instrukcje
+    items:
+    - name: Wszystkie aplikacje mobilne
+      items:
+      - name: Udostępnianie pulpitu nawigacyjnego z aplikacji mobilnych Power BI
+        href: mobile/mobile-share-dashboard-from-the-mobile-apps.md
+      - name: Interakcje z kafelkami w aplikacjach mobilnych
+        href: mobile/mobile-tiles-in-the-mobile-apps.md
+      - name: Ulubione w aplikacjach mobilnych
+        href: mobile/mobile-apps-favorites.md
+      - name: Ustawianie alertów danych w aplikacjach mobilnych Power BI
+        href: mobile/mobile-set-data-alerts-in-the-mobile-apps.md
+      - name: Uzyskiwanie powiadomień w aplikacjach mobilnych Power BI
+        href: mobile/mobile-apps-notification-center.md
+      - name: Tworzenie linku bezpośredniego prowadzącego do określonej lokalizacji
+        href: mobile/mobile-apps-deep-link-specific-location.md
+      - name: Filtrowanie raportu według lokalizacji w aplikacjach mobilnych Power BI
+        href: mobile/mobile-apps-geographic-filtering.md
+      - name: Pulpity nawigacyjne dla aplikacji mobilnych Power BI
+        href: mobile/mobile-apps-view-dashboard.md
+      - name: Raporty w aplikacjach mobilnych
+        href: mobile/mobile-reports-in-the-mobile-apps.md
+      - name: Łączenie się z usługami Reporting Services za pomocą protokołu OAuth
+        href: mobile/mobile-oauth-ssrs.md
+    - name: Urządzenia z systemem Android
+      items:
+      - name: Wprowadzenie do aplikacji systemu Android
+        href: mobile/mobile-android-app-get-started.md
+      - name: Rozwiązywanie problemu „Firmowy certyfikat SSL nie jest zaufany”
+        href: mobile/mobile-android-app-error-corporate-ssl-account-is-untrusted.md
+      - name: Rozwiązywanie problemu „Wymagana aktualizacja aplikacji Android System Webview”
+        href: mobile/mobile-android-error-update-android-system-webview.md
+    - name: iOS
+      items:
+      - name: Wprowadzenie do aplikacji systemu iOS
+        href: mobile/mobile-iphone-app-get-started.md
+      - name: Wirtualny analityk pytań i odpowiedzi w aplikacjach mobilnych systemu iOS
+        href: mobile/mobile-apps-ios-qna.md
+      - name: Aplikacja Power BI dla zegarka Apple Watch
+        href: mobile/mobile-apple-watch.md
+      - name: Skanowanie kodu kreskowego z aplikacji na telefonie iPhone
+        href: mobile/mobile-apps-scan-barcode-iphone.md
+    - name: iOS i Android
+      items:
+      - name: Wyświetlanie raportów lokalnych w aplikacjach mobilnych
+        href: mobile/mobile-app-ssrs-kpis-mobile-on-premises-reports.md
+      - name: Wyświetlanie raportów zoptymalizowanych pod kątem telefonu
+        href: mobile/mobile-apps-view-phone-report.md
+      - name: Skanowanie kodu QR aplikacji Power BI na telefonie
+        href: mobile/mobile-apps-qr-code.md
+      - name: Dodawanie adnotacji i udostępnianie w aplikacjach mobilnych
+        href: mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md
+    - name: Aplikacja Power BI dla urządzeń z systemem Windows 10
+      items:
+      - name: Wprowadzenie do aplikacji systemu Windows 10
+        href: mobile/mobile-windows-10-phone-app-get-started.md
+      - name: Przypinanie pulpitu nawigacyjnego do ekranu startowego
+        href: mobile/mobile-pin-dashboard-start-screen-windows-10-phone-app.md
+      - name: Wyświetlanie raportów dla urządzeń przenośnych i kluczowych wskaźników wydajności usług Reporting Services
+        href: mobile/mobile-app-windows-10-ssrs-kpis-mobile-reports.md
+      - name: Wyświetlanie usługi Power BI na urządzeniu Surface Hub
+        href: mobile/mobile-windows-10-app-presentation-mode.md
+      - name: Logowanie jednokrotne w aplikacji systemu Windows
+        href: mobile/mobile-windows-10-app-single-sign-on-sso.md
+  - name: Zasoby
+    items:
+    - name: Obsługiwane języki w aplikacjach mobilnych
+      href: mobile/mobile-apps-supported-languages.md
+ms.openlocfilehash: ff348d2798d49a0f4ee73a28d9c82395caf12d80
+ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
+ms.translationtype: HT
+ms.contentlocale: pl-PL
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "49112135"

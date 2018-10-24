@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 452226f8d5b8e0ca05fc4d9e81355c7a4c10e923
-ms.sourcegitcommit: d936a23f895ee6ef1420753342f5e6c055ea5e07
+ms.openlocfilehash: 6aa5b5dbb22881b6bccaa2ed43352a8f22308675
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/07/2018
-ms.locfileid: "39582643"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546653"
 ---
 # <a name="connect-to-acumatica-with-power-bi"></a>Nawiązywanie połączenia z systemem Acumatica przy użyciu usługi Power BI
 Pakiet zawartości Acumatica dla usługi Power BI umożliwia zyskanie szybkiego wglądu w dane zapewniające możliwości. Usługa Power BI pobiera dane, w tym możliwości, konta i klientów, a następnie tworzy domyślny pulpit nawigacyjny i powiązane raporty w oparciu o te dane.
@@ -51,10 +51,10 @@ Połącz się z [pakietem zawartości Acumatica](https://app.powerbi.com/getdata
 
 **Co teraz?**
 
-* Spróbuj [zadać pytanie w polu funkcji Pytania i odpowiedzi](power-bi-q-and-a.md) w górnej części pulpitu nawigacyjnego
+* Spróbuj [zadać pytanie w polu funkcji Pytania i odpowiedzi](consumer/end-user-q-and-a.md) w górnej części pulpitu nawigacyjnego
 * [Zmień kafelki](service-dashboard-edit-tile.md) na pulpicie nawigacyjnym.
-* [Wybierz kafelek](service-dashboard-tiles.md), aby otworzyć raport źródłowy.
-* Zestaw danych zostanie ustawiony na codzienne odświeżanie, ale możesz zmienić harmonogram odświeżania lub spróbować odświeżyć go na żądanie przy użyciu opcji **Odśwież teraz**
+* [Wybierz kafelek](consumer/end-user-tiles.md), aby otworzyć raport źródłowy.
+* Dla zestawu danych jest zaplanowane codzienne odświeżanie, ale możesz zmienić harmonogram odświeżania lub odświeżyć go na żądanie przy użyciu polecenia **Odśwież teraz**
 
 ## <a name="system-requirements"></a>Wymagania systemowe
 Ten pakiet zawartości wymaga systemu Acumatica w wersji 5.2 lub nowszej. Potwierdź wersję u administratora systemu Acumatica.

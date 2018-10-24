@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 4e9e10f713be50707909c68b104f82cada6777b6
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 3c508044e9f21c09d3115fd745320be9ad0161bc
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37599052"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548447"
 ---
 # <a name="connect-to-tygraph--with-power-bi"></a>Nawiązywanie połączenie z usługą tyGraph przy użyciu usługi Power BI
 Za pomocą pakietu zawartości dla usługi Power BI można wizualizować i eksplorować dane usługi tyGraph. Najpierw połącz się z kontem tyGraph i załaduj pulpit nawigacyjny, raporty i zestaw danych. Gotowa zawartość obejmuje takie informacje, jak miara aktywnego zaangażowania (wartość MAE) i najaktywniejsi współautorzy. Wyświetlaną zawartość można dostosować, aby wyróżnić najbardziej interesujące informacje.  Dane będą odświeżane automatycznie zgodnie z ustawionym harmonogramem.
@@ -51,10 +51,10 @@ Połącz się z [usługą tyGraph dla usługi Power BI](https://app.powerbi.com/
 
 **Co teraz?**
 
-* Spróbuj [zadać pytanie w polu funkcji Pytania i odpowiedzi](power-bi-q-and-a.md) w górnej części pulpitu nawigacyjnego
+* Spróbuj [zadać pytanie w polu funkcji Pytania i odpowiedzi](consumer/end-user-q-and-a.md) w górnej części pulpitu nawigacyjnego
 * [Zmień kafelki](service-dashboard-edit-tile.md) na pulpicie nawigacyjnym.
-* [Wybierz kafelek](service-dashboard-tiles.md), aby otworzyć raport źródłowy.
-* Zestaw danych zostanie ustawiony na codzienne odświeżanie, ale możesz zmienić harmonogram odświeżania lub spróbować odświeżyć go na żądanie przy użyciu opcji **Odśwież teraz**
+* [Wybierz kafelek](consumer/end-user-tiles.md), aby otworzyć raport źródłowy.
+* Dla zestawu danych jest zaplanowane codzienne odświeżanie, ale możesz zmienić harmonogram odświeżania lub odświeżyć go na żądanie przy użyciu polecenia **Odśwież teraz**
 
 <a name="FindingParams"></a>
 

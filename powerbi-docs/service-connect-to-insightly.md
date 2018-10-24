@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: fe5e061913713c76f64995876dda047f7cdc5fea
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 6e2ca51f79173e065d0a780943eab2e834837820
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34244461"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548632"
 ---
 # <a name="connect-to-insightly-with-power-bi"></a>Nawiązywanie połączenia z usługą Insightly za pomocą usługi Power BI
 Wizualizuj i udostępniaj swoje dane rozwiązania Insightly CRM w usłudze Power BI za pomocą pakietu zawartości usługi Insightly. Połącz się z usługą Power BI za pomocą klucza interfejsu API usługi Insightly, aby wyświetlić i skompilować raporty i pulpity nawigacyjne na podstawie danych programu CRM. Za pomocą usługi Power BI możesz analizować swoje dane przy użyciu nowych sposobów, tworzyć zaawansowane wykresy oraz wyświetlać kontakty, potencjalnych klientów i organizacje na mapie.
@@ -41,10 +41,10 @@ Połącz się z [pakietem zawartości usługi Insightly](https://app.powerbi.com
 
 **Co teraz?**
 
-* Spróbuj [zadać pytanie w polu funkcji Pytania i odpowiedzi](power-bi-q-and-a.md) w górnej części pulpitu nawigacyjnego
+* Spróbuj [zadać pytanie w polu funkcji Pytania i odpowiedzi](consumer/end-user-q-and-a.md) w górnej części pulpitu nawigacyjnego
 * [Zmień kafelki](service-dashboard-edit-tile.md) na pulpicie nawigacyjnym.
-* [Wybierz kafelek](service-dashboard-tiles.md), aby otworzyć raport źródłowy.
-* Zestaw danych zostanie ustawiony na codzienne odświeżanie, ale możesz zmienić harmonogram odświeżania lub spróbować odświeżyć go na żądanie przy użyciu opcji **Odśwież teraz**
+* [Wybierz kafelek](consumer/end-user-tiles.md), aby otworzyć raport źródłowy.
+* Dla zestawu danych jest zaplanowane codzienne odświeżanie, ale możesz zmienić harmonogram odświeżania lub odświeżyć go na żądanie przy użyciu polecenia **Odśwież teraz**
 
 ## <a name="whats-included"></a>Zawartość pakietu
 Pakiet zawartości obejmuje następujące tabele z polami z odpowiednich rekordów:

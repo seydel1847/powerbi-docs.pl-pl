@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 7a10429561efed82d9481b2899a997cc89737d55
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 150277c4069be8c292e02caa495e8c545138227e
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "37135564"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546055"
 ---
 # <a name="connect-to-mandrill-with-power-bi"></a>Łączenie się z pakietem zawartości Mandrill przy użyciu usługi Power BI
 Pakiet zawartości usługi Power BI pobiera dane z konta usługi Mandrill oraz generuje pulpit nawigacyjny, zestaw raportów i zestaw danych, aby umożliwić eksplorowanie danych. Analizy usługi Mandrill pozwalają szybko uzyskać szczegółowe informacje dotyczące kampanii marketingowych lub biuletynu. Dane będą odświeżane codziennie, zapewniając aktualność monitorowanych danych.
@@ -41,13 +41,13 @@ Połącz się z [pakietem zawartości Mandrill dla usługi Power BI.](http://app
 
 **Co teraz?**
 
-* Spróbuj [zadać pytanie w polu funkcji Pytania i odpowiedzi](power-bi-q-and-a.md) w górnej części pulpitu nawigacyjnego
+* Spróbuj [zadać pytanie w polu funkcji Pytania i odpowiedzi](consumer/end-user-q-and-a.md) w górnej części pulpitu nawigacyjnego
 * [Zmień kafelki](service-dashboard-edit-tile.md) na pulpicie nawigacyjnym.
-* [Wybierz kafelek](service-dashboard-tiles.md), aby otworzyć raport źródłowy.
-* Zestaw danych zostanie ustawiony na codzienne odświeżanie, ale możesz zmienić harmonogram odświeżania lub spróbować odświeżyć go na żądanie przy użyciu opcji **Odśwież teraz**
+* [Wybierz kafelek](consumer/end-user-tiles.md), aby otworzyć raport źródłowy.
+* Dla zestawu danych jest zaplanowane codzienne odświeżanie, ale możesz zmienić harmonogram odświeżania lub odświeżyć go na żądanie przy użyciu polecenia **Odśwież teraz**
 
 ## <a name="next-steps"></a>Następne kroki
 [Co to jest usługa Power BI?](power-bi-overview.md)
 
-[Power BI — podstawowe pojęcia](service-basic-concepts.md)
+[Power BI — podstawowe pojęcia](consumer/end-user-basic-concepts.md)
 

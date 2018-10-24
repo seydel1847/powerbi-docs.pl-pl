@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 6f914a031c70c68703116083f42885e2fe79cf30
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 5db91d037ae32f43fe703bdc7e589a1ec5a295ca
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34247900"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547619"
 ---
 # <a name="connect-to-sparkpost-with-power-bi"></a>Łączenie się z usługą SparkPost za pomocą usługi Power BI
 Pakiet zawartości Power BI dla usługi SparkPost pozwala wyodrębnić cenne zestawy danych z konta SparkPost do jednego wnikliwego pulpitu nawigacyjnego. Przy użyciu pakietu zawartości SparkPost można zwizualizować ogólne statystyki dotyczące poczty e-mail, w tym domen, kampanii i zaangażowania przez usługodawcę internetowego.
@@ -41,10 +41,10 @@ Połącz się z [pakietem zawartości SparkPost dla usługi Power BI](https://ap
 
 **Co teraz?**
 
-* Spróbuj [zadać pytanie w polu funkcji Pytania i odpowiedzi](power-bi-q-and-a.md) w górnej części pulpitu nawigacyjnego
+* Spróbuj [zadać pytanie w polu funkcji Pytania i odpowiedzi](consumer/end-user-q-and-a.md) w górnej części pulpitu nawigacyjnego
 * [Zmień kafelki](service-dashboard-edit-tile.md) na pulpicie nawigacyjnym.
-* [Wybierz kafelek](service-dashboard-tiles.md), aby otworzyć raport źródłowy.
-* Zestaw danych zostanie ustawiony na codzienne odświeżanie, ale możesz zmienić harmonogram odświeżania lub spróbować odświeżyć go na żądanie przy użyciu opcji **Odśwież teraz**
+* [Wybierz kafelek](consumer/end-user-tiles.md), aby otworzyć raport źródłowy.
+* Dla zestawu danych jest zaplanowane codzienne odświeżanie, ale możesz zmienić harmonogram odświeżania lub odświeżyć go na żądanie przy użyciu polecenia **Odśwież teraz**
 
 ## <a name="whats-included"></a>Zawartość pakietu
 Pakiet zawartości SparkPost dla usługi Power BI zawiera takie informacje jak unikatowe kliknięcia oraz współczynniki akceptacji, odrzuceń, opóźnień i porzuceń oraz inne dane.

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 5a0c00b6082b3561a1e07e5eef4e4e21f71f97a3
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: c5fc2d476a12a4faf60313dd69dce7e143b88807
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37135472"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548171"
 ---
 # <a name="connect-to-servicenow-with-power-bi-for-incident-reporting"></a>Łączenie się z usługą ServiceNow za pomocą usługi Power BI w celu raportowania zdarzeń
 Firma ServiceNow oferuje wiele produktów i rozwiązań, w tym dotyczących zarządzania działalnością biznesową, bieżącymi operacjami i zarządzania IT, które pozwalają usprawnić firmę. Ten pakiet zawartości obejmuje szereg raportów oraz szczegółowych informacji dotyczących otwartych, ostatnio rozwiązanych i ostatnio zakończonych zdarzeń.  
@@ -44,10 +44,10 @@ Połącz się z pakietem zawartości usługi Power BI dla usługi [ServiceNow In
 
 **Co teraz?**
 
-* Spróbuj [zadać pytanie w polu funkcji Pytania i odpowiedzi](power-bi-q-and-a.md) w górnej części pulpitu nawigacyjnego
+* Spróbuj [zadać pytanie w polu funkcji Pytania i odpowiedzi](consumer/end-user-q-and-a.md) w górnej części pulpitu nawigacyjnego
 * [Zmień kafelki](service-dashboard-edit-tile.md) na pulpicie nawigacyjnym.
-* [Wybierz kafelek](service-dashboard-tiles.md), aby otworzyć raport źródłowy.
-* Zestaw danych zostanie ustawiony na codzienne odświeżanie, ale możesz zmienić harmonogram odświeżania lub spróbować odświeżyć go na żądanie przy użyciu opcji **Odśwież teraz**
+* [Wybierz kafelek](consumer/end-user-tiles.md), aby otworzyć raport źródłowy.
+* Dla zestawu danych jest zaplanowane codzienne odświeżanie, ale możesz zmienić harmonogram odświeżania lub odświeżyć go na żądanie przy użyciu polecenia **Odśwież teraz**
 
 ## <a name="system-requirements"></a>Wymagania systemowe
 Aby nawiązać połączenie, potrzebne są następujące elementy:  
@@ -63,5 +63,5 @@ Jeśli ładowanie trwa długo, sprawdź liczbę zdarzeń oraz liczbę dni okreś
 ## <a name="next-steps"></a>Następne kroki
 [Co to jest usługa Power BI?](power-bi-overview.md)
 
-[Power BI — podstawowe pojęcia](service-basic-concepts.md)
+[Power BI — podstawowe pojęcia](consumer/end-user-basic-concepts.md)
 

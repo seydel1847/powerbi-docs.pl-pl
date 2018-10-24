@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 2c5fc1f8763b8360d7cd5a6f6605d6b4f3d5df3c
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 4b47e620c0469ed56a7afb413a5775cf2a34c4d4
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37135656"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546561"
 ---
 # <a name="connect-to-ziosk-survey-analytics-with-power-bi"></a>Łączenie się z aplikacją Ziosk Survey Analytics za pomocą usługi Power BI
 Pakiet zawartości Ziosk Survey Analytics dla usługi Power BI zapewnia restauracjom korzystającym z tabletów Ziosk szeroki dostęp do szczegółowych informacji dostarczanych w ramach danych ankietowych Ziosk, w tym na temat segmentacji według dnia, lokalizacji, pracownika i innych.
@@ -43,10 +43,10 @@ Połącz się z [zestawem zawartości Ziosk Survey Analytics](https://app.powerb
 
 **Co teraz?**
 
-* Spróbuj [zadać pytanie w polu funkcji Pytania i odpowiedzi](power-bi-q-and-a.md) w górnej części pulpitu nawigacyjnego
+* Spróbuj [zadać pytanie w polu funkcji Pytania i odpowiedzi](consumer/end-user-q-and-a.md) w górnej części pulpitu nawigacyjnego
 * [Zmień kafelki](service-dashboard-edit-tile.md) na pulpicie nawigacyjnym.
-* [Wybierz kafelek](service-dashboard-tiles.md), aby otworzyć raport źródłowy.
-* Zestaw danych zostanie ustawiony na codzienne odświeżanie, ale możesz zmienić harmonogram odświeżania lub spróbować odświeżyć go na żądanie przy użyciu opcji **Odśwież teraz**
+* [Wybierz kafelek](consumer/end-user-tiles.md), aby otworzyć raport źródłowy.
+* Dla zestawu danych jest zaplanowane codzienne odświeżanie, ale możesz zmienić harmonogram odświeżania lub odświeżyć go na żądanie przy użyciu polecenia **Odśwież teraz**
 
 ## <a name="whats-included"></a>Zawartość pakietu
 Pakiet zawartości obejmuje dane z następujących tabel:  
@@ -73,5 +73,5 @@ Aby utworzyć wystąpienia tego pakietu zawartości, wymagane jest konto Ziosk z
 ## <a name="next-steps"></a>Następne kroki
 [Co to jest usługa Power BI?](power-bi-overview.md)
 
-[Power BI — podstawowe pojęcia](service-basic-concepts.md)
+[Power BI — podstawowe pojęcia](consumer/end-user-basic-concepts.md)
 

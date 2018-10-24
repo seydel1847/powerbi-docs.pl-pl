@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/06/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 903f2a345ba4d87cb217ececa459a3cca14d72fa
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 882fdad2b29c9bd21ea0b979d5009dee86304159
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37134644"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548148"
 ---
 # <a name="connect-to-azure-audit-logs-with-power-bi"></a>Łączenie się z dziennikami inspekcji platformy Azure za pomocą usługi Power BI
 Pakiet zawartości dzienników inspekcji platformy Azure pozwala analizować i wizualizować informacje przechowywane w dziennikach inspekcji. Usługa Power BI pobiera dane, tworzy gotowy do użycia pulpit nawigacyjny i raporty w oparciu o dane.
@@ -47,10 +47,10 @@ Połącz się z [pakietem zawartości dzienników inspekcji platformy Azure](htt
 
 **Co teraz?**
 
-* Spróbuj [zadać pytanie w polu funkcji Pytania i odpowiedzi](power-bi-q-and-a.md) w górnej części pulpitu nawigacyjnego
+* Spróbuj [zadać pytanie w polu funkcji Pytania i odpowiedzi](consumer/end-user-q-and-a.md) w górnej części pulpitu nawigacyjnego
 * [Zmień kafelki](service-dashboard-edit-tile.md) na pulpicie nawigacyjnym.
-* [Wybierz kafelek](service-dashboard-tiles.md), aby otworzyć raport źródłowy.
-* Zestaw danych zostanie ustawiony na codzienne odświeżanie, ale możesz zmienić harmonogram odświeżania lub spróbować odświeżyć go na żądanie przy użyciu opcji **Odśwież teraz**
+* [Wybierz kafelek](consumer/end-user-tiles.md), aby otworzyć raport źródłowy.
+* Dla zestawu danych jest zaplanowane codzienne odświeżanie, ale możesz zmienić harmonogram odświeżania lub odświeżyć go na żądanie przy użyciu polecenia **Odśwież teraz**
 
 ## <a name="system-requirements"></a>Wymagania systemowe
 Pakiet zawartości dzienników inspekcji platformy Azure wymaga dostępu do dzienników inspekcji w witrynie Azure Portal. Więcej szczegółów można znaleźć [tutaj](https://azure.microsoft.com/documentation/articles/insights-debugging-with-events/).
@@ -70,5 +70,5 @@ Jeśli występuje błąd poświadczeń lub błąd podczas próby odświeżania z
 
 ## <a name="next-steps"></a>Następne kroki
 [Co to jest usługa Power BI?](power-bi-overview.md)  
-[Power BI — podstawowe pojęcia](service-basic-concepts.md)  
+[Power BI — podstawowe pojęcia](consumer/end-user-basic-concepts.md)  
 
