@@ -1,21 +1,21 @@
 ---
-title: Kafelki pulpitu nawigacyjnego w usłudze Power BI
-description: Wszystkie informacje o kafelkach pulpitu nawigacyjnego w usłudze Power BI. Dotyczy to również kafelków, które są tworzone z poziomu usługi SQL Server Reporting Services (SSRS).
+title: Kafelki pulpitu nawigacyjnego w usłudze Power BI dla użytkowników
+description: Wszystkie informacje o kafelkach pulpitu nawigacyjnego w usłudze Power BI dla użytkowników. Dotyczy to również kafelków, które są tworzone z poziomu usługi SQL Server Reporting Services (SSRS).
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/21/2018
+ms.date: 10/16/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: f0ff1d9a49e0566119df2c790ad618700c9a9ca3
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: f788da00d50ee7e22da82aa7e57560cfc516b0c7
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565457"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396479"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Kafelki pulpitu nawigacyjnego w usłudze Power BI
 Pulpity nawigacyjne i kafelki pulpitu nawigacyjnego są funkcjami usługi Power BI, a nie programu Power BI Desktop. Chociaż kafelków pulpitów nawigacyjnych nie można tworzyć ani przypinać w usłudze Power BI dla urządzeń mobilnych, [można je wyświetlać i udostępniać](mobile/mobile-tiles-in-the-mobile-apps.md). Ponadto w usłudze Power BI dla urządzeń mobilnych można [dodawać zdjęcia do pulpitu nawigacyjnego za pomocą aplikacji dla telefonu iPhone](mobile/mobile-iphone-app-get-started.md).
@@ -23,58 +23,45 @@ Pulpity nawigacyjne i kafelki pulpitu nawigacyjnego są funkcjami usługi Power 
 ## <a name="dashboard-tiles"></a>Aktualizacja kafelków
 ![Pulpit nawigacyjny usługi Power BI](./media/end-user-tiles/power-bi-dashboard.png)
 
-Kafelek stanowi migawkę danych przypiętą do pulpitu nawigacyjnego. Kafelek może zostać utworzony z raportu, zestawu danych, pulpitu nawigacyjnego, pola pytań i odpowiedzi, programu Excel, a także usług SQL Server Reporting Services (SSRS) i innych.  Ten zrzut ekranu przedstawia wiele różnych kafelków przypiętych do pulpitu nawigacyjnego.
+Kafelek to migawka danych przypięta do pulpitu nawigacyjnego przez *projektanta*. Kafelek można utworzyć z raportu, zestawu danych, pulpitu nawigacyjnego, pola pytania funkcji pytań i odpowiedzi, programu Excel, a także usług SQL Server Reporting Services (SSRS) i innych.  Ten zrzut ekranu przedstawia wiele różnych kafelków przypiętych do pulpitu nawigacyjnego.
 
-Oprócz przypinania, autonomiczne kafelki można tworzyć bezpośrednio na pulpicie nawigacyjnym za pomocą polecenia [Dodaj kafelek](../service-dashboard-add-widget.md). Autonomiczne kafelki obejmują: pola tekstowe, obrazy, klipy wideo, dane przesyłane strumieniowo oraz treści internetowe.
+Oprócz kafelków przypiętych z raportów *projektanci* mogą dodawać autonomiczne kafelki bezpośrednio do pulpitu nawigacyjnego przy użyciu pozycji **Dodaj kafelek**. Autonomiczne kafelki obejmują: pola tekstowe, obrazy, klipy wideo, dane przesyłane strumieniowo oraz treści internetowe.
 
 Potrzebujesz pomocy dotyczącej bloków konstrukcyjnych tworzących usługę Power BI?  Zobacz [Power BI — podstawowe pojęcia](end-user-basic-concepts.md).
 
-> [!NOTE]
-> Jeśli zmienia się oryginalna wizualizacja użyta do utworzenia kafelka, kafelek nie ulegnie zmianie.  Jeśli na przykład przypniemy wykres liniowy z raportu, a następnie zmienimy ten wykres liniowy na wykres słupkowy, kafelek pulpitu nawigacyjnego w dalszym ciągu wyświetlać będzie wykres liniowy. Dane zostaną odświeżone, ale typ wizualizacji nie ulegnie zmianie.
-> 
-> 
-
-## <a name="pin-a-tile-from"></a>Przypinanie kafelka z...
-Istnieje wiele sposobów, aby dodać (przypiąć) kafelek na pulpicie nawigacyjnym. Kafelki można przypinać z:
-
-* [pytań i odpowiedzi usługi Power BI](../service-dashboard-pin-tile-from-q-and-a.md)
-* [raportu](../service-dashboard-pin-tile-from-report.md)
-* [innego pulpitu nawigacyjnego](../service-pin-tile-to-another-dashboard.md)
-* [skoroszytu programu Excel w usłudze OneDrive dla Firm](../service-dashboard-pin-tile-from-excel.md)
-* [usługi Power BI Publisher dla programu Excel](../publisher-for-excel.md)
-* [szybkiego wglądu w szczegółowe dane](end-user-insights.md)
-* [usługi SSRS](https://msdn.microsoft.com/library/mt604784.aspx)
-
-Autonomiczne kafelki obrazów, pól tekstowych, klipów wideo, danych przesyłanych strumieniowo i treści internetowych można tworzyć bezpośrednio na pulpicie nawigacyjnym za pomocą polecenia [Dodaj kafelek](../service-dashboard-add-widget.md).
-
-  ![Ikona dodawania kafelka](./media/end-user-tiles/add_widgetnew.png)
 
 ## <a name="interacting-with-tiles-on-a-dashboard"></a>Interakcja z kafelkami na pulpicie nawigacyjnym
-### <a name="move-and-resize-a-tile"></a>Przenoszenie i zmienianie rozmiaru kafelka
-Chwyć kafelek i [przemieszczaj go na pulpicie nawigacyjnym](../service-dashboard-edit-tile.md). Aktywuj i wybierz uchwyt ![uchwyt](./media/end-user-tiles/resize-handle.jpg), aby zmienić rozmiar kafelka.
 
 ### <a name="hover-over-a-tile-to-change-the-appearance-and-behavior"></a>Najeżdżanie kursorem na kafelek w celu zmiany wyglądu i zachowania
 1. Najedź kursorem na kafelek, aby wyświetlić wielokropek.
    
     ![wielokropek kafelka](./media/end-user-tiles/ellipses_new.png)
-2. Wybierz symbol wielokropka, aby otworzyć menu akcji kafelka.
+2. Wybierz symbol wielokropka, aby otworzyć menu akcji kafelka. Dostępne opcje są zależne od typu wizualizacji i metody użytej do utworzenia kafelka. Oto kilka przykładów tego, co możesz zobaczyć.
+
+    - kafelek utworzony za pomocą funkcji pytań i odpowiedzi
    
-    ![ikona wielokropka](./media/end-user-tiles/power-bi-tile-menu.png)
+        ![ikona wielokropka](./media/end-user-tiles/power-bi-menu1.png)
+
+    - kafelek utworzony na podstawie skoroszytu
+   
+        ![ikona wielokropka](./media/end-user-tiles/power-bi-menu2.png)
+
+    - kafelek utworzony na podstawie raportu
+   
+        ![ikona wielokropka](./media/end-user-tiles/power-bi-menu3.png)
    
     W tym miejscu można wykonać następujące czynności:
    
    * [Otworzyć raport, który został użyty do utworzenia tego kafelka ](end-user-reports.md) ![ikona raportu](./media/end-user-tiles/chart-icon.jpg)  
    
-   * [Otworzyć arkusz, który został użyty do utworzenia tego kafelka ](end-user-reports.md) ![ikona arkusza](./media/end-user-tiles/power-bi-open-worksheet.png)  
-     
-    * [Wyświetlić w trybie koncentracji uwagi ](end-user-focus.md) ![ikona koncentracji uwagi](./media/end-user-tiles/fullscreen-icon.jpg)  
-     * [Wyeksportować dane użyte na kafelku](end-user-export-data.md) ![ikona eksportowania danych](./media/end-user-tiles/export-icon.png)
-     * [Edytować tytuł i podtytuł, dodać hiperlink](../service-dashboard-edit-tile.md) ![ikona edytowania](./media/end-user-tiles/pencil-icon.jpg)
+   * [Otworzyć pytanie funkcji pytań i odpowiedzi, którego użyto do utworzenia kafelka](end-user-reports.md) ![ikona funkcji pytań i odpowiedzi](./media/end-user-tiles/qna-icon.png)  
+   
+
+   * [Otworzyć skoroszyt, który został użyty do utworzenia tego kafelka ](end-user-reports.md) ![ikona skoroszytu](./media/end-user-tiles/power-bi-open-worksheet.png)  
+    * [Wyświetlić tytuł w trybie koncentracji uwagi](end-user-focus.md) ![ikona koncentracji uwagi](./media/end-user-tiles/fullscreen-icon.jpg)  
      * [Uruchomić szczegółowe informacje](end-user-insights.md) ![ikona szczegółowych informacji](./media/end-user-tiles/power-bi-insights.png)
-     * [Przypiąć kafelek do innego pulpitu nawigacyjnego](../service-pin-tile-to-another-dashboard.md)
-       ![ikona przypinania](./media/end-user-tiles/pin-icon.jpg)
-     * [Usunąć kafelek](../service-dashboard-edit-tile.md)
-     ![ikona usuwania](./media/end-user-tiles/trash-icon.png)
+    * [Dodać komentarz i rozpocząć dyskusję](end-user-comment.md) ![ikona komentarza](./media/end-user-tiles/comment-icons.png)
+
 3. Aby zamknąć menu akcji, wybierz pusty obszar na kanwie.
 
 ### <a name="select-click-a-tile"></a>Wybieranie (klikanie) kafelka
@@ -91,20 +78,9 @@ To co dzieje się po wybraniu kafelka, zależy od sposobu, w jaki kafelek zosta�
 * W przypadku kafelków utworzonych bezpośrednio na pulpicie nawigacyjnym za pomocą polecenia **Dodaj kafelek**, jeśli został ustawiony niestandardowy hiperlink, wybranie tytułu, podtytułu lub kafelka spowoduje otwarcie tego adresu URL.  W przeciwnym razie domyślnie wybranie jednego z kafelków utworzonych bezpośrednio na pulpicie nawigacyjnym dla obrazu, kodu internetowego lub pola tekstowego nie wywoła żadnej akcji.
 * Jeśli nie masz uprawnień do raportu w ramach usługi SSRS, wybranie kafelka utworzonego na bazie usługi SSRS spowoduje wyświetlenie strony informującej o braku dostępu (rsAccessDenied).
 * Jeśli nie masz dostępu do sieci, w której znajduje się serwer usługi SSRS, wybranie kafelka utworzonego na bazie usługi SSRS spowoduje wyświetlenie strony informującej o braku możliwości zlokalizowania serwera (HTTP 404). Urządzenie musi mieć dostęp do sieci i serwera raportów, aby wyświetlić raport.
-* Jeśli zmienia się oryginalna wizualizacja użyta do utworzenia kafelka, kafelek nie ulegnie zmianie.  Jeśli na przykład przypniemy wykres liniowy z raportu, a następnie zmienimy ten wykres liniowy na wykres słupkowy, kafelek pulpitu nawigacyjnego w dalszym ciągu wyświetlać będzie wykres liniowy. Dane zostaną odświeżone, ale typ wizualizacji nie ulegnie zmianie.
+* Jeśli zmienia się oryginalna wizualizacja użyta do utworzenia kafelka, kafelek nie ulegnie zmianie.  Jeśli na przykład *projektant* przypiął wykres liniowy z raportu, a następnie zmienił ten wykres liniowy na wykres słupkowy, kafelek pulpitu nawigacyjnego w dalszym ciągu wyświetlać będzie wykres liniowy. Dane zostaną odświeżone, ale typ wizualizacji nie ulegnie zmianie.
 
 ## <a name="next-steps"></a>Następne kroki
-[Tworzenie karty (kafelka z dużą liczbą) dla pulpitu nawigacyjnego](../visuals/power-bi-visualization-card.md)
-
-[Pulpity nawigacyjne w usłudze Power BI](end-user-dashboards.md)  
-
 [Odświeżanie danych](../refresh-data.md)
 
 [Power BI — podstawowe pojęcia](end-user-basic-concepts.md)
-
-[Eksportowanie kafelka do programu PowerPoint](http://blogs.msdn.com/b/powerbidev/archive/2015/09/28/integrating-power-bi-tiles-into-office-documents.aspx)
-
-[Przypinanie elementów usług Reporting Services do pulpitów nawigacyjnych usługi Power BI](https://msdn.microsoft.com/library/mt604784.aspx)
-
-Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
-

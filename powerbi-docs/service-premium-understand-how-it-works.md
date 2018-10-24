@@ -1,7 +1,7 @@
 ---
 title: Używanie i optymalizacja pamięci o pojemności Power BI Premium
 description: Informacje na temat używania i optymalizacji pamięci o pojemności Power BI Premium.
-ms.date: 04/30/2018
+ms.date: 10/18/2018
 ms.topic: conceptual
 ms.service: powerbi
 ms.component: powerbi-admin
@@ -9,46 +9,44 @@ ms.author: mblythe
 ms.reviewer: mblythe
 author: mgblythe
 manager: kfile
-ms.openlocfilehash: aee7fb94f1e132783fc2b7791f7e634c903f7aa6
-ms.sourcegitcommit: 1574ecba7530e6e0ee97235251a3138fb0e4789b
+ms.openlocfilehash: 99c84aff932c7ce56a4aaa81d71e4583bce3e4c2
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/14/2018
-ms.locfileid: "40256295"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49641754"
 ---
-# <a name="power-bi-premium-capacity-resource-management-and-optimization"></a>Optymalizacja zasobów o pojemności Power BI Premium i zarządzanie nimi
+# <a name="microsoft-power-bi-premium-capacity-resource-management-and-optimization"></a>Optymalizacja zasobów firmy Microsoft o pojemności Power BI Premium i zarządzanie nimi
 
-W tym artykule opisano sposób zarządzania zasobami w usłudze Power BI Premium oraz przedstawiono wskazówki dotyczące planowania i optymalizowania rozwiązania.
+W tym artykule opisano, jak rozwiązanie Power BI Premium zarządza zasobami. Ten artykuł zawiera także przykłady i wskazówki dotyczące rozwiązywania problemów. Omówienie znajdziesz w artykule [Power BI Premium — co to jest?](service-premium.md).
 
 ## <a name="premium-capacity-memory-management"></a>Zarządzanie pamięcią o pojemności Premium
 
  Pamięć o pojemności Premium jest wykorzystywana przez:
 
-* Pamięć używaną przez załadowane zestawy danych
-* Pamięć używaną przez operacje odświeżania zestawów danych (zaplanowane i na żądanie)
-* Pamięć używaną przez zapytania dotyczące raportu
+* Zestawy danych, które są ładowane do pamięci
+* Operacje odświeżania zestawów danych (zaplanowane i na żądanie)
+* Zapytania dotyczące raportów
 
-Jeśli żądanie jest wystawiane względem opublikowanego zestawu danych w ramach pojemności, ten zestaw danych jest ładowany do pamięci z magazynu trwałego (proces ten jest również nazywany ładowaniem obrazu). Utrzymywanie załadowanego zestawu danych w pamięci pomaga szybko odpowiadać na przyszłe zapytania dotyczące tego zestawu danych. Oprócz pamięci potrzebnej do utrzymywania zestawu danych załadowanego do pamięci, zapytania dotyczące raportów i operacje odświeżania zestawu danych również wykorzystują dodatkową pamięć.
+Jeśli żądanie jest wystawiane względem opublikowanego zestawu danych w ramach pojemności, ten zestaw danych jest ładowany do pamięci z magazynu trwałego (proces ten jest również nazywany ładowaniem obrazu). Utrzymywanie załadowanego zestawu danych w pamięci pomaga szybko odpowiadać na przyszłe zapytania dotyczące tego zestawu danych. Oprócz pamięci potrzebnej do utrzymywania zestawu danych załadowanego do pamięci zapytania dotyczące raportów i operacje odświeżania zestawu danych wykorzystują dodatkową pamięć.
 
 ### <a name="dataset-memory-estimation"></a>Szacowanie wielkości pamięci zestawu danych
 
-Podczas próby załadowania zestawu danych do pamięci usługa Power BI szacuje wielkość pamięci, która będzie wymagana do wykonania żądanego polecenia przez zestaw danych. Zestawy danych w pamięci mają zazwyczaj większy rozmiar niż w przypadku zapisania ich na dysku. Podczas odświeżania zestawu danych wymagana pojemność pamięci jest co najmniej dwukrotnie większa niż podczas stanu bezczynności.
+Podczas próby załadowania zestawu danych do pamięci usługa Power BI szacuje wielkość pamięci, która będzie wymagana do wykonania żądanego polecenia przez zestaw danych. Zestawy danych w pamięci mają zazwyczaj większy rozmiar niż w przypadku zapisania ich na dysku. Podczas odświeżania zestawu danych usługa Power BI wymaga co najmniej dwukrotnie większej ilości pamięci niż w stanie bezczynności zestawu danych.
 
 ### <a name="overcommitting-capacity-eviction-and-reloading-of-datasets"></a>Nadmiarowe zatwierdzanie pojemności, eksmisja i ponowne ładowanie zestawów danych
 
-Usługa Power BI Premium umożliwia nadmiarowe zatwierdzanie pojemności. Można na przykład opublikować więcej zestawów danych niż pamięć może pomieścić. Jeśli zestawy danych opublikowane w ramach pojemności potrzebują więcej pamięci niż pomieści pojemność, niektóre z tych zestawów będą przechowywane oddzielnie w magazynie trwałym. Magazyn trwały jest częścią magazynu o wielkości 100 TB skojarzoną z każdą z pojemności.
+Rozwiązanie Power BI Premium umożliwia *nadmiarowe zatwierdzanie* pojemności. Można na przykład opublikować więcej zestawów danych niż może być przechowywanych w pojemności. Jeśli opublikowane zestawy danych potrzebują więcej pamięci niż jest dostępne w ramach pojemności, niektóre z tych zestawów są przechowywane oddzielnie w magazynie trwałym. Magazyn trwały jest częścią magazynu o wielkości 100 TB skojarzoną z każdą z pojemności.
 
-Które zestawy danych pozostaną w pamięci i co się stanie z innymi zestawami danych? Jak opisano wcześniej, gdy żądanie jest wystawiane na podstawie zestawu danych, jest również ładowane do pamięci (ładowanie obrazu). Żądanie może być zapytaniem dotyczącym raportu lub operacją odświeżania.
+Które zestawy danych pozostaną w pamięci i co się stanie z innymi zestawami danych? Jak opisano wcześniej, gdy żądanie jest wystawiane na podstawie zestawu danych, jest również ładowane do pamięci (ładowanie obrazu). Żądanie może być zapytaniem dotyczącym raportu lub operacją odświeżania. Ale ponieważ można nadmiarowo zatwierdzać pojemność, może ona również powodować wykorzystanie pamięci. Gdy pojemność powoduje wykorzystanie pamięci, węzeł *eksmituje* z pamięci jeden lub większą liczbę zestawów danych. Nieaktywne zestawy danych (dla których aktualnie nie są wykonywane żadne operacje zapytania/odświeżania) są eksmitowane jako pierwsze. Następnie kolejność eksmitowania bazuje na mierze „najdawniej używane” (LRU). Jeśli nowe polecenia są wydawane do eksmitowanego zestawu danych, usługa próbuje ponownie załadować go do pamięci, potencjalnie powodując eksmisję innych zestawów danych. Takie zachowanie umożliwia efektywniejsze wykorzystanie, ponieważ pozwala pojemności na obsługę o wiele większej liczby zestawów danych niż jej pamięć może pomieścić.
 
-Ponieważ można nadmiarowo zatwierdzać pojemność, może ona również powodować wykorzystanie pamięci. Gdy pojemność powoduje wykorzystanie pamięci (ponieważ trzeba załadować nowy zestaw danych lub zapytania dotyczące niektórych załadowanych zestawów danych zwiększają wymaganą pamięć), węzeł *przeprowadza eksmisję co najmniej jednego zestawu danych* zajmującego pamięć w ramach pojemności. Zestawy danych, które są nieaktywne (tzn. aktualnie nie są wykonywane żadne operacje zapytań/odświeżania), są eksmitowane jako pierwsze, a stosowana kolejność eksmisji to „najdawniej używany” (LRU, last recently used). Jeśli nowe polecenia są wydawane do eksmitowanego zestawu danych, usługa próbuje ponownie załadować go do pamięci, potencjalnie powodując eksmisję innych zestawów danych. Takie zachowanie umożliwia efektywniejsze wykorzystanie, ponieważ pozwala pojemności na obsługę o wiele większej liczby zestawów danych niż jej pamięć może pomieścić.
+Ładowanie zestawu danych do pamięci to stosunkowo droga operacja. W zależności od rozmiaru zestawu danych może ona potrwać od kilku sekund dla małych zestawów danych do dziesiątek sekund, a nawet minut, dla znaczących zestawów danych, takich jak zestawy o rozmiarze ok. 10 GB. Pojemność Premium próbuje zminimalizować liczbę operacji ładowania pojemności, jak najdłużej przechowując w pamięci najdawniej używane zestawy danych. Jeśli jest potrzebna dodatkowa pamięć, trzeba będzie eksmitować niektóre zestawy danych, a system spróbuje wybrać zestaw, który w najmniejszym stopniu wpływa na środowisko użytkownika. Jeśli jest potrzebna dodatkowa pamięć, trzeba będzie eksmitować niektóre zestawy danych, a system spróbuje wybrać zestaw, który w najmniejszym stopniu wpływa na środowisko użytkownika. Na przykład system będzie unikał eksmitowania zestawów danych, które były aktywnie używane w ciągu ostatnich kilku minut. W przypadku takich zestawów istnieje duże prawdopodobieństwo, że zostanie dla nich wkrótce wykonane ponowne zapytanie.
 
-Ładowanie zestawu danych do pamięci to stosunkowo droga operacja. W zależności od rozmiaru zestawu danych może ona potrwać od kilku sekund dla małych zestawów danych do dziesiątek sekund, a nawet minut, dla dużych zestawów danych, takich jak zestawy o rozmiarze ok. 10 GB. Pojemność Premium próbuje zminimalizować liczbę operacji ładowania pojemności, jak najdłużej przechowując w pamięci najdawniej używane zestawy danych. Jeśli jest potrzebna dodatkowa pamięć, trzeba będzie eksmitować niektóre zestawy danych, a system spróbuje wybrać zestaw, który w najmniejszym stopniu wpływa na środowisko użytkownika. Jeśli jest potrzebna dodatkowa pamięć, trzeba będzie eksmitować niektóre zestawy danych, a system spróbuje wybrać zestaw, który w najmniejszym stopniu wpływa na środowisko użytkownika. Na przykład system będzie unikać eksmitowania zestawów danych, które były aktywnie używane w ciągu ostatnich kilku minut, ponieważ mogą wkrótce otrzymywać zapytania.
-
-Sam proces eksmisji jest szybką operacją. Jeśli zestaw danych nie jest aktywnie używany w czasie eksmisji, użytkownik nie będzie mógł określić wpływu powiązanego z eksmisją. Jeśli jednak równocześnie wiele zestawów danych jest aktywnie używanych i nie ma wystarczającej pamięci do obsługi wszystkich tych zestawów, może zostać wykonanych wiele operacji eksmisji. Może to prowadzić do przeładowania, w przypadku którego zestawy danych są eksmitowane i ponownie ładowane w sposób ciągły, a użytkownicy mogą zauważyć znaczące pogorszenie wydajności i czasów odpowiedzi.
+Sam proces eksmisji jest szybką operacją. Jeśli zestaw danych nie jest aktywnie używany w czasie eksmisji, użytkownik nie będzie mógł określić wpływu powiązanego z eksmisją. Jeśli jednak równocześnie wiele zestawów danych jest aktywnie używanych i nie ma wystarczającej pamięci do obsługi wszystkich tych zestawów, może zostać wykonanych wiele operacji eksmisji. Istnienie zbyt wielu aktywnych zestawów danych może doprowadzić do przeładowania, w przypadku którego zestawy danych są eksmitowane i ponownie ładowane w sposób ciągły, a użytkownicy mogą zauważyć znaczące pogorszenie wydajności i czasów odpowiedzi.
 
 ### <a name="dataset-refresh-memory-requirement-competing-with-an-active-dataset-memory-requirement"></a>Konkurencja między wymaganiami dotyczącymi pamięci na potrzeby odświeżania zestawu danych i wymaganiami dotyczącymi pamięci aktywnego zestawu danych
 
-Zestawy danych można odświeżać zgodnie z harmonogramem lub na żądanie użytkowników. Jak opisano wcześniej, pamięć wymagana do wykonania pełnych operacji odświeżania jest co najmniej dwukrotnie większa niż rozmiar pamięci załadowanych i pozostających w stanie bezczynności zestawów danych. Przed rozpoczęciem odświeżania jest szacowana wymagana wielkość pamięci. Jeśli całkowita wymagana pamięć jest większa niż pamięć dostępna w pojemności, niektóre zestawy danych są eksmitowane. Kandydaci do eksmisji są wybierani w kolejności najdawniej używanych zestawów danych tj. usługa próbuje zachować jak najwięcej ostatnio używanych zestawów danych w pamięci.
+Zestawy danych można odświeżać zgodnie z harmonogramem lub na żądanie użytkowników. Jak opisano wcześniej, pamięć wymagana do wykonania pełnych operacji odświeżania jest co najmniej dwukrotnie większa niż rozmiar pamięci załadowanych i pozostających w stanie bezczynności zestawów danych. Przed rozpoczęciem odświeżania jest szacowana wymagana wielkość pamięci. Jeśli całkowita wymagana pamięć jest większa niż pamięć dostępna w pojemności, niektóre zestawy danych są eksmitowane. Tu również eksmitowanie bazuje na mierze „najdawniej używane” (LRU).
 
 Jeśli mimo przeprowadzenia eksmisji wymagana pamięć jest niedostępna, operacja odświeżania jest umieszczana w kolejce w oczekiwaniu na ponowne podjęcie próby. Usługa ponawia próbę do momentu jej pomyślnego zakończenia lub rozpoczęcia nowej akcji odświeżania.
 
@@ -58,18 +56,18 @@ Jeśli zapytanie interaktywne jest tworzone dla dowolnego zestawu danych w ramac
 
 Istnieją dwa podstawowe elementy wykorzystujące zasoby procesora:
 
-- Zapytania z raportów
-- Odświeżanie (przetwarzanie)
+* Zapytania z raportów
+* Odświeżanie (przetwarzanie)
 
 ### <a name="queries-from-reports"></a>Zapytania z raportów
 
-Zapytania dotyczące raportów wykorzystują zasoby procesora w ramach pojemności. Jeśli raport zawiera zapytania, które są mało wydajne, lub jest używany współbieżnie przez wielu użytkowników, może zużywać duże ilości zasobów procesora, a istniejąca pojemność może być niewystarczająca do obsługi obciążenia.
+Zapytania dotyczące raportów wykorzystują zasoby procesora w ramach pojemności. Jeśli raporty zawierają nieefektywne zapytania lub korzysta z nich jednocześnie wielu użytkowników, mogą one wykorzystywać dużo zasobów procesora CPU. Istniejąca pojemność może nie być wystarczająca do obsługi takiego obciążenia.
 
 ### <a name="refresh-parallelization-policy"></a>Zasady równoległego przetwarzania odświeżania
 
 Pamięć nie jest jedynym zasobem, który może ograniczać odświeżanie zestawów danych. Istotnym czynnikiem może być także liczba rdzeni wirtualnych na serwerze. Ponieważ każda operacja odświeżania wymaga określonej liczby rdzeni wirtualnych, istnieje limit liczby odświeżeń, które można uruchomić równolegle. Limity dla poszczególnych jednostek SKU zostały szczegółowo opisany w poniższej tabeli. Dodatkowe operacje odświeżania, które wykraczają poza te limity, są umieszczane w kolejce.
 
- | SKU  | Rdzenie wirtualne zaplecza  | Równoległość odświeżania modelu   |
+ | SKU | Rdzenie wirtualne zaplecza | Równoległość odświeżania modelu |
  | --- | --- | --- |
  | A1  | 0,5  | 1  |
  | A2  | 1  | 2  |
@@ -91,24 +89,28 @@ Pamięć nie jest jedynym zasobem, który może ograniczać odświeżanie zestaw
 
 ## <a name="example-scenarios"></a>Przykładowe scenariusze
 
-Poniżej opisano kilka typowych scenariuszy i akcje wykonywane przez usługę:
+Oto kilka typowych scenariuszy i akcje wykonywane przez usługę:
 
- **Dwadzieścia zaplanowanych odświeżeń przesłanych jednocześnie** — usługa Power BI próbuje uruchomić pierwsze odświeżenia (*x*) jednocześnie. Wartość *x* jest określona w zasadach równoległego przetwarzania odświeżania dla danej jednostki SKU. Jeżeli usługa Power BI nie może uzyskać wystarczającej pamięci przez eksmisję nieaktywnych zestawów danych (zestawów danych ostatnio nieużywanych), nie wszystkie odświeżenia (*x*) zostaną uruchomione jednocześnie. Każde odświeżenie, którego nie można uruchomić, jest przechowywane w kolejce do momentu, gdy będzie ono możliwe.
+**Dwadzieścia zaplanowanych operacji odświeżania przesłanych w tym samym czasie**. Usługa Power BI próbuje uruchomić pierwsze *x* operacji odświeżania w tym samym czasie. Wartość *x* jest określona w zasadach równoległego przetwarzania odświeżania dla danej jednostki SKU. Jeżeli usługa Power BI nie może uzyskać wystarczającej pamięci przez eksmisję nieaktywnych zestawów danych (zestawów danych ostatnio nieużywanych), nie wszystkie odświeżenia (*x*) zostaną uruchomione jednocześnie. Każde odświeżenie, którego nie można uruchomić, jest przechowywane w kolejce do momentu, gdy będzie ono możliwe.
 
- **Dwa odświeżenia uruchomione jednocześnie, w przypadku gdy wystarczy pamięci na zakończenie tylko jednego z nich** — uruchamiane jest to, które można zakończyć. Próba uruchomienia drugiej operacji zostanie ponowiona później.
+**Dwa odświeżenia uruchomione jednocześnie, w przypadku gdy wystarczy pamięci na zakończenie tylko jednego z nich**. Uruchamiane jest to, które można zakończyć. Próba uruchomienia drugiej operacji zostanie ponowiona później.
 
- **Wiele zestawów danych jest uwzględnianych w zapytaniu, podczas gdy kilka zestawów danych jest odświeżanych** — jeśli nie ma wystarczającej ilości pamięci, usługa Power BI podejmuje próbę zatrzymania aktywnych odświeżeń, aby nadać priorytet zapytaniom interaktywnym. Spowoduje to obniżenie wydajności odświeżania.
+**Wiele zestawów danych jest uwzględnianych w zapytaniu, podczas gdy kilka zestawów danych jest odświeżanych**. Jeśli nie ma wystarczającej ilości pamięci, usługa Power BI podejmuje próbę zatrzymania aktywnych odświeżeń, aby nadać priorytet zapytaniom interaktywnym. Powoduje to obniżenie wydajności odświeżania.
 
- **Zestaw danych wymaga zbyt dużej ilości pamięci do odświeżenia przy bieżącym rozmiarze pojemności** — odświeżanie nie powiedzie się. Próby uzyskania większej ilości pamięci przez eksmisję nie są podejmowane.
+**Zestaw danych wymaga zbyt dużej ilości pamięci do odświeżenia przy bieżącym rozmiarze pojemności**. Odświeżanie kończy się niepowodzeniem. Próby uzyskania większej ilości pamięci przez eksmisję nie są podejmowane.
 
- **Odświeżanie pojedynczego zestawu danych wymagającego zwiększonych zasobów pamięci**  — jeśli wzrost zasobów pamięci jest większy niż zasoby pamięci dostępne przez eksmisję nieaktywnych zestawów danych, próba odświeżenia zostanie ponowiona później, gdy będzie dostępna wystarczająca ilość pamięci do jej obsługi.
+**Odświeżanie pojedynczego zestawu danych wymagającego zwiększonych zasobów pamięci**. Jeśli wzrost zasobów pamięci jest większy niż zasoby pamięci dostępne przez eksmisję nieaktywnych zestawów danych, próba odświeżenia zostanie ponowiona później, gdy będzie dostępna wystarczająca ilość pamięci do jej obsługi.
 
- **Zapytanie jest wykonywane dla zestawu danych, który nie może uzyskać wystarczającej ilości pamięci przez eksmitowanie wszystkich nieaktywnych zestawów danych i odświeżeń** — te zapytania kończą się niepowodzeniem. W przypadku takich wymagań dotyczących obciążeń należy zakupić większą pojemność.
+**Zapytanie jest wykonywane dla zestawu danych, który nie może uzyskać wystarczającej ilości pamięci przez eksmitowanie wszystkich nieaktywnych zestawów danych i odświeżeń**. Te zapytania kończą się niepowodzeniem. W przypadku takich wymagań dotyczących obciążeń należy zakupić większą pojemność.
 
 ## <a name="troubleshooting-and-testing"></a>Rozwiązywanie problemów i testowanie
 
-Jeśli raporty działają wolno lub nie odpowiadają, należy uruchomić testowanie tylko dla jednego użytkownika w raporcie. Następnie należy rozpocząć zwiększanie obciążenia użytkowników współbieżnych w celu zidentyfikowania limitu. W wielu przypadkach dostrajanie języka DAX (zapytań dotyczących raportów) może znacząco zmienić wydajność raportów (i zwiększyć liczbę współbieżnych użytkowników obsługiwanych w ramach danej pojemności).
+Jeśli raporty działają wolno lub nie odpowiadają, należy uruchomić testowanie tylko dla jednego użytkownika w raporcie. Następnie należy rozpocząć zwiększanie obciążenia użytkowników współbieżnych w celu zidentyfikowania limitu. W wielu przypadkach dostrajanie zapytań języka DAX może znacznie zmienić wydajność raportów. Dostrajanie zapytań zwiększa także liczbę jednocześnie obsługiwanych użytkowników przez pojemności. [Monitorowanie pojemności](service-admin-premium-monitor-capacity.md) umożliwia identyfikowanie potencjalnych problemów z wydajnością.
 
 Użyj pojemności usługi Power BI Embedded na platformie Azure do testowania różnych jednostek SKU i określenia najlepszych jednostek SKU w warstwie Premium dla oczekiwanego obciążenia. Jednostka SKU usługi Power BI Embedded A4 jest odpowiednikiem wersji P1, A5 = P2 i A6 = P3. Na platformie Azure można łatwo przełączać się między jednostkami SKU przez skalowanie w górę i w dół w witrynie Azure Portal. Po znalezieniu jednostki SKU najlepiej odpowiadającej obciążeniu i zakończeniu testowania można usunąć jednostkę SKU.
 
-W niektórych przypadkach otwarcie pliku PBIX modelu na komputerze oraz sprawdzenie pamięci i użycia procesora dostarcza wiele informacji o problemie. Nie jest to pomocne w przypadku bardzo dużych modeli, ale w przypadku niektórych mniejszych modeli można spróbować otworzyć i odświeżyć model z komputera, a także wykonać dotyczące go zapytania. Sprawdź rozmiar modelu, pamięć i użycie procesora po otwarciu modelu. Spróbuj odświeżyć i wykonać zapytanie. Za pomocą menedżera zadań można sprawdzić zużycie procesora i pamięci dla lokalnego pliku PBIX. Czasami na podstawie tych metryk na komputerze można ustalić, czy niższa pojemność Premium, taka jak P1/P2, będzie niewystarczająca dla danego rozwiązania.
+W niektórych przypadkach otwarcie pliku programu Power BI Desktop (pbix) modelu na komputerze oraz sprawdzenie pamięci i użycia procesora dostarcza wiele informacji o problemie. Nie jest to pomocne w przypadku bardzo dużych modeli, ale w przypadku niektórych mniejszych modeli można spróbować otworzyć i odświeżyć model z komputera, a także wykonać dotyczące go zapytania. Sprawdź rozmiar modelu, pamięć i użycie procesora po otwarciu modelu. Spróbuj odświeżyć i wykonać zapytanie. Za pomocą menedżera zadań można sprawdzić zużycie procesora i pamięci dla lokalnego pliku. Czasami na podstawie tych metryk na komputerze można ustalić, czy niższa pojemność Premium, taka jak P1/P2, będzie niewystarczająca dla danego rozwiązania.
+
+## <a name="next-steps"></a>Następne kroki
+
+[Zarządzanie pojemnościami w usługach Power BI Premium i Power BI Embedded](service-admin-premium-manage.md)

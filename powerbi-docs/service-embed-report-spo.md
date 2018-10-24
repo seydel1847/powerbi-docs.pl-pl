@@ -10,13 +10,13 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 08/16/2018
-ms.openlocfilehash: 111987fda4b0f841c0806dbdc454ac96ddb3c666
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.date: 10/01/2018
+ms.openlocfilehash: b701ce9921d055dfe124c5a419f02900b15a9f62
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908376"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49641211"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>Osadzanie za pomocą składnika Web Part raportu w usłudze SharePoint Online
 
@@ -87,7 +87,7 @@ Osadzenie raportu w usłudze SharePoint Online nie daje automatycznie użytkowni
 
 Istnieją dwa sposoby zapewnienia dostępu do raportu w usłudze Power BI. Jeśli używasz grupy usługi Office 365 do tworzenia witryny zespołu w usłudze SharePoint Online, uwzględnij użytkownika jako członka **obszaru roboczego aplikacji w usłudze Power BI** oraz **strony programu SharePoint**. Daje to pewność, że uwzględnieni użytkownicy mogą wyświetlać zawartość tej grupy. Aby uzyskać więcej informacji, zobacz [Tworzenie i rozpowszechnianie aplikacji w usłudze Power BI](service-create-distribute-apps.md).
 
-Ewentualnie możesz udzielić użytkownikom dostępu do raportu, wykonując następujące czynności.
+Możesz również udzielić użytkownikom dostępu do raportu, wykonując poniższe kroki.
 
 1. Dodaj kafelek z raportu do pulpitu nawigacyjnego.
 
@@ -126,7 +126,7 @@ Istnieją dwie typowe przyczyny tego komunikatu:
 1. Nie masz dostępu do raportu.
 2. Raport został usunięty.
 
-Należy skontaktować się z właścicielem strony usługi SharePoint Online, aby uzyskać pomoc w rozwiązaniu tego problemu.
+Skontaktuj się z właścicielem strony usługi SharePoint Online, aby uzyskać pomoc w rozwiązaniu tego problemu.
 
 ## <a name="known-issues-and-limitations"></a>Znane problemy i ograniczenia
 
@@ -147,6 +147,8 @@ Należy skontaktować się z właścicielem strony usługi SharePoint Online, ab
 * Składnik Web Part usługi Power BI nie jest dostępny w [suwerennych chmurach](https://powerbi.microsoft.com/en-us/clouds/).
 
 * Klasyczny program SharePoint Server nie jest obsługiwany w tym składniku Web Part.
+
+* [Filtry adresów URL](service-url-filters.md) nie są obsługiwane za pomocą składnika Web Part usługi SPO.
 
 ## <a name="next-steps"></a>Następne kroki
 

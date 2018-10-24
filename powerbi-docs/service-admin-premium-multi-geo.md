@@ -1,21 +1,21 @@
 ---
 title: Obsługa funkcji Multi-Geo dla usługi Power BI Premium (wersja zapoznawcza)
 description: Dowiedz się, jak można wdrożyć zawartość do centrów danych w regionach innych niż region lokalny dzierżawy usługi Power BI.
-author: maggiesMSFT
-ms.author: maggies
+author: mgblythe
+ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 08/31/2018
+ms.date: 10/21/2018
 LocalizationGroup: Premium
-ms.openlocfilehash: 135217acbe6289edb73c39035f58df8babf32566
-ms.sourcegitcommit: 6be2c54f2703f307457360baef32aee16f338067
+ms.openlocfilehash: 1041dcf8c345bfdf8d5a6ae9823d4cecd5c323a6
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "43300189"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49641677"
 ---
 # <a name="multi-geo-support-for-power-bi-premium-preview"></a>Obsługa funkcji Multi-Geo dla usługi Power BI Premium (wersja zapoznawcza)
 
@@ -40,7 +40,7 @@ Funkcja Multi-Geo jest teraz dostępna również w usłudze Power BI Embedded. D
 W przypadku nowych pojemności należy włączyć funkcję Multi-Geo, wybierając region inny niż domyślny z listy rozwijanej.  Każda dostępna pojemność pokazuje region, w którym obecnie się znajduje, na przykład **Zachodnio-środkowe stany USA**.
 
 ![Rozmiar pojemności: wybierz region. Funkcja Multi-Geo usługi Power BI](media/service-admin-premium-multi-geo/power-bi-multi-geo-capacity-size.png)
-  
+
 Utworzona pojemność pozostaje w danym regionie, a zawartość wszystkich utworzonych obszarów roboczych będzie przechowywana w danym regionie. Obszary robocze można migrować z jednego regionu do innego za pomocą listy rozwijanej na ekranie ustawień obszaru roboczego.
 
 ![Edytowanie obszaru roboczego: wybierz dostępną pojemność. Funkcja Multi-Geo usługi Power BI](media/service-admin-premium-multi-geo/power-bi-multi-geo-edit-workspace.png)
@@ -91,11 +91,8 @@ Obszary robocze można przenosić poza pojemność funkcji Multi-Geo na jeden z 
 ## <a name="limitations-and-considerations"></a>Ograniczenia i istotne zagadnienia
 
 - Upewnij się, że wszystkie operacje przenoszenia inicjowane między regionami są zgodne ze wszystkimi firmowymi i rządowymi wymaganiami dotyczącymi zgodności przed zainicjowaniem transferu danych.
-
 - Zapytanie buforowane przechowywane w regionie zdalnym pozostaje w tym regionie podczas magazynowania danych. Inne transferowane dane mogą być jednak przenoszone między różnymi obszarami geograficznymi.
-
 - Podczas przenoszenia danych z jednego regionu do innego w środowisku funkcji Multi-Geo dane źródłowe mogą pozostawać w regionie, z którego dane zostały przeniesione, przez maksymalnie 30 dni. W tym czasie użytkownicy końcowi nie będą mieć dostępu do tych danych. Zostaną one usunięte z tego regionu i zlikwidowane w trakcie 30-dniowego okresu.
-
 - Ogólnie rzecz biorąc, funkcja Multi-Geo nie powoduje zwiększenia wydajności. Ładowanie raportów i pulpitów nawigacyjnych będzie nadal uwzględniać żądania do regionu lokalnego dla metadanych.
 
 ## <a name="next-steps"></a>Następne kroki

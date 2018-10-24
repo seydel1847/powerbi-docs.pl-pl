@@ -31,7 +31,7 @@ Poniżej przedstawiono listę w pełni kwalifikowanych nazw domen używanych prz
 | *.powerbi.com |443 |HTTPS |
 | *.analysis.windows.net |443 |HTTPS |
 | *.login.windows.net |443 |HTTPS |
-| *.servicebus.windows.net |5671–5672 |Advanced Message Queuing Protocol (AMQP) |
+| *.servicebus.windows.net |5671–5672 |Zaawansowane usługi kolejkowania Protocol (AMQP) |
 | *.servicebus.windows.net |443, 9350–9354 |Odbiorniki usługi Service Bus Relay korzystające z protokołu TCP (wymaga portu 443 w celu uzyskania tokenu kontroli dostępu) |
 | *.frontend.clouddatahub.net |443 |HTTPS |
 | *.core.windows.net |443 |HTTPS |

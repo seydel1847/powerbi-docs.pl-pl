@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/11/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 770b2796eb8f29cadfe8371cb2baef12cec7c0e8
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 0d07953fb4f9474f929c108df5b76acb61c7df7c
+ms.sourcegitcommit: 1a79e48ac820c28c5d0fd05399f49ed22fc74ed7
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48910296"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "49435342"
 ---
 # <a name="delete-almost-anything-in-power-bi-service"></a>Usuwanie niemal dowolnego elementu z usługi Power BI
 Ten artykuł nauczy Cię, jak usunąć pulpit nawigacyjny, raport, skoroszyt, zestaw danych, aplikację, wizualizację i obszar roboczy z usługi Power BI.
@@ -129,7 +129,7 @@ Usunięcie aplikacji ze strony listy aplikacji nie powoduje usunięcia jej dla i
 
    ![wybieranie aplikacji](media/service-delete/power-bi-delete-app.png)
 
-   Jeśli przypadkowo usuniesz aplikację, możesz ją odzyskać na kilka sposobów.  Poproś twórcę aplikacji o jej ponowne wysłanie, znajdź oryginalną wiadomość e-mail z linkiem do aplikacji, sprawdź, czy w Twoim [centrum powiadomień](service-notification-center.md) nadal znajduje się powiadomienie dotyczące tej aplikacji, lub sprawdź usługę [AppSource](service-install-use-apps.md) Twojej organizacji.
+   Jeśli przypadkowo usuniesz aplikację, możesz ją odzyskać na kilka sposobów.  Poproś twórcę aplikacji o jej ponowne wysłanie, znajdź oryginalną wiadomość e-mail z linkiem do aplikacji, sprawdź, czy w Twoim [centrum powiadomień](service-notification-center.md) nadal znajduje się powiadomienie dotyczące tej aplikacji, lub sprawdź [usługę AppSource Twojej organizacji](consumer/end-user-apps.md).
 
 ## <a name="considerations-and-troubleshooting"></a>Istotne zagadnienia i rozwiązywanie problemów
 W tym artykule opisano sposób usuwania głównych bloków konstrukcyjnych usługi Power BI. Jednak w usłudze Power BI istnieje więcej elementów, które można usunąć.  

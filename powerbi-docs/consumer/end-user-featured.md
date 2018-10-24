@@ -8,15 +8,15 @@ featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/02/2018
+ms.date: 10/19/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: d23e168f6192629ce9dd945e29691dcf40ae1427
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 66956a38a4f2076a01cf224bbef3a20490915e9b
+ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565411"
+ms.lasthandoff: 10/20/2018
+ms.locfileid: "49473709"
 ---
 # <a name="featured-dashboards-in-power-bi-service"></a>Proponowane pulpity nawigacyjne w usłudze Power BI
 ## <a name="create-a-featured-dashboard"></a>Tworzenie proponowanego pulpitu nawigacyjnego
@@ -41,7 +41,7 @@ Zobacz, jak Amanda tworzy proponowany pulpit nawigacyjny, a następnie wykonaj i
 
 
 1. Otwórz pulpit nawigacyjny, który chcesz ustawić jako *Proponowany*. 
-2. Na górnym pasku nawigacyjnym będzie widoczny przycisk **Ustaw jako proponowany** lub tylko ikona Proponowane ![ikona proponowanych](./media/end-user-featured/power-bi-featured-icon.png). Wybierz jeden z tych elementów.
+2. Na górnym pasku menu będzie widoczny przycisk **Ustaw jako proponowany** lub tylko ikona Proponowane ![ikona proponowanych](./media/end-user-featured/power-bi-featured-icon.png). Wybierz jeden z tych elementów.
    
     ![Ikona ustawiania jako proponowanego](./media/end-user-featured/power-bi-set-as-featured.png)
 3. Potwierdź wybór.

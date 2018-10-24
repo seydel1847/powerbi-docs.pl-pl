@@ -7,172 +7,183 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 10/10/2017
+ms.date: 10/20/2018
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: b38c69d74141b28215e0a14a32fc7b03fab4fdbf
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: a36b0524006144bfa9fbd24d9ff88b42a1acb3d4
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908882"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49641648"
 ---
 # <a name="manage-capacities-within-power-bi-premium-and-power-bi-embedded"></a>Zarządzanie pojemnościami w usługach Power BI Premium i Power BI Embedded
+
 Dowiedz się, jak zarządzać pojemnościami usług Power BI Premium i Power BI Embedded, zapewniając zasoby dedykowane dla swojej zawartości.
 
 ![Ekran ustawień dotyczących pojemności usługi Power BI](media/service-admin-premium-manage/premium-capacity-management.png)
 
-Pojemność to kluczowy element oferty dostępnej w postaci usług Power BI Premium i Power BI Embedded.
-
 ## <a name="what-is-capacity"></a>Co to jest pojemność?
-Pojemność to zestaw zasobów zarezerwowanych wyłącznie do Twojego użytku. Dzięki pojemności można publikować pulpity nawigacyjne, raporty i zestawy danych dla użytkowników w całej organizacji bez konieczności kupowania licencji dla tych osób. Gwarantuje ona również niezawodną, spójną i wydajną obsługę zawartości hostowanej w danej pojemności.
 
-Pojemność jest niewidoczna dla Twoich użytkowników końcowych. Korzystają oni z usługi Power BI lub aplikacji w zwykły sposób. Nie muszą wiedzieć, że część zawartości (lub całość) znajduje się w Twojej wydajności dedykowanej. Z perspektywy użytkowników wszystko działa dokładnie tak jak wcześniej.
-
-[!INCLUDE [powerbi-premium-illustration](./includes/powerbi-premium-illustration.md)]
-
-Aby uzyskać więcej informacji, zobacz [Co to jest usługa Power BI Premium?](service-premium.md).
+*Pojemność* to kluczowy element ofert Power BI Premium i Power BI Embedded. Jest to zestaw zasobów zarezerwowanych do użytku wyłącznie przez Twoją organizację. Dzięki dedykowanej pojemności można publikować pulpity nawigacyjne, raporty i zestawy danych dla użytkowników w całej organizacji bez konieczności kupowania indywidualnych licencji dla tych użytkowników. Oferuje ona również niezawodną, spójną i wydajną obsługę zawartości hostowanej w danej pojemności. Aby uzyskać więcej informacji, zobacz [Co to jest usługa Power BI Premium?](service-premium.md).
 
 ### <a name="capacity-admins"></a>Administratorzy pojemności
+
+Gdy jest się przypisanym do pojemności jako *administrator pojemności*, ma się pełną kontrolę nad daną pojemnością i jej funkcjami administracyjnymi. Korzystając z portalu administratora usługi Power BI, można dodać kolejnych administratorów pojemności lub nadać użytkownikom uprawnienia do przypisywania pojemności. Do pojemności można zbiorczo przypisywać obszary robocze. Można też wyświetlać metryki dotyczące użycia danej pojemności.
+
 > [!NOTE]
-> W przypadku pojemności usługi Power BI Embedded administratorzy pojemności są definiowani z poziomu portalu Microsoft Azure.
+> W przypadku usługi Power BI Embedded administratorzy pojemności są definiowani w witrynie Microsoft Azure Portal.
 
-Gdy użytkownik jest przypisany do pojemności jako administrator, ma pełną kontrolę nad daną pojemnością i jej funkcjami administracyjnymi. Korzystając z portalu administratora usługi Power BI, można dodać kolejnych administratorów pojemności (tylko w przypadku usługi Power BI Premium) lub nadać użytkownikom uprawnienia do przypisywania pojemności. Do pojemności można zbiorczo przypisywać obszary robocze. Można też wyświetlać metryki dotyczące użycia danej pojemności.
-
-Każda pojemność ma własnych administratorów. Administrator zdefiniowany dla jednej pojemności nie uzyskuje dostępu do wszystkich pojemności w danej organizacji. Administratorzy pojemności domyślnie nie mają dostępu do wszystkich obszarów administratora usługi Power BI, takich jak metryki użycia, dzienniki inspekcji i ustawienia dzierżawy. Administratorzy pojemności nie mają też uprawnień do konfigurowania nowych pojemności ani zmieniania jednostki SKU istniejących pojemności. Tylko administratorzy globalni lub administratorzy usługi Power BI mają dostęp do tych elementów.
+Każda pojemność ma własnych administratorów. Administrator przypisany dla jednej pojemności nie uzyskuje dostępu do wszystkich pojemności w danej organizacji. Administratorzy pojemności domyślnie nie mają dostępu do wszystkich obszarów administratora usługi Power BI, takich jak metryki użycia, dzienniki inspekcji i ustawienia dzierżawy. Administratorzy pojemności nie mają też uprawnień do konfigurowania nowych pojemności ani zmieniania jednostki SKU istniejących pojemności. Tylko administratorzy globalni usługi Office 365 oraz administratorzy usługi Power BI mają dostęp do tych elementów.
 
 Wszyscy administratorzy globalni usługi Office 365 i administratorzy usługi Power BI są też automatycznie administratorami pojemności usługi Power BI Premium i pojemności usługi Power BI Embedded.
 
 ## <a name="purchase-capacity"></a>Kupowana pojemność
-Aby optymalnie wykorzystać dedykowaną pojemność, należy kupić subskrypcję usługi Power BI Premium z poziomu centrum administracyjnego usługi Office 365 lub utworzyć zasób usługi Power BI Embedded z poziomu portalu Microsoft Azure. Aby uzyskać więcej informacji, zobacz następujące artykuły:
+
+Aby optymalnie wykorzystać dedykowaną pojemność, należy wykupić dostęp do usługi Power BI Premium w centrum administracyjnym usługi Office 365 albo utworzyć zasób usługi Power BI Embedded w witrynie Microsoft Azure Portal. Aby uzyskać więcej informacji, zobacz następujące artykuły:
 
 * **Power BI Premium:** [jak kupić usługę Power BI Premium](service-admin-premium-purchase.md)
+
 * **Power BI Embedded:** [Tworzenie pojemności usługi Power BI Embedded w witrynie Azure Portal](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity)
 
-Po kupieniu jednostek SKU usługi Power BI Premium Twoja dzierżawa otrzyma odpowiednią liczbę rdzeni wirtualnych do użytku w uruchomionych pojemnościach. Na przykład zakup jednostki Power BI Premium P3 zapewnia dzierżawie 32 rdzenie wirtualne.
+Po kupieniu jednostek SKU usługi Power BI Premium lub Embedded Twoja dzierżawa otrzyma odpowiednią liczbę rdzeni wirtualnych do użytku w uruchomionych pojemnościach. Na przykład zakup jednostki Power BI Premium P3 zapewnia dzierżawie 32 rdzenie wirtualne. Aby uzyskać więcej informacji na temat jednostek SKU, zobacz [węzły pojemności Premium](service-premium.md#premium-capacity-nodes).
 
-> [!NOTE]
-> Po zakończeniu subskrypcji będziesz mieć pełny dostęp przez 30 dni, ale następnie zawartość zostanie przywrócona do udostępnionej pojemności. Modele większe niż 1 GB nie będą obsługiwane w przypadku zwykłej licencji udostępnionej.
+## <a name="what-premium-looks-like-for-users"></a>Widok pojemności Premium z perspektywy użytkowników
 
+W większości przypadków użytkownicy nie muszą wiedzieć, że są w pojemności Premium. Wystarczy, że ich pulpity nawigacyjne i raporty działają. Wizualną wskazówką jest ikona rombu obok obszarów roboczych w pojemności Premium.
+
+![Obszar roboczy z diamentem znajduje się w pojemności Premium](media/service-admin-premium-manage/premium-workspace.png)
+
+## <a name="monitor-capacity-usage"></a>Monitorowanie użycia pojemności
+
+Usługa Power BI oferuje aplikację do monitorowania użycia pojemności. Aby uzyskać więcej informacji, zobacz [Monitorowanie pojemności usługi Power BI Premium w organizacji](service-admin-premium-monitor-capacity.md).
 
 ## <a name="manage-capacity"></a>Zarządzanie pojemnością
-Po zakupie węzłów pojemności w usłudze Office 365 należy skonfigurować nową pojemność. Należy to zrobić za pomocą [portalu administracyjnego usługi Power BI](service-admin-portal.md). W portalu administracyjnym znajduje się sekcja o nazwie **Ustawienia pojemności**. W tym miejscu można zarządzać pojemnościami usługi Power BI Premium dla swojej organizacji.
+
+Po zakupie węzłów pojemności w usłudze Office 365 należy skonfigurować pojemność w portalu administracyjnym usługi Power BI. Pojemnościami usługi Power BI Premium zarządza się w sekcji **Ustawienia pojemności** portalu.
 
 ![Ustawienia pojemności w portalu administracyjnym](media/service-admin-premium-manage/admin-portal-premium.png)
 
-Po wybraniu pozycji **Ustawienia pojemności** następuje przejście do ekranu zarządzania pojemnością (domyślnie dla usługi Power BI Premium).
+Aby zarządzać pojemnością, należy wybrać jej nazwę. Spowoduje to przejście do ekranu zarządzania pojemnością.
+
+![Wybieranie nazwy pojemności w celu przejścia do ekranu przypisywania pojemności](media/service-admin-premium-manage/capacity-assignment.png)
+
+Jeśli do pojemności nie przypisano żadnych obszarów roboczych, zostanie wyświetlony komunikat dotyczący [przypisania obszarów roboczych do pojemności](#assign-a-workspace-to-a-capacity).
 
 ### <a name="setting-up-a-new-capacity-power-bi-premium"></a>Konfigurowanie nowej pojemności (Power BI Premium)
-Liczba rdzeni wirtualnych odzwierciedla liczbę używaną i liczbę dostępną na użytej tworzenia pojemności. Liczba rdzeni wirtualnych dostępnych dla danej organizacji zależy od kupionych jednostek SKU Premium. Na przykład zakup jednostek P3 i P2 zapewniły 48 dostępne rdzenie — 32 dzięki jednostce P3 i 16 dzięki jednostce P2.
+
+W portalu administracyjnym widoczna jest liczba już użytych i nadal dostępnych *rdzeni wirtualnych*. Całkowita liczba rdzeni wirtualnych zależy od liczby kupionych jednostek SKU Premium. Na przykład zakup jednostek P3 i P2 daje 48 dostępnych rdzeni — 32 dzięki jednostce P3 i 16 dzięki jednostce P2.
 
 ![Używane i dostępne rdzenie wirtualne w usłudze Power BI Premium](media/service-admin-premium-manage/admin-portal-v-cores.png)
 
-Jeśli masz dostępne rdzenie wirtualne, możesz skonfigurować nową pojemność, wykonując poniższe czynności.
+Jeśli masz dostępne rdzenie wirtualne, możesz skonfigurować nową pojemność, wykonując następujące kroki.
 
 1. Wybierz pozycję **Skonfiguruj nową pojemność**.
-2. Nadaj nowej pojemności **nazwę**.
-3. Zdefiniuj administratora pojemności dla tej pojemności.
 
-    Administrator pojemności nie musi być administratorem usługi Power BI ani administratorem globalnym usługi Office 365. Aby uzyskać więcej informacji, zobacz [Administratorzy pojemności usługi Power BI Premium](#capacity-admins).
-4. Wybierz rozmiar pojemności. Dostępne opcje zależą od liczby posiadanych rdzeni wirtualnych. Nie można wybrać opcji przekraczającej liczbę dostępnych rdzeni.
+1. Nadaj nazwę pojemności.
+
+1. Zdefiniuj administratora tej pojemności.
+
+1. Wybierz rozmiar pojemności. Dostępne opcje zależą od liczby posiadanych rdzeni wirtualnych. Nie można wybrać opcji przekraczającej liczbę dostępnych rdzeni.
 
     ![Dostępne rozmiary pojemności Premium](media/service-admin-premium-manage/premium-capacity-size.png)
-5. Wybierz pozycję **Skonfiguruj**.
+
+1. Wybierz pozycję **Skonfiguruj**.
 
     ![Konfigurowanie nowej pojemności](media/service-admin-premium-manage/set-up-capacity.png)
 
 Administratorzy pojemności, a także administratorzy usługi Power BI i administratorzy globalni usługi Office 365 zobaczą nową pojemność na liście w portalu administracyjnym.
 
 ### <a name="capacity-settings"></a>Ustawienia pojemności
-Na ekranie zarządzania pojemnością Premium możesz wybrać **ikonę koła zębatego (ustawienia)** znajdującą się w obszarze akcji. Następnie możesz zmienić nazwę pojemności lub usunąć pojemność. Można tam także sprawdzić, kim są administratorzy usługi, jaki jest rozmiar/jednostka SKU pojemności i w jakim jakie regionie pojemność się znajduje.
 
-![Akcje dotyczące pojemności w obszarze zarządzania pojemnością](media/service-admin-premium-manage/capacity-actions.png)
+1. Na ekranie zarządzania pojemnością Premium w sekcji **Akcje** wybierz **ikonę koła zębatego**, aby przejrzeć i zaktualizować ustawienia. 
 
-![Ustawienia pojemności](media/service-admin-premium-manage/capacity-settings.png)
+    ![Akcje dotyczące pojemności w obszarze zarządzania pojemnością](media/service-admin-premium-manage/capacity-actions.png)
 
-![Przyciski usuwania i stosowania w ustawieniach pojemności w usłudze Power BI Premium](media/service-admin-premium-manage/capacity-settings-delete.png)
+1. W ten sposób zobaczysz, kim są administratorzy usługi, jaki jest rozmiar/jednostka SKU pojemności i w jakim regionie znajduje się pojemność.
 
-> [!NOTE]
-> Zarządzanie ustawieniami pojemności usługi Power BI Embedded odbywa się z poziomu portalu Microsoft Azure.
+    ![Ustawienia pojemności](media/service-admin-premium-manage/capacity-settings.png)
 
-### <a name="change-capacity-size-power-bi-premium"></a>Zmienianie rozmiaru pojemności (Power BI Premium)
-Administratorzy usługi Power BI i administratorzy globalni usługi Office 365 mogą zmienić rozmiar pojemności usługi Power BI Premium, wybierając pozycję **Zmień rozmiar pojemności**. Administrator pojemności, który nie jest administratorem usługi Power BI ani administratorem globalnym usługi Office 365, nie ma takiej możliwości.
+1. Możesz również zmienić nazwę pojemności lub ją usunąć.
 
-![Zmienianie rozmiaru pojemności usługi Power BI Premium](media/service-admin-premium-manage/change-capacity-size.png)
-
-Ekran **Zmień rozmiar pojemności** umożliwia zwiększenie lub zmniejszenie rozmiaru pojemności, jeśli są dostępne odpowiednie zasoby. Administratorzy mogą tworzyć i usuwać węzły, a także zmieniać ich rozmiar, o ile dysponują odpowiednią liczbą rdzeni wirtualnych.
-
-Nie jest możliwa zmiana jednostek SKU P na jednostki SKU EM. Po umieszczeniu kursora na wyłączonych opcjach można uzyskać odpowiednie wyjaśnienie.
-
-![Lista rozwijana dotycząca zmiany rozmiaru pojemności usługi Power BI Premium](media/service-admin-premium-manage/change-capacity-size2.png)
-
-### <a name="capacity-assignment"></a>Przypisywanie pojemności
-Aby zarządzać pojemnością, należy wybrać jej nazwę. Spowoduje to przejście do ekranu zarządzania pojemnością.
-
-![Wybieranie nazwy pojemności w celu przejścia do ekranu przypisywania pojemności](media/service-admin-premium-manage/capacity-assignment.png)
-
-Jeśli do pojemności nie przypisano żadnych obszarów roboczych, zostanie wyświetlony komunikat umożliwiający użycie pozycji **Przypisz obszary robocze**.
-
-#### <a name="user-permissions"></a>Uprawnienia użytkowników
-Pojemnościom usługi Power BI Premium mogą zostać przypisani dodatkowi **Administratorzy pojemności**. Można również wyznaczyć użytkowników, którzy będą mieli **uprawnienia do przypisywania pojemności**. Użytkownicy posiadający uprawnienia do przypisywania mogą przypisać obszar roboczy aplikacji do pojemności, o ile są administratorem danego obszaru roboczego. Mogą także przypisać osobisty *Mój obszar roboczy* do pojemności. Użytkownicy z uprawnieniami do przypisywania nie mają dostępu do portalu administracyjnego.
+    ![Przyciski usuwania i stosowania w ustawieniach pojemności w usłudze Power BI Premium](media/service-admin-premium-manage/capacity-settings-delete.png)
 
 > [!NOTE]
-> W przypadku pojemności usługi Power BI Embedded administratorzy pojemności są przypisywani z poziomu portalu Microsoft Azure.
->
->
+> Zarządzanie ustawieniami pojemności usługi Power BI Embedded odbywa się z poziomu witryny Microsoft Azure Portal.
 
-![](media/service-admin-premium-manage/capacity-user-permissions.png)
+### <a name="change-capacity-size"></a>Zmiana rozmiaru pojemności
 
-![](media/service-admin-premium-manage/capacity-user-permissions2.png)
+Administratorzy usługi Power BI i administratorzy globalni usługi Office 365 mogą zmienić pojemność usługi Power BI Premium. Administrator pojemności, który nie jest administratorem usługi Power BI ani administratorem globalnym usługi Office 365, nie ma takiej możliwości.
+
+1. Wybierz pozycję **Zmień rozmiar pojemności**.
+
+    ![Zmienianie rozmiaru pojemności usługi Power BI Premium](media/service-admin-premium-manage/change-capacity-size.png)
+
+1. Na ekranie **Zmień rozmiar pojemności** zmień pojemność na większą lub mniejszą zgodnie z potrzebami.
+
+    ![Lista rozwijana dotycząca zmiany rozmiaru pojemności usługi Power BI Premium](media/service-admin-premium-manage/change-capacity-size2.png)
+
+    Administratorzy mogą tworzyć i usuwać węzły, a także zmieniać ich rozmiar, o ile dysponują odpowiednią liczbą rdzeni wirtualnych.
+
+    Rozmiaru jednostek SKU P nie można obniżyć do poziomu jednostek SKU EM. Możesz zatrzymać wskaźnik myszy nad dowolną wyłączoną opcją, aby wyświetlić wyjaśnienie.
+
+### <a name="manage-user-permissions"></a>Zarządzanie uprawnieniami użytkowników
+
+Możesz przypisać dodatkowych administratorów pojemności i przypisać użytkowników mających uprawnienie do *przypisywania pojemności*. Użytkownicy z uprawnieniem do przypisywania mogą przypisać obszar roboczy aplikacji do pojemności, o ile są administratorem danego obszaru roboczego. Mogą także przypisać osobisty *Mój obszar roboczy* do pojemności. Użytkownicy z uprawnieniami do przypisywania nie mają dostępu do portalu administracyjnego.
+
+> [!NOTE]
+> W przypadku usługi Power BI Embedded administratorzy pojemności są definiowani w witrynie Microsoft Azure Portal.
+
+W obszarze **Uprawnienia użytkownika** rozwiń pozycję **Użytkownicy z uprawnieniami do przypisywania**, a następnie dodaj odpowiednich użytkowników lub grupy.
+
+![Uprawnienia użytkownika pojemności](media/service-admin-premium-manage/capacity-user-permissions2.png)
 
 ## <a name="assign-a-workspace-to-a-capacity"></a>Przypisywanie obszaru roboczego do pojemności
-Istnieje kilka sposobów przypisywania obszaru roboczego do pojemności.
 
-### <a name="capacity-management-in-admin-portal"></a>Zarządzanie pojemnością w portalu administracyjnym
+Obszar roboczy można przypisać do pojemności na dwa sposoby: w portalu administracyjnym i w obszarze roboczym aplikacji.
+
+### <a name="assign-from-the-admin-portal"></a>Przypisywanie w portalu administracyjnym
+
 Administratorzy pojemności, a także administratorzy usługi Power BI i administratorzy globalni usługi Office 365 mogą przypisywać zbiorczo obszary robocze w sekcji zarządzania pojemnością Premium w portalu administracyjnym. Podczas zarządzania pojemnością obszary robocze można przypisywać za pomocą sekcji **Obszary robocze**.
 
 ![Obszar przypisywania obszarów roboczych w ramach zarządzania wydajnością](media/service-admin-premium-manage/capacity-manage-workspaces.png)
 
-1. Wybierz pozycję **Przypisz obszary robocze**. Ta pozycja jest dostępna w wielu miejscach i w każdym ma to samo działanie.
-2. Wybierz pozycję **Obszary robocze całej organizacji** lub **Określone obszary robocze według użytkownika**.
+1. Wybierz pozycję **Przypisz obszary robocze**. Ta opcja jest dostępna w kilku miejscach.
 
-   | Pozycja | Opis |
+1. Wybierz opcję dla pozycji **Zastosuj do**.
+
+    ![Przypisz obszary robocze](media/service-admin-premium-manage/assign-workspaces.png)
+
+   | Wybieranie | Opis |
    | --- | --- |
-   | **Obszary robocze całej organizacji** |Przypisanie obszarów roboczych całej organizacji do pojemności Premium spowoduje przypisanie wszystkie obszarów roboczych aplikacji i obszarów typu Mój obszar roboczy w organizacji do danej pojemności Premium. Ponadto wszyscy użytkownicy (obecni i przyszli) będą posiadać uprawnienia do zmieniania przypisania poszczególnych obszarów, aby były przypisane do tej pojemności. |
-   | **Określone obszary robocze według użytkownika** |Przypisanie obszarów roboczych według użytkownika lub grupy powoduje, że wszystkie obszary robocze należące do tych użytkowników zostają przypisane do pojemności Premium (z uwzględnieniem osobistego obszaru roboczego użytkowników). Użytkownicy ci automatycznie uzyskują uprawnienia do przypisywania obszarów roboczych.<br>Obejmuje to obszary robocze, które są już przypisane do innej pojemności. |
-3. Wybierz pozycję **Zastosuj**.
+   | **Obszary robocze według użytkowników** | Przypisanie obszarów roboczych według użytkownika lub grupy powoduje, że wszystkie obszary robocze należące do tych użytkowników zostają przypisane do pojemności Premium (z uwzględnieniem osobistego obszaru roboczego użytkowników). Użytkownicy ci automatycznie uzyskują uprawnienia do przypisywania obszarów roboczych.<br>Obejmuje to obszary robocze, które są już przypisane do innej pojemności. |
+   | **Określone obszary robocze** | Wprowadź nazwę określonego obszaru roboczego, aby go przypisać do wybranej pojemności. |
+   | **Obszary robocze całej organizacji** | Przypisanie obszarów roboczych całej organizacji do pojemności Premium powoduje przypisanie wszystkich obszarów roboczych aplikacji i obszarów typu Mój obszar roboczy w organizacji do danej pojemności Premium. Ponadto wszyscy użytkownicy (obecni i przyszli) będą posiadać uprawnienia do zmieniania przypisania poszczególnych obszarów, aby były przypisane do tej pojemności. |
+   | | |
 
-Ta opcja nie umożliwia przypisania określonych obszarów roboczych do pojemności.
+1. Wybierz pozycję **Zastosuj**.
 
-### <a name="app-workspace-settings"></a>Ustawienia obszaru roboczego aplikacji
-Obszar roboczy aplikacji można także przypisać do pojemności Premium, korzystając z ustawień tego obszaru roboczego. Aby przypisać obszar roboczy aplikacji do pojemności Premium, wykonaj poniższe czynności.
+### <a name="assign-from-app-workspace-settings"></a>Przypisywanie w ustawieniach obszaru roboczego aplikacji
 
-Aby przenieść obszar roboczy do pojemności, musisz mieć uprawnienia administratora do tego obszaru roboczego, a także uprawnienia do przypisywania pojemności względem danej pojemności. Administrator obszaru roboczego może w dowolnym momencie usunąć obszar roboczy z pojemności Premium.
+Obszar roboczy aplikacji można także przypisać do pojemności Premium, korzystając z ustawień tego obszaru roboczego. Aby przenieść obszar roboczy do pojemności, musisz mieć uprawnienia administratora do tego obszaru roboczego, a także uprawnienia do przypisywania pojemności względem danej pojemności. Pamiętaj, że administrator obszaru roboczego może w dowolnym momencie usunąć obszar roboczy z pojemności Premium.
 
-1. Edytuj obszar roboczy aplikacji, wybierając **wielokropek (...)** i wybierając pozycję **Edytuj obszar roboczy**.
+1. Edytuj obszar roboczy aplikacji, wybierając wielokropek **(. . .)**, a następnie wybierając pozycję **Edytuj obszar roboczy**.
 
     ![Edytowanie obszaru roboczego z poziomu menu kontekstowego wielokropka](media/service-admin-premium-manage/edit-app-workspace.png)
-2. W obszarze **Edytowanie adresu roboczego** rozwiń węzeł **Zaawansowane**.
-3. Jeśli posiadasz uprawnienia do przypisywania dowolnej pojemności, masz dostęp do opcji **Premium** dla tego obszaru roboczego.
-4. Wybierz pojemność, do której chcesz przypisać ten obszar roboczy aplikacji.
+
+1. W obszarze **Edytowanie adresu roboczego** rozwiń pozycję **Zaawansowane**.
+
+1. Wybierz pojemność, do której chcesz przypisać ten obszar roboczy aplikacji.
 
     ![Lista rozwijana umożliwiająca wybranie pojemności](media/service-admin-premium-manage/app-workspace-advanced.png)
-5. Wybierz pozycję **Zapisz**.
+
+1. Wybierz pozycję **Zapisz**.
 
 Po zapisaniu obszar roboczy i cała jego zawartość zostaną przeniesione do pojemności Premium w sposób niezauważalny dla użytkowników końcowych.
 
-
-## <a name="monitor-capacity-usage"></a>Monitorowanie użycia pojemności
-
-Usługa Power BI oferuje aplikację do monitorowania użycia pojemności. Aby uzyskać więcej informacji, zobacz [Monitorowanie pojemności usługi Power BI Premium w organizacji](service-admin-premium-monitor-capacity.md).
-
-## <a name="what-premium-looks-like-for-users"></a>Widok pojemności Premium z perspektywy użytkowników
-W większości przypadków użytkownicy nie muszą wiedzieć, że są w pojemności Premium. Wystarczy, że ich pulpity nawigacyjne i raporty sprawnie działają. Wizualną wskazówką jest ikona diamentu umieszczona obok obszarów roboczych w pojemności Premium.
-
-![Obszar roboczy z diamentem znajduje się w pojemności Premium](media/service-admin-premium-manage/premium-workspace.png)
-
 ## <a name="power-bi-report-server-product-key"></a>Klucz produktu serwera raportów usługi Power BI
-Na karcie **Ustawienia pojemności** portalu administracyjnego usługi Power BI portalu administracyjnego będziesz mieć dostęp do klucza produktu serwera raportów usługi Power BI. Jest on dostępny tylko w przypadku administratorów globalnych lub użytkowników z przypisaną rolą administratora usługi Power BI oraz zakupu jednostki SKU usługi Power BI Premium.
+
+Na karcie **Ustawienia pojemności** portalu administracyjnego usługi Power BI będziesz mieć dostęp do klucza produktu serwera raportów usługi Power BI. Jest on dostępny tylko w przypadku administratorów globalnych lub użytkowników z przypisaną rolą administratora usługi Power BI oraz zakupu jednostki SKU usługi Power BI Premium.
 
 ![Klucz produktu serwera raportów usługi Power BI w ustawieniach pojemności](media/service-admin-premium-manage/pbirs-product-key.png)
 
@@ -183,6 +194,7 @@ Wybranie pozycji **Klucz serwera raportów usługi Power BI** spowoduje wyświet
 Aby uzyskać więcej informacji, zobacz [Instalowanie serwera raportów usługi Power BI](report-server/install-report-server.md).
 
 ## <a name="next-steps"></a>Następne kroki
+
 Udostępniaj opublikowane aplikacje użytkownikom. Aby uzyskać więcej informacji, zobacz [Tworzenie i rozpowszechnianie aplikacji w usłudze Power BI](service-create-distribute-apps.md).
 
 Masz więcej pytań? [Zadaj pytanie społeczności usługi Power BI](http://community.powerbi.com/)

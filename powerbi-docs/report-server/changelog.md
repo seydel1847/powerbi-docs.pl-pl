@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
 ms.author: jtarquino
-ms.openlocfilehash: bfc9b054f9a34757361bf4ab1803aa6904471167
-ms.sourcegitcommit: fb29c4bf7e598f962b453ac68091ca2189d6ae3b
+ms.openlocfilehash: 41f48e886c376f6cc00a76313538e5a6b9ac1c3b
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/31/2018
-ms.locfileid: "43380318"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49641947"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Dziennik zmian w Serwerze raportów usługi Power BI
 
@@ -40,7 +40,7 @@ Aby uzyskać szczegółowe informacje o nowych funkcjach, zobacz [Co nowego w Se
             - Wizualizacje niestandardowe będą w razie potrzeby korzystać z wcześniejszej wersji zgodnej z bieżącą wersją interfejsu API serwera (jeśli jest dostępna)
 
 - **Power BI Desktop (zoptymalizowany pod kątem serwera raportów usługi Power BI)**
-    - *Wersja: 2.61.5192.64 (sierpień 2018 r.), data wydania: 15 sierpnia 2018 r.*
+    - *Wersja: 2.61.5192.641 (sierpień 2018 r.), data wydania: 15 sierpnia 2018 r.*
         - Obejmuje zmiany wymagane do nawiązania połączenia z serwerem raportów usługi Power BI (sierpień 2018 r.)         
         
 ## <a name="march-2018"></a>Marzec 2018

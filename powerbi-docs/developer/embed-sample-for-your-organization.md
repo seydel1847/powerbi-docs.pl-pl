@@ -8,13 +8,13 @@ ms.topic: tutorial
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
-ms.date: 07/13/2018
-ms.openlocfilehash: 9df612d80d3f322a8391eeb43430942a03850470
-ms.sourcegitcommit: b7b828019b2a2917dfda4d6df0c9cdce70fa68cd
+ms.date: 10/17/2018
+ms.openlocfilehash: 92ed5530ba2e3e72ec4d4e7d7c317993bdf9c04b
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/05/2018
-ms.locfileid: "48827461"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396870"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-organization"></a>Samouczek: osadzanie raportu, pulpitu nawigacyjnego lub kafelka usługi Power BI w aplikacji dla organizacji
 
@@ -100,7 +100,7 @@ Musisz włączyć uprawnienia do swojej aplikacji oprócz tych, które zostały 
 
 ## <a name="set-up-your-power-bi-environment"></a>Konfigurowanie środowiska usługi Power BI
 
-### <a name="create-an-app-workspace"></a>Tworzenie obszaru roboczego aplikacji
+### <a name="create-an-app-workspace"></a>Utwórz obszar roboczy aplikacji
 
 W przypadku osadzania raportów, pulpitów nawigacyjnych lub kafelków dla klientów należy umieścić zawartość w obszarze roboczym aplikacji:
 
@@ -158,13 +158,13 @@ Aby osadzić zawartość za pomocą przykładowej aplikacji, wykonaj następują
 
     ![Przykład aplikacji User Owns Data](media/embed-sample-for-your-organization/embed-sample-for-your-organization-026.png)
 
-2. Otwórz plik **Cloud.config** w przykładowej aplikacji. Aby pomyślnie uruchomić aplikację, musisz wypełnić kilka pól: **ClientID** i **ClientSecret**.
+2. Otwórz plik **Cloud.config** w przykładowej aplikacji. Aby pomyślnie uruchomić aplikację, należy wypełnić kilka pól: **ApplicationID** i **ApplicationSecret**.
 
     ![Plik Cloud.config](media/embed-sample-for-your-organization/embed-sample-for-your-organization-030.png)
 
-    W polu **ClientID** podaj **Identyfikator aplikacji** z platformy Azure. Za pomocą wartości **ClientID** aplikacja identyfikuje się dla użytkowników, od których żądasz uprawnień.
+    W polu **ApplicationID** wprowadź **Identyfikator aplikacji** z platformy Azure. Za pomocą wartości **ApplicationID** aplikacja identyfikuje się dla użytkowników, od których żądasz uprawnień.
 
-    Aby uzyskać wartość **ClientID**, wykonaj następujące czynności:
+    Aby uzyskać wartość **ApplicationID**, wykonaj następujące czynności:
 
     1. Zaloguj się w witrynie [Azure Portal](https://portal.azure.com).
 
@@ -174,17 +174,17 @@ Aby osadzić zawartość za pomocą przykładowej aplikacji, wykonaj następują
 
         ![Wyszukiwanie rejestracji aplikacji](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
 
-    1. Wybierz aplikację, która ma używać wartości **ClientID**.
+    1. Wybierz aplikację, która musi używać wartości **ApplicationID**.
 
         ![Wybieranie aplikacji](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
 
-    1. Powinien zostać wyświetlony **identyfikator aplikacji** wymieniony jako identyfikator GUID. Użyj tego **identyfikatora aplikacji** jako wartości **ClientID** dla aplikacji.
+    1. Powinien zostać wyświetlony **identyfikator aplikacji** wymieniony jako identyfikator GUID. Użyj tego **identyfikatora aplikacji** jako wartości **ApplicationID** dla aplikacji.
 
-        ![Identyfikator_klienta](media/embed-sample-for-your-organization/embed-sample-for-your-organization-007.png)
+        ![ApplicationID](media/embed-sample-for-your-organization/embed-sample-for-your-organization-007.png)
 
-    1. W polu **ClientSecret** podaj informacje z sekcji **Klucze** obszaru **Rejestracje aplikacji** na platformie **Azure**.
+    1. W polu **ApplicationSecret** wprowadź informacje z sekcji **Klucze** obszaru **Rejestracje aplikacji** na platformie **Azure**.
 
-    1. Aby uzyskać wartość **ClientSecret**, wykonaj następujące czynności:
+    1. Aby uzyskać wartość **ApplicationSecret**, wykonaj następujące czynności:
 
         1. Zaloguj się w witrynie [Azure Portal](https://portal.azure.com).
 
@@ -194,7 +194,7 @@ Aby osadzić zawartość za pomocą przykładowej aplikacji, wykonaj następują
 
             ![Wyszukiwanie rejestracji aplikacji](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
 
-        1. Wybierz aplikację, która musi używać wartości **ClientSecret**.
+        1. Wybierz aplikację, która musi używać wartości **ApplicationSecret**.
 
             ![Wybieranie aplikacji](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
 

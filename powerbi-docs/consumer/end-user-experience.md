@@ -8,19 +8,19 @@ featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: quickstart
-ms.date: 10/02/2018
+ms.date: 10/18/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 41bd4148845754d1b714060e538f559b310969d8
-ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
+ms.openlocfilehash: 1d093c9eb39b312e1883b2635de473dac6db5192
+ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "49112158"
+ms.lasthandoff: 10/20/2018
+ms.locfileid: "49473870"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>Szybki start — poruszanie się po usłudze Power BI
 
-Gdy znasz już podstawy używania **usługi Power BI**, możemy przyjrzeć się jej bliżej. Być może jedna z osób w Twoim zespole zajmuje się wyłącznie łączeniem danych i tworzeniem raportów w programie **Power BI Desktop**. Załóżmy z kolei, że Ty korzystasz tylko z usługi Power BI i przeglądasz zawartość utworzoną przez inne osoby oraz wchodzisz z nią w interakcję (w środowisku **korzystania**) albo pobierasz dane i tworzysz własne raporty oraz pulpity nawigacyjne (w środowisku **tworzenia**). W tym przewodniku Szybki start zaimportujesz przykładowe dane, a następnie ich użyjesz, aby dowiedzieć się, jak obsługiwać usługę Power BI. 
+Gdy znasz już podstawy używania **usługi Power BI**, możemy przyjrzeć się jej bliżej. Być może jedna z osób w Twoim zespole zajmuje się wyłącznie łączeniem danych i tworzeniem raportów w programie **Power BI Desktop**. Załóżmy z kolei, że Ty korzystasz tylko z usługi Power BI i przeglądasz zawartość utworzoną przez inne osoby oraz wchodzisz z nią w interakcję (w środowisku **korzystania**). W tym przewodniku Szybki start zaimportujesz przykładowe dane, a następnie ich użyjesz, aby dowiedzieć się, jak obsługiwać usługę Power BI. 
  
 ## <a name="prerequisites"></a>Wymagania wstępne
 
@@ -48,9 +48,11 @@ Obejrzyj Amandę pokazującą przewodnik obsługi nawigacji usługi Power BI.  N
 
 
 ## <a name="view-content-dashboards-reports-workbooks-datasets-workspaces-apps"></a>Wyświetlanie zawartości (pulpitów nawigacyjnych, raportów, skoroszytów, zestawów danych, obszarów roboczych i aplikacji).
-Najpierw przyjrzymy się sposobowi zorganizowania podstawowych typów zawartości (pulpitów nawigacyjnych, raportów, zestawów danych, skoroszytów). Zawartość jest wyświetlana w kontekście obszaru roboczego. Teraz masz tylko jeden obszar roboczy o nazwie **Mój obszar roboczy**. W kontenerze Mój obszar roboczy przechowywana jest zawartość, której jesteś właścicielem. To obszar roboczy przeznaczony do obsługi Twojej własnej zawartość. Zawartość z obszaru Mój obszar roboczy możesz udostępniać współpracownikom. Obszar roboczy zawiera 4 karty zawartości: Pulpity nawigacyjne, Raporty, Skoroszyty i Zestawy danych.
+Najpierw przyjrzymy się sposobowi zorganizowania podstawowych typów zawartości (pulpitów nawigacyjnych, raportów, zestawów danych, skoroszytów). Zawartość jest wyświetlana w kontekście obszaru roboczego. Teraz masz tylko jeden obszar roboczy o nazwie **Mój obszar roboczy**. Zwykle użytkownicy nie potrzebują innych obszarów roboczych ani z nich nie korzystają. W kontenerze Mój obszar roboczy przechowywana jest zawartość, której jesteś właścicielem. To obszar roboczy przeznaczony do obsługi Twojej własnej zawartość. W kontenerze Mój obszar roboczy zostanie zapisany przykład Retail Analysis, który właśnie pobrano. 
 
-![Ekran Mój obszar roboczy](./media/end-user-experience/power-bi-my-workspace2.png)
+Obszar roboczy zawiera 4 karty zawartości: Pulpity nawigacyjne, Raporty, Skoroszyty i Zestawy danych.
+
+![Ekran Mój obszar roboczy](./media/end-user-experience/power-bi-my-workspace.png)
 
 Wybierz obszar roboczy w lewym okienku nawigacji. Karty odpowiadające skojarzonej zawartości (takiej jak pulpity nawigacyjne, raporty, skoroszyty, zestawy danych) są wyświetlane po prawej stronie okna usługi Power BI.
 
@@ -58,7 +60,7 @@ Jeśli jesteś nowym użytkownikiem, zostanie wyświetlony tylko jeden obszar ro
 
 ![krótki film dotyczący obszaru roboczego](./media/end-user-experience/nav.gif)
 
-Karty te (czyli *widoki zawartości*) zawierają informacje o zawartości oraz akcjach, które możesz wykonać na tej zawartości.  Na przykład na karcie Pulpity nawigacyjne możesz otworzyć pulpit nawigacyjny, a także na przykład udostępniać, usuwać, wyszukiwać, sortować i tworzyć zawartość.
+Karty te (czyli *widoki zawartości*) zawierają informacje o zawartości oraz akcjach, które możesz wykonać na tej zawartości.  Na przykład na karcie Pulpity nawigacyjne możesz otworzyć pulpit nawigacyjny, a także wyszukiwać, sortować i tworzyć zawartość.
 
 ![Karta pulpitów nawigacyjnych](./media/end-user-experience/power-bi-dashboard-tab.png)
 
@@ -83,7 +85,7 @@ Funkcja **Ulubione** pozwala szybko uzyskać dostęp do zawartości, która jest
    
     Na razie mamy tylko jeden ulubiony element. Do Ulubionych można dodawać pulpity nawigacyjne, raporty i aplikacje.  
 
-1. Innym sposobem, aby oznaczyć pulpit nawigacyjny lub raport jako ulubiony, jest użycie pozycji **Pulpity nawigacyjne** lub **Raporty** na karcie Obszar roboczy.  Otwórz kartę **Raporty**, a następnie wybierz ikonę gwiazdki na lewo od nazwy raportu.
+1. Pulpity nawigacyjne lub raporty można oznaczyć jako ulubione także z obszarów **Pulpity nawigacyjne** lub **Raporty** na karcie Widok zawartości.  Otwórz kartę **Raporty**, a następnie wybierz ikonę gwiazdki na lewo od nazwy raportu.
    
    ![oznaczanie jako ulubione](./media/end-user-experience/power-bi-report-favorite.png)
 
@@ -108,7 +110,7 @@ Aby dowiedzieć się więcej, zobacz [Ulubione](end-user-favorite.md)
 
     W wysuwanym okienku wybierz zawartość, aby ją otworzyć.
 
-2. Czasami nie trzeba jej otwierać, tylko wyświetlić informacje lub wykonać inne działania, takie jak udostępnianie, uruchamianie analiz lub eksportowanie do programu Excel. Wystarczy wtedy otworzyć okienko **Ostatnie**, wybierając pozycję **Ostatnie** lub ikonę w lewym okienku nawigacji. Jeśli masz kilka obszarów roboczych, na tej liście jest widoczna zawartość ze wszystkich z nich.
+2. Czasami nie chcesz po prostu otwierać ostatniej zawartości, ale chcesz wyświetlić informacje lub wykonać inne działania, takie jak wyświetlanie analiz lub eksportowanie do programu Excel. Wystarczy wtedy otworzyć okienko **Ostatnie**, wybierając pozycję **Ostatnie** lub ikonę w lewym okienku nawigacji. Jeśli masz kilka obszarów roboczych, na tej liście jest widoczna zawartość ze wszystkich z nich.
 
    ![Okienko Ostatnie](./media/end-user-experience/power-bi-recent.png)
 
@@ -119,13 +121,15 @@ Widok zawartości ułatwia wyszukiwanie, filtrowanie i sortowanie zawartości. A
 
 Ponieważ mamy tylko jeden przykład, wyszukiwanie i sortowanie nie jest konieczne.  Jednak te funkcje są bardzo przydatne, jeśli korzysta się z wielu pulpitów nawigacyjnych, raportów, skoroszytów i zestawów danych.
 
-![wyszukiwanie pulpitu nawigacyjnego](./media/end-user-experience/power-bi-search-sort.png)
+![wyszukiwanie regionu](./media/end-user-experience/power-bi-search.png)
 
-Zawartość można również sortować według nazwy lub właściciela.  
+Zawartość można również sortować według nazwy lub właściciela. Zwróć uwagę na strzałkę w górę na prawo od pozycji **Nazwa**. W tej chwili sortowane są 83 elementy alfabetycznie według nazwy i rosnąco. Aby zmienić kolejność sortowania na malejącą, wybierz pozycję **Nazwa**. Strzałka w górę zmieni się na strzałkę w dół.
 
-![sortowanie zawartości](./media/end-user-experience/power-bi-sort.png)
+![sortowanie zawartości](./media/end-user-experience/power-bi-sort-new.png)
 
-Aby dowiedzieć się więcej, zobacz [Nawigacja w usłudze Power BI: wyszukiwanie, sortowanie, filtrowanie](end-user-search-sort.md)
+Nie wszystkie kolumny można sortować. Umieść kursor nad nagłówkami kolumn, aby dowiedzieć się, które z nich można sortować.
+
+Aby dowiedzieć się więcej, zobacz [Nawigacja w usłudze Power BI: wyszukiwanie i sortowanie](end-user-search-sort.md)
 
 ## <a name="clean-up-resources"></a>Czyszczenie zasobów
 Jeśli chcesz, po zakończeniu tego przewodnika Szybki start możesz usunąć pulpit nawigacyjny, raport i zestaw danych przykładu Retail Analysis.
@@ -143,4 +147,4 @@ Jeśli chcesz, po zakończeniu tego przewodnika Szybki start możesz usunąć pu
 ## <a name="next-steps"></a>Następne kroki
 
 > [!div class="nextstepaction"]
-> [Widok do czytania i widok do edycji w usłudze Power BI](end-user-reading-view.md)
+> [Widok do czytania w usłudze Power BI](end-user-reading-view.md)

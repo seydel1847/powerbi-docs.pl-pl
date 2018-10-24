@@ -9,19 +9,22 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/07/2018
 ms.author: maghan
-ms.openlocfilehash: 3777d082d8e0d166abadd2ab89035d6895421f24
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: a03870fd0443a00803edceb5d4821161ccb7693a
+ms.sourcegitcommit: d8109b605052096fc0eb613f2a1340570b99b2f5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44742240"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "49651039"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>Korzystanie z uwierzytelniania OAuth w celu łączenia się z serwerem raportów usługi Power BI i serwerem SSRS
 Informacje o sposobie konfigurowania środowiska w celu zapewnienia obsługi uwierzytelniania OAuth za pomocą aplikacji mobilnej Power BI, aby umożliwić połączenie z serwerem raportów usługi Power BI i usługami SQL Server Reporting Services 2016 lub ich nowszą wersją.
 
 ![](media/mobile-oauth-ssrs/powerbi-mobile-oauth.png)
 
-Uwierzytelniania OAuth możesz używać do łączenia się z serwerem raportów usługi Power BI i usługami Reporting Services w celu wyświetlania raportów i kluczowych wskaźników wydajności dla urządzeń przenośnych. Program Windows Server 2016 zapewnia pewne ulepszenia roli serwera proxy aplikacji internetowych (WAP) w zakresie tego typu uwierzytelniania. Wyświetlanie raportów usługi Power BI hostowanych na serwerze raportów usługi Power BI przy użyciu serwera WAP w celu uwierzytelnienia nie jest obecnie oficjalnie obsługiwane.
+Uwierzytelniania OAuth możesz używać do łączenia się z serwerem raportów usługi Power BI i usługami Reporting Services w celu wyświetlania raportów i kluczowych wskaźników wydajności dla urządzeń przenośnych. Program Windows Server 2016 zapewnia pewne ulepszenia roli serwera proxy aplikacji internetowych (WAP) w zakresie tego typu uwierzytelniania.
+
+   > [!NOTE]
+   > Wyświetlanie raportów usługi Power BI hostowanych na serwerze raportów usługi Power BI przy użyciu serwera WAP w celu uwierzytelnienia nie jest obecnie oficjalnie obsługiwane.
 
 ## <a name="requirements"></a>Wymagania
 W przypadku serwerów proxy aplikacji internetowych (Web Application Proxy — WAP) i serwerów usług Active Directory Federation Services (ADFS) jest wymagany program Windows Server 2016. Nie jest konieczne posiadanie domeny na poziomie funkcjonalności programu Windows Server 2016.
