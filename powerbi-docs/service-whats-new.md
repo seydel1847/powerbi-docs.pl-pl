@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/23/2018
+ms.date: 10/16/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 10f637e822817d6bd0fa1692a6d1b029be312d4f
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: b54a38f4c5639eae549a36a93c887d87630b7daf
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48909181"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396755"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Co nowego w usłudze Power BI
@@ -212,7 +212,7 @@ Wszystkie szczegółowe informacje [znajdują się w blogu zespołu usługi Powe
 
 Wszystkie szczegółowe informacje [znajdują się w blogu zespołu usługi Power BI](https://powerbi.microsoft.com/blog/power-bi-service-may-update-file-size-increase-to-1-gb/)
 
-* [Obsługa pytań i odpowiedzi w usłudze Power BI dla modeli tabelarycznych usług SQL Server 2016 Analysis Services](consumer/end-user-q-and-a-direct-query.md): z przyjemnością ogłaszamy ulepszenia interfejsu użytkownika dla funkcji pytań i odpowiedzi usługi Power BI pod kątem źródeł danych połączonych z bramą przedsiębiorstwa — zaczynając od modeli tabelarycznych usług SQL Server 2016 Analysis Services. Wszystkie szczegółowe informacje [zawiera wpis w blogu](https://powerbi.microsoft.com/blog/power-bi-q-a-for-enterprise-gateway-connected-data-sources-now-available-in-public-preview/)
+* [Obsługa pytań i odpowiedzi w usłudze Power BI dla modeli tabelarycznych usług SQL Server 2016 Analysis Services](service-q-and-a-direct-query.md): z przyjemnością ogłaszamy ulepszenia interfejsu użytkownika dla funkcji pytań i odpowiedzi usługi Power BI pod kątem źródeł danych połączonych z bramą przedsiębiorstwa — zaczynając od modeli tabelarycznych usług SQL Server 2016 Analysis Services. Wszystkie szczegółowe informacje [zawiera wpis w blogu](https://powerbi.microsoft.com/blog/power-bi-q-a-for-enterprise-gateway-connected-data-sources-now-available-in-public-preview/)
 * [Obsługa plików lokalnych dla raportów programu Excel](service-excel-workbook-files.md#local-excel-workbooks): teraz możesz przekazać pliki programu Excel z dysku lokalnego lub innych usług magazynu oraz użyć raportu programu Excel tak samo jak w usłudze Excel Online — z dodatkowymi korzyściami płynącymi z usługi Power BI. Wszystkie szczegółowe informacje [zawiera wpis w blogu](https://powerbi.microsoft.com/blog/powerbi-upload-excel-reports-from-local-files/)
 
 **28 kwietnia 2016**

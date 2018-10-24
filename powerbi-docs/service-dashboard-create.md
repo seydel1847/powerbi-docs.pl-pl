@@ -10,12 +10,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/02/2018
 ms.author: mihart
-ms.openlocfilehash: e4173811db0de0dc95e0bd324517a5750165983e
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 666938d8d852793b68bb278147c61f077c839ed2
+ms.sourcegitcommit: 1a79e48ac820c28c5d0fd05399f49ed22fc74ed7
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908652"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "49435369"
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>Tworzenie pulpitu nawigacyjnego usługi Power BI z raportu
 Po zapoznaniu się z tematem [Pulpity nawigacyjne w usłudze Power BI](service-dashboards.md) możesz teraz utworzyć własny raport. Istnieje wiele sposobów, aby utworzyć pulpit nawigacyjny — z raportu, od podstaw, z zestawu danych, duplikując istniejący pulpit nawigacyjny itp.  
@@ -109,7 +109,7 @@ Gratulujemy utworzenia pierwszego pulpitu nawigacyjnego! Teraz, gdy masz już pu
 ## <a name="next-steps"></a>Następne kroki
 * [Zmienianie rozmiaru i przenoszenie kafelków](service-dashboard-edit-tile.md)
 * [Wszystkie informacje o kafelkach pulpitu nawigacyjnego](service-dashboard-tiles.md)
-* [Udostępnianie pulpitu nawigacyjnego przez tworzenie aplikacji](service-install-use-apps.md)
+* [Udostępnianie pulpitu nawigacyjnego przez tworzenie aplikacji](service-create-workspaces.md)
 * [Power BI — podstawowe pojęcia](service-basic-concepts.md)
 * [Porady dotyczące projektowania doskonałych pulpitów nawigacyjnych](service-dashboards-design-tips.md)
 
