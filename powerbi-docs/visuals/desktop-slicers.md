@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 161ea8f20db36c129787e84242ea002980d0f8dd
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: df4afe91de955eabfba6eeea9022cc5f9475cc33
+ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565871"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49336857"
 ---
 # <a name="using-slicers-power-bi-desktop"></a>Korzystanie z fragmentatorów w programie Power BI Desktop
 
@@ -65,6 +65,12 @@ Do kolekcji fragmentatorów można także zastosować **nazwę grupy**, korzysta
 Ta funkcja umożliwia utworzenie niestandardowej grupy fragmentatorów w celu ich synchronizacji. Podana jest nazwa domyślna, ale można użyć dowolnej nazwy. 
 
 Nazwa grupy zapewnia dodatkową elastyczność podczas pracy z fragmentatorami. Możesz utworzyć oddzielne grupy, aby synchronizować fragmentatory używające tego samego pola, lub umieścić fragmentatory, które używają różnych pól, w tej samej grupie. 
+
+## <a name="how-filtering-affects-selection-in-slicers"></a>Jak filtrowanie wpływa na wybór we fragmentatorach
+
+W przypadku dokonania wyboru we fragmentatorze, a następnie zastosowania filtra, który normalnie spowodowałby usunięcie wybranego elementu, pozostaje on w dolnej części listy elementów we fragmentatorze. Jeśli filtr zostanie usunięty, wybór we fragmentatorze będzie nadal obowiązywać. Należy pamiętać, że jeśli usuniesz wybór elementu we fragmentatorze, zniknie on z listy.
+
+![zachowany wybór we fragmentatorze](./media/desktop-slicers/retained-selection-in-slicers.gif)
 
 
 ## <a name="next-steps"></a>Następne kroki

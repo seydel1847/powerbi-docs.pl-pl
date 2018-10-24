@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 09/27/2018
+ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Administration
-ms.openlocfilehash: 072f548c3725c4133bb548a72fc58679e74f5fc7
-ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
+ms.openlocfilehash: 6055a9c5e41f1745b088df93587d701393c0d495
+ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "47417101"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49336742"
 ---
 # <a name="power-bi-security"></a>Zabezpieczenia usługi Power BI
 Aby uzyskać szczegółowy opis zabezpieczeń usługi Power BI, [pobierz oficjalny dokument na temat zabezpieczeń usługi Power BI](http://go.microsoft.com/fwlink/?LinkId=829185):
@@ -58,4 +58,14 @@ Aby uzyskać więcej informacji, odwiedź stronę [Centrum zaufania firmy Micros
 Zgodnie z opisem we wcześniejszej części tego artykułu, dane logowania użytkownika usługi Power BI są używane przez serwery lokalne usługi Active Directory do mapowania nazwy UPN dla poświadczeń. **Należy jednak pamiętać**, że użytkownicy są odpowiedzialni za dane, które udostępniają: jeśli użytkownik łączy się ze źródłami danych przy użyciu swoich poświadczeń, a następnie udostępnia raport (lub pulpit nawigacyjny, zestaw danych) na podstawie tych danych, użytkownicy, którym pulpit nawigacyjny jest udostępniany, nie są uwierzytelniani względem oryginalnego źródła danych i zostanie im przyznany dostęp do raportu.
 
 Wyjątkiem są połączenia z usługami **SQL Server Analysis Services** przy użyciu **lokalnej bramy danych**. W tym przypadku pulpity nawigacyjne są buforowane w usłudze Power BI, ale próba dostępu do podstawowych raportów lub zestawów danych zainicjuje uwierzytelnianie użytkownika próbującego uzyskać dostęp do raportu (lub zestawu danych) i dostęp zostanie udzielony tylko w przypadku, gdy ten użytkownik ma wystarczające poświadczenia, aby uzyskać dostęp do danych. Aby uzyskać więcej informacji, zobacz [szczegółowe omówienie lokalnej brany danych](service-gateway-onprem-indepth.md).
+
+## <a name="enforcing-tls-version-usage"></a>Wymuszanie użycia wersji protokołu TLS
+
+Administratorzy sieci i IT mogą wymusić wymaganie dotyczące używania bieżącego protokołu TLS (Transport Layer Security) do dowolnej bezpiecznej komunikacji w sieci. System Windows zapewnia obsługę wersji protokołu TLS przez dostawcę pakietu Microsoft Schannel, jak [opisano w artykule dotyczącym dostawcy usług udostępnionych TLS Schannel](https://docs.microsoft.com/windows/desktop/SecAuthN/protocols-in-tls-ssl--schannel-ssp-).
+
+To wymuszenie można przeprowadzić przez administracyjne ustawienie kluczy rejestru. Wymuszenie opisano w artykule [Managing SSL Protocols in AD FS](https://docs.microsoft.com/windows-server/identity/ad-fs/operations/manage-ssl-protocols-in-ad-fs) (Zarządzanie protokołami SSL w usługach AD FS). 
+
+Program **Power BI Desktop** obsługuje ustawienia klucza rejestru opisane w tych artykułach oraz tylko utworzone połączenia korzystające z wersji protokołu TLS dozwolonego w oparciu o te ustawienia rejestru, jeśli występują.
+
+Aby uzyskać więcej informacji dotyczących ustawienia tych kluczy rejestru, zobacz artykuł [TLS Registry Settings](https://docs.microsoft.com/windows-server/security/tls/tls-registry-settings) (Ustawienia rejestru protokołu TLS).
 

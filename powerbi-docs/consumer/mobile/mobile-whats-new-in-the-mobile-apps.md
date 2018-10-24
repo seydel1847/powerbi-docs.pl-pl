@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 07/19/2018
+ms.date: 09/14/2018
 ms.author: maggies
-ms.openlocfilehash: 922352c0cdbacd57d3e6706d490b3cc7e65ab8f6
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 798b1daa13079e69788bc977f37748531e38f431
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744508"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48909250"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Co nowego w aplikacjach mobilnych dla usługi Power BI
 Powiązane nowości są dostępne w następujących artykułach:
@@ -22,6 +22,25 @@ Powiązane nowości są dostępne w następujących artykułach:
 * [Blog zespołu usługi Power BI dotyczący aplikacji mobilnych](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Co nowego w programie Power BI Desktop](../../desktop-latest-update.md)  
 * [Co nowego w usłudze Power BI](../../service-whats-new.md)  
+
+## <a name="september-2018"></a>Wrzesień 2018
+
+### <a name="phone-report-editing-in-the-browser-all-devices"></a>Edytowanie raportów na telefon w przeglądarce (wszystkie urządzenia)
+
+Teraz możesz utworzyć układ raportu na telefon dla raportu, który został już opublikowany w usłudze Power BI, a nie tylko w programie Power BI Desktop. Możesz utworzyć go w trybie edycji w przeglądarce.
+
+### <a name="dashboard-commenting-ios-and-android"></a>Komentowanie na pulpitach nawigacyjnych (iOS i Android) 
+
+Możesz dodawać komentarze bezpośrednio do pulpitów nawigacyjnych i określonych kafelków w celu omówienia ich danych, a każda osoba wyświetlająca pulpit nawigacyjny będzie widzieć Twoje komentarze. Możesz również wciągać inne osoby w Twojej organizacji do rozmowy za pomocą funkcji @mentioning. @mentioned otrzyma powiadomienie push w wiadomości na swój telefon komórkowy.
+
+Obecnie funkcja jest dostępna dla urządzeń z systemami iOS i Android. Obsługa systemu Windows będzie możliwa już wkrótce.
+
+Przeczytaj [wpis w blogu na temat komentarzy na pulpitach nawigacyjnych](https://powerbi.microsoft.com/blog/announcing-dashboard-comments-in-power-bi/) dotyczący usługi Power BI.
+
+### <a name="single-sign-on-windows"></a>Logowanie jednokrotne (Windows)
+
+Logowanie jednokrotne (SSO) jest jedną z najbardziej pożądanych funkcji dla usługi Power BI dla urządzeń przenośnych z systemem Windows. Teraz możesz użyć podstawowego konta organizacji nie tylko do logowania się na urządzeniach przenośnych z systemem Windows przyłączonych do domeny, ale również do bezproblemowego logowania się w usłudze Power BI. Przeczytaj więcej na temat [logowania jednokrotnego i aplikacji mobilnych systemu Windows](mobile-windows-10-app-single-sign-on-sso.md).
+
 
 ## <a name="july-2018"></a>Lipiec 2018 r.
 
@@ -177,7 +196,7 @@ Przeczytaj [podsumowanie funkcji aplikacji mobilnych z lipca 2017 r.](https://p
 
 ### <a name="june-2107"></a>Czerwiec 2017
 #### <a name="all-devices"></a>Wszystkie urządzenia
-**Ustawianie aplikacji jako ulubionych** Pulpit nawigacyjny można już dodać do Ulubionych. Niedawno [dodano aplikacje do usługi Power BI](../../service-install-use-apps.md) i teraz można też dodawać aplikacje do Ulubionych. 
+**Ustawianie aplikacji jako ulubionych** Pulpit nawigacyjny można już dodać do Ulubionych. Niedawno [dodano aplikacje do usługi Power BI](../../service-create-distribute-apps.md) i teraz można też dodawać aplikacje do Ulubionych. 
 
 ### <a name="may-2017"></a>Maj 2017
 #### <a name="all-devices"></a>Wszystkie urządzenia
@@ -498,7 +517,7 @@ Wszystkie styczniowe udoskonalenia zostały zawarte w nowej [aplikacji Power BI 
 
 **Kafelki języka R i widgety internetowe** Te nowe typy kafelków są dostępne na pulpitach nawigacyjnych na urządzeniu przenośnym.
 
-**Pulpity nawigacyjne usługi Bing** W usłudze Power BI można teraz tworzyć [pulpity nawigacyjne z wynikami wyszukiwania z usługi Bing](../../service-connect-to-services.md) i wyświetlać je na urządzeniu przenośnym.
+**Pulpity nawigacyjne usługi Bing** W usłudze Power BI można teraz tworzyć [pulpity nawigacyjne z wynikami wyszukiwania z usługi Bing](../end-user-connect-to-services.md) i wyświetlać je na urządzeniu przenośnym.
 
 **Przypinanie stron raportu jako kafelków do pulpitów nawigacyjnych** W usłudze Power BI można teraz przypinać całą stronę raportu do pulpitu nawigacyjnego, co pozwala wyświetlać strony raportu w aplikacji Power BI na telefonie iPhone lub telefonie z systemem Android.
 

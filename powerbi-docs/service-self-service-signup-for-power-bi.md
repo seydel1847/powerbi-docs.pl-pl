@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mblythe
 LocalizationGroup: Get started
-ms.openlocfilehash: d499f3f3635442f8d9ed0fbf167e53d13ec0ae53
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 411fd408998ba67c4a91ae01e166396530631678
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46549988"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48909066"
 ---
 # <a name="signing-up-for-power-bi-as-an-individual"></a>Rejestrowanie się w usłudze Power BI jako użytkownik indywidualny
 Dowiedz się, jak utworzyć konto usługi Power BI i zacząć z niego korzystać na potrzeby osobistych raportów i wizualizacji.
@@ -24,7 +24,7 @@ Dowiedz się, jak utworzyć konto usługi Power BI i zacząć z niego korzystać
 
 Usługa Power BI może być osobistym narzędziem do raportowania i wizualizacji, a także służyć jako aparat obsługujący analizy i proces podejmowania decyzji na potrzeby grupy projektów, działów lub całych firm.
 
-Ten artykuł pomoże Ci zarejestrować się i zacząć korzystać z usługi Power BI. Aby uzyskać informacje na temat różnic między usługą Power BI w wersji bezpłatnej a usługą Power BI Pro, zobacz [Power BI — wersja bezpłatna a wersja Pro](service-free-vs-pro.md).
+Ten artykuł pomoże Ci zarejestrować się i zacząć korzystać z usługi Power BI. Aby dowiedzieć się więcej o różnicach w działaniu różnych typów licencji usługi Power BI, zobacz temat [Funkcje usługi Power BI według typu licencji](service-features-license-type.md).
 
 ## <a name="you-have-a-few-options"></a>Masz kilka opcji
 Jako użytkownik indywidualny masz kilka opcji, aby zarejestrować się i zacząć korzystać z usługi Power BI. Możesz utworzyć bezpłatne konto lub możesz kupić subskrypcję usługi Power BI Pro. Jeśli utworzysz bezpłatne konto, po przejściu do usługi możesz zdecydować się na 60-dniową wersję próbną usługi Power BI Pro.
@@ -99,7 +99,7 @@ Zostanie wtedy wyświetlony komunikat z prośbą o wybranie pozycji **Rozpoczęc
 ## <a name="in-service-power-bi-pro-60-day-trial"></a>60-dniowa wersja próbna usługi Power BI Pro wewnątrz usługi
 Po zarejestrowaniu się i utworzeniu bezpłatnego konta możesz opcjonalnie wypróbować wersję Pro usługi bezpłatnie przez 60 dni. Podczas okresu próbnego będziesz mieć dostęp do wszystkich funkcji usługi Power BI Pro. Usługa Power BI Pro oferuje wszystkie funkcje bezpłatnej wersji usługi Power BI oraz dodatkowe funkcje udostępniania i współpracy. Aby uzyskać więcej informacji, zobacz [Cennik usługi Power BI](https://powerbi.microsoft.com/pricing). Aby wypróbować 60-dniową bezpłatną wersję próbną usługi Power BI Pro, zaloguj się do usługi Power BI i wypróbuj jedną z następujących funkcji usługi Power BI Pro:
 
-* [Tworzenie obszaru roboczego aplikacji](consumer/end-user-create-apps.md)
+* [Tworzenie obszaru roboczego aplikacji](service-create-distribute-apps.md)
 * [Udostępnianie pulpitu nawigacyjnego](service-share-dashboards.md)
 
 Kiedy zaczniesz korzystać z dowolnej z tych funkcji, zostanie wyświetlony monit o rozpoczęcie bezpłatnego okresu próbnego. Możesz również rozpocząć okres próbny, przechodząc do ikony koła zębatego i wybierając pozycję **Zarządzaj magazynem osobistym**. Następnie wybierz pozycję **Wypróbuj bezpłatnie wersję Pro** po prawej stronie.
@@ -139,8 +139,7 @@ W wielu przypadkach rejestrację w usłudze Power BI można przeprowadzić, wyko
 |            **Rejestracja samoobsługowa jest wyłączona** Podczas rejestracji został wyświetlony poniższy komunikat: <br /><br /> *We can't finish signing you up. Your IT department has turned off signup for Microsoft Power BI. Contact them to complete signup. (Nie możemy ukończyć rejestrowania Ciebie. Twój dział IT wyłączył rejestrowanie w programie Microsoft Flow. Aby ukończyć rejestrowanie, skontaktuj się z działem IT).* <br /><br /> lub <br /><br /> *That looks like a personal email address. Enter your work address so we can connect you with others in your company. And don’t worry. We won’t share your address with anyone. (Ten adres wygląda na osobisty adres e-mail. Wprowadź swój adres służbowy, abyśmy mogli połączyć Cię z innymi użytkownikami w firmie. I nie martw się, nie udostępnimy nikomu Twojego adresu).*             |                             Administrator IT Twojej organizacji wyłączył możliwość samoobsługowej rejestracji w usłudze Power BI. <br /><br /> Aby ukończyć rejestrację, skontaktuj się z administratorem IT. Poproś go o wykonanie instrukcji wyświetlanych na stronie, aby zezwolić istniejącym użytkownikom na rejestrowanie się w programie Microsoft Flow, a nowym użytkownikom na dołączanie do istniejącej dzierżawy. <br/><br/> Ten problem może również występować, jeśli rejestracji w usłudze Office 365 dokonano przez partnera. [Dowiedz się więcej](service-admin-syndication-partner.md) <br /><br /> [Usługa Power BI w organizacji](https://support.office.com/en-ca/article/Power-BI-in-your-Organization-d7941332-8aec-4e5e-87e8-92073ce73dc5#BKMK_HowCanIAllowO365Tenant)                              |
 |                                                                                          **Adres e-mail nie jest identyfikatorem usługi Office 365** Podczas rejestrowania się pojawia się następujący komunikat: <br /><br /> *We can't find you at contoso.com.  Do you use a different ID at work or school? <br /><br />Try signing in with that, and if it doesn't work, contact your IT department. (Nie możemy znaleźć Twoich danych w domenie contoso.com. Czy w pracy lub w szkole korzystasz z innego identyfikatora? Spróbuj utworzyć konto, korzystając z tego identyfikatora, a jeśli to nie zadziała, skontaktuj się z działem IT w swojej organizacji).*                                                                                           | Do logowania się do usługi Office 365 i innych usług firmy Microsoft Twoja organizacja używa innych identyfikatorów niż adres e-mail.  Na przykład Twój adres e-mail to Nancy.Smith@contoso.com, ale Twój identyfikator to nancys@contoso.com. <br /><br /> Aby ukończyć rejestrację, użyj identyfikatora, który został Ci przypisany przez organizację w celu logowania się do usługi Office 365 lub innych usług firmy Microsoft.  Jeśli nie wiesz, jaki jest Twój identyfikator, skontaktuj się z administratorem IT. <br /><br /> Jeśli nadal nie możesz zarejestrować się, ale możesz ukończyć bardziej zaawansowany proces konfiguracji, [zarejestruj się, aby uzyskać nową subskrypcję wersji próbnej Office 365 i użyj adresu e-mail przypisanego do tej subskrypcji w celu zarejestrowania się](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md). |
 
-## <a name="next-steps"></a>Następne kroki
-[Usługa Power BI (wersja bezpłatna) w organizacji](service-admin-service-free-in-your-organization.md)  
+## <a name="next-steps"></a>Następne kroki  
 [Zakup usługi Power BI Pro](service-admin-purchasing-power-bi-pro.md)  
 [Umowa usługi Power BI dla użytkowników indywidualnych](https://powerbi.microsoft.com/terms-of-service/)  
 [Power BI Premium — co to jest?](service-premium.md)  

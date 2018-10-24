@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 48246d61789a0b1e160109c1f2fb0e81838b3965
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: b83ef2b6f2cd07e9f6c9af849e0f64d0490fa1af
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39280322"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546975"
 ---
 # <a name="connect-to-zuora-with-power-bi"></a>Nawiązywanie połączenia z usługą Zuora przy użyciu usługi Power BI
 Usługa Zuora dla usługi Power BI pozwala wizualizować ważne informacje dotyczące przychodów, rozliczeń i subskrypcji. Za pomocą domyślnego pulpitu nawigacyjnego i raportów można analizować trendy użycia, śledzić rozliczenia i płatności oraz monitorować przychody cykliczne. Pulpit nawigacyjny można również dostosować do własnych potrzeb związanych z raportowaniem.
@@ -44,10 +44,10 @@ Połącz się z usługą [Zuora](https://app.powerbi.com/getdata/services/Zuora)
 
 **Co teraz?**
 
-* Spróbuj [zadać pytanie w polu funkcji Pytania i odpowiedzi](power-bi-q-and-a.md) w górnej części pulpitu nawigacyjnego
+* Spróbuj [zadać pytanie w polu funkcji Pytania i odpowiedzi](consumer/end-user-q-and-a.md) w górnej części pulpitu nawigacyjnego
 * [Zmień kafelki](service-dashboard-edit-tile.md) na pulpicie nawigacyjnym.
-* [Wybierz kafelek](service-dashboard-tiles.md), aby otworzyć raport źródłowy.
-* Zestaw danych zostanie ustawiony na codzienne odświeżanie, ale możesz zmienić harmonogram odświeżania lub spróbować odświeżyć go na żądanie przy użyciu opcji **Odśwież teraz**
+* [Wybierz kafelek](consumer/end-user-tiles.md), aby otworzyć raport źródłowy.
+* Dla zestawu danych jest zaplanowane codzienne odświeżanie, ale możesz zmienić harmonogram odświeżania lub odświeżyć go na żądanie przy użyciu polecenia **Odśwież teraz**
 
 ## <a name="whats-included"></a>Zawartość pakietu
 Pakiet zawartości umożliwia pobieranie poniższych tabel przy użyciu interfejsu API Zuora AQUA:

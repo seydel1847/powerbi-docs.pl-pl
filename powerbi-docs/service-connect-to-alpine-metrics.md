@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 7456a030dd5047642c4de9c7a289fed96fe390f1
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 7bab3839b5f47448a6882d0ea15bb0f253ceb5ea
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37135978"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547887"
 ---
 # <a name="connect-to-alpine-metrics-sales-predictions-with-power-bi"></a>Łączenie się z usługą Alpine Metrics Sales Predictions za pomocą usługi Power BI
 Firma Alpine Metrics oferuje nowoczesną predykcyjną optymalizację procesów sprzedaży w chmurze oraz na żądanie dla dużych i małych organizacji handlowych. Pakiet zawartości usługi Alpine Metrics Sales Predictions dla usługi Power BI obejmuje takie metryki jak potencjalna i przewidywana sprzedaż i ryzyko, dzięki czemu masz lepszy wgląd w przyszłość firmy. 
@@ -43,10 +43,10 @@ Połącz się z [pakietem zawartości Alpine Metrics Sales Predictions](https://
 
 **Co teraz?**
 
-* Spróbuj [zadać pytanie w polu funkcji Pytania i odpowiedzi](power-bi-q-and-a.md) w górnej części pulpitu nawigacyjnego
+* Spróbuj [zadać pytanie w polu funkcji Pytania i odpowiedzi](consumer/end-user-q-and-a.md) w górnej części pulpitu nawigacyjnego
 * [Zmień kafelki](service-dashboard-edit-tile.md) na pulpicie nawigacyjnym.
-* [Wybierz kafelek](service-dashboard-tiles.md), aby otworzyć raport źródłowy.
-* Zestaw danych zostanie ustawiony na codzienne odświeżanie, ale możesz zmienić harmonogram odświeżania lub spróbować odświeżyć go na żądanie przy użyciu opcji **Odśwież teraz**
+* [Wybierz kafelek](consumer/end-user-tiles.md), aby otworzyć raport źródłowy.
+* Dla zestawu danych jest zaplanowane codzienne odświeżanie, ale możesz zmienić harmonogram odświeżania lub odświeżyć go na żądanie przy użyciu polecenia **Odśwież teraz**
 
 ## <a name="whats-included"></a>Zawartość pakietu
 Pakiet zawartości obejmuje dane z następujących tabel:  
@@ -68,5 +68,5 @@ Aby utworzyć wystąpienia tego pakietu zawartości, wymagane jest konto Alpine 
 ## <a name="next-steps"></a>Następne kroki
 [Co to jest usługa Power BI?](power-bi-overview.md)
 
-[Power BI — podstawowe pojęcia](service-basic-concepts.md)
+[Power BI — podstawowe pojęcia](consumer/end-user-basic-concepts.md)
 

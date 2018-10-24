@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/02/2018
+ms.date: 10/09/2018
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 0d9f16933bff264b10c0bff3e1b7c440a3d373a2
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 0cb5e9ae8256f9df6c849df612f156d7fe9d12a8
+ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48907859"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "49112204"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Instalowanie i używanie aplikacji z pulpitami nawigacyjnymi i raportami w usłudze Power BI
 W usłudze Power BI *aplikacje* łączą ze sobą w jednym miejscu wszystkie powiązane pulpity nawigacyjne i raporty. Osoby w organizacji mogą tworzyć i rozpowszechniać aplikacje z kluczowymi informacjami biznesowymi. [Usługi zewnętrzne](end-user-connect-to-services.md), których być może już używasz, takie jak Google Analytics i Microsoft Dynamics CRM, także oferują aplikacje usługi Power BI. 
@@ -34,7 +34,7 @@ Najprostszym sposobem samodzielnego zainstalowania nowej aplikacji jest otrzyman
 
 **Na komputerze** 
 
-Po kliknięciu linku w wiadomości e-mail usługa Power BI ([https://powerbi.com](https://powerbi.com)) zostanie otwarta w przeglądarce. Potwierdź, że chcesz zainstalować aplikację. Zostanie otwarta strona docelowa aplikacji.
+Wybierz link w wiadomości e-mail, aby otworzyć usługę Power BI ([https://powerbi.com](https://powerbi.com)) w przeglądarce. Potwierdź, że chcesz zainstalować aplikację. Zostanie otwarta strona docelowa aplikacji.
 
 ![Strona docelowa aplikacji w usłudze Power BI](./media/end-user-apps/power-bi-app-landing-page-opportunity-480.png)
 
@@ -50,7 +50,7 @@ Możesz także znajdować i instalować aplikacje, do których masz dostęp, za 
 1. Wybierz pozycję **Aplikacje** ![Pozycja Aplikacje w lewym okienku nawigacji](./media/end-user-apps/power-bi-apps-bar.png) > **Pobierz aplikacje**. 
    
      ![Ikona Pobierz aplikacje](./media/end-user-apps/power-bi-service-apps-get-apps-oppty.png)
-2. W usłudze AppSource w obszarze **Moja organizacja** możesz przeprowadzić wyszukiwanie, aby zawęzić wyniki i znaleźć odpowiednią aplikację.
+2. W usłudze AppSource w obszarze **Moja organizacja** wykonaj wyszukiwanie, aby zawęzić wyniki i znaleźć odpowiednią aplikację.
    
      ![Usługa AppSource, obszar Moja organizacja](./media/end-user-apps/power-bi-appsource-my-org.png)
 3. Wybierz pozycję **Pobierz teraz**, aby dodać wybraną aplikację do swojej strony Aplikacje. 

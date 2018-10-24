@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/17/2018
+ms.date: 10/02/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 4e7692be8ec78c79076408635a75dbf0ab9080d2
-ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
+ms.openlocfilehash: 49540dd491d02c6a6b474ff80690a75eecfd27db
+ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/17/2018
-ms.locfileid: "45974051"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49336995"
 ---
 # <a name="composite-models-in-power-bi-desktop-preview"></a>Modele złożone w programie Power BI Desktop (wersja zapoznawcza)
 
@@ -58,7 +58,7 @@ W przypadku korzystania z trybu DirectQuery **modele złożone** pozwalają na u
 Na przykład za pomocą funkcji **modeli złożonych** można utworzyć model, który łączy dane sprzedaży z magazynu danych przedsiębiorstwa z danymi dotyczącymi celów sprzedaży z bazy danych SQL Server działu oraz z niektórymi danymi zaimportowanymi z arkusza kalkulacyjnego. Model, który łączy dane z więcej niż jednego źródła trybu DirectQuery lub łączy tryb DirectQuery z zaimportowanymi danymi, jest określany jako *model złożony*.
 
 > [!NOTE]
-> Mimo że modele złożone są dostępne w wersji zapoznawczej, nie można publikować ich w usłudze Power BI. 
+> Od wydania programu **Power BI Desktop** w październiku 2018 r. *można* publikować modele złożone w usłudze Power BI. W przypadku odświeżania zaplanowanego oraz odświeżania kafelka pulpitu nawigacyjnego modele złożone w usłudze Power BI zachowują się w taki sam sposób jak modele importu. 
 
 Relacje między tabelami można tworzyć w zwykły sposób, nawet gdy pochodzą z różnych źródeł, z następującym ograniczeniem: wszystkie relacje obejmujące wiele źródeł należy definiować jako relacje z kardynalnością **Wiele-do-wielu**, niezależnie od ich rzeczywistej kardynalności. Te relacje zachowują się jak zwykłe relacje **wiele-do-wielu**, co opisano w artykule [Relacje wiele-do-wielu w programie Power BI Desktop (wersja zapoznawcza)](desktop-many-to-many-relationships.md). Należy zauważyć, że w kontekście modeli złożonych wszystkie zaimportowane tabele są faktycznie pojedynczym źródłem, niezależnie od rzeczywistego bazowego źródła danych, z poziomu którego będą w rzeczywistości importowane.   
 

@@ -8,15 +8,15 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/25/2018
+ms.date: 10/08/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2cc7691e81f5edab9d9f7a2a6d878420ca1c82f4
-ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
+ms.openlocfilehash: d042119a95cb60f930a0535e93b0a50ee9224da3
+ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "47418739"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "49112273"
 ---
 # <a name="export-data-from-visualizations"></a>Eksportowanie danych z wizualizacji
 Jeśli chcesz zobaczyć dane, które zostały użyte do utworzenia wizualizacji, możesz wyświetlić te dane w usłudze Power BI lub wyeksportować je do programu Excel w formie pliku xlsx lub csv.   
@@ -55,8 +55,7 @@ Aby skorzystać z tej metody, otwórz[raport próbnych danych dotyczących anali
 4. Wybierz wielokropek w prawym górnym rogu wykresu wizualizacji. Wybierz opcję **Eksportuj dane**.
 
    ![](media/power-bi-visualization-export-data/power-bi-export-data2.png)
-5. Jeśli w usłudze Power BI w trybie online wizualizacja ma agregację (np. jeśli zmieniono opcję **Liczba** na *Średnia*, *Suma* lub *Minimum*), masz dwie opcje: **Podsumowane dane** i **Dane bazowe**. W programie Power BI Desktop będziesz mieć tylko opcję **Podsumowane dane**. Aby zrozumieć funkcję agregowania, zobacz [Agregowanie w usłudze Power BI](../service-aggregates.md).
-
+5. Jeśli w usłudze Power BI w trybie online wizualizacja ma agregację (np. jeśli zmieniono opcję **Liczba** na *Średnia*, *Suma* lub *Minimum*), masz dwie opcje: **Podsumowane dane** i **Dane bazowe**. W programie Power BI Desktop będzie dostępna tylko opcja **Podsumowane dane**. Aby zrozumieć agregowanie, zobacz [Agregowanie w usłudze Power BI](../service-aggregates.md).
     ![](media/power-bi-visualization-export-data/power-bi-export-data5.png)
 6. Wybierz opcję **Podsumowane dane** > **Eksportuj**, a następnie wybierz format xlsx lub csv. Usługa Power BI eksportuje dane.  W przypadku zastosowania filtrów do wizualizacji dane zostaną wyeksportowane jako dane odfiltrowane. Po wybraniu opcji **Eksportuj** przeglądarka wyświetli monit o zapisanie pliku. Po zapisaniu otwórz plik w programie Excel.
 
@@ -90,6 +89,26 @@ Zawartość widoczna na ekranie po wybraniu opcji **Dane bazowe** może być ró
 |    Miary     |                                      Wszystkie dane ze wszystkich tabel powiązanych z tabelami zawierającymi miary w obrębie łańcucha typu \*:1 dla relacji 1:1                                      |
 |  Tylko miary  |                                                   Wszystkie nieukryte kolumny ze wszystkich powiązanych tabel (w celu rozwinięcia miary)                                                   |
 |  Tylko miary  |                                                             Podsumowane dane zduplikowanych wierszy dla miar modelu.                                                              |
+
+### <a name="set-the-export-options"></a>Ustawianie opcji eksportu
+Projektanci raportów usługi Power BI kontrolują typy opcji eksportowania danych, które są dostępne dla klientów. Są to:
+- Allow export of only summarized (Zezwalaj tylko na eksportowanie podsumowanych) (jest to ustawienie domyślne dla raportów) 
+- Allow exporting of summarized and underlying data (Zezwalaj na eksportowanie danych podsumowanych i bazowych)  
+- Don't allow exporting of any data (Nie zezwalaj na eksportowanie żadnych danych)  
+
+1. Aby ustawić te opcje, uruchom program Power BI Desktop.
+
+2. W lewym górnym rogu wybierz kolejno opcje **Plik** > **Opcje i ustawienia** > **Opcje**. 
+
+3. W obszarze **Bieżący plik** wybierz opcję **Ustawienia raportu**.
+
+    ![ustawienia raportu w wersji Desktop](media/power-bi-visualization-export-data/desktop-report-settings.png)
+
+4. Wybierz opcję z listy rozwijanej **Eksportuj dane**.
+
+Można również zaktualizować to ustawienie w usłudze Power BI.  
+
+Należy pamiętać, że jeśli występuje konflikt między ustawieniami portalu administratora usługi Power BI a ustawieniami raportu w zakresie eksportowania danych, ustawienia administratora zastąpią ustawienia eksportowania danych. 
 
 ## <a name="limitations-and-considerations"></a>Ograniczenia i istotne zagadnienia
 * Maksymalna liczba wierszy, które można eksportować z programu **Power BI Desktop** i **usługi Power BI** do pliku csv to 30 000.

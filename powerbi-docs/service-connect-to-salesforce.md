@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/30/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: dda983aec42731aa885323749d9302db75066569
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 5cd858ad14c1a5fcf76ddf23dafdac2bb5585b10
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37136783"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548263"
 ---
 # <a name="connect-to-salesforce-with-power-bi"></a>Nawiązywanie połączenia z usługą Salesforce przy użyciu usługi Power BI
 Przy użyciu usługi Power BI możesz z łatwością nawiązać połączenie z kontem Salesforce.com. Utworzenie takiego połączenia spowoduje pobranie danych i automatycznie zapewni pulpit nawigacyjny i powiązane raporty oparte na danych.
@@ -56,14 +56,16 @@ Nawiąż połączenie z [pakietem zawartości Salesforce](https://app.powerbi.co
    
    ![](media/service-connect-to-salesforce/pbi_getdatasalesforcedash.png)
 
-Możesz zmienić ten pulpit nawigacyjny, aby wyświetlać dane w dowolny sposób. Możesz zadać pytania przy użyciu funkcji pytań i odpowiedzi lub kliknąć kafelek, aby [otworzyć źródłowy raport](service-dashboard-tiles.md) i [zmienić kafelki](service-dashboard-edit-tile.md) w pulpicie nawigacyjnym.
+Możesz zmienić ten pulpit nawigacyjny, aby wyświetlać dane w dowolny sposób. Możesz zadać pytania przy użyciu funkcji pytań i odpowiedzi lub kliknąć kafelek, aby [otworzyć źródłowy raport](consumer/end-user-tiles.md) i [zmienić kafelki](service-dashboard-edit-tile.md) w pulpicie nawigacyjnym.
 
 **Co teraz?**
 
-* Spróbuj [zadać pytanie w polu Pytania i odpowiedzi](power-bi-q-and-a.md) w górnej części pulpitu nawigacyjnego
-* [Zmień kafelki](service-dashboard-edit-tile.md) na pulpicie nawigacyjnym
+* Spróbuj [zadać pytanie w polu funkcji Pytania i odpowiedzi](consumer/end-user-q-and-a.md) w górnej części pulpitu nawigacyjnego
+* [Zmień kafelki](service-dashboard-edit-tile.md) na pulpicie nawigacyjnym <<<<<<< HEAD
+* [Wybierz kafelek](consumer/end-user-tiles.md), aby otworzyć raport źródłowy =======
 * [Wybierz kafelek](service-dashboard-tiles.md), aby otworzyć raport źródłowy
-* Zestaw danych zostanie ustawiony na codzienne odświeżanie, ale możesz zmienić harmonogram odświeżania lub spróbować odświeżyć go na żądanie przy użyciu opcji **Odśwież teraz**
+>>>>>>> 66fe62d8f200efd9cfeb465eeb5f370dbbaa63be
+* Dla zestawu danych jest zaplanowane codzienne odświeżanie, ale możesz zmienić harmonogram odświeżania lub odświeżyć go na żądanie przy użyciu polecenia **Odśwież teraz**
 
 ## <a name="system-requirements-and-considerations"></a>Wymagania systemowe i zagadnienia
 - Połączenie z produkcyjnym kontem usługi Salesforce z włączonym dostępem do interfejsu API

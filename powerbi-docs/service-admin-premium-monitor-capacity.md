@@ -8,27 +8,26 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 08/29/2018
+ms.date: 10/09/2018
 LocalizationGroup: Premium
-ms.openlocfilehash: 8e19bc596bef3862dca79ac92ffbd74954a9c756
-ms.sourcegitcommit: 6be2c54f2703f307457360baef32aee16f338067
+ms.openlocfilehash: b2627950ea51239acb19972fde3244f3bd158255
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "43300166"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48909227"
 ---
-# <a name="monitor-power-bi-premium-capacities-in-your-organization"></a>Monitorowanie pojemności usługi Power BI Premium w organizacji
+# <a name="monitor-power-bi-premium-and-power-bi-embedded-capacities"></a>Monitorowanie pojemności w usługach Power BI Premium i Power BI Embedded
 
-Ten artykuł zawiera omówienie monitorowania metryk pojemności usługi Power BI Premium. Monitorowanie użycia pojemności pozwala na świadomy wybór podejścia do zarządzania pojemnościami. 
+Ten artykuł zawiera omówienie monitorowania metryk pojemności usługi Power BI Premium. Monitorowanie użycia pojemności pozwala na świadomy wybór podejścia do zarządzania pojemnościami.
 
 Pojemność można monitorować za pomocą aplikacji metryk pojemności lub portalu administracyjnego w usłudze Power BI Premium. Zalecamy użycie aplikacji, ponieważ oferuje ona o wiele więcej szczegółów, ale w tym artykule opisano obie opcje.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UgsjMbhi_Bk?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="install-the-premium-capacity-metrics-app"></a>Instalowanie aplikacji metryk pojemności usługi Premium
 
 Można przejść bezpośrednio do [aplikacji metryk pojemności usługi Premium](https://app.powerbi.com/groups/me/getapps/services/capacitymetrics) lub zainstalować ją tak jak inne aplikacje w usłudze Power BI.
-
-> [!IMPORTANT]
-> Aby zainstalować tę aplikację i jej używać, musisz być administratorem co najmniej jednej pojemności. Administrator usługi Power BI nie ma wystarczających uprawnień. 
 
 1. W usłudze Power BI kliknij pozycję **Aplikacje**.
 
@@ -42,47 +41,66 @@ Można przejść bezpośrednio do [aplikacji metryk pojemności usługi Premium]
 
 Teraz, po zainstalowaniu aplikacji, będziesz widzieć metryki dotyczące pojemności w swojej organizacji. Przyjrzyjmy się niektórym dostępnym kluczowym metrykom.
 
-## <a name="use-the-metrics-app"></a>Używanie aplikacji metryk 
+## <a name="use-the-metrics-app"></a>Używanie aplikacji metryk
+
 Po otwarciu aplikacji najpierw zostanie wyświetlony pulpit nawigacyjny z podsumowaniem wszystkich pojemności, do których masz uprawnienia administratora.
 
-![Omówienie raportu usługi Premium](media/service-admin-premium-monitor-capacity/app-dashboard.png)
+![Pulpit nawigacyjny aplikacji Metryki](media/service-admin-premium-monitor-capacity/app-dashboard.png)
 
-### <a name="filtering"></a>Filtrowanie
+Raport składa się z trzech kart, które bardziej szczegółowo opisujemy w poniższych sekcjach.
 
-Na karcie **Filtry stosowane do wszystkich stron** można wybrać pojemność, zestaw danych i/lub zakres dat w ciągu ostatnich siedmiu dni. Te filtry stosują zaznaczenie do wszystkich odpowiednich stron i kafelków w tym raporcie. Jeśli nic nie zostanie wybrane, w raporcie będą domyślnie wyświetlane metryki z poprzedniego tygodnia dla każdej pojemności, która należy do Ciebie.
+* **Filtry stosowane do wszystkich stron**: umożliwia odfiltrowanie pozostałych stron w raporcie pod kątem określonej pojemności.
+* **Zestawy danych**: dostarcza szczegółowe metryki dotyczące kondycji zestawów danych w ramach Twoich pojemności.
+* **System**: zapewnia ogólne metryki wydajności, takie jak wysokie wykorzystanie pamięci i procesora. 
 
-![Omówienie raportu usługi Premium](media/service-admin-premium-monitor-capacity/premium-report-overview.png)
+### <a name="filters-applied-to-all-pages-tab"></a>Karta Filtry stosowane do wszystkich stron
 
-### <a name="summary-tab"></a>Karta Podsumowanie
+Na karcie **Filtry stosowane do wszystkich stron** możesz wybrać pojemność, zestaw danych i zakres dat w ciągu ostatnich siedmiu dni. Filtry zostaną następnie zastosowane do wszystkich odpowiednich stron i kafelków w raporcie. Jeśli nie zostaną wybrane żadne filtry, w raporcie będą domyślnie wyświetlane metryki z poprzedniego tygodnia dla każdej pojemności, która należy do Ciebie.
 
-Karta **Podsumowanie** zawiera widok pojemności oparty na jednostkach, systemie i zestawach danych.
+![Karta Filtry](media/service-admin-premium-monitor-capacity/filters-tab.png)
 
-![Filtry stosowane do wszystkich stron](media/service-admin-premium-monitor-capacity/premium-summary-report.png)
+### <a name="datasets-tab"></a>Karta Zbiory danych
 
-| **Obszar** | **Metryki** |
+Na karcie **Zestawy danych** znajdują się zbiorcze metryki w aplikacji. Używając czterech przycisków w górnej części karty, możesz przejść do różnych obszarów: **Podsumowanie**, **Odświeżenia**, **Zapytania** i **Zestawy danych**.
+
+![Karta Zbiory danych](media/service-admin-premium-monitor-capacity/datasets-tab.png)
+
+#### <a name="summary-area"></a>Obszar Podsumowanie
+
+![Przycisk Podsumowanie](media/service-admin-premium-monitor-capacity/summary-button.png)
+
+Obszar **Podsumowanie** przedstawia widok Twoich pojemności w oparciu o jednostki, zasoby systemowe i obciążenia zestawu danych.
+
+| | **Metryki** |
 | --- | --- |
 | **Jednostki** | * Liczba pojemności, których jesteś właścicielem<br> * Odrębna liczba zestawów danych w pojemności<br> * Odrębna liczba obszarów roboczych w pojemności |
 | **System** | * Średnie użycie pamięci w GB w ciągu ostatnich siedmiu dni<br> * Najwyższe zużycie pamięci w GB w ciągu ostatnich siedmiu dni oraz czas lokalny wystąpienia tego zużycia<br> * Liczba, która wskazuje, ile razy procesor przekroczył 80% progów w ciągu ostatnich siedmiu dni z podziałem na trzyminutowe przedziały<br> * Największa liczba przypadków, gdy procesor przekroczył 80% w ciągu ostatnich siedmiu dni z podziałem na przedziały o długości jednej godziny, oraz czas lokalny tych przypadków<br> * Liczba, która wskazuje, ile razy zapytania bezpośrednie/połączenia na żywo przekroczyły 80% progów w ciągu ostatnich siedmiu dni z podziałem na trzyminutowe przedziały<br> * Największa liczba przypadków, gdy zapytania bezpośrednie/połączenia na żywo przekroczyły 80% w ciągu ostatnich siedmiu dni z podziałem na przedziały o długości jednej godziny, oraz czas lokalny tych przypadków |
 | **Obciążenia zestawu danych** | * Łączna liczba odświeżeń w ciągu ostatnich siedmiu dni<br> * Łączna liczba pomyślnych odświeżeń w ciągu ostatnich siedmiu dni<br> * Łączna liczba nieudanych odświeżeń w ciągu ostatnich siedmiu dni<br> * Łączna liczba odświeżeń nieudanych z powodu braku pamięci<br> * Średni czas trwania odświeżania jest mierzony w minutach, czas potrzebny do ukończenia operacji<br> * Średni czas oczekiwania na odświeżenie jest mierzony w minutach, średnie opóźnienie między zaplanowanym czasem i uruchomieniem operacji<br> * Łączna liczba zapytań uruchomionych w ciągu ostatnich siedmiu dni<br> * Łączna liczba pomyślnych zapytań w ciągu ostatnich siedmiu dni<br> * Łączna liczba nieudanych zapytań w ciągu ostatnich siedmiu dni<br> * Średni czas trwania zapytania jest mierzony w minutach, czas potrzebny do ukończenia operacji<br> * Łączna liczba modeli wykluczonych z powodu wykorzystania pamięci |
 |  |  |
 
-### <a name="refreshes-tab"></a>Karta Odświeżenia
+#### <a name="refreshes-area"></a>Obszar Odświeżenia
 
-Karta **Odświeżenia** zawiera listę ukończonych odświeżeń, miar powodzenia, średnich/maksymalnych czasów oczekiwania na odświeżenie i średnich/maksymalnych czasów trwania odświeżania. Lista ta jest podzielona na fragmenty według zestawów danych w ciągu ostatnich siedmiu dni. Dwa dolne wykresy przedstawiają porównanie odświeżeń z zużyciem w GB oraz średnimi czasami oczekiwania z podziałem na przedziały o długości jednej godziny w czasie lokalnym. Górne wykresy słupkowe zawierają listę pięciu najważniejszych zestawów danych według łącznego maksymalnego czasu wymaganego do ukończenia odświeżania zestawu danych (czasu trwania odświeżania) oraz maksymalnego czasu oczekiwania na odświeżenie. Wiele dużych wzrostów czasów oczekiwania na odświeżenie wskazuje na wyczerpywanie pojemności.
+![Przycisk Odświeżenia](media/service-admin-premium-monitor-capacity/refreshes-button.png)
 
-![Raport odświeżania w usłudze Premium](media/service-admin-premium-monitor-capacity/premium-refresh-report.png)
+Obszar **Odświeżenia** zawiera listę ukończonych odświeżeń, miar powodzenia, średnich/maksymalnych czasów oczekiwania na odświeżenie i średnich/maksymalnych czasów trwania odświeżania. Lista ta jest podzielona na fragmenty według zestawów danych w ciągu ostatnich siedmiu dni. Dwa dolne wykresy przedstawiają porównanie odświeżeń z zużyciem w GB oraz średnimi czasami oczekiwania z podziałem na przedziały o długości jednej godziny w czasie lokalnym. Górne wykresy słupkowe zawierają listę pięciu najważniejszych zestawów danych według średniego czasu wymaganego do ukończenia odświeżania zestawu danych (czasu trwania odświeżania) oraz średniego czasu oczekiwania na odświeżenie. Wiele dużych wzrostów czasów oczekiwania na odświeżenie wskazuje na wyczerpywanie pojemności.
 
-### <a name="datasets-tab"></a>Karta Zbiory danych
+#### <a name="queries-area"></a>Obszar Zapytania
 
-Karta **Zestawy danych** przedstawia kompletne zestawy danych wykluczone z powodu dużego wykorzystania pamięci według godziny.
+![Przycisk Zapytania](media/service-admin-premium-monitor-capacity/queries-button.png)
 
-![Raport zestawów danych w usłudze Premium](media/service-admin-premium-monitor-capacity/premium-datasets-report.png)
+Obszar **Zapytania** wyświetla łączną liczbę uruchomionych zapytań, łączną liczbę zapytań, licznik oczekiwania dla zapytań na żywo/zapytań bezpośrednich, średni/maksymalny czas trwania, średni/maksymalny czas oczekiwania zgłaszany w milisekundach podzielony na fragmenty według zestawów danych, obszar roboczy i przedziały godzinowe w ciągu ostatnich siedmiu dni. Dolne wykresy przedstawiają porównanie liczby zapytań, średniego czasu trwania (w milisekundach) i średniego czasu oczekiwania (w milisekundach) z zużyciem pamięci w GB z podziałem na przedziały o długości jednej godziny w czasie lokalnym. Dwa wykresy prawym górnym rogu zawierają listę pięciu najważniejszych zestawów danych według średniego czasu trwania zapytania i czasu oczekiwania na wykonanie zapytań. Długie czasy trwania zapytań i długie czasy oczekiwania wskazują na pojemności uruchomione w warstwie Gorąca. Mogą również oznaczać, że pojedynczy zestaw danych powoduje problemy i wymaga dalszych badań.
+
+#### <a name="datasets-area"></a>Obszar Zestawy danych
+
+![Przycisk Zestawy danych](media/service-admin-premium-monitor-capacity/datasets-button.png)
+
+Obszar **Zestawy danych** przedstawia kompletne zestawy danych wykluczone z powodu dużego wykorzystania pamięci według godziny.
 
 ### <a name="system-tab"></a>Karta System
 
-Karta **System** przedstawia wysokie wykorzystanie procesora (liczba przypadków przekroczenia 80% wykorzystania), wysokie wykorzystanie zapytań bezpośrednich/połączeń na żywo i zużycie pamięci.
+Karta **System** przedstawia liczbę przypadków wysokiego wykorzystania procesora (liczba przypadków przekroczenia 80% wykorzystania), wysokie wykorzystanie zapytań bezpośrednich/połączeń na żywo i zużycie pamięci.
 
-![Raport systemu w usłudze Premium](media/service-admin-premium-monitor-capacity/premium-system-report.png)
+![Raport systemu w usłudze Premium](media/service-admin-premium-monitor-capacity/system-tab.png)
 
 ## <a name="monitor-power-bi-embedded-capacity"></a>Monitorowanie pojemności usługi Power BI Embedded
 

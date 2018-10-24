@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/24/2018
+ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: f07b5174d031c79f4d8f232c49836b54d95621f1
-ms.sourcegitcommit: 7fb0b68203877ff01f29724f0d1761d023075445
+ms.openlocfilehash: 525a7e45a804d9f82f4d06cf8618d790e140699f
+ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 07/26/2018
-ms.locfileid: "39256037"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49336880"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Ułatwienia dostępu w raportach programu Power BI Desktop
 Usługa Power BI zawiera funkcje, które umożliwiają osobom niepełnosprawnym łatwiejsze korzystanie z raportów usługi Power BI. Te funkcje obejmują możliwość korzystania z raportu za pomocą klawiatury lub czytnika ekranu, używania klawisza TAB do przenoszenia fokusu na różne obiekty na stronie oraz celowe używanie znaczników w wizualizacjach.
@@ -61,6 +61,8 @@ Te dodatki ułatwień dostępu zostały utworzone, aby umożliwić użytkownikom
 ## <a name="tips-for-creating-accessible-reports"></a>Wskazówki dotyczące tworzenia raportów z ułatwieniami dostępu
 Poniższe wskazówki mogą pomóc tworzyć bardziej dostępne raporty programu **Power BI Desktop**.
 
+### <a name="general-tips-for-accessible-reports"></a>Ogólne wskazówki dotyczące raportów z ułatwieniami dostępu
+
 * W przypadku wizualizacji **liniowych**, **warstwowych**, **kombi**, **punktowych** i **bąbelkowych** włącz znaczniki i użyj innego *kształtu znacznika* dla każdego wiersza.
   
   * Aby włączyć *znaczniki*, wybierz sekcję **Formatowanie** w okienku **Wizualizacje**, rozwiń sekcję **Kształty**, a następnie przewiń w dół, aż znajdziesz przełącznik **Znaczniki**. Ustaw go w pozycji *Włączone*.
@@ -80,6 +82,13 @@ Poniższe wskazówki mogą pomóc tworzyć bardziej dostępne raporty programu *
 * Do wszystkich wizualizacji dołącz tytuł, etykiety osi i etykiety danych.
 * Podaj znaczące tytuły dla wszystkich stron raportu.
 * W miarę możliwości unikaj dekoracyjnych kształtów i obrazów w raporcie, ponieważ są one uwzględniane w kolejności tabulacji raportu. Jeśli musisz umieścić dekoracyjne obiekty w raporcie, zaktualizuj tekst alternatywny obiektu, aby poinformować użytkowników czytników zawartości ekranu, że służy on wyłącznie do dekoracji.
+
+### <a name="arranging-items-in-field-buckets"></a>Rozmieszczanie elementów w zasobnikach Pole
+Począwszy od wersji programu **Power BI Desktop** wydanej w październiku 2018 r., źródło **Pola** umożliwia nawigację za pomocą klawiatury oraz interakcję z czytnikami zawartości ekranu. 
+
+Aby usprawnić proces tworzenia raportów za pomocą czytników zawartości ekranu, dostępne jest menu kontekstowe, które pozwala na przenoszenie pól w źródle w górę i w dół na liście **Pola** bądź przenoszenie pola do innych studni, np. **Legenda** bądź **Wartość** itp.
+
+![Menu kontekstowe w źródle Pola umożliwia przenoszenie pól w górę lub w dół bądź do innego obszaru](media/desktop-accessibility/accessibility_09.png)
 
 ## <a name="high-contrast-support-for-reports"></a>Obsługa dużego kontrastu dla raportów
 

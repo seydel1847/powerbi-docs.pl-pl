@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 71b2f104ad5efb244c2b046cdd48a2e52cd045e3
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 19a029564fecdc9a54a136d045e75bb9580193da
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46543954"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908245"
 ---
 # <a name="collaborate-in-your-power-bi-app-workspace"></a>Współpraca w obszarze roboczym aplikacji usługi Power BI
 Obszary robocze aplikacji usługi Power BI są doskonałym miejscem do wspólnej pracy ze współpracownikami przy pulpitach nawigacyjnych, raportach i zestawach danych w celu tworzenia *aplikacji*. Współpraca nie kończy się na obszarach roboczych w usłudze Power BI. Usługa Office 365 oferuje inne usługi grupy, takie jak udostępnianie plików w usłudze OneDrive dla Firm, konwersacje w programie Exchange, udostępnianie kalendarza i zadań itd. Przeczytaj więcej na temat [grup w usłudze Office 365](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9).
@@ -23,7 +23,7 @@ Obszary robocze aplikacji usługi Power BI są doskonałym miejscem do wspólnej
 > [!NOTE]
 > Wersja zapoznawcza nowego środowiska obszarów roboczych zmieni relację między obszarami roboczymi usługi Power BI a grupami usługi Office 365. Nie będziesz automatycznie tworzyć grupy usługi Office 365 przy każdym tworzeniu jednego z nowych obszarów roboczych. Przeczytaj o [tworzeniu nowych obszarów roboczych (wersja zapoznawcza)](service-create-the-new-workspaces.md)
 
-Obszary robocze aplikacji są dostępne tylko w usłudze [Power BI Pro](service-free-vs-pro.md).
+Obszary robocze aplikacji są dostępne tylko w przypadku [licencji usługi Power BI Pro](service-features-license-type.md).
 
 ## <a name="collaborate-on-power-bi-desktop-files-in-your-app-workspace"></a>Współpraca przy plikach programu Power BI Desktop w obszarze roboczym aplikacji
 Po utworzeniu pliku programu Power BI Desktop, jeśli opublikujesz go w swoim obszarze roboczym aplikacji usługi Power BI, wszyscy w Twoim obszarze roboczym mogą przy nim współpracować.
@@ -77,7 +77,7 @@ Współpraca w usłudze Office 365 zaczyna się w obszarze roboczym aplikacji w 
 Jeśli jesteś właścicielem lub administratorem obszaru roboczego aplikacji, możesz również dodawać lub usuwać elementy członkowskie obszaru roboczego. Przeczytaj więcej na temat [zarządzania obszarem roboczym aplikacji usługi Power BI](service-manage-app-workspace-in-power-bi-and-office-365.md).
 
 ## <a name="next-steps"></a>Następne kroki
-* [Tworzenie aplikacji i obszarów roboczych aplikacji w usłudze Power BI](consumer/end-user-create-apps.md)
+* [Tworzenie aplikacji i obszarów roboczych aplikacji w usłudze Power BI](service-create-distribute-apps.md)
 * Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
 * Chcesz przesłać opinię? Odwiedź witrynę [Power BI Ideas (Pomysły na ulepszenie usługi Power BI)](https://ideas.powerbi.com/forums/265200-power-bi)
 

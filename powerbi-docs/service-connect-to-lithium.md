@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 6cbd67a9c35726830fc862326d9a015b96952b83
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 5fe70f2ba213305c5307bb202cacbb1245cf970f
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "37136300"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548562"
 ---
 # <a name="connect-to-lithium-with-power-bi"></a>Łączenie się z pakietem zawartości Lithium przy użyciu usługi Power BI
 Usługa Lithium buduje zaufane relacje między najlepszymi na świecie markami i ich klientami, pomagając ludziom uzyskać odpowiedzi i dzielić się doświadczeniami. Łącząc pakiet zawartości Lithium z usługą Power BI, można mierzyć kluczowe metryki dotyczące społeczności online w celu poprawy sprzedaży, zmniejszania kosztów usługi i zwiększania lojalności. 
@@ -49,10 +49,10 @@ Połącz się z [pakietem zawartości Lithium](https://app.powerbi.com/getdata/s
 
 **Co teraz?**
 
-* Spróbuj [zadać pytanie w polu funkcji Pytania i odpowiedzi](power-bi-q-and-a.md) w górnej części pulpitu nawigacyjnego
+* Spróbuj [zadać pytanie w polu funkcji Pytania i odpowiedzi](consumer/end-user-q-and-a.md) w górnej części pulpitu nawigacyjnego
 * [Zmień kafelki](service-dashboard-edit-tile.md) na pulpicie nawigacyjnym.
-* [Wybierz kafelek](service-dashboard-tiles.md), aby otworzyć raport źródłowy.
-* Zestaw danych zostanie ustawiony na codzienne odświeżanie, ale możesz zmienić harmonogram odświeżania lub spróbować odświeżyć go na żądanie przy użyciu opcji **Odśwież teraz**
+* [Wybierz kafelek](consumer/end-user-tiles.md), aby otworzyć raport źródłowy.
+* Dla zestawu danych jest zaplanowane codzienne odświeżanie, ale możesz zmienić harmonogram odświeżania lub odświeżyć go na żądanie przy użyciu polecenia **Odśwież teraz**
 
 ## <a name="system-requirements"></a>Wymagania systemowe
 Pakiet zawartości usługi Lithium wymaga społeczności usługi Lithium w wersji 15.9 lub nowszej. Skontaktuj się z administratorem Lithium, aby potwierdzić.
@@ -60,5 +60,5 @@ Pakiet zawartości usługi Lithium wymaga społeczności usługi Lithium w wersj
 ## <a name="next-steps"></a>Następne kroki
 [Co to jest usługa Power BI?](power-bi-overview.md)
 
-[Power BI — podstawowe pojęcia](service-basic-concepts.md)
+[Power BI — podstawowe pojęcia](consumer/end-user-basic-concepts.md)
 

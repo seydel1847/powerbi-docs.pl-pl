@@ -8,22 +8,22 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/02/2018
+ms.date: 10/02/2018
 ms.author: mihart
-ms.openlocfilehash: 462e9b1d991690846c57a225552b271fca19499c
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: e4173811db0de0dc95e0bd324517a5750165983e
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46544400"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908652"
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>Tworzenie pulpitu nawigacyjnego usługi Power BI z raportu
-Po zapoznaniu się z tematem [Pulpity nawigacyjne w usłudze Power BI](consumer/end-user-dashboards.md) możesz teraz utworzyć własny raport. Istnieje wiele sposobów, aby utworzyć pulpit nawigacyjny — z raportu, od podstaw, z zestawu danych, duplikując istniejący pulpit nawigacyjny itp.  
+Po zapoznaniu się z tematem [Pulpity nawigacyjne w usłudze Power BI](service-dashboards.md) możesz teraz utworzyć własny raport. Istnieje wiele sposobów, aby utworzyć pulpit nawigacyjny — z raportu, od podstaw, z zestawu danych, duplikując istniejący pulpit nawigacyjny itp.  
 
 Przy rozpoczynaniu pracy po raz pierwszy może to wydawać się trudne, dlatego zaczniemy, tworząc szybki i łatwy pulpit nawigacyjny poprzez przypięcie wizualizacji z raportu, który został już utworzony. Po ukończeniu tego przewodnika Szybki Start będziesz dobrze rozumieć relacje między pulpitami nawigacyjnymi a raportami, a także umieć otwierać Widok do edycji w edytorze raportów, przypinać kafelki i nawigować między pulpitem nawigacyjnym a raportem. Następnie użyj linków w spisie treści po lewej stronie lub skorzystaj z opcji **Następne kroki** na dole, aby przejść do bardziej zaawansowanych tematów.
 
 ## <a name="who-can-create-a-dashboard"></a>Kto może utworzyć pulpit nawigacyjny?
-Tworzenie pulpitu nawigacyjnego jest funkcją **twórcy** i wymaga uprawnień do edytowania raportu. Uprawnienia do edytowania są dostępne dla twórców raportu i tych współpracowników, którym twórca udzieli dostępu. Na przykład, jeśli David utworzy raport w obszarze roboczym workspaceABC, a następnie doda Ciebie jako członka tego obszaru roboczego, Ty i David będziecie mieli uprawnienia do edycji. Z drugiej strony, jeśli raport został udostępniony Ci bezpośrednio lub jako część [aplikacji Power BI](consumer/end-user-apps.md) (jesteś **użytkownikiem** raportu), nie będziesz mieć możliwości przypinania kafelków do pulpitu nawigacyjnego.
+Tworzenie pulpitu nawigacyjnego jest funkcją **twórcy** i wymaga uprawnień do edytowania raportu. Uprawnienia do edytowania są dostępne dla twórców raportu i tych współpracowników, którym twórca udzieli dostępu. Na przykład, jeśli David utworzy raport w obszarze roboczym workspaceABC, a następnie doda Ciebie jako członka tego obszaru roboczego, Ty i David będziecie mieli uprawnienia do edycji. Z drugiej strony, jeśli raport został udostępniony Ci bezpośrednio lub jako część [aplikacji Power BI](service-create-distribute-apps.md) (jesteś **użytkownikiem** raportu), nie będziesz mieć możliwości przypinania kafelków do pulpitu nawigacyjnego.
 
 > **Uwaga**: pulpity nawigacyjne są funkcjami usługi Power BI, a nie programu Power BI Desktop. Pulpitów nawigacyjnych nie można tworzyć w usłudze Power BI dla urządzeń przenośnych, można je jednak [wyświetlać i udostępniać](consumer/mobile/mobile-apps-view-dashboard.md).
 >
@@ -65,7 +65,7 @@ Zaimportujemy jeden z przykładowych zestawów danych usługi Power BI i użyjem
 1. Pozostając w tym samym obszarze roboczym, wybierz kartę **Raporty**. Zostanie wyświetlony nowo zaimportowany raport oznaczony żółtą gwiazdką. Wybierz nazwę raportu, aby go otworzyć.
 
     ![karta raportów](media/service-dashboard-create/power-bi-reports.png)
-2. Raport zostanie otworzony w [widoku do czytania](consumer/end-user-reading-view.md). Zwróć uwagę na dwie karty u dołu: Discount Analysis i Spend Overview. Każda karta reprezentuje stronę raportu.
+2. Raport zostanie otwarty w widoku do czytania. Zwróć uwagę na dwie karty u dołu: Discount Analysis i Spend Overview. Każda karta reprezentuje stronę raportu.
     Wybierz pozycję **Edytuj raport**, aby otworzyć raport w widoku do edycji.
 
     ![raport w Widoku do czytania](media/service-dashboard-create/power-bi-reading-view.png)
@@ -108,9 +108,9 @@ Gratulujemy utworzenia pierwszego pulpitu nawigacyjnego! Teraz, gdy masz już pu
 
 ## <a name="next-steps"></a>Następne kroki
 * [Zmienianie rozmiaru i przenoszenie kafelków](service-dashboard-edit-tile.md)
-* [Wszystkie informacje o kafelkach pulpitu nawigacyjnego](consumer/end-user-tiles.md)
-* [Udostępnianie pulpitu nawigacyjnego przez tworzenie aplikacji](consumer/end-user-create-apps.md)
-* [Power BI — podstawowe pojęcia](consumer/end-user-basic-concepts.md)
+* [Wszystkie informacje o kafelkach pulpitu nawigacyjnego](service-dashboard-tiles.md)
+* [Udostępnianie pulpitu nawigacyjnego przez tworzenie aplikacji](service-install-use-apps.md)
+* [Power BI — podstawowe pojęcia](service-basic-concepts.md)
 * [Porady dotyczące projektowania doskonałych pulpitów nawigacyjnych](service-dashboards-design-tips.md)
 
 Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)

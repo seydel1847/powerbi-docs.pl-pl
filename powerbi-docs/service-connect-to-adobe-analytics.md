@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: f4eb0ec93057f309720fc4fef33a55d924881383
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: ef59d5f42ba913e4ecad79116dea635744534198
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46544629"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908583"
 ---
 # <a name="connect-to-adobe-analytics-with-power-bi"></a>Łączenie się z usługą Adobe Analytics za pomocą usługi Power BI
 Łączenie się z usługą Adobe Analytics za pomocą usługi Power BI należy zacząć od połączenia się z kontem Adobe Analytics Marketing Cloud. Uzyskasz aplikację z pulpitem nawigacyjnym usługi Power BI oraz zestawem raportów usługi Power BI zawierających informacje o ruchu w witrynie oraz wymiarach użytkownika. Dane są odświeżane automatycznie raz dziennie. Możesz korzystać z pulpitu nawigacyjnego i raportów, ale nie możesz zapisywać zmian.
@@ -25,26 +25,26 @@ Połącz się z usługą [Adobe Analytics](https://app.powerbi.com/getdata/servi
 ## <a name="how-to-connect"></a>Jak nawiązać połączenie
 [!INCLUDE [powerbi-service-apps-get-more-apps](./includes/powerbi-service-apps-get-more-apps.md)]
 
-1. Wybierz pozycję **Adobe Analytics** \> **Uzyskaj**.
+3. Wybierz pozycję **Adobe Analytics** \> **Uzyskaj**.
    
    ![](media/service-connect-to-adobe-analytics/adobe.png)
-2. Usługa Power BI nawiązuje połączenie przy użyciu określonej firmy i określonego identyfikatora pakietu raportów w usłudze Adobe Analytics (a nie nazwy pakietu raportów). Poniżej znajdują się szczegółowe informacje dotyczące [wyszukiwania tych parametrów](#FindingParams).
+4. Usługa Power BI nawiązuje połączenie przy użyciu określonej firmy i określonego identyfikatora pakietu raportów w usłudze Adobe Analytics (a nie nazwy pakietu raportów). Poniżej znajdują się szczegółowe informacje dotyczące [wyszukiwania tych parametrów](#FindingParams).
    
    ![](media/service-connect-to-adobe-analytics/parameters.png)
-3. W polu **Metoda uwierzytelniania** wybierz opcję **oAuth2** \> **Zaloguj**. Po wyświetleniu monitu wprowadź poświadczenia usługi Adobe Analytics. 
+5. W polu **Metoda uwierzytelniania** wybierz opcję **oAuth2** \> **Zaloguj**. Po wyświetleniu monitu wprowadź poświadczenia usługi Adobe Analytics. 
    
     ![](media/service-connect-to-adobe-analytics/creds.png)
    
     ![](media/service-connect-to-adobe-analytics/adobe_signin.png)
-4. Kliknij przycisk **Akceptuj**, aby zezwolić usłudze Power BI na dostęp do danych usługi Adobe Analytics.
+6. Kliknij przycisk **Akceptuj**, aby zezwolić usłudze Power BI na dostęp do danych usługi Adobe Analytics.
    
    ![](media/service-connect-to-adobe-analytics/adobe_authorize.png)
-5. Po zaakceptowaniu proces importowania rozpocznie się automatycznie. 
+7. Po zaakceptowaniu proces importowania rozpocznie się automatycznie. 
 
 ## <a name="view-the-adobe-analytics-dashboard-and-reports"></a>Wyświetlanie pulpitu nawigacyjnego i raportów usługi Adobe Analytics
 [!INCLUDE [powerbi-service-apps-open-app](./includes/powerbi-service-apps-open-app.md)]
 
-      ![Adobe Analytics dashboard](media/service-connect-to-adobe-analytics/dashboard.png)
+   ![Pulpit nawigacyjny usługi Adobe Analytics](media/service-connect-to-adobe-analytics/dashboard.png)
 
 [!INCLUDE [powerbi-service-apps-open-app](./includes/powerbi-service-apps-what-now.md)]
 
@@ -82,7 +82,7 @@ Wartość Firma można znaleźć w prawym górnym rogu konta, gdy użytkownik je
 
 **Identyfikator pakietu raportów**
 
-Identyfikator pakietu jest tworzony podczas tworzenia pakietu raportów. Można skontaktować się z administratorem, aby określić wartość identyfikatora. Należy pamiętać, że nie jest to nazwa pakietu raportów.
+Identyfikator pakietu jest tworzony podczas tworzenia pakietu raportów. Można skontaktować się z administratorem, aby określić wartość identyfikatora. Nie jest to nazwa pakietu raportów.
 
 Z [dokumentacji](https://marketing.adobe.com/resources/help/en_US/reference/new_report_suite.html) firmy Adobe:
 
@@ -94,7 +94,7 @@ Jeśli po wprowadzeniu poświadczeń jest wyświetlany błąd wskazujący, że n
 Jeśli pomyślnie podano poświadczenia, a błąd wystąpił później, tworzenie raportów może trwać zbyt długo. Typowy błąd to *„Nie można pobrać danych z raportu usługi Adobe Analytics. Zawartość: &quot;źródło odwołania, strona&quot;; Przybliżony czas trwania: xx s”*. Zapoznaj się z sekcją „Zawartość pakietu” i porównaj ją z rozmiarem wystąpienia Adobe. Niestety obecnie nie ma obejścia tego limitu czasu. Rozważamy jednak wprowadzenie aktualizacji w celu zapewnienia lepszej obsługi większych wystąpień. Prześlij opinię do zespołu usługi Power BI za pośrednictwem witryny https://ideas.powerbi.com
 
 ## <a name="next-steps"></a>Następne kroki
-* [Czym są aplikacje w usłudze Power BI?](consumer/end-user-apps.md)
+* [Czym są aplikacje w usłudze Power BI?](service-create-distribute-apps.md)
 * [Pobieranie danych w usłudze Power BI](service-get-data.md)
 * Masz więcej pytań? [Zadaj pytanie społeczności usługi Power BI](http://community.powerbi.com/)
 

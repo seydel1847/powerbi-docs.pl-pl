@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 3d4065a6ab0c5a3c8f18350ef6c3a0444febda08
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 475f3ddf646ddc9c5f29409854f93128ce94dd51
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547067"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908836"
 ---
 # <a name="connect-to-microsoft-dynamics-crm-with-power-bi"></a>Nawiązywanie połączenia z programem Microsoft Dynamics CRM przy użyciu usługi Power BI
 Usługa Microsoft Dynamics CRM Online dla usługi Power BI umożliwia łatwy dostęp do danych i analizowanie ich. Za pomocą źródła danych OData usługa Power BI tworzy model opisowy ze wszystkimi potrzebnymi jednostkami i miarami, takimi jak na przykład klienci, działania, szanse sprzedaży, produkty, potencjalni klienci i użytkownicy. Po zainstalowaniu aplikacji możesz wyświetlić pulpit nawigacyjny i raporty w usłudze Power BI ([https://powerbi.com](https://powerbi.com)) oraz w aplikacjach mobilnych usługi Power BI. 
@@ -26,17 +26,16 @@ To połączenie wymaga usługi **Microsoft Dynamics CRM Online w wersji 2016 lub
 
 ## <a name="how-to-connect"></a>Jak nawiązać połączenie
 [!INCLUDE [powerbi-service-apps-get-more-apps](./includes/powerbi-service-apps-get-more-apps.md)]
-
-1. Wybierz pozycję **Microsoft Dynamics CRM Sales Manager** lub **Microsoft Dynamics CRM Service Manager** i kliknij pozycję **Połącz**.
+3. Wybierz pozycję **Microsoft Dynamics CRM Sales Manager** lub **Microsoft Dynamics CRM Service Manager** i kliknij pozycję **Połącz**.
    
    ![](media/service-connect-to-microsoft-dynamics-crm/connect.png)
-2. Podaj adres URL usługi skojarzony z kontem.  Będzie on miał postać `https://company.crm.dynamics.com`. Więcej szczegółów można znaleźć [poniżej](#FindingParams).
+4. Podaj adres URL usługi skojarzony z kontem.  Będzie on miał postać `https://company.crm.dynamics.com`. Więcej szczegółów można znaleźć [poniżej](#FindingParams).
    
    ![](media/service-connect-to-microsoft-dynamics-crm/params.png)
-3. Po wyświetleniu monitu wprowadź swoje poświadczenia (można pominąć ten krok, jeśli już zalogowano się w przeglądarce). Jako metodę uwierzytelniania wybierz protokół **oAuth2** i kliknij pozycję **Zaloguj**:
+5. Po wyświetleniu monitu wprowadź swoje poświadczenia (można pominąć ten krok, jeśli już zalogowano się w przeglądarce). Jako metodę uwierzytelniania wybierz protokół **oAuth2** i kliknij pozycję **Zaloguj**:
    
    ![](media/service-connect-to-microsoft-dynamics-crm/creds.png)
-4. Po nawiązaniu połączenia zostanie wyświetlony pulpit nawigacyjny, dostosowany pod kątem pakietu Sales Manager lub Service Manager i wypełniony Twoimi danymi:
+6. Po nawiązaniu połączenia zostanie wyświetlony pulpit nawigacyjny, dostosowany pod kątem pakietu Sales Manager lub Service Manager i wypełniony Twoimi danymi:
    
    ![](media/service-connect-to-microsoft-dynamics-crm/dashboard.png)
 
@@ -48,7 +47,7 @@ To połączenie wymaga usługi **Microsoft Dynamics CRM Online w wersji 2016 lub
 ## <a name="whats-included"></a>Zawartość pakietu
 W poniższych sekcjach opisano zawartość usług [Sales Manager](#Sales) i [Service Manager](#Service).
 
-Zwróć uwagę, że wyświetlane dane są dodatkowo ograniczone w zależności od roli zabezpieczeń przypisanej do użytkownika usługi Dynamics CRM Online.
+Dane są ograniczone w zależności od roli zabezpieczeń przypisanej do użytkownika usługi Dynamics CRM Online.
 
 Pulpit nawigacyjny i raporty mają zapewnić raportowanie operacyjne na podstawie danych krótkookresowych, ukierunkowane na zespół lub grupę. Każde zapytanie może pobrać maksymalnie 100 tys. rekordów z usługi Dynamics CRM Online. Jeśli ten limit zostanie przekroczony z powodu dużej ilości danych w organizacji, aprowizacja nie powiedzie się, ponieważ nastąpi przerwanie odświeżania danych usługi Dynamics CRM Online. Jeśli konto jest zbyt duże, zastanów się nad nawiązaniem połączenia za pośrednictwem programu Power BI Desktop w celu utworzenia niestandardowego rozwiązania.
 
@@ -78,7 +77,7 @@ Poniższa tabela zawiera listę jednostek CRM dostępnych w tej usłudze oraz sz
 
 | Jednostka CRM | Stosowane filtry |
 | --- | --- |
-| Klient |Wszyscy klienci z powiązanymi szansami sprzedaży, które zostały zmodyfikowane w ciągu ostatnich 365 dni. |
+| Konto |Wszyscy klienci z powiązanymi szansami sprzedaży, które zostały zmodyfikowane w ciągu ostatnich 365 dni. |
 | Działanie |Wszystkie działania zmodyfikowane w ciągu ostatnich 90 dni <br> [modifiedon] > dziś - 90 dni |
 | Jednostka biznesowa |Wszystkie jednostki biznesowe, które nie zostały wyłączone <br> [isdisabled] = false |
 | Potencjalny klient |Wszyscy potencjalni klienci zmodyfikowani w ciągu ostatnich 180 dni <br> [modifiedon] > dziś - 180 dni |
@@ -154,7 +153,7 @@ Jeśli nie masz usługi CRM Online 2016 ani jej nowszej wersji, połącz się be
 Jeśli zostanie wyświetlony błąd „Odświeżanie danych nie powiodło się, ponieważ zapytanie przekroczyło maksymalny limit 100000 rekordów”, rozważ nawiązanie bezpośredniego połączenia przy użyciu programu Power BI Desktop lub skorzystanie z szablonu rozwiązania CRM.
 
 ## <a name="next-steps"></a>Następne kroki
-* [Czym są aplikacje w usłudze Power BI?](consumer/end-user-apps.md)
+* [Czym są aplikacje w usłudze Power BI?](service-create-distribute-apps.md)
 * [Pobieranie danych w usłudze Power BI](service-get-data.md)
 * Masz więcej pytań? [Zadaj pytanie społeczności usługi Power BI](http://community.powerbi.com/)
 

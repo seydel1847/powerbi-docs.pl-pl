@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/10/2018
+ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 05a644c300a0879b2f5eedd95cdddc537cc6fd0b
-ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
+ms.openlocfilehash: a5a4f6532fe127fe01b699ee9d9e89693fdb369e
+ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44512069"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49336903"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Źródła danych w programie Power BI Desktop
 Korzystając z programu Power BI Desktop, możesz nawiązywać połączenie z danymi z wielu różnych źródeł. Pełna lista dostępnych źródeł danych znajduje się w dolnej części tej strony.
@@ -75,13 +75,15 @@ Kategoria **Baza danych** udostępnia następujące połączenia danych:
 * Teradata Database
 * Baza danych SAP HANA
 * SAP Business Warehouse Application Server
-* SAP Business Warehouse Message Server (wersja beta)
+* SAP Business Warehouse Message Server
 * Amazon Redshift
 * Impala
 * Google BigQuery
 * Snowflake
+* Dremio (wersja beta)
 * Exasol (wersja beta)
 * Jethro (wersja beta)
+* Kyligence Enterprise (wersja beta)
 
 > [!NOTE]
 > Niektóre łączniki baz danych wymagają włączenia przez wybranie pozycji **Plik > Opcje i ustawienia > Opcje**, a następnie wybranie opcji **Funkcje wersji zapoznawczej** i włączenie łącznika. Jeśli chcesz użyć niektórych łączników wymienionych powyżej, ale ich nie widzisz, sprawdź ustawienie **Funkcje wersji zapoznawczej**. Pamiętaj jednak, że wszystkie źródła danych oznaczone jako *beta* lub *wersja zapoznawcza* mają ograniczone wsparcie i funkcjonalność, dlatego nie powinny być używane w środowiskach produkcyjnych.
@@ -112,7 +114,7 @@ Kategoria **Azure** udostępnia następujące połączenia danych:
 * Azure Data Lake Store
 * Azure HDInsight (HDFS)
 * Azure HDInsight Spark
-* Interaktywne zapytanie usługi HDInsight (beta)
+* Interaktywne zapytanie usługi HDInsight
 * Azure KustoDB (beta)
 
 Na poniższej ilustracji przedstawiono okno **Pobieranie danych** dla kategorii **Azure**.
@@ -124,10 +126,10 @@ Kategoria **Usługi online** udostępnia następujące połączenia danych:
 * Lista usługi SharePoint Online
 * Microsoft Exchange Online
 * Dynamics 365 (online)
-* Dynamics NAV (beta)
+* Dynamics NAV
 * Dynamics 365 Business Central
-* Common Data Service for Apps (beta)
-* Common Data Service (beta)
+* Dynamics 365 Business Central (wersja lokalna)
+* Common Data Service for Apps (wersja beta)
 * Microsoft Azure Consumption Insights (beta)
 * Visual Studio Team Services (beta)
 * Obiekty Salesforce
@@ -163,7 +165,7 @@ Na poniższej ilustracji przedstawiono okno **Pobieranie danych** dla kategorii 
 
 Kategoria **Inne** udostępnia następujące połączenia danych:
 
-* Vertica (wersja beta)
+* Vertica
 * Internet
 * Listy programu SharePoint
 * Źródło danych OData
@@ -175,6 +177,8 @@ Kategoria **Inne** udostępnia następujące połączenia danych:
 * Skrypt języka Python
 * ODBC
 * OLE DB
+* Denado
+* Paxata (wersja beta)
 * Puste zapytanie
 
 Na poniższej ilustracji przedstawiono okno **Pobieranie danych** dla kategorii **Inne**.

@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 516d78bd6158c714d5f4418771c5e8cb219ce512
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 25e7fe3e47cee2aed7781fff2a20621e3bd860ed
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547573"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908813"
 ---
 # <a name="manage-your-app-workspace-in-power-bi-and-office-365"></a>Zarządzanie obszarem roboczym aplikacji w usługach Power BI i Office 365
-Jako twórca lub administrator [obszaru roboczego aplikacji w usłudze Power BI](consumer/end-user-apps.md) lub Office 365 zarządzasz pewnymi aspektami obszaru roboczego w usłudze Power BI. Innymi aspektami zarządzasz w usłudze Office 365. 
+Jako twórca lub administrator [obszaru roboczego aplikacji w usłudze Power BI](service-create-distribute-apps.md) lub Office 365 zarządzasz pewnymi aspektami obszaru roboczego w usłudze Power BI. Innymi aspektami zarządzasz w usłudze Office 365. 
 
 > [!NOTE]
 > Wersja zapoznawcza nowego środowiska obszarów roboczych zmieni relację między obszarami roboczymi usługi Power BI a grupami usługi Office 365. Nie będziesz automatycznie tworzyć grupy usługi Office 365 przy każdym tworzeniu jednego z nowych obszarów roboczych. Przeczytaj o [tworzeniu nowych obszarów roboczych (wersja zapoznawcza)](service-create-the-new-workspaces.md)
@@ -36,7 +36,7 @@ Jako twórca lub administrator [obszaru roboczego aplikacji w usłudze Power BI]
 * Zobaczyć adres e-mail grupy.
 * Usunąć grupę.
 
-Aby być administratorem lub członkiem obszaru roboczego aplikacji, musisz mieć licencję usługi [Power BI Pro](service-free-vs-pro.md). Użytkownicy Twojej aplikacji również potrzebują licencji usługi Power BI Pro, chyba że obszar roboczy aplikacji ma uprawnienia usługi Power BI Premium. Przeczytaj artykuł [Co to jest usługa Power BI Premium?](service-premium.md), aby zapoznać się ze szczegółowymi informacjami.
+Aby być administratorem lub członkiem obszaru roboczego aplikacji, musisz mieć [licencję usługi Power BI Pro](service-features-license-type.md). Użytkownicy Twojej aplikacji również potrzebują licencji usługi Power BI Pro, chyba że obszar roboczy aplikacji ma uprawnienia usługi Power BI Premium. Przeczytaj artykuł [Co to jest usługa Power BI Premium?](service-premium.md), aby zapoznać się ze szczegółowymi informacjami.
 
 ## <a name="edit-your-app-workspace-in-power-bi"></a>Edytowanie obszaru roboczego aplikacji w usłudze Power BI
 1. W usłudze Power BI wybierz strzałkę obok pozycji **Obszary robocze** > wybierz wielokropek (**...**) obok nazwy swojego obszaru roboczego > **Edytuj obszar roboczy**. 
@@ -76,7 +76,6 @@ Podczas dystrybucji swojej aplikacji z obszaru roboczego aplikacji dodawany tuta
 3. Wybierz pozycję **Zapisz** lub **Odrzuć**.
 
 ## <a name="next-steps"></a>Następne kroki
-* [Czym są aplikacje w usłudze Power BI?](consumer/end-user-apps.md)
-* [Publikowanie aplikacji z pulpitami nawigacyjnymi i raportami w usłudze Power BI](consumer/end-user-create-apps.md)
+* [Publikowanie aplikacji z pulpitami nawigacyjnymi i raportami w usłudze Power BI](service-create-distribute-apps.md)
 * Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
 

@@ -1,5 +1,5 @@
 ---
-title: Wyodrębnianie danych ze strony internetowej według przykładu w programie Power BI Desktop (wersja zapoznawcza)
+title: Wyodrębnianie danych ze strony internetowej według przykładu w programie Power BI Desktop
 description: Wyodrębnianie danych ze strony internetowej przez podanie przykładu danych do ściągnięcia
 author: davidiseminger
 manager: kfile
@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/07/2018
+ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 55c1a70e054b6bb6ff06c7fe6f83b58d8b1f26f3
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: f90f2ea4737fc5c98df4d171f8e1e65c2704607d
+ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34290987"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49336811"
 ---
-# <a name="get-data-from-a-web-page-by-providing-an-example-preview"></a>Pobieranie danych ze strony internetowej przez podanie przykładu (wersja zapoznawcza)
+# <a name="get-data-from-a-web-page-by-providing-an-example"></a>Pobieranie danych ze strony internetowej przez podanie przykładu
 
 Pobieranie danych ze strony internetowej umożliwia użytkownikom łatwe wyodrębnianie danych ze stron internetowych i importowanie ich do programu **Power BI Desktop**. Często jednak dane na stronach internetowych nie są umieszczane w uporządkowanych, łatwych do wyodrębnienia tabelach, dlatego pobieranie danych z tych stron — nawet gdy są one spójne i mają odpowiednią strukturę — może stanowić wyzwanie. 
 
@@ -26,13 +26,6 @@ Ale ten problem można rozwiązać. Przy użyciu funkcji **Pobieranie danych z I
 ![Pobieranie danych z Internetu według przykładu](media/desktop-connect-to-web-by-example/web-by-example_01.png)
 
 
-## <a name="enabling-the-preview-feature-get-data-from-web-by-example"></a>Włączanie funkcji pobierania danych z Internetu według przykładu w wersji zapoznawczej
-
-Funkcja **Pobieranie danych z Internetu według przykładu** jest dostępna w wersji zapoznawczej i musi zostać włączona w programie **Power BI Desktop**. Aby włączyć tę funkcję, wybierz pozycję **Plik > Opcje i ustawienia > Opcje > Funkcje w wersji zapoznawczej**, a następnie zaznacz pole wyboru **Nowe środowisko „Z Internetu”**. Po zaznaczeniu należy uruchomić ponownie program Power BI Desktop.
-
-![włączanie funkcji w wersji zapoznawczej](media/desktop-connect-to-web-by-example/web-by-example_02.png)
-
-Po włączeniu funkcji wersji zapoznawczej możesz rozpocząć korzystanie z niej. 
 
 ## <a name="using-get-data-from-web-by-example"></a>Używanie funkcji Pobieranie danych z Internetu według przykładu
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: c69b73be481408884cc4fbfc5ae4987714b10d9d
-ms.sourcegitcommit: 60f637d8555fd59fd9a86de720b89b388fb85ac0
+ms.openlocfilehash: cfa25a28490a2254bd19bb431beea0ebc14d3c56
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/05/2018
-ms.locfileid: "43695115"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549753"
 ---
 # <a name="connect-to-microsoft-dynamics-marketing-with-power-bi"></a>Nawiązywanie połączenia z usługą Microsoft Dynamics Marketing przy użyciu usługi Power BI
 Pakiet zawartości Microsoft Dynamics Marketing dla usługi Power BI pozwala na łatwe uzyskiwanie dostępu do danych usługi Dynamics Marketing i analizowanie ich. Ten pakiet zawartości wykorzystuje model opisowy oparty na źródle danych OData ze wszystkimi potrzebnymi jednostkami i miarami, takimi jak programy, kampanie, kontakty i firmy marketingowe, potencjalni klienci, interakcje z potencjalnymi klientami i określanie ich wyników, marketingowe wiadomości e-mail i witryny internetowe, obserwacje zachowań, budżety, transakcje finansowe, wskaźniki KPI wydajności i wiele innych. 
@@ -47,10 +47,10 @@ Nawiąż połączenie z [pakietem zawartości Dynamics Marketing](https://app.po
 
 **Co teraz?**
 
-* Spróbuj [zadać pytanie w polu funkcji Pytania i odpowiedzi](power-bi-q-and-a.md) w górnej części pulpitu nawigacyjnego
+* Spróbuj [zadać pytanie w polu funkcji Pytania i odpowiedzi](consumer/end-user-q-and-a.md) w górnej części pulpitu nawigacyjnego
 * [Zmień kafelki](service-dashboard-edit-tile.md) na pulpicie nawigacyjnym.
-* [Wybierz kafelek](service-dashboard-tiles.md), aby otworzyć raport źródłowy.
-* Zestaw danych zostanie ustawiony na codzienne odświeżanie, ale możesz zmienić harmonogram odświeżania lub spróbować odświeżyć go na żądanie przy użyciu opcji **Odśwież teraz**
+* [Wybierz kafelek](consumer/end-user-tiles.md), aby otworzyć raport źródłowy.
+* Dla zestawu danych jest zaplanowane codzienne odświeżanie, ale możesz zmienić harmonogram odświeżania lub odświeżyć go na żądanie przy użyciu polecenia **Odśwież teraz**
 
 ## <a name="system-requirements"></a>Wymagania systemowe
 * Należy określić prawidłowy adres URL źródła danych OData dla wystąpienia programu Dynamics Marketing (pakiet zawartości nie będzie działać z lokalną wersją programu CRM).  

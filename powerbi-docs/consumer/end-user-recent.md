@@ -8,20 +8,17 @@ featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/01/2018
+ms.date: 10/01/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: a165b58eae7309070dfe0bc33adc0a3e47ec7991
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 1479b8fc431428a1b44ccd06bb501071042ada6e
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46555468"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908491"
 ---
 # <a name="recent-content-in-power-bi-service"></a>**Ostatnia** zawartość w usłudze Power BI
-
-
-## <a name="what-is-recent-content"></a>Co to jest ostatnia zawartość
 Ostatnia zawartość to ostatnio wyświetlane elementy w usłudze Power BI, maksymalnie 20 elementów.  Obejmują one: pulpity nawigacyjne, raporty, aplikacje i skoroszyty we wszystkich Twoich obszarach roboczych.
 
 ![Okno Ostatnia zawartość](./media/end-user-recent/power-bi-recent-screen.png)
@@ -39,10 +36,10 @@ Jeśli masz więcej niż pięć ostatnio odwiedzonych elementów, wybierz pozycj
 
 ![wyświetlanie całej ostatniej zawartości](./media/end-user-recent/power-bi-recent-list.png)
 
-W tym miejscu można wchodzić w interakcje z zawartością w taki sam sposób, jak na poszczególnych kartach [**Pulpity nawigacyjne**](end-user-dashboards.md), [**Raporty**](end-user-reports.md) i **Skoroszyty** oraz na ekranie [**Aplikacje**](end-user-apps.md).
+W tym miejscu można wchodzić w interakcje z zawartością w taki sam sposób, jak na poszczególnych kartach [**Pulpity nawigacyjne**](end-user-dashboards.md), [**Raporty**](end-user-reports.md) i **Skoroszyty** oraz na ekranie aplikacji <!--[**Apps**](end-user-apps.md)-->.
 
 ## <a name="next-steps"></a>Następne kroki
-[Aplikacje usługi Power BI](end-user-apps.md)
+<!--[Power BI service Apps](end-user-apps.md)-->
 
 Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
 

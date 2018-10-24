@@ -7,22 +7,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/26/2018
+ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5db9b801fad3145cc864799062fe886c99da53aa
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: 73be85644fd320bd44372a0df6c844705c3cf602
+ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39280207"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49336926"
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>Używanie łącznika systemu SAP BW w programie Power BI Desktop
 Program Power BI Desktop umożliwia dostęp do danych systemu **SAP Business Warehouse (BW)**.
 
 Aby dowiedzieć się, jak klienci systemu SAP mogą korzystać z zalet połączenia usługi Power BI z istniejącymi systemami SAP Business Warehouse (BW), zapoznaj się z [oficjalnym dokumentem dotyczącym usługi Power BI i systemu SAP BW](https://aka.ms/powerbiandsapbw). Aby uzyskać szczegółowe informacje o używaniu trybu DirectQuery z systemem SAP BW, zobacz artykuł [Zapytanie bezpośrednie i system SAP Business Warehouse (BW)](desktop-directquery-sap-bw.md).
 
-Począwszy od wersji programu **Power BI Desktop** wydanej w czerwcu 2018 roku, można używać łącznika SAP BW Connector w implementacji oferującej znaczącą poprawę wydajności i dostępności. Ta zaktualizowana wersja łącznika SAP BW Connector została opracowana przez firmę Microsoft i jest nazywana wersją **Implementation 2.0**. Możesz wybrać wersję 1 (v1) łącznika **SAP BW Connector** lub łącznik **Implementation 2.0 SAP Connector**. W poniższych sekcjach opisano instalację każdej z wersji. Możesz wybrać jeden lub drugi łącznik podczas nawiązywania połączenia z systemem SAP BW z poziomu programu Power BI Desktop.
+Począwszy od wersji programu **Power BI Desktop** wydanej w czerwcu 2018 roku (ogólnodostępnej od października 2018 r.), można używać łącznika SAP BW Connector w implementacji oferującej znaczącą poprawę wydajności i dostępności. Ta zaktualizowana wersja łącznika SAP BW Connector została opracowana przez firmę Microsoft i jest nazywana wersją **Implementation 2.0**. Możesz wybrać wersję 1 (v1) łącznika **SAP BW Connector** lub łącznik **Implementation 2.0 SAP Connector**. W poniższych sekcjach opisano instalację każdej z wersji. Możesz wybrać jeden lub drugi łącznik podczas nawiązywania połączenia z systemem SAP BW z poziomu programu Power BI Desktop.
 
 Sugerujemy używanie łącznika **Implementation 2.0 SAP Connector** zawsze, gdy jest to możliwe.
 

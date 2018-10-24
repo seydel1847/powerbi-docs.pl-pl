@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/10/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 3c1000eb48cfb53f5838f19f6c0ece4403e9d3ba
-ms.sourcegitcommit: 126e5eca8bfab6273581dabd7603df88be755240
+ms.openlocfilehash: 00a42a3ffcc92ca7bc48459635359acb9da8da82
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/11/2018
-ms.locfileid: "40257169"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548355"
 ---
 # <a name="connect-to-application-insights-with-power-bi"></a>Łączenie się z usługą Application Insights za pomocą usługi Power BI
 Usługa Power BI umożliwia tworzenie zaawansowanych niestandardowych pulpitów nawigacyjnych z telemetrii usługi [Application Insights](https://azure.microsoft.com/documentation/articles/app-insights-overview/). Dostępne są nowe sposoby wykorzystania telemetrii aplikacji. Możesz łączyć metryki z wielu aplikacji lub usług składowych na jednym pulpicie nawigacyjnym. Ta pierwsza wersja pakietu zawartości usługi Power BI dla usługi Application Insights zawiera widgety dla typowych metryk związanych z użyciem, takich jak aktywni użytkownicy, widok strony, sesje, przeglądarka i wersja systemu operacyjnego oraz rozkład geograficzny użytkowników na mapie.
@@ -47,10 +47,10 @@ Połącz się z [pakietem zawartości Application Insights dla usługi Power BI]
 
 **Co teraz?**
 
-* Spróbuj [zadać pytanie w polu funkcji Pytania i odpowiedzi](power-bi-q-and-a.md) w górnej części pulpitu nawigacyjnego
+* Spróbuj [zadać pytanie w polu funkcji Pytania i odpowiedzi](consumer/end-user-q-and-a.md) w górnej części pulpitu nawigacyjnego
 * [Zmień kafelki](service-dashboard-edit-tile.md) na pulpicie nawigacyjnym.
-* [Wybierz kafelek](service-dashboard-tiles.md), aby otworzyć raport źródłowy.
-* Zestaw danych zostanie ustawiony na codzienne odświeżanie, ale możesz zmienić harmonogram odświeżania lub spróbować odświeżyć go na żądanie przy użyciu opcji **Odśwież teraz**
+* [Wybierz kafelek](consumer/end-user-tiles.md), aby otworzyć raport źródłowy.
+* Dla zestawu danych jest zaplanowane codzienne odświeżanie, ale możesz zmienić harmonogram odświeżania lub odświeżyć go na żądanie przy użyciu polecenia **Odśwież teraz**
 
 ## <a name="whats-included"></a>Zawartość pakietu
 Pakiet zawartości Application Insights obejmuje następujące tabele i metryki:  

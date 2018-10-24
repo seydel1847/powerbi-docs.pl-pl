@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 6cdb4d6684ec97786c7fd10da7d22515a24e9dbc
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: ccb878da983aad493efb2cfdfb0d09366964a157
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34250059"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545434"
 ---
 # <a name="connect-to-windows-dev-center-with-power-bi"></a>Nawiązywanie połączenia z Centrum deweloperów systemu Windows przy użyciu usługi Power BI
 Eksploruj i monitoruj dane analiz aplikacji Centrum deweloperów systemu Windows w usłudze Power BI przy użyciu pakietu zawartości Power BI. Dane będą odświeżane automatycznie raz dziennie.
@@ -48,10 +48,10 @@ Nawiąż połączenie z [pakietem zawartości Centrum deweloperów systemu Windo
 
 **Co teraz?**
 
-* Spróbuj [zadać pytanie w polu funkcji Pytania i odpowiedzi](power-bi-q-and-a.md) w górnej części pulpitu nawigacyjnego
+* Spróbuj [zadać pytanie w polu funkcji Pytania i odpowiedzi](consumer/end-user-q-and-a.md) w górnej części pulpitu nawigacyjnego
 * [Zmień kafelki](service-dashboard-edit-tile.md) na pulpicie nawigacyjnym.
-* [Wybierz kafelek](service-dashboard-tiles.md), aby otworzyć raport źródłowy.
-* Zestaw danych zostanie ustawiony na codzienne odświeżanie, ale możesz zmienić harmonogram odświeżania lub spróbować odświeżyć go na żądanie przy użyciu opcji **Odśwież teraz**
+* [Wybierz kafelek](consumer/end-user-tiles.md), aby otworzyć raport źródłowy.
+* Dla zestawu danych jest zaplanowane codzienne odświeżanie, ale możesz zmienić harmonogram odświeżania lub odświeżyć go na żądanie przy użyciu polecenia **Odśwież teraz**
 
 ## <a name="whats-included"></a>Zawartość pakietu
 Pakiet zawartości Centrum deweloperów dla usługi Power BI zawiera dane analityczne dotyczące aplikacji oraz nabyć IAP, klasyfikacji, recenzji i kondycji aplikacji. Dane są ograniczone do ostatnich 3 miesięcy. oraz jest to okno ruchome, więc uwzględnione daty będą aktualizowane podczas odświeżania zestawu danych.
@@ -66,7 +66,7 @@ Ten pakiet zawartości wymaga co najmniej jednej aplikacji opublikowanej w Sklep
 ## <a name="finding-parameters"></a>Znajdowanie parametrów
 Identyfikator aplikacji można znaleźć na stronie tożsamości aplikacji w sekcji Zarządzanie aplikacjami.
 
-Identyfikator aplikacji znajduje się na końcu adresu URL w Sklepie Windows 10, https://www.microsoft.com/store/apps/https://www.microsoft.com/store/apps/ **{identyfikator_aplikacji}**
+Identyfikator aplikacji znajduje się na końcu adresu URL w Sklepie Windows 10, https://www.microsoft.com/store/apps/ https://www.microsoft.com/store/apps/ **{identyfikator_aplikacji}**
 
 ## <a name="next-steps"></a>Następne kroki
 [Wprowadzenie do usługi Power BI](service-get-started.md)
