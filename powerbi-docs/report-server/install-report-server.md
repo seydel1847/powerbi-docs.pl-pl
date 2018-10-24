@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 03/19/2018
+ms.date: 09/19/2018
 ms.author: maggies
-ms.openlocfilehash: 3efd7da5ef320e08ab620da3c63a6d3ff327396a
-ms.sourcegitcommit: 49570ab8f5b5cd5bab4cd388f4281b1372bcb80b
+ms.openlocfilehash: 1d74ed5e39d73252d0779458d0ba8619908c99f2
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/09/2018
-ms.locfileid: "35250389"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46565917"
 ---
 # <a name="install-power-bi-report-server"></a>Instalowanie serwera raportów usługi Power BI
 
@@ -30,11 +30,11 @@ Przed zainstalowaniem serwera raportów usługi Power BI zalecane jest przejrzen
 ### <a name="power-bi-report-server-product-key"></a>Klucz produktu serwera raportów usługi Power BI
 
 #### <a name="power-bi-premium"></a>Power BI Premium
-Jeśli zakupiono usługę Power BI Premium, na karcie **Ustawienia wersji Premium** w portalu administracyjnym usługi Power BI będzie dostępny klucz produktu serwera raportów usługi Power BI. Jest on dostępny tylko dla administratorów globalnych lub użytkowników z przypisaną rolą administratora usługi Power BI.
+Jeśli zakupiono usługę Power BI Premium, na karcie **Ustawienia wersji Premium** w portalu administracyjnym usługi Power BI jest dostępny klucz produktu serwera raportów usługi Power BI. Jest on dostępny tylko dla administratorów globalnych lub użytkowników z przypisaną rolą administratora usługi Power BI.
 
 ![](../media/service-admin-premium-manage/pbirs-product-key.png "Klucz serwera raportów usługi Power BI w obszarze Ustawienia wersji Premium")
 
-Wybranie pozycji **Klucz serwera raportów usługi Power BI** spowoduje wyświetlenie okna dialogowego z Twoim kluczem produktu. Możesz skopiować go i użyć podczas instalacji.
+Wybranie pozycji **Klucz serwera raportów usługi Power BI** powoduje wyświetlenie okna dialogowego z Twoim kluczem produktu. Możesz skopiować go i użyć podczas instalacji.
 
 ![](../media/service-admin-premium-manage/pbirs-product-key-dialog.png "Klucz produktu serwera raportów usługi Power BI")
 
@@ -77,7 +77,7 @@ Aparat bazy danych programu SQL Server nie musi być dostępny podczas instalacj
 
 ## <a name="configuring-your-report-server"></a>Konfigurowanie serwera raportów
 
-Po wybraniu opcji **Konfiguruj serwer raportów** w instalatorze zostanie wyświetlony Menedżer konfiguracji usług Reporting Services. Więcej informacji zawiera temat [Menedżer konfiguracji usług Reporting Services](https://docs.microsoft.com/sql/reporting-services/install-windows/reporting-services-configuration-manager-native-mode).
+Po wybraniu opcji **Konfiguruj serwer raportów** w instalatorze jest wyświetlany Menedżer konfiguracji usług Reporting Services. Więcej informacji zawiera temat [Menedżer konfiguracji usług Reporting Services](https://docs.microsoft.com/sql/reporting-services/install-windows/reporting-services-configuration-manager-native-mode).
 
 Należy [utworzyć bazę danych serwera raportów](https://docs.microsoft.com/sql/reporting-services/install-windows/ssrs-report-server-create-a-report-server-database) w celu ukończenia wstępnej konfiguracji usług Reporting Services. Do ukończenia tego kroku jest wymagana baza danych programu SQL Server.
 

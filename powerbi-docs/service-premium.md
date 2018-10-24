@@ -1,5 +1,5 @@
 ---
-title: Power BI Premium — co to jest?
+title: Czym jest usługa Microsoft Power BI Premium?
 description: Usługa Power BI Premium została opracowana z myślą o pojemności dla organizacji lub zespołu, aby zapewniać jeszcze bardziej niezawodną wydajność i większe woluminy danych — bez potrzeby kupowania licencji użytkowników.
 author: mgblythe
 ms.author: mblythe
@@ -10,17 +10,20 @@ ms.component: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/11/2018
 LocalizationGroup: Premium
-ms.openlocfilehash: 87847575d4fff3d3530847246be5bc8f720b5141
-ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
+ms.openlocfilehash: 0723ddb57131fed499d4ac86666b3cd6d8bcbd2d
+ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44512138"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48271813"
 ---
-# <a name="power-bi-premium---what-is-it"></a>Power BI Premium — co to jest?
-Usługa Power BI Premium zapewnia zasoby dedykowane do uruchamiania usługi Power BI dla organizacji lub zespołu. Zapewnia ona bardziej niezawodną wydajność i umożliwia przetwarzanie większych ilości danych. Ponadto usługa Premium umożliwia szeroką dystrybucję zawartości bez potrzeby zakupu licencji dla użytkowników, którzy mają ją wyświetlać.
+# <a name="what-is-microsoft-power-bi-premium"></a>Czym jest usługa Microsoft Power BI Premium?
 
-Możesz wykorzystać usługę Power BI Premium, przydzielając obszary robocze do *pojemności Premium*. Pojemność Premium jest dedykowanym zasobem dla Twojej organizacji. Obszary robocze nieprzypisane do pojemności Premium znajdują się w *pojemności udostępnionej*. W przypadku pojemności udostępnionej obciążenia są uruchamiane na zasobach komputerowych udostępnianych przez innych klientów. W pojemności udostępnionej wobec użytkowników stosuje się większe limity, aby zapewnić jakość środowiska dla wszystkich użytkowników.
+Usługa Microsoft Power BI Premium zapewnia zasoby dedykowane do uruchamiania usługi Power BI dla organizacji lub zespołu. Zapewnia ona bardziej niezawodną wydajność i umożliwia przetwarzanie większych ilości danych. Ponadto usługa Premium umożliwia szeroką dystrybucję zawartości bez potrzeby zakupu licencji usługi Pro dla użytkowników, którzy mają ją wyświetlać.
+
+Możesz wykorzystać usługę Power BI Premium, przydzielając obszary robocze do *pojemności Premium*. Pojemność Premium jest dedykowanym zasobem dla Twojej organizacji. Obszary robocze nieprzypisane do pojemności Premium znajdują się w *pojemności udostępnionej*. W przypadku pojemności udostępnionej obciążenia są uruchamiane na zasobach komputerowych udostępnianych przez innych klientów. 
+
+W pojemności udostępnionej usługa Power BI stosuje większe limity wobec poszczególnych użytkowników, aby zapewnić jakość środowiska dla wszystkich użytkowników. Domyślnie obszar roboczy, w tym osobisty obszar *Mój obszar roboczy* i obszar roboczy aplikacji.
 
 [!INCLUDE [powerbi-premium-illustration](./includes/powerbi-premium-illustration.md)]
 
@@ -28,7 +31,7 @@ Możesz wykorzystać usługę Power BI Premium, przydzielając obszary robocze d
 
 ## <a name="capacity-tiers"></a>Warstwy pojemności
 
-Istnieją dwa typy pojemności w usłudze Power BI. Pojemność udostępniona oraz pojemność Power BI Premium. Poniżej przedstawiono różnice między nimi.
+Poniżej przedstawiono podsumowanie różnic między pojemnością udostępnioną oraz pojemnością Premium.
 
 |  | Pojemność udostępniona | Pojemność Power BI Premium |
 | --- | --- | --- |
@@ -39,23 +42,18 @@ Istnieją dwa typy pojemności w usłudze Power BI. Pojemność udostępniona or
 | Osadzone interfejsy API i kontrolki |![](media/service-premium/not-available.png "Niedostępne") |![](media/service-premium/available.png "Dostępne")<sup>2</sup> |
 | **Publikowanie raportów usługi Power BI lokalnie** |![](media/service-premium/not-available.png "Niedostępne") |![](media/service-premium/available.png "Dostępne") |
 
-*<sup>1</sup> Aby uzyskać więcej informacji, zobacz funkcjonalność [Możliwości użytkowników w usługach Power BI Pro i Power BI Premium](service-free-vs-pro.md).*  
+*<sup>1</sup> Aby uzyskać więcej informacji, zobacz [Power BI features by license type](service-features-license-type.md) (Funkcje usługi Power BI według typu licencji).*  
 *<sup>2</sup> Przyszłe ulepszenia w usłudze Power BI Premium.*
 
-### <a name="premium-capacity"></a>Pojemność Premium
+Aby rozpocząć używanie pojemności Power BI Premium, przypisz obszar roboczy do pojemności. Gdy pojemność Premium obsługuje obszar roboczy, otrzymujesz następujące korzyści:
 
-Aby rozpocząć używanie pojemności Power BI Premium, musisz przypisać obszar roboczy do pojemności. Gdy pojemność Premium obsługuje obszar roboczy, otrzymujesz następujące korzyści:
+* **Zaplanowane odświeżanie**: w przypadku pojemności udostępnionej zaplanowane operacje odświeżania zestawów danych importowanych modeli są ograniczone do ośmiu razy dziennie. W przypadku zestawów danych w obszarach roboczych Premium można zaplanować odświeżanie maksymalnie 48 razy dziennie. Operacje odświeżania pamięci podręcznej trybu DirectQuery są nadal ograniczone do ośmiu razy dziennie w pojemności Premium.
 
-* **Zaplanowane odświeżanie**: w przypadku pojemności udostępnionej zaplanowane operacje odświeżania zestawów danych importowanych modeli są ograniczone do 8 razy dziennie. W przypadku zestawów danych w obszarach roboczych Premium można zaplanować odświeżanie maksymalnie 48 razy dziennie. Zwiększona liczba zaplanowanych operacji odświeżania nie ma zastosowania do ustawień zaplanowanego odświeżania pamięci podręcznej dla trybu DirectQuery, które pozostają takie same w przypadku pojemności Premium i udostępnianej.
-* **Izolacja z dedykowanym sprzętem**: zgodnie z naturą pojemności udostępnionej zapotrzebowanie na zasoby innych obciążeń w pojemności może mieć wpływ na wydajność raportów i pulpitów nawigacyjnych bez względu na zabezpieczenia przed takim zachowaniem. Jednak pojemność Premium zapewnia bardziej spójną, niezawodną wydajność dla obciążeń poprzez izolowanie ich od innych niepowiązanych obciążeń.
+* **Izolacja z dedykowanym sprzętem**: w przypadku pojemności udostępnionej zapotrzebowanie na zasoby innych obciążeń może mieć wpływ na wydajność raportów i pulpitów nawigacyjnych. Natomiast pojemność Premium zapewnia bardziej spójną, niezawodną wydajność dla obciążeń przez izolowanie ich od innych niepowiązanych obciążeń.
 
 Jeśli aplikacja jest wspierana przez pojemność Premium (tj. została opublikowana z obszaru roboczego aplikacji obecnie przypisanego do warstwy Premium), opublikowana aplikacja może być używana przez dowolnego użytkownika w organizacji niezależnie od przypisanej do niego licencji.
 
 Aby dowiedzieć się więcej na temat przypisywania obszarów roboczych do pojemności Premium, zobacz [Zarządzanie usługą Power BI Premium](service-admin-premium-manage.md).
-
-### <a name="shared-capacity"></a>Pojemność udostępniona
-
-Domyślnie obszar roboczy znajduje się w pojemności udostępnionej. Dotyczy to również osobistego obszaru *Mój obszar roboczy* wraz z obszarami roboczymi aplikacji. Pojemność udostępniona jest środowiskiem użytkownika znanym z usługi Power BI, w którym obciążenia są uruchamiane na zasobach komputerowych udostępnianych przez innych klientów.
 
 <a name="premiumskus"/>
 
@@ -64,10 +62,11 @@ Domyślnie obszar roboczy znajduje się w pojemności udostępnionej. Dotyczy to
 Usługa Power BI Premium jest dostępna z konfiguracjami węzłów z różnymi pojemnościami rdzeni wirtualnych. Aby uzyskać więcej informacji na temat określonych ofert i kosztów jednostek SKU, zobacz [Cennik usługi Power BI](https://powerbi.microsoft.com/pricing/). Dostępny jest również [kalkulator kosztów](https://powerbi.microsoft.com/calculator/). Aby uzyskać informacje na temat planowania pojemności dla osadzonych funkcji analitycznych, zobacz [Oficjalny dokument dotyczący planowania wdrożenia usługi Power BI Enterprise](https://aka.ms/pbienterprisedeploy).
 
 * Węzły P mogą być używane do wdrożeń osadzonych lub usługi.
+
 * Węzły EM mogą być używane wyłącznie do wdrożeń osadzonych. Węzły EM nie mają dostępu do możliwości premium, takich jak udostępnianie aplikacji użytkownikom, którzy nie mają licencji usługi Power BI Pro.
 
 >[!NOTE]
->Linki w tej tabeli działają prawidłowo wyłącznie dla użytkowników, którzy są administratorami globalnymi usługi Office 365 — inni zobaczą błąd 404.
+>Linki w tej tabeli działają prawidłowo wyłącznie dla użytkowników, którzy są administratorami globalnymi usługi Office 365. Inni zobaczą błąd 404.
 
 | Węzeł pojemności | Całkowita liczba rdzeni wirtualnych<br/>*(Wewnętrzna baza danych + fronton)* | Rdzenie wirtualne zaplecza | Rdzenie wirtualne frontonu | Limity zapytania bezpośredniego/połączenia na żywo | Maksymalne renderowanie strony w godzinie szczytu | Dostępność |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -79,6 +78,7 @@ Usługa Power BI Premium jest dostępna z konfiguracjami węzłów z różnymi p
 | [P3](https://portal.office.com/SubscriptionDetails?OfferId=40c7d673-375c-42a1-84ca-f993a524fed0&adminportal=1) |32 rdzenie wirtualne |16 rdzeni wirtualnych, 100 GB pamięci RAM |16 rdzeni wirtualnych |120 na sekundę |4,801-9600 |Dostępne |
 
 * Rdzenie wirtualne frontonu odpowiadają za zarządzanie usługami internetowymi, pulpitami nawigacyjnymi i dokumentami raportów, zarządzanie uprawnieniami dostępu, planowanie, interfejsy API, przekazywanie i pobieranie oraz ogólnie za wszystkie elementy związane ze środowiskiem użytkownika.
+
 * Rdzenie wirtualne zaplecza odpowiadają za ciężkie obciążenia: przetwarzanie zapytań, zarządzanie pamięcią podręczną, uruchamianie serwerów języka R, odświeżanie danych, przetwarzanie języka naturalnego, źródła danych w czasie rzeczywistym oraz renderowanie raportów i obrazów po stronie serwera. Ponadto w przypadku rdzeni wirtualnych zaplecza zarezerwowana jest pewna ilość pamięci. Dostępność wystarczającej pamięci staje się szczególnie ważna w przypadku obsługi dużych modeli danych lub dużej liczby aktywnych zestawów danych.
 
 ## <a name="power-bi-report-server"></a>Serwer raportów usługi Power BI

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/22/2018
+ms.date: 09/14/2018
 ms.author: maggies
-ms.openlocfilehash: 6ea5814cdba7df6d7e7bb4bbb284f52110ca184c
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 06a8d15ca894b877199f22fc6c00d4c34827d76b
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44737171"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547803"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>Wyświetlanie raportów usługi Power BI zoptymalizowanych pod kątem telefonu
 
@@ -24,7 +24,7 @@ Dotyczy:
 |:--- |:--- |
 | Telefony iPhone |Telefony z systemem Android |
 
-Podczas tworzenia raportu usługi Power BI w programie Power BI Desktop możesz również [utworzyć wersję tego raportu zoptymalizowaną pod kątem wyświetlania](../../desktop-create-phone-report.md) w aplikacji Power BI na telefonie.
+Podczas tworzenia raportu usługi Power BI w programie Power BI Desktop lub w usłudze możesz również [utworzyć wersję tego raportu zoptymalizowaną pod kątem wyświetlania](../../desktop-create-phone-report.md) w aplikacji Power BI na telefonie.
 
 W takim przypadku po otwarciu raportu usługi Power BI na telefonie usługa wykrywa, czy raport został zoptymalizowany pod kątem korzystania z niego na telefonie, i automatycznie otwiera zoptymalizowany raport w widoku pionowym.
 
@@ -79,7 +79,7 @@ Niektóre czynności można wykonać wyłącznie w trybie koncentracji uwagi z p
     Funkcja Cofanie jest dostępna na poziomie raportu — wówczas usuwa wszystkie czynności wykonane na wszystkich wizualizacjach — lub na poziomie wizualizacji, gdzie usuwa wszystkie czynności z wybranej wizualizacji.   
 
 ## <a name="drill-down-in-a-visual"></a>Przechodzenie do szczegółów w wizualizacji
-Jeśli w wizualizacji zdefiniowano poziomy hierarchii, możesz przejść do informacji szczegółowych wyświetlonych w wizualizacji, a następnie wrócić do informacji ogólnych. Możesz dodać [możliwość przejścia do szczegółów wizualizacji](../../power-bi-visualization-drill-down.md) w usłudze Power BI lub programie Power BI Desktop. Przechodzenie do szczegółów działa w raportach usługi Power BI zoptymalizowanych pod kątem korzystania z telefonu tylko podczas wyświetlania ich na telefonie. 
+Jeśli w wizualizacji zdefiniowano poziomy hierarchii, możesz przejść do informacji szczegółowych wyświetlonych w wizualizacji, a następnie wrócić do informacji ogólnych. Możesz dodać [możliwość przejścia do szczegółów wizualizacji](../end-user-drill.md) w usłudze Power BI lub programie Power BI Desktop. Przechodzenie do szczegółów działa w raportach usługi Power BI zoptymalizowanych pod kątem korzystania z telefonu tylko podczas wyświetlania ich na telefonie. 
 
 1. W raporcie wyświetlonym na telefonie naciśnij ikonę wielokropka (**...**) w prawym górnym rogu, a następnie wybierz opcję **Rozwiń do trybu koncentracji uwagi**.
    

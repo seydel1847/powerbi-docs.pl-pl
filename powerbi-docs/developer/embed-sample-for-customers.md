@@ -3,18 +3,18 @@ title: Osadzanie zawartości usługi Power BI w aplikacji dla klientów
 description: Dowiedz się, jak integrować lub osadzać raport, pulpit nawigacyjny lub kafelek w aplikacji internetowej przy użyciu interfejsów API usługi Power BI dla klientów.
 author: markingmyname
 ms.author: maghan
-ms.date: 06/20/2018
+manager: kfile
 ms.topic: tutorial
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
-manager: kfile
-ms.openlocfilehash: 3cb33180c24022c1e328691ce3a776875d4c87a9
-ms.sourcegitcommit: b45134887a452f816a97e384f4333db9e1d8b798
+ms.date: 06/20/2018
+ms.openlocfilehash: 6685b47de6fbcc4ce35d5087c545814e34092d11
+ms.sourcegitcommit: b7b828019b2a2917dfda4d6df0c9cdce70fa68cd
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47238128"
+ms.lasthandoff: 10/05/2018
+ms.locfileid: "48827438"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-customers"></a>Samouczek: osadzanie raportu, pulpitu nawigacyjnego lub kafelka usługi Power BI w aplikacji dla klientów
 
@@ -57,7 +57,7 @@ Aplikację można zarejestrować w usłudze Azure Active Directory, aby zapewni�
     ![Wyszukiwanie rejestracji aplikacji](media/embed-sample-for-customers/embed-sample-for-customers-003.png)</br>
     ![Nowa rejestracja aplikacji](media/embed-sample-for-customers/embed-sample-for-customers-004.png)
 
-4. Postępuj zgodnie z monitami i utwórz nową aplikację. W przypadku struktury „app owns data” użyj typu aplikacji **Natywna**. Podaj również **Identyfikator URI przekierowania**, którego usługa **Azure AD** używa do zwracania odpowiedzi tokenu. Wprowadź wartość powiązaną z Twoją aplikacją (np. `http://localhost:13526/Redirect`).
+4. Postępuj zgodnie z monitami i utwórz nową aplikację. W przypadku struktury „app owns data” musisz użyć typu aplikacji **Natywna**. Podaj również **Identyfikator URI przekierowania**, którego usługa **Azure AD** używa do zwracania odpowiedzi tokenu. Wprowadź wartość powiązaną z Twoją aplikacją (np. `http://localhost:13526/Redirect`).
 
     ![Tworzenie aplikacji](media/embed-sample-for-customers/embed-sample-for-customers-005.png)
 
@@ -76,7 +76,7 @@ Musisz włączyć dodatkowe uprawnienia aplikacji oprócz tych, które zostały 
     ![Wymagane uprawnienia](media/embed-sample-for-customers/embed-sample-for-customers-008.png)
 
 3. Wybierz pozycję **Windows Azure Active Directory**, a następnie upewnij się, że wybrana jest pozycja **Uzyskuj dostęp do katalogu jako zalogowany użytkownik**. Wybierz pozycję **Zapisz**.
-   
+
     ![Uprawnienia usługi Windows Azure AD](media/embed-sample-for-customers/embed-sample-for-customers-011.png)
 
 4. Wybierz pozycję **Dodaj**.
@@ -92,13 +92,13 @@ Musisz włączyć dodatkowe uprawnienia aplikacji oprócz tych, które zostały 
     ![Wybieranie usług PBI](media/embed-sample-for-customers/embed-sample-for-customers-014.png)
 
 7. Wybierz wszystkie uprawnienia w obszarze **Delegowane uprawnienia**. W celu zapisania wyborów musisz je zaznaczać pojedynczo. Po zakończeniu wybierz pozycję **Zapisz**.
-   
+
     ![Wybieranie delegowanych uprawnień](media/embed-sample-for-customers/embed-sample-for-customers-015.png)
 
 8. W obszarze **Wymagane uprawnienia** wybierz pozycję **Udziel uprawnień**.
-   
+
     Wykonanie akcji **Udziel uprawnień** jest konieczne, aby usługa Azure AD nie wysyłała do *konta głównego* monitów o wyrażenie zgody. Jeśli konto, z którego wykonywana jest ta akcja, jest kontem administratora globalnego, musisz udzielić uprawnień do tej aplikacji wszystkim użytkownikom w swojej organizacji. Jeśli jest to *konto główne*, które nie ma uprawnień administratora globalnego, musisz udzielić uprawnień do tej aplikacji tylko *kontu głównemu*.
-   
+
     ![Udzielanie uprawnień w oknie dialogowym Wymagane uprawnienia](media/embed-sample-for-customers/embed-sample-for-customers-016.png)
 
 ## <a name="set-up-your-power-bi-environment"></a>Konfigurowanie środowiska usługi Power BI
@@ -277,6 +277,7 @@ var embedConfig = new EmbedConfig()
 Założono, że utworzono klasę **EmbedConfig** i **TileEmbedConfig**. Przykład tych klas jest dostępny w plikach **Models\EmbedConfig.cs** i **Models\TileEmbedConfig.cs**.
 
 ### <a name="load-an-item-using-javascript"></a>Ładowanie elementu przy użyciu języka JavaScript
+
 Do załadowania raportu do elementu div na stronie internetowej można użyć języka JavaScript.
 
 Aby uzyskać pełen przykład użycia interfejsu API języka JavaScript, można użyć [narzędzia Playground](https://microsoft.github.io/PowerBI-JavaScript/demo). Jest to szybki sposób na zapoznanie się z różnymi typami przykładów usługi Power BI Embedded. Więcej informacji na temat interfejsu API języka JavaScript możesz również uzyskać, odwiedzając [stronę wiki Power BI-JavaScript](https://github.com/Microsoft/powerbi-javascript/wiki).

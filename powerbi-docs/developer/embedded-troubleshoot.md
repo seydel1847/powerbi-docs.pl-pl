@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/31/2018
-ms.openlocfilehash: d540dd29214422dfc33dca2bf2fb1cb74ebe6de7
-ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
+ms.openlocfilehash: 71cb40ef6f1346bd3d8486658b05427e66d1dbf3
+ms.sourcegitcommit: 9719eccf29298c9c673200350abc58281ef14869
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "45558588"
+ms.lasthandoff: 09/20/2018
+ms.locfileid: "46474051"
 ---
 # <a name="troubleshooting-your-embedded-application"></a>Rozwiązywanie problemów z aplikacją osadzoną
 
@@ -84,18 +84,18 @@ W celu głębszego zbadania problemu może być konieczne użycie narzędzia Fid
 
 Zaplecze aplikacji może wymagać odświeżenia tokenu uwierzytelniania przed wywołaniem metody GenerateToken.
 
-```
+    ```
     GET https://wabi-us-north-central-redirect.analysis.windows.net/metadata/cluster HTTP/1.1
     Host: wabi-us-north-central-redirect.analysis.windows.net
     ...
     Authorization: Bearer eyJ0eXAiOi...
     ...
- 
+
     HTTP/1.1 403 Forbidden
     ...
-     
+
     {"error":{"code":"TokenExpired","message":"Access token has expired, resubmit with a new access token"}}
-```
+    ```
 
 ## <a name="authentication"></a>Uwierzytelnianie
 
@@ -229,13 +229,13 @@ Po uzyskaniu obiektu IError zapoznaj się z odpowiednią tabelą typowych błęd
 | OpenConnectionError | Nie można wyświetlić wizualizacji. Nie można renderować wizualizacji raportu o nazwie: <visual title> | Nie dotyczy | Wstrzymano lub usunięto pojemność po otwarciu w ramach sesji raportu powiązanego z pojemnością |
 | ExplorationContainer_FailedToLoadModel_DefaultDetails | Nie można załadować schematu modelu skojarzonego z tym raportem. Upewnij się, że masz połączenie z serwerem, i spróbuj ponownie. | Nie dotyczy | <li> Wstrzymano pojemność <li> Usunięto pojemność |
 
-## <a name="onboarding-experience-tool-for-embedding"></a>Narzędzie obsługi dołączania na potrzeby osadzania
+## <a name="embedding-setup-tool"></a>Narzędzie do konfigurowania osadzania
 
-Aby szybko pobrać przykładową aplikację, możesz użyć [narzędzia obsługi dołączania](https://aka.ms/embedsetup). Następnie możesz porównać swoją aplikację z przykładem.
+Możesz użyć [narzędzia do konfigurowania osadzania](https://aka.ms/embedsetup), aby szybko pobrać przykładową aplikację. Następnie możesz porównać swoją aplikację z przykładem.
 
 ### <a name="prerequisites"></a>Wymagania wstępne
 
-Przed skorzystaniem z narzędzia obsługi dołączania sprawdź, czy są spełnione wszystkie wymagania wstępne. Potrzebne jest konto usługi **Power BI Pro** i subskrypcja platformy **Microsoft Azure**.
+Przed skorzystaniem z narzędzia do konfigurowania osadzania sprawdź, czy zostały spełnione wszystkie wymagania wstępne. Potrzebne jest konto usługi **Power BI Pro** i subskrypcja platformy **Microsoft Azure**.
 
 * Jeśli nie masz konta usługi **Power BI Pro**, na początku [zacznij korzystać z bezpłatnej wersji próbnej](https://powerbi.microsoft.com/en-us/pricing/).
 * Jeśli nie masz subskrypcji platformy Azure, przed rozpoczęciem utwórz [bezpłatne konto](https://azure.microsoft.com/free/?WT.mc_id=A261C142F).
@@ -244,7 +244,7 @@ Przed skorzystaniem z narzędzia obsługi dołączania sprawdź, czy są spełni
 
 ### <a name="common-issues"></a>Typowe problemy
 
-Niektóre typowe problemy, które mogą wystąpić podczas testowania za pomocą narzędzia obsługi dołączania:
+Niektóre typowe problemy, które mogą wystąpić podczas testowania za pomocą narzędzia do konfigurowania osadzania:
 
 #### <a name="using-the-embed-for-your-customers-sample-application"></a>Korzystanie z przykładowej aplikacji osadzania dla klientów
 
@@ -262,6 +262,10 @@ Podczas uruchamiania przykładowej aplikacji jest wyświetlany następujący kom
 
 Ten błąd występuje, ponieważ jedyną wartością, która nie jest wstrzykiwana do przykładowej aplikacji, jest hasło użytkownika. Otwórz plik Web.config w rozwiązaniu i podaj hasło użytkownika w polu pbiPassword.
 
+Jeśli zostanie wyświetlony błąd — AADSTS50079: Użytkownik musi używać uwierzytelniania wieloskładnikowego.
+
+    Need to use an AAD account that does not have MFA enabled.
+
 #### <a name="using-the-embed-for-your-organization-sample-application"></a>Korzystanie z przykładowej aplikacji osadzania dla organizacji
 
 Jeśli korzystasz ze środowiska **osadzania dla organizacji**, zapisz i rozpakuj plik *PowerBI-Developer-Samples.zip*. Następnie otwórz folder *PowerBI-Developer-Samples-master\User Owns Data\integrate-report-web-app* i uruchom plik *pbi-saas-embed-report.sln*.
@@ -275,6 +279,10 @@ Przyczyną jest to, że adres URL przekierowania określony dla aplikacji serwer
 Jeśli chcesz edytować zarejestrowaną aplikację, dowiedz się, jak edytować [aplikację zarejestrowaną w usłudze AAD](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications#updating-an-application), aby aplikacja mogła zapewnić dostęp do internetowych interfejsów API.
 
 Jeśli chcesz edytować dane lub profil użytkownika usługi Power BI, dowiedz się, jak edytować swoje [dane usługi Power BI](https://docs.microsoft.com/power-bi/service-basic-concepts).
+
+Jeśli zostanie wyświetlony błąd — AADSTS50079: Użytkownik musi używać uwierzytelniania wieloskładnikowego.
+
+    Need to use an AAD account that does not have MFA enabled.
 
 Aby uzyskać więcej informacji, zobacz [Często zadawane pytania dotyczące usługi Power BI Embedded](embedded-faq.md).
 

@@ -2,21 +2,22 @@
 title: Używanie zabezpieczeń na poziomie wiersza w osadzonej zawartości usługi Power BI
 description: Poznaj więcej informacji na temat kroków, które musisz wykonać, aby osadzić zawartość usługi Power BI w aplikacji.
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 02/22/2018
-ms.author: maghan
-ms.openlocfilehash: d41b0a84d512c5ef6cebf810a89fd74a838c672e
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.date: 09/18/2018
+ms.openlocfilehash: 60061d781542f8b5a3ef67a75e61d902459d4963
+ms.sourcegitcommit: ded8b85276e7eda166d6e67f72d1fe3d5e234745
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "37864358"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46506781"
 ---
 # <a name="use-row-level-security-with-power-bi-embedded-content"></a>Używanie zabezpieczeń na poziomie wiersza w osadzonej zawartości usługi Power BI
+
 Zabezpieczenia na poziomie wiersza (kontrola dostępu) mogą służyć do ograniczania dostępu użytkowników do danych w ramach pulpitów nawigacyjnych, kafelków, raportów i zestawów danych. Wielu różnych użytkowników może pracować z tymi samymi artefaktami, widząc różne dane. Funkcja osadzania obsługuje zabezpieczenia na poziomie wiersza.
 
 Jeśli osadzasz zawartość dla użytkowników innych niż użytkownicy usługi Power BI (aplikacja jest właścicielem danych), co jest typowe w przypadku niezależnych dostawców oprogramowania, ten artykuł jest dla Ciebie. Musisz skonfigurować token osadzania do konta dla użytkownika i roli. Czytaj dalej, aby dowiedzieć się, jak to zrobić.
@@ -32,11 +33,12 @@ Aby móc korzystać z zabezpieczeń RLS, ważne jest zrozumienie trzech główny
 **Role** — użytkownicy należą do ról. Rola to kontener reguł. Może mieć nazwę podobną do następujących: *Menedżer sprzedaży* lub *Przedstawiciel handlowy*. Możesz utworzyć role w programie Power BI Desktop. Aby uzyskać więcej informacji, zobacz [Zabezpieczenia na poziomie wiersza w programie Power BI Desktop](../desktop-rls.md).
 
 **Reguły** — role mają reguły, czyli faktyczne filtry, które zostaną zastosowane wobec danych. Mogą być bardzo proste, np. „Kraj = USA”, lub dużo bardziej dynamiczne.
-W pozostałej części tego artykułu przedstawimy przykład tworzenia zabezpieczeń RLS, a następnie wykorzystywania ich w osadzonej aplikacji. Przedstawiony przykład korzysta z pliku PBIX [Retail Analysis Sample](http://go.microsoft.com/fwlink/?LinkID=780547).
+W pozostałej części tego artykułu znajduje się przykład tworzenia zabezpieczeń RLS, a następnie wykorzystywania ich w osadzonej aplikacji. Przedstawiony przykład korzysta z pliku PBIX [Retail Analysis Sample](http://go.microsoft.com/fwlink/?LinkID=780547).
 
 ![Przykład raportu](media/embedded-row-level-security/powerbi-embedded-report-example.png)
 
 ## <a name="adding-roles-with-power-bi-desktop"></a>Dodawanie ról przy użyciu programu Power BI Desktop
+
 Przykładowe dane dotyczące analizy handlu detalicznego przedstawiają sprzedaż dla wszystkich sklepów w łańcuchu dostaw. Bez zabezpieczeń na poziomie wiersza każdy menedżer regionalny po zalogowaniu i wyświetleniu raportu zobaczy takie same dane. Na wyższym szczeblu kierowniczym zdecydowano, że każdy menedżer regionalny powinien widzieć tylko sprzedaż dotyczącą sklepów, którymi zarządza. Aby to osiągnąć, możemy użyć zabezpieczeń na poziomie wiersza.
 
 Zabezpieczenia na poziomie wiersza są tworzone w programie Power BI Desktop. Po otwarciu zestawu danych i raportu możemy przełączyć się na widok diagramu, aby wyświetlić schemat:
@@ -52,43 +54,44 @@ Poniżej przedstawiono kilka istotnych kwestii dotyczących tego schematu:
   
     ![Wiersze w tabeli District](media/embedded-row-level-security/powerbi-embedded-district-table.png)
 
-Jeśli zastosujemy filtr, na podstawie tego schematu, do kolumny **District Manager** w tabeli **District** oraz jeśli ten filtr będzie zgodny z użytkownikiem wyświetlającym raport, będzie również odfiltrowywać tabele **Store** i **Sales** tak, aby pokazywać dane tylko dla tego menedżera regionalnego.
+Jeśli zastosujemy filtr, na podstawie tego schematu, do kolumny **District Manager** w tabeli **District** oraz jeśli ten filtr będzie zgodny z użytkownikiem wyświetlającym raport, odfiltruje też tabele **Store** i **Sales** tak, aby pokazywać dane tylko dla tego menedżera regionalnego.
 
 Oto kroki tej procedury:
 
 1. Na karcie **Modelowanie** wybierz pozycję **Zarządzaj rolami**.
-   
+
     ![Karta Modelowanie w programie Power BI Desktop](media/embedded-row-level-security/powerbi-embedded-manage-roles.png)
 2. Utwórz nową rolę o nazwie **Menedżer**.
-   
+
     ![Tworzenie nowej roli](media/embedded-row-level-security/powerbi-embedded-new-role.png)
 3. W tabeli **District** wprowadź następujące wyrażenie DAX: **[District Manager] = USERNAME()**.
-   
+
     ![Instrukcje języka DAX na potrzeby reguły zabezpieczeń RLS](media/embedded-row-level-security/powerbi-embedded-new-role-dax.png)
 4. Aby upewnić się, że reguły działają, na karcie **Modelowanie** wybierz opcję **Wyświetl jako role**, a następnie wybierz utworzoną rolę **Menedżer** oraz rolę **Inni użytkownicy**. Wprowadź ciąg **AndrewMa** w polu użytkownika.
-   
-    ![Okno dialogowe wyświetlania jako roli](media/embedded-row-level-security/powerbi-embedded-new-role-view.png)
-   
-    Raporty będą teraz pokazywać dane tak, jak w przypadku zalogowania użytkownika **AndrewMa**.
 
-Takie zastosowanie filtru spowoduje odfiltrowanie wszystkich rekordów w tabelach **District**, **Store** i **Sales**. Jednak ze względu na kierunek filtrowania w relacjach między tabelami **Sales** i **Time** oraz **Sales** i **Item** tabele **Item** i **Time** nie zostaną odfiltrowane. Aby dowiedzieć się więcej o dwukierunkowym filtrowaniu krzyżowym, pobierz oficjalny dokument [Bidirectional cross-filtering in SQL Server Analysis Services 2016 and Power BI Desktop (Dwukierunkowe filtrowanie krzyżowe w usługach SQL Server Analysis Services 2016 oraz programie Power BI Desktop)](http://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx).
+    ![Okno dialogowe wyświetlania jako roli](media/embedded-row-level-security/powerbi-embedded-new-role-view.png)
+
+    Raporty pokazują dane tak, jak w przypadku zalogowania użytkownika **AndrewMa**.
+
+Takie zastosowanie filtru powoduje odfiltrowanie wszystkich rekordów w tabelach **District**, **Store** i **Sales**. Jednak ze względu na kierunek filtrowania w relacjach między tabelami **Sales** i **Time** oraz **Sales** i **Item** tabele **Item** i **Time** nie są filtrowane. Aby dowiedzieć się więcej o dwukierunkowym filtrowaniu krzyżowym, pobierz oficjalny dokument [Bidirectional cross-filtering in SQL Server Analysis Services 2016 and Power BI Desktop (Dwukierunkowe filtrowanie krzyżowe w usługach SQL Server Analysis Services 2016 oraz programie Power BI Desktop)](http://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx).
 
 ## <a name="applying-user-and-role-to-an-embed-token"></a>Stosowanie użytkownika i roli do tokenu osadzania
+
 Teraz po skonfigurowaniu ról programu Power BI Desktop należy wykonać pewne operacje w aplikacji, aby skorzystać z ról.
 
 Użytkownicy są uwierzytelniani i autoryzowani przez aplikację, a tokeny osadzania są używane do udzielania użytkownikom dostępu do konkretnego raportu usługi Power BI Embedded. Usługa Power BI Embedded nie ma żadnych konkretnych informacji o tym, kim jest użytkownik. Aby zabezpieczenia na poziomie wiersza mogły zadziałać, musisz przekazać dodatkowy kontekst w ramach tokenu osadzania w formie tożsamości. Wykonuje się to przy użyciu interfejsu API [osadzania tokenu](https://docs.microsoft.com/rest/api/power-bi/embedtoken).
 
 Interfejs API akceptuje listę tożsamości ze wskazaniem odpowiednich zestawów danych. Aby zabezpieczenia na poziomie wiersza mogły zadziałać, musisz przekazać następujące informacje jako część tożsamości.
 
-* **Nazwa użytkownika (obowiązkowe)** — jest to ciąg, którego można użyć do zidentyfikowania użytkownika podczas stosowania reguł zabezpieczeń na poziomie wiersza. Można wymienić na liście tylko jednego użytkownika.
+* **Nazwa użytkownika (obowiązkowe)** — jest to ciąg, którego można użyć do zidentyfikowania użytkownika podczas stosowania reguł zabezpieczeń na poziomie wiersza. Można wymienić na liście tylko jednego użytkownika. Nazwę użytkownika można utworzyć za pomocą znaków *ASCII*.
 * **Role (obowiązkowe)** — ciąg zawierający role do wybrania podczas stosowania reguł zabezpieczeń na poziomie wiersza. W przypadku przekazywania więcej niż jednej roli należy je przekazywać jako tablicę ciągów.
-* **Zestaw danych (obowiązkowe)** — zestaw danych, który ma zastosowanie do osadzanego artefaktu. 
+* **Zestaw danych (obowiązkowe)** — zestaw danych, który ma zastosowanie do osadzanego artefaktu.
 
-Możesz utworzyć token osadzania przy użyciu metody **GenerateTokenInGroup** w obszarze **PowerBIClient.Reports**. 
+Możesz utworzyć token osadzania przy użyciu metody **GenerateTokenInGroup** w obszarze **PowerBIClient.Reports**.
 
 Przykładowo możesz zmienić przykład [PowerBIEmbedded_AppOwnsData](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data). *Wiersz 76 i 77 pliku Home\HomeController.cs* można zaktualizować z:
 
-```
+```csharp
 // Generate Embed Token.
 var generateTokenRequestParameters = new GenerateTokenRequest(accessLevel: "view");
 
@@ -97,7 +100,7 @@ var tokenResponse = await client.Reports.GenerateTokenInGroupAsync(GroupId, repo
 
 do
 
-```
+```csharp
 var generateTokenRequestParameters = new GenerateTokenRequest("View", null, identities: new List<EffectiveIdentity> { new EffectiveIdentity(username: "username", roles: new List<string> { "roleA", "roleB" }, datasets: new List<string> { "datasetId" }) });
 
 var tokenResponse = await client.Reports.GenerateTokenInGroupAsync("groupId", "reportId", generateTokenRequestParameters);
@@ -105,7 +108,7 @@ var tokenResponse = await client.Reports.GenerateTokenInGroupAsync("groupId", "r
 
 W przypadku wywoływania interfejsu API REST zaktualizowany interfejs API będzie teraz akceptować dodatkową tablicę JSON o nazwie **identities**, która zawiera nazwę użytkownika, listę ról w postaci ciągu oraz listę zestawów danych w postaci ciągu, np.:
 
-```
+```json
 {
     "accessLevel": "View",
     "identities": [
@@ -121,17 +124,18 @@ W przypadku wywoływania interfejsu API REST zaktualizowany interfejs API będzi
 Teraz po zebraniu wszystkich elementów, gdy ktoś zaloguje się do aplikacji w celu wyświetlenia tego artefaktu, będzie w stanie zobaczyć tylko te dane, do których ma dostęp — zgodnie z ustawieniami zabezpieczeń na poziomie wiersza.
 
 ## <a name="working-with-analysis-services-live-connections"></a>Praca z połączeniami na żywo usług Analysis Services
+
 Zabezpieczeń na poziomie wiersza można użyć z połączeniami na żywo usług Analysis Services w przypadku serwerów lokalnych. Istnieje kilka podstawowych koncepcji, które należy zrozumieć w przypadku stosowania tego typu połączenia.
 
 Efektywną tożsamością zapewnioną dla właściwości nazwy użytkownika musi być użytkownik systemu Windows z uprawnieniami na serwerze usług Analysis Services.
 
 **Konfiguracja lokalnej bramy danych**
 
-[Lokalnej bramy danych](../service-gateway-onprem.md) używa się podczas pracy z połączeniami na żywo usług Analysis Services. Podczas generowania tokenu osadzania z tożsamością na liście konto główne musi być wymienione na liście jako administrator bramy. Jeśli konto główne nie jest wymienione na liście, zabezpieczenia na poziomie wiersza nie będą właściwością stosowaną wobec danych. Użytkownik inny niż administrator bramy może zapewnić role, ale musi określić własną nazwę użytkownika na potrzeby efektywnej tożsamości.
+[Lokalnej bramy danych](../service-gateway-onprem.md) używa się podczas pracy z połączeniami na żywo usług Analysis Services. Podczas generowania tokenu osadzania z tożsamością na liście konto główne musi być wymienione na liście jako administrator bramy. Jeśli konto główne nie jest wymienione na liście, zabezpieczenia na poziomie wiersza nie są stosowane do właściwości danych. Użytkownik inny niż administrator bramy może zapewnić role, ale musi określić własną nazwę użytkownika na potrzeby efektywnej tożsamości.
 
 **Używanie ról**
 
-Role można przekazać wraz z tożsamością w tokenie osadzania. Jeśli żadna rola nie zostanie wybrana, podana nazwa użytkownika będzie używana do rozpoznawania skojarzonych ról.
+Role można przekazać wraz z tożsamością w tokenie osadzania. Jeśli żadna rola nie zostanie wybrana, podanej nazwy użytkownika można używać do rozpoznawania skojarzonych ról.
 
 **Używanie funkcji CustomData**
 
@@ -142,13 +146,11 @@ Funkcja CustomData jest częścią funkcjonalności generowania tokenów dla nas
 
 > [!NOTE]
 > Funkcja CustomData działa tylko w przypadku modeli, które znajdują się w usługach Azure Analysis Services, i tylko w trybie na żywo. W przeciwieństwie do użytkowników i ról, funkcji danych niestandardowych nie można ustawić w pliku pbix. Podczas generowania tokenu przy użyciu funkcji danych niestandardowych wymagane jest określenie nazwy użytkownika.
->
->
 
 **Dodatki zestawu SDK funkcji CustomData**
 
 Właściwość ciągu CustomData dodano do obowiązującej tożsamości w scenariuszu generowania tokenu.
-        
+
         [JsonProperty(PropertyName = "customData")]
         public string CustomData { get; set; }
 
@@ -160,7 +162,7 @@ Tożsamość można utworzyć przy użyciu niestandardowych danych za pomocą na
 
 W przypadku wywołania interfejsu API REST możesz dodać dane niestandardowe wewnątrz każdej tożsamości, na przykład:
 
-```
+```json
 {
     "accessLevel": "View",
     "identities": [
@@ -175,10 +177,11 @@ W przypadku wywołania interfejsu API REST możesz dodać dane niestandardowe we
 ```
 
 ## <a name="considerations-and-limitations"></a>Istotne zagadnienia i ograniczenia
+
 * Przypisywanie użytkowników do ról w usłudze Power BI nie wpływa na zabezpieczenia na poziomie wiersza podczas używania tokenu osadzania.
 * Usługa Power nie będzie stosować ustawień zabezpieczeń na poziomie wiersza do administratorów lub członków z uprawnieniami do edycji podczas podawania tożsamości wraz z tokenem osadzania, ale będzie stosować je wobec danych.
 * Połączenia na żywo usług Analysis Services są obsługiwane w przypadku serwerów lokalnych.
-* Połączenia na żywo usług Azure Analysis Services obsługują filtrowanie według ról, ale nie dynamicznie według nazwy użytkownika. Dynamiczne filtrowanie może być wykonywane przy użyciu funkcji CustomData.
+* Połączenia na żywo usług Azure Analysis Services obsługują filtrowanie według ról. Dynamiczne filtrowanie może być wykonywane przy użyciu funkcji CustomData.
 * Jeśli źródłowy zestaw danych nie wymaga zabezpieczeń RSL, żądanie GenerateToken **nie** może zawierać efektywnej tożsamości.
 * Jeśli źródłowy zestaw danych jest modelem w chmurze (modelem w pamięci podręcznej lub zapytaniem bezpośrednim), efektywna tożsamość musi zawierać co najmniej jedną rolę. W przeciwnym razie rola nie zostanie przypisana.
 * Lista tożsamości może zawierać wiele tokenów tożsamości na potrzeby osadzania pulpitu nawigacyjnego. Dla wszystkich innych artefaktów lista zawiera jedną tożsamość.

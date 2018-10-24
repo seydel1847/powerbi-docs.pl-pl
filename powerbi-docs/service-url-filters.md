@@ -1,22 +1,22 @@
 ---
 title: Dodawanie parametrów raportu usługi Power BI przy użyciu adresu URL
 description: Filtrowanie raportu przy użyciu parametrów ciągu zapytania adresu URL oraz możliwość filtrowania według więcej niż jednego pola.
-author: mihart
-ms.author: mihart
-manager: annebe
+author: maggiesMSFT
+ms.author: maggies
+manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/14/2018
+ms.date: 10/01/2018
 LocalizationGroup: Reports
-ms.openlocfilehash: 1124163b985f575df08a9ba4f065c6a6b1abf54c
-ms.sourcegitcommit: cca21f8089e71b595d3aca30c95f12e4bbf767cc
+ms.openlocfilehash: 562af0b21c4ecd4617de0e524cca20ec6935ca7a
+ms.sourcegitcommit: 31f9da5f562cd02a729b6f012b4b3326416adb0e
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/14/2018
-ms.locfileid: "45626036"
+ms.lasthandoff: 10/03/2018
+ms.locfileid: "48232931"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Filtrowanie raportu za pomocą parametrów ciągu zapytania w adresie URL
 
@@ -106,7 +106,7 @@ Usługa Power BI obsługuje wiele operatorów poza operatorem **and**. W poniżs
 |**gt**     | większe niż        |nie | tak | tak  | produkt/cena gt 20
 |**le**     |   mniejsze niż lub równe      | nie | tak | tak  | produkt/cena le 100
 |**lt**     |  mniejsze niż       | nie | tak | tak |  produkt/cena lt 20
-|**in****     |  w tym       | nie | nie |  tak | Uczen/Wiek in (27, 29)
+|**in****     |  w tym       | tak | tak |  tak | Uczen/Wiek in (27, 29)
 
 
 \** W przypadku korzystania z operatora **in** wartością po prawej stronie operatora **in** może być rozdzielana przecinkami lista ujęta w nawias lub pojedyncze wyrażenie, które zwraca kolekcję.
@@ -127,18 +127,18 @@ Filtr adresu URL usługi Power BI może zawierać liczby w następujących forma
 
 Usługa Power BI obsługuje protokół OData zarówno w wersji 3, jak i 4 w przypadku typów danych **Date** i **DateTimeOffset**.  Daty są reprezentowane w formacie EDM (2019-02-12T00:00:00). To oznacza, że po określeniu daty w formacie RRRR-MM-DD usługa Power BI interpretuje ją jako RRRR-MM-DDT00:00:00.
 
-Dlaczego to rozróżnienie jest istotne? Załóżmy, że utworzysz parametr ciągu zapytania **Tabela/Data gt 2018-08-03**.  Czy wyniki będą obejmować dzień 3 sierpnia 2018 r., czy będą się rozpoczynać od 4 sierpnia? Ponieważ usługa Power BI przekształca zapytanie w zapytanie **Tabela/Data gt 2018-08-03T00:00:00**, wyniki będą obejmować wszelkie daty z częścią godziny różną od zera, ponieważ takie daty są większe niż **2018-08-03T00:00:00**.
+Dlaczego to rozróżnienie jest istotne? Załóżmy, że utworzysz parametr ciągu zapytania **Tabela/Data gt 2018-08-03**.  Czy wyniki będą obejmować dzień 3 sierpnia 2018 r., czy będą się rozpoczynać od 4 sierpnia? Ponieważ usługa Power BI przekształca zapytanie w zapytanie **Tabela/Data gt 2018-08-03T00:00:00**, wyniki obejmują wszelkie daty z częścią godziny różną od zera, ponieważ takie daty są większe niż **2018-08-03T00:00:00**.
 
 ## <a name="special-characters-in-url-filters"></a>Znaki specjalne w filtrach adresów URL
 
-Znaki specjalne i spacje wymagają dodatkowego formatowania. Gdy zapytanie zawiera spacje, kreski lub inne znaki spoza zestawu ASCII, zamiast danego znaku specjalnego podaj prefiks w postaci *kodu ucieczki* (**_x**), a następnie wpisz 4-cyfrowy kod **Unicode**. Jeśli kod Unicode zawiera mniej niż 4 znaki, uzupełnij go zerami. Poniżej przedstawiono kilka przykładów.
+Znaki specjalne i spacje wymagają dodatkowego formatowania. Gdy zapytanie zawiera spacje, kreski lub inne znaki spoza zestawu ASCII, zamiast danego znaku specjalnego podaj prefiks w postaci *kodu ucieczki* rozpoczynający się od znaku podkreślenia i litery X (**_x**), a następnie wpisz 4-cyfrowy kod **Unicode** i kolejny znak podkreślenia. Jeśli kod Unicode zawiera mniej niż 4 znaki, musisz uzupełnić go zerami. Poniżej przedstawiono kilka przykładów.
 
 |Identyfikator  |Kod Unicode  | Kodowanie dla usługi Power BI  |
 |---------|---------|---------|
-|**Nazwa tabeli**     | Spacja: 0x20        |  Nazwa_x0020_tabeli       |
-|**Kolumna**@**Numer**     |   @: 0x40     |  Kolumna_x0040_Numer       |
-|**[Kolumna]**     |  [: 0x005B, ]: 0x0050       |  _x0058_Kolumna_x0050       |
-|**Kolumna+Plus**     | +: 0x2B        |  Kolumna_x002B_Plus       |
+|**Nazwa tabeli**     | Spacja to 0x20        |  Nazwa_x0020_tabeli       |
+|**Kolumna**@**Numer**     |   @ to 0x40     |  Kolumna_x0040_Numer       |
+|**[Kolumna]**     |  [ jest 0x0058] to 0x0050       |  _x0058_Kolumna_x0050       |
+|**Kolumna+Plus**     | + to 0x2B        |  Kolumna_x002B_Plus       |
 
 Nazwa_x0020_tabeli/Kolumna_x002B_Plus eq 3 ![wizualizacja tabeli wyświetlająca znaki specjalne](media/service-url-filters/power-bi-special-characters1.png)
 
@@ -159,9 +159,9 @@ Opublikuj raport w usłudze Power BI, a następnie użyj ciągu zapytania adresu
 
 ## <a name="pin-a-tile-from-a-filtered-report"></a>Przypinanie kafelka z filtrowanego raportu
 
-Po przefiltrowaniu raportu za pomocą parametrów ciągu zapytania możesz przypiąć wizualizację z tego raportu do pulpitu nawigacyjnego.  Kafelek na pulpicie nawigacyjnym wyświetli odfiltrowane dane, a wybranie tego kafelka pulpitu nawigacyjnego spowoduje otwarcie raportu, który został użyty do jego utworzenia.  Filtrowanie wykonane za pomocą adresu URL nie jest zapisywane wraz z raportem, a po wybraniu kafelka pulpitu nawigacyjnego raport otworzy się w stanie sprzed filtrowania.  Oznacza to, że dane wyświetlane na kafelku pulpitu nawigacyjnego nie będą odpowiadały danym wyświetlanym w wizualizacji raportu.
+Po przefiltrowaniu raportu za pomocą parametrów ciągu zapytania możesz przypiąć wizualizację z tego raportu do pulpitu nawigacyjnego.  Kafelek na pulpicie nawigacyjnym wyświetla odfiltrowane dane, a wybranie tego kafelka pulpitu nawigacyjnego powoduje otwarcie raportu, który został użyty do jego utworzenia.  Filtrowanie wykonane za pomocą adresu URL nie jest zapisywane wraz z raportem, a po wybraniu kafelka pulpitu nawigacyjnego raport otworzy się w stanie sprzed filtrowania.  Oznacza to, że dane wyświetlane na kafelku pulpitu nawigacyjnego nie odpowiadają danym wyświetlanym w wizualizacji raportu.
 
-Okaże się to przydatne, gdy będziesz chcieć wyświetlać różne wyniki: filtrowane na pulpicie nawigacyjnym i niefiltrowane w raporcie.
+Jest to przydatne, jeśli chcesz wyświetlać różne wyniki: filtrowane na pulpicie nawigacyjnym i niefiltrowane w raporcie.
 
 ## <a name="considerations-and-troubleshooting"></a>Istotne zagadnienia i rozwiązywanie problemów
 
@@ -171,6 +171,7 @@ Używając parametrów ciągu zapytania, należy pamiętać o kilku rzeczach.
 * W przypadku serwera raportów usługi Power BI możesz [przekazywać parametry raportu](https://docs.microsoft.com/sql/reporting-services/pass-a-report-parameter-within-a-url?view=sql-server-2017.md) przez uwzględnienie ich w adresie URL raportu. Te parametry w adresie URL nie mają prefiksów, ponieważ są przekazywane bezpośrednio do aparatu przetwarzania raportów.
 * Filtrowanie ciągu zapytania nie działa z adresami URL [publikowania w Internecie](service-publish-to-web.md) ani usługą Power BI Embedded.   
 * Typ danych liczby długiej jest ograniczony do (2^53-1) ze względu na ograniczenia języka JavaScript.
+* Filtry adresów URL raportów mają limit 10 wyrażeń (10 filtrów połączonych operatorem I).
 
 ## <a name="next-steps"></a>Następne kroki
 

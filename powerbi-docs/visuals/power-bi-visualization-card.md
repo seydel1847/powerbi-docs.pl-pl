@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 865e19f368b8e1915d0262ae6356e70a8dbc2781
-ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
+ms.openlocfilehash: 9654e2838b1b62dcc856e2870b3fcc1e5301641c
+ms.sourcegitcommit: 07beb155ec0ea1cdcc741085251ed06d7bc8581c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "47416914"
+ms.lasthandoff: 10/09/2018
+ms.locfileid: "48874580"
 ---
 # <a name="card-visualizations"></a>Wizualizacje w postaci kart
 Czasami jedna liczba jest najważniejsza i chcesz ją śledzić na swoim pulpicie nawigacyjnym lub w raporcie usługi Power BI, np. łączna sprzedaż, udział w rynku rok do roku lub łączna liczba szans sprzedaży. Ten typ wizualizacji jest nazywany *kartą*. Podobnie jak w przypadku niemal wszystkich natywnych wizualizacji usługi Power BI, karty można tworzyć przy użyciu edytora raportu lub funkcji Pytania i odpowiedzi.
@@ -58,7 +58,7 @@ Skorzystanie z pola pytania funkcji Pytania i odpowiedzi jest najprostszym sposo
    ![](media/power-bi-visualization-card/power-bi-q-and-a-box.png)
 
 > [!TIP]
-> Z poziomu raportu usługi Power BI w [widoku do edycji](../service-reading-view-and-editing-view.md) wybierz pozycję **Zadaj pytanie** z górnego paska menu. W przypadku raportu programu Power BI Desktop znajdź jakieś wolne miejsce w raporcie i kliknij je dwukrotnie, aby otworzyć pole pytania.
+> Z poziomu raportu usługi Power BI w widoku do edycji wybierz pozycję **Zadaj pytanie** z górnego paska menu. W przypadku raportu programu Power BI Desktop znajdź jakieś wolne miejsce w raporcie i kliknij je dwukrotnie, aby otworzyć pole pytania.
 
 3. Na przykład wpisz w polu pytania „number of opportunities” (liczba możliwości).
 

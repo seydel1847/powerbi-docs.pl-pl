@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/24/2018
+ms.date: 09/19/2018
 ms.author: maggies
-ms.openlocfilehash: d3b7ace4fe611cc55965f96f770caf7b4ebf21b1
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: c65b945260357b0679f8fdb83c534aac53481126
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726391"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46564790"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Instalowanie programu Power BI Desktop zoptymalizowanego pod kątem serwera raportów usługi Power BI
 Dowiedz się, jak zainstalować program Power BI Desktop zoptymalizowany pod kątem serwera raportów usługi Power BI.
@@ -31,7 +31,7 @@ Najprostszym sposobem sprawdzenia, czy masz najnowszą wersję programu Power BI
 
     ![Pobieranie programu Power BI Desktop z portalu internetowego](media/install-powerbi-desktop/report-server-download-web-portal.png)
 
-    Możesz też przejść bezpośrednio do programu [Microsoft Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=56723) (zoptymalizowanego pod kątem serwera raportów usługi Power BI — marzec 2018) w Centrum pobierania Microsoft.
+    Możesz też przejść bezpośrednio do programu [Microsoft Power BI Desktop](https://www.microsoft.com/en-us/download/details.aspx?id=57271) (zoptymalizowanego pod kątem serwera raportów usługi Power BI — sierpień 2018) w Centrum pobierania Microsoft.
 
 2. Na stronie Centrum pobierania wybierz pozycję **Pobierz**.
 
@@ -41,7 +41,8 @@ Najprostszym sposobem sprawdzenia, czy masz najnowszą wersję programu Power BI
 
     - **PBIDesktopRS_x64.msi** (wersja 64-bitowa).
 
-1. Po pobraniu instalatora uruchom kreatora instalacji programu Power BI Desktop (październik 2017).
+1. Po pobraniu instalatora uruchom kreatora instalacji programu Power BI Desktop (sierpień 2018).
+
 2. Na koniec instalacji zaznacz pozycję **Uruchom program Power BI Desktop teraz**.
    
     Program zostanie uruchomiony automatycznie i będzie można rozpocząć pracę.
@@ -49,7 +50,7 @@ Najprostszym sposobem sprawdzenia, czy masz najnowszą wersję programu Power BI
 ## <a name="verify-you-are-using-the-correct-version"></a>Sprawdzanie, czy jest używana właściwa wersja
 Możesz sprawdzić, czy używasz właściwej wersji programu Power BI Desktop, spoglądając na ekran powitalny lub pasek tytułu tego programu. Na pasku tytułu są podane miesiąc i rok wydania.
 
-![Pasek tytułu programu Power BI Desktop zoptymalizowanego pod kątem serwera raportów usługi Power BI](media/quickstart-create-powerbi-report/report-server-desktop-march-2018.png)
+![Pasek tytułu programu Power BI Desktop zoptymalizowanego pod kątem serwera raportów usługi Power BI](media/install-powerbi-desktop/power-bi-report-server-desktop-august-2018.png)
 
 Na pasku tytułu wersji programu Power BI Desktop związanej z usługą Power BI nie ma miesiąca ani roku.
 
@@ -63,7 +64,7 @@ Zawsze możesz najpierw otworzyć wersję programu Power BI Desktop, której chc
 Edytowanie raportu usługi Power BI z poziomu serwera raportów usługi Power BI lub utworzenie nowego raportu usługi Power BI z poziomu portalu internetowego zawsze spowoduje otwarcie właściwej wersji programu Power BI Desktop.
 
 ## <a name="considerations-and-limitations"></a>Istotne zagadnienia i ograniczenia
-Raporty na serwerze raportów usługi Power BI oraz w usłudze Power BI (http://powerbi.com) działają prawie dokładnie tak samo, ale różnią się pod względem kilku funkcji.
+Raporty usługi Power BI na serwerze raportów usługi Power BI, w usłudze Power BI (http://app.powerbi.com) i w aplikacjach mobilnych usługi Power BI działają prawie dokładnie tak samo, ale różnią się pod względem kilku funkcji.
 
 ### <a name="in-a-browser"></a>W przeglądarce
 W raportach na serwerze raportów usługi Power BI obsługiwane są wszystkie wizualizacje, w tym:
@@ -80,9 +81,9 @@ W raportach na serwerze raportów usługi Power BI nie są obsługiwane:
 ### <a name="in-the-power-bi-mobile-apps"></a>W aplikacjach mobilnych Power BI
 W raportach na serwerze raportów usługi Power BI obsługiwane są wszystkie funkcje podstawowe w [aplikacjach mobilnych Power BI](../consumer/mobile/mobile-apps-for-mobile-devices.md), w tym:
 
-* [Układ raportu na telefonie](../desktop-create-phone-report.md): można zoptymalizować raport dla aplikacji mobilnych Power BI. Na telefonie komórkowym zoptymalizowane raporty mają specjalną ikonę, ![ikonę układu raportu na telefonie](media/quickstart-create-powerbi-report/power-bi-rs-mobile-optimized-icon.png), i układ.
+* [Układ raportu na telefonie](../desktop-create-phone-report.md): można zoptymalizować raport dla aplikacji mobilnych Power BI. Na telefonie komórkowym zoptymalizowane raporty mają specjalną ikonę, ![ikonę układu raportu na telefonie](media/install-powerbi-desktop/power-bi-rs-mobile-optimized-icon.png), i układ.
   
-    ![Raport zoptymalizowany pod kątem telefonów](media/quickstart-create-powerbi-report/power-bi-rs-mobile-optimized-report.png)
+    ![Raport zoptymalizowany pod kątem telefonów](media/install-powerbi-desktop/power-bi-rs-mobile-optimized-report.png)
 
 Następujące funkcje w aplikacjach mobilnych Power BI nie są obsługiwane w raportach na serwerze raportów usługi Power BI:
 

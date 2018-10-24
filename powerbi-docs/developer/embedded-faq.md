@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 08/21/2018
-ms.openlocfilehash: e83224932048aeab2dde6187eb217da7d89fed85
-ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
+ms.date: 09/17/2018
+ms.openlocfilehash: b50f3d5a3b01e32dcbaf80db5e25bd046c5e27a2
+ms.sourcegitcommit: ded8b85276e7eda166d6e67f72d1fe3d5e234745
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "45558581"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46506804"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Często zadawane pytania dotyczące usługi Power BI Embedded
 
@@ -84,15 +84,19 @@ Poniżej przedstawiono skróconą listę różnych funkcji, których można uży
 |Zobowiązanie  |Brak zobowiązania |Roczne  |Miesięczne lub roczne |
 |Rozróżnienie produktów |Pełna elastyczność, która umożliwia skalowanie w górę i w dół oraz wstrzymywanie i wznawianie zasobów w witrynie Azure Portal lub za pośrednictwem interfejsu API  |Może służyć do osadzania zawartości w usługach SharePoint Online i Microsoft Teams (z wyłączeniem aplikacji mobilnych) |Pozwala przeprowadzać osadzanie w aplikacjach, używając jednocześnie usługi Power BI w ramach tej samej pojemności |
 
-### <a name="what-are-the-prerequisites-to-create-a-pbie-capacity-in-azure"></a>Jakie są wymagania wstępne dotyczące tworzenia pojemności PBIE na platformie Azure? 
+### <a name="what-are-the-prerequisites-to-create-a-pbie-capacity-in-azure"></a>Jakie są wymagania wstępne dotyczące tworzenia pojemności PBIE na platformie Azure?
 
 * Musisz zalogować się do swojego katalogu organizacyjnego (konta MSA nie są obsługiwane).
 * Musisz mieć dzierżawę usługi Power BI, tj. co najmniej jeden użytkownik w Twoim katalogu musi być zarejestrowany w usłudze Power BI. 
 * Musisz mieć subskrypcję platformy Azure w katalogu organizacyjnym.
 
-### <a name="how-can-i-monitor-capacity-consumption"></a>Jak można monitorować poziom zużycia pojemności?
+### <a name="how-can-i-monitor-power-bi-embedded-capacity-consumption"></a>Jak można monitorować użycie pojemności usługi Power BI Embedded?
 
-Monitorowanie za pomocą platformy Azure zostało uwzględnione w najbliższych planach rozwoju. Zasób platformy Azure, jakim jest usługa Power BI Embedded, będzie umożliwiał monitorowanie wskaźników KPI, których zadaniem jest prezentowanie informacji na temat kondycji i użycia.
+* Używając [portalu administracyjnego usługi Power BI](../service-admin-portal.md#power-bi-embedded-settings).
+
+* Pobierając [aplikację metryki](https://review.docs.microsoft.com/power-bi/service-admin-premium-monitor-capacity) w usłudze Power BI.
+
+* Używając [rejestrowania diagnostycznego na platformie Azure](azure-pbie-diag-logs.md).
 
 ### <a name="will-my-capacity-scale-automatically-to-adjust-to-the-consumption-of-my-app"></a>Czy pojemność będzie automatycznie skalować w celu dostosowania się do poziomu użycia aplikacji?
 
@@ -276,11 +280,11 @@ Oto przykłady tych funkcji:
 * Nowe funkcje, takie jak pytania i odpowiedzi, odświeżanie, zakładki, osadzanie pulpitów nawigacyjnych i kafelków oraz menu niestandardowe, są obsługiwane tylko w rozwiązaniu **Power BI Embedded**.
 * Model rozliczania pojemności.
 
-## <a name="onboarding-experience-tool-for-embedding"></a>Narzędzie obsługi dołączania na potrzeby osadzania
+## <a name="embedding-setup-tool-for-embedding"></a>Narzędzie do konfigurowania osadzania na potrzeby osadzania
 
-### <a name="what-is-the-onboarding-experience-tool"></a>Co to jest narzędzie obsługi dołączania?
+### <a name="what-is-the-embedding-setup-tool"></a>Co to jest narzędzie do konfigurowania osadzania?
 
-[Narzędzie obsługi dołączania](https://aka.ms/embedsetup) umożliwia szybkie rozpoczęcie pracy i pobranie przykładowej aplikacji w celu rozpoczęcia osadzania przy użyciu usługi Power BI.
+[Narzędzie do konfigurowania osadzania](https://aka.ms/embedsetup) umożliwia szybkie rozpoczęcie pracy i pobranie przykładowej aplikacji w celu rozpoczęcia osadzania przy użyciu usługi Power BI.
 
 ### <a name="which-solution-should-i-choose"></a>Które rozwiązanie wybrać?
 
