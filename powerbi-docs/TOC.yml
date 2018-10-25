@@ -194,9 +194,9 @@ items:
       items:
       - name: Kategoryzacja danych w programie Power BI Desktop
         href: desktop-data-categorization.md
-      - name: Tagowanie pola kodu kreskowego w programie Power BI Desktop dla aplikacji mobilnych Power BI
+      - name: Znakowanie pola kodu kreskowego dla aplikacji mobilnych
         href: desktop-mobile-barcodes.md
-      - name: Ustawianie filtrowania geograficznego w programie Power BI Desktop dla aplikacji mobilnych Power BI
+      - name: Ustawianie filtrowania geograficznego dla aplikacji mobilnych
         href: desktop-mobile-geofiltering.md
       - name: Kolumny obliczeniowe w programie Power BI Desktop
         href: desktop-calculated-columns.md
@@ -204,6 +204,8 @@ items:
         href: desktop-calculated-tables.md
       - name: Miary w programie Power BI Desktop
         href: desktop-measures.md
+      - name: Edytowanie schematu językowego funkcji Pytania i odpowiedzi
+        href: power-bi-q-and-a-linguistic-schema.md
       - name: Importowanie i wyświetlanie kluczowych wskaźników wydajności (wersja zapoznawcza)
         href: desktop-import-and-display-kpis.md
     - name: Tworzenie raportów
@@ -346,6 +348,8 @@ items:
     items:
     - name: Typy danych w programie Power BI Desktop
       href: desktop-data-types.md
+    - name: Skróty edytora formuł w programie Power BI Desktop
+      href: desktop-formula-editor.md
     - name: Poziomy prywatności programu Power BI Desktop
       href: desktop-privacy-levels.md
     - name: Rozszerzalność łącznika w usłudze Power BI
@@ -570,6 +574,8 @@ items:
         href: sql-server-analysis-services-tabular-data.md
       - name: Platforma Azure i usługa Power BI
         href: service-azure-and-power-bi.md
+      - name: Usługa Power BI i ruch wychodzący platformy Azure
+        href: service-azure-egress-power-bi.md
     - name: Odświeżanie danych
       items:
       - name: Konfigurowanie odświeżania zaplanowanego
@@ -630,19 +636,19 @@ items:
       items:
       - name: Tworzenie nowego raportu na podstawie istniejącego raportu
         href: power-bi-report-copy.md
-      - name: Dodawanie strony do raportu usługi Power BI
+      - name: Dodawanie strony do raportu
         href: power-bi-report-add-page.md
-      - name: Dodawanie filtru do raportu w usłudze Power BI
+      - name: Dodawanie filtru do raportu
         href: power-bi-report-add-filter.md
       - name: Zapisywanie raportu w usłudze Power BI
         href: service-report-save.md
       - name: Tworzenie nowego raportu z zestawu danych
         href: service-report-create-new.md
-      - name: Interakcje z raportem w widoku do edycji w usłudze Power BI
+      - name: Interakcje z raportem w widoku do edycji
         href: service-interact-with-a-report-in-editing-view.md
       - name: Analizuj w programie Excel
         href: service-analyze-in-excel.md
-      - name: Porady i wskazówki dotyczące tworzenia raportów w usłudze Power BI
+      - name: Porady i wskazówki dotyczące tworzenia raportów
         href: power-bi-reports-tips-and-tricks-for-creating.md
       - name: Okienko analizy
         href: service-analytics-pane.md
@@ -650,32 +656,32 @@ items:
         href: service-usage-metrics.md
       - name: Tworzenie kodu QR dla raportu
         href: service-create-qr-code-for-report.md
-      - name: Zmienianie kolejności stron w raporcie w usłudze Power BI
+      - name: Zmienianie kolejności stron w raporcie
         href: service-report-reorder-pages.md
-      - name: Duplikowanie strony raportu w usłudze Power BI
+      - name: Duplikowanie strony raportu
         href: power-bi-report-copy-paste-page.md
-      - name: Eksportowanie raportu z usługi Power BI do wersji Desktop (wersja zapoznawcza)
+      - name: Eksportowanie raportu z usługi do programu Power BI Desktop (wersja zapoznawcza)
         href: service-export-to-pbix.md
-      - name: Filtrowanie raportu za pomocą parametrów ciągu zapytania w adresie URL
+      - name: Filtrowanie raportu za pomocą parametrów w adresie URL
         href: service-url-filters.md
-      - name: Najlepsze rozwiązania w zakresie tworzenia szybkich i niezawodnych raportów w usłudze Power BI
+      - name: Najlepsze rozwiązania w zakresie tworzenia szybkich i niezawodnych raportów
         href: power-bi-reports-performance.md
-      - name: Interakcje z mapami ArcGIS w usłudze Power BI
+      - name: Interakcje z mapami ArcGIS
         href: visuals/power-bi-visualizations-arcgis.md
     - name: Zadawanie pytań dotyczących danych
       items:
       - name: Funkcja pytań i odpowiedzi umożliwia tworzenie wizualizacji i konstruowanie raportów
         href: power-bi-tutorial-q-and-a.md
-      - name: Dbanie o poprawne współdziałanie danych z funkcją pytań i odpowiedzi w usłudze Power BI
+      - name: Dbanie o poprawne współdziałanie danych z funkcją Pytania i odpowiedzi
         href: service-prepare-data-for-q-and-a.md
       - name: Włączanie Cortany dla usługi Power BI
         href: service-cortana-enable.md
-      - name: Tworzenie proponowanych pytań dla funkcji pytań i odpowiedzi w usłudze Power BI
+      - name: Tworzenie proponowanych pytań dla funkcji Pytania i odpowiedzi
         href: service-q-and-a-create-featured-questions.md
       - name: Typy wizualizacji w usłudze Power BI
         href: visuals/power-bi-visualization-types-for-reports-and-q-and-a.md
-      - name: Praca z schematem językowym w programie Power BI Desktop
-        href: power-bi-q-and-a-linguistic-schema.md
+      - name: Używanie funkcji Pytania i odpowiedzi z połączeniami na żywo
+        href: service-q-and-a-direct-query.md
     - name: Udostępnianie wyników pracy
       items:
       - name: Jak można współpracować i udostępniać zawartość?
@@ -684,8 +690,6 @@ items:
         href: service-share-dashboards.md
       - name: Tworzenie i udostępnianie aplikacji
         href: service-create-distribute-apps.md
-      - name: Instalowanie i używanie aplikacji
-        href: service-install-use-apps.md
       - name: Tworzenie obszarów roboczych aplikacji
         href: service-create-workspaces.md
       - name: Tworzenie nowych obszarów roboczych (wersja zapoznawcza)
@@ -1094,8 +1098,14 @@ items:
       href: service-gateway-enterprise-manage-scheduled-refresh.md
     - name: Scalanie lokalnych źródeł danych i źródeł danych w chmurze
       href: service-gateway-mashup-on-premises-cloud.md
-    - name: Logowanie jednokrotne (SSO) z zastosowaniem protokołu Kerberos
-      href: service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md
+    - name: Włączanie logowania jednokrotnego
+      items:
+      - name: Logowanie jednokrotne — omówienie
+        href: service-gateway-sso-overview.md
+      - name: Logowanie jednokrotne — Kerberos
+        href: service-gateway-sso-kerberos.md
+      - name: Logowanie jednokrotne — SAML
+        href: service-gateway-sso-saml.md
     - name: Konfigurowanie ustawień serwera proxy
       href: service-gateway-proxy.md
     - name: Klastry wysokiej dostępności dla lokalnej bramy danych
@@ -1138,8 +1148,6 @@ items:
         href: service-admin-premium-multi-geo.md
       - name: Power BI Premium — często zadawane pytania
         href: service-premium-faq.md
-      - name: Informacje o wersji usługi Power BI Premium
-        href: service-premium-release-notes.md
     - name: Rola administracyjna w usłudze Office 365
       href: service-admin-role.md
     - name: Często zadawane pytania
@@ -1185,6 +1193,8 @@ items:
     - name: Polecenia cmdlet usługi Power BI dla programu PowerShell
       href: https://docs.microsoft.com/en-us/powershell/power-bi/
       maintainContext: true
+    - name: Dokumentacja adresu URL usługi
+      href: power-bi-whitelist-urls.md
   - name: Zasoby
     items:
     - name: Power BI — metody zarządzania i wdrażania
@@ -1193,9 +1203,9 @@ items:
       href: service-admin-power-bi-security.md
     - name: Usługę Power BI dla Office 365 zastąpiono usługą Power BI
       href: service-admin-o365portal-retired.md
-ms.openlocfilehash: e91012d1336b54dee11fd3b342ac4a44fc45d979
-ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
+ms.openlocfilehash: bc509b1cd6717cc3ec38e0b8eb404dc9bb4885d3
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "49112257"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49641993"
