@@ -1,6 +1,6 @@
 ---
-title: Usługa Power BI — podstawowe pojęcia
-description: Obszary robocze, pulpity nawigacyjne, raporty, zestawy danych i skoroszyty usługi Power BI.
+title: Usługa Power BI — podstawowe pojęcia dla użytkowników
+description: Aplikacje, obszary robocze, pulpity nawigacyjne, raporty, zestawy danych i skoroszyty usługi Power BI.
 author: mihart
 manager: kvivek
 ms.reviewer: ''
@@ -8,115 +8,129 @@ featuredvideoid: B2vd4MQrz4M
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 07/19/2018
+ms.date: 10/18/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 6b7ada4e342f37b23200a71b4c15a933960631c5
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 71e30fa6c53e7ed8ed4364dca668b2a689ef1f19
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46566147"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49641763"
 ---
-# <a name="power-bi---basic-concepts-for-power-bi-service"></a>Power BI — podstawowe pojęcia dotyczące usługi Power BI
+# <a name="power-bi---basic-concepts-for-power-bi-service-consumers"></a>Power BI — podstawowe pojęcia dotyczące ***użytkowników*** usługi Power BI
 
-W tym artykule przyjęto, że użytkownik [zarejestrował się już w usłudze Power BI](../service-self-service-signup-for-power-bi.md) i [dodał pewne dane](../service-get-data.md).
+## <a name="power-bi-consumers-and-designers"></a>*Użytkownicy* i *projektanci* usługi Power BI
+W tym artykule przyjęto założenie, że przeczytano wcześniej [omówienie usługi Power BI](../power-bi-overview.md) i na podstawie tego artykułu dokonano przyporządkowania do roli ***użytkownika*** usługi Power BI. Użytkownicy otrzymują od swoich współpracowników zawartość usługi Power BI, na przykład pulpity nawigacyjne i raporty. Użytkownicy korzystają z usługi Power BI, czyli wersji internetowej programu Power BI. 
 
-Po otwarciu usługi Power BI zobaczysz wyświetlony ***pulpit nawigacyjny***. Pulpity nawigacyjne są elementem różniącym się w przypadku usługi Power BI i aplikacji Power BI Desktop.
+Na pewno znany jest Ci termin „Power BI Desktop” lub po prostu „Desktop” oznaczający autonomiczne narzędzie używane przez *projektantów*, którzy tworzą i udostępniają użytkownikom pulpity nawigacyjne oraz raporty. Dobrze jest wiedzieć, że istnieją inne narzędzia Power BI, ale dopóki jesteś użytkownikiem, będziesz pracować tylko z usługą Power BI. Z tego powodu ten artykuł dotyczy tylko usługi Power BI. 
 
-![](media/end-user-basic-concepts/completenewest.png)
+## <a name="terminology-and-concepts"></a>Terminy i pojęcia
+Ten artykuł nie jest ani przewodnikiem wizualnym po usłudze Power BI, ani praktycznym samouczkiem. Zamiast tego jest to artykuł zawierający przystępny opis pojęć i terminów dotyczących usługi Power BI. Jego zadaniem jest zapoznanie Cię z terminologią i architekturą usługi. Jeśli szukasz przewodnika po usłudze Power BI i chcesz wiedzieć, jak można z niej korzystać, [zapoznaj się z produktem](end-user-experience.md).
 
-Najważniejsze funkcje interfejsu użytkownika usługi Power IB:
+## <a name="open-power-bi-service-for-the-first-time"></a>Otwieranie usługi Power BI po raz pierwszy
+Większość użytkowników spotyka się z usługą Power BI w następujących okolicznościach: 1) firma kupuje licencję i 2) administrator przypisuje te licencje do pracowników, takich jak Ty. 
 
-1. Lewe okienko nawigacji
-2. Kanwa (w tym przypadku pulpit nawigacyjny z kafelkami)
-3. Pole pytań funkcji pytań i odpowiedzi
-4. Przyciski ikon, w tym Pomoc i opinie
-5. Tytuł pulpitu nawigacyjnego (ścieżka nawigacji, czyli linki do stron nadrzędnych)
-6. Uruchamianie aplikacji usługi Office 365
-7. Przycisk strony głównej usługi Power BI
-8. Przyciski ikon z etykietami
+Aby rozpocząć pracę, po prostu otwórz przeglądarkę i wpisz **app.powerbi.com**. Przy pierwszym otwarciu usługi Power BI zobaczysz ekran podobny do poniższego.
 
-Później przyjrzymy się im dokładniej, a najpierw sprawdzimy niektóre pojęcia dotyczące usługi Power BI.
+![](media/end-user-basic-concepts/power-bi-open.png)
 
-Możesz też obejrzeć ten film, zanim przeczytasz dalszą część artykułu.  W filmie Will omówi podstawowe pojęcia i przedstawi przewodnik po usłudze Power BI.
+W trakcie korzystania z usługi Power BI spersonalizujesz ekran wyświetlany każdorazowo po otwarciu tej witryny internetowej.  Na przykład niektóre osoby wolą, aby usługa Power BI otwierała się na Stronie głównej, a inni mają swoje ulubione pulpity nawigacyjne i chcą, aby były one wyświetlane najpierw. Nie martw się. Pokażemy Ci, jak się to robi. 
+- [Podgląd Strony głównej](https://powerbi.microsoft.com/en-us/blog/introducing-power-bi-home-and-global-search)    
+- [Ustawianie zawartości jako **wyróżnionej**](end-user-featured.md) 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/B2vd4MQrz4M" frameborder="0" allowfullscreen></iframe>
+![](media/end-user-basic-concepts/power-bi-first.png)
+
+Zanim jednak przejdziemy dalej, omówimy bloki konstrukcyjne, z których składa się usługa Power BI.
+
+## <a name="power-bi-content"></a>***Zawartość*** usługi Power BI
+### <a name="introduction-to-building-blocks"></a>Wprowadzenie do bloków konstrukcyjnych
+Użytkownik usługi Power BI może korzystać z pięciu bloków konstrukcyjnych: ***wizualizacji***, ***pulpitów nawigacyjnych***, ***raportów***, ***aplikacji*** i  ***zestawów danych***. Są one czasami określane jako ***zawartość*** usługi *Power BI*. *Zawartości* istnieje w ***obszarach roboczych***. Typowy przepływ pracy obejmuje wszystkie te bloki konstrukcyjne: *projektant* usługi Power BI (oznaczony kolorem żółtym na diagramie poniżej) zbiera dane z *zestawów danych*, przekazuje je do usługi Power BI do analizy, tworzy *raporty* pełne *wizualizacji* podkreślających interesujące fakty i szczegółowe informacje, przypina wizualizacje z raportów do pulpitu nawigacyjnego i udostępnia raporty oraz pulpity nawigacyjne *użytkownikom* takim jak Ty (oznaczonym kolorem czarnym na diagramie poniżej) w formie *aplikacji* lub innych rodzajów zawartości udostępnionej. 
+
+![](media/end-user-basic-concepts/power-bi-workflow.png)
+
+Tak to wygląda w największym uproszczeniu. 
+* ![ikona wizualizacji](media/end-user-basic-concepts/visual.png) ***wizualizacja*** (lub *visual*) jest typem wykresu utworzonego przez *projektantów* usługi Power BI przy użyciu danych z *raportów* i *zestawów danych*. Zwykle *projektanci* tworzą wizualizacje w programie Power BI Desktop. 
+
+    Aby uzyskać więcej informacji, zobacz [Visualizations for Power BI *consumers*](end-user-visualizations.md) (Wizualizacje dla użytkowników usługi Power BI)
+
+* ![ikona bazy danych](media/end-user-basic-concepts/power-bi-dataset-icon.png) *zestaw danych* jest kontenerem danych. Może to być na przykład plik programu Excel ze Światowej Organizacji Zdrowia, należąca do firmy baza danych klientów lub plik platformy Salesforce.  
+
+* ![ikona pulpitu nawigacyjnego](media/end-user-basic-concepts/dashboard.png) *pulpit nawigacyjny* to pojedynczy ekran z interaktywnymi wizualizacjami, tekstem i grafiką. Pulpit nawigacyjny umożliwia zebranie na jednym ekranie najważniejszych metryk w celu przekazania informacji lub udzielenia odpowiedzi na pytanie. Zawartość pulpitu nawigacyjnego pochodzi z co najmniej jednego raportu i z co najmniej jednego zestawu danych.
+
+    Aby uzyskać więcej informacji, zobacz [Pulpity nawigacyjne dla *użytkowników* usługi Power BI](end-user-dashboards.md)
+
+* ![ikona raportu](media/end-user-basic-concepts/report.png) *raport* to jedna lub większa liczba stron zawierających interaktywne wizualizacje, tekst i grafikę, które razem składają się na pojedynczy raport. Raport bazuje na jednym zestawie danych. Często strony raportu są ułożone w taki sposób, aby każda z nich odnosiła się do kluczowego obszaru zainteresowań lub odpowiadała na jedno pytanie.
+
+    Aby uzyskać więcej informacji, zobacz [Raporty dla *użytkowników* usługi Power BI](end-user-reports.md)
+
+* ![ikona aplikacji](media/end-user-basic-concepts/app.png) *aplikacja* to sposób, w jaki *projektanci* łączą razem i udostępniają powiązane pulpity nawigacyjne i raporty. *Użytkownicy* automatycznie otrzymują niektóre aplikacje, ale mogą też wyszukiwać inne aplikacje utworzone przez współpracowników lub przez społeczność. Aplikacje usługi Power BI oferują na przykład usługi zewnętrzne, których być może już używasz, takie jak Google Analytics i Microsoft Dynamics CRM.
+
+Dla ścisłości, nowi użytkownicy, którzy logują się do usługi Power BI po raz pierwszy, nie mają jeszcze żadnych pulpitów nawigacyjnych, aplikacji ani raportów. 
+_______________________________________________________
 
 
-## <a name="power-bi-concepts"></a>Pojęcia dotyczące usługi Power BI
-4 główne bloki konstrukcyjne usługi Power BI to: ***pulpity nawigacyjne***, ***raporty***, ***skoroszyty*** i ***zestawy danych***. Są one podzielone na ***obszary robocze***. Przed rozpoczęciem omawiania bloków konstrukcyjnych należy zapoznać się z 4 obszarami roboczymi, więc od tego zaczniemy. 
-
-## <a name="workspaces"></a>Obszary robocze
-Obszary robocze to kontenery pulpitów nawigacyjnych, raportów, skoroszytów i zestawów danych w usłudze Power BI. Istnieją dwa typy obszarów roboczych: *Mój obszar roboczy* i *obszary robocze aplikacji*. Co to jest *aplikacja*? *Aplikacja* usługi Power BI to kolekcja pulpitów nawigacyjnych i raportów utworzona w celu udostępnienia najważniejszych metryk dla organizacji. Aplikacje są interakcyjne, ale nie można ich edytować. 
-
-- Obszar *Mój obszar roboczy* to osobisty obszar roboczy dla każdego klienta usługi Power BI do pracy z własną zawartością. Tylko Ty masz dostęp do swojego obszaru Mój obszar roboczy. Z poziomu obszaru Mój obszar roboczy możesz udostępniać pulpity nawigacyjne i raporty. Jeśli chcesz współpracować nad pulpitami nawigacyjnymi i raportami lub utworzyć aplikację, warto pracować w obszarze roboczym aplikacji.      
--  *Obszary robocze aplikacji* służą do wspólnej pracy nad zawartością ze współpracownikami i udostępniania im tej zawartości. Można też w nich tworzyć i publikować aplikacje dla organizacji oraz zarządzać nimi. Pełnią one funkcję tymczasowych obszarów i kontenerów zawartości aplikacji usługi Power BI. Możesz dodawać współpracowników do obszarów roboczych aplikacji oraz współpracować nad pulpitami nawigacyjnymi, raportami, skoroszytami i zestawami danych. Wszyscy członkowie obszaru roboczego aplikacji muszą mieć licencje usługi Power BI Pro, ale użytkownicy aplikacji (współpracownicy mający dostęp do aplikacji) nie muszą mieć licencji Pro.  
-
-Aby dowiedzieć się więcej, zobacz sekcję **Udostępnianie wyników pracy** w spisie treści, począwszy od tekstu [Jak współpracować nad pulpitami nawigacyjnymi i raportami oraz udostępniać je](../service-how-to-collaborate-distribute-dashboards-reports.md)
-
-
-Teraz można przejść do bloków konstrukcyjnych usługi Power BI. Nie możesz mieć pulpitów nawigacyjnych lub raportów bez danych (właściwie możesz mieć puste pulpity nawigacyjne i puste raporty, ale nie będą zbyt użyteczne przed dostarczeniem danych), więc rozpocznijmy od **zestawów danych**.
 
 ## <a name="datasets"></a>Zestawy danych
-*Zestaw danych* jest kolekcją danych, które są *importowane* lub z którymi *nawiązuje się połączenie*. Usługa Power BI umożliwia nawiązywanie połączeń z wszystkimi rodzajami zestawów danych i importowanie ich, a także łączy wszystkie te możliwości w jednym miejscu.  
+*Zestaw danych* jest kolekcją danych, którą *projektanci* importują lub z którą się łączą, aby przy jej użyciu tworzyć raporty i pulpity nawigacyjne. Jako użytkownik nie będziesz korzystać bezpośrednio z zestawów danych, ale warto wiedzieć, jaką pełnią one rolę w całym środowisku.  
 
-Zestawy danych są skojarzone z *obszarami roboczymi* — jeden zestaw danych może należeć do wielu obszarów roboczych. Gdy otworzysz obszar roboczy, skojarzone zestawy danych będą wyświetlane na karcie **Zestawy danych**. Każdy z zestawów danych na liście reprezentuje jedno źródło danych, np. skoroszyt programu Excel w usłudze OneDrive, lokalny tabelaryczny zestaw danych SSAS lub zestaw danych programu Salesforce. Istnieje wiele różnych, obsługiwanych zestawów danych. Ponadto nieustannie dodajemy nowe zestawy danych. [Zobacz listę typów zestawów danych, których można używać w usłudze Power BI](../service-get-data.md).
+Każdy z zestawów danych reprezentuje jedno źródło danych, np. skoroszyt programu Excel w usłudze OneDrive, lokalny tabelaryczny zestaw danych SSAS lub zestaw danych programu Salesforce. Obsługiwanych jest wiele różnych źródeł danych.
 
-W poniższym przykładzie wybrano obszar roboczy aplikacji „Sales and marketing” i kliknięto kartę **Zestawy danych**.
+Gdy projektant udostępni Ci aplikację, możesz zobaczyć, które zestawy danych są do niej dołączone. 
 
-![](media/end-user-basic-concepts/power-bi-datasets.png)
+![](media/end-user-basic-concepts/power-bi-dataset-list.png)
 
 **JEDNEGO** zestawu danych...
 
-* Można używać wielokrotnie w co najmniej jednym obszarze roboczym.
+* Można używać wiele razy.
 * Można używać w wielu różnych raportach.
 * Wizualizacje z tego jednego zestawu danych można wyświetlać w wielu różnych pulpitach nawigacyjnych.
   
-  ![](media/end-user-basic-concepts/drawing2.png)
+  ![relacje zestawu danych typu wiele do jednego](media/end-user-basic-concepts/drawing2.png)
 
-Aby [nawiązać połączenie z zestawem danych lub zaimportować go](../service-get-data.md), wybierz pozycję **Pobierz dane** (u dołu lewego paska nawigacyjnego) lub wybierz pozycje **+ Utwórz > Zestaw danych** (w prawym górnym rogu). Postępuj zgodnie z instrukcjami, aby nawiązać połączenie z konkretnym źródłem lub zaimportować je i dodać zestaw danych do aktywnego obszaru roboczego. Nowe zestawy danych są oznaczone żółtą gwiazdką. Praca wykonywana w usłudze Power BI nie zmienia źródłowego zestawu danych.
+Przejdźmy do następnego bloku konstrukcyjnego — wizualizacji.
+__________________________________________________________
 
-Jeśli jesteś [częścią ***obszaru roboczego aplikacji***](../service-collaborate-power-bi-workspace.md), zestawy danych dodane przez jednego członka obszaru roboczego będą dostępne dla innych członków obszaru roboczego.
+## <a name="visualizations"></a>Wizualizacje
+Wizualizacje prezentują szczegółowe informacje, które zostały odnalezione w danych. Wizualizacje ułatwiają interpretowanie szczegółowych informacji, ponieważ mózg potrafi szybciej zrozumieć dane w postaci obrazu niż arkusza kalkulacyjnego pełnego liczb.
 
-Możesz odświeżać, eksplorować i usuwać zestawy danych oraz zmieniać ich nazwy. Użyj zestawu danych, aby utworzyć raport od podstaw lub przez uruchomienie [szybkiego wglądu w szczegółowe dane](end-user-insights.md).  Aby sprawdzić, które raporty i pulpity nawigacyjne już używają zestawu danych, wybierz pozycję **Wyświetl powiązane**. Aby eksplorować zestaw danych, wybierz go. Tak właściwie otworzysz zestaw danych w edytorze raportu, w którym będziesz w stanie rozpocząć szczegółowe badanie danych i tworzenie wizualizacji. Przejdźmy do kolejnego tematu — raportów.
+W usłudze Power BI można napotkać różne wizualizacje, na przykład kaskadowe, wstążkowe, w postaci mapy drzewa, kołowe, lejkowe, kartowe, punktowe i w postaci miernika. Zobacz [pełną listę wizualizacji dostępnych w usłudze Power BI](../power-bi-visualization-types-for-reports-and-q-and-a.md).
 
-### <a name="dig-deeper"></a>Szczegółowe informacje
-* [Power BI Premium — co to jest?](../service-premium.md)
-* [Pobieranie danych dla usługi Power BI](../service-get-data.md)
-* [Przykładowe zestawy danych dla usługi Power BI](../sample-datasets.md)
 
+   ![8 przykładowych wizualizacji](media/end-user-basic-concepts/power-bi-visuals.png)
+
+Wizualizacje są także dostępne za pośrednictwem społeczności. Są one wtedy nazywane *wizualizacjami niestandardowymi*. Jeśli otrzymasz raport z wizualizacją, której nie rozpoznajesz, najprawdopodobniej jest to wizualizacja niestandardowa. Jeśli będziesz potrzebować pomocy w zinterpretowaniu wizualizacji niestandardowej, <!--[look up the name of the report or dashboard *designer*](end-user-owner.md)-->wyszukaj nazwę *projektanta* raportu lub pulpitu nawigacyjnego i skontaktuj się z nim.
+
+**JEDNEJ** wizualizacji w raporcie...
+
+* Można używać wiele razy w tym samym raporcie, korzystając z opcji kopiowania/wklejania.
+* Można używać na wielu różnych pulpitach nawigacyjnych.
+__________________________________________________
 ## <a name="reports"></a>Raporty
-Raport usługi Power BI to co najmniej jedna strona wizualizacji (wykresów i diagramów, np. wykresów liniowych, wykresów kołowych, map w formie drzewa i wielu innych). Wizualizacje są również zwane ***elementami wizualnymi***. Wszystkie wizualizacje w raporcie pochodzą z jednego zestawu danych. Raporty można tworzyć od podstaw w usłudze Power BI, importować je wraz z pulpitami nawigacyjnymi udostępnianymi przez współpracowników lub tworzyć je podczas nawiązywania połączenia z zestawami danych z programu Excel, Power BI Desktop, bazami danych, aplikacjami SaaS i [aplikacjami](../service-get-data.md).  Na przykład po połączeniu ze skoroszytem programu Excel zawierającym arkusze Power View usługa Power BI utworzy raport w oparciu o te arkusze. Ponadto po nawiązaniu połączenia z aplikacją SaaS usługa Power BI zaimportuje wstępnie utworzony raport.
+Raport usługi Power BI składa się z jednej lub większej liczby stron z wizualizacjami, grafiką i tekstem. Wszystkie wizualizacje w raporcie pochodzą z jednego zestawu danych. *Projektanci* udostępniają raporty *użytkownikom*, którzy [wchodzą w interakcje z raportami w *widoku do czytania*](end-user-reading-view.md).
 
-Istnieją 2 tryby umożliwiające wyświetlanie i wchodzenie w interakcję z raportami: [Widok do czytania i Widok do edycji](end-user-reading-view.md).  Tylko osoba, która utworzyła raport, współwłaściciele oraz osoby, którym udzielono uprawnień, mają dostęp do wszystkich możliwości związanych z eksplorowaniem, projektowaniem, tworzeniem i udostępnianiem w ***Widoku edycji*** dla tego raportu. Ponadto osoby, którym raport zostanie udostępniony, mogą eksplorować raport i wchodzić z nim w interakcje przy użyciu ***Widoku odczytu***.   
-
-Gdy otworzysz obszar roboczy, skojarzone raporty będą wyświetlane na karcie **Raporty**. Każdy raport na liście reprezentuje co najmniej jedną stronę wizualizacji opartą na tylko jednym źródłowym zestawie danych. Aby otworzyć raport, wybierz go. 
-
-Gdy otworzysz aplikację, zostanie wyświetlony pulpit nawigacyjny.  Aby uzyskać dostęp do raportu źródłowego, wybierz kafelek pulpitu nawigacyjnego (później zostaną one omówione dokładniej) przypięty z raportu. Nie wszystkie kafelki są przypinane z raportów, więc może być konieczne kliknięcie kilku kafelków w celu znalezienia raportu. 
-
-Domyślnie raport jest otwierany w widoku do czytania.  Po prostu wybierz pozycję **Edytuj raport**, aby otworzyć go w widoku do edycji (jeśli masz odpowiednie uprawnienia). 
-
-W poniższym przykładzie wybrano obszar roboczy aplikacji „Sales and marketing” i kliknięto kartę **Raporty**.
-
-![](media/end-user-basic-concepts/power-bi-reports.png)
+![raport z kartami](media/end-user-basic-concepts/power-bi-report2.png)
 
 **JEDEN** raport...
 
-* Znajduje się w jednym obszarze roboczym.
-* Może być skojarzony z wieloma pulpitami nawigacyjnymi w tym obszarze roboczym (kafelki przypięte z tego raportu mogą pojawiać się na wielu pulpitach nawigacyjnych).
-* Może być utworzony przy użyciu danych z jednego zestawu danych. (Nieznacznym wyjątkiem od tej reguły jest aplikacja Power BI Desktop, w której można połączyć więcej niż jeden zestaw danych w pojedynczy raport, a następnie zaimportować ten raport do usługi Power BI).
+* Może być skojarzony z wieloma pulpitami nawigacyjnymi (kafelki przypięte z tego raportu mogą pojawiać się na wielu pulpitach nawigacyjnych).
+* Jest tworzony przy użyciu danych pochodzących tylko z jednego zestawu danych.  
+* Może być częścią wielu aplikacji.
   
-  ![](media/end-user-basic-concepts/drawing3new.png)
+  ![](media/end-user-basic-concepts/drawing5.png)
 
-### <a name="dig-deeper"></a>Szczegółowe informacje
-* [Raporty w usłudze Power BI i programie Power BI Desktop](end-user-reports.md)
-* [Raporty w aplikacjach mobilnych Power BI](mobile/mobile-reports-in-the-mobile-apps.md)
+________________________________________________
 
 ## <a name="dashboards"></a>Pulpity nawigacyjne
-*Pulpit nawigacyjny* jest elementem tworzonym przez Ciebie **w usłudze Power BI** lub tworzonym i udostępnianym przez współpracownika **w usłudze Power BI**. Jest to jedna kanwa zawierająca zero lub więcej kafelków i widgetów. Każdy kafelek przypięty z raportu lub [sesji pytań i odpowiedzi](end-user-q-and-a.md) wyświetla jedną [wizualizację](../visuals/power-bi-report-visualizations.md), która została utworzona na podstawie zestawu danych i przypięta do pulpitu nawigacyjnego. Do pulpitu nawigacyjnego można też przypinać całe strony raportów jako pojedyncze kafelki. Istnieje wiele sposobów na dodanie kafelków do pulpitu nawigacyjnego; zbyt wiele, aby uwzględnić je w tym temacie. Aby dowiedzieć się więcej, zobacz [Kafelki pulpitu nawigacyjnego w usłudze Power BI](end-user-tiles.md). 
+Pulpit nawigacyjny reprezentuje dostosowany widok przedstawiający podzbiór bazowych zestawów danych. *Projektanci* tworzą pulpity nawigacyjne i udostępniają je *użytkownikom* — indywidualnie lub jako część aplikacji. Pulpit nawigacyjny to jedna kanwa zawierająca *kafelki*, grafiki i tekst. 
 
-Dlaczego ludzie tworzą pulpity nawigacyjne?  Poniżej przedstawiono niektóre z powodów:
+  ![](media/end-user-basic-concepts/power-bi-dashboard.png)
+
+Kafelek to renderowanie wizualizacji, które *projektant* *przypina* na przykład z raportu do pulpitu nawigacyjnego.  Każdy przypięty kafelek wyświetla [wizualizację](end-user-visualizations.md), która została utworzona na podstawie zestawu danych i przypięta do pulpitu nawigacyjnego. Kafelek może również zawierać całą stronę raportu, dane transmisji strumieniowej na żywo lub wideo. Istnieje wiele sposobów, na które *projektanci* mogą dodawać kafelki do pulpitów nawigacyjnych; zbyt wiele, aby uwzględnić je w tym temacie. Aby dowiedzieć się więcej, zobacz [Kafelki pulpitu nawigacyjnego w usłudze Power BI](end-user-tiles.md). 
+
+Z punktu widzenia użytkownika pulpitów nawigacyjnych nie można edytować. Można jednak dodawać do nich komentarze, wyświetlać powiązane z nimi dane, ustawiać je jako ulubione, subskrybować i nie tylko. 
+
+Jakie są zastosowania pulpitów nawigacyjnych?  Poniżej przedstawiono kilka z nich:
 
 * Aby zobaczyć, na pierwszy rzut oka, wszystkie informacje wymagane do podejmowania decyzji.
 * Aby monitorować najważniejsze informacje dotyczące firmy.
@@ -124,117 +138,37 @@ Dlaczego ludzie tworzą pulpity nawigacyjne?  Poniżej przedstawiono niektóre z
 * Aby monitorować kondycję firmy, produktu, jednostki biznesowej lub kampanii marketingowej itd.
 * Aby tworzyć spersonalizowany widok większego pulpitu nawigacyjnego — zawierający wszystkie ważne metryki.
 
-Gdy otworzysz obszar roboczy, skojarzone pulpity nawigacyjne będą wyświetlane na karcie **Pulpity nawigacyjne**. Aby otworzyć pulpit nawigacyjny, wybierz go. Gdy otworzysz aplikację, zostanie wyświetlony pulpit nawigacyjny.  Każdy pulpit nawigacyjny reprezentuje dostosowany widok przedstawiający podzbiór źródłowych zestawów danych.  Jeśli jesteś właścicielem pulpitu nawigacyjnego, będziesz również mieć uprawnienia do edytowania źródłowych zestawów danych i raportów.  Jeśli pulpit nawigacyjny został Ci udostępniony, będziesz mieć możliwość interakcji z nim i raportami źródłowymi, ale nie będziesz móc zapisywać żadnych zmian.
-
-Istnieje wiele sposobów umożliwiających Tobie lub Twoim współpracownikom [udostępnianie pulpitu nawigacyjnego](../service-share-dashboards.md). Usługa Power BI Pro jest wymagana w przypadku udostępniania pulpitu nawigacyjnego oraz może być wymagana w przypadku wyświetlania udostępnionego pulpitu nawigacyjnego.
-
-
-> [!NOTE]
-> Przypinanie i kafelki zostały omówione bardziej szczegółowo poniżej w sekcji „Pulpit nawigacyjny z kafelkami”.
-> 
-
 **JEDEN** pulpit nawigacyjny...
 
-* Jest skojarzony z jednym obszarem roboczym.
 * Może wyświetlać wizualizacje z wielu różnych zestawów danych.
 * Może wyświetlać wizualizacje z wielu różnych raportów.
 * Może wyświetlać wizualizacje przypięte z innych narzędzi (np. programu Excel).
   
   ![](media/end-user-basic-concepts/drawing1.png)
 
-### <a name="dig-deeper"></a>Szczegółowe informacje
-* [Tworzenie nowego pustego pulpitu nawigacyjnego i pobieranie danych](../service-dashboard-create.md)
-* [Duplikowanie pulpitu nawigacyjnego](../service-dashboard-copy.md) 
-* [Tworzenie widoku pulpitu nawigacyjnego dla telefonu](../service-create-dashboard-mobile-phone-view.md)
+________________________________________________
 
+## <a name="apps"></a>Aplikacje
+Te kolekcje pulpitów nawigacyjnych i raportów organizują powiązaną zawartość w jeden pakiet. *Projektanci* usługi Power BI tworzą je i udostępniają użytkownikom indywidualnym, grupom, całej organizacji lub publicznej społeczności. Jako użytkownik możesz mieć pewność, że Ty i Twoi współpracownicy pracujecie z tymi samymi danymi — jedną zaufaną wersją faktów. 
 
-## <a name="workbooks"></a>Skoroszyty
-Skoroszyty są specjalnym typem zestawów danych. Niemal wszystkie potrzebne informacje o skoroszytach przedstawiono w powyższej sekcji **Zestawy danych**. Jednak możesz się zastanawiać, dlaczego czasami usługa Power BI klasyfikuje skoroszyt programu Excel jako **zestaw danych**, a czasami jako **skoroszyt**. 
+![](media/end-user-basic-concepts/power-bi-app.png)
 
-Jeśli używasz polecenia **Pobierz dane** w plikach programu Excel, możesz *zaimportować* plik lub *nawiązać z nim połączenie*. Po wybraniu pozycji Połącz skoroszyt pojawi się w usłudze Power BI, podobnie jak w aplikacji Excel Online. Jednak, w przeciwieństwie do programu Excel Online, będziesz mieć dostęp do pewnych doskonałych funkcji ułatwiających przypinanie elementów z arkuszy bezpośrednio do pulpitów nawigacyjnych.
+Aplikacje można łatwo znaleźć i zainstalować w usłudze Power BI (https://powerbi.com) i na urządzeniu przenośnym. Gdy zainstalujesz aplikację, nie musisz pamiętać nazw wielu różnych pulpitów nawigacyjnych, ponieważ są one wszystkie razem w jednej aplikacji, w przeglądarce lub na urządzeniu przenośnym. 
 
-W usłudze Power BI nie możesz edytować swojego skoroszytu. Niemniej jeśli musisz wprowadzić zmiany, możesz kliknąć pozycję Edytuj, a następnie wprowadzić zmiany do swojego skoroszytu w aplikacji Excel Online lub otworzyć go w programie Excel na komputerze. Wszelkie wprowadzone zmiany są zapisywane w skoroszycie w usłudze OneDrive.
+Ta aplikacja ma trzy powiązane pulpity nawigacyjne i trzy powiązane raporty, które tworzą pojedynczą aplikację.
 
-### <a name="dig-deeper"></a>Szczegółowe informacje
-* [Pobieranie danych z plików skoroszytów programu Excel](../service-excel-workbook-files.md)
-* [Publikowanie w usłudze Power BI z programu Excel](../service-publish-from-excel.md)
+![](media/end-user-basic-concepts/power-bi-app-list.png)
 
+Kiedy autor aplikacji udostępnia aktualizację, zmiany są automatycznie widoczne w aplikacji. Autor ustala również harmonogram odświeżania danych, dzięki czemu nie musisz się martwić o zachowywanie ich aktualności.
 
-## <a name="my-workspace"></a>Mój obszar roboczy
-Omówiliśmy obszary robocze i bloki konstrukcyjne. Przyjrzyjmy się ponownie interfejsowi usługi Power BI i omówmy elementy, które składają się na stronę docelową usługi Power BI.
+Aplikacje można uzyskać na kilka różnych sposobów. Projektant aplikacji może automatycznie zainstalować aplikację na Twoim koncie usługi Power BI lub może wysłać Ci bezpośredni link do aplikacji. Możesz też wyszukać aplikację w usłudze Microsoft AppSource, gdzie są widoczne wszystkie aplikacje, do których masz dostęp. W usłudze Power BI na urządzeniu przenośnym aplikacje można instalować tylko za pomocą linku bezpośredniego, a nie z usługi AppSource. Jeśli projektant aplikacji zainstaluje ją automatycznie, zobaczysz ją na swojej liście aplikacji.
 
-![](media/end-user-basic-concepts/completenewest.png)
+Po zainstalowaniu aplikacji wystarczy wybrać ją na liście aplikacji i zdecydować, który pulpit nawigacyjny lub raport ma być otwierany i eksplorowany jako pierwszy.   
 
-### <a name="1-navigation-pane-left-nav"></a>1. **Lewe okienko nawigacji**
-Okienko nawigacji umożliwia znajdowanie obszarów roboczych i bloków konstrukcyjnych usługi Power BI (pulpitów nawigacyjnych, raportów, skoroszytów i zestawów danych) oraz poruszanie się między nimi.  
-
-  ![](media/end-user-basic-concepts/power-bi-navigation.png)
-
-* Wybierz opcję **Pobierz dane**, aby [dodać zestawy danych, raporty i pulpity nawigacyjne do usługi Power BI](../service-get-data.md).
-* Rozwiń lub zwiń pasek nawigacyjny, korzystając z tej ikony ![](media/end-user-basic-concepts/expand-icon.png).
-* Otwórz ulubioną zawartość lub zarządzaj nią przez wybranie pozycji **Ulubione**.
-* Wyświetl i otwórz ostatnio odwiedzaną zawartość przez wybranie pozycji **Ostatnio używane**.
-* Wyświetl, otwórz lub usuń aplikację przez wybranie pozycji **Aplikacje**.
-* Czy współpracownik udostępnił Ci zawartość? Wybierz pozycję **Udostępnione dla mnie**, aby wyszukiwać i sortować tę zawartość w celu znalezienia potrzebnych informacji.
-* Wyświetlaj i otwieraj obszary robocze przez wybranie pozycji **Obszary robocze**.
-
-Kliknij jeden raz:
-
-* Ikonę lub nagłówek, aby otworzyć widok zawartości.
-* Strzałkę w prawo (>), aby otworzyć menu wysuwane Ulubione, Ostatnio używane i Obszary robocze. 
-* Cudzysłów ostrokątny rozwijania (), aby wyświetlić przewijaną listę pulpitów nawigacyjnych, raportów, skoroszytów i zestawów danych **Mój obszar roboczy**.
-* Zestaw danych, aby go eksplorować.
-
-### <a name="2-canvas"></a>2. **Kanwa** 
-Otwarto pulpit nawigacyjny, dlatego w obszarze kanwy są wyświetlane kafelki wizualizacji. Gdyby na przykład otwarto edytor raportu, w obszarze kanwy byłaby wyświetlana strona raportu. 
-
-Pulpity nawigacyjne składają się z [kafelków](end-user-tiles.md).  Kafelki są tworzone w widoku edycji raportu, funkcji pytań i odpowiedzi oraz innych pulpitach nawigacyjnych i mogą być przypinane z programu Excel, SSRS i nie tylko. Specjalnym typem kafelka jest [widget](../service-dashboard-add-widget.md), który jest dodawany bezpośrednio do pulpitu nawigacyjnego. Kafelki, które są wyświetlane na pulpicie nawigacyjnym, zostały tam specjalnie umieszczone przez twórcę/właściciela raportu.  Dodawanie kafelka do pulpitu nawigacyjnego jest nazywane *przypinaniem*.
-
-![Kanwa pulpitu nawigacyjnego usługi Power BI](./media/end-user-basic-concepts/canvas.png)
-
-Aby uzyskać więcej informacji, zobacz sekcję **Pulpity nawigacyjne** (powyżej).
-
-### <a name="3-qa-question-box"></a>3. **Pole pytań funkcji pytań i odpowiedzi**
-Jednym ze sposobów na eksplorowanie danych jest zadanie pytania i umożliwienie znalezienia odpowiedzi w formie wizualizacji przez funkcję pytań i odpowiedzi usługi Power BI. Funkcja pytań i odpowiedzi umożliwia dodawanie zawartości do pulpitu nawigacyjnego lub raportu.
-
-Funkcja pytań i odpowiedzi wyszukuje odpowiedź w zestawach danych połączonych z pulpitem nawigacyjnym.  Połączony zestaw danych to taki, który ma co najmniej jeden kafelek przypięty do tego pulpitu nawigacyjnego.
-
-![Pole pytań funkcji pytań i odpowiedzi](./media/end-user-basic-concepts/power-bi-qna.png)
-
-Kiedy tylko zaczniesz wpisywać pytanie, funkcja pytań i odpowiedzi przeniesie Cię na stronę funkcji pytań i odpowiedzi. Podczas wpisywania funkcja pytań i odpowiedzi pomaga zadać odpowiednie pytanie i znaleźć najlepszą odpowiedź przy użyciu parafrazowania, automatycznego uzupełniania, sugestii i innych funkcji. Jeśli otrzymasz żądaną wizualizację (odpowiedź), przypnij ją do pulpitu nawigacyjnego. Aby uzyskać więcej informacji, zobacz [Funkcja pytań i odpowiedzi w usłudze Power BI](end-user-q-and-a.md).
-
-### <a name="4-icon-buttons"></a>4. **Przyciski ikon** 
-Ikony w prawym górnym rogu stanowią zasoby umożliwiające korzystanie z ustawień, powiadomień, pobierania, pomocy i funkcji przekazywania opinii do zespołu usługi Power BI. Wybierz podwójną strzałkę, aby otworzyć pulpit nawigacyjny w trybie **pełnoekranowym**.  
-
-![przyciski ikon](./media/end-user-basic-concepts/power-bi-icons.png)
-
-### <a name="5-dashboard-title-navigation-path-aka-breadcrumbs"></a>5. **Tytuł pulpitu nawigacyjnego** (ścieżka nawigacji, czyli linki do stron nadrzędnych)
-Czasami ustalenie, który obszar roboczy i pulpit nawigacyjny jest aktywny, jest trudne, dlatego usługa Power BI tworzy automatycznie ścieżkę nawigacji.  W tym przykładzie przedstawiono obszar roboczy (Mój obszar roboczy) i tytuł pulpitu nawigacyjnego (Retail Analysis Sample).  W przypadku otwarcia raportu nazwa raportu zostanie dołączona na końcu ścieżki nawigacji.  Każda sekcja ścieżki jest aktywnym hiperlinkiem.  
-
-W tytule pulpitu nawigacyjnego jest wyświetlana ikona „C”. Ten pulpit nawigacyjny zawiera [tag klasyfikacji danych](../service-data-classification.md) dla informacji poufnych. Tag identyfikuje poziom poufności i zabezpieczeń danych. Jeśli administrator wyłączył klasyfikację danych, każdy pulpit nawigacyjny będzie mieć ustawiony tag domyślny. Właściciele pulpitu nawigacyjnego powinni zmienić tag zgodnie z poziomem zabezpieczeń ich pulpitu nawigacyjnego.
-
-![](media/end-user-basic-concepts/power-bi-title.png)
-
-### <a name="6-office-365-app-launcher"></a>6. **Uruchamianie aplikacji usługi Office 365**
-Funkcja uruchamiania aplikacji umożliwia łatwe uzyskiwanie dostępu do wszystkich aplikacji usługi Office 365 jednym kliknięciem. W tym miejscu można szybko uruchomić pocztę e-mail, dokumenty, kalendarz i nie tylko. 
-
-![Uruchamianie aplikacji pakietu Office](./media/end-user-basic-concepts/power-bi-waffle.png)
-
-### <a name="7-power-bi-home"></a>7. **Strona główna usługi Power BI**
-Wybranie tej pozycji powoduje otwarcie [proponowanego pulpitu nawigacyjnego](end-user-featured.md) (jeśli go ustawiono). W przeciwnym razie zostanie otwarty ostatnio wyświetlany pulpit nawigacyjny.
-
-   ![](media/end-user-basic-concepts/version-new.png)
-
-### <a name="8-labeled-icon-buttons"></a>8. **Przyciski ikon z etykietami**
-Ten obszar ekranu zawiera dodatkowe opcje interakcji z zawartością (w tym przypadku z pulpitem nawigacyjnym).  Oprócz widocznych ikon z etykietami można wybrać wielokropek, co spowoduje wyświetlenie opcji umożliwiających duplikowanie, drukowanie i odświeżanie pulpitu nawigacyjnego oraz innych opcji.
-
-   ![](media/end-user-basic-concepts/power-bi-labeled-icons.png)
+Mam nadzieję, że ten artykuł był pomocny w zrozumieniu bloków konstrukcyjnych tworzących usługę Power BI dla użytkowników. 
 
 ## <a name="next-steps"></a>Następne kroki
-[Co to jest usługa Power BI?](../power-bi-overview.md)  
-[Navigation: Getting around in Power BI service](end-user-experience.md)
-[Power BI videos](../videos.md) (Nawigacja: Poruszanie się po usłudze Power BI) (Power BI — wideo)  
-[Edytor raportu — krótki przewodnik](../service-the-report-editor-take-a-tour.md)
-
-Masz więcej pytań? [Zadaj pytanie społeczności usługi Power BI](http://community.powerbi.com/)
-
+- Przejrzyj [słownik](end-user-glossary.md) i dodaj do niego zakładki    
+- Zapoznaj się z [przewodnikiem po usłudze Power BI](end-user-experience.md)
+- Przeczytaj [omówienie usługi Power BI napisane specjalnie dla użytkowników](end-user-consumer.md)    
+- Obejrzyj wideo, w którym Will omawia podstawowe pojęcia i przedstawia przewodnik po usłudze Power BI. <iframe width="560" height="315" src="https://www.youtube.com/embed/B2vd4MQrz4M" frameborder="0" allowfullscreen></iframe>
