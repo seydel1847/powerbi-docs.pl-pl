@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/13/2018
 ms.author: mblythe
 LocalizationGroup: Get started
-ms.openlocfilehash: 88942d4bf304af7a43df3a0f4864b537182cc84c
-ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
+ms.openlocfilehash: 62d6a274b7cfb784f4f61b0973bad22ea6194698
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "48272510"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49641303"
 ---
 # <a name="power-bi-free-vs-pro"></a>Usługa Power BI — wersja bezpłatna a wersja Pro
 
@@ -44,7 +44,7 @@ Tutaj znajduje się lista obsługiwanych funkcji według typu użytkownika.
 
 ## <a name="next-steps"></a>Następne kroki
 
-Jeśli chcesz dowiedzieć się więcej na temat usługi Power BI — wersja Premium, zobacz [Power BI Premium — co to jest?](service-premium.md).
+Jeśli chcesz dowiedzieć się więcej na temat usługi Power BI Premium, zobacz [Co to jest usługa Power BI Premium?](service-premium.md).
 
 Aby rozpocząć pracę z usługą Power BI, rejestrując się w niej, zobacz [Signing up for Power BI as an individual](service-self-service-signup-for-power-bi.md) (Rejestrowanie się w usłudze Power BI jako użytkownik indywidualny).
 

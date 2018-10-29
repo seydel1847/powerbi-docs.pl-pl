@@ -8,18 +8,18 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/08/2018
+ms.date: 10/16/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d042119a95cb60f930a0535e93b0a50ee9224da3
-ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
+ms.openlocfilehash: af39332bdc1c9e1529d56f55215b0b32ab86f3e7
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "49112273"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396824"
 ---
 # <a name="export-data-from-visualizations"></a>Eksportowanie danych z wizualizacji
-Jeśli chcesz zobaczyć dane, które zostały użyte do utworzenia wizualizacji, możesz wyświetlić te dane w usłudze Power BI lub wyeksportować je do programu Excel w formie pliku xlsx lub csv.   
+Jeśli chcesz zobaczyć dane, które zostały użyte do utworzenia wizualizacji, możesz wyświetlić te dane w usłudze Power BI lub wyeksportować je do programu Excel w formie pliku xlsx lub csv. Opcja eksportowania danych wymaga licencji wersji Pro lub Premium i uprawnień do edycji zestawu danych i raportu. 
 
 Zobacz, jak Will eksportuje dane z jednej z wizualizacji w swoim raporcie, zapisuje je w pliku xlsx i otwiera je w programie Excel. Następnie postępuj zgodnie ze szczegółowymi instrukcjami poniżej wideo, aby wypróbować to samodzielnie.
 
@@ -92,9 +92,12 @@ Zawartość widoczna na ekranie po wybraniu opcji **Dane bazowe** może być ró
 
 ### <a name="set-the-export-options"></a>Ustawianie opcji eksportu
 Projektanci raportów usługi Power BI kontrolują typy opcji eksportowania danych, które są dostępne dla klientów. Są to:
-- Allow export of only summarized (Zezwalaj tylko na eksportowanie podsumowanych) (jest to ustawienie domyślne dla raportów) 
-- Allow exporting of summarized and underlying data (Zezwalaj na eksportowanie danych podsumowanych i bazowych)  
+- Allow export of only summarized data (Zezwalaj tylko na eksportowanie podsumowanych danych) (jest to ustawienie domyślne dla nowych raportów) 
+- Allow exporting of summarized and underlying data (Zezwalaj na eksportowanie danych podsumowanych i bazowych) (to była opcja domyślna do października 2018 r.) 
 - Don't allow exporting of any data (Nie zezwalaj na eksportowanie żadnych danych)  
+
+    > [!IMPORTANT]
+    > Zalecamy, aby projektanci raportów wrócili do starych raportów i ręcznie zresetowali opcję eksportu, zgodnie z potrzebami.
 
 1. Aby ustawić te opcje, uruchom program Power BI Desktop.
 

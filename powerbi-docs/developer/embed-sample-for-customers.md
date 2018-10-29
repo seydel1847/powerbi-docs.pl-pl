@@ -8,13 +8,13 @@ ms.topic: tutorial
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
-ms.date: 06/20/2018
-ms.openlocfilehash: 6685b47de6fbcc4ce35d5087c545814e34092d11
-ms.sourcegitcommit: b7b828019b2a2917dfda4d6df0c9cdce70fa68cd
+ms.date: 10/17/2018
+ms.openlocfilehash: d3076090b06cdb60b72c475fd156cc274985ea32
+ms.sourcegitcommit: 1a79e48ac820c28c5d0fd05399f49ed22fc74ed7
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/05/2018
-ms.locfileid: "48827438"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "49435493"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-customers"></a>Samouczek: osadzanie raportu, pulpitu nawigacyjnego lub kafelka usługi Power BI w aplikacji dla klientów
 
@@ -36,7 +36,7 @@ Do rozpoczęcia pracy potrzebne jest konto usługi **Power BI Pro** (**konto gł
 
 ## <a name="set-up-your-embedded-analytics-development-environment"></a>Konfigurowanie środowiska deweloperskiego analizy osadzonej
 
-Przed rozpoczęciem osadzania raportów, pulpitów nawigacyjnych lub kafelków w aplikacji należy upewnić się, że środowisko skonfigurowano w sposób umożliwiający osadzanie. W ramach konfiguracji należy wykonać następujące działania.
+Przed rozpoczęciem osadzania raportów, pulpitów nawigacyjnych lub kafelków w aplikacji należy upewnić się, że dane środowisko zezwala na osadzanie za pomocą usługi Power BI.
 
 Możesz użyć [narzędzia obsługi dołączania](https://aka.ms/embedsetup/AppOwnsData), aby szybko zacząć pracę i pobrać przykładową aplikację, która pomoże przeprowadzić Cię przez proces tworzenia środowiska i osadzania raportu.
 
@@ -44,7 +44,7 @@ Jeśli jednak chcesz ręcznie skonfigurować środowisko, kontynuuj czytanie.
 
 ### <a name="register-an-application-in-azure-active-directory-azure-ad"></a>Rejestrowanie aplikacji w usłudze Azure Active Directory (Azure AD)
 
-Aplikację można zarejestrować w usłudze Azure Active Directory, aby zapewnić aplikacji dostęp do interfejsów API REST usługi Power BI. Dzięki temu można ustanowić tożsamość aplikacji i określić jej uprawnienia do zasobów REST usługi Power BI.
+Aplikację można zarejestrować w usłudze Azure Active Directory, aby zapewnić aplikacji dostęp do interfejsów API REST usługi Power BI. Zarejestrowanie aplikacji umożliwia ustanowienie tożsamości aplikacji i określenie jej uprawnień do zasobów REST usługi Power BI.
 
 1. Zaakceptuj [Warunki interfejsu API usługi Microsoft Power BI](https://powerbi.microsoft.com/api-terms).
 
@@ -63,7 +63,7 @@ Aplikację można zarejestrować w usłudze Azure Active Directory, aby zapewni�
 
 ### <a name="apply-permissions-to-your-application-within-azure-active-directory"></a>Stosowanie uprawnień do aplikacji w usłudze Azure Active Directory
 
-Musisz włączyć dodatkowe uprawnienia aplikacji oprócz tych, które zostały podane na stronie rejestrowania aplikacji. Musisz zalogować się na konto *główne* używane do osadzania, które musi być kontem administratora globalnego.
+Włącz dodatkowe uprawnienia aplikacji oprócz tych, które zostały podane na stronie rejestrowania aplikacji. Zaloguj się przy użyciu konta *głównego*, którego używasz do osadzania. Konto główne musi być kontem administratora globalnego.
 
 ### <a name="use-the-azure-active-directory-portal"></a>Korzystanie z portalu usługi Azure Active Directory
 
@@ -91,7 +91,7 @@ Musisz włączyć dodatkowe uprawnienia aplikacji oprócz tych, które zostały 
 
     ![Wybieranie usług PBI](media/embed-sample-for-customers/embed-sample-for-customers-014.png)
 
-7. Wybierz wszystkie uprawnienia w obszarze **Delegowane uprawnienia**. W celu zapisania wyborów musisz je zaznaczać pojedynczo. Po zakończeniu wybierz pozycję **Zapisz**.
+7. Wybierz wszystkie uprawnienia w obszarze **Delegowane uprawnienia**. Po zakończeniu wybierz pozycję **Zapisz**.
 
     ![Wybieranie delegowanych uprawnień](media/embed-sample-for-customers/embed-sample-for-customers-015.png)
 
@@ -103,15 +103,15 @@ Musisz włączyć dodatkowe uprawnienia aplikacji oprócz tych, które zostały 
 
 ## <a name="set-up-your-power-bi-environment"></a>Konfigurowanie środowiska usługi Power BI
 
-### <a name="create-an-app-workspace"></a>Tworzenie obszaru roboczego aplikacji
+### <a name="create-an-app-workspace"></a>Utwórz obszar roboczy aplikacji
 
 W przypadku osadzania raportów, pulpitów nawigacyjnych lub kafelków dla klientów należy umieścić zawartość w obszarze roboczym aplikacji. Konto *główne* musi być kontem administratora obszaru roboczego aplikacji.
 
-1. Rozpocznij od utworzenia obszaru roboczego. Wybierz pozycję **Obszary robocze** > **Utwórz obszar roboczy aplikacji**. W tym miejscu jest umieszczana zawartość, do której aplikacja musi uzyskiwać dostęp.
+1. Rozpocznij od utworzenia obszaru roboczego. Wybierz pozycję **Obszary robocze** > **Utwórz obszar roboczy aplikacji**. W oknie tworzenia obszaru roboczego aplikacji umieść zawartość, do której aplikacja musi uzyskiwać dostęp.
 
     ![Tworzenie obszaru roboczego](media/embed-sample-for-customers/embed-sample-for-customers-020.png)
 
-2. Nadaj nazwę obszarowi roboczemu. Jeśli odpowiedni **Identyfikator obszaru roboczego** nie jest dostępny, edytuj go, aby skorzystać z unikatowego identyfikatora. Musi to być również nazwa aplikacji.
+2. Nadaj nazwę obszarowi roboczemu. Jeśli odpowiedni **Identyfikator obszaru roboczego** nie jest dostępny, edytuj go, aby skorzystać z unikatowego identyfikatora.
 
     ![Nazywanie obszaru roboczego](media/embed-sample-for-customers/embed-sample-for-customers-021.png)
 
@@ -161,11 +161,11 @@ Wykonaj następujące kroki, aby rozpocząć osadzanie zawartości za pomocą pr
 
     ![Przykład aplikacji App Owns Data (dane należą do aplikacji)](media/embed-sample-for-customers/embed-sample-for-customers-026.png)
 
-2. Otwórz plik Web.config w przykładowej aplikacji. Aby pomyślnie uruchomić aplikację, należy wypełnić 5 pól: **clientId**, **groupId**, **reportId**, **pbiUsername** i **pbiPassword**.
+2. Otwórz plik Web.config w przykładowej aplikacji. Aby pomyślnie uruchomić aplikację, należy wypełnić pięć pól. **applicationId**, **workspaceId**, **reportId**, **pbiUsername** oraz **pbiPassword**.
 
     ![Plik Web.config](media/embed-sample-for-customers/embed-sample-for-customers-030.png)
 
-    W polu **clientId** podaj **identyfikator aplikacji** z platformy **Azure**. Za pomocą wartości **clientId** aplikacja identyfikuje się dla użytkowników, od których żądasz uprawnień. Aby uzyskać wartość **clientId**, wykonaj następujące czynności:
+    W polu **applicationId** wprowadź **Identyfikator aplikacji** z platformy **Azure**. Za pomocą wartości **applicationId** aplikacja identyfikuje się dla użytkowników, od których żądasz uprawnień. Aby uzyskać wartość **applicationId**, wykonaj następujące czynności:
 
     Zaloguj się w witrynie [Azure Portal](https://portal.azure.com).
 
@@ -175,17 +175,17 @@ Wykonaj następujące kroki, aby rozpocząć osadzanie zawartości za pomocą pr
 
     ![Wyszukiwanie rejestracji aplikacji](media/embed-sample-for-customers/embed-sample-for-customers-003.png)
 
-    Wybierz aplikację, dla której chcesz uzyskać wartość **clientId**.
+    Wybierz aplikację, dla której chcesz uzyskać wartość **applicationId**.
 
     ![Wybieranie aplikacji](media/embed-sample-for-customers/embed-sample-for-customers-006.png)
 
-    Powinien zostać wyświetlony **identyfikator aplikacji** wymieniony jako identyfikator GUID. Użyj tego **identyfikatora aplikacji** jako wartości **clientId** dla aplikacji.
+    Powinien zostać wyświetlony **identyfikator aplikacji** wymieniony jako identyfikator GUID. Użyj tego **identyfikatora aplikacji** jako wartości **applicationId** dla aplikacji.
 
-    ![clientId](media/embed-sample-for-customers/embed-sample-for-customers-007.png)
+    ![applicationId](media/embed-sample-for-customers/embed-sample-for-customers-007.png)
 
-    W polu **groupId** podaj **identyfikator GUID obszaru roboczego aplikacji** z usługi Power BI.
+    W polu **workspaceId** podaj **identyfikator GUID obszaru roboczego aplikacji** z usługi Power BI.
 
-    ![groupId](media/embed-sample-for-customers/embed-sample-for-customers-031.png)
+    ![workspaceId](media/embed-sample-for-customers/embed-sample-for-customers-031.png)
 
     W polu **reportId** podaj **identyfikator GUID** z usługi Power BI.
 
@@ -214,7 +214,7 @@ Mimo że kroki osadzania zawartości można wykonać przy użyciu [interfejsów 
 
 Osadzanie dla klientów w ramach aplikacji wymaga pobrania **tokenu dostępu** dla konta głównego z usługi **Azure AD**. Przed wykonywaniem wywołań do [interfejsów API REST usługi Power BI](https://docs.microsoft.com/rest/api/power-bi/) wymagane jest pobranie [tokenu dostępu usługi Azure AD](get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data) dla aplikacji usługi Power BI za pomocą struktury **app owns data**.
 
-Aby utworzyć klienta programu Power BI przy użyciu **tokenu dostępu**, utwórz obiekt klienta usługi Power BI, który pozwala na interakcję z [interfejsami API REST usługi Power BI](https://docs.microsoft.com/rest/api/power-bi/). Jest to realizowane przez opakowywanie tokenu **AccessToken** w obiekt ***Microsoft.Rest.TokenCredentials***.
+Aby utworzyć klienta usługi Power BI przy użyciu **tokenu dostępu**, utwórz obiekt klienta usługi Power BI, który pozwala na interakcję z [interfejsami API REST usługi Power BI](https://docs.microsoft.com/rest/api/power-bi/). Jest to realizowane przez opakowywanie tokenu **AccessToken** w obiekt ***Microsoft.Rest.TokenCredentials***.
 
 ```csharp
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
@@ -242,8 +242,8 @@ Oto przykład kodu służącego do pobierania pierwszego raportu z danego obszar
 using Microsoft.PowerBI.Api.V2;
 using Microsoft.PowerBI.Api.V2.Models;
 
-// You need to provide the GroupID where the dashboard resides.
-ODataResponseListReport reports = client.Reports.GetReportsInGroupAsync(GroupId);
+// You need to provide the workspaceId where the dashboard resides.
+ODataResponseListReport reports = client.Reports.GetReportsInGroupAsync(workspaceId);
 
 // Get the first report in the group.
 Report report = reports.Value.FirstOrDefault();
@@ -263,7 +263,7 @@ using Microsoft.PowerBI.Api.V2.Models;
 
 // Generate Embed Token.
 var generateTokenRequestParameters = new GenerateTokenRequest(accessLevel: "view");
-EmbedToken tokenResponse = client.Reports.GenerateTokenInGroup(GroupId, report.Id, generateTokenRequestParameters);
+EmbedToken tokenResponse = client.Reports.GenerateTokenInGroup(workspaceId, report.Id, generateTokenRequestParameters);
 
 // Generate Embed Configuration.
 var embedConfig = new EmbedConfig()
@@ -339,12 +339,12 @@ Określ na podstawie poniższej tabeli, jaka pojemność usługi Power BI Embedd
 
 | Węzeł pojemności | Całkowita liczba rdzeni<br/>*(Wewnętrzna baza danych + fronton)* | Rdzenie wewnętrznej bazy danych | Rdzenie frontonu | Limity zapytania bezpośredniego/połączenia na żywo | Maksymalne renderowanie strony w godzinie szczytu |
 | --- | --- | --- | --- | --- | --- |
-| A1 |1 rdzeń wirtualny |0,5 rdzenia, 3 GB pamięci RAM |0,5 rdzenia | 5 na sekundę |1–300 |
-| A2 |2 rdzenie wirtualne |1 rdzeń, 5 GB pamięci RAM |1 rdzeń | 10 na sekundę |301–600 |
-| A3 |4 rdzenie wirtualne |2 rdzenie, 10 GB pamięci RAM |2 rdzenie | 15 na sekundę |601–1200 |
-| A4 |8 rdzeni wirtualnych |4 rdzenie, 25 GB pamięci RAM |4 rdzenie |30 na sekundę |1201–2400 |
-| A5 |16 rdzeni wirtualnych |8 rdzeni, 50 GB pamięci RAM |8 rdzeni |60 na sekundę |2401–4800 |
-| A6 |32 rdzenie wirtualne |16 rdzeni, 100 GB pamięci RAM |16 rdzeni |120 na sekundę |4801–9600 |
+| A1 |1 rdzeń wirtualny |0,5 rdzenia, 3 GB pamięci RAM |0,5 rdzenia |0 5 na sekundę |1–300 |
+| A2 |2 rdzenie wirtualne |1 rdzeń, 5 GB pamięci RAM |1 rdzeń | 10 na sekundę |301–600 |
+| A3 |4 rdzenie wirtualne |2 rdzenie, 10 GB pamięci RAM |2 rdzenie | 15 na sekundę |601–1200 |
+| A4 |8 rdzeni wirtualnych |4 rdzenie, 25 GB pamięci RAM |4 rdzenie |30 na sekundę |1201–2400 |
+| A5 |16 rdzeni wirtualnych |8 rdzeni, 50 GB pamięci RAM |8 rdzeni |60 na sekundę |2401–4800 |
+| A6 |32 rdzenie wirtualne |16 rdzeni, 100 GB pamięci RAM |16 rdzeni |120 na sekundę |4801–9600 |
 
 **_Podobnie jak w przypadku jednostek SKU A, nie można uzyskiwać dostępu do zawartości usługi Power BI z użyciem BEZPŁATNEJ licencji usługi Power BI._**
 
@@ -364,7 +364,7 @@ Po utworzeniu pojemności dedykowanej możesz do niej przypisać obszar roboczy 
 
     ![Przypisywanie pojemności dedykowanej](media/embed-sample-for-customers/embed-sample-for-customers-024.png)
 
-3. Po wybraniu pozycji **Zapisz** obok nazwy obszaru roboczego aplikacji powinna zostać wyświetlona ikona **diamentu**.
+3. Po wybraniu pozycji **Zapisz** obok nazwy obszaru roboczego aplikacji powinien zostać wyświetlony symbol **diamentu**.
 
     ![obszar roboczy aplikacji powiązany z pojemnością](media/embed-sample-for-customers/embed-sample-for-customers-037.png)
 

@@ -10,16 +10,16 @@ ms.topic: conceptual
 ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: dc3c80b2043024a694c4852da200eb503b10c28a
-ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
+ms.openlocfilehash: 7de1b47656ae06f522b4b86a124bf558a660ba4e
+ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/15/2018
-ms.locfileid: "49337041"
+ms.lasthandoff: 10/20/2018
+ms.locfileid: "49473410"
 ---
 # <a name="whats-new-in-the-latest-power-bi-desktop-update"></a>Co nowego w najnowszej aktualizacji programu Power BI Desktop?
 
-## <a name="october-2018-update-2625222582"></a>Aktualizacja z października 2018 r. (2.62.5222.582)
+## <a name="october-2018-update-263327240262"></a>Aktualizacja z października 2018 r. (2.63.3272.40262)
 
 Aktualizacje z października są strasznie dobre, zatrważająco przydatne i słodsze niż kosz pełen słodyczy. 
 

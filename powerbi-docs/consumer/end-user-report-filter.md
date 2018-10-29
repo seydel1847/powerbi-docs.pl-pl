@@ -1,21 +1,21 @@
 ---
-title: Omówienie okienka Filtry usługi Power BI dla klientów
-description: Omówienie okienka Filtry raportu w usłudze Power BI
+title: Dodawanie filtru raportu
+description: Jak dodać filtr do raportu w usłudze Power BI dla klientów indywidualnych
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/25/2018
+ms.date: 10/19/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: c49e075bd7fbe2debb0b577a1ce2771491d5fac4
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 31b3584b0cbd2481db64160bcf502caf46e7acc3
+ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908284"
+ms.lasthandoff: 10/20/2018
+ms.locfileid: "49473812"
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>Zapoznaj się z przewodnikiem dotyczącym okienka filtrów raportu
 Ten artykuł opisuje okienko Filtry raportu w usłudze Power BI.
@@ -29,7 +29,7 @@ Gdy współpracownik udostępni Ci raport, poszukaj okienka **Filtry**. Czasami 
 
 ![raport w przeglądarce](media/end-user-report-filter/power-bi-expanded.png)
 
-Okienko Filtry zawiera filtry, które zostały dodane do raportu przez *projektanta* raportów. *Klienci* tacy jak Ty mogą wchodzić w interakcje z filtrami i zapisywać swoje zmiany, nie mogą jednak dodawać nowych filtrów do raportu.
+Okienko Filtry zawiera filtry, które zostały dodane do raportu przez *projektanta* raportów. *Klienci* tacy jak Ty mogą wchodzić w interakcje z filtrami i zapisywać swoje zmiany, nie mogą jednak dodawać nowych filtrów do raportu. Na przykład na powyższym zrzucie ekranu projektant dodał dwa filtry na poziomie strony: Segment i Rok. Możesz wchodzić w interakcje z tymi filtrami i je zmieniać, ale nie możesz dodać trzeciego filtru na poziomie strony.
 
 W usłudze Power BI raporty zachowują wszelkie zmiany wprowadzone w okienku Filtry. Te zmiany są przekazywane do mobilnej wersji raportu. Aby zresetować okienko Filtry do wartości domyślnych projektanta, wybierz pozycję **Przywróć domyślne** z górnego paska menu.     
 
@@ -40,11 +40,15 @@ W tym przykładzie wybraliśmy wizualizację, która ma 6 filtrów. Strona rapor
 
 ![lista filtrów](media/end-user-report-filter/power-bi-filter-list.png)
 
-Obok nazwy niektórych filtrów wyświetla się słowo **Wszystkie**, co oznacza, że filtr uwzględnia wszystkie wartości.  Na przykład wartość **Chain (Wszystkie)** na poniższym zrzucie ekranu informuje nas, że ta strona raportu uwzględnia dane dotyczące wszystkich sieci sklepów.  Z drugiej strony filtr na poziomie strony **FiscalYear to 2013 lub 2014** informuje nas, że raport uwzględnia tylko dane za lata obrachunkowe 2013 i 2014.
+Obok nazwy niektórych filtrów wyświetla się słowo **Wszystkie**, co oznacza, że filtr uwzględnia wszystkie wartości.  Na przykład wartość **Chain (Wszystkie)** na powyższym zrzucie ekranu informuje nas, że ta strona raportu uwzględnia dane dotyczące wszystkich sieci sklepów.  Z drugiej strony filtr na poziomie strony **FiscalYear to 2013 lub 2014** informuje nas, że raport uwzględnia tylko dane za lata obrachunkowe 2013 i 2014.
 
 Każda osoba wyświetlająca ten raport może wchodzić w interakcje z tymi filtrami.
 
-* Wyświetlenie szczegółów filtru przez umieszczenie nad nim kursora i wybranie strzałki obok filtru.
+- Aby znaleźć i wybrać odpowiednią wartość, można wyszukiwać na stronie, w wizualizacji, w raporcie i w filtrach przeglądania szczegółowego. 
+
+    ![Wyszukiwanie w filtrze](media/end-user-report-filter/power-bi-filter-search.png)
+
+- Wyświetlenie szczegółów filtru przez umieszczenie nad nim kursora i wybranie strzałki obok filtru.
   
    ![pokazuje wybraną pozycję Lindseys](media/end-user-report-filter/power-bi-expan-filter.png)
 * Zmiana filtru, na przykład zmiana sieci z **Lindseys** na **Fashions Direct**.
@@ -56,9 +60,11 @@ Każda osoba wyświetlająca ten raport może wchodzić w interakcje z tymi filt
     
 * Usunięcie filtru przez wybranie symbolu **x** obok jego nazwy.
   
-  Usunięcie filtru spowoduje usunięcie go z listy, ale nie spowoduje usunięcia danych z raportu.  Jeśli na przykład usuniesz filtr **FiscalYear to 2013 lub 2014**, dane roku obrachunkowego pozostaną w raporcie, ale nie będzie on już filtrowany, aby wyświetlać tylko dane dla roku 2013 i 2014. Będą wyświetlane dane dostępne dla wszystkich lat obrachunkowych.  Jednak po usunięciu filtru nie będzie można go modyfikować, ponieważ zostanie usunięty z listy. Lepszym rozwiązaniem jest wyczyszczenie filtru przy użyciu ikony gumki ![ikona gumki](media/end-user-report-filter/power-bi-eraser-icon.png).
+    ![wyróżnione x](media/end-user-report-filter/power-bi-delete-filter.png)
+
+  Usunięcie filtru spowoduje usunięcie go z listy, ale nie spowoduje usunięcia danych z raportu.  Jeśli na przykład usuniesz filtr **FiscalYear to 2013 lub 2014**, dane roku obrachunkowego pozostaną w raporcie, ale nie będzie on już filtrowany, aby wyświetlać tylko dane dla roku 2013 i 2014. Będą wyświetlane dane dostępne dla wszystkich lat obrachunkowych.  Jednak po usunięciu filtru nie będzie można go modyfikować, ponieważ zostanie usunięty z listy. Lepszym rozwiązaniem jest wyczyszczenie filtru przy użyciu ikony gumki ![ ikona gumki ](media/end-user-report-filter/power-bi-eraser-icon.png).
   
-  ![wyróżnione x](media/end-user-report-filter/power-bi-delete-filter.png)
+  
 
 
 
@@ -70,14 +76,14 @@ Każda osoba wyświetlająca ten raport może wchodzić w interakcje z tymi filt
 ### <a name="list-mode"></a>Tryb listy
 Zaznaczenie pola wyboru powoduje wybranie lub anulowanie wyboru wartości. Pola wyboru **Wszystkie** można użyć do przełączenia stanu (zaznaczenia lub usunięcia zaznaczenia) wszystkich pól wyboru. Pola wyboru reprezentują wszystkie dostępne wartości dla danego pola.  Dostosowanie filtru powoduje aktualizację instrukcji w oparciu o wybrane opcje. 
 
-![filtr trybu listy](media/end-user-report-filter/pbi_restatement.png)
+![filtr trybu listy](media/end-user-report-filter/power-bi-restatement-new.png)
 
-Zwróć uwagę na zmianę instrukcji na „to Amarilla lub Carretera”
+Zwróć uwagę na zmianę instrukcji na „to mar, kwi lub maj”.
 
 ### <a name="advanced-mode"></a>Tryb zaawansowany
 Wybierz pozycję **Filtrowanie zaawansowane**, aby przejść do trybu zaawansowanego. Wskaż pola do uwzględnienia za pomocą kontrolek list rozwijanych i pól tekstowych. Wybierając pozycję **I** albo **Lub**, można tworzyć złożone wyrażenia filtrowania. Po ustawieniu odpowiednich wartości wybierz przycisk **Zastosuj filtr**.  
 
-![tryb zaawansowany](media/end-user-report-filter/aboutfilters.png)
+![tryb zaawansowany](media/end-user-report-filter/power-bi-advanced.png)
 
 ## <a name="types-of-filters-numeric-field-filters"></a>Typy filtrów: filtry pól liczbowych
 ### <a name="list-mode"></a>Tryb listy
@@ -86,7 +92,7 @@ Jeśli wartości są wartościami skończonymi, po wybraniu nazwy pola zostanie 
 ### <a name="advanced-mode"></a>Tryb zaawansowany
 Jeśli wartości są wartościami nieskończonymi lub reprezentują zakres, po wybraniu nazwy pola zostanie otwarty zaawansowany tryb filtru. Określ zakres wartości, które mają być wyświetlane, za pomocą listy rozwijanej i pól tekstowych. 
 
-![filtr zaawansowany](media/end-user-report-filter/pbi_dropdown-and-text.png)
+![filtr zaawansowany](media/end-user-report-filter/power-bi-dropdown-and-text.png)
 
 Wybierając pozycję **I** albo **Lub**, można tworzyć złożone wyrażenia filtrowania. Po ustawieniu odpowiednich wartości wybierz przycisk **Zastosuj filtr**.
 

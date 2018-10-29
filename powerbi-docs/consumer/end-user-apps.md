@@ -7,22 +7,22 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/09/2018
+ms.date: 10/18/2018
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 0cb5e9ae8256f9df6c849df612f156d7fe9d12a8
-ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
+ms.openlocfilehash: bc68be50917b113371fc168d1b6e3defa2b5001e
+ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "49112204"
+ms.lasthandoff: 10/20/2018
+ms.locfileid: "49473433"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Instalowanie i używanie aplikacji z pulpitami nawigacyjnymi i raportami w usłudze Power BI
-W usłudze Power BI *aplikacje* łączą ze sobą w jednym miejscu wszystkie powiązane pulpity nawigacyjne i raporty. Osoby w organizacji mogą tworzyć i rozpowszechniać aplikacje z kluczowymi informacjami biznesowymi. [Usługi zewnętrzne](end-user-connect-to-services.md), których być może już używasz, takie jak Google Analytics i Microsoft Dynamics CRM, także oferują aplikacje usługi Power BI. 
+W usłudze Power BI *aplikacje* łączą ze sobą w jednym miejscu wszystkie powiązane pulpity nawigacyjne i raporty. Osoby w organizacji tworzą i rozpowszechniają aplikacje z kluczowymi informacjami biznesowymi. [Usługi zewnętrzne](end-user-connect-to-services.md), których być może już używasz, takie jak Google Analytics i Microsoft Dynamics CRM, także oferują aplikacje usługi Power BI. 
 
-![Aplikacje w usłudze Power BI](./media/end-user-apps/power-bi-apps-left-nav.png)
+![Aplikacje w usłudze Power BI](./media/end-user-apps/power-bi-apps-navbar.png)
 
-Aplikacje można łatwo znaleźć i zainstalować w usłudze Power BI ([https://powerbi.com](https://powerbi.com)) i na urządzeniu przenośnym. Gdy zainstalujesz aplikację, nie musisz pamiętać nazw wielu różnych pulpitów nawigacyjnych, ponieważ są one wszystkie razem w jednej aplikacji, w przeglądarce lub na urządzeniu przenośnym.
+Aplikacje można łatwo znaleźć i zainstalować w usłudze Power BI ([app.powerbi.com](https:app.powerbi.com)) i na urządzeniu przenośnym. Gdy zainstalujesz aplikację, nie musisz pamiętać nazw wielu różnych pulpitów nawigacyjnych, ponieważ są one wszystkie razem w jednej aplikacji, w przeglądarce lub na urządzeniu przenośnym.
 
 Kiedy autor aplikacji udostępnia aktualizację, zmiany są automatycznie widoczne w aplikacji. Autor ustala również harmonogram odświeżania danych, dzięki czemu nie musisz się martwić o zachowywanie ich aktualności. 
 
@@ -36,7 +36,7 @@ Najprostszym sposobem samodzielnego zainstalowania nowej aplikacji jest otrzyman
 
 Wybierz link w wiadomości e-mail, aby otworzyć usługę Power BI ([https://powerbi.com](https://powerbi.com)) w przeglądarce. Potwierdź, że chcesz zainstalować aplikację. Zostanie otwarta strona docelowa aplikacji.
 
-![Strona docelowa aplikacji w usłudze Power BI](./media/end-user-apps/power-bi-app-landing-page-opportunity-480.png)
+![Strona docelowa aplikacji w usłudze Power BI](./media/end-user-apps/power-bi-get-app.png)
 
 **Na urządzeniu przenośnym z systemem Android lub iOS** 
 
@@ -56,12 +56,12 @@ Możesz także znajdować i instalować aplikacje, do których masz dostęp, za 
 3. Wybierz pozycję **Pobierz teraz**, aby dodać wybraną aplikację do swojej strony Aplikacje. 
 
 ## <a name="interact-with-the-dashboards-and-reports-in-the-app"></a>Korzystanie z pulpitów nawigacyjnych i raportów w aplikacji
-Teraz możesz eksplorować dane w pulpitach nawigacyjnych i raportach w aplikacji. Masz dostęp do wszystkich standardowych interakcji usługi Power BI, takich jak filtrowanie, wyróżnianie, sortowanie i przechodzenie do szczegółów. Możesz także [wyeksportować dane do programu Excel ](end-user-export-data.md) z tabeli lub innej wizualizacji w raporcie. Przeczytaj informacje o [interakcjach z raportami w usłudze Power BI](end-user-reading-view.md). 
+Teraz możesz eksplorować dane w pulpitach nawigacyjnych i raportach w aplikacji. Masz dostęp do wszystkich standardowych interakcji usługi Power BI, takich jak filtrowanie, wyróżnianie, sortowanie i przechodzenie do szczegółów. Przeczytaj informacje o [interakcjach z raportami w usłudze Power BI](end-user-reading-view.md). 
 
 ![Eksportowanie danych z elementu wizualnego usługi Power BI](./media/end-user-apps/power-bi-service-export-data-visual.png)
 
 
 
 ## <a name="next-steps"></a>Następne kroki
-* [Aplikacje usługi Power BI dla usług zewnętrznych](end-user-connect-to-services.md)
+[Aplikacje usługi Power BI dla usług zewnętrznych](end-user-connect-to-services.md)
 

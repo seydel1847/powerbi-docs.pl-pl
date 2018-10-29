@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/15/2018
+ms.date: 10/23/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f90f2ea4737fc5c98df4d171f8e1e65c2704607d
-ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
+ms.openlocfilehash: 7de11de4c10df6a76f031f88952671d0e365b498
+ms.sourcegitcommit: 17d68172c73e9a9ff7966ddcedc3f8450584cdec
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/15/2018
-ms.locfileid: "49336811"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "49952216"
 ---
 # <a name="get-data-from-a-web-page-by-providing-an-example"></a>Pobieranie danych ze strony internetowej przez podanie przykładu
 
@@ -51,6 +51,8 @@ Wybranie przycisku **Wyodrębnij tabelę przy użyciu przykładów** spowoduje o
 W tym przykładzie wyodrębnimy *nazwę* i *cenę* każdej z gier na stronie. W tym celu można określić kilka przykładów ze strony dla każdej kolumny, jak pokazano na poniższej ilustracji. Gdy te przykłady są wpisywane, dodatek **Power Query** (podstawowa technologia do wyodrębnia danych ze strony internetowej) jest w stanie wyodrębnić dane pasujące do wzorca przykładowych wpisów przy użyciu inteligentnych algorytmów wyodrębniania danych.
 
 ![dane według przykładu](media/desktop-connect-to-web-by-example/web-by-example_06.png)
+
+> Uwaga: sugestie wartości zawierają tylko te wartości, których długość jest mniejsza niż lub równa 128 znaków.
 
 Gdy dane wyodrębnione ze strony internetowej przyjmą pożądany kształt, wybieramy przycisk **OK**, aby przejść do **Edytora zapytań**, gdzie można dokonać kolejnych przekształceń danych, takich jak łączenie tych danych z danymi z innych źródeł.
 

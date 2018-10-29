@@ -1,23 +1,23 @@
 ---
-title: Wyświetlanie raportu w usłudze Power BI
-description: Otwieranie raportu usługi Power BI w widoku do czytania
+title: Wyświetlanie raportu w usłudze Power BI dla użytkowników
+description: W tym temacie opisano, jak konsumenci i użytkownicy końcowi usługi Power BI mogą otwierać i wyświetlać raport usługi Power BI.
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/10/2018
+ms.date: 10/17/2018
 ms.author: mihart
-ms.openlocfilehash: 4d37c1389628078466d8fedb290d928c3f02e7d5
-ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
+ms.openlocfilehash: 15259d472ad315eb0a6274e59ebb30b94f48a302
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "49112020"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396939"
 ---
-# <a name="view-a-report-in-power-bi-service-apppowerbicom"></a>Wyświetlanie raportu w usłudze Power BI (app.powerbi.com)
-Raport zawiera co najmniej jedną stronę wizualizacji. Raporty są tworzone przez *projektantów raportów* usługi Power BI i [udostępniane użytkownikowi bezpośrednio](end-user-shared-with-me.md) lub jako część [aplikacji](end-user-apps.md). 
+# <a name="view-a-report-in-power-bi-service-for-consumers"></a>Wyświetlanie raportu w usłudze Power BI dla *użytkowników*
+Raport zawiera co najmniej jedną stronę wizualizacji. Raporty są tworzone przez *projektantów raportów* usługi Power BI i [udostępniane *użytkownikom* bezpośrednio](end-user-shared-with-me.md) lub jako część [aplikacji](end-user-apps.md). 
 
 Istnieje wiele różnych sposobów otwierania raportu, a my przedstawimy dwa z nich: otwieranie ze strony głównej i otwieranie z pulpitu nawigacyjnego. 
 
@@ -42,7 +42,7 @@ Otworzymy raport, który został Ci udostępniony bezpośrednio, a następnie ot
    
    ![sekcja Udostępnione mi na stronie głównej](./media/end-user-report-open/power-bi-shared.png)
 
-4. Aby otworzyć raport wystarczy wybrać jedną z kart raportu.
+4. Aby otworzyć raport wystarczy wybrać jedną z *kart* raportu.
 
    ![strona raportu](./media/end-user-report-open/power-bi-report1.png)
 
@@ -65,10 +65,10 @@ W przypadku otrzymania aplikacji od współpracowników lub z usługi AppSource 
 
    ![Strona główna](./media/end-user-report-open/power-bi-my-apps.png)
 
-8. Wybierz jedną z aplikacji, aby ją otworzyć. W zależności od opcji ustawionych przez *projektanta* aplikacji, aplikacja otworzy pulpit nawigacyjny lub raport. Jeśli wybranie aplikacji:
+8. Wybierz jedną z aplikacji, aby ją otworzyć. W zależności od opcji ustawionych przez *projektanta* aplikacji, aplikacja otworzy pulpit nawigacyjny, raport lub listę zawartości aplikacji. Jeśli wybranie aplikacji:
     - powoduje otwarcie raportu, wszystko jest gotowe.
     - powoduje otwarcie pulpitu nawigacyjnego, zobacz [Otwieranie raportu z poziomu pulpitu nawigacyjnego](#Open-a-report-from-a-dashboard) poniżej.
-
+    - powoduje otwarcie listy zawartości aplikacji, w obszarze **Raporty** wybierz raport, aby go otworzyć.
 
 
 ## <a name="open-a-report-from-a-dashboard"></a>Otwieranie raportu z poziomu pulpitu nawigacyjnego
@@ -83,15 +83,15 @@ Raporty można otwierać z poziomu pulpitu nawigacyjnego. Większość kafelków
     ![otwieranie raportu w Widoku do czytania](./media/end-user-report-open/power-bi-report-new.png)
 
 > [!NOTE]
-> Nie wszystkie kafelki prowadzą do raportu. Jeśli wybierzesz kafelek, który został [utworzone za pomocą opcji Pytania i odpowiedzi](../service-dashboard-pin-tile-from-q-and-a.md), zostanie otwarty ekran Pytania i odpowiedzi. Jeśli wybierzesz kafelek, który został [utworzony za pomocą widgetu pulpitu nawigacyjnego **Dodaj kafelek**](../service-dashboard-add-widget.md), zostanie otwarty kreator **Edytuj kafelek**.  
+> Nie wszystkie kafelki prowadzą do raportu. Jeśli wybierzesz kafelek, który został [utworzone za pomocą opcji Pytania i odpowiedzi](end-user-q-and-a.md), zostanie otwarty ekran Pytania i odpowiedzi. Jeśli wybierzesz kafelek, który został [utworzony za pomocą widżetu pulpitu nawigacyjnego **Dodaj kafelek**](../service-dashboard-add-widget.md), może się zdarzyć kilka różnych rzeczy.  
 
 
 ##  <a name="still-more-ways-to-open-a-report"></a>Jeszcze więcej sposobów otwierania raportu
 Gdy oswoisz się z nawigowaniem po usłudze Power BI, znajdziesz przepływy pracy, które najlepiej Ci odpowiadają. Oto kilka innych sposobów uzyskiwania dostępu do raportów:
 - Z poziomu lewego okienka nawigacji przy użyciu opcji **Ulubione** i **Ostatnie**    
 - Przy użyciu opcji [Wyświetl powiązane](end-user-related.md)    
-- W wiadomości e-mail, gdy ktoś [udostępni Tobie](../service-share-reports.md) lub gdy [ustawisz alert](../service-set-data-alerts.md)    
-- Z poziomu [Centrum powiadomień]    (end-user-notification-center.md)    
+- W wiadomości e-mail, gdy ktoś [udostępni Tobie](../service-share-reports.md) lub gdy [ustawisz alert](end-user-alerts.md)    
+- Z poziomu [Centrum powiadomień](end-user-notification-center.md)    
 - i nie tylko
 
 ## <a name="next-steps"></a>Następne kroki

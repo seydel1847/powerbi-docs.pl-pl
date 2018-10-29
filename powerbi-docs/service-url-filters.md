@@ -11,12 +11,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/01/2018
 LocalizationGroup: Reports
-ms.openlocfilehash: 562af0b21c4ecd4617de0e524cca20ec6935ca7a
-ms.sourcegitcommit: 31f9da5f562cd02a729b6f012b4b3326416adb0e
+ms.openlocfilehash: 7a034e865b0e0b6ba55385f8873d039dba0662db
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/03/2018
-ms.locfileid: "48232931"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396962"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Filtrowanie raportu za pomocą parametrów ciągu zapytania w adresie URL
 
@@ -169,7 +169,8 @@ Używając parametrów ciągu zapytania, należy pamiętać o kilku rzeczach.
 
 * W przypadku korzystania z operatora *in* wartością po prawej stronie operatora *in* musi być rozdzielana przecinkami lista ujęta w nawias.    
 * W przypadku serwera raportów usługi Power BI możesz [przekazywać parametry raportu](https://docs.microsoft.com/sql/reporting-services/pass-a-report-parameter-within-a-url?view=sql-server-2017.md) przez uwzględnienie ich w adresie URL raportu. Te parametry w adresie URL nie mają prefiksów, ponieważ są przekazywane bezpośrednio do aparatu przetwarzania raportów.
-* Filtrowanie ciągu zapytania nie działa z adresami URL [publikowania w Internecie](service-publish-to-web.md) ani usługą Power BI Embedded.   
+* Filtrowanie ciągu zapytania nie działa z [publikowaniem w Internecie](service-publish-to-web.md).
+* [Osadzanie za pomocą składnika Web Part raportu w usłudze SharePoint Online](service-embed-report-spo.md) nie obsługuje filtrów adresów URL.
 * Typ danych liczby długiej jest ograniczony do (2^53-1) ze względu na ograniczenia języka JavaScript.
 * Filtry adresów URL raportów mają limit 10 wyrażeń (10 filtrów połączonych operatorem I).
 

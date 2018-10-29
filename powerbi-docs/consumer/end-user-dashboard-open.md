@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/10/2018
+ms.date: 10/11/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 55256d8f8eb47c9a5ec604674041456d2b1d42a1
-ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
+ms.openlocfilehash: 53575f657c2d58f9d6b1908fb42bbb9267c3a3b8
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "49113000"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396686"
 ---
 # <a name="view-a-dashboard"></a>Wyświetlanie pulpitu nawigacyjnego
 Użytkownicy usługi Power BI poświęcają mnóstwo czasu na wyświetlanie pulpitów nawigacyjnych. Pulpity nawigacyjne mają za zadanie wyróżniać określone informacje z bazowych raportów i zestawów danych. Użytkownicy usługi Power BI używają tych informacji do śledzenia, monitorowania, odpowiadania na pytania, testowania, itp. — w celu podejmowania decyzji biznesowych opartych na danych.
@@ -26,18 +26,16 @@ Użytkownicy usługi Power BI poświęcają mnóstwo czasu na wyświetlanie pulp
 Usługa Power BI Pro jest wymagana w przypadku udostępniania pulpitu nawigacyjnego oraz wyświetlania udostępnionego pulpitu nawigacyjnego.
 
 ## <a name="open-a-dashboard"></a>Otwarcie pulpitu nawigacyjnego
-Pulpity nawigacyjne można otworzyć z wielu lokalizacji w usłudze Power BI.  Najważniejsze jest, by ustalić, która zawartość jest pulpitem nawigacyjnym (na przykład w przeciwieństwie do raportu). Po zidentyfikowaniu pulpitu nawigacyjnego można go łatwo otworzyć — wystarczy kliknąć, a pulpit nawigacyjny wypełni kanwę usługi Power BI.
+
 
 
 |              |         |
 |------------|--------------------------------|
-|![ikona pulpitu nawigacyjnego](media/end-user-dashboard-open/power-bi-dashboard-icon.png)      |Najprostszym sposobem na zidentyfikowanie pulpitu nawigacyjnego jest wyszukanie tej <br>ikony pulpitu nawigacyjnego. Po znalezieniu zawartości oznaczonej tą ikoną wybierz ją, aby otworzyć pulpit nawigacyjny. |
+|![ikona pulpitu nawigacyjnego](media/end-user-dashboard-open/power-bi-dashboard-icon.png)      |Pulpity nawigacyjne można otworzyć z wielu lokalizacji w usłudze Power BI. <br> Po prostu poszukaj tej ikony pulpitu nawigacyjnego. Gdy zidentyfikujesz <br>pulpit nawigacyjny, otworzenie go jest proste — wystarczy go wybrać i pulpit nawigacyjny wypełni <br>kanwę usługi Power BI. |
 |                    |          |
 
 ![ikona pulpitu nawigacyjnego](media/end-user-dashboard-open/opendash.gif)
- 
 
-<!--insert aGIF-->
 
 Pulpity nawigacyjne znajdują się we wszystkich kontenerach na lewym pasku nawigacji. 
 - **Strona główna** (wersja zapoznawcza)
@@ -51,5 +49,3 @@ Pulpity nawigacyjne znajdują się we wszystkich kontenerach na lewym pasku nawi
 ## <a name="next-steps"></a>Następne kroki
 * Dobrze poznaj pulpity nawigacyjne, eksperymentując na jednym z naszych [przykładowych pulpitów nawigacyjnych](../sample-tutorial-connect-to-the-samples.md).
 * Dowiedz się więcej na temat [kafelków pulpitu nawigacyjnego](end-user-tiles.md) i tego, co się stanie, gdy wybierzesz jeden z nich.
-* Chcesz śledzić wybrany kafelek pulpitu nawigacyjnego i otrzymać wiadomość e-mail po osiągnięciu przez niego określonego progu? [Utwórz alerty kafelków](end-user-alerts.md).
-* Baw się, zadając pytania pulpitowi nawigacyjnemu. Dowiedz się, jak używać funkcji [pytań i odpowiedzi w usłudze Power BI](end-user-q-and-a.md), aby zadawać pytania dotyczące danych i uzyskiwać odpowiedzi w formie wizualizacji. 
