@@ -10,12 +10,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/01/2018
 LocalizationGroup: Data from databases
-ms.openlocfilehash: f9bc117d4260bb8efa604591703205b405fd63c9
-ms.sourcegitcommit: f391b645062f64ac3adc2ce7877318583b14b941
+ms.openlocfilehash: 92b8d0e0ecfa9bae36e552e30cf8f1a7fcecff4b
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/02/2018
-ms.locfileid: "48016174"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50100754"
 ---
 # <a name="spark-on-hdinsight-with-directquery"></a>Platforma Spark w usłudze HDInsight z zapytaniem bezpośrednim
 
@@ -58,7 +58,7 @@ W witrynie Azure Portal można także znaleźć nazwę użytkownika i hasło.
 
 ## <a name="limitations"></a>Ograniczenia
 
-Te ograniczenia i uwagi mogą ulegać zmianom w miarę kontynuowania procesu ulepszania środowisk. Dodatkową dokumentację można znaleźć w artykule [Korzystanie z narzędzi do analizy biznesowej przy użyciu platformy Apache Spark w usłudze Azure HDInsight](https://azure.microsoft.com/documentation/articles/hdinsight-apache-spark-use-bi-tools/)
+Te ograniczenia i uwagi mogą ulegać zmianom w miarę kontynuowania procesu ulepszania środowisk. Dodatkową dokumentację można znaleźć w artykule [Korzystanie z narzędzi do analizy biznesowej przy użyciu platformy Apache Spark w usłudze Azure HDInsight](/azure/hdinsight/spark/apache-spark-use-bi-tools/)
 
 * Usługa Power BI obsługuje tylko następującą konfigurację: platforma Spark 2.0 i usługa HDInsight 3.5.
 * Wszystkie akcje, takie jak wybór kolumny lub dodanie filtru, powodują wysłanie zapytania zwrotnego do bazy danych — przed zaznaczeniem bardzo dużych pól warto wybrać odpowiedni typ wizualizacji.
@@ -76,9 +76,9 @@ Możesz również przydzielić dodatkowe zasoby w witrynie Azure Portal w obszar
 
 ## <a name="next-steps"></a>Następne kroki
 
-[Wprowadzenie: tworzenie klastra platformy Apache Spark w usłudze HDInsight w systemie Linux i uruchamianie interaktywnych zapytań przy użyciu programu Spark SQL](https://azure.microsoft.com/documentation/articles/hdinsight-apache-spark-jupyter-spark-sql)  
+[Wprowadzenie: tworzenie klastra platformy Apache Spark w usłudze HDInsight w systemie Linux i uruchamianie interaktywnych zapytań przy użyciu programu Spark SQL](/azure/hdinsight/spark/apache-spark-jupyter-spark-sql/)  
 [Co to jest usługa Power BI?](power-bi-overview.md)  
 [Pobieranie danych dla usługi Power BI](service-get-data.md)
-[Używanie protokołu Kerberos w bramie lokalnej dla logowania jednokrotnego](service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md)
+[Używanie protokołu Kerberos w bramie lokalnej dla logowania jednokrotnego](service-gateway-sso-kerberos.md)
 
 Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)

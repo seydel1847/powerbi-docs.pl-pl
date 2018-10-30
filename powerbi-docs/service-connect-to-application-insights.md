@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 08/10/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 00a42a3ffcc92ca7bc48459635359acb9da8da82
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 34e3524d561fb6f6394d69fed55c1bd29bddf4bd
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548355"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50100593"
 ---
 # <a name="connect-to-application-insights-with-power-bi"></a>Łączenie się z usługą Application Insights za pomocą usługi Power BI
-Usługa Power BI umożliwia tworzenie zaawansowanych niestandardowych pulpitów nawigacyjnych z telemetrii usługi [Application Insights](https://azure.microsoft.com/documentation/articles/app-insights-overview/). Dostępne są nowe sposoby wykorzystania telemetrii aplikacji. Możesz łączyć metryki z wielu aplikacji lub usług składowych na jednym pulpicie nawigacyjnym. Ta pierwsza wersja pakietu zawartości usługi Power BI dla usługi Application Insights zawiera widgety dla typowych metryk związanych z użyciem, takich jak aktywni użytkownicy, widok strony, sesje, przeglądarka i wersja systemu operacyjnego oraz rozkład geograficzny użytkowników na mapie.
+Usługa Power BI umożliwia tworzenie zaawansowanych niestandardowych pulpitów nawigacyjnych z telemetrii usługi [Application Insights](/azure/application-insights/app-insights-overview/). Dostępne są nowe sposoby wykorzystania telemetrii aplikacji. Możesz łączyć metryki z wielu aplikacji lub usług składowych na jednym pulpicie nawigacyjnym. Ta pierwsza wersja pakietu zawartości usługi Power BI dla usługi Application Insights zawiera widgety dla typowych metryk związanych z użyciem, takich jak aktywni użytkownicy, widok strony, sesje, przeglądarka i wersja systemu operacyjnego oraz rozkład geograficzny użytkowników na mapie.
 
 Połącz się z [pakietem zawartości Application Insights dla usługi Power BI](https://app.powerbi.com/getdata/services/application-insights).
 

@@ -10,12 +10,12 @@ ms.component: powerbi-gateways
 ms.topic: conceptual
 ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: a8f0360d87fe5bf4e19632a92d8dfe4cf61da16e
-ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
+ms.openlocfilehash: 2a4fb3bdf4e1041ceb90cde9b6c5f26fcb9a3871
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/20/2018
-ms.locfileid: "49474031"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101651"
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>Rozwiązywanie problemów z lokalną bramą danych
 
@@ -446,7 +446,7 @@ Wyniki testu zawierają listę wszystkich serwerów, portów i adresów IP, któ
 
 ## <a name="kerberos"></a>Kerberos
 
-Jeśli podstawowy serwer bazy danych i lokalna brama danych nie są prawidłowo skonfigurowane dla [ograniczonego delegowania protokołu Kerberos](service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md), włącz [pełne rejestrowanie](#microsoftpowerbidatamovementpipelinediagnosticsdllconfig) na bramie i jako punkt wyjścia do rozwiązywania problemów zbadaj błędy/ślady w plikach dziennika bramy.
+Jeśli podstawowy serwer bazy danych i lokalna brama danych nie są prawidłowo skonfigurowane dla [ograniczonego delegowania protokołu Kerberos](service-gateway-sso-kerberos.md), włącz [pełne rejestrowanie](#microsoftpowerbidatamovementpipelinediagnosticsdllconfig) na bramie i jako punkt wyjścia do rozwiązywania problemów zbadaj błędy/ślady w plikach dziennika bramy.
 
 ### <a name="impersonationlevel"></a>ImpersonationLevel
 

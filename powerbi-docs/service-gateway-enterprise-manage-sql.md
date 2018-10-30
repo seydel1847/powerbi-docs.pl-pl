@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 2eb880ee512a3f13c56bb6dbf880209f05cdf7b4
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: ff770320e0e6cd3f591e3318637a04977152e488
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34296324"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101421"
 ---
 # <a name="manage-your-data-source---sql-server"></a>Zarządzanie źródłem danych — SQL Server
 Po zainstalowaniu lokalnej bramy danych możliwe jest dodawanie źródeł danych, które mogą być używane z tą bramą. W tym artykule opisano sposób pracy z bramami i źródłami danych. Źródła danych programu SQL Server można użyć na potrzeby zaplanowanego odświeżania lub zapytania bezpośredniego.
@@ -60,7 +60,7 @@ Następnie można podać informacje dla źródła danych, które obejmują **ser
 Konieczne będzie również wybranie **metody uwierzytelniania**.  Może ona mieć dwie wartości: **Windows** lub **Podstawowe**.  Uwierzytelnianie **podstawowe** należy wybrać, jeśli zamierzasz używać uwierzytelniania SQL zamiast uwierzytelniania systemu Windows. Następnie wprowadź poświadczenia, które będą używane dla tego źródła danych.
 
 > [!NOTE]
-> Wszystkie zapytania względem źródła danych będą uruchamiane przy użyciu tych poświadczeń, chyba że logowanie jednokrotne (SSO) protokołu Kerberos zostało skonfigurowane i włączone dla źródła danych. W przypadku logowania jednokrotnego zestawy danych importowania używają przechowywanych poświadczeń, ale zestawy danych zapytania bezpośredniego używają bieżącego użytkownika usługi Power BI do wykonywania zapytań przy użyciu logowania jednokrotnego. Aby dowiedzieć się więcej, zobacz podstawowy artykuł dotyczący lokalnej bramy danych, zawierający informacje na temat sposobu przechowywania [poświadczeń](service-gateway-onprem.md#credentials), lub artykuł opisujący sposób [używania protokołu Kerberos na potrzeby logowania jednokrotnego (SSO) z usługi Power BI do lokalnych źródeł danych](service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md).
+> Wszystkie zapytania względem źródła danych będą uruchamiane przy użyciu tych poświadczeń, chyba że logowanie jednokrotne (SSO) protokołu Kerberos zostało skonfigurowane i włączone dla źródła danych. W przypadku logowania jednokrotnego zestawy danych importowania używają przechowywanych poświadczeń, ale zestawy danych zapytania bezpośredniego używają bieżącego użytkownika usługi Power BI do wykonywania zapytań przy użyciu logowania jednokrotnego. Aby dowiedzieć się więcej, zobacz podstawowy artykuł dotyczący lokalnej bramy danych, zawierający informacje na temat sposobu przechowywania [poświadczeń](service-gateway-onprem.md#credentials), lub artykuł opisujący sposób [używania protokołu Kerberos na potrzeby logowania jednokrotnego (SSO) z usługi Power BI do lokalnych źródeł danych](service-gateway-sso-kerberos.md).
 > 
 > 
 
@@ -123,6 +123,6 @@ Jeśli znajdujesz się na liście na karcie **Użytkownicy** źródła danych sk
 * [Lokalna brama danych](service-gateway-onprem.md)  
 * [Lokalna brama danych — szczegóły](service-gateway-onprem-indepth.md)  
 * [Rozwiązywanie problemów z lokalną bramą danych](service-gateway-onprem-tshoot.md)
-* [Używanie protokołu Kerberos na potrzeby logowania jednokrotnego (SSO) z usługi Power BI do lokalnych źródeł danych](service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md) 
+* [Używanie protokołu Kerberos na potrzeby logowania jednokrotnego (SSO) z usługi Power BI do lokalnych źródeł danych](service-gateway-sso-kerberos.md) 
 * Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
 

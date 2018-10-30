@@ -10,12 +10,12 @@ ms.component: powerbi-gateways
 ms.topic: conceptual
 ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5b89b53cab0f7e4df07b15a05cd74c7d99b1392a
-ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
+ms.openlocfilehash: 21a254cfc4543649cfe863830a56abe666480e63
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39657994"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50100872"
 ---
 # <a name="high-availability-clusters-for-on-premises-data-gateway"></a>Klastry wysokiej dostępności dla lokalnej bramy danych
 
@@ -90,6 +90,6 @@ Po wykonaniu powyższych kroków możesz używać poleceń z poniższej tabeli d
 -   [Lokalna brama danych — szczegóły](service-gateway-onprem-indepth.md)  
 -   [Lokalna brama danych (tryb osobisty)](service-gateway-personal-mode.md)
 -   [Konfigurowanie ustawień serwera proxy dla lokalnej bramy danych](service-gateway-proxy.md)  
--   [Używanie protokołu Kerberos na potrzeby logowania jednokrotnego (SSO) z usługi Power BI do lokalnych źródeł danych](service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md)  
+-   [Używanie protokołu Kerberos na potrzeby logowania jednokrotnego (SSO) z usługi Power BI do lokalnych źródeł danych](service-gateway-sso-kerberos.md)  
 
 Więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)

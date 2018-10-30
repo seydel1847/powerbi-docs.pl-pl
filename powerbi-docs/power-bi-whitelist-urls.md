@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/22/2018
-ms.openlocfilehash: cc7b24d273f8e83854f7e316f0c761e710e48160
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: 7b57e0d5e303f2b342e2d7750741717b178a8f4e
+ms.sourcegitcommit: f9dd6098ca57d4d6cad34284126d4e58eab1c92c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641970"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "50222110"
 ---
 # <a name="power-bi-urls"></a>Adresy URL usługi Power BI
 
@@ -70,7 +70,7 @@ Aby móc pobierać dane z konkretnych źródeł danych, takich jak usługa OneDr
 | --- | --- | --- | --- |
 | 1 | **Wymagane:** AppSource (aplikacje wewnętrzne lub zewnętrzne w usłudze Power BI) | appsource.microsoft.com </br> *.s-microsoft.com  | TCP 443 |
 | 2 | **Wymagane:** zalogowanie i pobranie danych dla pakietów zawartości | *.github.com  | TCP 443 |
-| 3 | **Opcjonalne:** importowanie plików z usługi OneDrive w wersji dla osób prywatnych | Zobacz [witrynę wymaganych adresów URL i portów dla witryny usługi OneDrive](https://docs.microsoft.com/en-us/onedrive/required-urls-and-ports) | Nie dotyczy |
+| 3 | **Opcjonalne:** importowanie plików z usługi OneDrive w wersji dla osób prywatnych | Zobacz [witrynę wymaganych adresów URL i portów dla witryny usługi OneDrive](https://docs.microsoft.com/onedrive/required-urls-and-ports) | Nie dotyczy |
 | 4 | **Opcjonalne:** 60-sekundowy samouczek wideo dotyczący usługi Power BI | *.doubleclick.net </br> *.ggpht.com </br> *.google.com </br> *.googlevideo.com </br> *.youtube.com </br> *.ytimg.com </br> fonts.gstatic.com | TCP 443 |
 | 5 | **Opcjonalne:** źródła danych przesyłania strumieniowego PubNub | Zobacz [dokumentację usługi PubNub](https://support.pubnub.com/support/solutions/articles/14000043522) | Nie dotyczy |
 | | | |
@@ -93,7 +93,7 @@ Możliwość wyświetlania niestandardowych wizualizacji i uzyskiwania do nich d
 | 1 | **Wymagane:** importowanie niestandardowej wizualizacji z interfejsu witryny Marketplace lub z pliku | *.azureedge.net </br> *.blob.core.windows.net </br> store.office.com | TCP 443 |
 | 2 | **Opcjonalne:** Mapy Bing | bing.com </br> platform.bing.com </br> *.dynamic.tiles.virtualearth.net </br> *.virtualearth.net | TCP 443 |
 | 3 | **Opcjonalne:** PowerApps | Zobacz [sekcję dotyczącą wymaganych usług](https://docs.microsoft.com/powerapps/maker/canvas-apps/limits-and-config#required-services) w witrynie wymagań systemowych usługi PowerApps | Nie dotyczy |
-| 4 | **Opcjonalne:** Visio | Zobacz dokumentację usługi Office 365 dla [aplikacji Office Online i typowych adresów URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online), a także dla usług [SharePoint Online i OneDrive dla Firm](https://docs.microsoft.com/en-us/office365/enterprise/urls-and-ip-address-ranges#sharepoint-online-and-onedrive-for-business) | Nie dotyczy |
+| 4 | **Opcjonalne:** Visio | Zobacz dokumentację usługi Office 365 dla [aplikacji Office Online i typowych adresów URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online), a także dla usług [SharePoint Online i OneDrive dla Firm](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#sharepoint-online-and-onedrive-for-business) | Nie dotyczy |
 | | | |
 
 ## <a name="related-external-sites"></a>Pokrewne witryny zewnętrzne

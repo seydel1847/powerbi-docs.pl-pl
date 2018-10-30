@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 8b0121dbfe633eca9c438dfd272d3aeb56fd59a4
-ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
+ms.openlocfilehash: 30ac2c0620607d680874e423c841c381fc273904
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38921512"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101513"
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>Lokalna brama danych — szczegóły
 Użytkownicy w organizacji mogą uzyskiwać dostęp do danych lokalnych (do których już mają autoryzację dostępu), ale zanim będą mogli połączyć się ze źródłem danych lokalnych, musi zostać zainstalowana i skonfigurowana lokalna brama danych. Brama ułatwia szybką i bezpieczną komunikację wewnętrzną między użytkownikiem w chmurze a lokalnym źródłem danych, a następnie z powrotem do chmury.
@@ -52,7 +52,7 @@ Uprawnienia użytkownika do wyświetlania danych modelu i wykonywania względem 
 Implementowanie zabezpieczeń opartych na rolach i dynamicznych zabezpieczeń na poziomie wiersza w modelach wykracza poza zakres tego artykułu.  Aby dowiedzieć się więcej, zobacz [Role (SSAS — tabelaryczne)](https://msdn.microsoft.com/library/hh213165.aspx) i [Role zabezpieczeń (Analysis Services — dane wielowymiarowe)](https://msdn.microsoft.com/library/ms174840.aspx) w witrynie MSDN. Aby uzyskać najbardziej szczegółowy opis zabezpieczeń modelu tabelarycznego, pobierz i przeczytaj [oficjalny dokument na temat zabezpieczania tabelarycznego semantycznego modelu analizy biznesowej](https://msdn.microsoft.com/library/jj127437.aspx).
 
 ## <a name="what-about-azure-active-directory"></a>Co z usługą Azure Active Directory?
-Usługi w chmurze firmy Microsoft używają [usługi Azure Active Directory](https://azure.microsoft.com/documentation/articles/active-directory-whatis/) do obsługi uwierzytelniania użytkowników. Usługa Azure Active Directory jest dzierżawą, która zawiera nazwy użytkowników i grupy zabezpieczeń. Zazwyczaj adres e-mail, przy użyciu którego loguje się użytkownik, jest taki sam jak nazwa UPN konta.
+Usługi w chmurze firmy Microsoft używają [usługi Azure Active Directory](/azure/active-directory/fundamentals/active-directory-whatis) do obsługi uwierzytelniania użytkowników. Usługa Azure Active Directory jest dzierżawą, która zawiera nazwy użytkowników i grupy zabezpieczeń. Zazwyczaj adres e-mail, przy użyciu którego loguje się użytkownik, jest taki sam jak nazwa UPN konta.
 
 Jaka jest rola mojej lokalnej usługi Active Directory?
 
@@ -78,7 +78,7 @@ Usługi w chmurze wiedzą tylko o kontach w usłudze Azure Active Directory. Nie
 1. Można ręcznie dodać konta do usługi Azure Active Directory.
    
    Można utworzyć konto w portalu Azure lub w portalu administratora usługi Office 365, a nazwa konta będzie zgodna z nazwą UPN lokalnego konta usługi Active Directory.
-2. Można użyć narzędzia [Azure AD Connect](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect/), aby zsynchronizować konta lokalne z dzierżawą usługi Azure Active Directory.
+2. Można użyć narzędzia [Azure AD Connect](/azure/active-directory/hybrid/how-to-connect-sync-whatis), aby zsynchronizować konta lokalne z dzierżawą usługi Azure Active Directory.
    
    Narzędzie Azure AD Connect oferuje opcje synchronizacji katalogów i konfigurowania uwierzytelniania, w tym synchronizacji skrótów haseł, uwierzytelniania przekazywanego i federacji. Jeśli nie jesteś administratorem dzierżawy ani lokalnym administratorem domeny, skontaktuj się z administratorem IT w celu skonfigurowania tej funkcji.
 
@@ -90,7 +90,7 @@ Korzystanie z programu Azure AD Connect zapewnia zgodność nazwy UPN w usłudze
 > 
 
 ## <a name="now-this-is-where-the-gateway-comes-in"></a>Teraz miejsce na bramę
-Brama działa jako mostek między chmurą a serwerem lokalnym. Transfer danych między chmurą a bramą jest zabezpieczony za pomocą usługi [Azure Service Bus](https://azure.microsoft.com/documentation/services/service-bus/). Usługa Service Bus tworzy bezpieczny kanał między chmurą a serwerem lokalnym za pośrednictwem połączenia wychodzącego w bramie.  Nie trzeba otwierać żadnych połączeń przychodzących w lokalnej zaporze.
+Brama działa jako mostek między chmurą a serwerem lokalnym. Transfer danych między chmurą a bramą jest zabezpieczony za pomocą usługi [Azure Service Bus](/azure/service-bus-messaging/service-bus-messaging-overview). Usługa Service Bus tworzy bezpieczny kanał między chmurą a serwerem lokalnym za pośrednictwem połączenia wychodzącego w bramie.  Nie trzeba otwierać żadnych połączeń przychodzących w lokalnej zaporze.
 
 W przypadku źródła danych usługi Analysis Services konieczne będzie zainstalowanie bramy na komputerze przyłączonym do tego samego lasu/domeny co serwer usługi Analysis Services.
 
@@ -116,8 +116,10 @@ Zamiast przechodzić w tym miejscu do rozwiązywania problemów z bramą, szereg
 [!INCLUDE [gateway-onprem-accounts-ports-more](./includes/gateway-onprem-accounts-ports-more.md)]
 
 ## <a name="next-steps"></a>Następne kroki
+
 [Rozwiązywanie problemów z lokalną bramą danych](service-gateway-onprem-tshoot.md)  
-[Azure Service Bus](https://azure.microsoft.com/documentation/services/service-bus/)  
-[Azure AD Connect](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect/)  
+[Azure Service Bus](/azure/service-bus-messaging/service-bus-messaging-overview/)  
+[Azure AD Connect](/azure/active-directory/hybrid/how-to-connect-sync-whatis/)  
+
 Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
 

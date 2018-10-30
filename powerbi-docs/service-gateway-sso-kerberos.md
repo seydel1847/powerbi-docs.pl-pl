@@ -10,12 +10,12 @@ ms.component: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: 0055994ee883fbdb508dfa304d063bc359dd5beb
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: b66799df83095ce2104196b076482cc232c9bfae
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641625"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101628"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Używanie protokołu Kerberos na potrzeby logowania jednokrotnego (SSO) z usługi Power BI do lokalnych źródeł danych
 
@@ -61,7 +61,7 @@ W standardowej instalacji brama działa jako konto usługi maszyny lokalnej (dok
 Aby włączyć **ograniczone delegowanie protokołu Kerberos**, brama musi działać jako konto domeny, chyba że usługa Azure AD została już zsynchronizowana z lokalną usługą Active Directory przy użyciu narzędzia Azure AD DirSync/Connect. Jeśli zachodzi potrzeba przełączenia konta na konto domeny, zapoznaj się z sekcją [Przełączanie bramy na konto domeny](#switching-the-gateway-to-a-domain-account) w dalszej części tego artykułu.
 
 > [!NOTE]
-> Jeśli skonfigurowano narzędzie Azure AD DirSync/Connect, a konta użytkowników są synchronizowane, usługa bramy nie musi wykonywać wyszukiwania w lokalnej usłudze AD w czasie wykonywania i można użyć lokalnego identyfikatora SID usługi (zamiast wymagać konta domeny) na potrzeby usługi bramy. Czynności konfiguracji ograniczonego delegowania protokołu Kerberos opisane w tym artykule są takie same, jak w przypadku tej konfiguracji (z tą różnicą, że stosowany jest identyfikator SID usługi, a nie konto domeny).
+> Jeśli skonfigurowano narzędzie Azure AD DirSync/Connect, a konta użytkowników są synchronizowane, usługa bramy nie musi wykonywać wyszukiwania w lokalnej usłudze AD w czasie wykonywania i można użyć lokalnego identyfikatora SID usługi (zamiast wymagać konta domeny) na potrzeby usługi bramy. Czynności konfiguracji ograniczonego delegowania protokołu Kerberos opisane w tym artykule są takie same, jak w przypadku tej konfiguracji (z tą różnicą, że są stosowane względem obiektu komputera bramy w usłudze Active Directory, a nie w ramach konta domeny).
 
 ### <a name="prerequisite-3-have-domain-admin-rights-to-configure-spns-setspn-and-kerberos-constrained-delegation-settings"></a>Wymaganie wstępne 3: uprawnienia administratora domeny do konfigurowania ustawień ograniczonego delegowania protokołu Kerberos i nazw SPN (SetSPN)
 
