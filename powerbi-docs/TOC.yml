@@ -70,6 +70,8 @@ items:
       href: desktop-directquery-data-sources.md
     - name: Wymagania wstępne dotyczące źródeł danych usługi Power BI
       href: desktop-data-source-prerequisites.md
+    - name: Wizualizacje niestandardowe — często zadawane pytania
+      href: power-bi-custom-visuals-faq.md
   - name: Instrukcje
     items:
     - name: Uzyskiwanie programu Power BI Desktop
@@ -798,7 +800,7 @@ items:
         href: developer/embedded-row-level-security.md
       - name: Rejestrowanie danych diagnostycznych na platformie Azure dla usługi Power BI Embedded
         href: developer/azure-pbie-diag-logs.md
-      - name: Często zadawane pytania
+      - name: Osadzanie — często zadawane pytania
         href: developer/embedded-faq.md
       - name: Uprawnienia usługi Power BI
         href: developer/power-bi-permissions.md
@@ -1191,7 +1193,7 @@ items:
     - name: Program PowerShell, interfejsy API REST i zestaw .NET SDK
       href: service-admin-reference.md
     - name: Polecenia cmdlet usługi Power BI dla programu PowerShell
-      href: https://docs.microsoft.com/en-us/powershell/power-bi/
+      href: https://docs.microsoft.com/powershell/power-bi/
       maintainContext: true
     - name: Dokumentacja adresu URL usługi
       href: power-bi-whitelist-urls.md
@@ -1203,9 +1205,9 @@ items:
       href: service-admin-power-bi-security.md
     - name: Usługę Power BI dla Office 365 zastąpiono usługą Power BI
       href: service-admin-o365portal-retired.md
-ms.openlocfilehash: 29189aa7be988fef11dea305e4e0a1651e12a7a4
-ms.sourcegitcommit: f2eab2c3e7b5ec3684f63d819f10cb3dcfa21e73
+ms.openlocfilehash: 5ce694f906a9c637407e6cfd0b47504ac7112bc1
+ms.sourcegitcommit: f9dd6098ca57d4d6cad34284126d4e58eab1c92c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/26/2018
-ms.locfileid: "50153730"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "50222133"
