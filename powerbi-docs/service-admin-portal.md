@@ -7,34 +7,35 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 06/28/2017
+ms.date: 10/30/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 2f10ead5d08efa12cae05aeb6f2e3d3068636f77
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.openlocfilehash: 02829adb386cc746715a34300a42aba616dc2d60
+ms.sourcegitcommit: 862faf948468d7f6d464b83f4e0b040d5213a580
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396916"
+ms.lasthandoff: 10/30/2018
+ms.locfileid: "50252496"
 ---
 # <a name="power-bi-admin-portal"></a>Portal administracyjny usługi Power BI
 
-Portal administracyjny umożliwia zarządzanie dzierżawą usługi Power BI w organizacji. Zawiera on kluczowe elementy, takie jak metryki użycia, dostęp do centrum administracyjnego usługi Office 365 oraz ustawienia.
+Portal administracyjny pozwala na zarządzanie *dzierżawą* usługi Power BI w organizacji. Portal zawiera elementy, takie jak metryki użycia, dostęp do centrum administracyjnego usługi Office 365 oraz ustawienia.
 
-Zarządzanie dzierżawą usługi Power BI w firmie odbywa się za pośrednictwem portalu administracyjnego usługi Power BI. Portal administracyjny jest dostępny dla wszystkich użytkowników, którzy są administratorami globalnymi w usłudze Office 365 lub którym przydzielono rolę administratora usługi Power BI. Aby uzyskać więcej informacji o roli administratora usługi Power BI, zobacz [Opis roli administratora usługi Power BI](service-admin-role.md).
-
-Wszyscy użytkownicy widzą **Portal administracyjny** pod ikoną koła zębatego. Jeśli użytkownik nie jest administratorem, może zobaczyć tylko sekcję **Ustawienia — wersja Premium** oraz wyłącznie te ustawienia, którymi może zarządzać.
+Pełny portal administracyjny jest dostępny dla wszystkich użytkowników, którzy są administratorami globalnymi w usłudze Office 365 lub którym przydzielono rolę administratora usługi Power BI. Jeśli nie pełnisz żadnej z tych ról, w portalu są widoczne tylko **ustawienia pojemności**. Aby uzyskać więcej informacji o roli administratora usługi Power BI, zobacz [Opis roli administratora usługi Power BI](service-admin-role.md).
 
 ## <a name="how-to-get-to-the-admin-portal"></a>Jak uzyskać dostęp do portalu administracyjnego
 
 Twoje konto musi być oznaczone jako **Administrator globalny**, w usłudze Office 365 lub Azure Active Directory, albo musisz uzyskać przydział do roli administratora usługi Power BI, aby uzyskać dostęp do portalu administracyjnego usługi Power BI. Aby uzyskać więcej informacji o roli administratora usługi Power BI, zobacz [Opis roli administratora usługi Power BI](service-admin-role.md). Aby uzyskać dostęp do portalu administracyjnego usługi Power BI, wykonaj następujące czynności.
 
 1. Wybierz koło zębate ustawień w prawym górnym rogu usługi Power BI.
-2. Wybierz polecenie **Portal administracyjny**.
 
-![](media/service-admin-portal/powerbi-admin-settings.png)
+1. Wybierz pozycję **Portal administracyjny**.
 
-W portalu znajduje się sześć kart. Zostały one opisane poniżej.
+    ![Ustawienia portalu administracyjnego](media/service-admin-portal/powerbi-admin-settings.png)
+
+Portal zawiera siedem kart. W pozostałej części tego artykułu przedstawiono informacje na temat każdej z tych kart.
+
+![Nawigacja w portalu administracyjnym](media/service-admin-portal/powerbi-admin-landing-page.png)
 
 * [Metryki użycia](#usage-metrics)
 * [Użytkownicy](#users)
@@ -42,95 +43,91 @@ W portalu znajduje się sześć kart. Zostały one opisane poniżej.
 * [Ustawienia dzierżawy](#tenant-settings)
 * [Ustawienia — wersja Premium](#premium-settings)
 * [Kody osadzania](#embed-codes)
-* [Organization visuals](#Organization-visuals) (Wizualizacje organizacji)
-
-![](media/service-admin-portal/powerbi-admin-landing-page.png)
+* [Organization visuals](#organization-visuals) (Wizualizacje organizacji)
 
 ## <a name="usage-metrics"></a>Metryki użycia
-Pierwsza karta w portalu administracyjnym to **Metryki użycia**. Raport metryk użycia daje możliwość monitorowania użycia w usłudze Power BI w ramach organizacji. Ponadto zapewnia możliwość wyświetlania najbardziej aktywnych użytkowników i grup w usłudze Power BI w ramach organizacji.
+
+Karta **Metryki użycia** umożliwia monitorowanie użycia usługi Power BI w organizacji. Ponadto zapewnia możliwość wyświetlania najbardziej aktywnych użytkowników i grup w usłudze Power BI w ramach organizacji.
 
 > [!NOTE]
 > Przy pierwszym uzyskaniu dostępu do pulpitu nawigacyjnego lub po powrocie do pulpitu nawigacyjnego po długim czasie najprawdopodobniej zobaczysz ekran ładowania, gdy będziemy ładować pulpit nawigacyjny.
 
-Po załadowaniu pulpitu nawigacyjnego możesz zobaczyć dwie sekcje kafelków. Pierwsza sekcja obejmuje dane użycia dla poszczególnych użytkowników, a druga sekcja zawiera podobne informacje dotyczące grup w organizacji.
+Po załadowaniu pulpitu nawigacyjnego zobaczysz dwie sekcje kafelków. Pierwsza sekcja obejmuje dane użycia dla poszczególnych użytkowników, a druga sekcja zawiera podobne informacje dotyczące grup w organizacji.
 
 Oto podział elementów, które możesz zobaczyć w każdym kafelków:
 
 * Unikatowy licznik dla wszystkich pulpitów nawigacyjnych, raportów i zestawów danych w obszarze roboczym użytkownika
   
-    ![](media/service-admin-portal/powerbi-admin-usage-metrics-number-tiles.png)
+    ![Unikatowy licznik dla pulpitów nawigacyjnych, raportów i zestawów danych](media/service-admin-portal/powerbi-admin-usage-metrics-number-tiles.png)
 
-* Najczęściej używany pulpit nawigacyjny według liczby użytkowników, którzy mogą do niego uzyskać dostęp. Jeśli na przykład masz pulpit nawigacyjny, który został udostępniony trzem użytkownikom oraz został dodany do pakietu zawartości, z którym łączy się dwóch różnych użytkowników, licznik będzie wskazywać 6 (1 + 3 +2)
+* Najczęściej używany pulpit nawigacyjny według liczby użytkowników, którzy mogą do niego uzyskać dostęp. Jeśli na przykład masz pulpit nawigacyjny, który został udostępniony 3 użytkownikom oraz został dodany do pakietu zawartości, z którym łączy się dwóch różnych użytkowników, licznik będzie wskazywać 6 (1 + 3 +2)
   
-    ![](media/service-admin-portal/powerbi-admin-usage-metrics-top-dashboards.png)
+    ![Najczęściej używane pulpity nawigacyjne](media/service-admin-portal/powerbi-admin-usage-metrics-top-dashboards.png)
 
 * Najpopularniejsza zawartość, z którą łączą się użytkownicy. Będzie to wszystko to, z czym użytkownicy mogą się połączyć za pośrednictwem procesu Pobierz dane, a więc pakiety zawartości SaaS, pakiety zawartości organizacji, pliki lub bazy danych.
   
-    ![](media/service-admin-portal/powerbi-admin-usage-metrics-top-connections.png)
+    ![Najczęściej używane pakiety](media/service-admin-portal/powerbi-admin-usage-metrics-top-connections.png)
 
 * Widok użytkowników oparty na liczbie posiadanych przez nich pulpitów nawigacyjnych, zarówno utworzonych przez użytkowników, jak i tych udostępnionych.
   
-    ![](media/service-admin-portal/powerbi-admin-usage-metrics-top-users-dashboards.png)
+    ![Najaktywniejsi użytkownicy — pulpity nawigacyjne](media/service-admin-portal/powerbi-admin-usage-metrics-top-users-dashboards.png)
 
 * Widok użytkowników oparty na liczbie posiadanych raportów
   
-    ![](media/service-admin-portal/powerbi-admin-usage-metrics-top-users-reports.png)
+    ![Najaktywniejsi użytkownicy — raporty](media/service-admin-portal/powerbi-admin-usage-metrics-top-users-reports.png)
 
-Druga sekcja wyświetla informacje tego samego typu, ale w oparciu o grupy. Dzięki temu możesz zobaczyć, które grupy w organizacji są najbardziej aktywne oraz których informacji używają.
+Druga sekcja wyświetla informacje tego samego typu, ale w oparciu o grupy. Dzięki temu możesz zobaczyć, które grupy w organizacji są najaktywniejsze i z jakiej zawartości korzystają.
 
-Przy użyciu tych informacji możesz zyskać prawdziwy wgląd w sposób użytkowania usługi Power BI w organizacji oraz rozpoznać bardzo aktywnych użytkowników i grupy w organizacji.
+Przy użyciu tych informacji można uzyskiwać faktyczny wgląd w to, jak użytkownicy korzystają z usługi Power BI w organizacji, a także rozpoznawać w organizacji użytkowników i grupy charakteryzujące się dużą aktywnością.
 
 ## <a name="users"></a>Użytkownicy
 
-Druga karta w portalu administracyjnym to **Zarządzanie użytkownikami**. Zarządzanie użytkownikami, w przypadku usługi Power BI, odbywa się w centrum administracyjnym usługi Office 365, więc ta sekcja umożliwia szybkie przejście do obszaru, w którym można zarządzać użytkownikami, administratorami i grupami w usłudze Office 365.
+Do zarządzania użytkownikami, grupami i administratorami usługi Power BI służy centrum administracyjne usługi Office 365. Karta **Użytkownicy** zawiera link do centrum administracyjnego dla dzierżawy.
 
-![](media/service-admin-portal/powerbi-admin-manage-users.png)
-
-Po kliknięciu pozycji **Przejdź do centrum administracyjnego usługi Office 365** użytkownik zostanie przeniesiony bezpośrednio do strony początkowej centrum administracyjnego usługi Office 365, aby zarządzać użytkownikami dzierżawy.
-
-![](media/service-admin-portal/powerbi-admin-o365-admin-center.png)
+![Przejdź do Centrum administracyjnego usługi O365](media/service-admin-portal/powerbi-admin-manage-users.png)
 
 ## <a name="audit-logs"></a>Dzienniki inspekcji
 
-Trzeci karta w portalu administracyjnym to **Dzienniki inspekcji**. Dzienniki znajdują się w centrum zabezpieczeń i zgodności usługi Office 365. Ta sekcja umożliwia szybki dostęp do tego obszaru w usłudze Office 365.
-
-Aby uzyskać więcej informacji o dziennikach inspekcji, zobacz [Inspekcja usługi Power BI w organizacji](service-admin-auditing.md)
+Do zarządzania dziennikami inspekcji usługi Power BI służy centrum zabezpieczeń i zgodności usługi Office 365. Karta **Dzienniki inspekcji**  zawiera link do centrum zabezpieczeń i zgodności dla dzierżawy. [Dowiedz się więcej](service-admin-auditing.md)
 
 ## <a name="tenant-settings"></a>Ustawienia dzierżawy
 
-Trzeci karta w portalu administracyjnym to **Ustawienia dzierżawy**. Ustawienia dzierżawy zapewniają więcej kontroli nad funkcjami, które są dostępne w organizacji. Jeśli masz obawy związane z poufnymi danymi, niektóre z funkcji mogą nie być odpowiednie dla Twojej organizacji. Możesz też zdecydować, że dana funkcja będzie dostępna tylko dla wybranej grupy. Jeśli tak jest, możesz ją wyłączyć w dzierżawie.
+Karta **Ustawienia dzierżawy** umożliwia szczegółowe kontrolowanie funkcji udostępnionych w organizacji. Jeśli masz obawy związane z poufnymi danymi, niektóre z funkcji mogą nie być odpowiednie dla Twojej organizacji. Możesz też zdecydować, że określona funkcja będzie dostępna tylko dla wybranej grupy.
 
-![](media/service-admin-portal/powerbi-admin-tenant-settings.png)
+Na poniższej ilustracji przedstawiono dwie pierwsze sekcje karty **Ustawienia dzierżawy**.
+
+![Ustawienia dzierżawy](media/service-admin-portal/powerbi-admin-tenant-settings.png)
 
 > [!NOTE]
-> Zastosowanie ustawienia dla wszystkich użytkowników w dzierżawie może zająć do 10 minut.
+> Zastosowanie zmiany ustawienia dla wszystkich użytkowników w dzierżawie może zająć do 10 minut.
 
 Ustawienia mogą mieć trzy stany:
 
-* **Wyłączone dla całej organizacji**: możesz wyłączyć funkcję i uniemożliwić użytkownikom korzystanie z niej.
+* **Wyłączone w całej organizacji**: nikt w organizacji nie może używać tej funkcji.
 
-    ![](media/service-admin-portal/powerbi-admin-tenant-settings-disabled.png)
+    ![Ustawienie oznaczające wyłączenie dla wszystkich](media/service-admin-portal/powerbi-admin-tenant-settings-disabled.png)
 
-* **Włączone dla całej organizacji**: możesz włączyć funkcję dla całej organizacji — wszyscy użytkownicy będą mieć do niej dostęp.
+* **Włączone w całej organizacji**: wszyscy w organizacji mogą używać tej funkcji.
 
-    ![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled.png)
+    ![Ustawienie oznaczające włączenie dla wszystkich](media/service-admin-portal/powerbi-admin-tenant-settings-enabled.png)
 
-* **Włączone dla podzbioru organizacji**: możesz też włączyć funkcję dla części organizacji. Można to zrobić na kilka różnych sposobów. Funkcję możesz włączyć dla całej organizacji poza wybraną grupą użytkowników.
+* **Włączone w podzestawie organizacji**: określony podzestaw użytkowników lub grup w organizacji może używać tej funkcji.
 
-    ![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except.png)
+    Funkcję możesz włączyć dla całej organizacji poza wybraną grupą użytkowników.
 
-    Ponadto możesz włączyć funkcję tylko dla wybranej grupy użytkowników, jednocześnie wyłączając ją dla innej grupy użytkowników. Dzięki temu upewnisz się, że wybrani użytkownicy nie będą mieć dostępu do funkcji, nawet kiedy znajdą się w grupie dozwolonych użytkowników.
+    ![Ustawienie oznaczające włączenie dla podzestawu](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except.png)
 
-    ![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except2.png)
+    Ponadto możesz włączyć funkcję tylko dla wybranej grupy użytkowników, jednocześnie wyłączając ją dla innej grupy użytkowników. Dzięki zastosowaniu takiego podejścia upewnisz się, że wybrani użytkownicy nie będą mieć dostępu do funkcji, nawet kiedy znajdą się w grupie dozwolonych użytkowników.
+
+    ![Ustawienie oznaczające włączenie z wyjątkami](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except2.png)
 
 W kilku kolejnych sekcjach omówiono różne typy ustawień dzierżawy.
 
 ## <a name="workspace-settings"></a>Ustawienia obszaru roboczego
 
 ### <a name="create-workspaces-preview"></a>Tworzenie obszarów roboczych (wersja zapoznawcza)
-Użytkownicy w organizacji mogą tworzyć obszary robocze aplikacji, aby współpracować nad pulpitami nawigacyjnymi, raportami i inną zawartością.
 
-Aby uzyskać więcej informacji, zobacz [Tworzenie nowych obszarów roboczych](service-create-the-new-workspaces.md).
+Użytkownicy w organizacji mogą tworzyć obszary robocze aplikacji, aby współpracować nad pulpitami nawigacyjnymi, raportami i inną zawartością. [Dowiedz się więcej](service-create-the-new-workspaces.md)
 
 ## <a name="export-and-sharing-settings"></a>Ustawienia eksportowania i udostępniania
 
@@ -138,19 +135,21 @@ Aby uzyskać więcej informacji, zobacz [Tworzenie nowych obszarów roboczych](s
 
 Użytkownicy w organizacji mogą udostępniać pulpity nawigacyjne użytkownikom spoza organizacji.
 
-![](media/service-admin-portal/powerbi-admin-sharing-external-02.png)
+![Ustawienie Zewnętrzni użytkownicy](media/service-admin-portal/powerbi-admin-sharing-external-02.png)
 
-Oto komunikat, który jest wyświetlany w przypadku udostępniania użytkownikowi zewnętrznemu.
+Na poniższej ilustracji przedstawiono komunikat, który jest wyświetlany w przypadku udostępniania użytkownikowi zewnętrznemu.
 
-![](media/service-admin-portal/powerbi-admin-sharing-external.png)
+![Udostępnianie użytkownikowi zewnętrznemu](media/service-admin-portal/powerbi-admin-sharing-external.png)
 
 ### <a name="publish-to-web"></a>Publikuj w Internecie
 
 Użytkownicy w organizacji mogą publikować raporty w Internecie. [Dowiedz się więcej](service-publish-to-web.md)
 
-![](media/service-admin-portal/powerbi-admin-publish-to-web.png)
+Na poniższej ilustracji przedstawiono menu **Plik** raportu po włączeniu ustawienia **Publikuj w Internecie**.
 
-Użytkownicy mogą widzieć różne opcje w interfejsie użytkownika w zależności od tego, jakie jest ustawienie publikowania w Internecie.
+![Ustawienie Publikuj w Internecie](media/service-admin-portal/powerbi-admin-publish-to-web.png)
+
+Użytkownicy widzą różne opcje w interfejsie użytkownika w zależności od tego, jakie jest ustawienie **Publikuj w Internecie**.
 
 |Promowanie |Włączone dla całej organizacji |Wyłączone dla całej organizacji |Określone grupy zabezpieczeń   |
 |---------|---------|---------|---------|
@@ -163,7 +162,9 @@ Użytkownicy mogą widzieć różne opcje w interfejsie użytkownika w zależno�
 
 Użytkownicy w organizacji mogą eksportować dane z kafelka lub wizualizacji. [Dowiedz się więcej](visuals/power-bi-visualization-export-data.md)
 
-![](media/service-admin-portal/powerbi-admin-export-data.png)
+Na poniższej ilustracji przedstawiono opcję eksportowania danych z kafelka.
+
+![Eksportowanie danych z kafelka](media/service-admin-portal/powerbi-admin-export-data.png)
 
 > [!NOTE]
 > Wyłączenie funkcji **Eksportowanie danych** ponadto uniemożliwia użytkownikom korzystanie z funkcji **Analizuj w programie Excel** oraz połączenia na żywo usługi Power BI.
@@ -172,9 +173,11 @@ Użytkownicy w organizacji mogą eksportować dane z kafelka lub wizualizacji. [
 
 Użytkownicy w organizacji mogą eksportować raporty usługi Power BI jako pliki programu PowerPoint. [Dowiedz się więcej](consumer/end-user-powerpoint.md)
 
-![](media/service-admin-portal/powerbi-admin-powerpoint.png)
+Na poniższej ilustracji przedstawiono menu **Plik** raportu po włączeniu ustawienia **Eksportuj raporty jako prezentacje programu PowerPoint**.
 
-### <a name="print-dashboards-and-reports"></a>Drukowanie pulpitów nawigacyjnych i raportów
+![Eksportuj raporty jako prezentacje programu PowerPoint](media/service-admin-portal/powerbi-admin-powerpoint.png)
+
+### <a name="print-dashboards-and-reports"></a>Drukuj pulpity nawigacyjne i raporty
 
 Użytkownicy w organizacji mogą drukować pulpity nawigacyjne i raporty. [Dowiedz się więcej](consumer/end-user-print.md)
 

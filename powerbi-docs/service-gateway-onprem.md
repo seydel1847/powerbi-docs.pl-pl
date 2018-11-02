@@ -10,12 +10,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 06/05/2018
-ms.openlocfilehash: b56134314b9396dff1b965786e65e62129e5e7b9
-ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
+ms.openlocfilehash: 2758ef661b70c53a37104c67c4012be79725990e
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "45558452"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101490"
 ---
 # <a name="on-premises-data-gateway"></a>Lokalna brama danych
 
@@ -47,9 +47,9 @@ W przypadku wystąpień tabelarycznych lub wielowymiarowych można używać poł
 
 ## <a name="download-and-install-the-on-premises-data-gateway"></a>Pobieranie i instalowanie lokalnej bramy danych
 
-Aby pobrać bramę, wybierz pozycję **Brama danych** w menu Pliki do pobrania. Pobierz [lokalną bramę danych](http://go.microsoft.com/fwlink/?LinkID=820925). 
+Aby pobrać bramę, wybierz pozycję **Brama danych** w menu Pliki do pobrania. Pobierz [lokalną bramę danych](http://go.microsoft.com/fwlink/?LinkID=820925).
 
-Należy pamiętać, że zaktualizowanie lokalnej bramy danych odbywa się przez ponowne zainstalowanie bramy, zgodnie z opisem w tej sekcji. Podczas aktualizowania bramy (przez ponowne zainstalowanie) istniejące ustawienia bramy są zachowywane.
+Należy pamiętać, że zaktualizowanie lokalnej bramy danych wykonuje się przez ponowne zainstalowanie bramy, zgodnie z opisem w tej sekcji. Jeśli zainstalujesz nowszą wersję bramy, istniejące ustawienia zostaną zachowane. Instalowanie tej samej wersji jest traktowanie jako pełna ponowna instalacja i ustawienia nie są zachowywane.
 
 ![](media/service-gateway-onprem/powerbi-download-data-gateway.png)
 

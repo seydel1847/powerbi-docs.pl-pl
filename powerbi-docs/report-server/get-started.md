@@ -4,18 +4,18 @@ description: Omówienie serwera raportów usługi Power BI wyjaśniające, jak w
 keywords: ''
 author: maggiesMSFT
 ms.author: maggies
-ms.date: 05/07/2018
+ms.date: 10/24/2018
 ms.topic: overview
 ms.service: powerbi
 ms.component: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: 1be2270074011f73c3d942677211dd99d18c6b2b
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 95a97c86ae7d17091b49fbf33cf5ec0d26053c3e
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34294576"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101404"
 ---
 # <a name="what-is-power-bi-report-server"></a>Co to jest serwer raportów usługi Power BI?
 
@@ -28,6 +28,9 @@ Serwer raportów usługi Power BI jest podobny do usługi SQL Server Reporting S
 
 ## <a name="licensing-power-bi-report-server"></a>Licencjonowanie serwera raportów usługi Power BI
 Serwer raportów usługi Power BI jest dostępny za pośrednictwem dwóch różnych licencji: [usługi Power BI Premium](../service-premium.md) i [programu SQL Server Enterprise Edition](https://www.microsoft.com/sql-server/sql-server-2017-editions) z pakietem Software Assurance. Licencja usługi Power BI Premium umożliwia tworzenie hybrydowego wdrożenia łączącego chmurę i środowisko lokalne.  
+
+> [!NOTE]
+> W przypadku usługi Power BI Premium, serwer raportów usługi Power BI jest dołączony tylko do jednostek SKU typu P. Nie jest on dołączony do jednostek SKU typu EM.
 
 ## <a name="web-portal"></a>Portal internetowy
 Punkt wejścia serwera raportów usługi Power BI to bezpieczny portal internetowy, który można wyświetlić w dowolnej nowoczesnej przeglądarce. W tym miejscu można uzyskać dostęp do wszystkich swoich raportów i wskaźników KPI. Zawartość portalu internetowego jest zorganizowana przy użyciu tradycyjnej hierarchii folderów. Zawartość folderów jest zorganizowana według typu: raporty usługi Power BI, raporty dla urządzeń przenośnych, raporty z podziałem na strony i kluczowe wskaźniki wydajności oraz skoroszyty programu Excel, a także udostępnione zestawy danych i udostępnione źródła danych służące jako bloki konstrukcyjne raportów. Można otagować ulubione elementy, aby wyświetlić je w jednym folderze. W portalu internetowym można również tworzyć kluczowe wskaźniki wydajności. 
@@ -66,7 +69,7 @@ Więcej [dokumentacji dla deweloperów serwera raportów](https://docs.microsoft
 
 ## <a name="next-steps"></a>Następne kroki
 [Instalacja serwera raportów usługi Power BI](install-report-server.md)  
-[Instalowanie programu Report Builder](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
+[Pobieranie programu Report Builder](https://www.microsoft.com/download/details.aspx?id=53613)  
 
 Masz więcej pytań? [Zadaj pytanie społeczności usługi Power BI](https://community.powerbi.com/)
 

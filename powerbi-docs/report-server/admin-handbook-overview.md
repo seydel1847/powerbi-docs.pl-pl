@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/18/2018
+ms.date: 10/24/2018
 ms.author: maghan
-ms.openlocfilehash: 1dbca883bc4df2bde743963db7994361616be192
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 2c8319395bd4daf44562f71380fc254964708c2b
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34721920"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50100616"
 ---
 # <a name="admin-overview-power-bi-report-server"></a>Omówienie administracji, serwer raportów usługi Power BI
 W tym artykule przedstawiono omówienie administracji serwera raportów usługi Power BI, który jest lokalizacją lokalną służącą do przechowywania raportów podzielonych na strony, raportów dla urządzeń przenośnych i raportów usługi Power BI, jak również zarządzania nimi. W tym artykule przedstawiono koncepcje planowania i wdrażania serwera raportów usługi Power BI oraz zarządzania nim, a także linki do dodatkowych informacji.
@@ -50,7 +50,7 @@ Zabezpieczenia i ochrona są ważne dla każdej organizacji. Informacje na temat
 [Instalacja serwera raportów usługi Power BI](install-report-server.md)  
 [Znajdowanie klucza produktu serwera raportów](find-product-key.md)  
 [Instalowanie programu Power BI Desktop zoptymalizowanego pod kątem serwera raportów usługi Power BI](install-powerbi-desktop.md)  
-[Instalowanie programu Report Builder](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
+[Pobieranie programu Report Builder](https://www.microsoft.com/download/details.aspx?id=53613)  
 [Pobieranie programu SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)
 
 Masz więcej pytań? [Zadaj pytanie społeczności usługi Power BI](https://community.powerbi.com/)

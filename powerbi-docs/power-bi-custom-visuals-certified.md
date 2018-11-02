@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 09/24/2018
+ms.date: 10/30/2018
 ms.author: mihart
-ms.openlocfilehash: 54c484153896430a7c5c886864459361cae97428
-ms.sourcegitcommit: fbc1fabcb5e3b285228c9aa192b9b421b2782922
+ms.openlocfilehash: ba6c59d168deb5fb68f4b339f11fba795bae6452
+ms.sourcegitcommit: 862faf948468d7f6d464b83f4e0b040d5213a580
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "47059075"
+ms.lasthandoff: 10/30/2018
+ms.locfileid: "50252404"
 ---
 # <a name="getting-a-custom-visual-certified"></a>*Certyfikowanie* wizualizacji niestandardowej
 ## <a name="what-is-meant-by-certified"></a>Co oznacza *certyfikowanie*?
@@ -86,6 +86,7 @@ Firma Microsoft, według własnego uznania, może usunąć daną wizualizację z
 | [Enlighten Slicer](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380960) | |
 | [Enlighten Stack Shuffle](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380849) | |
 | [Wykres waflowy Enlighten](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380850) | |
+| [Filtrowanie według listy firmy Devscope](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381413) | [Klip wideo](https://youtu.be/RetEWGwBu0I) |
 | [Force-Directed Graph](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380764) | [Klip wideo](https://youtu.be/YsTa7uyJ4sg) |
 | [Funnel with Source firmy MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381334) | [Klip wideo](https://youtu.be/R_EcimsLI8U) |
 | [Gantt](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380765) | [Klip wideo](https://youtu.be/qJ7s_KrGiUU) |

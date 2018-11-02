@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 10/21/2017
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f8c1aae757e80c0c2adbc321345c242eba25098c
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: c49750ef51c1b8bacc36946d2d5c75a08abb36d7
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "34456139"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101582"
 ---
 # <a name="dynamic-row-level-security-with-analysis-services-tabular-model"></a>Dynamiczne zabezpieczenia na poziomie wiersza z modelem tabelarycznym usług Analysis Services
 W tym samouczku przedstawiono kroki niezbędne do zaimplementowania **zabezpieczeń na poziomie wiersza** w ramach **modelu tabelarycznego usług Analysis Services**  oraz stosowanie ich w raportach usługi Power BI. Kroki w tym samouczku zaprojektowano tak, aby można było je prześledzić i nauczyć się niezbędnych czynności, wykonując je na przykładowym zestawie danych.
@@ -72,6 +72,9 @@ Opublikowano już wiele artykułów opisujących sposób definiowania dynamiczny
        =DimSalesTerritory[SalesTerritoryKey]=LOOKUPVALUE(DimUserSecurity[SalesTerritoryID], DimUserSecurity[UserName], USERNAME(), DimUserSecurity[SalesTerritoryID], DimSalesTerritory[SalesTerritoryKey])
     W tej formule funkcja **LOOKUPVALUE** zwraca wszystkie wartości kolumny **DimUserSecurity[SalesTerritoryID]**, gdzie wartość **DimUserSecurity[UserName]** jest identyczna z nazwą użytkownika zalogowanego obecnie do systemu Windows, a wartość **DimUserSecurity[SalesTerritoryID]** jest identyczna z wartością **DimSalesTerritory[SalesTerritoryKey]**.
    
+    > [!IMPORTANT]
+    > Należy pamiętać, że funkcja języka DAX [USERELATIONSHIP](https://msdn.microsoft.com/query-bi/dax/userelationship-function-dax) nie jest obsługiwana w przypadku korzystania z zabezpieczeń na poziomie wiersza.
+
    Zbiór wartości SalesTerritoryKey zwracany przez funkcję **LOOKUPVALUE** jest następnie używany do ograniczania wierszy wyświetlanych w tabeli **DimSalesTerritory**. Wyświetlane są tylko wiersze, dla których wartość **SalesTerritoryKey** dla wiersza znajduje się w zestawie identyfikatorów zwracanych przez funkcję **LOOKUPVALUE**.
 8. Dla tabeli **DimUserSecurity** w kolumnie **Filtr języka DAX** wpisz następującą formułę:
    

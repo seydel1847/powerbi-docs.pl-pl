@@ -7,15 +7,15 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 10/24/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: b83ef2b6f2cd07e9f6c9af849e0f64d0490fa1af
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: b183738c062af1d834a742639369ca90f2cb1bad
+ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46546975"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50003230"
 ---
 # <a name="connect-to-zuora-with-power-bi"></a>Nawiązywanie połączenia z usługą Zuora przy użyciu usługi Power BI
 Usługa Zuora dla usługi Power BI pozwala wizualizować ważne informacje dotyczące przychodów, rozliczeń i subskrypcji. Za pomocą domyślnego pulpitu nawigacyjnego i raportów można analizować trendy użycia, śledzić rozliczenia i płatności oraz monitorować przychody cykliczne. Pulpit nawigacyjny można również dostosować do własnych potrzeb związanych z raportowaniem.
@@ -32,7 +32,7 @@ Połącz się z usługą [Zuora](https://app.powerbi.com/getdata/services/Zuora)
 3. Wybierz pozycję **Zuora** \> **Pobierz**.
 
    ![](media/service-connect-to-zuora/zuora.png)
-4. Podaj adres URL usługi Zuora. Zwykle jest to „<https://www.zuora.com>”. Poniżej znajdują się szczegółowe informacje dotyczące [wyszukiwania tych parametrów](#FindingParams).
+4. Podaj adres URL usługi Zuora. Zwykle adres URL to „<https://www.zuora.com>”. Poniżej znajdują się szczegółowe informacje dotyczące [znajdowania tych parametrów](#FindingParams).
 
    ![](media/service-connect-to-zuora/params.png)
 5. W polu **Metoda uwierzytelniania** wybierz opcję **Podstawowa**, podaj nazwę użytkownika i hasło (z rozróżnianiem wielkości liter), a następnie wybierz pozycję **Zaloguj**.
@@ -95,7 +95,6 @@ Wymagany jest dostęp do interfejsu API Zuora.
 Podaj adres URL, którego zwykle używasz do uzyskania dostępu do danych usługi Zuora. Prawidłowe opcje to:  
 
 * https://www.zuora.com  
-* https://www.apisandbox.zuora.com  
 * Adres URL odpowiadający wystąpieniu usługi  
 
 ## <a name="troubleshooting"></a>Rozwiązywanie problemów

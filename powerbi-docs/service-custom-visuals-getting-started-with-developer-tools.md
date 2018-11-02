@@ -2,32 +2,33 @@
 title: Tworzenie niestandardowych wizualizacji przy użyciu narzędzi deweloperskich
 description: Niestandardowe wizualizacje umożliwiają dostosowanie wizualizacji do potrzeb użytkowników i do projektu aplikacji. Dowiedz się, jak utworzyć niestandardową wizualizację dla usługi Power BI przy użyciu narzędzi deweloperskich.
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
-ms.topic: conceptual
+ms.topic: tutorial
 ms.date: 11/30/2017
-ms.author: maghan
-ms.openlocfilehash: ec6399d815cb17bb0f2542144c63535835659017
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: a8aca5e3410d6352d64044cdc1d8575b2449912c
+ms.sourcegitcommit: f2eab2c3e7b5ec3684f63d819f10cb3dcfa21e73
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726690"
+ms.lasthandoff: 10/26/2018
+ms.locfileid: "50153707"
 ---
 # <a name="use-developer-tools-to-create-custom-visuals"></a>Tworzenie niestandardowych wizualizacji przy użyciu narzędzi deweloperskich
+
 Niestandardowe wizualizacje umożliwiają dostosowanie wizualizacji do potrzeb użytkowników i do projektu aplikacji. Dowiedz się, jak utworzyć niestandardową wizualizację dla usługi Power BI przy użyciu narzędzi deweloperskich.
 
 > [!NOTE]
 > Ten dokument pomoże Ci zacząć pracę. Aby uzyskać bardziej szczegółowe informacje, zobacz dokumentację w [repozytorium Git wizualizacji usługi Power BI](https://github.com/Microsoft/PowerBI-visuals).
-> 
-> 
 
 ## <a name="requirements"></a>Wymagania
+
 * Wymagane oprogramowanie NodeJS w wersji 4.0 lub nowszej (zalecana wersja 5.0 lub nowsza) [Pobierz oprogramowanie NodeJS](https://nodejs.org)
 
 ## <a name="install-nodejs-and-the-power-bi-tools"></a>Instalowanie oprogramowania NodeJS i narzędzi usługi Power BI
+
 Aby tworzyć niestandardowe wizualizacje, należy zainstalować oprogramowanie NodeJS. Oprogramowanie NodeJS jest wymagane do uruchamiania narzędzi wiersza polecenia.
 
 1. Pobierz i zainstaluj oprogramowanie [NodeJS](https://nodejs.org). Wymagana jest wersja 4.0 lub nowsza, ale zalecamy korzystanie z wersji 5.0 lub nowszej.
@@ -83,12 +84,11 @@ Aby tworzyć niestandardowe wizualizacje, należy zainstalować oprogramowanie N
 <a name="ssl-setup"></a>
 
 ### <a name="server-certificate-setup"></a>Konfiguracja certyfikatu serwera
+
 Aby umożliwić podgląd wizualizacji na żywo, wymagany jest zaufany serwer https. Przed rozpoczęciem należy zainstalować certyfikat SSL umożliwiający ładowanie zasobów wizualnych w przeglądarce internetowej. 
 
 > [!NOTE]
 > Wymaga to jednorazowej konfiguracji na stacji roboczej dewelopera.
-> 
-> 
 
 Aby *utworzyć* certyfikat, uruchom poniższe polecenie.
 
@@ -96,9 +96,6 @@ Aby *utworzyć* certyfikat, uruchom poniższe polecenie.
 
 > [!NOTE]
 > Powinien zostać wyświetlony komunikat zawierający ścieżkę do lokalizacji certyfikatu i nowo wygenerowane hasło.
-> 
-> 
-
 
 Aby *zainstalować* certyfikat, uruchom poniższe polecenie.
 
@@ -106,8 +103,6 @@ Aby *zainstalować* certyfikat, uruchom poniższe polecenie.
 
 > [!NOTE]
 > Powinien zostać wyświetlony komunikat z informacją o tym, że w celu zainstalowania certyfikatu PFX należy użyć nowo wygenerowanego hasła.
-> 
-> 
 
 **System operacyjny Windows**
 
@@ -131,8 +126,6 @@ Aby *zainstalować* certyfikat, uruchom poniższe polecenie.
 
 > [!NOTE]
 > Jeśli certyfikat nie zostanie rozpoznany, może być konieczne ponowne uruchomienie komputera.
-> 
-> 
 
 **System OSX**
 
@@ -149,10 +142,9 @@ Aby *zainstalować* certyfikat, uruchom poniższe polecenie.
 
 > [!NOTE]
 > Jeśli certyfikat nie zostanie rozpoznany, może być konieczne ponowne uruchomienie komputera.
-> 
-> 
 
-## <a name="enable-live-preview-of-developer-visual"></a>Włączanie podglądu na żywo wizualizacji dewelopera
+## <a name="enable-a-live-preview-of-the-developer-visual"></a>Włączanie podglądu na żywo wizualizacji dewelopera
+
 Aby włączyć podgląd na żywo wizualizacji niestandardowej, wykonaj następujące czynności. To umożliwi używanie wizualizacji w usłudze Power BI podczas edycji raportów.
 
 1. Przejdź do witryny [app.powerbi.com](https://app.powerbi.com) i zaloguj się.
@@ -168,16 +160,16 @@ Aby włączyć podgląd na żywo wizualizacji niestandardowej, wykonaj następuj
 
    > [!NOTE]
    > To wymaga uprzedniego uruchomienia polecenia `pbiviz start` z poziomu folderu wizualizacji na maszynie deweloperskiej. Aby uzyskać więcej informacji na temat tworzenia wizualizacji, zobacz [Tworzenie nowej wizualizacji](#create-a-new-visual) w tym artykule.
-   > 
-   > 
+
 5. Wybierz wizualizację na kanwie raportu. Możesz powiązać z nią dane tak samo, jak w przypadku innych wizualizacji.
 
 Teraz możesz rozpocząć opracowywanie wizualizacji.
 
 ## <a name="create-a-new-visual"></a>Tworzenie nowej wizualizacji
+
 Możesz utworzyć nowy projekt wizualizacji, uruchamiając następujące polecenie.
 
-```
+```powershell
 pbiviz new MyVisualName
 ```
 
@@ -186,18 +178,20 @@ Ciąg *MyVisualName* możesz zastąpić wybraną nazwą wizualizacji. Tę nazwę
 To polecenie spowoduje utworzenie nowego folderu w katalogu, w którym uruchomiono polecenie. Zostanie wygenerowany podstawowy szablon początkowy wizualizacji. Po wykonaniu polecenia możesz otworzyć ten katalog i rozpocząć pracę nad nową wizualizacją w preferowanym edytorze.
 
 ## <a name="testing-your-visual-in-power-bi"></a>Testowanie wizualizacji w usłudze Power BI
+
 Możesz przetestować wizualizację w raportach i pulpitach nawigacyjnych w usłudze Power BI.
 
 <a name="running-your-visual"></a>
 
 ### <a name="running-your-visual"></a>Uruchamianie wizualizacji
+
 Aby uruchomić wizualizację, wykonaj następujące czynności.
 
 1. Otwórz wiersz polecenia.
 2. Zmień katalog na folder zawierający wizualizację. Jest to folder, w którym znajduje się plik `pbiviz.json`.
 3. Uruchom następujące polecenie.
 
-    ```
+    ```powershell
     pbiviz start
     ```
 
@@ -205,7 +199,7 @@ Aby uruchomić wizualizację, wykonaj następujące czynności.
 
 Jeśli jesteś w niewłaściwej lokalizacji, zobaczysz błąd podobny do przedstawionego poniżej.
 
-```
+```powershell
     error  LOAD ERROR Error: pbiviz.json not found. You must be in the root of a visual project to run this command.
         at e (C:\Users\[user]\AppData\Roaming\npm\node_modules\powerbi-visuals-tools\lib\VisualPackage.js:67:35)
         at Function.loadVisualPackage (C:\Users\[user]\AppData\Roaming\npm\node_modules\powerbi-visuals-tools\lib\VisualPackage.js:62:16)
@@ -220,14 +214,13 @@ Jeśli jesteś w niewłaściwej lokalizacji, zobaczysz błąd podobny do przedst
 ```
 
 ### <a name="viewing-your-visual-in-power-bi"></a>Wyświetlanie wizualizacji w usłudze Power BI
+
 Aby wyświetlić wizualizację w raporcie, przejdź do tego raportu i wybierz wizualizację w okienku **Wizualizacje**.
 
 > [!NOTE]
 > Przed wykonaniem tych czynności należy uruchomić polecenie `pbiviz start`, zgodnie z opisem w sekcji [Uruchamianie wizualizacji](#running-your-visual).
-> 
-> 
 
-![](media/service-custom-visuals-getting-started-with-developer-tools/powerbi-developer-visual-selection.png)
+![Usługa Power BI — wybór wizualizacji dewelopera](media/service-custom-visuals-getting-started-with-developer-tools/powerbi-developer-visual-selection.png)
 
 Następnie zobaczysz początkowy szablon wizualizacji.
 
@@ -242,6 +235,7 @@ Następnie zobaczysz początkowy szablon wizualizacji.
 | Prześlij opinię |Powiadom nas, jeśli możemy poprawić to środowisko! (Wymagane konto GitHub) |
 
 ## <a name="package-your-visual-for-use-in-power-bi-desktop-and-distribution"></a>Pakowanie wizualizacji na potrzeby używania w programie Power BI Desktop i dystrybucji
+
 Aby było możliwe ładowanie wizualizacji w programie [Power BI Desktop](https://powerbi.microsoft.com/desktop/) lub udostępnianie jej społeczności w [galerii wizualizacji usługi Power BI](https://visuals.powerbi.com), należy wygenerować plik `pbiviz`.
 
 Aby spakować wizualizację, wykonaj następujące czynności.
@@ -250,19 +244,21 @@ Aby spakować wizualizację, wykonaj następujące czynności.
 2. Zmień katalog na folder zawierający wizualizację. Jest to folder, w którym znajduje się plik `pbiviz.json`.
 3. Uruchom następujące polecenie.
 
-    ```
+    ```powershell
     pbiviz package
     ```
 
 Uruchomienie tego polecenia spowoduje utworzenie pliku `pbiviz` w katalogu `dist/` projektu wizualizacji. Jeśli plik `pbiviz` już istnieje, zostanie zastąpiony.
 
 ## <a name="updating-the-visuals-api-version"></a>Aktualizowanie wersji interfejsu API wizualizacji
+
 Podczas tworzenia wizualizacji przy użyciu polecenia `pbiviz new` kopia schematów json i definicji typów interfejsu API jest zapisywana w katalogu wizualizacji. W razie potrzeby możesz zaktualizować te pliki przy użyciu polecenia `pbiviz update`. To może być przydatne w przypadku udostępnienia poprawek dla starszej wersji interfejsu API lub chęci uaktualnienia do najnowszej wersji interfejsu API.
 
 ### <a name="updating-your-existing-api-version"></a>Aktualizowanie istniejącej wersji interfejsu API
+
 W przypadku udostępnienia aktualizacji istniejącego interfejsu API możesz uzyskać najnowszą wersję, wykonując następujące czynności.
 
-```
+```powershell
 #Update your version of pbiviz
 npm install -g powerbi-visuals-tools
 
@@ -273,9 +269,10 @@ pbiviz update
 To spowoduje pobranie najnowszych narzędzi npm, w tym zaktualizowanych definicji typów i schematów. Użycie polecenia `pbiviz update` spowoduje zastąpienie właściwości `apiVersion` w pliku *pbiviz.json* najnowszą wersją.
 
 ### <a name="upgrading-to-a-different-api-version"></a>Uaktualnianie do innej wersji interfejsu API
+
 Możesz przeprowadzić aktualizację do innej wersji interfejsu API, wykonując czynności opisane powyżej. Możesz wprost określić wersję interfejsu API, której chcesz użyć.
 
-```
+```powershell
 #Update your version of pbiviz
 npm install -g powerbi-visuals-tools
 
@@ -287,10 +284,9 @@ To polecenie spowodowałoby aktualizację wizualizacji do wersji 1.2.0 interfejs
 
 > [!WARNING]
 > Domyślną wersją interfejsu API używaną przez te narzędzia jest zawsze wersja stabilna. Wszelkie wersje interfejsu API nowsze niż domyślna są wersjami niestabilnymi i mogą ulec zmianie. To może spowodować nieoczekiwane działanie oraz różnice w działaniu między usługą Power BI a programem Power BI Desktop. Bieżącą stabilną wersję interfejsu API wskazuje [dziennik zmian](https://github.com/Microsoft/PowerBI-visuals/blob/master/ChangeLog.md). Aby uzyskać więcej informacji o wersjach wstępnych, zobacz [plan rozwoju](https://github.com/Microsoft/PowerBI-visuals/blob/master/Roadmap/README.md).
-> 
-> 
 
 ## <a name="inside-the-visual-project"></a>Wewnątrz projektu wizualizacji
+
 Projekt wizualizacji to folder tworzony po uruchomieniu polecenia `pbiviz new`. 
 
 ### <a name="file-structure"></a>Struktura plików
@@ -308,6 +304,7 @@ Projekt wizualizacji to folder tworzony po uruchomieniu polecenia `pbiviz new`.
 | tsconfig.json |Ustawienia kompilatora języka TypeScript. Uzyskaj więcej informacji o pliku [tsconfig.json](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html). |
 
 ### <a name="pbivizjson"></a>pbiviz.json
+
 Jest to główny plik konfiguracji wizualizacji. Zawiera metadane oraz informacje o plikach wymagane do skompilowania wizualizacji.
 
 ```
@@ -336,6 +333,7 @@ Jest to główny plik konfiguracji wizualizacji. Zawiera metadane oraz informacj
 ```
 
 ### <a name="visual-source-typescript"></a>Kod źródłowy wizualizacji (TypeScript)
+
 Kod wizualizacji należy napisać w języku TypeScript, będącym nadzbiorem języka JavaScript obsługującym bardziej zaawansowane funkcje oraz wczesny dostęp do funkcji ES6/ES7.
 
 Wszystkie pliki języka TypeScript powinny znajdować się w katalogu `src/` i być dodane do tablicy `files` w pliku `tsconfig.json`. To umożliwia kompilatorowi języka TypeScript ładowanie ich w odpowiedniej kolejności.
@@ -347,6 +345,7 @@ Można utworzyć dowolną liczbę plików i klas na potrzeby tworzenia wizualiza
 Dowiedz się więcej na temat języka [TypeScript](http://www.typescriptlang.org/).
 
 ### <a name="visual-style-less"></a>Styl wizualizacji (Less)
+
 Style wizualizacji są obsługiwane za pomocą kaskadowych arkuszy stylów (CSS). Dla wygody używany jest kompilator wstępny języka Less, obsługujący niektóre funkcje zaawansowane, takie jak zagnieżdżanie, zmienne, domieszki, warunki, pętle itp. Jeśli nie chcesz używać żadnych z tych funkcji, możesz zapisać w pliku języka Less zwykły kod CSS.
 
 Wszystkie pliki języka Less powinny znajdować się w katalogu `style/`. Zostanie załadowany plik wskazany w polu `style` w pliku `pbiviz.json`. Wszelkie dodatkowe pliki należy załadować przy użyciu polecenia `@import`.
@@ -354,12 +353,15 @@ Wszystkie pliki języka Less powinny znajdować się w katalogu `style/`. Zostan
 Dowiedz się więcej na temat języka [Less](http://lesscss.org/).
 
 ## <a name="debugging"></a>Debugowanie
+
 Aby uzyskać wskazówki dotyczące debugowania wizualizacji niestandardowej, zobacz [przewodnik po debugowaniu](https://github.com/Microsoft/PowerBI-visuals/blob/master/tools/debugging.md).
 
 ## <a name="submit-your-visual-to-appsource"></a>Przesyłanie własnej wizualizacji do usługi AppSource
+
 Własną wizualizację można udostępnić do użytku innym, przesyłając ją do usługi AppSource. Aby uzyskać więcej informacji na temat tego procesu, zobacz [Publish custom visuals to AppSource](developer/office-store.md) (Publikowanie wizualizacji niestandardowych w usłudze AppSource).
 
 ## <a name="troubleshooting"></a>Rozwiązywanie problemów
+
 **Nie znaleziono polecenia Pbiviz (i podobne błędy)**
 
 Po uruchomieniu polecenia `pbiviz` w terminalu lub wierszu polecenia powinien zostać wyświetlony ekran pomocy. Jeśli tak nie jest, nie zostało ono poprawnie zainstalowane. Upewnij się, że masz zainstalowaną wersję oprogramowania NodeJS 4.0 lub nowszą.
@@ -376,8 +378,6 @@ Jeśli jej nie widać, sprawdź, czy została włączona w ustawieniach usługi 
 
 > [!NOTE]
 > Wizualizacja debugowania jest aktualnie dostępna tylko w usłudze Power BI, a nie w programie Power BI Desktop ani aplikacji mobilnej. Natomiast spakowana wizualizacja będzie działała wszędzie.
-> 
-> 
 
 Aby uzyskać więcej informacji, zobacz [Włączanie podglądu na żywo wizualizacji dewelopera](#enable-live-preview-of-developer-visual).
 
@@ -388,11 +388,11 @@ Uruchom serwer wizualizacji, wprowadzając polecenie `pbiviz start` w terminalu 
 Aby uzyskać więcej informacji, zobacz [Uruchamianie wizualizacji](#running-your-visual) lub [Konfiguracja certyfikatu serwera](#ssl-setup).
 
 ## <a name="next-steps"></a>Następne kroki
+
 [Wizualizacje w usłudze Power BI](visuals/power-bi-report-visualizations.md)  
 [Wizualizacje niestandardowe w usłudze Power BI](power-bi-custom-visuals.md)  
 [Publikowanie wizualizacji niestandardowych w Sklepie Office](developer/office-store.md)  
 [Język TypeScript](http://www.typescriptlang.org/)  
 [Język Less CSS](http://lesscss.org/)  
 
-Masz więcej pytań? [Zadaj pytanie społeczności usługi Power BI](http://community.powerbi.com/)
-
+Masz więcej pytań? [Zadaj pytanie społeczności usługi Power BI](http://community.powerbi.com/) 

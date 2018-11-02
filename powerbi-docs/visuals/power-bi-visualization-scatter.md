@@ -1,6 +1,6 @@
 ---
-title: Wykresy punktowe w usłudze Power BI
-description: Wykresy punktowe w usłudze Power BI
+title: Wykresy punktowe, bąbelkowe i kropkowe w usłudze Power BI
+description: Wykresy punktowe, kropkowe i bąbelkowe w usłudze Power BI
 author: mihart
 manager: kvivek
 ms.reviewer: ''
@@ -8,22 +8,26 @@ featuredvideoid: PVcfPoVE3Ys
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/28/2018
+ms.date: 10/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: bd09adf21292b16ee27f111ac92bbd8c83c384d8
-ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
+ms.openlocfilehash: 7739dda4647a82b3c9d4b58976db89038428625a
+ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "47448850"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50003184"
 ---
-# <a name="scatter-charts-and-bubble-charts-in-power-bi"></a>Wykresy punktowe i bąbelkowe w usłudze Power BI
+# <a name="scatter-charts-bubble-charts-and-dot-plot-charts-in-power-bi"></a>Wykresy punktowe, bąbelkowe i kropkowe w usłudze Power BI
 Wykres punktowy zawsze ma dwie osie wartości: jeden zestaw danych liczbowych jest wyświetlany wzdłuż osi poziomej, a drugi wzdłuż osi pionowej. Na wykresie kreślone są punkty występujące na przecięciu wartości liczbowych x i y, co zapewnia połączenie tych par wartości w pojedynczych punktach danych. Te punkty danych mogą być rozproszone równomiernie lub nierównomiernie wzdłuż osi poziomej, w zależności od danych.
 
 Na wykresie bąbelkowym zamiast punktów danych używane są bąbelki. *Rozmiar* bąbelka reprezentuje dodatkowy wymiar danych.
 
 ![przykładowy wykres bąbelkowy](media/power-bi-visualization-scatter/power-bi-bubble-chart.png)
+
+Wykres kropkowy jest podobny do wykresu punktowego i wykresu bąbelkowego, z tą różnicą, że wzdłuż osi X można wykreślić dane liczbowe lub podzielone na kategorie. 
+
+![przykładowy wykres bąbelkowy](media/power-bi-visualization-scatter/power-bi-dot-plot.png)
 
 Liczbę punktów danych można ustawić, ale nie może ona przekroczyć 10 000.  
 
@@ -41,6 +45,9 @@ Liczbę punktów danych można ustawić, ale nie może ona przekroczyć 10 000.
 * Dane zawierają 3 serie danych, a każda z nich zawiera zestaw wartości.
 * Przedstawianie danych finansowych.  Różne rozmiary bąbelków są przydatne do graficznego podkreślania określonych wartości.
 * Są używane ćwiartki.
+
+### <a name="dot-plot-charts-are-a-great-choice-in-place-of-a-scatter-or-bubble"></a>Wykresy kropkowe są doskonałym wyborem zamiast punktowych i bąbelkowych w następujących przypadkach:
+* Chcesz wzdłuż osi X uwzględnić dane podzielone na kategorie
 
 ## <a name="create-a-scatter-chart"></a>Tworzenie wykresu punktowego
 Obejrzyj ten film wideo, aby zobaczyć, jak Will tworzy wykres punktowy, a następnie wykonaj poniższe kroki w celu utworzenia własnego wykresu.
@@ -63,11 +70,11 @@ W poniższych instrukcjach używane są przykładowe dane dotyczące analizy han
 
 3. Przekonwertuj na wykres punktowy. W okienku wizualizacji wybierz ikonę wykresu punktowego.
 
-   ![](media/power-bi-visualization-scatter/pbi_scatter_chart_icon.png).
+   ![](media/power-bi-visualization-scatter/power-bi-scatter-new.png).
 
 4. Przeciągnij pole **District** z obszaru **Szczegóły** do obszaru **Legenda**. W efekcie powstał wykres punktowy, który przedstawia wartości **Total Sales Variance %** wzdłuż osi Y i **Sales Per Square Feet** wzdłuż osi X. Kolory punktów danych reprezentują poszczególne regiony:
 
-    ![](media/power-bi-visualization-scatter/power-bi-scatter.png)
+    ![](media/power-bi-visualization-scatter/power-bi-scatter2.png)
 
 Teraz dodamy trzeci wymiar.
 
@@ -75,18 +82,17 @@ Teraz dodamy trzeci wymiar.
 
 1. Z okienka **Pola** przeciągnij pozycję **Sales** > **This Year Sales** > **Value** do obszaru **Rozmiar**. Punkty danych rozszerzają się do objętości proporcjonalnych do wartości sprzedaży.
    
-   ![](media/power-bi-visualization-scatter/power-bi-bubble.png)
+   ![punkty stają się bąbelkami](media/power-bi-visualization-scatter/power-bi-scatter-chart-size.png)
 
 2. Umieść kursor nad bąbelkiem. Rozmiar bąbelka odzwierciedla wielkość wartości **This Year Sales**.
    
-    ![](media/power-bi-visualization-scatter/pbi_scatter_chart_hover.png)
+    ![wyświetlanie etykietek narzędzi](media/power-bi-visualization-scatter/pbi_scatter_chart_hover.png)
 
 3. Aby ustawić liczbę punktów danych do wyświetlenia na wykresie bąbelkowym, w sekcji **Formatowanie** okienka **Wizualizacje** rozwiń kartę **Ogólne** i dostosuj pozycję **Ilość danych**. Możesz ustawić dowolną liczbę do 10 000 jako maksymalną ilość danych. W przypadku większych wartości zalecamy wcześniejsze przeprowadzenie testu w celu zapewnienia dobrej wydajności. 
 
     ![Ilość danych](media/power-bi-visualization-scatter/pbi_scatter_data_volume.png) 
 
-   > [!NOTE]
-   > Ponieważ większa liczba punktów danych może oznaczać dłuższy czas ładowania, jeśli wybierzesz publikację raportów z ograniczeniami na wyższym końcu skali, pamiętaj o przetestowaniu raportów w Internecie oraz mobilnych w celu zapewnienia, że wydajność jest zgodna z oczekiwaniami użytkowników. Należy pamiętać, że w przypadku większej liczby punktów danych należy przetestować wyniki dla różnych czynników, aby zapewnić dobrą wydajność.
+   Ponieważ większa liczba punktów danych może oznaczać dłuższy czas ładowania, jeśli wybierzesz publikację raportów z ograniczeniami na wyższym końcu skali, pamiętaj o przetestowaniu raportów w Internecie oraz mobilnych w celu zapewnienia, że wydajność jest zgodna z oczekiwaniami użytkowników. 
 
 4. Można [sformatować kolory, etykiety, tytuły, tło i inne elementy wizualizacji](service-getting-started-with-color-formatting-and-axis-properties.md). Aby [poprawić dostępność](../desktop-accessibility.md), rozważ dodanie kształtów znaczników do każdego wiersza. Używanie innego kształtu znacznika dla każdego wiersza ułatwia użytkownikowi raportu odróżnienie wierszy (lub obszarów). Aby wybrać kształt znacznika, rozwiń kartę **Kształty**, a następnie wybierz kształt znacznika.
 
@@ -95,6 +101,13 @@ Teraz dodamy trzeci wymiar.
    Możesz również zmienić kształt znacznika na romb, trójkąt lub kwadrat:
 
    ![Znacznik kwadratowy](media/power-bi-visualization-scatter/pbi_scatter_chart_hover_square.png)
+
+## <a name="create-a-dot-plot"></a>Tworzenie wykresu kropkowego
+Aby utworzyć wykres kropkowy, zastąp pole liczbowe dla osi X polem kategorii.
+
+W okienku **Oś X** usuń wartość **Sales per sq ft** i zastąp ją wartością **District > DM**.
+   
+![nowy wykres kropkowy](media/power-bi-visualization-scatter/power-bi-dot-plot-squares.png)
 
 
 ## <a name="considerations-and-troubleshooting"></a>Istotne zagadnienia i rozwiązywanie problemów
