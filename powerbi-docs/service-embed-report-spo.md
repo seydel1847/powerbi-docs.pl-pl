@@ -10,13 +10,13 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 10/01/2018
-ms.openlocfilehash: b701ce9921d055dfe124c5a419f02900b15a9f62
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.date: 10/20/2018
+ms.openlocfilehash: e336323863dfacc8c74f2dc1f721231d58d03834
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641211"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50100777"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>Osadzanie za pomocą składnika Web Part raportu w usłudze SharePoint Online
 
@@ -42,41 +42,38 @@ Aby osadzić raport w usłudze SharePoint Online, należy najpierw uzyskać adre
 2. Wybierz element menu **Plik**.
 
 3. Wybierz opcję **Osadź w usłudze SharePoint Online**.
-   
-    ![](media/service-embed-report-spo/powerbi-file-menu.png)
+
+    ![Menu Plik](media/service-embed-report-spo/powerbi-file-menu.png)
 
 4. Skopiuj adres URL z okna dialogowego.
 
-    ![](media/service-embed-report-spo/powerbi-embed-link-sharepoint.png)
-
-   > [!NOTE]
-   > Możesz również użyć adresu URL, który jest wyświetlany na pasku adresu przeglądarki internetowej podczas wyświetlania raportu. Ten adres URL zawiera aktualnie wyświetlaną stronę raportu. Należy usunąć sekcję raportu z adresu URL, jeśli chcesz użyć innej strony.
+    ![Link osadzania](media/service-embed-report-spo/powerbi-embed-link-sharepoint.png)
 
 ### <a name="add-the-power-bi-report-to-a-sharepoint-online-page"></a>Dodawanie raportu usługi Power BI do strony usługi SharePoint Online
 
 1. Otwórz wymaganą stronę w usłudze SharePoint Online i wybierz pozycję **Edytuj**.
 
-    ![](media/service-embed-report-spo/powerbi-sharepoint-edit-page.png)
+    ![Strona edycji programu SP](media/service-embed-report-spo/powerbi-sharepoint-edit-page.png)
 
     Lub utwórz nową nowoczesną stronę witryny, wybierając przycisk **+ Nowy** w usłudze SharePoint Online.
 
-    ![](media/service-embed-report-spo/powerbi-sharepoint-new-page.png)
+    ![Nowa strona programu SP](media/service-embed-report-spo/powerbi-sharepoint-new-page.png)
 
 2. Wybierz przycisk **+** i wybierz składnik Web Part **Usługa Power BI**.
 
-    ![](media/service-embed-report-spo/powerbi-sharepoint-new-web-part.png)
+    ![Nowy składnik Web Part programu SP](media/service-embed-report-spo/powerbi-sharepoint-new-web-part.png)
 
 3. Wybierz przycisk **Dodaj raport**.
 
-    ![](media/service-embed-report-spo/powerbi-sharepoint-new-report.png)
+    ![Nowy raport programu SP](media/service-embed-report-spo/powerbi-sharepoint-new-report.png)
 
-4. Wklej adres URL raportu w okienku właściwości. Jest to adres URL skopiowany z kroków powyżej. Raport zostanie załadowany automatycznie.
+4. Wklej adres URL raportu w okienku właściwości. Ten adres URL raportu to adres URL skopiowany z kroków powyżej. Raport zostanie załadowany automatycznie.
 
-    ![](media/service-embed-report-spo/powerbi-sharepoint-new-web-part-properties.png)
+    ![Właściwości nowego składnika Web Part programu SP](media/service-embed-report-spo/powerbi-sharepoint-new-web-part-properties.png)
 
 5. Wybierz pozycję **Publikuj**, aby zmiana stała się widoczna dla użytkowników usługi SharePoint Online.
 
-    ![](media/service-embed-report-spo/powerbi-sharepoint-report-loaded.png)
+    ![Załadowany raport programu SP](media/service-embed-report-spo/powerbi-sharepoint-report-loaded.png)
 
 ## <a name="granting-access-to-reports"></a>Udzielanie dostępu do raportów
 
@@ -87,24 +84,12 @@ Osadzenie raportu w usłudze SharePoint Online nie daje automatycznie użytkowni
 
 Istnieją dwa sposoby zapewnienia dostępu do raportu w usłudze Power BI. Jeśli używasz grupy usługi Office 365 do tworzenia witryny zespołu w usłudze SharePoint Online, uwzględnij użytkownika jako członka **obszaru roboczego aplikacji w usłudze Power BI** oraz **strony programu SharePoint**. Daje to pewność, że uwzględnieni użytkownicy mogą wyświetlać zawartość tej grupy. Aby uzyskać więcej informacji, zobacz [Tworzenie i rozpowszechnianie aplikacji w usłudze Power BI](service-create-distribute-apps.md).
 
-Możesz również udzielić użytkownikom dostępu do raportu, wykonując poniższe kroki.
+Alternatywnie możesz bezpośrednio udostępnić raport użytkownikom, osadzając go w aplikacji. Aby osadzenie raportu było możliwe, aplikacja musi zostać wstępnie zainstalowana. Aplikację można skonfigurować do wstępnego instalowania przy użyciu funkcji **Instaluj aplikację automatycznie**.
 
-1. Dodaj kafelek z raportu do pulpitu nawigacyjnego.
+   ![Instaluj aplikację automatycznie](media/service-embed-report-spo/install-app-automatically.png)
 
-2. Udostępnij pulpit nawigacyjny użytkownikom, którzy potrzebują dostępu do raportu. Aby uzyskać więcej informacji, zobacz [Udostępnianie pulpitu nawigacyjnego współpracownikom i innym osobom](service-share-dashboards.md).
-
-## <a name="web-part-settings"></a>Ustawienia składnika Web Part
-
-Poniżej znajduje się opis ustawień, które można dostosować dla składnika Web Part usługi Power BI dla usługi SharePoint Online.
-
-![](media/service-embed-report-spo/powerbi-sharepoint-web-part-properties.png)
-
-| Właściwość | Opis |
-| --- | --- |
-| Nazwa strony |Ustawia domyślną stronę wyświetlaną przez składnik Web Part. Wybierz wartość z listy rozwijanej. Jeśli nie są wyświetlane żadne strony, raport ma jedną stronę lub wklejony adres URL zawiera nazwę strony. Usuń sekcję raportu z adresu URL, aby wybrać konkretną stronę. |
-| Wyświetlanie |Opcja umożliwiająca dostosowanie dopasowania raportu na stronie usługi SharePoint Online. |
-| Pokaż okienko nawigacji |Wyświetla lub ukrywa okienko nawigacji strony. |
-| Pokaż okienko filtru |Wyświetla lub ukrywa okienko filtru. |
+> [!NOTE]
+> **Użytkownik musi mieć dostęp do raportu i strony programu SharePoint, aby wyświetlić raport na stronie programu SharePoint.**
 
 ## <a name="multi-factor-authentication"></a>Uwierzytelnianie wieloskładnikowe
 
@@ -113,13 +98,26 @@ Jeśli środowisko usługi Power BI wymaga logowania przy użyciu uwierzytelnian
 > [!NOTE]
 > Uwierzytelnianie wieloskładnikowe nie jest jeszcze obsługiwane w usłudze Azure Active Directory 2.0. Użytkownicy otrzymują komunikat informujący o *błędzie*. Jeśli użytkownik zaloguje się ponownie do usługi SharePoint Online przy użyciu swojego urządzenia zabezpieczeń, może być w stanie wyświetlić raport.
 
+## <a name="web-part-settings"></a>Ustawienia składnika Web Part
+
+Poniżej znajduje się opis ustawień, które można dostosować dla składnika Web Part usługi Power BI dla usługi SharePoint Online.
+
+![Właściwości składnika Web Part programu SP](media/service-embed-report-spo/powerbi-sharepoint-web-part-properties.png)
+
+| Właściwość | Opis |
+| --- | --- |
+| Nazwa strony |Ustawia domyślną stronę wyświetlaną przez składnik Web Part. Wybierz wartość z listy rozwijanej. Jeśli nie są wyświetlane żadne strony, raport ma jedną stronę lub wklejony adres URL zawiera nazwę strony. Usuń sekcję raportu z adresu URL, aby wybrać konkretną stronę. |
+| Wyświetlanie |Opcja umożliwiająca dostosowanie dopasowania raportu na stronie usługi SharePoint Online. |
+| Pokaż okienko nawigacji |Wyświetla lub ukrywa okienko nawigacji strony. |
+| Pokaż okienko filtru |Wyświetla lub ukrywa okienko filtru. |
+
 ## <a name="reports-that-do-not-load"></a>Raporty, które nie są ładowane
 
 Raport nie jest ładowany w składniku Web Part usługi Power BI i wyświetlany jest następujący komunikat:
 
 *This content isn't available* (Ta zawartość nie jest dostępna).
 
-![](media/service-embed-report-spo/powerbi-sharepoint-report-not-found.png)
+![Komunikat Nie znaleziono raportu](media/service-embed-report-spo/powerbi-sharepoint-report-not-found.png)
 
 Istnieją dwie typowe przyczyny tego komunikatu:
 
@@ -128,11 +126,15 @@ Istnieją dwie typowe przyczyny tego komunikatu:
 
 Skontaktuj się z właścicielem strony usługi SharePoint Online, aby uzyskać pomoc w rozwiązaniu tego problemu.
 
+## <a name="licensing"></a>Licencjonowanie
+
+Użytkownicy wyświetlający raport w programie SharePoint potrzebują **licencji usługi Power BI Pro** lub zawartość musi zostać zapisana w obszarze roboczym w **[pojemności usługi Power BI Premium (jednostka SKU EM lub P)](service-admin-premium-purchase.md)**.
+
 ## <a name="known-issues-and-limitations"></a>Znane problemy i ograniczenia
 
-* Błąd: „An error occurred, please try logging out and back in and then revisiting this page. Correlation id: undefined, http response status: 400, server error code 10001, message: Missing refresh token” (Wystąpił błąd. Spróbuj się wylogować i zalogować ponownie, a następnie ponownie odwiedzić tę stronę. Identyfikator korelacji: niezdefiniowany, stan odpowiedzi http: 400, kod błędu serwera: 10001, komunikat: Brak tokenu odświeżania)
+* Błąd: „An error occurred, please try logging out and back in and then revisiting this page. Correlation ID: undefined, http response status: 400, server error code 10001, message: Missing refresh token” (Wystąpił błąd. Spróbuj się wylogować i zalogować ponownie, a następnie ponownie odwiedzić tę stronę. Identyfikator korelacji: niezdefiniowany, stan odpowiedzi http: 400, kod błędu serwera: 10001, komunikat: Brak tokenu odświeżania)
   
-  Jeśli wyświetlany jest ten błąd, wypróbuj jedną z następujących metod.
+  Jeśli zostanie wyświetlony ten błąd, wypróbuj poniższe kroki rozwiązywania problemów.
   
   1. Wyloguj się z programu SharePoint, a następnie zaloguj się ponownie. Należy zamknąć wszystkie okna przeglądarki przed ponownym zalogowaniem.
 

@@ -7,27 +7,25 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/11/2018
+ms.date: 10/25/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 0cf9c152c9481e223a143bed3985e883c92af192
-ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
+ms.openlocfilehash: 96b2fb3cb1558f862c792b3bed77c9f0c2bc61a5
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "47416825"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101375"
 ---
 # <a name="use-the-matrix-visual-in-power-bi-desktop"></a>Używanie wizualizacji Macierz w programie Power BI Desktop
-Funkcja wizualizacji **Macierz** pozwala tworzyć wizualizacje macierzy (czasami określane jako *tabele*) w raportach programu **Power BI Desktop**, a także umożliwia wyróżnianie krzyżowe elementów w macierzy oraz w innych wizualizacjach. Ponadto możesz zaznaczać do wyróżnienia krzyżowego wiersze, kolumny, a nawet pojedyncze komórki. Aby jeszcze skuteczniej wykorzystać miejsce, wizualizacja macierzy obsługuje układ schodkowy.
+Funkcja wizualizacji **Macierz** pozwala tworzyć wizualizacje macierzy (czasami określane jako *tabele*) w raportach programu **Power BI Desktop** i **usługi Power BI**, a także umożliwia wyróżnianie krzyżowe elementów w macierzy oraz w innych wizualizacjach. Ponadto możesz zaznaczać do wyróżnienia krzyżowego wiersze, kolumny, a nawet pojedyncze komórki. Zaznaczone pojedyncze komórki oraz zaznaczone obszary składające się z wielu komórek można kopiować i wklejać w innych aplikacjach. Aby jeszcze skuteczniej wykorzystać miejsce, wizualizacja macierzy obsługuje układ schodkowy.
 
 ![](media/desktop-matrix-visual/matrix-visual_2a.png)
 
 Z macierzą jest skojarzonych wiele funkcji. Omówimy je w kolejnych sekcjach tego artykułu.
 
-> [!NOTE]
-> Od wersji programu **Power BI Desktop** z lipca 2017 wizualizacja macierzy i tabeli odzwierciedla stylizację (w tym kolorystykę) zastosowanego **motywu raportu**. Te kolory mogą różnić się od oczekiwanych w wizualizacji macierzy. Możesz je zmienić w konfiguracji **motywu raport**. Aby uzyskać więcej informacji o motywach, zobacz [**Używanie motywów raportów w programie Power BI Desktop**](../desktop-report-themes.md).
-> 
-> 
+## <a name="report-themes"></a>Motywy raportu
+Wizualizacje macierzy i tabeli odzwierciedlają stylizację (w tym kolorystykę) zastosowanego **motywu raportu**. Te kolory mogą różnić się od oczekiwanych w wizualizacji macierzy. Możesz je zmienić w konfiguracji **motywu raport**. Aby uzyskać więcej informacji o motywach, zobacz [**Używanie motywów raportów w programie Power BI Desktop**](../desktop-report-themes.md).
 
 ## <a name="understanding-how-power-bi-calculates-totals"></a>W jaki sposób usługa Power BI oblicza sumy
 
@@ -134,6 +132,20 @@ Przy użyciu wizualizacji **Macierz** można zaznaczyć dowolne elementy macierz
 Wyróżnianie krzyżowe reaguje także na kliknięcia z wciśniętym klawiszem Ctrl. Na przykład poniższa ilustracja zawiera kolekcję podkategorii zaznaczonych w wizualizacji **Macierz**. Zauważ, że elementy niezaznaczone w wizualizacji są wygaszone, a pozostałe wizualizacje na stronie odzwierciedlają zaznaczenie z wizualizacji **Macierz**.
 
 ![](media/desktop-matrix-visual/matrix-visual_16.png)
+
+## <a name="copying-values-from-power-bi-for-use-in-other-applications"></a>Kopiowanie wartości z usługi Power BI do użycia w innych aplikacjach
+
+Macierz lub tabela może mieć zawartość, której chcesz używać w innych aplikacjach, takich jak Dynamics CRM lub Excel, a nawet w innych raportach usługi Power BI. Klikając prawym przyciskiem myszy w usłudze Power BI, możesz skopiować jedną komórkę lub grupę komórek do schowka i wkleić je w innej aplikacji.
+
+![opcje kopiowania](media/desktop-matrix-visual/power-bi-cell-copy.png)
+
+* Aby skopiować wartość pojedynczej komórki, zaznacz komórkę, kliknij prawym przyciskiem myszy, i wybierz polecenie **Skopiuj wartość**. Niesformatowaną wartość komórki ze schowka możesz teraz wkleić w innej aplikacji.
+
+    ![opcje kopiowania](media/desktop-matrix-visual/power-bi-copy.png)
+
+* Aby skopiować więcej niż jedną komórkę, zaznacz zakres komórek lub użyj klawisza CTRL, aby zaznaczyć co najmniej jedną komórkę. Kopia będzie obejmować nagłówki kolumn i wierszy.
+
+    ![wklejanie w programie Excel](media/desktop-matrix-visual/power-bi-copy-selection.png)
 
 ## <a name="shading-and-font-colors-with-matrix-visuals"></a>Cieniowanie i kolory czcionek w wizualizacji macierzy
 Wizualizacja **Macierz** pozwala zastosować **formatowanie warunkowe** (kolory i cieniowanie) do tła komórek macierzy oraz do tekstu i wartości.

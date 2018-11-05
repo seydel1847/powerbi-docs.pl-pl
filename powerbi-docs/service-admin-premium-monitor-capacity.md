@@ -10,12 +10,12 @@ ms.component: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/09/2018
 LocalizationGroup: Premium
-ms.openlocfilehash: b2627950ea51239acb19972fde3244f3bd158255
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 2623dd3280636583d5dd6d6e3f57518550032193
+ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48909227"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50003207"
 ---
 # <a name="monitor-power-bi-premium-and-power-bi-embedded-capacities"></a>Monitorowanie pojemności w usługach Power BI Premium i Power BI Embedded
 
@@ -61,13 +61,11 @@ Na karcie **Filtry stosowane do wszystkich stron** możesz wybrać pojemność, 
 
 ### <a name="datasets-tab"></a>Karta Zbiory danych
 
-Na karcie **Zestawy danych** znajdują się zbiorcze metryki w aplikacji. Używając czterech przycisków w górnej części karty, możesz przejść do różnych obszarów: **Podsumowanie**, **Odświeżenia**, **Zapytania** i **Zestawy danych**.
+Na karcie **Zestawy danych** znajdują się zbiorcze metryki w aplikacji. Używając przycisków w górnej części karty, możesz przejść do różnych obszarów: **Podsumowanie**, **Odświeżenia**, **Czasy trwania zapytań**, **Oczekiwania zapytań** i **Zestawy danych**.
 
 ![Karta Zbiory danych](media/service-admin-premium-monitor-capacity/datasets-tab.png)
 
 #### <a name="summary-area"></a>Obszar Podsumowanie
-
-![Przycisk Podsumowanie](media/service-admin-premium-monitor-capacity/summary-button.png)
 
 Obszar **Podsumowanie** przedstawia widok Twoich pojemności w oparciu o jednostki, zasoby systemowe i obciążenia zestawu danych.
 
@@ -80,19 +78,27 @@ Obszar **Podsumowanie** przedstawia widok Twoich pojemności w oparciu o jednost
 
 #### <a name="refreshes-area"></a>Obszar Odświeżenia
 
-![Przycisk Odświeżenia](media/service-admin-premium-monitor-capacity/refreshes-button.png)
-
 Obszar **Odświeżenia** zawiera listę ukończonych odświeżeń, miar powodzenia, średnich/maksymalnych czasów oczekiwania na odświeżenie i średnich/maksymalnych czasów trwania odświeżania. Lista ta jest podzielona na fragmenty według zestawów danych w ciągu ostatnich siedmiu dni. Dwa dolne wykresy przedstawiają porównanie odświeżeń z zużyciem w GB oraz średnimi czasami oczekiwania z podziałem na przedziały o długości jednej godziny w czasie lokalnym. Górne wykresy słupkowe zawierają listę pięciu najważniejszych zestawów danych według średniego czasu wymaganego do ukończenia odświeżania zestawu danych (czasu trwania odświeżania) oraz średniego czasu oczekiwania na odświeżenie. Wiele dużych wzrostów czasów oczekiwania na odświeżenie wskazuje na wyczerpywanie pojemności.
 
-#### <a name="queries-area"></a>Obszar Zapytania
+#### <a name="query-durations-area"></a>Obszar Czasy trwania zapytań
 
-![Przycisk Zapytania](media/service-admin-premium-monitor-capacity/queries-button.png)
+Obszar **Czasy trwania zapytań** zawiera łączną liczbę uruchomień zapytań oraz średni/maksymalny czas trwania w milisekundach. Te dane są dzielone na fragmenty według zestawów danych, obszaru roboczego i przedziałów godzinowych w ciągu ostatnich siedmiu dni. Dolny wykres przedstawia porównanie liczby zapytań i średniego czasu trwania (w milisekundach) z zużyciem pamięci w GB z podziałem na przedziały o długości jednej godziny w czasie lokalnym.
 
-Obszar **Zapytania** wyświetla łączną liczbę uruchomionych zapytań, łączną liczbę zapytań, licznik oczekiwania dla zapytań na żywo/zapytań bezpośrednich, średni/maksymalny czas trwania, średni/maksymalny czas oczekiwania zgłaszany w milisekundach podzielony na fragmenty według zestawów danych, obszar roboczy i przedziały godzinowe w ciągu ostatnich siedmiu dni. Dolne wykresy przedstawiają porównanie liczby zapytań, średniego czasu trwania (w milisekundach) i średniego czasu oczekiwania (w milisekundach) z zużyciem pamięci w GB z podziałem na przedziały o długości jednej godziny w czasie lokalnym. Dwa wykresy prawym górnym rogu zawierają listę pięciu najważniejszych zestawów danych według średniego czasu trwania zapytania i czasu oczekiwania na wykonanie zapytań. Długie czasy trwania zapytań i długie czasy oczekiwania wskazują na pojemności uruchomione w warstwie Gorąca. Mogą również oznaczać, że pojedynczy zestaw danych powoduje problemy i wymaga dalszych badań.
+Prawy górny wykres przedstawia histogram rozkładu czasów trwania zapytań. Histogram jest podzielony według zgłoszonych czasów trwania zapytań w milisekundach na następujące kategorie: interwały o długości <= 30 ms, 30–100 ms, 100–300 ms, 300 ms–1 s, 1 s–3 s, 3 s–10 s, 10 s–30 s i > 30 s.
+
+Prawy dolny wykres zawiera listę pięciu najważniejszych zestawów danych według średniego czasu trwania zapytania wymaganego do wykonania zapytań.
+
+Długie czasy trwania zapytań i długie czasy oczekiwania wskazują na pojemności uruchomione w warstwie Gorąca. Mogą również oznaczać, że pojedynczy zestaw danych powoduje problemy i wymaga dalszych badań.
+
+#### <a name="query-waits-area"></a>Obszar Oczekiwania zapytań
+
+Obszar **Oczekiwania zapytań** zawiera łączną liczbę uruchomionych zapytań, łączną liczbę zapytań, licznik oczekiwania dla zapytań na żywo/zapytań bezpośrednich i średni/maksymalny czas oczekiwania zgłaszany w milisekundach. Te dane są dzielone na fragmenty według zestawów danych, obszaru roboczego i przedziałów godzinowych w ciągu ostatnich siedmiu dni. Dolny wykres przedstawia porównanie liczby oczekiwań zapytań i średniego czasu oczekiwania (w milisekundach) z zużyciem pamięci w GB z podziałem na przedziały o długości jednej godziny w czasie lokalnym.
+
+Prawy górny wykres przedstawia histogram rozkładu czasów oczekiwania zapytań. Histogram jest podzielony według zgłoszonych czasów trwania zapytań w milisekundach na następujące kategorie: interwały o długości <= 50 ms, 50–100 ms, 100–200 ms, 200–400 ms, 400 ms–1 s, 1 s–5 s i > 5 s.
+
+Prawy dolny wykres zawiera listę pięciu najważniejszych zestawów danych według średniego czasu oczekiwania wymaganego do uruchamiania zapytań.
 
 #### <a name="datasets-area"></a>Obszar Zestawy danych
-
-![Przycisk Zestawy danych](media/service-admin-premium-monitor-capacity/datasets-button.png)
 
 Obszar **Zestawy danych** przedstawia kompletne zestawy danych wykluczone z powodu dużego wykorzystania pamięci według godziny.
 

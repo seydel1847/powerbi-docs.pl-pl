@@ -1,5 +1,5 @@
 ---
-title: Osadzanie zawartości usługi Power BI w aplikacji dla klientów w suwerennych chmurach
+title: Osadzanie zawartości usługi Power BI w aplikacji dla klientów w chmurach dla instytucji rządowych i suwerennych chmurach
 description: Dowiedz się, jak integrować lub osadzać pulpit nawigacyjny, kafelek lub raport w aplikacji internetowej przy użyciu interfejsów API usługi Power BI dla klientów.
 author: markingmyname
 ms.author: maghan
@@ -7,16 +7,17 @@ manager: kfile
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: tutorial
-ms.date: 07/26/2018
-ms.openlocfilehash: c9e38f3ca1c8ee43ab9d51d621dfc7d835c39db1
-ms.sourcegitcommit: 767c0d770e32e91ff28a176f79595fab523f69eb
+ms.date: 10/25/2018
+ms.openlocfilehash: 76b80ad296f2f595fb5014e13bbd48d414cd8bbe
+ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/02/2018
-ms.locfileid: "48039444"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50003161"
 ---
 # <a name="tutorial-embed-a-power-bi-dashboard-tile-or-report-into-your-application-for-sovereign-clouds"></a>Samouczek: Osadzanie pulpitu nawigacyjnego, kafelka lub raportu usługi Power BI w aplikacji dla suwerennych chmur
-Dowiedz się, jak integrować lub osadzać pulpit nawigacyjny, kafelek albo raport w aplikacji internetowej przy użyciu zestawu .NET SDK usługi Power BI wraz z interfejsem API języka JavaScript programu Power BI podczas osadzania dla klientów. Jest to zwykle scenariusz niezależnego dostawcy oprogramowania.
+
+Dowiedz się, jak osadzać pulpit nawigacyjny, kafelek albo raport w aplikacjach internetowych przy użyciu zestawu .NET SDK usługi Power BI wraz z interfejsem API języka JavaScript programu Power BI podczas integrowania danych na potrzeby klientów.
 
 Usługa Power BI obsługuje również suwerenne (prywatne) chmury.
 
@@ -38,17 +39,21 @@ Do rozpoczęcia pracy z tym przewodnikiem jest wymagane **konto usługi Power BI
 
 > [!NOTE]
 > Chcesz osadzić pulpit nawigacyjny dla swojej organizacji? Zobacz [Integrate a dashboard into an app for your organization (Integrowanie pulpitu nawigacyjnego z aplikacją dla organizacji)](integrate-dashboard.md).
->
 
-Aby zintegrować pulpit nawigacyjny z aplikacją internetową, należy użyć interfejsu API usługi **Power BI** oraz **tokenu dostępu** autoryzacji usługi Azure Active Directory (AD) w celu uzyskania pulpitu nawigacyjnego. Następnie należy załadować pulpit nawigacyjny przy użyciu tokenu osadzania. Interfejs API usługi **Power BI** zapewnia dostęp programowy do określonych zasobów usługi **Power BI**. Aby uzyskać więcej informacji, zobacz [Power BI REST API (Interfejs API REST usługi Power BI)](https://docs.microsoft.com/rest/api/power-bi/), [Power BI .NET SDK (Zestaw SDK platformy .NET dla usługi Power BI)](https://github.com/Microsoft/PowerBI-CSharp) i [Power BI JavaScript API (Interfejs API języka JavaScript usługi Power BI)](https://github.com/Microsoft/PowerBI-JavaScript).
+Aby zintegrować pulpit nawigacyjny z aplikacją internetową, należy użyć interfejsu API usługi **Power BI** oraz **tokenu dostępu** autoryzacji usługi Azure Active Directory (AD) w celu uzyskania pulpitu nawigacyjnego. Następnie należy załadować pulpit nawigacyjny przy użyciu tokenu osadzania. Interfejs API usługi **Power BI** zapewnia dostęp programowy do określonych zasobów usługi **Power BI**. Aby uzyskać więcej informacji, zobacz [Power BI REST API (Interfejs API REST usługi Power BI)](https://docs.microsoft.com/rest/api/power-bi/), Power BI .NET SDK (Zestaw SDK platformy .NET dla usługi Power BI) i [Power BI JavaScript API (Interfejs API języka JavaScript usługi Power BI)](https://github.com/Microsoft/PowerBI-JavaScript).
 
 ## <a name="download-the-sample"></a>Pobieranie przykładu
-W tym artykule przedstawiono kod używany w [przykładzie osadzania na potrzeby klienta](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData) i dostępny w witrynie GitHub. Aby korzystać z tego przewodnika, możesz pobrać przykład.
+
+W tym artykule przedstawiono kod używany w [przykładzie App Owns Data](https://github.com/Microsoft/PowerBI-Developer-Samples) w witrynie GitHub. Aby korzystać z tego przewodnika, możesz pobrać przykład.
+
+![Przykład App Owns Data](media/embed-sample-for-customers-sovereign-clouds/embed-sample-for-customers-026.png)
 
 * Government Community Cloud (GCC):
-    1. Zastąp plik Cloud.config plikiem GCCCloud.config.
-    2. Zaktualizuj elementy clientid (identyfikator klienta aplikacji natywnej), groupid, user (użytkownik główny) i password w pliku Web.config.
-    3. Dodaj parametry chmury GCC do pliku web.config w następujący sposób.
+1. Zastąp plik Cloud.config plikiem GCCCloud.config.
+
+2. Zaktualizuj elementy applicationId (identyfikator aplikacji natywnej), workspaceId, user (użytkownik główny) i password w pliku Web.config.
+
+3. Dodaj parametry chmury GCC do pliku web.config w następujący sposób.
 
 ```xml
 <add key="authorityUrl" value="https://login.windows.net/common/oauth2/authorize/" />
@@ -58,9 +63,11 @@ W tym artykule przedstawiono kod używany w [przykładzie osadzania na potrzeby 
 ```
 
 * Military Contractors (DoDCON):
-    1. Zastąp plik Cloud.config plikiem TBCloud.config.
-    2. Zaktualizuj elementy clientid (identyfikator klienta aplikacji natywnej), groupid, user (użytkownik główny) i password w pliku Web.config.
-    3. Dodaj parametry chmury DoDCON do pliku web.config w następujący sposób.
+1. Zastąp plik Cloud.config plikiem TBCloud.config.
+
+2. Zaktualizuj elementy applicationId (identyfikator aplikacji natywnej), workspaceId, user (użytkownik główny) i password w pliku Web.config.
+
+3. Dodaj parametry chmury DoDCON do pliku web.config w następujący sposób.
 
 ```xml
 <add key="authorityUrl" value="https://login.windows.net/common/oauth2/authorize/" />
@@ -70,9 +77,11 @@ W tym artykule przedstawiono kod używany w [przykładzie osadzania na potrzeby 
 ```
 
 * Military (DoD):
-    1. Zastąp plik Cloud.config plikiem PFCloud.config.
-    2. Zaktualizuj elementy clientid (identyfikator klienta aplikacji natywnej), groupid, user (użytkownik główny) i password w pliku Web.config.
-    3. Dodaj parametry chmury DoDCON do pliku web.config w następujący sposób.
+1. Zastąp plik Cloud.config plikiem PFCloud.config.
+
+2. Zaktualizuj elementy applicationId (identyfikator aplikacji natywnej), workspaceId, user (użytkownik główny) i password w pliku Web.config.
+
+3. Dodaj parametry chmury DoDCON do pliku web.config w następujący sposób.
 
 ```xml
 <add key="authorityUrl" value="https://login.windows.net/common/oauth2/authorize/" />
@@ -82,9 +91,11 @@ W tym artykule przedstawiono kod używany w [przykładzie osadzania na potrzeby 
 ```
 
 * Parametry usługi Power BI for Germany Cloud
-    1. Zastąp plik Cloud.config zawartością usługi Power BI for Germany Cloud.
-    2. Zaktualizuj elementy clientid (identyfikator klienta aplikacji natywnej), groupid, user (użytkownik główny) i password w pliku Web.config.
-    3. Dodaj parametry usługi Power BI for Germany Cloud do pliku web.config w następujący sposób.
+1. Zastąp plik Cloud.config zawartością usługi Power BI for Germany Cloud.
+
+2. Zaktualizuj elementy applicationId (identyfikator aplikacji natywnej), workspaceId, user (użytkownik główny) i password w pliku Web.config.
+
+3. Dodaj parametry usługi Power BI for Germany Cloud do pliku web.config w następujący sposób.
 
 ```xml
 <add key="authorityUrl" value=https://login.microsoftonline.de/common/oauth2/authorize/" />
@@ -94,9 +105,11 @@ W tym artykule przedstawiono kod używany w [przykładzie osadzania na potrzeby 
 ```
 
 * Parametry usługi Power BI for China Cloud
-    1. Zastąp plik Cloud.config zawartością usługi [Power BI for China Cloud](https://github.com/Microsoft/PowerBI-Developer-Samples/blob/master/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData/CloudConfigs/Power%20BI%20operated%20by%2021Vianet%20in%20China/Cloud.config).
-    2. Zaktualizuj elementy clientid (identyfikator klienta aplikacji natywnej), groupid, user (użytkownik główny) i password w pliku Web.config.
-    3. Dodaj parametry usługi Power BI for China Cloud do pliku web.config w następujący sposób.
+1. Zastąp plik Cloud.config zawartością usługi [Power BI for China Cloud](https://github.com/Microsoft/PowerBI-Developer-Samples/blob/master/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData/CloudConfigs/Power%20BI%20operated%20by%2021Vianet%20in%20China/Cloud.config).
+
+2. Zaktualizuj elementy applicationId (identyfikator aplikacji natywnej), workspaceId, user (użytkownik główny) i password w pliku Web.config.
+
+3. Dodaj parametry usługi Power BI for China Cloud do pliku web.config w następujący sposób.
 
 ```xml
 <add key="authorityUrl" value=https://login.chinacloudapi.cn/common/oauth2/authorize/" />
@@ -106,7 +119,8 @@ W tym artykule przedstawiono kod używany w [przykładzie osadzania na potrzeby 
 ```
 
 ## <a name="step-1---register-an-app-in-azure-ad"></a>Krok 1. Rejestrowanie aplikacji w usłudze Azure AD
-Aplikację należy zarejestrować w usłudze Azure AD, aby móc wykonywać wywołania interfejsu API REST. Aby uzyskać więcej informacji, zobacz [Rejestrowanie aplikacji usługi Azure AD, aby osadzić zawartość usługi Power BI](register-app.md). Ze względu na to, że istnieją różne przynależności suwerennych chmur, do rejestrowania aplikacji są używane oddzielne adresy URL.
+
+Zarejestruj aplikację w usłudze Azure AD, aby wykonywać wywołania interfejsu API REST. Aby uzyskać więcej informacji, zobacz [Rejestrowanie aplikacji usługi Azure AD, aby osadzić zawartość usługi Power BI](register-app.md). Ze względu na to, że istnieją różne przynależności suwerennych chmur, do rejestrowania aplikacji są używane oddzielne adresy URL.
 
 * Government Community Cloud (GCC) — https://app.powerbigov.us/apps 
 
@@ -118,10 +132,10 @@ Aplikację należy zarejestrować w usłudze Azure AD, aby móc wykonywać wywo�
 
 * Power BI for China Cloud — https://app.powerbi.cn/apps
 
-Jeśli pobrano [przykład osadzania na potrzeby klienta](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data), użyj **identyfikatora klienta** otrzymanego po zarejestrowaniu, aby możliwe było uwierzytelnienie przykładu w usłudze Azure AD. Aby skonfigurować próbkę, zmień parametr **clientId** w pliku *web.config*.
-
+Jeśli pobrano [przykład osadzania na potrzeby klienta](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data), użyj identyfikatora **applicationId** otrzymanego po zarejestrowaniu, aby możliwe było uwierzytelnienie przykładu w usłudze Azure AD. Aby skonfigurować przykład, zmień parametr **applicationId** w pliku *web.config*.
 
 ## <a name="step-2---get-an-access-token-from-azure-ad"></a>Krok 2. Uzyskiwanie tokenu dostępu z usługi Azure AD
+
 W aplikacji należy uzyskać **token dostępu** z usługi Azure AD, aby móc wykonywać wywołania interfejsu API REST usługi Power BI. Aby uzyskać więcej informacji, zobacz [Uwierzytelnianie użytkowników i uzyskiwanie tokenów dostępu usługi Azure AD dla aplikacji usługi Power BI](get-azuread-access-token.md). Ze względu na to, że istnieją różne przynależności suwerennych chmur, do uzyskiwania dostępu do tokenu aplikacji są używane oddzielne adresy URL.
 
 * Government Community Cloud (GCC) — https://login.microsoftonline.com
@@ -132,15 +146,17 @@ W aplikacji należy uzyskać **token dostępu** z usługi Azure AD, aby móc wyk
 
 * Power BI for Germany Cloud — https://login.microsoftonline.de
 
-* Power BI for China Cloud — https://login.microsoftonline.cn
+* Power BI for China Cloud — https://login.chinacloudapi.cn
 
-Przykłady tego można zobaczyć w każdym zadaniu elementu zawartości w klasie **Controllers\HomeController.cs**.
+Przykłady tego można zobaczyć w każdym tokenie dostępu w pliku **Controllers\HomeController.cs**.
 
 ## <a name="step-3---get-a-content-item"></a>Krok 3. Pobieranie elementu zawartości
+
 Aby osadzić zawartość usługi Power BI, należy wykonać kilka czynności w celu zapewnienia, że zostanie ona osadzona poprawnie. Wszystkie te kroki można wykonać bezpośrednio w interfejsie API REST, jednak przykładowa aplikacja i podane tutaj przykłady korzystają z zestawu .NET SDK.
 
 ### <a name="create-the-power-bi-client-with-your-access-token"></a>Tworzenie klienta programu Power BI przy użyciu tokenu dostępu
-Token dostępu umożliwia utworzenie obiektu klienta usługi Power BI, który pozwoli na interakcję z interfejsami API usługi Power BI. Jest to realizowane przez opakowywanie tokenu AccessToken w obiekt *Microsoft.Rest.TokenCredentials*.
+
+Token dostępu umożliwia utworzenie obiektu klienta usługi Power BI, który pozwoli na interakcję z interfejsami API usługi Power BI. Obiekt klienta usługi Power BI przez opakowywanie tokenu AccessToken przy użyciu obiektu *Microsoft.Rest.TokenCredentials*.
 
 ```csharp
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
@@ -157,24 +173,38 @@ using (var client = new PowerBIClient(new Uri(ApiUrl), tokenCredentials))
 ```
 
 ### <a name="get-the-content-item-you-want-to-embed"></a>Pobieranie elementu zawartości, który ma zostać osadzony
+
 Użyj obiektu klienta usługi Power BI do pobrania odwołania do elementu, który ma zostać osadzony. Można osadzać pulpity nawigacyjne, kafelki lub raporty. Oto przykład pobierania pierwszego pulpitu nawigacyjnego, kafelka lub raportu z danego obszaru roboczego.
 
-Próbka jest dostępna w klasie **Controllers\HomeController.cs** [próbki danych posiadanych przez aplikację](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data).
+Przykład jest dostępny w pliku **Controllers\HomeController.cs** [przykładu App Owns Data](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data).
 
-**Pulpity nawigacyjne**
+#### <a name="reports"></a>Raporty
 
 ```csharp
 using Microsoft.PowerBI.Api.V2;
 using Microsoft.PowerBI.Api.V2.Models;
 
-// You need to provide the GroupID where the dashboard resides.
-ODataResponseListDashboard dashboards = client.Dashboards.GetDashboardsInGroup(GroupId);
+// You need to provide the workspaceId where the dashboard resides.
+ODataResponseListReport reports = client.Reports.GetReportsInGroupAsync(workspaceId);
+
+// Get the first report in the group.
+Report report = reports.Value.FirstOrDefault();
+```
+
+#### <a name="dashboards"></a>Pulpity nawigacyjne
+
+```csharp
+using Microsoft.PowerBI.Api.V2;
+using Microsoft.PowerBI.Api.V2.Models;
+
+// You need to provide the workspaceId where the dashboard resides.
+ODataResponseListDashboard dashboards = client.Dashboards.GetDashboardsInGroup(workspaceId);
 
 // Get the first report in the group.
 Dashboard dashboard = dashboards.Value.FirstOrDefault();
 ```
 
-**Kafelek**
+#### <a name="tiles"></a>Kafelki
 
 ```csharp
 using Microsoft.PowerBI.Api.V2;
@@ -182,43 +212,31 @@ using Microsoft.PowerBI.Api.V2.Models;
 
 // To retrieve the tile, you first need to retrieve the dashboard.
 
-// You need to provide the GroupID where the dashboard resides.
-ODataResponseListDashboard dashboards = client.Dashboards.GetDashboardsInGroup(GroupId);
+// You need to provide the workspaceId where the dashboard resides.
+ODataResponseListDashboard dashboards = client.Dashboards.GetDashboardsInGroup(workspaceId);
 
 // Get the first report in the group.
 Dashboard dashboard = dashboards.Value.FirstOrDefault();
 
 // Get a list of tiles from a specific dashboard
-ODataResponseListTile tiles = client.Dashboards.GetTilesInGroup(GroupId, dashboard.Id);
+ODataResponseListTile tiles = client.Dashboards.GetTilesInGroup(workspaceId, dashboard.Id);
 
 // Get the first tile in the group.
 Tile tile = tiles.Value.FirstOrDefault();
 ```
 
-**Raport**
-
-```csharp
-using Microsoft.PowerBI.Api.V2;
-using Microsoft.PowerBI.Api.V2.Models;
-
-// You need to provide the GroupID where the dashboard resides.
-ODataResponseListReport reports = client.Reports.GetReportsInGroupAsync(GroupId);
-
-// Get the first report in the group.
-Report report = reports.Value.FirstOrDefault();
-```
-
 ### <a name="create-the-embed-token"></a>Tworzenie tokenu osadzania
-Należy wygenerować token osadzania, którego można używać z poziomu interfejsu API języka JavaScript. Token osadzania jest specyficzny dla osadzanego elementu. Oznacza to, że za każdym razem, gdy osadzasz fragment zawartości usługi Power BI, musisz utworzyć dla niego nowy token. Aby uzyskać więcej informacji, łącznie z tym, którego parametru **accessLevel** używać, zobacz [Token osadzania](https://docs.microsoft.com/rest/api/power-bi/embedtoken).
+
+Za pomocą interfejsu API języka JavaScript można wygenerować token osadzania. Token osadzania jest specyficzny dla osadzanego elementu. Za każdym razem, gdy osadzasz fragment zawartości usługi Power BI, musisz utworzyć dla niego nowy token. Aby uzyskać więcej informacji, łącznie z tym, którego parametru **accessLevel** używać, zobacz [Token osadzania](https://docs.microsoft.com/rest/api/power-bi/embedtoken).
 
 > [!IMPORTANT]
 > Ponieważ tokeny osadzania są przeznaczone tylko do celów testowania przez deweloperów, liczba tokenów osadzania, które może wygenerować konto główne usługi Power BI, jest ograniczona. Dla scenariuszy osadzania w środowisku produkcyjnym [należy kupić pojemność](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical). Nie ma żadnego ograniczenia generowania tokenów osadzania, gdy zostanie kupiona pojemność.
 
-Próbka jest dostępna w klasie **Controllers\HomeController.cs** [próbki osadzania dla organizacji](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data).
+Przykład jest dostępny w pliku **Controllers\HomeController.cs** [przykładu osadzania dla organizacji](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data).
 
-Założono, że utworzono klasę **EmbedConfig** i **TileEmbedConfig**. Próbka jest dostępna w klasach **Models\EmbedConfig.cs** i **Models\TileEmbedConfig.cs**.
+Założono, że utworzono klasę **EmbedConfig** i **TileEmbedConfig**. Przykład jest dostępny w plikach **Models\EmbedConfig.cs** i **Models\TileEmbedConfig.cs**.
 
-**Pulpit nawigacyjny**
+#### <a name="reports"></a>Raporty
 
 ```csharp
 using Microsoft.PowerBI.Api.V2;
@@ -226,7 +244,26 @@ using Microsoft.PowerBI.Api.V2.Models;
 
 // Generate Embed Token.
 var generateTokenRequestParameters = new GenerateTokenRequest(accessLevel: "view");
-EmbedToken tokenResponse = client.Dashboards.GenerateTokenInGroup(GroupId, dashboard.Id, generateTokenRequestParameters);
+EmbedToken tokenResponse = client.Reports.GenerateTokenInGroup(workspaceId, report.Id, generateTokenRequestParameters);
+
+// Generate Embed Configuration.
+var embedConfig = new EmbedConfig()
+{
+    EmbedToken = tokenResponse,
+    EmbedUrl = report.EmbedUrl,
+    Id = report.Id
+};
+```
+
+#### <a name="dashboards"></a>Pulpity nawigacyjne
+
+```csharp
+using Microsoft.PowerBI.Api.V2;
+using Microsoft.PowerBI.Api.V2.Models;
+
+// Generate Embed Token.
+var generateTokenRequestParameters = new GenerateTokenRequest(accessLevel: "view");
+EmbedToken tokenResponse = client.Dashboards.GenerateTokenInGroup(workspaceId, dashboard.Id, generateTokenRequestParameters);
 
 // Generate Embed Configuration.
 var embedConfig = new EmbedConfig()
@@ -237,7 +274,7 @@ var embedConfig = new EmbedConfig()
 };
 ```
 
-**Kafelek**
+#### <a name="tiles"></a>Kafelki
 
 ```csharp
 using Microsoft.PowerBI.Api.V2;
@@ -245,7 +282,7 @@ using Microsoft.PowerBI.Api.V2.Models;
 
 // Generate Embed Token for a tile.
 var generateTokenRequestParameters = new GenerateTokenRequest(accessLevel: "view");
-EmbedToken tokenResponse = client.Tiles.GenerateTokenInGroup(GroupId, dashboard.Id, tile.Id, generateTokenRequestParameters);
+EmbedToken tokenResponse = client.Tiles.GenerateTokenInGroup(workspaceId, dashboard.Id, tile.Id, generateTokenRequestParameters);
 
 // Generate Embed Configuration.
 var embedConfig = new TileEmbedConfig()
@@ -257,30 +294,13 @@ var embedConfig = new TileEmbedConfig()
 };
 ```
 
-**Raport**
-
-```csharp
-using Microsoft.PowerBI.Api.V2;
-using Microsoft.PowerBI.Api.V2.Models;
-
-// Generate Embed Token.
-var generateTokenRequestParameters = new GenerateTokenRequest(accessLevel: "view");
-EmbedToken tokenResponse = client.Reports.GenerateTokenInGroup(GroupId, report.Id, generateTokenRequestParameters);
-
-// Generate Embed Configuration.
-var embedConfig = new EmbedConfig()
-{
-    EmbedToken = tokenResponse,
-    EmbedUrl = report.EmbedUrl,
-    Id = report.Id
-};
-```
 ## <a name="step-4---load-an-item-using-javascript"></a>Krok 4. Ładowanie elementu przy użyciu języka JavaScript
-Języka JavaScript można użyć do załadowania pulpitu nawigacyjnego do elementu div na stronie internetowej. W próbce użyto modelu EmbedConfig/TileEmbedConfig wraz z widokami dla pulpitu nawigacyjnego, kafelka lub raportu. Aby uzyskać pełną próbkę użycia interfejsu API języka JavaScript, można użyć [próbki usługi Microsoft Power BI Embedded](https://microsoft.github.io/PowerBI-JavaScript/demo).
+
+Języka JavaScript można użyć do załadowania pulpitu nawigacyjnego do elementu div na stronie internetowej. W przykładzie użyto modelu EmbedConfig/TileEmbedConfig wraz z widokami dla pulpitu nawigacyjnego, kafelka lub raportu. Aby uzyskać pełną próbkę użycia interfejsu API języka JavaScript, można użyć [próbki usługi Microsoft Power BI Embedded](https://microsoft.github.io/PowerBI-JavaScript/demo).
 
 Próbka takiej aplikacji jest dostępna w [próbce osadzania dla organizacji](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data).
 
-**Views\Home\EmbedDashboard.cshtml**
+### <a name="viewshomeembeddashboardcshtml"></a>Views\Home\EmbedDashboard.cshtml
 
 ```csharp
 <script src="~/scripts/powerbi.js"></script>
@@ -318,7 +338,7 @@ Próbka takiej aplikacji jest dostępna w [próbce osadzania dla organizacji](ht
 </script>
 ```
 
-**Views\Home\EmbedTile.cshtml**
+### <a name="viewshomeembedtilecshtml"></a>Views\Home\EmbedTile.cshtml
 
 ```csharp
 <script src="~/scripts/powerbi.js"></script>
@@ -360,7 +380,7 @@ Próbka takiej aplikacji jest dostępna w [próbce osadzania dla organizacji](ht
 </script>
 ```
 
-**Views\Home\EmbedReport.cshtml**
+### <a name="viewshomeembedreportcshtml"></a>Views\Home\EmbedReport.cshtml
 
 ```csharp
 <script src="~/scripts/powerbi.js"></script>
@@ -406,12 +426,15 @@ Próbka takiej aplikacji jest dostępna w [próbce osadzania dla organizacji](ht
 ## <a name="next-steps"></a>Następne kroki
 
 * Przykładowa aplikacja jest dostępna w witrynie GitHub do przeglądu. Powyższe przykłady są oparte na tym przykładzie. Aby uzyskać więcej informacji, zobacz [próbkę osadzania dla organizacji](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data).
+
 * Aby uzyskać więcej informacji na temat interfejsu API języka JavaScript, zapoznaj się z tematem dotyczącym [interfejsu API języka JavaScript w usłudze Power BI](https://github.com/Microsoft/PowerBI-JavaScript).
+
 * Aby uzyskać więcej informacji o usłudze Power BI for Germany Cloud, zapoznaj się z tematem [Usługa Power BI for Germany Cloud — często zadawane pytania](https://docs.microsoft.com/power-bi/service-govde-faq)
+
 * [Jak migrować zawartość kolekcji obszarów roboczych usługi Power BI do usługi Power BI](migrate-from-powerbi-embedded.md)
 
 Ograniczenia i istotne zagadnienia
+
 * Obecnie konta GCC obsługują tylko możliwości P i EM
 
 Masz więcej pytań? [Zadaj pytanie społeczności usługi Power BI](http://community.powerbi.com/)
-

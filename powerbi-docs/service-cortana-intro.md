@@ -6,15 +6,15 @@ manager: kfile
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/13/2018
+ms.date: 10/24/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 95fa59d91a73101d7d04f3921a81236bfae7d0bb
-ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
+ms.openlocfilehash: ccc99c2f9810bcda80e1f02ce67e49390fd0308f
+ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47187311"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50003253"
 ---
 # <a name="quickly-find-and-view-your-power-bi-data-using-cortana-for-power-bi"></a>Szybko znajduj i wyświetlaj dane usługi Power BI za pomocą Cortany dla usługi Power BI
 Cortana zapewnia błyskawiczne odpowiedzi na ważne pytania biznesowe na wszystkich Twoich urządzeniach z systemem Windows 10. Dzięki integracji z usługą Power BI Cortana może pobierać kluczowe informacje bezpośrednio z pulpitów nawigacyjnych i raportów usługi Power BI. Potrzebny jest tylko system Windows 10 w wersji z listopada 2015 r. lub nowszej, Cortana, usługa Power BI i dostęp do co najmniej jednego zestawu danych.
@@ -22,19 +22,19 @@ Cortana zapewnia błyskawiczne odpowiedzi na ważne pytania biznesowe na wszystk
 ![Pole wyszukiwania Cortany](media/service-cortana-intro/power-bi-cortana-searchbox.png)
 
 ## <a name="preview-the-new-cortana-dashboard-search-experience-for-windows-10"></a>Wersja zapoznawcza nowego środowiska Cortany umożliwiającego przeszukiwanie *pulpitów nawigacyjnych* w systemie Windows 10
-Od pewnego czasu można było [pobierać pewne typy stron raportów za pomocą Cortany](service-cortana-answer-cards.md). Teraz dodaliśmy **nowe środowisko**, które umożliwia pobieranie również pulpitów nawigacyjnych. Wypróbuj je i [prześlij nam swoją opinię](mailto:pbicortanasg@microsoft.com). W przyszłości *nowe środowisko* zostanie rozszerzone, aby umożliwić Cortanie przeszukiwanie także raportów.  Jedną z kluczowych zalet nowego środowiska jest to, że nie trzeba wykonywać żadnych specjalnych czynności, aby je skonfigurować — nie trzeba włączać Cortany ani konfigurować systemu Windows 10 — to środowisko po prostu działa.
+Od pewnego czasu można było [pobierać pewne typy stron raportów za pomocą Cortany](service-cortana-answer-cards.md). Teraz dodaliśmy **nowe środowisko**, które umożliwia pobieranie również pulpitów nawigacyjnych. Wypróbuj je i [prześlij nam swoją opinię](mailto:pbicortanasg@microsoft.com). W przyszłości *nowe środowisko* zostanie rozszerzone, aby umożliwić Cortanie przeszukiwanie także raportów.  Jedną z kluczowych zalet nowego środowiska jest to, że nie trzeba wykonywać żadnych specjalnych czynności, aby je skonfigurować — nie trzeba włączać Cortany ani konfigurować systemu Windows 10. To środowisko po prostu działa.
 
 > [!NOTE]
 > Jeśli środowisko nie działa tak po prostu, zobacz [artykuł dotyczący rozwiązywania problemów](service-cortana-troubleshoot.md), aby uzyskać pomoc.
 > 
 > 
 
-Podstawową używaną technologią jest usługa [Azure Search firmy Microsoft](). Ta usługa wyszukiwania zapewnia dodatkowe możliwości, takie jak inteligentna klasyfikacja, korekcja błędów i autouzupełnianie.
+Podstawową używaną technologią jest usługa [Microsoft Azure Search Service](https://docs.microsoft.com/azure/search/). Ta usługa wyszukiwania zapewnia dodatkowe możliwości, takie jak inteligentna klasyfikacja, korekcja błędów i autouzupełnianie.
 
 Obydwa środowiska Cortany będą istniały równocześnie.
 
 ## <a name="cortana-for-power-bi-documentation"></a>Dokumentacja Cortany dla usługi Power BI
-Dostępne są 4 dokumenty, które przeprowadzą Cię przez proces konfigurowania Cortany dla usługi Power BI i korzystania z niej. Ta seria artykułów przeprowadzi użytkownika przez następujące kroki:
+Dostępne są cztery dokumenty, które przeprowadzą Cię przez proces konfigurowania Cortany dla usługi Power BI i korzystania z niej. Ta seria artykułów przeprowadzi użytkownika przez następujące kroki:
 
 **Artykuł 1** (ten artykuł): Zapoznanie się ze sposobem, w jaki Cortana współpracuje z usługą Power BI
 
@@ -54,13 +54,13 @@ Jeśli Cortana znajdzie zgodne dane, nazwa strony raportu lub pulpitu nawigacyjn
 ### <a name="cortana-and-dashboards-the-new-experience"></a>Cortana i pulpity nawigacyjne (*nowe środowisko*)
 Cortana może wyszukiwać odpowiedzi na pulpitach nawigacyjnych, które należą do Ciebie, oraz tych, które zostały dla Ciebie udostępnione. Zadawaj Cortanie pytania, podając tytuły, słowa kluczowe, nazwy właścicieli, nazwy obszarów roboczych, nazwy aplikacji i inne informacje.
 
-Pytanie musi zawierać co najmniej 2 słowa, aby Cortana znalazła odpowiedź. Dlatego w przypadku wyszukiwania pulpitu nawigacyjnego, który ma jednowyrazową nazwę (Marketing), dodaj do pytania wyrazy „show” (pokaż), „Power BI” lub „<owner name>”, na przykład „show Marketing” (pokaż pulpit Marketing) czy „michele hart sample” (przykład michele hart). 
+Pytanie musi zawierać co najmniej dwa słowa, aby Cortana znalazła odpowiedź. Dlatego w przypadku wyszukiwania pulpitu nawigacyjnego, który ma jednowyrazową nazwę (Marketing), dodaj do pytania wyrazy „show” (pokaż), „Power BI” lub nazwę właściciela, na przykład „show Marketing” (pokaż pulpit Marketing) czy „michele hart sample” (przykład michele hart). 
 
-Jeśli pulpit nawigacyjny ma tytuł zawierający więcej niż jeden wyraz, Cortana zwróci ten pulpit nawigacyjny tylko wtedy, gdy wyszukiwany termin będzie zgodny z co najmniej dwoma wyrazami lub gdy pulpit nawigacyjny będzie zgodny z jednym z wyrazów oraz nazwą właściciela. W przypadku pulpitu nawigacyjnego o nazwie „Customer Profitability Sample” (Przykład Rentowność klienta): 
+Jeśli tytuł pulpit nawigacyjny zawiera więcej niż jeden wyraz, Cortana zwróci ten pulpit nawigacyjny tylko wtedy, gdy wyszukiwany termin będzie zgodny z co najmniej dwoma wyrazami lub gdy z jednym z wyrazów oraz nazwą właściciela. W przypadku pulpitu nawigacyjnego o nazwie „Customer Profitability Sample” (Przykład Rentowność klienta): 
 
 * W przypadku pytania „show me customer” (pokaż klienta) pulpit nawigacyjny usługi Power BI *nie* zostanie zwrócony.   
 * W przypadku pytań, takich jak „show me customer profitability” (pokaż rentowność klienta), „customer p” (rentowność k), „customer s” (przykład k), „profitability sample” (przykład rentowność), „michele hart sample” (przykład michele hart), „show customer profitability sample” (pokaż przykład rentowność klienta) i „show me customer p” (pokaż rentowność k) wynik usługi Power BI *zostanie* zwrócony.
-* W przypadku dodania wyrazu „powerbi” będzie on traktowany jako jeden z 2 wymaganych wyrazów, więc po zadaniu pytania „powerbi sample” (przykład powerbi) *zostanie* zwrócony wynik usługi Power BI. 
+* W przypadku dodania wyrazu „powerbi” będzie on traktowany jako jeden z dwóch wymaganych wyrazów, więc po zadaniu pytania „powerbi sample” (przykład powerbi) *zostanie* zwrócony wynik usługi Power BI. 
   
     ![Wyszukiwanie Cortany z co najmniej 2 wyrazami](media/service-cortana-intro/power-bi-cortana-2-words.png)
 
@@ -69,7 +69,7 @@ Jeśli pulpit nawigacyjny ma tytuł zawierający więcej niż jeden wyraz, Corta
 
 Podstawową używaną technologią dla raportów jest funkcja [pytań i odpowiedzi usługi Microsoft Power BI](consumer/end-user-q-and-a.md).
 
-Po zadaniu pytania w Cortanie usługa Power BI udziela odpowiedzi, korzystając ze stron raportu zaprojektowanych specjalnie z myślą o Cortanie. Potencjalne odpowiedzi są określane przez Cortanę na bieżąco bezpośrednio z *kart odpowiedzi* Cortany, które zostały już utworzone w usłudze Power BI.  Aby dokładniej zbadać odpowiedź, wystarczy otworzyć wynik w usłudze Power BI.
+Po zadaniu pytania w Cortanie usługa Power BI udziela odpowiedzi, korzystając ze stron raportu zaprojektowanych specjalnie z myślą o Cortanie. Potencjalne odpowiedzi są określane przez Cortanę na bieżąco bezpośrednio z *kart odpowiedzi* Cortany, które zostały już utworzone w usłudze Power BI.  Aby dokładniej zbadać odpowiedź, otwórz wynik w usłudze Power BI.
 
 > [!NOTE]
 > Zanim Cortana będzie mogła szukać odpowiedzi w raportach usługi Power BI, musisz [włączyć tę funkcję za pomocą usługi Power BI i skonfigurować system Windows do komunikowania się z usługą Power BI](service-cortana-enable.md).  

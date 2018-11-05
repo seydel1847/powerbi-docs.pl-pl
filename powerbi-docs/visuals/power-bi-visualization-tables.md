@@ -8,20 +8,22 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/24/2018
+ms.date: 10/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d2aae3abeca51cdcc142660190332f84adcfddfb
-ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
+ms.openlocfilehash: c94fd3ce58cefdb9e3cc7749b6486ab9bb0577cb
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "47448827"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101467"
 ---
 # <a name="tables-in-power-bi-reports-and-dashboards"></a>Tabele w raportach i na pulpitach nawigacyjnych usługi Power BI
 Tabela to siatka zawierająca powiązane dane w postaci logicznej serii wierszy i kolumn. Może również zawierać nagłówki i wiersze sum. Tabele dobrze się sprawdzają w przypadku porównań ilościowych, gdy analizuje się wiele wartości z jednej kategorii. Na przykład ta tabela zawiera 5 różnych miar dla **kategorii**.
 
 ![](media/power-bi-visualization-tables/table.png)
+
+Twórz tabele w raportach i wyróżniaj krzyżowo elementy w tabeli z innymi wizualizacjami na tej samej stronie raportu.  Ponadto możesz zaznaczać do wyróżnienia krzyżowego wiersze, kolumny, a nawet pojedyncze komórki. Zaznaczone pojedyncze komórki oraz zaznaczone obszary składające się z wielu komórek można kopiować i wklejać w innych aplikacjach.
 
 ## <a name="when-to-use-a-table"></a>Kiedy używać tabeli
 Tabele są doskonałym wyborem do następujących celów:
@@ -108,9 +110,24 @@ Za pomocą formatowania warunkowego dla tabel można określić niestandardowe k
 6. Aby usunąć formatowanie warunkowe z wizualizacji, wystarczy ponownie kliknąć pole prawym przyciskiem myszy i wybrać pozycję **Usuń formatowanie warunkowe**.
 
 > [!TIP]
-> Formatowanie warunkowe jest również dostępne w okienku formatowania (ikona wałka do malowania). Wybierz wartość do sformatowania, a następnie włącz opcję **Skale kolorów** lub **Paski danych**, aby zastosować ustawienia domyślne. Aby natomiast dostosować ustawienia, wybierz pozycję **Kontrolki zaawansowane**.
+> Formatowanie warunkowe jest również dostępne w okienku formatowania (ikona wałka do malowania). Wybierz wartość do sformatowania, a następnie ustaw opcję **Skale kolorów** lub **Paski danych** na **Wł.**, aby zastosować ustawienia domyślne. Aby dostosować ustawienia, wybierz pozycję **Kontrolki zaawansowane**.
 > 
-> 
+## <a name="copy-values-from-power-bi-tables-for-use-in-other-applications"></a>Kopiowanie wartości z tabel usługi Power BI do użycia w innych aplikacjach
+
+Tabela lub macierz może mieć zawartość, której chcesz używać w innych aplikacjach, takich jak Dynamics CRM lub Excel, a nawet w innych raportach usługi Power BI. Klikając prawym przyciskiem myszy w usłudze Power BI, możesz skopiować jedną komórkę lub grupę komórek do schowka i wkleić je w innej aplikacji.
+
+
+* Aby skopiować wartość pojedynczej komórki, zaznacz komórkę, kliknij prawym przyciskiem myszy, i wybierz polecenie **Skopiuj wartość**. Niesformatowaną wartość komórki ze schowka możesz teraz wkleić w innej aplikacji.
+
+    ![opcje kopiowania](media/power-bi-visualization-tables/power-bi-copy-value.png)
+
+* Aby skopiować więcej niż jedną komórkę, zaznacz zakres komórek lub użyj klawisza CTRL, aby zaznaczyć co najmniej jedną komórkę. Kopia będzie obejmować nagłówki kolumn i wierszy.
+
+    ![opcje kopiowania](media/power-bi-visualization-tables/power-bi-copy-selection.png)
+
+    Kopia obejmuje nagłówki kolumn i wierszy.
+
+    ![wklejanie w programie Excel](media/power-bi-visualization-tables/power-bi-paste-selection.png)
 
 ## <a name="adjust-the-column-width-of-a-table"></a>Dopasowywanie szerokości kolumn w tabeli
 Czasami usługa Power BI obcina nagłówek kolumny w raporcie i na pulpicie nawigacyjnym. Aby wyświetlić całą nazwę kolumny, przesuń kursor myszy na miejsce z prawej strony nagłówka w celu wyświetlenia strzałki podwójnej, zaznacz i przeciągnij.
