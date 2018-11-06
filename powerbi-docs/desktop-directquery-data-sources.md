@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/10/2018
+ms.date: 11/01/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: d37ed22c0abba4e843d37fd6df465f9a755fbdc6
-ms.sourcegitcommit: 126e5eca8bfab6273581dabd7603df88be755240
+ms.openlocfilehash: fee4acf21e38ddeaf78ff785d76b41c774c7022d
+ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/11/2018
-ms.locfileid: "40257091"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50909553"
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Źródła danych obsługiwane przez zapytanie bezpośrednie w usłudze Power BI
 Program **Power BI Desktop** i **usługa Power BI** mają wiele źródeł danych, z którymi można się łączyć, aby uzyskać dostęp do danych. W tym artykule opisano, jakie źródła danych usługi Power BI obsługują metodę połączenia nazywaną **zapytaniem bezpośrednim**. Aby uzyskać więcej informacji na temat zapytania bezpośredniego, zobacz [**Zapytanie bezpośrednie w usłudze Power BI**](desktop-directquery-about.md).
@@ -23,11 +23,11 @@ Program **Power BI Desktop** i **usługa Power BI** mają wiele źródeł danych
 Następujące źródła danych obsługują zapytanie bezpośrednie w usłudze Power BI:
 
 * Amazon Redshift
-* Azure Databricks
 * Azure HDInsight Spark (wersja beta)
 * Azure SQL Database
 * Azure SQL Data Warehouse
 * Google BigQuery (wersja beta)
+* Baza danych IBM DB2
 * IBM Netezza (wersja beta)
 * Impala (wersja 2.x)
 * Oracle Database (wersja 12 i nowsze)
