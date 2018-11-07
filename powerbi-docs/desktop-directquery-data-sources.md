@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/01/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: fee4acf21e38ddeaf78ff785d76b41c774c7022d
-ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
+ms.openlocfilehash: 97d9fc6bf7a27b9d681d10ae20ab0780622e5ee8
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "50909553"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223403"
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Źródła danych obsługiwane przez zapytanie bezpośrednie w usłudze Power BI
 Program **Power BI Desktop** i **usługa Power BI** mają wiele źródeł danych, z którymi można się łączyć, aby uzyskać dostęp do danych. W tym artykule opisano, jakie źródła danych usługi Power BI obsługują metodę połączenia nazywaną **zapytaniem bezpośrednim**. Aby uzyskać więcej informacji na temat zapytania bezpośredniego, zobacz [**Zapytanie bezpośrednie w usłudze Power BI**](desktop-directquery-about.md).
@@ -65,8 +65,8 @@ W poniższej tabeli określono, czy **lokalna brama danych** jest wymagana do ł
 | Spark (wersja beta), wersja 0.9 i nowsze |Jeszcze nie jest obsługiwana w **usłudze Power BI** |
 | Azure HDInsight Spark (wersja beta) |Nie |
 | IBM Netezza |Tak |
-| SAP Buisness Warehouse Application Server |Tak |
-| SAP Buisness Warehouse Message Server |Jeszcze nie jest obsługiwana w **usłudze Power BI** |
+| SAP Business Warehouse Application Server |Tak |
+| SAP Business Warehouse Message Server |Jeszcze nie jest obsługiwana w **usłudze Power BI** |
 | Google BigQuery |Nie |
 
 

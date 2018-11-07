@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 3b19740616e7b9a390a883fde2fd96320de7b94a
-ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
+ms.openlocfilehash: a1492a98825ad26b2dde359cf9cec96cc4623e04
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/17/2018
-ms.locfileid: "45973591"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223173"
 ---
 # <a name="what-can-developers-do-with-the-power-bi-api"></a>Co deweloperzy mogą robić z interfejsem API usługi Power BI?
 
@@ -29,7 +29,7 @@ Poniżej przedstawiono niektóre czynności, które można wykonać za pomocą i
 | Osadzanie pulpitów nawigacyjnych, raportów i kafelków dla użytkowników usługi Power BI i użytkowników niekorzystających z tej usługi (aplikacja jest właścicielem danych) |[Jak osadzić pulpity nawigacyjne, raporty i kafelki usługi Power BI](embedding-content.md) |
 | Rozszerzanie istniejącego biznesowego przepływu pracy w celu wypychania kluczowych danych do pulpitu nawigacyjnego usługi Power BI |[Wypychanie danych do pulpitu nawigacyjnego](walkthrough-push-data.md) |
 | Uwierzytelnianie w usłudze Power BI |[Uwierzytelnianie w usłudze Power BI](get-azuread-access-token.md) |
-| Tworzenie wizualizacji niestandardowej |[Tworzenie niestandardowych wizualizacji przy użyciu narzędzi deweloperskich](../service-custom-visuals-getting-started-with-developer-tools.md) |
+| Tworzenie wizualizacji niestandardowej |[Tworzenie wizualizacji niestandardowej w usłudze Power BI](custom-visual-develop-tutorial.md) |
 
 > [!NOTE]
 > Interfejsy API usługi Power BI nadal odwołują się do obszarów roboczych aplikacji jako grup. Wszystkie odwołania do grup oznaczają, że pracujesz z obszarami roboczymi aplikacji.
@@ -72,7 +72,7 @@ Za pomocą interfejsu API usługi Power BI możesz wypychać dane do zestawu dan
 ## <a name="next-steps"></a>Następne kroki
 
 [Wypychanie danych do zestawu danych](walkthrough-push-data.md)  
-[Wprowadzenie do korzystania z narzędzi deweloperskich do tworzenia wizualizacji niestandardowych](../service-custom-visuals-getting-started-with-developer-tools.md)  
+[Tworzenie wizualizacji niestandardowej w usłudze Power BI](custom-visual-develop-tutorial.md)  
 [Dokumentacja interfejsu API REST usługi Power BI](https://docs.microsoft.com/rest/api/power-bi/)  
 
 Masz więcej pytań? [Zadaj pytanie społeczności usługi Power BI](http://community.powerbi.com/)
