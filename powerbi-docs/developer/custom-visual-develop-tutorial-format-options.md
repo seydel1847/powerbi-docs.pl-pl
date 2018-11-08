@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: tutorial
-ms.date: 10/26/2018
-ms.openlocfilehash: dcefa427290fd804a0b2c79dc357e5f5bfbe7296
-ms.sourcegitcommit: f2eab2c3e7b5ec3684f63d819f10cb3dcfa21e73
+ms.date: 11/06/2018
+ms.openlocfilehash: a3d36f988847df283576dae6cfe5870b707c6f98
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/26/2018
-ms.locfileid: "50160652"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223265"
 ---
 # <a name="tutorial-adding-formatting-options-to-a-power-bi-custom-visual"></a>Samouczek: dodawanie opcji formatowania do wizualizacji niestandardowej usługi Power BI
 
@@ -254,6 +254,10 @@ Teraz możesz otworzyć raport programu Power BI Desktop i zaimportować wizuali
 
 8. Umieść kursor nad ikoną **Circle Card** i zwróć uwagę na wyświetloną etykietkę narzędzia.
 
+## <a name="debugging"></a>Debugowanie
+
+Aby uzyskać wskazówki dotyczące debugowania wizualizacji niestandardowej, zobacz [przewodnik po debugowaniu](https://microsoft.github.io/PowerBI-visuals/docs/how-to-guide/how-to-debug/).
+
 ## <a name="next-steps"></a>Następne kroki
 
-Jeśli chcesz dowiedzieć się więcej na temat sposobu publikowania nowo utworzonej wizualizacji niestandardowej w celu udostępnienia jej do użycia przez inne osoby, zapoznaj się z artykułem [Publikowanie wizualizacji niestandardowych w usłudze AppSource](office-store.md).
+Nowo utworzoną wizualizację można udostępnić do użytku innym, przesyłając ją do usługi **AppSource**. Aby uzyskać więcej informacji na temat tego procesu, zobacz [Publikowanie wizualizacji niestandardowych w usłudze AppSource](office-store.md).

@@ -2,6 +2,7 @@
 title: Certyfikowane wizualizacje niestandardowe w usłudze Power BI
 description: Wymagania i proces przesyłania wizualizacji niestandardowej do certyfikacji. Oraz lista certyfikowanych wizualizacji niestandardowych.
 author: mihart
+ms.author: mihart
 manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
@@ -9,45 +10,46 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 10/30/2018
-ms.author: mihart
-ms.openlocfilehash: ba6c59d168deb5fb68f4b339f11fba795bae6452
-ms.sourcegitcommit: 862faf948468d7f6d464b83f4e0b040d5213a580
+ms.openlocfilehash: 72b09083c50a88e2d22e9aa22f54ff014dafa998
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/30/2018
-ms.locfileid: "50252404"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223449"
 ---
 # <a name="getting-a-custom-visual-certified"></a>*Certyfikowanie* wizualizacji niestandardowej
+
 ## <a name="what-is-meant-by-certified"></a>Co oznacza *certyfikowanie*?
+
 *Certyfikowana wizualizacja niestandardowa* to wizualizacja, która spełnia zestaw określonych wymagań dotyczących kodu i przeszła restrykcyjne testy bezpieczeństwa.  Zarejestrowane wizualizacje niestandardowe mogą zostać [wyeksportowane do programu PowerPoint](consumer/end-user-powerpoint.md) i będą wyświetlane w wiadomościach e-mail, jeśli użytkownik [subskrybuje strony raportu](consumer/end-user-subscribe.md). Oczywiście można tego użyć również jak [standardowych własnych wizualizacji](power-bi-custom-visuals.md) dodanych do raportów usługi Power BI i programu Power BI Desktop oraz wyświetlanych w usłudze mobilnej Power BI i osadzonych.
 
-Jesteś deweloperem internetowym i chcesz utworzyć własne wizualizacje oraz dodać je do witryny [Microsoft AppSource](https://appsource.microsoft.com)? Aby uzyskać pomocne informacje, zobacz [Wprowadzenie do korzystania z narzędzi deweloperskich](service-custom-visuals-getting-started-with-developer-tools.md).
-
+Jesteś deweloperem internetowym i chcesz utworzyć własne wizualizacje oraz dodać je do witryny [Microsoft AppSource](https://appsource.microsoft.com)? Aby dowiedzieć się, jak to zrobić, zobacz [Tworzenie wizualizacji niestandardowej w usłudze Power BI](developer/custom-visual-develop-tutorial.md).
 
 ## <a name="certification-requirements"></a>Wymagania dotyczące certyfikacji
-* Wizualizacja jest zatwierdzona w witrynie Microsoft AppSource.    
-* Wizualizacja niestandardowa jest zapisana przy użyciu interfejsu API w wersji 1.2 lub nowszej.    
-* Repozytorium kodu jest dostępne do przeglądu (np. kod wizualizacji jest dostępny za pośrednictwem witryny GitHub).    
-* Wizualizacja korzysta wyłącznie ze składników OSS dostępnych do przeglądu publicznie.    
-* Wizualizacja nie korzysta z usług ani zasobów zewnętrznych.    
+
+* Wizualizacja jest zatwierdzona w witrynie Microsoft AppSource.
+* Wizualizacja niestandardowa jest zapisana przy użyciu interfejsu API w wersji 1.2 lub nowszej.
+* Repozytorium kodu jest dostępne do przeglądu (np. kod wizualizacji jest dostępny za pośrednictwem witryny GitHub).
+* Wizualizacja korzysta wyłącznie ze składników OSS dostępnych do przeglądu publicznie.
+* Wizualizacja nie korzysta z usług ani zasobów zewnętrznych.
 
 > **PORADA**: zalecamy użycie programu EsLint z domyślnym zestawem reguł zabezpieczeń w celu wstępnego zweryfikowania kodu przed przesłaniem.
-> 
-> 
 
 ## <a name="process-for-submitting-a-custom-visual-for-certification"></a>Proces przesyłania wizualizacji niestandardowej do certyfikacji
+
 Aby przesłać wizualizację niestandardową do certyfikacji:
 
 1. Wyślij wiadomość e-mail do działu pomocy technicznej w zakresie wizualizacji niestandardowych usługi Power BI (pbicvsupport@microsoft.com). W wiadomości e-mail uwzględnij następujące informacje:    
 
-   * Tytuł: Visual Certification Request    
-   * Link do repozytorium w witrynie GitHub, w którym znajduje się kod źródłowy wizualizacji    
-   * Zapewnij zgodność z wymogami (zobacz powyżej)    
-   * Udostępnij wyniki przeglądu kodu i zabezpieczeń    
+   * Tytuł: Visual Certification Request
+   * Link do repozytorium w witrynie GitHub, w którym znajduje się kod źródłowy wizualizacji
+   * Zapewnij zgodność z wymogami (zobacz powyżej)
+   * Udostępnij wyniki przeglądu kodu i zabezpieczeń
 
 2. Zespół ds. wizualizacji niestandardowych w firmie Microsoft powiadomi, kiedy Twoja wizualizacja niestandardowa zostanie certyfikowana i dodana do listy wizualizacji certyfikowanych (poniżej) lub odrzucona (wówczas do powiadomienia będzie dołączony raport z informacjami, co należy naprawić). Deweloper odpowiada za utrzymanie komunikacji z firmą Microsoft i zaktualizowanie certyfikowanych wizualizacji w wymagany sposób.
 
 ## <a name="removal-of-power-bi-certified-custom-visuals"></a>Usuwanie certyfikowanych wizualizacji niestandardowych usługi Power BI
+
 Firma Microsoft, według własnego uznania, może usunąć daną wizualizację z listy certyfikowanych wizualizacji.  
 
 ## <a name="list-of-custom-visuals-that-have-been-certified"></a>Lista certyfikowanych wizualizacji
@@ -142,10 +144,11 @@ Firma Microsoft, według własnego uznania, może usunąć daną wizualizację z
 | [Word Cloud](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380752) | [Klip wideo](https://youtu.be/AblTenl9fqo) |
 
 ## <a name="next-steps"></a>Następne kroki
-[Wprowadzenie do korzystania z narzędzi deweloperskich do tworzenia wizualizacji niestandardowych (wersja zapoznawcza)](service-custom-visuals-getting-started-with-developer-tools.md)      
-[Wizualizacje niestandardowe — lista odtwarzania firmy Microsoft w serwisie YouTube](https://www.youtube.com/playlist?list=PL1N57mwBHtN1vIjfvuBIzZllrmKo-Vz6x)  
-[Wizualizacje w usłudze Power BI](visuals/power-bi-report-visualizations.md)  
-[Wizualizacje niestandardowe w usłudze Power BI](power-bi-custom-visuals.md)  
-[Publikowanie wizualizacji niestandardowych w witrynie Microsoft AppSource](developer/office-store.md)  
-Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
 
+* [Tworzenie wizualizacji niestandardowej w usłudze Power BI](developer/custom-visual-develop-tutorial.md)
+* [Wizualizacje niestandardowe — lista odtwarzania firmy Microsoft w serwisie YouTube](https://www.youtube.com/playlist?list=PL1N57mwBHtN1vIjfvuBIzZllrmKo-Vz6x)  
+* [Wizualizacje w usłudze Power BI](visuals/power-bi-report-visualizations.md)  
+* [Wizualizacje niestandardowe w usłudze Power BI](power-bi-custom-visuals.md)  
+* [Publikowanie wizualizacji niestandardowych w witrynie Microsoft AppSource](developer/office-store.md)  
+
+Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)

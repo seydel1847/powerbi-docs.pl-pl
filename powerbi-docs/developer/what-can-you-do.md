@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
 ms.date: 09/17/2018
-ms.openlocfilehash: ac35e0c61576e561afd495e51d814bc38ab0a3f5
-ms.sourcegitcommit: 9719eccf29298c9c673200350abc58281ef14869
+ms.openlocfilehash: 5fb4583dccf7b6543881f1c9062227b9a3a68b05
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/20/2018
-ms.locfileid: "46473982"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223142"
 ---
 # <a name="what-can-developers-do-with-power-bi"></a>Co deweloperzy mogą robić z usługą Power BI?
 
@@ -44,7 +44,7 @@ Wizualizacje niestandardowe umożliwiają tworzenie własnych wizualizacji do u�
 
 ![Przykład wizualizacji niestandardowej](media/what-can-you-do/powerbi-custom-visual-store.png)
 
-Aby uzyskać więcej informacji na temat projektowania wizualizacji niestandardowych, zobacz [Tworzenie niestandardowych wizualizacji przy użyciu narzędzi deweloperskich](../service-custom-visuals-getting-started-with-developer-tools.md).
+Aby uzyskać więcej informacji na temat projektowania wizualizacji niestandardowych, zobacz [Tworzenie wizualizacji niestandardowej w usłudze Power BI](custom-visual-develop-tutorial.md).
 
 ## <a name="using-api-automation"></a>Korzystanie z automatyzacji interfejsu API
 

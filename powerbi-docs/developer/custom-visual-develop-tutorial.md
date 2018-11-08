@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: tutorial
-ms.date: 10/26/2018
-ms.openlocfilehash: 813d65844fee21a6c10d4c95bd15fb18cf4c75c2
-ms.sourcegitcommit: f2eab2c3e7b5ec3684f63d819f10cb3dcfa21e73
+ms.date: 11/06/2018
+ms.openlocfilehash: ed3a7a7c9f649f5ce834594572e3ab87b91181f5
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/26/2018
-ms.locfileid: "50160668"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223426"
 ---
 # <a name="tutorial-developing-a-power-bi-custom-visual"></a>Samouczek: tworzenie wizualizacji niestandardowej w usłudze Power BI
 
@@ -39,6 +39,7 @@ Z tego samouczka dowiesz się, jak wykonywać następujące czynności:
 
 * Jeśli nie masz konta usługi **Power BI Pro**, na początku [zacznij korzystać z bezpłatnej wersji próbnej](https://powerbi.microsoft.com/en-us/pricing/).
 * Musisz mieć zainstalowany program [Visual Studio Code](https://www.visualstudio.com/).
+* Musisz użyć programu [Windows PowerShell](https://docs.microsoft.com/powershell/scripting/setup/installing-windows-powershell?view=powershell-6) w wersji 4 lub nowszej w przypadku użytkowników systemu Windows LUB [terminalu](https://macpaw.com/how-to/use-terminal-on-mac) w przypadku użytkowników systemu OSX.
 
 ## <a name="setting-up-the-developer-environment"></a>Konfigurowanie środowiska deweloperskiego
 
@@ -69,6 +70,8 @@ Teraz musisz zainstalować pakiet **pbiviz**.
     ```
 
 ### <a name="creating-and-installing-a-certificate"></a>Tworzenie i instalowanie certyfikatu
+
+#### <a name="windows"></a>Windows
 
 1. Aby utworzyć certyfikat, uruchom poniższe polecenie.
 
@@ -117,13 +120,32 @@ Teraz musisz zainstalować pakiet **pbiviz**.
 > [!Important]
 > Nie zamykaj sesji programu Windows PowerShell.
 
+#### <a name="osx"></a>OSX
+
+1. Jeśli kłódka w lewym górnym rogu jest zamknięta, wybierz ją, aby ją otworzyć. Wyszukaj ciąg *localhost* i kliknij dwukrotnie certyfikat.
+
+    ![Instalowanie certyfikatu SSL 1 w systemie OSX](media/custom-visual-develop-tutorial/install-ssl-certificate-osx.png)
+
+2. Wybierz pozycję **Zawsze ufaj** i zamknij okno.
+
+    ![Instalowanie certyfikatu SSL 2 w systemie OSX](media/custom-visual-develop-tutorial/install-ssl-certificate-osx2.png)
+
+3. Wprowadź nazwę użytkownika i hasło. Wybierz polecenie **Aktualizuj ustawienia**.
+
+    ![Instalowanie certyfikatu SSL 3 w systemie OSX](media/custom-visual-develop-tutorial/install-ssl-certificate-osx3.png)
+
+4. Zamknij wszelkie otwarte okna przeglądarki.
+
+> [!NOTE]
+> Jeśli certyfikat nie zostanie rozpoznany, może być konieczne ponowne uruchomienie komputera.
+
 ## <a name="creating-a-custom-visual"></a>Tworzenie wizualizacji niestandardowej
 
 Teraz po skonfigurowaniu środowiska nadszedł czas na utworzenie wizualizacji niestandardowej.
 
 Możesz [pobrać ](https://github.com/Microsoft/PowerBI-visuals-circlecard) pełny kod źródłowy na potrzeby tego samouczka.
 
-1. W programie Windows PowerShell sprawdź, czy zainstalowano pakiet narzędzi wizualnych usługi Power BI.
+1. Sprawdź, czy zainstalowano pakiet narzędzi wizualnych usługi Power BI.
 
     ```powershell
     pbiviz
@@ -555,6 +577,10 @@ Zmodyfikuj plik **capabilities.json**, aby zdefiniować rolę danych i mapowania
 Role danych zostały skonfigurowane, a wizualizacja została powiązana z widokiem danych.
 
 Z następnego samouczka dowiesz się, jak dodać opcje formatowania do wizualizacji niestandardowej.
+
+## <a name="debugging"></a>Debugowanie
+
+Aby uzyskać wskazówki dotyczące debugowania wizualizacji niestandardowej, zobacz [przewodnik po debugowaniu](https://microsoft.github.io/PowerBI-visuals/docs/how-to-guide/how-to-debug/).
 
 ## <a name="next-steps"></a>Następne kroki
 

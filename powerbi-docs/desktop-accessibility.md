@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 525a7e45a804d9f82f4d06cf8618d790e140699f
-ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
+ms.openlocfilehash: 799115dc5487a196cbd5d8a2c9dce1603764034a
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/15/2018
-ms.locfileid: "49336880"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223380"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Ułatwienia dostępu w raportach programu Power BI Desktop
 Usługa Power BI zawiera funkcje, które umożliwiają osobom niepełnosprawnym łatwiejsze korzystanie z raportów usługi Power BI. Te funkcje obejmują możliwość korzystania z raportu za pomocą klawiatury lub czytnika ekranu, używania klawisza TAB do przenoszenia fokusu na różne obiekty na stronie oraz celowe używanie znaczników w wizualizacjach.
@@ -34,6 +34,8 @@ W wersji programu **Power BI Desktop** z września 2017 r. i nowszych możesz na
 
 Dzięki udoskonalonym ułatwieniom dostępu można korzystać z raportu usługi Power BI za pomocą klawiatury lub czytnika zawartości ekranu, używając następujących technik:
 
+Gdy jest wyświetlany raport, tryb skanowania powinien być wyłączony.
+
 Możesz przełączać fokus między kartami stron raportu lub obiektami na dowolnej stronie raportu, używając kombinacji klawiszy **Ctrl+F6**.
 
 * Gdy fokus jest ustawiony na *kartach stron raportu*, użyj klawisza *Tab* lub klawiszy *strzałek*, aby przenieść fokus z jednej strony raportu do kolejnej. Tytuł strony raportu i to, czy jest aktualnie zaznaczona, jest odczytywane przez czytnik ekranu. Aby załadować stronę raportu, na której umieszczono fokus, użyj klawisza *Enter* lub *Spacja*.
@@ -48,7 +50,7 @@ Naciskając klawisze **Alt+Shift+F11**, możesz wyświetlić dostępną wersję 
 ![W programie Power BI Desktop naciśnij klawisze Alt+Shift+F11, aby wyświetlić dostępne okno Pokaż dane dla wizualizacji.](media/desktop-accessibility/accessibility_04.png)
 
 > [!NOTE]
-> Funkcja Pokaż dane jest dostępna dla czytnika zawartości ekranu jedynie za pośrednictwem tego skrótu klawiaturowego. Jeśli otworzysz okno Pokaż dane za pomocą opcji w nagłówku wizualizacji, nie będzie ono dostępne dla czytnika zawartości ekranu.
+> Funkcja Pokaż dane jest dostępna dla czytnika zawartości ekranu jedynie za pośrednictwem tego skrótu klawiaturowego. Jeśli otworzysz okno Pokaż dane za pomocą opcji w nagłówku wizualizacji, nie będzie ono dostępne dla czytnika zawartości ekranu. Podczas korzystania z funkcją Pokaż dane włącz tryb skanowania, aby móc korzystać ze wszystkich klawiszy dostępu czytnika zawartości ekranu.
 
 Począwszy od wersji programu **Power BI Desktop** z lipca 2018 r. fragmentatory mają również wbudowane funkcje ułatwień dostępu. Aby po wybraniu fragmentatora dostosować jego wartość, użyj klawiszy CTRL+strzałka w prawo w celu przechodzenia przez różne kontrolki w obrębie fragmentatora. Na przykład początkowe naciśnięcie klawiszy CTRL+strzałka w prawo powoduje ustawienie fokusu na gumce, a naciśnięcie klawisza SPACJA jest odpowiednikiem kliknięcia przycisku gumki, co powoduje usunięcie wszystkich wartości we fragmentatorze. 
 
@@ -112,6 +114,55 @@ Istnieje kilka znanych problemów i ograniczeń dotyczących funkcji ułatwień 
 
 * W przypadku używania czytników zawartości ekranu z programem **Power BI Desktop**, aby uzyskać najlepsze działanie, otwórz swój czytnik zawartości ekranu przed otworzeniem jakichkolwiek plików w programie Power BI Desktop.
 * Jeśli używasz programu Narrator, istnieją pewne ograniczenia dotyczące nawigowania po oknie Pokaż dane jako tabeli HTML.
+
+## <a name="keyboard-shortcuts"></a>Skróty klawiaturowe
+### <a name="frequently-used-shortcuts"></a>Często używane skróty
+| Działanie           | Klawisze do naciśnięcia                |
+| :------------------- | :------------------- |
+| Przenieś fokus między sekcjami  | Ctrl + F6 |
+| Przenieś fokus dalej w sekcji | Tab         |
+| Przenieś fokus wstecz w sekcji | Shift + Tab |
+
+### <a name="on-visual"></a>W wizualizacji
+| Działanie           | Klawisze do naciśnięcia                |
+| :------------------- | :------------------- |
+| Przenieś fokus na menu wizualizacji | Alt + Shift + F10 |
+| Pokaż dane | Alt + Shift + F11  |
+
+### <a name="pane-navigation"></a>Nawigacja okienek
+| Działanie           | Klawisze do naciśnięcia                |
+| :------------------- | :------------------- |
+| Otwórz menu kontekstowe | <ul><li>Klawiatura systemu Windows: klawisz kontekstowy systemu Windows + F10.  Klawisz kontekstowy systemu Windows znajduje się między lewym klawiszem Alt i klawiszem strzałki w lewo</li><li>Pozostałe klawiatury: Shift + F10</li></ul> |
+
+### <a name="slicer"></a>Fragmentator
+| Działanie           | Klawisze do naciśnięcia                |
+| :------------------- | :------------------- |
+| Interakcja z fragmentatorem | Ctrl + Strzałka w prawo |
+
+### <a name="selection-pane"></a>Okienko zaznaczenia
+| Działanie           | Klawisze do naciśnięcia                |
+| :------------------- | :------------------- |
+| Uaktywnij okienko wyboru | F6 |
+| Przenieś obiekt w górę w kolejności warstw | Ctrl + Shift + F |
+| Przenieś obiekt w dół w kolejności warstw | Ctrl + Shift + B |
+| Ukryj/pokaż (przełącz) obiekt | Ctrl + Shift + S |
+
+### <a name="dax-editor"></a>Edytor języka DAX
+| Działanie           | Klawisze do naciśnięcia                |
+| :------------------- | :------------------- |
+| Przenieś wiersz w górę/dół | Alt + Strzałka w górę/Strzałka w dół |
+| Kopiuj wiersz w górę/dół | Shift + Alt + Strzałka w górę/Strzałka w dół |
+| Wstaw wiersz poniżej | Ctrl + Enter |
+| Wstaw wiersz powyżej | Ctrl + Shift + Enter |
+| Przejdź do pasującego nawiasu | Ctrl + Shift + \ |
+| Zwiększ/zmniejsz wcięcie wiersza | Ctrl + ] / [ |
+| Wstaw kursor | Alt + kliknięcie |
+| Wybierz bieżący wiersz | Ctrl + I |
+| Zaznacz wszystkie wystąpienia bieżącego wyboru | Ctrl + Shift + L |
+| Zaznacz wszystkie wystąpienia bieżącego słowa | Ctrl + F2 |
+
+
+
 
 ## <a name="next-steps"></a>Następne kroki
 * [Używanie motywów raportów w programie Power BI Desktop (wersja zapoznawcza)](desktop-report-themes.md)
