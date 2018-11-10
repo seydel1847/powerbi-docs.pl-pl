@@ -7,62 +7,81 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 09/05/2017
+ms.date: 11/01/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: c08a886584e45b83e559a509392df867e31f3d54
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: 4854f05e3394d7b4eed2c67de8bbca5266a12ae3
+ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641188"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50909323"
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>Nie można dodać usługi Power BI do subskrypcji partnera usługi Office 365
+
 Firmy mogą sprzedawać usługę Office 365 w postaci powiązanej i zintegrowanej z ich własnymi rozwiązaniami, co zapewnia klientom końcowym jeden punkt kontaktu w zakresie zakupów, rozliczeń i pomocy technicznej.
 
-Jeśli interesuje Cię uzyskanie usługi Power BI (oprócz Twojej subskrypcji usługi Office 365), zalecamy skontaktowanie się z odpowiednim partnerem. Jeśli partner nie oferuje usługi Power BI, istnieje szereg innych możliwości.
+Jeśli interesuje Cię uzyskanie usługi Power BI — oprócz posiadanej subskrypcji usługi Office 365 — zalecamy skontaktowanie się z odpowiednim partnerem. Jeśli partner aktualnie nie oferuje usługi Power BI, możesz skorzystać z innych opcji.
 
-1. Możesz kupić usługę innym kanałem, bezpośrednio od firmy Microsoft lub od innego partnera. Ta opcja nie jest dostępna dla niektórych klientów — zależnie od ich relacji z partnerem. Można to sprawdzić, przechodząc do **portalu administracyjnego usługi Office 365** > **Rozliczenia** > **Subskrypcje**. Jeśli widzisz pozycję **Subskrypcje**, możesz kupić usługę bezpośrednio od firmy Microsoft lub możesz się skontaktować z partnerem oferującym usługę Power BI.
-   
-    ![](media/service-admin-syndication-partner/billingsub.png)
-2. Jeśli nie widzisz pozycji **Subskrypcje** w obszarze **Rozliczenia**, nie możesz dokonać zakupu bezpośrednio od firmy Microsoft ani od innego partnera. 
-   
-   ![](media/service-admin-syndication-partner/billing.png)
+# <a name="work-with-your-partner-to-purchase-power-bi"></a>Współpraca z partnerem w celu zakupienia usługi Power BI
 
-Jeśli nie możesz kupić usługi Power BI w sposób bezpośredni, nadal masz kilka opcji zakupu, w zależności od rodzaju subskrypcji usługi Power BI, która Cię interesuje.
-
-[Usługa Power BI (wersja bezpłatna)](#power-bi-free)
-
-[Usługi Power BI Pro i Premium](#power-bi-pro-and-premium)
-
-## <a name="power-bi-free"></a>Usługa Power BI (wersja bezpłatna)
-Jeśli bezpłatna wersja usługi Power BI jest dla Ciebie wystarczająca, możesz utworzyć konto w celu korzystania z usługi bezpłatnej. Domyślnie opcja tworzenia konta przez użytkowników indywidualnych (znana także jako subskrypcja ad hoc) jest wyłączona. Podczas próby utworzenia konta w usłudze Power BI zostanie wyświetlony komunikat informujący, że dział informatyczny wyłączył możliwość tworzenia kont w usłudze Microsoft Power BI.
-
-    Your IT department has turned off signup for Microsoft Power BI.
-
-![](media/service-admin-syndication-partner/sorry.png)
-
-Aby włączyć subskrypcje ad-hoc, możesz skontaktować się ze swoim partnerem i poprosić o ich włączenie. Jeśli jesteś administratorem dzierżawy i wiesz, jak korzystać z poleceń programu PowerShell usługi Azure Active Directory, możesz samodzielnie włączyć subskrypcje ad hoc. [Dowiedz się więcej](https://technet.microsoft.com/library/jj151815.aspx)
-
-1. Najpierw musisz zalogować się do usługi Azure Active Directory przy użyciu poświadczeń usługi Office 365. Pierwszy wiersz spowoduje wyświetlenie monitu o podanie poświadczeń. Drugi wiersz spowoduje nawiązanie połączenia z usługą Azure Active Directory.
-   
-        $msolcred = get-credential
-        connect-msolservice -credential $msolcred
-   
-    ![](media/service-admin-syndication-partner/aad-signin.png)
-2. Po zalogowaniu się możesz wpisać poniższe polecenie, aby włączyć możliwość tworzenia kont w bezpłatnej wersji usługi.
-   
-        Set-MsolCompanySettings -AllowAdHocSubscriptions $true
-
-## <a name="power-bi-pro-and-premium"></a>Usługi Power BI Pro i Premium
-Jeśli chcesz kupić subskrypcję usługi Power BI Pro lub Power BI Premium, razem ze swoim partnerem rozważ dostępne opcje.
+Jeśli chcesz kupić subskrypcję usługi Power BI Pro lub Power BI Premium, razem ze swoim partnerem rozważ dostępne opcje:
 
 * Partner zgadza się dodać usługę Power BI do swojej oferty, aby umożliwić Ci jej zakup u siebie.
+
 * Partner może zaproponować Ci model pozwalający na zakup usługi Power BI bezpośrednio w firmie Microsoft lub od innego partnera, który ma w swojej ofercie usługę Power BI.
 
+# <a name="purchase-from-microsoft-or-another-channel"></a>Zakup od firmy Microsoft lub za pośrednictwem innego kanału
+
+W zależności od relacji z partnerem możesz mieć opcję zakupu usługi Power BI bezpośrednio od firmy Microsoft lub innego partnera. Możesz sprawdzić, czy masz możliwość dodawania subskrypcji usługi Power BI w portalu administracyjnym usługi Office 365 (wymaga to członkostwa w roli administratora globalnego lub administratora rozliczeń).
+
+1. Przejdź do [portalu administracyjnego usługi Office 365](https://admin.microsoft.com/AdminPortal/Home#/homepage).
+
+1. W menu po lewej stronie otwórz obszar **Rozliczenia**:
+
+    * Jeśli widzisz pozycję **Subskrypcje**, możesz kupić usługę bezpośrednio od firmy Microsoft lub możesz skontaktować się z partnerem oferującym usługę Power BI.
+
+        ![Rozliczenia — z subskrypcjami](media/service-admin-syndication-partner/billingsub.png)
+
+    * Jeśli nie widzisz pozycji **Subskrypcje**, nie możesz kupić usługi bezpośrednio od firmy Microsoft ani od innego partnera.
+
+Jeśli partner nie oferuje usługi Power BI i nie możesz kupić jej bezpośrednio od firmy Microsoft ani innego partnera, rozważ możliwość utworzenia konta bezpłatnej wersji próbnej.
+
+## <a name="sign-up-for-a-free-trial"></a>Tworzenie konta bezpłatnej wersji próbnej
+
+Możesz utworzyć konto bezpłatnej wersji próbnej usługi Power BI Pro. Jeśli na końcu okresu próbnego nie kupisz usługi Power BI Pro, będziesz nadal mieć bezpłatną licencję, która oferuje wiele funkcji usługi Power BI. Aby uzyskać więcej informacji, zobacz [Funkcje usługi Power BI według typu licencji](service-features-license-type.md).
+
+### <a name="enable-ad-hoc-subscriptions"></a>Włączanie subskrypcji ad-hoc
+
+Domyślnie opcja tworzenia konta przez użytkowników indywidualnych (znana także jako subskrypcja ad-hoc) jest wyłączona. W takim przypadku podczas próby utworzenia konta jest wyświetlany następujący komunikat: *Your IT department has turned off signup for Microsoft Power BI* (Twój dział IT wyłączył rejestrowanie się w usłudze Microsoft Power BI).
+
+![Obraz komunikatu z przeprosinami](media/service-admin-syndication-partner/sorry.png)
+
+Aby włączyć subskrypcje ad-hoc, możesz skontaktować się ze swoim partnerem i poprosić o ich włączenie. Jeśli jesteś administratorem dzierżawy i wiesz, jak używać poleceń programu PowerShell usługi Azure Active Directory, możesz samodzielnie włączyć subskrypcje ad-hoc. [Azure Active Directory PowerShell dla programu Graph](/powershell/azure/active-directory/install-adv2/)
+
+1. Zaloguj się do usługi Azure Active Directory przy użyciu poświadczeń usługi Office 365. Pierwszy wiersz poniższego skryptu będzie monitować o podanie poświadczeń. Drugi wiersz spowoduje nawiązanie połączenia z usługą Azure Active Directory.
+
+    ```powershell
+    $msolcred = get-credential
+    connect-msolservice -credential $msolcred
+    ```
+
+    ![Wprowadzanie poświadczeń](media/service-admin-syndication-partner/aad-signin.png)
+
+1. Po zalogowaniu się uruchom następujące polecenie, aby sprawdzić bieżące ustawienie elementu `AllowAdHocSubscriptions`.
+
+    ```powershell
+    Get-MsolCompanyInformation
+    ```
+
+1. Uruchom poniższe polecenie, aby włączyć bezpłatną rejestrację.
+
+    ```powershell
+    Set-MsolCompanySettings -AllowAdHocSubscriptions $true
+    ```
+
 ## <a name="next-steps"></a>Następne kroki
-[Zarządzanie usługą Azure AD przy użyciu programu Windows PowerShell](https://technet.microsoft.com/library/jj151815.aspx)  
-[Power BI Premium — co to jest?](service-premium.md)
+
+[Licencjonowanie usługi Power BI w organizacji](service-admin-licensing-organization.md)
 
 Masz więcej pytań? [Zadaj pytanie społeczności usługi Power BI](http://community.powerbi.com/)
-

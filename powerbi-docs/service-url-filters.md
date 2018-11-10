@@ -1,5 +1,5 @@
 ---
-title: Dodawanie parametrów raportu usługi Power BI przy użyciu adresu URL
+title: Filtrowanie raportu za pomocą parametrów ciągu zapytania w adresie URL
 description: Filtrowanie raportu przy użyciu parametrów ciągu zapytania adresu URL oraz możliwość filtrowania według więcej niż jednego pola.
 author: maggiesMSFT
 ms.author: maggies
@@ -9,24 +9,24 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/01/2018
+ms.date: 11/01/2018
 LocalizationGroup: Reports
-ms.openlocfilehash: 7a034e865b0e0b6ba55385f8873d039dba0662db
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.openlocfilehash: d708a4ff07a0d202fcc709f6348e48505d7589d0
+ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396962"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "50973378"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Filtrowanie raportu za pomocą parametrów ciągu zapytania w adresie URL
 
-Po otwarciu raportu w usłudze Power BI każda strona raportu ma własny unikatowy adres URL. Aby wykonać filtrowanie takiej strony raportu, możesz użyć okienka Filtr na kanwie raportów.  Możesz też dodać parametry ciągu zapytania do adresu URL, aby wstępnie filtrować raport. Być może masz raport, który chcesz pokazać współpracownikom, ale najpierw planujesz go wstępnie przefiltrować. Jeden ze sposobów polega na tym, aby rozpocząć od domyślnego adresu URL raportu, dodać do niego parametry filtru, a następnie po prostu wysłać cały nowy adres URL swoim współpracownikom za pośrednictwem poczty e-mail.
+Po otwarciu raportu w usłudze Power BI każda strona raportu ma własny unikatowy adres URL. Aby wykonać filtrowanie takiej strony raportu, możesz użyć okienka Filtr na kanwie raportów.  Możesz też dodać parametry ciągu zapytania do adresu URL, aby wstępnie filtrować raport. Być może masz raport, który chcesz pokazać współpracownikom, ale najpierw planujesz go wstępnie przefiltrować. Jeden ze sposobów filtrowania polega na tym, aby rozpocząć od domyślnego adresu URL raportu, dodać do niego parametry filtru, a następnie wysłać cały nowy adres URL za pośrednictwem poczty e-mail.
 
 ![Raport usługi Power BI w usłudze](media/service-url-filters/power-bi-report2.png)
 
 ## <a name="uses-for-query-string-parameters"></a>Zastosowania parametrów ciągu zapytania
 
-Załóżmy, że pracujesz w programie Power BI Desktop i chcesz utworzyć raport, który zawiera linki do innych raportów usługi Power BI, ale chcesz pokazać tylko niektóre informacje z innych raportów. Najpierw filtruj raporty za pomocą parametrów ciągu zapytania i zapisz adresy URL. Następnie utwórz tabelę w programie Desktop, korzystając z tych nowych adresów URL raportów.  Następnie opublikuj i udostępnij raport.
+Załóżmy, że pracujesz w programie Power BI Desktop. Chcesz utworzyć raport, który zawiera linki do innych raportów usługi Power BI, ale chcesz pokazać tylko niektóre informacje z innych raportów. Najpierw filtruj raporty za pomocą parametrów ciągu zapytania i zapisz adresy URL. Następnie utwórz tabelę w programie Desktop, korzystając z tych nowych adresów URL raportów.  Następnie opublikuj i udostępnij raport.
 
 Parametry ciągu zapytania mogą też być używane przez osobę tworzącą zaawansowane rozwiązanie usługi Power BI.  Korzystając z języka DAX, ta osoba tworzy raport, który generuje adres URL przefiltrowanego raportu dynamicznie na podstawie elementów wybranych przez jej klienta w bieżącym raporcie. Gdy klient wybierze adres URL, zobaczy tylko odpowiednie informacje. 
 
@@ -43,7 +43,7 @@ URL?filter=***Tabela***/***Pole*** eq '***wartość***'
 
 ### <a name="field-types"></a>Typy pól
 
-Typem pola może być liczba, data/godzina lub ciąg, a używany typ musi być zgodny z typem ustawionym w zestawie danych.  Na przykład określenie dla kolumny tabeli typu „ciąg” nie zadziała, jeśli szukasz wartości daty/godziny lub liczbowej w kolumnie zestawu danych ustawionej jako data (na przykład Tabela/KolumnaCiagu eq 1).
+Typem pola może być liczba, data/godzina lub ciąg, a używany typ musi być zgodny z typem ustawionym w zestawie danych.  Na przykład określenie dla kolumny tabeli typu „ciąg” nie zadziała, jeśli szukasz wartości daty/godziny lub liczbowej w kolumnie zestawu danych ustawionej jako data, na przykład Table/StringColumn eq 1.
 
 * **Ciągi** muszą być ujęte w apostrofy — 'nazwa menedżera'.
 * **Liczby** nie wymagają żadnego specjalnego formatowania
@@ -85,7 +85,7 @@ Można również filtrować według wielu pól, dodając dodatkowe parametry do 
 ?filter=Store/Territory eq 'NC'
 ```
 
-Aby filtrować przy użyciu dodatkowych pól, dodaj operator **and** oraz kolejne pole w tym samym formacie jak powyżej. Oto przykład:
+Aby filtrować przy użyciu dodatkowych pól, dodaj operator „**and**” oraz kolejne pole w tym samym formacie jak powyżej. Oto przykład:
 
 ```
 ?filter=Store/Territory eq 'NC' and Store/Chain eq 'Fashions Direct'
@@ -95,7 +95,7 @@ Aby filtrować przy użyciu dodatkowych pól, dodaj operator **and** oraz kolejn
 
 ## <a name="operators"></a>Operatory
 
-Usługa Power BI obsługuje wiele operatorów poza operatorem **and**. W poniższej tabeli wymieniono te operatory wraz z typem zawartości, którą obsługują.
+Usługa Power BI obsługuje wiele operatorów poza operatorem „**and**”. W poniższej tabeli wymieniono te operatory wraz z typem zawartości, którą obsługują.
 
 |operator  | definicja | ciąg  | liczba | Data |  Przykład|
 |---------|---------|---------|---------|---------|---------|
@@ -125,13 +125,13 @@ Filtr adresu URL usługi Power BI może zawierać liczby w następujących forma
 
 ### <a name="date-data-types"></a>Typy danych daty
 
-Usługa Power BI obsługuje protokół OData zarówno w wersji 3, jak i 4 w przypadku typów danych **Date** i **DateTimeOffset**.  Daty są reprezentowane w formacie EDM (2019-02-12T00:00:00). To oznacza, że po określeniu daty w formacie RRRR-MM-DD usługa Power BI interpretuje ją jako RRRR-MM-DDT00:00:00.
+Usługa Power BI obsługuje protokół OData zarówno w wersji 3, jak i 4 w przypadku typów danych **Date** i **DateTimeOffset**.  Daty są reprezentowane przy użyciu formatu EDM (2019-02-12T00:00:00), więc jeśli podasz datę w formacie RRRR-MM-DD, usługa Power BI zinterpretuje ją jako RRRR-MM-DDT00:00:00.
 
-Dlaczego to rozróżnienie jest istotne? Załóżmy, że utworzysz parametr ciągu zapytania **Tabela/Data gt 2018-08-03**.  Czy wyniki będą obejmować dzień 3 sierpnia 2018 r., czy będą się rozpoczynać od 4 sierpnia? Ponieważ usługa Power BI przekształca zapytanie w zapytanie **Tabela/Data gt 2018-08-03T00:00:00**, wyniki obejmują wszelkie daty z częścią godziny różną od zera, ponieważ takie daty są większe niż **2018-08-03T00:00:00**.
+Dlaczego to rozróżnienie jest istotne? Załóżmy, że utworzysz parametr ciągu zapytania **Tabela/Data gt 2018-08-03**.  Czy wyniki będą obejmować dzień 3 sierpnia 2018 r., czy będą rozpoczynać się od 4 sierpnia 2018 r.? Ponieważ usługa Power BI przekształca zapytanie w zapytanie **Tabela/Data gt 2018-08-03T00:00:00**, wyniki obejmują wszelkie daty z częścią godziny różną od zera, ponieważ takie daty są większe niż **2018-08-03T00:00:00**.
 
 ## <a name="special-characters-in-url-filters"></a>Znaki specjalne w filtrach adresów URL
 
-Znaki specjalne i spacje wymagają dodatkowego formatowania. Gdy zapytanie zawiera spacje, kreski lub inne znaki spoza zestawu ASCII, zamiast danego znaku specjalnego podaj prefiks w postaci *kodu ucieczki* rozpoczynający się od znaku podkreślenia i litery X (**_x**), a następnie wpisz 4-cyfrowy kod **Unicode** i kolejny znak podkreślenia. Jeśli kod Unicode zawiera mniej niż 4 znaki, musisz uzupełnić go zerami. Poniżej przedstawiono kilka przykładów.
+Znaki specjalne i spacje wymagają dodatkowego formatowania. Gdy zapytanie zawiera spacje, kreski lub inne znaki spoza zestawu ASCII, zamiast danego znaku specjalnego podaj prefiks w postaci *kodu ucieczki* rozpoczynający się od znaku podkreślenia i litery X (**_x**), a następnie wpisz czterocyfrowy kod **Unicode** i kolejny znak podkreślenia. Jeśli kod Unicode zawiera mniej niż cztery znaki, musisz uzupełnić go zerami. Poniżej przedstawiono kilka przykładów.
 
 |Identyfikator  |Kod Unicode  | Kodowanie dla usługi Power BI  |
 |---------|---------|---------|
@@ -159,9 +159,9 @@ Opublikuj raport w usłudze Power BI, a następnie użyj ciągu zapytania adresu
 
 ## <a name="pin-a-tile-from-a-filtered-report"></a>Przypinanie kafelka z filtrowanego raportu
 
-Po przefiltrowaniu raportu za pomocą parametrów ciągu zapytania możesz przypiąć wizualizację z tego raportu do pulpitu nawigacyjnego.  Kafelek na pulpicie nawigacyjnym wyświetla odfiltrowane dane, a wybranie tego kafelka pulpitu nawigacyjnego powoduje otwarcie raportu, który został użyty do jego utworzenia.  Filtrowanie wykonane za pomocą adresu URL nie jest zapisywane wraz z raportem, a po wybraniu kafelka pulpitu nawigacyjnego raport otworzy się w stanie sprzed filtrowania.  Oznacza to, że dane wyświetlane na kafelku pulpitu nawigacyjnego nie odpowiadają danym wyświetlanym w wizualizacji raportu.
+Po przefiltrowaniu raportu za pomocą parametrów ciągu zapytania możesz przypiąć wizualizację z tego raportu do pulpitu nawigacyjnego.  Kafelek na pulpicie nawigacyjnym wyświetla odfiltrowane dane, a wybranie tego kafelka pulpitu nawigacyjnego powoduje otwarcie raportu, który został użyty do jego utworzenia.  Jednak filtrowanie przeprowadzone za pomocą adresu URL nie jest zapisywane wraz z raportem. Wybranie kafelka pulpitu nawigacyjnego powoduje otwarcie raportu w stanie bez filtrowania.  Z tego względu dane wyświetlane na kafelku pulpitu nawigacyjnego nie odpowiadają danym wyświetlanym w wizualizacji raportu.
 
-Jest to przydatne, jeśli chcesz wyświetlać różne wyniki: filtrowane na pulpicie nawigacyjnym i niefiltrowane w raporcie.
+Ta niezgodność jest przydatna, jeśli chcesz wyświetlać różne wyniki: filtrowane na pulpicie nawigacyjnym i niefiltrowane w raporcie.
 
 ## <a name="considerations-and-troubleshooting"></a>Istotne zagadnienia i rozwiązywanie problemów
 

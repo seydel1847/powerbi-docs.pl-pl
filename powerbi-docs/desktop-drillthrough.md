@@ -10,68 +10,70 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8bbfafcecb6876ea063bb6751ca31c25697dc185
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 4989e981c3f39a637b3bb4927c427be0005c7776
+ms.sourcegitcommit: b343e44dbafc0b718c564402593d4b6e3a8ce97c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44725862"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "51027442"
 ---
 # <a name="use-drillthrough-in-power-bi-desktop"></a>Używanie przeglądania szczegółowego w programie Power BI Desktop
-**Przeglądanie szczegółowe** w programie **Power BI Desktop** umożliwia utworzenie strony w raporcie, która koncentruje się na określonej jednostce — takiej jak dostawca, klient lub producent. Dzięki tej skoncentrowanej stronie użytkownicy mogą kliknąć prawym przyciskiem myszy punkt danych na innej stronie raportu i użyć przeglądania szczegółowego, aby przejść do tej skoncentrowanej strony w celu uzyskania szczegółów przefiltrowanych do danego kontekstu.
+**Przeglądanie szczegółowe** w programie **Power BI Desktop** umożliwia utworzenie strony w raporcie, która koncentruje się na określonej jednostce, takiej jak dostawca, klient lub producent. Użytkownicy mogą kliknąć prawym przyciskiem myszy punkt danych na innych stronach raportu. Następnie mogą oni przejść do wybranej strony, aby uzyskać szczegółowe informacje filtrowane do danego kontekstu.
 
-![korzystanie z przeglądania szczegółowego](media/desktop-drillthrough/drillthrough_01.png)
+![Korzystanie z przeglądania szczegółowego](media/desktop-drillthrough/drillthrough_01.png)
 
 ## <a name="using-drillthrough"></a>Korzystanie z przeglądania szczegółowego
-1. Aby używać **przeglądania szczegółowego**, utwórz stronę raportu zawierającą wizualizacje, które chcesz zobaczyć, dotyczące typu jednostki, dla którego zapewnisz przeglądanie szczegółowe. 
+1. Aby używać **przeglądania szczegółowego**, utwórz stronę raportu zawierającą wybrane wizualizacje dotyczące typu jednostki, dla którego chcesz przeprowadzić przeglądanie szczegółowe. 
 
-    Jeśli na przykład chcesz dostarczyć przeglądanie szczegółowe dla producentów, możesz utworzyć stronę przeglądania szczegółowego z wizualizacjami przedstawiającymi sprzedaż całkowitą, sumę wysłanych jednostek, sprzedaż według kategorii, sprzedaż według regionu i tak dalej. W ten sposób, gdy przejdziesz do szczegółów znajdujących się na tej stronie, wizualizacje będą dotyczyć wybranego producenta.
+    Załóżmy na przykład, że chcesz udostępnić przeglądanie szczegółowe dla producentów. Możesz więc utworzyć stronę przeglądania szczegółowego z wizualizacjami przedstawiającymi sprzedaż całkowitą, sumę wysłanych jednostek, sprzedaż według kategorii, sprzedaż według regionu itd. W ten sposób, gdy przejdziesz do szczegółów znajdujących się na tej stronie, wizualizacje będą dotyczyć wybranego producenta.
 
 2. Następnie na tej stronie przeglądania szczegółowego w sekcji **Pola** okienka **Wizualizacje** przeciągnij pole, którego szczegóły chcesz przeglądać, do obszaru **Filtry przeglądania szczegółowego**.
 
-    ![obszar przeglądania szczegółowego](media/desktop-drillthrough/drillthrough_02.png)
+    ![Obszar przeglądania szczegółowego](media/desktop-drillthrough/drillthrough_02.png)
 
-    Po dodaniu pola do obszaru **Filtry przeglądania szczegółowego** program **Power BI Desktop** automatycznie utworzy wizualizację przycisku *wstecz*. Ta wizualizacja stanie się przyciskiem w opublikowanych raportach i umożliwi użytkownikom korzystającym z raportu w **usłudze Power BI** łatwy powrót do strony raportu, z której przyszli (jest to strona, na której została wybrana opcja przeglądania szczegółowego).
+    Po dodaniu pola do obszaru **Filtry przeglądania szczegółowego** program **Power BI Desktop** automatycznie utworzy wizualizację przycisku *wstecz*. Ta wizualizacja stanie się przyciskiem w opublikowanych raportach. Użytkownicy korzystający z raportu w **usłudze Power BI** mogą za pomocą tego przycisku wrócić do strony raportu, z której nastąpiło przejście.
 
-    ![obraz przeglądania szczegółowego](media/desktop-drillthrough/drillthrough_03.png)
+    ![Obraz przeglądania szczegółowego](media/desktop-drillthrough/drillthrough_03.png)
 
 ## <a name="use-your-own-image-for-a-back-button"></a>Używanie własnego obrazu na przycisku Wstecz    
- Przycisk Wstecz jest obrazem, dlatego możesz zamienić obraz tej wizualizacji na inny dowolny obraz, i nadal będzie on działać jako przycisk Wstecz umożliwiający użytkownikom raportu powrót do ich oryginalnej strony.
+ Ponieważ przycisk Wstecz jest obrazem, możesz zastąpić obraz tej wizualizacji dowolnym obrazem. Będzie on nadal działać jako przycisk Wstecz, aby użytkownicy raportu mogli przechodzić z powrotem do swojej oryginalnej strony. Aby użyć własnego obrazu na przycisku Wstecz, wykonaj następujące kroki:
 
-1. Na karcie **Narzędzia główne** kliknij pozycję **Obraz**, a następnie zlokalizuj swój obraz i umieść go na stronie przeglądania szczegółowego.
-2. Wybierz nowy obraz na stronie przeglądania szczegółowego, a następnie w sekcji formatowania obrazu ustaw suwak **Link** na pozycję oznaczającą włączenie i ustaw pozycję **Typ** na wartość **Wstecz**. Twój obraz działa teraz jako przycisk Wstecz.
+1. Na karcie **Narzędzia główne** wybierz pozycję **Obraz**. Następnie zlokalizuj swój obraz i umieść go na stronie przeglądania szczegółowego.
 
-    ![użycie obrazu dla przycisku wstecz](media/desktop-drillthrough/drillthrough_05.png)
+2. Wybierz nowy obraz na stronie przeglądania szczegółowego. W sekcji **Formatowanie obrazu** ustaw suwak **Link** na **Wł.**, a następnie ustaw pozycję **Typ** na **Wstecz**. Twój obraz działa teraz jako przycisk Wstecz.
 
-    Gdy strona **przeglądania szczegółowego** będzie gotowa, a użytkownicy klikną prawym przyciskiem myszy punkt danych w raporcie, który używa pola umieszczonego w obszarze **Filtry przeglądania szczegółowego**, zostanie wyświetlone menu kontekstowe obsługujące przechodzenie do szczegółów na tej stronie.
+    ![Użycie obrazu dla przycisku Wstecz](media/desktop-drillthrough/drillthrough_05.png)
 
-    ![menu przeglądania szczegółowego](media/desktop-drillthrough/drillthrough_04.png)
+    
+     Użytkownicy mogą teraz kliknąć prawym przyciskiem myszy punkt danych w raporcie i otworzyć menu kontekstowe obsługujące przeglądanie szczegółowe na tej stronie. 
 
-    Gdy użytkownicy raportu wybiorą opcję przeglądania szczegółowego, strona zostanie odfiltrowana w celu wyświetlenia informacji na temat punktu danych, który kliknięto prawym przyciskiem myszy. Jeśli na przykład użytkownik kliknie prawym przyciskiem myszy punkt danych firmy Contoso (producent) i wybierze przeglądanie szczegółowe, strona przeglądania szczegółowego, do której przejdzie użytkownik, będzie filtrowana w celu wyświetlenia informacji o firmie Contoso.
+    ![Menu przeglądania szczegółowego](media/desktop-drillthrough/drillthrough_04.png)
+
+    Gdy użytkownicy raportu wybiorą opcję przeglądania szczegółowego, strona zostanie odfiltrowana w celu wyświetlenia informacji na temat punktu danych, który kliknięto prawym przyciskiem myszy. Załóżmy na przykład, że kliknięto prawym przyciskiem myszy punkt danych związany z firmą Contoso (producentem) i wybrano opcję przeglądania szczegółowego. Strona przeglądania szczegółowego, do której przechodzą użytkownicy, jest filtrowana do danych firmy Contoso.
 
 ## <a name="pass-all-filters-in-drillthrough"></a>Przekazywanie wszystkich filtrów w przeglądaniu szczegółowym
 
-Począwszy od programu **Power BI Desktop** w wersji z maja 2018 r. wszelkie zastosowane filtry można przekazać do okna przeglądania szczegółowego. Na przykład można mieć wybraną tylko konkretną kategorię produktów i wizualizacje przefiltrowane pod kątem tej kategorii, a następnie wybrać przeglądanie szczegółowe. Może Cię zainteresować, jak wyglądałoby przeglądanie szczegółowe z zastosowanymi wszystkimi tymi filtrami.
+Począwszy od programu **Power BI Desktop** w wersji z maja 2018 r. wszelkie zastosowane filtry można przekazać do okna przeglądania szczegółowego. Na przykład można wybrać tylko konkretną kategorię produktów i wizualizacje odfiltrowane pod kątem tej kategorii, a następnie wybrać przeglądanie szczegółowe. Może Cię zainteresować, jak wyglądałoby przeglądanie szczegółowe z zastosowanymi wszystkimi tymi filtrami.
 
-Aby zachować wszystkie zastosowane filtry, w sekcji **Przeglądanie szczegółowe** okienka **Wizualizacje** po prostu ustaw przełącznik **Przekaż wszystkie filtry** na pozycję **Włączone**. 
+Aby zachować wszystkie zastosowane filtry, w sekcji **Przeglądanie szczegółowe** okienka **Wizualizacje** ustaw przełącznik **Przekaż wszystkie filtry** na pozycję **Włączone**. 
 
-![zachowanie wszystkich filtrów](media/desktop-drillthrough/drillthrough_06.png)
+![Zachowaj wszystkie filtry](media/desktop-drillthrough/drillthrough_06.png)
 
-W wersjach programu **Power BI Desktop** sprzed maja 2018 r. działanie jest odpowiednikiem ustawienia tego przełącznika na pozycję **Wyłączone**.
+W wersjach programu **Power BI Desktop** wydanych przed majem 2018 r. zachowanie jest takie samo jak w przypadku ustawienia tego przełącznika na pozycję **Wyłączone**.
 
 Gdy następnie będziesz przechodzić do szczegółów w wizualizacji, zobaczysz, które filtry zostały zastosowane w efekcie zastosowania filtrów tymczasowych w wizualizacjach źródłowych. W oknie przeglądania szczegółowego te filtry przejściowe są pokazywane kursywą. 
 
-![filtry przejściowej pokazywane kursywą](media/desktop-drillthrough/drillthrough_07.png)
+![Filtry przejściowe pokazywane kursywą](media/desktop-drillthrough/drillthrough_07.png)
 
-Pamiętaj, że można to zrobić na stronach etykietek, ale będzie to dziwne doświadczenie (etykietki będą wyglądały na działające nieprawidłowo), wiec robienie tego z etykietkami nie jest zalecane.
+Pamiętaj, że można to zrobić na stronach etykietek narzędzi, ale będzie to dziwne doświadczenie, ponieważ etykietki będą wyglądały na działające nieprawidłowo. Z tego powodu używanie etykietek nie jest zalecane.
 
 ## <a name="add-a-measure-to-drillthrough"></a>Dodawanie miary do obszaru przeglądania szczegółowego
 
-Oprócz przekazywania wszystkich filtrów do okna przeglądania szczegółowego, możesz również dodać miarę (lub podsumowaną kolumnę liczbową) do obszaru przeglądania szczegółowego. W tym celu wystarczy przeciągnąć pole przeglądania szczegółowego do karty przeglądania szczegółowego. 
+Oprócz przekazywania wszystkich filtrów do okna przeglądania szczegółowego, możesz również dodać miarę lub podsumowaną kolumnę liczbową do obszaru przeglądania szczegółowego. W tym celu przeciągnij pole przeglądania szczegółowego do karty przeglądania szczegółowego. 
 
-![dodawanie miary do obszaru przeglądania szczegółowego](media/desktop-drillthrough/drillthrough_08.png)
+![Dodawanie miary do obszaru przeglądania szczegółowego](media/desktop-drillthrough/drillthrough_08.png)
 
-Po dodaniu miary (lub podsumowanej kolumny liczbowej) możesz przejść do szczegółów na stronie, gdy to pole jest używane w obszarze *Wartość* wizualizacji.
+Po dodaniu miary lub podsumowanej kolumny liczbowej możesz przejść do szczegółów na stronie, gdy to pole jest używane w obszarze *Wartość* wizualizacji.
 
 To wszystko na temat używania **przeglądania szczegółowego** w raportach. Jest to doskonały sposób wyświetlania rozszerzonych informacji na temat jednostki wybranej dla filtru przeglądania szczegółowego.
 

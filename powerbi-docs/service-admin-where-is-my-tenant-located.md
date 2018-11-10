@@ -7,41 +7,42 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 08/10/2017
+ms.date: 10/31/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: c0c6de63292d3087aaa78dd97b73f868ef9d804e
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: b396b55304e468143fe28fb5ed46ed290bfb3812
+ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34293656"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50909530"
 ---
 # <a name="where-is-my-power-bi-tenant-located"></a>Gdzie znajduje się moja dzierżawa usługi Power BI?
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0fOxaHJPvdM?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
-Dowiedz się, gdzie znajduje się Twoja dzierżawa usługi Power BI i jak jest wybierana ta lokalizacja. Ważne jest, aby to zrozumieć, ponieważ może to wpływać na interakcje z usługą.
+Dowiedz się, gdzie znajduje się Twoja dzierżawa usługi Power BI i jak jest wybierana ta lokalizacja. Poznanie lokalizacji jest ważne, ponieważ może ona mieć wpływ na korzystanie z usługi.
 
 ## <a name="how-to-determine-where-your-power-bi-tenant-is-located"></a>Jak ustalić, gdzie znajduje się Twoja dzierżawa usługi Power BI
-Aby znaleźć region, gdzie znajduje się Twoja dzierżawa, możesz wykonać następujące czynności.
 
-1. Wybierz znak **?** w usłudze Power BI.
-2. Wybierz pozycję **Informacje o usłudze Power BI**.
-3. Wyszukaj wartość obok pozycji **Twoje dane są przechowywane w**. Jest to region, w którym się znajdujesz.
+Aby znaleźć region, w którym znajduje się dzierżawa, wykonaj poniższe kroki.
 
-![](media/service-admin-where-is-my-tenant-located/power-bi-data-region.png)
+1. W górnym menu usługi Power BI wybierz pozycję Pomoc (**?**), a następnie pozycję **Power BI — informacje**.
+
+1. Wyszukaj wartość obok pozycji **Twoje dane są przechowywane w**. Jest to region, w którym znajduje się Twoja dzierżawa.
+
+    ![Obszar danych](media/service-admin-where-is-my-tenant-located/power-bi-data-region.png)
 
 ## <a name="how-the-data-region-is-selected"></a>Jak jest wybierany region danych
-Region danych zależy od kraju, który został wybrany podczas pierwszego tworzenia dzierżawy. Dotyczy to logowania się do usługi Office 365, oprócz usługi Power BI, ponieważ te informacje są udostępnione. Jeśli jest to nowa dzierżawa, podczas tworzenia konta zostanie wyświetlona lista rozwijana krajów.
 
-![](media/service-admin-where-is-my-tenant-located/sign-up-country-selection.png)
+Region danych zależy od kraju wybranego podczas tworzenia dzierżawy. Oprócz usługi Power BI dotyczy to również tworzenia konta usługi Office 365, ponieważ te informacje są używane w obu tych usługach. Jeśli jest to nowa dzierżawa, wybierz odpowiedni kraj z listy podczas tworzenia konta.
 
-Ten wybór jest podstawą ustalenia lokalizacji przechowywania danych. Usługa Power BI wybierze region danych najbliższy do tego wyboru.
+![Wybieranie kraju](media/service-admin-where-is-my-tenant-located/sign-up-country-selection.png)
 
-> [!WARNING]
-> Nie można zmienić tego wyboru!
-> 
-> 
+Usługa Power BI wybiera region danych znajdujący się najbliżej wybranego kraju, co określa miejsce przechowywania danych dla dzierżawy.
+
+> [!IMPORTANT]
+> Tego wyboru nie można zmienić po utworzeniu dzierżawy.
 
 Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
 

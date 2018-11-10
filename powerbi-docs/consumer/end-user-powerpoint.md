@@ -1,5 +1,5 @@
 ---
-title: Eksportowanie raportów z usługi Power BI do programu PowerPoint (wersja zapoznawcza)
+title: Eksportowanie raportów z usługi Power BI do programu PowerPoint
 description: Dowiedz się, jak wyeksportować raport usługi Power BI do programu PowerPoint.
 author: mihart
 manager: kvivek
@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 85a0a34f9c67d29fee7be6335f79e97b482548be
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 661d615ed33b12ae0557fd8feaa0bc47b3a6638f
+ms.sourcegitcommit: ac63e6a082ca8397909217837e8d98c9389b23ac
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565342"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50736946"
 ---
-# <a name="export-reports-from-power-bi-to-powerpoint-preview"></a>Eksportowanie raportów z usługi Power BI do programu PowerPoint (wersja zapoznawcza)
+# <a name="export-reports-from-power-bi-to-powerpoint"></a>Eksportowanie raportów z usługi Power BI do programu PowerPoint
 Usługa Power BI umożliwia teraz publikowanie raportów w programie **Microsoft PowerPoint** oraz łatwe tworzenie pokazu slajdów na podstawie raportu usługi Power BI. Podczas **eksportowania do programu PowerPoint** zachodzą następujące zmiany:
 
 * Każda strona w raporcie usługi Power BI staje się pojedynczym slajdem w programie PowerPoint
@@ -77,9 +77,9 @@ Pracując z funkcją **Eksportuj do programu PowerPoint**, należy wziąć pod u
 * **Wizualizacje języka R** nie są obecnie obsługiwane. Każda taka wizualizacja jest eksportowana do programu PowerPoint jako pusty obraz z komunikatem o błędzie informującym, że wizualizacja nie jest obsługiwana.
 * **Wizualizacje niestandardowe**, które posiadają **certyfikat**, są obsługiwane. Aby uzyskać więcej informacji na temat certyfikowanych wizualizacji niestandardowych, w tym jak uzyskać certyfikat dla wizualizacji niestandardowej, zobacz [Certyfikowanie wizualizacji niestandardowej](../power-bi-custom-visuals-certified.md). Wizualizacje niestandardowe, które nie mają certyfikatu, nie są obsługiwane i są eksportowane do programu PowerPoint jako puste obrazy z komunikatem o błędzie informującym, że wizualizacja nie jest obsługiwana.
 * **Certyfikowane wizualizacje niestandardowe** są obsługiwane. Certyfikowana wizualizacja niestandardowa została zatwierdzona do używania z usługą Power BI, spełnia określone wymagania dotyczące kodu i przeszła restrykcyjne testy bezpieczeństwa. Możesz [dowiedzieć się więcej o **certyfikowanych wizualizacjach niestandardowych**](../power-bi-custom-visuals-certified.md).
-* Obecnie nie można eksportować raportów zawierających więcej niż 15 stron.
+* Obecnie nie można eksportować raportów zawierających więcej niż 30 stron.
 * Proces eksportowania raportu do programu PowerPoint może potrwać kilka minut, dlatego prosimy o cierpliwość. Czynniki, które mogą mieć wpływ na czas eksportowania, obejmują strukturę raportu oraz bieżące obciążenie usługi Power BI.
-* Jeśli element menu **Eksportuj do programu PowerPoint (wersja zapoznawcza)** nie jest dostępny w usłudze Power BI, prawdopodobnie administrator dzierżawy wyłączył tę funkcję. Aby uzyskać więcej informacji, skontaktuj się z administratorem dzierżawy.
+* Jeśli element menu **Eksportuj do programu PowerPoint** nie jest dostępny w usłudze Power BI, prawdopodobnie administrator dzierżawy wyłączył tę funkcję. Aby uzyskać więcej informacji, skontaktuj się z administratorem dzierżawy.
 * Obrazy tła zostaną przycięte do obszaru ograniczającego wykres. Zdecydowanie zalecamy, aby usunąć obrazy tła przed rozpoczęciem eksportowania do programu PowerPoint.
 * **Interakcyjność podczas sesji**, taka jak wyróżnianie i filtrowanie, przechodzenie do szczegółów i inne funkcje, nie jest na razie obsługiwana podczas eksportowania do programu PowerPoint. Wyeksportowany plik programu PowerPoint pokazuje oryginalne wizualizacje tak, jak zostały zapisane w raporcie.
 * Strony w programie PowerPoint są zawsze tworzone w standardowym rozmiarze 9:16, niezależnie od oryginalnych wymiarów i rozmiarów stron w raporcie usługi Power BI.

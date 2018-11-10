@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/26/2018
+ms.date: 11/01/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: a4c73cc81a09a3747ff34e6a20508b4ff19eafa8
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: c01af129e15025b97925f59532d1be7a6671b47f
+ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39280299"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50909622"
 ---
 # <a name="use-insights-in-power-bi-desktop-to-explain-increases-and-decreases-seen-in-visuals-preview"></a>Używanie funkcji szczegółowych informacji w programie Power BI Desktop w celu wyjaśniania wzrostów i spadków widocznych w wizualizacjach (wersja zapoznawcza)
 
@@ -113,7 +113,6 @@ Poniżej znajduje się lista scenariuszy, które obecnie nie są obsługiwane w 
 * Filtry TopN
 * Filtry uwzględniające/wykluczające
 * Filtry miary
-* Miary i agregacje nie-addytywne
 * Miary nieliczbowe
 * Użycie funkcji „Pokaż wartość jako”
 * Miary filtrowane to obliczenia na poziomie wizualnym prowadzone po zastosowaniu określonego filtru (na przykład *łączna sprzedaż we Francji*). Są one używane w niektórych wizualizacjach utworzonych przez funkcję szczegółowych informacji

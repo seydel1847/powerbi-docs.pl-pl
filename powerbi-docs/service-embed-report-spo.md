@@ -10,13 +10,13 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 10/20/2018
-ms.openlocfilehash: e336323863dfacc8c74f2dc1f721231d58d03834
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.date: 11/01/2018
+ms.openlocfilehash: fc0234536415c758992cec629452a3e629c46ad1
+ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50100777"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "50973332"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>Osadzanie za pomocą składnika Web Part raportu w usłudze SharePoint Online
 
@@ -82,14 +82,34 @@ Osadzenie raportu w usłudze SharePoint Online nie daje automatycznie użytkowni
 > [!IMPORTANT]
 > Sprawdź, kto może wyświetlać raport w usłudze Power BI, i udziel dostępu użytkownikom niewymienionym na liście.
 
-Istnieją dwa sposoby zapewnienia dostępu do raportu w usłudze Power BI. Jeśli używasz grupy usługi Office 365 do tworzenia witryny zespołu w usłudze SharePoint Online, uwzględnij użytkownika jako członka **obszaru roboczego aplikacji w usłudze Power BI** oraz **strony programu SharePoint**. Daje to pewność, że uwzględnieni użytkownicy mogą wyświetlać zawartość tej grupy. Aby uzyskać więcej informacji, zobacz [Tworzenie i rozpowszechnianie aplikacji w usłudze Power BI](service-create-distribute-apps.md).
+Istnieją dwa sposoby zapewnienia dostępu do raportu w usłudze Power BI. Jeśli używasz grupy usługi Office 365 do tworzenia witryny zespołu w usłudze SharePoint Online, uwzględnij użytkownika jako członka **obszaru roboczego aplikacji w usłudze Power BI** oraz **strony programu SharePoint**. Aby uzyskać więcej informacji, zobacz instrukcje dotyczące [zarządzania obszarem roboczym aplikacji](service-manage-app-workspace-in-power-bi-and-office-365.md).
 
-Alternatywnie możesz bezpośrednio udostępnić raport użytkownikom, osadzając go w aplikacji. Aby osadzenie raportu było możliwe, aplikacja musi zostać wstępnie zainstalowana. Aplikację można skonfigurować do wstępnego instalowania przy użyciu funkcji **Instaluj aplikację automatycznie**.
+Alternatywnie możesz bezpośrednio udostępnić raport użytkownikom, osadzając go w aplikacji. Istnieje kilka kroków, które należy wykonać, aby osadzić raport w aplikacji.  
+
+1. Autor aplikacji jest użytkownikiem wersji Pro.
+
+2. Autor tworzy raport w obszarze roboczym aplikacji. *Aby udostępnić raport **użytkownikom bezpłatnej wersji usługi Power BI**, obszar roboczy aplikacji należy ustawić jako **obszar roboczy Premium**.*
+
+3. Autor publikuje aplikację, a następnie ją instaluje. *Autor sekcji musi zainstalować aplikację, aby mieć dostęp do adresu URL raportu używanego do osadzania w usłudze SharePoint Online.*
+
+4. Teraz wszyscy użytkownicy końcowi muszą również zainstalować aplikację. Można ustawić wstępne instalowanie aplikacji dla użytkowników końcowych za pomocą funkcji **Instaluj aplikację automatycznie**. Jest ona włączana w [portalu administracyjnym usługi Power BI](service-admin-portal.md).
 
    ![Instaluj aplikację automatycznie](media/service-embed-report-spo/install-app-automatically.png)
 
-> [!NOTE]
-> **Użytkownik musi mieć dostęp do raportu i strony programu SharePoint, aby wyświetlić raport na stronie programu SharePoint.**
+5. Autor otwiera aplikację i przechodzi do raportu.
+
+6. Autor kopiuje adres URL osadzania raportu z raportu zainstalowanego przez aplikację. *Nie należy używać adresu URL oryginalnego raportu z obszaru roboczego aplikacji.*
+
+7. Utwórz nową witrynę zespołu w usłudze SharePoint Online.
+
+8. Dodaj adres URL raportu skopiowany z kroku 6 do składnika Web Part usługi Power BI.
+
+9. Dodaj wszystkich użytkowników końcowych i/lub grupy, które będą korzystać z danych na stronie usługi SharePoint Online i w utworzonej przez Ciebie aplikacji usługi Power BI.
+
+    > [!NOTE]
+    > **Użytkownicy lub grupy muszą mieć dostęp do strony usługi SharePoint Online i raportu w aplikacji Power BI, aby wyświetlać raport na stronie programu SharePoint.**
+
+10. Teraz użytkownik końcowy może przejść do witryny zespołu w usłudze SharePoint Online i przeglądać raporty na stronie.
 
 ## <a name="multi-factor-authentication"></a>Uwierzytelnianie wieloskładnikowe
 

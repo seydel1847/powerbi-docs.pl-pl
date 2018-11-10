@@ -7,72 +7,66 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 08/10/2017
+ms.date: 10/31/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: c1ac019b0d6f80c3129b105336f71a71e0925648
-ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
+ms.openlocfilehash: dfd9aab419d0a097721c4f2b49e382c11be82541
+ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 07/10/2018
-ms.locfileid: "37926541"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50909507"
 ---
 # <a name="find-power-bi-users-that-have-signed-in"></a>Znajdowanie zalogowanych użytkowników usługi Power BI
-Jeśli administrator dzierżawy chce dowiedzieć się, kto jest zalogowany do usługi Power BI, może uzyskać wgląd za pomocą raportów dostępu i użycia usługi Azure Active Directory.
+
+Jeśli administrator dzierżawy chce dowiedzieć się, kto jest zalogowany do usługi Power BI, powinien [użyć raportów dostępu i użycia usługi Azure Active Directory](/azure/active-directory/reports-monitoring/concept-sign-ins), aby uzyskać wgląd w te informacje.
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/1AVgh9w9VM8?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
-Raport aktywności jest dostępny zarówno w [nowym](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-activity-sign-ins), jak i [klasycznym](https://docs.microsoft.com/azure/active-directory/active-directory-view-access-usage-reports) portalu usługi Azure Active Directory (Azure AD). Na powyższym filmie wideo użyto portalu klasycznego, natomiast w tym artykule zostanie omówiony nowy portal.
-
 > [!NOTE]
-> Ten raport aktywności nie identyfikuje typu licencji poszczególnych użytkowników.
+> Raport aktywności zawiera użyteczne informacje, ale nie identyfikuje typu licencji poszczególnych użytkowników. Licencje można wyświetlać w centrum administracyjnym usługi Office 365.
 
 ## <a name="requirements"></a>Wymagania
-Aby wyświetlić raport aktywności logowania, należy spełnić poniższe wymagania.
 
-* Dostęp do danych mogą uzyskać użytkownicy z rolą administratora globalnego, administratora zabezpieczeń lub czytelnika zabezpieczeń.
-* Dowolny użytkownik (niebędący administratorem) ma dostęp do informacji o swoich logowaniach.
-* Do wyświetlenia podsumowującego raportu aktywności związanej z logowaniem wymagane jest skojarzenie dzierżawy z licencją usługi Azure AD Premium.
+Każdy użytkownik (w tym użytkownik niebędący administratorem) może wyświetlić raport własnych logowań, ale jeśli chcesz wyświetlić raport dotyczący wszystkich użytkowników, musisz spełniać poniższe wymagania.
 
-## <a name="using-the-azure-portal-to-view-sign-ins"></a>Wyświetlanie informacji o logowaniu w witrynie Azure Portal
-Aktywność związaną z logowaniem można wyświetlić w portalu usługi Azure AD.
+* Twoja dzierżawa musi mieć skojarzoną licencję usługi Azure AD Premium.
 
-1. Przejdź do witryny **Azure Portal** i wybierz pozycję **Azure Active Directory**.
-2. W obszarze **Działanie** wybierz pozycję **Logowania**.
+* Musisz pełnić jedną z następujących ról: administrator globalny, administrator zabezpieczeń lub czytelnik zabezpieczeń.
+
+## <a name="use-the-azure-portal-to-view-sign-ins"></a>Wyświetlanie informacji o logowaniach w witrynie Azure Portal
+
+Aby wyświetlić działania związane z logowaniem, wykonaj poniższe kroki.
+
+1. W witrynie **Azure Portal** wybierz pozycję **Azure Active Directory**.
+
+1. W obszarze **Monitorowanie** wybierz pozycję **Logowania**.
    
-    ![](media/service-admin-access-usage/azure-portal-sign-ins.png)
-3. Przefiltruj aplikacje, wybierając pozycję **Microsoft Power BI** lub **Power BI Gateway**, i wybierz pozycję **Zastosuj**.
+    ![Operacje logowania do usługi Azure AD](media/service-admin-access-usage/azure-portal-sign-ins.png)
+
+1. Przefiltruj aplikacje, wybierając pozycję **Microsoft Power BI** lub **Power BI Gateway**, i wybierz pozycję **Zastosuj**.
+
+    Pozycja **Microsoft Power BI** powoduje odfiltrowanie działań logowania związanych z usługą, a pozycja **Power BI Gateway** — działań logowania do lokalnej bramy danych.
    
-    Pozycja **Microsoft Power BI** dotyczy aktywności logowania związanej z usługą, a **Power BI Gateway** obejmuje logowania do lokalnej bramy danych.
-   
-    ![](media/service-admin-access-usage/sign-in-filter.png)
+    ![Filtrowanie operacji logowania](media/service-admin-access-usage/sign-in-filter.png)
 
 ## <a name="export-the-data"></a>Eksportowanie danych
-Dostępne są dwie opcje eksportowania danych logowania. Można pobrać plik csv lub użyć programu PowerShell.
 
-### <a name="download-csv"></a>Pobieranie pliku csv
-Wybierz pozycję **Pobierz** na pasku narzędzi ekranu Działanie. Zostanie pobrany plik csv zawierający bieżące, odfiltrowane dane.
+Dostępne są dwie opcje eksportowania danych logowania: pobranie pliku CSV lub użycie programu PowerShell. W górnej części raportu logowania wybierz jedną z następujących opcji:
 
-![](media/service-admin-access-usage/download-sign-in-data-csv.png)
+* **Pobierz** — aby pobrać plik CSV zawierający bieżące, odfiltrowane dane.
 
-### <a name="powershell"></a>Program PowerShell
-Dane logowania można wyeksportować za pomocą programu PowerShell. [Przykład](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-api-sign-in-activity-samples#powershell-script) jest dostępny w dokumentacji usługi Azure AD.
+* **Skrypt** — aby pobrać skrypt programu PowerShell umożliwiający uzyskanie bieżących, odfiltrowanych danych. W razie potrzeby można zaktualizować filtr w skrypcie.
 
-> [!NOTE]
-> Aby przykład z programem PowerShell zadziałał, muszą być spełnione [wymagania wstępne dotyczące uzyskiwania dostępu do interfejsu API raportowania usługi Azure AD](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-api-prerequisites).
-> 
-> 
+![Pobieranie pliku CSV lub skryptu](media/service-admin-access-usage/download-sign-in-data-csv.png)
 
 ## <a name="data-retention"></a>Przechowywanie danych
-Dane logowania są dostępne przez maksymalnie 30 dni. Aby uzyskać więcej informacji, zobacz [Zasady przechowywania raportów usługi Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-retention).
+
+Dane logowania są dostępne przez maksymalnie 30 dni. Aby uzyskać więcej informacji, zobacz [Zasady przechowywania raportów usługi Azure Active Directory](/azure/active-directory/reports-monitoring/reference-reports-data-retention).
 
 ## <a name="next-steps"></a>Następne kroki
-[Raporty aktywności związanej z logowaniem w portalu usługi Azure Active Directory (nowym portalu)](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-activity-sign-ins)  
-[Wyświetlanie raportów dostępu i użycia (portal klasyczny)](https://docs.microsoft.com/azure/active-directory/active-directory-view-access-usage-reports)  
-[Przykładowy skrypt logowania programu PowerShell](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-api-sign-in-activity-samples#powershell-script)  
-[Zasady przechowywania raportów usługi Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-retention)  
-[Korzystanie z inspekcji w ramach organizacji](service-admin-auditing.md)  
-[Aktywacja rozszerzonej wersji próbnej Pro](service-extended-pro-trial.md)
+
+[Korzystanie z inspekcji w ramach organizacji](service-admin-auditing.md)
 
 Masz więcej pytań? [Zadaj pytanie społeczności usługi Power BI](https://community.powerbi.com/)
 

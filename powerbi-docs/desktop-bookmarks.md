@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/06/2018
+ms.date: 11/01/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1bb9921b31187d0df3debc644088a72e1d78207c
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 6bc8eea6138f2961457d03eaf5ef88d0327a058d
+ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46549919"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50909576"
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Używanie zakładek w celu udostępniania szczegółowych informacji i tworzenia historii w usłudze Power BI 
 Przy użyciu **zakładek** w usłudze Power BI możesz przechwycić obecnie skonfigurowany widok strony raportu wraz z filtrowaniem i stanem wizualizacji, aby później mieć możliwość powrotu do tego stanu poprzez wybranie zapisanej zakładki. 
@@ -44,13 +44,12 @@ Podczas tworzenia zakładki są w niej zapisywane następujące elementy:
 
 * Bieżąca strona
 * Filtry
-* Fragmentatory
+* Fragmentatory, w tym typ fragmentatora (na przykład lista rozwijana lub lista) i stan fragmentatora
+* Stan wyboru wizualizacji (np. filtry wyróżniania krzyżowego)
 * Kolejność sortowania
 * Lokalizacja szczegółowych informacji
 * Widoczność (obiektu przy użyciu okienka **Wybór**)
 * Tryby koncentracji uwagi lub **w centrum uwagi** dowolnego widocznego obiektu
-
-Zakładki obecnie nie zapisują stanu obejmującego wyróżnianie. 
 
 Skonfiguruj stronę raportu w taki sposób, w jaki ma być wyświetlana w zakładce. Po odpowiednim ustawieniu strony raportu i wizualizacji wybierz opcję **Dodaj** w okienku **Zakładki**, aby dodać zakładkę. 
 

@@ -10,33 +10,38 @@ ms.topic: conceptual
 ms.date: 09/10/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 9945237088073a4f9111e06fd6729a1c4db10081
-ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
+ms.openlocfilehash: 215b4c8f46b2d39c6dcc5853c07e4e6526027881
+ms.sourcegitcommit: b343e44dbafc0b718c564402593d4b6e3a8ce97c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50003322"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "51027465"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Używanie motywów raportów w programie Power BI Desktop
-**Motywy raportów** umożliwiają zastosowanie motywu kolorystycznego — kolorów firmowych, okolicznościowych lub dowolnego innego motywu kolorystycznego — do całego raportu. Zastosowanie **motywu raportu** spowoduje, że kolory tego motywu będą używane we wszystkich wizualizacjach w raporcie (z kilkoma wyjątkami opisanymi w dalszej części tego artykułu).
+**Motywy raportów** umożliwiają zastosowanie motywu kolorystycznego — kolorów firmowych, okolicznościowych lub dowolnego innego motywu kolorystycznego — do całego raportu. Zastosowanie **motywu raportu** spowoduje, że kolory tego motywu będą używane we wszystkich wizualizacjach w raporcie. Kilka wyjątków od tej reguły opisano w dalszej części tego artykułu.
 
-![](media/desktop-report-themes/report-themes_1.png)
+![Motywy raportu](media/desktop-report-themes/report-themes_1.png)
 
-Do zastosowania **motywu raportu** potrzebny jest plik JSON z podstawową strukturą, który można zaimportować do programu Power BI Desktop i zastosować do raportu. Struktura pliku JSON jest bardzo prosta, podobnie jak proces importowania polegający na kliknięciu kilku przycisków.
+W przypadku stosowania **motywu raportu** potrzebujesz pliku JSON, który używa struktury podstawowej. Następnie można zaimportować ten plik JSON do programu Power BI Desktop i zastosować go w raporcie. Struktura pliku JSON jest prosta, a proces importowania tego pliku jest szybki i łatwy (wystarczy kliknąć kilka przycisków).
 
-Od wersji programu **Power BI Desktop** z września 2017 r. można przy użyciu pliku JSON zdefiniować jeszcze więcej elementów motywu raportu — możesz dostosować (i ujednolicić) za pomocą pliku JSON niemal wszystkie elementy, które można dostosować ręcznie w okienku **Formatowanie**. Celem w wersji z września 2017 r. (i nowszych wersjach) jest umożliwienie pełnej, szczegółowej kontroli nad wyglądem i działaniem raportów.
+Od wersji programu **Power BI Desktop** z września 2017 r. można zdefiniować jeszcze więcej elementów motywu raportu za pomocą pliku JSON. Można również dostosować i standaryzować niemal wszystkie elementy. Aby dostosować zawartość, należy użyć pliku JSON, który można skorygować ręcznie w okienku **Formatowanie**. Celem w wersji z września 2017 r. (i nowszych wersjach) jest udostępnienie użytkownikom pełnej, szczegółowej kontroli nad wyglądem i działaniem raportów.
 
 ### <a name="enable-report-themes"></a>Włączanie motywów raportów
-Począwszy od wersji programu **Power BI Desktop** z sierpnia 2018 r., motywy raportów są ogólnie dostępne i nie trzeba ich włączać. 
+Od wersji programu **Power BI Desktop** z sierpnia 2018 r. motywy raportów są ogólnie dostępne i nie trzeba ich włączać. 
 
-Jeśli używasz starszej wersji programu **Power BI Desktop**, możesz je włączyć jako funkcję w wersji zapoznawczej przez wybranie kolejno pozycji **Plik > Opcje i ustawienia > Opcje > Funkcje wersji zapoznawczej**, a następnie zaznacz pole wyboru **Niestandardowe motywy raportów**. Po zaznaczeniu należy uruchomić ponownie program **Power BI Desktop**.
+Jeśli używasz starszej wersji **Power BI Desktop**, możesz włączyć motywy raportów jako funkcję w wersji zapoznawczej, wykonując następujące kroki: 
 
-![](media/desktop-report-themes/report-themes_2.png)
+1. Wybierz pozycję **Plik > Opcje i ustawienia > Opcje > Funkcje w wersji zapoznawczej**. 
+2. Następnie zaznacz pole wyboru obok pozycji **Niestandardowe motywy raportów**. 
+
+Po zaznaczeniu należy uruchomić ponownie program **Power BI Desktop**.
+
+![Niestandardowe motywy raportów](media/desktop-report-themes/report-themes_2.png)
 
 Zawsze zalecamy uaktualnienie programu **Power BI Desktop** do najnowszej wersji, którą można pobrać za pomocą linku na stronie [Uzyskiwanie programu Power BI Desktop](desktop-get-the-desktop.md). 
 
 ## <a name="how-report-themes-work"></a>Jak działają motywy raportów
-Aby zastosować motyw raportu do raportu usługi Power BI Desktop, możesz wybrać jeden spośród dostępnych wbudowanych motywów raportów lub zaimportować motyw niestandardowy.
+Aby zastosować motyw raportu do raportu usługi Power BI Desktop, wybierz motyw spośród dostępnych wbudowanych motywów raportów lub zaimportuj motyw niestandardowy.
 
 | Wbudowany motyw raportu | Domyślna sekwencja kolorów    |
 |------ |---------- |
@@ -57,36 +62,44 @@ Wybrany motyw raportu zostanie zastosowany do raportu i będzie można rozpoczą
 
 ### <a name="importing-report-themes"></a>Importowanie motywów raportów
 
-Aby zaimportować niestandardowy motyw raportu do raportu w programie Power BI Desktop, wybierz przycisk **Przełącz motyw** na karcie wstążki **Narzędzia główne**, a następnie wybierz pozycję **Importuj motyw** z listy rozwijanej.
+Aby zaimportować niestandardowy motyw raportu, wybierz przycisk **Przełącz motyw** na karcie wstążki **Narzędzia główne**. Następnie wybierz pozycję **Importuj motyw** z menu rozwijanego.
 
-![](media/desktop-report-themes/report-themes_3.png)
+![Importowanie motywu](media/desktop-report-themes/report-themes_3.png)
 
-Zostanie wyświetlone okno, w którym możesz przejść do lokalizacji pliku JSON zawierającego motyw. W programie Power BI Desktop wyszukiwane są pliki w formacie JSON, ponieważ jest to typ pliku używany dla motywów raportów programu Power BI Desktop. Poniższa ilustracja przedstawia szereg dostępnych plików z motywami okolicznościowymi. Wybierzemy motyw święta przypadającego w marcu.
+Zostanie wyświetlone okno, w którym możesz przejść do lokalizacji pliku JSON zawierającego motyw. W programie Power BI Desktop są wyszukiwane pliki JSON, ponieważ jest to typ pliku używany dla motywów raportów usługi Power BI. Poniższa ilustracja przedstawia szereg dostępnych plików z motywami okolicznościowymi. Wybierzmy motyw okolicznościowy do zastosowania w marcu.
 
-![](media/desktop-report-themes/report-themes_4.png)
+![Motyw okolicznościowy](media/desktop-report-themes/report-themes_4.png)
 
 W programie Power BI Desktop zostanie wyświetlony komunikat informujący o pomyślnym załadowaniu pliku motywu.
 
-![](media/desktop-report-themes/report-themes_5.png)
+![Pomyślnie zaimportowany motyw](media/desktop-report-themes/report-themes_5.png)
 
 Po zaimportowaniu motywu z pliku możemy przyjrzeć się prostej i przejrzystej strukturze pliku JSON.
 
 ## <a name="structure-of-a-report-theme-json-file"></a>Struktura pliku JSON zawierającego motyw raportu
-Po otwarciu w edytorze podstawowy plik JSON wybrany w poprzedniej sekcji (o nazwie *St Patricks Day.json*) wygląda następująco.
+ Po otwarciu w edytorze podstawowy plik JSON wybrany w poprzedniej sekcji (o nazwie *St Patrick's Day.json*) wygląda podobnie do poniższego zrzutu ekranu:
 
-![](media/desktop-report-themes/report-themes_6.png)
+![Plik JSON o nazwie St. Patrick's Day](media/desktop-report-themes/report-themes_6.png)
 
 Plik JSON zawiera następujące wymagane wiersze:
 
-* **name** (nazwa) — nazwa motywu, będąca jedynym polem wymaganym.
-* **dataColors** (kolory danych) — lista szesnastkowych kodów kolorów używanych dla danych w wizualizacjach programu Power BI Desktop. Ta lista może zawierać dowolną liczbę kolorów.
-* **background** (tło), **foreground** (pierwszy plan) i **tableAccent** (akcent tabeli) — te wartości określają kolory, które mają być stosowane w różnych typach wizualizacji. **Pierwszy plan** ma zastosowanie do tekstu w polu tekstowym, tekstu celu kluczowego wskaźnika wydajności, tekstu karty z wieloma wierszami, tekstu wartości karty, tekstu objaśnienia miernika, tekstu elementu fragmentatora pionowego oraz tekstu sumy oraz wartości **tabeli** i **macierzy**. **Tło** ma zastosowanie do wypełnienia przycisku i tła etykiety wykresu kombi. Sposób użycia tych kolorów zależy od konkretnie zastosowanego stylu wizualizacji. Te style są domyślnie stosowane w wizualizacjach **tabel** i **macierzy**.
+* **name** (nazwa): nazwa motywu, będąca jedynym polem wymaganym.
 
-Aby zastosować styl do wizualizacji **tabeli** lub **macierzy**, zaznacz wizualizację, a następnie w okienku **Wizualizacje** wybierz sekcję **Formatowanie**, rozwiń pozycję **Styl macierzy** i wybierz styl z listy rozwijanej **Styl**.
+* **dataColors** (kolory danych): lista szesnastkowych kodów kolorów używanych dla danych w wizualizacjach programu Power BI Desktop. Ta lista może zawierać dowolną liczbę kolorów.
 
-![](media/desktop-report-themes/report-themes_7.png)
+* **background** (tło), **foreground** (pierwszy plan) i **tableAccent** (akcent tabeli): kolory, które powinny być stosowane w różnych typach wizualizacji. 
+  - **Pierwszy plan** ma zastosowanie do tekstu w polu tekstowym, tekstu celu kluczowego wskaźnika wydajności, tekstu karty z wieloma wierszami, tekstu wartości karty, tekstu objaśnienia miernika, tekstu elementu fragmentatora pionowego oraz tekstu sumy oraz wartości **tabeli** i **macierzy**. 
+  - **Tło** ma zastosowanie do wypełnienia przycisku i tła etykiety wykresu kombi. Sposób użycia tych kolorów zależy od konkretnego zastosowanego stylu wizualizacji. 
+  - Te style są domyślnie stosowane w wizualizacjach **tabeli** i **macierzy**.
 
-Poniżej znajduje się tekst pliku *St Patricks Day.json*, który możesz łatwo wyciąć i wkleić w celu utworzenia własnego pliku JSON:
+Aby zastosować styl do wizualizacji **tabeli** lub **macierzy**, wykonaj następujące kroki: 
+1. Wybierz wizualizację. 
+2. Następnie w okienku **Wizualizacje** wybierz sekcję **Format**.
+3. Rozwiń pozycję **Styl macierzy**, a następnie wybierz żądany styl z listy rozwijanej **Styl**.
+
+![Lista rozwijana Styl](media/desktop-report-themes/report-themes_7.png)
+
+Poniżej znajduje się tekst pliku *St Patrick’s Day.json*, którego możesz użyć do utworzenia własnego pliku JSON:
 
     {
         "name": "St Patricks Day",
@@ -98,52 +111,52 @@ Poniżej znajduje się tekst pliku *St Patricks Day.json*, który możesz łatwo
 
 Następnie możesz określić własne kolory, wprowadzając ich kody szesnastkowe.
 
-Od wersji programu **Power BI Desktop** z września 2017 r. plik JSON może być znacznie bardziej rozbudowany. W pliku JSON możesz zdefiniować tylko wybrane elementy formatowania — do wszystkich elementów, które *nie* zostaną określone w pliku JSON, będą po prostu stosowane domyślne ustawienia usługi Power BI.
+Od wersji programu **Power BI Desktop** z września 2017 r. plik JSON może być znacznie bardziej rozbudowany. W pliku JSON możesz zdefiniować tylko elementy formatowania do dostosowania. Do wszystkich elementów, które *nie* zostaną określone w pliku JSON, będą po prostu stosowane domyślne ustawienia usługi Power BI.
 
-Utworzenie pliku JSON ma wiele zalet. Możesz na przykład określić, że na wszystkich wykresach ma być używana czcionka rozmiaru 12, że określone wizualizacje mają korzystać z określonej rodziny czcionek, lub że na określonych typach wykresu mają być wyłączone etykiety danych.
+Utworzenie pliku JSON ma wiele zalet. Możesz na przykład określić, że na wszystkich wykresach ma być używana czcionka rozmiaru 12 lub że określone wizualizacje mają korzystać z wybranej rodziny czcionek. Możesz również wyłączyć etykiety danych dla określonych typów wykresów.
 
-Dzięki użyciu szczegółowego pliku JSON możesz utworzyć plik motywu standardowego dla wykresów i raportów, co ułatwi zachowanie spójnego wyglądu raportów w organizacji.
+Jeśli używasz szczegółowego pliku JSON, możesz utworzyć plik motywu standardowego dla wykresów i raportów, co ułatwi zachowanie spójnego wyglądu raportów w organizacji.
 
-Aby uzyskać informacje dotyczące formatu szczegółowego pliku JSON, zobacz sekcję **Format pliku JSON zawierającego motyw raportu** na końcu tego artykułu.
+Aby uzyskać informacje dotyczące formatu szczegółowego pliku JSON, zobacz sekcję **Format pliku JSON zawierającego motyw raportu** w dalszej części tego artykułu.
 
 ## <a name="how-report-theme-colors-stick-to-your-reports"></a>Jak kolory motywu raportu są stosowane do raportów
 Gdy opublikujesz raport w **usłudze Power BI**, kolory motywu raportu zostaną zachowane.
 
-Ponadto kolory w sekcji **Kolory danych** w okienku **Formatowanie** odzwierciedlają motyw raportu. Na przykład jeśli po zastosowaniu różnych odcieni zieleni i brązu z motywu na **Dzień Św. Patryka** zaznaczysz wizualizację i przejdziesz do opcji **Formatuj > Kolory danych**, będzie ona wyglądać następująco.
+Kolory w sekcji **Kolory danych** w okienku **Formatowanie** odzwierciedlają motyw raportu. Na przykład po zastosowaniu różnych odcieni zieleni i brązu z motywu **St. Patrick's Day** wybierzemy wizualizację. Następnie przejdziemy do obszaru **Format > Kolory danych**, w którym zobaczysz następujące informacje:
 
-![](media/desktop-report-themes/report-themes_8.png)
+![Wizualizacje](media/desktop-report-themes/report-themes_8.png)
 
-Widzisz wszystkie te odcienie zieleni? Są tu dlatego, że należą do zaimportowanego i zastosowanego **motywu raportu**.
+Widzisz wszystkie te odcienie zieleni? Są tu dlatego, że należały do zaimportowanego i zastosowanego **motywu raportu**.
 
 ### <a name="situations-when-report-theme-colors-wont-stick-to-your-reports"></a>Sytuacje, w których kolory motywu raportu nie zostaną zachowane w raporcie
-Jeśli zastosujesz niestandardowy kolor lub zestaw kolorów do określonego punktu danych na wizualizacji, zastosowanie motywu raportu *nie* spowoduje zastąpienia tego niestandardowego koloru punktu danych.
+Załóżmy, że stosujesz niestandardowy zestaw kolorów (lub pojedynczy kolor) do określonego punktu danych w wizualizacji. Zastosowanie motywu raportu *nie* spowoduje zastąpienia tego dostosowanego koloru punktu danych.
 
-Ponadto jeśli ręcznie wybierzesz kolor punktu danych przy użyciu sekcji Kolory motywu na palecie kolorów, ten kolor (lub kolory) *nie* zostanie zaktualizowany po zastosowaniu nowego motywu raportu. Aby przywrócić kolory domyślne (dzięki czemu będą one aktualizowane po zastosowaniu nowego motywu raportu), możesz wybrać polecenie **Przywróć domyślne** na palecie **Kolory motywu**.
+Możesz również ręcznie ustawić kolor punktu danych przy użyciu sekcji Kolory motywu. Kolory *nie* zostaną zaktualizowane po zastosowaniu nowego motywu raportu. Jeśli chcesz przywrócić kolory domyślne, które będą aktualizowane po zastosowaniu nowego motywu raportu, wybierz pozycję **Przywróć domyślne** na palecie **Kolory motywu**.
 
-![](media/desktop-report-themes/report-themes_9.png)
+![Przywróć domyślne](media/desktop-report-themes/report-themes_9.png)
 
 Motywy raportów nie będą również stosowane w przypadku wielu **wizualizacji niestandardowych**.
 
 ## <a name="report-theme-files-you-can-use-right-now"></a>Pliki motywów raportów, których możesz użyć już teraz
-Chcesz rozpocząć korzystanie z **motywów raportów**? Doskonale! Tu znajdziesz kilka gotowych plików JSON z motywami raportów, które możesz pobrać i zaimportować do raportu w programie **Power BI Desktop**, oraz ilustracje przedstawiające wygląd motywu raportu na przykładzie raportu używanego w tym artykule.
+Chcesz rozpocząć korzystanie z **motywów raportów**? Poniżej przedstawiono kilka gotowych plików JSON zawierających motyw raportu, które można pobrać i zaimportować do raportu programu **Power BI Desktop**. Uwzględniliśmy również obraz motywu raportu zastosowany do raportu w tym artykule.
 
 * [Motyw](https://go.microsoft.com/fwlink/?linkid=843924) używany we [wpisie w blogu](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/), w którym ogłoszono pierwsze udostępnienie **motywów raportów**, o nazwie [*waveform.json*](https://go.microsoft.com/fwlink/?linkid=843924).
 
-![](media/desktop-report-themes/report-themes_10.png)
+  ![Motyw waverform.json](media/desktop-report-themes/report-themes_10.png)
 
-* [Motyw dostosowany do potrzeb osób niedowidzących](https://go.microsoft.com/fwlink/?linkid=843923) bardziej niż motyw domyślny, [*ColorblindSafe-Longer.json*](https://go.microsoft.com/fwlink/?linkid=843923).
+* [Motyw łatwiejszy do odczytania przez osoby niedowidzące](https://go.microsoft.com/fwlink/?linkid=843923) niż motyw domyślny. Nosi on nazwę [*ColorblindSafe-Longer.json*](https://go.microsoft.com/fwlink/?linkid=843923).
 
-![](media/desktop-report-themes/report-themes_11.png)
+  ![Motyw ColorblindSafe-Longer.json](media/desktop-report-themes/report-themes_11.png)
 
-* Zestaw [motywów programu Power View](https://go.microsoft.com/fwlink/?linkid=843925) w pliku zip, zawierający między innymi widoczny poniżej motyw [*Apothecary.json*](https://go.microsoft.com/fwlink/?linkid=843925).
+* Grupa [motywów programu Power View](https://go.microsoft.com/fwlink/?linkid=843925) w pliku zip, zawierająca między innymi widoczny poniżej motyw [*Apothecary.json*](https://go.microsoft.com/fwlink/?linkid=843925).
 
-![](media/desktop-report-themes/report-themes_12.png)
+  ![Motyw Apothecary.json](media/desktop-report-themes/report-themes_12.png)
 
-* A na koniec piękny i przyciągający uwagę motyw na *Walentynki*.
+* Ostatni motyw to *Valentine's Day* (Walentynki).
 
-![](media/desktop-report-themes/report-themes_13.png)
+  ![Motyw Valentine’s Day](media/desktop-report-themes/report-themes_13.png)
 
-Zamiast go pobierać, możesz skorzystać z poniższego kodu pliku JSON na Walentynki:
+Zamiast udostępniać plik do pobrania, oferujemy kod pliku JSON na Walentynki:
 
     {
         "name": "Valentine's Day",
@@ -153,9 +166,9 @@ Zamiast go pobierać, możesz skorzystać z poniższego kodu pliku JSON na Walen
         "tableAccent": "#990011"
     }
 
-**Motywy raportów** mogą sprawić, że kolory raportów w programie Power BI Desktop będą odzwierciedlać Ciebie, Twoją organizację, a nawet aktualną porę roku czy nadchodzące święta. Korzystaj z nich do woli — to proste!
+**Motywy raportów** mogą sprawić, że kolory raportów w programie Power BI Desktop będą odzwierciedlać Ciebie, Twoją organizację, a nawet aktualną porę roku czy nadchodzące święta. 
 
-Poniżej znajdziesz jeszcze kilka motywów raportów na początek:
+Poniżej znajdziesz kilka innych motywów raportów do użycia na początek:
 
 * [Sunflower-twilight](https://community.powerbi.com/t5/Themes-Gallery/Sunflower-Twilight/m-p/140749) (Słoneczniki o zmierzchu)
 * [Plum](https://community.powerbi.com/t5/Themes-Gallery/Plum/m-p/140711) (Śliwka)
@@ -165,11 +178,11 @@ Poniżej znajdziesz jeszcze kilka motywów raportów na początek:
 ## <a name="report-theme-json-file-format"></a>Format pliku JSON zawierającego motyw raportu
 Podstawowy plik JSON zawiera pięć wymaganych wierszy:
 
-* **name** (nazwa) — nazwa motywu, będąca jedynym polem wymaganym.
-* **dataColors** (kolory danych) — lista szesnastkowych kodów kolorów używanych dla danych w wizualizacjach programu Power BI Desktop. Ta lista może zawierać dowolną liczbę kolorów.
-* **background** (tło), **foreground** (pierwszy plan) i **tableAccent** (akcent tabeli) — te wartości określające kolory, które powinny zostać zastosowane w różnych typach wizualizacji. **Pierwszy plan** ma zastosowanie do tekstu w polu tekstowym, tekstu celu kluczowego wskaźnika wydajności, tekstu karty z wieloma wierszami, tekstu wartości karty, tekstu objaśnienia miernika, tekstu elementu fragmentatora pionowego oraz tekstu sumy oraz wartości **tabeli** i **macierzy**. **Tło** ma zastosowanie do wypełnienia przycisku i tła etykiety wykresu kombi. Sposób użycia tych kolorów zależy od konkretnie zastosowanego stylu wizualizacji. Te style są domyślnie stosowane w wizualizacjach **tabel** i **macierzy**.
+* **name** (nazwa): nazwa motywu, będąca jedynym polem wymaganym.
+* **dataColors** (kolory danych): lista szesnastkowych kodów kolorów używanych dla danych w wizualizacjach programu Power BI Desktop. Ta lista może zawierać dowolną liczbę kolorów.
+* **background** (tło), **foreground** (pierwszy plan) i **tableAccent** (akcent tabeli): kolory, które powinny być stosowane w różnych typach wizualizacji. **Pierwszy plan** ma zastosowanie do tekstu w polu tekstowym, tekstu celu kluczowego wskaźnika wydajności, tekstu karty z wieloma wierszami, tekstu wartości karty, tekstu objaśnienia miernika, tekstu elementu fragmentatora pionowego oraz tekstu sumy oraz wartości **tabeli** i **macierzy**. **Tło** ma zastosowanie do wypełnienia przycisku i tła etykiety wykresu kombi. Sposób użycia tych kolorów zależy od konkretnego zastosowanego stylu wizualizacji. Te style są domyślnie stosowane w wizualizacjach **tabel** i **macierzy**.
 
-Aby utworzyć plik JSON w formacie rozszerzonym, umożliwiającym bardziej szczegółowe określanie formatowania, należy dodać do pliku JSON sekcję **visualStyles** (style wizualizacji), w której zagnieżdżone będą szczegółowe ustawienia formatowania. Format sekcji **visualStyles** jest następujący:
+Aby utworzyć plik JSON w formacie rozszerzonym, umożliwiającym bardziej szczegółowe określanie formatowania, należy również dodać do pliku JSON sekcję **visualStyles** (style wizualizacji). W sekcji **visualStyles** są zagnieżdżone charakterystyki formatowania. Format sekcji **visualStyles** jest podobny do następującego:
 
     visualStyles: {
         visualName: {
@@ -181,17 +194,17 @@ Aby utworzyć plik JSON w formacie rozszerzonym, umożliwiającym bardziej szcze
         }
     }
 
-W sekcjach **visualName** (nazwa wizualizacji) i **cardName** (nazwa karty) możesz wskazać określoną wizualizację i nazwę karty lub użyć gwiazdki („\*”) — wówczas to ustawienie będzie stosowane do wszystkich wizualizacji lub wszystkich kart zawierających właściwość danej wizualizacji. Możesz użyć gwiazdki („\*”), aby ustawienie było stosowane globalnie w raporcie, na przykład jeśli chcesz określić rozmiar czcionki lub rodzinę czcionek, które mają być używane we wszystkich wizualizacjach w raporcie.
+W sekcjach **visualName** i **cardName** użyj określonej wizualizacji i nazwy karty. Użyj gwiazdki („\*”), jeśli chcesz, aby to ustawienie było stosowane do wszystkich wizualizacji lub kart zawierających właściwość danej wizualizacji. Możesz również użyć gwiazdki („\*”), aby ustawienie, takie jak rozmiar czcionki lub wybrana rodzina czcionek dla wizualizacji, było stosowane globalnie w raporcie.
 
 > [!NOTE]
-> Wystarczy określić te elementy formatowania, które chcesz zmienić. Do wszelkich elementów formatowania, które nie znajdą się w pliku JSON, będą po prostu stosowane domyślne wartości i ustawienia.
+> Wystarczy określić te elementy formatowania, które chcesz dostosować. Do wszelkich elementów formatowania, które nie znajdą się w pliku JSON, będą po prostu stosowane domyślne wartości i ustawienia.
 > 
 > 
 
 ### <a name="json-file-element-definitions"></a>Definicje elementów pliku JSON
 W tabelach w tej sekcji zdefiniowano nazwy wizualizacji (*visualName*), nazwy kart (*cardName*) oraz wyliczenia niezbędne do utworzenia pliku JSON.
 
-W przypadku użycia elementu *dateTime* (data/godzina) należy podać datę w formacie ISO w pojedynczych cudzysłowach, poprzedzoną ciągiem datetime, na przykład:
+W przypadku użycia elementu *dateTime* (data/godzina) należy podać datę w formacie ISO w pojedynczych cudzysłowach, poprzedzoną ciągiem datetime. Oto przykład:
 
     “datetime’2011-10-05T14:48:00.000Z’”
 
@@ -231,7 +244,7 @@ Wartości logiczne mogą mieć wartość *true* (prawda) lub *false* (fałsz). C
 | treemap (mapa drzewa) |
 | waterfallChart (wykres kaskadowy) |
 
-W poniższej tabeli zdefiniowano wartości właściwości *cardName*. Pierwsza wartość w każdej komórce to termin używany w pliku JSON, a druga to nazwa karty w interfejsie użytkownika programu **Power BI Desktop**.
+W poniższej tabeli zdefiniowano wartości właściwości *cardName*. Pierwsza wartość w każdej komórce to termin używany w pliku JSON. Druga wartość to nazwa karty w interfejsie użytkownika programu **Power BI Desktop**.
 
 | **cardName** |
 | --- |
@@ -288,7 +301,7 @@ W poniższej tabeli zdefiniowano wartości właściwości *cardName*. Pierwsza w
 | zoom: Powiększenie |
 
 ### <a name="properties-within-each-card"></a>Właściwości na poszczególnych kartach
-W poniższej sekcji zdefiniowano właściwości w ramach poszczególnych kart.
+W poniższej sekcji zdefiniowano właściwości w ramach poszczególnych kart:
 
     "general":
         "responsive": {
@@ -1176,7 +1189,7 @@ W poniższej sekcji zdefiniowano właściwości w ramach poszczególnych kart.
             "Value"
           ],
           "description": [
-            "Set reference line numeric value "
+            "Set reference line numeric value"
           ]
         },
         "lineColor": {
@@ -1312,7 +1325,7 @@ W poniższej sekcji zdefiniowano właściwości w ramach poszczególnych kart.
             "Value"
           ],
           "description": [
-            "Set reference line numeric value "
+            "Set reference line numeric value"
           ]
         },
         "lineColor": {
@@ -2029,7 +2042,7 @@ W poniższej sekcji zdefiniowano właściwości w ramach poszczególnych kart.
             "Value"
           ],
           "description": [
-            "Set reference line numeric value "
+            "Set reference line numeric value"
           ]
         },
         "lineColor": {

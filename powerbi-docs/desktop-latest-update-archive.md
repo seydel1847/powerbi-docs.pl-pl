@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: cda575c11be90c8e18a3a9f3b8325ccf674afffc
-ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
+ms.openlocfilehash: b068516b13b3aab134b20f95939c75a5b6e949b5
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/15/2018
-ms.locfileid: "49337087"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101697"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Poprzednie comiesięczne aktualizacje programu Power BI Desktop
 
@@ -341,7 +341,7 @@ Cieszymy się, że możemy zaprezentować aktualizacje programu **Power BI Deskt
 
 ### <a name="reporting"></a>Raportowanie
 
-* Etykietki narzędzi strony raportu [[wideo]](https://youtu.be/kuI6MMzDh34?t=16s) [[artykuł]]() [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#tooltips) 
+* Etykietki narzędzi strony raportu [[wideo]](https://youtu.be/kuI6MMzDh34?t=16s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#tooltips) 
 * Tworzenie zakładek jest teraz ogólnie dostępne [[wideo]](https://youtu.be/kuI6MMzDh34?t=9m2s) [[artykuł]](desktop-bookmarks.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#bookmarking) 
 * Wyświetlanie jednostek i sterowanie dokładnością w kolumnach tabeli i macierzy [[wideo]](https://youtu.be/kuI6MMzDh34?t=11m1s) [[artykuł]](desktop-slicer-numeric-range.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#displayUnits) 
 * Wyłączanie nagłówka wizualizacji w trybie odczytu raportu [[wideo]](https://youtu.be/kuI6MMzDh34?t=12m25s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#visualHeader) 

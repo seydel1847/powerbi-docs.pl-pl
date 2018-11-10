@@ -7,59 +7,68 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/08/2018
+ms.date: 11/01/2018
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 5013c70e4d3998eb39e0de2a92f890417175fd62
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 41b3a0b1032616045b854e4a4776ba82bffffe47
+ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34240911"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50909429"
 ---
 # <a name="using-an-alternate-email-address"></a>Korzystanie z alternatywnego adresu e-mail
-Domyślnie adres e-mail użyty podczas tworzenia konta w usłudze Power BI służy do wysyłania aktualizacji dotyczących działań w usłudze Power BI.  Na przykład gdy użytkownik wyśle do Ciebie zaproszenie do udostępniania, zostanie ono wysłane na ten adres.
 
-Czasami możesz chcieć, aby te wiadomości e-mail były dostarczane na alternatywny adres e-mail zamiast adresu użytego pierwotnie podczas rejestrowania się w usłudze Power BI.
+Podczas tworzenia konta usługi Power BI podajesz adres e-mail. Domyślnie usługa Power BI używa tego adresu do wysyłania aktualizacji dotyczących działań w usłudze. Na przykład gdy inny użytkownik wysyła do Ciebie zaproszenie do udostępniania, jest ono przekazywane na ten adres.
 
-## <a name="updating-through-office-365-personal-info-page"></a>Aktualizowanie przy użyciu strony informacji osobistych w usłudze Office 365
-1. Przejdź do strony [informacji osobistych w usłudze Office 365](https://portal.office.com/account/#personalinfo).  Jeśli zostanie wyświetlony monit, zaloguj się przy użyciu adresu e-mail i hasła używanego w usłudze Power BI.
-2. Kliknij link edycji w sekcji Szczegóły kontaktu.  
-   
-   > [!NOTE]
-   > Jeśli link edycji nie jest wyświetlany, oznacza to, że adresem e-mail zarządza administrator usługi Office 365 i musisz skontaktować się z nim, aby zaktualizować swój adres e-mail.
-   > 
-   > 
-   
-   ![](media/service-admin-alternate-email-address-for-power-bi/contact-details.png)
-3. W polu Alternatywny adres e-mail wprowadź adres, na który mają być wysyłane aktualizacje dotyczące usługi Power BI.
+W niektórych przypadkach możesz wybrać opcję dostarczania tych wiadomości e-mail na adres e-mail inny niż użyty podczas tworzenia konta. W tym artykule wyjaśniono, jak określić adres alternatywny w usłudze Office 365 i w programie PowerShell. Przedstawiono również sposób rozpoznawania adresu e-mail w usłudze Azure Active Directory (Azure AD).
 
 > [!NOTE]
-> Zmiana tego ustawienia nie wpłynie na adres e-mail używany do wysyłania aktualizacji dotyczących usług, biuletynów i innych informacji promocyjnych.  Te wiadomości będą zawsze wysyłane na adres e-mail użyty pierwotnie podczas rejestracji w usłudze Power BI.
-> 
-> 
+> Określanie adresu alternatywnego nie wpływa na to, którego adresu e-mail usługa Power BI używa na potrzeby aktualizacji usług, biuletynów i innych informacji promocyjnych.  Wiadomości tego typu są zawsze wysyłane na adres e-mail, którego użyto podczas tworzenia konta usługi Power BI.
 
-## <a name="updating-through-azure-active-directory"></a>Aktualizowanie przy użyciu usługi Azure Active Directory
-Podczas przechwytywania tokenu osadzania usługi Active Azure Directory (AAD) na potrzeby usługi Power BI można korzystać z trzech różnych rodzajów adresów e-mail. Są to następujące trzy typy:
+## <a name="use-office-365"></a>Korzystanie z usługi Office 365
 
-* Główny adres e-mail skojarzony z kontem usługi AAD użytkownika
-* Adres e-mail UserPrincipalName (UPN)
-* Adres e-mail z atrybutem tablicy „other”
+Aby określić adres alternatywny w usłudze Office 365, wykonaj poniższe kroki.
 
-Usługa Power BI wybiera adres e-mail do użycia na podstawie następujących kryteriów:
-1.  Jeśli w obiekcie użytkownika dzierżawy usługi AAD znajduje się atrybut poczty, usługa Power BI skorzysta z tego atrybutu poczty na potrzeby adresu e-mail.
-2.  Jeśli adres e-mail UPN *nie* jest adresem e-mail należącym do domeny **\*.onmicrosoft.com** (informacja po symbolu „@”), usługa Power BI użyje tego atrybutu poczty na potrzeby adresu e-mail.
-3.  Jeśli w obiekcie użytkownika usługi AAD znajduje się atrybut „other” tablicy adresu e-mail, zostanie użyty pierwszy adres e-mail z tej listy (ponieważ w tym atrybucie może być lista adresów e-mail).
-4. Jeśli żaden z powyższych warunków nie jest spełniony, zostanie użyty adres UPN.
+1. Otwórz [stronę informacji osobistych w usłudze Office 365](https://portal.office.com/account/#personalinfo). Jeśli zostanie wyświetlony monit, zaloguj się przy użyciu adresu e-mail i hasła używanego w usłudze Power BI.
 
-## <a name="updating-with-powershell"></a>Aktualizowanie za pomocą programu PowerShell
-Alternatywnie można zaktualizować adres e-mail przy użyciu programu PowerShell dla usługi Azure Active Directory. Można to zrobić przy użyciu polecenia [Set-AzureADUser](https://docs.microsoft.com/powershell/module/azuread/set-azureaduser).
+1. W menu po lewej stronie wybierz pozycję **Dane osobowe**.
 
-```
+1. W sekcji **Szczegóły kontaktu** wybierz pozycję **Edytuj**.
+
+    Jeśli nie możesz edytować swoich danych, oznacza to, że Twój adres e-mail jest zarządzany przez administratora usługi Office 365. Skontaktuj się z administratorem, aby zaktualizować adres e-mail.
+
+    ![Szczegóły kontaktu](media/service-admin-alternate-email-address-for-power-bi/contact-details.png)
+
+1. W polu **Alternatywny adres e-mail** wprowadź adres, na który mają być wysyłane aktualizacje dotyczące usługi Power BI.
+
+## <a name="use-powershell"></a>Korzystanie z programu PowerShell
+
+Aby określić adres alternatywny w programie PowerShell, użyj polecenia [Set-AzureADUser](/powershell/module/azuread/set-azureaduser/).
+
+```powershell
 Set-AzureADUser -ObjectId john@contoso.com -OtherMails "otheremail@somedomain.com"
 ```
 
-Aby uzyskać więcej informacji, zobacz [Program PowerShell usługi Azure Active Directory w wersji 2](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2).
+## <a name="email-address-resolution-in-azure-ad"></a>Rozpoznawanie adresów e-mail w usłudze Azure AD
+
+Podczas przechwytywania tokenu osadzania usługi Azure AD na potrzeby usługi Power BI można korzystać z trzech różnych typów adresów e-mail:
+
+* Główny adres e-mail skojarzony z kontem usługi Azure AD użytkownika
+
+* Adres e-mail UserPrincipalName (UPN)
+
+* *Adres e-mail typu „other”* (atrybut tablicy)
+
+Usługa Power BI wybiera adres e-mail do użycia na podstawie następującej sekwencji:
+
+1. Jeśli w obiekcie użytkownika usługi Azure AD znajduje się atrybut poczty, usługa Power BI skorzysta z tego atrybutu poczty na potrzeby adresu e-mail.
+
+1. Jeśli adres e-mail UPN *nie* jest adresem e-mail należącym do domeny **\*.onmicrosoft.com** (informacja po symbolu „@”), usługa Power BI użyje tego atrybutu poczty na potrzeby adresu e-mail.
+
+1. Jeśli w obiekcie użytkownika usługi AAD znajduje się atrybut tablicy *„other” dla adresu e-mail*, jest używany pierwszy adres e-mail z tej listy (ponieważ w tym atrybucie może znajdować się lista adresów e-mail).
+
+1. Jeśli żaden z powyższych warunków nie został spełniony, jest używany adres UPN.
 
 Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
 
