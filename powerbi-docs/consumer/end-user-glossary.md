@@ -5,14 +5,14 @@ services: power-bi
 author: mihart
 ms.service: powerbi-service
 ms.topic: resource
-ms.date: 09/27/2018
+ms.date: 11/09/2018
 ms.author: mihart
-ms.openlocfilehash: 30c8d94d6f224175cb2bee4cc6e6e475fe352f60
-ms.sourcegitcommit: f6360934b9af20bd630e2d3cb88398e3f5794090
+ms.openlocfilehash: d8238ae96bb57c580c0b74725b105ad7f4332136
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "48799265"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51508019"
 ---
 # <a name="glossary-for-power-bi-service"></a>Słownik dotyczący usługi Power BI
 Usługa Power BI może wprowadzać terminologię, która jest nieznana lub niejasna. Słownik to doskonałe miejsce do wyszukiwania terminologii. Możesz go nawet dodać do zakładek. Innym wspaniałym zasobem umożliwiającym poznanie bloków konstrukcyjnych usługi Power BI jest artykuł [Podstawowe pojęcia](end-user-basic-concepts.md). Sekcja Podstawowe pojęcia zapewnia szczegółowy przegląd *elementów* usługi Power BI oraz informacje o tym, jak są one połączone.
@@ -158,7 +158,7 @@ Pierwsze wystąpienie: lewy pasek nawigacyjny; kolejne wystąpienia lub węższe
 
 **strona listy** lub **lista zawartości** Jedna ze stron sekcji elementów w lewym pasku nawigacyjnym. Na przykład Ulubione, Ostatnie, Mój obszar roboczy itp.
 
-## <a name="m"></a>P
+## <a name="m"></a>mln
 
 **miary** Niestandardowe obliczenia napisane w programie Power BI Desktop przy użyciu kodu DAX lub szybkie miary.
 
@@ -229,7 +229,7 @@ Oparty na usługach SQL Server Reporting Services z bogatymi funkcjami raportowa
 **parametr ciągu zapytania**  
 Dodaj do adresu URL, aby wstępnie odfiltrować wyniki wyświetlane w raporcie usługi Power BI. W najszerszym znaczeniu ciąg zapytania odzyskuje informacje z bazy danych.
 
-**Szybki wgląd w szczegółowe informacje**
+**szybkiego wglądu w szczegółowe dane**
 
 
 **szybkie miary**
@@ -300,7 +300,7 @@ Pulpity nawigacyjne usługi Power BI zawierają kafelki raportów.
 
 **okienko Wizualizacje** Nazwa szablonów wizualizacji dostarczanych na udostępnionej kanwie raportu dla programu Power BI Desktop i usługi Power BI. Zawiera małe szablony, zwane również ikonami, dla każdego natywnego typu wizualizacji.  
 
-## <a name="w"></a>W
+## <a name="w"></a>Ś
 
 **skoroszyt** Skoroszyt programu Excel używany jako źródło danych. Skoroszyty mogą zawierać model danych z co najmniej jedną tabelą danych załadowaną do modelu przy użyciu tabel połączonych, funkcji Power Query lub narzędzia Power Pivot.
 
@@ -317,4 +317,4 @@ Pulpity nawigacyjne usługi Power BI zawierają kafelki raportów.
 
 ## <a name="next-steps"></a>Następne kroki
 
-- [Podstawowe pojęcia dla użytkownika usługi Power BI](/consumers/end-user-basic-concepts.md)
+[Podstawowe pojęcia dla użytkownika usługi Power BI](end-user-basic-concepts.md)

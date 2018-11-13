@@ -8,15 +8,15 @@ featuredvideoid: 9DeAKM4SNJM
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/20/2018
+ms.date: 11/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c547cd83d879cd81fe12c02f5418f5bf44ca1483
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 62a8ae907b01c8309aee101aa074e9bfb72b207d
+ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545950"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51265914"
 ---
 # <a name="customize-x-axis-and-y-axis-properties"></a>Dostosowywanie właściwości osi X i Y
 W tym samouczku poznasz różne sposoby na dostosowywanie osi X i Y wizualizacji. Nie wszystkie wizualizacje mają osie i nie wszystkie można dostosowywać. Na przykład wykresy kołowe nie mają osi. Opcje dostosowywania różnią się w zależności od wizualizacji, a liczba dostępnych opcji jest zbyt duża, aby można je opisać w ramach jednego artykułu. Przyjrzymy się niektórym z najczęściej używanych dostosowań osi i opiszemy szerzej, jak korzystać z karty formatowania wizualizacji na kanwie raportu usługi Power BI.  
@@ -86,30 +86,33 @@ Najpierw utworzymy wykres kombi, który prezentuje wpływ liczby sklepów na spr
 
     ![](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-line-chart.png)
 
-> [NOTE]: For help sorting by month, see [sorting by other criteria](../consumer/end-user-change-sort.md#other)
-> 1. W styczniu % marży brutto był równy 35%, wzrósł do 45% w kwietniu, spadł w lipcu i ponownie wzrósł w sierpniu. Czy podobny wzorzec sprzedaży wystąpił w poprzednim i bieżącym roku?
-> 2. Dodaj pozycje **This Year Sales > Value** i **Last Year Sales** do wykresu liniowego. Skala wartości **Gross Margin last year %** (niebieska linia biegnąca wzdłuż linii siatki 0%) jest znacznie mniejsza niż skala wartości **Sales**, co utrudnia ich porównanie. Jednocześnie etykiety wartości procentowych na osi Y wyglądają groteskowo.      
+    > [NOTE]: For help sorting by month, see [sorting by other criteria](../consumer/end-user-change-sort.md#other)
 
-   ![](media/power-bi-visualization-customize-x-axis-and-y-axis/flatline_new.png)
+    W styczniu % marży brutto był równy 35%, wzrósł do 45% w kwietniu, spadł w lipcu i ponownie wzrósł w sierpniu. Czy podobny wzorzec sprzedaży wystąpił w poprzednim i bieżącym roku?
+     
+3. Dodaj pozycje **This Year Sales > Value** i **Last Year Sales** do wykresu liniowego. Skala wartości **Gross Margin last year %** (niebieska linia biegnąca wzdłuż linii siatki 0%) jest znacznie mniejsza niż skala wartości **Sales**, co utrudnia ich porównanie. Jednocześnie etykiety wartości procentowych na osi Y wyglądają groteskowo.      
+
+    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/flatline_new.png)
+
 5. Aby ułatwić odczytanie i interpretację wizualizacji, przekonwertuj wykres liniowy na wykres liniowy i skumulowany kolumnowy.
 
    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/converttocombo_new.png)
 
 6. Przeciągnij pozycję **Gross Margin Last Year %** z obszaru **Wartości w kolumnie** do obszaru **Wartości liniowe**. W efekcie uzyskasz utworzony wyżej skumulowany wykres kolumnowy ***oraz*** wykres liniowy.  (Opcjonalnie użyj poznanych wyżej informacji, aby sformatować kolor i rozmiar czcionki osi).
    
-
    Usługa Power BI utworzy dwie osie, dzięki czemu zestawy danych można skalować w różny sposób, czyli po lewej stronie są mierzone pieniądze, po prawej stronie są mierzone procenty.
 
    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-dual-axes-new.png)
 
 ### <a name="format-the-secondary-y-axis"></a>Formatowanie pomocniczej osi Y
-1. W okienku **Wizualizacje** wybierz ikonę wałka do malowania, aby wyświetlić opcje formatowania.
-2. Rozwiń opcje osi Y, wybierając strzałkę w dół.
-3. Przewijaj listę do momentu, aż znajdziesz opcję **Pokaż pomocniczą**. Przełącz opcję **Pokaż pomocniczą** z pozycji **Wyłączone** na **Włączone**.
+1. W okienku **Wizualizacje** wybierz ikonę wałka do malowania, aby wyświetlić opcje formatowania.    
+2. Rozwiń opcje osi Y, wybierając strzałkę w dół.    
+3. Przewijaj listę do momentu, aż znajdziesz opcję **Pokaż pomocniczą**. Przełącz opcję **Pokaż pomocniczą** z pozycji **Wyłączone** na **Włączone**.    
 
    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/combo3.png)
 
    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-dual-axes.png)
+
 4. (Opcjonalnie) Dostosuj obie osie. Przełączenie opcji **Położenie** osi kolumn lub osi linii spowoduje zamianę stron osi.
 
    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-y-axes-options.png)
@@ -120,7 +123,7 @@ W przypadku skomplikowanych wizualizacji, jak ta, warto dodać tytuły osi.  Tyt
 1. Przełącz pozycję **Tytuł** na **Włączone** dla **osi Y (kolumnowy)** i **osi Y (liniowy)**.
 2. Ustaw wartość **Styl** na **Pokaż tylko tytuł**.
 
-   ![](media/power-bi-visualization-customize-x-axis-and-y-axis/yaxissettings.png)
+   ![](media/power-bi-visualization-customize-x-axis-and-y-axis/yaxissettings.png)    
 3. Wykres kombi wyświetli teraz dwie osie, obie z tytułami.
 
    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-combo-chart.png)

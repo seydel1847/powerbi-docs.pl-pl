@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/18/2018
 ms.author: otarb
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 873b83221aa5a1a728d648cccf7a23d5924dfb6d
-ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
+ms.openlocfilehash: c3664eee2d3836fc802d1728bbfe7fce3e03e18d
+ms.sourcegitcommit: 5eb0f37f59b5fec15c0caecbbd1f8d688c7f0013
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/17/2018
-ms.locfileid: "45975500"
+ms.lasthandoff: 11/09/2018
+ms.locfileid: "51297210"
 ---
 # <a name="using-python-in-query-editor"></a>Używanie języka Python w Edytorze zapytań
 W **Edytorze zapytań** programu Power BI Desktop możesz używać języka **Python**, czyli języka programowania używanego powszechnie przez statystyków, naukowców i analityków danych. Dzięki integracji z językiem Python **Edytor zapytań** umożliwia oczyszczanie danych przy użyciu języka Python, a także zaawansowane kształtowanie i analizowanie danych w zestawach danych — na przykład uzupełnianie brakujących danych, przewidywanie i grupowanie danych. **Python** to zaawansowany język, którego możesz używać w **Edytorze zapytań** do przygotowywania modelu danych i tworzenia raportów.
@@ -75,9 +75,7 @@ Teraz można utworzyć wizualizację, aby zobaczyć, w jaki sposób skrypt języ
 Po utworzeniu tej i wszelkich innych wymaganych wizualizacji w programie **Power BI Desktop** można zapisać plik programu **Power BI Desktop** (w formacie pbix), a następnie używać tego modelu danych, wraz z zawartymi w nim skryptami języka Python, w usłudze Power BI.
 
 > [!NOTE]
-> Chcesz zobaczyć gotowy plik pbix po wykonaniu tych czynności? Masz szczęście — możesz pobrać gotowy plik programu **Power BI Desktop** używany w tych przykładach [tutaj](http://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/Complete Values with Python in PQ.pbix).
-> 
-> 
+> Chcesz zobaczyć gotowy plik pbix po wykonaniu tych czynności? Masz szczęście — możesz pobrać gotowy plik programu **Power BI Desktop** używany w tych przykładach [tutaj](http://download.microsoft.com/download/A/B/C/ABCF5589-B88F-49D4-ADEB-4A623589FC09/Complete%20Values%20with%20Python%20in%20PQ.pbix).
 
 Po przekazaniu pliku pbix do usługi Power BI należy wykonać kilka dodatkowych czynności w celu włączenia odświeżania danych (w usłudze Power BI) oraz aktualizowania wizualizacji w usłudze (co wymaga włączenia dostępu do języka Python dla danych). Poniżej opisano te dodatkowe czynności:
 

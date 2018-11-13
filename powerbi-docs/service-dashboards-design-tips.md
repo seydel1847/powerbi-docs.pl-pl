@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 580d1ead35042d14c155c5a28fdb6ba6e6dbcd54
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 082d0ba1e638e8eaf6ae16fa8d5ed63c128c8ad5
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46544992"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51507858"
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>Porady dotyczące projektowania doskonałych pulpitów nawigacyjnych usługi Power BI
 Gdy już udało Ci się utworzyć pulpit nawigacyjny i dodać kafelki, zadbaj o to, aby Twój projekt był nie tylko ładny, ale i funkcjonalny. Ogólnie rzecz biorąc, chodzi o wyróżnienie najważniejszych informacji, tak aby pulpit nawigacyjny nie wyglądał na przepełniony i pozostał przejrzysty.
@@ -43,7 +43,7 @@ Pulpity nawigacyjne mają umożliwiać szybkie uzyskanie ważnych informacji, dl
 Pulpit nawigacyjny jest przepełniony?  Zostaw na nim tylko niezbędne informacje, które można łatwo odczytać i zinterpretować.
 
 ## <a name="make-use-of-full-screen-mode"></a>Wykorzystaj tryb pełnoekranowy
-Pulpit nawigacyjny możesz wyświetlić na [pełnym ekranie](service-fullscreen-mode.md) bez elementów rozpraszających uwagę.
+Pulpit nawigacyjny możesz wyświetlić na [pełnym ekranie](consumer/end-user-focus.md) bez elementów rozpraszających uwagę.
 
 ## <a name="make-the-most-important-information-biggest"></a>Największy rozmiar dla najważniejszych informacji
 Jeśli rozmiar tekstu i rozmiar wizualizacji będą takie same, użytkownicy będą mieć trudności ze skupieniem się na tym, co najważniejsze. Na przykład dobrą metodą wyróżnienia ważnej liczby jest użycie wizualizacji na kartach:  
