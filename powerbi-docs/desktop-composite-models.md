@@ -1,5 +1,5 @@
 ---
-title: Używanie modeli złożonych w programie Power BI Desktop (wersja zapoznawcza)
+title: Korzystanie z modeli złożonych w programie Power BI Desktop
 description: Tworzenie modeli danych z wieloma połączeniami danych i relacjami wiele-do-wielu w programie Power BI Desktop
 author: davidiseminger
 manager: kfile
@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/02/2018
+ms.date: 11/12/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 47c99e40b1665b98c33d16b685e359c10277a560
-ms.sourcegitcommit: 1a79e48ac820c28c5d0fd05399f49ed22fc74ed7
+ms.openlocfilehash: b7a8323557f769fa2a05d504de2540bc505e7a54
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/19/2018
-ms.locfileid: "49435401"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619706"
 ---
-# <a name="use-composite-models-in-power-bi-desktop-preview"></a>Używanie modeli złożonych w programie Power BI Desktop (wersja zapoznawcza)
+# <a name="use-composite-models-in-power-bi-desktop"></a>Korzystanie z modeli złożonych w programie Power BI Desktop
 
 Wcześniej, jeśli w programie Power BI Desktop użyto w raporcie trybu DirectQuery, użycie w nim innych połączeń danych&mdash;typu Direct Query lub importu&mdash;było niedozwolone. Dzięki modelom złożonym to ograniczenie zostało usunięte. W raporcie można bez problemów uwzględniać połączenia danych pochodzące z więcej niż jednego połączenia danych typu DirectQuery lub importu w dowolnej kombinacji.
 
@@ -27,19 +27,9 @@ Funkcja Modele złożone w programie Power BI Desktop składa się z trzech powi
 
 * **Modele złożone**: ta funkcja umożliwia użycie w raporcie wielu połączeń danych, takich jak połączenia trybu DirectQuery lub połączenia importu, w dowolnej kombinacji. W tym artykule szczegółowo opisano modele złożone.
 
-* **Relacje wiele-do-wielu** — za pomocą *modeli złożonych* można ustanowić *relacje wiele-do-wielu* między tabelami. Takie rozwiązanie powoduje usunięcie wymagań dotyczących unikatowych wartości w tabelach. Powoduje również usunięcie poprzednich obejść, np. wprowadzania nowych tabel tylko w celu ustanowienia relacji. Aby uzyskać więcej informacji, zobacz temat [Relacje wiele-do-wielu w programie Power BI Desktop (wersja zapoznawcza)](desktop-many-to-many-relationships.md).
+* **Relacje wiele-do-wielu**: za pomocą *modeli złożonych* można ustanowić *relacje wiele-do-wielu* między tabelami. Takie rozwiązanie powoduje usunięcie wymagań dotyczących unikatowych wartości w tabelach. Powoduje również usunięcie poprzednich obejść, np. wprowadzania nowych tabel tylko w celu ustanowienia relacji. Aby uzyskać więcej informacji, zobacz temat [Relacje wiele-do-wielu w programie Power BI Desktop (wersja zapoznawcza)](desktop-many-to-many-relationships.md).
 
 * **Tryb przechowywania** — teraz możesz określić, które wizualizacje wymagają zapytania do wewnętrznych źródeł danych. Wizualizacje, które nie wymagają zapytania, są importowane, nawet jeśli są oparte na trybie DirectQuery. Ta funkcja pomaga zwiększyć wydajność i zmniejszyć obciążenie zaplecza. Wcześniej nawet proste wizualizacje, takie jak fragmentatory, inicjowały zapytania wysyłane do źródeł wewnętrznych. Aby uzyskać więcej informacji, zobacz [Tryb przechowywania w programie Power BI Desktop (wersja zapoznawcza)](desktop-storage-mode.md).
-
-## <a name="enable-the-composite-models-preview-feature"></a>Włączanie funkcji modeli złożonych w wersji zapoznawczej
-
-Funkcja modeli złożonych jest dostępna w wersji zapoznawczej i należy ją włączyć w programie Power BI Desktop. Aby włączyć modele złożone, wybierz kolejno pozycje **Plik** > **Opcje i ustawienia** > **Opcje** > **Funkcje w wersji zapoznawczej**, a następnie zaznacz pole wyboru **Modele złożone**. 
-
-![Okienko „Funkcje w wersji zapoznawczej”](media/desktop-composite-models/composite-models_02.png)
-
-Aby włączyć tę funkcję, należy ponownie uruchomić program Power BI Desktop.
-
-![Okno „Funkcja wymaga ponownego uruchomienia”](media/desktop-composite-models/composite-models_03.png)
 
 
 ## <a name="use-composite-models"></a>Używanie modeli złożonych

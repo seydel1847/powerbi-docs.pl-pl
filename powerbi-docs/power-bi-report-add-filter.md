@@ -1,25 +1,27 @@
 ---
-title: Dodawanie filtru do wizualizacji, strony, przeglądania szczegółowego lub raportu usługi Power BI
-description: Dodawanie filtru strony, filtru wizualnego, filtru raportu lub filtru przeglądania szczegółowego do raportu w usłudze Power BI
+title: Dodawanie filtru do raportu usługi Power BI
+description: Dodawanie filtru strony, filtru wizualnego lub filtru raportu do raportu w usłudze Power BI
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/28/2018
+ms.date: 11/08/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: c70e29bf7dcd5a307cbcb4762595716595dfa523
-ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
+ms.openlocfilehash: c50afced257df1878a0a695a37d9401d9eda01b7
+ms.sourcegitcommit: ea77827127e0781f1d6877c0a3078aec7eb6694a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "50973286"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "51611157"
 ---
 # <a name="add-a-filter-to-a-power-bi-service-report-in-editing-view"></a>Dodawanie filtru do raportu usługi Power BI (w widoku do edycji)
 
 W tym artykule przedstawiono sposób dodawania filtru strony, filtru wizualnego, filtru raportu lub filtru przeglądania szczegółowego do raportu w usłudze Power BI. Przykłady z tego artykułu działają w usłudze Power BI. Czynności wykonywane w programie Power BI Desktop są prawie identyczne.
+
+**Czy wiesz?** Usługa Power BI oferuje nową funkcję filtrowania — obecnie w wersji zapoznawczej. Przeczytaj więcej na temat [nowej funkcji filtrowania w raportach usługi Power BI](power-bi-report-filter-preview.md).
 
 ## <a name="filters-in-editing-view-or-reading-view"></a>Filtry w widoku do edycji lub w widoku do czytania
 Interakcje z raportami można przeprowadzać w dwóch różnych widokach: widoku do czytania i widoku do edycji. Dostępne możliwości filtrowania zależą od widoku, w którym się znajdujesz. Przeczytaj temat opisujący [filtry i wyróżnianie w raportach usługi Power BI](power-bi-reports-filters-and-highlighting.md), aby uzyskać szczegółowe informacje.

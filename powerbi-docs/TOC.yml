@@ -54,9 +54,11 @@ items:
     items:
     - name: Co nowego w najnowszej aktualizacji programu Power BI Desktop?
       href: desktop-latest-update.md
+    - name: Widok modelowania w programie Power BI Desktop (wersja zapoznawcza)
+      href: desktop-modeling-view.md
     - name: Agregacje w programie Power BI Desktop (wersja zapoznawcza)
       href: desktop-aggregations.md
-    - name: Modele złożone w programie Power BI Desktop (wersja zapoznawcza)
+    - name: Modele złożone w programie Power BI Desktop
       href: desktop-composite-models.md
     - name: Relacje wiele-do-wielu w programie Power BI Desktop (wersja zapoznawcza)
       href: desktop-many-to-many-relationships.md
@@ -232,6 +234,8 @@ items:
         href: desktop-bookmarks.md
       - name: Używanie motywów raportów
         href: desktop-report-themes.md
+      - name: Wypróbowywanie nowej funkcji filtrowania
+        href: power-bi-report-filter-preview.md
       - name: Używanie szybkich miar
         href: desktop-quick-measures.md
       - name: Używanie parametrów analizy warunkowej
@@ -768,17 +772,17 @@ items:
       items:
       - name: Przygotowywanie danych samoobsługi przy użyciu przepływów danych (wersja zapoznawcza)
         href: service-dataflows-overview.md
-      - name: Tworzenie i używanie przepływów danych
+      - name: Tworzenie i używanie przepływów danych (wersja zapoznawcza)
         href: service-dataflows-create-use.md
-      - name: Obliczone jednostki w usłudze Power BI Premium
+      - name: Obliczone jednostki w usłudze Power BI Premium (wersja zapoznawcza)
         href: service-dataflows-computed-entities-premium.md
-      - name: Używanie przepływów danych z lokalnymi źródłami danych
+      - name: Używanie przepływów danych z lokalnymi źródłami danych (wersja zapoznawcza)
         href: service-dataflows-on-premises-gateways.md
       - name: Łączenie jednostek między przepływami danych (wersja zapoznawcza)
         href: service-dataflows-linked-entities.md
       - name: Korzystanie z odświeżania przyrostowego przy użyciu przepływów danych (wersja zapoznawcza)
         href: service-dataflows-incremental-refresh.md
-      - name: Zasoby dla deweloperów dotyczące przepływów danych
+      - name: Zasoby dla deweloperów dotyczące przepływów danych (wersja zapoznawcza)
         href: service-dataflows-developer-resources.md
       - name: Łączenie się z przepływami danych w programie Power BI Desktop
         href: desktop-connect-dataflows.md
@@ -1249,9 +1253,9 @@ items:
       href: service-admin-governance.md
     - name: Zabezpieczenia usługi Power BI
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 7c2025a2dd23ce58937cd9987bec8d28b8ffb04c
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.openlocfilehash: 89c0a22887d00b325abeddd193bbf71af97feb9f
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51508065"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619667"

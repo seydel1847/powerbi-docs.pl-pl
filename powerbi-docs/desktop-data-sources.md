@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/15/2018
+ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a5a4f6532fe127fe01b699ee9d9e89693fdb369e
-ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
+ms.openlocfilehash: a49b433af32e6c0f03d43333a424864c5463ddd3
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/15/2018
-ms.locfileid: "49336903"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619821"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Źródła danych w programie Power BI Desktop
 Korzystając z programu Power BI Desktop, możesz nawiązywać połączenie z danymi z wielu różnych źródeł. Pełna lista dostępnych źródeł danych znajduje się w dolnej części tej strony.
@@ -30,8 +30,6 @@ Po wybraniu pozycji **Więcej...** z menu **Najpopularniejsze** zostanie wyświe
 
 > [!NOTE]
 > Zespół usługi Power BI nieustannie rozszerza źródła danych dostępne w programie **Power BI Desktop** i **usłudze Power BI**. Z tego powodu często będzie można zauważyć wczesne wersje eksperymentalnych źródeł danych oznaczone jako *beta* lub *wersja zapoznawcza*. Wszystkie źródła danych oznaczone jako *beta* lub *wersja zapoznawcza* mają ograniczone wsparcie i funkcjonalność, dlatego nie powinny być używane w środowiskach produkcyjnych.
-> 
-> 
 
 ## <a name="data-sources"></a>Źródła danych
 Typy danych sklasyfikowano w następujące kategorie:
@@ -80,15 +78,14 @@ Kategoria **Baza danych** udostępnia następujące połączenia danych:
 * Impala
 * Google BigQuery
 * Snowflake
+* Łącznik BI
+* Exasol
 * Dremio (wersja beta)
-* Exasol (wersja beta)
 * Jethro (wersja beta)
 * Kyligence Enterprise (wersja beta)
 
 > [!NOTE]
 > Niektóre łączniki baz danych wymagają włączenia przez wybranie pozycji **Plik > Opcje i ustawienia > Opcje**, a następnie wybranie opcji **Funkcje wersji zapoznawczej** i włączenie łącznika. Jeśli chcesz użyć niektórych łączników wymienionych powyżej, ale ich nie widzisz, sprawdź ustawienie **Funkcje wersji zapoznawczej**. Pamiętaj jednak, że wszystkie źródła danych oznaczone jako *beta* lub *wersja zapoznawcza* mają ograniczone wsparcie i funkcjonalność, dlatego nie powinny być używane w środowiskach produkcyjnych.
-> 
-> 
 
 Na poniższej ilustracji przedstawiono okno **Pobieranie danych** dla kategorii **Baza danych**.
 
@@ -111,11 +108,11 @@ Kategoria **Azure** udostępnia następujące połączenia danych:
 * Azure Blob Storage
 * Azure Table Storage
 * Azure Cosmos DB (beta)
-* Azure Data Lake Store
+* Azure Data Lake Storage
 * Azure HDInsight (HDFS)
 * Azure HDInsight Spark
 * Interaktywne zapytanie usługi HDInsight
-* Azure KustoDB (beta)
+* Azure Data Explorer (wersja beta)
 
 Na poniższej ilustracji przedstawiono okno **Pobieranie danych** dla kategorii **Azure**.
 
@@ -131,7 +128,8 @@ Kategoria **Usługi online** udostępnia następujące połączenia danych:
 * Dynamics 365 Business Central (wersja lokalna)
 * Common Data Service for Apps (wersja beta)
 * Microsoft Azure Consumption Insights (beta)
-* Visual Studio Team Services (beta)
+* Azure DevOps (wersja beta)
+* Azure DevOps Server (wersja beta)
 * Obiekty Salesforce
 * Raporty Salesforce
 * Google Analytics
@@ -187,8 +185,6 @@ Na poniższej ilustracji przedstawiono okno **Pobieranie danych** dla kategorii 
 
 > [!NOTE]
 > Aktualnie nie jest możliwe nawiązanie połączenia z niestandardowymi źródłami danych zabezpieczonymi przy użyciu usługi Azure Active Directory.
-> 
-> 
 
 ## <a name="connecting-to-a-data-source"></a>Nawiązywanie połączenia ze źródłem danych
 Aby nawiązać połączenie ze źródłem danych, wybierz źródło danych w oknie **Pobieranie danych** i wybierz przycisk **Połącz**. Na poniższej ilustracji zaznaczono pozycję **Internet** z kategorii **Inne** połączeń danych.
