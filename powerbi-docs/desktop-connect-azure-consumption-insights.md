@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 05a84d34bf82be99eb52fccfb6318142f7d47de1
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: c770423b81c6d5cd4135539d8d44c3cc46f8b6fe
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39329919"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619614"
 ---
 # <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>Nawiązywanie połączenia z łącznikiem Azure Consumption Insights za pomocą programu Power BI Desktop (wersja beta)
 Korzystając z łącznika **Azure Consumption Insights**, można za pomocą usługi **Power BI Desktop** połączyć się z platformą Azure i uzyskać szczegółowe dane oraz informacje użyciu usług Azure w danej organizacji. Informacje o użyciu platformy Azure w organizacji można także prezentować w raportach i udostępniać, tworząc miary, kolumny niestandardowe i wizualizacje. To wydanie łącznika **Azure Consumption Insights** jest w wersji beta i może ulec zmianom.
@@ -49,9 +49,20 @@ Następnie podaj *Klucz dostępu* do nawiązania połączenia.
   
   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_09.png)
 
-Kiedy podasz swój *Klucz dostępu* i wybierzesz pozycję **Połącz**, zostanie wyświetlone okno **Navigator** (Nawigator) z czterema tabelami: *Summary* (Podsumowanie), *Usage* (Użycie), *PriceSheet* (Cennik) i *MarketPlace*. Zaznacz pole wyboru obok danej tabeli, aby wyświetlić jej podgląd. Możesz zaznaczyć co najmniej jedną tabelę, zaznaczając pole obok jej nazwy i wybierając pozycję **Load** (Załaduj).
+Kiedy podasz swój *Klucz dostępu* i wybierzesz pozycję **Połącz**, zostanie wyświetlone okno **Nawigator** z dziewięcioma dostępnymi tabelami: 
+* **Budgets**: dostarcza szczegółów budżetu, pozwalając wyświetlić faktyczne koszty lub użycie względem istniejących celów budżetu. 
+* **MarketPlace**: dostarcza oparte na użyciu opłaty platformy Azure Marketplace.
+* **PriceSheets**: dostarcza odpowiednie stawki według miernika w ramach rejestracji.
+* **RICharges**: dostarcza opłaty powiązane z wystąpieniami zarezerwowanymi w ciągu 24 ostatnich miesięcy.
+* **RIRecommendations_Single**: dostarcza rekomendacje zakupu wystąpienia zarezerwowanego na podstawie Twoich trendów użycia w ramach jednej subskrypcji w ciągu ostatnich 7, 30 do 60 dni.
+* **RIRecommendations_Shared**: dostarcza rekomendacje zakupu wystąpienia zarezerwowanego na podstawie Twoich trendów użycia w ramach wszystkich Twoich subskrypcji w ciągu ostatnich 7, 30 do 60 dni.
+* **RIUsage**: dostarcza szczegółów użycia dla istniejących wystąpień zarezerwowanych w ciągu ostatniego miesiąca.
+* **Summaries**: dostarcza miesięczne podsumowanie dotyczące salda, nowych zakupów, opłat za usługę Azure Marketplace, korekt i opłat za nadwyżki.
+* **UsageDetails**: dostarcza podział wykorzystanych ilości i szacowanych opłat w ramach rejestracji.
 
-![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_04.png)
+Zaznacz pole wyboru obok danej tabeli, aby wyświetlić jej podgląd. Możesz zaznaczyć co najmniej jedną tabelę, zaznaczając pole obok jej nazwy i wybierając pozycję **Load** (Załaduj).
+
+![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_04b.png)
 
 > [!NOTE]
 > Tabele *Summary* (Podsumowanie) i *PriceSheet* (Cennik) są dostępne tylko w przypadku klucza interfejsu API na poziomie rejestracji. Ponadto dane w tabelach *Usage* (Użycie) i *PriceSheet* (Cennik) domyślnie zawierają dane z bieżącego miesiąca. Zawartości tabel *Summary* (Podsumowanie) i *MarketPlace* nie jest ograniczona do bieżącego miesiąca.

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/17/2018
+ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: df61b9c68407ef0d00d1d5981c57021e7659cfff
-ms.sourcegitcommit: fbb27fb40d753b5999a95b39903070766f7293be
+ms.openlocfilehash: 18d5b2ca504ec3533e2ded0e5480885ea862fb3a
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2018
-ms.locfileid: "49359751"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619499"
 ---
 # <a name="storage-mode-in-power-bi-desktop-preview"></a>Tryb przechowywania w programie Power BI Desktop (wersja zapoznawcza)
 
@@ -37,21 +37,11 @@ Ustawienie trybu przechowywania ma wiele zalet. Tryb przechowywania dla każdej 
 
 Ustawienie trybu przechowywania w programie Power BI Desktop jest jedną z trzech powiązanych funkcji:
 
-* **Modele złożone** — ta funkcja umożliwia użycie w raporcie co najmniej dwóch połączeń danych, takich jak połączenia trybu DirectQuery lub importowanie, w dowolnej kombinacji. Aby uzyskać więcej informacji, zobacz temat [Modele złożone w programie Power BI Desktop (wersja zapoznawcza)](desktop-composite-models.md).
+* **Modele złożone** — ta funkcja umożliwia użycie w raporcie co najmniej dwóch połączeń danych, takich jak połączenia trybu DirectQuery lub importowanie, w dowolnej kombinacji. Aby uzyskać więcej informacji, zobacz [Modele złożone w programie Power BI Desktop (wersja zapoznawcza)](desktop-composite-models.md).
 
 * **Relacje wiele-do-wielu** — za pomocą *modeli złożonych* można ustanowić *relacje wiele-do-wielu* między tabelami. Funkcja *Relacje wiele-do-wielu* powoduje usunięcie wymagań dotyczących unikatowych wartości w tabelach. Powoduje również usunięcie poprzednich obejść, np. wprowadzania nowych tabel tylko w celu ustanowienia relacji. Aby uzyskać więcej informacji, zobacz temat [Relacje wiele-do-wielu w programie Power BI Desktop (wersja zapoznawcza)](desktop-many-to-many-relationships.md).
 
 * **Tryb przechowywania** — teraz możesz określić, które wizualizacje wymagają zapytania do wewnętrznych źródeł danych. Wizualizacje, które nie wymagają zapytania, są importowane, nawet jeśli są oparte na trybie DirectQuery. Ta funkcja pomaga zwiększyć wydajność i zmniejszyć obciążenie zaplecza. Wcześniej nawet proste wizualizacje, takie jak fragmentatory, inicjowały zapytania wysyłane do źródeł wewnętrznych. Tryb przechowywania został szczegółowo opisany w tym artykule.
-
-## <a name="enable-the-storage-mode-preview-feature"></a>Włączanie funkcji trybu przechowywania w wersji zapoznawczej
-
-Funkcja trybu przechowywania jest dostępna w wersji zapoznawczej i należy ją włączyć w programie Power BI Desktop. Aby włączyć tryb przechowywania, wybierz kolejno pozycje **Plik** > **Opcje i ustawienia** > **Opcje** > **Funkcje w wersji zapoznawczej**, a następnie zaznacz pole wyboru **Modele złożone**. 
-
-![Okienko „Funkcje w wersji zapoznawczej”](media/desktop-composite-models/composite-models_02.png)
-
-Aby włączyć tę funkcję, uruchom ponownie program Power BI Desktop.
-
-![Okno „Funkcja wymaga ponownego uruchomienia”](media/desktop-composite-models/composite-models_03.png)
 
 ## <a name="use-the-storage-mode-property"></a>Korzystanie z właściwości trybu przechowywania
 
@@ -75,19 +65,7 @@ Zmiana właściwości tabeli na wartość **Import** jest operacją *nieodwracal
 
 ## <a name="constraints-on-directquery-and-dual-tables"></a>Ograniczenia dotyczące tabel trybu DirectQuery i Podwójne
 
-Tabele trybu Podwójne podlegają tym samym ograniczeniom, co tabele trybu DirectQuery. Są to m.in. ograniczone przekształcenia języka M i ograniczone funkcje języka DAX w kolumnach obliczeniowych. Aby uzyskać więcej informacji, zobacz sekcję [Implikacje wynikające z użycia zapytania bezpośredniego](desktop-directquery-about.md#implications-of-using-directquery).
-
-## <a name="relationship-rules-on-tables-with-different-storage-modes"></a>Reguły dotyczące relacji w tabelach z różnymi trybami przechowywania
-
-Relacje muszą być zgodne z regułami opartymi na trybie przechowywania powiązanych tabel. W tej sekcji przedstawiono przykłady prawidłowych kombinacji. Aby uzyskać więcej informacji, zobacz temat [Relacje wiele-do-wielu w programie Power BI Desktop (wersja zapoznawcza)](desktop-many-to-many-relationships.md).
-
-W zestawie danych z pojedynczym źródłem danych następujące kombinacje relacji typu *1-do wielu* są prawidłowe:
-
-| Tabela po stronie *wiele* | Tabela po stronie *1* |
-| ------------- |----------------------| 
-| Podwójne          | Podwójne                 | 
-| Importuj        | Import lub Podwójne       | 
-| DirectQuery   | DirectQuery lub Podwójne  | 
+Tabele podwójne mają te same ograniczenia funkcjonalne, co tabele DirectQuery. Są to m.in. ograniczone przekształcenia języka M i ograniczone funkcje języka DAX w kolumnach obliczeniowych. Aby uzyskać więcej informacji, zobacz sekcję [Implikacje wynikające z użycia zapytania bezpośredniego](desktop-directquery-about.md#implications-of-using-directquery).
 
 ## <a name="propagation-of-dual"></a>Propagacja tabeli podwójnej
 Weźmy pod uwagę następujący prosty model, w którym wszystkie tabele pochodzą z jednego źródła obsługującego tryby importu i DirectQuery.
@@ -98,19 +76,16 @@ Załóżmy, że na początku wszystkie tabele w tym modelu działają w trybie D
 
 ![Okno z ostrzeżeniem trybu przechowywania](media/desktop-storage-mode/storage-mode_05.png)
 
-Tabele wymiarów (*Customer* (Klient), *Date* (Data) i *Geography* (Geografia)) należy ustawić na **Podwójne**, aby zachować zgodność z opisanymi wcześniej regułami dotyczącymi relacji. Nie ma konieczności wcześniejszego ustawiania tych tabel na **Podwójne** i można ustawić je w ramach jednej operacji.
+Tabele wymiarów (*Customer*, *Geography* i *Date*) mogą mieć ustawienie **Podwójne** w celu zmniejszenia liczby słabych relacji w zestawie danych, a także zwiększenia wydajności. Słabe relacje zwykle obejmują co najmniej jedną tabelę DirectQuery, gdzie logika łączenia nie może być wypchnięta do systemów źródłowych. Fakt, że tabele z ustawieniem **Podwójne** mogą działać w trybie DirectQuery lub Import, pomaga tego uniknąć.
 
 Logika propagacji została zaprojektowana tak, aby ułatwiać pracę z modelami zawierającymi wiele tabel. Załóżmy, że masz model z 50 tabelami i musisz buforować tylko niektóre tabele faktów (transakcyjne). Logika w programie Power BI Desktop oblicza minimalny zestaw tabel wymiarów, które należy ustawić na tryb **Podwójne**, więc nie musisz tego robić samodzielnie.
 
 Logika propagacji przechodzi tylko do jednej strony relacji **1-do wielu**.
 
-* Zmiana tabeli *Customer* (Klient) na tryb **Import** — zamiast zmiany tabeli *SurveyResponse* (Odpowiedź na ankietę) — jest niedozwolona z powodu relacji z tabelami DirectQuery *Sales* (Sprzedaż) i *SurveyResponse* (Odpowiedź na ankietę).
-* Zmiana tabeli *Customer* (Klient) na tryb **Podwójne** — zamiast zmiany tabeli *SurveyResponse* (Odpowiedź na ankietę) — jest dozwolona. Logika propagacji powoduje również ustawienie tabeli *Geography* (Geografia) na wartość **Podwójne**.
-
 ## <a name="storage-mode-usage-example"></a>Przykład użycia trybu przechowywania
 Kontynuujmy pracę z przykładem z poprzedniej sekcji i wyobraźmy sobie, że stosujemy następujące ustawienia właściwości trybu przechowywania:
 
-| Tabela                   | Tryb przechowywania         |
+| tabela                   | Tryb przechowywania         |
 | ----------------------- |----------------------| 
 | *Sales*                 | DirectQuery          | 
 | *SurveyResponse*        | Importuj               | 
@@ -191,4 +166,3 @@ Aby uzyskać więcej informacji na temat modeli złożonych i trybu DirectQuery,
 * [Relacje wiele-do-wielu w programie Power BI Desktop (wersja zapoznawcza)](desktop-many-to-many-relationships.md)
 * [Używanie zapytania bezpośredniego w usłudze Power BI](desktop-directquery-about.md)
 * [Źródła danych obsługiwane przez tryb DirectQuery w usłudze Power BI](desktop-directquery-data-sources.md)
-

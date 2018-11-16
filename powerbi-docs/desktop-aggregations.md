@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/17/2018
+ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 3e94dc516f41d764394828309ba4b612083d4583
-ms.sourcegitcommit: fbb27fb40d753b5999a95b39903070766f7293be
+ms.openlocfilehash: e88e60bc1745a08ea53c7336f6f1fb9e4cda1ec8
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2018
-ms.locfileid: "49359728"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619729"
 ---
 # <a name="aggregations-in-power-bi-desktop-preview"></a>Agregacje w programie Power BI Desktop (wersja zapoznawcza)
 
@@ -25,15 +25,15 @@ Za pomocą **agregacji** usługa Power BI umożliwia przeprowadzanie interaktywn
 
 Na poniższej liście przedstawiono zalety korzystania z **agregacji**:
 
-* **Wydajność zapytań w dużych zestawach danych** — gdy użytkownicy korzystają z wizualizacji w raportach usługi Power BI, zapytania języka DAX są przesyłane do zestawu danych. Zwiększ wydajność zapytań poprzez buforowanie danych na poziomie zagregowanym, korzystając z ułamka zasobów wymaganych na poziomie szczegółowym. Uwzględniaj dane big data w sposób, który inaczej nie byłby możliwy.
+* **Wydajność zapytań na danych big data** — gdy użytkownicy korzystają z wizualizacji w raportach usługi Power BI, zapytania języka DAX są przesyłane do zestawu danych. Zwiększ wydajność zapytań poprzez buforowanie danych na poziomie zagregowanym, korzystając z ułamka zasobów wymaganych na poziomie szczegółowym. Uwzględniaj dane big data w sposób, który inaczej byłby niemożliwy.
 * **Optymalizacja odświeżania danych** — redukuj rozmiary pamięci podręcznej i czas odświeżania, buforując dane na poziomie zagregowanym. Przyspiesz czas udostępniania danych użytkownikom.
 * **Osiągnięcie zrównoważonych architektur** — zezwól wewnątrzpamięciowej pamięci podręcznej usługi Power BI na skuteczną obsługę zagregowanych zapytań. Ogranicz zapytania wysyłane do źródła danych w trybie DirectQuery, dzięki czemu łatwiej będzie utrzymać limity współbieżności. Zapytania przedostające się dalej to zazwyczaj filtrowane zapytania na poziomie transakcyjnym, które zwykle są dobrze obsługiwane przez magazyny danych i systemy danych big data.
 
 ### <a name="table-level-storage"></a>Magazyn na poziomie tabeli
-Magazyn na poziomie tabeli jest normalnie używany z funkcją agregacji. Zobacz artykuł opisujący [tryb przechowywania w programie Power BI Desktop (wersja zapoznawcza)](desktop-storage-mode.md), aby uzyskać więcej informacji.
+Magazyn na poziomie tabeli jest normalnie używany z funkcją agregacji. Zobacz artykuł opisujący [tryb przechowywania w programie Power BI Desktop](desktop-storage-mode.md), aby uzyskać więcej informacji.
 
 ### <a name="data-source-types"></a>Typy źródeł danych
-Agregacje są używane ze źródłami danych reprezentującymi modele wymiarowe, np. magazynami danych i składnicami danych, a także źródłami danych big data opartymi na usłudze Hadoop. W tym artykule opisano typowe różnice w modelowaniu w usłudze Power BI dla każdego typu źródła danych.
+Agregacje są używane ze źródłami danych reprezentującymi modele wymiarowe, np. magazynami danych, składnicami danych i źródłami danych big data opartymi na usłudze Hadoop. W tym artykule opisano typowe różnice w modelowaniu w usłudze Power BI dla każdego typu źródła danych.
 
 Wszystkie źródła usługi Power BI typu Import (inne niż wielowymiarowe) oraz DirectQuery współpracują z agregacjami.
 
@@ -55,9 +55,9 @@ Weź pod uwagę następujący model, który pochodzi z jednego źródła danych.
 
 ![tabele w modelu](media/desktop-aggregations/aggregations_02.jpg)
 
-Zamiast tego możemy utworzyć tabelę **Sales Agg** jako tabelę agregacji. Jest ona na wyższym poziomie szczegółowości niż tabela **Sales**, a więc zawiera znacznie mniej wierszy. Liczba wierszy powinna być równa sumie wartości z kolumny **SalesAmount** pogrupowanych według kolumn **CustomerKey**, **DataKey** i **ProductSubcategoryKey**. Zamiast miliardów w tabeli mogą znaleźć się miliony wierszy, co jest już znacznie łatwiejsze w zarządzaniu.
+Zamiast tego możemy utworzyć tabelę **Sales Agg** jako tabelę agregacji. Ma ona wyższy stopień szczegółowości niż tabela **Sales**, a więc zawiera znacznie mniej wierszy. Liczba wierszy powinna być równa sumie wartości z kolumny **SalesAmount** pogrupowanych według kolumn **CustomerKey**, **DataKey** i **ProductSubcategoryKey**. Zamiast miliardów w tabeli mogą znaleźć się miliony wierszy, co jest już znacznie łatwiejsze w zarządzaniu.
 
-Załóżmy, że następujące tabele wymiarów są najczęściej używane w przypadku zapytań o dużej wartości biznesowej. Są to tabele, które mogą filtrować tabelę **Sales Agg** przy użyciu relacji *jeden do wielu* (lub *wiele do jednego*). Inne typy relacji, np. *wiele do wielu* lub *wiele źródeł*, nie są obsługiwane w przypadku agregacji.
+Załóżmy, że następujące tabele wymiarów są najczęściej używane w przypadku zapytań o dużej wartości biznesowej. Są to tabele, które mogą filtrować tabelę **Sales Agg** przy użyciu relacji *jeden do wielu* (lub *wiele do jednego*).
 
 * Geography
 * Customer
@@ -77,7 +77,7 @@ Kontynuujmy pracę z naszym przykładem. Ustawiamy tryb przechowywania tabeli **
 
 ![ustawienie trybu przechowywania](media/desktop-aggregations/aggregations_04.jpg)
 
-W takim przypadku zostanie wyświetlone następujące okno dialogowe, które informuje nas o tym, że powiązane tabele wymiarów będą ustawione w tryb przechowywania **Podwójny**. 
+W takim przypadku zostanie wyświetlone następujące okno dialogowe, które informuje nas o tym, że powiązane tabele wymiarów mogą mieć ustawienie trybu przechowywania **Podwójne**. 
 
 ![okno dialogowe trybu przechowywania](media/desktop-aggregations/aggregations_05.jpg)
 
@@ -88,7 +88,23 @@ Ustawienie tabel na opcję **Podwójny** umożliwia powiązanym tabelom wymiaró
 
 Aby uzyskać więcej informacji o trybie przechowywania **Podwójny**, zobacz artykuł opisujący [tryb przechowywania](desktop-storage-mode.md).
 
-> Uwaga: tabela **Sales Agg** jest ukryta. Tabele agregacji powinny być ukryte przed konsumentami zestawu danych. Konsumenci i zapytania odwołują się do tabeli szczegółowej, a nie tabeli agregacji. Nie muszą nawet wiedzieć, że tabela agregacji istnieje.
+### <a name="strong-vs-weak-relationships"></a>Relacje silne a słabe
+Trafienia agregacji na podstawie relacji wymagają silnych relacji.
+
+Silne relacje obejmują następujące kombinacje, gdzie obie tabele są pochodzą z *pojedynczego źródła*.
+
+| Tabela po stronie wiele | Tabela po stronie *1* |
+| ------------- |----------------------| 
+| Podwójne          | Podwójne                 | 
+| Importuj        | Import lub Podwójne       | 
+| DirectQuery   | DirectQuery lub Podwójne  | 
+
+Jedyny przypadek, kiedy relacja *między różnymi źródłami* jest uznawana za silną, występuje, gdy obie tabele mają tryb Import. Relacje wiele do wielu zawsze są uznawane za słabe.
+
+W przypadku trafień agregacji *między różnymi źródłami*, które nie zależą od relacji, zobacz poniższą sekcję dotyczącą agregacji na podstawie grupowania według kolumn.
+
+### <a name="aggregation-table-is-hidden"></a>Tabela agregacji jest ukryta
+Tabela **Sales Agg** jest ukryta. Tabele agregacji zawsze powinny być ukryte przed konsumentami zestawu danych. Konsumenci i zapytania odwołują się do tabeli szczegółowej, a nie tabeli agregacji. Nie muszą nawet wiedzieć, że tabela agregacji istnieje.
 
 ### <a name="manage-aggregations-dialog"></a>Okno dialogowe Zarządzaj agregacjami
 Następnie zdefiniujemy agregacje. Wybierz menu kontekstowe **Zarządzaj agregacjami** dla tabeli **Sales Agg**, klikając tabelę prawym przyciskiem myszy.
@@ -106,7 +122,7 @@ Następująca tabela przedstawia agregacje dla tabeli **Sales Agg**.
 #### <a name="summarization-function"></a>Funkcja podsumowywania
 
 Lista rozwijana Podsumowanie oferuje następujące wartości do wyboru.
-* Liczność
+* Liczba
 * Grupuj wg
 * Maks.
 * Min.
@@ -155,23 +171,23 @@ Następujące zapytanie osiąga agregację, ponieważ kolumny w tabeli *Date* ce
 
 ![przykład zapytania](media/desktop-aggregations/aggregations-code_02.jpg)
 
-Następujące zapytanie nie osiągnie agregacji. Pomimo zażądania sumy tabeli **SalesAmount**, zapytanie wykonuje operację Grupuj według wobec kolumny w tabeli **Product**, która nie ma poziomu szczegółowości umożliwiającego osiągnięcie agregacji. Jeśli sprawdzisz relacje w modelu, zauważysz, że podkategoria produktu może mieć wiele wierszy **Product**. Zapytanie nie może określić produktu, do którego należy przeprowadzić agregację. W takim przypadku zapytanie powróci do trybu DirectQuery i prześle zapytanie SQL do źródła danych.
+Następujące zapytanie nie osiąga agregacji. Pomimo żądania sumy z tabeli **SalesAmount**, zapytanie wykonuje operację grupowania na kolumnie w tabeli **Product**, która nie ma stopnia szczegółowości umożliwiającego osiągnięcie agregacji. Jeśli sprawdzisz relacje w modelu, zauważysz, że podkategoria produktu może mieć wiele wierszy **Product**. Zapytanie nie może określić produktu, do którego należy przeprowadzić agregację. W takim przypadku zapytanie powróci do trybu DirectQuery i prześle zapytanie SQL do źródła danych.
 
 ![przykład zapytania](media/desktop-aggregations/aggregations-code_03.jpg)
 
-Agregacje nie są przeznaczone wyłącznie dla niezłożonych obliczeń wykonujących proste sumowanie. Mogą z nich również skorzystać obliczenia złożone. W założeniu obliczenia złożone są rozbijane na podzapytania dla każdej operacji SUM, MIN, MAX i COUNT, a każde podzapytanie jest oceniane, aby określić, czy można osiągnąć agregację. Ta logika nie jest stosowana we wszystkich przypadkach ze względu na optymalizację planu zapytania, ale ogólnie powinna być stosowana. Poniższy przykład osiągnie agregację:
+Agregacje nie są przeznaczone wyłącznie do niezłożonych obliczeń wykonujących proste sumowanie. Mogą z nich również skorzystać obliczenia złożone. W założeniu obliczenia złożone są rozbijane na podzapytania dla każdej operacji SUM, MIN, MAX i COUNT, a każde podzapytanie jest oceniane, aby określić, czy można osiągnąć agregację. Ta logika nie jest stosowana we wszystkich przypadkach ze względu na optymalizację planu zapytania, ale ogólnie powinna być stosowana. Poniższy przykład osiąga agregację:
 
 ![przykład zapytania](media/desktop-aggregations/aggregations-code_04.jpg)
 
-Funkcja COUNTROWS może skorzystać z agregacji. Następujące zapytanie osiągnie agregację, ponieważ istnieje agregacja **Liczba** wierszy tabeli zdefiniowana dla tabeli **Sales**.
+Funkcja COUNTROWS może skorzystać z agregacji. Następujące zapytanie osiąga agregację, ponieważ istnieje agregacja **Liczba** wierszy tabeli zdefiniowana dla tabeli **Sales**.
 
 ![przykład zapytania](media/desktop-aggregations/aggregations-code_05.jpg)
 
-Funkcja AVERAGE może skorzystać z agregacji. Następujące zapytanie spowoduje osiągnięcie agregacji, ponieważ funkcja AVERAGE zostaje wewnętrznie zawinięta do funkcji SUM podzielonej przez COUNT. Ponieważ kolumna **UnitPrice** ma agregacje zdefiniowane dla obu funkcji SUM i COUNT, agregacja zostanie osiągnięta.
+Funkcja AVERAGE może skorzystać z agregacji. Następujące zapytanie osiąga agregację, ponieważ funkcja AVERAGE zostaje wewnętrznie zawinięta do funkcji SUM podzielonej przez COUNT. Ponieważ kolumna **UnitPrice** ma agregacje zdefiniowane dla obu funkcji SUM i COUNT, agregacja zostanie osiągnięta.
 
 ![przykład zapytania](media/desktop-aggregations/aggregations-code_06.jpg)
 
-W niektórych przypadkach funkcja DISTINCTCOUNT może skorzystać z agregacji. Następujące zapytanie osiągnie agregację, ponieważ istnieje wpis Grupuj według dla kolumny **CustomerKey**, która przechowuje odrębności **CustomerKey** w tabeli agregacji. Ta technika jest nadal objęta progiem wydajności — około dwa do pięciu milionów odrębnych wartości może mieć wpływ na wydajność zapytania. Jednak może być użyteczna w scenariuszach, w których istnieją miliardy wierszy w tabeli szczegółów oraz dwa do pięciu milionów odrębnych wartości w kolumnie. W tym przypadku liczność unikatowych wartości może działać szybciej niż skanowanie tabeli z miliardami wierszy, nawet jeśli zostały one zbuforowane w pamięci.
+W niektórych przypadkach funkcja DISTINCTCOUNT może skorzystać z agregacji. Następujące zapytanie osiąga agregację, ponieważ istnieje wpis Grupuj według dla kolumny **CustomerKey**, która przechowuje odrębne wartości **CustomerKey** w tabeli agregacji. Ta technika jest nadal objęta progiem wydajności — około dwa do pięciu milionów odrębnych wartości może mieć wpływ na wydajność zapytania. Jednak może być użyteczna w scenariuszach, w których istnieją miliardy wierszy w tabeli szczegółów oraz dwa do pięciu milionów odrębnych wartości w kolumnie. W tym przypadku liczność unikatowych wartości może działać szybciej niż skanowanie tabeli z miliardami wierszy, nawet jeśli zostały one zbuforowane w pamięci.
 
 ![przykład zapytania](media/desktop-aggregations/aggregations-code_07.jpg)
 
@@ -197,11 +213,11 @@ Następująca tabela przedstawia agregacje dla tabeli **Driver Activity Agg**.
 
 ### <a name="group-by-columns"></a>Grupowanie według kolumn
 
-W tym przykładzie wpisy **Grupuj według** **nie są opcjonalne**. Bez nich nie można osiągnąć agregacji. Jest to zachowanie inne niż w przypadku używania agregacji opartych na relacjach, które zostało omówione na przykładzie modelu wymiarowego wcześniej w tym artykule.
+W tym przykładzie wpisy **Grupuj według** **nie są opcjonalne**. Bez nich nie można uzyskać trafienia agregacji. Jest to zachowanie inne niż w przypadku używania agregacji opartych na relacjach, które zostało omówione na przykładzie modelu wymiarowego wcześniej w tym artykule.
 
 ### <a name="query-examples"></a>Przykłady zapytań
 
-Następujące zapytanie osiągnie agregację, ponieważ kolumna **Activity Date** jest objęta tabelą agregacji. Agregacja Liczba wierszy tabeli jest używana przez funkcję COUNTROWS.
+Następujące zapytanie osiąga agregację, ponieważ kolumna **Activity Date** jest objęta tabelą agregacji. Agregacja Liczba wierszy tabeli jest używana przez funkcję COUNTROWS.
 
 ![przykład zapytania](media/desktop-aggregations/aggregations-code_08.jpg)
 
@@ -253,7 +269,7 @@ Następujące zapytanie osiąga agregację, ponieważ pozycja CalendarMonth jest
 
 ![przykład zapytania](media/desktop-aggregations/aggregations-code_09.jpg)
 
-Następujące zapytanie nie osiągnie agregacji, ponieważ kolumna CalendarDay nie jest objęta tabelą agregacji.
+Następujące zapytanie nie osiąga agregacji, ponieważ kolumna CalendarDay nie jest objęta tabelą agregacji.
 
 ![przykład zapytania](media/desktop-aggregations/aggregations-code_10.jpg)
 
@@ -263,7 +279,7 @@ Następujące zapytanie analizy czasowej nie osiągnie agregacji, ponieważ funk
 
 ## <a name="caches-should-be-kept-in-sync"></a>Pamięci podręczne powinny być synchronizowane
 
-**Agregacje** łączące tryb DirectQuery oraz Import i/lub Podwójny mogą zwracać inne dane, jeśli wewnątrzpamięciowa pamięć podręczna nie będzie zsynchronizowana z danymi źródłowymi. Podczas wykonywania zapytania nie zostanie podjęta próba maskowania problemów związanych z danych, na przykład filtrowania wyników zapytania DirectQuery, w celu dopasowania do wartości buforowanych. Te funkcje są optymalizacjami wydajności i powinny być używane tylko w sposób, który nie będzie negatywnie wpływać na zdolność spełnienia wymagań biznesowych. To Ty musisz znać przepływy swoich danych. Projektuj je odpowiednio. W razie potrzeby można skorzystać z opracowanych już technik postępowania w przypadku wystąpienia takich problemów.
+**Agregacje** łączące tryb DirectQuery oraz Import i/lub Podwójny mogą zwracać inne dane, jeśli wewnątrzpamięciowa pamięć podręczna nie będzie zsynchronizowana z danymi źródłowymi. Podczas wykonywania zapytania nie zostanie podjęta próba maskowania problemów z danymi, na przykład filtrowania wyników zapytania DirectQuery w celu dopasowania do wartości buforowanych. Te funkcje są optymalizacjami wydajności i powinny być używane tylko w sposób, który nie będzie negatywnie wpływać na zdolność spełnienia wymagań biznesowych. To Ty musisz znać przepływy swoich danych. Projektuj je odpowiednio. W razie potrzeby można skorzystać z opracowanych już technik postępowania w przypadku wystąpienia takich problemów.
 
 ## <a name="next-steps"></a>Następne kroki
 
@@ -277,4 +293,3 @@ Artykuły dotyczące trybu DirectQuery:
 
 * [Używanie trybu DirectQuery w usłudze Power BI](desktop-directquery-about.md)
 * [Źródła danych obsługiwane przez tryb DirectQuery w usłudze Power BI](desktop-directquery-data-sources.md)
-

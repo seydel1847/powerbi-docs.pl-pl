@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/10/2018
+ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: fe13e5776648342aa4f7e86dce657e6ffcca11b9
-ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
+ms.openlocfilehash: 2ecd4b8e6295431f520dea61454bbf868bfab254
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44513292"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619681"
 ---
 # <a name="connect-to-a-pdf-file-in-power-bi-desktop-preview"></a>Łączenie się z plikiem PDF w programie Power BI Desktop (wersja zapoznawcza)
 W programie Power BI Desktop możesz nawiązać połączenie z **plikiem PDF** i korzystać z zawartych w nim danych w taki sam sposób jak w przypadku dowolnego innego źródła danych w programie Power BI Desktop.
@@ -45,6 +45,10 @@ Zostanie wyświetlony monit o podanie lokalizacji pliku PDF, którego chcesz uż
 ![Łączenie się z danymi w pliku PDF](media/desktop-connect-pdf/connect-pdf_04.png)
 
 Zaznaczenie pola wyboru obok odnalezionych elementów w pliku PDF spowoduje ich wyświetlenie w okienku po prawej stronie. Gdy wszystko będzie gotowe do importu, wybierz przycisk **Załaduj**, aby przenieść dane do programu **Power BI Desktop**.
+
+W programie **Power BI Desktop** od wersji z listopada 2018 r. można określić opcjonalne parametry **Strona początkowa** i **Ostatnia strona** dla połączenia pliku PDF. Te parametry można również określić w języku formuł M, używając następującego formatu:
+
+`Pdf.Tables(File.Contents("c:\sample.pdf"), [StartPage=10, EndPage=11])`
 
 
 ## <a name="next-steps"></a>Następne kroki
