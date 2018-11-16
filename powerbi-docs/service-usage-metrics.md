@@ -9,14 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/22/2018
+ms.date: 11/13/2018
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 4c10a0ffdf11829d8faa15ea14be136922c86382
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 7b511a28f056df268216552f7d075a88c047f9f3
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545055"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619844"
 ---
 # <a name="usage-metrics-for-dashboards-and-reports"></a>Metryki użycia pulpitów nawigacyjnych i raportów
 
@@ -69,7 +69,7 @@ Aby dokładniej analizować dane raportu lub tworzyć własne raporty na podstaw
     > [!NOTE]
     > Jeśli przypniesz do pulpitu nawigacyjnego kafelek z raportu metryk użycia, nie będzie można dodać tego pulpitu nawigacyjnego do aplikacji ani do pakietu zawartości.
 
-## <a name="what-metrics-are-reported"></a>Jakie metryki są uwzględniane w raporcie?
+## <a name="which-metrics-are-reported"></a>Jakie metryki są uwzględniane w raporcie?
 
 | Metryka | Pulpit nawigacyjny | Raport | Opis |
 | --- | --- | --- | --- |
@@ -162,6 +162,15 @@ Wyłączając metryki użycia dla całej organizacji, administratorzy mogą skor
 Usługa Power BI jest dostępna w osobnych chmurach krajowych. Te chmury zapewniają ten sam poziom bezpieczeństwa, prywatności, zgodności i przejrzystości co wersja globalna usługi Power BI, a także udostępniają unikatowy model na potrzeby przepisów lokalnych dotyczących świadczenia usług, przechowywania danych, dostępu i kontroli. Ze względu na ten unikatowy model dla przepisów lokalnych metryki użycia nie są dostępne w chmurach krajowych. Więcej informacji można znaleźć na stronie dotyczącej [chmur krajowych](https://powerbi.microsoft.com/en-us/clouds/).
 
 ## <a name="considerations-and-limitations"></a>Istotne zagadnienia i ograniczenia
+
+Ważne jest, aby rozumieć różnice, które mogą wystąpić podczas porównywania metryk użycia i dzienników inspekcji, oraz ich przyczyny. *Dzienniki inspekcji* są zbierane przy użyciu danych z usługi Power BI, a *Metryki użycia* są zbierane na komputerze klienckim. Ta różnica sprawia, że zagregowana liczba działań w dziennikach inspekcji nie zawsze musi być zgodna z metrykami użycia, ponieważ:
+
+* Metryki użycia mogą czasami zaniżać liczbę działań z powodu niespójnych połączeń sieciowych, blokad reklam lub innych problemów, które mogą zakłócać wysyłanie zdarzeń od klienta.
+* Niektóre typy widoków nie są uwzględnione w metrykach użycia zgodnie z opisem we wcześniejszej części tego artykułu.
+* Metryki użycia mogą czasami zawyżać liczbę działań w sytuacjach, w których klient dokonuje odświeżania, ale nie ma konieczności wysłania żądania z powrotem do usługi Power BI.
+
+
+Jako uzupełnienie znajomości potencjalnych różnic między użyciem metryk i dzienników inspekcji, użytkownikom i administratorom mogą przydać się następujące pytania i odpowiedzi dotyczące metryk użycia:
 
 Pytanie: Nie można uruchomić metryk na pulpicie nawigacyjnym ani w raporcie. Odpowiedź: Metryki użycia można wyświetlać tylko w przypadku zawartości, której jesteś właścicielem lub którą możesz edytować.
 

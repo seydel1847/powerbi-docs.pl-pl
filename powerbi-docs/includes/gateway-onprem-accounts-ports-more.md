@@ -61,14 +61,14 @@ W przyszłości możesz ponownie uruchomić *usługę bramy systemu Windows* z p
 
 ![](./media/gateway-onprem-accounts-ports-more/gw-onprem_02.png)
 
-## <a name="support-for-tls-1112"></a>Obsługa protokołu TLS 1.1/1.2
+## <a name="support-for-tls-12"></a>Obsługa protokołu TLS 1.2
 
-Lokalna brama danych domyślnie używa protokołu Transport Layer Security (TLS) 1.1 lub 1.2 w celu komunikowania się z **usługą Power BI**. Poprzednie wersje lokalnej bramy danych domyślnie używały protokołu TLS 1.0. Obsługa protokołu TLS 1.0 zakończy się 15 marca 2018 r. Będzie to również obejmować możliwość interakcji bramy z **usługą Power BI** przy użyciu protokołu TLS 1.0. Musisz uaktualnić instalacje lokalnej bramy danych, aby zapewnić dalsze działanie bram.
+Domyślnie lokalna brama danych używa protokołu Transport Layer Security (TLS) 1.2 do komunikowania się z usługą Power BI. Aby upewnić się, że cały ruch w bramie używa protokołu TLS 1.2, być może trzeba dodać lub zmodyfikować następujące klucze rejestru na maszynie, na której działa usługa bramy:
 
-Warto pamiętać, że do 1 listopada protokół TLS 1.0 jest w dalszym ciągu obsługiwany przez lokalną bramę danych i używany przez nią jako mechanizm rezerwowy. Aby upewnić się, że cały ruch w bramie używa protokołu TLS 1.1 lub 1.2 (i zapobiec używaniu protokołu TLS 1.0), należy dodać lub zmodyfikować następujące klucze rejestru na maszynie, na której działa usługa bramy:
-
-        [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
-        [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
+```
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
+```
 
 > [!NOTE]
 > Dodanie lub zmodyfikowanie tych kluczy rejestru powoduje zastosowanie zmiany do wszystkich aplikacji .NET. Informacje na temat zmian rejestru, które mają wpływ na użycie protokołu TLS przez inne aplikacje, są zawarte w artykule [Ustawienia rejestru dla protokołu Transport Layer Security (TLS)](https://docs.microsoft.com/windows-server/security/tls/tls-registry-settings).

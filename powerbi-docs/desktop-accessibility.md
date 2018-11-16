@@ -7,25 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/15/2018
+ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 799115dc5487a196cbd5d8a2c9dce1603764034a
-ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
+ms.openlocfilehash: d57d31e87197ee9d764a8d263dd4ee6dd0c75ac3
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51223380"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619637"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Ułatwienia dostępu w raportach programu Power BI Desktop
 Usługa Power BI zawiera funkcje, które umożliwiają osobom niepełnosprawnym łatwiejsze korzystanie z raportów usługi Power BI. Te funkcje obejmują możliwość korzystania z raportu za pomocą klawiatury lub czytnika ekranu, używania klawisza TAB do przenoszenia fokusu na różne obiekty na stronie oraz celowe używanie znaczników w wizualizacjach.
 
 ![Używanie różnych znaczników wykresów liniowych i warstwowych w celu ułatwienia dostępu](media/desktop-accessibility/accessibility_01.png)
-
-> [!NOTE]
-> Te funkcje ułatwień dostępu są dostępne w programie **Power BI Desktop** w wersji z czerwca 2017 r. i nowszych. W następnych wersjach planowane jest wprowadzenie kolejnych funkcji ułatwień dostępu.
-> 
-> 
 
 ## <a name="consuming-a-power-bi-desktop-report-with-a-keyboard-or-screen-reader"></a>Korzystanie z raportów programu Power BI Desktop za pomocą klawiatury lub czytnika ekranu
 W wersji programu **Power BI Desktop** z września 2017 r. i nowszych możesz nacisnąć klawisz **?**, aby wyświetlić okno z opisem skrótów klawiaturowych ułatwień dostępu dostępnych w programie **Power BI Desktop**.
@@ -116,12 +111,26 @@ Istnieje kilka znanych problemów i ograniczeń dotyczących funkcji ułatwień 
 * Jeśli używasz programu Narrator, istnieją pewne ograniczenia dotyczące nawigowania po oknie Pokaż dane jako tabeli HTML.
 
 ## <a name="keyboard-shortcuts"></a>Skróty klawiaturowe
+Skróty klawiaturowe są przydatne do poruszania się w raportach usługi Power BI przy użyciu klawiatury. W poniższych tabelach opisano skróty, które są dostępne w raporcie usługi Power BI. Te skróty klawiaturowe działają nie tylko w programie Power BI Desktop, ale również w następujących środowiskach:
+
+* Okno dialogowe Eksplorator pytań i odpowiedzi
+* Okno dialogowe Wprowadzenie
+* Menu Plik i okno dialogowe Informacje
+* Pasek ostrzeżeń
+* Okno dialogowe Przywracanie pliku
+* Okno dialogowe Grymasy
+
+Dzięki naszym ciągłym staraniom, aby poprawić ułatwienia dostępu, środowiska z powyższej listy obsługują także czytniki zawartości ekranu oraz ustawienia dużego kontrastu.
+
+
 ### <a name="frequently-used-shortcuts"></a>Często używane skróty
 | Działanie           | Klawisze do naciśnięcia                |
 | :------------------- | :------------------- |
 | Przenieś fokus między sekcjami  | Ctrl + F6 |
 | Przenieś fokus dalej w sekcji | Tab         |
 | Przenieś fokus wstecz w sekcji | Shift + Tab |
+| Zaznacz lub usuń zaznaczenie obiektu | Enter lub spacja |
+| Wybierz wiele obiektów | Ctrl + spacja |
 
 ### <a name="on-visual"></a>W wizualizacji
 | Działanie           | Klawisze do naciśnięcia                |
