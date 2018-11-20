@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 46cd5e2730d1b0e90fe37a93bbd4340ffb708348
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 4638842217127c1d80ec115e05f8db1a6d3eb36c
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908468"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679046"
 ---
 # <a name="create-and-publish-a-power-bi-organizational-content-pack-tutorial"></a>Tworzenie i publikowanie organizacyjnego pakietu zawartości w usłudze Power BI (samouczek)
 
@@ -71,7 +71,7 @@ Chcesz z niego skorzystać? W [usłudze Power BI](https://powerbi.com) przejdź 
       ![](media/service-organizational-content-pack-create-and-publish/pbi_orgcontpkexcel.png)
    
       > [!NOTE]
-      > Jeśli członek grupy nie może wyświetlić skoroszytu programu Excel, może być konieczne [udostępnienie skoroszytu w usłudze OneDrive dla Firm](https://support.office.com/en-us/article/Share-documents-or-folders-in-Office-365-1fe37332-0f9a-4719-970e-d2578da4941c).
+      > Jeśli członek grupy nie może wyświetlić skoroszytu programu Excel, może być konieczne [udostępnienie skoroszytu w usłudze OneDrive dla Firm](https://support.office.com/article/Share-documents-or-folders-in-Office-365-1fe37332-0f9a-4719-970e-d2578da4941c).
       > 
       > 
 4. Wybierz opcję **Publikuj**, aby dodać pakiet zawartości do organizacyjnego pakietu zawartości grupy.  
@@ -93,6 +93,6 @@ Chcesz z niego skorzystać? W [usłudze Power BI](https://powerbi.com) przejdź 
 * [Wprowadzenie do organizacyjnych pakietów zawartości](service-organizational-content-pack-introduction.md)  
 * [Aktualizowanie i usuwanie organizacyjnych pakietów zawartości oraz zarządzanie nimi](service-organizational-content-pack-manage-update-delete.md)  
 * [Tworzenie grupy w usłudze Power BI](service-create-distribute-apps.md)  
-* [Czym jest usługa OneDrive dla Firm?](https://support.office.com/en-us/article/What-is-OneDrive-for-Business-187f90af-056f-47c0-9656-cc0ddca7fdc2)
+* [Czym jest usługa OneDrive dla Firm?](https://support.office.com/article/What-is-OneDrive-for-Business-187f90af-056f-47c0-9656-cc0ddca7fdc2)
 * Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
 

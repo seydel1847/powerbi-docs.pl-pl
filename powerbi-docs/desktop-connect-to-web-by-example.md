@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/23/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 7de11de4c10df6a76f031f88952671d0e365b498
-ms.sourcegitcommit: 17d68172c73e9a9ff7966ddcedc3f8450584cdec
+ms.openlocfilehash: 9d7012006ca18cf43c530c4d79ed02e6ed73f33f
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49952216"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679274"
 ---
 # <a name="get-data-from-a-web-page-by-providing-an-example"></a>Pobieranie danych ze strony internetowej przez podanie przykładu
 
@@ -35,9 +35,9 @@ Aby użyć funkcji **Pobieranie danych z Internetu według przykładu**, wybierz
 
 Z tego miejsca wprowadź adres URL strony internetowej, z której chcesz wyodrębnić dane. W tym artykule użyjemy strony internetowej sklepu Microsoft Store i zademonstrujemy sposób działania tego łącznika. 
 
-Jeśli chcesz być na bieżąco, możesz użyć [adresu URL sklepu Microsoft Store](https://www.microsoft.com/en-us/store/top-paid/games/xbox?category=classics), takiego jak w tym artykule:
+Jeśli chcesz być na bieżąco, możesz użyć [adresu URL sklepu Microsoft Store](https://www.microsoft.com/store/top-paid/games/xbox?category=classics), takiego jak w tym artykule:
 
-    https://www.microsoft.com/en-us/store/top-paid/games/xbox?category=classics
+    https://www.microsoft.com/store/top-paid/games/xbox?category=classics
 
 ![Okno dialogowe Internet](media/desktop-connect-to-web-by-example/web-by-example_04.png)
 

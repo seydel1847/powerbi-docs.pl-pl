@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 3/5/2018
 ms.author: pashah
-ms.openlocfilehash: 3c3295483112ae0b5475e15c2073faba86dfff30
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: c19bc774ebffa2e781512e793abbefd1bd9fb5e2
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34561821"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679297"
 ---
 # <a name="capacity-planning-guidance-for-power-bi-report-server"></a>Wskazówki dotyczące planowania wydajności serwera raportów usługi Power BI
 Serwer raportów usługi Power BI to samoobsługowe rozwiązanie z zakresu analizy biznesowej i raportowania dla przedsiębiorstw. Rozwiązanie to może być wdrażane przez klienta w siedzibie firmy, za zaporą. Serwer ten stanowi połączenie interaktywnych funkcji raportów znanych z programu Power BI Desktop oraz lokalnej platformy serwera znanej z usług SQL Server Reporting Services. Firmy coraz intensywniej korzystają z funkcji analiz i raportów, przez co trudno jest określić budżet na infrastrukturę sprzętową i licencje na oprogramowanie wymagane do skalowania bazy użytkowników w przedsiębiorstwie. Ten dokument zawiera wskazówki dotyczące planowania wydajności serwera raportów usługi Power BI przez udostępnianie wyników licznych testów obciążenia wykonywanych na serwerze raportów przy różnych obciążeniach. Mimo że raporty, zapytania i wzorce użycia stosowane w organizacji mogą być różne, wyniki przedstawione w tym dokumencie, wykonane testy oraz szczegółowy opis sposobu ich przeprowadzenia służą za punkt odniesienia dla każdego, kto zaczyna planowanie wdrażania serwera raportów usługi Power BI.
@@ -114,7 +114,7 @@ W tym dokumencie przedstawiono wyniki wykonania określonego zestawu raportów k
 ### <a name="1-topology"></a>1 Topologia
 **1.1 Topologia serwera raportów usługi Power BI**
 
-Aby skoncentrować się wyłącznie na działaniu serwera raportów usługi Power BI w różnych konfiguracjach, konfiguracja maszyny wirtualnej dla każdego typu maszyny (oprócz maszyny hostującej serwer raportów usługi Power BI) była taka sama. Każda maszyna była aprowizowana tak jak maszyny serii D drugiej generacji (v2) z dyskiem Premium Storage. Szczegółowe informacje dotyczące poszczególnych rozmiarów maszyn wirtualnych można znaleźć w sekcji „Zastosowania ogólne” na stronie https://azure.microsoft.com/en-us/pricing/details/virtual-machines/windows/.
+Aby skoncentrować się wyłącznie na działaniu serwera raportów usługi Power BI w różnych konfiguracjach, konfiguracja maszyny wirtualnej dla każdego typu maszyny (oprócz maszyny hostującej serwer raportów usługi Power BI) była taka sama. Każda maszyna była aprowizowana tak jak maszyny serii D drugiej generacji (v2) z dyskiem Premium Storage. Szczegółowe informacje dotyczące poszczególnych rozmiarów maszyn wirtualnych można znaleźć w sekcji „Zastosowania ogólne” na stronie https://azure.microsoft.com/pricing/details/virtual-machines/windows/.
 
 | Typ maszyny wirtualnej | Procesor | Pamięć | Rozmiar maszyny wirtualnej platformy Azure |
 | --- | --- | --- | --- |
@@ -124,7 +124,7 @@ Aby skoncentrować się wyłącznie na działaniu serwera raportów usługi Powe
 
 **1.2 Konfiguracja maszyny wirtualnej serwera raportów usługi Power BI** 
 
-Na maszynie wirtualnej hostującej serwer raportów usługi Power BI były używane różne konfiguracje procesora i pamięci. W przeciwieństwie do innych maszyn wirtualnych, ta maszyna była aprowizowana tak jak maszyny serii D trzeciej generacji (v3) z dyskiem Premium Storage. Szczegółowe informacje dotyczące tego rozmiaru maszyny wirtualnej można znaleźć w sekcji „Zastosowania ogólne” na stronie https://azure.microsoft.com/en-us/pricing/details/virtual-machines/windows/.
+Na maszynie wirtualnej hostującej serwer raportów usługi Power BI były używane różne konfiguracje procesora i pamięci. W przeciwieństwie do innych maszyn wirtualnych, ta maszyna była aprowizowana tak jak maszyny serii D trzeciej generacji (v3) z dyskiem Premium Storage. Szczegółowe informacje dotyczące tego rozmiaru maszyny wirtualnej można znaleźć w sekcji „Zastosowania ogólne” na stronie https://azure.microsoft.com/pricing/details/virtual-machines/windows/.
 
 | Maszyna wirtualna | Procesor | Pamięć | Rozmiar maszyny wirtualnej platformy Azure |
 | --- | --- | --- | --- |

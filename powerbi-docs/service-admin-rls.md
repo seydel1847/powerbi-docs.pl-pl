@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/02/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: cd68b265fafa2d16defb5bce43be6cdf5c403f03
-ms.sourcegitcommit: ba3cab4613a2b815d46a213eff07a8a8ec22c17f
+ms.openlocfilehash: b99f346102ae8b5f31db8101e499fb6915d870de
+ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39032099"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51850412"
 ---
 # <a name="row-level-security-rls-with-power-bi"></a>Zabezpieczenia na poziomie wiersza w usłudze Power BI
 Zabezpieczenia na poziomie wiersza w usłudze Power BI mogą służyć do ograniczania dostępu do danych do konkretnych użytkowników. Filtry ograniczają dostęp do danych na poziomie wiersza i można je definiować w ramach ról. Pamiętaj, że w usłudze Power BI członkowie obszaru roboczego mają dostęp do zestawów danych w obszarze roboczym. Zabezpieczenia na poziomie wiersza nie ograniczają tego dostępu do danych. 
@@ -24,7 +24,7 @@ Można skonfigurować zabezpieczenia na poziomie wiersza dla modeli danych impor
 
 [!INCLUDE [include-short-name](./includes/rls-desktop-define-roles.md)]
 
-Domyślnie filtrowanie zabezpieczeń na poziomie wiersza korzysta z filtrów jednokierunkowych, niezależnie od tego, czy dla relacji skonfigurowano tryb jednokierunkowy, czy dwukierunkowy. Dwukierunkowy filtr krzyżowy można włączyć ręcznie za pomocą zabezpieczeń na poziomie wiersza, wybierając relację i zaznaczając pole wyboru **Zastosuj filtr zabezpieczeń w obu kierunkach**. To pole wyboru należy zaznaczyć podczas implementowania [dynamicznych zabezpieczeń na poziomie wiersza](https://docs.microsoft.com/sql/analysis-services/supplemental-lesson-implement-dynamic-security-by-using-row-filters), gdzie zabezpieczenia na poziomie wiersza są dostarczane na podstawie nazwy użytkownika lub identyfikatora logowania. 
+Domyślnie filtrowanie zabezpieczeń na poziomie wiersza korzysta z filtrów jednokierunkowych, niezależnie od tego, czy dla relacji skonfigurowano tryb jednokierunkowy, czy dwukierunkowy. Dwukierunkowy filtr krzyżowy można włączyć ręcznie za pomocą zabezpieczeń na poziomie wiersza, wybierając relację i zaznaczając pole wyboru **Zastosuj filtr zabezpieczeń w obu kierunkach**. To pole wyboru należy zaznaczyć podczas implementowania [dynamicznych zabezpieczeń na poziomie wiersza](https://docs.microsoft.com/sql/analysis-services/supplemental-lesson-implement-dynamic-security-by-using-row-filters), gdzie zabezpieczenia na poziomie wiersza są dostarczane na podstawie nazwy użytkownika lub identyfikatora logowania.
 
 Aby uzyskać więcej informacji, zobacz temat [Dwukierunkowe filtrowanie krzyżowe przy użyciu zapytania bezpośredniego w programie Power BI Desktop](desktop-bidirectional-filtering.md) oraz artykuł techniczny [Zabezpieczanie tabelarycznego semantycznego modelu analizy biznesowej](http://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx).
 

@@ -1,21 +1,21 @@
 ---
 title: 'Tworzenie nowego raportu z zestawu danych '
 description: Tworzenie nowego raportu usługi Power BI na podstawie zestawu danych.
-author: mihart
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 03/24/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 7647cba750ea7369e84022f77f46299ae15c6554
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 96b46e595ffd2373a2d59776cb8c2b4314727d89
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545848"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51718050"
 ---
 # <a name="create-a-new-report-in-power-bi-service-by-importing-a-dataset"></a>Tworzenie nowego raportu w usłudze Power BI przez zaimportowanie zestawu danych
 Po zapoznaniu się z tematem [Raporty w usłudze Power BI](consumer/end-user-reports.md) możesz teraz utworzyć własny raport. Istnieje wiele sposobów tworzenia raportów. W tym artykule zaczniemy od utworzenia podstawowego raportu na podstawie zestawu danych programu Excel przy użyciu usługi Power BI. Kiedy zapoznasz się z podstawami tworzenia raportów, możesz przejść do bardziej zaawansowanych tematów dostępnych w sekcji **Następne kroki** u dołu strony.  
@@ -34,7 +34,7 @@ W przypadku tej metody tworzenia raportu punktem wyjścia jest zestaw danych i p
    ![lista obszarów roboczych aplikacji](media/service-report-create-new/power-bi-workspaces2.png)
 2. W dolnej części lewego okienka nawigacji wybierz opcję **Pobierz dane**.
    
-   ![Pobieranie danych](media/service-report-create-new/power-bi-get-data3.png)
+   ![Pobierz dane](media/service-report-create-new/power-bi-get-data3.png)
 3. Wybierz pozycję **Pliki** i przejdź do miejsca, w którym został zapisany przykładowy zestaw danych Retail Analysis.
    
     ![wybieranie pozycji Pliki](media/service-report-create-new/power-bi-select-files.png)

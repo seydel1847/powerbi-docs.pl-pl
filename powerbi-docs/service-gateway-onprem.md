@@ -10,12 +10,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 06/05/2018
-ms.openlocfilehash: 488d11209126098063ba8ca2b2d73573edbcdbb9
-ms.sourcegitcommit: 5eb0f37f59b5fec15c0caecbbd1f8d688c7f0013
+ms.openlocfilehash: 9a739efdba84279e938fd8e13d6521cf975d0b9d
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/09/2018
-ms.locfileid: "51297141"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679023"
 ---
 # <a name="on-premises-data-gateway"></a>Lokalna brama danych
 
@@ -100,7 +100,7 @@ W tej chwili nie ma jednej lokalizacji, w której administratorzy dzierżaw mog�
 ## <a name="enabling-outbound-azure-connections"></a>Włączanie połączeń wychodzących platformy Azure
 
 W celu zapewnienia łączności z chmurą lokalna brama danych polega na usłudze Azure Service Bus i odpowiednio ustanawia połączenia wychodzące do skojarzonego regionu świadczenia usługi Azure. Domyślnie jest to lokalizacja dzierżawy usługi Power BI. Dowiedz się, gdzie [znajduje się Twoja dzierżawa usługi Power BI?](https://powerbi.microsoft.com/en-us/documentation/powerbi-admin-where-is-my-tenant-located/)
-Jeśli zapora blokuje połączenia wychodzące, należy ją skonfigurować w sposób zezwalający na połączenia wychodzące z lokalnej bramy danych do skojarzonego regionu świadczenia usługi Azure. Szczegółowe informacje dotyczące zakresów adresów IP dla poszczególnych centrów danych platformy Azure można znaleźć w temacie [Microsoft Azure Datacenter IP Ranges (Zakresy adresów IP centrów danych platformy Microsoft Azure)](https://www.microsoft.com/en-us/download/details.aspx?id=41653).
+Jeśli zapora blokuje połączenia wychodzące, należy ją skonfigurować w sposób zezwalający na połączenia wychodzące z lokalnej bramy danych do skojarzonego regionu świadczenia usługi Azure. Szczegółowe informacje dotyczące zakresów adresów IP dla poszczególnych centrów danych platformy Azure można znaleźć w temacie [Microsoft Azure Datacenter IP Ranges (Zakresy adresów IP centrów danych platformy Microsoft Azure)](https://www.microsoft.com/download/details.aspx?id=41653).
 > [!NOTE]
 > Zakresy adresów IP mogą z czasem ulec zmianie, dlatego upewnij się, że na bieżąco pobierasz najnowsze informacje. 
 

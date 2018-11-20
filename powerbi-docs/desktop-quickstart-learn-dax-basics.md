@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/27/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 433710918cb77ca9ee002673dbe6298f0d2184aa
-ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
+ms.openlocfilehash: a171dd2aa375f8d12830b051dd8ce6437e4b3236
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50003299"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679460"
 ---
 # <a name="dax-basics-in-power-bi-desktop"></a>Podstawy języka DAX w programie Power BI Desktop
 Niniejszy artykuł jest przeznaczony dla nowych użytkowników programu Power BI Desktop. Artykuł stanowi szybkie i łatwe wprowadzenie do korzystania z języka Data Analysis Expressions (DAX) w celu rozwiązywania szeregu podstawowych problemów z zakresu obliczeń i analizy danych. Zapoznamy się z informacjami koncepcyjnymi, przeanalizujemy szereg zadań, które możesz wykonać, a na koniec zajmiesz się testami, które sprawdzą Twoją wiedzę. Gdy zapoznasz się z tym artykułem, najważniejsze podstawowe pojęcia dotyczące języka DAX nie powinny mieć dla Ciebie żadnych tajemnic.
@@ -142,7 +142,7 @@ Język DAX zawiera następujące kategorie funkcji: [Daty i godziny](https://msd
 * Język DAX zawiera różne funkcje analizy czasu. Te funkcje pozwalają definiować lub wybierać zakresy czasu, a także wykonywać dynamiczne obliczenia w oparciu o nie. Możesz na przykład porównywać sumy z równoległych okresów.
 * Program Excel zawiera bardzo popularną funkcję o nazwie WYSZUKAJ.PIONOWO. Funkcje DAX nie traktują komórki ani zakresu komórek jak referencji, tak jak funkcja WYSZUKAJ.PIONOWO w programie Excel. Funkcje języka DAX traktują kolumnę lub tabelę jako referencję. Należy pamiętać o tym, że w programie Power BI Desktop pracujemy z użyciem relacyjnego modelu danych. Wyszukiwanie wartości w innej tabeli jest naprawdę dosyć łatwe i w większości przypadków nie trzeba wcale tworzyć formuł.
   
-  Jak widać, funkcje języka DAX mogą pomóc w tworzeniu bardzo zaawansowanych formuł. Dotychczas zaledwie wspomnieliśmy o funkcjach. Gdy Twoje umiejętności w zakresie języka DAX wzrosną, będziesz tworzyć formuły z użyciem wielu różnych funkcji. Jednym z najlepszych miejsc na naukę szczegółów dotyczących poszczególnych funkcji języka DAX jest [skorowidz funkcji DAX](https://msdn.microsoft.com/en-us/query-bi/dax/data-analysis-expressions-dax-reference).
+  Jak widać, funkcje języka DAX mogą pomóc w tworzeniu bardzo zaawansowanych formuł. Dotychczas zaledwie wspomnieliśmy o funkcjach. Gdy Twoje umiejętności w zakresie języka DAX wzrosną, będziesz tworzyć formuły z użyciem wielu różnych funkcji. Jednym z najlepszych miejsc na naukę szczegółów dotyczących poszczególnych funkcji języka DAX jest [skorowidz funkcji DAX](https://msdn.microsoft.com/query-bi/dax/data-analysis-expressions-dax-reference).
 
 ### <a name="functions-quickquiz"></a>Szybki test dotyczący funkcji
 1. Do czego zawsze odwołuje się funkcja?

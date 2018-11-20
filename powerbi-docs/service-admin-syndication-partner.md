@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/01/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 4854f05e3394d7b4eed2c67de8bbca5266a12ae3
-ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
+ms.openlocfilehash: 912ed0be1e6a732db46e83f8a9b0757ad2801dab
+ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "50909323"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52157407"
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>Nie można dodać usługi Power BI do subskrypcji partnera usługi Office 365
 
@@ -23,7 +23,7 @@ Firmy mogą sprzedawać usługę Office 365 w postaci powiązanej i zintegrowane
 
 Jeśli interesuje Cię uzyskanie usługi Power BI — oprócz posiadanej subskrypcji usługi Office 365 — zalecamy skontaktowanie się z odpowiednim partnerem. Jeśli partner aktualnie nie oferuje usługi Power BI, możesz skorzystać z innych opcji.
 
-# <a name="work-with-your-partner-to-purchase-power-bi"></a>Współpraca z partnerem w celu zakupienia usługi Power BI
+## <a name="work-with-your-partner-to-purchase-power-bi"></a>Współpraca z partnerem w celu zakupienia usługi Power BI
 
 Jeśli chcesz kupić subskrypcję usługi Power BI Pro lub Power BI Premium, razem ze swoim partnerem rozważ dostępne opcje:
 
@@ -31,7 +31,7 @@ Jeśli chcesz kupić subskrypcję usługi Power BI Pro lub Power BI Premium, raz
 
 * Partner może zaproponować Ci model pozwalający na zakup usługi Power BI bezpośrednio w firmie Microsoft lub od innego partnera, który ma w swojej ofercie usługę Power BI.
 
-# <a name="purchase-from-microsoft-or-another-channel"></a>Zakup od firmy Microsoft lub za pośrednictwem innego kanału
+## <a name="purchase-from-microsoft-or-another-channel"></a>Zakup od firmy Microsoft lub za pośrednictwem innego kanału
 
 W zależności od relacji z partnerem możesz mieć opcję zakupu usługi Power BI bezpośrednio od firmy Microsoft lub innego partnera. Możesz sprawdzić, czy masz możliwość dodawania subskrypcji usługi Power BI w portalu administracyjnym usługi Office 365 (wymaga to członkostwa w roli administratora globalnego lub administratora rozliczeń).
 

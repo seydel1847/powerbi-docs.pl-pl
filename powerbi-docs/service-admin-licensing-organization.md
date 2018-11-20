@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/30/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 11ad100bce2e13d5622676f43573dee411a93221
-ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
+ms.openlocfilehash: 09ce2e2db94116d70824b276b9b67b9dbe163d11
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "50973309"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679322"
 ---
 # <a name="power-bi-licensing-in-your-organization"></a>Licencjonowanie usługi Power BI w organizacji
 
@@ -49,7 +49,7 @@ Przed wykonaniem kroków tworzenia konta należy pamiętać o następujących kw
 
 * Aby utworzyć konto, musisz być członkiem roli [**Administrator globalny** lub **Administrator rozliczeń**](https://support.office.com/article/about-office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d?ui=en-US&rs=en-US&ad=US) w usłudze Office 365.
 
-* Obowiązuje limit jednej wersji próbnej dla organizacji w dzierżawie. Oznacza to, że jeśli w danej dzierżawie już zastosowano wersję próbną usługi Power BI Pro, nie można tego zrobić ponownie. Jeśli potrzebujesz pomocy w tym zakresie, skontaktuj się z [pomocą techniczną ds. rozliczeń w usłudze Office 365](https://support.office.microsoft.com/en-us/article/contact-support-for-business-products-admin-help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b?CorrelationId=552bbf37-214f-4202-80cb-b94240dcd671&ui=en-US&rs=en-US&ad=US).
+* Obowiązuje limit jednej wersji próbnej dla organizacji w dzierżawie. Oznacza to, że jeśli w danej dzierżawie już zastosowano wersję próbną usługi Power BI Pro, nie można tego zrobić ponownie. Jeśli potrzebujesz pomocy w tym zakresie, skontaktuj się z [pomocą techniczną ds. rozliczeń w usłudze Office 365](https://support.office.microsoft.com/article/contact-support-for-business-products-admin-help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b?CorrelationId=552bbf37-214f-4202-80cb-b94240dcd671&ui=en-US&rs=en-US&ad=US).
 
 1. Przejdź do [centrum administracyjnego usługi Office 365](https://portal.office.com/adminportal/home#/homepage).
 

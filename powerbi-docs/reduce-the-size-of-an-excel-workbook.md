@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 12ff54b1aa44edaead98b1fab6942acbd76216c7
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 5d21dff56620e4b2eb05ed3bbf123ff1d1805075
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39329436"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679361"
 ---
 # <a name="reduce-the-size-of-an-excel-workbook-to-view-it-in-power-bi"></a>Zmniejszanie rozmiaru skoroszytu programu Excel w celu wyświetlenia go w usłudze Power BI
 Do usługi Power BI można przekazać dowolny skoroszyt programu Excel o rozmiarze mniejszym niż 1 GB. Skoroszyt programu Excel może składać się z dwóch części: modelu danych oraz reszty raportu — podstawowej zawartości skoroszytu. Jeśli raport spełnia następujące ograniczenia dotyczące rozmiaru, można zapisać go w usłudze **OneDrive dla Firm**, połączyć się z nim z usługi Power BI i wyświetlać go w usłudze Excel Online:
@@ -28,7 +28,7 @@ Poniżej przedstawiono pewne elementy, które mogą sprawić, że rozmiar podsta
 
 * Obrazy.
 * Cieniowane komórki. [Usuwanie formatowania cieniowania komórki](https://support.office.com/article/Add-or-change-the-background-color-of-cells-ac10f131-b847-428f-b656-d65375fb815e).
-* Arkusze oznaczone kolorami. [Usuwanie tła arkusza](https://support.office.com/en-US/article/add-or-remove-a-sheet-background-3577a762-8450-4556-96a2-cc265abc00a8).
+* Arkusze oznaczone kolorami. [Usuwanie tła arkusza](https://support.office.com/article/add-or-remove-a-sheet-background-3577a762-8450-4556-96a2-cc265abc00a8).
 * Pola tekstowe.
 * Obiekty clipart.
 
@@ -55,7 +55,7 @@ Podczas importowania danych do programu Excel należy postępować zgodnie z nas
 * **Na karcie Dane programu Excel**: nie zaznaczaj pola **Tabela** w obszarze **Importowanie danych**.
 
 ## <a name="workbook-size-optimizer"></a>Workbook Size Optimizer
-Jeśli skoroszyt zawiera model danych, można uruchomić optymalizator rozmiaru skoroszytu, aby zmniejszyć rozmiar skoroszytu. [Pobierz narzędzie Workbook Size Optimizer](https://www.microsoft.com/en-us/download/details.aspx?id=38793).
+Jeśli skoroszyt zawiera model danych, można uruchomić optymalizator rozmiaru skoroszytu, aby zmniejszyć rozmiar skoroszytu. [Pobierz narzędzie Workbook Size Optimizer](https://www.microsoft.com/download/details.aspx?id=38793).
 
 ## <a name="related-info"></a>Powiązane informacje
 [Tworzenie modelu danych zapewniającego wydajną obsługę pamięci](https://support.office.com/article/Create-a-memory-efficient-Data-Model-using-Excel-2013-and-the-Power-Pivot-add-in-951c73a9-21c4-46ab-9f5e-14a2833b6a70)

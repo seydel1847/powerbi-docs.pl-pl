@@ -1,21 +1,21 @@
 ---
 title: Edytowanie schematu językowego funkcji Pytania i odpowiedzi oraz dodawanie fraz — Power BI
 description: Jak za pomocą programu Power BI Desktop zmodyfikować schemat językowy używany przez funkcję Pytania i odpowiedzi usługi Power BI.
-author: willthom
+author: maggiesMSFT
 manager: kfile
-ms.reviewer: mihart
+ms.reviewer: willthom
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/17/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 5d57ab76b97ea6b810169710553597e2e8a5d55f
-ms.sourcegitcommit: 1a79e48ac820c28c5d0fd05399f49ed22fc74ed7
+ms.openlocfilehash: ea11394c8b559b38f3c01fe339afac4ce3b0d863
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/19/2018
-ms.locfileid: "49435424"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51717958"
 ---
 # <a name="edit-qa-linguistic-schema-and-add-phrasings-in-power-bi-desktop"></a>Edytowanie schematu językowego funkcji Pytania i odpowiedzi oraz dodawanie fraz w programie Power BI Desktop 
 Używanie typowych fraz i języka naturalnego w celu zadawania pytań na temat danych daje dużo możliwości. Jest to o wiele bardziej skuteczne, gdy dane „odpowiadają” — to właśnie umożliwia funkcja Pytania i odpowiedzi w usłudze Power BI. Funkcja Pytania i odpowiedzi usługi Power BI stara się znaleźć poprawną odpowiedź na Twoje pytanie. 

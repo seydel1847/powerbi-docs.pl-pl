@@ -1,21 +1,21 @@
 ---
 title: Porady dotyczące projektowania doskonałych pulpitów nawigacyjnych usługi Power BI
 description: Porady dotyczące projektowania doskonałych pulpitów nawigacyjnych usługi Power BI
-author: mihart
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 06/22/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 082d0ba1e638e8eaf6ae16fa8d5ed63c128c8ad5
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.openlocfilehash: 44f034f13c03ddc2c71f62053632003c3b5e6954
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51507858"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51717843"
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>Porady dotyczące projektowania doskonałych pulpitów nawigacyjnych usługi Power BI
 Gdy już udało Ci się utworzyć pulpit nawigacyjny i dodać kafelki, zadbaj o to, aby Twój projekt był nie tylko ładny, ale i funkcjonalny. Ogólnie rzecz biorąc, chodzi o wyróżnienie najważniejszych informacji, tak aby pulpit nawigacyjny nie wyglądał na przepełniony i pozostał przejrzysty.

@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 09/19/2018
 ms.author: maggies
-ms.openlocfilehash: bb6868784314b369fcc02e3a36caf7c82c3c5966
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 18fb96573052455034f8c257811daed6cb15529e
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46564928"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679244"
 ---
 # <a name="create-a-power-bi-report-for-power-bi-report-server"></a>Tworzenie raportu usługi Power BI dla serwera raportów usługi Power BI
 Raporty usługi Power BI można przechowywać i zarządzać nimi lokalnie w portalu internetowym serwera raportów usługi Power BI, podobnie jak w przypadku przechowywania ich w chmurze w usłudze Power BI (https://powerbi.com). Raporty usługi Power BI można tworzyć i edytować w programie Power BI Desktop, a następnie publikować je w portalu internetowym. Odbiorcy raportów w organizacji będą mogli wyświetlać je w przeglądarce lub w aplikacji mobilnej Power BI na urządzeniach przenośnych.
@@ -31,7 +31,7 @@ Jeśli masz już doświadczenie w tworzeniu raportów usługi Power BI w program
 
     ![Pobieranie programu Power BI Desktop z portalu internetowego](media/quickstart-create-powerbi-report/report-server-download-web-portal.png)
 
-    Możesz też przejść bezpośrednio do programu [Microsoft Power BI Desktop](https://www.microsoft.com/en-us/download/details.aspx?id=57271) (zoptymalizowanego pod kątem serwera raportów usługi Power BI — sierpień 2018) w Centrum pobierania Microsoft.
+    Możesz też przejść bezpośrednio do programu [Microsoft Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=57271) (zoptymalizowanego pod kątem serwera raportów usługi Power BI — sierpień 2018) w Centrum pobierania Microsoft.
 
 2. Na stronie Centrum pobierania wybierz pozycję **Pobierz**.
 
