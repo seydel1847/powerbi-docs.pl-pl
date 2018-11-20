@@ -4,19 +4,18 @@ description: Korzystanie z mapy ArcGis w widoku do czytania jako użytkownik rap
 author: mihart
 manager: kvivek
 ms.reviewer: ''
-tags: power bi, service, desktop, mobile
 featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/23/2018
+ms.date: 11/06/2018
 ms.author: mihart
-ms.openlocfilehash: dd7bca6782327700f087b6b9ca60a9654fa362d8
-ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
+ms.openlocfilehash: 0454d2ea0e69a77482d9ba9587497679819daf06
+ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50003276"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51266029"
 ---
 # <a name="interacting-with-arcgis-maps-in-power-bi"></a>Interakcje z mapami ArcGIS w usłudze Power BI
 Ten temat przedstawia perspektywę osoby *korzystającej* z mapy ArcGIS w usłudze Power BI, programie Desktop lub aplikacji mobilnej. Jeśli twórca mapy ArcGIS udostępni Ci ją, możesz z niej korzystać na wiele sposobów.  Aby dowiedzieć się więcej na temat tworzenia mapy ArcGIS, zobacz [ArcGIS maps by esri tutorial (Samouczek Mapy ArcGIS firmy Esri)](../power-bi-visualization-arcgis.md).
@@ -24,7 +23,7 @@ Ten temat przedstawia perspektywę osoby *korzystającej* z mapy ArcGIS w usłud
 Kombinacja map ArcGIS i usługi Power BI przenosi tworzenie map na zupełnie nowy poziom wykraczający poza prezentację punktów na mapie. Dostępne opcje obejmujące mapy podstawowe, typy lokalizacji, motywy, style symboli i warstwy referencyjne pozwalają tworzyć okazałe i bogate w informacje wizualizacje map. Połączenie autorytatywnych warstw danych (na przykład dotyczących spisu) na mapie z analizą przestrzenną umożliwia lepsze zrozumienie danych używanych w wizualizacji.
 
 > [!TIP]
-> GIS (ang. Geographic Information Science) to inaczej system informacji geograficznej.
+> GIS (ang. Geographic Information System) to inaczej system informacji geograficznej.
 > 
 
 W tym przykładzie używamy mapy ArcGIS utworzonej w [samouczku firmy Esri dotyczącym map ArcGIS](../power-bi-visualization-arcgis.md). Przedstawia ona zeszłoroczną sprzedaż w poszczególnych miastach przy użyciu podstawowej mapy ulicznej, symboli bąbelków reprezentujących wielkość i warstwy referencyjnej prezentującej średni dochód na gospodarstwo domowe. Mapy zawiera trzy pinezki i jedno (purpurowe) koło przedstawiające czas dojazdu.

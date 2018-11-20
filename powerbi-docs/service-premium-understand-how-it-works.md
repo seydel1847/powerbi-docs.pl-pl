@@ -9,12 +9,12 @@ ms.author: mblythe
 ms.reviewer: mblythe
 author: mgblythe
 manager: kfile
-ms.openlocfilehash: 99c84aff932c7ce56a4aaa81d71e4583bce3e4c2
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: 534c06c66d561a04dbffc04412095d6924c92781
+ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641754"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51266075"
 ---
 # <a name="microsoft-power-bi-premium-capacity-resource-management-and-optimization"></a>Optymalizacja zasobów firmy Microsoft o pojemności Power BI Premium i zarządzanie nimi
 
@@ -26,6 +26,7 @@ W tym artykule opisano, jak rozwiązanie Power BI Premium zarządza zasobami. Te
 
 * Zestawy danych, które są ładowane do pamięci
 * Operacje odświeżania zestawów danych (zaplanowane i na żądanie)
+* Obciążenia obsługiwane przez pojemność
 * Zapytania dotyczące raportów
 
 Jeśli żądanie jest wystawiane względem opublikowanego zestawu danych w ramach pojemności, ten zestaw danych jest ładowany do pamięci z magazynu trwałego (proces ten jest również nazywany ładowaniem obrazu). Utrzymywanie załadowanego zestawu danych w pamięci pomaga szybko odpowiadać na przyszłe zapytania dotyczące tego zestawu danych. Oprócz pamięci potrzebnej do utrzymywania zestawu danych załadowanego do pamięci zapytania dotyczące raportów i operacje odświeżania zestawu danych wykorzystują dodatkową pamięć.
@@ -51,6 +52,10 @@ Zestawy danych można odświeżać zgodnie z harmonogramem lub na żądanie uży
 Jeśli mimo przeprowadzenia eksmisji wymagana pamięć jest niedostępna, operacja odświeżania jest umieszczana w kolejce w oczekiwaniu na ponowne podjęcie próby. Usługa ponawia próbę do momentu jej pomyślnego zakończenia lub rozpoczęcia nowej akcji odświeżania.
 
 Jeśli zapytanie interaktywne jest tworzone dla dowolnego zestawu danych w ramach pojemności, a nie ma wystarczającej pamięci z powodu trwającego odświeżania, żądanie to kończy się niepowodzeniem i użytkownik musi podjąć kolejną próbę jego wykonania.
+
+### <a name="workloads"></a>Obciążenia
+
+Domyślnie pojemności usług **Power BI Premium** i **Power BI Embedded** obsługują tylko obciążenie skojarzone z uruchamianiem zapytań usługi Power BI w chmurze. Oferujemy teraz obsługę wersji zapoznawczej dwóch dodatkowych obciążeń: **Raporty podzielone na strony** i **Przepływy danych**. W przypadku jej włączenia te obciążenia będą mogły wpływać na użycie pamięci w pojemności. Aby uzyskać więcej informacji, zobacz temat [Konfigurowanie obciążeń](service-admin-premium-manage.md#configure-workloads).
 
 ## <a name="cpu-resource-management-in-premium-capacity"></a>Zarządzanie zasobami procesora w ramach pojemności Premium
 

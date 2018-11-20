@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 10/24/2018
+ms.date: 11/08/2018
 ms.author: maghan
-ms.openlocfilehash: 397bc6f1582ff49f665f25559925d5b7e19e0fd5
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.openlocfilehash: c8904f3025a0a60557b1d3efb54ea6bc18c20da4
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50101329"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51507911"
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>Wymagania sprzętowe i programowe dotyczące instalowania serwera raportów usługi Power BI
 Ten artykuł zawiera minimalne wymagania dotyczące sprzętu i oprogramowania, które trzeba spełnić, aby zainstalować i uruchomić serwer raportów usługi Power BI.
@@ -43,18 +43,19 @@ Do hostowania baz danych serwera raportów jest używany program SQL Server. Wys
 * SQL Server 2014
 * SQL Server 2012
 
-Utworzenie bazy danych serwera raportów na komputerze zdalnym wymaga skonfigurowania połączenia, które korzysta z konta użytkownika domeny lub konta usługi z dostępem sieciowym. Jeśli zdecydujesz się na korzystanie ze zdalnego wystąpienia programu SQL Server, rozważ dokładnie, których poświadczeń powinien używać serwer raportów w celu łączenia się z wystąpieniem programu SQL Server. Aby uzyskać więcej informacji, zobacz [Konfigurowanie połączenia z bazą danych serwera raportów](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-a-report-server-database-connection-ssrs-configuration-manager).
+W przypadku tworzenia bazy danych serwera raportów na komputerze zdalnym należy skonfigurować połączenie do korzystania z konta użytkownika domeny lub konta usługi z dostępem sieciowym. Jeśli zdecydujesz się na korzystanie ze zdalnego wystąpienia programu SQL Server, rozważ dokładnie, których poświadczeń powinien używać serwer raportów w celu łączenia się z wystąpieniem programu SQL Server. Aby uzyskać więcej informacji, zobacz [Konfigurowanie połączenia z bazą danych serwera raportów](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-a-report-server-database-connection-ssrs-configuration-manager).
 
 ## <a name="considerations"></a>Istotne zagadnienia
 Serwer raportów usługi Power BI zainstaluje wartości domyślne w celu skonfigurowania podstawowych ustawień wymaganych do uruchomienia serwera raportów. Wymagania są następujące:
 
 * Aparat bazy danych programu SQL Server musi być dostępny po zakończeniu instalacji i przed rozpoczęciem konfigurowania bazy danych dla serwera raportów. Wystąpienie aparatu bazy danych hostuje bazę danych serwera raportów utworzoną przez Menedżera konfiguracji usług Reporting Services. Aparat bazy danych nie jest wymagany do obsługi instalacji.
-* Konto użytkownika służące do uruchomienia Instalatora musi należeć do lokalnej grupy administratorów.
-* Konto użytkownika używane na potrzeby Menedżera konfiguracji usług Reporting Services musi mieć uprawnienia dostępu i tworzenia do baz danych w wystąpieniu aparatu bazy danych, które hostuje bazy danych serwera raportów.
+- Temat [Reporting Services Features Supported by the Editions of SQL Server](https://docs.microsoft.com/sql/reporting-services/reporting-services-features-supported-by-the-editions-of-sql-server-2016) (Funkcje usług Reporting Services obsługiwane przez różne wersje programu SQL Server) zawiera opis różnic między wersjami programu SQL Server.
+* Konto użytkownika, które uruchamia Instalatora, musi należeć do lokalnej grupy administratorów.
+* Konto użytkownika uruchamiające Menedżera konfiguracji usług Reporting Services musi mieć uprawnienia dostępu i tworzenia do baz danych w wystąpieniu aparatu bazy danych, które hostuje bazy danych serwera raportów.
 * Instalator musi mieć możliwość użycia wartości domyślnych w celu zarezerwowania adresów URL, które zapewniają dostęp do serwera raportów i portalu internetowego. Te wartości to port 80, silny symbol wieloznaczny i nazwy katalogów wirtualnych w formacie **SerwerRaportów** i **Raporty**.
 
 ## <a name="read-only-domain-controller-rodc"></a>Kontroler domeny tylko do odczytu (RODC)
- Serwer raportów można zainstalować w środowisku z kontrolerem domeny tylko do odczytu (RODC), jednak aby usługi Reporting Services działały prawidłowo, wymagany jest dostęp do kontrolera domeny do odczytu i zapisu. Jeśli usługi Reporting Services będą miały dostęp tylko do kontrolera RODC, podczas wykonywania zadań administracyjnych mogą wystąpić błędy.
+ Serwer raportów można zainstalować w środowisku z kontrolerem domeny tylko do odczytu (RODC, Read-Only Domain Controller). Usługi Reporting Services muszą mieć jednak dostęp do kontrolera domeny odczytu i zapisu, aby działały poprawnie. Jeśli usługi Reporting Services będą miały dostęp tylko do kontrolera RODC, podczas wykonywania zadań administracyjnych mogą wystąpić błędy.
 
 ## <a name="power-bi-reports-and-analysis-services-live-connections"></a>Połączenia na żywo usług Analysis Services i raportów usługi Power BI
 W przypadku wystąpień tabelarycznych lub wielowymiarowych można używać połączenia na żywo. Serwer usług Analysis Services musi mieć odpowiednią wersję i wydanie, aby działać prawidłowo.

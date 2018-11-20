@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/20/2018
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: a36b0524006144bfa9fbd24d9ff88b42a1acb3d4
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: 39429d0f09431da3f860bf0454843c65ce07a524
+ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641648"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51266006"
 ---
 # <a name="manage-capacities-within-power-bi-premium-and-power-bi-embedded"></a>Zarządzanie pojemnościami w usługach Power BI Premium i Power BI Embedded
 
@@ -53,6 +53,44 @@ Po kupieniu jednostek SKU usługi Power BI Premium lub Embedded Twoja dzierżawa
 W większości przypadków użytkownicy nie muszą wiedzieć, że są w pojemności Premium. Wystarczy, że ich pulpity nawigacyjne i raporty działają. Wizualną wskazówką jest ikona rombu obok obszarów roboczych w pojemności Premium.
 
 ![Obszar roboczy z diamentem znajduje się w pojemności Premium](media/service-admin-premium-manage/premium-workspace.png)
+
+## <a name="configure-workloads"></a>Konfigurowanie obciążeń
+
+Obciążenia w usłudze Power BI można traktować jako jedną z wielu usług, które można udostępnić użytkownikom. Domyślnie pojemności usług **Power BI Premium** i **Power BI Embedded** obsługują tylko obciążenie skojarzone z uruchamianiem zapytań usługi Power BI w chmurze.
+
+Oferujemy teraz obsługę wersji zapoznawczej dwóch dodatkowych obciążeń: **Raporty podzielone na strony** i **Przepływy danych**. Te obciążenia można włączyć w portalu administracyjnym usługi Power BI lub za pośrednictwem interfejsu API REST usługi Power BI. Można również ustawić maksymalną ilość pamięci, której może używać każde obciążenie, aby kontrolować wzajemny wpływ obciążeń.
+
+### <a name="enable-workloads-in-the-power-bi-admin-portal"></a>Włączanie obciążeń w portalu administracyjnym usługi Power BI
+
+Aby włączyć obciążenia, wykonaj poniższe kroki.
+
+1. W obszarze **Ustawienia pojemności** wybierz pojemność.
+
+1. W obszarze **WIĘCEJ OPCJI** rozwiń węzeł **Obciążenia**.
+
+1. Włącz co najmniej jedno obciążenie i ustaw wartość **Maksymalna pamięć**.
+
+    ![Konfigurowanie obciążeń w portalu administracyjnym](media/service-admin-premium-manage/admin-portal-workloads.png)
+
+1. Wybierz pozycję **Zastosuj**.
+
+### <a name="default-memory-settings"></a>Domyślne ustawienia pamięci
+
+W poniższej tabeli przedstawiono domyślne i minimalne wartości pamięci w oparciu o różne dostępne [węzły pojemności](service-premium.md#premium-capacity-nodes). Pamięć jest przydzielana dynamicznie do przepływów danych, ale jest przydzielana statycznie do raportów podzielonych na strony. Aby uzyskać więcej informacji, zobacz następną sekcję: [Zagadnienia dotyczące raportów podzielonych na strony](#considerations-for-paginated-reports).
+
+|                     | EM3                      | P1                       | P2                      | P3                       |
+|---------------------|--------------------------|--------------------------|-------------------------|--------------------------|
+| Raporty z podziałem na strony | Nie dotyczy | Domyślna 20%; minimalna 10% | Domyślna 20%; minimalna 5% | Domyślna 20%; minimalna 2,5% |
+| Przepływy danych | Domyślna 15%; minimalna 8%  | Domyślna 15%; minimalna 4%  | Domyślna 15%; minimalna 2% | Domyślna 15%; minimalna 1%  |
+| | | | | |
+
+### <a name="considerations-for-paginated-reports"></a>Zagadnienia dotyczące raportów podzielonych na strony
+
+Jeśli używasz obciążenia raportów podzielonych na strony, weź pod uwagę następujące zagadnienia.
+
+* **Alokacja pamięci w raportach podzielonych na strony**: raporty podzielone na strony umożliwiają uruchamianie własnego kodu podczas renderowania raportu (na przykład w przypadku dynamicznego zmieniania koloru tekstu na podstawie zawartości). Biorąc pod uwagę ten fakt, zabezpieczamy pojemność usługi Power BI Premium, uruchamiając raporty podzielone na strony w obszarze zawartym w pojemności. Przypisujemy wybraną maksymalną ilość pamięci do tego obszaru, bez względu na to, czy obciążenie jest aktywne. Jeśli używasz przepływów danych lub raportów usługi Power BI w ramach tej samej pojemności, upewnij się, że ustawiany poziom pamięci jest wystarczająco niski i nie wpływa negatywnie na inne obciążenia.
+
+* **Raporty podzielone na strony są niedostępne**: w rzadkich przypadkach raporty podzielone na strony mogą stać się niedostępne. W takiej sytuacji obciążenie pokazuje stan błędu w portalu administracyjnym, a użytkownicy widzą przekroczenia limitu czasu renderowania raportu. Aby rozwiązać ten problem, wyłącz obciążenie, a następnie włącz je ponownie.
 
 ## <a name="monitor-capacity-usage"></a>Monitorowanie użycia pojemności
 
@@ -111,7 +149,7 @@ Administratorzy pojemności, a także administratorzy usługi Power BI i adminis
 > [!NOTE]
 > Zarządzanie ustawieniami pojemności usługi Power BI Embedded odbywa się z poziomu witryny Microsoft Azure Portal.
 
-### <a name="change-capacity-size"></a>Zmiana rozmiaru pojemności
+### <a name="change-capacity-size"></a>Zmień rozmiar pojemności
 
 Administratorzy usługi Power BI i administratorzy globalni usługi Office 365 mogą zmienić pojemność usługi Power BI Premium. Administrator pojemności, który nie jest administratorem usługi Power BI ani administratorem globalnym usługi Office 365, nie ma takiej możliwości.
 

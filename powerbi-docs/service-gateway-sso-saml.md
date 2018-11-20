@@ -1,5 +1,5 @@
 ---
-title: Używanie języka SAML w bramie lokalnej na potrzeby logowania jednokrotnego z usługi Power BI do lokalnych źródeł danych
+title: Używanie języka SAML do logowania jednokrotnego do lokalnych źródeł danych
 description: Konfigurowanie bramy przy użyciu języka SAML (Security Assertion Markup Language) w celu włączenia logowania jednokrotnego z usługi Power BI do lokalnych źródeł danych.
 author: mgblythe
 ms.author: mblythe
@@ -10,12 +10,12 @@ ms.component: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: 4fbfa38bd235d37fea730bda8d200e97530f0ce9
-ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
+ms.openlocfilehash: 8762e575574b717965ac55d4cf32a5c925c298ab
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/20/2018
-ms.locfileid: "49474577"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51507789"
 ---
 # <a name="use-security-assertion-markup-language-saml-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Używanie języka SAML (Security Assertion Markup Language) na potrzeby logowania jednokrotnego z usługi Power BI do lokalnych źródeł danych
 

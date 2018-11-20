@@ -1,5 +1,5 @@
 ---
-title: Polecenia cmdlet programu PowerShell, interfejsy API REST i zestaw SDK platformy .NET na potrzeby administracji usługi Power BI
+title: Polecenia cmdlet programu PowerShell, interfejsy API REST i zestaw SDK platformy .NET dla administratorów
 description: Dowiedz się więcej na temat sposobów administrowania usługą Power BI za pomocą skryptów i interfejsów API programowania.
 author: mgblythe
 manager: kfile
@@ -10,12 +10,12 @@ ms.topic: overview
 ms.date: 06/25/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: ffb2ae077add5756af63f07d8f3da830e075e0b4
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: f4455fef5a2ed0e7ee23ff8ca3a0b626cd695838
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "36945287"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51507996"
 ---
 # <a name="powershell-cmdlets-rest-apis-and-net-sdk-for-power-bi-administration"></a>Polecenia cmdlet programu PowerShell, interfejsy API REST i zestaw SDK platformy .NET na potrzeby administracji usługi Power BI
 Usługa Power BI umożliwia administratorom tworzenie skryptów na potrzeby typowych zadań za pomocą poleceń cmdlet programu PowerShell. Udostępnia ona również interfejsy API REST i oferuje zestaw SDK platformy .NET służący do opracowywania rozwiązań administracyjnych. W tym temacie przedstawiono listę poleceń cmdlet i odpowiadającą im metodę zestawu SDK oraz punkt końcowy interfejsu API REST. Aby uzyskać więcej informacji, zobacz:

@@ -1,5 +1,5 @@
 ---
-title: Używanie logowania jednokrotnego z usługi Power BI do lokalnych źródeł danych
+title: Używanie logowania jednokrotnego do lokalnych źródeł danych
 description: Konfigurowanie bramy w celu włączenia logowania jednokrotnego z usługi Power BI do lokalnych źródeł danych.
 author: mgblythe
 ms.author: mblythe
@@ -10,12 +10,12 @@ ms.component: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/15/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: c489ff0e1b764a6ee3dc026e8294132dc8f49025
-ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
+ms.openlocfilehash: b728ba6ebaab81ea475f51b9134de34c37d4149b
+ms.sourcegitcommit: 3b1a1f55465e5dca88783046c6b4c073e4e22e4b
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/20/2018
-ms.locfileid: "49474584"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "51580499"
 ---
 # <a name="overview-of-single-sign-on-sso-for-gateways-in-power-bi"></a>Omówienie logowania jednokrotnego dla bram w usłudze Power BI
 
@@ -25,8 +25,10 @@ Obecnie obsługujemy następujące źródła danych:
 
 * SQL Server ([Kerberos](service-gateway-sso-kerberos.md))
 * SAP HANA ([Kerberos](service-gateway-sso-kerberos.md) i [SAML](service-gateway-sso-saml.md))
+* SAP BW ([Kerberos](service-gateway-sso-kerberos.md)
 * Teradata ([Kerberos](service-gateway-sso-kerberos.md))
 * Spark ([Kerberos](service-gateway-sso-kerberos.md))
+* Impala ([Kerberos](service-gateway-sso-kerberos.md))
 
 Gdy użytkownik korzysta z raportu zapytania bezpośredniego w usłudze Power BI, każda operacja filtrowania krzyżowego, wycinania, sortowania i edytowania raportu może spowodować dynamiczne wykonywanie zapytań kierowanych do lokalnego źródła danych.  W przypadku skonfigurowania logowania jednokrotnego dla źródła danych zapytania są wykonywane przy użyciu tożsamości użytkownika korzystającego z usługi Power BI, czyli za pośrednictwem środowiska internetowego lub aplikacji mobilnych usługi Power BI. Dzięki temu każdy użytkownik będzie widział te dane, do których ma uprawnienia w bazowym źródle danych — skonfigurowanie logowania jednokrotnego oznacza, że dane są buforowane osobno dla każdego użytkownika.
 

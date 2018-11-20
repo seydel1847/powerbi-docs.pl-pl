@@ -4,22 +4,24 @@ description: W tym artykule znajduje się porównanie funkcji serwera raportów 
 keywords: ''
 author: maggiesMSFT
 ms.author: maggies
-ms.date: 05/07/2018
+ms.date: 11/06/2018
 ms.topic: overview
 ms.service: powerbi
 ms.component: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: f78638097ea33f9954f3db78c117f1935a68530b
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: a693eef85f7eafe7cfac2a02cbccc346201a6f13
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908536"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51507697"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Porównanie serwera raportów usługi Power BI i usługi Power BI
 
 Serwer raportów usługi Power BI i usługa Power BI mają wiele podobieństw i niektóre podstawowe różnice. Poniższa tabela zawiera ich szczegółowe objaśnienia.
+
+## <a name="features-of-power-bi-report-server-and-the-power-bi-service"></a>Funkcje serwera raportów usługi Power BI i usługi Power BI
 
 | Funkcje | Serwer raportów usługi Power BI | Usługa Power BI | Uwagi
 |---------|---------|---------|---------|
@@ -39,14 +41,14 @@ Serwer raportów usługi Power BI i usługa Power BI mają wiele podobieństw i 
 | Pytania i odpowiedzi | Nie | Tak | [Funkcja pytań i odpowiedzi w usłudze Power BI i programie Power BI Desktop](../consumer/end-user-q-and-a.md) 
 | Szybki wgląd w szczegółowe dane | Nie | Tak | [Automatyczne generowanie wglądu w szczegółowe dane przy użyciu usługi Power BI](../consumer/end-user-insights.md) 
 | Analizuj w programie Excel | Nie | Tak | [Analizowanie w programie Excel](../service-analyze-in-excel.md) 
-| Raporty z podziałem na strony | Tak | Nie | Raporty podzielone na strony są niedostępne w usłudze Power BI, ale można [przypinać elementy raportu podzielonego na strony do pulpitów nawigacyjnych usługi Power BI](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)
+| Raporty z podziałem na strony | Tak | Tak | [Raporty podzielone na strony są obecnie dostępne w usłudze Power BI](../paginated-reports-report-builder-power-bi.md) w wersji zapoznawczej
 | Aplikacje mobilne Power BI | Tak | Tak | [Omówienie aplikacji mobilnych usługi Power BI](../consumer/mobile/mobile-apps-for-mobile-devices.md) 
 | Mapy ARC GIS | Nie | Tak | [Mapy ArcGIS firmy Esri w usłudze Power BI i programie Power BI Desktop](../power-bi-visualization-arcgis.md)
 | Subskrypcje poczty e-mail dla raportów usługi Power BI | Nie | Tak | [Subskrybowanie raportu i pulpitu nawigacyjnego](../consumer/end-user-subscribe.md) w usłudze Power BI 
 | Subskrypcje poczty e-mail dla raportów podzielonych na strony | Tak | Nie | [Dostarczanie wiadomości e-mail w usługach Reporting Services](https://docs.microsoft.com/sql/reporting-services/subscriptions/e-mail-delivery-in-reporting-services)  
 | Alerty dotyczące danych | Nie | Tak | [Alerty dotyczące danych](../service-set-data-alerts.md) w usłudze Power BI
 | Zabezpieczenia na poziomie wiersza | Tylko za pośrednictwem źródła danych w trybie DirectQuery | Dostępne w trybie DirectQuery (źródło danych) i trybie importu | [Zabezpieczenia na poziomie wiersza](../service-admin-rls.md) w usłudze Power BI 
-| Tryb pełnoekranowy | Nie | Tak | [Tryb pełnoekranowy](../service-fullscreen-mode.md) w usłudze Power BI 
+| Tryb pełnoekranowy | Nie | Tak | [Tryb pełnoekranowy](../consumer/end-user-focus.md) w usłudze Power BI 
 | Zaawansowana współpraca z usługą Office 365 | Nie | Tak | [Współpraca w obszarze roboczym aplikacji](../service-collaborate-power-bi-workspace.md) z usługą Office 365 
 | Wizualizacje języka R | Nie | Tak | [Tworzenie wizualizacji języka R](../visuals/service-r-visuals.md) w usłudze Power BI  
 | Funkcje w wersji zapoznawczej | Nie | Tak | [Włączanie funkcji usługi Power BI w wersji zapoznawczej](../consumer/end-user-preview-features.md) 

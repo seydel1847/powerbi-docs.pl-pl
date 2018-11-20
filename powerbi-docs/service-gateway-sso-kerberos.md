@@ -1,5 +1,5 @@
 ---
-title: Używanie protokołu Kerberos w bramie lokalnej na potrzeby logowania jednokrotnego (SSO) z usługi Power BI do lokalnych źródeł danych
+title: Używanie protokołu Kerberos do logowania jednokrotnego do lokalnych źródeł danych
 description: Konfigurowanie bramy przy użyciu protokołu Kerberos w celu włączenia logowania jednokrotnego z usługi Power BI do lokalnych źródeł danych
 author: mgblythe
 ms.author: mblythe
@@ -10,12 +10,12 @@ ms.component: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: b66799df83095ce2104196b076482cc232c9bfae
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.openlocfilehash: ed9281ba14ad25e2acb347a2394ec729e9d4465c
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50101628"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51508042"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Używanie protokołu Kerberos na potrzeby logowania jednokrotnego (SSO) z usługi Power BI do lokalnych źródeł danych
 
@@ -27,8 +27,10 @@ Obecnie obsługujemy następujące źródła danych:
 
 * SQL Server
 * SAP HANA
+* SAP BW
 * Teradata
 * Spark
+* Impala
 
 Obsługujemy również platformę SAP HANA za pomocą protokołu [SAML (Security Assertion Markup Language)](service-gateway-sso-saml.md).
 
@@ -158,7 +160,7 @@ Na koniec na maszynie z uruchomioną usługą bramy (**PBIEgwTestGW** w naszym p
 
 1. Na liście zasad w obszarze **Przypisywanie praw użytkownika** wybierz pozycję **Działanie jako część systemu operacyjnego (SeTcbPrivilege)**. Upewnij się, że konto usługi bramy również znajduje się na liście kont.
 
-18. Uruchom ponownie proces usługi **lokalnej bramy danych**.
+1. Uruchom ponownie proces usługi **lokalnej bramy danych**.
 
 Jeśli używasz platformy SAP HANA, zalecamy wykonanie tych dodatkowych czynności, które mogą spowodować niewielkie zwiększenie wydajności.
 
@@ -200,9 +202,11 @@ Wcześniej w tym artykule omówiono przełączanie bramy z konta usługi lokalne
 
 Teraz, gdy rozumiesz już w jaki sposób protokół Kerberos współpracuje z bramą, możesz skonfigurować logowanie jednokrotnego na potrzeby programu SAP Business Warehouse (SAP BW). W następujących krokach założono, że [przygotowania do korzystania z ograniczonego delegowania protokołu Kerberos](#preparing-for-kerberos-constrained-delegation) zostały już wykonane zgodnie z opisem we wcześniejszej części tego artykułu.
 
-### <a name="install-sap-bw-components"></a>Instalowanie składników programu SAP BW
+Staramy się, aby ten przewodnik był jak najbardziej kompleksowy. Jeśli wykonano już niektóre kroki, można je pominąć: na przykład utworzono już użytkownika usługi dla serwera BW i zamapowano do niego główną nazwę usługi lub masz już zainstalowaną bibliotekę gsskrb5.
 
-Jeśli nie skonfigurowano bibliotek gsskrb5 i gx64krb5 oprogramowania SAP na maszynie klienckiej ani na serwerze aplikacji SAP BW, wykonaj kroki z poniższej sekcji. Jeśli przeprowadzono już czynności konfiguracyjne (utworzono użytkownika usługi na potrzeby serwera BW i zamapowano na niego nazwę SPN), możesz pominąć niektóre części tej sekcji.
+### <a name="setup-gsskrb5-on-client-machines-and-the-bw-server"></a>Konfigurowanie biblioteki gsskrb5 na maszynach klienckich i na serwerze BW
+
+Biblioteka gsskrb5 musi być używana przez klienta i serwer do nawiązania połączenia logowania jednokrotnego za pośrednictwem bramy. Biblioteka Common Crypto Library (sapcrypto) nie jest obecnie obsługiwana.
 
 1. Pobierz bibliotekę gsskrb5/gx64krb5 z rozwiązania [SAP Note 2115486](https://launchpad.support.sap.com/) (wymagany jest użytkownik s-user oprogramowania SAP). Upewnij się, że biblioteki gsskrb5.dll i gx64krb5.dll są co najmniej w wersji 1.0.11.x.
 
@@ -212,15 +216,15 @@ Jeśli nie skonfigurowano bibliotek gsskrb5 i gx64krb5 oprogramowania SAP na mas
 
 1. Na maszynie klienckiej i maszynie serwera ustaw zmienne środowiskowe SNC\_LIB i SNC\_LIB\_64 w taki sposób, aby wskazywały odpowiednio na lokalizację bibliotek gsskrb5.dll i gx64krb5.dll.
 
-### <a name="complete-the-gateway-configuration-for-sap-bw"></a>Przeprowadzanie konfiguracji bramy na potrzeby programu SAP BW
+### <a name="create-a-bw-service-user-and-enable-snc-communication-using-gsskrb5-on-the-bw-server"></a>Tworzenie użytkownika usługi BW i włączanie komunikacji SNC za pomocą biblioteki gsskrb5 na serwerze BW
 
 Oprócz czynności związanych z konfigurowaniem bramy, które zostały już wykonane, istnieje kilka dodatkowych kroków specyficznych dla programu SAP BW. W sekcji [**Konfigurowanie ustawień delegowania na koncie domeny usługi bramy**](#configure-delegation-settings-on-the-gateway-service-account) w dokumentacji założono, że nazwy SPN zostały już skonfigurowane na potrzeby bazowych źródeł danych. Aby wykonać te czynności konfiguracyjne dla programu SAP BW:
 
-1. W ramach kontrolera domeny usługi Active Directory utwórz użytkownika usługi (początkowo jest to zwykły użytkownik usługi Active Directory) na potrzeby serwera aplikacji BW w środowisku usługi Active Directory. Następnie przypisz do niego nazwę SPN.
+1. Na serwerze kontrolera domeny usługi Active Directory utwórz użytkownika usługi (początkowo jest to zwykły użytkownik usługi Active Directory) na potrzeby serwera aplikacji BW w środowisku usługi Active Directory. Następnie przypisz do niego nazwę SPN.
 
-    Przypisana nazwa SPN **musi** rozpoczynać się od ciągu „SAP/”. To, co będzie znajdować się po tym ciągu, zależy od Ciebie; jednym z rozwiązań jest użycie nazwy użytkownika usługi serwera BW. Jeśli na przykład utworzysz użytkownika BWServiceUser@\<DOMENA\> jako użytkownika usługi, możesz użyć nazwy SPN SAP/BWServiceUser. Jednym ze sposobów ustawienia mapowania nazwy SPN jest użycie polecenia setspn. Aby na przykład ustawić nazwę SPN dla nowo utworzonego użytkownika usługi, w oknie poleceń na maszynie kontrolera domeny wykonaj następujące polecenie: `setspn -s SAP/ BWServiceUser DOMAIN\ BWServiceUser`.
+    Protokół SAP zaleca rozpoczęcie nazwy SPN od SAP/, ale powinno być również możliwe użycie innych prefiksów, takich jak HTTP/. To, co będzie znajdować się po tym ciągu, zależy od Ciebie; jednym z rozwiązań jest użycie nazwy użytkownika usługi serwera BW. Jeśli na przykład utworzysz użytkownika BWServiceUser@\<DOMENA\> jako użytkownika usługi, możesz użyć nazwy SPN SAP/BWServiceUser. Jednym ze sposobów ustawienia mapowania nazwy SPN jest użycie polecenia setspn. Aby na przykład ustawić nazwę SPN dla nowo utworzonego użytkownika usługi, w oknie poleceń na maszynie kontrolera domeny wykonaj następujące polecenie: `setspn -s SAP/ BWServiceUser DOMAIN\ BWServiceUser`. Więcej informacji można znaleźć w dokumentacji oprogramowania SAP BW.
 
-1. Udziel użytkownikowi usługi dostępu do wystąpienia serwera aplikacji BW:
+1. Udziel użytkownikowi usługi dostępu do serwera aplikacji BW:
 
     1. Na maszynie serwera BW dodaj użytkownika usługi do grupy Administratorzy lokalni dla Twojego serwera BW: otwórz program Zarządzanie komputerem, a następnie kliknij dwukrotnie ikonę grupę Administratorzy lokalni dla Twojego serwera.
 
@@ -238,7 +242,7 @@ Oprócz czynności związanych z konfigurowaniem bramy, które zostały już wyk
 
 1. Zaloguj się do serwera za pomocą programu SAP GUI lub SAP Logon, a następnie ustaw następujące parametry profilu przy użyciu transakcji RZ10:
 
-    1. Ustaw parametr profilu snc/identity/as na wartość p:\<utworzony użytkownik usługi programu BW\>, na przykład p:BWServiceUser@MYDOMAIN.COM. Pamiętaj, że ciąg „p:” poprzedza nazwę UPN użytkownika usługi.
+    1. Ustaw parametr profilu snc/identity/as na wartość p:\<utworzony użytkownik usługi programu BW\>, na przykład p:BWServiceUser@MYDOMAIN.COM. Pamiętaj, że ciąg „p:”, który poprzedza nazwę UPN użytkownika usługi; nie jest ciągiem p:CN= stosowanym, gdy biblioteka Common Crypto Lib jest używana jako biblioteka SNC.
 
     1. Ustaw parametr profilu snc/gssapi\_lib na \<ścieżkę do biblioteki gsskrb5.dll/gx64krb5.dll na maszynie serwera (użyta biblioteka będzie zależeć od liczby bitów systemu operacyjnego)\>. Pamiętaj, aby umieścić bibliotekę w lokalizacji, która będzie dostępna dla serwera aplikacji BW.
 
@@ -259,7 +263,7 @@ Oprócz czynności związanych z konfigurowaniem bramy, które zostały już wyk
 
 1. Po ustawieniu tych parametrów profilu otwórz konsolę SAP Management Console na maszynie serwera, a następnie ponownie uruchom wystąpienie serwera BW. Jeśli serwer nie zostanie uruchomiony, upewnij się, że poprawnie ustawiono parametry profilu. Więcej informacji dotyczących ustawień parametrów profilu zawiera [dokumentacja oprogramowania SAP](https://help.sap.com/saphelp_nw70ehp1/helpdata/en/e6/56f466e99a11d1a5b00000e835363f/frameset.htm). Jeśli napotkasz problemy, możesz również zapoznać się z informacjami dotyczącymi rozwiązywania problemów znajdującymi się w dalszej części tej sekcji.
 
-### <a name="map-azure-ad-users-to-sap-bw-users"></a>Mapowanie użytkowników usługi Azure AD na użytkowników programu SAP BW
+### <a name="map-a-bw-user-to-an-active-directory-user"></a>Mapowanie użytkownika aplikacji BW do użytkownika usługi Active Directory
 
 Możesz przeprowadzić mapowanie użytkownika usługi Active Directory na użytkownika serwera aplikacji SAP BW i przetestować połączenie korzystające z logowania jednokrotnego w programie SAP GUI lub SAP Logon.
 
@@ -275,7 +279,7 @@ Możesz przeprowadzić mapowanie użytkownika usługi Active Directory na użytk
 
 1. Wybierz ikonę zapisywania (obraz dyskietki w lewym górnym rogu ekranu).
 
-### <a name="verify-sign-in-using-sso"></a>Sprawdzanie logowania za pomocą funkcji logowania jednokrotnego
+### <a name="test-sign-in-using-sso"></a>Testowanie logowania za pomocą funkcji logowania jednokrotnego
 
 Sprawdź, czy możesz zalogować się do serwera przy użyciu programu SAP Logon lub SAP GUI za pośrednictwem logowania jednokrotnego jako użytkownik usługi Active Directory, dla którego właśnie włączono dostęp za pomocą logowania jednokrotnego.
 
@@ -287,11 +291,11 @@ Sprawdź, czy możesz zalogować się do serwera przy użyciu programu SAP Logon
 
 1. Na następnej stronie podaj odpowiednie szczegóły, w tym serwer aplikacji, numer wystąpienia i identyfikator systemu, a następnie wybierz pozycję **Finish** (Zakończ).
 
-1. Kliknij prawym przyciskiem myszy nowe połączenie, a następnie wybierz pozycję **Properties** (Właściwości). Wybierz kartę **Network** (Sieć). W oknie **SNC Name** (Nazwa SNC) wprowadź wartość p:\<nazwa UPN użytkownika usługi BW\>, na przykład p:BWServiceUser@MYDOMAIN.COM.
+1. Kliknij prawym przyciskiem myszy nowe połączenie, a następnie wybierz pozycję **Properties** (Właściwości). Wybierz kartę **Network** (Sieć). W oknie **SNC Name** (Nazwa SNC) wprowadź wartość p:\<nazwa UPN użytkownika usługi BW\>, na przykład p:BWServiceUser@MYDOMAIN.COM, a następnie wybierz przycisk **OK**.
 
     ![Właściwości wpisu systemowego](media/service-gateway-sso-kerberos/system-entry-properties.png)
 
-1. Wybierz przycisk **OK**. Następnie kliknij dwukrotnie nowo utworzone połączenie, aby podjąć próbę nawiązania połączenia z usługą za pomocą logowania jednokrotnego. Jeśli to połączenie zakończy się pomyślnie, przejdź do następnego kroku. Jeśli nie, przejrzyj wcześniejsze kroki w tym dokumencie, aby upewnić się, że zostały one poprawnie wykonane, lub zapoznaj się z sekcją rozwiązywania problemów znajdującą się poniżej. Pamiętaj, że jeśli w tym kontekście nie możesz nawiązać połączenia z serwerem BW za pomocą logowania jednokrotnego, nie będzie możliwe nawiązanie połączenia z serwerem BW przy użyciu logowania jednokrotnego w kontekście bramy.
+1. Kliknij dwukrotnie nowo utworzone połączenie, aby podjąć próbę nawiązania połączenia z serwerem BW za pomocą logowania jednokrotnego. Jeśli to połączenie zakończy się pomyślnie, przejdź do następnego kroku. Jeśli nie, przejrzyj wcześniejsze kroki w tym dokumencie, aby upewnić się, że zostały one poprawnie wykonane, lub zapoznaj się z sekcją rozwiązywania problemów znajdującą się poniżej. Pamiętaj, że jeśli w tym kontekście nie możesz nawiązać połączenia z serwerem BW za pomocą logowania jednokrotnego, nie będzie możliwe nawiązanie połączenia z serwerem BW przy użyciu logowania jednokrotnego w kontekście bramy.
 
 ### <a name="troubleshoot-installation-and-connections"></a>Rozwiązywanie problemów dotyczących instalacji i połączeń
 
@@ -309,15 +313,33 @@ Jeśli napotkasz jakiekolwiek problemy, wykonaj następujące kroki w celu rozwi
 
 1. „(SNC error) the specified module could not be found” (Błąd SNC: nie można odnaleźć określonego modułu): jest to zazwyczaj spowodowane przez umieszczenie biblioteki gsskrb5.dll/gx64krb5.dll w lokalizacji, która jest dostępna tylko z podniesionymi uprawnieniami (administracyjnymi).
 
-### <a name="add-registry-entries"></a>Dodawanie wpisów rejestru
+### <a name="add-registry-entries-to-the-gateway-machine"></a>Dodawanie wpisów rejestru na maszynie bramy
 
-Dodaj wymagane wpisy do rejestru na maszynie, na której zainstalowana jest brama. Następnie ustaw wymagane parametry konfiguracji bramy.
+Dodaj wymagane wpisy do rejestru na maszynie, na której zainstalowana jest brama.
 
 1. Wykonaj następujące polecenia w oknie poleceń:
 
     1. REG ADD HKLM\SOFTWARE\Wow6432Node\SAP\gsskrb5 /v ForceIniCredOK /t REG\_DWORD /d 1 /f
 
     1. REG ADD HKLM\SOFTWARE\SAP\gsskrb5 /v ForceIniCredOK /t REG\_DWORD /d 1 /f
+
+### <a name="set-configuration-parameters-on-the-gateway-machine"></a>Ustawianie parametrów konfiguracji na maszynie bramy
+
+Istnieją dwie opcje ustawiania parametrów konfiguracji, w zależności od tego, czy program Azure AD DirSync został skonfigurowany tak, aby użytkownicy mogli logować się do usługi Power BI jako użytkownicy usługi Azure AD.
+
+Jeśli masz skonfigurowany program Azure AD DirSync, wykonaj poniższe kroki.
+
+1. Otwórz plik konfiguracji głównej bramy: *Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll*. Domyślna lokalizacja tego pliku to *C:\Program Files\On-premises data gateway*.
+
+1. Upewnij się, że właściwość **FullDomainResolutionEnabled** została ustawiona na wartość True, a właściwość **SapHanaSsoRemoveDomainEnabled** została ustawiona na wartość False.
+
+1. Zapisz plik konfiguracji.
+
+1. Ponownie uruchom usługę bramy za pośrednictwem karty Usługi Menedżera zadań (kliknij prawym przyciskiem myszy i wybierz pozycję Uruchom ponownie).
+
+    ![Ponowne uruchamianie bramy](media/service-gateway-sso-kerberos/restart-gateway.png)
+
+Jeśli nie masz skonfigurowanego programu Azure AD DirSync, wykonaj następujące kroki dla **każdego użytkownika usługi Power BI, którego będziesz mapować na użytkownika usługi Azure AD**. Te kroki umożliwiają ręczne połączenie użytkownika usługi Power BI z użytkownikiem usługi Active Directory, który ma uprawnienia do logowania się do programu BW.
 
 1. Otwórz plik konfiguracyjny głównej bramy: Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll. Domyślna lokalizacja tego pliku to C:\Program Files\On-premises data gateway.
 
@@ -327,19 +349,21 @@ Dodaj wymagane wpisy do rejestru na maszynie, na której zainstalowana jest bram
 
     ![Ponowne uruchamianie bramy](media/service-gateway-sso-kerberos/restart-gateway.png)
 
-### <a name="set-azure-ad-properties"></a>Ustawianie właściwości usługi Azure AD
+1. Ustaw właściwość msDS-cloudExtensionAttribute1 użytkownika usługi Active Directory, który został zamapowany na użytkownika programu BW, na użytkownika usługi Power BI, dla którego chcesz włączyć logowanie jednokrotne protokołu Kerberos. Jednym ze sposobów na ustawienie właściwości msDS-cloudExtensionAttribute1 jest użycie przystawki programu MMC Użytkownicy i komputery usługi Active Directory. Można również użyć innych metod.
 
-Ustaw właściwość msDS-cloudExtensionAttribute1 użytkownika usługi Active Directory, który został zamapowany na użytkownika programu BW (w kroku „Mapowanie użytkowników usługi Azure AD na użytkowników programu SAP BW”), na użytkownika usługi Power BI, dla którego chcesz włączyć logowanie jednokrotne protokołu Kerberos. Jednym ze sposobów na ustawienie właściwości msDS-cloudExtensionAttribute1 jest użycie przystawki programu MMC Użytkownicy i komputery usługi Active Directory. Można również użyć innych metod.
+    1. Zaloguj się do maszyny kontrolera domeny jako administrator.
 
-1. Zaloguj się do maszyny kontrolera domeny jako administrator.
+    1. Otwórz folder **Users** w oknie przystawki, a następnie kliknij dwukrotnie użytkownika usługi Active Directory zamapowanego na użytkownika programu BW.
 
-1. Otwórz folder **Users** w oknie przystawki, a następnie kliknij dwukrotnie użytkownika usługi Active Directory zamapowanego na użytkownika programu BW.
+    1. Wybierz kartę **Edytor atrybutów**.
 
-1. Wybierz kartę **Edytor atrybutów**. Jeśli ta karta nie jest widoczna, należy wyszukać wskazówki dotyczące sposobu jej włączania lub użyć innej metody do ustawiania właściwości msDS-cloudExtensionAttribute1. Wybierz jeden z atrybutów, a następnie naciśnij klawisz „m”, aby przejść do właściwości usługi Active Directory rozpoczynających się od litery „m”. Znajdź właściwość msDS-cloudExtensionAttribute1 i kliknij ją dwukrotnie. Ustaw wartość na nazwę użytkownika, którego używasz do logowania się do usługi Power BI. Wybierz przycisk **OK**.
+        Jeśli ta karta nie jest widoczna, należy wyszukać wskazówki dotyczące sposobu jej włączania lub użyć innej metody do ustawiania właściwości msDS-cloudExtensionAttribute1. Wybierz jeden z atrybutów, a następnie naciśnij klawisz „m”, aby przejść do właściwości usługi Active Directory rozpoczynających się od litery „m”. Znajdź właściwość msDS-cloudExtensionAttribute1 i kliknij ją dwukrotnie. Ustaw wartość na nazwę użytkownika, której używasz do logowania się do usługi Power BI, w formularzu YourUser@YourDomain.
 
-    ![Edytowanie atrybutu](media/service-gateway-sso-kerberos/edit-attribute.png)
+    1. Wybierz przycisk **OK**.
 
-1. Wybierz pozycję **Zastosuj**. Sprawdź, czy ustawiono prawidłową wartość w kolumnie Wartość.
+        ![Edytowanie atrybutu](media/service-gateway-sso-kerberos/edit-attribute.png)
+
+    1. Wybierz pozycję **Zastosuj**. Sprawdź, czy ustawiono prawidłową wartość w kolumnie Wartość.
 
 ### <a name="add-a-new-bw-application-server-data-source-to-the-power-bi-service"></a>Dodawanie nowego źródła danych serwera aplikacji BW do usługi Power BI
 
@@ -347,17 +371,19 @@ Dodaj źródło danych programu BW do bramy: postępuj zgodnie z instrukcjami zn
 
 1. W oknie konfiguracji źródła danych wprowadź takie wartości w polach **Nazwa hosta**, **Numer systemu** i **Identyfikator klienta**, jakie zostałyby użyte podczas logowania się do serwera BW z programu Power BI Desktop. W polu **Metoda uwierzytelniania** wybierz wartość **Windows**.
 
-1. W polu **Nazwa partnera SNC** wprowadź wartość przechowywaną w parametrze profilu snc/identity/as serwera *z ciągiem „SAP/” dodanym między ciąg „p:” a pozostałą część tożsamości*. Jeśli na przykład tożsamość SNC serwera to p:BWServiceUser@MYDOMAIN.COM, należy wprowadzić wartość p:SAP/BWServiceUser@MYDOMAIN.COM. w polu wejściowym Nazwa partnera SNC.
+1. W polu **Nazwa partnera SNC** wprowadź p:\<nazwa SPN mapowana do użytkownika usługi BW\>. Jeśli na przykład nazwa SPN to SAP/BWServiceUser@MYDOMAIN.COM, należy wprowadzić p:SAP/BWServiceUser@MYDOMAIN.COM w polu **Nazwa partnera SNC**.
 
 1. W polu Biblioteka SNC wybierz wartość SNC\_LIB lub SNC\_LIB\_64.
 
 1. W polach **Nazwa użytkownika** i **Hasło** należy wprowadzić nazwę użytkownika i hasło użytkownika usługi Active Directory z uprawnieniami do logowania się do serwera BW przy użyciu logowania jednokrotnego (jest to użytkownik usługi Active Directory, który został zmapowany na użytkownika programu BW za pośrednictwem transakcji SU01). Te poświadczenia będą używane tylko wtedy, gdy pole **Używaj logowania jednokrotnego przez połączenie Kerberos w przypadku zapytań DirectQuery** *nie jest* zaznaczone.
 
-1. Zaznacz pole wyboru **Używaj logowania jednokrotnego przez połączenie Kerberos w przypadku zapytań DirectQuery**, a następnie wybierz pozycję **Zastosuj**. Jeśli test połączenia zakończy się niepowodzeniem, sprawdź, czy poprzednie czynności konfiguracyjne zostały wykonane poprawnie.
+1. Wybierz pole **Używaj logowania jednokrotnego przez połączenie Kerberos w przypadku zapytań DirectQuery**, a następnie wybierz pozycję **Zastosuj**. Jeśli test połączenia zakończy się niepowodzeniem, sprawdź, czy poprzednie czynności konfiguracyjne zostały wykonane poprawnie.
+
+    Bramy zawsze używają wpisanych poświadczeń w celu ustanowienia połączenia testowego z serwerem oraz wykonywania zaplanowanego odświeżania raportów opartych na imporcie. Brama podejmuje próbę nawiązania połączenia logowania jednokrotnego, tylko jeśli wybrano pozycję **Używaj logowania jednokrotnego za pośrednictwem protokołu Kerberos w przypadku zapytań DirectQuery**, a użytkownik uzyskuje dostęp do zestawów danych lub raportów opartych na zapytaniach bezpośrednich.
 
 ### <a name="test-your-setup"></a>Testowanie konfiguracji
 
-Opublikuj raport zapytania bezpośredniego z poziomu programu Power BI Desktop do usługi Power BI, aby przetestować konfigurację. Upewnij się, że jesteś zalogowany do usługi Power BI jako użytkownik, na którego ustawiono wartość właściwości msDS-cloudExtensionAttribute1. Jeśli konfiguracja została pomyślnie ukończona, powinno być możliwe utworzenie raportu na podstawie opublikowanego zestawu danych w usłudze Power BI i wypchnięcie danych za pomocą wizualizacji w raporcie.
+Opublikuj raport zapytania bezpośredniego z poziomu programu Power BI Desktop do usługi Power BI, aby przetestować konfigurację. Upewnij się, że zalogowano się do usługi Power BI jako użytkownik usługi Azure AD lub użytkownik, które został zamapowany do właściwości msDS-cloudExtensionAttribute1 użytkownika usługi Azure AD. Jeśli konfiguracja została pomyślnie ukończona, powinno być możliwe utworzenie raportu na podstawie opublikowanego zestawu danych w usłudze Power BI i wypchnięcie danych za pomocą wizualizacji w raporcie.
 
 ### <a name="troubleshooting-gateway-connectivity-issues"></a>Rozwiązywanie problemów z łącznością bramy
 

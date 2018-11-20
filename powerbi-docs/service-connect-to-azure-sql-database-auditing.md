@@ -7,17 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/10/2017
+ms.date: 11/09/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: ce1769d343f5a5923b1a436a2cc0c97428f74152
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.openlocfilehash: b3b461bedc9eb60607f56c82c5af8de0ed690c06
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50101140"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51507610"
 ---
 # <a name="sql-database-auditing-content-pack-for-power-bi"></a>Pakiet zawartości Inspekcja bazy danych SQL dla usługi Power BI
+
+> [!IMPORTANT]
+> Pakiet zawartości Inspekcja bazy danych SQL jest przestarzały i jest już niedostępny.
+ 
 Pakiet zawartości usługi Power BI dla platformy Azure [Inspekcja bazy danych SQL](/azure/sql-database/sql-database-auditing/) umożliwia zrozumienie aktywności bazy danych oraz uzyskanie informacji dotyczących rozbieżności i anomalii, które mogą wskazywać na problemy biznesowe lub potencjalne naruszenia zabezpieczeń. 
 
 Nawiąż połączenie z [pakietem zawartości Inspekcja bazy danych SQL](https://app.powerbi.com/getdata/services/sql-db-auditing) dla usługi Power BI.

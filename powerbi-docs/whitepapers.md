@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/16/2018
+ms.date: 11/06/2018
 ms.author: maggies
-ms.openlocfilehash: 88bfd67ddf284ea6b518c5ebdd6386887513f393
-ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
+ms.openlocfilehash: bff5e42b239fee572ea0a453301f154da3b999b3
+ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
 ms.translationtype: HT
 ms.contentlocale: pl-PL
 ms.lasthandoff: 11/07/2018
-ms.locfileid: "51223058"
+ms.locfileid: "51266098"
 ---
 # <a name="whitepapers-for-power-bi"></a>Oficjalne dokumenty dla usługi Power BI
 
@@ -22,6 +22,7 @@ Oficjalne dokumenty pozwalają zapoznać się dokładniej z tematami dotyczącym
 
 | Oficjalny dokument | Opis | Data |
 | --- | --- | --- |
+| [Usługa Power BI i przepływy danych](https://go.microsoft.com/fwlink/?linkid=2034388&clcid=0x409)| Ten oficjalny dokument opisuje szczegóły techniczne przepływów danych oraz przedstawia możliwości i inicjatywy związane z funkcjami przepływów danych. | Listopad 2018 |
 | [Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper) |Opisuje usługę Power BI Premium, zarówno w momencie jej uruchomienia, jak i w zakresie planowanego rozwoju. | Październik 2017 |
 | [Planowanie i wdrażanie usługi Power BI Premium](https://aka.ms/Premium-Capacity-Planning-Deployment)| Ten dokument zawiera wskazówki i najlepsze rozwiązania dotyczące planowania i wdrażania pojemności Premium dla dokładnie zdefiniowanych obciążeń.| Listopad 2017 |
 | [Planowanie pojemności dla osadzonych funkcji analitycznych w usłudze Power BI Premium](https://aka.ms/pbiewhitepaper) |Ten dokument zawiera wskazówki dla deweloperów aplikacji/niezależnych dostawców oprogramowania pozwalające określić najbardziej odpowiednią pojemność w danej firmie. | Październik 2017 |

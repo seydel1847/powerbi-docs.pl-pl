@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/14/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 093339e820c45fcbd586bd1eb6d8933b6e5743f8
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 263c1a576e939a87e970cc2c0200dfb6c1ccdc41
+ms.sourcegitcommit: 47269676aa600e60ec7ba0e323941a71e0622833
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34298210"
+ms.lasthandoff: 11/08/2018
+ms.locfileid: "51273338"
 ---
 # <a name="on-premises-data-gateway-personal-mode"></a>Lokalna brama danych (tryb osobisty)
 Przy użyciu bramy można korzystać z lokalnych źródeł danych oraz tworzyć raporty i pulpity nawigacyjne usługi Power BI. **Brama** to oprogramowanie ułatwiające dostęp do danych przechowywanych w prywatnej sieci lokalnej i umożliwiające użycie tych danych w usługach online, takich jak usługa **Power BI**. **Lokalna brama danych (tryb osobisty)** to udostępniona niedawno aktualizacja bramy usługi Power BI, umożliwiająca użytkownikom indywidualnym zainstalowanie bramy na własnym komputerze w celu uzyskania dostępu do danych lokalnych.
@@ -132,7 +132,7 @@ Wprowadzenie obsługi źródeł danych Spark jest planowane w drugiej połowie r
   * **Odpowiedź**: Jeśli odświeżasz raporty przy użyciu bieżącej bramy, odświeżanie zostanie zatrzymane. Jedynym sposobem na skonfigurowanie nowego harmonogramu odświeżania będzie zainstalowanie i skonfigurowanie nowej bramy.
 * Korzystam ze skryptów języka R. Czy są one obsługiwane?
   
-  * **Odpowiedź**: Planujemy dodanie obsługi skryptów języka R wkrótce.
+  * **Odpowiedź**: Skrypty języka R są obsługiwane w trybie osobistym.
 * Dlaczego nie widzę monitu o zaktualizowanie bramy w usłudze **Power BI**?
   
   * **Odpowiedź**: Prawdopodobnie dlatego, że co najmniej jeden zestaw danych zawiera źródło danych, które nie jest jeszcze obsługiwane.

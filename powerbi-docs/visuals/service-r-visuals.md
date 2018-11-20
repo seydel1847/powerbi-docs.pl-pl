@@ -1,5 +1,5 @@
 ---
-title: Tworzenie zaawansowanych analiz i wizualizacji przy użyciu skryptów języka R w usłudze Power BI
+title: Tworzenie zaawansowanych analiz i wizualizacji przy użyciu skryptów języka R
 description: Przy użyciu skryptów języka R w usłudze Power BI można tworzyć zaawansowane analizy i wizualizacje
 author: mihart
 manager: kvivek
@@ -7,21 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/24/2018
+ms.date: 10/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a3407458cfe6e395a5a209e136af1d4c9a7aa6a6
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 409a2ee486d0153e0dec2f715ff0e2ea19e236d7
+ms.sourcegitcommit: 5eb0f37f59b5fec15c0caecbbd1f8d688c7f0013
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46566354"
+ms.lasthandoff: 11/09/2018
+ms.locfileid: "51297118"
 ---
 # <a name="creating-r-visuals-in-the-power-bi-service"></a>Tworzenie wizualizacji języka R w usłudze Power BI
 Usługa Power BI obsługuje wyświetlanie i używanie wizualizacji utworzonych za pomocą skryptów języka R. Korzystając z wizualizacji utworzonych za pomocą skryptów języka R, powszechnie nazywanych *wizualizacjami języka R*, można przedstawiać zaawansowane kształtowanie danych i zaawansowaną analizę danych (na przykład prognozy), używając rozbudowanych możliwości analizy i wizualizacji języka R.
 
 > [!NOTE]
-> [Język programowania R](https://www.r-project.org/) jest jednym z języków najczęściej używanych przez statystyków, analityków danych i analityków biznesowych. Wokół języka R zgromadziła się społeczność autorów rozwiązań typu „open source”, która oferuje ponad 7000 dodatkowych pakietów, oraz szerokie grono [grup użytkowników](http://msdsug.microsoft.com/). Wersja języka R wdrożona w usłudze Power BI to *Revolution R Open 3.2.2.*
+> [Język programowania R](https://www.r-project.org/) jest jednym z języków najczęściej używanych przez statystyków, analityków danych i analityków biznesowych. Wokół języka R zgromadziła się społeczność autorów rozwiązań typu „open source”, która oferuje ponad 7000 dodatkowych pakietów, oraz szerokie grono grup użytkowników. Wersja języka R wdrożona w usłudze Power BI to *Revolution R Open 3.2.2.*
 > 
 > 
 

@@ -8,15 +8,15 @@ featuredvideoid: EKVvOZmxg9s
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/28/2018
+ms.date: 11/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 18e33fa4767eb0d9e457589ea3fa3b61721dce51
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 81867ba36e79a26acb168c1b02fc31e228bd6439
+ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548033"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51266052"
 ---
 # <a name="arcgis-maps-in-power-bi-service-and-power-bi-desktop-by-esri"></a>Mapy ArcGIS firmy Esri w usłudze Power BI i programie Power BI Desktop
 Niniejszy samouczek został napisany, uwzględniając punkt widzenia osoby tworzącej mapę ArcGIS. Jeśli twórca udostępni mapę ArcGIS współpracownikom, mogą oni wyświetlać mapę i wchodzić w interakcję z nią, ale nie mogą zapisywać zmian. Aby dowiedzieć się więcej na temat wyświetlania mapy ArcGIS, zobacz [Wchodzenie w interakcje z mapami ArcGIS](visuals/power-bi-visualizations-arcgis.md).
@@ -26,7 +26,7 @@ Kombinacja map ArcGIS i usługi Power BI przenosi tworzenie map na zupełnie now
  Chociaż tworzenie map ArcGIS na urządzeniach przenośnych nie jest możliwe, możliwe jest ich wyświetlanie oraz wchodzenie w interakcje z nimi. Zobacz [Wchodzenie w interakcje z mapami ArcGIS](visuals/power-bi-visualizations-arcgis.md).
 
 > [!TIP]
-> GIS (ang. Geographic Information Science) to inaczej system informacji geograficznej.
+> GIS (ang. Geographic Information Systems) to inaczej system informacji geograficznej.
 
 
 W poniższym przykładzie użyto ciemnoszarej kanwy, aby pokazać sprzedaż regionalną w formie mapy cieplnej w zestawieniu z demograficzną warstwą prezentującą medianę dochodu rozporządzalnego w 2016 r. Jak zobaczysz później, korzystanie z map ArcGIS oferuje praktycznie nieograniczone możliwości w zakresie zaawansowanego tworzenia map, dane demograficzne oraz jeszcze bardziej atrakcyjne wizualizacje map, co pozwala lepiej prezentować dane historyczne.

@@ -10,12 +10,12 @@ ms.component: powerbi-gateways
 ms.topic: conceptual
 ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: 2a4fb3bdf4e1041ceb90cde9b6c5f26fcb9a3871
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.openlocfilehash: 795f97403ea80caad52e57e54edc3d54a4c5d952
+ms.sourcegitcommit: 3b1a1f55465e5dca88783046c6b4c073e4e22e4b
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50101651"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "51580545"
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>Rozwiązywanie problemów z lokalną bramą danych
 
@@ -103,17 +103,14 @@ Aby rozwiązać ten problem, wykonaj następujące czynności.
 3. Ponownie zainstaluj bramę.
 4. Opcjonalnie zastosuj klucz odzyskiwania, aby przywrócić istniejącą bramę.
 
-### <a name="support-for-tls-1112"></a>Obsługa protokołu TLS 1.1/1.2
+## <a name="support-for-tls-12"></a>Obsługa protokołu TLS 1.2
 
-Począwszy od aktualizacji z sierpnia 2017 roku, lokalna brama danych domyślnie używa protokołu Transport Layer Security (TLS) 1.1 lub 1.2 w celu komunikowania się z usługą **Power BI**. Poprzednie wersje lokalnej bramy danych domyślnie używają protokołu TLS 1.0. Musisz uaktualnić instalacje lokalnej bramy danych do wersji z sierpnia 2017 roku lub nowszej, aby zapewnić dalsze działanie bram.
+Domyślnie lokalna brama danych używa protokołu Transport Layer Security (TLS) 1.2 do komunikowania się z usługą Power BI. Aby upewnić się, że cały ruch w bramie używa protokołu TLS 1.2, być może trzeba dodać lub zmodyfikować następujące klucze rejestru na maszynie, na której działa usługa bramy:
 
->[!NOTE]
->Obsługa protokołu TLS 1.0 została zakończona 1 listopada 2017 r.
-
-Warto pamiętać, że do 1 listopada 2017 r. protokół TLS 1.0 będzie w dalszym ciągu obsługiwany przez lokalną bramę danych i używany przez nią jako mechanizm rezerwowy. Aby upewnić się, że cały ruch w bramie używa protokołu TLS 1.1 lub 1.2 (i zapobiec używaniu protokołu TLS 1.0), należy dodać lub zmodyfikować następujące klucze rejestru na maszynie, na której działa usługa bramy:
-
-        [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
-        [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
+```
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
+```
 
 > [!NOTE]
 > Dodanie lub zmodyfikowanie tych kluczy rejestru powoduje zastosowanie zmiany do wszystkich aplikacji .NET. Informacje na temat zmian rejestru, które mają wpływ na użycie protokołu TLS przez inne aplikacje, są zawarte w artykule [Ustawienia rejestru dla protokołu Transport Layer Security (TLS)](https://docs.microsoft.com/windows-server/security/tls/tls-registry-settings).

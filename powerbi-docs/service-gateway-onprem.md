@@ -10,12 +10,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 06/05/2018
-ms.openlocfilehash: 2758ef661b70c53a37104c67c4012be79725990e
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.openlocfilehash: 488d11209126098063ba8ca2b2d73573edbcdbb9
+ms.sourcegitcommit: 5eb0f37f59b5fec15c0caecbbd1f8d688c7f0013
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50101490"
+ms.lasthandoff: 11/09/2018
+ms.locfileid: "51297141"
 ---
 # <a name="on-premises-data-gateway"></a>Lokalna brama danych
 
@@ -118,7 +118,7 @@ Jeśli sądzisz, że problemy z bramą dotyczą serwera proxy, zobacz [Konfiguro
 [Zarządzanie źródłami danych — Oracle](service-gateway-onprem-manage-oracle.md)  
 [Zarządzanie źródłami danych — importowanie/zaplanowane odświeżanie](service-gateway-enterprise-manage-scheduled-refresh.md)  
 [Lokalna brama danych — szczegóły](service-gateway-onprem-indepth.md)  
-[Lokalna brama danych (tryb osobisty) — nowa wersja bramy osobistej](service-gateway-personal-mode.md)
+[Lokalna brama danych (tryb osobisty) —nowa wersja bramy osobistej](service-gateway-personal-mode.md)  
 [Konfigurowanie ustawień serwera proxy dla lokalnej bramy danych](service-gateway-proxy.md)  
 
 Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)

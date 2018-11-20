@@ -1,5 +1,5 @@
 ---
-title: Łączenie się z danymi utworzonymi przez przepływy danych usługi Power BI w programie Power BI Desktop (wersja zapoznawcza)
+title: Łączenie z danymi utworzonymi przez przepływy danych usługi Power BI w programie Power BI Desktop (wersja beta)
 description: Łatwo nawiązuj połączenie z przepływami danych i korzystaj z nich w programie Power BI Desktop
 author: davidiseminger
 manager: kfile
@@ -7,58 +7,46 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/10/2018
+ms.date: 11/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f3964b96f8f282772f6d511c9c412e0caabd1d00
-ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
+ms.openlocfilehash: f87db1f715118f346e3b8069897e92fd157f881c
+ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44513272"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51265937"
 ---
-# <a name="connect-to-data-created-by-power-bi-dataflows-in-power-bi-desktop-preview"></a>Łączenie się z danymi utworzonymi przez przepływy danych usługi Power BI w programie Power BI Desktop (wersja zapoznawcza)
+# <a name="connect-to-data-created-by-power-bi-dataflows-in-power-bi-desktop-beta"></a>Łączenie z danymi utworzonymi przez przepływy danych usługi Power BI w programie Power BI Desktop (wersja beta)
 W programie **Power BI Desktop** możesz nawiązać połączenie z danymi utworzonymi przez **przepływy danych usługi Power BI** w taki sam sposób, jak w przypadku dowolnego innego źródła danych w programie Power BI Desktop.
 
 ![Łączenie się z przepływami danych](media/desktop-connect-dataflows/connect-dataflows_01.png)
 
-Łącznik **Przepływy danych usługi Power BI (wersja zapoznawcza)** umożliwia łączenie się z jednostkami utworzonymi przez przepływy danych w usłudze Power BI. Ponieważ przepływy danych są w wersji zapoznawczej, musisz wykonać kilka kroków, aby łącznik przepływów danych był dostępny w Twoim systemie. 
-
-
-## <a name="download-and-enable-the-power-bi-dataflows-connector-preview"></a>Pobieranie i włączanie łącznika przepływów danych usługi Power BI (wersja zapoznawcza)
-
-Musisz pobrać kopię łącznika **przepływów danych usługi Power BI**, a następnie skopiować go do określonej lokalizacji na komputerze. W nadchodzącej miesięcznej aktualizacji programu Power BI Desktop łącznik będzie automatycznie uwzględniony na liście łączników danych i te kroki nie będą potrzebne.
-
-**Łącznik przepływów danych usługi Power BI** można pobrać z tej lokalizacji: [łącznik przepływów danych usługi Power BI](https://visuals.azureedge.net/cds-analytics/PublicPreview/CDSA.mez)
-
-Wykonaj poniższe kroki, aby łącznik **przepływów danych usługi Power BI** (wersja zapoznawcza) był dostępny na Twoim komputerze:
-
-1. Pobierz kopię pliku MEZ (pliku łącznika danych). Klienci korzystający z prywatnej wersji zapoznawczej otrzymają informacje dotyczące pobierania pliku MEZ bezpośrednio od firmy Microsoft.
-
-2. Umieść pobrany plik łącznika danych w następującym folderze na komputerze: **Dokumenty > Power BI Desktop > folder łączników niestandardowych**
-
-3. W programie Power BI Desktop wybierz pozycję **Plik > Opcje i ustawienia > Opcje**, a następnie wybierz pozycję **Funkcje w wersji zapoznawczej** w okienku po lewej stronie.
-
-    ![Włączanie łączników niestandardowych](media/desktop-connect-dataflows/connect-dataflows_02.png)
-
-4. Zaznacz pole **Niestandardowe łączniki danych**, jeśli nie jest zaznaczone. 
-
-5. Uruchom ponownie program **Power BI Desktop**, aby łącznik został wyświetlony.
-
-## <a name="use-the-power-bi-dataflows-connector-preview"></a>Używanie łącznika przepływów danych usługi Power BI (wersja zapoznawcza)
-Po ponownym uruchomieniu programu **Power BI Desktop** łącznik będzie wyświetlany jako dostępne źródło danych. Aby połączyć się z pulą danych, wybierz pozycję **Pobierz dane > Usługi online > Przepływy danych usługi Power BI (wersja beta)** jak pokazano na poniższej ilustracji:
-
-![Łączenie się z przepływami danych](media/desktop-connect-dataflows/connect-dataflows_01.png)
+Łącznik **Przepływy danych usługi Power BI (wersja beta)** umożliwia łączenie z jednostkami utworzonymi przez przepływy danych w usłudze Power BI. 
 
 ## <a name="considerations-and-limitations"></a>Istotne zagadnienia i ograniczenia
 
-Aby korzystać z tej wersji zapoznawczej **łącznika przepływów danych usługi Power BI**, musisz mieć uruchomioną najnowszą wersję programu **Power BI Desktop**. Zawsze możesz [pobrać program Power BI Desktop](desktop-get-the-desktop.md) i zainstalować go na komputerze, aby upewnić się, że masz najnowszą wersję.  
+Aby korzystać z tej wersji beta **łącznika przepływów danych usługi Power BI**, musisz mieć uruchomioną najnowszą wersję programu **Power BI Desktop**. Zawsze możesz [pobrać program Power BI Desktop](desktop-get-the-desktop.md) i zainstalować go na komputerze, aby upewnić się, że masz najnowszą wersję.  
 
-Uwaga: kiedy łącznik przepływów danych usługi Power BI pojawi się w nadchodzącej miesięcznej aktualizacji programu **Power BI Desktop**, *musisz* usunąć ten pobrany plik MEZ z folderu **Dokumenty > Power BI Desktop > Łączniki niestandardowe** w celu uniknięcia konfliktów. 
+> [!NOTE]
+> Poprzednia wersja łącznika przepływów danych usługi Power BI wymagała pobrania pliku MEZ i umieszczenia go w folderze. Bieżące wersje programu **Power BI Desktop** obejmują łącznik przepływów danych usługi Power BI, dzięki czemu plik nie jest już wymagany i może powodować konflikt z uwzględnioną wersją łącznika. Jeśli plik MEZ został ręcznie umieszczony w folderze, *musisz* usunąć pobrany plik MEZ z folderu **Dokumenty > Power BI Desktop > Łączniki niestandardowe** w celu uniknięcia konfliktów. 
+
+## <a name="desktop-performance"></a>Wydajność programu Desktop
+Program **Power BI Desktop** działa lokalnie na komputerze, na którym został zainstalowany. Wydajność pozyskiwania przepływów danych zależy od różnych czynników. Obejmują one rozmiar danych, procesor i pamięć RAM komputera, przepustowość sieci, odległość od centrum danych oraz inne czynniki.
+
+Wydajność pozyskiwania danych dla przepływów danych można poprawić. Jeśli na przykład rozmiar pozyskiwanych danych jest zbyt duży, aby program **Power BI Desktop** mógł zarządzać nimi na komputerze, można w przepływach danych użyć jednostek połączonych i obliczonych do agregowania danych (w ramach przepływów danych) i pozyskiwania tylko wstępnie przygotowanych, zagregowanych danych. Dzięki temu przetwarzanie dużych ilości danych będzie wykonywane w trybie online w przepływach danych, a nie lokalnie w uruchomionym wystąpieniu programu **Power BI Desktop**. Takie podejście umożliwia programowi Power BI Desktop pozyskiwanie mniejszej ilości danych i zapewnia szybkie i dynamiczne środowisko przepływów danych.
 
 
 ## <a name="next-steps"></a>Następne kroki
-Istnieje wiele ciekawych rzeczy, które można zrobić za pomocą połączeń danych usługi Power BI, a także wiele artykułów na temat programu **Power BI Desktop**, które mogą okazać się przydatne:
+Istnieje wiele interesujących czynności, które można wykonać przy użyciu przepływów danych usługi Power BI. Więcej informacji możesz uzyskać w następujących zasobach:
+
+* [Przygotowywanie danych samoobsługi przy użyciu przepływów danych](service-dataflows-overview.md)
+* [Tworzenie i używanie przepływów danych w usłudze Power BI](service-dataflows-create-use.md)
+* [Używanie obliczonych jednostek w usłudze Power BI Premium (wersja zapoznawcza)](service-dataflows-computed-entities-premium.md)
+* [Używanie przepływów danych z lokalnymi źródłami danych (wersja zapoznawcza)](service-dataflows-on-premises-gateways.md)
+* [Zasoby dla deweloperów dotyczące przepływów danych usługi Power BI (wersja zapoznawcza)](service-dataflows-developer-resources.md)
+
+Dostępne są także artykuły dotyczące programu **Power BI Desktop**, które mogą się okazać przydatne:
 
 * [Źródła danych w programie Power BI Desktop](desktop-data-sources.md)
 * [Kształtowanie i łączenie danych w programie Power BI Desktop](desktop-shape-and-combine-data.md)

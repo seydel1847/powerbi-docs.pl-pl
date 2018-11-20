@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: b4ecec3b2e53c2fea0fcbb7d78d1114da1a105ed
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: da8fb3da7ea0e4f0457951bc421a5f207c3c6911
+ms.sourcegitcommit: 47269676aa600e60ec7ba0e323941a71e0622833
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34299636"
+ms.lasthandoff: 11/08/2018
+ms.locfileid: "51273315"
 ---
 # <a name="on-premises-data-gateway-faq"></a>Lokalna brama danych — często zadawane pytania
 <!-- Shared FAQ shared Include -->
@@ -68,6 +68,9 @@ ms.locfileid: "34299636"
 
 **Pytanie:** Czy brama będzie działać z usługą ExpressRoute?  
 **Odpowiedź:** Tak. Aby uzyskać więcej informacji na temat usług ExpressRoute i Power BI, zobacz [Usługi Power BI i ExpressRoute](service-admin-power-bi-expressroute.md).
+
+**Pytanie:** Korzystam ze skryptów języka R. Czy są one obsługiwane?
+**Odpowiedź**: Skrypty języka R są obsługiwane tylko w trybie osobistym.
 
 ## <a name="next-steps"></a>Następne kroki
 [Lokalna brama danych](service-gateway-onprem.md)  

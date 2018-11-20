@@ -8,20 +8,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 10/09/2018
+ms.date: 11/06/2018
 LocalizationGroup: Premium
-ms.openlocfilehash: 2623dd3280636583d5dd6d6e3f57518550032193
-ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
+ms.openlocfilehash: bb7527a197c9556509ebba721ee49a2d9817b6f5
+ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50003207"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51266213"
 ---
 # <a name="monitor-power-bi-premium-and-power-bi-embedded-capacities"></a>Monitorowanie pojemności w usługach Power BI Premium i Power BI Embedded
 
 Ten artykuł zawiera omówienie monitorowania metryk pojemności usługi Power BI Premium. Monitorowanie użycia pojemności pozwala na świadomy wybór podejścia do zarządzania pojemnościami.
 
-Pojemność można monitorować za pomocą aplikacji metryk pojemności lub portalu administracyjnego w usłudze Power BI Premium. Zalecamy użycie aplikacji, ponieważ oferuje ona o wiele więcej szczegółów, ale w tym artykule opisano obie opcje.
+Pojemność można monitorować za pomocą aplikacji metryk pojemności lub portalu administracyjnego w usłudze Power BI Premium. Zalecamy użycie aplikacji, ponieważ oferuje ona o wiele więcej szczegółów, ale w tym artykule opisano obie opcje. **Bieżąca wersja aplikacji to 1.8 (wydana 7 listopada 2018 r.).**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/UgsjMbhi_Bk?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
@@ -33,11 +33,11 @@ Można przejść bezpośrednio do [aplikacji metryk pojemności usługi Premium]
 
     ![Przechodzenie do pozycji Aplikacje](media/service-admin-premium-monitor-capacity/apps.png)
 
-2. Po prawej stronie kliknij pozycję **Pobierz aplikacje**.
+1. Po prawej stronie kliknij pozycję **Pobierz aplikacje**.
 
-3. W kategorii **Aplikacje** wyszukaj **aplikację metryk pojemności usługi Power BI Premium**.
+1. W kategorii **Aplikacje** wyszukaj **aplikację metryk pojemności usługi Power BI Premium**.
 
-4. Subskrybuj, aby zainstalować aplikację.
+1. Subskrybuj, aby zainstalować aplikację.
 
 Teraz, po zainstalowaniu aplikacji, będziesz widzieć metryki dotyczące pojemności w swojej organizacji. Przyjrzyjmy się niektórym dostępnym kluczowym metrykom.
 
@@ -47,72 +47,155 @@ Po otwarciu aplikacji najpierw zostanie wyświetlony pulpit nawigacyjny z podsum
 
 ![Pulpit nawigacyjny aplikacji Metryki](media/service-admin-premium-monitor-capacity/app-dashboard.png)
 
-Raport składa się z trzech kart, które bardziej szczegółowo opisujemy w poniższych sekcjach.
+Kliknij pulpit nawigacyjny, aby przejść do raportu źródłowego. Raport składa się z sześciu kart, które bardziej szczegółowo opisujemy w poniższych sekcjach.
 
-* **Filtry stosowane do wszystkich stron**: umożliwia odfiltrowanie pozostałych stron w raporcie pod kątem określonej pojemności.
-* **Zestawy danych**: dostarcza szczegółowe metryki dotyczące kondycji zestawów danych w ramach Twoich pojemności.
-* **System**: zapewnia ogólne metryki wydajności, takie jak wysokie wykorzystanie pamięci i procesora. 
+* **Filtry**: umożliwia odfiltrowanie pozostałych stron w raporcie pod kątem określonej pojemności.
 
-### <a name="filters-applied-to-all-pages-tab"></a>Karta Filtry stosowane do wszystkich stron
+* **Zestawy danych**: szczegółowe metryki dotyczące kondycji zestawów danych usługi Power BI w ramach Twoich pojemności.
 
-Na karcie **Filtry stosowane do wszystkich stron** możesz wybrać pojemność, zestaw danych i zakres dat w ciągu ostatnich siedmiu dni. Filtry zostaną następnie zastosowane do wszystkich odpowiednich stron i kafelków w raporcie. Jeśli nie zostaną wybrane żadne filtry, w raporcie będą domyślnie wyświetlane metryki z poprzedniego tygodnia dla każdej pojemności, która należy do Ciebie.
+* **Raporty podzielone na strony**: szczegółowe metryki dotyczące kondycji raportów podzielonych na strony w ramach Twoich pojemności.
+
+* **Przepływy danych**: szczegółowe metryki odświeżania dla przepływów danych w ramach Twoich pojemności.
+
+* **System**: ogólne metryki wydajności, takie jak wysokie wykorzystanie pamięci i procesora.
+
+* **Nazwy wyświetlane i identyfikatory**: nazwy, identyfikatory i właściciele pojemności, obszarów roboczych oraz obciążeń.
+
+### <a name="filters-tab"></a>Karta Filtry
+
+Karta **Filtry** umożliwia wybranie pojemności, zakresu dat i innych opcji. Filtry zostaną następnie zastosowane do wszystkich odpowiednich stron i kafelków w raporcie. Jeśli nie zostaną wybrane żadne filtry, w raporcie będą domyślnie wyświetlane metryki z poprzedniego tygodnia dla każdej pojemności, która należy do Ciebie.
 
 ![Karta Filtry](media/service-admin-premium-monitor-capacity/filters-tab.png)
 
+* **(A)** Wybierz pozycję **Zestawy danych**, **Raporty podzielone na strony** lub **Przepływy danych**, aby ustawić filtry dla poszczególnych obciążeń.
+
+* **(B)** Nazwa i **(C)** informacje są aktualizowane w oparciu o pozycje wybrane w kroku **(A)**, co pozwala na filtrowanie obciążenia według nazwy. Na przykład na powyższej ilustracji wybrano pozycję **Przepływ danych**, co powoduje wyświetlenie obszarów **Nazwa przepływów danych** i **Informacje o przepływach danych**.
+
+* **(D)** Informacje o pojemności, które wskazują, czy w ramach tej pojemności włączono zestawy danych, raporty podzielone na strony lub przepływy danych.
+
 ### <a name="datasets-tab"></a>Karta Zbiory danych
 
-Na karcie **Zestawy danych** znajdują się zbiorcze metryki w aplikacji. Używając przycisków w górnej części karty, możesz przejść do różnych obszarów: **Podsumowanie**, **Odświeżenia**, **Czasy trwania zapytań**, **Oczekiwania zapytań** i **Zestawy danych**.
+Używając przycisków w górnej części karty **Zestawy danych**, możesz przechodzić do różnych obszarów: **Podsumowanie**, **Odświeżenia**, **Czasy trwania zapytań**, **Oczekiwania zapytań** i **Zestawy danych**.
 
 ![Karta Zbiory danych](media/service-admin-premium-monitor-capacity/datasets-tab.png)
 
 #### <a name="summary-area"></a>Obszar Podsumowanie
 
-Obszar **Podsumowanie** przedstawia widok Twoich pojemności w oparciu o jednostki, zasoby systemowe i obciążenia zestawu danych.
+Obszar **Podsumowanie** przedstawia widok Twoich pojemności w oparciu o jednostki, zasoby systemowe i obciążenia zestawu danych. Zawiera on poniższe metryki.
 
-| | **Metryki** |
+| **Sekcja raportu** | **Metryki** |
 | --- | --- |
 | **Jednostki** | * Liczba pojemności, których jesteś właścicielem<br> * Odrębna liczba zestawów danych w pojemności<br> * Odrębna liczba obszarów roboczych w pojemności |
 | **System** | * Średnie użycie pamięci w GB w ciągu ostatnich siedmiu dni<br> * Najwyższe zużycie pamięci w GB w ciągu ostatnich siedmiu dni oraz czas lokalny wystąpienia tego zużycia<br> * Liczba, która wskazuje, ile razy procesor przekroczył 80% progów w ciągu ostatnich siedmiu dni z podziałem na trzyminutowe przedziały<br> * Największa liczba przypadków, gdy procesor przekroczył 80% w ciągu ostatnich siedmiu dni z podziałem na przedziały o długości jednej godziny, oraz czas lokalny tych przypadków<br> * Liczba, która wskazuje, ile razy zapytania bezpośrednie/połączenia na żywo przekroczyły 80% progów w ciągu ostatnich siedmiu dni z podziałem na trzyminutowe przedziały<br> * Największa liczba przypadków, gdy zapytania bezpośrednie/połączenia na żywo przekroczyły 80% w ciągu ostatnich siedmiu dni z podziałem na przedziały o długości jednej godziny, oraz czas lokalny tych przypadków |
-| **Obciążenia zestawu danych** | * Łączna liczba odświeżeń w ciągu ostatnich siedmiu dni<br> * Łączna liczba pomyślnych odświeżeń w ciągu ostatnich siedmiu dni<br> * Łączna liczba nieudanych odświeżeń w ciągu ostatnich siedmiu dni<br> * Łączna liczba odświeżeń nieudanych z powodu braku pamięci<br> * Średni czas trwania odświeżania jest mierzony w minutach, czas potrzebny do ukończenia operacji<br> * Średni czas oczekiwania na odświeżenie jest mierzony w minutach, średnie opóźnienie między zaplanowanym czasem i uruchomieniem operacji<br> * Łączna liczba zapytań uruchomionych w ciągu ostatnich siedmiu dni<br> * Łączna liczba pomyślnych zapytań w ciągu ostatnich siedmiu dni<br> * Łączna liczba nieudanych zapytań w ciągu ostatnich siedmiu dni<br> * Średni czas trwania zapytania jest mierzony w minutach, czas potrzebny do ukończenia operacji<br> * Łączna liczba modeli wykluczonych z powodu wykorzystania pamięci |
+| **Obciążenia zestawu danych** | * Łączna liczba odświeżeń w ciągu ostatnich siedmiu dni<br> * Łączna liczba pomyślnych odświeżeń w ciągu ostatnich siedmiu dni<br> * Łączna liczba nieudanych odświeżeń w ciągu ostatnich siedmiu dni<br> * Łączna liczba odświeżeń nieudanych z powodu braku pamięci<br> * Średni czas trwania odświeżania to czas potrzebny do ukończenia operacji, w minutach<br> * Średni czas oczekiwania na odświeżenie to średnie opóźnienie między zaplanowanym czasem i uruchomieniem operacji, w minutach<br> * Łączna liczba zapytań uruchomionych w ciągu ostatnich siedmiu dni<br> * Łączna liczba pomyślnych zapytań w ciągu ostatnich siedmiu dni<br> * Łączna liczba nieudanych zapytań w ciągu ostatnich siedmiu dni<br> * Średni czas trwania zapytania to czas potrzebny do ukończenia operacji, w minutach<br> * Łączna liczba modeli wykluczonych z powodu wykorzystania pamięci |
 |  |  |
 
 #### <a name="refreshes-area"></a>Obszar Odświeżenia
 
-Obszar **Odświeżenia** zawiera listę ukończonych odświeżeń, miar powodzenia, średnich/maksymalnych czasów oczekiwania na odświeżenie i średnich/maksymalnych czasów trwania odświeżania. Lista ta jest podzielona na fragmenty według zestawów danych w ciągu ostatnich siedmiu dni. Dwa dolne wykresy przedstawiają porównanie odświeżeń z zużyciem w GB oraz średnimi czasami oczekiwania z podziałem na przedziały o długości jednej godziny w czasie lokalnym. Górne wykresy słupkowe zawierają listę pięciu najważniejszych zestawów danych według średniego czasu wymaganego do ukończenia odświeżania zestawu danych (czasu trwania odświeżania) oraz średniego czasu oczekiwania na odświeżenie. Wiele dużych wzrostów czasów oczekiwania na odświeżenie wskazuje na wyczerpywanie pojemności.
+Obszar **Odświeżenia** zawiera poniższe metryki.
+
+| **Sekcja raportu** | **Metryki** |
+| --- | --- |
+| **Niezawodność odświeżania** | * Łączna liczba: łączna liczba odświeżeń dla każdego zestawu danych<br> * Niezawodność: procent ukończonych odświeżeń dla każdego zestawu danych<br> * Średni czas oczekiwania: średnie opóźnienie między zaplanowanym czasem i uruchomieniem odświeżania zestawu danych, w minutach<br> * Maksymalny czas oczekiwania: maksymalny czas oczekiwania dla zestawu danych, w minutach <br> * Średni czas trwania: średni czas trwania odświeżania dla zestawu danych, w minutach<br> * Maksymalny czas trwania: czas trwania najdłuższego odświeżania zestawu danych, w minutach |
+| **5 pierwszych zestawów danych według średniego czasu trwania odświeżania** | * Pięć zestawów danych z najdłuższym średnim czasem trwania odświeżania, w minutach |
+| **5 pierwszych zestawów danych według średniego czasu oczekiwania** | * Pięć zestawów danych z najdłuższym średnim czasem oczekiwania, w minutach |
+| **Średnie czasy oczekiwania na odświeżenie (godzinowo)** | * Średni czas oczekiwania na odświeżenie z podziałem na przedziały o długości jednej godziny w czasie lokalnym. Wiele wzrostów i długie czasy oczekiwania na odświeżenie wskazują na wyczerpywanie pojemności. |
+| **Liczba odświeżeń i zużycie pamięci (godzinowo)** | * Powodzenia, niepowodzenia i zużycie pamięci z podziałem na przedziały o długości jednej godziny w czasie lokalnym |
+|  |  |
 
 #### <a name="query-durations-area"></a>Obszar Czasy trwania zapytań
 
-Obszar **Czasy trwania zapytań** zawiera łączną liczbę uruchomień zapytań oraz średni/maksymalny czas trwania w milisekundach. Te dane są dzielone na fragmenty według zestawów danych, obszaru roboczego i przedziałów godzinowych w ciągu ostatnich siedmiu dni. Dolny wykres przedstawia porównanie liczby zapytań i średniego czasu trwania (w milisekundach) z zużyciem pamięci w GB z podziałem na przedziały o długości jednej godziny w czasie lokalnym.
+Obszar **Czasy trwania zapytań** zawiera poniższe metryki.
 
-Prawy górny wykres przedstawia histogram rozkładu czasów trwania zapytań. Histogram jest podzielony według zgłoszonych czasów trwania zapytań w milisekundach na następujące kategorie: interwały o długości <= 30 ms, 30–100 ms, 100–300 ms, 300 ms–1 s, 1 s–3 s, 3 s–10 s, 10 s–30 s i > 30 s.
-
-Prawy dolny wykres zawiera listę pięciu najważniejszych zestawów danych według średniego czasu trwania zapytania wymaganego do wykonania zapytań.
-
-Długie czasy trwania zapytań i długie czasy oczekiwania wskazują na pojemności uruchomione w warstwie Gorąca. Mogą również oznaczać, że pojedynczy zestaw danych powoduje problemy i wymaga dalszych badań.
+| **Sekcja raportu** | **Metryki** |
+| --- | --- |
+| **Czasy trwania zapytań** | * Dane w tej sekcji są dzielone na fragmenty według zestawów danych, obszaru roboczego i przedziałów godzinowych w ciągu ostatnich siedmiu dni<br> * Łącznie: łączna liczba zapytań uruchomiona dla zestawu danych<br> * Średni: średni czas trwania zapytania dla zestawu danych, w milisekundach<br> * Maksymalny: czas trwania najdłużej działającego zapytania w zestawie danych, w milisekundach|
+| **Rozkład czasów trwania zapytania** | * Histogram czasów trwania zapytań jest podzielony według zgłoszonych czasów trwania zapytań (w milisekundach) na następujące kategorie: interwały o długości <= 30 ms, 30–100 ms, 100–300 ms, 300 ms–1 s, 1 s–3 s, 3 s–10 s, 10 s–30 s i > 30 s. Długie czasy trwania zapytań i długie czasy oczekiwania wskazują na pojemności uruchomione w warstwie Gorąca. Mogą również oznaczać, że pojedynczy zestaw danych powoduje problemy i wymaga dalszych badań. |
+| **5 pierwszych zestawów danych według średniego czasu trwania** | * Pięć zestawów danych z najdłuższym średnim czasem trwania zapytania, w milisekundach |
+| **Zapytanie bezpośrednie/połączenia na żywo (wykorzystanie > 80%)** | * Okresy, w których zapytanie bezpośrednie lub połączenie na żywo przekroczyło 80% wykorzystania procesora, z podziałem na przedziały o długości jednej godziny w czasie lokalnym |
+| **Rozkłady czasów trwania zapytania (godzinowo)** | * Porównanie liczby zapytań i średniego czasu trwania (w milisekundach) z zużyciem pamięci w GB z podziałem na przedziały o długości jednej godziny w czasie lokalnym |
+|  |  |
 
 #### <a name="query-waits-area"></a>Obszar Oczekiwania zapytań
 
-Obszar **Oczekiwania zapytań** zawiera łączną liczbę uruchomionych zapytań, łączną liczbę zapytań, licznik oczekiwania dla zapytań na żywo/zapytań bezpośrednich i średni/maksymalny czas oczekiwania zgłaszany w milisekundach. Te dane są dzielone na fragmenty według zestawów danych, obszaru roboczego i przedziałów godzinowych w ciągu ostatnich siedmiu dni. Dolny wykres przedstawia porównanie liczby oczekiwań zapytań i średniego czasu oczekiwania (w milisekundach) z zużyciem pamięci w GB z podziałem na przedziały o długości jednej godziny w czasie lokalnym.
+Obszar **Oczekiwania zapytań** zawiera poniższe metryki.
 
-Prawy górny wykres przedstawia histogram rozkładu czasów oczekiwania zapytań. Histogram jest podzielony według zgłoszonych czasów trwania zapytań w milisekundach na następujące kategorie: interwały o długości <= 50 ms, 50–100 ms, 100–200 ms, 200–400 ms, 400 ms–1 s, 1 s–5 s i > 5 s.
-
-Prawy dolny wykres zawiera listę pięciu najważniejszych zestawów danych według średniego czasu oczekiwania wymaganego do uruchamiania zapytań.
+| **Sekcja raportu** | **Metryki** |
+| --- | --- |
+| **Czasy oczekiwania zapytań** | * Dane w tej sekcji są dzielone na fragmenty według zestawów danych, obszaru roboczego i przedziałów godzinowych w ciągu ostatnich siedmiu dni<br> * Łącznie: łączna liczba zapytań uruchomiona dla zestawu danych<br> * Liczba oczekiwań: liczba zapytań w zestawie danych, które oczekiwały na zasoby systemu przed rozpoczęciem wykonywania <br> * Średni: średni czas oczekiwania zapytania dla zestawu danych, w milisekundach<br> * Maksymalny: czas trwania najdłużej oczekującego zapytania w zestawie danych, w milisekundach|
+| **Rozkład czasów oczekiwania** | * Histogram czasów trwania jest podzielony według czasów trwania zapytań (w milisekundach) na następujące kategorie: interwały o długości <= 50 ms, 50–100 ms, 100–200 ms, 200–400 ms, 400 ms–1 s, 1 s–5 s i > 5 s |
+| **5 pierwszych zestawów danych według średniego czasu oczekiwania** | * Pięć zestawów danych z najdłuższym średnim czasem oczekiwania na rozpoczęcie wykonywania zapytania, w milisekundach |
+| **Liczby i czasy oczekiwań na zapytanie (godzinowo)** | * Porównanie liczby oczekiwań zapytań i średniego czasu oczekiwania (w milisekundach) z zużyciem pamięci w GB z podziałem na przedziały o długości jednej godziny w czasie lokalnym |
+|  |  |
 
 #### <a name="datasets-area"></a>Obszar Zestawy danych
 
-Obszar **Zestawy danych** przedstawia kompletne zestawy danych wykluczone z powodu dużego wykorzystania pamięci według godziny.
+Obszar **Zestawy danych** zawiera poniższe metryki.
+
+| **Sekcja raportu** | **Metryki** |
+| --- | --- |
+| **Liczba eksmisji zestawów danych** | * Łącznie: łączna liczba *eksmisji* zestawów danych w przypadku każdej pojemności. Gdy pojemność powoduje wykorzystanie pamięci, węzeł eksmituje z pamięci jeden lub większą liczbę zestawów danych. Nieaktywne zestawy danych (dla których aktualnie nie są wykonywane żadne operacje zapytania/odświeżania) są eksmitowane jako pierwsze. Następnie kolejność eksmitowania bazuje na mierze „najdawniej używane” (LRU).|
+| **Eksmisje zestawów danych i zużycie pamięci (godzinowo)** | * Porównanie eksmisji zestawów z zużyciem pamięci z podziałem na przedziały o długości jednej godziny w czasie lokalnym |
+|  |  |
+
+### <a name="paginated-reports-tab"></a>Karta Raporty podzielone na strony
+
+Karta **Raporty podzielone na strony** zawiera szczegółowe metryki dotyczące kondycji raportów podzielonych na strony w ramach Twoich pojemności.
+
+![Karta Raporty podzielone na strony](media/service-admin-premium-monitor-capacity/paginated-reports-tab.png)
+
+Karta **Raporty podzielone na strony** zawiera poniższe metryki.
+
+| **Sekcja raportu** | **Metryki** |
+| --- | --- |
+| **Ogólne użycie** | * Łączna liczba wyświetleń: liczba wskazująca, ile razy raport był wyświetlany przez użytkownika<br> * Liczba wierszy: liczba wierszy danych w raporcie<br> * Pobieranie (średnia): średni czas pobierania danych dla raportu, w milisekundach. Długie czasy trwania mogą wskazywać na wolne działanie zapytań lub inne problemy ze źródłem danych. <br> * Przetwarzanie (średnia): średni czas przetwarzania danych dla raportu, w milisekundach<br>* Renderowanie (średnia): średni czas renderowania raportu w przeglądarce, w milisekundach<br> * Łączny czas: czas wykonania wszystkich faz raportu, w milisekundach|
+| **5 pierwszych raportów według średniego czasu pobierania danych** | * Pięć raportów z najdłuższym średnim czasem pobierania danych, w milisekundach |
+| **5 pierwszych raportów według średniego czasu przetwarzania raportu** | * Pięć raportów z najdłuższym średnim czasem przetwarzania raportu, w milisekundach |
+| **Czasy trwania (w godzinach)** | * Porównanie czasów pobierania danych z czasami przetwarzania i renderowania z podziałem na przedziały o długości jednej godzinę w czasie lokalnym |
+| **Wyniki (w godzinach)** | * Powodzenia, niepowodzenia i zużycie pamięci z podziałem na przedziały o długości jednej godziny w czasie lokalnym |
+|  |  |
+
+### <a name="dataflows-tab"></a>Karta Przepływy danych
+
+Karta **Przepływy danych** zawiera szczegółowe metryki odświeżania dla przepływów danych w ramach Twoich pojemności.
+
+![Karta Przepływy danych](media/service-admin-premium-monitor-capacity/dataflows-tab.png)
+
+Karta **Przepływy danych** zawiera poniższe metryki.
+
+| **Sekcja raportu** | **Metryki** |
+| --- | --- |
+| **Odświeżanie** | * Łącznie: łączna liczba odświeżeń dla każdego zestawu danych<br> * Niezawodność: procent ukończonych odświeżeń dla każdego przepływu danych<br> * Średni czas oczekiwania: średnie opóźnienie między zaplanowanym czasem i uruchomieniem odświeżania przepływu danych, w minutach<br> * Maksymalny czas oczekiwania: maksymalny czas oczekiwania dla przepływu danych, w minutach <br> * Średni czas trwania: średni czas trwania odświeżania dla przepływu danych, w minutach<br> * Maksymalny czas trwania: czas trwania najdłuższego odświeżania przepływu danych, w minutach |
+| **5 pierwszych przepływów danych według średniego czasu trwania odświeżania** | * Pięć przepływów danych z najdłuższym średnim czasem trwania odświeżania, w minutach |
+| **5 pierwszych przepływów danych według średniego czasu oczekiwania** | * Pięć przepływów danych z najdłuższym średnim czasem oczekiwania, w minutach |
+| **Średnie czasy oczekiwania na odświeżenie (godzinowo)** | * Średni czas oczekiwania na odświeżenie z podziałem na przedziały o długości jednej godziny w czasie lokalnym. Wiele wzrostów i długie czasy oczekiwania na odświeżenie wskazują na wyczerpywanie pojemności. |
+| **Liczba odświeżeń i zużycie pamięci (godzinowo)** | * Powodzenia, niepowodzenia i zużycie pamięci z podziałem na przedziały o długości jednej godziny w czasie lokalnym |
+|  |  |
 
 ### <a name="system-tab"></a>Karta System
 
-Karta **System** przedstawia liczbę przypadków wysokiego wykorzystania procesora (liczba przypadków przekroczenia 80% wykorzystania), wysokie wykorzystanie zapytań bezpośrednich/połączeń na żywo i zużycie pamięci.
+Karta **System** przedstawia użycie procesora i pamięci we wszystkich pojemnościach i obciążeniach.
 
-![Raport systemu w usłudze Premium](media/service-admin-premium-monitor-capacity/system-tab.png)
+![Karta System](media/service-admin-premium-monitor-capacity/system-tab.png)
+
+Karta **System** zawiera poniższe metryki.
+
+| **Sekcja raportu** | **Metryki** |
+| --- | --- |
+| **Metryki procesora (wykorzystanie > 80%)** | * Liczba, która wskazuje, ile razy procesor przekroczył 80% progów w ciągu ostatnich siedmiu dni z podziałem na trzyminutowe przedziały |
+| **Zużycie pamięci** | * Zużycie pamięci w ciągu ostatnich siedmiu dni z podziałem na przedziały trzyminutowe |
+|  |  |
+
+### <a name="display-names-and-ids-tab"></a>Karta Nazwy wyświetlane i identyfikatory
+
+Karta **Nazwy wyświetlane i identyfikatory** zawiera nazwy, identyfikatory i właścicieli pojemności, obszarów roboczych oraz obciążeń.
 
 ## <a name="monitor-power-bi-embedded-capacity"></a>Monitorowanie pojemności usługi Power BI Embedded
 
 Aplikacja metryk pojemności programu Power BI Premium służy również do monitorowania pojemności *jednostek SKU A* w usłudze Power BI Embedded. Te pojemności będą wyświetlane w raporcie, tak długo jak będziesz administratorem pojemności. Jednak odświeżanie raportu nie powiedzie się, chyba że udzielisz określonych uprawnień do usługi Power BI w ramach swoich jednostek SKU A:
 
 1. Otwórz pojemność w witrynie Azure Portal.
+
 1. Kliknij pozycję **Kontrola dostępu (Zarządzanie dostępem i tożsamościami)** i dodaj do roli czytelnika aplikację „Power BI Premium”. Jeśli nie możesz znaleźć aplikacji według nazwy, możesz również dodać ją przy użyciu jej identyfikatora klienta: cb4dc29f-0bf4-402a-8b30-7511498ed654.
 
     ![Uprawnienia do usługi Power BI Embedded](media/service-admin-premium-monitor-capacity/embedded-permissions.png)
