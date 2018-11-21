@@ -10,24 +10,32 @@ ms.topic: conceptual
 ms.date: 10/18/2018
 ms.author: jocaplan
 LocalizationGroup: Premium
-ms.openlocfilehash: 416f022ee3c413c69650e6f1736cc94edcd58f13
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: 0449d7953b5cefb4c76d89f05ec5b3fa70e9c0da
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641257"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679391"
 ---
 # <a name="power-bi-premium-support-for-large-datasets"></a>Obsługa dużych zestawów danych w usłudze Power BI Premium
 
-Usługa Power BI Premium obsługuje przekazywanie plików programu Power BI Desktop (pbix) o rozmiarze do 10 GB. Po przekazaniu plików zestaw danych można odświeżyć maksymalnie do 12 GB. Aby użyć dużego zestawu danych, opublikuj go w obszarze roboczym przypisanym do pojemności Premium. W tym artykule opisano istotne zagadnienia i najlepsze rozwiązania dotyczące pracy z dużymi zestawami danych.
+Usługa Power BI Premium obsługuje przekazywanie plików programu Power BI Desktop (pbix) o rozmiarze do 10 GB. Po przekazaniu plików zestaw danych można odświeżyć maksymalnie do 12 GB. Aby użyć dużego zestawu danych, opublikuj go w obszarze roboczym przypisanym do pojemności Premium.
+ 
+## <a name="best-practices"></a>Najlepsze rozwiązania
 
-**Duże modele mogą używać bardzo dużej ilości zasobów** w ramach pojemności. W przypadku wszystkich modeli większych niż 1 GB zalecamy użycie co najmniej jednostki SKU P1. W poniższej tabeli opisano zalecane jednostki SKU dla różnych rozmiarów plików pbix:
+W tej sekcji opisano najlepsze rozwiązania dotyczące pracy z dużymi zestawami danych.
+
+**Duże modele mogą używać bardzo dużej ilości zasobów** w ramach pojemności. W przypadku wszystkich modeli większych niż 1 GB zalecamy użycie co najmniej jednostki SKU P1. Chociaż publikowanie dużych modeli w obszarach roboczych obsługiwanych przez jednostki SKU A do jednostki A3 może zakończyć się powodzeniem, to ich odświeżenie zakończy się niepowodzeniem.
+
+W poniższej tabeli opisano zalecane jednostki SKU dla różnych rozmiarów plików pbix:
 
    |Jednostka SKU  |Rozmiar pliku pbix   |
    |---------|---------|
    |P1    | < 3 GB        |
    |P2    | < 6 GB        |
-   |P3, P4, P5    | do 10 GB |
+   |P3, P4, P5    | do 10 GB   |
+
+Jednostka SKU A4 usługi Power BI Embedded jest odpowiednikiem jednostki SKU P1, jednostka A5 jest odpowiednikiem P2, a jednostka A6 — jednostki P3. Pamiętaj, że publikowanie dużych modeli w jednostkach SKU A i EM może spowodować zwrócenie błędów, które nie wiążą się bezpośrednio z ograniczeniem rozmiaru modelu w pojemności udostępnionej. Błędy odświeżania w przypadku dużych modeli w jednostkach SKU A i EM prawdopodobnie będą wskazywać przekroczenia limitu czasu. Pracujemy nad ulepszaniem komunikatów o błędach dla tych scenariuszy.
 
 **Pliki pbix zawierają dane w wysoce skompresowanym stanie**. Te dane prawdopodobnie kilkukrotnie zwiększą swoją objętość po załadowaniu ich do pamięci, a następnie mogą jeszcze bardziej zwiększyć swoją objętość podczas odświeżania danych.
 

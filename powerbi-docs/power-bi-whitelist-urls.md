@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/22/2018
-ms.openlocfilehash: 7b57e0d5e303f2b342e2d7750741717b178a8f4e
-ms.sourcegitcommit: f9dd6098ca57d4d6cad34284126d4e58eab1c92c
+ms.openlocfilehash: e62d39f13e2b171456d667ec9683acd4ebdc5516
+ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "50222110"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52157131"
 ---
 # <a name="power-bi-urls"></a>Adresy URL usługi Power BI
 
@@ -69,7 +69,7 @@ Aby móc pobierać dane z konkretnych źródeł danych, takich jak usługa OneDr
 | Wiersz | Przeznaczenie | Miejsca docelowe | Porty |
 | --- | --- | --- | --- |
 | 1 | **Wymagane:** AppSource (aplikacje wewnętrzne lub zewnętrzne w usłudze Power BI) | appsource.microsoft.com </br> *.s-microsoft.com  | TCP 443 |
-| 2 | **Wymagane:** zalogowanie i pobranie danych dla pakietów zawartości | *.github.com  | TCP 443 |
+| 2 | **Opcjonalne:** logowanie i pobieranie danych dla pakietów zawartości | Zależne od używanych pakietów zawartości | Zależne od używanych pakietów zawartości |
 | 3 | **Opcjonalne:** importowanie plików z usługi OneDrive w wersji dla osób prywatnych | Zobacz [witrynę wymaganych adresów URL i portów dla witryny usługi OneDrive](https://docs.microsoft.com/onedrive/required-urls-and-ports) | Nie dotyczy |
 | 4 | **Opcjonalne:** 60-sekundowy samouczek wideo dotyczący usługi Power BI | *.doubleclick.net </br> *.ggpht.com </br> *.google.com </br> *.googlevideo.com </br> *.youtube.com </br> *.ytimg.com </br> fonts.gstatic.com | TCP 443 |
 | 5 | **Opcjonalne:** źródła danych przesyłania strumieniowego PubNub | Zobacz [dokumentację usługi PubNub](https://support.pubnub.com/support/solutions/articles/14000043522) | Nie dotyczy |

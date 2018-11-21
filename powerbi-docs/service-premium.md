@@ -10,12 +10,12 @@ ms.component: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/21/2018
 LocalizationGroup: Premium
-ms.openlocfilehash: 2ca75f191f27bd158b9fab67c7be6902154f8ac1
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: 451727d473b59afd362e4f31e8aef634d2168f83
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641234"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51717636"
 ---
 # <a name="what-is-microsoft-power-bi-premium"></a>Czym jest usługa Microsoft Power BI Premium?
 
@@ -46,7 +46,7 @@ W poniższej tabeli przedstawiono podsumowanie różnic między pojemnością ud
 | --- | --- | --- |
 | **Częstotliwość odświeżania** |8/dzień |48/dzień |
 | **Izolacja z dedykowanym sprzętem** |![](media/service-premium/not-available.png "Niedostępne") |![](media/service-premium/available.png "Dostępne") |
-| **Dystrybucja na poziomie przedsiębiorstwa do** ***wszystkich użytkowników*** | | |
+| **Dystrybucja na poziomie przedsiębiorstwa do** _**wszystkich użytkowników**_ | | |
 | Aplikacje i udostępnianie |![](media/service-premium/not-available.png "Niedostępne") |![](media/service-premium/available.png "Dostępne")<sup>1</sup> |
 | Osadzone interfejsy API i kontrolki |![](media/service-premium/not-available.png "Niedostępne") |![](media/service-premium/available.png "Dostępne")<sup>2</sup> |
 | **Publikowanie raportów usługi Power BI lokalnie** |![](media/service-premium/not-available.png "Niedostępne") |![](media/service-premium/available.png "Dostępne") |
@@ -83,6 +83,39 @@ Usługa Power BI Premium jest dostępna z konfiguracjami węzłów z różnymi p
 * Rdzenie wirtualne frontonu odpowiadają za zarządzanie usługami internetowymi, pulpitami nawigacyjnymi i dokumentami raportów, zarządzanie uprawnieniami dostępu, planowanie, interfejsy API, przekazywanie i pobieranie oraz ogólnie za wszystkie elementy związane ze środowiskiem użytkownika.
 
 * Rdzenie wirtualne zaplecza odpowiadają za ciężkie obciążenia: przetwarzanie zapytań, zarządzanie pamięcią podręczną, uruchamianie serwerów języka R, odświeżanie danych, przetwarzanie języka naturalnego, źródła danych w czasie rzeczywistym oraz renderowanie raportów i obrazów po stronie serwera. Ponadto w przypadku rdzeni wirtualnych zaplecza zarezerwowana jest pewna ilość pamięci. Dostępność wystarczającej pamięci staje się szczególnie ważna w przypadku obsługi dużych modeli danych lub dużej liczby aktywnych zestawów danych.
+
+## <a name="workloads-in-premium-capacity"></a>Obciążenia w pojemności Premium
+
+Obciążenia w usłudze Power BI można traktować jako jedną z wielu usług, które można udostępnić użytkownikom. Domyślnie pojemności usług **Power BI Premium** i **Power BI Embedded** obsługują tylko obciążenie skojarzone z uruchamianiem zapytań usługi Power BI w chmurze.
+
+Oferujemy teraz obsługę wersji zapoznawczej dwóch dodatkowych obciążeń: **Raporty podzielone na strony** i **Przepływy danych**. Te obciążenia można włączyć w portalu administracyjnym usługi Power BI lub za pośrednictwem interfejsu API REST usługi Power BI. Można również ustawić maksymalną ilość pamięci, której może używać każde obciążenie, aby kontrolować wzajemny wpływ obciążeń. Aby uzyskać więcej informacji, zobacz temat [Konfigurowanie obciążeń](service-admin-premium-manage.md#configure-workloads).
+
+### <a name="default-memory-settings"></a>Domyślne ustawienia pamięci
+
+W poniższych tabelach przedstawiono domyślne i minimalne wartości pamięci w oparciu o różne dostępne [węzły pojemności](#premium-capacity-nodes). Pamięć jest przydzielana dynamicznie do przepływów danych, ale jest przydzielana statycznie do raportów podzielonych na strony. Aby uzyskać więcej informacji, zobacz następną sekcję: [Zagadnienia dotyczące raportów podzielonych na strony](#considerations-for-paginated-reports).
+
+#### <a name="microsoft-office-skus-for-software-as-a-service-saas-scenarios"></a>Jednostki SKU pakietu Microsoft Office dla scenariuszy SaaS (software as a service)
+
+|                     | EM3                      | P1                       | P2                      | P3                       |
+|---------------------|--------------------------|--------------------------|-------------------------|--------------------------|
+| Raporty z podziałem na strony | Nie dotyczy | Domyślna 20%; minimalna 10% | Domyślna 20%; minimalna 5% | Domyślna 20%; minimalna 2,5% |
+| Przepływy danych | Domyślna 20%; minimalna 8%  | Domyślna 20%; minimalna 4%  | Domyślna 20%; minimalna 2% | Domyślna 20%; minimalna 1%  |
+| | | | | |
+
+#### <a name="microsoft-azure-skus-for-platform-as-a-service-paas-scenarios"></a>Jednostki SKU platformy Microsoft Azure dla scenariuszy PaaS (platform as a service)
+
+|                  | A1                       | A2                       | A3                      | A4                       | A5                      | A6                        |
+|-------------------|--------------------------|--------------------------|-------------------------|--------------------------|-------------------------|---------------------------|
+| Raporty z podziałem na strony | Nie dotyczy                      | NIE DOTYCZY                      | Nie dotyczy                     | Domyślna 20%; minimalna 10% | Domyślna 20%; minimalna 5% | Domyślna 20%; minimalna 2,5% |
+| Przepływy danych         | Domyślna 27%; minimalna 27% | Domyślna 20%; minimalna 16% | Domyślna 20%; minimalna 8% | Domyślna 20%; minimalna 4%  | Domyślna 20%; minimalna 2% | Domyślna 20%; minimalna 1%   |
+
+### <a name="considerations-for-paginated-reports"></a>Zagadnienia dotyczące raportów podzielonych na strony
+
+Jeśli używasz obciążenia raportów podzielonych na strony, weź pod uwagę następujące zagadnienia.
+
+* **Alokacja pamięci w raportach podzielonych na strony**: raporty podzielone na strony umożliwiają uruchamianie własnego kodu podczas renderowania raportu (na przykład w przypadku dynamicznego zmieniania koloru tekstu na podstawie zawartości). Biorąc pod uwagę ten fakt, zabezpieczamy pojemność usługi Power BI Premium, uruchamiając raporty podzielone na strony w obszarze zawartym w pojemności. Przypisujemy wybraną maksymalną ilość pamięci do tego obszaru, bez względu na to, czy obciążenie jest aktywne. Jeśli używasz przepływów danych lub raportów usługi Power BI w ramach tej samej pojemności, upewnij się, że ustawiany poziom pamięci jest wystarczająco niski i nie wpływa negatywnie na inne obciążenia.
+
+* **Raporty podzielone na strony są niedostępne**: w rzadkich przypadkach raporty podzielone na strony mogą stać się niedostępne. W takiej sytuacji obciążenie pokazuje stan błędu w portalu administracyjnym, a użytkownicy widzą przekroczenia limitu czasu renderowania raportu. Aby rozwiązać ten problem, wyłącz obciążenie, a następnie włącz je ponownie.
 
 ## <a name="power-bi-report-server"></a>Serwer raportów usługi Power BI
 

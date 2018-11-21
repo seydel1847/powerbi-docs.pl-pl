@@ -1,5 +1,5 @@
 ---
-title: Zdalne konfigurowanie dostępu aplikacji mobilnej Power BI dla systemu iOS do serwera raportów
+title: Zdalne konfigurowanie dostępu aplikacji mobilnej dla systemu iOS do serwera raportów
 description: Dowiedz się, jak zdalnie skonfigurować aplikacje mobilne dla systemu iOS na potrzeby serwera raportów.
 author: maggiesMSFT
 manager: kfile
@@ -7,21 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/22/2018
+ms.date: 11/15/2018
 ms.author: maggies
-ms.openlocfilehash: bbade67c9510b8d316364d991c09444712309514
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 538bb802998003dba63b6c63cca2068b2d7b69fa
+ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34722183"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52157430"
 ---
 # <a name="configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>Zdalne konfigurowanie dostępu aplikacji mobilnej Power BI dla systemu iOS do serwera raportów
 
 W tym artykule dowiesz się, jak za pomocą narzędzia do zarządzania urządzeniami przenośnymi (MDM, Mobile Device Management) używanego organizacji skonfigurować dostęp aplikacji mobilnej Power BI dla systemu iOS do serwera raportów. Aby przeprowadzić konfigurację, administratorzy IT tworzą zasady konfiguracji aplikacji zawierające wymagane informacje, które mają być wypychane do aplikacji. 
 
- Następnie użytkownicy aplikacji mobilnej Power BI dla systemu iOS mogą łatwiej łączyć się z serwerem raportów organizacji, ponieważ połączenie z serwerem raportów jest już skonfigurowane. 
-
+ Ponieważ połączenie z serwerem raportów jest już skonfigurowane, użytkownicy aplikacji mobilnej Power BI dla systemu iOS mogą łatwiej łączyć się z serwerem raportów organizacji. 
 
 ## <a name="create-the-app-configuration-policy-in-mdm-tool"></a>Tworzenie zasad konfiguracji aplikacji w narzędziu MDM 
 
@@ -39,7 +38,7 @@ Pary zostały wymienione w poniższej tabeli.
 | com.microsoft.powerbi.mobile.ServerURL | String (ciąg) | Adres URL serwera raportów </br> Powinien zaczynać się od ciągu http/https |
 | com.microsoft.powerbi.mobile.ServerUsername | String (ciąg) | [opcjonalnie] </br> Nazwa użytkownika do używania podczas łączenia z serwerem. </br> Jeśli klucz nie istnieje, aplikacja wyświetla użytkownikowi monit, aby wpisał nazwę użytkownika na potrzeby połączenia.| 
 | com.microsoft.powerbi.mobile.ServerDisplayName | String (ciąg) | [opcjonalnie] </br> Wartość domyślna to „Serwer raportów” </br> Przyjazna nazwa używana w aplikacji w celu reprezentowania serwera | 
-| com.microsoft.powerbi.mobile.OverrideServerDetails | Boolean (wartość logiczna) | Wartość domyślna to True </br> W przypadku ustawienia wartości „True” wszelkie definicje serwerów raportów znajdujące się już na urządzeniu przenośnym są zastępowane (już skonfigurowane istniejące serwery są usuwane). </br> Włączenie zastępowania uniemożliwia również użytkownikowi usunięcie tej konfiguracji. </br> Ustawienie wartości „False” powoduje dodanie wypchniętych wartości bez zmian istniejących ustawień. </br> Jeśli dany adres URL serwera jest już skonfigurowany w aplikacji mobilnej, aplikacja pozostawia tę konfigurację bez zmian i nie prosi użytkownika o ponowne uwierzytelnienie dla tego samego serwera. |
+| com.microsoft.powerbi.mobile.OverrideServerDetails | Boolean (wartość logiczna) | Wartość domyślna to True </br>Ustawienie wartości „True” powoduje zastąpienie dowolnej definicji serwera raportów, która już znajduje się na urządzeniu przenośnym. Istniejące serwery, które zostały już skonfigurowane, są usuwane. </br> Włączenie zastępowania uniemożliwia również użytkownikowi usunięcie tej konfiguracji. </br> Ustawienie wartości „False” powoduje dodanie wypchniętych wartości bez zmian istniejących ustawień. </br> Jeśli w aplikacji mobilnej jest już skonfigurowany ten sam adres URL serwera, aplikacja pozostawia konfigurację bez zmian. Aplikacja nie monituje użytkownika o ponowne uwierzytelnienie dla tego samego serwera. |
 
 Oto przykład ustawienia zasad konfiguracji przy użyciu usługi Intune.
 
@@ -47,7 +46,7 @@ Oto przykład ustawienia zasad konfiguracji przy użyciu usługi Intune.
 
 ## <a name="end-users-connecting-to-a-report-server"></a>Łączenie użytkowników końcowych z serwerem raportów
 
-Po opublikowaniu zasad konfiguracji aplikacji użytkownicy i urządzenia na liście dystrybucyjnej zdefiniowanej dla tych zasad mają następujące środowisko po uruchomieniu aplikacji mobilnej Power BI dla systemu iOS. 
+ Załóżmy, że opublikowano zasady konfiguracji aplikacji dla listy dystrybucyjnej. Po uruchomieniu aplikacji mobilnej dla systemu iOS przez użytkowników i na urządzeniach znajdujących się na tej liście dystrybucyjnej zostanie uruchomione następujące środowisko. 
 
 1. Widzą komunikat z informacją o tym, że aplikacja mobilna została skonfigurowana przy użyciu serwera raportów i naciskają przycisk **Zaloguj się**.
 

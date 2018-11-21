@@ -1,5 +1,5 @@
 ---
-title: 'Szybki start: eksplorowanie pulpitów nawigacyjnych i raportów w aplikacjach mobilnych usługi Power BI'
+title: 'Szybki start: eksplorowanie pulpitów nawigacyjnych i raportów w aplikacjach mobilnych'
 description: W tym przewodniku Szybki start zapoznasz się z przykładowym pulpitem nawigacyjnym i raportem w aplikacjach mobilnych usługi Power BI.
 author: maggiesMSFT
 manager: kfile
@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: quickstart
-ms.date: 05/08/2018
+ms.date: 11/16/2018
 ms.author: maggies
-ms.openlocfilehash: 89f45409607cbe8da6cb1b167b6e71238d6edde0
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 6d5d543c3654da13592b24f4c70bc964eb7bddff
+ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548815"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52157269"
 ---
 # <a name="quickstart-explore-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Szybki start: eksplorowanie pulpitów nawigacyjnych i raportów w aplikacjach mobilnych usługi Power BI
 W tym samouczku zapoznasz się z przykładowym pulpitem nawigacyjnym i raportem w aplikacji mobilnej usługi Power BI w telefonie z systemem Android. Możesz również wykonać opisane czynności w innych aplikacjach mobilnych. 
@@ -62,7 +62,7 @@ W pierwszym kroku przewodnika Szybki start należy pobrać przykład Retail Anal
 
 4. Wybierz pozycję **Retail Analysis Sample**.
  
-    ![Przykład Analiza handlu detalicznego](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-rs.png)
+    ![Przykład Retail Analysis](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-rs.png)
  
 8. Wybierz pozycję **Połącz**.  
   

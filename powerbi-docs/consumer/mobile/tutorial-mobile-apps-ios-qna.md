@@ -1,5 +1,5 @@
 ---
-title: 'Samouczek: zadawanie pytań za pomocą wirtualnego analityka pytań i odpowiedzi w aplikacjach systemu iOS — usługa Power BI'
+title: 'Samouczek: zadawanie pytań za pomocą wirtualnego analityka funkcji Pytania i odpowiedzi w aplikacjach dla systemu iOS'
 description: W ramach tego samouczka można własnymi słowami zadać pytania dotyczące przykładowych danych, używając wirtualnego analityka pytań i odpowiedzi w aplikacji mobilnej usługi Power BI na urządzeniu z systemem iOS.
 author: maggiesMSFT
 manager: kfile
@@ -7,16 +7,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: tutorial
-ms.date: 05/08/2018
+ms.date: 11/16/2018
 ms.author: maggies
-ms.openlocfilehash: f3ecdb79b8fb5a8d9463eaabbda70a60110191ea
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 9fd0d06b186d84412ec36749270d261ddd01fb2f
+ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547142"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52157154"
 ---
-# <a name="tutorial-ask-questions-about-your-data-with-the-qa-virtual-analyst-in-ios-apps---power-bi"></a>Samouczek: zadawanie pytań dotyczących danych za pomocą wirtualnego analityka pytań i odpowiedzi w aplikacjach systemu iOS — usługa Power BI
+# <a name="tutorial-ask-questions-about-your-data-with-the-qa-virtual-analyst-in-the-power-bi-ios-apps"></a>Samouczek: zadawanie pytań dotyczących danych za pomocą wirtualnego analityka funkcji Pytania i odpowiedzi w aplikacjach usługi Power BI dla systemu iOS
 
 Najprostszym sposobem, aby dowiedzieć się więcej o swoich danych, jest zadać własnymi słowami pytanie na ich temat. W tym samouczku można zadać pytania i wyświetlić proponowane szczegółowe informacje na temat przykładowych danych przy użyciu wirtualnego analityka pytań i odpowiedzi w aplikacji mobilnej usługi Microsoft Power BI na urządzeniach iPad, iPhone i iPod Touch. 
 

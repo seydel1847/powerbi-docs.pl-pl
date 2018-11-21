@@ -1,7 +1,7 @@
 ---
 title: Usługa Power BI — podstawowe pojęcia
 description: Obszary robocze, pulpity nawigacyjne, raporty, zestawy danych i skoroszyty usługi Power BI.
-author: mihart
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 featuredvideoid: B2vd4MQrz4M
@@ -9,20 +9,20 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 07/19/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 8a95dae913c2069fa3768d66c55d2b1358640000
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: 9b02bdfd2c0025977dbb69eae44f4e976a527a30
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641924"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51717774"
 ---
 # <a name="power-bi---basic-concepts-for-power-bi-service"></a>Power BI — podstawowe pojęcia dotyczące usługi Power BI
 
 W tym artykule przyjęto, że użytkownik [zarejestrował się już w usłudze Power BI](service-self-service-signup-for-power-bi.md) i [dodał pewne dane](service-get-data.md).
 
-Po otwarciu usługi Power BI zobaczysz wyświetlony ***pulpit nawigacyjny***. Pulpity nawigacyjne są elementem różniącym się w przypadku usługi Power BI i aplikacji Power BI Desktop.
+Po otwarciu usługi Power BI zobaczysz wyświetlony **_pulpit nawigacyjny_**. Pulpity nawigacyjne są elementem różniącym się w przypadku usługi Power BI i aplikacji Power BI Desktop.
 
 ![](media/service-basic-concepts/completenewest.png)
 
@@ -45,7 +45,7 @@ Możesz też obejrzeć ten film, zanim przeczytasz dalszą część artykułu.  
 
 
 ## <a name="power-bi-concepts"></a>Pojęcia dotyczące usługi Power BI
-4 główne bloki konstrukcyjne usługi Power BI to: ***pulpity nawigacyjne***, ***raporty***, ***skoroszyty*** i ***zestawy danych***. Są one podzielone na ***obszary robocze***. Przed rozpoczęciem omawiania bloków konstrukcyjnych należy zapoznać się z 4 obszarami roboczymi, więc od tego zaczniemy.
+4 główne bloki konstrukcyjne usługi Power BI to: **_pulpity nawigacyjne_**, **_raporty_**, **_skoroszyty_** i **_zestawy danych_**. Są one podzielone na **_obszary robocze_**. Przed rozpoczęciem omawiania bloków konstrukcyjnych należy zapoznać się z 4 obszarami roboczymi, więc od tego zaczniemy.
 
 ## <a name="workspaces"></a>Obszary robocze
 Obszary robocze to kontenery pulpitów nawigacyjnych, raportów, skoroszytów i zestawów danych w usłudze Power BI. Istnieją dwa typy obszarów roboczych: *Mój obszar roboczy* i *obszary robocze aplikacji*. Co to jest *aplikacja*? *Aplikacja* usługi Power BI to kolekcja pulpitów nawigacyjnych i raportów utworzona w celu udostępnienia najważniejszych metryk dla organizacji. Aplikacje są interakcyjne, ale nie można ich edytować.
@@ -77,7 +77,7 @@ W poniższym przykładzie wybrano obszar roboczy aplikacji „Sales and marketin
 
 Aby [nawiązać połączenie z zestawem danych lub zaimportować go](service-get-data.md), wybierz pozycję **Pobierz dane** (u dołu lewego paska nawigacyjnego) lub wybierz pozycje **+ Utwórz > Zestaw danych** (w prawym górnym rogu). Postępuj zgodnie z instrukcjami, aby nawiązać połączenie z konkretnym źródłem lub zaimportować je i dodać zestaw danych do aktywnego obszaru roboczego. Nowe zestawy danych są oznaczone żółtą gwiazdką. Praca wykonywana w usłudze Power BI nie zmienia źródłowego zestawu danych.
 
-Jeśli jesteś [częścią ***obszaru roboczego aplikacji***](service-collaborate-power-bi-workspace.md), zestawy danych dodane przez jednego członka obszaru roboczego będą dostępne dla innych członków obszaru roboczego.
+Jeśli [należysz do **_obszaru roboczego aplikacji_**](service-collaborate-power-bi-workspace.md), zestawy danych dodane przez jednego członka obszaru roboczego będą dostępne dla innych członków obszaru roboczego.
 
 Możesz odświeżać, eksplorować i usuwać zestawy danych oraz zmieniać ich nazwy. Użyj zestawu danych, aby utworzyć raport od podstaw lub przez uruchomienie [szybkiego wglądu w szczegółowe dane](service-insights.md).  Aby sprawdzić, które raporty i pulpity nawigacyjne już używają zestawu danych, wybierz pozycję **Wyświetl powiązane**. Aby eksplorować zestaw danych, wybierz go. Tak właściwie otworzysz zestaw danych w edytorze raportu, w którym będziesz w stanie rozpocząć szczegółowe badanie danych i tworzenie wizualizacji. Przejdźmy do kolejnego tematu — raportów.
 
@@ -87,9 +87,9 @@ Możesz odświeżać, eksplorować i usuwać zestawy danych oraz zmieniać ich n
 * [Przykładowe zestawy danych dla usługi Power BI](sample-datasets.md)
 
 ## <a name="reports"></a>Raporty
-Raport usługi Power BI to co najmniej jedna strona wizualizacji (wykresów i diagramów, np. wykresów liniowych, wykresów kołowych, map w formie drzewa i wielu innych). Wizualizacje są również zwane ***elementami wizualnymi***. Wszystkie wizualizacje w raporcie pochodzą z jednego zestawu danych. Raporty można tworzyć od podstaw w usłudze Power BI, importować je wraz z pulpitami nawigacyjnymi udostępnianymi przez współpracowników lub tworzyć je podczas nawiązywania połączenia z zestawami danych z programu Excel, Power BI Desktop, bazami danych, aplikacjami SaaS i [aplikacjami](service-get-data.md).  Na przykład po połączeniu ze skoroszytem programu Excel zawierającym arkusze Power View usługa Power BI utworzy raport w oparciu o te arkusze. Ponadto po nawiązaniu połączenia z aplikacją SaaS usługa Power BI zaimportuje wstępnie utworzony raport.
+Raport usługi Power BI to co najmniej jedna strona wizualizacji (wykresów i diagramów, np. wykresów liniowych, wykresów kołowych, map w formie drzewa i wielu innych). Wizualizacje są również zwane **_elementami wizualnymi_**. Wszystkie wizualizacje w raporcie pochodzą z jednego zestawu danych. Raporty można tworzyć od podstaw w usłudze Power BI, importować je wraz z pulpitami nawigacyjnymi udostępnianymi przez współpracowników lub tworzyć je podczas nawiązywania połączenia z zestawami danych z programu Excel, Power BI Desktop, bazami danych, aplikacjami SaaS i [aplikacjami](service-get-data.md).  Na przykład po połączeniu ze skoroszytem programu Excel zawierającym arkusze Power View usługa Power BI utworzy raport w oparciu o te arkusze. Ponadto po nawiązaniu połączenia z aplikacją SaaS usługa Power BI zaimportuje wstępnie utworzony raport.
 
-Istnieją 2 tryby umożliwiające wyświetlanie i wchodzenie w interakcję z raportami: [Widok do czytania i Widok do edycji](service-reading-view-and-editing-view.md).  Tylko osoba, która utworzyła raport, współwłaściciele oraz osoby, którym udzielono uprawnień, mają dostęp do wszystkich możliwości związanych z eksplorowaniem, projektowaniem, tworzeniem i udostępnianiem w ***Widoku edycji*** dla tego raportu. Ponadto osoby, którym raport zostanie udostępniony, mogą eksplorować raport i wchodzić z nim w interakcje przy użyciu ***Widoku odczytu***.   
+Istnieją 2 tryby umożliwiające wyświetlanie i wchodzenie w interakcję z raportami: [Widok do czytania i Widok do edycji](service-reading-view-and-editing-view.md).  Tylko osoba, która utworzyła raport, współwłaściciele oraz osoby, którym udzielono uprawnień, mają dostęp do wszystkich możliwości związanych z eksplorowaniem, projektowaniem, tworzeniem i udostępnianiem w **_Widoku do edycji_** dla tego raportu. Ponadto osoby, którym raport zostanie udostępniony, mogą eksplorować raport i wchodzić z nim w interakcje przy użyciu **_Widoku do odczytu_**.   
 
 Gdy otworzysz obszar roboczy, skojarzone raporty będą wyświetlane na karcie **Raporty**. Każdy raport na liście reprezentuje co najmniej jedną stronę wizualizacji opartą na tylko jednym źródłowym zestawie danych. Aby otworzyć raport, wybierz go.
 

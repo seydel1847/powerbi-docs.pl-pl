@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 04/10/2018
+ms.date: 11/16/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 294fb3a0142908ce0ab068e075ce39f950a0b124
-ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
+ms.openlocfilehash: e64496461e7d81d3b39e9a8d7174a3e985d04002
+ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "50973355"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51850481"
 ---
 # <a name="using-auditing-within-your-organization"></a>Korzystanie z inspekcji w ramach organizacji
 
@@ -139,83 +139,100 @@ Inny przykład użycia programu PowerShell z dziennikami inspekcji można znale�
 
 Poniższe działania są poddawane inspekcji przez usługę Power BI.
 
-* AddDatasourceToGateway
-* AddGroupMembers
-* AnalyzedByExternalApplication
-* AnalyzeInExcel
-* AttachDataflowStorageAccount
-* BindToGateway
-* ChangeCapacityState
-* ChangeGatewayAdministrators
-* ChangeGatewayDatasourceUsers
-* CreateApp
-* CreateDashboard
-* CreateDataflow
-* CreateDataset
-* CreateEmailSubscription
-* CreateFolder
-* CreateGateway
-* CreateGroup
-* CreateOrgApp
-* CreateReport
-* DeleteComment
-* DeleteDashboard
-* DeleteDataflow
-* DeleteDataset
-* DeleteEmailSubscription
-* DeleteFolder
-* DeleteGateway
-* DeleteGroup
-* DeleteGroupMembers
-* DeleteOrgApp
-* DeleteReport
-* DownloadReport
-* EditDataset
-* EditReport
-* ExportDataflow
-* ExportReport
-* ExportTile
-* GenerateDataflowSasToken
-* GenerateEmbedToken
-* GetDatasources
-* Importuj
-* InstallApp
-* MigrateWorkspaceIntoCapacity
-* OptInForProTrial
-* PostComment
-* PrintDashboard
-* PrintReport
-* PublishToWebReport
-* RefreshDataset
-* RemoveDatasourceFromGateway
-* RemoveWorkspacesFromCapacity
-* RenameDashboard
-* SetAllConnections
-* SetScheduledRefresh
-* SetScheduledRefreshOnDataflow
-* ShareDashboard
-* ShareReport
-* TakeOverDataset
-* TakeOverDatasource
-* UnpublishApp
-* UpdateApp
-* UpdateCapacityAdmins
-* UpdateCapacityDisplayName
-* UpdateCapacityResourceGovernanceSettings
-* UpdateCapacityUsersAssignment
-* UpdatedAdminFeatureSwitch
-* UpdateDataflow
-* UpdateDatasetParameters
-* UpdateDatasourceCredentials
-* UpdateDatasources
-* UpdateEmailSubscription
-* UpdateFolder
-* UpdateFolderAccess
-* ViewDashboard
-* ViewDataflow
-* ViewReport
-* ViewTile
-* ViewUsageMetrics
+| Przyjazna nazwa                                     | Nazwa operacji                              | Uwagi                                  |
+|---------------------------------------------------|---------------------------------------------|------------------------------------------|
+| Dodanie źródła danych do bramy usługi Power BI             | AddDatasourceToGateway                      |                                          |
+| Dodanie dostępu do folderu usługi Power BI                      | AddFolderAccess                             | Obecnie nieużywane                       |
+| Dodanie członków grupy usługi Power BI                      | AddGroupMembers                             |                                          |
+| Dołączenie konta magazynu przepływu danych do dzierżawy przez administratora | AdminAttachedDataflowStorageAccountToTenant | Obecnie nieużywane                       |
+| Przeanalizowanie zestawu danych usługi Power BI                         | AnalyzedByExternalApplication               |                                          |
+| Przeanalizowanie raportu usługi Power BI                          | AnalyzeInExcel                              |                                          |
+| Powiązano zestaw danych usługi Power BI z bramą                | BindToGateway                               |                                          |
+| Zmiana stanu pojemności                            | ChangeCapacityState                         |                                          |
+| Zmiana przypisania użytkownika pojemności                  | UpdateCapacityUsersAssignment               |                                          |
+| Zmiana połączeń zestawów danych usługi Power BI              | SetAllConnections                           |                                          |
+| Zmiana administratorów bramy usługi Power BI                   | ChangeGatewayAdministrators                 |                                          |
+| Zmiana użytkowników źródła danych bramy usługi Power BI        | ChangeGatewayDatasourceUsers                |                                          |
+| Utworzenie organizacyjnego pakietu zawartości usługi Power BI      | CreateOrgApp                                |                                          |
+| Utworzenie aplikacji usługi Power BI                              | CreateApp                                   |                                          |
+| Utworzenie pulpitu nawigacyjnego usługi Power BI                        | CreateDashboard                             |                                          |
+| Utworzenie przepływu danych usługi Power BI                         | CreateDataflow                              |                                          |
+| Utworzenie zestawu danych usługi Power BI                          | CreateDataset                               |                                          |
+| Utworzenie subskrypcji wiadomości e-mail usługi Power BI               | CreateEmailSubscription                     |                                          |
+| Utworzenie folderu usługi Power BI                           | CreateFolder                                |                                          |
+| Utworzenie bramy usługi Power BI                          | CreateGateway                               |                                          |
+| Utworzenie grupy usługi Power BI                            | CreateGroup                                 |                                          |
+| Utworzenie raportu usługi Power BI                           | CreateReport                                |                                          |
+| Migrowanie przepływu danych do zewnętrznego konta magazynu     | DataflowMigratedToExternalStorageAccount    | Obecnie nieużywane                       |
+| Dodanie uprawnień przepływu danych                        | DataflowPermissionsAdded                    | Obecnie nieużywane                       |
+| Usunięcie uprawnień przepływu danych                      | DataflowPermissionsRemoved                  | Obecnie nieużywane                       |
+| Usunięcie organizacyjnego pakietu zawartości usługi Power BI      | DeleteOrgApp                                |                                          |
+| Usunięcie komentarza usługi Power BI                          | DeleteComment                               |                                          |
+| Usunięcie pulpitu nawigacyjnego usługi Power BI                        | DeleteDashboard                             | Obecnie nieużywane                       |
+| Usunięcie przepływu danych usługi Power BI                         | DeleteDataflow                              | Obecnie nieużywane                       |
+| Usunięcie zestawu danych usługi Power BI                          | DeleteDataset                               |                                          |
+| Usunięcie subskrypcji wiadomości e-mail usługi Power BI               | DeleteEmailSubscription                     |                                          |
+| Usunięcie folderu usługi Power BI                           | DeleteFolder                                |                                          |
+| Usunięcie dostępu do folderu usługi Power BI                    | DeleteFolderAccess                          | Obecnie nieużywane                       |
+| Usunięcie bramy usługi Power BI                          | DeleteGateway                               |                                          |
+| Usunięcie grupy usługi Power BI                            | DeleteGroup                                 |                                          |
+| Usunięcie raportu usługi Power BI                           | DeleteReport                                |                                          |
+| Odnalezienie źródeł danych zestawu danych usługi Power BI          | GetDatasources                              |                                          |
+| Pobranie raportu usługi Power BI                        | DownloadReport                              |                                          |
+| Edytowanie uprawnień certyfikacji usługi Power BI          | EditCertificationPermission                 | Obecnie nieużywane                       |
+| Edytowanie pulpitu nawigacyjnego usługi Power BI                         | EditDashboard                               | Obecnie nieużywane                       |
+| Edytowanie zestawu danych usługi Power BI                           | EditDataset                                 |                                          |
+| Edytowanie właściwości zestawu danych usługi Power BI                | EditDatasetProperties                       | Obecnie nieużywane                       |
+| Edytowanie raportu usługi Power BI                            | EditReport                                  |                                          |
+| Wyeksportowanie przepływu danych usługi Power BI                        | ExportDataflow                              |                                          |
+| Wyeksportowanie danych wizualizacji raportu usługi Power BI              | ExportReport                                |                                          |
+| Wyeksportowanie danych kafelka usługi Power BI                       | ExportTile                                  |                                          |
+| Nie można dodać uprawnień przepływu danych                | FailedToAddDataflowPermissions              | Obecnie nieużywane                       |
+| Nie można usunąć uprawnień przepływu danych             | FailedToRemoveDataflowPermissions           | Obecnie nieużywane                       |
+| Wygenerowanie tokenu SAS przepływu danych usługi Power BI             | GenerateDataflowSasToken                    |                                          |
+| Wygenerowanie tokenu osadzania usługi Power BI                    | GenerateEmbedToken                          |                                          |
+| Zaimportowanie pliku do usługi Power BI                         | Importuj                                      |                                          |
+| Zainstalowanie aplikacji usługi Power BI                            | InstallApp                                  |                                          |
+| Migrowanie obszaru roboczego do pojemności                  | MigrateWorkspaceIntoCapacity                |                                          |
+| Opublikowanie komentarza usługi Power BI                           | PostComment                                 |                                          |
+| Wydrukowanie pulpitu nawigacyjnego usługi Power BI                        | PrintDashboard                              |                                          |
+| Wydrukowanie strony raportu usługi Power BI                      | PrintReport                                 |                                          |
+| Opublikowanie raportu usługi Power BI w Internecie                  | PublishToWebReport                          |                                          |
+| Odebranie wpisu tajnego przepływu danych usługi Power BI z usługi Key Vault  | ReceiveDataflowSecretFromKeyVault           | Obecnie nieużywane                       |
+| Usunięcie źródła danych z bramy usługi Power BI         | RemoveDatasourceFromGateway                 |                                          |
+| Usunięcie członków grupy usługi Power BI                    | DeleteGroupMembers                          |                                          |
+| Usunięcie obszaru roboczego z pojemności                 | RemoveWorkspacesFromCapacity                |                                          |
+| Zmiana nazwy pulpitu nawigacyjnego usługi Power BI                        | RenameDashboard                             |                                          |
+| Żądanie odświeżenia przepływu danych usługi Power BI               | RequestDataflowRefresh                      | Obecnie nieużywane                       |
+| Żądanie odświeżenia zestawu danych usługi Power BI                | RefreshDataset                              |                                          |
+| Pobranie obszarów roboczych usługi Power BI                     | GetWorkspaces                               |                                          |
+| Ustawienie zaplanowanego odświeżania przepływu danych usługi Power BI        | SetScheduledRefreshOnDataflow               |                                          |
+| Ustawienie zaplanowanego odświeżania zestawu danych usługi Power BI         | SetScheduledRefresh                         |                                          |
+| Udostępnienie pulpitu nawigacyjnego usługi Power BI                         | ShareDashboard                              |                                          |
+| Udostępnienie raportu usługi Power BI                            | ShareReport                                 |                                          |
+| Rozpoczęcie korzystania z rozszerzonej wersji próbnej usługi Power BI                   | OptInForExtendedProTrial                    | Obecnie nieużywane                       |
+| Rozpoczęcie korzystania z wersji próbnej usługi Power BI                            | OptInForProTrial                            |                                          |
+| Przejęcie źródła danych usługi Power BI                   | TakeOverDatasource                          |                                          |
+| Przejęcie zestawu danych usługi Power BI                        | TakeOverDataset                             |                                          |
+| Cofnięcie opublikowania aplikacji usługi Power BI                          | UnpublishApp                                |                                          |
+| Zaktualizowanie ustawień zarządzania zasobami pojemności      | UpdateCapacityResourceGovernanceSettings    | Obecnie niedostępne w portalu administracyjnym usługi Office 365 |
+| Zaktualizowanie administratora pojemności                            | UpdateCapacityAdmins                        |                                          |
+| Zaktualizowanie nazwy wyświetlanej pojemności                     | UpdateCapacityDisplayName                   |                                          |
+| Zaktualizowanie ustawień usługi Power BI organizacji          | UpdatedAdminFeatureSwitch                   |                                          |
+| Zaktualizowanie aplikacji usługi Power BI                              | UpdateApp                                   |                                          |
+| Zaktualizowanie przepływu danych usługi Power BI                         | UpdateDataflow                              |                                          |
+| Zaktualizowanie źródeł danych zestawu danych usługi Power BI             | UpdateDatasources                           |                                          |
+| Zaktualizowanie parametrów zestawu danych usługi Power BI               | UpdateDatasetParameters                     |                                          |
+| Zaktualizowanie subskrypcji wiadomości e-mail usługi Power BI               | UpdateEmailSubscription                     |                                          |
+| Zaktualizowanie folderu usługi Power BI                           | UpdateFolder                                |                                          |
+| Zaktualizowanie dostępu do folderu usługi Power BI                    | UpdateFolderAccess                          |                                          |
+| Zaktualizowanie poświadczeń źródła danych bramy usługi Power BI  | UpdateDatasourceCredentials                 |                                          |
+| Wyświetlenie pulpitu nawigacyjnego usługi Power BI                         | ViewDashboard                               |                                          |
+| Wyświetlenie przepływu danych usługi Power BI                          | ViewDataflow                                |                                          |
+| Wyświetlenie raportu usługi Power BI                            | ViewReport                                  |                                          |
+| Wyświetlenie kafelka usługi Power BI                              | ViewTile                                    |                                          |
+| Wyświetlenie metryk użycia usługi Power BI                     | ViewUsageMetrics                            |                                          |
+|                                                   |                                             |                                          |
 
 ## <a name="next-steps"></a>Następne kroki
 

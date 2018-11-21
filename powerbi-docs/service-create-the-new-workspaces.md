@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/24/2018
+ms.date: 11/14/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: cc1f348deb222ce080ac41ac2574f4fb1437e8db
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: cdc406ddd9c086114ca118130bb4973737de3ed1
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48909020"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51717900"
 ---
 # <a name="create-the-new-workspaces-preview-in-power-bi"></a>Tworzenie nowych obszarów roboczych (wersja zapoznawcza) w usłudze Power BI
 
@@ -168,7 +168,7 @@ Działanie niektórych funkcji różni się w bieżącej wersji obszarów robocz
 
 Następujące problemy są znane, a poprawki do nich są w fazie projektowania:
 
-- Użytkownicy lub grupy użytkowników w wersji bezpłatnej dodani jako adresaci subskrypcji wiadomości e-mail mogą nie może otrzymywać wiadomości e-mail zgodnie z oczekiwaniami. Ten problem występuje, gdy nowe środowisko obszaru roboczego jest w pojemności Premium, ale obszar Mój obszar roboczy użytkownika tworzącego subskrypcję nie jest w pojemności Premium. Jeśli obszar Mój obszar roboczy znajduje się w pojemności Premium, użytkownicy i grupy użytkowników w wersji bezpłatnej będą otrzymywać wiadomości e-mail.
+- Użytkownicy lub grupy użytkowników w wersji bezpłatnej dodani jako adresaci subskrypcji wiadomości e-mail mogą nie może otrzymywać wiadomości e-mail zgodnie z oczekiwaniami. Ten problem występuje, gdy jeden z nowych obszarów roboczych znajduje się w pojemności Premium, ale obszar Mój obszar roboczy użytkownika tworzącego subskrypcję nie znajduje się w pojemności Premium. Jeśli obszar Mój obszar roboczy znajduje się w pojemności Premium, użytkownicy i grupy użytkowników w wersji bezpłatnej będą otrzymywać wiadomości e-mail.
 - Po przeniesieniu obszaru roboczego z pojemności Premium do udostępnionej pojemności (w niektórych przypadkach) użytkownicy i grupy użytkowników w wersji bezpłatnej nadal będą otrzymywać wiadomości e-mail, chociaż nie powinno to mieć miejsca. Ten problem występuje, gdy obszar Mój obszar roboczy użytkownika tworzącego subskrypcję znajduje się w pojemności Premium.
 
 ## <a name="next-steps"></a>Następne kroki

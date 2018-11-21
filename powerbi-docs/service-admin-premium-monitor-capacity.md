@@ -10,18 +10,22 @@ ms.component: powerbi-admin
 ms.topic: conceptual
 ms.date: 11/06/2018
 LocalizationGroup: Premium
-ms.openlocfilehash: bb7527a197c9556509ebba721ee49a2d9817b6f5
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 4fc036bf9191d0ed56be11e69152e579cfc5102d
+ms.sourcegitcommit: 883d7e76816f2696e88ae391744ac6c7b1cb59c7
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51266213"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51688401"
 ---
 # <a name="monitor-power-bi-premium-and-power-bi-embedded-capacities"></a>Monitorowanie pojemności w usługach Power BI Premium i Power BI Embedded
 
 Ten artykuł zawiera omówienie monitorowania metryk pojemności usługi Power BI Premium. Monitorowanie użycia pojemności pozwala na świadomy wybór podejścia do zarządzania pojemnościami.
 
-Pojemność można monitorować za pomocą aplikacji metryk pojemności lub portalu administracyjnego w usłudze Power BI Premium. Zalecamy użycie aplikacji, ponieważ oferuje ona o wiele więcej szczegółów, ale w tym artykule opisano obie opcje. **Bieżąca wersja aplikacji to 1.8 (wydana 7 listopada 2018 r.).**
+Pojemność można monitorować za pomocą aplikacji metryk pojemności lub portalu administracyjnego w usłudze Power BI Premium. Zalecamy użycie aplikacji, ponieważ oferuje ona o wiele więcej szczegółów, ale w tym artykule opisano obie opcje.
+
+**Bieżąca wersja aplikacji to 1.9 (wydana 14 listopada 2018 r.).**
+
+.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/UgsjMbhi_Bk?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
@@ -87,7 +91,7 @@ Obszar **Podsumowanie** przedstawia widok Twoich pojemności w oparciu o jednost
 | --- | --- |
 | **Jednostki** | * Liczba pojemności, których jesteś właścicielem<br> * Odrębna liczba zestawów danych w pojemności<br> * Odrębna liczba obszarów roboczych w pojemności |
 | **System** | * Średnie użycie pamięci w GB w ciągu ostatnich siedmiu dni<br> * Najwyższe zużycie pamięci w GB w ciągu ostatnich siedmiu dni oraz czas lokalny wystąpienia tego zużycia<br> * Liczba, która wskazuje, ile razy procesor przekroczył 80% progów w ciągu ostatnich siedmiu dni z podziałem na trzyminutowe przedziały<br> * Największa liczba przypadków, gdy procesor przekroczył 80% w ciągu ostatnich siedmiu dni z podziałem na przedziały o długości jednej godziny, oraz czas lokalny tych przypadków<br> * Liczba, która wskazuje, ile razy zapytania bezpośrednie/połączenia na żywo przekroczyły 80% progów w ciągu ostatnich siedmiu dni z podziałem na trzyminutowe przedziały<br> * Największa liczba przypadków, gdy zapytania bezpośrednie/połączenia na żywo przekroczyły 80% w ciągu ostatnich siedmiu dni z podziałem na przedziały o długości jednej godziny, oraz czas lokalny tych przypadków |
-| **Obciążenia zestawu danych** | * Łączna liczba odświeżeń w ciągu ostatnich siedmiu dni<br> * Łączna liczba pomyślnych odświeżeń w ciągu ostatnich siedmiu dni<br> * Łączna liczba nieudanych odświeżeń w ciągu ostatnich siedmiu dni<br> * Łączna liczba odświeżeń nieudanych z powodu braku pamięci<br> * Średni czas trwania odświeżania to czas potrzebny do ukończenia operacji, w minutach<br> * Średni czas oczekiwania na odświeżenie to średnie opóźnienie między zaplanowanym czasem i uruchomieniem operacji, w minutach<br> * Łączna liczba zapytań uruchomionych w ciągu ostatnich siedmiu dni<br> * Łączna liczba pomyślnych zapytań w ciągu ostatnich siedmiu dni<br> * Łączna liczba nieudanych zapytań w ciągu ostatnich siedmiu dni<br> * Średni czas trwania zapytania to czas potrzebny do ukończenia operacji, w minutach<br> * Łączna liczba modeli wykluczonych z powodu wykorzystania pamięci |
+| **Obciążenia zestawu danych** | * Łączna liczba odświeżeń w ciągu ostatnich siedmiu dni<br> * Łączna liczba pomyślnych odświeżeń w ciągu ostatnich siedmiu dni<br> * Łączna liczba nieudanych odświeżeń w ciągu ostatnich siedmiu dni<br> * Łączna liczba odświeżeń nieudanych z powodu braku pamięci<br> * Średni czas trwania odświeżania to czas potrzebny do ukończenia operacji, w minutach<br> * Średni czas oczekiwania na odświeżenie to średnie opóźnienie między zaplanowanym czasem i uruchomieniem operacji, w minutach<br> * Łączna liczba zapytań uruchomionych w ciągu ostatnich siedmiu dni<br> * Łączna liczba pomyślnych zapytań w ciągu ostatnich siedmiu dni<br> * Łączna liczba nieudanych zapytań w ciągu ostatnich siedmiu dni<br> * Średni czas trwania zapytania to czas potrzebny do ukończenia operacji, w minutach<br> * Łączna liczba modeli wykluczonych z powodu wykorzystania pamięci<br> * Średni rozmiar zestawów danych <br> * Średnia liczba zestawów danych załadowanych do pamięci |
 |  |  |
 
 #### <a name="refreshes-area"></a>Obszar Odświeżenia
@@ -136,6 +140,8 @@ Obszar **Zestawy danych** zawiera poniższe metryki.
 | --- | --- |
 | **Liczba eksmisji zestawów danych** | * Łącznie: łączna liczba *eksmisji* zestawów danych w przypadku każdej pojemności. Gdy pojemność powoduje wykorzystanie pamięci, węzeł eksmituje z pamięci jeden lub większą liczbę zestawów danych. Nieaktywne zestawy danych (dla których aktualnie nie są wykonywane żadne operacje zapytania/odświeżania) są eksmitowane jako pierwsze. Następnie kolejność eksmitowania bazuje na mierze „najdawniej używane” (LRU).|
 | **Eksmisje zestawów danych i zużycie pamięci (godzinowo)** | * Porównanie eksmisji zestawów z zużyciem pamięci z podziałem na przedziały o długości jednej godziny w czasie lokalnym |
+| **Liczba załadowanych zestawów danych (godzinowo)** | * Porównanie liczby zestawów danych załadowanych do pamięci z zużyciem pamięci w GB z podziałem na przedziały o długości jednej godziny w czasie lokalnym |
+| **Rozmiary danych**  | * Maksymalny rozmiar: maksymalny rozmiar zestawu danych w MB w pokazanym okresie |
 |  |  |
 
 ### <a name="paginated-reports-tab"></a>Karta Raporty podzielone na strony

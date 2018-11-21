@@ -9,14 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/01/2018
+ms.date: 11/16/2018
 LocalizationGroup: Reports
-ms.openlocfilehash: d708a4ff07a0d202fcc709f6348e48505d7589d0
-ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
+ms.openlocfilehash: 6a2cfd4926089bce8973070949791e450a47cc4b
+ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "50973378"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51850596"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Filtrowanie raportu za pomocą parametrów ciągu zapytania w adresie URL
 
@@ -47,7 +47,7 @@ Typem pola może być liczba, data/godzina lub ciąg, a używany typ musi być z
 
 * **Ciągi** muszą być ujęte w apostrofy — 'nazwa menedżera'.
 * **Liczby** nie wymagają żadnego specjalnego formatowania
-* **Daty i godziny** muszą być ujęte w apostrofy i poprzedzone wyrazem **DateTime**.
+* **Daty i godziny** muszą być ujęte w apostrofy. W protokole OData 3 muszą one być poprzedzane słowem datetime. Nie jest ono wymagane w przypadku protokołu OData 4.
 
 Jeśli nadal masz jakieś wątpliwości, czytaj dalej, aby uzyskać bardziej szczegółowe informacje.  
 

@@ -1,5 +1,5 @@
 ---
-title: Okienko Analiza w usłudze Power BI
+title: Tworzenie dynamicznych linii odwołania dla wizualizacji
 description: Tworzenie dynamicznych linii odwołania dla wizualizacji w usłudze Power BI
 author: mihart
 manager: kfile
@@ -7,17 +7,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 12/21/2017
+ms.date: 11/14/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 37f4663a176e81f2c235111092fcfa5576bfe08a
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 04173d98185d7900848e93563b8e981bf3b200e6
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34244523"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51717705"
 ---
-# <a name="analytics-pane-in-power-bi-service"></a>Okienko Analiza w usłudze Power BI
+# <a name="create-dynamic-reference-lines-for-visuals-in-the-power-bi-service"></a>Tworzenie dynamicznych linii odwołania dla wizualizacji w usłudze Power BI
+
 Za pomocą okienka **Analiza** w **usłudze Power BI** możesz dodać do wizualizacji dynamiczne *linie odwołania* i skoncentrować się na ważnych trendach lub szczegółowych informacjach.
 
 ![](media/service-analytics-pane/power-bi-analytics-pane.png)
@@ -27,7 +28,7 @@ Za pomocą okienka **Analiza** w **usłudze Power BI** możesz dodać do wizuali
 > 
 > 
 
-## <a name="using-the-analytics-pane"></a>Używanie okienka Analiza
+## <a name="use-the-analytics-pane"></a>Używanie okienka Analiza
 Za pomocą okienka **Analiza** można utworzyć następujące typy dynamicznych linii odwołania (w przypadku poszczególnych typów wizualizacji są dostępne określone linie):
 
 * Linia stałej (oś X)

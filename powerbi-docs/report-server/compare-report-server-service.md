@@ -4,18 +4,18 @@ description: W tym artykule znajduje się porównanie funkcji serwera raportów 
 keywords: ''
 author: maggiesMSFT
 ms.author: maggies
-ms.date: 11/06/2018
+ms.date: 11/16/2018
 ms.topic: overview
 ms.service: powerbi
 ms.component: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: a693eef85f7eafe7cfac2a02cbccc346201a6f13
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.openlocfilehash: 8689c9a2fded5e283740d82923d674b73434e6a1
+ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51507697"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51850458"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Porównanie serwera raportów usługi Power BI i usługi Power BI
 
@@ -37,11 +37,11 @@ Serwer raportów usługi Power BI i usługa Power BI mają wiele podobieństw i 
 | Pulpity nawigacyjne | Nie | Tak | [Pulpity nawigacyjne w usłudze Power BI](../consumer/end-user-dashboards.md) 
 | Dystrybuowanie grupy raportów za pomocą aplikacji | Nie | Tak | [Tworzenie i publikowanie aplikacji z pulpitami nawigacyjnymi i raportami](../service-create-distribute-apps.md) 
 | Pakiety zawartości | Nie | Tak | [Organizacyjne pakiety zawartości: wprowadzenie](../service-organizational-content-pack-introduction.md) 
-| Łączenie z usługami, takimi jak Salesforce | Nie | Tak | [Łączenie z usługami używanymi](../consumer/end-user-connect-to-services.md) z usługą Power BI
+| Łączenie z usługami, takimi jak Salesforce | Tak | Tak | [Łączenie z usługami używanymi](../consumer/end-user-connect-to-services.md) z pakietami zawartości w usłudze Power BI. Na Serwerze raportów usługi Power BI używaj certyfikowanych łączników w celu nawiązywania połączeń z usługami. Zobacz [Źródła danych raportów usługi Power BI na Serwerze raportów usługi Power BI](data-sources.md), aby uzyskać szczegółowe informacje.
 | Pytania i odpowiedzi | Nie | Tak | [Funkcja pytań i odpowiedzi w usłudze Power BI i programie Power BI Desktop](../consumer/end-user-q-and-a.md) 
 | Szybki wgląd w szczegółowe dane | Nie | Tak | [Automatyczne generowanie wglądu w szczegółowe dane przy użyciu usługi Power BI](../consumer/end-user-insights.md) 
 | Analizuj w programie Excel | Nie | Tak | [Analizowanie w programie Excel](../service-analyze-in-excel.md) 
-| Raporty z podziałem na strony | Tak | Tak | [Raporty podzielone na strony są obecnie dostępne w usłudze Power BI](../paginated-reports-report-builder-power-bi.md) w wersji zapoznawczej
+| Raporty z podziałem na strony | Tak | Tak | [Raporty podzielone na strony są obecnie dostępne w usłudze Power BI](../paginated-reports-report-builder-power-bi.md) w wersji zapoznawczej w pojemności Premium
 | Aplikacje mobilne Power BI | Tak | Tak | [Omówienie aplikacji mobilnych usługi Power BI](../consumer/mobile/mobile-apps-for-mobile-devices.md) 
 | Mapy ARC GIS | Nie | Tak | [Mapy ArcGIS firmy Esri w usłudze Power BI i programie Power BI Desktop](../power-bi-visualization-arcgis.md)
 | Subskrypcje poczty e-mail dla raportów usługi Power BI | Nie | Tak | [Subskrybowanie raportu i pulpitu nawigacyjnego](../consumer/end-user-subscribe.md) w usłudze Power BI 
@@ -50,7 +50,7 @@ Serwer raportów usługi Power BI i usługa Power BI mają wiele podobieństw i 
 | Zabezpieczenia na poziomie wiersza | Tylko za pośrednictwem źródła danych w trybie DirectQuery | Dostępne w trybie DirectQuery (źródło danych) i trybie importu | [Zabezpieczenia na poziomie wiersza](../service-admin-rls.md) w usłudze Power BI 
 | Tryb pełnoekranowy | Nie | Tak | [Tryb pełnoekranowy](../consumer/end-user-focus.md) w usłudze Power BI 
 | Zaawansowana współpraca z usługą Office 365 | Nie | Tak | [Współpraca w obszarze roboczym aplikacji](../service-collaborate-power-bi-workspace.md) z usługą Office 365 
-| Wizualizacje języka R | Nie | Tak | [Tworzenie wizualizacji języka R](../visuals/service-r-visuals.md) w usłudze Power BI  
+| Wizualizacje języka R | Nie | Tak | [Tworzenie wizualizacji języka R](../desktop-r-visuals.md) w programie Power BI Desktop i publikowanie ich w usłudze Power BI. Raportów usługi Power BI z wizualizacjami języka R nie można zapisywać na Serwerze raportów usługi Power BI.  
 | Funkcje w wersji zapoznawczej | Nie | Tak | [Włączanie funkcji usługi Power BI w wersji zapoznawczej](../consumer/end-user-preview-features.md) 
 | Wizualizacje niestandardowe | Tak | Tak | [Tworzenie wizualizacji niestandardowych w usłudze Power BI](../power-bi-custom-visuals.md) 
 | Power BI Desktop | Wersja zoptymalizowana pod kątem serwera raportów dostępna do pobrania z serwerem raportów | Wersja zoptymalizowana pod kątem usługi Power BI dostępna w Sklepie Windows | [Program Power BI Desktop dla serwera raportów](https://powerbi.microsoft.com/report-server/) <br><br> [Program Power BI Desktop dla usługi Power BI](http://aka.ms/pbidesktopstore)

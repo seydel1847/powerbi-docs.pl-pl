@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 09/17/2018
-ms.openlocfilehash: 56b6c954aa49f8adf0aa479f143fb11b932c107e
-ms.sourcegitcommit: ac63e6a082ca8397909217837e8d98c9389b23ac
+ms.openlocfilehash: 8cdeed0c5575a8405ae5db6d1eaca522ab0597cb
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "50736969"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679437"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Często zadawane pytania dotyczące usługi Power BI Embedded
 
@@ -119,7 +119,7 @@ https://app.powerbi.com/ > ? > Power BI — informacje
 ![Power BI — informacje](media/embedded-faq/about-01.png)
 ![Region dzierżawy](media/embedded-faq/tenant-location-01.png)
 
-### <a name="what-is-supported-with-the-communicating-sequential-processes-csp-channel"></a>Jakie operacje są obsługiwane za pośrednictwem kanału komunikacji procesów sekwencyjnych (CSP)?
+### <a name="what-is-supported-with-the-cloud-solution-provider-csp-channel"></a>Jakie operacje są obsługiwane w przypadku kanału dostawcy rozwiązań w chmurze (CSP, Cloud Solution Provider)?
 
 * Możesz utworzyć PBIE dla dzierżawy przy użyciu subskrypcji typu CSP
 * Konto partnera może logować się do dzierżawy klienta i kupować usługę PBIE dla dzierżawy klienta. Określ użytkownika dzierżawy klienta jako administratora pojemności usługi Power BI
