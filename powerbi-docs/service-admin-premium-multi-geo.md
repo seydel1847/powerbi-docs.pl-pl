@@ -8,20 +8,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 10/21/2018
+ms.date: 11/20/2018
 LocalizationGroup: Premium
-ms.openlocfilehash: 1041dcf8c345bfdf8d5a6ae9823d4cecd5c323a6
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: 91e1880e1a879ee98d65d6ad91b26e534e807040
+ms.sourcegitcommit: a13abdb5a6c0c6a397b328ec2d68788ce3afa866
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641677"
+ms.lasthandoff: 11/21/2018
+ms.locfileid: "52268302"
 ---
 # <a name="multi-geo-support-for-power-bi-premium-preview"></a>Obsługa funkcji Multi-Geo dla usługi Power BI Premium (wersja zapoznawcza)
 
 Multi-Geo to funkcja usługi Power BI Premium, która pomaga klientom z wielu krajów spełniać wymagania dotyczące miejsc przechowywania danych regionalnych, specyficznych dla branży lub organizacyjnych. Jako klient usługi Power BI Premium możesz wdrażać zawartość do centrów danych w regionach innych niż region lokalny dzierżawy usługi Power BI. Obszar geograficzny (geografia) może zawierać więcej niż jeden regionie. Na przykład Stany Zjednoczone to obszar geograficzny, a Zachodnio-środkowe stany USA i Południowo-środkowe stany USA to regiony w Stanach Zjednoczonych. Zawartość można wdrażać w dowolnych spośród następujących obszarów geograficznych:
 
-- Stany Zjednoczone
+- United States
 - Kanada
 - Zjednoczone Królestwo
 - Brazylia
@@ -94,6 +94,7 @@ Obszary robocze można przenosić poza pojemność funkcji Multi-Geo na jeden z 
 - Zapytanie buforowane przechowywane w regionie zdalnym pozostaje w tym regionie podczas magazynowania danych. Inne transferowane dane mogą być jednak przenoszone między różnymi obszarami geograficznymi.
 - Podczas przenoszenia danych z jednego regionu do innego w środowisku funkcji Multi-Geo dane źródłowe mogą pozostawać w regionie, z którego dane zostały przeniesione, przez maksymalnie 30 dni. W tym czasie użytkownicy końcowi nie będą mieć dostępu do tych danych. Zostaną one usunięte z tego regionu i zlikwidowane w trakcie 30-dniowego okresu.
 - Ogólnie rzecz biorąc, funkcja Multi-Geo nie powoduje zwiększenia wydajności. Ładowanie raportów i pulpitów nawigacyjnych będzie nadal uwzględniać żądania do regionu lokalnego dla metadanych.
+- Funkcja [przepływów danych](service-dataflows-overview.md) (w wersji zapoznawczej) nie jest obecnie obsługiwana przez funkcję Multi-GEO.
 
 ## <a name="next-steps"></a>Następne kroki
 
