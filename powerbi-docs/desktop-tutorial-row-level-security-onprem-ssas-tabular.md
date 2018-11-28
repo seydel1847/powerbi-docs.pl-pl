@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 10/21/2017
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c49750ef51c1b8bacc36946d2d5c75a08abb36d7
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.openlocfilehash: c2d4dc5d8c11db035cc2470c0c44d64a6b78cd1a
+ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50101582"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52452757"
 ---
 # <a name="dynamic-row-level-security-with-analysis-services-tabular-model"></a>Dynamiczne zabezpieczenia na poziomie wiersza z modelem tabelarycznym usług Analysis Services
 W tym samouczku przedstawiono kroki niezbędne do zaimplementowania **zabezpieczeń na poziomie wiersza** w ramach **modelu tabelarycznego usług Analysis Services**  oraz stosowanie ich w raportach usługi Power BI. Kroki w tym samouczku zaprojektowano tak, aby można było je prześledzić i nauczyć się niezbędnych czynności, wykonując je na przykładowym zestawie danych.
@@ -50,7 +50,7 @@ Opublikowano już wiele artykułów opisujących sposób definiowania dynamiczny
    Wrócimy do tych użytkowników w kolejnych zadaniach.
 4. Następnie wykonamy *sprzężenie wewnętrzne* z tabelą **DimSalesTerritory**, która zawiera szczegóły regionu skojarzonego z użytkownikiem. Poniższy kod wykonuje *sprzężenie wewnętrzne*, a poniższa ilustracja przedstawia wygląd tabeli po pomyślnym wykonaniu *sprzężenia wewnętrznego*.
    
-       select b.SalesTerritoryCountry, b.SalesTerritoryRegion, a.EmployeeID, a.FirstName, a.LastName, a.UserName from [dbo].[DimUserSecurity] as a join  [dbo].[DimSalesTerritory] as b on a.[SalesTerritoryKey] = b.[SalesTerritoryID]
+       select b.SalesTerritoryCountry, b.SalesTerritoryRegion, a.EmployeeID, a.FirstName, a.LastName, a.UserName from [dbo].[DimUserSecurity] as a join  [dbo].[DimSalesTerritory] as b on a.[SalesTerritoryID] = b.[SalesTerritoryKey]
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/createusersecuritytable_join_users.png)
 5. Zwróć uwagę, że powyższy obraz pokazuje informacje na przykład o tym, którzy użytkownicy są odpowiedzialni za poszczególne regiony sprzedaży. Dane te są wyświetlane dzięki relacji utworzonej w **kroku 2**. Zwróć także uwagę, że użytkownik **Jon Doe należy do regionu sprzedaży Australia**. Do Johna Doe wrócimy w kolejnych krokach i zadaniach.

@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 10/08/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: ba27b42d6449d38fef2659507f035144c67f23fd
-ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
+ms.openlocfilehash: 7982c2b29d5d92a992a115c92cbc7f0d128cb9d6
+ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51223219"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52452596"
 ---
 # <a name="tutorial-set-data-alerts-in-power-bi-service"></a>Samouczek: Ustawianie alertów dotyczących danych w usłudze Power BI
 Ustaw alerty, aby otrzymywać powiadomienia, gdy zmiany dotyczące danych w pulpitach nawigacyjnych przekroczą ustalone progi. 
@@ -75,7 +75,7 @@ Następnie usługa Power BI wysyła alert do centrum powiadomień i, opcjonalnie
    ![Ikona powiadomienia w usłudze Power BI](media/end-user-alerts/powerbi-alert-notifications.png)
 3. Otwórz centrum powiadomień, aby wyświetlić szczegóły alertu.
    
-    ![odczytywanie alertu](media/end-user-alerts/powerbi-alert-notfication.png)
+    ![odczytywanie alertu](media/end-user-alerts/powerbi-alert-notification.png)
    
    > [!NOTE]
    > Alerty działają tylko z odświeżonymi danymi. Podczas odświeżania danych usługa Power BI sprawdza, czy został dla nich ustawiony alert. Jeśli dane osiągną wartość progową alertu, alert zostanie wywołany.
