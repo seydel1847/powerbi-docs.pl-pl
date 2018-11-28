@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: tutorial
-ms.date: 11/06/2018
-ms.openlocfilehash: a3d36f988847df283576dae6cfe5870b707c6f98
-ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
+ms.date: 11/21/2018
+ms.openlocfilehash: 56de3745d59e4a26dffbb988e9543c294de261e3
+ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51223265"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "52289179"
 ---
 # <a name="tutorial-adding-formatting-options-to-a-power-bi-custom-visual"></a>Samouczek: dodawanie opcji formatowania do wizualizacji niestandardowej usługi Power BI
 
@@ -32,7 +32,7 @@ Z tego samouczka dowiesz się, jak wykonywać następujące czynności:
 
     Powinien zostać wyświetlony następujący komunikat: *Dla tej wizualizacji nie są dostępne opcje formatowania.*
 
-    ![Formatowanie pędzla](media/custom-visual-develop-tutorial/format-paintbrush.png)
+    ![Formatowanie pędzla](media/custom-visual-develop-tutorial-format-options/format-paintbrush.png)
 
 2. W programie **Visual Studio Code** otwórz plik *capabilities.json*.
 
@@ -41,7 +41,7 @@ Z tego samouczka dowiesz się, jak wykonywać następujące czynności:
     ```json
     "objects": {},
     ```
-    ![Dodawanie obiektów](media/custom-visual-develop-tutorial/add-objects.png)
+    ![Dodawanie obiektów](media/custom-visual-develop-tutorial-format-options/add-objects.png)
 
 4. Zapisz plik **capabilities.json**.
 
@@ -50,13 +50,13 @@ Z tego samouczka dowiesz się, jak wykonywać następujące czynności:
     > [!Note]
     > Jeśli nie widzisz zmiany opcji formatowania, wybierz pozycję **Załaduj wizualizację niestandardową**.
 
-    ![Wyświetlanie opcji formatowania](media/custom-visual-develop-tutorial/view-formatting-options.png)
+    ![Wyświetlanie opcji formatowania](media/custom-visual-develop-tutorial-format-options/view-formatting-options.png)
 
 6. Ustaw opcję **Tytuł** na *Włączony*. Zauważ, że w lewym górnym rogu wizualizacji nie jest już wyświetlana nazwa miary.
 
-    ![Opcja kafelka została wyłączona](media/custom-visual-develop-tutorial/tile-option-off.png)
+    ![Opcja kafelka została wyłączona](media/custom-visual-develop-tutorial-format-options/tile-option-off.png)
 
-    ![Brak kafelka nazwy](media/custom-visual-develop-tutorial/no-name-tile.png)
+    ![Brak kafelka nazwy](media/custom-visual-develop-tutorial-format-options/no-name-tile.png)
 
 ### <a name="adding-custom-formatting-options"></a>Dodawanie niestandardowych opcji formatowania
 
@@ -64,7 +64,7 @@ Właściwości niestandardowe można dodać, aby umożliwić konfigurowanie kolo
 
 1. W programie PowerShell zatrzymaj wizualizację niestandardową.
 
-2. W programie Visual Studio Code w pliku **capabilities.json** wstaw poniższy fragment kodu JSON do obiektu **objects**.
+2. W programie Visual Studio Code w pliku **capabilities.json** wstaw poniższy fragment kodu JSON do obiektu z etykietą **objects**.
 
     ```json
     "circle": {
@@ -89,12 +89,12 @@ Właściwości niestandardowe można dodać, aby umożliwić konfigurowanie kolo
                  }
              }
          }
-     }
+     },
     ```
 
     Fragment kodu JSON opisuje grupę o nazwie circle, która składa się z dwóch opcji o nazwie circleColor i circleThickness.
 
-   ![Kod dotyczący grubości okręgu](media/custom-visual-develop-tutorial/circle-thickness-code.png)
+   ![Kod dotyczący grubości okręgu](media/custom-visual-develop-tutorial-format-options/circle-thickness-code.png)
 
 3. Zapisz plik **capabilities.json**.
 
@@ -112,7 +112,7 @@ Właściwości niestandardowe można dodać, aby umożliwić konfigurowanie kolo
     }
     ```
 
-    ![Klasy modułu](media/custom-visual-develop-tutorial/module-classes.png)
+    ![Klasy modułu](media/custom-visual-develop-tutorial-format-options/module-classes.png)
 
     Ten moduł definiuje dwie klasy. Klasa **CircleSettings** definiuje dwie właściwości o nazwach odpowiadających obiektom zdefiniowanym w pliku **capabilities.json** (**circleColor** i  **circleThickness**), a także ustawia wartości domyślne. Klasa **VisualSettings** dziedziczy klasę **DataViewObjectParser** oraz dodaje właściwość o nazwie **circle**, która jest zgodna z obiektem zdefiniowanym w pliku *capabilities.json* i zwraca wystąpienie elementu **CircleSettings**.
 
@@ -127,7 +127,7 @@ Właściwości niestandardowe można dodać, aby umożliwić konfigurowanie kolo
     ```
     Ta właściwość zawiera odwołanie do obiektu **VisualSettings** opisującego ustawienia wizualizacji.
 
-    ![Dodawanie klasy Visual](media/custom-visual-develop-tutorial/visual-class-add-on.png)
+    ![Dodawanie klasy Visual](media/custom-visual-develop-tutorial-format-options/visual-class-add-on.png)
 
 9. W klasie **Visual** dodaj poniższą metodę przed metodą **update**. Ta metoda jest używana do wypełniania opcji formatowania.
 
@@ -140,7 +140,7 @@ Właściwości niestandardowe można dodać, aby umożliwić konfigurowanie kolo
     ```
     Ta metoda jest używana do wypełniania opcji formatowania.
 
-    ![Obiekt ustawień Visual](media/custom-visual-develop-tutorial/visual-settings-object.png)
+    ![Obiekt ustawień Visual](media/custom-visual-develop-tutorial-format-options/visual-settings-object.png)
 
 10. W metodzie **update** po deklaracji zmiennej **radius** dodaj następujący kod.
 
@@ -150,7 +150,7 @@ Właściwości niestandardowe można dodać, aby umożliwić konfigurowanie kolo
     ```
     Ten kod pobiera opcje formatowania. Dostosowuje on każdą wartość przekazaną do właściwości **circleThickness**, konwertując ja na 0, jeśli jest ujemna, lub na 10, jeśli jest większa niż 10.
 
-    ![Zmienna radius](media/custom-visual-develop-tutorial/radius.png)
+    ![Zmienna radius](media/custom-visual-develop-tutorial-format-options/radius.png)
 
 11. W **elemencie circle** zmodyfikuj wartość przekazaną do **stylu fill** na poniższe wyrażenie.
 
@@ -158,7 +158,7 @@ Właściwości niestandardowe można dodać, aby umożliwić konfigurowanie kolo
     this.visualSettings.circle.circleColor
     ```
 
-    ![Wypełnianie elementu okręgu](media/custom-visual-develop-tutorial/circle-element-fill.png)
+    ![Wypełnianie elementu okręgu](media/custom-visual-develop-tutorial-format-options/circle-element-fill.png)
 
 12. W **elemencie circle** zmodyfikuj wartość przekazaną do **stylu stroke-width** na poniższe wyrażenie.
 
@@ -166,7 +166,7 @@ Właściwości niestandardowe można dodać, aby umożliwić konfigurowanie kolo
     this.visualSettings.circle.circleThickness
     ```
 
-    ![Okrąg — stroke-width](media/custom-visual-develop-tutorial/circle-stroke-width.png)
+    ![Okrąg — stroke-width](media/custom-visual-develop-tutorial-format-options/circle-stroke-width.png)
 
 13. Zapisz plik visual.ts.
 
@@ -180,7 +180,7 @@ Właściwości niestandardowe można dodać, aby umożliwić konfigurowanie kolo
 
 16. W obszarze opcji **formatowania wizualizacji** rozwiń węzeł **Okrąg**.
 
-    ![Formatowanie okręgu](media/custom-visual-develop-tutorial/circle-format.png)
+    ![Formatowanie okręgu](media/custom-visual-develop-tutorial-format-options/circle-format.png)
 
     Zmodyfikuj opcje **Kolor** i **Grubość**.
 
@@ -198,7 +198,7 @@ Wprowadź wartości właściwości dla projektu wizualizacji niestandardowej, za
 
     Jeśli w okienku **Wizualizacje** ustawisz kursor na ikonie, pojawi się nazwa wyświetlana.
 
-    ![Nazwa wyświetlana — obiekt visual](media/custom-visual-develop-tutorial/display-name-viz.png)
+    ![Nazwa wyświetlana — obiekt visual](media/custom-visual-develop-tutorial-format-options/display-name-viz.png)
 
 4. We właściwości **description** wprowadź następujący tekst.
 
@@ -216,7 +216,7 @@ Wprowadź wartości właściwości dla projektu wizualizacji niestandardowej, za
 
 10. Przejrzyj ikonę.
 
-    ![Obraz okienka wizualizacji](media/custom-visual-develop-tutorial/viz-pane-image.png)
+    ![Obraz okienka wizualizacji](media/custom-visual-develop-tutorial-format-options/viz-pane-image.png)
 
 11. W programie Visual Studio Code upewnij się, że wszystkie pliki zostały zapisane.
 
@@ -226,7 +226,7 @@ Wprowadź wartości właściwości dla projektu wizualizacji niestandardowej, za
     pbiviz package
     ```
 
-    ![Folder dist](media/custom-visual-develop-tutorial/dist-folder.png)
+    ![Folder dist](media/custom-visual-develop-tutorial-format-options/dist-folder.png)
 
 Teraz pakiet stanowi dane wyjściowe folderu **dist** projektu. Pakiet zawiera wszystkie elementy wymagane do zaimportowania wizualizacji niestandardowej do raportu usługi Power BI lub raportu programu Power BI Desktop. Masz teraz utworzony pakiet wizualizacji niestandardowej, który jest gotowy do użycia.
 
@@ -238,7 +238,7 @@ Teraz możesz otworzyć raport programu Power BI Desktop i zaimportować wizuali
 
 2. W okienku **_Wizualizacje_** wybierz **wielokropek**, a następnie wybierz pozycję **Importuj z pliku**.
 
-    ![Dodawanie wizualizacji niestandardowej do pulpitu](media/custom-visual-develop-tutorial/add-custom-viz-to-desktop.png)
+    ![Dodawanie wizualizacji niestandardowej do pulpitu](media/custom-visual-develop-tutorial-format-options/add-custom-viz-to-desktop.png)
 
 3. W **oknie importowania** wybierz pozycję **Importuj**.
 
@@ -250,7 +250,7 @@ Teraz możesz otworzyć raport programu Power BI Desktop i zaimportować wizuali
 
 7. Sprawdź, czy wizualizacja została dodana do okienka **_Wizualizacje_**.
 
-    ![Wyświetlanie w okienku wizualizacji w programie PBI Desktop](media/custom-visual-develop-tutorial/view-in-desktop-viz-pane.png)
+    ![Wyświetlanie w okienku wizualizacji w programie PBI Desktop](media/custom-visual-develop-tutorial-format-options/view-in-desktop-viz-pane.png)
 
 8. Umieść kursor nad ikoną **Circle Card** i zwróć uwagę na wyświetloną etykietkę narzędzia.
 

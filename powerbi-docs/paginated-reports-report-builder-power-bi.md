@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: report-builder
 ms.topic: overview
-ms.date: 11/08/2018
+ms.date: 11/20/2018
 ms.author: maggies
-ms.openlocfilehash: 15ec21a0b86977173c16071980d7527f27db74ef
-ms.sourcegitcommit: 5eb0f37f59b5fec15c0caecbbd1f8d688c7f0013
+ms.openlocfilehash: 7a39d7b3bdbbd592afc6481c5936efc76569ad11
+ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/09/2018
-ms.locfileid: "51297049"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "52289225"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium-preview"></a>Czym są raporty podzielone na strony w usłudze Power BI Premium? (Wersja zapoznawcza)
-Raporty podzielone na strony, które przez długi czas stanowiły standardowy format w usługach SQL Server Reporting Services, są teraz dostępne w usłudze Power BI. Raporty podzielone na strony zostały zaprojektowane pod kątem drukowania lub udostępniania. Noszą one nazwę „podzielone na strony", ponieważ są formatowane tak, aby dane mieściły się w obrębie strony. Zawierają one na przykład wszystkie dane w tabeli, nawet jeśli tabela zajmuje wiele stron. Są one również określane jako „co do piksela” (ang. pixel perfect), ponieważ można dokładnie kontrolować układ ich stron. Raporty podzielone na strony są oparte na technologii raportów RDL dostępnej w usługach SQL Server Reporting Services. Report Builder to autonomiczne narzędzie do tworzenia raportów podzielonych na strony. 
+Raporty podzielone na strony, które przez długi czas stanowiły standardowy format w usługach SQL Server Reporting Services, są teraz dostępne w usłudze Power BI. Raporty podzielone na strony zostały zaprojektowane pod kątem drukowania lub udostępniania. Są one określane jako „podzielone na strony”, ponieważ dzięki swojemu formatowaniu mieszczą się doskonale na stronie. Raporty te zawierają wszystkie dane w tabeli, nawet jeśli tabela zajmuje wiele stron. Są one również określane jako „co do piksela” (ang. pixel perfect), ponieważ można dokładnie kontrolować układ ich stron. Raporty podzielone na strony są oparte na technologii raportów RDL dostępnej w usługach SQL Server Reporting Services. Report Builder to autonomiczne narzędzie do tworzenia raportów podzielonych na strony. 
 
-Raporty podzielone na strony mogą mieć wiele stron. Raport w poniższym przykładzie ma 563 strony, z których każda ma dokładnie rozmieszczoną zawartość i jedną stronę na fakturę oraz powtarzające się nagłówki i stopki.
+Raporty podzielone na strony mogą mieć wiele stron. Na przykład ten raport zawiera 563 strony. Każda strona ma dokładnie rozmieszczoną zawartość — z jedną stroną na każdą fakturę oraz powtarzającymi się nagłówkami i stopkami.
 
 ![Raport podzielony na strony w usłudze Power BI](media/paginated-reports-report-builder-power-bi/power-bi-paginated-wwi-report-page.png)
 
@@ -27,11 +27,11 @@ Podgląd raportu można wyświetlić w programie Report Builder, a następnie op
 
 ## <a name="create-reports-in-report-builder"></a>Tworzenie raportów w programie Report Builder
 
-Raporty podzielone na strony mają własne narzędzie do projektowania, czyli program Report Builder. Jeśli utworzono raporty podzielone na strony dla serwera raportów usługi Power BI lub usług SQL Server Reporting Services (SSRS), można używać tego samego narzędzia i tej samej wersji. W rzeczywistości raporty podzielone na strony, które utworzono dla usług SSRS 2016 i 2017 lub dla serwera raportów usługi Power BI w środowisku lokalnym, są zgodne z usługą Power BI. Usługa Power BI zachowuje zgodność z poprzednimi wersjami, dlatego można przenosić raporty do nowszej wersji oraz uaktualniać wszystkie raporty podzielone na strony z poprzedniej wersji. Nie wszystkie funkcje raportu są dostępne po uruchomieniu. Zobacz sekcję [Ograniczenia i istotne zagadnienia](#limitations-and-considerations) w tym artykule, aby uzyskać szczegółowe informacje.
+Raporty podzielone na strony mają własne narzędzie do projektowania, czyli program Report Builder. Jest to to samo narzędzie i ta sama wersja, których używa się do tworzenia raportów podzielonych na strony dla serwera raportów usługi Power BI lub usług SQL Server Reporting Services (SSRS). W rzeczywistości raporty podzielone na strony, które utworzono dla usług SSRS 2016 i 2017 lub dla serwera raportów usługi Power BI w środowisku lokalnym, są zgodne z usługą Power BI. Usługa Power BI zachowuje zgodność z poprzednimi wersjami, dlatego można przenosić raporty do nowszej wersji oraz uaktualniać wszystkie raporty podzielone na strony z poprzedniej wersji. Nie wszystkie funkcje raportów są dostępne po uruchomieniu. Zobacz sekcję [Ograniczenia i istotne zagadnienia](#limitations-and-considerations) w tym artykule, aby uzyskać szczegółowe informacje.
      
 ## <a name="report-from-a-variety-of-data-sources"></a>Raport z różnych źródeł danych
 
-Pojedynczy raport podzielony na strony może mieć wiele różnych źródeł danych. W przeciwieństwie do raportów usługi Power BI nie ma on podstawowego źródła danych. Na potrzeby początkowej wersji raportów podzielonych na strony w usłudze Power BI osadzone źródła danych i zestawy danych są tworzone w samym raporcie — raport nie jest łączony z udostępnionymi źródłami danych ani zestawami danych na serwerze. Raporty są tworzone w programie Report Builder na komputerze lokalnym. Jeśli raport łączy się z danymi lokalnymi, po przekazaniu raportu usługi Power BI musisz utworzyć bramę i przekierować połączenie danych. Poniżej przedstawiono źródła danych, z którymi można nawiązać połączenie na potrzeby wersji początkowej:
+Pojedynczy raport podzielony na strony może mieć wiele różnych źródeł danych. W przeciwieństwie do raportów usługi Power BI nie ma on podstawowego źródła danych. Na potrzeby początkowej wersji raportów podzielonych na strony w usłudze Power BI osadzone źródła danych i zestawy danych są tworzone w samym raporcie. Obecnie nie można używać udostępnionych źródeł danych ani udostępnionych zestawów danych. Raporty są tworzone w programie Report Builder na komputerze lokalnym. Jeśli raport łączy się z danymi lokalnymi, po przekazaniu raportu usługi Power BI musisz utworzyć bramę i przekierować połączenie danych. Poniżej przedstawiono źródła danych, z którymi można nawiązać połączenie na potrzeby wersji początkowej:
 
 - Usługi Azure SQL Database i Data Warehouse
 - Program SQL Server za pośrednictwem bramy
@@ -60,7 +60,7 @@ Wszystkie elementy raportu podzielonego na strony, od samego raportu do każdego
 Projektowanie raportu podzielonego na strony to tak naprawdę tworzenie *definicji raportu*. Nie zawiera ona żadnych danych. Określa natomiast, skąd i które dane pobrać oraz jak je wyświetlać. Po uruchomieniu raportu procesor raportów przejmuje utworzoną definicję raportu, pobiera dane i łączy je z układem raportu w celu wygenerowania raportu. Definicja raportu jest przekazywana do usługi Power BI (http://app.powerbi.com): do obszaru Mój obszar roboczy lub do obszaru roboczego, który udostępniasz współpracownikom. Jeśli źródło danych raportu znajduje się w środowisku lokalnym, po przekazaniu raportu należy przekierować połączenie ze źródłem danych, aby przechodziło przez bramę. 
 
 ## <a name="view-your-paginated-report"></a>Wyświetlanie raportu podzielonego na strony
-Raport podzielony na strony można wyświetlać w usłudze Power BI w przeglądarce, a także w aplikacjach mobilnych usługi Power BI. W usłudze Power BI można eksportować raport do wielu formatów zorientowanych na Internet, zorientowanych na strony i klasycznych aplikacji, takich jak HTML, MHTML, PDF, XML, CSV, TIFF, Word i Excel. Można również udostępniać go innym osobom.  
+Raport podzielony na strony można wyświetlać w usłudze Power BI w przeglądarce, a także w aplikacjach mobilnych usługi Power BI. Raport z usługi Power BI można wyeksportować do wielu formatów, takich jak HTML, MHTML, PDF, XML, CSV, TIFF, Word i Excel. Można również udostępniać go innym osobom.  
   
 ## <a name="limitations-and-considerations"></a>Ograniczenia i istotne zagadnienia
 
@@ -78,7 +78,8 @@ Poniżej przedstawiono niektóre funkcje, które nie są obsługiwane w wersji p
 ## <a name="next-steps"></a>Następne kroki
 
 - [Install Report Builder from the Microsoft Download Center](http://go.microsoft.com/fwlink/?LinkID=734968) (Instalowanie programu Report Builder z Centrum pobierania Microsoft)
-
 - [Samouczek: tworzenie raportu podzielonego na strony](paginated-reports-quickstart-aw.md)
+- [Enter data directly in a paginated report (Wprowadzanie danych bezpośrednio w raporcie podzielonym na strony)](paginated-reports-enter-data.md)
+
   
 

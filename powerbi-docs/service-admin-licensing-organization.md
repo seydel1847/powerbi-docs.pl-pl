@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 10/30/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 09ce2e2db94116d70824b276b9b67b9dbe163d11
-ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
+ms.openlocfilehash: 861b9c411b3088b6c16b7ad601f374bd771b13ed
+ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "51679322"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "52331993"
 ---
 # <a name="power-bi-licensing-in-your-organization"></a>Licencjonowanie usługi Power BI w organizacji
 
 W usłudze Power BI użytkownicy mają możliwości zdefiniowane w oparciu o dwa typy licencji:
 
-* **Na użytkownika** - *licencjonowanie bezpłatne i licencjonowanie usługi Power BI Pro*. Licencja bezpłatna umożliwia dostęp do niektórych funkcji usługi Power BI. Licencja usługi Pro umożliwia dostęp do całej zawartości i wszystkich funkcji w usłudze Power BI, w tym do możliwości udostępniania zawartości i współpracy z innymi użytkownikami wersji Pro. Tylko użytkownicy wersji Pro mogą publikować zawartość i używać jej w obszarach roboczych aplikacji, udostępniać pulpity nawigacyjne oraz subskrybować pulpity nawigacyjne i raporty. Aby uzyskać więcej informacji, zobacz [Power BI service features by license type](service-features-license-type.md) (Funkcje usługi Power BI według typu licencji).
+* **Na użytkownika** - *licencjonowanie usługi Power BI Pro i licencjonowanie bezpłatne*. Licencja usługi Power BI Pro umożliwia dostęp do całej zawartości i wszystkich funkcji w usłudze Power BI, w tym do możliwości udostępniania zawartości i współpracy z innymi użytkownikami wersji Pro. Tylko użytkownicy wersji Pro mogą publikować zawartość i używać jej w obszarach roboczych aplikacji, udostępniać pulpity nawigacyjne oraz subskrybować pulpity nawigacyjne i raporty. Licencja bezpłatna umożliwia dostęp do niektórych funkcji usługi Power BI. Aby uzyskać więcej informacji, zobacz [Power BI service features by license type](service-features-license-type.md) (Funkcje usługi Power BI według typu licencji).
 
 * **Oparta na pojemności** - *licencjonowanie usługi Power BI Premium*. Wersja Premium udostępnia dedykowaną pojemność w celu zapewnienia bardziej jednolitej wydajności i obsługi większych woluminów danych w usłudze Power BI. W przypadku użytkowników indywidualnych wersja Premium umożliwia także szeroką dystrybucję zawartości przez użytkowników wersji Pro bez wymagania licencji usługi Pro od osób wyświetlających taką zawartość. Aby uzyskać więcej informacji, zobacz [Co to jest usługa Power BI Premium?](service-premium.md).
 
@@ -73,17 +73,11 @@ Teraz możesz [przypisać licencje w usłudze Office 365](https://support.office
 
 ## <a name="manage-power-bi-free-licenses"></a>Zarządzanie bezpłatnymi licencjami usługi Power BI
 
-Użytkownicy w organizacji mogą uzyskiwać dostęp do bezpłatnych licencji usługi Power BI na dwa różne sposoby. Mogą indywidualnie rejestrować się w usłudze Power BI lub można im przypisać licencję usługi Power BI w portalu administracyjnym usługi Office 365.
+Użytkownicy w organizacji mogą uzyskiwać dostęp do bezpłatnych licencji usługi Power BI na dwa różne sposoby:
 
-Umożliwienie indywidualnego rejestrowania się zmniejsza obciążenie administratorów organizacji, zapewniając możliwość bezpłatnej rejestracji użytkownikom zainteresowanym usługą Power BI.
+* Z poziomu portalu administracyjnego usługi Office 365 możesz przypisać im licencję usługi Power BI.
 
-Wyłączenie możliwości rejestracji indywidualnych użytkowników pozwala jednak uzyskać większą kontrolę i jest świetnym rozwiązaniem, jeśli musisz przeprowadzić inspekcję użycia usługi.
-
-### <a name="power-bi-free-for-individuals"></a>Bezpłatna usługa Power BI dla użytkowników indywidualnych
-
-Domyślnie użytkownicy indywidualni w organizacji mogą utworzyć konto bezpłatnej licencji usługi Power BI. Aby uzyskać więcej informacji, zobacz [Rejestrowanie się w usłudze Power BI jako użytkownik indywidualny](service-self-service-signup-for-power-bi.md).
-
-Aby zablokować możliwość rejestracji użytkowników indywidualnych, zobacz [Włączanie lub wyłączanie rejestracji użytkowników indywidualnych w usłudze Azure Active Directory](service-admin-licensing-organization.md#enable-or-disable-individual-user-sign-up-in-azure-active-directory) w dalszej części tego artykułu.
+* Jeśli użytkownik [zarejestruje się w wersji próbnej usługi Power BI Pro](service-self-service-signup-for-power-bi.md) i wersja próbna wygaśnie, zostanie do niego przypisana bezpłatna licencja.
 
 ### <a name="requesting-and-assigning-free-licenses"></a>Tworzenie żądań dotyczących licencji bezpłatnych i przypisywanie tych licencji
 

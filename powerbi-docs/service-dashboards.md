@@ -1,54 +1,48 @@
 ---
-title: Pulpity nawigacyjne w usłudze Power BI
-description: Pulpity nawigacyjne to kluczowy element usługi Power BI.
+title: Wprowadzenie do pulpitów nawigacyjnych dla projektantów usługi Power BI
+description: Pulpity nawigacyjne to kluczowy element usługi Power BI. Są to pojedyncze strony (często nazywane kanwą), które umożliwiają przekazywanie informacji za pomocą wizualizacji.
 author: maggieMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/18/2018
+ms.date: 11/21/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: b7f94d47452fb9d1ea24c950dba2988c6c80c053
-ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
+ms.openlocfilehash: 709518924fbb9d83201eb5c070b7a3e93838ec79
+ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/20/2018
-ms.locfileid: "49473733"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "52331947"
 ---
-# <a name="dashboards-in-the-power-bi-service"></a>Pulpity nawigacyjne w usłudze Power BI
+# <a name="intro-to-dashboards-for-power-bi-designers"></a>Wprowadzenie do pulpitów nawigacyjnych dla projektantów usługi Power BI
 
-***Pulpit nawigacyjny*** usługi Power BI to pojedyncza strona, często nazywana kanwą, umożliwiająca przekazywanie informacji za pomocą wizualizacji. Ponieważ jest to tylko jedna strona, dobrze zaprojektowany pulpit nawigacyjny zawiera tylko najistotniejsze informacje.
+***Pulpit nawigacyjny*** usługi Power BI to pojedyncza strona, często nazywana kanwą, umożliwiająca przekazywanie informacji za pomocą wizualizacji. Ponieważ jest to tylko jedna strona, dobrze zaprojektowany pulpit nawigacyjny zawiera tylko najistotniejsze informacje. Czytelnicy mogą wyświetlać powiązane raporty, aby uzyskać szczegółowe informacje.
 
 ![pulpit nawigacyjny](media/service-dashboards/power-bi-dashboard2.png)
 
-Pulpity nawigacyjne są funkcją usługi Power BI i nie są dostępne w programie Power BI Desktop. Pulpitów nawigacyjnych nie można tworzyć na urządzeniach mobilnych, można je jednak [wyświetlać i udostępniać](mobile-apps-view-dashboard.md).
+Pulpity nawigacyjne są funkcją usługi Power BI. Nie są one dostępne w programie Power BI Desktop. Nie można tworzyć pulpitów nawigacyjnych na urządzeniach przenośnych, ale można je na nich [wyświetlać i udostępniać](mobile-apps-view-dashboard.md).
 
-## <a name="dashboard-creators-and-dashboard-consumers"></a>Twórcy i użytkownicy pulpitów nawigacyjnych
-W zależności od swojej roli możesz tworzyć pulpity nawigacyjne na własny użytek lub w celu udostępniania ich współpracownikom. Informacje można znaleźć w temacie **Pulpity nawigacyjne dla twórców**. Jeśli jesteś kimś, kto otrzymuje pulpity nawigacyjne od innych. W takim przypadku warto dowiedzieć się, jak czytać pulpity nawigacyjne i jak z nich korzystać. Ten artykuł jest dla Ciebie.
+## <a name="dashboard-basics"></a>Podstawowe informacje o pulpitach nawigacyjnych 
 
-
-### <a name="if-you-will-be-receiving-and-consuming-dashboards"></a>Jeśli będziesz otrzymywać pulpity nawigacyjne i korzystać z nich
-
-Wizualizacje wyświetlane na pulpicie nawigacyjnym nazywane są *kafelkami* i są *przypinane* do pulpitu nawigacyjnego z poziomu raportów przez *twórców* pulpitów nawigacyjnych. Jeśli jesteś nowym użytkownikiem usługi Power BI, zapoznaj się z podstawowymi informacjami w temacie [Power BI — podstawowe pojęcia](service-basic-concepts.md).
+Wizualizacje widoczne na pulpicie nawigacyjnym to *kafelki*. Możesz *przypinać* kafelki z raportów do pulpitu nawigacyjnego. Jeśli jesteś nowym użytkownikiem usługi Power BI, zapoznaj się z podstawowymi informacjami w temacie [Power BI — podstawowe pojęcia](service-basic-concepts.md).
 
 > [!IMPORTANT]
-> Do wyświetlania udostępnionego pulpitu nawigacyjnego jest wymagana usługa [Power BI Pro](service-free-vs-pro.md).
+> Do tworzenia pulpitów nawigacyjnych jest wymagana licencja usługi [Power BI Pro](service-free-vs-pro.md).
 
-Wizualizacje na pulpicie nawigacyjnym pochodzą z raportów, a każdy raport jest tworzony w oparciu o jeden zestaw danych. Pulpit nawigacyjny można porównać do drzwi prowadzących do bazowych raportów i zestawów danych. Wybierając wizualizację, możesz przejść do raportu (i zestawu danych), który został użyty do jej utworzenia.
+Wizualizacje na pulpicie nawigacyjnym pochodzą z raportów, a każdy raport jest tworzony w oparciu o zestaw danych. Pulpit nawigacyjny można porównać do drzwi prowadzących do bazowych raportów i zestawów danych. Wybierając wizualizację, możesz przejść do raportu (i zestawu danych), który został użyty do jej utworzenia.
 
 ![diagram przedstawiający relację między pulpitami nawigacyjnymi, raportami, zestawami danych](media/service-dashboards/power-bi-diagram.png)
 
-
-
 ## <a name="advantages-of-dashboards"></a>Zalety pulpitów nawigacyjnych
-Pulpity nawigacyjne to świetny sposób na monitorowanie sytuacji w firmie, szukanie odpowiedzi i błyskawiczne zapoznanie się ze wszystkimi najistotniejszymi metrykami. Wizualizacje na pulpicie nawigacyjnym mogą pochodzić z jednego bazowego zestawu danych lub raportu albo wielu zestawów danych lub raportów. Pulpit nawigacyjny łączy dane lokalne i przechowywane w chmurze, zapewniają skonsolidowany widok bez względu na to, gdzie znajdują się dane.
+Pulpity nawigacyjne to świetny sposób na monitorowanie sytuacji w firmie i błyskawiczne zapoznanie się ze wszystkimi najistotniejszymi metrykami. Wizualizacje na pulpicie nawigacyjnym mogą pochodzić z jednego bazowego zestawu danych lub raportu albo wielu zestawów danych lub raportów. Pulpit nawigacyjny łączy dane lokalne i przechowywane w chmurze, zapewniają skonsolidowany widok bez względu na to, gdzie znajdują się dane.
 
-Pulpit nawigacyjny jest nie tylko atrakcyjny wizualnie — jest wysoce interaktywny, a jego kafelki są aktualizowane na bieżąco, odzwierciedlając zmiany w danych bazowych.
+Pulpit nawigacyjny jest nie tylko atrakcyjny wizualnie. Jest wysoce interakcyjny, a jego kafelki są aktualizowane na bieżąco, odzwierciedlając zmiany w danych bazowych.
 
 ## <a name="dashboards-versus-reports"></a>Pulpity nawigacyjne a raporty
-[Raporty](service-reports.md) są często mylone z pulpitami nawigacyjnymi, ponieważ także są kanwami wypełnionymi wizualizacjami. Jednak istnieją pewne podstawowe różnice dla użytkowników usługi Power BI.
+[Raporty](service-reports.md) i pulpity nawigacyjne wydają się podobne, ponieważ oba te elementy mają postać kanwy z wizualizacjami. Istnieją jednak podstawowe różnice.
 
 | **Funkcja** | **Pulpity nawigacyjne** | **Raporty** |
 | --- | --- | --- |
@@ -58,7 +52,7 @@ Pulpit nawigacyjny jest nie tylko atrakcyjny wizualnie — jest wysoce interakty
 | Subskrybuj |Można subskrybować pulpit nawigacyjny |Można subskrybować strony raportu |
 | Filtrowanie |Nie można filtrować ani wycinać |Wiele różnych sposobów filtrowania, wyróżniania i wycinania |
 | Polecane |Można ustawić jeden pulpit nawigacyjny jako „proponowany” |Nie można tworzyć proponowanych raportów |
-| Ulubione | Można oznaczać pulpity nawigacyjne jako *ulubione* | Można ustawiać raporty jako *ulubione*
+| Dodaj do ulubionych | Można oznaczać pulpity nawigacyjne jako *ulubione* | Można ustawiać raporty jako *ulubione*
 | Ustawianie alertów |Dostępne dla kafelków pulpitu nawigacyjnego w pewnych okolicznościach |Niedostępne z poziomu raportów |
 | Zapytania w języku naturalnym |Dostępne z poziomu pulpitu nawigacyjnego |Niedostępne z poziomu raportów |
 | Wyświetlanie tabel i pól bazowego zestawu danych |Nie. Można eksportować dane, ale nie można wyświetlać tabel i pól na pulpicie nawigacyjnym. |Tak. Można wyświetlać tabele, pola i wartości zestawu danych. |
@@ -66,6 +60,6 @@ Pulpit nawigacyjny jest nie tylko atrakcyjny wizualnie — jest wysoce interakty
 
 ## <a name="next-steps"></a>Następne kroki
 * Dobrze poznaj pulpity nawigacyjne, eksperymentując na jednym z naszych [przykładowych pulpitów nawigacyjnych](sample-tutorial-connect-to-the-samples.md).
-* Dowiedz się więcej na temat [kafelków pulpitu nawigacyjnego](service-dashboard-tiles.md) i tego, co się stanie, gdy wybierzesz jeden z nich.
+* Uzyskaj informacje o [kafelkach pulpitu nawigacyjnego](service-dashboard-tiles.md).
 * Chcesz śledzić wybrany kafelek pulpitu nawigacyjnego i otrzymać wiadomość e-mail po osiągnięciu przez niego określonego progu? [Utwórz alerty kafelków](service-set-data-alerts.md).
-* Baw się, zadając pytania pulpitowi nawigacyjnemu. Dowiedz się, jak używać funkcji [pytań i odpowiedzi w usłudze Power BI](power-bi-tutorial-q-and-a.md), aby zadawać pytania dotyczące danych i uzyskiwać odpowiedzi w formie wizualizacji.
+* Dowiedz się, jak używać funkcji [pytań i odpowiedzi w usłudze Power BI](power-bi-tutorial-q-and-a.md), aby zadawać pytania dotyczące danych i uzyskiwać odpowiedzi w formie wizualizacji.

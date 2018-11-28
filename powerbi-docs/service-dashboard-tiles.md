@@ -1,29 +1,29 @@
 ---
-title: Kafelki pulpitu nawigacyjnego w usłudze Power BI
-description: Wszystkie informacje o kafelkach pulpitu nawigacyjnego w usłudze Power BI. Dotyczy to również kafelków, które są tworzone z poziomu usługi SQL Server Reporting Services (SSRS).
+title: Wprowadzenie do kafelków pulpitów nawigacyjnych dla projektantów usługi Power BI
+description: Wszystkie informacje o kafelkach pulpitu nawigacyjnego w usłudze Power BI. Dotyczy to również kafelków, które są tworzone z poziomu raportów usług SQL Server Reporting Services (SSRS).
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/3/2018
+ms.date: 11/21/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 76b8eaff949ee56d57511eabea913363e6cdc3f6
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: de99c04077a58f1c0c060561674fefa9041fa144
+ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717406"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "52331970"
 ---
-# <a name="dashboard-tiles-in-power-bi"></a>Kafelki pulpitu nawigacyjnego w usłudze Power BI
-Pulpity nawigacyjne i kafelki pulpitu nawigacyjnego są funkcjami usługi Power BI, a nie programu Power BI Desktop. Chociaż kafelków pulpitów nawigacyjnych nie można tworzyć ani przypinać w usłudze Power BI dla urządzeń mobilnych, [można je wyświetlać i udostępniać](mobile-tiles-in-the-mobile-apps.md). Ponadto w usłudze Power BI dla urządzeń mobilnych można [dodawać zdjęcia do pulpitu nawigacyjnego za pomocą aplikacji dla telefonu iPhone](mobile-iphone-app-get-started.md).
+# <a name="intro-to-dashboard-tiles-for-power-bi-designers"></a>Wprowadzenie do kafelków pulpitów nawigacyjnych dla projektantów usługi Power BI
 
-## <a name="dashboard-tiles"></a>Aktualizacja kafelków
+Kafelek stanowi migawkę danych przypiętą do pulpitu nawigacyjnego. Kafelek można utworzyć z raportu, zestawu danych, pulpitu nawigacyjnego, pola funkcji pytań i odpowiedzi, programu Excel, a także raportów usług SQL Server Reporting Services (SSRS) i innych.  Ten zrzut ekranu przedstawia wiele różnych kafelków przypiętych do pulpitu nawigacyjnego.
+
 ![Pulpit nawigacyjny usługi Power BI](media/service-dashboard-tiles/power-bi-dashboard.png)
 
-Kafelek stanowi migawkę danych przypiętą do pulpitu nawigacyjnego. Kafelek może zostać utworzony z raportu, zestawu danych, pulpitu nawigacyjnego, pola pytań i odpowiedzi, programu Excel, a także usług SQL Server Reporting Services (SSRS) i innych.  Ten zrzut ekranu przedstawia wiele różnych kafelków przypiętych do pulpitu nawigacyjnego.
+Pulpity nawigacyjne i kafelki pulpitu nawigacyjnego są funkcjami usługi Power BI, a nie programu Power BI Desktop. Nie można tworzyć pulpitów nawigacyjnych na urządzeniach przenośnych, ale można je na nich [wyświetlać i udostępniać](mobile-apps-view-dashboard.md).
 
 Oprócz przypinania, autonomiczne kafelki można tworzyć bezpośrednio na pulpicie nawigacyjnym za pomocą polecenia [Dodaj kafelek](service-dashboard-add-widget.md). Autonomiczne kafelki obejmują: pola tekstowe, obrazy, klipy wideo, dane przesyłane strumieniowo oraz treści internetowe.
 
@@ -43,7 +43,7 @@ Istnieje wiele sposobów, aby dodać (przypiąć) kafelek na pulpicie nawigacyjn
 * [skoroszytu programu Excel w usłudze OneDrive dla Firm](service-dashboard-pin-tile-from-excel.md)
 * [usługi Power BI Publisher dla programu Excel](publisher-for-excel.md)
 * [szybkiego wglądu w szczegółowe dane](service-insights.md)
-* [usługi SSRS](https://msdn.microsoft.com/library/mt604784.aspx)
+* [Reporting Services](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)
 
 Autonomiczne kafelki obrazów, pól tekstowych, klipów wideo, danych przesyłanych strumieniowo i treści internetowych można tworzyć bezpośrednio na pulpicie nawigacyjnym za pomocą polecenia [Dodaj kafelek](service-dashboard-add-widget.md).
 
@@ -78,7 +78,7 @@ Chwyć kafelek i [przemieszczaj go na pulpicie nawigacyjnym](service-dashboard-e
 3. Aby zamknąć menu akcji, wybierz pusty obszar na kanwie.
 
 ### <a name="select-click-a-tile"></a>Wybieranie (klikanie) kafelka
-To co dzieje się po wybraniu kafelka, zależy od sposobu, w jaki kafelek został utworzony, a także od tego, czy ma on [niestandardowy link](service-dashboard-edit-tile.md). Jeśli ma on niestandardowy link, wybranie kafelka spowoduje przejście do tego linku. W przeciwnym razie wybranie kafelka spowoduje przejście do raportu, skoroszytu programu Excel Online, raportu lokalnej usługi SSRS lub do pytania sekcji pytań i odpowiedzi, które zostały użyte do utworzenia kafelka.
+To co dzieje się po wybraniu kafelka zależy od tego, jak został on utworzony. Jeśli ma on [niestandardowy link](service-dashboard-edit-tile.md), wybranie kafelka spowoduje przejście do tego linku. W przeciwnym razie wybranie kafelka spowoduje przejście do raportu, skoroszytu aplikacji Excel Online, raportu lokalnych usług Reporting Services lub do pytania sekcji pytań i odpowiedzi, które zostały użyte do utworzenia kafelka.
 
 > [!NOTE]
 > Wyjątek stanowią kafelki wideo utworzone bezpośrednio na pulpicie nawigacyjnym za pomocą polecenia **Dodaj kafelek**. Wybranie kafelka wideo (utworzonego w ten sposób) spowoduje odtworzenie filmu wideo bezpośrednio na pulpicie nawigacyjnym.   
@@ -86,11 +86,12 @@ To co dzieje się po wybraniu kafelka, zależy od sposobu, w jaki kafelek zosta�
 > 
 
 ## <a name="considerations-and-troubleshooting"></a>Zagadnienia i rozwiązywanie problemów
+
 * Jeśli raport, który został użyty do utworzenia wizualizacji, nie został zapisany, wybranie kafelka nie wywoła żadnej akcji.
-* Jeśli kafelek został utworzony na podstawie skoroszytu w usłudze Excel Online, a nie masz co najmniej uprawnień do odczytu tego skoroszytu, wybranie kafelka nie spowoduje otwarcia skoroszytu w usłudze Excel Online.
-* W przypadku kafelków utworzonych bezpośrednio na pulpicie nawigacyjnym za pomocą polecenia **Dodaj kafelek**, jeśli został ustawiony niestandardowy hiperlink, wybranie tytułu, podtytułu lub kafelka spowoduje otwarcie tego adresu URL.  W przeciwnym razie domyślnie wybranie jednego z kafelków utworzonych bezpośrednio na pulpicie nawigacyjnym dla obrazu, kodu internetowego lub pola tekstowego nie wywoła żadnej akcji.
-* Jeśli nie masz uprawnień do raportu w ramach usługi SSRS, wybranie kafelka utworzonego na bazie usługi SSRS spowoduje wyświetlenie strony informującej o braku dostępu (rsAccessDenied).
-* Jeśli nie masz dostępu do sieci, w której znajduje się serwer usługi SSRS, wybranie kafelka utworzonego na bazie usługi SSRS spowoduje wyświetlenie strony informującej o braku możliwości zlokalizowania serwera (HTTP 404). Urządzenie musi mieć dostęp do sieci i serwera raportów, aby wyświetlić raport.
+* Jeśli kafelek został utworzony na podstawie skoroszytu aplikacji Excel Online, musisz mieć co najmniej uprawnienia do odczytu tego skoroszytu. W przeciwnym razie wybranie kafelka nie spowoduje otwarcia skoroszytu w aplikacji Excel Online.
+* Przykład: utworzono kafelek bezpośrednio na pulpicie nawigacyjnym przy użyciu polecenia **Dodaj kafelek** i ustawiono dla niego niestandardowy hiperlink. W takiej sytuacji wybranie tytułu, podtytułu lub kafelka spowoduje otwarcie tego adresu URL. W przeciwnym razie domyślnie wybranie kafelka utworzonego bezpośrednio na pulpicie nawigacyjnym dla obrazu, kodu internetowego lub pola tekstowego nie wywoła żadnej akcji.
+* Jeśli nie masz uprawnień do raportu w ramach usług Reporting Services, wybranie kafelka utworzonego na podstawie raportu usług Reporting Services spowoduje przejście do strony informującej o braku dostępu (rsAccessDenied).
+* Jeśli nie masz dostępu do sieci, w której znajduje się serwer usług Reporting Services, wybranie kafelka utworzonego na podstawie usług Reporting Services spowoduje przejście do strony informującej o braku możliwości zlokalizowania serwera (HTTP 404). Urządzenie musi mieć dostęp do sieci i serwera raportów, aby wyświetlić raport.
 * Jeśli zmienia się oryginalna wizualizacja użyta do utworzenia kafelka, kafelek nie ulegnie zmianie.  Jeśli na przykład przypniemy wykres liniowy z raportu, a następnie zmienimy ten wykres liniowy na wykres słupkowy, kafelek pulpitu nawigacyjnego w dalszym ciągu wyświetlać będzie wykres liniowy. Dane zostaną odświeżone, ale typ wizualizacji nie ulegnie zmianie.
 
 ## <a name="next-steps"></a>Następne kroki

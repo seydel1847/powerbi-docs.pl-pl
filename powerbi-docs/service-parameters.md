@@ -1,5 +1,5 @@
 ---
-title: Wyświetlanie i edytowanie ustawień parametrów zestawu danych w usłudze Power BI
+title: Edytowanie ustawień parametrów w usłudze Power BI
 description: Parametry zapytania są tworzone w programie Power BI Desktop, ale można je przeglądać i aktualizować w usłudze Power BI
 author: mihart
 manager: kfile
@@ -7,25 +7,24 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/26/2018
+ms.date: 11/21/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: ac271e8013bce5824931153351a651644a716a2f
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: b379812a16bbdbbc16517b86d9ce4e941ac45f01
+ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36965164"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "52331878"
 ---
-# <a name="what-is-a-query-parameter"></a>Co to jest parametr zapytania?
-Parametry zapytania są dodawane w programie Power BI Desktop przez twórców raportu. Parametry pozwalają na tworzenie części raportów w zależności od co najmniej jednej *wartości* parametru. Na przykład twórca raportu może utworzyć parametr, który ogranicza możliwość użycia danych do pojedynczego regionu kraju, lub parametr, który definiuje dopuszczalne formaty pól, takie jak daty, godzina i tekst.
+# <a name="edit-parameter-settings-in-the-power-bi-service"></a>Edytowanie ustawień parametrów w usłudze Power BI
+Twórcy raportów dodają parametry zapytania do raportów w programie Power BI Desktop. Parametry pozwalają na tworzenie części raportów w zależności od co najmniej jednej *wartości* parametru. Na przykład twórca raportu może utworzyć parametr, który ogranicza możliwość użycia danych do pojedynczego kraju/regionu, lub parametr, który definiuje dopuszczalne formaty pól, takie jak daty, godzina i tekst.
 
 ![Karta Strona główna przedstawiająca opcję Zarządzaj parametrami w programie Desktop](media/service-parameters/power-bi-manage-parameters.png)
 
-
 ## <a name="review-and-edit-parameters-in-power-bi-service"></a>Przeglądanie i edytowanie parametrów w usłudze Power BI
 
-Po zdefiniowaniu parametrów w programie Desktop podczas [publikowania raportu w usłudze Power BI](desktop-upload-desktop-files.md) wybrane opcje i ustawienia parametrów są przenoszone wraz z raportem. Niektóre ustawienia parametrów można przeglądać i edytować w usłudze Power BI — nie parametry, które ograniczają dostępne dane, ale parametry, które zdefiniują i opisują dopuszczalne wartości.
+Twórca raportu definiuje parametry w programie Desktop. Gdy [opublikujesz raport w usłudze Power BI](desktop-upload-desktop-files.md), ustawienia parametrów i wybrane opcje zostaną opublikowane razem z nim. Niektóre ustawienia parametrów można przeglądać i edytować w usłudze Power BI — nie parametry, które ograniczają dostępne dane, ale parametry, które zdefiniują i opisują dopuszczalne wartości.
 
 1. W usłudze Power BI wybierz ikonę koła zębatego ![ikona koła zębatego](media/service-parameters/power-bi-cog.png), aby otworzyć obszar **Ustawienia**.
 
