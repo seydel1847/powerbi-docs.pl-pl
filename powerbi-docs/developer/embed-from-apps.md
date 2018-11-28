@@ -3,18 +3,18 @@ title: Osadzanie raportów lub pulpitów nawigacyjnych z aplikacji
 description: Dowiedz się, jak zintegrować albo osadzić raport lub pulpit nawigacyjny z aplikacji Power BI, a nie z obszaru roboczego aplikacji.
 author: markingmyname
 ms.author: maghan
-ms.date: 07/13/2018
 ms.topic: how-to
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: 53803c77dec8eb35c10db7f19a82f58144f88414
-ms.sourcegitcommit: b45134887a452f816a97e384f4333db9e1d8b798
+ms.date: 11/27/2018
+ms.openlocfilehash: 8073696907ceff67664a0802a2b7775eea693e37
+ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47237990"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52452527"
 ---
 # <a name="embed-reports-or-dashboards-from-apps"></a>Osadzanie raportów lub pulpitów nawigacyjnych z aplikacji
 
@@ -26,11 +26,11 @@ W usłudze Power BI tworzysz aplikacje łączące ze sobą w jednym miejscu wszy
 
 2. Otwórz żądany raport w usłudze Power BI.
 
-3. Przejdź do pozycji **Plik** > **Osadź w usłudze SharePoint Online** i pobierz w tym miejscu adres embedURL raportu. Jest on wyświetlany w następującej migawce. Lub wywołaj interfejs API REST GetReports/GetReport i wyodrębnij odpowiednie pole embedURL raportu z odpowiedzi. Wywołanie REST nie powinno mieć identyfikatora obszaru roboczego jako części adresu URL, ponieważ wystąpienie aplikacji zostało utworzone w obszarze roboczym użytkownika.
-
-4. Użyj adresu embedURL pobranego w kroku 3 za pomocą zestawu SDK języka JavaScript.
+3. Przejdź do pozycji **Plik** > **Osadź w usłudze SharePoint Online** i pobierz w tym miejscu adres embedURL raportu. Przykładowy adres embedURL jest pokazany na poniższym zrzucie ekranu. Alternatywnie możesz wywołać interfejs API REST GetReports/GetReport i wyodrębnić odpowiednie pole adresu embedURL raportu z odpowiedzi. Wywołanie REST nie powinno mieć identyfikatora obszaru roboczego jako części adresu URL, ponieważ wystąpienie aplikacji zostało utworzone w obszarze roboczym użytkownika.
 
     ![Osadzanie z aplikacji](media/embed-from-apps/embed-from-app.png)
+
+4. Użyj adresu embedURL pobranego w kroku 3 za pomocą zestawu SDK języka JavaScript.
 
 ## <a name="grab-a-dashboard-embedurl-for-embedding"></a>Pobieranie adresu embedURL pulpitu nawigacyjnego w celu osadzenia
 

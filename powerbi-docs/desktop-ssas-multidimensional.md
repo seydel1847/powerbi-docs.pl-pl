@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c16fe65d766c6a1c18d809a68b3b0f6af8047db0
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 4c9a8144ba9b8f465f4e607be60d075ea6ccb5fa
+ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34813347"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52452803"
 ---
 # <a name="connect-to-ssas-multidimensional-models-in-power-bi-desktop"></a>Łączenie się z modelami wielowymiarowymi usług SSAS w programie Power BI Desktop
 Program Power BI Desktop umożliwia dostęp do **modeli wielowymiarowych usług SSAS**, często nazywanych **SSAS MD**.
@@ -81,6 +81,7 @@ Istnieją pewne ograniczenia w użyciu modeli **SSAS MD**:
 * Aby działać poprawnie, serwery muszą mieć uruchomiony program SQL Server 2012 SP1 CU4 lub nowszą wersję usługi Analysis Services dla łącznika Power BI Desktop SSAS MD
 * *Akcje* i *nazwane zestawy* nie są widoczne w usłudze Power BI, ale można łączyć się z modułami zawierającymi *akcje* lub *nazwane zestawy* i tworzyć wizualizacje oraz raporty.
 * Może wystąpić problem polegający na tym, że usługa Power BI wyświetla metadane dla modelu usług SSAS, ale nie można pobrać danych z modelu. Taka sytuacja może wystąpić, gdy w systemie jest zainstalowana 32-bitowa wersja dostawcy MSOLAP i nie ma wersji 64-bitowej. Zainstalowanie wersji 64-bitowej może rozwiązać problem.
+* Nie można utworzyć miar „poziom raportu” podczas tworzenia raportu, który jest połączony na żywo z modelem wielowymiarowym usług SSAS. Dostępne są jedynie miary, które zostały zdefiniowane w modelu MD.
 
 ## <a name="supported-features-of-ssas-md-in-power-bi-desktop"></a>Obsługiwane funkcje modeli SSAS MD w programie Power BI Desktop
 W programie Power BI Desktop obsługiwane są następujące funkcje modeli SSAS MD:
