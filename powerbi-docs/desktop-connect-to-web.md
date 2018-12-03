@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b9a157b9a7302ed7e02f0b3e8f17a905b9b65d93
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 2aef47ab1716464c0896b624069a6ebbeb4adc54
+ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34287238"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52578387"
 ---
 # <a name="connect-to-a-web-page-from-power-bi-desktop"></a>Łączenie się ze stroną internetową w programie Power BI Desktop
 Możesz nawiązać połączenie ze stroną internetową i zaimportować jej dane do programu Power BI Desktop, aby używać ich w wizualizacjach oraz w modelach danych.

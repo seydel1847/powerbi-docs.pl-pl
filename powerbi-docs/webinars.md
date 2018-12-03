@@ -9,12 +9,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 11/26/2018
 ms.author: maikelson
-ms.openlocfilehash: c3ef18bf05c6a979e9fd0440b271afd5d8545a54
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.openlocfilehash: b144f3101606a58b2cd0b48db976a70477442d40
+ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452665"
+ms.lasthandoff: 11/30/2018
+ms.locfileid: "52670422"
 ---
 # <a name="power-bi-webinars"></a>Power BI — seminaria internetowe
 
@@ -22,13 +22,7 @@ Zarejestruj się, aby wziąć udział w seminariach internetowych lub obejrzyj n
 
 ## <a name="upcoming-webinars"></a>Nadchodzące seminaria internetowe
 
-**Proven Healthcare Solutions to Improve Both Patient Outcomes and Profitability** (Sprawdzone rozwiązania dla opieki zdrowotnej, które pozwalają poprawić zarówno obsługę pacjentów, jak i zyskowność)
-<br>Autorzy: Stephen Cracknell i Stuart Macanliss (US Medical IT)
-<br>*28 listopada 2018 r., 11:00 – 12:00 PST*
-
-Organizacje opieki zdrowotnej muszą mierzyć się z wyzwaniami dotyczącymi przekształcania ogromnych ilości danych w użyteczne informacje o pacjentach i podejmowania działań na ich podstawie. Zarejestruj na to seminarium internetowe, aby dowiedzieć się, jak zaprojektować wnikliwe raporty z zakresu opieki zdrowotnej, które ułatwią Twojej organizacji przekształcenie danych w przydatne informacje o pacjentach. Poznaj strategie i porady ekspertów, które przedstawią: założyciel i dyrektor generalny firmy US Medical IT, Stephen Cracknell, dyrektor działu Healthcare IT, Stuart Macanliss, oraz reumatolog pracujący w Teksasie, dr John P. Lavery.
-
-[Zarejestruj się, aby obejrzeć 28 listopada](https://info.microsoft.com/Proven-Techniques-for-Building-Effective-Dashboards-Registration.html?Is=Website)
+Nie ma jeszcze zaplanowanych seminariów internetowych. Wróć tu za jakiś czas, aby znaleźć więcej nowych wydarzeń.
 
 >[Nadchodzące seminaria internetowe społeczności usługi Power BI](https://powerbi.microsoft.com/en-us/blog/tag/community-webinars/?Is=Website)
 
@@ -105,6 +99,10 @@ Oglądaj nagrane sesje w dowolnym momencie
 <br>[Obejrzyj teraz](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Power-BI-Transforming-A-Report-From-Good-to-GREAT/m-p/315119?Is=Website)
 
 ### <a name="partners"></a>Partnerzy ###
+
+**Proven Healthcare Solutions to Improve Both Patient Outcomes and Profitability** (Sprawdzone rozwiązania dla opieki zdrowotnej, które pozwalają poprawić zarówno obsługę pacjentów, jak i zyskowność)
+<br>Autorzy: Stephen Cracknell i Stuart Macanliss (US Medical IT)
+<br>[Zarejestruj się i obejrzyj teraz](https://info.microsoft.com/Proven-Techniques-for-Building-Effective-Dashboards-Registration.html?Is=Website)
 
 **Boost Your BI with Location Intelligence** (Udoskonalaj analizę biznesową dzięki analizie lokalizacji)
 <br>Autorzy: Scott Ball (Esri) i Enrique Plaza (Microsoft)

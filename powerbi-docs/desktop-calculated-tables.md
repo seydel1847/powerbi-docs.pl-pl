@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: e35c842af47bac9dfd6667ecfa885a8df8a8785c
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: efb936a4fadbd45c3d9fce809963415bb27e321e
+ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39328102"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52578479"
 ---
 # <a name="using-calculated-tables-in-power-bi-desktop"></a>Używanie tabel obliczeniowych w programie Power BI Desktop
 Przy użyciu tabel obliczeniowych można dodać nową tabelę do modelu. Jednak zamiast wykonywania zapytań i ładowania wartości do nowych kolumn tabeli ze źródła danych, tworzona jest formuła języka DAX (Data Analysis Expressions) definiująca wartości w tabeli. W programie Power BI Desktop tabele obliczeniowe są tworzone za pomocą funkcji Nowa tabela w widoku raportu lub widoku danych.
@@ -65,7 +65,7 @@ Tabele obliczeniowe mogą być definiowane przez dowolne wyrażenie DAX zwracaj�
 Tabele obliczeniowe z językiem DAX mogą służyć do rozwiązywania wielu problemów analitycznych. To, co tu przedstawiliśmy, to tylko krótkie wprowadzenie do tabel obliczeniowych. Po rozpoczęciu pracy z tabelami obliczeniowymi zapoznaj się z niektórymi najczęściej stosowanymi i przydatnymi funkcjami tabeli języka DAX:
 
 * DISTINCT
-* VALUES
+* WARTOŚCI
 * CROSSJOIN
 * UNION
 * NATURALINNERJOIN

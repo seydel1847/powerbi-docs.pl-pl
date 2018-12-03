@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/26/2018
+ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: eedbe8c6f9b9453acf2e07f484bf1cac7272f390
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: 5a355e3d19a781def54a1dcf747f404ed7852444
+ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39286008"
+ms.lasthandoff: 11/30/2018
+ms.locfileid: "52670882"
 ---
 # <a name="use-insights-in-power-bi-desktop-to-find-where-a-distribution-is-different-preview"></a>Znajdowanie różnic w rozkładzie za pomocą funkcji szczegółowych informacji w programie Power BI Desktop (wersja zapoznawcza)
 
@@ -53,7 +53,7 @@ W przypadku prostych miar addytywnych, takich jak *Total Sales* w tym przykładz
 
 Treść opisu zawiera liczbę rekordów, które spełniają warunki filtru, co również stanowi pewne wskazanie, jaką wagę ma wartość filtru. W tym przykładzie widać, że chociaż rozkład dla kategorii *Touring Bikes* może się znacznie różnić, produkty te stanowią tylko 16,6% rekordów.
 
-Za pomocą ikon *kciuk w górę* i *kciuk w dół* znajdujących się w górnej części strony można wyrazić opinię na temat wizualizacji i funkcji. Zapewnia to informacje zwrotne, ale obecnie nie powoduje uczenia algorytmu pod kątem wpływania na wyniki zwracane przy następnym użyciu tej funkcji.
+Za pomocą ikon *kciuk w górę* i *kciuk w dół* znajdujących się w górnej części strony można wyrazić opinię na temat wizualizacji i funkcji. Zapewnia to informacje zwrotne, ale obecnie nie powoduje uczenia algorytmu pod kątem wpływania na wyniki zwracane podczas następnego użycia tej funkcji.
 
 Przycisk **+** w górnej części wizualizacji umożliwia dodanie wybranej wizualizacji do raportu, tak jak w przypadku wizualizacji utworzonych ręcznie. Następnie wizualizację można formatować lub dopasowywać ją w inny sposób, tak jak każdą inną wizualizację w raporcie. Wybraną wizualizację szczegółowych informacji można dodać tylko podczas edytowania raportu w programie **Power BI Desktop**.
 

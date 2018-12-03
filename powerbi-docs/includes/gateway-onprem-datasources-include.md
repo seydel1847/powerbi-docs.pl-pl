@@ -20,6 +20,7 @@
 | SAP HANA |Tak |Tak |
 | Lista programu SharePoint (lokalna) |Nie |Tak |
 | Snowflake |Tak |Tak |
+| Spark |Tak |Tak |
 | SQL Server |Tak |Tak |
 | Sybase |Nie |Tak |
 | Teradata |Tak |Tak |

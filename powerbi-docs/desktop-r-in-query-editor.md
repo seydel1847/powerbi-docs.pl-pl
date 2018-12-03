@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/24/2018
+ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 98f5e6b5fee1f3666ff204a5f2da400d0aaab80f
-ms.sourcegitcommit: 7fb0b68203877ff01f29724f0d1761d023075445
+ms.openlocfilehash: 9183a0fbb163fb4e46e6b310bcce953aaef9d1b8
+ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 07/26/2018
-ms.locfileid: "39256129"
+ms.lasthandoff: 11/30/2018
+ms.locfileid: "52670629"
 ---
 # <a name="using-r-in-query-editor"></a>Używanie języka R w Edytorze zapytań
 W **Edytorze zapytań** programu Power BI Desktop możesz używać języka **R**, czyli języka programowania używanego powszechnie przez statystyków, naukowców i analityków danych. Dzięki integracji z językiem R **Edytor zapytań** umożliwia oczyszczanie danych przy użyciu języka R, a także zaawansowane kształtowanie i analizowanie danych w zestawach danych — na przykład uzupełnianie brakujących danych, przewidywanie i grupowanie danych. **R** to zaawansowany język, którego możesz używać w **Edytorze zapytań** do przygotowywania modelu danych i tworzenia raportów.

@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/22/2018
-ms.openlocfilehash: e62d39f13e2b171456d667ec9683acd4ebdc5516
-ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
+ms.openlocfilehash: 47fb90ba0f73bba2b210a9003b782a477dbf8214
+ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52157131"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52578732"
 ---
 # <a name="power-bi-urls"></a>Adresy URL usługi Power BI
 
@@ -91,7 +91,7 @@ Możliwość wyświetlania niestandardowych wizualizacji i uzyskiwania do nich d
 | Wiersz | Przeznaczenie | Miejsca docelowe | Porty |
 | --- | --- | --- | --- |
 | 1 | **Wymagane:** importowanie niestandardowej wizualizacji z interfejsu witryny Marketplace lub z pliku | *.azureedge.net </br> *.blob.core.windows.net </br> store.office.com | TCP 443 |
-| 2 | **Opcjonalne:** Mapy Bing | bing.com </br> platform.bing.com </br> *.dynamic.tiles.virtualearth.net </br> *.virtualearth.net | TCP 443 |
+| 2 | **Opcjonalne:** Mapy Bing | bing.com </br> platform.bing.com </br> *.virtualearth.net | TCP 443 |
 | 3 | **Opcjonalne:** PowerApps | Zobacz [sekcję dotyczącą wymaganych usług](https://docs.microsoft.com/powerapps/maker/canvas-apps/limits-and-config#required-services) w witrynie wymagań systemowych usługi PowerApps | Nie dotyczy |
 | 4 | **Opcjonalne:** Visio | Zobacz dokumentację usługi Office 365 dla [aplikacji Office Online i typowych adresów URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online), a także dla usług [SharePoint Online i OneDrive dla Firm](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#sharepoint-online-and-onedrive-for-business) | Nie dotyczy |
 | | | |
@@ -103,7 +103,7 @@ Usługa Power BI zawiera linki do innych powiązanych witryn. Są to witryny z d
 | Wiersz | Przeznaczenie | Miejsca docelowe | Porty |
 | --- | --- | --- | --- |
 | 1 | **Opcjonalnie:** witryna społeczności | community.powerbi.com </br> oxcrx34285.i.lithium.com | TCP 443 |
-| 2 | **Opcjonalnie:** witryna z dokumentacją | docs.microsoft.com </br> img-prod-cms-rt-microsoft-com.akamaized.net </br> statics-uhf-eas.akamaized.net </br> cdnssl.clicktale.neting-district.clicktale.net | TCP 443 |
+| 2 | **Opcjonalnie:** witryna z dokumentacją | docs.microsoft.com </br> img-prod-cms-rt-microsoft-com.akamaized.net </br> statics-uhf-eas.akamaized.net </br> cdnssl.clicktale.net </br> ing-district.clicktale.net | TCP 443 |
 | 3 | **Opcjonalnie:** witryna pobierania (dla programu Power BI Desktop itd.) | download.microsoft.com | TCP 443 |
 | 4 | **Opcjonalnie:** zewnętrzne przekierowania | aka.ms </br> go.microsoft.com | TCP 443 |
 | 5 | **Opcjonalnie:** witryna z opiniami o pomysłach| ideas.powerbi.com </br> powerbi.uservoice.com | TCP 443 |

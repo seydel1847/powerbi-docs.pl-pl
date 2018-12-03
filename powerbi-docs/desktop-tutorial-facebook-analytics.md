@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: tutorial
-ms.date: 05/21/2018
+ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: b7aac59c9d3848db37211475cd82447d6359b459
-ms.sourcegitcommit: fecea174721d0eb4e1927c1116d2604a822e4090
+ms.openlocfilehash: ec90e63de1e42350ff205febdc66abf4ba6ee626
+ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 07/31/2018
-ms.locfileid: "34456057"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52578502"
 ---
 # <a name="tutorial-facebook-analytics-using-power-bi-desktop"></a>Samouczek: analiza serwisu Facebook przy użyciu programu Power BI Desktop
 
@@ -29,7 +29,7 @@ W tym samouczku używane są dane ze [strony usługi Microsoft Power BI w serwis
    
 2. W oknie dialogowym **Pobierz dane** wybierz opcję **Facebook** z grupy **Usługi online**, a następnie wybierz opcję **Połącz**.
    
-   ![Pobieranie danych](media/desktop-tutorial-facebook-analytics/t_fb_getdataother.png)
+   ![Pobierz dane](media/desktop-tutorial-facebook-analytics/t_fb_getdataother.png)
    
    Zostanie wyświetlone okno dialogowe informujące o ryzyku związanym z korzystaniem z usług innych firm.
    

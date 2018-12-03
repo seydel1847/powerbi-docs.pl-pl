@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 9729791aa513db6daa4ccfd65f5279f198ef08de
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: c74d69bcc12b5818bf2c279fc0e5a4329f033107
+ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39327044"
+ms.lasthandoff: 11/30/2018
+ms.locfileid: "52669548"
 ---
 # <a name="import-and-display-kpis-in-power-bi"></a>Importowanie i wyświetlanie wskaźników KPI w usłudze Power BI
 Za pomocą programu **Power BI Desktop** można importować i wyświetlać wskaźniki KPI w tabelach, macierzach oraz kartach.
