@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 09/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 1855b65277fe778a20bd9e4629f8db1e7b9000a3
-ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
+ms.openlocfilehash: 5d2a33b8dc50a4a30bb79406462f1342953528d9
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "47448965"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52830383"
 ---
 # <a name="combo-chart-in-power-bi"></a>Wykres kombi w usłudze Power BI
 W usłudze Power BI wykres kombi to pojedyncza wizualizacja łącząca wykres liniowy i kolumnowy. Łączenie 2 wykresów w jednym umożliwia szybsze porównywanie danych.
@@ -45,7 +45,7 @@ Obejrzyj, jak Will tworzy wykres kombi przy użyciu przykładu sprzedaży i mark
 
 1. Na pulpicie nawigacyjnym „Przykład analizy detalicznej” wybierz kafelek **Magazyny razem**, aby otworzyć raport „Przykład analizy detalicznej”.
 2. Wybierz pozycję **Edytuj raport**, aby otworzyć raport w widoku do edycji.
-3. [Dodaj nową stronę raportu](../power-bi-report-add-page.md).
+3. Dodaj nową stronę raportu.
 4. Utwórz wykres kolumnowy wyświetlający marżę sprzedaży i marżę brutto według miesięcy za bieżący rok.
 
     a.  W okienku Pola wybierz pozycje **Sprzedaż** \> **Sprzedaż tegoroczna** > **Wartość**.

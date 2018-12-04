@@ -2,7 +2,7 @@
 title: Dodawanie hiperlinku do pola tekstowego w raporcie
 description: Dodawanie hiperlinku do pola tekstowego w usłudze Power BI i programie Desktop
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e8a03cdd666f84b788d3bd90b8ebf2a84fc12a9b
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 92c5ad6be98e77c7fb844d45ab135bfb9d1cd141
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726989"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52829969"
 ---
 # <a name="add-a-hyperlink-to-a-text-box-in-a-report"></a>Dodawanie hiperlinku do pola tekstowego w raporcie
 Pola tekstowe mogą być dodawane do raportów, przypinane do pulpitów nawigacyjnych z raportów i dodawane bezpośrednio do pulpitów nawigacyjnych. Hiperlinki można dodać do pola tekstowego, niezależnie od tego, gdzie się ono znajduje.  

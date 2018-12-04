@@ -10,19 +10,17 @@ ms.topic: conceptual
 ms.date: 03/24/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 96b46e595ffd2373a2d59776cb8c2b4314727d89
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: a5762964b75d73d8dabceac58c47f616753b94cc
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51718050"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52830191"
 ---
 # <a name="create-a-new-report-in-power-bi-service-by-importing-a-dataset"></a>Tworzenie nowego raportu w usłudze Power BI przez zaimportowanie zestawu danych
 Po zapoznaniu się z tematem [Raporty w usłudze Power BI](consumer/end-user-reports.md) możesz teraz utworzyć własny raport. Istnieje wiele sposobów tworzenia raportów. W tym artykule zaczniemy od utworzenia podstawowego raportu na podstawie zestawu danych programu Excel przy użyciu usługi Power BI. Kiedy zapoznasz się z podstawami tworzenia raportów, możesz przejść do bardziej zaawansowanych tematów dostępnych w sekcji **Następne kroki** u dołu strony.  
 
-> **PORADA**: aby utworzyć raport przez skopiowanie istniejącego raportu, zobacz [Kopiowanie raportu](power-bi-report-copy.md).
-> 
-> ### <a name="prerequisites"></a>Wymagania wstępne
+## <a name="prerequisites"></a>Wymagania wstępne
 > - Usługa Power BI (w celu tworzenia raportów za pomocą programu Power BI Desktop zobacz [Widok raportu w programie Desktop](desktop-report-view.md))  
 > - Zestaw danych Próbka analizy handlu detalicznego
 
@@ -93,7 +91,7 @@ Nasz dyrektor ma jeszcze kilka dodatkowych pytań. Chce wiedzieć, jak tegoroczn
 Kontynuuj przeglądanie danych i dodawanie wizualizacji. Po znalezieniu szczególnie interesujących danych szczegółowych [przypnij je do pulpitu nawigacyjnego](service-dashboard-pin-tile-from-report.md).
 
 ## <a name="next-steps"></a>Następne kroki
-* [Dodawanie nowej strony do raportu](power-bi-report-add-page.md)  
+
 * Dowiedz się, jak [przypinać wizualizacje do pulpitu nawigacyjnego](service-dashboard-pin-tile-from-report.md)   
 * Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
 
