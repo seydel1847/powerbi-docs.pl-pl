@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 9654e2838b1b62dcc856e2870b3fcc1e5301641c
-ms.sourcegitcommit: 07beb155ec0ea1cdcc741085251ed06d7bc8581c
+ms.openlocfilehash: b15d285774f0b6735fbc5df0ca2d00a81b944012
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "48874580"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52829946"
 ---
 # <a name="card-visualizations"></a>Wizualizacje w postaci kart
 Czasami jedna liczba jest najważniejsza i chcesz ją śledzić na swoim pulpicie nawigacyjnym lub w raporcie usługi Power BI, np. łączna sprzedaż, udział w rynku rok do roku lub łączna liczba szans sprzedaży. Ten typ wizualizacji jest nazywany *kartą*. Podobnie jak w przypadku niemal wszystkich natywnych wizualizacji usługi Power BI, karty można tworzyć przy użyciu edytora raportu lub funkcji Pytania i odpowiedzi.
@@ -25,7 +25,7 @@ Czasami jedna liczba jest najważniejsza i chcesz ją śledzić na swoim pulpici
 ## <a name="create-a-card-using-the-report-editor"></a>Tworzenie karty za pomocą edytora raportu
 W poniższych instrukcjach używane są przykładowe dane dotyczące analizy handlu detalicznego. Aby je wykonać, [pobierz przykład](../sample-datasets.md) dla usługi Power BI (app.powerbi.com) lub dla programu Power BI Desktop.   
 
-1. Rozpocznij od [pustej strony raportu](../power-bi-report-add-page.md) i wybierz pole **Store** \> **Open store count**. Jeśli używasz usługi Power BI, należy otworzyć raport w [widoku do edycji](../service-interact-with-a-report-in-editing-view.md).
+1. Rozpocznij od pustej strony raportu i wybierz pole **Store** \> **Open store count**. Jeśli używasz usługi Power BI, należy otworzyć raport w [widoku do edycji](../service-interact-with-a-report-in-editing-view.md).
 
     Usługa Power BI tworzy wykres kolumnowy dla jednej liczby.
 

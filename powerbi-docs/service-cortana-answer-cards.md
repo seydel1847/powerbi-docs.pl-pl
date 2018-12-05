@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 327ba72c46aa5a6a2edea723bd5450cd5bbbcdb4
-ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
+ms.openlocfilehash: 3a0ef369aa690044dbef9c4ef0cda070565b9922
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47187334"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52829900"
 ---
 # <a name="use-power-bi-service-or-power-bi-desktop-to-create-a-custom-answer-page-for-cortana"></a>Tworzenie niestandardowej strony odpowiedzi dla Cortany przy użyciu usługi Power BI lub programu Power BI Desktop
 Korzystaj z pełnego zestawu funkcji usługi Power BI, aby tworzyć specjalne strony raportu, nazywane *stronami odpowiedzi Cortany* (a czasami *kartami odpowiedzi Cortany*), przeznaczone specjalnie do odpowiadania na pytania Cortany.
@@ -41,7 +41,7 @@ Dostępne są cztery dokumenty, które przeprowadzą Cię przez proces konfiguro
 ## <a name="create-a-cortana-answer-page-designed-specifically-for-cortana"></a>Tworzenie strony odpowiedzi Cortany zaprojektowanej specjalnie z myślą o Cortanie
 *Strona odpowiedzi Cortany* w raporcie ma rozmiar dopasowany specjalnie dla Cortany, aby można ją było wyświetlać na ekranie jako odpowiedź na pytanie. Aby utworzyć stronę odpowiedzi dla Cortany:
 
-1. Zalecamy, aby zacząć od [pustej strony raportu](power-bi-report-add-page.md).
+1. Zalecamy, aby zacząć od pustej strony raportu.
 2. W okienku **Wizualizacje** wybierz ikonę wałka malarskiego i wybierz pozycję **Rozmiar strony** > **Typ** > **Cortana**.
    
     ![](media/service-cortana-answer-cards/pbi-cortana-page-size-new.png)

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 10/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7739dda4647a82b3c9d4b58976db89038428625a
-ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
+ms.openlocfilehash: 9b508964062146ff140bcb85b0b8b42e9bf4f68f
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50003184"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52830130"
 ---
 # <a name="scatter-charts-bubble-charts-and-dot-plot-charts-in-power-bi"></a>Wykresy punktowe, bąbelkowe i kropkowe w usłudze Power BI
 Wykres punktowy zawsze ma dwie osie wartości: jeden zestaw danych liczbowych jest wyświetlany wzdłuż osi poziomej, a drugi wzdłuż osi pionowej. Na wykresie kreślone są punkty występujące na przecięciu wartości liczbowych x i y, co zapewnia połączenie tych par wartości w pojedynczych punktach danych. Te punkty danych mogą być rozproszone równomiernie lub nierównomiernie wzdłuż osi poziomej, w zależności od danych.
@@ -57,7 +57,7 @@ Obejrzyj ten film wideo, aby zobaczyć, jak Will tworzy wykres punktowy, a nast�
 
 W poniższych instrukcjach używane są przykładowe dane dotyczące analizy handlu detalicznego. Aby je wykonać, [pobierz przykład](../sample-datasets.md) dla usługi Power BI (app.powerbi.com) lub dla programu Power BI Desktop.   
 
-1. Otwórz raport w widoku edycji, a następnie wybierz żółtą ikonę plusa, aby utworzyć [pustą stronę raportu](../power-bi-report-add-page.md).
+1. Otwórz raport w widoku edycji, a następnie wybierz żółtą ikonę plusa, aby utworzyć pustą stronę raportu.
  
 2. W okienku Pola wybierz następujące pola:
    - **Sales** > **Sales Per Sq Ft**

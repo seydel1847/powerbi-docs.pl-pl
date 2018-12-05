@@ -282,6 +282,8 @@ items:
         href: desktop-create-phone-report.md
       - name: Używanie funkcji Pokaż dane i Pokaż rekordy
         href: desktop-see-data-see-records.md
+      - name: Porady dotyczące tworzenia raportów
+        href: desktop-tips-and-tricks-for-creating-reports.md
     - name: Wizualizacje
       items:
       - name: Najlepsze rozwiązania dotyczące wizualizacji
@@ -312,7 +314,7 @@ items:
         href: power-bi-reports-add-text-and-shapes.md
       - name: Dostosowywanie właściwości osi X i Y
         href: visuals/power-bi-visualization-customize-x-axis-and-y-axis.md
-      - name: ArcGIS w usłudze Power BI
+      - name: Mapy usługi ArcGIS w usłudze Power BI
         href: power-bi-visualization-arcgis.md
       - name: Podstawowy wykres warstwowy
         href: visuals/power-bi-visualization-basic-area-chart.md
@@ -346,6 +348,8 @@ items:
         href: visuals/power-bi-visualization-treemaps.md
       - name: Wykresy kaskadowe w usłudze Power BI
         href: visuals/power-bi-visualization-waterfall-charts.md
+      - name: Tworzenie dynamicznych linii odniesienia
+        href: service-analytics-pane.md
     - name: Rozwiązywanie problemów
       items:
       - name: Rozwiązywanie problemów dotyczących importowania baz danych programu Access i arkuszy kalkulacyjnych programu Excel w programie Power BI Desktop i dodatku Power Query
@@ -374,7 +378,7 @@ items:
       href: desktop-accessibility.md
     - name: Zarządzanie formularzem logowania programu Power BI Desktop
       href: desktop-admin-sign-in-form.md
-- name: Usługa Power BI
+- name: w usłudze Power BI
   items:
   - name: Omówienie
     items:
@@ -382,10 +386,10 @@ items:
       href: power-bi-overview.md
   - name: Samouczki
     items:
-    - name: Łączenie z przykładem z usługi GitHub
-      href: service-tutorial-connect-to-github.md
     - name: Rozpoczynanie pracy z usługą Power BI
       href: service-get-started.md
+    - name: Łączenie z przykładem z usługi GitHub
+      href: service-tutorial-connect-to-github.md
   - name: Pojęcia
     items:
     - name: Co nowego w usłudze Power BI
@@ -644,40 +648,28 @@ items:
         href: service-dashboard-themes.md
     - name: Raporty
       items:
-      - name: Tworzenie nowego raportu na podstawie istniejącego raportu
-        href: power-bi-report-copy.md
-      - name: Dodawanie strony do raportu
-        href: power-bi-report-add-page.md
+      - name: Tworzenie nowego raportu z zestawu danych
+        href: service-report-create-new.md
       - name: Dodawanie filtru do raportu
         href: power-bi-report-add-filter.md
       - name: Zapisywanie raportu w usłudze Power BI
         href: service-report-save.md
-      - name: Tworzenie nowego raportu z zestawu danych
-        href: service-report-create-new.md
       - name: Interakcje z raportem w widoku do edycji
         href: service-interact-with-a-report-in-editing-view.md
       - name: Analizuj w programie Excel
         href: service-analyze-in-excel.md
       - name: Porady i wskazówki dotyczące tworzenia raportów
         href: power-bi-reports-tips-and-tricks-for-creating.md
-      - name: Okienko analizy
-        href: service-analytics-pane.md
       - name: Metryki użycia dla raportów
         href: service-usage-metrics.md
       - name: Tworzenie kodu QR dla raportu
         href: service-create-qr-code-for-report.md
-      - name: Zmienianie kolejności stron w raporcie
-        href: service-report-reorder-pages.md
-      - name: Duplikowanie strony raportu
-        href: power-bi-report-copy-paste-page.md
       - name: Eksportowanie raportu z usługi do programu Power BI Desktop (wersja zapoznawcza)
         href: service-export-to-pbix.md
       - name: Filtrowanie raportu za pomocą parametrów w adresie URL
         href: service-url-filters.md
       - name: Najlepsze rozwiązania w zakresie tworzenia szybkich i niezawodnych raportów
         href: power-bi-reports-performance.md
-      - name: Interakcje z mapami ArcGIS
-        href: visuals/power-bi-visualizations-arcgis.md
     - name: Zadawanie pytań dotyczących danych
       items:
       - name: Używanie funkcji pytań i odpowiedzi do tworzenia wizualizacji i raportów
@@ -792,6 +784,30 @@ items:
         href: service-dataflows-developer-resources.md
       - name: Łączenie się z przepływami danych w programie Power BI Desktop
         href: desktop-connect-dataflows.md
+    - name: Raporty podzielone na strony w usłudze Power BI
+      items:
+      - name: Co to są raporty podzielone na strony? (Wersja zapoznawcza)
+        href: paginated-reports-report-builder-power-bi.md
+      - name: Raporty podzielone na strony — często zadawane pytania
+        href: paginated-reports-faq.md
+      - name: Tworzenie i przekazywanie raportu podzielonego na strony
+        href: paginated-reports-quickstart-aw.md
+      - name: Informacje o widoku Projekt raportu
+        href: paginated-reports-report-design-view.md
+      - name: Wprowadzanie danych bezpośrednio w raporcie podzielonym na strony
+        href: paginated-reports-enter-data.md
+      - name: Tworzenie osadzonego źródła danych
+        href: paginated-reports-embedded-data-source.md
+      - name: Tworzenie osadzonego zestawu danych
+        href: paginated-reports-create-embedded-dataset.md
+      - name: Tworzenie parametrów
+        href: paginated-reports-parameters.md
+      - name: Publikowanie raportu podzielonego na strony
+        href: paginated-reports-save-to-power-bi-service.md
+      - name: Wyświetlanie raportu podzielonego na strony
+        href: paginated-reports-view-power-bi-service.md
+      - name: Interakcje z parametrami
+        href: paginated-reports-view-parameters.md
   - name: Zasoby
     items:
     - name: Wideo
@@ -802,38 +818,6 @@ items:
       href: supported-languages-countries-regions.md
     - name: Oficjalne dokumenty
       href: whitepapers.md
-- name: Raporty podzielone na strony w usłudze Power BI
-  items:
-  - name: Omówienie
-    items:
-    - name: Co to są raporty podzielone na strony? (Wersja zapoznawcza)
-      href: paginated-reports-report-builder-power-bi.md
-  - name: Samouczki
-    items:
-    - name: Tworzenie i przekazywanie raportu podzielonego na strony
-      href: paginated-reports-quickstart-aw.md
-  - name: Pojęcia
-    items:
-    - name: Informacje o widoku Projekt raportu
-      href: paginated-reports-report-design-view.md
-    - name: Raporty podzielone na strony — często zadawane pytania
-      href: paginated-reports-faq.md
-  - name: Instrukcje
-    items:
-    - name: Wprowadzanie danych bezpośrednio w raporcie podzielonym na strony
-      href: paginated-reports-enter-data.md
-    - name: Tworzenie osadzonego źródła danych
-      href: paginated-reports-embedded-data-source.md
-    - name: Tworzenie osadzonego zestawu danych
-      href: paginated-reports-create-embedded-dataset.md
-    - name: Tworzenie parametrów
-      href: paginated-reports-parameters.md
-    - name: Publikowanie raportu podzielonego na strony
-      href: paginated-reports-save-to-power-bi-service.md
-    - name: Wyświetlanie raportu podzielonego na strony
-      href: paginated-reports-view-power-bi-service.md
-    - name: Interakcje z parametrami
-      href: paginated-reports-view-parameters.md
 - name: Usługa Power BI dla deweloperów
   items:
   - name: Co deweloperzy mogą robić z usługą Power BI
@@ -1024,7 +1008,7 @@ items:
         href: https://go.microsoft.com/fwlink/?linkid=848273
       - name: Pobieranie zestawu SDK .NET
         href: https://go.microsoft.com/fwlink/?linkid=848274
-- name: Serwer raportów usługi Power BI
+- name: serwerze raportów usługi Power BI
   items:
   - name: Omówienie
     items:
@@ -1265,9 +1249,9 @@ items:
       href: service-admin-governance.md
     - name: Zabezpieczenia usługi Power BI
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: d6dd88caff9e0f2cdef7f7697c81161fe32c0b35
-ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
+ms.openlocfilehash: a9156a07a1677c5cac424eef7349949bd47e79e0
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "52331855"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52830406"

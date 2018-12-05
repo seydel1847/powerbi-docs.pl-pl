@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/16/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 4379caf909360688e602601795066f51c9660633
-ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
+ms.openlocfilehash: fe81c8e972a4fe36f88da495e4e0dce97a39d32c
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52157085"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52830314"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Administrowanie usługą Power BI — często zadawane pytania
 
@@ -174,11 +174,15 @@ Aby uzyskać dostęp do portalu administracyjnego usługi Power BI, Twoje konto 
 
 ### <a name="what-is-the-process-to-manage-a-tenant-created-by-microsoft-for-my-users"></a>Jaka jest procedura przejęcia zarządzania dzierżawą utworzoną przez firmę Microsoft dla moich użytkowników?
 
-Jeśli dzierżawa została utworzona przez firmę Microsoft, możesz przejąć dzierżawę i zarządzać nią w następujący sposób:
+Gdy użytkownik samoobsługi tworzy konto usługi w chmurze, która używa usługi Azure AD, jest dodawany do niezarządzanego katalogu usługi Azure AD w oparciu o swoją domenę poczty e-mail. Dla dzierżawy utworzonej w procesie zwanym *przejęciem przez administratora* można tworzyć oświadczenie oraz zarządzać nią. Typ przejęcia zależy od tego, czy istnieje dzierżawa zarządzana skojarzona z Twoją domeną:
 
-1. Dołącz do dzierżawy, tworząc konto w usłudze Power BI za pomocą adresu e-mail w domenie odpowiadającej domenie dzierżawy, którą chcesz zarządzać. Na przykład jeśli firma Microsoft utworzyła dzierżawę contoso.com, dołączasz do dzierżawy za pomocą adresu e-mail kończącego się na @contoso.com.
+* Użyj *przejęcia wewnętrznego*, aby utworzyć nową dzierżawę zarządzaną dla domeny.
 
-1. Przejmij kontrolę administracyjną, weryfikując własność domeny: po dołączeniu do dzierżawy możesz nadać sobie rolę *administratora globalnego*, weryfikując własność domeny. Wykonaj następujące kroki opisane w [dokumentacji usługi Office 365](/office365/admin/misc/become-the-admin).
+* Użyj *przejęcia zewnętrznego*, aby przenieść domenę do istniejącej dzierżawy zarządzanej.
+
+Aby uzyskać więcej informacji, zobacz [Take over an unmanaged directory as administrator in Azure Active Directory](/azure/active-directory/users-groups-roles/domains-admin-takeover) (Przejmowanie katalogu niezarządzanego jako administrator w usłudze Azure Active Directory).
+
+Podczas wykonywania przejęcia zewnętrznego zawartość usługi Power BI, który została utworzona przed przejęciem, jest umieszczana w [zarchiwizowanym obszarze roboczym usługi Power BI](service-admin-power-bi-archived-workspace.md). Musisz ręcznie przeprowadzić migrację zawartości, której chcesz używać w nowej dzierżawie.
 
 ### <a name="if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-are-added-to"></a>Jeśli mam wiele domen, czy mogę kontrolować to, do której dzierżawy usługi Office 365 dodawani są użytkownicy?
 

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 6f595a2d6423b1e79e927ee2d229363632022d58
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.openlocfilehash: 9ca771d200f5bd4b50dfbddbd8eb67931be375c1
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49397008"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52830015"
 ---
 # <a name="tutorial-how-to-use-qa-to-create-visualizations-and-build-reports"></a>Samouczek: używanie funkcji pytań i odpowiedzi do tworzenia wizualizacji i konstruowania raportów
 [Omówienie funkcji pytań i odpowiedzi](consumer/end-user-q-and-a.md) zapewniło wprowadzenie do funkcji pytań i odpowiedzi usługi Power BI oraz przedstawiło rozróżnienie między *użytkownikami* (osobami, którym udostępniono pulpity nawigacyjne i raporty) a *twórcami* (właścicielami podstawowych raportów i zestawów danych). Pierwsza część tego samouczka jest przeznaczona głównie dla osób korzystających z pulpitów nawigacyjnych przy użyciu usługi Power BI. Natomiast druga część jest przeznaczona dla osób tworzących raporty za pomocą usługi Power BI albo programu Power BI Desktop. Tematy [Funkcja pytań i odpowiedzi a usługa Power BI dla urządzeń przenośnych](consumer/mobile/mobile-apps-ios-qna.md) i [Funkcja pytań i odpowiedzi w usłudze Power BI Embedded](developer/qanda.md) zostały opisane w oddzielnych artykułach.
@@ -74,7 +74,7 @@ Aby można było używać funkcji pytań i odpowiedzi w raportach, musisz mieć 
     **Usługa**    
     ![](media/power-bi-tutorial-q-and-a/power-bi-service.png)
 
-2. Pole pytania funkcji pytań i odpowiedzi jest wyświetlane w obszarze roboczym Twojego raportu. W poniższym przykładzie pole pytania jest wyświetlane na innej wizualizacji. Nie jest to problem, ale może lepiej byłoby [dodać pustą stronę do raportu](power-bi-report-add-page.md) przed zadaniem pytania.
+2. Pole pytania funkcji pytań i odpowiedzi jest wyświetlane w obszarze roboczym Twojego raportu. W poniższym przykładzie pole pytania jest wyświetlane na innej wizualizacji. Nie jest to problem, ale może lepiej byłoby dodać pustą stronę do raportu przed zadaniem pytania.
 
     ![](media/power-bi-tutorial-q-and-a/power-bi-ask-question.png)
 

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 09/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 962f76666e4b139b24225daefd5af776f36b3d0d
-ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
+ms.openlocfilehash: 345293e6b8bd7047ecfe1716f0b7be1c5bed9c58
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "47416940"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52829877"
 ---
 # <a name="funnel-charts"></a>Wykresy lejkowe
 Wykres lejkowy pozwala na graficzne przedstawienie procesu liniowego o sekwencyjnie połączonych etapach. Za przykład może posłużyć wykres lejkowy sprzedaży, który śledzi zachowania klientów na poszczególnych etapach: Potencjalny klient \> Kwalifikowany potencjalny klient \> Prawdopodobny klient \> Umowa \> Finalizacja.  Już na pierwszy rzut oka kształt lejka wskazuje na kondycję śledzonego procesu.
@@ -55,7 +55,7 @@ Teraz utwórz własny wykres lejkowy, który pokazuje liczbę szans sprzedaży d
 
 W poniższych instrukcjach jest używany przykład Opportunity Analysis. Aby je wykonać, [pobierz przykład](../sample-datasets.md) dla usługi Power BI (app.powerbi.com) lub dla programu Power BI Desktop.   
 
-1. Rozpocznij od [pustej strony raportu](../power-bi-report-add-page.md) i wybierz pole **SalesStage** \> **Sales Stage**. Jeśli używasz usługi Power BI, upewnij się, że raport jest otwarty w [widoku do edycji](../service-interact-with-a-report-in-editing-view.md).
+1. Rozpocznij od pustej strony raportu i wybierz pole **SalesStage** \> **Sales Stage**. Jeśli używasz usługi Power BI, upewnij się, że raport jest otwarty w [widoku do edycji](../service-interact-with-a-report-in-editing-view.md).
    
     ![wybieranie pola Sales Stage](media/power-bi-visualization-funnel-charts/funnelselectfield_new.png)
 2. [Przekonwertuj wykres](power-bi-report-change-visualization-type.md) na wykres lejkowy. Zwróć uwagę, że pole **Sales Stage** znajduje się w obszarze **Grupa**. 
