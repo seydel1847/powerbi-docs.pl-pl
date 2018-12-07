@@ -1,5 +1,5 @@
 ---
-title: Tworzenie osadzonego zestawu danych dla raportu podzielonego na strony w usłudze Power BI | Microsoft Docs
+title: Tworzenie osadzonego zestawu danych dla raportu podzielonego na strony w usłudze Power BI (wersja zapoznawcza)
 description: Z tego artykułu dowiesz się, jak tworzyć i osadzać zestaw danych w oparciu o osadzone źródło danych dla raportu podzielonego na strony w usłudze Power BI.
 author: maggiesMSFT
 manager: kfile
@@ -9,14 +9,14 @@ ms.component: report-builder
 ms.topic: conceptual
 ms.date: 11/5/2018
 ms.author: maggies
-ms.openlocfilehash: 4362633f705d412749e1146417a48cd61d47743c
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 827a7acd24ead0c4948a09f2e67b53c3966769bb
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51267963"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900433"
 ---
-# <a name="create-an-embedded-dataset-for-a-paginated-report-in-the-power-bi-service"></a>Tworzenie osadzonego zestawu danych dla raportu podzielonego na strony w usłudze Power BI
+# <a name="create-an-embedded-dataset-for-a-paginated-report-in-the-power-bi-service-preview"></a>Tworzenie osadzonego zestawu danych dla raportu podzielonego na strony w usłudze Power BI (wersja zapoznawcza)
 Z tego artykułu dowiesz się, jak tworzyć i osadzać zestaw danych w oparciu o osadzone źródło danych dla raportu podzielonego na strony w usłudze Power BI. Osadzone zestawy danych znajdują się i są używane w jednym raporcie podzielonym na strony. Obecnie raporty podzielone na strony opublikowane w usłudze Power BI potrzebują osadzonych zestawów danych i osadzonych źródeł danych. Osadzone źródło danych i zestaw danych są tworzone w programie Report Builder podczas tworzenia raportu. 
 
 Zanim będzie można utworzyć zestaw danych, należy utworzyć źródło danych. Aby dowiedzieć się, jak to zrobić, zobacz temat [Osadzone źródła danych dla raportów podzielonych na strony w usłudze Power BI](paginated-reports-embedded-data-source.md).

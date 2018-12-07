@@ -1,5 +1,5 @@
 ---
-title: Publikowanie raportu podzielonego na strony w usłudze Power BI | Microsoft Docs
+title: Publikowanie raportu podzielonego na strony w usłudze Power BI (wersja zapoznawcza)
 description: Z tego samouczka dowiesz się, jak opublikować raport podzielony na strony w usłudze Power BI przez przekazanie go z komputera lokalnego.
 author: maggiesMSFT
 manager: kfile
@@ -9,14 +9,14 @@ ms.component: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
 ms.author: maggies
-ms.openlocfilehash: 6f2d1a4e4de87ea6eb63826b59286a9abd54b94f
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 1114f1949c68e4bebf2d636906bf754e7de77273
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51267976"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900272"
 ---
-# <a name="publish-a-paginated-report-to-the-power-bi-service"></a>Publikowanie raportu podzielonego na strony w usłudze Power BI
+# <a name="publish-a-paginated-report-to-the-power-bi-service-preview"></a>Publikowanie raportu podzielonego na strony w usłudze Power BI (wersja zapoznawcza)
 
 Z tego artykułu dowiesz się więcej na temat publikowania raportu podzielonego na strony w usłudze Power BI przez przekazanie go z komputera lokalnego. Raporty podzielone na strony można załadować do obszaru Mój obszar roboczy lub innego obszaru roboczego, jeśli obszar roboczy znajduje się w pojemności Premium. Poszukaj ikony diamentu ![Ikona diamentu — pojemność usługi Power BI Premium](media/paginated-reports-save-to-power-bi-service/premium-diamond.png) obok nazwy obszaru roboczego. 
 

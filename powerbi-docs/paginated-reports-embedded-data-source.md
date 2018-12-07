@@ -1,5 +1,5 @@
 ---
-title: Osadzone źródła danych dla raportów podzielonych na strony w usłudze Power BI | Microsoft Docs
+title: Osadzone źródła danych dla raportów podzielonych na strony w usłudze Power BI (wersja zapoznawcza)
 description: Z tego artykułu dowiesz się, jak tworzyć i modyfikować osadzone źródło danych w raporcie podzielonym na strony w usłudze Power BI.
 author: maggiesMSFT
 manager: kfile
@@ -9,14 +9,14 @@ ms.component: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
 ms.author: maggies
-ms.openlocfilehash: f3e305f70bb21011bbb395d453721ef65011844c
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 3c1340d9cae7e7002e8bbbdc3d6888e19b1ce7ff
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51268318"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900203"
 ---
-# <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service"></a>Tworzenie osadzonego źródła danych dla raportów podzielonych na strony w usłudze Power BI
+# <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service-preview"></a>Tworzenie osadzonego źródła danych dla raportów podzielonych na strony w usłudze Power BI (wersja zapoznawcza)
 Z tego artykułu dowiesz się, jak tworzyć i modyfikować osadzone źródło danych dla raportu podzielonego na strony w usłudze Power BI. Osadzone źródło danych jest definiowane w jednym raporcie i używane tylko w tym raporcie. Obecnie raporty podzielone na strony opublikowane w usłudze Power BI potrzebują osadzonych zestawów danych i osadzonych źródeł danych i mogą nawiązywać połączenia z następującymi źródłami danych:
 
 - Usługi Azure SQL Database i Data Warehouse

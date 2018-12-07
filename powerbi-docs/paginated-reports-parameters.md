@@ -1,5 +1,5 @@
 ---
-title: Tworzenie parametrów dla raportów podzielonych na strony w usłudze Power BI | Microsoft Docs
+title: Tworzenie parametrów dla raportów podzielonych na strony w usłudze Power BI (wersja zapoznawcza)
 description: Z tego artykułu dowiesz się, jak utworzyć parametry raportów podzielonych na strony w usłudze Power BI.
 author: maggiesMSFT
 manager: kfile
@@ -9,14 +9,14 @@ ms.component: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
 ms.author: maggies
-ms.openlocfilehash: 3a1d497f112e84aeb958b86658ee3ffae3e87c6d
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: d36f8e26282ae794976b0d679feb426ea04a981b
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51267929"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900295"
 ---
-# <a name="create-parameters-for-paginated-reports-in-the-power-bi-service"></a>Tworzenie parametrów dla raportów podzielonych na strony w usłudze Power BI
+# <a name="create-parameters-for-paginated-reports-in-the-power-bi-service-preview"></a>Tworzenie parametrów dla raportów podzielonych na strony w usłudze Power BI (wersja zapoznawcza)
 
 Z tego artykułu dowiesz się, jak utworzyć parametry raportów podzielonych na strony w usłudze Power BI.  Parametr raportu udostępnia metodę wybierania danych raportu oraz zmienianie prezentacji raportu. Możesz podać wartość domyślną oraz listę dostępnych wartości, aby czytelnicy raportu mogli zmieniać wybrane opcje.  
 

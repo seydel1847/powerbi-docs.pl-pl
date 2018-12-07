@@ -1,5 +1,5 @@
 ---
-title: Wyświetlanie raportu podzielonego na strony w usłudze Power BI | Microsoft Docs
+title: Wyświetlanie raportu podzielonego na strony w usłudze Power BI (wersja zapoznawcza)
 description: W tym samouczku dowiesz się więcej na temat wyświetlania raportów podzielonych na strony w usłudze Power BI.
 author: maggiesMSFT
 manager: kfile
@@ -9,14 +9,14 @@ ms.component: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
 ms.author: maggies
-ms.openlocfilehash: db067a2e81aa62febc952ce50ce4a3e82ef38b76
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 874fe08622dfcbd65463a016e87d1687b6938276
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51267926"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900318"
 ---
-# <a name="view-a-paginated-report-in-the-power-bi-service"></a>Wyświetlanie raportu podzielonego na strony w usłudze Power BI
+# <a name="view-a-paginated-report-in-the-power-bi-service-preview"></a>Wyświetlanie raportu podzielonego na strony w usłudze Power BI (wersja zapoznawcza)
 
 W tym artykule dowiesz się więcej na temat wyświetlania raportu podzielonego na strony w usłudze Power BI. Raporty podzielone na strony to raporty tworzone w programie Report Builder, a następnie przekazywane do obszarów roboczych w pojemności Premium. Poszukaj ikony diamentu ![Ikona diamentu — pojemność usługi Power BI Premium](media/paginated-reports-save-to-power-bi-service/premium-diamond.png) obok nazwy obszaru roboczego. 
 

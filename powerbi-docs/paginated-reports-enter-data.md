@@ -1,5 +1,5 @@
 ---
-title: Wprowadzanie danych bezpośrednio w raporcie podzielonym na strony w programie Report Builder
+title: Wprowadzanie danych bezpośrednio w raporcie podzielonym na strony w programie Report Builder (wersja zapoznawcza)
 description: W tym artykule pokazano, jak wprowadzać dane bezpośrednio w raporcie podzielonym na strony w programie Report Builder.
 author: maggiesMSFT
 manager: kfile
@@ -9,14 +9,14 @@ ms.component: report-builder
 ms.topic: conceptual
 ms.date: 11/19/2018
 ms.author: maggies
-ms.openlocfilehash: 201a81eaef81015c73d70b54e8e862c2ccc29b1d
-ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
+ms.openlocfilehash: c3b003ee600df010aa07aad78ee2350704734dd4
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "52290073"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900410"
 ---
-# <a name="enter-data-directly-in-a-paginated-report-in-report-builder---power-bi"></a>Wprowadzanie danych bezpośrednio w raporcie podzielonym na strony w programie Report Builder — Power BI
+# <a name="enter-data-directly-in-a-paginated-report-in-report-builder-preview---power-bi"></a>Wprowadzanie danych bezpośrednio w raporcie podzielonym na strony w programie Report Builder (wersja zapoznawcza) — Power BI
 
 W tym artykule opisano funkcję dostępną w nowej wersji programu SQL Server 2016 Report Builder, która pozwala na wprowadzanie danych bezpośrednio w raporcie RDL w formie osadzonego zestawu danych.  Ta funkcja działa podobnie do programu Power BI Desktop. Możesz wpisać dane bezpośrednio w zestawie danych w raporcie lub wkleić je z innego programu, takiego jak Microsoft Excel. Zestaw danych utworzony przez wprowadzenie danych może być używany tak jak każdy inny utworzony przez Ciebie osadzony zestaw danych. Ponadto można dodać więcej niż jedną tabelę i użyć jednej z nich jako filtru dla innej tabeli. Ta funkcja jest szczególnie przydatna w przypadku małych, statycznych zestawów danych, które mogą być potrzebne w raporcie, takich jak parametry raportu.
  

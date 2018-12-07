@@ -1,5 +1,5 @@
 ---
-title: Poruszanie się w widoku projektu raportu dla raportów podzielonych na strony — Power BI | Microsoft Docs
+title: Poruszanie się w widoku projektu raportu dla raportów podzielonych na strony (wersja zapoznawcza)
 description: Widok projektu raportu w programie Report Builder to przestrzeń projektowa służąca do tworzenia raportów podzielonych na strony, które można publikować w usłudze Power BI.
 author: maggiesMSFT
 manager: kfile
@@ -9,14 +9,14 @@ ms.component: report-builder
 ms.topic: overview
 ms.date: 11/05/2018
 ms.author: maggies
-ms.openlocfilehash: de3919903a3df4fdc5b0e167069b3035204761ff
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: dc811c5f6c6a7d5d428591eb7afd1665cda6dbb0
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51268192"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900456"
 ---
-# <a name="getting-around-in-report-design-view-for-paginated-reports"></a>Poruszanie się w widoku projektu raportu dla raportów podzielonych na strony
+# <a name="getting-around-in-report-design-view-for-paginated-reports-preview"></a>Poruszanie się w widoku projektu raportu dla raportów podzielonych na strony (wersja zapoznawcza)
 
 Widok projektu raportu w programie Report Builder to przestrzeń projektowa służąca do tworzenia raportów podzielonych na strony, które można publikować w usłudze Power BI. Powierzchnia projektowa znajduje się w środku ekranu programu Report Builder z wstążką i okienkami wokół niej. Powierzchnia projektowa to miejsce, w którym dodajesz i organizujesz elementy raportu. W tym artykule opisano okienka używane do dodawania, wybierania i organizowania zasobów raportu oraz zmieniania właściwości elementów raportu.  
 

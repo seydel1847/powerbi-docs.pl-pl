@@ -1,8 +1,13 @@
-# powerbi-content-pr
-You've found the GitHub repository for the technical documentation that is published to the Power BI Documentation Center at [http://powerbi.microsoft.com/documentation](http://powerbi.microsoft.com/documentation).
+# <a name="microsoft-power-bi-documentation"></a>Dokumentacja usługi Microsoft Power BI
 
-This repository also contains guidance to help you contribute to our technical documentation. For a list of the articles in the contributors' guide, see [the index](contributor-guide/contributor-guide-index.md).
+Jest to repozytorium usługi GitHub zawierające dokumentację techniczną produktu dla **usługi Power BI**. Ta dokumentacja jest publikowana na stronie [https://docs.microsoft.com/power-bi](https://docs.microsoft.com/power-bi).
 
-## Code of conduct
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+## <a name="how-to-contribute"></a>Jak zostać współautorem
 
+Dziękujemy za zainteresowanie współtworzeniem zawartości witryny [Docs.microsoft.com](https://docs.microsoft.com/), która stanowi główną lokalizację technicznej zawartości dotyczącej produktów i usług firmy Microsoft.
+
+Aby dowiedzieć się, jak współtworzyć zawartość w tym repozytorium, rozpocznij pracę od naszego [Przewodnika współautora witryny Docs](https://docs.microsoft.com/contribute). Jeśli jesteś pracownikiem firmy Microsoft, skorzystaj z [wewnętrznej wersji](https://aka.ms/docsguidescontribute) tego przewodnika.
+
+## <a name="code-of-conduct"></a>Kodeks postępowania
+
+Ten projekt jest zgodny z zasadami określonymi w dokumencie [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/) (Kodeks postępowania w przypadku technologii open source firmy Microsoft). Aby uzyskać więcej informacji, zobacz temat [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) (Kodeks postępowania — często zadawane pytania), lub skontaktuj się z nami pod adresem [opencode@microsoft.com](mailto:opencode@microsoft.com) w przypadku dodatkowych pytań lub komentarzy.

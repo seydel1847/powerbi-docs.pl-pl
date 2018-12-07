@@ -1,112 +1,74 @@
 ---
 title: Aktywacja rozszerzonej wersji próbnej Pro
 description: Począwszy od dnia 1 czerwca 2017 r., wszyscy uprawnieni użytkownicy będą mogli włączyć rozszerzoną wersję próbną Pro usługi Power BI.
-author: markingmyname
+author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 07/18/2017
-ms.author: maghan
+ms.date: 12/03/2018
+ms.author: mblythe
 LocalizationGroup: Get started
-ms.openlocfilehash: c38b94b278bf0e2fe308e3249b27acf8ed7e7837
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 2616db7825fd45254df4ac1fbcced1b2f58c8351
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34247992"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900594"
 ---
 # <a name="extended-pro-trial-activation"></a>Aktywacja rozszerzonej wersji próbnej Pro
-Począwszy od dnia 1 czerwca 2017 r., wszyscy uprawnieni użytkownicy będą mogli włączyć rozszerzoną wersję próbną Pro usługi Power BI.
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/tPsNoPyY9aA?showinfo=0" frameborder="0" allowfullscreen></iframe>
+> [!IMPORTANT]
+> Rozszerzona wersja próbna usługi Pro nie jest już dostępna. Aby utworzyć konto bezpłatnej wersji próbnej (jeśli masz uprawnienia), zobacz temat [Rejestrowanie się w usłudze Power BI jako użytkownik indywidualny](service-self-service-signup-for-power-bi.md). Aby kupić usługę Power BI Pro, zobacz temat [Kupowanie i przypisywanie licencji usługi Power BI Pro](service-admin-purchasing-power-bi-pro.md).
 
-W [zawiadomieniu z 3 maja 2017 r. dotyczącym usługi Power BI Premium](https://powerbi.microsoft.com/blog/microsoft-accelerates-modern-bi-adoption-with-power-bi-premium/) firma Microsoft poinformowała o wchodzących w życie 1 czerwca 2017 r. zmianach w zakresie bezpłatnej usługi Power BI. Zmiany te obejmują rozszerzenie dostępu do wszystkich źródeł danych, wyższe limity przestrzeni dyskowej obszaru roboczego, a także większą częstotliwość odświeżania i przesyłania strumieniowego do bezpłatnej usługi, upodabniając te parametry do usługi Power BI Pro.
+W [zawiadomieniu z 3 maja 2017 r. dotyczącym usługi Power BI Premium](https://powerbi.microsoft.com/blog/microsoft-accelerates-modern-bi-adoption-with-power-bi-premium/) firma Microsoft poinformowała o wchodzących w życie 1 czerwca 2017 r. zmianach w zakresie bezpłatnej usługi Power BI. Zmiany te obejmują rozszerzenie dostępu do wszystkich źródeł danych, wyższe limity przestrzeni dyskowej obszaru roboczego, a także większą częstotliwość odświeżania i przesyłania strumieniowego, upodabniając te funkcje do usługi Power BI Pro.
 
-Ogłoszono także, że funkcje udostępniania i współpracy będą dostępne wyłącznie dla użytkowników usługi Power BI Pro, w tym udostępnianie równorzędne pulpitu nawigacyjnego, obszary robocze grup (nazywane aktualnie obszarami roboczymi aplikacji), eksportowanie do programu PowerPoint i analizowanie w programie Excel przy użyciu aplikacji Power BI. Funkcje eksportowania do pliku CSV/programu Excel i PowerPoint zostały w zawiadomieniu z 3 maja określone jako zarezerwowane dla usługi Power BI Pro, jednak po otrzymaniu opinii zwrotnej od szerokiej społeczności użytkowników zmieniono strategię i udostępniono te funkcje także użytkownikom bezpłatnej usługi.
+Ogłoszono także, że funkcje udostępniania i współpracy będą dostępne wyłącznie dla użytkowników usługi Power BI Pro, w tym udostępnianie równorzędne pulpitu nawigacyjnego, obszary robocze grup (nazywane aktualnie obszarami roboczymi aplikacji), eksportowanie do programu PowerPoint i analizowanie w programie Excel przy użyciu aplikacji Power BI. Eksportowanie do plików CSV/programu Excel i programu PowerPoint zostało zidentyfikowane w komunikacie z 3 maja jako możliwość ograniczona do usługi Power BI Pro. Jednak po otrzymaniu opinii szerokiej społeczności użytkowników zmieniliśmy strategię i udostępniliśmy tę możliwość również użytkownikom bezpłatnej wersji usługi.
 
-Począwszy od 1 czerwca 2017 r., dotychczasowi użytkownicy bezpłatnej usługi, którzy byli aktywni w okresie poprzedzającego roku (do 2 maja 2017 r. włącznie) będą uprawnieni do skorzystania z bezpłatnej, 12-miesięcznej rozszerzonej wersji próbnej usługi Power BI Pro. Oferta ta umożliwi użytkownikom korzystanie z pełnego zakresu funkcji usługi Power BI Pro przez okres następnego roku, stanowiąc wyraz uznania dla społeczności oraz dając użytkownikom czas na dostosowanie się do zmian.
+Od 1 czerwca 2017 r. dotychczasowi użytkownicy bezpłatnej usługi, którzy byli aktywni w dniu 2 maja 2017 r. lub wcześniej, mieli uprawnienia do korzystania z bezpłatnej, 12-miesięcznej rozszerzonej wersji próbnej usługi Power BI Pro. Oferta ta umożliwiła użytkownikom korzystanie z pełnego zakresu funkcji usługi Power BI Pro przez rok, stanowiąc wyraz uznania dla społeczności oraz dając użytkownikom czas na dostosowanie się do zmian.
 
-![Wyskakujące okienko rozszerzonej wersji próbnej Pro podczas logowania](media/service-extended-pro-trial/extended-pro-trial-activate-pop-up.png)
+1 czerwca 2017 r. uprawnieni użytkownicy podczas logowania do usługi otrzymali powiadomienie z informacją o wejściu w życie zmian oraz monitem o zarejestrowanie się w celu skorzystania z oferty rozszerzonej wersji próbnej usługi Power BI Pro. Administrator IT użytkownika nie kontrolował powiązanych powiadomień w ramach produktu ani nie miał możliwości zarejestrowania się w imieniu użytkownika w celu skorzystania z rozszerzonej wersji próbnej usługi Power BI Pro. Każdy uprawniony użytkownik musiał indywidualnie podjąć akcję w celu przeprowadzenia tego procesu.
 
-1 czerwca 2017 r. uprawnieni użytkownicy otrzymają podczas logowania się do usługi powiadomienie z informacją o wejściu w życie zmian oraz monitem o zarejestrowanie się w celu skorzystania z oferty rozszerzonej wersji próbnej usługi Power BI Pro. Administrator IT nie kontroluje powiadomień w ramach produktu, nie ma także możliwości zarejestrowania się w imieniu użytkownika w celu skorzystania z rozszerzonej wersji próbnej usługi Power BI Pro. Każdy uprawniony użytkownik musi indywidualnie podjąć działania w celu przeprowadzenia tego procesu.
+Użytkownicy mogli zarejestrować się w celu skorzystania z tej oferty w dowolnym momencie w ramach tego 12-miesięcznego okresu. Rozszerzona wersja próbna Pro zakończyła się jednak 31 maja 2018 r., niezależnie od tego, kiedy użytkownicy zaakceptowali ofertę. W tym terminie użytkownicy mogli wybrać opcję zakupu usługi Power BI Pro lub przejścia na bezpłatną wersję usługi Power BI bez funkcji udostępniania i współpracy, jeśli nie zdecydowali się na podjęcie akcji i zakup usługi Power BI Pro.
 
-Użytkownicy mogą zarejestrować się w celu skorzystania z tej oferty w dowolnym momencie w ramach tego 12-miesięcznego okresu. Rozszerzona wersja próbna Pro zostanie jednak zakończona dla wszystkich użytkowników 31 maja 2018 r. niezależnie od terminu zaakceptowania przez nich oferty. W tym terminie użytkownicy będą mogli wybrać między zakupem usługi Power BI Pro lub przejściem na bezpłatną wersję usługi Power BI bez funkcji udostępniania i współpracy, jeśli nie zdecydują się na podjęcie działań i zakup usługi Power BI Pro.
-
-Nie są wprowadzane żadne zmiany w usłudze Power BI Pro. Wprowadzane zmiany nie dotyczą użytkowników tej usługi i nie otrzymają oni powiadomień podczas logowania się do usługi 1 lipca 2017 r. lub później. Użytkownicy, którzy odrzucą ofertę rozszerzonej wersji próbnej usługi Power BI Pro lub nie są uprawnieni do skorzystania z tej oferty, będą nadal używać bezpłatnej wersji usługi Power BI bez funkcji udostępniania i współpracy. Mogą oni w dowolnej chwili zarejestrować się w celu skorzystania ze standardowej 60-dniowej wersji próbnej usługi Power BI Pro, odwiedzając [witrynę internetową](https://powerbi.microsoft.com/get-started/) usługi Power BI.
+W tym czasie nie wprowadzono żadnych zmian usługi Power BI Pro. Użytkownicy usługi Power BI Pro nie zostali uwzględnieni ani nie otrzymali powiadomień podczas logowania się do usługi 1 czerwca 2017 r. lub później. Użytkownicy, którzy odrzucili ofertę rozszerzonej wersji próbnej usługi Power BI Pro lub nie byli uprawnieni do skorzystania z tej oferty, mogli nadal używać bezpłatnej wersji usługi Power BI bez funkcji udostępniania i współpracy. Mogli oni w dowolnej chwili zarejestrować się w celu skorzystania ze standardowej 60-dniowej wersji próbnej usługi Power BI Pro, odwiedzając [witrynę internetową](https://powerbi.microsoft.com/get-started/) usługi Power BI.
 
 ## <a name="eligibility-for-extended-pro-trial"></a>Uprawnienie do skorzystania z rozszerzonej wersji próbnej Pro
-Twoje konto musi spełniać następujące wymagania, aby kwalifikować się do skorzystania z oferty rozszerzonej wersji próbnej Pro.
 
-* Uprawnieni do skorzystania z rozszerzonej wersji próbnej Pro są użytkownicy bezpłatnej wersji usługi Power BI aktywni w okresie między 3 maja 2016 r. a 2 maja 2017 r.
-* Użytkownicy, którzy korzystali wcześniej lub aktualnie korzystają z *60-dniowej wersji próbnej Pro*, są nadal uprawnieni do skorzystania z rozszerzonej wersji próbnej Pro.
+Twoje konto musiało spełniać następujące wymagania, aby kwalifikować się do skorzystania z rozszerzonej oferty wersji próbnej usługi Pro.
 
-> [!NOTE]
-> Użytkownicy posiadający licencje przypisane z subskrypcji usługi Power BI Pro lub Power BI Pro w wersji próbnej, w ramach usługi Office 365, są wykluczeni z tej oferty.
-> 
-> 
+* Użytkownicy bezpłatnej wersji usługi Power BI aktywni w okresie między 3 maja 2016 r. i 2 maja 2017 r. byli uprawnieni do skorzystania z rozszerzonej oferty wersji próbnej.
 
-## <a name="how-to-activate"></a>Jak aktywować
-Istnieją dwa sposoby aktywacji rozszerzonej wersji próbnej Pro. Pierwszy jest dostępny podczas logowania się do usługi Power BI. W przypadku wcześniejszego odrzucenia tej opcji będzie ona także widoczna w obszarze powiadomień.
+* Użytkownicy, którzy korzystali wcześniej lub aktualnie z *60-dniowej wersji próbnej usługi Pro*, byli nadal uprawnieni do skorzystania z rozszerzonej wersji próbnej usługi Pro.
 
 > [!NOTE]
-> Komunikacja w ramach produktu nie podlega kontroli administratora i będzie wysyłana do uprawnionych użytkowników.
-> 
-> 
-
-### <a name="experience-at-sign-in"></a>Środowisko użytkownika podczas logowania
-Po zalogowaniu się do usługi Power BI uprawnieni użytkownicy zobaczą wyskakujące powiadomienie. Wybranie pozycji **Aktywuj wersję próbną** spowoduje rozpoczęcie rozszerzonej wersji próbnej Pro. Nie są wymagane żadne dodatkowe działania.
-
-![Wyskakujące okienko rozszerzonej wersji próbnej Pro podczas logowania](media/service-extended-pro-trial/extended-pro-trial-pop-up.png)
-
-W czasie trwania wersji próbnej użytkownik ma dostęp do wszystkich istniejących udostępnionych pulpitów nawigacyjnych i raportów.
-
-W przypadku wybrania pozycji **Nie teraz** rozszerzoną wersję próbną Pro będzie można aktywować w dowolnym momencie przed zakończeniem okresu próbnego w dniu 31 maja 2018 r.
-
-### <a name="activation-at-a-later-date"></a>Aktywacja w późniejszym terminie
-W przypadku odrzucenia wyskakującego powiadomienia przez wybranie pozycji **Nie teraz** rozszerzoną wersję próbną można aktywować w dowolnym momencie przed zakończeniem okresu próbnego w dniu 31 maja 2018 r. Można to zrobić z poziomu **Centrum powiadomień**.
-
-W Centrum powiadomień zostanie wyświetlone powiadomienie dotyczące rozszerzone wersji próbnej Pro. Powiadomienie to będzie wyświetlane tak długo, aż użytkownik je odrzuci.
-
-W treści powiadomienia wybierz pozycję **Aktywuj wersję próbną**, aby rozpocząć wersję próbną. Nie są wymagane żadne dodatkowe działania.
-
-![Powiadomienie rozszerzonej wersji próbnej Pro](media/service-extended-pro-trial/extended-pro-trial-notification.png)
-
-W czasie trwania wersji próbnej użytkownik ma dostęp do wszystkich istniejących udostępnionych pulpitów nawigacyjnych i raportów.
-
-## <a name="after-activation"></a>Po aktywacji
-Po dokonaniu aktywacji w prawym górnym rogu zostanie wyświetlona liczba dni pozostałych w ramach wersji próbnej.
-
-![Liczba dni pozostałych w ramach wersji próbnej usługi Power BI Pro](media/service-extended-pro-trial/powerbi-trial-days-left.png)
-
-Możesz zapoznać się z warunkami w ramach [Warunków i postanowień oferty rozszerzonej wersji próbnej Pro](https://aka.ms/power-bi-trial). Rozszerzona wersja próbna będzie dostępna dla wszystkich uprawnionych użytkowników do 31 maja 2018 r.
+> Użytkownicy z licencjami przypisanymi z poziomu subskrypcji usługi Power BI Pro lub Power BI Pro w wersji próbnej w ramach usługi Office 365 zostali wykluczeni z tej oferty.
 
 ## <a name="frequently-asked-questions"></a>Często zadawane pytania
+
 **Co w przypadku nowych użytkowników, którzy zarejestrowali się po 3 maja 2017 roku?**
 
 Użytkownicy, którzy rejestrowali konta w bezpłatnej usłudze Power BI od 3 maja 2017 r. włącznie, nie są uprawnieni do skorzystania z rozszerzonej wersji próbnej Pro. Są jednak nadal uprawnieni do skorzystania ze standardowej 60-dniowej wersji próbnej Pro.
 
 **Jak mogę sprawdzić, kto w organizacji jest uprawniony do skorzystania z rozszerzonej wersji próbnej Pro?**
 
-Choć nie ma bezpośredniego sposobu, aby to sprawdzić, można wyświetlić raport Zintegrowane aplikacje Azure Active Directory dla usługi Power BI, aby zobaczyć, którzy użytkownicy w organizacji byli aktywni w ciągu ostatnich 30 dni. To może stanowić wskazówkę dotyczącą uprawnionych osób. Aby uzyskać więcej informacji, zobacz [Znajdowanie zalogowanych użytkowników usługi Power BI](service-admin-access-usage.md).
+Choć nie ma bezpośredniego sposobu, aby to sprawdzić, można wyświetlić raport Zintegrowane aplikacje Azure Active Directory (Azure AD) dla usługi Power BI, aby zobaczyć, którzy użytkownicy w organizacji byli aktywni w ciągu ostatnich 30 dni. To może stanowić wskazówkę dotyczącą uprawnionych osób. Aby uzyskać więcej informacji, zobacz [Znajdowanie zalogowanych użytkowników usługi Power BI](service-admin-access-usage.md).
 
-Użytkownicy aktywni w okresie kwalifikowania oraz korzystający z bezpłatnych licencji otrzymają wyskakujące powiadomienie. 
+Użytkownicy aktywni w okresie kwalifikowania oraz korzystający z bezpłatnych licencji otrzymują wyskakujące powiadomienie.
 
 > [!NOTE]
-> Raport Azure AD nie pokazuje, czy użytkownik używa wersji bezpłatnej, czy wersji Pro usługi Power BI. Informuje jedynie, którzy użytkownicy logowali się w usłudze Power BI oraz kiedy się logowali. Jeśli użytkownik znajduje się w tym raporcie, nie oznacza to automatycznie, że jest uprawniony do skorzystania z rozszerzonej wersji próbnej Pro.
-> 
-> 
+> Raport usługi Azure AD nie pokazuje, czy użytkownik używa licencji wersji bezpłatnej, czy też wersji Pro usługi Power BI. Informuje jedynie, którzy użytkownicy logowali się w usłudze Power BI oraz kiedy się logowali. Jeśli użytkownik znajduje się w tym raporcie, nie oznacza to automatycznie, że jest uprawniony do skorzystania z rozszerzonej wersji próbnej Pro.
 
 **Czy administratorzy mogą ograniczyć użytkownikowi możliwość aktywowania rozszerzonej wersji próbnej Pro?**
 
-Nie. Administratorzy nie mogą ograniczyć użytkownikom możliwości aktywacji rozszerzonej wersji próbnej Pro lub dostępnej w usłudze 60-dniowej wersji próbnej usługi Power BI Pro.
+Nie. Administratorzy nie mogą ograniczyć użytkownikom możliwości aktywacji rozszerzonej wersji próbnej usługi Pro lub dostępnej w usłudze 60-dniowej wersji próbnej usługi Power BI Pro.
 
 ## <a name="next-steps"></a>Następne kroki
+
 [Warunki i postanowienia oferty rozszerzonej wersji próbnej Pro](https://aka.ms/power-bi-trial)  
 [Umowa usługi Power BI dla użytkowników indywidualnych](https://powerbi.microsoft.com/terms-of-service/)  
 [Zawiadomienie dotyczące usługi Power BI Premium](https://aka.ms/pbipremium-announcement)  
 [Znajdowanie zalogowanych użytkowników usługi Power BI](service-admin-access-usage.md)
 
 Masz więcej pytań? [Zadaj pytanie społeczności usługi Power BI](https://community.powerbi.com/)
-

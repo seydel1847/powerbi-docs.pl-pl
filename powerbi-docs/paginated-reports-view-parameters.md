@@ -1,5 +1,5 @@
 ---
-title: Wyświetlanie parametrów dla raportów podzielonych na strony w usłudze Power BI | Microsoft Docs
+title: Wyświetlanie parametrów dla raportów podzielonych na strony w usłudze Power BI (wersja zapoznawcza)
 description: Z tego artykułu dowiesz się, jak pracować z parametrami raportów podzielonych na strony w usłudze Power BI.
 author: maggiesMSFT
 manager: kfile
@@ -9,14 +9,14 @@ ms.component: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
 ms.author: maggies
-ms.openlocfilehash: d144030db1d35e103a476af8e96fa4b2b8b1dfaa
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 404ec820b766716810b2881351f8be8e77902803
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51267981"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900157"
 ---
-# <a name="view-parameters-for-paginated-reports-in-the-power-bi-service"></a>Wyświetlanie parametrów dla raportów podzielonych na strony w usłudze Power BI
+# <a name="view-parameters-for-paginated-reports-in-the-power-bi-service-preview"></a>Wyświetlanie parametrów dla raportów podzielonych na strony w usłudze Power BI (wersja zapoznawcza)
 
 Z tego artykułu dowiesz się, jak pracować z parametrami raportów podzielonych na strony w usłudze Power BI.  Parametr raportu udostępnia sposób filtrowania danych raportu. Parametry oferują listę dostępnych wartości. Można wybrać jedną lub wiele wartości. Czasami parametry mają wartość domyślną, a czasami trzeba wybrać wartość, zanim zobaczysz raport.  
 
