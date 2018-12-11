@@ -4,18 +4,19 @@ description: Używanie linii siatki, przyciągania do siatki, porządku osi Z, w
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: a798cbb5012933bb01264aa3db9fa9e06b1f334a
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 37416ab15a638ccd8c8e7b1066ffc01f1ba6c944
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52669318"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025908"
 ---
 # <a name="use-gridlines-and-snap-to-grid-in-power-bi-desktop-reports"></a>Używanie linii siatki i przyciągania do siatki w raportach programu Power BI Desktop
 Kanwa raportu programu **Power BI Desktop** udostępnia linie siatki, które pozwalają starannie wyrównywać wizualizacje na stronie raportu i korzystać z funkcji przyciągania do siatki, dzięki czemu wizualizacje w raportach wyglądają przejrzyście, są wyrównane i mają równe odstępy.
@@ -24,24 +25,22 @@ W programie **Power BI Desktop** można również dostosować porządek osi Z (p
 
 ![](media/desktop-gridlines-snap-to-grid/snap-to-grid_0.png)
 
-### <a name="enabling-gridlines-and-snap-to-grid"></a>Włączanie linii siatki i przyciągania do siatki
+## <a name="enabling-gridlines-and-snap-to-grid"></a>Włączanie linii siatki i przyciągania do siatki
 Aby włączyć linie siatki i przyciąganie do siatki, wybierz wstążkę **Widok**, a następnie zaznacz pola wyboru dla opcji **Pokaż linie siatki** i **Przyciągaj obiekty do siatki**. Możesz zaznaczyć jedną lub obie opcje, działają one niezależnie.
 
 ![](media/desktop-gridlines-snap-to-grid/snap-to-grid_1.png)
 
 > [!NOTE]
 > Jeśli opcje **Pokaż linie siatki** i **Przyciągaj obiekty do siatki** są wyłączone, połącz się z dowolnym źródłem danych, a zostaną one włączone.
-> 
-> 
 
-### <a name="using-gridlines"></a>Używanie linii siatki
+## <a name="using-gridlines"></a>Używanie linii siatki
 Linie siatki są widocznymi prowadnicami, które ułatwiają wyrównanie wizualizacji. Gdy próbujesz określić, czy dwie (lub więcej) wizualizacje są wyrównane w poziomie lub pionie, skorzystaj z linii siatki, aby ustalić, czy ich obramowania są wyrównane.
 
 Możesz użyć kombinacji CTRL+kliknięcie, aby wybrać więcej niż jedną wizualizację naraz, co powoduje wyświetlenie obramowań wszystkich zaznaczonych wizualizacji, dzięki czemu możesz łatwo sprawdzić, czy wizualizacje są dobrze wyrównane.
 
 ![](media/desktop-gridlines-snap-to-grid/snap-to-grid_2.png)
 
-#### <a name="using-gridlines-inside-visuals"></a>Używanie linii siatki wewnątrz wizualizacji
+### <a name="using-gridlines-inside-visuals"></a>Używanie linii siatki wewnątrz wizualizacji
 W usłudze Power BI linie siatki znajdują się również wewnątrz wizualizacji —są one widocznymi prowadnicami umożliwiającymi porównywanie punktów danych i wartości. Począwszy od wersji programu **Power BI Desktop** z września 2017 r., liniami siatki wewnątrz wizualizacji można zarządzać przy użyciu kart **Oś X** lub **Oś Y** (odpowiednio w zależności od typu wizualizacji), które znajdują się w sekcji **Format** okienka **Wizualizacje**. Można zarządzać następującymi elementami linii siatki wewnątrz wizualizacji:
 
 * Włączanie i wyłączanie linii siatki
@@ -53,14 +52,14 @@ Modyfikowanie niektórych elementów linii siatki może być szczególnie przyda
 
 ![](media/desktop-gridlines-snap-to-grid/snap-to-grid_9.png)
 
-### <a name="using-snap-to-grid"></a>Używanie przyciągania do siatki
+## <a name="using-snap-to-grid"></a>Używanie przyciągania do siatki
 Po włączeniu opcji **Przyciągaj obiekty do siatki** wszystkie wizualizacje na kanwie programu **Power BI Desktop**, które będziesz przenosić (lub których rozmiar będziesz zmieniać), będą automatycznie wyrównywane do najbliższej osi siatki, znacznie ułatwiając wyrównywanie dwóch lub większej liczby wizualizacji do tej samej lokalizacji pionowej lub poziomej bądź do tego samego rozmiaru.
 
 ![](media/desktop-gridlines-snap-to-grid/snap-to-grid_3.png)
 
 I to wszystko, jeśli chodzi o używanie **linii siatki** i **przyciągania do siatki** w celu zapewnienia starannego wyrównania wizualizacji w raportach.
 
-### <a name="using-z-order-align-and-distribute"></a>Używanie porządku osi Z, wyrównywania i rozkładania
+## <a name="using-z-order-align-and-distribute"></a>Używanie porządku osi Z, wyrównywania i rozkładania
 Można zarządzać kolejnością od przodu do tyłu wizualizacji w raporcie, co często jest nazywane *porządkiem osi Z* elementów. Dzięki tej funkcji możesz dowolnie nakładać na siebie wizualizacje, a następnie dostosować kolejność od przodu do tyłu każdej wizualizacji. Do ustawiania porządku wizualizacji służą przyciski **Przesuń do przodu** i **Przesuń do tyłu** znajdujące się w sekcji **Rozmieszczanie** wstążki **Format**. Wstążka **Format** pojawia się natychmiast po wybraniu jednej lub kilku wizualizacji na stronie.
 
 ![](media/desktop-gridlines-snap-to-grid/snap-to-grid_4.png)

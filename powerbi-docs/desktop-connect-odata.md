@@ -4,18 +4,19 @@ description: Łatwo nawiązuj połączenie ze źródłem danych OData i korzysta
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6cffff89a8c0086cbd7c7e229b4e678052fe6c70
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: a0aa658aedb3599d7962e08289b306bf0f24028e
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52669494"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025221"
 ---
 # <a name="connect-to-odata-feeds-in-power-bi-desktop"></a>Łączenie się ze źródłami danych OData w programie Power BI Desktop
 W programie Power BI Desktop możesz nawiązać połączenie ze **źródłem danych OData** i korzystać z danych źródłowych w taki sam sposób, jak w przypadku dowolnego innego źródła danych w programie Power BI Desktop.
@@ -46,7 +47,7 @@ I to wszystko.
 
 Teraz możesz używać danych zaimportowanych ze źródła danych OData w programie Power BI Desktop do tworzenia wizualizacji i raportów albo wchodzić w interakcje z wszelkimi innymi danymi, które zechcesz podłączyć i zaimportować, takimi jak inne skoroszyty programu Excel, bazy danych i dowolne inne źródła danych.
 
-### <a name="next-steps"></a>Następne kroki
+## <a name="next-steps"></a>Następne kroki
 Z poziomu programu Power BI Desktop możesz łączyć się z danymi różnego rodzaju. Więcej informacji na temat źródeł danych znajdziesz w następujących zasobach:
 
 * [Co to jest Power BI Desktop?](desktop-what-is-desktop.md)

@@ -4,18 +4,19 @@ description: Łatwo nawiązuj połączenie ze stroną internetową i korzystaj z
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 2aef47ab1716464c0896b624069a6ebbeb4adc54
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: a0d7eeccede8f6402256eb8655657ca12dde075b
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578387"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026574"
 ---
 # <a name="connect-to-a-web-page-from-power-bi-desktop"></a>Łączenie się ze stroną internetową w programie Power BI Desktop
 Możesz nawiązać połączenie ze stroną internetową i zaimportować jej dane do programu Power BI Desktop, aby używać ich w wizualizacjach oraz w modelach danych.
@@ -44,7 +45,7 @@ Następnie można przeciągać te pola na kanwę raportu i tworzyć dowolne wizu
 
 Aby dokładniej poznać funkcję łączenia się ze stroną internetową i zobaczyć, jak ona działa, zapoznaj się z tematem [Wprowadzenie do programu Power BI Desktop — przewodnik](desktop-getting-started.md).
 
-### <a name="next-steps"></a>Następne kroki
+## <a name="next-steps"></a>Następne kroki
 Z poziomu programu Power BI Desktop możesz łączyć się z danymi różnego rodzaju. Więcej informacji na temat źródeł danych znajdziesz w następujących zasobach:
 
 * [Źródła danych w programie Power BI Desktop](desktop-data-sources.md)

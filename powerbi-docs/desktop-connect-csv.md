@@ -4,18 +4,19 @@ description: Łatwo nawiązuj połączenie z plikami CSV i korzystaj z nich w pr
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 51eb46b9c54aa6f61cf2ec233a14128ca1b41607
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: d20714536ae7556b96b86638671f43896deb5533
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670583"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025079"
 ---
 # <a name="connect-to-csv-files-in-power-bi-desktop"></a>Łączenie się z plikami CSV w programie Power BI Desktop
 Łączenie się z plikiem wartości rozdzielanych przecinkami (*CSV*) z programu Power BI Desktop jest bardzo podobne do łączenia się ze skoroszytem programu Excel. Obydwie te operacje są łatwe. Ten artykuł zawiera czynności łączenia się z dowolnym plikiem CSV, do którego masz dostęp.
@@ -44,7 +45,7 @@ To wszystko, co trzeba zrobić — dane z pliku CSV znajdują się teraz w progr
 
 Możesz używać tych danych w programie Power BI Desktop do tworzenia wizualizacji i raportów albo wchodzić w interakcje z wszelkimi innymi danymi, które zechcesz podłączyć i zaimportować, takimi jak skoroszyty programu Excel, bazy danych i dowolne inne źródła danych.
 
-### <a name="next-steps"></a>Następne kroki
+## <a name="next-steps"></a>Następne kroki
 Z poziomu programu Power BI Desktop możesz łączyć się z danymi różnego rodzaju. Więcej informacji na temat źródeł danych znajdziesz w następujących zasobach:
 
 * [Co to jest Power BI Desktop?](desktop-what-is-desktop.md)

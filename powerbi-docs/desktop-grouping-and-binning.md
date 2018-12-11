@@ -4,25 +4,26 @@ description: Dowiedz się, jak grupować elementy i umieszczać je w pojemnikach
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 6363cbe3afdce351acc728fe29af8662702b8254
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 64ec167a295255a6813244ef6cb222b4eccb50f3
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670698"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025247"
 ---
 # <a name="use-grouping-and-binning-in-power-bi-desktop"></a>Używanie grupowania i kwantowania w programie Power BI Desktop
 Podczas tworzenia wizualizacji w programie **Power BI Desktop** dane są agregowane we fragmenty (czyli grupy) na podstawie wartości znalezionych w danych bazowych. W większości przypadków taka organizacja jest wystarczająca, ale mogą wystąpić sytuacje, kiedy zajdzie potrzeba doprecyzowania sposobu prezentowania tych fragmentów. Można na przykład umieścić trzy kategorie produktów w jednej większej kategorii (jednej *grupie*). Dane dotyczące sprzedaży można również podzielić na pojemniki o rozmiarach 1 000 000 dolarów, zamiast wynikającego z równego podziału rozmiaru 923 983 dolarów.
 
 W programie Power BI Desktop można **grupować** punkty danych, aby ułatwić wyraźne wyświetlanie danych oraz ich analizowanie, a także eksplorowanie danych i trendów w wizualizacjach. Można również definiować **rozmiar pojemnika**, co jest często nazywane *kwantowaniem*, aby umieszczać wartości w równego rozmiaru grupach, co ułatwia wizualizowanie danych w zrozumiały sposób.
 
-### <a name="using-grouping"></a>Korzystanie z grupowania
+## <a name="using-grouping"></a>Korzystanie z grupowania
 Aby użyć grupowania, wybierz co najmniej dwa elementy wizualizacji, klikając je z naciśniętym klawiszem Ctrl w celu wybrania wielu elementów. Następnie kliknij prawym przyciskiem myszy jeden z wybranych elementów i w wyświetlonym menu wybierz polecenie **Grupuj**.
 
 ![](media/desktop-grouping-and-binning/grouping-binning_1.png)
@@ -45,10 +46,8 @@ Niezgrupowaną wartość można dodać do istniejącej grupy. W tym celu wystarc
 
 > [!NOTE]
 > Grupy można utworzyć dla dowolnego pola na karcie **Pola** bez konieczności wybierania wielu elementów z istniejącej wizualizacji. Wystarczy kliknąć pole prawym przyciskiem myszy i z wyświetlonego menu wybrać polecenie **Nowa grupa**.
-> 
-> 
 
-### <a name="using-binning"></a>Korzystanie z kwantowania
+## <a name="using-binning"></a>Korzystanie z kwantowania
 W programie **Power BI Desktop** można ustawić rozmiar pojemnika dla pól liczbowych i pól czasu. Korzystając z kwantowania, można ustawić odpowiedni rozmiar dla danych wyświetlanych w programie **Power BI Desktop**.
 
 Aby zastosować rozmiar pojemnika, kliknij **Pole** prawym przyciskiem myszy i wybierz polecenie **Nowa grupa**.
