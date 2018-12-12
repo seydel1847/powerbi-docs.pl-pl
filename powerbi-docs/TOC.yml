@@ -262,19 +262,19 @@ items:
         href: desktop-inline-hierarchy-labels.md
       - name: Używanie fragmentatora zakresu liczbowego
         href: desktop-slicer-numeric-range.md
-      - name: Tworzenie fragmentatora dynamicznego z możliwością zmiany rozmiaru
+      - name: Tworzenie fragmentatora z możliwością zmiany rozmiaru
         href: power-bi-slicer-filter-responsive.md
-      - name: Tworzenie niestandardowych kart odpowiedzi usługi Power BI dla Cortany
+      - name: Tworzenie niestandardowych kart odpowiedzi dla Cortany
         href: service-cortana-answer-cards.md
       - name: Zabezpieczenia na poziomie wiersza
         href: desktop-rls.md
-      - name: Dostosowywanie etykietek narzędzi w programie Power BI Desktop
+      - name: Dostosowywanie etykietek narzędzi
         href: desktop-custom-tooltips.md
-      - name: Formatowanie warunkowe tabel w programie Power BI Desktop
+      - name: Warunkowe formatowanie tabeli
         href: desktop-conditional-table-formatting.md
       - name: Sortowanie według kolumny w programie Power BI Desktop
         href: desktop-sort-by-column.md
-      - name: Tworzenie raportów zoptymalizowanych pod kątem aplikacji Power BI na telefony
+      - name: Tworzenie raportów zoptymalizowanych pod kątem aplikacji mobilnych
         href: desktop-create-phone-report.md
       - name: Używanie funkcji Pokaż dane i Pokaż rekordy
         href: desktop-see-data-see-records.md
@@ -284,23 +284,23 @@ items:
       items:
       - name: Najlepsze rozwiązania dotyczące wizualizacji
         href: visuals/power-bi-visualization-best-practices.md
-      - name: Zmienianie typu wizualizacji w raporcie usługi Power BI
+      - name: Zmienianie typu wizualizacji w raporcie
         href: visuals/power-bi-report-change-visualization-type.md
       - name: Limity punktów danych według typu wizualizacji
         href: visuals/power-bi-data-points.md
       - name: Wprowadzenie do formatowania za pomocą kolorów i właściwości osi
         href: visuals/service-getting-started-with-color-formatting-and-axis-properties.md
-      - name: Porady i wskazówki dotyczące formatowania kolorów w usłudze Power BI
+      - name: Porady i wskazówki dotyczące formatowania kolorów
         href: visuals/service-tips-and-tricks-for-color-formatting.md
-      - name: Kopiowanie i wklejanie wizualizacji w usłudze Power BI
+      - name: Kopiowanie i wklejanie wizualizacji
         href: visuals/power-bi-visualization-copy-paste.md
       - name: Eksportowanie danych użytych do utworzenia wizualizacji
         href: visuals/power-bi-visualization-export-data.md
-      - name: Przenoszenie wizualizacji w raporcie usługi Power BI, zmienianie ich rozmiaru i wyświetlanie w nowych oknach
+      - name: Przenoszenie wizualizacji w raporcie, zmienianie jej rozmiaru i wyświetlanie jej w nowym oknie
         href: visuals/power-bi-visualization-move-and-resize.md
       - name: Hiperlinki w tabelach
         href: power-bi-hyperlinks-in-tables.md
-      - name: Dodawanie hiperlinku do pola tekstowego w raporcie usługi Power BI
+      - name: Dodawanie hiperlinku do pola tekstowego w raporcie
         href: service-add-hyperlink-to-text-box.md
       - name: Zmienianie sposobu interakcji elementów wizualnych w raporcie
         href: service-reports-visual-interactions.md
@@ -598,7 +598,7 @@ items:
         href: refresh-troubleshooting-refresh-scenarios.md
     - name: Pulpity nawigacyjne
       items:
-      - name: Pulpit nawigacyjny usługi Power BI
+      - name: Wprowadzenie do pulpitów nawigacyjnych
         href: service-dashboards.md
       - name: Aktualizacja kafelków
         href: service-dashboard-tiles.md
@@ -692,6 +692,8 @@ items:
         href: service-create-workspaces.md
       - name: Tworzenie nowych obszarów roboczych (wersja zapoznawcza)
         href: service-create-the-new-workspaces.md
+      - name: Zarządzanie magazynem danych w obszarach roboczych
+        href: service-admin-manage-your-data-storage-in-power-bi.md
       - name: Udostępnianie przefiltrowanego raportu
         href: service-share-reports.md
       - name: Publikowanie w sieci Web z usługi Power BI
@@ -1261,9 +1263,9 @@ items:
       href: service-admin-governance.md
     - name: Zabezpieczenia usługi Power BI
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: e105b33d6b37099dd6bc2c657f2293f8561a6004
-ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
+ms.openlocfilehash: 0189fe52981e1bc926ae8a836791e7111e4b530e
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "53181018"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280972"
