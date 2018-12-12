@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 0ffcec94d015223df596aa6ac941f7400a89e747
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: daada8a7f69c600acf6fc45669ed6a42c2fdd831
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51718073"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900663"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Co nowego w usłudze Power BI
@@ -95,7 +95,7 @@ Możesz też zapoznać się z kanałami w witrynie YouTube przedstawiającymi no
 
 ### <a name="august-2017"></a>Sierpień 2017
 * Poznawanie odbiorców za pomocą [metryk użycia dla użytkownika](https://powerbi.microsoft.com/blog/introducing-per-user-usage-metrics-know-your-audience-and-amplify-your-impact/).
-* Wprowadzenie do aplikacji [usługi Power BI](consumer/end-user-connect-to-services.md) dla usług online.
+* Wprowadzenie do aplikacji [usługi Power BI](service-connect-to-services.md) dla usług online.
 * Połączenie z systemem IBM Netezza za pomocą lokalnej bramy danych w trybach importu i połączenia zapytań bezpośrednich.
 * [Dynamiczne zabezpieczenia na poziomie wiersza](developer/embedded-row-level-security.md) są teraz obsługiwane w usłudze Power BI Embedded.
 * Zaawansowany [interfejs API filtrowania](https://github.com/Microsoft/powerbi-visuals-sampleslicer/blob/master/doc/UsingAdvancedFilterAPI.md) teraz został dodany do wersji 1.7 interfejsu API niestandardowych wizualizacji.

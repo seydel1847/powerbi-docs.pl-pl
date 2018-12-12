@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 554e9f3bbea5a1da6ac43f21f72b054a26849f23
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 6de9427a11ae5aa43563ce9e21371d231a1dd3a9
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908758"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900556"
 ---
 # <a name="tutorial-get-started-with-power-bi-service-apppowerbicom"></a>Samouczek: wprowadzenie do usługi Power BI (app.powerbi.com)
 Ten samouczek ułatwia rozpoczęcie pracy z ***usługą Power BI***. Jeśli chcesz dowiedzieć się, jakie miejsce zajmuje usługa Power BI w ofercie innych produktów Power BI, zdecydowanie zalecamy zapoznanie się z tematem [Co to jest Power BI](power-bi-overview.md).
@@ -158,5 +158,5 @@ Teraz, po zakończeniu tego samouczka, możesz usunąć zestaw danych, raport i 
 Chcesz szybko skorzystać z innych samouczków?  Poniżej przedstawiono kilka przydatnych tematów, które pozwalają zapoznać się z usługą Power BI.
 
 > [!div class="nextstepaction"]
-> [Łączenie się z używanymi usługami online](consumer/end-user-connect-to-services.md)
+> [Łączenie się z używanymi usługami online](service-connect-to-services.md)
 

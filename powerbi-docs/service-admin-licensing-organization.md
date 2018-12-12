@@ -10,20 +10,16 @@ ms.topic: conceptual
 ms.date: 10/30/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 861b9c411b3088b6c16b7ad601f374bd771b13ed
-ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
+ms.openlocfilehash: ce44e87144d9338fbd88f0bc7183daf1b5339b35
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "52331993"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900479"
 ---
 # <a name="power-bi-licensing-in-your-organization"></a>Licencjonowanie usługi Power BI w organizacji
 
-W usłudze Power BI użytkownicy mają możliwości zdefiniowane w oparciu o dwa typy licencji:
-
-* **Na użytkownika** - *licencjonowanie usługi Power BI Pro i licencjonowanie bezpłatne*. Licencja usługi Power BI Pro umożliwia dostęp do całej zawartości i wszystkich funkcji w usłudze Power BI, w tym do możliwości udostępniania zawartości i współpracy z innymi użytkownikami wersji Pro. Tylko użytkownicy wersji Pro mogą publikować zawartość i używać jej w obszarach roboczych aplikacji, udostępniać pulpity nawigacyjne oraz subskrybować pulpity nawigacyjne i raporty. Licencja bezpłatna umożliwia dostęp do niektórych funkcji usługi Power BI. Aby uzyskać więcej informacji, zobacz [Power BI service features by license type](service-features-license-type.md) (Funkcje usługi Power BI według typu licencji).
-
-* **Oparta na pojemności** - *licencjonowanie usługi Power BI Premium*. Wersja Premium udostępnia dedykowaną pojemność w celu zapewnienia bardziej jednolitej wydajności i obsługi większych woluminów danych w usłudze Power BI. W przypadku użytkowników indywidualnych wersja Premium umożliwia także szeroką dystrybucję zawartości przez użytkowników wersji Pro bez wymagania licencji usługi Pro od osób wyświetlających taką zawartość. Aby uzyskać więcej informacji, zobacz [Co to jest usługa Power BI Premium?](service-premium.md).
+[!INCLUDE [license-capabilities](includes/license-capabilities.md)]
 
 Ten artykuł koncentruje się na licencjonowaniu na użytkownika z perspektywy administratora.
 

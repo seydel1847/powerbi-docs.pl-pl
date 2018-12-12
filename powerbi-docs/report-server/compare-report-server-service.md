@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.component: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: 8689c9a2fded5e283740d82923d674b73434e6a1
-ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
+ms.openlocfilehash: aca89b1e45c2ce236a4b5a960436077e089a5b01
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51850458"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900571"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Porównanie serwera raportów usługi Power BI i usługi Power BI
 
@@ -23,7 +23,7 @@ Serwer raportów usługi Power BI i usługa Power BI mają wiele podobieństw i 
 
 ## <a name="features-of-power-bi-report-server-and-the-power-bi-service"></a>Funkcje serwera raportów usługi Power BI i usługi Power BI
 
-| Funkcje | Serwer raportów usługi Power BI | Usługa Power BI | Uwagi
+| Funkcje | serwerze raportów usługi Power BI | Usługa Power BI | Uwagi
 |---------|---------|---------|---------|
 | Wdrożenie | Środowisko lokalne lub chmura hostowana | Chmura | Serwer raportów usługi Power BI można wdrożyć na maszynach wirtualnych platformy Azure (chmura hostowana), jeśli jest licencjonowany za pośrednictwem usługi Power BI Premium
 | Dane źródłowe | Chmura i/lub środowisko lokalne | Chmura i/lub środowisko lokalne |  
@@ -37,7 +37,7 @@ Serwer raportów usługi Power BI i usługa Power BI mają wiele podobieństw i 
 | Pulpity nawigacyjne | Nie | Tak | [Pulpity nawigacyjne w usłudze Power BI](../consumer/end-user-dashboards.md) 
 | Dystrybuowanie grupy raportów za pomocą aplikacji | Nie | Tak | [Tworzenie i publikowanie aplikacji z pulpitami nawigacyjnymi i raportami](../service-create-distribute-apps.md) 
 | Pakiety zawartości | Nie | Tak | [Organizacyjne pakiety zawartości: wprowadzenie](../service-organizational-content-pack-introduction.md) 
-| Łączenie z usługami, takimi jak Salesforce | Tak | Tak | [Łączenie z usługami używanymi](../consumer/end-user-connect-to-services.md) z pakietami zawartości w usłudze Power BI. Na Serwerze raportów usługi Power BI używaj certyfikowanych łączników w celu nawiązywania połączeń z usługami. Zobacz [Źródła danych raportów usługi Power BI na Serwerze raportów usługi Power BI](data-sources.md), aby uzyskać szczegółowe informacje.
+| Łączenie z usługami, takimi jak Salesforce | Tak | Tak | [Łączenie z usługami używanymi](../service-connect-to-services.md) z pakietami zawartości w usłudze Power BI. Na Serwerze raportów usługi Power BI używaj certyfikowanych łączników w celu nawiązywania połączeń z usługami. Zobacz [Źródła danych raportów usługi Power BI na Serwerze raportów usługi Power BI](data-sources.md), aby uzyskać szczegółowe informacje.
 | Pytania i odpowiedzi | Nie | Tak | [Funkcja pytań i odpowiedzi w usłudze Power BI i programie Power BI Desktop](../consumer/end-user-q-and-a.md) 
 | Szybki wgląd w szczegółowe dane | Nie | Tak | [Automatyczne generowanie wglądu w szczegółowe dane przy użyciu usługi Power BI](../consumer/end-user-insights.md) 
 | Analizuj w programie Excel | Nie | Tak | [Analizowanie w programie Excel](../service-analyze-in-excel.md) 
