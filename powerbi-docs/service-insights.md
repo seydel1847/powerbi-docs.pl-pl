@@ -5,20 +5,21 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 featuredvideoid: et_MLSL2sA8
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/25/2018
+ms.date: 12/06/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 3b58b0b88ed0417f88784824a67ab294dda7343e
-ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
+ms.openlocfilehash: 386f4fb24488df3856f8e731fcd6c95043c86d74
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51850435"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180926"
 ---
-# <a name="automatically-generate-data-insights-with-power-bi"></a>Automatyczne generowanie wglądu w szczegółowe dane przy użyciu usługi Power BI
+# <a name="generate-data-insights-automatically-with-power-bi"></a>Automatyczne generowanie wglądu w szczegółowe dane przy użyciu usługi Power BI
 Masz nowy zestaw danych i nie bardzo wiesz, gdzie zacząć?  Musisz szybko utworzyć pulpit nawigacyjny?  Chcesz wyszukać szczegółowe informacje, które mogły zostać pominięte?
 
 Uruchom szybki wgląd w szczegółowe dane, aby generować interesujące, interaktywne wizualizacje na podstawie danych. Szybki wgląd w szczegółowe dane można uruchamiać na całym zestawie danych (szybki wgląd w szczegółowe dane) lub na konkretnym kafelku pulpitu nawigacyjnego (wgląd w szczegółowe informacje dla zakresu). Możesz nawet uruchamiać wgląd w szczegółowe dane wewnątrz wglądu w szczegółowe dane.

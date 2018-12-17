@@ -1,21 +1,22 @@
 ---
-title: Odświeżanie zestawu danych utworzonego na podstawie pliku z wartościami rozdzielanymi przecinkami (csv) w usłudze OneDrive
+title: Odświeżanie zestawu danych na podstawie pliku csv w usłudze OneDrive
 description: Odświeżanie zestawu danych utworzonego na podstawie pliku z wartościami rozdzielanymi przecinkami (csv) w usłudze OneDrive
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 6e6ce7a80e810ac8c05f6a4ab70c2d19f2201262
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: c06d9c56051ccb02d17d695561bc6caa462e99c3
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670366"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025539"
 ---
 # <a name="refresh-a-dataset-created-from-a-csv-file-on-onedrive-or-sharepoint-online"></a>Odświeżanie zestawu danych utworzonego na podstawie pliku CSV w usłudze OneDrive lub SharePoint Online
 ## <a name="what-are-the-advantages"></a>Jakie są zalety?
@@ -29,7 +30,7 @@ W wielu organizacjach są uruchamiane procesy, które automatycznie wysyłają z
 Pliki z wartościami rozdzielanymi przecinkami są prostymi plikami tekstowymi, więc połączenia z zewnętrznymi źródłami danych i raporty nie są obsługiwane. Nie możesz zaplanować odświeżania zestawu danych utworzonego na podstawie pliku rozdzielanego przecinkami. Jednak jeśli plik znajduje się w usłudze OneDrive lub SharePoint Online, usługa Power BI będzie automatycznie synchronizować co godzinę wszelkie zmiany wprowadzone w pliku z zestawem danych.
 
 ## <a name="onedrive-or-onedrive-for-business-whats-the-difference"></a>Usługa OneDrive lub OneDrive dla Firm. Jaka jest różnica?
-Jeśli masz zarówno osobistą usługę OneDrive, jak i OneDrive dla Firm, zalecane jest przechowywanie wszelkich plików, z którymi chcesz nawiązać połączenie w usłudze Power BI, w usłudze OneDrive dla Firm. Oto dlaczego: prawdopodobnie używasz dwóch różnych kont do logowania się do nich.
+Jeśli masz zarówno osobistą usługę OneDrive, jak i OneDrive dla Firm, zalecane jest przechowywanie wszelkich plików, z którymi chcesz nawiązać połączenie w usłudze Power BI, w usłudze OneDrive dla Firm. Oto dlaczego: Prawdopodobnie używasz dwóch różnych kont do logowania się do nich.
 
 Nawiązywanie połączenia z usługą OneDrive dla Firm w usłudze Power BI jest zwykle bezproblemowe, ponieważ to samo konto, którego używasz do logowania się do usługi Power BI, często jest kontem używanym do logowania się do usługi OneDrive dla Firm. Jednak w przypadku osobistej usługi OneDrive najprawdopodobniej logujesz się przy użyciu innego [konta Microsoft](https://account.microsoft.com).
 

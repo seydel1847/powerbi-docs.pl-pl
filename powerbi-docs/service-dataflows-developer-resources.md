@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/06/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: d2b2449985a4380d78e7055ecf87f99a65a9a67e
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: a56dbb713f3d853094c2612a19edecb8bf4d7b24
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51268030"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180604"
 ---
 # <a name="developer-resources-for-power-bi-dataflows-preview"></a>Zasoby dla deweloperów dotyczące przepływów danych usługi Power BI (wersja zapoznawcza)
 
@@ -29,7 +29,7 @@ Następujące zasoby dla deweloperów są dostępne, jeśli pracujesz z przepły
 
 | Zasób dotyczący przepływu danych | Opis |
 | --- | --- |
-| [Dokumentacja interfejsu API REST przepływu danych usługi Power BI](http://download.microsoft.com/download/5/4/0/540DAA5B-6760-4BDF-A089-8C3DBA8BB4DD/Power%20BI%20dataflow%20REST%20API%20reference.docx)    | Pełna dokumentacja dotycząca interfejsu API REST przepływu danych.|
+| [Dokumentacja interfejsu API REST przepływu danych usługi Power BI](https://go.microsoft.com/fwlink/?linkid=2047629)    | Pełna dokumentacja dotycząca interfejsu API REST przepływu danych.|
 
 
 ## <a name="next-steps"></a>Następne kroki
@@ -41,10 +41,15 @@ W tym artykule przedstawiono informacje dotyczące zasobów dla deweloperów w z
 * [Używanie obliczonych jednostek w usłudze Power BI Premium (wersja zapoznawcza)](service-dataflows-computed-entities-premium.md)
 * [Używanie przepływów danych z lokalnymi źródłami danych (wersja zapoznawcza)](service-dataflows-on-premises-gateways.md)
 
+Aby uzyskać informacje dotyczące zasobów samouczków i narzędzi do programowania modelu CDM, zobacz następujące tematy:
+* [Omówienie usługi Common Data Model](https://docs.microsoft.com/powerapps/common-data-model/overview)
+* [CDM folders](https://go.microsoft.com/fwlink/?linkid=2045304) (Foldery modelu CDM)
+* [CDM model file definition](https://go.microsoft.com/fwlink/?linkid=2045521) (Definicja pliku modelu CDM)
+
+
 Aby uzyskać więcej informacji na temat dodatku Power Query oraz zaplanowanego odświeżania, możesz przeczytać następujące artykuły:
 * [Omówienie zapytań w programie Power BI Desktop](desktop-query-overview.md)
 * [Konfigurowanie zaplanowanego odświeżania](refresh-scheduled-refresh.md)
 
-Aby uzyskać więcej informacji na temat modelu Common Data Model, można przeczytać artykuł zawierający jego omówienie:
-* [Omówienie usługi Common Data Model](https://docs.microsoft.com/powerapps/common-data-model/overview)
+
 

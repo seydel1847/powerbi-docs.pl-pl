@@ -9,15 +9,16 @@ ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/30/2018
+ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 663a6bb9629e98dabab9934c7647bba6f7c14cd4
-ms.sourcegitcommit: a13abdb5a6c0c6a397b328ec2d68788ce3afa866
+ms.openlocfilehash: 5f377f60935f23b62b90731c5d7bc16c8119ab83
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/21/2018
-ms.locfileid: "52268371"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026712"
 ---
-# <a name="power-bi-admin-portal"></a>Portal administracyjny usługi Power BI
+# <a name="administering-power-bi-in-the-admin-portal"></a>Administrowanie usługą Power BI w portalu administracyjnym
 
 Portal administracyjny pozwala na zarządzanie *dzierżawą* usługi Power BI w organizacji. Portal zawiera elementy, takie jak metryki użycia, dostęp do centrum administracyjnego usługi Office 365 oraz ustawienia.
 
@@ -105,15 +106,15 @@ Na poniższej ilustracji przedstawiono dwie pierwsze sekcje karty **Ustawienia d
 
 Ustawienia mogą mieć trzy stany:
 
-* **Wyłączone w całej organizacji**: nikt w organizacji nie może używać tej funkcji.
+* **Wyłączone dla całej organizacji**: Nikt w Twojej organizacji nie może używać tej funkcji.
 
     ![Ustawienie oznaczające wyłączenie dla wszystkich](media/service-admin-portal/powerbi-admin-tenant-settings-disabled.png)
 
-* **Włączone w całej organizacji**: wszyscy w organizacji mogą używać tej funkcji.
+* **Włączone dla całej organizacji**: Każdy w Twojej organizacji może używać tej funkcji.
 
     ![Ustawienie oznaczające włączenie dla wszystkich](media/service-admin-portal/powerbi-admin-tenant-settings-enabled.png)
 
-* **Włączone w podzestawie organizacji**: określony podzestaw użytkowników lub grup w organizacji może używać tej funkcji.
+* **Włączone dla podzbioru organizacji**: Określony podzestaw użytkowników lub grup w organizacji może używać tej funkcji.
 
     Funkcję możesz włączyć dla całej organizacji poza wybraną grupą użytkowników.
 

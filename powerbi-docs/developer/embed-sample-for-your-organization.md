@@ -1,31 +1,32 @@
 ---
-title: Osadzanie zawartości usługi Power BI w aplikacji dla organizacji
-description: Dowiedz się, jak integrować albo osadzać raport, pulpit nawigacyjny lub kafelek w aplikacji internetowej przy użyciu interfejsów API usługi Power BI dla organizacji.
+title: Analiza osadzona służąca do osadzania zawartości usługi Power BI w aplikacji dla organizacji
+description: Dowiedz się, jak integrować lub osadzać raport, pulpit nawigacyjny lub kafelek w aplikacji przy użyciu interfejsów API usługi Power BI obsługujących analizę osadzoną dla organizacji. Dowiedz się więcej na temat sposobu integrowania usługi Power BI w aplikacji przy użyciu oprogramowania analizy osadzonej, narzędzi do analizy osadzonej lub narzędzi do osadzonej analizy biznesowej.
 author: markingmyname
 ms.author: maghan
 manager: kfile
-ms.topic: tutorial
+ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
-ms.custom: mvc
-ms.date: 10/17/2018
-ms.openlocfilehash: 92ed5530ba2e3e72ec4d4e7d7c317993bdf9c04b
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.topic: tutorial
+ms.custom: seodec18
+ms.date: 12/10/2018
+ms.openlocfilehash: 541e6e62ac075922cdb301343361ac328a3db28e
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396870"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180765"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-organization"></a>Samouczek: osadzanie raportu, pulpitu nawigacyjnego lub kafelka usługi Power BI w aplikacji dla organizacji
 
-W tym samouczku przedstawiono sposób integracji raportu w aplikacji. Zestawu SDK platformy .NET usługi Power BI używasz razem z interfejsem API języka JavaScript usługi Power BI do osadzania usługi Power BI w aplikacji dla swojej organizacji. Usługa Power BI umożliwia osadzanie raportów, pulpitów nawigacyjnych lub kafelków w aplikacji przy użyciu struktury **user owns data** (użytkownik jest właścicielem danych). Struktura **user owns data** umożliwia Twojej aplikacji rozszerzenie usługi Power BI.
+Usługa **Power BI** umożliwia osadzanie raportów, pulpitów nawigacyjnych lub kafelków w aplikacji przy użyciu struktury „user owns data” (użytkownik jest właścicielem danych). Struktura **user owns data** umożliwia aplikacji rozszerzenie usługi Power BI w celu korzystania z analizy osadzonej. W tym samouczku przedstawiono sposób integracji raportu w aplikacji. Zestawu SDK platformy .NET usługi Power BI używasz z interfejsem API języka JavaScript usługi Power BI do osadzania usługi Power BI w aplikacji dla swojej organizacji.
 
-![Osadzanie raportu usługi Power BI](media/embed-sample-for-your-organization/embed-sample-for-your-organization-035.png)
+![Power BI — osadzanie raportu](media/embed-sample-for-your-organization/embed-sample-for-your-organization-035.png)
 
 W tym samouczku zapoznasz się z następującymi zadaniami:
->[!div class="checklist"]
->* Rejestrowanie aplikacji na platformie Azure.
->* Osadzanie raportu usługi Power BI w aplikacji.
+> [!div class="checklist"]
+> * Rejestrowanie aplikacji na platformie Azure.
+> * Osadzanie raportu usługi Power BI w aplikacji.
 
 ## <a name="prerequisites"></a>Wymagania wstępne
 
@@ -40,9 +41,9 @@ Do rozpoczęcia pracy potrzebne jest konto usługi Power BI Pro i subskrypcja pl
 
 Przed rozpoczęciem osadzania raportów, pulpitów nawigacyjnych lub kafelków w aplikacji upewnij się, że środowisko skonfigurowano w sposób umożliwiający osadzanie. W ramach instalacji wykonaj jedną z następujących czynności:
 
-- Możesz użyć [narzędzia instalacji dołączania](https://aka.ms/embedsetup/UserOwnsData), aby szybko zacząć pracę i pobrać przykładową aplikację, która przeprowadzi Cię przez proces tworzenia środowiska i osadzania raportu.
+* Możesz użyć [narzędzia instalacji dołączania](https://aka.ms/embedsetup/UserOwnsData), aby szybko zacząć pracę i pobrać przykładową aplikację, która przeprowadzi Cię przez proces tworzenia środowiska i osadzania raportu.
 
-- Jeśli postanowisz ręcznie skonfigurować środowisko, wykonaj kroki w poniższych sekcjach.
+* Jeśli postanowisz ręcznie skonfigurować środowisko, wykonaj kroki w poniższych sekcjach.
 
 ### <a name="register-an-application-in-azure-active-directory"></a>Rejestrowanie aplikacji w usłudze Azure Active Directory
 
@@ -60,13 +61,13 @@ Aby zapewnić aplikacji dostęp do interfejsów API REST usługi Power BI, zarej
 
     ![Rejestrowanie nowej aplikacji](media/embed-sample-for-your-organization/embed-sample-for-your-organization-004.png)
 
-4. Postępuj zgodnie z monitami i utwórz nową aplikację. W przypadku struktury **user owns data** (użytkownik jest właścicielem danych) w obszarze **Typ aplikacji** użyj wartości **Interfejs API/aplikacja internetowa**. Musisz również podać **Adres URL logowania**, którego usługa Azure AD używa do zwracania odpowiedzi tokenu. Wprowadź wartość specyficzną dla swojej aplikacji. Na przykład `http://localhost:13526/`.
+4. Postępuj zgodnie z monitami i utwórz nową aplikację. W przypadku struktury **user owns data** (użytkownik jest właścicielem danych) w obszarze **Typ aplikacji** użyj wartości **Interfejs API/aplikacja internetowa**. Podaj **Adres URL logowania**, którego usługa Azure AD używa do zwracania odpowiedzi tokenu. Wprowadź wartość specyficzną dla swojej aplikacji. Na przykład `http://localhost:13526/`.
 
     ![Utworzenie aplikacji](media/embed-sample-for-your-organization/embed-sample-for-your-organization-005.png)
 
 ### <a name="apply-permissions-to-your-application-within-azure-active-directory"></a>Stosowanie uprawnień do aplikacji w usłudze Azure Active Directory
 
-Musisz włączyć uprawnienia do swojej aplikacji oprócz tych, które zostały podane na stronie rejestrowania aplikacji. Aby włączyć uprawnienia, zaloguj się przy użyciu konta administratora globalnego.
+Włącz uprawnienia do swojej aplikacji oprócz tych, które zostały podane na stronie rejestrowania aplikacji. Aby włączyć uprawnienia, zaloguj się przy użyciu konta administratora globalnego.
 
 ### <a name="use-the-azure-active-directory-portal"></a>Korzystanie z portalu usługi Azure Active Directory
 
@@ -158,7 +159,7 @@ Aby osadzić zawartość za pomocą przykładowej aplikacji, wykonaj następują
 
     ![Przykład aplikacji User Owns Data](media/embed-sample-for-your-organization/embed-sample-for-your-organization-026.png)
 
-2. Otwórz plik **Cloud.config** w przykładowej aplikacji. Aby pomyślnie uruchomić aplikację, należy wypełnić kilka pól: **ApplicationID** i **ApplicationSecret**.
+2. Otwórz plik **Cloud.config** w przykładowej aplikacji. Aby pomyślnie uruchomić aplikację, musisz wypełnić kilka pól: **ApplicationID** i **ApplicationSecret**.
 
     ![Plik Cloud.config](media/embed-sample-for-your-organization/embed-sample-for-your-organization-030.png)
 
@@ -168,69 +169,69 @@ Aby osadzić zawartość za pomocą przykładowej aplikacji, wykonaj następują
 
     1. Zaloguj się w witrynie [Azure Portal](https://portal.azure.com).
 
-        ![Pulpit nawigacyjny witryny Azure Portal](media/embed-sample-for-your-organization/embed-sample-for-your-organization-002.png)
+       ![Pulpit nawigacyjny witryny Azure Portal](media/embed-sample-for-your-organization/embed-sample-for-your-organization-002.png)
 
-    1. W okienku nawigacji po lewej stronie wybierz pozycję **Wszystkie usługi** i pozycję **Rejestracje aplikacji**.
+    2. W okienku nawigacji po lewej stronie wybierz pozycję **Wszystkie usługi** i pozycję **Rejestracje aplikacji**.
 
-        ![Wyszukiwanie rejestracji aplikacji](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
+       ![Wyszukiwanie rejestracji aplikacji](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
 
-    1. Wybierz aplikację, która musi używać wartości **ApplicationID**.
+    3. Wybierz aplikację, która musi używać wartości **ApplicationID**.
 
-        ![Wybieranie aplikacji](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
+       ![Wybieranie aplikacji](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
 
-    1. Powinien zostać wyświetlony **identyfikator aplikacji** wymieniony jako identyfikator GUID. Użyj tego **identyfikatora aplikacji** jako wartości **ApplicationID** dla aplikacji.
+    4. Powinien zostać wyświetlony **identyfikator aplikacji** wymieniony jako identyfikator GUID. Użyj tego **identyfikatora aplikacji** jako wartości **ApplicationID** dla aplikacji.
 
         ![ApplicationID](media/embed-sample-for-your-organization/embed-sample-for-your-organization-007.png)
 
-    1. W polu **ApplicationSecret** wprowadź informacje z sekcji **Klucze** obszaru **Rejestracje aplikacji** na platformie **Azure**.
+    W polu **ApplicationSecret** wprowadź informacje z sekcji **Klucze** obszaru **Rejestracje aplikacji** na platformie **Azure**.
 
-    1. Aby uzyskać wartość **ApplicationSecret**, wykonaj następujące czynności:
+    Aby uzyskać wartość **ApplicationSecret**, wykonaj następujące czynności:
 
-        1. Zaloguj się w witrynie [Azure Portal](https://portal.azure.com).
+    1. Zaloguj się w witrynie [Azure Portal](https://portal.azure.com).
 
-            ![Witryna Azure Portal](media/embed-sample-for-your-organization/embed-sample-for-your-organization-002.png)
+       ![Witryna Azure Portal](media/embed-sample-for-your-organization/embed-sample-for-your-organization-002.png)
 
-        1. W okienku nawigacji po lewej stronie wybierz pozycję **Wszystkie usługi** i pozycję **Rejestracje aplikacji**.
+    2. W okienku nawigacji po lewej stronie wybierz pozycję **Wszystkie usługi** i pozycję **Rejestracje aplikacji**.
 
-            ![Wyszukiwanie rejestracji aplikacji](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
+       ![Wyszukiwanie rejestracji aplikacji](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
 
-        1. Wybierz aplikację, która musi używać wartości **ApplicationSecret**.
+    3. Wybierz aplikację, która musi używać wartości **ApplicationSecret**.
 
-            ![Wybieranie aplikacji](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
+       ![Wybieranie aplikacji](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
 
-        1. Wybierz pozycję **Ustawienia**.
+    4. Wybierz pozycję **Ustawienia**.
 
-            ![Wybieranie pozycji Ustawienia](media/embed-sample-for-your-organization/embed-sample-for-your-organization-038.png)
+       ![Wybieranie pozycji Ustawienia](media/embed-sample-for-your-organization/embed-sample-for-your-organization-038.png)
 
-        1. Wybierz sekcję **Klucze**.
+    5. Wybierz sekcję **Klucze**.
 
-            ![Wybieranie sekcji Klucze](media/embed-sample-for-your-organization/embed-sample-for-your-organization-039.png)
+       ![Wybieranie sekcji Klucze](media/embed-sample-for-your-organization/embed-sample-for-your-organization-039.png)
 
-    1. Wprowadź nazwę w polu **Opis**, a następnie wybierz czas trwania. Następnie wybierz pozycję **Zapisz**, aby pobrać **Wartość** dla aplikacji. Po zamknięciu okienka **Klucze** po zapisaniu wartości klucza pole wartości jest wyświetlane tylko jako ukryte. W tym momencie nie możesz pobrać wartości klucza. W przypadku utraty wartości klucza utwórz nowy klucz w witrynie Azure Portal.
+    6. Wprowadź nazwę w polu **Opis**, a następnie wybierz czas trwania. Następnie wybierz pozycję **Zapisz**, aby pobrać **Wartość** dla aplikacji. Po zamknięciu okienka **Klucze** po zapisaniu wartości klucza pole wartości jest wyświetlane tylko jako ukryte. W tym momencie nie możesz pobrać wartości klucza. W przypadku utraty wartości klucza utwórz nowy klucz w witrynie Azure Portal.
 
-        ![Wartość klucza](media/embed-sample-for-your-organization/embed-sample-for-your-organization-031.png)
+          ![Wartość klucza](media/embed-sample-for-your-organization/embed-sample-for-your-organization-031.png)
 
-    1. W polu **groupId** wprowadź identyfikator GUID obszaru roboczego aplikacji z usługi Power BI.
+    7. W polu **groupId** wprowadź identyfikator GUID obszaru roboczego aplikacji z usługi Power BI.
 
-        ![Wprowadzanie identyfikatora groupId](media/embed-sample-for-customers/embed-sample-for-customers-031.png)
+       ![Wprowadzanie identyfikatora groupId](media/embed-sample-for-customers/embed-sample-for-customers-031.png)
 
-    1. W przypadku identyfikatora **reportId** wprowadź identyfikator GUID z usługi Power BI.
+    8. W przypadku identyfikatora **reportId** wprowadź identyfikator GUID z usługi Power BI.
 
-        ![Wprowadzanie identyfikatora reportId](media/embed-sample-for-customers/embed-sample-for-customers-032.png)
+       ![Wprowadzanie identyfikatora reportId](media/embed-sample-for-customers/embed-sample-for-customers-032.png)
 
 3. Uruchom aplikację:
 
-    1. Najpierw wybierz pozycję **Uruchom** w programie **Visual Studio**.
+    Wybierz pozycję **Uruchom** w programie **Visual Studio**.
 
-        ![Uruchamianie aplikacji](media/embed-sample-for-your-organization/embed-sample-for-your-organization-033.png)
+    ![Uruchamianie aplikacji](media/embed-sample-for-your-organization/embed-sample-for-your-organization-033.png)
 
-    1. Następnie wybierz pozycję **Pobierz raport**.
+    Następnie wybierz pozycję **Pobierz raport**.
 
-        ![Wybieranie zawartości](media/embed-sample-for-your-organization/embed-sample-for-your-organization-034.png)
+    ![Wybieranie zawartości](media/embed-sample-for-your-organization/embed-sample-for-your-organization-034.png)
 
-    1. Teraz możesz przeglądać raport w przykładowej aplikacji.
+    Teraz możesz przeglądać raport w przykładowej aplikacji.
 
-        ![Wyświetlanie raportu w aplikacji](media/embed-sample-for-your-organization/embed-sample-for-your-organization-035.png)
+    ![Wyświetlanie raportu w aplikacji](media/embed-sample-for-your-organization/embed-sample-for-your-organization-035.png)
 
 ## <a name="embed-your-content-within-your-application"></a>Osadzanie zawartości w aplikacji
 

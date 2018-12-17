@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 11/08/2018
 ms.author: maggies
-ms.openlocfilehash: 9d73e7b4e9b303f1a774c14fc813572805f7b093
-ms.sourcegitcommit: 5eb0f37f59b5fec15c0caecbbd1f8d688c7f0013
+ms.openlocfilehash: 37995f52882d1a5062b8aa03fb7b0480063a4f77
+ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/09/2018
-ms.locfileid: "51297233"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "52979558"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Co nowego w aplikacjach mobilnych dla usługi Power BI
 Powiązane nowości są dostępne w następujących artykułach:
@@ -100,7 +100,7 @@ Podczas nawigowania po raporcie za pomocą szybkich przesunięć, wybierania str
 
 Jeśli autorzy raportów dostosują motywy pulpitu nawigacyjnego w usłudze Power BI, wygląd i działanie pulpitu nawigacyjnego zmieni się również w aplikacji mobilnej. Nie będą jednak widoczne obrazy tła.
 
-#### <a name="ios-configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>iOS: zdalne konfigurowanie dostępu aplikacji mobilnej Power BI dla systemu iOS do serwera raportów
+#### <a name="ios-configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>iOS: Zdalne konfigurowanie dostępu aplikacji mobilnej Power BI dla systemu iOS do serwera raportów
 
 Administrator IT może teraz konfigurować za pomocą narzędzia MDM dostęp aplikacji mobilnych Power BI dla systemu iOS do serwera raportów. Szczegółowe informacje zawiera artykuł [Zdalne konfigurowanie dostępu aplikacji mobilnej Power BI dla systemu iOS do serwera raportów](../../report-server/configure-powerbi-mobile-apps-remote.md).
 
@@ -458,8 +458,8 @@ W centrum powiadomień aplikacji mobilnej Power BI wyświetlane są nowe dane lu
 ### <a name="may-2016"></a>Maj 2016
 #### <a name="ios-devices-and-android-phones"></a>Urządzenia z systemem iOS i telefony z systemem Android
 * **Kody QR** są teraz dostępne również **dla raportów**. Zeskanuj kod za pomocą aplikacji Power BI, aby przejść bezpośrednio do powiązanego raportu — bez nawigowania ani wyszukiwania.
-* **Ulepszone zarządzanie danymi** usług SQL Server 2016 Reporting Services: krótszy czas ładowania i mniejsze użycie danych na urządzeniu.
-* **Raporty programu SQL Server 2016 z motywem dla urządzeń przenośnych**: zobacz motywy raportów dla urządzeń przenośnych dostępne dla Twojego urządzenia.
+* **Ulepszone zarządzanie danymi** dla usług SQL Server 2016 Reporting Services: skrócone czasy ładowania i mniejsze zużycie danych na urządzeniu.
+* **Raporty programu SQL Server 2016 dla urządzeń przenośnych z motywami**: zobacz motywy dostępne dla raportów dla urządzeń przenośnych na swoim urządzeniu.
 * **Filtrowanie geograficzne**: filtrowanie raportów według bieżącej lokalizacji.
 
 ### <a name="april-2016"></a>Kwiecień 2016
@@ -523,7 +523,7 @@ Wyświetlanie pulpitów nawigacyjnych w [orientacji poziomej na telefonach z sys
 
 Wyświetlanie [raportów na telefonie z systemem Windows 10](mobile-reports-in-the-mobile-apps.md).
 
-Szybszy [wgląd w dane pulpitów nawigacyjnych w systemie Windows 10 Mobile](mobile-tiles-in-the-mobile-apps.md): można udostępniać migawki kafelków lub otwierać raporty bezpośrednio na pulpicie nawigacyjnym.
+Krótszy czas uzyskiwania [szczegółowych informacji na pulpitach nawigacyjnych systemu Windows 10 Mobile](mobile-tiles-in-the-mobile-apps.md): udostępnianie migawki kafelka lub otwieranie raportu bezpośrednio z poziomu pulpitu nawigacyjnego.
 
 ### <a name="january-2016"></a>Styczeń 2016
 Wszystkie styczniowe udoskonalenia zostały zawarte w nowej [aplikacji Power BI dla telefonów z systemem Windows 10 ](mobile-windows-10-phone-app-get-started.md), wydanej w grudniu 2015 r. Aktualnie są one wprowadzane w innych aplikacjach Power BI dla urządzeń przenośnych. Więcej informacji na ten temat można znaleźć we wpisie w blogu.
@@ -536,7 +536,7 @@ Wszystkie styczniowe udoskonalenia zostały zawarte w nowej [aplikacji Power BI 
 
 **Kafelki języka R i widgety internetowe** Te nowe typy kafelków są dostępne na pulpitach nawigacyjnych na urządzeniu przenośnym.
 
-**Pulpity nawigacyjne usługi Bing** W usłudze Power BI można teraz tworzyć [pulpity nawigacyjne z wynikami wyszukiwania z usługi Bing](../end-user-connect-to-services.md) i wyświetlać je na urządzeniu przenośnym.
+**Pulpity nawigacyjne usługi Bing** W usłudze Power BI można teraz tworzyć [pulpity nawigacyjne z wynikami wyszukiwania z usługi Bing](../../service-connect-to-services.md) i wyświetlać je na urządzeniu przenośnym.
 
 **Przypinanie stron raportu jako kafelków do pulpitów nawigacyjnych** W usłudze Power BI można teraz przypinać całą stronę raportu do pulpitu nawigacyjnego, co pozwala wyświetlać strony raportu w aplikacji Power BI na telefonie iPhone lub telefonie z systemem Android.
 
@@ -600,13 +600,13 @@ Zobacz [wpis w blogu poświęconym aplikacjom mobilnym Power BI opublikowany w p
 Udoskonalenia aplikacji mobilnych Power BI — dla systemów Android, iOS (telefony iPhone i tablety iPad) oraz Windows. Zobacz [wpis w blogu poświęconym aplikacjom mobilnym Power BI opublikowany w połowie września](http://blogs.msdn.com/b/powerbi/archive/2015/09/23/power-bi-mobile-mid-september-updates-are-here.aspx).
 
 #### <a name="android"></a>Android
-* Obsługa obszarów roboczych grup: można pracować z innymi osobami w obszarach roboczych grup. 
-* Obsługa nieuwierzytelnionych użytkowników: w rzadkich scenariuszach użytkownikom nie udaje się zalogować do aplikacji, dlatego dodaliśmy opcję szybkiego i wygodnego skontaktowania się z pomocą techniczną z możliwością wysłania opinii.
+* Pomoc techniczna dla obszarów roboczych grup: można pracować z innymi osobami w obszarach roboczych grup. 
+* Obsługa nieuwierzytelnionych użytkowników:  w rzadkich scenariuszach użytkownikom nie udaje się zalogować do aplikacji, dlatego dodaliśmy opcję szybkiego i wygodnego skontaktowania się z pomocą techniczną z możliwością wysłania opinii.
 * Ulepszone środowisko użytkownika w przypadku korzystania z pulpitów nawigacyjnych przy użyciu zabezpieczeń opartych na rolach.          
 * Lepsze formatowanie danych na wykresach i wyrównanie wszystkich kafelków pulpitu nawigacyjnego. 
 
 #### <a name="ios-iphone-and-ipad"></a>iOS (urządzenia iPhone i iPad)
-* Nowe i ulepszone funkcje nawigacji: nowe menu nawigacji pozwala maksymalnie wykorzystać powierzchnię ekranu i usprawnia poruszanie się w całej aplikacji. 
+* Nowa i udoskonalona nawigacja: nowe menu nawigacji pozwala maksymalnie wykorzystać powierzchnię ekranu i usprawnia poruszanie się w całej aplikacji. 
 * Obszary robocze grup: można pracować z innymi osobami w obszarach roboczych grup. 
 * Uaktualnienie procesu uwierzytelniania: udoskonalenia w zakresie jakości, wydajności i funkcjonalności poprawiają proces uwierzytelniania aplikacji, rozszerzony o obsługę logowania jednokrotnego. 
 * Lepsze przedstawienie informacji na kafelkach z wykresami liniowymi dzięki zwiększonej kompresji danych na osi X.
@@ -614,7 +614,7 @@ Udoskonalenia aplikacji mobilnych Power BI — dla systemów Android, iOS (telef
 * Kafelki z wykresami macierzowymi zoptymalizowane pod kątem obsługi dotykowej: teraz można łatwo przewijać macierz oraz łatwo i intuicyjnie wyświetlać jej wszystkie dane.
 * Lepsze formatowanie danych na wykresach i wyrównanie kafelków pulpitu nawigacyjnego. 
 * Wycofanie obsługi systemu iOS 7: aby utrzymać najwyższe standardy zabezpieczeń usługi Power BI, urządzenia z zainstalowanym systemem iOS 7 nie będą już obsługiwane. Wymagany jest system iOS 8 lub nowszy. 
-* Wysyłanie opinii i oceny: dodano możliwość wysyłania opinii i oceny bezpośrednio z aplikacji, aby zwiększyć udział społeczności w kształtowaniu naszego harmonogramu oraz łatwo promować wybrane pomysły.
+* Wysyłanie opinii i oceny dodane w aplikacji: dodano możliwość wysyłania opinii i oceny bezpośrednio z aplikacji, aby zwiększyć udział społeczności w kształtowaniu naszego harmonogramu oraz łatwo promować wybrane pomysły.
 
 #### <a name="windows"></a>Windows
 * Lepsze renderowanie kafelka mapy w trybie koncentracji uwagi pozwala maksymalnie wykorzystać powierzchnię ekranu.

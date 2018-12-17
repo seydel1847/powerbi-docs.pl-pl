@@ -1,21 +1,22 @@
 ---
-title: Nawiązywanie połączenia z łącznikiem Azure Consumption Insights za pomocą programu Power BI Desktop (wersja beta)
+title: Łączenie z danymi usługi Azure Consumption Insights (wersja beta)
 description: Łatwo połącz się z platformą Azure i uzyskaj szczegółowe dane na temat użycia za pomocą programu Power BI Desktop
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/13/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c770423b81c6d5cd4135539d8d44c3cc46f8b6fe
-ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
+ms.openlocfilehash: 622a236ba2a240202a570a07e7b6abb201da9dde
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "51619614"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026796"
 ---
 # <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>Nawiązywanie połączenia z łącznikiem Azure Consumption Insights za pomocą programu Power BI Desktop (wersja beta)
 Korzystając z łącznika **Azure Consumption Insights**, można za pomocą usługi **Power BI Desktop** połączyć się z platformą Azure i uzyskać szczegółowe dane oraz informacje użyciu usług Azure w danej organizacji. Informacje o użyciu platformy Azure w organizacji można także prezentować w raportach i udostępniać, tworząc miary, kolumny niestandardowe i wizualizacje. To wydanie łącznika **Azure Consumption Insights** jest w wersji beta i może ulec zmianom.
@@ -50,15 +51,15 @@ Następnie podaj *Klucz dostępu* do nawiązania połączenia.
   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_09.png)
 
 Kiedy podasz swój *Klucz dostępu* i wybierzesz pozycję **Połącz**, zostanie wyświetlone okno **Nawigator** z dziewięcioma dostępnymi tabelami: 
-* **Budgets**: dostarcza szczegółów budżetu, pozwalając wyświetlić faktyczne koszty lub użycie względem istniejących celów budżetu. 
-* **MarketPlace**: dostarcza oparte na użyciu opłaty platformy Azure Marketplace.
-* **PriceSheets**: dostarcza odpowiednie stawki według miernika w ramach rejestracji.
-* **RICharges**: dostarcza opłaty powiązane z wystąpieniami zarezerwowanymi w ciągu 24 ostatnich miesięcy.
-* **RIRecommendations_Single**: dostarcza rekomendacje zakupu wystąpienia zarezerwowanego na podstawie Twoich trendów użycia w ramach jednej subskrypcji w ciągu ostatnich 7, 30 do 60 dni.
-* **RIRecommendations_Shared**: dostarcza rekomendacje zakupu wystąpienia zarezerwowanego na podstawie Twoich trendów użycia w ramach wszystkich Twoich subskrypcji w ciągu ostatnich 7, 30 do 60 dni.
-* **RIUsage**: dostarcza szczegółów użycia dla istniejących wystąpień zarezerwowanych w ciągu ostatniego miesiąca.
-* **Summaries**: dostarcza miesięczne podsumowanie dotyczące salda, nowych zakupów, opłat za usługę Azure Marketplace, korekt i opłat za nadwyżki.
-* **UsageDetails**: dostarcza podział wykorzystanych ilości i szacowanych opłat w ramach rejestracji.
+* **Budgets**. Dostarcza szczegóły budżetu, pozwalając wyświetlić faktyczne koszty lub użycie względem istniejących celów budżetu. 
+* **MarketPlace**. Dostarcza oparte na użyciu opłaty platformy Azure Marketplace.
+* **PriceSheets**. Dostarcza odpowiednie stawki według miernika w ramach rejestracji.
+* **RICharges**. Dostarcza opłaty powiązane z wystąpieniami zarezerwowanymi w ciągu 24 ostatnich miesięcy.
+* **RIRecommendations_Single**. Dostarcza rekomendacje zakupu wystąpienia zarezerwowanego na podstawie Twoich trendów użycia w ramach jednej subskrypcji w ciągu ostatnich 7, 30 do 60 dni.
+* **RIRecommendations_Shared**. Dostarcza rekomendacje zakupu wystąpienia zarezerwowanego na podstawie Twoich trendów użycia w ramach wszystkich Twoich subskrypcji w ciągu ostatnich 7, 30 do 60 dni.
+* **RIUsage**. Dostarcza szczegóły użycia dla istniejących wystąpień zarezerwowanych w ciągu ostatniego miesiąca.
+* **Summaries**. Dostarcza miesięczne podsumowanie dotyczące salda, nowych zakupów, opłat za usługę Azure Marketplace, korekt i opłat za nadwyżki.
+* **UsageDetails**. Dostarcza podział wykorzystanych ilości i szacowanych opłat w ramach rejestracji.
 
 Zaznacz pole wyboru obok danej tabeli, aby wyświetlić jej podgląd. Możesz zaznaczyć co najmniej jedną tabelę, zaznaczając pole obok jej nazwy i wybierając pozycję **Load** (Załaduj).
 
@@ -108,7 +109,7 @@ Część klientów ma wizualizacje utworzone za pomocą łącznika *Azure Enterp
 
 Poniższa procedura pomoże klientom w przejściu na nowszy łącznik **Azure Consumption Insights** i zachowaniu utworzonych zasobów, takich jak niestandardowe pulpity nawigacyjne oraz raporty.
 
-### <a name="step-1-connect-to-azure-using-the-new-connector"></a>Krok 1. Połączenie się z platformą Azure przy użyciu nowego łącznika
+### <a name="step-1-connect-to-azure-using-the-new-connector"></a>Krok 1. Połączenie z platformą Azure przy użyciu nowego łącznika
 Pierwszym krokiem jest nawiązanie połączenia przy użyciu łącznika **Azure Consumption Insights**, co opisano szczegółowo wcześniej w tym artykule. Wybierz pozycję **Pobierz dane > Puste zapytanie** na wstążce **Narzędzia główne** w programie **Power BI Desktop**.
 
 ### <a name="step-2-use-the-advanced-editor-to-create-a-query"></a>Krok 2. Utworzenie zapytania za pomocą edytora zaawansowanego
@@ -137,14 +138,14 @@ Następnym krokiem jest przeniesienie wszelkich utworzonych miar lub kolumn nies
 3. Zmień nazwę *Query1* na oryginalną nazwę tabeli szczegółów.
 4. Utwórz w tabeli nowe miary i kolumny niestandardowe, klikając prawym przyciskiem myszy tabelę i wybierając pozycję **Nowa miara**, a następnie wycinaj i wklejaj przechowywane miary i kolumny, aż będą gotowe.
 
-### <a name="step-4-re-link-tables-that-had-relationships"></a>Krok 4. Ponowne łączenie tabel, które miały relacje
+### <a name="step-4-re-link-tables-that-had-relationships"></a>Krok 4. Ponowne połączenie tabel, które miały relacje
 Wiele pulpitów nawigacyjnych posiada dodatkowe tabele używane do przeszukiwania lub filtrowania (np. tabele danych lub tabele używane w projektach niestandardowych). Ponowne ustanowienie tych relacji rozwiązuje większość pozostałych problemów. Oto odpowiednie czynności:
 
 - Na karcie **Modelowanie** w programie **Power BI Desktop** wybierz pozycję **Zarządzaj relacjami**, aby wyświetlić okno umożliwiające zarządzanie relacjami w modelu. Połącz ponownie odpowiednie tabele.
    
     ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_12.png)
 
-### <a name="step-5-verify-your-visuals-and-adjust-field-formatting-as-needed"></a>Krok 5. Zweryfikowanie swoich wizualizacji i odpowiednie dostosowanie formatowania pól
+### <a name="step-5-verify-your-visuals-and-adjust-field-formatting-as-needed"></a>Krok 5. Zweryfikowanie wizualizacji i odpowiednie dostosowanie formatowania pól
 W tym momencie większość oryginalnych wizualizacji i poziomów szczegółów powinna działać prawidłowo. Mogą być jednak wymagane pewne dostosowania w zakresie formatowania, aby wszystko wyglądało w odpowiedni sposób. Poświęć chwilę, aby przejrzeć poszczególne pulpity nawigacyjne i wizualizacje i sprawdzić, czy wyglądają tak, jak powinny.
 
 ## <a name="using-the-azure-consumption-and-insights-aci-api-to-get-consumption-data"></a>Pobieranie danych użycia za pomocą łącznika Azure Consumption Insights (ACI)

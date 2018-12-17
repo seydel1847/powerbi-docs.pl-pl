@@ -1,21 +1,22 @@
 ---
 title: Rozwiązywanie problemów z błędami kafelków
-description: Typowe błędy występujące podczas odświeżanie kafelka
+description: Typowe błędy występujące podczas odświeżania kafelka w usłudze Power BI
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 1341caa1f67d01a03128344acd67261abf450f90
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: d03bf92331d1536337cfb8279c182822630c6c80
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52669870"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025037"
 ---
 # <a name="troubleshooting-tile-errors"></a>Rozwiązywanie problemów z błędami kafelków
 Poniżej przedstawiono typowe błędy kafelków wraz z wyjaśnieniem.

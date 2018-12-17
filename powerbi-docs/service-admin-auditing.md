@@ -9,13 +9,14 @@ ms.component: powerbi-admin
 ms.topic: conceptual
 ms.date: 11/16/2018
 ms.author: mblythe
+ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: e64496461e7d81d3b39e9a8d7174a3e985d04002
-ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
+ms.openlocfilehash: cb508681950cd5bb585da1208683deb31c8b6e64
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51850481"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026827"
 ---
 # <a name="using-auditing-within-your-organization"></a>Korzystanie z inspekcji w ramach organizacji
 
@@ -73,13 +74,13 @@ Dzienniki można przeszukiwać na podstawie zakresu dat przy użyciu pól **Data
 
 Jeśli wybrany zakres dat jest większy niż 90 dni, zostanie wyświetlony błąd. W przypadku użycia maksymalnego zakresu dat (90 dni) dla **daty rozpoczęcia** wybierz bieżącą godzinę. W przeciwnym razie zostanie wyświetlony błąd informujący o tym, że data rozpoczęcia jest wcześniejsza niż data zakończenia. Jeśli inspekcja została włączona w ciągu ostatnich 90 dni, zakres dat nie może rozpoczynać się przed datą włączenia inspekcji.
 
-![](media/service-admin-auditing/search-audit-log-by-date.png)
+![Wyszukiwanie według nazwy](media/service-admin-auditing/search-audit-log-by-date.png)
 
 ## <a name="search-the-audit-logs-by-users"></a>Przeszukiwanie dzienników inspekcji według użytkowników
 
 Wyszukać możesz wpisy dziennika inspekcji dotyczące działań wykonanych przez konkretnych użytkowników. W tym celu wprowadź co najmniej jedną nazwę użytkownika w polu **Użytkownicy**. Nazwa użytkownika wygląda jak adres e-mail. Jest to konto, za pomocą którego użytkownicy logują się do usługi Power BI. Pozostaw to pole puste, aby zwrócić wpisy dla wszystkich użytkowników (i kont usług) w Twojej organizacji.
 
-![Wyszukiwanie według nazwy](media/service-admin-auditing/search-audit-log-by-user.png)
+![Wyszukiwanie według użytkowników](media/service-admin-auditing/search-audit-log-by-user.png)
 
 ## <a name="view-search-results"></a>Wyświetlanie wyników wyszukiwania
 

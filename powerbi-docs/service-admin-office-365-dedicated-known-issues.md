@@ -9,13 +9,14 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 06/28/2017
 ms.author: mblythe
+ms.custom: seodec18
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: cedb3e1572fbf20a32abe4f28b38030539502124
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 8f9ab0a9a4beddf9be3fc933174f92ac4ae96a6b
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34238150"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026505"
 ---
 # <a name="office-365-dedicated-customers---known-issues"></a>Klienci usługi Office 365 Dedicated — znane problemy
 Usługa Power BI jest teraz obsługiwana w przypadku klientów usługi Office 365 Dedicated.  Jeśli jesteś klientem usługi Office 365 Dedicated, możesz zalogować się przy użyciu konta z tej dzierżawy i korzystać z usługi Power BI. Obecnie istnieją dwa znane problemy.
@@ -23,7 +24,7 @@ Usługa Power BI jest teraz obsługiwana w przypadku klientów usługi Office 36
 ## <a name="groups"></a>Grupy
 W przypadku wybrania pozycji **Członkowie** lub **Kalendarz** z menu kontekstowego grupy zamiast przejścia do odpowiedniego obszaru nastąpi przekierowanie do aplikacji poczty.  Pozycje **Pliki** i **Konwersacje** działają zgodnie z oczekiwaniami.
 
-![](media/service-admin-office-365-dedicated-known-issues/group-menu.png)
+![Grupa z usługi Power BI](media/service-admin-office-365-dedicated-known-issues/group-menu.png)
 
 ## <a name="iphone-app---sign-in-with-vanity-domain-leads-to-error"></a>Aplikacja dla telefonu iPhone — logowanie się przy użyciu domeny znaczącej prowadzi do błędu
 Podczas logowania się w aplikacji dla telefonu iPhone przy użyciu identyfikatora logowania z domeną znaczącą może wystąpić błąd.
@@ -33,7 +34,7 @@ Podczas logowania się w aplikacji dla telefonu iPhone przy użyciu identyfikato
 
 Aby obejść ten problem, zaloguj się przy użyciu adresu e-mail podanego po kliknięciu ikony użytkownika w usłudze Power BI zamiast adresu z domeną znaczącą.
 
-![](media/service-admin-office-365-dedicated-known-issues/sign-in-address.png)
+![Adres e-mail do logowania](media/service-admin-office-365-dedicated-known-issues/sign-in-address.png)
 
 Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
 

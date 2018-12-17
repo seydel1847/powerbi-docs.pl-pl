@@ -1,27 +1,26 @@
 ---
-title: 'Usługa innego dostawcy: łącznik usługi Google Analytics dla programu Power BI Desktop'
-description: 'Usługa innego dostawcy: łącznik usługi Google Analytics dla programu Power BI Desktop'
+title: 'Usługa innej firmy: Łącznik Google Analytics'
+description: 'Usługa innej firmy: Łącznik usługi Google Analytics dla programu Power BI Desktop'
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a0c98a8f65529575cb70fccec927c1ee00d9a089
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: b7451f156503d88baf4bdf3f3ae2cb99c04a94c1
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52669433"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025608"
 ---
 # <a name="google-analytics-connector-for-power-bi-desktop"></a>Łącznik usługi Google Analytics dla programu Power BI Desktop
 > [!NOTE]
 > Pakiet zawartości usługi Google Analytics oraz łącznik dla programu Power BI Desktop korzystają z interfejsu Core Reporting API usługi Google Analytics. Oznacza to, że funkcje i dostępność mogą z czasem ulec zmianie.
-> 
-> 
 
 Nawiązanie połączenia z danymi usługi Google Analytics jest możliwe za pomocą łącznika **Google Analytics**. Aby nawiązać połączenie, wykonaj następujące kroki:
 

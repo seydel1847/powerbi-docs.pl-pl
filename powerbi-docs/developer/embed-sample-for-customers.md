@@ -1,29 +1,30 @@
 ---
-title: Osadzanie zawartości usługi Power BI w aplikacji dla klientów
-description: Dowiedz się, jak integrować lub osadzać raport, pulpit nawigacyjny lub kafelek w aplikacji internetowej przy użyciu interfejsów API usługi Power BI dla klientów.
+title: Analiza osadzona służąca do osadzania zawartości usługi Power BI w aplikacji dla klientów
+description: Dowiedz się, jak integrować lub osadzać raport, pulpit nawigacyjny lub kafelek w aplikacji przy użyciu interfejsów API usługi Power BI obsługujących analizę osadzoną dla klientów. Dowiedz się więcej na temat sposobu integrowania usługi Power BI w aplikacji przy użyciu oprogramowania analizy osadzonej, narzędzi do analizy osadzonej lub narzędzi do osadzonej analizy biznesowej.
 author: markingmyname
 ms.author: maghan
 manager: kfile
+ms.reviewer: ''
 ms.topic: tutorial
 ms.service: powerbi
 ms.component: powerbi-developer
-ms.custom: mvc
-ms.date: 10/17/2018
-ms.openlocfilehash: cb517d62e64e8ef17be07315112faac331b534d3
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.custom: seodec18
+ms.date: 12/10/2018
+ms.openlocfilehash: e396f46987ef14aac9361e8f7ef41e90b2d8383e
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452711"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180880"
 ---
-# <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-customers"></a>Samouczek: osadzanie raportu, pulpitu nawigacyjnego lub kafelka usługi Power BI w aplikacji dla klientów
+# <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-customers"></a>Samouczek: Osadzanie raportu, pulpitu nawigacyjnego lub kafelka usługi Power BI w aplikacji dla klientów
 
-Usługa **Power BI Embedded na platformie Azure** umożliwia osadzanie raportów, pulpitów nawigacyjnych lub kafelków w aplikacji przy użyciu struktury **app owns data** (aplikacja jest właścicielem danych). Struktura **app owns data** dotyczy posiadania aplikacji, która używa usługi Power BI jako osadzonej platformy do analizy. Używanie struktury **app owns data** jest zazwyczaj scenariuszem obejmującym **dewelopera ISV**. Jako **deweloper ISV** możesz tworzyć zawartość usługi **Power BI** służącą do wyświetlania raportów, pulpitów nawigacyjnych lub kafelków w aplikacji, która jest w pełni zintegrowana i interaktywna — użytkownicy aplikacji nie muszą posiadać licencji usługi Power BI. W tym samouczku przedstawiono sposób integrowania raportu w aplikacji przy użyciu zestawu .NET SDK usługi **Power BI** z interfejsem API języka JavaScript usługi **Power BI** w przypadku używania usługi **Power BI Embedded na platformie Azure**  dla klientów korzystających ze struktury **app owns data**.
+Usługa **Power BI Embedded na platformie Azure** umożliwia osadzanie raportów, pulpitów nawigacyjnych lub kafelków w aplikacji przy użyciu struktury „app owns data” (aplikacja jest właścicielem danych). Struktura **app owns data** dotyczy posiadania aplikacji, która używa usługi Power BI jako osadzonej platformy do analizy. Jako **deweloper ISV** możesz tworzyć zawartość usługi Power BI służącą do wyświetlania raportów, pulpitów nawigacyjnych lub kafelków w aplikacji, która jest w pełni zintegrowana i interaktywna. Użytkownicy nie mieć licencji usługi Power BI. W tym samouczku przedstawiono sposób integrowania raportu w aplikacji przy użyciu zestawu .NET SDK usługi Power BI z interfejsem API języka JavaScript usługi Power BI w przypadku używania usługi **Power BI Embedded na platformie Azure** dla klientów.
 
 Z tego samouczka dowiesz się, jak wykonywać następujące czynności:
->[!div class="checklist"]
->* Rejestrowanie aplikacji na platformie Azure.
->* Osadzanie raportu usługi Power BI w aplikacji.
+> [!div class="checklist"]
+> * Rejestrowanie aplikacji na platformie Azure.
+> * Osadzanie raportu usługi Power BI w aplikacji.
 
 ## <a name="prerequisites"></a>Wymagania wstępne
 
@@ -38,7 +39,7 @@ Do rozpoczęcia pracy potrzebne jest konto usługi **Power BI Pro** (**konto gł
 
 Przed rozpoczęciem osadzania raportów, pulpitów nawigacyjnych lub kafelków w aplikacji należy upewnić się, że dane środowisko zezwala na osadzanie za pomocą usługi Power BI.
 
-Możesz użyć [narzędzia obsługi dołączania](https://aka.ms/embedsetup/AppOwnsData), aby szybko zacząć pracę i pobrać przykładową aplikację, która pomoże przeprowadzić Cię przez proces tworzenia środowiska i osadzania raportu.
+Możesz użyć [narzędzia obsługi dołączania](https://aka.ms/embedsetup/AppOwnsData), aby umożliwić szybkie rozpoczęcie pracy i pobranie przykładowej aplikacji, która pomoże przeprowadzić Cię przez proces tworzenia środowiska i osadzania raportu.
 
 Jeśli jednak chcesz ręcznie skonfigurować środowisko, kontynuuj czytanie.
 
@@ -63,7 +64,7 @@ Aplikację można zarejestrować w usłudze Azure Active Directory, aby zapewni�
 
 ### <a name="apply-permissions-to-your-application-within-azure-active-directory"></a>Stosowanie uprawnień do aplikacji w usłudze Azure Active Directory
 
-Włącz dodatkowe uprawnienia aplikacji oprócz tych, które zostały podane na stronie rejestrowania aplikacji. Zaloguj się przy użyciu konta *głównego*, którego używasz do osadzania. Konto główne musi być kontem administratora globalnego.
+Włącz dodatkowe uprawnienia aplikacji w tym te, które zostały podane na stronie rejestrowania aplikacji. Zaloguj się przy użyciu konta *głównego*, którego używasz do osadzania. Konto główne musi być kontem administratora globalnego.
 
 ### <a name="use-the-azure-active-directory-portal"></a>Korzystanie z portalu usługi Azure Active Directory
 
@@ -97,7 +98,7 @@ Włącz dodatkowe uprawnienia aplikacji oprócz tych, które zostały podane na 
 
 8. W obszarze **Wymagane uprawnienia** wybierz pozycję **Udziel uprawnień**.
 
-    Wykonanie akcji **Udziel uprawnień** jest konieczne, aby usługa Azure AD nie wysyłała do *konta głównego* monitów o wyrażenie zgody. Jeśli konto, z którego wykonywana jest ta akcja, jest kontem administratora globalnego, musisz udzielić uprawnień do tej aplikacji wszystkim użytkownikom w swojej organizacji. Jeśli jest to *konto główne*, które nie ma uprawnień administratora globalnego, musisz udzielić uprawnień do tej aplikacji tylko *kontu głównemu*.
+    Wykonanie akcji **Udziel uprawnień** jest konieczne, aby usługa Azure AD nie wysyłała do *konta głównego* monitów o wyrażenie zgody. Jeśli konto, z którego wykonywana jest ta akcja, jest kontem administratora globalnego, musisz udzielić uprawnień do tej aplikacji wszystkim użytkownikom w organizacji. Jeśli jest to *konto główne*, które nie ma uprawnień administratora globalnego, musisz udzielić uprawnień do tej aplikacji tylko *kontu głównemu*.
 
     ![Udzielanie uprawnień w oknie dialogowym Wymagane uprawnienia](media/embed-sample-for-customers/embed-sample-for-customers-016.png)
 
@@ -115,7 +116,7 @@ W przypadku osadzania raportów, pulpitów nawigacyjnych lub kafelków dla klien
 
     ![Nazywanie obszaru roboczego](media/embed-sample-for-customers/embed-sample-for-customers-021.png)
 
-3. Istnieje kilka opcji do ustawienia. Jeśli wybierzesz opcję **Publiczny**, wszystkie osoby w organizacji będą mogły zobaczyć zawartość tego obszaru roboczego. Z drugiej strony opcja **Prywatny** oznacza, że tylko członkowie obszaru roboczego będą mogli wyświetlić jego zawartość.
+3. Istnieje kilka opcji do ustawienia. Jeśli wybierzesz opcję **Publiczny**, wszystkie osoby w organizacji będą mogły zobaczyć zawartość tego obszaru roboczego. Jeśli wybierz opcję **Prywatny**, tylko członkowie obszaru roboczego będą mogli wyświetlić jego zawartość.
 
     ![Prywatny/Publiczny](media/embed-sample-for-customers/embed-sample-for-customers-022.png)
 
@@ -214,7 +215,7 @@ Mimo że kroki osadzania zawartości można wykonać przy użyciu [interfejsów 
 
 Osadzanie dla klientów w ramach aplikacji wymaga pobrania **tokenu dostępu** dla konta głównego z usługi **Azure AD**. Przed wykonywaniem wywołań do [interfejsów API REST usługi Power BI](https://docs.microsoft.com/rest/api/power-bi/) wymagane jest pobranie [tokenu dostępu usługi Azure AD](get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data) dla aplikacji usługi Power BI za pomocą struktury **app owns data**.
 
-Aby utworzyć klienta usługi Power BI przy użyciu **tokenu dostępu**, utwórz obiekt klienta usługi Power BI, który pozwala na interakcję z [interfejsami API REST usługi Power BI](https://docs.microsoft.com/rest/api/power-bi/). Jest to realizowane przez opakowywanie tokenu **AccessToken** w obiekt ***Microsoft.Rest.TokenCredentials***.
+Aby utworzyć klienta usługi Power BI przy użyciu **tokenu dostępu**, utwórz obiekt klienta usługi Power BI, który pozwala na interakcję z [interfejsami API REST usługi Power BI](https://docs.microsoft.com/rest/api/power-bi/). Obiekt klienta usługi Power BI jest tworzony przez opakowywanie tokenu **AccessToken** przy użyciu obiektu ***Microsoft.Rest.TokenCredentials***.
 
 ```csharp
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
@@ -223,7 +224,7 @@ using Microsoft.PowerBI.Api.V2;
 
 var tokenCredentials = new TokenCredentials(authenticationResult.AccessToken, "Bearer");
 
-// Create a Power BI Client object. It is used to call Power BI APIs.
+// Create a Power BI Client object. it's used to call Power BI APIs.
 using (var client = new PowerBIClient(new Uri(ApiUrl), tokenCredentials))
 {
     // Your code to embed items.
@@ -251,7 +252,7 @@ Report report = reports.Value.FirstOrDefault();
 
 ### <a name="create-the-embed-token"></a>Tworzenie tokenu osadzania
 
-Należy wygenerować token osadzania, którego można używać z poziomu interfejsu API języka JavaScript. Token osadzania jest specyficzny dla osadzanego elementu. Za każdym razem, gdy osadzasz fragment zawartości usługi Power BI, musisz utworzyć dla niego nowy token. Aby uzyskać więcej informacji, łącznie z tym, którego parametru **accessLevel** używać, zobacz [GenerateToken API (Interfejs API generowania tokenu)](https://msdn.microsoft.com/library/mt784614.aspx).
+Wygenerowano token osadzania, którego można używać z poziomu interfejsu API języka JavaScript. Token osadzania jest specyficzny dla osadzanego elementu. Za każdym razem, gdy osadzasz fragment zawartości usługi Power BI, musisz utworzyć dla niego nowy token. Aby uzyskać więcej informacji, łącznie z tym, którego parametru **accessLevel** używać, zobacz [GenerateToken API (Interfejs API generowania tokenu)](https://msdn.microsoft.com/library/mt784614.aspx).
 
 Oto przykład dodawania tokenu osadzania dla raportu do aplikacji.
 
@@ -274,13 +275,13 @@ var embedConfig = new EmbedConfig()
 };
 ```
 
-Założono, że utworzono klasę **EmbedConfig** i **TileEmbedConfig**. Przykład tych klas jest dostępny w plikach **Models\EmbedConfig.cs** i **Models\TileEmbedConfig.cs**.
+Jest tworzona klasa **EmbedConfig** i **TileEmbedConfig**. Przykład jest dostępny w plikach **Models\EmbedConfig.cs** i **Models\TileEmbedConfig.cs**.
 
 ### <a name="load-an-item-using-javascript"></a>Ładowanie elementu przy użyciu języka JavaScript
 
 Do załadowania raportu do elementu div na stronie internetowej można użyć języka JavaScript.
 
-Aby uzyskać pełen przykład użycia interfejsu API języka JavaScript, można użyć [narzędzia Playground](https://microsoft.github.io/PowerBI-JavaScript/demo). Jest to szybki sposób na zapoznanie się z różnymi typami przykładów usługi Power BI Embedded. Więcej informacji na temat interfejsu API języka JavaScript możesz również uzyskać, odwiedzając [stronę wiki Power BI-JavaScript](https://github.com/Microsoft/powerbi-javascript/wiki).
+Aby uzyskać pełen przykład użycia interfejsu API języka JavaScript, można użyć [narzędzia Playground](https://microsoft.github.io/PowerBI-JavaScript/demo). Narzędzie Playground oferuje szybki sposób na zapoznanie się z różnymi typami przykładów usługi Power BI Embedded. Więcej informacji na temat interfejsu API języka JavaScript możesz również uzyskać, odwiedzając [stronę wiki Power BI-JavaScript](https://github.com/Microsoft/powerbi-javascript/wiki).
 
 Poniżej znajduje się przykład używający modelu **EmbedConfig** i modelu **TileEmbedConfig** wraz z widokami dla raportu.
 
@@ -348,13 +349,13 @@ Określ na podstawie poniższej tabeli, jaka pojemność usługi Power BI Embedd
 
 **_Podobnie jak w przypadku jednostek SKU A, nie można uzyskiwać dostępu do zawartości usługi Power BI z użyciem BEZPŁATNEJ licencji usługi Power BI._**
 
-Użycie tokenów osadzania z licencjami PRO jest przeznaczone do celów testowania podczas programowania, więc liczba tokenów osadzania, które może wygenerować konto główne usługi Power BI, jest ograniczona. Aby umożliwić osadzanie w środowisku produkcyjnym, należy zakupić pojemność dedykowaną. Nie ma żadnego ograniczenia liczby generowanych tokenów osadzania za pomocą pojemności dedykowanej. Przejdź do sekcji [Available Features](https://docs.microsoft.com/rest/api/power-bi/availablefeatures/getavailablefeatures) (Dostępne funkcje), aby sprawdzić wartość użycia, która wskazuje bieżące użycie osadzania w procentach. Wielkość użycia opera się na koncie głównym.
+Użycie tokenów osadzania z licencjami PRO jest przeznaczone do celów testowania podczas programowania, więc liczba tokenów osadzania, które może wygenerować konto główne usługi Power BI, jest ograniczona. Do osadzania w środowisku produkcyjnym jest wymagana pojemność dedykowana. Nie ma żadnego ograniczenia liczby tokenów osadzania generowanych w obrębie pojemności dedykowanej. Przejdź do sekcji [Available Features](https://docs.microsoft.com/rest/api/power-bi/availablefeatures/getavailablefeatures) (Dostępne funkcje), aby sprawdzić wartość użycia, która wskazuje bieżące użycie osadzania w procentach. Wielkość użycia opera się na koncie głównym.
 
-Więcej informacji można znaleźć w [oficjalnym dokumencie dotyczącym planowania pojemności na potrzeby osadzonej analizy](https://aka.ms/pbiewhitepaper).
+Więcej informacji można znaleźć w [oficjalnym dokumencie dotyczącym planowania pojemności na potrzeby analizy osadzonej](https://aka.ms/pbiewhitepaper).
 
 ### <a name="assign-an-app-workspace-to-a-dedicated-capacity"></a>Przypisywanie obszaru roboczego aplikacji do pojemności dedykowanej
 
-Po utworzeniu pojemności dedykowanej możesz do niej przypisać obszar roboczy aplikacji. Aby zakończyć ten proces, wykonaj następujące kroki.
+Po utworzeniu pojemności dedykowanej możesz do niej przypisać obszar roboczy aplikacji. Aby przypisać pojemność dedykowaną do obszaru roboczego, wykonaj następujące kroki.
 
 1. W ramach **usługi Power BI** rozwiń obszary robocze i wybierz przycisk wielokropka dla obszaru roboczego, za pomocą którego osadzasz zawartość. Następnie wybierz pozycję **Edytuj obszary robocze**.
 

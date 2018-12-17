@@ -1,21 +1,22 @@
 ---
-title: Używanie parametrów analizy warunkowej w celu wizualizacji zmiennych w usłudze Power BI Desktop
+title: Używanie parametrów analizy warunkowej w celu wizualizacji zmiennych
 description: Tworzenie własnej zmiennej analizy warunkowej w celu wyobrażenia i wizualizacji zmiennych w raportach usługi Power BI
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/10/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 926ef4aedf7c56af6f79cbbf1c7810cb3aee670b
-ms.sourcegitcommit: 126e5eca8bfab6273581dabd7603df88be755240
+ms.openlocfilehash: 6a69a6f852f6a37649b152a3c0ba0e469b555b37
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/11/2018
-ms.locfileid: "40256906"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025194"
 ---
 # <a name="create-and-use-a-what-if-parameter-to-visualize-variables-in-power-bi-desktop"></a>Tworzenie i używanie parametrów analizy warunkowej w celu wizualizacji zmiennych w usłudze Power BI Desktop
 Wersja programu **Power BI Desktop** wydana w sierpniu 2018 r. umożliwia tworzenie zmiennych **analizy warunkowej** dla raportów, używanie zmiennych jako fragmentatorów oraz wizualizowanie i szacowanie różnych wartości kluczowych w raportach.

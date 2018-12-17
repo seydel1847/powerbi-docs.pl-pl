@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 09/19/2018
+ms.date: 12/07/2018
 ms.author: maggies
-ms.openlocfilehash: 1d74ed5e39d73252d0779458d0ba8619908c99f2
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: a4914bf0fb6945bc5ee45bdf6559ca75bbd7c2b5
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565917"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180949"
 ---
 # <a name="install-power-bi-report-server"></a>Instalowanie serwera raportów usługi Power BI
 
@@ -26,6 +26,10 @@ Aby pobrać serwer raportów usługi Power BI, przejdź do tematu [Raportowanie 
 
 ## <a name="before-you-begin"></a>Zanim rozpoczniesz
 Przed zainstalowaniem serwera raportów usługi Power BI zalecane jest przejrzenie tematu [Wymagania sprzętowe i programowe dotyczące instalowania serwera raportów usługi Power BI](system-requirements.md).
+
+ > [!IMPORTANT]
+ > Serwer raportów usługi Power BI można zainstalować w środowisku z kontrolerem domeny tylko do odczytu (RODC), jednak aby serwer raportów usługi Power BI działał prawidłowo, potrzebuje dostępu do kontrolera domeny do odczytu i zapisu. Jeśli serwer raportów usługi Power BI ma dostęp tylko do kontrolera RODC, podczas wykonywania zadań administracyjnych mogą wystąpić błędy.
+
 
 ### <a name="power-bi-report-server-product-key"></a>Klucz produktu serwera raportów usługi Power BI
 

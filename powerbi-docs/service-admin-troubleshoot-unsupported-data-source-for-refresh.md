@@ -9,13 +9,14 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
+ms.custom: seodec18
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 864e7a3d78386f6996d866f45558add3b51faa69
-ms.sourcegitcommit: ba447d7cc94418d7d3cf6fdcb686ec1a859258a8
+ms.openlocfilehash: 08931086d05ca3fe7edba2cd195a4f6f61cfccc7
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 07/02/2018
-ms.locfileid: "37145194"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025922"
 ---
 # <a name="troubleshooting-unsupported-data-source-for-refresh"></a>Rozwiązywanie problemów ze źródłem danych, którego odświeżanie nie jest obsługiwane
 Podczas próby konfigurowania zaplanowanego odświeżania zestawu danych może zostać wyświetlony błąd.
@@ -28,13 +29,13 @@ Dzieje się tak, jeśli odświeżanie źródła danych używanego w programie Po
 Jeśli nie masz pewności, jakie źródło danych jest używane, możesz to sprawdzić za pomocą poniższych kroków w programie Power BI Desktop.  
 
 1. W programie Power BI Desktop przejdź do okienka **Raport**.  
-   ![](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-report-pane.png)
+   ![Okienko raportu programu Desktop](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-report-pane.png)
 2. Wybierz pozycję **Edytuj zapytania** na wstążce.  
-   ![](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-edit-queries.png)
+   ![Edytowanie zapytań](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-edit-queries.png)
 3. Wybierz pozycję **Edytor zaawansowany**.  
-   ![](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-advanced-editor.png)
+   ![Edytor zaawansowany](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-advanced-editor.png)
 4. Zanotuj nazwę dostawcy źródła.  W tym przykładzie dostawca to ActiveDirectory.  
-   ![](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-provider.png)
+   ![Dostawca źródła danych](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-provider.png)
 5. Sprawdź, czy dostawca znajduje się na liście obsługiwanych źródeł danych w artykule [Odświeżanie danych w usłudze Power BI](refresh-data.md).  Zobaczysz, że odświeżanie źródła danych Active Directory nie jest obsługiwane.  
 
 ## <a name="next-steps"></a>Następne kroki

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: b69b84c7c61227ef7a827722c86f54100bd2f3b7
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 258b526c08615a81f3cc940fc3b9f2fcda063a12
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51268012"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180650"
 ---
 # <a name="link-entities-between-dataflows-in-power-bi-preview"></a>Łączenie jednostek między przepływami danych w usłudze Power BI (wersja zapoznawcza)
 
@@ -32,6 +32,12 @@ Połączone jednostki są przeznaczone **tylko do odczytu**. Jeśli chcesz utwor
 Do odświeżania połączonych jednostek jest wymagana subskrypcja usługi [Power BI Premium](service-premium.md). Połączone jednostki są dostępne w dowolnym przepływie danych w obszarze roboczym hostowanym w usłudze Power BI Premium. Źródłowy przepływ danych nie ma żadnych ograniczeń.
 
 Połączone jednostki działają prawidłowo tylko w nowych obszarach roboczych usługi Power BI. Dowiedz się więcej o [nowych obszarach roboczych usługi Power BI](service-create-the-new-workspaces.md). Aby wszystkie połączone przepływy danych działały prawidłowo, muszą znajdować się w nowych obszarach roboczych.
+
+> [!NOTE]
+> Jednostki różnią się w zależności od tego, czy są to jednostki standardowe czy obliczone. Jednostki standardowe (często określane jako jednostki) wykonują zapytania o zewnętrzne źródło danych, takie jak baza danych SQL. Obliczone jednostki wymagają pojemności Premium w usłudze Power BI i uruchamiają przekształcenia w obrębie danych, które już znajdują się w magazynie usługi Power BI. 
+>
+>Jeśli przepływ danych znajduje się poza obszarem roboczym w pojemności Premium, nadal można odwoływać się do jednego zapytania lub łączyć co najmniej dwa zapytania, o ile przekształcenia nie zostały zdefiniowane jako przekształcenia w magazynie. Takie odwołania są traktowane jak jednostki standardowe. W tym celu wyłącz opcję **Włącz obciążenie** dla przywoływanych zapytań, aby zapobiec materializowaniu danych i pozyskiwaniu ich do magazynu. Z tego miejsca możesz odwoływać się do zapytań **Włącz obciążenie = false** i ustawiać opcję **Włącz obciążenie** na **Wł.** tylko dla zapytań wynikowych, które mają być materializowane.
+
 
 ## <a name="how-to-link-entities-between-dataflows"></a>Jak łączyć jednostki między przepływami danych
 

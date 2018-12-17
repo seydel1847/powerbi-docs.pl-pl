@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/06/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 360ffdd61525244bd75e57c8c9c9aad25131a13d
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 92af01b7020f734f286d927650e58a5fea5d8047
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51267994"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180834"
 ---
 # <a name="self-service-data-prep-in-power-bi-preview"></a>Przygotowywanie danych samoobsługi w usłudze Power BI (wersja zapoznawcza)
 
@@ -25,7 +25,7 @@ W miarę wzrostu ilości danych zwiększają się wyzwania związane z przekszta
 
 Usługa Power BI wprowadza **przepływy danych**, aby pomóc organizacjom w ujednolicaniu danych z różnych źródeł i przygotowywaniu ich do modelowania. Analitycy mogą łatwo tworzyć przepływy danych przy użyciu dobrze znanych narzędzi samoobsługi. Przepływy danych są używane do pozyskiwania, przekształcania, integrowania i wzbogacania danych big data przez definiowanie połączeń ze źródłami danych, logiki ETL, harmonogramów odświeżania i innych elementów. Ponadto nowy aparat obliczeń oparty na modelu, który stanowi część przepływów danych, sprawia, że proces przygotowywania danych jest łatwiejszy do zarządzania, bardziej deterministyczny i wygodniejszy dla analityków danych oraz twórców raportu. Podobnie jak arkusze kalkulacyjne obsługują ponowne obliczenia dla wszystkich uwzględnionych formuł, przepływy danych zarządzają zmianami jednostki lub elementu danych w imieniu użytkownika, automatyzując aktualizacje oraz łagodząc wpływ uciążliwych i czasochłonnych operacji sprawdzania logiki nawet w przypadku podstawowego odświeżania danych. Dzięki przepływom danych zadania, które do tej pory wymagały nadzoru analityków danych (oraz wielu godzin lub dni na ukończenie), analitycy danych i twórcy raportów mogą teraz obsługiwać za pomocą kilku kliknięć. 
 
-Dane są przechowywane jako jednostki w [modelu **Common Data Model**](https://docs.microsoft.com/powerapps/common-data-model/overview) w usłudze Azure Data Lake Storage Gen2. Przepływy danych są tworzone i zarządzane w obszarach roboczych aplikacji za pomocą usługi Power BI.  
+Dane są przechowywane jako jednostki w modelu [**Common Data Model**](https://docs.microsoft.com/powerapps/common-data-model/overview) w usłudze Azure Data Lake Storage Gen2. Przepływy danych są tworzone i zarządzane w obszarach roboczych aplikacji za pomocą usługi Power BI.  
 
 > [!NOTE]
 > Funkcjonalność przepływów danych jest dostępna w wersji zapoznawczej. Przed przejściem do wersji ogólnodostępnej może ona podlegać zmianom i aktualizacjom.
@@ -68,6 +68,7 @@ Usługę Power BI można skonfigurować tak, aby przechowywała dane przepływu 
 
 Usługa Power BI może również łączyć się z folderami przy użyciu danych objętych schematem w formacie Common Data Model, które są przechowywane na koncie usługi Azure Data Lake Storage organizacji. Te foldery mogą być tworzone przez usługi, takie jak usługi danych platformy Azure. Dzięki połączeniu z folderami analitycy mogą bezproblemowo współpracować z tymi danymi w usłudze Power BI. 
 
+Aby uzyskać więcej informacji na temat integracji usługi Azure Data Lake Storage Gen2 i przepływów danych, w tym na temat sposobu tworzenia przepływów danych znajdujących się w usłudze Azure Data Lake organizacji, zobacz artykuł [Integracja przepływów danych z usługą Azure Data Lake (wersja zapoznawcza)](service-dataflows-azure-data-lake-integration.md).
 
 ## <a name="dataflow-capabilities-on-power-bi-premium"></a>Możliwości przepływów danych w usłudze Power BI Premium
 
@@ -105,9 +106,6 @@ Przechowując dane biznesowe w standaryzowanym formacie modelu **Common Data Mod
 * Wprowadzenie do przepływów danych dla deweloperów
 
 
-
-
-
 ## <a name="next-steps"></a>Następne kroki
 
 W tym artykule omówiono proces przygotowywania danych samoobsługi dla danych big data w usłudze Power BI oraz różne sposoby korzystania z tych danych. Poniższe artykuły zawierają bardziej szczegółowe informacje na temat typowych scenariuszy użycia przepływów danych. 
@@ -116,6 +114,7 @@ W tym artykule omówiono proces przygotowywania danych samoobsługi dla danych b
 * [Używanie obliczonych jednostek w usłudze Power BI Premium (wersja zapoznawcza)](service-dataflows-computed-entities-premium.md)
 * [Używanie przepływów danych z lokalnymi źródłami danych (wersja zapoznawcza)](service-dataflows-on-premises-gateways.md)
 * [Zasoby dla deweloperów dotyczące przepływów danych usługi Power BI (wersja zapoznawcza)](service-dataflows-developer-resources.md)
+* [Integracja przepływów danych z usługą Azure Data Lake (wersja zapoznawcza)](service-dataflows-azure-data-lake-integration.md)
 
 Aby uzyskać więcej informacji na temat dodatku Power Query oraz zaplanowanego odświeżania, możesz przeczytać następujące artykuły:
 * [Omówienie zapytań w programie Power BI Desktop](desktop-query-overview.md)

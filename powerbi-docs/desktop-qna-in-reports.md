@@ -1,21 +1,21 @@
 ---
 title: Używanie funkcji pytań i odpowiedzi w programie Power BI Desktop
 description: W programie Power BI Desktop można teraz używać zapytań w języku naturalnym za pomocą funkcji pytań i odpowiedzi.
-author: davidiseminger
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
-ms.author: davidi
+ms.date: 12/05/2018
+ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8c0736728d1dfce5a571eb1950670bc9fc9fa1c1
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 4a9ab6173422ec2f897050b2f456847b342e9fa2
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670767"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026735"
 ---
 # <a name="use-qa-in-power-bi-desktop-for-natural-language-queries"></a>Używanie funkcji pytań i odpowiedzi dla zapytań w języku naturalnym w programie Power BI Desktop
 Używanie typowych fraz i języka naturalnego w celu zadawania pytań na temat danych daje dużo możliwości. Jest to o wiele bardziej skuteczne, gdy dane „odpowiadają” — to właśnie umożliwia funkcja pytań i odpowiedzi w programie **Power BI Desktop**.
@@ -25,9 +25,6 @@ Aby umożliwić funkcji pytań i odpowiedzi prawidłowe interpretowanie dużych 
 > [!NOTE]
 > Funkcja pytań i odpowiedzi jest dostępna tylko podczas pracy z modelem, który zawiera **zaimportowane** dane. Połączenia na żywo z modelami SSAS i DirectQuery nie są obsługiwane.
 >
->
-
-> [!NOTE]
 > Jeśli używasz systemu Windows starszego niż system Windows 10, funkcja pytań i odpowiedzi wymaga poniższej aktualizacji środowiska uruchomieniowego języka C. Możesz spróbować zainstalować ważne aktualizacje z witryny Windows Update lub ręcznie zainstalować wymagany składnik udostępniany przez firmę Microsoft (KB2999226). https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows
 >
 >
@@ -49,11 +46,11 @@ Jeśli w modelu brakuje relacji między tabelami, to ani raporty usługi Power B
 
 ## <a name="rename-tables-and-columns"></a>Zmienianie nazw tabel i kolumn
 
-Wybór tabel i kolumn jest bardzo ważny dla funkcji pytań i odpowiedzi. Jeśli na przykład masz tabelę o nazwie *CustomerSummary*, która zawiera listę klientów, należałoby zadawać pytania w stylu „List the customer summaries in Chicago” (Wyświetl listę podsumowań klientów w Chicago) zamiast „List the customers in Chicago” (Wyświetl listę klientów w Chicago). 
+Wybór tabel i kolumn jest ważny dla funkcji pytań i odpowiedzi. Na przykład załóżmy, że masz tabelę o nazwie *CustomerSummary* zawierającą listę klientów. Należałoby zadać pytania typu „List the customer summaries in Chicago” (Wyświetl podsumowania klientów Chicago), a nie „List the customers in Chicago” (Wymień klientów w Chicago). 
 
 Funkcja pytań i odpowiedzi potrafi w pewnym stopniu rozdzielać wyrazy i wykrywać liczbę mnogą, jednak zakłada, że nazwy tabel i kolumn dokładnie odzwierciedlają ich zawartość.
 
-Rozważmy inny przykład. Wyobraź sobie, że masz tabelę o nazwie *Headcount*, zawierającą imiona i nazwiska oraz numery pracowników, i drugą tabelę o nazwie *Employees*, zawierającą numery pracowników, numery zadań i daty rozpoczęcia. Być może jest to zrozumiałe dla osób znających ten model, jednak gdy ktoś inny zapyta „count the employees” (policz pracowników), otrzyma liczbę wierszy z tabeli „Employees”, a raczej nie o to chodziło, ponieważ jest to liczba wszystkich zadań wykonywanych kiedykolwiek przez każdego pracownika. Byłoby o wiele lepiej, gdyby nazwy tych tabel odzwierciedlały ich rzeczywistą zawartość.
+Rozważmy inny przykład. Wyobraź sobie, że masz tabelę o nazwie *Headcount* (Stan osobowy) zawierającą imiona i nazwiska oraz numery pracowników. Masz drugą tabelę o nazwie *Employees* (Pracownicy) zawierającą numery pracowników, numery zadań i daty rozpoczęcia. Osoby, które znają model, mogą zrozumieć tę strukturę. Ktoś, kto poprosi „count the employees” (policz pracowników), uzyska liczbę wierszy z tabeli „Employees” (Pracownicy). Wynik będzie prawdopodobnie inny niż oczekiwany, ponieważ będzie to liczba wszystkich stanowisk pełnionych przez każdego pracownika. Byłoby o lepiej, gdyby nazwy tych tabel odzwierciedlały ich rzeczywistą zawartość.
 
 **Wymaga pracy**
 
@@ -65,7 +62,7 @@ Rozważmy inny przykład. Wyobraź sobie, że masz tabelę o nazwie *Headcount*,
 
 ## <a name="fix-incorrect-data-types"></a>Poprawianie nieprawidłowych typów danych
 
-Importowane dane mogą mieć nieprawidłowe typy danych. W szczególności kolumny typu *data* i *liczba*, które są importowane jako *ciągi*, nie będą interpretowane przez funkcję pytań i odpowiedzi jako daty i liczby. Upewnij się, że wybierasz prawidłowy typ danych w swoim modelu usługi Power BI.
+Importowane dane mogą mieć nieprawidłowe typy danych. W szczególności kolumny typu *data* i *liczba*, które są importowane jako *ciągi*, nie są interpretowane przez funkcję pytań i odpowiedzi jako daty i liczby. Upewnij się, że wybierasz prawidłowy typ danych w modelu usługi Power BI.
 
 ![wybieranie prawidłowego typu danych w celu zapewniania ich dostępności dla funkcji pytań i odpowiedzi](media/desktop-qna-in-reports/desktop-qna_05.png)
 
@@ -77,7 +74,7 @@ Usługa Power BI domyślnie agreguje kolumny liczbowe, więc pytania takie jak �
 
 ## <a name="choose-a-data-category-for-each-date-and-geography-column"></a>Wybieranie kategorii danych dla każdej kolumny daty i kolumny geograficznej
 
-**Kategoria danych** zapewnia dodatkową wiedzę semantyczną na temat zawartości kolumny (poza jej typem danych). Na przykład kolumna liczb całkowitych może być oznaczona jako kod pocztowy, kolumna typu ciąg może być oznaczona jako miasto, kraj lub region i tak dalej. Te informacje są używane przez funkcję pytań i odpowiedzi na dwa istotne sposoby: do wyboru wizualizacji i tendencji językowych.
+**Kategoria danych** zapewnia dodatkową wiedzę semantyczną na temat zawartości kolumny (poza jej typem danych). Na przykład kolumna liczb całkowitych może być oznaczona jako kod pocztowy, kolumna typu ciąg może być oznaczona jako miasto, kraj lub region i tak dalej. Te informacje są używane przez funkcję pytań i odpowiedzi na dwa istotne sposoby: Do wyboru wizualizacji i obsługi niuansów językowych.
 
 Po pierwsze, funkcja pytań i odpowiedzi używa informacji w polu **Kategoria danych**, aby lepiej wybrać rodzaj wizualizacji do wyświetlenia. Rozpoznaje na przykład, że kolumny o **kategorii danych** data lub godzina zazwyczaj są dobrym wyborem dla poziomej osi wykresu liniowego lub dla osi odtwarzania wykresu bąbelkowego. Zakłada również, że wyniki zawierające kolumny z geograficznymi **kategoriami danych** mogą wyglądać dobrze na mapie.
 
@@ -94,15 +91,15 @@ Właściwość **Sortuj według kolumny** umożliwia sortowanie jednej kolumny w
 
 ## <a name="normalize-your-model"></a>Normalizowanie modelu
 
-Nie obawiaj się, nie sugerujemy, że musisz przekształcić cały swój model. Jednak istnieją pewne struktury, które są tak skomplikowane, że funkcja pytań i odpowiedzi po prostu ich dobrze nie obsłuży. Jeśli przeprowadzisz podstawową normalizację struktury swojego modelu, użyteczność raportów usługi Power BI znacznie wzrośnie, tak samo jak dokładność wyników funkcji pytań i odpowiedzi.
+Nie obawiaj się, nie sugerujemy, że musisz przekształcić cały swój model. Jednak pewne struktury są tak skomplikowane, że funkcja pytań i odpowiedzi nie obsługuje ich prawidłowo. Jeśli przeprowadzisz podstawową normalizację struktury swojego modelu, użyteczność raportów usługi Power BI znacznie wzrośnie, tak samo jak dokładność wyników funkcji pytań i odpowiedzi.
 
-Ogólna zasada, której należy przestrzegać, jest następująca: każda unikatowa „rzecz”, o której mówi użytkownik, powinna być reprezentowana przez dokładnie jeden obiekt modelu (tabelę lub kolumnę). Jeśli więc użytkownicy mówią o klientach, powinien istnieć tylko jeden obiekt *klient*. A jeśli użytkownicy mówią o sprzedaży, powinien istnieć tylko jeden obiekt *sprzedaż*. Brzmi prosto, prawda? W zależności od kształtu danych, od których zaczynasz, może tak być. **Edytor zapytań** oferuje zaawansowane funkcje kształtowania danych, jeśli są one potrzebne, jednak wiele prostszych przekształceń można wykonać za pomocą obliczeń w modelu usługi Power BI.
+Postępuj zgodnie z regułą ogólną: Każda unikatowa „rzecz”, o której mówi użytkownik, powinna być reprezentowana przez dokładnie jeden obiekt modelu (tabelę lub kolumnę). Jeśli więc użytkownicy mówią o klientach, powinien istnieć tylko jeden obiekt *klient*. A jeśli użytkownicy mówią o sprzedaży, powinien istnieć tylko jeden obiekt *sprzedaż*. Brzmi prosto, prawda? W zależności od kształtu danych, od których zaczynasz, może tak być. **Edytor zapytań** oferuje zaawansowane funkcje kształtowania danych, jeśli są one potrzebne, jednak wiele prostszych przekształceń można wykonać za pomocą obliczeń w modelu usługi Power BI.
 
 W poniższych sekcjach opisano kilka typowych przekształceń, które być może trzeba będzie przeprowadzić.
 
 ### <a name="create-new-tables-for-multi-column-entities"></a>Tworzenie nowych tabel dla jednostek wielokolumnowych
 
-Jeśli masz wiele kolumn, które działają jako pojedyncza, odrębna jednostka w obrębie większej tabeli, należy te kolumny rozdzielić na ich własną tabelę. Jeśli na przykład masz kolumny Contact Name (Nazwa kontaktu), Contact Title (Tytuł kontaktu) i Contact Phone (Telefon kontaktu) w tabeli *Companies* (Firmy), lepiej byłoby utworzyć osobną tabelę *Contacts* (Kontakty) zawierającą kolumny Name (Nazwa), Title (Tytuł) i Phone (Telefon) oraz połączenie z tabelą *Companies* (Firmy). Znacznie ułatwia to zadawanie pytań o kontakty niezależnie od pytań o firmy, których te kontakty dotyczą, oraz poprawia elastyczność wyświetlania.
+Jeśli masz wiele kolumn, które działają jako pojedyncza, odrębna jednostka w obrębie większej tabeli, należy te kolumny rozdzielić na ich własną tabelę. Na przykład załóżmy, że masz kolumnę Imię i nazwisko kontaktu, Tytuł kontaktu i Telefon kontaktu w tabeli *Firmy*. Lepiej byłoby utworzyć osobną tabelę *Kontakty* z kolumnami Imię i nazwisko, Tytuł i Telefon oraz link do tabel *Firmy*. Ułatwia to zadawanie pytań o kontakty niezależnie od pytań o firmy, których te kontakty dotyczą, oraz poprawia elastyczność wyświetlania.
 
 **Wymaga pracy**
 
@@ -128,9 +125,9 @@ Rozważmy na przykład tabelę *CustomerDemographics* (Dane demograficzne klient
 
 ### <a name="union-to-eliminate-partitioning"></a>Składanie w celu wyeliminowania partycjonowania
 
-Jeśli dane zostały podzielone na partycje w wielu tabelach lub wartości zostały poprzestawiane w wielu kolumnach, użytkownicy nie będą w stanie wykonać wielu typowych operacji. Rozważ najpierw typowe partycjonowania tabel: tabela *Sales2000-2010* i tabela *Sales2011-2020*. Jeśli wszystkie ważne raporty są ograniczone do określonej dekady, prawdopodobnie można to tak zostawić na potrzeby raportów usługi Power BI. Jednak elastyczność funkcji pytań i odpowiedzi spowoduje, że użytkownicy będą oczekiwać odpowiedzi na pytania takie jak „całkowita sprzedaż według roku”. Aby to działało, musisz złożyć dane w jedną tabelę modelu usługi Power BI.
+Jeśli dane zostały podzielone na partycje w wielu tabelach lub wartości zostały poprzestawiane w wielu kolumnach, użytkownicy nie będą w stanie wykonać wielu typowych operacji. Rozważ najpierw typowe partycjonowania tabel: tabela *Sales2000-2010* i tabela *Sales2011-2020*. Jeśli wszystkie ważne raporty są ograniczone do określonej dekady, prawdopodobnie można to tak zostawić na potrzeby raportów usługi Power BI. Jednak elastyczność funkcji pytań i odpowiedzi spowoduje, że użytkownicy będą oczekiwać odpowiedzi na pytania takie jak „całkowita sprzedaż według roku”. Aby to zapytanie działało, musisz złożyć dane w jedną tabelę modelu usługi Power BI.
 
-Podobnie rozważ typową przestawioną kolumnę wartości: tabelę *BookTour* (Przewodnik po książkach) zawierającą kolumny Author (Autor), Book (Książka), City1 (Miasto1), City2 (Miasto2) i City3 (Miasto3). Przy takiej strukturze nawet proste pytanie, takie jak „count books by city” (zlicz książki według miasta), nie może zostać zinterpretowane poprawnie. Aby to działało, należy utworzyć oddzielną tabelę *BookTourCities* (Miasta przewodnika po książkach), która złoży wartości miasta w jedną kolumnę.
+Podobnie rozważ typową przestawioną kolumnę wartości: tabelę *BookTour* (Przewodnik po książkach) zawierającą kolumny Author (Autor), Book (Książka), City1 (Miasto1), City2 (Miasto2) i City3 (Miasto3). Przy takiej strukturze nawet proste pytanie, takie jak „count books by city” (zlicz książki według miasta), nie może zostać zinterpretowane poprawnie. Aby to zapytanie działało, utwórz oddzielną tabelę *BookTourCities* (Miasta przewodnika po książkach), która złoży wartości miasta w jedną kolumnę.
 
 **Wymaga pracy**
 
@@ -169,7 +166,7 @@ Jeśli źródło, z którego są importowane dane, zawiera kolumny z wieloma war
 
 ### <a name="denormalize-to-eliminate-inactive-relationships"></a>Denormalizowanie w celu wyeliminowania nieaktywnych relacji
 
-Jedynym wyjątkiem od reguły „normalizacja jest lepsza” jest przypadek, kiedy od jednej tabeli do drugiej prowadzi wiele ścieżek. Jeśli na przykład masz tabelę *Flights* (Loty) z kolumnami SourceCityID (Identyfikator miasta źródłowego) i DestinationCityID (Identyfikator miasta docelowego), i obydwie te kolumny są powiązane z tabelą *Cities* (Miasta), jedną z tych relacji trzeba oznaczyć jako nieaktywną. Ponieważ funkcja pytań i odpowiedzi korzysta tylko z aktywnych relacji, nie będzie można zadawać pytań o miasto źródłowe lub docelowe, w zależności od tego, które wybierzesz. Jeśli zamiast tego zdenormalizujesz kolumny z nazwami miast w tabelę *Flights* (Loty), będzie można zadawać pytania takie jak: „list the flights for tomorrow with a source city of Seattle and a destination city of San Francisco” (wymień jutrzejsze loty z miasta źródłowego Seattle do miasta docelowego San Francisco).
+Jedynym wyjątkiem od reguły „normalizacja jest lepsza” jest przypadek, kiedy od jednej tabeli do drugiej prowadzi wiele ścieżek. Załóżmy, że masz tabelę *Flights* (Loty) z kolumnami SourceCityID (Identyfikator miasta źródłowego) i DestinationCityID (Identyfikator miasta docelowego), a obydwie te kolumny są powiązane z tabelą *Cities* (Miasta). Jedną z tych relacji trzeba będzie oznaczyć jako nieaktywną. Ponieważ funkcja pytań i odpowiedzi korzysta tylko z aktywnych relacji, nie możesz zadawać pytań o miasto źródłowe lub docelowe, w zależności od tego, które wybierzesz. Jeśli zamiast tego denormalizujesz kolumny z nazwami miast w tabelę *Flights* (Loty), możesz zadawać pytania,takie jak: „list the flights for tomorrow with a source city of Seattle and a destination city of San Francisco” (wymień jutrzejsze loty z miasta źródłowego Seattle do miasta docelowego San Francisco).
 
 **Wymaga pracy**
 
@@ -183,7 +180,7 @@ Jedynym wyjątkiem od reguły „normalizacja jest lepsza” jest przypadek, kie
 
 Ten krok dotyczy w szczególności funkcji pytań i odpowiedzi (a nie ogólnie raportów usługi Power BI). Użytkownicy często określają tę samą rzecz za pomocą różnych terminów, na przykład sprzedaż całkowita, sprzedaż netto, całkowita sprzedaż netto. Model usługi Power BI umożliwia dodawanie tych synonimów do tabel i kolumn w obrębie modelu. 
 
-Może to być bardzo ważny krok. Nawet w przypadku dość jednoznacznych nazw kolumn i tabel, użytkownicy funkcji pytań i odpowiedzi zadają pytania przy użyciu słownictwa, które jako pierwsze przychodzi im do głowy, i nie wybierają z listy wstępnie zdefiniowanych kolumn. Im bardziej logiczne synonimy dodasz, tym wygodniejsze będzie korzystanie z Twoich raportów dla użytkowników. Aby dodać synonimy, w widoku **Relacje** wybierz przycisk Synonimy na wstążce, jak pokazano na poniższej ilustracji.
+Ten krok może być ważny. Nawet w przypadku dość jednoznacznych nazw kolumn i tabel, użytkownicy funkcji pytań i odpowiedzi zadają pytania przy użyciu słownictwa, które jako pierwsze przychodzi im do głowy, i nie wybierają z listy wstępnie zdefiniowanych kolumn. Im bardziej logiczne synonimy dodasz, tym wygodniejsze będzie korzystanie z Twoich raportów dla użytkowników. Aby dodać synonimy, w widoku **Relacje** wybierz przycisk Synonimy na wstążce, jak pokazano na poniższej ilustracji.
 
 ![Dodawanie synonimów na potrzeby funkcji pytań i odpowiedzi](media/desktop-qna-in-reports/desktop-qna_21.png)
 

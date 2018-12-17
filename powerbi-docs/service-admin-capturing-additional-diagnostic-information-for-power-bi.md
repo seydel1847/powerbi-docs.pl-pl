@@ -9,13 +9,14 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 06/28/2017
 ms.author: mblythe
+ms.custom: seodec18
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 76860e740d43a1907692a7cd4fed1a6df68c93d4
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 8a8ec433a6ebb620593648cdb222df0f60b2f21e
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34239227"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025171"
 ---
 # <a name="capturing-additional-diagnostic-information"></a>Przechwytywanie dodatkowych informacji diagnostycznych
 ## <a name="capturing-additional-diagnostic-information-for-power-bi"></a>Przechwytywanie dodatkowych informacji diagnostycznych dotyczących usługi Power BI
@@ -26,17 +27,17 @@ Instrukcje te zapewniają dwie potencjalne opcje ręcznego gromadzenia dodatkowy
 2. Otwórz narzędzia deweloperskie przeglądarki Edge, naciskając klawisz F12.
 3. Spowoduje to wyświetlenie okna Narzędzia dla deweloperów: 
    
-   ![](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-developer-tools.png)
+   ![Narzędzia deweloperskie](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-developer-tools.png)
 4. Przejdź do karty Sieć. Wyświetlony zostanie ruch, który został już przechwycony. 
    
-   ![](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-network-tab.png)
+   ![Karta Sieć w programie Edge](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-network-tab.png)
 5. Możesz wybrać w oknie i odtworzyć dowolny problem, który mógł wystąpić. Okno narzędzi dla deweloperów możesz w każdej chwili ukryć i pokazać podczas sesji, naciskając klawisz F12.
 6. Aby zatrzymać przechwytywanie, możesz wybrać czerwony kwadrat na karcie sieciowej w obszarze narzędzi dla deweloperów.
    
-   ![](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-network-tab-stop.png)
+   ![Zatrzymywanie przechwytywania](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-network-tab-stop.png)
 7. Wybierz ikonę dyskietki, aby **wyeksportować jako HAR**
    
-   ![](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-network-tab-save.png)
+   ![Eksportowanie pliku](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-network-tab-save.png)
 8. Podaj nazwę pliku i zapisz plik HAR.
    
     Plik HAR będzie zawierał wszystkie informacje dotyczące żądań sieci między oknem przeglądarki i usługą Power BI.  Obejmuje to identyfikatory działań dla każdego żądania, dokładny znacznik czasu dla każdego żądania oraz wszelkie informacje o błędzie zwracane do klienta.  Ten ślad zawiera również dane używane do wypełniania elementów wizualnych wyświetlonych na ekranie.

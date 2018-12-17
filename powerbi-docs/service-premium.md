@@ -9,13 +9,14 @@ ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/21/2018
+ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 451727d473b59afd362e4f31e8aef634d2168f83
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: cbfee8034639a65517f9adc57cc95dd1271e6044
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717636"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025447"
 ---
 # <a name="what-is-microsoft-power-bi-premium"></a>Czym jest usługa Microsoft Power BI Premium?
 
@@ -31,7 +32,7 @@ Na poniższej ilustracji przedstawiono relację między pojemnością Premium i 
 
 ![Ilustracja przedstawiająca usługę Power BI Premium](media/service-premium/premium-chart.png)
 
-| Obszar | Opis |
+| Warstwowy | Opis |
 | --- | --- |
 | **(1)** Elementy w ramach pojemności Premium | <ul><li>Uzyskiwanie dostępu do obszarów roboczych aplikacji (jako członkowie lub administratorzy) oraz publikowanie aplikacji wymaga licencji usługi Power BI Pro.<li>Udostępnianie aplikacji wymaga licencji Pro, ale korzystanie z aplikacji już nie.<li>Wszyscy odbiorcy pulpitu nawigacyjnego, niezależnie od przypisanej do nich licencji, mogą ustawiać alerty dotyczące danych.<li>Interfejsy API REST do osadzania używają konta usługi z licencją Pro, a nie konta użytkownika.</ul> |
 | **(2)** Mój obszar roboczy w pojemności udostępnionej | <ul><li>Udostępnianie i używanie aplikacji wymaga licencji Pro.</ul> |
@@ -45,11 +46,11 @@ W poniższej tabeli przedstawiono podsumowanie różnic między pojemnością ud
 |  | Pojemność udostępniona | Pojemność Power BI Premium |
 | --- | --- | --- |
 | **Częstotliwość odświeżania** |8/dzień |48/dzień |
-| **Izolacja z dedykowanym sprzętem** |![](media/service-premium/not-available.png "Niedostępne") |![](media/service-premium/available.png "Dostępne") |
+| **Izolacja z dedykowanym sprzętem** |![Niedostępne](media/service-premium/not-available.png) |![Dostępne](media/service-premium/available.png) |
 | **Dystrybucja na poziomie przedsiębiorstwa do** _**wszystkich użytkowników**_ | | |
-| Aplikacje i udostępnianie |![](media/service-premium/not-available.png "Niedostępne") |![](media/service-premium/available.png "Dostępne")<sup>1</sup> |
-| Osadzone interfejsy API i kontrolki |![](media/service-premium/not-available.png "Niedostępne") |![](media/service-premium/available.png "Dostępne")<sup>2</sup> |
-| **Publikowanie raportów usługi Power BI lokalnie** |![](media/service-premium/not-available.png "Niedostępne") |![](media/service-premium/available.png "Dostępne") |
+| Aplikacje i udostępnianie |![Niedostępne](media/service-premium/not-available.png) |![Dostępne](media/service-premium/available.png) |
+| Osadzone interfejsy API i kontrolki |![Niedostępne](media/service-premium/not-available.png) |![Niedostępne](media/service-premium/available.png)<sup>2</sup> |
+| **Publikowanie raportów usługi Power BI lokalnie** |![Niedostępne](media/service-premium/not-available.png) |![Dostępne](media/service-premium/available.png) |
 | | | |
 
 *<sup>1</sup> Aby uzyskać więcej informacji, zobacz [Power BI features by license type](service-features-license-type.md) (Funkcje usługi Power BI według typu licencji).*  
@@ -117,7 +118,7 @@ Jeśli używasz obciążenia raportów podzielonych na strony, weź pod uwagę n
 
 * **Raporty podzielone na strony są niedostępne**: w rzadkich przypadkach raporty podzielone na strony mogą stać się niedostępne. W takiej sytuacji obciążenie pokazuje stan błędu w portalu administracyjnym, a użytkownicy widzą przekroczenia limitu czasu renderowania raportu. Aby rozwiązać ten problem, wyłącz obciążenie, a następnie włącz je ponownie.
 
-## <a name="power-bi-report-server"></a>Serwer raportów usługi Power BI
+## <a name="power-bi-report-server"></a>serwerze raportów usługi Power BI
 
 Usługa Power BI Premium obejmuje także możliwość lokalnego uruchomienia serwera raportów usługi Power BI w organizacji. Aby dowiedzieć się więcej, zobacz [Wprowadzenie do serwera raportów usługi Power BI](report-server/get-started.md).
 

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/06/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 8131722d0e035f28fcb88827b1a68c2da97959cb
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: b63b8a601040751cda81e022d571d3a0ed6d501f
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51268089"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180673"
 ---
 # <a name="using-computed-entities-on-power-bi-premium-preview"></a>Używanie obliczonych jednostek w usłudze Power BI Premium (wersja zapoznawcza)
 
@@ -77,16 +77,21 @@ I to wszystko — przeprowadzono przekształcenie danych w przepływie danych, k
 
 Należy pamiętać, że jeśli usuniesz obszar roboczy z pojemności Premium usługi Power BI, skojarzony przepływ danych nie będzie już odświeżany. 
 
+Podczas pracy z przepływami danych utworzonymi specjalnie na koncie usługi Azure Data Lake Storage Gen2 w organizacji połączone jednostki i obliczone jednostki działają prawidłowo tylko w sytuacji, gdy jednostki znajdują się w tym samym koncie magazynu. Aby uzyskać więcej informacji, zobacz temat [Łączenie usługi Azure Data Lake Storage Gen2 na potrzeby przechowywania przepływów danych (wersja zapoznawcza)](service-dataflows-connect-azure-data-lake-storage-gen2.md).
+
+Ponadto połączone jednostki są niedostępne w przypadku przepływów danych tworzonych na podstawie folderów CDM. Zobacz [Dodawanie folderu CDM do usługi Power BI jako przepływu danych (wersja zapoznawcza)](service-dataflows-add-cdm-folder.md).
 
 ## <a name="next-steps"></a>Następne kroki
 
 W tym artykule opisano obliczone jednostki i przepływy danych dostępne w usłudze Power BI. Oto kilka innych pomocnych artykułów.
 
-
 * [Przygotowywanie danych samoobsługi przy użyciu przepływów danych](service-dataflows-overview.md)
 * [Tworzenie i używanie przepływów danych w usłudze Power BI](service-dataflows-create-use.md)
 * [Używanie przepływów danych z lokalnymi źródłami danych (wersja zapoznawcza)](service-dataflows-on-premises-gateways.md)
 * [Zasoby dla deweloperów dotyczące przepływów danych usługi Power BI (wersja zapoznawcza)](service-dataflows-developer-resources.md)
+* [Konfigurowanie ustawień przepływów danych w obszarze roboczym (wersja zapoznawcza)](service-dataflows-configure-workspace-storage-settings.md)
+* [Dodawanie folderu CDM do usługi Power BI jako przepływu danych (wersja zapoznawcza)](service-dataflows-add-cdm-folder.md)
+* [Łączenie usługi Azure Data Lake Storage Gen2 na potrzeby magazynowania przepływów danych (wersja zapoznawcza)](service-dataflows-connect-azure-data-lake-storage-gen2.md)
 
 Aby uzyskać więcej informacji na temat dodatku Power Query oraz zaplanowanego odświeżania, możesz przeczytać następujące artykuły:
 * [Omówienie zapytań w programie Power BI Desktop](desktop-query-overview.md)

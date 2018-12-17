@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/06/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f87db1f715118f346e3b8069897e92fd157f881c
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 6d602b19141c6277fe7ec6a7627749f57f6e25a6
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51265937"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180719"
 ---
 # <a name="connect-to-data-created-by-power-bi-dataflows-in-power-bi-desktop-beta"></a>Łączenie z danymi utworzonymi przez przepływy danych usługi Power BI w programie Power BI Desktop (wersja beta)
 W programie **Power BI Desktop** możesz nawiązać połączenie z danymi utworzonymi przez **przepływy danych usługi Power BI** w taki sam sposób, jak w przypadku dowolnego innego źródła danych w programie Power BI Desktop.
@@ -36,6 +36,20 @@ Program **Power BI Desktop** działa lokalnie na komputerze, na którym został 
 
 Wydajność pozyskiwania danych dla przepływów danych można poprawić. Jeśli na przykład rozmiar pozyskiwanych danych jest zbyt duży, aby program **Power BI Desktop** mógł zarządzać nimi na komputerze, można w przepływach danych użyć jednostek połączonych i obliczonych do agregowania danych (w ramach przepływów danych) i pozyskiwania tylko wstępnie przygotowanych, zagregowanych danych. Dzięki temu przetwarzanie dużych ilości danych będzie wykonywane w trybie online w przepływach danych, a nie lokalnie w uruchomionym wystąpieniu programu **Power BI Desktop**. Takie podejście umożliwia programowi Power BI Desktop pozyskiwanie mniejszej ilości danych i zapewnia szybkie i dynamiczne środowisko przepływów danych.
 
+## <a name="considerations-and-limitations"></a>Istotne zagadnienia i ograniczenia
+
+Większość przepływów danych znajduje się w dzierżawie usługi Power BI. Jednak użytkownicy programu **Power BI Desktop** nie mogą uzyskiwać dostępu do przepływów danych przechowywanych na koncie usługi Azure Data Lake Storage Gen2, chyba że są właścicielami przepływu danych lub mają jawną autoryzację do korzystania z folderu CDM przepływu danych. Rozpatrzmy następującą sytuację:
+
+1.  Anna tworzy nowy obszar roboczy aplikacji i konfiguruje go do przechowywania przepływów danych w usłudze Data Lake w organizacji.
+2.  Jan, który również jest członkiem obszaru roboczego utworzonego przez Annę, chce używać programu Power BI Desktop i łącznika przepływu danych do pobierania danych z przepływu danych, który utworzyła Anna.
+3.  Jan zobaczy komunikat o błędzie, ponieważ nie został dodany jako autoryzowany użytkownik do folderu CDM przepływu danych w usłudze Data Lake.
+
+    ![Błąd podczas próby użycia przepływu danych](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_08.jpg)
+
+Aby rozwiązać ten problem, Jan musi mieć uprawnienia czytelnika do folderu CDM i jego plików. Dowiedz się więcej na temat sposobu przyznawania dostępu do folderu CDM w [tym artykule](https://go.microsoft.com/fwlink/?linkid=2029121).
+
+
+
 
 ## <a name="next-steps"></a>Następne kroki
 Istnieje wiele interesujących czynności, które można wykonać przy użyciu przepływów danych usługi Power BI. Więcej informacji możesz uzyskać w następujących zasobach:
@@ -45,6 +59,13 @@ Istnieje wiele interesujących czynności, które można wykonać przy użyciu p
 * [Używanie obliczonych jednostek w usłudze Power BI Premium (wersja zapoznawcza)](service-dataflows-computed-entities-premium.md)
 * [Używanie przepływów danych z lokalnymi źródłami danych (wersja zapoznawcza)](service-dataflows-on-premises-gateways.md)
 * [Zasoby dla deweloperów dotyczące przepływów danych usługi Power BI (wersja zapoznawcza)](service-dataflows-developer-resources.md)
+
+Aby uzyskać więcej informacji na temat integracji z usługą Azure Data Lake Storage Gen2, zapoznaj się z następującymi artykułami:
+
+* [Integracja przepływów danych z usługą Azure Data Lake (wersja zapoznawcza)](service-dataflows-azure-data-lake-integration.md)
+* [Konfigurowanie ustawień przepływów danych w obszarze roboczym (wersja zapoznawcza)](service-dataflows-configure-workspace-storage-settings.md)
+* [Dodawanie folderu CDM do usługi Power BI jako przepływu danych (wersja zapoznawcza)](service-dataflows-add-cdm-folder.md)
+* [Łączenie usługi Azure Data Lake Storage Gen2 na potrzeby magazynowania przepływów danych (wersja zapoznawcza)](service-dataflows-connect-azure-data-lake-storage-gen2.md)
 
 Dostępne są także artykuły dotyczące programu **Power BI Desktop**, które mogą się okazać przydatne:
 

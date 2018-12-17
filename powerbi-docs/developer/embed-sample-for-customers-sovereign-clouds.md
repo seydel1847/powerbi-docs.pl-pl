@@ -1,23 +1,25 @@
 ---
-title: Osadzanie zawartości usługi Power BI w aplikacji dla klientów w chmurach dla instytucji rządowych i suwerennych chmurach
-description: Dowiedz się, jak integrować lub osadzać pulpit nawigacyjny, kafelek lub raport w aplikacji internetowej przy użyciu interfejsów API usługi Power BI dla klientów.
+title: Analiza osadzona służąca do osadzania zawartości usługi Power BI w aplikacji w chmurach dla instytucji rządowych i suwerennych chmurach
+description: Dowiedz się, jak integrować lub osadzać raport, pulpit nawigacyjny lub kafelek w aplikacji przy użyciu interfejsów API usługi Power BI obsługujących analizę osadzoną dla klientów. Dowiedz się więcej na temat sposobu integrowania usługi Power BI w aplikacji przy użyciu oprogramowania analizy osadzonej, narzędzi do analizy osadzonej lub narzędzi do osadzonej analizy biznesowej.
 author: markingmyname
 ms.author: maghan
 manager: kfile
+ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: tutorial
-ms.date: 10/25/2018
-ms.openlocfilehash: 76b80ad296f2f595fb5014e13bbd48d414cd8bbe
-ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
+ms.custom: seodec18
+ms.date: 12/10/2018
+ms.openlocfilehash: aabf472e236f545fe51d4007dcd8fbdf36632931
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50003161"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180627"
 ---
 # <a name="tutorial-embed-a-power-bi-dashboard-tile-or-report-into-your-application-for-sovereign-clouds"></a>Samouczek: Osadzanie pulpitu nawigacyjnego, kafelka lub raportu usługi Power BI w aplikacji dla suwerennych chmur
 
-Dowiedz się, jak osadzać pulpit nawigacyjny, kafelek albo raport w aplikacjach internetowych przy użyciu zestawu .NET SDK usługi Power BI wraz z interfejsem API języka JavaScript programu Power BI podczas integrowania danych na potrzeby klientów.
+Dowiedz się, jak osadzać zawartość analityczną w aplikacjach procesów biznesowych dla suwerennej chmury. Do osadzania raportu, pulpitu nawigacyjnego lub kafelka w aplikacjach internetowych można użyć zestawu .NET SDK usługi Power BI z interfejsem API języka JavaScript usługi Power BI.
 
 Usługa Power BI obsługuje również suwerenne (prywatne) chmury.
 
@@ -132,7 +134,7 @@ Zarejestruj aplikację w usłudze Azure AD, aby wykonywać wywołania interfejsu
 
 * Power BI for China Cloud — https://app.powerbi.cn/apps
 
-Jeśli pobrano [przykład osadzania na potrzeby klienta](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data), użyj identyfikatora **applicationId** otrzymanego po zarejestrowaniu, aby możliwe było uwierzytelnienie przykładu w usłudze Azure AD. Aby skonfigurować przykład, zmień parametr **applicationId** w pliku *web.config*.
+Jeśli pobrano [przykład osadzania na potrzeby klienta](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data), użyj uzyskanego identyfikatora **applicationId**, aby możliwe było uwierzytelnienie przykładu w usłudze Azure AD. Aby skonfigurować przykład, zmień parametr **applicationId** w pliku *web.config*.
 
 ## <a name="step-2---get-an-access-token-from-azure-ad"></a>Krok 2. Uzyskiwanie tokenu dostępu z usługi Azure AD
 
