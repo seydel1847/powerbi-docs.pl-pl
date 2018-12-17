@@ -1,25 +1,26 @@
 ---
-title: Co to jest usługa Azure Power BI Embedded | Microsoft Docs
-description: Usługa Power BI Embedded ułatwia deweloperom i niezależnym dostawcom oprogramowania korzystanie z funkcji usługi Power BI, umożliwiając szybkie dodawanie do aplikacji atrakcyjnych wizualizacji, raportów i pulpitów nawigacyjnych.
+title: Co to jest usługa Azure Power BI Embedded i analiza osadzona | Microsoft Docs
+description: Usługa Power BI Embedded to narzędzie do analizy osadzonej, które ma ułatwiać deweloperom i niezależnym dostawcom oprogramowania korzystanie z funkcji usługi Power BI, umożliwiając szybkie dodawanie do aplikacji atrakcyjnych wizualizacji, raportów i pulpitów nawigacyjnych. Dowiedz się więcej na temat korzystania z oprogramowania analizy osadzonej, narzędzi do analizy osadzonej lub narzędzi do osadzonej analizy biznesowej w usłudze Power BI Embedded.
 author: markingmyname
 ms.author: maghan
 manager: kfile
+ms.reviewer: ''
 ms.service: power-bi-embedded
 ms.component: ''
 ms.devlang: csharp, javascript
 ms.topic: overview
-ms.reviewer: ''
-ms.date: 07/31/2018
-ms.openlocfilehash: b46508aeca35769fb27324fb20f502ac66cb55ab
-ms.sourcegitcommit: fecea174721d0eb4e1927c1116d2604a822e4090
+ms.custom: seodec18
+ms.date: 12/10/2018
+ms.openlocfilehash: 70cb8f72e5749f7eed70d4476f3af87e272813f4
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 07/31/2018
-ms.locfileid: "39360559"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180696"
 ---
-# <a name="what-is-power-bi-embedded-in-azure"></a>Co to jest usługa Power BI Embedded na platformie Azure? 
+# <a name="what-is-power-bi-embedded-in-azure"></a>Co to jest usługa Power BI Embedded na platformie Azure?
 
-Usługa Power BI Embedded ułatwia deweloperom i niezależnym dostawcom oprogramowania korzystanie z funkcji usługi Power BI. Power BI Embedded pozwala szybko dodawać do aplikacji atrakcyjne wizualizacje, raporty i pulpity nawigacyjne. Podobnie jak aplikacje oparte na platformie Microsoft Azure, Power BI Embedded korzysta z takich usług jak Machine Learning i IoT. Niezależni dostawcy oprogramowania mogą udostępnić w swoich aplikacjach łatwą w obsłudze funkcję eksploracji danych, która umożliwia klientom szybkie i świadome podejmowanie decyzji w kontekście.
+Usługa Power BI Embedded ułatwia deweloperom i niezależnym dostawcom oprogramowania korzystanie z funkcji usługi Power BI z analizą osadzoną. Power BI Embedded ułatwia korzystanie z funkcji usługi Power BI, pozwalając szybko dodawać do aplikacji atrakcyjne wizualizacje, raporty i pulpity nawigacyjne. Podobnie jak aplikacje oparte na platformie Microsoft Azure, Power BI Embedded korzysta z takich usług jak Machine Learning i IoT. Niezależni dostawcy oprogramowania mogą udostępnić w swoich aplikacjach łatwą w obsłudze funkcję eksploracji danych, która umożliwia klientom szybkie i świadome podejmowanie decyzji w kontekście.
 
 > [!VIDEO https://www.youtube.com/embed/iEHfUuoZseo]
 
@@ -39,7 +40,7 @@ Usługa [Power BI Embedded](https://azure.microsoft.com/pricing/details/power-bi
 
 Usługa Power BI Embedded pozwala skupić się na najważniejszym działaniu: tworzeniu wspaniałych aplikacji. Umożliwia ona opracowywanie aplikacji i zarządzanie nimi przy użyciu dobrze znanych narzędzi i już nabytych umiejętności.
 
-* [**Azure Portal**](https://portal.azure.com/): internetowa aplikacja do zarządzania wszystkimi usługami platformy Azure
+* [**Witryna Azure Portal**](https://portal.azure.com/): internetowa aplikacja do zarządzania wszystkimi usługami platformy Azure
 * [**Visual Studio Code**](https://code.visualstudio.com/docs): bezpłatny, dostępny do pobrania edytor kodu typu open source dla systemów Windows, macOS i Linux, który obsługuje rozszerzenia
 * [**Power BI Desktop**](https://powerbi.microsoft.com/desktop/): bezpłatne, dostępne do pobrania i wyposażone w wizualne funkcje analityczne narzędzie do tworzenia zaawansowanych, interaktywnych raportów
 

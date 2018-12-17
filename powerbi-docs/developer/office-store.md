@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/30/2018
-ms.openlocfilehash: 4ac828baa4f6080ab50008aa4ffb570ff016246f
-ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
+ms.openlocfilehash: a5bf8a82fde84537394af4a37f33f674dbf3615b
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51223143"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180351"
 ---
 # <a name="publish-custom-visuals-to-appsource"></a>Publikowanie wizualizacji niestandardowych w usłudze AppSource
 
@@ -38,9 +38,9 @@ Po zakończeniu kodowania i testowania wizualizacji niestandardowej oraz spakowa
 | Przykładowy plik raportu pbix |Tak |Aby przedstawić swoją wizualizację, należy pomóc użytkownikom w zapoznaniu się z nią. Należy podkreślić wartość zapewnianą użytkownikowi przez wizualizację oraz podać przykłady zastosowania, opcji formatowania itp. Na końcu można także dodać stronę *z poradami* zawierającą porady i wskazówki, listę kwestii, których należy unikać itp.<br>Przykładowy plik raportu pbix musi działać w trybie offline, bez żadnego połączenia zewnętrznego |
 | Ikona |Tak |Należy dołączyć logo wizualizacji niestandardowej, które będzie wyświetlane w sklepie. Plik może mieć format png, jpg, jpeg lub gif. Jego wymagane wymiary to dokładnie 300 pikseli (szerokość) x 300 pikseli (wysokość). **Ważne!** Przed przesłaniem ikony zapoznaj się dokładnie z [krótkim przewodnikiem](https://docs.microsoft.com/office/dev/store/craft-effective-appsource-store-images). |
 | Zrzuty ekranu |Tak |Należy dołączyć co najmniej jeden zrzut ekranu. Plik może mieć format png, jpg, jpeg lub gif. Jego wymagane wymiary to dokładnie 1366 pikseli (szerokość) x 768 pikseli (wysokość). Rozmiar pliku nie może przekraczać 1024 KB. *W celu zwiększenia popularności warto dodać etykiety podkreślające przydatność kluczowych funkcji przedstawionych na każdym zrzucie ekranu.* |
-| Link do pomocy w pobieraniu |Tak |Podaj adres URL, pod którym użytkownicy napotykający problemy z wizualizacją mogą uzyskać wsparcie. Adres URL powinien zawierać element https:// lub http://. |
-| Link do dokumentu dotyczącego prywatności |Tak |Podaj link do zasad ochrony prywatności klientów korzystających z wizualizacji. Link powinien zawierać element https:// lub http://. |
-| Umowa licencyjna użytkownika oprogramowania (EULA) |Tak |Należy przekazać plik EULA. Może to być Twoja własna umowa EULA lub domyślna umowa EULA stosowana w Sklepie Office dla wizualizacji niestandardowych usługi Power BI. Aby skorzystać z domyślnej umowy EULA, w oknie dialogowym przekazywania pliku „Umowa licencyjna użytkownika oprogramowania” na pulpicie nawigacyjnym sprzedawcy wklej następujący adres URL: [https://visuals.azureedge.net/app-store/PowerBI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power%20BI%20-%20Default%20Custom%20Visual%20EULA.pdf). |
+| Link do pomocy w pobieraniu |Tak |Podaj adres URL, pod którym użytkownicy napotykający problemy z wizualizacją mogą uzyskać wsparcie. Ten link jest wprowadzany jako część wykazu SellerDashboard i jest widoczny dla użytkowników, gdy uzyskują oni dostęp do wykazu wizualizacji w usłudze AppSource. Adres URL powinien zawierać element https:// lub http://. |
+| Link do dokumentu dotyczącego prywatności |Tak |Podaj link do zasad ochrony prywatności klientów korzystających z wizualizacji. Ten link jest wprowadzany jako część wykazu SellerDashboard i jest widoczny dla użytkowników, gdy uzyskują oni dostęp do wykazu wizualizacji w usłudze AppSource. Link powinien zawierać element https:// lub http://. |
+| Umowa licencyjna użytkownika oprogramowania (EULA) |Tak |Należy przekazać plik EULA. Może to być Twoja własna umowa EULA lub domyślna umowa EULA stosowana w Sklepie Office dla wizualizacji niestandardowych usługi Power BI. Aby skorzystać z domyślnej umowy EULA, w oknie dialogowym przekazywania pliku „Umowa licencyjna użytkownika oprogramowania” na pulpicie nawigacyjnym sprzedawcy wklej następujący adres URL: [https://visuals.azureedge.net/app-store/Power BI — Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power%20BI%20-%20Default%20Custom%20Visual%20EULA.pdf). |
 | Link do filmu |Nie |Aby zwiększyć zainteresowanie użytkowników wizualizacją niestandardową, zaleca się podanie linku do filmu dotyczącego wizualizacji. Adres URL powinien zawierać element https:// lub http://. |
 | Repozytorium GitHub |Nie |Zaleca się podanie poprawnego, publicznego linku do repozytorium [GitHub](https://www.github.com) zawierającego źródła wizualizacji oraz przykładowe dane umożliwiające innym deweloperom przesyłanie opinii i sugerowanie usprawnień kodu. |
 
@@ -72,7 +72,7 @@ Wykonaj poniższe działania, aby ukończyć proces przesyłania.
 
 1. Wybierz opcję **Dodaj nową aplikację**.
 
-    ![Dodawanie aplikacji](media/office-store/powerbi-custom-visual-add-an-app.png)
+    ![Dodaj aplikację](media/office-store/powerbi-custom-visual-add-an-app.png)
 
 2. Wybierz opcję **Niestandardowa wizualizacja usługi Power BI** i kliknij przycisk **Dalej**.
 
@@ -86,10 +86,10 @@ Wykonaj poniższe działania, aby ukończyć proces przesyłania.
 
 5. Podaj szczegółowe dane w sekcji **Informacje ogólne**.
 
-   * *Tytuł przesyłanej wizualizacji:* nazwa przesyłanej wizualizacji wyświetlana w centrum deweloperów
-   * *Wersja:* numer wersji jest wypełniany automatycznie na podstawie danych z pakietu aplikacji.
-   * *Data wydania (UTC):* wybierz datę wydania aplikacji w sklepie. W przypadku wybrania przyszłej daty aplikacja nie będzie dostępna w sklepie do momentu jej nadejścia.
-   * *Kategoria:* pierwsza kategoria jest wypełniana automatycznie jako „Wizualizacja danych + BI”. W ten sposób są oznaczane wszystkie niestandardowe wizualizacje usługi Power BI. Możesz podać maksymalnie 2 dodatkowe kategorie, aby ułatwić użytkownikom wyszukanie wizualizacji.
+   * *Tytuł przesyłanej wizualizacji:* Nazwa przesyłanej wizualizacji wyświetlana w centrum deweloperów
+   * *Wersja:* Numer wersji jest wypełniany automatycznie na podstawie danych z pakietu aplikacji dodatku.
+   * *Data wydania (UTC):* Wybierz datę wydania aplikacji w sklepie. W przypadku wybrania przyszłej daty aplikacja nie będzie dostępna w sklepie do momentu jej nadejścia.
+   * *Kategoria:* Pierwsza kategoria jest wypełniana automatycznie jako „Wizualizacja danych + BI”. W ten sposób są oznaczane wszystkie niestandardowe wizualizacje usługi Power BI. Możesz podać maksymalnie 2 dodatkowe kategorie, aby ułatwić użytkownikom wyszukanie wizualizacji.
    * *Uwagi dotyczące testowania:* opcjonalne, jeśli chcesz podać dodatkowe instrukcje dla testerów firmy Microsoft
    * *Moja aplikacja wywołuje, obsługuje lub zawiera kryptografię albo szyfrowanie lub korzysta z tych funkcji:* pozostaw niezaznaczone
    * *Udostępnij ten dodatek w wykazie dodatków pakietu Office na tablecie iPad:* pozostaw niezaznaczone
@@ -104,7 +104,7 @@ Wykonaj poniższe działania, aby ukończyć proces przesyłania.
    * Link do filmu
    * Umowa licencyjna użytkownika oprogramowania (EULA)
 
-       Należy przekazać plik EULA. Może to być Twoja własna umowa EULA lub domyślna umowa EULA stosowana w Sklepie Office dla wizualizacji niestandardowych usługi Power BI. Aby skorzystać z domyślnej umowy EULA, w oknie dialogowym przekazywania pliku „Umowa licencyjna użytkownika oprogramowania” na pulpicie nawigacyjnym sprzedawcy wklej następujący adres URL: [https://visuals.azureedge.net/app-store/PowerBI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power%20BI%20-%20Default%20Custom%20Visual%20EULA.pdf).
+       Należy przekazać plik EULA. Może to być Twoja własna umowa EULA lub domyślna umowa EULA stosowana w Sklepie Office dla wizualizacji niestandardowych usługi Power BI. Aby skorzystać z domyślnej umowy EULA, w oknie dialogowym przekazywania pliku „Umowa licencyjna użytkownika oprogramowania” na pulpicie nawigacyjnym sprzedawcy wklej następujący adres URL: [https://visuals.azureedge.net/app-store/Power BI — Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power%20BI%20-%20Default%20Custom%20Visual%20EULA.pdf).
 
 8. Kliknij przycisk **Dalej**, aby przejść do strony **Szczegóły**.
 
@@ -114,9 +114,9 @@ Wykonaj poniższe działania, aby ukończyć proces przesyłania.
 
 10. Wypełnij szczegóły „Opis”.
 
-    * *Nazwa aplikacji (w tym języku):* wprowadź tytuł aplikacji, który powinien być widoczny w sklepie.
-    * *Krótki opis:* wprowadź krótki opis aplikacji, do 100 znaków, który powinien być wyświetlany w sklepie. Opis ten będzie widoczny na stronach najwyższego poziomu razem z logo. Można użyć opisu z pakietu pbiviz.
-    * *Długi opis:* podaj bardziej szczegółowy opis aplikacji, który będzie wyświetlany na stronie szczegółów aplikacji. Jeśli chcesz pozwolić społeczności na usprawnianie wizualizacji przez udostępnienie jej na zasadach open source, podaj tutaj link do repozytorium publicznego, takiego jak GitHub.
+    * *Nazwa aplikacji (w tym języku):* Wprowadź tytuł aplikacji, który powinien być widoczny w sklepie.
+    * *Krótki opis:* Wprowadź krótki opis aplikacji, do 100 znaków, który powinien być wyświetlany w sklepie. Opis ten będzie widoczny na stronach najwyższego poziomu razem z logo. Można użyć opisu z pakietu pbiviz.
+    * *Długi opis:* Podaj bardziej szczegółowy opis aplikacji, który będzie wyświetlany na stronie szczegółów aplikacji. Jeśli chcesz pozwolić społeczności na usprawnianie wizualizacji przez udostępnienie jej na zasadach open source, podaj tutaj link do repozytorium publicznego, takiego jak GitHub.
 
 11. Prześlij co najmniej jeden zrzut ekranu. Plik może mieć format png, jpg, jpeg lub gif. Jego wymagane wymiary to dokładnie 1366 pikseli (szerokość) x 768 pikseli (wysokość). Rozmiar pliku nie może przekraczać 1024 KB. *W celu zwiększenia popularności warto dodać etykiety podkreślające przydatność kluczowych funkcji przedstawionych na każdym zrzucie ekranu.*
 

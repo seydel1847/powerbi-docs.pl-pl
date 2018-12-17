@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/06/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: d7e39d0ee048f51066783b1cc9c98333e0352dcf
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 9e7f43780048a222b9d024b39d983968f45c59f7
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51268107"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180581"
 ---
 # <a name="creating-and-using-dataflows-in-power-bi-preview"></a>Tworzenie i używanie przepływów danych w usłudze Power BI (wersja zapoznawcza)
 
@@ -143,6 +143,10 @@ Możesz również użyć **paska wyszukiwania** w górnej części okna, aby szy
 
 Gdy wybierzesz jednostkę, a następnie wybierzesz przycisk **Załaduj**, jednostki zostaną wyświetlone w okienku **Pola** w programie **Power BI Desktop**. Ich wyświetlanie i zachowanie będzie identyczne jak w przypadku **tabel** z dowolnego zestawu danych.
 
+## <a name="using-dataflows-stored-in-azure-data-lake-storage-gen2"></a>Używanie przepływów danych przechowywanych w usłudze Azure Data Lake Storage Gen2
+
+Niektóre organizacje chcą używać własnego magazynu do tworzenia przepływów danych i zarządzania nimi. Jeśli będziesz postępować zgodnie z wymaganiami i prawidłowo zarządzać uprawnieniami, zyskasz możliwość zintegrowania przepływów danych z usługą Azure Data Lake Storage Gen2. Aby zapoznać się z dokumentacją dotyczącą wszystkich wymagań takiego podejścia, można rozpocząć od dokumentu z omówieniem [Dataflows and Azure Data Lake integration (Preview)](service-dataflows-azure-data-lake-integration.md) (Przepływy danych i integracja w usłudze Azure Data Lake (wersja zapoznawcza)).
+
 
 ## <a name="troubleshooting-data-connections"></a>Rozwiązywanie problemów z połączeniami danych
 
@@ -160,6 +164,7 @@ W tym artykule opisano sposób tworzenia własnego **przepływu danych** oraz tw
 * [Używanie obliczonych jednostek w usłudze Power BI Premium (wersja zapoznawcza)](service-dataflows-computed-entities-premium.md)
 * [Używanie przepływów danych z lokalnymi źródłami danych (wersja zapoznawcza)](service-dataflows-on-premises-gateways.md)
 * [Zasoby dla deweloperów dotyczące przepływów danych usługi Power BI (wersja zapoznawcza)](service-dataflows-developer-resources.md)
+* [Integracja przepływów danych z usługą Azure Data Lake (wersja zapoznawcza)](service-dataflows-azure-data-lake-integration.md)
 
 Aby uzyskać więcej informacji na temat modelu Common Data Model, można przeczytać artykuł zawierający jego omówienie:
 * [Omówienie usługi Common Data Model](https://docs.microsoft.com/powerapps/common-data-model/overview)

@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 08/17/2018
 ms.author: maggies
-ms.openlocfilehash: 7a5c60eea81eeb3a1f4e8a7f5b807fd8c7bfb6b5
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 694ae2cd6f77fbcf898a984b135fb65b9163a43b
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547251"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180995"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Eksplorowanie raportów w aplikacjach mobilnych Power BI
 Dotyczy:
@@ -105,6 +105,16 @@ Podczas korzystania z funkcji *przeglądania szczegółowego* po naciśnięciu k
 Podczas przeglądania szczegółowego przycisk Wstecz powoduje powrót do poprzedniej strony raportu.
 
 Przeczytaj informacje o sposobie [dodawania możliwości przeglądania szczegółowego w programie Power BI Desktop](../../desktop-drillthrough.md).
+
+## <a name="show-data-and-copy-values"></a>Pokazywanie danych i kopiowanie wartości
+
+Wybierając symbol wielokropka (**...**) opcji menu w prawym górnym rogu wizualizacji w raporcie na telefon, a następnie wybierając pozycję **Pokaż dane**, zobaczysz podstawowe dane wizualizacji.
+
+![Opcja menu Pokaż dane w usłudze Power BI dla urządzeń przenośnych](./media/mobile-reports-in-the-mobile-apps/copy-data-visual.png)
+
+Długie naciśnięcie komórki w przedstawionej tabeli spowoduje wyświetlenie natywnego menu zaznaczania i kopiowania, co umożliwi wybieranie opcji kopiowania danych z tabeli (lub całej tabeli).
+
+![Przeglądanie szczegółowe raportu w usłudze Power BI dla urządzeń przenośnych](./media/mobile-reports-in-the-mobile-apps/copy-data-table.png)
 
 ## <a name="next-steps"></a>Następne kroki
 * [Wyświetlanie raportów usługi Power BI zoptymalizowanych pod kątem telefonu i interakcje z nimi](mobile-apps-view-phone-report.md)

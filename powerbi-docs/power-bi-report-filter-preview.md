@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/12/2018
+ms.date: 12/05/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: d2d8bef9689fd2e9db99c0a521a5ee326845b1de
-ms.sourcegitcommit: ea77827127e0781f1d6877c0a3078aec7eb6694a
+ms.openlocfilehash: 3d4bcff012a8abb53d82dea2a8514d654056736a
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "51611365"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026252"
 ---
 # <a name="the-new-filter-experience-in-power-bi-reports-preview"></a>Nowe funkcje filtrowania w raportach usługi Power BI (wersja zapoznawcza)
 
-W tym artykule opisujemy nowe funkcje filtrowania w usłudze Power BI, które zapewniają teraz nowe możliwości i zostały przeprojektowane. Kiedy projektujesz raporty w programie Power BI Desktop lub w usłudze Power BI, możesz sprawić, by okienko Filtry wyglądało i działało jak cały raport. W przypadku nowej funkcji stare okienko Filtry działa jak okienko edycji filtrów, a nowe okienko Filtr jest jedynym okienkiem widocznym dla użytkowników raportu. 
+W tym artykule przedstawiamy nowe środowisko filtrowania: Filtry w usłudze Power BI mają teraz nowe możliwości i zostały przeprojektowane. Kiedy projektujesz raporty w programie Power BI Desktop lub w usłudze Power BI, możesz sprawić, by okienko Filtry wyglądało i działało jak cały raport. W przypadku nowej funkcji stare okienko Filtry działa jak okienko edycji filtrów, a nowe okienko Filtr jest jedynym okienkiem widocznym dla użytkowników raportu. 
  
 ![Widok domyślny (bez żadnych dodatkowych dostosowań)](media/power-bi-report-filter-preview/power-bi-filter-reading.png)
 
@@ -98,7 +98,7 @@ Elementy te można również sformatować dla kart filtrów w zależności od te
 
     ![Wybierz ikonę Formatuj](media/power-bi-report-filter-preview/power-bi-filter-format.png)    
 
-1. Rozwiń **okienko filtru**, aby ustawić kolor tła, czcionki, ikony i lewej krawędzi w celu uzupełnienia strony raportu.
+1. Rozwiń **okienko filtru**, aby ustawić kolor tła, ikony i lewej krawędzi w celu uzupełnienia strony raportu.
 
     ![Rozwiń okienko Filtr](media/power-bi-report-filter-preview/power-bi-filter-format-pane.png)
 

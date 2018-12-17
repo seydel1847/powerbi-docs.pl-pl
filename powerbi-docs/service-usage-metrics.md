@@ -11,12 +11,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 11/13/2018
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 53d39eaf7c615d2ed279e7c45330dacbdad7994a
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: 1c6c0a803e77ead6d43c23ac2b12b305d5960ef7
+ms.sourcegitcommit: 2882b8962ed03c188257c042e537c76b052545c5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52830337"
+ms.lasthandoff: 12/08/2018
+ms.locfileid: "53111547"
 ---
 # <a name="usage-metrics-for-dashboards-and-reports"></a>Metryki użycia pulpitów nawigacyjnych i raportów
 
@@ -84,8 +84,8 @@ Aby dokładniej analizować dane raportu lub tworzyć własne raporty na podstaw
 | Łączna liczba osób przeglądających |tak |tak |Liczba unikatowych osób przeglądających w ciągu ostatnich 90 dni. |
 | Łączna liczba udostępnień |tak |nie |Liczba udostępnień danego pulpitu nawigacyjnego lub raportu w ciągu ostatnich 90 dni. |
 | Łącznie w organizacji |tak |tak |Liczba wszystkich pulpitów nawigacyjnych i raportów w całej organizacji, które zostały wyświetlone co najmniej raz w ciągu ostatnich 90 dni.  Ta wartość jest używana do obliczenia rangi. |
-| Ranga: łączna liczba wyświetleń |tak |tak |Ranga danego pulpitu nawigacyjnego lub raportu wśród wszystkich pulpitów nawigacyjnych i raportów w organizacji wyświetlanych w ciągu ostatnich 90 dni. |
-| Ranga: łączna liczba udostępnień |tak |nie |Ranga danego pulpitu nawigacyjnego lub raportu wśród wszystkich pulpitów nawigacyjnych i raportów w organizacji udostępnianych w ciągu ostatnich 90 dni. |
+| Ranga: Łączna liczba wyświetleń |tak |tak |Ranga danego pulpitu nawigacyjnego lub raportu wśród wszystkich pulpitów nawigacyjnych i raportów w organizacji wyświetlanych w ciągu ostatnich 90 dni. |
+| Ranga: Łączna liczba udostępnień |tak |nie |Ranga danego pulpitu nawigacyjnego lub raportu wśród wszystkich pulpitów nawigacyjnych i raportów w organizacji udostępnianych w ciągu ostatnich 90 dni. |
 
 ### <a name="dashboard-usage-metrics-report"></a>Raport metryk użycia pulpitu nawigacyjnego
 
@@ -172,19 +172,19 @@ Ważne jest, aby rozumieć różnice, które mogą wystąpić podczas porównywa
 
 Jako uzupełnienie znajomości potencjalnych różnic między użyciem metryk i dzienników inspekcji, użytkownikom i administratorom mogą przydać się następujące pytania i odpowiedzi dotyczące metryk użycia:
 
-Pytanie: Nie można uruchomić metryk na pulpicie nawigacyjnym ani w raporcie. Odpowiedź: Metryki użycia można wyświetlać tylko w przypadku zawartości, której jesteś właścicielem lub którą możesz edytować.
+Pytanie:    Nie można uruchomić metryk użycia pulpitu nawigacyjnego lub raportu. Odpowiedź:    Metryki użycia można wyświetlać tylko w przypadku zawartości, której jesteś właścicielem lub którą możesz edytować.
 
-Pytanie: Czy metryki użycia uwzględniają wyświetlenia osadzonych pulpitów nawigacyjnych i raportów?
-Odpowiedź: W metrykach użycia nie jest obecnie obsługiwane przechwytywanie użycia osadzonych pulpitów nawigacyjnych, raportów i przepływu [publikowania w Internecie](service-publish-to-web.md).          W takich przypadkach zalecamy korzystanie z istniejących internetowych platform analitycznych w celu śledzenia użycia aplikacji lub portalu, gdzie hostowana jest zawartość.
+Pytanie:    Czy metryki użycia uwzględniają wyświetlenia osadzonych pulpitów nawigacyjnych i raportów?
+Odpowiedź:    W metrykach użycia nie jest obecnie obsługiwane przechwytywanie użycia osadzonych pulpitów nawigacyjnych, raportów i przepływu [publikowania w Internecie](service-publish-to-web.md).          W takich przypadkach zalecamy korzystanie z istniejących internetowych platform analitycznych w celu śledzenia użycia aplikacji lub portalu, gdzie hostowana jest zawartość.
 
-Pytanie: Nie można uruchomić metryk użycia dla jakiejkolwiek zawartości.
-Odpowiedź 1: Administratorzy mogą wyłączyć tę funkcję w organizacji.  Skontaktuj się z administratorem, aby dowiedzieć się, czy tak się stało.
-Odpowiedź 2: Metryki użycia to funkcja usługi Power BI Pro.
+Pytanie:    Nie można uruchomić metryk użycia dla jakiejkolwiek zawartości.
+Odpowiedź 1:    Administratorzy mogą wyłączyć tę funkcję w organizacji.  Skontaktuj się z administratorem, aby dowiedzieć się, czy tak się stało.
+Odpowiedź 2:    Metryki użycia to funkcja usługi Power BI Pro.
 
-Pytanie: Dane wydają się nieaktualne. Nie są na przykład widoczne niektóre metody dystrybucji, brakuje niektórych stron raportów itp. Odpowiedź: Aktualizowanie danych może potrwać do 24 godzin.
+Pytanie:    Dane wydają się nieaktualne. Nie są na przykład widoczne niektóre metody dystrybucji, brakuje niektórych stron raportów itp. Odpowiedź:    Aktualizowanie danych może potrwać do 24 godzin.
 
-Pytanie: W obszarze roboczym znajdują się cztery raporty, ale w metrykach użycia widoczne są tylko 3.
-Odpowiedź: Raport metryk użycia zawiera tylko raporty (lub pulpity nawigacyjne), które były używane w ciągu ostatnich 90 dni.  Jeśli raport (lub pulpit nawigacyjny) nie jest widoczny, prawdopodobnie nie był używany w ciągu ostatnich 90 dni.
+Pytanie:    W obszarze roboczym znajdują się cztery raporty, ale w metrykach użycia widoczne są tylko 3.
+Odpowiedź:    Raport metryk użycia zawiera tylko raporty (lub pulpity nawigacyjne), które były używane w ciągu ostatnich 90 dni.  Jeśli raport (lub pulpit nawigacyjny) nie jest widoczny, prawdopodobnie nie był używany w ciągu ostatnich 90 dni.
 
 ## <a name="next-steps"></a>Następne kroki
 

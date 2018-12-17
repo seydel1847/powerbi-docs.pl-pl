@@ -1,37 +1,36 @@
 ---
-title: Używanie przykładów usługi Power BI
-description: Używanie przykładów usługi Power BI
+title: 'Samouczek: nawiązywanie połączenia z przykładami usługi Power BI'
+description: Dowiedz się, jak instalować i eksplorować przykłady w usłudze Power BI.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: amac
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/23/2018
+ms.date: 12/06/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 10ba57b203c100dffafa6563e85fd06b7af2eecb
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: fc27054b79497658249b49d832a81223987b7be8
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51718027"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180972"
 ---
-# <a name="the-power-bi-samples"></a>Przykłady usługi Power BI
+#  <a name="connect-to-the-samples-in-the-power-bi-service"></a>Samouczek: nawiązywanie połączenia z przykładami usługi Power BI
 
-Zalecamy rozpoczęcie od artykułu [Przykładowe zestawy danych dla usługi Power BI](sample-datasets.md). W tym artykule dowiesz się wszystkiego o przykładach; jak je pobrać, gdzie je zapisać, jak ich używać, a także poznasz niektóre z historii, które mogą opowiedzieć przykłady. Następnie, kiedy już opanujesz podstawy, wróć do tego samouczka.   
+W tym samouczku przedstawiono sposób wykonywania następujących czynności: 
+- Importowanie przykładowego pakietu zawartości, dodawanie go do usługi Power BI i otwieranie jego zawartości. *Pakiet zawartości* jest typem przykładu, w którym zestaw danych jest powiązany z pulpitem nawigacyjnym i raportem. 
+- Otwieranie przykładowego pliku PBIX w programie Power BI Desktop.
 
-### <a name="prerequisites"></a>Wymagania wstępne
+Jeśli chcesz najpierw zapoznać się z podstawowymi informacjami, zalecamy rozpoczęcie od artykułu [Przykładowe zestawy danych dla usługi Power BI](sample-datasets.md). W tym artykule dowiesz się wszystkiego o przykładach; jak je pobrać, gdzie je zapisać, jak ich używać, a także poznasz niektóre z historii, które mogą opowiedzieć przykłady. Następnie, kiedy już opanujesz podstawy, wróć do tego samouczka.   
+
+## <a name="prerequisites"></a>Wymagania wstępne
 Dostępne są różne przykłady dla usługi Power BI i dla programu Power BI Desktop. W tym samouczku będziemy używać Próbki analizy handlu detalicznego.
 
 Przykładowy pakiet zawartości *Retail Analysis* używany w tym samouczku składa się z pulpitu nawigacyjnego, raportu i zestawu danych.
 Aby zapoznać się z tym pakietem zawartości i scenariuszem, możesz przed rozpoczęciem [zobaczyć przewodnik po przykładzie Retail Analysis](sample-retail-analysis.md).
-
-## <a name="about-this-tutorial"></a>Informacje o tym samouczku
-W tym samouczku przedstawiono, w jaki sposób można wykonać następujące czynności: 
-- Zaimportować przykładowy pakiet zawartości, dodać go do usługi Power BI i otworzyć jego zawartość. *Pakiet zawartości* jest typem przykładu, w którym zestaw danych jest powiązany z pulpitem nawigacyjnym i raportem. 
--  Otworzyć przykładowy plik PBIX w programie Power BI Desktop.
-
 
 ## <a name="samples-and-power-bi-service"></a>Przykłady i usługa Power BI
 

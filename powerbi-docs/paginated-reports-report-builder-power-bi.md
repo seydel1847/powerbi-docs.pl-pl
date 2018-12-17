@@ -1,23 +1,23 @@
 ---
 title: Czym są raporty podzielone na strony w usłudze Power BI Premium? (Wersja zapoznawcza)
-description: Raporty podzielone na strony to raporty, które można drukować lub udostępniać. Można również dokładnie kontrolować układ raportu. Raporty te zawierają na przykład wszystkie dane w tabeli, nawet jeśli tabela zajmuje wiele stron.
+description: Raporty podzielone na strony, które przez długi czas stanowiły standardowy format w usługach SQL Server Reporting Services, są teraz dostępne w usłudze Power BI. Te raporty można drukować i udostępniać. Można również dokładnie kontrolować układ raportu. Raporty te zawierają na przykład wszystkie dane w tabeli, nawet jeśli tabela zajmuje wiele stron.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: report-builder
 ms.topic: overview
-ms.date: 11/20/2018
+ms.date: 12/05/2018
 ms.author: maggies
-ms.openlocfilehash: 7a39d7b3bdbbd592afc6481c5936efc76569ad11
-ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
+ms.openlocfilehash: d79299f469062ec74c49ff4b7e9edda26c3409a3
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "52289225"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026131"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium-preview"></a>Czym są raporty podzielone na strony w usłudze Power BI Premium? (Wersja zapoznawcza)
-Raporty podzielone na strony, które przez długi czas stanowiły standardowy format w usługach SQL Server Reporting Services, są teraz dostępne w usłudze Power BI. Raporty podzielone na strony zostały zaprojektowane pod kątem drukowania lub udostępniania. Są one określane jako „podzielone na strony”, ponieważ dzięki swojemu formatowaniu mieszczą się doskonale na stronie. Raporty te zawierają wszystkie dane w tabeli, nawet jeśli tabela zajmuje wiele stron. Są one również określane jako „co do piksela” (ang. pixel perfect), ponieważ można dokładnie kontrolować układ ich stron. Raporty podzielone na strony są oparte na technologii raportów RDL dostępnej w usługach SQL Server Reporting Services. Report Builder to autonomiczne narzędzie do tworzenia raportów podzielonych na strony. 
+Raporty podzielone na strony, które przez długi czas stanowiły standardowy format w usługach SQL Server Reporting Services, są teraz dostępne w usłudze Power BI. Te raporty można drukować i udostępniać. Są one określane jako „podzielone na strony”, ponieważ dzięki swojemu formatowaniu mieszczą się doskonale na stronie. Raporty te zawierają wszystkie dane w tabeli, nawet jeśli tabela zajmuje wiele stron. Są one również określane jako „co do piksela” (ang. pixel perfect), ponieważ można dokładnie kontrolować układ ich stron. Raporty podzielone na strony są oparte na technologii raportów RDL dostępnej w usługach SQL Server Reporting Services. Report Builder to autonomiczne narzędzie do tworzenia raportów podzielonych na strony. 
 
 Raporty podzielone na strony mogą mieć wiele stron. Na przykład ten raport zawiera 563 strony. Każda strona ma dokładnie rozmieszczoną zawartość — z jedną stroną na każdą fakturę oraz powtarzającymi się nagłówkami i stopkami.
 
@@ -43,11 +43,11 @@ Większą liczbą źródeł danych udostępnimy w okresie obowiązywania wersji 
 
 ### <a name="create-paginated-reports-with-matrix-chart-and-free-form-layouts"></a>Tworzenie raportów podzielonych na strony przy użyciu układów macierzy, wykresu i dowolnej postaci
 
-Raporty tabeli można tworzyć dla danych opartych na kolumnach, raporty macierzy (np. raporty krzyżowe lub PivotTable) dla danych zbiorczych, raporty wykresu dla danych graficznych, a raporty *listy* w dowolnej postaci dla innych danych, takich jak faktury. 
+Raporty w formie tabeli dobrze sprawdzają się w przypadku danych w kolumnach. Raporty w postaci macierzy, takie jak macierze krzyżowe lub tabele przestawne, są odpowiednim rozwiązaniem w przypadku danych podsumowanych. Raporty w postaci wykresu przedstawiają dane w postaci graficznej, a raporty w postaci dowolnej *listy* mogą zawierać prawie wszystkie inne dane, na przykład faktury. 
   
 Pracę można rozpocząć przy użyciu jednego z kreatorów programu Report Builder. Kreatorzy tabeli, macierzy i wykresu zawierają instrukcje dotyczące tworzenia połączenia z osadzonym źródłem danych oraz osadzonego zestawu danych. Następnie należy przeciągnąć i upuścić pola, aby utworzyć zapytanie dotyczące zestawu danych, wybrać układ i styl oraz dostosować raport.  
   
-Kreator mapy umożliwia tworzenie raportów zawierających zagregowane dane na tle geograficznym lub geometrycznym. Danymi mapy mogą być dane przestrzenne z zapytań języka Transact-SQL lub pliku kształtu ESRI (Environmental Systems Research Institute, Inc.). Można również dodać tło kafelków mapy Microsoft Bing.  
+Kreator mapy umożliwia tworzenie raportów zawierających zagregowane dane na tle geograficznym lub geometrycznym. Danymi mapy mogą być dane przestrzenne z zapytań języka Transact-SQL lub pliku kształtu ESRI (Environmental Systems Research Institute, Inc.) . Można również dodać tło kafelków mapy Microsoft Bing.  
 
 ### <a name="add-more-to-your-report"></a>Dodawanie kolejnych elementów do raportu
 
@@ -66,7 +66,7 @@ Raport podzielony na strony można wyświetlać w usłudze Power BI w przegląda
 
 Poniżej przedstawiono niektóre funkcje, które nie są obsługiwane w wersji początkowej:
 
-- Przypinanie wizualizacji lub stron raportu do pulpitów nawigacyjnych usługi Power BI.
+- Przypinanie wizualizacji lub stron raportu do pulpitów nawigacyjnych usługi Power BI. Można nadal przypinać wizualizacje do pulpitu nawigacyjnego usługi Power BI z lokalnego raportu podzielonego na strony na serwerze raportów usługi Power BI lub na serwerze raportów usług Reporting Services. Zobacz [Przypinanie elementów usług Reporting Services do pulpitów nawigacyjnych usługi Power BI](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards), aby uzyskać więcej informacji.
 - Funkcje interaktywne, takie jak mapy dokumentów i przyciski typu Pokaż/Ukryj.
 - Podraporty i raporty przeglądania szczegółowego.
 - Subskrypcje.
@@ -78,7 +78,7 @@ Poniżej przedstawiono niektóre funkcje, które nie są obsługiwane w wersji p
 ## <a name="next-steps"></a>Następne kroki
 
 - [Install Report Builder from the Microsoft Download Center](http://go.microsoft.com/fwlink/?LinkID=734968) (Instalowanie programu Report Builder z Centrum pobierania Microsoft)
-- [Samouczek: tworzenie raportu podzielonego na strony](paginated-reports-quickstart-aw.md)
+- [Samouczek: Tworzenie raportu podzielonego na strony](paginated-reports-quickstart-aw.md)
 - [Enter data directly in a paginated report (Wprowadzanie danych bezpośrednio w raporcie podzielonym na strony)](paginated-reports-enter-data.md)
 
   

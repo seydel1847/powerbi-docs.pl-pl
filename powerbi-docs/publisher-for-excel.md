@@ -1,21 +1,22 @@
 ---
-title: Dodatek Power BI Publisher dla programu Excel
+title: Korzystanie z dodatku Power BI Publisher dla programu Excel
 description: Dowiedz się, jak korzystać z dodatku Power BI Publisher dla programu Excel
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 2b8cc8f32ae85d4ba06860972c415b91ede223c5
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 7371b871db54411e97f8ec1f4f01ba2e56f6023c
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670721"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026551"
 ---
 # <a name="power-bi-publisher-for-excel"></a>Dodatek Power BI Publisher dla programu Excel
 Dodatek Microsoft **Power BI Publisher dla programu Excel** umożliwia tworzenie migawek najważniejszych informacji w programie Excel, takich jak tabele przestawne, wykresy i zakresy oraz ich przypinanie do pulpitów nawigacyjnych w usłudze Power BI.

@@ -9,13 +9,14 @@ ms.component: powerbi-admin
 ms.topic: conceptual
 ms.author: mblythe
 ms.date: 01/02/2018
+ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 920fa426f98098768583e07d8f2b6c9825bfad1b
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: 466e91786dcb75f09db808306ba7d9d9f486718b
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578433"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025127"
 ---
 # <a name="row-level-security-rls-with-power-bi"></a>Zabezpieczenia na poziomie wiersza w usłudze Power BI
 
@@ -41,7 +42,7 @@ Aby zarządzać zabezpieczeniami modelu danych, należy wykonać następujące c
 1. Wybierz **wielokropek (…)** dla zestawu danych.
 2. Wybierz pozycję **Zabezpieczenia**.
    
-   ![](media/service-admin-rls/rls-security.png)
+   ![Zastosuj filtr zabezpieczeń w obu kierunkach](media/service-admin-rls/rls-security.png)
 
 Spowoduje to przejście do strony zabezpieczeń na poziomie wiersza, która umożliwia dodawanie członków do roli utworzonej w programie Power BI Desktop. Opcja Zabezpieczenia jest widoczna tylko dla właścicieli zestawu danych. Jeśli zestaw danych należy do grupy, opcja Zabezpieczenia będzie widoczna tylko dla administratorów tej grupy. 
 
@@ -53,17 +54,17 @@ Tworzenie i modyfikowanie ról jest możliwe tylko w programie Power BI Desktop.
 
 Można dodać członka do roli, wpisując adres e-mail lub nazwę użytkownika, grupy zabezpieczeń lub listy dystrybucyjnej, która ma zostać dodana. Ten członek musi należeć do organizacji. Nie można dodawać grup utworzonych w usłudze Power BI.
 
-![](media/service-admin-rls/rls-add-member.png)
+![Dodawanie członków](media/service-admin-rls/rls-add-member.png)
 
 Liczba w nawiasach obok nazwy roli lub obok obszaru Członkowie informuje to tym, ilu członków jest przypisanych do roli.
 
-![](media/service-admin-rls/rls-member-count.png)
+![Członkowie roli](media/service-admin-rls/rls-member-count.png)
 
 ### <a name="remove-members"></a>Usuwanie członków
 
 Członków można usuwać, wybierając znak X obok ich nazwy. 
 
-![](media/service-admin-rls/rls-remove-member.png)
+![Usuwanie członka](media/service-admin-rls/rls-remove-member.png)
 
 ## <a name="validating-the-role-within-the-power-bi-service"></a>Sprawdzanie poprawności roli w usłudze Power BI
 
@@ -72,15 +73,15 @@ Można zweryfikować, czy zdefiniowana rola działa prawidłowo, testując tę r
 1. Wybierz **wielokropek (...)** obok roli.
 2. Wybierz pozycję **Testuj dane jako rola**.
 
-![](media/service-admin-rls/rls-test-role.png)
+![Testuj jako rola](media/service-admin-rls/rls-test-role.png)
 
 Zostaną wyświetlone raporty dostępne dla tej roli. Pulpity nawigacyjne nie są wyświetlane w tym widoku. Na niebieskim pasku powyżej będą widoczne zastosowane role.
 
-![](media/service-admin-rls/rls-test-role2.png)
+![Przeglądanie jako <rola>](media/service-admin-rls/rls-test-role2.png)
 
 Można testować inne role lub kombinację ról, wybierając pozycję **Wyświetlane jako**.
 
-![](media/service-admin-rls/rls-test-role3.png)
+![Testowanie innych ról](media/service-admin-rls/rls-test-role3.png)
 
 Można wybrać, aby wyświetlić dane jako określona osoba, lub wybrać kombinację dostępnych ról, aby sprawdzić poprawność ich działania. 
 
@@ -95,7 +96,7 @@ Jeśli opublikujesz raport programu Power BI Desktop w obszarze roboczym aplikac
 > [!WARNING]
 > Jeśli skonfigurowano obszar roboczy aplikacji tak, aby członkowie mieli uprawnienia do edycji, role zabezpieczeń na poziomie wiersza nie będą do nich stosowane. Użytkownicy będą mogli wyświetlać wszystkie dane.
 
-![](media/service-admin-rls/rls-group-settings.png)
+![Ustawienia grupy](media/service-admin-rls/rls-group-settings.png)
 
 [!INCLUDE [include-short-name](./includes/rls-limitations.md)]
 

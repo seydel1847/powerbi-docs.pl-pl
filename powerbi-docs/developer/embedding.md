@@ -1,6 +1,6 @@
 ---
-title: Osadzanie przy użyciu usługi Power BI
-description: Usługa Power BI oferuje interfejsy API do osadzania Twoich pulpitów nawigacyjnych i raportów w aplikacjach.
+title: Analiza osadzona w usłudze Power BI
+description: Usługa Power BI oferuje interfejsy API umożliwiające używanie analizy osadzonej dla pulpitów nawigacyjnych i raportów w aplikacjach. Dowiedz się więcej na temat osadzania w usłudze Power BI w środowiskach PaaS i SaaS przy użyciu oprogramowania do analizy osadzonej, narzędzi do analizy osadzonej lub narzędzie do osadzonej analizy osadzonej.
 author: markingmyname
 ms.author: maghan
 manager: kfile
@@ -8,15 +8,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: overview
-ms.date: 07/31/2018
-ms.openlocfilehash: 7b96e671a6fe9b450fff683ced3caa611ae70bd7
-ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
+ms.custom: seodec18
+ms.date: 12/10/2018
+ms.openlocfilehash: a4c0a66fb70797cc8b42094c65b23c71944b67a2
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/17/2018
-ms.locfileid: "45973775"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180335"
 ---
-# <a name="embedding-with-power-bi"></a>Osadzanie przy użyciu usługi Power BI
+# <a name="embedded-analytics-with-power-bi"></a>Analiza osadzona w usłudze Power BI
 
 Usługa Power BI (SaaS) i usługa Power BI Embedded na platformie Azure (PaaS) mają interfejsy API umożliwiające osadzanie pulpitów nawigacyjnych i raportów. Oznacza to wachlarz możliwości oraz dostęp do najnowszych funkcji usługi Power BI — takich jak pulpity nawigacyjne, bramy i obszary robocze aplikacji — podczas osadzania zawartości.
 
@@ -39,11 +40,11 @@ Aby zobaczyć przykład działania osadzania, zobacz [Przykład osadzania przy u
 
 ## <a name="embedding-for-your-organization"></a>Osadzanie dla swojej organizacji
 
-**Osadzanie dla swojej organizacji** umożliwia rozszerzanie usługi Power BI. Osadzanie dla swojej organizacji wymaga, aby użytkownicy Twojej aplikacji zalogowali się w usłudze Power BI, gdy będą chcieli wyświetlić swoją zawartość. Gdy ktoś w Twojej organizacji się zaloguje, będzie miał dostęp tylko do pulpitów nawigacyjnych i raportów, których jest właścicielem lub które zostały mu udostępnione w usłudze Power BI.
+**Osadzanie dla swojej organizacji** umożliwia rozszerzanie usługi Power BI. Osadzanie dla swojej organizacji wymaga, aby użytkownicy Twojej aplikacji zalogowali się w usłudze Power BI, gdy będą chcieli wyświetlić swoją zawartość. Gdy ktoś w Twojej organizacji się loguje, ma dostęp tylko do pulpitów nawigacyjnych i raportów, których jest właścicielem lub które zostały mu udostępnione w usłudze Power BI.
 
 *Do przykładów osadzania dla swojej organizacji należą aplikacje wewnętrzne, takie jak [SharePoint Online](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [integracja aplikacji Microsoft Teams (musisz mieć prawa administratora)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) i [Microsoft Dynamics](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard).*
 
-W przypadku osadzania dla swojej organizacji zobacz poniższe tematy:
+W przypadku osadzania dla swojej organizacji zobacz:
 
 * [Integrowanie raportu w aplikacji](embed-sample-for-your-organization.md)
 
@@ -61,7 +62,7 @@ Usługa [Power BI Embedded](azure-pbie-what-is-power-bi-embedded.md) jest usług
 
 Usługa Power BI Embedded zapewnia korzyści niezależnym dostawcom oprogramowania, deweloperom i klientom. Na przykład niezależny dostawca oprogramowania może zacząć bezpłatnie tworzyć wizualizacje przy użyciu aplikacji Power BI Desktop. Niezależni dostawcy oprogramowania mogą szybciej wprowadzać produkty na rynek, minimalizując prace nad wizualizacjami analiz, oraz wyróżnić się wśród konkurencji dzięki różnorodnej obsłudze danych. Niezależni dostawcy oprogramowania mogą też pobierać dodatkowe opłaty za korzyści oferowane przez analizę osadzoną.
 
-Dzięki usłudze Power BI Embedded Twoi klienci nie muszą nic wiedzieć o usłudze Power BI. Do utworzenia aplikacji osadzonej jest potrzebne tylko jedno konto usługi Power BI Pro. Konto usługi Power BI Pro działa jako konto główne dla aplikacji (pomyśl o tym jako o koncie proxy). Konto Power BI Pro umożliwia też generowanie osadzonych tokenów zapewniających dostęp do pulpitów nawigacyjnych i raportów w ramach usługi Power BI. Należą one do Twojej usługi i są przez nią zarządzane.
+Dzięki usłudze Power BI Embedded Twoi klienci nie muszą nic wiedzieć o usłudze Power BI. Do utworzenia aplikacji osadzonej jest potrzebne tylko jedno konto usługi Power BI Pro. Konto usługi Power BI Pro działa jako konto główne dla aplikacji (pomyśl o koncie głównym jako o koncie serwera proxy). Konto Power BI Pro umożliwia też generowanie osadzonych tokenów zapewniających dostęp do pulpitów nawigacyjnych i raportów w ramach usługi Power BI. Należą one do Twojej usługi i są przez nią zarządzane.
 
 Deweloperzy korzystający z usługi Power BI Embedded mogą skupić się na tworzeniu głównych funkcji aplikacji zamiast na tworzeniu wizualizacji i analiz. Deweloperzy mogą szybko realizować wymagania klientów dotyczące raportów i pulpitów nawigacyjnych, a także łatwo osadzać zawartość dzięki w pełni udokumentowanym interfejsom API i zestawom SDK. Niezależni dostawcy oprogramowania mogą udostępniać w swoich aplikacjach eksplorację danych z łatwą nawigacją, aby umożliwiać swoim klientom podejmowanie szybkich decyzji na podstawie danych przy użyciu dowolnego urządzenia.
 

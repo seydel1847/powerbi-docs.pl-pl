@@ -8,15 +8,15 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/04/2018
+ms.date: 12/04/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: a44630f8c5ad7f521ad7f3e8794486cd1b758358
-ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
+ms.openlocfilehash: a410871263316b4aa811ca39116acf69331f7bc5
+ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/15/2018
-ms.locfileid: "49336788"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "52979449"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-power-bi-service"></a>Subskrybowanie raportu i pulpitu nawigacyjnego w usłudze Power BI 
 Nigdy nie było łatwiej być na czasie w przypadku najważniejszych pulpitów nawigacyjnych i raportów. Subskrybuj strony raportów i pulpity nawigacyjne, które są najważniejsze dla Ciebie, a usługa Power BI wyśle wiadomość e-mail z migawką do Twojej skrzynki odbiorczej. Poinformuj usługę Power BI, jak często chcesz otrzymywać wiadomości e-mail: od raz dziennie do raz w tygodniu. 
@@ -54,7 +54,7 @@ Niezależnie od tego, czy subskrybowany jest pulpit nawigacyjny, czy raport, wyk
    
    ![wiadomość e-mail z migawką pulpitu nawigacyjnego](./media/end-user-subscribe/power-bi-dashboard-email-new.jpg)
    
-Odświeżenie strony raportu nie powoduje odświeżenia zestawu danych. Tylko właściciel zestawu danych może ręcznie odświeżyć zestaw danych. Aby wyszukać nazwy źródłówych zestawów danych, wybierz opcję **Wyświetl powiązane** na górnym pasku menu.
+Odświeżenie strony raportu nie powoduje odświeżenia zestawu danych. Tylko właściciel zestawu danych może ręcznie odświeżyć zestaw danych. Aby wyszukać nazwy źródłowych zestawów danych, wybierz opcję **Wyświetl powiązane** na górnym pasku menu.
    
 ![Pokrewne zestawy danych](./media/end-user-subscribe/power-bi-view-related-screen.png)
 
@@ -64,7 +64,7 @@ W poniższej tabeli opisano, jak często będzie wysyłana wiadomość e-mail. Z
 |  | **Zapytanie bezpośrednie** | **Połączenie na żywo** | **Zaplanowane odświeżenie (import)** | **Plik programu Excel w usłudze OneDrive/SharePoint Online** |
 | --- | --- | --- | --- | --- |
 | **Jak często raport/pulpit nawigacyjny jest odświeżany?** |Co 15 min |Usługa Power BI sprawdza co 15 minut, a jeśli zestaw danych został zmieniony, odświeża raport. |Użytkownik może wybrać brak, codziennie lub co tydzień. Codziennie może oznaczać do 8 razy dziennie. Co tydzień to w rzeczywistości harmonogram tygodniowy utworzony przez użytkownika z możliwością ustawienia odświeżenia od jednego razu na tydzień nawet do odświeżania codziennego. |Co godzinę |
-| **Jaką kontrolę ma użytkownik nad harmonogramem subskrypcji wiadomości e-mail?** |Opcje to: codziennie lub co tydzień |Brak opcji: do użytkowników są wysyłane wiadomości e-mail, jeśli raport zostanie odświeżony, ale nie więcej niż raz dziennie. |Jeśli został ustawiony codzienny harmonogram odświeżania, dostępne opcje to codziennie i co tydzień.  W przypadku cotygodniowego harmonogramu odświeżania jedyną opcją jest co tydzień. |Brak opcji: do użytkownika jest wysyłana wiadomość e-mail przy każdej aktualizacji zestawu danych, ale nie więcej niż raz dziennie. |
+| **Jaką kontrolę ma użytkownik nad harmonogramem subskrypcji wiadomości e-mail?** |Opcje to: codziennie lub co tydzień |Brak opcji: do użytkownika są wysyłane wiadomości e-mail, jeśli raport zostanie odświeżony, ale nie więcej niż raz dziennie. |Jeśli został ustawiony codzienny harmonogram odświeżania, dostępne opcje to codziennie i co tydzień.  W przypadku cotygodniowego harmonogramu odświeżania jedyną opcją jest co tydzień. |Brak opcji: do użytkownika jest wysyłana wiadomość e-mail przy każdej aktualizacji zestawu danych, ale nie więcej niż raz dziennie. |
 
 ## <a name="manage-your-subscriptions"></a>Zarządzanie subskrypcjami
 Tylko Ty możesz zarządzać swoimi subskrypcjami. Wybierz ponownie pozycję **Subskrybuj** i wybierz opcję **Zarządzaj wszystkimi subskrypcjami** (zobacz zrzuty ekranu poniżej wcześniejszego kroku 4). 
@@ -82,7 +82,6 @@ Subskrypcje zostaną zakończone po wygaśnięciu licencji wersji Pro, po usuni�
 * Subskrypcje e-mail nie obsługują obecnie wizualizacji niestandardowych bazujących na języku R.  
 * Jeśli do niektórych kafelków zastosowano zabezpieczenia na poziomie wiersza, te kafelki nie będą wyświetlane.
 * Subskrypcje wiadomości e-mail są wysyłane wraz z domyślnymi stanami filtru i fragmentatora raportu. Wszelkie zmiany w wartościach domyślnych wprowadzone po rozpoczęciu subskrypcji nie będą uwzględniane w wiadomości e-mail.    
-* Subskrypcje wiadomości e-mail nie są jeszcze obsługiwane na stronach raportu utworzonych przez program Power BI Desktop połączonych na żywo z funkcją usługi.  
 * W szczególności dla subskrypcji pulpitów nawigacyjnych niektóre typy kafelków nie są jeszcze obsługiwane.  Należą do nich: kafelki przesyłania strumieniowego, kafelki wideo, kafelki niestandardowej zawartości internetowej.     
 * Subskrypcje mogą zakończyć się niepowodzeniem dla pulpitów nawigacyjnych i raportów z wyjątkowo dużymi obrazami, co wynika z ograniczeń rozmiarów wiadomości e-mail.    
 * Usługa Power BI automatycznie wstrzymuje odświeżanie zestawów danych skojarzonych z pulpitami nawigacyjnymi i raportami, które nie były odwiedzane przez więcej niż 2 miesiące.  Jeśli jednak dodasz subskrypcję do pulpitu nawigacyjnego lub raportu, nie zostanie ona wstrzymana nawet wtedy, gdy nie jest odwiedzany.    

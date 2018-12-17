@@ -1,21 +1,22 @@
 ---
 title: Używanie zewnętrznego środowiska IDE języka R z usługą Power BI
-description: W usłudze Power BI możesz uruchomić zewnętrzne środowisko IDE i korzystać z niego
+description: Możesz uruchomić zewnętrzne środowisko IDE i korzystać z niego w usłudze Power BI
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0b8b2173e2015bbe1dca08a1fe45157d0814f899
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 99acb51369d805e907bf77752239320cb9236465
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52669962"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025990"
 ---
 # <a name="use-an-external-r-ide-with-power-bi"></a>Używanie zewnętrznego środowiska IDE języka R z usługą Power BI
 W programie **Power BI Desktop** możesz za pomocą zewnętrznego środowiska IDE (zintegrowanego środowiska programistycznego) języka R tworzyć i dostosowywać skrypty języka R, a następnie używać tych skryptów w usłudze Power BI.

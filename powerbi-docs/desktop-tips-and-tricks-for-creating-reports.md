@@ -1,20 +1,21 @@
 ---
 title: Porady i wskazówki dotyczące tworzenia raportów w usłudze Power BI
-description: Porady i wskazówki dotyczące tworzenia raportów w usłudze Power BI i programie Power BI Desktop
+description: Poznaj najlepsze rozwiązania dotyczące tworzenia raportów w usłudze Power BI i programie Power BI Desktop
 author: davidi
 manager: kfile
 ms.reviewer: willthom
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
-ms.openlocfilehash: ae1c54ee0c5c5de54fc5069f7215c39175cedf8d
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: c68c29449873e22c7e338279e80f049d522ba347
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52830291"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026365"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>Porady i wskazówki dotyczące tworzenia raportów w programie Power BI Desktop
 Aby maksymalnie wykorzystać dane, czasami przydaje się trochę pomocy. Przygotowaliśmy kilka porad i wskazówek, z których można korzystać podczas tworzenia raportów w programie Microsoft Power BI Desktop *oraz* programie Microsoft Excel 2016 albo w wersjach Excel 2013 Pro-Plus z włączonym dodatkiem Power Pivot oraz z zainstalowanym i włączonym dodatkiem Power Query. 
@@ -27,7 +28,7 @@ Dodatkowe informacje można uzyskać z [centrum zasobów dodatku Power Query](ht
 Można również zajrzeć do [skorowidza formuł](https://support.office.com/Article/Learn-about-Power-Query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f).
 
 ## <a name="data-types-in-query-editor"></a>Typy danych w Edytorze zapytań
-Gdy Edytor zapytań w programie Power BI Desktop jest używany do ładowania danych, program próbuje odgadnąć typ danych.  Gdy używane są formuły, ustawienia typów danych w kolumnach czasami nie są zachowywane. Poprawność typów danych kolumn należy sprawdzać po wykonaniu następujących operacji: po początkowym załadowaniu danych do karty zapytania, po wybraniu polecenia „Pierwszy wiersz jako nagłówek”, „Dodaj kolumnę”, „Grupuj według”, „Scal”, „Dołącz”, a także przed wybraniem polecenia ładowania danych po raz pierwszy.
+Gdy Edytor zapytań w programie Power BI Desktop jest używany do ładowania danych, program próbuje odgadnąć typ danych.  Gdy używane są formuły, ustawienia typów danych w kolumnach czasami nie są zachowywane. Poprawność typów danych kolumn należy sprawdzać po wykonaniu następujących operacji:  po początkowym załadowaniu danych do karty zapytania, po wybraniu polecenia Pierwszy wiersz jako nagłówek, Dodaj kolumnę, Grupuj według, Scal, Dołącz, a także przed wybraniem polecenia ładowania danych po raz pierwszy.
 
 Jedna kluczowa sprawa, o której należy pamiętać: kursywa w siatce danych nie oznacza, że typ danych jest poprawnie ustawiony — oznacza tylko, że dane nie są traktowane jak tekst.
 

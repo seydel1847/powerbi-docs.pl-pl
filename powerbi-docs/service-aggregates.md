@@ -9,13 +9,14 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 08/29/2018
 ms.author: mblythe
+ms.custom: seodec18
 LocalizationGroup: Reports
-ms.openlocfilehash: a79fc16f183edb359c15da31ebd6f2747fa7859d
-ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
+ms.openlocfilehash: dfc3006c37d6055bac435fceb05febd596f0cd1a
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47187288"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026482"
 ---
 # <a name="aggregates-in-power-bi-visualizations"></a>Agregacje w wizualizacjach usługi Power BI
 ## <a name="what-is-an-aggregate"></a>Co to jest agregacja?
@@ -32,11 +33,11 @@ W poniższym przykładzie:
 - Kolumny **Sprzedane jednostki** (Units Sold) i **Cena produkcji** (Manufacturing Price) zawierają dane liczbowe
 -  Kolumny **Segment**, **Kraj** (Country), **Produkt** (Product), **Miesiąc** (Month) i **Nazwa miesiąca** (Month Name) zawierają dane kategorii
 
-   ![](media/service-aggregates/power-bi-aggregate-chart.png)
+   ![Przykładowy zestaw danych](media/service-aggregates/power-bi-aggregate-chart.png)
 
 Podczas tworzenia wizualizacji w usłudze Power BI pola liczbowe zostaną zagregowane (wartość domyślna to *suma*) względem niektórych pól kategorii.  Na przykład „Sprzedane jednostki ***wg. Produktu***”, „Sprzedane jednostki ***wg. Miesiąca***” i „Cena produkcji ***wg. Segmentu***”. Niektóre pola numeryczne są nazywane **miarami**. Identyfikacja miar w edytorze raportów usługi Power BI jest łatwa — miary są wyświetlane z symbolem ∑ na liście pól. Aby uzyskać więcej informacji, zobacz [The report editor... take a tour](service-the-report-editor-take-a-tour.md) (Edytor raportów — przewodnik).
 
-![](media/service-aggregates/power-bi-aggregate-fields.png)
+![lista Pola](media/service-aggregates/power-bi-aggregate-fields.png)
 
 
 
@@ -52,18 +53,18 @@ Załóżmy, że istnieje wykres sumujący sprzedane jednostki dla różnych prod
 
 1. Utwórz wykres używający kategorii i miary. W tym przykładzie używamy sprzedanych jednostek według produktu.  Domyślnie usługa Power BI tworzy wykres sumujący sprzedane jednostki (miara w źródle Wartość) dla każdego produktu (kategoria w źródle Oś).
 
-   ![](media/service-aggregates/power-bi-aggregate-sum.png)
+   ![Agregacja sumy](media/service-aggregates/power-bi-aggregate-sum.png)
 
 2. W okienku wizualizacji kliknij prawym przyciskiem myszy miarę i wybierz odpowiedni typ agregacji. W tym przypadku wybieramy średnią. Jeśli nie widzisz odpowiedniej agregacji, zobacz temat „Istotne zagadnienia i rozwiązywanie problemów” poniżej.  
    
-   ![](media/service-aggregates/power-bi-aggregate-average.png)
+   ![Agregacja średniej](media/service-aggregates/power-bi-aggregate-average.png)
    
    > [!NOTE]
    > Opcje dostępne na liście rozwijanej będą się różnić w zależności od 1) wybranego pola oraz 2) sposobu sklasyfikowania pola przez właściciela zestawu danych.
    > 
 3. Twoja wizualizacja używa teraz agregacji według średniej.
 
-   ![](media/service-aggregates/power-bi-aggregate-average2.png)
+   ![Średnia sprzedanych jednostek](media/service-aggregates/power-bi-aggregate-average2.png)
 
 ##    <a name="ways-to-aggregate-your-data"></a>Sposoby agregowania danych
 
@@ -94,13 +95,13 @@ Jako przykładu użyjemy następujących danych:
 
 Otrzymane wyniki będą wyglądać następująco:
 
-* **Nie sumuj:** każda wartość jest wyświetlana osobno
-* **Suma:** 750
-* **Średnia:** 125
-* **Maksimum:** 150
-* **Minimum:** 100
-* **Liczność (niepuste):** 6
-* **Liczność (unikatowe):** 4
+* **Nie sumuj**: każda wartość jest wyświetlana osobno
+* **Suma**: 750
+* **Średnia**: 125
+* **Maksimum**:  150
+* **Minimum**: 100
+* **Liczność (niepuste)**: 6
+* **Liczność (unikatowe)**: 4
 * **Odchylenie standardowe:** 20,4124145...
 * **Wariancja:** 416,666...
 * **Mediana:** 125
@@ -110,55 +111,55 @@ Możesz także agregować pola nieliczbowe. Na przykład jeśli masz pole nazwy 
 
 1. W tym przykładzie przeciągnęliśmy pole **Produkt** do źródła Wartości. Źródło Wartości jest zazwyczaj używane w przypadku pól liczbowych. Usługa Power BI rozpoznaje, że jest to pole tekstowe, ustawia dla agregacji opcję **Nie sumuj** i wyświetla tabelę z jedną kolumną.
    
-   ![](media/service-aggregates/power-bi-aggregate-value.png)
+   ![Pole Produkt w źródle Wartości](media/service-aggregates/power-bi-aggregate-value.png)
 2. Jeśli zmienimy domyślną opcję agregacji **Nie sumuj** na **Liczność (unikatowe)**, usługa Power BI zliczy liczbę różnych produktów. W tym przypadku jest ich 4.
    
-   ![](media/service-aggregates/power-bi-aggregates-count.png)
+   ![Liczba różnych produktów](media/service-aggregates/power-bi-aggregates-count.png)
 3. Zmiana opcji agregacji na **Liczność** spowoduje, że usługa Power BI zliczy wszystkie elementy. W tym przypadku pole **Produkt** ma 7 wpisów. 
    
-   ![](media/service-aggregates/power-bi-aggregate-count2.png)
+   ![Liczba produktów](media/service-aggregates/power-bi-aggregate-count2.png)
 
 4. Przeciągając to samo pole (w tym przypadku pole **Produkt**) do źródła Wartości i pozostawiając domyślną opcję agregacji **Nie sumuj**, spowodujemy, że usługa Power BI podzieli liczbę według produktu.
 
-   ![](media/service-aggregates/power-bi-aggregate-final.png)
+   ![Produkt i liczba produktów](media/service-aggregates/power-bi-aggregate-final.png)
 
 ## <a name="considerations-and-troubleshooting"></a>Istotne zagadnienia i rozwiązywanie problemów
-Pytanie: Dlaczego nie mam dostępu do opcji **Nie sumuj**?
+Pytanie:  Dlaczego nie mam dostępu do opcji **Nie sumuj**?
 
-Odpowiedź: wybrane pole to prawdopodobnie miara obliczana lub miara zaawansowana utworzona w programie Excel lub [Power BI Desktop](desktop-measures.md). Każda miara obliczana ma własną ustaloną formułę. Nie możesz zmienić używanej agregacji.  Jeśli na przykład jest to suma, może to być tylko suma. Na liście pól *miary obliczane* są wyświetlane z symbolem kalkulatora.
+Odpowiedź:  Wybrane pole to prawdopodobnie miara obliczana lub miara zaawansowana utworzona w programie Excel lub [Power BI Desktop](desktop-measures.md). Każda miara obliczana ma własną ustaloną formułę. Nie możesz zmienić używanej agregacji.  Jeśli na przykład jest to suma, może to być tylko suma. Na liście pól *miary obliczane* są wyświetlane z symbolem kalkulatora.
 
-Pytanie: Skoro wybrane przeze mnie pole **jest** numeryczne, dlaczego jedynymi dostępnymi opcjami są **Liczność** i **Liczność unikatowych wartości**?
+Pytanie:  Skoro wybrane przeze mnie pole **jest** numeryczne, dlaczego jedynymi dostępnymi opcjami są **Liczność** i **Liczność unikatowych wartości**?
 
-Odpowiedź 1: Prawdopodobnie właściciel zestawu danych przypadkowo lub celowo *nie* sklasyfikował pola jako liczby. Załóżmy, że zestaw danych zawiera pole **Rok**. Właściciel zestawu danych może sklasyfikować go jako tekst, ponieważ bardziej prawdopodobne jest, że pole **Rok** będzie zliczane (na przykład liczba osób urodzonych w 1974 r.), a nie sumowane lub uśredniane. Jeśli jesteś właścicielem, możesz otworzyć zestaw danych w programie Power BI Desktop i użyć karty **Modelowanie**, aby zmienić typ danych.  
+Odpowiedź 1:  Prawdopodobnie właściciel zestawu danych przypadkowo lub celowo *nie* sklasyfikował pola jako liczby. Załóżmy, że zestaw danych zawiera pole **Rok**. Właściciel zestawu danych może sklasyfikować go jako tekst, ponieważ bardziej prawdopodobne jest, że pole **Rok** będzie zliczane (na przykład liczba osób urodzonych w 1974 r.), a nie sumowane lub uśredniane. Jeśli jesteś właścicielem, możesz otworzyć zestaw danych w programie Power BI Desktop i użyć karty **Modelowanie**, aby zmienić typ danych.  
 
 Odpowiedź 2: Jeśli pole zawiera ikonę kalkulatora, oznacza to, że jest *miarą obliczaną*, a każda miara obliczana ma własną ustaloną formułę, którą może zmienić tylko właściciel zestawu danych. Przeprowadzane obliczenia mogą dotyczyć prostej agregacji, takiej jak średnia lub suma, ale równie dobrze mogłyby obejmować bardziej skomplikowane operacje, takie jak „procent łącznego wkładu względem kategorii nadrzędnej” lub „suma bieżąca obliczana od początku roku”. Usługa Power BI nie będzie obliczać sumy ani średniej dla otrzymanych wyników, zamiast tego ponownie zliczy wartości (przy użyciu ustalonej formuły) dla każdego punktu danych.
 
-Odpowiedź 3: Inna możliwość może dotyczyć upuszczenia pola do *zasobnika*, który dopuszcza tylko wartości kategorii.  W takim przypadku jedynymi dostępnymi opcjami będą Liczność i Liczność unikatowych wartości.
+Odpowiedź 3:  Inna możliwość może dotyczyć upuszczenia pola do *zasobnika*, który dopuszcza tylko wartości kategorii.  W takim przypadku jedynymi dostępnymi opcjami będą Liczność i Liczność unikatowych wartości.
 
-Odpowiedź 4: Trzecia możliwość polega na tym, że używasz pola dla osi. Posłużmy się przykładem. Na osi wykresu słupkowego usługa Power BI wyświetla po jednym pasku dla każdej unikatowej wartości — wartości pola nie są przez nią w ogóle agregowane. 
+Odpowiedź 4:  Trzecia możliwość polega na tym, że używasz pola dla osi. Posłużmy się przykładem. Na osi wykresu słupkowego usługa Power BI wyświetla po jednym pasku dla każdej unikatowej wartości — wartości pola nie są przez nią w ogóle agregowane. 
 
 >[!NOTE]
 >Wyjątkiem od tej reguły są wykresy punktowe, które *wymagają* wartości zagregowanych dla osi X i Y.
 
-Pytanie: Dlaczego nie można agregować pól tekstowych w przypadku źródeł danych SSAS?
+Pytanie:  Dlaczego nie można agregować pól tekstowych w przypadku źródeł danych SSAS?
 
-Odpowiedź: Połączenia na żywo z modelami SSAS MD nie zezwalają na agregacje po stronie klienta. Obejmuje to instrukcje first, last, avg, min, max i sum.
+Odpowiedź:  Połączenia na żywo z modelami SSAS MD nie zezwalają na agregacje po stronie klienta. Obejmuje to instrukcje first, last, avg, min, max i sum.
 
-Pytanie: Mam wykres punktowy i *nie* chcę, aby moje pole było agregowane.  Co mam zrobić?
+Pytanie:  Mam wykres punktowy i *nie* chcę, aby moje pole było agregowane.  Co mam zrobić?
 
-Odpowiedź: Dodaj pole do zasobnika **Szczegóły**, a nie do zasobników osi X i Y.
+Odpowiedź:  Dodaj pole do zasobnika **Szczegóły**, a nie do zasobników osi X i Y.
 
-Pytanie: Podczas dodawania pól numerycznych do wizualizacji większość z nich przyjmuje wartość domyślną sumowania, ale dla niektórych wartość domyślna to średnia lub liczność albo jeszcze inne opcje agregacji.  Dlaczego domyślna opcja agregacji nie jest zawsze taka sama?
+Pytanie:  Podczas dodawania pól numerycznych do wizualizacji większość z nich przyjmuje wartość domyślną sumowania, ale dla niektórych wartość domyślna to średnia lub liczność albo jeszcze inne opcje agregacji.  Dlaczego domyślna opcja agregacji nie jest zawsze taka sama?
 
-Odpowiedź: Właściciele zestawów danych mają możliwość ustawienia wartości domyślnej sumowania dla każdego pola. Jeśli jesteś właścicielem zestawu danych, zmień domyślną wartość sumowania na karcie **Modelowanie** programu Power BI Desktop.
+Odpowiedź:  Właściciele zestawów danych mają możliwość ustawienia wartości domyślnej sumowania dla każdego pola. Jeśli jesteś właścicielem zestawu danych, zmień domyślną wartość sumowania na karcie **Modelowanie** programu Power BI Desktop.
 
-Pytanie: Jestem właścicielem zestawu danych i chcę mieć pewność, że pole nigdy nie będzie agregowane.
+Pytanie:  Jestem właścicielem zestawu danych i chcę mieć pewność, że pole nigdy nie będzie agregowane.
 
-Odpowiedź: W programie Power BI Desktop na karcie **Modelowanie** ustaw kolumnę **Typ danych** na wartość **Tekst**.
+Odpowiedź:  W programie Power BI Desktop na karcie **Modelowanie** ustaw kolumnę **Typ danych** na wartość **Tekst**.
 
-Pytanie: Na liście rozwijanej nie pojawia się opcja **Nie sumuj**.
+Pytanie:  Na liście rozwijanej nie pojawia się opcja **Nie sumuj**.
 
-Odpowiedź: Spróbuj usunąć pole i dodać je ponownie.
+Odpowiedź:  Spróbuj usunąć pole i dodać je ponownie.
 
 Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
 

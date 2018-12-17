@@ -4,18 +4,19 @@ description: Włączanie filtrowania krzyżowego za pomocą zapytania bezpośred
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 58fbef3f8622121100ce77ae69d6c17cbeb46510
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: 89ee11efab495d55457e265e654972aac941d50c
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578318"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025332"
 ---
 # <a name="bidirectional-cross-filtering-using-directquery-in-power-bi-desktop"></a>Dwukierunkowe filtrowanie krzyżowe przy użyciu zapytania bezpośredniego w programie Power BI Desktop
 
@@ -23,11 +24,12 @@ Podczas filtrowania tabel w celu uzyskania odpowiedniego widoku danych twórcy r
 
 Dzięki dwukierunkowemu filtrowaniu krzyżowemu twórcy raportów (i osoby modelujące dane) mają większą kontrolę nad sposobem stosowania filtrów podczas pracy z powiązanymi tabelami, umożliwiając zastosowanie tych filtrów po *obu* stronach relacji tabeli. Jest to osiągane przez propagowanie kontekstu filtru do drugiej powiązanej tabeli po drugiej stronie relacji tabeli.
 
+## <a name="detailed-whitepaper-for-bidirectional-cross-filtering"></a>Szczegółowy oficjalny dokument dotyczący dwukierunkowego filtrowania krzyżowego
 Dostępny jest [szczegółowy oficjalny dokument](http://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx) objaśniający dwukierunkowe filtrowanie krzyżowe w programie Power BI Desktop (ten oficjalny dokument obejmuje również usługi SQL Server Analysis Services 2016, ponieważ zachowują się one tak samo).
 
 * Pobierz oficjalny dokument [Bidirectional cross-filtering for Power BI Desktop](http://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx) (Dwukierunkowe filtrowanie krzyżowe dla programu Power BI Desktop)
 
-### <a name="enabling-bidirectional-cross-filtering-for-directquery"></a>Włączanie dwukierunkowego filtrowania krzyżowego dla zapytania bezpośredniego
+## <a name="enabling-bidirectional-cross-filtering-for-directquery"></a>Włączanie dwukierunkowego filtrowania krzyżowego dla zapytania bezpośredniego
 
 Aby włączyć filtrowanie krzyżowe, w oknie dialogowym **Edytowanie relacji** dla danej relacji należy wybrać następujące opcje:
 

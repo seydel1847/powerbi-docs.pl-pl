@@ -9,14 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/16/2018
+ms.date: 12/06/2018
 LocalizationGroup: Reports
-ms.openlocfilehash: 6a2cfd4926089bce8973070949791e450a47cc4b
-ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
+ms.openlocfilehash: 778be27e38c287de1adf7011c9e4b78048b2a4fa
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51850596"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180811"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Filtrowanie raportu za pomocą parametrów ciągu zapytania w adresie URL
 
@@ -145,17 +145,17 @@ Nazwa_x0020_tabeli/Kolumna_x002B_Plus eq 3 ![wizualizacja tabeli wyświetlająca
 
 Tabela_x0020_specjalna/_x005B_Kolumna:_x0020_nawiasy_x0020_kwadratowe_x005D_ eq '[C]' ![wizualizacja tabeli wyświetlająca znaki specjalne](media/service-url-filters/power-bi-special-characters2.png)
 
-### <a name="use-dax-to-filter-on-multiple-values"></a>Korzystanie z języka DAX w celu filtrowania według wielu wartości
+## <a name="use-dax-to-filter-on-multiple-values"></a>Korzystanie z języka DAX w celu filtrowania według wielu wartości
 
 Innym sposobem filtrowania z użyciem wielu pól jest utworzenie kolumny obliczeniowej łączącej dwa pola w pojedynczą wartość. Następnie można filtrować według tej wartości.
 
-Istnieją dwa pola: Territory i Chain. W programie Power BI Desktop [utwórz nową kolumnę obliczeniową](desktop-tutorial-create-calculated-columns.md) (pole) o nazwie TerritoryChain. Należy pamiętać, że nazwa **pola** nie może zawierać spacji. Oto formuła języka DAX dla tej kolumny.
+Istnieją na przykład dwa pola: Territory i Chain. W programie Power BI Desktop [utwórz nową kolumnę obliczeniową](desktop-tutorial-create-calculated-columns.md) (pole) o nazwie TerritoryChain. Należy pamiętać, że nazwa **pola** nie może zawierać spacji. Oto formuła języka DAX dla tej kolumny.
 
 TerritoryChain = [Territory] & " - " & [Chain]
 
 Opublikuj raport w usłudze Power BI, a następnie użyj ciągu zapytania adresu URL, aby przefiltrować dane w celu wyświetlenia wyłącznie sklepów Lindseys w Karolinie Północnej (NC).
 
-    https://app.powerbi.com/groups/me/reports/8d6e300b-696f-498e-b611-41ae03366851/ReportSection3?filter=Store/TerritoryChain eq 'NC–Lindseys'
+    https://app.powerbi.com/groups/me/reports/8d6e300b-696f-498e-b611-41ae03366851/ReportSection3?filter=Store/TerritoryChain eq 'NC – Lindseys'
 
 ## <a name="pin-a-tile-from-a-filtered-report"></a>Przypinanie kafelka z filtrowanego raportu
 

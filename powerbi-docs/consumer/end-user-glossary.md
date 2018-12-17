@@ -5,14 +5,14 @@ services: power-bi
 author: mihart
 ms.service: powerbi-service
 ms.topic: resource
-ms.date: 11/09/2018
+ms.date: 11/12/2018
 ms.author: mihart
-ms.openlocfilehash: d8238ae96bb57c580c0b74725b105ad7f4332136
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.openlocfilehash: fd7974024fdbfce38b93f1598fa389ef71a47dd9
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51508019"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026351"
 ---
 # <a name="glossary-for-power-bi-service"></a>Słownik dotyczący usługi Power BI
 Usługa Power BI może wprowadzać terminologię, która jest nieznana lub niejasna. Słownik to doskonałe miejsce do wyszukiwania terminologii. Możesz go nawet dodać do zakładek. Innym wspaniałym zasobem umożliwiającym poznanie bloków konstrukcyjnych usługi Power BI jest artykuł [Podstawowe pojęcia](end-user-basic-concepts.md). Sekcja Podstawowe pojęcia zapewnia szczegółowy przegląd *elementów* usługi Power BI oraz informacje o tym, jak są one połączone.
@@ -40,9 +40,9 @@ Ten słownik jest dziełem społeczności.  Nie widzisz tu jakiegoś słowa? Pop
  
 **obszar roboczy aplikacji** Wszystkie obszary robocze w usłudze Power BI, poza obszarem Mój obszar roboczy, są teraz obszarami roboczymi aplikacji. Zawartość można połączyć w aplikacji Power BI. Obszary przechowywane w pojemności Premium można udostępnić użytkownikom wersji bezpłatnej. Osobiste obszary robocze (w sekcji Mój obszar roboczy) można hostować w pojemności Premium.  
 
-**AppSource**
+**AppSource** Scentralizowane repozytorium online, w którym możesz przeglądać i odnajdować pulpity nawigacyjne, raporty, zestawy danych i aplikacje do pobrania.
 
-**ArcGIS dla usługi Power BI** ArcGIS to platforma do tworzenia map i analiz stworzona przez firmę ESRI. Nazwa wizualizacji dołączonej do biblioteki wizualizacji usługi Power BI to ArcGIS dla usługi Power BI.
+**ArcGIS Maps for Power BI** ArcGIS to platforma do tworzenia map i analiz stworzona przez firmę ESRI. Nazwa wizualizacji dołączonej do biblioteki wizualizacji usługi Power BI to ArcGIS Maps for Power BI.
 
 **przypisywanie** [Power BI Premium] Czasownik oznaczający przenoszenie obszaru roboczego do pojemności dedykowanej i w drugą stronę. Nie używaj „promowania” w przypadku przenoszenia obszaru roboczego do pojemności dedykowanej, ponieważ ten termin zawiera skojarzenie z czymś lepszym od pojemności udostępnionej.  
 
@@ -69,7 +69,7 @@ Ten słownik jest dziełem społeczności.  Nie widzisz tu jakiegoś słowa? Pop
 
 **lista zawartości** Indeks zawartości dla aplikacji.
 
-**pakiet zawartości**
+**pakiet zawartości** Kolekcja wstępnie spakowanych zestawów danych, raportów i pulpitów nawigacyjnych. Obecnie **aplikacje**. Dowiedz się więcej na temat [nowego środowiska obszarów roboczych](https://docs.microsoft.com/en-us/power-bi/service-create-the-new-workspaces). 
 
 **widok zawartości**
 
@@ -92,11 +92,11 @@ Ten słownik jest dziełem społeczności.  Nie widzisz tu jakiegoś słowa? Pop
 **model danych, model danych programu Excel**
 
 
-**zestaw danych** i **źródło danych**
+**zestaw danych** a **źródło danych** **Źródło danych** to kolekcja danych używana do tworzenia wizualizacji i raportów.
 
 **pojemność dedykowana** [Power BI Premium] Modele danych uruchomione na dedykowanym sprzęcie w centrach danych w chmurze firmy Microsoft, co pomaga w zapewnieniu spójnej wydajności w dużej skali. Rozwiązania analizy biznesowej są dostarczane do całej organizacji, niezależnie od licencji usługi Power BI.
 
-**Desktop** Pierwsze wystąpienie: program Power BI Desktop; kolejne wystąpienia: program Desktop.
+**Desktop** Pierwsze wystąpienie: Power BI Desktop, kolejne wystąpienia: Pulpit
 
 
 **romb** Power BI Premium. Kształt ikony, który oznacza, że jest to obszar roboczy w pojemności Premium.
@@ -110,6 +110,8 @@ Ten słownik jest dziełem społeczności.  Nie widzisz tu jakiegoś słowa? Pop
 **wielokropek** ...
 
 **kod osadzania** Powszechny standard stosowany w Internecie. W usłudze Power BI klient może wygenerować kod osadzania i skopiować go, aby umieścić zawartość, np. wizualizację raportu, w witrynie internetowej lub blogu.
+
+**Embedded** Zobacz: Power BI Embedded. 
 
 **osadzanie** W ofercie usługi Power BI dla deweloperów; proces integracji analizy w aplikacjach przy użyciu interfejsów API REST usługi Power BI oraz zestawu SDK usługi Power BI.
 
@@ -133,7 +135,7 @@ Można używać zapisu „środowisko usługi Power BI (dzierżawa)” w dokumen
 
 ## <a name="g"></a>G
 
-**bramy** lub **lokalne bramy danych** Mostek do bazowych źródeł danych. Zapewnia szybki i bezpieczny transfer danych między usługą Power BI i lokalnymi źródłami danych, które obsługują odświeżanie. Zazwyczaj zarządzane przez dział IT. lokalne bramy danych
+**bramy** lub **lokalne bramy danych** Mostek do bazowych źródeł danych. Zapewnia szybki i bezpieczny transfer danych między usługą Power BI i lokalnymi źródłami danych, które obsługują odświeżanie. Zazwyczaj zarządzane przez dział IT. 
 
 ## <a name="h"></a>H
 **wizualizacje o wysokiej gęstości** Wizualizacje z większą liczbą punktów danych niż można renderować w usłudze Power BI. Usługa Power BI próbkuje dane, aby przedstawić kształt i wartości odstające.
@@ -160,7 +162,7 @@ Pierwsze wystąpienie: lewy pasek nawigacyjny; kolejne wystąpienia lub węższe
 
 ## <a name="m"></a>mln
 
-**miary** Niestandardowe obliczenia napisane w programie Power BI Desktop przy użyciu kodu DAX lub szybkie miary.
+**Aplikacja mobilna** Aplikacje, które umożliwiają uruchamianie usługi Power BI na urządzeniach z systemami iOS, Android i Windows.
 
 **modelowanie** [Power BI Desktop] Przygotowywanie połączonych danych do użycia w usłudze Power BI. Obejmuje to tworzenie relacji między tabelami w wielu źródłach danych, tworzenie miar oraz przypisywanie metryk.
 
@@ -180,6 +182,9 @@ Pierwsze wystąpienie: lewy pasek nawigacyjny; kolejne wystąpienia lub węższe
 ## <a name="o"></a>O
 
 **OneDrive dla Firm** i **OneDrive** OneDrive to konto osobiste, a OneDrive dla Firm to usługa dla kont służbowych.  
+
+**Lokalna brama danych**
+
 
 
 ## <a name="p"></a>P
@@ -202,7 +207,7 @@ Pierwsze wystąpienie: lewy pasek nawigacyjny; kolejne wystąpienia lub węższe
 
 **Power BI**, **usługa Power BI**, **Power BI Desktop**, **Power BI dla urządzeń przenośnych**, niektóre z ofert usługi Power BI. *Power BI* to termin ogólny. Jest on często używany zamiast pełnej nazwy produktu, np. *usługi Power BI* lub *usługi Power BI dla urządzeń przenośnych*, po pierwszej wzmiance z pełną nazwą produktu.
 
-**Power BI Desktop** Również zwany programem *Desktop*.
+**Power BI Desktop** Również zwany programem *Desktop*. Bezpłatna aplikacja systemu Windows w usłudze Power BI, którą można zainstalować na komputerze lokalnym i która umożliwia nawiązywanie połączenia z danymi oraz ich przekształcanie i wizualizowanie. Używana przez projektantów raportu i administratorów. Aby uzyskać więcej informacji, zobacz [Co to jest usługa Power BI](../power-bi-overview.md).
 
 **Power BI Embedded** Produkt używany przez deweloperów do osadzania pulpitów nawigacyjnych oraz raportów usługi Power BI w swoich własnych aplikacjach, witrynach i narzędziach.
 
@@ -210,8 +215,9 @@ Pierwsze wystąpienie: lewy pasek nawigacyjny; kolejne wystąpienia lub węższe
 
 **Licencja usługi Power BI Pro** Miesięczna licencja użytkownika, która zapewnia możliwość tworzenia pulpitów nawigacyjnych, współpracowania na udostępnionych danych, automatycznego utrzymywania aktualnych danych, przeprowadzania inspekcji oraz zarządzania sposobem dostępu i wykorzystania danych, a także możliwość pakowania zawartości do dystrybucji (aplikacje usługi Power BI).
 
-**Serwer raportów usługi Power BI** Nowa oferta usług SSRS uruchamiana z usługą Power BI Premium, która umożliwia organizacjom tworzenie dystrybuowanych, hybrydowych systemów analizy biznesowej (połączenie wdrożeń w chmurze i lokalnych).
-Oparty na usługach SQL Server Reporting Services z bogatymi funkcjami raportowania z podziałem na strony oraz mobilnymi raportami połączonymi z możliwością obsługiwania raportów usługi Power BI utworzonych przy użyciu programu Power BI Desktop, a także dostarczania ich w aplikacjach mobilnych usługi Power BI. Klasyczne usługi SSRS w dalszym ciągu pozostają w sprzedaży.
+**Serwer raportów usługi Power BI** Nowa oferta usług SSRS uruchamiana z usługą Power BI Premium, która umożliwia organizacjom tworzenie dystrybuowanych, hybrydowych systemów analizy biznesowej (połączenie wdrożeń w chmurze i lokalnych). Usługa Embedded oferuje zlokalizowany sposób przechowywania raportów usługi Power BI i zarządzania nimi.
+
+**Usługa Power BI** Usługa SaaS (oprogramowanie jako usługa) w trybie online. Aby uzyskać więcej informacji, zobacz [Co to jest usługa Power BI](../power-bi-overview.md).
 
 **Łącznik usługi Power BI** Ten łącznik umożliwia użytkownikom programu Power BI Desktop nawiązywanie połączenia z zestawami danych w usłudze Power BI z programu Desktop. Mogą oni utworzyć model i używać go ponownie w wielu raportach i pulpitach nawigacyjnych.
 

@@ -1,26 +1,29 @@
 ---
-title: Często zadawane pytania dotyczące usługi Power BI dla jednostek niemieckiej administracji państwowej
+title: Często zadawane pytania dotyczące jednostek niemieckiej administracji państwowej
 description: Odpowiedzi na często zadawane pytania dotyczące usługi Power BI dla jednostek niemieckiej administracji państwowej
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 4a602a8494261705d61c70679d9511993afe69af
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: dfc240e50f2fa88fc40b5f6f8d80b1106c388cd5
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670077"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026459"
 ---
 # <a name="frequently-asked-questions-for-power-bi-for-germany-cloud-customers"></a>Często zadawane pytania dotyczące usługi Power BI dla klientów usługi Germany Cloud
 **Usługa Power BI** jest dostępna w wersji przeznaczonej dla klientów z obszaru Unii Europejskiej/Europejskiego Porozumienia o Wolnym Handlu (EFTA). Wersja ta jest często nazywana Microsoft Cloud Deutschland (MCD). Wersja **usługi Power BI** omówiona w tym artykule jest przeznaczona dla klientów z obszaru Unii Europejskiej/EFTA. Jest to osobna usługa, inna od komercyjnej wersji **usługi Power BI** oraz od usług Power BI przeznaczonych dla jednostek administracji państwowej.
 
 ![](media/service-govde-faq/govde-faq_01.png)
+
+## <a name="questions-and-answers"></a>Pytania i odpowiedzi
 
 Zestaw poniższych pytań i odpowiedzi zawiera ważne informacje dotyczące usługi Power BI Pro udostępnianej w ramach oferty Microsoft Cloud Deutschland (MCD) — usługi Power BI w chmurze przeznaczonej specjalnie dla klientów z obszaru Unii Europejskiej/EFTA.
 
@@ -68,7 +71,7 @@ Zestaw poniższych pytań i odpowiedzi zawiera ważne informacje dotyczące usł
 | Azure Portal (dla wersji Embedded) |[https://portal.microsoftazure.de/](https://portal.microsoftazure.de/) |[https://portal.azure.com/](https://portal.azure.com/) |
 | Społeczność |[https://community.powerbi.com/](https://community.powerbi.com/) |[https://community.powerbi.com/](https://community.powerbi.com/) |
 
-### <a name="next-steps"></a>Następne kroki
+## <a name="next-steps"></a>Następne kroki
 Przy użyciu usługi Power BI można wykonywać różnorodne zadania. Aby uzyskać więcej informacji i instrukcji, w tym na temat rejestrowania się w usłudze, zobacz następujące zasoby:
 
 * [Power BI — nauka krok po kroku](guided-learning/gettingstarted.yml?tutorial-step=1)
