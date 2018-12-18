@@ -1,33 +1,34 @@
 ---
-title: Zmienianie sposobu sortowania wykresu w raporcie usługi Power BI
+title: Zmienianie sposobu sortowania wykresu w raporcie
 description: Zmienianie sposobu sortowania wykresu w raporcie usługi Power BI
 author: mihart
 manager: kvivek
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: Conceptual
-ms.date: 09/20/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: f4ca6633eb401e7df8041ea385284210c14995ad
-ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
+ms.openlocfilehash: 191dfdeba436322052befdbc6548fd08f96f0738
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "52979345"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280011"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Zmienianie sposobu sortowania wykresu w raporcie usługi Power BI
 W raporcie usługi Power BI większość wizualizacji można sortować alfabetycznie według nazw kategorii na wykresie lub według wartości liczbowych poszczególnych kategorii. Na przykład ten wykres jest posortowany według kategorii **nazwa sklepów**.
 
-![](media/end-user-change-sort/pbi_chartsortcategory.png)
+![wykres słupkowy alfa posortowany według osi X](media/end-user-change-sort/pbi_chartsortcategory.png)
 
 W zamian można prosto zmienić sortowanie z kategorii (nazwa sklepu) na wartość (sprzedaż na metr kw.).
 
 1. Wybierz wielokropek (...), a następnie wybierz pozycję **Sort by > Sales Per Sq Ft** (Sortuj według > Sprzedaż na metr kw.).
 2. Jeśli to konieczne, ponownie wybierz wielokropek i wybierz pozycję **Sortuj malejąco**.
 
-   ![](media/end-user-change-sort/sort.gif)
+   ![wideo przedstawiające wybieranie opcji sortowania według, a następnie wartości rosnąco lub malejąco](media/end-user-change-sort/sort.gif)
 
    **UWAGA**: Nie wszystkie wizualizacje można sortować.  Na przykład nie można sortować następujących wizualizacji: mapa drzewa, mapa, kartogram, wykres punktowy, miernik, karta, karta z wieloma wierszami, wykres kaskadowy.
 

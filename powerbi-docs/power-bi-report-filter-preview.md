@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 12/05/2018
+ms.date: 12/10/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 3d4bcff012a8abb53d82dea2a8514d654056736a
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: fb25ae7408ddb19d7e8bc9c91c0e1b0f65d2bf42
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53026252"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280632"
 ---
 # <a name="the-new-filter-experience-in-power-bi-reports-preview"></a>Nowe funkcje filtrowania w raportach usługi Power BI (wersja zapoznawcza)
 
@@ -34,11 +34,11 @@ Jeśli jesteś projektantem raportów, przy użyciu nowych filtrów możesz wyko
 
 ## <a name="turn-on-the-new-filter-experience"></a>Włączanie nowej funkcji filtrowania 
 
-Nową funkcję można włączyć w programie Power BI Desktop. Następnie można modyfikować filtry w programie lub w usłudze Power BI (https://app.powerbi.com). Ze względu na to, że nowa funkcja filtrowania jest obecnie dostępna w wersji zapoznawczej, musisz ją najpierw włączyć w programie Power BI Desktop. 
+Nową funkcję można włączyć w programie Power BI Desktop. Następnie można modyfikować filtry w programie lub w usłudze Power BI (https://app.powerbi.com). Ze względu na to, że nowa funkcja filtrowania jest obecnie dostępna w wersji zapoznawczej, musisz ją najpierw włączyć w programie Power BI Desktop. Jeśli rozpoczniesz od utworzenia raportu w usłudze Power BI, nie będzie można używać w nim nowych filtrów.
 
 ### <a name="turn-on-new-filters-for-all-new-reports"></a>Włączanie nowych filtrów dla wszystkich nowych raportów
 
-1. Wybierz pozycję **Plik** > **Opcje i ustawienia** > **Opcje** > **Funkcje w wersji zapoznawczej**, a następnie zaznacz pole wyboru **Nowa funkcja filtrowania**. 
+1. W programie Power BI Desktop wybierz pozycję **Plik** > **Opcje i ustawienia** > **Opcje** > **Funkcje w wersji zapoznawczej**, a następnie zaznacz pole wyboru **Nowa funkcja filtrowania**. 
 2. Uruchom ponownie program Power BI Desktop, aby wyświetlić nową funkcję filtrowania we wszystkich nowych raportach.
 
 Po ponownym uruchomieniu programu Power BI Desktop nowa funkcja będzie domyślnie włączona dla wszystkich nowych raportów.  
@@ -47,7 +47,7 @@ Po ponownym uruchomieniu programu Power BI Desktop nowa funkcja będzie domyśln
 
 Nowe filtry można również włączyć dla istniejących raportów.
 
-1. W istniejącym raporcie wybierz pozycje **Plik** > **Opcje i ustawienia** > **Opcje**
+1. W programie Power BI Desktop w istniejącym raporcie wybierz pozycje **Plik** > **Opcje i ustawienia** > **Opcje**
 2. W obszarze **Ustawienia raportu** wybierz pozycję **Włącz zaktualizowane okienko filtru i dla tego raportu pokazuj filtry w nagłówku wizualizacji**.
 
 ## <a name="build-the-new-filter-pane"></a>Tworzenie nowego okienka filtru

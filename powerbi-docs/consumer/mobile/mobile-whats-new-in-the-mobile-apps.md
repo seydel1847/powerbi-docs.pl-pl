@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 11/08/2018
 ms.author: maggies
-ms.openlocfilehash: 37995f52882d1a5062b8aa03fb7b0480063a4f77
-ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
+ms.openlocfilehash: f272d0e40de5c65de9134c3d184195889233496b
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "52979558"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280931"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Co nowego w aplikacjach mobilnych dla usługi Power BI
 Powiązane nowości są dostępne w następujących artykułach:
@@ -22,6 +22,36 @@ Powiązane nowości są dostępne w następujących artykułach:
 * [Blog zespołu usługi Power BI dotyczący aplikacji mobilnych](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Co nowego w programie Power BI Desktop](../../desktop-latest-update.md)  
 * [Co nowego w usłudze Power BI](../../service-whats-new.md)  
+
+## <a name="november-2018"></a>Listopad 2018
+
+### <a name="modern-visual-header"></a>Nowoczesne nagłówki wizualizacji 
+
+W raportach z nowymi „nowoczesnymi nagłówkami wizualizacji” nie będzie już przydzielane miejsce na nagłówki, co będzie skutkować mniejszą ilością pustego miejsca i większą ilością miejsca na wizualizacje.
+
+### <a name="enhance-presentation-mode-windows"></a>Rozszerzanie trybu prezentacji (system Windows)
+
+Rozszerzono tryb prezentacji dla urządzeń Surface Hub i urządzeń z systemem Windows 10.  Korzystaj z zalet rozszerzonego środowiska sali konferencyjnej w urządzeniu Surface Hub z ulepszonymi narzędziami prezentacji i współpracy oraz widokiem zoptymalizowanym pod kątem dużego ekranu bez elementów wykończeniowych, dzięki którym skupisz się swoich danych. Tryb prezentacji oferuje również narzędzia, takie jak pismo odręczne, które ułatwiają efektywne prezentowanie danych oraz prowadzenie dyskusji na ich temat. Dowiedz się więcej na temat prezentacji [tutaj](https://powerbi.microsoft.com/en-us/blog/presentation-mode-in-power-bi-windows-app/).
+
+### <a name="portrait-report-layout-in-tablets-ios-and-android"></a>Układ pionowy raportu na tabletach (systemy iOS i Android)
+
+Teraz do wyświetlania na tablecie raportów w trybie orientacji pionowej używamy układu raportów dla telefonów, o ile istnieje. Dowiedz się więcej na temat [sposobu tworzenia układu dla telefonu w usłudze Power BI lub programie Desktop](https://docs.microsoft.com/en-us/power-bi/desktop-create-phone-report/).
+
+### <a name="supporting-report-query-string"></a>Obsługa ciągu zapytania w raporcie 
+
+Link służący do otwierania raportu, który zawiera ciąg zapytania, będzie teraz otwierany w aplikacji mobilnej, a raport będzie wstępnie filtrowany w oparciu o warunki zdefiniowane w ciągu zapytania. Dowiedz się więcej na temat [sposobu tworzenia adresu URL raportu z ciągiem zapytania](https://docs.microsoft.com/en-us/power-bi/service-url-filters/).  
+
+### <a name="shared-credentials-now-in-android"></a>Poświadczenia udostępnione (teraz w systemie Android)
+
+Logowanie do usługi Power BI z aplikacji mobilnej jest łatwiejsze niż dotychczas. Dzięki poświadczeniom udostępnionym uprościliśmy proces logowania przy użyciu innych poświadczeń aplikacji usługi Office 365 na urządzeniu w celu uwierzytelniania użytkownika w usłudze Power BI.
+
+### <a name="in-app-urls-now-in-android"></a>Adresy URL w aplikacji (teraz w systemie Android) 
+
+Linki w raportach, które wskazują na inne artefakty usługi Power BI, są teraz otwierane bezpośrednio w aplikacji. Dzięki temu można kompilować niestandardowe przepływy nawigacji, na przykład łączenie z raportu do pulpitu nawigacyjnego.
+
+### <a name="show-data-and-copy-values"></a>Pokazywanie danych i kopiowanie wartości
+
+Menu akcji wizualizacji raportu (...) ma teraz opcję wyświetlania danych podstawowych w formacie tabeli. Po przejściu do tabeli można długo nacisnąć w celu zaznaczenia i skopiowania wartości z tej tabeli (przy założeniu, że nie istnieją zasady usługi Intune ograniczające kopiowanie).
 
 ## <a name="october-2018"></a>Październik 2018
 
