@@ -1,24 +1,25 @@
 ---
-title: Automatyczne generowanie wglądu w szczegółowe dane przy użyciu usługi Power BI
-description: Dowiedz się, jak uzyskać wgląd w szczegółowe dane dla zestawów danych i kafelków pulpitu nawigacyjnego.
+title: Uruchamianie i wyświetlanie szczegółowych informacji na kafelkach pulpitu nawigacyjnego
+description: Jako użytkownik końcowy usługi Power BI dowiedz się, jak uzyskać szczegółowe informacje dotyczące kafelków pulpitu nawigacyjnego.
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: et_MLSL2sA8
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/10/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: f68e962eacf04005d83ec0def10cf8e0e24f6e10
-ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
+ms.openlocfilehash: dd59f572da6bb3b62fa142ea7b7eab4aef5a3466
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "49112043"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180535"
 ---
-# <a name="automatically-generate-data-insights-with-power-bi"></a>Automatyczne generowanie wglądu w szczegółowe dane przy użyciu usługi Power BI
+# <a name="view-data-insights-on-dashboard-tiles-with-power-bi"></a>Wyświetlanie szczegółowych informacji dotyczących kafelków pulpitu nawigacyjnego w usłudze Power BI
 Każdy kafelek wizualizacji na pulpicie nawigacyjnym umożliwia rozpoczęcie eksploracji danych. Wybranie kafelka powoduje otwarcie raportu, w którym można filtrować i sortować oraz analizować zestaw danych będący podstawą raportu. Po uruchomieniu wglądu w szczegółowe dane usługa Power BI przeprowadza dla Ciebie eksplorację danych.
 
 Uruchom szybki wgląd w szczegółowe dane, aby generować interesujące, interaktywne wizualizacje na podstawie danych. Szybki wgląd w szczegółowe dane można uruchamiać na określonym kafelku pulpitu nawigacyjnego. Można nawet uruchamiać wgląd w szczegółowe dane na wglądzie w szczegółowe dane!
@@ -40,7 +41,9 @@ Po uruchomieniu wglądu w szczegółowe dane na kafelku pulpitu nawigacyjnego us
 4. Czy jeden z wglądów przykuł Twoje zainteresowanie? Wybierz kartę tego wglądu, aby dokładniej go zbadać. Wybrany wgląd w szczegółowe dane jest wyświetlany po lewej stronie i na nowych kartach wglądu, wyłącznie na podstawie danych w tym pojedynczym wglądzie w szczegółowe dane, wyświetlanym wzdłuż prawej strony.    
 
  ## <a name="interact-with-the-insight-cards"></a>Praca z kartami wglądu w szczegółowe dane
-   * Filtrowanie wizualizacji.  Aby wyświetlić filtry, w prawym górnym rogu wybierz strzałkę, aby rozwinąć okienko Filtry.
+Po otwarciu szczegółowych informacji kontynuuj eksplorowanie.
+
+   * Filtruj wizualizację na kanwie.  Aby wyświetlić filtry, w prawym górnym rogu wybierz strzałkę, aby rozwinąć okienko Filtry.
 
      ![rozwinięte menu danych szczegółowych i filtrów](./media/end-user-insights/power-bi-insights-on-insights.png)
    
