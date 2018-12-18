@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/21/2018
+ms.date: 12/10/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 709518924fbb9d83201eb5c070b7a3e93838ec79
-ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
+ms.openlocfilehash: 7a1187373304387ac511053d241e5cfb31f7fcd9
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "52331947"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280586"
 ---
 # <a name="intro-to-dashboards-for-power-bi-designers"></a>Wprowadzenie do pulpitów nawigacyjnych dla projektantów usługi Power BI
 
@@ -48,15 +48,15 @@ Pulpit nawigacyjny jest nie tylko atrakcyjny wizualnie. Jest wysoce interakcyjny
 | --- | --- | --- |
 | Strony |Jedna strona |Jedna lub kilka stron |
 | Źródła danych |Co najmniej jeden raport i co najmniej jeden zestaw danych na pulpit nawigacyjny |Jeden zestaw danych na raport |
-| Dostępność w programie Power BI Desktop |Nie |Tak, ***twórcy*** mogą tworzyć i wyświetlać raporty w programie Desktop |
+| Dostępność w programie Power BI Desktop |Nie | Można tworzyć i wyświetlać raporty w programie Power BI Desktop |
 | Subskrybuj |Można subskrybować pulpit nawigacyjny |Można subskrybować strony raportu |
 | Filtrowanie |Nie można filtrować ani wycinać |Wiele różnych sposobów filtrowania, wyróżniania i wycinania |
 | Polecane |Można ustawić jeden pulpit nawigacyjny jako „proponowany” |Nie można tworzyć proponowanych raportów |
 | Dodaj do ulubionych | Można oznaczać pulpity nawigacyjne jako *ulubione* | Można ustawiać raporty jako *ulubione*
 | Ustawianie alertów |Dostępne dla kafelków pulpitu nawigacyjnego w pewnych okolicznościach |Niedostępne z poziomu raportów |
-| Zapytania w języku naturalnym |Dostępne z poziomu pulpitu nawigacyjnego |Niedostępne z poziomu raportów |
+| Zapytania w języku naturalnym (Pytania i odpowiedzi) |Dostępne na pulpitach nawigacyjnych | Dostępne w raportach |
 | Wyświetlanie tabel i pól bazowego zestawu danych |Nie. Można eksportować dane, ale nie można wyświetlać tabel i pól na pulpicie nawigacyjnym. |Tak. Można wyświetlać tabele, pola i wartości zestawu danych. |
-| Dostosowywanie |Nie |W widoku do czytania można publikować, osadzać, filtrować, eksportować, pobierać jako plik pbix, wyświetlać powiązaną zawartość, generować kody QR, analizować w programie Excel i nie tylko.  |
+
 
 ## <a name="next-steps"></a>Następne kroki
 * Dobrze poznaj pulpity nawigacyjne, eksperymentując na jednym z naszych [przykładowych pulpitów nawigacyjnych](sample-tutorial-connect-to-the-samples.md).

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 56f25730730a6f218f2dbaa678abdf182470f177
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: eea68f0a17deff3aaa5a39558ffc2165b4c2b6f6
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670261"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280357"
 ---
 # <a name="import-excel-workbooks-into-power-bi-desktop"></a>Importowanie skoroszytów programu Excel do programu Power BI Desktop
 Do programu **Power BI Desktop** można łatwo importować skoroszyty programu Excel zawierające zapytania dodatku Power Query, modele dodatku Power Pivot i arkusze programu Power View. Na podstawie skoroszytu programu Excel są automatycznie tworzone raporty i wizualizacje, a po zaimportowaniu zawartości można ulepszać i dostosowywać te raporty za pomocą programu Power BI Desktop, korzystając z istniejących funkcji i nowych funkcji publikowanych w każdej comiesięcznej aktualizacji programu Power BI Desktop.
@@ -42,7 +42,7 @@ Po zakończeniu operacji importu zostaje wyświetlona strona **Podsumowanie** z 
 
 ![](media/desktop-import-excel-workbooks/importexceltopbi_3.png)
 
-Po wybraniu pozycji **Zamknij** raport zostaje załadowany w programie Power BI Desktop. Na poniższej ilustracji przedstawiono program Power BI Desktop po zaimportowaniu skoroszytu programu Excel. Program Power BI Desktop automatycznie załadował raport na podstawie zawartości skoroszytu.
+Po wybraniu pozycji **Zamknij** raport zostaje załadowany w programie Power BI Desktop. Na poniższej ilustracji przedstawiono program Power BI Desktop po zaimportowaniu skoroszytu programu Excel: program Power BI Desktop automatycznie załadował raport na podstawie zawartości skoroszytu.
 
 ![](media/desktop-import-excel-workbooks/importexceltopbi_4.png)
 
@@ -55,7 +55,7 @@ Program Power BI Desktop może importować następujące elementy z programu Exc
 | --- | --- |
 | Zapytania dodatku Power Query |Wszystkie zapytania dodatku Power Query z programu Excel są konwertowane na zapytania w programie Power BI Desktop. Jeśli w skoroszycie programu Excel zdefiniowano grupy zapytań, taka sama organizacja zostanie zreplikowana w programie Power BI Desktop. Ładowane są wszystkie zapytania, chyba że w programie Excel ustawiono dla nich opcję Utwórz tylko połączenie. Zachowanie związane z ładowaniem można dostosować w oknie dialogowym **Właściwości** na karcie **Narzędzia główne** w **Edytorze zapytań** w programie Power BI Desktop. |
 | Zewnętrzne połączenia danych dodatku Power Pivot |Wszystkie zewnętrzne połączenia danych dodatku Power Pivot są konwertowane na zapytania w programie Power BI Desktop. |
-| Połączone tabele lub tabele bieżącego skoroszytu |Jeśli w pliku programu Excel istnieje tabela arkusza połączona z modelem danych lub z zapytaniem — przy użyciu polecenia *Z tabeli* lub funkcji *Excel.CurrentWorkbook()* w języku M — prezentowane są następujące opcje: 1. Zaimportowanie tabeli do pliku programu Power BI Desktop. Ta tabela to jednorazowa migawka danych. Nie można później edytować danych w tej tabeli w programie Power BI Desktop. W przypadku tabel utworzonych za pomocą tej opcji obowiązuje ograniczenie rozmiaru do miliona znaków (łącznie — obejmuje to wszystkie nagłówki kolumn i komórki). 2. Zachowanie połączenia z oryginalnym skoroszytem. Ewentualnie można zachować połączenie z oryginalnym skoroszytem programu Excel. Program Power BI Desktop będzie pobierać najnowszą zawartość tej tabeli przy każdym odświeżeniu, podobnie jak w przypadku innych zapytań utworzonych w programie Power BI Desktop do badania skoroszytów programu Excel. |
+| Połączone tabele lub tabele bieżącego skoroszytu |Jeśli w pliku programu Excel istnieje tabela arkusza połączona z modelem danych lub z zapytaniem — przy użyciu polecenia *Z tabeli* lub funkcji *Excel.CurrentWorkbook()* w języku M — prezentowane są następujące opcje: <ol><li>Zaimportowanie tabeli do pliku programu Power BI Desktop. Ta tabela to jednorazowa migawka danych. Nie można później edytować danych w tej tabeli w programie Power BI Desktop. W przypadku tabel utworzonych za pomocą tej opcji obowiązuje ograniczenie rozmiaru do miliona znaków (łącznie — obejmuje to wszystkie nagłówki kolumn i komórki).</li><li>Zachowanie połączenia z oryginalnym skoroszytem. Ewentualnie można zachować połączenie z oryginalnym skoroszytem programu Excel. Program Power BI Desktop będzie pobierać najnowszą zawartość tej tabeli przy każdym odświeżeniu, podobnie jak w przypadku innych zapytań utworzonych w programie Power BI Desktop do badania skoroszytów programu Excel.</li></ul> |
 | Kolumny obliczeniowe, miary, wskaźniki KPI, kategorie danych i relacje modelu danych |Te obiekty modelu danych są konwertowane na obiekty równoważne w programie Power BI Desktop. Należy pamiętać, że niektóre kategorie danych nie są dostępne w programie Power BI Desktop, na przykład kategoria **Obraz**. W takim przypadku informacja o kategorii danych zostaje zresetowana dla danej kolumny. |
 | Arkusze programu Power View |Dla każdego arkusza programu Power View w pliku programu Excel tworzona jest nowa strona raportu. Nazwy i kolejność tych stron raportu są zgodne z oryginalnym skoroszytem programu Excel. |
 

@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: dd59f572da6bb3b62fa142ea7b7eab4aef5a3466
-ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
+ms.openlocfilehash: 8bae8475ee4bbe91ea27f3a9e30a3323a92a8250
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "53180535"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280264"
 ---
 # <a name="view-data-insights-on-dashboard-tiles-with-power-bi"></a>Wyświetlanie szczegółowych informacji dotyczących kafelków pulpitu nawigacyjnego w usłudze Power BI
 Każdy kafelek wizualizacji na pulpicie nawigacyjnym umożliwia rozpoczęcie eksploracji danych. Wybranie kafelka powoduje otwarcie raportu, w którym można filtrować i sortować oraz analizować zestaw danych będący podstawą raportu. Po uruchomieniu wglądu w szczegółowe dane usługa Power BI przeprowadza dla Ciebie eksplorację danych.

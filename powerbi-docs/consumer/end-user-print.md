@@ -5,18 +5,19 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/01/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: be7597cf13732e251f40f73a853e6ea7b0032652
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.openlocfilehash: bb3ecb8a343d2ed3f3693dd136b11b7543cabc70
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51507674"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280747"
 ---
 # <a name="printing-from-power-bi-service"></a>Drukowanie z usługi Power BI
 Wydrukuj cały pulpit nawigacyjny, kafelek pulpitu nawigacyjnego, stronę raportu lub element wizualny raportu z usługi Power BI. Raporty można drukować tylko po jednej stronie naraz — nie można wydrukować od razu całego raportu.
@@ -76,7 +77,7 @@ Raporty można drukować po jednej stronie w danym momencie.
 1. [Otwórz element wizualny w trybie koncentracji uwagi](end-user-focus.md), przenosząc kursor myszy nad kafelek i wybierając ikonę koncentracji uwagi ![ikona koncentracji uwagi](./media/end-user-print/power-bi-focus-icon.png) w prawym górnym rogu.
 2. Wykonaj kroki 2–3 w sekcji *Drukowanie strony raportu* powyżej.
 
-## <a name="considerations-and-troubleshooting"></a>Zagadnienia i rozwiązywanie problemów
+## <a name="considerations-and-troubleshooting"></a>Istotne zagadnienia i rozwiązywanie problemów
 * Pytanie: nie mogę znaleźć przycisku **Drukuj**.    
 * Odpowiedź: jeśli używasz aplikacji Power BI Desktop, drukowanie nie jest obsługiwane.  Drukowanie działa wyłącznie w usłudze Power BI.
 * Pytanie: nie mogę wydrukować wszystkich stron raportu na raz.    

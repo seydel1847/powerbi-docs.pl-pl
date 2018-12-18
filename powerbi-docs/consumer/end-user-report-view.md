@@ -1,60 +1,61 @@
 ---
-title: Zmiana rozmiaru strony raportu
+title: Zmienianie rozmiaru i współczynnika wyświetlanej strony raportu
 description: Zmienianie ustawień wyświetlania strony w raporcie usługi Power BI
 author: mihart
 manager: kvivek
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/24/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: c3e0fe7d469558a1800b7ce26b8b255fd8fa7a15
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 93e6c66c28c95d729ae0af0910f887f61f52694e
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46566193"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280839"
 ---
 # <a name="change-the-size-of-a-report-page"></a>Zmiana rozmiaru strony raportu
-W [poprzednim artykule i filmie wideo](../power-bi-report-display-settings.md) omówiliśmy dwa różne sposoby kontrolowania wyświetlania strony w raportach usługi Power BI: **Widok** i **Rozmiar strony**. Pozycje Widok strony i Rozmiar strony są dostępne zarówno w usłudze Power BI, jak i w programie Power BI Desktop, a ich wygląd i funkcje są prawie takie same. W tym samouczku używamy usługi Power BI.
+W [poprzednim artykule i filmie wideo](../power-bi-report-display-settings.md) przedstawiono dwa różne sposoby kontrolowania wyświetlania strony w raportach usługi Power BI: **Widok** i **Rozmiar strony**. Pozycje Widok strony i Rozmiar strony są dostępne zarówno w usłudze Power BI, jak i w programie Power BI Desktop, a ich wygląd i funkcje są prawie takie same. W tym samouczku używamy usługi Power BI.
 
 ### <a name="prerequisites"></a>Wymagania wstępne
-- Usługa Power BI   
+- w usłudze Power BI   
 - [Raport dla przykładu Retail Analysis](../sample-retail-analysis.md)
 
 ## <a name="first-lets-change-the-page-view-setting"></a>Po pierwsze zmienimy ustawienie Widok strony
 
 1. Otwórz raport w widoku do czytania lub widoku do edycji i wybierz kartę raportu **New Stores**. Domyślnie ta strona raportu jest wyświetlana przy użyciu ustawienia **Dopasuj do strony**.  W tym przypadku opcja Dopasuj do strony wyświetla stronę raportu bez pasków przewijania, ale niektóre szczegóły i tytuły są zbyt małe, żeby dało się je odczytać.
 
-   ![](media/end-user-report-view/pbi_fit_to_page.png)
+   ![raport wyświetlony na kanwie](media/end-user-report-view/pbi_fit_to_page.png)
 2. Upewnij się, że na kanwie nie wybrano żadnych wizualizacji. Wybierz opcję **Widok** i przejrzyj opcje wyświetlania.
 
    * Widok odczytu będzie następujący.
 
-     ![](media/end-user-report-view/power-bi-page-view-menu-new.png)
+     ![Wyświetlanie menu rozwijanego z wybraną pozycją Dopasuj do strony](media/end-user-report-view/power-bi-page-view-menu-new.png)
    * Widok edycji będzie następujący.
 
-     ![](media/end-user-report-view/power-bi-view-editing-view.png)
+     ![Wyświetlanie menu rozwijanego z wybraną pozycją Dopasuj do strony](media/end-user-report-view/power-bi-view-editing-view.png)
 
 3. Zobaczmy, jak wygląda strona przy użyciu ustawienia **Rozmiar rzeczywisty**.
 
-   ![](media/end-user-report-view/power-bi-actal-size2.png)
+   ![raport wyświetlony na kanwie z dwoma paskami przewijania](media/end-user-report-view/power-bi-actal-size2.png)
 
    Niezbyt dobrze. Pulpit nawigacyjny ma teraz podwójne paski przewijania.
 4. Przełącz się na opcję **Dopasuj do szerokości**.
 
-   ![](media/end-user-report-view/pbi_fit_to_width.png)
+   ![raport wyświetlany bez paska przewijania/z jednym paskiem przewijania](media/end-user-report-view/pbi_fit_to_width.png)
 
-   Teraz strona wygląda lepiej. Mamy paski przewijania, ale też łatwiej odczytać szczegóły.
+   Teraz strona wygląda lepiej. Dalej mamy jeden pasek przewijania, ale można łatwiej odczytać szczegóły.
 
 ## <a name="change-the-default-view-for-a-report-page"></a>Zmiana domyślnego widoku strony raportu
 Jeśli jesteś *twórcą* raportu, możesz zmienić domyślny widok stron raportu. Po udostępnieniu raportu innym osobom strony raportu zostaną otwarte w ustawionym widoku. *Użytkownicy* raportu będą mogli zmienić widok, ale nie będą mogli zapisać swoich zmian, wychodząc z raportu.
 
 1. Na stronie **Nowe sklepy** raportu przełącz się z powrotem na widok **Rozmiar rzeczywisty**.
 
-   ![](media/end-user-report-view/power-bi-actual-size.png)
+   ![Wyświetlanie menu rozwijanego z wybraną pozycją Rozmiar rzeczywisty](media/end-user-report-view/power-bi-actual-size.png)
 
 2. Na stronie raportu **District Monthly Sales** ustaw widok na **Dopasuj do szerokości**.
 
@@ -62,16 +63,16 @@ Jeśli jesteś *twórcą* raportu, możesz zmienić domyślny widok stron raport
 
 4. Teraz zapisz raport, wybierając pozycję **Plik > Zapisz**. Przy następnym otwarciu tego raportu strony będą wyświetlane przy użyciu nowych ustawień widoku. Sprawdźmy to.
 
-   ![](media/end-user-report-view/power-bi-save.png)
+   ![Lista rozwijana Plik z wybraną pozycją Zapisz](media/end-user-report-view/power-bi-save.png)
 3. Wybierz nazwę bieżącego obszaru roboczego z górnego paska nawigacyjnego, aby powrócić do tego obszaru roboczego.  
 
-   ![](media/end-user-report-view/power-bi-my-workspace.png)
+   ![Górny pasek menu z linkami do stron nadrzędnych](media/end-user-report-view/power-bi-my-workspace.png)
 4. Wybierz kartę **Raporty** i wybierz ten sam raport (przykład Retail Analysis).
 
-    ![](media/end-user-report-view/power-bi-new-report2.png)
+    ![Widok zawartości z wybraną kartą Raporty](media/end-user-report-view/power-bi-new-report2.png)
 5. Otwórz każdą stronę raportu, aby zobaczyć nowe ustawienia.
 
-   ![](media/end-user-report-view/power-bi-page-view.gif)
+   ![wideo przedstawiające sposób zmieniania opcji widoku](media/end-user-report-view/power-bi-page-view.gif)
 
 ## <a name="now-lets-explore-the-page-size-setting"></a>Teraz przyjrzymy się ustawieniom *rozmiaru strony*
 Ustawienia rozmiaru strony są dostępne tylko w [Widoku do edycji](../service-interact-with-a-report-in-editing-view.md), więc musisz mieć uprawnienia do edycji raportu (*twórcy*), aby zmienić ustawienia rozmiaru strony. W przypadku połączenia z dowolnym z naszych [przykładów](../sample-datasets.md) będziesz mieć uprawnienia *twórcy* do tych raportów.
@@ -80,13 +81,13 @@ Ustawienia rozmiaru strony są dostępne tylko w [Widoku do edycji](../service-i
 2. Upewnij się, że na kanwie nie wybrano żadnych wizualizacji.  W okienku **Wizualizacje** wybierz ikonę wałka do malowania ![](media/end-user-report-view/power-bi-paintroller.png).
 3. Wybierz opcję **Rozmiar strony** &gt; **Typ**, aby wyświetlić opcje rozmiaru strony.
 
-   ![](media/end-user-report-view/power-bi-page-size-menu-new.png)
+   ![Rozwinięta karta Rozmiar strony z wybraną pozycją 16:9](media/end-user-report-view/power-bi-page-size-menu-new.png)
 4. Wybierz opcję **Letter**.  Na białej części kanwy pozostanie tylko zawartość mieszcząca się w obszarze 816 × 1056 pikseli (rozmiar Letter).
 
-   ![](media/end-user-report-view/power-bi-letter-new.png)
+   ![Kanwa raportu z rozwiniętą kartą Rozmiar strony i wybraną pozycją Typ > Letter](media/end-user-report-view/power-bi-letter-new.png)
 5. Wybierz współczynnik **Rozmiar strony** **16:9**.
 
-   ![](media/end-user-report-view/power-bi-16-to-9-new.png)
+   ![Rozwinięta karta Rozmiar strony z wybraną pozycją Typ > 16:9](media/end-user-report-view/power-bi-16-to-9-new.png)
 
    Strona raportu będzie wyświetlana przy użyciu współczynnika 16 (szerokość) do 9 (wysokość). Aby wyświetlić faktyczny rozmiar w pikselach, przyjrzyj się wyszarzonym polom Szerokość i Wysokość (1280 × 720). Jest dużo wolnego miejsca wokół kanwy raportu, ponieważ wcześniej ustawiliśmy **Widok** na opcję „Dopasuj do szerokości”.
 7. Kontynuuj eksplorowanie opcji **Rozmiar strony**.
@@ -100,14 +101,14 @@ W poprzednim kroku zobaczyliśmy, że nasza strona raportu była wyświetlana w 
 
 1. Zmień rozmiar i przesuń elementy wizualne tak, aby mieściły się w części mniejszej od połowy obecnego obszaru kanwy.
 
-    ![](media/end-user-report-view/power-bi-custom-view.gif)
+    ![wideo przedstawiające zmienianie rozmiaru i przenoszenie wizualizacji w obrębie kanwy](media/end-user-report-view/power-bi-custom-view.gif)
 2. Wybierz opcję **Rozmiar strony** &gt; **Niestandardowy**.
 3. Ustaw Szerokość na wartość 500, a Wysokość na wartość 750.
 
-    ![](media/end-user-report-view/power-bi-custom-new.png)
+    ![okienko Formatowanie z rozwiniętą kartą Rozmiar strony](media/end-user-report-view/power-bi-custom-new.png)
 4. Dopasuj stronę raportu, aby wyglądała możliwie najlepiej. Przełącz się między opcjami **Widok > Rozmiar rzeczywisty** i **Widok > Dopasuj do strony**, aby wprowadzać usprawnienia.
 
-    ![](media/end-user-report-view/power-bi-final-new.png)
+    ![kanwa raportu z rozwiniętym okienkiem Formatowanie](media/end-user-report-view/power-bi-final-new.png)
 
 ## <a name="next-steps"></a>Następne kroki
 [Tworzenie raportów dla Cortany](../service-cortana-answer-cards.md)

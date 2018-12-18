@@ -1,21 +1,22 @@
 ---
-title: Dodawanie filtru raportu
+title: Dodawanie filtru do raportu
 description: Jak dodać filtr do raportu w usłudze Power BI dla klientów indywidualnych
 author: mihart
 manager: kvivek
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/19/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 31b3584b0cbd2481db64160bcf502caf46e7acc3
-ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
+ms.openlocfilehash: ea219071b475bf5bb9123e1aa3bbaca412507a8e
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/20/2018
-ms.locfileid: "49473812"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280770"
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>Zapoznaj się z przewodnikiem dotyczącym okienka filtrów raportu
 Ten artykuł opisuje okienko Filtry raportu w usłudze Power BI.
@@ -36,7 +37,7 @@ W usłudze Power BI raporty zachowują wszelkie zmiany wprowadzone w okienku Fil
 ## <a name="open-the-filters-pane"></a>Otwieranie okienka Filtry
 Po otwarciu raportu okienko Filtry jest wyświetlane wzdłuż prawej strony kanwy raportu. Jeśli okienko nie jest widoczne, wybierz strzałkę w prawym górnym rogu, aby je rozwinąć.  
 
-W tym przykładzie wybraliśmy wizualizację, która ma 6 filtrów. Strona raportu ma także filtry wyświetlane w pozycji **Filtry na poziomie strony**. Istnieje też jeden [filtr przeglądania szczegółowego](../power-bi-report-add-filter.md), zaś cały raport ma też filtr: **FiscalYear** to 2013 lub 2014.
+W tym przykładzie wybraliśmy wizualizację, która ma 6 filtrów. Strona raportu ma także filtry wyświetlane w pozycji **Filtry na poziomie strony**. Istnieje też jeden [filtr przeglądania szczegółowego](../power-bi-report-add-filter.md), a cały raport ma też filtr:  **FiscalYear** to 2013 lub 2014.
 
 ![lista filtrów](media/end-user-report-filter/power-bi-filter-list.png)
 

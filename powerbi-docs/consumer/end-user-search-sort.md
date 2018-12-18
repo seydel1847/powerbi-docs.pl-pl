@@ -4,18 +4,19 @@ description: Dokumentacja dotycząca wyszukiwania i sortowania treści w obszara
 author: mihart
 manager: kvivek
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/25/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 3c66a428fabadaf53e2b1f7745b6de9668a9e532
-ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
+ms.openlocfilehash: 7f56cb4ec9859750c218975d25f3b8e2dd8a0469
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "49113020"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280471"
 ---
 # <a name="navigation-searching-finding-and-sorting-content-in-power-bi-service"></a>Nawigacja: wyszukiwanie, znajdowanie i sortowanie treści w usłudze Power BI
 Istnieje wiele sposobów nawigowania po zawartości w usłudze Power BI. Zawartość jest posortowana w obszarach roboczych według typów: pulpity nawigacyjne, raporty, skoroszyty i zestawy danych.  Ponadto zawartość jest posortowana według użycia: ulubione, ostatnio używane, aplikacje, udostępnione dla mnie i polecane. W przypadku nawigacji w jednym miejscu cała treść jest organizowana na jednej stronie — stronie głównej. Te różne sposoby uzyskiwania dostępu do zawartości pozwalają na szybkie znajdowanie potrzebnych informacji w usłudze Power BI.  

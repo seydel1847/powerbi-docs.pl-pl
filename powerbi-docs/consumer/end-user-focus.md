@@ -4,19 +4,20 @@ description: Dokumentacja dotycząca wyświetlania pulpitów nawigacyjnych, kafe
 author: mihart
 manager: kvivek
 ms.reviewer: ''
+ms.custom: seodec18
 featuredvideoid: dtdLul6otYE
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/09/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 70e7fcb9f38c6dbf52adf58f8477f671156c9da4
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.openlocfilehash: 13032e011446fad765961dacdb83fbb8bd5a2f6e
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51507966"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53279965"
 ---
 # <a name="display-content-in-more-detail-focus-mode-and-full-screen-mode"></a>Wyświetlanie zawartości z większą liczbą szczegółów: tryb koncentracji uwagi i tryb pełnoekranowy
 
@@ -83,7 +84,7 @@ Menu dla stron raportu
     W raportach pełnoekranowych użyj tych strzałek do przechodzenia między stronami w raporcie.    
   * Aby wyjść z trybu pełnoekranowego, wybierz ikonę **Zakończ tryb pełnoekranowy**.
 
-      ![](media/end-user-focus/exit-fullscreen-new.png)
+      ![ikona kończenia trybu pełnoekranowego](media/end-user-focus/exit-fullscreen-new.png)
 
 ## <a name="working-in-focus-mode"></a>Praca w trybie koncentracji uwagi
 Istnieją dwa sposoby otwierania trybu koncentracji uwagi. Jeden z nich to sposób dla kafelków pulpitu nawigacyjnego,a drugi — dla wizualizacji raportu.
@@ -130,7 +131,7 @@ Istnieją dwa sposoby otwierania trybu koncentracji uwagi. Jeden z nich to spos�
     ![opuszczanie trybu koncentracji uwagi](media/end-user-focus/power-bi-exit-focus-report.png)  
 
 ## <a name="considerations-and-troubleshooting"></a>Istotne zagadnienia i rozwiązywanie problemów
-* Podczas korzystania z trybu koncentracji uwagi dla wizualizacji w raporcie możesz wyświetlać wszystkie filtry i wchodzić z nimi w interakcję: na poziomie wizualizacji, na poziomie strony, drążenia wskroś i na poziomie raportu.    
+* Podczas korzystania z trybu koncentracji uwagi dla wizualizacji w raporcie możesz wyświetlać wszystkie filtry i wchodzić z nimi w interakcję: na poziomie wizualizacji, na poziomie strony, przeglądania szczegółowego i na poziomie raportu.    
 * Podczas korzystania z trybu koncentracji uwagi dla wizualizacji na pulpicie nawigacyjnym możesz wyświetlać jedynie filtry na poziomie wizualizacji i wchodzić z nimi w interakcję.
 
 ## <a name="next-steps"></a>Następne kroki

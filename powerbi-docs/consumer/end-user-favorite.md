@@ -3,20 +3,21 @@ title: Ulubione w usłudze Power BI (pulpity nawigacyjne, raporty, aplikacje)
 description: Dokumentacja metody ustawiania pulpitów nawigacyjnych, raportów i aplikacji jako ulubionych w usłudze Power BI
 author: mihart
 manager: kvivek
+ms.custom: seodec18
 ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/02/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 46b943b9de7e8bae29c20617f957c81de2d49f94
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.openlocfilehash: cc94f352c550d7fba96f71f894e8d81ba5bc487a
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452504"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280195"
 ---
 # <a name="favorite-dashboards-reports-and-apps-in-power-bi-service"></a>Ulubione pulpity nawigacyjne, raporty i aplikacje w usłudze Power BI
 Po ustawieniu zawartości jako *ulubionej* można uzyskiwać do niej dostęp we wszystkich obszarach roboczych.  Ulubione to zwykle zawartość odwiedzana najczęściej.

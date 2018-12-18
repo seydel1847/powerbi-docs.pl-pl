@@ -8,8 +8,8 @@ Brama danych jest instalowana i uruchamiana na Twoim komputerze. Najlepiej zains
 
 W przypadku usługi Power BI najpierw należy wybrać tryb bramy.
 
-* **Lokalna brama danych:** W tym trybie wielu użytkowników może udostępniać bramę i ponownie jej używać. Ta brama może być używana przez usługi Power BI, PowerApps, Flow i Logic Apps. W przypadku usługi Power BI obejmuje obsługę zarówno zaplanowanego odświeżania, jak i zapytań bezpośrednich
-* **Osobista:** Dotyczy tylko usługi Power BI i może być używana samodzielnie bez jakiejkolwiek konfiguracji administratora. Może być używana tylko do odświeżania na żądanie i zaplanowanego odświeżania. Ten wybór rozpoczyna instalację bramy osobistej.
+* **Lokalna brama danych:** w tym trybie wielu użytkowników może udostępniać bramę i ponownie jej używać. Ta brama może być używana przez usługi Power BI, PowerApps, Flow i Logic Apps. W przypadku usługi Power BI obejmuje obsługę zarówno zaplanowanego odświeżania, jak i zapytań bezpośrednich
+* **Osobista:** dotyczy tylko usługi Power BI i może być używana samodzielnie bez jakiejkolwiek konfiguracji administratora. Może być używana tylko do odświeżania na żądanie i zaplanowanego odświeżania. Ten wybór rozpoczyna instalację bramy osobistej.
 
 Istnieje kilka kwestii, o których należy pamiętać podczas instalowania dowolnego trybu bramy:
 

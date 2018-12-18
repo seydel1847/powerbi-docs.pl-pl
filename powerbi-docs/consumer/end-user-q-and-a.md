@@ -1,21 +1,22 @@
 ---
-title: Omówienie funkcji pytań i odpowiedzi w usłudze Power BI i programie Power BI Desktop
+title: Omówienie funkcji pytań i odpowiedzi w usłudze Power BI
 description: Dokumentacja dotycząca tematu zapytań w języku naturalnym funkcji pytań i odpowiedzi usługi Power BI.
 author: mihart
 manager: kvivek
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/16/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 361c71c979d65e5c71ada6889bc7312ef64da23e
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.openlocfilehash: 3548041be39705c3013d09740040afc3e7f1c9e7
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396364"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53279584"
 ---
 # <a name="qa-for-power-bi-consumers"></a>Funkcja pytań i odpowiedzi dla **użytkowników** usługi Power BI
 ## <a name="what-is-qa"></a>Co to jest funkcja pytań i odpowiedzi?
@@ -74,7 +75,7 @@ Następnie wybierz pozycję **Ustawienia** > **Pulpity nawigacyjne**. Upewnij si
 **Odpowiedź 2**: Projektant *pulpitów nawigacyjnych* lub administrator czasami wyłączają funkcję pytań i odpowiedzi. Skontaktuj się z nimi, aby sprawdzić, czy można ją ponownie włączyć.   
 
 **Pytanie**: Gdy wpisuję pytanie, nie są wyświetlane odpowiednie wyniki.    
-**Odpowiedź**: Skontaktuj się z projektantem *pulpitu nawigacyjnego*. Projektant może ulepszyć wyniki funkcji pytań i odpowiedzi na wiele sposobów. Projektant może na przykład zmienić nazwy kolumn w zestawie danych, aby używane były łatwe do zrozumienia terminy (`CustomerFirstName` zamiast `CustFN`). Ponieważ projektant bardzo dobrze zna zestaw danych, może także utworzyć przydatne pytania i dodać je do kanwy funkcji pytań i odpowiedzi.
+**Odpowiedź**: Skontaktuj się z *projektantem* pulpitu nawigacyjnego. Projektant może ulepszyć wyniki funkcji pytań i odpowiedzi na wiele sposobów. Projektant może na przykład zmienić nazwy kolumn w zestawie danych, aby używane były łatwe do zrozumienia terminy (`CustomerFirstName` zamiast `CustFN`). Ponieważ projektant bardzo dobrze zna zestaw danych, może także utworzyć przydatne pytania i dodać je do kanwy funkcji pytań i odpowiedzi.
 
 ![proponowane pytanie ujęte w ramkę](media/end-user-q-and-a/power-bi-featured-q.png)
 

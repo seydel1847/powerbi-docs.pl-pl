@@ -8,15 +8,15 @@ featuredvideoid: 0tUwn8DHo3s
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/02/2018
+ms.date: 12/10/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 8644bc01aa845ff91950169f011cb70fb161ecb1
-ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
+ms.openlocfilehash: abddbf3e4ae0b51dbb46f949e6d4f287d084f873
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "48271768"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53281037"
 ---
 # <a name="share-your-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>Udostępnianie pulpitów nawigacyjnych usługi Power BI współpracownikom i innym osobom
 *Udostępnianie* to świetna metoda na zapewnienie kilku osobom dostępu do Twojego pulpitu nawigacyjnego i raportów. Usługa Power BI zapewnia również [kilka sposobów współpracy i rozpowszechniania pulpitów nawigacyjnych i raportów](service-how-to-collaborate-distribute-dashboards-reports.md).
@@ -29,7 +29,7 @@ Pulpity nawigacyjne i raporty można udostępniać z większości miejsc w usłu
 
 [Pulpit nawigacyjny można także udostępnić za pomocą aplikacji mobilnych Power BI](consumer/mobile/mobile-share-dashboard-from-the-mobile-apps.md). Pulpity nawigacyjne mogą być udostępniane za pomocą usługi Power BI i aplikacji mobilnych Power BI, ale nie z poziomu programu Power BI Desktop.
 
-## <a name="video-share-a-dashboard"></a>Klip wideo: Udostępnianie pulpitu nawigacyjnego
+## <a name="video-share-a-dashboard"></a>Wideo: Udostępnianie pulpitu nawigacyjnego
 Zobacz, jak Amanda udostępnianie swój pulpit nawigacyjny współpracownikom ze swojej firmy i osobom spoza niej. Następnie postępuj zgodnie ze szczegółowymi instrukcjami poniżej wideo, aby wypróbować to samodzielnie.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0tUwn8DHo3s?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
@@ -111,7 +111,7 @@ Ważne kwestie dotyczące udostępniania pulpitów nawigacyjnych i raportów:
 
 * Ogólnie rzecz biorąc, zarówno Ty, jak i Twoi współpracownicy widzicie na pulpicie nawigacyjnym lub w raporcie te same dane. Jeśli zatem masz uprawnienia do wyświetlania większej ilości danych niż oni, współpracownicy będą mogli zobaczyć wszystkie Twoje dane na pulpicie nawigacyjnym lub raporcie. Jeśli jednak do zestawu danych wyświetlanych na pulpicie nawigacyjnym lub w raporcie zastosowano [zabezpieczenia na poziomie wiersza](service-admin-rls.md), to dane dostępne dla poszczególnych użytkowników zależą od ich poświadczeń.
 * Każda osoba, której udostępniasz swój pulpit nawigacyjny, może go wyświetlać i korzystać ze związanych z nim raportów za pomocą [widoku do czytania](consumer/end-user-reading-view.md). Nie może jednak tworzyć raportów ani zapisywać zmian w istniejących raportach.
-* Nikt nie może wyświetlić ani pobrać zestawu danych.
+* Nikt nie może wyświetlać ani pobierać zestawu danych, ale użytkownicy mogą uzyskiwać dostęp do zestawu danych bezpośrednio przy użyciu funkcji analizowania w programie Excel. Administrator może ograniczyć wybranym osobom możliwość używania funkcji analizowania w programie Excel przez ograniczenie tej możliwości dla wszystkich użytkowników w grupie. Ograniczenie obowiązuje jednak w przypadku wszystkich użytkowników w tej grupie dla każdego obszaru roboczego, do którego należy grupa.
 * Każdy może ręcznie [odświeżyć dane](refresh-data.md).
 * Jeśli korzystasz z usługi Office 365 do obsługi poczty e-mail, możesz udostępnić pulpit nawigacyjny członkom grupy dystrybucyjnej, wprowadzając adres e-mail skojarzony z daną grupą.
 * Współpracownicy, którzy mają adres e-mail w tej samej domenie co Ty, oraz współpracownicy, którzy korzystają z innej domeny, ale zarejestrowanej w ramach tej samej dzierżawy, mogą udostępniać pulpit nawigacyjny innym osobom. Załóżmy na przykład, że domeny contoso.com i contoso2.com są zarejestrowane w ramach tej samej dzierżawy. Jeśli Twój adres e-mail to konrads@contoso.com, wówczas zarówno posiadacz adresu ravali@contoso.com, jak i adresu gustav@contoso2.com może udostępniać pulpit nawigacyjny, o ile dostał od Ciebie uprawnienia do udostępniania.
