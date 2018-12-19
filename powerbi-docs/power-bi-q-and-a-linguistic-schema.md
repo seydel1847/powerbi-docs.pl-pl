@@ -276,7 +276,7 @@ Frazy przyimkowe umożliwiają opisanie relacji — między elementami modelu �
 - Count the customers in New York (Policz klientów w Nowym Jorku)
 - List the books about linguistics (Wyświetl listę książek o językoznawstwie)
 - Which city is John Galt in? (W którym mieście mieszka John Galt?)
-- How many books are by Stephen Pinker? (Ile książek napisał Stephen Pinker?)
+- Ile książek napisał Stephen Pinker?
  
 Oto przykładowa fraza przyimkowa w schemacie językowym customers_are_in_cities:
 
