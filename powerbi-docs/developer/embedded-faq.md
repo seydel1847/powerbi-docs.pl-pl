@@ -114,7 +114,7 @@ Pojemności PBIE można tworzyć tylko w swoim regionie dzierżawy usługi PBI.
 
 Możesz użyć portalu usługi PBI, aby zrozumieć, co to jest region dzierżawy usługi PBI.
 
-https://app.powerbi.com/ > ? > Power BI — informacje
+[https://app.powerbi.com/](https://app.powerbi.com/) > ? > Power BI — informacje
 
 ![Power BI — informacje](media/embedded-faq/about-01.png)
 ![Region dzierżawy](media/embedded-faq/tenant-location-01.png)
