@@ -10,12 +10,12 @@ ms.component: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 12/10/2018
-ms.openlocfilehash: 541e6e62ac075922cdb301343361ac328a3db28e
-ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
+ms.openlocfilehash: ea4292fd95fa72a553d9f91b39ff0bc5de71a584
+ms.sourcegitcommit: 9913c213d40b45ba83c6c3b3a7ef0b757800e3ad
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "53180765"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53301855"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-organization"></a>Samouczek: osadzanie raportu, pulpitu nawigacyjnego lub kafelka usługi Power BI w aplikacji dla organizacji
 
@@ -429,17 +429,16 @@ Utworzenie pojemności dedykowanej pozwala skorzystać z zalet zasobu dedykowane
 
 Poniższa tabela zawiera listę jednostek SKU usługi Power BI Premium dostępnych w ramach usługi [Microsoft Office 365](../service-admin-premium-purchase.md):
 
-| Węzeł pojemności | Łączna liczba rdzeni wirtualnych<br/>(zaplecze + fronton) | Rdzenie wirtualne zaplecza | Rdzenie wirtualne frontonu | Limity zapytania bezpośredniego/połączenia na żywo | Maksymalne renderowanie strony w godzinie szczytu |
+| Węzeł pojemności | Łączna liczba rdzeni wirtualnych<br/>(zaplecze + fronton) | Rdzenie wirtualne zaplecza | Rdzenie wirtualne frontonu | Limity zapytania bezpośredniego/połączenia na żywo |
 | --- | --- | --- | --- | --- | --- |
-| EM1 |1 rdzeń wirtualny |0,5 rdzenia wirtualnego, 10 GB pamięci RAM |0,5 rdzenia wirtualnego |3,75 na sekundę |150–300 |
-| EM2 |2 rdzenie wirtualne |1 rdzeń wirtualny, 10 GB pamięci RAM |1 rdzeń wirtualny |7,5 na sekundę |301–600 |
-| EM3 |4 rdzenie wirtualne |2 rdzenie wirtualne, 10 GB pamięci RAM |2 rdzenie wirtualne |15 na sekundę |601–1200 |
-| P1 |8 rdzeni wirtualnych |4 rdzenie wirtualne, 25 GB pamięci RAM |4 rdzenie wirtualne |30 na sekundę |1201–2400 |
-| P2 |16 rdzeni wirtualnych |8 rdzeni wirtualnych, 50 GB pamięci RAM |8 rdzeni wirtualnych |60 na sekundę |2401–4800 |
-| P3 |32 rdzenie wirtualne |16 rdzeni wirtualnych, 100 GB pamięci RAM |16 rdzeni wirtualnych |120 na sekundę |4801–9600 |
-| P4 |64 rdzenie wirtualne |32 rdzenie wirtualne, 200 GB pamięci RAM |32 rdzenie wirtualne |240 na sekundę |9601–19 200 |
-| P5 |128 rdzeni wirtualnych |64 rdzenie wirtualne, 400 GB pamięci RAM |64 rdzenie wirtualne |480 na sekundę |19 201–38 400 |
-
+| EM1 |1 rdzeń wirtualny |0,5 rdzenia wirtualnego, 10 GB pamięci RAM |0,5 rdzenia wirtualnego |3,75 na sekundę |
+| EM2 |2 rdzenie wirtualne |1 rdzeń wirtualny, 10 GB pamięci RAM |1 rdzeń wirtualny |7,5 na sekundę |
+| EM3 |4 rdzenie wirtualne |2 rdzenie wirtualne, 10 GB pamięci RAM |2 rdzenie wirtualne |15 na sekundę |
+| P1 |8 rdzeni wirtualnych |4 rdzenie wirtualne, 25 GB pamięci RAM |4 rdzenie wirtualne |30 na sekundę |
+| P2 |16 rdzeni wirtualnych |8 rdzeni wirtualnych, 50 GB pamięci RAM |8 rdzeni wirtualnych |60 na sekundę |
+| P3 |32 rdzenie wirtualne |16 rdzeni wirtualnych, 100 GB pamięci RAM |16 rdzeni wirtualnych |120 na sekundę |
+| P4 |64 rdzenie wirtualne |32 rdzenie wirtualne, 200 GB pamięci RAM |32 rdzenie wirtualne |240 na sekundę |
+| P5 |128 rdzeni wirtualnych |64 rdzenie wirtualne, 400 GB pamięci RAM |64 rdzenie wirtualne |480 na sekundę |
 > [!NOTE]
 > - Gdy próbujesz osadzić przy użyciu aplikacji pakietu Microsoft Office, możesz użyć jednostek SKU EM do uzyskania dostępu do zawartości za pomocą bezpłatnej licencji usługi Power BI. Ale nie możesz uzyskać dostępu do zawartości za pomocą bezpłatnej licencji usługi Power BI podczas korzystania z witryny Powerbi.com lub usługi Power BI dla urządzeń przenośnych.
 > - Podczas próby osadzenia za pomocą aplikacji pakietu MS Office, używając witryny Powerbi.com lub usługi Power BI dla urządzeń przenośnych, możesz uzyskać dostęp do zawartości za pomocą bezpłatnej licencji usługi Power BI.

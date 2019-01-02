@@ -6,7 +6,7 @@
 | Dane wielowymiarowe usługi Analysis Services |Tak |Tak |
 | Plik |Nie |Tak |
 | Folder |Nie |Tak |
-| IBM DB2 |Nie |Tak |
+| IBM DB2 |Tak |Tak |
 | Baza danych IBM Informix |Nie |Tak |
 | IBM Netezza |Tak |Tak |
 | Impala |Tak |Tak |
