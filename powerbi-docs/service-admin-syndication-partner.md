@@ -11,10 +11,10 @@ ms.date: 11/01/2018
 ms.author: mblythe
 LocalizationGroup: Administration
 ms.openlocfilehash: 912ed0be1e6a732db46e83f8a9b0757ad2801dab
-ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
+ms.sourcegitcommit: 13fdc8d62960f20c6d9ca1ab292f98992b47083b
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/20/2018
+ms.lasthandoff: 12/18/2018
 ms.locfileid: "52157407"
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>Nie można dodać usługi Power BI do subskrypcji partnera usługi Office 365
@@ -53,7 +53,7 @@ Możesz utworzyć konto bezpłatnej wersji próbnej usługi Power BI Pro. Jeśli
 
 ### <a name="enable-ad-hoc-subscriptions"></a>Włączanie subskrypcji ad-hoc
 
-Domyślnie opcja tworzenia konta przez użytkowników indywidualnych (znana także jako subskrypcja ad-hoc) jest wyłączona. W takim przypadku podczas próby utworzenia konta jest wyświetlany następujący komunikat: *Your IT department has turned off signup for Microsoft Power BI* (Twój dział IT wyłączył rejestrowanie się w usłudze Microsoft Power BI).
+Domyślnie opcja tworzenia konta przez użytkowników indywidualnych (znana także jako subskrypcja ad-hoc) jest wyłączona. W takim przypadku podczas próby utworzenia konta jest wyświetlany następujący komunikat: *Twój dział IT wyłączył rejestrowanie w usłudze Microsoft Power BI*.
 
 ![Obraz komunikatu z przeprosinami](media/service-admin-syndication-partner/sorry.png)
 

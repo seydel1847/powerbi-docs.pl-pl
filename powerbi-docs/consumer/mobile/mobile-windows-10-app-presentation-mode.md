@@ -1,31 +1,29 @@
 ---
 title: Wyświetlanie trybu prezentacji na urządzeniu Surface Hub i urządzeniach z systemem Windows 10 — Power BI
 description: Informacje na temat wyświetlania raportów usługi Power BI na urządzeniu Surface Hub oraz wyświetlania pulpitów nawigacyjnych, raportów i kafelków usługi Power BI w trybie pełnoekranowym na urządzeniach z systemem Windows 10.
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 10/13/2017
-ms.author: maggies
-ms.openlocfilehash: 4bc9a0fe6dd3becd67c2b6dd8ffeb9d7922705a6
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.date: 12/10/2018
+ms.author: mshenhav
+ms.openlocfilehash: 49a1d8386159966171b46801d3bfe3685b2a6bb2
+ms.sourcegitcommit: 9913c213d40b45ba83c6c3b3a7ef0b757800e3ad
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51507938"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53301763"
 ---
-# <a name="view-reports-in-presentation-mode-on-surface-hub-and-windows-10---power-bi"></a>Wyświetlanie raportów w trybie prezentacji na urządzeniu Surface Hub i urządzeniach z systemem Windows 10 — Power BI
-Możesz wyświetlać raporty w trybie prezentacji na urządzeniu Surface Hub oraz wyświetlać pulpity nawigacyjne, raporty i kafelki w trybie pełnoekranowym na urządzeniach z systemem Windows 10. 
+# <a name="view-reports-and-dashboards-in-presentation-mode-on-surface-hub-and-windows-10-devices"></a>Wyświetlanie raportów i pulpitów nawigacyjnych w trybie prezentacji na urządzeniu Surface Hub i urządzeniach z systemem Windows 10
+Tryb prezentacji służy do wyświetlania raportów i pulpitów nawigacyjnych w trybie pełnoekranowym na urządzeniach z systemem Windows 10 i na urządzeniu Surface Hub. 
 
 ![Raport w trybie pełnoekranowym](./media/mobile-windows-10-app-presentation-mode/power-bi-presentation-mode.png)
 
-Tryb prezentacji i tryb pełnoekranowy przydają się do wyświetlania zawartości usługi Power BI podczas spotkań lub konferencji, na specjalnym projektorze w biurze lub po prostu wtedy, gdy chcesz maksymalnie wykorzystać obszar na małym ekranie. 
+Tryb prezentacji przydaje się do wyświetlania zawartości usługi Power BI podczas spotkań lub konferencji, na specjalnym projektorze w biurze lub po prostu wtedy, gdy chcesz maksymalnie wykorzystać obszar na małym ekranie. 
 
-W trybie pełnoekranowym w aplikacji mobilnej Power BI wszystkie „elementy wykończeniowe”, takie jak pasek nawigacyjny i pasek menu, zostają usunięte, oprócz kart stron i okienka filtrowania w raportach.
-
-Po wyświetleniu raportu w trybie prezentacji na urządzeniu Surface Hub można rysować na stronach różnokolorowym tuszem i nawigować między stronami raportu.
+W trybie prezentacji w aplikacji mobilnej Power BI dla systemu Windows 10 wszystkie „elementy wykończeniowe”, takie jak pasek nawigacyjny i pasek menu, zostają usunięte w celu umożliwienia Tobie i członkom Twojego zespołu skoncentrowania się na danych w raporcie. Pasek narzędzi z akcjami będzie dla Ciebie dostępny i umożliwi Ci współpracę z danymi w trybie prezentacji.
 
 Można również [wyświetlać pulpity nawigacyjne i raporty w trybie pełnoekranowym z poziomu usługi Power BI](../end-user-focus.md) w wersji internetowej.
 
@@ -34,44 +32,24 @@ Można również [wyświetlać pulpity nawigacyjne i raporty w trybie pełnoekra
 > 
 > 
 
-## <a name="display-dashboards-reports-and-tiles-in-full-screen-mode"></a>Wyświetlanie pulpitów nawigacyjnych, raportów i kafelków w trybie pełnoekranowym
-1. W aplikacji mobilnej Power BI na pulpicie nawigacyjnym, raporcie lub kafelku naciśnij ikonę **pełnego ekranu**![ikona pełnego ekranu](././media/mobile-windows-10-app-presentation-mode/power-bi-full-screen-icon.png), aby przejść do trybu pełnoekranowego.
-2. W trybie prezentacji możesz filtrować raport lub wyszukać inne pulpity nawigacyjne i raporty.
-   
-    Rozwiń okienko Filtry, aby skonfigurować lub usunąć filtry.
-   
-    ![Okienko Filtry](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-filter.png)
-   
-     Naciśnij ikonę wyszukiwania ![Ikona wyszukiwania](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-search-icon.png) , aby wyszukać inne pulpity nawigacyjne.
-   
-    ![Wyniki wyszukiwania](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-search.png)
-3. Aby zamknąć tryb pełnoekranowy, naciśnij ikonę dwóch strzałek skierowanych do wewnątrz ![Zamykanie trybu pełnoekranowego](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-icon.png) na pasku narzędzi lub przesuń palcem z góry na dół i naciśnij ikonę dwóch strzałek skierowanych do wewnątrz ![Zamykanie trybu pełnoekranowego](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-hub-icon.png).
+## <a name="use-presentation-mode"></a>Korzystanie z trybu prezentacji
+W aplikacji mobilnej Power BI naciśnij ikonę **Pełny ekran**, aby przejść do trybu pełnoekranowego.
+![Ikona Pełny ekran](././media/mobile-windows-10-app-presentation-mode/power-bi-full-screen-icon.png) „Elementy wykończeniowe” zostaną ukryte, a na dole ekranu lub z prawej i lewej jego strony (w zależności od rozmiaru ekranu) pojawi się pasek narzędzi.
 
-## <a name="turn-on-presentation-mode-for-surface-hub"></a>Włączanie trybu prezentacji na urządzeniu Surface Hub
-Na urządzeniu Surface Hub tryb prezentacji jest domyślnie włączony, ale jeśli został wyłączony, można go włączyć ponownie.
+![Raport w trybie pełnoekranowym z bocznymi paskami narzędzi](./media/mobile-windows-10-app-presentation-mode/power-bi-presentation-mode2.png)
 
-1. Naciśnij ikonę Ustawienia ![Ikona Ustawienia](./media/mobile-windows-10-app-presentation-mode/power-bi-settings-icon.png) w dolnej części paska nawigacyjnego po lewej stronie.
-2. Naciśnij pozycję **Opcje**, a następnie przesuń przełącznik **Włącz tryb prezentacji urządzenia Microsoft Surface Hub** do pozycji **Włączone**.
-   
-    ![Włączanie trybu prezentacji](./media/mobile-windows-10-app-presentation-mode/power-bi-turn-on-presentation-mode.png)
+Korzystając z paska narzędzi, możesz wykonywać następujące czynności:
 
-## <a name="display-and-draw-on-reports-on-surface-hub"></a>Wyświetlanie i rysowanie w raportach na urządzeniu Surface Hub
-1. W raporcie naciśnij ikonę **pełnego ekranu**![ikona pełnego ekranu](././media/mobile-windows-10-app-presentation-mode/power-bi-full-screen-icon.png), aby przejść do trybu prezentacji na urządzeniu Surface Hub.
-   
-    Zostanie wyświetlony zwijany pasek akcji po obu stronach ekranu. 
-   
-   * Aby go otworzyć, przesuń palcem do środka lub naciśnij uchwyt.
-   * Aby go zamknąć, przesuń palcem na zewnątrz lub naciśnij ikonę X u góry.
-2. Na urządzeniach, które obsługują pisanie piórem, można natychmiast rozpocząć pisanie. 
-3. Aby zmienić kolor tuszu, naciśnij ikonę pióra na prawym lub lewym pasku akcji.
-   
-    ![Pismo odręczne na urządzeniu Surface Hub](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-surface-hub-ink.png)
-4. Naciśnij ikonę gumki lub strzałkę cofania, aby usunąć część lub całość pisma odręcznego.
-5. Naciśnij strzałkę kolistą, aby odświeżyć zawartość raportu.
-6. Naciśnij strzałki skierowane w bok, aby przejść do innych stron w raporcie.
-   
-    ![Strzałki skierowane w bok umożliwiające przechodzenie do innych stron](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-surface-hub-arrows.png)
-7. Aby zamknąć tryb pełnoekranowy, przesuń palcem w dół od góry strony i naciśnij ikonę dwóch strzałek skierowanych do wewnątrz ![](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-hub-icon.png).
+1. Naciśnij ikonę Wstecz, ![ikona Wstecz](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-back-icon.png) aby wrócić do poprzedniej strony. Naciśnięcie i przytrzymanie tej ikony spowoduje wyświetlenie okna ze ścieżką nawigacyjną, które umożliwia przejście do folderu zawierającego raport lub pulpit nawigacyjny.
+2. Ikona pisma odręcznego ![ikona pisma odręcznego](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-ink-icon.png) umożliwia wybranie koloru podczas korzystania z pióra Surface do rysowania i adnotowania na stronie raportu. 
+3. Użyj ikony stron, ![ikona dzielenia na strony](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-pages-icon.png) aby zastąpić aktualnie wyświetlaną stronę raportu.
+4. Naciśnij ikonę wyszukiwania ![Ikona wyszukiwania](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-search-icon.png) aby wyszukać inne artefakty w usłudze Power BI.
+5. Aby zamknąć tryb prezentacji, naciśnij ikonę dwóch strzałek skierowanych do wewnątrz ![Zamykanie trybu pełnoekranowego](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-icon.png) na pasku narzędzi.
+
+Pasek narzędzi można oddokować i przeciągnąć w celu umieszczenia w dowolnym miejscu na ekranie. Jest to przydatne w przypadku dużych ekranów, kiedy chcesz skupić się na określonym obszarze raportu i chcesz mieć niedaleko wszystkie przydatne narzędzia. Wystarczy wtedy tylko umieścić palec na pasku narzędzi i szybko przesunąć go na kanwę raportu.
+
+![Raport w trybie prezentacji z oddokowanym paskiem narzędzi](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-drag-toolbar.png)
+
 
 ## <a name="next-steps"></a>Następne kroki
 * [Wyświetlanie pulpitów nawigacyjnych i raportów w trybie pełnoekranowym w usłudze Power BI](../end-user-focus.md)

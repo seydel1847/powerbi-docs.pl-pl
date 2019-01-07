@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/27/2018
+ms.date: 12/10/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8ec638eefa95ef70ab04606881bee421f82b7f11
-ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
+ms.openlocfilehash: 0b5693dfa53feba35acb559bf8606b1d03f97fdb
+ms.sourcegitcommit: 298db44200b78b1281b3ae6dfe7cce7a89865ec9
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51223329"
+ms.lasthandoff: 12/13/2018
+ms.locfileid: "53329791"
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop"></a>Tworzenie etykietek narzędzi opartych na stronach raportu w programie Power BI Desktop
 Możesz tworzyć wizualnie bogate **etykietki narzędzi raportu**, wyświetlane po najechaniu kursorem na elementy wizualne, w oparciu o strony raportu utworzonego w programie **Power BI Desktop**. Poprzez utworzenie strony raportu służącej jako etykietka narzędzi, możesz uwzględnić w niestandardowych etykietkach narzędzi elementy wizualne, obrazy i inne kolekcje elementów utworzonych na stronie raportu. 
@@ -25,17 +25,6 @@ Możesz tworzyć wizualnie bogate **etykietki narzędzi raportu**, wyświetlane 
 Możesz utworzyć dowolną liczbę stron etykietek narzędzi. Każda strona etykietki narzędzi może być skojarzona z co najmniej jednym polem w raporcie. Dzięki temu po najechaniu kursorem na wizualizację obejmującą wybrane pole jest wyświetlana etykietka narzędzia utworzona na stronie etykietki narzędzi, z filtrowaniem według punktu danych, nad którym znajduje się kursor. 
 
 Istnieje wiele interesujących rzeczy, które można wykonać przy użyciu etykietek narzędzi raportów. Przyjrzyjmy się sposobom tworzenia etykietek narzędzi oraz czynnościom związanym z ich konfiguracją.
-
-### <a name="enable-the-tooltips-preview"></a>Włączanie wersji zapoznawczej etykietek narzędzi 
-Począwszy od wersji programu **Power BI Desktop** z września 2018 r., etykietki narzędzi są ogólnie dostępne i nie trzeba ich włączać. 
-
-Jeśli używasz starszej wersji programu **Power BI Desktop**, możesz je włączyć jako funkcję w wersji zapoznawczej, wybierając kolejno pozycje **Plik > Opcje i ustawienia > Opcje > Funkcje wersji zapoznawczej** w programie Power BI Desktop, a następnie zaznaczając pole wyboru **Etykietki narzędzi strony raportu**. 
-
-![Włączanie funkcji wersji zapoznawczej etykietek narzędzi raportów](media/desktop-tooltips/desktop-tooltips_01.png)
-
-Musisz ponownie uruchomić program **Power BI Desktop** po dokonaniu wyboru, aby włączyć wersję zapoznawczą etykietek narzędzi raportów.
-
-Zawsze zalecamy uaktualnienie programu **Power BI Desktop** do najnowszej wersji, którą można pobrać za pomocą linku na stronie [Uzyskiwanie programu Power BI Desktop](desktop-get-the-desktop.md). 
 
 ## <a name="create-a-report-tooltip-page"></a>Tworzenie strony etykietki narzędzi raportów
 Aby rozpocząć, utwórz nową stronę raportu, klikając przycisk **+** w dolnej części kanwy programu **Power BI Desktop** w obszarze kart strony. Przycisk znajduje się obok ostatniej strony raportu. 
@@ -123,8 +112,7 @@ Gdy element wizualny zostaje wyróżniony krzyżowo w raporcie, etykietki narzę
 ## <a name="limitations-and-considerations"></a>Ograniczenia i istotne zagadnienia
 Należy pamiętać o kilku ograniczeniach i istotnych zagadnieniach dotyczących **etykietek narzędzi**.
 
-* Począwszy od wersji **Power BI Desktop** z września 2018 r., w której wprowadzono ogólną dostępność etykietek narzędzi, wizualizacje kart również obsługują etykietki narzędzi.
-* Począwszy od wersji programu **Power BI Desktop** z lipca 2018 r. wizualizacje tabel i macierzy są obsługiwane w przypadku etykietek narzędzi. 
+* Począwszy od wersji z grudnia 2018 r programu **Power BI Desktop**, wizualizacje Przycisk obsługują także etykietki narzędzi.
 * Etykietki narzędzi nie są obsługiwane podczas wyświetlania raportów w aplikacjach mobilnych. 
 * Etykietki narzędzi raportów nie są obsługiwane w przypadku niestandardowych elementów wizualnych. 
 * Klastry nie są obecnie obsługiwane jako pola, które można wyświetlać w etykietkach narzędzi raportów. 

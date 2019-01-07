@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/13/2018
+ms.date: 12/10/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a49b433af32e6c0f03d43333a424864c5463ddd3
-ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
+ms.openlocfilehash: e09c08780011ffaac7d37468e6018b079c41c669
+ms.sourcegitcommit: 298db44200b78b1281b3ae6dfe7cce7a89865ec9
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "51619821"
+ms.lasthandoff: 12/13/2018
+ms.locfileid: "53329745"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Źródła danych w programie Power BI Desktop
 Korzystając z programu Power BI Desktop, możesz nawiązywać połączenie z danymi z wielu różnych źródeł. Pełna lista dostępnych źródeł danych znajduje się w dolnej części tej strony.
@@ -78,6 +78,7 @@ Kategoria **Baza danych** udostępnia następujące połączenia danych:
 * Impala
 * Google BigQuery
 * Snowflake
+* Essbase (wersja beta)
 * Łącznik BI
 * Exasol
 * Dremio (wersja beta)
@@ -112,7 +113,7 @@ Kategoria **Azure** udostępnia następujące połączenia danych:
 * Azure HDInsight (HDFS)
 * Azure HDInsight Spark
 * Interaktywne zapytanie usługi HDInsight
-* Azure Data Explorer (wersja beta)
+* Azure Data Explorer (beta)
 
 Na poniższej ilustracji przedstawiono okno **Pobieranie danych** dla kategorii **Azure**.
 

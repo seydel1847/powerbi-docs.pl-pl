@@ -11,11 +11,11 @@ ms.date: 08/06/2018
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: f12974d4e53217fc6c29ad172153ec9c51ecc44e
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.sourcegitcommit: 6c6aa214dc36c26a01b29e823598d217a3e2b8a1
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452642"
+ms.lasthandoff: 12/17/2018
+ms.locfileid: "53451426"
 ---
 # <a name="create-workspaces-with-your-colleagues-in-power-bi"></a>Tworzenie obszarów roboczych ze współpracownikami w usłudze Power BI
 
@@ -27,7 +27,7 @@ Tworząc obszar roboczy, tworzysz skojarzoną bazową grupę usługi Office 365.
 
 **Czy wiesz?** W usłudze Power BI jest dostępna wersja zapoznawcza nowego środowiska obszarów roboczych. Przeczytaj artykuł [Tworzenie nowych obszarów roboczych — wersja zapoznawcza](service-create-the-new-workspaces.md), aby zobaczyć, jak zmienią się obszary robocze w przyszłości. 
 
-## <a name="video-apps-and-app-workspaces"></a>Film wideo: aplikacje i obszary robocze aplikacji
+## <a name="video-apps-and-app-workspaces"></a>Wideo: Aplikacje i obszary robocze aplikacji
 <iframe width="640" height="360" src="https://www.youtube.com/embed/Ey5pyrr7Lk8?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="create-an-app-workspace-based-on-an-office-365-group"></a>Tworzenie obszaru roboczego aplikacji na podstawie grupy usługi Office 365

@@ -9,16 +9,16 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/06/2018
-ms.openlocfilehash: 3d9e8e46fdd84edbeb5b4ff5e8f7efe4a4291049
-ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
+ms.openlocfilehash: bc5d5b7151643764b174d0bbec09e7f47ea2b1b2
+ms.sourcegitcommit: 13fdc8d62960f20c6d9ca1ab292f98992b47083b
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "51679260"
+ms.lasthandoff: 12/18/2018
+ms.locfileid: "53553863"
 ---
 # <a name="troubleshoot-power-bi-custom-visuals"></a>Rozwiązywanie problemów z wizualizacjami niestandardowymi usługi Power BI
 
-## <a name="debug"></a>Debugowanie
+## <a name="debug"></a>Debug
 
 **Nie znaleziono polecenia Pbiviz (i podobne błędy)**
 
@@ -39,6 +39,8 @@ Jeśli jej nie widać, sprawdź, czy została włączona w ustawieniach usługi 
 
 Uruchom serwer wizualizacji, wprowadzając polecenie `pbiviz start` w wierszu polecenia terminalu na poziomie katalogu głównego projektu wizualizacji. Jeśli serwer nie jest uruchomiony, prawdopodobnie nie zainstalowano poprawnie certyfikatów SSL.
 
+Jeśli masz jakieś pytania, uwagi lub problemy, możesz skontaktować się z zespołem pomocy technicznej wizualizacji niestandardowych: *pbicvsupport@microsoft.com* .
+
 ## <a name="next-steps"></a>Następne kroki
 
-Aby uzyskać więcej informacji i odpowiedzi na pytania, odwiedź stronę [często zadawanych pytań dotyczących wizualizacji niestandardowych usługi Power BI](power-bi-custom-visuals-faq.md#organizational-custom-visuals).
+Aby uzyskać więcej informacji, odwiedź stronę [często zadawanych pytań dotyczących wizualizacji niestandardowych usługi Power BI](power-bi-custom-visuals-faq.md#organizational-custom-visuals).

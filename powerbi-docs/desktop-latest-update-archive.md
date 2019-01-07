@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/13/2018
+ms.date: 12/10/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 3e8e8359742a422049751a348bce6a5d4015bd72
-ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
+ms.openlocfilehash: 129649367efa3a2b23fbf3be181e14df158eba02
+ms.sourcegitcommit: 298db44200b78b1281b3ae6dfe7cce7a89865ec9
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "51619867"
+ms.lasthandoff: 12/13/2018
+ms.locfileid: "53329860"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Poprzednie comiesięczne aktualizacje programu Power BI Desktop
 
@@ -33,6 +33,57 @@ Linki obok każdej aktualizacji mają następujące znaczenie:
 Film wideo **Latest Updates** (Najnowsze aktualizacje) możesz także obejrzeć od początku, bezpośrednio w tym artykule — w tym celu wystarczy kliknąć ikonę **odtwarzania** na obrazku filmu widocznym pod listą aktualizacji.
 
 W poniższych sekcjach opisano aktualizacje programu **Power BI Desktop** z poprzednich miesięcy.
+
+## <a name="november-2018-update-2645285461"></a>Aktualizacja z listopada 2018 r. (2.64.5285.461)
+
+Aktualizacje z listopada były obfitymi zbiorami nowych funkcji i funkcjonalności. Dlatego można było usiąść do uczty z rodziną entuzjastów danych i analiz, podawać ziemniaki i częstować się naszymi aktualizacjami. 
+
+W listopadzie w programie **Power BI Desktop** wprowadzono następujące nowe aktualizacje:
+
+### <a name="reporting"></a>Raportowanie
+
+* Rozwijanie i zwijanie nagłówków wierszy macierzy [[wideo]](https://youtu.be/1xsXXoyTxfk?t=16)  [[artykuł]](power-bi-reports-filters-and-highlighting.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23expandCollapse) 
+* Kopiowanie i wklejanie między plikami programu Desktop [[wideo]](https://youtu.be/1xsXXoyTxfk?t=199)  [[artykuł]](desktop-report-view.md#copy-and-paste-between-reports)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23copyPaste)
+* Zaktualizowane środowisko filtrowania (wersja zapoznawcza) [[wideo]](https://youtu.be/1xsXXoyTxfk?t=410)  [[artykuł]](power-bi-reports-filters-and-highlighting.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23filterPane)
+* Poprawa ułatwień dostępu do raportów [[wideo]](https://youtu.be/1xsXXoyTxfk?t=1036)  [[artykuł]](desktop-accessibility.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23reportAccessibility)
+
+### <a name="analytics"></a>Analiza
+
+* Nasycenie kolorów wizualizacji zostało uaktualnione, aby używać formatowania warunkowego [[wideo]](https://youtu.be/1xsXXoyTxfk?t=1224)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23conditionalFormatting) 
+* Kontynuowanie pytań w Eksploratorze pytań i odpowiedzi [[wideo]](https://youtu.be/1xsXXoyTxfk?t=1429)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23relatedQuestions) 
+
+
+### <a name="modeling"></a>Modelowanie
+
+* Nowy widok modelowania (wersja zapoznawcza) [[wideo]](https://youtu.be/1xsXXoyTxfk?t=1642)  [[artykuł]](desktop-modeling-view.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23modellingView) 
+* Modele złożone są teraz ogólne dostępne [[wideo]](https://youtu.be/1xsXXoyTxfk?t=1941)  [[artykuł]](desktop-composite-models.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23compositeModels) 
+* Poprawa ułatwień dostępu do modelowania [[wideo]](https://youtu.be/1xsXXoyTxfk?t=2023)  [[artykuł]](desktop-accessibility.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23modellingAccessibility) 
+* Nowe funkcje języka DAX  [[wideo]](https://youtu.be/1xsXXoyTxfk?t=2066)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23dax) 
+
+### <a name="custom-visuals"></a>Wizualizacje niestandardowe
+
+* Pięć nowych wizualizacji niestandardowych  [[wideo]](https://youtu.be/1xsXXoyTxfk?t=2108)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23customVisuals) 
+
+### <a name="data-connectivity"></a>Połączenia z danymi
+
+* Łącznik Azure DevOps Server [[wideo]](https://youtu.be/1xsXXoyTxfk?t=2641)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23devOps) 
+* Obsługa łącznika pliku PDF dla parametrów Strona początkowa i Ostatnia strona [[wideo]](https://youtu.be/1xsXXoyTxfk?t=2667)  [[artykuł]](desktop-connect-pdf.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23pdf) 
+* Poprawiony łącznik Azure Consumption Insights [[wideo]](https://youtu.be/1xsXXoyTxfk?t=2704)  [[artykuł]](desktop-connect-azure-consumption-insights.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23consumptionInsights) 
+
+
+> [!NOTE]
+> Dodatkowo możesz [sprawdzić wszystkie źródła danych dostępne dla programu Power BI Desktop](desktop-data-sources.md). Lista ciągle rośnie, dlatego zachęcamy do częstego jej sprawdzania.
+
+Chcesz uzyskać więcej informacji o tych aktualizacjach? Zapoznaj się z [wpisem w blogu](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary), który zawiera bardziej szczegółowe informacje o każdej z tych nowych funkcji (do tego samego wpisu prowadzą linki na powyższej liście).
+
+
+Poniższy kanał wideo zawiera omówienia i prezentacje wszystkich tych aktualizacji. Filmy wideo można także obejrzeć we wpisie w blogu.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1xsXXoyTxfk?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+> [!NOTE]
+> Być może zainteresują Cię także [nowości w usłudze Power BI](service-whats-new.md) oraz [nowości w aplikacjach mobilnych dla usługi Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
+
 
 ## <a name="october-2018-update-263327240262"></a>Aktualizacja z października 2018 r. (2.63.3272.40262)
 
@@ -373,7 +424,7 @@ W kwietniu w programie **Power BI Desktop** wprowadzono następujące nowe aktua
 ### <a name="data-connectivity"></a>Połączenia z danymi
 
 * Łącznik usługi Adobe Analytics jest teraz ogólnie dostępny [[wideo]](https://youtu.be/kuI6MMzDh34?t=32m) [[artykuł]](desktop-multi-select.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#adobeAnalytics) 
-* Ulepszenie łącznika SAP HANA: wybór portów [[wideo]](https://youtu.be/kuI6MMzDh34?t=32m44s) [[artykuł]](desktop-directquery-sap-hana.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#sapHana) 
+* Ulepszenie łącznika SAP HANA: Wybór portów [[wideo]](https://youtu.be/kuI6MMzDh34?t=32m44s) [[artykuł]](desktop-directquery-sap-hana.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#sapHana) 
 * Łącznik Dynamics 365 Business Central [[wideo]](https://youtu.be/kuI6MMzDh34?t=34m10s) [[artykuł]](desktop-directquery-sap-hana.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#dynamics365BusinessCentral) 
 
 
@@ -1872,7 +1923,7 @@ Do tej aktualizacji dodano następującą, ogromną kolekcję 44 funkcji:
         - Kierunek etykiety osi X (poziomy/ukośny)
         - Obsługa skali logarytmicznej i liniowej wartości na ości Y
         - Tekst wyświetlany dla hiperlinków w polach tekstowych
-        - Ulepszenia istniejących wizualizacji: tabela, macierz, fragmentator, wykres punktowy, karty pojedyczne, wykresy kombi i mierniki
+        - Ulepszenia istniejących wizualizacji: tabela, macierz, fragmentator, wykres punktowy, karty pojedyncze, wykresy kombi i mierniki
         - Obsługa wyświetlania wartości nasycenia koloru w etykietkach narzędzi
         - Możliwość zmiany rozmiaru obrazów oraz stosowania dodatkowych opcji formatowania
 

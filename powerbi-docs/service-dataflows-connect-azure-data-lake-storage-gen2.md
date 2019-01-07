@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 58c9d41769179b84d9d7cdc79d02f66bc4c99953
-ms.sourcegitcommit: 76b07d55e85110a6ae8c49e08e80e4fa63826166
+ms.openlocfilehash: 72c3c2fde92de45d3a93f087d217af1f50e50601
+ms.sourcegitcommit: bb4cf3469b44e451153c469725a9069dcd548809
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/11/2018
-ms.locfileid: "53200654"
+ms.lasthandoff: 12/20/2018
+ms.locfileid: "53649050"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>Łączenie usługi Azure Data Lake Storage Gen2 na potrzeby magazynowania przepływów danych (wersja zapoznawcza)
 
@@ -76,7 +76,7 @@ W oknie **Dodawanie przypisania roli** wybierz rolę **Czytelnik** do przypisani
 
 Przed dodaniem konta magazynu do usługi Power BI musisz utworzyć system plików o nazwie *powerbi*. Istnieje wiele sposobów tworzenia takiego systemu plików, w tym użycie usług Azure Databricks lub HDInsight, narzędzia AZCopy albo Eksploratora usługi Azure Storage. W tej sekcji przedstawiono prosty sposób tworzenia systemu plików przy użyciu Eksploratora usługi Azure Storage.
 
-Ten krok wymaga zainstalowania Eksploratora usługi Azure Storage. W celu zainstalowania Eksploratora usługi Azure Storage dla systemu Windows, Macintosh lub Linux przejdź na stronę [Eksplorator usługi Azure Storage](https://azure.microsoft.com/features/storage-explorer/).
+Ten krok wymaga zainstalowania Eksploratora usługi Azure Storage w wersji 1.6.1 lub nowszej. W celu zainstalowania Eksploratora usługi Azure Storage dla systemu Windows, Macintosh lub Linux przejdź na stronę [Eksplorator usługi Azure Storage](https://azure.microsoft.com/features/storage-explorer/).
 
 1. Po pomyślnym zainstalowaniu Eksploratora usługi Azure Storage i jego pierwszym uruchomieniu zostanie wyświetlone okno Eksplorator usługi Microsoft Azure Storage — łączenie. Eksplorator usługi Storage oferuje kilka sposobów łączenia z kontem magazynu, ale obecnie w przypadku wymaganej konfiguracji jest obsługiwany tylko jeden ze sposobów. 
 
@@ -108,11 +108,11 @@ Aby znaleźć aplikacje dzierżawy, wykonaj następujące kroki:
 
     ![Aplikacje usługi AAD dla przedsiębiorstw](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_06.jpg)
 
-4. Na pasku wyszukiwania wpisz wyraz *Power*. Zostanie wyświetlona kolekcja identyfikatorów obiektów dla aplikacji usługi Power BI i dodatku Power Query.
+4. Na pasku wyszukiwania wpisz wyraz *Power*. Zostanie wyświetlona kolekcja identyfikatorów obiektów dla aplikacji usługi Power BI i dodatku Power Query. Wszystkie te trzy wartości będą potrzebne w kolejnych krokach.  
 
     ![Wyszukiwanie aplikacji przy użyciu wyrazu „Power”](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07.jpg)
 
-5. Wybierz i skopiuj identyfikator obiektu dla usługi Power BI z wyników wyszukiwania. Przygotuj się do wklejania tej wartości w kolejnych krokach.
+5. Wybierz i skopiuj oba identyfikatory obiektów dla usługi Power BI i usługi Power BI Premium z wyników wyszukiwania. Przygotuj się do wklejania tych wartości w kolejnych krokach.
 
 7. Następnie użyj **Eksploratora usługi Azure Storage** w celu przejścia do systemu plików *powerbi* utworzonego w poprzednim kroku. Wykonaj instrukcje z sekcji [Managing access](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer#managing-access) (Zarządzanie dostępem) artykułu [Set file and directory level permissions using Azure Storage explorer](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer) (Ustawianie uprawnień na poziomie pliku i katalogu przy użyciu Eksploratora usługi Azure Storage).
 
@@ -120,7 +120,7 @@ Aby znaleźć aplikacje dzierżawy, wykonaj następujące kroki:
 
    ![przydzielanie wszystkich trzech uprawnień do obydwu identyfikatorów](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07a.jpg)
 
-9. W przypadku identyfikatora obiektu online w dodatku Power Query zebranego w kroku 5 przydziel prawa dostępu **Zapis** i **Wykonywanie** oraz domyślne listy ACL do systemu plików *powerbi*.
+9. W przypadku identyfikatora obiektu online w dodatku Power Query zebranego w kroku 4 przydziel prawa dostępu **Zapis** i **Wykonywanie** oraz domyślne listy ACL do systemu plików *powerbi*.
 
    ![przypisywanie praw do odczytu i wykonywania w następnym kroku](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07b.jpg)
 

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 10/30/2018
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 5f377f60935f23b62b90731c5d7bc16c8119ab83
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: 6fff11d37b0f099effeafb6b88dbfa68af88f3d6
+ms.sourcegitcommit: f5e39e9ead37445bbeab795890b3d80633383032
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53026712"
+ms.lasthandoff: 12/21/2018
+ms.locfileid: "53735574"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Administrowanie usługą Power BI w portalu administracyjnym
 
@@ -386,6 +386,18 @@ Po każdej aktualizacji lub zmianie wprowadzonej przez administratora użytkowni
 Aby zaktualizować wizualizację z poziomu magazynu organizacyjnego, wybierz ikonę koła zębatego. Przejdź do nowej wersji wizualizacji i przekaż ją.
 
 Upewnij się, że identyfikator wizualizacji pozostał niezmieniony. Nowy plik zastępuje jego poprzednią wersję dla wszystkich raportów w całej organizacji. Jednak jeśli nowa wersja wizualizacji może uniemożliwić użycie wcześniejszej wersji wizualizacji lub zaburzyć jej strukturę danych, nie zastępuj poprzedniej wersji. Zamiast tego utwórz nową listę z nową wersją wizualizacji. Na przykład dodaj numer nowej wersji (wersja X.X) do tytułu umieszczonej na liście nowej wizualizacji. Dzięki temu wyraźnie widać, że jest to ta sama wizualizacja ze zaktualizowanym numerem wersji, dlatego funkcjonalność istniejących raportów nie zostaje zakłócona. I tym razem upewnij się, że identyfikator wizualizacji pozostał niezmieniony. Następnym razem, gdy użytkownicy przejdą do repozytorium organizacji z programu Power BI Desktop, mogą zaimportować nową wersję, co powoduje wyświetlenie monitu o zastąpienie bieżącej wersji zawartej w raporcie.
+
+Aby uzyskać więcej informacji, odwiedź stronę [często zadawanych pytań dotyczących wizualizacji niestandardowych organizacji](https://docs.microsoft.com/en-us/power-bi/power-bi-custom-visuals-faq#organizational-custom-visuals)
+
+## <a name="dataflow-storage-preview"></a>Magazyn przepływów danych (wersja zapoznawcza)
+
+Domyślnie dane używane z usługą Power BI są przechowywane w magazynie wewnętrznym oferowanym przez usługę Power BI. Dzięki integracji przepływów danych i usługi Azure Data Lake Storage Gen2 (ADLS Gen2) można przechowywać swoje przepływy danych na koncie usługi Azure Data Lake Storage Gen2 organizacji. Aby uzyskać więcej informacji, zobacz [Integracja przepływów danych z usługą Azure Data Lake (wersja zapoznawcza)](service-dataflows-azure-data-lake-integration.md).
+
+## <a name="workspaces-preview"></a>Obszary robocze (wersja zapoznawcza)
+
+Jako administrator możesz wyświetlać obszary robocze, które istnieją w Twojej dzierżawie. Listę obszarów roboczych można sortować i filtrować. Można również wyświetlać szczegóły poszczególnych obszarów roboczych. Należy zwrócić uwagę, że kolumny tabeli odpowiadają właściwościom zwracanym przez [interfejs API REST administratora usługi Power BI](/rest/api/power-bi/admin) dla obszarów roboczych. Osobiste obszary robocze są typu **PersonalGroup**, starsze obszary robocze są typu **Group**, a nowoczesne obszary robocze są typu **Workspace**. Aby uzyskać więcej informacji, zobacz [Tworzenie nowych obszarów roboczych (wersja zapoznawcza) w usłudze Power BI](service-create-the-new-workspaces.md).
+
+![Lista obszarów roboczych](media/service-admin-portal/workspaces-list.png)
 
 ## <a name="next-steps"></a>Następne kroki
 

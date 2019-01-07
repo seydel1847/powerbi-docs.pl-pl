@@ -7,21 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/13/2018
+ms.date: 12/10/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 3b2d751a174aa87a9c0c134d2579f15b084322a2
-ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
+ms.openlocfilehash: 0883d3fdd9d57b04b839fb9062b12e8bfcc17c45
+ms.sourcegitcommit: 298db44200b78b1281b3ae6dfe7cce7a89865ec9
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "51619546"
+ms.lasthandoff: 12/13/2018
+ms.locfileid: "53329676"
 ---
 # <a name="whats-new-in-the-latest-power-bi-desktop-update"></a>Co nowego w najnowszej aktualizacji programu Power BI Desktop? 
 
-## <a name="november-2018-update-2645285461"></a>Aktualizacja z listopada 2018 r. (2.64.5285.461)
+## <a name="december-2018-update-2655313501"></a>Aktualizacja z grudnia 2018 r. (2.65.5313.501)
 
-Aktualizacje z listopada są obfitymi zbiorami nowych funkcji i funkcjonalności. Dlatego usiądź do uczty z rodziną entuzjastów danych i analiz, podawaj ziemniaki i częstuj się naszymi aktualizacjami. 
+Nasze aktualizacje z grudnia prawdopodobnie przyprawią Cię o wigilijny zawrót głowy. Usiądź więc wygodnie przy kominku z filiżanką gorącego napoju i zacznij rozpakowywać nasze grudniowe aktualizacje. 
 
 Teraz możesz [pobrać najnowszą wersję programu Power BI Desktop](https://powerbi.microsoft.com/desktop). Jeśli korzystasz z systemu Windows 10, program **Power BI Desktop** możesz także uzyskać ze Sklepu Windows. Miesięczne wersje są takie same nawet, jeśli numerowanie wersji może się między nimi różnić, niezależnie od sposobu instalacji programu **Power BI Desktop**. Więcej informacji zawiera [ten artykuł](desktop-get-the-desktop.md). 
 
@@ -38,44 +38,56 @@ W tym miesiącu w programie **Power BI Desktop** wprowadzono następujące nowe 
 
 ### <a name="reporting"></a>Raportowanie
 
-* Rozwijanie i zwijanie nagłówków wierszy macierzy [[wideo]](https://youtu.be/1xsXXoyTxfk?t=16)  [[artykuł]](power-bi-reports-filters-and-highlighting.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23expandCollapse) 
-* Kopiowanie i wklejanie między plikami programu Desktop [[wideo]](https://youtu.be/1xsXXoyTxfk?t=199)  [[artykuł]](desktop-report-view.md#copy-and-paste-between-reports)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23copyPaste)
-* Zaktualizowane środowisko filtrowania (wersja zapoznawcza) [[wideo]](https://youtu.be/1xsXXoyTxfk?t=410)  [[artykuł]](power-bi-reports-filters-and-highlighting.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23filterPane)
-* Poprawa ułatwień dostępu do raportów [[wideo]](https://youtu.be/1xsXXoyTxfk?t=1036)  [[artykuł]](desktop-accessibility.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23reportAccessibility)
+* Inteligentne prowadnice służące do wyrównywania obiektów na stronie [[wideo]](https://youtu.be/AHNlkjRFdYI?t=11) [[artykuł]](power-bi-reports-filters-and-highlighting.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#smartGuides) 
+* Aktualizacje wizualizacji ArcGIS Maps for Power BI [[wideo]](https://youtu.be/AHNlkjRFdYI?t=84) [[artykuł]](power-bi-visualization-arcgis.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#arcGIS) 
+* Obsługa ułatwień dostępu do listy pól [[wideo]](https://youtu.be/AHNlkjRFdYI?t=464) [[artykuł]](desktop-report-view.md#copy-and-paste-between-reports) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#fieldList)
+* Ustawianie kolejności tabulacji dla obiektów na stronie [[wideo]](https://youtu.be/AHNlkjRFdYI?t=643) [[artykuł]](power-bi-reports-filters-and-highlighting.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#tabOrder)
+* Etykietki narzędzi dla wizualizacji przycisków [[wideo]](https://youtu.be/AHNlkjRFdYI?t=884) [[artykuł]](desktop-accessibility.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#tooltips)
+* Zaktualizowane ikony *interakcji wizualnych* [[wideo]](https://youtu.be/AHNlkjRFdYI?t=974) [[artykuł]](desktop-accessibility.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#icons)
+
+
 
 ### <a name="analytics"></a>Analiza
 
-* Nasycenie kolorów wizualizacji zostało uaktualnione, aby używać formatowania warunkowego [[wideo]](https://youtu.be/1xsXXoyTxfk?t=1224)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23conditionalFormatting) 
-* Kontynuowanie pytań w Eksploratorze pytań i odpowiedzi [[wideo]](https://youtu.be/1xsXXoyTxfk?t=1429)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23relatedQuestions) 
+* Obsługa połączeń na żywo dla pytań i odpowiedzi (wersja zapoznawcza) [[wideo]](https://youtu.be/AHNlkjRFdYI?t=1037) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#liveConnectQA) 
 
 
 ### <a name="modeling"></a>Modelowanie
 
-* Nowy widok modelowania (wersja zapoznawcza) [[wideo]](https://youtu.be/1xsXXoyTxfk?t=1642)  [[artykuł]](desktop-modeling-view.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23modellingView) 
-* Modele złożone są teraz ogólne dostępne [[wideo]](https://youtu.be/1xsXXoyTxfk?t=1941)  [[artykuł]](desktop-composite-models.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23compositeModels) 
-* Poprawa ułatwień dostępu do modelowania [[wideo]](https://youtu.be/1xsXXoyTxfk?t=2023)  [[artykuł]](desktop-accessibility.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23modellingAccessibility) 
-* Nowe funkcje języka DAX  [[wideo]](https://youtu.be/1xsXXoyTxfk?t=2066)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23dax) 
+* Aktualizacje paska formuły języka DAX [[wideo]](https://youtu.be/AHNlkjRFdYI?t=1132) [[artykuł]](desktop-modeling-view.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#daxFormulaBar) 
+* Obsługa ułatwień dostępu do widoku danych [[wideo]](https://youtu.be/AHNlkjRFdYI?t=1253) [[artykuł]](desktop-composite-models.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#dataView) 
+
 
 ### <a name="custom-visuals"></a>Wizualizacje niestandardowe
 
-* Pięć nowych wizualizacji niestandardowych  [[wideo]](https://youtu.be/1xsXXoyTxfk?t=2108)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23customVisuals) 
+* Jedna nowa wizualizacja niestandardowa [[wideo]](https://youtu.be/AHNlkjRFdYI?t=1370) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#customVisuals) 
 
 ### <a name="data-connectivity"></a>Połączenia z danymi
 
-* Łącznik Azure DevOps Server [[wideo]](https://youtu.be/1xsXXoyTxfk?t=2641)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23devOps) 
-* Obsługa łącznika pliku PDF dla parametrów Strona początkowa i Ostatnia strona [[wideo]](https://youtu.be/1xsXXoyTxfk?t=2667)  [[artykuł]](desktop-connect-pdf.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23pdf) 
-* Poprawiony łącznik Azure Consumption Insights [[wideo]](https://youtu.be/1xsXXoyTxfk?t=2704)  [[artykuł]](desktop-connect-azure-consumption-insights.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23consumptionInsights) 
+* Łącznik AtScale (beta) [[wideo]](https://youtu.be/AHNlkjRFdYI?t=1449) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#atScale) 
+* Łącznik programu Oracle Essbase (beta) [[wideo]](https://youtu.be/AHNlkjRFdYI?t=1449) [[artykuł]](desktop-connect-pdf.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#essbase) 
+
+
+### <a name="data-preparation"></a>Przygotowywanie danych
+
+* Scalanie rozmyte — obsługa N pierwszych najlepszych dopasowań [[wideo]](https://youtu.be/AHNlkjRFdYI?t=1480) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#fuzzyMerge) 
+
+
+### <a name="other"></a>Inne
+* Obsługa wysokiego kontrastu we wszystkich okienkach i w stopce raportu [[wideo]](https://youtu.be/AHNlkjRFdYI?t=1631) [[artykuł]](desktop-connect-pdf.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#highContrast) 
+* Zaktualizowane okno dialogowe skrótów klawiaturowych [[wideo]](https://youtu.be/AHNlkjRFdYI?t=1654) [[artykuł]](desktop-accessibility.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#keyboardShortcuts) 
+
 
 
 > [!NOTE]
 > Dodatkowo możesz [sprawdzić wszystkie źródła danych dostępne dla programu Power BI Desktop](desktop-data-sources.md). Lista ciągle rośnie, dlatego zachęcamy do częstego jej sprawdzania.
 
-Chcesz uzyskać więcej informacji o tych aktualizacjach? Zapoznaj się z [wpisem w blogu](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary), który zawiera bardziej szczegółowe informacje o każdej z tych nowych funkcji (do tego samego wpisu prowadzą linki na powyższej liście).
+Chcesz uzyskać więcej informacji o tych aktualizacjach? Zapoznaj się z [wpisem w blogu](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary), który zawiera bardziej szczegółowe informacje o każdej z tych nowych funkcji (do tego samego wpisu prowadzą linki na powyższej liście).
 
 
 Poniższy kanał wideo zawiera omówienia i prezentacje wszystkich tych aktualizacji. Filmy wideo można także obejrzeć we wpisie w blogu.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/1xsXXoyTxfk?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AHNlkjRFdYI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 > [!NOTE]
 > Być może zainteresują Cię także [nowości w usłudze Power BI](service-whats-new.md) oraz [nowości w aplikacjach mobilnych dla usługi Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).

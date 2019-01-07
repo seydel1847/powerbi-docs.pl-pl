@@ -9,12 +9,12 @@ ms.component: report-builder
 ms.topic: overview
 ms.date: 11/05/2018
 ms.author: maggies
-ms.openlocfilehash: 0ddf95563c52af135ac7ae4fe71aeddcd2ce7313
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: d3fdf9b568aa13ba5a8437c684835e0fce803d19
+ms.sourcegitcommit: bb4cf3469b44e451153c469725a9069dcd548809
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51268084"
+ms.lasthandoff: 12/20/2018
+ms.locfileid: "53649450"
 ---
 # <a name="paginated-reports-in-power-bi-faq-preview"></a>Raporty podzielone na strony w usłudze Power BI: często zadawane pytania (wersja zapoznawcza)
 
@@ -59,7 +59,7 @@ Dzienniki inspekcji oferują ponadto następujące zdarzenia dotyczące raportó
 
 ### <a name="can-i-monitor-this-workload-through-the-premium-capacity-monitoring-app"></a>Czy mogę monitorować to obciążenie za pośrednictwem aplikacji do monitorowania pojemności Premium?
 
-Jeszcze nie. Monitorowanie będzie dostępne w publicznej wersji zapoznawczej jako nowa karta istniejącego raportu. Będzie ona zawierać te same szczegóły, które obsługujesz w przypadku zestawów danych usługi Power BI.
+Tak, monitorowanie jest dostępne jako nowa karta zawierająca te same szczegóły, które obsługujesz w przypadku zestawów danych usługi Power BI.
 
 ### <a name="do-i-need-a-pro-license-to-create-and-publish-paginated-reports"></a>Czy potrzebuję licencji Pro do tworzenia i publikowania raportów podzielonych na strony?
 
@@ -73,9 +73,9 @@ Zostanie wyświetlony raport o błędzie i nie będzie można wyświetlić rapor
 
 Pamięć domyślna w każdej jednostce SKU w wersji Premium w przypadku raportów podzielonych na strony:
 
-- **P1/A4**: domyślna 20%; minimalna 10%
-- **P2/A5**: domyślna 10%; minimalna 5%
-- **P3/A6**: domyślna 5%; minimalna 2,5%
+- **P1/A4**: Domyślna 20%; minimalna 10%
+- **P2/A5**: Domyślna 20%; minimalna 5%
+- **P3/A6**: Domyślna 20%; minimalna 2,5%
 
 ## <a name="general"></a>Ogólne
 
@@ -113,15 +113,12 @@ Obecnie raporty podzielone na strony nie obsługują następujących elementów:
 - Zakładki
 - Warstwy mapy Bing
 - Czcionki niestandardowe
-- Ukryte parametry
-
-Funkcje przełączania i sortowania interakcyjnego nie działają jeszcze w środowisku produkcyjnym, ale zamierzamy wkrótce je wprowadzić.    
 
 Próba przekazania pliku, który ma nieobsługiwaną funkcję w usłudze Power BI inną niż przełączanie/sortowanie, spowoduje wyświetlenie komunikatu o błędzie.
 
 ### <a name="what-data-sources-do-you-support-currently-for-paginated-reports"></a>Które źródła danych są obecnie obsługiwane w przypadku raportów podzielonych na strony?
 
-Obsługujemy usługę Azure SQL Database oraz modele tabelaryczne programu SQL Server i usług SQL Server Analysis Services (SSAS) przy użyciu bramy lokalnej. Obecnie nie obsługujemy modeli wielowymiarowych (MDX) usług SSAS.
+Obsługujemy usługę Azure SQL Database, program SQL Server oraz modele tabelaryczne (DAX) i wielowymiarowe (MDX) usług SQL Server Analysis Services (SSAS) przy użyciu bramy lokalnej.
 
 W przypadku uzyskiwania dostępu do usług SSAS za pośrednictwem bramy użytkownik, którego poświadczenia są przechowywane, musi mieć uprawnienia z podniesionym poziomem w usługach SSAS, aby pracować za pośrednictwem bramy.
 
@@ -135,7 +132,7 @@ Jeszcze nie, ale planujemy wkrótce wdrożyć taką obsługę.
 
 ### <a name="can-i-use-stored-procedures-through-the-gateway"></a>Czy mogę używać procedur składowanych za pośrednictwem bramy?
 
-Procedury składowanej można używać za pośrednictwem bramy, o ile procedura ta nie ma parametrów.
+Możesz używać procedury składowanej za pośrednictwem bramy, ale w niektórych scenariuszach mogą występować problemy, jeśli procedura składowana ma parametry.
 
 ### <a name="what-export-formats-are-available-for-my-report-in-the-power-bi-service"></a>Które formaty eksportu są dostępne dla raportu w usłudze Power BI?
 
@@ -143,15 +140,15 @@ Można eksportować do programów Microsoft Excel, Microsoft Word i Microsoft Po
 
 ### <a name="can-i-print-paginated-reports"></a>Czy mogę drukować raporty podzielone na strony?
 
-Obecnie można wyeksportować plik do formatu PDF i go wydrukować. Drukowanie bezpośrednio z raportu podzielonego na strony powinno być dostępne wkrótce. 
+Tak, drukowanie jest możliwe dla raportów podzielonych na strony. Dostępne jest także nowe i ulepszone środowisko podglądu wydruku. 
 
 ### <a name="are-e-mail-subscriptions-available-yet-for-paginated-reports"></a>Czy subskrypcje e-mail są już dostępne w przypadku raportów podzielonych na strony?
 
-Nie, subskrypcje e-mail zostaną dodane później.
+Nie, ale zostaną wkrótce udostępnione.
 
 ### <a name="what-features-from-ssrs-will-you-be-supporting-in-the-power-bi-service"></a>Które funkcje usług SSRS będą obsługiwane w usłudze Power BI?
 
-Nasz plan to zapewnienie jak największej możliwej równoważności między tymi dwoma produktami.  Próby zmiany niektórych elementów usług SSRS i Power BI, takich jak różne modele uprawnień w usłudze Power BI, w celu dopasowania ich do istniejących wzorców usług SSRS mogą nie mieć sensu, ale będziemy rozmawiać z klientami i partnerami, których opinie mogą pomóc nam w podejmowaniu decyzji dotyczących takich zmian.
+Mamy zamiar wprowadzić równoważność funkcji w większości scenariuszy, ale w przypadku niektórych funkcji usług SSRS i Power BI próba ich dopasowania do istniejących wzorców usług SSRS może nie mieć sensu.  Nie można na przykład zamapować różnych modeli uprawnień usługi Power BI na usługi SSRS.  Podczas podejmowania tego rodzaju decyzji będziemy kierować się opiniami naszych klientów i partnerów.
 
 ### <a name="can-i-run-custom-code-in-my-report"></a>Czy mogę uruchamiać kod niestandardowy w raporcie?
 
@@ -171,7 +168,7 @@ Jeszcze nie, ale mamy w planach obsługę tego scenariusza.
 
 ### <a name="can-i-share-my-paginated-report-content-through-a-power-bi-app"></a>Czy mogę udostępniać zawartość raportu podzielonego na strony za pośrednictwem aplikacji usługi Power BI?
 
-Obecnie można udostępniać poszczególne raporty podzielone na strony innym użytkownikom za pośrednictwem akcji udostępniania w portalu. Nie obsługujemy jeszcze udostępniania w aplikacji, ale ta funkcja jest oczekiwana wkrótce. Umieścimy również przycisk udostępniania na pasku narzędzi.
+Obecnie można udostępniać poszczególne raporty podzielone na strony innym użytkownikom za pośrednictwem akcji udostępniania w portalu lub za pomocą paska narzędzi. Nie obsługujemy jeszcze udostępniania w aplikacji, ale ta funkcja jest oczekiwana wkrótce. 
 
 ### <a name="will-other-report-specific-features-in-power-bi-like-pinning-to-report-tiles-to-dashboards-work-with-paginated-reports"></a>Czy inne funkcje specyficzne dla raportów w usłudze Power BI, takie jak przypinanie kafelków raportów do pulpitów nawigacyjnych, działają w przypadku raportów podzielonych na strony?
 
@@ -179,15 +176,15 @@ Planujemy, aby raporty w jak największym stopniu obsługiwały te same główne
 
 ### <a name="are-you-planning-to-create-a-new-authoring-tool-for-paginated-reports-in-the-power-bi-service--we-cant-do-everything-we-need-to-with-report-builder-today"></a>Czy planujecie opracowanie nowego narzędzia do tworzenia raportów podzielonych na strony w usłudze Power BI?  Obecnie nie możemy wykonywać wszystkich wybranych czynności za pomocą programu Report Builder.
 
-Nadal zastanawiamy się nad różnymi opcjami najlepszego narzędzia do tworzenia, ale na pewno zaoferujemy obsługę funkcji, takich jak ALM, rozszerzenia niestandardowe i inne funkcje, które mogą zostać uwzględnione tylko w jednym z narzędzi do tworzenia w usługach SSRS. 
+Aktualnie wypróbowujemy różne opcje i szukamy najlepszego narzędzia do obsługi raportów podzielonych na strony w usłudze Power BI. 
 
 ### <a name="is-a-migration-tool-planned-so-ssrs-customers-can-move-their-existing-reports-and-assets-to-power-bi"></a>Czy jest planowane narzędzie do migracji, dzięki któremu klienci usług SSRS będą mogli przenosić istniejące raporty i elementy zawartości do usługi Power BI?
 
-Tak, ale dopiero po ukończeniu podstawowego zestawu funkcji obsługiwanych w usłudze Power BI.
+Wypróbowujemy różne opcje umożliwiające przenoszenie zawartości do usługi Power BI w zautomatyzowany sposób, ale ta funkcja nie będzie jeszcze dostępna w momencie opublikowania wersji ogólnodostępnej.
 
 ### <a name="will-i-ever-be-able-to-create-both-paginated-reports-and-power-bi-reports-in-a-single-authoring-tool"></a>Czy kiedykolwiek będzie możliwe tworzenie raportów podzielonych na strony i raportów usługi Power BI przy użyciu jednego narzędzia do tworzenia?
 
-Obecnie nie planujemy jednego narzędzia do tworzenia, ale zapoznajemy się ze sposobami potencjalnej dystrybucji narzędzi do tworzenia jako pojedynczego pakietu do analizy biznesowej w porównaniu z opcją pojedynczych operacji pobierania/znakowania.
+Prawdopodobnie tak.  Obecnie zapoznajemy się ze sposobami realizacji takiego scenariusza oraz rozważamy możliwość dystrybucji narzędzi do tworzenia jako pojedynczego pakietu do analizy biznesowej w porównaniu z opcją pojedynczych operacji pobierania/znakowania.
 
 ### <a name="is-there-a-report-viewer-control-for-paginated-reports-in-the-power-bi-service"></a>Czy w usłudze Power BI istnieje kontrolka przeglądarki raportów na potrzeby raportów podzielonych na strony?
 
@@ -200,4 +197,4 @@ Nie, obecnie nie można wyszukiwać raportów podzielonych na strony z poziomu s
 ## <a name="next-steps"></a>Następne kroki
 
 - [Install Report Builder from the Microsoft Download Center](https://www.microsoft.com/download/details.aspx?id=53613) (Instalowanie programu Report Builder z Centrum pobierania Microsoft)
-- [Tutorial: Create a paginated report](paginated-reports-quickstart-aw.md) (Samouczek: tworzenie raportu podzielonego na strony)
+- [Samouczek: Tworzenie raportu podzielonego na strony](paginated-reports-quickstart-aw.md)

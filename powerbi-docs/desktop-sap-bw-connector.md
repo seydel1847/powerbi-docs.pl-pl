@@ -11,11 +11,11 @@ ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: f4825e8d8d47f755b01748c847b0fcf110db030a
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.sourcegitcommit: 6c6aa214dc36c26a01b29e823598d217a3e2b8a1
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452872"
+ms.lasthandoff: 12/17/2018
+ms.locfileid: "53451449"
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>Używanie łącznika systemu SAP BW w programie Power BI Desktop
 Program Power BI Desktop umożliwia dostęp do danych systemu **SAP Business Warehouse (BW)**.
@@ -66,7 +66,7 @@ Aby nawiązać połączenie, musisz określić *Serwer*, *Numer systemu* i *Iden
 
 ![Ustawienia połączenia serwera SAP](media/desktop-sap-bw-connector/sap_bw_3a.png)
 
-Możesz również określić dwie dodatkowe **Opcje zaawansowane**: kod języka i niestandardową instrukcję MDX do uruchamiania na określonym serwerze.
+Można również określić dwie dodatkowe **opcje zaawansowane**: kod języka i niestandardową instrukcję MDX do uruchamiania na określonym serwerze.
 
 ![Dodatkowe informacje o połączeniu](media/desktop-sap-bw-connector/sap_bw_4a.png)
 
@@ -78,7 +78,7 @@ Gdy wybierzesz co najmniej jeden element z serwera, na podstawie zaznaczenia zos
 
 Okno **Nawigator** również zawiera kilka **opcji wyświetlania**, które umożliwiają wykonywanie następujących czynności:
 
-* **Wyświetlanie *tylko wybranych elementów* i *wszystkich elementów* (widok domyślny):** Ta opcja przydaje się do weryfikowania ostatecznego zestawu zaznaczonych elementów. Innym sposobem wyświetlenia tych samych danych jest wybranie pozycji *Nazwy kolumn* w obszarze *Podgląd*.
+* **Wyświetlanie *tylko zaznaczonych elementów* lub *wszystkich elementów* (widok domyślny):** Ta opcja jest przydatna do weryfikowania ostatecznego zestawu zaznaczonych elementów. Innym sposobem wyświetlenia tych samych danych jest wybranie pozycji *Nazwy kolumn* w obszarze *Podgląd*.
 * **Włącz podglądy danych (zachowanie domyślne):** Możesz również decydować o tym, czy w tym oknie dialogowym powinny być wyświetlane podglądy danych. Wyłączenie podglądów danych powoduje zmniejszenie liczby wywołań serwera, ponieważ nie występują więcej żądania danych na potrzeby podglądu.
 * **Nazwy techniczne:** System SAP BW obsługuje pojęcie *nazw technicznych* dla obiektów w module. Nazwy techniczne umożliwiają właścicielowi modułu uwidacznianie *przyjaznych dla użytkownika* nazw obiektów modułu, w odróżnieniu od uwidaczniania tylko *nazw fizycznych* tych obiektów w module.
 
