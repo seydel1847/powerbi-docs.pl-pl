@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 2800eb5b01e8203632ae60c9b304a5ed9ce28b69
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 281e84b1dd3a3c21a7aaebce4784551a8afb31ba
+ms.sourcegitcommit: 88ae40a25ea54ef7153885dd04ef57d12522d4e1
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670236"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54056069"
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>Rejestrowanie organizacji rządowej USA w usłudze Power BI
 **Usługa Power BI** oferuje wersję dostępną dla klientów rządowych w Stanach Zjednoczonych w ramach subskrypcji **Office 365 US Government Community**. Wersja **usługi Power BI** omówiona w tym artykule jest przeznaczona wyłącznie dla klientów rządowych USA — jest to osobna usługa, która jest inna niż komercyjna wersja **usługi Power BI**.
@@ -102,7 +102,7 @@ Jeśli dzierżawa zawiera zarówno licencje wersji próbnej, jak i licencje US G
 
 Podczas używania mieszanych licencji bezpłatnych i wersji Pro w dzierżawie dla instytucji rządowych Stanów Zjednoczonych w trakcie procesu *umieszczania na białej liście*, można oczekiwać następujących sytuacji:
 
-**Przed *umieszczeniem na białej liście***:
+**Przed _umieszczeniem na białej liście_**:
 
 * Użytkownicy z bezpłatnymi licencjami korzystają z chmury komercyjnej.
 * Licencje Pro US Government są widoczne w portalu i administrator może przypisywać te licencje do użytkowników. Użytkownicy wersji Pro US Government nie utracą danych z licencji bezpłatnych po przypisaniu licencji US Government Pro przez administratora. Przypisani użytkownicy mają dostęp do funkcji usługi Power BI Pro dla klientów rządowych USA, ale dopóki dzierżawa nie zostanie *umieszczona na białej liście*, będą istnieć luki w funkcjonowaniu wymienione na poniższej liście punktowanej:
@@ -112,7 +112,7 @@ Podczas używania mieszanych licencji bezpłatnych i wersji Pro w dzierżawie dl
   * Trzeba ręcznie przekazywać pliki PBIX z komercyjnej usługi Power BI.
   * Aplikacje mobilne Power BI są niedostępne.
 
-**Po *umieszczeniu na białej liście***:
+**Po _umieszczeniu na białej liście_**:
 
 * Użytkownicy wersji bezpłatnej działający w komercyjnej usłudze Power BI mogą nadal działać, ale nie będą już uwierzytelniani zgodnie z oczekiwaniami.
 * Użytkownicy wersji Pro działającej w chmurze dla instytucji rządowych USA mogą korzystać z usługi **Power BI dla klientów rządowych USA** zgodnie z oczekiwaniami.

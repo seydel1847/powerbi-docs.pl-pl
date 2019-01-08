@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 6aa5b5dbb22881b6bccaa2ed43352a8f22308675
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: c6f3e3cf3947abf9ead15fa6b91445c8aadd6420
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46546653"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008355"
 ---
 # <a name="connect-to-acumatica-with-power-bi"></a>Nawiązywanie połączenia z systemem Acumatica przy użyciu usługi Power BI
 Pakiet zawartości Acumatica dla usługi Power BI umożliwia zyskanie szybkiego wglądu w dane zapewniające możliwości. Usługa Power BI pobiera dane, w tym możliwości, konta i klientów, a następnie tworzy domyślny pulpit nawigacyjny i powiązane raporty w oparciu o te dane.

@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 5b469c506a29778ea34216b09bde90ed5f1d4345
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 72b934357ec4208fa07266143b08af861659e465
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46544721"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008332"
 ---
 # <a name="connect-to-zendesk-with-power-bi"></a>Nawiązywanie połączenia z systemem Zendesk przy użyciu usługi Power BI
 Pakiet zawartości Zendesk oferuje pulpit nawigacyjny usługi Power BI oraz zestaw raportów usługi Power BI zapewniających wgląd w informacje dotyczące liczby biletów i wydajności agentów. Możesz użyć dostarczonego pulpitu nawigacyjnego i raportów lub dostosować je, aby podkreślić najważniejsze informacje.  Dane będą odświeżane automatycznie raz dziennie. 

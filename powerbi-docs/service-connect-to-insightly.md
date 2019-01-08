@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 6e2ca51f79173e065d0a780943eab2e834837820
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 87d294c81cbf9a342ce238bb198173516c1f3215
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548632"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008010"
 ---
 # <a name="connect-to-insightly-with-power-bi"></a>Nawiązywanie połączenia z usługą Insightly za pomocą usługi Power BI
 Wizualizuj i udostępniaj swoje dane rozwiązania Insightly CRM w usłudze Power BI za pomocą pakietu zawartości usługi Insightly. Połącz się z usługą Power BI za pomocą klucza interfejsu API usługi Insightly, aby wyświetlić i skompilować raporty i pulpity nawigacyjne na podstawie danych programu CRM. Za pomocą usługi Power BI możesz analizować swoje dane przy użyciu nowych sposobów, tworzyć zaawansowane wykresy oraz wyświetlać kontakty, potencjalnych klientów i organizacje na mapie.

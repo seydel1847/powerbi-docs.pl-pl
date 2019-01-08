@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 01/29/2018
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 685a28b336e45224f924ed103a34dd19413868bf
-ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
+ms.openlocfilehash: c2a6e25cae2fcd1a2d84a5ffe6941559593f75c0
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "52979288"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008562"
 ---
 # <a name="connect-to-the-services-you-use-with-power-bi"></a>Łączenie się z usługami używanymi z usługą Power BI
 Możliwe jest nawiązanie połączenia z wieloma usługami, których używasz do prowadzenia firmy, takimi jak Salesforce, Microsoft Dynamics CRM i Google Analytics. Usługa Power BI łączy się z usługą za pomocą poświadczeń, a następnie tworzy aplikację Power BI z pulpitem nawigacyjnym i zestawem raportów usługi Power BI, które automatycznie wyświetlają dane i zapewniają wgląd wizualny w informacje o firmie.
