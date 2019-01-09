@@ -7,25 +7,25 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/06/2018
+ms.date: 12/21/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: f12974d4e53217fc6c29ad172153ec9c51ecc44e
-ms.sourcegitcommit: 6c6aa214dc36c26a01b29e823598d217a3e2b8a1
+ms.openlocfilehash: 55f592101954ae5c0724fb5b48fb2571a1bdfc51
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/17/2018
-ms.locfileid: "53451426"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983697"
 ---
 # <a name="create-workspaces-with-your-colleagues-in-power-bi"></a>Tworzenie obszarów roboczych ze współpracownikami w usłudze Power BI
 
-W usłudze Power BI możesz tworzyć *obszary robocze*, czyli miejsca, w których można we współpracy z innymi osobami tworzyć i dostosowywać kolekcje pulpitów nawigacyjnych i raportów. Następnie możesz stworzyć z tych elementów *aplikacje*, którą można rozpowszechnić w całej organizacji lub wśród konkretnych osób lub grup. 
+W usłudze Power BI możesz tworzyć *obszary robocze*, czyli miejsca, w których można we współpracy z innymi osobami tworzyć i dostosowywać kolekcje pulpitów nawigacyjnych i raportów. Takie kolekcje możesz następnie pakować w *aplikacje*, które można rozpowszechniać w całej organizacji albo wśród konkretnych osób lub grup. 
 
 ![Aplikacje usługi Power BI](media/service-create-workspaces/power-bi-apps-left-nav.png)
 
 Tworząc obszar roboczy, tworzysz skojarzoną bazową grupę usługi Office 365. Administracja obszarem roboczym odbywa się w usłudze Office 365. Możesz dodawać współpracowników do tych obszarów jako członków lub administratorów. W obszarze roboczym możecie wspólnie pracować nad pulpitami nawigacyjnymi, raportami i innymi artykułami, które mają zostać rozpowszechnione wśród większej liczby osób. Wszyscy użytkownicy, których dodasz do obszaru roboczego aplikacji, muszą mieć licencję usługi Power BI Pro. 
 
-**Czy wiesz?** W usłudze Power BI jest dostępna wersja zapoznawcza nowego środowiska obszarów roboczych. Przeczytaj artykuł [Tworzenie nowych obszarów roboczych — wersja zapoznawcza](service-create-the-new-workspaces.md), aby zobaczyć, jak zmienią się obszary robocze w przyszłości. 
+**Czy wiesz?** W usłudze Power BI jest dostępna wersja zapoznawcza nowego środowiska obszarów roboczych. Szczegółowe informacje na temat nowych obszarów roboczych zawiera artykuł [Organizowanie pracy w nowych obszarach roboczych (wersja zapoznawcza)](service-new-workspaces.md). 
 
 ## <a name="video-apps-and-app-workspaces"></a>Wideo: Aplikacje i obszary robocze aplikacji
 <iframe width="640" height="360" src="https://www.youtube.com/embed/Ey5pyrr7Lk8?showinfo=0" frameborder="0" allowfullscreen></iframe>
@@ -84,12 +84,12 @@ Gdy zawartość jest gotowa, możesz wybrać, które pulpity nawigacyjne i rapor
 ### <a name="how-are-apps-different-from-organizational-content-packs"></a>W jaki sposób aplikacje różnią się od pakietów zawartości organizacji?
 Aplikacje są kolejnym etapem ewolucji pakietów zawartości organizacji. Jeśli masz już pakiety zawartości organizacji, będą one nadal działały równolegle z aplikacjami. Aplikacje i pakiety zawartości istotnie różnią się w kilku aspektach. 
 
-* Po zainstalowaniu przez użytkowników biznesowych pakiety zawartości tracą swoją tożsamość grupową: stają się tylko listami pulpitów nawigacyjnych i raportów obok innych pulpitów nawigacyjnych i raportów. Natomiast aplikacje utrzymują grupowanie i tożsamość nawet po instalacji. To ułatwia użytkownikom biznesowym dalsze przechodzenie do nich w późniejszym czasie.
+* Po zainstalowaniu przez użytkowników biznesowych pakiety zawartości tracą swoją tożsamość grupową: stają się tylko listami pulpitów nawigacyjnych i raportów obok innych pulpitów nawigacyjnych i raportów. Natomiast aplikacje utrzymują grupowanie i tożsamość nawet po instalacji. To grupowanie ułatwia użytkownikom biznesowym dalsze przechodzenie do nich w późniejszym czasie.
 * Możesz tworzyć wiele pakietów zawartości w obszarze roboczym, ale aplikacja ma bezpośrednią relację ze swoim obszarem roboczym. 
 * Z czasem planujemy wycofać pakiety zawartości organizacji, więc zalecamy od teraz tworzenie aplikacji.  
-* Nowe środowisko obszarów roboczych w wersji zapoznawczej to pierwszy krok w kierunku wycofania organizacyjnych pakietów zwartości. Nie można ich tworzyć ani z nich korzystać w obszarach roboczych w wersji zapoznawczej.
+* Nowe środowisko obszarów roboczych w wersji zapoznawczej to pierwszy krok w kierunku wycofania organizacyjnych pakietów zawartości. Nie można ich tworzyć ani z nich korzystać w obszarach roboczych w wersji zapoznawczej.
 
-Zobacz [Czym różnią się nowe obszary robocze aplikacji od bieżącej wersji obszarów roboczych aplikacji?](service-create-the-new-workspaces.md#how-are-the-new-app-workspaces-different-from-current-app-workspaces), aby porównać bieżącą i nową wersję obszarów roboczych aplikacji. 
+Zobacz [Czym różnią się nowe obszary robocze aplikacji od bieżącej wersji obszarów roboczych aplikacji?](service-new-workspaces.md#how-are-the-new-workspaces-different-from-current-workspaces), aby porównać te dwie wersje. 
 
 ## <a name="next-steps"></a>Następne kroki
 * [Instalowanie i używanie aplikacji w usłudze Power BI](service-create-distribute-apps.md)

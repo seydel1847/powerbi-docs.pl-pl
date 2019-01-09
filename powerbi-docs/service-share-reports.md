@@ -1,6 +1,6 @@
 ---
-title: Filtrowanie i udostępnianie raportów usługi Power BI współpracownikom
-description: Dowiedz się, jak udostępniać filtrowane raporty usługi Power BI współpracownikom w Twojej organizacji.
+title: Udostępnianie filtrowanego raportu usługi Power BI współpracownikom
+description: Dowiedz się, jak filtrować raport usługi Power BI i udostępniać go współpracownikom w Twojej organizacji.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: lukaszp
@@ -8,36 +8,37 @@ featuredvideoid: 0tUwn8DHo3s
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/18/2018
+ms.date: 12/21/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 38a735a6cc258f3285787202b832ade9c6525994
-ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
+ms.openlocfilehash: d5e05775d310af37b2c96c6e9e255de25fe5effe
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "51678977"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983444"
 ---
 # <a name="share-a-filtered-power-bi-report-with-your-coworkers"></a>Udostępnij filtrowane raportu usługi Power BI współpracownikom
 *Udostępnianie* to świetna metoda na zapewnienie kilku osobom dostępu do Twojego pulpitu nawigacyjnego i raportów. Usługa Power BI oferuje również [kilka innych sposobów współpracy i rozpowszechniania raportów](service-how-to-collaborate-distribute-dashboards-reports.md).
 
-Zarówno osoba udostępniająca, jak i adresaci zawartości muszą mieć [licencję na usługę Power BI Pro](service-features-license-type.md) lub zawartość musi być uwzględniona w [pojemności Premium](service-premium.md). Masz jakieś sugestie? Zespół zajmujący się usługą Power BI chętnie zapozna się z Twoją opinią. Aby ją przekazać, przejdź do [witryny społeczności usługi Power BI](https://community.powerbi.com/).
+Zarówno osoba udostępniająca, jak i adresaci zawartości muszą mieć [licencję na usługę Power BI Pro](service-features-license-type.md) lub zawartość musi być uwzględniona w [pojemności Premium](service-premium.md). 
 
-Raport w usłudze Power BI można udostępniać współpracownikom w tej samej domenie poczty e-mail z większości miejsc: Ulubione, Ostatnie, Udostępnione mi (jeśli właściciel to umożliwia), Mój obszar roboczy lub z innych obszarów roboczych. Osoby, którym udostępniasz raport, mogą go wyświetlać i korzystać z niego, ale nie mogą go edytować. O ile nie zastosowano [zabezpieczeń na poziomie wiersza](service-admin-rls.md), osoby te widzą w raporcie te same dane co Ty. 
+Raport w usłudze Power BI można udostępniać współpracownikom w tej samej domenie poczty e-mail z większości miejsc: Ulubione, Ostatnie, Udostępnione mi (jeśli właściciel to umożliwia), Mój obszar roboczy lub z innych obszarów roboczych. Współpracownicy, którym udostępniasz raport, mogą go wyświetlać i korzystać z niego, ale nie mogą go edytować. O ile nie zastosowano [zabezpieczeń na poziomie wiersza](service-admin-rls.md), osoby te widzą w raporcie te same dane co Ty. 
+
+Czasami zachodzi potrzeba udostępnienia filtrowanej wersji raportu. Może to być raport zawierający tylko dane dotyczące określonego miasta, sprzedawcy lub roku. Spróbuj utworzyć niestandardowy adres URL. Raport zostanie przefiltrowany, gdy odbiorcy otworzą go po raz pierwszy. Mogą oni usunąć filtr, modyfikując adres URL.
 
 ## <a name="filter-and-share-a-report"></a>Filtrowanie i udostępnianie raportu
-Czasami zachodzi potrzeba udostępnienia filtrowanej wersji raportu. Może to być raport zawierający tylko dane dotyczące określonego miasta, sprzedawcy lub roku. Można to zrobić, tworząc niestandardowy adres URL.
 
 1. Otwórz raport w [widoku do edycji](consumer/end-user-reading-view.md), zastosuj filtr i zapisz raport.
    
-   W tym przykładzie przefiltrujemy dane z zestawu [Retail Analysis](sample-tutorial-connect-to-the-samples.md), wyświetlając tylko wartości, w których pole **Territory** ma wartość **NC**.
+   W tym przykładzie przefiltrujemy dane z [przykładu Retail Analysis](sample-tutorial-connect-to-the-samples.md), aby wyświetlić tylko wartości, w których pole **Territory** ma wartość **NC**.
    
    ![Okienko filtru raportu](media/service-share-reports/power-bi-filter-report2.png)
 2. Dodaj następujący ciąg na końcu adresu URL strony z raportem:
    
    ?filter=*nazwatabeli*/*nazwapola* eq *wartość*
    
-    Pole musi być **ciągiem**, a parametry *nazwatabeli* i *nazwapola* nie mogą zawierać spacji.
+    Pole musi być typu **ciąg**. Wartość *tablename* ani *fieldname* nie może zawierać spacji.
    
    W naszym przykładzie nazwa tabeli to **Store**, nazwa pola to **Territory**, a wartość, według której chcemy filtrować, to **NC**:
    

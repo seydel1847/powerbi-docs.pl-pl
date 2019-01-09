@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 98250e30d1ca944aa536e0d8a05e6ee6c227fc61
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 87e2ff9bf8e4eb87b4b915492bf8cfa4a97a9150
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46546767"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008861"
 ---
 # <a name="connect-to-xero-with-power-bi"></a>Nawiązywanie połączenia z usługą Xero przy użyciu usługi Power BI
 Xero to łatwe w użyciu oprogramowanie księgowe online, przeznaczone dla małych firm. Ten pakiet zawartości usługi Power BI pozwala tworzyć atrakcyjne wizualizacje, oparte na danych finansowych z usługi Xero. Domyślny pulpit nawigacyjny zawiera wiele metryk używanych przez małe firmy, takich jak stan środków pieniężnych, przychody i wydatki, rachunek zysków i strat, rotacja należności w dniach oraz zwrot z inwestycji.
@@ -81,7 +81,7 @@ Zestaw danych zawiera również następujące tabele, umożliwiające dostosowyw
 * Xero Accounts (Konta Xero)
 
 ## <a name="system-requirements"></a>Wymagania systemowe
-Do uzyskania dostępu do pakietu zawartości Xero są wymagane następujące role: „Standardowa+Raporty" lub „Doradca”.
+W celu uzyskania dostępu do pakietu zawartości Xero są wymagane następujące role: „Standardowa+Raporty” lub „Doradca”.
 
 <a name="FindingParams"></a>
 
@@ -89,7 +89,7 @@ Do uzyskania dostępu do pakietu zawartości Xero są wymagane następujące rol
 Podaj nazwę swojej organizacji do śledzenia w usłudze Power BI. Umożliwia to nawiązanie połączenia z różnymi organizacjami. Zwróć uwagę, że nie można wielokrotnie połączyć się z tą samą organizacją ze względu na zaplanowane odświeżanie.   
 
 ## <a name="troubleshooting"></a>Rozwiązywanie problemów
-* Aby użytkownicy usługi Xero mogli uzyskiwać dostęp do pakietu zawartości Xero dla usługi Power BI, muszą mieć przypisane następujące role: „Standardowa+Raporty" lub „Doradca”. Pakiet zawartości korzysta z uprawnień użytkowników do uzyskiwania dostępu do danych raportowania za pomocą usługi Power BI.  
+* Aby użytkownicy usługi Xero mogli uzyskiwać dostęp do pakietu zawartości Xero dla usługi Power BI, muszą mieć przypisane następujące role: „Standardowa+Raporty” lub „Doradca”. Pakiet zawartości korzysta z uprawnień użytkowników do uzyskiwania dostępu do danych raportowania za pomocą usługi Power BI.  
 * Jeśli podczas ładowania zostanie wyświetlony komunikat o błędzie, zwróć uwagę, po jakim czasie to nastąpiło. Pamiętaj, że token dostępu usługi Xero jest prawidłowy tylko przez 30 minut, dlatego ładowanie nie powiedzie się, jeśli w tym czasie nie uda się przesłać wszystkich danych. Aktywnie pracujemy nad rozwiązaniem tego problemu.
 * Podczas ładowania kafelki na pulpicie nawigacyjnym zachowują ogólny wygląd. Nie należy oczekiwać zmiany wyglądu kafelków przed zakończeniem ładowania. Jeśli otrzymasz powiadomienie o zakończeniu ładowania, ale wygląd kafelków będzie wskazywał, że proces ten wciąż jest w toku, spróbuj odświeżyć kafelki pulpitu nawigacyjnego przy użyciu ikony ... widocznej w prawym górnym rogu pulpitu nawigacyjnego.
 * Jeśli odświeżenie pakietu zawartości nie powiedzie się, sprawdź, czy w usłudze Power BI jest wiele połączeń z tą samą organizacją. Usługa Xero obsługuje tylko jedno aktywne połączenie z daną organizacją. Jeśli nawiążesz kilka takich połączeń, może pojawić się komunikat o błędzie informujący o tym, że poświadczenia są nieprawidłowe.  

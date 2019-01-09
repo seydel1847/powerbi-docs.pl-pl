@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/25/2018
 ms.author: gepopell
 LocalizationGroup: Connect to data
-ms.openlocfilehash: bba674df9864697199a274698a1b17320b8ccd80
-ms.sourcegitcommit: 9d6f37fd32b965592bd7b108dea87b8e53b11334
+ms.openlocfilehash: eaf76f2ba762a603bf37385ea00cd714499db4b5
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/18/2018
-ms.locfileid: "40256810"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983421"
 ---
 # <a name="connector-extensibility-in-power-bi"></a>Rozszerzalność łącznika w usłudze Power BI
 
@@ -42,7 +42,7 @@ W obszarze **Rozszerzenia danych** możesz wybrać jeden z dwóch poziomów zabe
 * (Zalecane) Zezwalaj na ładowanie tylko rozszerzeń certyfikowanych
 * (Niezalecane) Zezwalaj na ładowanie wszystkich rozszerzeń bez ostrzeżenia
 
-Jeśli planowane jest użycie **łączników niestandardowych** lub łączników utworzonych i dystrybuowanych przez Ciebie lub inną firmę, należy wybrać pozycję **„(Niezalecane) Zezwalaj na ładowanie wszystkich rozszerzeń bez ostrzeżenia”**. Nie zalecamy używania tego ustawienia zabezpieczeń, jeśli nie jest planowane uruchamianie **łączników niestandardowych**.
+Jeśli planowane jest użycie **łączników niestandardowych** lub łączników utworzonych i dystrybuowanych przez Ciebie lub inną firmę, należy wybrać pozycję **„(Niezalecane) Zezwalaj na ładowanie wszystkich rozszerzeń bez ostrzeżenia”**. Nie zalecamy tego ustawienia zabezpieczeń, chyba że całkowicie ufasz swoim łącznikom niestandardowym, ponieważ znajdujący się w nich kod może obsługiwać poświadczenia (w tym wysyłać je za pośrednictwem protokołu HTTP) oraz ignorować poziomy prywatności.
 
 Jeśli zostanie użyte ustawienie zabezpieczeń **„(Zalecane)”**, a w systemie istnieją łączniki niestandardowe, zostanie wyświetlony błąd z opisem łączników, których nie można załadować ze względu na zabezpieczenia.
 

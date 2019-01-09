@@ -1,24 +1,24 @@
 ---
-title: Agregacje (suma, średnia, wartość maksymalna itp.) w wizualizacjach
-description: Zmienianie agregacji na wykresie (suma, średnia, wartość maksymalna itp.) w usłudze Power BI
+title: Praca z agregacjami (suma, średnia itp.) w usłudze Power BI
+description: Dowiedz się, jak zmienić agregację na wykresie (suma, średnia, wartość maksymalna itp.) w usłudze Power BI.
 author: mgblythe
-manager: kvivek
+manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/29/2018
+ms.date: 12/21/2018
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Reports
-ms.openlocfilehash: dfc3006c37d6055bac435fceb05febd596f0cd1a
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: 7a88cc7f210c6119e57a5dcf30920a95e180b85f
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53026482"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983720"
 ---
-# <a name="aggregates-in-power-bi-visualizations"></a>Agregacje w wizualizacjach usługi Power BI
+# <a name="work-with-aggregates-sum-average-etc-in-the-power-bi-service"></a>Praca z agregacjami (suma, średnia itp.) w usłudze Power BI
 ## <a name="what-is-an-aggregate"></a>Co to jest agregacja?
 Czasami trzeba za pomocą operacji matematycznych połączyć ze sobą wartości w danych. Operacja matematyczna może dotyczyć sumy, średniej, wartości maksymalnej, liczby elementów itp. Łączenie wartości w danych jest nazywane *agregowaniem*. Wynikiem tej operacji matematycznej jest *agregacja*. 
 
@@ -70,8 +70,8 @@ Załóżmy, że istnieje wykres sumujący sprzedane jednostki dla różnych prod
 
 Niektóre opcje dostępne w ramach agregowania pola:
 
-* **Nie sumuj.** Po wybraniu tej opcji wszystkie wartości w danym polu są traktowane odrębnie i nie są sumowane. Często używana jest w przypadku kolumny liczbowej identyfikatora, której nie należy sumować.
-* **Suma.** Sumuje wszystkie wartości w danym polu.
+* **Nie sumuj.** Po wybraniu tej opcji wszystkie wartości w danym polu są traktowane odrębnie i nie są sumowane. Ta opcja jest przydatna w przypadku kolumny identyfikatorów liczbowych, których nie należy sumować.
+* **Suma.** Dodaje do siebie wszystkie wartości w danym polu.
 * **Średnia.** Przyjmuje średnią arytmetyczną wartości.
 * **Minimum.** Wyświetla najmniejszą wartość.
 * **Maksimum.** Wyświetla największą wartość.
@@ -79,7 +79,7 @@ Niektóre opcje dostępne w ramach agregowania pola:
 * **Liczność (unikatowe).** Zlicza różne wartości w danym polu.
 * **Odchylenie standardowe.**
 * **Wariancja.**
-* **Mediana.**  Wyświetla wartość mediany (środkowa). Jest to wartość, która ma taką samą liczbę elementów powyżej, jak i poniżej.  W przypadku dwóch wartości mediany usługa Power BI uśredni je.
+* **Mediana.**  Wyświetla wartość mediany (środkowa). Ta wartość ma taką samą liczbę elementów powyżej, jak i poniżej.  W przypadku dwóch wartości mediany usługa Power BI uśredni je.
 
 Jako przykładu użyjemy następujących danych:
 
@@ -141,11 +141,11 @@ Odpowiedź 4:  Trzecia możliwość polega na tym, że używasz pola dla osi. Po
 >[!NOTE]
 >Wyjątkiem od tej reguły są wykresy punktowe, które *wymagają* wartości zagregowanych dla osi X i Y.
 
-Pytanie:  Dlaczego nie można agregować pól tekstowych w przypadku źródeł danych SSAS?
+Pytanie:  Dlaczego nie można agregować pól tekstowych w przypadku źródeł danych SSAS (SQL Server Analysis Services)?
 
-Odpowiedź:  Połączenia na żywo z modelami SSAS MD nie zezwalają na agregacje po stronie klienta. Obejmuje to instrukcje first, last, avg, min, max i sum.
+Odpowiedź:  Połączenia na żywo z modelami wielowymiarowymi SSAS nie zezwalają na żadne agregacje po stronie klienta, w tym określanie wartości pierwszej, ostatniej, średniej, minimalnej i maksymalnej ani sumy.
 
-Pytanie:  Mam wykres punktowy i *nie* chcę, aby moje pole było agregowane.  Co mam zrobić?
+Pytanie:  Mam wykres punktowy i *nie* chcę, aby moje pole było agregowane.  Jak to zrobić?
 
 Odpowiedź:  Dodaj pole do zasobnika **Szczegóły**, a nie do zasobników osi X i Y.
 

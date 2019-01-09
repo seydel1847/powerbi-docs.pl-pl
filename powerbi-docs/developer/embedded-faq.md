@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 11/27/2018
-ms.openlocfilehash: 71cbae5f282883ca26a5bf0b2ae7b5609b86eb58
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.date: 12/20/2018
+ms.openlocfilehash: 3971651caf9be7e754f4232ffec8b4e4dbfdfe6d
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578801"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008424"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Często zadawane pytania dotyczące usługi Power BI Embedded
 
@@ -74,7 +74,7 @@ Poniżej przedstawiono skróconą listę różnych funkcji, których można uży
 | Dostęp do zawartości z bezpłatną licencją usługi Power BI w witrynie Powerbi.com i na platformie Power BI dla urządzeń przenośnych | Nie | Nie | Tak |
 | Dostęp do zawartości osadzonej w aplikacjach pakietu MS Office z bezpłatną licencją usługi Power BI | Nie | Tak | Tak |
 
-### <a name="power-bi-now-offers-three-skus-for-embedding-a-skus-em-skus-and-p-skus-which-one-should-i-purchase-for-my-scenario"></a>Usługa Power BI oferuje trzy rodzaje jednostek SKU na potrzeby osadzania: SKU A, SKU EM i SKU P. Którą z nich kupić dla mojego scenariusza?
+### <a name="power-bi-now-offers-three-skus-for-embedding-a-skus-em-skus-and-p-skus-which-one-should-i-purchase-for-my-scenario"></a>Usługa Power BI oferuje teraz trzy rodzaje jednostek SKU na potrzeby osadzania: jednostki SKU A, EM i P. Którą z nich kupić dla mojego scenariusza?
 
 |  |Jednostka SKU A (usługa Power BI Embedded)  |Jednostka SKU EM (usługa Power BI Premium)  |Jednostka SKU P (usługa Power BI Premium)  |
 |---------|---------|---------|---------|
@@ -104,7 +104,7 @@ Chociaż obecnie funkcja automatycznego skalowania nie jest dostępna, wszystkie
 
 ### <a name="why-creatingscalingresuming-a-capacity-results-in-putting-the-capacity-into-a-suspended-state"></a>Dlaczego tworzenie/skalowanie/wznawianie pojemności powoduje umieszczenie pojemności w stanie wstrzymania?
 
-Aprowizowanie pojemności (skalowanie/wznawianie/tworzenie) może zakończyć się niepowodzeniem. Obiekt wywołujący wywołania aprowizowania musi sprawdzić stan ProvisioningState pojemności przy użyciu interfejsu API pobierania: [Pojemności — Pobierz szczegóły](https://docs.microsoft.com/rest/api/power-bi-embedded/capacities/getdetails).
+Aprowizowanie pojemności (skalowanie/wznawianie/tworzenie) może zakończyć się niepowodzeniem. Obiekt wywołujący wywołania aprowizowania musi sprawdzić stan ProvisioningState pojemności przy użyciu interfejsu API pobierania szczegółów: [Pojemności — Pobierz szczegóły](https://docs.microsoft.com/rest/api/power-bi-embedded/capacities/getdetails).
 
 ### <a name="why-can-i-only-create-pbie-in-a-specific-region"></a>Dlaczego mogę utworzyć usługę PBIE tylko w określonym regionie?
 
@@ -321,3 +321,7 @@ Informacje dotyczące edytowania danych usługi Power BI można znaleźć [tutaj
 Aby uzyskać więcej informacji, zobacz [Rozwiązywanie problemów z aplikacją osadzoną](embedded-troubleshoot.md)
 
 Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
+
+### <a name="what-are-the-best-practices-to-improve-performance"></a>Jakie są najlepsze rozwiązania w celu zwiększenia wydajności?
+
+[Wydajność usługi Power BI Embedded](embedded-performance-best-practices.md)

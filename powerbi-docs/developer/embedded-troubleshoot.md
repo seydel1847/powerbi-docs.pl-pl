@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 12/12/2018
-ms.openlocfilehash: 010a26076fe139401eb2dbbc363c712d67c637fb
-ms.sourcegitcommit: 298db44200b78b1281b3ae6dfe7cce7a89865ec9
+ms.date: 12/20/2018
+ms.openlocfilehash: 5ee6758093969a2db1d932a88f21c965380bab5c
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/13/2018
-ms.locfileid: "53329722"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008447"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>Rozwiązywanie problemów z aplikacją osadzoną
 
@@ -291,3 +291,7 @@ Aby uzyskać więcej informacji, zobacz [Często zadawane pytania dotyczące us�
 Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
 
 Jeśli potrzebujesz dalszej pomocy, [skontaktuj się z pomocą techniczną](https://powerbi.microsoft.com/en-us/support/pro/?Type=documentation&q=power+bi+embedded) lub [utwórz bilet pomocy technicznej za pośrednictwem witryny Azure Portal](https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest) i przekaż wyświetlone komunikaty błędów.
+
+## <a name="performance"></a>Wydajność
+
+[Wydajność usługi Power BI Embedded](embedded-performance-best-practices.md)

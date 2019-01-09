@@ -7,20 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 01/02/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: e0721efaaca879ffb2915315af9aea4dbafca3ca
-ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
+ms.openlocfilehash: 4b76857e6b0c7f465ce7033b59cdb0b5340c5c70
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "52900249"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983674"
 ---
 # <a name="data-sources-for-the-power-bi-service"></a>Źródła danych dla usługi Power BI
 Dane są kluczowe dla usługi Power BI. Każde eksplorowanie danych, tworzenie wykresów i pulpitów nawigacyjnych oraz zadawanie pytań za pomocą aparatu Pytania i odpowiedzi wiąże się z wyświetlaniem wizualizacji i odpowiedzi, które pobierają swoje dane źródłowe z zestawu danych. Ale skąd ten zestaw danych pochodzi? Ze źródła danych.
 
-W tym artykule przedstawiono różne typy źródeł danych, z którymi można nawiązać połączenie za pomocą usługi Power BI. Należy pamiętać, że istnieje wiele innych typów źródeł danych, które również służą do pobierania danych. Mogą one jednak wymagać najpierw użycia zaawansowanych funkcji zapytań o dane i modelowania programu Power BI Desktop lub Excel. Bardziej szczegółowo omówimy ten temat później. Na razie przyjrzymy się różnym typom źródeł danych, z którymi można nawiązać połączenie bezpośrednio z witryny usługi Power BI.
+W tym artykule przedstawiono różne typy źródeł danych, z którymi można nawiązać połączenie za pomocą usługi Power BI. Należy pamiętać, że istnieje wiele innych typów źródeł danych, które również służą do pobierania danych. Te źródła mogą jednak wymagać najpierw użycia zaawansowanych funkcji zapytań o dane i modelowania programu Power BI Desktop lub Excel. Bardziej szczegółowo omówimy ten temat później. Na razie przyjrzymy się różnym typom źródeł danych, z którymi można nawiązać połączenie bezpośrednio z witryny usługi Power BI.
 
 Aby pobrać dane z któregokolwiek źródła danych usługi Power BI, wystarczy kliknąć kolejno pozycje **Mój obszar roboczy** > **Pobierz dane**.
 
@@ -29,11 +29,11 @@ Aby pobrać dane z któregokolwiek źródła danych usługi Power BI, wystarczy 
 ## <a name="files"></a>Pliki
 ![](media/service-get-data/pbi_getdata_files.png)
 
-**Excel** (xlsx, xlxm) Program Excel jest unikatowy, ponieważ skoroszyt może nie tylko zawierać dane wprowadzone do arkuszy przez samego użytkownika, ale i umożliwiać tworzenie zapytań i ładowanie danych z zewnętrznych źródeł danych za pomocą dodatku Power Query (funkcja Pobierz i przekształć w programie Excel 2016) lub Power Pivot. Możliwe jest też importowanie danych w postaci tabel umieszczonych w arkuszach kalkulacyjnych (dane *muszą* znajdować się w tabeli) oraz importowanie danych, które zostały załadowane do modelu danych. Aby dowiedzieć się więcej, zobacz [Pobieranie danych z programu Excel](service-get-data-from-files.md).
+**Excel** (xlsx, xlxm) — program Excel jest unikatowy, ponieważ skoroszyt może nie tylko zawierać dane wprowadzone do arkuszy przez samego użytkownika, ale i umożliwiać tworzenie zapytań i ładowanie danych z zewnętrznych źródeł danych za pomocą dodatku Power Query (funkcja Pobierz i przekształć w programie Excel 2016) lub Power Pivot. Możliwe jest też importowanie danych w postaci tabel umieszczonych w arkuszach kalkulacyjnych (dane *muszą* znajdować się w tabeli) oraz importowanie danych, które zostały załadowane do modelu danych. Aby dowiedzieć się więcej, zobacz [Pobieranie danych z programu Excel](service-get-data-from-files.md).
 
 **Power BI Desktop** (pbix) — Program Power BI Desktop umożliwia tworzenie zapytań i ładowanie danych z zewnętrznych źródeł danych, rozszerzanie modelu danych za pomocą miar i relacji oraz tworzenie raportów. Plik programu Power BI Desktop można zaimportować do witryny usługi Power BI. Program Power BI Desktop jest najlepszym rozwiązaniem dla bardziej zaawansowanych użytkowników, którzy dobrze się orientują w kwestiach źródeł danych, tworzenia zapytań i przekształcania danych oraz ich modelowania. Aby uzyskać więcej informacji, zobacz [Łączenie się z danymi w programie Power BI Desktop](desktop-connect-to-data.md).
 
-**Pliki z wartościami rozdzielanymi przecinkami** (csv) — Proste pliki tekstowe zawierające wiersze danych. Każdy wiersz może zawierać co najmniej jedną wartość, z których każda jest oddzielona przecinkiem. Na przykład plik csv zawierający dane określające imiona i nazwiska oraz adresy może składać się z wielu wierszy, z których każdy zawiera wartości imienia, nazwiska, ulicy, miejscowości, województwa i tak dalej. Nie można importować danych do pliku csv, ale wiele aplikacji, takich jak Excel, ma możliwość zapisywania prostych danych tabeli w postaci pliku csv.
+**Pliki z wartościami rozdzielanymi przecinkami** (csv) — proste pliki tekstowe zawierające wiersze danych. Każdy wiersz może zawierać co najmniej jedną wartość, z których każda jest oddzielona przecinkiem. Na przykład plik csv zawierający dane określające imiona i nazwiska oraz adresy może składać się z wielu wierszy, z których każdy zawiera wartości imienia, nazwiska, ulicy, miejscowości, województwa i tak dalej. Nie można importować danych do pliku csv, ale wiele aplikacji, takich jak Excel, ma możliwość zapisywania prostych danych tabeli w postaci pliku csv.
 
 W przypadku innych typów plików, takich jak tabele XML (xml) lub pliki tekstowe (txt), można użyć funkcji Pobierz i przekształć, aby rozpocząć od tworzenia zapytań, przekształcania i ładowania danych do pliku programu Excel lub Power BI Desktop. Następnie można zaimportować plik programu Excel lub Power BI Desktop do usługi Power BI.
 
@@ -44,14 +44,14 @@ Miejsce przechowywania plików jest równie ważne. Usługa OneDrive dla Firm za
 
 Pakiety zawartości zawierają wszystkie niezbędne dane i raporty gotowe do użycia. W usłudze Power BI występują dwa rodzaje pakietów zawartości: pochodzące z usług takich jak Google Analytics, Marketo i Salesforce oraz utworzone i udostępnione przez innych użytkowników w organizacji.
 
-**Usługi** — pakiety zawartości dla usługi Power BI można znaleźć w niezliczonej liczbie usług, a kolejne są cały czas dodawane. Większość usług wymaga posiadania konta. Aby dowiedzieć się więcej, zobacz [Łączenie się z usługami](service-connect-to-services.md).
+**Usługi** — pakiety zawartości dla usługi Power BI można znaleźć w niezliczonej liczbie usług, a kolejne są stale dodawane. Większość usług wymaga posiadania konta. Aby dowiedzieć się więcej, zobacz [Łączenie się z usługami](service-connect-to-services.md).
 
 **Organizacyjne** — jeśli użytkownicy w organizacji mają konta usługi Power BI Pro, możliwe jest tworzenie, udostępnianie i używanie pakietów zawartości. Aby dowiedzieć się więcej, zobacz [Organizacyjne pakiety zawartości](service-organizational-content-pack-introduction.md).
 
 ## <a name="databases"></a>Bazy danych
 ![](media/service-get-data/pbi_getdata_databases.png)
 
-**Bazy danych w chmurze** — usługa Power BI pozwala nawiązać połączenie na żywo z usługami Azure SQL Database, Azure SQL Data Warehouse, Spark on Azure HDInsight i SQL Server Analysis Services przy użyciu zapytań bezpośrednich. Połączenia między usługą Power BI a tymi bazami danych są dynamiczne. Oznacza to, że po połączeniu się z usługą Azure SQL Database i rozpoczęciu eksplorowania danych przez tworzenie raportów w usłudze Power BI, za każdym razem, gdy dane są dzielone lub dodawane jest kolejne pole do wizualizacji, zapytania są tworzone bezpośrednio do bazy danych. Aby dowiedzieć się więcej, zobacz [Platforma Azure i usługa Power BI](service-azure-and-power-bi.md).
+**Bazy danych w chmurze** — usługa Power BI pozwala nawiązać połączenie na żywo z usługami Azure SQL Database, Azure SQL Data Warehouse, SQL Server Analysis Services i platformą Spark w usłudze Azure HDInsight przy użyciu trybu DirectQuery. Połączenia między usługą Power BI a tymi bazami danych są dynamiczne. Oznacza to, że po połączeniu się z usługą Azure SQL Database i rozpoczęciu eksplorowania danych przez tworzenie raportów w usłudze Power BI, za każdym razem, gdy dane są dzielone lub dodawane jest kolejne pole do wizualizacji, zapytania są tworzone bezpośrednio do bazy danych. Aby dowiedzieć się więcej, zobacz [Platforma Azure i usługa Power BI](service-azure-and-power-bi.md).
 
 **Lokalne bazy danych** — z poziomu usługi Power BI można połączyć się bezpośrednio z bazami danych modelu tabelarycznego usług SQL Server Analysis Services. W tym celu wymagana jest brama Power BI Enterprise. W razie wątpliwości co do sposobu łączenia się z bazą danych modelu tabelarycznego organizacji należy skontaktować się z administratorem lub działem informatycznym. Aby dowiedzieć się więcej, zobacz [Dane tabelaryczne usług SQL Server Analysis w usłudze Power BI](sql-server-analysis-services-tabular-data.md).
 
@@ -71,14 +71,14 @@ Oznacza to, że nawet jeśli nie można połączyć się ze źródłem danych be
 ## <a name="some-more-details"></a>Więcej szczegółów
 Terminy „zestaw danych” i „źródło danych” bardzo często pojawiają się w kontekście usługi Power BI. Często używa się ich jako synonimów i choć są ze sobą powiązane, tak naprawdę każdy z nich oznacza coś innego.
 
-***Zestaw danych*** jest tworzony automatycznie w usłudze Power BI, gdy używana jest funkcja pobierania danych w celu nawiązania połączenia oraz zaimportowania danych z pakietu zawartości lub pliku bądź gdy nawiązywane jest połączenie z dynamicznym źródłem danych. Zestaw danych zawiera informacje o źródle danych, poświadczeniach źródła danych i w wielu przypadkach także podzbiory danych skopiowanych ze źródła danych. W większości przypadków tworzenie wizualizacji w raportach i pulpitów nawigacyjnych wiąże się z wyświetlaniem danych z zestawu danych.
+***Zestaw danych*** jest tworzony automatycznie w usłudze Power BI, gdy używana jest funkcja pobierania danych w celu nawiązania połączenia oraz zaimportowania danych z pakietu zawartości lub pliku bądź gdy nawiązywane jest połączenie z dynamicznym źródłem danych. Zestaw danych zawiera informacje o źródle danych i poświadczenia źródła danych, a w wielu przypadkach także podzbiór danych skopiowanych ze źródła danych. W większości przypadków tworzenie wizualizacji w raportach i pulpitów nawigacyjnych wiąże się z wyświetlaniem danych z zestawu danych.
 
 W ***źródle danych*** przechowywane są dane, z których korzysta zestaw danych. Przykładem takiego źródła danych może być usługa online, taka jak Google Analytics lub QuickBooks, baza danych w chmurze, taka jak Azure SQL Database, a także baza danych lub plik na lokalnym komputerze lub serwerze w danej organizacji.
 
 ### <a name="data-refresh"></a>Odświeżanie danych
 W razie zapisania plików na dysku lokalnym lub na dysku w organizacji może być wymagana brama usługi Power BI, aby umożliwić odświeżenie zestawu danych w usłudze Power BI. Komputer, na którym jest zapisany plik, musi być włączony w momencie odświeżania. Można również ponownie zaimportować plik lub użyć funkcji publikowania z poziomu programu Excel lub Power BI Desktop, ale nie są to procesy zautomatyzowane.
 
-Zapisanie plików w usłudze OneDrive dla Firm lub SharePoint — witryny zespołu, a następnie nawiązanie połączenia z usługą Power BI lub zaimportowanie do niej tych plików powoduje, że zestaw danych, raporty i pulpit nawigacyjny będą zawsze aktualne. Ponieważ zarówno usługa OneDrive, jak i Power BI znajdują się w chmurze, usługa Power BI może łączyć się bezpośrednio z zapisanym plikiem, mniej więcej raz na godzinę, i sprawdzać dostępność aktualizacji. Jeśli jakaś zostanie znaleziona, odświeżanie zestawu danych i wszelkich wizualizacji nastąpi automatycznie.
+Zapisanie plików w usłudze OneDrive dla Firm lub w witrynie zespołu programu SharePoint, a następnie nawiązanie połączenia z usługą Power BI lub zaimportowanie do niej tych plików przyczynia się do tego, że zestaw danych, raporty i pulpit nawigacyjny będą zawsze aktualne. Ponieważ zarówno usługa OneDrive, jak i Power BI znajdują się w chmurze, usługa Power BI może łączyć się bezpośrednio z zapisanym plikiem, mniej więcej raz na godzinę, i sprawdzać dostępność aktualizacji. Jeśli jakaś zostanie znaleziona, odświeżanie zestawu danych i wszelkich wizualizacji nastąpi automatycznie.
 
 Pakiety zawartości usług są automatycznie aktualizowane. W większości przypadków odbywa się to raz dziennie. Ręczne odświeżanie jest możliwe, ale ewentualne wyświetlenie zaktualizowanych danych zależy od dostawcy usługi. Pakiety zawartości pochodzące od innych użytkowników w organizacji będą zależeć od użytych źródeł danych oraz od tego, jak został skonfigurowany harmonogram odświeżania.
 
@@ -88,8 +88,8 @@ Usługi SQL Server Analysis Services są unikatowe, ponieważ nawiązywanie z ni
 
 Odświeżanie danych jest zagadnieniem bardzo istotnym w kontekście usługi Power BI, ale ze względu na jego złożoność proces ten zostanie omówiony w innym artykule. Aby uzyskać wyczerpujące informacje, zobacz [Odświeżanie danych w usłudze Power BI](refresh-data.md).
 
-## <a name="considerations-and-limitations"></a>Zalecenia i ograniczenia
-Do wszystkich źródeł danych używanych w usłudze Power BI mają zastosowanie następujące zalecenia i ograniczenia. Poszczególne funkcje charakteryzują się innymi ograniczeniami, ale poniższa lista dotyczy w szczególności zagadnień usługi Power BI:
+## <a name="considerations-and-limitations"></a>Istotne zagadnienia i ograniczenia
+Do wszystkich źródeł danych używanych w usłudze Power BI mają zastosowanie następujące zalecenia i ograniczenia. Poszczególne funkcje charakteryzują się innymi ograniczeniami, ale poniższa lista dotyczy ogólnie usługi Power BI:
 
 * **Limit rozmiaru zestawu danych** — Limit 1 GB dla każdego zestawu danych w ramach usługi Power BI.
 * **Limit wierszy** — Maksymalna liczba wierszy w zestawie danych (gdy zapytania bezpośrednie nie są używane) wynosi 2 miliardy, spośród których trzy wiersze są zarezerwowane (co pozwala korzystać z maksymalnie 1 999 999 997 wierszy), natomiast maksymalna liczba wierszy w przypadku używania zapytań bezpośrednich wynosi 1 milion.

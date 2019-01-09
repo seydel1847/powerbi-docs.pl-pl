@@ -1,6 +1,6 @@
 ---
-title: 'Edytor raportu: krótki przewodnik'
-description: 'Edytor raportu: krótki przewodnik.'
+title: Przewodnik po edytorze raportów
+description: Edytor raportów w usłudze Power BI jest podobny do edytora raportów w programie Power BI Desktop.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
@@ -8,57 +8,54 @@ featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 04/11/2018
+ms.date: 12/19/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 9ce4d09e20fe02ff0552045e307f9d63aa834bd3
-ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
+ms.openlocfilehash: 7a3b4c9e47a85d11446ba3729c258bbb2868acec
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47187587"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983651"
 ---
-# <a name="the-report-editortake-a-tour"></a>Edytor raportu: krótki przewodnik
-## <a name="editing-reports-in-power-bi-service-and-power-bi-desktop"></a>Edytowanie raportów w usłudze Power BI i programie Power BI Desktop
-Edytor raportu w usłudze Power BI i edytor raportu w programie Power BI Desktop są bardzo podobne. Film pokazuje edytor raportu w programie Power BI Desktop, a ten artykuł przedstawia edytor raportu w usłudze Power BI. 
+# <a name="tour-of-the-report-editor-in-power-bi"></a>Przewodnik po edytorze raportów w usłudze Power BI
 
-## <a name="the-difference-between-report-creators-and-report-consumers"></a>Różnica między *twórcami* a *użytkownikami* raportów
-Możliwość tworzenia i edytowania raportu jest ograniczona do właścicieli raportów (określanych mianem *twórców*). Jeśli *używasz* raportu, który został Ci udostępniony, nadal możesz otwierać i interakcyjnie korzystać z raportu w usłudze Power BI w tylko w [widoku do czytania](consumer/end-user-reading-view.md), ale nie masz dostępu do wszystkich niezawodnych i zaawansowanych funkcji zarezerwowanych dla twórcy raportu.  
+*Edytor raportów* w usłudze Power BI jest podobny do edytora raportów w programie Power BI Desktop. Film pokazuje edytor raportu w programie Power BI Desktop, a ten artykuł przedstawia edytor raportu w usłudze Power BI. 
 
-Aby dowiedzieć się więcej na temat widoku do czytania raportu, zobacz temat [Widok do czytania i widok do edycji w usłudze Power BI](consumer/end-user-reading-view.md) 
+Twórca raportów tworzy oraz edytuje pulpity nawigacyjne i raporty. Następnie rozpowszechnia je wśród użytkowników raportów. Użytkownicy mogą korzystać z pulpitów nawigacyjnych i raportów w Widoku do czytania usługi Power BI, ale nie mogą ich edytować. Dowiedz się więcej o różnicach między [Widokiem do czytania i Widokiem do edycji raportów w usłudze Power BI](consumer/end-user-reading-view.md) 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
-W usłudze Power BI *edytor raportu* jest dostępny tylko w [widoku do edycji](consumer/end-user-reading-view.md). Aby otworzyć raport w widoku do edycji, musisz być właścicielem lub twórcą raportu.
+W usłudze Power BI edytor raportów jest dostępny tylko w Widoku do edycji. Aby otworzyć raport w Widoku do edycji, musisz być właścicielem lub twórcą raportu albo współautorem obszaru roboczego aplikacji, w którym znajduje się raport.
 
-Edytor raportu usługi Power BI składa się z 3 sekcji:  
+Edytor raportów usługi Power BI składa się z trzech sekcji:  
 
 1. okienek **Pola**, **Wizualizacje** i **Filtry**
 2. górne paski nawigacyjne    
 3. kanwa raportu     
 
-![](media/service-the-report-editor-take-a-tour/power-bi-report-canvas.png)
+![Sekcje edytora raportów](media/service-the-report-editor-take-a-tour/power-bi-report-canvas.png)
 
 ## <a name="1-the-report-editor-panes"></a>1. Okienka edytora raportu
 ![Edytor raportów usługi Power BI](media/service-the-report-editor-take-a-tour/power-bi-report-panes.png)
 
-Przy pierwszym otwarciu raportu będą widoczne 3 okienka: Wizualizacje, Filtry i Pola. Okienka po lewej stronie, Wizualizacje i Filtry, kontrolują wygląd Twoich wizualizacji — typ, kolory, filtrowanie, formatowanie.  A okienko po prawej stronie, Pola, zarządza podstawowymi danymi używanymi w wizualizacjach. 
+Po pierwszym otworzeniu raportu są widoczne trzy okienka: Wizualizacje, Filtry i Pola. Okienka po lewej stronie, Wizualizacje i Filtry, kontrolują wygląd Twoich wizualizacji — typ, kolory, filtrowanie, formatowanie.  A okienko po prawej stronie, Pola, zarządza podstawowymi danymi używanymi w wizualizacjach. 
 
-Zawartość wyświetlana w edytorze raportu jest zależna od wyborów dokonanych na kanwie raportu.  Na przykład po wybraniu oddzielnego elementu wizualnego, 
+Zawartość wyświetlana w edytorze raportu jest zależna od wyborów dokonanych na kanwie raportu.  Na przykład po wybraniu jednej wizualizacji:
 
 |  |  |
 | --- | --- |
-| ![](media/service-the-report-editor-take-a-tour/power-bi-panes.png) |<ul><li>Górna część okienka wizualizacji identyfikuje typ używanego elementu wizualnego; w tym przykładzie jest to wykres słupkowy grupowany.<br><br></li> <li>Dolna część okienka wizualizacji (może okazać się konieczne przewinięcie) wyświetla pola używane w elemencie wizualnym. Ten wykres używa pól FiscalMonth, DistrictManager i Total Sales Variance. <br><br></li><li>Okienko filtry (może okazać się konieczne przewinięcie) wyświetla wszelkie filtry, które zostały zastosowane. <br><br></li><li>Okienko pól zawiera listę dostępnych tabel, a jeśli rozwiniesz nazwę tabeli, pola, które tworzą daną tabelę. Żółta czcionka informuje, że co najmniej jedno pole z tej tabeli jest używane do wizualizacji.<br><br></li><li>![ikona wałka do malowania](media/service-the-report-editor-take-a-tour/power-bi-paint-roller-icon.png) Aby wyświetlić okienko formatowania dla wybranej wizualizacji, wybierz ikonę wałka do malowania.<br><br></li><li>![ikona lupy](media/service-the-report-editor-take-a-tour/power-bi-magnifying-icon.png) Aby wyświetlić okienko analizy, wybierz ikonę lupy.</ul> |
+| ![Okienka edytora raportów](media/service-the-report-editor-take-a-tour/power-bi-panes.png) |<ul><li>Górna część okienka wizualizacji identyfikuje typ używanego elementu wizualnego; w tym przykładzie jest to wykres słupkowy grupowany.<br><br></li> <li>Dolna część okienka wizualizacji (może okazać się konieczne przewinięcie) wyświetla pola używane w elemencie wizualnym. Ten wykres używa pól FiscalMonth, DistrictManager i Total Sales Variance. <br><br></li><li>Okienko filtry (może okazać się konieczne przewinięcie) wyświetla wszelkie filtry, które zostały zastosowane. <br><br></li><li>Okienko pól zawiera listę dostępnych tabel, a jeśli rozwiniesz nazwę tabeli, pola, które tworzą daną tabelę. Żółta czcionka informuje, że co najmniej jedno pole z tej tabeli jest używane do wizualizacji.<br><br></li><li>![ikona wałka do malowania](media/service-the-report-editor-take-a-tour/power-bi-paint-roller-icon.png) Aby wyświetlić okienko formatowania dla wybranej wizualizacji, wybierz ikonę wałka do malowania.<br><br></li><li>![ikona lupy](media/service-the-report-editor-take-a-tour/power-bi-magnifying-icon.png) Aby wyświetlić okienko analizy, wybierz ikonę lupy.</ul> |
 
-## <a name="the-visualizations-pane-from-top-to-bottom"></a>Okienko Wizualizacje (od góry do dołu)
+## <a name="the-visualizations-pane"></a>Okienko Wizualizacje
 ![górna część okienka Wizualizacje](media/service-the-report-editor-take-a-tour/selectviz.png)
 
 To właśnie tutaj wybierasz typ wizualizacji. Małe obrazki są nazywane *szablonami*. Na ilustracji powyżej jest wybrany wykres słupkowy grupowany. Jeśli nie wybierzesz najpierw typu wizualizacji, ale zamiast tego zaczniesz tworzenie wizualizacji, wybierając pola, usługa Power BI sama wybierze typ wizualizacji. Możesz zachować wybór usługi Power BI lub zmienić typ, wybierając inny szablon. Możesz się przełączać tyle razy, ile trzeba, aby znaleźć typ wizualizacji, który najlepiej reprezentuje Twoje dane.
 
-### <a name="manage-the-fields-used-in-your-visual"></a>Zarządzaj polami użytymi w Twoim elemencie wizualnym.
+### <a name="manage-the-fields-in-your-visual"></a>Zarządzanie polami w wizualizacji
 ![środek okienka Wizualizacje](media/service-the-report-editor-take-a-tour/power-bi-field-list.png)
 
-Zasobniki (czasem nazywane *źródłami*) pokazane w tym okienku różnią się w zależności od wybranego typu wizualizacji.  Na przykład, jeśli wybierzesz wykres słupkowy, zobaczysz zasobniki dla: wartości, osi i legendy. Gdy wybierasz pole lub przeciągasz je na kanwie, usługa Power BI dodaje to pole do jednego z zasobników.  Możesz też przeciągać pola z listy pól bezpośrednio do zasobników.  Niektóre zasobniki są ograniczone do pewnych typów danych.  Na przykład **wartości** nie akceptują pól nienumerycznych. Dlatego, jeśli przeciągniesz pole **employeename** pole do zasobnika **Wartości**, usługa Power BI zmieni go na **liczba employeename**.
+Zasobniki (czasem nazywane *źródłami*) pokazane w tym okienku różnią się w zależności od wybranego typu wizualizacji.  Jeśli na przykład wybrano wykres słupkowy, zobaczysz zasobniki dla następujących elementów: wartości, oś i legenda. Gdy wybierasz pole lub przeciągasz je na kanwie, usługa Power BI dodaje to pole do jednego z zasobników.  Możesz też przeciągać pola z listy pól bezpośrednio do zasobników.  Niektóre zasobniki są ograniczone do pewnych typów danych.  Na przykład **wartości** nie akceptują pól nienumerycznych. Dlatego, jeśli przeciągniesz pole **employeename** pole do zasobnika **Wartości**, usługa Power BI zmieni go na **liczba employeename**.
 
 ### <a name="remove-a-field"></a>Usuwanie pola
 Aby usunąć pole z wizualizacji, wybierz znak **X** z prawej strony nazwy pola.
@@ -70,7 +67,7 @@ Aby uzyskać więcej informacji, zobacz [Dodawanie wizualizacji do raportu usłu
 ### <a name="format-your-visuals"></a>Formatowanie elementów wizualnych
 Wybierz ikonę wałka do malowania, aby wyświetlić okienko Format. Dostępność opcji zależy od wybranego typu wizualizacji.
 
-![Okienko formatowania](media/service-the-report-editor-take-a-tour/power-bi-formatting.png)
+![Okienko formatowania w edytorze raportów](media/service-the-report-editor-take-a-tour/power-bi-formatting.png)
 
 Możliwości formatowania są prawie nieskończone.  Aby dowiedzieć się więcej, rozpocznij samodzielną eksplorację lub zapoznaj się z następującymi artykułami:
 
@@ -81,7 +78,7 @@ Możliwości formatowania są prawie nieskończone.  Aby dowiedzieć się więce
 ### <a name="add-analytics-to-your-visualizations"></a>Dodawanie analizy do wizualizacji
 Aby wyświetlić okienko analizy, wybierz ikonę lupy. Dostępność opcji zależy od wybranego typu wizualizacji.
 
-![](media/service-the-report-editor-take-a-tour/power-bi-analytics.png)    
+![Okienko analizy w edytorze raportów](media/service-the-report-editor-take-a-tour/power-bi-analytics.png)    
 Za pomocą okienka analizy w usłudze Power BI możesz dodać linie odwołania dynamicznego do wizualizacji i skoncentrować się na ważnych trendach lub szczegółowych informacjach. Aby dowiedzieć się więcej, zobacz [Okienko analizy w usłudze Power BI](service-analytics-pane.md) lub [Okienko analizy w programie Power BI Desktop](desktop-analytics-pane.md).
 
 - - -
@@ -105,30 +102,33 @@ W okienku pól są wyświetlane tabele i pola, które istnieją w Twoich danych 
 **UWAGA**: Jeśli używasz programu Power BI Desktop, będą również dostępne opcje pokazywania/ukrywania pól, dodawania obliczeń itd.
 
 ### <a name="what-do-the-field-icons-mean"></a>Co oznaczają ikony pól?
-* **Agregaty ∑** Agregat jest wartością numeryczną, która będzie na przykład sumowana lub uśredniana. Agregaty są importowane z danymi (zdefiniowanymi w modelu danych, na którym jest oparty Twój raport).
-  Aby uzyskać więcej informacji, zobacz [Wartości zagregowane w raportach usługi Power BI](service-aggregates.md).
-* ![ikona kalkulatora](media/service-the-report-editor-take-a-tour/pbi_calculated_icon.png) **Obliczane miary (nazywane również polami obliczeniowymi)**  
-   Każde pole obliczeniowe ma własną ustaloną formułę. Nie możesz zmienić obliczenia, jeśli, na przykład, jest to suma, pozostanie sumą. Aby uzyskać więcej informacji, przeczytaj [Opis miar](desktop-measures.md)
-* ![ikona pola unikatowego](media/service-the-report-editor-take-a-tour/icon.png) **Pola unikatowe**  
-   Pola z tą ikoną zostały zaimportowane z programu Excel i są ustawione na pokazywanie wszystkich wartości, nawet jeśli mają one duplikaty. Na przykład Twoje dane mogą mieć dwa rekordy dla osób o nazwisku „Jan Kowalski” i każdy z nich będzie traktowany jako unikatowy — nie zostaną one zsumowane.  
-* **![ikona geografii](media/service-the-report-editor-take-a-tour/pbi_geo_icon.png) Pola lokalizacji geograficznej**  
-   Pola lokalizacji mogą służyć do tworzenia wizualizacji map. 
-* **![ikona hierarchii](media/service-the-report-editor-take-a-tour/power-bi-hierarchy-icon.png) Hierarchia**  
-   Wybierz strzałkę, aby ujawnić pola, które tworzą hierarchię. 
+**Agregaty ∑** Agregat jest wartością numeryczną, która będzie na przykład sumowana lub uśredniana. Agregaty są importowane z danymi (zdefiniowanymi w modelu danych, na którym jest oparty Twój raport).
+Aby uzyskać więcej informacji, zobacz [Wartości zagregowane w raportach usługi Power BI](service-aggregates.md).
 
-- - -
+![ikona kalkulatora](media/service-the-report-editor-take-a-tour/pbi_calculated_icon.png) **Obliczane miary (nazywane również polami obliczeniowymi)**  
+Każde pole obliczeniowe ma własną ustaloną formułę. Nie możesz zmienić obliczenia, jeśli, na przykład, jest to suma, pozostanie sumą. Aby uzyskać więcej informacji, przeczytaj [Opis miar](desktop-measures.md)
+
+![ikona pola unikatowego](media/service-the-report-editor-take-a-tour/icon.png) **Pola unikatowe**  
+Pola z tą ikoną zostały zaimportowane z programu Excel i są ustawione na pokazywanie wszystkich wartości, nawet jeśli mają one duplikaty. Na przykład Twoje dane mogą mieć dwa rekordy dla osób o nazwisku „Jan Kowalski” i każdy z nich będzie traktowany jako unikatowy — nie zostaną one zsumowane.  
+
+**![ikona geografii](media/service-the-report-editor-take-a-tour/pbi_geo_icon.png) Pola lokalizacji geograficznej**  
+Pola lokalizacji mogą służyć do tworzenia wizualizacji map. 
+
+**![ikona hierarchii](media/service-the-report-editor-take-a-tour/power-bi-hierarchy-icon.png) Hierarchia**  
+Wybierz strzałkę, aby ujawnić pola, które tworzą hierarchię. 
+
 ## <a name="2-the-top-navigation-bar"></a>2. Górny pasek nawigacyjny
 Na górnym pasku nawigacyjnym są dostępne liczne akcje, przy czym cały czas są dodawane nowe akcje. Aby uzyskać informacje o określonej akcji, użyj spisu treści lub pola wyszukiwania dokumentacji usługi Power BI.
 
 ## <a name="3-the-report-canvas"></a>3. Kanwa raportu
 Kanwa raportu jest miejscem, gdzie jest wyświetlana Twoja praca. Gdy używasz okienek pól, filtrów i wizualizacji do tworzenia elementów wizualnych, są one budowane i wyświetlane na kanwie Twojego raportu. Każda karta w dolnej części kanwy reprezentuje stronę raportu. Wybierz kartę, aby otworzyć tę stronę. 
 
-## <a name="next-steps"></a>Następne kroki:
+## <a name="next-steps"></a>Następne kroki
 [Tworzenie raportu](service-report-create-new.md)
 
-Dowiedz się więcej na temat raportów w [usłudze Power BI](consumer/end-user-reports.md), [programie Power BI Desktop](desktop-report-view.md) i [aplikacji Power BI dla urządzeń przenośnych](consumer/mobile/mobile-apps-view-phone-report.md).
+Więcej informacji na temat raportów w [usłudze Power BI](service-report-create-new.md), [programie Power BI Desktop](desktop-report-view.md) i [aplikacjach mobilnych Power BI](consumer/mobile/mobile-apps-view-phone-report.md).
 
-[Power BI — podstawowe pojęcia](consumer/end-user-basic-concepts.md)
+[Podstawowe pojęcia dla projektantów usługi Power BI](service-basic-concepts.md)
 
 Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
 

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/19/2018
+ms.date: 12/19/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 04e00537db4ffbcb6c1a154cb69fb2c856bd7596
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 09c505d114eaa951978f23061d9c79c1b6870fad
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565664"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983375"
 ---
 # <a name="tips-and-tricks-for-color-formatting-in-power-bi"></a>Porady i wskazówki dotyczące formatowania kolorów w usłudze Power BI
 Usługa Power BI udostępnia wiele różnych sposobów dostosowywania pulpitów nawigacyjnych i raportów. Ten artykuł zawiera zbiór porad i wskazówek, dzięki którym Twoje wizualizacje usługi Power BI będą bardziej atrakcyjne, interesujące i dostosowane do Twoich potrzeb.
@@ -29,38 +29,35 @@ Opisano tu następujące wskazówki. Masz inną ciekawą wskazówkę? Świetnie!
 * Używanie rozbieżnej skali kolorów
 * Cofanie poleceń w usłudze Power BI
 
-Aby wprowadzić jakiekolwiek zmiany, trzeba edytować raport: wybierz swój **raport** w okienku **Mój obszar roboczy**, a następnie wybierz polecenie **Edytuj raport** w obszarze menu u góry, jak pokazano na poniższej ilustracji.
+Aby wprowadzić jakiekolwiek zmiany, trzeba edytować raport: wybierz swój **raport** w okienku **Mój obszar roboczy**, a następnie wybierz polecenie **Edytuj raport** w obszarze menu u góry, jak pokazano na poniższej ilustracji. W tym przykładzie użyto **przykładu Human Resources**.
 
-![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_1.png)
+![Kanwa raportu z wyróżnioną pozycją Edytuj raport](media/service-tips-and-tricks-for-color-formatting/power-bi-edit.png)
 
 Gdy okienko **Wizualizacje** zostanie wyświetlone wzdłuż prawej krawędzi kanwy **Raport**, możesz zacząć dostosowywanie.
 
-![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_2.png)
+![Raport z wyświetlonym okienkiem formatowania](media/service-tips-and-tricks-for-color-formatting/power-bi-formatting-pane.png)
 
 ## <a name="change-the-color-of-a-single-data-point"></a>Zmienianie koloru pojedynczego punktu danych
-Czasami chcesz wyróżnić jeden konkretny punkt danych. Mogą to być dane sprzedażowe dotyczące wprowadzenia nowego produktu na rynek lub lepsze wyniki jakości po uruchomieniu nowego programu. W usłudze Power BI można wyróżnić konkretny punkt danych, zmieniając jego kolor.
+Czasami chcesz wyróżnić jeden konkretny punkt danych. Mogą to być dane sprzedażowe dotyczące wprowadzenia nowego produktu na rynek lub lepsze wyniki jakości po uruchomieniu nowego programu. W usłudze Power BI w przypadku większości typów wizualizacji można wyróżnić konkretny punkt danych, zmieniając jego kolor.
 
-Poniższa wizualizacja przedstawia ranking stanów w Stanach Zjednoczonych pod względem kosztów utrzymania. 
+Na poniższej wizualizacji marże sprzedaży według pracownika są wyświetlane przy użyciu kolorów domyślnych. 
 
-![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_3.png)
+![wykres warstwowy](media/service-tips-and-tricks-for-color-formatting/power-bi-area-chart.png)
 
-Teraz załóżmy, że chcesz szybko pokazać, gdzie w tym rankingu znajduje się stan Waszyngton, używając koloru. Oto odpowiednie kroki:
+Obszar Annelie nie jest dobrze widoczny, więc wyróżnijmy go za pomocą koloru. Oto odpowiednie kroki:
 
 Rozwiń sekcję **Kolory danych**. Zostaną wyświetlone pozycje pokazane poniżej.
 
-![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_4.png)
+![Obszar wyboru Kolory danych w sekcji Formatowanie](media/service-tips-and-tricks-for-color-formatting/power-bi-data-colors.png)
 
-Dla pozycji **Pokaż wszystko** ustaw wartość **Włączone**. Spowoduje to wyświetlenie kolorów dla każdego elementu danych w wizualizacji. Po ustawieniu kursora na punktach danych zostanie włączone przewijanie, co pozwala modyfikować dowolne punkty danych.
 
-![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_5.png)
+W tym przypadku wybierzmy ciemny, ale intensywny kolor, który nie jest podobny do koloru używanego dla Valery. Wybierz strzałkę w dół wewnątrz pola kolorów Annelie, wybierz polecenie **Kolor niestandardowy**, a następnie wybierz kolor jaskrawoniebieski.
 
-W tym przypadku zmieńmy kolor stanu **Waszyngton** na zielony. Przewiniemy w dół do pozycji **Waszyngton** i wybierzemy strzałkę w dół wewnątrz pola kolorów. Zostanie wyświetlone okno wyboru koloru.
+![Wybory koloru](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_6.png)
 
-![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_6.png)
+Po dokonaniu wyboru obszar Annelie znacznie łatwiej odróżnić od innych pracowników. 
 
-Po wybraniu koloru punkt danych **Waszyngton** ma ładny odcień zielonego i zdecydowanie się wyróżnia.
-
-![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_7.png)
+![Wykres warstwowy, obszar Annelie jest teraz jaskrawoniebieski](media/service-tips-and-tricks-for-color-formatting/power-bi-color.png)
 
 Nawet jeśli zmienisz typ wizualizacji, a następnie powrócisz, usługa Power BI zapamiętuje Twój wybór i zachowuje kolor zielony punktu danych **Waszyngton**.
 

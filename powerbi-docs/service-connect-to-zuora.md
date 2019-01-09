@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/24/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: b183738c062af1d834a742639369ca90f2cb1bad
-ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
+ms.openlocfilehash: 605cd2f135ff6d8626586abbd503bcb44687931d
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50003230"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008608"
 ---
 # <a name="connect-to-zuora-with-power-bi"></a>Nawiązywanie połączenia z usługą Zuora przy użyciu usługi Power BI
 Usługa Zuora dla usługi Power BI pozwala wizualizować ważne informacje dotyczące przychodów, rozliczeń i subskrypcji. Za pomocą domyślnego pulpitu nawigacyjnego i raportów można analizować trendy użycia, śledzić rozliczenia i płatności oraz monitorować przychody cykliczne. Pulpit nawigacyjny można również dostosować do własnych potrzeb związanych z raportowaniem.
@@ -67,24 +67,24 @@ Pakiet zawartości udostępnia również następujące miary obliczeniowe:
 
 | Miara | Opis | Obliczenia przykładowe |
 | --- | --- | --- |
-| Konto: płatności |Łączna kwota płatności w danym okresie na podstawie daty płatności. |SUM (Payment.Amount) <br>WHERE<br>Payment.EffectiveDate =< TimePeriod.EndDate<br>AND    Payment.EffectiveDate >= TimePeriod.StartDate |
-| Konto: zwroty |Łączna kwota zwrotów w danym okresie na podstawie daty zwrotu. Kwota jest podawana jako liczba ujemna. |-1*SUM(Refund.Amount)<br>WHERE<br>Refund.RefundDate =< TimePeriod.EndDate<br>AND    Refund.RefundDate >= TimePeriod.StartDate |
-| Konto: płatności netto |Płatności oraz zwroty na koncie w danym okresie. |Account.Payments + Account.Refunds |
-| Konto: aktywne konta |Liczba kont, które były aktywne w danym okresie. Rozpoczęcie korzystania z subskrypcji musi przypadać przed datą początkową tego okresu (lub w dzień odpowiadający tej dacie). |COUNT (Account.AccountNumber)<br>WHERE<br>    Subscription.Status != "Expired"<br>AND    Subscription.Status != "Draft"<br>AND    Subscription.SubscriptionStartDate <= TimePeriod.StartDate<br>AND    (Subscription.SubscriptionEndDate > TimePeriod.StartDate<br>OR<br>Subscription.SubscriptionEndDate = null) –evergreen subscription |
-| Konto: średni przychód cykliczny |Miesięczny przychód cykliczny brutto na aktywnym koncie w danym okresie. |Miesięczny przychód cykliczny brutto / Account.ActiveAccounts |
-| Konto: anulowane subskrypcje |Liczba kont, na których anulowano subskrypcję w danym okresie. |COUNT (Account.AccountNumber)<br>WHERE<br>Subscription.Status = "Cancelled"<br>AND    Subscription.SubscriptionStartDate <= TimePeriod.StartDate<br>AND    Subscription.CancelledDate >= TimePeriod.StartDate |
-| Konto: błędy płatności |Łączna wartość błędów płatności. |SUM (Payment.Amount)<br>WHERE<br>Payment.Status = "Error" |
-| Element planu przychodów: ujęty przychód |Łączny ujęty przychód w okresie księgowym. |SUM (RevenueScheduleItem.Amount)<br>WHERE<br>AccountingPeriod.StartDate = TimePeriod.StartDate |
-| Subskrypcja: nowe subskrypcje |Liczba nowych subskrypcji w danym okresie. |COUNT (Subscription.ID)<br>WHERE<br>Subscription.Version = "1"<br>AND    Subscription.CreatedDate <= TimePeriod.EndDate<br>AND    Subscription.CreatedDate >= TimePeriod.StartDate |
-| Faktura: pozycje faktury |Łączna kwota opłat za pozycje faktur w danym okresie. |SUM (InvoiceItem.ChargeAmount)<br>WHERE<br>    Invoice.Status = "Posted"<br>AND    Invoice.InvoiceDate <= TimePeriod.EndDate<br>AND    Invoice.InvoiceDate >= TimePeriod.StartDate |
-| Faktura: pozycje podatku |Łączna kwota pozycji podatku w danym okresie. |SUM (TaxationItem.TaxAmount)<br>WHERE<br>Invoice.Status = "Posted"<br>AND    Invoice.InvoiceDate <= TimePeriod.EndDate<br>AND    Invoice.InvoiceDate >= TimePeriod.StartDate |
-| Faktura: korekty pozycji faktury |Łączna kwota korekt pozycji faktur w danym okresie. |SUM (InvoiceItemAdjustment.Amount) <br>WHERE<br>    Invoice.Status = "Posted"<br>AND    InvoiceItemAdjustment.AdjustmentDate <= TimePeriod.EndDate<br>AND    InvoiceItemAdjustment.AdjustmentDate >= TimePeriod.StartDate |
-| Faktura: korekty faktur |Łączna kwota korekt faktur w danym okresie. |SUM (InvoiceAdjustment.Amount) <br>WHERE<br>    Invoice.Status = "Posted"<br>AND    InvoiceAdjustment.AdjustmentDate <= TimePeriod.EndDate<br>AND    InvoiceAdjustment.AdjustmentDate >= TimePeriod.StartDate |
-| Faktura: rozliczenia netto |Suma pozycji faktur, pozycji podatku, korekt pozycji faktur i korekt faktur w danym okresie. |Invoice.InvoiceItems + Invoice.TaxationItems + Invoice.InvoiceItemAdjustments + Invoice.InvoiceAdjustments |
-| Faktura: saldo zaległości faktur |Suma zaksięgowanych sald faktur. |SUM (Invoice.Balance) <br>WHERE<br>    Invoice.Status = "Posted" |
-| Faktura: rozliczenia brutto |Suma opłat za pozycje zaksięgowanych faktur w danym okresie. |SUM (InvoiceItem.ChargeAmount) <br>WHERE<br>    Invoice.Status = "Posted"<br>AND    Invoice.InvoiceDate <= TimePeriod.EndDate<br>AND    Invoice.InvoiceDate >= TimePeriod.StartDate |
-| Faktura: suma korekt |Suma przetworzonych korekt faktur i korekt pozycji faktur skojarzonych z zaksięgowanymi fakturami. |SUM (InvoiceAdjustment.Amount) <br>WHERE<br>    Invoice.Status = "Posted"<br>AND    InvoiceAdjustment.Status = "Processed"<br>+<br>SUM (InvoiceItemAdjustment.Amount) <br>WHERE<br>    Invoice.Status = "Posted"<br>AND    invoiceItemAdjustment.Status = "Processed" |
-| Opłata za plan taryfowy: miesięczny przychód cykliczny brutto |Łączny miesięczny przychód cykliczny z subskrypcji w danym okresie. |SUM (RatePlanCharge.MRR) <br>WHERE<br>    Subscription.Status != "Expired"<br>AND    Subscription.Status != "Draft"<br>AND    RatePlanCharge.EffectiveStartDate <= TimePeriod.StartDate<br>AND        RatePlanCharge.EffectiveEndDate > TimePeriod.StartDate<br>    OR    RatePlanCharge.EffectiveEndDate = null --evergreen subscription |
+| Konto: Płatności |Łączna kwota płatności w danym okresie na podstawie daty płatności. |SUM (Payment.Amount) <br>WHERE<br>Payment.EffectiveDate =< TimePeriod.EndDate<br>AND    Payment.EffectiveDate >= TimePeriod.StartDate |
+| Konto: Zwroty |Łączna kwota zwrotów w danym okresie na podstawie daty zwrotu. Kwota jest podawana jako liczba ujemna. |-1*SUM(Refund.Amount)<br>WHERE<br>Refund.RefundDate =< TimePeriod.EndDate<br>AND    Refund.RefundDate >= TimePeriod.StartDate |
+| Konto: Płatności netto |Płatności oraz zwroty na koncie w danym okresie. |Account.Payments + Account.Refunds |
+| Konto: Aktywne konta |Liczba kont, które były aktywne w danym okresie. Rozpoczęcie korzystania z subskrypcji musi przypadać przed datą początkową tego okresu (lub w dzień odpowiadający tej dacie). |COUNT (Account.AccountNumber)<br>WHERE<br>    Subscription.Status != "Expired"<br>AND    Subscription.Status != "Draft"<br>AND    Subscription.SubscriptionStartDate <= TimePeriod.StartDate<br>AND    (Subscription.SubscriptionEndDate > TimePeriod.StartDate<br>OR<br>Subscription.SubscriptionEndDate = null) –evergreen subscription |
+| Konto: Średni przychód cykliczny |Miesięczny przychód cykliczny brutto na aktywnym koncie w danym okresie. |Miesięczny przychód cykliczny brutto / Account.ActiveAccounts |
+| Konto: Anulowane subskrypcje |Liczba kont, na których anulowano subskrypcję w danym okresie. |COUNT (Account.AccountNumber)<br>WHERE<br>Subscription.Status = "Cancelled"<br>AND    Subscription.SubscriptionStartDate <= TimePeriod.StartDate<br>AND    Subscription.CancelledDate >= TimePeriod.StartDate |
+| Konto: Błędy płatności |Łączna wartość błędów płatności. |SUM (Payment.Amount)<br>WHERE<br>Payment.Status = "Error" |
+| Element planu przychodów: Ujęty przychód |Łączny ujęty przychód w okresie księgowym. |SUM (RevenueScheduleItem.Amount)<br>WHERE<br>AccountingPeriod.StartDate = TimePeriod.StartDate |
+| Subskrypcja: Nowe subskrypcje |Liczba nowych subskrypcji w danym okresie. |COUNT (Subscription.ID)<br>WHERE<br>Subscription.Version = "1"<br>AND    Subscription.CreatedDate <= TimePeriod.EndDate<br>AND    Subscription.CreatedDate >= TimePeriod.StartDate |
+| Faktura: Invoice Items |Łączna kwota opłat za pozycje faktur w danym okresie. |SUM (InvoiceItem.ChargeAmount)<br>WHERE<br>    Invoice.Status = "Posted"<br>AND    Invoice.InvoiceDate <= TimePeriod.EndDate<br>AND    Invoice.InvoiceDate >= TimePeriod.StartDate |
+| Faktura: Taxation Items |Łączna kwota pozycji podatku w danym okresie. |SUM (TaxationItem.TaxAmount)<br>WHERE<br>Invoice.Status = "Posted"<br>AND    Invoice.InvoiceDate <= TimePeriod.EndDate<br>AND    Invoice.InvoiceDate >= TimePeriod.StartDate |
+| Faktura: Invoice Item Adjustments |Łączna kwota korekt pozycji faktur w danym okresie. |SUM (InvoiceItemAdjustment.Amount) <br>WHERE<br>    Invoice.Status = "Posted"<br>AND    InvoiceItemAdjustment.AdjustmentDate <= TimePeriod.EndDate<br>AND    InvoiceItemAdjustment.AdjustmentDate >= TimePeriod.StartDate |
+| Faktura: Invoice Adjustments |Łączna kwota korekt faktur w danym okresie. |SUM (InvoiceAdjustment.Amount) <br>WHERE<br>    Invoice.Status = "Posted"<br>AND    InvoiceAdjustment.AdjustmentDate <= TimePeriod.EndDate<br>AND    InvoiceAdjustment.AdjustmentDate >= TimePeriod.StartDate |
+| Faktura: Net Billings |Suma pozycji faktur, pozycji podatku, korekt pozycji faktur i korekt faktur w danym okresie. |Invoice.InvoiceItems + Invoice.TaxationItems + Invoice.InvoiceItemAdjustments + Invoice.InvoiceAdjustments |
+| Faktura: Saldo zaległości faktur |Suma zaksięgowanych sald faktur. |SUM (Invoice.Balance) <br>WHERE<br>    Invoice.Status = "Posted" |
+| Faktura: Rozliczenia brutto |Suma opłat za pozycje zaksięgowanych faktur w danym okresie. |SUM (InvoiceItem.ChargeAmount) <br>WHERE<br>    Invoice.Status = "Posted"<br>AND    Invoice.InvoiceDate <= TimePeriod.EndDate<br>AND    Invoice.InvoiceDate >= TimePeriod.StartDate |
+| Faktura: Suma korekt |Suma przetworzonych korekt faktur i korekt pozycji faktur skojarzonych z zaksięgowanymi fakturami. |SUM (InvoiceAdjustment.Amount) <br>WHERE<br>    Invoice.Status = "Posted"<br>AND    InvoiceAdjustment.Status = "Processed"<br>+<br>SUM (InvoiceItemAdjustment.Amount) <br>WHERE<br>    Invoice.Status = "Posted"<br>AND    invoiceItemAdjustment.Status = "Processed" |
+| Opłata za plan taryfowy: Miesięczny przychód cykliczny brutto |Łączny miesięczny przychód cykliczny z subskrypcji w danym okresie. |SUM (RatePlanCharge.MRR) <br>WHERE<br>    Subscription.Status != "Expired"<br>AND    Subscription.Status != "Draft"<br>AND    RatePlanCharge.EffectiveStartDate <= TimePeriod.StartDate<br>AND        RatePlanCharge.EffectiveEndDate > TimePeriod.StartDate<br>    OR    RatePlanCharge.EffectiveEndDate = null --evergreen subscription |
 
 ## <a name="system-requirements"></a>Wymagania systemowe
 Wymagany jest dostęp do interfejsu API Zuora.

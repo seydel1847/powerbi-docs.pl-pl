@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 909e15fa843df3f87e1cdfa25b45f60996b3dca0
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 4ad7ce28c512f69e144af98098ab9f13a15b6023
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545693"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008631"
 ---
 # <a name="connect-to-marketo-with-power-bi"></a>Nawiązywanie połączenia z usługą Marketo przy użyciu usługi Power BI
 Pakiet zawartości usługi Power BI dla usługi Marketo pozwala uzyskać wgląd w przechowywane na koncie Marketo dane dotyczące potencjalnych klientów i ich działań. Po utworzeniu połączenia pobierane są dane, na podstawie których automatycznie tworzony jest pulpit nawigacyjny i powiązane raporty.
@@ -59,7 +59,7 @@ Usługa Marketo w usłudze Power BI udostępnia następujące dane dotyczące dz
 | Nazwa tabeli | Opis |
 | --- | --- |
 | EmailActivities |Dane wiadomości e-mail wysłanych do potencjalnych klientów/kontaktów ze szczegółami dotyczącymi urządzeń, kategorii, liczby i wartości procentowej zwróconych, klikniętych oraz otwartych wiadomości, a także nazwy programu. Wyświetlany w usłudze Power BI raport o dostarczeniu wiadomości e-mail zawiera nieprzetworzone dane, bez stosowania dodatkowej logiki. Z tego względu wyniki udostępniane przez klienta Marketo mogą różnić się od informacji widocznych w usłudze Power BI. |
-| ProgramActivites |Dane programów, których stan zmienił się. Obejmuje to szczegóły, takie jak przyczyna, sukces, liczba i wartość procentowa pozyskań programu oraz liczba i wartość procentowa sukcesów programu. |
+| ProgramActivites |Dane programów, których stan zmienił się. Obejmuje to szczegóły takie jak: przyczyna, sukces, liczba i wartość procentowa pozyskań programu oraz liczba i wartość procentowa sukcesów programu. |
 | WebPageActivities |Dane o wizytach użytkowników na stronach internetowych, w tym: agent wyszukiwania, agent użytkownika, strona internetowa i godzina. |
 | Datetable |Dane z ostatniego roku do daty bieżącej.  Umożliwia analizowanie danych usługi Marketo według dat. |
 | Leads |Informacje o potencjalnych klientach, takie jak nazwa firmy, wielkość przychodu, liczba pracowników, kraj, branża, ocena i stan. Pobieranie potencjalnych klientów odbywa się na podstawie danych dotyczących wiadomości e-mail, programów i działań na stronach internetowych. |
@@ -90,5 +90,5 @@ Liczba wywołań interfejsu API używanych przez usługę Power BI zależy od il
 
 [Pobieranie danych dla usługi Power BI](service-get-data.md)
 
-[Blog usługi Power BI: monitorowanie i analizowanie danych usługi Marketo za pomocą usługi Power BI](http://blogs.msdn.com/b/powerbi/archive/2015/03/19/monitor-and-analyze-your-marketo-data-with-power-bi.aspx)
+[Blog usługi Power BI: Monitorowanie i analizowanie danych usługi Marketo za pomocą usługi Power BI](http://blogs.msdn.com/b/powerbi/archive/2015/03/19/monitor-and-analyze-your-marketo-data-with-power-bi.aspx)
 

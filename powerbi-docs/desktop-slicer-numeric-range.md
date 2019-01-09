@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 01/02/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: f997ee7574c5dd9dc6b4d28767d599a97bf297ed
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: a2402872744b3029e37bf49eaaeae27a3ad95734
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52669847"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983628"
 ---
 # <a name="use-the-numeric-range-slicer-in-power-bi-desktop"></a>Używanie fragmentatora zakresu liczbowego w programie Power BI Desktop
 Używając **fragmentatora zakresu liczbowego**, możesz zastosować wszelkiego rodzaju filtry do dowolnej kolumny liczbowej w modelu danych. Możesz filtrować liczby **między** wartościami, **mniejsze niż lub równe** określonej liczbie albo **większe niż lub równe** określonej liczbie. Chociaż może to brzmieć prosto, jest to bardzo zaawansowana metoda filtrowania danych.
@@ -54,6 +54,14 @@ Natomiast gdy wybierzemy pozycję **Większe niż lub równe**, zniknie prawy uc
 ## <a name="snap-to-whole-numbers-with-the-numeric-range-slicer"></a>Przyciąganie do liczb całkowitych przy użyciu fragmentatora zakresu liczbowego
 
 Fragmentator zakresu liczbowego będzie przyciągany do liczb całkowitych, jeśli typem danych pola bazowego jest **Liczba całkowita**. Pozwala to fragmentatorowi prawidłowo dopasować liczby całkowite. Pola typu **Liczba dziesiętna** pozwalają wprowadzać lub wybierać części ułamkowe. Formatowanie zastosowane w polu tekstowym jest zgodne z formatowaniem ustawionym w polu, mimo że można wpisać lub wybrać bardziej precyzyjne liczby.
+
+## <a name="display-formatting-with-the-date-range-slicer"></a>Formatowanie danych wyświetlanych we fragmentatorze zakresów dat
+
+Podczas używania fragmentatora do wyświetlania lub ustawiania zakresu dat daty są zawsze wyświetlane w formacie **Data krótka** na podstawie ustawień regionalnych przeglądarki lub systemu operacyjnego użytkownika. Ten format wyświetlania jest używany niezależnie od ustawień typów danych w podstawowych danych lub podstawowym modelu. 
+
+Na przykład dla podstawowego typu danych może być skonfigurowany format daty długiej (np. *dddd, d MMMM, rrrr*, który w innych wizualizacjach lub sytuacjach będzie formatował datę jako *Środa, 14 marca, 2001*), ale we fragmentatorze zakresów dat ta data byłaby wyświetlana w postaci *14.03.2001*.
+
+Korzystanie z formatu **Data krótka** we fragmentatorze zapewnia, że długość ciągu pozostanie spójna i niewielka w obrębie fragmentatora. 
 
 
 ## <a name="limitations-and-considerations"></a>Ograniczenia i istotne zagadnienia

@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 63b9129c56b064f224eef0720e5f585c86d80a93
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 1f9503980ba19b290fa5d0fd1f521bb85ef93759
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44742857"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983582"
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>Tworzenie linku do określonej lokalizacji w aplikacjach mobilnych usługi Power BI
 Możesz tworzyć identyfikator URI i używać go do łączenia z określoną lokalizacją (*link bezpośredni*) w aplikacjach mobilnych usługi Power BI na wszystkich platformach przenośnych: iOS, urządzeniach z systemem Android i Windows 10.
@@ -69,6 +69,12 @@ Ten identyfikator URI otwiera określony raport w aplikacji mobilnej usługi Pow
 Aby znaleźć 36-znakowy identyfikator obiektu raportu, przejdź do określonego raportu w usłudze Power BI (https://powerbi.com). Na przykład zobacz wyróżnioną sekcję tego adresu URL:
 
 `https://powerbi.com/groups/me/reports/df9f0e94-31df-450b-b97f-4461a7e4d300`
+
+Jeśli raport jest w grupie innej niż Mój obszar roboczy, dodaj ciąg `&GroupObjectId=<36-character-group-id>` przed identyfikatorem raportu lub po nim. Na przykład: 
+
+mspbi://app/OpenReport?ReportObjectId=e684af3a-9e7f-44ee-b679-b9a1c59b5d60 **&GroupObjectId=8cc900cc-7339-467f-8900-fec82d748248**
+
+Należy zwrócić uwagę na znak ampersand (&) między nimi.
 
 ## <a name="open-to-a-specific-report-page"></a>Otwieranie strony określonego raportu
 Ten identyfikator URI otwiera określoną stronę raportu w aplikacji mobilnej usługi Power BI:
