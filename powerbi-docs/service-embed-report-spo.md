@@ -11,12 +11,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 11/01/2018
-ms.openlocfilehash: fc0234536415c758992cec629452a3e629c46ad1
-ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
+ms.openlocfilehash: 3ad4335cabac159aee38d54fbfff0f689009fd68
+ms.sourcegitcommit: b3af4f7ef486c95cea173caea5a31d0472816ddd
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "50973332"
+ms.lasthandoff: 01/09/2019
+ms.locfileid: "54136604"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>Osadzanie za pomocą składnika Web Part raportu w usłudze SharePoint Online
 
@@ -75,7 +75,7 @@ Aby osadzić raport w usłudze SharePoint Online, należy najpierw uzyskać adre
 
     ![Załadowany raport programu SP](media/service-embed-report-spo/powerbi-sharepoint-report-loaded.png)
 
-## <a name="granting-access-to-reports"></a>Udzielanie dostępu do raportów
+## <a name="grant-access-to-reports"></a>Udzielanie dostępu do raportów
 
 Osadzenie raportu w usłudze SharePoint Online nie daje automatycznie użytkownikom uprawnienia do wyświetlania raportu. Uprawnienia do wyświetlania raportu są ustawiane w usłudze Power BI.
 
@@ -90,7 +90,7 @@ Alternatywnie możesz bezpośrednio udostępnić raport użytkownikom, osadzają
 
 2. Autor tworzy raport w obszarze roboczym aplikacji. *Aby udostępnić raport **użytkownikom bezpłatnej wersji usługi Power BI**, obszar roboczy aplikacji należy ustawić jako **obszar roboczy Premium**.*
 
-3. Autor publikuje aplikację, a następnie ją instaluje. *Autor sekcji musi zainstalować aplikację, aby mieć dostęp do adresu URL raportu używanego do osadzania w usłudze SharePoint Online.*
+3. Autor publikuje aplikację, a następnie ją instaluje. *Autor musi zainstalować aplikację, aby mieć dostęp do adresu URL raportu używanego do osadzania w usłudze SharePoint Online.*
 
 4. Teraz wszyscy użytkownicy końcowi muszą również zainstalować aplikację. Można ustawić wstępne instalowanie aplikacji dla użytkowników końcowych za pomocą funkcji **Instaluj aplikację automatycznie**. Jest ona włączana w [portalu administracyjnym usługi Power BI](service-admin-portal.md).
 
@@ -174,9 +174,10 @@ Użytkownicy wyświetlający raport w programie SharePoint potrzebują **licencj
 
 ## <a name="next-steps"></a>Następne kroki
 
-[Umożliwianie lub uniemożliwianie tworzenia nowoczesnych stron witryny przez użytkowników końcowych](https://support.office.com/article/Allow-or-prevent-creation-of-modern-site-pages-by-end-users-c41d9cc8-c5c0-46b4-8b87-ea66abc6e63b)  
-[Tworzenie i rozpowszechnianie aplikacji w usłudze Power BI](service-create-distribute-apps.md)  
-[Udostępnianie pulpitu nawigacyjnego współpracownikom i innym osobom](service-share-dashboards.md)  
-[Power BI Premium — co to jest?](service-premium.md)  
+* [Umożliwianie lub uniemożliwianie tworzenia nowoczesnych stron witryny przez użytkowników końcowych](https://support.office.com/article/Allow-or-prevent-creation-of-modern-site-pages-by-end-users-c41d9cc8-c5c0-46b4-8b87-ea66abc6e63b)  
+* [Tworzenie i rozpowszechnianie aplikacji w usłudze Power BI](service-create-distribute-apps.md)  
+* [Udostępnianie pulpitu nawigacyjnego współpracownikom i innym osobom](service-share-dashboards.md)  
+* [Power BI Premium — co to jest?](service-premium.md)
+* [Osadzanie raportu w bezpiecznym portalu lub witrynie internetowej](service-embed-secure.md)
 
 Masz więcej pytań? [Zadaj pytanie społeczności usługi Power BI](http://community.powerbi.com/)

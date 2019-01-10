@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/20/2018
-ms.openlocfilehash: 3971651caf9be7e754f4232ffec8b4e4dbfdfe6d
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
+ms.openlocfilehash: 106d971a06777f7d22d1fb3cd2ba3995b95a21d9
+ms.sourcegitcommit: b3af4f7ef486c95cea173caea5a31d0472816ddd
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008424"
+ms.lasthandoff: 01/09/2019
+ms.locfileid: "54136650"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Często zadawane pytania dotyczące usługi Power BI Embedded
 
@@ -204,6 +204,10 @@ W przypadku filtrowania po stronie klienta (JavaScript) niezależny dostawca opr
 
 Zapoznaj się z częścią dotyczącą [porównania zabezpieczeń na poziomie wiersza i filtrów języka JavaScript](embedded-row-level-security.md#using-rls-vs-javascript-filters), aby uzyskać więcej informacji.
 
+### <a name="what-are-the-best-practices-to-improve-performance"></a>Jakie są najlepsze rozwiązania w celu zwiększenia wydajności?
+
+[Wydajność usługi Power BI Embedded](embedded-performance-best-practices.md)
+
 ## <a name="licensing"></a>Licencjonowanie
 
 ### <a name="how-do-i-purchase-power-bi-embedded"></a>Jak kupić usługę Power BI Embedded?
@@ -264,8 +268,8 @@ Instytucje edukacyjne i organizacje niedochodowe mogą zakupić platformę Azure
 
 3. Gdy wszystko będzie gotowe do produkcji, kup dedykowaną pojemność usługi **Power BI Embedded** i przypisz zawartość usługi Power BI (obszar roboczy) do tej wydajności.
 
-> [!Note]
-> Możesz nadal używać **kolekcji obszarów roboczych usługi Power BI** podczas kompilowania równolegle z rozwiązaniem **Power BI Embedded**. Gdy wszystko będzie gotowe, można przenieść klienta do nowego rozwiązania usługi **Power BI Embedded** i wycofać rozwiązanie **Kolekcja obszarów roboczych usługi Power BI**.
+    > [!Note]
+    > Możesz nadal używać **kolekcji obszarów roboczych usługi Power BI** podczas kompilowania równolegle z rozwiązaniem **Power BI Embedded**. Gdy wszystko będzie gotowe, można przenieść klienta do nowego rozwiązania usługi **Power BI Embedded** i wycofać rozwiązanie **Kolekcja obszarów roboczych usługi Power BI**.
 
 Aby uzyskać więcej informacji, zapoznaj się z tematem [Jak migrować zawartość kolekcji obszarów roboczych usługi Power BI do usługi Power BI Embedded](https://docs.microsoft.com/power-bi/developer/migrate-from-powerbi-embedded)
 
@@ -318,10 +322,6 @@ Informacje dotyczące edytowania aplikacji zarejestrowanych w usłudze AAD możn
 
 Informacje dotyczące edytowania danych usługi Power BI można znaleźć [tutaj](https://docs.microsoft.com/power-bi/service-basic-concepts).
 
-Aby uzyskać więcej informacji, zobacz [Rozwiązywanie problemów z aplikacją osadzoną](embedded-troubleshoot.md)
+Aby uzyskać więcej informacji, zobacz [Rozwiązywanie problemów z aplikacją osadzoną](embedded-troubleshoot.md).
 
 Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
-
-### <a name="what-are-the-best-practices-to-improve-performance"></a>Jakie są najlepsze rozwiązania w celu zwiększenia wydajności?
-
-[Wydajność usługi Power BI Embedded](embedded-performance-best-practices.md)
