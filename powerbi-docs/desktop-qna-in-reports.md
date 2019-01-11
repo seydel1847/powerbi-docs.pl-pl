@@ -25,7 +25,7 @@ Aby umożliwić funkcji pytań i odpowiedzi prawidłowe interpretowanie dużych 
 > [!NOTE]
 > Funkcja pytań i odpowiedzi jest dostępna tylko podczas pracy z modelem, który zawiera **zaimportowane** dane. Połączenia na żywo z modelami SSAS i DirectQuery nie są obsługiwane.
 >
-> Jeśli używasz systemu Windows starszego niż system Windows 10, funkcja pytań i odpowiedzi wymaga poniższej aktualizacji środowiska uruchomieniowego języka C. Możesz spróbować zainstalować ważne aktualizacje z witryny Windows Update lub ręcznie zainstalować wymagany składnik udostępniany przez firmę Microsoft (KB2999226). https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows
+> Jeśli używasz systemu Windows starszego niż system Windows 10, funkcja pytań i odpowiedzi wymaga poniższej aktualizacji środowiska uruchomieniowego języka C. Możesz spróbować zainstalować ważne aktualizacje z witryny Windows Update lub ręcznie zainstalować wymagany składnik udostępniany przez firmę Microsoft (KB2999226). [https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows](https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows)
 >
 >
 
