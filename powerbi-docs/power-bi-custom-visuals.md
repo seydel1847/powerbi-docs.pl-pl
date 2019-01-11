@@ -8,19 +8,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.subservice: powerbi-custom-visuals
-ms.date: 11/06/2018
+ms.date: 12/18/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 4d38cf108a4c2e863811cfee68fc2d0b95c1990e
-ms.sourcegitcommit: 88ae40a25ea54ef7153885dd04ef57d12522d4e1
+ms.openlocfilehash: 0d634d7fc7753f7aaaf7d7118cfad1ab90b6e82a
+ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54056046"
+ms.lasthandoff: 01/08/2019
+ms.locfileid: "54072249"
 ---
 # <a name="custom-visuals-in-power-bi"></a>Wizualizacje niestandardowe w usłudze Power BI
 
-Podczas tworzenia lub edytowania raportu usługi Power BI dostępnych jest wiele rodzajów wizualizacji. Te wizualizacje wyświetlane są w okienku **Wizualizacje**. Gdy pobierasz program Power BI Desktop lub otwierasz usługę Power BI (app.powerbi.com), ten zestaw wizualizacji jest już dostępny.
+Podczas tworzenia lub edytowania raportu usługi Power BI dostępnych jest wiele rodzajów wizualizacji. Te wizualizacje wyświetlane są w okienku **Wizualizacje**. Gdy pobierasz program [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) lub otwierasz [usługę Power BI](https://app.powerbi.com), ten zestaw wizualizacji jest już dostępny jako „wstępnie zapakowany”.
 
 ![wizualizacje](media/power-bi-custom-visuals/power-bi-visualizations.png)
 
@@ -31,7 +30,7 @@ Deweloperzy tworzą wizualizacje niestandardowe przy użyciu zestawu SDK wizuali
 Wizualizacje niestandardowe mogą występować w postaci trzech kanałów wdrażania:
 
 * Pliki wizualizacji niestandardowych
-* Wizualizacje organizacji
+* Wizualizacje organizacyjne
 * Wizualizacje platformy handlowej
 
 ## <a name="custom-visual-files"></a>Pliki wizualizacji niestandardowych
@@ -41,7 +40,7 @@ Wizualizacje niestandardowe to pakiety zawierające kod renderowania danych, kt�
 > [!WARNING]
 > Wizualizacja niestandardowa może zawierać kod zagrażający bezpieczeństwu lub prywatności. Przed jej zaimportowaniem do raportu upewnij się, że autor i źródło wizualizacji niestandardowej należą do zaufanych.
 
-## <a name="organization-visuals"></a>Wizualizacje organizacji
+## <a name="organizational-visuals"></a>Wizualizacje organizacyjne
 
 Administratorzy usługi Power BI mogą wdrażać wizualizacje niestandardowe w organizacji, umożliwiając autorom raportów łatwe odnajdowanie i używanie tych wizualizacji, które zostały przez niego zatwierdzone do użycia w organizacji. Dzięki temu administrator może wybierać określone wizualizacje niestandardowe do wdrożenia w organizacji oraz w prosty sposób nimi zarządzać (np. aktualizować wersje, wyłączać je i włączać). Autor raportu zyskuje prosty sposób odnajdowania wizualizacji, które są unikatowe dla organizacji, oraz bezproblemową obsługę aktualizacji wizualizacji.
 
@@ -74,7 +73,7 @@ Jesteś deweloperem internetowym i chcesz tworzyć własne wizualizacje oraz dod
 
     ![zaimportowana wizualizacja niestandardowa](media/power-bi-custom-visuals/power-bi-custom-visual-imported.png)
 
-### <a name="import-organization-visuals"></a>Importowanie wizualizacji organizacji
+### <a name="import-organizational-visuals"></a>Importowanie wizualizacji organizacyjnych
 
 1. Wybierz wielokropek u dołu okienka Wizualizacje.
 
@@ -132,7 +131,7 @@ Dostępne są dwie opcje pobierania i importowania wizualizacji niestandardowych
 
 ### <a name="download-and-import-custom-visuals-from-microsoft-appsource"></a>Pobieranie i importowanie wizualizacji niestandardowych z witryny AppSource firmy Microsoft
 
-1. Otwórz witrynę [Microsoft AppSource](https://appsource.microsoft.com) i wybierz kartę **Aplikacje**. 
+1. Otwórz witrynę [Microsoft AppSource](https://appsource.microsoft.com) i wybierz kartę **Aplikacje**.
 
     ![AppSource](media/power-bi-custom-visuals/power-bi-appsource-apps.png)
 
@@ -175,5 +174,9 @@ Aby uzyskać informacje dotyczące rozwiązywania problemów, odwiedź stronę [
 ## <a name="faq"></a>Często zadawane pytania
 
 Aby uzyskać więcej informacji i odpowiedzi na pytania, odwiedź stronę [często zadawanych pytań dotyczących wizualizacji niestandardowych usługi Power BI](power-bi-custom-visuals-faq.md#organizational-custom-visuals).
+
+## <a name="next-steps"></a>Następne kroki
+
+* [Wizualizacje w usłudze Power BI](visuals/power-bi-report-visualizations.md)
 
 Masz więcej pytań? [Odwiedź Społeczność usługi Power BI](http://community.powerbi.com/).

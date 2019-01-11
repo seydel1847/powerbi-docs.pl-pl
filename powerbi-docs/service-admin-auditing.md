@@ -11,30 +11,32 @@ ms.date: 11/16/2018
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: cb508681950cd5bb585da1208683deb31c8b6e64
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: d9cf6255cfa57790c13ee1fc9d3201860552863b
+ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53026827"
+ms.lasthandoff: 01/08/2019
+ms.locfileid: "54072364"
 ---
 # <a name="using-auditing-within-your-organization"></a>Korzystanie z inspekcji w ramach organizacji
 
 Wiedza na temat tego, kto wykonuje jakie akcje i na jakim elemencie w dzierżawie usługi Power BI może być niezbędna, aby pomóc organizacji w spełnianiu jej wymagań, np. zapewnianiu zgodności z przepisami i zarządzaniu rekordami. Funkcja inspekcji usługi Power BI umożliwia przeprowadzanie inspekcji czynności wykonywanych przez użytkowników, takich jak „Wyświetl raport” czy „Wyświetl pulpit nawigacyjny”. Nie można użyć funkcji inspekcji do przeprowadzania inspekcji uprawnień.
 
-Praca z funkcją inspekcji odbywa się w Centrum zgodności i zabezpieczeń usługi Office 365 lub w programie PowerShell. W tym artykule zostały omówione obydwie sytuacje. Dane inspekcji możesz filtrować według zakresu dat, użytkownika, pulpitu nawigacyjnego, raportu, zestawu danych i typu działania. Dodatkowo działania możesz pobrać w pliku csv (wartości rozdzielone przecinkami), aby je przeanalizować w trybie offline.
+Praca z funkcją inspekcji odbywa się w Centrum zgodności i zabezpieczeń usługi Office 365 lub w programie PowerShell. Inspekcja zależy od funkcjonalności programu Exchange Online, która jest automatycznie aprowizowana w celu obsługi usługi Power BI.
+
+Dane inspekcji możesz filtrować według zakresu dat, użytkownika, pulpitu nawigacyjnego, raportu, zestawu danych i typu działania. Dodatkowo działania możesz pobrać w pliku csv (wartości rozdzielone przecinkami), aby je przeanalizować w trybie offline.
 
 ## <a name="requirements"></a>Wymagania
 
 Aby uzyskać dostęp do dzienników inspekcji, musisz spełnić następujące wymagania:
 
-- Aby uzyskać dostęp do sekcji inspekcji w Centrum zabezpieczeń i zgodności usługi Office 365, musisz mieć licencję usługi Exchange Online (uwzględnioną w subskrypcjach E3 i E5 usługi Office 365 Enterprise).
+* Musisz być administratorem globalnym lub mieć przypisaną rolę Dzienniki inspekcji lub Dzienniki inspekcji tylko do wyświetlania w usłudze Exchange Online w celu uzyskania dostępu do dziennika inspekcji. Domyślnie te role są przypisane do grup ról Zarządzanie zgodnością i Zarządzanie organizacją na stronie **Uprawnienia** w centrum administracyjnym programu Exchange.
 
-- Musisz być administratorem globalnym lub mieć rolę administratora programu Exchange, która zapewnia dostęp do dziennika inspekcji. Role administratora programu Exchange są kontrolowane za pośrednictwem Centrum administracyjnego programu Exchange. Aby uzyskać więcej informacji, zobacz [Uprawnienia w usłudze Exchange Online](/exchange/permissions-exo/permissions-exo/).
+    Aby udostępnić konta inne niż administratora z dostępem do dziennika inspekcji, musisz dodać użytkownika jako członka do jednej z tych grup ról. Możesz również utworzyć niestandardową grupę ról w centrum administracyjnym programu Exchange, przypisać rolę Dzienniki inspekcji lub Dzienniki inspekcji tylko do wyświetlania do tej grupy, a następnie dodać konto inne niż konto administratora do nowej grupy ról. Aby uzyskać więcej informacji, zobacz [Manage role groups in Exchange Online](/Exchange/permissions-exo/role-groups) (Zarządzanie grupami ról w usłudze Exchange Online).
 
-- Jeśli masz dostęp do dziennika inspekcji, ale nie jesteś administratorem globalnym ani administratorem usługi Power BI, nie będziesz mieć dostępu do portalu administracyjnego usługi Power BI. W takim przypadku musisz uzyskać bezpośredni link do [Centrum zabezpieczeń i zgodności usługi Office 365](https://sip.protection.office.com/#/unifiedauditlog).
+    Jeśli nie możesz uzyskać dostępu do centrum administracyjnego programu Exchange z poziomu centrum administracyjnego usługi Office 365, przejdź do strony https://outlook.office365.com/ecp i zaloguj się przy użyciu poświadczeń.
 
-- Aby wyświetlić dzienniki inspekcji dla usługi Power BI w dzierżawie, wymagana jest w niej co najmniej jedna licencja skrzynki pocztowej programu Exchange.
+* Jeśli masz dostęp do dziennika inspekcji, ale nie jesteś administratorem globalnym ani administratorem usługi Power BI, nie będziesz mieć dostępu do portalu administracyjnego usługi Power BI. W takim przypadku musisz użyć bezpośredniego linku do [Centrum zabezpieczeń i zgodności usługi Office 365](https://sip.protection.office.com/#/unifiedauditlog).
 
 ## <a name="accessing-your-audit-logs"></a>Uzyskiwanie dostępu do dzienników inspekcji
 
@@ -51,8 +53,6 @@ Dzienniki inspekcji usługi Power BI są dostępne bezpośrednio za pośrednictw
 1. Wybierz opcję **Przejdź do Centrum administracyjnego usługi O365**.
 
    ![Przejdź do Centrum administracyjnego usługi O365](media/service-admin-auditing/audit-log-o365-admin-center.png)
-
-Aby zapewnić dostęp do dziennika inspekcji kontom bez uprawnień administratora, musisz przypisać uprawnienia w centrum administracyjnym usługi Exchange Online. Na przykład można przypisać użytkownika do istniejącej grupy ról, takiej jak Zarządzanie organizacją, lub utworzyć nową grupę ról z rolą Dzienniki inspekcji. Aby uzyskać więcej informacji, zobacz [Uprawnienia w usłudze Exchange Online](/exchange/permissions-exo/permissions-exo/).
 
 ## <a name="search-only-power-bi-activities"></a>Wyszukiwanie tylko działań usługi Power BI
 
@@ -119,9 +119,7 @@ Aby wyeksportować dziennik inspekcji usługi Power BI do pliku csv, wykonaj pon
 
 ## <a name="use-powershell-to-search-audit-logs"></a>Używanie programu PowerShell do wyszukiwania dzienników inspekcji
 
-Za pomocą programu PowerShell można uzyskiwać również dostęp do dzienników inspekcji na podstawie identyfikatora logowania. Poniższy przykład pokazuje, jak ściągać wpisy dziennika inspekcji usługi Power BI za pomocą polecenia [Search-UnifiedAuditLog](/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog?view=exchange-ps/).
-
-Aby używać polecenia [New-PSSession](/powershell/module/microsoft.powershell.core/new-pssession/), Twoje konto musi mieć przypisaną licencję usługi Exchange Online i musisz mieć dostęp do dziennika inspekcji swojej dzierżawy. Aby uzyskać więcej informacji dotyczących nawiązywania połączenia z usługą Exchange Online, zobacz [CŁączenie z programem PowerShell usługi Exchange Online](/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell/).
+Za pomocą programu PowerShell można uzyskiwać również dostęp do dzienników inspekcji na podstawie identyfikatora logowania. Poniższy przykład pokazuje, jak połączyć się z programem PowerShell w usłudze Exchange Online i ściągać wpisy dziennika inspekcji usługi Power BI za pomocą polecenia [Search-UnifiedAuditLog](/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog?view=exchange-ps/). Aby uruchomić skrypt, musisz mieć przypisane odpowiednie uprawnienia zgodnie z opisem w sekcji [Wymagania](#requirements).
 
 ```powershell
 Set-ExecutionPolicy RemoteSigned
@@ -134,7 +132,7 @@ Import-PSSession $Session
 Search-UnifiedAuditLog -StartDate 9/11/2018 -EndDate 9/15/2018 -RecordType PowerBI -ResultSize 1000 | Format-Table | More
 ```
 
-Inny przykład użycia programu PowerShell z dziennikami inspekcji można znaleźć w artykule [Using Power BI audit log and PowerShell to assign Power BI Pro licenses](https://powerbi.microsoft.com/blog/using-power-bi-audit-log-and-powershell-to-assign-power-bi-pro-licenses/) (Używanie dziennika inspekcji usługi Power BI i programu PowerShell do przypisywania licencji usługi Power BI Pro).
+Aby uzyskać więcej informacji dotyczących nawiązywania połączenia z usługą Exchange Online, zobacz [CŁączenie z programem PowerShell usługi Exchange Online](/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell/). Inny przykład użycia programu PowerShell z dziennikami inspekcji można znaleźć w artykule [Using Power BI audit log and PowerShell to assign Power BI Pro licenses](https://powerbi.microsoft.com/blog/using-power-bi-audit-log-and-powershell-to-assign-power-bi-pro-licenses/) (Używanie dziennika inspekcji usługi Power BI i programu PowerShell do przypisywania licencji usługi Power BI Pro).
 
 ## <a name="activities-audited-by-power-bi"></a>Działania poddawane inspekcji przez usługę Power BI
 

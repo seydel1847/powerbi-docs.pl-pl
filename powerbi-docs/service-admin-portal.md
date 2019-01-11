@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 10/30/2018
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 6fff11d37b0f099effeafb6b88dbfa68af88f3d6
-ms.sourcegitcommit: f5e39e9ead37445bbeab795890b3d80633383032
+ms.openlocfilehash: e83c853ac1c3fc7c7d4d5e79c9f6be965d880361
+ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/21/2018
-ms.locfileid: "53735574"
+ms.lasthandoff: 01/08/2019
+ms.locfileid: "54072295"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Administrowanie usługą Power BI w portalu administracyjnym
 
@@ -44,7 +44,7 @@ Portal zawiera siedem kart. W pozostałej części tego artykułu przedstawiono 
 * [Ustawienia dzierżawy](#tenant-settings)
 * [Ustawienia — wersja Premium](#premium-settings)
 * [Kody osadzania](#embed-codes)
-* [Organization visuals](#organization-visuals) (Wizualizacje organizacji)
+* [Wizualizacje organizacyjne](#organization-visuals)
 
 ## <a name="usage-metrics"></a>Metryki użycia
 
@@ -329,9 +329,9 @@ Jako administrator możesz wyświetlać kody osadzania, które są generowane dl
 
 ![Kody osadzania w portalu administracyjnym usługi Power BI](media/service-admin-portal/embed-codes.png)
 
-## <a name="organization-visuals"></a>Wizualizacje organizacji
+## <a name="organizational-visuals"></a>Wizualizacje organizacyjne
 
-Karta **Wizualizacje organizacji** umożliwia wdrażanie wizualizacji niestandardowych i zarządzanie nimi wewnątrz organizacji. Dzięki wizualizacjom organizacji można łatwo wdrażać własne wizualizacje w organizacji. Autorzy raportów mogą je następnie odnajdywać i importować do swoich raportów z poziomu programu Power BI Desktop. [Dowiedz się więcej](power-bi-custom-visuals-organization.md)
+Karta **Wizualizacje organizacyjne** umożliwia wdrażanie wizualizacji niestandardowych i zarządzanie nimi wewnątrz organizacji. Dzięki wizualizacjom organizacji można łatwo wdrażać własne wizualizacje w organizacji. Autorzy raportów mogą je następnie odnajdywać i importować do swoich raportów z poziomu programu Power BI Desktop. [Dowiedz się więcej](power-bi-custom-visuals-organization.md)
 
 > [!WARNING]
 > Wizualizacja niestandardowa może zawierać kod zagrażający bezpieczeństwu lub prywatności. Przed jej wdrożeniem w repozytorium organizacji upewnij się, że autor i źródło wizualizacji niestandardowej należą do zaufanych.

@@ -11,24 +11,24 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 08/21/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: fedfbd8da9b0582c84224ef846cd0ba1c14d0683
-ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
+ms.openlocfilehash: 73350a579096e4126ea2f65654a7d1ed7a4980c1
+ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51223242"
+ms.lasthandoff: 01/08/2019
+ms.locfileid: "54072272"
 ---
 # <a name="visualizations-in-power-bi-reports"></a>Wizualizacje w raportach usługi Power BI
 
-Wizualizacje prezentują szczegółowe informacje, które zostały odnalezione w danych. Raport usługi Power BI może zawierać jedną stronę z pojedynczą wizualizacją lub wiele stron pełnych różnych wizualizacji. W usłudze Power BI wizualizacje można [przypinać z raportów do pulpitów nawigacyjnych](../service-dashboard-pin-tile-from-report.md). 
+Wizualizacje prezentują szczegółowe informacje, które zostały odnalezione w danych. Raport usługi Power BI może zawierać jedną stronę z pojedynczą wizualizacją lub wiele stron pełnych różnych wizualizacji. W usłudze Power BI wizualizacje można [przypinać z raportów do pulpitów nawigacyjnych](../service-dashboard-pin-tile-from-report.md).
 
 Ważne jest rozróżnienie między *twórcami* raportów i ich *użytkownikami*. Jeśli jesteś osobą tworzącą lub modyfikującą raport, jesteś jego twórcą.  Twórcy mają uprawnienia do edycji raportu i jego podstawowego zestawu danych. W programie Power BI Desktop oznacza to, że można otwierać zestaw danych w widoku Dane i tworzyć wizualizacje w widoku Raport. W usłudze Power BI oznacza to, że można otwierać zestaw danych lub raport w edytorze raportów w [widoku do edycji](../consumer/end-user-reading-view.md). Jeśli raport lub pulpit nawigacyjny [został Ci udostępniony](../consumer/end-user-shared-with-me.md), jesteś **użytkownikiem** raportu. W takiej sytuacji możesz wyświetlać raport i jego wizualizacje oraz wchodzić z nimi w interakcje, ale nie możesz zapisywać zmian.
 
-Wiele różnych typów wizualizacji jest dostępnych bezpośrednio w okienku WIZUALIZACJE usługi Power BI. 
+Wiele różnych typów wizualizacji jest dostępnych bezpośrednio w okienku WIZUALIZACJE usługi Power BI.
 
 ![](media/power-bi-report-visualizations/power-bi-templates.png)
 
-Jeśli chcesz mieć jeszcze większy wybór, odwiedź [witrynę społeczności usługi Microsoft AppSource](https://appsource.microsoft.com), aby znaleźć i pobrać [wizualizacje niestandardowe](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals&page=1) udostępnione przez firmę Microsoft i społeczność.    
+Jeśli chcesz mieć jeszcze większy wybór, odwiedź [witrynę społeczności usługi Microsoft AppSource](https://appsource.microsoft.com), aby znaleźć i [pobrać](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) [wizualizacje niestandardowe](../developer/custom-visual-develop-tutorial.md) udostępnione przez firmę Microsoft i społeczność.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SYk_gWrtKvM?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
@@ -41,7 +41,7 @@ Jeśli chcesz mieć jeszcze większy wybór, odwiedź [witrynę społeczności u
 
 ## <a name="upload-a-custom-visualization-and-use-it-in-power-bi"></a>Przekazywanie niestandardowych wizualizacji i używanie ich w usłudze Power BI
 
-Dodaj wizualizację niestandardową utworzoną samodzielnie lub znalezioną w [witrynie społeczności usługi Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals). Jesteś osobą kreatywną? Przejrzyj nasze zasoby kodu źródłowego i użyj naszych [narzędzi programistycznych](../developer/custom-visual-develop-tutorial.md) w celu utworzenia nowego typu wizualizacji i [udostępnienia go społeczności](../developer/office-store.md)
+Dodaj wizualizację niestandardową utworzoną samodzielnie lub znalezioną w [witrynie społeczności usługi Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals). Jesteś osobą kreatywną? Przejrzyj nasze zasoby kodu źródłowego i użyj naszych [narzędzi programistycznych](../developer/custom-visual-develop-tutorial.md) w celu utworzenia nowego typu wizualizacji i [udostępnienia go społeczności](../developer/office-store.md). Aby uzyskać więcej informacji na temat projektowania wizualizacji niestandardowej, zobacz temat [Tworzenie wizualizacji niestandardowej w usłudze Power BI](../developer/custom-visual-develop-tutorial.md).
 
 ## <a name="change-the-visualization-type"></a>Zmienianie typu wizualizacji
 
@@ -53,4 +53,5 @@ W usłudze Power BI po odpowiednim skonfigurowaniu wizualizacji możesz [przypi�
 
 ## <a name="next-steps"></a>Następne kroki
 
-[Typy wizualizacji w usłudze Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
+* [Typy wizualizacji w usłudze Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
+* [Wizualizacje niestandardowe](../power-bi-custom-visuals.md)

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 01/03/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 92af01b7020f734f286d927650e58a5fea5d8047
-ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
+ms.openlocfilehash: d9cd9c812aa2fdd1d336dbd63ea280516a96e4d9
+ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "53180834"
+ms.lasthandoff: 01/08/2019
+ms.locfileid: "54072226"
 ---
 # <a name="self-service-data-prep-in-power-bi-preview"></a>Przygotowywanie danych samoobsługi w usłudze Power BI (wersja zapoznawcza)
 
@@ -92,7 +92,7 @@ W poniższej tabeli opisano funkcje przepływu danych i ich możliwości w przyp
 |Połączone jednostki przepływu danych| |        +|
 |Znormalizowany schemat/wbudowana obsługa modelu Common Data Model|  +|  +|
 
-
+Aby uzyskać więcej informacji na temat sposobu włączania obciążeń przepływów danych w ramach pojemności Premium, zobacz artykuł dotyczący [konfigurowania obciążeń](service-admin-premium-manage.md#configure-workloads) dla usługi Power BI Premium.
 
 ## <a name="summary-of-self-service-data-prep-for-big-data-in-power-bi"></a>Podsumowanie procesu przygotowywania danych samoobsługi dla danych big data w usłudze Power BI
 Jak wspomniano wcześniej, w tym artykule, istnieje wiele scenariuszy i przykładów, w których **przepływy danych** umożliwiają skuteczniejsze sprawowanie kontroli — i szybsze uzyskiwanie szczegółowych informacji — na podstawie własnych danych biznesowych. Dzięki użyciu standardowego modelu (schematu) danych zdefiniowanego przez model Common Data Model przepływy danych mogą importować cenne dane biznesowe i w bardzo krótkim czasie przygotować dane do modelowania i tworzenia szczegółowych informacji związanych z analizą biznesową, których tworzenie zajmowało kiedyś miesiące lub dłużej. 

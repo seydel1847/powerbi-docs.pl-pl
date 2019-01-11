@@ -8,13 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
+ms.subservice: powerbi-custom-visuals
 ms.date: 11/26/2018
-ms.openlocfilehash: 9ef7890c6f80845a9e6d1bd02e35778ed866ff54
-ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
+ms.openlocfilehash: 2b7a71baafd8ec2ef839aaca95529221c642357f
+ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "52332222"
+ms.lasthandoff: 01/08/2019
+ms.locfileid: "54072180"
 ---
 # <a name="guidelines-for-power-bi-visuals-with-additional-purchases"></a>Wskazówki dotyczące wizualizacji usługi Power BI wymagająych dodatkowego zakupu
 
@@ -25,7 +26,7 @@ Do niedawna na platformie **Marketplace (AppSource)** akceptowane były tylko be
 
 ## <a name="whats-changing-in-the-submission-process"></a>Co ulega zmianie w procesie przesyłania?
 
-Deweloperzy mogą przekazywać swoje wizualizacje zawierające funkcje wymagające zakupu w aplikacji do witryny AppSource za pośrednictwem pulpitu nawigacyjnego sprzedawcy, tak samo, jak w przypadku wizualizacji bezpłatnych. Aby wskazać, że przekazywana wizualizacja zawiera funkcje wymagające zakupu w aplikacji, deweloperzy powinni w uwagach na pulpicie nawigacyjnym sprzedawcy wpisać „Visual with in-app purchases” (Wizualizacja z zakupami w aplikacji). Ponadto deweloperzy muszą przekazać klucz licencji lub token, umożliwiający zespołowi weryfikacyjnemu weryfikację funkcji wymagających zakupu w aplikacji. Po weryfikacji i zatwierdzeniu wizualizacji będzie ona widoczna w witrynie AppSource z adnotacją „Może być konieczny dodatkowy zakup” w sekcji zawierającej opcje ceny.
+Deweloperzy mogą przekazywać swoje wizualizacje zawierające funkcje wymagające zakupu w aplikacji do witryny AppSource za pośrednictwem pulpitu nawigacyjnego sprzedawcy, tak samo, jak w przypadku wizualizacji bezpłatnych. Aby wskazać, że przekazywana wizualizacja zawiera funkcje wymagające zakupu w aplikacji, deweloperzy powinni w uwagach na pulpicie nawigacyjnym sprzedawcy wpisać: „Visual with in-app purchase” (Wizualizacja z zakupami w aplikacji). Ponadto deweloperzy muszą przekazać klucz licencji lub token, umożliwiający zespołowi weryfikacyjnemu weryfikację funkcji wymagających zakupu w aplikacji. Po weryfikacji i zatwierdzeniu wizualizacji będzie ona widoczna w witrynie AppSource z adnotacją „Może być konieczny dodatkowy zakup” w sekcji zawierającej opcje ceny.
 
 ## <a name="what-is-a-power-bi-visual-with-iap-features"></a>Co to jest wizualizacja usługi Power BI zawierająca funkcje wymagające zakupu w aplikacji?
 
@@ -59,6 +60,10 @@ Strona docelowa pozwala wyjaśnić użytkownikom, w jaki sposób mogą korzysta�
 ### <a name="license-key-and-token"></a>Klucz licencji i token
 
 Dla wygody użytkowników dodaj pola związane z kluczem licencji lub tokenem w górnej części okienka Formatowanie.
+
+## <a name="faq"></a>Często zadawane pytania
+
+Aby uzyskać więcej informacji i odpowiedzi na pytania, odwiedź stronę [często zadawanych pytań dotyczących wizualizacji z dodatkowymi zakupami](https://docs.microsoft.com/en-us/power-bi/power-bi-custom-visuals-faq#visuals-with-additional-purchases).
 
 ## <a name="next-steps"></a>Następne kroki
 
