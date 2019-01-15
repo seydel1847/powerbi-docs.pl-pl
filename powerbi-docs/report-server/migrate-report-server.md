@@ -5,16 +5,16 @@ author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 09/05/2017
 ms.author: maghan
-ms.openlocfilehash: 0bfad6dba38cce4bd170bb3f3bd7f9a7877b6174
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 5093541f37e48469ab1b1f3f9d835788d6fcff3a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34480939"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54278382"
 ---
 # <a name="migrate-a-report-server-installation"></a>Migrowanie instalacji serwera raportów
 Dowiedz się, jak przeprowadzić migrację istniejącego wystąpienia usług SQL Server Reporting Services (SSRS) do wystąpienia Serwera raportów usługi Power BI.

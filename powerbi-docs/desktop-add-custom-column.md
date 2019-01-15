@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 3ea3aa22a2ab76df115c1b4784d74dedfdf7dbf0
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: 884723ed65e5379d0d3b79828fe22000b9b0283b
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578663"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54287191"
 ---
 # <a name="add-a-custom-column-in-power-bi-desktop"></a>Dodawanie kolumny niestandardowej w programie Power BI Desktop
 Nową niestandardową kolumnę danych możesz łatwo dodać do swojego modelu, posługując się **Edytorem zapytań** w programie **Power BI Desktop**. Niestandardową kolumnę możesz utworzyć za pomocą łatwych przycisków do tworzenia [formuł M](https://msdn.microsoft.com/library/mt270235.aspx) definiujących kolumnę niestandardową. Formuła M ma [kompleksowy zestaw zawartości referencyjnej funkcji](https://msdn.microsoft.com/library/mt779182.aspx). 

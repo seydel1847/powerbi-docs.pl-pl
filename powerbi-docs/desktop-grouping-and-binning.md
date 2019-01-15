@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 64ec167a295255a6813244ef6cb222b4eccb50f3
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: b4aeb04958ef6f4c8454a022198232d94c14b7b6
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53025247"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54284247"
 ---
 # <a name="use-grouping-and-binning-in-power-bi-desktop"></a>Używanie grupowania i kwantowania w programie Power BI Desktop
 Podczas tworzenia wizualizacji w programie **Power BI Desktop** dane są agregowane we fragmenty (czyli grupy) na podstawie wartości znalezionych w danych bazowych. W większości przypadków taka organizacja jest wystarczająca, ale mogą wystąpić sytuacje, kiedy zajdzie potrzeba doprecyzowania sposobu prezentowania tych fragmentów. Można na przykład umieścić trzy kategorie produktów w jednej większej kategorii (jednej *grupie*). Dane dotyczące sprzedaży można również podzielić na pojemniki o rozmiarach 1 000 000 dolarów, zamiast wynikającego z równego podziału rozmiaru 923 983 dolarów.

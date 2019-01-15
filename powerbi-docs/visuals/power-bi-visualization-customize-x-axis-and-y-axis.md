@@ -6,17 +6,17 @@ manager: kvivek
 ms.reviewer: ''
 featuredvideoid: 9DeAKM4SNJM
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 62a8ae907b01c8309aee101aa074e9bfb72b207d
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: c6395785c3d3e386aa2ac735439a265f5fe3fb02
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51265914"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54287007"
 ---
 # <a name="customize-x-axis-and-y-axis-properties"></a>Dostosowywanie właściwości osi X i Y
 W tym samouczku poznasz różne sposoby na dostosowywanie osi X i Y wizualizacji. Nie wszystkie wizualizacje mają osie i nie wszystkie można dostosowywać. Na przykład wykresy kołowe nie mają osi. Opcje dostosowywania różnią się w zależności od wizualizacji, a liczba dostępnych opcji jest zbyt duża, aby można je opisać w ramach jednego artykułu. Przyjrzymy się niektórym z najczęściej używanych dostosowań osi i opiszemy szerzej, jak korzystać z karty formatowania wizualizacji na kanwie raportu usługi Power BI.  

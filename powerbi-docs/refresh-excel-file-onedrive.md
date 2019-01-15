@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: e256da8530681d8eea6f41746e7a0c0885e4b91b
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 57aa5afe32b8f65805ef4be71ded176f34aefd6e
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670223"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296023"
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-onedrive-or-sharepoint-online"></a>Odświeżanie zestawu danych utworzonego na skoroszytu programu Excel w usłudze OneDrive lub SharePoint Online
 Możliwe jest importowanie skoroszytów programu Excel przechowywanych na maszynie lokalnej lub w magazynie w chmurze, takim jak usługa OneDrive dla Firm lub SharePoint Online. Przyjrzymy się zaletom korzystania z magazynu w chmurze w przypadku plików programu Excel. Aby uzyskać więcej informacji o sposobie importowania plików programu Excel do usługi Power BI, zobacz [Pobieranie danych z plików skoroszytów programu Excel](service-excel-workbook-files.md).
@@ -43,7 +43,7 @@ W usłudze Power BI funkcje Odśwież teraz i Zaplanuj odświeżanie są obsług
 > 
 
 ## <a name="onedrive-or-onedrive-for-business-whats-the-difference"></a>Usługa OneDrive lub OneDrive dla Firm. Jaka jest różnica?
-Jeśli masz zarówno osobistą usługę OneDrive, jak i OneDrive dla Firm, zalecane jest przechowywanie wszelkich plików, które chcesz zaimportować do usługi Power BI, w usłudze OneDrive dla Firm. Oto dlaczego: prawdopodobnie używasz dwóch różnych kont do logowania się do nich.
+Jeśli masz zarówno osobistą usługę OneDrive, jak i OneDrive dla Firm, zalecane jest przechowywanie wszelkich plików, które chcesz zaimportować do usługi Power BI, w usłudze OneDrive dla Firm. Oto dlaczego: Prawdopodobnie używasz dwóch różnych kont do logowania się do nich.
 
 Nawiązywanie połączenia z usługą OneDrive dla Firm w usłudze Power BI jest zwykle bezproblemowe, ponieważ to samo konto, którego używasz do logowania się do usługi Power BI, często jest kontem używanym do logowania się do usługi OneDrive dla Firm. Jednak w przypadku osobistej usługi OneDrive najprawdopodobniej logujesz się przy użyciu innego [konta Microsoft](https://account.microsoft.com).
 

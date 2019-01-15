@@ -6,16 +6,16 @@ ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-admin
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 12/13/2018
 LocalizationGroup: Premium
-ms.openlocfilehash: 250c8b28e4ee9e8b29e2db8195f7883d11708806
-ms.sourcegitcommit: 6c6aa214dc36c26a01b29e823598d217a3e2b8a1
+ms.openlocfilehash: e8e69cdacb9ee54cdf19724c590f994f66c4dff7
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/14/2018
-ms.locfileid: "53382248"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54290641"
 ---
 # <a name="monitor-power-bi-premium-and-power-bi-embedded-capacities"></a>Monitorowanie pojemności w usługach Power BI Premium i Power BI Embedded
 
@@ -79,11 +79,11 @@ Kliknij pulpit nawigacyjny, aby przejść do raportu źródłowego. Raport skła
 
 Na poszczególnych kartach możesz filtrować metryki według pojemności i zakresu dat. Jeśli nie zostaną wybrane żadne filtry, w raporcie będą domyślnie wyświetlane metryki z poprzedniego tygodnia dla wszystkich pojemności, które raportują metryki.
 
-#### <a name="datasets-tab"></a>Karta Zestawy danych
+#### <a name="datasets-tab"></a>Karta Zbiory danych
 
 Użyj przycisków w górnej części karty **Zestawy danych**, aby przejść do różnych obszarów: **Podsumowanie**, **Odświeżenia**, **Czasy trwania zapytań**, **Oczekiwania zapytań** i **Zestawy danych**.
 
-![Karta Zestawy danych](media/service-admin-premium-monitor-capacity/datasets-tab.png)
+![Karta Zbiory danych](media/service-admin-premium-monitor-capacity/datasets-tab.png)
 
 ##### <a name="refreshes-area"></a>Obszar Odświeżenia
 

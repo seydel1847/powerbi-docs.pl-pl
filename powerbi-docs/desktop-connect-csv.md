@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: d20714536ae7556b96b86638671f43896deb5533
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: a147a071c4d93150261847e5156848395482aa30
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53025079"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285443"
 ---
 # <a name="connect-to-csv-files-in-power-bi-desktop"></a>Łączenie się z plikami CSV w programie Power BI Desktop
 Łączenie się z plikiem wartości rozdzielanych przecinkami (*CSV*) z programu Power BI Desktop jest bardzo podobne do łączenia się ze skoroszytem programu Excel. Obydwie te operacje są łatwe. Ten artykuł zawiera czynności łączenia się z dowolnym plikiem CSV, do którego masz dostęp.

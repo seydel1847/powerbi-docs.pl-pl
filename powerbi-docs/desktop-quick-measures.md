@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 19fdadb6476dab9eda0fa5c76f17680cbd7b4cfe
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: 5a436a276a68b2cade6a1622a54590bc379cebd8
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53026419"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54283465"
 ---
 # <a name="use-quick-measures-to-easily-perform-common-and-powerful-calculations"></a>Łatwe wykonywanie typowych i zaawansowanych obliczeń przy użyciu szybkich miar
 **Szybkie miary** umożliwiają łatwe i szybkie wykonywania typowych i zaawansowanych obliczeń. **Szybka miara** uruchamia zestaw poleceń języka DAX w tle (nie musisz pisać formuł DAX — są już gotowe) w oparciu o dane wprowadzone w oknie dialogowym, a następnie przedstawia wyniki do użycia w raporcie. Ponadto możesz zobaczyć formuły DAX wykonywane przez Szybką miarę i szybko zrozumieć lub rozszerzyć swoją wiedzę o języku DAX.

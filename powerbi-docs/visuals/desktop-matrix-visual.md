@@ -5,17 +5,17 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/05/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 123cb794a1ba307439a47bdb949e2c76297e7ba2
-ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
+ms.openlocfilehash: acd2ad2afe9b380a8888dee7a4b9d4707d79b41f
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "52979555"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54279831"
 ---
 # <a name="use-the-matrix-visual-in-power-bi"></a>Używanie wizualizacji macierzy w usłudze Power BI
 Funkcja wizualizacji **Macierz** pozwala tworzyć wizualizacje macierzy (czasami określane jako *tabele*) w raportach programu **Power BI Desktop** i **usługi Power BI**, a także umożliwia wyróżnianie krzyżowe elementów w macierzy oraz w innych wizualizacjach. Ponadto możesz zaznaczać do wyróżnienia krzyżowego wiersze, kolumny, a nawet pojedyncze komórki. Zaznaczone pojedyncze komórki oraz zaznaczone obszary składające się z wielu komórek można kopiować i wklejać w innych aplikacjach. Aby jeszcze skuteczniej wykorzystać miejsce, wizualizacja macierzy obsługuje układ schodkowy.

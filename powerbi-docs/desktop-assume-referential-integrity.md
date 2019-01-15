@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 30aba9dc78008c933c34b24d1d367d18fb26c36c
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: 33e38505111c625c4325a380b62309aea7170736
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578456"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54274495"
 ---
 # <a name="assume-referential-integrity-settings-in-power-bi-desktop"></a>Ustawienie Przyjmij integralność referencyjną w programie Power BI Desktop
 Podczas łączenia się ze źródłem danych za pomocą **zapytania bezpośredniego**, możesz użyć opcji **Przyjmij integralność referencyjną**, aby umożliwić wykonywanie wydajniejszych zapytań kierowanych do źródła danych. Ta funkcja ma kilka wymagań co do danych bazowych i jest dostępna tylko podczas korzystania z **zapytań bezpośrednich**.
