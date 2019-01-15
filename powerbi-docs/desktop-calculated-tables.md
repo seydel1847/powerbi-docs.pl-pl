@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: efb936a4fadbd45c3d9fce809963415bb27e321e
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: 10264540a1ec0b8eb79e446590b86df855505d76
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578479"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54275185"
 ---
 # <a name="using-calculated-tables-in-power-bi-desktop"></a>Używanie tabel obliczeniowych w programie Power BI Desktop
 Przy użyciu tabel obliczeniowych można dodać nową tabelę do modelu. Jednak zamiast wykonywania zapytań i ładowania wartości do nowych kolumn tabeli ze źródła danych, tworzona jest formuła języka DAX (Data Analysis Expressions) definiująca wartości w tabeli. W programie Power BI Desktop tabele obliczeniowe są tworzone za pomocą funkcji Nowa tabela w widoku raportu lub widoku danych.

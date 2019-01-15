@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: df4a77550de49f74e863ed07321525b1acdf2d86
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 495a33cbb8359a366008b7401988a5f2a24d09ee
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52669778"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54289031"
 ---
 # <a name="use-see-data-and-see-records-in-power-bi-desktop"></a>Używanie funkcji Pokaż dane i Pokaż rekordy w programie Power BI Desktop
 W programie **Power BI Desktop** możliwe jest przejście do szczegółów wizualizacji i wyświetlenie tekstowej reprezentacji odpowiednich danych lub poszczególnych rekordów danych dla wybranej wizualizacji. Te funkcje są czasami określane jako *kliknięcie*, *przejście* lub *przejście do szczegółów*.

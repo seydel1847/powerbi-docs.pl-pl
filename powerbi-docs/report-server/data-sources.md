@@ -5,16 +5,16 @@ author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/17/2018
 ms.author: maghan
-ms.openlocfilehash: 0f06d5c3742ea5187ff41f6f8974c8a81e5d1d33
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: de16c10a03654802e4c65bfa92e60259e2f9510d
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34310457"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291768"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Źródła danych raportów usługi Power BI na Serwerze raportów usługi Power BI
 Raporty usługi Power BI mogą łączyć się z kilkoma źródłami danych. Zależnie od sposobu użycia danych są dostępne różne źródła danych. Dane można zaimportować lub wykonywać względem nich zapytania bezpośrednio przy użyciu zapytania bezpośredniego lub połączenia na żywo z usługami SQL Server Analysis Services.
@@ -144,7 +144,7 @@ Serwer raportów usługi Power BI nie obsługuje uwierzytelniania OAuth na potrz
 | Źródło danych OData |Tak |Tak |Tak |Tak |
 | ODBC |Tak |Nie |Tak |Tak |
 | OLE DB |Tak |Nie |Tak |Tak |
-| Oracle Database |Nie |Nie |Tak |Tak |
+| Baza danych Oracle |Nie |Nie |Tak |Tak |
 | Baza danych PostgreSQL |Nie |Nie |Tak |Nie |
 | Usługa Power BI |Nie |Nie |Nie |Nie |
 | Skrypt języka R |Nie |Nie |Nie |Nie |
@@ -157,7 +157,7 @@ Serwer raportów usługi Power BI nie obsługuje uwierzytelniania OAuth na potrz
 | Lista usługi SharePoint Online |Nie |Nie |Nie |Nie |
 | Snowflake |Nie |Nie |Nie |Nie |
 | Baza danych Sybase |Nie |Nie |Tak |Tak |
-| Teradata Database |Nie |Nie |Tak |Tak |
+| Baza danych Teradata |Nie |Nie |Tak |Tak |
 | appFigures (beta) |Nie |Nie |Nie |Nie |
 | Baza danych Azure Analysis Services (beta) |Nie |Nie |Nie |Nie |
 | Azure Cosmos DB (beta) |Nie |Nie |Nie |Nie |
@@ -172,7 +172,7 @@ Serwer raportów usługi Power BI nie obsługuje uwierzytelniania OAuth na potrz
 | IBM Netezza (wersja beta) |Nie |Nie |Nie |Nie |
 | Kusto (beta) |Nie |Nie |Nie |Nie |
 | MailChimp (beta) |Nie |Nie |Nie |Nie |
-| Microsoft Azure Consumption Insights (beta) |Nie |Nie |Nie |Nie |
+| Microsoft Azure Consumption Insights (wersja beta) |Nie |Nie |Nie |Nie |
 | Mixpanel (beta) |Nie |Nie |Nie |Nie |
 | Planview Enterprise (beta) |Nie |Nie |Nie |Nie |
 | Projectplace (beta) |Nie |Nie |Nie |Nie |
@@ -201,10 +201,10 @@ Serwer raportów usługi Power BI nie obsługuje uwierzytelniania OAuth na potrz
 | SQL Server Analysis Services |Nie |Nie |Tak |Tak |Tak |
 | Azure SQL Database |Nie |Nie |Tak |Nie |Nie |
 | Azure SQL Data Warehouse |Nie |Nie |Tak |Nie |Nie |
-| Oracle Database |Nie |Nie |Tak |Tak |Tak |
+| Baza danych Oracle |Nie |Nie |Tak |Tak |Tak |
 | SAP Business Warehouse Server |Nie |Nie |Tak |Nie |Tak |
 | Baza danych SAP HANA |Nie |Nie |Tak |Tak |Nie |
-| Teradata Database |Nie |Nie |Tak |Tak |Tak |
+| Baza danych Teradata |Nie |Nie |Tak |Tak |Tak |
 
 
 ## <a name="next-steps"></a>Następne kroki

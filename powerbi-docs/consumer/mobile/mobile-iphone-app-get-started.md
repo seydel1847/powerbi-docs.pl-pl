@@ -1,20 +1,20 @@
 ---
 title: Wprowadzenie do aplikacji mobilnych usługi Power BI dla systemu iOS
 description: Dowiedz się, jak używać aplikacji mobilnej usługi Microsoft Power BI dla systemu iOS w usłudze Power BI, aby w dowolnym miejscu mieć dostęp do informacji biznesowych przechowywanych lokalnie i w chmurze.
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/27/2018
-ms.author: maggies
-ms.openlocfilehash: a09fc4471f9af3a9406dcbcdd80d5bcc7a3632f6
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.author: mshenhav
+ms.openlocfilehash: b0de20cc32c32360f4f37c70e673dba01740a860
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744400"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54281786"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>Wprowadzenie do aplikacji mobilnej usługi Power BI na urządzeniach z systemem iOS
 Aplikacja Microsoft Power BI dla systemu iOS na telefonie iPhone lub urządzeniu iPad albo iPod Touch obejmuje mobilne środowisko usługi Power BI, serwer raportów usługi Power BI oraz usługi Reporting Services. Możesz wyświetlać firmowe pulpity nawigacyjne i korzystać z nich lokalnie i w chmurze, niezależnie od tego, gdzie się znajdujesz, dzięki dostępowi mobilnemu na żywo, z obsługą dotykową. Przeglądaj dane w pulpitach nawigacyjnych i udostępniaj je współpracownikom w wiadomościach e-mail lub SMS. I zapewnij aktualność najświeższych danych w Twoim urządzeniu [Apple Watch](mobile-apple-watch.md).  

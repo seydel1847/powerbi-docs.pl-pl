@@ -1,20 +1,20 @@
 ---
 title: Skanowanie kodu kreskowego za pomocą telefonu iPhone z aplikacji mobilnej usługi Power BI
 description: Skanowanie kodów kreskowych w świecie rzeczywistym, aby przejść bezpośrednio do odfiltrowanych informacji analizy biznesowej w aplikacji mobilnej usługi Power BI.
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 10/13/2017
-ms.author: maggies
-ms.openlocfilehash: d221cfdc849a18ba934ebacaf58ef40999ac0117
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.author: mshenhav
+ms.openlocfilehash: 3fd2d4888f76490a01c0742e68e6820c7055326e
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46543318"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291354"
 ---
 # <a name="scan-a-barcode-with-your-iphone-from-the-power-bi-mobile-app"></a>Skanowanie kodu kreskowego za pomocą swojego telefonu iPhone z aplikacji mobilnej usługi Power BI
 Skanowanie kodów kreskowych w świecie rzeczywistym, aby przejść bezpośrednio do odfiltrowanych informacji analizy biznesowej w aplikacji mobilnej usługi Power BI.

@@ -5,16 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: report-builder
+ms.subservice: report-builder
 ms.topic: overview
 ms.date: 12/05/2018
 ms.author: maggies
-ms.openlocfilehash: d79299f469062ec74c49ff4b7e9edda26c3409a3
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: 7ce0e90e3166ce6f84c5e53e05d56e9fcc4e790d
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53026131"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54282845"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium-preview"></a>Czym są raporty podzielone na strony w usłudze Power BI Premium? (Wersja zapoznawcza)
 Raporty podzielone na strony, które przez długi czas stanowiły standardowy format w usługach SQL Server Reporting Services, są teraz dostępne w usłudze Power BI. Te raporty można drukować i udostępniać. Są one określane jako „podzielone na strony”, ponieważ dzięki swojemu formatowaniu mieszczą się doskonale na stronie. Raporty te zawierają wszystkie dane w tabeli, nawet jeśli tabela zajmuje wiele stron. Są one również określane jako „co do piksela” (ang. pixel perfect), ponieważ można dokładnie kontrolować układ ich stron. Raporty podzielone na strony są oparte na technologii raportów RDL dostępnej w usługach SQL Server Reporting Services. Report Builder to autonomiczne narzędzie do tworzenia raportów podzielonych na strony. 

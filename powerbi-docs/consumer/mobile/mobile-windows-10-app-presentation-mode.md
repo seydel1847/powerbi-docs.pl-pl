@@ -5,16 +5,16 @@ author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: mshenhav
-ms.openlocfilehash: 49a1d8386159966171b46801d3bfe3685b2a6bb2
-ms.sourcegitcommit: 9913c213d40b45ba83c6c3b3a7ef0b757800e3ad
+ms.openlocfilehash: e96095cd63a9f2bd01b17f16392319167ef3354c
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "53301763"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54274840"
 ---
 # <a name="view-reports-and-dashboards-in-presentation-mode-on-surface-hub-and-windows-10-devices"></a>Wyświetlanie raportów i pulpitów nawigacyjnych w trybie prezentacji na urządzeniu Surface Hub i urządzeniach z systemem Windows 10
 Tryb prezentacji służy do wyświetlania raportów i pulpitów nawigacyjnych w trybie pełnoekranowym na urządzeniach z systemem Windows 10 i na urządzeniu Surface Hub. 

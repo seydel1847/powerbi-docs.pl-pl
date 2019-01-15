@@ -1,20 +1,20 @@
 ---
 title: Wyświetlanie lokalnych raportów i kluczowych wskaźników wydajności w aplikacjach mobilnych Power BI
 description: Aplikacje mobilne usługi Power BI oferują mobilny dostęp na żywo z obsługą dotykową do lokalnych informacji biznesowych w usługach SQL Server Reporting Services i serwerze raportów usługi Power BI.
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/13/2018
-ms.author: maggies
-ms.openlocfilehash: fcc548829ae5a1a661ae55603544e25a51b0204c
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.author: mshenhav
+ms.openlocfilehash: c735b5e1abbed0c733ca4414e15fc44b741349d8
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44743181"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54287927"
 ---
 # <a name="view-on-premises-report-server-reports-and-kpis-in-the-power-bi-mobile-apps"></a>Wyświetlanie lokalnych raportów serwera raportów i wskaźników KPI w aplikacjach mobilnych usługi Power BI
 

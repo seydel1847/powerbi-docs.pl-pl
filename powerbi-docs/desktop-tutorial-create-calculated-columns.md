@@ -1,23 +1,23 @@
 ---
-title: 'Samouczek: tworzenie kolumn obliczeniowych w programie Power BI Desktop'
-description: 'Samouczek: tworzenie kolumn obliczeniowych w programie Power BI Desktop'
+title: 'Samouczek: Tworzenie kolumn obliczeniowych w programie Power BI Desktop'
+description: 'Samouczek: Tworzenie kolumn obliczeniowych w programie Power BI Desktop'
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: tutorial
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 296281f3077d805140b6759ab818be1daaca8a85
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: bfd892864b624bc992f77afa3b5ba887344d2eea
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578686"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54287766"
 ---
-# <a name="tutorial-create-calculated-columns-in-power-bi-desktop"></a>Samouczek: tworzenie kolumn obliczeniowych w programie Power BI Desktop
+# <a name="tutorial-create-calculated-columns-in-power-bi-desktop"></a>Samouczek: Tworzenie kolumn obliczeniowych w programie Power BI Desktop
 
 Czasami analizowane dane nie zawierają określonego pola, które jest potrzebne do uzyskania szukanych wyników. W tym momencie wkraczają *kolumny obliczeniowe*. Kolumny obliczeniowe używają formuł języka DAX (Data Analysis Expressions) do definiowania wartości kolumny — od zestawiania różnych wartości tekstowych z kilku różnych kolumn do obliczania wartości numerycznej na podstawie innych wartości. Załóżmy na przykład, że w Twoich danych znajdują się kolumny **Miasto** i **Województwo**, ale chcesz uzyskać jedno pole **Lokalizacja** zawierające obie te wartości razem, np. „Warszawa, Mazowieckie”. Dokładnie do tego służą kolumny obliczeniowe.
 

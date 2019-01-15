@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 99acb51369d805e907bf77752239320cb9236465
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: 7d087e8d6b643d836be865a48b9570066af1af6f
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53025990"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54274748"
 ---
 # <a name="use-an-external-r-ide-with-power-bi"></a>Używanie zewnętrznego środowiska IDE języka R z usługą Power BI
 W programie **Power BI Desktop** możesz za pomocą zewnętrznego środowiska IDE (zintegrowanego środowiska programistycznego) języka R tworzyć i dostosowywać skrypty języka R, a następnie używać tych skryptów w usłudze Power BI.

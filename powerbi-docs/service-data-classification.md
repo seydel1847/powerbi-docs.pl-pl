@@ -5,17 +5,17 @@ author: amandacofsky
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: amac
 LocalizationGroup: Dashboards
-ms.openlocfilehash: f08e4199af06a4a7fd74cb525e918a67a27165a8
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: b7d9bdf0982ea7ad4f57225e5a1eaf8c9da90b50
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34251327"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54276105"
 ---
 # <a name="dashboard-data-classification"></a>Klasyfikacja danych pulpitu nawigacyjnego
 Każdy pulpit nawigacyjny jest inny. W zależności od źródła danych, z którym nawiązywane jest połączenie, prawdopodobnie zauważysz, że Twoi współpracownicy, którym udostępniasz pulpit nawigacyjny, będą musieli podjąć inne kroki niż Ty, w zależności od poufności danych. Niektóre pulpity nawigacyjne nigdy nie powinny być udostępniane osobom spoza firmy lub drukowane, podczas gdy inne można udostępniać swobodnie. Korzystając z klasyfikacji danych pulpitu nawigacyjnego, możesz zwiększyć świadomość osób przeglądających pulpity nawigacyjne w zakresie poziomu zabezpieczeń, który należy zastosować. Możesz oznaczyć pulpity nawigacyjne przy użyciu klasyfikacji zdefiniowanych przez dział IT w firmie, aby każda osoba wyświetlająca zawartość mogła uzyskać te same informacje o poufności danych.

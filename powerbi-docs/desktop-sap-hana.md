@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 7f4ff77522f083c103210dce4cdc3a7cd2325ec5
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: 6e10c7d7d93fb3c7ec3b27726065a852e4a4a190
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53025155"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54278244"
 ---
 # <a name="use-sap-hana-in-power-bi-desktop"></a>Używanie platformy SAP HANA w programie Power BI Desktop
 Teraz program Power BI Desktop umożliwia uzyskiwanie dostępu do baz danych platformy **SAP HANA**. Aby używać platformy **SAP HANA**, na lokalnym komputerze klienckim musi być zainstalowany sterownik ODBC platformy SAP HANA w celu zapewnienia prawidłowego działania połączenia danych platformy **SAP HANA** z programem Power BI Desktop. Sterownik ODBC platformy SAP HANA możesz pobrać z witryny [SAP Software Download Center (Centrum pobierania oprogramowania SAP)](https://support.sap.com/swdc). W tej witrynie wyszukaj klienta SAP HANA dla komputerów z systemem Windows. Ponieważ struktura witryny **SAP Software Download Center** (Centrum pobierania oprogramowania SAP) jest często zmieniana, dokładniejsze wskazówki dotyczące nawigowania w tej witrynie są niedostępne.

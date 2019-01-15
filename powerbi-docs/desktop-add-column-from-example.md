@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2c092d75b6cc1dfb9e639f6421d6f1622f47d134
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: 02ef382ffa4199255612c4ae6c782a55efb2f7ff
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578548"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54281947"
 ---
 # <a name="add-a-column-from-an-example-in-power-bi-desktop"></a>Dodawanie kolumny z przykładu w programie Power BI Desktop
 Wersja programu **Power BI Desktop** wydana w kwietniu 2017 r. umożliwia dodawanie nowych kolumn danych do modelu przy użyciu **Edytora zapytań** przez wprowadzenie co najmniej jednej przykładowej wartości dla nowej kolumny. Możesz utworzyć nową przykładową kolumnę na podstawie bieżącego zaznaczenia lub na podstawie danych wejściowych wprowadzonych w oparciu o wszystkie (lub wybrane) kolumny w danej tabeli.

@@ -5,16 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: report-builder
+ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
 ms.author: maggies
-ms.openlocfilehash: 3c1340d9cae7e7002e8bbbdc3d6888e19b1ce7ff
-ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
+ms.openlocfilehash: d768edbbc57e52186fdb33e1aed9a3da76408963
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "52900203"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54275599"
 ---
 # <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service-preview"></a>Tworzenie osadzonego źródła danych dla raportów podzielonych na strony w usłudze Power BI (wersja zapoznawcza)
 Z tego artykułu dowiesz się, jak tworzyć i modyfikować osadzone źródło danych dla raportu podzielonego na strony w usłudze Power BI. Osadzone źródło danych jest definiowane w jednym raporcie i używane tylko w tym raporcie. Obecnie raporty podzielone na strony opublikowane w usłudze Power BI potrzebują osadzonych zestawów danych i osadzonych źródeł danych i mogą nawiązywać połączenia z następującymi źródłami danych:

@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e09c08780011ffaac7d37468e6018b079c41c669
-ms.sourcegitcommit: 298db44200b78b1281b3ae6dfe7cce7a89865ec9
+ms.openlocfilehash: f5fc52df86faa69683fa1e76f8893fb1d1a09ab9
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/13/2018
-ms.locfileid: "53329745"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54281165"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Źródła danych w programie Power BI Desktop
 Korzystając z programu Power BI Desktop, możesz nawiązywać połączenie z danymi z wielu różnych źródeł. Pełna lista dostępnych źródeł danych znajduje się w dolnej części tej strony.
@@ -128,7 +128,7 @@ Kategoria **Usługi online** udostępnia następujące połączenia danych:
 * Dynamics 365 Business Central
 * Dynamics 365 Business Central (wersja lokalna)
 * Common Data Service for Apps (wersja beta)
-* Microsoft Azure Consumption Insights (beta)
+* Microsoft Azure Consumption Insights (wersja beta)
 * Azure DevOps (wersja beta)
 * Azure DevOps Server (wersja beta)
 * Obiekty Salesforce

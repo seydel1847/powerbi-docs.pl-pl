@@ -1,20 +1,20 @@
 ---
 title: Wprowadzenie do aplikacji mobilnej Power BI dla urządzeń z systemem Android
 description: Dowiedz się, jak aplikacja mobilna systemu Android dla usługi Microsoft Power BI sprowadza usługę Power BI do Twojej kieszenie, aby w dowolnym miejscu mieć dostęp do informacji biznesowych przechowywanych lokalnie i w chmurze.
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
-ms.author: maggies
-ms.openlocfilehash: 4c11b65d8d9dcb4a0b07db6dcf0d264350f351bf
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.author: mshenhav
+ms.openlocfilehash: c5d6549c449c77cea709783b1634318e12fc2e52
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908767"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54289307"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>Wprowadzenie do aplikacji mobilnej Power BI dla urządzeń z systemem Android
 Aplikacja systemu Android dla usługi Microsoft Power BI obejmuje mobilne środowisko usługi Power BI, serwera raportów usługi Power BI oraz usług Reporting Services. Możesz wyświetlać firmowe pulpity nawigacyjne i korzystać z nich lokalnie i w chmurze, niezależnie od tego, gdzie się znajdujesz, dzięki dostępowi mobilnemu na żywo, z obsługą dotykową. Przeglądaj dane w pulpitach nawigacyjnych i udostępniaj je współpracownikom w wiadomościach e-mail lub SMS. 
@@ -32,7 +32,7 @@ Zobacz, [co nowego w aplikacjach mobilnych usługi Power BI](../../mobile-whats-
 
 ## <a name="prerequisites"></a>Wymagania wstępne
 
-### <a name="get-the-app"></a>Pobranie aplikacji
+### <a name="get-the-app"></a>Pobierz aplikację
 
 [Pobierz aplikację usługi Power BI dla systemu Android](http://go.microsoft.com/fwlink/?LinkID=544867) ze sklepu Google Play.
   

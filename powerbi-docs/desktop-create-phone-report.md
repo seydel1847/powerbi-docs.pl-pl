@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 64d3faf9fd720d1e50fa69b5ccd914e6b3ac1294
-ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
+ms.openlocfilehash: 8808391d0794ec4a487526cc5bbe4216fe0f75a6
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "53280908"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54275323"
 ---
 # <a name="create-reports-optimized-for-the-power-bi-mobile-apps"></a>Tworzenie raportów zoptymalizowanych pod kątem aplikacji mobilnych usługi Power BI
 Środowisko wyświetlania raportów w aplikacjach mobilnych na telefonie lub tablecie można ulepszyć. Utwórz raport w układzie pionowym przeznaczony specjalnie dla telefonów i tabletów. Optymalne wyświetlanie raportów możesz osiągnąć, dostosowując je w programie Power BI Desktop i usłudze Power BI przez zmianę rozmieszczenia i rozmiarów wizualizacji w układzie pionowym. Nie trzeba uwzględniać wszystkich wizualizacji. Ponadto można tworzyć [*dynamiczne* wizualizacje](#optimize-a-visual-for-any-size) i [dynamiczne fragmentatory](#enhance-slicers-to-to-work-well-in-phone-reports), które dostosowują swój rozmiar, gdy są wyświetlane w telefonie. Oprócz tego po dodaniu filtrów do raportu filtry te będą automatycznie wyświetlane w raporcie zoptymalizowanym. Czytelnicy raportu mogą je widzieć i filtrować raport za ich pomocą.

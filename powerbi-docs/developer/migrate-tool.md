@@ -5,16 +5,16 @@ author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/30/2018
 ms.author: maghan
-ms.openlocfilehash: b520eb2758088feadff963f86ddf310ae7a7ed8b
-ms.sourcegitcommit: 06f59902105c93700e71e913dff8453e221e4f82
+ms.openlocfilehash: cd88270c75b46267217147d8f02fc707eeef26ab
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/01/2018
-ms.locfileid: "39388645"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54290423"
 ---
 # <a name="power-bi-embedded-migration-tool"></a>Narzędzie do migracji usługi Power BI Embedded
 To narzędzie migracji może służyć do kopiowania raportów z usługi Power BI Embedded platformy Azure (PaaS) do usługi Power BI (SaaS).
@@ -137,7 +137,7 @@ Możesz kliknąć prawym przyciskiem myszy grupę i w razie potrzeby wybrać opc
 > 
 > 
 
-## <a name="step-2-download"></a>Krok 2. Pobieranie
+## <a name="step-2-download"></a>Krok 2. Pobierz
 Na karcie **Pobieranie** zostanie wyświetlona lista raportów i skojarzonych metadanych. Zobaczysz stan eksportu wraz ze stanem poprzedniego eksportu.
 
 ![](media/migrate-tool/migrate-tool-download-tab.png)
@@ -153,7 +153,7 @@ W przypadku pomyślnego pobrania zobaczysz stan *Gotowe* i będzie on wskazywać
 
 Po zakończeniu pobierania wybierz kartę **Tworzenie grup**.
 
-## <a name="step-3-create-groups"></a>Krok 3. Tworzenie grup
+## <a name="step-3-create-groups"></a>Krok 3. Utwórz grupy
 Po pobraniu dostępnych raportów możesz przejść do karty **Tworzenie grup**. Ta karta utworzy obszary robocze aplikacji w usłudze Power BI na podstawie planu migracji, który został utworzony. Utworzy ona obszar roboczy aplikacji o nazwie znajdującej się na karcie **Przekazywanie** w obszarze **Analizowanie i planowanie migracji**.
 
 ![](media/migrate-tool/migrate-tool-create-groups.png)
@@ -172,7 +172,7 @@ Aby sprawdzić, czy obszar roboczy aplikacji został utworzony, możesz zalogowa
 
 Po utworzeniu obszaru roboczego możesz przejść na kartę **Przekazywanie**.
 
-## <a name="step-4-upload"></a>Krok 4. Przekazywanie
+## <a name="step-4-upload"></a>Krok 4. Przekaż
 Na karcie **Przekazywanie** możesz przekazać raporty do usługi Power BI. Będzie widoczna lista raportów, które pobraliśmy na karcie Pobieranie, oraz nazwa grupy docelowej określona na podstawie planu migracji.
 
 ![](media/migrate-tool/migrate-tool-upload-tab.png)

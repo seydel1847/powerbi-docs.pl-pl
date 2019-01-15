@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3679a2f3ab98e1f54ead364e4ef4bf65d382a9d5
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: 9a0e87eca537fc8c22dffaad6a725dc949b2b121
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578594"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54275576"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Łączenie się z zestawami danych w usłudze Power BI z programu Power BI Desktop
 Możesz nawiązać połączenie na żywo z udostępnionym zestawem danych w usłudze Power BI i utworzyć wiele różnych raportów na podstawie tego samego zestawu danych. Oznacza to, że możesz utworzyć swój doskonały model danych w programie Power BI Desktop, opublikować go w usłudze Power BI, a następnie możesz sam utworzyć wiele różnych raportów (w oddzielnych plikach pbix) na podstawie tego samego, wspólnego modelu danych lub mogą to zrobić inni użytkownicy. Ta funkcja jest nazywana **Połączenie na żywo usługi Power BI**.

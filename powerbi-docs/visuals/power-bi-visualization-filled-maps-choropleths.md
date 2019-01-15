@@ -6,17 +6,17 @@ manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7cd2266ef8d0fd161bda1f9d91a1ceb7f4217675
-ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
+ms.openlocfilehash: 67055f855ad2872a7cf175aba85aefae7945f670
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "47448896"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54276312"
 ---
 # <a name="filled-maps-choropleths-in-power-bi"></a>Kartogramy w usłudze Power BI
 Kartogram używa cieniowania lub barwienia, lub wzorców do wyświetlania, jak wartość różni się w części lokalizacji geograficznej lub regionu.  Szybko wyświetlaj te względne różnice za pomocą cieniowania tych zakresów od jasnych (rzadsze/mniejsze) do ciemnych (częstsze/większe).    
@@ -45,7 +45,7 @@ Kartogramy są doskonałym wyborem:
 
 ### <a name="prerequisites"></a>Wymagania wstępne
 - Usługa Power BI lub program Power BI Desktop
-- Przykład Sales and Marketing
+- Próbka sprzedaży i marketingu
 
 Przykład w tym samouczku obejmuje usługę Power BI, a nie program Power BI Desktop.
 
