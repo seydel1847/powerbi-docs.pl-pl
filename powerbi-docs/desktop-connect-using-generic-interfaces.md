@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a76e287b957407bad98ceae92c5f6b39cde0b31d
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: c1671c820b6de4cddac169c67103168ac46ffc1f
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578571"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296051"
 ---
 # <a name="connect-to-data-using-generic-interfaces-in-power-bi-desktop"></a>Łączenie się z danymi przy użyciu interfejsów ogólnych w usłudze Power BI
 Możesz połączyć się z wieloma różnymi źródłami danych w programie **Power BI Desktop**, korzystając z wbudowanych łączników obejmujących różne rozwiązania od **Baz danych programu Access** po zasoby **Zendesk**, jak pokazano w oknie **Pobieranie danych**. Aby rozszerzyć opcje łączności, możesz też nawiązać połączenie z różnymi *innymi* źródłami danych, korzystając z interfejsów ogólnych (np. **ODBC** lub **interfejsy API REST**) wbudowanych w program **Power BI Desktop**.

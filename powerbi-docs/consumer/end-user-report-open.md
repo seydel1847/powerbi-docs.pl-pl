@@ -6,16 +6,16 @@ manager: kvivek
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
-ms.openlocfilehash: df28cd585998b8877a788e709eaf6b22474e6122
-ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
+ms.openlocfilehash: 004396150f0301dadee32bd08ac64ce5ae36fb17
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "53281058"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296598"
 ---
 # <a name="view-a-report-in-power-bi-service-for-consumers"></a>Wyświetlanie raportu w usłudze Power BI dla *użytkowników*
 Raport zawiera co najmniej jedną stronę wizualizacji. Raporty są tworzone przez *projektantów raportów* usługi Power BI i [udostępniane *użytkownikom* bezpośrednio](end-user-shared-with-me.md) lub jako część [aplikacji](end-user-apps.md). 

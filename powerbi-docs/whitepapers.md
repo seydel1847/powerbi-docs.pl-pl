@@ -5,16 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/06/2018
+ms.date: 01/09/2019
 ms.author: maggies
-ms.openlocfilehash: bff5e42b239fee572ea0a453301f154da3b999b3
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 76ea3250c3032c253b87f5f2b0713460a805787e
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51266098"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54295828"
 ---
 # <a name="whitepapers-for-power-bi"></a>Oficjalne dokumenty dla usługi Power BI
 
@@ -26,7 +26,7 @@ Oficjalne dokumenty pozwalają zapoznać się dokładniej z tematami dotyczącym
 | [Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper) |Opisuje usługę Power BI Premium, zarówno w momencie jej uruchomienia, jak i w zakresie planowanego rozwoju. | Październik 2017 |
 | [Planowanie i wdrażanie usługi Power BI Premium](https://aka.ms/Premium-Capacity-Planning-Deployment)| Ten dokument zawiera wskazówki i najlepsze rozwiązania dotyczące planowania i wdrażania pojemności Premium dla dokładnie zdefiniowanych obciążeń.| Listopad 2017 |
 | [Planowanie pojemności dla osadzonych funkcji analitycznych w usłudze Power BI Premium](https://aka.ms/pbiewhitepaper) |Ten dokument zawiera wskazówki dla deweloperów aplikacji/niezależnych dostawców oprogramowania pozwalające określić najbardziej odpowiednią pojemność w danej firmie. | Październik 2017 |
-| [Planowanie wdrożenia usługi Power BI Enterprise](https://aka.ms/pbienterprisedeploy) |Oficjalny dokument techniczny określający zagadnienia dotyczące właściwie wykonanego i bezpiecznie zorganizowanego wdrożenia usługi Power BI. | Lipiec 2018 r. |
+| [Planowanie wdrożenia usługi Power BI Enterprise](https://go.microsoft.com/fwlink/?linkid=2057861) |Oficjalny dokument techniczny określający zagadnienia dotyczące właściwie wykonanego i bezpiecznie zorganizowanego wdrożenia usługi Power BI. | Lipiec 2018 r. |
 | [Wskazówki dotyczące planowania wydajności serwera raportów usługi Power BI](report-server/capacity-planning.md) |Ten dokument zawiera wskazówki dotyczące planowania wydajności serwera raportów usługi Power BI przez udostępnianie wyników licznych testów obciążenia wykonywanych na serwerze raportów przy różnych obciążeniach. | Marzec 2018 |
 | [Zabezpieczenia](service-admin-power-bi-security.md) |Zawiera szczegółowy opis zabezpieczeń w usłudze Power BI. | Lipiec 2018 r. |
 | [Dystrybucja zawartości usługi Power BI do zewnętrznych użytkowników (gości) przy użyciu usługi Azure Active Directory B2B](https://aka.ms/powerbi-b2b-whitepaper)|Ten dokument opisuje sposób dystrybucji zawartości dla użytkowników spoza organizacji za pomocą integracji usługi Azure Active Directory Business-to-business (AAD B2B).| Marzec 2018 |
