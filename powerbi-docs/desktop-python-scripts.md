@@ -10,18 +10,26 @@ ms.topic: conceptual
 ms.date: 06/18/2018
 ms.author: otarb
 LocalizationGroup: Connect to data
-ms.openlocfilehash: d098b55367e4d8ff13dc2fd22593af00dffe611f
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 5eab760a3bfbb590a1a6242984aa1be88064409f
+ms.sourcegitcommit: a20825ebd0ef4c2cb77232e3dd0e9f8260cacf71
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54286939"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "54323956"
 ---
 # <a name="run-python-scripts-in-power-bi-desktop"></a>Uruchamianie skryptów języka Python w programie Power BI Desktop
 Skrypty języka Python można uruchamiać bezpośrednio w programie **Power BI Desktop** i importować wynikowe zestawy danych bezpośrednio do modelu danych w programie Power BI Desktop.
 
 ## <a name="install-python"></a>Instalowanie języka Python
 Aby uruchamiać skrypty języka Python w programie Power BI Desktop, musisz zainstalować **język Python** na swojej maszynie lokalnej. Język **Python** możesz pobrać i zainstalować bezpłatnie z wielu miejsc, w tym z [oficjalnej strony pobierania języka Python](https://www.python.org/) i witryny [Anaconda](https://anaconda.org/anaconda/python/). Bieżąca wersja mechanizmu obsługi skryptów języka Python w programie Power BI Desktop obsługuje znaki Unicode, a także spacje (puste znaki) w ścieżce instalacji.
+
+### <a name="install-required-python-packages"></a>Instalowanie wymaganych pakietów języka Python
+Integracja języka Python w programie Power BI wymaga zainstalowania dwóch pakietów (Pandas i Matplotlib).  Za pomocą wiersza polecenia pip zainstaluj dwa poniższe pakiety,
+
+```
+pip install pandas
+pip install matplotlib
+```
 
 ## <a name="run-python-scripts"></a>Uruchamianie skryptów języka Python
 Wykonując kilka prostych kroków w programie Power BI Desktop, można uruchomić skrypty języka Python i utworzyć model danych, na podstawie którego można z kolei tworzyć raporty i udostępniać je w usłudze Power BI.
