@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/27/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: a171dd2aa375f8d12830b051dd8ce6437e4b3236
-ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
+ms.openlocfilehash: 323391268e930d3b7b2926590f3377b850b65624
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "51679460"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54282591"
 ---
 # <a name="dax-basics-in-power-bi-desktop"></a>Podstawy języka DAX w programie Power BI Desktop
 Niniejszy artykuł jest przeznaczony dla nowych użytkowników programu Power BI Desktop. Artykuł stanowi szybkie i łatwe wprowadzenie do korzystania z języka Data Analysis Expressions (DAX) w celu rozwiązywania szeregu podstawowych problemów z zakresu obliczeń i analizy danych. Zapoznamy się z informacjami koncepcyjnymi, przeanalizujemy szereg zadań, które możesz wykonać, a na koniec zajmiesz się testami, które sprawdzą Twoją wiedzę. Gdy zapoznasz się z tym artykułem, najważniejsze podstawowe pojęcia dotyczące języka DAX nie powinny mieć dla Ciebie żadnych tajemnic.
@@ -33,7 +33,7 @@ Skupimy się na wyjaśnieniu formuł DAX używanych w obliczeniach, a w szczegó
 
 **Przykładowy skoroszyt**
 
-Najlepszy sposób na naukę języka DAX polega na utworzeniu kilku podstawowych formuł, użyciu ich z rzeczywistymi danymi i samodzielnym zapoznaniu się z wynikami. Przedstawione tutaj przykłady i zadania są oparte na przykładowym pliku sprzedaży Contoso dla programu Power BI Desktop w wersji zapoznawczej. Jest to ten sam plik, który był wykorzystywany w artykule [Samouczek: tworzenie własnych miar w programie Power BI Desktop](desktop-tutorial-create-measures.md). Oto [przykładowy plik](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20for%20Power%20BI%20Designer.zip) do pobrania.
+Najlepszy sposób na naukę języka DAX polega na utworzeniu kilku podstawowych formuł, użyciu ich z rzeczywistymi danymi i samodzielnym zapoznaniu się z wynikami. Przedstawione tutaj przykłady i zadania są oparte na przykładowym pliku sprzedaży Contoso dla programu Power BI Desktop w wersji zapoznawczej. Jest to przykładowy plik używany w artykule [Samouczek: tworzenie własnych miar w programie Power BI Desktop](desktop-tutorial-create-measures.md). Oto [przykładowy plik](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20for%20Power%20BI%20Designer.zip) do pobrania.
 
 ## <a name="lets-begin"></a>Zacznijmy!
 Zrozumienie języka DAX zawęzimy do trzech kluczowych pojęć: *Składnia*, *Funkcje* i *Kontekst*. Oczywiście w języku DAX są inne ważne pojęcia, ale zrozumienie tych trzech zapewni najlepszy fundament, na którym będziemy budować umiejętności korzystania z języka DAX.
@@ -134,7 +134,7 @@ Odpowiedzi są podane na końcu tego artykułu.
 ### <a name="functions"></a>Funkcje
 Funkcje to wstępnie zdefiniowane formuły, które wykonują obliczenia, używając konkretnych wartości nazywanych argumentami — w określonej kolejności lub strukturze. Argumenty mogą być innymi funkcjami, innymi formułami, wyrażeniami, odwołaniami do kolumn, liczbami, ciągami tekstowymi, wartościami logicznymi, takimi jak TRUE (Prawda) lub FALSE (Fałsz), albo stałymi.
 
-Język DAX zawiera następujące kategorie funkcji: [Daty i godziny](https://msdn.microsoft.com/library/ee634786.aspx), [Analizy czasowej](https://msdn.microsoft.com/library/ee634763.aspx), [Informacyjne](https://msdn.microsoft.com/library/ee634552.aspx), [Logiczne](https://msdn.microsoft.com/library/ee634365.aspx), [Matematyczne](https://msdn.microsoft.com/library/ee634241.aspx), [Statystyczne](https://msdn.microsoft.com/library/ee634822.aspx), [Tekstowe](https://msdn.microsoft.com/library/ee634938.aspx), [Nadrzędne/podrzędne](https://msdn.microsoft.com/library/mt150102.aspx) oraz [Inne](https://msdn.microsoft.com/library/mt150101.aspx). Jeśli znasz funkcje w formułach programu Excel, wiele funkcji języka DAX będzie wyglądać dla Ciebie znajomo; jednak funkcje języka DAX są wyjątkowe pod następującymi względami:
+Język DAX zawiera następujące kategorie funkcji: [Data i godzina](https://msdn.microsoft.com/library/ee634786.aspx), [Analiza czasowa](https://msdn.microsoft.com/library/ee634763.aspx), [Informacyjne](https://msdn.microsoft.com/library/ee634552.aspx), [Logiczne](https://msdn.microsoft.com/library/ee634365.aspx), [Matematyczne](https://msdn.microsoft.com/library/ee634241.aspx), [Statystyczne](https://msdn.microsoft.com/library/ee634822.aspx), [Tekstowe](https://msdn.microsoft.com/library/ee634938.aspx), [Nadrzędne/podrzędne](https://msdn.microsoft.com/library/mt150102.aspx) oraz [Inne](https://msdn.microsoft.com/library/mt150101.aspx). Jeśli znasz funkcje w formułach programu Excel, wiele funkcji języka DAX będzie wyglądać dla Ciebie znajomo; jednak funkcje języka DAX są wyjątkowe pod następującymi względami:
 
 * Funkcja języka DAX zawsze odwołuje się do kompletnej kolumny lub tabeli. Jeśli chcesz użyć konkretnych wartości z tabeli lub kolumny, możesz dodać do formuły filtry.
 * Jeśli musisz dostosowywać obliczenia wiersz po wierszu, wówczas język DAX udostępnia funkcje, dzięki którym możesz użyć wartości bieżącego wiersza albo powiązanej wartości jako rodzaju argumentu, aby wykonać obliczenia zmieniające się w zależności od kontekstu. Więcej na temat kontekstu dowiesz się później.
@@ -160,7 +160,7 @@ Kontekst wiersza najłatwiej jest traktować jako bieżący wiersz. Ma zastosowa
 
 **Kontekst filtru**
 
-Kontekst filtru jest nieco trudniejszy do zrozumienia niż kontekst wiersza. O kontekście filtru najłatwiej jest myśleć jako o co najmniej jednym filtrze stosowanym w obliczeniu, które określa wynik lub wartość.
+Kontekst filtru jest nieco trudniejszy do zrozumienia niż kontekst wiersza. O kontekście filtru najłatwiej jest myśleć jako o co najmniej jednym filtrze zastosowanym w obliczeniu, które określa wynik lub wartość.
 
 Kontekst filtru nie istnieje zamiast kontekstu wiersza; ma on zastosowanie obok kontekstu wiersza. Na przykład w celu dalszego zawężenia wartości do uwzględnienia w obliczeniu możemy zastosować kontekst filtru, który nie tylko określi kontekst wiersza, ale również określi tylko konkretną wartość (filtr) w tym kontekście wiersza.
 
@@ -186,7 +186,7 @@ Ta formuła zawiera następujące elementy składni:
 
 **F.** Przecinek (**,**) oddziela pierwszy argument wyrażenia od argumentu filtru.
 
-**G.** W pełni kwalifikowana nazwa kolumny, do której istnieje odwołanie — **Channel[ChannelName]**. Jest to nasz kontekst wiersza. Każdy wiersz w tej kolumnie określa kanał: Store, Online, itp.
+**G.** W pełni kwalifikowana nazwa kolumny, do której istnieje odwołanie — **Channel[ChannelName]**. Jest to nasz kontekst wiersza. Każdy wiersz w tej kolumnie określa kanał: Store, Online itp.
 
 **H.** Konkretna wartość **Store** jako filtr. Oto nasz kontekst filtru.
 

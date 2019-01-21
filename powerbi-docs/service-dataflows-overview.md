@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/03/2019
+ms.date: 01/10/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: d9cd9c812aa2fdd1d336dbd63ea280516a96e4d9
-ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
+ms.openlocfilehash: 83961f3ad469a4a7a76ceb6e1e4dba846a6edb04
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/08/2019
-ms.locfileid: "54072226"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54287644"
 ---
 # <a name="self-service-data-prep-in-power-bi-preview"></a>Przygotowywanie danych samoobsługi w usłudze Power BI (wersja zapoznawcza)
 
@@ -92,7 +92,7 @@ W poniższej tabeli opisano funkcje przepływu danych i ich możliwości w przyp
 |Połączone jednostki przepływu danych| |        +|
 |Znormalizowany schemat/wbudowana obsługa modelu Common Data Model|  +|  +|
 
-Aby uzyskać więcej informacji na temat sposobu włączania obciążeń przepływów danych w ramach pojemności Premium, zobacz artykuł dotyczący [konfigurowania obciążeń](service-admin-premium-manage.md#configure-workloads) dla usługi Power BI Premium.
+Aby uzyskać więcej informacji na temat sposobu włączania obciążeń przepływów danych w ramach pojemności Premium, zobacz artykuł dotyczący [konfigurowania obciążeń](service-admin-premium-manage.md#configure-workloads) dla usługi Power BI Premium. Obciążenia przepływu danych nie są obecnie dostępne w pojemnościach z wieloma lokalizacjami geograficznymi.
 
 ## <a name="summary-of-self-service-data-prep-for-big-data-in-power-bi"></a>Podsumowanie procesu przygotowywania danych samoobsługi dla danych big data w usłudze Power BI
 Jak wspomniano wcześniej, w tym artykule, istnieje wiele scenariuszy i przykładów, w których **przepływy danych** umożliwiają skuteczniejsze sprawowanie kontroli — i szybsze uzyskiwanie szczegółowych informacji — na podstawie własnych danych biznesowych. Dzięki użyciu standardowego modelu (schematu) danych zdefiniowanego przez model Common Data Model przepływy danych mogą importować cenne dane biznesowe i w bardzo krótkim czasie przygotować dane do modelowania i tworzenia szczegółowych informacji związanych z analizą biznesową, których tworzenie zajmowało kiedyś miesiące lub dłużej. 

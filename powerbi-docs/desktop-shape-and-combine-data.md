@@ -5,19 +5,19 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: tutorial
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: e23182b1e607498c5187882740b556455657ba1d
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: f39f5ae569c757072a55647becb5697c881abbe2
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670905"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285674"
 ---
-# <a name="tutorial-shape-and-combine-data-in-power-bi-desktop"></a>Samouczek: kształtowanie i łączenie danych w programie Power BI Desktop
+# <a name="tutorial-shape-and-combine-data-in-power-bi-desktop"></a>Samouczek: Kształtowanie i łączenie danych w programie Power BI Desktop
 
 Program **Power BI Desktop** umożliwia nawiązywanie połączeń z wieloma typami źródeł danych, a następnie kształtowanie tych danych zgodnie z potrzebami, co pozwala na tworzenie raportów wizualnych do udostępniania innym użytkownikom. *Kształtowanie* danych oznacza przekształcanie danych, np. zmienianie nazw kolumn lub tabel, zmienianie tekstu na liczby, usuwanie wierszy, ustawianie pierwszego wiersza jako nagłówków i tak dalej. *Łączenie* danych oznacza nawiązywanie połączenia z co najmniej dwoma źródłami danych, kształtowanie danych zgodnie z potrzebami, a następnie konsolidowanie ich do postaci jednego użytecznego zapytania.
 
@@ -81,7 +81,7 @@ Aby usunąć kolumnę **Koszty utrzymania**, po prostu zaznacz kolumnę i wybier
 
 ![](media/desktop-shape-and-combine-data/shapecombine_removecolumnscostofliving.png)
 
-Zwróć uwagę, że wartości w kolumnie _Nowa ranga_ nie zostały zmienione; jest to spowodowane kolejnością kroków. Edytor zapytań rejestruje kroki sekwencyjnie, ale każdy z nich jest niezależny od pozostałych, dlatego każdy **zastosowany krok** można przenieść w górę lub w dół sekwencji. Po prostu kliknij prawym przyciskiem myszy dowolny krok, a Edytor zapytań udostępni menu, w którym można wybrać następujące polecenia: **Zmień nazwę**, **Usuń**, **Usuwaj** **do końca** (usuwa bieżący krok i wszystkie kroki następujące po nim), **Przenieś w górę** oraz **Przenieś w dół**. Przejdź dalej i przenieś w górę ostatni krok _Usunięto kolumny_ bezpośrednio powyżej kroku _Dodano kolumnę niestandardową_.
+Zwróć uwagę, że wartości w kolumnie _Nowa ranga_ nie zostały zmienione; jest to spowodowane kolejnością kroków. Edytor zapytań rejestruje kroki sekwencyjnie, ale każdy z nich jest niezależny od pozostałych, dlatego każdy **zastosowany krok** można przenieść w górę lub w dół sekwencji. Po prostu kliknij prawym przyciskiem myszy dowolny krok, a Edytor zapytań udostępni menu umożliwiające wykonywanie następujących czynności: **Zmień nazwę**, **Usuń**, **Usuń** **do końca** (usuń bieżący krok i wszystkie kolejne kroki), **Przenieś w górę** lub **Przenieś w dół**. Przejdź dalej i przenieś w górę ostatni krok _Usunięto kolumny_ bezpośrednio powyżej kroku _Dodano kolumnę niestandardową_.
 
 ![](media/desktop-shape-and-combine-data/shapecombine_movestep.png)
 
@@ -179,7 +179,7 @@ Zostanie wyświetlone okno **Usuwanie pierwszych wierszy**, w którym można okr
 
 ![](media/desktop-shape-and-combine-data/shapecombine_filterdc.png)
 
-* Usuniemy kilka niepotrzebnych kolumn — potrzebujemy tylko odwzorowania stanu na jej oficjalny dwuliterowy skrót, dlatego możemy usunąć następujące kolumny: **Kolumna1**, **Kolumna3**, **Kolumna4** oraz wszystkie kolumny od **Kolumna6** do **Kolumna11**. Najpierw wybierz kolumnę **Kolumna1**, a następnie przytrzymaj naciśnięty klawisz **CTRL** i wybierz pozostałe kolumny do usunięcia (w ten sposób można wybrać wiele kolumn, które ze sobą nie sąsiadują). Na karcie Narzędzia główne na wstążce wybierz polecenie **Usuń kolumny \> Usuń kolumny**.
+* Usuń kilka niepotrzebnych kolumn — potrzebujemy tylko odwzorowania nazwy stanu na jej oficjalny dwuliterowy skrót, dlatego możemy usunąć następujące kolumny: **Kolumna1**, **Kolumna3**, **Kolumna4**, a następnie **Kolumna6** do **Kolumna11**. Najpierw wybierz kolumnę **Kolumna1**, a następnie przytrzymaj naciśnięty klawisz **CTRL** i wybierz pozostałe kolumny do usunięcia (w ten sposób można wybrać wiele kolumn, które ze sobą nie sąsiadują). Na karcie Narzędzia główne na wstążce wybierz polecenie **Usuń kolumny \> Usuń kolumny**.
 
 ![](media/desktop-shape-and-combine-data/shapecombine_removecolumns.png)
 

@@ -5,24 +5,24 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3f8a5075290620d9d1ed1829008002ff71d25c82
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 3fa76b19e187f7a27dc8b9268dad4d9b5ab8f101
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908164"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54286386"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>Wprowadzenie do organizacyjnych pakietów zawartości w usłudze Power BI
 > [!NOTE]
 > W wersji zapoznawczej nowych środowisk obszarów roboczych nie można tworzyć organizacyjnych pakietów zawartości ani ich instalować. Teraz jest dobry moment, aby uaktualnić pakiety zawartości do aplikacji, jeśli jeszcze tego nie zaczęto. Dowiedz się [więcej na temat nowego środowiska obszarów roboczych](service-create-the-new-workspaces.md).
 > 
 
-Czy regularnie dystrybuujesz raporty do swojego zespołu za pośrednictwem poczty e-mail? Zamiast tego spróbuj: zapakuj swoje pulpity nawigacyjne, raporty, skoroszyty programu Excel i zestawy danych oraz opublikuj je dla swojego zespołu jako *organizacyjny pakiet zawartości*. Utworzone pakiety zawartości są łatwe do znalezienia przez Twój zespół &#151; znajdują się one w usłudze AppSource. Ponieważ są one częścią usługi Power BI, wykorzystują one wszystkie funkcje usługi Power BI, łącznie z interaktywną eksploracją danych, nowymi elementami wizualnymi, funkcją pytań i odpowiedzi, integracją z innymi źródłami danych, odświeżaniem danych itd.
+Czy regularnie dystrybuujesz raporty do swojego zespołu za pośrednictwem poczty e-mail? Zamiast tego spróbuj wykonać następujące czynności: zapakuj swoje pulpity nawigacyjne, raporty, skoroszyty programu Excel i zestawy danych oraz opublikuj je dla swojego zespołu jako *organizacyjny pakiet zawartości*. Utworzone pakiety zawartości są łatwe do znalezienia przez Twój zespół &#151; znajdują się one w usłudze AppSource. Ponieważ są one częścią usługi Power BI, wykorzystują one wszystkie funkcje usługi Power BI, łącznie z interaktywną eksploracją danych, nowymi elementami wizualnymi, funkcją pytań i odpowiedzi, integracją z innymi źródłami danych, odświeżaniem danych itd.
 
 ![](media/service-organizational-content-pack-introduction/power-bi-org-content-packs.png)
 

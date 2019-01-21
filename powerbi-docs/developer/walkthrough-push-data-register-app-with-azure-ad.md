@@ -5,23 +5,23 @@ author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: 660f79eab32ae7ade5cea990c6fc152bb9507297
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: db3184f7bc3c181b685c22d0bcad27206b4a0f8f
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "34285973"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296368"
 ---
 # <a name="step-1-register-an-app-with-azure-ad"></a>Krok 1. Rejestrowanie aplikacji w usłudze Azure AD
 Ten artykuł jest częścią przewodnika krok po kroku dotyczącego [wypychania danych do zestawu danych](walkthrough-push-data.md).
 
 Pierwszym krokiem wypychania danych do zestawu danych usługi Power BI jest zarejestrowanie aplikacji w usłudze Azure AD. Ten krok należy wykonać jako pierwszy, aby uzyskać **Identyfikator klienta** identyfikujący aplikację w usłudze Azure AD. Bez **identyfikatora klienta** usługa Azure AD nie będzie mogła uwierzytelnić aplikacji.
 
-> **UWAGA**: Przed zarejestrowaniem aplikacji w usłudze Power BI musisz [utworzyć konto w usłudze Power BI](create-an-azure-active-directory-tenant.md).
+> **UWAGA**: przed zarejestrowaniem aplikacji w usłudze Power BI musisz [utworzyć konto w usłudze Power BI](create-an-azure-active-directory-tenant.md).
 > 
 > 
 
@@ -47,7 +47,7 @@ W następnych krokach przedstawiono sposób [uzyskiwania tokenu dostępu do uwie
 ## <a name="next-steps"></a>Następne kroki
 [Tworzenie konta w usłudze Power BI](create-an-azure-active-directory-tenant.md)  
 [Uzyskiwanie tokenu dostępu do uwierzytelniania](walkthrough-push-data-get-token.md)  
-[Przewodnik: Wypychanie danych do zestawu danych](walkthrough-push-data.md)  
+[Przewodnik: wypychanie danych do zestawu danych](walkthrough-push-data.md)  
 [Rejestrowanie aplikacji](register-app.md)  
 [Omówienie interfejsu API REST usługi Power BI](overview-of-power-bi-rest-api.md)  
 

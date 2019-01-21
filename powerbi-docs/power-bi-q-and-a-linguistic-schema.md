@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: willthom
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/17/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 09bf82d86301967fb46b8724822e183a21008b92
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.openlocfilehash: 760335b0a08156b3c5b594ffc27be4cb0ad12342
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452734"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54289928"
 ---
 # <a name="edit-qa-linguistic-schema-and-add-phrasings-in-power-bi-desktop"></a>Edytowanie schematu językowego funkcji Pytania i odpowiedzi oraz dodawanie fraz w programie Power BI Desktop 
 Używanie typowych fraz i języka naturalnego w celu zadawania pytań na temat danych daje dużo możliwości. Jest to o wiele bardziej skuteczne, gdy dane „odpowiadają” — to właśnie umożliwia funkcja Pytania i odpowiedzi w usłudze Power BI. Funkcja Pytania i odpowiedzi usługi Power BI stara się znaleźć poprawną odpowiedź na Twoje pytanie. 
@@ -49,7 +49,7 @@ Schematy językowe są zapisywane w formacie YAML. Ten format jest powiązany z 
 Zalecamy używanie programu Visual Studio Code, który umożliwia edytowanie plików YAML schematu językowego. Program Visual Studio Code zapewnia wbudowaną obsługę plików YAML i umożliwia instalowanie rozszerzeń, które pozwalają weryfikować format schematu językowego usługi Power BI.
 1. Zainstaluj program [Visual Studio Code](https://code.visualstudio.com/).    
 
-2. Wybierz wcześniej zapisany przykładowy schemat językowy: [plik YAML](https://go.microsoft.com/fwlink/?linkid=871858) (SummerOlympics.lsdl.yaml).    
+2. Wybierz wcześniej zapisany przykładowy schemat językowy: [Plik YAML](https://go.microsoft.com/fwlink/?linkid=871858) (SummerOlympics.lsdl.yaml).    
 4. Wybierz pozycje **Visual Studio Code** i **Zawsze otwieraj pliki typu yaml za pomocą tej aplikacji**.
 
     ![Okno Jak chcesz otworzyć ten plik?](media/power-bi-q-and-a-linguistic-schema/power-bi-visual-code.png)
@@ -78,7 +78,7 @@ Wszystkie te informacje oraz wszelkie wprowadzone udoskonalenia pozwalają funkc
 
 
 ## <a name="edit-a-linguistic-schema"></a>Edytowanie schematu językowego
-W przypadku eksportowania schematu językowego z programu Power BI Desktop po raz pierwszy cała zawartość pliku lub jej większość zostanie automatycznie wygenerowana przez aparat funkcji Pytania i odpowiedzi. Te wygenerowane jednostki, wyrazy (synonimy), relacje i frazy są oznaczone tagiem **State: Generated**. Są one umieszczane w pliku głównie ze względów informacyjnych, ale mogą być przydatne podczas wprowadzania własnych zmian. 
+W przypadku eksportowania schematu językowego z programu Power BI Desktop po raz pierwszy cała zawartość pliku lub jej większość zostanie automatycznie wygenerowana przez aparat funkcji Pytania i odpowiedzi. Te wygenerowane jednostki, słowa (synonimy), relacje i frazy zostały oznaczone za pomocą tagu **Stan: wygenerowano** i znajdują się w pliku przede wszystkim dla celów informacyjnych, ale może być to dobry punkt startowy do wprowadzania własnych zmian. 
 
 > [!NOTE]
 > Przykładowy plik YAML używany w tym samouczku został specjalnie przygotowany, dlatego nie zawiera tagów **State: Generated** i **State: Deleted**. Aby je wyświetlić, otwórz oryginalny plik pbix w widoku relacji i wyeksportuj schemat językowy.
@@ -86,7 +86,7 @@ W przypadku eksportowania schematu językowego z programu Power BI Desktop po ra
 ![Plik YAML zawierający tag State: Generated](media/power-bi-q-and-a-linguistic-schema/power-bi-generated-state.png)
 
 
-Podczas importowania pliku schematu językowego do programu Power BI Desktop wszystkie elementy oznaczone jako **State: Generated** są ignorowane (a później generowane ponownie), dlatego jeśli chcesz zmienić wygenerowaną zawartość, musisz dodatkowo usunąć odpowiedni tag **State: Generated**. I podobnie, jeśli chcesz usunąć część wygenerowanej zawartości, musisz zmienić tag **State: Generated** na **State: Deleted**, aby uniemożliwić jej ponowne generowanie podczas importowania pliku schematu językowego.
+Podczas importowania pliku schematu językowego z powrotem do programu Power BI Desktop wszystkie elementy oznaczone jako **Stan: wygenerowano** są ignorowane (i później generowane ponownie). Jeśli chcesz wprowadzić zmiany pewnych elementów wygenerowanej zawartości, upewnij się, że odpowiadający tag **Stan: wygenerowano** został również usunięty. Podobnie, jeśli chcesz usunąć część wygenerowanej zawartości, musisz zmienić tag **Stan: wygenerowano** na tag **Stan: usunięto**, aby nie była ona ponownie generowana podczas importowania pliku schematu językowego.
 
 1. Otwórz zestaw danych w *widoku relacji* w programie Power BI Desktop. 
 2. Wybierz kartę **Modelowanie** i wybierz pozycję **Eksportuj schemat językowy**.

@@ -6,20 +6,20 @@ ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-gateways
+ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: ed9281ba14ad25e2acb347a2394ec729e9d4465c
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.openlocfilehash: 7256de8dd36c25af9959e7103186666d65123360
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51508042"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54295264"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Używanie protokołu Kerberos na potrzeby logowania jednokrotnego (SSO) z usługi Power BI do lokalnych źródeł danych
 
-Użyj [ograniczonego delegowania protokołu Kerberos](https://technet.microsoft.com/library/jj553400.aspx), aby umożliwić bezproblemową łączność za pomocą logowania jednokrotnego. Włączenie logowania jednokrotnego ułatwia odświeżanie danych ze źródeł lokalnych w raportach i pulpitach nawigacyjnych usługi Power BI.
+Użyj [ograniczonego delegowania protokołu Kerberos](/windows-server/security/kerberos/kerberos-constrained-delegation-overview), aby umożliwić bezproblemową łączność za pomocą logowania jednokrotnego. Włączenie logowania jednokrotnego ułatwia odświeżanie danych ze źródeł lokalnych w raportach i pulpitach nawigacyjnych usługi Power BI.
 
 ## <a name="supported-data-sources"></a>Obsługiwane źródła danych
 
@@ -114,7 +114,7 @@ W poniższych krokach założono, że istnieje środowisko lokalne z dwoma maszy
 * Nazwa maszyny bramy: **PBIEgwTestGW**
 * Konto usługi bramy: **PBIEgwTest\GatewaySvc** (wyświetlana nazwa konta: Łącznik bramy)
 * Nazwa maszyny źródła danych programu SQL Server: **PBIEgwTestSQL**
-* Nazwa konta usługi źródła danych programu SQL Server: **PBIEgwTest\SQLService**
+* Konto usługi źródła danych programu SQL Server: **PBIEgwTest\SQLService**
 
 Biorąc pod uwagę te przykładowe nazwy i ustawienia, czynności konfiguracyjne są następujące:
 

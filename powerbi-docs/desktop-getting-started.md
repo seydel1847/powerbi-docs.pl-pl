@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 5f202597fa641bf68b8e49c461ed5c25ea987c3e
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 019ee7985c27c72ca41a09c8d13754316fd60232
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670934"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291653"
 ---
 # <a name="getting-started-with-power-bi-desktop"></a>Wprowadzenie do programu Power BI Desktop
 Witamy **przewodniku Wprowadzenie do programu Power BI Desktop**. Ten krótki przewodnik po programie Power BI Desktop umożliwia zapoznanie się z działaniem programu, demonstruje jego możliwości i przyspiesza tworzenie niezawodnych modeli danych — wraz z zachwycającymi raportami — które uzupełniają działania w zakresie analizy biznesowej. 
@@ -69,7 +69,7 @@ Możesz użyć opcji **Pobierz dane**, zobaczyć **Ostatnio używane źródła**
 
 ![](media/desktop-getting-started/designer_gsg_blankreport.png)
 
-Program Power BI Desktop zawiera trzy różne widoki: **Raport**, **Dane** i **Relacje**. Program Power BI Desktop zawiera również **Edytor zapytań**, który jest otwierany w osobnym oknie. W **Edytorze zapytań** możesz tworzyć zapytania i przekształcać dane, a następnie załadować dostosowany model danych do programu Power BI Desktop i tworzyć raporty.
+W programie Power BI Desktop istnieją trzy widoki: widok **Raport**, widok **Dane** i widok **Relacje**. Program Power BI Desktop zawiera również **Edytor zapytań**, który jest otwierany w osobnym oknie. W **Edytorze zapytań** możesz tworzyć zapytania i przekształcać dane, a następnie załadować dostosowany model danych do programu Power BI Desktop i tworzyć raporty.
 
 Następujący ekran pokazuje trzy ikony widoków po lewej stronie programu Power BI Desktop: **Raport**, **Dane** i **Relacje**, od góry do dołu. Obecnie wyświetlany widok jest wskazywany przez żółty pasek wzdłuż lewej strony. W tym przypadku obecnie wyświetlany jest widok **Raport**. Możesz zmienić widoki, wybierając dowolną z tych trzech ikon.
 

@@ -5,16 +5,16 @@ author: parthsha
 manager: kfile
 ms.reviewer: maghan
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 3/5/2018
 ms.author: pashah
-ms.openlocfilehash: c19bc774ebffa2e781512e793abbefd1bd9fb5e2
-ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
+ms.openlocfilehash: c479b2600dad31756101c57ba2b1c5fc7fa19b2f
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "51679297"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296667"
 ---
 # <a name="capacity-planning-guidance-for-power-bi-report-server"></a>Wskazówki dotyczące planowania wydajności serwera raportów usługi Power BI
 Serwer raportów usługi Power BI to samoobsługowe rozwiązanie z zakresu analizy biznesowej i raportowania dla przedsiębiorstw. Rozwiązanie to może być wdrażane przez klienta w siedzibie firmy, za zaporą. Serwer ten stanowi połączenie interaktywnych funkcji raportów znanych z programu Power BI Desktop oraz lokalnej platformy serwera znanej z usług SQL Server Reporting Services. Firmy coraz intensywniej korzystają z funkcji analiz i raportów, przez co trudno jest określić budżet na infrastrukturę sprzętową i licencje na oprogramowanie wymagane do skalowania bazy użytkowników w przedsiębiorstwie. Ten dokument zawiera wskazówki dotyczące planowania wydajności serwera raportów usługi Power BI przez udostępnianie wyników licznych testów obciążenia wykonywanych na serwerze raportów przy różnych obciążeniach. Mimo że raporty, zapytania i wzorce użycia stosowane w organizacji mogą być różne, wyniki przedstawione w tym dokumencie, wykonane testy oraz szczegółowy opis sposobu ich przeprowadzenia służą za punkt odniesienia dla każdego, kto zaczyna planowanie wdrażania serwera raportów usługi Power BI.
@@ -42,7 +42,7 @@ Wdrożenie serwera raportów usługi Power BI obejmowało następujące maszyny 
 
 * Kontroler domeny usługi Active Directory wymagany przez aparat bazy danych programu SQL Server, usługi SQL Server Analysis Services i serwer raportów usługi Power BI Report Server zapewniający bezpieczne uwierzytelnianie żądań.
 * Aparat bazy danych programu SQL Server i usługi SQL Server Analysis Services: tutaj były przechowywane wszystkie bazy danych używane przez raporty podczas ich renderowania.
-* Serwer raportów usługi Power BI
+* serwerze raportów usługi Power BI
 * Baza danych serwera raportów usługi Power BI. Baza danych serwera raportów jest hostowana na innej maszynie niż serwer raportów usługi Power BI, dzięki czemu nie musi rywalizować z aparatem bazy danych programu SQL Server o zasoby, takie jak pamięć, procesor, sieć i miejsce na dysku.
 
 ![](media/capacity-planning/report-server-topology.png)
@@ -60,7 +60,7 @@ Testy używane w przebiegach testów obciążenia są publicznie dostępne w pro
 Wszystkie testy polegają na wykonaniu operacji obejmującej całą procedurę (np. renderowania raportu, utworzenia nowego źródła danych itp.). Jest to realizowane przez wysłanie do serwera raportów co najmniej jednego żądania internetowego (za pośrednictwem interfejsów API). W rzeczywistości do wykonania dowolnej z tych operacji może być konieczne wykonanie kilku działań pośrednich. Na przykład w celu renderowania raportu użytkownik musi przejść do portalu internetowego, przejść do folderu zawierającego raport, a następnie kliknąć raport, aby go renderować. Mimo tego, że testy nie wykonują wszystkich operacji wymaganych do zrealizowania całego zadania, zapewniają większość obciążenia, które wystąpiłoby na serwerze raportów usługi Power BI. W projekcie dostępnym w usłudze GitHub znajduje się więcej informacji na temat różnych typów raportów oraz operacji.
 
 ### <a name="workloads"></a>Obciążenia
-Istnieją 2 profile obciążeń używane do testowania: Power BI Report Heavy (Intensywna obsługa raportów w usłudze Power BI) oraz Paginated Report Heavy (Intensywna obsługa raportów z podziałem na strony). W poniższej tabeli przedstawiono dystrybucję żądań wykonywanych względem serwera raportów.
+Istnieją 2 profile obciążeń używane do testowania: Power BI Report Heavy i Paginated Report Heavy. W poniższej tabeli przedstawiono dystrybucję żądań wykonywanych względem serwera raportów.
 
 | Działanie | Power BI Report Heavy, częstotliwość występowania | Paginated Report Heavy, częstotliwość występowania |
 | --- | --- | --- |

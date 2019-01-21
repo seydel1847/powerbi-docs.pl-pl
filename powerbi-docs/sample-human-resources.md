@@ -1,23 +1,23 @@
 ---
-title: 'Próbka danych dotyczących kadr: krótki przewodnik'
-description: 'Próbka danych dotyczących kadr dla usługi Power BI: krótki przewodnik'
+title: 'Przykład dotyczący kadr: Zapoznaj się z przewodnikiem'
+description: 'Przykład Human Resources dla usługi Power BI: Zapoznaj się z przewodnikiem'
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/26/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: c0f1df47501c297e65e7dc3ccdb8d745c84b2e55
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 1670fffd33e741962db5e7312f2a27273151980d
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717877"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54293945"
 ---
-# <a name="human-resources-sample-for-power-bi-take-a-tour"></a>Próbka danych dotyczących kadr dla usługi Power BI: krótki przewodnik
+# <a name="human-resources-sample-for-power-bi-take-a-tour"></a>Przykład Human Resources dla usługi Power BI: Zapoznaj się z przewodnikiem
 
 ## <a name="overview-of-the-human-resources-sample"></a>Omówienie przykładu Human Resources
 Dział kadr stosuje ten sam model raportowania w różnych firmach — nawet różniących się branżą i rozmiarem. W tym przykładzie analizujemy nowych pracowników, zatrudnionych pracowników i pracowników, którzy odeszli, w celu wykrycia wszelkich trendów w strategii zatrudniania. Naszymi głównymi celami jest zrozumienie:
@@ -141,5 +141,5 @@ Ostatnim badanym obszarem jest nietrafione zatrudnienie. Nietrafione zatrudnieni
 
 Pracując na danych w tym środowisku, nie musisz się niczego obawiać. Zawsze możesz zrezygnować z zapisania wprowadzonych zmian. Jeśli jednak je zapiszesz, możesz przejść do obszaru **Pobieranie danych** i pobrać nową kopię zestawu danych użytego w tym przykładzie.
 
-## <a name="next-steps-connect-to-your-data"></a>Następne kroki: łączenie z danymi
+## <a name="next-steps-connect-to-your-data"></a>Następne kroki: Łączenie z danymi
 Mamy nadzieję, że dzięki temu przewodnikowi wiesz już, że pulpity nawigacyjne usługi Power BI, funkcja Pytania i odpowiedzi oraz raporty mogą okazać się niezastąpione w uzyskiwaniu informacji o danych dotyczących kadr. Teraz Twoja kolej — połącz się ze swoimi danymi. Usługa Power BI umożliwia nawiązanie połączenia z różnymi źródłami danych. Dowiedz się więcej o [rozpoczynaniu pracy z usługą Power BI](service-get-started.md).  

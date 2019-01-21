@@ -5,26 +5,26 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 01/10/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: e0151931d0ad9f610c24dd9aedf8f06d79e167c3
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 111e38fd37bcdfa2a72986bb08a37d89345bbe69
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670123"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54282269"
 ---
 # <a name="reduce-the-size-of-an-excel-workbook-to-view-it-in-power-bi"></a>Zmniejszanie rozmiaru skoroszytu programu Excel w celu wyświetlenia go w usłudze Power BI
 Do usługi Power BI można przekazać dowolny skoroszyt programu Excel o rozmiarze mniejszym niż 1 GB. Skoroszyt programu Excel może składać się z dwóch części: modelu danych oraz reszty raportu — podstawowej zawartości skoroszytu. Jeśli raport spełnia następujące ograniczenia dotyczące rozmiaru, można zapisać go w usłudze **OneDrive dla Firm**, połączyć się z nim z usługi Power BI i wyświetlać go w usłudze Excel Online:
 
 * Maksymalny rozmiar całego skoroszytu wynosi 1 GB.
-* Podstawowa zawartość arkusza może mieć rozmiar do 10 MB.
+* Podstawowa zawartość arkusza może mieć rozmiar do 30 MB.
 
-## <a name="what-makes-core-worksheet-contents-larger-than-10-mb"></a>Co sprawia, że rozmiar podstawowej zawartości arkusza przekracza 10 MB
-Poniżej przedstawiono pewne elementy, które mogą sprawić, że rozmiar podstawowej zawartości arkusza przekracza 10 MB:
+## <a name="what-makes-core-worksheet-contents-larger-than-30-mb"></a>Co sprawia, że rozmiar podstawowej zawartości arkusza przekracza 30 MB
+Poniżej przedstawiono pewne elementy, które mogą sprawić, że rozmiar podstawowej zawartości arkusza przekracza 30 MB:
 
 * Obrazy.
 * Cieniowane komórki. [Usuwanie formatowania cieniowania komórki](https://support.office.com/article/Add-or-change-the-background-color-of-cells-ac10f131-b847-428f-b656-d65375fb815e).
@@ -44,14 +44,14 @@ Aby wprowadzić te zmiany, należy edytować skoroszyt w programie Excel.
 Przeczytaj więcej na temat [limitów rozmiaru plików dla skoroszytów programu Excel w usłudze SharePoint Online](https://support.office.com/article/File-size-limits-for-workbooks-in-SharePoint-Online-9e5bc6f8-018f-415a-b890-5452687b325e).
 
 ## <a name="remove-data-from-worksheets"></a>Usuwanie danych z arkuszy
-W przypadku importowania danych do programu Excel z poziomu karty dodatku Power Query lub karty Dane programu Excel skoroszyt może zawierać te same dane w tabeli programu Excel, jak i w modelu danych. Duże tabele w arkuszach programu Excel mogą sprawić, że rozmiar podstawowej zawartości arkusza będzie przekraczać 10 MB. Usunięcie tabeli z programu Excel i zachowanie danych w modelu danych może znacznie zmniejszyć rozmiar podstawowej zawartości arkusza raportu. 
+W przypadku importowania danych do programu Excel z poziomu karty dodatku Power Query lub karty Dane programu Excel skoroszyt może zawierać te same dane w tabeli programu Excel, jak i w modelu danych. Duże tabele w arkuszach programu Excel mogą sprawić, że rozmiar podstawowej zawartości arkusza będzie przekraczać 30 MB. Usunięcie tabeli z programu Excel i zachowanie danych w modelu danych może znacznie zmniejszyć rozmiar podstawowej zawartości arkusza raportu. 
 
 Podczas importowania danych do programu Excel należy postępować zgodnie z następującymi wskazówkami:
 
 * **W dodatku Power Query**: wyczyść zaznaczenie pola **Załaduj do arkusza**.
   
   Dane będą importowane tylko do modelu danych, a w arkuszach programu Excel nie zostaną umieszczone żadne dane.
-* **Na karcie Dane programu Excel**, jeśli wcześniej zaznaczono pole **Tabela** w kreatorze importowania: wybierz opcję **Istniejące połączenia** \> kliknij połączenie \> **Utwórz tylko połączenie**. Usuń oryginalną tabelę lub tabele utworzone podczas początkowego importowania.
+* **Na karcie dane programu Excel**, jeśli wcześniej zaznaczono pole **Tabela** w kreatorze importowania: przejdź do **Istniejące połączenia** \> kliknij połączenie \> **Utwórz tylko połączenie**. Usuń oryginalną tabelę lub tabele utworzone podczas początkowego importowania.
 * **Na karcie Dane programu Excel**: nie zaznaczaj pola **Tabela** w obszarze **Importowanie danych**.
 
 ## <a name="workbook-size-optimizer"></a>Workbook Size Optimizer

@@ -1,23 +1,23 @@
 ---
-title: 'Przykład IT Spend Analysis dla usługi Power BI: krótki przewodnik'
-description: 'Przykład IT Spend Analysis dla usługi Power BI: krótki przewodnik'
+title: 'Przykład IT Spend Analysis dla usługi Power BI: Zapoznaj się z przewodnikiem'
+description: 'Przykład IT Spend Analysis dla usługi Power BI: Zapoznaj się z przewodnikiem'
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/23/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 66a1999637f31083681a6984d4698d78815dc1c1
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 910e4de20d777281f7617727889befa5eb80dfe1
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717475"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54290081"
 ---
-# <a name="it-spend-analysis-sample-for-power-bi-take-a-tour"></a>Przykład IT Spend Analysis dla usługi Power BI: krótki przewodnik
+# <a name="it-spend-analysis-sample-for-power-bi-take-a-tour"></a>Przykład IT Spend Analysis dla usługi Power BI: Zapoznaj się z przewodnikiem
 
 ## <a name="overview-of-the-it-spend-analysis-sample"></a>Omówienie przykładu IT Spend Analysis
 [Pakiet zawartości](service-organizational-content-pack-introduction.md) IT Spend Analysis (pulpit nawigacyjny, raport i zestaw danych) służy do analizy planowanych i rzeczywistych kosztów działu IT. To porównanie pomaga nam zrozumieć, jak dobrze firma zaplanowała rok, i zbadać obszary wykazujące duże odchylenia od planu. Firma w tym przykładzie przechodzi przez roczny cykl planowania, a następnie co kwartał wydaje nowe najnowsze oszacowanie, aby pomóc w analizowaniu zmian w wydatkach na zasoby informatyczne w roku obrachunkowym.
@@ -119,5 +119,5 @@ Kliknij pozycję **Edytuj raport** w prawym górnym rogu i przeglądaj raport w 
 
 Pracując na danych w tym środowisku, nie musisz się niczego obawiać. Zawsze możesz zrezygnować z zapisania wprowadzonych zmian. Jeśli jednak je zapiszesz, możesz przejść do obszaru Pobieranie danych i pobrać nową kopię zestawu danych użytego w tym przykładzie.
 
-## <a name="next-steps-connect-to-your-data"></a>Następne kroki: łączenie z danymi
+## <a name="next-steps-connect-to-your-data"></a>Następne kroki: Łączenie z danymi
 Mamy nadzieję, że dzięki temu przewodnikowi wiesz już, że pulpity nawigacyjne usługi Power BI, aparat Pytania i odpowiedzi oraz raporty mogą okazać się niezastąpione w uzyskiwaniu informacji o danych dotyczących wydatków na zasoby informatyczne. Teraz Twoja kolej — połącz się ze swoimi danymi. Usługa Power BI umożliwia nawiązanie połączenia z różnymi źródłami danych. Dowiedz się więcej o [rozpoczynaniu pracy z usługą Power BI](service-get-started.md).

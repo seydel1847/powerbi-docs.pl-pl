@@ -6,15 +6,15 @@ ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/05/2017
-ms.openlocfilehash: 01bcc545d3ba8edb23ef583467322401780e657d
-ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
+ms.openlocfilehash: 0990f6ddaf458d5723cd04fedf0b34f497de16cb
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/17/2018
-ms.locfileid: "45974189"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54278498"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>Wypychanie danych do zestawu danych usługi Power BI
 
@@ -25,7 +25,7 @@ Aby rozpocząć wypychanie danych do zestawu danych, musisz mieć konto usługi 
 ## <a name="steps-to-push-data-into-a-dataset"></a>Kroki procesu wypychania danych do zestawu danych
 
 * Krok 1. [Rejestrowanie aplikacji w usłudze Azure AD](walkthrough-push-data-register-app-with-azure-ad.md)
-* Krok 2. [Uzyskiwanie tokenu uwierzytelnienia dostępu](walkthrough-push-data-get-token.md)
+* Krok 2. [Uzyskiwanie tokenu dostępu do uwierzytelniania](walkthrough-push-data-get-token.md)
 * Krok 3. [Tworzenie zestawu danych w usłudze Power BI](walkthrough-push-data-create-dataset.md)
 * Krok 4. [Umożliwienie zestawowi danych dodawania wierszy do tabeli usługi Power BI](walkthrough-push-data-get-datasets.md)
 * Krok 5. [Dodawanie wierszy do tabeli usługi Power BI](walkthrough-push-data-add-rows.md)
@@ -59,7 +59,7 @@ Ciąg JSON dla zestawu danych ma następujący format:
         ]
     }
 
-W naszym przykładzie zestawu danych działu sprzedaży i marketingu należy wprowadzić ciąg JSON widoczny poniżej. W tym przykładzie **SalesMarketing** to nazwa zestawu danych, a **Product** to nazwa tabeli. Po zdefiniowaniu tabeli należy zdefiniować schemat tabeli. W przypadku zestawu danych **SalesMarketing** schemat tabeli zawiera następujące kolumny: ProductID, Manufacturer, Category, Segment, Product oraz IsCompete.
+W naszym przykładzie zestawu danych działu sprzedaży i marketingu należy wprowadzić ciąg JSON widoczny poniżej. W tym przykładzie **SalesMarketing** to nazwa zestawu danych, a **Product** to nazwa tabeli. Po zdefiniowaniu tabeli należy zdefiniować schemat tabeli. W przypadku zestawu danych **SalesMarketing** schemat tabeli zawiera następujące kolumny: ProductID, Manufacturer, Category, Segment, Product i IsCompete.
 
 **Przykładowy zestaw danych obiektu JSON**
 
@@ -112,7 +112,7 @@ W przypadku schematu tabeli usługi Power BI można użyć następujących typó
 
 ## <a name="learn-more-about-pushing-data-into-power-bi"></a>Dowiedz się więcej na temat wypychania danych do usługi Power BI
 
-Aby rozpocząć wypychanie danych do zestawu danych, zobacz [Krok 1. Rejestrowanie aplikacji w usłudze Azure AD](walkthrough-push-data-register-app-with-azure-ad.md) w lewym okienku nawigacji.
+Aby rozpocząć wypychanie danych do zestawu danych, zobacz temat [Krok 1. Rejestrowanie aplikacji w usłudze Azure AD](walkthrough-push-data-register-app-with-azure-ad.md) w okienku nawigacji po lewej stronie.
 
 [Następny krok >](walkthrough-push-data-register-app-with-azure-ad.md)
 

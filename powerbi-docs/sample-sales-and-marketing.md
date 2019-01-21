@@ -1,23 +1,23 @@
 ---
-title: 'Próbka danych dotyczących sprzedaży i marketingu dla usługi Power BI: krótki przewodnik'
-description: 'Próbka danych dotyczących sprzedaży i marketingu dla usługi Power BI: krótki przewodnik'
+title: 'Przykład Sales and Marketing dla usługi Power BI: Zapoznaj się z przewodnikiem'
+description: 'Przykład Sales and Marketing dla usługi Power BI: Zapoznaj się z przewodnikiem'
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/23/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 717db64d30a12d41dc293db11f6f942e4615a1db
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 58c5063796a575498ab1c402f0be6aa2492e9060
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717590"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54289238"
 ---
-# <a name="sales-and-marketing-sample-for-power-bi-take-a-tour"></a>Próbka danych dotyczących sprzedaży i marketingu dla usługi Power BI: krótki przewodnik
+# <a name="sales-and-marketing-sample-for-power-bi-take-a-tour"></a>Przykład Sales and Marketing dla usługi Power BI: Zapoznaj się z przewodnikiem
 
 ## <a name="overview-of-the-sales-and-marketing-sample"></a>Omówienie przykładu Sales and Marketing
 **Próbka danych dotyczących sprzedaży i marketingu** zawiera pulpit nawigacyjny i raport fikcyjnej firmy produkcyjnej o nazwie VanArsdel Ltd. Ten pulpit nawigacyjny został utworzony przez dyrektora ds. marketingu w firmie VanArsdel, aby śledzić udział w rynku, wolumen produktów, sprzedaż i wskaźniki nastrojów klientów branży i swojej firmy.
@@ -134,5 +134,5 @@ Filtrując wizualizacje według VanArsdel, według segmentu, według miesiąca i
 
 Pracując na danych w tym środowisku, nie musisz się niczego obawiać. Zawsze możesz zrezygnować z zapisania wprowadzonych zmian. Jeśli jednak je zapiszesz, możesz przejść do obszaru **Pobieranie danych** i pobrać nową kopię zestawu danych użytego w tym przykładzie.
 
-## <a name="next-steps-connect-to-your-data"></a>Następne kroki: łączenie z danymi
+## <a name="next-steps-connect-to-your-data"></a>Następne kroki: Łączenie z danymi
 Mamy nadzieję, że dzięki temu przewodnikowi wiesz już, że Pytania i odpowiedzi, raporty oraz pulpity nawigacyjne usługi Power BI mogą zapewnić szczegółowy wgląd w dane dotyczące sprzedaży i działań marketingowych. Teraz Twoja kolej. Połącz się ze swoimi danymi. Usługa Power BI umożliwia nawiązanie połączenia z różnymi źródłami danych. Dowiedz się więcej o [rozpoczynaniu pracy z usługą Power BI](service-get-started.md).  

@@ -5,19 +5,19 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: tutorial
 ms.date: 05/21/2018
 ms.author: v-thepet
 LocalizationGroup: Learn more
-ms.openlocfilehash: 0ec22bd142f7509935691ff7bfcd38cb51a04fb2
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 94e40681d065591db008f8a9062d851e0bd83f61
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39280115"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285765"
 ---
-# <a name="tutorial-combine-sales-data-from-excel-and-an-odata-feed"></a>Samouczek: łączenie danych sprzedaży z programu Excel i źródła danych OData
+# <a name="tutorial-combine-sales-data-from-excel-and-an-odata-feed"></a>Samouczek: łączenie danych z programu Excel i źródła danych OData
 
 Często zdarza się, że dane są rozdzielone na wiele źródeł danych, np. informacje o produktach w jednej bazie danych, a o sprzedaży w drugiej. Dzięki programowi **Power BI Desktop** można łączyć dane z różnych źródeł w celu tworzenia interesujących, atrakcyjnych analiz i wizualizacji danych. 
 
@@ -34,7 +34,7 @@ Najpierw zaimportuj dane produktów ze skoroszytu Products.xlsx programu Excel d
    
 2. Wybierz strzałkę listy rozwijanej obok pozycji **Pobierz dane** na karcie **Narzędzia główne** wstążki programu Power BI Desktop, a następnie wybierz pozycję **Excel** z listy rozwijanej **Najbardziej typowe**. 
    
-   ![Pobieranie danych](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_1.png)
+   ![Pobierz dane](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_1.png)
    
    >[!NOTE]
    >Można również wybrać samą pozycję **Pobierz dane** lub wybrać pozycję **Pobierz dane** w oknie dialogowym **Wprowadzenie** usługi Power BI, wybrać pozycję **Excel** lub **Plik** > **Excel** w oknie dialogowym **Pobieranie danych**, a następnie wybrać pozycję **Połącz**.

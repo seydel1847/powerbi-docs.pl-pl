@@ -5,17 +5,17 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/11/2018
 ms.author: mihart
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 71dbdd79e6bedee3f1377f0e7c29fcc6efbbba03
-ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
+ms.openlocfilehash: 163fc60052c4124e7c6cbac60f1486a185c35f17
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "47417331"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54290894"
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Mapowania kształtów w programie Power BI Desktop (wersja zapoznawcza)
 Utwórz wizualizację **Mapowanie kształtów** w celu porównania regionów na mapie przy użyciu koloru. W odróżnieniu od wizualizacji **Mapy** **Mapowanie kształtów** nie może pokazać dokładnych lokalizacji geograficznych punktów danych na mapie. Zamiast tego jej głównym przeznaczeniem jest pokazywanie względnych porównań regionów na mapie przy użyciu różnych kolorów.
@@ -113,7 +113,7 @@ Jest kilka kwestii i wymagań, które dotyczą wersji zapoznawczej wizualizacji 
 ## <a name="region-keys"></a>Klucze regionów
 Aby przetestować wizualizację **Mapowanie kształtów** w wersji zapoznawczej, skorzystaj z następujących **kluczy regionów**.
 
-### <a name="australia-states"></a>Australia: stany
+### <a name="australia-states"></a>Australia: Stany
 
 | `id` | `abbr` | `iso` | `name` | `postal` |
 | --- | --- | --- | --- | --- |
@@ -126,7 +126,7 @@ Aby przetestować wizualizację **Mapowanie kształtów** w wersji zapoznawczej,
 | au-nsw |NSW |AU-NSW |Nowa Południowa Walia |NSW |
 | au-act |ACT |AU-ACT |Australijskie Terytorium Stołeczne |ACT |
 
-### <a name="austria-states"></a>Austria: stany
+### <a name="austria-states"></a>Austria: Stany
 
 | `id` | `iso` | `name` | `name-en` | `postal` |
 | --- | --- | --- | --- | --- |
@@ -138,9 +138,9 @@ Aby przetestować wizualizację **Mapowanie kształtów** w wersji zapoznawczej,
 | at-oo |AT-4 |Oberösterreich |Górna Austria |OO |
 | at-no |AT-3 |Niederösterreich |Dolna Austria |NO |
 | at-ka |AT-2 |Kärnten |Karyntia |KA |
-| at-bu |AT-1 |Burgenland |Burgenland |BU |
+| at-bu |AT-1 |Burgenland |Burgenland |Jednostki biznesowe |
 
-### <a name="brazil-states"></a>Brazylia: stany
+### <a name="brazil-states"></a>Brazylia: Stany
 
 | `id` |
 | --- |
@@ -176,7 +176,7 @@ Aby przetestować wizualizację **Mapowanie kształtów** w wersji zapoznawczej,
 | Litigated Zone 3 |
 | Litigated Zone 4 |
 
-### <a name="canada-provinces"></a>Kanada: prowincje
+### <a name="canada-provinces"></a>Kanada: Prowincje
 
 | `id` | `iso` | `name` | `postal` |
 | --- | --- | --- | --- |
@@ -194,7 +194,7 @@ Aby przetestować wizualizację **Mapowanie kształtów** w wersji zapoznawczej,
 | ca-bc |CA-BC |Kolumbia Brytyjska |BC |
 | ca-ab |CA-AB |Alberta |AB |
 
-### <a name="france-regions"></a>Francja: regiony
+### <a name="france-regions"></a>Francja: Regiony
 
 | `id` | `name` | `name-en` |
 | --- | --- | --- |
@@ -221,7 +221,7 @@ Aby przetestować wizualizację **Mapowanie kształtów** w wersji zapoznawczej,
 | Auvergne |Auvergne |Owernia |
 | Aquitaine |Aquitaine |Akwitania |
 
-### <a name="germany-states"></a>Niemcy: landy
+### <a name="germany-states"></a>Niemcy: Stany
 
 | `id` | `iso` | `name` | `name-en` | `postal` |
 | --- | --- | --- | --- | --- |
@@ -242,7 +242,7 @@ Aby przetestować wizualizację **Mapowanie kształtów** w wersji zapoznawczej,
 | de-by |DE-BY |Bayern |Bawaria |BY |
 | de-bw |DE-BW |Baden-Württemberg |Badenia-Wirtembergia |BW |
 
-### <a name="ireland-counties"></a>Irlandia: hrabstwa
+### <a name="ireland-counties"></a>Irlandia: Hrabstwa
 
 | `id` |
 | --- |
@@ -273,7 +273,7 @@ Aby przetestować wizualizację **Mapowanie kształtów** w wersji zapoznawczej,
 | Cavan |
 | Carlow |
 
-### <a name="italy-regions"></a>Włochy: regiony
+### <a name="italy-regions"></a>Włochy: Regiony
 
 | `id` | `iso` | `name` | `name-en` | `postal` |
 | --- | --- | --- | --- | --- |
@@ -298,7 +298,7 @@ Aby przetestować wizualizację **Mapowanie kształtów** w wersji zapoznawczej,
 | it-pu |IT-75 |Apulia |Apulia |PU |
 | it-ab |IT-65 |Abruzzo |Abruzja |AB |
 
-### <a name="mexico-states"></a>Meksyk: stany
+### <a name="mexico-states"></a>Meksyk: Stany
 
 | `id` | `abreviatura` | `iso` | `name` | `name-en` | `postal` |
 | --- | --- | --- | --- | --- | --- |
@@ -335,7 +335,7 @@ Aby przetestować wizualizację **Mapowanie kształtów** w wersji zapoznawczej,
 | mx-bcn |B.C. |MX-BCN |Baja California |Kalifornia Dolna |BN |
 | mx-agu |Ags. |MX-AGU |Aguascalientes |Aguascalientes |AG |
 
-### <a name="netherlands-provinces"></a>Holandia: prowincje
+### <a name="netherlands-provinces"></a>Holandia: Prowincje
 
 | `id` | `iso` | `name` | `name-en` |
 | --- | --- | --- | --- |
@@ -352,7 +352,7 @@ Aby przetestować wizualizację **Mapowanie kształtów** w wersji zapoznawczej,
 | nl-fl |NL-FL |Flevoland |Flevoland |
 | nl-dr |NL-DR |Drenthe |Drenthe |
 
-### <a name="uk-countries"></a>Zjednoczone Królestwo: kraje
+### <a name="uk-countries"></a>Zjednoczone Królestwo: Kraje/regiony
 
 | `id` | `iso` | `name` |
 | --- | --- | --- |
@@ -361,7 +361,7 @@ Aby przetestować wizualizację **Mapowanie kształtów** w wersji zapoznawczej,
 | gb-nir |GB-NIR |Irlandia Północna |
 | gb-eng |GB-ENG |Anglia |
 
-### <a name="usa-states"></a>Stany Zjednoczone: stany
+### <a name="usa-states"></a>USA: Stany
 
 | `id` | `name` | `postal` |
 | --- | --- | --- |

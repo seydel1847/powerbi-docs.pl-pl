@@ -5,16 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: report-builder
+ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/5/2018
 ms.author: maggies
-ms.openlocfilehash: 827a7acd24ead0c4948a09f2e67b53c3966769bb
-ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
+ms.openlocfilehash: 1689d7382c0f3bf7406a4a44ffeab53e6bc59197
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "52900433"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54281073"
 ---
 # <a name="create-an-embedded-dataset-for-a-paginated-report-in-the-power-bi-service-preview"></a>Tworzenie osadzonego zestawu danych dla raportu podzielonego na strony w usłudze Power BI (wersja zapoznawcza)
 Z tego artykułu dowiesz się, jak tworzyć i osadzać zestaw danych w oparciu o osadzone źródło danych dla raportu podzielonego na strony w usłudze Power BI. Osadzone zestawy danych znajdują się i są używane w jednym raporcie podzielonym na strony. Obecnie raporty podzielone na strony opublikowane w usłudze Power BI potrzebują osadzonych zestawów danych i osadzonych źródeł danych. Osadzone źródło danych i zestaw danych są tworzone w programie Report Builder podczas tworzenia raportu. 

@@ -1,25 +1,25 @@
 ---
 title: Aplikacja usługi Power BI dla rzeczywistości mieszanej (wersja zapoznawcza)
 description: Wyświetlaj pulpity nawigacyjne i raporty w aplikacji usługi Power BI dla rzeczywistości mieszanej (wersja zapoznawcza) — po zanurzeniu w świecie wirtualnym lub w kontekście swojego środowiska.
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/05/2018
-ms.author: maggies
-ms.openlocfilehash: a9db2854ee7f1c0844e17e3641fc07f1d6aaf154
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.author: mshenhav
+ms.openlocfilehash: 443615a64bee1f4723450c6c8cc3c49feb81989c
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44736991"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54275139"
 ---
 # <a name="power-bi-for-mixed-reality-app-preview"></a>Aplikacja usługi Power BI dla rzeczywistości mieszanej (wersja zapoznawcza)
 Wyświetlaj pulpity nawigacyjne i raporty w aplikacji usługi Power BI dla rzeczywistości mieszanej (wersja zapoznawcza) po zanurzeniu w świecie wirtualnym lub umieszczaj je w konkretnych lokalizacjach w kontekście danego środowiska. 
 
-[Pobierz aplikację usługi Power BI dla rzeczywistości mieszanej](https://www.microsoft.com/p/power-bi-mobile/9nblgggzlxn1?activetab=pivot%3aoverviewtab) ze Sklepu Windows: w Sklepie Windows ta aplikacja nosi nazwę „Power BI dla urządzeń przenośnych”. Wchodź w interakcje z pulpitami nawigacyjnymi i raportami w świecie wirtualnym, a następnie wybieraj te, które chcesz umieścić. 
+[Pobierz aplikację Power BI dla usługi Mixed Reality](https://www.microsoft.com/p/power-bi-mobile/9nblgggzlxn1?activetab=pivot%3aoverviewtab) ze Sklepu Windows: w Sklepie Windows ma ona nazwę „Power BI dla urządzeń przenośnych”. Wchodź w interakcje z pulpitami nawigacyjnymi i raportami w świecie wirtualnym, a następnie wybieraj te, które chcesz umieścić. 
 
 ## <a name="two-views-windows-classic-and-holographic"></a>Dwa widoki: klasyczny widok systemu Windows oraz widok holograficzny
 

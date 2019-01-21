@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 73d9d84552d49ca507fe4b6f9ec022bb7fb98866
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 8535787cb66ad2dc897ff3a3e4ecaccddfaa80f0
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670859"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285121"
 ---
 # <a name="troubleshooting-refresh-scenarios"></a>Rozwiązywanie problemów ze scenariuszami odświeżania
 W tym miejscu możesz znaleźć informacje dotyczące różnych scenariuszy związanych z odświeżaniem danych w usłudze Power BI.
@@ -37,7 +37,7 @@ Poczekaj około 10–15 minut na odzwierciedlenie odświeżenia w kafelkach pulp
 ## <a name="gatewaynotreachable-when-setting-credentials"></a>Błąd GatewayNotReachable podczas ustawiania poświadczeń
 Możesz napotkać błąd GatewayNotReachable podczas próby ustawienia poświadczeń dla źródła danych. Może to być spowodowane przestarzałą bramą.  Zainstaluj najnowszą bramę i spróbuj ponownie.
 
-## <a name="processing-error-the-following-system-error-occurred-type-mismatch"></a>Błąd przetwarzania: Wystąpił następujący błąd systemu: niezgodność typów
+## <a name="processing-error-the-following-system-error-occurred-type-mismatch"></a>Błąd przetwarzania: wystąpił następujący błąd systemu: niezgodność typów
 Ten problem może dotyczyć skryptu M w pliku programu Power BI Desktop lub skoroszycie programu Excel.  Może być również spowodowany przestarzałą wersją programu Power BI Desktop.
 
 ## <a name="tile-refresh-errors"></a>Błędy dotyczące odświeżania kafelka

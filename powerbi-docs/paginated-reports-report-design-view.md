@@ -5,16 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: report-builder
+ms.subservice: report-builder
 ms.topic: overview
 ms.date: 11/05/2018
 ms.author: maggies
-ms.openlocfilehash: dc811c5f6c6a7d5d428591eb7afd1665cda6dbb0
-ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
+ms.openlocfilehash: 85950e2510147c3bed36d4911360f7c365c79da6
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "52900456"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54283534"
 ---
 # <a name="getting-around-in-report-design-view-for-paginated-reports-preview"></a>Poruszanie się w widoku projektu raportu dla raportów podzielonych na strony (wersja zapoznawcza)
 
@@ -88,7 +88,7 @@ Rozmiar powierzchni projektowej może różnić się od obszaru wydruku dla rozm
  W zależności od właściwości można ustawić wartość właściwości z listy rozwijanej, wpisać wartość lub wybrać element `<Expression>` w celu utworzenia wyrażenia.  
   
 ### <a name="changing-the-properties-pane-view"></a>Zmienianie widoku okienka właściwości  
- Domyślnie właściwości wyświetlane w okienku Właściwości są organizowane w ramach obszernych kategorii, takich jak Akcja, Obramowanie, Wypełnienie, Czcionka i Ogólne. Każda kategoria ma skojarzony zestaw właściwości. Na przykład kategoria Czcionka ma następujące właściwości: Color, FontFamily, FontSize, FontStyle, FontWeight, LineHeight i TextDecoration. Jeśli chcesz, możesz również uporządkować wszystkie właściwości wyświetlane w okienku alfabetycznie. Spowoduje to usunięcie kategorii i wyświetlenie listy wszystkich właściwości w porządku alfabetycznym, niezależnie od ich kategorii.  
+ Domyślnie właściwości wyświetlane w okienku Właściwości są organizowane w ramach obszernych kategorii, takich jak Akcja, Obramowanie, Wypełnienie, Czcionka i Ogólne. Każda kategoria ma skojarzony zestaw właściwości. Na przykład następujące właściwości są wymienione w kategorii Czcionka: Color, FontFamily, FontSize, FontStyle, FontWeight, LineHeight i TextDecoration. Jeśli chcesz, możesz również uporządkować wszystkie właściwości wyświetlane w okienku alfabetycznie. Spowoduje to usunięcie kategorii i wyświetlenie listy wszystkich właściwości w porządku alfabetycznym, niezależnie od ich kategorii.  
   
  W górnej części okienka Właściwości znajdują się trzy przyciski: **Kategoria**, **Uporządkuj alfabetycznie** i **Strona właściwości**. Aby przełączać się między widokami okienka Właściwości, należy wybierać przyciski Kategoria i Uporządkuj alfabetycznie. Wybierz przycisk **Strona właściwości**, aby otworzyć okno dialogowe właściwości wybranego elementu raportu.  
   

@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-gateways
+ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: da8fb3da7ea0e4f0457951bc421a5f207c3c6911
-ms.sourcegitcommit: 47269676aa600e60ec7ba0e323941a71e0622833
+ms.openlocfilehash: b1c74968365db59d51f7c0a7bdb356552cc75596
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/08/2018
-ms.locfileid: "51273315"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54283787"
 ---
 # <a name="on-premises-data-gateway-faq"></a>Lokalna brama danych — często zadawane pytania
 <!-- Shared FAQ shared Include -->
@@ -60,7 +60,7 @@ ms.locfileid: "51273315"
 **Pytanie:** Czy mogę przekazać skoroszyty programu Excel z modelami danych dodatku Power Pivot, które nawiązują połączenie z lokalnymi źródłami danych? Czy na potrzeby takiego scenariusza wymagana jest brama?  
 **Odpowiedź:** Tak, możesz przekazać skoroszyt. Brama nie jest potrzebna. Ponieważ jednak dane będą znajdować się w modelu danych programu Excel, raporty w usłudze Power BI oparte na skoroszycie programu Excel nie będą raportami na żywo. Aby odświeżyć raporty w usłudze Power BI, za każdym razem konieczne będzie ponowne przekazanie zaktualizowanego skoroszytu. Możesz też użyć bramy z funkcją zaplanowanego odświeżania.
 
-**Pytanie:** Jeśli użytkownicy udostępniają pulpity nawigacyjne z połączeniem zapytania bezpośredniego, to czy inni użytkownicy będą mogli wyświetlać dane, nawet jeśli nie będą mieli takich samych uprawnień?  
+**Pytanie:** Jeśli użytkownicy udostępniają pulpity nawigacyjne z połączeniem DirectQuery, to czy inni użytkownicy będą mogli wyświetlać dane, nawet jeśli nie będą mieli takich samych uprawnień?  
 **Odpowiedź:** W przypadku pulpitu nawigacyjnego połączonego z usługami Analysis Services dla użytkowników będą widoczne tylko te dane, do których mają dostęp. Jeśli użytkownicy nie mają takich samych uprawnień, nie będą dla nich widoczne żadne dane. W przypadku innych źródeł danych wszyscy użytkownicy będą współdzielić poświadczenia wprowadzone przez administratora dla danego źródła danych.
 
 **Pytanie:** Dlaczego nie mogę nawiązać połączenia ze swoim serwerem Oracle?  

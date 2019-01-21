@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/16/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 328c8ab2e236f0ddc0c5116c1f76d343999193ab
-ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
+ms.openlocfilehash: 774a90b946be30d26217a450edff541136bdb863
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52157384"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54283856"
 ---
 # <a name="add-a-filter-to-a-report-in-editing-view"></a>Dodawanie filtru do raportu w widoku do edycji
 
@@ -24,7 +24,7 @@ W tym artykule przedstawiono sposób dodawania filtru strony, filtru wizualnego,
 **Czy wiesz?** Usługa Power BI oferuje nową funkcję filtrowania — obecnie w wersji zapoznawczej. Przeczytaj więcej na temat [nowej funkcji filtrowania w raportach usługi Power BI](power-bi-report-filter-preview.md).
 
 ## <a name="filters-in-editing-view-or-reading-view"></a>Filtry w widoku do edycji lub w widoku do czytania
-Interakcje z raportami można przeprowadzać w dwóch różnych widokach: widoku do czytania i widoku do edycji. Dostępne możliwości filtrowania zależą od widoku, w którym się znajdujesz. Przeczytaj temat opisujący [filtry i wyróżnianie w raportach usługi Power BI](power-bi-reports-filters-and-highlighting.md), aby uzyskać szczegółowe informacje.
+Interakcje z raportami można przeprowadzać w dwóch różnych widokach: Widok do czytania i Widok do edycji. Dostępne możliwości filtrowania zależą od widoku, w którym się znajdujesz. Przeczytaj temat opisujący [filtry i wyróżnianie w raportach usługi Power BI](power-bi-reports-filters-and-highlighting.md), aby uzyskać szczegółowe informacje.
 
 W tym artykule opisano sposób tworzenia filtrów w **widoku do edycji** raportu.  Aby uzyskać więcej informacji o filtrach w widoku do czytania, zobacz temat [Interakcja z filtrami w widoku do czytania raportu](consumer/end-user-reading-view.md).
 

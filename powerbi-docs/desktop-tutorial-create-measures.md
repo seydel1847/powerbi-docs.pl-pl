@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: tutorial
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 85c16822a51bc3c4a59bbfaa363f742f77552b72
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: ba9cc81c966ebadb2aaff8c339b8a151aef7b6fd
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578640"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54287606"
 ---
 # <a name="tutorial-create-your-own-measures-in-power-bi-desktop"></a>Samouczek: Tworzenie własnych miar w programie Power BI Desktop
 Dzięki miarom możesz tworzyć jedne z najbardziej zaawansowanych rozwiązań analizy danych w programie Power BI Desktop. Miary pomagają w wykonywaniu obliczeń na danych podczas wchodzenia w interakcje z raportami. Ten samouczek przeprowadzi Cię przez informacje umożliwiające tworzenie własnych podstawowych miar w programie Power BI Desktop i ich interpretację.
@@ -23,7 +23,7 @@ Dzięki miarom możesz tworzyć jedne z najbardziej zaawansowanych rozwiązań a
 ### <a name="prerequisites"></a>Wymagania wstępne
 - Ten samouczek jest przeznaczony dla użytkowników usługi Power BI, którzy są już zaznajomieni z używaniem programu Power BI Desktop na potrzeby tworzenia bardziej zaawansowanych modeli. Należy zapoznać się z używaniem funkcji Pobierz dane i Edytor zapytań w celu importowania danych, pracą z wieloma powiązanymi tabelami oraz dodawaniem pól do kanwy raportów. Jeśli jesteś nowym użytkownikiem programu Power BI Desktop, zapoznaj się z tematem [Wprowadzenie do programu Power BI Desktop](desktop-getting-started.md).
   
-- Pobierz plik [Contoso Sales Sample for Power BI Desktop](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20Sample%20for%20Power%20BI%20Desktop.zip), który zawiera dane dotyczące sprzedaży internetowej fikcyjnej firmy, Contoso, Inc. Te dane zostały zaimportowane z bazy danych, dlatego nie będzie można połączyć się ze źródłem danych ani wyświetlić go w Edytorze zapytań. Wyodrębnij plik na swoim komputerze, a następnie otwórz go w programie Power BI Desktop.
+- Pobierz plik [Contoso Sales Sample for Power BI Desktop](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20Sample%20for%20Power%20BI%20Desktop.zip), który zawiera dane dotyczące sprzedaży online fikcyjnej firmy Contoso, Inc. Te dane zostały zaimportowane z bazy danych, dlatego nie będzie można nawiązać połączenia ze źródłem danych ani wyświetlić go w edytorze zapytań. Wyodrębnij plik na swoim komputerze, a następnie otwórz go w programie Power BI Desktop.
 
 ## <a name="understand-measures"></a>Informacje o miarach
 

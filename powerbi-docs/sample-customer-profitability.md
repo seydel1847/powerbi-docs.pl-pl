@@ -1,23 +1,23 @@
 ---
-title: 'Próbka danych dotyczących zyskowności klientów dla usługi Power BI: krótki przewodnik'
-description: 'Próbka danych dotyczących zyskowności klientów dla usługi Power BI: krótki przewodnik'
+title: 'Przykład Customer Profitability dla usługi Power BI: Zapoznaj się z przewodnikiem'
+description: 'Przykład Customer Profitability dla usługi Power BI: Zapoznaj się z przewodnikiem'
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/23/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: a47a63311dd28f2f1f313bc0a5cfcd68cdb0401b
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 3dd4f5f0404737685757400202d3a92767e44189
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717981"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54280843"
 ---
-# <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Próbka danych dotyczących zyskowności klientów dla usługi Power BI: krótki przewodnik
+# <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Przykład Customer Profitability dla usługi Power BI: Zapoznaj się z przewodnikiem
 
 ## <a name="overview-of-the-customer-profitability-sample"></a>Omówienie przykładu Próbka zyskowności klientów
 Pakiet zawartości „Customer Profitability Sample” zawiera pulpit nawigacyjny, raport i zestaw danych dotyczące firmy produkującej materiały marketingowe. Ten pulpit nawigacyjny został utworzony przez dyrektora finansowego w celu wyświetlenia kluczowych metryk dotyczących pięciu menedżerów jednostki biznesowej (dyrektorów), produktów, klientów i marży brutto (GM). W skrócie dyrektor może zobaczyć czynniki, które wpływają na zyskowność.
@@ -195,7 +195,7 @@ Pracując na danych w tym środowisku, nie musisz się niczego obawiać. Zawsze 
 
 Możesz również [pobrać sam zestaw danych (skoroszyt programu Excel) omawiany w tym przykładzie](http://go.microsoft.com/fwlink/?LinkId=529781).
 
-## <a name="next-steps-connect-to-your-data"></a>Następne kroki: łączenie z danymi
+## <a name="next-steps-connect-to-your-data"></a>Następne kroki: Łączenie z danymi
 Mamy nadzieję, że dzięki temu przewodnikowi wiesz już, że pulpity nawigacyjne usługi Power BI, aparat Pytania i odpowiedzi oraz raporty mogą okazać się niezastąpione w uzyskiwaniu informacji o danych dotyczących klienta. Teraz Twoja kolej — połącz się ze swoimi danymi. Usługa Power BI umożliwia nawiązanie połączenia z różnymi źródłami danych. Dowiedz się więcej o [rozpoczynaniu pracy z usługą Power BI](service-get-started.md).
 
 [Powrót do przykładowych danych w usłudze Power BI](sample-datasets.md)  

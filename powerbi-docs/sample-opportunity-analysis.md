@@ -1,23 +1,23 @@
 ---
-title: 'Próbka danych do analizy szans biznesowych dla usługi Power BI: krótki przewodnik'
-description: 'Próbka danych do analizy szans biznesowych dla usługi Power BI: krótki przewodnik'
+title: 'Przykład Opportunity Analysis dla usługi Power BI: Zapoznaj się z przewodnikiem'
+description: 'Przykład Opportunity Analysis dla usługi Power BI: Zapoznaj się z przewodnikiem'
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 05/20/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 12bc6039f7b6580782d3dfac181443caa6557447
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 7f7b9d09b3761a5a02bdf4f706c6470b7d8cf2b6
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717498"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54275530"
 ---
-# <a name="opportunity-analysis-sample-for-power-bi-take-a-tour"></a>Próbka danych do analizy szans biznesowych dla usługi Power BI: krótki przewodnik
+# <a name="opportunity-analysis-sample-for-power-bi-take-a-tour"></a>Przykład Opportunity Analysis dla usługi Power BI: Zapoznaj się z przewodnikiem
 
 ## <a name="overview-of-the-opportunity-analysis-sample"></a>Omówienie przykładu Opportunity Analysis
 **Przykład Opportunity Analysis** zawiera pulpit nawigacyjny (oraz skojarzony raport) dotyczący firmy zajmującej się oprogramowaniem, która posiada 2 kanały sprzedaży: *bezpośredni* i *partnerski*. Menedżer ds. sprzedaży utworzył ten pulpit nawigacyjny, aby śledzić możliwości biznesowe i przychody wg regionu, wielkości umowy i kanału.
@@ -121,7 +121,7 @@ Dyrektor finansowy używa tej strony do zarządzania obciążeniami. Przyglądaj
 
 Pracując na danych w tym środowisku, nie musisz się niczego obawiać. Zawsze możesz zrezygnować z zapisania wprowadzonych zmian. Jeśli jednak je zapiszesz, możesz przejść do obszaru **Pobieranie danych** i pobrać nową kopię zestawu danych użytego w tym przykładzie.
 
-## <a name="next-steps-connect-to-your-data"></a>Następne kroki: łączenie z danymi
+## <a name="next-steps-connect-to-your-data"></a>Następne kroki: Łączenie z danymi
 Mamy nadzieję, że dzięki temu przewodnikowi wiesz już, że pytania i odpowiedzi, raporty oraz pulpity nawigacyjne usługi Power BI mogą okazać się niezastąpione w uzyskiwaniu szczegółowych informacji pod kątem śledzenia szans biznesowych. Teraz Twoja kolej. Połącz się ze swoimi danymi. Usługa Power BI umożliwia nawiązanie połączenia z różnymi źródłami danych. Dowiedz się więcej o [rozpoczynaniu pracy z usługą Power BI](service-get-started.md).
 
 [Pobierz przykłady](sample-datasets.md)  

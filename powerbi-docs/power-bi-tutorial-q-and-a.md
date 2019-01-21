@@ -4,19 +4,19 @@ description: Samouczek dotyczący sposobu użycia funkcji pytań i odpowiedzi us
 author: maggiesMSFT
 manager: kfile
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 9ca771d200f5bd4b50dfbddbd8eb67931be375c1
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: c139d5561a19dab147610914bc11e1bfd9e9e481
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52830015"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54277370"
 ---
-# <a name="tutorial-how-to-use-qa-to-create-visualizations-and-build-reports"></a>Samouczek: używanie funkcji pytań i odpowiedzi do tworzenia wizualizacji i konstruowania raportów
+# <a name="tutorial-how-to-use-qa-to-create-visualizations-and-build-reports"></a>Samouczek: jak używać funkcji pytań i odpowiedzi do tworzenia wizualizacji i kompilowania raportów
 [Omówienie funkcji pytań i odpowiedzi](consumer/end-user-q-and-a.md) zapewniło wprowadzenie do funkcji pytań i odpowiedzi usługi Power BI oraz przedstawiło rozróżnienie między *użytkownikami* (osobami, którym udostępniono pulpity nawigacyjne i raporty) a *twórcami* (właścicielami podstawowych raportów i zestawów danych). Pierwsza część tego samouczka jest przeznaczona głównie dla osób korzystających z pulpitów nawigacyjnych przy użyciu usługi Power BI. Natomiast druga część jest przeznaczona dla osób tworzących raporty za pomocą usługi Power BI albo programu Power BI Desktop. Tematy [Funkcja pytań i odpowiedzi a usługa Power BI dla urządzeń przenośnych](consumer/mobile/mobile-apps-ios-qna.md) i [Funkcja pytań i odpowiedzi w usłudze Power BI Embedded](developer/qanda.md) zostały opisane w oddzielnych artykułach.
 
 Funkcja pytań i odpowiedzi jest interaktywna i nawet przyjemna, a często jedno pytanie będzie prowadziło do wielu innych, ponieważ wizualizacje ujawniają ciekawe ścieżki do tropienia. Zobacz, jak Amanda demonstruje używanie funkcji pytań i odpowiedzi do tworzenia wizualizacji, zagłębiania się w nie i przypinania ich do pulpitów nawigacyjnych.

@@ -1,4 +1,12 @@
-W tym artykule badamy niektóre zaawansowane techniki importowania i czyszczenia danych w programie **Power BI Desktop**. Po ukształtowaniu danych w **Edytorze zapytań** i przekazaniu ich do programu **Power BI Desktop** możesz przyjrzeć się im na kilka różnych sposobów. Program Power BI Desktop zawiera trzy różne widoki: **Raport**, **Dane** i **Relacje**. Każdy z widoków możesz wyświetlić, wybierając jego ikonę w lewej górnej części kanwy. Na poniższym obrazie jest wybrany widok **Raport**. Żółty pasek obok ikony wskazuje, który widok jest aktywny.
+---
+ms.openlocfilehash: 9eff90168ea221a269a8b5ded712645cca01cd9f
+ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
+ms.translationtype: HT
+ms.contentlocale: pl-PL
+ms.lasthandoff: 01/08/2019
+ms.locfileid: "54083972"
+---
+W tym artykule badamy niektóre zaawansowane techniki importowania i czyszczenia danych w programie **Power BI Desktop**. Po ukształtowaniu danych w **Edytorze zapytań** i przekazaniu ich do programu **Power BI Desktop** możesz przyjrzeć się im na kilka różnych sposobów. W programie Power BI Desktop istnieją trzy widoki: widok **Raport**, widok **Dane** i widok **Relacje**. Każdy z widoków możesz wyświetlić, wybierając jego ikonę w lewej górnej części kanwy. Na poniższym obrazie jest wybrany widok **Raport**. Żółty pasek obok ikony wskazuje, który widok jest aktywny.
 
 ![](media/1-4-advanced-data-sources-and-transformation/1-4_1.png)
 

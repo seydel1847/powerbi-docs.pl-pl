@@ -4,17 +4,17 @@ description: Poznaj więcej informacji na temat kroków, które musisz wykonać,
 author: markingmyname
 ms.author: maghan
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: nishalit
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 11/28/2018
-ms.openlocfilehash: 901c087c486598019e905598ee83382664842cc8
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.date: 12/20/2018
+ms.openlocfilehash: 785461290493db59c534a58b548620b6d2f58cd7
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578778"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54284178"
 ---
 # <a name="use-row-level-security-with-power-bi-embedded-content"></a>Używanie zabezpieczeń na poziomie wiersza w osadzonej zawartości usługi Power BI
 
@@ -49,12 +49,12 @@ Poniżej przedstawiono kilka istotnych kwestii dotyczących tego schematu:
 
 * Wszystkie miary, takie jak **Total Sales** (sprzedaż łącznie), są przechowywane w tabeli faktów **Sales** (sprzedaż).
 * Istnieją cztery dodatkowe powiązane tabele wymiarów: **Item** (element), **Time** (czas), **Store** (sklep) i **District** (region).
-* Strzałki w liniach relacji wskazują, w którą stronę filtry mogą przepływać z jednej tabeli do innej. Jeśli na przykład filtr zostanie umieszczony w pozycji **Time[Date]** w bieżącym schemacie będzie filtrować wyłącznie wartości w tabeli **Sales**. Ten filtr nie będzie mieć wpływu na żadne inne tabele, ponieważ wszystkie strzałki w liniach relacji są skierowane do tabeli sprzedaży, a nie od niej.
+* Strzałki w liniach relacji wskazują, w którą stronę filtry mogą przepływać z jednej tabeli do innej. Jeśli na przykład filtr zostanie umieszczony w pozycji **Time[Date]** w bieżącym schemacie będzie filtrować wyłącznie wartości w tabeli **Sales**. Ten filtr nie ma wpływu na żadne inne tabele, ponieważ wszystkie strzałki w liniach relacji są skierowane do tabeli sprzedaży, a nie od niej.
 * Tabela **District** wskazuje menedżera każdego regionu:
   
     ![Wiersze w tabeli District](media/embedded-row-level-security/powerbi-embedded-district-table.png)
 
-Jeśli na podstawie tego schematu zastosujemy filtr do kolumny **District Manager** w tabeli **District** oraz jeśli ten filtr będzie zgodny z użytkownikiem wyświetlającym raport, odfiltruje on tabele **Store** i **Sales** tak, aby pokazywać dane tylko dla tego menedżera regionalnego.
+Jeśli na podstawie tego schematu zastosujemy filtr do kolumny **District Manager** w tabeli **District** oraz jeśli ten filtr będzie zgodny z użytkownikiem wyświetlającym raport, odfiltruje on tabele **Store** i **Sales** tak, aby pokazywać dane dla tego menedżera regionalnego.
 
 Oto kroki tej procedury:
 
@@ -141,7 +141,7 @@ Role można przekazać wraz z tożsamością w tokenie osadzania. Jeśli żadna 
 
 ### <a name="using-the-customdata-feature"></a>Używanie funkcji CustomData
 
-Funkcja CustomData działa tylko w przypadku modeli, które znajdują się w usłudze **Azure Analysis Services**, i tylko w trybie **Połącz na żywo**. W przeciwieństwie do użytkowników i ról funkcji CustomData nie można ustawić w pliku pbix. Podczas generowania tokenu przy użyciu funkcji CustomData wymagane jest określenie nazwy użytkownika.
+Funkcja CustomData działa tylko w przypadku modeli, które znajdują się w usłudze **Azure Analysis Services**, i tylko w trybie **Połącz na żywo**. W przeciwieństwie do użytkowników i ról funkcji danych niestandardowych nie można ustawić w pliku pbix. Podczas generowania tokenu przy użyciu funkcji danych niestandardowych jest wymagane określenie nazwy użytkownika.
 
 Funkcja CustomData umożliwia dodawanie filtru wiersza podczas przeglądania danych usługi Power BI w aplikacji z użyciem usługi **Azure Analysis Services** jako źródła danych (wyświetlanie danych usługi Power BI połączonych z usługą Azure Analysis Services w aplikacji).
 
@@ -213,18 +213,18 @@ Poniżej przedstawiono kroki umożliwiające rozpoczęcie konfigurowania funkcji
 
     ![Przykładowy raport usługi PBI](media/embedded-row-level-security/rls-sample-pbi-report.png)
 
-7. Użyj interfejsów API usługi Power BI, aby korzystać z funkcji CustomData w aplikacji.  Podczas generowania tokenu przy użyciu funkcji CustomData wymagane jest określenie nazwy użytkownika. Nazwa użytkownika musi być nazwą UPN użytkownika głównego. Użytkownik główny musi być członkiem utworzonych ról. Jeśli nie określono żadnych ról, wszystkie role, do których należy użytkownik główny, są używane do oceny zabezpieczeń na poziomie wiersza.
+7. Użyj interfejsów API usługi Power BI, aby korzystać z funkcji CustomData w aplikacji.  Podczas generowania tokenu przy użyciu funkcji danych niestandardowych jest wymagane określenie nazwy użytkownika. Nazwa użytkownika musi być nazwą UPN użytkownika głównego. Użytkownik główny musi być członkiem utworzonych ról. Jeśli nie określono żadnych ról, wszystkie role, do których należy użytkownik główny, są używane do oceny zabezpieczeń na poziomie wiersza.
 
     > [!Note]
     > Gdy wszystko będzie gotowe do wdrożenia aplikacji w środowisku produkcyjnym, opcja ani pole konta użytkownika głównego nie powinny być widoczne dla użytkownika końcowego.
 
     Wyświetl [kod](#customdata-sdk-additions), aby dodać funkcję CustomData.
 
-8. Teraz możesz wyświetlić raport w aplikacji przed zastosowaniem wartości Customdata, aby zobaczyć wszystkie dane przechowywane w raporcie.
+8. Teraz możesz wyświetlić raport w aplikacji przed zastosowaniem wartości danych niestandardowych, aby zobaczyć wszystkie dane przechowywane w raporcie.
 
     ![Przed zastosowaniem danych niestandardowych](media/embedded-row-level-security/customdata-before.png)
 
-    Następnie zastosuj wartości Customdata, aby zobaczyć, jak inny zestaw danych został przedstawiony w raporcie.
+    Następnie zastosuj wartości danych niestandardowych, aby zobaczyć, jak inny zestaw danych został przedstawiony w raporcie.
     ![Po zastosowaniu funkcji CustomData](media/embedded-row-level-security/customdata-after.png)
 
 ## <a name="using-rls-vs-javascript-filters"></a>Porównanie sposobu używania zabezpieczeń na poziomie wiersza i filtrów języka JavaScript
@@ -239,6 +239,75 @@ Podejmując decyzję dotyczącą sposobu filtrowania danych w raporcie, możesz 
 
 [Filtry języka JavaScript](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Filters#page-level-and-visual-level-filters) umożliwiają zezwalanie użytkownikowi na korzystanie z widoku danych zredukowanych, z określonego zakresu lub odfiltrowanych. Użytkownik ma nadal dostęp do miar, kolumn i tabel schematu modelu i może potencjalnie uzyskiwać dostęp do dowolnych danych w tych elementach. Ograniczony dostęp do danych można stosować tylko za pośrednictwem zabezpieczeń na poziomie wiersza, a nie interfejsów API filtrowania po stronie klienta.
 
+## <a name="token-based-identity-with-azure-sql-database-preview"></a>Tożsamość oparta na tokenach w usłudze Azure SQL Database (wersja zapoznawcza)
+
+**Tożsamość oparta na tokenach** umożliwia określanie obowiązującej tożsamości dla tokenu osadzania przy użyciu tokenu dostępu usługi **Azure Active Directory (AAD)** dla usługi **Azure SQL Database**.
+
+Klienci, którzy przechowują swoje dane w usłudze **Azure SQL Database**, mogą teraz korzystać z zalet nowej funkcji umożliwiającej zarządzanie użytkownikami i ich dostępem do danych w usługach SQL Azure, przeprowadzając integrację z usługą **Power BI Embedded**.
+
+Podczas generowania tokenu osadzania można określić obowiązującą tożsamość użytkownika w usługach SQL Azure. W tym celu można przekazać token dostępu usługi AAD na serwer. Token dostępu jest używany do ściągania tylko danych właściwych dla użytkownika z usług SQL Azure w ramach określonej sesji.
+
+Token może służyć do zarządzania widokiem poszczególnych użytkowników w usługach SQL Azure lub do logowania się do usług SQL Azure jako określony klient w bazie danych z wieloma dzierżawami. Można go również używać w celu zastosowania zabezpieczeń na poziomie wiersza w ramach danej sesji w usługach SQL Azure i pobrania tylko danych istotnych dla tej sesji, eliminując w ten sposób konieczność zarządzania zabezpieczeniami na poziomie wiersza w usłudze Power BI.
+
+Te zagadnienia związane z obowiązującą tożsamością mają zastosowanie do reguł zabezpieczeń na poziomie wiersza bezpośrednio w programie SQL Server na platformie Azure. Usługa Power BI Embedded używa podanego tokenu dostępu podczas wykonywania zapytań dotyczących danych z programu SQL Server na platformie Azure. Nazwa UPN użytkownika (dla której podano token dostępu) jest dostępna jako wynik działania funkcji języka SQL USER_NAME().
+
+Tożsamość oparta na tokenach działa tylko w przypadku modeli w trybie DirectQuery w ramach pojemności dedykowanej — połączonej z usługą Azure SQL Database, którą skonfigurowano tak, aby zezwolić na uwierzytelnianie usługi AAD ([dowiedz się więcej na temat uwierzytelniania usługi AAD dla usługi Azure SQL Database](https://docs.microsoft.com/azure/sql-database/sql-database-manage-logins)). Źródło danych zestawu danych musi zostać skonfigurowane do używania poświadczeń OAuth2 użytkowników końcowych w celu korzystania z tożsamości opartej na tokenach.
+
+   ![Konfigurowanie serwera SQL platformy Azure](media/embedded-row-level-security/token-based-configure-azure-sql-db.png)
+
+### <a name="token-based-identity-sdk-additions"></a>Dodatki zestawu SDK tożsamości opartej na tokenach
+
+Właściwość obiektu blob tożsamości została dodana do obowiązującej tożsamości w scenariuszu generowania tokenu.
+
+```JSON
+[JsonProperty(PropertyName = "identityBlob")]
+public IdentityBlob IdentityBlob { get; set; }
+```
+
+Typ IdentityBlob jest prostą strukturą JSON zawierającą właściwość ciągu wartości
+
+```JSON
+[JsonProperty(PropertyName = "value")]
+public string value { get; set; }
+```
+
+Tożsamość EffectiveIdentity można utworzyć przy użyciu obiektu blob tożsamości za pomocą następującego wywołania:
+
+```C#
+public EffectiveIdentity(string username, IList<string> datasets, IList<string> roles = null, string customData = null, IdentityBlob identityBlob = null);
+```
+
+Obiekt blob tożsamości można utworzyć za pomocą poniższego wywołania.
+
+```C#
+public IdentityBlob(string value);
+```
+
+### <a name="token-based-identity-rest-api-usage"></a>Użycie interfejsu API REST tożsamości opartej na tokenach
+
+W przypadku wywoływania [interfejsu API REST](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetoken#definitions) możesz dodać obiekt blob tożsamości wewnątrz każdej tożsamości.
+
+```JSON
+{
+    "accessLevel": "View",
+    "identities": [
+        {
+            "datasets": ["fe0a1aeb-f6a4-4b27-a2d3-b5df3bb28bdc"],
+        “identityBlob”: {
+            “value”: “eyJ0eXAiOiJKV1QiLCJh….”
+         }
+        }
+    ]
+}
+```
+
+Wartość podana w obiekcie blob tożsamości powinna być prawidłowym tokenem dostępu do programu SQL Server na platformie Azure (z adresem URL zasobów <https://database.windows.net/>).
+
+   > [!Note]
+   > Aby można było utworzyć token dostępu dla usług SQL Azure, aplikacja musi mieć delegowane uprawnienie **Dostęp do usług Azure SQL DB i Data Warehouse** do interfejsu API usługi **Azure SQL Database** w konfiguracji rejestracji aplikacji usługi AAD w witrynie Azure Portal.
+
+   ![Rejestrowanie aplikacji](media/embedded-row-level-security/token-based-app-reg-azure-portal.png)
+
 ## <a name="considerations-and-limitations"></a>Istotne zagadnienia i ograniczenia
 
 * Przypisywanie użytkowników do ról w usłudze Power BI nie wpływa na zabezpieczenia na poziomie wiersza podczas używania tokenu osadzania.
@@ -248,5 +317,11 @@ Podejmując decyzję dotyczącą sposobu filtrowania danych w raporcie, możesz 
 * Jeśli źródłowy zestaw danych nie wymaga zabezpieczeń RSL, żądanie GenerateToken **nie** może zawierać efektywnej tożsamości.
 * Jeśli źródłowy zestaw danych jest modelem w chmurze (modelem w pamięci podręcznej lub typu DirectQuery), efektywna tożsamość musi zawierać co najmniej jedną rolę. W przeciwnym razie rola nie jest przypisywana.
 * Lista tożsamości może zawierać wiele tokenów tożsamości na potrzeby osadzania pulpitu nawigacyjnego. Dla wszystkich innych artefaktów lista zawiera jedną tożsamość.
+
+### <a name="token-based-identity-limitations-preview"></a>Ograniczenia tożsamości opartej na tokenach (wersja zapoznawcza)
+
+* Ta funkcja ogranicza użycie tylko do usługi Power BI Premium.
+* Ta funkcja nie działa w przypadku programu SQL Server w środowisku lokalnym.
+* Ta funkcja nie działa w przypadku wielu obszarów geograficznych.
 
 Masz więcej pytań? [Zadaj pytanie społeczności usługi Power BI](https://community.powerbi.com/)

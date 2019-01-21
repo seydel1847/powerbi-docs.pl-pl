@@ -7,15 +7,15 @@ ms.author: maggies
 ms.date: 11/20/2018
 ms.topic: overview
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: ee8086a149e752d68aa8d6801844676d038257e3
-ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
+ms.openlocfilehash: 4db2f7ca5a84563e86b3a3033daae6d83bffcf5e
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "52289156"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291990"
 ---
 # <a name="what-is-power-bi-report-server"></a>Co to jest serwer raportów usługi Power BI?
 
@@ -27,7 +27,7 @@ Serwer raportów usługi Power BI to lokalny serwer raportów powiązany z porta
 Serwer raportów usługi Power BI jest podobny do usługi SQL Server Reporting Services i usługi Power BI w trybie online, ale na różne sposoby. Tak jak usługa Power BI, serwer raportów usługi Power BI hostuje raporty usługi Power BI (PBIX) i pliki programu Excel. Podobnie jak usługi Reporting Services, serwer raportów usługi Power BI działa lokalnie i hostuje raporty podzielone na strony (RDL). Serwer raportów usługi Power BI jest nadzbiorem usług Reporting Services: wszystko, co można zrobić w usługach Reporting Services, można zrobić za pomocą serwera raportów usługi Power BI — a ponadto oferuje on obsługę raportów usługi Power BI. Szczegółowe informacje można znaleźć w temacie [Porównanie serwera raportów usługi Power BI i usługi Power BI](compare-report-server-service.md).
 
 ## <a name="licensing-power-bi-report-server"></a>Licencjonowanie serwera raportów usługi Power BI
-Serwer raportów usługi Power BI jest dostępny za pośrednictwem dwóch różnych licencji: [usługi Power BI Premium](../service-premium.md) i [programu SQL Server Enterprise Edition](https://www.microsoft.com/sql-server/sql-server-2017-editions) z pakietem Software Assurance. Licencja usługi Power BI Premium umożliwia tworzenie hybrydowego wdrożenia łączącego chmurę i środowisko lokalne.  
+Serwer raportów usługi Power BI jest dostępny za pośrednictwem dwóch różnych licencji: [Power BI Premium](../service-premium.md) i [SQL Server Enterprise Edition](https://www.microsoft.com/sql-server/sql-server-2017-editions) z pakietem Software Assurance. Licencja usługi Power BI Premium umożliwia tworzenie hybrydowego wdrożenia łączącego chmurę i środowisko lokalne.  
 
 > [!NOTE]
 > W przypadku usługi Power BI Premium, serwer raportów usługi Power BI jest dołączony tylko do jednostek SKU typu P. Nie jest on dołączony do jednostek SKU typu EM.

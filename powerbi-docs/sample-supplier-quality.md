@@ -1,23 +1,23 @@
 ---
-title: 'Próbka danych do analizy jakości dostawców dla usługi Power BI: krótki przewodnik'
-description: 'Próbka danych do analizy jakości dostawców dla usługi Power BI: krótki przewodnik'
+title: 'Przykład Supplier Quality Analysis dla usługi Power BI: Zapoznaj się z przewodnikiem'
+description: 'Przykład Supplier Quality Analysis dla usługi Power BI: Zapoznaj się z przewodnikiem'
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 08/06/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 0b214e2c08e6a39e4b09643c02bccedb56d5b9f4
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 3ef48bbe55793825693382252ac143068549d7a8
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717659"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54292989"
 ---
-# <a name="supplier-quality-analysis-sample-for-power-bi-take-a-tour"></a>Próbka danych do analizy jakości dostawców dla usługi Power BI: krótki przewodnik
+# <a name="supplier-quality-analysis-sample-for-power-bi-take-a-tour"></a>Przykład Supplier Quality Analysis dla usługi Power BI: Zapoznaj się z przewodnikiem
 
 ## <a name="a-brief-overview-of-the-supplier-quality-analysis-sample"></a>Krótkie omówienie przykładu Supplier Quality Analysis
 Ten przykładowy pulpit nawigacyjny dla branży i raport będący jego podstawą koncentrują się na jednym z typowych wyzwań związanych z łańcuchem zaopatrzenia — analizie jakości usług dostawców.
@@ -46,7 +46,7 @@ Są to prawdziwe dane pochodzące z firmy obviEnce ([www.obvience.com](http://ww
    ![](media/sample-datasets/power-bi-samples-icon.png)
 4. Wybierz pozycję **Przykład Supplier Quality Analysis**, a następnie wybierz polecenie **Połącz**.  
   
-   ![Przykład Supplier Quality Analysis](media/sample-supplier-quality/supplier16.png)
+   ![Próbka analizy jakości dostawców](media/sample-supplier-quality/supplier16.png)
    
 5. Usługa Power BI zaimportuje pakiet zawartości i doda nowy pulpit nawigacyjny, raport oraz zestaw danych do bieżącego obszaru roboczego. Nowa zawartość jest oznaczona żółtą gwiazdką. 
    
@@ -167,5 +167,5 @@ Przyjrzyjmy się innemu kafelkowi pulpitu nawigacyjnego związanemu z łączną 
 
 Pracując na danych w tym środowisku, nie musisz się niczego obawiać. Zawsze możesz zrezygnować z zapisania wprowadzonych zmian. Jeśli jednak je zapiszesz, możesz przejść do obszaru **Pobieranie danych** i pobrać nową kopię zestawu danych użytego w tym przykładzie.
 
-## <a name="next-steps-connect-to-your-data"></a>Następne kroki: łączenie z danymi
+## <a name="next-steps-connect-to-your-data"></a>Następne kroki: Łączenie z danymi
 Mamy nadzieję, że dzięki temu przewodnikowi wiesz już, że pulpity nawigacyjne usługi Power BI, funkcja pytań i odpowiedzi oraz raporty mogą okazać się niezastąpione w uzyskiwaniu danych o jakości dostawcy. Teraz Twoja kolej. Połącz się ze swoimi danymi. Usługa Power BI umożliwia nawiązanie połączenia z różnymi źródłami danych. Dowiedz się więcej o [rozpoczynaniu pracy z usługą Power BI](service-get-started.md).

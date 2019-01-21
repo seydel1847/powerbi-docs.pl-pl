@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-gateways
+ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 12/14/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 263c1a576e939a87e970cc2c0200dfb6c1ccdc41
-ms.sourcegitcommit: 47269676aa600e60ec7ba0e323941a71e0622833
+ms.openlocfilehash: 512b189575acd7651dea8747c36e8666875edae5
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/08/2018
-ms.locfileid: "51273338"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54295752"
 ---
 # <a name="on-premises-data-gateway-personal-mode"></a>Lokalna brama danych (tryb osobisty)
 Przy użyciu bramy można korzystać z lokalnych źródeł danych oraz tworzyć raporty i pulpity nawigacyjne usługi Power BI. **Brama** to oprogramowanie ułatwiające dostęp do danych przechowywanych w prywatnej sieci lokalnej i umożliwiające użycie tych danych w usługach online, takich jak usługa **Power BI**. **Lokalna brama danych (tryb osobisty)** to udostępniona niedawno aktualizacja bramy usługi Power BI, umożliwiająca użytkownikom indywidualnym zainstalowanie bramy na własnym komputerze w celu uzyskania dostępu do danych lokalnych.
@@ -117,7 +117,7 @@ Wprowadzenie obsługi źródeł danych Spark jest planowane w drugiej połowie r
   * **Odpowiedź**: Tak, w przypadku nowej wersji można używać obu wariantów jednocześnie.
 * Czy można używać **Lokalnej bramy danych (tryb osobisty)** jako usługi?
   
-  * **Odpowiedź:** Nie. **Lokalna brama danych (tryb osobisty)** może być używana tylko jako aplikacja. Jeśli chcesz używać bramy jako usługi i/lub w trybie administratora, rozważ użycie [**lokalnej bramy danych**](service-gateway-onprem.md) (dawniej: bramy przedsiębiorstwa).
+  * **Odpowiedź**: Nie. **Lokalna brama danych (tryb osobisty)** może być używana tylko jako aplikacja. Jeśli chcesz używać bramy jako usługi i/lub w trybie administratora, rozważ użycie [**lokalnej bramy danych**](service-gateway-onprem.md) (dawniej: bramy przedsiębiorstwa).
 * Jak często jest aktualizowana **Lokalna brama danych (tryb osobisty)**?
   
   * **Odpowiedź**: Planujemy comiesięczne aktualizowanie bramy osobistej.

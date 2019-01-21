@@ -6,15 +6,15 @@ manager: kfile
 ms.author: maghan
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/08/2018
-ms.openlocfilehash: cf489f842d114dbf0ac1add561a93c2ce5499971
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 4654534d9643b9c5cf5911249a0eda33b5cc32af
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37780576"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54277904"
 ---
 # <a name="dataset-properties"></a>Właściwości zestawu danych
 
@@ -28,7 +28,7 @@ Aktualna wersja 1 interfejsu API zestawów danych pozwala tylko na tworzenie zes
 Nazwa  |Typ  |Opis  |Tylko do odczytu  |Wymagane
 ---------|---------|---------|---------|---------
 Identyfikator     |  Guid (identyfikator GUID)       | Unikatowy identyfikator zestawu danych w całym systemie.        | Prawda        | Fałsz        
-name     | String (ciąg)        | Zdefiniowana przez użytkownika nazwa zestawu danych.        | Fałsz        | Prawda        
+nazwa     | String (ciąg)        | Zdefiniowana przez użytkownika nazwa zestawu danych.        | Fałsz        | Prawda        
 tables     | Table[] (tabela[])        | Kolekcja tabel.        |  Fałsz       | Fałsz        
 relationships     | Relationship[] (relacja[])        | Kolekcja relacji między tabelami.        | Fałsz        |  Fałsz  
 defaultMode     | String (ciąg)        | Określa, czy zestaw danych jest wypychany, przesyłany strumieniowo lub używany w ramach obydwu operacji. Dostępne wartości: „Push”, „Streaming” i „PushStreaming”.         | Fałsz        |  Fałsz
@@ -37,16 +37,16 @@ defaultMode     | String (ciąg)        | Określa, czy zestaw danych jest wypyc
 
 Nazwa  |Typ  |Opis  |Tylko do odczytu  |Wymagane
 ---------|---------|---------|---------|---------
-name     | String (ciąg)        |  Nazwa tabeli zdefiniowana przez użytkownika. Jest ona również używana jako identyfikator tabeli.       | Fałsz        |  Prawda       
+nazwa     | String (ciąg)        |  Nazwa tabeli zdefiniowana przez użytkownika. Jest ona również używana jako identyfikator tabeli.       | Fałsz        |  Prawda       
 columns     |  column[] (kolumna[])       |  Kolekcja kolumn.       | Fałsz        |  Prawda       
 measures     | measure[] (miara[])        |  Kolekcja miar.       | Fałsz        |  Fałsz       
 isHidden     | Boolean (wartość logiczna)        | W przypadku wartości Prawda tabela zostanie ukryta przed narzędziami klienta.        | Fałsz        | Fałsz        
 
-## <a name="column"></a>kolumny
+## <a name="column"></a>strukturalna
 
 Nazwa  |Typ  |Opis  |Tylko do odczytu  |Wymagane
 ---------|---------|---------|---------|---------
-name     |  String (ciąg)        | Nazwa kolumny zdefiniowana przez użytkownika.        |  Fałsz       | Prawda       
+nazwa     |  String (ciąg)        | Nazwa kolumny zdefiniowana przez użytkownika.        |  Fałsz       | Prawda       
 dataType     |  String (ciąg)       |  Obsługiwane ograniczenia i [typy danych EDM](https://msdn.microsoft.com/library/ee382832.aspx). Zobacz [Ograniczenia typu danych](#DataTypeRestrictions).      |  Fałsz       | Prawda        
 formatString     | String (ciąg)        | Ciąg opisujący, jak powinna być formatowana wyświetlana wartość. Aby dowiedzieć się więcej na temat formatowania ciągów, zobacz [FORMAT_STRING Contents (Zawartość elementu FORMAT_STRING)](https://msdn.microsoft.com/library/ms146084.aspx).      | Fałsz        | Fałsz        
 sortByColumn    | String (ciąg)        |   Nazwa ciągu kolumny w tej samej tabeli, która ma być używana do porządkowania bieżącej kolumny.     | Fałsz        | Fałsz       
@@ -58,7 +58,7 @@ summarizeBy     | String (ciąg)        |  Domyślna metoda agregacji kolumny. W
 
 Nazwa  |Typ  |Opis  |Tylko do odczytu  |Wymagane
 ---------|---------|---------|---------|---------
-name     | String (ciąg)        |  Nazwa miary zdefiniowana przez użytkownika.       |  Fałsz       | Prawda        
+nazwa     | String (ciąg)        |  Nazwa miary zdefiniowana przez użytkownika.       |  Fałsz       | Prawda        
 expression     | String (ciąg)        | Prawidłowe wyrażenie języka DAX.        | Fałsz        |  Prawda       
 formatString     | String (ciąg)        |  Ciąg opisujący, jak powinna być formatowana wyświetlana wartość. Aby dowiedzieć się więcej na temat formatowania ciągów, zobacz [FORMAT_STRING Contents (Zawartość elementu FORMAT_STRING)](https://msdn.microsoft.com/library/ms146084.aspx).       | Fałsz        | Fałsz        
 isHidden     | String (ciąg)        |  W przypadku wartości Prawda tabela zostanie ukryta przed narzędziami klienta.       |  Fałsz       | Fałsz       
@@ -67,7 +67,7 @@ isHidden     | String (ciąg)        |  W przypadku wartości Prawda tabela zost
 
 Nazwa  |Typ  |Opis  |Tylko do odczytu  |Wymagane 
 ---------|---------|---------|---------|---------
-name     | String (ciąg)        | Nazwa relacji zdefiniowana przez użytkownika. Jest ona również używana jako identyfikator relacji.        | Fałsz       | Prawda        
+nazwa     | String (ciąg)        | Nazwa relacji zdefiniowana przez użytkownika. Jest ona również używana jako identyfikator relacji.        | Fałsz       | Prawda        
 crossFilteringBehavior     | String (ciąg)        |    Kierunek filtru relacji: OneDirection (ustawienie domyślne), BothDirections, Automatic       | Fałsz        | Fałsz        
 fromTable     | String (ciąg)        | Nazwa tabeli klucza obcego.        | Fałsz        | Prawda         
 fromColumn    | String (ciąg)        | Nazwa kolumny klucza obcego.        | Fałsz        | Prawda         

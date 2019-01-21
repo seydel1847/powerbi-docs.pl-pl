@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/01/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 5eb2e63d9bac7249e106ad4c4b525ca3f3ab5cf8
-ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
+ms.openlocfilehash: be4ebfdfa7dca5ce212c2b5d242d87b0001b7750
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "50909599"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54281924"
 ---
 # <a name="get-power-bi-desktop"></a>Uzyskiwanie programu Power BI Desktop
 Program **Power BI Desktop** umożliwia tworzenie zaawansowanych zapytań, modeli i raportów z wizualizowaniem danych. Przy użyciu programu **Power BI Desktop** możesz tworzyć modele danych i raporty oraz udostępniać swoją pracę poprzez publikowanie w usłudze Power BI.  Program **Power BI Desktop** można pobrać bezpłatnie.
@@ -94,10 +94,10 @@ Na poniższej liście przedstawiono minimalne wymagania do uruchomienia programu
 * Windows 7 / Windows Server 2008 R2 lub nowszy
 * .NET 4.5
 * Internet Explorer 9 lub nowszy
-* **Pamięć (RAM):** co najmniej 1 GB dostępnej pamięci, zalecane 1,5 GB lub więcej.
+* **Pamięć (RAM):** co najmniej 1 GB dostępnej pamięci, zalecane 1,5 GB lub więcej.
 * **Ekran:** zalecana rozdzielczość co najmniej 1440 x 900 lub 1600 x 900 (16:9). Nie zaleca się stosowania niższych rozdzielczości, takich jak 1024 x 768 lub 1280 x 800, ponieważ niektóre kontrolki (np. zamknięcie ekranu startowego) są wyświetlane poza tymi rozdzielczościami.
 * **Ustawienia wyświetlania systemu Windows:** jeśli ustawienia wyświetlania zostały skonfigurowane tak, aby zmieniać rozmiar tekstu, aplikacji i innych elementów na wartość ponad 100%, użytkownik może nie zobaczyć niektórych okien dialogowych, które muszą być zamknięte lub na które należy zareagować, aby kontynuować używanie programu **Power BI Desktop**. Jeśli wystąpi ten problem, sprawdź **Ustawienia wyświetlania**, przechodząc do pozycji **Ustawienia > System > Wyświetlanie** w systemie Windows i użyj suwaka, aby przywrócić ustawienia wyświetlania do 100%.
-* **Procesor:** zalecany jest 86- lub 64-bitowy procesor o taktowaniu 1 GHz lub szybszy.
+* **Procesor:** zalecany jest 86- lub 64-bitowy procesor o taktowaniu 1 GHz lub szybszy.
 
 ## <a name="considerations-and-limitations"></a>Istotne zagadnienia i ograniczenia
 
@@ -115,7 +115,7 @@ Zaktualizowanie bieżącej wersji programu Power BI Desktop zwykle rozwiązuje t
 Zalecamy przeprowadzenie aktualizacji do najnowszej wersji programu Power BI Desktop, co pozwoli na korzystanie z zalet funkcji, wydajności, stabilności i innych ulepszeń. Niektóre organizacje mogą zdecydować, że użytkownicy nie będą aktualizować programu do każdej nowej wersji. Aby wyłączyć powiadomienia, można zmodyfikować rejestr, wykonując następujące kroki:
 
 1. W edytorze rejestru przejdź do pozycji *HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Microsoft Power BI Desktop*
-2. Utwórz nowy wpis z następującymi ustawieniami: *REG_DWORD : DisableUpdateNotification*
+2. W tym miejscu utwórz nowy wpis z następującymi ustawieniami: *REG_DWORD: DisableUpdateNotification*
 3. Ustaw wartość nowego wpisu na **1**.
 
 Aby zmiana została zastosowana, trzeba będzie ponownie uruchomić komputer.
@@ -125,7 +125,7 @@ Aby zmiana została zastosowana, trzeba będzie ponownie uruchomić komputer.
 W pewnych okolicznościach, w tym w przypadku niektórych konfiguracji rozdzielczości ekranu, niektórzy użytkownicy mogą zobaczyć, że program Power BI Desktop renderuje zawartość z dużymi czarnymi obszarami. Ogólnie jest to wynik działania najnowszych aktualizacji systemu operacyjnego, które wpływają na sposób renderowania elementów, a nie bezpośredni wynik powiązany ze sposobem wyświetlania zawartości w programie Power BI Desktop. Niezależnie od tego, duże czarne obszary nie są tak atrakcyjne jak fantastyczne wizualizacje, dlatego w celu rozwiązania tego problemu wykonaj następujące kroki:
 
 1. Naciśnij klawisz Start, a następnie wpisz wyraz *blurry* (rozmyte) na wyświetlonym pasku wyszukiwania.
-2. W wyświetlonym oknie dialogowym wybierz opcję: *Let Windows fix apps that are blurry.* (Zezwól systemowi Windows na naprawianie rozmytych aplikacji).
+2. W wyświetlonym oknie dialogowym wybierz opcję: *Pozwól systemowi Windows naprawić rozmyte aplikacje.*
 3. Uruchom ponownie program Power BI Desktop.
 
 Ten problem może zostać rozwiązany po wydaniu kolejnych aktualizacji systemu Windows. 

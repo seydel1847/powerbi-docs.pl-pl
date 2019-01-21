@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/27/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 63b75aae9fb9299119b606458a4a8832d77dd1be
-ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
+ms.openlocfilehash: 196d2ef3eb0d8ed8b7f008eef1b247d9e7f1cd18
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "47417170"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296506"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Przesyłanie strumieniowe w czasie rzeczywistym w usłudze Power BI
 Funkcja przesyłania strumieniowego w czasie rzeczywistym w usłudze Power BI umożliwia przesyłanie strumieniowe danych i aktualizowanie pulpitów nawigacyjnych w czasie rzeczywistym. Wszystkie wizualizacje i pulpity nawigacyjne tworzone w usłudze Power BI można również skonfigurować do wyświetlania i aktualizowania danych oraz wizualizacji w czasie rzeczywistym. Urządzeniami i źródłami danych przesyłania strumieniowego mogą być czujniki fabryczne, źródła mediów społecznościowych, dane użycia usług i wszelkie inne źródła, z których można zbierać lub przesyłać dane zależne od czasu.
@@ -44,7 +44,7 @@ W przypadku przypiętych kafelków zestawu danych wypychania należy zwrócić u
 * Po przypięciu wizualizacji do pulpitu nawigacyjnego można użyć aparatu **Pytania i odpowiedzi**, aby zadawać pytania dotyczące zestawu danych wypychania w języku naturalnym. Po wprowadzeniu zapytania do aparatu **Pytania i odpowiedzi** otrzymaną wizualizację można z powrotem przypiąć do pulpitu nawigacyjnego. Pulpit nawigacyjny *również* zostanie zaktualizowany w czasie rzeczywistym.
 
 ### <a name="streaming-dataset"></a>Zestaw danych przesyłania strumieniowego
-Dane w **zestawie danych przesyłania strumieniowego** są również wypychane do usługi Power BI, z jedną istotną różnicą: usługa Power BI przechowuje dane wyłącznie w tymczasowej pamięci podręcznej, która szybko wygasa. Tymczasowa pamięć podręczna służy wyłącznie do wyświetlania wizualizacji, które stanowią przejściowy element historii, takich jak wykres liniowy z jednogodzinnym przedziałem czasu.
+Za pomocą **zestawu danych przesyłania strumieniowego** dane są również wypychane do usługi Power BI, ale istnieje jedna istotna różnica: usługa Power BI przechowuje dane wyłącznie w tymczasowej pamięci podręcznej, która szybko wygasa. Tymczasowa pamięć podręczna służy wyłącznie do wyświetlania wizualizacji, które stanowią przejściowy element historii, takich jak wykres liniowy z jednogodzinnym przedziałem czasu.
 
 Zestaw danych **przesyłania strumieniowego** *nie* korzysta ze źródłowej bazy danych, *nie można* więc utworzyć wizualizacji raportów przy użyciu danych przesyłanych ze strumienia. W związku z tym nie można korzystać z funkcji raportów, takich jak filtrowanie czy niestandardowe wizualizacje.
 

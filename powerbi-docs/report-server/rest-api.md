@@ -5,16 +5,16 @@ author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 08c8075fe275ff1472d3e9845f954ef4d029b373
-ms.sourcegitcommit: 49570ab8f5b5cd5bab4cd388f4281b1372bcb80b
+ms.openlocfilehash: b7423a5b15f314050ee21b7eed5c3ea7ad960985
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/09/2018
-ms.locfileid: "35250435"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291676"
 ---
 # <a name="develop-with-the-rest-apis-for-power-bi-report-server"></a>Tworzenie dla serwera raportów usługi Power BI przy użyciu interfejsów API REST
 
@@ -30,7 +30,7 @@ W parze żądanie/odpowiedź interfejsu API REST można wyróżnić pięć skła
 
 * **Identyfikator URI żądania**, który składa się z następujących elementów: `{URI-scheme} :// {URI-host} / {resource-path} ? {query-string}`. Mimo że identyfikator URI żądania jest zawarty w nagłówku komunikatu żądania, wymieniamy go oddzielnie, ponieważ większość języków i struktur wymaga jego przekazania poza komunikatem żądania.
   
-  * Schemat identyfikatora URI: określa protokół używany do przesyłania żądania, na przykład `http` lub `https`.
+  * Schemat identyfikatora URI: określa protokół używany do przesyłania żądania. na przykład `http` lub `https`.
   * Host identyfikatora URI: określa nazwę domeny lub adres IP serwera, na którym jest hostowany punkt końcowy usługi REST, na przykład `myserver.contoso.com`.
   * Ścieżka zasobu: określa zasób lub kolekcję zasobów, która może obejmować wiele segmentów używanych przez usługę podczas wybierania tych zasobów. Na przykład do pobrania określonych właściwości klasy CatalogItem można użyć elementu `CatalogItems(01234567-89ab-cdef-0123-456789abcdef)/Properties`.
   * Ciąg zapytania (opcjonalnie): udostępnia dodatkowe proste parametry, takie jak wersja interfejsu API lub kryteria wybierania zasobów.

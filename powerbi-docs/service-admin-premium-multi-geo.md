@@ -6,22 +6,22 @@ ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-admin
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 11/20/2018
 LocalizationGroup: Premium
-ms.openlocfilehash: 91e1880e1a879ee98d65d6ad91b26e534e807040
-ms.sourcegitcommit: a13abdb5a6c0c6a397b328ec2d68788ce3afa866
+ms.openlocfilehash: 4b91ac08001118c6a0241cdd1caf32ebfd9098f2
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/21/2018
-ms.locfileid: "52268302"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291722"
 ---
 # <a name="multi-geo-support-for-power-bi-premium-preview"></a>Obsługa funkcji Multi-Geo dla usługi Power BI Premium (wersja zapoznawcza)
 
 Multi-Geo to funkcja usługi Power BI Premium, która pomaga klientom z wielu krajów spełniać wymagania dotyczące miejsc przechowywania danych regionalnych, specyficznych dla branży lub organizacyjnych. Jako klient usługi Power BI Premium możesz wdrażać zawartość do centrów danych w regionach innych niż region lokalny dzierżawy usługi Power BI. Obszar geograficzny (geografia) może zawierać więcej niż jeden regionie. Na przykład Stany Zjednoczone to obszar geograficzny, a Zachodnio-środkowe stany USA i Południowo-środkowe stany USA to regiony w Stanach Zjednoczonych. Zawartość można wdrażać w dowolnych spośród następujących obszarów geograficznych:
 
-- United States
+- Stany Zjednoczone
 - Kanada
 - Zjednoczone Królestwo
 - Brazylia
@@ -43,7 +43,7 @@ W przypadku nowych pojemności należy włączyć funkcję Multi-Geo, wybierają
 
 Utworzona pojemność pozostaje w danym regionie, a zawartość wszystkich utworzonych obszarów roboczych będzie przechowywana w danym regionie. Obszary robocze można migrować z jednego regionu do innego za pomocą listy rozwijanej na ekranie ustawień obszaru roboczego.
 
-![Edytowanie obszaru roboczego: wybierz dostępną pojemność. Funkcja Multi-Geo usługi Power BI](media/service-admin-premium-multi-geo/power-bi-multi-geo-edit-workspace.png)
+![Edytuj obszar roboczy: wybierz dostępną pojemność. Funkcja Multi-Geo usługi Power BI](media/service-admin-premium-multi-geo/power-bi-multi-geo-edit-workspace.png)
 
 Jeśli widzisz ten ekran, musisz potwierdzić zmianę.
 
@@ -98,7 +98,7 @@ Obszary robocze można przenosić poza pojemność funkcji Multi-Geo na jeden z 
 
 ## <a name="next-steps"></a>Następne kroki
 
-- [Power BI Premium — co to jest?](service-premium.md)
+- [Power BI Premium: co to jest?](service-premium.md)
 - [Funkcja Multi-Geo dla pojemności usługi Power BI Embedded](developer/embedded-multi-geo.md)
 
 Masz więcej pytań? [Zadaj pytanie społeczności usługi Power BI](http://community.powerbi.com/)

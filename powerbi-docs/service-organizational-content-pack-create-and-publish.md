@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4638842217127c1d80ec115e05f8db1a6d3eb36c
-ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
+ms.openlocfilehash: 3a434c418e8a385db921dd910f354bda04ad8edd
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "51679046"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54289330"
 ---
 # <a name="create-and-publish-a-power-bi-organizational-content-pack-tutorial"></a>Tworzenie i publikowanie organizacyjnego pakietu zawartości w usłudze Power BI (samouczek)
 
@@ -53,7 +53,7 @@ Chcesz z niego skorzystać? W [usłudze Power BI](https://powerbi.com) przejdź 
       > 
       > 
    
-   3. Zalecenie: dodaj **opis**. Dzięki temu współpracownicy będą mogli łatwiej znaleźć pakiety zawartości, których potrzebują. Poza opisem dodaj słowa kluczowe, których współpracownicy mogą używać do wyszukiwania tego pakietu zawartości. Dołącz informacje kontaktowe, które są przydatne, jeśli współpracownicy mają pytania lub potrzebują pomocy.
+   3. Zalecane: dodaj **opis**. Dzięki temu współpracownicy będą mogli łatwiej znaleźć pakiety zawartości, których potrzebują. Poza opisem dodaj słowa kluczowe, których współpracownicy mogą używać do wyszukiwania tego pakietu zawartości. Dołącz informacje kontaktowe, które są przydatne, jeśli współpracownicy mają pytania lub potrzebują pomocy.
    
    4. **Przekaż obraz lub logo**, aby członkowie grupy mogli łatwiej znaleźć pakiet zawartości &#151; szybciej szuka się obrazu niż treści tekstowej. Na poniższym zrzucie ekranu użyliśmy obrazu kafelka wykresu kolumnowego Opportunity Count 100%.
    

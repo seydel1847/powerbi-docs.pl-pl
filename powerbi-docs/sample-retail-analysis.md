@@ -1,23 +1,23 @@
 ---
-title: 'Próbka analizy handlu detalicznego dla usługi Power BI: krótki przewodnik'
-description: 'Próbka analizy handlu detalicznego dla usługi Power BI: krótki przewodnik'
+title: 'Przykład Retail Analysis dla usługi Power BI: Zapoznaj się z przewodnikiem'
+description: 'Przykład Retail Analysis dla usługi Power BI: Zapoznaj się z przewodnikiem'
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/24/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: c07c33cb6ae859c9cf202ae67119dbfb8dd45e26
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: e4cb314af1522c71de85e4576572acbb1d2e88b3
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717682"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291469"
 ---
-# <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Próbka analizy handlu detalicznego dla usługi Power BI: krótki przewodnik
+# <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Przykład Retail Analysis dla usługi Power BI: Zapoznaj się z przewodnikiem
 
 Ten przykładowy pulpit nawigacyjny dla branży i raport będący jego podstawą przedstawiają analizę danych sprzedaży detalicznej towarów w wielu sklepach i regionach. Metryki dotyczą porównania tegorocznej i ubiegłorocznej wydajności w następujących obszarach: sprzedaż, liczba jednostek, marża brutto i odchylenia, a także analizy nowych sklepów. Są to prawdziwe dane pochodzące z firmy obviEnce ([www.obvience.com](http://www.obvience.com)) przedstawione w sposób anonimowy.
 

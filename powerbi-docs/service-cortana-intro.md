@@ -4,17 +4,17 @@ description: Uzyskuj odpowiedzi na podstawie swoich danych dzięki Cortanie i us
 author: maggiesMSFT
 manager: kfile
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/24/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: ccc99c2f9810bcda80e1f02ce67e49390fd0308f
-ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
+ms.openlocfilehash: bcd07bb0cb53ea4818195e15c1492a27f424cf38
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50003253"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54292604"
 ---
 # <a name="quickly-find-and-view-your-power-bi-data-using-cortana-for-power-bi"></a>Szybko znajduj i wyświetlaj dane usługi Power BI za pomocą Cortany dla usługi Power BI
 Cortana zapewnia błyskawiczne odpowiedzi na ważne pytania biznesowe na wszystkich Twoich urządzeniach z systemem Windows 10. Dzięki integracji z usługą Power BI Cortana może pobierać kluczowe informacje bezpośrednio z pulpitów nawigacyjnych i raportów usługi Power BI. Potrzebny jest tylko system Windows 10 w wersji z listopada 2015 r. lub nowszej, Cortana, usługa Power BI i dostęp do co najmniej jednego zestawu danych.
@@ -38,11 +38,11 @@ Dostępne są cztery dokumenty, które przeprowadzą Cię przez proces konfiguro
 
 **Artykuł 1** (ten artykuł): Zapoznanie się ze sposobem, w jaki Cortana współpracuje z usługą Power BI
 
-**Artykuł 2**: [Wyszukiwanie raportów usługi Power BI: Włączenie integracji Cortany, usługi Power BI i systemu Windows](service-cortana-enable.md)
+**Artykuł 2**: [Wyszukiwanie raportów usługi Power BI: włączanie integracji Cortany, usługi Power BI i systemu Windows na potrzeby raportów](service-cortana-enable.md)
 
 **Artykuł 3**: [Wyszukiwanie raportów usługi Power BI: Tworzenie specjalnych *kart odpowiedzi Cortany*](service-cortana-answer-cards.md)
 
-**Artykuł 4**: [rozwiązywanie problemów](service-cortana-troubleshoot.md)
+**Artykuł 4**: [Rozwiązywanie problemów](service-cortana-troubleshoot.md)
 
 ## <a name="how-do-cortana-and-power-bi-work-together"></a>Jak Cortana współpracuje z usługą Power BI?
 Jeśli zadasz Cortanie pytanie, może ona szukać odpowiedzi także w usłudze Power BI. W usłudze Power BI Cortana może znaleźć szczegółowe odpowiedzi oparte na danych w raportach usługi Power BI (zawierających specjalny typ strony raportu nazywany *kartą odpowiedzi Cortany*) i na pulpitach nawigacyjnych usługi Power BI.

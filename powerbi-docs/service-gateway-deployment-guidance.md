@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-gateways
+ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5e07575658ed25e3f4933a7840ef4bc970264b23
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 5ebc5472ffcbd5d6b493b919b3e2965968261d20
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34296025"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54279854"
 ---
 # <a name="guidance-for-deploying-a-data-gateway-for-power-bi"></a>Wskazówki dotyczące wdrażania bramy danych usługi Power BI
 
@@ -40,7 +40,7 @@ Jeśli wszyscy użytkownicy uzyskują dostęp do raportu codziennie o tej samej 
 W usłudze **Power BI** istnieje ograniczenie, które umożliwia stosowanie tylko *jednej* bramy dla *raportu*, więc nawet jeśli raport jest oparty na wielu źródłach danych, wszystkie te źródła danych muszą przechodzić przez pojedynczą bramę. Jednak jeśli pulpit nawigacyjny jest oparty na *wielu* raportach, możesz użyć dedykowanej bramy dla każdego raportu składowego i tym samym rozłożyć obciążenie bramy na wiele raportów składających się na pojedynczy pulpit nawigacyjny.
 
 ### <a name="connection-type"></a>Typ połączenia
-Usługa **Power BI** oferuje dwa typy połączeń: **zapytanie bezpośrednie** i **połączenie importu**. Nie wszystkie źródła danych obsługują oba typy połączeń, a wybór jednego z nich zależy od wielu czynników, takich jak wymagania dotyczące zabezpieczeń, wydajność, limity danych i rozmiary modelu danych. Dodatkowe informacje na temat typu połączenia i obsługiwanych źródeł danych znajdują się w sekcji *listy dostępnych typów źródeł danych* artykułu [Lokalna brama danych](service-gateway-onprem.md).
+Usługa **Power BI** oferuje dwa typy połączeń: **DirectQuery** i **import**. Nie wszystkie źródła danych obsługują oba typy połączeń, a wybór jednego z nich zależy od wielu czynników, takich jak wymagania dotyczące zabezpieczeń, wydajność, limity danych i rozmiary modelu danych. Dodatkowe informacje na temat typu połączenia i obsługiwanych źródeł danych znajdują się w sekcji *listy dostępnych typów źródeł danych* artykułu [Lokalna brama danych](service-gateway-onprem.md).
 
 W zależności od używanego typu połączenia użycie bramy może być inne. Na przykład należy w miarę możliwości oddzielić źródła danych z **zapytaniami bezpośrednimi** od źródeł danych z **zaplanowanym odświeżaniem** (zakładając, że znajdują się w innych raportach i można je oddzielić). W ten sposób można uniknąć sytuacji, w której kolejka w bramie zawiera tysiące żądań zapytań bezpośrednich w czasie porannego zaplanowanego odświeżania dużego modelu danych używanego na potrzeby głównego pulpitu nawigacyjnego firmy. Weź pod uwagę następujące informacje:
 

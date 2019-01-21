@@ -6,15 +6,15 @@ ms.author: maghan
 ms.date: 05/04/2018
 ms.topic: quickstart
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: 802107ce9c12075ffc51461375ca3e9a313f2be1
-ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
+ms.openlocfilehash: a0224188a0205cf134f2b2ee123bf5a3ac7ef0d0
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "45558429"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54288502"
 ---
 # <a name="quickstart-embed-a-power-bi-report-server-report-using-an-iframe-in-sharepoint-server"></a>Szybki start: osadzanie raportu serwera raportów usługi Power BI w elemencie iFrame w programie SharePoint Server
 
@@ -102,6 +102,6 @@ Po utworzeniu adresu URL można utworzyć element iFrame w ramach strony program
 ## <a name="next-steps"></a>Następne kroki
 
 [Szybki start: tworzenie raportu usługi Power BI dla serwera raportów usługi Power BI](quickstart-create-powerbi-report.md)  
-[Szybki start: tworzenie raportu z podziałem na strony dla serwera raportów usługi Power BI](quickstart-create-paginated-report.md)  
+[Szybki start: tworzenie raportu podzielonego na strony dla serwera raportów usługi Power BI](quickstart-create-paginated-report.md)  
 
 Masz więcej pytań? [Zadaj pytanie społeczności usługi Power BI](https://community.powerbi.com/) 

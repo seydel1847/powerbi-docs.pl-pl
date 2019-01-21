@@ -5,22 +5,22 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 8024756159b4974ef4a23ab60a055d57b0dfa590
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 1b587edb82f60ac8a9ff22716e42bcf941e0c794
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670606"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54276542"
 ---
 # <a name="directquery-and-sap-hana"></a>Zapytanie bezpośrednie i platforma SAP HANA
 **Zapytanie bezpośrednie** umożliwia bezpośrednie połączenie się ze źródłami danych platformy **SAP HANA**. Łącząc się z platformą SAP HANA, mamy do wyboru dwie opcje:
 
-* **Traktuj platformę SAP HANA jako źródło wielowymiarowe (ustawienie domyślne):** w tym przypadku zachowanie będzie podobne jak wówczas, gdy usługa Power BI łączy się z innymi źródłami wielowymiarowymi, takimi jak usługi SAP Business Warehouse czy Analysis Services. W przypadku łączenia się z platformą SAP HANA przy użyciu tego ustawienia zostaje wybrany pojedynczy widok analizy lub obliczeń i wszystkie miary, hierarchie oraz atrybuty tego widoku będą dostępne na liście pól. Podczas tworzenia wizualizacji zagregowane dane będą zawsze pobierane z platformy SAP HANA. Jest to metoda zalecana i domyślna dla nowych raportów zapytania bezpośredniego tworzonych za pośrednictwem platformy SAP HANA.
+* **Traktuj platformę SAP HANA jako źródło wielowymiarowe (ustawienie domyślne):**  W tym przypadku zachowanie będzie podobne jak wówczas, gdy usługa Power BI łączy się z innymi źródłami wielowymiarowymi, takimi jak usługi SAP Business Warehouse czy Analysis Services. W przypadku łączenia się z platformą SAP HANA przy użyciu tego ustawienia zostaje wybrany pojedynczy widok analizy lub obliczeń i wszystkie miary, hierarchie oraz atrybuty tego widoku będą dostępne na liście pól. Podczas tworzenia wizualizacji zagregowane dane będą zawsze pobierane z platformy SAP HANA. Jest to metoda zalecana i domyślna dla nowych raportów zapytania bezpośredniego tworzonych za pośrednictwem platformy SAP HANA.
 
 * **Traktuj platformę SAP HANA jako źródło relacyjne:** w tym przypadku usługa Power BI traktuje platformę SAP HANA jako źródło relacyjne. Zapewnia to większą elastyczność, ale należy zwrócić uwagę, by miary zostały zagregowane zgodnie z oczekiwaniami. Należy również zadbać o to, by uniknąć problemów z wydajnością.
 
@@ -64,17 +64,17 @@ Dozwolone operacje modelowania są bardziej restrykcyjne niż ogólne użycie za
 
 Najważniejsze dodatkowe ograniczenia dotyczące modelowania w przypadku nawiązywania połączenia z platformą SAP HANA (traktowaną jako źródło wielowymiarowe) przy użyciu zapytania bezpośredniego są następujące: 
 
-* **Brak obsługi kolumn obliczeniowych:** Możliwość tworzenia kolumn obliczeniowych jest wyłączona. Oznacza to również, że funkcje grupowania i klastrowania, które tworzą kolumny obliczeniowe, nie są dostępne.
-* **Dodatkowe ograniczenia dotyczące miar:** istnieją dodatkowe ograniczenia dotyczące wyrażeń DAX, które mogą być używane w miarach, odzwierciedlające poziom obsługi oferowany przez platformę SAP HANA.
+* **Brak obsługi kolumn obliczeniowych:** możliwość tworzenia kolumn obliczeniowych została wyłączona. Oznacza to również, że funkcje grupowania i klastrowania, które tworzą kolumny obliczeniowe, nie są dostępne.
+* **Dodatkowe ograniczenia dotyczące miar:** istnieją dodatkowe ograniczenia dotyczące wyrażeń języka DAX, które mogą zostać użyte w miarach, odzwierciedlające poziom obsługi oferowany przez system SAP HANA.
 * **Brak obsługi definiowania relacji:** tylko dla jednego widoku w raporcie można wykonywać zapytania, w związku z czym definiowanie relacji nie jest obsługiwane.
-* **Brak widoku danych:** W **widoku danych** zwykle są wyświetlane szczegółowe dane tabel. Ze względu na charakter źródeł OLAP, takich jak SAP HANA, ten widok nie jest dostępny w przypadku połączenia z platformą SAP HANA.
-* **Stałe szczegóły kolumn i miar:** Lista kolumn i miar na liście pól jest ustalana przez bazowe źródło danych i nie można jej zmienić. Nie można na przykład usunąć kolumny ani zmienić typu danych (można jednak zmienić jej nazwę).
-* **Dodatkowe ograniczenia dotyczące języka DAX:** Istnieją dodatkowe ograniczenia dotyczące wyrażeń języka DAX, które mogą zostać użyte w definicjach miar, odzwierciedlające ograniczenia w źródle. Nie można na przykład zastosować funkcji agregującej do tabeli.
+* **Brak widoku danych:** w **widoku danych** zwykle są wyświetlane szczegółowe dane tabel. Ze względu na charakter źródeł OLAP, takich jak SAP HANA, ten widok nie jest dostępny w przypadku połączenia z platformą SAP HANA.
+* **Stałe szczegóły kolumn i miar:** lista kolumn i miar na liście pól jest ustalana przez bazowe źródło danych i nie można jej zmienić. Nie można na przykład usunąć kolumny ani zmienić typu danych (można jednak zmienić jej nazwę).
+* **Dodatkowe ograniczenia dotyczące języka DAX:** istnieją dodatkowe ograniczenia dotyczące wyrażeń języka DAX, które mogą zostać użyte w definicjach miar, odzwierciedlające ograniczenia w źródle. Nie można na przykład zastosować funkcji agregującej do tabeli.
 
 ### <a name="additional-visualization-restrictions"></a>Dodatkowe ograniczenia wizualizacji
 
 W przypadku nawiązywania połączenia z platformą SAP HANA (traktowanej jako źródła wielowymiarowego) przy użyciu zapytania bezpośredniego obowiązują ograniczenia wizualizacji: 
-* **Brak agregacji kolumn:** nie można zmienić sposobu agregacji kolumny w wizualizacji i zawsze używana jest opcja *Nie sumuj*.
+* **Brak agregacji kolumn:** nie można zmienić sposobu agregacji kolumny w wizualizacji — zawsze jest to opcja *Nie sumuj*.
 
 ## <a name="treat-sap-hana-as-a-relational-source"></a>Traktuj platformę SAP HANA jako źródło relacyjne 
 

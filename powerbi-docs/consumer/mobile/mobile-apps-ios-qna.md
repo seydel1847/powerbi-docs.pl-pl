@@ -1,20 +1,20 @@
 ---
 title: Wirtualny analityk pytań i odpowiedzi w aplikacjach systemu iOS — Power BI
 description: Zadawaj pytania dotyczące przykładowych danych własnymi słowami, używając wirtualnego analityka pytań i odpowiedzi w aplikacji mobilnej usługi Power BI na urządzeniu z systemem iOS.
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2018
-ms.author: maggies
-ms.openlocfilehash: abd0e6b36af02753d8ff08c8f7405cc6502977d1
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.author: mshenhav
+ms.openlocfilehash: 0517299240137bf63ace8aca6a1da577a4443d2d
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548124"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54278705"
 ---
 # <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>Wirtualny analityk pytań i odpowiedzi w aplikacjach systemu iOS — Power BI
 
@@ -61,21 +61,21 @@ Pierwszy krok ma na celu pobranie przykładów dotyczących analizy handlu detal
 
 4. Wybierz pozycję **Retail Analysis Sample**.
  
-    ![Przykład Analiza handlu detalicznego](./media/mobile-apps-ios-qna/power-bi-rs.png)
+    ![Przykład Retail Analysis](./media/mobile-apps-ios-qna/power-bi-rs.png)
  
 8. Wybierz pozycję **Połącz**.  
   
-   ![Przykład Analiza handlu detalicznego](./media/mobile-apps-ios-qna/retail16.png)
+   ![Próbka analizy handlu detalicznego](./media/mobile-apps-ios-qna/retail16.png)
    
 5. Usługa Power BI zaimportuje pakiet zawartości i doda nowy pulpit nawigacyjny, raport oraz zestaw danych do bieżącego obszaru roboczego.
    
-   ![Przykład Analiza handlu detalicznego](./media/mobile-apps-ios-qna/power-bi-service-retail-sample.png)
+   ![Próbka analizy handlu detalicznego](./media/mobile-apps-ios-qna/power-bi-service-retail-sample.png)
 
 **Pobieranie przykładu Opportunity Analysis**
 
 - Przejdź przez kroki wykonane w przypadku przykładu Retail Analysis, ale w kroku 4 wybierz pozycję **Opportunity Analysis Sample**.
 
-    ![Przykład Analiza handlu detalicznego](./media/mobile-apps-ios-qna/power-bi-oa.png)
+    ![Próbka analizy handlu detalicznego](./media/mobile-apps-ios-qna/power-bi-oa.png)
   
 Wszystko jest teraz gotowe do wyświetlenia przykładów na urządzeniu z systemem iOS.
 

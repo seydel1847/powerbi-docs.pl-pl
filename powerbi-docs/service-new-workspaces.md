@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/21/2018
+ms.date: 01/11/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 8856a8641b38b7a8256b199acccd54e030bdce40
-ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
+ms.openlocfilehash: dd4ee055501974345c819f7604ff30174cd4c5ba
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53984637"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54279018"
 ---
 # <a name="organize-work-in-the-new-workspaces-preview-in-power-bi"></a>Organizowanie pracy w nowych obszarach roboczych (wersja zapoznawcza) w usłudze Power BI
 
@@ -43,7 +43,7 @@ W okresie obowiązywania wersji zapoznawczej można tworzyć zarówno stare, jak
 
 ## <a name="roles-in-the-new-workspaces"></a>Role w nowych obszarach roboczych
 
-Możesz dodawać grupy użytkowników lub pojedynczych użytkowników do nowych obszarów roboczych jako członków, współautorów lub administratorów. Wszyscy użytkownicy w grupie otrzymują zdefiniowaną przez Ciebie rolę. Jeśli dany użytkownik należy do wielu grup użytkowników, otrzyma najwyższy poziom uprawnień zapewnianych przez rolę.  Zobacz sekcję [Role w nowych obszarach roboczych ](#roles-in-the-new-workspaces) w dalszej części tego artykułu, aby zapoznać się z omówieniem poszczególnych ról.
+Możesz dodawać grupy użytkowników lub pojedynczych użytkowników do nowych obszarów roboczych jako członków, współautorów lub administratorów. Wszyscy użytkownicy w grupie otrzymują zdefiniowaną przez Ciebie rolę. Jeśli dany użytkownik należy do wielu grup użytkowników, otrzyma najwyższy poziom uprawnień zapewnianych przez rolę.
 
 Wszyscy użytkownicy, których dodasz do obszaru roboczego, muszą mieć licencję usługi Power BI Pro. W obszarze roboczym ci użytkownicy mogą współpracować nad pulpitami nawigacyjnymi i raportami, które mają zostać opublikowane wśród większej liczby osób lub nawet w całej organizacji. Jeśli chcesz rozpowszechniać zawartość wśród innych użytkowników w Twojej organizacji, możesz przypisać im licencje usługi Power BI Pro lub umieścić obszar roboczy w pojemności usługi Power BI Premium.
 
@@ -83,9 +83,7 @@ W trakcie obowiązywania wersji zapoznawczej nie można automatycznie konwertowa
 
 Gdy nowe obszary robocze staną się ogólnie dostępne, można będzie włączyć opcję automatycznego migrowania starych obszarów roboczych. W pewnym momencie po opublikowaniu wersji ogólnodostępnej przeprowadzenie migracji stanie się konieczne.
 
-## <a name="power-bi-apps-faq"></a>Często zadawane pytania dotyczące aplikacji usługi Power BI
-
-### <a name="how-are-the-new-workspaces-different-from-current-workspaces"></a>Czym różnią się nowe obszary robocze od bieżącej wersji obszarów roboczych?
+## <a name="how-are-the-new-workspaces-different-from-current-workspaces"></a>Czym różnią się nowe obszary robocze od bieżącej wersji obszarów roboczych?
 
 Wraz z wprowadzeniem nowych obszarów roboczych modyfikujemy niektóre funkcje. Oto zmiany, które prawdopodobnie zostaną wprowadzone na stałe wraz z wersją zapoznawczą. 
 
@@ -94,6 +92,13 @@ Wraz z wprowadzeniem nowych obszarów roboczych modyfikujemy niektóre funkcje. 
 - Na podstawie obszarów roboczych w bieżącej wersji możesz tworzyć organizacyjne pakiety zawartości. Nie można ich tworzyć w ramach nowych obszarów roboczych.
 - W obszarach roboczych w bieżącej wersji można używać organizacyjnych pakietów zawartości. Nie możesz z nich korzystać w ramach nowych obszarów roboczych.
 - W trakcie obowiązywania wersji zapoznawczej niektóre funkcje nowych obszarów roboczych nie są jeszcze włączone. Zobacz następną sekcję [Planowane funkcje nowych obszarów roboczych](service-new-workspaces.md#planned-new-workspace-preview-features), aby uzyskać szczegółowe informacje.
+
+## <a name="limitations-and-considerations"></a>Ograniczenia i istotne zagadnienia
+
+Ograniczenia, o których trzeba wiedzieć:
+
+- Obszary robocze mogą zawierać maksymalnie 1000 zestawów danych lub 1000 raportów na zestaw danych. 
+- Osoba z licencją usługi Power BI Pro może być członkiem maksymalnie 250 obszarów roboczych.
 
 ## <a name="planned-new-workspace-preview-features"></a>Planowane funkcje nowych obszarów roboczych w wersji zapoznawczej
 

@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: a27e192c5ccc1fb3a7af9bafbc9c4fd14ccabf4c
-ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
+ms.openlocfilehash: a48ad26b9da5d5dba9fa04ab74301da7e1265d0b
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "52900111"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54292077"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Usługa Power BI dla klientów rządowych w Stanach Zjednoczonych
 **Usługa Power BI** oferuje wersję dostępną dla klientów rządowych w Stanach Zjednoczonych w ramach subskrypcji **Office 365 US Government Community**. Wersja **usługi Power BI** omówiona w tym artykule jest przeznaczona wyłącznie dla klientów rządowych USA — jest to osobna usługa, która jest inna niż komercyjna wersja **usługi Power BI**.
@@ -73,13 +73,13 @@ Aby rozwiązać problemy, skontaktuj się z przedstawicielem konta.
 ## <a name="frequently-asked-questions-faq-for-the-us-government-version-of-the-power-bi-service"></a>Często zadawane pytania dotyczące usługi Power BI w wersji US Government
 Poniższe pytania i odpowiedzi pomagają szybko uzyskać potrzebne informacje o usłudze.
 
-**Pytanie:** Jak przeprowadzić migrację komercyjnych danych **usługi Power BI** do **usługi Power BI** w wersji US Government?
+**Pytanie:** Jak mogę przeprowadzić migrację komercyjnych danych **usługi Power BI** do **usługi Power BI** w wersji US Government?
 
 **Odpowiedź:** Administrator musi utworzyć nowe wystąpienie **usługi Power BI** w oddzielnej subskrypcji przeznaczonej dla wersji US Government. Następnie możesz replikować komercyjne dane w **usłudze Power BI** w wersji US Government, usunąć komercyjną licencję i przypisać istniejącą domenę do nowej usługi w wersji US Government.
 
 **Pytanie:** Dlaczego nie mogę połączyć się z określonym pakietem zawartości?
 
-**Odpowiedź:** Przed nawiązaniem połączenia z pakietem zawartości należy upewnić się, że subskrypcja jest włączona.
+**Odpowiedź:** Przed nawiązaniem połączenia z pakietem zawartości należy upewnić się, że subskrypcja została włączona.
 
 **Pytanie:** Chcę uzyskać **usługę Power BI** dla mojej organizacji rządowej Stanów Zjednoczonych. Od czego zacząć?
 
@@ -95,7 +95,7 @@ Poniższe pytania i odpowiedzi pomagają szybko uzyskać potrzebne informacje o 
 
 **Pytanie:** Moje konto jest aprowizowane w więcej niż jednej suwerennej chmurze. Jeśli korzystam z programu **Power BI Desktop**, jak mogę wybrać chmurę, z którą chcę nawiązać połączenie?
 
-**Odpowiedź:** Począwszy od wersji programu **Power BI Desktop** z lipca 2018, możesz wybrać chmurę, której chcesz używać, podczas logowania do programu **Power BI Desktop**.
+**Odpowiedź:** Począwszy od wersji programu **Power BI Desktop** z lipca 2018 r., możesz wybrać chmurę, której chcesz używać, podczas logowania do programu **Power BI Desktop**.
 
 
 ## <a name="next-steps"></a>Następne kroki

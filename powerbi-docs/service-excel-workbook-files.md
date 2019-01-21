@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 85f7dd131806cd808c28c23cb70230a0c719e0a1
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 6a44443918fe0bb9c25343c8960aaaadd5a6977e
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670206"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285627"
 ---
 # <a name="get-data-from-excel-workbook-files"></a>Pobieranie danych z plików skoroszytów programu Excel
 ![](media/service-excel-workbook-files/excel_icon.png)
@@ -43,7 +43,7 @@ Jeśli używasz programu Excel do nawiązywania połączenia z zewnętrznym źr�
 Sposób wyświetlania (lub brak wyświetlania) arkuszy PowerView, tabel przestawnych oraz wykresów w usłudze Power BI zależy od miejsca zapisu pliku skoroszytu oraz sposobu pobrania go do usługi Power BI. Bardziej szczegółowe informacje przedstawimy poniżej.
 
 ## <a name="data-types"></a>Typy danych
-Usługa Power BI obsługuje następujące typy danych: Liczbowy całkowity, Liczbowy dziesiętny, Waluta, Data, Prawda/Fałsz, Tekst. Oznaczenie danych w formie konkretnych typów danych w programie Excel poprawi działanie usługi Power BI.
+Usługa Power BI obsługuje następujące typy danych: Liczba całkowita, Liczba dziesiętna, Waluta, Data, Prawda/fałsz, Tekst. Oznaczenie danych w formie konkretnych typów danych w programie Excel poprawi działanie usługi Power BI.
 
 ## <a name="prepare-your-workbook-for-power-bi"></a>Przygotowanie skoroszytu dla usługi Power BI
 Obejrzyj ten pomocny film wideo, aby dowiedzieć się więcej o tym, jak upewnić się, że skoroszyty programu Excel są gotowe do obsługi w usłudze Power BI.
@@ -119,7 +119,7 @@ Użycie opcji **Publikuj w usłudze Power BI** w programie Excel 2016 zapewnia p
 ## <a name="troubleshooting"></a>Rozwiązywanie problemów
 Zbyt duży plik skoroszytu? Sprawdź [Zmniejszanie rozmiaru skoroszytu programu Excel w celu wyświetlenia go w usłudze Power BI](reduce-the-size-of-an-excel-workbook.md).
 
-Obecnie w przypadku wybrania opcji Importuj usługa importuje tylko dane stanowiące część nazwanej tabeli lub modelu danych. W związku z tym, jeśli skoroszyt nie zawiera nazwanych tabel, arkuszy Power View lub modeli danych programu Excel, możesz zobaczyć następujący błąd: **„Nie można znaleźć żadnych danych w skoroszycie programu Excel”**. W [tym artykule](service-admin-troubleshoot-excel-workbook-data.md) wyjaśniono sposób naprawienia skoroszytu i jego ponownego zaimportowania.
+Obecnie w przypadku wybrania opcji Importuj usługa importuje tylko dane stanowiące część nazwanej tabeli lub modelu danych. W związku z tym, jeśli skoroszyt nie zawiera nazwanych tabel, arkuszy Power View lub modeli danych programu Excel, możesz zobaczyć następujący błąd: **„Nie można odnaleźć żadnych danych w skoroszycie programu Excel”**. W [tym artykule](service-admin-troubleshoot-excel-workbook-data.md) wyjaśniono sposób naprawienia skoroszytu i jego ponownego zaimportowania.
 
 ## <a name="next-steps"></a>Następne kroki
 **Eksploracja danych** — po pobraniu danych i raportów z pliku do usługi Power BI nadszedł czas na ich eksplorowanie. Po prostu kliknij nowy zestaw danych prawym przyciskiem myszy, a następnie kliknij polecenie Eksploruj. Jeśli w kroku 4. podjęto decyzję o połączeniu z plikiem skoroszytu w usłudze OneDrive, skoroszyt zostanie wyświetlony w sekcji Raporty. Po kliknięciu skoroszytu zostanie on otwarty w usłudze Power BI, tak jak w przypadku usługi Excel Online.

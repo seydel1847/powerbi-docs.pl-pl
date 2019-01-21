@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/28/2018
 ms.author: maggies
 LocalizationGroup: Data from files
-ms.openlocfilehash: e3b7a6ca4471fb1a6454f6efb9fba1f89b8ae1da
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: d1e3d6b50b91643dc7c1e658094a5ae7763edc8f
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52829992"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54290411"
 ---
 # <a name="from-excel-workbook-to-stunning-report-in-no-time"></a>Błyskawiczne doskonałe raporty na podstawie skoroszytów programu Excel
 Twój kierownik chce zobaczyć raport o najnowszych wynikach sprzedaży połączony z wrażeniami z ostatniej kampanii do końca dnia. Ale najnowsze dane znajdują się w różnych systemach innych firm i w plikach na Twoim laptopie. W przeszłości trzeba było poświęcić godziny na tworzenie elementów wizualnych i formatowanie raportu. Zaczynasz się niepokoić.
@@ -50,7 +50,7 @@ Wybierz pozycję **Pobierz dane** w dolnej części okienka nawigacji po lewej s
 
 Na stronie Pliki wybierz **plik lokalny**. Przejdź do pliku skoroszytu programu Excel na swoim komputerze i zaznacz go do załadowania do usługi Power BI. Wybierz pozycję **Import**.
 
-> **UWAGA**: Aby skorzystać z pozostałej części tego samouczka, należy użyć [Przykładowego skoroszytu finansowego](sample-financial-download.md).
+> **UWAGA**: aby skorzystać z pozostałej części tego samouczka, należy użyć [przykładowego skoroszytu z danymi finansowymi](sample-financial-download.md).
 > 
 > 
 
@@ -67,7 +67,7 @@ Teraz możesz rozpocząć tworzenie wizualizacji. Twój kierownik chce zobaczyć
 
 ![wykres kolumnowy w edytorze raportów](media/service-from-excel-to-stunning-report/pbi_report_pin-new.png)
 
-> **PORADA**: Jeśli wykres nie wygląda jak oczekiwano, sprawdź swoje agregacje. Na przykład w źródle **Wartość** kliknij prawym przyciskiem myszy właśnie dodane pole i upewnij się, że dane są agregowane w należyty sposób.  W tym przykładzie używamy pozycji **Suma**.
+> **PORADA**: jeśli wykres nie wygląda jak oczekiwano, sprawdź swoje agregacje. Na przykład w źródle **Wartość** kliknij prawym przyciskiem myszy właśnie dodane pole i upewnij się, że dane są agregowane w należyty sposób.  W tym przykładzie używamy pozycji **Suma**.
 > 
 > 
 

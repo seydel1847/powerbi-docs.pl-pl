@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-admin
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 11/16/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: fe81c8e972a4fe36f88da495e4e0dce97a39d32c
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: 494612b9c8ef448756dfe2d516bfca68e69d2e7a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52830314"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296828"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Administrowanie usługą Power BI — często zadawane pytania
 
@@ -67,10 +67,10 @@ Ponadto poszczególni użytkownicy w organizacji mogą być w stanie zarejestrow
 
 Istnieją trzy scenariusze, które mogą mieć zastosowanie do użytkowników w Twojej organizacji:
 
-* **Scenariusz 1**. Organizacja ma już istniejące środowisko usługi Office 365, a użytkownik rejestrujący się w usłudze Power BI ma już konto usługi Office 365.
+* **Scenariusz 1**. Organizacja ma już istniejące środowisko usługi Office 365, a użytkownik tworzący konto w usłudze Power BI ma już konto usługi Office 365.
     Jeśli w tym scenariuszu użytkownik ma konto służbowe w dzierżawie (np. contoso.com), ale nie ma jeszcze konta usługi Power BI, firma Microsoft po prostu aktywuje plan dla tego konta, a użytkownik otrzymuje automatyczne powiadomienie o sposobie korzystania z usługi Power BI.
 
-* **Scenariusz 2**. Organizacja ma istniejące środowisko usługi Office 365, ale użytkownik rejestrujący się w usłudze Power BI nie ma jeszcze konta usługi Office 365.
+* **Scenariusz 2**. Organizacja ma istniejące środowisko usługi Office 365, ale użytkownik tworzący konto w usłudze Power BI nie ma jeszcze konta usługi Office 365.
     W tym scenariuszu użytkownik ma adres e-mail w domenie organizacji (np. contoso.com), ale nie ma jeszcze konta usługi Office 365. W takim przypadku użytkownik może zarejestrować się w usłudze Power BI i automatycznie otrzymuje konto. Dzięki temu użytkownik może uzyskać dostęp do usługi Power BI. Jeśli na przykład pracownica o imieniu Nancy używa służbowy adresu e-mail (takiego jak nancy@contoso.com) do zarejestrowania się w usłudze, firma Microsoft automatycznie dodaje użytkownika Nancy w środowisku usługi Office 365 firmy Contoso i aktywuje usługę Power BI dla tego konta.
 
 * **Scenariusz 3**. Organizacja nie ma środowiska usługi Office 365 połączonego z domeną poczty e-mail.
@@ -162,7 +162,7 @@ Istnieją trzy scenariusze, które mogą mieć zastosowanie do użytkowników w 
 
     Oznacza to, że liczba użytkowników, którymi zarządzasz w danym momencie, zwiększa się w miarę tworzenia kont usługi przez użytkowników w organizacji.
 
-* **Scenariusz 3**. Jeśli organizacja nie ma środowiska usługi Office 365 połączonego z domeną poczty e-mail, sposób zarządzania tożsamościami nie zmienia się.
+* **Scenariusz 3**. Jeśli organizacja nie ma środowiska usługi Office 365 połączonego z domeną poczty e-mail, Twój sposób zarządzania tożsamościami nie zmieni się.
 
     Użytkownicy są dodawani do nowego katalogu użytkowników działającego tylko w chmurze, a Ty masz możliwość dobrowolnego wyboru i przejęcia tych użytkowników jako administrator dzierżawy i zarządzania nimi.
 
@@ -186,7 +186,7 @@ Podczas wykonywania przejęcia zewnętrznego zawartość usługi Power BI, któr
 
 ### <a name="if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-are-added-to"></a>Jeśli mam wiele domen, czy mogę kontrolować to, do której dzierżawy usługi Office 365 dodawani są użytkownicy?
 
-Jeśli nic nie zrobisz, dzierżawy będą tworzone dla każdej domeny i poddomeny poczty e-mail dla użytkowników. Jeśli chcesz, aby wszyscy użytkownicy — bez względu na rozszerzenie adresu e-mail — znajdowali się w tej samej dzierżawie: utwórz docelową dzierżawę wcześniej lub użyj istniejącej dzierżawy, a następnie dodaj wszystkie istniejące domeny i poddomeny, które chcesz skonsolidować z dzierżawą. Wtedy wszyscy użytkownicy mający adresy e-mail w tych domenach i poddomenach automatycznie dołączą do dzierżawy docelowej po utworzeniu konta.
+Jeśli nic nie zrobisz, dzierżawy będą tworzone dla każdej domeny i poddomeny poczty e-mail dla użytkowników. Jeśli chcesz, aby wszyscy użytkownicy należeli do tej samej dzierżawy niezależnie od rozszerzenia adresu e-mail: Utwórz docelową dzierżawę wcześniej lub użyj istniejącej dzierżawy, a następnie dodaj wszystkie istniejące domeny i poddomeny, które chcesz połączyć z dzierżawą. Wtedy wszyscy użytkownicy mający adresy e-mail w tych domenach i poddomenach automatycznie dołączą do dzierżawy docelowej po utworzeniu konta.
 
 > [!IMPORTANT]
 > Nie jest obsługiwany żaden automatyczny mechanizm przenoszenia już utworzonych użytkowników do innej dzierżawy. Aby uzyskać więcej informacji na temat dodawania domen do dzierżawy usługi Office 365, zobacz [Dodawanie domeny i użytkowników do usługi Office 365](/office365/admin/setup/add-domain/).

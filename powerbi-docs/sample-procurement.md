@@ -1,23 +1,23 @@
 ---
-title: 'Próbka danych do analizy zakupów: krótki przewodnik'
-description: 'Próbka danych do analizy zakupów dla usługi Power BI: krótki przewodnik'
+title: 'Przykład analizy zakupów: Zapoznaj się z przewodnikiem'
+description: 'Przykład Procurement Analysis dla usługi Power BI: Zapoznaj się z przewodnikiem'
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/23/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 3b0c6fcc72e5b2f95b06f1184341298d449bf57e
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 18b99bf86f49f1355d4ab9f20ff6e8a83c89731d
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717153"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54287353"
 ---
-# <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>Próbka danych do analizy zakupów dla usługi Power BI: krótki przewodnik
+# <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>Przykład Procurement Analysis dla usługi Power BI: Zapoznaj się z przewodnikiem
 
 ## <a name="overview-of-the-procurement-analysis-sample"></a>Omówienie przykładu Procurement Analysis
 Ten pulpit nawigacyjny oparty na próbce branżowej oraz źródłowy raport zapewniają analizę wydatków firmy produkcyjnej na dostawców według kategorii i lokalizacji. W przykładzie zbadamy następujące obszary:
@@ -72,9 +72,9 @@ Najpierw przyjrzyjmy się trendom w zakresie wydatków z podziałem na kategorie
 Zwróć uwagę na kilka rzeczy:
 
 * Na wykresie liniowym **Faktury łącznie według miesiąca i kategorii**: kategoria **Bezpośrednie** zawiera całkiem spójne wydatki, **Logistyka** wykazuje szczyt w grudniu, a szczyt kategorii **Inne** przypada w lutym.
-* Na mapie **Faktury łącznie według kraju/regionu**: większość naszych wydatków ma miejsce w USA.
-* Na wykresie kolumnowym **Faktury łącznie według podkategorii**: największymi kategoriami wydatków jest **Sprzęt** oraz **Towary i usługi pośrednie**.
-* Na wykresie Faktury łącznie według warstwy: większość działalności biznesowej jest prowadzona wraz z warstwą 1 (10 pierwszych) dostawców. Ułatwia to lepsze zarządzanie relacjami z dostawcami.
+* Na mapie **Faktury łącznie według kraju/regionu**: Większość naszych wydatków ma miejsce w USA.
+* Na wykresie kolumnowym **Faktury łącznie według podkategorii**: kategorie **Sprzęt** oraz **Towary i usługi pośrednie** są największymi kategoriami wydatków.
+* Na wykresie słupkowym Faktury łącznie według warstwy: większość działalności biznesowej jest związana z naszymi dostawcami z warstwy 1 (10 głównych dostawców). Ułatwia to lepsze zarządzanie relacjami z dostawcami.
 
 ## <a name="spending-in-mexico"></a>Wydatki w Meksyku
 Sprawdźmy obszary wydatków w Meksyku.
@@ -139,5 +139,5 @@ Wybierz opcję **Edytuj raport** w lewym górnym rogu i sprawdź widok edycji.
 
 Pracując na danych w tym środowisku, nie musisz się niczego obawiać. Zawsze możesz zrezygnować z zapisania wprowadzonych zmian. Jeśli jednak je zapiszesz, możesz przejść do obszaru **Pobieranie danych** i pobrać nową kopię zestawu danych użytego w tym przykładzie.
 
-## <a name="next-steps-connect-to-your-data"></a>Następne kroki: łączenie z danymi
+## <a name="next-steps-connect-to-your-data"></a>Następne kroki: Łączenie z danymi
 Mamy nadzieję, że dzięki temu przewodnikowi wiesz już, że pulpity nawigacyjne usługi Power BI oraz raporty mogą okazać się niezastąpione w uzyskiwaniu informacji o danych dotyczących zakupów. Teraz Twoja kolej. Połącz się ze swoimi danymi. Usługa Power BI umożliwia nawiązanie połączenia z różnymi źródłami danych. Dowiedz się więcej o [rozpoczynaniu pracy z usługą Power BI](service-get-started.md).

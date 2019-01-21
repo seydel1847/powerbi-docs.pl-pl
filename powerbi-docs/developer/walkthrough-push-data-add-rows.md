@@ -6,15 +6,15 @@ ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/01/2018
-ms.openlocfilehash: 7608d9098177805849ec61f0427ee5bc662d58c9
-ms.sourcegitcommit: 146b505b42f0d95d3ee73762441a43b6f3b3a891
+ms.openlocfilehash: 0337e35a67a852e1bb82209e095df4945c5de84a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39475665"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54275300"
 ---
 # <a name="step-5-add-rows-to-a-power-bi-table"></a>Krok 5. Dodawanie wierszy do tabeli usługi Power BI
 Ten artykuł jest częścią przewodnika krok po kroku dotyczącego [wypychania danych do zestawu danych](walkthrough-push-data.md).
@@ -33,7 +33,7 @@ Poniżej przedstawiono sposób dodawania wierszy do zestawu danych przy użyciu 
 > 
 > 
 
-1. W projekcie aplikacji konsoli utworzonym w kroku 2 zawierającym wskazówki dotyczące wypychania danych, [Pobieranie tokenu dostępu uwierzytelniania](walkthrough-push-data-get-token.md), dodaj poniższy kod.
+1. W projekcie aplikacji konsoli utworzonym w kroku 2 przewodnika dotyczącego wypychania danych, [Uzyskiwanie tokenu dostępu do uwierzytelniania](walkthrough-push-data-get-token.md), dodaj poniższy kod.
 2. Uruchom aplikację konsoli i zaloguj się do konta usługi Power BI. W oknie konsoli powinna pojawić się opcja **Dodane wiersze**. Możesz też zalogować się do usługi Power BI, aby wyświetlić wiersze dodane do zestawu danych.
 
 **Przykład wypychania danych do zestawu danych**

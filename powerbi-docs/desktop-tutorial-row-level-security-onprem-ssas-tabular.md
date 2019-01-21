@@ -6,17 +6,17 @@ manager: amitaro
 ms.reviewer: davidi
 editor: davidi
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: tutorial
 ms.date: 10/21/2017
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c2d4dc5d8c11db035cc2470c0c44d64a6b78cd1a
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.openlocfilehash: 546ae48aac10ae6c72a062665c7d8f448432a194
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452757"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54292642"
 ---
 # <a name="dynamic-row-level-security-with-analysis-services-tabular-model"></a>Dynamiczne zabezpieczenia na poziomie wiersza z modelem tabelarycznym usług Analysis Services
 W tym samouczku przedstawiono kroki niezbędne do zaimplementowania **zabezpieczeń na poziomie wiersza** w ramach **modelu tabelarycznego usług Analysis Services**  oraz stosowanie ich w raportach usługi Power BI. Kroki w tym samouczku zaprojektowano tak, aby można było je prześledzić i nauczyć się niezbędnych czynności, wykonując je na przykładowym zestawie danych.
@@ -55,7 +55,7 @@ Opublikowano już wiele artykułów opisujących sposób definiowania dynamiczny
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/createusersecuritytable_join_users.png)
 5. Zwróć uwagę, że powyższy obraz pokazuje informacje na przykład o tym, którzy użytkownicy są odpowiedzialni za poszczególne regiony sprzedaży. Dane te są wyświetlane dzięki relacji utworzonej w **kroku 2**. Zwróć także uwagę, że użytkownik **Jon Doe należy do regionu sprzedaży Australia**. Do Johna Doe wrócimy w kolejnych krokach i zadaniach.
 
-## <a name="task-2-create-the-tabular-model-with-facts-and-dimension-tables"></a>Zadanie 2. Tworzenie modelu tabelarycznego z tabelami faktów i wymiarów
+## <a name="task-2-create-the-tabular-model-with-facts-and-dimension-tables"></a>Zadanie 2. Tworzenie modelu tabelarycznego z faktami i tabelami wymiarów
 1. Po przygotowaniu magazynu danych relacyjnych należy zdefiniować model tabelaryczny. Model można utworzyć przy użyciu programu **SQL Server Data Tools (SSDT)**. Aby uzyskać więcej informacji na temat tego, jak zdefiniować model tabelaryczny, zobacz [Create a New Tabular Model Project](https://msdn.microsoft.com/library/hh231689.aspx) (Tworzenie nowego projektu modelu tabelarycznego).
 2. Zaimportuj wszystkie niezbędne tabele do modelu w sposób przedstawiony poniżej.
    

@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/10/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 215b4c8f46b2d39c6dcc5853c07e4e6526027881
-ms.sourcegitcommit: b343e44dbafc0b718c564402593d4b6e3a8ce97c
+ms.openlocfilehash: 5c383cf3c7fcbae88be6943bb418026c849db196
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "51027465"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54277439"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Używanie motywów raportów w programie Power BI Desktop
 **Motywy raportów** umożliwiają zastosowanie motywu kolorystycznego — kolorów firmowych, okolicznościowych lub dowolnego innego motywu kolorystycznego — do całego raportu. Zastosowanie **motywu raportu** spowoduje, że kolory tego motywu będą używane we wszystkich wizualizacjach w raporcie. Kilka wyjątków od tej reguły opisano w dalszej części tego artykułu.
@@ -259,13 +259,13 @@ W poniższej tabeli zdefiniowano wartości właściwości *cardName*. Pierwsza w
 | columnFormatting: Formatowanie pola |
 | columnHeaders: Nagłówki kolumn |
 | dataLabels: Etykiety danych |
-| fill: Wypełnienie |
+| fill: Wypełnij |
 | fillPoint: Punkt wypełnienia |
 | forecast: Prognoza |
 | general: Ogólne |
 | goals: Cele |
 | grid: Siatka |
-| header: Nagłówek |
+| header: Header |
 | imageScaling: Skalowanie |
 | indicator: Wskaźnik |
 | items: Elementy |
@@ -275,7 +275,7 @@ W poniższej tabeli zdefiniowano wartości właściwości *cardName*. Pierwsza w
 | mapControls: Kontrolki mapy |
 | mapStyles: Style mapy |
 | numericInputStyle: Liczbowe dane wejściowe |
-| percentBarLabel: Etykieta szybkości konwersji |
+| percentBarLabel: Etykieta współczynnika konwersji |
 | plotArea: Obszar kreślenia |
 | plotAreaShading: Cieniowanie symetrii |
 | ratioLine: Linia współczynnika |
@@ -298,7 +298,7 @@ W poniższej tabeli zdefiniowano wartości właściwości *cardName*. Pierwsza w
 | wordWrap: Zawijanie wierszy |
 | xAxisReferenceLine: Linia stałej (oś X) |
 | y1AxisReferenceLine: Linia stałej |
-| zoom: Powiększenie |
+| zoom: Powiększ |
 
 ### <a name="properties-within-each-card"></a>Właściwości na poszczególnych kartach
 W poniższej sekcji zdefiniowano właściwości w ramach poszczególnych kart:

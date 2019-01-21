@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: d875a5cd3ded8769ab3734601bd81cf0f17d7cea
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: 74567016fe98d57b68d972084761ab8e50bf7b23
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578272"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54284730"
 ---
 # <a name="using-calculated-columns-in-power-bi-desktop"></a>Korzystanie z kolumn obliczeniowych w programie Power BI Desktop
 Za pomocą kolumn obliczeniowych możesz dodawać nowe dane do tabel już znajdujących się w Twoim modelu. Zamiast jednak wykonywania zapytań i ładowania wartości do nowej kolumny ze źródła danych, tworzona jest formuła języka DAX (Data Analysis Expressions) definiująca wartości w kolumnie. W programie Power BI Desktop kolumny obliczeniowe są tworzone za pomocą funkcji Nowa kolumna w widoku raportu.
@@ -52,7 +52,7 @@ Może je dodać do swojego raportu wraz z liczbą dostaw. Szybko i przy minimaln
 ![](media/desktop-calculated-columns/calccolinpbid_citystatemap.png)
 
 ## <a name="learn-more"></a>Dowiedz się więcej
-To, co tu przedstawiliśmy, to tylko krótkie wprowadzenie do kolumn obliczeniowych. Pamiętaj, aby zapoznać się z tematem [Samouczek: tworzenie kolumn obliczeniowych w programie Power BI Desktop](desktop-tutorial-create-calculated-columns.md), skąd możesz pobrać przykładowy plik i wziąć udział w szczegółowych lekcjach na temat tworzenia większej liczby kolumn. 
+To, co tu przedstawiliśmy, to tylko krótkie wprowadzenie do kolumn obliczeniowych. Pamiętaj, aby zapoznać się z dokumentem [Samouczek: tworzenie kolumn obliczeniowych w programie Power BI Desktop](desktop-tutorial-create-calculated-columns.md), z którego możesz pobrać przykładowy plik i wziąć udział w szczegółowych lekcjach na temat tworzenia większej liczby kolumn. 
 
 Aby dowiedzieć się więcej na temat języka DAX, zobacz [Podstawy języka DAX w programie Power BI Desktop](desktop-quickstart-learn-dax-basics.md).
 

@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: f4d16a5694dde63b66dcb001f1a5375ed92d978c
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 2cb8e7b6c2744f80891c5424f620b9812eee1acb
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "37137174"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285374"
 ---
 # <a name="10-tips-for-getting-help-with-your-power-bi-questions"></a>10 wskazówek dotyczących uzyskiwania odpowiedzi na pytania dotyczące usługi Power BI
 Czy korzystając z usługi Power BI, zdarza Ci się zirytować lub miewasz trudności, ponieważ nie możesz uzyskać „na czas” odpowiedzi na swoje pytania? 
@@ -30,7 +30,7 @@ Eksperci, którzy potrzebują odpowiedzi dotyczących usługi Power BI, często 
 Zespół usługi Power BI nieustannie aktualizuje i poprawia dokumentację oraz materiały szkoleniowe dotyczące usługi Power BI. Można w nich znaleźć niezwykle użyteczne treści, w tym nagrania seminariów internetowych, oficjalne dokumenty, naukę z przewodnikiem i linki do wpisów na blogach dotyczących najnowszych funkcji.
 
 ## <a name="3-read-the-power-bi-blog-for-the-latest-news"></a>3. Czytaj blog usługi Power BI, aby mieć dostęp do najnowszych informacji
-Zespół usługi Power BI wyjaśnia wszystkie nowe funkcje w regularnie zamieszczanych [wpisach w blogu usługi Power BI](https://powerbi.microsoft.com/blog/). Dowiedz się na temat wszystkich nowości, począwszy od programu Power BI Desktop po aplikacje mobilne usługi Power BI. Postaraj się zaglądać tam często, aby sprawdzić nowości: poświęć kilka minut w tygodniu na przejrzenie blogów. Nigdy nie wiadomo, kiedy przyda się informacja przeczytana kilka miesięcy wcześniej.
+Zespół usługi Power BI wyjaśnia wszystkie nowe funkcje w regularnie zamieszczanych [wpisach w blogu usługi Power BI](https://powerbi.microsoft.com/blog/). Dowiedz się na temat wszystkich nowości, począwszy od programu Power BI Desktop po aplikacje mobilne usługi Power BI. Regularnie sprawdzaj ten artykuł, aby zapoznać się z nowościami: co tydzień poświęć kilka minut na przejrzenie blogów. Nigdy nie wiadomo, kiedy przyda się informacja przeczytana kilka miesięcy wcześniej.
 
 ## <a name="4-try-twitter"></a>4. Korzystaj z serwisu Twitter
 Duża liczba klientów usługi Power BI i ekspertów korzysta z serwisu Twitter. Zadaj pytanie, wysyłając tweet. Dodaj hashtagi #powerbi i #powerbihelp, aby osoby, które znają odpowiedzi zauważyły tweet.

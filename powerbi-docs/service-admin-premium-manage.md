@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-admin
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/20/2018
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 3ef719f85690297cd523a6fefb7f0ba5f77c9199
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 0ad902fc08592addb234517af99faedf1851503a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717613"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54280950"
 ---
 # <a name="manage-capacities-within-power-bi-premium-and-power-bi-embedded"></a>Zarządzanie pojemnościami w usługach Power BI Premium i Power BI Embedded
 
@@ -42,7 +42,7 @@ Wszyscy administratorzy globalni usługi Office 365 i administratorzy usługi Po
 
 Aby optymalnie wykorzystać dedykowaną pojemność, należy wykupić dostęp do usługi Power BI Premium w centrum administracyjnym usługi Office 365 albo utworzyć zasób usługi Power BI Embedded w witrynie Microsoft Azure Portal. Aby uzyskać więcej informacji, zobacz następujące artykuły:
 
-* **Power BI Premium:** [jak kupić usługę Power BI Premium](service-admin-premium-purchase.md)
+* **Power BI Premium:** [Jak kupić usługę Power BI Premium](service-admin-premium-purchase.md)
 
 * **Power BI Embedded:** [Tworzenie pojemności usługi Power BI Embedded w witrynie Azure Portal](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity)
 
@@ -170,7 +170,7 @@ Administratorzy pojemności, a także administratorzy usługi Power BI i adminis
 
     ![Przypisz obszary robocze](media/service-admin-premium-manage/assign-workspaces.png)
 
-   | Wybieranie | Opis |
+   | zaznaczenie | Opis |
    | --- | --- |
    | **Obszary robocze według użytkowników** | Przypisanie obszarów roboczych według użytkownika lub grupy powoduje, że wszystkie obszary robocze należące do tych użytkowników zostają przypisane do pojemności Premium (z uwzględnieniem osobistego obszaru roboczego użytkowników). Użytkownicy ci automatycznie uzyskują uprawnienia do przypisywania obszarów roboczych.<br>Obejmuje to obszary robocze, które są już przypisane do innej pojemności. |
    | **Określone obszary robocze** | Wprowadź nazwę określonego obszaru roboczego, aby go przypisać do wybranej pojemności. |

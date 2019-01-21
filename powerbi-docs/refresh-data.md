@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/27/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: bb29cd9edc5e44293344b7194ec94af482bd0166
-ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
+ms.openlocfilehash: 097f0ae9da29d193fd7a337c9a164ab8c67dc4d9
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "47417377"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54277669"
 ---
 # <a name="data-refresh-in-power-bi"></a>Odświeżanie danych w usłudze Power BI
 Pewność, że używane dane są zawsze aktualne, ma często zasadnicze znaczenie dla podejmowania właściwych decyzji. Prawdopodobnie znasz już funkcję pobierania danych w usłudze Power BI, która służy do nawiązania połączenia i przekazania danych. Wiesz także, jak tworzyć raporty i pulpity nawigacyjne. Teraz chcesz mieć pewność, że Twoje dane są naprawdę najnowsze i najlepsze.
@@ -221,7 +221,7 @@ Czasem najlepszym sposobem poznania funkcji odświeżania danych w usłudze Powe
 ### <a name="excel-workbook-with-tables-of-data"></a>Skoroszyt programu Excel z tabelami danych
 Masz skoroszyt programu Excel z kilkoma tabelami danych, lecz żadna z nich nie jest załadowana do modelu danych programu Excel. Użyto polecenia Pobierz dane do przekazania pliku skoroszytu z dysku lokalnego do usługi Power BI i utworzono pulpit nawigacyjny. Lecz teraz w paru tabelach skoroszytu na dysku lokalnym wprowadzono zmiany i chcesz zaktualizować pulpit nawigacyjny w usłudze Power BI przy użyciu nowych danych.
 
-Niestety odświeżanie nie jest obsługiwane w tym scenariuszu. Aby odświeżyć zestaw danych na potrzeby pulpitu nawigacyjnego, musisz przekazać ponownie skoroszyt. Istnieje jednak naprawdę doskonałe rozwiązanie: umieść plik skoroszytu w usłudze OneDrive lub SharePoint Online!
+Niestety odświeżanie nie jest obsługiwane w tym scenariuszu. Aby odświeżyć zestaw danych na potrzeby pulpitu nawigacyjnego, musisz przekazać ponownie skoroszyt. Istnieje jednak naprawdę doskonałe rozwiązanie: umieść plik skoroszytu w usłudze OneDrive lub SharePoint Online.
 
 Po połączeniu z plikiem w usłudze OneDrive lub SharePoint Online raporty i pulpity nawigacyjne będą wyświetlać dane znajdujące się w pliku. W tym przypadku będzie to skoroszyt programu Excel. Usługa Power BI automatycznie sprawdza plik co godzinę pod kątem aktualizacji. Jeśli wprowadzisz zmiany do skoroszytu (przechowywanego w usłudze OneDrive lub SharePoint Online), te zmiany zostaną uwzględnione na pulpitach nawigacyjnych i w raportach w ciągu godziny. Konfigurowanie odświeżania nie jest w ogóle konieczne. Jednak jeśli chcesz natychmiast zobaczyć aktualizacje w usłudze Power BI, możesz odświeżyć zestaw danych ręcznie za pomocą polecenia Odśwież teraz.
 

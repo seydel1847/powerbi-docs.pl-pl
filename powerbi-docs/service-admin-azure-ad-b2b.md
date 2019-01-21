@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-admin
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 11/02/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: dee5c14d2ee714872409352b5e42d646e561c271
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.openlocfilehash: 7e76f03a3795976aebd1480dc77a579c9245ed9e
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51507766"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54282062"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Dystrybucja zawartości usługi Power BI do zewnętrznych użytkowników (gości) przy użyciu usługi Azure AD B2B
 
@@ -101,6 +101,6 @@ Gość ma już licencję Power BI Pro przypisaną w ramach swojej dzierżawy.
 
 ## <a name="next-steps"></a>Następne kroki
 
-Aby uzyskać szczegółowe informacje, w tym opis sposobu działania zabezpieczeń na poziomie wiersza, zapoznaj się z oficjalnym dokumentem: [Dystrybucja zawartości usługi Power BI do zewnętrznych użytkowników (gości) przy użyciu usługi Azure AD B2B](https://aka.ms/powerbi-b2b-whitepaper).
+Aby uzyskać bardziej szczegółowe informacje, w tym dotyczące działania zabezpieczeń na poziomie wiersza, zapoznaj się z oficjalnym dokumentem: [Dystrybucja zawartości usługi Power BI do zewnętrznych użytkowników (gości) przy użyciu usługi Azure AD B2B](https://aka.ms/powerbi-b2b-whitepaper).
 
 Informacje dotyczące usługi Azure AD B2B można znaleźć w temacie [Co to jest współpraca w usłudze Azure AD B2B?](/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b/)

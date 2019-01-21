@@ -5,16 +5,16 @@ author: maikelson
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/26/2018
 ms.author: maikelson
-ms.openlocfilehash: b144f3101606a58b2cd0b48db976a70477442d40
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 24d023d726183119a3bd098c61db75cb68969c52
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670422"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54283144"
 ---
 # <a name="power-bi-webinars"></a>Power BI — seminaria internetowe
 
@@ -46,11 +46,11 @@ Zacznij od tych popularnych seminariów internetowych na żądanie
 <br>Autorzy: Cory Hrncirik i Miguel Martinez
 <br>[Zarejestruj się i obejrzyj teraz](https://info.microsoft.com/Microsoft-Runs-on-Power-BI-OnDemandRegistration.html?Is=Website)
 
-**Power BI: Analytics Done Right (Power BI: poprawna analiza)**
+**Power BI: Analytics Done Right** (Power BI: poprawna analiza)
 <br>Autor: Gohul Shanmugalingam
 <br>[Zarejestruj się i obejrzyj teraz](https://info.microsoft.com/CA-PowerBI-WBNR-FY19-11Nov-08-PowerBIAnalyticsDoneRight-MCW0008690_01Registration-ForminBody.html?Is=Website)
 
-**Make Your Power BI Data Visual: Core Chart Types and How to Use Them** (Wizualizacja danych usługi Power BI: podstawowe typy wykresów i jak ich używać)
+**Make Your Power BI Data Visual:  Core Chart Types and How to Use Them** (Wizualizowanie danych usługi Power BI: podstawowe typy wykresów i sposoby ich używania)
 <br>Autor: Miranda Li
 <br>[Zarejestruj się i obejrzyj teraz](https://info.microsoft.com/Make-your-Power-BI-Data-Visual-Registration.html?Is=Website)
 
@@ -155,11 +155,11 @@ Oglądaj nagrane sesje w dowolnym momencie
 
 **[Seria seminariów internetowych dotyczących struktury wdrażania usługi Power BI](https://info.microsoft.com/ww-landing-powerbi-adoption-framework-series.html?Is=Website)**
 <br>Autorzy: Manu Kanwarpal i Paul Henwood
-<br>[Zarejestruj się i obejrzyj teraz: Part 1 — Adoption: Adopt a data-driven culture (Część 1 — wdrażanie: wdrażanie kultury opartej na danych)](https://info.microsoft.com/ww-landing-powerbi-adoption-ondemand.html?Is=Website)
-<br>[Zarejestruj się i obejrzyj teraz: Part 2 — Governance: Govern your Power BI usage (Część 2 — zarządzanie: zarządzaniem użyciem usługi Power BI)](https://info.microsoft.com/ww-ondemand-powerbi-governance.html?Is=Website)
-<br>[Zarejestruj się i obejrzyj teraz: Part 3 — Service Management: Power BI Service Management Insights (Część 3 — zarządzanie usługami: szczegółowe informacje dotyczące zarządzania usługami w usłudze Power BI)](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part3.html?Is=Website)
-<br>[Zarejestruj się i obejrzyj teraz: Part 4 — Security: Keeping your data secure with Power BI (Część 4 — bezpieczeństwo: zabezpieczanie danych przy użyciu usługi Power BI)](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part4.html?Is=Website)
-<br>[Zarejestruj się i obejrzyj teraz: Part 5 — Rollout: Successfully rolling out Power BI (Część 5 — wprowadzanie: pomyślne wprowadzanie usługi Power BI)](https://info.microsoft.com/ww-landing-powerbi-adoption-part5-rollout.html?Is=Website)
+<br>[Zarejestruj się i obejrzyj teraz — Część 1 — wdrażanie: wdrażanie kultury opartej na danych](https://info.microsoft.com/ww-landing-powerbi-adoption-ondemand.html?Is=Website)
+<br>[Zarejestruj się i obejrzyj teraz — Część 2 — ład: zarządzanie użyciem usługi Power BI](https://info.microsoft.com/ww-ondemand-powerbi-governance.html?Is=Website)
+<br>[Zarejestruj się i obejrzyj teraz — Część 3 — zarządzanie usługą: szczegółowe informacje na temat zarządzania usługą Power BI](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part3.html?Is=Website)
+<br>[Zarejestruj się i obejrzyj teraz — Część 4 — zabezpieczenia: zabezpieczanie danych przy użyciu usługi Power BI](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part4.html?Is=Website)
+<br>[Zarejestruj się i obejrzyj teraz — Część 5 — wprowadzanie: pomyślnie wprowadzanie usługi Power BI](https://info.microsoft.com/ww-landing-powerbi-adoption-part5-rollout.html?Is=Website)
 
 **Seria seminariów internetowych dotyczących usługi Office 365 dla specjalistów ds. finansów**
 <br>Autorzy: Mark Traverso, Carlos Otero, Johnnie Thomas, Amanda Cofsky i Miguel Martinez

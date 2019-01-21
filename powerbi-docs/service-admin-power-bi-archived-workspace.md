@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-admin
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 11/02/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 8636ec85cb56e87f28a93f9f1f89989ffcc097bb
-ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
+ms.openlocfilehash: d2eeab8241de06f9a4d0e654696173d076e01ad2
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "50973148"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54292366"
 ---
 # <a name="power-bi-archived-workspace"></a>Zarchiwizowany obszar roboczy usługi Power BI
 
@@ -29,19 +29,19 @@ Usługa Power BI nie będzie usuwać zawartości ze zarchiwizowanego obszaru rob
 
 * **OneDrive dla Firm**: dla zestawów danych w zarchiwizowanym obszarze roboczym nie można pobierać ani odświeżać danych z poziomu usługi OneDrive dla Firm.  Jeśli spróbujesz nawiązać połączenie z tym źródłem, zostanie wyświetlone ostrzeżenie.
 
-* **Udostępnianie pulpitów nawigacyjnych**: nie można udostępniać pulpitów nawigacyjnych innym użytkownikom ze zarchiwizowanego obszaru roboczego.  Wszyscy użytkownicy, którzy mają już dostęp, nadal mogą wyświetlać udostępnione pulpity nawigacyjne, uzyskując dostęp do swojego zarchiwizowanego obszaru roboczego.
+* **Udostępnianie pulpitów nawigacyjnych**: nie możesz udostępniać pulpitów nawigacyjnych innym użytkownikom ze zarchiwizowanego obszaru roboczego.  Wszyscy użytkownicy, którzy mają już dostęp, nadal mogą wyświetlać udostępnione pulpity nawigacyjne, uzyskując dostęp do swojego zarchiwizowanego obszaru roboczego.
 
-* **Tworzenie grup**: nie można tworzyć grup w zarchiwizowanym obszarze roboczym.
+* **Tworzenie grup**: nie możesz tworzyć grup w zarchiwizowanym obszarze roboczym.
 
-* **Dostęp w aplikacjach mobilnych usługi Power BI**: chociaż nadal można wyświetlać zawartość w Internecie w zarchiwizowanym obszarze roboczym, ta zawartość nie będzie już widoczna w aplikacjach mobilnych usługi Power BI.
+* **Dostęp do aplikacji mobilnych usługi Power BI**: chociaż nadal możesz wyświetlać zawartość w Internecie w swoim zarchiwizowanym obszarze roboczym, ta zawartość nie jest już widoczna w aplikacjach mobilnych usługi Power BI.
 
 ## <a name="migrating-content-in-your-archived-workspace"></a>Migrowanie zawartości w zarchiwizowanym obszarze roboczym
 
 Aby nadal korzystać z usługi Power BI, musisz utworzyć nową zawartość w obszarze Mój obszar roboczy. Musisz też zaplanować migrację całej zawartości zarchiwizowanego obszaru roboczego do obszaru Mój obszar roboczy.  Sposób migrowania zawartości zależy od rodzaju zawartości:
 
-* **Zestawy danych programu Excel lub Power BI Desktop**: te zestawy danych należy migrować, przełączając się ze zarchiwizowanego obszaru roboczego do obszaru Mój obszar roboczy i ponownie przekazując plik programu Excel lub Power BI Desktop przez kliknięcie przycisku **Moje dane**.  W przypadku skonfigurowania zaplanowanego odświeżania musisz ponownie skonfigurować te ustawienia dla nowego zestawu danych w obszarze Mój obszar roboczy.
+* **Zestawy danych programu Excel lub Power BI Desktop**: te zestawy danych należy migrować, przełączając się ze zarchiwizowanego obszaru roboczego do obszaru Mój obszar roboczy i ponownie przekazując plik programu Excel lub Power BI Desktop, wybierając przycisk **Moje dane**.  W przypadku skonfigurowania zaplanowanego odświeżania musisz ponownie skonfigurować te ustawienia dla nowego zestawu danych w obszarze Mój obszar roboczy.
 
-* **Inne zestawy danych**: przełącz się do obszaru Mój obszar roboczy, a następnie wybierz przycisk **Pobierz dane**, aby ponownie połączyć się z innymi zestawami danych utworzonymi w zarchiwizowanym obszarze roboczym.  Może być konieczne ponowne wprowadzenie zabezpieczeń lub informacji o połączeniu.
+* **Inne zestawy danych**: Przełącz się do obszaru Mój obszar roboczy, a następnie kliknij przycisk **Pobierz dane**, aby ponownie połączyć się z wszelkimi innymi zestawami danych utworzonymi w Twoim zarchiwizowanym obszarze roboczym.  Może być konieczne ponowne wprowadzenie zabezpieczeń lub informacji o połączeniu.
 
 * **Raporty**: raporty zawarte w plikach programu Excel lub Power BI Desktop są automatycznie tworzone ponownie po ponownym przekazaniu odpowiedniego pliku programu Excel lub Power BI Desktop. Raporty zainstalowane jako część pakietu zawartości są również tworzone ponownie po ponownym nawiązaniu połączenia z pakietem zawartości. Jeśli masz własne raporty utworzone za pomocą usługi Power BI, utwórz je ponownie w obszarze Mój obszar roboczy.
 

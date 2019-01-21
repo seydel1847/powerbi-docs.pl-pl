@@ -6,22 +6,22 @@ manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 92c5ad6be98e77c7fb844d45ab135bfb9d1cd141
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: 6b438b9d9e66d336b94122fe96a707f0602261b4
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52829969"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54278021"
 ---
 # <a name="add-a-hyperlink-to-a-text-box-in-a-report"></a>Dodawanie hiperlinku do pola tekstowego w raporcie
 Pola tekstowe mogą być dodawane do raportów, przypinane do pulpitów nawigacyjnych z raportów i dodawane bezpośrednio do pulpitów nawigacyjnych. Hiperlinki można dodać do pola tekstowego, niezależnie od tego, gdzie się ono znajduje.  
 
-> **UWAGA**: Aby uzyskać informacje o hiperlinkach w tabelach i macierzach usługi Power BI, zobacz [Hiperlinki w tabelach](power-bi-hyperlinks-in-tables.md). Informacje na temat dodawania pól tekstowych z **pulpitu nawigacyjnego**, zobacz [Dodawanie kafelka bezpośrednio z pulpitu nawigacyjnego](service-dashboard-add-widget.md). 
+> **UWAGA**: aby uzyskać informacje o hiperlinkach w tabelach i macierzach usługi Power BI, zobacz [Hiperlinki w tabelach](power-bi-hyperlinks-in-tables.md). Informacje na temat dodawania pól tekstowych z **pulpitu nawigacyjnego**, zobacz [Dodawanie kafelka bezpośrednio z pulpitu nawigacyjnego](service-dashboard-add-widget.md). 
 > 
 > 
 

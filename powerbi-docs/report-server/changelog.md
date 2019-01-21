@@ -5,16 +5,16 @@ author: jtarquino
 manager: kfile
 ms.reviewer: maggies
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
 ms.author: jtarquino
-ms.openlocfilehash: c80ded7a21eb8110467a2335253fa1a68942cc2c
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.openlocfilehash: edf953f2512550660fd914d2fe54c28dcd01fa24
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50101536"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54292066"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Dziennik zmian w Serwerze raportów usługi Power BI
 
@@ -24,7 +24,7 @@ Aby uzyskać szczegółowe informacje o nowych funkcjach, zobacz [Co nowego w Se
 
 ## <a name="august-2018"></a>Sierpień 2018 r.
 - **Serwer raportów usługi Power BI**
-    - *Wersja 1.3.6816.37243 (kompilacja 15.0.2.557), data wydania: 30 sierpnia 2018 r.*
+    - *Wersja 1.3.6816.37243 (kompilacja 15.0.2.557), data wydania: 30 sierpnia 2018 r.*
         - Poprawki błędów
             - Rozwiązano problem występujący po uaktualnieniu serwera z wcześniejszych wersji serwera raportów usługi PBI, który polegał na tym, że gdy przekierowanie powiązania nie zostało zaktualizowane, klienci widzieli następujący komunikat:      
             *`
@@ -33,14 +33,14 @@ Aby uzyskać szczegółowe informacje o nowych funkcjach, zobacz [Co nowego w Se
              
             - Bug for Data Label Transparency is now fixed (Usterka przezroczystości etykiety danych została naprawiona).
             
-    - *Wersja 1.3.6801.38816 (kompilacja 15.0.2.540), data wydania: 15 sierpnia 2018 r.*
+    - *Wersja 1.3.6801.38816 (kompilacja 15.0.2.540), data wydania: 15 sierpnia 2018 r.*
         - Funkcje
             - Obsługa trybu DirectQuery w przypadku logowania jednokrotnego na platformie SAP HANA przy użyciu protokołu Kerberos jest teraz dostępna dla raportów usługi Power BI
             - Wraz z tą wersją jest dostarczany interfejs API wizualizacji niestandardowej w wersji 1.13.0
             - Wizualizacje niestandardowe będą w razie potrzeby korzystać z wcześniejszej wersji zgodnej z bieżącą wersją interfejsu API serwera (jeśli jest dostępna)
 
 - **Power BI Desktop (zoptymalizowany pod kątem serwera raportów usługi Power BI)**
-    - *Wersja: 2.61.5192.641 (sierpień 2018 r.), data wydania: 15 sierpnia 2018 r.*
+    - *Wersja: 2.61.5192.641 (sierpień 2018 r.), data wydania: 15 sierpnia 2018 r.*
         - Obejmuje zmiany wymagane do nawiązania połączenia z serwerem raportów usługi Power BI (sierpień 2018 r.)         
         
 ## <a name="march-2018"></a>Marzec 2018
@@ -88,7 +88,7 @@ Aby uzyskać szczegółowe informacje o nowych funkcjach, zobacz [Co nowego w Se
 ## <a name="october-2017"></a>Październik 2017
 
 - **Serwer raportów usługi Power BI**
-    - *Wersja 1.1.6582.41691 (kompilacja 14.0.600.442), data wydania: 10 stycznia 2018 r.*
+    - *Wersja 1.1.6582.41691 (kompilacja 14.0.600.442), data wydania: 10 stycznia 2018 r.*
         - Aktualizacje zabezpieczeń
         - Poprawki błędów
             - Poprawka dla Model.GetParameters zwracającego 400
@@ -99,19 +99,19 @@ Aby uzyskać szczegółowe informacje o nowych funkcjach, zobacz [Co nowego w Se
         - Poprawki błędów
             - Nie można zapisać danych po odświeżeniu dla niektórych raportów w programie Power BI Desktop.
 
-    - *Wersja 1.1.6530.30789 (kompilacja 14.0.600.437), data wydania: 17 listopada 2017 r.*
+    - *Wersja 1.1.6530.30789 (kompilacja 14.0.600.437), data wydania: 17 listopada 2017 r.*
         - Poprawki błędów
             - Poprawka dotycząca scenariuszy uwierzytelniania podstawowego 
             - Poprawka dotycząca wyboru dni roboczych na stronie harmonogramu w obszarach subskrypcji, planów odświeżania pamięci podręcznej i migawek historii w witrynie Portal
             - Poprawka w raportach podzielonych na strony (RDL) dotycząca obsługi wyrażeń w polu tekstowym — jeśli właściwość CanGrow miała wartość false, kolory i czcionki nie były wyświetlane prawidłowo
             - Poprawka w raportach usługi Power BI (PBIX) dotycząca wyświetlania pustej wizualizacji po dodaniu legendy do wykresu liniowego
 
-    - *Wersja 1.1.6514.9163 (kompilacja 14.0.600.434), data wydania: 1 listopada 2017 r.*
+    - *Wersja 1.1.6514.9163 (kompilacja 14.0.600.434), data wydania: 1 listopada 2017 r.*
         - Poprawki błędów
             - Poprawka dotycząca problemów z niezawodnością przekazywania raportów PBIX o rozmiarze przekraczającym 500 MB
             - Poprawka dotycząca problemów z ładowaniem raportów PBIX o rozmiarze przekraczającym 1 GB
 
-    - *Wersja 1.1.6513.3500 (kompilacja 14.0.600.433), data wydania: 31 października 2017 r.*
+    - *Wersja 1.1.6513.3500 (kompilacja 14.0.600.433), data wydania: 31 października 2017 r.*
         - Funkcje
             - Obsługa osadzonego modelu danych
             - Wyświetlanie skoroszytów programu Excel (z włączoną integracją programu Office Online Server)
@@ -124,44 +124,44 @@ Aby uzyskać szczegółowe informacje o nowych funkcjach, zobacz [Co nowego w Se
             - Usprawnienia w zakresie ułatwień dostępu
 
 - **Power BI Desktop (zoptymalizowany pod kątem serwera raportów usługi Power BI)**
-    - *Wersja: 2.51.4885.3981 (październik 2017 r.), data wydania: 10 kwietnia 2018 r.*
+    - *Wersja: 2.51.4885.3981 (październik 2017 r.), data wydania: 10 kwietnia 2018 r.*
         - Aktualizacje zabezpieczeń
 
-    - *Wersja: 2.51.4885.2501 (październik 2017 r.), data wydania: 10 stycznia 2018 r.*
+    - *Wersja: 2.51.4885.2501 (październik 2017 r.), data wydania: 10 stycznia 2018 r.*
         - Aktualizacje zabezpieczeń
 
-    - *Wersja: 2.51.4885.1423 (październik 2017), data wydania: 17 listopada 2017 r.*
+    - *Wersja: 2.51.4885.1423 (październik 2017 r.), data wydania: 17 listopada 2017 r.*
         - Poprawki błędów
             - Poprawka dotycząca problemów z uruchamianiem 32-bitowego programu Power BI Desktop w systemach operacyjnych opartych na architekturze x86
             - Poprawka dotycząca wyświetlania linii siatki osi X w raportach usługi Power BI (PBIX)
             - Inne poprawki drobnych błędów
 
-    - *Wersja: 2.51.4885.1041 (październik 2017), data wydania: 31 października 2017 r.*
+    - *Wersja: 2.51.4885.1041 (październik 2017 r.), data wydania: 31 października 2017 r.*
         - Funkcje
             - Zmiany wymagane do nawiązania połączenia z Serwerem raportów usługi Power BI (październik 2017)
 
 ## <a name="june-2017"></a>Czerwiec 2017
 
 - **Serwer raportów usługi Power BI**
-    - *Kompilacja 14.0.600.309, data wydania: 10 stycznia 2018 r.*
+    - *Kompilacja 14.0.600.309, data wydania: 10 stycznia 2018 r.*
         - Aktualizacje zabezpieczeń
 
-    - *Kompilacja 14.0.600.305, data wydania: 19 września 2017 r.*  
+    - *Kompilacja 14.0.600.305, data wydania: 19 września 2017 r.*  
         - Poprawki błędów
             - Aktualizacja do najnowszej wersji [kontrolki internetowej Map Bing](https://msdn.microsoft.com/library/mt712542.aspx)
 
-    - *Kompilacja 14.0.600.301, data wydania: 11 lipca 2017 r.*
+    - *Kompilacja 14.0.600.301, data wydania: 11 lipca 2017 r.*
         - Poprawki błędów
             - Tag `{{UserId}}` jest rozpoznawany jako przechowywane poświadczenia, a nie użytkownik uruchamiający raport w usłudze Power BI
             - Niektóre obrazy nie są renderowane w raportach Serwera raportów usługi Power BI
             - Nie można zmienić nazwy raportu na Serwerze raportów usługi Power BI
             - Nie można załadować niestandardowych wizualizacji w aplikacji Power BI dla urządzeń przenośnych (wymagana jest ponowna instalacja aplikacji mobilnej w celu wyczyszczenia lokalnej pamięci podręcznej)
 
-    - *Kompilacja 14.0.600.271, data wydania: 12 czerwca 2017 r.*
+    - *Kompilacja 14.0.600.271, data wydania: 12 czerwca 2017 r.*
         - Pierwsze wydanie Serwera raportów usługi Power BI
 
 - **Power BI Desktop (zoptymalizowany pod kątem serwera raportów usługi Power BI)**
-    - *Wersja: 2.47.4766.4901 (czerwiec 2017 r.), data wydania: 10 stycznia 2018 r.*
+    - *Wersja: 2.47.4766.4901 (czerwiec 2017 r.), data wydania: 10 stycznia 2018 r.*
         - Aktualizacje zabezpieczeń
 
 ## <a name="next-steps"></a>Następne kroki

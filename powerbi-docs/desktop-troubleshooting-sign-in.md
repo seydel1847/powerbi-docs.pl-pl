@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: f8ceeddea7a8a9b7a63043cc7e91269da570790b
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: a07f266ccdc0b02cd6a18f84b48b5e2b3564b642
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670997"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54279025"
 ---
 # <a name="troubleshooting-sign-in-for-power-bi-desktop"></a>Rozwiązywanie problemów z logowaniem w programie Power BI Desktop
 W pewnych sytuacjach próba zalogowania się do programu **Power BI Desktop** może spowodować wystąpienie błędów. Istnieją dwie główne przyczyny problemów z logowaniem: **błędy uwierzytelniania serwera proxy** i **błędy przekierowywania adresów URL innych niż HTTPS**. 
@@ -56,7 +56,7 @@ Bieżące wersje programu **Power BI Desktop** używają bieżącej wersji bibli
 
 Z tym błędem zostały skojarzone następujące wyjątki plików śledzenia programu *Power BI Desktop*:
 
-* *Microsoft.IdentityModel.Clients.ActiveDirectory.AdalServiceException: nieobsługiwane przekierowywanie adresów URL innych niż HTTPS w widoku internetowym*
+* *Microsoft.IdentityModel.Clients.ActiveDirectory.AdalServiceException: Nieobsługiwane przekierowywanie adresów URL innych niż HTTPS w widoku internetowym*
 * *ErrorCode: non_https_redirect_failed*
 
 Jeśli występuje kod błędu *ErrorCode: non_https_redirect_failed*, oznacza to, że co najmniej jeden dostawca lub strona przekierowania w łańcuchu przekierowania nie jest chronionym punktem końcowym protokołu HTTPS lub że wystawca certyfikatu co najmniej jednego przekierowania nie należy do zaufanych certyfikatów głównych urządzenia. Wszyscy dostawcy w dowolnym łańcuchu przekierowania muszą używać adresu URL protokołu HTTP. Aby rozwiązać ten problem, skontaktuj się z administratorem i poproś, aby na potrzeby witryn uwierzytelniania były używane zabezpieczone adresy URL. 

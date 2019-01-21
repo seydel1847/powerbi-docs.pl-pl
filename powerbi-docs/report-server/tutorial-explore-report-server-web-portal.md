@@ -1,20 +1,20 @@
 ---
-title: 'Samouczek: eksplorowanie serwera raportów usługi Power BI na maszynie wirtualnej'
+title: 'Samouczek: Eksplorowanie serwera raportów usługi Power BI na maszynie wirtualnej'
 description: W tym samouczku utworzysz maszynę wirtualną przy użyciu już zainstalowanego serwera raportów usługi Power BI i zapoznasz się z portalem internetowym.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.topic: tutorial
 ms.date: 05/18/2018
 ms.author: maggies
-ms.openlocfilehash: 32bf2d3cedbeeb2430620855a2ac95bf349af9a2
-ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
+ms.openlocfilehash: 4eb9f5dc7e45006d1b5697f35b79d0e9d11fa2df
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37092051"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54281395"
 ---
 # <a name="tutorial-explore-the-power-bi-report-server-web-portal-in-a-vm"></a>Samouczek: eksplorowanie portalu internetowego serwera raportów usługi Power BI na maszynie wirtualnej
 W tym samouczku utworzysz maszynę wirtualną platformy Azure przy użyciu już zainstalowanego serwera raportów usługi Power BI, aby zapoznać się z procesami wyświetlania i edytowania przykładowych raportów usługi Power BI i podzielonych na strony oraz kluczowych wskaźników wydajności, a także zarządzania nimi.
@@ -92,7 +92,7 @@ Po otwarciu maszyny wirtualnej na pulpicie zostaną wyświetlone poniższe eleme
 
 ![Maszyna wirtualna serwera raportów usługi Power BI jest uruchamiana](media/tutorial-explore-report-server-web-portal/power-bi-report-server-start-vm-numbered.png)
 
-|Liczbowy  |Co to jest  |
+|Numer  |Co to jest  |
 |---------|---------|
 |![Numer 1](media/tutorial-explore-report-server-web-portal/number-1.png) | Uruchamia narzędzia SQL Server Data Tools w celu utworzenia raportów podzielonych na strony (RDL) |
 |![Numer 2](media/tutorial-explore-report-server-web-portal/number-2.png) | Przykładowe raporty usługi Power BI (PBIX)  |
@@ -104,7 +104,7 @@ Kliknij dwukrotnie ikonę **portalu internetowego serwera raportów**. W przegl�
 
 ![Portal internetowy Serwera raportów usługi Power BI](media/tutorial-explore-report-server-web-portal/power-bi-report-server-browser-in-vm.png)
 
-|Liczbowy  |Co to jest  |
+|Numer  |Co to jest  |
 |---------|---------|
 |![Numer 1](media/tutorial-explore-report-server-web-portal/number-1.png) | Kluczowe wskaźniki wydajności utworzone w portalu internetowym |
 |![Numer 2](media/tutorial-explore-report-server-web-portal/number-2.png) |  Raporty usługi Power BI (PBIX)  |
@@ -119,7 +119,7 @@ Raporty i kluczowe wskaźniki wydajności, które mają zostać dodane do ulubio
 
 1. Wybierz przycisk wielokropka (**…**) w prawym górnym rogu obszaru kluczowego wskaźnika wydajności **Marża zysku** > **Dodaj do Ulubionych**.
    
-    ![Dodawanie do ulubionych](media/tutorial-explore-report-server-web-portal/power-bi-report-server-add-to-favorites.png)
+    ![Dodaj do ulubionych](media/tutorial-explore-report-server-web-portal/power-bi-report-server-add-to-favorites.png)
 2. Wybierz pozycję **Ulubione** na wstążce w portalu internetowym, aby wyświetlić ten element wraz z innymi ulubionymi elementami na stronie Ulubione w portalu internetowym.
    
     ![Wyświetlanie Ulubionych](media/tutorial-explore-report-server-web-portal/power-bi-report-server-favorites.png)
@@ -135,7 +135,7 @@ Ten widok można zmienić na widok listy, w którym możliwe jest łatwe przenos
    
     ![Przełączanie widoków](media/tutorial-explore-report-server-web-portal/report-server-web-portal-list-view.png)
 
-2. Przejdź do widoku kafelków: wybierz pozycję **Lista** > **Kafelki**.
+2. Przejdź wstecz do widoku Kafelki: Wybierz kolejno pozycje **Lista** > **Kafelki**.
 
 ## <a name="power-bi-reports"></a>Raporty usługi Power BI
 
@@ -149,7 +149,7 @@ Raporty usługi Power BI można wyświetlać i pracować z nimi w portalu intern
 
     ![Wyróżniony raport usługi Power BI](media/tutorial-explore-report-server-web-portal/power-bi-report-server-power-bi.png)
 
-### <a name="edit-in-power-bi-desktop"></a>Edytowanie w programie Power BI Desktop
+### <a name="edit-in-power-bi-desktop"></a>Edytuj w programie Power BI Desktop
 
 1. Wybierz pozycję **Edytuj w programie Power BI Desktop**.
 

@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 08/08/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: d4b0ad34d200e3d94c60c7e3a3f524a3f3ed09cf
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 4cdd4cf3f8a21b2e97b936ed4e6d4efe2df9a0e8
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46550011"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54290595"
 ---
 # <a name="measures-in-power-bi-desktop"></a>Miary w programie Power BI Desktop
 
@@ -66,7 +66,7 @@ Umożliwia to, między innymi, dynamiczne tworzenie adresów URL za pomocą miar
 Możesz tworzyć tabele, w których miary są wyświetlane jako internetowe adresy URL, i kliknąć adres URL utworzony zgodnie z Twoim wyborem. Jest to szczególnie przydatne, gdy chcesz połączyć inne raporty usługi Power BI przy użyciu [parametrów filtrowania adresów URL](service-url-filters.md).
 
 ## <a name="learn-more"></a>Dowiedz się więcej
-W tym temacie przedstawiliśmy tylko krótkie wprowadzenie do miar, ale istnieje o wiele więcej zasobów, które pomogą Ci nauczyć się, jak tworzyć własne miary. Pamiętaj, aby zapoznać się z tematem [Samouczek: Tworzenie własnych miar w programie Power BI Desktop](desktop-tutorial-create-measures.md), skąd możesz pobrać przykładowy plik i wziąć udział w szczegółowych lekcjach na temat tworzenia kolejnych miar.  
+W tym temacie przedstawiliśmy tylko krótkie wprowadzenie do miar, ale istnieje o wiele więcej zasobów, które pomogą Ci nauczyć się, jak tworzyć własne miary. Pamiętaj, aby zapoznać się z dokumentem [Samouczek: tworzenie własnych miar w programie Power BI Desktop](desktop-tutorial-create-measures.md), skąd możesz pobrać przykładowy plik i wziąć udział w szczegółowych lekcjach na temat tworzenia kolejnych miar.  
 
 Aby bardziej szczegółowo poznać język DAX, zapoznaj się z tematem [Podstawy języka DAX w programie Power BI Desktop](desktop-quickstart-learn-dax-basics.md). [Dokumentacja języka Data Analysis Expressions](https://msdn.microsoft.com/library/gg413422.aspx) zawiera szczegółowe artykuły na temat każdej funkcji, składni, operatorów i konwencji nazewnictwa. Język DAX od kilku lat jest obecny w dodatku Power Pivot do programu Excel i w usługach SQL Server Analysis Services, istnieje więc wiele innych przydatnych zasobów. Pamiętaj, aby zajrzeć na [stronę wiki DAX Resource Center](http://social.technet.microsoft.com/wiki/contents/articles/1088.dax-resource-center.aspx), gdzie wpływowi członkowie społeczności analizy biznesowej dzielą się swoją wiedzą na temat języka DAX.
 

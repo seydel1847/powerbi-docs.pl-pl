@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/03/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: f4c9fec65f9c006095470a8983f889d44f3ce460
-ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
+ms.openlocfilehash: a687e42ef2963ce5e85bd1e0be72c2562afa5b6c
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/08/2019
-ms.locfileid: "54072893"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54279992"
 ---
 # <a name="show-items-with-no-data-in-power-bi"></a>Pokazywanie elementów bez danych w usłudze Power BI
 
@@ -65,7 +65,7 @@ W efekcie usługa Power BI wyświetla kombinacje, które mają wpisy w tabeli Pr
 
 **4. Grupy z różnych i niepowiązanych tabel**
 
-Przykładowy model nie ma tej kombinacji, ale w przypadku grup z różnych i niepowiązanych tabel usługa Power BI nie może utworzyć powiązania między kolumnami, a wynikiem jest sprzężenie krzyżowe wszystkich wartości poszczególnych kolumn. W tej sytuacji usługa Power BI generuje błąd typu *nieograniczone sprzężenie*, ponieważ takie sprzężenia krzyżowe są drogie do obliczenia w bazie danych i nie oferują użytkownikowi wielu informacji. 
+Przykładowy model nie ma tej kombinacji, ale w przypadku grup z różnych i niepowiązanych tabel usługa Power BI nie może utworzyć powiązania między kolumnami. Wynikiem jest sprzężenie krzyżowe wszystkich wartości poszczególnych kolumn. W tej sytuacji usługa Power BI generuje błąd typu *nieograniczone sprzężenie*, ponieważ takie sprzężenia krzyżowe są drogie do obliczenia w bazie danych i nie oferują użytkownikowi wielu informacji. 
 
 ![Błąd pokazywany w przypadku nieograniczonego sprzężenia](media/desktop-show-items-no-data/show-items-no-data_01.png)
 
@@ -76,7 +76,7 @@ W poprzedniej sekcji opisano sposób wybierania odpowiednich danych do wyświetl
 
 Funkcja **Pokaż elementy bez danych** umożliwia wykonanie właśnie tej czynności — uwzględnienia wierszy i kolumn danych, które nie zawierają danych miar (puste wartości miar).
 
-Aby włączyć funkcję **Pokaż elementy bez danych**, wybierz wizualizację, a następnie w zasobniku **Pola** kliknij prawym przyciskiem myszy pole i z wyświetlonego menu wybierz pozycję **Pokaż elementy bez danych**, jak pokazano na poniższej ilustracji.
+Aby włączyć funkcję **Pokaż elementy bez danych**, wybierz wizualizację, a następnie w zasobniku **Pola** kliknij prawym przyciskiem myszy pole i z wyświetlonego menu wybierz pozycję **Pokaż elementy bez danych**, jak pokazano na poniższej ilustracji:
 
 ![Jak włączyć funkcję Pokaż elementy bez danych](media/desktop-show-items-no-data/show-items-no-data_02.png)
 
@@ -195,4 +195,4 @@ W tej sekcji przedstawiono przykładowy model danych używany w przykładach w t
 
 W tym artykule opisano sposób włączania funkcji **Pokaż elementy bez danych** w usłudze Power BI. Może zainteresują Cię również następujące artykuły: 
 
-* [Źródła danych w programie Power BI Desktop](desktop-data-sources.md)
+* [Domyślny element członkowski wielowymiarowych modeli w usłudze Power BI](desktop-default-member-multidimensional-models.md)

@@ -6,16 +6,16 @@ ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-gateways
+ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: 795f97403ea80caad52e57e54edc3d54a4c5d952
-ms.sourcegitcommit: 3b1a1f55465e5dca88783046c6b4c073e4e22e4b
+ms.openlocfilehash: 623eb93c27f0ec762b2c9d063b646d757c3b1f0c
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "51580545"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296575"
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>Rozwiązywanie problemów z lokalną bramą danych
 
@@ -60,17 +60,17 @@ Dzienniki usługi bramy są podzielone na trzy kategorie: informacje, błąd i s
 
 Domyślnie ten plik znajduje się tutaj: *\Program Files\On-premises data gateway\Microsoft.PowerBI.EnterpriseGateway.exe.config*. Aby skonfigurować liczbę plików dziennika do zachowania, należy zmienić pierwszy numer (w tym przykładzie 20): `GatewayInfo.log,GatewayErrors.log,GatewayNetwork.log,20,50`.
 
-### <a name="error-failed-to-create-a-gateway-try-again"></a>Błąd: Nie można utworzyć bramy. Spróbuj ponownie
+### <a name="error-failed-to-create-a-gateway-try-again"></a>Błąd: nie można utworzyć bramy. Spróbuj ponownie
 
 Wszystkie szczegóły są dostępne, ale wywołanie usługi Power BI zwróciło błąd. Zostanie wyświetlony błąd oraz identyfikator działania. Przyczyn może być kilka. Aby uzyskać więcej informacji, możesz zebrać i przejrzeć dzienniki zgodnie z poniższymi informacjami.
 
 Ponadto przyczyną mogą być problemy z konfiguracją serwera proxy. Interfejs użytkownika umożliwia teraz konfigurowanie serwera proxy. Dowiedz się więcej na temat wprowadzania [zmian w konfiguracji serwera proxy](service-gateway-proxy.md)
 
-### <a name="error-failed-to-update-gateway-details-please-try-again"></a>Błąd: Nie można zaktualizować szczegółów bramy. Spróbuj ponownie
+### <a name="error-failed-to-update-gateway-details-please-try-again"></a>Błąd: nie można zaktualizować szczegółów bramy. Spróbuj ponownie
 
 Odebrano informacje z usługi Power BI do bramy. Informacje zostały przekazane do lokalnej usługi systemu Windows, ale nie zostały zwrócone. Ewentualnie nie powiodło się generowanie klucza zawartości. Wyjątek wewnętrzny jest wyświetlany w obszarze **Pokaż szczegóły**. Aby uzyskać więcej informacji, możesz zebrać i przejrzeć dzienniki wymienione poniżej.
 
-### <a name="error-power-bi-service-reported-local-gateway-as-unreachable-restart-the-gateway-and-try-again"></a>Błąd: Usługa Power BI poinformowała o niedostępności bramy lokalnej. Uruchom ponownie bramę i ponów próbę
+### <a name="error-power-bi-service-reported-local-gateway-as-unreachable-restart-the-gateway-and-try-again"></a>Błąd: usługa Power BI poinformowała o niedostępności bramy lokalnej. Uruchom ponownie bramę i ponów próbę
 
 Podczas kończenia konfiguracji usługa Power BI jest ponownie wywoływana, aby przeprowadzić walidację bramy. Usługa Power BI nie zgłasza bramy jako *aktywnej*. Ponowne uruchomienie usługi systemu Windows może pozwolić na pomyślne nawiązanie komunikacji. Aby uzyskać więcej informacji, możesz zebrać i przejrzeć dzienniki zgodnie z poniższymi informacjami.
 
@@ -117,7 +117,7 @@ Domyślnie lokalna brama danych używa protokołu Transport Layer Security (TLS)
 
 ## <a name="data-sources"></a>Źródła danych
 
-### <a name="error-unable-to-connect-details-invalid-connection-credentials"></a>Błąd: Nie można nawiązać połączenia. Szczegóły: „Nieprawidłowe poświadczenia połączenia”
+### <a name="error-unable-to-connect-details-invalid-connection-credentials"></a>Błąd: nie można nawiązać połączenia. Szczegóły: „Nieprawidłowe poświadczenia połączenia”
 
 W obszarze **Pokaż szczegóły** zostanie wyświetlony komunikat o błędzie otrzymany ze źródła danych. W przypadku programu SQL Server komunikat będzie podobny do poniższego.
 
@@ -125,7 +125,7 @@ W obszarze **Pokaż szczegóły** zostanie wyświetlony komunikat o błędzie ot
 
 Sprawdź, czy masz prawidłową nazwę użytkownika i hasło. Sprawdź również, czy te poświadczenia pozwalają na pomyślne nawiązanie połączenia ze źródłem danych. Upewnij się, że używane konto jest zgodne z **Metodą uwierzytelniania**.
 
-### <a name="error-unable-to-connect-details-cannot-connect-to-the-database"></a>Błąd: Nie można nawiązać połączenia. Szczegóły: „Nie można połączyć się z bazą danych”
+### <a name="error-unable-to-connect-details-cannot-connect-to-the-database"></a>Błąd: nie można nawiązać połączenia. Szczegóły: „Nie można połączyć się z bazą danych”
 
 Powiodło się nawiązanie połączenia z serwerem, ale nie z podaną bazą danych. Sprawdź nazwę bazy danych oraz zweryfikuj, czy poświadczenia użytkownika zapewniają prawidłowe uprawnienie dostępu do tej bazy danych.
 
@@ -133,7 +133,7 @@ W obszarze **Pokaż szczegóły** zostanie wyświetlony komunikat o błędzie ot
 
     Cannot open database "AdventureWorks" requested by the login. The login failed. Login failed for user 'username'.
 
-### <a name="error-unable-to-connect-details-unknown-error-in-data-gateway"></a>Błąd: Nie można nawiązać połączenia. Szczegóły: „Nieznany błąd bramy danych”
+### <a name="error-unable-to-connect-details-unknown-error-in-data-gateway"></a>Błąd: nie można nawiązać połączenia. Szczegóły: „Nieznany błąd bramy danych”
 
 Przyczyny wystąpienia tego błędu mogą być różne. Sprawdź, czy możesz nawiązać połączenie ze źródłem danych z maszyny, na której jest hostowana brama. Ten błąd może być spowodowany tym, że serwer jest niedostępny.
 
@@ -141,7 +141,7 @@ W obszarze **Pokaż szczegóły** będzie widoczny kod błędu **DM_GWPipeline_U
 
 Więcej informacji można również uzyskać, wybierając pozycję Dzienniki zdarzeń > **Dzienniki aplikacji i usług** > **Usługa lokalnej bramy danych**.
 
-### <a name="error-we-encountered-an-error-while-trying-to-connect-to-server-details-we-reached-the-data-gateway-but-the-gateway-cant-access-the-on-premises-data-source"></a>Błąd: Napotkano błąd podczas próby nawiązania połączenia z elementem <server>. Szczegóły: „Nawiązaliśmy połączenie z bramą data gateway, ale nie może ona uzyskać dostępu do lokalnego źródła danych”.
+### <a name="error-we-encountered-an-error-while-trying-to-connect-to-server-details-we-reached-the-data-gateway-but-the-gateway-cant-access-the-on-premises-data-source"></a>Błąd: napotkaliśmy błąd podczas próby nawiązania połączenia z <server>. Szczegóły: „Nawiązaliśmy połączenie z bramą danych, ale nie może ona uzyskać dostępu do lokalnego źródła danych”.
 
 Nie możemy nawiązać połączenia z podanym źródłem danych. Pamiętaj, aby weryfikować informacje udostępnione dla tego źródła danych.
 
@@ -188,11 +188,11 @@ Upewnij się, że dodano co najmniej jedno źródło danych do bramy zgodnie z o
 
 ## <a name="datasets"></a>Zestawy danych
 
-### <a name="error-there-is-not-enough-space-for-this-row"></a>Błąd: Za mało miejsca dla tego wiersza
+### <a name="error-there-is-not-enough-space-for-this-row"></a>Błąd: za mało miejsca dla tego wiersza
 
 Ten błąd występuje, jeśli rozmiar pojedynczego wiersza będzie większy niż 4 MB. Należy określić wiersz powodujący problem w źródle danych i spróbować go odfiltrować lub zmniejszyć jego rozmiar.
 
-### <a name="error-the-server-name-provided-doesnt-match-the-server-name-on-the-sql-server-ssl-certificate"></a>Błąd: Podana nazwa serwera nie jest zgodna z nazwą serwera w certyfikacie SSL programu SQL Server
+### <a name="error-the-server-name-provided-doesnt-match-the-server-name-on-the-sql-server-ssl-certificate"></a>Błąd: podana nazwa serwera nie jest zgodna z nazwą serwera w certyfikacie SSL programu SQL Server
 
 Ten błąd może wystąpić, gdy nazwa pospolita w certyfikacie dotyczy w pełni kwalifikowanej nazwy domeny (FQDN) serwera, a użytkownik podał tylko nazwę NetBIOS dla serwera. Powoduje to niezgodność certyfikatu. Aby rozwiązać ten problem, należy zmienić nazwę serwera w źródle danych bramy oraz w pliku PBIX tak, aby była używana nazwa FQDN serwera.
 
@@ -204,7 +204,7 @@ Może to być spowodowane kilkoma różnymi scenariuszami.
 2. Twoje konto nie znajduje się na karcie **Użytkownicy** źródła danych w konfiguracji bramy. Musisz skontaktować się z administratorem bramy i poprosić o dodanie Twojego konta do listy.
 3. Twój plik programu Power BI Desktop zawiera wiele źródeł danych, a nie wszystkie z nich są skonfigurowane w bramie. Brama będzie widoczna w obszarze Zaplanowane odświeżanie, jeśli każde źródło danych zostanie zdefiniowane w bramie.
 
-### <a name="error-the-received-uncompressed-data-on-the-gateway-client-has-exceeded-the-limit"></a>Błąd: Nieskompresowane dane odebrane na kliencie bramy przekroczyły limit
+### <a name="error-the-received-uncompressed-data-on-the-gateway-client-has-exceeded-the-limit"></a>Błąd: nieskompresowane dane odebrane na kliencie bramy przekroczyły limit
 
 Dokładne ograniczenie wynosi 10 GB nieskompresowanych danych na tabelę. Jeśli ten problem występuje, istnieją pewne dobre rozwiązania, które pozwalają na optymalizację i uniknięcie tego problemu. W szczególności pomocne jest ograniczenie użycia rzadko zmienianych, długich wartości ciągów, a zamiast nich używanie znormalizowanego klucza lub usunięcie kolumny (jeśli nie jest używana).
 
@@ -217,7 +217,7 @@ Ten problem jest zazwyczaj spowodowany jedną z następujących przyczyn.
 1. Informacje o źródle danych są niezgodne z zawartością podstawowego zestawu danych. Nazwa serwera i nazwa bazy danych w źródle danych zdefiniowanym dla lokalnej bramy danych muszą być zgodne z wartościami podanymi w programie Power BI Desktop. Jeśli używasz adresu IP w programie Power BI Desktop, to źródło danych dla lokalnej bramy danych również musi używać adresu IP.
 2. Dla żadnej bramy w Twojej organizacji nie jest dostępne żadne źródło danych. Źródło danych możesz skonfigurować w nowej lub istniejącej lokalnej bramie danych.
 
-### <a name="error-data-source-access-error-please-contact-the-gateway-administrator"></a>Błąd: Błąd dostępu do źródła danych. Skontaktuj się z administratorem bramy
+### <a name="error-data-source-access-error-please-contact-the-gateway-administrator"></a>Błąd: błąd dostępu do źródła danych. Skontaktuj się z administratorem bramy
 
 Jeśli dany raport używa aktywnego połączenia usług Analysis Services, może wystąpić błąd związany z wartością przekazywaną do właściwości EffectiveUserName, która jest nieprawidłowa lub nie ma uprawnień na maszynie, na której działają usługi Analysis Services. Zazwyczaj problem dotyczący uwierzytelniania wynika z faktu, że wartość przekazywana do właściwości EffectiveUserName nie odpowiada lokalnej głównej nazwie użytkownika (UPN, user principal name).
 
@@ -459,7 +459,7 @@ Wykonaj poniższe kroki w celu rozwiązania problemu:
 1. Skonfiguruj główną nazwę usługi dla bramy lokalnej
 2. Skonfiguruj ograniczone delegowanie w usłudze Active Directory (AD)
 
-### <a name="failedtoimpersonateuserexception-failed-to-create-windows-identity-for-user-userid"></a>FailedToImpersonateUserException: Nie można utworzyć tożsamości systemu Windows dla użytkownika userid
+### <a name="failedtoimpersonateuserexception-failed-to-create-windows-identity-for-user-userid"></a>FailedToImpersonateUserException: nie można utworzyć tożsamości systemu Windows dla identyfikatora użytkownika userid
 
 Zostanie zwrócony wyjątek FailedToImpersonateUserException, jeśli nie możesz dokonać personifikacji w imieniu innego użytkownika. Taka sytuacja może wystąpić również w przypadku próby personifikacji konta z innej domeny niż domena, w której znajduje się usługa bramy (jest to ograniczenie).
 

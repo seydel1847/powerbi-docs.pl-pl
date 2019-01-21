@@ -5,17 +5,17 @@ author: mihart
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: daada8a7f69c600acf6fc45669ed6a42c2fdd831
-ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
+ms.openlocfilehash: c35f418362c5036331030bf100d9bfca6b943a4a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "52900663"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54295829"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Co nowego w usłudze Power BI
@@ -24,7 +24,7 @@ Na tej stronie możesz dowiedzieć się o znanych problemach i ostatnio udostęp
 - [Co nowego w programie Power BI Desktop](desktop-latest-update.md)  
 - [Co nowego w aplikacjach mobilnych dla usługi Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)  
 - [Blog zespołu usługi Power BI](https://powerbi.microsoft.com/blog/)
-- [Informacje o wersji aplikacji biznesowych: wiosna ’18](http://aka.ms/businessappsreleasenotes) (usługa Dynamics 365): najnowsze aktualizacje naszych aplikacji biznesowych, a także nowe możliwości kompilowania aplikacji i rozszerzeń na naszej platformie. 
+- [Informacje o wersji aplikacji biznesowych — wiosna 2018 r.](http://aka.ms/businessappsreleasenotes) z usługi Dynamics 365: Najnowsze aktualizacje aplikacji biznesowych oraz nowe możliwości dotyczące tworzenia własnych aplikacji i rozszerzeń na naszej platformie. 
 
 Możesz też zapoznać się z kanałami w witrynie YouTube przedstawiającymi nowości i funkcje.
 
@@ -121,7 +121,7 @@ Możesz też zapoznać się z kanałami w witrynie YouTube przedstawiającymi no
 * Przechodzenie do raportów za pomocą wielu parametrów filtru adresu URL.
 * Wersja zapoznawcza: [użycie aplikacji usługi Power BI](https://powerbi.microsoft.com/blog/distribute-to-large-audiences-with-power-bi-apps/) na potrzeby szerokiej dystrybucji pulpitów nawigacyjnych i raportów do dużych grup odbiorców.
 
-### <a name="march-2017"></a>Marzec 2017
+### <a name="march-2017"></a>March 2017
 * Precyzyjne strojenie wykorzystania usługi Power BI w organizacji za pomocą [szczegółowych ustawień administracyjnych](https://powerbi.microsoft.com/blog/announcing-granular-tenant-settings-in-power-bi/).
 * Zrób więcej w krótszym czasie za pomocą [okienka Wyświetl powiązaną zawartość](https://powerbi.microsoft.com/blog/announcing-the-view-related-content-pane-navigation-made-even-easier/preview/).
 * Ulepszone [komunikaty dla rozwiązywania problemów z zapytaniami w języku DAX](https://powerbi.microsoft.com/blog/power-bi-service-march-feature-summary/#DAXtroubleshooting).
@@ -182,9 +182,9 @@ Możesz też zapoznać się z kanałami w witrynie YouTube przedstawiającymi no
 Wszystkie szczegółowe informacje [znajdują się w blogu zespołu usługi Power BI](https://powerbi.microsoft.com/blog/power-bi-july-update-for-service-and-mobile/)
 
 ### <a name="june-2016"></a>Czerwiec 2016
-***Szybki wgląd w szczegółowe dane***
+***szybkiego wglądu w szczegółowe dane***
 
-* Szybki wgląd w szczegółowe dane działa w połączeniu ze złożonymi filtrami: z przyjemnością ogłaszamy, że funkcja szybkiego wglądu w szczegółowe dane ograniczona do pojedynczego kafelka teraz obsługuje złożone filtry.
+* Szybki wgląd w szczegółowe informacje działa w połączeniu ze złożonymi filtrami: z przyjemnością ogłaszamy, że funkcja szybkiego wglądu w szczegółowe informacje ograniczona do pojedynczego kafelka teraz obsługuje złożone filtry.
 
 Wszystkie szczegółowe informacje [znajdują się w blogu zespołu usługi Power BI](https://powerbi.microsoft.com/blog/smarter-auto-generated-insights-with-complex-filters/)
 
@@ -196,9 +196,9 @@ Wszystkie szczegółowe informacje [znajdują się w blogu zespołu usługi Powe
 
 ***Zabezpieczenia na poziomie wiersza***
 
-* Obsługa grup usługi Azure Active Directory (AAD): użytkownicy mogą teraz przypisywać grupy usługi AAD (grupy zabezpieczeń i listy dystrybucyjne) do roli. Ułatwia to jednoczesne przypisanie ról do dużej grupy użytkowników.
-* [Testowanie ról zabezpieczeń na poziomie wiersza za pomocą danych z zabezpieczeniami na poziomie wiersza](service-admin-rls.md#validating-the-role-within-power-bi-desktop): dodaliśmy do wersji zapoznawczej zabezpieczeń na poziomie wiersza funkcję, która umożliwia testowanie zestawu danych za pomocą określonej roli. W ten sposób możesz upewnić się, że role działają zgodnie z oczekiwaniami, zanim użytkownicy uzyskają dostęp do pulpitu nawigacyjnego.
-* Definiowanie i stosowanie zabezpieczeń na poziomie wiersza do modeli chmurowych opartych na bezpośrednich zapytaniach: teraz możesz tworzyć i stosować reguły zabezpieczeń na poziomie wiersza na potrzeby źródeł danych obsługujących zapytania bezpośrednie.
+* Obsługa grup w usłudze Azure Active Directory (AAD): użytkownicy mogą teraz przypisywać grupy usługi AAD (grupy zabezpieczeń i listy dystrybucyjne) do roli. Ułatwia to jednoczesne przypisanie ról do dużej grupy użytkowników.
+* [Testowanie ról zabezpieczeń na poziomie wiersza przy użyciu raportów opartych na danych z zastosowanymi zabezpieczeniami na poziomie wiersza](service-admin-rls.md#validating-the-role-within-power-bi-desktop): dodaliśmy do wersji zapoznawczej zabezpieczeń na poziomie wiersza funkcję, która umożliwia testowanie zestawu danych jako określonej roli. W ten sposób możesz upewnić się, że role działają zgodnie z oczekiwaniami, zanim użytkownicy uzyskają dostęp do pulpitu nawigacyjnego.
+* Definiowanie i stosowanie zabezpieczeń na poziomie wiersza do modeli w chmurze w oparciu o zapytania bezpośrednie: można teraz tworzyć i stosować reguły zabezpieczeń na poziomie wiersza dla źródeł danych obsługujących zapytania bezpośrednie.
 
 ***Pulpity nawigacyjne***
 
@@ -217,7 +217,7 @@ Wszystkie szczegółowe informacje [znajdują się w blogu zespołu usługi Powe
 
 **28 kwietnia 2016**
 
-* [Szybki wgląd w szczegółowe dane na kafelkach pulpitu nawigacyjnego](consumer/end-user-insights.md): podczas wyświetlania kafelka w trybie koncentracji uwagi kliknij pozycję Pobierz analizy, aby automatycznie i w ciągu sekund przeszukać kafelek i powiązane z nim dane pod kątem korelacji, wartości odstających, trendów, sezonowości, punktów zmiany w trendach i głównych czynników.
+* [Szybki wgląd w szczegółowe informacje na kafelkach pulpitu nawigacyjnego](consumer/end-user-insights.md): podczas wyświetlania kafelka w trybie koncentracji uwagi kliknij pozycję Pobierz analizy, aby automatycznie i w ciągu sekund przeszukać kafelek i powiązane z nim dane pod kątem korelacji, wartości odstających, trendów, sezonowości, punktów zmiany w trendach i głównych czynników.
 
 Wszystkie szczegółowe informacje [znajdują się w blogu zespołu usługi Power BI](https://powerbi.microsoft.com/blog/find-more-insights-in-your-dashboards-with-quick-insights/)
 
@@ -242,7 +242,7 @@ Wszystkie szczegółowe informacje [znajdują się w blogu zespołu usługi Powe
 
 ***Pulpity nawigacyjne***
 
-* [Kafelek wideo usługi Vimeo](service-dashboard-add-widget.md): z poziomu pulpitu nawigacyjnego możesz dodać kafelek z osadzonym odtwarzaczem usługi Vimeo.
+* [Kafelek wideo usługi Vimeo](service-dashboard-add-widget.md):  z poziomu pulpitu nawigacyjnego możesz dodać kafelek z osadzonym odtwarzaczem usługi Vimeo.
 
 ***Analizowanie w programie Excel***
 
@@ -268,7 +268,7 @@ Wszystkie szczegółowe informacje [znajdują się w blogu zespołu usługi Powe
 
 * Autouzupełnianie dla słowa „to”: funkcja pytań i odpowiedzi podpowiada wartości po wpisaniu nazwy kolumny i słowa „to”.
 
-***Mobilność***
+***Aplikacja mobilna***
 
 * Kluczowe wskaźniki wydajności na zegarku firmy Apple: monitorowanie kluczowych wskaźników wydajności i kafelków karty bez konieczności otwierania aplikacji usługi Power BI.
 
@@ -422,7 +422,7 @@ Mnóstwo aktualizacji w tym tygodniu — w większości dotyczących programu Po
   2. Łącznik usługi Stripe
   3. Łącznik usługi Smartsheet
   4. „Podaj dane”: utworzenie tabeli przez wklejenie lub podanie danych
-  5. Ulepszenia zapytań bezpośrednich: obsługa wszystkich typów danych języka T-SQL i programu SAP HANA dająca poprawę wydajności.
+  5. Ulepszenia trybu DirectQuery:  obsługa wszystkich typów danych języka T-SQL i programu SAP HANA dająca poprawę wydajności.
   6. Łącznik ODBC: obsługa wybierania nazw DSN użytkownika/systemu
   7. Łącznik CSV: możliwość określenia ogranicznika kolumn w oknie dialogowym Źródło
 
@@ -448,7 +448,7 @@ Wszystkie szczegółowe informacje, w tym prezentacje wideo wielu z aktualizacji
 * [Integracja usługi Power BI z Cortaną](http://blogs.msdn.com/b/powerbi/archive/2015/12/01/announcing-power-bi-integration-with-cortana-and-new-ways-to-quickly-find-insights-in-your-data.aspx)
 * [Wersja zapoznawcza bramy usługi Power BI dla przedsiębiorstw](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/announcing-preview-of-power-bi-gateway-for-enterprise-deployments.aspx)
 * Wprowadzenie nowego pakietu zawartości: [analiza wyszukiwania w usłudze Bing na pulpitach nawigacyjnych usługi Power BI](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/search-analytics-from-bing-on-your-power-bi-dashboards.aspx)
-* Nowe ulepszenia przeznaczone dla programistów: [dwa nowe interfejsy API i łatwiejsze rejestrowanie aplikacji](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/power-bi-for-developers-reports-api-and-a-simple-app-registration-experience.aspx)
+* Nowe ulepszenia dla deweloperów: [dwa nowe interfejsy API i łatwiejsze rejestrowanie aplikacji](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/power-bi-for-developers-reports-api-and-a-simple-app-registration-experience.aspx)
 
 **24 listopada 2015**
 
@@ -541,7 +541,7 @@ Zapoznaj się z [blogiem](http://blogs.msdn.com/b/powerbi/archive/2015/10/06/pow
 
 * Większa elastyczność dostosowywania pulpitów nawigacyjnych przy użyciu dodatkowych rozmiarów kafelka — od 1x1 do 5x5.
 * Teraz możesz [udostępnić (i anulować udostępnianie) pulpit nawigacyjny z obszaru grupy](service-collaborate-power-bi-workspace.md) dokładnie tak samo jak z własnego obszaru. Gdy współpracownicy zaakceptują zaproszenie do współużytkowania, udostępniony pulpit nawigacyjny (i powiązane z nim raporty) zostanie dodany do własnego obszaru z uprawnieniami tylko do odczytu.
-* Dodaliśmy do usługi Power BI 5 dodatkowych [przykładów dla różnych branż](sample-datasets.md): Rentowność klientów, Zasoby ludzkie, Analiza szans, Analiza zaopatrzenia oraz Sprzedaż i marketing.
+* Dodaliśmy do usługi Power BI 5 dodatkowych [przykładów dla różnych branż](sample-datasets.md): Customer Profitability, Human Resources, Opportunity Analysis, Procurement Analysis i Sales and Marketing Sample.
 * Usługa Stripe to zaawansowana platforma do obsługi płatności przeznaczona dla firm online. Od nowych przedsięwzięć do firm z listy Fortune 500 — tysiące firm korzystają z usługi Stripe do przyjmowania płatności w ponad 130 walutach od klientów z całego świata. Łącząc usługę Power BI z istniejącym kontem usługi Stripe, możesz [użyć pakietu zawartości usługi Stripe dla usługi Power BI do monitorowania, eksplorowania i wizualizowania Twoich działań w usłudze Stripe](service-connect-to-stripe.md).
 
 [Dowiedz się więcej, czytając nasz blog](http://blogs.msdn.com/b/powerbi/archive/2015/09/22/power-bi-weekly-service-update-0922.aspx).
@@ -594,7 +594,7 @@ Zapoznaj się z [blogiem](http://blogs.msdn.com/b/powerbi/archive/2015/10/06/pow
 * Z entuzjazmem ogłaszamy „ogólną dostępność” usługi Power BI. Już dzisiaj utwórz konto usługi [Power BI Pro](service-self-service-signup-for-power-bi.md). W ramach wersji ogólnie dostępnej oferujemy kilka wspaniałych nowych funkcji:
 * Nowe środowisko tworzenia wizualizacji i raportów: nowa kanwa dla raportów z większą liczbą wizualizacji, większa kontrola nad formatowaniem tytułów, legendami, osiami, kolorami, tłami i innymi.
 * [Grupy usługi Power BI](service-create-distribute-apps.md): grupy oferują zaawansowane środowisko współpracy oparte na grupach usługi Office 365.
-* [Pakiety zawartości dla organizacji](service-organizational-content-pack-introduction.md): usługa Power BI bardzo upraszcza tworzenie pulpitów nawigacyjnych i raportów, a teraz użytkownicy mogą publikować tę zawartość w galerii zawartości organizacji.
+* [Organizacyjne pakiety zawartości](service-organizational-content-pack-introduction.md): usługa Power BI bardzo upraszcza tworzenie pulpitów nawigacyjnych i raportów, a teraz użytkownicy mogą publikować tę zawartość w galerii zawartości organizacji.
 * [Obsługa całych plików programu Excel](service-excel-workbook-files.md): możesz przekazać dowolny skoroszyt programu Excel zapisany w usłudze OneDrive dla Firm do usługi Power BI i wyświetlić cały skoroszyt dokładnie tak jak w usłudze Excel Online.
 * [Obsługa plików CSV](service-get-data-from-files.md): tekst rozdzielany przecinkami (CSV), tak samo jak plik programu Excel lub Power BI Desktop, może stanowić zestaw danych dla raportów i pulpitów nawigacyjnych usługi Power BI.
 * Zastępowanie plików CSV, programu Excel i programu Power BI Desktop: możesz przekazać zaktualizowaną wersję pliku do usługi Power BI i zastąpić istniejący zestaw danych. Wszystkie raporty i pulpity nawigacyjne połączone z tym zestawem danych teraz automatycznie będą używać nowej wersji.

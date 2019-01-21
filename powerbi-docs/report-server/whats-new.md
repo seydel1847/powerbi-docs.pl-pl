@@ -6,15 +6,15 @@ ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 08/16/2018
-ms.openlocfilehash: a365cab0420fdf373d62f5b1774a4d86985adfe3
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.openlocfilehash: 91179ca37b8ba5c883785501588c9b12a02d644d
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50101260"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54292458"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Co nowego w serwerze raportów usługi Power BI
 
@@ -266,13 +266,13 @@ Ta wersja obsługuje skalowanie w poziomie. Użyj modułu równoważenia obcią�
 
 Administratorzy mogą ustawić następujące właściwości w zaawansowanych właściwościach programu SSMS dla farmy serwerów:
 
-* EnableCustomVisuals: Prawda/Fałsz
-* EnablePowerBIReportEmbeddedModels: Prawda/Fałsz
-* EnablePowerBIReportExportData: Prawda/Fałsz
-* MaxFileSizeMb: Domyślnie teraz wynosi 1000
-* ModelCleanupCycleMinutes: Jak często sprawdza, czy wykluczyć modele z pamięci
-* ModelExpirationMinutes: Jak długo trwa aż model wygaśnie i zostanie usunięty na podstawie czasu ostatniego użycia
-* ScheduleRefreshTimeoutMinutes: Jak długo może trwać odświeżanie długich danych dla modelu. Domyślnie są to dwie godziny.  Nie ma żadnego sztywnego, górnego limitu.
+* EnableCustomVisuals: Prawda/fałsz
+* EnablePowerBIReportEmbeddedModels: Prawda/fałsz
+* EnablePowerBIReportExportData: Prawda/fałsz
+* MaxFileSizeMb: obecnie wartość domyślna to 1000
+* ModelCleanupCycleMinutes: częstotliwość sprawdzania, czy wykluczyć modele z pamięci
+* ModelExpirationMinutes: długość okresu do wygaśnięcia i wykluczenia modelu na podstawie czasu ostatniego użycia
+* ScheduleRefreshTimeoutMinutes: długość okresu odświeżania danych w modelu. Domyślnie są to dwie godziny.  Nie ma żadnego sztywnego, górnego limitu.
 
 **Plik konfiguracji rsreportserver.config**
 

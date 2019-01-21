@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: lukaszp
 featuredvideoid: EKVvOZmxg9s
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 81867ba36e79a26acb168c1b02fc31e228bd6439
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: e559cb3ed460c8d81406ae8c8b01fe33eceaf461
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51266052"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54293922"
 ---
 # <a name="arcgis-maps-in-power-bi-service-and-power-bi-desktop-by-esri"></a>Mapy ArcGIS firmy Esri w usłudze Power BI i programie Power BI Desktop
 Niniejszy samouczek został napisany, uwzględniając punkt widzenia osoby tworzącej mapę ArcGIS. Jeśli twórca udostępni mapę ArcGIS współpracownikom, mogą oni wyświetlać mapę i wchodzić w interakcję z nią, ale nie mogą zapisywać zmian. Aby dowiedzieć się więcej na temat wyświetlania mapy ArcGIS, zobacz [Wchodzenie w interakcje z mapami ArcGIS](visuals/power-bi-visualizations-arcgis.md).
@@ -207,7 +207,7 @@ Usługa ArcGIS Online umożliwia organizacjom publikowanie publicznych map inter
 2. Wprowadź terminy wyszukiwania, a następnie wybierz warstwę mapy. W tym przykładzie wybraliśmy dystrykty kongresowe w USA.
    
     ![](media/power-bi-visualization-arcgis/power-bi-esri-demographics-esri2-new.png)
-3. W celu wyświetlenia szczegółów, wybierz zacieniony obszar, aby otworzyć opcję *Wybierz z warstwy referencyjnej*. Użyj narzędzia zaznaczania warstwy referencyjnej, aby zaznaczyć granice lub obiekty na warstwie referencyjnej.
+3. Aby wyświetlić szczegóły, wybierz zacieniony obszar, aby otworzyć narzędzie *Wybierz z warstwy referencyjnej*: użyj narzędzia wybierania z warstwy referencyjnej, aby zaznaczyć granice lub obiekty w warstwie referencyjnej.
 
 <br/>
 
@@ -325,7 +325,7 @@ Komponent ArcGIS Maps for Power BI jest dostępny dla wszystkich użytkowników 
 
 **Program Power BI Desktop wyświetla błąd informujący o przepełnieniu pamięci podręcznej**
 
-Jest to błąd, którego naprawianie jest w toku.  Przejściowo, aby wyczyścić pamięć podręczną, spróbuj usunąć pliki w tej lokalizacji: C:\Users\\AppData\Local\Microsoft\Power BI Desktop\CEF, a następnie uruchom ponownie usługę Power BI.
+Jest to błąd, którego naprawianie jest w toku.  W międzyczasie w celu wyczyszczenia pamięci podręcznej spróbuj usunąć pliki w tej lokalizacji: C:\Users\\AppData\Local\Microsoft\Power BI Desktop\CEF, a następnie uruchom ponownie usługę Power BI.
 
 **Czy komponent ArcGIS Maps for Power BI obsługuje pliki kształtów Esri?**
 

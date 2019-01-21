@@ -5,16 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 10/22/2018
 ms.author: maggies
-ms.openlocfilehash: 475221981181e4ddfac18e7023259fac9bbc35ed
-ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
+ms.openlocfilehash: 9e3a45e7648fd38413c2d45582981bac5e91cd2a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "52289133"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54284439"
 ---
 # <a name="create-a-paginated-report-for-power-bi-report-server"></a>Tworzenie raportu podzielonego na strony dla serwera raportów usługi Power BI
 Jak wskazuje nazwa, raporty z podziałem na strony można uruchamiać na wielu stronach. Mają one układ zgodny z ustalonym formatem i umożliwiają dokładne dostosowanie. Raporty z podziałem na strony są plikami RDL.
@@ -55,7 +55,7 @@ Na pierwszej stronie Kreatora wykresu, **Wybór zestawu danych**, możesz utworz
 
 1. Wybierz pozycje **Przeglądaj** > wybierz udostępniony zestaw danych na serwerze > **Otwórz** > **Dalej**.
    
-    ![Kreator wykresu: Wybór zestawu danych](media/quickstart-create-paginated-report/reportserver-paginated-choose-dataset.png)
+    ![Kreator wykresu: Wybieranie zestawu danych](media/quickstart-create-paginated-report/reportserver-paginated-choose-dataset.png)
    
      Chcesz utworzyć zestaw danych? Zobacz [Tworzenie udostępnionego lub osadzonego zestawu danych](https://docs.microsoft.com/sql/reporting-services/report-data/create-a-shared-dataset-or-embedded-dataset-report-builder-and-ssrs).
 2. Wybierz typ wykresu — w tym przypadku wykres słupkowy.
@@ -63,7 +63,7 @@ Na pierwszej stronie Kreatora wykresu, **Wybór zestawu danych**, możesz utworz
     ![Kreator wykresu: Typ wykresu](media/quickstart-create-paginated-report/reportserver-paginated-choose-chart-type.png)
 3. Uporządkuj pola, przeciągając je do pól **Kategorie**, **Szeregi** i **Wartości**.
    
-    ![Kreator wykresu: Rozmieszczanie pól](media/quickstart-create-paginated-report/reportserver-paginated-arrange-fields.png)
+    ![Kreator wykresu: Porządkowanie pól](media/quickstart-create-paginated-report/reportserver-paginated-arrange-fields.png)
 4. Wybierz pozycje **Dalej** > **Zakończ**.
 
 ## <a name="step-3-design-your-report"></a>Krok 3. Projektowanie raportu

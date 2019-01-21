@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: d5f2fa0abe6f0503ce5f41387f66db928ae0267e
-ms.sourcegitcommit: ba447d7cc94418d7d3cf6fdcb686ec1a859258a8
+ms.openlocfilehash: 642bd39cb9348bae2a1f30dbc9ee026e11ff7401
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 07/02/2018
-ms.locfileid: "37145415"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54284523"
 ---
 # <a name="troubleshooting-power-bi-gateway---personal"></a>Rozwiązywanie problemów z bramą Power BI Gateway – Personal
 W tym temacie przedstawiono niektóre typowe problemy, które mogą wystąpić w przypadku korzystania z bramy Power BI Gateway — Personal.
@@ -44,7 +44,7 @@ Gdy wersja bramy jest nieaktualna, może pojawiać się wiele problemów.  Warto
 
  **Konfiguracja serwera proxy** — mogą wystąpić problemy z konfigurowaniem bramy osobistej, jeśli środowisko wymaga użycia serwera proxy. Aby dowiedzieć się więcej na temat sposobu konfigurowania informacje o serwerze proxy, zobacz [Konfigurowanie ustawień serwera proxy dla bram Power BI Gateway](service-gateway-proxy.md)
 
-## <a name="schedule-refresh"></a>Planowanie odświeżania
+## <a name="schedule-refresh"></a>Zaplanuj odświeżanie
 **Błąd: brak poświadczeń przechowywanych w chmurze.**
 
 Ten błąd może wystąpić w obszarze ustawień dla \<zestawu danych\>, jeśli zaplanowano odświeżanie, a następnie odinstalowano i ponownie zainstalowano bramę osobistą. Po odinstalowaniu bramy osobistej poświadczenia źródła danych dla zestawu danych, który został skonfigurowany do odświeżenia, są usuwane z usługi Power BI.
@@ -75,9 +75,9 @@ Ten błąd może wystąpić w obszarze ustawień dla \<zestawu danych\>, jeśli 
 
 **Rozwiązanie**: ten błąd występuje z powodu ograniczeń dotyczących poziomów prywatności i używanych typów źródeł danych.
 
-**Błąd: za mało miejsca dla tego wiersza.**
+**Błąd: Za mało miejsca dla tego wiersza.**
 
-Ta sytuacja wystąpi, jeśli rozmiar pojedynczego wiersza będzie większy niż 4 MB. Należy określić, który wiersz pochodzi ze źródła danych i spróbować go odfiltrować w celu zmniejszenia jego rozmiaru.
+Ten błąd wystąpi, jeśli rozmiar pojedynczego wiersza będzie większy niż 4 MB. Należy określić, który wiersz pochodzi ze źródła danych i spróbować go odfiltrować w celu zmniejszenia jego rozmiaru.
 
 ## <a name="data-sources"></a>Źródła danych
 **Brak dostawcy danych** — brama osobista jest tylko w wersji 64-bitowej. Wymaga ona zainstalowania 64-bitowej wersji dostawców danych na tym samym komputerze, na którym zainstalowano tę bramę osobistą. Jeśli na przykład źródło danych w zestawie danych to program Microsoft Access, należy zainstalować 64-bitowego dostawcę ACE na tym samym komputerze, na którym zainstalowano bramę osobistą.  

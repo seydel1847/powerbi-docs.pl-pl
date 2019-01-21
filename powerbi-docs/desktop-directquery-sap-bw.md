@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6c47fb847ff5360031f4bfe2974db9c405a4ce5f
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 61de19e50437cf8cb5920d2a413821e325da2a1a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670744"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54278083"
 ---
 # <a name="directquery-and-sap-business-warehouse-bw"></a>Zapytanie bezpośrednie i system SAP Business Warehouse (BW)
 Dzięki **zapytaniu bezpośredniemu** można połączyć się bezpośrednio ze źródłami danych systemu **SAP Business Warehouse (BW)**. Ponieważ system SAP BW jest źródłem danych OLAP (wielowymiarowym), korzystanie z zapytania bezpośredniego dla źródeł danych SAP BW różni się istotnie od korzystania z niego dla źródeł relacyjnych, takich jak program SQL Server. Te różnice można podsumować w następujący sposób:
@@ -32,19 +32,19 @@ Ponadto *bardzo ważna* jest świadomość, że wiele funkcji systemu SAP BW nie
 ## <a name="additional-modeling-restrictions"></a>Dodatkowe ograniczenia modelowania
 Najważniejsze dodatkowe ograniczenia dotyczące modelowania w przypadku nawiązywania połączenia z systemem SAP BW przy użyciu zapytania bezpośredniego w usłudze Power BI są następujące:
 
-* **Brak obsługi kolumn obliczeniowych:** Możliwość tworzenia kolumn obliczeniowych jest wyłączona. Oznacza to również, że funkcje grupowania i klastrowania, które tworzą kolumny obliczeniowe, nie są dostępne.
-* **Dodatkowe ograniczenia dotyczące miar:** Istnieją dodatkowe ograniczenia dotyczące wyrażeń języka DAX, które mogą zostać użyte w miarach, odzwierciedlające poziom obsługi oferowany przez system SAP BW.
-* **Brak obsługi definiowania relacji:** Relacje są integralną częścią zewnętrznego źródła danych SAP, dlatego nie można definiować dodatkowych relacji w modelu.
-* **Brak widoku danych:** W **widoku danych** zwykle są wyświetlane szczegółowe dane tabel. Ze względu na charakter źródeł OLAP, takich jak system SAP BW, ten widok nie jest dostępny w przypadku połączenia z systemem SAP BW.
-* **Stałe szczegóły kolumn i miar:** Lista kolumn i miar na liście pól jest ustalana przez bazowe źródło danych i nie można jej zmienić. Nie można na przykład usunąć kolumny ani zmienić typu danych (można jednak zmienić jej nazwę).
-* **Dodatkowe ograniczenia dotyczące języka DAX:** Istnieją dodatkowe ograniczenia dotyczące wyrażeń języka DAX, które mogą zostać użyte w definicjach miar, odzwierciedlające ograniczenia w źródle. Nie można na przykład zastosować funkcji agregującej do tabeli.
+* **Brak obsługi kolumn obliczeniowych:** możliwość tworzenia kolumn obliczeniowych została wyłączona. Oznacza to również, że funkcje grupowania i klastrowania, które tworzą kolumny obliczeniowe, nie są dostępne.
+* **Dodatkowe ograniczenia dotyczące miar:** istnieją dodatkowe ograniczenia dotyczące wyrażeń języka DAX, które mogą zostać użyte w miarach, odzwierciedlające poziom obsługi oferowany przez system SAP BW.
+* **Brak obsługi definiowania relacji:** relacje są integralną częścią zewnętrznego źródła danych SAP, dlatego nie można definiować dodatkowych relacji w modelu.
+* **Brak widoku danych:** w **widoku danych** zwykle są wyświetlane szczegółowe dane tabel. Ze względu na charakter źródeł OLAP, takich jak system SAP BW, ten widok nie jest dostępny w przypadku połączenia z systemem SAP BW.
+* **Stałe szczegóły kolumn i miar:** lista kolumn i miar na liście pól jest ustalana przez bazowe źródło danych i nie można jej zmienić. Nie można na przykład usunąć kolumny ani zmienić typu danych (można jednak zmienić jej nazwę).
+* **Dodatkowe ograniczenia dotyczące języka DAX:** istnieją dodatkowe ograniczenia dotyczące wyrażeń języka DAX, które mogą zostać użyte w definicjach miar, odzwierciedlające ograniczenia w źródle. Nie można na przykład zastosować funkcji agregującej do tabeli.
 
 ## <a name="additional-visualization-restrictions"></a>Dodatkowe ograniczenia wizualizacji
 Najważniejsze dodatkowe ograniczenie dotyczące wizualizacji w przypadku nawiązywania połączenia z systemem SAP BW przy użyciu zapytania bezpośredniego w usłudze Power BI są następujące:
 
-* **Brak agregacji kolumn:** Nie można zmienić sposobu agregacji kolumny w wizualizacji — zawsze jest to opcja *Nie sumuj*.
-* **Wyłączone filtrowanie miar:** Filtrowanie miar jest wyłączone, co odzwierciedla obsługę oferowaną przez system SAP BW.
-* **Wybór wielokrotny i opcja dołączania/wykluczania:** Możliwość wielokrotnego wyboru punktów danych w wizualizacji jest wyłączona, jeśli punkty przedstawiają wartości z więcej niż jednej kolumny. Na przykład gdy wykres słupkowy przedstawia sprzedaż według kraju z legendą zawierającą kategorie, wybranie punktów (USA, rowery) i (Francja, odzież) nie jest możliwe. Podobnie nie jest możliwe wybranie punktu (USA, rowery) i wykluczenie go z wizualizacji. Oba ograniczenia odzwierciedlają obsługę oferowaną przez system SAP BW.
+* **Brak agregacji kolumn:** nie można zmienić sposobu agregacji kolumny w wizualizacji — zawsze jest to opcja *Nie sumuj*.
+* **Wyłączone filtrowanie miar:** filtrowanie miar zostało wyłączone, co odzwierciedla obsługę oferowaną przez system SAP BW.
+* **Wybór wielokrotny i opcja dołączania/wykluczania:** możliwość wielokrotnego wyboru punktów danych w wizualizacji jest wyłączona, jeśli punkty przedstawiają wartości z więcej niż jednej kolumny. Na przykład gdy wykres słupkowy przedstawia sprzedaż według kraju z legendą zawierającą kategorie, wybranie punktów (USA, rowery) i (Francja, odzież) nie jest możliwe. Podobnie nie jest możliwe wybranie punktu (USA, rowery) i wykluczenie go z wizualizacji. Oba ograniczenia odzwierciedlają obsługę oferowaną przez system SAP BW.
 
 ## <a name="support-for-sap-bw-features"></a>Obsługa funkcji systemu SAP BW
 Poniższa tabela zawiera listę wszystkich funkcji systemu SAP BW, które nie są w pełni obsługiwane lub działają inaczej w przypadku korzystania z usługi Power BI.   

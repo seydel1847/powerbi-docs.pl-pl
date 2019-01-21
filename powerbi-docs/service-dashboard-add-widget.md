@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: ''
 featuredvideoid: e2PD8m1Q0vU
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 01af6707cf53f1a5be3f1e7446e967b2306e993b
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 4dec423e991b695097134d575de8c687b518a66c
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717928"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54287076"
 ---
 # <a name="add-image-text-video-and-more-to-your-dashboard"></a>Dodawanie obrazu, tekstu, wideo itd. do pulpitu nawigacyjnego
 <iframe width="560" height="315" src="https://www.youtube.com/embed/e2PD8m1Q0vU" frameborder="0" allowfullscreen></iframe>
@@ -28,7 +28,7 @@ Kontrolka **Dodawanie kafelka** umożliwia bezpośrednie dodanie obrazu, pola te
 1. Wybierz pozycję **Dodaj kafelek** na pasku menu u góry. W zależności od ograniczeń miejsca może zostać wyświetlony tylko znak plus ![znak plus](media/service-dashboard-add-widget/power-bi-add-tile-icon-small.png).
    
     ![Ikona dodawania kafelka](media/service-dashboard-add-widget/power-bi-add-tile-icon.png)
-2. Wybierz typ kafelka do dodania: **Obraz**, **Pole tekstowe**, **Wideo**, **Treść internetowa** lub **Niestandardowe dane strumieniowe**.
+2. Wybierz typ kafelka do dodania: **Obraz**, **Pole tekstowe**, **Wideo**, **Zawartość internetowa** lub **Niestandardowe dane przesyłane strumieniowo**.
    
     ![okno dodawania kafelka](media/service-dashboard-add-widget/power-bi-add-tile.png)
 
@@ -50,7 +50,7 @@ Załóżmy, że chcesz umieścić logo swojej firmy na swoim pulpicie nawigacyjn
 ## <a name="add-a-text-box-or-dashboard-heading"></a>Dodawanie pola tekstowego lub nagłówka pulpitu nawigacyjnego
 1. Wybierz pozycje **Pole tekstowe > Dalej**.
    
-   > **UWAGA**: Aby dodać nagłówek pulpitu nawigacyjnego, wpisz swój nagłówek w polu tekstowym i zwiększ czcionki.
+   > **UWAGA**: aby dodać nagłówek pulpitu nawigacyjnego, wpisz nagłówek w polu tekstowym i zwiększ czcionkę.
    > 
 2. Formatowanie pola tekstowego:
    

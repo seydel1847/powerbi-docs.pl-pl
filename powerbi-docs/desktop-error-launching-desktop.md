@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 78cfcd51a951095353ce5d0f25c4511cc720c632
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: f527fa17ab242f6835ca99a3ff3ef3e2525a001f
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578226"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54277140"
 ---
 # <a name="resolve-issues-when-power-bi-desktop-will-not-launch"></a>Co zrobić, jeśli nie można uruchomić programu Power BI Desktop
 Może się zdarzyć, że użytkownicy programu **Power BI Desktop**, którzy zainstalowali starszą wersję **lokalnej bramy danych usługi Power BI**, nie mogą uruchomić programu Power BI Desktop ze względu na ograniczenia zasad administracyjnych zastosowane przez lokalną bramę danych usługi Power BI do potoków nazwanych na maszynie lokalnej. 
@@ -23,13 +23,13 @@ Może się zdarzyć, że użytkownicy programu **Power BI Desktop**, którzy zai
 ## <a name="resolve-issues-with-the-on-premises-data-gateway-and-power-bi-desktop"></a>Rozwiązywanie problemów z lokalną bramą danych i programem Power BI Desktop
 Aby rozwiązać problem związany z lokalną bramą danych i włączyć program Power BI Desktop, można użyć trzech sposobów:
 
-### <a name="resolution-1-install-the-latest-version-of-power-bi-on-premises-data-gateway"></a>Rozwiązanie nr 1. Zainstalowanie najnowszej wersji lokalnej bramy danych usługi Power BI
+### <a name="resolution-1-install-the-latest-version-of-power-bi-on-premises-data-gateway"></a>Rozwiązanie 1. Zainstalowanie najnowszej wersji lokalnej bramy danych usługi Power BI
 Najnowsza wersja lokalnej bramy danych usługi Power BI nie stosuje ograniczeń do potoków nazwanych na maszynie lokalnej i umożliwia prawidłowe uruchomienie programu Power BI Desktop. Jest to zalecane rozwiązanie, jeśli nadal musisz korzystać z lokalnej bramy danych usługi Power BI. Możesz pobrać najnowszą wersję lokalnej bramy danych usługi Power BI z [tej lokalizacji](https://go.microsoft.com/fwlink/?LinkId=698863). Pamiętaj, że jest to bezpośredni link pobierania do pliku wykonywalnego instalacji.
 
-### <a name="resolution-2-uninstall-or-stop-the-power-bi-on-premises-data-gateway-windows-service"></a>Rozwiązanie nr 2. Odinstalowanie lub zatrzymanie usługi lokalnej bramy danych usługi Power BI w systemie Windows
+### <a name="resolution-2-uninstall-or-stop-the-power-bi-on-premises-data-gateway-windows-service"></a>Rozwiązanie 2. Odinstalowanie lub zatrzymanie usługi lokalnej bramy danych usługi Power BI w systemie Windows
 Jeśli nie potrzebujesz już lokalnej bramy danych usługi Power BI, możesz odinstalować ją lub zatrzymać usługę lokalnej bramy danych usługi Power BI w systemie Windows, co spowoduje usunięcie zasad ograniczeń i umożliwi uruchomienie programu Power BI Desktop.
 
-### <a name="resolution-3-run-power-bi-desktop-with-administrator-privilege"></a>Rozwiązanie nr 3. Uruchomienie programu Power BI Desktop z uprawnieniami administratora
+### <a name="resolution-3-run-power-bi-desktop-with-administrator-privilege"></a>Rozwiązanie 3. Uruchomienie programu Power BI Desktop z uprawnieniami administratora
 Możesz również uruchomić program Power BI Desktop jako administrator, aby umożliwić programowi Power BI Desktop pomyślne uruchomienie. Nadal zaleca się zainstalowanie najnowszej wersji lokalnej bramy danych usługi Power BI, jak opisano wcześniej w tym artykule.
 
 Zauważ, że program Power BI Desktop został zaprojektowany jako architektura obsługująca wiele procesów i niektóre z tych procesów komunikują się przy użyciu nazwanych potoków systemu Windows. Mogą istnieć inne procesy, które zakłócają działanie tych nazwanych potoków. Najczęstszym powodem takich zakłóceń są zabezpieczenia, w tym sytuacje, gdy oprogramowanie antywirusowe lub zapory mogą blokować potoki lub przekierowywać ruch do określonego portu. Uruchamianie programu Power BI Desktop z uprawnieniami administratora może rozwiązać ten problem. Jeśli uruchamianie z uprawnieniami administratora jest niemożliwe, skontaktuj się z administratorem, aby ustalić, które stosowane reguły zabezpieczeń uniemożliwiają potokom nazwanym prawidłową komunikację, i umieścić program Power BI Desktop oraz jego odpowiednie procesy podrzędne na liście dozwolonych.

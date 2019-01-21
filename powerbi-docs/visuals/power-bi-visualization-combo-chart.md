@@ -6,17 +6,17 @@ manager: kvivek
 ms.reviewer: ''
 featuredvideoid: lnv66cTZ5ho
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5d2a33b8dc50a4a30bb79406462f1342953528d9
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: 896c415028b99db8662e93b5d709b76520996fef
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52830383"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54275760"
 ---
 # <a name="combo-chart-in-power-bi"></a>Wykres kombi w usłudze Power BI
 W usłudze Power BI wykres kombi to pojedyncza wizualizacja łącząca wykres liniowy i kolumnowy. Łączenie 2 wykresów w jednym umożliwia szybsze porównywanie danych.
@@ -57,7 +57,7 @@ Obejrzyj, jak Will tworzy wykres kombi przy użyciu przykładu sprzedaży i mark
     ![](media/power-bi-visualization-combo-chart/combotutorial1new.png)
 5. Wybierz wielokropek (...) w górnym prawym rogu wizualizacji, a następnie wybierz pozycję **Sortuj według miesiąca obrachunkowego**. Aby zmienić kolejność sortowania, ponownie wybierz przycisk wielokropka, a następnie wybierz pozycję **Sortuj rosnąco** lub **Sortuj malejąco**.
 
-6. Przekształć wykres kolumnowy w wykres kombi. Dostępne są dwa wykresy kombi: **liniowy i skumulowany kolumnowy** oraz **liniowy i kolumnowy grupowany**. Po wybraniu wykresu kolumnowego z okienka **Wizualizacje** wybierz pozycję **Wykres liniowy i kolumnowy grupowany**.
+6. Przekształć wykres kolumnowy w wykres kombi. Dostępne są dwa wykresy kombi: **Wykres liniowy i skumulowany** oraz **Wykres liniowy i kolumnowy grupowany**. Po wybraniu wykresu kolumnowego z okienka **Wizualizacje** wybierz pozycję **Wykres liniowy i kolumnowy grupowany**.
 
     ![](media/power-bi-visualization-combo-chart/converttocombo_new2.png)
 7. Z okienka **Pola** przeciągnij pozycje **Sprzedaż** \> **Sprzedaż zeszłoroczna** do zasobnika **Wartości wiersza**.

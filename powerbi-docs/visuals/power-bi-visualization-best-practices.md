@@ -5,17 +5,17 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 77802d2db59ddff94123991e209441b4c491f98b
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: e426d781f7a2e663687f443c423e1fc326624289
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548608"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296736"
 ---
 # <a name="best-design-practices-for-reports-and-visuals"></a>Najlepsze rozwiązania dotyczące projektowania raportów i wizualizacji
 <!-- Shared newnav Include -->
@@ -65,7 +65,7 @@ W tym artykule rozpoczniemy od przykładu raportu, który wymaga sporego nakład
 
 ![](media/power-bi-visualization-best-practices/power-bi-example1newa.png)
 
-**Ilustracja 1. Ta nieładna strona raportu wymaga sporego nakładu pracy**
+**Ilustracja 1.    Ta nieładna strona raportu wymaga sporego nakładu pracy**
 
 W powyższym przykładzie występuje wiele problemów projektowych związanych z miejscem (układem), które omówiono poniżej:
 
@@ -95,19 +95,19 @@ W zaktualizowanym raporcie poniżej składniki są teraz wyrównane do lewej i p
 
 ![](media/power-bi-visualization-best-practices/power-bi-example2new.png)
 
-**Ilustracja 2. Nasz przykład nieładnego raportu z poprawionym układem**
+**Ilustracja 2.    Nasz przykład nieładnego raportu z poprawionym układem**
 
 Usługa Power BI udostępnia narzędzia ułatwiające wyrównywanie wizualizacji. W programie Power BI Desktop, gdy jest wybranych wiele wizualizacji, położenie wizualizacji można uzgodnić za pomocą opcji **Wyrównanie i rozłożenie** na wstążce **Elementy wizualne**.
 
 ![](media/power-bi-visualization-best-practices/power-bi-visualization.png)
 
-**Ilustracja 3. Wyrównywanie wizualizacji w programie Power BI Desktop**
+**Ilustracja 3.    Wyrównywanie wizualizacji w programie Power BI Desktop**
 
 W usłudze Power BI w trybie online i programie Power BI Desktop masz ścisłą kontrolę nad rozmiarem i położeniem wizualizacji za pośrednictwem karty **Ogólne** w okienku formatowania dla wszystkich wizualizacji:
 
 ![](media/power-bi-visualization-best-practices/power-bi-align-vizs.png)
 
-**Ilustracja 4. Ustawianie dokładnego położenia wizualizacji**
+**Ilustracja 4.    Ustawianie dokładnego położenia wizualizacji**
 
 Na przykładowej stronie raportu (ilustracja 2) 2 karty i duże obramowanie mają wyrównanie **Pozycja X** o wartości 200.
 
@@ -121,11 +121,11 @@ Oto strona raportu o rozmiarze 4:3, a następnie 16:9. Zauważ, że układ 16:9 
 
 ![](media/power-bi-visualization-best-practices/power-bi-page-view-before.png)
 
-**Ilustracja 5a. Strona raportu o rozmiarze 4:3**
+**Ilustracja 5a.    Strona raportu o rozmiarze 4:3**
 
 ![](media/power-bi-visualization-best-practices/power-bi-page-view-after.png)
 
-**Ilustracja 5b. Strona raportu o rozmiarze 16:9**
+**Ilustracja 5b.    Strona raportu o rozmiarze 16:9**
 
 Czy opracowywany raport będzie wyświetlany na ekranie o proporcjach 4:3, 16:9 lub innych? Na dużych czy małych ekranach? Na ekranach o wszystkich możliwych współczynnikach proporcji i rozmiarach?  Weź to pod uwagę podczas projektowania.
 
@@ -133,7 +133,7 @@ Nasza przykładowa strona raportu wydaje się nieco zatłoczona. Nie wybierając
 
 ![](media/power-bi-visualization-best-practices/power-bi-page-size.png)
 
-**Ilustracja 6. Zwiększanie wysokości strony**
+**Ilustracja 6.    Zwiększanie wysokości strony**
 
 #### <a name="reduce-clutter"></a>Ograniczanie zbędnych elementów
 Stronę raportu pełną zbędnych elementów trudno jest szybko zrozumieć, więc odbiorcy mogą nawet nie chcieć się wysilać.  Usuń wszystkie elementy raportu, które nie są niezbędne. Nie dodawaj ozdobników, które nie ułatwiają zrozumienia ani nawigacji. Strona raportu musi komunikować informacje tak wyraźnie, szybko i zwięźle, jak to tylko możliwe.
@@ -146,7 +146,7 @@ Nasz przykład już wygląda lepiej. Usunęliśmy sporo zbędnych elementów i d
 
 ![](media/power-bi-visualization-best-practices/power-bi-example3newer.png)
 
-**Ilustracja 7. Nasz przykład nieładnego raportu po usunięciu zbędnych elementów**
+**Ilustracja 7.    Nasz przykład nieładnego raportu po usunięciu zbędnych elementów**
 
 ### <a name="tell-a-story-at-a-glance"></a>Umożliwianie szybkiego zrozumienia
 Tekst ogólny powinien umożliwiać osobie bez żadnej wiedzy wstępnej szybkie zrozumienie raportu bez dodatkowych wyjaśnień. Odbiorcom powinno wystarczyć jedno spojrzenie do ustalenia, czego dotyczą strona oraz poszczególne tabele i wykresy.   
@@ -160,13 +160,13 @@ W usłudze Power BI wybierz z górnego menu pozycję **Pole tekstowe**. (W progr
 
 ![](media/power-bi-visualization-best-practices/power-bi-text-boxes.png)
 
-**Ilustracja 8. Dodawanie pola tekstowego**
+**Ilustracja 8.    Dodawanie pola tekstowego**
 
 Wpisz tekst w pustym polu, a następnie za pomocą kontrolek na dole ustaw krój i rozmiar czcionki oraz wyrównanie i inne opcje. Za pomocą uchwytów zmień rozmiar pola.
 
 ![](media/power-bi-visualization-best-practices/power-bi-text-box-edit.png)
 
-**Ilustracja 9. Formatowanie pola tekstowego**
+**Ilustracja 9.    Formatowanie pola tekstowego**
 
 Uważaj, aby nie przesadzić. Za dużo tekstu w raporcie będzie rozpraszać uwagę i odciągać ją od wizualizacji. Jeśli uznasz, że strona raportu wymaga ogromnej ilości tekstu, aby była zrozumiała, zacznij od nowa.  Zastanów się, czy informacji nie da się zakomunikować lepiej za pomocą innej wizualizacji. Być może dostosowanie natywnych tytułów wizualizacji pozwoli uczynić ją bardziej zrozumiałą?   
 
@@ -178,17 +178,17 @@ Kształty mogą ułatwiać nawigowanie i zrozumienie. Za pomocą kształtów mo�
 
 ![](media/power-bi-visualization-best-practices/shapes.png)
 
-**Ilustracja 10a. Kształty w usłudze Power BI**
+**Ilustracja 10a.    Kształty w usłudze Power BI**
 
 ![](media/power-bi-visualization-best-practices/power-bi-desktop-shapes2new.png)
 
-**Ilustracja 10b. Kształty w programie Power BI Desktop**
+**Ilustracja 10b.    Kształty w programie Power BI Desktop**
 
 Jak wygląda obecnie nasza przykładowa strona?  Na ilustracji 11 pokazano bardziej przejrzystą i mniej zatłoczoną stronę ze spójnymi krojami tekstu, czcionkami i kolorami.  Tytuł strony w lewym górnym rogu informuje, czego dotyczy strona.
 
 ![](media/power-bi-visualization-best-practices/power-bi-example4new.png)
 
-**Ilustracja 11. Nasz przykład raportu z zastosowanymi wytycznymi dotyczącymi tekstu i dodanym tytułem**
+**Ilustracja 11.    Nasz przykład raportu z zastosowanymi wytycznymi dotyczącymi tekstu i dodanym tytułem**
 
 W tym przykładzie w lewym górnym rogu dodano tytuł strony raportu — to tu w pierwszej kolejności będą zerkać odbiorcy. Rozmiar czcionki to 28, a jej krój to Segoe Bold. Wyróżnia się ona na tle pozostałej części strony.  Nasze wytyczne dotyczące stylu tekstu to: brak tła, czarne tytuły, legendy i etykiety. Zastosowano je do wszystkich wizualizacji na stronie, o ile było to możliwe (osi ani etykiet wykresu kombi nie można edytować).  Ponadto:
 
@@ -221,7 +221,7 @@ Zmieniliśmy tło na czarne. Tytuł zniknął, ponieważ pole tekstowe umożliwi
 
 ![](media/power-bi-visualization-best-practices/power-bi-text-box-title.png)
 
-**Ilustracja 13. Dodawanie tytuł strony**
+**Ilustracja 13. Dodawanie tytułu strony**
 
 **Karty**
 
@@ -275,7 +275,7 @@ Dodaj białe tło do pozostałych wizualizacji na stronie raportu. W okienku for
 
 ![](media/power-bi-visualization-best-practices/power-bi-example5b.png)
 
-**Ilustracja 21. Przykładowy raport z zastosowanymi najlepszymi rozwiązaniami dotyczącymi kolorów (białe tło)**
+**Ilustracja 21.    Przykładowy raport z zastosowanymi najlepszymi rozwiązaniami dotyczącymi kolorów (białe tło)**
  
 
 ### <a name="aesthetics"></a>Estetyka
@@ -319,13 +319,13 @@ Dlatego twórz wizualizacje, które nie zniekształcają celowo rzeczywistości 
 
 ![](media/power-bi-visualization-best-practices/corp-success-distorted.png)
 
-**Ilustracja 22. Wykres zniekształcający rzeczywistość**
+**Ilustracja 22.    Wykres zniekształcający rzeczywistość**
 
 W tym przykładzie wydaje się, że istnieje ogromna różnica między czterema firmami i że firma B odnosi znacznie większe sukcesy niż pozostałe trzy firmy.  Zauważmy jednak, że oś X nie rozpoczyna się od zera, a różnice między firmami mają wartości w granicach marginesu błędu.  Oto te same dane z osią X rozpoczynającą się od zera.
 
 ![](media/power-bi-visualization-best-practices/corp-success.png)
 
-**Ilustracja 23. Wykres realistyczny**
+**Ilustracja 23.    Wykres realistyczny**
 
 Odbiorcy oczekują, że oś X będzie zaczynać się od zera, i często przyjmują takie założenie. Jeśli zdecydujesz się zastosować oś, która nie zaczyna się od zera, zrób to w taki sposób, aby nie zniekształcać wyników. Rozważ też dodanie wskaźnika wizualnego lub pola tekstowego z informacją o odstępstwie od normy.  
 
@@ -347,11 +347,11 @@ W przypadku przywoływania konkretnych okresów można narysować linie lub pros
 
 ![](media/power-bi-visualization-best-practices/power-bi-multiples-before.png)
 
-**Ilustracja 24. Przed**
+**Ilustracja 24.    Przed**
 
 ![](media/power-bi-visualization-best-practices/power-bi-multiples-after.png)
 
-**Ilustracja 25. Po**
+**Ilustracja 25.    Po**
 
 **Aby włączyć lub wyłączyć tytuły osi**
 
@@ -359,7 +359,7 @@ Wybierz wizualizację, aby ją uaktywnić, i otwórz okienko formatowania. Rozwi
 
 ![](media/power-bi-visualization-best-practices/power-bi-axis-titles.png)
 
-**Ilustracja 26. Włączanie i wyłączanie tytułów osi**
+**Ilustracja 26.    Włączanie i wyłączanie tytułów osi**
 
 **Aby włączyć lub wyłączyć etykiety osi**
 
@@ -380,7 +380,7 @@ Wybierz wizualizację, aby ją uaktywnić, i otwórz okienko formatowania. Ustaw
 
 ![](media/power-bi-visualization-best-practices/power-bi-title-off.png)
 
-**Ilustracja 28. Usuwanie tytułów wizualizacji**
+**Ilustracja 28.    Usuwanie tytułów wizualizacji**
 
 Zastanów się nad sposobem, w jaki raport będzie wyświetlany, i upewnij się, że wizualizacje i tekst są wystarczająco duże i wystarczająco ciemne, aby można je było odczytać. Jeśli na stronie znajduje się proporcjonalnie większa wizualizacja, odbiorcy mogą uznać, że jest ona najważniejsza. Zadbaj o odpowiednią ilość miejsca między wizualizacjami, aby raport nie wyglądał na przepełniony i pozostał przejrzysty.  Wyrównaj wizualizacje tak, aby kierować wzrokiem odbiorców.
 
@@ -411,7 +411,7 @@ W przypadku wszystkich dostosowań formatowania wymienionych poniżej wybierz ik
 
 **Ilustracja 31. Otwieranie okienka formatowania**
 
-Następnie wybierz element wizualizacji do dostosowania i upewnij się, że ma ustawienie Włączone. Przykłady elementów wizualizacji: **Oś X**, **Oś Y**, **Tytuł**, **Etykiety danych** i **Legenda**. Poniżej przedstawiono przykład elementu **Tytuł**.
+Następnie wybierz element wizualizacji do dostosowania i upewnij się, że ma ustawienie Włączone. Przykłady elementów wizualizacji: **Oś x**, **Oś y**, **Tytuł**, **Etykiety danych** i **Legenda**. Poniżej przedstawiono przykład elementu **Tytuł**.
 
 ![](media/power-bi-visualization-best-practices/power-bi-title-formatting.png)
 
@@ -485,7 +485,7 @@ Najprostszym sposobem używania koloru jest zmiana koloru jednego lub kilku punk
 
 ![](media/power-bi-visualization-best-practices/power-bi-data-color.png)
 
-**Ilustracja 35. Przekazywanie informacji za pomocą koloru**
+**Ilustracja 35.    Przekazywanie informacji za pomocą koloru**
 
 Kolory punktów danych można zmienić na karcie **Kolory danych** w okienku formatowania. Aby dostosować osobno każdy punkt danych, upewnij się, że jest włączona opcja **Pokaż wszystkie**.
 
@@ -506,7 +506,7 @@ W programie Power BI Desktop można nawet wyróżnić elementy odstające lub se
 
 ![](media/power-bi-visualization-best-practices/power-bi-outliers.png)
 
-**Ilustracja 38. Kreślenie wartości odstających przy użyciu programu Power BI Desktop**
+**Ilustracja 38.    Kreślenie wartości odstających przy użyciu programu Power BI Desktop**
 
 Tutaj wartości w serii wartości odstających istnieją tylko tam, gdzie średnia temperatura w sierpniu spada poniżej 60. Osiągnięto to przez utworzenie kolumny obliczeniowej języka DAX przy użyciu następującej formuły:
 
@@ -557,7 +557,7 @@ Za pomocą koloru można też eksponować zróżnicowanie wokół wartości cent
 
 ![](media/power-bi-visualization-best-practices/power-bi-color.png)
 
-**Ilustracja 44. Kolorowanie w celu wyeksponowania zróżnicowania wokół wartości centralnej**
+**Ilustracja 44.    Kolorowanie w celu wyeksponowania zróżnicowania wokół wartości centralnej**
  
 
 ### <a name="principles-of-visual-design--applied-to-example-report-page"></a>Zasady projektowania wizualizacji — zastosowane do przykładowej strony raportu
@@ -567,7 +567,7 @@ Przed
 
 ![](media/power-bi-visualization-best-practices/power-bi-example5a.png)
 
-**Ilustracja 45. Przykładowy raport (przed)**
+**Ilustracja 45.    Przykładowy raport (przed)**
 
 Po
 
@@ -595,7 +595,7 @@ W przykładzie poniżej przedstawiono trendy dotyczące liczby przyznanych medal
 
 ![](media/power-bi-visualization-best-practices/power-bi-line-chart.png)
 
-**Ilustracja 47. Wykresy liniowe**
+**Ilustracja 47.    Wykresy liniowe**
 
 #### <a name="best-practices"></a>Najlepsze rozwiązania
 * Pierwszą rzeczą, jaką dostrzega się, spoglądając na wykres liniowy, jest kształt krzywej.  Oznacza to, że należy zastosować taką oś X, aby można było wyciągnąć z krzywej wnioski. Powinna to być na przykład oś czasu lub kategorii dystrybucji.  Jeśli na osi X znajdą się pola kategorii, takie jak produkt lub lokalizacja geograficzna, wykres liniowy nie będzie interesujący, ponieważ z kształtu krzywej nic nie będzie wynikać.
@@ -688,7 +688,7 @@ Aby uzyskać więcej informacji o wykresach skumulowanych:
 ### <a name="combo-barcolumn-charts"></a>Wykresy kombi słupkowe/kolumnowe
 ![](media/power-bi-visualization-best-practices/power-bi-combo.png)
 
-W usłudze Power BI można łączyć wykresy kolumnowe i liniowe w wykresy kombi. Dostępne są następujące opcje: wykres liniowy i skumulowany kolumnowy oraz wykres liniowy i kolumnowy grupowany. Połączenie dwóch oddzielnych wizualizacji w jedną pozwala zaoszczędzić cenne miejsce na kanwie.
+W usłudze Power BI można łączyć wykresy kolumnowe i liniowe w wykresy kombi. Są to: wykres liniowy i skumulowany kolumnowy oraz wykres liniowy i kolumnowy grupowany. Połączenie dwóch oddzielnych wizualizacji w jedną pozwala zaoszczędzić cenne miejsce na kanwie.
 
 Na dwóch zrzutach ekranu poniżej przedstawiono sytuacje „przed” i „po”.  Pierwsza strona zawiera dwie oddzielne wizualizacje: wykres kolumnowy przedstawiający populację na przestrzeni czasu i wykres liniowy przedstawiający PKB na przestrzeni czasu. Te wykresy nadają się do utworzenia wykresu kombi, ponieważ mają taką samą oś X (lata) i takie same wartości (2002–2012).  Dlaczego nie połączyć ich w celu porównania tych dwóch trendów na jednej wizualizacji?  Połączenie tych dwóch wykresów umożliwia szybsze porównywanie danych.
 
@@ -777,7 +777,7 @@ Tutaj dodaliśmy kolejny poziom danych, region, i widzimy całkowite udziały w 
 Aby uzyskać więcej informacji na temat map drzewa, kliknij poniższe linki.
 
 * [Treemaps overview](http://www.perceptualedge.com/articles/b-eye/treemaps.pdf) (Omówienie map drzewa)
-* [Data Visualization Catalogue: Tree maps](http://www.datavizcatalogue.com/methods/treemap.html#.VYhylI3bL7Y) (Katalog wizualizacji danych: mapy drzew)
+* [Data Visualization Catalogue: Tree maps](http://www.datavizcatalogue.com/methods/treemap.html#.VYhylI3bL7Y) (Katalog wizualizacji danych: mapy drzewa)
 
 ### <a name="other-charts"></a>Inne wykresy
 #### <a name="pie-or-donut-charts"></a>Wykresy kołowe lub pierścieniowe
@@ -809,7 +809,7 @@ Aby uzyskać więcej informacji, zobacz:
 Czas na przetestowanie tych najlepszych rozwiązań.  Pozostawaj w kontakcie i udostępniaj własne najlepsze rozwiązania. Nie zgadzasz się z naszymi zaleceniami? Możesz nam podać doskonały powód do odstąpienia od reguł?  Czekamy także na takie informacje.  
 
 ### <a name="book-recommendations"></a>Polecana literatura
-Obecnie dostępnych jest wiele dobrych książek ułatwiających zespołom ulepszanie technik projektowania wizualizacji. Na pewno warto przeczytać książkę Stephena Fewa: *Information Dashboard Design* (Projektowanie informacyjnych pulpitów nawigacyjnych). Więcej szczegółów podaje on w dwóch innych książkach: *Show Me the Numbers* (Pokażcie mi liczby) i *Now You See It* (Teraz widać to wyraźnie). Few i inni czerpią inspiracje od Edwarda R. Tufte’a, którego książka *The Visual Display of Quantitative Information* (Graficzne prezentowanie informacji ilościowych) jest uznawana za pozycję klasyczną w tej dziedzinie. Tufte napisał też następujące książki: *Visual Explanations* (Wyjaśnienia wizualne), *Envisioning Information* (Wizualizacja informacji) i *Beautiful Evidence* (Piękny dowód). Doskonałym wyborem jest też nowa książka Andy’ego Kirka: *Data Visualization: A Handbook for Data Driven Design* (Wizualizacja danych: podręcznik projektowania opartego na danych). Inni polecani autorzy: Lachlan James, William McKnight i Boris Evelson (Forrester); Darkhorse Analytics.
+Obecnie dostępnych jest wiele dobrych książek ułatwiających zespołom ulepszanie technik projektowania wizualizacji. Na pewno warto przeczytać książkę Stephena Fewa: *Information Dashboard Design* (Projektowanie informacyjnych pulpitów nawigacyjnych). Więcej szczegółów podaje on w dwóch innych książkach: *Show Me the Numbers* (Pokażcie mi liczby) i *Now You See It* (Teraz widać to wyraźnie). Few i inni czerpią inspiracje od Edwarda R. Tufte’a, którego książka *The Visual Display of Quantitative Information* (Graficzne prezentowanie informacji ilościowych) jest uznawana za pozycję klasyczną w tej dziedzinie. Tufte napisał też następujące książki: *Visual Explanations* (Wyjaśnienia wizualne), *Envisioning Information* (Wizualizacja informacji) i *Beautiful Evidence* (Piękny dowód). Inne świetne rozwiązanie to nowa książka Andy’ego Kirka *Data Visualization: A Handbook for Data Driven Design* (Wizualizacja danych: podręcznik projektowania opartego na danych) Inni polecani autorzy: Lachlan James, William McKnight i Boris Evelson (Forrester); Darkhorse Analytics.
 
 Masz więcej pytań? [Odwiedź społeczność usługi Power BI](http://community.powerbi.com/)
 

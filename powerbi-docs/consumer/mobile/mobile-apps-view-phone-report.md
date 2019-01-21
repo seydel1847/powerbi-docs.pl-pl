@@ -1,20 +1,20 @@
 ---
 title: Wyświetlanie raportów usługi Power BI zoptymalizowanych pod kątem telefonu
 description: Dowiedz się więcej na temat korzystania ze stron raportów zoptymalizowanych pod kątem wyświetlania w aplikacjach usługi Power BI na telefonach.
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 09/14/2018
-ms.author: maggies
-ms.openlocfilehash: 06a8d15ca894b877199f22fc6c00d4c34827d76b
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.author: mshenhav
+ms.openlocfilehash: 99f40837f4b2c188120c4ca0311be3e9ded5fe95
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547803"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54276911"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>Wyświetlanie raportów usługi Power BI zoptymalizowanych pod kątem telefonu
 
@@ -48,7 +48,7 @@ Jeśli raport zoptymalizowany pod kątem telefonu ma zdefiniowane filtry, możes
     ![Zaawansowane filtrowanie raportów usługi Power BI na telefonie](./media/mobile-apps-view-phone-report/power-bi-iphone-advanced-filter-toronto.gif)
 
 ## <a name="cross-highlight-visuals"></a>Krzyżowe wyróżnianie wizualizacji
-Krzyżowe wyróżnianie wizualizacji w raportach na telefonach działa podobnie jak w usłudze Power BI i w raportach wyświetlanych na telefonach w widoku poziomym: po wybraniu danych w jednej wizualizacji wyróżniane są powiązane dane w pozostałych wizualizacjach na tej stronie.
+Krzyżowe wyróżnianie wizualizacji w raportach przeznaczonych dla telefonów działa tak samo jak w usłudze Power BI i w raportach na telefonach w widoku poziomym: wybranie danych w jednej wizualizacji powoduje wyróżnienie powiązanych danych w innych wizualizacjach na tej stronie.
 
 Dowiedz się więcej na temat [filtrowania i wyróżniania w usłudze Power BI](../../power-bi-reports-filters-and-highlighting.md).
 

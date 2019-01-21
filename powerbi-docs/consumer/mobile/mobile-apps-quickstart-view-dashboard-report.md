@@ -1,20 +1,20 @@
 ---
 title: 'Szybki start: eksplorowanie pulpitów nawigacyjnych i raportów w aplikacjach mobilnych'
 description: W tym przewodniku Szybki start zapoznasz się z przykładowym pulpitem nawigacyjnym i raportem w aplikacjach mobilnych usługi Power BI.
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: quickstart
 ms.date: 11/16/2018
-ms.author: maggies
-ms.openlocfilehash: 6d5d543c3654da13592b24f4c70bc964eb7bddff
-ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
+ms.author: mshenhav
+ms.openlocfilehash: 9bb6dec4cdb689d2a21812b1dab8ebeb49090542
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52157269"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54279118"
 ---
 # <a name="quickstart-explore-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Szybki start: eksplorowanie pulpitów nawigacyjnych i raportów w aplikacjach mobilnych usługi Power BI
 W tym samouczku zapoznasz się z przykładowym pulpitem nawigacyjnym i raportem w aplikacji mobilnej usługi Power BI w telefonie z systemem Android. Możesz również wykonać opisane czynności w innych aplikacjach mobilnych. 

@@ -4,17 +4,17 @@ description: Dowiedz się, jak publikować aplikacje, czyli kolekcje pulpitów n
 author: maggiesMSFT
 manager: kfile
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/24/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3881e37fa5e97939265e9bb9362cee65a1030e67
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.openlocfilehash: 451b5967dd648d982132282d2debbd4c4f86780f
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50100823"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54294094"
 ---
 # <a name="publish-apps-with-dashboards-and-reports-in-power-bi"></a>Publikowanie aplikacji z pulpitami nawigacyjnymi i raportami w usłudze Power BI
 
@@ -31,7 +31,7 @@ Użytkownicy biznesowi mogą uzyskać te aplikacje na kilka różnych sposobów.
 ## <a name="apps-and-organizational-content-packs"></a>Aplikacje i pakiety zawartości organizacji
 Aplikacje są kolejnym etapem ewolucji pakietów zawartości organizacji. Pakiety zawartości nie są dostępne w wersji zapoznawczej nowego środowiska obszarów roboczych. Gdy nowe środowisko obszarów roboczych stanie się ogólnie dostępne, nie będzie możliwości korzystania z pakietów zawartości w nowo utworzonych obszarach roboczych. Zacznij przeprowadzać migrację pakietów zawartości do aplikacji, jeśli jeszcze nie zostało to zrobione.
 
-## <a name="video-apps-and-app-workspaces"></a>Film wideo: aplikacje i obszary robocze aplikacji
+## <a name="video-apps-and-app-workspaces"></a>Wideo: Aplikacje i obszary robocze aplikacji
 <iframe width="640" height="360" src="https://www.youtube.com/embed/Ey5pyrr7Lk8?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="licenses-for-apps"></a>Licencje na aplikacje

@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5b5dc41ee3f4d41f2e38053470054a8f453e4fb3
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: dc26d6de5ca22fdabfd80bd7ba1d9830e274f808
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670301"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54284500"
 ---
 # <a name="connect-to-an-oracle-database"></a>Łączenie się z bazą danych Oracle
 Aby można było nawiązać połączenie z bazą danych Oracle przy użyciu programu **Power BI Desktop**, na komputerze z działającym programem Power BI Desktop musi być zainstalowane poprawne oprogramowanie klienckie Oracle. Oprogramowanie klienckie Oracle, którego używasz, zależy od zainstalowanej wersji programu Power BI Desktop — wersji **32-bitowej** lub **64-bitowej**.

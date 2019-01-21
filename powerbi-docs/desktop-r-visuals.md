@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 0a739e963039e61aa66e398d27fa82982eb26bb0
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: c1a4ba0a89f84cb0fce205373f1d0f00cc1479ac
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670514"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54278589"
 ---
 # <a name="create-power-bi-visuals-using-r"></a>Tworzenie wizualizacji usługi Power BI przy użyciu języka R
 Program **Power BI Desktop** umożliwia wizualizowanie danych przy użyciu języka **R**.
@@ -107,7 +107,7 @@ Po określeniu instalacji języka R możesz zacząć tworzyć wizualizacje w tym
 
     ![](media/desktop-r-visuals/r-visuals-9.png)
 
-    > **Bezpieczeństwo skryptów języka R:** wizualizacje języka R są tworzone na podstawie skryptów języka R, które mogą zawierać kod zagrażający prywatności lub bezpieczeństwu. Podczas pierwszej próby wyświetlenia lub użycia wizualizacji języka R użytkownik zobaczy komunikat z ostrzeżeniem dotyczącym zabezpieczeń. Wizualizacje języka R należy włączyć tylko, jeśli ich autor i źródło są zaufane lub po wykonaniu przeglądu i analizy danego skryptu języka R.
+    > **Bezpieczeństwo skryptów języka R:** wizualizacje języka R są tworzone na podstawie skryptów języka R, które potencjalnie mogą zawierać kod zagrażający prywatności i bezpieczeństwu. Podczas pierwszej próby wyświetlenia lub użycia wizualizacji języka R użytkownik zobaczy komunikat z ostrzeżeniem dotyczącym zabezpieczeń. Wizualizacje języka R należy włączyć tylko, jeśli ich autor i źródło są zaufane lub po wykonaniu przeglądu i analizy danego skryptu języka R.
     > 
     > 
 

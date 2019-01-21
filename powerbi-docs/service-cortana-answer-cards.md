@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 3a0ef369aa690044dbef9c4ef0cda070565b9922
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: e1748c478f9f58b568b901f3a243e64e4658f6a6
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52829900"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54273092"
 ---
 # <a name="use-power-bi-service-or-power-bi-desktop-to-create-a-custom-answer-page-for-cortana"></a>Tworzenie niestandardowej strony odpowiedzi dla Cortany przy użyciu usługi Power BI lub programu Power BI Desktop
 Korzystaj z pełnego zestawu funkcji usługi Power BI, aby tworzyć specjalne strony raportu, nazywane *stronami odpowiedzi Cortany* (a czasami *kartami odpowiedzi Cortany*), przeznaczone specjalnie do odpowiadania na pytania Cortany.
@@ -30,13 +30,13 @@ Korzystaj z pełnego zestawu funkcji usługi Power BI, aby tworzyć specjalne st
 ## <a name="before-you-begin"></a>Zanim rozpoczniesz
 Dostępne są cztery dokumenty, które przeprowadzą Cię przez proces konfigurowania Cortany dla usługi Power BI i korzystania z niej. Zacznij od przeczytania artykułu 1, jeśli jeszcze nie znasz jego treści. Artykuł 2 jest szczególnie ważny, ponieważ opisuje pewne czynności, które należy wykonać, zanim będzie można zacząć korzystać ze stron odpowiedzi Cortany.
 
-**Artykuł 1**: [dowiedz się, jak Cortana współpracuje z usługą Power BI](service-cortana-intro.md)
+**Artykuł 1**: [Dowiedz się, jak Cortana współpracuje z usługą Power BI](service-cortana-intro.md)
 
-**Artykuł 2**: [aby wyszukiwać raporty usługi Power BI: włączanie integracji Cortany, usługi Power BI i systemu Windows](service-cortana-enable.md)
+**Artykuł 2**: [W przypadku wyszukiwania w raportach usługi Power BI: włączanie integracji Cortany, usługi Power BI i systemu Windows na potrzeby raportów](service-cortana-enable.md)
 
-**Artykuł 3**: ten artykuł
+**Artykuł 3**: Ten artykuł
 
-**Artykuł 4**: [rozwiązywanie problemów](service-cortana-troubleshoot.md)
+**Artykuł 4**: [Rozwiązywanie problemów](service-cortana-troubleshoot.md)
 
 ## <a name="create-a-cortana-answer-page-designed-specifically-for-cortana"></a>Tworzenie strony odpowiedzi Cortany zaprojektowanej specjalnie z myślą o Cortanie
 *Strona odpowiedzi Cortany* w raporcie ma rozmiar dopasowany specjalnie dla Cortany, aby można ją było wyświetlać na ekranie jako odpowiedź na pytanie. Aby utworzyć stronę odpowiedzi dla Cortany:

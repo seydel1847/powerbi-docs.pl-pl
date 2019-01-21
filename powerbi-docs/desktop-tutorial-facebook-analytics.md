@@ -1,23 +1,23 @@
 ---
-title: 'Samouczek: analiza serwisu Facebook przy użyciu programu Power BI Desktop'
-description: 'Samouczek: analiza serwisu Facebook przy użyciu programu Power BI Desktop'
+title: 'Samouczek: Analiza serwisu Facebook przy użyciu programu Power BI Desktop'
+description: 'Samouczek: Analiza serwisu Facebook przy użyciu programu Power BI Desktop'
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: tutorial
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: ec90e63de1e42350ff205febdc66abf4ba6ee626
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: ae2d40d5a53a7a84c0f6070a7be1011968d7ed7b
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578502"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54276979"
 ---
-# <a name="tutorial-facebook-analytics-using-power-bi-desktop"></a>Samouczek: analiza serwisu Facebook przy użyciu programu Power BI Desktop
+# <a name="tutorial-facebook-analytics-using-power-bi-desktop"></a>Samouczek: Analiza serwisu Facebook przy użyciu programu Power BI Desktop
 
 Z tego samouczka dowiesz się, jak można zaimportować dane z usługi Facebook i użyć ich w programie Power BI Desktop. Nawiążesz połączenie ze stroną usługi Power BI w serwisie Facebook i zaimportujesz z niej dane, zastosujesz przekształcenia do zaimportowanych danych i skorzystasz z danych w wizualizacjach raportów.
 

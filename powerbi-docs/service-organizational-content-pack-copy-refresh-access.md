@@ -1,23 +1,23 @@
 ---
-title: 'Organizacyjne pakiety zawartości: dostęp i kopiowanie'
+title: 'Organizacyjne pakiety zawartości: uzyskiwanie dostępu i kopiowanie'
 description: Przeczytaj informacje o tworzeniu kopii i rozwiązywaniu problemów z dostępem do organizacyjnych pakietów zawartości w usłudze Power BI
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 37cfca811b7e60bde832396e67b246933d4e0a8e
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: f42e9f69c3cdab945c0f000a0cc2ae4654d9ec9b
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908422"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296130"
 ---
-# <a name="organizational-content-packs-copy-refresh-and-get-access"></a>Organizacyjne pakiety zawartości: kopiowanie, odświeżanie i uzyskiwanie dostępu
+# <a name="organizational-content-packs-copy-refresh-and-get-access"></a>Organizacyjne pakiety zawartości: Kopiowanie, odświeżanie i uzyskiwanie dostępu
 
 Po opublikowaniu organizacyjnego pakietu zawartości wszyscy odbiorcy zobaczą ten sam pulpit nawigacyjny, te same raporty, skoroszyty programu Excel, zestawy danych i dane, chyba że jest to źródło danych usług SQL Server Analysis Services (SSAS).  [Tylko twórca pakietu zawartości może edytować i ponownie publikować](service-organizational-content-pack-manage-update-delete.md) pakiet zawartości.  Jednak wszyscy odbiorcy mogą zapisać kopię pakietu zawartości, która może istnieć jednocześnie z oryginalnym pakietem.
 
@@ -40,7 +40,7 @@ Masz teraz kopię, którą możesz zmieniać. Nikt inny nie będzie widzieć wpr
 ## <a name="help--i-can-no-longer-access-the-content-pack"></a>Pomocy!  Nie mam już dostępu do pakietu zawartości
 Może się to zdarzyć z kilku powodów:
 
-* **Zmiany członkostwa**: pakiety zawartości są publikowane w grupach dystrybucyjnych poczty e-mail, grupach zabezpieczeń oraz [grupach usługi Power BI opartych na usłudze Office 365](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9).  W przypadku usunięcia z takiej grupy utracisz dostęp do pakietu zawartości.
+* **Zmiany członkostwa**:  pakiety zawartości są publikowane w grupach dystrybucyjnych poczty e-mail, grupach zabezpieczeń oraz [grupach usługi Power BI opartych na usłudze Office 365](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9).  W przypadku usunięcia z takiej grupy utracisz dostęp do pakietu zawartości.
 * **Zmiany w zakresie dystrybucji**: twórca pakietu zawartości dokonuje zmian dystrybucji. Jeśli na przykład pakiet zawartości został pierwotnie opublikowany dla całej organizacji, ale twórca opublikował go ponownie dla mniejszej liczby odbiorców, możesz nie znajdować się wśród nich.
 * **Zmiany ustawień zabezpieczeń**: jeśli pulpit nawigacyjny i raporty łączą się z lokalnymi źródłami danych SSAS i dokonano zmian w ustawieniach zabezpieczeń, Twoje uprawnienia do tego serwera mogły zostać cofnięte.
 

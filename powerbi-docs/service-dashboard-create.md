@@ -6,16 +6,16 @@ manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/02/2018
 ms.author: maggies
-ms.openlocfilehash: 28a282ff6a35061422995c46fbbcd34c21b533a7
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: c42aa07fd78430c5692067ae8476b22288470c8c
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717429"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54294278"
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>Tworzenie pulpitu nawigacyjnego usługi Power BI z raportu
 Po zapoznaniu się z tematem [Pulpity nawigacyjne w usłudze Power BI](service-dashboards.md) możesz teraz utworzyć własny raport. Istnieje wiele sposobów, aby utworzyć pulpit nawigacyjny — z raportu, od podstaw, z zestawu danych, duplikując istniejący pulpit nawigacyjny itp.  
@@ -25,13 +25,13 @@ Przy rozpoczynaniu pracy po raz pierwszy może to wydawać się trudne, dlatego 
 ## <a name="who-can-create-a-dashboard"></a>Kto może utworzyć pulpit nawigacyjny?
 Tworzenie pulpitu nawigacyjnego jest funkcją **twórcy** i wymaga uprawnień do edytowania raportu. Uprawnienia do edytowania są dostępne dla twórców raportu i tych współpracowników, którym twórca udzieli dostępu. Na przykład, jeśli David utworzy raport w obszarze roboczym workspaceABC, a następnie doda Ciebie jako członka tego obszaru roboczego, Ty i David będziecie mieli uprawnienia do edycji. Z drugiej strony, jeśli raport został udostępniony Ci bezpośrednio lub jako część [aplikacji Power BI](service-create-distribute-apps.md) (jesteś **użytkownikiem** raportu), nie będziesz mieć możliwości przypinania kafelków do pulpitu nawigacyjnego.
 
-> **Uwaga**: pulpity nawigacyjne są funkcjami usługi Power BI, a nie programu Power BI Desktop. Pulpitów nawigacyjnych nie można tworzyć w usłudze Power BI dla urządzeń przenośnych, można je jednak [wyświetlać i udostępniać](consumer/mobile/mobile-apps-view-dashboard.md).
+> **UWAGA**: pulpity nawigacyjne to funkcja usługi Power BI, a nie programu Power BI Desktop. Pulpitów nawigacyjnych nie można tworzyć w usłudze Power BI dla urządzeń przenośnych, można je jednak [wyświetlać i udostępniać](consumer/mobile/mobile-apps-view-dashboard.md).
 >
 > 
 
 ![pulpit nawigacyjny](media/service-dashboard-create/power-bi-completed-dashboard-small.png)
 
-## <a name="video-create-a-dashboard-by-pinning-visuals-and-images-from-a-report"></a>Film wideo: Tworzenie pulpitu nawigacyjnego przez przypinanie wizualizacji i obrazów z raportu
+## <a name="video-create-a-dashboard-by-pinning-visuals-and-images-from-a-report"></a>Wideo: Tworzenie pulpitu nawigacyjnego przez przypinanie wizualizacji i obrazów z raportu
 Obejrzyj film wideo, w którym Amanda tworzy nowy pulpit nawigacyjny przez przypięcie wizualizacji z raportu. Następnie spróbuj zrobić to samodzielnie za pomocą przykładu Próbka analizy zakupów, wykonując kroki opisane poniżej filmu wideo.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lJKgWnvl6bQ" frameborder="0" allowfullscreen></iframe>
@@ -65,7 +65,7 @@ Zaimportujemy jeden z przykładowych zestawów danych usługi Power BI i użyjem
 1. Pozostając w tym samym obszarze roboczym, wybierz kartę **Raporty**. Zostanie wyświetlony nowo zaimportowany raport oznaczony żółtą gwiazdką. Wybierz nazwę raportu, aby go otworzyć.
 
     ![karta raportów](media/service-dashboard-create/power-bi-reports.png)
-2. Raport zostanie otwarty w widoku do czytania. Zwróć uwagę na dwie karty u dołu: Discount Analysis i Spend Overview. Każda karta reprezentuje stronę raportu.
+2. Raport zostanie otwarty w widoku do czytania. Zwróć uwagę, że w dolnej części znajdują się dwie karty: Analiza rabatów i Przegląd wydatków. Każda karta reprezentuje stronę raportu.
     Wybierz pozycję **Edytuj raport**, aby otworzyć raport w widoku do edycji.
 
     ![raport w Widoku do czytania](media/service-dashboard-create/power-bi-reading-view.png)

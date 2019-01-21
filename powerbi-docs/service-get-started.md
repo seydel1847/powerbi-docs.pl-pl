@@ -6,19 +6,19 @@ manager: kfile
 ms.reviewer: ''
 featuredvideoid: B2vd4MQrz4M
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 6de9427a11ae5aa43563ce9e21371d231a1dd3a9
-ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
+ms.openlocfilehash: 2a033e6893cffb71c4a898f1260aca615ae4e4b8
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "52900556"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291997"
 ---
-# <a name="tutorial-get-started-with-power-bi-service-apppowerbicom"></a>Samouczek: wprowadzenie do usługi Power BI (app.powerbi.com)
+# <a name="tutorial-get-started-with-power-bi-service-apppowerbicom"></a>Samouczek: Wprowadzenie do usługi Power BI (app.powerbi.com)
 Ten samouczek ułatwia rozpoczęcie pracy z ***usługą Power BI***. Jeśli chcesz dowiedzieć się, jakie miejsce zajmuje usługa Power BI w ofercie innych produktów Power BI, zdecydowanie zalecamy zapoznanie się z tematem [Co to jest Power BI](power-bi-overview.md).
 
 ![grafika przedstawiająca relację między programem Desktop, usługą i aplikacją mobilną](media/service-get-started/power-bi-components.png)
@@ -59,7 +59,7 @@ Jeśli przechowujesz ważne dane w plikach programu Excel lub plikach CSV, może
 
 Zapoznaj się z wszystkimi innymi sposobami [pobierania danych dla usługi Power BI](service-get-data.md).
 
-## <a name="step-1-get-data"></a>Krok 1. Pobieranie danych
+## <a name="step-1-get-data"></a>Krok 1. Pobierz dane
 Oto przykład przedstawiający pobieranie danych z pliku CSV. Chcesz kontynuować pracę z tym samouczkiem? [Pobierz przykładowy plik CSV](http://go.microsoft.com/fwlink/?LinkID=521962).
 
 1. [Zaloguj się do usługi Power BI](http://www.powerbi.com/). Nie masz konta? Nie martw się — możesz utworzyć konto bezpłatnej wersji próbnej.
@@ -128,7 +128,7 @@ Teraz, po nawiązaniu połączenia z danymi, rozpocznij eksplorowanie.  Po znale
    
    W dowolnym momencie możesz powrócić do raportu, wybierając nowy kafelek na pulpicie nawigacyjnym. Usługa Power BI przeniesie Cię do widoku do czytania w edytorze raportu. Aby powrócić do widoku do edycji, wybierz pozycję **Edytuj raport** z górnego paska menu. Po przejściu do widoku do edycji, kontynuuj eksplorowanie i przypinanie kafelków. 
 
-## <a name="step-3--continue-the-exploration-with-qa-natural-language-querying"></a>Krok 3. Kontynuowanie eksplorowania za pomocą funkcji Pytania i odpowiedzi (zapytania w języku naturalnym)
+## <a name="step-3--continue-the-exploration-with-qa-natural-language-querying"></a>Krok 3.  Kontynuowanie eksplorowania za pomocą funkcji Pytania i odpowiedzi (zapytania w języku naturalnym)
 1. Aby przeprowadzić szybką eksplorację danych, spróbuj zadać pytanie w polu Pytania i odpowiedzi. Pole funkcji Pytania i odpowiedzi znajduje się w górnej części pulpitu nawigacyjnego (**Zadaj pytanie dotyczące Twoich danych**) i w górnym pasku menu raportu (**Zadaj pytanie**). Wpisz na przykład pytanie „what segment had the most revenue” (w jakim segmencie przychody były największe).
    
    ![kanwa funkcji Pytania i odpowiedzi](media/service-get-started/powerbi-qna.png)
