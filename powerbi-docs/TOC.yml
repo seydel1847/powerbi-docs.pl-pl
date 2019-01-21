@@ -1,7 +1,7 @@
 items:
 - name: Power BI Desktop
   items:
-  - name: Omówienie
+  - name: Przegląd
     items:
     - name: Czym jest program Power BI Desktop?
       href: desktop-what-is-desktop.md
@@ -270,6 +270,12 @@ items:
         href: desktop-rls.md
       - name: Dostosowywanie etykietek narzędzi
         href: desktop-custom-tooltips.md
+      - name: Pola tekstowe i kształty w raportach
+        href: power-bi-reports-add-text-and-shapes.md
+      - name: Dodawanie hiperlinku do pola tekstowego
+        href: service-add-hyperlink-to-text-box.md
+      - name: Hiperlinki w tabelach
+        href: power-bi-hyperlinks-in-tables.md
       - name: Warunkowe formatowanie tabeli
         href: desktop-conditional-table-formatting.md
       - name: Sortowanie według kolumny w programie Power BI Desktop
@@ -302,18 +308,12 @@ items:
         href: visuals/power-bi-visualization-export-data.md
       - name: Przenoszenie wizualizacji w raporcie, zmienianie jej rozmiaru i wyświetlanie jej w nowym oknie
         href: visuals/power-bi-visualization-move-and-resize.md
-      - name: Hiperlinki w tabelach
-        href: power-bi-hyperlinks-in-tables.md
-      - name: Dodawanie hiperlinku do pola tekstowego w raporcie
-        href: service-add-hyperlink-to-text-box.md
       - name: Zmienianie sposobu interakcji elementów wizualnych w raporcie
         href: service-reports-visual-interactions.md
       - name: Histogramy
         href: visuals/service-histograms.md
       - name: Porady i wskazówki dotyczące wizualizacji map usługi Power BI
         href: visuals/power-bi-map-tips-and-tricks.md
-      - name: Pola tekstowe w raportach usługi Power BI
-        href: power-bi-reports-add-text-and-shapes.md
       - name: Dostosowywanie właściwości osi X i Y
         href: visuals/power-bi-visualization-customize-x-axis-and-y-axis.md
       - name: Mapy usługi ArcGIS w usłudze Power BI
@@ -384,9 +384,9 @@ items:
       href: desktop-accessibility.md
     - name: Zarządzanie formularzem logowania programu Power BI Desktop
       href: desktop-admin-sign-in-form.md
-- name: w usłudze Power BI
+- name: Usługa Power BI
   items:
-  - name: Omówienie
+  - name: Przegląd
     items:
     - name: Co to jest usługa Power BI?
       href: power-bi-overview.md
@@ -850,7 +850,7 @@ items:
     href: developer/what-can-you-do.md
   - name: Osadzona analiza
     items:
-    - name: Omówienie
+    - name: Przegląd
       items:
       - name: Co jest osadzane za pomocą usługi Power BI
         href: developer/embedding.md
@@ -948,7 +948,7 @@ items:
         href: https://go.microsoft.com/fwlink/?linkid=848281
   - name: Wizualizacje niestandardowe
     items:
-    - name: Omówienie
+    - name: Przegląd
       items:
       - name: Wizualizacje niestandardowe w usłudze Power BI
         href: power-bi-custom-visuals.md
@@ -1002,7 +1002,7 @@ items:
         href: https://go.microsoft.com/fwlink/?linkid=848277
   - name: Automatyzacja
     items:
-    - name: Omówienie
+    - name: Przegląd
       items:
       - name: Co mogę zrobić za pomocą interfejsu API usługi Power BI?
         href: developer/overview-of-power-bi-rest-api.md
@@ -1052,7 +1052,7 @@ items:
         href: https://go.microsoft.com/fwlink/?linkid=848274
 - name: serwerze raportów usługi Power BI
   items:
-  - name: Omówienie
+  - name: Przegląd
     items:
     - name: Co to jest serwer raportów usługi Power BI?
       href: report-server/get-started.md
@@ -1156,7 +1156,7 @@ items:
       href: report-server/capacity-planning.md
 - name: Bramy
   items:
-  - name: Omówienie
+  - name: Przegląd
     items:
     - name: Co to są bramy usługi Power BI?
       href: service-gateway-getting-started.md
@@ -1214,7 +1214,7 @@ items:
       href: service-gateway-onprem-tshoot.md
 - name: Administracja
   items:
-  - name: Omówienie
+  - name: Przegląd
     items:
     - name: Co to jest administracja usługi Power BI?
       href: service-admin-administering-power-bi-in-your-organization.md
@@ -1293,9 +1293,9 @@ items:
       href: service-admin-governance.md
     - name: Zabezpieczenia usługi Power BI
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: a3abfd814e95ca00c433b66e7fe6aad665f8426f
-ms.sourcegitcommit: 4695f5ef54cc9929828320132f890317b4c3018e
+ms.openlocfilehash: b3553d493940b831e3e604fe43176ace125fe995
+ms.sourcegitcommit: 658b0de4f5a544d0906665b40925552804a61880
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/12/2019
-ms.locfileid: "54239295"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "54406735"
