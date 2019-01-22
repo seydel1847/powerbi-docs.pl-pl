@@ -30,7 +30,7 @@ Instrukcje te zapewniają dwie potencjalne opcje ręcznego gromadzenia dodatkowy
    ![Narzędzia deweloperskie](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-developer-tools.png)
 4. Przejdź do karty Sieć. Wyświetlony zostanie ruch, który został już przechwycony. 
    
-   ![Karta Sieć w programie Edge](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-network-tab.png)
+   ![Karta Sieć w programie Microsoft Edge](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-network-tab.png)
 5. Możesz wybrać w oknie i odtworzyć dowolny problem, który mógł wystąpić. Okno narzędzi dla deweloperów możesz w każdej chwili ukryć i pokazać podczas sesji, naciskając klawisz F12.
 6. Aby zatrzymać przechwytywanie, możesz wybrać czerwony kwadrat na karcie sieciowej w obszarze narzędzi dla deweloperów.
    
