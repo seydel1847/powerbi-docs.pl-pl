@@ -1,22 +1,22 @@
 ---
 title: Subskrybowanie raportów i pulpitów nawigacyjnych w usłudze Power BI
-description: Dowiedz się, jak uzyskać dla siebie i innych subskrypcję migawki raportu i pulpitu nawigacyjnego usługi Power BI.
-author: mihart
-manager: kvivek
+description: Dowiedz się, jak subskrybować dla innych osób migawki raportu i pulpitu nawigacyjnego usługi Power BI.
+author: maggiesMSFT
+manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/04/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: f813822b269a51e55947d73c5107675cbe428d96
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 73e89b0228a1adf78bf1676749f910c6d1866a81
+ms.sourcegitcommit: 658b0de4f5a544d0906665b40925552804a61880
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54293815"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "54406643"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-power-bi-service"></a>Subskrybowanie raportu i pulpitu nawigacyjnego w usłudze Power BI
 Nigdy nie było łatwiej być na czasie w przypadku najważniejszych pulpitów nawigacyjnych i raportów. Zasubskrybuj dla siebie i swoich współpracowników strony raportów oraz pulpity nawigacyjne, które są najważniejsze dla Ciebie, a usługa Power BI wyśle wiadomość e-mail z migawką do Twojej skrzynki odbiorczej. Poinformuj usługę Power BI, jak często chcesz otrzymywać wiadomości e-mail: od raz dziennie do raz w tygodniu. 

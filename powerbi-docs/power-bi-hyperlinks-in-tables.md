@@ -1,22 +1,22 @@
 ---
 title: Dodawanie hiperlinków do tabeli
 description: Użyj programu Power BI Desktop do tworzenia hiperlinków. Następnie użyj programu Power BI Desktop lub usługi Power BI, aby dodać je do macierzy i tabel raportu.
-author: mihart
-manager: kvivek
+author: maggiesMSFT
+manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/06/2018
-ms.author: mihart
+ms.date: 01/16/2019
+ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 637253e3cffebcba7df0a3bc3ce44e943b909364
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 972abb3781cbaaff8a9617b70988c21f7389d4f9
+ms.sourcegitcommit: 658b0de4f5a544d0906665b40925552804a61880
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279900"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "54406666"
 ---
 # <a name="add-hyperlinks-to-a-table"></a>Dodawanie hiperlinków do tabeli
 W tym temacie opisano, jak tworzyć hiperlinki, używając programu Power BI Desktop. Następnie użyj programu Power BI Desktop lub usługi Power BI, aby dodać je do macierzy i tabel raportu. 
@@ -25,7 +25,6 @@ W tym temacie opisano, jak tworzyć hiperlinki, używając programu Power BI Des
 
 > [!NOTE]
 > Hiperlinki w [kafelkach na pulpitach nawigacyjnym](service-dashboard-edit-tile.md) i [polach tekstowych na pulpitach nawigacyjnych](service-dashboard-add-widget.md) mogą być tworzone na bieżąco przy użyciu usługi Power BI. Hiperlinki w [polach tekstowych w raportach](service-add-hyperlink-to-text-box.md) mogą być tworzone na bieżąco przy użyciu usługi Power BI i programu Power BI Desktop.
-> 
 > 
 
 ## <a name="to-create-a-hyperlink-in-a-table-or-matrix-using-power-bi-desktop"></a>Tworzenie hiperlinku w tabeli lub macierzy przy użyciu programu Power BI Desktop
@@ -56,7 +55,7 @@ Procedura dodawania hiperlinku zależy od tego, czy dane zostały zaimportowane,
 6. (Opcjonalnie) [Opublikuj raport z programu Power BI Desktop do usługi Power BI](guided-learning/publishingandsharing.yml?tutorial-step=2) i otwórz raport w usłudze Power BI. Hiperlinki będą działać także tam.
 
 ### <a name="for-data-connected-with-directquery"></a>W przypadku danych połączonych przy użyciu zapytania bezpośredniego
-W trybie zapytania bezpośredniego nie można utworzyć nowej kolumny.  Jeśli jednak dane zawierają już adresy URL, można przekształcić je w hiperlinki.
+Nie można utworzyć nowej kolumny w trybie zapytania bezpośredniego.  Jeśli jednak dane zawierają już adresy URL, można przekształcić je w hiperlinki.
 
 1. W widoku raportu utwórz tabelę za pomocą pola, które zawiera adresy URL.
 2. Zaznacz kolumnę, a następnie na karcie **Modelowanie** wybierz listę rozwijaną **Kategoria danych**.

@@ -10,12 +10,12 @@ ms.topic: quickstart
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: quickstart
-ms.openlocfilehash: 4b8cd79eca1711b424d772737b27400f9291cef0
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 4d121a469257c79e37212ab0e357bb9ee8be68ec
+ms.sourcegitcommit: 19b4d45db8f55cdbb5d7de0d61f6be5163a2852e
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279210"
+ms.lasthandoff: 01/22/2019
+ms.locfileid: "54420791"
 ---
 # <a name="quickstart-connect-to-data-in-power-bi-desktop"></a>Szybki start: Łączenie się z danymi w programie Power BI Desktop
 
@@ -39,13 +39,13 @@ Po zainstalowaniu programu **Power BI Desktop** uruchom aplikację na komputerze
 
 ## <a name="connect-to-data"></a>Łączenie się z danymi
 
-Korzystając z programu **Power BI Desktop**, możesz nawiązywać połączenie z wieloma różnymi typami danych. Mogą być to połączenia z podstawowymi źródłami danych, takimi jak plik programu Microsoft Excel, oraz połączenia z usługami online, zawierającymi różne rodzaje danych, takimi jak Salesforce, Microsoft Dynamics, Azure Blob Storage i wiele innych. 
+Korzystając z programu **Power BI Desktop**, możesz nawiązywać połączenie z wieloma różnymi typami danych. Mogą być to połączenia z podstawowymi źródłami danych, takimi jak plik programu Microsoft Excel, oraz połączenia z usługami online, zawierającymi różne rodzaje danych, takimi jak Salesforce, Microsoft Dynamics, Azure Blob Storage i wiele innych.
 
 Aby nawiązać połączenie z danymi, ze wstążki **Narzędzia główne** wybierz pozycję **Pobierz dane**.
 
 ![Pobierz dane](media/desktop-quickstart-connect-to-data/qs-connect-data_02.png)
 
-Zostanie wyświetlone okno **Pobieranie danych**, w którym można wybrać wiele różnych źródeł danych, z którymi program **Power BI Desktop** może się łączyć. W tym przewodniku Szybki start używamy pobranego skoroszytu programu Excel, opisanego w sekcji *Wymagania wstępne* na początku tego artykułu. 
+Zostanie wyświetlone okno **Pobieranie danych**, w którym można wybrać wiele różnych źródeł danych, z którymi program **Power BI Desktop** może się łączyć. W tym przewodniku Szybki start używamy pobranego skoroszytu programu Excel, opisanego w sekcji *Wymagania wstępne* na początku tego artykułu.
 
 ![Pobierz dane](media/desktop-quickstart-connect-to-data/qs-connect-data_03.png)
 
@@ -69,10 +69,8 @@ Po załadowaniu tabel w okienku **Pola** zostaną wyświetlone dane. Można rozw
 
 I to już wszystko! Po nawiązaniu połączenia z danymi w programie **Power BI Desktop** i załadowaniu danych można wyświetlić wszystkie dostępne pola w tych tabelach.
 
-
 ## <a name="next-steps"></a>Następne kroki
+
 Istnieje wiele różnych sposobów korzystania z programu **Power BI Desktop** po nawiązaniu połączenia z danymi, takich jak tworzenie wizualizacji i raportów. Aby rozpocząć pracę, zapoznaj się z następującym zasobem:
 
 * [Wprowadzenie (podręcznik) dla programu Power BI Desktop](desktop-getting-started.md)
-
-

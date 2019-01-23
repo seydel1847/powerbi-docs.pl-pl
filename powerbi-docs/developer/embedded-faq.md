@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 12/20/2018
-ms.openlocfilehash: f9e33e78a5cd1141a09eaf226f41a3f52aaebab7
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.date: 01/17/2018
+ms.openlocfilehash: cd32b644205629ce62579f5a720d486f93073dea
+ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54284063"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "54394736"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Często zadawane pytania dotyczące usługi Power BI Embedded
 
@@ -47,7 +47,7 @@ Usługa Power BI Embedded jest przeznaczona dla niezależnych dostawców oprogra
 
 Firma Microsoft zaleca przedsiębiorstwom zakup usługi Power BI Premium, czyli samoobsługowego rozwiązania analizy biznesowej w chmurze klasy korporacyjnej, natomiast niezależnym dostawcom oprogramowania poleca zakup usługi Power BI Embedded, czyli składników osadzonej analizy opartych na chmurze. Nie ma jednak żadnych ograniczeń dotyczących produktu, który klient może kupić.
 
-W niektórych przypadkach niezależny dostawca oprogramowania (działający zazwyczaj na dużą skalę) zechce użyć jednostki SKU P, aby skorzystać z dodatkowych korzyści wstępnie spakowanej usługi Power BI w swojej organizacji oraz mieć możliwość osadzania aplikacji. Inne przedsiębiorstwa mogą być zainteresowane wyłącznie tworzeniem aplikacji biznesowych i osadzaniem w nich analizy, ale bez korzystania ze wstępnie spakowanej usługi Power BI, i w takim przypadku mogą zdecydować się na użycie jednostek SKU A na platformie Azure.
+W niektórych przypadkach niezależny dostawca oprogramowania (działający zazwyczaj na dużą skalę) zechce użyć jednostki SKU P, aby skorzystać z dodatkowych korzyści wstępnie spakowanej usługi Power BI w swojej organizacji oraz mieć możliwość osadzania aplikacji. Niektóre przedsiębiorstwa mogą być zainteresowane wyłącznie tworzeniem aplikacji biznesowych i osadzaniem w nich analizy, ale bez korzystania ze wstępnie dołączonej usługi Power BI — w takim przypadku mogą zdecydować się na użycie jednostek SKU A na platformie Azure.
 
 ### <a name="how-many-embed-tokens-can-i-create"></a>Ile mogę utworzyć tokenów osadzania?
 
@@ -59,7 +59,7 @@ Tokeny osadzania z licencją PRO są przeznaczone do celów projektowania i test
 
 PowerBI.com to rozwiązanie dla przedsiębiorstw oferowane w modelu SaaS, które obejmuje wiele funkcji, takich jak współpraca w społeczności czy subskrypcja wiadomości e-mail.
 
-Usługa Power BI Embedded to zestaw interfejsów API udostępnionych deweloperom, aby umożliwić im tworzenie osadzonego rozwiązania do analizy w ramach modelu PaaS. W przypadku scenariusza osadzonej analizy witryna PowerBI.com powinna być używana w celu ułatwienia niezależnym dostawcom oprogramowania i deweloperom zarządzania zawartością osadzonego rozwiązania do analizy oraz ustawieniami poziomu dzierżawy.
+Usługa Power BI Embedded to zestaw interfejsów API udostępnionych deweloperom, aby umożliwić im tworzenie osadzonego rozwiązania do analizy w ramach modelu PaaS. W przypadku scenariusza osadzonej analizy witryna PowerBI.com ułatwia niezależnym dostawcom oprogramowania i deweloperom zarządzanie zawartością osadzonego rozwiązania do analizy oraz ustawieniami poziomu dzierżawy.
 
 Poniżej przedstawiono skróconą listę różnych funkcji, których można używać z poszczególnymi jednostkami SKU.
 
@@ -106,9 +106,9 @@ Chociaż obecnie funkcja automatycznego skalowania nie jest dostępna, wszystkie
 
 Aprowizowanie pojemności (skalowanie/wznawianie/tworzenie) może zakończyć się niepowodzeniem. Obiekt wywołujący wywołania aprowizowania musi sprawdzić stan ProvisioningState pojemności przy użyciu interfejsu API pobierania szczegółów: [Pojemności — Pobierz szczegóły](https://docs.microsoft.com/rest/api/power-bi-embedded/capacities/getdetails).
 
-### <a name="why-can-i-only-create-pbie-in-a-specific-region"></a>Dlaczego mogę utworzyć usługę PBIE tylko w określonym regionie?
+### <a name="can-i-only-create-power-bi-embedded-capacities-in-a-specific-region"></a>Czy mogę tworzyć pojemności usługi Power BI Embedded tylko w określonym regionie?
 
-Pojemności PBIE można tworzyć tylko w swoim regionie dzierżawy usługi PBI.
+Dzięki funkcji [Multi-Geo (wersja zapoznawcza)](embedded-multi-geo.md) możesz kupić [pojemność usługi Power BI Embedded](azure-pbie-create-capacity.md) w regionie innym niż lokalizacja Twojej głównej dzierżawy usługi Power BI
 
 ### <a name="how-can-i-find-what-is-my-pbi-tenant-region"></a>Jak mogę znaleźć swój region dzierżawy usługi PBI?
 
@@ -157,9 +157,9 @@ Dostępne regiony (16 — te same regiony, co w usłudze Power BI)
 
 ### <a name="what-is-the-authentication-model-for-power-bi-embedded"></a>Z jakiego modelu uwierzytelnienia korzysta usługa Power BI Embedded?
 
-Usługa Power BI Embedded będzie nadal używała usługi Azure AD do uwierzytelniania użytkownika głównego (wyznaczonego licencjonowanego użytkownika usługi Power BI Pro), tym samym uwierzytelniając aplikację w usłudze Power BI.
+Usługa Power BI Embedded nadal używa usługi Azure AD do uwierzytelniania użytkownika głównego (wyznaczonego licencjonowanego użytkownika usługi Power BI Pro), tym samym uwierzytelniając aplikację w usłudze Power BI.
 
-Mechanizmy uwierzytelniania i autoryzacji użytkowników aplikacji zostaną zaimplementowane przez niezależnego dostawcę oprogramowania — może on też zaimplementować w swoich aplikacjach własny mechanizm uwierzytelniania.
+Mechanizmy uwierzytelniania i autoryzacji użytkowników aplikacji są implementowane przez niezależnego dostawcę oprogramowania — może on zaimplementować w swoich aplikacjach własny mechanizm uwierzytelniania.
 
 Jeśli masz już dzierżawę usługi Azure AD, możesz użyć istniejącego katalogu lub utworzyć nową dzierżawę usługi Azure AD w celu zabezpieczenia zawartości aplikacji osadzonej.
 
@@ -228,15 +228,15 @@ Klienci mogą zmieniać poziom użycia co godzinę. Usługa Power BI Embedded ni
 
 ### <a name="how-does-the-usage-of-power-bi-embedded-show-up-on-my-bill"></a>Jak użycie usługi Power BI Embedded jest rozliczane na rachunku?
 
-W przypadku usługi Power BI Embedded stosowana jest stała, przewidywalna stawka godzinowa zależna od typu wdrażanych węzłów. Tak długo, jak zasób jest aktywny, opłaty będą naliczane nawet wtedy, gdy nie będzie on używany. Aby zatrzymać naliczanie opłat, musisz aktywnie wstrzymać zasób.
+W przypadku usługi Power BI Embedded stosowana jest stała, przewidywalna stawka godzinowa zależna od typu wdrażanych węzłów. Tak długo, jak zasób jest aktywny, opłaty są naliczane nawet wtedy, gdy nie jest on używany. Aby zatrzymać naliczanie opłat, musisz aktywnie wstrzymać zasób.
 
 ### <a name="who-needs-a-power-bi-pro-license-for-power-bi-embedded-and-why"></a>Kto potrzebuje licencji usługi Power BI Pro dla usługi Power BI Embedded i dlaczego?
 
-Licencję usługi Power BI Pro musi posiadać każdy analityk dodający raporty do obszaru roboczego usługi Power BI, każdy deweloper korzystający z interfejsów API REST oraz każdy administrator dzierżawy zarządzający dzierżawą i pojemnością usługi Power BI.
+Każdy analityk, który chce dodawać raporty do obszaru roboczego usługi Power BI, musi mieć licencję usługi Power BI. Każdy deweloper, który chce używać interfejsów API REST, musi mieć licencję usługi Power BI Pro. Każdy administrator dzierżawy, który chce zarządzać dzierżawą i pojemnością usługi Power BI, musi mieć licencję usługi Power BI Pro.
 
 Ponieważ usługa Power BI Embedded umożliwia korzystanie z portalu usługi Power BI do zarządzania i sprawdzania osadzonej zawartości, posiadanie licencji usługi Power BI Pro jest wymagane do uwierzytelnienia aplikacji w ramach witryny PowerBI.com, a tym samym uzyskania dostępu do raportów we właściwych repozytoriach.
 
-Jednak w przypadku [tworzenia/edytowania raportów osadzonych](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Create-Report-in-Embed-View) wewnątrz własnej aplikacji, użytkownik końcowy nie potrzebuje licencji Pro, ponieważ w ogóle nie musi być użytkownikiem usługi Power BI.
+Jednak w przypadku [tworzenia/edytowania raportów osadzonych](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Create-Report-in-Embed-View) wewnątrz własnej aplikacji użytkownik końcowy nie potrzebuje licencji Pro, ponieważ w ogóle nie musi być użytkownikiem usługi Power BI.
 
 ### <a name="can-i-get-started-for-free"></a>Czy mogę zacząć korzystać z usługi bezpłatnie?
 
@@ -279,7 +279,7 @@ Tak, ale klienci, którzy już używają rozwiązania **Kolekcja obszarów roboc
 
 Oznacza to jednak również, że nowe funkcje nie są dodawane do żadnych rozwiązań typu **Kolekcja obszarów roboczych usługi Power BI**, a klienci są zachęcani do przeprowadzania migracji do nowego rozwiązania **Power BI Embedded**.
 
-### <a name="when-will-power-bi-workspace-collection-support-be-discontinued"></a>Kiedy zakończy się świadczenie pomocy technicznej dla rozwiązania Kolekcja obszarów roboczych usługi Power BI?
+### <a name="when-is-power-bi-workspace-collection-support-discontinued"></a>Kiedy kończy się świadczenie pomocy technicznej dla rozwiązania Kolekcja obszarów roboczych usługi Power BI?
 
 Klienci, którzy już używają rozwiązania **Kolekcja obszarów roboczych usługi Power BI**, mogą z niego korzystać do końca czerwca 2018 r. lub do zakończenia okresu obowiązywania umowy dotyczącej pomocy technicznej.
 

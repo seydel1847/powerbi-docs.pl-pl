@@ -1,24 +1,24 @@
 ---
 title: Pola tekstowe i kształty w raportach usługi Power BI
 description: Dokumentacja dotycząca dodawania i tworzenia pól tekstowych i kształtów w raporcie przy użyciu usługi Microsoft Power BI.
-author: mihart
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 featuredvideoid: _3q6VEBhGew
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/22/2018
-ms.author: mihart
+ms.date: 01/16/2019
+ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 937e15f5cd56f7c720afa945598f9fc1641468f7
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: cf5cecc8df5c1e6c3057cab6eb41e40e934b1510
+ms.sourcegitcommit: 658b0de4f5a544d0906665b40925552804a61880
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54295540"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "54406551"
 ---
-# <a name="static-content-in-power-bi-reports"></a>Zawartość statyczna w raportach usługi Power BI
+# <a name="text-boxes-and-shapes-power-bi-reports"></a>Pola tekstowe i kształty w raportach usługi Power BI
 Pola tekstowe i kształty można dodać do raportów za pomocą usługi Power BI i programu Power BI Desktop. W obu przypadkach musisz mieć uprawnienia do edytowania raportu. Jeśli raport udostępniono Ci w usłudze Power BI, nie będziesz mieć uprawnień do edycji. 
 
 Zobacz, jak Will używa programu Power BI Desktop w celu [dodania obrazów statycznych do raportu](guided-learning/visualizations.yml?tutorial-step=11), a następnie wykonaj poniższe kroki, aby spróbować zrobić to samodzielnie przy użyciu usługi Power BI.
